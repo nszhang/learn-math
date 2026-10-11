@@ -24,7 +24,11 @@ and teacher rosters.
 - 🧮 **Linear equations** — animated balance solver (play/pause/back/speed)
 - 🔢 **Exp & log equations** — animated step-by-step solver
 - 📈 **Lines** — y = mx + b playground with zoom + match-the-line game
-- 📉 **Curves** — y = a·bˣ and y = a·log_b(x) playground with zoom
+- 📉 **Curves** — y = a·bˣ and y = a·log_b(x) playground with zoom, plus a
+  **Desmos-style custom grapher**: type any expression in x (up to 6 at once,
+  each in its own color) — supports `+ - * / ^`, parentheses, implicit
+  multiplication (`2x`, `2(x+1)`), `sin cos tan asin acos atan sqrt abs ln log
+  log2 exp floor ceil sign sinh cosh tanh`, and constants `pi` & `e`
 
 ## Quick start
 

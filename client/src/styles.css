@@ -623,3 +623,26 @@ body {
   font-size: 1.02rem; line-height: 1.5; text-align: center;
   animation: chip-in .35s ease;
 }
+
+/* ---------- custom expression list (Desmos-style) ---------- */
+.expr-list { margin-bottom: 12px; }
+.expr-row {
+  display: flex; align-items: center; gap: 8px;
+  flex-wrap: wrap; margin-bottom: 8px;
+}
+.expr-dot { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; }
+.expr-y { font-family: "Cambria Math", Georgia, serif; font-weight: 700; color: var(--muted); }
+.expr-input {
+  flex: 1; min-width: 160px; padding: 9px 12px;
+  border: 2px solid var(--line); border-radius: 10px;
+  font: inherit; font-family: "Cambria Math", Georgia, serif; font-size: 1.05rem;
+}
+.expr-input:focus { outline: none; border-color: var(--primary); }
+.expr-input.invalid { border-color: var(--red); }
+.expr-del { padding: 4px 8px; }
+.expr-error { width: 100%; color: var(--red); font-size: .82rem; padding-left: 24px; }
+.expr-add { margin-top: 2px; }
+.graph-facts code {
+  background: var(--primary-light); color: var(--primary);
+  border-radius: 5px; padding: 1px 6px; font-size: .85em;
+}
