@@ -1,0 +1,15 @@
+{
+  "name": "mathace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "K-12 math learning app — React + Express + PostgreSQL",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install",
+    "db": "docker compose up -d db",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test"
+  }
+}
