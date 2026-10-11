@@ -105,9 +105,10 @@ export default function GraphPlayground({ toast, fireConfetti }) {
     return () => { window.removeEventListener('keydown', down); window.removeEventListener('keyup', up); };
   }, []);
 
-  // ctrl+left-drag panning (Desmos-style): content follows the mouse
+  // left-drag panning (Desmos-style): content follows the mouse.
+  // Works with or without ctrl/cmd held.
   function onPointerDown(e) {
-    if (e.button !== 0 || !(e.ctrlKey || e.metaKey)) return;
+    if (e.button !== 0) return;
     e.preventDefault();
     e.currentTarget.setPointerCapture?.(e.pointerId);
     setDrag({ mx: e.clientX, my: e.clientY, cx: center.x, cy: center.y });
@@ -178,8 +179,16 @@ export default function GraphPlayground({ toast, fireConfetti }) {
           <svg ref={svgRef} width={SIZE} height={SIZE} className="graph-svg" aria-label="coordinate plane"
             onPointerDown={onPointerDown} onPointerMove={onPointerMove}
             onPointerUp={onPointerUp} onPointerLeave={onPointerUp}
+            onPointerCancel={onPointerUp}
+            onDragStart={e => e.preventDefault()} draggable={false}
             style={{ cursor: drag ? 'grabbing' : ctrlDown ? 'grab' : 'crosshair' }}>
             {/* grid + ticks (adaptive to zoom) */}
+            {ticks(range, step / 5, center.x).map(v => (
+              <line key={'mx' + v} x1={toX(v)} y1={0} x2={toX(v)} y2={SIZE} stroke="#f1f5f9" strokeWidth="1" />
+            ))}
+            {ticks(range, step / 5, center.y).map(v => (
+              <line key={'my' + v} x1={0} y1={toY(v)} x2={SIZE} y2={toY(v)} stroke="#f1f5f9" strokeWidth="1" />
+            ))}
             {ticks(range, step, center.x).map(v => (
               <line key={'vx' + v} x1={toX(v)} y1={0} x2={toX(v)} y2={SIZE} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
             ))}
@@ -224,7 +233,7 @@ export default function GraphPlayground({ toast, fireConfetti }) {
             <button type="button" className="btn btn-ghost"
               onClick={() => { setZoom(1); setCenter({ x: 0, y: 0 }); }}
               disabled={zoom === 1 && center.x === 0 && center.y === 0}>Reset</button>
-            <span className="muted zoom-hint">scroll to zoom • ctrl+drag to pan</span>
+            <span className="muted zoom-hint">drag to pan • scroll to zoom</span>
           </div>
 
           <div className="graph-eq">{eqText}</div>
