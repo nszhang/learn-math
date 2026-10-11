@@ -4,8 +4,7 @@ import { fmtNum } from '../../learn/learnLinear.js';
 
 const BASE_RANGE = 10;     // visible math units at 1× zoom
 const SIZE = 440;          // svg px
-const ZOOM_MIN = 0.1;
-const ZOOM_MAX = 1000;
+const ZOOM_LIMIT = 1e30;   // float-safety only — effectively unlimited, like Desmos
 const ZOOM_STEP = 1.25;
 
 // "nice" 1-2-5 step so ~10 grid intervals always fill the view
@@ -27,10 +26,14 @@ function ticks(range, step, center) {
 
 function fmtTick(v, step) {
   const decimals = Math.max(0, -Math.floor(Math.log10(step) + 1e-9));
-  return String(Number(v.toFixed(Math.min(decimals, 12))));
+  // keep plain decimal form (Number→String would switch to exponential)
+  let s = v.toFixed(Math.min(decimals, 12));
+  if (s.includes('.')) s = s.replace(/0+$/, '').replace(/\.$/, '');
+  return s === '-0' || s === '' ? '0' : s;
 }
 
 function fmtZoom(z) {
+  if (z >= 10000 || z < 0.01) return z.toExponential(0);
   return z >= 10 ? String(Math.round(z)) : String(Number(z.toFixed(2)));
 }
 
@@ -72,7 +75,7 @@ export default function GraphPlayground({ toast, fireConfetti }) {
   const range = BASE_RANGE / zoom;
   const scale = SIZE / (range * 2);
   // grid square granularity clamped to a readable 0.1–100 units
-  const step = Math.min(100, Math.max(0.1, niceStep(range * 2)));
+  const step = niceStep(range * 2);
   const toX = x => (x - center.x + range) * scale;
   const toY = y => (range - (y - center.y)) * scale;
 
@@ -87,14 +90,13 @@ export default function GraphPlayground({ toast, fireConfetti }) {
     const onWheel = e => {
       e.preventDefault();
       const factor = e.deltaY < 0 ? ZOOM_STEP : 1 / ZOOM_STEP;
-      setZoom(z => Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, Math.round(z * factor * 1000) / 1000)));
+      setZoom(z => Math.min(ZOOM_LIMIT, Math.max(1 / ZOOM_LIMIT, z * factor)));
     };
     el.addEventListener('wheel', onWheel, { passive: false });
     return () => el.removeEventListener('wheel', onWheel);
   }, []);
 
-  const zoomBy = factor =>
-    setZoom(z => Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, Math.round(z * factor * 1000) / 1000)));
+  const zoomBy = f => setZoom(z => Math.min(ZOOM_LIMIT, Math.max(1 / ZOOM_LIMIT, z * f)));
 
   // ctrl/meta key tracking for the pan cursor
   useEffect(() => {
@@ -226,10 +228,10 @@ export default function GraphPlayground({ toast, fireConfetti }) {
 
           <div className="zoom-bar">
             <button type="button" className="btn btn-ghost stepper-btn" aria-label="zoom out"
-              onClick={() => zoomBy(1 / ZOOM_STEP)} disabled={zoom <= ZOOM_MIN}>−</button>
+              onClick={() => zoomBy(1 / ZOOM_STEP)}>−</button>
             <span className="zoom-label">🔍 {fmtZoom(zoom)}×</span>
             <button type="button" className="btn btn-ghost stepper-btn" aria-label="zoom in"
-              onClick={() => zoomBy(ZOOM_STEP)} disabled={zoom >= ZOOM_MAX}>+</button>
+              onClick={() => zoomBy(ZOOM_STEP)}>+</button>
             <button type="button" className="btn btn-ghost"
               onClick={() => { setZoom(1); setCenter({ x: 0, y: 0 }); }}
               disabled={zoom === 1 && center.x === 0 && center.y === 0}>Reset</button>
