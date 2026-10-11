@@ -16,14 +16,12 @@ function niceStep(span) {
   return 10 * mag;
 }
 
-// tick values across [-range, range] at the given step
-function ticks(range, step) {
+// tick values across the visible [center-range, center+range] window
+function ticks(range, step, center) {
   const out = [];
-  const n = Math.ceil(range / step);
-  for (let i = -n; i <= n; i++) {
-    const v = i * step;
-    if (Math.abs(v) <= range + 1e-9) out.push(v);
-  }
+  const i0 = Math.ceil((center - range) / step);
+  const i1 = Math.floor((center + range) / step);
+  for (let i = i0; i <= i1; i++) out.push(i * step);
   return out;
 }
 
@@ -63,17 +61,20 @@ export default function GraphPlayground({ toast, fireConfetti }) {
   const [m, setM] = useState(1);
   const [b, setB] = useState(2);
   const [zoom, setZoom] = useState(1);
+  const [center, setCenter] = useState({ x: 0, y: 0 });
   const [mode, setMode] = useState('explore'); // 'explore' | 'match'
   const [target, setTarget] = useState(() => ({ m: ri(-4, 4) || 2, b: ri(-8, 8) }));
   const [won, setWon] = useState(false);
+  const [drag, setDrag] = useState(null);
+  const [ctrlDown, setCtrlDown] = useState(false);
   const svgRef = useRef(null);
 
   const range = BASE_RANGE / zoom;
   const scale = SIZE / (range * 2);
   // grid square granularity clamped to a readable 0.1–100 units
   const step = Math.min(100, Math.max(0.1, niceStep(range * 2)));
-  const toX = x => (x + range) * scale;
-  const toY = y => (range - y) * scale;
+  const toX = x => (x - center.x + range) * scale;
+  const toY = y => (range - (y - center.y)) * scale;
 
   const matched = mode === 'match' && m === target.m && b === target.b;
   const change = setter => e => setter(Number(e.target.value));
@@ -94,6 +95,31 @@ export default function GraphPlayground({ toast, fireConfetti }) {
 
   const zoomBy = factor =>
     setZoom(z => Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, Math.round(z * factor * 1000) / 1000)));
+
+  // ctrl/meta key tracking for the pan cursor
+  useEffect(() => {
+    const down = e => { if (e.key === 'Control' || e.key === 'Meta') setCtrlDown(true); };
+    const up = e => { if (e.key === 'Control' || e.key === 'Meta') setCtrlDown(false); };
+    window.addEventListener('keydown', down);
+    window.addEventListener('keyup', up);
+    return () => { window.removeEventListener('keydown', down); window.removeEventListener('keyup', up); };
+  }, []);
+
+  // ctrl+left-drag panning (Desmos-style): content follows the mouse
+  function onPointerDown(e) {
+    if (e.button !== 0 || !(e.ctrlKey || e.metaKey)) return;
+    e.preventDefault();
+    e.currentTarget.setPointerCapture?.(e.pointerId);
+    setDrag({ mx: e.clientX, my: e.clientY, cx: center.x, cy: center.y });
+  }
+  function onPointerMove(e) {
+    if (!drag) return;
+    setCenter({
+      x: drag.cx - (e.clientX - drag.mx) / scale,
+      y: drag.cy + (e.clientY - drag.my) / scale
+    });
+  }
+  const onPointerUp = () => setDrag(null);
 
   // − / + buttons that nudge a value in clean increments (works even where
   // range-slider dragging is awkward)
@@ -128,7 +154,8 @@ export default function GraphPlayground({ toast, fireConfetti }) {
   }
 
   // slope triangle from (0,b) to (1, b+m), drawn when fully visible
-  const triVisible = Math.abs(b) <= range && Math.abs(b + m) <= range;
+  const triVisible = Math.abs(0 - center.x) <= range && Math.abs(1 - center.x) <= range &&
+                     Math.abs(b - center.y) <= range && Math.abs(b + m - center.y) <= range;
 
   const eqText = `y = ${m === 0 ? '' : (m === 1 ? 'x' : m === -1 ? '−x' : fmtNum(m) + 'x')}${m === 0 ? fmtNum(b) : (b > 0 ? ' + ' + b : b < 0 ? ' − ' + Math.abs(b) : '')}`;
 
@@ -148,19 +175,26 @@ export default function GraphPlayground({ toast, fireConfetti }) {
         </div>
 
         <div className="graph-wrap">
-          <svg ref={svgRef} width={SIZE} height={SIZE} className="graph-svg" aria-label="coordinate plane">
+          <svg ref={svgRef} width={SIZE} height={SIZE} className="graph-svg" aria-label="coordinate plane"
+            onPointerDown={onPointerDown} onPointerMove={onPointerMove}
+            onPointerUp={onPointerUp} onPointerLeave={onPointerUp}
+            style={{ cursor: drag ? 'grabbing' : ctrlDown ? 'grab' : 'crosshair' }}>
             {/* grid + ticks (adaptive to zoom) */}
-            {ticks(range, step).map(v => (<g key={v}>
-              <line x1={toX(v)} y1={0} x2={toX(v)} y2={SIZE} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
-              <line x1={0} y1={toY(v)} x2={SIZE} y2={toY(v)} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
-              {v !== 0 && (<>
-                <text x={toX(v)} y={toY(0) + 14} fontSize="10" fill="#94a3b8" textAnchor="middle">{fmtTick(v, step)}</text>
-                <text x={toX(0) + 5} y={toY(v) + 3} fontSize="10" fill="#94a3b8">{fmtTick(v, step)}</text>
-              </>)}
-            </g>))}
+            {ticks(range, step, center.x).map(v => (
+              <line key={'vx' + v} x1={toX(v)} y1={0} x2={toX(v)} y2={SIZE} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
+            ))}
+            {ticks(range, step, center.y).map(v => (
+              <line key={'hy' + v} x1={0} y1={toY(v)} x2={SIZE} y2={toY(v)} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
+            ))}
+            {ticks(range, step, center.x).map(v => v !== 0 && (
+              <text key={'tx' + v} x={toX(v)} y={toY(0) + 14} fontSize="10" fill="#94a3b8" textAnchor="middle">{fmtTick(v, step)}</text>
+            ))}
+            {ticks(range, step, center.y).map(v => v !== 0 && (
+              <text key={'ty' + v} x={toX(0) + 5} y={toY(v) + 3} fontSize="10" fill="#94a3b8">{fmtTick(v, step)}</text>
+            ))}
 
             {/* target line (match mode) */}
-            {mode === 'match' && <Line m={target.m} b={target.b} range={range} scale={scale} dashed color={matched ? '#16a34a' : '#a855f7'} width={3} />}
+            {mode === 'match' && <Line m={target.m} b={target.b} range={range} scale={scale} center={center} dashed color={matched ? '#16a34a' : '#a855f7'} width={3} />}
 
             {/* slope triangle */}
             {triVisible && m !== 0 && (<g>
@@ -171,10 +205,10 @@ export default function GraphPlayground({ toast, fireConfetti }) {
             </g>)}
 
             {/* the student's line */}
-            <Line m={m} b={b} range={range} scale={scale} color={matched ? '#16a34a' : '#4f46e5'} width={4} />
+            <Line m={m} b={b} range={range} scale={scale} center={center} color={matched ? '#16a34a' : '#4f46e5'} width={4} />
 
             {/* y-intercept dot */}
-            {Math.abs(b) <= range && (<g>
+            {Math.abs(0 - center.x) <= range && Math.abs(b - center.y) <= range && (<g>
               <circle cx={toX(0)} cy={toY(b)} r="6" fill={matched ? '#16a34a' : '#4f46e5'} stroke="#fff" strokeWidth="2" />
               <text x={toX(0) - 8} y={toY(b) - 10} fontSize="12" fontWeight="700"
                 fill={matched ? '#16a34a' : '#4f46e5'} textAnchor="end">(0, {fmtNum(b)})</text>
@@ -187,9 +221,10 @@ export default function GraphPlayground({ toast, fireConfetti }) {
             <span className="zoom-label">🔍 {fmtZoom(zoom)}×</span>
             <button type="button" className="btn btn-ghost stepper-btn" aria-label="zoom in"
               onClick={() => zoomBy(ZOOM_STEP)} disabled={zoom >= ZOOM_MAX}>+</button>
-            <button type="button" className="btn btn-ghost" onClick={() => setZoom(1)}
-              disabled={zoom === 1}>Reset</button>
-            <span className="muted zoom-hint">scroll over the graph to zoom (0.1× – 1000×)</span>
+            <button type="button" className="btn btn-ghost"
+              onClick={() => { setZoom(1); setCenter({ x: 0, y: 0 }); }}
+              disabled={zoom === 1 && center.x === 0 && center.y === 0}>Reset</button>
+            <span className="muted zoom-hint">scroll to zoom • ctrl+drag to pan</span>
           </div>
 
           <div className="graph-eq">{eqText}</div>

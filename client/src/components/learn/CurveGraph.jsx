@@ -14,13 +14,11 @@ function niceStep(span) {
   for (const mult of [1, 2, 5, 10]) if (mult * mag >= raw) return mult * mag;
   return 10 * mag;
 }
-function ticks(range, step) {
+function ticks(range, step, center) {
   const out = [];
-  const n = Math.ceil(range / step);
-  for (let i = -n; i <= n; i++) {
-    const v = i * step;
-    if (Math.abs(v) <= range + 1e-9) out.push(v);
-  }
+  const i0 = Math.ceil((center - range) / step);
+  const i1 = Math.floor((center + range) / step);
+  for (let i = i0; i <= i1; i++) out.push(i * step);
   return out;
 }
 function fmtTick(v, step) {
@@ -32,15 +30,15 @@ function fmtZoom(z) {
 }
 
 // sample y = fn(x) into an SVG path, breaking when out of view / undefined
-function plotPath(fn, range, scale) {
+function plotPath(fn, range, scale, center) {
   const N = 300;
-  const toX = x => (x + range) * scale;
-  const toY = y => (range - y) * scale;
+  const toX = x => (x - center.x + range) * scale;
+  const toY = y => (range - (y - center.y)) * scale;
   let d = '', pen = false;
   for (let i = 0; i <= N; i++) {
-    const x = -range + (2 * range * i) / N;
+    const x = center.x - range + (2 * range * i) / N;
     const y = fn(x);
-    if (!isFinite(y) || Math.abs(y) > range) { pen = false; continue; }
+    if (!isFinite(y) || Math.abs(y - center.y) > range) { pen = false; continue; }
     d += (pen ? 'L' : 'M') + toX(x).toFixed(1) + ' ' + toY(y).toFixed(1) + ' ';
     pen = true;
   }
@@ -81,15 +79,18 @@ export default function GraphPlayground() {
   const [a, setA] = useState(1);
   const [b, setB] = useState(2);
   const [zoom, setZoom] = useState(1);
+  const [center, setCenter] = useState({ x: 0, y: 0 });
   const [exprs, setExprs] = useState(() => [{ id: 1, text: 'x^2' }]);
+  const [drag, setDrag] = useState(null);
+  const [ctrlDown, setCtrlDown] = useState(false);
   const nextExprId = useRef(2);
   const svgRef = useRef(null);
 
   const range = BASE_RANGE / zoom;
   const scale = SIZE / (range * 2);
   const step = Math.min(100, Math.max(0.1, niceStep(range * 2)));
-  const toX = x => (x + range) * scale;
-  const toY = y => (range - y) * scale;
+  const toX = x => (x - center.x + range) * scale;
+  const toY = y => (range - (y - center.y)) * scale;
 
   const F = FNS[fnKind] || FNS.exp;
   const fn = F.fn(a, b);
@@ -117,6 +118,31 @@ export default function GraphPlayground() {
   }, []);
 
   const zoomBy = f => setZoom(z => Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, Math.round(z * f * 1000) / 1000)));
+
+  // ctrl/meta key tracking for the pan cursor
+  useEffect(() => {
+    const down = e => { if (e.key === 'Control' || e.key === 'Meta') setCtrlDown(true); };
+    const up = e => { if (e.key === 'Control' || e.key === 'Meta') setCtrlDown(false); };
+    window.addEventListener('keydown', down);
+    window.addEventListener('keyup', up);
+    return () => { window.removeEventListener('keydown', down); window.removeEventListener('keyup', up); };
+  }, []);
+
+  // ctrl+left-drag panning (Desmos-style): content follows the mouse
+  function onPointerDown(e) {
+    if (e.button !== 0 || !(e.ctrlKey || e.metaKey)) return;
+    e.preventDefault();
+    e.currentTarget.setPointerCapture?.(e.pointerId);
+    setDrag({ mx: e.clientX, my: e.clientY, cx: center.x, cy: center.y });
+  }
+  function onPointerMove(e) {
+    if (!drag) return;
+    setCenter({
+      x: drag.cx - (e.clientX - drag.mx) / scale,
+      y: drag.cy + (e.clientY - drag.my) / scale
+    });
+  }
+  const onPointerUp = () => setDrag(null);
 
   function Stepper({ value, set, step: st, min, max, snap }) {
     const apply = v => set(snap ? snap(Math.min(max, Math.max(min, v))) : Math.min(max, Math.max(min, v)));
@@ -188,27 +214,34 @@ export default function GraphPlayground() {
               )}
             </div>
           )}
-          <svg ref={svgRef} width={SIZE} height={SIZE} className="graph-svg" aria-label="coordinate plane">
-            {ticks(range, step).map(v => (<g key={v}>
-              <line x1={toX(v)} y1={0} x2={toX(v)} y2={SIZE} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
-              <line x1={0} y1={toY(v)} x2={SIZE} y2={toY(v)} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
-              {v !== 0 && (<>
-                <text x={toX(v)} y={toY(0) + 14} fontSize="10" fill="#94a3b8" textAnchor="middle">{fmtTick(v, step)}</text>
-                <text x={toX(0) + 5} y={toY(v) + 3} fontSize="10" fill="#94a3b8">{fmtTick(v, step)}</text>
-              </>)}
-            </g>))}
+          <svg ref={svgRef} width={SIZE} height={SIZE} className="graph-svg" aria-label="coordinate plane"
+            onPointerDown={onPointerDown} onPointerMove={onPointerMove}
+            onPointerUp={onPointerUp} onPointerLeave={onPointerUp}
+            style={{ cursor: drag ? 'grabbing' : ctrlDown ? 'grab' : 'crosshair' }}>
+            {ticks(range, step, center.x).map(v => (
+              <line key={'vx' + v} x1={toX(v)} y1={0} x2={toX(v)} y2={SIZE} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
+            ))}
+            {ticks(range, step, center.y).map(v => (
+              <line key={'hy' + v} x1={0} y1={toY(v)} x2={SIZE} y2={toY(v)} stroke={v === 0 ? '#94a3b8' : '#e2e8f0'} strokeWidth={v === 0 ? 2 : 1} />
+            ))}
+            {ticks(range, step, center.x).map(v => v !== 0 && (
+              <text key={'tx' + v} x={toX(v)} y={toY(0) + 14} fontSize="10" fill="#94a3b8" textAnchor="middle">{fmtTick(v, step)}</text>
+            ))}
+            {ticks(range, step, center.y).map(v => v !== 0 && (
+              <text key={'ty' + v} x={toX(0) + 5} y={toY(v) + 3} fontSize="10" fill="#94a3b8">{fmtTick(v, step)}</text>
+            ))}
 
             {/* curves */}
             {fnKind === 'custom'
               ? customPlots.map(ex => ex.fn && (
-                  <path key={ex.id} d={plotPath(ex.fn, range, scale)} fill="none"
+                  <path key={ex.id} d={plotPath(ex.fn, range, scale, center)} fill="none"
                     stroke={ex.color} strokeWidth="3.5" strokeLinecap="round" />
                 ))
-              : <path d={plotPath(fn, range, scale)} fill="none" stroke="#4f46e5" strokeWidth="4" strokeLinecap="round" />}
+              : <path d={plotPath(fn, range, scale, center)} fill="none" stroke="#4f46e5" strokeWidth="4" strokeLinecap="round" />}
 
             {/* key points */}
             {fnKind !== 'custom' && F.points(a, b).map(([px, py, label]) => (
-              Math.abs(px) <= range && Math.abs(py) <= range && (
+              Math.abs(px - center.x) <= range && Math.abs(py - center.y) <= range && (
                 <g key={label}>
                   <circle cx={toX(px)} cy={toY(py)} r="6" fill="#f59e0b" stroke="#fff" strokeWidth="2" />
                   <text x={toX(px) + 9} y={toY(py) - 9} fontSize="12" fontWeight="700" fill="#b45309">{label}</text>
@@ -223,9 +256,10 @@ export default function GraphPlayground() {
             <span className="zoom-label">🔍 {fmtZoom(zoom)}×</span>
             <button type="button" className="btn btn-ghost stepper-btn" aria-label="zoom in"
               onClick={() => zoomBy(ZOOM_STEP)} disabled={zoom >= ZOOM_MAX}>+</button>
-            <button type="button" className="btn btn-ghost" onClick={() => setZoom(1)}
-              disabled={zoom === 1}>Reset</button>
-            <span className="muted zoom-hint">scroll over the graph to zoom</span>
+            <button type="button" className="btn btn-ghost"
+              onClick={() => { setZoom(1); setCenter({ x: 0, y: 0 }); }}
+              disabled={zoom === 1 && center.x === 0 && center.y === 0}>Reset</button>
+            <span className="muted zoom-hint">scroll to zoom • ctrl+drag to pan</span>
           </div>
 
           <div className="graph-eq">{fnKind === 'custom' ? '' : F.eqText(a, b)}</div>

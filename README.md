@@ -23,7 +23,7 @@ and teacher rosters.
 ### 🎓 Learn section (4 interactive experiences)
 - 🧮 **Linear equations** — animated balance solver (play/pause/back/speed)
 - 🔢 **Exp & log equations** — animated step-by-step solver
-- 📈 **Lines** — y = mx + b playground with zoom + match-the-line game
+- 📈 **Lines** — y = mx + b playground with zoom, panning, and the match-the-line game
 - 📉 **Curves** — y = a·bˣ and y = a·log_b(x) playground with zoom, plus a
   **Desmos-style custom grapher**: type any expression in x (up to 6 at once,
   each in its own color) — supports `+ - * / ^`, parentheses, implicit
