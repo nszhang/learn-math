@@ -21,20 +21,18 @@ export default function TriangleLab() {
   const c = Math.sqrt(c2);
   const isTriple = Number.isInteger(c);
 
-  const U = 18;
-  const total = a + b + 3;
-  const W = total * U + 2 * a; // room for the square on leg a (drawn left)
-  const H = (a + b + 3) * U;
-
-  // right triangle: right angle at (ox, oy); leg a goes up, leg b goes right
-  const ox = 2 * a * U / 2 + U, oy = H - U - b * U; // leave room for b-square below
-  const A = [ox, oy];                    // top of vertical leg
-  const B = [ox, oy + b * U];            // right angle corner... wait: vertical leg length a
-  // Simpler geometry: corner C at (ox, oyC); vertical leg to A = (ox, oyC - a*U); horizontal leg to Bp = (ox + b*U, oyC)
-  const oyC = H - U - b * U + b * U; // bottom area reserved for b-square of side b*U
-  const C = [ox, oyC];
-  const Ptop = [ox, oyC - a * U];
-  const Pright = [ox + b * U, oyC];
+  // Right angle at C. Leg a goes up from C to P, leg b goes right from C to Q.
+  // Squares are drawn outward on each side; the hypotenuse P→Q = (b, a)·U, so its
+  // outward (up-right) normal of the same length c·U is n = (a, −b)·U.
+  const U = 20, pad = 12;
+  const W = (2 * a + b) * U + 2 * pad;
+  const H = (a + 2 * b) * U + 2 * pad;
+  const cx = a * U + pad, cy = (a + b) * U + pad;
+  const P = [cx, cy - a * U];
+  const Q = [cx + b * U, cy];
+  const n = [a * U, -b * U];
+  const hypSquare = [P, Q, [Q[0] + n[0], Q[1] + n[1]], [P[0] + n[0], P[1] + n[1]]];
+  const hypCenter = [(P[0] + Q[0] + n[0]) / 2, (P[1] + Q[1] + n[1]) / 2];
 
   return (
     <div className="learn-grid">
@@ -46,38 +44,37 @@ export default function TriangleLab() {
         </div>
 
         <div className="area-stage">
-          <svg width={W} height={H}>
-            {/* square on leg a (left of vertical leg) */}
-            <rect x={ox - a * U} y={oyC - a * U} width={a * U} height={a * U}
+          <svg viewBox={`0 0 ${W} ${H}`} width="100%" style={{ maxWidth: W }} role="img"
+            aria-label={`Right triangle with legs ${a} and ${b} and a square on each side`}>
+            {/* square on leg a (left of the vertical leg) */}
+            <rect x={cx - a * U} y={cy - a * U} width={a * U} height={a * U}
               fill="rgba(79,70,229,.22)" stroke="#4f46e5" strokeWidth="2.5" />
-            <text x={ox - a * U / 2} y={oyC - a * U / 2} textAnchor="middle" fontWeight="800" fill="#4f46e5">a² = {a * a}</text>
+            <text x={cx - a * U / 2} y={cy - a * U / 2} textAnchor="middle" dominantBaseline="middle"
+              fontWeight="800" fill="#4f46e5">a² = {a * a}</text>
 
-            {/* square on leg b (below horizontal leg) */}
-            <rect x={ox} y={oyC} width={b * U} height={b * U}
+            {/* square on leg b (below the horizontal leg) */}
+            <rect x={cx} y={cy} width={b * U} height={b * U}
               fill="rgba(220,38,38,.18)" stroke="#dc2626" strokeWidth="2.5" />
-            <text x={ox + b * U / 2} y={oyC + b * U / 2} textAnchor="middle" fontWeight="800" fill="#dc2626">b² = {b * b}</text>
+            <text x={cx + b * U / 2} y={cy + b * U / 2} textAnchor="middle" dominantBaseline="middle"
+              fontWeight="800" fill="#dc2626">b² = {b * b}</text>
 
-            {/* square on hypotenuse (rotated) */}
-            <polygon
-              points={[
-                `${Ptop[0]},${Ptop[1]}`, `${Pright[0]},${Pright[1]}`,
-                `${Pright[0] - a * U},${Pright[1] - a * U}`, `${Ptop[0] - a * U},${Ptop[1] - a * U}`
-              ].join(' ')}
-              fill="rgba(22,163,74,.18)" stroke="#16a34a" strokeWidth="2.5" />
-            <text x={(Ptop[0] + Pright[0] - a * U) / 2} y={(Ptop[1] + Pright[1] - a * U) / 2}
-              textAnchor="middle" fontWeight="800" fill="#16a34a">c² = {c2}</text>
+            {/* square on the hypotenuse (tilted, side length c) */}
+            <polygon points={hypSquare.map(p => p.join(',')).join(' ')}
+              fill="rgba(22,163,74,.18)" stroke="#16a34a" strokeWidth="2.5" strokeLinejoin="round" />
+            <text x={hypCenter[0]} y={hypCenter[1]} textAnchor="middle" dominantBaseline="middle"
+              fontWeight="800" fill="#16a34a">c² = {c2}</text>
 
-            {/* the triangle itself */}
-            <polygon points={`${Ptop[0]},${Ptop[1]} ${Pright[0]},${Pright[1]} ${C[0]},${C[1]}`}
-              fill="rgba(245,158,11,.4)" stroke="#b45309" strokeWidth="3" />
-            <rect x={C[0]} y={C[1] - U * 0.5} width={U * 0.5} height={U * 0.5} fill="#b45309" />
+            {/* the triangle itself, with its right-angle marker at C */}
+            <polygon points={`${P} ${Q} ${cx},${cy}`}
+              fill="rgba(245,158,11,.4)" stroke="#b45309" strokeWidth="3" strokeLinejoin="round" />
+            <rect x={cx} y={cy - U * 0.5} width={U * 0.5} height={U * 0.5} fill="none" stroke="#b45309" strokeWidth="2" />
           </svg>
         </div>
 
         <div className="frame-note">
           <strong>a² + b² = c²</strong>: {a * a} + {b * b} = <strong>{c2}</strong>, so c = √{c2} = <strong>{fmtNum(Number(c.toFixed(3)))}</strong>.<br/>
           {isTriple
-            ? `💡 (${a}, ${b}, ${c}) is a <strong>Pythagorean triple</strong> — all three sides are whole numbers!`.replace(/<[^>]+>/g, '')
+            ? <>💡 ({a}, {b}, {c}) is a <strong>Pythagorean triple</strong> — all three sides are whole numbers!</>
             : '💡 Square root undoes the square — that inverse gives us c.'}
         </div>
       </section>
