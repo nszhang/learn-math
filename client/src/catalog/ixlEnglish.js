@@ -126,12 +126,22 @@ const GRADE_OVERRIDES = {
   BrNr: G(3, 12), OrgT: G(3, 12), PlgR: G(4, 12), SvCp: G(4, 12), Anl: G(5, 12), FgSp: G(5, 12)
 };
 
+// Skills IXL already teaches in grades 6–7: start them earlier (keeps their top grade).
+const LOWER_START = {
+  Frml: 6, SbOb: 6, AuPu: 6, TnCp: 7, AlSr: 7, FgEf: 6, ThSt: 7, EvSw: 6, EvBt: 6, PsAd: 6, CjAv: 7, Rdn: 6, RvSg: 6, MsSp: 6, EvRs: 6, CfPr: 6, MnId: 6,
+  WpAn: 6, WpSn: 6, NuCd: 7, NuTh: 6, NuDc: 6, AnlC: 7, CxAn: 6, CxDm: 6,
+  PhCl: 6, Appo: 6, DpIn: 6, SnTy: 6, RlCl: 7, PnVg: 7, PnSh: 7, PnRf: 6, VbTr: 7, VbLk: 7, VbPt: 7, VbGr: 7, VbIn: 7, DiOb: 6,
+  SvEr: 6, SvIn: 6, TnSh: 6, AvCp: 6, AvWl: 6, MdSl: 7, MdOk: 7, RsPn: 7, RsCm: 7, CmDa: 6, CmCs: 6, CmCa: 6, CmRv: 6,
+  ScJn: 7, ScCl: 7, ScSr: 7, DsUs: 7, DsHy: 7, DsEl: 7, ApPl: 6
+};
+
 // Expand { k, t, s, g, gen } specs into one skill per grade.
 function expand(specs) {
   return specs.flatMap(spec => {
     const info = SECTION_INFO.get(spec.s);
     if (!info) throw new Error(`Unknown section "${spec.s}" for ${spec.k}`);
-    return (GRADE_OVERRIDES[spec.k] || spec.g).map(grade => ({
+    const grades = GRADE_OVERRIDES[spec.k] || (LOWER_START[spec.k] ? G(LOWER_START[spec.k], Math.max(...spec.g)) : spec.g);
+    return grades.map(grade => ({
       id: 'eng' + spec.k + grade, title: spec.t, grade, section: spec.s, icon: info.icon,
       category: info.cat, _order: info.order, gen: spec.gen
     }));
