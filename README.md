@@ -11,7 +11,7 @@ and teacher rosters.
 
 ## Content — IXL-style organization (modeled on ca.ixl.com)
 
-**249 skills organized by Grade 1–12** — each grade has lettered sections
+**256 skills organized by Grade 1–12** — each grade has lettered sections
 (A. Division, B. Fractions, …) with numbered skills, exactly like IXL's
 Math pages. The Skills home shows a grade grid with per-grade progress.
 

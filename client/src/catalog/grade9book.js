@@ -264,5 +264,69 @@ export const GRADE9_BOOK_SKILLS = [
     return { type: 'num', prompt: `The weather forecast says the probability of rain is ${m(fmtNum(p))}. What is this as a <strong>percent</strong>? (Enter the number only.)`,
       answer: p * 100,
       explain: `${fmtNum(p)} = ${fmtNum(p)} × 100 = <strong>${p * 100}%</strong>. 💡 Percent is just "per hundred"!` };
-  })
+  }),
+
+  /* ===== Chapter 10: Circle Geometry ===== */
+S('t126', 'Parts of a circle', 'Circle geometry', '⭕', () => {
+  const parts = [
+    ['a line segment from the centre to the circle', 'radius'],
+    ['a line segment with both endpoints on the circle', 'chord'],
+    ['a chord that passes through the centre', 'diameter'],
+    ['a line that touches the circle at exactly one point', 'tangent'],
+    ['a portion of the circumference', 'arc']
+  ];
+  const [clue, correct] = pick(parts);
+  return { type: 'mc', prompt: `What is ${m(clue)} called?`,
+    answer: correct,
+    choices: mcChoices(correct, ['radius', 'chord', 'diameter', 'tangent', 'arc'].filter(x => x !== correct)),
+    explain: `That describes a <strong>${correct}</strong>.` };
+}),
+S('t127', 'Central and inscribed angles', 'Circle geometry', '⭕', () => {
+  const inscribed = ri(20, 70);
+  const askCentral = pick([true, false]);
+  return { type: 'num',
+    prompt: askCentral
+      ? `An inscribed angle measures ${m(`${inscribed}°`)} and subtends arc AB. What is the <strong>central angle</strong> subtending the same arc?`
+      : `A central angle measures ${m(`${2 * inscribed}°`)} and subtends arc AB. What is the <strong>inscribed angle</strong> subtending the same arc?`,
+    answer: askCentral ? 2 * inscribed : inscribed,
+    explain: askCentral
+      ? `💡 The central angle is always <em>twice</em> the inscribed angle on the same arc: 2 × ${inscribed}° = <strong>${2 * inscribed}°</strong>.`
+      : `💡 The inscribed angle is <em>half</em> the central angle (inverse!): ${2 * inscribed}° ÷ 2 = <strong>${inscribed}°</strong>.` };
+}),
+S('t128', 'Inscribed angles on the same arc', 'Circle geometry', '⭕', () => {
+  const angle = ri(25, 80);
+  const correct = `${angle}°`;
+  return { type: 'mc',
+    prompt: `Points D and E are both on the circle on the same side of chord AB. If ${m(`∠DAB = ${angle}°`)}, what is ${m('∠DEB')} ?`,
+    answer: correct,
+    choices: mcChoices(correct, [`${2 * angle}°`, `${180 - angle}°`, `${90}°`]),
+    explain: `💡 Inscribed angles subtended by the <em>same arc</em> are equal: ∠DEB = <strong>${correct}</strong>.` };
+}),
+S('t129', 'Angle in a semicircle', 'Circle geometry', '⭕', () => {
+  return { type: 'mc',
+    prompt: `A triangle is inscribed in a circle with one side being a <strong>diameter</strong>. What is the angle opposite the diameter?`,
+    answer: '90°',
+    choices: mcChoices('90°', ['60°', '45°', '180°']),
+    explain: `💡 An inscribed angle subtended by a diameter is always a right angle — <strong>90°</strong>. (This is Thales' theorem — a triangle in a semicircle is always right-angled!)` };
+}),
+S('t130', 'Perpendicular bisectors of chords', 'Circle geometry', '⭕', () => {
+  return { type: 'mc',
+    prompt: `The perpendicular bisector of any chord of a circle always passes through…`,
+    answer: 'the centre of the circle',
+    choices: mcChoices('the centre of the circle', ['the midpoint of the arc', 'a point of tangency', 'the circumference twice']),
+    explain: `💡 Draw any chord, bisect it at 90°, and that line <em>must</em> pass through the centre. (That's how you find a circle's centre with only two chords!)` };
+}),
+S('t131', 'Tangents and radii', 'Circle geometry', '⭕', () => {
+  return { type: 'num',
+    prompt: `A tangent line touches a circle at point T, where a radius meets it. What is the <strong>angle</strong> between the tangent and the radius (in degrees)?`,
+    answer: 90,
+    explain: `💡 A tangent is always <em>perpendicular</em> to the radius at the point of tangency: <strong>90°</strong>.` };
+}),
+S('t132', 'Chords equidistant from the centre', 'Circle geometry', '⭕', () => {
+  return { type: 'mc',
+    prompt: `Two chords of a circle are the <strong>same distance from the centre</strong>. What do you know about them?`,
+    answer: 'they are congruent (equal length)',
+    choices: mcChoices('they are congruent (equal length)', ['they are parallel', 'one is twice the other', 'they are perpendicular']),
+    explain: `💡 Distance from centre ↔ chord length are inversely related: same distance ⇒ same length — <strong>congruent chords</strong>.` };
+})
 ];
