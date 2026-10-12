@@ -9,7 +9,7 @@ import { nextScore, medalFor } from './scoring.js';
 import { AWARDS, AWARD_META } from './awards.js';
 import { sendAssignmentEmail } from './reminders.js';
 
-const SKILL_IDS = [
+export const SKILL_IDS = [
   // elementary (grades 1-6)
   'elCNT1', 'elADD1', 'elSUB1', 'elCMP1', 'elPLV1', 'elADD2', 'elSUB2', 'elPAT2',
   'elMUL3', 'elDIV3', 'elFRQ3', 'elWPM3', 'elRND3', 'elSHP3',
@@ -31,6 +31,17 @@ const SKILL_IDS = [
   'elCMP12', 'elARS12', 'elGEO12',
   // expansion batch 2 (t1..t103)
   ...Array.from({ length: 132 }, (_, i) => 't' + (i + 1)),
+  // English (eng*) and Science (sci*)
+  'engRHY1', 'engALP1', 'engNVB1', 'engPUN1', 'engOPP1', 'engPLU1',
+  'engSYN2', 'engCMP2', 'engCAP2', 'engPST2', 'engCON2',
+  'engADJ3', 'engHOM3', 'engPFX3', 'engPRO3',
+  'engSNT4', 'engAPO4', 'engFIG4', 'engADV4',
+  'engCNJ5', 'engIRR5', 'engIDM5', 'engCNF5',
+  'sciANI1', 'sciPLT1', 'sciSNS1', 'sciWTH1',
+  'sciHAB2', 'sciMAT2', 'sciLIF2', 'sciMAG2',
+  'sciFCH3', 'sciSOL3', 'sciFRC3', 'sciMCH3',
+  'sciENE4', 'sciCND4', 'sciWTR4', 'sciBDY4',
+  'sciCHG5', 'sciCEL5', 'sciERT5', 'sciRCK5',
   // school topics
   'schN1', 'schN2', 'schN3',
   'schG1', 'schG2', 'schG3', 'schG4', 'schG5', 'schG6', 'schG7',

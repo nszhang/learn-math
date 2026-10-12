@@ -75,5 +75,8 @@ export function findHomeworkForSkill(skillId, homeworkData) {
 }
 
 export function skillName(skillId) {
-  return SKILL_INDEX[skillId]?.skill.code || skillId;
+  const e = SKILL_INDEX[skillId];
+  if (!e) return skillId;
+  // math codes are shown bare (A.1); other subjects carry their own prefix (EN-A.1)
+  return e.subject.id === 'math' ? e.skill.code : `${e.skill.code} (gr. ${e.grade.num})`;
 }

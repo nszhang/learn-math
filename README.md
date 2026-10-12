@@ -410,3 +410,7 @@ different content catalogs and per-site daily-homework prefixes.
 ---
 
 *Built with ❤️ for students learning math one skill at a time.*
+
+## Subjects
+
+The skill browser is subject-aware (`SUBJECTS` in `client/src/skills.js`): Math, English and Science, each with the same IXL-style Grade → Section → Skill layout. English and Science live in `client/src/catalog/english.js` and `science.js`, built with the `classify`/`pairs` helpers in `catalog/quiz.js`. To add a skill, append an `S(id, title, grade, section, icon, gen)` entry **and** add its id to `SKILL_IDS` in `server/src/app.js` (a server test fails if they drift).

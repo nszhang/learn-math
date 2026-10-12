@@ -1,4 +1,4 @@
-import { GRADES } from '../skills.js';
+import { SUBJECTS } from '../skills.js';
 import Medallion from './Medallion.jsx';
 import { clickable } from '../a11y.js';
 
@@ -9,7 +9,7 @@ export default function DashboardPage({ me, onStartSkill }) {
 
   const total = skillProgress.reduce((s, p) => s + p.score, 0);
   const mastered = skillProgress.filter(p => p.score >= 100).length;
-  const skillCount = GRADES.reduce((n, g) => n + g.sections.reduce((m, x) => m + x.skills.length, 0), 0);
+  const skillCount = SUBJECTS.reduce((t, sub) => t + sub.grades.reduce((n, g) => n + g.sections.reduce((m, x) => m + x.skills.length, 0), 0), 0);
   const pct = stats.answered ? Math.round(100 * stats.correct / stats.answered) : 0;
 
   const cards = [
@@ -40,9 +40,9 @@ export default function DashboardPage({ me, onStartSkill }) {
         ))}
       </div>
 
-      {GRADES.map(grade => (
-        <div key={grade.id}>
-          <h3 className="section-title">🎓 {grade.name}</h3>
+      {SUBJECTS.flatMap(sub => sub.grades.map(grade => ({ sub, grade }))).map(({ sub, grade }) => (
+        <div key={sub.id + grade.id}>
+          <h3 className="section-title">{sub.emoji} {sub.name} — {grade.name}</h3>
           {grade.sections.map(section => section.skills.map(s => (
             <div className="dash-row" key={s.id} {...clickable(() => onStartSkill(s.id))}>
               <span className="skill-code">{s.code}</span>

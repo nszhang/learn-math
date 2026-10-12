@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { api } from '../api.js';
-import { GRADES } from '../skills.js';
+import { SUBJECTS } from '../skills.js';
 import { localDateStr, niceDate, skillName } from '../homework.js';
 
 export default function TeacherAssign({ toast }) {
@@ -75,9 +75,9 @@ export default function TeacherAssign({ toast }) {
           </label>
         </div>
         <div>
-          {GRADES.map(grade => (
-            <div className="assign-topic" key={grade.id}>
-              <strong>🎓 {grade.name}</strong>
+          {SUBJECTS.flatMap(sub => sub.grades.map(grade => ({ sub, grade }))).map(({ sub, grade }) => (
+            <div className="assign-topic" key={sub.id + grade.id}>
+              <strong>{sub.emoji} {sub.name} — {grade.name}</strong>
               {grade.sections.map(section => section.skills.map(s => (
                 <label className="assign-skill" key={s.id}>
                   <input type="checkbox" checked={checked.has(s.id)} onChange={() => toggleSkill(s.id)} />

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { api, setToken } from './api.js';
+import { SUBJECTS, SKILL_INDEX } from './skills.js';
 import Auth from './components/Auth.jsx';
 import SkillsPage from './components/SkillsPage.jsx';
 import HomeworkPage from './components/HomeworkPage.jsx';
@@ -90,7 +91,7 @@ export default function App() {
     ? [['admin', '⚙️ Admin'], ['learn', '🎓 Learn']]
     : isTeacher
       ? [['students', '👥 Students'], ['assign', '📝 Assign'], ['learn', '🎓 Learn']]
-      : [['home', '📚 Skills'], ['homework', '📝 Homework'], ['learn', '🎓 Learn'], ['dashboard', '📊 My Progress'], ['awards', '🏆 Awards']];
+      : [['home', '➗ Math'], ['english', '📖 English'], ['science', '🔬 Science'], ['homework', '📝 Homework'], ['learn', '🎓 Learn'], ['dashboard', '📊 My Progress'], ['awards', '🏆 Awards']];
 
   const startSkill = skillId => setPracticeCfg({ mode: 'skill', skillId });
   const startHomework = assignment => setPracticeCfg({ mode: 'homework', assignment });
@@ -99,7 +100,8 @@ export default function App() {
     setPracticeCfg(null);
     refreshMe();
     if (user.role === 'student') refreshHomework();
-    setPage(cfg.mode === 'homework' ? 'homework' : 'home');
+    const subj = cfg.mode === 'skill' ? SKILL_INDEX[cfg.skillId]?.subject.id : null;
+    setPage(cfg.mode === 'homework' ? 'homework' : subj && subj !== 'math' ? subj : 'home');
   }
 
   return (<>
@@ -143,8 +145,9 @@ export default function App() {
           </p>
         </main>
       )}
-      {page === 'home' && <SkillsPage me={me} homework={homework}
-        onStartSkill={startSkill} onStartHomework={startHomework} toast={toast} />}
+      {SUBJECTS.map(subj => page === (subj.id === 'math' ? 'home' : subj.id) && (
+        <SkillsPage key={subj.id} subject={subj} me={me} homework={homework}
+          onStartSkill={startSkill} onStartHomework={startHomework} toast={toast} />))}
       {page === 'homework' && <HomeworkPage homework={homework} onStart={startHomework} />}
       {page === 'learn' && <LearnPage toast={toast} fireConfetti={fireConfetti} />}
       {page === 'dashboard' && <DashboardPage me={me} onStartSkill={startSkill} />}

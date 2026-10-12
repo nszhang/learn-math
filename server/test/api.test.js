@@ -380,3 +380,10 @@ test('validation: bad homework input is rejected, not a 500 or free stars', asyn
     body: { skillId: 'algA1', correct: true, assignmentId: 'daily-2026-01-01', items: [] } });
   assert.equal(r.status, 400, 'empty daily set cannot be "completed"');
 });
+
+test('every skill in the client catalog is accepted by the server whitelist', async () => {
+  const { EVERY_SKILL } = await import('../../client/src/skills.js');
+  const { SKILL_IDS } = await import('../src/app.js');
+  const missing = EVERY_SKILL.map(s => s.id).filter(id => !SKILL_IDS.includes(id));
+  assert.deepEqual(missing, []);
+});
