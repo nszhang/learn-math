@@ -413,4 +413,10 @@ different content catalogs and per-site daily-homework prefixes.
 
 ## Subjects
 
-The skill browser is subject-aware (`SUBJECTS` in `client/src/skills.js`): Math, English and Science, each with the same IXL-style Grade → Section → Skill layout. English and Science live in `client/src/catalog/english.js` and `science.js`, built with the `classify`/`pairs` helpers in `catalog/quiz.js`. To add a skill, append an `S(id, title, grade, section, icon, gen)` entry **and** add its id to `SKILL_IDS` in `server/src/app.js` (a server test fails if they drift).
+The skill browser is subject-aware (`SUBJECTS` in `client/src/skills.js`): Math, English and Science, each with the same IXL-style Grade → Section → Skill layout.
+
+**English** follows IXL's language-arts structure: Category (Reading Strategies, Writing Strategies, Vocabulary, Grammar and Mechanics) → lettered Section (A … Z, AA …) → Skill. `client/src/catalog/ixlEnglish.js` holds the section registry and expands each skill spec `{ k, t, s, g: [grades], gen }` into one skill per grade (id `eng<k><grade>`, so each grade keeps its own SmartScore). Content lives in `ixlEnglishReading.js`, `ixlEnglishVocab.js` and `ixlEnglishGrammar.js`; the original grade 1–5 skills are in `english.js`.
+
+**Science** lives in `catalog/science.js` (grades 1–5) and `catalog/science612.js`.
+
+Questions are built with the helpers in `catalog/quiz.js` (`classify`, `pairs`, `ok`, `passageQs`). The server accepts any `eng*`/`sci*` id of the right shape, and a server test checks that every client skill id is accepted.

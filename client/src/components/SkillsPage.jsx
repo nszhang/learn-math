@@ -84,11 +84,13 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
         </div>
       </div>
 
-      {grade.sections.map(section => {
+      {grade.sections.map((section, idx) => {
         const sid = grade.id + section.letter;
+        const showCategory = section.category && section.category !== grade.sections[idx - 1]?.category;
         const avg = Math.round(section.skills.reduce((sum, s) => sum + scoreOf(s.id), 0) / section.skills.length);
-        return (
-          <div className={'topic-card' + (openSections.has(sid) ? ' open' : '')} key={sid}>
+        return (<div key={sid}>
+          {showCategory && <h3 className="category-head">{section.category}</h3>}
+          <div className={'topic-card' + (openSections.has(sid) ? ' open' : '')}>
             <div className="topic-head" {...clickable(() => toggleSection(sid))}>
               <span className="topic-icon">{section.icon}</span>
               <h3>{section.letter}. {section.name}</h3>
@@ -107,7 +109,7 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
               ))}
             </div>
           </div>
-        );
+        </div>);
       })}
     </main>
   );

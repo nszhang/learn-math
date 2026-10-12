@@ -40,20 +40,26 @@ export default function DashboardPage({ me, onStartSkill }) {
         ))}
       </div>
 
-      {SUBJECTS.flatMap(sub => sub.grades.map(grade => ({ sub, grade }))).map(({ sub, grade }) => (
-        <div key={sub.id + grade.id}>
-          <h3 className="section-title">{sub.emoji} {sub.name} — {grade.name}</h3>
-          {grade.sections.map(section => section.skills.map(s => (
-            <div className="dash-row" key={s.id} {...clickable(() => onStartSkill(s.id))}>
-              <span className="skill-code">{s.code}</span>
-              <span style={{ minWidth: 200 }}>{section.icon} {s.title}</span>
-              <div className="dash-bar"><div className="dash-bar-fill" style={{ width: scoreOf(s.id) + '%' }} /></div>
-              <span className="dash-score">{scoreOf(s.id)}</span>
-              <Medallion score={scoreOf(s.id)} />
-            </div>
-          )))}
-        </div>
-      ))}
+      {SUBJECTS.flatMap(sub => sub.grades.map(grade => ({ sub, grade }))).map(({ sub, grade }) => {
+        const skills = grade.sections.flatMap(sec => sec.skills.map(s => ({ s, sec })));
+        const started = skills.filter(({ s }) => scoreOf(s.id) > 0).length;
+        return (
+          <details className="fold" key={sub.id + grade.id} open={started > 0}>
+            <summary className="section-title" style={{ display: 'list-item' }}>
+              {sub.emoji} {sub.name} — {grade.name} <span className="muted" style={{ fontWeight: 400 }}>({started}/{skills.length} started)</span>
+            </summary>
+            {skills.map(({ s, sec }) => (
+              <div className="dash-row" key={s.id} {...clickable(() => onStartSkill(s.id))}>
+                <span className="skill-code">{s.code}</span>
+                <span style={{ minWidth: 200 }}>{sec.icon} {s.title}</span>
+                <div className="dash-bar"><div className="dash-bar-fill" style={{ width: scoreOf(s.id) + '%' }} /></div>
+                <span className="dash-score">{scoreOf(s.id)}</span>
+                <Medallion score={scoreOf(s.id)} />
+              </div>
+            ))}
+          </details>
+        );
+      })}
     </main>
   );
 }

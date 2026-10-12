@@ -13,12 +13,11 @@ import { ELEMENTARY } from './catalog/elementary.js';
 import { EXTRA_SKILLS } from './catalog/extra.js';
 import { EXTRA2_SKILLS } from './catalog/extra2.js';
 import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
-import { ENGLISH_SKILLS as ENGLISH_1_5 } from './catalog/english.js';
-import { ENGLISH_6_12 } from './catalog/english612.js';
+import { ENGLISH_ALL } from './catalog/ixlEnglish.js';
 import { SCIENCE_SKILLS as SCIENCE_1_5 } from './catalog/science.js';
 import { SCIENCE_6_12 } from './catalog/science612.js';
 
-const ENGLISH_SKILLS = [...ENGLISH_1_5, ...ENGLISH_6_12];
+const ENGLISH_SKILLS = ENGLISH_ALL;
 const SCIENCE_SKILLS = [...SCIENCE_1_5, ...SCIENCE_6_12];
 
 export {
@@ -97,15 +96,18 @@ const PLACEMENT = {
 };
 
 /* ---------- build a grade tree (shared by every subject) ---------- */
-const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+// A, B … Z, AA, BB … ZZ (IXL-style section letters)
+const letterFor = i => { const c = String.fromCharCode(65 + (i % 26)); return c.repeat(Math.floor(i / 26) + 1); };
 
 // fill(add) calls add(grade, sectionName, icon, skill) for each skill.
-function buildGrades(fill, codePrefix = '') {
-  const gradeMap = new Map(); // grade → { sections: Map(name → {name, icon, skills}) }
+// ordered=true keeps sections in the order they were added (IXL-style) instead of A→Z by name;
+// sections carry the skill's optional `category` (e.g. "Grammar and Mechanics").
+function buildGrades(fill, codePrefix = '', ordered = false) {
+  const gradeMap = new Map(); // grade → { sections: Map(name → {name, icon, category, skills}) }
   fill((grade, sectionName, icon, skill) => {
     if (!gradeMap.has(grade)) gradeMap.set(grade, { sections: new Map() });
     const g = gradeMap.get(grade);
-    if (!g.sections.has(sectionName)) g.sections.set(sectionName, { name: sectionName, icon, skills: [] });
+    if (!g.sections.has(sectionName)) g.sections.set(sectionName, { name: sectionName, icon, category: skill.category, skills: [] });
     g.sections.get(sectionName).skills.push(skill);
   });
   return [...gradeMap.entries()]
@@ -115,11 +117,11 @@ function buildGrades(fill, codePrefix = '') {
       num,
       name: 'Grade ' + num,
       sections: [...g.sections.values()]
-        .sort((a, b) => a.name.localeCompare(b.name))
+        .sort((a, b) => (ordered ? 0 : a.name.localeCompare(b.name)))
         .map((sec, si) => ({
           ...sec,
-          letter: LETTERS[si],
-          skills: sec.skills.map((sk, ki) => ({ ...sk, code: `${codePrefix}${LETTERS[si]}.${ki + 1}` }))
+          letter: letterFor(si),
+          skills: sec.skills.map((sk, ki) => ({ ...sk, code: `${codePrefix}${letterFor(si)}.${ki + 1}` }))
         }))
     }));
 }
@@ -149,8 +151,8 @@ export const GRADES = buildGrades(add => {
 
 /* ---------- English & Science (skills carry grade/section inline) ---------- */
 const inlineFill = list => add => list.forEach(s => add(s.grade, s.section, s.icon, s));
-export const ENGLISH_GRADES = buildGrades(inlineFill(ENGLISH_SKILLS), 'EN-');
-export const SCIENCE_GRADES = buildGrades(inlineFill(SCIENCE_SKILLS), 'SC-');
+export const ENGLISH_GRADES = buildGrades(inlineFill(ENGLISH_SKILLS), 'EN-', true);
+export const SCIENCE_GRADES = buildGrades(inlineFill(SCIENCE_SKILLS), 'SC-', true);
 
 // Subject registry — drives the top navigation and the per-subject skill pages.
 export const SUBJECTS = [

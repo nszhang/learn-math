@@ -712,3 +712,12 @@ button.brand-link:hover .brand-name { opacity: .8; }
 [role="button"]:focus-visible, .choice-btn:focus-visible, .brand-link:focus-visible {
   outline: 3px solid var(--primary); outline-offset: 2px;
 }
+
+/* reading passages inside questions */
+.passage {
+  background: #f8fafc; border-left: 4px solid var(--primary);
+  border-radius: 8px; padding: 12px 16px; line-height: 1.55; font-size: 1rem;
+}
+.category-head { margin: 22px 0 8px; font-size: 1.05rem; color: var(--primary); text-transform: uppercase; letter-spacing: .04em; }
+details.fold { margin-bottom: 8px; }
+details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }

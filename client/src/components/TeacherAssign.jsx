@@ -75,17 +75,21 @@ export default function TeacherAssign({ toast }) {
           </label>
         </div>
         <div>
-          {SUBJECTS.flatMap(sub => sub.grades.map(grade => ({ sub, grade }))).map(({ sub, grade }) => (
-            <div className="assign-topic" key={sub.id + grade.id}>
-              <strong>{sub.emoji} {sub.name} — {grade.name}</strong>
-              {grade.sections.map(section => section.skills.map(s => (
-                <label className="assign-skill" key={s.id}>
-                  <input type="checkbox" checked={checked.has(s.id)} onChange={() => toggleSkill(s.id)} />
-                  {s.code} {s.title}
-                </label>
-              )))}
-            </div>
-          ))}
+          {SUBJECTS.flatMap(sub => sub.grades.map(grade => ({ sub, grade }))).map(({ sub, grade }) => {
+            const picked = grade.sections.reduce((n, sec) => n + sec.skills.filter(s => checked.has(s.id)).length, 0);
+            return (
+              <details className="assign-topic fold" key={sub.id + grade.id} open={picked > 0}>
+                <summary><strong>{sub.emoji} {sub.name} — {grade.name}</strong>
+                  {picked > 0 && <span className="muted"> ({picked} selected)</span>}</summary>
+                {grade.sections.map(section => section.skills.map(s => (
+                  <label className="assign-skill" key={s.id}>
+                    <input type="checkbox" checked={checked.has(s.id)} onChange={() => toggleSkill(s.id)} />
+                    {s.code} {s.title}
+                  </label>
+                )))}
+              </details>
+            );
+          })}
         </div>
         <button className="btn btn-primary btn-lg" type="submit">Assign homework</button>
       </form>

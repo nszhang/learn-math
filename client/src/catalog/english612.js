@@ -469,7 +469,9 @@ export const ENGLISH_6_12 = [
     items: [
       choose('When Maria met Ana, Maria gave Ana a gift.', ['When Maria met Ana, she gave her a gift.', 'Maria met Ana, and she gave her one.'], 'In the other choices, "she" could mean either person. Repeating the names removes the confusion.'),
       choose('The manager told Lee, "I will approve your request."', ['The manager told Lee that he would approve his request.', 'The manager told Lee he would approve it for him.'], 'In the other choices, "he" and "his" could refer to either person. A direct quotation is clear.'),
-      choose('The report says that sales fell.', ['They say in the report that sales fell.', 'In the report it says that sales fell.'], '"They" and "it" have no clear antecedent. Name the source instead.')
+      choose('The report says that sales fell.', ['They say in the report that sales fell.', 'In the report it says that sales fell.'], '"They" and "it" have no clear antecedent. Name the source instead.'),
+      choose('Mia told Ana, "You are late."', ['Mia told Ana that she was late.', 'Mia told Ana she was late and so was she.'], 'In the other choices "she" could refer to either person. A direct quotation is clear.'),
+      choose('Dr. Lee told the patient, "I will call you tomorrow."', ['Dr. Lee told the patient that she would call her tomorrow.', 'Dr. Lee told the patient she would call tomorrow.'], 'A direct quotation avoids confusion about who "she" is.')
     ]
   }))
 ];

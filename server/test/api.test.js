@@ -383,7 +383,7 @@ test('validation: bad homework input is rejected, not a 500 or free stars', asyn
 
 test('every skill in the client catalog is accepted by the server whitelist', async () => {
   const { EVERY_SKILL } = await import('../../client/src/skills.js');
-  const { SKILL_IDS } = await import('../src/app.js');
-  const missing = EVERY_SKILL.map(s => s.id).filter(id => !SKILL_IDS.includes(id));
+  const { isSkillId } = await import('../src/app.js');
+  const missing = EVERY_SKILL.map(s => s.id).filter(id => !isSkillId(id));
   assert.deepEqual(missing, []);
 });

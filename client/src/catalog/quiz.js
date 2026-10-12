@@ -62,3 +62,18 @@ export function pairs({ items, prompt = q => q, choicesPer = 4 }) {
     };
   };
 }
+
+/** "Choose the correct one": correct answer plus wrong options. Returns a pairs() item. */
+export const ok = (correct, wrong, note) => ['', correct, note, [correct, ...wrong]];
+
+/**
+ * Passage questions. items: [passage, question, answer, wrongAnswers, note].
+ * The passage is shown above the question.
+ */
+export function passageQs({ items, title = 'Read the passage.' }) {
+  return pairs({
+    prompt: q => q,
+    items: items.map(([p, q, a, w, n]) => [
+      `<div class="passage"><small class="muted">${title}</small><br>${p}</div><p style="margin-top:10px">${q}</p>`, a, n, [a, ...w]])
+  });
+}

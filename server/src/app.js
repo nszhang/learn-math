@@ -31,27 +31,6 @@ export const SKILL_IDS = [
   'elCMP12', 'elARS12', 'elGEO12',
   // expansion batch 2 (t1..t103)
   ...Array.from({ length: 132 }, (_, i) => 't' + (i + 1)),
-  // English (eng*) and Science (sci*)
-  'engNVB1', 'engPUN1', 'engRHY1', 'engALP1', 'engOPP1', 'engPLU1',
-  'engCAP2', 'engPST2', 'engCON2', 'engSYN2', 'engCMP2', 'engADJ3',
-  'engPRO3', 'engHOM3', 'engPFX3', 'engSNT4', 'engAPO4', 'engADV4',
-  'engFIG4', 'engCNJ5', 'engIRR5', 'engIDM5', 'engCNF5', 'engFIG6',
-  'engPCS6', 'engCMA6', 'engMNI6', 'engROT6', 'engCLS7', 'engSNT7',
-  'engSMC7', 'engCON7', 'engANL7', 'engALU8', 'engVCE8', 'engVBL8',
-  'engPRL8', 'engMOD8', 'engAGR9', 'engLTD9', 'engPOV9', 'engRHA9',
-  'engSPL9', 'engWHM10', 'engPOE10', 'engRED10', 'engFLC10', 'engVOC10',
-  'engERR11', 'engAUT11', 'engPER11', 'engRHD11', 'engCNV12', 'engBRL12',
-  'engSHK12', 'engMVT12', 'engVOC12',
-  'sciWTH1', 'sciSNS1', 'sciANI1', 'sciPLT1', 'sciHAB2', 'sciLIF2',
-  'sciMAT2', 'sciMAG2', 'sciSOL3', 'sciFCH3', 'sciFRC3', 'sciMCH3',
-  'sciWTR4', 'sciBDY4', 'sciENE4', 'sciCND4', 'sciERT5', 'sciRCK5',
-  'sciCEL5', 'sciCHG5', 'sciPLT6', 'sciORG6', 'sciKNG6', 'sciHTT6',
-  'sciVAR6', 'sciATM7', 'sciECR7', 'sciPUN7', 'sciATO7', 'sciMIX7',
-  'sciNAT8', 'sciNWT8', 'sciSPD8', 'sciPER8', 'sciATC8', 'sciPHR9',
-  'sciDNA9', 'sciMTS9', 'sciMMS9', 'sciFMA9', 'sciBND10', 'sciPHS10',
-  'sciRXN10', 'sciGAS10', 'sciMOL10', 'sciVEL11', 'sciKEN11', 'sciOHM11',
-  'sciWVS11', 'sciEMG11', 'sciSTR12', 'sciPNN12', 'sciBIO12', 'sciENV12',
-  'sciGHG12',
   // school topics
   'schN1', 'schN2', 'schN3',
   'schG1', 'schG2', 'schG3', 'schG4', 'schG5', 'schG6', 'schG7',
@@ -64,6 +43,10 @@ export const SKILL_IDS = [
   'expA1', 'expA2', 'expA3', 'expB1', 'expB2', 'expB3', 'expB4',
   'expC1', 'expC2', 'expC3', 'expD1', 'expD2', 'expD3', 'expD4', 'expD5', 'expD6'
 ];
+// English (eng*) and Science (sci*) catalogs are large and grow often, so they are
+// validated by id shape rather than an explicit list (a test checks the client's ids fit).
+const TEXT_SKILL_RE = /^(eng|sci)[A-Za-z0-9]{2,30}$/;
+export const isSkillId = id => typeof id === 'string' && (SKILL_IDS.includes(id) || TEXT_SKILL_RE.test(id));
 const USERNAME_RE = /^[a-z0-9_]{3,20}$/;
 
 export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = null) {
@@ -217,7 +200,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   // medals, stars, homework progress/completion, and awards in one call.
   app.post('/api/answers', auth, async (req, res) => {
     const { skillId, correct, streak, assignmentId, items } = req.body || {};
-    if (!SKILL_IDS.includes(skillId)) return res.status(400).json({ error: 'Unknown skill' });
+    if (!isSkillId(skillId)) return res.status(400).json({ error: 'Unknown skill' });
     if (typeof correct !== 'boolean') return res.status(400).json({ error: 'correct must be boolean' });
 
     // --- SmartScore ---
@@ -251,7 +234,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
         if (!/^daily-\d{4}-\d{2}-\d{2}$/.test(assignmentId))
           return res.status(400).json({ error: 'Unknown assignment' });
         hwItems = Array.isArray(items) ? items.filter(i =>
-          i && SKILL_IDS.includes(i.skillId) && Number.isInteger(i.count) && i.count > 0 && i.count <= 50) : null;
+          i && isSkillId(i.skillId) && Number.isInteger(i.count) && i.count > 0 && i.count <= 50) : null;
       } else {
         const { rows } = await pool.query(
           'SELECT items FROM assignments WHERE id = $1 AND student_id = $2', [assignmentId, req.uid]);
@@ -357,7 +340,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       return res.status(400).json({ error: 'Due date must be a valid date (YYYY-MM-DD)' });
     if (!Array.isArray(items) || !items.length)
       return res.status(400).json({ error: 'Pick at least one skill' });
-    const clean = items.filter(i => i && SKILL_IDS.includes(i.skillId))
+    const clean = items.filter(i => i && isSkillId(i.skillId))
       .map(i => ({ skillId: i.skillId, count: Math.max(1, Math.min(20, i.count | 0 || 5)) }));
     if (!clean.length) return res.status(400).json({ error: 'No valid skills' });
     const student = await pool.query(
