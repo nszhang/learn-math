@@ -9,7 +9,7 @@
 #   nginx:   /etc/nginx/conf.d/math.pnpsolutions.ca.conf
 #            location /learn-math/{,/api/} → proxy to :3006 (prefix stripped)
 set -euo pipefail
-HOST=nzhang@webapp01.pnpsolutions.ca
+HOST="${DEPLOY_HOST:-webapp01.pnpsolutions.ca}"
 APP=/var/www/learn-math
 
 rsync -a --delete \
