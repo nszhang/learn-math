@@ -182,7 +182,7 @@ export async function getStudentsWithStats(pool, teacherId) {
 // ---------- user administration (admin) ----------
 export async function getAllUsers(pool) {
   const { rows } = await pool.query(
-    'SELECT id, username, display_name, role, stars, created_at FROM users ORDER BY role, display_name');
+    'SELECT id, username, display_name, role, stars, email, created_at FROM users ORDER BY role, display_name');
   return rows;
 }
 
