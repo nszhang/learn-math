@@ -11,7 +11,7 @@ and teacher rosters.
 
 ## Content — IXL-style organization (modeled on ca.ixl.com)
 
-**75 skills organized by Grade 1–12** — each grade has lettered sections
+**124 skills organized by Grade 1–12** — each grade has lettered sections
 (A. Division, B. Fractions, …) with numbered skills, exactly like IXL's
 Math pages. The Skills home shows a grade grid with per-grade progress.
 
@@ -20,7 +20,12 @@ Math pages. The Skills home shows a grade grid with per-grade progress.
 | 1–2 | Skip counting, add/subtract facts, place value, patterns |
 | 3–4 | Times tables, division, fractions of a whole, rounding, shapes, GCF, equivalent fractions, area & perimeter |
 | 5–6 | Decimals, order of operations, fractions, prime/composite, LCM, integers, unit rates, percents, statistics |
-| 7 | Expressions, one/two-step equations, probability, powers, geometry |
+| 7 | Expressions, one/two-step equations, probability, powers, geometry, square roots, laws of operations |
+
+**Pedagogy:** emphasis on *understanding*, not rote — number bonds, fact
+families, "division undoes multiplication", break-apart strategies, mean as an
+inverse operation, inverse functions, and explicit commutative / associative /
+distributive law skills throughout.
 | 8 | Multi-step equations, inequalities, linear relations, negative exponents |
 | 9 | Exponent rules, systems of equations |
 | 10 | Quadratics, exponential equations |
