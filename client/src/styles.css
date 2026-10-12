@@ -703,3 +703,12 @@ body {
 .prob-fill { height: 100%; background: linear-gradient(90deg, #4f46e5, #8b5cf6); transition: width .5s ease; }
 .prob-num { min-width: 56px; font-weight: 800; }
 .tile-legend { display: block; font-family: "Cambria Math", Georgia, serif; margin-top: 4px; }
+
+/* brand as a home link */
+button.brand-link { background: none; border: 0; padding: 0; font: inherit; color: inherit; cursor: pointer; }
+button.brand-link:hover .brand-name { opacity: .8; }
+
+/* keyboard focus visibility */
+[role="button"]:focus-visible, .choice-btn:focus-visible, .brand-link:focus-visible {
+  outline: 3px solid var(--primary); outline-offset: 2px;
+}

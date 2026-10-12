@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { api } from '../api.js';
 
 // Modal: change own password (any role).
@@ -6,6 +6,12 @@ export default function ChangePassword({ onClose, toast }) {
   const [current, setCurrent] = useState('');
   const [next, setNext] = useState('');
   const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    const onKey = e => e.key === 'Escape' && onClose();
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
 
   async function submit(e) {
     e.preventDefault();
@@ -27,7 +33,7 @@ export default function ChangePassword({ onClose, toast }) {
         <h3>🔑 Change password</h3>
         <form className="form-vertical" onSubmit={submit}>
           <label>Current password
-            <input type="password" required value={current}
+            <input type="password" required autoFocus value={current}
               onChange={e => setCurrent(e.target.value)} />
           </label>
           <label>New password

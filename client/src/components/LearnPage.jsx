@@ -10,6 +10,7 @@ import ProbabilityLab from './learn/ProbabilityLab.jsx';
 import TriangleLab from './learn/TriangleLab.jsx';
 import IntegerHopper from './learn/IntegerHopper.jsx';
 import FactoringLab from './learn/FactoringLab.jsx';
+import { clickable } from '../a11y.js';
 
 const GROUPS = [
   {
@@ -85,7 +86,7 @@ export default function LearnPage({ toast, fireConfetti }) {
           <h3 className="section-title">{g.name}</h3>
           <div className="grade-grid">
             {g.lessons.map(l => (
-              <div className="grade-card" key={l.id} onClick={() => setOpen(l.id)}>
+              <div className="grade-card" key={l.id} {...clickable(() => setOpen(l.id))}>
                 <div className="lesson-card-emoji">{l.emoji}</div>
                 <div className="grade-card-top">
                   <span className="grade-num" style={{ fontSize: '1.05rem' }}>{l.title}</span>

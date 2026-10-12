@@ -85,6 +85,7 @@ export default function App() {
 
   const isTeacher = user.role === 'teacher';
   const isAdmin = user.role === 'admin';
+  const homePage = isAdmin ? 'admin' : isTeacher ? 'students' : 'home';
   const nav = isAdmin
     ? [['admin', '⚙️ Admin'], ['learn', '🎓 Learn']]
     : isTeacher
@@ -105,10 +106,11 @@ export default function App() {
     <Confetti tick={confettiTick} />
     {showChpw && <ChangePassword onClose={() => setShowChpw(false)} toast={toast} />}
     <header className="topbar">
-      <div className="brand brand-sm">
+      <button type="button" className="brand brand-sm brand-link" title="Go to home page"
+        onClick={() => { setPracticeCfg(null); setPage(homePage); }}>
         <span className="brand-logo">π</span>
         <span className="brand-name">Math<span className="brand-accent">Ace</span></span>
-      </div>
+      </button>
       <nav className="main-nav">
         {nav.map(([id, label]) => (
           <button key={id} type="button"

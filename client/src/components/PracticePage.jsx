@@ -67,7 +67,40 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [skillId]);
 
-  useEffect(() => { inputRef.current?.focus(); }, [question]);
+  const choicesRef = useRef(null);
+  useEffect(() => {
+    // number questions: focus the box; choice questions: focus the first choice
+    (inputRef.current || choicesRef.current?.querySelector('button'))?.focus();
+  }, [question]);
+
+  // Enter anywhere on the page = Submit, or Next once answered. Latest handler
+  // is kept in a ref so the window listener never goes stale.
+  const actRef = useRef();
+  actRef.current = advanceOrSubmit;
+  useEffect(() => {
+    const onKey = e => {
+      if (e.key !== 'Enter' || e.repeat || e.isComposing) return;
+      if (e.target.closest?.('.practice-head')) return; // let Back button keep its own Enter
+      e.preventDefault(); // also stops a focused choice/button from double-firing its click
+      actRef.current();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
+
+  // Arrow keys (and 1-9) move through / pick choices
+  function onChoiceKey(e) {
+    const cs = question.choices;
+    const i = selected === null ? -1 : cs.indexOf(selected);
+    let n = null;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') n = (i + 1) % cs.length;
+    else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') n = (i <= 0 ? cs.length : i) - 1;
+    else if (/^[1-9]$/.test(e.key) && +e.key <= cs.length) n = +e.key - 1;
+    if (n === null || answered) return;
+    e.preventDefault();
+    setSelected(cs[n]);
+    choicesRef.current?.querySelectorAll('button')[n]?.focus();
+  }
 
   function nextQuestion() {
     setQuestion(skill.gen());
@@ -179,13 +212,13 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit }) {
             <div style={{ marginBottom: 22 }}>
               <input ref={inputRef} className="answer-input" type="number" step="any" placeholder="?"
                 autoComplete="off" value={inputVal} disabled={answered}
-                onChange={e => setInputVal(e.target.value)}
-                onKeyDown={e => { if (e.key === 'Enter') advanceOrSubmit(); }} />
+                onChange={e => setInputVal(e.target.value)} />
             </div>
           ) : (
-            <div className="choices" style={{ marginBottom: 22 }}>
+            <div className="choices" style={{ marginBottom: 22 }} ref={choicesRef}
+              role="radiogroup" aria-label="Answer choices" onKeyDown={onChoiceKey}>
               {question.choices.map(c => (
-                <button key={c} type="button"
+                <button key={c} type="button" role="radio" aria-checked={selected === c}
                   className={'choice-btn' + (selected === c ? ' selected' : '')}
                   disabled={answered}
                   onClick={() => setSelected(c)}>{c}</button>

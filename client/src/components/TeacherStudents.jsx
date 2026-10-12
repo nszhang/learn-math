@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../api.js';
 import { TOPICS } from '../skills.js';
 import { niceDate, skillName } from '../homework.js';
+import { clickable } from '../a11y.js';
 
 function StudentCard({ s }) {
   const [open, setOpen] = useState(false);
@@ -12,7 +13,7 @@ function StudentCard({ s }) {
 
   return (
     <div className={'student-card' + (open ? ' open' : '')}>
-      <div className="student-head" onClick={() => setOpen(!open)}>
+      <div className="student-head" {...clickable(() => setOpen(!open))}>
         <strong>{s.displayName}</strong> <span className="muted">@{s.username}</span>
         <span className="student-stats">
           📊 {total} &nbsp;•&nbsp; 🥇 {mastered} mastered &nbsp;•&nbsp; 🎯 {pct}% &nbsp;•&nbsp;

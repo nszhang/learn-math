@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { GRADES } from '../skills.js';
 import { homeworkSkillIdsToday, findHomeworkForSkill } from '../homework.js';
 import Medallion from './Medallion.jsx';
+import { clickable } from '../a11y.js';
 
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
 
@@ -47,7 +48,7 @@ export default function SkillsPage({ me, homework, onStartSkill, onStartHomework
             const mastered = skills.filter(s => scoreOf(s.id) >= 100).length;
             const sample = skills.slice(0, 3).map(s => s.title).join(' | ');
             return (
-              <div className="grade-card" key={g.id} onClick={() => pickGrade(g.num)}>
+              <div className="grade-card" key={g.id} {...clickable(() => pickGrade(g.num))}>
                 <div className="grade-card-top">
                   <span className="grade-num">{GRADE_EMOJI[g.num - 1]} {g.name}</span>
                   <span className="grade-count">{skills.length} skills</span>
@@ -87,7 +88,7 @@ export default function SkillsPage({ me, homework, onStartSkill, onStartHomework
         const avg = Math.round(section.skills.reduce((sum, s) => sum + scoreOf(s.id), 0) / section.skills.length);
         return (
           <div className={'topic-card' + (openSections.has(sid) ? ' open' : '')} key={sid}>
-            <div className="topic-head" onClick={() => toggleSection(sid)}>
+            <div className="topic-head" {...clickable(() => toggleSection(sid))}>
               <span className="topic-icon">{section.icon}</span>
               <h3>{section.letter}. {section.name}</h3>
               <div className="topic-progress"><div className="topic-progress-fill" style={{ width: avg + '%' }} /></div>
@@ -96,7 +97,7 @@ export default function SkillsPage({ me, homework, onStartSkill, onStartHomework
             </div>
             <div className="skill-list">
               {section.skills.map(s => (
-                <div className="skill-row" key={s.id} onClick={() => clickSkill(s.id)}>
+                <div className="skill-row" key={s.id} {...clickable(() => clickSkill(s.id))}>
                   <span className="skill-code">{s.code}</span>
                   <span className="skill-name">{s.title}</span>
                   {hwSkills.has(s.id) && <span className="hw-tag">📝 HW</span>}

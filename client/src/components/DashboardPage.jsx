@@ -1,5 +1,6 @@
 import { GRADES } from '../skills.js';
 import Medallion from './Medallion.jsx';
+import { clickable } from '../a11y.js';
 
 export default function DashboardPage({ me, onStartSkill }) {
   if (!me) return <main className="page"><p className="muted">Loading…</p></main>;
@@ -43,7 +44,7 @@ export default function DashboardPage({ me, onStartSkill }) {
         <div key={grade.id}>
           <h3 className="section-title">🎓 {grade.name}</h3>
           {grade.sections.map(section => section.skills.map(s => (
-            <div className="dash-row" key={s.id} onClick={() => onStartSkill(s.id)}>
+            <div className="dash-row" key={s.id} {...clickable(() => onStartSkill(s.id))}>
               <span className="skill-code">{s.code}</span>
               <span style={{ minWidth: 200 }}>{section.icon} {s.title}</span>
               <div className="dash-bar"><div className="dash-bar-fill" style={{ width: scoreOf(s.id) + '%' }} /></div>

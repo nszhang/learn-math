@@ -33,7 +33,7 @@ export default function Auth({ onAuth }) {
 
           <form id="form-auth" onSubmit={submit} autoComplete="off">
             <label>Username
-              <input type="text" maxLength="20" required placeholder="e.g. math_wizard"
+              <input type="text" maxLength="20" required autoFocus placeholder="e.g. math_wizard"
                 value={username} onChange={e => setUsername(e.target.value)} />
             </label>
             <label>Password
