@@ -189,29 +189,6 @@ export const SCHOOL_TOPICS = [
             explain: `Volume = length × width × height = ${l} × ${w} × ${h} = <strong>${ans} cm³</strong>.`
           };
         }
-      },
-      {
-        id: 'G7', code: 'G.7', title: 'Name the shape',
-        gen() {
-          const SHAPES = [
-            { name: 'triangle', clue: '3 sides and 3 angles' },
-            { name: 'square', clue: '4 equal sides and 4 right angles' },
-            { name: 'rectangle', clue: '4 right angles, but not all sides equal' },
-            { name: 'pentagon', clue: 'exactly 5 sides' },
-            { name: 'hexagon', clue: 'exactly 6 sides' },
-            { name: 'octagon', clue: 'exactly 8 sides' },
-            { name: 'circle', clue: 'no sides and no corners — perfectly round' }
-          ];
-          const s = pick(SHAPES);
-          const others = shuffle(SHAPES.filter(x => x.name !== s.name)).slice(0, 3).map(x => x.name);
-          return {
-            type: 'mc',
-            prompt: `I am a shape with ${s.clue}. <strong>What am I?</strong>`,
-            answer: s.name,
-            choices: shuffle([s.name, ...others]),
-            explain: `A <strong>${s.name}</strong> has ${s.clue}.`
-          };
-        }
       }
     ]
   },

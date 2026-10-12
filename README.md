@@ -9,16 +9,22 @@ and teacher rosters.
 
 **Stack:** React 18 + Vite · Node.js + Express · PostgreSQL (JWT auth, bcrypt)
 
-## Content — 50 skills in 11 topics
+## Content — IXL-style organization (modeled on ca.ixl.com)
 
-| Area | Topics |
+**75 skills organized by Grade 1–12** — each grade has lettered sections
+(A. Division, B. Fractions, …) with numbered skills, exactly like IXL's
+Math pages. The Skills home shows a grade grid with per-grade progress.
+
+| Grade | Highlights |
 |---|---|
-| 🔢 Number sense | Order of operations, fractions, percents |
-| 📐 Geometry & shapes | Area, perimeter, triangle angles, circles, volume, shape ID |
-| 🎲 Probability | Simple probability, complement, dice & coins |
-| 📊 Data & statistics | Mean, median, mode, range |
-| ➕ Algebra (17) | Expressions → quadratics (full AlgebraAce catalog) |
-| 🚀 Exponents & logs (16) | Powers, rules, exponential & log equations |
+| 1–2 | Skip counting, add/subtract facts, place value, patterns |
+| 3–4 | Times tables, division, fractions of a whole, rounding, shapes, GCF, equivalent fractions, area & perimeter |
+| 5–6 | Decimals, order of operations, fractions, prime/composite, LCM, integers, unit rates, percents, statistics |
+| 7 | Expressions, one/two-step equations, probability, powers, geometry |
+| 8 | Multi-step equations, inequalities, linear relations, negative exponents |
+| 9 | Exponent rules, systems of equations |
+| 10 | Quadratics, exponential equations |
+| 11–12 | Logarithms, natural log & e |
 
 ### 🎓 Learn section (4 interactive experiences)
 - 🧮 **Linear equations** — animated balance solver (play/pause/back/speed)

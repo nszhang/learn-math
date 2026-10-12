@@ -9,6 +9,12 @@ import { nextScore, medalFor } from './scoring.js';
 import { AWARDS, AWARD_META } from './awards.js';
 
 const SKILL_IDS = [
+  // elementary (grades 1-6)
+  'elCNT1', 'elADD1', 'elSUB1', 'elCMP1', 'elPLV1', 'elADD2', 'elSUB2', 'elPAT2',
+  'elMUL3', 'elDIV3', 'elFRQ3', 'elWPM3', 'elRND3', 'elSHP3',
+  'elMUL4', 'elDIV4', 'elGCF4', 'elEQF4', 'elRND4',
+  'elDEC5', 'elFRC5', 'elPRM5', 'elLCM5',
+  'elINT6', 'elRAT6', 'elFDC6',
   // school topics
   'schN1', 'schN2', 'schN3',
   'schG1', 'schG2', 'schG3', 'schG4', 'schG5', 'schG6', 'schG7',
