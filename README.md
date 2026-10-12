@@ -11,7 +11,7 @@ and teacher rosters.
 
 ## Content — IXL-style organization (modeled on ca.ixl.com)
 
-**227 skills organized by Grade 1–12** — each grade has lettered sections
+**249 skills organized by Grade 1–12** — each grade has lettered sections
 (A. Division, B. Fractions, …) with numbered skills, exactly like IXL's
 Math pages. The Skills home shows a grade grid with per-grade progress.
 
@@ -37,6 +37,7 @@ distributive law skills throughout.
 | 8 | Multi-step equations, inequalities, linear relations, negative exponents |
 | 9 | Exponent rules, systems of equations |
 | 10 | Quadratics, exponential equations |
+| 9 (textbook-aligned) | 12 sections mirroring MathLinks 9: symmetry (line & rotation), surface area (triangular prisms, open boxes), rational numbers (compare, negative ops, square roots of rationals), powers of 10 & BEDMAS, scale factors & similarity (scale diagrams, similar triangles/polygons), polynomial language & monomial ×/÷, patterns→expressions, interpreting graphs, data collection (bias, sampling) |
 | 11–12 | Logarithms, natural log & e |
 
 ### 🎓 Learn section (4 interactive experiences)

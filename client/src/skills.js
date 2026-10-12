@@ -12,6 +12,7 @@ import { EXPONENT_TOPICS } from './catalog/exponent.js';
 import { ELEMENTARY } from './catalog/elementary.js';
 import { EXTRA_SKILLS } from './catalog/extra.js';
 import { EXTRA2_SKILLS } from './catalog/extra2.js';
+import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
 
 export {
   ri, pick, fmtNum,
@@ -111,6 +112,7 @@ for (const { grade, sections } of ELEMENTARY) {
 // expansion skills (grade/section inline)
 for (const skill of EXTRA_SKILLS) addSkill(skill.grade, skill.section, skill.icon, skill);
 for (const skill of EXTRA2_SKILLS) addSkill(skill.grade, skill.section, skill.icon, skill);
+for (const skill of GRADE9_BOOK_SKILLS) addSkill(skill.grade, skill.section, skill.icon, skill);
 
 // placed catalog skills
 for (const topic of TOPICS) {
