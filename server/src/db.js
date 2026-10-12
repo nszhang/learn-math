@@ -19,11 +19,11 @@ export async function initSchema(pool) {
 }
 
 // ---------- users ----------
-export async function createUser(pool, { username, displayName, passHash, role }) {
+export async function createUser(pool, { username, displayName, passHash, role, email = null }) {
   const { rows } = await pool.query(
-    `INSERT INTO users (username, display_name, pass_hash, role)
-     VALUES ($1, $2, $3, $4) RETURNING id, username, display_name, role, stars, created_at`,
-    [username, displayName, passHash, role]);
+    `INSERT INTO users (username, display_name, pass_hash, role, email)
+     VALUES ($1, $2, $3, $4, $5) RETURNING id, username, display_name, role, stars, email, created_at`,
+    [username, displayName, passHash, role, email]);
   await pool.query('INSERT INTO stats (user_id) VALUES ($1)', [rows[0].id]);
   return rows[0];
 }

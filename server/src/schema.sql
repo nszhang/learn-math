@@ -76,3 +76,14 @@ CREATE INDEX IF NOT EXISTS idx_assignments_student ON assignments(student_id);
 CREATE INDEX IF NOT EXISTS idx_assignments_teacher ON assignments(teacher_id);
 CREATE INDEX IF NOT EXISTS idx_hw_progress_user ON homework_progress(user_id);
 CREATE INDEX IF NOT EXISTS idx_teacher_students_student ON teacher_students(student_id);
+
+-- Email notifications
+ALTER TABLE users ADD COLUMN IF NOT EXISTS email TEXT;
+
+CREATE TABLE IF NOT EXISTS email_log (
+  user_id       INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  assignment_id TEXT NOT NULL,
+  kind          TEXT NOT NULL CHECK (kind IN ('assigned', 'due-soon', 'overdue')),
+  sent_at       TIMESTAMPTZ NOT NULL DEFAULT now(),
+  PRIMARY KEY (user_id, assignment_id, kind)
+);

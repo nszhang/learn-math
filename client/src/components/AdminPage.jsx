@@ -11,7 +11,7 @@ export default function AdminPage({ toast }) {
   const [filter, setFilter] = useState('student');
   const [created, setCreated] = useState(null);     // {user, password, generated}
   const [resetPw, setResetPw] = useState(null);     // {user, password, generated}
-  const [nu, setNu] = useState({ username: '', displayName: '', role: 'student', password: '' });
+  const [nu, setNu] = useState({ username: '', displayName: '', role: 'student', password: '', email: '' });
   const [busy, setBusy] = useState(false);
   // roster editor
   const [teacherId, setTeacherId] = useState('');
@@ -49,11 +49,21 @@ export default function AdminPage({ toast }) {
       const data = await api('POST', '/api/admin/users', nu);
       setCreated(data);
       setResetPw(null);
-      setNu({ username: '', displayName: '', role: 'student', password: '' });
+      setNu({ username: '', displayName: '', role: 'student', password: '', email: '' });
       toast('✅', `${data.user.displayName} (${data.user.role}) created`);
       await load();
     } catch (err) { toast('⚠️', err.message); }
     finally { setBusy(false); }
+  }
+
+  async function editEmail(u) {
+    const email = window.prompt(`Email address for ${u.displayName} (${u.username}) — leave blank to remove:`, u.email || '');
+    if (email === null) return; // cancelled
+    try {
+      await api('PUT', `/api/admin/users/${u.id}/email`, { email: email.trim() });
+      toast('📧', email.trim() ? `Email set for ${u.username}` : `Email removed for ${u.username}`);
+      await load();
+    } catch (err) { toast('⚠️', err.message); }
   }
 
   async function resetPassword(u) {
@@ -132,6 +142,10 @@ export default function AdminPage({ toast }) {
             <input type="text" maxLength="40" placeholder="blank = auto-generate"
               value={nu.password} onChange={e => setNu({ ...nu, password: e.target.value })} />
           </label>
+          <label>Email (optional — homework reminders)
+            <input type="email" placeholder="student@example.com" value={nu.email}
+              onChange={e => setNu({ ...nu, email: e.target.value })} />
+          </label>
           <button className="btn btn-primary" disabled={busy}>{busy ? '…' : 'Create account'}</button>
         </form>
       </div>
@@ -149,13 +163,20 @@ export default function AdminPage({ toast }) {
         </div>
         <table className="admin-table">
           <thead>
-            <tr><th>Name</th><th>Username</th><th>Role</th><th>Roster / Teacher</th><th></th></tr>
+            <tr><th>Name</th><th>Username</th><th>Email</th><th>Role</th><th>Roster / Teacher</th><th></th></tr>
           </thead>
           <tbody>
             {shown.map(u => (
               <tr key={u.id}>
                 <td>{u.displayName}</td>
                 <td className="mono">{u.username}</td>
+                <td>
+                  {u.email
+                    ? <a href={'mailto:' + u.email} className="muted">{u.email}</a>
+                    : <span className="muted">—</span>}
+                  {' '}<button type="button" className="btn btn-ghost" style={{ padding: '2px 8px' }}
+                    onClick={() => editEmail(u)} title="edit email">✉️</button>
+                </td>
                 <td><span className={'role-badge ' + (ROLE_BADGE[u.role] || '')}>{u.role}</span></td>
                 <td className="muted">
                   {u.role === 'teacher' ? `${rosterSize(u.id)} student${rosterSize(u.id) === 1 ? '' : 's'}`

@@ -7,6 +7,7 @@ import crypto from 'node:crypto';
 import * as db from './db.js';
 import { nextScore, medalFor } from './scoring.js';
 import { AWARDS, AWARD_META } from './awards.js';
+import { sendAssignmentEmail } from './reminders.js';
 
 const SKILL_IDS = [
   // elementary (grades 1-6)
@@ -44,7 +45,7 @@ const SKILL_IDS = [
 ];
 const USERNAME_RE = /^[a-z0-9_]{3,20}$/;
 
-export function createApp(pool, jwtSecret = 'dev-secret-change-me') {
+export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = null) {
   const app = express();
   app.use(cors());
   app.use(express.json());
@@ -52,7 +53,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me') {
   const sign = user => jwt.sign({ uid: user.id, role: user.role }, jwtSecret, { expiresIn: '30d' });
   const publicUser = u => ({
     id: u.id, username: u.username, displayName: u.display_name,
-    role: u.role, stars: u.stars, createdAt: u.created_at
+    role: u.role, stars: u.stars, createdAt: u.created_at,
+    email: u.email || null
   });
 
   // ---------- auth middleware ----------
@@ -328,6 +330,15 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me') {
     const id = 'a' + Date.now().toString(36) + Math.floor(Math.random() * 1e4).toString(36);
     await db.createAssignment(pool, { id, teacherId: req.uid, studentId: student.id, due, items: clean });
     res.json({ id });
+
+    // fire-and-forget: notify the student by email (if they have one)
+    if (mailer) {
+      const stu = await pool.query('SELECT id, email, display_name FROM users WHERE id = $1', [student.id]).then(r => r.rows[0]);
+      if (stu?.email) {
+        sendAssignmentEmail(pool, mailer, { student: stu, assignment: { id, due, items: clean }, kind: 'assigned' })
+          .catch(e => console.error('assigned-email failed:', e.message));
+      }
+    }
   });
 
   app.get('/api/assignments', auth, teacherOnly, async (req, res) => {
@@ -361,8 +372,12 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me') {
     });
   });
 
+  const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   app.post('/api/admin/users', auth, adminOnly, async (req, res) => {
-    const { username, displayName, role, password } = req.body || {};
+    const { username, displayName, role, password, email } = req.body || {};
+    const emailClean = email ? String(email).trim().toLowerCase() : null;
+    if (emailClean && !EMAIL_RE.test(emailClean))
+      return res.status(400).json({ error: 'Invalid email address.' });
     const uname = String(username || '').trim().toLowerCase();
     if (!USERNAME_RE.test(uname))
       return res.status(400).json({ error: 'Username must be 3–20 chars: letters, numbers, underscores.' });
@@ -378,7 +393,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me') {
       username: uname,
       displayName: String(displayName || '').trim() || uname,
       passHash: await bcrypt.hash(pw, 10),
-      role
+      role,
+      email: emailClean
     });
     res.json({ user: publicUser(user), password: pw, generated: !password });
   });
@@ -393,6 +409,17 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me') {
       return res.status(400).json({ error: 'Password must be at least 4 characters.' });
     await db.updatePassHash(pool, id, await bcrypt.hash(pw, 10));
     res.json({ ok: true, password: pw, generated: !given });
+  });
+
+  app.put('/api/admin/users/:id/email', auth, adminOnly, async (req, res) => {
+    const id = req.params.id | 0;
+    const email = req.body?.email ? String(req.body.email).trim().toLowerCase() : null;
+    if (email && !EMAIL_RE.test(email))
+      return res.status(400).json({ error: 'Invalid email address.' });
+    const { rowCount } = await pool.query('UPDATE users SET email = $2 WHERE id = $1', [id, email]);
+    if (!rowCount) return res.status(404).json({ error: 'User not found' });
+    const user = await pool.query('SELECT * FROM users WHERE id = $1', [id]).then(r => r.rows[0]);
+    res.json({ user: publicUser(user) });
   });
 
   app.delete('/api/admin/users/:id', auth, adminOnly, async (req, res) => {

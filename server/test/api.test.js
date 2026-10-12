@@ -6,16 +6,24 @@ import assert from 'node:assert/strict';
 import { newDb } from 'pg-mem';
 import bcrypt from 'bcryptjs';
 import { createApp } from '../src/app.js';
+import { runReminderScan } from '../src/reminders.js';
 import { initSchema, createUser } from '../src/db.js';
 
-let server, base, pool;
+let server, base, pool, sent;   // `sent` captures fake-mailer deliveries
+
+function fakeMailer() {
+  return {
+    configured: true,
+    async send({ to, subject }) { sent.push({ to, subject }); return { messageId: 'fake' }; }
+  };
+}
 
 before(async () => {
   const mem = newDb();
   const pgAdapter = mem.adapters.createPg();
   pool = new pgAdapter.Pool();
   await initSchema(pool);
-  const app = createApp(pool, 'test-secret');
+  const app = createApp(pool, 'test-secret', fakeMailer());
   await new Promise(resolve => { server = app.listen(0, resolve); });
   base = `http://localhost:${server.address().port}`;
 
@@ -293,4 +301,64 @@ test('admin resets passwords and deletes accounts', async () => {
   assert.equal(r.status, 400, 'cannot delete yourself');
   r = await api('DELETE', '/api/admin/users/99999', { token: admin.token });
   assert.equal(r.status, 404);
+});
+
+
+test('emails: user email field + assignment notification + reminders', async () => {
+  sent = [];
+  const today = new Date().toLocaleDateString('en-CA');
+  const yesterday = new Date(Date.now() - 86400000).toLocaleDateString('en-CA');
+
+  // admin sets an email on a student
+  let r = await api('PUT', `/api/admin/users/${student.user.id}/email`,
+    { token: admin.token, body: { email: 'stu@example.com' } });
+  assert.equal(r.status, 200);
+  assert.equal(r.data.user.email, 'stu@example.com');
+  r = await api('PUT', `/api/admin/users/${student.user.id}/email`,
+    { token: admin.token, body: { email: 'not-an-email' } });
+  assert.equal(r.status, 400, 'invalid email rejected');
+
+  // teacher assigns homework due today → immediate 'assigned' email
+  r = await api('POST', '/api/assignments', { token: teacher.token,
+    body: { studentId: student.user.id, due: today, items: [{ skillId: 'algA1', count: 2 }] } });
+  assert.equal(r.status, 200);
+  const todayId = r.data.id;
+  await new Promise(res => setTimeout(res, 50)); // fire-and-forget send
+  assert.ok(sent.some(x => x.to === 'stu@example.com' && x.subject.includes('New homework')),
+    'assigned email sent immediately');
+
+  // a second assignment already overdue (created directly in the DB)
+  await pool.query(`INSERT INTO assignments (id, teacher_id, student_id, due, items)
+    VALUES ('emailtest-overdue', $1, $2, $3, $4)`,
+    [teacher.user.id, student.user.id, yesterday, JSON.stringify([{ skillId: 'algB1', count: 3 }])]);
+
+  // reminder scan: due-today reminder + overdue notice
+  sent = [];
+  const out = await runReminderScan(pool, fakeMailer());
+  assert.ok(out.some(x => x.kind === 'due-soon' && x.sent), 'due-soon reminder sent');
+  assert.ok(out.some(x => x.kind === 'overdue' && x.sent), 'overdue reminder sent');
+  assert.equal(sent.length, 2, 'exactly two reminder emails');
+
+  // idempotent: a second scan sends nothing
+  sent = [];
+  const out2 = await runReminderScan(pool, fakeMailer());
+  assert.equal(out2.filter(x => x.sent).length, 0, 'no duplicate reminders');
+  assert.equal(sent.length, 0);
+
+  // completing the homework stops future scans for it
+  await pool.query('INSERT INTO homework_completed (user_id, assignment_id) VALUES ($1, $2)',
+    [student.user.id, 'emailtest-overdue']);
+  sent = [];
+  const out3 = await runReminderScan(pool, fakeMailer());
+  assert.ok(!out3.some(x => x.kind === 'overdue'), 'completed homework gets no overdue email');
+
+  // cleanup the direct-insert row so later scans stay quiet
+  await pool.query('DELETE FROM assignments WHERE id = $1', ['emailtest-overdue']);
+});
+
+test('emails: users without an email are simply skipped', async () => {
+  const out = await runReminderScan(pool, fakeMailer());
+  // the today-assignment from the previous test still belongs to a student WITH email
+  // so filter for other students: none should appear
+  assert.ok(out.every(x => x.to === 'stu@example.com' || x.sent === false));
 });
