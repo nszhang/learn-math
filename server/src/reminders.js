@@ -7,6 +7,7 @@
 const todayStr = () => new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD
 // node-pg returns DATE columns as Date objects — normalize to YYYY-MM-DD either way
 const dateStr = d => (d instanceof Date ? d.toISOString() : String(d)).slice(0, 10);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
 function assignmentEmail({ student, assignment, kind }) {
   const url = 'https://math.pnpsolutions.ca/learn-math/';
@@ -30,7 +31,7 @@ function assignmentEmail({ student, assignment, kind }) {
     html: `
       <div style="font-family:Segoe UI,system-ui,sans-serif;max-width:520px;margin:auto">
         <h2 style="color:#4f46e5">π MathAce</h2>
-        <p>Hi ${student.display_name},</p>
+        <p>Hi ${esc(student.display_name)},</p>
         <p>${s.lead}</p>
         <p style="background:#eef2ff;border-radius:10px;padding:14px">
           <strong>${total} question${total > 1 ? 's' : ''}</strong> across ${assignment.items.length} skill${assignment.items.length > 1 ? 's' : ''} (${skills})

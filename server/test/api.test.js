@@ -362,3 +362,21 @@ test('emails: users without an email are simply skipped', async () => {
   // so filter for other students: none should appear
   assert.ok(out.every(x => x.to === 'stu@example.com' || x.sent === false));
 });
+
+test('validation: bad homework input is rejected, not a 500 or free stars', async () => {
+  let r = await api('POST', '/api/assignments', { token: teacher.token,
+    body: { studentId: student.user.id, due: '2026-13-45', items: [{ skillId: 'algA1', count: 2 }] } });
+  assert.equal(r.status, 400, 'impossible due date rejected');
+
+  r = await api('POST', '/api/answers', { token: student.token,
+    body: { skillId: 'algA1', correct: true, assignmentId: 42 } });
+  assert.equal(r.status, 400, 'non-string assignmentId rejected');
+
+  r = await api('POST', '/api/answers', { token: student.token,
+    body: { skillId: 'algA1', correct: true, assignmentId: 'daily-whatever', items: [{ skillId: 'algA1', count: 1 }] } });
+  assert.equal(r.status, 400, 'malformed daily id rejected');
+
+  r = await api('POST', '/api/answers', { token: student.token,
+    body: { skillId: 'algA1', correct: true, assignmentId: 'daily-2026-01-01', items: [] } });
+  assert.equal(r.status, 400, 'empty daily set cannot be "completed"');
+});

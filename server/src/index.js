@@ -14,6 +14,10 @@ const PORT = process.env.PORT || 3001;
 const DATABASE_URL = process.env.DATABASE_URL
   || 'postgres://postgres:postgres@localhost:5432/learn_math';
 const JWT_SECRET = process.env.JWT_SECRET || 'dev-secret-change-me';
+if (process.env.NODE_ENV === 'production' && JWT_SECRET === 'dev-secret-change-me') {
+  console.error('❌ JWT_SECRET must be set in production');
+  process.exit(1);
+}
 
 const useSSL = process.env.PGSSL === 'true' || /sslmode=require/i.test(DATABASE_URL);
 const pool = new pg.Pool({

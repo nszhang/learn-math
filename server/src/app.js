@@ -47,6 +47,17 @@ const USERNAME_RE = /^[a-z0-9_]{3,20}$/;
 
 export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = null) {
   const app = express();
+  // Express 4 doesn't catch rejected promises from async handlers (which would
+  // crash the process on Node 15+). Wrap every route handler so errors reach
+  // the error middleware below.
+  for (const m of ['get', 'post', 'put', 'delete']) {
+    const orig = app[m].bind(app);
+    app[m] = (path, ...handlers) => m === 'get' && handlers.length === 0
+      ? orig(path)
+      : orig(path, ...handlers.map(h => typeof h === 'function' && h.length < 4
+        ? (req, res, next) => Promise.resolve(h(req, res, next)).catch(next)
+        : h));
+  }
   app.use(cors());
   app.use(express.json());
 
@@ -177,6 +188,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       db.getAllSkillProgress(pool, req.uid),
       db.getAwards(pool, req.uid)
     ]);
+    if (!userRow) return res.status(401).json({ error: 'Account not found' });
     res.json({ user: publicUser(userRow), stats, skillProgress: progress, awards });
   });
 
@@ -209,22 +221,26 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
 
     // --- homework progress (when in homework mode) ---
     let homework = null;
+    if (assignmentId !== undefined && assignmentId !== null && typeof assignmentId !== 'string')
+      return res.status(400).json({ error: 'Invalid assignment' });
     if (assignmentId) {
       let hwItems = null;
       if (assignmentId.startsWith('daily-')) {
         // daily sets are deterministic and client-computed
+        if (!/^daily-\d{4}-\d{2}-\d{2}$/.test(assignmentId))
+          return res.status(400).json({ error: 'Unknown assignment' });
         hwItems = Array.isArray(items) ? items.filter(i =>
-          SKILL_IDS.includes(i.skillId) && Number.isInteger(i.count) && i.count > 0 && i.count <= 50) : null;
+          i && SKILL_IDS.includes(i.skillId) && Number.isInteger(i.count) && i.count > 0 && i.count <= 50) : null;
       } else {
         const { rows } = await pool.query(
           'SELECT items FROM assignments WHERE id = $1 AND student_id = $2', [assignmentId, req.uid]);
         hwItems = rows[0] ? rows[0].items : null;
       }
-      if (!hwItems) return res.status(400).json({ error: 'Unknown assignment' });
+      if (!hwItems || !hwItems.length) return res.status(400).json({ error: 'Unknown assignment' });
 
       const alreadyDone = (await db.getCompletedHomework(pool, req.uid))
         .some(c => c.assignment_id === assignmentId);
-      if (!alreadyDone) {
+      if (!alreadyDone && hwItems.some(i => i.skillId === skillId)) {
         await db.recordHomeworkAnswer(pool, req.uid, assignmentId, skillId, correct);
         const progress = await db.getHomeworkProgress(pool, req.uid);
         const rows = progress.filter(r => r.assignment_id === assignmentId);
@@ -238,7 +254,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
           starDelta += 5;
         }
         homework = { done, total, justCompleted };
-      } else {
+      } else {  // already completed, or this skill isn't part of the assignment
         const progress = (await db.getHomeworkProgress(pool, req.uid))
           .filter(r => r.assignment_id === assignmentId);
         homework = { ...hwTotals(hwItems, progress), justCompleted: false };
@@ -314,15 +330,17 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
 
   app.post('/api/assignments', auth, teacherOnly, async (req, res) => {
     const { studentId, due, items } = req.body || {};
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(String(due || '')))
-      return res.status(400).json({ error: 'Due date must be YYYY-MM-DD' });
+    const dueStr = String(due || '');
+    const dueDate = new Date(dueStr + 'T00:00:00Z');
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dueStr) || isNaN(dueDate) || dueDate.toISOString().slice(0, 10) !== dueStr)
+      return res.status(400).json({ error: 'Due date must be a valid date (YYYY-MM-DD)' });
     if (!Array.isArray(items) || !items.length)
       return res.status(400).json({ error: 'Pick at least one skill' });
-    const clean = items.filter(i => SKILL_IDS.includes(i.skillId))
+    const clean = items.filter(i => i && SKILL_IDS.includes(i.skillId))
       .map(i => ({ skillId: i.skillId, count: Math.max(1, Math.min(20, i.count | 0 || 5)) }));
     if (!clean.length) return res.status(400).json({ error: 'No valid skills' });
     const student = await pool.query(
-      "SELECT id FROM users WHERE id = $1 AND role = 'student'", [studentId]).then(r => r.rows[0]);
+      "SELECT id FROM users WHERE id = $1 AND role = 'student'", [Number.isInteger(studentId) ? studentId : 0]).then(r => r.rows[0]);
     if (!student) return res.status(404).json({ error: 'Student not found' });
     if (!(await db.isTeacherOf(pool, req.uid, student.id)))
       return res.status(403).json({ error: 'That student is not in your roster.' });
@@ -452,6 +470,13 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       await db.setTeacherStudents(pool, teacher.id, []);
     }
     res.json({ ok: true, count: ids.length });
+  });
+
+  // eslint-disable-next-line no-unused-vars
+  app.use((err, req, res, next) => {
+    if (err?.type === 'entity.parse.failed') return res.status(400).json({ error: 'Invalid JSON' });
+    console.error(`${req.method} ${req.path} failed:`, err);
+    if (!res.headersSent) res.status(500).json({ error: 'Server error' });
   });
 
   return app;
