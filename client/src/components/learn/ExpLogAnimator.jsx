@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { LESSON_KINDS, generateLesson } from '../../learn/learnExpLog.js';
+import { clickable } from '../../a11y.js';
 
 const SPEEDS = {
   slow:   { label: '🐢 Slow',   ms: 3200 },
@@ -112,7 +113,7 @@ export default function LessonAnimator({ toast, fireConfetti }) {
           <div key={i}
             className={'lesson-step' + (i < idx ? ' step-done' : i === idx ? ' step-current' : '')}
             style={{ cursor: 'pointer' }}
-            onClick={() => { setPlaying(false); setIdx(i); }}>
+            {...clickable(() => { setPlaying(false); setIdx(i); })}>
             <span className="step-num">{i < idx ? '✓' : i + 1}</span>
             <div className="step-text" style={{ fontSize: '.9rem' }}>
               <span dangerouslySetInnerHTML={{ __html: f.note }} />

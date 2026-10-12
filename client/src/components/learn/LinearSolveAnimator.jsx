@@ -162,7 +162,7 @@ export default function SolveAnimator({ toast, fireConfetti }) {
         <div className="lesson-controls">
           <div className="anim-controls">
             <button className="btn btn-primary" type="button" onClick={playPause}>
-              {playing ? '⏸ Pause' : done ? '↺ Replay' : paused || stepIdx > 0 ? '▶ Resume' : '▶ Play'}
+              {playing ? '⏸ Pause' : done ? '▶ New & play' : paused || stepIdx > 0 ? '▶ Resume' : '▶ Play'}
             </button>
             <button className="btn btn-ghost" type="button" onClick={stepBack}
               disabled={playing || busy || stepIdx === 0}>⏮ Back</button>

@@ -59,12 +59,12 @@ export default function AreaExplorer() {
             <div className="frac-ctl"><span className="frac-label">height</span><Sq v={h} onNudge={setH} lo={2} /></div>
           </div>
           <div className="area-stage">
-            <svg width={(b + 2) * U} height={(h + 1) * U}>
+            <svg width={(b + 1) * U} height={(h + 1) * U}>
               <polygon points={`${U / 2},${(h + 1 / 2) * U} ${(b + 1 / 2) * U},${(h + 1 / 2) * U} ${U / 2},${U / 2}`}
                 fill="rgba(220,38,38,.18)" stroke="#dc2626" strokeWidth="3" />
-              <polygon points={`${U / 2},${(h + 1 / 2) * U} ${(b + 1 / 2) * U},${(h + 1 / 2) * U} ${U / 2},${U / 2} ${(b + 1 / 2) * U},${U / 2}`}
-                fill="rgba(220,38,38,.30)" stroke="#fca5a5" strokeWidth="1" strokeDasharray="4 3" />
-              <line x1={U / 2} y1={U / 4} x2={(b + 1 / 2) * U} y2={U / 4} stroke="#b91c1c" strokeWidth="1.5" strokeDasharray="4 3" />
+              {/* the twin triangle, rotated 180°, completes the b × h rectangle */}
+              <polygon points={`${U / 2},${U / 2} ${(b + 1 / 2) * U},${U / 2} ${(b + 1 / 2) * U},${(h + 1 / 2) * U}`}
+                fill="rgba(220,38,38,.10)" stroke="#dc2626" strokeWidth="2" strokeDasharray="5 4" />
             </svg>
           </div>
           <div className="frame-note">

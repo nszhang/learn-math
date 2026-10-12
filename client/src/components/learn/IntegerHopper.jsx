@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { fmtNum } from '../../learn/learnLinear.js';
 
-const MIN = -12, MAX = 12;
+const BASE_MIN = -12, BASE_MAX = 12;
 
 export default function IntegerHopper() {
   const [start, setStart] = useState(-3);
@@ -11,12 +11,13 @@ export default function IntegerHopper() {
   ]);
   const [step, setStep] = useState(0);        // how many hops applied
   const [playing, setPlaying] = useState(false);
-  const timers = useRef([]);
 
   const positions = [start];
   ops.forEach(o => positions.push(positions[positions.length - 1] + o.sign * o.val));
   const pos = positions[step];
   const done = step >= ops.length;
+  // widen the number line if the hops would leave the default window
+  const MIN = Math.min(BASE_MIN, ...positions) - 1, MAX = Math.max(BASE_MAX, ...positions) + 1;
 
   useEffect(() => {
     if (!playing || done) return;
@@ -24,8 +25,7 @@ export default function IntegerHopper() {
     return () => clearTimeout(t);
   });
 
-  function reset(s = start) {
-    timers.current.forEach(clearTimeout);
+  function reset() {
     setStep(0); setPlaying(false);
   }
 

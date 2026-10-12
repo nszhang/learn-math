@@ -79,7 +79,7 @@ export default function FactoringLab() {
           <div className="frame-note">
             💡 <strong>Factoring is the reverse</strong>: for x² + {a + b}x + {a * b}, find two numbers that
             <em> add to {a + b}</em> and <em>multiply to {a * b}</em>: that's <strong>{a} and {b}</strong> —
-            the exact sizes of the green and strip tiles!
+            the widths of the two strips (and the sides of the green tile)!
             <br/>x² + {a + b}x + {a * b} = <strong>(x + {a})(x + {b})</strong> ✓
           </div>
         )}

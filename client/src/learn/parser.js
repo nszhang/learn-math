@@ -156,7 +156,9 @@ export function parse(input) {
   let src = String(input || '').trim();
   if (!src) return { fn: null, error: null };
   // allow "y = ..." / "f(x) = ..." prefixes like Desmos
-  src = src.replace(/^\s*(y|f\s*\(\s*x\s*\))\s*=\s*/, '');
+  // accept the symbols students paste or type from a keyboard/phone
+  src = src.replace(/[−–]/g, '-').replace(/[×·]/g, '*').replace(/÷/g, '/').replace(/π/g, 'pi');
+  src = src.replace(/^\s*(y|f\s*\(\s*x\s*\))\s*=\s*/i, '');
   try {
     const ast = parseTokens(tokenize(src));
     return { fn: x => evalNode(ast, x), error: null };

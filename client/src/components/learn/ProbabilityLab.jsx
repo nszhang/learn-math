@@ -50,17 +50,17 @@ export default function ProbabilityLab() {
             <div className="frac-ctl">
               <span className="frac-label" style={{ color: '#dc2626' }}>red marbles</span>
               <div className="stepper">
-                <button type="button" className="btn btn-ghost stepper-btn" onClick={() => setRed(r => Math.max(1, r - 1))} disabled={red <= 1}>−</button>
+                <button type="button" className="btn btn-ghost stepper-btn" onClick={() => { setRed(r => Math.max(1, r - 1)); setResults(null); }} disabled={red <= 1}>−</button>
                 <span className="frac-frac">{red}</span>
-                <button type="button" className="btn btn-ghost stepper-btn" onClick={() => setRed(r => Math.min(9, r + 1))} disabled={red >= 9}>+</button>
+                <button type="button" className="btn btn-ghost stepper-btn" onClick={() => { setRed(r => Math.min(9, r + 1)); setResults(null); }} disabled={red >= 9}>+</button>
               </div>
             </div>
             <div className="frac-ctl">
               <span className="frac-label" style={{ color: '#2563eb' }}>blue marbles</span>
               <div className="stepper">
-                <button type="button" className="btn btn-ghost stepper-btn" onClick={() => setBlue(b => Math.max(1, b - 1))} disabled={blue <= 1}>−</button>
+                <button type="button" className="btn btn-ghost stepper-btn" onClick={() => { setBlue(b => Math.max(1, b - 1)); setResults(null); }} disabled={blue <= 1}>−</button>
                 <span className="frac-frac">{blue}</span>
-                <button type="button" className="btn btn-ghost stepper-btn" onClick={() => setBlue(b => Math.min(9, b + 1))} disabled={blue >= 9}>+</button>
+                <button type="button" className="btn btn-ghost stepper-btn" onClick={() => { setBlue(b => Math.min(9, b + 1)); setResults(null); }} disabled={blue >= 9}>+</button>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function ProbabilityLab() {
             })}
             <div className="frame-note" style={{ marginTop: 10 }}>
               {results.trials >= 100
-                ? `After ${results.trials} trials the experimental results hug the theoretical probability closer and closer — that's the <strong>law of large numbers</strong>! 💡`.replace(/<[^>]+>/g, '')
+                ? <>After {results.trials} trials the experimental results hug the theoretical probability closer and closer — that's the <strong>law of large numbers</strong>! 💡</>
                 : 'Run more trials and watch the bars settle toward theory…'}
             </div>
           </div>

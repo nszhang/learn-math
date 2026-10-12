@@ -32,20 +32,39 @@ function fmtZoom(z) {
   return z >= 10 ? String(Math.round(z)) : String(Number(z.toFixed(2)));
 }
 
-// sample y = fn(x) into an SVG path, breaking when out of view / undefined
+// sample y = fn(x) into an SVG path. Points up to 2 view-heights away are kept
+// (the SVG clips them) so curves reach the edge; the pen lifts at undefined
+// points and at jumps across asymptotes such as tan(x) or 1/x.
 function plotPath(fn, range, scale, center) {
-  const N = 300;
+  const N = 400;
   const toX = x => (x - center.x + range) * scale;
   const toY = y => (range - (y - center.y)) * scale;
-  let d = '', pen = false;
+  let d = '', pen = false, prevY = 0;
   for (let i = 0; i <= N; i++) {
     const x = center.x - range + (2 * range * i) / N;
     const y = fn(x);
-    if (!isFinite(y) || Math.abs(y - center.y) > range) { pen = false; continue; }
+    if (!isFinite(y) || Math.abs(y - center.y) > 2 * range) { pen = false; continue; }
+    if (pen && Math.abs(y - prevY) > 2.5 * range) pen = false;
     d += (pen ? 'L' : 'M') + toX(x).toFixed(1) + ' ' + toY(y).toFixed(1) + ' ';
-    pen = true;
+    pen = true; prevY = y;
   }
   return d;
+}
+
+// Module-level so the slider <input> isn't remounted on every render (which would cancel drags).
+function Stepper({ value, set, step: st, min, max, snap }) {
+  const apply = v => set(snap ? snap(Math.min(max, Math.max(min, v))) : Math.min(max, Math.max(min, v)));
+  const nudge = dir => apply(Math.round((value + dir * st) * 100) / 100);
+  return (
+    <div className="stepper">
+      <button type="button" className="btn btn-ghost stepper-btn"
+        onClick={() => nudge(-1)} disabled={value <= min} aria-label="decrease">−</button>
+      <input type="range" min={min} max={max} step={st} value={value}
+        onChange={e => apply(Number(e.target.value))} aria-label="slider" />
+      <button type="button" className="btn btn-ghost stepper-btn"
+        onClick={() => nudge(1)} disabled={value >= max} aria-label="increase">+</button>
+    </div>
+  );
 }
 
 const FNS = {
@@ -148,21 +167,6 @@ export default function GraphPlayground() {
   }
   const onPointerUp = () => setDrag(null);
 
-  function Stepper({ value, set, step: st, min, max, snap }) {
-    const apply = v => set(snap ? snap(Math.min(max, Math.max(min, v))) : Math.min(max, Math.max(min, v)));
-    const nudge = dir => apply(Math.round((value + dir * st) * 100) / 100);
-    return (
-      <div className="stepper">
-        <button type="button" className="btn btn-ghost stepper-btn"
-          onClick={() => nudge(-1)} disabled={value <= min} aria-label="decrease">−</button>
-        <input type="range" min={min} max={max} step={st} value={value}
-          onChange={e => apply(Number(e.target.value))} aria-label="slider" />
-        <button type="button" className="btn btn-ghost stepper-btn"
-          onClick={() => nudge(1)} disabled={value >= max} aria-label="increase">+</button>
-      </div>
-    );
-  }
-
   // base b must stay positive and ≠ 1
   const snapB = v => (v > 0.9 && v < 1.1 ? (v >= 1 ? 1.1 : 0.9) : v);
 
@@ -223,7 +227,7 @@ export default function GraphPlayground() {
             onPointerUp={onPointerUp} onPointerLeave={onPointerUp}
             onPointerCancel={onPointerUp}
             onDragStart={e => e.preventDefault()} draggable={false}
-            style={{ cursor: drag ? 'grabbing' : ctrlDown ? 'grab' : 'crosshair' }}>
+            style={{ cursor: drag ? 'grabbing' : ctrlDown ? 'grab' : 'crosshair', touchAction: 'none' }}>
             {ticks(range, step / 5, center.x).map(v => (
               <line key={'mx' + v} x1={toX(v)} y1={0} x2={toX(v)} y2={SIZE} stroke="#f1f5f9" strokeWidth="1" />
             ))}

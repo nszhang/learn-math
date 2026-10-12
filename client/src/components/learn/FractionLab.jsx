@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { fmtNum } from '../../learn/learnLinear.js';
-
 const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
 
 function Bar({ n, d, color }) {
@@ -16,6 +14,8 @@ function Bar({ n, d, color }) {
 
 function FracSteppers({ label, n, d, setN, setD, color }) {
   const nudge = (setter, v, lo, hi) => setter(Math.min(hi, Math.max(lo, v)));
+  // shrinking the denominator must keep the numerator within it (n ≤ d)
+  const nudgeD = v => { const nd = Math.min(12, Math.max(1, v)); setD(nd); setN(Math.min(n, nd)); };
   return (
     <div className="frac-ctl">
       <span className="frac-label" style={{ color }}>{label}</span>
@@ -25,9 +25,9 @@ function FracSteppers({ label, n, d, setN, setD, color }) {
         <button type="button" className="btn btn-ghost stepper-btn" onClick={() => nudge(setN, n + 1, 0, d)} disabled={n >= d}>+</button>
       </div>
       <div className="stepper">
-        <button type="button" className="btn btn-ghost stepper-btn" onClick={() => nudge(setD, d - 1, 1, 12)} disabled={d <= 1}>−</button>
+        <button type="button" className="btn btn-ghost stepper-btn" onClick={() => nudgeD(d - 1)} disabled={d <= 1}>−</button>
         <span className="frac-frac">{d}</span>
-        <button type="button" className="btn btn-ghost stepper-btn" onClick={() => nudge(setD, d + 1, 1, 12)} disabled={d >= 12}>+</button>
+        <button type="button" className="btn btn-ghost stepper-btn" onClick={() => nudgeD(d + 1)} disabled={d >= 12}>+</button>
       </div>
     </div>
   );
@@ -42,8 +42,9 @@ export default function FractionLab() {
   const sumN = n1 * d2 + n2 * d1, sumD = d1 * d2;
   const sumSimple = simp(sumN, sumD);
   const [sumN2, sumD2] = sumSimple.split('/').map(Number);
-  const dec1 = (n1 / d1).toFixed(3).replace(/0+$/, '').replace(/\.$/, '');
-  const pct1 = Math.round(n1 / d1 * 100);
+  const dec = (n, d) => (n / d).toFixed(3).replace(/0+$/, '').replace(/\.$/, '');
+  const pct = (n, d) => Math.round(n / d * 100);
+  const whole = Math.floor(sumN2 / sumD2), rem = sumN2 - whole * sumD2;
 
   return (
     <div className="learn-grid">
@@ -57,11 +58,11 @@ export default function FractionLab() {
         <div className="frac-bars">
           <div>
             <Bar n={n1} d={d1} color="#4f46e5" />
-            <div className="frac-note">{n1}/{d1} = {dec1} ≈ {pct1}%{simp(n1, d1) !== `${n1}/${d1}` && <> · simplified: <strong>{simp(n1, d1)}</strong></>}</div>
+            <div className="frac-note">{n1}/{d1} = {dec(n1, d1)} ≈ {pct(n1, d1)}%{simp(n1, d1) !== `${n1}/${d1}` && <> · simplified: <strong>{simp(n1, d1)}</strong></>}</div>
           </div>
           <div>
             <Bar n={n2} d={d2} color="#dc2626" />
-            <div className="frac-note">{n2}/{d2}{simp(n2, d2) !== `${n2}/${d2}` && <> · simplified: <strong>{simp(n2, d2)}</strong>}</>}</div>
+            <div className="frac-note">{n2}/{d2} = {dec(n2, d2)} ≈ {pct(n2, d2)}%{simp(n2, d2) !== `${n2}/${d2}` && <> · simplified: <strong>{simp(n2, d2)}</strong></>}</div>
           </div>
         </div>
 
@@ -76,6 +77,9 @@ export default function FractionLab() {
             {n1}/{d1} + {n2}/{d2} = {n1 * d2}/{sumD} + {n2 * d1}/{sumD} = <strong>{sumN}/{sumD}</strong>
             {sumSimple !== `${sumN}/${sumD}` && <> = <strong>{sumSimple}</strong></>}
           </div>
+          {sumN2 > sumD2 && (
+            <div className="frac-note">💡 That's more than one whole: {whole}{rem ? <> and {rem}/{sumD2}</> : ''} ({whole}{rem ? ` ${rem}/${sumD2}` : ''}).</div>
+          )}
           {sumD2 <= 12 && sumN2 <= sumD2 && (
             <div>
               <Bar n={sumN2} d={sumD2} color="#16a34a" />

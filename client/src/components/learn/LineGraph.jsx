@@ -37,27 +37,45 @@ function fmtZoom(z) {
   return z >= 10 ? String(Math.round(z)) : String(Number(z.toFixed(2)));
 }
 
-// segment of y = mx + b clipped to the visible square [-range, range]²
-function clipLine(m, b, range) {
+// segment of y = mx + b clipped to the visible window (centered on cx, cy)
+function clipLine(m, b, range, cx, cy) {
+  const x0 = cx - range, x1 = cx + range, y0 = cy - range, y1 = cy + range;
   const pts = [];
-  for (const x of [-range, range]) {
+  for (const x of [x0, x1]) {
     const y = m * x + b;
-    if (Math.abs(y) <= range + 1e-9) pts.push([x, y]);
+    if (y >= y0 - 1e-9 && y <= y1 + 1e-9) pts.push([x, y]);
   }
-  if (m !== 0) for (const y of [-range, range]) {
+  if (m !== 0) for (const y of [y0, y1]) {
     const x = (y - b) / m;
-    if (Math.abs(x) <= range + 1e-9 && pts.every(p => Math.abs(p[0] - x) > 1e-9)) pts.push([x, y]);
+    if (x >= x0 - 1e-9 && x <= x1 + 1e-9 && pts.every(p => Math.abs(p[0] - x) > 1e-9)) pts.push([x, y]);
   }
   return pts.length >= 2 ? [pts[0], pts[1]] : null;
 }
 
-function Line({ m, b, range, scale, dashed, color, width }) {
-  const seg = clipLine(m, b, range);
+function Line({ m, b, range, scale, center, dashed, color, width }) {
+  const seg = clipLine(m, b, range, center.x, center.y);
   if (!seg) return null;
-  const toX = x => (x + range) * scale;
-  const toY = y => (range - y) * scale;
+  const toX = x => (x - center.x + range) * scale;
+  const toY = y => (range - (y - center.y)) * scale;
   return <line x1={toX(seg[0][0])} y1={toY(seg[0][1])} x2={toX(seg[1][0])} y2={toY(seg[1][1])}
     stroke={color} strokeWidth={width} strokeDasharray={dashed ? '8 6' : undefined} strokeLinecap="round" />;
+}
+
+// − / + buttons plus a slider. Defined at module level: a component declared
+// inside GraphPlayground would be re-created every render and remount the
+// <input>, which cancels slider drags.
+function Stepper({ value, set, step: st, min, max }) {
+  const nudge = dir => set(Math.min(max, Math.max(min, Math.round((value + dir * st) / st) * st)));
+  return (
+    <div className="stepper">
+      <button type="button" className="btn btn-ghost stepper-btn"
+        onClick={() => nudge(-1)} disabled={value <= min} aria-label="decrease">−</button>
+      <input type="range" min={min} max={max} step={st} value={value}
+        onChange={e => set(Number(e.target.value))} aria-label="slider" />
+      <button type="button" className="btn btn-ghost stepper-btn"
+        onClick={() => nudge(1)} disabled={value >= max} aria-label="increase">+</button>
+    </div>
+  );
 }
 
 export default function GraphPlayground({ toast, fireConfetti }) {
@@ -80,7 +98,6 @@ export default function GraphPlayground({ toast, fireConfetti }) {
   const toY = y => (range - (y - center.y)) * scale;
 
   const matched = mode === 'match' && m === target.m && b === target.b;
-  const change = setter => e => setter(Number(e.target.value));
 
   // mouse-scroll zoom (native listener: React's onWheel is passive and
   // cannot preventDefault to stop the page scrolling)
@@ -123,22 +140,6 @@ export default function GraphPlayground({ toast, fireConfetti }) {
     });
   }
   const onPointerUp = () => setDrag(null);
-
-  // − / + buttons that nudge a value in clean increments (works even where
-  // range-slider dragging is awkward)
-  function Stepper({ value, set, step: st, min, max }) {
-    const nudge = dir => set(Math.min(max, Math.max(min, Math.round((value + dir * st) / st) * st)));
-    return (
-      <div className="stepper">
-        <button type="button" className="btn btn-ghost stepper-btn"
-          onClick={() => nudge(-1)} disabled={value <= min} aria-label="decrease">−</button>
-        <input type="range" min={min} max={max} step={st} value={value}
-          onChange={change(set)} aria-label="slider" />
-        <button type="button" className="btn btn-ghost stepper-btn"
-          onClick={() => nudge(1)} disabled={value >= max} aria-label="increase">+</button>
-      </div>
-    );
-  }
 
   // celebrate once per match
   useEffect(() => {
@@ -183,7 +184,7 @@ export default function GraphPlayground({ toast, fireConfetti }) {
             onPointerUp={onPointerUp} onPointerLeave={onPointerUp}
             onPointerCancel={onPointerUp}
             onDragStart={e => e.preventDefault()} draggable={false}
-            style={{ cursor: drag ? 'grabbing' : ctrlDown ? 'grab' : 'crosshair' }}>
+            style={{ cursor: drag ? 'grabbing' : ctrlDown ? 'grab' : 'crosshair', touchAction: 'none' }}>
             {/* grid + ticks (adaptive to zoom) */}
             {ticks(range, step / 5, center.x).map(v => (
               <line key={'mx' + v} x1={toX(v)} y1={0} x2={toX(v)} y2={SIZE} stroke="#f1f5f9" strokeWidth="1" />

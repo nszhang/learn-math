@@ -9,7 +9,7 @@ export default function StatsLab() {
   const n = data.length;
   const sum = data.reduce((a, b) => a + b, 0);
   const mean = sum / n;
-  const median = sorted[(n - 1) >> 1]; // n kept odd
+  const median = n % 2 ? sorted[(n - 1) / 2] : (sorted[n / 2 - 1] + sorted[n / 2]) / 2;
   const counts = {};
   data.forEach(v => counts[v] = (counts[v] || 0) + 1);
   const maxCount = Math.max(...Object.values(counts));
@@ -17,7 +17,7 @@ export default function StatsLab() {
   const range = sorted[n - 1] - sorted[0];
 
   const MAXV = 15;
-  const W = 560, H = 180, PAD = 26;
+  const W = 560, H = 230, PAD = 26;
   const x = v => PAD + (v - 1) * ((W - 2 * PAD) / (MAXV - 1));
 
   return (
@@ -52,10 +52,11 @@ export default function StatsLab() {
           {(() => {
             const stacks = {};
             const dots = [];
-            data.forEach(v => {
+            // walk the sorted values so each dot knows its rank (for the median highlight)
+            sorted.forEach((v, rank) => {
               const level = stacks[v] || 0;
               stacks[v] = level + 1;
-              const isMedian = v === median && level === Math.floor(counts[v] / 2) && counts[v] % 2 === 1;
+              const isMedian = rank === (n - 1) >> 1 || rank === n >> 1;
               const isMode = maxCount > 1 && counts[v] === maxCount;
               dots.push(
                 <circle key={`${v}-${level}`} cx={x(v)} cy={H - PAD - 14 - level * 16} r="7"
@@ -77,7 +78,7 @@ export default function StatsLab() {
 
         <div className="stats-readout">
           <div className="stat-pill"><span style={{ color: '#dc2626' }}>mean</span><strong>{Number.isInteger(mean) ? mean : mean.toFixed(2)}</strong></div>
-          <div className="stat-pill"><span style={{ color: '#f59e0b' }}>median</span><strong>{median}</strong></div>
+          <div className="stat-pill"><span style={{ color: '#f59e0b' }}>median</span><strong>{Number.isInteger(median) ? median : median.toFixed(1)}</strong></div>
           <div className="stat-pill"><span style={{ color: '#16a34a' }}>mode</span><strong>{modes.length ? modes.join(', ') : 'none'}</strong></div>
           <div className="stat-pill"><span style={{ color: '#0891b2' }}>range</span><strong>{range}</strong></div>
         </div>
@@ -90,7 +91,7 @@ export default function StatsLab() {
         <h4>💡 Reading the dots</h4>
         <div className="graph-facts">
           <p><strong>Mean</strong> — where the dot plot balances (the red marker tilts the whole line level).</p>
-          <p><strong>Median</strong> — the middle dot once values are lined up (orange).</p>
+          <p><strong>Median</strong> — the middle dot once values are lined up (orange). With an even number of dots it's the average of the two middle ones.</p>
           <p><strong>Mode</strong> — the tallest stack (green ring). Can be more than one — or none!</p>
           <p><strong>Range</strong> — the spread from smallest to largest (cyan bracket).</p>
           <p>Try: push one value way up — watch the mean chase it while the median barely moves! 🎯</p>

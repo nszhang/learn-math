@@ -35,7 +35,7 @@ export function generateEquation(level, kind = 'addsub') {
         why: 'x is multiplied by a number — undo it with division.',
         op: { kind: 'div', by: a }
       }],
-      check: `Check: ${a}(${fmtNum(s)}) = ${d} ✓`
+      check: `Check: ${a}(${fmtNum(s)}) = ${fmtNum(d)} ✓`
     };
   }
   if (level === 1 && kind === 'div') {
@@ -48,7 +48,7 @@ export function generateEquation(level, kind = 'addsub') {
         why: 'x is divided by a number — undo it with multiplication.',
         op: { kind: 'mul', by: n }
       }],
-      check: `Check: ${fmtNum(s)}/${n} = ${d} ✓`
+      check: `Check: ${fmtNum(s)}/${n} = ${fmtNum(d)} ✓`
     };
   }
 
@@ -60,6 +60,8 @@ export function generateEquation(level, kind = 'addsub') {
   const s = ri(-6, 6);
   const b = rnz(-9, 9);
   const d = (a - c) * s + b;
+  // avoid a right side of "5x + 0" in the both-sides level
+  if (level === 3 && d === 0) return generateEquation(level, kind);
 
   const steps = [];
   if (c !== 0) steps.push({
@@ -83,9 +85,12 @@ export function generateEquation(level, kind = 'addsub') {
     left: [varTerm(a), constTerm(b)],
     right: c !== 0 ? [varTerm(c), constTerm(d)] : [constTerm(d)],
     steps,
-    check: `Check: ${a}(${fmtNum(s)})${b >= 0 ? ' + ' + b : ' − ' + Math.abs(b)} = ${a * s + b} ✓`
+    check: `Check: ${a}(${fmtNum(s)})${b >= 0 ? ' + ' + b : ' − ' + Math.abs(b)} = ${fmtNum(a * s + b)}` +
+      (c !== 0 ? `, and ${c}(${fmtNum(s)})${d >= 0 ? ' + ' + d : ' − ' + Math.abs(d)} = ${fmtNum(c * s + d)}` : '') + ' ✓'
   };
 }
+
+const round9 = v => Math.round(v * 1e9) / 1e9; // kill float dust like 15.000000000000002
 
 // Combine like terms and drop zeros. Keeps ≤1 var + ≤1 const per side.
 function combine(terms) {
@@ -100,10 +105,11 @@ function combine(terms) {
 // Apply one step's operation to both sides → [newLeft, newRight]
 export function applyOp(left, right, op) {
   if (op.kind === 'div' || op.kind === 'mul') {
-    const f = op.kind === 'div' ? op.by : 1 / op.by;
+    // multiply/divide directly (not by 1/by) so values stay clean integers
+    const scale = v => round9(op.kind === 'div' ? v / op.by : v * op.by);
     const scaleT = t => t.type === 'var'
-      ? { ...t, coef: t.coef / f }
-      : { ...t, val: t.val / f };
+      ? { ...t, coef: scale(t.coef) }
+      : { ...t, val: scale(t.val) };
     return [combine(left.map(scaleT)), combine(right.map(scaleT))];
   }
   const add = side => combine([
@@ -116,7 +122,7 @@ export function applyOp(left, right, op) {
 
 // Which existing term ids get cancelled by this op (for the fade-out animation)?
 export function cancelledIds(side, op) {
-  if (op.kind === 'div') return new Set(side.map(t => t.id)); // everything transforms
+  if (op.kind === 'div' || op.kind === 'mul') return new Set(side.map(t => t.id)); // everything transforms
   const ids = new Set();
   const coefSum = side.filter(t => t.type === 'var').reduce((s, t) => s + t.coef, 0);
   const valSum = side.filter(t => t.type === 'const').reduce((s, t) => s + t.val, 0);
