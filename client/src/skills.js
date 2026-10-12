@@ -14,11 +14,10 @@ import { EXTRA_SKILLS } from './catalog/extra.js';
 import { EXTRA2_SKILLS } from './catalog/extra2.js';
 import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
 import { ENGLISH_ALL } from './catalog/ixlEnglish.js';
-import { SCIENCE_SKILLS as SCIENCE_1_5 } from './catalog/science.js';
-import { SCIENCE_6_12 } from './catalog/science612.js';
+import { SCIENCE_ALL } from './catalog/ixlScience.js';
 
 const ENGLISH_SKILLS = ENGLISH_ALL;
-const SCIENCE_SKILLS = [...SCIENCE_1_5, ...SCIENCE_6_12];
+const SCIENCE_SKILLS = SCIENCE_ALL;
 
 export {
   ri, pick, fmtNum,
@@ -158,7 +157,7 @@ export const SCIENCE_GRADES = buildGrades(inlineFill(SCIENCE_SKILLS), 'SC-', tru
 export const SUBJECTS = [
   { id: 'math',    name: 'Math',    emoji: '➗', grades: GRADES,         blurb: 'Build number sense, algebra, geometry and more.' },
   { id: 'english', name: 'English', emoji: '📖', grades: ENGLISH_GRADES, blurb: 'Grammar, vocabulary and word skills.' },
-  { id: 'science', name: 'Science', emoji: '🔬', grades: SCIENCE_GRADES, blurb: 'Life, earth and physical science.' }
+  { id: 'science', name: 'Science', emoji: '🔬', grades: SCIENCE_GRADES, blurb: 'Physical, life, earth and space science.' }
 ];
 
 // flat lookup: skill id -> { subject, grade, section, skill }
