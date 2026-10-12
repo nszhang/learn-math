@@ -132,7 +132,10 @@ distributive). MathAce's catalog is written to make students *intuit* these:
 
 ## The Learn section
 
-Four interactive experiences:
+**11 interactive lessons** organized in a library of four subject groups
+(Numbers & operations · Geometry & measurement · Data & chance · Algebra &
+beyond), each opening full-screen from a card menu. In addition to the four
+original tools below, seven new labs cover the expanded topic catalog:
 
 1. **🧮 Linear equations** — animated balance-scale solver: operations appear on
    *both sides*, cancelled terms fade, with Play/Pause, single-Step, Back,
@@ -144,6 +147,24 @@ Four interactive experiences:
    y-intercept marker, and a 🎯 *Match the line* game
 4. **📉 Curves** — `y = a·bˣ` and `y = a·log_b(x)` playground **plus a
    Desmos-style custom grapher**
+
+**New topic labs:**
+- **🍕 Fraction lab** — live fraction bars for two fractions: compare (with
+  cross-multiplication shown), simplify, decimals/percents, and a visual
+  common-denominator addition
+- **▭ Area & perimeter explorer** — unit-square grids for rectangles and a
+  dashed "twin" showing *why* triangle area is ½ × base × height
+- **📊 Statistics lab** — adjustable dot plot with an animated mean
+  balance-point marker, median dot, mode rings, and a range bracket
+- **🎲 Probability lab** — coin / die / marble-bag simulator: run 1–1000
+  trials and watch experimental probability converge on theory
+  (law of large numbers)
+- **📐 Pythagoras explorer** — live squares on all three sides of a right
+  triangle; detects Pythagorean triples
+- **🦘 Integer hopper** — an animated kangaroo hopping along the number line
+  for signed addition/subtraction, with Play/Step controls
+- **🧩 Factoring tiles** — algebra-tile area model for (x + a)(x + b) with a
+  "factor it back" reverse mode (sum-and-product hunt)
 
 **The custom grapher** accepts any expression in `x` (up to 6 at once, each in
 its own color): operators `+ - * / ^` (right-associative), parentheses,
