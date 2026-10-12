@@ -11,7 +11,7 @@ and teacher rosters.
 
 ## Content — IXL-style organization (modeled on ca.ixl.com)
 
-**124 skills organized by Grade 1–12** — each grade has lettered sections
+**227 skills organized by Grade 1–12** — each grade has lettered sections
 (A. Division, B. Fractions, …) with numbered skills, exactly like IXL's
 Math pages. The Skills home shows a grade grid with per-grade progress.
 
@@ -20,7 +20,15 @@ Math pages. The Skills home shows a grade grid with per-grade progress.
 | 1–2 | Skip counting, add/subtract facts, place value, patterns |
 | 3–4 | Times tables, division, fractions of a whole, rounding, shapes, GCF, equivalent fractions, area & perimeter |
 | 5–6 | Decimals, order of operations, fractions, prime/composite, LCM, integers, unit rates, percents, statistics |
-| 7 | Expressions, one/two-step equations, probability, powers, geometry, square roots, laws of operations |
+| 1–2 | + clocks & time, money/coins, units, tally & bar graphs, vertices, pattern rules, regrouping |
+| 3–4 | + missing factors/divisors (inverse), fractions on number lines, area by unit squares, 2×2-digit multiply, remainders, mixed numbers, symmetry, parallel/perpendicular |
+| 5–6 | + decimal compare/divide, prime factorization, volume by cubes, triangle classification, integer multiply, ratio problems, discounts, divisibility rules, parallelogram area |
+| 7 | 11 sections: + circle parts, counting principle, cube roots, percent proportions, sequences, consumer math, equation checking |
+| 8 | + fractional equations, rate of change, scientific notation, cylinder volume, translations, scatter trends, transversal angle pairs |
+| 9 | + polynomial subtract/FOIL, x-intercepts, rational vs irrational, surface area |
+| 10 | + vertex form, trinomial factoring, radical simplification, function evaluation, elimination, exponential growth |
+| 11 | + composite/piecewise functions, trig missing sides, radians, fractional exponents, Gauss series, polynomial division |
+| 12 | + log expansion, simple-vs-compound, geometric series, limits intuition, two-dice probability, permutations, complex numbers |
 
 **Pedagogy:** emphasis on *understanding*, not rote — number bonds, fact
 families, "division undoes multiplication", break-apart strategies, mean as an
