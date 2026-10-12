@@ -19,9 +19,13 @@ export function createMailer(opts = {}) {
     };
   }
 
+  // Auth-less local relays (sendmail/postfix on the host) usually don't do
+  // TLS: skip STARTTLS when no credentials are configured (or SMTP_IGNORETLS=true).
+  const ignoreTLS = opts.ignoreTLS ?? (process.env.SMTP_IGNORETLS === 'true' || !USER);
   const transport = nodemailer.createTransport({
     host: HOST, port: PORT,
     secure: PORT === 465,
+    ignoreTLS,
     auth: USER ? { user: USER, pass: PASS } : undefined
   });
 
