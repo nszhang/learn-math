@@ -13,8 +13,13 @@ import { ELEMENTARY } from './catalog/elementary.js';
 import { EXTRA_SKILLS } from './catalog/extra.js';
 import { EXTRA2_SKILLS } from './catalog/extra2.js';
 import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
-import { ENGLISH_SKILLS } from './catalog/english.js';
-import { SCIENCE_SKILLS } from './catalog/science.js';
+import { ENGLISH_SKILLS as ENGLISH_1_5 } from './catalog/english.js';
+import { ENGLISH_6_12 } from './catalog/english612.js';
+import { SCIENCE_SKILLS as SCIENCE_1_5 } from './catalog/science.js';
+import { SCIENCE_6_12 } from './catalog/science612.js';
+
+const ENGLISH_SKILLS = [...ENGLISH_1_5, ...ENGLISH_6_12];
+const SCIENCE_SKILLS = [...SCIENCE_1_5, ...SCIENCE_6_12];
 
 export {
   ri, pick, fmtNum,
