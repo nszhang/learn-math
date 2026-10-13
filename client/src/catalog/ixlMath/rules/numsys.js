@@ -99,7 +99,7 @@ export const NUMSYS_RULES = [
   R(/^Prime or composite$|^Classify numbers$|^Factors$/, (mt, ctx) => () => {
     const n = ri(10, 120), isP = n > 1 && ![...Array(Math.floor(Math.sqrt(n)) - 1).keys()].some(i => n % (i + 2) === 0);
     if (/Factors/.test(ctx.title)) { const f = range(1, n).filter(k => n % k === 0); return num(`How many factors does ${b(n)} have?`, f.length, `The factors are ${f.join(', ')}: ${b(f.length)}.`); }
-    if (/Classify/.test(ctx.title)) { const kinds = [['natural number', n > 0], ['prime', isP], ['composite', n > 1 && !isP], ['even', n % 2 === 0]]; const [k, ok] = pick(kinds); return yesNo(`Is ${b(n)} a ${b(k)} number?`.replace('a even', 'an even').replace('a natural', 'a natural'), ok, `${n} ${ok ? 'is' : 'is not'} ${k === 'even' ? 'even' : 'a ' + k + ' number'}.`, ['Yes', 'No']); }
+    if (/Classify/.test(ctx.title)) { const kinds = [['natural number', n > 0], ['prime', isP], ['composite', n > 1 && !isP], ['even', n % 2 === 0]]; const [k, ok] = pick(kinds); return yesNo(`Is ${b(n)} ${k === 'even' ? 'an' : 'a'} ${b(k)} number?`, ok, `${n} ${ok ? 'is' : 'is not'} ${k === 'even' ? 'even' : 'a ' + k + ' number'}.`, ['Yes', 'No']); }
     return mc(`Is ${b(n)} prime or composite?`, isP ? 'Prime' : 'Composite', [isP ? 'Composite' : 'Prime'], isP ? `${n} has only two factors.` : `${n} has more than two factors.`, 2);
   }),
   R(/^Prime factorization with exponents$/, () => () => {
@@ -198,7 +198,7 @@ export const NUMSYS_RULES = [
     return mc(`${numberLine({ min: -3, max: 3, step: 1 / d, labelEvery: d, marks: vals.map((v_, i) => ({ v: v_ / d, label: letters[i], color: C.blue })), width: 480, fmtLabel: x => fmt(Math.round(x)) })}Which point is at ${b(txt(k))}?`, letters[k], letters.filter((_, i) => i !== k), `Count ${Math.abs(t)} tick${Math.abs(t) > 1 ? 's' : ''} ${t < 0 ? 'left' : 'right'} of 0: point ${b(letters[k])}.`, 3);
   }),
   R(/^Compare rational numbers$|^Compare positive rational numbers$|^Compare and order decimals$|^Compare mixed numbers and improper fractions$/, (mt, ctx) => () => {
-    const a = rationalNumber(ctx.grade), c = rationalNumber(ctx.grade); if (/positive/.test(ctx.title) && (a.v <= 0 || c.v <= 0)) return null;
+    const pos = /positive/.test(ctx.title), draw_ = () => { for (let i = 0; i < 40; i++) { const r = rationalNumber(ctx.grade); if (!pos || r.v > 0) return r; } return { v: 1, text: '1' }; }, a = draw_(), c = draw_();
     const s = cmpSym(fix(a.v, 8), fix(c.v, 8)); return mc(`Compare. ${m(`${a.text} ___ ${c.text}`)}`, s, ['<', '>', '='].filter(x => x !== s), `${a.text} ≈ ${fix(a.v, 3)} and ${c.text} ≈ ${fix(c.v, 3)}.`.replace(/−/g, '-').replace(/-/g, MINUS), 3);
   }),
   R(/^Put rational numbers in order$/, () => () => {

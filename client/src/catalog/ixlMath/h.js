@@ -47,7 +47,13 @@ export const moneyShort = x => (Math.abs(x - Math.round(x)) < 1e-9 ? '$' + Math.
 export const num = (prompt, answer, explain) => ({ type: 'num', prompt, answer: fix(answer), explain });
 
 /** Multiple choice. answer + distractors may be numbers or strings; unique, shuffled, max `n` choices. */
+const SUPCH = { 0: '⁰', 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵', 6: '⁶', 7: '⁷', 8: '⁸', 9: '⁹', '+': '⁺', '-': '⁻', '−': '⁻', '(': '⁽', ')': '⁾', n: 'ⁿ', i: 'ⁱ', x: 'ˣ' };
+/** choices are shown as plain text, so turn <sup>…</sup> markup into Unicode superscripts */
+export const plain = s => String(s)
+  .replace(/<sup>([^<]*)<\/sup>/g, (_, e) => ([...e].every(c => SUPCH[c]) ? [...e].map(c => SUPCH[c]).join('') : `^(${e})`))
+  .replace(/<sub>([^<]*)<\/sub>/g, '_$1');
 export function mc(prompt, answer, distractors, explain, n = 4) {
+  answer = plain(answer); distractors = distractors.map(plain);
   const a = String(answer);
   const seen = new Set([a]);
   const ds = [];

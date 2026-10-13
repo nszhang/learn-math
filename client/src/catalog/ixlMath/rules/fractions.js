@@ -126,7 +126,11 @@ export const FRACTION_RULES = [
   R(/^Graph (?:unit |smaller or larger )?fractions on number lines$/, (mt, ctx) => () => {
     const d = pick([5, 6, 8, 10]), letters = ['A', 'B', 'C', 'D'], pts = sample(range(1, d - 1), 4), marks = pts.map((p, i) => ({ v: p / d, label: letters[i], color: C.blue })), line = fracLineLabeled(d, 1, marks);
     if (/unit/.test(ctx.title)) { const ans = letters[pts.indexOf(Math.min(...pts))], pos = pts.indexOf(1); if (pos < 0) return null; return mc(`${line}Which point shows the unit fraction ${m(stack(1, d))}?`, letters[pos], letters.filter(x => x !== letters[pos]), `${fs(1, d)} is one tick from 0: point ${b(letters[pos])}.`, 4); }
-    if (/smaller or larger/.test(ctx.title)) { const ref = pts[0], bigger = Math.random() < 0.5, ok = pts.slice(1).filter(p => (bigger ? p > ref : p < ref)); if (ok.length !== 1) return null; const ans = letters[pts.indexOf(ok[0])]; return mc(`${line}Point A shows ${m(stack(ref, d))}. Which point shows a fraction ${b(bigger ? 'greater' : 'less')} than ${m(stack(ref, d))}?`, ans, letters.slice(1).filter(x => x !== ans), `A point to the ${bigger ? 'right' : 'left'} of A is ${bigger ? 'greater' : 'less'}: point ${b(ans)}.`, 3); }
+    if (/smaller or larger/.test(ctx.title)) {
+      const srt = sample(range(1, d - 1), 4).sort((x, y) => x - y), bigger = Math.random() < 0.5, ref = bigger ? srt[2] : srt[1], target = bigger ? srt[3] : srt[0];
+      const rest = shuffle(srt.filter(v_ => v_ !== ref)), all = [ref, ...rest], mk = all.map((p_, i) => ({ v: p_ / d, label: letters[i], color: C.blue })), ans = letters[all.indexOf(target)];
+      return mc(`${fracLineLabeled(d, 1, mk)}Point A shows ${m(stack(ref, d))}. Which point shows a fraction ${b(bigger ? 'greater' : 'less')} than ${m(stack(ref, d))}?`, ans, letters.slice(1).filter(x => x !== ans), `A point to the ${bigger ? 'right' : 'left'} of A is ${bigger ? 'greater' : 'less'}: point ${b(ans)}.`, 3);
+    }
     const k = ri(0, 3), tgt = pts[k];
     return mc(`${line}Which point shows ${m(stack(tgt, d))}?`, letters[k], letters.filter((_, i) => i !== k), `Count ${tgt} tick${tgt > 1 ? 's' : ''} from 0: point ${b(letters[k])}.`, 4);
   }),

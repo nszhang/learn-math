@@ -165,7 +165,23 @@ const IXL_OLD_PLACEMENT = {
   elDST8: 'One-variable equations', t67: 'One-variable equations', algC2: 'One-variable equations', t73: 'Two-variable statistics', t69: 'Scientific notation', t70: 'Scientific notation',
   expA2: 'Exponents', expA3: 'Exponents', elPYT8: 'Pythagorean theorem', elANR8: 'Lines and angles', t74: 'Lines and angles', t71: 'Surface area and volume',
   elGRD8: 'One-variable inequalities', algD1: 'One-variable inequalities', algD2: 'One-variable inequalities',
-  elSLE8: 'Linear functions', t68: 'Linear functions', algE1: 'Linear functions', algE2: 'Linear functions', algE3: 'Linear functions', t72: 'Transformations and congruence'
+  elSLE8: 'Linear functions', t68: 'Linear functions', algE1: 'Linear functions', algE2: 'Linear functions', algE3: 'Linear functions', t72: 'Transformations and congruence',
+  // Grade 9
+  t126: 'Circles', t127: 'Circles', t128: 'Circles', t129: 'Circles', t130: 'Circles', t131: 'Circles', t132: 'Circles', t123: 'Statistics', t124: 'Statistics', t125: 'Probability',
+  elMON9: 'Monomials', expB1: 'Exponents', expB2: 'Exponents', expB3: 'Exponents', expB4: 'Exponents', t112: 'Exponents', t113: 'Exponents', algF1: 'Exponents', algF2: 'Exponents', algF3: 'Exponents',
+  elWLE9: 'Linear functions', t78: 'Linear functions', t81: 'Linear functions', t121: 'Number sequences', t122: 'Relations and functions', t80: 'Geometry', t79: 'Numbers',
+  elPLY9: 'Polynomials', t76: 'Polynomials', t77: 'Polynomials', t118: 'Polynomials', t119: 'Polynomials', t120: 'Polynomials', t108: 'Numbers', t109: 'Operations', t110: 'Operations', t111: 'Numbers',
+  t114: 'Geometry', t115: 'Geometry', t116: 'Geometry', t117: 'Geometry', t106: 'Geometry', t107: 'Geometry', t104: 'Geometry', t105: 'Geometry', t75: 'Systems of linear equations', algG1: 'Systems of linear equations',
+  // Grade 10
+  t88: 'Functions: linear, quadratic, exponential', expC1: 'Functions: linear, quadratic, exponential', expC2: 'Functions: linear, quadratic, exponential', expC3: 'Functions: linear, quadratic, exponential',
+  elDIF10: 'Factoring', elCMF10: 'Factoring', t84: 'Factoring', t86: 'Quadratic equations', elVIE10: 'Quadratic equations', t82: 'Quadratic equations', t83: 'Parabolas', algH1: 'Quadratic equations',
+  t85: 'Radical expressions', t87: 'Systems of linear equations',
+  // Grade 11
+  t93: 'Rational exponents', elINV11: 'Functions', t89: 'Functions', t90: 'Functions', expD1: 'Exponential functions', expD2: 'Exponential functions', expD3: 'Exponential functions', expD5: 'Exponential functions',
+  t95: 'Polynomials', t94: 'Sequences and series', elTRG11: 'Trigonometry', elSPA11: 'Trigonometry', t91: 'Trigonometry', t92: 'Trigonometry',
+  // Grade 12
+  t102: 'Complex numbers', t103: 'Complex numbers', t101: 'Probability', elCMP12: 'Exponential and logarithmic functions', t97: 'Exponential and logarithmic functions', t99: 'Sequences and series',
+  t96: 'Logarithms', expD4: 'Logarithms', expD6: 'Logarithms', t100: 'Probability', elARS12: 'Sequences and series', elGEO12: 'Sequences and series', t98: 'Sequences and series'
 };
 const IXL_GRADES = new Set(Object.keys(IXL_MATH_SECTION_ORDER).map(Number));
 

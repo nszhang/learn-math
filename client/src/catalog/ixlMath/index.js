@@ -25,23 +25,34 @@ import { RATIO_RULES } from './rules/ratios.js';
 import { FRACDEC6_RULES } from './rules/fracdec6.js';
 import { GEO6_RULES } from './rules/geo6.js';
 import { STATS6_RULES } from './rules/stats6.js';
+import { POLY_RULES } from './rules/poly.js';
+import { FUNC9_RULES } from './rules/func9.js';
+import { TRIG9_RULES } from './rules/trig9.js';
+import { GEO9_RULES } from './rules/geo9.js';
+import { STAT9_RULES } from './rules/stat9.js';
 import { ARITH_RULE } from './rules/arith.js';
 
 const RULES = [
+  ...TRIG9_RULES.filter(r => r.re.source.includes('Quadrants') || r.re.source.includes('Pythagorean')),   // must win over the coordinate-plane / grade 8 rules
   ...NUMSYS_RULES,
   ...NUMBER_RULES,
   ...EARLY_RULES,
   ...MEASURE_RULES,
   ...DATA_RULES,
   ...STATS6_RULES,
+  ...STAT9_RULES,
   ...PATTERN_RULES,
   ...GEOMETRY_RULES,
   ...GEOMEASURE_RULES,
   ...GEO6_RULES,
+  ...GEO9_RULES,
   ...FRACTION_RULES,
   ...FRACOPS_RULES,
   ...DECIMAL_RULES,
   ...ALG6_RULES,
+  ...POLY_RULES,
+  ...FUNC9_RULES,
+  ...TRIG9_RULES,
   ...RATIO_RULES,
   ...FRACDEC6_RULES,
   ...ALGEBRA_RULES,

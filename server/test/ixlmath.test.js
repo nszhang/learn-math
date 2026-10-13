@@ -38,8 +38,8 @@ test('IXL math catalog: generators produce well-formed questions', async () => {
   assert.deepEqual(bad, []);
 });
 
-test('Math grades 1–8 follow IXL section counts', async () => {
+test('Math grades 1–12 follow IXL section counts', async () => {
   const { GRADES } = await import('../../client/src/skills.js');
-  const want = { 1: 41, 2: 34, 3: 43, 4: 46, 5: 54, 6: 41, 7: 36, 8: 34 };
+  const want = { 1: 41, 2: 34, 3: 43, 4: 46, 5: 54, 6: 41, 7: 36, 8: 34, 9: 25, 10: 34, 11: 25, 12: 28 };
   for (const [g, n] of Object.entries(want)) assert.equal(GRADES.find(x => x.num === +g).sections.length, n, `grade ${g} sections`);
 });

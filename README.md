@@ -6,7 +6,7 @@
 
 **🌐 Live:** [math.pnpsolutions.ca/learn-math](https://math.pnpsolutions.ca/learn-math)
 
-**3,219 skills · 361 sections · Grades 1–12 · 21 badges · 3 roles**
+**4,260 skills · 441 sections · Grades 1–12 · 21 badges · 3 roles**
 
 React 18 + Vite · Node.js + Express · PostgreSQL · JWT + bcrypt
 
@@ -107,13 +107,13 @@ distributive). MathAce's catalog is written to make students *intuit* these:
 
 ## Content catalog
 
-**3,219 skills across 361 sections in Grades 1–12.** Grades 1–8 (2,963 IXL-style skills
-plus the ~170 skills that existed before) follow IXL's grade pages section for section — see
+**4,260 skills across 441 sections in Grades 1–12.** Every grade (4,004 IXL-style skills
+plus the ~260 skills that existed before) follow IXL's grade pages section for section — see
 `client/src/catalog/ixlMath/` (`manifest.js` lists every section and skill with a permanent
 `mth…` id; `rules/*.js` attach a generator to each skill by title; `check.mjs` is the dev
-harness). Skill IDs are namespaced (`mth*` IXL-style Grades 1–8, `el*` elementary, `sch*` school
+harness). Skill IDs are namespaced (`mth*` IXL-style Grades 1–12, `el*` elementary, `sch*` school
 topics, `alg*` algebra, `exp*` exponent/log, `t*` expansions) so the shared database never collides.
-The original skills for Grades 1–8 now live inside the matching IXL sections.
+The original skills now live inside the matching IXL sections.
 
 | Grade | Sections · Skills | Highlights |
 |---|---|---|
@@ -125,10 +125,10 @@ The original skills for Grades 1–8 now live inside the matching IXL sections.
 | 6 | 41 · 399 | Integers and rational numbers, ratios & rates, percents, fraction/decimal operations, equations, area & volume, probability, statistics, transformations |
 | 7 | 36 · 384 | Integer and rational operations, proportional relationships, equations & inequalities, circles, angles, similarity & congruence, probability, consumer math |
 | 8 | 34 · 342 | Linear functions, Pythagorean theorem, scientific notation, roots, similarity, scatter plots, compound interest |
-| **9** | **13 · 47** | **Aligned to MathLinks 9**: symmetry & surface area, rational numbers, powers & BEDMAS, scale factors & similarity, polynomial language & monomial ops, patterns→expressions, story graphs, data collection (bias/sampling), **circle geometry** (central/inscribed angles, Thales, tangents) |
-| 10 | 6 · 14 | Quadratics (factoring, vertex form, Vieta), exponential equations & growth intuition |
-| 11 | 6 · 14 | Logarithms, inverse & composite & piecewise functions, trigonometry, fractional exponents, Gauss series |
-| 12 | 7 · 13 | Log rules, compound interest, geometric series, limits intuition, two-dice probability, permutations, complex numbers |
+| 9 | 25 · 266 | Rational numbers, exponent rules, similarity & solids, **circle theorems** (the original MathLinks 9 skills), linear functions, systems, monomials & polynomials, probability & statistics |
+| 10 | 34 · 322 | Radicals, factoring, quadratics & parabolas, systems, exponential functions, trigonometry basics, congruence & similarity, proofs & logic |
+| 11 | 25 · 257 | Functions & inequalities, polynomials, rational & radical expressions, exponentials, logarithms (in Grade 12), trigonometry, sequences & series, probability |
+| 12 | 28 · 284 | Logarithms, matrices, complex numbers, conics, vectors, trig functions & identities, distributions, regression & confidence intervals |
 
 *Grade 9 section topics map 1:1 to the textbook chapters (1–9, 10, 11).*
 
@@ -352,7 +352,7 @@ password change/reset semantics, and authorization rules per role.
 invoked thousands of times and checked for presence of fields, answer
 in choices, choice uniqueness, numeric-answer finiteness, and formatting —
 most recently **256 skills × 1,200 = 307,200 generated questions, zero
-failures** (plus `server/test/ixlmath.test.js`, which runs every Grade 1–8 generator and checks
+failures** (plus `server/test/ixlmath.test.js`, which runs every IXL-style generator and checks
 the question shape on each `npm test`). The lesson engines and expression parser have equivalent sweeps
 (33+ parser eval cases including domain NaNs and error handling). Client↔server
 skill-ID consistency is diff-checked.
