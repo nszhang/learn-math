@@ -115,6 +115,12 @@ harness). Skill IDs are namespaced (`mth*` IXL-style JK–Calculus, `el*` elemen
 topics, `alg*` algebra, `exp*` exponent/log, `t*` expansions) so the shared database never collides.
 The original skills now live inside the matching IXL sections.
 
+**Topic headings.** On every grade's skills page the lettered sections are grouped under topic
+headings (Math: Fractions, Decimals, Geometry, …; Science: Physical / Life / Earth and space
+science; English: IXL's own categories), like IXL's English page. Topics come from
+`client/src/catalog/topics.js` (name-based rules); sections keep their IXL order inside a topic and
+are lettered A, B, C … after grouping. Skill ids never change, so saved progress is unaffected.
+
 | Grade | Sections · Skills | Highlights |
 |---|---|---|
 | JK | 12 · 76 | Counting to 20 with pictures, comparing, positions, sorting, patterns, coins, flat and solid shapes |
@@ -241,8 +247,9 @@ accounting is server-side**.
 learn-math/
 ├── client/                        # React 18 + Vite SPA
 │   └── src/
-│       ├── skills.js              # merges catalogs → GRADES (lettered sections)
+│       ├── skills.js              # merges catalogs → GRADES (topic-grouped, lettered sections)
 │       ├── catalog/               # question-generator catalogs (the content!)
+│       │   ├── topics.js          #   topic headings for Math and Science sections
 │       │   ├── elementary.js      #   grades 1–6 core (graded structure)
 │       │   ├── school.js          #   school topics (arithmetic→statistics)
 │       │   ├── algebra.js         #   17 algebra skills (from AlgebraAce)

@@ -16,6 +16,7 @@ import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
 import { ENGLISH_ALL } from './catalog/ixlEnglish.js';
 import { SCIENCE_ALL } from './catalog/ixlScience.js';
 import { IXL_MATH_SKILLS, IXL_MATH_SECTION_ORDER, ixlIconFor } from './catalog/ixlMath/index.js';
+import { MATH_TOPICS, mathTopic, SCIENCE_TOPICS, scienceTopic } from './catalog/topics.js';
 
 const ENGLISH_SKILLS = ENGLISH_ALL;
 const SCIENCE_SKILLS = SCIENCE_ALL;
@@ -103,7 +104,7 @@ const letterFor = i => { const c = String.fromCharCode(65 + (i % 26)); return c.
 // fill(add) calls add(grade, sectionName, icon, skill) for each skill.
 // ordered=true keeps sections in the order they were added (IXL-style) instead of A→Z by name;
 // sections carry the skill's optional `category` (e.g. "Grammar and Mechanics").
-function buildGrades(fill, codePrefix = '', ordered = false, sectionOrder = null) {
+function buildGrades(fill, codePrefix = '', ordered = false, sectionOrder = null, topics = null) {
   const gradeMap = new Map(); // grade → { sections: Map(name → {name, icon, category, skills}) }
   fill((grade, sectionName, icon, skill) => {
     if (!gradeMap.has(grade)) gradeMap.set(grade, { sections: new Map() });
@@ -111,6 +112,15 @@ function buildGrades(fill, codePrefix = '', ordered = false, sectionOrder = null
     if (!g.sections.has(sectionName)) g.sections.set(sectionName, { name: sectionName, icon, category: skill.category, skills: [] });
     g.sections.get(sectionName).skills.push(skill);
   });
+  // topics = { list, of(grade, sectionName) }: group sections under topic headings, keeping each topic's
+  // sections in their usual order. Letters and codes are assigned after grouping.
+  const topicIndex = (num, name) => {
+    const t = topics.of(num, name);
+    const i = t === null ? -1 : topics.list.indexOf(t);
+    if (i < 0) throw new Error(`Section "${name}" (grade ${num}) has no topic`);
+    return i;
+  };
+  const baseOrder = (num, a, b) => (sectionOrder && sectionOrder(num, a.name) !== null ? sectionOrder(num, a.name) - sectionOrder(num, b.name) : ordered ? 0 : a.name.localeCompare(b.name));
   return [...gradeMap.entries()]
     .sort((a, b) => a[0] - b[0])
     .map(([num, g]) => ({
@@ -118,7 +128,8 @@ function buildGrades(fill, codePrefix = '', ordered = false, sectionOrder = null
       num,
       name: GRADE_NAMES[num] || 'Grade ' + num,
       sections: [...g.sections.values()]
-        .sort((a, b) => (sectionOrder && sectionOrder(num, a.name) !== null ? sectionOrder(num, a.name) - sectionOrder(num, b.name) : ordered ? 0 : a.name.localeCompare(b.name)))
+        .map(sec => (topics ? { ...sec, category: topics.of(num, sec.name) } : sec))
+        .sort((a, b) => (topics ? topicIndex(num, a.name) - topicIndex(num, b.name) : 0) || baseOrder(num, a, b))
         .map((sec, si) => ({
           ...sec,
           letter: letterFor(si),
@@ -215,12 +226,12 @@ export const GRADES = buildGrades(addRaw => {
 
   // IXL-structured skills
   for (const sk of IXL_MATH_SKILLS) addRaw(sk.grade, sk.section, sk.icon, sk);
-}, '', false, (grade, name) => (IXL_GRADES.has(grade) ? IXL_MATH_SECTION_ORDER[grade]?.[name] ?? null : null));
+}, '', false, (grade, name) => (IXL_GRADES.has(grade) ? IXL_MATH_SECTION_ORDER[grade]?.[name] ?? null : null), { list: MATH_TOPICS, of: mathTopic });
 
 /* ---------- English & Science (skills carry grade/section inline) ---------- */
 const inlineFill = list => add => list.forEach(s => add(s.grade, s.section, s.icon, s));
 export const ENGLISH_GRADES = buildGrades(inlineFill(ENGLISH_SKILLS), 'EN-', true);
-export const SCIENCE_GRADES = buildGrades(inlineFill(SCIENCE_SKILLS), 'SC-', true);
+export const SCIENCE_GRADES = buildGrades(inlineFill(SCIENCE_SKILLS), 'SC-', true, null, { list: SCIENCE_TOPICS, of: scienceTopic });
 
 // Subject registry — drives the top navigation and the per-subject skill pages.
 export const SUBJECTS = [

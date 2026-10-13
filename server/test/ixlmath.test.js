@@ -43,3 +43,19 @@ test('Math grades JK–Calculus follow IXL section counts', async () => {
   const want = { '-1': 12, 0: 43, 13: 27, 1: 41, 2: 34, 3: 43, 4: 46, 5: 54, 6: 41, 7: 36, 8: 34, 9: 25, 10: 34, 11: 25, 12: 28 };
   for (const [g, n] of Object.entries(want)) assert.equal(GRADES.find(x => x.num === +g).sections.length, n, `grade ${g} sections`);
 });
+
+test('skills pages group sections under topic headings, with sequential letters and unique codes', async () => {
+  const { GRADES, SCIENCE_GRADES, ENGLISH_GRADES } = await import('../../client/src/skills.js');
+  for (const grades of [GRADES, SCIENCE_GRADES, ENGLISH_GRADES]) {
+    const codes = new Set();
+    for (const g of grades) {
+      const seen = new Set();
+      let prev = null;
+      for (const s of g.sections) {
+        assert.ok(s.category, `${g.name} / ${s.name} has a topic`);
+        if (s.category !== prev) { assert.ok(!seen.has(s.category), `${g.name}: topic "${s.category}" is contiguous`); seen.add(s.category); prev = s.category; }
+        for (const sk of s.skills) { assert.ok(!codes.has(sk.code + g.id), `duplicate code ${sk.code}`); codes.add(sk.code + g.id); }
+      }
+    }
+  }
+});
