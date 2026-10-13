@@ -29,7 +29,7 @@ function regress(pts) {
   const n = pts.length, mx = meanOf(pts.map(p => p[0])), my = meanOf(pts.map(p => p[1])), sxy = sum(pts.map(p => (p[0] - mx) * (p[1] - my))), sxx = sum(pts.map(p => (p[0] - mx) ** 2)), syy = sum(pts.map(p => (p[1] - my) ** 2)), mm = sxy / sxx, bb = my - mm * mx;
   return { m: mm, b: bb, r: sxy / Math.sqrt(sxx * syy) };
 }
-const pts5 = () => { const mm = pick([0.5, 1, 1.5, -1, 2]), bb = mm < 0 ? ri(7, 9) : ri(0, 2); return range(1, 6).map(x => [x, Math.max(0, Math.min(10, Math.round(mm * x + bb + ri(-1, 1))))]); };
+const pts5 = () => { for (;;) { const mm = pick([0.5, 1, 1.5, -1, 2]), bb = mm < 0 ? ri(7, 9) : ri(0, 2), p = range(1, 6).map(x => [x, Math.max(0, Math.min(10, Math.round(mm * x + bb + ri(-1, 1))))]); if (new Set(p.map(q => q[1])).size >= 3) return p; } };
 
 export const STAT9_RULES = [
   /* ===== probability ===== */

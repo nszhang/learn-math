@@ -6,7 +6,7 @@
 
 **🌐 Live:** [math.pnpsolutions.ca/learn-math](https://math.pnpsolutions.ca/learn-math)
 
-**4,260 skills · 441 sections · Grades 1–12 · 21 badges · 3 roles**
+**4,713 skills · 523 sections · Junior Kindergarten–Calculus · 21 badges · 3 roles**
 
 React 18 + Vite · Node.js + Express · PostgreSQL · JWT + bcrypt
 
@@ -107,16 +107,18 @@ distributive). MathAce's catalog is written to make students *intuit* these:
 
 ## Content catalog
 
-**4,260 skills across 441 sections in Grades 1–12.** Every grade (4,004 IXL-style skills
-plus the ~260 skills that existed before) follow IXL's grade pages section for section — see
+**4,713 skills across 523 sections, Junior Kindergarten through Calculus.** Every grade (4,457 IXL-style skills
+plus the 256 skills that existed before) follow IXL's grade pages section for section — see
 `client/src/catalog/ixlMath/` (`manifest.js` lists every section and skill with a permanent
 `mth…` id; `rules/*.js` attach a generator to each skill by title; `check.mjs` is the dev
-harness). Skill IDs are namespaced (`mth*` IXL-style Grades 1–12, `el*` elementary, `sch*` school
+harness). Skill IDs are namespaced (`mth*` IXL-style JK–Calculus, `el*` elementary, `sch*` school
 topics, `alg*` algebra, `exp*` exponent/log, `t*` expansions) so the shared database never collides.
 The original skills now live inside the matching IXL sections.
 
 | Grade | Sections · Skills | Highlights |
 |---|---|---|
+| JK | 12 · 76 | Counting to 20 with pictures, comparing, positions, sorting, patterns, coins, flat and solid shapes |
+| K | 43 · 228 | Counting and ten frames, one more/one less, addition and subtraction to 10 with cubes, time, money, 2-D and 3-D shapes |
 | 1 | 41 · 309 | Counting and ten frames, addition/subtraction to 20 with pictures, strategies, place value, clocks, money, graphs, shapes |
 | 2 | 34 · 321 | Two- and three-digit add/subtract with models, skip-counting, place value, money, elapsed time, arrays, intro to fractions |
 | 3 | 43 · 469 | Multiplication/division facts and fluency, area models, fractions on number lines, decimals, perimeter/area, graphs |
@@ -129,6 +131,7 @@ The original skills now live inside the matching IXL sections.
 | 10 | 34 · 322 | Radicals, factoring, quadratics & parabolas, systems, exponential functions, trigonometry basics, congruence & similarity, proofs & logic |
 | 11 | 25 · 257 | Functions & inequalities, polynomials, rational & radical expressions, exponentials, logarithms (in Grade 12), trigonometry, sequences & series, probability |
 | 12 | 28 · 284 | Logarithms, matrices, complex numbers, conics, vectors, trig functions & identities, distributions, regression & confidence intervals |
+| Calculus | 27 · 149 | Limits and continuity, derivative rules and applications, optimization, integration, differential equations, areas and volumes |
 
 *Grade 9 section topics map 1:1 to the textbook chapters (1–9, 10, 11).*
 

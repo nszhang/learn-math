@@ -30,12 +30,16 @@ import { FUNC9_RULES } from './rules/func9.js';
 import { TRIG9_RULES } from './rules/trig9.js';
 import { GEO9_RULES } from './rules/geo9.js';
 import { STAT9_RULES } from './rules/stat9.js';
+import { KINDER_RULES } from './rules/kinder.js';
+import { CALC_RULES } from './rules/calc.js';
 import { ARITH_RULE } from './rules/arith.js';
 
 const RULES = [
   ...TRIG9_RULES.filter(r => r.re.source.includes('Quadrants') || r.re.source.includes('Pythagorean')),   // must win over the coordinate-plane / grade 8 rules
   ...NUMSYS_RULES,
   ...NUMBER_RULES,
+  ...CALC_RULES.map(r => ({ ...r, grades: [13] })),
+  ...KINDER_RULES.map(r => ({ ...r, grades: [-1, 0] })),
   ...EARLY_RULES,
   ...MEASURE_RULES,
   ...DATA_RULES,

@@ -97,6 +97,7 @@ const PLACEMENT = {
 
 /* ---------- build a grade tree (shared by every subject) ---------- */
 // A, B … Z, AA, BB … ZZ (IXL-style section letters)
+const GRADE_NAMES = { '-1': 'Junior Kindergarten', 0: 'Kindergarten', 13: 'Calculus' };
 const letterFor = i => { const c = String.fromCharCode(65 + (i % 26)); return c.repeat(Math.floor(i / 26) + 1); };
 
 // fill(add) calls add(grade, sectionName, icon, skill) for each skill.
@@ -115,7 +116,7 @@ function buildGrades(fill, codePrefix = '', ordered = false, sectionOrder = null
     .map(([num, g]) => ({
       id: 'g' + num,
       num,
-      name: 'Grade ' + num,
+      name: GRADE_NAMES[num] || 'Grade ' + num,
       sections: [...g.sections.values()]
         .sort((a, b) => (sectionOrder && sectionOrder(num, a.name) !== null ? sectionOrder(num, a.name) - sectionOrder(num, b.name) : ordered ? 0 : a.name.localeCompare(b.name)))
         .map((sec, si) => ({

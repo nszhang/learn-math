@@ -4,12 +4,13 @@ import Medallion from './Medallion.jsx';
 import { clickable } from '../a11y.js';
 
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
+const gradeEmoji = n => (n < 0 ? '🧸' : n === 0 ? '🎒' : n === 13 ? '∫' : GRADE_EMOJI[n - 1]);
 
 export default function SkillsPage({ subject, me, homework, onStartSkill, onStartHomework, toast }) {
   const GRADES = subject.grades;
   const gradeKey = subject.id === 'math' ? 'mm_grade' : 'mm_grade_' + subject.id; // math keeps its original key
   const [gradeNum, setGradeNum] = useState(() => {
-    const saved = Number(localStorage.getItem(gradeKey));
+    const raw = localStorage.getItem(gradeKey), saved = raw === null ? NaN : Number(raw);   // grade 0 (Kindergarten) is valid, so don't treat "missing" as 0
     return GRADES.some(g => g.num === saved) ? saved : null;
   });
   const [openSections, setOpenSections] = useState(() => new Set());
@@ -51,7 +52,7 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
             return (
               <div className="grade-card" key={g.id} {...clickable(() => pickGrade(g.num))}>
                 <div className="grade-card-top">
-                  <span className="grade-num">{GRADE_EMOJI[g.num - 1]} {g.name}</span>
+                  <span className="grade-num">{gradeEmoji(g.num)} {g.name}</span>
                   <span className="grade-count">{skills.length} skills</span>
                 </div>
                 <p className="grade-includes muted">Includes: {sample}…</p>
@@ -78,7 +79,7 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
           ← All grades
         </button>
         <div>
-          <h2>{GRADE_EMOJI[grade.num - 1]} {grade.name} {subject.name.toLowerCase()}</h2>
+          <h2>{gradeEmoji(grade.num)} {grade.name} {subject.name.toLowerCase()}</h2>
           <p className="muted">{grade.sections.reduce((n, s) => n + s.skills.length, 0)} skills ·
             click a section to explore</p>
         </div>

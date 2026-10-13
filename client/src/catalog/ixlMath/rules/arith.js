@@ -273,7 +273,8 @@ K.choosePair = P => () => {
   const op = pickOp(P), d = draw(op, P); if (!d) return null;
   const label = { add: 'a sum', sub: 'a difference', mul: 'a product', div: 'a quotient' }[op];
   const wrongs = [];
-  for (let i = 0; i < 6 && wrongs.length < 3; i++) { const w2 = draw(op, P); if (w2 && w2.r !== d.r) wrongs.push(w2); }
+  for (let i = 0; i < 40 && wrongs.length < 3; i++) { const w2 = draw(op, P); if (w2 && w2.r !== d.r && !wrongs.some(x => x.a === w2.a && x.b === w2.b)) wrongs.push(w2); }
+  if (wrongs.length < 2) return null;
   return mc(`Which expression has ${label} of ${b(fmt(d.r))}?`, expr(d), wrongs.map(expr), `${expr(d)} = ${b(fmt(d.r))}.`);
 };
 
