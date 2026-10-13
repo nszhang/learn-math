@@ -13,7 +13,7 @@ export function findGen(rules, ctx) {
     const mt = ctx.title.match(r.re);
     if (mt) {
       const gen = r.make(mt, ctx);
-      if (gen) return gen;
+      if (gen) { gen.rule = r.re.source; return gen; }
     }
   }
   return null;

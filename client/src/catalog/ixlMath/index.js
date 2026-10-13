@@ -19,19 +19,31 @@ import { DECIMAL_RULES } from './rules/decimals.js';
 import { FRACOPS_RULES } from './rules/fracops.js';
 import { ALGEBRA_RULES } from './rules/algebra.js';
 import { MULDIV_RULES } from './rules/muldiv.js';
+import { NUMSYS_RULES } from './rules/numsys.js';
+import { ALG6_RULES } from './rules/alg6.js';
+import { RATIO_RULES } from './rules/ratios.js';
+import { FRACDEC6_RULES } from './rules/fracdec6.js';
+import { GEO6_RULES } from './rules/geo6.js';
+import { STATS6_RULES } from './rules/stats6.js';
 import { ARITH_RULE } from './rules/arith.js';
 
 const RULES = [
+  ...NUMSYS_RULES,
   ...NUMBER_RULES,
   ...EARLY_RULES,
   ...MEASURE_RULES,
   ...DATA_RULES,
+  ...STATS6_RULES,
   ...PATTERN_RULES,
   ...GEOMETRY_RULES,
   ...GEOMEASURE_RULES,
+  ...GEO6_RULES,
   ...FRACTION_RULES,
   ...FRACOPS_RULES,
   ...DECIMAL_RULES,
+  ...ALG6_RULES,
+  ...RATIO_RULES,
+  ...FRACDEC6_RULES,
   ...ALGEBRA_RULES,
   ...MULDIV_RULES,
   ARITH_RULE
@@ -69,7 +81,7 @@ for (const grade of Object.keys(MANIFEST).map(Number)) {
     for (const [id, title] of sec.skills) {
       const gen = findGen(RULES, { grade, section: sec.name, title, id });
       if (!gen) { IXL_MATH_MISSING.push({ id, grade, section: sec.name, title }); continue; }
-      IXL_MATH_SKILLS.push({ id, title, grade, section: sec.name, icon: ixlIconFor(sec.name), gen: safe(gen, id) });
+      IXL_MATH_SKILLS.push({ id, title, grade, section: sec.name, icon: ixlIconFor(sec.name), gen: safe(gen, id), rule: gen.rule });
     }
   });
 }

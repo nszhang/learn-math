@@ -6,7 +6,7 @@
 
 **🌐 Live:** [math.pnpsolutions.ca/learn-math](https://math.pnpsolutions.ca/learn-math)
 
-**2,162 skills · 276 sections · Grades 1–12 · 21 badges · 3 roles**
+**3,219 skills · 361 sections · Grades 1–12 · 21 badges · 3 roles**
 
 React 18 + Vite · Node.js + Express · PostgreSQL · JWT + bcrypt
 
@@ -107,13 +107,13 @@ distributive). MathAce's catalog is written to make students *intuit* these:
 
 ## Content catalog
 
-**2,162 skills across 276 sections in Grades 1–12.** Grades 1–5 (1,906 IXL-style skills
-plus the 100 skills that existed before) follow IXL's grade pages section for section — see
+**3,219 skills across 361 sections in Grades 1–12.** Grades 1–8 (2,963 IXL-style skills
+plus the ~170 skills that existed before) follow IXL's grade pages section for section — see
 `client/src/catalog/ixlMath/` (`manifest.js` lists every section and skill with a permanent
 `mth…` id; `rules/*.js` attach a generator to each skill by title; `check.mjs` is the dev
-harness). Skill IDs are namespaced (`mth*` IXL-style Grades 1–5, `el*` elementary, `sch*` school
+harness). Skill IDs are namespaced (`mth*` IXL-style Grades 1–8, `el*` elementary, `sch*` school
 topics, `alg*` algebra, `exp*` exponent/log, `t*` expansions) so the shared database never collides.
-The original skills for Grades 1–5 now live inside the matching IXL sections.
+The original skills for Grades 1–8 now live inside the matching IXL sections.
 
 | Grade | Sections · Skills | Highlights |
 |---|---|---|
@@ -122,9 +122,9 @@ The original skills for Grades 1–5 now live inside the matching IXL sections.
 | 3 | 43 · 469 | Multiplication/division facts and fluency, area models, fractions on number lines, decimals, perimeter/area, graphs |
 | 4 | 46 · 428 | Multi-digit multiply/divide, remainders, factors, equivalent fractions, decimals to hundredths, angles, symmetry |
 | 5 | 54 · 479 | Fraction and decimal operations, exponents, order of operations, ratios, percents, integers, coordinate plane, volume |
-| 6 | 8 · 21 | Integer operations, ratios & rates, percents, mean with missing values, distributive with variables |
-| 7 | 11 · 26 | Expressions, one/two-step equations, probability, powers, square & cube roots, **name-the-law**, consumer math |
-| 8 | 7 · 21 | Multi-step & fractional equations, inequalities & their graphs, slope, scientific notation, Pythagorean, cylinders |
+| 6 | 41 · 399 | Integers and rational numbers, ratios & rates, percents, fraction/decimal operations, equations, area & volume, probability, statistics, transformations |
+| 7 | 36 · 384 | Integer and rational operations, proportional relationships, equations & inequalities, circles, angles, similarity & congruence, probability, consumer math |
+| 8 | 34 · 342 | Linear functions, Pythagorean theorem, scientific notation, roots, similarity, scatter plots, compound interest |
 | **9** | **13 · 47** | **Aligned to MathLinks 9**: symmetry & surface area, rational numbers, powers & BEDMAS, scale factors & similarity, polynomial language & monomial ops, patterns→expressions, story graphs, data collection (bias/sampling), **circle geometry** (central/inscribed angles, Thales, tangents) |
 | 10 | 6 · 14 | Quadratics (factoring, vertex form, Vieta), exponential equations & growth intuition |
 | 11 | 6 · 14 | Logarithms, inverse & composite & piecewise functions, trigonometry, fractional exponents, Gauss series |
@@ -352,7 +352,7 @@ password change/reset semantics, and authorization rules per role.
 invoked thousands of times and checked for presence of fields, answer
 in choices, choice uniqueness, numeric-answer finiteness, and formatting —
 most recently **256 skills × 1,200 = 307,200 generated questions, zero
-failures** (plus `server/test/ixlmath.test.js`, which runs every Grade 1–5 generator and checks
+failures** (plus `server/test/ixlmath.test.js`, which runs every Grade 1–8 generator and checks
 the question shape on each `npm test`). The lesson engines and expression parser have equivalent sweeps
 (33+ parser eval cases including domain NaNs and error handling). Client↔server
 skill-ID consistency is diff-checked.

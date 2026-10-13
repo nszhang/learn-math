@@ -115,6 +115,13 @@ export const MULDIV_RULES = [
     return num(`${table(['Step', 'Work'], [['Divide the hundreds', `${d * h * 100} ÷ ${d} = ${h * 100}`], ['Divide the tens', `${d * t * 10} ÷ ${d} = ?`], ['Divide the ones', `${d * o} ÷ ${d} = ${o}`]])}${m(`${a} ÷ ${d}`)}. What is the missing quotient part?`, t * 10, `${d * t * 10} ÷ ${d} = ${b(t * 10)}.`);
   }),
 
+  R(/^Divide (?:\d-digit and \d-digit |\d-digit )?numbers by (?:two|2)-digit numbers(?:: word problems)?$|^Divide by (?:two|2)-digit numbers(?: using partial (?:quotients|products))?(?:: word problems)?$|^Estimate quotients: two-digit divisors$/, (mt, ctx) => () => {
+    const t = ctx.title, d = ri(11, 49), qd = /4-digit/.test(t) ? 2 : ri(1, 2), q = ri(2, 10 ** qd), a = d * q, nm = pick(NAMES), thing_ = pick(['stickers', 'pencils', 'marbles', 'cards']);
+    if (/Estimate/.test(t)) { const est = Math.round(a / (Math.round(d / 10) * 10)); return num(`Estimate ${m(`${fmt(a)} ÷ ${d}`)} by rounding ${d} to the nearest ten.`, est === 0 ? 1 : est, `${fmt(a)} ÷ ${Math.round(d / 10) * 10} ≈ ${b(est)}.`); }
+    if (/word/.test(t)) return num(`${nm} packs ${fmt(a)} ${thing_} into boxes of ${d}. How many boxes are filled?`, q, `${fmt(a)} ÷ ${d} = ${b(q)}.`);
+    if (/partial/.test(t)) { const hi = Math.floor(q / 10) * 10 || q; return num(`${m(`${fmt(a)} ÷ ${d}`)}<br>First partial quotient: ${d} × ${hi} = ${fmt(d * hi)}. What is the full quotient?`, q, `${hi} + ${q - hi} = ${b(q)}.`); }
+    return num(`${m(`${fmt(a)} ÷ ${d} = ?`)}`, q, `${d} × ${q} = ${fmt(a)}, so the quotient is ${b(q)}.`);
+  }),
   /* ===== multiplication strategies ===== */
   R(/^Multiply 1-digit numbers by (?:2|3)-digit numbers: choose the area model$|^Multiply one-digit numbers by (?:two|three)-digit numbers: choose the area model$|^Multiply 2-digit numbers by 2-digit numbers: choose the area model$/, (mt, ctx) => () => {
     const two2 = /2-digit numbers by 2-digit/.test(ctx.title), three = /3-digit|three/.test(ctx.title), a = two2 ? ri(12, 49) : ri(2, 9), n = two2 ? ri(12, 49) : three ? digits(3) : digits(2);

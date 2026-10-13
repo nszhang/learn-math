@@ -151,12 +151,27 @@ const IXL_OLD_PLACEMENT = {
   schN2: 'Add and subtract fractions with unlike denominators', elDEC5: 'Add and subtract decimals up to hundredths', elDPV5: 'Decimal place value: up to hundredths', elDXW5: 'Multiply decimals by whole numbers',
   t41: 'Divide decimals', t42: 'Compare decimals', t43: 'Convert between decimals and fractions', elFRC5: 'Multiply fractions and whole numbers', elFXW5: 'Multiply fractions and whole numbers',
   t47: 'Triangles and quadrilaterals', schG3: 'Perimeter and area', elUNT5: 'Units of measurement', t46: 'Volume and surface area', schG6: 'Volume and surface area',
-  elPRM5: 'Number theory', elLCM5: 'Number theory', t44: 'Number theory', t45: 'Numerical expressions', schN1: 'Numerical expressions', t48: 'Patterns and sequences'
+  elPRM5: 'Number theory', elLCM5: 'Number theory', t44: 'Number theory', t45: 'Numerical expressions', schN1: 'Numerical expressions', t48: 'Patterns and sequences',
+  // Grade 6
+  elFDC6: 'Percents', t52: 'Percents', elPRO6: 'Equivalent expresssions', t54: 'Expressions', t56: 'Perimeter and area', elINT6: 'Integers', elICO6: 'Integers', elABS6: 'Integers', t49: 'Integers', t50: 'Integers',
+  t55: 'Number theory', t53: 'Consumer math', schN3: 'Percents of numbers', elRAT6: 'Ratios and rates', elERQ6: 'Ratios and rates', t51: 'Ratios and rates',
+  elMIS6: 'Statistics', schS1: 'Statistics', schS2: 'Statistics', schS3: 'Statistics', schS4: 'Statistics',
+  // Grade 7
+  t64: 'Consumer math', elSQR7: 'Exponents and square roots', t60: 'Exponents and square roots', expA1: 'Exponents and square roots', elWRE7: 'Expressions', t59: 'Equivalent expressions', algA1: 'Expressions', algA2: 'Equivalent expressions',
+  t57: 'Perimeter and area', schG5: 'Perimeter and area', schG4: 'Two-dimensional figures', t62: 'Operations with integers', elLAW7: 'Equivalent expressions', t65: 'Equivalent expressions',
+  t66: 'One-variable equations', algB1: 'One-variable equations', algB2: 'One-variable equations', algC1: 'One-variable equations', algI1: 'One-variable equations', t61: 'Percents',
+  t58: 'Probability', schP1: 'Probability', schP2: 'Probability', schP3: 'Probability', elPRP7: 'Ratios, rates and proportions', t63: 'Sequences',
+  // Grade 8
+  elDST8: 'One-variable equations', t67: 'One-variable equations', algC2: 'One-variable equations', t73: 'Two-variable statistics', t69: 'Scientific notation', t70: 'Scientific notation',
+  expA2: 'Exponents', expA3: 'Exponents', elPYT8: 'Pythagorean theorem', elANR8: 'Lines and angles', t74: 'Lines and angles', t71: 'Surface area and volume',
+  elGRD8: 'One-variable inequalities', algD1: 'One-variable inequalities', algD2: 'One-variable inequalities',
+  elSLE8: 'Linear functions', t68: 'Linear functions', algE1: 'Linear functions', algE2: 'Linear functions', algE3: 'Linear functions', t72: 'Transformations and congruence'
 };
+const IXL_GRADES = new Set(Object.keys(IXL_MATH_SECTION_ORDER).map(Number));
 
 export const GRADES = buildGrades(addRaw => {
   const add = (grade, section, icon, skill) => {
-    if (grade > 5) return addRaw(grade, section, icon, skill);
+    if (!IXL_GRADES.has(grade)) return addRaw(grade, section, icon, skill);
     const sec = IXL_OLD_PLACEMENT[skill.id];
     if (!sec || IXL_MATH_SECTION_ORDER[grade]?.[sec] === undefined) throw new Error(`Skill ${skill.id} (grade ${grade}) has no IXL section placement`);
     addRaw(grade, sec, ixlIconFor(sec), skill);
@@ -181,9 +196,9 @@ export const GRADES = buildGrades(addRaw => {
     }
   }
 
-  // IXL-structured skills for Grades 1–5
+  // IXL-structured skills
   for (const sk of IXL_MATH_SKILLS) addRaw(sk.grade, sk.section, sk.icon, sk);
-}, '', false, (grade, name) => (grade <= 5 ? IXL_MATH_SECTION_ORDER[grade]?.[name] ?? null : null));
+}, '', false, (grade, name) => (IXL_GRADES.has(grade) ? IXL_MATH_SECTION_ORDER[grade]?.[name] ?? null : null));
 
 /* ---------- English & Science (skills carry grade/section inline) ---------- */
 const inlineFill = list => add => list.forEach(s => add(s.grade, s.section, s.icon, s));

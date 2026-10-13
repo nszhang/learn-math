@@ -35,6 +35,7 @@ const calc = (a, c, sub) => { const D = comm(a[1], c[1]), n = a[0] * (D / a[1]) 
 const mixedOf = (d, wMax = 5) => ({ w: ri(1, wMax), n: ri(1, d - 1), d });
 const mixedVal = x => x.w + x.n / x.d;
 
+export { ansStr, wrongs, comm, mixedOf, mixedVal, mixedFull };
 export const FRACOPS_RULES = [
   R(/^Decompose fractions multiple ways$/, () => () => {
     const d = pick([4, 5, 6, 8, 10]), n = ri(3, d - 1), a = ri(1, n - 1);
