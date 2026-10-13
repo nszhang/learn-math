@@ -6,7 +6,7 @@
 
 **🌐 Live:** [math.pnpsolutions.ca/learn-math](https://math.pnpsolutions.ca/learn-math)
 
-**256 skills · 95 sections · Grades 1–12 · 21 badges · 3 roles**
+**2,162 skills · 276 sections · Grades 1–12 · 21 badges · 3 roles**
 
 React 18 + Vite · Node.js + Express · PostgreSQL · JWT + bcrypt
 
@@ -107,17 +107,21 @@ distributive). MathAce's catalog is written to make students *intuit* these:
 
 ## Content catalog
 
-**256 skills across 95 sections in Grades 1–12.** Skill IDs are namespaced
-(`el*` elementary, `sch*` school topics, `alg*` algebra, `exp*` exponent/log,
-`t*` expansions) so the shared database never collides.
+**2,162 skills across 276 sections in Grades 1–12.** Grades 1–5 (1,906 IXL-style skills
+plus the 100 skills that existed before) follow IXL's grade pages section for section — see
+`client/src/catalog/ixlMath/` (`manifest.js` lists every section and skill with a permanent
+`mth…` id; `rules/*.js` attach a generator to each skill by title; `check.mjs` is the dev
+harness). Skill IDs are namespaced (`mth*` IXL-style Grades 1–5, `el*` elementary, `sch*` school
+topics, `alg*` algebra, `exp*` exponent/log, `t*` expansions) so the shared database never collides.
+The original skills for Grades 1–5 now live inside the matching IXL sections.
 
 | Grade | Sections · Skills | Highlights |
 |---|---|---|
-| 1 | 7 · 20 | Skip counting, number bonds, fact families, make-a-ten, clocks, shapes |
-| 2 | 7 · 19 | Place value, regrouping, money, tally charts, pattern rules |
-| 3 | 8 · 21 | Times tables via arrays, missing factors (inverse), fractions on number lines, area by unit squares |
-| 4 | 7 · 20 | 2×2-digit multiply, remainders, mixed numbers, symmetry, parallel/perpendicular |
-| 5 | 8 · 20 | Decimals, order of operations, prime factorization, volume by cubes, triangle classification |
+| 1 | 41 · 309 | Counting and ten frames, addition/subtraction to 20 with pictures, strategies, place value, clocks, money, graphs, shapes |
+| 2 | 34 · 321 | Two- and three-digit add/subtract with models, skip-counting, place value, money, elapsed time, arrays, intro to fractions |
+| 3 | 43 · 469 | Multiplication/division facts and fluency, area models, fractions on number lines, decimals, perimeter/area, graphs |
+| 4 | 46 · 428 | Multi-digit multiply/divide, remainders, factors, equivalent fractions, decimals to hundredths, angles, symmetry |
+| 5 | 54 · 479 | Fraction and decimal operations, exponents, order of operations, ratios, percents, integers, coordinate plane, volume |
 | 6 | 8 · 21 | Integer operations, ratios & rates, percents, mean with missing values, distributive with variables |
 | 7 | 11 · 26 | Expressions, one/two-step equations, probability, powers, square & cube roots, **name-the-law**, consumer math |
 | 8 | 7 · 21 | Multi-step & fractional equations, inequalities & their graphs, slope, scientific notation, Pythagorean, cylinders |
@@ -348,7 +352,8 @@ password change/reset semantics, and authorization rules per role.
 invoked thousands of times and checked for presence of fields, answer
 in choices, choice uniqueness, numeric-answer finiteness, and formatting —
 most recently **256 skills × 1,200 = 307,200 generated questions, zero
-failures**. The lesson engines and expression parser have equivalent sweeps
+failures** (plus `server/test/ixlmath.test.js`, which runs every Grade 1–5 generator and checks
+the question shape on each `npm test`). The lesson engines and expression parser have equivalent sweeps
 (33+ parser eval cases including domain NaNs and error handling). Client↔server
 skill-ID consistency is diff-checked.
 

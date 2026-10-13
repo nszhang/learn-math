@@ -15,6 +15,7 @@ import { EXTRA2_SKILLS } from './catalog/extra2.js';
 import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
 import { ENGLISH_ALL } from './catalog/ixlEnglish.js';
 import { SCIENCE_ALL } from './catalog/ixlScience.js';
+import { IXL_MATH_SKILLS, IXL_MATH_SECTION_ORDER, ixlIconFor } from './catalog/ixlMath/index.js';
 
 const ENGLISH_SKILLS = ENGLISH_ALL;
 const SCIENCE_SKILLS = SCIENCE_ALL;
@@ -101,7 +102,7 @@ const letterFor = i => { const c = String.fromCharCode(65 + (i % 26)); return c.
 // fill(add) calls add(grade, sectionName, icon, skill) for each skill.
 // ordered=true keeps sections in the order they were added (IXL-style) instead of A→Z by name;
 // sections carry the skill's optional `category` (e.g. "Grammar and Mechanics").
-function buildGrades(fill, codePrefix = '', ordered = false) {
+function buildGrades(fill, codePrefix = '', ordered = false, sectionOrder = null) {
   const gradeMap = new Map(); // grade → { sections: Map(name → {name, icon, category, skills}) }
   fill((grade, sectionName, icon, skill) => {
     if (!gradeMap.has(grade)) gradeMap.set(grade, { sections: new Map() });
@@ -116,7 +117,7 @@ function buildGrades(fill, codePrefix = '', ordered = false) {
       num,
       name: 'Grade ' + num,
       sections: [...g.sections.values()]
-        .sort((a, b) => (ordered ? 0 : a.name.localeCompare(b.name)))
+        .sort((a, b) => (sectionOrder && sectionOrder(num, a.name) !== null ? sectionOrder(num, a.name) - sectionOrder(num, b.name) : ordered ? 0 : a.name.localeCompare(b.name)))
         .map((sec, si) => ({
           ...sec,
           letter: letterFor(si),
@@ -126,7 +127,40 @@ function buildGrades(fill, codePrefix = '', ordered = false) {
 }
 
 /* ---------- Math ---------- */
-export const GRADES = buildGrades(add => {
+// Grades 1–5 follow IXL's section structure (catalog/ixlMath). The skills written before that
+// catalog existed are placed into the matching IXL section so nobody's progress moves or disappears.
+const IXL_OLD_PLACEMENT = {
+  // Grade 1
+  elADD1: 'Addition up to 20', t3: 'Addition up to 20', elBND1: 'Addition and subtraction up to 10', t4: 'Addition strategies up to 20', t5: 'Addition word problems up to 20',
+  elCMP1: 'Comparing and ordering', elSYM1: 'Comparing and ordering', t8: 'Comparing and ordering', elCNT1: 'Skip-counting', elCNT2: 'Counting and numbers', t1: 'Counting and numbers',
+  t2: 'Addition and subtraction: multiples of ten', t11: 'Two-dimensional shapes', t10: 'Time', elPLG1: 'Place value', t9: 'Place value',
+  elSUB1: 'Subtraction up to 20', t6: 'Subtraction up to 20', elFAM1: 'Addition and subtraction up to 10', t7: 'Subtraction word problems up to 20',
+  // Grade 2
+  elADD2: 'Addition - two digits', t15: 'Addition - two digits', elSUB2: 'Subtraction - two digits', t16: 'Subtraction - two digits', elADD3: 'Addition - one digit', elMIS2: 'Addition - one digit',
+  t21: 'Data and graphs', t20: 'Two-dimensional shapes', t18: 'Money', t19: 'Units of measurement', elPAT2: 'Skip-counting and number patterns', elEVN2: 'Even and odd', t17: 'Patterns',
+  elPLV1: 'Place value', elEXP2: 'Place value', t12: 'Place value', t14: 'Place value', t13: 'Comparing and ordering', elWPB2: 'Mixed operations - two digits',
+  // Grade 3
+  t31: 'Data and graphs', elDIV3: 'Division fluency', elDIN3: 'Understand division', t24: 'Division skill builders', t25: 'Division fluency', elFRQ3: 'Understand fractions', elFCP3: 'Compare and order fractions',
+  t26: 'Fractions on number lines', t27: 'Understand fractions', elSHP3: 'Two-dimensional shapes', elPER3: 'Perimeter, area and volume', t28: 'Perimeter, area and volume', t30: 'Time',
+  elMUL3: 'Multiplication fluency', elWPM3: 'Multiplication', elARR3: 'Understand multiplication', t22: 'Multiplication skill builders', t23: 'Multiplication fluency', elDIS3: 'Multiplication', t29: 'Multiplication', elRND3: 'Estimation and rounding',
+  // Grade 4
+  elEQF4: 'Equivalent fractions', elFCM4: 'Compare fractions', t34: 'Equivalent fractions', elANG4: 'Lines and angles', t37: 'Lines and angles', t38: 'Symmetry and transformations',
+  schG1: 'Area, perimeter and volume', schG2: 'Area, perimeter and volume', t39: 'Units of measurement', t40: 'Patterns and sequences', elMUL4: 'Multiplication', elARE4: 'Multiplication', t32: 'Multiplication',
+  elDIV4: 'Division', t33: 'Division', elGCF4: 'Factors and multiples', elFAC4: 'Factors and multiples', t35: 'Factors and multiples', elRND4: 'Rounding', t36: 'Rounding',
+  // Grade 5
+  schN2: 'Add and subtract fractions with unlike denominators', elDEC5: 'Add and subtract decimals up to hundredths', elDPV5: 'Decimal place value: up to hundredths', elDXW5: 'Multiply decimals by whole numbers',
+  t41: 'Divide decimals', t42: 'Compare decimals', t43: 'Convert between decimals and fractions', elFRC5: 'Multiply fractions and whole numbers', elFXW5: 'Multiply fractions and whole numbers',
+  t47: 'Triangles and quadrilaterals', schG3: 'Perimeter and area', elUNT5: 'Units of measurement', t46: 'Volume and surface area', schG6: 'Volume and surface area',
+  elPRM5: 'Number theory', elLCM5: 'Number theory', t44: 'Number theory', t45: 'Numerical expressions', schN1: 'Numerical expressions', t48: 'Patterns and sequences'
+};
+
+export const GRADES = buildGrades(addRaw => {
+  const add = (grade, section, icon, skill) => {
+    if (grade > 5) return addRaw(grade, section, icon, skill);
+    const sec = IXL_OLD_PLACEMENT[skill.id];
+    if (!sec || IXL_MATH_SECTION_ORDER[grade]?.[sec] === undefined) throw new Error(`Skill ${skill.id} (grade ${grade}) has no IXL section placement`);
+    addRaw(grade, sec, ixlIconFor(sec), skill);
+  };
   // elementary skills (already graded)
   for (const { grade, sections } of ELEMENTARY) {
     for (const sec of sections) {
@@ -146,7 +180,10 @@ export const GRADES = buildGrades(add => {
       add(place[0], place[1], place[2], skill);
     }
   }
-});
+
+  // IXL-structured skills for Grades 1–5
+  for (const sk of IXL_MATH_SKILLS) addRaw(sk.grade, sk.section, sk.icon, sk);
+}, '', false, (grade, name) => (grade <= 5 ? IXL_MATH_SECTION_ORDER[grade]?.[name] ?? null : null));
 
 /* ---------- English & Science (skills carry grade/section inline) ---------- */
 const inlineFill = list => add => list.forEach(s => add(s.grade, s.section, s.icon, s));
