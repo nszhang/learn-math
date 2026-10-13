@@ -6,14 +6,13 @@ import { parse } from '../../learn/parser.js';
    2. area   — FTC part 1: the area collected so far, A(x), has slope f(x)
    3. change — FTC part 2: ∫ₐᵇ f = F(b) − F(a) for any antiderivative F  */
 
-const LO = -4, HI = 4;           // default window, and the range of the sliders
+const LO = -4, HI = 4;           // the default window
 const N = 600;                    // samples per curve across the visible window
 const W = 560, PAD = { l: 40, r: 12, t: 10, b: 22 };
 const IW = W - PAD.l - PAD.r;
 const MIN_SPAN = 0.004, MAX_SPAN = 80, MAX_CENTER = 80;
 const DEFAULT_VIEW = { x0: LO, x1: HI };
-const SLIDER_STEP = 0.05;
-const GAPS = [2, 1.2, 0.7, 0.4, 0.2, 0.1, 0.03, 0]; // secant gap h; 0 = the tangent itself
+const GAP_FRACTIONS = [0.25, 0.15, 0.09, 0.05, 0.025, 0.0125, 0.004, 0]; // secant gap h as a share of the window; 0 = the tangent itself
 
 const COLORS = { f: '#4f46e5', area: '#4f46e5', neg: '#dc2626', tangent: '#16a34a', secant: '#d97706', deriv: '#0891b2' };
 
@@ -233,13 +232,23 @@ export default function CalculusLab() {
   const [mode, setMode] = useState('area');
   const [presetId, setPresetId] = useState('sq');
   const [custom, setCustom] = useState('x^3 - 2x');
-  const [x, setX] = useState(1);
-  const [a, setA] = useState(0);
-  const [b, setB] = useState(2);
+  const [xRaw, setX] = useState(1);
+  const [aRaw, setA] = useState(0);
+  const [bRaw, setB] = useState(2);
   const [gapIdx, setGapIdx] = useState(1);
   const [C, setC] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [view, setView] = useState(DEFAULT_VIEW);
+
+  // The sliders always span the visible window. A point that falls outside it is held at the edge
+  // (and returns to where it was when you zoom back out).
+  const span = view.x1 - view.x0;
+  const sStep = niceStep(span, 160);
+  const sMin = parseFloat((Math.ceil(view.x0 / sStep) * sStep).toFixed(12));
+  const sMax = parseFloat((Math.floor(view.x1 / sStep) * sStep).toFixed(12));
+  const inView = v => Math.min(sMax, Math.max(sMin, v));
+  const [x, a, b] = [inView(xRaw), inView(aRaw), inView(bRaw)];
+  const fmtX = v => fmtTick(v, niceStep(span, 400));
 
   const preset = PRESETS.find(p => p.id === presetId);
   const parsed = useMemo(() => parse(preset.id === 'custom' ? custom : preset.text), [preset, custom]);
@@ -254,20 +263,20 @@ export default function CalculusLab() {
     if (!ys || mode !== 'change') return null;
     return preset.F ? XS.map(preset.F) : cumulative(ys, XS, integrate(f, LO, XS[0]));
   }, [f, ys, XS, mode, preset]);
-  const zoom = (HI - LO) / (view.x1 - view.x0);
+  const zoom = (HI - LO) / span;
   const zoomBy = k => setView(v => zoomView(v, (v.x0 + v.x1) / 2, k));
-  const focusX = mode === 'change' ? (a + b) / 2 : x;
+  const focusX = mode === 'change' ? (aRaw + bRaw) / 2 : xRaw;
   const centerOn = () => setView(v => { const half = (v.x1 - v.x0) / 2; return clampView(focusX - half, focusX + half); });
 
   useEffect(() => {
     if (!playing) return undefined;
-    const t = setInterval(() => setX(v => Math.min(HI, parseFloat((v + SLIDER_STEP).toFixed(2)))), 40);
+    const t = setInterval(() => setX(v => Math.min(sMax, v + sStep)), 40);
     return () => clearInterval(t);
-  }, [playing]);
-  useEffect(() => { if (playing && x >= HI) setPlaying(false); }, [playing, x]);
+  }, [playing, sStep, sMax]);
+  useEffect(() => { if (playing && xRaw >= sMax) setPlaying(false); }, [playing, xRaw, sMax]);
 
   const pickMode = m => { setPlaying(false); setMode(m); };
-  const togglePlay = () => { if (!playing && x >= HI) setX(LO); setPlaying(p => !p); };
+  const togglePlay = () => { if (!playing) setX(x >= sMax ? sMin : x); setPlaying(p => !p); };
 
   const curvePicker = (
     <div className="ftc-picker">
@@ -293,15 +302,15 @@ export default function CalculusLab() {
   let aside = null;
 
   if (f && mode === 'slope') {
-    const h = GAPS[gapIdx];
+    const h = GAP_FRACTIONS[gapIdx] * span;
     const fx = f(x), m = slope(f, x);
     const secant = h > 0 ? (f(x + h) - fx) / h : m;
     const [yr1, yr2] = [yRange(ys), yRange(dys)];
     body = (<>
       <div className="ftc-controls">
-        <Slider label="point x" value={x} min={LO} max={HI} step={SLIDER_STEP} onChange={setX} />
-        <Slider label="gap h" value={gapIdx} min={0} max={GAPS.length - 1} step={1} onChange={setGapIdx}
-          shown={h > 0 ? String(h) : '→ 0'} />
+        <Slider label="point x" value={x} min={sMin} max={sMax} step={sStep} shown={fmtX(x)} onChange={setX} />
+        <Slider label="gap h" value={gapIdx} min={0} max={GAP_FRACTIONS.length - 1} step={1} onChange={setGapIdx}
+          shown={h > 0 ? fmtX(h) : '→ 0'} />
       </div>
       <Plot view={view} setView={setView} id="ftc-slope-f" h={250} yr={yr1} label="The curve f with a secant and tangent line">
         {(sx, sy, v) => (<>
@@ -321,8 +330,8 @@ export default function CalculusLab() {
         </>)}
       </Plot>
       <div className="frame-note">
-        {h > 0 && <>🟠 <strong>Secant slope</strong> (over a gap of {h}) = {fmt(secant)}<br /></>}
-        🟢 <strong>Tangent slope</strong> f′({fmt(x)}) ≈ {fmt(m)}
+        {h > 0 && <>🟠 <strong>Secant slope</strong> (over a gap of {fmtX(h)}) = {fmt(secant)}<br /></>}
+        🟢 <strong>Tangent slope</strong> f′({fmtX(x)}) ≈ {fmt(m)}
         {m === 0 && ' — flat! The curve is at a peak, a valley or a plateau.'}
       </div>
     </>);
@@ -343,8 +352,8 @@ export default function CalculusLab() {
     const measured = (integrate(f, a, x + d) - integrate(f, a, x - d)) / (2 * d);
     body = (<>
       <div className="ftc-controls">
-        <Slider label="start a" value={a} min={LO} max={HI} step={SLIDER_STEP} onChange={setA} />
-        <Slider label="end x" value={x} min={LO} max={HI} step={SLIDER_STEP} onChange={v => { setPlaying(false); setX(v); }} />
+        <Slider label="start a" value={a} min={sMin} max={sMax} step={sStep} shown={fmtX(a)} onChange={setA} />
+        <Slider label="end x" value={x} min={sMin} max={sMax} step={sStep} shown={fmtX(x)} onChange={v => { setPlaying(false); setX(v); }} />
         <button type="button" className="btn btn-ghost" onClick={togglePlay}>{playing ? '⏸ Pause' : '▶ Sweep x'}</button>
       </div>
       <div className="ftc-cap">The curve f, with the signed area from a to x shaded:</div>
@@ -367,7 +376,7 @@ export default function CalculusLab() {
         </>)}
       </Plot>
       <div className="frame-note">
-        <strong>A(x) = ∫<sub>{fmt(a)}</sub><sup>{fmt(x)}</sup> f(t) dt = {fmt(Ax)}</strong><br />
+        <strong>A(x) = ∫<sub>{fmtX(a)}</sub><sup>{fmtX(x)}</sup> f(t) dt = {fmt(Ax)}</strong><br />
         Slope of the tangent to A at x: <strong>{fmt(measured)}</strong> &nbsp;|&nbsp; Height of f at x: <strong>{fmt(fx)}</strong>
         {Number.isFinite(measured) && Number.isFinite(fx) && Math.abs(measured - fx) < 0.01 * (1 + Math.abs(fx)) && ' ✅ equal!'}
       </div>
@@ -392,8 +401,8 @@ export default function CalculusLab() {
     const match = Number.isFinite(I) && Number.isFinite(diff) && Math.abs(I - diff) < 1e-4 * (1 + Math.abs(I));
     body = (<>
       <div className="ftc-controls">
-        <Slider label="lower a" value={a} min={LO} max={HI} step={SLIDER_STEP} onChange={setA} />
-        <Slider label="upper b" value={b} min={LO} max={HI} step={SLIDER_STEP} onChange={setB} />
+        <Slider label="lower a" value={a} min={sMin} max={sMax} step={sStep} shown={fmtX(a)} onChange={setA} />
+        <Slider label="upper b" value={b} min={sMin} max={sMax} step={sStep} shown={fmtX(b)} onChange={setB} />
         <Slider label="constant C" value={C} min={-3} max={3} step={0.5} onChange={setC} />
       </div>
       <div className="ftc-cap">The area under f from a to b:</div>
@@ -421,7 +430,7 @@ export default function CalculusLab() {
       <div className="frame-note">
         <strong>{preset.F ? `F(x) = ${preset.Ftext} + C` : 'F(x) = (numerical antiderivative) + C'}</strong> &nbsp; (C = {fmt(C)})<br />
         F(b) − F(a) = {fmt(Fb)} − ({fmt(Fa)}) = <strong>{fmt(diff)}</strong><br />
-        ∫<sub>{fmt(a)}</sub><sup>{fmt(b)}</sup> f(x) dx, summed up as thin strips = <strong>{fmt(I)}</strong>
+        ∫<sub>{fmtX(a)}</sub><sup>{fmtX(b)}</sup> f(x) dx, summed up as thin strips = <strong>{fmt(I)}</strong>
         {match && ' ✅ same answer!'}
       </div>
     </>);
