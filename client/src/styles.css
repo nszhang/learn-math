@@ -740,3 +740,9 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .ftc-cap { margin: 10px 0 4px; font-size: .9rem; color: var(--muted); }
 .ftc-big { margin-top: 14px; }
 .ftc-rise { font-size: 12px; font-weight: 700; fill: #d97706; }
+.ftc-svg { cursor: grab; touch-action: pan-y; user-select: none; }
+.ftc-svg:active { cursor: grabbing; }
+.ftc-svg:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+.ftc-zoombar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0; }
+.ftc-zoomlabel { font-weight: 700; font-variant-numeric: tabular-nums; }
+.ftc-hint { font-size: .82rem; }
