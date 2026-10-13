@@ -11,6 +11,7 @@ import TriangleLab from './learn/TriangleLab.jsx';
 import IntegerHopper from './learn/IntegerHopper.jsx';
 import FactoringLab from './learn/FactoringLab.jsx';
 import CalculusLab from './learn/CalculusLab.jsx';
+import ComplexLab from './learn/ComplexLab.jsx';
 import { clickable } from '../a11y.js';
 
 const GROUPS = [
@@ -38,7 +39,8 @@ const GROUPS = [
     name: '🧬 Algebra & beyond', lessons: [
       { id: 'factoring', emoji: '🧩', title: 'Factoring tiles', desc: 'See (x + a)(x + b) as area — and factor it back' },
       { id: 'explog', emoji: '🔢', title: 'Exp & log equations', desc: 'Animated steps from bˣ = v to x' },
-      { id: 'curves', emoji: '📉', title: 'Curves playground', desc: 'y = a·bˣ, logs & the Desmos-style grapher' }
+      { id: 'curves', emoji: '📉', title: 'Curves playground', desc: 'y = a·bˣ, logs & the Desmos-style grapher' },
+      { id: 'complex', emoji: '🧭', title: 'Complex numbers', desc: 'What i really is — and what adding and multiplying do on the plane' }
     ]
   },
   {
@@ -78,6 +80,7 @@ export default function LearnPage({ toast, fireConfetti }) {
         {open === 'integers' && <IntegerHopper />}
         {open === 'factoring' && <FactoringLab />}
         {open === 'ftc' && <CalculusLab />}
+        {open === 'complex' && <ComplexLab />}
       </main>
     );
   }

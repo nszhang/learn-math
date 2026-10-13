@@ -178,6 +178,10 @@ original tools below, seven new labs cover the expanded topic catalog:
   for signed addition/subtraction, with Play/Step controls
 - **🧩 Factoring tiles** — algebra-tile area model for (x + a)(x + b) with a
   "factor it back" reverse mode (sum-and-product hunt)
+- **🧭 Complex numbers** — drag points on the complex plane: a + bi as "a right,
+  b up"; i as a quarter turn (i² = −1 as two turns); addition as walking one
+  number then the other; multiplication as stretch + turn (lengths multiply,
+  angles add), with the unit square showing how the whole plane moves
 - **∫ Fundamental Theorem of Calculus** — pick a curve (or type your own) and
   explore three linked views: a secant closing in on the tangent (the
   derivative), the accumulated area A(x) whose tangent slope equals f(x)

@@ -217,7 +217,7 @@ const Dot = ({ sx, sy, x, y, color, r = 5 }) => (
 );
 
 // module-level so the <input> isn't remounted while dragging
-function Slider({ label, value, min, max, step, onChange, shown }) {
+export function Slider({ label, value, min, max, step, onChange, shown }) {
   return (
     <label className="ftc-slider">
       <span className="frac-label">{label}</span>

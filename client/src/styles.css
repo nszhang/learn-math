@@ -746,3 +746,11 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .ftc-zoombar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0; }
 .ftc-zoomlabel { font-weight: 700; font-variant-numeric: tabular-nums; }
 .ftc-hint { font-size: .82rem; }
+
+/* Complex numbers lab */
+.cx-svg { width: 100%; max-width: 520px; display: block; margin: 8px auto; background: var(--card); border: 1px solid var(--line); border-radius: 10px; touch-action: none; user-select: none; }
+.cx-handle { cursor: grab; }
+.cx-label { font-size: 13px; font-weight: 700; paint-order: stroke; stroke: #fff; stroke-width: 3px; stroke-linejoin: round; }
+.cx-axis-name { font-size: 11px; fill: var(--muted); font-style: italic; }
+.cx-hint { margin: 6px 0 0; font-size: .88rem; }
+.ftc-check { display: inline-flex; align-items: center; gap: 6px; font-size: .92rem; cursor: pointer; }
