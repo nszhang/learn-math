@@ -10,6 +10,7 @@ import ProbabilityLab from './learn/ProbabilityLab.jsx';
 import TriangleLab from './learn/TriangleLab.jsx';
 import IntegerHopper from './learn/IntegerHopper.jsx';
 import FactoringLab from './learn/FactoringLab.jsx';
+import CalculusLab from './learn/CalculusLab.jsx';
 import { clickable } from '../a11y.js';
 
 const GROUPS = [
@@ -38,6 +39,11 @@ const GROUPS = [
       { id: 'factoring', emoji: '🧩', title: 'Factoring tiles', desc: 'See (x + a)(x + b) as area — and factor it back' },
       { id: 'explog', emoji: '🔢', title: 'Exp & log equations', desc: 'Animated steps from bˣ = v to x' },
       { id: 'curves', emoji: '📉', title: 'Curves playground', desc: 'y = a·bˣ, logs & the Desmos-style grapher' }
+    ]
+  },
+  {
+    name: '∫ Calculus', lessons: [
+      { id: 'ftc', emoji: '∫', title: 'Fundamental Theorem of Calculus', desc: 'Pick a curve; see its tangent, the area under it, and why they undo each other' }
     ]
   }
 ];
@@ -71,6 +77,7 @@ export default function LearnPage({ toast, fireConfetti }) {
         {open === 'pythagoras' && <TriangleLab />}
         {open === 'integers' && <IntegerHopper />}
         {open === 'factoring' && <FactoringLab />}
+        {open === 'ftc' && <CalculusLab />}
       </main>
     );
   }

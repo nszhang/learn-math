@@ -178,6 +178,11 @@ original tools below, seven new labs cover the expanded topic catalog:
   for signed addition/subtraction, with Play/Step controls
 - **🧩 Factoring tiles** — algebra-tile area model for (x + a)(x + b) with a
   "factor it back" reverse mode (sum-and-product hunt)
+- **∫ Fundamental Theorem of Calculus** — pick a curve (or type your own) and
+  explore three linked views: a secant closing in on the tangent (the
+  derivative), the accumulated area A(x) whose tangent slope equals f(x)
+  (FTC part 1, with a ▶ sweep), and ∫ₐᵇ f = F(b) − F(a) with a movable +C
+  (FTC part 2)
 
 **The custom grapher** accepts any expression in `x` (up to 6 at once, each in
 its own color): operators `+ - * / ^` (right-associative), parentheses,

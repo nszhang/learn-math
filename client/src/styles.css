@@ -721,3 +721,22 @@ button.brand-link:hover .brand-name { opacity: .8; }
 .category-head { margin: 22px 0 8px; font-size: 1.05rem; color: var(--primary); text-transform: uppercase; letter-spacing: .04em; }
 details.fold { margin-bottom: 8px; }
 details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
+
+/* Calculus lab */
+.ftc-svg { width: 100%; height: auto; display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
+.ftc-grid { stroke: var(--line); stroke-width: 1; }
+.ftc-axis { stroke: #64748b; stroke-width: 1.5; }
+.ftc-tick { font-size: 11px; fill: var(--muted); }
+.ftc-picker { margin: 10px 0; }
+.ftc-picker .level-tabs { flex-wrap: wrap; }
+.ftc-custom { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.ftc-input { flex: 1; min-width: 180px; padding: 8px 10px; border: 2px solid var(--line); border-radius: 10px; font: inherit; }
+.ftc-err { color: #dc2626; font-size: .9rem; }
+.ftc-fx { margin-top: 6px; font-size: 1.05rem; }
+.ftc-controls { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin: 8px 0; }
+.ftc-slider { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 200px; }
+.ftc-slider input[type="range"] { flex: 1; accent-color: var(--primary); }
+.ftc-val { min-width: 48px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.ftc-cap { margin: 10px 0 4px; font-size: .9rem; color: var(--muted); }
+.ftc-big { margin-top: 14px; }
+.ftc-rise { font-size: 12px; font-weight: 700; fill: #d97706; }
