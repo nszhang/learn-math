@@ -1,5 +1,5 @@
 // Date + homework helpers (client side).
-import { ALL_SKILLS, SKILL_INDEX } from './skills';
+import { ALL_SKILLS, SKILL_INDEX, SUBJECTS, gradeLevel } from './skills.js';
 
 export function localDateStr(d = new Date()) {
   const p = n => String(n).padStart(2, '0');
@@ -11,21 +11,36 @@ export function niceDate(str) {
     .toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
-// Deterministic daily set: 3 skills × 5 questions per calendar date.
-export function dailyAssignment(dateString) {
+// Skills at a student's grade, per subject ([] when that subject has no such grade).
+export function skillsAtGrade(grade) {
+  return SUBJECTS.map(sub => ({
+    subject: sub,
+    skills: (sub.grades.find(g => g.num === grade)?.sections || []).flatMap(s => s.skills)
+  }));
+}
+
+// Deterministic daily set for a calendar date: 3 skills × 5 questions.
+// With a grade: one Math, one English and one Science skill at that grade.
+// Without one: three math skills from any grade (the original behaviour).
+export function dailyAssignment(dateString, grade = null) {
   let seed = 0;
   for (const c of dateString) seed = (seed * 31 + c.charCodeAt(0)) >>> 0;
   const items = [];
-  for (let i = 0; items.length < 3 && i < ALL_SKILLS.length * 2; i++) {
-    const s = ALL_SKILLS[(seed + i * 5) % ALL_SKILLS.length];
-    if (!items.find(x => x.skillId === s.id)) items.push({ skillId: s.id, count: 5 });
+  const pools = grade !== null && grade !== undefined ? skillsAtGrade(grade).map(p => p.skills).filter(p => p.length) : [];
+  if (pools.length) {
+    pools.forEach((pool, k) => items.push({ skillId: pool[(seed + k * 7) % pool.length].id, count: 5 }));
+  } else {
+    for (let i = 0; items.length < 3 && i < ALL_SKILLS.length * 2; i++) {
+      const s = ALL_SKILLS[(seed + i * 5) % ALL_SKILLS.length];
+      if (!items.find(x => x.skillId === s.id)) items.push({ skillId: s.id, count: 5 });
+    }
   }
   return { id: 'daily-' + dateString, daily: true, due: dateString, items };
 }
 
 // Merge server-provided daily progress into a daily assignment object.
 export function dailyWithProgress(dateString, homeworkData) {
-  const a = dailyAssignment(dateString);
+  const a = dailyAssignment(dateString, homeworkData?.grade ?? null);
   const rows = (homeworkData?.dailyProgress || []).filter(r => r.assignment_id === a.id);
   const progress = a.items.map(i => {
     const row = rows.find(r => r.skill_id === i.skillId);
@@ -74,9 +89,14 @@ export function findHomeworkForSkill(skillId, homeworkData) {
   }) || null;
 }
 
+// Grade number a skill belongs to (null if unknown).
+export const skillGrade = skillId => SKILL_INDEX[skillId]?.grade.num ?? null;
+// Is this skill above the student's grade? (false when the student has no grade)
+export const isAboveGrade = (skillId, grade) => grade !== null && grade !== undefined && skillGrade(skillId) !== null && gradeLevel(skillGrade(skillId)) > grade;
+
 export function skillName(skillId) {
   const e = SKILL_INDEX[skillId];
   if (!e) return skillId;
   // math codes are shown bare (A.1); other subjects carry their own prefix (EN-A.1)
-  return e.subject.id === 'math' ? e.skill.code : `${e.skill.code} (gr. ${e.grade.num})`;
+  return `${e.skill.code} (gr. ${e.grade.num})`;
 }

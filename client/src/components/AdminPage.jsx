@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api.js';
+import { STUDENT_GRADES, gradeLabel } from '../skills.js';
 
 // Admin console: create/manage accounts (students & teachers) and assign
 // which students belong to which teacher (the teacher's "roster").
@@ -11,7 +12,7 @@ export default function AdminPage({ toast }) {
   const [filter, setFilter] = useState('student');
   const [created, setCreated] = useState(null);     // {user, password, generated}
   const [resetPw, setResetPw] = useState(null);     // {user, password, generated}
-  const [nu, setNu] = useState({ username: '', displayName: '', role: 'student', password: '', email: '' });
+  const [nu, setNu] = useState({ username: '', displayName: '', role: 'student', password: '', email: '', grade: '' });
   const [busy, setBusy] = useState(false);
   // roster editor
   const [teacherId, setTeacherId] = useState('');
@@ -49,7 +50,7 @@ export default function AdminPage({ toast }) {
       const data = await api('POST', '/api/admin/users', nu);
       setCreated(data);
       setResetPw(null);
-      setNu({ username: '', displayName: '', role: 'student', password: '', email: '' });
+      setNu({ username: '', displayName: '', role: 'student', password: '', email: '', grade: '' });
       toast('✅', `${data.user.displayName} (${data.user.role}) created`);
       await load();
     } catch (err) { toast('⚠️', err.message); }
@@ -62,6 +63,15 @@ export default function AdminPage({ toast }) {
     try {
       await api('PUT', `/api/admin/users/${u.id}/email`, { email: email.trim() });
       toast('📧', email.trim() ? `Email set for ${u.username}` : `Email removed for ${u.username}`);
+      await load();
+    } catch (err) { toast('⚠️', err.message); }
+  }
+
+  async function setGrade(u, value) {
+    const grade = value === '' ? null : Number(value);
+    try {
+      await api('PUT', `/api/admin/users/${u.id}/grade`, { grade });
+      toast('🎓', `${u.displayName}: ${gradeLabel(grade)}`);
       await load();
     } catch (err) { toast('⚠️', err.message); }
   }
@@ -137,6 +147,14 @@ export default function AdminPage({ toast }) {
                 <option value="teacher">🍎 Teacher</option>
               </select>
             </label>
+            {nu.role === 'student' && (
+              <label>Grade
+                <select value={nu.grade} onChange={e => setNu({ ...nu, grade: e.target.value })}>
+                  <option value="">— not set —</option>
+                  {STUDENT_GRADES.map(g => <option key={g} value={g}>{gradeLabel(g)}</option>)}
+                </select>
+              </label>
+            )}
           </div>
           <label>Password (leave blank to auto-generate)
             <input type="text" maxLength="40" placeholder="blank = auto-generate"
@@ -163,7 +181,7 @@ export default function AdminPage({ toast }) {
         </div>
         <table className="admin-table">
           <thead>
-            <tr><th>Name</th><th>Username</th><th>Email</th><th>Role</th><th>Roster / Teacher</th><th></th></tr>
+            <tr><th>Name</th><th>Username</th><th>Email</th><th>Role</th><th>Grade</th><th>Roster / Teacher</th><th></th></tr>
           </thead>
           <tbody>
             {shown.map(u => (
@@ -178,6 +196,14 @@ export default function AdminPage({ toast }) {
                     onClick={() => editEmail(u)} title="edit email">✉️</button>
                 </td>
                 <td><span className={'role-badge ' + (ROLE_BADGE[u.role] || '')}>{u.role}</span></td>
+                <td>
+                  {u.role === 'student' ? (
+                    <select className="grade-select" value={u.grade ?? ''} onChange={e => setGrade(u, e.target.value)} aria-label={`Grade for ${u.username}`}>
+                      <option value="">—</option>
+                      {STUDENT_GRADES.map(g => <option key={g} value={g}>{gradeLabel(g)}</option>)}
+                    </select>
+                  ) : <span className="muted">—</span>}
+                </td>
                 <td className="muted">
                   {u.role === 'teacher' ? `${rosterSize(u.id)} student${rosterSize(u.id) === 1 ? '' : 's'}`
                     : u.role === 'student' ? (teachersOf(u.id) || '—')
@@ -191,7 +217,7 @@ export default function AdminPage({ toast }) {
                 </td>
               </tr>
             ))}
-            {!shown.length && <tr><td colSpan="5" className="muted">No accounts yet.</td></tr>}
+            {!shown.length && <tr><td colSpan="7" className="muted">No accounts yet.</td></tr>}
           </tbody>
         </table>
       </div>
@@ -216,7 +242,7 @@ export default function AdminPage({ toast }) {
               {students.map(s => (
                 <label key={s.id}>
                   <input type="checkbox" checked={picked.has(s.id)} onChange={() => toggleStudent(s.id)} />
-                  {s.displayName} <span className="muted mono">{s.username}</span>
+                  {s.displayName} <span className="muted mono">{s.username}</span> <span className="muted">· {gradeLabel(s.grade)}</span>
                 </label>
               ))}
             </div>

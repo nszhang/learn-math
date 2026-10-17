@@ -69,7 +69,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   const publicUser = u => ({
     id: u.id, username: u.username, displayName: u.display_name,
     role: u.role, stars: u.stars, createdAt: u.created_at,
-    email: u.email || null
+    email: u.email || null,
+    grade: u.grade ?? null
   });
 
   // ---------- auth middleware ----------
@@ -99,6 +100,14 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     for (const b of bytes) pw += chars[b % chars.length];
     return pw;
   }
+
+  // grade: integer −1 (Junior Kindergarten), 0 (Kindergarten) … 12, or null/'' to clear.
+  // Returns undefined when invalid.
+  const parseGrade = g => {
+    if (g === null || g === undefined || g === '') return null;
+    const n = Number(g);
+    return Number.isInteger(n) && n >= -1 && n <= 12 ? n : undefined;
+  };
 
   // ---------- helpers ----------
   async function awardContext(userId, starsOverride) {
@@ -288,7 +297,9 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       db.getCompletedHomework(pool, req.uid)
     ]);
     const completedSet = new Set(completed.map(c => c.assignment_id));
+    const me = await pool.query('SELECT grade FROM users WHERE id = $1', [req.uid]).then(r => r.rows[0]);
     res.json({
+      grade: me?.grade ?? null,
       assignments: assignments.map(a => ({
         id: a.id, due: a.due, items: a.items, teacherName: a.teacher_name,
         progress: itemProgress(a.items, progress.filter(r => r.assignment_id === a.id)),
@@ -315,7 +326,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       ]);
       const completedSet = new Set(completed.map(c => c.assignment_id));
       result.push({
-        id: s.id, username: s.username, displayName: s.display_name, stars: s.stars,
+        id: s.id, username: s.username, displayName: s.display_name, stars: s.stars, grade: s.grade ?? null,
         stats: {
           answered: s.answered || 0, correct: s.correct || 0, time_sec: s.time_sec || 0,
           best_streak: s.best_streak || 0, homework_done: s.homework_done || 0
@@ -397,6 +408,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   app.post('/api/admin/users', auth, adminOnly, async (req, res) => {
     const { username, displayName, role, password, email } = req.body || {};
+    const grade = parseGrade(req.body?.grade);
+    if (grade === undefined) return res.status(400).json({ error: 'Grade must be JK (−1), K (0) or 1–12.' });
     const emailClean = email ? String(email).trim().toLowerCase() : null;
     if (emailClean && !EMAIL_RE.test(emailClean))
       return res.status(400).json({ error: 'Invalid email address.' });
@@ -416,7 +429,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       displayName: String(displayName || '').trim() || uname,
       passHash: await bcrypt.hash(pw, 10),
       role,
-      email: emailClean
+      email: emailClean,
+      grade: role === 'student' ? grade : null
     });
     res.json({ user: publicUser(user), password: pw, generated: !password });
   });
@@ -443,6 +457,19 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     const user = await pool.query('SELECT * FROM users WHERE id = $1', [id]).then(r => r.rows[0]);
     res.json({ user: publicUser(user) });
   });
+
+  // Set a student's grade — admins for anyone, teachers for students in their roster.
+  async function setGradeHandler(req, res) {
+    const id = req.params.id | 0;
+    const grade = parseGrade(req.body?.grade);
+    if (grade === undefined) return res.status(400).json({ error: 'Grade must be JK (−1), K (0) or 1–12.' });
+    if (req.role === 'teacher' && !(await db.isTeacherOf(pool, req.uid, id)))
+      return res.status(403).json({ error: 'That student is not in your roster.' });
+    if (!(await db.setGrade(pool, id, grade))) return res.status(404).json({ error: 'Student not found' });
+    res.json({ ok: true, grade });
+  }
+  app.put('/api/admin/users/:id/grade', auth, adminOnly, setGradeHandler);
+  app.put('/api/students/:id/grade', auth, teacherOnly, setGradeHandler);
 
   app.delete('/api/admin/users/:id', auth, adminOnly, async (req, res) => {
     const id = req.params.id | 0;

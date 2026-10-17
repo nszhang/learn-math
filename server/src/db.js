@@ -19,11 +19,11 @@ export async function initSchema(pool) {
 }
 
 // ---------- users ----------
-export async function createUser(pool, { username, displayName, passHash, role, email = null }) {
+export async function createUser(pool, { username, displayName, passHash, role, email = null, grade = null }) {
   const { rows } = await pool.query(
-    `INSERT INTO users (username, display_name, pass_hash, role, email)
-     VALUES ($1, $2, $3, $4, $5) RETURNING id, username, display_name, role, stars, email, created_at`,
-    [username, displayName, passHash, role, email]);
+    `INSERT INTO users (username, display_name, pass_hash, role, email, grade)
+     VALUES ($1, $2, $3, $4, $5, $6) RETURNING id, username, display_name, role, stars, email, grade, created_at`,
+    [username, displayName, passHash, role, email, grade]);
   await pool.query('INSERT INTO stats (user_id) VALUES ($1)', [rows[0].id]);
   return rows[0];
 }
@@ -158,7 +158,7 @@ export async function markHomeworkCompleted(pool, userId, assignmentId) {
 // ---------- teacher views ----------
 // teacherId optional: when given, only students in that teacher's roster.
 export async function getStudentsWithStats(pool, teacherId) {
-  const sql = `SELECT u.id, u.username, u.display_name, u.stars, u.created_at,
+  const sql = `SELECT u.id, u.username, u.display_name, u.stars, u.grade, u.created_at,
             s.answered, s.correct, s.time_sec, s.best_streak, s.homework_done
      FROM users u LEFT JOIN stats s ON s.user_id = u.id
      WHERE u.role = 'student'
@@ -169,7 +169,7 @@ export async function getStudentsWithStats(pool, teacherId) {
   }
   // plain JOIN (no correlated subquery — keeps the in-memory test DB happy)
   const { rows } = await pool.query(
-    `SELECT u.id, u.username, u.display_name, u.stars, u.created_at,
+    `SELECT u.id, u.username, u.display_name, u.stars, u.grade, u.created_at,
             s.answered, s.correct, s.time_sec, s.best_streak, s.homework_done
      FROM teacher_students ts
      JOIN users u ON u.id = ts.student_id
@@ -182,7 +182,7 @@ export async function getStudentsWithStats(pool, teacherId) {
 // ---------- user administration (admin) ----------
 export async function getAllUsers(pool) {
   const { rows } = await pool.query(
-    'SELECT id, username, display_name, role, stars, email, created_at FROM users ORDER BY role, display_name');
+    'SELECT id, username, display_name, role, stars, email, grade, created_at FROM users ORDER BY role, display_name');
   return rows;
 }
 
@@ -221,5 +221,10 @@ export async function isTeacherOf(pool, teacherId, studentId) {
   const { rowCount } = await pool.query(
     'SELECT 1 FROM teacher_students WHERE teacher_id = $1 AND student_id = $2',
     [teacherId, studentId]);
+  return rowCount > 0;
+}
+
+export async function setGrade(pool, userId, grade) {
+  const { rowCount } = await pool.query("UPDATE users SET grade = $2 WHERE id = $1 AND role = 'student'", [userId, grade]);
   return rowCount > 0;
 }

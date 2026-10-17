@@ -80,6 +80,9 @@ CREATE INDEX IF NOT EXISTS idx_teacher_students_student ON teacher_students(stud
 -- Email notifications
 ALTER TABLE users ADD COLUMN IF NOT EXISTS email TEXT;
 
+-- Student grade level (−1 = JK, 0 = K, 1–12), used to suggest and check homework. NULL = not set.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS grade INT;
+
 CREATE TABLE IF NOT EXISTS email_log (
   user_id       INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
   assignment_id TEXT NOT NULL,

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { api, setToken } from './api.js';
-import { SUBJECTS, SKILL_INDEX } from './skills.js';
+import { SUBJECTS, SKILL_INDEX, gradeLabel } from './skills.js';
 import Auth from './components/Auth.jsx';
 import SkillsPage from './components/SkillsPage.jsx';
 import HomeworkPage from './components/HomeworkPage.jsx';
@@ -123,6 +123,7 @@ export default function App() {
         ))}
       </nav>
       <div className="user-chip">
+        {user.role === 'student' && me?.user?.grade != null && <span className="stars-chip" title="Your grade">🎓 {gradeLabel(me.user.grade)}</span>}
         {user.role === 'student' && <span className="stars-chip">⭐ {me?.user?.stars ?? user.stars}</span>}
         <span className="greeting">Hi, {user.displayName}!</span>
         <button className="btn btn-ghost" type="button" title="Change password"
@@ -152,7 +153,7 @@ export default function App() {
       {page === 'learn' && <LearnPage toast={toast} fireConfetti={fireConfetti} />}
       {page === 'dashboard' && <DashboardPage me={me} onStartSkill={startSkill} />}
       {page === 'awards' && <AwardsPage me={me} />}
-      {page === 'students' && <TeacherStudents />}
+      {page === 'students' && <TeacherStudents toast={toast} />}
       {page === 'assign' && <TeacherAssign toast={toast} />}
       {page === 'admin' && isAdmin && <AdminPage toast={toast} />}
     </>)}

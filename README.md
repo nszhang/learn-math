@@ -447,3 +447,11 @@ The skill browser is subject-aware (`SUBJECTS` in `client/src/skills.js`): Math,
 English grades 1–5 are mostly generated from word lists (`catalog/eng/`), with emoji standing in for IXL's pictures.
 
 Questions are built with the helpers in `catalog/quiz.js` (`classify`, `pairs`, `ok`, `passageQs`). The server accepts any `eng*`/`sci*` id of the right shape, and a server test checks that every client skill id is accepted.
+
+## Student grades
+
+Each student can have a grade (`users.grade`: −1 = JK, 0 = K, 1–12; Calculus counts as grade 12). Admins set it on the Admin page (on create or in the accounts table); teachers set it for students in their roster (Students or Assign page) via `PUT /api/students/:id/grade`.
+
+- Students' skill pages open on their grade, mark it "⭐ Your grade", and label higher grades "🚀 Above your grade" — exploring ahead is always allowed.
+- Daily practice is one Math, one English and one Science skill at the student's grade.
+- The Assign page shows the student's grade by default, can suggest their weakest unmastered skills at that grade, flags above-grade skills, and asks the teacher to confirm before assigning them.

@@ -387,3 +387,37 @@ test('every skill in the client catalog is accepted by the server whitelist', as
   const missing = EVERY_SKILL.map(s => s.id).filter(id => !isSkillId(id));
   assert.deepEqual(missing, []);
 });
+
+test('student grade: set on create, by admin, and by roster teacher only', async () => {
+  let r = await api('POST', '/api/admin/users', { token: admin.token, body: { username: 'gr_kid', role: 'student', password: 'pw123', grade: 4 } });
+  assert.equal(r.status, 200);
+  assert.equal(r.data.user.grade, 4, 'grade stored on create');
+  const kidId = r.data.user.id;
+  r = await api('POST', '/api/admin/users', { token: admin.token, body: { username: 'gr_bad', role: 'student', grade: 13 } });
+  assert.equal(r.status, 400, 'grade out of range rejected');
+
+  r = await api('PUT', `/api/admin/users/${kidId}/grade`, { token: admin.token, body: { grade: 5 } });
+  assert.equal(r.status, 200);
+  r = await api('GET', '/api/admin/users', { token: admin.token });
+  assert.equal(r.data.users.find(u => u.id === kidId).grade, 5);
+
+  // teacher can't change a student outside their roster…
+  r = await api('PUT', `/api/students/${kidId}/grade`, { token: teacher.token, body: { grade: 6 } });
+  assert.equal(r.status, 403);
+  // …but can for a rostered student, and the student sees it
+  r = await api('PUT', `/api/students/${student.user.id}/grade`, { token: teacher.token, body: { grade: 7 } });
+  assert.equal(r.status, 200);
+  r = await api('GET', '/api/students', { token: teacher.token });
+  assert.equal(r.data.find(s => s.id === student.user.id).grade, 7);
+  r = await api('GET', '/api/me', { token: student.token });
+  assert.equal(r.data.user.grade, 7);
+  r = await api('GET', '/api/homework', { token: student.token });
+  assert.equal(r.data.grade, 7);
+  r = await api('PUT', `/api/admin/users/${kidId}/grade`, { token: admin.token, body: { grade: 0 } });
+  assert.equal(r.status, 200, 'Kindergarten (0) is a valid grade');
+  // clearing
+  r = await api('PUT', `/api/students/${student.user.id}/grade`, { token: teacher.token, body: { grade: null } });
+  assert.equal(r.status, 200);
+  r = await api('PUT', `/api/students/${student.user.id}/grade`, { token: student.token, body: { grade: 3 } });
+  assert.equal(r.status, 403, 'students cannot set their own grade');
+});

@@ -99,6 +99,12 @@ const PLACEMENT = {
 /* ---------- build a grade tree (shared by every subject) ---------- */
 // A, B … Z, AA, BB … ZZ (IXL-style section letters)
 const GRADE_NAMES = { '-1': 'Junior Kindergarten', 0: 'Kindergarten', 13: 'Calculus' };
+
+// Student grade levels: −1 = JK, 0 = K, 1–12. (Calculus, "grade" 13, is a grade-12 course.)
+export const STUDENT_GRADES = Array.from({ length: 14 }, (_, i) => i - 1);
+export const gradeLabel = n => (n === null || n === undefined ? 'No grade' : n === -1 ? 'JK' : n === 0 ? 'K' : n === 13 ? 'Calculus' : 'Grade ' + n);
+// the grade level a skill's grade counts as when comparing with a student's grade
+export const gradeLevel = n => (n === 13 ? 12 : n);
 const letterFor = i => { const c = String.fromCharCode(65 + (i % 26)); return c.repeat(Math.floor(i / 26) + 1); };
 
 // fill(add) calls add(grade, sectionName, icon, skill) for each skill.

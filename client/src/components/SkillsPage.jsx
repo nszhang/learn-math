@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { homeworkSkillIdsToday, findHomeworkForSkill } from '../homework.js';
 import Medallion from './Medallion.jsx';
+import { gradeLabel, gradeLevel } from '../skills.js';
 import { clickable } from '../a11y.js';
 
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
@@ -8,10 +9,12 @@ const gradeEmoji = n => (n < 0 ? '🧸' : n === 0 ? '🎒' : n === 13 ? '∫' : 
 
 export default function SkillsPage({ subject, me, homework, onStartSkill, onStartHomework, toast }) {
   const GRADES = subject.grades;
+  const myGrade = me?.user?.grade ?? null;
   const gradeKey = subject.id === 'math' ? 'mm_grade' : 'mm_grade_' + subject.id; // math keeps its original key
   const [gradeNum, setGradeNum] = useState(() => {
     const raw = localStorage.getItem(gradeKey), saved = raw === null ? NaN : Number(raw);   // grade 0 (Kindergarten) is valid, so don't treat "missing" as 0
-    return GRADES.some(g => g.num === saved) ? saved : null;
+    if (GRADES.some(g => g.num === saved)) return saved;
+    return GRADES.some(g => g.num === myGrade) ? myGrade : null;   // else open on the student's own grade
   });
   const [openSections, setOpenSections] = useState(() => new Set());
   const hwSkills = homeworkSkillIdsToday(homework);
@@ -41,7 +44,9 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
       <main className="page">
         <div className="page-head">
           <h2>{subject.emoji} {subject.name} skills by grade</h2>
-          <p className="muted">{subject.blurb} Pick your grade and start building skills! Earn 🥉 70 · 🥈 90 · 🥇 100 on every skill.</p>
+          <p className="muted">{subject.blurb} {myGrade !== null
+            ? <>You're in <strong>{gradeLabel(myGrade)}</strong> — start there, or explore any grade you like!</>
+            : 'Pick your grade and start building skills!'} Earn 🥉 70 · 🥈 90 · 🥇 100 on every skill.</p>
         </div>
         <div className="grade-grid">
           {GRADES.map(g => {
@@ -50,11 +55,13 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
             const mastered = skills.filter(s => scoreOf(s.id) >= 100).length;
             const sample = skills.slice(0, 3).map(s => s.title).join(' | ');
             return (
-              <div className="grade-card" key={g.id} {...clickable(() => pickGrade(g.num))}>
+              <div className={'grade-card' + (g.num === myGrade ? ' my-grade' : '')} key={g.id} {...clickable(() => pickGrade(g.num))}>
                 <div className="grade-card-top">
                   <span className="grade-num">{gradeEmoji(g.num)} {g.name}</span>
                   <span className="grade-count">{skills.length} skills</span>
                 </div>
+                {g.num === myGrade && <span className="grade-tag mine">⭐ Your grade</span>}
+                {myGrade !== null && gradeLevel(g.num) > myGrade && <span className="grade-tag above">🚀 Above your grade</span>}
                 <p className="grade-includes muted">Includes: {sample}…</p>
                 <div className="topic-progress">
                   <div className="topic-progress-fill" style={{ width: avg + '%' }} />
@@ -84,6 +91,9 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
             click a section to explore</p>
         </div>
       </div>
+      {myGrade !== null && gradeLevel(grade.num) > myGrade && (
+        <div className="grade-note">🚀 This is above your grade ({gradeLabel(myGrade)}) — exploring ahead is great! Homework will usually come from your own grade.</div>
+      )}
 
       {grade.sections.map((section, idx) => {
         const sid = grade.id + section.letter;

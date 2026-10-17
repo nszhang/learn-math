@@ -1,5 +1,6 @@
 import { SUBJECTS } from '../skills.js';
 import Medallion from './Medallion.jsx';
+import Fold from './Fold.jsx';
 import { clickable } from '../a11y.js';
 
 export default function DashboardPage({ me, onStartSkill }) {
@@ -44,10 +45,9 @@ export default function DashboardPage({ me, onStartSkill }) {
         const skills = grade.sections.flatMap(sec => sec.skills.map(s => ({ s, sec })));
         const started = skills.filter(({ s }) => scoreOf(s.id) > 0).length;
         return (
-          <details className="fold" key={sub.id + grade.id} open={started > 0}>
-            <summary className="section-title" style={{ display: 'list-item' }}>
-              {sub.emoji} {sub.name} — {grade.name} <span className="muted" style={{ fontWeight: 400 }}>({started}/{skills.length} started)</span>
-            </summary>
+          <Fold key={sub.id + grade.id} open={started > 0 || grade.num === user.grade} summary={<span className="section-title">
+              {sub.emoji} {sub.name} — {grade.name}{grade.num === user.grade ? ' ⭐' : ''} <span className="muted" style={{ fontWeight: 400 }}>({started}/{skills.length} started)</span>
+            </span>}>
             {skills.map(({ s, sec }) => (
               <div className="dash-row" key={s.id} {...clickable(() => onStartSkill(s.id))}>
                 <span className="skill-code">{s.code}</span>
@@ -57,7 +57,7 @@ export default function DashboardPage({ me, onStartSkill }) {
                 <Medallion score={scoreOf(s.id)} />
               </div>
             ))}
-          </details>
+          </Fold>
         );
       })}
     </main>
