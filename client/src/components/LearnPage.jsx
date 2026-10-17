@@ -12,6 +12,7 @@ import IntegerHopper from './learn/IntegerHopper.jsx';
 import FactoringLab from './learn/FactoringLab.jsx';
 import CalculusLab from './learn/CalculusLab.jsx';
 import ComplexLab from './learn/ComplexLab.jsx';
+import BedmasLab from './learn/BedmasLab.jsx';
 import { clickable } from '../a11y.js';
 
 const GROUPS = [
@@ -19,6 +20,7 @@ const GROUPS = [
     name: '🔢 Numbers & operations', lessons: [
       { id: 'fractions', emoji: '🍕', title: 'Fraction lab', desc: 'Compare, simplify & add fractions with live bars' },
       { id: 'integers', emoji: '🦘', title: 'Integer hopper', desc: 'Hop along the number line to add & subtract' },
+      { id: 'bedmas', emoji: '🧮', title: 'BEDMAS: order of operations', desc: 'Watch expressions simplify step by step — then pick the next step yourself' },
       { id: 'linear', emoji: '🧮', title: 'Linear equations', desc: 'Animated balance-scale solver, step by step' }
     ]
   },
@@ -81,6 +83,7 @@ export default function LearnPage({ toast, fireConfetti }) {
         {open === 'factoring' && <FactoringLab />}
         {open === 'ftc' && <CalculusLab />}
         {open === 'complex' && <ComplexLab />}
+        {open === 'bedmas' && <BedmasLab {...props} />}
       </main>
     );
   }
