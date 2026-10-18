@@ -17,6 +17,8 @@
   --card: #ffffff;
   --radius: 14px;
   --shadow: 0 4px 16px rgba(15, 23, 42, .08);
+  /* Mandarin tone colours (1–4, neutral) */
+  --tone1: #dc2626; --tone2: #ea580c; --tone3: #16a34a; --tone4: #2563eb; --tone5: #94a3b8;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -790,3 +792,45 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .zh-choices .choice-btn { font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 1.25rem; }
 .zh-passage .zh { font-size: 1.35em; line-height: 1.9; }
 .speak-btn { margin: -6px 0 14px; }
+
+/* listening questions */
+.listen-bar { display: flex; gap: 10px; flex-wrap: wrap; margin: 4px 0 18px; }
+.listen-btn { font-size: 1.15rem; padding: 12px 22px; }
+
+/* HSK level panel */
+.hsk-panel { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; background: var(--card); border: 2px solid var(--primary-light); border-radius: var(--radius); padding: 14px 18px; margin-bottom: 18px; box-shadow: var(--shadow); }
+.hsk-panel-main { flex: 1 1 320px; }
+.hsk-panel-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.hsk-badge { display: inline-block; background: var(--tone1); color: #fff; font-weight: 800; border-radius: 8px; padding: 2px 10px; margin-right: 4px; }
+
+/* Mandarin tones lesson */
+.tone-lab p { margin-bottom: 12px; }
+.tone-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.tone-grid-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 12px 0 16px; }
+.tone-card { background: var(--card); border: 2px solid var(--line); border-radius: var(--radius); padding: 12px; text-align: center; cursor: pointer; font: inherit; color: inherit; transition: transform .1s, border-color .1s; }
+.tone-card:hover:not(:disabled), .tone-card:focus-visible { transform: translateY(-2px); border-color: var(--primary); }
+.tone-card.tone-c1 { border-top: 6px solid var(--tone1); } .tone-card.tone-c2 { border-top: 6px solid var(--tone2); }
+.tone-card.tone-c3 { border-top: 6px solid var(--tone3); } .tone-card.tone-c4 { border-top: 6px solid var(--tone4); }
+.tone-card.right { background: var(--green-light); border-color: var(--green); }
+.tone-card.wrong { background: var(--red-light); border-color: var(--red); }
+.tone-card-head { display: flex; justify-content: space-between; gap: 6px; font-size: .9rem; }
+.tone-card .small, .tone-lab .small { font-size: .82rem; margin: 6px 0 0; }
+.tone-char { margin: 4px 0; }
+.tone-svg { width: 100%; max-width: 240px; height: auto; display: block; margin: 6px auto; background: #f8fafc; border-radius: 8px; }
+.tone-grid { stroke: #e2e8f0; stroke-width: 1; }
+.tone-path { fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 100; stroke-dashoffset: 0; }
+.tone-path.tracing { animation: tone-trace .75s ease-in-out both; }
+@keyframes tone-trace { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+.tone-user { fill: none; stroke: var(--ink); stroke-width: 2.5; stroke-linejoin: round; opacity: .85; }
+.tone-pairs { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.tone-pair { display: flex; flex-direction: column; align-items: center; gap: 2px; background: var(--card); border: 2px solid var(--line); border-radius: var(--radius); padding: 10px; cursor: pointer; font: inherit; color: inherit; }
+.tone-pair:hover, .tone-pair:focus-visible { border-color: var(--primary); }
+.tone-pair .zh { font-size: 1.4em; }
+.sandhi { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 16px; margin-bottom: 12px; }
+.sandhi h4 { margin-bottom: 4px; }
+.sandhi .zh { font-size: 1.2em; }
+.tone-good { color: var(--green); font-weight: 700; }
+.tone-try { color: #92400e; font-weight: 600; }
+.say-it { max-width: 420px; }
+.say-it .tone-svg { max-width: 420px; }
+@media (prefers-reduced-motion: reduce) { .tone-path.tracing { animation: none; } }

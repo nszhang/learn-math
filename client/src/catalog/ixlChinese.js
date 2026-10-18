@@ -1,31 +1,36 @@
 /* ============================================================
    MathAce — Chinese catalog (Mandarin, Simplified characters + pinyin),
-   taught as a second language from Grade 1. Category → Section → Skill,
-   like English. Specs { k, t, s, g, gen } from zh/skills.js expand into one
-   skill per grade with id "chi" + k + grade.
+   organised by HSK level 1–6 instead of school grade. Category → Section → Skill.
+   Specs { k, t, s, g, gen } from zh/skills.js expand into one skill per HSK level
+   with id "chiH" + level + k. A skill's `grade` holds its HSK level.
    ============================================================ */
 import { CHINESE_SPECS } from './zh/skills.js';
 
+export const HSK_LEVELS = [1, 2, 3, 4, 5, 6];
+export const hskLabel = n => 'HSK ' + n;
+
 const SECTIONS = [
-  ['Pinyin and Tones', 'Tones', '🎵'],
-  ['Characters', 'Radicals', '🧩'], ['Characters', 'Character meanings', '🀄'],
-  ['Vocabulary', 'Greetings', '👋'], ['Vocabulary', 'Family', '👪'], ['Vocabulary', 'Colours', '🎨'], ['Vocabulary', 'Body', '🙂'],
-  ['Vocabulary', 'Numbers', '🔢'], ['Vocabulary', 'Animals', '🐼'], ['Vocabulary', 'Food and drink', '🥟'], ['Vocabulary', 'School', '🏫'],
-  ['Vocabulary', 'Action words', '🏃'], ['Vocabulary', 'Time and dates', '🗓️'], ['Vocabulary', 'Weather and seasons', '⛅'],
-  ['Vocabulary', 'Places', '🏙️'], ['Vocabulary', 'Hobbies', '⚽'], ['Vocabulary', 'Feelings', '😊'], ['Vocabulary', 'Clothing and shopping', '🛍️'],
-  ['Vocabulary', 'Transportation', '🚲'], ['Vocabulary', 'Everyday words', '👋'], ['Vocabulary', 'Food, animals and school', '🥟'],
-  ['Vocabulary', 'Daily life', '🏃'], ['Vocabulary', 'Around town', '🏙️'], ['Vocabulary', 'Shopping and travel', '🛍️'], ['Vocabulary', 'Opposites', '↔️'], ['Vocabulary', 'Idioms (chengyu)', '📜'],
-  ['Grammar', 'Measure words', '📏'], ['Grammar', 'Sentence building', '🧱'], ['Grammar', 'Question words', '❓'], ['Grammar', 'Particles', '💬'],
-  ['Grammar', 'Comparisons', '⚖️'],
+  ['Pronunciation', 'Tones', '🎵'],
+  ['HSK words', /^Words /, '🀄'], ['HSK words', 'Picture words', '🖼️'],
+  ['Listening', 'Listening', '🎧'],
+  ['Numbers and time', 'Numbers', '🔢'], ['Numbers and time', 'Time and dates', '🗓️'],
+  ['Grammar', 'Grammar patterns', '🧱'], ['Grammar', 'Sentence building', '🧩'], ['Grammar', 'Measure words', '📏'], ['Grammar', 'Question words', '❓'],
+  ['Grammar', 'Particles', '💬'], ['Grammar', 'Comparisons', '⚖️'], ['Grammar', 'Opposites', '↔️'],
+  ['Characters', 'Radicals', '🔍'], ['Characters', 'Idioms (chengyu)', '📜'],
   ['Reading', 'Reading comprehension', '📖'],
   ['Culture', 'Festivals and culture', '🏮']
 ];
-const INFO = new Map(SECTIONS.map(([cat, name, icon], i) => [name, { cat, icon, order: i }]));
+const infoFor = name => {
+  const i = SECTIONS.findIndex(([, n]) => (n instanceof RegExp ? n.test(name) : n === name));
+  if (i < 0) throw new Error(`Unknown Chinese section "${name}"`);
+  return { cat: SECTIONS[i][0], icon: SECTIONS[i][2], order: i };
+};
 
 const all = CHINESE_SPECS.flatMap(spec => {
-  const info = INFO.get(spec.s);
-  if (!info) throw new Error(`Unknown Chinese section "${spec.s}" for ${spec.k}`);
-  return spec.g.map(grade => ({ id: 'chi' + spec.k + grade, title: spec.t, grade, section: spec.s, icon: info.icon, category: info.cat, _order: info.order, gen: spec.gen }));
+  const info = infoFor(spec.s);
+  // tone and tone-listening skills link to the Mandarin tones lesson ("🎓 Learn it")
+  const learn = spec.s === 'Tones' || spec.k === 'LsPy' ? { learn: 'tones' } : {};
+  return spec.g.map(level => ({ id: `chiH${level}${spec.k}`, title: spec.t, grade: level, section: spec.s, icon: info.icon, category: info.cat, _order: info.order, gen: spec.gen, ...learn }));
 });
 const seen = new Set();
 for (const sk of all) { if (seen.has(sk.id)) throw new Error(`Duplicate Chinese skill id ${sk.id}`); seen.add(sk.id); }

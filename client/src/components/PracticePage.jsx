@@ -3,21 +3,10 @@ import { api } from '../api.js';
 import { SKILL_INDEX, PRAISE, PRAISE_CHALLENGE, ENCOURAGE, MASTERY_MSGS, pick, fmtNum } from '../skills.js';
 import { niceDate } from '../homework.js';
 import { createDeduper } from '../questionPool.js';
+import { canSpeak, speakChinese } from '../speech.js';
 
 let audioCtx = null;
 
-// Read Chinese aloud with the browser's built-in speech (Mandarin voice when available).
-const canSpeak = typeof window !== 'undefined' && 'speechSynthesis' in window;
-function speakChinese(text) {
-  try {
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'zh-CN'; u.rate = 0.8;
-    const voice = window.speechSynthesis.getVoices().find(v => /^zh(-|_)?(CN|Hans)?/i.test(v.lang));
-    if (voice) u.voice = voice;
-    window.speechSynthesis.speak(u);
-  } catch { /* speech not available */ }
-}
 function beep(freq, dur) {
   try {
     audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
@@ -88,6 +77,11 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
   useEffect(() => {
     // number questions: focus the box; choice questions: focus the first choice
     (inputRef.current || choicesRef.current?.querySelector('button'))?.focus();
+    // listening questions play on their own
+    if (question.listen && canSpeak) {
+      const t = setTimeout(() => speakChinese(question.say), 300);
+      return () => clearTimeout(t);
+    }
   }, [question]);
 
   // Enter anywhere on the page = Submit, or Next once answered. Latest handler
@@ -227,7 +221,14 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
       <div className="practice-layout">
         <section className="question-panel">
           <div className="question-prompt" dangerouslySetInnerHTML={{ __html: question.prompt }} />
-          {question.say && canSpeak && (
+          {question.listen ? (
+            canSpeak ? (
+              <div className="listen-bar">
+                <button type="button" className="btn btn-primary listen-btn" onClick={() => speakChinese(question.say)} title="Play again">🔊 Play again</button>
+                <button type="button" className="btn btn-ghost" onClick={() => speakChinese(question.say, { rate: 0.5 })} title="Play slowly">🐢 Slowly</button>
+              </div>
+            ) : <p className="warn-box">🔇 This browser can't play speech, so here is the text: <span className="zh">{question.say}</span></p>
+          ) : question.say && canSpeak && (
             <button type="button" className="btn btn-ghost speak-btn" onClick={() => speakChinese(question.say)} title="Listen">🔊 Listen</button>
           )}
 
@@ -264,6 +265,9 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
                 <p className="explain"><strong>Why?</strong>{' '}
                   <span dangerouslySetInnerHTML={{ __html: question.explain }} /></p>
               </>)}
+              {feedback.correct && question.listen && (
+                <p className="explain"><span dangerouslySetInnerHTML={{ __html: question.explain }} />{' '}
+                  {canSpeak && <button type="button" className="btn btn-ghost speak-btn" onClick={() => speakChinese(question.say)}>🔊 Hear it again</button>}</p>)}
               {feedback.correct && score >= 100 && !isHw && (
                 <p className="explain">🥇 <strong>SmartScore 100 — mastery achieved!</strong> Keep practicing to stay sharp, or try another skill!</p>)}
             </div>

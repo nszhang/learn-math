@@ -150,7 +150,9 @@ export default function App() {
       )}
       {SUBJECTS.map(subj => page === (subj.id === 'math' ? 'home' : subj.id) && (
         <SkillsPage key={subj.id} subject={subj} me={me} homework={homework}
-          onStartSkill={startSkill} onStartHomework={startHomework} toast={toast} />))}
+          onStartSkill={startSkill} onStartHomework={startHomework} toast={toast}
+          onLevelChanged={() => { refreshMe(); refreshHomework(); }}
+          onLearn={lesson => { setLearnOpen(lesson); setPage('learn'); }} />))}
       {page === 'homework' && <HomeworkPage homework={homework} onStart={startHomework} />}
       {page === 'learn' && <LearnPage key={learnOpen || 'learn'} toast={toast} fireConfetti={fireConfetti} initialOpen={learnOpen}
         myGrade={me?.user?.grade ?? null} onPractice={user.role === 'student' ? startSkill : null} />}

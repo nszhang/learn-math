@@ -1,15 +1,20 @@
 import { useState } from 'react';
 import { homeworkSkillIdsToday, findHomeworkForSkill } from '../homework.js';
 import Medallion from './Medallion.jsx';
-import { gradeLabel, gradeLevel } from '../skills.js';
+import { HSK_LEVELS, hskLabel, isHsk, studentLevelFor, levelLabelFor, isAboveLevel, hskReadiness } from '../skills.js';
+import { api } from '../api.js';
 import { clickable } from '../a11y.js';
 
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
 const gradeEmoji = n => (n < 0 ? '🧸' : n === 0 ? '🎒' : n === 13 ? '∫' : GRADE_EMOJI[n - 1]);
 
-export default function SkillsPage({ subject, me, homework, onStartSkill, onStartHomework, toast }) {
+export default function SkillsPage({ subject, me, homework, onStartSkill, onStartHomework, toast, onLevelChanged, onLearn }) {
   const GRADES = subject.grades;
-  const myGrade = me?.user?.grade ?? null;
+  const hsk = isHsk(subject);
+  const isStudent = me?.user?.role === 'student';
+  // the student's level here: school grade, or for Chinese their own HSK level
+  const myGrade = studentLevelFor(subject, me?.user);
+  const unit = hsk ? 'HSK level' : 'grade';
   const gradeKey = subject.id === 'math' ? 'mm_grade' : 'mm_grade_' + subject.id; // math keeps its original key
   const [gradeNum, setGradeNum] = useState(() => {
     const raw = localStorage.getItem(gradeKey), saved = raw === null ? NaN : Number(raw);   // grade 0 (Kindergarten) is valid, so don't treat "missing" as 0
@@ -38,16 +43,57 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
     }
   }
 
+  async function setHskLevel(level) {
+    try {
+      await api('PUT', '/api/me/hsk-level', { level });
+      toast('🀄', `You're now studying ${hskLabel(level)} — 加油 (jiā yóu)!`);
+      onLevelChanged?.();
+    } catch (e) { toast('⚠️', e.message); }
+  }
+
+  // Chinese: the student's own HSK level and how close they are to the next one
+  const hskPanel = hsk && myGrade !== null && (() => {
+    const r = hskReadiness(myGrade, scoreOf), next = myGrade + 1;
+    return (
+      <div className="hsk-panel">
+        <div className="hsk-panel-main">
+          <div><span className="hsk-badge">{hskLabel(myGrade)}</span> <strong>your Chinese level</strong>
+            <span className="muted"> — separate from your school grade, so you can go at your own pace.</span></div>
+          <div className="topic-progress" style={{ margin: '8px 0 4px' }}>
+            <div className="topic-progress-fill" style={{ width: Math.round(100 * r.passed / (r.total || 1)) + '%' }} />
+          </div>
+          <div className="muted">{r.passed} of {r.total} skills at 🥉 70 or better.{' '}
+            {myGrade < 6 && (r.ready ? <strong>You're ready for {hskLabel(next)}! 🎉</strong> : `Reach ${Math.ceil(r.total * 0.7)} and we'll suggest ${hskLabel(next)} — or move up whenever you feel ready.`)}</div>
+        </div>
+        <div className="hsk-panel-actions">
+          {onLearn && <button type="button" className="btn btn-ghost" onClick={() => onLearn('tones')}>🎵 Learn the tones</button>}
+          {isStudent && myGrade < 6 && (
+            <button type="button" className={'btn ' + (r.ready ? 'btn-primary' : 'btn-ghost')}
+              onClick={() => (r.ready || window.confirm(`You've passed ${r.passed} of ${r.total} ${hskLabel(myGrade)} skills. Move up to ${hskLabel(next)} anyway? You can always come back.`)) && setHskLevel(next)}>
+              ⬆️ Move up to {hskLabel(next)}
+            </button>
+          )}
+          {isStudent && (
+            <select className="grade-select" aria-label="Choose your HSK level" value={myGrade} onChange={e => setHskLevel(Number(e.target.value))}>
+              {HSK_LEVELS.map(l => <option key={l} value={l}>{hskLabel(l)}</option>)}
+            </select>
+          )}
+        </div>
+      </div>
+    );
+  })();
+
   // ---------- grade grid (IXL math home) ----------
   if (gradeNum === null) {
     return (
       <main className="page">
         <div className="page-head">
-          <h2>{subject.emoji} {subject.name} skills by grade</h2>
-          <p className="muted">{subject.blurb} {myGrade !== null
-            ? <>You're in <strong>{gradeLabel(myGrade)}</strong> — start there, or explore any grade you like!</>
+          <h2>{subject.emoji} {subject.name} skills by {hsk ? 'HSK level' : 'grade'}</h2>
+          <p className="muted">{subject.blurb} {hsk ? '' : myGrade !== null
+            ? <>You're in <strong>{levelLabelFor(subject, myGrade)}</strong> — start there, or explore any grade you like!</>
             : 'Pick your grade and start building skills!'} Earn 🥉 70 · 🥈 90 · 🥇 100 on every skill.</p>
         </div>
+        {hskPanel}
         <div className="grade-grid">
           {GRADES.map(g => {
             const skills = g.sections.flatMap(s => s.skills);
@@ -60,8 +106,8 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
                   <span className="grade-num">{gradeEmoji(g.num)} {g.name}</span>
                   <span className="grade-count">{skills.length} skills</span>
                 </div>
-                {g.num === myGrade && <span className="grade-tag mine">⭐ Your grade</span>}
-                {myGrade !== null && gradeLevel(g.num) > myGrade && <span className="grade-tag above">🚀 Above your grade</span>}
+                {g.num === myGrade && <span className="grade-tag mine">⭐ Your {unit}</span>}
+                {isAboveLevel(subject, g.num, me?.user) && <span className="grade-tag above">🚀 Above your {unit}</span>}
                 <p className="grade-includes muted">Includes: {sample}…</p>
                 <div className="topic-progress">
                   <div className="topic-progress-fill" style={{ width: avg + '%' }} />
@@ -83,7 +129,7 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
     <main className="page">
       <div className="page-head grade-head">
         <button className="btn btn-ghost" type="button" onClick={() => { setGradeNum(null); localStorage.removeItem(gradeKey); }}>
-          ← All grades
+          ← All {hsk ? 'levels' : 'grades'}
         </button>
         <div>
           <h2>{gradeEmoji(grade.num)} {grade.name} {subject.name.toLowerCase()}</h2>
@@ -91,9 +137,12 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
             click a section to explore</p>
         </div>
       </div>
-      {myGrade !== null && gradeLevel(grade.num) > myGrade && (
-        <div className="grade-note">🚀 This is above your grade ({gradeLabel(myGrade)}) — exploring ahead is great! Homework will usually come from your own grade.</div>
+      {isAboveLevel(subject, grade.num, me?.user) && (
+        <div className="grade-note">{hsk
+          ? <>🚀 This is above your level ({hskLabel(myGrade)}) — exploring ahead is great!{isStudent && <> Feeling ready? <button type="button" className="btn btn-ghost" onClick={() => setHskLevel(grade.num)}>Make {hskLabel(grade.num)} my level</button></>}</>
+          : <>🚀 This is above your grade ({levelLabelFor(subject, myGrade)}) — exploring ahead is great! Homework will usually come from your own grade.</>}</div>
       )}
+      {hsk && grade.num === myGrade && hskPanel}
 
       {grade.sections.map((section, idx) => {
         const sid = grade.id + section.letter;

@@ -1,8 +1,9 @@
 // Avoid repeating questions within an assignment (or one practice session).
-// A question's identity is its prompt + answer; choice order does not matter.
+// A question's identity is its prompt + answer (+ spoken text); choice order does not matter.
 
 const hash = s => { let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0; return (h >>> 0).toString(36); };
-export const questionSig = q => hash(String(q.prompt) + '|' + String(q.answer));
+// listening questions share one prompt, so what is spoken is part of their identity
+export const questionSig = q => hash(String(q.prompt) + '|' + String(q.answer) + (q.say ? '|' + q.say : ''));
 
 const MAX_PER_SKILL = 300;
 const load = key => { try { return JSON.parse(localStorage.getItem(key) || '{}'); } catch { return {}; } };

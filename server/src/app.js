@@ -70,7 +70,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     id: u.id, username: u.username, displayName: u.display_name,
     role: u.role, stars: u.stars, createdAt: u.created_at,
     email: u.email || null,
-    grade: u.grade ?? null
+    grade: u.grade ?? null,
+    hskLevel: u.hsk_level ?? 1
   });
 
   // ---------- auth middleware ----------
@@ -297,9 +298,10 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       db.getCompletedHomework(pool, req.uid)
     ]);
     const completedSet = new Set(completed.map(c => c.assignment_id));
-    const me = await pool.query('SELECT grade FROM users WHERE id = $1', [req.uid]).then(r => r.rows[0]);
+    const me = await pool.query('SELECT grade, hsk_level FROM users WHERE id = $1', [req.uid]).then(r => r.rows[0]);
     res.json({
       grade: me?.grade ?? null,
+      hskLevel: me?.hsk_level ?? 1,
       assignments: assignments.map(a => ({
         id: a.id, due: a.due, items: a.items, teacherName: a.teacher_name,
         progress: itemProgress(a.items, progress.filter(r => r.assignment_id === a.id)),
@@ -326,7 +328,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       ]);
       const completedSet = new Set(completed.map(c => c.assignment_id));
       result.push({
-        id: s.id, username: s.username, displayName: s.display_name, stars: s.stars, grade: s.grade ?? null,
+        id: s.id, username: s.username, displayName: s.display_name, stars: s.stars, grade: s.grade ?? null, hskLevel: s.hsk_level ?? 1,
         stats: {
           answered: s.answered || 0, correct: s.correct || 0, time_sec: s.time_sec || 0,
           best_streak: s.best_streak || 0, homework_done: s.homework_done || 0
@@ -470,6 +472,22 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   }
   app.put('/api/admin/users/:id/grade', auth, adminOnly, setGradeHandler);
   app.put('/api/students/:id/grade', auth, teacherOnly, setGradeHandler);
+
+  // Chinese HSK level (1–6) — independent of school grade. A student can change their own
+  // level (advance at their own pace); teachers for their roster; admins for anyone.
+  const parseHsk = v => { const n = Number(v); return Number.isInteger(n) && n >= 1 && n <= 6 ? n : undefined; };
+  async function setHskHandler(req, res) {
+    const id = req.params.id === undefined ? req.uid : req.params.id | 0;
+    const level = parseHsk(req.body?.level);
+    if (level === undefined) return res.status(400).json({ error: 'HSK level must be 1–6.' });
+    if (req.role === 'teacher' && !(await db.isTeacherOf(pool, req.uid, id)))
+      return res.status(403).json({ error: 'That student is not in your roster.' });
+    if (!(await db.setHskLevel(pool, id, level))) return res.status(404).json({ error: 'Student not found' });
+    res.json({ ok: true, hskLevel: level });
+  }
+  app.put('/api/me/hsk-level', auth, (req, res, next) => (req.role === 'student' ? next() : res.status(403).json({ error: 'Students only' })), setHskHandler);
+  app.put('/api/students/:id/hsk-level', auth, teacherOnly, setHskHandler);
+  app.put('/api/admin/users/:id/hsk-level', auth, adminOnly, setHskHandler);
 
   app.delete('/api/admin/users/:id', auth, adminOnly, async (req, res) => {
     const id = req.params.id | 0;

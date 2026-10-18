@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { api } from '../api.js';
-import { SUBJECTS, STUDENT_GRADES, gradeLabel, gradeLevel } from '../skills.js';
+import { SUBJECTS, STUDENT_GRADES, HSK_LEVELS, gradeLabel, hskLabel, studentLevelFor, hskReadiness } from '../skills.js';
 import { niceDate, skillName } from '../homework.js';
 import { clickable } from '../a11y.js';
 
-function StudentCard({ s, onGrade }) {
+function StudentCard({ s, onGrade, onHsk }) {
   const [open, setOpen] = useState(false);
   const pct = s.stats.answered ? Math.round(100 * s.stats.correct / s.stats.answered) : 0;
   const mastered = s.skillProgress.filter(p => p.score >= 100).length;
@@ -16,6 +16,7 @@ function StudentCard({ s, onGrade }) {
       <div className="student-head" {...clickable(() => setOpen(!open))}>
         <strong>{s.displayName}</strong> <span className="muted">@{s.username}</span>
         <span className={'grade-tag ' + (s.grade === null ? 'above' : 'mine')} style={{ margin: '0 6px' }}>{s.grade === null ? '⚠️ no grade' : gradeLabel(s.grade)}</span>
+        <span className="grade-tag mine" style={{ marginRight: 6 }} title="Chinese HSK level">🀄 {hskLabel(s.hskLevel ?? 1)}</span>
         <span className="student-stats">
           📊 {total} &nbsp;•&nbsp; 🥇 {mastered} mastered &nbsp;•&nbsp; 🎯 {pct}% &nbsp;•&nbsp;
           ⏱️ {Math.floor(s.stats.time_sec / 60)}m &nbsp;•&nbsp; 📝 {s.stats.homework_done} homeworks &nbsp;•&nbsp; ⭐ {s.stars}
@@ -30,10 +31,16 @@ function StudentCard({ s, onGrade }) {
               {STUDENT_GRADES.map(g => <option key={g} value={g}>{gradeLabel(g)}</option>)}
             </select>
           </label>
-          {s.grade === null
-            ? <p className="muted">Set a grade to see progress at the student's level.</p>
-            : SUBJECTS.map(sub => {
-              const g = sub.grades.find(x => gradeLevel(x.num) === s.grade && x.num !== 13);
+          <label className="muted" style={{ display: 'block', marginBottom: 10 }}>Chinese level (independent of grade — students can also move themselves up):{' '}
+            <select className="grade-select" value={s.hskLevel ?? 1} onChange={e => onHsk(s, e.target.value)}>
+              {HSK_LEVELS.map(l => <option key={l} value={l}>{hskLabel(l)}</option>)}
+            </select>
+            {hskReadiness(s.hskLevel ?? 1, scoreOf).ready && (s.hskLevel ?? 1) < 6 && <span className="grade-tag mine" style={{ marginLeft: 8 }}>✅ ready for {hskLabel((s.hskLevel ?? 1) + 1)}</span>}
+          </label>
+          {s.grade === null && <p className="muted">Set a grade to see Math, English and Science progress at the student's level.</p>}
+          {SUBJECTS.map(sub => {
+              const level = studentLevelFor(sub, s);
+              const g = level === null ? null : sub.grades.find(x => x.num === level);
               if (!g) return null;
               const skills = g.sections.flatMap(sec => sec.skills);
               const avg = Math.round(skills.reduce((sum, sk) => sum + scoreOf(sk.id), 0) / skills.length);
@@ -76,6 +83,13 @@ export default function TeacherStudents({ toast }) {
       load();
     } catch (e) { toast?.('⚠️', e.message); }
   }
+  async function setHsk(s, value) {
+    try {
+      await api('PUT', `/api/students/${s.id}/hsk-level`, { level: Number(value) });
+      toast?.('🀄', `${s.displayName} is now studying ${hskLabel(Number(value))}`);
+      load();
+    } catch (e) { toast?.('⚠️', e.message); }
+  }
 
   return (
     <main className="page">
@@ -87,7 +101,7 @@ export default function TeacherStudents({ toast }) {
         ? <p className="muted">Loading…</p>
         : students.length === 0
           ? <p className="muted">No students in your roster yet. Ask an admin to add students to your roster.</p>
-          : students.map(s => <StudentCard key={s.id} s={s} onGrade={setGrade} />)}
+          : students.map(s => <StudentCard key={s.id} s={s} onGrade={setGrade} onHsk={setHsk} />)}
     </main>
   );
 }

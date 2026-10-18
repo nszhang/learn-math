@@ -1,5 +1,5 @@
 // Date + homework helpers (client side).
-import { ALL_SKILLS, SKILL_INDEX, SUBJECTS, gradeLevel } from './skills.js';
+import { ALL_SKILLS, SKILL_INDEX, SUBJECTS, isHsk, isAboveLevel } from './skills.js';
 import { distinctQuestions } from './questionPool.js';
 
 export function localDateStr(d = new Date()) {
@@ -12,22 +12,23 @@ export function niceDate(str) {
     .toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
-// Skills at a student's grade, per subject ([] when that subject has no such grade).
-export function skillsAtGrade(grade) {
-  return SUBJECTS.map(sub => ({
-    subject: sub,
-    skills: (sub.grades.find(g => g.num === grade)?.sections || []).flatMap(s => s.skills)
-  }));
+// Skills at a student's level, per subject ([] when that subject has no such level).
+// Chinese uses the student's HSK level (default 1); the others use the school grade.
+export function skillsAtGrade(grade, hskLevel = 1) {
+  return SUBJECTS.map(sub => {
+    const level = isHsk(sub) ? (hskLevel ?? 1) : grade;
+    return { subject: sub, skills: (sub.grades.find(g => g.num === level)?.sections || []).flatMap(s => s.skills) };
+  });
 }
 
 // Deterministic daily set for a calendar date: 3 skills × 5 questions, all from ONE subject.
-// With a grade, the subject rotates day by day (Math → English → Science) among the
-// subjects that have that grade. Without a grade: three math skills from any grade.
-export function dailyAssignment(dateString, grade = null) {
+// With a grade, the subject rotates day by day (Math → English → Science → Chinese) among the
+// subjects that have that grade (Chinese at the student's HSK level). Without a grade: three math skills.
+export function dailyAssignment(dateString, grade = null, hskLevel = 1) {
   let seed = 0;
   for (const c of dateString) seed = (seed * 31 + c.charCodeAt(0)) >>> 0;
   const items = [];
-  const pools = grade !== null && grade !== undefined ? skillsAtGrade(grade).filter(p => p.skills.length) : [];
+  const pools = grade !== null && grade !== undefined ? skillsAtGrade(grade, hskLevel).filter(p => p.skills.length) : [];
   const [y, m, d] = dateString.split('-').map(Number);
   const dayNum = Math.floor(Date.UTC(y, m - 1, d) / 86400000);
   const chosen = pools.length ? pools[dayNum % pools.length] : { subject: SUBJECTS.find(sb => sb.id === 'math'), skills: ALL_SKILLS };
@@ -43,7 +44,7 @@ export function dailyAssignment(dateString, grade = null) {
 
 // Merge server-provided daily progress into a daily assignment object.
 export function dailyWithProgress(dateString, homeworkData) {
-  const a = dailyAssignment(dateString, homeworkData?.grade ?? null);
+  const a = dailyAssignment(dateString, homeworkData?.grade ?? null, homeworkData?.hskLevel ?? 1);
   const rows = (homeworkData?.dailyProgress || []).filter(r => r.assignment_id === a.id);
   const progress = a.items.map(i => {
     const row = rows.find(r => r.skill_id === i.skillId);
@@ -94,12 +95,13 @@ export function findHomeworkForSkill(skillId, homeworkData) {
 
 // Grade number a skill belongs to (null if unknown).
 export const skillGrade = skillId => SKILL_INDEX[skillId]?.grade.num ?? null;
-// Is this skill above the student's grade? (false when the student has no grade)
-export const isAboveGrade = (skillId, grade) => grade !== null && grade !== undefined && skillGrade(skillId) !== null && gradeLevel(skillGrade(skillId)) > grade;
+// Is this skill above the student's level — their grade, or HSK level for Chinese?
+// u: { grade, hskLevel }. False when the student has no grade (grade subjects).
+export const isAboveGrade = (skillId, u) => { const e = SKILL_INDEX[skillId]; return !!e && isAboveLevel(e.subject, e.grade.num, u); };
 
 export function skillName(skillId) {
   const e = SKILL_INDEX[skillId];
   if (!e) return skillId;
   // math codes are shown bare (A.1); other subjects carry their own prefix (EN-A.1)
-  return `${e.skill.code} (gr. ${e.grade.num})`;
+  return isHsk(e.subject) ? `${e.skill.code} (HSK ${e.grade.num})` : `${e.skill.code} (gr. ${e.grade.num})`;
 }

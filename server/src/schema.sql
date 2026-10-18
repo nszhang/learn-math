@@ -90,3 +90,6 @@ CREATE TABLE IF NOT EXISTS email_log (
   sent_at       TIMESTAMPTZ NOT NULL DEFAULT now(),
   PRIMARY KEY (user_id, assignment_id, kind)
 );
+
+-- Chinese HSK level (1–6), independent of school grade. Students may move themselves up at their own pace.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS hsk_level INT NOT NULL DEFAULT 1;

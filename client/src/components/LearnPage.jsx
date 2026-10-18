@@ -13,6 +13,7 @@ import FactoringLab from './learn/FactoringLab.jsx';
 import CalculusLab from './learn/CalculusLab.jsx';
 import ComplexLab from './learn/ComplexLab.jsx';
 import BedmasLab from './learn/BedmasLab.jsx';
+import ToneLab from './learn/ToneLab.jsx';
 import { clickable } from '../a11y.js';
 
 const GROUPS = [
@@ -49,6 +50,11 @@ const GROUPS = [
     name: '∫ Calculus', lessons: [
       { id: 'ftc', emoji: '∫', title: 'Fundamental Theorem of Calculus', desc: 'Pick a curve; see its tangent, the area under it, and why they undo each other' }
     ]
+  },
+  {
+    name: '🀄 Chinese', lessons: [
+      { id: 'tones', emoji: '🎵', title: 'Mandarin tones', desc: 'Hear and see the four tones, tone pairs and tone changes — then train your ears and say them yourself' }
+    ]
   }
 ];
 
@@ -84,6 +90,7 @@ export default function LearnPage({ toast, fireConfetti, initialOpen = null, myG
         {open === 'ftc' && <CalculusLab />}
         {open === 'complex' && <ComplexLab />}
         {open === 'bedmas' && <BedmasLab {...props} myGrade={myGrade} onPractice={onPractice} />}
+        {open === 'tones' && <ToneLab {...props} onPractice={onPractice} />}
       </main>
     );
   }
@@ -92,7 +99,7 @@ export default function LearnPage({ toast, fireConfetti, initialOpen = null, myG
     <main className="page">
       <div className="page-head">
         <h2>🎓 Learn</h2>
-        <p className="muted">Interactive labs and animated lessons — play with the math until it makes sense.</p>
+        <p className="muted">Interactive labs and animated lessons — play with the ideas (and the sounds) until they make sense.</p>
       </div>
       {GROUPS.map(g => (
         <div key={g.name} style={{ marginBottom: 18 }}>

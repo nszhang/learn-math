@@ -462,10 +462,26 @@ Each student can have a grade (`users.grade`: −1 = JK, 0 = K, 1–12; Calculus
 - **Practice / homework:** Math grades 3–9 each have a "BEDMAS: order of operations" section (`catalog/bedmasSkills.js`, ids `mthB…<grade>`), built on the same engine: evaluate (3–9), which operation comes first (3–9), who is right (4–9), place the brackets (5–9). Difficulty grows by grade: + − × (3), ÷ (4), longer expressions (5), exponents (6), nested brackets (7), negative numbers (8–9).
 - Practice questions have a "🎓 Learn it" button that opens the lesson; the lesson has a "Practise BEDMAS" button for the student's grade.
 
-## Chinese
+## Chinese (HSK 1–6)
 
-Mandarin with Simplified characters and pinyin, taught as a second language from Grade 1 (`catalog/ixlChinese.js`, content in `catalog/zh/`). Same Grade → Category → Section → Skill layout as English; ids `chi<key><grade>`.
+Mandarin with Simplified characters and pinyin, organised by **HSK level 1–6** instead of school grade (`catalog/ixlChinese.js`, content in `catalog/zh/`). Layout is HSK level → Category → Section → Skill; ids are `chiH<level><key>`. A skill's `grade` field holds its HSK level.
 
-- Grades 1–5: tones and pinyin, theme vocabulary (greetings, family, colours, body, animals, food, school, verbs, time, weather, places, hobbies, feelings, clothing, transport) with pinyin shown above characters, plus numbers, measure words, 是/有/在, question words, particles, word order and festivals.
-- Grades 6–12: the same vocabulary grouped into units and shown without pinyin, radicals, comparisons with 比, aspect (了/过/着), translation, idioms (chengyu), reading passages and culture.
-- Questions with Chinese text have a 🔊 Listen button (browser speech, `zh-CN` voice when the device has one).
+- **Words** (`catalog/zh/hsk.js`): the complete HSK 1 and 2 lists and core HSK 3–6 words, in units of about 25. Each unit has four skills: meaning, choose the characters, pinyin/tones and 🎧 listening. HSK 1–2 show pinyin over the characters.
+- **Pronunciation and listening**:
+  - tone drills, including 🎧 *Listen: which tone?*
+  - tone changes (3rd + 3rd, 不 and 一)
+  - per level: *Listen for the tones*, *Listen and choose the word* and *Listen to a sentence*
+- **Grammar, reading and culture**:
+  - each level's grammar patterns, such as 是/有/在 and 吗/呢 (HSK 1), 比/过/着 (HSK 2), 把/被 (HSK 3), 不仅…而且 (HSK 4), 与其…不如 (HSK 5) and 以…为 (HSK 6)
+  - numbers, time and measure words
+  - reading passages, idioms and festivals
+- **Listening questions** (`listen: true`) play automatically and hide the text until answered. They have 🔊 Play again and 🐢 Slowly buttons. Homophones (他/她, 做/坐) are never offered against each other. Other Chinese questions have a 🔊 Listen button. Speech comes from the browser (`zh-CN` voice; `client/src/speech.js`).
+- **Learn → 🀄 Mandarin tones** (`components/learn/ToneLab.jsx`) has:
+  - pitch contours on the 5-level scale with playable syllable families (mā má mǎ mà …)
+  - tone pairs and tone changes
+  - an ear-training game
+  - 🎙️ *Say it*, which tracks the learner's pitch from the microphone (autocorrelation) and draws it over the target tone
+- **Progress is independent of grade.** Each student has `users.hsk_level` (default 1).
+  - A student can move up from the Chinese page whenever they like (`PUT /api/me/hsk-level`). It is suggested once 70% of the level's skills reach 🥉 70.
+  - Teachers set it per student in the roster (`PUT /api/students/:id/hsk-level`) and admins via `PUT /api/admin/users/:id/hsk-level`.
+  - Suggestions, "above level" warnings and the Chinese day of the daily-practice rotation use the HSK level, not the school grade.

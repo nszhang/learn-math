@@ -14,7 +14,7 @@ import { EXTRA_SKILLS } from './catalog/extra.js';
 import { EXTRA2_SKILLS } from './catalog/extra2.js';
 import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
 import { ENGLISH_ALL } from './catalog/ixlEnglish.js';
-import { CHINESE_ALL } from './catalog/ixlChinese.js';
+import { CHINESE_ALL, HSK_LEVELS, hskLabel } from './catalog/ixlChinese.js';
 import { SCIENCE_ALL } from './catalog/ixlScience.js';
 import { IXL_MATH_SKILLS, IXL_MATH_SECTION_ORDER, ixlIconFor } from './catalog/ixlMath/index.js';
 import { MATH_TOPICS, mathTopic, SCIENCE_TOPICS, scienceTopic } from './catalog/topics.js';
@@ -241,7 +241,8 @@ export const GRADES = buildGrades(addRaw => {
 /* ---------- English & Science (skills carry grade/section inline) ---------- */
 const inlineFill = list => add => list.forEach(s => add(s.grade, s.section, s.icon, s));
 export const ENGLISH_GRADES = buildGrades(inlineFill(ENGLISH_SKILLS), 'EN-', true);
-export const CHINESE_GRADES = buildGrades(inlineFill(CHINESE_ALL), 'ZH-', true);
+// Chinese is organised by HSK level (1–6) rather than school grade: "grade" num = HSK level.
+export const CHINESE_GRADES = buildGrades(inlineFill(CHINESE_ALL), 'ZH-', true).map(g => ({ ...g, name: hskLabel(g.num) }));
 export const SCIENCE_GRADES = buildGrades(inlineFill(SCIENCE_SKILLS), 'SC-', true, null, { list: SCIENCE_TOPICS, of: scienceTopic });
 
 // Subject registry — drives the top navigation and the per-subject skill pages.
@@ -249,8 +250,29 @@ export const SUBJECTS = [
   { id: 'math',    name: 'Math',    emoji: '➗', grades: GRADES,         blurb: 'Build number sense, algebra, geometry and more.' },
   { id: 'english', name: 'English', emoji: '📖', grades: ENGLISH_GRADES, blurb: 'Grammar, vocabulary and word skills.' },
   { id: 'science', name: 'Science', emoji: '🔬', grades: SCIENCE_GRADES, blurb: 'Physical, life, earth and space science.' },
-  { id: 'chinese', name: 'Chinese', emoji: '🀄', grades: CHINESE_GRADES, blurb: 'Mandarin with simplified characters and pinyin — tones, words, grammar, reading and culture.' }
+  { id: 'chinese', name: 'Chinese', emoji: '🀄', grades: CHINESE_GRADES, levels: 'hsk', blurb: 'Mandarin (simplified characters + pinyin) by HSK level 1–6 — tones, listening, words, grammar, reading and culture. Go at your own pace!' }
 ];
+
+/* ---------- levels: school grade, or HSK level for Chinese ---------- */
+export { HSK_LEVELS, hskLabel };
+export const isHsk = subject => subject?.levels === 'hsk';
+// u: anything with grade / hskLevel (the user, a student row, homework data). HSK starts at 1.
+export const studentLevelFor = (subject, u) => (isHsk(subject) ? (u?.hskLevel ?? 1) : (u?.grade ?? null));
+export const levelLabelFor = (subject, n) => (isHsk(subject) ? hskLabel(n) : gradeLabel(n));
+// the level a subject's grade/level number counts as when compared with the student's
+export const levelOf = (subject, num) => (isHsk(subject) ? num : gradeLevel(num));
+export const isStudentLevel = (subject, num, u) => num !== 13 && levelOf(subject, num) === studentLevelFor(subject, u);
+export const isAboveLevel = (subject, num, u) => { const l = studentLevelFor(subject, u); return l !== null && levelOf(subject, num) > l; };
+
+// HSK readiness: a student can move up whenever they like; we suggest it once
+// 70% of the current level's skills have reached 🥉 70.
+export const HSK_PASS_SCORE = 70, HSK_READY_SHARE = 0.7;
+export function hskReadiness(level, scoreOf) {
+  const g = CHINESE_GRADES.find(x => x.num === level);
+  const skills = g ? g.sections.flatMap(s => s.skills) : [];
+  const passed = skills.filter(s => scoreOf(s.id) >= HSK_PASS_SCORE).length;
+  return { passed, total: skills.length, ready: skills.length > 0 && passed >= Math.ceil(skills.length * HSK_READY_SHARE) };
+}
 
 // flat lookup: skill id -> { subject, grade, section, skill }
 export const SKILL_INDEX = {};
