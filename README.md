@@ -461,3 +461,11 @@ Each student can have a grade (`users.grade`: −1 = JK, 0 = K, 1–12; Calculus
 - **Lesson:** Learn → Numbers & operations → BEDMAS (`components/learn/BedmasLab.jsx`, step engine `learn/bedmas.js`).
 - **Practice / homework:** Math grades 3–9 each have a "BEDMAS: order of operations" section (`catalog/bedmasSkills.js`, ids `mthB…<grade>`), built on the same engine: evaluate (3–9), which operation comes first (3–9), who is right (4–9), place the brackets (5–9). Difficulty grows by grade: + − × (3), ÷ (4), longer expressions (5), exponents (6), nested brackets (7), negative numbers (8–9).
 - Practice questions have a "🎓 Learn it" button that opens the lesson; the lesson has a "Practise BEDMAS" button for the student's grade.
+
+## Chinese
+
+Mandarin with Simplified characters and pinyin, taught as a second language from Grade 1 (`catalog/ixlChinese.js`, content in `catalog/zh/`). Same Grade → Category → Section → Skill layout as English; ids `chi<key><grade>`.
+
+- Grades 1–5: tones and pinyin, theme vocabulary (greetings, family, colours, body, animals, food, school, verbs, time, weather, places, hobbies, feelings, clothing, transport) with pinyin shown above characters, plus numbers, measure words, 是/有/在, question words, particles, word order and festivals.
+- Grades 6–12: the same vocabulary grouped into units and shown without pinyin, radicals, comparisons with 比, aspect (了/过/着), translation, idioms (chengyu), reading passages and culture.
+- Questions with Chinese text have a 🔊 Listen button (browser speech, `zh-CN` voice when the device has one).

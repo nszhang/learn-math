@@ -92,7 +92,7 @@ export default function App() {
     ? [['admin', '⚙️ Admin'], ['learn', '🎓 Learn']]
     : isTeacher
       ? [['students', '👥 Students'], ['assign', '📝 Assign'], ['learn', '🎓 Learn']]
-      : [['home', '➗ Math'], ['english', '📖 English'], ['science', '🔬 Science'], ['homework', '📝 Homework'], ['learn', '🎓 Learn'], ['dashboard', '📊 My Progress'], ['awards', '🏆 Awards']];
+      : [['home', '➗ Math'], ['english', '📖 English'], ['science', '🔬 Science'], ['chinese', '🀄 Chinese'], ['homework', '📝 Homework'], ['learn', '🎓 Learn'], ['dashboard', '📊 My Progress'], ['awards', '🏆 Awards']];
 
   const startSkill = skillId => setPracticeCfg({ mode: 'skill', skillId });
   const startHomework = assignment => setPracticeCfg({ mode: 'homework', assignment });

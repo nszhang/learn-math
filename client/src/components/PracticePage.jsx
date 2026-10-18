@@ -5,6 +5,19 @@ import { niceDate } from '../homework.js';
 import { createDeduper } from '../questionPool.js';
 
 let audioCtx = null;
+
+// Read Chinese aloud with the browser's built-in speech (Mandarin voice when available).
+const canSpeak = typeof window !== 'undefined' && 'speechSynthesis' in window;
+function speakChinese(text) {
+  try {
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'zh-CN'; u.rate = 0.8;
+    const voice = window.speechSynthesis.getVoices().find(v => /^zh(-|_)?(CN|Hans)?/i.test(v.lang));
+    if (voice) u.voice = voice;
+    window.speechSynthesis.speak(u);
+  } catch { /* speech not available */ }
+}
 function beep(freq, dur) {
   try {
     audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
@@ -32,6 +45,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
   const currentItem = isHw ? queue[Math.min(qi, queue.length - 1)] : null;
   const skillId = isHw ? currentItem.skillId : cfg.skillId;
   const skill = SKILL_INDEX[skillId].skill;
+  const isChinese = SKILL_INDEX[skillId].subject.id === 'chinese';
 
   // no repeated questions within an assignment (remembered across visits) or a practice session
   const [dedupe] = useState(() => createDeduper(isHw ? `mm_seen_${me?.user?.id ?? 'u'}_${cfg.assignment.id}` : null));
@@ -213,6 +227,9 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
       <div className="practice-layout">
         <section className="question-panel">
           <div className="question-prompt" dangerouslySetInnerHTML={{ __html: question.prompt }} />
+          {question.say && canSpeak && (
+            <button type="button" className="btn btn-ghost speak-btn" onClick={() => speakChinese(question.say)} title="Listen">🔊 Listen</button>
+          )}
 
           {question.type === 'num' ? (
             <div style={{ marginBottom: 22 }}>
@@ -221,7 +238,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
                 onChange={e => setInputVal(e.target.value)} />
             </div>
           ) : (
-            <div className="choices" style={{ marginBottom: 22 }} ref={choicesRef}
+            <div className={'choices' + (isChinese ? ' zh-choices' : '')} style={{ marginBottom: 22 }} ref={choicesRef}
               role="radiogroup" aria-label="Answer choices" onKeyDown={onChoiceKey}>
               {question.choices.map(c => (
                 <button key={c} type="button" role="radio" aria-checked={selected === c}

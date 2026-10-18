@@ -45,7 +45,7 @@ export const SKILL_IDS = [
 ];
 // English (eng*), Science (sci*) and the IXL-style Math catalog (mth*) are large and grow often, so they are
 // validated by id shape rather than an explicit list (a test checks the client's ids fit).
-const TEXT_SKILL_RE = /^(eng|sci|mth)[A-Za-z0-9]{2,30}$/;
+const TEXT_SKILL_RE = /^(eng|sci|mth|chi)[A-Za-z0-9]{2,30}$/;
 export const isSkillId = id => typeof id === 'string' && (SKILL_IDS.includes(id) || TEXT_SKILL_RE.test(id));
 const USERNAME_RE = /^[a-z0-9_]{3,20}$/;
 

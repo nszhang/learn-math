@@ -782,3 +782,11 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
 .bed-custom { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 16px; }
 .bed-custom .expr-input { flex: 1; min-width: 200px; }
+
+/* Chinese */
+.zh { font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif; font-size: 1.6em; font-weight: 600; letter-spacing: .04em; }
+.zh ruby { ruby-align: center; margin: 0 .06em; }
+.zh rt { font-size: .45em; font-weight: 500; color: var(--muted); letter-spacing: 0; }
+.zh-choices .choice-btn { font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 1.25rem; }
+.zh-passage .zh { font-size: 1.35em; line-height: 1.9; }
+.speak-btn { margin: -6px 0 14px; }

@@ -14,6 +14,7 @@ import { EXTRA_SKILLS } from './catalog/extra.js';
 import { EXTRA2_SKILLS } from './catalog/extra2.js';
 import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
 import { ENGLISH_ALL } from './catalog/ixlEnglish.js';
+import { CHINESE_ALL } from './catalog/ixlChinese.js';
 import { SCIENCE_ALL } from './catalog/ixlScience.js';
 import { IXL_MATH_SKILLS, IXL_MATH_SECTION_ORDER, ixlIconFor } from './catalog/ixlMath/index.js';
 import { MATH_TOPICS, mathTopic, SCIENCE_TOPICS, scienceTopic } from './catalog/topics.js';
@@ -240,13 +241,15 @@ export const GRADES = buildGrades(addRaw => {
 /* ---------- English & Science (skills carry grade/section inline) ---------- */
 const inlineFill = list => add => list.forEach(s => add(s.grade, s.section, s.icon, s));
 export const ENGLISH_GRADES = buildGrades(inlineFill(ENGLISH_SKILLS), 'EN-', true);
+export const CHINESE_GRADES = buildGrades(inlineFill(CHINESE_ALL), 'ZH-', true);
 export const SCIENCE_GRADES = buildGrades(inlineFill(SCIENCE_SKILLS), 'SC-', true, null, { list: SCIENCE_TOPICS, of: scienceTopic });
 
 // Subject registry — drives the top navigation and the per-subject skill pages.
 export const SUBJECTS = [
   { id: 'math',    name: 'Math',    emoji: '➗', grades: GRADES,         blurb: 'Build number sense, algebra, geometry and more.' },
   { id: 'english', name: 'English', emoji: '📖', grades: ENGLISH_GRADES, blurb: 'Grammar, vocabulary and word skills.' },
-  { id: 'science', name: 'Science', emoji: '🔬', grades: SCIENCE_GRADES, blurb: 'Physical, life, earth and space science.' }
+  { id: 'science', name: 'Science', emoji: '🔬', grades: SCIENCE_GRADES, blurb: 'Physical, life, earth and space science.' },
+  { id: 'chinese', name: 'Chinese', emoji: '🀄', grades: CHINESE_GRADES, blurb: 'Mandarin with simplified characters and pinyin — tones, words, grammar, reading and culture.' }
 ];
 
 // flat lookup: skill id -> { subject, grade, section, skill }
