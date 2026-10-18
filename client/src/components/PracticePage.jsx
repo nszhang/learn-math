@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { api } from '../api.js';
 import { SKILL_INDEX, PRAISE, PRAISE_CHALLENGE, ENCOURAGE, MASTERY_MSGS, pick, fmtNum } from '../skills.js';
 import { niceDate } from '../homework.js';
+import { createDeduper } from '../questionPool.js';
 
 let audioCtx = null;
 function beep(freq, dur) {
@@ -32,7 +33,9 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit }) {
   const skillId = isHw ? currentItem.skillId : cfg.skillId;
   const skill = SKILL_INDEX[skillId].skill;
 
-  const [question, setQuestion] = useState(() => skill.gen());
+  // no repeated questions within an assignment (remembered across visits) or a practice session
+  const [dedupe] = useState(() => createDeduper(isHw ? `mm_seen_${me?.user?.id ?? 'u'}_${cfg.assignment.id}` : null));
+  const [question, setQuestion] = useState(() => dedupe.next(skill));
   const [answered, setAnswered] = useState(false);
   const [feedback, setFeedback] = useState(null); // { correct, title }
   const [inputVal, setInputVal] = useState('');
@@ -103,7 +106,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit }) {
   }
 
   function nextQuestion() {
-    setQuestion(skill.gen());
+    setQuestion(dedupe.next(skill));
     setAnswered(false); setFeedback(null); setInputVal(''); setSelected(null);
   }
 

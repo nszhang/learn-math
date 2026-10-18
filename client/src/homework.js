@@ -1,5 +1,6 @@
 // Date + homework helpers (client side).
 import { ALL_SKILLS, SKILL_INDEX, SUBJECTS, gradeLevel } from './skills.js';
+import { distinctQuestions } from './questionPool.js';
 
 export function localDateStr(d = new Date()) {
   const p = n => String(n).padStart(2, '0');
@@ -35,6 +36,8 @@ export function dailyAssignment(dateString, grade = null) {
       if (!items.find(x => x.skillId === s.id)) items.push({ skillId: s.id, count: 5 });
     }
   }
+  // no more questions than a skill has different ones, so nothing repeats
+  for (const it of items) it.count = Math.min(it.count, distinctQuestions(SKILL_INDEX[it.skillId].skill, it.count));
   return { id: 'daily-' + dateString, daily: true, due: dateString, items };
 }
 

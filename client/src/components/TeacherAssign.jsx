@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api.js';
-import { SUBJECTS, STUDENT_GRADES, gradeLabel, gradeLevel } from '../skills.js';
+import { SUBJECTS, SKILL_INDEX, STUDENT_GRADES, gradeLabel, gradeLevel } from '../skills.js';
+import { distinctQuestions } from '../questionPool.js';
 import { localDateStr, niceDate, skillName, isAboveGrade } from '../homework.js';
 import Fold from './Fold.jsx';
 
@@ -39,6 +40,10 @@ export default function TeacherAssign({ toast }) {
   }, [grade, showAll]);
 
   const aboveSelected = [...checked].filter(id => isAboveGrade(id, grade));
+  // skills whose question bank is smaller than the questions asked — some would have to repeat
+  const smallBank = useMemo(() => [...checked]
+    .map(id => ({ id, n: distinctQuestions(SKILL_INDEX[id].skill, count) }))
+    .filter(x => x.n < count), [checked, count]);
 
   function toggleSkill(id) {
     setChecked(s => { const n = new Set(s); n.has(id) ? n.delete(id) : n.add(id); return n; });
@@ -83,7 +88,8 @@ export default function TeacherAssign({ toast }) {
     try {
       await api('POST', '/api/assignments', {
         studentId: Number(studentId), due,
-        items: [...checked].map(skillId => ({ skillId, count }))
+        // never more questions than the skill has different ones, so nothing repeats
+        items: [...checked].map(skillId => ({ skillId, count: Math.min(count, distinctQuestions(SKILL_INDEX[skillId].skill, count)) }))
       });
       toast('📝', `Assigned ${checked.size} skill(s) to ${student?.displayName || 'student'}, due ${niceDate(due)}`);
       setChecked(new Set());
@@ -167,6 +173,9 @@ export default function TeacherAssign({ toast }) {
 
         {aboveSelected.length > 0 && (
           <div className="warn-box">⚠️ {aboveSelected.length} selected skill(s) are above {student.displayName}'s grade ({gradeLabel(grade)}): {aboveSelected.map(skillName).join(', ')}. You'll be asked to confirm.</div>
+        )}
+        {smallBank.length > 0 && (
+          <div className="warn-box">🔁 So that no question repeats, these skills will get fewer than {count} questions: {smallBank.map(x => `${skillName(x.id)} → ${x.n}`).join('; ')}.</div>
         )}
         <button className="btn btn-primary btn-lg" type="submit">Assign homework</button>
       </form>
