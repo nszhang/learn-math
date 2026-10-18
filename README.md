@@ -1,6 +1,8 @@
-# π MathAce
+# A+ LearnAce
 
-**A full K–12 math learning platform** — IXL-style skill practice organized by grade, an interactive Learn section with animated equation solving and a Desmos-style graphing playground, homework assignment and tracking for teachers, and a persistent reward system that keeps students coming back.
+*Formerly **MathAce**: renamed once the site grew beyond math.*
+
+**A K–12 learning platform for Math, English, Science and Chinese (HSK 1–6)** — IXL-style skill practice organized by grade, an interactive Learn section with animated equation solving and a Desmos-style graphing playground, homework assignment and tracking for teachers, and a persistent reward system that keeps students coming back.
 
 <div align="center">
 
@@ -16,7 +18,7 @@ React 18 + Vite · Node.js + Express · PostgreSQL · JWT + bcrypt
 
 ## Table of contents
 
-- [Why MathAce](#why-mathace)
+- [Why LearnAce](#why-learnace)
 - [Feature tour](#feature-tour)
 - [Pedagogy](#pedagogy)
 - [Content catalog](#content-catalog)
@@ -34,9 +36,9 @@ React 18 + Vite · Node.js + Express · PostgreSQL · JWT + bcrypt
 
 ---
 
-## Why MathAce
+## Why LearnAce
 
-MathAce was built as a family-friendly, self-hosted alternative to commercial
+LearnAce was built as a family-friendly, self-hosted alternative to commercial
 practice sites. It follows the proven **IXL organizational model**
 (**Grade → Topic → Skill**, SmartScore 0–100, medals & badges) while doubling
 down on what actually builds mathematicians: **understanding over rote
@@ -87,7 +89,7 @@ database, no external services, no tracking.
 
 Grade-school math is variations and combinations of **the four operations**,
 the **inverse** idea, and the **three laws** (associative, commutative,
-distributive). MathAce's catalog is written to make students *intuit* these:
+distributive). LearnAce's math catalog is written to make students *intuit* these:
 
 - **Inverse operations everywhere** — number bonds (`7 + ___ = 10`), fact
   families, missing factors (`6 × ___ = 42`), square roots as undoing squares,
@@ -402,13 +404,13 @@ skill-ID consistency is diff-checked.
 
 ## The site family
 
-MathAce shares its user database with two earlier sister sites — **one login
+LearnAce shares its user database with two earlier sister sites — **one login
 works on all three**, and per-skill progress stays namespaced so nothing
 collides:
 
 | Site | URL | Repo |
 |---|---|---|
-| π **MathAce** (this repo — everything, Grades 1–12) | [/learn-math](https://math.pnpsolutions.ca/learn-math/) | `nszhang/learn-math` |
+| A+ **LearnAce** (this repo, formerly MathAce — Math, English, Science, Chinese) | [/learn-math](https://math.pnpsolutions.ca/learn-math/) | `nszhang/learn-math` |
 | ∑ **AlgebraAce** (algebra, 17 skills) | [/learning-algebra](https://math.pnpsolutions.ca/learning-algebra/) | `nszhang/learning-algebra` |
 | xⁿ **ExponentAce** (exponents & logs, 16 skills) | [/learn-exponent-and-log](https://math.pnpsolutions.ca/learn-exponent-and-log/) | `nszhang/learn-exponent-and-log` |
 

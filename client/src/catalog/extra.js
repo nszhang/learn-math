@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — expansion skills (Grades 1–12), flat list with
+   LearnAce — expansion skills (Grades 1–12), flat list with
    grade/section inline. Emphasis: UNDERSTANDING over rote —
    inverse operations, fact families, number bonds, and the
    commutative / associative / distributive laws.

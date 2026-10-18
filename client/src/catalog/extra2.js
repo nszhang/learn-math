@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — expansion batch 2 (ids t1..t103): more sections and
+   LearnAce — expansion batch 2 (ids t1..t103): more sections and
    skills per grade, modeled on IXL topic areas.
    Emphasis: intuition for operations, inverses, and the three laws.
    ============================================================ */

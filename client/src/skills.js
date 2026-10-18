@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — skill catalog organized IXL-style by GRADE.
+   LearnAce — skill catalog organized IXL-style by GRADE.
    Each grade has lettered sections; skills are numbered within
    their section (A.1, A.2, B.1 …) like ca.ixl.com.
 

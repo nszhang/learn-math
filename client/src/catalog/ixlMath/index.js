@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — IXL-style math catalog, Grades 1–5.
+   LearnAce — IXL-style math catalog, Grades 1–5.
    manifest.js lists every IXL section/skill (with permanent ids); the rule
    files attach a generator to each skill by title. Skills whose title no
    rule matches are left out and listed in IXL_MATH_MISSING (a test keeps

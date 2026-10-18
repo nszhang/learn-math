@@ -112,8 +112,8 @@ export default function App() {
     <header className="topbar">
       <button type="button" className="brand brand-sm brand-link" title="Go to home page"
         onClick={() => { setPracticeCfg(null); setPage(homePage); }}>
-        <span className="brand-logo">π</span>
-        <span className="brand-name">Math<span className="brand-accent">Ace</span></span>
+        <span className="brand-logo">A+</span>
+        <span className="brand-name">Learn<span className="brand-accent">Ace</span></span>
       </button>
       <nav className="main-nav">
         {nav.map(([id, label]) => (

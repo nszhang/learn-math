@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — IXL-style math skill manifest.
+   LearnAce — IXL-style math skill manifest.
    Section order and skill order follow IXL's grade pages. Each skill has a
    permanent id (mth<grade tag><section letters><nn>; tag JK, K, 1–12 or C for Calculus)
    so progress never shifts; append new skills at the end of a section instead of renumbering.

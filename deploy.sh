@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Deploy MathAce to webapp01 → https://math.pnpsolutions.ca/learn-math/
+# Deploy LearnAce (formerly MathAce) to webapp01 → https://math.pnpsolutions.ca/learn-math/
 #
 # Production layout (webapp01.pnpsolutions.ca):
 #   /var/www/learn-math/                  app (this repo; built on server)

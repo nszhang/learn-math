@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — English grades 6–12 (language, rhetoric, literature).
+   LearnAce — English grades 6–12 (language, rhetoric, literature).
    IDs are prefixed "eng". Appended to the grade 1–5 list in skills.js.
    ============================================================ */
 import { S, classify, pairs } from './quiz.js';

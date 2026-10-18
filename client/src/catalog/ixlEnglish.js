@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — English catalog organised like IXL language arts:
+   LearnAce — English catalog organised like IXL language arts:
    Category → lettered Section → numbered Skill, per grade.
    A skill is declared once ({ k, t, s, g:[grades], gen }) and expanded
    into one skill per grade with id "eng" + k + grade, so each grade keeps

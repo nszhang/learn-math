@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — Chinese catalog (Mandarin, Simplified characters + pinyin),
+   LearnAce — Chinese catalog (Mandarin, Simplified characters + pinyin),
    organised by HSK level 1–6 instead of school grade. Category → Section → Skill.
    Specs { k, t, s, g, gen } from zh/skills.js expand into one skill per HSK level
    with id "chiH" + level + k. A skill's `grade` holds its HSK level.

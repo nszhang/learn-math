@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — English (language arts), grades 1–5.
+   LearnAce — English (language arts), grades 1–5.
    Start-simple catalog: grammar, vocabulary and word skills.
    IDs are prefixed "eng".
    ============================================================ */

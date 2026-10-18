@@ -26,10 +26,10 @@ export default function Auth({ onAuth }) {
       <div className="auth-hero">
         <div className="auth-card">
           <div className="brand">
-            <span className="brand-logo">π</span>
-            <h1>Math<span className="brand-accent">Ace</span></h1>
+            <span className="brand-logo">A+</span>
+            <h1>Learn<span className="brand-accent">Ace</span></h1>
           </div>
-          <p className="tagline">Master math — arithmetic, geometry, probability, algebra, and more — one skill at a time. Earn medals, badges, and stars as your SmartScore climbs to 100!</p>
+          <p className="tagline">Learn math, English, science and Chinese — one skill at a time. Earn medals, badges, and stars as your SmartScore climbs to 100!</p>
 
           <form id="form-auth" onSubmit={submit} autoComplete="off">
             <label>Username
@@ -49,7 +49,7 @@ export default function Auth({ onAuth }) {
         </div>
 
         <div className="auth-side">
-          <h2>Why students love MathAce</h2>
+          <h2>Why students love LearnAce</h2>
           <ul className="feature-list">
             <li>🏅 <strong>SmartScore 0–100</strong> — watch your score climb as you learn</li>
             <li>🎉 <strong>Awards &amp; prizes</strong> — medals, badges, and stars for every milestone</li>

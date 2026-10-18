@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — Science, grades 1–5.
+   LearnAce — Science, grades 1–5.
    Start-simple catalog: life, earth and physical science.
    IDs are prefixed "sci".
    ============================================================ */

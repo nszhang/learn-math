@@ -48,4 +48,4 @@ if (fs.existsSync(dist)) {
   app.get(/^(?!\/api\/).*/, (req, res) => res.sendFile(path.join(dist, 'index.html')));
 }
 
-app.listen(PORT, () => console.log(`🚀 MathAce server on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`🚀 LearnAce server on http://localhost:${PORT}`));

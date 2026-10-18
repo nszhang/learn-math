@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — Grade 9 expansion aligned to the MathLinks 9
+   LearnAce — Grade 9 expansion aligned to the MathLinks 9
    textbook (Canadian Grade 9). Sections mirror the textbook
    chapters; ids continue the t-series (t104..t125).
    ============================================================ */

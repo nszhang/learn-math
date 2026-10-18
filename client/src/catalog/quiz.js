@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — shared question builders for text-based subjects
+   LearnAce — shared question builders for text-based subjects
    (English, Science). Every builder returns a gen() function that
    yields { type: 'mc', prompt, answer, choices, explain }.
    ============================================================ */

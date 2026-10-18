@@ -9,7 +9,7 @@ export function createMailer(opts = {}) {
   const PORT = Number(opts.port ?? process.env.SMTP_PORT ?? 587);
   const USER = opts.user ?? process.env.SMTP_USER;
   const PASS = opts.pass ?? process.env.SMTP_PASS;
-  const FROM = opts.from ?? process.env.SMTP_FROM ?? "MathAce <no-reply@math.pnpsolutions.ca>";
+  const FROM = opts.from ?? process.env.SMTP_FROM ?? "LearnAce <no-reply@math.pnpsolutions.ca>";
 
   if (!HOST) {
     return {

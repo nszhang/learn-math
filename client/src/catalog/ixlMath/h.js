@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — shared helpers for the IXL-style math catalog:
+   LearnAce — shared helpers for the IXL-style math catalog:
    random utilities, question builders ({type:'num'|'mc'}), number
    formatting, and small inline-SVG pictures (ten frames, number lines,
    clocks, fraction models, graphs …).

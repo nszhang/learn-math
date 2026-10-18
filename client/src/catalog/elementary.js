@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — elementary catalog (Grades 1–6).
+   LearnAce — elementary catalog (Grades 1–6).
    Graded structure: each skill lives in a grade + section.
    Generators return: { prompt, type: 'num'|'mc', answer, choices?, explain }
    ============================================================ */

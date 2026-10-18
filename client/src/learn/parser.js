@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — math expression parser & evaluator (Desmos-style).
+   LearnAce — math expression parser & evaluator (Desmos-style).
    Supports: + - * / ^ (right-assoc), parentheses, unary minus
    (-x^2 = -(x^2)), implicit multiplication (2x, 2(x+1), x(x+1),
    2sin(x)), the variable x, constants pi & e, and functions:

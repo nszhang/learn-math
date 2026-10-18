@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — Science grades 6–12 (life, earth, chemistry, physics).
+   LearnAce — Science grades 6–12 (life, earth, chemistry, physics).
    IDs are prefixed "sci". Appended to the grade 1–5 list in skills.js.
    ============================================================ */
 import { S, classify, pairs, ri, pick } from './quiz.js';

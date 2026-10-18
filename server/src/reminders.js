@@ -27,10 +27,10 @@ function assignmentEmail({ student, assignment, kind }) {
   const s = subjects[kind];
 
   return {
-    subject: `[MathAce] ${s.title}`,
+    subject: `[LearnAce] ${s.title}`,
     html: `
       <div style="font-family:Segoe UI,system-ui,sans-serif;max-width:520px;margin:auto">
-        <h2 style="color:#4f46e5">π MathAce</h2>
+        <h2 style="color:#4f46e5">A+ LearnAce</h2>
         <p>Hi ${esc(student.display_name)},</p>
         <p>${s.lead}</p>
         <p style="background:#eef2ff;border-radius:10px;padding:14px">
@@ -38,7 +38,7 @@ function assignmentEmail({ student, assignment, kind }) {
         </p>
         <p>
           <a href="${url}" style="background:#4f46e5;color:#fff;padding:10px 22px;border-radius:8px;text-decoration:none;font-weight:700">
-            Open MathAce →
+            Open LearnAce →
           </a>
         </p>
         <p style="color:#94a3b8;font-size:13px">Wrong answers still count as done — just do your best! 💪</p>

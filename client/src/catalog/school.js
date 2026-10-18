@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — school topics: arithmetic, geometry, probability, statistics
+   LearnAce — school topics: arithmetic, geometry, probability, statistics
    Each generator returns:
    { prompt, type: 'num'|'mc', answer, choices?, explain }
    ============================================================ */

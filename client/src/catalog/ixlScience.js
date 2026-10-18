@@ -1,5 +1,5 @@
 /* ============================================================
-   MathAce — Science catalog organised like IXL science:
+   LearnAce — Science catalog organised like IXL science:
    Grade → lettered Section → numbered Skill. Skill specs { k, t, s, g, gen }
    expand into one skill per grade (id "sci" + k + grade). Content lives in
    sci/physical.js, sci/life.js, sci/earth.js and sci/chemphys.js; the
