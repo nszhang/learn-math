@@ -553,3 +553,21 @@ test('messages: classmates and teachers only; unread counts', async () => {
   r = await api('POST', '/api/answers', { token: out.token, body: { skillId: 'algA1', correct: true, streak: 0, challengeId: id } });
   assert.equal(r.status, 400, 'outsiders cannot answer in a challenge');
 });
+
+test('admin can reset a password to a chosen value or a generated one', async () => {
+  const u = (await api('POST', '/api/admin/users', { token: admin.token, body: { username: 'pw_kid', role: 'student', password: 'first1' } })).data.user;
+  let r = await api('POST', `/api/admin/users/${u.id}/password`, { token: admin.token, body: { password: 'Panda2026!' } });
+  assert.equal(r.status, 200);
+  assert.deepEqual([r.data.password, r.data.generated], ['Panda2026!', false]);
+  assert.equal((await api('POST', '/api/auth/login', { body: { username: 'pw_kid', password: 'Panda2026!' } })).status, 200, 'chosen password works');
+  assert.equal((await api('POST', '/api/auth/login', { body: { username: 'pw_kid', password: 'first1' } })).status, 401, 'old password no longer works');
+  r = await api('POST', `/api/admin/users/${u.id}/password`, { token: admin.token, body: {} });
+  assert.equal(r.data.generated, true);
+  assert.equal((await api('POST', '/api/auth/login', { body: { username: 'pw_kid', password: r.data.password } })).status, 200, 'generated password works');
+  r = await api('POST', `/api/admin/users/${u.id}/password`, { token: admin.token, body: { password: 'abc' } });
+  assert.equal(r.status, 400, 'too short');
+  r = await api('POST', `/api/admin/users/${u.id}/password`, { token: admin.token, body: { password: 'x'.repeat(41) } });
+  assert.equal(r.status, 400, 'longer than the login form allows');
+  r = await api('POST', `/api/admin/users/${u.id}/password`, { token: teacher.token, body: { password: 'hacked1' } });
+  assert.equal(r.status, 403, 'admins only');
+});

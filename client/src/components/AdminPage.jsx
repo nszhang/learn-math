@@ -12,6 +12,9 @@ export default function AdminPage({ toast }) {
   const [filter, setFilter] = useState('student');
   const [created, setCreated] = useState(null);     // {user, password, generated}
   const [resetPw, setResetPw] = useState(null);     // {user, password, generated}
+  const [pwFor, setPwFor] = useState(null);         // user whose password is being reset
+  const [newPw, setNewPw] = useState('');
+  const [showPw, setShowPw] = useState(false);
   const [nu, setNu] = useState({ username: '', displayName: '', role: 'student', password: '', email: '', grade: '' });
   const [busy, setBusy] = useState(false);
   // roster editor
@@ -76,12 +79,18 @@ export default function AdminPage({ toast }) {
     } catch (err) { toast('⚠️', err.message); }
   }
 
-  async function resetPassword(u) {
-    if (!window.confirm(`Reset the password for ${u.displayName} (${u.username})? A new password will be generated.`)) return;
+  function resetPassword(u) { setPwFor(u); setNewPw(''); setShowPw(false); }
+  // set the typed password, or generate one when the box is left blank
+  async function submitPassword(e) {
+    e.preventDefault();
+    const pw = newPw.trim() === '' ? '' : newPw;
+    if (pw && pw.length < 4) return toast('⚠️', 'Password must be at least 4 characters.');
     try {
-      const data = await api('POST', `/api/admin/users/${u.id}/password`, {});
-      setResetPw({ user: u, ...data });
+      const data = await api('POST', `/api/admin/users/${pwFor.id}/password`, pw ? { password: pw } : {});
+      setResetPw({ user: pwFor, ...data });
       setCreated(null);
+      setPwFor(null);
+      toast('🔑', `Password ${data.generated ? 'generated' : 'set'} for ${pwFor.displayName}`);
     } catch (err) { toast('⚠️', err.message); }
   }
 
@@ -250,6 +259,27 @@ export default function AdminPage({ toast }) {
           </form>
         )}
       </div>
+      {pwFor && (
+        <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setPwFor(null)} onKeyDown={e => e.key === 'Escape' && setPwFor(null)}>
+          <div className="modal-card" role="dialog" aria-modal="true" aria-label={`Reset password for ${pwFor.displayName}`}>
+            <h3>🔑 Reset password</h3>
+            <p className="muted" style={{ marginBottom: 14 }}>For <strong>{pwFor.displayName}</strong> (@{pwFor.username}). Type a new password, or leave it blank to generate one.</p>
+            <form className="form-vertical" onSubmit={submitPassword}>
+              <label>New password
+                <span className="pw-field">
+                  <input type={showPw ? 'text' : 'password'} autoFocus autoComplete="new-password" maxLength={40}
+                    placeholder="leave blank to generate" value={newPw} onChange={e => setNewPw(e.target.value)} />
+                  <button type="button" className="btn btn-ghost" onClick={() => setShowPw(v => !v)} aria-label={showPw ? 'Hide password' : 'Show password'}>{showPw ? '🙈' : '👁'}</button>
+                </span>
+              </label>
+              <div className="modal-actions">
+                <button className="btn btn-ghost" type="button" onClick={() => setPwFor(null)}>Cancel</button>
+                <button className="btn btn-primary" type="submit">{newPw.trim() ? 'Set password' : 'Generate password'}</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

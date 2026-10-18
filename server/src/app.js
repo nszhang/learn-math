@@ -435,8 +435,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     if (!['student', 'teacher', 'admin'].includes(role))
       return res.status(400).json({ error: 'Role must be student, teacher, or admin.' });
     const pw = password ? String(password) : genPassword();
-    if (pw.length < 4)
-      return res.status(400).json({ error: 'Password must be at least 4 characters.' });
+    if (pw.length < 4 || pw.length > 40)
+      return res.status(400).json({ error: 'Password must be 4–40 characters.' });
     if (await db.findUserByUsername(pool, uname))
       return res.status(409).json({ error: 'That username is taken — try another!' });
 
@@ -457,8 +457,9 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     if (!target) return res.status(404).json({ error: 'User not found' });
     const given = req.body?.password ? String(req.body.password) : '';
     const pw = given || genPassword();
-    if (pw.length < 4)
-      return res.status(400).json({ error: 'Password must be at least 4 characters.' });
+    // 40 matches the login form's limit, so any password set here can be typed in
+    if (pw.length < 4 || pw.length > 40)
+      return res.status(400).json({ error: 'Password must be 4–40 characters.' });
     await db.updatePassHash(pool, id, await bcrypt.hash(pw, 10));
     res.json({ ok: true, password: pw, generated: !given });
   });

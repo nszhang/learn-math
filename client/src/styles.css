@@ -956,3 +956,6 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
   .user-chip .btn { padding: 6px 8px; }
   .icon-btn { width: 34px; height: 34px; }
 }
+
+.pw-field { display: flex; gap: 6px; align-items: center; }
+.pw-field input { flex: 1; }
