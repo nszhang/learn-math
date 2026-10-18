@@ -465,3 +465,91 @@ test('Chinese review deck: words join when seen, move up boxes when reviewed, dr
   r = await api('GET', '/api/students', { token: teacher.token });
   assert.equal(typeof r.data.find(s => s.id === student.user.id).wordsKnown, 'number');
 });
+
+test('messages: classmates and teachers only; unread counts', async () => {
+  const mk = async (username, role) => (await api('POST', '/api/admin/users', { token: admin.token, body: { username, displayName: username.toUpperCase(), password: 'pw123', role } })).data.user;
+  const [t, a, b, x] = [await mk('msg_teach', 'teacher'), await mk('msg_ann', 'student'), await mk('msg_ben', 'student'), await mk('msg_out', 'student')];
+  let r = await api('PUT', `/api/admin/teachers/${t.id}/students`, { token: admin.token, body: { studentIds: [a.id, b.id] } });
+  assert.equal(r.status, 200);
+  const [ann, ben, out, teach] = [await login('msg_ann', 'pw123'), await login('msg_ben', 'pw123'), await login('msg_out', 'pw123'), await login('msg_teach', 'pw123')];
+
+  r = await api('GET', '/api/contacts', { token: ann.token });
+  assert.deepEqual(r.data.contacts.map(c => c.username).sort(), ['msg_ben', 'msg_teach'], 'classmates + own teacher');
+  r = await api('POST', `/api/messages/${x.id}`, { token: ann.token, body: { body: 'hi' } });
+  assert.equal(r.status, 403, 'no messaging strangers');
+  r = await api('POST', `/api/messages/${b.id}`, { token: ann.token, body: { body: '' } });
+  assert.equal(r.status, 400);
+  r = await api('POST', `/api/messages/${b.id}`, { token: ann.token, body: { body: 'x'.repeat(501) } });
+  assert.equal(r.status, 400, 'length limit');
+  r = await api('POST', `/api/messages/${b.id}`, { token: ann.token, body: { body: 'Hi Ben! Race me?' } });
+  assert.equal(r.status, 200);
+  r = await api('GET', '/api/inbox', { token: ben.token });
+  assert.equal(r.data.unread, 1);
+  r = await api('GET', `/api/messages/${a.id}`, { token: ben.token });
+  assert.equal(r.data.messages.at(-1).body, 'Hi Ben! Race me?');
+  r = await api('GET', '/api/inbox', { token: ben.token });
+  assert.equal(r.data.unread, 0, 'opening the conversation marks it read');
+  r = await api('POST', `/api/messages/${a.id}`, { token: teach.token, body: { body: 'Great work today' } });
+  assert.equal(r.status, 200, 'teacher can message their student');
+  r = await api('GET', '/api/messages', { token: out.token });
+  assert.deepEqual(r.data.threads, [], 'no contacts, no threads');
+
+  // ---------- challenges ----------
+  const items = [{ skillId: 'algA1', count: 2 }];
+  r = await api('POST', '/api/challenges', { token: ann.token, body: { opponentId: x.id, items, title: 'Race' } });
+  assert.equal(r.status, 403, 'classmates only');
+  r = await api('POST', '/api/challenges', { token: teach.token, body: { opponentId: a.id, items, title: 'Race' } });
+  assert.equal(r.status, 403, 'students only');
+  r = await api('POST', '/api/challenges', { token: ann.token, body: { opponentId: b.id, items: [{ skillId: 'nope!', count: 2 }], title: 'Race' } });
+  assert.equal(r.status, 400);
+  r = await api('POST', '/api/challenges', { token: ann.token, body: { opponentId: b.id, items, title: 'Algebra race' } });
+  assert.equal(r.status, 200);
+  const id = r.data.challenge.id;
+  assert.equal(r.data.challenge.status, 'pending');
+  r = await api('GET', '/api/inbox', { token: ben.token });
+  assert.equal(r.data.pendingChallenges, 1);
+
+  const answer = (who, correct) => api('POST', '/api/answers', { token: who.token, body: { skillId: 'algA1', correct, streak: 0, challengeId: id } });
+  r = await api('POST', `/api/challenges/${id}/accept`, { token: ann.token });
+  assert.equal(r.status, 404, 'only the opponent accepts');
+  r = await api('POST', `/api/challenges/${id}/accept`, { token: ben.token });
+  assert.equal(r.data.challenge.status, 'active');
+
+  r = await answer(ann, true);
+  assert.deepEqual([r.data.challenge.done, r.data.challenge.total], [1, 2]);
+  r = await answer(ann, false);
+  assert.equal(r.data.challenge.done, 1, 'wrong answers do not count toward finishing');
+  r = await answer(ben, true);
+  const starsBefore = (await api('GET', '/api/me', { token: ann.token })).data.user.stars;
+  r = await answer(ann, true);
+  assert.equal(r.data.challenge.won, true, 'first to finish wins');
+  const starsAfter = (await api('GET', '/api/me', { token: ann.token })).data.user.stars;
+  assert.ok(starsAfter >= starsBefore + 3, 'winner earns stars');
+  r = await answer(ben, true);
+  assert.equal(r.data.challenge.over, true);
+  assert.equal(r.data.challenge.winnerName, 'MSG_ANN');
+  assert.equal(r.data.challenge.won, false);
+
+  r = await api('GET', '/api/challenges', { token: ben.token });
+  const h = r.data.challenges.find(c => c.id === id);
+  assert.equal(h.status, 'completed');
+  assert.equal(h.winnerId, a.id);
+  assert.equal(h.challenger.done, 2);
+  assert.equal(h.opponent.done, 1, 'answers after the win are not counted');
+  r = await api('GET', `/api/messages/${a.id}`, { token: ben.token });
+  assert.ok(r.data.messages.some(m => m.kind === 'result' && m.body.includes('won')), 'result posted in the conversation');
+  assert.ok(r.data.challenges[id], 'conversation includes the challenge card');
+
+  // decline and cancel
+  r = await api('POST', '/api/challenges', { token: ben.token, body: { opponentId: a.id, items, title: 'Rematch' } });
+  const id2 = r.data.challenge.id;
+  r = await api('POST', `/api/challenges/${id2}/decline`, { token: ann.token });
+  assert.equal(r.data.challenge.status, 'declined');
+  r = await api('POST', `/api/challenges/${id2}/accept`, { token: ann.token });
+  assert.equal(r.status, 400, 'cannot accept after declining');
+  r = await api('POST', '/api/challenges', { token: ben.token, body: { opponentId: a.id, items, title: 'Rematch 2' } });
+  r = await api('POST', `/api/challenges/${r.data.challenge.id}/cancel`, { token: ben.token });
+  assert.equal(r.data.challenge.status, 'cancelled');
+  r = await api('POST', '/api/answers', { token: out.token, body: { skillId: 'algA1', correct: true, streak: 0, challengeId: id } });
+  assert.equal(r.status, 400, 'outsiders cannot answer in a challenge');
+});

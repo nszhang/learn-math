@@ -464,6 +464,26 @@ Each student can have a grade (`users.grade`: −1 = JK, 0 = K, 1–12; Calculus
 - **Practice / homework:** Math grades 3–9 each have a "BEDMAS: order of operations" section (`catalog/bedmasSkills.js`, ids `mthB…<grade>`), built on the same engine: evaluate (3–9), which operation comes first (3–9), who is right (4–9), place the brackets (5–9). Difficulty grows by grade: + − × (3), ÷ (4), longer expressions (5), exponents (6), nested brackets (7), negative numbers (8–9).
 - Practice questions have a "🎓 Learn it" button that opens the lesson; the lesson has a "Practise BEDMAS" button for the student's grade.
 
+## Messages and challenges
+
+- **💬 Messages** (the icon next to the stars) let users chat:
+  - **Who can message whom:**
+    - Students: classmates (students who share a teacher) and their own teachers.
+    - Teachers: students in their roster.
+    - Admins: anyone.
+  - **Limits:** text only, up to 500 characters, at most 20 messages a minute.
+  - A conversation is marked read when it's opened. The top bar badge is polled every 30 s.
+- **⚔️ Challenges** let a student race a classmate:
+  - **Setting one up:** in a conversation, a student picks one of their homework sets (or today's daily practice), or up to 5 skills from any subject, each with a number of *correct* answers needed.
+  - The invitation appears as a card in the chat, where the opponent can **Accept** or **Decline**. The challenger can **Cancel** while it's pending.
+  - **The race:** both players do the same skills, and wrong answers don't count toward finishing. The first to complete every skill wins 🏆 (+3 ⭐), and the result is posted in the conversation.
+  - While racing, the practice page shows both players' progress bars live, polled every 8 s.
+  - **The Challenges page** shows open challenges, wins and losses, a head-to-head record per classmate, and the full history: each player's progress, accuracy and time from first answer to finish.
+  - **Limits:** at most 10 open challenges per student. Answers still count toward each skill's SmartScore.
+- **Server:** `server/src/social.js`, tables `messages`, `challenges`, `challenge_progress` and `challenge_finishes`.
+  - API: `GET /api/contacts`, `GET/POST /api/messages[/:userId]`, `GET /api/inbox`, `GET/POST /api/challenges`, `POST /api/challenges/:id/{accept,decline,cancel}`.
+  - Challenge answers go through `POST /api/answers` with `challengeId`.
+
 ## Chinese (HSK 1–6)
 
 Mandarin with Simplified characters and pinyin, organised by **HSK level 1–6** instead of school grade (`catalog/ixlChinese.js`, content in `catalog/zh/`). Layout is HSK level → Category → Section → Skill; ids are `chiH<level><key>`. A skill's `grade` field holds its HSK level.

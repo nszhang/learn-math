@@ -6,6 +6,7 @@ import jwt from 'jsonwebtoken';
 import crypto from 'node:crypto';
 import * as db from './db.js';
 import * as srs from './srs.js';
+import { registerSocial, recordChallengeAnswer } from './social.js';
 import { nextScore, medalFor } from './scoring.js';
 import { AWARDS, AWARD_META } from './awards.js';
 import { sendAssignmentEmail } from './reminders.js';
@@ -210,7 +211,9 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   // The workhorse: record one answered question. Handles SmartScore, stats,
   // medals, stars, homework progress/completion, and awards in one call.
   app.post('/api/answers', auth, async (req, res) => {
-    const { skillId, correct, streak, assignmentId, items } = req.body || {};
+    const { skillId, correct, streak, assignmentId, items, challengeId } = req.body || {};
+    if (challengeId !== undefined && challengeId !== null && typeof challengeId !== 'string')
+      return res.status(400).json({ error: 'Invalid challenge' });
     if (!isSkillId(skillId)) return res.status(400).json({ error: 'Unknown skill' });
     if (typeof correct !== 'boolean') return res.status(400).json({ error: 'correct must be boolean' });
 
@@ -276,12 +279,21 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       }
     }
 
+    // --- challenge progress (when racing a classmate) ---
+    let challenge = null;
+    if (challengeId) {
+      const r = await recordChallengeAnswer(pool, req.uid, challengeId, skillId, correct);
+      if (r.error) return res.status(400).json({ error: r.error });
+      challenge = r.challenge;
+      starDelta += r.stars || 0;
+    }
+
     if (starDelta) await db.addStars(pool, req.uid, starDelta);
     const { stars: starsNow } = await pool.query('SELECT stars FROM users WHERE id = $1', [req.uid])
       .then(r => r.rows[0]);
     const { newly: newAwards, stars } = await checkAwards(req.uid, starsNow);
 
-    res.json({ score, newMedal, newAwards, stars, homework });
+    res.json({ score, newMedal, newAwards, stars, homework, challenge });
   });
 
   app.post('/api/time', auth, async (req, res) => {
@@ -487,6 +499,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     if (!(await db.setHskLevel(pool, id, level))) return res.status(404).json({ error: 'Student not found' });
     res.json({ ok: true, hskLevel: level });
   }
+  registerSocial(app, { pool, auth, isSkillId });
+
   // ---------- Chinese word review deck (spaced repetition) ----------
   // mode 'review': an answer in the review deck (moves the word between boxes).
   // mode 'seen': the word came up in ordinary practice (adds new words; a miss sends it back).

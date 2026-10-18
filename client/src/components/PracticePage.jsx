@@ -21,7 +21,9 @@ function beep(freq, dur) {
 }
 
 export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onLearn }) {
-  const isHw = cfg.mode === 'homework';
+  // challenge mode reuses the homework queue: same skills and counts, but only correct answers count
+  const isCh = cfg.mode === 'challenge';
+  const isHw = cfg.mode === 'homework' || isCh;
 
   // homework queue: items with remaining questions
   const [queue, setQueue] = useState(() => isHw
@@ -51,6 +53,21 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
     ? { done: cfg.assignment.done ?? 0, total: cfg.assignment.total ?? cfg.assignment.items.reduce((s, i) => s + i.count, 0) }
     : null);
   const [hwDone, setHwDone] = useState(false);
+  const [chEnd, setChEnd] = useState(null); // { won, winnerName } when a challenge is over
+  // live race: the other player's progress
+  const [rival, setRival] = useState(null);
+  useEffect(() => {
+    if (!isCh) return;
+    const meId = me?.user?.id;
+    const poll = () => api('GET', `/api/challenges/${cfg.assignment.id}`).then(({ challenge: c }) => {
+      setRival(c.challenger.id === meId ? c.opponent : c.challenger);
+      if (c.status === 'completed' && c.winnerId !== meId) { setHwDone(true); setChEnd(e => e || { won: false, winnerName: (c.challenger.id === c.winnerId ? c.challenger : c.opponent).displayName }); }
+    }).catch(() => {});
+    poll();
+    const t = setInterval(poll, 8000);
+    return () => clearInterval(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isCh]);
   const secondsRef = useRef(0);
   const inputRef = useRef(null);
 
@@ -153,7 +170,8 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
 
     try {
       const body = { skillId, correct, streak: newStreak };
-      if (isHw) {
+      if (isCh) body.challengeId = cfg.assignment.id;
+      else if (isHw) {
         body.assignmentId = cfg.assignment.id;
         if (cfg.assignment.daily) body.items = cfg.assignment.items;
       }
@@ -171,7 +189,23 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
         toast(a.emoji, `Badge earned: ${a.name}! +2 ⭐`);
       });
 
-      if (isHw && r.homework) {
+      if (isCh && r.challenge) {
+        const c = r.challenge;
+        setHwTotals({ done: c.done, total: c.total });
+        const nq = queue.map((it, idx) => idx === qi ? { ...it, done: c.skillDone } : it);
+        setQueue(nq);
+        if (nq[qi].done >= nq[qi].count) setQi(qi + 1);
+        if (c.over) {
+          setHwDone(true);
+          setChEnd({ won: c.won, winnerName: c.winnerName, finished: c.justCompleted });
+          if (c.won) {
+            rewards.push('🏆 Challenge won! (+3⭐)');
+            fireConfetti();
+            toast('🏆', 'You won the challenge! +3 ⭐');
+          } else toast('⚔️', c.winnerName ? `${c.winnerName} finished first — good race!` : 'This challenge is over.');
+        }
+      }
+      if (!isCh && isHw && r.homework) {
         setHwTotals({ done: r.homework.done, total: r.homework.total });
         const nq = queue.map((it, idx) => idx === qi ? { ...it, done: it.done + 1 } : it);
         setQueue(nq);
@@ -195,7 +229,9 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
     nextQuestion();
   }
 
-  const medalText = isHw
+  const medalText = isCh
+    ? (chEnd ? (chEnd.won ? '🏆 You won!' : `⚔️ ${chEnd.winnerName || 'Your rival'} won this one`) : `⚔️ Race: ${hwTotals.done}/${hwTotals.total} correct`)
+    : isHw
     ? (hwDone ? '🎉 Done! Head back to see your stars.' : `📝 Homework: ${hwTotals.done}/${hwTotals.total} questions done`)
     : score >= 100 ? '🥇 Mastered!'
     : score >= 90 ? '🥈 Silver — Challenge Zone!'
@@ -206,18 +242,35 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
     <main className="page">
       <div className="practice-head">
         <button className="btn btn-ghost" type="button" onClick={onExit}>
-          ← Back to {isHw ? 'homework' : 'skills'}
+          ← Back to {isCh ? 'challenges' : isHw ? 'homework' : 'skills'}
         </button>
         {skill.learn && onLearn && (
           <button className="btn btn-ghost" type="button" onClick={() => onLearn(skill.learn)} title="Open the matching lesson">🎓 Learn it</button>
         )}
         <div className="practice-title">
-          <span className="skill-code">{isHw ? (cfg.assignment.daily ? 'Daily' : 'HW') : skill.code}</span>
-          <h2>{isHw
+          <span className="skill-code">{isCh ? '⚔️' : isHw ? (cfg.assignment.daily ? 'Daily' : 'HW') : skill.code}</span>
+          <h2>{isCh ? `Challenge: ${cfg.assignment.title}` : isHw
             ? (cfg.assignment.daily ? `Daily ${cfg.assignment.subject || ''} Practice — ${niceDate(cfg.assignment.due)}` : `Homework from ${cfg.assignment.teacherName || 'your teacher'}`)
             : skill.title}</h2>
         </div>
-        {isHw && (
+        {isCh && (
+          <div className={'practice-banner challenge-banner' + (chEnd ? (chEnd.won ? ' won' : ' lost') : '')}>
+            {chEnd
+              ? (chEnd.won ? <>🏆 <strong>You won the challenge!</strong> +3 ⭐</>
+                : <>⚔️ <strong>{chEnd.winnerName || 'Your rival'}</strong> finished first.{chEnd.finished ? ' You finished too — great effort!' : ''} Ask for a rematch!</>)
+              : <>⚔️ <strong>Race!</strong> Only correct answers count.
+                  {' • '}{SKILL_INDEX[currentItem.skillId].skill.code}: {currentItem.done} of {currentItem.count} correct
+                  {' • '}You {hwTotals.done}/{hwTotals.total}
+                  {rival && <> {' • '}{rival.displayName} {rival.done}/{rival.total}</>}</>}
+            {!chEnd && rival && (
+              <div className="race-bars">
+                <div className="race-bar"><span>You</span><div><i style={{ width: Math.round(100 * hwTotals.done / (hwTotals.total || 1)) + '%' }} /></div></div>
+                <div className="race-bar rival"><span>{rival.displayName}</span><div><i style={{ width: Math.round(100 * rival.done / (rival.total || 1)) + '%' }} /></div></div>
+              </div>
+            )}
+          </div>
+        )}
+        {!isCh && isHw && (
           <div className="practice-banner">
             {hwDone
               ? <>🎉 <strong>Homework complete!</strong> Amazing work — you earned 5 ⭐</>

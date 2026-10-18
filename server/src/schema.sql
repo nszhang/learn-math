@@ -105,3 +105,52 @@ CREATE TABLE IF NOT EXISTS word_reviews (
   lapses   INT  NOT NULL DEFAULT 0,
   PRIMARY KEY (user_id, word)
 );
+
+-- Messages between users (classmates who share a teacher, a teacher and their students; admins anyone).
+-- kind: 'text' (typed), 'challenge' (a challenge invitation), 'result' (who won).
+CREATE TABLE IF NOT EXISTS messages (
+  id           SERIAL PRIMARY KEY,
+  sender_id    INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  recipient_id INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  body         TEXT NOT NULL,
+  kind         TEXT NOT NULL DEFAULT 'text',
+  challenge_id TEXT,
+  created_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
+  read_at      TIMESTAMPTZ
+);
+CREATE INDEX IF NOT EXISTS idx_messages_recipient ON messages(recipient_id);
+CREATE INDEX IF NOT EXISTS idx_messages_sender ON messages(sender_id);
+
+-- Student challenges: both players do the same skills; the first to complete wins.
+-- status: pending → active (accepted) → completed; or declined / cancelled.
+CREATE TABLE IF NOT EXISTS challenges (
+  id            TEXT PRIMARY KEY,
+  challenger_id INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  opponent_id   INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  title         TEXT NOT NULL,
+  items         JSONB NOT NULL,          -- [{ skillId, count }]: count CORRECT answers needed per skill
+  status        TEXT NOT NULL DEFAULT 'pending',
+  winner_id     INT,
+  created_at    TIMESTAMPTZ NOT NULL DEFAULT now(),
+  accepted_at   TIMESTAMPTZ,
+  completed_at  TIMESTAMPTZ
+);
+CREATE INDEX IF NOT EXISTS idx_challenges_challenger ON challenges(challenger_id);
+CREATE INDEX IF NOT EXISTS idx_challenges_opponent ON challenges(opponent_id);
+
+CREATE TABLE IF NOT EXISTS challenge_progress (
+  challenge_id TEXT NOT NULL,
+  user_id      INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  skill_id     TEXT NOT NULL,
+  answered     INT  NOT NULL DEFAULT 0,
+  correct      INT  NOT NULL DEFAULT 0,
+  first_at     TIMESTAMPTZ NOT NULL DEFAULT now(),
+  PRIMARY KEY (challenge_id, user_id, skill_id)
+);
+
+CREATE TABLE IF NOT EXISTS challenge_finishes (
+  challenge_id TEXT NOT NULL,
+  user_id      INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  finished_at  TIMESTAMPTZ NOT NULL DEFAULT now(),
+  PRIMARY KEY (challenge_id, user_id)
+);
