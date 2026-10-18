@@ -90,9 +90,10 @@ export const ALGEBRA_RULES = [
     return num(`${m(`${a} × ${c + d} = (${a} × ${c}) + (${a} × ___)`)}`, d, `Split ${c + d} into ${c} + ${d}: the missing factor is ${b(d)}.`);
   }),
   R(/^Unit rates and equivalent rates$|^Unit rates$|^Equivalent rates$/, (mt, ctx) => () => {
-    const n = ri(2, 9), p = ri(2, 9), nm = pick(['pencils', 'apples', 'stickers', 'books']);
+    // whole-dollar prices that make sense for the item
+    const [nm, p] = pick([['notebooks', ri(2, 6)], ['comic books', ri(3, 8)], ['puzzles', ri(8, 20)], ['books', ri(8, 25)], ['T-shirts', ri(10, 25)], ['balls', ri(4, 15)], ['movie tickets', ri(8, 16)], ['sandwiches', ri(4, 9)]]), n = ri(2, 9);
     if (/Equivalent/.test(ctx.title)) { const k = ri(2, 4); return num(`${n} ${nm} cost $${n * p}. At the same rate, how much do ${n * k} ${nm} cost? ($)`, n * p * k, `One costs $${p}, so ${n * k} cost ${n * k} × ${p} = ${b('$' + n * k * p)}.`); }
-    return num(`${n} ${nm} cost $${n * p}. What is the cost of ${b('1')} ${nm.replace(/s$/, '')}? ($)`, p, `${n * p} ÷ ${n} = ${b('$' + p)}.`);
+    return num(`${n} ${nm} cost $${n * p}. What is the cost of ${b('1')} ${nm.replace(/ches$/, 'ch').replace(/s$/, '')}? ($)`, p, `${n * p} ÷ ${n} = ${b('$' + p)}.`);
   }),
   R(/^Write numerical expressions: one operation$|^Write numerical expressions$/, (mt, ctx) => () => {
     const a = ri(3, 12), c = ri(2, 9), q = pick([[`${c} more than ${a}`, `${a} + ${c}`, [`${c} + ${a + 1}`.replace(/^\d+ \+ /, `${a} − `), `${a} − ${c}`, `${c} × ${a}`]], [`${c} less than ${a + c}`, `${a + c} − ${c}`, [`${c} − ${a + c}`, `${a + c} + ${c}`, `${a + c} × ${c}`]], [`${c} times ${a}`, `${c} × ${a}`, [`${c} + ${a}`, `${a} − ${c}`, `${a} ÷ ${c}`]], [`${a * c} divided by ${c}`, `${a * c} ÷ ${c}`, [`${c} ÷ ${a * c}`, `${a * c} × ${c}`, `${a * c} − ${c}`]], [`the sum of ${a} and ${c}, times ${c}`, `(${a} + ${c}) × ${c}`, [`${a} + ${c} × ${c}`, `${a} + ${c} + ${c}`, `(${a} − ${c}) × ${c}`]]]);

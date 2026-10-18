@@ -1,5 +1,5 @@
 /* Ratios, rates, proportions, percents, consumer math, financial literacy and metric units (Grades 6–12). */
-import { ri, pick, shuffle, sample, range, uniq, sum, m, b, fmt, fix, dec, num, mc, yesNo, near, svg, C, NAMES, gcd, table, money, MINUS, thing } from '../h.js';
+import { ri, pick, shuffle, sample, range, uniq, sum, m, b, fmt, fix, dec, num, mc, yesNo, near, svg, C, NAMES, gcd, table, money, moneyShort, MINUS, thing, shopItem, priceOf, aAn, cap } from '../h.js';
 import { R } from '../engine.js';
 import { stack, fs, simp } from './fractions.js';
 import { strip } from './algebra.js';
@@ -97,7 +97,7 @@ export const RATIO_RULES = [
   }),
   R(/^Percent of change(?:: word problems)?$/, (mt, ctx) => () => {
     const a = pick([20, 40, 50, 80, 100, 200]), pc = pick([10, 20, 25, 50]), up = Math.random() < 0.5, bnew = a + (up ? 1 : -1) * (a * pc) / 100, nm = pick(NAMES);
-    if (/word/.test(ctx.title)) return num(`A game's price ${up ? 'rose' : 'dropped'} from $${a} to $${bnew}. What is the percent ${up ? 'increase' : 'decrease'}? (Answer without the % sign)`, pc, `Change = ${Math.abs(bnew - a)}; ${Math.abs(bnew - a)} ÷ ${a} = ${b(pc + '%')}.`);
+    if (/word/.test(ctx.title)) return num(`A game's price ${up ? 'rose' : 'dropped'} from ${moneyShort(a)} to ${moneyShort(bnew)}. What is the percent ${up ? 'increase' : 'decrease'}? (Answer without the % sign)`, pc, `Change = ${moneyShort(Math.abs(bnew - a))}; ${Math.abs(bnew - a)} ÷ ${a} = ${b(pc + '%')}.`);
     return num(`A value changes from ${b(a)} to ${b(bnew)}. What is the percent of change? (Answer without the % sign or the minus)`, pc, `|${bnew} − ${a}| ÷ ${a} = ${b(pc + '%')} ${up ? 'increase' : 'decrease'}.`);
   }),
 
@@ -107,20 +107,33 @@ export const RATIO_RULES = [
     return mc(`An item costs $${price}. Coupon A gives ${b(p + '% off')}. Coupon B gives ${b('$' + off + ' off')}. Which coupon saves more?`, a > off ? 'Coupon A' : 'Coupon B', [a > off ? 'Coupon B' : 'Coupon A', 'They save the same'], `A saves $${a} and B saves $${off}.`, 3);
   }),
   R(/^Unit prices(?: with fractions and decimals)?$|^Unit prices: find the total price$/, (mt, ctx) => () => {
-    const n = ri(2, 12), up = ri(15, 99) / 10, total = fix(n * up, 2), nm = thing()[1];
-    if (/total price/.test(ctx.title)) return num(`${nm[0].toUpperCase() + nm.slice(1)} cost ${b(dollars(up))} each. What is the total price of ${b(n)}? ($)`, total, `${n} × ${dollars(up)} = ${b(dollars(total))}.`);
-    const fr = /fractions/.test(ctx.title) && Math.random() < 0.5; if (fr) { const wholes = ri(2, 5); return num(`${wholes} ${nm} cost ${b(dollars(wholes * up))}. What is the price per item? ($)`, up, `${dollars(wholes * up)} ÷ ${wholes} = ${b(dollars(up))}.`); }
+    const item = shopItem(), n = ri(2, 12), up = priceOf(item), total = fix(n * up, 2), nm = item[1];
+    if (/total price/.test(ctx.title)) return num(`${cap(nm)} cost ${b(dollars(up))} each. What is the total price of ${b(n)} ${nm}? ($)`, total, `${n} × ${dollars(up)} = ${b(dollars(total))}.`);
+    const fr = /fractions/.test(ctx.title) && Math.random() < 0.5; if (fr) { const wholes = ri(2, 5); return num(`${wholes} ${nm} cost ${b(dollars(wholes * up))}. What is the price of one ${item[0]}? ($)`, up, `${dollars(wholes * up)} ÷ ${wholes} = ${b(dollars(up))}.`); }
     const [u1, u2] = [fix(up, 2), fix(up + ri(1, 4) / 10, 2)], q1 = ri(2, 6), q2 = ri(2, 6), p1 = fix(u1 * q1, 2), p2 = fix(u2 * q2, 2);
     if (q1 === q2) return null;
-    return mc(`A ${q1}-pack costs ${dollars(p1)} and a ${q2}-pack costs ${dollars(p2)}. Which is the better buy (lower price per item)?`, u1 < u2 ? `${q1}-pack` : `${q2}-pack`, [u1 < u2 ? `${q2}-pack` : `${q1}-pack`], `${dollars(u1)} per item vs ${dollars(u2)} per item.`, 2);
+    return mc(`A ${q1}-pack of ${nm} costs ${dollars(p1)} and a ${q2}-pack costs ${dollars(p2)}. Which is the better buy (lower price per ${item[0]})?`, u1 < u2 ? `${q1}-pack` : `${q2}-pack`, [u1 < u2 ? `${q2}-pack` : `${q1}-pack`], `${dollars(u1)} per item vs ${dollars(u2)} per item.`, 2);
   }),
   R(/^Sale prices(?:: find the original price)?$|^Percent of a number: tax, discount and more$|^Find the percent: tax, discount and more$|^Percents - calculate tax, tip, mark-up and more$|^Multi-step problems with percents$/, (mt, ctx) => () => {
-    const price = pick([20, 40, 50, 60, 80, 120, 200]), p = pick([5, 10, 15, 20, 25, 30]), kind = pick(['discount', 'tax', 'tip', 'markup']), nm = pick(NAMES), amt = fix((price * p) / 100, 2);
+    const kind = pick(['discount', 'tax', 'tip', 'markup']), nm = pick(NAMES);
+    // realistic rates: sales tax 5–15%, tips 10–20%, discounts and mark-ups up to 50%
+    const p = kind === 'tax' ? pick([5, 10, 13, 15]) : kind === 'tip' ? pick([10, 15, 20]) : pick([10, 15, 20, 25, 30, 40, 50]);
+    const price = kind === 'tip' ? pick([20, 40, 60, 80, 120]) : pick([20, 40, 50, 60, 80, 120, 200]), amt = fix((price * p) / 100, 2);
+    const thingFor = pick(['jacket', 'backpack', 'pair of shoes', 'bike helmet', 'lamp', 'board game']);
     if (/original price/.test(ctx.title)) { const sale = price - amt; return num(`After a ${b(p + '% discount')}, a jacket costs ${b(dollars(sale))}. What was the original price? ($)`, price, `The sale price is ${100 - p}% of the original: ${sale} ÷ ${(100 - p) / 100} = ${b(dollars(price))}.`); }
-    if (/Find the percent/.test(ctx.title)) return num(`A ${b(dollars(price))} item has ${kind === 'tax' ? 'sales tax' : 'a discount'} of ${b(dollars(amt))}. What percent is that? (Answer without the % sign)`, p, `${amt} ÷ ${price} = ${b(p + '%')}.`);
-    if (/Multi-step/.test(ctx.title)) { const tax = pick([5, 10]), net = price - amt, total = fix(net * (1 + tax / 100), 2); return num(`A ${b(dollars(price))} item is ${p}% off and then ${tax}% tax is added to the sale price. What is the final price? ($)`, total, `Sale price ${dollars(net)}; adding ${tax}% gives ${b(dollars(total))}.`); }
-    const fin = kind === 'discount' ? fix(price - amt, 2) : fix(price + amt, 2), lab = { discount: `${p}% off`, tax: `${p}% sales tax added`, tip: `${p}% tip added`, markup: `a ${p}% mark-up` }[kind];
-    return num(`A ${b(dollars(price))} item has ${b(lab)}. What is the ${kind === 'discount' ? 'sale price' : 'final price'}? ($)`, fin, `${dollars(price)} ${kind === 'discount' ? '−' : '+'} ${dollars(amt)} = ${b(dollars(fin))}.`);
+    if (/Find the percent/.test(ctx.title)) return num(kind === 'tip'
+      ? `A restaurant bill is ${b(dollars(price))} and ${nm} leaves a tip of ${b(dollars(amt))}. What percent tip is that? (Answer without the % sign)`
+      : kind === 'markup' ? `A store buys a ${thingFor} for ${b(dollars(price))} and sells it for ${b(dollars(price + amt))}. What percent is the mark-up? (Answer without the % sign)`
+      : `${cap(aAn(dollars(price)))} ${b(dollars(price))} ${thingFor} has ${kind === 'tax' ? 'sales tax' : 'a discount'} of ${b(dollars(amt))}. What percent is that? (Answer without the % sign)`, p, `${amt} ÷ ${price} = ${b(p + '%')}.`);
+    if (/Multi-step/.test(ctx.title)) { const tax = pick([5, 10]), net = price - amt, total = fix(net * (1 + tax / 100), 2); return num(`${cap(aAn(dollars(price)))} ${b(dollars(price))} ${thingFor} is ${p}% off, and then ${tax}% sales tax is added to the sale price. What is the final price? ($)`, total, `Sale price ${dollars(net)}; adding ${tax}% gives ${b(dollars(total))}.`); }
+    const fin = kind === 'discount' ? fix(price - amt, 2) : fix(price + amt, 2);
+    const text = {
+      discount: `${cap(aAn(dollars(price)))} ${b(dollars(price))} ${thingFor} is on sale for ${b(p + '% off')}. What is the sale price? ($)`,
+      tax: `${cap(aAn(dollars(price)))} ${b(dollars(price))} ${thingFor} has ${b(p + '% sales tax')} added. What is the total cost? ($)`,
+      tip: `${nm}'s restaurant bill is ${b(dollars(price))}. ${nm} adds a ${b(p + '% tip')}. What is the total? ($)`,
+      markup: `A store pays ${b(dollars(price))} for a ${thingFor} and marks it up ${b(p + '%')}. What is the selling price? ($)`
+    }[kind];
+    return num(text, fin, `${dollars(price)} ${kind === 'discount' ? '−' : '+'} ${dollars(amt)} = ${b(dollars(fin))}.`);
   }),
   R(/^Estimate tips$/, () => () => {
     const bill = ri(20, 90), p = pick([10, 15, 20]), est = Math.round(bill / 10) * 10;
@@ -135,10 +148,12 @@ export const RATIO_RULES = [
     return num(`${b(dollars(P0))} is invested at ${b(r + '%')} interest compounded yearly. What is the balance after ${b(t + ' years')}? ($)`, A, `A = ${P0} × ${1 + r / 100}^${t} = ${b(dollars(A))}.`);
   }),
   R(/^Add, subtract, multiply and divide money amounts: word problems$|^Multiply money amounts by whole numbers$|^Multiply money amounts: word problems$|^Divide money amounts(?:: word problems)?$/, (mt, ctx) => () => {
-    const up = ri(150, 999) / 100, n = ri(2, 9), nm = pick(NAMES), t = ctx.title;
-    if (/Divide/.test(t)) { const tot = fix(up * n, 2); return num(`${nm} pays ${b(dollars(tot))} for ${n} identical items. What does one item cost? ($)`, up, `${dollars(tot)} ÷ ${n} = ${b(dollars(up))}.`); }
-    if (/Multiply/.test(t)) return num(`${nm} buys ${n} items that cost ${b(dollars(up))} each. What is the total? ($)`, fix(up * n, 2), `${n} × ${dollars(up)} = ${b(dollars(up * n))}.`);
-    const a = ri(500, 3000) / 100, c = ri(100, 1500) / 100; return num(`${nm} has ${dollars(a + c)} and spends ${dollars(c)}, then buys ${n} stickers at ${dollars(up)} each. How much is left? ($)`, fix(a - up * n, 2), `${dollars(a + c)} − ${dollars(c)} − ${n} × ${dollars(up)} = ${b(dollars(a - up * n))}.`);
+    const item = shopItem(), up = priceOf(item), n = ri(2, 9), nm = pick(NAMES), t = ctx.title;
+    if (/Divide/.test(t)) { const tot = fix(up * n, 2); return num(`${nm} pays ${b(dollars(tot))} for ${n} ${item[1]} that all cost the same. What does one ${item[0]} cost? ($)`, up, `${dollars(tot)} ÷ ${n} = ${b(dollars(up))}.`); }
+    if (/Multiply/.test(t)) return num(`${nm} buys ${n} ${item[1]} that cost ${b(dollars(up))} each. What is the total? ($)`, fix(up * n, 2), `${n} × ${dollars(up)} = ${b(dollars(up * n))}.`);
+    // build the story backwards so the money left over is always positive
+    const first = shopItem(0, 10), firstPrice = priceOf(first), left = (ri(5, 300) * 5) / 100, start = fix(firstPrice + up * n + left, 2);
+    return num(`${nm} has ${dollars(start)}. ${nm} buys ${aAn(first[0])} ${first[0]} for ${dollars(firstPrice)}, then buys ${n} ${item[1]} at ${dollars(up)} each. How much money is left? ($)`, left, `${dollars(start)} − ${dollars(firstPrice)} − ${n} × ${dollars(up)} = ${b(dollars(left))}.`);
   }),
   R(/^Financial institution vocabulary$/, () => () => {
     const q = pick([['A fee charged for borrowing money, shown as a percent', 'Interest rate'], ['Money you put into a bank account', 'Deposit'], ['Taking money out of an account', 'Withdrawal'], ['A bank account used for everyday spending', 'Chequing account'], ['A bank account that earns interest on money you keep', 'Savings account']]);

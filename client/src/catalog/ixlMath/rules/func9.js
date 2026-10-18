@@ -286,7 +286,7 @@ export const FUNC9_RULES = [
   }),
   R(/^Solve a system of equations using substitution(?:: word problems)?$|^Solve a system of equations using elimination(?:: word problems)?$|^Solve a system of equations using any method(?:: word problems)?$/, (mt, ctx) => () => {
     const s = sysInt(), t = ctx.title, method = /substitution/.test(t) ? 'substitution' : /elimination/.test(t) ? 'elimination' : 'any method';
-    if (/word/.test(t)) { const a = ri(2, 6), c = ri(2, 6), x = ri(2, 9), y = ri(2, 9); if (a === c) return null; return mc(`${a} adult tickets and ${c} child tickets cost $${a * x + c * y}. ${c} adult tickets and ${a} child tickets cost $${c * x + a * y}. What is the price of an adult ticket?`, `$${x}`, [`$${y}`, `$${x + 1}`, `$${x + y}`], `Subtract and solve: adult tickets cost ${b('$' + x)}.`, 4); }
+    if (/word/.test(t)) { const a = ri(2, 6), c = ri(2, 6), x = ri(9, 18), y = ri(4, x - 3); /* adult $9–18, child at least $3 cheaper */ if (a === c) return null; return mc(`${a} adult tickets and ${c} child tickets cost $${a * x + c * y}. ${c} adult tickets and ${a} child tickets cost $${c * x + a * y}. What is the price of an adult ticket?`, `$${x}`, [`$${y}`, `$${x + 1}`, `$${x + y}`], `Subtract and solve: adult tickets cost ${b('$' + x)}.`, 4); }
     return mc(`Solve by ${method}:<br>${sysTxt(s)}`, pt(s.x, s.y), uniq([pt(s.y, s.x), pt(-s.x, s.y), pt(s.x, -s.y), pt(s.x + 1, s.y)]).filter(v_ => v_ !== pt(s.x, s.y)), `Solving gives ${b(pt(s.x, s.y))}.`, 4);
   }),
   R(/^Find the number of solutions to a system of equations(?: by graphing)?$|^Classify a system of equations(?: by graphing)?$/, (mt, ctx) => () => {

@@ -90,6 +90,26 @@ export const THINGS = [
   ['cherry', 'cherries', '🍒'], ['leaf', 'leaves', '🍃'], ['block', 'blocks', '🧱'], ['card', 'cards', '🃏'], ['bead', 'beads', '📿']
 ];
 export const thing = () => pick(THINGS);
+
+/* ---------- realistic shopping ----------
+   Everyday items with believable Canadian prices: [singular, plural, min $, max $].
+   Prices come out in multiples of 5¢ so change can be made with real coins. */
+export const SHOP = [
+  ['pencil', 'pencils', 0.5, 1.5], ['eraser', 'erasers', 0.5, 2], ['pen', 'pens', 1, 3.5], ['notebook', 'notebooks', 2, 6], ['marker', 'markers', 1, 3],
+  ['sticker', 'stickers', 0.25, 1.25], ['apple', 'apples', 0.5, 1.5], ['banana', 'bananas', 0.25, 0.9], ['orange', 'oranges', 0.6, 1.5],
+  ['muffin', 'muffins', 1.5, 3.5], ['cookie', 'cookies', 0.75, 2.5], ['juice box', 'juice boxes', 1, 2.5], ['sandwich', 'sandwiches', 4, 9],
+  ['comic book', 'comic books', 3, 8], ['toy car', 'toy cars', 3, 12], ['ball', 'balls', 4, 15], ['puzzle', 'puzzles', 8, 20],
+  ['book', 'books', 8, 25], ['T-shirt', 'T-shirts', 10, 25], ['movie ticket', 'movie tickets', 8, 16], ['bus ticket', 'bus tickets', 2, 4]
+];
+export const shopItem = (minPrice = 0, maxPrice = Infinity) => pick(SHOP.filter(i => i[3] >= minPrice && i[2] <= maxPrice));
+export const priceOf = item => (ri(Math.ceil((item[2] * 100) / 5), Math.floor((item[3] * 100) / 5)) * 5) / 100;
+// "a" or "an" before a word or a dollar amount ("an $80.00 jacket", "an apple", "an 11-dollar…")
+export const aAn = next => {
+  const t = String(next).replace(/<[^>]+>/g, '').trim();
+  const digits = t.replace(/^\$/, '').match(/^\d[\d,]*/);
+  if (digits) { const d = digits[0].replace(/,/g, ''); return /^8/.test(d) || d === '11' || d === '18' || /^1[18]\d{3}$/.test(d) ? 'an' : 'a'; }
+  return /^[aeiou]/i.test(t) && !/^(uni|use|one|eu)/i.test(t) ? 'an' : 'a';
+};
 export const emojiRow = (e, n, perRow = 10) => {
   let s = '';
   for (let i = 0; i < n; i++) s += e + ((i + 1) % perRow === 0 && i + 1 < n ? '<br>' : '');

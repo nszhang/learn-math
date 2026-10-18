@@ -174,7 +174,7 @@ export const FRACDEC6_RULES = [
   }),
   R(/^Multiply a decimal up to (?:tenths|hundredths) by a whole number(?:: word problems)?$/, (mt, ctx) => () => {
     const p = /hundredths/.test(ctx.title) ? 2 : 1, x = decN(p, 9), n = ri(2, 12), nm = pick(NAMES);
-    return /word/.test(ctx.title) ? num(`${nm} buys ${n} items that each cost $${dstr(x)}. What is the total cost? ($)`, fix(x * n, 4), `${n} × ${dstr(x)} = ${b(fix(x * n, 4))}.`) : num(`${m(`${dstr(x)} × ${n}`)} = ?`, fix(x * n, 4), `${b(fix(x * n, 4))}.`);
+    return /word/.test(ctx.title) ? num(`${nm} buys ${n} items that each cost ${'$' + x.toFixed(2)}. What is the total cost? ($)`, fix(x * n, 4), `${n} × ${dstr(x)} = ${b(fix(x * n, 4))}.`) : num(`${m(`${dstr(x)} × ${n}`)} = ?`, fix(x * n, 4), `${b(fix(x * n, 4))}.`);
   }),
   R(/^Multiply decimals: where does the decimal point go\?$/, () => () => {
     const a = decN(1, 9), c = decN(ri(1, 2), 9), prod = fix(a * c, 4), digs = String(Math.round(a * 10) * Math.round(c * 10 ** decPlaces(c)));

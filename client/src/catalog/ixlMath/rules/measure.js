@@ -1,6 +1,6 @@
 /* Measurement strand (Grades 1–5): units, thermometers & rulers, clocks & elapsed time, calendars, Canadian money. */
 import {
-  ri, pick, shuffle, sample, range, uniq, sum, m, b, fmt, fix, num, mc, yesNo, near, svg, C, thing, NAMES, emojiRow, big, clock, digital, table, money, moneyShort, cap
+  ri, pick, shuffle, sample, range, uniq, sum, m, b, fmt, fix, num, mc, yesNo, near, svg, C, thing, NAMES, emojiRow, big, clock, digital, table, money, moneyShort, cap, shopItem, priceOf, aAn
 } from '../h.js';
 import { R } from '../engine.js';
 
@@ -398,8 +398,16 @@ export const MEASURE_RULES = [
     const wp = /word problems/.test(ctx.title), small = /\$1/.test(ctx.title) || ctx.grade <= 2, a = small ? ri(5, 60) * 1 : ri(150, 2999), c = small ? ri(5, 99 - 0) : ri(100, 1999), add = /Add money/.test(ctx.title) || Math.random() < 0.5;
     const A = Math.max(a, c), B = Math.min(a, c), tot = add ? a + c : A - B;
     if (small && add && tot > 100) return null;
+    if (!add && A === B) return null;   // "has 40¢ and spends 40¢" is not a real question
     const fm = small ? centsText : x => '$' + (x / 100).toFixed(2), nm = pick(NAMES), ans = small ? tot : tot / 100;
-    if (wp) return num(`${add ? `${nm} buys a pen for ${fm(a)} and a notebook for ${fm(c)}. How much does ${nm} spend in all?` : `${nm} has ${fm(A)} and spends ${fm(B)}. How much is left?`} ${small ? '(in cents)' : '(in dollars)'}`, ans, `${add ? `${fm(a)} + ${fm(c)}` : `${fm(A)} − ${fm(B)}`} = ${b(fm(tot))}.`);
+    if (wp) {
+      // realistic items: small amounts are things that cost cents; bigger ones use believable shop prices
+      const [i1, i2] = small ? sample([['sticker'], ['eraser'], ['pencil'], ['bookmark'], ['gumball'], ['balloon']], 2)
+        : (() => { const x = shopItem(2); let y = shopItem(); while (y[0] === x[0]) y = shopItem(); return [x, y]; })();
+      const p1 = small ? a : Math.round(priceOf(i1) * 100), p2 = small ? c : Math.round(priceOf(i2) * 100);
+      if (add) { const t2 = p1 + p2; if (small && t2 > 100) return null; return num(`${nm} buys ${aAn(i1[0])} ${i1[0]} for ${fm(p1)} and ${aAn(i2[0])} ${i2[0]} for ${fm(p2)}. How much does ${nm} spend in all? ${small ? '(in cents)' : '(in dollars)'}`, small ? t2 : t2 / 100, `${fm(p1)} + ${fm(p2)} = ${b(fm(t2))}.`); }
+      return num(`${nm} has ${fm(A)} and spends ${fm(B)}. How much is left? ${small ? '(in cents)' : '(in dollars)'}`, ans, `${fm(A)} − ${fm(B)} = ${b(fm(tot))}.`);
+    }
     return num(`${add ? m(`${fm(a)} + ${fm(c)}`) : m(`${fm(A)} − ${fm(B)}`)} = ? ${small ? '(in cents)' : '(in dollars)'}`, ans, `${add ? `${fm(a)} + ${fm(c)}` : `${fm(A)} − ${fm(B)}`} = ${b(fm(tot))}.`);
   }),
   R(/^Compare money amounts$|^Inequalities with money$/, () => () => {
@@ -411,9 +419,9 @@ export const MEASURE_RULES = [
     return mc(`Order from ${b(asc ? 'least to greatest' : 'greatest to least')}:<br>${m(key(vals))}`, key(sorted), [shuffle(sorted), shuffle(sorted)].map(key).filter(k => k !== key(sorted)).concat([key(sorted.slice().reverse())]).filter(k => k !== key(sorted)), `${b(key(sorted))}.`);
   }),
   R(/^Price lists$|^Price lists with addition and subtraction$/, () => () => {
-    const items = sample([['apple', 0.75], ['sandwich', 4.5], ['juice', 2.25], ['cookie', 1.25], ['salad', 5.5], ['milk', 1.75], ['muffin', 2.5]], 3), [a, c] = items;
+    const items = sample([['apple', 0.75], ['sandwich', 4.5], ['juice box', 2.25], ['cookie', 1.25], ['salad', 5.5], ['carton of milk', 1.75], ['muffin', 2.5]], 3), [a, c] = items;
     const total = fix(a[1] + c[1]);
-    return num(`${table(['Item', 'Price'], items.map(x => [x[0], money(x[1])]))}How much do a ${b(a[0])} and a ${b(c[0])} cost together? (in dollars)`, total, `${money(a[1])} + ${money(c[1])} = ${b(money(total))}.`);
+    return num(`${table(['Item', 'Price'], items.map(x => [x[0], money(x[1])]))}How much do ${aAn(a[0])} ${b(a[0])} and ${aAn(c[0])} ${b(c[0])} cost together? (in dollars)`, total, `${money(a[1])} + ${money(c[1])} = ${b(money(total))}.`);
   }),
   R(/^Find the change, price or amount paid$/, () => () => {
     const price = ri(150, 1800) / 100, paid = Math.ceil(price / 5) * 5, change = fix(paid - price), ask = pick(['change', 'price', 'paid']);
@@ -422,9 +430,9 @@ export const MEASURE_RULES = [
     return num(`An item costs ${money(price)} and you get ${money(change)} change. How much did you pay? (dollars)`, paid, `${money(price)} + ${money(change)} = ${b(money(paid))}.`);
   }),
   R(/^(?:Multiply and divide money amounts: word problems|Multiply money amounts with decimals(?:: word problems)?|Divide money amounts with decimals(?:: word problems)?)$/, (mt, ctx) => () => {
-    const mulOp = /Multiply/.test(ctx.title) && !(/Multiply and divide/.test(ctx.title) && Math.random() < 0.5), nm = pick(NAMES), unitP = ri(50, 899) / 100, n = ri(2, 9);
-    if (mulOp) return num(`${nm} buys ${n} items that cost ${b(money(unitP))} each. How much do they cost altogether? (dollars)`, fix(unitP * n), `${n} × ${money(unitP)} = ${b(money(unitP * n))}.`);
-    const tot = fix(unitP * n); return num(`${nm} pays ${b(money(tot))} for ${n} identical items. How much does one item cost? (dollars)`, unitP, `${money(tot)} ÷ ${n} = ${b(money(unitP))}.`);
+    const mulOp = /Multiply/.test(ctx.title) && !(/Multiply and divide/.test(ctx.title) && Math.random() < 0.5), nm = pick(NAMES), item = shopItem(0, 10), unitP = priceOf(item), n = ri(2, 9);
+    if (mulOp) return num(`${nm} buys ${n} ${item[1]} that cost ${b(money(unitP))} each. How much do they cost altogether? (dollars)`, fix(unitP * n), `${n} × ${money(unitP)} = ${b(money(unitP * n))}.`);
+    const tot = fix(unitP * n); return num(`${nm} pays ${b(money(tot))} for ${n} ${item[1]} that all cost the same. How much does one ${item[0]} cost? (dollars)`, unitP, `${money(tot)} ÷ ${n} = ${b(money(unitP))}.`);
   })
 ];
 export { t12, t24, dur, timeWords, coinBadge, centsText, thermometer, ruler, calendarHtml, MONTHS, DAYS };

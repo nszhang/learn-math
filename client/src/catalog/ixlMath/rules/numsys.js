@@ -91,7 +91,8 @@ export const NUMSYS_RULES = [
     const a = ri(11, 99) / 10, c = ri(2, 9), d = ri(11, 49) / 10, op = pick(['+', '−', '×', '÷']), nm = pick(NAMES);
     if (/Evaluate/.test(ctx.title)) { const ex = pick([`${dec(a, 1)} + ${c} × ${dec(d, 1)}`, `(${dec(a, 1)} − ${dec(d, 1)}) × ${c}`, `${dec(a, 1)} × ${c} − ${dec(d, 1)}`]), r = fix(evalExpr(ex), 4); if (r < 0) return null; return num(`${m(`${ex} = ?`)}`, r, `Order of operations: ${b(r)}.`); }
     const r = op === '+' ? a + d : op === '−' ? Math.abs(a - d) : op === '×' ? a * c : fix(a * c, 2) / c, pa = op === '−' && a < d ? d : a, pd = op === '−' && a < d ? a : d;
-    if (/word/.test(ctx.title)) return num(op === '+' ? `${nm} buys items costing $${dec(a, 1)} and $${dec(d, 1)}. What is the total? ($)` : op === '−' ? `${nm} has $${dec(pa, 1)} and spends $${dec(pd, 1)}. How much is left? ($)` : op === '×' ? `${nm} buys ${c} items at $${dec(a, 1)} each. What is the total? ($)` : `${nm} splits $${dec(fix(a * c, 2), 2)} equally among ${c} friends. How much does each get? ($)`, fix(r, 4), `The answer is ${b(fix(r, 4))}.`);
+    if (/word/.test(ctx.title) && op === '−' && a === d) return null;
+    if (/word/.test(ctx.title)) return num(op === '+' ? `${nm} buys items costing $${dec(a, 2)} and $${dec(d, 2)}. What is the total? ($)` : op === '−' ? `${nm} has $${dec(pa, 2)} and spends $${dec(pd, 2)}. How much is left? ($)` : op === '×' ? `${nm} buys ${c} items at $${dec(a, 2)} each. What is the total? ($)` : `${nm} splits $${dec(fix(a * c, 2), 2)} equally among ${c} friends. How much does each get? ($)`, fix(r, 4), `The answer is ${b(fix(r, 4))}.`);
     return num(op === '÷' ? `${m(`${dec(fix(a * c, 2), 2)} ÷ ${c} = ?`)}` : op === '×' ? `${m(`${dec(a, 1)} × ${c} = ?`)}` : `${m(`${dec(pa, 1)} ${op} ${dec(pd, 1)} = ?`)}`, fix(r, 4), `The answer is ${b(fix(r, 4))}.`);
   }),
 

@@ -24,6 +24,20 @@ export function validate(q) {
       if (!q.choices.includes(q.answer)) errs.push('answer not in choices');
     }
   } else errs.push('bad type ' + q.type);
+  errs.push(...moneySense(q));
+  return errs;
+}
+
+// Real-life money: shopping answers are never negative, and prices are written with cents ($4.30, not $4.3).
+const plainText = t => String(t).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+const SHOPPING = /\b(buys?|bought|spends?|spent|pays?|paid|costs?|price|change|left|sale|discount|tip|tax)\b/i;
+const NOT_SHOPPING = /temperature|°|rate of change|balance|expected value|game pays|lose \$|profit|loss|slope/i;
+export function moneySense(q) {
+  const p = plainText(q.prompt), errs = [];
+  if (!/\$/.test(p) || !SHOPPING.test(p) || NOT_SHOPPING.test(p)) return errs;
+  const ans = typeof q.answer === 'number' ? q.answer : Number((plainText(q.answer).replace('−', '-').match(/-?\d+(\.\d+)?/) || [])[0]);
+  if (Number.isFinite(ans) && ans < 0) errs.push('negative money answer in a shopping question');
+  if (/\$\d+\.\d(?!\d)/.test(p)) errs.push('money written to tenths (needs cents)');
   return errs;
 }
 
