@@ -20,25 +20,25 @@ export function skillsAtGrade(grade) {
   }));
 }
 
-// Deterministic daily set for a calendar date: 3 skills × 5 questions.
-// With a grade: one Math, one English and one Science skill at that grade.
-// Without one: three math skills from any grade (the original behaviour).
+// Deterministic daily set for a calendar date: 3 skills × 5 questions, all from ONE subject.
+// With a grade, the subject rotates day by day (Math → English → Science) among the
+// subjects that have that grade. Without a grade: three math skills from any grade.
 export function dailyAssignment(dateString, grade = null) {
   let seed = 0;
   for (const c of dateString) seed = (seed * 31 + c.charCodeAt(0)) >>> 0;
   const items = [];
-  const pools = grade !== null && grade !== undefined ? skillsAtGrade(grade).map(p => p.skills).filter(p => p.length) : [];
-  if (pools.length) {
-    pools.forEach((pool, k) => items.push({ skillId: pool[(seed + k * 7) % pool.length].id, count: 5 }));
-  } else {
-    for (let i = 0; items.length < 3 && i < ALL_SKILLS.length * 2; i++) {
-      const s = ALL_SKILLS[(seed + i * 5) % ALL_SKILLS.length];
-      if (!items.find(x => x.skillId === s.id)) items.push({ skillId: s.id, count: 5 });
-    }
+  const pools = grade !== null && grade !== undefined ? skillsAtGrade(grade).filter(p => p.skills.length) : [];
+  const [y, m, d] = dateString.split('-').map(Number);
+  const dayNum = Math.floor(Date.UTC(y, m - 1, d) / 86400000);
+  const chosen = pools.length ? pools[dayNum % pools.length] : { subject: SUBJECTS.find(sb => sb.id === 'math'), skills: ALL_SKILLS };
+  const pool = chosen.skills;
+  for (let i = 0; items.length < Math.min(3, pool.length) && i < pool.length * 2; i++) {
+    const s = pool[(seed + i * 7) % pool.length];
+    if (!items.find(x => x.skillId === s.id)) items.push({ skillId: s.id, count: 5 });
   }
   // no more questions than a skill has different ones, so nothing repeats
   for (const it of items) it.count = Math.min(it.count, distinctQuestions(SKILL_INDEX[it.skillId].skill, it.count));
-  return { id: 'daily-' + dateString, daily: true, due: dateString, items };
+  return { id: 'daily-' + dateString, daily: true, due: dateString, items, subject: chosen.subject?.name || 'Math', subjectEmoji: chosen.subject?.emoji || '➗' };
 }
 
 // Merge server-provided daily progress into a daily assignment object.

@@ -193,7 +193,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit }) {
         <div className="practice-title">
           <span className="skill-code">{isHw ? (cfg.assignment.daily ? 'Daily' : 'HW') : skill.code}</span>
           <h2>{isHw
-            ? (cfg.assignment.daily ? `Daily Practice — ${niceDate(cfg.assignment.due)}` : `Homework from ${cfg.assignment.teacherName || 'your teacher'}`)
+            ? (cfg.assignment.daily ? `Daily ${cfg.assignment.subject || ''} Practice — ${niceDate(cfg.assignment.due)}` : `Homework from ${cfg.assignment.teacherName || 'your teacher'}`)
             : skill.title}</h2>
         </div>
         {isHw && (

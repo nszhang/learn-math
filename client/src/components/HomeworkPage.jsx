@@ -3,7 +3,7 @@ import { localDateStr, addDays, niceDate, dailyWithProgress, skillName } from '.
 function HwCard({ assign, onStart }) {
   const total = assign.total ?? assign.items.reduce((s, i) => s + i.count, 0);
   const done = assign.done ?? (assign.progress || []).reduce((s, p) => s + Math.min(p.count, p.done), 0);
-  const from = assign.daily ? '📅 Daily Practice' : `🍎 From ${assign.teacherName || 'your teacher'}`;
+  const from = assign.daily ? `📅 Daily Practice · ${assign.subjectEmoji} ${assign.subject}` : `🍎 From ${assign.teacherName || 'your teacher'}`;
   return (
     <div className={'hw-card' + (assign.completed ? ' done' : '')}>
       <div className="hw-head">
