@@ -17,6 +17,7 @@ export const MATH_TOPICS = [
 
 // First matching rule wins. Tested against the section name.
 const MATH_RULES = [
+  [/^BEDMAS/i, 'Expressions, equations and inequalities'],
   // ---- Calculus (handled by name; "Rational functions" is a limits topic only in Calculus, see mathTopic) ----
   [/limits|continuity|L'Hospital/i, 'Limits and continuity'],
   [/integra|Fundamental Theorem|Antiderivatives|^Definite integrals$|Differential equations/i, 'Integration and differential equations'],

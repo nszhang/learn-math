@@ -17,6 +17,7 @@ import { ENGLISH_ALL } from './catalog/ixlEnglish.js';
 import { SCIENCE_ALL } from './catalog/ixlScience.js';
 import { IXL_MATH_SKILLS, IXL_MATH_SECTION_ORDER, ixlIconFor } from './catalog/ixlMath/index.js';
 import { MATH_TOPICS, mathTopic, SCIENCE_TOPICS, scienceTopic } from './catalog/topics.js';
+import { BEDMAS_SKILLS, BEDMAS_SECTION } from './catalog/bedmasSkills.js';
 
 const ENGLISH_SKILLS = ENGLISH_ALL;
 const SCIENCE_SKILLS = SCIENCE_ALL;
@@ -232,7 +233,9 @@ export const GRADES = buildGrades(addRaw => {
 
   // IXL-structured skills
   for (const sk of IXL_MATH_SKILLS) addRaw(sk.grade, sk.section, sk.icon, sk);
-}, '', false, (grade, name) => (IXL_GRADES.has(grade) ? IXL_MATH_SECTION_ORDER[grade]?.[name] ?? null : null), { list: MATH_TOPICS, of: mathTopic });
+  // BEDMAS practice (grades 3–9), paired with the Learn lesson
+  for (const sk of BEDMAS_SKILLS) addRaw(sk.grade, sk.section, sk.icon, sk);
+}, '', false, (grade, name) => (name === BEDMAS_SECTION ? 9999 : IXL_GRADES.has(grade) ? IXL_MATH_SECTION_ORDER[grade]?.[name] ?? null : null), { list: MATH_TOPICS, of: mathTopic });
 
 /* ---------- English & Science (skills carry grade/section inline) ---------- */
 const inlineFill = list => add => list.forEach(s => add(s.grade, s.section, s.icon, s));

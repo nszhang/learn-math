@@ -25,7 +25,7 @@ function Expression({ tokens, span, group, rule, clickable, onPick, flash }) {
   );
 }
 
-export default function BedmasLab({ toast, fireConfetti }) {
+export default function BedmasLab({ toast, fireConfetti, myGrade = null, onPractice = null }) {
   const [mode, setMode] = useState('watch');           // 'watch' | 'practice'
   const [level, setLevel] = useState(2);
   const [expr, setExpr] = useState(() => randomExpression(2));
@@ -179,6 +179,16 @@ export default function BedmasLab({ toast, fireConfetti }) {
           : pLog.map((st, i) => (
             <div key={i} className="lesson-step step-done"><span className="step-num">✓</span><div className="step-text">{st.text}</div></div>
           ))}
+
+        {onPractice && (<>
+          <h4 style={{ marginTop: 18 }}>🎯 Practise for points</h4>
+          {myGrade !== null && myGrade >= 3 && myGrade <= 9
+            ? <button type="button" className="btn btn-primary" onClick={() => onPractice(`mthBev${myGrade}`)}>Practise BEDMAS — Grade {myGrade}</button>
+            : <div className="preset-row" style={{ flexWrap: 'wrap' }}>
+                {[3, 4, 5, 6, 7, 8, 9].map(g => <button key={g} type="button" className="preset-btn" onClick={() => onPractice(`mthBev${g}`)}>Grade {g}</button>)}
+              </div>}
+          <p className="muted" style={{ fontSize: '.85rem', marginTop: 6 }}>More BEDMAS skills are in Math → your grade → “BEDMAS: order of operations”.</p>
+        </>)}
 
         <h4 style={{ marginTop: 18 }}>⚠️ Common traps</h4>
         <div className="preset-row" style={{ flexWrap: 'wrap' }}>

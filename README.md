@@ -455,3 +455,9 @@ Each student can have a grade (`users.grade`: −1 = JK, 0 = K, 1–12; Calculus
 - Students' skill pages open on their grade, mark it "⭐ Your grade", and label higher grades "🚀 Above your grade" — exploring ahead is always allowed.
 - Daily practice is three skills from one subject at the student's grade; the subject rotates day by day (Math → English → Science).
 - The Assign page shows the student's grade by default, can suggest their weakest unmastered skills at that grade, flags above-grade skills, and asks the teacher to confirm before assigning them.
+
+## BEDMAS
+
+- **Lesson:** Learn → Numbers & operations → BEDMAS (`components/learn/BedmasLab.jsx`, step engine `learn/bedmas.js`).
+- **Practice / homework:** Math grades 3–9 each have a "BEDMAS: order of operations" section (`catalog/bedmasSkills.js`, ids `mthB…<grade>`), built on the same engine: evaluate (3–9), which operation comes first (3–9), who is right (4–9), place the brackets (5–9). Difficulty grows by grade: + − × (3), ÷ (4), longer expressions (5), exponents (6), nested brackets (7), negative numbers (8–9).
+- Practice questions have a "🎓 Learn it" button that opens the lesson; the lesson has a "Practise BEDMAS" button for the student's grade.

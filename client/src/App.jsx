@@ -34,6 +34,7 @@ export default function App() {
   const [homework, setHomework] = useState(null);
   const [toasts, setToasts] = useState([]);
   const [practiceCfg, setPracticeCfg] = useState(null);
+  const [learnOpen, setLearnOpen] = useState(null);   // lesson to open when jumping to Learn
   const [confettiTick, setConfettiTick] = useState(0);
   const [showChpw, setShowChpw] = useState(false);
 
@@ -117,7 +118,7 @@ export default function App() {
         {nav.map(([id, label]) => (
           <button key={id} type="button"
             className={'nav-btn' + (page === id && !practiceCfg ? ' active' : '')}
-            onClick={() => { setPracticeCfg(null); setPage(id); }}>
+            onClick={() => { setPracticeCfg(null); setLearnOpen(null); setPage(id); }}>
             {label}
           </button>
         ))}
@@ -134,7 +135,8 @@ export default function App() {
 
     {practiceCfg ? (
       <PracticePage cfg={practiceCfg} me={me} toast={toast}
-        fireConfetti={fireConfetti} onExit={() => exitPractice(practiceCfg)} />
+        fireConfetti={fireConfetti} onExit={() => exitPractice(practiceCfg)}
+        onLearn={lesson => { setPracticeCfg(null); setLearnOpen(lesson); setPage('learn'); }} />
     ) : (<>
       {loadError && !me && (
         <main className="page">
@@ -150,7 +152,8 @@ export default function App() {
         <SkillsPage key={subj.id} subject={subj} me={me} homework={homework}
           onStartSkill={startSkill} onStartHomework={startHomework} toast={toast} />))}
       {page === 'homework' && <HomeworkPage homework={homework} onStart={startHomework} />}
-      {page === 'learn' && <LearnPage toast={toast} fireConfetti={fireConfetti} />}
+      {page === 'learn' && <LearnPage key={learnOpen || 'learn'} toast={toast} fireConfetti={fireConfetti} initialOpen={learnOpen}
+        myGrade={me?.user?.grade ?? null} onPractice={user.role === 'student' ? startSkill : null} />}
       {page === 'dashboard' && <DashboardPage me={me} onStartSkill={startSkill} />}
       {page === 'awards' && <AwardsPage me={me} />}
       {page === 'students' && <TeacherStudents toast={toast} />}

@@ -55,8 +55,8 @@ const GROUPS = [
 const LESSONS = {};
 GROUPS.forEach(g => g.lessons.forEach(l => { LESSONS[l.id] = { ...l, group: g.name }; }));
 
-export default function LearnPage({ toast, fireConfetti }) {
-  const [open, setOpen] = useState(null);
+export default function LearnPage({ toast, fireConfetti, initialOpen = null, myGrade = null, onPractice = null }) {
+  const [open, setOpen] = useState(initialOpen);
 
   if (open) {
     const L = LESSONS[open];
@@ -83,7 +83,7 @@ export default function LearnPage({ toast, fireConfetti }) {
         {open === 'factoring' && <FactoringLab />}
         {open === 'ftc' && <CalculusLab />}
         {open === 'complex' && <ComplexLab />}
-        {open === 'bedmas' && <BedmasLab {...props} />}
+        {open === 'bedmas' && <BedmasLab {...props} myGrade={myGrade} onPractice={onPractice} />}
       </main>
     );
   }

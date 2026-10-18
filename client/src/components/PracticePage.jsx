@@ -17,7 +17,7 @@ function beep(freq, dur) {
   } catch { /* audio unavailable */ }
 }
 
-export default function PracticePage({ cfg, me, toast, fireConfetti, onExit }) {
+export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onLearn }) {
   const isHw = cfg.mode === 'homework';
 
   // homework queue: items with remaining questions
@@ -190,6 +190,9 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit }) {
         <button className="btn btn-ghost" type="button" onClick={onExit}>
           ← Back to {isHw ? 'homework' : 'skills'}
         </button>
+        {skill.learn && onLearn && (
+          <button className="btn btn-ghost" type="button" onClick={() => onLearn(skill.learn)} title="Open the matching lesson">🎓 Learn it</button>
+        )}
         <div className="practice-title">
           <span className="skill-code">{isHw ? (cfg.assignment.daily ? 'Daily' : 'HW') : skill.code}</span>
           <h2>{isHw
