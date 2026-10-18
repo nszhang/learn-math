@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { api } from '../api.js';
 import { SKILL_INDEX, PRAISE, PRAISE_CHALLENGE, ENCOURAGE, MASTERY_MSGS, pick, fmtNum } from '../skills.js';
-import { niceDate } from '../homework.js';
-import { createDeduper } from '../questionPool.js';
+import { niceDate, localDateStr } from '../homework.js';
+import WriteCharacters from './WriteCharacters.jsx';
+import { createDeduper, questionSig } from '../questionPool.js';
 import { canSpeak, speakChinese } from '../speech.js';
 
 let audioCtx = null;
@@ -118,10 +119,14 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
     setAnswered(false); setFeedback(null); setInputVal(''); setSelected(null);
   }
 
-  async function submitAnswer() {
+  // writing questions submit themselves when the last character is drawn
+  async function submitAnswer(written = null) {
     if (answered) return;
     let correct;
-    if (question.type === 'num') {
+    if (question.type === 'write') {
+      if (written === null) return;
+      correct = written;
+    } else if (question.type === 'num') {
       if (inputVal.trim() === '') return;
       correct = Math.abs(Number(inputVal) - question.answer) < 1e-9;
     } else {
@@ -140,6 +145,11 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
       correct,
       title: correct ? (score >= 90 ? pick(PRAISE_CHALLENGE) : pick(PRAISE)) : pick(ENCOURAGE)
     });
+
+    // Chinese words met in practice join the student's review deck (a miss brings one back sooner)
+    if (question.word && me?.user?.role === 'student') {
+      api('POST', '/api/review', { word: question.word, correct, today: localDateStr(), mode: 'seen' }).catch(() => {});
+    }
 
     try {
       const body = { skillId, correct, streak: newStreak };
@@ -232,7 +242,12 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
             <button type="button" className="btn btn-ghost speak-btn" onClick={() => speakChinese(question.say)} title="Listen">🔊 Listen</button>
           )}
 
-          {question.type === 'num' ? (
+          {question.type === 'write' ? (
+            <div style={{ marginBottom: 22 }}>
+              <WriteCharacters key={questionSig(question)} word={question.answer} say={question.say} outline={question.outline}
+                disabled={answered} onDone={ok => submitAnswer(ok)} />
+            </div>
+          ) : question.type === 'num' ? (
             <div style={{ marginBottom: 22 }}>
               <input ref={inputRef} className="answer-input" type="number" step="any" placeholder="?"
                 autoComplete="off" value={inputVal} disabled={answered}
@@ -251,8 +266,9 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
           )}
 
           <div className="practice-actions">
-            <button className="btn btn-primary btn-lg" type="button" onClick={advanceOrSubmit}>
-              {!answered ? 'Submit' : hwDone ? 'Finish 🎉' : 'Next question'}
+            <button className={'btn btn-lg ' + (question.type === 'write' && !answered ? 'btn-ghost' : 'btn-primary')} type="button"
+              onClick={() => (question.type === 'write' && !answered ? submitAnswer(false) : advanceOrSubmit())}>
+              {!answered ? (question.type === 'write' ? "I can't write it yet — show me" : 'Submit') : hwDone ? 'Finish 🎉' : 'Next question'}
             </button>
           </div>
 

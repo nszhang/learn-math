@@ -93,3 +93,15 @@ CREATE TABLE IF NOT EXISTS email_log (
 
 -- Chinese HSK level (1–6), independent of school grade. Students may move themselves up at their own pace.
 ALTER TABLE users ADD COLUMN IF NOT EXISTS hsk_level INT NOT NULL DEFAULT 1;
+
+-- Chinese word review deck (spaced repetition). One row per word a student has met.
+-- box 0 = relearning, 1–6 = growing intervals; due is the student's local date (YYYY-MM-DD).
+CREATE TABLE IF NOT EXISTS word_reviews (
+  user_id  INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  word     TEXT NOT NULL,
+  box      INT  NOT NULL DEFAULT 0,
+  due      TEXT NOT NULL,
+  reviews  INT  NOT NULL DEFAULT 0,
+  lapses   INT  NOT NULL DEFAULT 0,
+  PRIMARY KEY (user_id, word)
+);

@@ -16,7 +16,7 @@ function StudentCard({ s, onGrade, onHsk }) {
       <div className="student-head" {...clickable(() => setOpen(!open))}>
         <strong>{s.displayName}</strong> <span className="muted">@{s.username}</span>
         <span className={'grade-tag ' + (s.grade === null ? 'above' : 'mine')} style={{ margin: '0 6px' }}>{s.grade === null ? '⚠️ no grade' : gradeLabel(s.grade)}</span>
-        <span className="grade-tag mine" style={{ marginRight: 6 }} title="Chinese HSK level">🀄 {hskLabel(s.hskLevel ?? 1)}</span>
+        <span className="grade-tag mine" style={{ marginRight: 6 }} title="Chinese HSK level">🀄 {hskLabel(s.hskLevel ?? 1)}{s.wordsKnown ? ` · 🧠 ${s.wordsKnown} words` : ''}</span>
         <span className="student-stats">
           📊 {total} &nbsp;•&nbsp; 🥇 {mastered} mastered &nbsp;•&nbsp; 🎯 {pct}% &nbsp;•&nbsp;
           ⏱️ {Math.floor(s.stats.time_sec / 60)}m &nbsp;•&nbsp; 📝 {s.stats.homework_done} homeworks &nbsp;•&nbsp; ⭐ {s.stars}

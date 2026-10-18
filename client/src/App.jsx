@@ -11,6 +11,7 @@ import TeacherAssign from './components/TeacherAssign.jsx';
 import AdminPage from './components/AdminPage.jsx';
 import ChangePassword from './components/ChangePassword.jsx';
 import LearnPage from './components/LearnPage.jsx';
+import ReviewPage from './components/ReviewPage.jsx';
 import PracticePage from './components/PracticePage.jsx';
 import Confetti from './components/Confetti.jsx';
 
@@ -133,7 +134,9 @@ export default function App() {
       </div>
     </header>
 
-    {practiceCfg ? (
+    {practiceCfg?.mode === 'review' ? (
+      <ReviewPage toast={toast} fireConfetti={fireConfetti} onExit={() => { setPracticeCfg(null); refreshMe(); setPage('chinese'); }} />
+    ) : practiceCfg ? (
       <PracticePage cfg={practiceCfg} me={me} toast={toast}
         fireConfetti={fireConfetti} onExit={() => exitPractice(practiceCfg)}
         onLearn={lesson => { setPracticeCfg(null); setLearnOpen(lesson); setPage('learn'); }} />
@@ -152,7 +155,8 @@ export default function App() {
         <SkillsPage key={subj.id} subject={subj} me={me} homework={homework}
           onStartSkill={startSkill} onStartHomework={startHomework} toast={toast}
           onLevelChanged={() => { refreshMe(); refreshHomework(); }}
-          onLearn={lesson => { setLearnOpen(lesson); setPage('learn'); }} />))}
+          onLearn={lesson => { setLearnOpen(lesson); setPage('learn'); }}
+          onStartReview={() => setPracticeCfg({ mode: 'review' })} />))}
       {page === 'homework' && <HomeworkPage homework={homework} onStart={startHomework} />}
       {page === 'learn' && <LearnPage key={learnOpen || 'learn'} toast={toast} fireConfetti={fireConfetti} initialOpen={learnOpen}
         myGrade={me?.user?.grade ?? null} onPractice={user.role === 'student' ? startSkill : null} />}

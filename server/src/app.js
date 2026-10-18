@@ -5,6 +5,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import crypto from 'node:crypto';
 import * as db from './db.js';
+import * as srs from './srs.js';
 import { nextScore, medalFor } from './scoring.js';
 import { AWARDS, AWARD_META } from './awards.js';
 import { sendAssignmentEmail } from './reminders.js';
@@ -329,6 +330,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       const completedSet = new Set(completed.map(c => c.assignment_id));
       result.push({
         id: s.id, username: s.username, displayName: s.display_name, stars: s.stars, grade: s.grade ?? null, hskLevel: s.hsk_level ?? 1,
+        wordsKnown: await db.countKnownWords(pool, s.id, srs.KNOWN_BOX),
         stats: {
           answered: s.answered || 0, correct: s.correct || 0, time_sec: s.time_sec || 0,
           best_streak: s.best_streak || 0, homework_done: s.homework_done || 0
@@ -485,6 +487,24 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     if (!(await db.setHskLevel(pool, id, level))) return res.status(404).json({ error: 'Student not found' });
     res.json({ ok: true, hskLevel: level });
   }
+  // ---------- Chinese word review deck (spaced repetition) ----------
+  // mode 'review': an answer in the review deck (moves the word between boxes).
+  // mode 'seen': the word came up in ordinary practice (adds new words; a miss sends it back).
+  const WORD_RE = /^[\u3400-\u9fff]{1,8}$/, DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+  app.get('/api/review', auth, async (req, res) => {
+    res.json({ words: await db.getWordReviews(pool, req.uid) });
+  });
+  app.post('/api/review', auth, async (req, res) => {
+    const { word, correct, today, mode } = req.body || {};
+    if (typeof word !== 'string' || !WORD_RE.test(word)) return res.status(400).json({ error: 'Unknown word' });
+    if (typeof today !== 'string' || !DATE_RE.test(today) || Number.isNaN(Date.parse(today))) return res.status(400).json({ error: 'Bad date' });
+    if (mode !== 'review' && mode !== 'seen') return res.status(400).json({ error: 'Bad mode' });
+    const row = await db.getWordReview(pool, req.uid, word);
+    const next = mode === 'review' ? srs.reviewed(row, !!correct, today) : srs.seen(row, !!correct, today);
+    if (next) await db.saveWordReview(pool, req.uid, word, next);
+    res.json({ word: next ? { word, ...next } : row });
+  });
+
   app.put('/api/me/hsk-level', auth, (req, res, next) => (req.role === 'student' ? next() : res.status(403).json({ error: 'Students only' })), setHskHandler);
   app.put('/api/students/:id/hsk-level', auth, teacherOnly, setHskHandler);
   app.put('/api/admin/users/:id/hsk-level', auth, adminOnly, setHskHandler);

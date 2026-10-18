@@ -481,6 +481,15 @@ Mandarin with Simplified characters and pinyin, organised by **HSK level 1–6**
   - tone pairs and tone changes
   - an ear-training game
   - 🎙️ *Say it*, which tracks the learner's pitch from the microphone (autocorrelation) and draws it over the target tone
+- **✍️ Writing**: every HSK word unit has a *Write the characters* skill (`components/WriteCharacters.jsx`, built on [Hanzi Writer](https://hanziwriter.org)).
+  - Students can watch the stroke order, then trace each character with a finger or mouse; hints appear after 3 misses on a stroke.
+  - A character passes with at most 3 wrong strokes.
+  - Stroke data comes from `hanzi-writer-data` (Arphic Public License). `scripts/copy-hanzi.mjs` copies the data for the course's ~1,000 characters into `public/hanzi/` before each build or dev run.
+- **🔁 Review deck (spaced repetition)**: every HSK word a student answers in practice joins their deck (`word_reviews` table, `server/src/srs.js`).
+  - *Review words* on the Chinese page asks up to 20 due words, mixing meaning, characters, listening, pinyin and writing.
+  - Each correct review moves a word up a box: next review in 1, 3, 7, 14, 30, then 60 days. A miss starts it over and asks it again later in the same session.
+  - A word counts as "known" once it reaches box 3, meaning it was remembered across a 3-day gap. The Chinese page shows "You know X of Y HSK n words", and teachers see 🧠 words known per student.
+  - API: `GET /api/review`, `POST /api/review { word, correct, today, mode: 'seen' | 'review' }`.
 - **Progress is independent of grade.** Each student has `users.hsk_level` (default 1).
   - A student can move up from the Chinese page whenever they like (`PUT /api/me/hsk-level`). It is suggested once 70% of the level's skills reach 🥉 70.
   - Teachers set it per student in the roster (`PUT /api/students/:id/hsk-level`) and admins via `PUT /api/admin/users/:id/hsk-level`.

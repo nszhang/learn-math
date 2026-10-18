@@ -233,3 +233,23 @@ export async function setHskLevel(pool, userId, level) {
   const { rowCount } = await pool.query("UPDATE users SET hsk_level = $2 WHERE id = $1 AND role = 'student'", [userId, level]);
   return rowCount > 0;
 }
+
+// ---------- Chinese word review deck ----------
+export async function getWordReviews(pool, userId) {
+  const { rows } = await pool.query('SELECT word, box, due, reviews, lapses FROM word_reviews WHERE user_id = $1', [userId]);
+  return rows;
+}
+export async function getWordReview(pool, userId, word) {
+  const { rows } = await pool.query('SELECT word, box, due, reviews, lapses FROM word_reviews WHERE user_id = $1 AND word = $2', [userId, word]);
+  return rows[0] || null;
+}
+export async function saveWordReview(pool, userId, word, r) {
+  await pool.query(
+    `INSERT INTO word_reviews (user_id, word, box, due, reviews, lapses) VALUES ($1, $2, $3, $4, $5, $6)
+     ON CONFLICT (user_id, word) DO UPDATE SET box = $3, due = $4, reviews = $5, lapses = $6`,
+    [userId, word, r.box, r.due, r.reviews, r.lapses]);
+}
+export async function countKnownWords(pool, userId, knownBox) {
+  const { rows } = await pool.query('SELECT COUNT(*) AS n FROM word_reviews WHERE user_id = $1 AND box >= $2', [userId, knownBox]);
+  return Number(rows[0]?.n || 0);
+}

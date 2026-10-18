@@ -443,3 +443,25 @@ test('HSK level: independent of grade, students advance themselves, teachers for
   r = await api('PUT', `/api/admin/users/${other.data.user.id}/hsk-level`, { token: admin.token, body: { level: 4 } });
   assert.equal(r.status, 200);
 });
+
+test('Chinese review deck: words join when seen, move up boxes when reviewed, drop back on a miss', async () => {
+  const post = body => api('POST', '/api/review', { token: student.token, body });
+  let r = await post({ word: '你好', correct: true, today: '2026-03-01', mode: 'seen' });
+  assert.equal(r.status, 200);
+  assert.deepEqual([r.data.word.box, r.data.word.due], [1, '2026-03-02'], 'new word: due tomorrow');
+  r = await post({ word: '你好', correct: true, today: '2026-03-01', mode: 'seen' });
+  assert.equal(r.data.word.box, 1, 'a correct answer in ordinary practice does not move the schedule');
+  r = await post({ word: '你好', correct: true, today: '2026-03-02', mode: 'review' });
+  assert.deepEqual([r.data.word.box, r.data.word.due], [2, '2026-03-05'], 'box 2: 3 days');
+  r = await post({ word: '你好', correct: true, today: '2026-03-05', mode: 'review' });
+  assert.deepEqual([r.data.word.box, r.data.word.due], [3, '2026-03-12'], 'box 3: a week');
+  r = await post({ word: '你好', correct: false, today: '2026-03-12', mode: 'review' });
+  assert.deepEqual([r.data.word.box, r.data.word.due, r.data.word.lapses], [0, '2026-03-13', 1], 'a miss starts it over');
+  r = await api('GET', '/api/review', { token: student.token });
+  assert.equal(r.data.words.find(w => w.word === '你好').reviews, 3);
+  assert.equal((await post({ word: 'hello', correct: true, today: '2026-03-01', mode: 'seen' })).status, 400);
+  assert.equal((await post({ word: '好', correct: true, today: 'soon', mode: 'seen' })).status, 400);
+  assert.equal((await post({ word: '好', correct: true, today: '2026-03-01', mode: 'cheat' })).status, 400);
+  r = await api('GET', '/api/students', { token: teacher.token });
+  assert.equal(typeof r.data.find(s => s.id === student.user.id).wordsKnown, 'number');
+});

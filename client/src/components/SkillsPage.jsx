@@ -1,20 +1,27 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { homeworkSkillIdsToday, findHomeworkForSkill } from '../homework.js';
 import Medallion from './Medallion.jsx';
 import { HSK_LEVELS, hskLabel, isHsk, studentLevelFor, levelLabelFor, isAboveLevel, hskReadiness } from '../skills.js';
 import { api } from '../api.js';
+import { dueWords, KNOWN_BOX } from './ReviewPage.jsx';
+import { HSK } from '../catalog/zh/hsk.js';
 import { clickable } from '../a11y.js';
 
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
 const gradeEmoji = n => (n < 0 ? '🧸' : n === 0 ? '🎒' : n === 13 ? '∫' : GRADE_EMOJI[n - 1]);
 
-export default function SkillsPage({ subject, me, homework, onStartSkill, onStartHomework, toast, onLevelChanged, onLearn }) {
+export default function SkillsPage({ subject, me, homework, onStartSkill, onStartHomework, toast, onLevelChanged, onLearn, onStartReview }) {
   const GRADES = subject.grades;
   const hsk = isHsk(subject);
   const isStudent = me?.user?.role === 'student';
   // the student's level here: school grade, or for Chinese their own HSK level
   const myGrade = studentLevelFor(subject, me?.user);
   const unit = hsk ? 'HSK level' : 'grade';
+  // Chinese review deck (students only)
+  const [deck, setDeck] = useState(null);
+  useEffect(() => {
+    if (hsk && isStudent) api('GET', '/api/review').then(r => setDeck(r.words)).catch(() => setDeck(null));
+  }, [hsk, isStudent]);
   const gradeKey = subject.id === 'math' ? 'mm_grade' : 'mm_grade_' + subject.id; // math keeps its original key
   const [gradeNum, setGradeNum] = useState(() => {
     const raw = localStorage.getItem(gradeKey), saved = raw === null ? NaN : Number(raw);   // grade 0 (Kindergarten) is valid, so don't treat "missing" as 0
@@ -54,6 +61,9 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
   // Chinese: the student's own HSK level and how close they are to the next one
   const hskPanel = hsk && myGrade !== null && (() => {
     const r = hskReadiness(myGrade, scoreOf), next = myGrade + 1;
+    const levelWords = new Set(HSK[myGrade].map(w => w[0]));
+    const known = deck ? deck.filter(w => w.box >= KNOWN_BOX && levelWords.has(w.word)).length : 0;
+    const due = deck ? dueWords(deck).length : 0;
     return (
       <div className="hsk-panel">
         <div className="hsk-panel-main">
@@ -64,8 +74,14 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
           </div>
           <div className="muted">{r.passed} of {r.total} skills at 🥉 70 or better.{' '}
             {myGrade < 6 && (r.ready ? <strong>You're ready for {hskLabel(next)}! 🎉</strong> : `Reach ${Math.ceil(r.total * 0.7)} and we'll suggest ${hskLabel(next)} — or move up whenever you feel ready.`)}</div>
+          {deck && <div className="muted">🧠 You know <strong>{known}</strong> of the {levelWords.size} {hskLabel(myGrade)} words (remembered over 3+ days).</div>}
         </div>
         <div className="hsk-panel-actions">
+          {isStudent && onStartReview && (
+            <button type="button" className={'btn ' + (due ? 'btn-primary' : 'btn-ghost')} onClick={onStartReview}>
+              🔁 Review words{deck ? ` (${due} due)` : ''}
+            </button>
+          )}
           {onLearn && <button type="button" className="btn btn-ghost" onClick={() => onLearn('tones')}>🎵 Learn the tones</button>}
           {isStudent && myGrade < 6 && (
             <button type="button" className={'btn ' + (r.ready ? 'btn-primary' : 'btn-ghost')}

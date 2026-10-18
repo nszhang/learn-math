@@ -187,33 +187,52 @@ const sameSound = (a, b) => a[1].replace(/ /g, '') === b[1].replace(/ /g, '');
 const soundsDifferent = (w, list) => list.filter(x => !sameSound(x, w));
 const listenQ = (prompt, answer, wrong, explain, say, n = 4) => ({ ...mc(`${LISTEN}, then ${prompt}`, answer, wrong, explain, say, n), listen: true });
 
+// a writing question: trace each character stroke by stroke (components/WriteCharacters.jsx)
+const writeQ = (w, withPy) => ({
+  type: 'write', answer: w[0], word: w[0], say: w[0], outline: withPy, choices: [],
+  prompt: `✍️ Write the word for ${b(w[2])}${withPy ? ` — ${b(w[1])}` : ''}`,
+  explain: `${ruby(w[0], w[1])} means ${b(w[2])}. Press ▶️ Show strokes to watch the stroke order.`
+});
+
+// One question about an HSK word, of the given kind. `word` tags it for the review deck.
+function wordQuestion(kind, w, words, withPy) {
+  const show = withPy ? ruby(w[0], w[1]) : zh(w[0]);
+  const q = kind === 'Mn' ? mc(`What does ${show} mean?`, w[2], words.map(x => x[2]), `${ruby(w[0], w[1])} means ${b(w[2])}.`, w[0])
+    : kind === 'Ch' ? mc(`Which word means ${b(w[2])}?`, w[0], words.map(x => x[0]), `${b(w[2])} is ${ruby(w[0], w[1])}.`, w[0])
+    : kind === 'Py' ? mc(`What is the pinyin for ${zh(w[0])} (${w[2]})?`, w[1], [...pinyinWrongs(w[1]), ...words.map(x => x[1])], `${zh(w[0])} is pronounced ${b(w[1])}.`, w[0])
+    : kind === 'Wr' ? writeQ(w, withPy)
+    : withPy
+      ? listenQ('choose what the word means.', w[2], soundsDifferent(w, words).map(x => x[2]), `You heard ${ruby(w[0], w[1])} — ${b(w[2])}.`, w[0])
+      : listenQ('choose the word you heard.', w[0], soundsDifferent(w, words).map(x => x[0]), `You heard ${ruby(w[0], w[1])} — ${w[2]}.`, w[0]);
+  return { ...q, word: w[0] };
+}
+
 function hskUnitSpecs(level) {
   const withPy = level <= 2; // pinyin over the characters at HSK 1–2
   const unitsOf = units(level), size = unitsOf[0].length;
   return unitsOf.flatMap((words, i) => {
     const s = `Words ${i * size + 1}–${i * size + words.length}`, k = 'V' + (i + 1);
-    const show = w => (withPy ? ruby(w[0], w[1]) : zh(w[0]));
+    const spec = (kind, title, pool = words) => sk(k + kind, title, s, [level], () => wordQuestion(kind, pick(pool), words, withPy));
     return [
-      sk(k + 'Mn', 'What does it mean?', s, [level], () => {
-        const w = pick(words);
-        return mc(`What does ${show(w)} mean?`, w[2], words.map(x => x[2]), `${ruby(w[0], w[1])} means ${b(w[2])}.`, w[0]);
-      }),
-      sk(k + 'Ch', 'Choose the Chinese word', s, [level], () => {
-        const w = pick(words);
-        return mc(`Which word means ${b(w[2])}?`, w[0], words.map(x => x[0]), `${b(w[2])} is ${ruby(w[0], w[1])}.`, w[0]);
-      }),
-      sk(k + 'Py', 'Choose the correct pinyin', s, [level], () => {
-        const w = pick(words.filter(x => pinyinWrongs(x[1]).length));
-        return mc(`What is the pinyin for ${zh(w[0])} (${w[2]})?`, w[1], [...pinyinWrongs(w[1]), ...words.map(x => x[1])], `${zh(w[0])} is pronounced ${b(w[1])}.`, w[0]);
-      }),
-      sk(k + 'Ls', '🎧 Listen and choose the meaning', s, [level], () => {
-        const w = pick(words);
-        return withPy
-          ? listenQ('choose what the word means.', w[2], soundsDifferent(w, words).map(x => x[2]), `You heard ${ruby(w[0], w[1])} — ${b(w[2])}.`, w[0])
-          : listenQ('choose the word you heard.', w[0], soundsDifferent(w, words).map(x => x[0]), `You heard ${ruby(w[0], w[1])} — ${w[2]}.`, w[0]);
-      })
+      spec('Mn', 'What does it mean?'),
+      spec('Ch', 'Choose the Chinese word'),
+      spec('Py', 'Choose the correct pinyin', words.filter(x => pinyinWrongs(x[1]).length)),
+      spec('Ls', '🎧 Listen and choose the meaning'),
+      spec('Wr', '✍️ Write the characters')
     ];
   });
+}
+
+/* ---------- review deck ---------- */
+// every HSK word by its characters: hanzi → { w: row, level }
+export const HSK_WORD = new Map(Object.entries(HSK).flatMap(([level, rows]) => rows.map(w => [w[0], { w, level: Number(level) }])));
+// A review question for a word: meaning, characters, listening or (now and then) writing.
+export function reviewQuestion(hanzi) {
+  const e = HSK_WORD.get(hanzi);
+  if (!e) return null;
+  const words = HSK[e.level], withPy = e.level <= 2;
+  const kinds = ['Mn', 'Ch', 'Ls', 'Mn', 'Ch', 'Ls', ...(pinyinWrongs(e.w[1]).length ? ['Py'] : []), ...(hanzi.length <= 2 ? ['Wr'] : [])];
+  return wordQuestion(pick(kinds), e.w, words, withPy);
 }
 
 /* ---------- listening for tones ---------- */

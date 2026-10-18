@@ -834,3 +834,23 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .say-it { max-width: 420px; }
 .say-it .tone-svg { max-width: 420px; }
 @media (prefers-reduced-motion: reduce) { .tone-path.tracing { animation: none; } }
+
+/* character writing (Hanzi Writer) */
+.write-box { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.write-progress { display: flex; gap: 6px; }
+.write-slot { font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 1.6rem; font-weight: 700; width: 2.2em; height: 2.2em; display: grid; place-items: center; border: 2px dashed var(--line); border-radius: 10px; color: var(--muted); }
+.write-slot.current { border-color: var(--primary); border-style: solid; color: var(--primary); }
+.write-slot.good { border: 2px solid var(--green); background: var(--green-light); color: var(--ink); }
+.write-slot.shaky { border: 2px solid #f59e0b; background: #fef3c7; color: var(--ink); }
+.write-pad { background: #fff; border: 2px solid var(--line); border-radius: var(--radius); touch-action: none;
+  background-image: linear-gradient(to right, transparent calc(50% - .5px), #e2e8f0 calc(50% - .5px), #e2e8f0 calc(50% + .5px), transparent calc(50% + .5px)),
+                    linear-gradient(to bottom, transparent calc(50% - .5px), #e2e8f0 calc(50% - .5px), #e2e8f0 calc(50% + .5px), transparent calc(50% + .5px)); }
+.write-pad svg { display: block; }
+.write-box .small { font-size: .82rem; }
+
+/* review deck */
+.review-done { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px; text-align: center; max-width: 560px; margin: 0 auto; }
+.review-done p { margin: 10px 0; }
+.review-big { font-size: 3rem; }
+.review-word .zh { font-size: 1.5em; }
+.choice-btn.correct-choice { border-color: var(--green); background: var(--green-light); }
