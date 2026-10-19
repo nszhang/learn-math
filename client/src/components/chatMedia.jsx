@@ -39,26 +39,36 @@ export function EmojiPicker({ onPick, onClose }) {
   );
 }
 
+// The web server in front of the app accepts uploads up to 1 MB, so pictures are kept under this.
+export const MAX_UPLOAD_BYTES = 900 * 1024;
+
 /**
- * Shrink a picture before upload: at most 1280 px on the long side, re-saved as JPEG.
+ * Shrink a picture before upload: at most 1280 px on the long side, re-saved as JPEG, and
+ * stepped down in quality/size until it is under MAX_UPLOAD_BYTES.
  * Re-drawing it also drops hidden EXIF data such as the GPS location of a phone photo.
  */
-export async function shrinkImage(file, maxSide = 1280, quality = 0.82) {
+export async function shrinkImage(file, maxSide = 1280) {
   if (!file.type.startsWith('image/')) throw new Error('Please choose a picture.');
   if (file.size > 25 * 1024 * 1024) throw new Error('That picture is too big.');
   const url = URL.createObjectURL(file);
   try {
     const img = await new Promise((resolve, reject) => { const i = new Image(); i.onload = () => resolve(i); i.onerror = () => reject(new Error("That picture couldn't be opened.")); i.src = url; });
-    const scale = Math.min(1, maxSide / Math.max(img.naturalWidth, img.naturalHeight));
-    const w = Math.max(1, Math.round(img.naturalWidth * scale)), h = Math.max(1, Math.round(img.naturalHeight * scale));
-    const canvas = document.createElement('canvas');
-    canvas.width = w; canvas.height = h;
-    const ctx = canvas.getContext('2d');
-    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, w, h); // transparent PNGs get a white background
-    ctx.drawImage(img, 0, 0, w, h);
-    const blob = await new Promise(r => canvas.toBlob(r, 'image/jpeg', quality));
-    if (!blob) throw new Error("That picture couldn't be prepared.");
-    return blob;
+    const encode = async (side, quality) => {
+      const scale = Math.min(1, side / Math.max(img.naturalWidth, img.naturalHeight));
+      const w = Math.max(1, Math.round(img.naturalWidth * scale)), h = Math.max(1, Math.round(img.naturalHeight * scale));
+      const canvas = document.createElement('canvas');
+      canvas.width = w; canvas.height = h;
+      const ctx = canvas.getContext('2d');
+      ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, w, h); // transparent PNGs get a white background
+      ctx.drawImage(img, 0, 0, w, h);
+      return new Promise(r => canvas.toBlob(r, 'image/jpeg', quality));
+    };
+    for (const [side, quality] of [[maxSide, 0.82], [maxSide, 0.7], [1024, 0.7], [800, 0.65], [640, 0.6]]) {
+      const blob = await encode(side, quality);
+      if (!blob) break;
+      if (blob.size <= MAX_UPLOAD_BYTES) return blob;
+    }
+    throw new Error("That picture couldn't be made small enough to send.");
   } finally { URL.revokeObjectURL(url); }
 }
 
