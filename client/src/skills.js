@@ -16,6 +16,7 @@ import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
 import { ENGLISH_ALL, ENGLISH_ALIASES } from './catalog/ixlEnglish.js';
 import { CHINESE_ALL, HSK_LEVELS, hskLabel } from './catalog/ixlChinese.js';
 import { SCIENCE_ALL } from './catalog/ixlScience.js';
+import { EXTRA_VARIETY } from './catalog/extraVariety.js';
 import { IXL_MATH_SKILLS, IXL_MATH_SECTION_ORDER, ixlIconFor } from './catalog/ixlMath/index.js';
 import { MATH_TOPICS, mathTopic, SCIENCE_TOPICS, scienceTopic } from './catalog/topics.js';
 import { BEDMAS_SKILLS, BEDMAS_SECTION } from './catalog/bedmasSkills.js';
@@ -115,6 +116,7 @@ const letterFor = i => { const c = String.fromCharCode(65 + (i % 26)); return c.
 function buildGrades(fill, codePrefix = '', ordered = false, sectionOrder = null, topics = null) {
   const gradeMap = new Map(); // grade → { sections: Map(name → {name, icon, category, skills}) }
   fill((grade, sectionName, icon, skill) => {
+    if (EXTRA_VARIETY[skill.id]) skill = { ...skill, gen: EXTRA_VARIETY[skill.id] };   // randomised replacement generator
     if (!gradeMap.has(grade)) gradeMap.set(grade, { sections: new Map() });
     const g = gradeMap.get(grade);
     if (!g.sections.has(sectionName)) g.sections.set(sectionName, { name: sectionName, icon, category: skill.category, skills: [] });

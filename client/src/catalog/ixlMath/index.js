@@ -33,8 +33,14 @@ import { STAT9_RULES } from './rules/stat9.js';
 import { KINDER_RULES } from './rules/kinder.js';
 import { CALC_RULES } from './rules/calc.js';
 import { ARITH_RULE } from './rules/arith.js';
+import { VARIETY_RULES } from './rules/variety.js';
+import { VARIETY2_RULES } from './rules/variety2.js';
+import { VARIETY3_RULES } from './rules/variety3.js';
 
 const RULES = [
+  ...VARIETY_RULES,
+  ...VARIETY2_RULES,
+  ...VARIETY3_RULES,   // randomised replacements for skills that used to have only a few fixed questions
   ...TRIG9_RULES.filter(r => r.re.source.includes('Quadrants') || r.re.source.includes('Pythagorean')),   // must win over the coordinate-plane / grade 8 rules
   ...NUMSYS_RULES,
   ...NUMBER_RULES,
