@@ -754,7 +754,7 @@ export const MANIFEST = {
       ["mth1JJ12", "Compose two-dimensional shapes"],
       ["mth1JJ13", "Compose two-dimensional shapes: which shapes can you make?"],
       ["mth1JJ14", "Two-dimensional shapes in the real world"],
-      ["mth1JJ15", "Two-dimensional shapes in real-world objects"],
+      ["mth1JJ30", "Two-dimensional shapes in real-world objects"],
       ["mth1JJ15", "Symmetry"],
       ["mth1JJ16", "Flip, turn and slide"],
       ["mth1JJ17", "Congruent shapes"],
