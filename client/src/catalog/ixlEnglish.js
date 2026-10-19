@@ -1,9 +1,11 @@
 /* ============================================================
    LearnAce — English catalog organised like IXL language arts:
    Category → lettered Section → numbered Skill, per grade.
-   A skill is declared once ({ k, t, s, g:[grades], gen }) and expanded
-   into one skill per grade with id "eng" + k + grade, so each grade keeps
-   its own SmartScore. Content lives in ixlEnglishReading/Vocab/Grammar.js.
+   Each grade offers IXL's skill list for that grade (eng/ixlLists.js), in IXL's order, with
+   every title resolved to one of our generators (eng/ixlAlign.js), plus our own extras such as
+   Reading comprehension and literature. Skill ids are "eng" + key + grade, so each grade keeps
+   its own SmartScore. Generators get the grade, and Grades 9–12 use harder banks where we
+   have them (eng/advanced.js).
    ============================================================ */
 import { ENGLISH_SKILLS as OLD_1_5 } from './english.js';
 import { ENGLISH_6_12 as OLD_6_12 } from './english612.js';
@@ -13,11 +15,19 @@ import { GRAMMAR_SPECS } from './ixlEnglishGrammar.js';
 import { FOUNDATION_SPECS } from './eng/foundations.js';
 import { LANGUAGE_SPECS } from './eng/language.js';
 import { READING_E_SPECS } from './eng/reading.js';
+import { RC_SPECS } from './eng/comprehension.js';
+import { FOUNDATION2_SPECS } from './eng/ixlFoundations2.js';
+import { LANGUAGE2_SPECS } from './eng/ixlLanguage2.js';
+import { STRATEGY2_SPECS } from './eng/ixlStrategies2.js';
+import { ADVANCED } from './eng/advanced.js';
+import { IXL_ENGLISH } from './eng/ixlLists.js';
+import { RESOLVE, SUPERSEDED, SKIPPED } from './eng/ixlAlign.js';
 
 const G = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
 
 // Section registry — order here is the order shown on every grade page.
 const SECTIONS = [
+  ['Reading Strategies', 'Reading comprehension', '📖'],
   ['Reading Foundations', 'Consonants and vowels', '🔤'],
   ['Reading Foundations', 'Syllables', '👏'],
   ['Reading Foundations', 'Rhyming', '🎵'],
@@ -118,7 +128,8 @@ const placedOld = [...OLD_1_5, ...OLD_6_12].map(sk => {
   return { ...sk, section: sec, icon: info.icon, category: info.cat, _order: info.order };
 });
 
-// Grade 6–12 skills that IXL also teaches in earlier grades (content is simple enough).
+
+// Grade ranges for our own (non-IXL) skills that are shared across grades.
 const GRADE_OVERRIDES = {
   Frag: G(2, 12), RunO: G(2, 12), FrRo: G(2, 12), PrPh: G(3, 12), CpTt: G(2, 12), FmTt: G(3, 12), FmQt: G(3, 12),
   TnPr: G(4, 12), TnPf: G(4, 12), AdAv: G(2, 11), PnRl: G(4, 12), CxMn: G(3, 12), CxSy: G(4, 12),
@@ -126,36 +137,132 @@ const GRADE_OVERRIDES = {
   BrNr: G(3, 12), OrgT: G(3, 12), PlgR: G(4, 12), SvCp: G(4, 12), Anl: G(5, 12), FgSp: G(5, 12)
 };
 
-// Skills IXL already teaches in grades 6–7: start them earlier (keeps their top grade).
-const LOWER_START = {
-  Frml: 6, SbOb: 6, AuPu: 6, TnCp: 7, AlSr: 7, FgEf: 6, ThSt: 7, EvSw: 6, EvBt: 6, PsAd: 6, CjAv: 7, Rdn: 6, RvSg: 6, MsSp: 6, EvRs: 6, CfPr: 6, MnId: 6,
-  WpAn: 6, WpSn: 6, NuCd: 7, NuTh: 6, NuDc: 6, AnlC: 7, CxAn: 6, CxDm: 6,
-  PhCl: 6, Appo: 6, DpIn: 6, SnTy: 6, RlCl: 7, PnVg: 7, PnSh: 7, PnRf: 6, VbTr: 7, VbLk: 7, VbPt: 7, VbGr: 7, VbIn: 7, DiOb: 6,
-  SvEr: 6, SvIn: 6, TnSh: 6, AvCp: 6, AvWl: 6, MdSl: 7, MdOk: 7, RsPn: 7, RsCm: 7, CmDa: 6, CmCs: 6, CmCa: 6, CmRv: 6,
-  ScJn: 7, ScCl: 7, ScSr: 7, DsUs: 7, DsHy: 7, DsEl: 7, ApPl: 6
+/* ---------- every generator, by key ---------- */
+const CAT_CASE = c => c[0].toUpperCase() + c.slice(1).toLowerCase(); // "Reading Strategies" → "Reading strategies"
+const SPECS = new Map();
+// Two older generators share a key at different grades (ShEm); the second is stored under an
+// internal key but keeps its original skill ids.
+const addSpec = (key, spec) => {
+  if (!SPECS.has(key)) return SPECS.set(key, spec);
+  const prev = SPECS.get(key);
+  if (spec.grades.some(g => prev.grades.includes(g))) throw new Error(`Duplicate English generator key ${key}`);
+  SPECS.set(key + '_2', { ...spec, idKey: key });
 };
-
-// Expand { k, t, s, g, gen } specs into one skill per grade.
-function expand(specs) {
-  return specs.flatMap(spec => {
-    const info = SECTION_INFO.get(spec.s);
-    if (!info) throw new Error(`Unknown section "${spec.s}" for ${spec.k}`);
-    const grades = GRADE_OVERRIDES[spec.k] || (LOWER_START[spec.k] ? G(LOWER_START[spec.k], Math.max(...spec.g)) : spec.g);
-    return grades.map(grade => ({
-      id: 'eng' + spec.k + grade, title: spec.t, grade, section: spec.s, icon: info.icon,
-      category: info.cat, _order: info.order, gen: spec.gen
-    }));
-  });
+for (const sp of [...FOUNDATION_SPECS, ...READING_E_SPECS, ...READING_SPECS, ...VOCAB_SPECS, ...LANGUAGE_SPECS, ...GRAMMAR_SPECS,
+  ...RC_SPECS, ...FOUNDATION2_SPECS, ...LANGUAGE2_SPECS, ...STRATEGY2_SPECS]) {
+  addSpec(sp.k, { title: sp.t, section: sp.s, grades: GRADE_OVERRIDES[sp.k] || sp.g, gen: sp.gen });
+}
+// the original (pre-catalog) skills: one fixed grade each
+for (const sk of placedOld) {
+  const key = sk.id.slice(3, sk.id.length - String(sk.grade).length);
+  addSpec(key, { title: sk.title, section: sk.section, grades: [sk.grade], gen: sk.gen, old: true });
 }
 
-const all = [...placedOld, ...expand([...FOUNDATION_SPECS, ...READING_E_SPECS, ...READING_SPECS, ...VOCAB_SPECS, ...LANGUAGE_SPECS, ...GRAMMAR_SPECS])];
+const norm = t => t.toLowerCase().replace(/[–—]/g, '-').replace(/["“”'’]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+const BY_TITLE = new Map();
+for (const [key, sp] of SPECS) {
+  const n = norm(sp.title);
+  if (!BY_TITLE.has(n)) BY_TITLE.set(n, []);
+  BY_TITLE.get(n).push(key);
+}
+const MANUAL = new Map();
+for (const [title, key, grades] of RESOLVE) {
+  if (!SPECS.has(key)) throw new Error(`IXL alignment: unknown key ${key} for "${title}"`);
+  const n = norm(title);
+  if (!MANUAL.has(n)) MANUAL.set(n, []);
+  MANUAL.get(n).push({ key, grades });
+}
+function resolve(title, grade) {
+  const n = norm(title);
+  const m = (MANUAL.get(n) || []).find(x => !x.grades || x.grades.includes(grade));
+  if (m) return m.key;
+  const keys = BY_TITLE.get(n);
+  if (!keys) return null;
+  return keys.find(k => SPECS.get(k).grades.includes(grade)) || keys[0];
+}
+
+/* ---------- build each grade ---------- */
+const CAT_ORDER = ['Reading foundations', 'Reading strategies', 'Writing strategies', 'Vocabulary', 'Grammar and mechanics'];
+const ICON_BY_SECTION = new Map(SECTIONS.map(([, name, icon]) => [name, icon]));
+const EXTRA_ICONS = {
+  'Short and long vowels': '↕️', 'Short and long vowel sounds': '↕️', 'Short and long vowel patterns': '↕️', 'Long vowel patterns': '📏', 'Blending and segmenting': '🔗',
+  'Variant vowels': '🔤', 'Soft g and c': '🧲', 'Consonant-l-e': '🐢', 'Two-syllable words': '🔗', 'Blends': '🧩', 'Multisyllabic words': '🔗', 'Irregular words': '👀',
+  'Diphthongs and r vowel patterns': '🐄', 'Inference': '🕵️', 'Inference and analysis': '🕵️', 'Visual elements': '🖼️', 'Literary texts': '📚', 'Literary texts: level 1': '📚',
+  'Literary texts: level 2': '📖', 'Informational texts': '📰', 'Informational texts: level 1': '📰', 'Informational texts: level 2': '🗞️', 'Comparing texts': '⚖️',
+  'Topic and purpose': '🎯', "Author's purpose": '🎯', "Author's purpose and tone": '🎯', "Writer's purpose": '🎯', 'Topic sentences': '💡', 'Introductions and conclusions': '💡',
+  'Creative techniques': '🎨', 'Active and passive voice': '🔄', 'Nouns and adjectives': '🏷️', 'Sentences': '🧩', 'Verbs': '🏃', 'Adjectives': '🎨', 'Idioms': '🗣️',
+  'Pronouns and antecedents': '👤', 'Pronoun types': '👤', 'Direct and indirect objects': '🎯', 'Punctuation': '❗', 'Domain-specific vocabulary': '🔬', 'Word choice and usage': '🎚️',
+  'Theme': '🦊', 'Point of view': '👁️', 'Text structure': '🏗️', 'Sequence': '🔢', 'Cause and effect': '➡️', 'Opinion writing': '💬', 'Linking words': '🔗'
+};
+const iconFor = name => ICON_BY_SECTION.get(name) || EXTRA_ICONS[name] || '📘';
+const catOf = name => CAT_CASE(SECTION_INFO.get(name)?.cat || 'Reading strategies');
+const supersededBy = new Map(SUPERSEDED);
+const genFor = (key, grade) => {
+  const adv = grade >= 9 && ADVANCED[key];
+  const g = adv || SPECS.get(key).gen;
+  return () => g(grade);
+};
+
+// keys that IXL titles resolve to at some grade
+const IXL_KEYS = new Set();
+for (let grade = 1; grade <= 12; grade++) for (const [, , title] of IXL_ENGLISH[grade]) { const k = resolve(title, grade); if (k) IXL_KEYS.add(k); }
+
+// our Reading comprehension skills are offered at all their grades, even where IXL also uses them
+const OWN = new Set(['RcL', 'RcI', 'RcA', 'RcP', 'RcC']);
+
+export const ENGLISH_UNRESOLVED = []; // IXL titles we could not place (should stay empty apart from SKIPPED)
+export const ENGLISH_ALIASES = {};    // old skill id → current skill id
+const all = [];
+const usedKeysAnyGrade = new Set();
+for (let grade = 1; grade <= 12; grade++) {
+  const rows = [], used = new Set(), titles = new Set();
+  for (const [cat, section, title] of IXL_ENGLISH[grade]) {
+    if (SKIPPED.includes(title)) continue;
+    const key = resolve(title, grade);
+    if (!key) { ENGLISH_UNRESOLVED.push(`${grade}: ${title}`); continue; }
+    if (used.has(key)) { ENGLISH_UNRESOLVED.push(`${grade}: ${title} (generator ${key} already used)`); continue; }
+    used.add(key); usedKeysAnyGrade.add(key); titles.add(norm(title));
+    rows.push({ key, title, grade, section, category: cat });
+  }
+  // our own skills at this grade that IXL doesn't list (e.g. Reading comprehension, literature)
+  for (const [key, sp] of SPECS) {
+    if (!sp.grades.includes(grade) || used.has(key) || supersededBy.has(key)) continue;
+    if (titles.has(norm(sp.title))) continue; // same skill already offered under IXL's title
+    if (IXL_KEYS.has(key) && !OWN.has(key)) continue; // an IXL-aligned generator is offered only at IXL's grades
+    used.add(key);
+    rows.push({ key, title: sp.title, grade, section: sp.section, category: catOf(sp.section), extra: true });
+  }
+  // order: categories in IXL order; within a category IXL's sections first, then our extra sections
+  // (Reading comprehension leads Reading strategies)
+  const secOrder = [];
+  for (const r of rows) if (!secOrder.includes(r.section)) secOrder.push(r.section);
+  const rank = r => [CAT_ORDER.indexOf(r.category) < 0 ? 9 : CAT_ORDER.indexOf(r.category), r.section === 'Reading comprehension' ? -1 : secOrder.indexOf(r.section)];
+  rows.map((r, i) => ({ r, i, k: rank(r) })).sort((a, z) => a.k[0] - z.k[0] || a.k[1] - z.k[1] || a.i - z.i)
+    .forEach(({ r }) => all.push({
+      id: 'eng' + (SPECS.get(r.key).idKey || r.key) + grade, key: r.key, title: r.title, grade, section: r.section,
+      icon: iconFor(r.section), category: r.category, gen: genFor(r.key, grade)
+    }));
+}
+
 const ids = new Set();
 for (const sk of all) {
   if (ids.has(sk.id)) throw new Error(`Duplicate English skill id ${sk.id}`);
   ids.add(sk.id);
 }
-// grade, then section order, then declaration order (Array.sort is stable)
-export const ENGLISH_ALL = all
-  .map((sk, i) => ({ sk, i }))
-  .sort((a, b) => a.sk.grade - b.sk.grade || a.sk._order - b.sk._order || a.i - b.i)
-  .map(({ sk }) => { const { _order, ...rest } = sk; return rest; });
+// Old ids that are no longer offered point to the same generator at the nearest grade it is offered.
+const byKey = new Map();
+for (const sk of all) { if (!byKey.has(sk.key)) byKey.set(sk.key, []); byKey.get(sk.key).push(sk); }
+for (const [key, sp] of SPECS) {
+  const target = byKey.get(key) || byKey.get(supersededBy.get(key));
+  if (!target) continue;
+  if (sp.idKey) continue; // shares ids with another generator
+  const gs = new Set([...sp.grades, ...G(1, 12)]);
+  for (const g of gs) {
+    const id = 'eng' + key + g;
+    if (ids.has(id)) continue;
+    const near = target.reduce((best, s) => (Math.abs(s.grade - g) < Math.abs(best.grade - g) ? s : best));
+    ENGLISH_ALIASES[id] = near.id;
+  }
+}
+
+export const ENGLISH_ALL = all;

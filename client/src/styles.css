@@ -1018,3 +1018,13 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .call-resize { position: absolute; right: 0; bottom: 0; width: 22px; height: 22px; cursor: nwse-resize; touch-action: none;
   background: linear-gradient(135deg, transparent 50%, rgba(255,255,255,.55) 50%, rgba(255,255,255,.55) 58%, transparent 58%, transparent 70%, rgba(255,255,255,.55) 70%, rgba(255,255,255,.55) 78%, transparent 78%); }
 @media (prefers-reduced-motion: reduce) { .call-avatar.pulse, .call-float.incoming, .chat-img.loading { animation: none; } }
+
+/* reading comprehension passages */
+.rc-passage { max-height: 52vh; overflow-y: auto; line-height: 1.65; }
+.rc-passage p { margin: 0 0 10px; }
+.rc-title { margin: 0 0 4px; font-size: 1.05rem; }
+.rc-by { color: var(--muted); font-size: .85rem; margin-bottom: 10px; font-style: italic; }
+.rc-pn { display: inline-grid; place-items: center; min-width: 22px; height: 22px; margin-right: 8px; border-radius: 6px; background: var(--primary-light); color: var(--primary); font-size: .75rem; font-weight: 800; vertical-align: 1px; }
+.rc-poem .rc-stanza { margin: 0 0 14px; font-style: italic; }
+.rc-pic { font-size: 2.4rem; text-align: center; margin-bottom: 6px; }
+.rc-q { margin-top: 12px; font-weight: 700; }

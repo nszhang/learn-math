@@ -1,0 +1,197 @@
+/* English — harder question banks for Grades 9–12. IXL keeps many grammar and vocabulary
+   skills (fragments, comparatives, verb tenses, roots …) all the way to Grade 12, with more
+   demanding sentences. For those skills, Grades 9–12 draw from these banks instead.
+   ADVANCED[key] = gen(grade). */
+import { pairs, classify } from '../quiz.js';
+import { b } from './words.js';
+
+const qa = items => pairs({ items: items.map(([q, a, w, n]) => [q, a, n, [a, ...w]]) });
+const blank = (items, lead = 'Complete the sentence.') => pairs({ items: items.map(([s, a, w, n]) => [`${lead}<br><em>${s}</em>`, a, n || s.replace('___', b(a)), [a, ...w]]) });
+const cls = (categories, items, prompt, explain) => classify({ categories, items, prompt, explain });
+
+export const ADVANCED = {
+  Frag: cls(['Complete sentence', 'Fragment'], [
+    ['Although the committee had reviewed every proposal with remarkable care and patience.', 'Fragment', 'It begins with "Although" and never completes the thought — a dependent clause on its own.'],
+    ['Having finally finished the forty-page report that had consumed her entire weekend.', 'Fragment', 'A participial phrase with no subject and main verb.'],
+    ['The novel, which was banned in several countries during the 1950s, became a bestseller decades later.', 'Complete sentence', 'Subject "The novel" + verb "became."'],
+    ['A city whose ancient walls still stand despite centuries of earthquakes and invasions.', 'Fragment', 'The noun "A city" has no main verb; "whose…" is only a modifier.'],
+    ['Exhausted by the long debate, the senators adjourned without reaching a decision.', 'Complete sentence', 'Subject "the senators" + verb "adjourned."'],
+    ['Because scientists could not replicate the original experiment under controlled conditions.', 'Fragment', 'A dependent "Because" clause cannot stand alone.'],
+    ['Whoever submits the most persuasive essay will receive the scholarship.', 'Complete sentence', 'The noun clause "Whoever submits…" is the subject of "will receive."'],
+    ['For example, the dramatic rise in housing prices across major Canadian cities since 2015.', 'Fragment', 'An example phrase with no main verb.']],
+    s => `Is this a complete sentence or a fragment?<br><em>${s}</em>`),
+  RunO: cls(['Complete sentence', 'Run-on'], [
+    ['The evidence was compelling, nevertheless the jury remained unconvinced.', 'Run-on', 'A comma cannot join two independent clauses with "nevertheless"; use a semicolon.'],
+    ['The experiment failed twice; however, the third trial produced clear results.', 'Complete sentence', 'A semicolon correctly joins the clauses.'],
+    ['Shakespeare wrote 39 plays many of them are still performed today.', 'Run-on', 'Two independent clauses are fused with no punctuation.'],
+    ['When the treaty was signed, both nations agreed to withdraw their troops.', 'Complete sentence', 'A dependent clause followed by one independent clause.'],
+    ['Renewable energy is growing rapidly, it now supplies a third of the country\'s electricity.', 'Run-on', 'A comma splice joins two independent clauses.'],
+    ['The museum, which reopened last spring, attracted record crowds, so it extended its hours.', 'Complete sentence', 'The clauses are joined with a comma and the conjunction "so."'],
+    ['Inflation rose sharply consumers began to cut back on spending.', 'Run-on', 'Fused sentence: needs a period, semicolon or conjunction.'],
+    ['The lecture ran long; consequently, several students missed their buses.', 'Complete sentence', 'A semicolon and conjunctive adverb join the clauses correctly.']],
+    s => `Is this a complete sentence or a run-on?<br><em>${s}</em>`),
+  TnPr: blank([
+    ['By the time the delegates arrive, the interpreters ___ for three hours. (wait, future perfect progressive)', 'will have been waiting', ['will be waiting', 'had been waiting', 'have waited']],
+    ['When the power failed, the surgeons ___ for nearly an hour. (operate, past perfect progressive)', 'had been operating', ['were operating', 'have been operating', 'operated']],
+    ['Researchers ___ the effects of the drug since 2019. (study, present perfect progressive)', 'have been studying', ['are studying', 'had studied', 'were studying']],
+    ['This time next year, she ___ her thesis in Montreal. (defend, future progressive)', 'will be defending', ['will have defended', 'defends', 'was defending']],
+    ['While the committee ___ the proposal, protesters gathered outside. (debate, past progressive)', 'was debating', ['debates', 'has debated', 'will debate']]]),
+  TnPf: blank([
+    ['By the end of the decade, the city ___ its carbon emissions by half. (reduce, future perfect)', 'will have reduced', ['has reduced', 'had reduced', 'reduces']],
+    ['Before the internet became widespread, few people ___ an online encyclopedia. (use, past perfect)', 'had used', ['have used', 'used to use', 'will have used']],
+    ['Since the policy changed, enrolment ___ steadily. (increase, present perfect)', 'has increased', ['had increased', 'increased', 'will have increased']],
+    ['The author ___ three drafts before her editor approved the manuscript. (write, past perfect)', 'had written', ['has written', 'writes', 'will write']],
+    ['By June, the team ___ every possible solution. (test, future perfect)', 'will have tested', ['has tested', 'tests', 'had been tested']]]),
+  AdCp: blank([
+    ['Of the three proposals, this one is the ___ to implement. (feasible)', 'most feasible', ['more feasible', 'feasiblest', 'most feasiblest']],
+    ['The second hypothesis is ___ than the first. (plausible)', 'more plausible', ['plausibler', 'most plausible', 'more plausibler']],
+    ['Her argument was the ___ of all the finalists. (cogent)', 'most cogent', ['cogentest', 'more cogent', 'most cogentest']],
+    ['This edition is ___ than the original. (comprehensive)', 'more comprehensive', ['comprehensiver', 'most comprehensive', 'more comprehensiver']],
+    ['That was the ___ decision the council has ever made. (controversial)', 'most controversial', ['controversialest', 'more controversial', 'controversialer']]]),
+  AdGb: blank([
+    ['Of the two candidates, she is clearly the ___ choice.', 'better', ['best', 'more better', 'gooder']],
+    ['The drought this year is ___ than last year\'s.', 'worse', ['worst', 'badder', 'more worse']],
+    ['That was the ___ performance of the entire festival.', 'best', ['better', 'most best', 'bestest']],
+    ['Of all the possible outcomes, this is the ___.', 'worst', ['worse', 'baddest', 'most worse']],
+    ['Comparing the two translations, the newer one is ___.', 'better', ['best', 'more good', 'most good']]]),
+  AvCp: blank([
+    ['Of all the speakers, she argued the ___. (persuasively)', 'most persuasively', ['more persuasively', 'persuasivelier', 'most persuasive']],
+    ['The new engine runs ___ than the old one. (efficiently)', 'more efficiently', ['efficientlier', 'most efficiently', 'more efficient']],
+    ['He responded ___ than anyone expected. (diplomatically)', 'more diplomatically', ['diplomaticallier', 'most diplomatically', 'more diplomatic']],
+    ['Of the three teams, ours worked the ___. (collaboratively)', 'most collaboratively', ['more collaboratively', 'collaborativelier', 'most collaborative']]]),
+  AvWl: blank([
+    ['Despite the injury, she performed ___ than in any previous season.', 'better', ['best', 'more well', 'gooder']],
+    ['Of all the candidates, he interviewed the ___.', 'worst', ['worse', 'baddest', 'most badly']],
+    ['The negotiations went ___ than expected.', 'worse', ['worst', 'badder', 'more badly than worst']],
+    ['She feels ___ now that the fever has broken.', 'well', ['good', 'better than well', 'best']]]),
+  PhCl: cls(['Phrase', 'Clause'], [
+    ['because the evidence had been gathered illegally', 'Clause', 'It has a subject ("the evidence") and a verb ("had been gathered").'],
+    ['despite years of diplomatic negotiation', 'Phrase', 'No subject-verb pair.'],
+    ['having been elected by a narrow margin', 'Phrase', 'A participial phrase has no subject.'],
+    ['whoever wrote the anonymous letter', 'Clause', 'Subject "whoever" + verb "wrote."'],
+    ['to have completed the marathon in under three hours', 'Phrase', 'An infinitive phrase with no subject.'],
+    ['although critics initially dismissed the novel', 'Clause', 'Subject "critics" + verb "dismissed."']],
+    s => `Is this a phrase or a clause?<br><em>${s}</em>`),
+  PrPh: qa([
+    ['Which group of words is a prepositional phrase?<br><em>Throughout the long negotiations, the delegates remained cautious.</em>', 'Throughout the long negotiations', ['the delegates remained', 'remained cautious', 'the long'], 'A preposition ("Throughout") + its object.'],
+    ['Which group of words is a prepositional phrase?<br><em>The treaty, signed in 1951, promised peace between the nations.</em>', 'between the nations', ['signed in', 'promised peace', 'The treaty'], '"between" is the preposition.'],
+    ['Which group of words is a prepositional phrase?<br><em>Contrary to expectations, the stock market rose sharply.</em>', 'Contrary to expectations', ['the stock market', 'rose sharply', 'market rose'], '"Contrary to" works as a compound preposition.'],
+    ['Which group of words is a prepositional phrase?<br><em>She published her findings without the approval of the board.</em>', 'without the approval of the board', ['She published', 'her findings', 'published her'], 'It begins with "without."']]),
+  FcOp: cls(['Fact', 'Opinion'], [
+    ['The Charter of Rights and Freedoms became part of Canada\'s Constitution in 1982.', 'Fact', 'It can be verified.'],
+    ['The Charter is the most important document in Canadian history.', 'Opinion', '"Most important" is a judgment.'],
+    ['Global average temperatures have risen by about 1.1 °C since the late 1800s.', 'Fact', 'It is measurable.'],
+    ['Governments are moving far too slowly on climate change.', 'Opinion', '"Far too slowly" is a judgment.'],
+    ['Hamlet is Shakespeare\'s longest play.', 'Fact', 'It can be checked by line count.'],
+    ['Hamlet is Shakespeare\'s most profound play.', 'Opinion', '"Most profound" is a personal evaluation.']],
+    s => `Is this a fact or an opinion?<br><em>${s}</em>`),
+  Frml: qa([
+    ['Which sentence is most appropriate for a formal research paper?', 'The data suggest a correlation between sleep duration and academic performance.', ['The data kind of show that sleep and grades are connected.', 'So basically, more sleep = better grades.', 'Sleep totally matters for school, honestly.'], 'Formal writing is precise and avoids slang.'],
+    ['Which sentence is most appropriate for a letter to a city council?', 'I respectfully request that the council reconsider the proposed fare increase.', ['Hey council, please don\'t hike the fares.', 'The fare thing is super unfair, guys.', 'Fares going up? Not cool.'], 'It is polite and formal.'],
+    ['Which sentence is most formal?', 'The committee will convene at 9:00 a.m. to deliberate.', ['The committee\'s gonna meet at nine to talk it over.', 'We\'ll all hang out at nine and figure it out.', 'Nine o\'clock — meeting time, folks!'], 'Word choice like "convene" and "deliberate" is formal.']]),
+  AuPu: qa([
+    ['"Applicants must submit a portfolio, two letters of reference and a 500-word statement by March 1." Who is the audience, and what is the purpose?', 'Prospective applicants; to give requirements', ['Current students; to entertain', 'Parents; to persuade', 'Teachers; to describe a place'], 'It informs applicants of requirements.'],
+    ['"Imagine a city where every child can breathe clean air. Support the transit expansion — vote yes on Measure 4." What is the purpose?', 'To persuade voters', ['To inform about history', 'To entertain children', 'To explain a scientific process'], 'It urges readers to vote.'],
+    ['"Mitochondria generate most of the chemical energy needed to power a cell\'s biochemical reactions." Who is the most likely audience?', 'Biology students', ['Young children', 'Car mechanics', 'Travel agents'], 'The technical vocabulary suits science students.']]),
+  SbOb: cls(['Objective', 'Subjective'], [
+    ['The bill passed the House of Commons by a vote of 178 to 147.', 'Objective', 'It reports facts without judgment.'],
+    ['The reckless bill sailed through Parliament with shameful speed.', 'Subjective', '"Reckless" and "shameful" express opinion.'],
+    ['The novel\'s narrator is unreliable, revealing contradictions as the plot unfolds.', 'Objective', 'It describes a feature of the text.'],
+    ['This dazzling, unforgettable novel is the finest of the decade.', 'Subjective', 'It is full of praise and opinion.']],
+    s => `Is the tone objective or subjective?<br><em>${s}</em>`),
+  Pfx: qa([
+    ['What does <strong>circumnavigate</strong> mean?', 'to sail all the way around', ['to sail in a straight line', 'to avoid sailing', 'to sail underwater'], 'circum- = around.'],
+    ['What does <strong>antithesis</strong> mean?', 'the direct opposite', ['a strong agreement', 'a summary', 'a beginning'], 'anti- = against.'],
+    ['What does <strong>malfunction</strong> mean?', 'a failure to work properly', ['an improvement', 'a new function', 'a repair'], 'mal- = bad.'],
+    ['What does <strong>omnipresent</strong> mean?', 'present everywhere', ['never present', 'present once', 'present nearby'], 'omni- = all.'],
+    ['What does <strong>hyperactive</strong> mean?', 'abnormally active', ['not active', 'slightly active', 'formerly active'], 'hyper- = over, excessive.']]),
+  Sfx: qa([
+    ['What does <strong>ostracize</strong> mean?', 'to exclude from a group', ['to welcome', 'to praise', 'to study'], '-ize = to make or cause.'],
+    ['What does <strong>pragmatism</strong> mean?', 'a practical approach to problems', ['a fear of change', 'a type of poem', 'a belief in magic'], '-ism = a belief or practice.'],
+    ['What does <strong>insurmountable</strong> mean?', 'too great to be overcome', ['easy to climb', 'already solved', 'slightly difficult'], 'in- = not; -able = able to be.'],
+    ['What does <strong>adolescence</strong> mean?', 'the period between childhood and adulthood', ['old age', 'early childhood', 'a medical condition'], '-ence = a state or condition.']]),
+  CxSy: qa([
+    ['The CEO\'s <u>laconic</u> reply — brief and to the point — surprised the reporters. What does laconic mean?', 'using very few words', ['long-winded', 'angry', 'confused'], 'The synonym clue is "brief and to the point."'],
+    ['Her <u>meticulous</u>, or extremely careful, research impressed the committee. What does meticulous mean?', 'extremely careful', ['careless', 'quick', 'expensive'], 'The clue "or extremely careful" defines it.'],
+    ['The <u>ephemeral</u> beauty of the cherry blossoms — fleeting and short-lived — draws crowds every spring. What does ephemeral mean?', 'lasting a very short time', ['permanent', 'colourful', 'fragrant'], 'The synonyms "fleeting and short-lived" define it.'],
+    ['He was <u>obstinate</u>; that is, he stubbornly refused to change his mind. What does obstinate mean?', 'stubborn', ['flexible', 'polite', 'uncertain'], '"That is" introduces the definition.']]),
+  CxAn: qa([
+    ['Unlike his <u>gregarious</u> sister, who loved crowds, Leo preferred solitude. What does gregarious mean?', 'sociable', ['shy', 'angry', 'tired'], 'The contrast with "preferred solitude" signals the opposite.'],
+    ['The first witness was <u>candid</u>, but the second was evasive. What does candid mean?', 'honest and direct', ['evasive', 'nervous', 'forgetful'], '"But … evasive" signals an antonym.'],
+    ['Rather than <u>exacerbate</u> the conflict, the mediator tried to ease tensions. What does exacerbate mean?', 'make worse', ['ease', 'ignore', 'explain'], '"Rather than … ease" signals opposite meaning.'],
+    ['The <u>ostentatious</u> mansion stood beside a modest, plain cottage. What does ostentatious mean?', 'showy and extravagant', ['modest', 'old', 'small'], 'It contrasts with "modest, plain."']]),
+  CxMn: qa([
+    ['The diplomat\'s <u>equivocal</u> statement allowed both sides to claim victory. What does equivocal mean?', 'open to more than one interpretation', ['clear and direct', 'angry', 'very long'], 'Both sides could interpret it their way.'],
+    ['After months of drought, the <u>arid</u> fields cracked under the sun. What does arid mean?', 'extremely dry', ['flooded', 'fertile', 'frozen'], 'Drought and cracking suggest dryness.'],
+    ['The professor\'s <u>esoteric</u> lecture was understood by only a handful of specialists. What does esoteric mean?', 'understood by only a few', ['popular', 'simple', 'brief'], 'Only specialists understood it.'],
+    ['The once-bustling factory town fell into <u>decline</u> after the plant closed. What does decline mean?', 'a gradual worsening', ['rapid growth', 'celebration', 'a steep hill'], 'The plant closing caused the town to worsen.']]),
+  Anl: qa([
+    ['Complete the analogy. <strong>verbose : concise :: lethargic : ___</strong>', 'energetic', ['sleepy', 'wordy', 'brief'], 'Antonyms: verbose/concise, lethargic/energetic.'],
+    ['Complete the analogy. <strong>sculptor : chisel :: surgeon : ___</strong>', 'scalpel', ['hospital', 'patient', 'statue'], 'A worker and the tool they use.'],
+    ['Complete the analogy. <strong>drought : famine :: erosion : ___</strong>', 'landslide', ['rain', 'desert', 'harvest'], 'Cause and effect.'],
+    ['Complete the analogy. <strong>novice : expert :: apprentice : ___</strong>', 'master', ['student', 'beginner', 'tool'], 'Beginner to skilled person.'],
+    ['Complete the analogy. <strong>stanza : poem :: chapter : ___</strong>', 'novel', ['verse', 'page', 'author'], 'Part to whole.']]),
+  HmUs: blank([
+    ['The lawyer will ___ three precedents in her argument.', 'cite', ['site', 'sight']], ['The monarch\'s ___ lasted six decades.', 'reign', ['rein', 'rain']],
+    ['The ___ voted to approve the new bylaw.', 'council', ['counsel']], ['Please be ___; this matter is confidential.', 'discreet', ['discrete']],
+    ['The truck remained ___ at the intersection.', 'stationary', ['stationery']], ['The chef has a refined ___.', 'palate', ['palette', 'pallet']],
+    ['The judge agreed to ___ the fee.', 'waive', ['wave']], ['She gave the student wise ___.', 'counsel', ['council']],
+    ['The parliament building is in the ___ city.', 'capital', ['capitol']], ['The pop star became a teen ___.', 'idol', ['idle', 'idyll']]], 'Choose the correct word.'),
+  CfWd: blank([
+    ['The scandal had a lasting ___ on public trust.', 'effect', ['affect']], ['Her silence seemed to ___ that she disagreed.', 'imply', ['infer']],
+    ['The two colours ___ each other perfectly.', 'complement', ['compliment']], ['The memo was ___ to all staff.', 'disseminated', ['desiminated']],
+    ['He was ___ about the outcome; he had no stake in it.', 'disinterested', ['uninterested']], ['The suspect tried to ___ the police.', 'elude', ['allude']],
+    ['Researchers need to ___ the results are accurate.', 'ensure', ['insure']], ['The committee is ___ of seven members.', 'composed', ['comprised of']]], 'Choose the correct word.'),
+  MsSp: qa([['Which word is spelled correctly?', 'conscientious', ['consciencious', 'conscientous', 'consientious'], 'con-sci-en-tious.'],
+    ['Which word is spelled correctly?', 'millennium', ['millenium', 'milennium', 'millenniam'], 'Two l\'s and two n\'s.'],
+    ['Which word is spelled correctly?', 'accommodate', ['accomodate', 'acommodate', 'accommadate'], 'Two c\'s and two m\'s.'],
+    ['Which word is spelled correctly?', 'liaison', ['liason', 'liasion', 'laison'], 'li-ai-son.'],
+    ['Which word is spelled correctly?', 'occurrence', ['occurence', 'ocurrence', 'occurance'], 'Two c\'s, two r\'s, -ence.'],
+    ['Which word is spelled correctly?', 'rhythm', ['rythm', 'rhythem', 'rhytm'], 'r-h-y-t-h-m.']]),
+  SvEr: qa([['Which sentence has correct subject-verb agreement?', 'The quality of the essays was impressive.', ['The quality of the essays were impressive.', 'The quality of the essays are impressive.', 'The quality of the essays have been impressive.'], 'The subject is "quality" (singular).'],
+    ['Which sentence has correct subject-verb agreement?', 'Neither the director nor the actors were available.', ['Neither the director nor the actors was available.', 'Neither the director nor the actors is available.', 'Neither the director nor the actors has been available.'], 'The verb agrees with the nearer subject, "actors."'],
+    ['Which sentence has correct subject-verb agreement?', 'There are several reasons for the delay.', ['There is several reasons for the delay.', 'There\'s several reasons for the delay.', 'There was several reasons for the delay.'], 'The subject "reasons" follows the verb.'],
+    ['Which sentence has correct subject-verb agreement?', 'The data from the survey suggest a clear trend.', ['The data from the survey suggests clear trends are.', 'The data from the survey is suggesting are.', 'The data from the survey suggesting a clear trend.'], 'In formal usage, "data" is plural.']]),
+  SvIn: qa([['Which sentence is correct?', 'Each of the proposals has merit.', ['Each of the proposals have merit.', 'Each of the proposals are meritorious.', 'Each of the proposals have had merit.'], '"Each" is singular.'],
+    ['Which sentence is correct?', 'Some of the evidence was destroyed.', ['Some of the evidence were destroyed.', 'Some of the evidence have been destroyed.', 'Some of the evidence are destroyed.'], '"Some" takes the number of "evidence" (uncountable).'],
+    ['Which sentence is correct?', 'Many of the delegates have already left.', ['Many of the delegates has already left.', 'Many of the delegates is leaving.', 'Many of the delegates was leaving.'], '"Many" is plural.'],
+    ['Which sentence is correct?', 'Neither of the theories explains the anomaly.', ['Neither of the theories explain the anomaly.', 'Neither of the theories are explaining the anomaly.', 'Neither of the theories have explained the anomaly.'], '"Neither" is singular.']]),
+  PnSO: qa([['Which sentence uses pronouns correctly?', 'The award was presented to Dr. Chen and me.', ['The award was presented to Dr. Chen and I.', 'The award was presented to Dr. Chen and myself.', 'The award was presented to I and Dr. Chen.'], '"Me" is the object of "to."'],
+    ['Which sentence uses pronouns correctly?', 'She and I co-authored the study.', ['Her and me co-authored the study.', 'Her and I co-authored the study.', 'Me and her co-authored the study.'], 'Subject pronouns: she, I.'],
+    ['Which sentence uses pronouns correctly?', 'The decision is between you and him.', ['The decision is between you and he.', 'The decision is between yourself and he.', 'The decision is between you and himself.'], '"Between" takes object pronouns.'],
+    ['Which sentence uses pronouns correctly?', 'It was she who proposed the amendment.', ['It was her who proposed the amendment.', 'It was herself who proposed the amendment.', 'It was hers who proposed the amendment.'], 'Formal usage uses the subject pronoun after "was."']]),
+  DpIn: cls(['Dependent clause', 'Independent clause'], [
+    ['whereas the earlier study relied on self-reported data', 'Dependent clause', '"Whereas" makes it subordinate.'],
+    ['the earlier study relied on self-reported data', 'Independent clause', 'It is a complete thought.'],
+    ['provided that the funding is approved', 'Dependent clause', '"Provided that" makes it conditional and incomplete.'],
+    ['which the committee rejected without debate', 'Dependent clause', 'A relative clause cannot stand alone.'],
+    ['the committee rejected the proposal without debate', 'Independent clause', 'Subject + verb + complete thought.']],
+    s => `Is this a dependent or independent clause?<br><em>${s}</em>`),
+  SnTy: cls(['Simple', 'Compound', 'Complex', 'Compound-complex'], [
+    ['Although the evidence was circumstantial, the jury convicted him, and the judge imposed the maximum sentence.', 'Compound-complex', 'Two independent clauses plus a dependent clause.'],
+    ['The researchers, working late into the night, finally isolated the compound.', 'Simple', 'One independent clause with a participial phrase.'],
+    ['The senator supported the bill, but her party opposed it.', 'Compound', 'Two independent clauses joined by "but."'],
+    ['Because the bridge was closed, commuters faced long delays.', 'Complex', 'One dependent and one independent clause.']],
+    s => `What type of sentence is this?<br><em>${s}</em>`),
+  CmCa: qa([['Which sentence uses commas correctly?', 'It was a bleak, bitter February morning.', ['It was a bleak bitter, February morning.', 'It was a, bleak, bitter February morning.', 'It was a bleak, bitter, February morning.'], 'Coordinate adjectives (bleak, bitter) get a comma; "February" is not coordinate.'],
+    ['Which sentence uses commas correctly?', 'She wore an elegant, understated black dress.', ['She wore an elegant understated, black dress.', 'She wore an elegant, understated, black dress.', 'She wore, an elegant understated black dress.'], '"Black" is not coordinate with the others.'],
+    ['Which sentence uses commas correctly?', 'The long, winding, treacherous road led to the summit.', ['The long winding treacherous, road led to the summit.', 'The long, winding treacherous road, led to the summit.', 'The, long winding treacherous road led to the summit.'], 'Each adjective modifies "road" equally.']]),
+  CmDa: qa([['Which sentence uses commas correctly?', 'The results, however, were inconclusive.', ['The results however, were inconclusive.', 'The results, however were inconclusive.', 'The results however were, inconclusive.'], 'Set off an interrupter with commas on both sides.'],
+    ['Which sentence uses commas correctly?', 'Her voice trembling, she began the eulogy.', ['Her voice trembling she began, the eulogy.', 'Her voice, trembling she began the eulogy.', 'Her voice trembling she began the eulogy.'], 'An absolute phrase is set off with a comma.'],
+    ['Which sentence uses commas correctly?', 'It was the policy, not the person, that drew criticism.', ['It was the policy not the person, that drew criticism.', 'It was the policy, not the person that drew criticism.', 'It was, the policy not the person that drew criticism.'], 'Set off antithetical phrases with commas.'],
+    ['Which sentence uses commas correctly?', 'Professor Ahmed, could you clarify the second point?', ['Professor Ahmed could you, clarify the second point?', 'Professor, Ahmed could you clarify the second point?', 'Professor Ahmed could you clarify, the second point?'], 'Use a comma after a direct address.']]),
+  MnId: qa([['Read the passage.<br><em>Though often dismissed as mere entertainment, video games have become a serious subject of academic study. Researchers examine how games tell stories, how players form communities and how game design can shape behaviour — inquiries that draw on psychology, literature and economics alike.</em><br>What is the main idea?', 'Video games are now studied seriously across several academic fields.', ['Video games are only entertainment.', 'Economics is the most important field.', 'Players form online communities.'], 'The passage stresses serious, multidisciplinary study.'],
+    ['Read the passage.<br><em>Urban heat islands form when concrete and asphalt absorb sunlight and release heat. Cities can be several degrees warmer than surrounding areas. Planting trees, installing green roofs and using reflective materials can lower temperatures significantly.</em><br>What is the main idea?', 'Cities trap heat, but design changes can reduce it.', ['Trees are beautiful.', 'Asphalt is a type of rock.', 'Cities are always too hot to live in.'], 'It explains the problem and solutions.']]),
+  BrNr: qa([['Which list is in order from broadest to narrowest?', 'Literature; poetry; sonnets; Shakespeare\'s Sonnet 18', ['Sonnets; literature; poetry; Sonnet 18', 'Poetry; literature; Sonnet 18; sonnets', 'Sonnet 18; sonnets; poetry; literature'], 'Each item is a subset of the one before.'],
+    ['Which list is in order from broadest to narrowest?', 'Government; Parliament; House of Commons; a single riding\'s MP', ['House of Commons; Parliament; government; MP', 'MP; House of Commons; Parliament; government', 'Parliament; government; MP; House of Commons'], 'Broad to specific.'],
+    ['Which list is in order from broadest to narrowest?', 'Science; biology; genetics; CRISPR gene editing', ['Genetics; science; biology; CRISPR', 'Biology; science; CRISPR; genetics', 'CRISPR; genetics; biology; science'], 'Each narrows the previous.']]),
+  TnSh: qa([['Which sentence keeps verb tense consistent?', 'The narrator describes the storm and then reveals the secret.', ['The narrator described the storm and then reveals the secret.', 'The narrator describes the storm and then revealed the secret.', 'The narrator had described the storm and reveals the secret.'], 'Literary analysis uses the present tense consistently.'],
+    ['Which sentence keeps verb tense consistent?', 'When the market crashed, investors panicked and sold their shares.', ['When the market crashed, investors panic and sold their shares.', 'When the market crashes, investors panicked and sold their shares.', 'When the market crashed, investors panic and sell their shares.'], 'All past tense.']]),
+  EvRs: qa([['Which sentence uses standard English correctly?', 'Regardless of the outcome, we will proceed.', ['Irregardless of the outcome, we will proceed.', 'Regardless of the outcome, we will of proceeded.', 'Irregardless, the outcome, we will proceed.'], '"Irregardless" is nonstandard.'],
+    ['Which sentence uses standard English correctly?', 'She should have consulted the archive.', ['She should of consulted the archive.', 'She should\'ve of consulted the archive.', 'She should has consulted the archive.'], '"Should have," not "should of."'],
+    ['Which sentence uses standard English correctly?', 'The reason is that the funding was cut.', ['The reason is because the funding was cut.', 'The reason why is because the funding was cut.', 'The reason is being that the funding was cut.'], '"The reason is that" avoids redundancy.']]),
+  CpEr: qa([['Which sentence uses capital letters correctly?', 'The Treaty of Versailles was signed after the First World War.', ['The treaty of Versailles was signed after the first world war.', 'The Treaty Of Versailles was signed after The First World War.', 'the Treaty of versailles was signed after the First World war.'], 'Capitalize the full names of documents and historical events.'],
+    ['Which sentence uses capital letters correctly?', 'She studied economics at the University of British Columbia.', ['She studied Economics at the university of British Columbia.', 'She studied economics at the University Of British Columbia.', 'She Studied Economics at the University of british Columbia.'], 'Capitalize proper names, not general subjects.']]),
+  ApPl: qa([['Which sentence uses apostrophes correctly?', 'The committee\'s decision affected all the members\' votes.', ['The committees decision affected all the member\'s votes.', 'The committee\'s decision affected all the members votes.', 'The committees\' decision affected all the members\'s votes.'], 'Singular possessive committee\'s; plural possessive members\'.'],
+    ['Which sentence uses apostrophes correctly?', 'The children\'s museum reopened after two years\' renovation.', ['The childrens\' museum reopened after two year\'s renovation.', 'The childrens museum reopened after two years renovation.', 'The children\'s museum reopened after two year\'s renovation.'], 'children\'s (irregular plural); years\' (plural).']])
+};

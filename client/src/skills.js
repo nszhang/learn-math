@@ -13,7 +13,7 @@ import { ELEMENTARY } from './catalog/elementary.js';
 import { EXTRA_SKILLS } from './catalog/extra.js';
 import { EXTRA2_SKILLS } from './catalog/extra2.js';
 import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
-import { ENGLISH_ALL } from './catalog/ixlEnglish.js';
+import { ENGLISH_ALL, ENGLISH_ALIASES } from './catalog/ixlEnglish.js';
 import { CHINESE_ALL, HSK_LEVELS, hskLabel } from './catalog/ixlChinese.js';
 import { SCIENCE_ALL } from './catalog/ixlScience.js';
 import { IXL_MATH_SKILLS, IXL_MATH_SECTION_ORDER, ixlIconFor } from './catalog/ixlMath/index.js';
@@ -281,6 +281,11 @@ for (const subject of SUBJECTS) {
     section.skills.forEach(skill => {
       SKILL_INDEX[skill.id] = { subject, grade, section, skill };
     })));
+}
+// English skill ids that were renumbered when English was aligned with IXL's grade lists keep
+// working (old homework, saved progress): they resolve to the same generator at the nearest grade.
+for (const [oldId, newId] of Object.entries(ENGLISH_ALIASES)) {
+  if (!SKILL_INDEX[oldId] && SKILL_INDEX[newId]) SKILL_INDEX[oldId] = SKILL_INDEX[newId];
 }
 
 // Math only: the deterministic daily-practice set draws from this list.

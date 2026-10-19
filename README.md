@@ -442,7 +442,19 @@ different content catalogs and per-site daily-homework prefixes.
 
 The skill browser is subject-aware (`SUBJECTS` in `client/src/skills.js`): Math, English and Science, each with the same IXL-style Grade → Section → Skill layout.
 
-**English** follows IXL's language-arts structure: Category (Reading Strategies, Writing Strategies, Vocabulary, Grammar and Mechanics) → lettered Section (A … Z, AA …) → Skill. `client/src/catalog/ixlEnglish.js` holds the section registry and expands each skill spec `{ k, t, s, g: [grades], gen }` into one skill per grade (id `eng<k><grade>`, so each grade keeps its own SmartScore). Content lives in `ixlEnglishReading.js`, `ixlEnglishVocab.js` and `ixlEnglishGrammar.js`; the original grade 1–5 skills are in `english.js`.
+**English** matches IXL Canada's language-arts skill list for every grade.
+- **IXL alignment:** `catalog/eng/ixlLists.js` holds IXL's per-grade lists (category → section → skill title), and `catalog/eng/ixlAlign.js` maps each title to one of our generators. Every IXL title is offered at the same grade, apart from two that need artwork.
+- **Our own extras:** the builder `catalog/ixlEnglish.js` adds skills IXL doesn't have, including Reading comprehension, literature (Shakespeare, British and American authors), poetry terms and logical fallacies.
+- **Skill ids:** `eng<key><grade>`, so each grade keeps its own SmartScore. Old ids that are no longer offered resolve to the nearest grade (`ENGLISH_ALIASES`), so existing homework and progress keep working.
+- **Generators:**
+  - Phonics: `eng/foundations.js`, `eng/ixlFoundations2.js`
+  - Grammar and vocabulary: `eng/language.js`, `eng/ixlLanguage2.js`, `ixlEnglishGrammar.js`, `ixlEnglishVocab.js`
+  - Reading and writing strategies: `eng/reading.js`, `eng/ixlStrategies2.js`, `ixlEnglishReading.js`
+- **Harder Grades 9–12:** generators receive the grade. For skills IXL keeps through Grade 12 (fragments, comparatives, tenses, roots, commas …), Grades 9–12 draw from harder banks in `eng/advanced.js`.
+- **Reading comprehension** (`eng/comprehension.js`, passages in `eng/rc/`): each question shows a whole passage (numbered paragraphs, or stanzas) and one question about main idea, detail, inference, vocabulary in context, structure, purpose, theme or evidence, with the evidence explained.
+  - Grade bands: stories and nonfiction for Grades 1–12, arguments from Grade 6, public-domain poetry from Grade 9 (Dickinson, Frost, Hughes, McCrae, Shakespeare, Shelley, Donne), and classic and historical texts in Grades 11–12 (Lincoln, Douglass, Austen, Thoreau).
+  - Grades 3–5 also have IXL's genre and topic reading skills: fantasy, historical fiction, science fiction, realistic fiction, poetry, drama, and reading about animals, food, art and traditions, sports, famous people and places, business and technology, science and history.
+- **Listening skills** (sight words, word endings) speak English aloud with the browser's voice.
 
 **Science** follows IXL's science structure (Grade → lettered Section → Skill). `client/src/catalog/ixlScience.js` holds the section registry and expands specs from `catalog/sci/physical.js`, `life.js`, `earth.js` and `chemphys.js`; the original skills in `science.js` / `science612.js` are placed into sections there.
 

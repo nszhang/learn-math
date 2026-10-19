@@ -4,7 +4,7 @@ import { SKILL_INDEX, PRAISE, PRAISE_CHALLENGE, ENCOURAGE, MASTERY_MSGS, pick, f
 import { niceDate, localDateStr } from '../homework.js';
 import WriteCharacters from './WriteCharacters.jsx';
 import { createDeduper, questionSig } from '../questionPool.js';
-import { canSpeak, speakChinese } from '../speech.js';
+import { canSpeak, speak } from '../speech.js';
 
 let audioCtx = null;
 
@@ -97,7 +97,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
     (inputRef.current || choicesRef.current?.querySelector('button'))?.focus();
     // listening questions play on their own
     if (question.listen && canSpeak) {
-      const t = setTimeout(() => speakChinese(question.say), 300);
+      const t = setTimeout(() => speak(question.say, { lang: question.lang }), 300);
       return () => clearTimeout(t);
     }
   }, [question]);
@@ -287,12 +287,12 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
           {question.listen ? (
             canSpeak ? (
               <div className="listen-bar">
-                <button type="button" className="btn btn-primary listen-btn" onClick={() => speakChinese(question.say)} title="Play again">🔊 Play again</button>
-                <button type="button" className="btn btn-ghost" onClick={() => speakChinese(question.say, { rate: 0.5 })} title="Play slowly">🐢 Slowly</button>
+                <button type="button" className="btn btn-primary listen-btn" onClick={() => speak(question.say, { lang: question.lang })} title="Play again">🔊 Play again</button>
+                <button type="button" className="btn btn-ghost" onClick={() => speak(question.say, { rate: 0.5, lang: question.lang })} title="Play slowly">🐢 Slowly</button>
               </div>
             ) : <p className="warn-box">🔇 This browser can't play speech, so here is the text: <span className="zh">{question.say}</span></p>
           ) : question.say && canSpeak && (
-            <button type="button" className="btn btn-ghost speak-btn" onClick={() => speakChinese(question.say)} title="Listen">🔊 Listen</button>
+            <button type="button" className="btn btn-ghost speak-btn" onClick={() => speak(question.say, { lang: question.lang })} title="Listen">🔊 Listen</button>
           )}
 
           {question.type === 'write' ? (
@@ -336,7 +336,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
               </>)}
               {feedback.correct && question.listen && (
                 <p className="explain"><span dangerouslySetInnerHTML={{ __html: question.explain }} />{' '}
-                  {canSpeak && <button type="button" className="btn btn-ghost speak-btn" onClick={() => speakChinese(question.say)}>🔊 Hear it again</button>}</p>)}
+                  {canSpeak && <button type="button" className="btn btn-ghost speak-btn" onClick={() => speak(question.say, { lang: question.lang })}>🔊 Hear it again</button>}</p>)}
               {feedback.correct && score >= 100 && !isHw && (
                 <p className="explain">🥇 <strong>SmartScore 100 — mastery achieved!</strong> Keep practicing to stay sharp, or try another skill!</p>)}
             </div>
