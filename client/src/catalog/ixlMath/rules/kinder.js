@@ -54,7 +54,7 @@ export const KINDER_RULES = [
   R(/^Tally marks - up to \d+$/, (mt, ctx) => () => {
     const lim = upTo(ctx.title, 10), n = countN(lim), g = Math.floor(n / 5), r = n % 5; return num(`<span style="font-family:monospace;font-size:24px;letter-spacing:3px">${'𝍸 '.repeat(g)}${'|'.repeat(r)}</span><br>How many tally marks are there?`, n, `${g} group${g === 1 ? '' : 's'} of 5 and ${r} more: ${b(n)}.`);
   }),
-  R(/^Count tens and ones - up to \d+$/, (mt, ctx) => () => {
+  R(/^(?:Count|Understand) tens and ones - up to \d+$/, (mt, ctx) => () => {
     const lim = upTo(ctx.title, 20), n = ri(11, lim), t = Math.floor(n / 10), o = n % 10; return num(`${'🟦'.repeat(10).repeat(t).replace(/(🟦{10})/g, '$1 ')}${'🟩'.repeat(o)}<br>Each 🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦 group is 1 ten. How many are there in all?`, n, `${t} ten${t > 1 ? 's' : ''} and ${o} one${o === 1 ? '' : 's'} = ${b(n)}.`);
   }),
   R(/^Count pictures - up to 100$/, () => () => { const n = ri(21, 100), [, , e] = thing(); return num(`${emojiRow(e, n, 10)}How many are there?`, n, `Count by tens, then ones: ${b(n)}.`); }),
@@ -163,7 +163,7 @@ export const KINDER_RULES = [
   R(/^More or less likely$/, () => () => {
     const a = ri(1, 6), c = ri(1, 6); if (a === c) return null; return mc(`A bag has ${a} 🔴 and ${c} 🔵 balls. Which colour are you more likely to pick?`, a > c ? 'red 🔴' : 'blue 🔵', [a > c ? 'blue 🔵' : 'red 🔴'], `There are more ${a > c ? 'red' : 'blue'} balls.`, 2);
   }),
-  R(/^Three-dimensional shapes in the real world I{1,2}$|^Two-dimensional shapes in the real world$/, () => () => {
+  R(/^Three-dimensional shapes in the real world I{1,2}$|^Two-dimensional shapes in the real world$|^Two-dimensional shapes in real-world objects$/, () => () => {
     const q = [['a ball', 'sphere'], ['a box of tissues', 'rectangular prism'], ['a can', 'cylinder'], ['an ice cream cone', 'cone'], ['a clock face', 'circle']]; const [d, a] = pick(q); return mc(`What shape is ${b(d)} like?`, a, ['sphere', 'rectangular prism', 'cylinder', 'cone', 'circle'].filter(x => x !== a).slice(0, 3), `${d} is like a ${b(a)}.`, 4);
   })
 ];

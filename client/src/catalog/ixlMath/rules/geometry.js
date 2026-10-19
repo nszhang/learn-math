@@ -183,7 +183,7 @@ export const GEOMETRY_RULES = [
     const s = pick(['triangle', 'square', 'circle', 'pentagon', 'hexagon', 'rectangle']), cat = SIDES[s] === 0 ? 'No sides' : SIDES[s] <= 4 ? '3 or 4 sides' : '5 or more sides';
     return mc(`${shapeSvg(s, 90)}Sort this shape. Which group does it belong to?`, cat, ['No sides', '3 or 4 sides', '5 or more sides'].filter(x => x !== cat), `A ${s} ${SIDES[s] ? `has ${SIDES[s]} sides` : 'has no straight sides'}: ${b(cat)}.`, 3);
   }),
-  R(/^Two-dimensional shapes in the real world$/, () => () => {
+  R(/^Two-dimensional shapes in the real world$|^Two-dimensional shapes in real-world objects$/, () => () => {
     const q = pick([['a clock face', 'circle'], ['a stop sign', 'octagon'], ['a slice of pizza', 'triangle'], ['a window pane', 'rectangle'], ['a chessboard square', 'square'], ['a yield sign', 'triangle']]);
     return mc(`What shape is ${b(q[0])}?`, q[1], ['circle', 'octagon', 'triangle', 'rectangle', 'square'].filter(x => x !== q[1]), `${q[0]} is a ${b(q[1])}.`, 4);
   }),

@@ -166,6 +166,17 @@ export const NUMBER_RULES = [
     const n = ri(11, 19);
     return mc(`${tenFrame(n)}How many is this? Choose the number name.`, words(n), near(n, 3, 3, { min: 11 }).map(words), `One full ten frame and ${n - 10} more is ${b(words(n))}.`);
   }),
+  R(/^Make and take apart teen numbers on ten frames: tens and ones$/, () => () => {
+    const n = ri(11, 19), o = n - 10;
+    const say = k => `1 ten and ${k} one${k === 1 ? '' : 's'}`;
+    return mc(`${tenFrame(n)}How many tens and ones make ${b(n)}?`, say(o), [say(o === 9 ? 8 : o + 1), `${o} tens and 1 one`, say(o === 1 ? 2 : o - 1)], `A full ten frame is 1 ten, plus ${o} more: ${b(say(o))} = ${n}.`);
+  }),
+  R(/^Build and break apart teen numbers$/, () => () => {
+    const n = ri(11, 19), o = n - 10;
+    return Math.random() < 0.5
+      ? num(`Break apart the number: ${b(n)} = 10 + ___`, o, `${n} is 1 ten and ${o} ones, so ${b(`${n} = 10 + ${o}`)}.`)
+      : num(`Build the number: 1 ten and ${o} ones = ___`, n, `10 + ${o} = ${b(n)}.`);
+  }),
   R(/teen numbers on ten frames: addition sentences/, () => () => {
     const n = ri(11, 19);
     return mc(`${tenFrame(n)}Which addition sentence matches the ten frames?`, `10 + ${n - 10} = ${n}`, [`10 + ${n - 9} = ${n + 1}`, `${n} + ${n - 10} = ${2 * n - 10}`, `1 + ${n - 1} = ${n}`], `A full ten frame is 10, plus ${n - 10} more: ${b(`10 + ${n - 10} = ${n}`)}.`);
