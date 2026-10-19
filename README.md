@@ -442,8 +442,8 @@ different content catalogs and per-site daily-homework prefixes.
 
 The skill browser is subject-aware (`SUBJECTS` in `client/src/skills.js`): Math, English and Science, each with the same IXL-style Grade → Section → Skill layout.
 
-**English** matches IXL Canada's language-arts skill list for every grade.
-- **IXL alignment:** `catalog/eng/ixlLists.js` holds IXL's per-grade lists (category → section → skill title), and `catalog/eng/ixlAlign.js` maps each title to one of our generators. Every IXL title is offered at the same grade, apart from two that need artwork.
+**English** matches IXL Canada's language-arts skill list for every grade, Kindergarten to Grade 12.
+- **IXL alignment:** `catalog/eng/ixlLists.js` holds IXL's per-grade lists (category → section → skill title), and `catalog/eng/ixlAlign.js` maps each title to one of our generators. Every IXL title is offered at the same grade. The lists are downloaded straight from ca.ixl.com's grade pages, so they are exact; Kindergarten has letters, spoken sight words, early phonics and grammar (`eng/ixlKindergarten.js`).
 - **Our own extras:** the builder `catalog/ixlEnglish.js` adds skills IXL doesn't have, including Reading comprehension, literature (Shakespeare, British and American authors), poetry terms and logical fallacies.
 - **Skill ids:** `eng<key><grade>`, so each grade keeps its own SmartScore. Old ids that are no longer offered resolve to the nearest grade (`ENGLISH_ALIASES`), so existing homework and progress keep working.
 - **Generators:**

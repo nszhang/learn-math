@@ -19,6 +19,7 @@ import { RC_SPECS } from './eng/comprehension.js';
 import { FOUNDATION2_SPECS } from './eng/ixlFoundations2.js';
 import { LANGUAGE2_SPECS } from './eng/ixlLanguage2.js';
 import { STRATEGY2_SPECS } from './eng/ixlStrategies2.js';
+import { KINDER_SPECS } from './eng/ixlKindergarten.js';
 import { ADVANCED } from './eng/advanced.js';
 import { IXL_ENGLISH } from './eng/ixlLists.js';
 import { RESOLVE, SUPERSEDED, SKIPPED } from './eng/ixlAlign.js';
@@ -149,7 +150,7 @@ const addSpec = (key, spec) => {
   SPECS.set(key + '_2', { ...spec, idKey: key });
 };
 for (const sp of [...FOUNDATION_SPECS, ...READING_E_SPECS, ...READING_SPECS, ...VOCAB_SPECS, ...LANGUAGE_SPECS, ...GRAMMAR_SPECS,
-  ...RC_SPECS, ...FOUNDATION2_SPECS, ...LANGUAGE2_SPECS, ...STRATEGY2_SPECS]) {
+  ...RC_SPECS, ...FOUNDATION2_SPECS, ...LANGUAGE2_SPECS, ...STRATEGY2_SPECS, ...KINDER_SPECS]) {
   addSpec(sp.k, { title: sp.t, section: sp.s, grades: GRADE_OVERRIDES[sp.k] || sp.g, gen: sp.gen });
 }
 // the original (pre-catalog) skills: one fixed grade each
@@ -205,7 +206,7 @@ const genFor = (key, grade) => {
 
 // keys that IXL titles resolve to at some grade
 const IXL_KEYS = new Set();
-for (let grade = 1; grade <= 12; grade++) for (const [, , title] of IXL_ENGLISH[grade]) { const k = resolve(title, grade); if (k) IXL_KEYS.add(k); }
+for (let grade = 0; grade <= 12; grade++) for (const [, , title] of IXL_ENGLISH[grade]) { const k = resolve(title, grade); if (k) IXL_KEYS.add(k); }
 
 // our Reading comprehension skills are offered at all their grades, even where IXL also uses them
 const OWN = new Set(['RcL', 'RcI', 'RcA', 'RcP', 'RcC']);
@@ -214,7 +215,7 @@ export const ENGLISH_UNRESOLVED = []; // IXL titles we could not place (should s
 export const ENGLISH_ALIASES = {};    // old skill id → current skill id
 const all = [];
 const usedKeysAnyGrade = new Set();
-for (let grade = 1; grade <= 12; grade++) {
+for (let grade = 0; grade <= 12; grade++) {
   const rows = [], used = new Set(), titles = new Set();
   for (const [cat, section, title] of IXL_ENGLISH[grade]) {
     if (SKIPPED.includes(title)) continue;
@@ -256,7 +257,7 @@ for (const [key, sp] of SPECS) {
   const target = byKey.get(key) || byKey.get(supersededBy.get(key));
   if (!target) continue;
   if (sp.idKey) continue; // shares ids with another generator
-  const gs = new Set([...sp.grades, ...G(1, 12)]);
+  const gs = new Set([...sp.grades, ...G(0, 12)]);
   for (const g of gs) {
     const id = 'eng' + key + g;
     if (ids.has(id)) continue;

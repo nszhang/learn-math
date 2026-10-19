@@ -2,6 +2,17 @@
    An IXL title is matched to a generator automatically when the titles are the same; this table
    covers the rest: [IXL title, generator key, optional grades it applies to]. */
 export const RESOLVE = [
+  // Kindergarten
+  ['Find the vowel in the word', 'FnVw'],
+  ['Identify the first, second and last sound in a word', 'XSeg'],
+  ['Use number words: one to ten', 'XNumW'],
+  ['Choose the best location word to match the picture', 'XPpPc'],
+  ['Sort objects into categories', 'CtMb'],
+  ['Which one is not like the others?', 'CtOd'],
+  ['Identify and use end marks', 'PUN'],
+  ['Find the complete sentence', 'XCmpS'],
+  ['Choose the singular or plural noun that matches the picture', 'XPlPc'],
+  ['Find the action verb', 'VbAc'],
   // Reading foundations
   ['Find the vowels in a word', 'FnVw'],
   ['Choose the correct digraph', 'DgEn'],
@@ -111,7 +122,7 @@ export const RESOLVE = [
 ];
 
 // Old generators replaced by more specific IXL-aligned ones: [old key, replacement key].
-export const SUPERSEDED = [['CjId', 'XCoId']];
+export const SUPERSEDED = [['CjId', 'XCoId'], ...[1, 2, 3, 4, 5, 6, 7].map(n => ['XSw' + n, 'XGs' + n])];
 
-// IXL skills that need artwork we don't have; not offered.
-export const SKIPPED = ['Compare mythological illustrations', 'Compare illustrations of literary and historical subjects'];
+// IXL skills we do not offer (none at the moment).
+export const SKIPPED = [];

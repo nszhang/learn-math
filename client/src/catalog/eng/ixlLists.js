@@ -1,6 +1,663 @@
-/* IXL Canada English language arts skill lists by grade (category, section, skill title), captured
-   for alignment. Our catalog offers each of these titles at the same grade. */
+/* IXL Canada English language arts skill lists by grade (0 = Kindergarten): [category, section,
+   skill title], downloaded from ca.ixl.com. Our catalog offers every one of these titles at the same grade. */
 export const IXL_ENGLISH = {
+"0": [
+[
+"Reading foundations",
+"Letter identification",
+"Find the letter in the alphabet: uppercase"
+],
+[
+"Reading foundations",
+"Letter identification",
+"Find the letter in the alphabet: lowercase"
+],
+[
+"Reading foundations",
+"Letter identification",
+"Choose the letter that you hear: uppercase"
+],
+[
+"Reading foundations",
+"Letter identification",
+"Choose the letter that you hear: lowercase"
+],
+[
+"Reading foundations",
+"Letter identification",
+"Frequently confused letters: find the letter"
+],
+[
+"Reading foundations",
+"Letter identification",
+"Frequently confused letters: find all the letters"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Choose the lowercase letter that matches: c, k, o, p, s, u, v, w, x, z"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Choose the lowercase letter that matches: f, i, j, l, m, t, y"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Choose the lowercase letter that matches: a, b, d, e, g, h, n, q, r"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Choose the lowercase letter that matches: review"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Find all the lowercase letters"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Choose the uppercase letter that matches: C, K, O, P, S, U, V, W, X, Z"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Choose the uppercase letter that matches: F, I, J, L, M, T, Y"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Choose the uppercase letter that matches: A, B, D, E, G, H, N, Q, R"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Choose the uppercase letter that matches: review"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Find all the uppercase letters"
+],
+[
+"Reading foundations",
+"Lowercase and uppercase letters",
+"Put the letters in ABC order"
+],
+[
+"Reading foundations",
+"Word recognition",
+"Choose the two words that are the same"
+],
+[
+"Reading foundations",
+"Word recognition",
+"Choose the sentence that is spaced correctly"
+],
+[
+"Reading foundations",
+"Word recognition",
+"Find a word in a sentence"
+],
+[
+"Reading foundations",
+"Consonants and vowels",
+"Sort consonants and vowels"
+],
+[
+"Reading foundations",
+"Consonants and vowels",
+"Find the vowel in the word"
+],
+[
+"Reading foundations",
+"Syllables",
+"How many syllables does the word have?"
+],
+[
+"Reading foundations",
+"Syllables",
+"Which word has more syllables?"
+],
+[
+"Reading foundations",
+"Syllables",
+"Sort by the number of syllables"
+],
+[
+"Reading foundations",
+"Rhyming",
+"Which word has the same ending?"
+],
+[
+"Reading foundations",
+"Rhyming",
+"Which two words have the same ending?"
+],
+[
+"Reading foundations",
+"Rhyming",
+"Choose the picture that rhymes with the word"
+],
+[
+"Reading foundations",
+"Rhyming",
+"Which word does not rhyme?"
+],
+[
+"Reading foundations",
+"Rhyming",
+"Complete the rhyme"
+],
+[
+"Reading foundations",
+"Blending and segmenting",
+"Blend onset and rime together to make a word"
+],
+[
+"Reading foundations",
+"Blending and segmenting",
+"Blend each sound in a word together"
+],
+[
+"Reading foundations",
+"Blending and segmenting",
+"Identify the first, second and last sound in a word"
+],
+[
+"Reading foundations",
+"Blending and segmenting",
+"Put the sounds in order"
+],
+[
+"Reading foundations",
+"Beginning and ending sounds",
+"Which two words start with the same sound?"
+],
+[
+"Reading foundations",
+"Beginning and ending sounds",
+"Which word ends with the same sound?"
+],
+[
+"Reading foundations",
+"Beginning and ending sounds",
+"Which two words end with the same sound?"
+],
+[
+"Reading foundations",
+"Letter-sound associations",
+"Find the words that begin with a given sound"
+],
+[
+"Reading foundations",
+"Letter-sound associations",
+"Choose the letter that matches the consonant sound: b, d, j, k, p, t, v, z"
+],
+[
+"Reading foundations",
+"Letter-sound associations",
+"Choose the letter that matches the consonant sound: f, l, m, n, r, s"
+],
+[
+"Reading foundations",
+"Letter-sound associations",
+"Choose the letter that matches the consonant sound: c, g, h, w"
+],
+[
+"Reading foundations",
+"Letter-sound associations",
+"Choose the letter that matches the consonant sound: review"
+],
+[
+"Reading foundations",
+"Letter-sound associations",
+"Which letter does the word start with?"
+],
+[
+"Reading foundations",
+"Letter-sound associations",
+"Which letter does the word end with?"
+],
+[
+"Reading foundations",
+"Consonant blends and digraphs",
+"Which consonant blend does the word start with?"
+],
+[
+"Reading foundations",
+"Consonant blends and digraphs",
+"Complete the word with the right initial consonant blend"
+],
+[
+"Reading foundations",
+"Consonant blends and digraphs",
+"Does the word start with a consonant blend?"
+],
+[
+"Reading foundations",
+"Consonant blends and digraphs",
+"Which consonant blend does the word end with?"
+],
+[
+"Reading foundations",
+"Consonant blends and digraphs",
+"Complete the word with the right final consonant blend"
+],
+[
+"Reading foundations",
+"Consonant blends and digraphs",
+"Does the word end with a consonant blend?"
+],
+[
+"Reading foundations",
+"Consonant blends and digraphs",
+"Choose the word that matches the picture: -ss, -ll, -ff, -zz, -ck"
+],
+[
+"Reading foundations",
+"Consonant blends and digraphs",
+"Choose the correct digraph"
+],
+[
+"Reading foundations",
+"Short a",
+"Find the short a word"
+],
+[
+"Reading foundations",
+"Short a",
+"Choose the short a sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short a",
+"Complete the short a word"
+],
+[
+"Reading foundations",
+"Short a",
+"Choose the short a word that matches the picture"
+],
+[
+"Reading foundations",
+"Short e",
+"Find the short e word"
+],
+[
+"Reading foundations",
+"Short e",
+"Choose the picture that matches the short e word"
+],
+[
+"Reading foundations",
+"Short e",
+"Complete the short e word"
+],
+[
+"Reading foundations",
+"Short e",
+"Choose the short e sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short i",
+"Find the short i word"
+],
+[
+"Reading foundations",
+"Short i",
+"Choose the short i word that matches the picture"
+],
+[
+"Reading foundations",
+"Short i",
+"Complete the short i words"
+],
+[
+"Reading foundations",
+"Short i",
+"Choose the short i sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short o",
+"Find the short o word"
+],
+[
+"Reading foundations",
+"Short o",
+"Choose the short o word that matches the picture"
+],
+[
+"Reading foundations",
+"Short o",
+"Complete the short o word"
+],
+[
+"Reading foundations",
+"Short o",
+"Choose the short o sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short u",
+"Find the short u word"
+],
+[
+"Reading foundations",
+"Short u",
+"Choose the picture that matches the short u word"
+],
+[
+"Reading foundations",
+"Short u",
+"Complete the short u word"
+],
+[
+"Reading foundations",
+"Short u",
+"Choose the short u sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short vowels",
+"Identify the short vowel sound in a word"
+],
+[
+"Reading foundations",
+"Short vowels",
+"Complete the word with the right short vowel"
+],
+[
+"Reading foundations",
+"Short vowels",
+"Spell the short vowel word"
+],
+[
+"Reading foundations",
+"Short vowels",
+"Complete the sentence with the correct short vowel word"
+],
+[
+"Reading foundations",
+"Short vowels",
+"Read questions with short vowel words"
+],
+[
+"Reading foundations",
+"Long vowels",
+"Find the word with the same vowel sound"
+],
+[
+"Reading foundations",
+"Long vowels",
+"Which two words have the same vowel sound?"
+],
+[
+"Reading foundations",
+"Long vowels",
+"Find the long a word"
+],
+[
+"Reading foundations",
+"Long vowels",
+"Find the long e word"
+],
+[
+"Reading foundations",
+"Long vowels",
+"Find the long i word"
+],
+[
+"Reading foundations",
+"Long vowels",
+"Find the long o word"
+],
+[
+"Reading foundations",
+"Long vowels",
+"Find the long u word"
+],
+[
+"Reading foundations",
+"Long vowels",
+"Sort short and long vowel words"
+],
+[
+"Reading foundations",
+"Sight words",
+"Choose the two sight words that are the same"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 1: ate, he, of, that, was"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 2: are, green, on, please, they"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 3: be, have, or, pretty, this"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words: review sets 1, 2, 3"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 4: all, but, ride, saw, what"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 5: about, like, she, under, we"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 6: black, into, made, ran, white"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words: review sets 4, 5, 6"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 7: am, did, get, now, well"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 8: fast, good, him, take, will"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 9: came, going, say, too, with"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words set 10: brown, does, eat, must, went"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words: review sets 7, 8, 9, 10"
+],
+[
+"Reading foundations",
+"Sight words",
+"Read sight words: review sets 1–10"
+],
+[
+"Reading foundations",
+"Sight words",
+"Complete the sentence with the correct sight word"
+],
+[
+"Reading foundations",
+"Sight words",
+"Spell the sight word"
+],
+[
+"Reading strategies",
+"Text features",
+"Identify book parts and features"
+],
+[
+"Reading strategies",
+"Reality vs. fiction",
+"Which could happen in real life?"
+],
+[
+"Reading strategies",
+"Main idea",
+"What is the picture about?"
+],
+[
+"Reading strategies",
+"Inference and analysis",
+"Which feeling matches the picture?"
+],
+[
+"Reading strategies",
+"Inference and analysis",
+"What will happen next?"
+],
+[
+"Reading strategies",
+"Riddles",
+"What am I?"
+],
+[
+"Vocabulary",
+"Colour and number words",
+"Use number words: one to ten"
+],
+[
+"Vocabulary",
+"Colour and number words",
+"Use colour words"
+],
+[
+"Vocabulary",
+"Adjectives and verbs",
+"Compare pictures using adjectives"
+],
+[
+"Vocabulary",
+"Adjectives and verbs",
+"Find the picture that matches the action verb"
+],
+[
+"Vocabulary",
+"Location words",
+"Inside and outside, above and below, next to and beside"
+],
+[
+"Vocabulary",
+"Location words",
+"Choose the best location word to match the picture"
+],
+[
+"Vocabulary",
+"Question words",
+"Who, what, when, where or why?"
+],
+[
+"Vocabulary",
+"Synonyms and antonyms",
+"Match synonyms"
+],
+[
+"Vocabulary",
+"Synonyms and antonyms",
+"Match antonyms to pictures"
+],
+[
+"Vocabulary",
+"Categories",
+"Sort objects into categories"
+],
+[
+"Vocabulary",
+"Categories",
+"Which one is not like the others?"
+],
+[
+"Vocabulary",
+"Multiple-meaning words",
+"Multiple-meaning words with pictures"
+],
+[
+"Grammar and mechanics",
+"Sentences",
+"Is it a telling sentence or an asking sentence?"
+],
+[
+"Grammar and mechanics",
+"Sentences",
+"Identify and use end marks"
+],
+[
+"Grammar and mechanics",
+"Sentences",
+"Find the complete sentence"
+],
+[
+"Grammar and mechanics",
+"Sentences",
+"Unscramble the words to make a complete sentence"
+],
+[
+"Grammar and mechanics",
+"Capitalization",
+"Capitalize the first letter of a sentence"
+],
+[
+"Grammar and mechanics",
+"Capitalization",
+"Capitalize the pronoun \"I\""
+],
+[
+"Grammar and mechanics",
+"Nouns",
+"Is the noun a person, animal, place or thing?"
+],
+[
+"Grammar and mechanics",
+"Nouns",
+"Choose the singular or plural noun that matches the picture"
+],
+[
+"Grammar and mechanics",
+"Verbs",
+"Find the action verb with images"
+],
+[
+"Grammar and mechanics",
+"Verbs",
+"Find the action verb"
+],
+[
+"Grammar and mechanics",
+"Verbs",
+"Complete the sentence with an action verb to match the picture"
+]
+],
 "1": [
 [
 "Reading foundations",
@@ -129,6 +786,81 @@ export const IXL_ENGLISH = {
 ],
 [
 "Reading foundations",
+"Short a",
+"Choose the short a word that matches the picture"
+],
+[
+"Reading foundations",
+"Short a",
+"Complete the short a word"
+],
+[
+"Reading foundations",
+"Short a",
+"Choose the short a sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short e",
+"Choose the picture that matches the short e word"
+],
+[
+"Reading foundations",
+"Short e",
+"Complete the short e word"
+],
+[
+"Reading foundations",
+"Short e",
+"Choose the short e sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short i",
+"Choose the short i word that matches the picture"
+],
+[
+"Reading foundations",
+"Short i",
+"Complete the short i words"
+],
+[
+"Reading foundations",
+"Short i",
+"Choose the short i sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short o",
+"Choose the short o word that matches the picture"
+],
+[
+"Reading foundations",
+"Short o",
+"Complete the short o word"
+],
+[
+"Reading foundations",
+"Short o",
+"Choose the short o sentence that matches the picture"
+],
+[
+"Reading foundations",
+"Short u",
+"Choose the picture that matches the short u word"
+],
+[
+"Reading foundations",
+"Short u",
+"Complete the short u word"
+],
+[
+"Reading foundations",
+"Short u",
+"Choose the short u sentence that matches the picture"
+],
+[
+"Reading foundations",
 "Short vowels",
 "Identify the short vowel sound in a word"
 ],
@@ -146,56 +878,6 @@ export const IXL_ENGLISH = {
 "Reading foundations",
 "Short vowels",
 "Complete the sentence with the correct short vowel word"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Choose the short a word that matches the picture"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Complete the short a word"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Choose the picture that matches the short e word"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Complete the short e word"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Choose the short i word that matches the picture"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Complete the short i words"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Choose the short o word that matches the picture"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Complete the short o word"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Choose the picture that matches the short u word"
-],
-[
-"Reading foundations",
-"Short vowels",
-"Complete the short u word"
 ],
 [
 "Reading foundations",
@@ -330,17 +1012,17 @@ export const IXL_ENGLISH = {
 [
 "Reading foundations",
 "Sight words",
-"Read sight words set 1"
+"Read sight words set 1: again, each, from, may, stop, than, when"
 ],
 [
 "Reading foundations",
 "Sight words",
-"Read sight words set 2"
+"Read sight words set 2: after, best, gave, has, once, them, were"
 ],
 [
 "Reading foundations",
 "Sight words",
-"Read sight words set 3"
+"Read sight words set 3: as, by, four, her, more, some, think, way"
 ],
 [
 "Reading foundations",
@@ -350,22 +1032,22 @@ export const IXL_ENGLISH = {
 [
 "Reading foundations",
 "Sight words",
-"Read sight words set 4"
+"Read sight words set 4: every, could, how, over, put, there, who"
 ],
 [
 "Reading foundations",
 "Sight words",
-"Read sight words set 5"
+"Read sight words set 5: ask, five, just, long, read, then, want"
 ],
 [
 "Reading foundations",
 "Sight words",
-"Read sight words set 6"
+"Read sight words set 6: any, give, his, new, open, sleep, wish"
 ],
 [
 "Reading foundations",
 "Sight words",
-"Read sight words set 7"
+"Read sight words set 7: also, fly, know, live, old, soon, why"
 ],
 [
 "Reading foundations",
@@ -5666,16 +6348,6 @@ export const IXL_ENGLISH = {
 ],
 [
 "Vocabulary",
-"Word choice and usage",
-"Describe the difference between related words"
-],
-[
-"Vocabulary",
-"Word choice and usage",
-"Positive and negative connotation"
-],
-[
-"Vocabulary",
 "Homophones",
 "Use the correct homophone"
 ],
@@ -5688,6 +6360,16 @@ export const IXL_ENGLISH = {
 "Vocabulary",
 "Homophones",
 "Which sentence matches the definition?"
+],
+[
+"Vocabulary",
+"Shades of meaning",
+"Describe the difference between related words"
+],
+[
+"Vocabulary",
+"Shades of meaning",
+"Positive and negative connotation"
 ],
 [
 "Vocabulary",
@@ -5847,17 +6529,17 @@ export const IXL_ENGLISH = {
 [
 "Grammar and mechanics",
 "Pronouns and antecedents",
-"Correct inappropriate shifts in pronoun number and person"
-],
-[
-"Grammar and mechanics",
-"Pronouns and antecedents",
 "Identify vague pronoun references"
 ],
 [
 "Grammar and mechanics",
 "Pronouns and antecedents",
 "Identify all of the possible antecedents"
+],
+[
+"Grammar and mechanics",
+"Pronouns and antecedents",
+"Correct inappropriate shifts in pronoun number and person"
 ],
 [
 "Grammar and mechanics",
@@ -6846,12 +7528,12 @@ export const IXL_ENGLISH = {
 [
 "Reading strategies",
 "Audience, purpose and tone",
-"Compare passages for subjective and objective tone"
+"Identify audience and purpose"
 ],
 [
 "Reading strategies",
 "Audience, purpose and tone",
-"Identify audience and purpose"
+"Compare passages for subjective and objective tone"
 ],
 [
 "Reading strategies",
