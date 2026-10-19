@@ -29,3 +29,33 @@ export async function api(method, path, body) {
   }
   return data;
 }
+
+const authHeader = () => (token ? { Authorization: `Bearer ${token}` } : {});
+async function failOn(res) {
+  if (res.ok) return res;
+  const data = await res.json().catch(() => ({}));
+  const err = new Error(data.error || `Request failed (${res.status})`);
+  err.status = res.status;
+  throw err;
+}
+
+/** Upload a file/blob as the raw request body (e.g. a picture). */
+export async function apiUpload(path, blob) {
+  const res = await fetch(BASE + path, { method: 'POST', headers: { 'Content-Type': blob.type || 'application/octet-stream', ...authHeader() }, body: blob });
+  return (await failOn(res)).json();
+}
+
+/** Fetch a protected file (e.g. a chat picture) as a Blob. */
+export async function apiBlob(path) {
+  return (await failOn(await fetch(BASE + path, { headers: authHeader() }))).blob();
+}
+
+/** Open the live event stream (Server-Sent Events read with fetch, so the token stays in a header). */
+export function apiStream(path, signal) {
+  return fetch(BASE + path, { headers: { Accept: 'text/event-stream', ...authHeader() }, signal });
+}
+
+/** Fire-and-forget POST that survives the page closing (e.g. "call ended"). */
+export function apiKeepalive(path, body) {
+  try { fetch(BASE + path, { method: 'POST', keepalive: true, headers: { 'Content-Type': 'application/json', ...authHeader() }, body: JSON.stringify(body) }); } catch { /* ignore */ }
+}

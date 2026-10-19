@@ -154,3 +154,14 @@ CREATE TABLE IF NOT EXISTS challenge_finishes (
   finished_at  TIMESTAMPTZ NOT NULL DEFAULT now(),
   PRIMARY KEY (challenge_id, user_id)
 );
+
+-- Pictures sent in messages (stored in the database so deploys never lose them).
+-- Re-encoded in the browser before upload, which also strips EXIF/GPS data.
+CREATE TABLE IF NOT EXISTS message_images (
+  id         SERIAL PRIMARY KEY,
+  owner_id   INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  mime       TEXT NOT NULL,
+  data       TEXT NOT NULL,             -- base64
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS image_id INT;

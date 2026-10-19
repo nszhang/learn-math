@@ -36,7 +36,7 @@ before(async () => {
   });
 });
 
-after(() => server.close());
+after(() => { server.closeAllConnections?.(); server.close(); });
 
 async function api(method, path, { token, body } = {}) {
   const res = await fetch(base + path, {
@@ -570,4 +570,69 @@ test('admin can reset a password to a chosen value or a generated one', async ()
   assert.equal(r.status, 400, 'longer than the login form allows');
   r = await api('POST', `/api/admin/users/${u.id}/password`, { token: teacher.token, body: { password: 'hacked1' } });
   assert.equal(r.status, 403, 'admins only');
+});
+
+test('live events, pictures and call signalling', async () => {
+  const mk = async (username, role) => (await api('POST', '/api/admin/users', { token: admin.token, body: { username, displayName: username, password: 'pw123', role } })).data.user;
+  const [t, a, b, x] = [await mk('rt_teach', 'teacher'), await mk('rt_amy', 'student'), await mk('rt_bob', 'student'), await mk('rt_out', 'student')];
+  await api('PUT', `/api/admin/teachers/${t.id}/students`, { token: admin.token, body: { studentIds: [a.id, b.id] } });
+  const [amy, bob, out] = [await login('rt_amy', 'pw123'), await login('rt_bob', 'pw123'), await login('rt_out', 'pw123')];
+
+  // Bob listens for live events
+  const ctrl = new AbortController();
+  const res = await fetch(base + '/api/events', { headers: { Authorization: 'Bearer ' + bob.token }, signal: ctrl.signal });
+  assert.equal(res.headers.get('content-type').split(';')[0], 'text/event-stream');
+  const reader = res.body.getReader(), dec = new TextDecoder();
+  let buf = '';
+  const nextEvent = async () => {
+    for (;;) {
+      const i = buf.indexOf('\n\n');
+      if (i >= 0) { const chunk = buf.slice(0, i); buf = buf.slice(i + 2); if (chunk.startsWith('data: ')) return JSON.parse(chunk.slice(6)); continue; }
+      const { value, done } = await reader.read();
+      if (done) throw new Error('stream ended');
+      buf += dec.decode(value, { stream: true });
+    }
+  };
+  assert.equal((await nextEvent()).type, 'hello');
+  try {
+  await api('POST', `/api/messages/${b.id}`, { token: amy.token, body: { body: 'ping' } });
+  let ev = await nextEvent();
+  assert.deepEqual([ev.type, ev.from], ['message', a.id], 'new messages arrive live');
+
+  // pictures
+  const jpeg = Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xe0]), Buffer.alloc(200, 7)]);
+  const upload = (who, to, bytes) => fetch(`${base}/api/messages/${to}/image`, { method: 'POST', headers: { Authorization: 'Bearer ' + who.token, 'Content-Type': 'image/jpeg' }, body: bytes });
+  let r = await upload(amy, b.id, jpeg);
+  assert.equal(r.status, 200);
+  const msg = (await r.json()).message;
+  assert.equal(msg.kind, 'image');
+  assert.ok(msg.imageId);
+  ev = await nextEvent();
+  assert.equal(ev.kind, 'image');
+  r = await fetch(`${base}/api/images/${msg.imageId}`, { headers: { Authorization: 'Bearer ' + bob.token } });
+  assert.equal(r.status, 200);
+  assert.equal(r.headers.get('content-type'), 'image/jpeg');
+  assert.ok(Buffer.from(await r.arrayBuffer()).equals(jpeg), 'picture comes back byte for byte');
+  r = await fetch(`${base}/api/images/${msg.imageId}`, { headers: { Authorization: 'Bearer ' + out.token } });
+  assert.equal(r.status, 404, 'outsiders cannot see the picture');
+  assert.equal((await upload(amy, b.id, Buffer.from('<script>alert(1)</script> not an image'))).status, 400, 'non-pictures rejected');
+  assert.equal((await upload(amy, x.id, jpeg)).status, 403, 'no pictures to strangers');
+  assert.equal((await upload(amy, b.id, Buffer.concat([jpeg, Buffer.alloc(2.1 * 1024 * 1024)]))).status, 413, 'too big');
+
+  // call signalling
+  r = await api('POST', '/api/calls/signal', { token: amy.token, body: { to: b.id, callId: 'call-abc123', type: 'invite', data: { video: true, sdp: { type: 'offer', sdp: 'v=0' } } } });
+  assert.equal(r.data.delivered, true, 'Bob is online, so the invite is delivered');
+  ev = await nextEvent();
+  assert.deepEqual([ev.type, ev.signal, ev.from, ev.fromName, ev.data.video], ['call', 'invite', a.id, 'rt_amy', true]);
+  r = await api('POST', '/api/calls/signal', { token: bob.token, body: { to: a.id, callId: 'call-abc123', type: 'answer', data: {} } });
+  assert.equal(r.data.delivered, false, 'Amy has no live connection open');
+  r = await api('POST', '/api/calls/signal', { token: amy.token, body: { to: x.id, callId: 'call-abc123', type: 'invite' } });
+  assert.equal(r.status, 403, 'no calling strangers');
+  r = await api('POST', '/api/calls/signal', { token: amy.token, body: { to: b.id, callId: 'call-abc123', type: 'hack' } });
+  assert.equal(r.status, 400);
+  r = await api('POST', '/api/calls/log', { token: amy.token, body: { to: b.id, video: false, outcome: 'completed', seconds: 133 } });
+  assert.equal(r.data.message.body, '📞 Voice call · 2:13');
+  r = await api('GET', `/api/online/${b.id}`, { token: amy.token });
+  assert.equal(r.data.online, true);
+  } finally { ctrl.abort(); }
 });

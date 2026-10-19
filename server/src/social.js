@@ -8,6 +8,8 @@
 // skills; a skill counts as done after `count` CORRECT answers, and the first player
 // to complete every skill wins.
 import crypto from 'node:crypto';
+import express from 'express';
+import { addClient, emit, isOnline } from './realtime.js';
 
 export const MAX_BODY = 500;
 export const MAX_ITEMS = 5, MAX_COUNT = 20;
@@ -36,14 +38,33 @@ export async function contactsOf(pool, uid) {
   return [...out.values()].sort((a, b) => (a.relation === 'teacher') - (b.relation === 'teacher') || a.displayName.localeCompare(b.displayName));
 }
 
-async function sendMessage(pool, from, to, body, kind = 'text', challengeId = null) {
+async function sendMessage(pool, from, to, body, kind = 'text', challengeId = null, imageId = null) {
   const { rows } = await pool.query(
-    `INSERT INTO messages (sender_id, recipient_id, body, kind, challenge_id) VALUES ($1, $2, $3, $4, $5)
-     RETURNING id, sender_id, recipient_id, body, kind, challenge_id, created_at, read_at`,
-    [from, to, body, kind, challengeId]);
+    `INSERT INTO messages (sender_id, recipient_id, body, kind, challenge_id, image_id) VALUES ($1, $2, $3, $4, $5, $6)
+     RETURNING id, sender_id, recipient_id, body, kind, challenge_id, image_id, created_at, read_at`,
+    [from, to, body, kind, challengeId, imageId]);
+  // live update for both people (the sender may have other tabs open)
+  emit(to, { type: 'message', from, to, id: rows[0].id, kind });
+  emit(from, { type: 'message', from, to, id: rows[0].id, kind });
   return rows[0];
 }
-const publicMessage = m => ({ id: m.id, from: m.sender_id, to: m.recipient_id, body: m.body, kind: m.kind, challengeId: m.challenge_id, at: m.created_at, read: !!m.read_at });
+const publicMessage = m => ({ id: m.id, from: m.sender_id, to: m.recipient_id, body: m.body, kind: m.kind, challengeId: m.challenge_id, imageId: m.image_id ?? null, at: m.created_at, read: !!m.read_at });
+
+/* ---------- pictures ---------- */
+export const MAX_IMAGE_BYTES = 2 * 1024 * 1024, MAX_IMAGES_PER_DAY = 50;
+// check the file really is a picture by its first bytes (never trust the declared type)
+export function imageType(buf) {
+  if (!buf || buf.length < 12) return null;
+  if (buf[0] === 0xff && buf[1] === 0xd8 && buf[2] === 0xff) return 'image/jpeg';
+  if (buf.slice(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))) return 'image/png';
+  if (buf.slice(0, 4).toString('latin1') === 'RIFF' && buf.slice(8, 12).toString('latin1') === 'WEBP') return 'image/webp';
+  if (buf.slice(0, 4).toString('latin1') === 'GIF8') return 'image/gif';
+  return null;
+}
+
+/* ---------- calls ---------- */
+export const CALL_SIGNALS = ['invite', 'answer', 'ice', 'decline', 'busy', 'end'];
+const fmtDuration = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 
 /* ---------- challenges ---------- */
 async function getChallenge(pool, id) {
@@ -164,6 +185,73 @@ export function registerSocial(app, { pool, auth, isSkillId }) {
     if (recent.length >= RATE_MAX && Date.now() - new Date(recent[RATE_MAX - 1].created_at).getTime() < RATE_WINDOW_MS)
       return res.status(429).json({ error: 'Slow down a little — too many messages in a minute.' });
     res.json({ message: publicMessage(await sendMessage(pool, req.uid, other, body)) });
+  });
+
+  // Live events (Server-Sent Events). The browser reads this with fetch so the token stays in a header.
+  app.get('/api/events', auth, (req, res) => {
+    res.set({ 'Content-Type': 'text/event-stream', 'Cache-Control': 'no-cache, no-transform', Connection: 'keep-alive', 'X-Accel-Buffering': 'no' });
+    res.flushHeaders?.();
+    res.write(`data: ${JSON.stringify({ type: 'hello' })}\n\n`);
+    const remove = addClient(req.uid, res);
+    const beat = setInterval(() => { try { res.write(': ping\n\n'); } catch { /* closed */ } }, 25000);
+    req.on('close', () => { clearInterval(beat); remove(); });
+  });
+
+  // Send a picture: the raw image bytes are the request body.
+  app.post('/api/messages/:userId/image', auth, express.raw({ type: () => true, limit: MAX_IMAGE_BYTES }), async (req, res) => {
+    const other = req.params.userId | 0;
+    if (!(await canMessage(req.uid, other))) return res.status(403).json({ error: 'You can only message classmates and teachers.' });
+    const buf = Buffer.isBuffer(req.body) ? req.body : null;
+    const mime = imageType(buf);
+    if (!mime) return res.status(400).json({ error: 'That file is not a picture (JPEG, PNG, WebP or GIF).' });
+    const recent = (await pool.query('SELECT created_at FROM message_images WHERE owner_id = $1 ORDER BY id DESC LIMIT $2', [req.uid, MAX_IMAGES_PER_DAY])).rows;
+    if (recent.length >= MAX_IMAGES_PER_DAY && Date.now() - new Date(recent[MAX_IMAGES_PER_DAY - 1].created_at).getTime() < 86400000)
+      return res.status(429).json({ error: `That's ${MAX_IMAGES_PER_DAY} pictures today — try again tomorrow.` });
+    const img = (await pool.query('INSERT INTO message_images (owner_id, mime, data) VALUES ($1, $2, $3) RETURNING id', [req.uid, mime, buf.toString('base64')])).rows[0];
+    res.json({ message: publicMessage(await sendMessage(pool, req.uid, other, '📷 Photo', 'image', null, img.id)) });
+  });
+
+  // A picture can be seen by the two people in its conversation (and admins).
+  app.get('/api/images/:id', auth, async (req, res) => {
+    const id = req.params.id | 0;
+    const m = (await pool.query('SELECT sender_id, recipient_id FROM messages WHERE image_id = $1', [id])).rows[0];
+    const allowed = m && (m.sender_id === req.uid || m.recipient_id === req.uid || (await role(req.uid)) === 'admin');
+    if (!allowed) return res.status(404).json({ error: 'Picture not found' });
+    const img = (await pool.query('SELECT mime, data FROM message_images WHERE id = $1', [id])).rows[0];
+    if (!img) return res.status(404).json({ error: 'Picture not found' });
+    res.set({ 'Content-Type': img.mime, 'Cache-Control': 'private, max-age=86400', 'X-Content-Type-Options': 'nosniff' });
+    res.send(Buffer.from(img.data, 'base64'));
+  });
+
+  // Call set-up (WebRTC signalling): relay offers/answers/ICE between two people who may message.
+  app.post('/api/calls/signal', auth, async (req, res) => {
+    const { to, callId, type, data } = req.body || {};
+    const other = to | 0;
+    if (!CALL_SIGNALS.includes(type) || typeof callId !== 'string' || !/^[\w-]{6,40}$/.test(callId))
+      return res.status(400).json({ error: 'Bad call signal' });
+    if (!(await canMessage(req.uid, other))) return res.status(403).json({ error: 'You can only call classmates and teachers.' });
+    const me = (await pool.query('SELECT username, display_name FROM users WHERE id = $1', [req.uid])).rows[0];
+    const delivered = emit(other, { type: 'call', signal: type, callId, from: req.uid, fromName: nameOf(me), data: data ?? null });
+    res.json({ delivered: delivered > 0 });
+  });
+
+  // The caller records how a call went; it shows in the conversation.
+  app.post('/api/calls/log', auth, async (req, res) => {
+    const { to, video, outcome, seconds } = req.body || {};
+    const other = to | 0;
+    if (!['completed', 'missed', 'declined', 'unavailable'].includes(outcome)) return res.status(400).json({ error: 'Bad outcome' });
+    if (!(await canMessage(req.uid, other))) return res.status(403).json({ error: 'You can only call classmates and teachers.' });
+    const kind = video ? '🎥 Video call' : '📞 Voice call';
+    const secs = Math.max(0, Math.min(86400, seconds | 0));
+    const body = outcome === 'completed' ? `${kind} · ${fmtDuration(secs)}`
+      : outcome === 'declined' ? `${kind} — declined` : outcome === 'unavailable' ? `${kind} — not online` : `${kind} — missed`;
+    res.json({ message: publicMessage(await sendMessage(pool, req.uid, other, body, 'call')) });
+  });
+
+  app.get('/api/online/:userId', auth, async (req, res) => {
+    const other = req.params.userId | 0;
+    if (!(await canMessage(req.uid, other))) return res.status(403).json({ error: 'Not a contact' });
+    res.json({ online: isOnline(other) });
   });
 
   // Badge counts for the top bar (polled).

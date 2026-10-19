@@ -559,6 +559,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   // eslint-disable-next-line no-unused-vars
   app.use((err, req, res, next) => {
     if (err?.type === 'entity.parse.failed') return res.status(400).json({ error: 'Invalid JSON' });
+    if (err?.type === 'entity.too.large') return res.status(413).json({ error: 'That is too big to send (pictures up to 2 MB).' });
     console.error(`${req.method} ${req.path} failed:`, err);
     if (!res.headersSent) res.status(500).json({ error: 'Server error' });
   });

@@ -480,6 +480,18 @@ Each student can have a grade (`users.grade`: −1 = JK, 0 = K, 1–12; Calculus
   - While racing, the practice page shows both players' progress bars live, polled every 8 s.
   - **The Challenges page** shows open challenges, wins and losses, a head-to-head record per classmate, and the full history: each player's progress, accuracy and time from first answer to finish.
   - **Limits:** at most 10 open challenges per student. Answers still count toward each skill's SmartScore.
+- **Emoji, pictures and calls in chat:**
+  - **Emoji:** a 😊 picker with kid-friendly groups. Messages of only 1–3 emoji show up big.
+  - **Pictures:** 🖼️ button, paste, or drag and drop.
+    - The browser shrinks each picture to at most 1280 px and re-saves it as JPEG before upload. This also removes hidden EXIF/GPS data.
+    - The server checks the file really is a picture, allows up to 2 MB and 50 pictures a day, and stores it in the database (`message_images`).
+    - Only the two people in the conversation (and admins) can open a picture (`GET /api/images/:id`).
+  - **Calls:** 📞 voice and 🎥 video calls, browser to browser over WebRTC (`components/Calls.jsx`), between the same people who can message each other.
+    - Incoming calls ring on any page, with mute, camera on/off and hang-up controls.
+    - Unanswered calls stop after 35 s, and a second caller gets "busy".
+    - The caller's side writes the call into the conversation, e.g. "📞 Voice call · 2:13" or "— missed".
+    - Calls use public STUN servers. Without a TURN relay, some strict networks (some mobile carriers, school firewalls) may fail to connect.
+  - **Live updates:** `GET /api/events` (Server-Sent Events, `server/src/realtime.js`) delivers new messages instantly and relays call set-up (`POST /api/calls/signal`, `POST /api/calls/log`).
 - **Server:** `server/src/social.js`, tables `messages`, `challenges`, `challenge_progress` and `challenge_finishes`.
   - API: `GET /api/contacts`, `GET/POST /api/messages[/:userId]`, `GET /api/inbox`, `GET/POST /api/challenges`, `POST /api/challenges/:id/{accept,decline,cancel}`.
   - Challenge answers go through `POST /api/answers` with `challengeId`.

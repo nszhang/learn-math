@@ -13,6 +13,8 @@ import ChangePassword from './components/ChangePassword.jsx';
 import LearnPage from './components/LearnPage.jsx';
 import ReviewPage from './components/ReviewPage.jsx';
 import MessagesPage from './components/Messages.jsx';
+import { CallProvider } from './components/Calls.jsx';
+import { startLiveEvents, stopLiveEvents, onLiveEvent } from './events.js';
 import ChallengesPage from './components/Challenges.jsx';
 import PracticePage from './components/PracticePage.jsx';
 import Confetti from './components/Confetti.jsx';
@@ -71,8 +73,10 @@ export default function App() {
   useEffect(() => {
     if (!user) return;
     refreshInbox();
-    const t = setInterval(refreshInbox, 30000);
-    return () => clearInterval(t);
+    startLiveEvents();
+    const off = onLiveEvent(ev => { if (ev.type === 'message') refreshInbox(); });
+    const t = setInterval(refreshInbox, 60000);
+    return () => { clearInterval(t); off(); stopLiveEvents(); };
   }, [user, refreshInbox]);
 
   useEffect(() => {
@@ -131,7 +135,7 @@ export default function App() {
     setPage(cfg.mode === 'homework' ? 'homework' : subj && subj !== 'math' ? subj : 'home');
   }
 
-  return (<>
+  return (<CallProvider me={me} toast={toast}>
     <Confetti tick={confettiTick} />
     {showChpw && <ChangePassword onClose={() => setShowChpw(false)} toast={toast} />}
     <header className="topbar">
@@ -202,5 +206,5 @@ export default function App() {
     </>)}
 
     <ToastList toasts={toasts} />
-  </>);
+  </CallProvider>);
 }
