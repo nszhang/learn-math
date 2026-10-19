@@ -141,6 +141,14 @@ export async function recordHomeworkAnswer(pool, userId, assignmentId, skillId, 
   return rows[0];
 }
 
+// SmartScore 100 reached during homework: that skill's item is complete.
+export async function completeHomeworkItem(pool, userId, assignmentId, skillId, count) {
+  await pool.query(
+    `UPDATE homework_progress SET done = GREATEST(done, $4)
+     WHERE user_id = $1 AND assignment_id = $2 AND skill_id = $3`,
+    [userId, assignmentId, skillId, count]);
+}
+
 export async function getCompletedHomework(pool, userId) {
   const { rows } = await pool.query(
     'SELECT assignment_id, completed_at FROM homework_completed WHERE user_id = $1', [userId]);

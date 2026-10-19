@@ -260,6 +260,9 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
         .some(c => c.assignment_id === assignmentId);
       if (!alreadyDone && hwItems.some(i => i.skillId === skillId)) {
         await db.recordHomeworkAnswer(pool, req.uid, assignmentId, skillId, correct);
+        // mastery (SmartScore 100) finishes this skill's part of the assignment — no more questions for it
+        const mastered = correct && score >= 100;
+        if (mastered) await db.completeHomeworkItem(pool, req.uid, assignmentId, skillId, hwItems.find(i => i.skillId === skillId).count);
         const progress = await db.getHomeworkProgress(pool, req.uid);
         const rows = progress.filter(r => r.assignment_id === assignmentId);
         const { done, total } = hwTotals(hwItems, rows);
@@ -271,7 +274,8 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
           await db.markHomeworkCompleted(pool, req.uid, assignmentId);
           starDelta += 5;
         }
-        homework = { done, total, justCompleted };
+        const skillDone = Math.min(hwItems.find(i => i.skillId === skillId).count, rows.find(r => r.skill_id === skillId)?.done || 0);
+        homework = { done, total, justCompleted, skillDone, mastered };
       } else {  // already completed, or this skill isn't part of the assignment
         const progress = (await db.getHomeworkProgress(pool, req.uid))
           .filter(r => r.assignment_id === assignmentId);

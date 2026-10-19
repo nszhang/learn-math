@@ -2,6 +2,10 @@ import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api.js';
 import { SUBJECTS, SKILL_INDEX, levelLabelFor } from '../skills.js';
 import { dailyWithProgress, localDateStr, niceDate, skillName } from '../homework.js';
+import { distinctQuestions } from '../questionPool.js';
+
+// A race never asks for more questions than a skill has, so nobody sees the same question twice.
+const capCount = (skillId, n) => Math.max(1, Math.min(n, 20, distinctQuestions(SKILL_INDEX[skillId].skill, 20)));
 
 /* Student challenges: race a classmate through the same skills; the first to finish wins.
    A skill counts as done after `count` correct answers. */
@@ -73,10 +77,10 @@ export function NewChallenge({ opponent, homework, onCreate, onClose }) {
   }, [homework]);
 
   const autoTitle = list => (list.length ? SKILL_INDEX[list[0].skillId].skill.title + (list.length > 1 ? ` + ${list.length - 1} more` : '') : '');
-  const choose = list => { const l = list.slice(0, MAX_ITEMS).map(i => ({ skillId: i.skillId, count: Math.min(20, i.count) })); setItems(l); setTitle(autoTitle(l)); };
+  const choose = list => { const l = list.slice(0, MAX_ITEMS).map(i => ({ skillId: i.skillId, count: capCount(i.skillId, i.count) })); setItems(l); setTitle(autoTitle(l)); };
   const toggle = id => {
     const has = items.some(i => i.skillId === id);
-    const l = has ? items.filter(i => i.skillId !== id) : items.length < MAX_ITEMS ? [...items, { skillId: id, count: 5 }] : items;
+    const l = has ? items.filter(i => i.skillId !== id) : items.length < MAX_ITEMS ? [...items, { skillId: id, count: capCount(id, 5) }] : items;
     setItems(l);
     setTitle(t => (!t || t === autoTitle(items) ? autoTitle(l) : t));
   };
@@ -137,8 +141,8 @@ export function NewChallenge({ opponent, homework, onCreate, onClose }) {
               <div className="picked-item" key={i.skillId}>
                 <span>{skillName(i.skillId)} — {SKILL_INDEX[i.skillId].skill.title} <span className="muted small">({levelLabelFor(SKILL_INDEX[i.skillId].subject, SKILL_INDEX[i.skillId].grade.num)})</span></span>
                 <label className="muted small">correct needed{' '}
-                  <input type="number" min="1" max="20" value={i.count}
-                    onChange={e => setItems(l => l.map(x => (x.skillId === i.skillId ? { ...x, count: Math.max(1, Math.min(20, Number(e.target.value) || 1)) } : x)))} />
+                  <input type="number" min="1" max={capCount(i.skillId, 20)} value={i.count}
+                    onChange={e => setItems(l => l.map(x => (x.skillId === i.skillId ? { ...x, count: capCount(i.skillId, Number(e.target.value) || 1) } : x)))} />
                 </label>
                 <button type="button" className="btn btn-ghost" aria-label="Remove" onClick={() => toggle(i.skillId)}>✕</button>
               </div>

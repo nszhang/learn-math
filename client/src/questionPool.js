@@ -15,22 +15,39 @@ const save = (key, data) => { try { localStorage.setItem(key, JSON.stringify(dat
  */
 export function createDeduper(storageKey = null) {
   const data = storageKey ? load(storageKey) : {};     // { skillId: [sig, …] }
+  const missedQs = {};                                // { skillId: [question, …] } answered wrong this visit
   let lastSig = null;
   return {
-    /** A question for this skill that has not been shown yet in this assignment, if one can be found. */
-    next(skill) {
+    /**
+     * A question for this skill that has not been shown yet in this assignment/session.
+     * When every question has been shown: null if repeats are not allowed (practice), else a
+     * question the student missed (re-asked once), else any question but the previous one.
+     */
+    next(skill, { allowRepeat = true } = {}) {
       const seen = new Set(data[skill.id] || []);
       let q = skill.gen(), sig = questionSig(q);
       for (let i = 0; i < 300 && seen.has(sig); i++) { q = skill.gen(); sig = questionSig(q); }
-      // bank exhausted: repeats are unavoidable, but never the same question twice in a row
-      for (let i = 0; i < 40 && sig === lastSig; i++) { q = skill.gen(); sig = questionSig(q); }
       if (!seen.has(sig)) {
         data[skill.id] = [...(data[skill.id] || []), sig].slice(-MAX_PER_SKILL);
         if (storageKey) save(storageKey, data);
+        lastSig = sig;
+        return q;
       }
-      lastSig = sig;
+      if (!allowRepeat) return null;
+      const missed = (missedQs[skill.id] || []).filter(m => questionSig(m) !== lastSig);
+      if (missed.length) {
+        q = missed[0];
+        missedQs[skill.id] = missedQs[skill.id].filter(m => m !== q);
+      } else {
+        for (let i = 0; i < 40 && sig === lastSig; i++) { q = skill.gen(); sig = questionSig(q); }
+      }
+      lastSig = questionSig(q);
       return q;
-    }
+    },
+    /** Remember a wrongly answered question so a forced repeat re-asks it first. */
+    missed(skill, q) { (missedQs[skill.id] ||= []).push(q); },
+    /** Start a new round for this skill (practice only). */
+    reset(skill) { delete data[skill.id]; delete missedQs[skill.id]; lastSig = null; if (storageKey) save(storageKey, data); }
   };
 }
 

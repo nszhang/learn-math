@@ -1028,3 +1028,9 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .rc-poem .rc-stanza { margin: 0 0 14px; font-style: italic; }
 .rc-pic { font-size: 2.4rem; text-align: center; margin-bottom: 6px; }
 .rc-q { margin-top: 12px; font-weight: 700; }
+
+/* practice round finished (mastery or every question answered) */
+.practice-ended { text-align: center; padding: 28px 12px; }
+.practice-ended .ended-emoji { font-size: 3.2rem; line-height: 1; margin-bottom: 10px; }
+.practice-ended h3 { margin: 0 0 8px; }
+.practice-ended .practice-actions { justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 18px; }

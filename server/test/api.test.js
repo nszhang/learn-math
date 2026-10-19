@@ -232,6 +232,23 @@ test('daily homework: client-computed items tracked server-side', async () => {
   assert.ok(hw.data.dailyCompleted.includes(id));
 });
 
+test('homework: reaching SmartScore 100 completes that skill, no more questions needed', async () => {
+  const id = 'daily-2026-02-02';
+  const items = [{ skillId: 'algC1', count: 50 }, { skillId: 'algA1', count: 1 }];
+  let r;
+  for (let i = 0; i < 50; i++) {
+    r = await api('POST', '/api/answers', { token: student.token, body: { skillId: 'algC1', correct: true, streak: i + 1, assignmentId: id, items } });
+    if (r.data.score >= 100) break;
+  }
+  assert.equal(r.data.score, 100);
+  assert.equal(r.data.homework.mastered, true);
+  assert.equal(r.data.homework.skillDone, 50, 'mastered skill counts as fully done');
+  assert.equal(r.data.homework.done, 50);
+  assert.equal(r.data.homework.justCompleted, false, 'the other skill is still to do');
+  r = await api('POST', '/api/answers', { token: student.token, body: { skillId: 'algA1', correct: true, streak: 1, assignmentId: id, items } });
+  assert.equal(r.data.homework.justCompleted, true);
+});
+
 test('time tracking accumulates and awards stars over time', async () => {
   const r = await api('POST', '/api/time', { token: student.token, body: { seconds: 601 } });
   assert.equal(r.status, 200); // clamps to 600

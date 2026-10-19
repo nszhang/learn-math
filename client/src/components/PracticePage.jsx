@@ -41,13 +41,16 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
 
   // no repeated questions within an assignment (remembered across visits) or a practice session
   const [dedupe] = useState(() => createDeduper(isHw ? `mm_seen_${me?.user?.id ?? 'u'}_${cfg.assignment.id}` : null));
-  const [question, setQuestion] = useState(() => dedupe.next(skill));
+  // practice stops at SmartScore 100 and never repeats a question; a finished round shows `ended`
+  const startScore = me?.skillProgress?.find(p => p.skill_id === skillId)?.score || 0;
+  const [ended, setEnded] = useState(() => (!isHw && startScore >= 100 ? 'mastered' : null)); // 'mastered' | 'exhausted'
+  const [reviewing, setReviewing] = useState(false); // chose to keep going after mastery
+  const [question, setQuestion] = useState(() => (!isHw && startScore >= 100 ? null : dedupe.next(skill, { allowRepeat: isHw })));
   const [answered, setAnswered] = useState(false);
   const [feedback, setFeedback] = useState(null); // { correct, title }
   const [inputVal, setInputVal] = useState('');
   const [selected, setSelected] = useState(null);
-  const [score, setScore] = useState(
-    () => me?.skillProgress?.find(p => p.skill_id === skillId)?.score || 0);
+  const [score, setScore] = useState(startScore);
   const [session, setSession] = useState({ answered: 0, correct: 0, streak: 0, seconds: 0, rewards: [] });
   const [hwTotals, setHwTotals] = useState(() => isHw
     ? { done: cfg.assignment.done ?? 0, total: cfg.assignment.total ?? cfg.assignment.items.reduce((s, i) => s + i.count, 0) }
@@ -96,7 +99,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
     // number questions: focus the box; choice questions: focus the first choice
     (inputRef.current || choicesRef.current?.querySelector('button'))?.focus();
     // listening questions play on their own
-    if (question.listen && canSpeak) {
+    if (question?.listen && canSpeak) {
       const t = setTimeout(() => speak(question.say, { lang: question.lang }), 300);
       return () => clearTimeout(t);
     }
@@ -132,7 +135,18 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
   }
 
   function nextQuestion() {
-    setQuestion(dedupe.next(skill));
+    const q = dedupe.next(skill, { allowRepeat: isHw });
+    if (!q) { setEnded('exhausted'); return; }
+    setQuestion(q);
+    setAnswered(false); setFeedback(null); setInputVal(''); setSelected(null);
+  }
+
+  // practice: start a fresh round (or keep going after mastery) when the student asks for it
+  function practiceAgain() {
+    if (ended === 'exhausted') dedupe.reset(skill);
+    else setReviewing(true);
+    const q = dedupe.next(skill, { allowRepeat: false }) || (dedupe.reset(skill), dedupe.next(skill, { allowRepeat: false }));
+    setEnded(null); setQuestion(q);
     setAnswered(false); setFeedback(null); setInputVal(''); setSelected(null);
   }
 
@@ -152,6 +166,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
     }
 
     beep(correct ? 880 : 220, correct ? 0.12 : 0.2);
+    if (!correct) dedupe.missed(skill, question);
     const newStreak = correct ? session.streak + 1 : 0;
     setSession(s => ({
       ...s, answered: s.answered + 1,
@@ -207,7 +222,11 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
       }
       if (!isCh && isHw && r.homework) {
         setHwTotals({ done: r.homework.done, total: r.homework.total });
-        const nq = queue.map((it, idx) => idx === qi ? { ...it, done: it.done + 1 } : it);
+        const nq = queue.map((it, idx) => idx === qi ? { ...it, done: r.homework.skillDone ?? it.done + 1 } : it);
+        if (r.homework.mastered && !r.homework.justCompleted && nq[qi].done >= nq[qi].count && currentItem.done + 1 < currentItem.count) {
+          rewards.push(`🥇 ${skill.code} mastered — skill complete`);
+          toast('🥇', 'SmartScore 100 — this skill is done! Moving on.');
+        }
         setQueue(nq);
         if (nq[qi].done >= nq[qi].count) setQi(qi + 1);
         if (r.homework.justCompleted) {
@@ -224,8 +243,10 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
   }
 
   function advanceOrSubmit() {
+    if (ended) return onExit();
     if (!answered) return submitAnswer();
     if (hwDone) return onExit();
+    if (!isHw && !reviewing && score >= 100) return setEnded('mastered');
     nextQuestion();
   }
 
@@ -283,6 +304,23 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
 
       <div className="practice-layout">
         <section className="question-panel">
+          {ended ? (
+            <div className="practice-ended">
+              {ended === 'mastered' ? (<>
+                <div className="ended-emoji">🥇</div>
+                <h3>SmartScore 100 — you've mastered this skill!</h3>
+                <p className="muted">There are no more questions to answer here. Pick another skill to keep learning.</p>
+              </>) : (<>
+                <div className="ended-emoji">🎯</div>
+                <h3>You've answered every question in this skill</h3>
+                <p className="muted">That's the whole set — no repeats! Your SmartScore is {score}. Start a new round to keep climbing, or try another skill.</p>
+              </>)}
+              <div className="practice-actions">
+                <button className="btn btn-primary btn-lg" type="button" onClick={onExit}>Choose another skill</button>
+                <button className="btn btn-ghost" type="button" onClick={practiceAgain}>{ended === 'mastered' ? 'Review anyway' : 'Start a new round'}</button>
+              </div>
+            </div>
+          ) : (<>
           <div className="question-prompt" dangerouslySetInnerHTML={{ __html: question.prompt }} />
           {question.listen ? (
             canSpeak ? (
@@ -321,7 +359,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
           <div className="practice-actions">
             <button className={'btn btn-lg ' + (question.type === 'write' && !answered ? 'btn-ghost' : 'btn-primary')} type="button"
               onClick={() => (question.type === 'write' && !answered ? submitAnswer(false) : advanceOrSubmit())}>
-              {!answered ? (question.type === 'write' ? "I can't write it yet — show me" : 'Submit') : hwDone ? 'Finish 🎉' : 'Next question'}
+              {!answered ? (question.type === 'write' ? "I can't write it yet — show me" : 'Submit') : hwDone ? 'Finish 🎉' : !isHw && !reviewing && score >= 100 ? 'Finish 🥇' : 'Next question'}
             </button>
           </div>
 
@@ -338,9 +376,10 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
                 <p className="explain"><span dangerouslySetInnerHTML={{ __html: question.explain }} />{' '}
                   {canSpeak && <button type="button" className="btn btn-ghost speak-btn" onClick={() => speak(question.say, { lang: question.lang })}>🔊 Hear it again</button>}</p>)}
               {feedback.correct && score >= 100 && !isHw && (
-                <p className="explain">🥇 <strong>SmartScore 100 — mastery achieved!</strong> Keep practicing to stay sharp, or try another skill!</p>)}
+                <p className="explain">🥇 <strong>SmartScore 100 — mastery achieved!</strong> This skill is complete.</p>)}
             </div>
           )}
+          </>)}
         </section>
 
         <aside className="score-panel">
