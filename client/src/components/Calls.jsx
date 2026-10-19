@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
+import { createContext, useCallback, useContext, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { api, apiKeepalive } from '../api.js';
 import { onLiveEvent } from '../events.js';
 
@@ -14,6 +14,15 @@ const RING_MS = 35000;
 
 const CallContext = createContext({ startCall: () => {}, inCall: false });
 export const useCalls = () => useContext(CallContext);
+
+// Floating call window: position/size are remembered per browser.
+const RECT_KEY = 'mm_call_window';
+const SIZES = [260, 400, 640];            // small / medium / large video widths
+const MIN_W = 220, AUDIO_W = 280, EDGE = 8;
+const loadRect = () => { try { return JSON.parse(localStorage.getItem(RECT_KEY)) || null; } catch { return null; } };
+const saveRect = r => { try { localStorage.setItem(RECT_KEY, JSON.stringify(r)); } catch { /* storage unavailable */ } };
+// set a media element's stream only when it changes — re-setting it (even to the same stream) restarts playback and flashes
+const attach = (el, stream) => { if (el && stream && el.srcObject !== stream) el.srcObject = stream; };
 
 const newCallId = () => 'call-' + Math.random().toString(36).slice(2, 12);
 const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
@@ -78,8 +87,8 @@ export function CallProvider({ me, toast, children }) {
     pc.ontrack = e => {
       e.streams[0]?.getTracks().forEach(t => { if (!remoteRef.current.getTracks().includes(t)) remoteRef.current.addTrack(t); });
       if (e.track.kind === 'video') setHasRemoteVideo(true);
-      if (remoteVideo.current) remoteVideo.current.srcObject = remoteRef.current;
-      if (remoteAudio.current) remoteAudio.current.srcObject = remoteRef.current;
+      attach(remoteVideo.current, remoteRef.current);
+      attach(remoteAudio.current, remoteRef.current);
     };
     pc.onconnectionstatechange = () => {
       if (pc.connectionState === 'connected' && !connectedAt.current) {
@@ -188,11 +197,11 @@ export function CallProvider({ me, toast, children }) {
     const t = setInterval(() => setSeconds(Math.round((Date.now() - connectedAt.current) / 1000)), 1000);
     return () => clearInterval(t);
   }, [call?.status]);
-  // attach streams once the elements exist
+  // attach streams once the elements exist (and again after the window is restored from minimised)
   useEffect(() => {
-    if (localVideo.current && localRef.current) localVideo.current.srcObject = localRef.current;
-    if (remoteVideo.current) remoteVideo.current.srcObject = remoteRef.current;
-    if (remoteAudio.current) remoteAudio.current.srcObject = remoteRef.current;
+    attach(localVideo.current, localRef.current);
+    attach(remoteVideo.current, remoteRef.current);
+    attach(remoteAudio.current, remoteRef.current);
   });
   // hang up if the tab closes mid-call
   useEffect(() => {
@@ -216,32 +225,110 @@ export function CallProvider({ me, toast, children }) {
     setCamOff(off);
   }
 
+  /* ---------- floating window: drag, resize, minimise ---------- */
+  const [rect, setRect] = useState(null);     // { x, y, w } in px (top-left corner)
+  const [minimized, setMinimized] = useState(false);
+  const winRef = useRef(null), gesture = useRef(null);
+  const isVideoWin = !!(call && call.video && call.status !== 'incoming');
+  const clampRect = useCallback(r => {
+    const vw = window.innerWidth, vh = window.innerHeight;
+    const w = isVideoWin && !minimized ? Math.max(MIN_W, Math.min(r.w, vw - 2 * EDGE)) : Math.min(AUDIO_W, vw - 2 * EDGE);
+    const h = winRef.current?.offsetHeight || 200;
+    return { w: isVideoWin ? Math.max(MIN_W, Math.min(r.w, vw - 2 * EDGE)) : r.w, drawW: w,
+      x: Math.max(EDGE, Math.min(r.x, vw - w - EDGE)), y: Math.max(EDGE, Math.min(r.y, vh - h - EDGE)) };
+  }, [isVideoWin, minimized]);
+  // place the window when a call starts: where it was last time, else bottom-right
+  useEffect(() => {
+    if (!call) { setRect(null); setMinimized(false); return; }
+    setRect(r => r || (() => {
+      const saved = loadRect(), vw = window.innerWidth, vh = window.innerHeight;
+      const w = saved?.w || Math.min(SIZES[1], vw - 32);
+      return saved ? { x: saved.x, y: saved.y, w } : { x: vw - Math.min(w, AUDIO_W) - 20, y: vh - 260, w };
+    })());
+  }, [call?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+  // keep it fully on screen whenever its size changes (video starts, minimise, browser resize)
+  useLayoutEffect(() => {
+    if (!rect) return;
+    const c = clampRect(rect);
+    if (c.x !== rect.x || c.y !== rect.y || c.w !== rect.w) setRect({ x: c.x, y: c.y, w: c.w });
+  });
+  useEffect(() => {
+    const onResize = () => setRect(r => (r ? { ...r } : r));
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
+
+  function startDrag(e, kind) {
+    if (kind === 'move' && e.target.closest('button')) return;
+    e.preventDefault();
+    e.currentTarget.setPointerCapture?.(e.pointerId);
+    gesture.current = { kind, px: e.clientX, py: e.clientY, start: rect };
+  }
+  function onDrag(e) {
+    const g = gesture.current;
+    if (!g) return;
+    const dx = e.clientX - g.px, dy = e.clientY - g.py;
+    if (g.kind === 'move') setRect(clampRect({ ...g.start, x: g.start.x + dx, y: g.start.y + dy }));
+    else setRect(clampRect({ ...g.start, w: g.start.w + dx }));
+  }
+  function endDrag() {
+    if (!gesture.current) return;
+    gesture.current = null;
+    setRect(r => { if (r) saveRect({ x: r.x, y: r.y, w: r.w }); return r; });
+  }
+  // keyboard: arrows move the window, +/- resize it
+  function onHeaderKey(e) {
+    const step = e.shiftKey ? 60 : 20, moves = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] };
+    if (moves[e.key]) { e.preventDefault(); const [dx, dy] = moves[e.key]; setRect(r => { const n = clampRect({ ...r, x: r.x + dx, y: r.y + dy }); saveRect({ x: n.x, y: n.y, w: n.w }); return { x: n.x, y: n.y, w: n.w }; }); }
+    else if ((e.key === '+' || e.key === '=' || e.key === '-') && isVideoWin) { e.preventDefault(); setRect(r => { const n = clampRect({ ...r, w: r.w + (e.key === '-' ? -60 : 60) }); saveRect({ x: n.x, y: n.y, w: n.w }); return { x: n.x, y: n.y, w: n.w }; }); }
+  }
+  function cycleSize() {
+    setRect(r => {
+      const next = SIZES.find(sz => sz > r.w + 10) || SIZES[0];
+      const n = clampRect({ ...r, w: Math.min(next, window.innerWidth - 2 * EDGE) });
+      saveRect({ x: n.x, y: n.y, w: n.w });
+      return { x: n.x, y: n.y, w: n.w };
+    });
+  }
+
   const status = call && {
     ringing: `Calling ${call.peer.displayName}…`, incoming: `${call.peer.displayName} is calling`,
     connecting: 'Connecting…', active: fmt(seconds)
   }[call.status];
-  const showVideo = call && call.video && call.status !== 'incoming';
+  const showVideo = isVideoWin;
+  const drawn = rect && clampRect(rect);
+  const initial = call?.peer.displayName.slice(0, 1).toUpperCase();
 
   return (
     <CallContext.Provider value={{ startCall, inCall: !!call, meId: me?.user?.id }}>
       {children}
-      {call && (
-        <div className={'call-layer' + (call.status === 'incoming' ? ' incoming' : '') + (showVideo ? ' video' : '')} role="dialog" aria-modal="true" aria-label={status}>
-          <div className="call-card">
+      {call && rect && (
+        <div ref={winRef} className={'call-float' + (call.status === 'incoming' ? ' incoming' : '') + (showVideo && !minimized ? ' video' : '') + (minimized ? ' min' : '')}
+          style={{ left: drawn.x, top: drawn.y, width: drawn.drawW }}
+          role="dialog" aria-label={`Call with ${call.peer.displayName}: ${status}`}
+          onPointerMove={onDrag} onPointerUp={endDrag} onPointerCancel={endDrag}>
+          {/* remote sound always plays through this element, so minimising never cuts the audio */}
+          <audio ref={remoteAudio} autoPlay />
+          <div className="call-bar" tabIndex={0} onPointerDown={e => startDrag(e, 'move')} onKeyDown={onHeaderKey}
+            title="Drag to move (or use the arrow keys)" aria-label="Call window — drag or use arrow keys to move">
+            <span className="call-grip" aria-hidden="true">⠿</span>
+            <span className="call-title"><strong>{call.video ? '🎥' : '📞'} {call.peer.displayName}</strong> <span className="call-status">{status}</span></span>
+            {minimized && call.status !== 'incoming' && <button type="button" className="call-mini hang" onClick={hangUp} aria-label="Hang up">✕</button>}
+            {showVideo && !minimized && <button type="button" className="call-mini" onClick={cycleSize} aria-label="Change window size" title="Change size">⤢</button>}
+            {call.status !== 'incoming' && (
+              <button type="button" className="call-mini" onClick={() => setMinimized(m => !m)} aria-label={minimized ? 'Restore call window' : 'Minimise call window'} title={minimized ? 'Restore' : 'Minimise'}>{minimized ? '▢' : '–'}</button>
+            )}
+          </div>
+          {!minimized && (<>
             {showVideo ? (
               <div className="call-stage">
-                <video ref={remoteVideo} className="call-remote" autoPlay playsInline />
-                {!hasRemoteVideo && <div className="call-avatar big">{call.peer.displayName.slice(0, 1).toUpperCase()}</div>}
+                <video ref={remoteVideo} className="call-remote" autoPlay playsInline muted />
+                {!hasRemoteVideo && <div className="call-avatar big">{initial}</div>}
                 <video ref={localVideo} className={'call-local' + (camOff ? ' off' : '')} autoPlay playsInline muted />
               </div>
             ) : (
-              <div className="call-avatar big pulse">{call.peer.displayName.slice(0, 1).toUpperCase()}</div>
+              <div className="call-voice"><div className={'call-avatar big' + (call.status === 'active' ? '' : ' pulse')}>{initial}</div></div>
             )}
-            {!showVideo && <audio ref={remoteAudio} autoPlay />}
-            <div className="call-info">
-              <strong>{call.video ? '🎥' : '📞'} {call.peer.displayName}</strong>
-              <span className="muted">{status}</span>
-            </div>
             <div className="call-controls">
               {call.status === 'incoming' ? (<>
                 <button type="button" className="call-btn accept" onClick={accept} aria-label="Accept call">{call.video ? '🎥' : '📞'}</button>
@@ -252,7 +339,8 @@ export function CallProvider({ me, toast, children }) {
                 <button type="button" className="call-btn hang" onClick={hangUp} aria-label="Hang up">✕</button>
               </>)}
             </div>
-          </div>
+            {showVideo && <div className="call-resize" onPointerDown={e => startDrag(e, 'resize')} title="Drag to resize" aria-hidden="true" />}
+          </>)}
         </div>
       )}
     </CallContext.Provider>

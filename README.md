@@ -487,7 +487,12 @@ Each student can have a grade (`users.grade`: −1 = JK, 0 = K, 1–12; Calculus
     - The server checks the file really is a picture, allows up to 2 MB and 50 pictures a day, and stores it in the database (`message_images`).
     - Only the two people in the conversation (and admins) can open a picture (`GET /api/images/:id`).
   - **Calls:** 📞 voice and 🎥 video calls, browser to browser over WebRTC (`components/Calls.jsx`), between the same people who can message each other.
-    - Incoming calls ring on any page, with mute, camera on/off and hang-up controls.
+    - Incoming calls ring on any page. The call is a floating window, so the rest of the site stays usable during a call:
+      - drag the title bar to move it, or use the arrow keys
+      - drag the corner to resize (video keeps 4:3), or press ⤢ for small, medium or large
+      - press – to minimise it to a bar; audio keeps playing
+      - position and size are remembered, and the window is kept on screen
+    - Controls: mute, camera on/off and hang up.
     - Unanswered calls stop after 35 s, and a second caller gets "busy".
     - The caller's side writes the call into the conversation, e.g. "📞 Voice call · 2:13" or "— missed".
     - Calls use public STUN servers. Without a TURN relay, some strict networks (some mobile carriers, school firewalls) may fail to connect.
