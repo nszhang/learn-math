@@ -70,7 +70,7 @@ export const VARIETY3_RULES = [
   }),
   R(/^Graphs of inverse functions$/, () => () => {
     const a = nz(-5, 5), c = ri(-8, 8), p = ri(-5, 5), q = a * p + c, kind = ri(0, 1);
-    if (kind === 0) return mc(`The point ${m(`(${S(p)}, ${S(q)})`)} is on the graph of ${m(`f(x) = ${lin(a, c)}`)}. Which point must be on the graph of ${m('f<sup>−1</sup>')}?`, `(${S(q)}, ${S(p)})`, [`(${S(-p)}, ${S(-q)})`, `(${S(p)}, ${S(-q)})`, `(${S(-q)}, ${S(p)})`].filter(x => x !== `(${S(q)}, ${S(p)})`), 'The graph of an inverse is the reflection in y = x: swap the coordinates.', 4);
+    if (kind === 0) { if (p === q || p === -q) return null; return mc(`The point ${m(`(${S(p)}, ${S(q)})`)} is on the graph of ${m(`f(x) = ${lin(a, c)}`)}. Which point must be on the graph of ${m('f<sup>−1</sup>')}?`, `(${S(q)}, ${S(p)})`, [`(${S(p)}, ${S(q)})`, `(${S(-p)}, ${S(-q)})`, `(${S(p)}, ${S(-q)})`, `(${S(-q)}, ${S(p)})`].filter(x => x !== `(${S(q)}, ${S(p)})`), 'The graph of an inverse is the reflection in y = x: swap the coordinates.', 4); }
     return num(`${m(`f(x) = ${lin(a, c)}`)}. What is ${m(`f<sup>−1</sup>(${S(q)})`)}?`, p, `Solve ${lin(a, c)} = ${S(q)}: x = ${b(S(p))}.`);
   }),
   R(/^Relations: convert between tables, graphs, mappings and lists of points$/, () => () => {
@@ -175,7 +175,7 @@ export const VARIETY3_RULES = [
     }
     const q = ri(0, 2);
     if (q === 0) return num(`What is the length of the ${b(hyp ? 'transverse' : 'major')} axis of ${m(eqn)}?`, 2 * a, `a² = ${A2}, so a = ${a} and the axis is 2a = ${b(2 * a)}.`);
-    if (q === 1) return mc(`What is the centre of ${m(eqn)}?`, `(${S(h)}, ${S(k)})`, [`(${S(-h)}, ${S(-k)})`, `(${S(k)}, ${S(h)})`, `(${S(h)}, ${S(-k)})`], `The centre is (h, k) = ${b(`(${S(h)}, ${S(k)})`)}.`, 4);
+    if (q === 1) return mc(`What is the centre of ${m(eqn)}?`, `(${S(h)}, ${S(k)})`, [`(${S(-h)}, ${S(-k)})`, `(${S(k)}, ${S(h)})`, `(${S(h)}, ${S(-k)})`, `(${S(h + a)}, ${S(k)})`, `(${S(h)}, ${S(k + a)})`, `(${S(a)}, ${S(c2)})`], `The centre is (h, k) = ${b(`(${S(h)}, ${S(k)})`)}.`, 4);
     return num(`What is the distance from the centre to each ${b('focus')} of ${m(eqn)}? (round to 2 decimals)`, r2(c), `c² = ${A2} ${hyp ? '+' : MINUS} ${B2} = ${hyp ? A2 + B2 : A2 - B2}, so c ≈ ${b(r2(c))}.`);
   }),
   R(/^Find trigonometric ratios using a Pythagorean or reciprocal identity$|^Find trigonometric ratios using multiple identities$/, () => () => {

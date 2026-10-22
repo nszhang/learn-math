@@ -340,7 +340,7 @@ test('emails: user email field + assignment notification + reminders', async () 
     body: { studentId: student.user.id, due: today, items: [{ skillId: 'algA1', count: 2 }] } });
   assert.equal(r.status, 200);
   const todayId = r.data.id;
-  await new Promise(res => setTimeout(res, 50)); // fire-and-forget send
+  for (let t = 0; t < 40 && !sent.some(x => x.subject.includes('New homework')); t++) await new Promise(res => setTimeout(res, 50)); // fire-and-forget send
   assert.ok(sent.some(x => x.to === 'stu@example.com' && x.subject.includes('New homework')),
     'assigned email sent immediately');
 
@@ -373,7 +373,7 @@ test('emails: user email field + assignment notification + reminders', async () 
   await api('PUT', `/api/admin/users/${teacher.user.id}/email`, { token: admin.token, body: { email: 'teach@example.com' } });
   sent = [];
   for (let i = 0; i < 2; i++) await api('POST', '/api/answers', { token: student.token, body: { skillId: 'algA1', correct: i === 0, streak: 0, assignmentId: todayId, skillTitles: { algA1: 'A.1 <b>Variables</b>' } } });
-  await new Promise(res => setTimeout(res, 50));
+  for (let t = 0; t < 40 && !sent.some(x => x.to === 'teach@example.com'); t++) await new Promise(res => setTimeout(res, 50));  // fire-and-forget send
   const done = sent.filter(x => x.to === 'teach@example.com');
   assert.equal(done.length, 1, 'one completion email to the teacher');
   assert.ok(/finished their homework/.test(done[0].subject));
