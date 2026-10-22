@@ -21,6 +21,8 @@ import { LANGUAGE2_SPECS } from './eng/ixlLanguage2.js';
 import { STRATEGY2_SPECS } from './eng/ixlStrategies2.js';
 import { KINDER_SPECS } from './eng/ixlKindergarten.js';
 import { ADVANCED } from './eng/advanced.js';
+import { MORE_GRAMMAR } from './eng/moreGrammar.js';
+import { MORE_READING } from './eng/moreReading.js';
 import { IXL_ENGLISH } from './eng/ixlLists.js';
 import { RESOLVE, SUPERSEDED, SKIPPED } from './eng/ixlAlign.js';
 
@@ -198,10 +200,12 @@ const EXTRA_ICONS = {
 const iconFor = name => ICON_BY_SECTION.get(name) || EXTRA_ICONS[name] || '📘';
 const catOf = name => CAT_CASE(SECTION_INFO.get(name)?.cat || 'Reading strategies');
 const supersededBy = new Map(SUPERSEDED);
+// extra generated/written questions mix with a skill's own bank, so small banks no longer repeat
+const MORE = { ...MORE_GRAMMAR, ...MORE_READING };
 const genFor = (key, grade) => {
   const adv = grade >= 9 && ADVANCED[key];
-  const g = adv || SPECS.get(key).gen;
-  return () => g(grade);
+  const g = adv || SPECS.get(key).gen, more = MORE[key];
+  return more ? () => (Math.random() < 0.35 ? g(grade) : more(grade) || g(grade)) : () => g(grade);
 };
 
 // keys that IXL titles resolve to at some grade
