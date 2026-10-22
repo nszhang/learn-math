@@ -62,6 +62,42 @@ export async function sendAssignmentEmail(pool, mailer, { student, assignment, k
   return { sent: true };
 }
 
+/** Tell the teacher that a student has finished an assignment (sent once, when it completes). */
+export async function sendCompletionEmail(pool, mailer, { assignmentId, studentId, titles = {} }) {
+  const row = await pool.query(
+    `SELECT a.id, a.due, a.items, t.email AS teacher_email, t.display_name AS teacher_name, s.display_name AS student_name
+       FROM assignments a JOIN users t ON t.id = a.teacher_id JOIN users s ON s.id = a.student_id
+      WHERE a.id = $1 AND a.student_id = $2`, [assignmentId, studentId]).then(r => r.rows[0]);
+  if (!row) return { sent: false, reason: 'no-assignment' };
+  if (!row.teacher_email) return { sent: false, reason: 'teacher-has-no-email' };
+  const progress = await pool.query(
+    'SELECT skill_id, done, correct FROM homework_progress WHERE user_id = $1 AND assignment_id = $2', [studentId, assignmentId]).then(r => r.rows);
+  const due = dateStr(row.due), today = todayStr(), late = today > due;
+  const prettyDue = new Date(due + 'T12:00:00').toLocaleDateString('en-CA', { weekday: 'long', month: 'long', day: 'numeric' });
+  let answered = 0, right = 0;
+  const lines = (row.items || []).map(i => {
+    const p = progress.find(x => x.skill_id === i.skillId) || { done: 0, correct: 0 };
+    answered += Math.min(p.done, i.count); right += Math.min(p.correct, i.count);
+    const pct = p.done ? Math.round((100 * p.correct) / p.done) : 0;
+    const name = esc(String(titles[i.skillId] || i.skillId).slice(0, 120));
+    return `<tr><td style="padding:4px 10px">${name}</td><td style="padding:4px 10px;text-align:center">${p.correct} / ${p.done}</td><td style="padding:4px 10px;text-align:center">${pct}%</td></tr>`;
+  }).join('');
+  const pct = answered ? Math.round((100 * right) / answered) : 0;
+  const subject = `[LearnAce] ${row.student_name} finished their homework ✅`;
+  const html = `
+      <div style="font-family:Segoe UI,system-ui,sans-serif;max-width:560px;margin:auto">
+        <h2 style="color:#4f46e5">A+ LearnAce</h2>
+        <p>Hi ${esc(row.teacher_name)},</p>
+        <p><strong>${esc(row.student_name)}</strong> has completed the homework you assigned (due ${prettyDue})${late ? ' — <span style="color:#b45309">after the due date</span>' : ' on time'}.</p>
+        <p style="background:#eef2ff;border-radius:10px;padding:14px">Overall: <strong>${pct}% correct</strong></p>
+        <table style="border-collapse:collapse;font-size:14px"><tr style="background:#f1f5f9"><th style="padding:4px 10px;text-align:left">Skill</th><th style="padding:4px 10px">Correct</th><th style="padding:4px 10px">Accuracy</th></tr>${lines}</table>
+        <p style="margin-top:18px"><a href="https://math.pnpsolutions.ca/learn-math/" style="background:#4f46e5;color:#fff;padding:10px 22px;border-radius:8px;text-decoration:none;font-weight:700">Open LearnAce →</a></p>
+        <p style="color:#94a3b8;font-size:13px">A skill reached at SmartScore 100 counts as complete, so it may show fewer answers than assigned.</p>
+      </div>`;
+  const result = await mailer.send({ to: row.teacher_email, subject, html });
+  return result.skipped ? { sent: false, reason: 'smtp-not-configured' } : { sent: true };
+}
+
 export async function runReminderScan(pool, mailer) {
   const today = todayStr();
   const { rows } = await pool.query(`

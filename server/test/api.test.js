@@ -14,7 +14,7 @@ let server, base, pool, sent;   // `sent` captures fake-mailer deliveries
 function fakeMailer() {
   return {
     configured: true,
-    async send({ to, subject }) { sent.push({ to, subject }); return { messageId: 'fake' }; }
+    async send({ to, subject, html }) { sent.push({ to, subject, html }); return { messageId: 'fake' }; }
   };
 }
 
@@ -368,6 +368,20 @@ test('emails: user email field + assignment notification + reminders', async () 
   sent = [];
   const out3 = await runReminderScan(pool, fakeMailer());
   assert.ok(!out3.some(x => x.kind === 'overdue'), 'completed homework gets no overdue email');
+
+  // the teacher hears about it once the student finishes the homework
+  await api('PUT', `/api/admin/users/${teacher.user.id}/email`, { token: admin.token, body: { email: 'teach@example.com' } });
+  sent = [];
+  for (let i = 0; i < 2; i++) await api('POST', '/api/answers', { token: student.token, body: { skillId: 'algA1', correct: i === 0, streak: 0, assignmentId: todayId, skillTitles: { algA1: 'A.1 <b>Variables</b>' } } });
+  await new Promise(res => setTimeout(res, 50));
+  const done = sent.filter(x => x.to === 'teach@example.com');
+  assert.equal(done.length, 1, 'one completion email to the teacher');
+  assert.ok(/finished their homework/.test(done[0].subject));
+  assert.ok(done[0].html.includes('50% correct') && done[0].html.includes('&lt;b&gt;Variables'), 'summary included and titles escaped');
+  sent = [];
+  await api('POST', '/api/answers', { token: student.token, body: { skillId: 'algA1', correct: true, streak: 0, assignmentId: todayId } });
+  await new Promise(res => setTimeout(res, 50));
+  assert.equal(sent.length, 0, 'no repeat email after completion');
 
   // cleanup the direct-insert row so later scans stay quiet
   await pool.query('DELETE FROM assignments WHERE id = $1', ['emailtest-overdue']);

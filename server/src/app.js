@@ -9,7 +9,7 @@ import * as srs from './srs.js';
 import { registerSocial, recordChallengeAnswer } from './social.js';
 import { nextScore, medalFor } from './scoring.js';
 import { AWARDS, AWARD_META } from './awards.js';
-import { sendAssignmentEmail } from './reminders.js';
+import { sendAssignmentEmail, sendCompletionEmail } from './reminders.js';
 
 export const SKILL_IDS = [
   // elementary (grades 1-6)
@@ -211,7 +211,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   // The workhorse: record one answered question. Handles SmartScore, stats,
   // medals, stars, homework progress/completion, and awards in one call.
   app.post('/api/answers', auth, async (req, res) => {
-    const { skillId, correct, streak, assignmentId, items, challengeId } = req.body || {};
+    const { skillId, correct, streak, assignmentId, items, challengeId, skillTitles } = req.body || {};
     if (challengeId !== undefined && challengeId !== null && typeof challengeId !== 'string')
       return res.status(400).json({ error: 'Invalid challenge' });
     if (!isSkillId(skillId)) return res.status(400).json({ error: 'Unknown skill' });
@@ -273,6 +273,12 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
         if (justCompleted) {
           await db.markHomeworkCompleted(pool, req.uid, assignmentId);
           starDelta += 5;
+          // fire-and-forget: let the teacher know (teacher-assigned homework only)
+          if (mailer && !assignmentId.startsWith('daily-')) {
+            const titles = skillTitles && typeof skillTitles === 'object' ? skillTitles : {};
+            sendCompletionEmail(pool, mailer, { assignmentId, studentId: req.uid, titles })
+              .catch(e => console.error('completion email failed:', e.message));
+          }
         }
         const skillDone = Math.min(hwItems.find(i => i.skillId === skillId).count, rows.find(r => r.skill_id === skillId)?.done || 0);
         homework = { done, total, justCompleted, skillDone, mastered };

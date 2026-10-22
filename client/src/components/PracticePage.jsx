@@ -189,6 +189,11 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
       else if (isHw) {
         body.assignmentId = cfg.assignment.id;
         if (cfg.assignment.daily) body.items = cfg.assignment.items;
+        // readable skill names for the teacher's "homework finished" email
+        else body.skillTitles = Object.fromEntries(cfg.assignment.items.map(i => {
+          const x = SKILL_INDEX[i.skillId];
+          return [i.skillId, x ? `${x.subject.name} · ${x.grade.name} · ${x.skill.code} ${x.skill.title}` : i.skillId];
+        }));
       }
       const r = await api('POST', '/api/answers', body);
       setScore(r.score);
