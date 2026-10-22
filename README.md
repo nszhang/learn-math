@@ -6,7 +6,7 @@
 
 <div align="center">
 
-**🌐 Live:** [math.pnpsolutions.ca/learn-math](https://math.pnpsolutions.ca/learn-math)
+**🌐 Live:** [learn.pnpsolutions.ca/learnace](https://learn.pnpsolutions.ca/learnace/) (the old address math.pnpsolutions.ca/learn-math redirects here)
 
 **4,713 skills · 523 sections · Junior Kindergarten–Calculus · 21 badges · 3 roles**
 
@@ -226,7 +226,7 @@ square**, fully adaptive tick labels at every scale.
 
 ```
 ┌─────────────────────────────── Browser ───────────────────────────────┐
-│  React 18 SPA (Vite build, served by Express under /learn-math/)      │
+│  React 18 SPA (Vite build, served by Express under /learnace/)        │
 │                                                                       │
 │  pages: Skills(HW funnel) · Learn(4 tools) · Homework · Dashboard ·   │
 │         Awards · Teacher(Students/Assign) · Admin · ChangePassword    │
@@ -354,7 +354,7 @@ cd server && DATABASE_URL=postgres://postgres:postgres@localhost:5432/learn_math
 ```
 
 Production mode: `npm run build && npm start` (Express serves the built
-client on :3001). Client builds with `base: '/learn-math/'` for the nginx
+client on :3001). Client builds with `base: '/learnace/'` for the nginx
 subpath deployment — use `vite build --base=/` for root-hosted local runs.
 
 ---
@@ -383,7 +383,7 @@ skill-ID consistency is diff-checked.
 
 ## Deployment
 
-**Production** runs at `math.pnpsolutions.ca/learn-math/` on
+**Production** runs at `learn.pnpsolutions.ca/learnace/` on
 `webapp01.pnpsolutions.ca`:
 
 | Piece | Detail |
@@ -391,7 +391,7 @@ skill-ID consistency is diff-checked.
 | App dir | `/var/www/learn-math` (built on server) |
 | Secrets | `/etc/learn-math.env` (root:600): `DATABASE_URL`, `JWT_SECRET`, `PORT=3006` |
 | Service | systemd `learn-math.service` (127.0.0.1:3006) |
-| Routing | nginx `math.pnpsolutions.ca.conf`: `/learn-math/` and `/learn-math/api/` → :3006 (prefix stripped) |
+| Routing | nginx `learn.pnpsolutions.ca.conf`: `/learnace/` → :3006 (prefix stripped). `math.pnpsolutions.ca/learn-math/*` → 301 to the new address (API paths 308) |
 | Database | PostgreSQL `learn_math` (shared with the two sister sites) |
 | Backups | Nightly 00:00 America/Edmonton via `website-backup.sh learn-math` → `/backup/learn-math/` (files tarball + gzipped `pg_dump`, 30-day retention, offsite sync) |
 | Deploy | `./deploy.sh` — code-only rsync (`.env`/DB untouched) → build → restart → health check |
@@ -410,7 +410,7 @@ collides:
 
 | Site | URL | Repo |
 |---|---|---|
-| A+ **LearnAce** (this repo, formerly MathAce — Math, English, Science, Chinese) | [/learn-math](https://math.pnpsolutions.ca/learn-math/) | `nszhang/learn-math` |
+| A+ **LearnAce** (this repo, formerly MathAce — Math, English, Science, Chinese) | [learn.pnpsolutions.ca/learnace](https://learn.pnpsolutions.ca/learnace/) | `nszhang/learn-math` |
 | ∑ **AlgebraAce** (algebra, 17 skills) | [/learning-algebra](https://math.pnpsolutions.ca/learning-algebra/) | `nszhang/learning-algebra` |
 | xⁿ **ExponentAce** (exponents & logs, 16 skills) | [/learn-exponent-and-log](https://math.pnpsolutions.ca/learn-exponent-and-log/) | `nszhang/learn-exponent-and-log` |
 
