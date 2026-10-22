@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
-# Deploy LearnAce (formerly MathAce) to webapp01 → https://math.pnpsolutions.ca/learn-math/
+# Deploy LearnAce (formerly MathAce) to webapp01 → https://learn.pnpsolutions.ca/learnace/
 #
 # Production layout (webapp01.pnpsolutions.ca):
 #   /var/www/learn-math/                  app (this repo; built on server)
 #   /var/www/learn-math/server/.env     DATABASE_URL only (backup script reads it; NOT in git)
 #   /etc/learn-math.env                 root:600 — DATABASE_URL, JWT_SECRET, PORT=3006
 #   systemd: learn-math.service         Express serves API + built client on 127.0.0.1:3006
-#   nginx:   /etc/nginx/conf.d/math.pnpsolutions.ca.conf
-#            location /learn-math/{,/api/} → proxy to :3006 (prefix stripped)
+#   nginx:   /etc/nginx/conf.d/learn.pnpsolutions.ca.conf
+#            location /learnace/ → proxy to :3006 (prefix stripped)
+#            math.pnpsolutions.ca/learn-math/* → 301 to learn.pnpsolutions.ca/learnace/* (API: 308)
 set -euo pipefail
 HOST="${DEPLOY_HOST:-webapp01.pnpsolutions.ca}"
 APP=/var/www/learn-math
@@ -30,4 +31,4 @@ ssh "$HOST" "set -e
   curl -sf http://127.0.0.1:3006/api/health
 "
 echo
-echo "✅ Deployed: https://math.pnpsolutions.ca/learn-math/"
+echo "✅ Deployed: https://learn.pnpsolutions.ca/learnace/"

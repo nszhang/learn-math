@@ -1,6 +1,6 @@
 // Tiny API client with JWT handling.
-// BASE_URL lets the app live under a subpath (e.g. /learn-math/):
-// built output calls /learn-math/api/..., dev output calls /api/...
+// BASE_URL lets the app live under a subpath (e.g. /learnace/):
+// built output calls /learnace/api/..., dev output calls /api/...
 // (which the Vite dev server proxies to :3001).
 const BASE = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 

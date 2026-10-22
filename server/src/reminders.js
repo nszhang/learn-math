@@ -4,13 +4,15 @@
 //   'due-soon' — fired on the morning the homework is due
 //   'overdue'  — fired the day after the due date if still incomplete
 
+// public address of the app, used for links in emails
+export const APP_URL = process.env.APP_URL || 'https://learn.pnpsolutions.ca/learnace/';
 const todayStr = () => new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD
 // node-pg returns DATE columns as Date objects — normalize to YYYY-MM-DD either way
 const dateStr = d => (d instanceof Date ? d.toISOString() : String(d)).slice(0, 10);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
 function assignmentEmail({ student, assignment, kind }) {
-  const url = 'https://math.pnpsolutions.ca/learn-math/';
+  const url = APP_URL;
   const due = dateStr(assignment.due);
   const pretty = new Date(due + 'T12:00:00').toLocaleDateString('en-CA',
     { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
@@ -91,7 +93,7 @@ export async function sendCompletionEmail(pool, mailer, { assignmentId, studentI
         <p><strong>${esc(row.student_name)}</strong> has completed the homework you assigned (due ${prettyDue})${late ? ' — <span style="color:#b45309">after the due date</span>' : ' on time'}.</p>
         <p style="background:#eef2ff;border-radius:10px;padding:14px">Overall: <strong>${pct}% correct</strong></p>
         <table style="border-collapse:collapse;font-size:14px"><tr style="background:#f1f5f9"><th style="padding:4px 10px;text-align:left">Skill</th><th style="padding:4px 10px">Correct</th><th style="padding:4px 10px">Accuracy</th></tr>${lines}</table>
-        <p style="margin-top:18px"><a href="https://math.pnpsolutions.ca/learn-math/" style="background:#4f46e5;color:#fff;padding:10px 22px;border-radius:8px;text-decoration:none;font-weight:700">Open LearnAce →</a></p>
+        <p style="margin-top:18px"><a href="${APP_URL}" style="background:#4f46e5;color:#fff;padding:10px 22px;border-radius:8px;text-decoration:none;font-weight:700">Open LearnAce →</a></p>
         <p style="color:#94a3b8;font-size:13px">A skill reached at SmartScore 100 counts as complete, so it may show fewer answers than assigned.</p>
       </div>`;
   const result = await mailer.send({ to: row.teacher_email, subject, html });
