@@ -19,6 +19,14 @@ import { SCI_35_SPECS } from './sci/ixlSci35.js';
 import { SCI_68_SPECS } from './sci/ixlSci68.js';
 import { SCI_910_SPECS } from './sci/ixlSci910.js';
 import { IXL_SCIENCE } from './sci/ixlSciLists.js';
+import { MORE_K2 } from './sci/moreK2.js';
+import { MORE_K2B } from './sci/moreK2b.js';
+import { MORE_35 } from './sci/more35.js';
+
+// extra questions mix with a skill's own bank, so small banks no longer repeat
+const SCI_MORE = { ...MORE_K2, ...MORE_K2B, ...MORE_35 };
+export const SCI_MORE_KEYS = Object.keys(SCI_MORE);
+const withMore = spec => { const more = SCI_MORE[spec.k]; return more ? () => (Math.random() < 0.3 ? spec.gen() : more()) : spec.gen; };
 
 // Section registry — order here is the order shown on every grade page.
 const SECTIONS = [
@@ -88,7 +96,7 @@ const add = (spec, grade, section) => {
   ids.add(id);
   const sec = canon(section), info = SECTION_INFO.get(sec);
   if (!info) throw new Error(`Unknown science section "${sec}" for ${spec.k}`);
-  all.push({ id, title: spec.t, grade, section: sec, icon: info.icon, _order: info.order, _ixl: all.length, gen: spec.gen });
+  all.push({ id, title: spec.t, grade, section: sec, icon: info.icon, _order: info.order, _ixl: all.length, gen: withMore(spec) });
 };
 // 1) IXL's skills, in IXL's order
 for (const [g, rows] of Object.entries(IXL_SCIENCE)) {
