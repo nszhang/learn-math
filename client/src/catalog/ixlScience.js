@@ -22,11 +22,13 @@ import { IXL_SCIENCE } from './sci/ixlSciLists.js';
 import { MORE_K2 } from './sci/moreK2.js';
 import { MORE_K2B } from './sci/moreK2b.js';
 import { MORE_35 } from './sci/more35.js';
+import { MORE_68 } from './sci/more68.js';
+import { MORE_910 } from './sci/more910.js';
 
 // extra questions mix with a skill's own bank, so small banks no longer repeat
-const SCI_MORE = { ...MORE_K2, ...MORE_K2B, ...MORE_35 };
+const SCI_MORE = { ...MORE_K2, ...MORE_K2B, ...MORE_35, ...MORE_68, ...MORE_910 };
 export const SCI_MORE_KEYS = Object.keys(SCI_MORE);
-const withMore = spec => { const more = SCI_MORE[spec.k]; return more ? () => (Math.random() < 0.3 ? spec.gen() : more()) : spec.gen; };
+const withMore = spec => { const more = SCI_MORE[spec.k]; return more ? () => (Math.random() < 0.3 ? spec.gen() : more() || spec.gen()) : spec.gen; };
 
 // Section registry — order here is the order shown on every grade page.
 const SECTIONS = [
