@@ -357,13 +357,13 @@ export const ENGLISH_6_12 = [
     categories: ['Anaphora', 'Antithesis', 'Oxymoron', 'Paradox', 'Rhetorical question'],
     prompt: s => `Which device is used?<br>${em(s)}`,
     items: [
-      ['I have a dream… I have a dream… I have a dream…', 'Anaphora', 'The same opening words repeat in successive phrases.'],
-      ['It was the best of times, it was the worst of times.', 'Antithesis', 'Opposite ideas are placed side by side.'],
+      ['“I have a dream that one day this nation will rise up … I have a dream that my four little children will one day live in a nation …” — Martin Luther King Jr., “I Have a Dream” speech (1963)', 'Anaphora', 'The same opening words repeat in successive phrases.'],
+      ['“It was the best of times, it was the worst of times.” — Charles Dickens, <em>A Tale of Two Cities</em> (1859)', 'Antithesis', 'Opposite ideas are placed side by side.'],
       ['The silence was deafening.', 'Oxymoron', 'Contradictory words combined (silence/deafening).'],
       ['Less is more.', 'Paradox', 'It seems self-contradictory but reveals a truth.'],
       ['Can we really sit back and do nothing?', 'Rhetorical question', 'A question asked for effect, not for an answer.'],
-      ['We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.', 'Anaphora', 'The phrase “we shall fight” repeats at the start.'],
-      ['Ask not what your country can do for you — ask what you can do for your country.', 'Antithesis', 'Contrasting ideas in parallel form.'],
+      ['“We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets.” — Winston Churchill, speech to the House of Commons (1940)', 'Anaphora', 'The phrase “we shall fight” repeats at the start.'],
+      ['“Ask not what your country can do for you — ask what you can do for your country.” — John F. Kennedy, inaugural address (1961)', 'Antithesis', 'Contrasting ideas in parallel form.'],
       ['Jumbo shrimp', 'Oxymoron', 'Contradictory words together.']
     ]
   })),

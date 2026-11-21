@@ -644,7 +644,7 @@ export const GRAMMAR_SPECS = [
     categories: ['Appropriate', 'Not appropriate'],
     prompt: s => `Is the ellipsis used appropriately?<br>${s}`,
     items: [
-      ['Original: <em>"We hold these truths to be self-evident, that all men are created equal."</em><br>Quote: "We hold these truths … that all men are created equal."', 'Appropriate', 'The ellipsis marks omitted words without changing meaning.'],
+      ['Original (Declaration of Independence, 1776): <em>"We hold these truths to be self-evident, that all men are created equal."</em><br>Quote: "We hold these truths … that all men are created equal."', 'Appropriate', 'The ellipsis marks omitted words without changing meaning.'],
       ['Quote: "I … love … this … book" (as a normal sentence by the writer)', 'Not appropriate', 'Ellipses should not replace normal punctuation.'],
       ['Original: <em>"The trip was long and tiring, but the view was spectacular."</em><br>Quote: "The trip was long and tiring … the view was spectacular."', 'Appropriate', 'Words were omitted ("but") without changing the main idea.'],
       ['Original: <em>"I do not support this plan."</em><br>Quote: "I … support this plan."', 'Not appropriate', 'It changes the meaning by removing "not".'],

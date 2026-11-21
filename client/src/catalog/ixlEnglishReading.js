@@ -139,15 +139,15 @@ export const READING_SPECS = [
     prompt: s => `Which figure of speech is this?<br>${em(s)}`,
     items: [
       ['We will not tire, we will not falter, we will not fail.', 'Anaphora', 'The phrase "we will not" repeats at the start of each clause.'],
-      ['That\'s one small step for man, one giant leap for mankind.', 'Antithesis', 'It contrasts "small step" with "giant leap".'],
+      ['“That\'s one small step for man, one giant leap for mankind.” — Neil Armstrong, on the Moon (1969)', 'Antithesis', 'It contrasts "small step" with "giant leap".'],
       ['Oh, Death, where is thy sting?', 'Apostrophe', 'The speaker addresses an abstract idea as if it could hear.'],
       ['The rain in Spain stays mainly in the plain.', 'Assonance', 'The long "a" vowel sound repeats.'],
       ['Never let a fool kiss you, or a kiss fool you.', 'Chiasmus', 'The word order is reversed: fool-kiss / kiss-fool.'],
       ['"It\'s just a scratch," said the knight whose arm had been cut off.', 'Understatement', 'It makes something serious seem minor.'],
       ['Every day, every night, every hour, I think of you.', 'Anaphora', '"Every" repeats at the start of each phrase.'],
-      ['To err is human; to forgive, divine.', 'Antithesis', 'Contrasting ideas in parallel form.'],
+      ['“To err is human; to forgive, divine.” — Alexander Pope, <em>An Essay on Criticism</em> (1711)', 'Antithesis', 'Contrasting ideas in parallel form.'],
       ['Rise, O sun, and warm my weary bones!', 'Apostrophe', 'The speaker addresses the sun directly.'],
-      ['Fair is foul, and foul is fair.', 'Chiasmus', 'The pair of words is reversed in the second half.'],
+      ['“Fair is foul, and foul is fair.” — the witches, William Shakespeare, <em>Macbeth</em> (1606)', 'Chiasmus', 'The pair of words is reversed in the second half.'],
       ['The Sahara is a bit dry.', 'Understatement', 'The desert is extremely dry.'],
       ['Try to light the fire at night.', 'Assonance', 'The long "i" vowel sound repeats in light, fire, night.']
     ]
@@ -162,7 +162,7 @@ export const READING_SPECS = [
       ['Nobody goes to that restaurant anymore — it\'s too crowded.', 'Paradox', 'It seems contradictory yet makes a point.'],
       ['Let us work together, let us build together, let us win together.', 'Anaphora', '"Let us" repeats at the start of each clause.'],
       ['We are here to heal, not to harm.', 'Antithesis', 'Contrasting ideas side by side.'],
-      ['O Captain! my Captain!, hear the bells.', 'Apostrophe', 'Addresses someone who is not present.'],
+      ['“O Captain! my Captain! rise up and hear the bells.” — Walt Whitman, “O Captain! My Captain!” (1865)', 'Apostrophe', 'Whitman addresses the dead President Lincoln, who cannot answer.'],
       ['The hurricane caused some minor inconvenience to the town it flattened.', 'Understatement', 'It downplays a major disaster.']
     ]
   })),
@@ -172,7 +172,7 @@ export const READING_SPECS = [
       ['<em>"The silence in the room was deafening."</em> What effect does the oxymoron create?', 'It emphasizes how intense and uncomfortable the quiet is.', 'Combining silence and deafening stresses the tension.', ['It emphasizes how intense and uncomfortable the quiet is.', 'It shows the room was full of noise.', 'It shows that the speaker is joking.', 'It explains how sound travels.']],
       ['<em>"The wind howled and clawed at the shutters."</em> What effect does the personification create?', 'It makes the storm seem menacing and alive.', 'Giving the wind animal actions builds a threatening mood.', ['It makes the storm seem menacing and alive.', 'It shows the wind is calm.', 'It lists facts about wind speed.', 'It makes the tone humorous.']],
       ['<em>"I\'ve been waiting here for centuries."</em> What effect does the hyperbole create?', 'It stresses the speaker\'s impatience.', 'Exaggeration emphasizes how long the wait felt.', ['It stresses the speaker\'s impatience.', 'It gives the exact time spent waiting.', 'It shows that the speaker is very old.', 'It creates a calm tone.']],
-      ['<em>"We shall fight on the beaches, we shall fight on the hills."</em> What effect does the repetition create?', 'It builds determination and rhythm.', 'Anaphora creates a powerful, rousing tone.', ['It builds determination and rhythm.', 'It confuses the audience.', 'It shows the speaker is unsure.', 'It lists locations for a map.']],
+      ['<em>"We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills."</em> — Winston Churchill, speech to the House of Commons (1940). What effect does the repetition create?', 'It builds determination and rhythm.', 'Anaphora creates a powerful, rousing tone.', ['It builds determination and rhythm.', 'It confuses the audience.', 'It shows the speaker is unsure.', 'It lists locations for a map.']],
       ['<em>"It\'s only a flesh wound," said the knight, bleeding heavily.</em> What effect does the understatement create?', 'It adds humour by downplaying a serious injury.', 'The gap between words and reality is funny.', ['It adds humour by downplaying a serious injury.', 'It shows the injury is minor.', 'It makes the tone tragic.', 'It explains first aid.']],
       ['<em>"Her laugh was sunshine after rain."</em> What effect does the metaphor create?', 'It conveys warmth and relief.', 'The comparison suggests brightness and comfort.', ['It conveys warmth and relief.', 'It describes the weather.', 'It shows that she is angry.', 'It suggests the laugh was loud and harsh.']],
       ['<em>"The company is rightsizing."</em> What effect does the euphemism create?', 'It softens an unpleasant truth about layoffs.', 'A mild word hides the harsher reality.', ['It softens an unpleasant truth about layoffs.', 'It makes the news sound more shocking.', 'It shows that the company is growing.', 'It uses exact numbers.']],
@@ -182,7 +182,7 @@ export const READING_SPECS = [
 
   /* ================= Analyzing literature / informational texts ================= */
   sk('ShS1', 'Analyze short stories: set 1', 'Analyzing literature', G(9, 12), passageQs({
-    title: 'Read the story excerpt.',
+    title: 'Read the short story (an original story written for LearnAce).',
     items: [
       ['Marisol had practised the violin for months. As she stepped onto the stage, her hands trembled, but she remembered her teacher\'s words: <em>"Play for the music, not the crowd."</em> She breathed, raised her bow, and the first note rang clear.', 'What is the best theme of this excerpt?', 'Preparation and focus can overcome nervousness.', ['Music is more important than people.', 'Teachers give bad advice.', 'Stage fright cannot be beaten.'], 'Her practice and her teacher\'s advice help her play despite fear.'],
       ['Every morning, old Mr. Tran fed the pigeons in the square, though the city had posted a sign forbidding it. Children crowded around him, laughing. The day the sign was removed, the square seemed strangely empty without his scolding glare.', 'What can be inferred about Mr. Tran?', 'He is a kind person people have come to value.', ['He is a bitter man who hates children.', 'He wrote the sign.', 'He dislikes pigeons.'], 'The children gather around him, and the square feels empty when he is gone.'],
@@ -193,7 +193,7 @@ export const READING_SPECS = [
     ]
   })),
   sk('ShS2', 'Analyze short stories: set 2', 'Analyzing literature', G(9, 12), passageQs({
-    title: 'Read the story excerpt.',
+    title: 'Read the short story (an original story written for LearnAce).',
     items: [
       ['The two brothers divided the farm down the middle, each building a high fence. Years later, a flood washed the fences away, and the brothers worked side by side to rebuild the fields. This time, they left the land open.', 'What theme is developed?', 'Cooperation matters more than division.', ['Floods are unavoidable.', 'Fences keep farms safe.', 'Farming is hard work.'], 'They leave the land open after working together.'],
       ['Ines tucked the letter into her pocket without reading it. All morning her thoughts drifted back to the envelope; she checked it twice during math and once more at lunch. By afternoon she had still not opened it.', 'Which detail best reveals Ines\'s feelings?', 'She keeps checking the letter but cannot open it.', ['She tucks the letter into her pocket.', 'She has math class in the morning.', 'She eats lunch.'], 'Her repeated checking shows anxiety.'],
@@ -247,10 +247,10 @@ export const READING_SPECS = [
   sk('RhHs', 'Analyze rhetorical strategies in historical texts', 'Analyzing informational texts', G(10, 12), pairs({
     prompt: q => q,
     items: [
-      ['<em>"…government of the people, by the people, for the people, shall not perish from the earth."</em> (Lincoln) Which strategy is used?', 'Parallel structure and repetition', 'Repeating the "of/by/for the people" pattern builds rhythm and emphasis.', ['Parallel structure and repetition', 'A statistic', 'A personal anecdote', 'A rhetorical question']],
-      ['<em>"I have a dream today!"</em> (King) repeated at the start of successive sentences is an example of …', 'Anaphora', 'Repetition at the start of sentences creates rhythm and emphasis.', ['Anaphora', 'Understatement', 'Euphemism', 'Allusion']],
-      ['<em>"Ask not what your country can do for you — ask what you can do for your country."</em> (Kennedy) uses …', 'Antithesis (contrasting ideas)', 'It contrasts what the country does with what citizens do.', ['Antithesis (contrasting ideas)', 'Hyperbole', 'Apostrophe', 'Onomatopoeia']],
-      ['<em>"The only thing we have to fear is fear itself."</em> (Roosevelt) mainly appeals to …', 'Pathos by calming fear', 'It addresses the audience\'s emotions to inspire confidence.', ['Pathos by calming fear', 'Logos using statistics', 'Ethos using credentials', 'Humour']],
+      ['<em>"…government of the people, by the people, for the people, shall not perish from the earth."</em> — Abraham Lincoln, Gettysburg Address (1863). Which strategy is used?', 'Parallel structure and repetition', 'Repeating the "of/by/for the people" pattern builds rhythm and emphasis.', ['Parallel structure and repetition', 'A statistic', 'A personal anecdote', 'A rhetorical question']],
+      ['<em>"I have a dream today!"</em> — Martin Luther King Jr., “I Have a Dream” speech (1963), repeated at the start of successive sentences is an example of …', 'Anaphora', 'Repetition at the start of sentences creates rhythm and emphasis.', ['Anaphora', 'Understatement', 'Euphemism', 'Allusion']],
+      ['<em>"Ask not what your country can do for you — ask what you can do for your country."</em> — John F. Kennedy, inaugural address (1961), uses …', 'Antithesis (contrasting ideas)', 'It contrasts what the country does with what citizens do.', ['Antithesis (contrasting ideas)', 'Hyperbole', 'Apostrophe', 'Onomatopoeia']],
+      ['<em>"The only thing we have to fear is fear itself."</em> — Franklin D. Roosevelt, first inaugural address (1933), mainly appeals to …', 'Pathos by calming fear', 'It addresses the audience\'s emotions to inspire confidence.', ['Pathos by calming fear', 'Logos using statistics', 'Ethos using credentials', 'Humour']],
       ['A speaker opens, <em>"Fellow citizens, as a veteran of three wars, I have seen what hardship can do."</em> This is mainly an appeal to …', 'Ethos', 'The speaker establishes credibility through experience.', ['Ethos', 'Pathos', 'Logos', 'Irony']],
       ['A speaker asks, <em>"Can we truly call ourselves free while any among us remains in chains?"</em> This is …', 'A rhetorical question', 'It is asked for effect, not for an answer.', ['A rhetorical question', 'A statistic', 'A definition', 'A flashback']],
       ['A writer states, <em>"Unemployment has fallen from 9% to 5% in four years."</em> This is mainly an appeal to …', 'Logos', 'Numbers are logical evidence.', ['Logos', 'Pathos', 'Ethos', 'Satire']],

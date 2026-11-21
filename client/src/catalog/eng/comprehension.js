@@ -30,7 +30,7 @@ export function renderPassage(ps, { pic = true } = {}) {
   }).join('');
   return `<div class="passage rc-passage${ps.poem ? ' rc-poem' : ''}">` +
     (pic && ps.pic ? `<div class="rc-pic" aria-hidden="true">${ps.pic}</div>` : '') +
-    `<h4 class="rc-title">${ps.t}</h4>${ps.by ? `<div class="rc-by">by ${ps.by}</div>` : ''}${body}</div>`;
+    `<h4 class="rc-title">${ps.t}</h4><div class="rc-by">${ps.by ? `by ${ps.by}` : 'An original passage written for LearnAce'}</div>${body}</div>`;
 }
 
 /** gen(grade): pick a passage from the pool for this grade, then one of its questions. */
