@@ -7,6 +7,7 @@ import { dueWords, KNOWN_BOX } from './ReviewPage.jsx';
 import { HSK } from '../catalog/zh/hsk.js';
 import { clickable } from '../a11y.js';
 import { useNavState } from '../nav.js';
+import SkillSearch from './SkillSearch.jsx';
 
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
 const gradeEmoji = n => (n < 0 ? '🧸' : n === 0 ? '🎒' : n === 13 ? '∫' : GRADE_EMOJI[n - 1]);
@@ -103,6 +104,8 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
     );
   })();
 
+  const search = <SkillSearch subject={subject} myGrade={myGrade} scoreOf={scoreOf} hwSkills={hwSkills} onPick={clickSkill} />;
+
   // ---------- grade grid (IXL math home) ----------
   if (gradeNum === null) {
     return (
@@ -113,6 +116,7 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
             ? <>You're in <strong>{levelLabelFor(subject, myGrade)}</strong> — start there, or explore any grade you like!</>
             : 'Pick your grade and start building skills!'} Earn 🥉 70 · 🥈 90 · 🥇 100 on every skill.</p>
         </div>
+        {search}
         {hskPanel}
         <div className="grade-grid">
           {GRADES.map(g => {
@@ -157,6 +161,7 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
             click a section to explore</p>
         </div>
       </div>
+      {search}
       {isAboveLevel(subject, grade.num, me?.user) && (
         <div className="grade-note">{hsk
           ? <>🚀 This is above your level ({hskLabel(myGrade)}) — exploring ahead is great!{isStudent && <> Feeling ready? <button type="button" className="btn btn-ghost" onClick={() => setHskLevel(grade.num)}>Make {hskLabel(grade.num)} my level</button></>}</>
