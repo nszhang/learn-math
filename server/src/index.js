@@ -3,6 +3,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import express from 'express';
+import compression from 'compression';
 import pg from 'pg';
 import { createApp } from './app.js';
 import { createMailer } from './mailer.js';
@@ -44,6 +45,9 @@ setTimeout(async function scan() {
 // Serve the built React client in production (client/dist)
 const dist = path.join(__dirname, '..', '..', 'client', 'dist');
 if (fs.existsSync(dist)) {
+  // gzip the built client (the app bundle and reading library are large JSON/JS). Added after the API
+  // routes, so the live-events stream is never buffered by compression.
+  app.use(compression());
   app.use(express.static(dist));
   app.get(/^(?!\/api\/).*/, (req, res) => res.sendFile(path.join(dist, 'index.html')));
 }
