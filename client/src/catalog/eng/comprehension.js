@@ -11,7 +11,7 @@ import {
 import { TOPIC } from './rc/topics.js';
 import {
   CL_FABLES, CL_BOOKS_1_2, CL_BOOKS_3_4, CL_NOVELS_5_6, CL_NOVELS_7_8, CL_NOVELS_9_10, CL_NOVELS_11_12,
-  CL_STORIES, CL_POEMS_5_8, CL_POEMS_9_12, CL_SHAKESPEARE,
+  CL_STORIES, CL_POEMS_2_4, CL_POEMS_5_8, CL_POEMS_9_12, CL_SHAKESPEARE,
   CL_NONFIC_4_6, CL_NONFIC_7_8, CL_NONFIC_9_12, CL_ESSAYS_7_8, CL_ESSAYS_9_10, CL_ESSAYS_11_12
 } from './rc/classics.js';
 
@@ -33,10 +33,26 @@ export function renderPassage(ps, { pic = true } = {}) {
     `<h4 class="rc-title">${ps.t}</h4><div class="rc-by">${ps.by ? `by ${ps.by}` : 'An original passage written for LearnAce'}</div>${body}</div>`;
 }
 
-/** gen(grade): pick a passage from the pool for this grade, then one of its questions. */
+// Rotate through each pool: a passage is not shown again until every other passage in that pool
+// has been, and never twice in a row (so one poem can't fill a practice session).
+const bags = new WeakMap();
+export function nextPassage(pool) {
+  let bag = bags.get(pool);
+  if (!bag || !bag.queue.length) {
+    const queue = shuffle(pool.map((_, i) => i));
+    const last = bag?.last;
+    if (pool.length > 1 && queue[queue.length - 1] === last) [queue[0], queue[queue.length - 1]] = [queue[queue.length - 1], queue[0]];
+    bag = { queue, last };
+    bags.set(pool, bag);
+  }
+  bag.last = bag.queue.pop();
+  return pool[bag.last];
+}
+
+/** gen(grade): the next passage from the pool for this grade (pools must be stable arrays), then one of its questions. */
 export const passageGen = pools => grade => {
   const pool = typeof pools === 'function' ? pools(grade) : pools;
-  const ps = pick(pool);
+  const ps = nextPassage(pool);
   const [q, a, wrong, why] = pick(ps.q);
   return {
     type: 'mc',
@@ -51,13 +67,15 @@ const band = (g, map) => map[Math.min(12, Math.max(1, g))];
 const LIT = { 1: RC_LIT_1_2, 2: RC_LIT_1_2, 3: RC_LIT_3_4, 4: RC_LIT_3_4, 5: RC_LIT_5_6, 6: RC_LIT_5_6, 7: RC_LIT_7_8, 8: RC_LIT_7_8, 9: RC_LIT_9_10, 10: RC_LIT_9_10, 11: RC_LIT_11_12, 12: RC_LIT_11_12 };
 const INFO = { 1: RC_INFO_1_2, 2: RC_INFO_1_2, 3: RC_INFO_3_4, 4: RC_INFO_3_4, 5: RC_INFO_5_6, 6: RC_INFO_5_6, 7: RC_INFO_7_8, 8: RC_INFO_7_8, 9: RC_INFO_9_10, 10: RC_INFO_9_10, 11: RC_INFO_11_12, 12: RC_INFO_11_12 };
 const ARG = g => (g <= 8 ? RC_ARG_6_8 : g <= 10 ? RC_ARG_9_10 : RC_ARG_11_12);
-const POEM = g => (g <= 10 ? RC_POEM_9_10 : RC_POEM_11_12);
+// poetry leans on classic poems; the poems written for LearnAce are a minority of each pool (built once, so rotation works)
+const POEM_9_10 = [...RC_POEM_9_10, ...CL_POEMS_9_12], POEM_11_12 = [...RC_POEM_11_12, ...CL_POEMS_9_12];
+const POEM = g => (g <= 10 ? POEM_9_10 : POEM_11_12);
 const G = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
 
 // Famous books and authors (public-domain classics, copied word-for-word — see rc/classics.js)
 const CL_BOOKS = g => (g <= 2 ? CL_BOOKS_1_2 : CL_BOOKS_3_4);
 const CL_NOVELS = g => (g <= 6 ? CL_NOVELS_5_6 : g <= 8 ? CL_NOVELS_7_8 : g <= 10 ? CL_NOVELS_9_10 : CL_NOVELS_11_12);
-const CL_POEMS = g => (g <= 8 ? CL_POEMS_5_8 : CL_POEMS_9_12);
+const CL_POEMS = g => (g <= 4 ? CL_POEMS_2_4 : g <= 8 ? CL_POEMS_5_8 : CL_POEMS_9_12);
 const CL_NONFIC = g => (g <= 6 ? CL_NONFIC_4_6 : g <= 8 ? CL_NONFIC_7_8 : CL_NONFIC_9_12);
 const CL_ESSAYS = g => (g <= 8 ? CL_ESSAYS_7_8 : g <= 10 ? CL_ESSAYS_9_10 : CL_ESSAYS_11_12);
 // what a student of this grade may have met: everything up to their band
@@ -93,7 +111,7 @@ const authorsGen = grade => {
 // Grades 3–5 genre and topic pools (IXL "Literary texts" / "Informational texts").
 const T = TOPIC;
 export const TOPIC_POOLS = {
-  fantasy: T.fantasy, histfic: T.histfic, scifi: T.scifi, poetry: T.poetry, drama: T.drama,
+  fantasy: T.fantasy, histfic: T.histfic, scifi: T.scifi, poetry: [...CL_POEMS_2_4, ...T.poetry], drama: T.drama,
   realistic1: [...T.realistic, RC_LIT_3_4[0]], realistic2: [RC_LIT_3_4[1], RC_LIT_3_4[2], RC_LIT_5_6[1]],
   realistic: [...T.realistic, ...RC_LIT_3_4, RC_LIT_5_6[1], RC_LIT_5_6[2]],
   animals: [...T.animals, RC_INFO_3_4[0], RC_INFO_3_4[2]], food: T.food, art: [...T.art, RC_INFO_5_6[2]],
@@ -114,7 +132,7 @@ export const RC_SPECS = [
   sk('RcFb', "Read Aesop's fables", RC, G(2, 4), passageGen(CL_FABLES)),
   sk('RcNv', 'Read from classic novels', RC, G(5, 12), passageGen(CL_NOVELS)),
   sk('RcSs', 'Read classic short stories', RC, G(7, 10), passageGen(CL_STORIES)),
-  sk('RcFp', 'Read famous poems', RC, G(5, 12), passageGen(CL_POEMS)),
+  sk('RcFp', 'Read famous poems', RC, G(2, 12), passageGen(CL_POEMS)),
   sk('RcSh', 'Read Shakespeare', RC, G(8, 12), passageGen(CL_SHAKESPEARE)),
   sk('RcNn', 'Read classic nonfiction: memoirs, science and travel', RC, G(4, 12), passageGen(CL_NONFIC)),
   sk('RcEs', 'Read classic essays and speeches', RC, G(7, 12), passageGen(CL_ESSAYS)),

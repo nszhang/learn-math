@@ -9,7 +9,7 @@ bash fetch.sh                       # downloads the source books (*.txt, not com
 python3 build.py ../../src/catalog/eng/rc/classics.js
 ```
 
-- `spec_a.py` (Grades 1–6), `spec_b.py` (Grades 7–12) and `spec_c.py` (nonfiction, essays, speeches): each passage is a start and end phrase in
+- `spec_a.py` (Grades 1–6), `spec_b.py` (Grades 7–12) and `spec_c.py` (nonfiction, essays, speeches) and `spec_d.py` (classic poems): each passage is a start and end phrase in
   the book plus its questions. The text itself is always extracted from the book, never typed in.
 - `build.py` refuses to build if any quotation in an explanation is not found in its passage,
   if a passage is over 520 words, or if a question's options are malformed.

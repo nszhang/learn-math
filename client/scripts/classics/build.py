@@ -3,15 +3,17 @@ sys.path.insert(0, '.')
 from ex import ex
 import spec_b  # noqa: F401  (registers passages into spec_a.A)
 import spec_c  # noqa: F401  (nonfiction, essays and speeches)
+import spec_d  # noqa: F401  (classic poems)
 from spec_a import A
 
-FULL = {'shadow', 'hope', 'flanders', 'road', 'sonnet18'}   # complete poems (no "From")
+FULL = {'shadow', 'hope', 'flanders', 'road', 'sonnet18', 'bedsummer', 'swing', 'wind', 'crocodile', 'eagle', 'daffodils', 'woods',
+        'nothinggold', 'ocaptain', 'if', 'tyger', 'ozymandias', 'deathstop', 'sonnet116', 'worldtoomuch', 'redrose', 'mask'}   # complete poems (no "From")
 norm = lambda s: re.sub(r'\s+', ' ', re.sub(r'[^a-z0-9 ]', ' ', s.lower().replace('’', "'").replace('‘', "'").replace("'", ''))).strip()
 
 errors, out = [], {}
 for p in A:
     try:
-        paras = ex(p['f'], p['start'], p['end'], p['poem'], p['nth'])
+        paras = ex(p['f'], p['start'], p['end'], p['poem'], p['nth'], p.get('endnth', 1))
     except SystemExit as e:
         errors.append(f"{p['key']}: {e}"); continue
     if p.get('intro'): paras = [f"[{p['intro']}]"] + paras
@@ -45,9 +47,11 @@ pools = {
   'CL_NOVELS_9_10': ['pip', 'frank', 'utterson', 'gatsby', 'carol', 'morequal'],
   'CL_NOVELS_11_12': ['jane', 'heathcliff', 'frank', 'gatsby', 'utterson', 'pip'],
   'CL_STORIES': ['telltale', 'magi', 'holmes'],
-  'CL_POEMS_5_8': ['hope', 'flanders', 'mcgee'],
-  'CL_POEMS_9_12': ['hope', 'flanders', 'road', 'sonnet18', 'mcgee'],
-  'CL_SHAKESPEARE': ['balcony', 'wherefore', 'tomorrow', 'tobe', 'sonnet18'],
+  'CL_POEMS_2_4': ['shadow', 'bedsummer', 'swing', 'wind', 'crocodile', 'owl', 'eagle'],
+  'CL_POEMS_5_8': ['hope', 'jabberwocky', 'daffodils', 'woods', 'nothinggold', 'ocaptain', 'if', 'eagle', 'tyger', 'raven', 'road', 'wind'],
+  'CL_POEMS_9_12': ['ozymandias', 'deathstop', 'sonnet18', 'sonnet116', 'worldtoomuch', 'tyger', 'raven', 'annabel', 'mask', 'redrose',
+                    'road', 'hope', 'nothinggold', 'if', 'daffodils', 'woods', 'ocaptain', 'flanders'],
+  'CL_SHAKESPEARE': ['balcony', 'wherefore', 'tomorrow', 'tobe', 'sonnet18', 'sonnet116'],
   'CL_NONFIC_4_6': ['keller', 'candle', 'franklin', 'tortoise', 'upfromslavery'],
   'CL_NONFIC_7_8': ['keller', 'candle', 'franklin', 'tortoise', 'upfromslavery', 'river'],
   'CL_NONFIC_9_12': ['river', 'upfromslavery', 'tortoise', 'candle', 'franklin'],

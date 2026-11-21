@@ -3637,6 +3637,1192 @@ const P = {
     "Orwell used farm animals to criticize how revolutions can turn into tyranny."
    ]
   ]
+ },
+ "bedsummer": {
+  "t": "Bed in Summer (1885)",
+  "by": "Robert Louis Stevenson",
+  "p": [
+   "In winter I get up at night\nAnd dress by yellow candle-light.\nIn summer quite the other way,\nI have to go to bed by day.",
+   "I have to go to bed and see\nThe birds still hopping on the tree,\nOr hear the grown-up people's feet\nStill going past me in the street.",
+   "And does it not seem hard to you,\nWhen all the sky is clear and blue,\nAnd I should like so much to play,\nTo have to go to bed by day?"
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What is the child’s problem in summer?",
+    "He has to go to bed while it is still light",
+    [
+     "He cannot sleep at all",
+     "He must get up in the dark",
+     "He is too hot to play"
+    ],
+    "“In summer quite the other way, / I have to go to bed by day.”"
+   ],
+   [
+    "How is winter different from summer for the child?",
+    "In winter he gets up while it is still dark",
+    [
+     "In winter he never sleeps",
+     "In winter he plays outside all night",
+     "There is no difference"
+    ],
+    "“In winter I get up at night / And dress by yellow candle-light.”"
+   ],
+   [
+    "What can the child still hear from his bed?",
+    "Grown-up people’s feet going past in the street",
+    [
+     "Rain on the roof",
+     "His friends calling him",
+     "Music from a party"
+    ],
+    "He hears “the grown-up people's feet / Still going past me in the street.”"
+   ],
+   [
+    "How does the child feel about going to bed early?",
+    "It seems unfair and hard",
+    [
+     "He is happy to rest",
+     "He is scared of the dark",
+     "He does not mind at all"
+    ],
+    "“And does it not seem hard to you … To have to go to bed by day?”"
+   ]
+  ]
+ },
+ "swing": {
+  "t": "The Swing (1885)",
+  "by": "Robert Louis Stevenson",
+  "p": [
+   "How do you like to go up in a swing,\nUp in the air so blue?\nOh, I do think it the pleasantest thing\nEver a child can do!",
+   "Up in the air and over the wall,\nTill I can see so wide,\nRiver and trees and cattle and all\nOver the countryside--",
+   "Till I look down on the garden green,\nDown on the roof so brown--\nUp in the air I go flying again,\nUp in the air and down!"
+  ],
+  "poem": true,
+  "q": [
+   [
+    "How does the child feel about swinging?",
+    "It is the pleasantest thing a child can do",
+    [
+     "It is scary",
+     "It is boring",
+     "It is only for babies"
+    ],
+    "“Oh, I do think it the pleasantest thing / Ever a child can do!”"
+   ],
+   [
+    "What can the child see from high on the swing?",
+    "River, trees, cattle and the countryside",
+    [
+     "The ocean and ships",
+     "A big city",
+     "Only the sky"
+    ],
+    "“River and trees and cattle and all / Over the countryside.”"
+   ],
+   [
+    "Why does the poet repeat “Up in the air”?",
+    "To copy the back-and-forth rhythm of swinging",
+    [
+     "Because he forgot the words",
+     "To show he is falling",
+     "To make the poem sad"
+    ],
+    "The repeated words rise and fall like a swing."
+   ],
+   [
+    "Which word pairs rhyme in the poem?",
+    "swing / thing",
+    [
+     "swing / blue",
+     "air / wall",
+     "trees / brown"
+    ],
+    "“Swing” and “thing” end with the same sound."
+   ]
+  ]
+ },
+ "wind": {
+  "t": "Who Has Seen the Wind? (1872)",
+  "by": "Christina Rossetti",
+  "p": [
+   "Who has seen the wind?\nNeither I nor you:\nBut when the leaves hang trembling\nThe wind is passing thro’.",
+   "Who has seen the wind?\nNeither you nor I:\nBut when the trees bow down their heads\nThe wind is passing by."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "According to the poem, who has seen the wind?",
+    "Nobody — neither you nor I",
+    [
+     "Only the trees",
+     "Only the poet",
+     "Everyone"
+    ],
+    "“Neither I nor you.”"
+   ],
+   [
+    "How can we tell the wind is there?",
+    "By what it does to leaves and trees",
+    [
+     "By its colour",
+     "By its smell",
+     "By its shadow"
+    ],
+    "“When the leaves hang trembling / The wind is passing thro’.”"
+   ],
+   [
+    "What does “the trees bow down their heads” describe?",
+    "Trees bending in the wind",
+    [
+     "Trees being cut down",
+     "Trees saying thank you",
+     "Trees falling asleep"
+    ],
+    "Rossetti gives the trees a human action — personification."
+   ],
+   [
+    "What is the big idea of the poem?",
+    "You can know something is real by its effects, even if you cannot see it",
+    [
+     "Wind is dangerous",
+     "Trees are alive",
+     "Leaves fall in autumn"
+    ],
+    "We never see the wind, but we see what it moves."
+   ]
+  ]
+ },
+ "crocodile": {
+  "t": "How Doth the Little Crocodile (Alice’s Adventures in Wonderland) (1865)",
+  "by": "Lewis Carroll",
+  "p": [
+   "How doth the little crocodile\nImprove his shining tail,\nAnd pour the waters of the Nile\nOn every golden scale!",
+   "“How cheerfully he seems to grin,\nHow neatly spread his claws,\nAnd welcome little fishes in\nWith gently smiling jaws!"
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What does the crocodile pour over his golden scales?",
+    "The waters of the Nile",
+    [
+     "Honey",
+     "Sand",
+     "Rain"
+    ],
+    "He pours “the waters of the Nile / On every golden scale!”"
+   ],
+   [
+    "Why is the crocodile “smiling”?",
+    "He is welcoming little fishes into his mouth to eat them",
+    [
+     "He is happy to see Alice",
+     "He told a joke",
+     "He is a friendly pet"
+    ],
+    "“And welcome little fishes in / With gently smiling jaws!”"
+   ],
+   [
+    "What makes this poem funny?",
+    "It describes a dangerous crocodile in a sweet, gentle way",
+    [
+     "It has no rhymes",
+     "The crocodile cannot swim",
+     "It is about a cat"
+    ],
+    "“Cheerfully,” “neatly” and “gently” make a hunter sound polite."
+   ],
+   [
+    "Which words rhyme in the first verse?",
+    "tail / scale and Nile / crocodile",
+    [
+     "tail / Nile",
+     "crocodile / scale",
+     "grin / claws"
+    ],
+    "Lines 2 and 4 end “tail / scale”; lines 1 and 3 end “crocodile / Nile.”"
+   ]
+  ]
+ },
+ "owl": {
+  "t": "From The Owl and the Pussy-Cat (1871)",
+  "by": "Edward Lear",
+  "p": [
+   "The Owl and the Pussy-Cat went to sea\nIn a beautiful pea-green boat,",
+   "They took some honey, and plenty of money\nWrapped up in a five-pound note.",
+   "The Owl looked up to the stars above,\nAnd sang to a small guitar,",
+   "\"O lovely Pussy! O Pussy, my love,\nWhat a beautiful Pussy you are,\nYou are,\nYou are!\nWhat a beautiful Pussy you are!\"",
+   "Pussy said to the Owl, \"You elegant fowl!\nHow charmingly sweet you sing!",
+   "O let us be married! too long we have tarried:\nBut what shall we do for a ring?\"",
+   "They sailed away for a year and a day,\nTo the land where the Bong-tree grows,",
+   "And there in a wood a Piggy-wig stood,\nWith a ring at the end of his nose,\nHis nose,\nHis nose,\nWith a ring at the end of his nose."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "How did the Owl and the Pussy-Cat travel?",
+    "In a beautiful pea-green boat",
+    [
+     "On a flying carpet",
+     "By train",
+     "On a big whale"
+    ],
+    "They “went to sea / In a beautiful pea-green boat.”"
+   ],
+   [
+    "What did they take with them?",
+    "Some honey and plenty of money",
+    [
+     "A map and a compass",
+     "Bread and cheese",
+     "A ring and a hat"
+    ],
+    "“They took some honey, and plenty of money.”"
+   ],
+   [
+    "What problem did they have when they wanted to marry?",
+    "They had no ring",
+    [
+     "The boat was sinking",
+     "They had no money",
+     "The Owl could not sing"
+    ],
+    "“But what shall we do for a ring?”"
+   ],
+   [
+    "Where did they find a ring?",
+    "On the nose of a Piggy-wig",
+    [
+     "At the bottom of the sea",
+     "In a shop",
+     "In the Owl’s pocket"
+    ],
+    "A Piggy-wig stood “With a ring at the end of his nose.”"
+   ],
+   [
+    "What kind of poem is this?",
+    "A nonsense poem",
+    [
+     "A sad war poem",
+     "A science report",
+     "A sonnet"
+    ],
+    "Lear invents silly words and impossible events, like a Bong-tree."
+   ]
+  ]
+ },
+ "eagle": {
+  "t": "The Eagle (1851)",
+  "by": "Alfred, Lord Tennyson",
+  "p": [
+   "He clasps the crag with hooked hands;\nClose to the sun in lonely lands,\nRing’d with the azure world, he stands.\nThe wrinkled sea beneath him crawls;\nHe watches from his mountain walls,\nAnd like a thunderbolt he falls."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "Where is the eagle at the start of the poem?",
+    "High on a rocky cliff (crag)",
+    [
+     "In a nest in a tree",
+     "Flying over the sea",
+     "In a cage"
+    ],
+    "“He clasps the crag with hooked hands.”"
+   ],
+   [
+    "The eagle has “hooked hands.” Why is this word choice interesting?",
+    "Calling claws “hands” makes the eagle seem almost human",
+    [
+     "Eagles really have hands",
+     "It shows the eagle is old",
+     "It is a spelling mistake"
+    ],
+    "This is personification."
+   ],
+   [
+    "“The wrinkled sea beneath him crawls” suggests …",
+    "the eagle is so high the waves look like slow wrinkles",
+    [
+     "the sea is very old",
+     "the sea is calm and flat",
+     "the eagle is underwater"
+    ],
+    "From far above, big waves look tiny and slow."
+   ],
+   [
+    "What does “like a thunderbolt he falls” describe?",
+    "The eagle diving suddenly and powerfully",
+    [
+     "The eagle being struck by lightning",
+     "A storm starting",
+     "The eagle falling asleep"
+    ],
+    "A simile: fast and powerful, like lightning."
+   ]
+  ]
+ },
+ "jabberwocky": {
+  "t": "From Jabberwocky (Through the Looking-Glass) (1871)",
+  "by": "Lewis Carroll",
+  "p": [
+   "’Twas brillig, and the slithy toves\nDid gyre and gimble in the wabe;\nAll mimsy were the borogoves,\nAnd the mome raths outgrabe.",
+   "“Beware the Jabberwock, my son!\nThe jaws that bite, the claws that catch!\nBeware the Jubjub bird, and shun\nThe frumious Bandersnatch!”",
+   "He took his vorpal sword in hand:\nLong time the manxome foe he sought—\nSo rested he by the Tumtum tree,\nAnd stood awhile in thought.",
+   "And as in uffish thought he stood,\nThe Jabberwock, with eyes of flame,\nCame whiffling through the tulgey wood,\nAnd burbled as it came!",
+   "One, two! One, two! And through and through\nThe vorpal blade went snicker-snack!\nHe left it dead, and with its head\nHe went galumphing back.",
+   "“And hast thou slain the Jabberwock?\nCome to my arms, my beamish boy!\nO frabjous day! Callooh! Callay!”\nHe chortled in his joy."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What happens in the poem?",
+    "A young hero slays a monster called the Jabberwock",
+    [
+     "A boy loses his sword",
+     "A bird builds a nest",
+     "Two friends sail to sea"
+    ],
+    "“The vorpal blade went snicker-snack! / He left it dead.”"
+   ],
+   [
+    "Many words, like “brillig” and “slithy,” are invented. How can readers still follow the story?",
+    "Grammar and context show what the words are doing",
+    [
+     "They are explained in a glossary in the poem",
+     "They are real words from Old English",
+     "They cannot follow it"
+    ],
+    "Even nonsense words sit in normal sentence patterns."
+   ],
+   [
+    "“Snicker-snack” is an example of …",
+    "onomatopoeia",
+    [
+     "a simile",
+     "a metaphor",
+     "alliteration only"
+    ],
+    "It imitates the sound of the blade."
+   ],
+   [
+    "How does the father feel at the end?",
+    "Overjoyed",
+    [
+     "Angry",
+     "Worried",
+     "Bored"
+    ],
+    "“O frabjous day! Callooh! Callay!” He chortled in his joy."
+   ],
+   [
+    "“Chortled” (a word Carroll invented) is probably a mix of …",
+    "chuckle and snort",
+    [
+     "chortle and turtle",
+     "chop and toll",
+     "cheer and startle"
+    ],
+    "Carroll blended words — “portmanteau” words — and “chortle” is now in the dictionary."
+   ]
+  ]
+ },
+ "daffodils": {
+  "t": "I Wandered Lonely as a Cloud (Daffodils) (1807)",
+  "by": "William Wordsworth",
+  "p": [
+   "I wander'd lonely as a cloud\nThat floats on high o'er vales and hills,\nWhen all at once I saw a crowd,\nA host of golden daffodils,\nBeside the lake, beneath the trees,\nFluttering and dancing in the breeze.",
+   "Continuous as the stars that shine\nAnd twinkle on the milky way,\nThey stretch'd in never-ending line\nAlong the margin of a bay:\nTen thousand saw I at a glance\nTossing their heads in sprightly dance.",
+   "The waves beside them danced; but they\nOut-did the sparkling waves in glee:--\nA Poet could not but be gay\nIn such a jocund company!\nI gazed--and gazed--but little thought\nWhat wealth the show to me had brought;",
+   "For oft, when on my couch I lie\nIn vacant or in pensive mood,\nThey flash upon that inward eye\nWhich is the bliss of solitude;\nAnd then my heart with pleasure fills,\nAnd dances with the daffodils."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What does the poet suddenly see?",
+    "A host of golden daffodils",
+    [
+     "A flock of birds",
+     "A rainbow over the lake",
+     "A crowd of people"
+    ],
+    "“When all at once I saw a crowd, / A host of golden daffodils.”"
+   ],
+   [
+    "“I wander'd lonely as a cloud” is an example of …",
+    "a simile",
+    [
+     "a metaphor",
+     "onomatopoeia",
+     "hyperbole"
+    ],
+    "It compares the poet to a cloud using “as.”"
+   ],
+   [
+    "How are the daffodils personified?",
+    "They dance and toss their heads",
+    [
+     "They cry and sleep",
+     "They shout and run",
+     "They read and write"
+    ],
+    "“Tossing their heads in sprightly dance.”"
+   ],
+   [
+    "What is the “wealth” the daffodils brought him?",
+    "A happy memory he can enjoy later",
+    [
+     "Money from selling flowers",
+     "A new garden",
+     "Fame as a poet"
+    ],
+    "“They flash upon that inward eye … And then my heart with pleasure fills.”"
+   ],
+   [
+    "What does the “inward eye” refer to?",
+    "His memory and imagination",
+    [
+     "His glasses",
+     "A camera",
+     "A dream at night"
+    ],
+    "He sees the daffodils again in his mind, “the bliss of solitude.”"
+   ]
+  ]
+ },
+ "woods": {
+  "t": "Stopping by Woods on a Snowy Evening (1923)",
+  "by": "Robert Frost",
+  "p": [
+   "Whose woods these are I think I know.\nHis house is in the village though;\nHe will not see me stopping here\nTo watch his woods fill up with snow.",
+   "My little horse must think it queer\nTo stop without a farmhouse near\nBetween the woods and frozen lake\nThe darkest evening of the year.",
+   "He gives his harness bells a shake\nTo ask if there is some mistake.\nThe only other sound’s the sweep\nOf easy wind and downy flake.",
+   "The woods are lovely, dark and deep,\nBut I have promises to keep,\nAnd miles to go before I sleep,\nAnd miles to go before I sleep."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "Why does the speaker stop?",
+    "To watch the woods fill up with snow",
+    [
+     "His horse is hurt",
+     "He is lost",
+     "He is visiting a friend"
+    ],
+    "He stops “To watch his woods fill up with snow.”"
+   ],
+   [
+    "Why does the horse shake its harness bells?",
+    "It seems to wonder why they stopped where there is no farmhouse",
+    [
+     "It is cold",
+     "It hears a wolf",
+     "It wants to go faster"
+    ],
+    "“To ask if there is some mistake.”"
+   ],
+   [
+    "Why does the speaker not stay?",
+    "He has promises to keep and a long way to go",
+    [
+     "It is too cold",
+     "The owner sees him",
+     "His horse runs off"
+    ],
+    "“But I have promises to keep, / And miles to go before I sleep.”"
+   ],
+   [
+    "Why might Frost repeat the last line?",
+    "To suggest deeper meaning — life’s duties before the final rest",
+    [
+     "He ran out of words",
+     "To show he is lost",
+     "To make the poem longer"
+    ],
+    "The repeated line can mean both a night’s sleep and the end of life."
+   ],
+   [
+    "What is the mood of the poem?",
+    "Quiet and thoughtful",
+    [
+     "Loud and exciting",
+     "Angry",
+     "Silly"
+    ],
+    "“The only other sound’s the sweep / Of easy wind and downy flake.”"
+   ]
+  ]
+ },
+ "nothinggold": {
+  "t": "Nothing Gold Can Stay (1923)",
+  "by": "Robert Frost",
+  "p": [
+   "Nature’s first green is gold,\nHer hardest hue to hold.\nHer early leaf’s a flower;\nBut only so an hour.\nThen leaf subsides to leaf.\nSo Eden sank to grief,\nSo dawn goes down to day.\nNothing gold can stay."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What is the “gold” at the start of the poem?",
+    "The first golden-green buds of spring",
+    [
+     "Real gold coins",
+     "Autumn leaves",
+     "The sun"
+    ],
+    "“Nature’s first green is gold, / Her hardest hue to hold.”"
+   ],
+   [
+    "What happens to the early leaf that is “a flower”?",
+    "It lasts only a short time",
+    [
+     "It lasts forever",
+     "It turns to stone",
+     "It is picked"
+    ],
+    "“But only so an hour.”"
+   ],
+   [
+    "What is the theme of the poem?",
+    "Beautiful things, like youth and new beginnings, do not last",
+    [
+     "Gold is precious",
+     "Leaves are green",
+     "Nature never changes"
+    ],
+    "“Nothing gold can stay.”"
+   ],
+   [
+    "“So dawn goes down to day” means …",
+    "the special beauty of dawn fades into an ordinary day",
+    [
+     "the sun sets in the morning",
+     "day turns into night",
+     "dawn is the best time to wake up"
+    ],
+    "Like the leaf and Eden, the golden moment passes."
+   ]
+  ]
+ },
+ "ocaptain": {
+  "t": "O Captain! My Captain! (1865)",
+  "by": "Walt Whitman",
+  "p": [
+   "O Captain! my Captain! our fearful trip is done,\nThe ship has weather’d every rack, the prize we sought is won,\nThe port is near, the bells I hear, the people all exulting,\nWhile follow eyes the steady keel, the vessel grim and daring;\nBut O heart! heart! heart!\nO the bleeding drops of red,\nWhere on the deck my Captain lies,\nFallen cold and dead.",
+   "O Captain! my Captain! rise up and hear the bells;\nRise up--for you the flag is flung--for you the bugle trills,\nFor you bouquets and ribbon’d wreaths--for you the shores a-crowding,\nFor you they call, the swaying mass, their eager faces turning;\nHere Captain! dear father!\nThis arm beneath your head!\nIt is some dream that on the deck,\nYou’ve fallen cold and dead.",
+   "My Captain does not answer, his lips are pale and still,\nMy father does not feel my arm, he has no pulse nor will,\nThe ship is anchor’d safe and sound, its voyage closed and done,\nFrom fearful trip the victor ship comes in with object won;\nExult O shores, and ring O bells!\nBut I with mournful tread,\nWalk the deck my Captain lies,\nFallen cold and dead."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "Who does the “Captain” stand for?",
+    "President Abraham Lincoln",
+    [
+     "A real sea captain",
+     "Whitman’s father",
+     "A soldier"
+    ],
+    "Whitman wrote it in 1865 after Lincoln was assassinated."
+   ],
+   [
+    "What does the “fearful trip” that is “done” represent?",
+    "The American Civil War",
+    [
+     "A storm at sea",
+     "A long holiday",
+     "A race"
+    ],
+    "The ship has “weather’d every rack, the prize we sought is won.”"
+   ],
+   [
+    "Why is the mood a contrast between joy and grief?",
+    "The crowds celebrate victory while the speaker mourns his captain",
+    [
+     "Everyone is sad",
+     "Everyone is happy",
+     "The ship is sinking"
+    ],
+    "“Exult O shores, and ring O bells! / But I with mournful tread.”"
+   ],
+   [
+    "The whole poem compares the nation to a ship. This is …",
+    "an extended metaphor",
+    [
+     "onomatopoeia",
+     "a simile",
+     "a pun"
+    ],
+    "Ship, voyage and captain stand for the country, the war and the President."
+   ]
+  ]
+ },
+ "if": {
+  "t": "If— (1910)",
+  "by": "Rudyard Kipling",
+  "p": [
+   "If you can keep your head when all about you\nAre losing theirs and blaming it on you;\nIf you can trust yourself when all men doubt you,\nBut make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\nOr being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\nAnd yet don’t look too good, nor talk too wise;",
+   "If you can dream--and not make dreams your master;\nIf you can think--and not make thoughts your aim,\nIf you can meet with Triumph and Disaster\nAnd treat those two impostors just the same;\nIf you can bear to hear the truth you’ve spoken\nTwisted by knaves to make a trap for fools,\nOr watch the things you gave your life to, broken,\nAnd stoop and build ‘em up with worn-out tools;",
+   "If you can make one heap of all your winnings\nAnd risk it on one turn of pitch-and-toss,\nAnd lose, and start again at your beginnings\nAnd never breathe a word about your loss;\nIf you can force your heart and nerve and sinew\nTo serve your turn long after they are gone,\nAnd so hold on when there is nothing in you\nExcept the Will which says to them: ‘Hold on!’",
+   "If you can talk with crowds and keep your virtue,\nOr walk with Kings--nor lose the common touch,\nIf neither foes nor loving friends can hurt you,\nIf all men count with you, but none too much;\nIf you can fill the unforgiving minute\nWith sixty seconds’ worth of distance run,\nYours is the Earth and everything that’s in it,\nAnd--which is more--you’ll be a Man, my son!"
+  ],
+  "poem": true,
+  "q": [
+   [
+    "Who is the speaker addressing?",
+    "His son",
+    [
+     "A king",
+     "A crowd of soldiers",
+     "His teacher"
+    ],
+    "The poem ends, “you’ll be a Man, my son!”"
+   ],
+   [
+    "“Keep your head when all about you / Are losing theirs” means …",
+    "stay calm when others panic",
+    [
+     "wear a helmet",
+     "do not fall asleep",
+     "agree with everyone"
+    ],
+    "Losing your head means losing control."
+   ],
+   [
+    "Why does Kipling call Triumph and Disaster “impostors”?",
+    "Neither success nor failure should change who you are",
+    [
+     "They are real people",
+     "They are tricks played by friends",
+     "They always lie"
+    ],
+    "Treat “those two impostors just the same.”"
+   ],
+   [
+    "What structure does the poem use?",
+    "A long series of “If” conditions leading to one conclusion",
+    [
+     "A conversation between two people",
+     "A list of instructions for a game",
+     "A story told in order"
+    ],
+    "Every condition builds toward “Yours is the Earth.”"
+   ],
+   [
+    "“Fill the unforgiving minute / With sixty seconds’ worth of distance run” means …",
+    "make every moment count",
+    [
+     "run a race in a minute",
+     "never waste time sleeping",
+     "always be early"
+    ],
+    "Time does not forgive waste, so use all of it."
+   ]
+  ]
+ },
+ "tyger": {
+  "t": "The Tiger (Songs of Experience) (1794)",
+  "by": "William Blake",
+  "p": [
+   "Tiger, tiger, burning bright\nIn the forests of the night,\nWhat immortal hand or eye\nCould frame thy fearful symmetry?",
+   "In what distant deeps or skies\nBurnt the fire of thine eyes?\nOn what wings dare he aspire?\nWhat the hand dare seize the fire?",
+   "And what shoulder and what art\nCould twist the sinews of thy heart?\nAnd, when thy heart began to beat,\nWhat dread hand and what dread feet?",
+   "What the hammer? what the chain?\nIn what furnace was thy brain?\nWhat the anvil? what dread grasp\nDare its deadly terrors clasp?",
+   "When the stars threw down their spears,\nAnd watered heaven with their tears,\nDid He smile His work to see?\nDid He who made the lamb make thee?",
+   "Tiger, tiger, burning bright\nIn the forests of the night,\nWhat immortal hand or eye\nDare frame thy fearful symmetry?"
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What question does the speaker keep asking?",
+    "What kind of creator could make such a fierce tiger",
+    [
+     "Where the tiger lives",
+     "What the tiger eats",
+     "How old the tiger is"
+    ],
+    "“What immortal hand or eye / Could frame thy fearful symmetry?”"
+   ],
+   [
+    "Why does the speaker mention the lamb?",
+    "To wonder whether the same creator made both the gentle and the fierce",
+    [
+     "Because the tiger ate the lamb",
+     "Because lambs are also striped",
+     "To describe a farm"
+    ],
+    "“Did He who made the lamb make thee?”"
+   ],
+   [
+    "“Burning bright” describes the tiger as …",
+    "fiery and dazzling, like a flame in the dark forest",
+    [
+     "actually on fire",
+     "very hot from the sun",
+     "sick with a fever"
+    ],
+    "Its eyes and stripes glow “In the forests of the night.”"
+   ],
+   [
+    "Why does “Could frame” become “Dare frame” in the last stanza?",
+    "The speaker is now awed that anyone would dare create something so terrible",
+    [
+     "It is a misprint",
+     "The tiger has changed",
+     "The poet forgot the first stanza"
+    ],
+    "One changed word turns ability (“could”) into daring."
+   ],
+   [
+    "Which images compare the creator to a blacksmith?",
+    "The hammer, chain, furnace and anvil",
+    [
+     "The stars and spears",
+     "The forests and night",
+     "The lamb and the tiger"
+    ],
+    "“What the hammer? what the chain? / In what furnace was thy brain?”"
+   ]
+  ]
+ },
+ "raven": {
+  "t": "From The Raven (1845)",
+  "by": "Edgar Allan Poe",
+  "p": [
+   "Once upon a midnight dreary, while I pondered, weak and weary,\nOver many a quaint and curious volume of forgotten lore,\nWhile I nodded, nearly napping, suddenly there came a tapping,\nAs of some one gently rapping, rapping at my chamber door.\n“’Tis some visitor,” I muttered, “tapping at my chamber door—\nOnly this, and nothing more.”\nAh, distinctly I remember it was in the bleak December,\nAnd each separate dying ember wrought its ghost upon the floor.\nEagerly I wished the morrow;—vainly I had sought to borrow\nFrom my books surcease of sorrow—sorrow for the lost Lenore—\nFor the rare and radiant maiden whom the angels name Lenore—\nNameless here for evermore.\nAnd the silken sad uncertain rustling of each purple curtain\nThrilled me—filled me with fantastic terrors never felt before;\nSo that now, to still the beating of my heart, I stood repeating\n“’Tis some visitor entreating entrance at my chamber door—\nSome late visitor entreating entrance at my chamber door;—\nThis it is, and nothing more.”"
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What is the speaker doing at the start?",
+    "Reading old books late at night, nearly asleep",
+    [
+     "Walking in a storm",
+     "Writing a letter",
+     "Talking to a friend"
+    ],
+    "He was pondering “Over many a quaint and curious volume of forgotten lore.”"
+   ],
+   [
+    "Why is the speaker sad?",
+    "He is mourning the loss of Lenore",
+    [
+     "He lost his books",
+     "He is ill",
+     "His fire went out"
+    ],
+    "He sought “surcease of sorrow—sorrow for the lost Lenore.”"
+   ],
+   [
+    "“Nearly napping, suddenly there came a tapping” is an example of …",
+    "internal rhyme",
+    [
+     "a simile",
+     "free verse",
+     "understatement"
+    ],
+    "“Napping” and “tapping” rhyme inside the line."
+   ],
+   [
+    "Why does the speaker keep repeating that it is only a visitor?",
+    "To calm his own growing fear",
+    [
+     "He knows exactly who it is",
+     "He is expecting a friend",
+     "He wants the visitor to leave"
+    ],
+    "He repeats it “to still the beating of my heart.”"
+   ],
+   [
+    "What mood do “bleak December” and “dying ember” create?",
+    "Gloomy and eerie",
+    [
+     "Cheerful",
+     "Peaceful",
+     "Silly"
+    ],
+    "Cold, darkness and fading fire set a haunted mood."
+   ]
+  ]
+ },
+ "ozymandias": {
+  "t": "Ozymandias (1818)",
+  "by": "Percy Bysshe Shelley",
+  "p": [
+   "I met a traveller from an antique land\nWho said: Two vast and trunkless legs of stone\nStand in the desert. Near them on the sand\nHalf sunk, a shatter'd visage lies, whose frown\nAnd wrinkled lip and sneer of cold command\nTell that its sculptor well those passions read\nWhich yet survive, stamp'd on these lifeless things,\nThe hand that mock'd them and the heart that fed;\nAnd on the pedestal these words appear:\n\"My name is Ozymandias, king of kings:\nLook on my works, ye Mighty, and despair!\"\nNothing beside remains. Round the decay\nOf that colossal wreck, boundless and bare\nThe lone and level sands stretch far away."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What remains of Ozymandias’s statue?",
+    "Two legs of stone and a broken face half buried in sand",
+    [
+     "The whole statue, perfectly preserved",
+     "Only the pedestal",
+     "Nothing at all"
+    ],
+    "“Two vast and trunkless legs of stone … Half sunk, a shatter'd visage lies.”"
+   ],
+   [
+    "What is ironic about the words on the pedestal?",
+    "He boasts of mighty works, but nothing of them remains",
+    [
+     "The words are misspelled",
+     "They praise the sculptor",
+     "They warn travellers about the desert"
+    ],
+    "“Look on my works, ye Mighty, and despair!” / Nothing beside remains."
+   ],
+   [
+    "What does the sculptor’s work reveal about the king?",
+    "He was proud and cruel — the frown and “sneer of cold command”",
+    [
+     "He was kind and humble",
+     "He was a great artist",
+     "He was young and happy"
+    ],
+    "The sculptor “well those passions read.”"
+   ],
+   [
+    "What is the theme of the poem?",
+    "Power and pride do not last; time destroys all",
+    [
+     "Deserts are beautiful",
+     "Statues should be protected",
+     "Travel teaches us history"
+    ],
+    "“The lone and level sands stretch far away.”"
+   ],
+   [
+    "What poetic form is “Ozymandias”?",
+    "A sonnet (14 lines)",
+    [
+     "A limerick",
+     "A haiku",
+     "A ballad"
+    ],
+    "It has fourteen lines in iambic pentameter."
+   ]
+  ]
+ },
+ "deathstop": {
+  "t": "Because I Could Not Stop for Death (1890)",
+  "by": "Emily Dickinson",
+  "p": [
+   "Because I could not stop for Death,\nHe kindly stopped for me;\nThe carriage held but just ourselves\nAnd Immortality.",
+   "We slowly drove, he knew no haste,\nAnd I had put away\nMy labor, and my leisure too,\nFor his civility.",
+   "We passed the school where children played,\nTheir lessons scarcely done;\nWe passed the fields of gazing grain,\nWe passed the setting sun.",
+   "We paused before a house that seemed\nA swelling of the ground;\nThe roof was scarcely visible,\nThe cornice but a mound.",
+   "Since then 't is centuries; but each\nFeels shorter than the day\nI first surmised the horses' heads\nWere toward eternity."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "How is Death personified in the poem?",
+    "As a polite gentleman driving a carriage",
+    [
+     "As a frightening monster",
+     "As a thief at night",
+     "As a storm"
+    ],
+    "“He kindly stopped for me … For his civility.”"
+   ],
+   [
+    "Who else rides in the carriage?",
+    "Immortality",
+    [
+     "The speaker’s family",
+     "A school class",
+     "No one"
+    ],
+    "“The carriage held but just ourselves / And Immortality.”"
+   ],
+   [
+    "What might the school, the grain and the setting sun stand for?",
+    "The stages of life — childhood, maturity and old age",
+    [
+     "Places the speaker likes",
+     "A trip to the country",
+     "The seasons of farming"
+    ],
+    "The journey passes the whole course of a life."
+   ],
+   [
+    "What is the “house” that “seemed / A swelling of the ground”?",
+    "A grave",
+    [
+     "A farmhouse",
+     "A church",
+     "A school"
+    ],
+    "“The roof was scarcely visible, / The cornice but a mound.”"
+   ],
+   [
+    "What is the tone of the poem toward death?",
+    "Calm and accepting",
+    [
+     "Terrified",
+     "Angry",
+     "Joking"
+    ],
+    "Death is kind and the ride is slow; she feels no haste or fear."
+   ]
+  ]
+ },
+ "sonnet116": {
+  "t": "Sonnet 116 (1609)",
+  "by": "William Shakespeare",
+  "p": [
+   "Let me not to the marriage of true minds\nAdmit impediments. Love is not love\nWhich alters when it alteration finds,\nOr bends with the remover to remove:\nO, no! it is an ever-fixed mark,\nThat looks on tempests and is never shaken;\nIt is the star to every wandering bark,\nWhose worth’s unknown, although his height be taken.\nLove’s not Time’s fool, though rosy lips and cheeks\nWithin his bending sickle’s compass come;\nLove alters not with his brief hours and weeks,\nBut bears it out even to the edge of doom.\nIf this be error and upon me prov’d,\nI never writ, nor no man ever lov’d."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "According to the sonnet, true love …",
+    "does not change when circumstances change",
+    [
+     "fades with time",
+     "needs to be tested often",
+     "is impossible"
+    ],
+    "“Love is not love / Which alters when it alteration finds.”"
+   ],
+   [
+    "Love is called “an ever-fixed mark” and “the star to every wandering bark.” What do these suggest?",
+    "Love is steady and guides us like a lighthouse or the North Star",
+    [
+     "Love is hard to see",
+     "Love is far away",
+     "Love is like a shipwreck"
+    ],
+    "A bark is a ship; the star guides lost ships."
+   ],
+   [
+    "“Love’s not Time’s fool” means …",
+    "love is not ruled by time, even as youth and beauty fade",
+    [
+     "love is foolish",
+     "love wastes time",
+     "time is foolish"
+    ],
+    "Rosy lips and cheeks fall to Time’s “bending sickle,” but love lasts."
+   ],
+   [
+    "How does the final couplet support the poem’s claim?",
+    "If he is wrong, then no one has ever written or loved",
+    [
+     "It admits he is wrong",
+     "It changes the subject",
+     "It asks a question"
+    ],
+    "“If this be error and upon me prov’d, / I never writ, nor no man ever lov’d.”"
+   ]
+  ]
+ },
+ "worldtoomuch": {
+  "t": "The World Is Too Much with Us (1807)",
+  "by": "William Wordsworth",
+  "p": [
+   "The World is too much with us; late and soon,\nGetting and spending, we lay waste our powers;\nLittle we see in Nature that is ours;\nWe have given our hearts away, a sordid boon!",
+   "This Sea that bares her bosom to the moon,\nThe winds that will be howling at all hours\nAnd are up-gather'd now like sleeping flowers,\nFor this, for everything, we are out of tune;",
+   "It moves us not.--Great God! I'd rather be\nA Pagan suckled in a creed outworn,--\nSo might I, standing on this pleasant lea,",
+   "Have glimpses that would make me less forlorn;\nHave sight of Proteus rising from the sea;\nOr hear old Triton blow his wreathed horn."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What does Wordsworth criticize?",
+    "People are too busy getting and spending to notice nature",
+    [
+     "People spend too much time outdoors",
+     "The world is too crowded",
+     "Pagans are wrong"
+    ],
+    "“Getting and spending, we lay waste our powers; / Little we see in Nature that is ours.”"
+   ],
+   [
+    "“We have given our hearts away, a sordid boon!” means …",
+    "we traded our feelings for something cheap and shameful",
+    [
+     "we fell in love",
+     "we gave gifts to charity",
+     "we lost a contest"
+    ],
+    "A sordid boon is a worthless, ugly gift."
+   ],
+   [
+    "Why would the speaker “rather be / A Pagan”?",
+    "Pagans at least felt wonder at nature",
+    [
+     "He dislikes his religion",
+     "Pagans were richer",
+     "He wants to live by the sea"
+    ],
+    "He wants “glimpses that would make me less forlorn.”"
+   ],
+   [
+    "“For this, for everything, we are out of tune” compares people to …",
+    "an instrument that no longer plays in harmony with nature",
+    [
+     "a song nobody likes",
+     "a broken clock",
+     "a quiet sea"
+    ],
+    "We no longer respond to the sea, the moon and the winds."
+   ]
+  ]
+ },
+ "redrose": {
+  "t": "A Red, Red Rose (1794)",
+  "by": "Robert Burns",
+  "p": [
+   "O my Luve's like a red, red rose\nThat's newly sprung in June:\nO my Luve's like the melodie\nThat's sweetly play'd in tune.",
+   "As fair art thou, my bonnie lass,\nSo deep in luve am I:\nAnd I will luve thee still, my dear,\nTill a' the seas gang dry:",
+   "Till a' the seas gang dry, my Dear,\nAnd the rocks melt wi' the sun;\nI will luve thee still, my dear,\nWhile the sands o' life shall run.",
+   "And fare thee weel, my only Luve!\nAnd fare thee weel a while!\nAnd I will come again, my Luve\nTho' it were ten thousand mile."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "To what two things does the speaker compare his love?",
+    "A red rose newly sprung in June, and a sweet melody",
+    [
+     "The sun and the moon",
+     "The sea and the sand",
+     "A star and a candle"
+    ],
+    "“O my Luve's like a red, red rose … O my Luve's like the melodie.”"
+   ],
+   [
+    "How long will his love last?",
+    "Until the seas go dry and the rocks melt",
+    [
+     "Until June",
+     "Until they are married",
+     "For one year"
+    ],
+    "“Till a' the seas gang dry … And the rocks melt wi' the sun.”"
+   ],
+   [
+    "“Till a' the seas gang dry” is an example of …",
+    "hyperbole",
+    [
+     "understatement",
+     "onomatopoeia",
+     "irony"
+    ],
+    "The seas will never go dry — he exaggerates to show his love is endless."
+   ],
+   [
+    "Why does the poem use spellings like “Luve” and “gang”?",
+    "Burns wrote in Scots dialect",
+    [
+     "They are spelling mistakes",
+     "They are invented words",
+     "They show the speaker is a child"
+    ],
+    "Burns was Scotland’s national poet."
+   ]
+  ]
+ },
+ "annabel": {
+  "t": "From Annabel Lee (1849)",
+  "by": "Edgar Allan Poe",
+  "p": [
+   "It was many and many a year ago,\nIn a kingdom by the sea,\nThat a maiden lived whom you may know\nBy the name of ANNABEL LEE;—\nAnd this maiden she lived with no other thought\nThan to love and be loved by me.\n<em>I</em> was a child and <em>She</em> was a child,\nIn this kingdom by the sea,\nBut we loved with a love that was more than love—\nI and my ANNABEL LEE—\nWith a love that the wingéd seraphs of Heaven\nCoveted her and me."
+  ],
+  "poem": true,
+  "q": [
+   [
+    "Where does the story of the poem take place?",
+    "In a kingdom by the sea",
+    [
+     "In a dark forest",
+     "In a castle in the mountains",
+     "In a big city"
+    ],
+    "“In a kingdom by the sea.”"
+   ],
+   [
+    "How old were the speaker and Annabel Lee when they loved?",
+    "They were both children",
+    [
+     "They were old",
+     "He was a king and she a queen",
+     "The poem does not say"
+    ],
+    "“I was a child and She was a child.”"
+   ],
+   [
+    "What does it mean that the angels “coveted” their love?",
+    "The angels were jealous of it",
+    [
+     "The angels protected it",
+     "The angels did not notice",
+     "The angels sang about it"
+    ],
+    "To covet is to want what someone else has."
+   ],
+   [
+    "What is the effect of repeating “In this kingdom by the sea”?",
+    "It creates a musical, dreamlike, fairy-tale feeling",
+    [
+     "It shows he forgot the line",
+     "It makes the poem funny",
+     "It gives directions"
+    ],
+    "Poe uses repetition like a song’s refrain."
+   ]
+  ]
+ },
+ "mask": {
+  "t": "We Wear the Mask (1896)",
+  "by": "Paul Laurence Dunbar",
+  "p": [
+   "We wear the mask that grins and lies,\nIt hides our cheeks and shades our eyes,--\nThis debt we pay to human guile;\nWith torn and bleeding hearts we smile,\nAnd mouth with myriad subtleties.",
+   "Why should the world be over-wise,\nIn counting all our tears and sighs?\nNay, let them only see us, while\nWe wear the mask.",
+   "We smile, but, O great Christ, our cries\nTo thee from tortured souls arise.\nWe sing, but oh the clay is vile\nBeneath our feet, and long the mile;\nBut let the world dream otherwise,\nWe wear the mask!"
+  ],
+  "poem": true,
+  "q": [
+   [
+    "What does the “mask” hide?",
+    "Pain and suffering behind a smiling face",
+    [
+     "A real face covering",
+     "A crime",
+     "A joke"
+    ],
+    "“With torn and bleeding hearts we smile.”"
+   ],
+   [
+    "Why does the speaker say the world should not be “over-wise”?",
+    "The world does not need to see all their tears and sighs",
+    [
+     "The world is already too clever",
+     "People should study less",
+     "Masks are illegal"
+    ],
+    "“In counting all our tears and sighs? / Nay, let them only see us, while / We wear the mask.”"
+   ],
+   [
+    "Dunbar was the son of formerly enslaved parents. Whose experience does “we” most likely speak for?",
+    "African Americans facing racism and hardship",
+    [
+     "Actors in a theatre",
+     "Children at a party",
+     "Soldiers in a war"
+    ],
+    "The mask is the smile they had to show a hostile world."
+   ],
+   [
+    "What is the tone of the last stanza?",
+    "Anguished but defiant",
+    [
+     "Cheerful",
+     "Indifferent",
+     "Comic"
+    ],
+    "“Our cries / To thee from tortured souls arise … We wear the mask!”"
+   ]
+  ]
  }
 };
 
@@ -3648,9 +4834,10 @@ export const CL_NOVELS_7_8 = [P.carol, P.callwild, P.crusoe, P.fogg, P.treasure,
 export const CL_NOVELS_9_10 = [P.pip, P.frank, P.utterson, P.gatsby, P.carol, P.morequal];
 export const CL_NOVELS_11_12 = [P.jane, P.heathcliff, P.frank, P.gatsby, P.utterson, P.pip];
 export const CL_STORIES = [P.telltale, P.magi, P.holmes];
-export const CL_POEMS_5_8 = [P.hope, P.flanders, P.mcgee];
-export const CL_POEMS_9_12 = [P.hope, P.flanders, P.road, P.sonnet18, P.mcgee];
-export const CL_SHAKESPEARE = [P.balcony, P.wherefore, P.tomorrow, P.tobe, P.sonnet18];
+export const CL_POEMS_2_4 = [P.shadow, P.bedsummer, P.swing, P.wind, P.crocodile, P.owl, P.eagle];
+export const CL_POEMS_5_8 = [P.hope, P.jabberwocky, P.daffodils, P.woods, P.nothinggold, P.ocaptain, P.if, P.eagle, P.tyger, P.raven, P.road, P.wind];
+export const CL_POEMS_9_12 = [P.ozymandias, P.deathstop, P.sonnet18, P.sonnet116, P.worldtoomuch, P.tyger, P.raven, P.annabel, P.mask, P.redrose, P.road, P.hope, P.nothinggold, P.if, P.daffodils, P.woods, P.ocaptain, P.flanders];
+export const CL_SHAKESPEARE = [P.balcony, P.wherefore, P.tomorrow, P.tobe, P.sonnet18, P.sonnet116];
 export const CL_NONFIC_4_6 = [P.keller, P.candle, P.franklin, P.tortoise, P.upfromslavery];
 export const CL_NONFIC_7_8 = [P.keller, P.candle, P.franklin, P.tortoise, P.upfromslavery, P.river];
 export const CL_NONFIC_9_12 = [P.river, P.upfromslavery, P.tortoise, P.candle, P.franklin];

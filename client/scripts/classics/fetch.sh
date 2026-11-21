@@ -13,3 +13,6 @@ get 1 declaration; get 2944 emerson; get 575 bacon; get 1080 swift; get 3420 wol
 # George Orwell (d. 1950): public domain in Canada/Australia, not the US — from Project Gutenberg Australia
 for p in "ebooks02/0200141.txt orwell_elephant" "ebooks02/0200151.txt orwell_politics" "ebooks01/0100011.txt orwell_animalfarm"; do
   set -- $p; curl -sSL -m 40 "http://gutenberg.net.au/$1" -o "$2.txt" && echo "ok $2"; done
+# classic poems
+get 19221 golden; get 1934 blake; get 12 lookingglass; get 76703 singsong; get 1322 leaves; get 58611 frostnh; get 556 kipling_rewards
+get 8601 tennyson; get 18338 dunbar; get 20113 lear; get 25525 poe_raven

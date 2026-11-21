@@ -2,9 +2,9 @@
 # Each: (key, file, start, end, title, author, year, questions[, poem, nth])
 # question = (question, answer, [wrong, wrong, wrong], explanation)
 A = []
-def P(key, f, start, end, t, by, year, q, poem=False, nth=1, intro=None):
+def P(key, f, start, end, t, by, year, q, poem=False, nth=1, intro=None, endnth=1):
     # intro: an optional bracketed context note shown before the excerpt (our words, not the author's)
-    A.append(dict(key=key, f=f, start=start, end=end, t=t, by=by, year=year, q=q, poem=poem, nth=nth, intro=intro))
+    A.append(dict(key=key, f=f, start=start, end=end, t=t, by=by, year=year, q=q, poem=poem, nth=nth, intro=intro, endnth=endnth))
 
 # ---------------- Aesop (Townsend translation, 1867) — Grades 2–4 ----------------
 P('ants', 'aesop', 'THE ANTS were spending a fine winter’s day', 'dance supperless to bed in the winter.”', 'The Ants and the Grasshopper', 'Aesop (translated by George Fyler Townsend)', 1867, [
