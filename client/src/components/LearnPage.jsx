@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useNavState } from '../nav.js';
 import LinearSolveAnimator from './learn/LinearSolveAnimator.jsx';
 import ExpLogAnimator from './learn/ExpLogAnimator.jsx';
 import LineGraph from './learn/LineGraph.jsx';
@@ -62,7 +62,7 @@ const LESSONS = {};
 GROUPS.forEach(g => g.lessons.forEach(l => { LESSONS[l.id] = { ...l, group: g.name }; }));
 
 export default function LearnPage({ toast, fireConfetti, initialOpen = null, myGrade = null, onPractice = null }) {
-  const [open, setOpen] = useState(initialOpen);
+  const [open, setOpen] = useNavState('lesson', initialOpen);   // a history step: Back closes the lesson
 
   if (open) {
     const L = LESSONS[open];

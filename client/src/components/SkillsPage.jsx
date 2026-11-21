@@ -6,6 +6,7 @@ import { api } from '../api.js';
 import { dueWords, KNOWN_BOX } from './ReviewPage.jsx';
 import { HSK } from '../catalog/zh/hsk.js';
 import { clickable } from '../a11y.js';
+import { useNavState } from '../nav.js';
 
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
 const gradeEmoji = n => (n < 0 ? '🧸' : n === 0 ? '🎒' : n === 13 ? '∫' : GRADE_EMOJI[n - 1]);
@@ -23,20 +24,23 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
     if (hsk && isStudent) api('GET', '/api/review').then(r => setDeck(r.words)).catch(() => setDeck(null));
   }, [hsk, isStudent]);
   const gradeKey = subject.id === 'math' ? 'mm_grade' : 'mm_grade_' + subject.id; // math keeps its original key
-  const [gradeNum, setGradeNum] = useState(() => {
+  const startGrade = (() => {
     const raw = localStorage.getItem(gradeKey), saved = raw === null ? NaN : Number(raw);   // grade 0 (Kindergarten) is valid, so don't treat "missing" as 0
     if (GRADES.some(g => g.num === saved)) return saved;
     return GRADES.some(g => g.num === myGrade) ? myGrade : null;   // else open on the student's own grade
-  });
+  })();
+  // the open grade is a history step, so Back returns to the grade list
+  const [gradeNum, setGradeNum] = useNavState('grade:' + subject.id, startGrade);
   const [openSections, setOpenSections] = useState(() => new Set());
+  useEffect(() => {   // remember the grade (also when Back/Forward changed it); a new grade starts collapsed
+    if (gradeNum === null) localStorage.removeItem(gradeKey);
+    else localStorage.setItem(gradeKey, String(gradeNum));
+    setOpenSections(new Set());
+  }, [gradeNum, gradeKey]);
   const hwSkills = homeworkSkillIdsToday(homework);
   const scoreOf = id => me?.skillProgress?.find(p => p.skill_id === id)?.score || 0;
 
-  function pickGrade(n) {
-    setGradeNum(n);
-    localStorage.setItem(gradeKey, String(n));
-    setOpenSections(new Set());
-  }
+  const pickGrade = n => setGradeNum(n);
   function toggleSection(id) {
     setOpenSections(s => { const n = new Set(s); n.has(id) ? n.delete(id) : n.add(id); return n; });
   }
@@ -144,7 +148,7 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
   return (
     <main className="page">
       <div className="page-head grade-head">
-        <button className="btn btn-ghost" type="button" onClick={() => { setGradeNum(null); localStorage.removeItem(gradeKey); }}>
+        <button className="btn btn-ghost" type="button" onClick={() => setGradeNum(null)}>
           ← All {hsk ? 'levels' : 'grades'}
         </button>
         <div>

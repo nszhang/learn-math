@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { useNavState } from '../nav.js';
 import { api, apiUpload } from '../api.js';
 import { onLiveEvent } from '../events.js';
 import { ChallengeCard, NewChallenge } from './Challenges.jsx';
@@ -18,7 +19,7 @@ const RELATION = { classmate: '🎒 classmate', teacher: '🧑‍🏫 teacher', 
 export default function MessagesPage({ me, homework, toast, onPlay, initialContact = null, onInboxChange }) {
   const meId = me?.user?.id, isStudent = me?.user?.role === 'student';
   const [threads, setThreads] = useState(null);
-  const [openId, setOpenId] = useState(initialContact);
+  const [openId, setOpenId] = useNavState('chat', initialContact);   // a history step: Back closes the chat
   const [conv, setConv] = useState(null);       // { messages, challenges }
   const [text, setText] = useState('');
   const [challengeFor, setChallengeFor] = useState(null);

@@ -1,5 +1,6 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { api, setToken } from './api.js';
+import { useNavState, canGoBack } from './nav.js';
 import { SUBJECTS, SKILL_INDEX, gradeLabel } from './skills.js';
 import Auth from './components/Auth.jsx';
 import SkillsPage from './components/SkillsPage.jsx';
@@ -31,19 +32,26 @@ function ToastList({ toasts }) {
   );
 }
 
+// pages each role may be on; the first is that role's home
+const PAGES = {
+  student: ['home', 'english', 'science', 'chinese', 'homework', 'learn', 'dashboard', 'awards', 'messages', 'challenges'],
+  teacher: ['students', 'assign', 'learn', 'messages'],
+  admin: ['admin', 'learn', 'messages']
+};
+
 export default function App() {
   const [user, setUser] = useState(() => JSON.parse(localStorage.getItem('mm_user') || 'null'));
-  const [page, setPage] = useState('home');
+  // the current page is kept in browser history so Back/Forward move between app pages
+  const [view, setView] = useNavState('view', { page: null, practice: null, learn: null, chat: null }, { top: true });
+  const { page, practice: practiceCfg, learn: learnOpen, chat: chatWith } = view;
+  const go = (pg, extra = {}, opts) => setView({ page: pg, practice: null, learn: null, chat: null, ...extra }, opts);
   const [me, setMe] = useState(null);
   const [loadError, setLoadError] = useState(null);
   const [homework, setHomework] = useState(null);
   const [toasts, setToasts] = useState([]);
-  const [practiceCfg, setPracticeCfg] = useState(null);
-  const [learnOpen, setLearnOpen] = useState(null);   // lesson to open when jumping to Learn
   const [confettiTick, setConfettiTick] = useState(0);
   const [showChpw, setShowChpw] = useState(false);
   const [inbox, setInbox] = useState({ unread: 0, pendingChallenges: 0 });
-  const [chatWith, setChatWith] = useState(null);     // contact to open when jumping to Messages
 
   const toast = useCallback((emoji, msg) => {
     const id = Math.random().toString(36);
@@ -81,11 +89,23 @@ export default function App() {
 
   useEffect(() => {
     if (user) {
-      setPage(user.role === 'student' ? 'home' : user.role === 'teacher' ? 'students' : 'admin');
+      // keep the page across a reload (but not a half-done practice run); otherwise start at the role's home
+      if (!PAGES[user.role].includes(page)) go(PAGES[user.role][0], {}, { replace: true });
+      else if (practiceCfg) setView({ ...view, practice: null }, { replace: true });
       refreshMe();
       if (user.role === 'student') refreshHomework();
     }
-  }, [user, refreshMe, refreshHomework]);
+  }, [user, refreshMe, refreshHomework]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // practice saves as it goes; refresh stars, homework and badges whenever it ends (button or Back)
+  const wasPracticing = useRef(false);
+  useEffect(() => {
+    if (wasPracticing.current && !practiceCfg && user) {
+      refreshMe(); refreshInbox();
+      if (user.role === 'student') refreshHomework();
+    }
+    wasPracticing.current = !!practiceCfg;
+  }, [practiceCfg]); // eslint-disable-line react-hooks/exhaustive-deps
 
   function onAuth({ token, user: u }) {
     setToken(token);
@@ -95,7 +115,8 @@ export default function App() {
   function logout() {
     setToken(null);
     localStorage.removeItem('mm_user');
-    setUser(null); setMe(null); setHomework(null); setPracticeCfg(null);
+    setUser(null); setMe(null); setHomework(null);
+    go(null, {}, { replace: true });
   }
 
   if (!user) {
@@ -115,24 +136,25 @@ export default function App() {
       : [['home', '➗ Math'], ['english', '📖 English'], ['science', '🔬 Science'], ['chinese', '🀄 Chinese'], ['homework', '📝 Homework'], ['learn', '🎓 Learn'], ['dashboard', '📊 My Progress'], ['awards', '🏆 Awards']];
   // Messages and Challenges sit next to the stars as icon buttons with badges (keeps the nav short)
   const social = [['messages', '💬', 'Messages', inbox.unread], ...(user.role === 'student' ? [['challenges', '⚔️', 'Challenges', inbox.pendingChallenges]] : [])];
-  const goTo = id => { setPracticeCfg(null); setLearnOpen(null); setChatWith(null); setPage(id); };
+  const goTo = id => go(id);
+  const startPractice = cfg => setView({ ...view, practice: cfg });
 
-  const startSkill = skillId => setPracticeCfg({ mode: 'skill', skillId });
-  const startHomework = assignment => setPracticeCfg({ mode: 'homework', assignment });
+  const startSkill = skillId => startPractice({ mode: 'skill', skillId });
+  const startHomework = assignment => startPractice({ mode: 'homework', assignment });
   // race a challenge: the player's own side supplies progress so far
   const startChallenge = c => {
     const mine = c.challenger.id === me?.user?.id ? c.challenger : c.opponent;
-    setPracticeCfg({ mode: 'challenge', assignment: { id: c.id, title: c.title, items: c.items, progress: mine.progress, done: mine.done, total: mine.total } });
+    startPractice({ mode: 'challenge', assignment: { id: c.id, title: c.title, items: c.items, progress: mine.progress, done: mine.done, total: mine.total } });
   };
-  const openChat = contactId => { setPracticeCfg(null); setChatWith(contactId); setPage('messages'); };
+  const openChat = contactId => go('messages', { chat: contactId });
+  const openLesson = lesson => go('learn', { learn: lesson });
 
+  // leaving practice goes Back to the page it was started from
   function exitPractice(cfg) {
-    setPracticeCfg(null);
-    refreshMe();
-    if (user.role === 'student') refreshHomework();
+    if (canGoBack()) return window.history.back();
     const subj = cfg.mode === 'skill' ? SKILL_INDEX[cfg.skillId]?.subject.id : null;
-    if (cfg.mode === 'challenge') { refreshInbox(); return setPage('challenges'); }
-    setPage(cfg.mode === 'homework' ? 'homework' : subj && subj !== 'math' ? subj : 'home');
+    go(cfg.mode === 'challenge' ? 'challenges' : cfg.mode === 'homework' ? 'homework'
+      : cfg.mode === 'review' ? 'chinese' : subj && subj !== 'math' ? subj : 'home', {}, { replace: true });
   }
 
   return (<CallProvider me={me} toast={toast}>
@@ -140,7 +162,7 @@ export default function App() {
     {showChpw && <ChangePassword onClose={() => setShowChpw(false)} toast={toast} />}
     <header className="topbar">
       <button type="button" className="brand brand-sm brand-link" title="Go to home page"
-        onClick={() => { setPracticeCfg(null); setPage(homePage); }}>
+        onClick={() => go(homePage)}>
         <span className="brand-logo">A+</span>
         <span className="brand-name">Learn<span className="brand-accent">Ace</span></span>
       </button>
@@ -170,11 +192,11 @@ export default function App() {
     </header>
 
     {practiceCfg?.mode === 'review' ? (
-      <ReviewPage toast={toast} fireConfetti={fireConfetti} onExit={() => { setPracticeCfg(null); refreshMe(); setPage('chinese'); }} />
+      <ReviewPage toast={toast} fireConfetti={fireConfetti} onExit={() => exitPractice(practiceCfg)} />
     ) : practiceCfg ? (
       <PracticePage cfg={practiceCfg} me={me} toast={toast}
         fireConfetti={fireConfetti} onExit={() => exitPractice(practiceCfg)}
-        onLearn={lesson => { setPracticeCfg(null); setLearnOpen(lesson); setPage('learn'); }} />
+        onLearn={openLesson} />
     ) : (<>
       {loadError && !me && (
         <main className="page">
@@ -190,8 +212,8 @@ export default function App() {
         <SkillsPage key={subj.id} subject={subj} me={me} homework={homework}
           onStartSkill={startSkill} onStartHomework={startHomework} toast={toast}
           onLevelChanged={() => { refreshMe(); refreshHomework(); }}
-          onLearn={lesson => { setLearnOpen(lesson); setPage('learn'); }}
-          onStartReview={() => setPracticeCfg({ mode: 'review' })} />))}
+          onLearn={openLesson}
+          onStartReview={() => startPractice({ mode: 'review' })} />))}
       {page === 'homework' && <HomeworkPage homework={homework} onStart={startHomework} />}
       {page === 'learn' && <LearnPage key={learnOpen || 'learn'} toast={toast} fireConfetti={fireConfetti} initialOpen={learnOpen}
         myGrade={me?.user?.grade ?? null} onPractice={user.role === 'student' ? startSkill : null} />}
