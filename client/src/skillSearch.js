@@ -27,21 +27,18 @@ const SUFFIXES = ['ications', 'ication', 'ations', 'ation', 'ities', 'ity', 'ing
 const strip = w => { for (const suf of SUFFIXES) if (w.endsWith(suf) && w.length - suf.length >= 3) return w.slice(0, -suf.length); return w; };
 export const stem = w => strip(strip(w));   // twice, so multiplying → multiply → multipl matches multiplication
 const words = s => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').match(/[a-z0-9]+|[一-鿿]+/g) || [];
-const stems = s => words(s).map(stem);
+// one word → its search terms (synonym, then stem); used for BOTH queries and skill titles so they always agree
+const termsOf = w => (SYNONYMS[w] || w).split(' ').map(stem);
+const stems = s => words(s).flatMap(termsOf);
 
 /* Turn a sentence into topic stems, plus an optional "grade 9" filter. */
 export function parseQuery(q) {
   let grade = null;
   const text = q.toLowerCase().replace(/\b(?:grade|gr|g)\s*(\d{1,2})\b/, (_, n) => { grade = Number(n); return ' '; })
     .replace(/\bkindergarten\b/, () => { grade = 0; return ' '; });
-  const terms = [];
-  for (const w of words(text)) {
-    if (STOP.has(w)) continue;
-    for (const part of (SYNONYMS[w] || w).split(' ')) {
-      const s = stem(part);
-      if (!terms.includes(s)) terms.push(s);
-    }
-  }
+  const all = words(text), topic = all.filter(w => !STOP.has(w));
+  // only filler words (e.g. "more")? then search for them as typed
+  const terms = [...new Set((topic.length ? topic : all).flatMap(termsOf))];
   return { terms, grade };
 }
 
