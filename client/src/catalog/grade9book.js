@@ -1,7 +1,7 @@
 /* ============================================================
    LearnAce — Grade 9 expansion aligned to the MathLinks 9
    textbook (Canadian Grade 9). Sections mirror the textbook
-   chapters; ids continue the t-series (t104..t125).
+   chapters; ids continue the t-series (t104..t140).
    ============================================================ */
 
 const ri = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
@@ -25,6 +25,20 @@ function mcChoices(correct, distractors) {
   return shuffle(set);
 }
 const S = (id, title, section, icon, gen) => ({ id, title, grade: 9, section, icon, gen });
+
+/* "v = mx + b" as display text with proper signs (variable defaults to n). */
+const linEq = (v, mv, b, x = 'n') => {
+  const slope = mv === 1 ? '' : mv === -1 ? MINUS : fmtNum(mv);
+  const term = `${slope}${x}`;
+  if (b === 0) return `${v} = ${term}`;
+  return `${v} = ${term} ${b > 0 ? '+' : MINUS} ${fmtNum(Math.abs(b))}`;
+};
+/* small x/y table of values */
+const valTable = (xs, ys) => {
+  const cell = v => `<td style="border:1px solid #94a3b8;padding:2px 10px">${fmtNum(v)}</td>`;
+  const head = v => `<th style="border:1px solid #94a3b8;padding:2px 10px">${v}</th>`;
+  return `<table style="border-collapse:collapse;margin:6px 0"><tr>${head('x')}${xs.map(cell).join('')}</tr><tr>${head('y')}${ys.map(cell).join('')}</tr></table>`;
+};
 
 export const GRADE9_BOOK_SKILLS = [
   /* ===== Chapter 1: Symmetry and Surface Area ===== */
@@ -328,5 +342,197 @@ S('t132', 'Chords equidistant from the centre', 'Circle geometry', '⭕', () => 
     answer: 'they are congruent (equal length)',
     choices: mcChoices('they are congruent (equal length)', ['they are parallel', 'one is twice the other', 'they are perpendicular']),
     explain: `💡 Distance from centre ↔ chord length are inversely related: same distance ⇒ same length — <strong>congruent chords</strong>.` };
+}),
+
+/* ===== Chapter 6: Linear relations — 6.1 Representing Patterns ===== */
+S('t133', 'Write an equation for a figure pattern', 'Linear relations', '🧩', () => {
+  const [obj, v] = pick([['toothpicks', 't'], ['tiles', 's'], ['circles', 'c'], ['dots', 'd'], ['sticks', 'k']]);
+  const mv = ri(2, 6);
+  const b0 = ri(Math.max(-3, 3 - mv), 8);   // intercept, keeping figure 1 positive
+  const start = mv + b0;                     // figure 1 count
+  const correct = linEq(v, mv, b0);
+  return { type: 'mc',
+    prompt: `In a pattern, Figure 1 uses ${m(String(start))} ${obj}, and each new figure adds ${m(String(mv))} more. Which equation relates the number of ${obj} ${m(v)} to the figure number ${m('n')}?`,
+    answer: correct,
+    choices: mcChoices(correct, [linEq(v, mv, start), linEq(v, start, mv), linEq(v, mv + 1, b0)]),
+    explain: `The amount <em>added each time</em> is the multiplier: ${v} = ${mv}n + k.<br>
+      Use Figure 1 to find k: ${start} = ${mv}(1) + k → k = ${fmtNum(b0)}.<br>
+      💡 Slope comes from the pattern's growth; the intercept is NOT just the first figure — it's the value at figure 0!` };
+}),
+S('t134', 'Patterns: find the figure number', 'Linear relations', '🔍', () => {
+  const [obj, v] = pick([['toothpicks', 't'], ['tiles', 's'], ['circles', 'c'], ['squares', 's']]);
+  const mv = ri(2, 7);
+  const b0 = ri(Math.max(-2, 2 - mv), 8);
+  if (pick([true, false])) {
+    const n = ri(5, 25), total = mv * n + b0;
+    return { type: 'num',
+      prompt: `A pattern follows the rule ${m(linEq(v, mv, b0))}. Which figure has ${m(String(total))} ${obj}?`,
+      answer: n,
+      explain: `Solve ${total} = ${linEq(v, mv, b0).slice(4)}: ${b0 >= 0 ? `subtract ${b0}` : `add ${Math.abs(b0)}`} → ${total - b0} = ${mv}n → n = ${total - b0} ÷ ${mv} = <strong>${n}</strong>.` };
+  }
+  // "Is it possible?" variant — like 6.1 #4c (could a figure have 2037 toothpicks?)
+  const works = pick([true, false]);
+  let K;
+  if (works) { K = mv * ri(4, 20) + b0; }
+  else { const lo = mv * 3 + b0 + 1, hi = mv * 22 + b0; do { K = ri(lo, hi); } while ((K - b0) % mv === 0); }
+  const nExact = (K - b0) / mv;
+  const loFig = Math.floor(nExact), hiFig = loFig + 1;
+  const no = 'No — no whole-number figure works';
+  return { type: 'mc',
+    prompt: `A pattern follows the rule ${m(linEq(v, mv, b0))}. Jenny claims one figure uses exactly ${m(String(K))} ${obj}. Is she right?`,
+    answer: works ? `Yes — figure ${nExact}` : no,
+    choices: works
+      ? mcChoices(`Yes — figure ${nExact}`, [`Yes — figure ${nExact + 1}`, `Yes — figure ${Math.max(1, nExact - 1)}`, no])
+      : mcChoices(no, [`Yes — figure ${loFig}`, `Yes — figure ${hiFig}`]),
+    explain: works
+      ? `Set ${linEq(v, mv, b0).slice(4)} equal to ${K}: n = (${K} ${b0 >= 0 ? MINUS : '+'} ${Math.abs(b0)}) ÷ ${mv} = ${nExact} — a whole number, so <strong>yes, figure ${nExact}</strong>.`
+      : `n = (${K} ${b0 >= 0 ? MINUS : '+'} ${Math.abs(b0)}) ÷ ${mv} = ${fmtNum(Number(nExact.toFixed(2)))} — not a whole number, so <strong>no figure</strong> uses exactly ${K} ${obj}.<br>💡 A pattern only exists at whole-number figures!` };
+}),
+
+/* ===== Chapter 6: Linear relations — 6.2 Interpreting Graphs ===== */
+S('t135', 'Interpolate or extrapolate?', 'Linear relations', '📉', () => {
+  const ctx = pick([
+    ['wages vs hours worked, with data from 0 h to 8 h', 3.5, 10, 'h of work'],
+    ['fuel used vs distance driven, with data from 0 km to 210 km', 150, 225, 'km'],
+    ['a spring\'s length vs weight, with data from 0 kg to 35 kg', 25, 50, 'kg'],
+    ['profit vs seats sold, with data from 0 to 150 seats', 100, 175, 'seats'],
+    ['continental drift vs time, with data from 0 to 28 years', 17, 40, 'years'],
+    ['medicine dosage vs body weight, with data from 18 kg to 60 kg', 40, 100, 'kg'],
+    ['water pumped from an aquarium vs time, with data from 0 to 120 min', 60, 150, 'min'],
+    ['the cost of Greek salad vs mass, with data from 100 g to 500 g', 350, 800, 'g']
+  ]);
+  const [desc, inVal, outVal, unit] = ctx;
+  const within = pick([true, false]);
+  const val = within ? inVal : outVal;
+  const correct = within ? 'interpolation' : 'extrapolation';
+  return { type: 'mc',
+    prompt: `A graph shows ${m(desc)}. You use the graph to estimate the value at ${m(`${val} ${unit}`)}. This is an example of…`,
+    answer: correct,
+    choices: mcChoices(correct, [within ? 'extrapolation' : 'interpolation', 'a table of values', 'an equation']),
+    explain: within
+      ? `${val} ${unit} lies <em>between</em> the known data values → <strong>interpolation</strong>. 💡 Think "inter" = inside.`
+      : `${val} ${unit} lies <em>beyond</em> the known range of data → <strong>extrapolation</strong>. 💡 Think "extra" = outside.` };
+}),
+S('t136', 'Is interpolation reasonable here?', 'Linear relations', '🤔', () => {
+  const [scenario, correct, why] = pick([
+    ['Estimating the cost of 5.4 pizzas from a graph of cost vs number of pizzas', 'not reasonable', 'You cannot buy 0.4 of a pizza — the number of pizzas must be a whole number.'],
+    ['Estimating the fuel used to drive 225 km from a graph with data up to 210 km', 'reasonable', 'Distance and fuel are continuous — extending the line a little beyond the data makes sense.'],
+    ['Estimating profit for 200 seats from a graph for a 150-seat theatre (data up to 150 seats)', 'not reasonable', 'The theatre only holds 150 people — values beyond that are impossible.'],
+    ['Estimating the wage for 5.5 h of work from a graph with data from 1 h to 8 h', 'reasonable', '5.5 h lies between known values and time is continuous.'],
+    ['Estimating the number of dots in "figure 7.3" of a dot pattern', 'not reasonable', 'Figure numbers are whole numbers — 7.3 makes no sense.'],
+    ['Estimating a spring\'s length under 25 kg from data measured between 0 kg and 35 kg', 'reasonable', '25 kg is inside the measured range and weight is continuous.'],
+    ['Estimating a medicine dose for a 40 kg patient from a graph with data from 18 kg to 60 kg', 'reasonable', '40 kg lies between the measured values — a safe interpolation.'],
+    ['Extrapolating a spring\'s length far past the heaviest weight tested, where the spring is already fully compressed', 'not reasonable', 'Once fully compressed, the spring cannot get shorter — the linear pattern stops.'],
+    ['Estimating how many goals a hockey team will score in 2.5 games from a graph of goals vs games played', 'not reasonable', 'Games are whole events — there is no such thing as half a game played.'],
+    ['Estimating the height of a candle after 45 min of burning from a graph with data from 0 to 90 min', 'reasonable', '45 min lies between measured values and burning time is continuous.'],
+    ['Estimating the cost of 800 g of Greek salad from a graph with data from 100 g to 500 g', 'reasonable', 'Mass is continuous, so extending the line beyond 500 g still makes sense.'],
+    ['Extrapolating the crowd at a concert to 30,000 people from a graph of a 12,000-seat arena', 'not reasonable', 'The arena cannot hold more than its seat capacity — the pattern cannot continue.']
+  ]);
+  return { type: 'mc',
+    prompt: `${m(scenario)}. Is this <strong>reasonable</strong>?`,
+    answer: correct, choices: ['reasonable', 'not reasonable'],
+    explain: `${why}<br>💡 Interpolate/extrapolate only when in-between (or beyond) values actually make sense — "5.4 people" doesn't!` };
+}),
+
+/* ===== Chapter 6: Linear relations — HW 4.1 Writing Equations ===== */
+S('t137', 'Write an equation from words', 'Linear relations', '✍️', () => {
+  const mv = ri(2, 6);
+  let b = ri(2, 9); while (b === mv) b = ri(2, 9);
+  const kind = pick(['plus', 'minus', 'less', 'cost']);
+  if (kind === 'cost') {
+    const r = pick([4, 5, 8, 10, 12, 15]), f = pick([20, 50, 100, 150, 250]);
+    const correct = `C = ${r}n + ${f}`;
+    return { type: 'mc',
+      prompt: `"The <strong>cost</strong> is ${m('$' + r)} per person plus a fixed fee of ${m('$' + f)}." Which equation gives the cost C for n people?`,
+      answer: correct,
+      choices: mcChoices(correct, [`C = ${f}n + ${r}`, `C = ${r + f}n`, `C = ${r}n ${MINUS} ${f}`]),
+      explain: `"Per person" is the rate (multiplies n); the fixed fee is added once: <strong>${correct}</strong>.` };
+  }
+  const sentences = {
+    plus: [`y is equal to ${mv} times x plus ${b}`, linEq('y', mv, b, 'x')],
+    minus: [`y is equal to ${mv} times x minus ${b}`, linEq('y', mv, -b, 'x')],
+    less: [`y is ${b} less than ${mv} times x`, linEq('y', mv, -b, 'x')]
+  };
+  const [sentence, correct] = sentences[kind];
+  const distractors = kind === 'plus'
+    ? [linEq('y', b, mv, 'x'), linEq('y', mv, -b, 'x'), linEq('y', mv + 1, b, 'x')]
+    : [linEq('y', mv, b, 'x'), linEq('y', b, kind === 'less' ? -mv : mv, 'x'), `y = ${b} ${MINUS} ${mv}x`];
+  return { type: 'mc',
+    prompt: `Write an equation: <em>"${m(sentence)}."</em>`,
+    answer: correct,
+    choices: mcChoices(correct, distractors),
+    explain: kind === 'less'
+      ? `"${b} less than ${mv} times x" means START at ${mv}x and take away ${b}: <strong>${correct}</strong>. 💡 "Less than" reverses the order — it's not ${b} − ${mv}x!`
+      : `Multiply x by ${mv}, then ${kind === 'plus' ? 'add' : 'subtract'} ${b}: <strong>${correct}</strong>.` };
+}),
+S('t138', 'Evaluate with decimal and fraction slopes', 'Linear relations', '🧮', () => {
+  const spec = pick([
+    { txt: '1.5', val: 1.5, mult: 2 }, { txt: '0.75', val: 0.75, mult: 4 },
+    { txt: '2/3', val: 2 / 3, mult: 3 }, { txt: '5/2', val: 2.5, mult: 2 },
+    { txt: '1/4', val: 0.25, mult: 4 }, { txt: '4/3', val: 4 / 3, mult: 3 }
+  ]);
+  const b = ri(-8, 8);
+  const x = spec.mult * ri(1, 6) * pick([1, 1, 1, -1]);
+  const y = Number((spec.val * x + b).toFixed(2));
+  const eqTxt = `y = ${spec.txt === '1.5' || spec.txt === '0.75' || spec.txt === '2.5' || spec.txt === '0.25' ? spec.txt : `(${spec.txt})`}x ${b >= 0 ? '+' : MINUS} ${Math.abs(b)}`;
+  if (pick([true, false]) || y === 0) {
+    return { type: 'num',
+      prompt: `Given ${m(eqTxt)}, what is the value of ${m('y')} when ${m(`x = ${fmtNum(x)}`)}?`,
+      answer: y,
+      explain: `Substitute: ${spec.txt} × (${fmtNum(x)}) ${b >= 0 ? '+' : MINUS} ${Math.abs(b)} = ${fmtNum(Number((spec.val * x).toFixed(2)))} ${b >= 0 ? '+' : MINUS} ${Math.abs(b)} = <strong>${fmtNum(y)}</strong>.` };
+  }
+  return { type: 'num',
+    prompt: `Given ${m(eqTxt)}, what is the value of ${m('x')} when ${m(`y = ${fmtNum(y)}`)}?`,
+    answer: x,
+    explain: `Solve for x: ${fmtNum(y)} ${b >= 0 ? MINUS : '+'} ${Math.abs(b)} = ${fmtNum(Number((y - b).toFixed(2)))}, then ÷ ${spec.txt} → x = <strong>${fmtNum(x)}</strong>.` };
+}),
+
+/* ===== Chapter 6: Linear relations — 6.3 Graphing Linear Equations ===== */
+S('t139', 'Equation from a table of values', 'Linear relations', '📋', () => {
+  const mv = pick([-3, -2, 2, 3]);
+  let b0 = ri(-8, 9); while (b0 === 0 || Math.abs(b0) === Math.abs(mv)) b0 = ri(-8, 9);
+  const xs = pick([[0, 1, 2, 3], [-2, -1, 0, 1], [1, 3, 5, 7], [2, 4, 6, 8]]);
+  const ys = xs.map(x => mv * x + b0);
+  const correct = linEq('y', mv, b0, 'x');
+  return { type: 'mc',
+    prompt: `Which equation describes this table of values?${valTable(xs, ys)}`,
+    answer: correct,
+    choices: mcChoices(correct, [linEq('y', b0, mv, 'x'), linEq('y', -mv, b0, 'x'), linEq('y', mv, -b0, 'x')]),
+    explain: `① Rate of change: Δy ÷ Δx = ${fmtNum(ys[1] - ys[0])} ÷ ${xs[1] - xs[0]} = ${fmtNum(mv)} → the multiplier.<br>
+      ② Extend the table back to x = 0: y = ${fmtNum(b0)} → the intercept.<br>
+      💡 Equation: y = (rate)x + (value at x = 0) → <strong>${correct}</strong>.` };
+}),
+S('t140', 'Fixed cost plus rate', 'Linear relations', '🚕', () => {
+  const sc = pick([
+    { text: 'A taxi charges a $2.50 pickup fee plus $0.75 per kilometre', C: 'C', unit: 'd', unitName: 'kilometres', f: 2.5, r: 0.75, money: true },
+    { text: 'A car rental costs a flat $35.00 plus $0.45 per kilometre', C: 'C', unit: 'd', unitName: 'kilometres', f: 35, r: 0.45, money: true },
+    { text: 'A gym charges a $25.00 sign-up fee plus $9.50 per month', C: 'C', unit: 'm', unitName: 'months', f: 25, r: 9.5, money: true },
+    { text: 'Printing jerseys has a one-time setup fee of $20.00 plus $14.95 per jersey', C: 'C', unit: 'j', unitName: 'jerseys', f: 20, r: 14.95, money: true }
+  ]);
+  const kind = pick(['equation', 'cost', 'budget']);
+  const fS = sc.f.toFixed(2), rS = sc.r.toFixed(2);
+  if (kind === 'equation') {
+    const correct = `${sc.C} = ${sc.r}${sc.unit} + ${fS}`;
+    return { type: 'mc',
+      prompt: `${m(sc.text)}. Which equation models the cost ${m(sc.C)}?`,
+      answer: correct,
+      choices: mcChoices(correct, [`${sc.C} = ${fS}${sc.unit} + ${sc.r}`, `${sc.C} = ${sc.r}${sc.unit} ${MINUS} ${fS}`, `${sc.C} = ${(sc.f + sc.r).toFixed(2)}${sc.unit}`]),
+      explain: `Rate per ${sc.unitName.slice(0, -1)} multiplies the variable; the one-time fee is added: <strong>${correct}</strong>.` };
+  }
+  if (kind === 'cost') {
+    const n = ri(5, 30);
+    const ans = Number((sc.f + sc.r * n).toFixed(2));
+    return { type: 'num',
+      prompt: `${m(sc.text)}. What is the total cost (in dollars) for ${m(`${n} ${sc.unitName}`)}?`,
+      answer: ans,
+      explain: `${sc.C} = ${rS} × ${n} + ${fS} = ${(sc.r * n).toFixed(2)} + ${fS} = <strong>$${ans.toFixed(2)}</strong>.` };
+  }
+  // budget: build numbers so the answer is whole
+  const n = ri(6, 30);
+  const B = Number((sc.f + sc.r * n).toFixed(2));
+  return { type: 'num',
+    prompt: `${m(sc.text)}. With ${m('$' + B.toFixed(2))}, how many ${m(sc.unitName)} can you afford?`,
+    answer: n,
+    explain: `Solve ${B.toFixed(2)} = ${rS}${sc.unit} + ${fS}: subtract the fee → ${(B - sc.f).toFixed(2)}, then ÷ ${rS} → <strong>${n} ${sc.unitName}</strong>.<br>💡 Budget problems run the equation <em>backwards</em>!` };
 })
 ];

@@ -192,6 +192,8 @@ const IXL_OLD_PLACEMENT = {
   t126: 'Circles', t127: 'Circles', t128: 'Circles', t129: 'Circles', t130: 'Circles', t131: 'Circles', t132: 'Circles', t123: 'Statistics', t124: 'Statistics', t125: 'Probability',
   elMON9: 'Monomials', expB1: 'Exponents', expB2: 'Exponents', expB3: 'Exponents', expB4: 'Exponents', t112: 'Exponents', t113: 'Exponents', algF1: 'Exponents', algF2: 'Exponents', algF3: 'Exponents',
   elWLE9: 'Linear functions', t78: 'Linear functions', t81: 'Linear functions', t121: 'Number sequences', t122: 'Relations and functions', t80: 'Geometry', t79: 'Numbers',
+  t133: 'Number sequences', t134: 'Number sequences', t135: 'Relations and functions', t136: 'Relations and functions',
+  t137: 'Linear functions', t138: 'Linear functions', t139: 'Linear functions', t140: 'Linear functions',
   elPLY9: 'Polynomials', t76: 'Polynomials', t77: 'Polynomials', t118: 'Polynomials', t119: 'Polynomials', t120: 'Polynomials', t108: 'Numbers', t109: 'Operations', t110: 'Operations', t111: 'Numbers',
   t114: 'Geometry', t115: 'Geometry', t116: 'Geometry', t117: 'Geometry', t106: 'Geometry', t107: 'Geometry', t104: 'Geometry', t105: 'Geometry', t75: 'Systems of linear equations', algG1: 'Systems of linear equations',
   // Grade 10
