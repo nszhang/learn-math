@@ -19,6 +19,7 @@ import { startLiveEvents, stopLiveEvents, onLiveEvent } from './events.js';
 import ChallengesPage from './components/Challenges.jsx';
 import PracticePage from './components/PracticePage.jsx';
 import Confetti from './components/Confetti.jsx';
+import ThemeToggle from './components/ThemeToggle.jsx';
 
 function ToastList({ toasts }) {
   return (
@@ -185,6 +186,7 @@ export default function App() {
         {user.role === 'student' && me?.user?.grade != null && <span className="stars-chip" title="Your grade">🎓 {gradeLabel(me.user.grade)}</span>}
         {user.role === 'student' && <span className="stars-chip">⭐ {me?.user?.stars ?? user.stars}</span>}
         <span className="greeting">Hi, {user.displayName}!</span>
+        <ThemeToggle />
         <button className="btn btn-ghost" type="button" title="Change password"
           onClick={() => setShowChpw(true)}>🔑</button>
         <button className="btn btn-ghost" type="button" onClick={logout}>Log out</button>
