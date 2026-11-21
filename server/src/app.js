@@ -31,8 +31,8 @@ export const SKILL_IDS = [
   'elVIE10', 'elDIF10', 'elCMF10',
   'elINV11', 'elTRG11', 'elSPA11',
   'elCMP12', 'elARS12', 'elGEO12',
-  // expansion batch 2 (t1..t140)
-  ...Array.from({ length: 140 }, (_, i) => 't' + (i + 1)),
+  // expansion batch 2 (t1..t151)
+  ...Array.from({ length: 151 }, (_, i) => 't' + (i + 1)),
   // school topics
   'schN1', 'schN2', 'schN3',
   'schG1', 'schG2', 'schG3', 'schG4', 'schG5', 'schG6', 'schG7',

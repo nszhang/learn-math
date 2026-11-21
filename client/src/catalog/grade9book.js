@@ -1,7 +1,7 @@
 /* ============================================================
    LearnAce — Grade 9 expansion aligned to the MathLinks 9
    textbook (Canadian Grade 9). Sections mirror the textbook
-   chapters; ids continue the t-series (t104..t140).
+   chapters; ids continue the t-series (t104..t151).
    ============================================================ */
 
 import { svg, C } from './ixlMath/h.js';
@@ -26,6 +26,9 @@ function mcChoices(correct, distractors) {
   for (const d of distractors) if (!set.includes(d)) set.push(d);
   return shuffle(set);
 }
+const r2 = x => Number(x.toFixed(2));
+/* 200000000 → "200 000 000" (SI digit grouping for display) */
+const grp = n => { const [i, d] = String(n).split('.'); return i.replace(/\B(?=(\d{3})+$)/g, ' ') + (d ? '.' + d : ''); };
 const S = (id, title, section, icon, gen) => ({ id, title, grade: 9, section, icon, gen });
 
 /* "v = mx + b" as display text with proper signs (variable defaults to n). */
@@ -250,6 +253,352 @@ export const GRADE9_BOOK_SKILLS = [
       answer: ans,
       explain: `Scale factor from ABCD to EFGH: ${s1b} ÷ ${s1} = ${fmtNum(k)}.<br>
         FG = ${s2} × ${fmtNum(k)} = <strong>${fmtNum(ans)}</strong>.` };
+  }),
+
+  /* ===== Chapter 4 (more): Scale factors and similarity — 4.1–4.4, HW 7.1–7.4 ===== */
+  S('t141', 'Enlargement, reduction or same size?', 'Scale factors and similarity', '🔎', () => {
+    const ENL = 'an enlargement', RED = 'a reduction', SAME = 'neither — same size';
+    const kind = pick(['factor', 'factor', 'lengths', 'meaning']);
+    if (kind === 'meaning') {
+      const [k, correct, wrong] = pick([
+        ['10', 'the image is 10 times as large as the original', ['the image is 1/10 the size of the original', 'the image is 10 cm larger', 'the image is the same size']],
+        ['0.001', 'the image is 1/1000 the size of the original', ['the image is 1000 times as large', 'the image is 0.001 cm smaller', 'the image is the same size']],
+        ['1', 'the image is exactly the same size as the original', ['the image is twice as large', 'the image is 1 cm larger', 'the image is 1/10 the size']],
+        ['0.5', 'the image is half the size of the original', ['the image is twice as large', 'the image is 0.5 cm smaller', 'the image is 5 times as large']],
+        ['2.5', 'the image is 2.5 times as large as the original', ['the image is 2.5 cm larger', 'the image is 1/2.5 the size', 'the image is the same size']]
+      ]);
+      return { type: 'mc',
+        prompt: `What does a <strong>scale factor of ${m(k)}</strong> mean?`,
+        answer: correct, choices: mcChoices(correct, wrong),
+        explain: `Scale factor = image length ÷ actual length. A factor of ${k} multiplies every length by ${k}, so <strong>${correct}</strong>.<br>💡 A scale factor has no units — it's a ratio of two lengths in the same unit.` };
+    }
+    if (kind === 'factor') {
+      const [k, v] = pick([['3', 3], ['1.5', 1.5], ['10', 10], ['5/4', 1.25], ['0.25', 0.25], ['0.8', 0.8], ['2/3', 2 / 3], ['0.001', 0.001], ['1/50', 0.02], ['1', 1], ['100%', 1], ['1.05', 1.05], ['0.99', 0.99]]);
+      const correct = v > 1 ? ENL : v < 1 ? RED : SAME;
+      return { type: 'mc',
+        prompt: `A figure is drawn using a <strong>scale factor of ${m(k)}</strong>. Is the image an enlargement or a reduction?`,
+        answer: correct, choices: [ENL, RED, SAME],
+        explain: `Scale factor ${v > 1 ? '&gt; 1 → <strong>enlargement</strong>' : v < 1 ? '&lt; 1 → <strong>reduction</strong>' : '= 1 → <strong>same size</strong> (a congruent copy)'}.<br>💡 Compare the factor to 1: bigger than 1 enlarges, between 0 and 1 reduces.` };
+    }
+    // compare an original and an image length — sometimes in different units
+    const orig = ri(4, 20), k = pick([0.5, 0.8, 1, 1.5, 2, 3, 0.25, 1.2]);
+    const imgCm = Number((orig * k).toFixed(2));
+    const inMm = pick([true, false]);
+    const imgTxt = inMm ? `${fmtNum(Number((imgCm * 10).toFixed(1)))} mm` : `${fmtNum(imgCm)} cm`;
+    const correct = k > 1 ? ENL : k < 1 ? RED : SAME;
+    return { type: 'mc',
+      prompt: `A side of a figure is ${m(`${orig} cm`)}. The matching side of its image is ${m(imgTxt)}. Is the image an enlargement or a reduction?`,
+      answer: correct, choices: [ENL, RED, SAME],
+      explain: `${inMm ? `Same units first: ${imgTxt} = ${fmtNum(imgCm)} cm.<br>` : ''}Scale factor = image ÷ original = ${fmtNum(imgCm)} ÷ ${orig} = ${fmtNum(k)} → <strong>${correct}</strong>.${inMm ? '<br>💡 Always convert to the same unit before comparing!' : ''}` };
+  }),
+  S('t142', 'Convert metric lengths (km, m, cm, mm)', 'Scale factors and similarity', '📏', () => {
+    const MM = { km: 1e6, m: 1e3, cm: 10, mm: 1 };
+    const units = Object.keys(MM);
+    let v, a, b, ans;
+    do {
+      a = pick(units); do { b = pick(units); } while (b === a);
+      v = pick([8, 13, 90, 180, 16.5, 19, 5838, 9292, 0.45, 2.3, 250, 7.25, 3.6, 48, 1200, 0.8]);
+      ans = Number((v * MM[a] / MM[b]).toPrecision(12));
+    } while (ans < 0.001 || ans > 1e8);
+    const bigger = MM[a] > MM[b];
+    const factor = bigger ? MM[a] / MM[b] : MM[b] / MM[a];
+    return { type: 'num',
+      prompt: `Convert: ${m(`${fmtNum(v)} ${a} = ? ${b}`)}`,
+      answer: ans,
+      explain: `1 km = 1000 m, 1 m = 100 cm, 1 cm = 10 mm.<br>
+        1 ${bigger ? a : b} = ${factor} ${bigger ? b : a}, so ${bigger ? `<em>multiply</em> by ${factor}` : `<em>divide</em> by ${factor}`}: ${fmtNum(v)} ${bigger ? '×' : '÷'} ${factor} = <strong>${fmtNum(ans)} ${b}</strong>.<br>
+        💡 ${bigger ? 'Big unit → small unit: the number gets bigger.' : 'Small unit → big unit: the number gets smaller.'}` };
+  }),
+  S('t143', 'Find the scale factor', 'Scale factors and similarity', '🧮', () => {
+    const MM = { km: 1e6, m: 1e3, cm: 10, mm: 1 };
+    const [what, model, av, au, iu, ks] = pick([
+      ['car', 'toy car', 5, 'm', 'cm', [0.036, 0.04, 0.05]],
+      ['giraffe', 'toy giraffe', 6, 'm', 'cm', [0.005, 0.01, 0.025]],
+      ['hotel', 'model hotel', 150, 'm', 'cm', [0.0004, 0.0002, 0.001]],
+      ['ladybug', 'model ladybug', 1.2, 'cm', 'cm', [50, 25, 40]],
+      ['ant', 'model ant', 9, 'mm', 'cm', [100, 50, 20]],
+      ['E. coli bacterium', 'model bacterium', 0.005, 'mm', 'cm', [70000, 40000, 20000]],
+      ['donut', 'giant donut sign', 9, 'cm', 'm', [200, 100, 50]],
+      ['bridge', 'map of the bridge', 1.2, 'km', 'cm', [0.0001, 0.00005]],
+      ['city', 'city map', 40, 'km', 'cm', [0.000005, 0.0000025]]
+    ]);
+    const k = pick(ks);
+    const iv = Number((av * MM[au] * k / MM[iu]).toPrecision(12));
+    const u = MM[iu] < MM[au] ? iu : au;   // compare both lengths in the smaller unit
+    const aU = Number((av * MM[au] / MM[u]).toPrecision(12)), iU = Number((iv * MM[iu] / MM[u]).toPrecision(12));
+    const ratio = k < 0.01;   // tiny factors are written 1 : N
+    const N = Math.round(1 / k);
+    return { type: 'num',
+      prompt: `A real ${what} is ${m(`${fmtNum(av)} ${au}`)} long. A ${model} is ${m(`${fmtNum(iv)} ${iu}`)} long. ${ratio
+        ? `Write the scale as ${m('1 : N')}. What is ${m('N')}?`
+        : 'What is the scale factor? (as a decimal or whole number)'}`,
+      answer: ratio ? N : k,
+      explain: `${iu === au ? '' : `① Same units: ${u === au ? `${fmtNum(iv)} ${iu} = ${grp(iU)} ${u}` : `${fmtNum(av)} ${au} = ${grp(aU)} ${u}`}.<br>
+        ② `}Scale factor = image ÷ actual = ${grp(iU)} ÷ ${grp(aU)} = ${ratio ? `${fmtNum(k)} = 1 ÷ ${grp(N)}, so the scale is <strong>1 : ${grp(N)}</strong>` : `<strong>${fmtNum(k)}</strong>`}.<br>
+        💡 ${k > 1 ? 'Greater than 1 — an enlargement.' : 'Less than 1 — a reduction.'} A scale factor has no units.` };
+  }),
+  S('t144', 'Find the actual size from a scale', 'Scale factors and similarity', '🔭', () => {
+    const MM = { km: 1e6, m: 1e3, cm: 10, mm: 1 };
+    const [desc, av, au, iu, k, asRatio] = pick([
+      ['A drawing of a hockey stick', 147, 'cm', 'cm', 1 / 42, true],
+      ['A map', 11000, 'km', 'cm', 1 / 200000000, true],
+      ['A scale model of a building', 240, 'm', 'cm', 0.0005, false],
+      ['A toy model of a car', 4.8, 'm', 'm', 0.25, false],
+      ['A blueprint of a house', 12, 'm', 'cm', 1 / 300, true],
+      ['A magnified photo of a beetle', 8, 'mm', 'cm', 5, false],
+      ['A microscope image of a cell', 0.05, 'mm', 'cm', 400, false],
+      ['A poster of a honeybee', 1.5, 'cm', 'cm', 12, false],
+      ['A model of a train', 26.1, 'm', 'cm', 1 / 87, true]
+    ]);
+    const iv = Number((av * MM[au] * k / MM[iu]).toPrecision(10));
+    const scaleTxt = asRatio ? `a scale of ${m(`1 : ${grp(Math.round(1 / k))}`)}` : `a scale factor of ${m(fmtNum(k))}`;
+    const actualInIu = Number((iv / k).toPrecision(10));
+    return { type: 'num',
+      prompt: `${desc} uses ${scaleTxt}. On it, the length is ${m(`${fmtNum(iv)} ${iu}`)}. What is the <strong>actual</strong> length in ${m(au)}?`,
+      answer: av,
+      explain: `image = scale factor × actual, so <em>actual = image ÷ scale factor</em>${asRatio ? ` (dividing by 1/${grp(Math.round(1 / k))} = multiplying by ${grp(Math.round(1 / k))})` : ''}.<br>
+        ${fmtNum(iv)} ${iu} ${asRatio ? `× ${grp(Math.round(1 / k))}` : `÷ ${fmtNum(k)}`} = ${iu !== au ? `${grp(actualInIu)} ${iu} = ` : ''}<strong>${grp(av)} ${au}</strong>.` };
+  }),
+  S('t145', 'Corresponding parts of similar triangles', 'Scale factors and similarity', '🔗', () => {
+    const letters = shuffle('ABCDEFGHJKLMNPQRSTUVWXYZ'.split('')).slice(0, 6);
+    const P = letters.slice(0, 3), Q = letters.slice(3);
+    const stmt = `△${P.join('')} ∼ △${Q.join('')}`;
+    const side = (T, i, j) => T[i] + T[j];
+    const pairs = [[0, 1], [1, 2], [0, 2]];
+    const kind = pick(['side', 'side', 'angle', 'ratio']);
+    const [i, j] = pick(pairs);
+    if (kind === 'angle') {
+      const a = ri(0, 2);
+      const correct = `∠${Q[a]}`;
+      return { type: 'mc',
+        prompt: `${m(stmt)}. Which angle is equal to ${m(`∠${P[a]}`)}?`,
+        answer: correct, choices: mcChoices(correct, Q.filter((_, x) => x !== a).map(l => `∠${l}`).concat(`∠${P[(a + 1) % 3]}`)),
+        explain: `Letters in the same position match: ${P.map((l, x) => `${l}↔${Q[x]}`).join(', ')}. So ∠${P[a]} = <strong>${correct}</strong>.<br>💡 Corresponding angles of similar triangles are equal.` };
+    }
+    if (kind === 'ratio') {
+      const correct = `${side(P, 1, 2)}/${side(Q, 1, 2)}`;
+      const wrong = [`${side(P, 1, 2)}/${side(Q, 0, 2)}`, `${side(Q, 1, 2)}/${side(P, 1, 2)}`, `${side(P, 0, 2)}/${side(Q, 0, 1)}`];
+      return { type: 'mc',
+        prompt: `${m(stmt)}. Which ratio is equal to ${m(`${side(P, 0, 1)}/${side(Q, 0, 1)}`)}?`,
+        answer: correct, choices: mcChoices(correct, wrong),
+        explain: `Corresponding sides are proportional: ${side(P, 0, 1)}/${side(Q, 0, 1)} = ${side(P, 1, 2)}/${side(Q, 1, 2)} = ${side(P, 0, 2)}/${side(Q, 0, 2)}.<br>
+          Keep the <em>same triangle on top</em> in every ratio → <strong>${correct}</strong>.` };
+    }
+    const fromFirst = pick([true, false]);
+    const [A, B] = fromFirst ? [P, Q] : [Q, P];
+    const correct = side(B, i, j);
+    const others = pairs.filter(([x, y]) => !(x === i && y === j)).map(([x, y]) => side(B, x, y));
+    return { type: 'mc',
+      prompt: `${m(stmt)}. Which side corresponds to ${m(side(A, i, j))}?`,
+      answer: correct, choices: mcChoices(correct, [...others, side(A, (i + 1) % 3, (j + 1) % 3)]),
+      explain: `Match letters by position: ${P.map((l, x) => `${l}↔${Q[x]}`).join(', ')}.<br>
+        ${A[i]}↔${B[i]} and ${A[j]}↔${B[j]}, so ${side(A, i, j)} corresponds to <strong>${correct}</strong>.` };
+  }),
+  S('t146', 'Are the triangles similar?', 'Scale factors and similarity', '🔺', () => {
+    const YES = 'similar', NO = 'not similar';
+    if (pick([true, false])) {
+      // two angles of each triangle (MathLinks review #16)
+      let x, y; do { x = 5 * ri(6, 18); y = 5 * ri(6, 18); } while (x === y || x + y >= 160);
+      const z = 180 - x - y;
+      let similar = pick([true, false]);
+      const t1 = [x, y];
+      let t2;
+      if (similar) t2 = shuffle(pick([[x, z], [y, z], [x, y]]));
+      else { const d = pick([5, 10, -5, -10]); t2 = shuffle([x, z + d]); }
+      const z2 = 180 - t2[0] - t2[1];
+      similar = [x, y, z].sort().join() === [t2[0], t2[1], z2].sort().join();   // a nudged angle can land on a match
+      return { type: 'mc',
+        prompt: `Two angles of one triangle measure ${m(`${t1[0]}°`)} and ${m(`${t1[1]}°`)}. Two angles of another triangle measure ${m(`${t2[0]}°`)} and ${m(`${t2[1]}°`)}. Are the triangles similar?`,
+        answer: similar ? YES : NO, choices: [YES, NO],
+        explain: `Find each third angle (angles add to 180°):<br>
+          first: ${x}°, ${y}°, ${z}° &nbsp; second: ${t2[0]}°, ${t2[1]}°, ${z2}°.<br>
+          ${similar ? 'All three angles match → <strong>similar</strong>.' : 'The angles don\'t all match → <strong>not similar</strong>.'}<br>💡 Two triangles are similar if corresponding angles are equal.` };
+    }
+    // side lengths (MathLinks 4.3 #5–6)
+    const base = pick([[3, 4, 5], [5, 12, 13], [4, 6, 7], [2, 3, 4], [5, 6, 8], [6, 8, 9], [7, 8, 10]]);
+    const k = pick([1.5, 2, 2.5, 3, 0.5, 4]);
+    const similar = pick([true, false]);
+    const t2 = base.map(s => Number((s * k).toFixed(2)));
+    if (!similar) { const idx = ri(0, 2); t2[idx] = Number((t2[idx] + pick([1, -1, 0.5, 2])).toFixed(2)); }
+    const ratios = base.map((s, idx) => Number((t2[idx] / s).toFixed(3)));
+    return { type: 'mc',
+      prompt: `One triangle has sides ${m(base.join(', '))}. Another has sides ${m(t2.map(fmtNum).join(', '))}. Are the triangles similar?`,
+      answer: similar ? YES : NO, choices: [YES, NO],
+      explain: `Pair shortest with shortest, longest with longest and divide:<br>
+        ${base.map((s, idx) => `${fmtNum(t2[idx])} ÷ ${s} = ${fmtNum(ratios[idx])}`).join(', ')}.<br>
+        ${similar ? `All ratios are equal (scale factor ${fmtNum(k)}) → <strong>similar</strong>.` : 'The ratios are not all equal → <strong>not similar</strong>.'}<br>💡 Similar triangles have proportional corresponding sides.` };
+  }),
+  S('t147', 'Always similar? True or false', 'Scale factors and similarity', '✅', () => {
+    const [stmt, tf, why] = pick([
+      ['All equilateral triangles are similar', true, 'Every angle is 60°, so the angles always match.'],
+      ['All isosceles triangles are similar', false, 'The vertex angle can be anything — a 20°-80°-80° and a 100°-40°-40° triangle are both isosceles.'],
+      ['All isosceles right triangles are similar', true, 'Their angles are always 45°, 45°, 90°.'],
+      ['All right triangles are similar', false, 'Only one angle is fixed at 90° — the other two can change (30°-60° vs 45°-45°).'],
+      ['All squares are similar', true, 'All angles are 90° and all sides are equal, so the side ratios always match.'],
+      ['All rectangles are similar', false, 'A 1 × 2 rectangle and a 1 × 5 rectangle have the same angles but sides that are not proportional.'],
+      ['All rhombuses are similar', false, 'Their sides are proportional, but the angles can change (a square vs a squashed rhombus).'],
+      ['All regular hexagons are similar', true, 'Every angle is 120° and all sides are equal.'],
+      ['All circles are similar', true, 'Any circle is an enlargement or reduction of any other.'],
+      ['If two triangles are similar, they have the same shape', true, 'Similar means same shape, possibly different size.'],
+      ['If two triangles are similar, they are the same size', false, 'Similar figures can be different sizes — only congruent figures must be the same size.'],
+      ['Congruent figures are also similar', true, 'They have the same shape — the scale factor is 1.'],
+      ['Similar figures are always congruent', false, 'Only when the scale factor is 1.'],
+      ['Similar polygons have only some of their angles equal', false, 'ALL corresponding angles of similar polygons are equal.'],
+      ['If two angles of one triangle equal two angles of another triangle, the triangles are similar', true, 'The third angles must then be equal too (angles add to 180°).'],
+      ['Two polygons with equal angles are always similar', false, 'Rectangles have equal angles but need not be similar — sides must also be proportional (except for triangles).']
+    ]);
+    return { type: 'mc',
+      prompt: `True or false? <em>"${stmt}."</em>`,
+      answer: tf ? 'true' : 'false', choices: ['true', 'false'],
+      explain: `<strong>${tf ? 'True' : 'False'}.</strong> ${why}` };
+  }),
+  S('t148', 'Are the polygons similar?', 'Scale factors and similarity', '▭', () => {
+    const YES = 'similar', NO = 'not similar';
+    if (ri(1, 5) === 1) {   // MathLinks 4.4 #4a: squares vs a rhombus
+      const s = pick([3, 4, 5]), t = s / 2;
+      const isSquare = pick([true, false]);
+      return { type: 'mc',
+        prompt: `A square has sides ${m(String(s))}. A ${isSquare ? 'smaller square' : 'rhombus with angles 60° and 120°'} has sides ${m(fmtNum(t))}. Are they similar?`,
+        answer: isSquare ? YES : NO, choices: [YES, NO],
+        explain: isSquare
+          ? `Sides are proportional (ratio ${fmtNum(t)} ÷ ${s} = 0.5) and all angles are 90° → <strong>similar</strong>.`
+          : `The sides are proportional, but the angles are not equal (90° vs 60°/120°) → <strong>not similar</strong>.<br>💡 Polygons need BOTH equal angles and proportional sides.` };
+    }
+    const w = ri(2, 8), l = w + ri(1, 8);
+    const k = pick([1.5, 2, 2.5, 3, 0.5, 4]);
+    const similar = pick([true, false]);
+    const w2 = Number((w * k).toFixed(2));
+    const l2 = similar ? Number((l * k).toFixed(2)) : Number((l * k + pick([1, 2, -1, 3])).toFixed(2));
+    return { type: 'mc',
+      prompt: `Rectangle A is ${m(`${w} × ${l}`)}. Rectangle B is ${m(`${fmtNum(w2)} × ${fmtNum(l2)}`)}. Are the rectangles similar?`,
+      answer: similar ? YES : NO, choices: [YES, NO],
+      explain: `All angles are 90°, so compare the sides: ${fmtNum(w2)} ÷ ${w} = ${fmtNum(Number((w2 / w).toFixed(3)))} and ${fmtNum(l2)} ÷ ${l} = ${fmtNum(Number((l2 / l).toFixed(3)))}.<br>
+        ${similar ? 'Same ratio → <strong>similar</strong>.' : 'Different ratios → <strong>not similar</strong>.'}` };
+  }),
+  S('t149', 'Perimeter and area of similar figures', 'Scale factors and similarity', '🖼️', () => {
+    const kind = pick(['photo', 'perimeter', 'trim', 'area', 'factor']);
+    if (kind === 'photo') {   // HW 7.2 #10
+      const [w, h] = pick([[10, 15], [4, 6], [8, 10], [5, 7]]), k = pick([2, 3, 1.5, 2.5, 4]);
+      const ans = Number((w * k * h * k).toFixed(2));
+      return { type: 'num',
+        prompt: `${w === 8 ? 'An' : 'A'} ${m(`${w} cm × ${h} cm`)} photo is enlarged by a scale factor of ${m(fmtNum(k))}. What is the <strong>area</strong> of the enlarged photo in cm²?`,
+        answer: ans,
+        explain: `New sides: ${w} × ${fmtNum(k)} = ${fmtNum(r2(w * k))} cm and ${h} × ${fmtNum(k)} = ${fmtNum(r2(h * k))} cm.<br>
+          Area = ${fmtNum(r2(w * k))} × ${fmtNum(r2(h * k))} = <strong>${fmtNum(ans)} cm²</strong>.<br>💡 Check: the area grows by k² = ${fmtNum(k * k)}, not by ${fmtNum(k)}.` };
+    }
+    if (kind === 'perimeter') {
+      const P = ri(12, 40), k = pick([2, 3, 1.5, 0.5, 2.5]);
+      const ans = Number((P * k).toFixed(2));
+      return { type: 'num',
+        prompt: `A polygon has a perimeter of ${m(`${P} cm`)}. A similar polygon is drawn with a scale factor of ${m(fmtNum(k))}. What is its perimeter (cm)?`,
+        answer: ans,
+        explain: `Every side is multiplied by ${fmtNum(k)}, so the perimeter is too: ${P} × ${fmtNum(k)} = <strong>${fmtNum(ans)} cm</strong>.` };
+    }
+    if (kind === 'trim') {    // MathLinks 4.4 #9
+      const [sw, sl] = pick([[20, 30], [10, 16], [12, 20], [15, 25]]), k = pick([1.6, 1.5, 2, 2.5]);
+      const L = r2(sl * k), W = r2(sw * k), ans = Number((2 * (L + W)).toFixed(2));
+      return { type: 'num',
+        prompt: `Two trays are similar rectangles. The small tray is ${m(`${sw} cm × ${sl} cm`)}. The large tray is ${m(`${fmtNum(L)} cm`)} long. How much trim (cm) is needed to go around the outside edge of the large tray?`,
+        answer: ans,
+        explain: `Scale factor = ${fmtNum(L)} ÷ ${sl} = ${fmtNum(k)}, so the large width is ${sw} × ${fmtNum(k)} = ${fmtNum(W)} cm.<br>
+          Perimeter = 2(${fmtNum(L)} + ${fmtNum(W)}) = <strong>${fmtNum(ans)} cm</strong>.` };
+    }
+    if (kind === 'area') {
+      const A = ri(4, 30), k = pick([2, 3, 4, 0.5, 1.5]);
+      const ans = Number((A * k * k).toFixed(2));
+      return { type: 'num',
+        prompt: `A figure has an area of ${m(`${A} cm²`)}. A similar figure is drawn with a scale factor of ${m(fmtNum(k))}. What is the area (cm²) of the new figure?`,
+        answer: ans,
+        explain: `Area scales by the <em>square</em> of the scale factor: ${A} × ${fmtNum(k)}² = ${A} × ${fmtNum(k * k)} = <strong>${fmtNum(ans)} cm²</strong>.<br>💡 Lengths × k, areas × k².` };
+    }
+    const k = pick([2, 3, 4, 5]), A = ri(2, 15);
+    return { type: 'num',
+      prompt: `Two similar triangles have areas ${m(`${A} cm²`)} and ${m(`${A * k * k} cm²`)}. What is the scale factor from the smaller to the larger triangle?`,
+      answer: k,
+      explain: `Area ratio = ${A * k * k} ÷ ${A} = ${k * k} = k², so k = √${k * k} = <strong>${k}</strong>.<br>💡 The area ratio is the square of the side ratio.` };
+  }),
+  S('t150', 'Indirect measurement: shadows, ladders and cliffs', 'Scale factors and similarity', '🌳', () => {
+    const r1 = x => Number(x.toFixed(1));
+    const kind = pick(['shadow', 'ladder', 'covered', 'cliff', 'compare']);
+    if (kind === 'shadow') {   // HW 7.4 #4, #6
+      const [name, h] = pick([['Naomi', 1.2], ['Jason', 1.8], ['Priya', 1.5], ['Omar', 1.6]]);
+      const s = pick([2, 2.5, 2.75, 3, 1.6]), S2 = pick([10.5, 12, 18, 24, 7.5]);
+      const ans = r1(h * S2 / s);
+      return { type: 'num',
+        prompt: `${name} is ${m(`${h} m`)} tall and casts a shadow ${m(`${s} m`)} long. At the same time, a tree casts a shadow ${m(`${S2} m`)} long. How tall is the tree (m, to the nearest tenth)?`,
+        answer: ans,
+        explain: `The sun's rays make similar triangles: height/shadow is the same.<br>
+          tree/${S2} = ${h}/${s} → tree = ${h} × ${S2} ÷ ${s} ≈ <strong>${fmtNum(ans)} m</strong>.` };
+    }
+    if (kind === 'ladder') {   // review #15
+      const [L1, H1] = pick([[3, 2.4], [5, 4], [2.5, 2], [4, 3.2], [5, 4.8]]);
+      const L2 = pick([6, 8, 10, 7.5]);
+      const H2 = Number((H1 * L2 / L1).toFixed(2));
+      const farther = pick([true, false]);
+      const ans = farther ? Number((H2 - H1).toFixed(2)) : H2;
+      return { type: 'num',
+        prompt: `Two ladders lean against a wall at the same angle. The ${m(`${L1} m`)} ladder reaches ${m(`${H1} m`)} up the wall. ${farther
+          ? `How much <strong>farther</strong> up the wall (m) does the ${m(`${L2} m`)} ladder reach?`
+          : `How high up the wall (m) does the ${m(`${L2} m`)} ladder reach?`}`,
+        answer: ans,
+        explain: `Same angle → similar triangles: height ÷ ladder length is constant.<br>
+          h = ${H1} × ${L2} ÷ ${L1} = ${fmtNum(H2)} m${farther ? `, which is ${fmtNum(H2)} − ${H1} = <strong>${fmtNum(ans)} m</strong> farther` : ` → <strong>${fmtNum(ans)} m</strong>`}.` };
+    }
+    if (kind === 'covered') {  // MathLinks 4.3 #9 (Kaylee)
+      const c = pick([100, 120, 90, 110]), d = pick([60, 80, 90, 100]), S2 = pick([225, 240, 250, 300]);
+      const ans = Math.round(c * S2 / (S2 - d));
+      return { type: 'num',
+        prompt: `A child ${m(`${c} cm`)} tall stands ${m(`${d} cm`)} in front of a parent, so the parent's shadow exactly covers the child's. The parent's shadow is ${m(`${S2} cm`)} long. How tall is the parent (nearest cm)?`,
+        answer: ans,
+        explain: `The child's shadow ends where the parent's ends, so it is ${S2} − ${d} = ${S2 - d} cm long.<br>
+          parent/${S2} = ${c}/${S2 - d} → parent = ${c} × ${S2} ÷ ${S2 - d} ≈ <strong>${ans} cm</strong>.<br>💡 Use the <em>whole</em> shadow for the parent and only the child's part for the child.` };
+    }
+    if (kind === 'cliff') {   // review #12
+      const e = pick([1.5, 1.6, 1.8]), s = pick([4, 6, 3]), H = pick([8, 12, 9, 15]);
+      const ans = r1(H * s / e);
+      return { type: 'num',
+        prompt: `Ms. Jordan stands ${m(`${s} m`)} back from the edge of ${H === 8 ? 'an' : 'a'} ${m(`${H} m`)}-high cliff. Her eyes are ${m(`${e} m`)} above the ground. Looking past the cliff edge, her line of sight just reaches a fire on the ground below. How far is the fire from the bottom of the cliff (m, nearest tenth)?`,
+        answer: ans,
+        explain: `Her line of sight forms two similar right triangles: (eye height, distance to edge) and (cliff height, distance to fire).<br>
+          x/${H} = ${s}/${e} → x = ${H} × ${s} ÷ ${e} ≈ <strong>${fmtNum(ans)} m</strong>.` };
+    }
+    const h1 = pick([168, 160, 175, 152]), s1 = pick([45, 50, 40, 60]);
+    let s2; do { s2 = pick([40, 42, 48, 55, 36]); } while (s2 === s1);
+    const ans = Math.round(h1 * s2 / s1);
+    return { type: 'num',
+      prompt: `Peter is ${m(`${h1} cm`)} tall and casts a ${m(`${s1} cm`)} shadow. Michael, standing beside him, casts a ${m(`${s2} cm`)} shadow. How tall is Michael (nearest cm)?`,
+      answer: ans,
+      explain: `Same time, same sun → height/shadow is equal.<br>
+        Michael = ${h1} × ${s2} ÷ ${s1} ≈ <strong>${ans} cm</strong> — ${s2 > s1 ? 'longer shadow, so taller' : 'shorter shadow, so shorter'} than Peter.` };
+  }),
+  S('t151', 'Nested similar triangles', 'Scale factors and similarity', '📐', () => {
+    // △ADE ∼ △ABC with DE ∥ BC (MathLinks 4.3 #7b, 4.4 #8)
+    let a, b, d, BC;
+    do { a = ri(2, 8); b = ri(2, 10); d = ri(3, 12); BC = d * (a + b) / a; } while (!Number.isInteger(BC * 2) || BC > 40);
+    const find = pick(['BC', 'DE', 'DB']);
+    const lab = { AD: String(a), DB: fmtNum(b), DE: fmtNum(d), BC: fmtNum(BC) };
+    lab[find] = 'x';
+    // picture: A at top, B bottom-left, C bottom-right; D on AB, E on AC
+    const A = [150, 14], B = [30, 170], Cc = [270, 170], t = 0.42;
+    const D = [A[0] + (B[0] - A[0]) * t, A[1] + (B[1] - A[1]) * t], E = [A[0] + (Cc[0] - A[0]) * t, A[1] + (Cc[1] - A[1]) * t];
+    const mid = (P, Q) => [(P[0] + Q[0]) / 2, (P[1] + Q[1]) / 2];
+    const ln = (P, Q, col = C.ink) => `<line x1="${P[0]}" y1="${P[1]}" x2="${Q[0]}" y2="${Q[1]}" stroke="${col}" stroke-width="2"/>`;
+    const tx = (P, s, dx, dy, col = C.ink, bold = false) => `<text x="${P[0] + dx}" y="${P[1] + dy}" font-size="14" text-anchor="middle" fill="${col}"${bold ? ' font-weight="700"' : ''}>${s}</text>`;
+    const val = (k, P, dx, dy) => tx(P, lab[k], dx, dy, lab[k] === 'x' ? C.red : C.primary, true);
+    const inner = ln(A, B) + ln(A, Cc) + ln(B, Cc) + ln(D, E, C.accent)
+      + tx(A, 'A', 0, -2) + tx(B, 'B', -10, 6) + tx(Cc, 'C', 10, 6) + tx(D, 'D', -12, 2) + tx(E, 'E', 12, 2)
+      + val('AD', mid(A, D), -16, 0) + val('DB', mid(D, B), -18, 0) + val('DE', mid(D, E), 0, -6) + val('BC', mid(B, Cc), 0, 20);
+    const pic = svg(300, 196, inner, 'aria-label="triangle ABC with segment DE parallel to BC"');
+    const AB = a + b;
+    const ans = find === 'BC' ? BC : find === 'DE' ? d : b;
+    const explain = find === 'DB'
+      ? `△ADE ∼ △ABC, so AB/AD = BC/DE → AB = ${a} × ${fmtNum(BC)} ÷ ${d} = ${fmtNum(AB)}, so x = DB = ${fmtNum(AB)} − ${a} = <strong>${fmtNum(b)}</strong>.<br>💡 x is only <em>part</em> of side AB — find the whole side, then subtract.`
+      : `△ADE ∼ △ABC. The whole side AB = ${a} + ${fmtNum(b)} = ${fmtNum(AB)} (not just ${fmtNum(b)}!).<br>
+        Scale factor small → large = AB/AD = ${fmtNum(AB)}/${a}.<br>
+        ${find === 'BC' ? `x = BC = ${d} × ${fmtNum(AB)} ÷ ${a} = <strong>${fmtNum(BC)}</strong>.` : `x = DE = ${fmtNum(BC)} × ${a} ÷ ${fmtNum(AB)} = <strong>${fmtNum(d)}</strong>.`}`;
+    return { type: 'num',
+      prompt: `In the diagram (not to scale), ${m('DE ∥ BC')}. Find ${m('x')}.${pic}`,
+      answer: ans, explain };
   }),
 
   /* ===== Chapter 5 + 7: Polynomial language and monomial operations ===== */

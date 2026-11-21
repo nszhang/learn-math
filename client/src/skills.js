@@ -195,7 +195,9 @@ const IXL_OLD_PLACEMENT = {
   t133: 'Number sequences', t134: 'Number sequences', t135: 'Relations and functions', t136: 'Relations and functions',
   t137: 'Linear functions', t138: 'Linear functions', t139: 'Linear functions', t140: 'Linear functions',
   elPLY9: 'Polynomials', t76: 'Polynomials', t77: 'Polynomials', t118: 'Polynomials', t119: 'Polynomials', t120: 'Polynomials', t108: 'Numbers', t109: 'Operations', t110: 'Operations', t111: 'Numbers',
-  t114: 'Geometry', t115: 'Geometry', t116: 'Geometry', t117: 'Geometry', t106: 'Geometry', t107: 'Geometry', t104: 'Geometry', t105: 'Geometry', t75: 'Systems of linear equations', algG1: 'Systems of linear equations',
+  t114: 'Geometry', t115: 'Geometry', t116: 'Geometry', t117: 'Geometry',
+  t141: 'Geometry', t142: 'Geometry', t143: 'Geometry', t144: 'Geometry', t145: 'Geometry', t146: 'Geometry', t147: 'Geometry', t148: 'Geometry', t149: 'Geometry', t150: 'Geometry', t151: 'Geometry',
+  t106: 'Geometry', t107: 'Geometry', t104: 'Geometry', t105: 'Geometry', t75: 'Systems of linear equations', algG1: 'Systems of linear equations',
   // Grade 10
   t88: 'Functions: linear, quadratic, exponential', expC1: 'Functions: linear, quadratic, exponential', expC2: 'Functions: linear, quadratic, exponential', expC3: 'Functions: linear, quadratic, exponential',
   elDIF10: 'Factoring', elCMF10: 'Factoring', t84: 'Factoring', t86: 'Quadratic equations', elVIE10: 'Quadratic equations', t82: 'Quadratic equations', t83: 'Parabolas', algH1: 'Quadratic equations',
