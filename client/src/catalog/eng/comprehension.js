@@ -11,7 +11,8 @@ import {
 import { TOPIC } from './rc/topics.js';
 import {
   CL_FABLES, CL_BOOKS_1_2, CL_BOOKS_3_4, CL_NOVELS_5_6, CL_NOVELS_7_8, CL_NOVELS_9_10, CL_NOVELS_11_12,
-  CL_STORIES, CL_POEMS_5_8, CL_POEMS_9_12, CL_SHAKESPEARE
+  CL_STORIES, CL_POEMS_5_8, CL_POEMS_9_12, CL_SHAKESPEARE,
+  CL_NONFIC_4_6, CL_NONFIC_7_8, CL_NONFIC_9_12, CL_ESSAYS_7_8, CL_ESSAYS_9_10, CL_ESSAYS_11_12
 } from './rc/classics.js';
 
 const RC = 'Reading comprehension';
@@ -19,9 +20,12 @@ const sk = (k, t, s, g, gen) => ({ k, t, s, g, gen });
 
 /** Passage as HTML: title (and author), optional picture, numbered paragraphs or stanzas. */
 export function renderPassage(ps, { pic = true } = {}) {
-  const body = ps.p.map((para, i) => {
+  const numbered = ps.p.filter(para => !/^(CHARACTERS|\[)/.test(para) && !/^[A-Z][A-Z .']+:/.test(para));
+  const body = ps.p.map(para => {
+    if (para.startsWith('[')) return `<p class="rc-note">${para}</p>`;   // context note (ours), never a stanza
     if (ps.poem) return `<p class="rc-stanza">${para.replace(/\n/g, '<br>')}</p>`;
-    const n = ps.p.length > 1 && !/^(CHARACTERS|\[)/.test(para) && !/^[A-Z][A-Z .']+:/.test(para) ? `<span class="rc-pn">${i + 1}</span>` : '';
+    const k = numbered.indexOf(para);   // number only the author's paragraphs, from 1
+    const n = ps.p.length > 1 && k >= 0 ? `<span class="rc-pn">${k + 1}</span>` : '';
     return `<p>${n}${para}</p>`;
   }).join('');
   return `<div class="passage rc-passage${ps.poem ? ' rc-poem' : ''}">` +
@@ -54,14 +58,17 @@ const G = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
 const CL_BOOKS = g => (g <= 2 ? CL_BOOKS_1_2 : CL_BOOKS_3_4);
 const CL_NOVELS = g => (g <= 6 ? CL_NOVELS_5_6 : g <= 8 ? CL_NOVELS_7_8 : g <= 10 ? CL_NOVELS_9_10 : CL_NOVELS_11_12);
 const CL_POEMS = g => (g <= 8 ? CL_POEMS_5_8 : CL_POEMS_9_12);
+const CL_NONFIC = g => (g <= 6 ? CL_NONFIC_4_6 : g <= 8 ? CL_NONFIC_7_8 : CL_NONFIC_9_12);
+const CL_ESSAYS = g => (g <= 8 ? CL_ESSAYS_7_8 : g <= 10 ? CL_ESSAYS_9_10 : CL_ESSAYS_11_12);
 // what a student of this grade may have met: everything up to their band
-const CL_READ = g => [...CL_BOOKS_3_4, ...CL_NOVELS_5_6, ...(g >= 7 ? [...CL_NOVELS_7_8, ...CL_STORIES, ...CL_POEMS_5_8] : []),
-  ...(g >= 9 ? [...CL_NOVELS_9_10, ...CL_NOVELS_11_12, ...CL_POEMS_9_12, ...CL_SHAKESPEARE] : [])];
-const bookOf = ps => ps.t.replace(/^From /, '').replace(/ \(\d{4}\)$/, '').replace(/ \((Act|The Adventures)[^)]*\)$/, '').replace(/^Rikki-Tikki-Tavi \((.*)\)$/, '$1');
+const CL_READ = g => [...CL_BOOKS_3_4, ...CL_NOVELS_5_6, ...CL_NONFIC_4_6,
+  ...(g >= 7 ? [...CL_NOVELS_7_8, ...CL_STORIES, ...CL_POEMS_5_8, ...CL_NONFIC_7_8, ...CL_ESSAYS_7_8] : []),
+  ...(g >= 9 ? [...CL_NOVELS_9_10, ...CL_NOVELS_11_12, ...CL_POEMS_9_12, ...CL_SHAKESPEARE, ...CL_ESSAYS_9_10, ...CL_ESSAYS_11_12] : [])];
+const bookOf = ps => ps.t.replace(/^From /, '').replace(/ \(\d{4}\)$/, '').replace(/^Rikki-Tikki-Tavi \((.*)\)$/, '$1').replace(/ \([^)]*\)$/, '');
 const authorOf = ps => ps.by.replace(/ \((translated|Canadian)[^)]*\)$/, '').replace(/ \(translated\)$/, '');
 const yearOf = ps => ps.t.match(/\((\d{4})\)$/)?.[1];
 const firstLine = ps => {
-  const text = ps.p.map(x => x.replace(/<[^>]+>/g, '')).join('\n').split('\n').find(l => l.split(' ').length >= 5) || ps.p[0];
+  const text = ps.p.filter(x => !x.startsWith('[')).map(x => x.replace(/<[^>]+>/g, '')).join('\n').split('\n').find(l => l.split(' ').length >= 5) || ps.p[0];
   const s = ps.poem ? text : (text.match(/^.*?[.!?](”|")?(?=\s|$)/) || [text])[0];
   return s.split(' ').length > 30 ? s.split(' ').slice(0, 30).join(' ') + ' …' : s;
 };
@@ -109,6 +116,8 @@ export const RC_SPECS = [
   sk('RcSs', 'Read classic short stories', RC, G(7, 10), passageGen(CL_STORIES)),
   sk('RcFp', 'Read famous poems', RC, G(5, 12), passageGen(CL_POEMS)),
   sk('RcSh', 'Read Shakespeare', RC, G(8, 12), passageGen(CL_SHAKESPEARE)),
+  sk('RcNn', 'Read classic nonfiction: memoirs, science and travel', RC, G(4, 12), passageGen(CL_NONFIC)),
+  sk('RcEs', 'Read classic essays and speeches', RC, G(7, 12), passageGen(CL_ESSAYS)),
   sk('RcAu', 'Famous authors and their works', RC, G(5, 12), authorsGen),
   // Grades 3–5 genre/topic skills (titles come from the IXL alignment)
   sk('TpFnI', 'Read fantasy with illustrations', RC, G(3, 5), passageGen(TOPIC_POOLS.fantasy)),
