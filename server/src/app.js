@@ -93,6 +93,14 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   }
   const teacherOnly = (req, res, next) =>
     req.role === 'teacher' ? next() : res.status(403).json({ error: 'Teachers only' });
+  // The student's local date (sent by the browser as X-Local-Date) so "today" matches their day;
+  // anything missing or more than a day away from the server's date falls back to UTC.
+  const isoDay = d => d.toISOString().slice(0, 10);
+  const dayOf = req => {
+    const h = String(req.get('X-Local-Date') || '');
+    if (/^\d{4}-\d{2}-\d{2}$/.test(h) && Math.abs(Date.parse(h + 'T12:00:00Z') - Date.now()) < 36 * 3600e3) return h;
+    return isoDay(new Date());
+  };
   const adminOnly = (req, res, next) =>
     req.role === 'admin' ? next() : res.status(403).json({ error: 'Admins only' });
 
@@ -207,6 +215,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
 
   // ---------- student data ----------
   app.get('/api/me', auth, async (req, res) => {
+    await db.touchLastSeen(pool, req.uid);   // "last seen" for teacher reports (app open / back from practice)
     const [userRow, stats, progress, awards] = await Promise.all([
       pool.query('SELECT * FROM users WHERE id = $1', [req.uid]).then(r => r.rows[0]),
       db.getStats(pool, req.uid),
@@ -242,9 +251,11 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       score,
       answered: prev.answered + 1,
       correct: prev.correct + (correct ? 1 : 0),
-      medals
+      medals,
+      masteredAt: score >= 100 ? new Date() : null
     });
     await db.recordAnswerStats(pool, req.uid, correct, Math.max(0, streak | 0));
+    await db.logAnswerActivity(pool, req.uid, dayOf(req), skillId, correct, score);
 
     // --- homework progress (when in homework mode) ---
     let homework = null;
@@ -317,7 +328,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
 
   app.post('/api/time', auth, async (req, res) => {
     const seconds = Math.max(0, Math.min(600, req.body?.seconds | 0));
-    if (seconds) await db.addTime(pool, req.uid, seconds);
+    if (seconds) { await db.addTime(pool, req.uid, seconds); await db.logTimeActivity(pool, req.uid, dayOf(req), seconds); }
     const { newly: newAwards, stars } = await checkAwards(req.uid);
     res.json({ newAwards, stars });
   });
@@ -350,18 +361,24 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   // Only students in the teacher's roster (admin-managed via /api/admin/*).
   app.get('/api/students', auth, teacherOnly, async (req, res) => {
     const students = await db.getStudentsWithStats(pool, req.uid);
+    // activity for reports: 60 days of daily totals (this 30 days vs the 30 before), 30 days of skills
+    const from = days => isoDay(new Date(Date.now() - days * 864e5));
     const result = [];
     for (const s of students) {
-      const [progress, assignments, hwProgress, completed] = await Promise.all([
+      const [progress, assignments, hwProgress, completed, activity, skillDays] = await Promise.all([
         db.getAllSkillProgress(pool, s.id),
         db.getAssignmentsForStudent(pool, s.id),
         db.getHomeworkProgress(pool, s.id),
-        db.getCompletedHomework(pool, s.id)
+        db.getCompletedHomework(pool, s.id),
+        db.getActivityDays(pool, s.id, from(61)),
+        db.getSkillDays(pool, s.id, from(31))
       ]);
       const completedSet = new Set(completed.map(c => c.assignment_id));
       result.push({
         id: s.id, username: s.username, displayName: s.display_name, stars: s.stars, grade: s.grade ?? null, hskLevel: s.hsk_level ?? 1,
         wordsKnown: await db.countKnownWords(pool, s.id, srs.KNOWN_BOX),
+        lastSeen: s.last_seen_at ?? null,
+        activity, skillDays,
         stats: {
           answered: s.answered || 0, correct: s.correct || 0, time_sec: s.time_sec || 0,
           best_streak: s.best_streak || 0, homework_done: s.homework_done || 0

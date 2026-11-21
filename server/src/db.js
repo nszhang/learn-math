@@ -67,17 +67,51 @@ export async function getSkillProgress(pool, userId, skillId) {
 
 export async function getAllSkillProgress(pool, userId) {
   const { rows } = await pool.query(
-    'SELECT skill_id, score, answered, correct, medals FROM skill_progress WHERE user_id = $1', [userId]);
+    'SELECT skill_id, score, answered, correct, medals, last_at, mastered_at FROM skill_progress WHERE user_id = $1', [userId]);
   return rows;
 }
 
-export async function saveSkillProgress(pool, userId, skillId, { score, answered, correct, medals }) {
+export async function saveSkillProgress(pool, userId, skillId, { score, answered, correct, medals, masteredAt = null }) {
+  // last_at = when it was last practised; mastered_at = the first time it reached 100 (kept once set)
   await pool.query(
-    `INSERT INTO skill_progress (user_id, skill_id, score, answered, correct, medals)
-     VALUES ($1, $2, $3, $4, $5, $6)
+    `INSERT INTO skill_progress (user_id, skill_id, score, answered, correct, medals, last_at, mastered_at)
+     VALUES ($1, $2, $3, $4, $5, $6, now(), $7)
      ON CONFLICT (user_id, skill_id)
-     DO UPDATE SET score = $3, answered = $4, correct = $5, medals = $6`,
-    [userId, skillId, score, answered, correct, JSON.stringify(medals)]);
+     DO UPDATE SET score = $3, answered = $4, correct = $5, medals = $6, last_at = now(),
+       mastered_at = COALESCE(skill_progress.mastered_at, $7)`,
+    [userId, skillId, score, answered, correct, JSON.stringify(medals), masteredAt]);
+}
+
+// ---------- activity history (teacher reports) ----------
+export async function logAnswerActivity(pool, userId, day, skillId, correct, score) {
+  const c = correct ? 1 : 0;
+  await pool.query(
+    `INSERT INTO activity_days (user_id, day, answered, correct) VALUES ($1, $2, 1, $3)
+     ON CONFLICT (user_id, day) DO UPDATE SET answered = activity_days.answered + 1, correct = activity_days.correct + $3`,
+    [userId, day, c]);
+  await pool.query(
+    `INSERT INTO skill_days (user_id, day, skill_id, answered, correct, score) VALUES ($1, $2, $3, 1, $4, $5)
+     ON CONFLICT (user_id, day, skill_id) DO UPDATE SET answered = skill_days.answered + 1, correct = skill_days.correct + $4, score = $5`,
+    [userId, day, skillId, c, score]);
+}
+export async function logTimeActivity(pool, userId, day, seconds) {
+  await pool.query(
+    `INSERT INTO activity_days (user_id, day, time_sec) VALUES ($1, $2, $3)
+     ON CONFLICT (user_id, day) DO UPDATE SET time_sec = activity_days.time_sec + $3`,
+    [userId, day, seconds]);
+}
+export async function touchLastSeen(pool, userId) {
+  await pool.query('UPDATE users SET last_seen_at = now() WHERE id = $1', [userId]);
+}
+export async function getActivityDays(pool, userId, fromDay) {
+  const { rows } = await pool.query(
+    'SELECT day, answered, correct, time_sec FROM activity_days WHERE user_id = $1 AND day >= $2 ORDER BY day', [userId, fromDay]);
+  return rows;
+}
+export async function getSkillDays(pool, userId, fromDay) {
+  const { rows } = await pool.query(
+    'SELECT day, skill_id, answered, correct, score FROM skill_days WHERE user_id = $1 AND day >= $2 ORDER BY day', [userId, fromDay]);
+  return rows;
 }
 
 // ---------- awards ----------
@@ -166,7 +200,7 @@ export async function markHomeworkCompleted(pool, userId, assignmentId) {
 // ---------- teacher views ----------
 // teacherId optional: when given, only students in that teacher's roster.
 export async function getStudentsWithStats(pool, teacherId) {
-  const sql = `SELECT u.id, u.username, u.display_name, u.stars, u.grade, u.hsk_level, u.created_at,
+  const sql = `SELECT u.id, u.username, u.display_name, u.stars, u.grade, u.hsk_level, u.created_at, u.last_seen_at,
             s.answered, s.correct, s.time_sec, s.best_streak, s.homework_done
      FROM users u LEFT JOIN stats s ON s.user_id = u.id
      WHERE u.role = 'student'
@@ -177,7 +211,7 @@ export async function getStudentsWithStats(pool, teacherId) {
   }
   // plain JOIN (no correlated subquery — keeps the in-memory test DB happy)
   const { rows } = await pool.query(
-    `SELECT u.id, u.username, u.display_name, u.stars, u.grade, u.hsk_level, u.created_at,
+    `SELECT u.id, u.username, u.display_name, u.stars, u.grade, u.hsk_level, u.created_at, u.last_seen_at,
             s.answered, s.correct, s.time_sec, s.best_streak, s.homework_done
      FROM teacher_students ts
      JOIN users u ON u.id = ts.student_id

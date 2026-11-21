@@ -1118,3 +1118,46 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
   /* generated tables/cells with a light inline background keep dark text */
   :root:not([data-theme="light"]) main [style*="background:#eef2ff"], :root:not([data-theme="light"]) main [style*="background:#fde68a"], :root:not([data-theme="light"]) main [style*="background:#f8fafc"], :root:not([data-theme="light"]) main [style*="background:#a5b4fc"] { color: #1e293b; }
 }
+
+/* ---------- teacher reports ---------- */
+.report-toolbar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+.report-toolbar .seg { display: inline-flex; gap: 4px; background: var(--card); border-radius: 12px; padding: 4px; box-shadow: var(--shadow); }
+.report-table-wrap { overflow-x: auto; background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); }
+.report-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.report-table th { text-align: left; font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); padding: 10px 9px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.report-table td { padding: 10px 9px; border-top: 1px solid var(--line-soft); vertical-align: top; }
+.report-table td:not(.report-who):not(:first-child) { white-space: nowrap; }
+.report-who { min-width: 200px; }
+.report-who > div { margin-top: 4px; }
+.report-table tbody tr[role="button"] { cursor: pointer; }
+.report-table tbody tr[role="button"]:hover { background: var(--primary-light); }
+.report-table.compact td, .report-table.compact th { padding: 7px 10px; }
+.report-flag { display: inline-block; margin: 0 6px 4px 0; padding: 2px 10px; border-radius: 999px; background: var(--warn-bg); color: var(--warn-ink); font-weight: 700; font-size: .82rem; }
+.report-good { display: inline-block; padding: 2px 10px; border-radius: 999px; background: var(--good-bg); color: var(--good-ink); font-weight: 700; font-size: .82rem; }
+.report-bad { color: var(--red); font-weight: 700; }
+.report-seen { margin-left: 6px; font-size: .85rem; }
+.report-student { margin-bottom: 8px; }
+.report-student h4 { margin: 4px 0 6px; }
+.report-student h5 { margin: 16px 0 6px; font-size: .95rem; }
+.report-flags { margin: 8px 0 12px; }
+.report-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-bottom: 14px; }
+.report-tile { background: var(--bg); border-radius: 12px; padding: 10px 12px; }
+.report-tile-v { font-size: 1.25rem; font-weight: 800; }
+.report-chart { margin: 0 0 6px; }
+.report-chart figcaption { margin-bottom: 6px; }
+.report-bars { display: flex; align-items: flex-end; gap: 2px; height: 90px; border-bottom: 1px solid var(--line); }
+.report-bar-slot { flex: 1; height: 100%; display: flex; align-items: flex-end; min-width: 3px; }
+.report-bar-slot:hover { background: var(--primary-light); }
+.report-bar { width: 100%; background: var(--primary); border-radius: 4px 4px 0 0; }
+.report-axis { display: flex; justify-content: space-between; font-size: .75rem; margin-top: 3px; }
+.report-list { margin: 0 0 6px 20px; line-height: 1.6; }
+
+/* print a teacher report: just the page content, light colours, open cards expanded */
+@media print {
+  .topbar, .no-print, #toast-container, .btn { display: none !important; }
+  body { background: #fff; color: #000; }
+  .page { padding: 0; }
+  .report-table-wrap, .student-card { box-shadow: none !important; border: 1px solid #ccc; }
+  .student-card:not(.open) { display: none; }
+  .report-bar { background: #555; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+}

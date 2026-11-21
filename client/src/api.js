@@ -12,11 +12,15 @@ export function setToken(t) {
   else localStorage.removeItem('mm_token');
 }
 
+// the student's own calendar day, so activity reports group practice by their local date
+const localDay = () => { const d = new Date(); return new Date(d - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 10); };
+
 export async function api(method, path, body) {
   const res = await fetch(BASE + path, {
     method,
     headers: {
       'Content-Type': 'application/json',
+      'X-Local-Date': localDay(),
       ...(token ? { Authorization: `Bearer ${token}` } : {})
     },
     body: body ? JSON.stringify(body) : undefined

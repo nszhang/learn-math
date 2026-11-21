@@ -696,3 +696,24 @@ test('awards: practising a few skills does not unlock the big awards; grade awar
   assert.equal(r.data.gradeGold[1], null);
   assert.equal((await api('GET', '/api/awards/progress')).status, 401, 'progress needs login');
 });
+
+test('activity history: answers and time are logged per day for teacher reports', async () => {
+  const utcToday = new Date().toISOString().slice(0, 10);
+  const yesterday = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
+  const post = (path, body, localDate) => fetch(base + path, { method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${student.token}`, ...(localDate ? { 'X-Local-Date': localDate } : {}) },
+    body: JSON.stringify(body) });
+  await post('/api/answers', { skillId: 'algB1', correct: true, streak: 1 }, yesterday);        // the student's own calendar day
+  await post('/api/answers', { skillId: 'algB1', correct: false, streak: 0 }, '1999-01-01');   // implausible → server's date
+  await post('/api/time', { seconds: 120 });
+
+  const r = await api('GET', '/api/students', { token: teacher.token });
+  const s = r.data.find(x => x.username === 'stu1');
+  const day = d => s.activity.find(a => a.day === d) || { answered: 0, correct: 0, time_sec: 0 };
+  assert.ok(day(yesterday).answered >= 1, 'answer logged on the local date the browser sent');
+  assert.ok(day(utcToday).answered >= 1 && day(utcToday).time_sec >= 120, 'today has answers and practice time');
+  assert.ok(!s.activity.some(a => a.day === '1999-01-01'), 'implausible dates are not trusted');
+  assert.ok(s.skillDays.some(k => k.skill_id === 'algB1' && k.day === utcToday), 'per-skill daily rows');
+  assert.ok(s.lastSeen, 'last seen recorded');
+  assert.ok(s.skillProgress.find(p => p.skill_id === 'algB1').last_at, 'skill last practised time');
+});

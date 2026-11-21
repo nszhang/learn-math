@@ -165,3 +165,28 @@ CREATE TABLE IF NOT EXISTS message_images (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 ALTER TABLE messages ADD COLUMN IF NOT EXISTS image_id INT;
+
+-- ---------- activity history (teacher reports) ----------
+-- one row per student per day (the student's local date, YYYY-MM-DD)
+CREATE TABLE IF NOT EXISTS activity_days (
+  user_id  INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  day      TEXT NOT NULL,
+  answered INT  NOT NULL DEFAULT 0,
+  correct  INT  NOT NULL DEFAULT 0,
+  time_sec INT  NOT NULL DEFAULT 0,
+  PRIMARY KEY (user_id, day)
+);
+-- what was practised each day, and the SmartScore it ended the day at
+CREATE TABLE IF NOT EXISTS skill_days (
+  user_id  INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  day      TEXT NOT NULL,
+  skill_id TEXT NOT NULL,
+  answered INT  NOT NULL DEFAULT 0,
+  correct  INT  NOT NULL DEFAULT 0,
+  score    INT  NOT NULL DEFAULT 0,
+  PRIMARY KEY (user_id, day, skill_id)
+);
+CREATE INDEX IF NOT EXISTS idx_skill_days_user ON skill_days(user_id, day);
+ALTER TABLE skill_progress ADD COLUMN IF NOT EXISTS last_at TIMESTAMPTZ;
+ALTER TABLE skill_progress ADD COLUMN IF NOT EXISTS mastered_at TIMESTAMPTZ;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS last_seen_at TIMESTAMPTZ;

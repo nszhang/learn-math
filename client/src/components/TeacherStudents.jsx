@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { api } from '../api.js';
 import { SUBJECTS, STUDENT_GRADES, HSK_LEVELS, gradeLabel, hskLabel, studentLevelFor, hskReadiness } from '../skills.js';
 import { niceDate, skillName } from '../homework.js';
 import { clickable } from '../a11y.js';
+import { ClassOverview, StudentActivity, downloadCsv, summarize, agoText, REPORTS_START } from './StudentReport.jsx';
 
-function StudentCard({ s, onGrade, onHsk }) {
-  const [open, setOpen] = useState(false);
+function StudentCard({ s, r, open, setOpen, onGrade, onHsk }) {
   const pct = s.stats.answered ? Math.round(100 * s.stats.correct / s.stats.answered) : 0;
   const mastered = s.skillProgress.filter(p => p.score >= 100).length;
   const total = s.skillProgress.reduce((sum, p) => sum + p.score, 0);
@@ -15,6 +15,7 @@ function StudentCard({ s, onGrade, onHsk }) {
     <div className={'student-card' + (open ? ' open' : '')}>
       <div className="student-head" {...clickable(() => setOpen(!open))}>
         <strong>{s.displayName}</strong> <span className="muted">@{s.username}</span>
+        <span className="muted report-seen">· practised {agoText(r.lastActive)}{r.flags.length ? ` · ⚠️ ${r.flags.length}` : ''}</span>
         <span className={'grade-tag ' + (s.grade === null ? 'above' : 'mine')} style={{ margin: '0 6px' }}>{s.grade === null ? '⚠️ no grade' : gradeLabel(s.grade)}</span>
         <span className="grade-tag mine" style={{ marginRight: 6 }} title="Chinese HSK level">🀄 {hskLabel(s.hskLevel ?? 1)}{s.wordsKnown ? ` · 🧠 ${s.wordsKnown} words` : ''}</span>
         <span className="student-stats">
@@ -25,6 +26,8 @@ function StudentCard({ s, onGrade, onHsk }) {
       </div>
       {open && (
         <div className="student-detail">
+          <StudentActivity s={s} r={r} />
+          <h4 style={{ margin: '18px 0 8px' }}>Settings and overall progress</h4>
           <label className="muted" style={{ display: 'block', marginBottom: 10 }}>Grade:{' '}
             <select className="grade-select" value={s.grade ?? ''} onChange={e => onGrade(s, e.target.value)}>
               <option value="">— not set —</option>
@@ -72,6 +75,12 @@ function StudentCard({ s, onGrade, onHsk }) {
 
 export default function TeacherStudents({ toast }) {
   const [students, setStudents] = useState(null);
+  const [n, setN] = useState(7);            // report period in days
+  const [openId, setOpenId] = useState(null);
+  const cards = useRef({});
+  const rows = useMemo(() => (students || []).map(s => ({ s, r: summarize(s, n) })), [students, n]);
+  const attention = rows.filter(x => x.r.flags.length).length;
+  const openStudent = id => { setOpenId(id); setTimeout(() => cards.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50); };
   const load = () => api('GET', '/api/students').then(setStudents).catch(() => setStudents([]));
   useEffect(() => { load(); }, []);
 
@@ -95,13 +104,30 @@ export default function TeacherStudents({ toast }) {
     <main className="page">
       <div className="page-head">
         <h2>👥 Student Progress</h2>
-        <p className="muted">Click a student to set their grade and see their progress and homework.</p>
+        <p className="muted">Activity for each student over the last {n} days. Click a student for their full report, grade settings and homework.
+          {' '}Day-by-day history is recorded from {new Date(REPORTS_START + 'T12:00:00').toLocaleDateString()}.</p>
       </div>
+      {rows.length > 0 && (<>
+        <div className="report-toolbar no-print">
+          <div className="seg" role="group" aria-label="Report period">
+            {[7, 30].map(d => <button key={d} type="button" className={'btn ' + (n === d ? 'btn-primary' : 'btn-ghost')} aria-pressed={n === d} onClick={() => setN(d)}>Last {d} days</button>)}
+          </div>
+          <span className={attention ? 'report-flag' : 'report-good'}>{attention ? `⚠️ ${attention} of ${rows.length} need attention` : `✓ All ${rows.length} on track`}</span>
+          <span style={{ flex: 1 }} />
+          <button type="button" className="btn btn-ghost" onClick={() => downloadCsv(rows, n)}>⬇️ Download CSV</button>
+          <button type="button" className="btn btn-ghost" onClick={() => window.print()}>🖨️ Print</button>
+        </div>
+        <ClassOverview rows={rows} onOpen={openStudent} />
+        <h3 style={{ margin: '24px 0 10px' }}>Student reports</h3>
+      </>)}
       {students === null
         ? <p className="muted">Loading…</p>
         : students.length === 0
           ? <p className="muted">No students in your roster yet. Ask an admin to add students to your roster.</p>
-          : students.map(s => <StudentCard key={s.id} s={s} onGrade={setGrade} onHsk={setHsk} />)}
+          : rows.map(({ s, r }) => (
+            <div key={s.id} ref={el => { cards.current[s.id] = el; }}>
+              <StudentCard s={s} r={r} open={openId === s.id} setOpen={o => setOpenId(o ? s.id : null)} onGrade={setGrade} onHsk={setHsk} />
+            </div>))}
     </main>
   );
 }
