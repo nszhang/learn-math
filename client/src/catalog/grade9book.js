@@ -4,6 +4,8 @@
    chapters; ids continue the t-series (t104..t140).
    ============================================================ */
 
+import { svg, C } from './ixlMath/h.js';
+
 const ri = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const pick = arr => arr[ri(0, arr.length - 1)];
 const shuffle = arr => {
@@ -38,6 +40,70 @@ const valTable = (xs, ys) => {
   const cell = v => `<td style="border:1px solid #94a3b8;padding:2px 10px">${fmtNum(v)}</td>`;
   const head = v => `<th style="border:1px solid #94a3b8;padding:2px 10px">${v}</th>`;
   return `<table style="border-collapse:collapse;margin:6px 0"><tr>${head('x')}${xs.map(cell).join('')}</tr><tr>${head('y')}${ys.map(cell).join('')}</tr></table>`;
+};
+
+/* Growing figure patterns (MathLinks 6.1 / HW 4.1 style). Each draw(n) returns
+   { w, h, inner } for Figure n; count = mv·n + b0. */
+const stick = (x1, y1, x2, y2) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${C.accent}" stroke-width="3" stroke-linecap="round"/>`;
+const tile = (x, y, s, fill = '#6ee7b7') => `<rect x="${x}" y="${y}" width="${s}" height="${s}" fill="${fill}" stroke="${C.ink}" stroke-width="1"/>`;
+const dot = (x, y) => `<circle cx="${x}" cy="${y}" r="5" fill="${C.primary}"/>`;
+const FIG_PATTERNS = [
+  { obj: 'toothpicks', v: 't', mv: 3, b0: 1, draw: n => {   // row of squares
+    const s = 22; let inner = '';
+    for (let i = 0; i <= n; i++) inner += stick(i * s, 0, i * s, s);
+    for (let i = 0; i < n; i++) inner += stick(i * s, 0, i * s + s, 0) + stick(i * s, s, i * s + s, s);
+    return { w: n * s, h: s, inner };
+  } },
+  { obj: 'toothpicks', v: 't', mv: 2, b0: 1, draw: n => {   // strip of alternating triangles
+    const s = 24, H = 21; let inner = '', w = 0;
+    for (let i = 0; i < n; i++) {
+      const k = Math.floor(i / 2);
+      if (i % 2 === 0) { inner += stick(k * s, H, k * s + s, H) + stick(k * s, H, k * s + s / 2, 0) + stick(k * s + s, H, k * s + s / 2, 0); w = Math.max(w, k * s + s); }
+      else { inner += stick(k * s + s / 2, 0, k * s + 1.5 * s, 0) + stick(k * s + 1.5 * s, 0, k * s + s, H); w = Math.max(w, k * s + 1.5 * s); }
+    }
+    return { w, h: H, inner };
+  } },
+  { obj: 'toothpicks', v: 't', mv: 5, b0: 1, draw: n => {   // row of houses sharing walls
+    const s = 22, r = 14; let inner = '';
+    for (let i = 0; i <= n; i++) inner += stick(i * s, r, i * s, r + s);
+    for (let i = 0; i < n; i++) inner += stick(i * s, r + s, i * s + s, r + s) + stick(i * s, r, i * s + s, r) + stick(i * s, r, i * s + s / 2, 0) + stick(i * s + s / 2, 0, i * s + s, r);
+    return { w: n * s, h: r + s, inner };
+  } },
+  { obj: 'tiles', v: 's', mv: 4, b0: 1, draw: n => {        // plus sign with arms of length n
+    const s = 11, c = n * s; let inner = tile(c, c, s, '#fde047');
+    for (let i = 1; i <= n; i++) inner += tile(c + i * s, c, s) + tile(c - i * s, c, s) + tile(c, c + i * s, s) + tile(c, c - i * s, s);
+    return { w: (2 * n + 1) * s, h: (2 * n + 1) * s, inner };
+  } },
+  { obj: 'tiles', v: 's', mv: 2, b0: 1, draw: n => {        // n tiles on top of n + 1 tiles
+    const s = 16; let inner = '';
+    for (let i = 0; i < n; i++) inner += tile(i * s, 0, s);
+    for (let i = 0; i <= n; i++) inner += tile(i * s, s, s);
+    return { w: (n + 1) * s, h: 2 * s, inner };
+  } },
+  { obj: 'tiles', v: 's', mv: 3, b0: 2, draw: n => {        // 3 × n rectangle with a tile at each end of the middle row
+    const s = 13; let inner = tile(0, s, s) + tile((n + 1) * s, s, s);
+    for (let i = 1; i <= n; i++) for (let r = 0; r < 3; r++) inner += tile(i * s, r * s, s);
+    return { w: (n + 2) * s, h: 3 * s, inner };
+  } },
+  ...[[2, 1], [2, 3], [3, 1], [3, 2], [4, 1], [4, 3]].map(([mv, b0]) => ({ obj: 'dots', v: 'd', mv, b0, draw: n => {
+    const g = 14; let inner = '';                          // b0 dots, then n columns of mv dots
+    for (let r = 0; r < b0; r++) inner += dot(6, 6 + r * g);
+    for (let i = 1; i <= n; i++) for (let r = 0; r < mv; r++) inner += dot(6 + i * g + 6, 6 + r * g);
+    return { w: n * g + 24, h: (Math.max(mv, b0) - 1) * g + 12, inner };
+  } }))
+];
+/* Figures 1–3 of a pattern side by side, labelled underneath. */
+const figureStrip = pat => {
+  const figs = [1, 2, 3].map(n => pat.draw(n));
+  const H = Math.max(...figs.map(f => f.h)), gap = 30;
+  let x = 8, inner = '';
+  figs.forEach((f, i) => {
+    const w = Math.max(f.w, 52);
+    inner += `<g transform="translate(${x + (w - f.w) / 2},${8 + H - f.h})">${f.inner}</g>`;
+    inner += `<text x="${x + w / 2}" y="${H + 30}" font-size="13" text-anchor="middle" fill="${C.ink}">Figure ${i + 1}</text>`;
+    x += w + gap;
+  });
+  return svg(x - gap + 8, H + 38, inner, 'aria-label="figures 1 to 3 of a growing pattern"');
 };
 
 export const GRADE9_BOOK_SKILLS = [
@@ -254,7 +320,7 @@ export const GRADE9_BOOK_SKILLS = [
       ['A city randomly calls 500 phone numbers from the whole city directory to ask about transit', 'not biased']
     ]);
     const [scenario, correct] = rows;
-    return { type: 'mc', prompt: `${m(scenario)}. Is this sample <strong>biased</strong> or not?`,
+    return { type: 'mc', prompt: `${scenario}. Is this sample <strong>biased</strong> or not?`,
       answer: correct, choices: ['biased', 'not biased'],
       explain: correct === 'biased'
         ? 'Only people already favouring the product/opinion were asked — convenience sampling creates <strong>bias</strong>.'
@@ -346,18 +412,29 @@ S('t132', 'Chords equidistant from the centre', 'Circle geometry', '⭕', () => 
 
 /* ===== Chapter 6: Linear relations — 6.1 Representing Patterns ===== */
 S('t133', 'Write an equation for a figure pattern', 'Linear relations', '🧩', () => {
-  const [obj, v] = pick([['toothpicks', 't'], ['tiles', 's'], ['circles', 'c'], ['dots', 'd'], ['sticks', 'k']]);
-  const mv = ri(2, 6);
-  const b0 = ri(Math.max(-3, 3 - mv), 8);   // intercept, keeping figure 1 positive
+  const pat = pick(FIG_PATTERNS);
+  const { obj, v, mv, b0 } = pat;
   const start = mv + b0;                     // figure 1 count
+  const counts = [1, 2, 3].map(n => mv * n + b0).join(', ');
   const correct = linEq(v, mv, b0);
+  const how = `Count: Figures 1, 2, 3 use ${counts} ${obj} — each figure adds ${mv}.<br>
+      So ${v} = ${mv}n + k. Use Figure 1: ${start} = ${mv}(1) + k → k = ${b0}.`;
+  if (pick([true, false])) {
+    const N = ri(10, 60), ans = mv * N + b0;
+    return { type: 'num',
+      prompt: `Look at the pattern.${figureStrip(pat)}If the pattern continues, how many ${obj} are in Figure ${m(String(N))}?`,
+      answer: ans,
+      explain: `${how}<br>Figure ${N}: ${v} = ${mv}(${N}) + ${b0} = <strong>${ans}</strong>.<br>
+      💡 An equation beats drawing ${N} figures!` };
+  }
+  const distractors = [...new Set([linEq(v, mv, start), linEq(v, start, mv), linEq(v, mv + 1, b0), linEq(v, start, 0)])]
+    .filter(d => d !== correct).slice(0, 3);
   return { type: 'mc',
-    prompt: `In a pattern, Figure 1 uses ${m(String(start))} ${obj}, and each new figure adds ${m(String(mv))} more. Which equation relates the number of ${obj} ${m(v)} to the figure number ${m('n')}?`,
+    prompt: `Look at the pattern.${figureStrip(pat)}Which equation relates the number of ${obj} ${m(v)} to the figure number ${m('n')}?`,
     answer: correct,
-    choices: mcChoices(correct, [linEq(v, mv, start), linEq(v, start, mv), linEq(v, mv + 1, b0)]),
-    explain: `The amount <em>added each time</em> is the multiplier: ${v} = ${mv}n + k.<br>
-      Use Figure 1 to find k: ${start} = ${mv}(1) + k → k = ${fmtNum(b0)}.<br>
-      💡 Slope comes from the pattern's growth; the intercept is NOT just the first figure — it's the value at figure 0!` };
+    choices: mcChoices(correct, distractors),
+    explain: `${how}<br>Equation: <strong>${correct}</strong>.<br>
+      💡 The intercept is NOT the first figure's count — it's the value at figure 0!` };
 }),
 S('t134', 'Patterns: find the figure number', 'Linear relations', '🔍', () => {
   const [obj, v] = pick([['toothpicks', 't'], ['tiles', 's'], ['circles', 'c'], ['squares', 's']]);
@@ -406,7 +483,7 @@ S('t135', 'Interpolate or extrapolate?', 'Linear relations', '📉', () => {
   const val = within ? inVal : outVal;
   const correct = within ? 'interpolation' : 'extrapolation';
   return { type: 'mc',
-    prompt: `A graph shows ${m(desc)}. You use the graph to estimate the value at ${m(`${val} ${unit}`)}. This is an example of…`,
+    prompt: `A graph shows ${desc}. You use the graph to estimate the value at ${m(`${val} ${unit}`)}. This is an example of…`,
     answer: correct,
     choices: mcChoices(correct, [within ? 'extrapolation' : 'interpolation', 'a table of values', 'an equation']),
     explain: within
@@ -429,7 +506,7 @@ S('t136', 'Is interpolation reasonable here?', 'Linear relations', '🤔', () =>
     ['Extrapolating the crowd at a concert to 30,000 people from a graph of a 12,000-seat arena', 'not reasonable', 'The arena cannot hold more than its seat capacity — the pattern cannot continue.']
   ]);
   return { type: 'mc',
-    prompt: `${m(scenario)}. Is this <strong>reasonable</strong>?`,
+    prompt: `${scenario}. Is this <strong>reasonable</strong>?`,
     answer: correct, choices: ['reasonable', 'not reasonable'],
     explain: `${why}<br>💡 Interpolate/extrapolate only when in-between (or beyond) values actually make sense — "5.4 people" doesn't!` };
 }),
@@ -458,7 +535,7 @@ S('t137', 'Write an equation from words', 'Linear relations', '✍️', () => {
     ? [linEq('y', b, mv, 'x'), linEq('y', mv, -b, 'x'), linEq('y', mv + 1, b, 'x')]
     : [linEq('y', mv, b, 'x'), linEq('y', b, kind === 'less' ? -mv : mv, 'x'), `y = ${b} ${MINUS} ${mv}x`];
   return { type: 'mc',
-    prompt: `Write an equation: <em>"${m(sentence)}."</em>`,
+    prompt: `Write an equation: <em>"${sentence}."</em>`,
     answer: correct,
     choices: mcChoices(correct, distractors),
     explain: kind === 'less'
@@ -512,18 +589,18 @@ S('t140', 'Fixed cost plus rate', 'Linear relations', '🚕', () => {
   const kind = pick(['equation', 'cost', 'budget']);
   const fS = sc.f.toFixed(2), rS = sc.r.toFixed(2);
   if (kind === 'equation') {
-    const correct = `${sc.C} = ${sc.r}${sc.unit} + ${fS}`;
+    const correct = `${sc.C} = ${rS}${sc.unit} + ${fS}`;
     return { type: 'mc',
-      prompt: `${m(sc.text)}. Which equation models the cost ${m(sc.C)}?`,
+      prompt: `${sc.text}. Which equation models the cost ${m(sc.C)}?`,
       answer: correct,
-      choices: mcChoices(correct, [`${sc.C} = ${fS}${sc.unit} + ${sc.r}`, `${sc.C} = ${sc.r}${sc.unit} ${MINUS} ${fS}`, `${sc.C} = ${(sc.f + sc.r).toFixed(2)}${sc.unit}`]),
+      choices: mcChoices(correct, [`${sc.C} = ${fS}${sc.unit} + ${rS}`, `${sc.C} = ${rS}${sc.unit} ${MINUS} ${fS}`, `${sc.C} = ${(sc.f + sc.r).toFixed(2)}${sc.unit}`]),
       explain: `Rate per ${sc.unitName.slice(0, -1)} multiplies the variable; the one-time fee is added: <strong>${correct}</strong>.` };
   }
   if (kind === 'cost') {
     const n = ri(5, 30);
     const ans = Number((sc.f + sc.r * n).toFixed(2));
     return { type: 'num',
-      prompt: `${m(sc.text)}. What is the total cost (in dollars) for ${m(`${n} ${sc.unitName}`)}?`,
+      prompt: `${sc.text}. What is the total cost (in dollars) for ${m(String(n))} ${sc.unitName}?`,
       answer: ans,
       explain: `${sc.C} = ${rS} × ${n} + ${fS} = ${(sc.r * n).toFixed(2)} + ${fS} = <strong>$${ans.toFixed(2)}</strong>.` };
   }
@@ -531,7 +608,7 @@ S('t140', 'Fixed cost plus rate', 'Linear relations', '🚕', () => {
   const n = ri(6, 30);
   const B = Number((sc.f + sc.r * n).toFixed(2));
   return { type: 'num',
-    prompt: `${m(sc.text)}. With ${m('$' + B.toFixed(2))}, how many ${m(sc.unitName)} can you afford?`,
+    prompt: `${sc.text}. With ${m('$' + B.toFixed(2))}, how many ${sc.unitName} can you afford?`,
     answer: n,
     explain: `Solve ${B.toFixed(2)} = ${rS}${sc.unit} + ${fS}: subtract the fee → ${(B - sc.f).toFixed(2)}, then ÷ ${rS} → <strong>${n} ${sc.unitName}</strong>.<br>💡 Budget problems run the equation <em>backwards</em>!` };
 })
