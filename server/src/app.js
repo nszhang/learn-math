@@ -8,7 +8,8 @@ import * as db from './db.js';
 import * as srs from './srs.js';
 import { registerSocial, recordChallengeAnswer } from './social.js';
 import { nextScore, medalFor } from './scoring.js';
-import { AWARDS, AWARD_META } from './awards.js';
+import { AWARDS, AWARD_META, isEarned } from './awards.js';
+import { mathSkillsForGrade } from './gradeSkills.js';
 import { sendAssignmentEmail, sendCompletionEmail } from './reminders.js';
 
 export const SKILL_IDS = [
@@ -118,10 +119,13 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       db.getStats(pool, userId),
       db.getAllSkillProgress(pool, userId),
       db.getAwards(pool, userId),
-      pool.query('SELECT stars FROM users WHERE id = $1', [userId]).then(r => r.rows[0])
+      pool.query('SELECT stars, grade FROM users WHERE id = $1', [userId]).then(r => r.rows[0])
     ]);
+    const scores = new Map(progress.map(p => [p.skill_id, p.score]));
     return {
       stats,
+      scoreOf: id => scores.get(id) || 0,
+      grade: await mathSkillsForGrade(userRow.grade),   // the student's own-grade math skills (grade awards)
       mastered: progress.filter(p => p.score >= 100).length,
       totalScore: progress.reduce((s, p) => s + p.score, 0),
       stars: starsOverride ?? userRow.stars,
@@ -134,7 +138,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     const ctx = await awardContext(userId, starsOverride);
     const newly = [];
     for (const a of AWARDS) {
-      if (!ctx.earned.has(a.id) && a.check(ctx)) {
+      if (!ctx.earned.has(a.id) && isEarned(a, ctx)) {
         await db.grantAward(pool, userId, a.id);
         await db.addStars(pool, userId, 2);
         newly.push({ id: a.id, emoji: a.emoji, name: a.name, stars: 2 });
@@ -185,6 +189,11 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
   });
 
   app.get('/api/meta/awards', (req, res) => res.json(AWARD_META));
+  // how far the signed-in user is toward each award: { id: [value, goal|null] }
+  app.get('/api/awards/progress', auth, async (req, res) => {
+    const ctx = await awardContext(req.uid);
+    res.json(Object.fromEntries(AWARDS.map(a => [a.id, [a.value(ctx), a.goal(ctx)]])));
+  });
 
   // health check for deploy platforms / load balancers
   app.get('/api/health', async (req, res) => {

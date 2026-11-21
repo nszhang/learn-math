@@ -301,7 +301,10 @@ body {
   border: 2px solid transparent;
 }
 .award-card.earned { border-color: var(--accent); background: linear-gradient(180deg, var(--warn-bg), var(--card)); }
-.award-card.locked { opacity: .55; filter: grayscale(.8); }
+.award-card.locked { opacity: .7; filter: grayscale(.8); }
+.award-progress { height: 8px; border-radius: 999px; background: var(--bg); overflow: hidden; margin-top: 10px; }
+.award-progress > div { height: 100%; background: linear-gradient(90deg, var(--primary), #8b5cf6); border-radius: 999px; }
+.award-progress-text { display: block; margin-top: 4px; font-size: .78rem; font-weight: 700; color: var(--muted); }
 .award-emoji { font-size: 2.4rem; }
 .award-card h4 { margin: 10px 0 4px; }
 .award-card p { color: var(--muted); font-size: .88rem; line-height: 1.4; }

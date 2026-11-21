@@ -667,3 +667,32 @@ test('live events, pictures and call signalling', async () => {
   assert.equal(r.data.online, true);
   } finally { ctrl.abort(); }
 });
+
+test('awards: practising a few skills does not unlock the big awards; grade awards follow the catalog', async () => {
+  const { GRADES } = await import('../../client/src/skills.js');
+  const g9 = GRADES.find(g => g.num === 9).sections.flatMap(s => s.skills.map(k => k.id));
+  let r = await api('POST', '/api/admin/users', { token: admin.token,
+    body: { username: 'grade9kid', displayName: 'G9', password: 'pw123', role: 'student', grade: 9 } });
+  assert.equal(r.status, 200);
+  const kid = await login('grade9kid', 'pw123');
+  // master two skills with lots of questions
+  for (const skillId of ['t116', 't117']) {
+    for (let i = 0; i < 30; i++) await api('POST', '/api/answers', { token: kid.token, body: { skillId, correct: true, streak: i + 1 } });
+  }
+  const me = await api('GET', '/api/me', { token: kid.token });
+  const has = id => me.data.awards.some(a => a.award_id === id);
+  assert.ok(has('master1') && has('streak10'), 'starter awards still come quickly');
+  for (const id of ['master25', 'gradeQuarter', 'gradeBronze', 'gradeExplorer', 'gradeGold'])
+    assert.ok(!has(id), `${id} must not be earned from two skills`);
+
+  r = await api('GET', '/api/awards/progress', { token: kid.token });
+  assert.equal(r.status, 200);
+  assert.deepEqual(r.data.gradeGold, [2, g9.length], 'Grade Champion = master every Grade 9 math skill');
+  assert.equal(r.data.gradeBronze[1], Math.ceil(g9.length / 2));
+  assert.equal(r.data.master25[1], 25);
+
+  // a student with no grade can't earn grade awards (goal is null)
+  r = await api('GET', '/api/awards/progress', { token: student.token });
+  assert.equal(r.data.gradeGold[1], null);
+  assert.equal((await api('GET', '/api/awards/progress')).status, 401, 'progress needs login');
+});

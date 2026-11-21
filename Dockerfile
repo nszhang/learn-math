@@ -19,6 +19,9 @@ WORKDIR /app
 COPY --from=server-deps /app/server/node_modules server/node_modules
 COPY server/ server/
 COPY --from=client-build /app/client/dist client/dist
+# the server reads the skill catalog for grade awards
+COPY client/package.json client/package.json
+COPY client/src client/src
 EXPOSE 3001
 # Env expected at runtime: DATABASE_URL, JWT_SECRET (PORT optional, default 3001)
 CMD ["node", "server/src/index.js"]
