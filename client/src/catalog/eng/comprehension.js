@@ -18,15 +18,23 @@ import {
 const RC = 'Reading comprehension';
 const sk = (k, t, s, g, gen) => ({ k, t, s, g, gen });
 
-/** Passage as HTML: title (and author), optional picture, numbered paragraphs or stanzas. */
-export function renderPassage(ps, { pic = true } = {}) {
+/** Passage as HTML: title (and author), optional picture, numbered paragraphs or stanzas.
+    blank: a word to hide (cloze questions) — its one occurrence in the passage is shown as a gap. */
+export function renderPassage(ps, { pic = true, blank = null } = {}) {
   const numbered = ps.p.filter(para => !/^(CHARACTERS|\[)/.test(para) && !/^[A-Z][A-Z .']+:/.test(para));
+  let hidden = !blank;
+  const hide = text => {
+    if (hidden) return text;
+    const out = text.replace(new RegExp(`\\b${blank}\\b`), '<span class="rc-blank" aria-label="missing word">______</span>');
+    hidden = out !== text;
+    return out;
+  };
   const body = ps.p.map(para => {
     if (para.startsWith('[')) return `<p class="rc-note">${para}</p>`;   // context note (ours), never a stanza
-    if (ps.poem) return `<p class="rc-stanza">${para.replace(/\n/g, '<br>')}</p>`;
+    if (ps.poem) return `<p class="rc-stanza">${hide(para).replace(/\n/g, '<br>')}</p>`;
     const k = numbered.indexOf(para);   // number only the author's paragraphs, from 1
     const n = ps.p.length > 1 && k >= 0 ? `<span class="rc-pn">${k + 1}</span>` : '';
-    return `<p>${n}${para}</p>`;
+    return `<p>${n}${hide(para)}</p>`;
   }).join('');
   return `<div class="passage rc-passage${ps.poem ? ' rc-poem' : ''}">` +
     (pic && ps.pic ? `<div class="rc-pic" aria-hidden="true">${ps.pic}</div>` : '') +
@@ -49,14 +57,49 @@ export function nextPassage(pool) {
   return pool[bag.last];
 }
 
+/* ---------- the large reading library (client/public/reading/{band}.json, built by scripts/classics/library.py) ----------
+   Thousands of passages from public-domain books, each with close-reading questions. A band's file is fetched in
+   the background the first time a skill at that grade asks for it; until it arrives, the hand-written passages are used. */
+const LIB = {};          // band → { fic, story, nf, essay }: stable arrays, so rotation works
+const loading = {};
+export const bandOfGrade = g => (g < 3 ? null : g <= 4 ? '3_4' : g <= 6 ? '5_6' : g <= 8 ? '7_8' : g <= 10 ? '9_10' : '11_12');
+export function registerReadingBand(band, items) {
+  const by = { fic: [], story: [], nf: [], essay: [] };
+  for (const it of items) by[it.kind]?.push(it);
+  LIB[band] = by;
+}
+export function loadReadingBand(band) {
+  if (!band || LIB[band] || loading[band] || typeof window === 'undefined' || typeof fetch === 'undefined') return;
+  const base = (import.meta.env?.BASE_URL || '/').replace(/\/?$/, '/');
+  loading[band] = fetch(`${base}reading/${band}.json`).then(r => (r.ok ? r.json() : Promise.reject(r.status)))
+    .then(items => registerReadingBand(band, items)).catch(() => { delete loading[band]; });
+}
+export const loadReadingForGrade = g => loadReadingBand(bandOfGrade(g));
+const libraryPool = (grade, kinds) => {
+  const band = bandOfGrade(grade);
+  loadReadingBand(band);
+  const lib = band && LIB[band];
+  if (!lib) return null;
+  const pools = kinds.map(k => lib[k]).filter(p => p && p.length);
+  return pools.length ? pick(pools) : null;
+};
+/** Mostly library passages of these kinds (once loaded), otherwise the hand-written pool. */
+const withLibrary = (kinds, curated, share = 0.65) => {
+  const own = passageGen(curated);
+  return grade => {
+    const pool = Math.random() < share ? libraryPool(grade, kinds) : null;
+    return pool ? passageGen(pool)(grade) : own(grade);
+  };
+};
+
 /** gen(grade): the next passage from the pool for this grade (pools must be stable arrays), then one of its questions. */
 export const passageGen = pools => grade => {
   const pool = typeof pools === 'function' ? pools(grade) : pools;
   const ps = nextPassage(pool);
-  const [q, a, wrong, why] = pick(ps.q);
+  const [q, a, wrong, why, blank] = pick(ps.q);
   return {
     type: 'mc',
-    prompt: `${renderPassage(ps)}<p class="rc-q">${q}</p>`,
+    prompt: `${renderPassage(ps, { blank })}<p class="rc-q">${q}</p>`,
     answer: a,
     choices: shuffle([a, ...shuffle(wrong.filter(w => w !== a)).slice(0, 3)]),
     explain: why
@@ -122,20 +165,20 @@ export const TOPIC_POOLS = {
 const noPic = pool => pool.map(ps => ({ ...ps, pic: null }));
 
 export const RC_SPECS = [
-  sk('RcL', 'Read and understand: stories', RC, G(1, 12), passageGen(g => band(g, LIT))),
-  sk('RcI', 'Read and understand: nonfiction', RC, G(1, 12), passageGen(g => band(g, INFO))),
+  sk('RcL', 'Read and understand: stories', RC, G(1, 12), withLibrary(['fic', 'story'], g => band(g, LIT), 0.5)),
+  sk('RcI', 'Read and understand: nonfiction', RC, G(1, 12), withLibrary(['nf'], g => band(g, INFO), 0.5)),
   sk('RcA', 'Read and understand: arguments', RC, G(6, 12), passageGen(ARG)),
   sk('RcP', 'Read and understand: poetry', RC, G(9, 12), passageGen(POEM)),
   sk('RcC', 'Read classic and historical texts', RC, [11, 12], passageGen(RC_CLASSIC_11_12)),
   // famous books and authors, Grades 1–12
-  sk('RcKb', "Read from famous children's books", RC, G(1, 4), passageGen(CL_BOOKS)),
+  sk('RcKb', "Read from famous children's books", RC, G(1, 4), withLibrary(['fic'], CL_BOOKS)),
   sk('RcFb', "Read Aesop's fables", RC, G(2, 4), passageGen(CL_FABLES)),
-  sk('RcNv', 'Read from classic novels', RC, G(5, 12), passageGen(CL_NOVELS)),
-  sk('RcSs', 'Read classic short stories', RC, G(7, 10), passageGen(CL_STORIES)),
+  sk('RcNv', 'Read from classic novels', RC, G(5, 12), withLibrary(['fic'], CL_NOVELS)),
+  sk('RcSs', 'Read classic short stories', RC, G(7, 12), withLibrary(['story'], CL_STORIES, 0.75)),
   sk('RcFp', 'Read famous poems', RC, G(2, 12), passageGen(CL_POEMS)),
   sk('RcSh', 'Read Shakespeare', RC, G(8, 12), passageGen(CL_SHAKESPEARE)),
-  sk('RcNn', 'Read classic nonfiction: memoirs, science and travel', RC, G(4, 12), passageGen(CL_NONFIC)),
-  sk('RcEs', 'Read classic essays and speeches', RC, G(7, 12), passageGen(CL_ESSAYS)),
+  sk('RcNn', 'Read classic nonfiction: memoirs, science and travel', RC, G(4, 12), withLibrary(['nf'], CL_NONFIC)),
+  sk('RcEs', 'Read classic essays and speeches', RC, G(7, 12), withLibrary(['essay'], CL_ESSAYS)),
   sk('RcAu', 'Famous authors and their works', RC, G(5, 12), authorsGen),
   // Grades 3–5 genre/topic skills (titles come from the IXL alignment)
   sk('TpFnI', 'Read fantasy with illustrations', RC, G(3, 5), passageGen(TOPIC_POOLS.fantasy)),

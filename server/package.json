@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "node --test test/api.test.js test/ixlmath.test.js test/skillsearch.test.js test/attribution.test.js"
+    "test": "node --test test/api.test.js test/ixlmath.test.js test/skillsearch.test.js test/attribution.test.js test/reading-library.test.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
