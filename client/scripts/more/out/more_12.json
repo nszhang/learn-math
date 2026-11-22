@@ -1,0 +1,5552 @@
+{
+ "engPnRf": [
+  [
+   "Which sentence uses a <strong>reflexive</strong> pronoun?",
+   "Jaya taught herself to knit.",
+   [
+    "Jaya herself knitted the scarf.",
+    "Jaya knitted the scarf for her.",
+    "Jaya and I knitted the scarf."
+   ],
+   "Herself receives the action of taught, so it is reflexive and cannot be removed."
+  ],
+  [
+   "Which sentence uses an <strong>intensive</strong> pronoun?",
+   "The mayor himself cut the ribbon.",
+   [
+    "The mayor cut himself on the ribbon.",
+    "The mayor cut the ribbon for him.",
+    "The mayor and he cut the ribbon."
+   ],
+   "Himself only adds emphasis; removing it leaves a complete sentence, so it is intensive."
+  ],
+  [
+   "Which sentence uses a <strong>reflexive</strong> pronoun?",
+   "The puppy saw itself in the mirror.",
+   [
+    "The puppy itself broke the mirror.",
+    "The puppy saw it in the mirror.",
+    "The puppy saw them in the mirror."
+   ],
+   "Itself is the object of saw and refers back to the puppy, so it is reflexive."
+  ],
+  [
+   "Which sentence uses an <strong>intensive</strong> pronoun?",
+   "We ourselves painted the mural.",
+   [
+    "We painted ourselves a mural.",
+    "We painted the mural for us.",
+    "They painted the mural with us."
+   ],
+   "Ourselves emphasizes we and can be removed without changing the meaning, so it is intensive."
+  ],
+  [
+   "Which sentence uses a <strong>reflexive</strong> pronoun?",
+   "The players congratulated themselves after the win.",
+   [
+    "The players themselves organized the party.",
+    "The players congratulated them after the win.",
+    "The coach congratulated the players after the win."
+   ],
+   "Themselves is the object of congratulated and refers to the players, so it is reflexive."
+  ],
+  [
+   "Which sentence uses an <strong>intensive</strong> pronoun?",
+   "You yourself said the test would be easy.",
+   [
+    "You told yourself the test would be easy.",
+    "You said the test would be easy for you.",
+    "You said it would be easy."
+   ],
+   "Yourself only emphasizes you, so it is intensive."
+  ],
+  [
+   "Which sentence uses a <strong>reflexive</strong> pronoun?",
+   "I made myself a grilled cheese sandwich.",
+   [
+    "I myself made the grilled cheese sandwich.",
+    "I made a sandwich for me.",
+    "My brother made me a sandwich."
+   ],
+   "Myself is the indirect object and refers back to I, so it is reflexive."
+  ],
+  [
+   "Which sentence uses an <strong>intensive</strong> pronoun?",
+   "The author herself signed my copy of the book.",
+   [
+    "The author introduced herself to the crowd.",
+    "The author signed the book for her.",
+    "The author signed my book."
+   ],
+   "Herself emphasizes the author and can be removed, so it is intensive."
+  ],
+  [
+   "Which sentence uses a <strong>reflexive</strong> pronoun?",
+   "Liam reminded himself to bring his skates.",
+   [
+    "Liam himself brought the skates.",
+    "Liam reminded him to bring skates.",
+    "Liam brought his skates."
+   ],
+   "Himself is the object of reminded and refers to Liam, so it is reflexive."
+  ],
+  [
+   "Which sentence uses an <strong>intensive</strong> pronoun?",
+   "The students themselves chose the field trip.",
+   [
+    "The students prepared themselves for the field trip.",
+    "The teacher chose the field trip for them.",
+    "The students chose the trip."
+   ],
+   "Themselves only adds emphasis to students, so it is intensive."
+  ],
+  [
+   "Which sentence uses a <strong>reflexive</strong> pronoun?",
+   "The cat stretched itself out in the sun.",
+   [
+    "The cat itself knocked over the plant.",
+    "The cat stretched out in the sun with it.",
+    "The cat stretched in the sun."
+   ],
+   "Itself is the object of stretched and refers back to the cat, so it is reflexive."
+  ],
+  [
+   "Which sentence uses an <strong>intensive</strong> pronoun?",
+   "I myself have never been to Nunavut.",
+   [
+    "I have never seen myself as a traveller.",
+    "Nobody has taken me to Nunavut.",
+    "I have never been to Nunavut."
+   ],
+   "Myself emphasizes I and can be removed without losing meaning, so it is intensive."
+  ],
+  [
+   "Is the pronoun in bold reflexive or intensive? Grandpa built the cabin <strong>himself</strong>.",
+   "Intensive, because it can be removed and only adds emphasis",
+   [
+    "Reflexive, because it can be removed and only adds emphasis",
+    "Reflexive, because it is the object of built",
+    "Intensive, because it is the object of built"
+   ],
+   "Grandpa built the cabin is complete without himself, so the pronoun is intensive."
+  ],
+  [
+   "Is the pronoun in bold reflexive or intensive? Mia blamed <strong>herself</strong> for the mistake.",
+   "Reflexive, because it is the object of blamed",
+   [
+    "Intensive, because it is the object of blamed",
+    "Intensive, because it only adds emphasis",
+    "Reflexive, because it only adds emphasis"
+   ],
+   "Herself receives the action of blamed, so it is reflexive."
+  ],
+  [
+   "Is the pronoun in bold reflexive or intensive? The twins <strong>themselves</strong> could not tell the photos apart.",
+   "Intensive, because it only adds emphasis",
+   [
+    "Reflexive, because it only adds emphasis",
+    "Reflexive, because it is the object of a verb",
+    "Intensive, because it is the object of a verb"
+   ],
+   "Themselves emphasizes the twins and can be removed, so it is intensive."
+  ],
+  [
+   "Is the pronoun in bold reflexive or intensive? Please help <strong>yourselves</strong> to some bannock.",
+   "Reflexive, because it is the object of help",
+   [
+    "Intensive, because it is the object of help",
+    "Intensive, because it only adds emphasis",
+    "Reflexive, because it only adds emphasis"
+   ],
+   "Yourselves receives the action of help and refers to the listeners, so it is reflexive."
+  ],
+  [
+   "Which pronoun correctly completes the sentence as a reflexive pronoun? Ben and I prepared ___ for the exam.",
+   "ourselves",
+   [
+    "ourself",
+    "themselves",
+    "us"
+   ],
+   "Ben and I is first person plural, so the reflexive pronoun is ourselves."
+  ],
+  [
+   "Which pronoun correctly completes the sentence as an intensive pronoun? The Prime Minister ___ visited our school.",
+   "herself",
+   [
+    "hisself",
+    "theirselves",
+    "her"
+   ],
+   "Herself is the correct intensive form; hisself and theirselves are not standard words."
+  ],
+  [
+   "Which pronoun correctly completes the sentence? The boys built the snow fort by ___.",
+   "themselves",
+   [
+    "theirselves",
+    "themself",
+    "himself"
+   ],
+   "The standard reflexive for a plural subject like the boys is themselves."
+  ],
+  [
+   "Which pronoun correctly completes the sentence? He cooked dinner ___.",
+   "himself",
+   [
+    "hisself",
+    "itself",
+    "themselves"
+   ],
+   "Himself is the standard form for he; hisself is not standard English."
+  ],
+  [
+   "Which sentence uses a <strong>reflexive</strong> pronoun?",
+   "The robot powered itself down at night.",
+   [
+    "The robot itself was very small.",
+    "The robot powered down at night.",
+    "The robot powered it down at night."
+   ],
+   "Itself is the object of powered and refers back to the robot, so it is reflexive."
+  ],
+  [
+   "Which sentence uses an <strong>intensive</strong> pronoun?",
+   "The team captain herself apologized to the fans.",
+   [
+    "The team captain hurt herself during practice.",
+    "The fans apologized to the team captain.",
+    "The captain apologized to the fans."
+   ],
+   "Herself emphasizes the captain and is not needed for the sentence to be complete, so it is intensive."
+  ]
+ ],
+ "engVbTr": [
+  [
+   "Is the verb in bold transitive or intransitive? The baby <strong>slept</strong> through the storm.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Slept has no direct object; through the storm is a prepositional phrase."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? Omar <strong>painted</strong> the fence.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Painted acts on the direct object the fence."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The geese <strong>flew</strong> south for the winter.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Flew has no direct object receiving the action."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The goalie <strong>blocked</strong> the shot.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Blocked has the direct object the shot."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? Our class <strong>laughed</strong> at the joke.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Laughed has no direct object; at the joke is a prepositional phrase."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? Grandma <strong>knitted</strong> a sweater.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Knitted acts on the direct object a sweater."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The ice <strong>melted</strong> quickly.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Melted has no direct object; quickly is an adverb."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? Priya <strong>wrote</strong> a letter to her pen pal.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Wrote has the direct object a letter."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The volcano <strong>erupted</strong> last night.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Erupted does not act on any object."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The farmer <strong>planted</strong> wheat in the spring.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Planted acts on the direct object wheat."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The children <strong>arrived</strong> early.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Arrived has no direct object; early is an adverb."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? Dad <strong>fixed</strong> the leaky tap.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Fixed acts on the direct object the leaky tap."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The lights <strong>flickered</strong> during the storm.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Flickered has no direct object."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? Noah <strong>carried</strong> the groceries inside.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Carried has the direct object the groceries."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The runners <strong>rested</strong> after the race.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Rested has no direct object; after the race is a prepositional phrase."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The dog <strong>buried</strong> its bone in the yard.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Buried acts on the direct object its bone."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? Snow <strong>fell</strong> all afternoon.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Fell never takes a direct object."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? Ella <strong>borrowed</strong> my calculator.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Borrowed has the direct object my calculator."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The audience <strong>clapped</strong> loudly.",
+   "Intransitive, because it has no direct object",
+   [
+    "Transitive, because it has no direct object",
+    "Transitive, because it has a direct object",
+    "Intransitive, because it has a direct object"
+   ],
+   "Clapped has no direct object here; loudly is an adverb."
+  ],
+  [
+   "Is the verb in bold transitive or intransitive? The scientist <strong>measured</strong> the temperature.",
+   "Transitive, because it has a direct object",
+   [
+    "Intransitive, because it has a direct object",
+    "Intransitive, because it has no direct object",
+    "Transitive, because it has no direct object"
+   ],
+   "Measured acts on the direct object the temperature."
+  ],
+  [
+   "Which sentence has a <strong>transitive</strong> verb?",
+   "The chef sliced the bread.",
+   [
+    "The chef smiled.",
+    "The chef stood by the oven.",
+    "The chef laughed at the joke."
+   ],
+   "Sliced has a direct object, the bread, so it is transitive."
+  ],
+  [
+   "Which sentence has an <strong>intransitive</strong> verb?",
+   "The kittens slept in a basket.",
+   [
+    "The kittens chased the yarn.",
+    "The kittens drank the milk.",
+    "The kittens knocked over a cup."
+   ],
+   "Slept has no direct object; in a basket is a prepositional phrase."
+  ]
+ ],
+ "engVbLk": [
+  [
+   "What is the word in bold? The soup tastes <strong>salty</strong>.",
+   "Predicate adjective",
+   [
+    "Predicate noun",
+    "Direct object",
+    "Adverb"
+   ],
+   "Tastes is a linking verb, and salty describes the subject soup."
+  ],
+  [
+   "What is the word in bold? My aunt is a <strong>firefighter</strong>.",
+   "Predicate noun",
+   [
+    "Predicate adjective",
+    "Direct object",
+    "Adverb"
+   ],
+   "Is links the subject aunt to the noun firefighter, which renames her."
+  ],
+  [
+   "What is the word in bold? Kai kicked the <strong>ball</strong>.",
+   "Direct object",
+   [
+    "Predicate noun",
+    "Predicate adjective",
+    "Adverb"
+   ],
+   "Kicked is an action verb, and ball receives the action."
+  ],
+  [
+   "What is the word in bold? The sky became <strong>cloudy</strong>.",
+   "Predicate adjective",
+   [
+    "Predicate noun",
+    "Direct object",
+    "Adverb"
+   ],
+   "Became is a linking verb, and cloudy describes the sky."
+  ],
+  [
+   "What is the word in bold? Ottawa is the <strong>capital</strong> of Canada.",
+   "Predicate noun",
+   [
+    "Predicate adjective",
+    "Direct object",
+    "Adverb"
+   ],
+   "Capital renames the subject Ottawa after the linking verb is."
+  ],
+  [
+   "What is the word in bold? The students seemed <strong>nervous</strong>.",
+   "Predicate adjective",
+   [
+    "Predicate noun",
+    "Direct object",
+    "Adverb"
+   ],
+   "Seemed links the subject to nervous, which describes them."
+  ],
+  [
+   "What is the word in bold? Ava built a <strong>birdhouse</strong>.",
+   "Direct object",
+   [
+    "Predicate noun",
+    "Predicate adjective",
+    "Adverb"
+   ],
+   "Built is an action verb, and birdhouse receives the action."
+  ],
+  [
+   "What is the word in bold? The winner was <strong>Hannah</strong>.",
+   "Predicate noun",
+   [
+    "Predicate adjective",
+    "Direct object",
+    "Adverb"
+   ],
+   "Hannah renames the subject winner after the linking verb was."
+  ],
+  [
+   "What is the word in bold? The roses smell <strong>sweet</strong>.",
+   "Predicate adjective",
+   [
+    "Predicate noun",
+    "Direct object",
+    "Adverb"
+   ],
+   "Smell is a linking verb here, and sweet describes the roses."
+  ],
+  [
+   "What is the word in bold? The coach blew the <strong>whistle</strong>.",
+   "Direct object",
+   [
+    "Predicate noun",
+    "Predicate adjective",
+    "Adverb"
+   ],
+   "Blew is an action verb, and whistle receives the action."
+  ],
+  [
+   "What is the word in bold? Beavers are skilled <strong>builders</strong>.",
+   "Predicate noun",
+   [
+    "Predicate adjective",
+    "Direct object",
+    "Adverb"
+   ],
+   "Builders renames the subject beavers after the linking verb are."
+  ],
+  [
+   "What is the word in bold? The water felt <strong>icy</strong>.",
+   "Predicate adjective",
+   [
+    "Predicate noun",
+    "Direct object",
+    "Adverb"
+   ],
+   "Felt links the water to icy, which describes it."
+  ],
+  [
+   "What is the word in bold? My brother will become a <strong>doctor</strong>.",
+   "Predicate noun",
+   [
+    "Predicate adjective",
+    "Direct object",
+    "Adverb"
+   ],
+   "Doctor renames brother after the linking verb become."
+  ],
+  [
+   "What is the word in bold? Jun ate the <strong>apple</strong>.",
+   "Direct object",
+   [
+    "Predicate noun",
+    "Predicate adjective",
+    "Adverb"
+   ],
+   "Ate is an action verb, and apple receives the action."
+  ],
+  [
+   "What is the word in bold? The test looked <strong>difficult</strong>.",
+   "Predicate adjective",
+   [
+    "Predicate noun",
+    "Direct object",
+    "Adverb"
+   ],
+   "Looked is a linking verb, and difficult describes the test."
+  ],
+  [
+   "What is the word in bold? The runners ran <strong>quickly</strong>.",
+   "Adverb",
+   [
+    "Predicate noun",
+    "Predicate adjective",
+    "Direct object"
+   ],
+   "Quickly describes how they ran, so it is an adverb, not a predicate adjective."
+  ],
+  [
+   "What is the word in bold? Her favourite sport is <strong>lacrosse</strong>.",
+   "Predicate noun",
+   [
+    "Predicate adjective",
+    "Direct object",
+    "Adverb"
+   ],
+   "Lacrosse renames the subject sport after the linking verb is."
+  ],
+  [
+   "What is the word in bold? The crowd grew <strong>quiet</strong>.",
+   "Predicate adjective",
+   [
+    "Predicate noun",
+    "Direct object",
+    "Adverb"
+   ],
+   "Grew acts as a linking verb, and quiet describes the crowd."
+  ],
+  [
+   "What is the word in bold? We planted <strong>tulips</strong> in the garden.",
+   "Direct object",
+   [
+    "Predicate noun",
+    "Predicate adjective",
+    "Adverb"
+   ],
+   "Planted is an action verb, and tulips receive the action."
+  ],
+  [
+   "What is the word in bold? The baby sounds <strong>sleepy</strong>.",
+   "Predicate adjective",
+   [
+    "Predicate noun",
+    "Direct object",
+    "Adverb"
+   ],
+   "Sounds is a linking verb, and sleepy describes the baby."
+  ],
+  [
+   "Which verb is a <strong>linking verb</strong>? The lemonade tasted sour, so Leo added sugar and stirred it.",
+   "tasted",
+   [
+    "added",
+    "stirred",
+    "sour"
+   ],
+   "Tasted links the subject lemonade to the adjective sour."
+  ],
+  [
+   "Which sentence contains a predicate noun?",
+   "Mr. Tremblay is our principal.",
+   [
+    "Mr. Tremblay is very tall.",
+    "Mr. Tremblay rang the bell.",
+    "Mr. Tremblay walked quickly."
+   ],
+   "Principal renames Mr. Tremblay after the linking verb is."
+  ]
+ ],
+ "engTnIr": [
+  [
+   "Choose the correct form. Yesterday we ___ to the lake. (swim)",
+   "swam",
+   [
+    "swum",
+    "swimmed",
+    "swims"
+   ],
+   "The simple past of swim is swam."
+  ],
+  [
+   "Choose the correct form. He has ___ that movie three times. (see)",
+   "seen",
+   [
+    "saw",
+    "seed",
+    "seeing"
+   ],
+   "After has, use the past participle seen."
+  ],
+  [
+   "Choose the correct form. The phone ___ twice before I answered. (ring)",
+   "rang",
+   [
+    "rung",
+    "ringed",
+    "rings"
+   ],
+   "The simple past of ring is rang."
+  ],
+  [
+   "Choose the correct form. She had ___ the whole cake before we arrived. (eat)",
+   "eaten",
+   [
+    "ate",
+    "eated",
+    "eats"
+   ],
+   "After had, use the past participle eaten."
+  ],
+  [
+   "Choose the correct form. I ___ my homework last night. (do)",
+   "did",
+   [
+    "done",
+    "doed",
+    "does"
+   ],
+   "The simple past of do is did."
+  ],
+  [
+   "Choose the correct form. The pond has ___ solid. (freeze)",
+   "frozen",
+   [
+    "froze",
+    "freezed",
+    "freezes"
+   ],
+   "After has, use the past participle frozen."
+  ],
+  [
+   "Choose the correct form. Max ___ his bike to school. (ride)",
+   "rode",
+   [
+    "ridden",
+    "rided",
+    "rides"
+   ],
+   "The simple past of ride is rode."
+  ],
+  [
+   "Choose the correct form. They have ___ the bus already. (take)",
+   "taken",
+   [
+    "took",
+    "taked",
+    "takes"
+   ],
+   "After have, use the past participle taken."
+  ],
+  [
+   "Choose the correct form. The wind ___ all night. (blow)",
+   "blew",
+   [
+    "blown",
+    "blowed",
+    "blows"
+   ],
+   "The simple past of blow is blew."
+  ],
+  [
+   "Choose the correct form. My shirt has ___ in the dryer. (shrink)",
+   "shrunk",
+   [
+    "shrank",
+    "shrinked",
+    "shrinks"
+   ],
+   "After has, use the past participle shrunk."
+  ],
+  [
+   "Choose the correct form. We ___ a snowman after school. (build)",
+   "built",
+   [
+    "builded",
+    "build",
+    "builds"
+   ],
+   "The simple past of build is built."
+  ],
+  [
+   "Choose the correct form. Have you ever ___ a moose? (draw)",
+   "drawn",
+   [
+    "drew",
+    "drawed",
+    "draws"
+   ],
+   "After have, use the past participle drawn."
+  ],
+  [
+   "Choose the correct form. The choir ___ the anthem beautifully. (sing)",
+   "sang",
+   [
+    "sung",
+    "singed",
+    "sings"
+   ],
+   "The simple past of sing is sang."
+  ],
+  [
+   "Choose the correct form. He had ___ his keys at home. (leave)",
+   "left",
+   [
+    "leaved",
+    "leaven",
+    "leaves"
+   ],
+   "After had, use the past participle left."
+  ],
+  [
+   "Choose the correct form. The glass ___ when it hit the floor. (break)",
+   "broke",
+   [
+    "broken",
+    "breaked",
+    "breaks"
+   ],
+   "The simple past of break is broke."
+  ],
+  [
+   "Choose the correct form. Mom has ___ to work early. (go)",
+   "gone",
+   [
+    "went",
+    "goed",
+    "goes"
+   ],
+   "After has, use the past participle gone."
+  ],
+  [
+   "Choose the correct form. I ___ the answer right away. (know)",
+   "knew",
+   [
+    "known",
+    "knowed",
+    "knows"
+   ],
+   "The simple past of know is knew."
+  ],
+  [
+   "Choose the correct form. The sun had ___ before we left. (rise)",
+   "risen",
+   [
+    "rose",
+    "rised",
+    "rises"
+   ],
+   "After had, use the past participle risen."
+  ],
+  [
+   "Choose the correct form. Lucas ___ a fish at the cottage. (catch)",
+   "caught",
+   [
+    "catched",
+    "caughted",
+    "catches"
+   ],
+   "The simple past of catch is caught."
+  ],
+  [
+   "Choose the correct form. She has ___ a new song. (write)",
+   "written",
+   [
+    "wrote",
+    "writed",
+    "writes"
+   ],
+   "After has, use the past participle written."
+  ],
+  [
+   "Choose the correct form. The dog ___ under the porch. (hide)",
+   "hid",
+   [
+    "hidden",
+    "hided",
+    "hides"
+   ],
+   "The simple past of hide is hid."
+  ],
+  [
+   "Choose the correct form. We have ___ this route before. (drive)",
+   "driven",
+   [
+    "drove",
+    "drived",
+    "drives"
+   ],
+   "After have, use the past participle driven."
+  ]
+ ],
+ "engAdCp": [
+  [
+   "Choose the correct form. Of the two dogs, Rex is ___. (big)",
+   "bigger",
+   [
+    "biggest",
+    "more big",
+    "biger"
+   ],
+   "Comparing two things uses the comparative, and big doubles the g: bigger."
+  ],
+  [
+   "Choose the correct form. Mount Logan is the ___ mountain in Canada. (high)",
+   "highest",
+   [
+    "higher",
+    "most high",
+    "more highest"
+   ],
+   "Comparing more than two uses the superlative highest."
+  ],
+  [
+   "Choose the correct form. This puzzle is ___ than the last one. (difficult)",
+   "more difficult",
+   [
+    "difficulter",
+    "most difficult",
+    "more difficulter"
+   ],
+   "Long adjectives form the comparative with more."
+  ],
+  [
+   "Choose the correct form. Today is the ___ day of the year. (hot)",
+   "hottest",
+   [
+    "hotest",
+    "hotter",
+    "most hot"
+   ],
+   "The superlative of hot doubles the t: hottest."
+  ],
+  [
+   "Choose the correct form. My little sister is ___ than me. (happy)",
+   "happier",
+   [
+    "happyer",
+    "more happier",
+    "happiest"
+   ],
+   "Change y to i and add -er to compare two people."
+  ],
+  [
+   "Choose the correct form. That was the ___ joke I have ever heard. (silly)",
+   "silliest",
+   [
+    "sillyest",
+    "sillier",
+    "most silliest"
+   ],
+   "Change y to i and add -est for the superlative."
+  ],
+  [
+   "Choose the correct form. Lake Superior is ___ than Lake Erie. (large)",
+   "larger",
+   [
+    "largest",
+    "more larger",
+    "more large"
+   ],
+   "Large ends in e, so just add -r for the comparative."
+  ],
+  [
+   "Choose the correct form. She is the ___ student in our class. (creative)",
+   "most creative",
+   [
+    "creativest",
+    "more creative",
+    "most creativest"
+   ],
+   "Long adjectives form the superlative with most."
+  ],
+  [
+   "Choose the correct form. The second movie was ___ than the first. (exciting)",
+   "more exciting",
+   [
+    "excitinger",
+    "most exciting",
+    "more excitinger"
+   ],
+   "Exciting has three syllables, so use more for the comparative."
+  ],
+  [
+   "Choose the correct form. This is the ___ road in town. (busy)",
+   "busiest",
+   [
+    "busyest",
+    "most busiest",
+    "busier"
+   ],
+   "Change y to i and add -est: busiest."
+  ],
+  [
+   "Choose the correct form. A cheetah is ___ than a lion. (fast)",
+   "faster",
+   [
+    "fastest",
+    "more fast",
+    "more faster"
+   ],
+   "Comparing two animals uses the comparative faster."
+  ],
+  [
+   "Choose the correct form. Of all my friends, Zoe lives the ___ away. (far)",
+   "farthest",
+   [
+    "farer",
+    "farther",
+    "most far"
+   ],
+   "Far is irregular; its superlative is farthest."
+  ],
+  [
+   "Choose the correct form. That is the ___ painting in the gallery. (beautiful)",
+   "most beautiful",
+   [
+    "beautifulest",
+    "more beautiful",
+    "beautifuller"
+   ],
+   "Long adjectives use most for the superlative."
+  ],
+  [
+   "Choose the correct form. My backpack is ___ than yours. (heavy)",
+   "heavier",
+   [
+    "heavyer",
+    "heaviest",
+    "more heavier"
+   ],
+   "Change y to i and add -er to compare two backpacks."
+  ],
+  [
+   "Choose the correct form. Winter nights are ___ than summer nights. (long)",
+   "longer",
+   [
+    "longest",
+    "more long",
+    "more longer"
+   ],
+   "Comparing two kinds of nights uses longer."
+  ],
+  [
+   "Choose the correct form. Which of the three boxes is the ___? (thin)",
+   "thinnest",
+   [
+    "thinest",
+    "thinner",
+    "most thin"
+   ],
+   "Thin doubles the n before adding -est for the superlative."
+  ],
+  [
+   "Choose the correct form. This chair is ___ than the old one. (comfortable)",
+   "more comfortable",
+   [
+    "comfortabler",
+    "most comfortable",
+    "comfortablest"
+   ],
+   "Long adjectives form the comparative with more."
+  ],
+  [
+   "Choose the correct form. Yesterday's test was the ___ one this term. (easy)",
+   "easiest",
+   [
+    "easyest",
+    "most easiest",
+    "easier"
+   ],
+   "Change y to i and add -est: easiest."
+  ],
+  [
+   "Choose the correct form. The new bridge is ___ than the old one. (safe)",
+   "safer",
+   [
+    "safest",
+    "more safer",
+    "saffer"
+   ],
+   "Safe ends in e, so just add -r for the comparative."
+  ],
+  [
+   "Choose the correct form. He gave the ___ answer of anyone in the contest. (clever)",
+   "cleverest",
+   [
+    "cleverer",
+    "most cleverest",
+    "cleverrest"
+   ],
+   "Comparing everyone in the contest needs the superlative cleverest."
+  ],
+  [
+   "Which sentence uses a comparative adjective correctly?",
+   "My cat is lazier than my dog.",
+   [
+    "My cat is laziest than my dog.",
+    "My cat is more lazier than my dog.",
+    "My cat is lazyer than my dog."
+   ],
+   "Lazier is the correct comparative for two animals."
+  ],
+  [
+   "Which sentence uses a superlative adjective correctly?",
+   "Banff is the oldest national park in Canada.",
+   [
+    "Banff is the older national park in Canada.",
+    "Banff is the most oldest national park in Canada.",
+    "Banff is the oldiest national park in Canada."
+   ],
+   "Oldest compares one park with all the others."
+  ]
+ ],
+ "engAdGb": [
+  [
+   "Choose the correct word. My cold is ___ today than it was yesterday. (bad)",
+   "worse",
+   [
+    "worst",
+    "badder",
+    "more worse"
+   ],
+   "Comparing two days uses the comparative worse."
+  ],
+  [
+   "Choose the correct word. This is the ___ soup I have ever tasted. (good)",
+   "best",
+   [
+    "better",
+    "goodest",
+    "most best"
+   ],
+   "Comparing with all other soups uses the superlative best."
+  ],
+  [
+   "Choose the correct word. Her second essay was ___ than her first. (good)",
+   "better",
+   [
+    "best",
+    "gooder",
+    "more better"
+   ],
+   "Comparing two essays uses the comparative better."
+  ],
+  [
+   "Choose the correct word. That was the ___ traffic jam of the year. (bad)",
+   "worst",
+   [
+    "worse",
+    "baddest",
+    "most worst"
+   ],
+   "Comparing with every other jam that year uses worst."
+  ],
+  [
+   "Choose the correct word. The weather on Saturday was ___ than on Friday. (bad)",
+   "worse",
+   [
+    "worst",
+    "badder",
+    "more worse"
+   ],
+   "Two days are compared, so use worse."
+  ],
+  [
+   "Choose the correct word. Of the three pizzas, the veggie one was the ___. (good)",
+   "best",
+   [
+    "better",
+    "goodest",
+    "most best"
+   ],
+   "More than two things are compared, so use best."
+  ],
+  [
+   "Choose the correct word. Getting enough sleep is ___ for your health. (good)",
+   "good",
+   [
+    "better",
+    "best",
+    "goodly"
+   ],
+   "Nothing is being compared, so the base form good is correct."
+  ],
+  [
+   "Choose the correct word. Skipping breakfast is a ___ habit. (bad)",
+   "bad",
+   [
+    "worse",
+    "worst",
+    "badly"
+   ],
+   "No comparison is made, so the base form bad is correct."
+  ],
+  [
+   "Choose the correct word. Is a bike ___ than a scooter for long trips? (good)",
+   "better",
+   [
+    "best",
+    "gooder",
+    "more better"
+   ],
+   "Two things are compared, so use better."
+  ],
+  [
+   "Choose the correct word. He felt ___ after he took his medicine. (good)",
+   "better",
+   [
+    "best",
+    "gooder",
+    "more better"
+   ],
+   "His feeling now is compared with before, so use better."
+  ],
+  [
+   "Choose the correct word. That was the ___ mistake I made on the test. (bad)",
+   "worst",
+   [
+    "worse",
+    "baddest",
+    "most worst"
+   ],
+   "One mistake is compared with all the others, so use worst."
+  ],
+  [
+   "Choose the correct word. Our team played ___ in the second half than in the first. (bad)",
+   "worse",
+   [
+    "worst",
+    "badder",
+    "more worse"
+   ],
+   "Two halves are compared, so use worse."
+  ],
+  [
+   "Choose the correct word. Grandpa's tourtière is the ___ in the family. (good)",
+   "best",
+   [
+    "better",
+    "goodest",
+    "most best"
+   ],
+   "It is compared with everyone else's in the family, so use best."
+  ],
+  [
+   "Choose the correct word. The smell got ___ as we walked closer to the swamp. (bad)",
+   "worse",
+   [
+    "worst",
+    "badder",
+    "more worse"
+   ],
+   "The smell is compared with how it was before, so use worse."
+  ],
+  [
+   "Choose the correct word. This is the ___ seat in the whole arena. (good)",
+   "best",
+   [
+    "better",
+    "goodest",
+    "most best"
+   ],
+   "Comparing with every seat in the arena calls for best."
+  ],
+  [
+   "Choose the correct word. Of all the rides, the spinning teacups made me feel the ___. (bad)",
+   "worst",
+   [
+    "worse",
+    "baddest",
+    "most worst"
+   ],
+   "Comparing all the rides uses the superlative worst."
+  ],
+  [
+   "Choose the correct word. Your idea is ___ than mine. (good)",
+   "better",
+   [
+    "best",
+    "gooder",
+    "more better"
+   ],
+   "Two ideas are compared, so use better."
+  ],
+  [
+   "Choose the correct word. The roads were ___ this winter than last winter. (bad)",
+   "worse",
+   [
+    "worst",
+    "badder",
+    "more worse"
+   ],
+   "Two winters are compared, so use worse."
+  ],
+  [
+   "Choose the correct word. A ___ friend listens when you need help. (good)",
+   "good",
+   [
+    "better",
+    "best",
+    "goodly"
+   ],
+   "No comparison is made, so the base form good fits."
+  ],
+  [
+   "Choose the correct word. That was the ___ movie in the whole series. (bad)",
+   "worst",
+   [
+    "worse",
+    "baddest",
+    "most worst"
+   ],
+   "One movie is compared with the whole series, so use worst."
+  ],
+  [
+   "Which sentence is correct?",
+   "Maya is a better swimmer than her brother.",
+   [
+    "Maya is a best swimmer than her brother.",
+    "Maya is a gooder swimmer than her brother.",
+    "Maya is a more better swimmer than her brother."
+   ],
+   "Two people are compared, so better is correct."
+  ],
+  [
+   "Which sentence is correct?",
+   "This is the worst cold I have ever had.",
+   [
+    "This is the worse cold I have ever had.",
+    "This is the baddest cold I have ever had.",
+    "This is the most worst cold I have ever had."
+   ],
+   "Comparing with every cold ever uses the superlative worst."
+  ]
+ ],
+ "engRsPn": [
+  [
+   "My sister who plays hockey is in Grade 8. What does the punctuation suggest?",
+   "I have more than one sister.",
+   [
+    "I have only one sister.",
+    "My sister does not play hockey.",
+    "Hockey is played in Grade 8."
+   ],
+   "Without commas, the clause identifies which sister, so there must be more than one."
+  ],
+  [
+   "My mother, who is a nurse, works nights. What does the punctuation suggest?",
+   "I am simply adding that my mother is a nurse.",
+   [
+    "I have several mothers who are nurses.",
+    "Only nurses work nights.",
+    "My mother is not a nurse."
+   ],
+   "The commas set off extra information about the only person called my mother."
+  ],
+  [
+   "The dogs that bark all night belong to our neighbour. What does the punctuation suggest?",
+   "Only the dogs that bark all night belong to the neighbour.",
+   [
+    "All the dogs bark all night.",
+    "No dogs belong to the neighbour.",
+    "The neighbour barks all night."
+   ],
+   "Without commas, the clause limits which dogs are meant."
+  ],
+  [
+   "The dogs, which bark all night, belong to our neighbour. What does the punctuation suggest?",
+   "All the dogs being discussed bark all night.",
+   [
+    "Only some of the dogs bark.",
+    "The dogs never bark.",
+    "The neighbour has no dogs."
+   ],
+   "The commas show the clause is extra information about all the dogs."
+  ],
+  [
+   "Let's eat, Grandma! What does the punctuation suggest?",
+   "Someone is inviting Grandma to eat.",
+   [
+    "Someone wants to eat Grandma.",
+    "Grandma is cooking.",
+    "Grandma is not hungry."
+   ],
+   "The comma shows Grandma is being spoken to."
+  ],
+  [
+   "The students, who finished early, went outside. What does the punctuation suggest?",
+   "All the students finished early and went outside.",
+   [
+    "Only some students went outside.",
+    "No students finished early.",
+    "The students stayed inside."
+   ],
+   "The commas mark the clause as extra information about every student."
+  ],
+  [
+   "The students who finished early went outside. What does the punctuation suggest?",
+   "Only the students who finished early went outside.",
+   [
+    "All the students went outside.",
+    "Every student finished early.",
+    "Nobody went outside."
+   ],
+   "Without commas, the clause tells which students went outside."
+  ],
+  [
+   "My friend, Sara, loves to paint. What does the punctuation suggest?",
+   "Sara is my only friend, or the one already known to the reader.",
+   [
+    "I have many friends named Sara.",
+    "Sara does not paint.",
+    "My friend is not Sara."
+   ],
+   "Commas around a name show it is extra information rather than identifying which friend."
+  ],
+  [
+   "My friend Sara loves to paint. What does the punctuation suggest?",
+   "Sara is one of several friends I could mean.",
+   [
+    "I have only one friend.",
+    "Sara hates painting.",
+    "Sara is a famous painter."
+   ],
+   "Without commas, the name identifies which friend I mean."
+  ],
+  [
+   "Woman, without her, man is nothing. What does the punctuation suggest?",
+   "Men are nothing without women.",
+   [
+    "Women are nothing without men.",
+    "Men and women are equal.",
+    "Nobody is nothing."
+   ],
+   "The commas make woman the person spoken to and her the one men need."
+  ],
+  [
+   "Woman without her man is nothing. What does the punctuation suggest?",
+   "A woman is nothing without her man.",
+   [
+    "A man is nothing without a woman.",
+    "Women are everything.",
+    "Men are nothing."
+   ],
+   "With no commas, the phrase without her man describes woman."
+  ],
+  [
+   "I invited my parents, Justin and Emma. What does the punctuation suggest?",
+   "Justin and Emma could be my parents.",
+   [
+    "I invited four people.",
+    "I did not invite my parents.",
+    "Justin and Emma are my siblings for certain."
+   ],
+   "Without a comma after Justin, the names can be read as an appositive naming the parents."
+  ],
+  [
+   "I invited my parents, Justin, and Emma. What does the punctuation suggest?",
+   "I invited my parents plus two other people.",
+   [
+    "Justin and Emma are my parents.",
+    "I invited only two people.",
+    "I invited nobody."
+   ],
+   "The serial comma separates three items: my parents, Justin and Emma."
+  ],
+  [
+   "The cars, which were parked on the street, got tickets. What does the punctuation suggest?",
+   "All the cars mentioned were parked on the street.",
+   [
+    "Only some of the cars were on the street.",
+    "No cars got tickets.",
+    "The cars were in a garage."
+   ],
+   "The commas show the clause describes all the cars."
+  ],
+  [
+   "The cars that were parked on the street got tickets. What does the punctuation suggest?",
+   "Only the cars parked on the street got tickets.",
+   [
+    "Every car got a ticket.",
+    "No car was on the street.",
+    "The street got a ticket."
+   ],
+   "Without commas, the clause tells which cars got tickets."
+  ],
+  [
+   "\"Stop, Jacob!\" yelled the lifeguard. What does the punctuation suggest?",
+   "The lifeguard is telling Jacob to stop.",
+   [
+    "The lifeguard wants someone to stop Jacob.",
+    "Jacob is the lifeguard.",
+    "Jacob told the lifeguard to stop."
+   ],
+   "The comma shows Jacob is the person being spoken to."
+  ],
+  [
+   "The cookies that Leah baked were gone by noon. What does the punctuation suggest?",
+   "Only the cookies Leah baked were gone by noon.",
+   [
+    "All the cookies at the party were gone.",
+    "Leah baked no cookies.",
+    "The cookies lasted all day."
+   ],
+   "Without commas, the clause identifies which cookies."
+  ],
+  [
+   "Our cabin, which is on Lake Muskoka, needs a new roof. What does the punctuation suggest?",
+   "We have one cabin, and it happens to be on Lake Muskoka.",
+   [
+    "We have several cabins on different lakes.",
+    "The cabin has a new roof.",
+    "The cabin is not on a lake."
+   ],
+   "Commas mark extra information about the only cabin."
+  ],
+  [
+   "Our cabin that is on Lake Muskoka needs a new roof. What does the punctuation suggest?",
+   "We have more than one cabin.",
+   [
+    "We have only one cabin.",
+    "None of our cabins need a roof.",
+    "Lake Muskoka needs a roof."
+   ],
+   "Without commas, the clause tells which of several cabins needs the roof."
+  ],
+  [
+   "The hikers, tired and hungry, reached the hut. What does the punctuation suggest?",
+   "All the hikers were tired and hungry.",
+   [
+    "Only some hikers were tired.",
+    "The hut was tired.",
+    "The hikers were not hungry."
+   ],
+   "The commas set off a description that applies to all the hikers."
+  ],
+  [
+   "My uncle, the pilot, flew to Halifax. What does the punctuation suggest?",
+   "I have one uncle, and he is a pilot.",
+   [
+    "I have several uncles who are pilots.",
+    "My uncle drove to Halifax.",
+    "The pilot is not my uncle."
+   ],
+   "Commas around the pilot show it adds extra information about my only uncle."
+  ],
+  [
+   "My uncle the pilot flew to Halifax. What does the punctuation suggest?",
+   "I have more than one uncle, and I mean the pilot.",
+   [
+    "I have only one uncle.",
+    "My uncle is not a pilot.",
+    "Halifax is a pilot."
+   ],
+   "Without commas, the pilot identifies which uncle I mean."
+  ]
+ ],
+ "engDsUs": [
+  [
+   "Which sentence uses dashes correctly?",
+   "We packed the essentials—tent, stove and sleeping bags.",
+   [
+    "We packed the essentials tent—stove and sleeping bags.",
+    "We packed—the essentials tent, stove and sleeping bags.",
+    "We packed the essentials-tent, stove and sleeping bags."
+   ],
+   "A dash introduces the list that explains what the essentials were."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "The answer—if you can believe it—was zero.",
+   [
+    "The answer—if you can believe it was zero.",
+    "The answer if you can believe it—was zero.",
+    "The answer—if you can—believe it was zero."
+   ],
+   "A pair of dashes surrounds the interrupting phrase."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "There was only one thing left to do—run.",
+   [
+    "There was only one thing—left to do run.",
+    "There was only one thing left to do run—.",
+    "There was—only one thing left to do run."
+   ],
+   "A dash sets off the final emphasized word."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "My best friend—the one who moved to Regina—called me last night.",
+   [
+    "My best friend—the one who moved to Regina called me last night.",
+    "My best friend the one who moved to Regina—called me last night.",
+    "My best friend-the one who moved to Regina-called me last night."
+   ],
+   "Two em dashes enclose the interrupting phrase; hyphens are too short."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "Snow, ice and wind—winter brought them all at once.",
+   [
+    "Snow, ice and wind winter—brought them all at once.",
+    "Snow—ice and wind winter brought them all at once.",
+    "Snow, ice and wind winter brought them all—at once."
+   ],
+   "A dash can follow an opening list to sum it up."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "I finally finished my project—three days early!",
+   [
+    "I finally—finished my project three days early!",
+    "I finally finished my—project three days early!",
+    "I finally finished my project three days—early!"
+   ],
+   "The dash adds emphasis to the surprising detail at the end."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "The storm—the worst in fifty years—closed every school.",
+   [
+    "The storm—the worst in fifty years closed every school.",
+    "The storm the worst in fifty years—closed every school.",
+    "The storm the worst—in fifty years closed every school."
+   ],
+   "Paired dashes set off the interrupting description."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "She had one goal—to win gold.",
+   [
+    "She had—one goal to win gold.",
+    "She had one goal to—win gold.",
+    "She—had one goal to win gold."
+   ],
+   "The dash introduces the explanation of her goal."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "Three provinces—Nova Scotia, New Brunswick and P.E.I.—make up the Maritimes.",
+   [
+    "Three provinces—Nova Scotia, New Brunswick and P.E.I. make up the Maritimes.",
+    "Three provinces Nova Scotia, New Brunswick and P.E.I.—make up the Maritimes.",
+    "Three—provinces Nova Scotia, New Brunswick and P.E.I. make up the Maritimes."
+   ],
+   "When an interrupting list contains commas, dashes on both sides keep it clear."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "I opened the door and saw—nothing.",
+   [
+    "I opened the door—and saw nothing.—",
+    "I opened—the door and saw nothing.",
+    "I opened the door and—saw nothing—"
+   ],
+   "A dash before the last word creates a dramatic pause."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "Our teacher—who rarely jokes—made the whole class laugh.",
+   [
+    "Our teacher—who rarely jokes made the whole class laugh.",
+    "Our teacher who rarely jokes—made the whole class laugh.",
+    "Our teacher—who—rarely jokes made the whole class laugh."
+   ],
+   "Two dashes are needed around the interrupting clause."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "Wait—did you hear that?",
+   [
+    "Wait did you—hear that?",
+    "Wait did—you hear that?",
+    "Wait did you hear—that?"
+   ],
+   "A dash shows the sudden break in thought after wait."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "The recipe needs just three things—flour, water and salt.",
+   [
+    "The recipe needs just three things flour—water and salt.",
+    "The recipe—needs just three things flour, water and salt.",
+    "The recipe needs just three things flour, water and—salt."
+   ],
+   "A dash introduces the list that names the three things."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "He was tired—no, exhausted—after the marathon.",
+   [
+    "He was tired—no, exhausted after the marathon.",
+    "He was tired no, exhausted—after the marathon.",
+    "He was—tired no, exhausted after the marathon."
+   ],
+   "Paired dashes set off the correction no, exhausted."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "Courage, kindness and honesty—these are what I admire most.",
+   [
+    "Courage, kindness and honesty these—are what I admire most.",
+    "Courage—kindness and honesty these are what I admire most.",
+    "Courage, kindness and honesty these are what—I admire most."
+   ],
+   "A dash follows an opening list before the summarizing word these."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "The prize—a brand-new laptop—went to Ruby.",
+   [
+    "The prize—a brand-new laptop went to Ruby.",
+    "The prize a brand-new laptop—went to Ruby.",
+    "The prize—a brand—new laptop—went to Ruby."
+   ],
+   "Dashes enclose the phrase naming the prize, while brand-new keeps its hyphen."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "I know exactly who ate the cookies—you!",
+   [
+    "I know exactly—who ate the cookies you!",
+    "I know—exactly who ate the cookies you!",
+    "I know exactly who ate—the cookies you!"
+   ],
+   "The dash builds suspense before the final word."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "The hike was long—twelve kilometres—but worth it.",
+   [
+    "The hike was long—twelve kilometres but worth it.",
+    "The hike was long twelve kilometres—but worth it.",
+    "The hike—was long twelve kilometres but worth it."
+   ],
+   "Two dashes set off the interrupting detail."
+  ],
+  [
+   "Why is a dash used in this sentence? Only one person could help us—Grandma.",
+   "To emphasize the word that follows",
+   [
+    "To join two words into one",
+    "To show a range of numbers",
+    "To end a question"
+   ],
+   "The dash creates a pause that emphasizes Grandma."
+  ],
+  [
+   "Why are dashes used in this sentence? The bus—late as usual—finally pulled up.",
+   "To set off an interrupting comment",
+   [
+    "To connect a compound word",
+    "To show possession",
+    "To introduce a quotation"
+   ],
+   "The paired dashes surround the interruption late as usual."
+  ],
+  [
+   "Which sentence uses a dash to show an interrupted line of dialogue?",
+   "\"I was just about to—\" Leo began.",
+   [
+    "\"I was just about—to\" Leo began.",
+    "\"I was—just about to\" Leo began.",
+    "\"—I was just about to\" Leo began."
+   ],
+   "A dash at the end of the words shows the speaker was cut off."
+  ],
+  [
+   "Which sentence uses dashes correctly?",
+   "Everyone—even the principal—joined the dance.",
+   [
+    "Everyone—even the principal joined the dance.",
+    "Everyone even the principal—joined the dance.",
+    "Everyone even—the principal joined the dance."
+   ],
+   "Paired dashes set off the surprising detail even the principal."
+  ]
+ ],
+ "engRsCm": [
+  [
+   "Which sentence is punctuated correctly?",
+   "Lake Louise, a glacier lake in Alberta, is bright turquoise.",
+   [
+    "Lake Louise a glacier lake in Alberta, is bright turquoise.",
+    "Lake Louise, a glacier lake in Alberta is bright turquoise.",
+    "Lake Louise, a glacier lake, in Alberta, is bright turquoise."
+   ],
+   "The appositive a glacier lake in Alberta needs a comma on each side."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "My cousin, who lives in Iqaluit, sent me a postcard.",
+   [
+    "My cousin who lives in Iqaluit, sent me a postcard.",
+    "My cousin, who lives in Iqaluit sent me a postcard.",
+    "My cousin who, lives in Iqaluit, sent me a postcard."
+   ],
+   "The nonrestrictive clause who lives in Iqaluit is set off by two commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The CN Tower, which opened in 1976, is in Toronto.",
+   [
+    "The CN Tower which opened in 1976, is in Toronto.",
+    "The CN Tower, which opened in 1976 is in Toronto.",
+    "The CN Tower, which, opened in 1976, is in Toronto."
+   ],
+   "The extra information which opened in 1976 needs commas on both sides."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Our dog, a golden retriever, loves the snow.",
+   [
+    "Our dog a golden retriever, loves the snow.",
+    "Our dog, a golden retriever loves the snow.",
+    "Our dog, a golden, retriever loves the snow."
+   ],
+   "The appositive a golden retriever is nonrestrictive and needs two commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Ms. Chen, our music teacher, plays the cello.",
+   [
+    "Ms. Chen our music teacher, plays the cello.",
+    "Ms. Chen, our music teacher plays the cello.",
+    "Ms. Chen, our music, teacher plays the cello."
+   ],
+   "The appositive our music teacher is set off by commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Students who forget their permission forms cannot go on the trip.",
+   [
+    "Students, who forget their permission forms, cannot go on the trip.",
+    "Students who forget their permission forms, cannot go on the trip.",
+    "Students, who forget their permission forms cannot go on the trip."
+   ],
+   "The clause tells which students, so it is restrictive and takes no commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The Bluenose, a famous schooner, appears on the Canadian dime.",
+   [
+    "The Bluenose a famous schooner, appears on the Canadian dime.",
+    "The Bluenose, a famous schooner appears on the Canadian dime.",
+    "The Bluenose a famous schooner appears, on the Canadian dime."
+   ],
+   "The appositive a famous schooner needs commas before and after it."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "My grandmother, who was born in Manila, tells wonderful stories.",
+   [
+    "My grandmother who was born in Manila, tells wonderful stories.",
+    "My grandmother, who was born in Manila tells wonderful stories.",
+    "My grandmother who was born, in Manila, tells wonderful stories."
+   ],
+   "The clause adds extra information about a specific grandmother, so it is set off by commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The book that I borrowed from the library is overdue.",
+   [
+    "The book, that I borrowed from the library, is overdue.",
+    "The book that I borrowed from the library, is overdue.",
+    "The book, that I borrowed from the library is overdue."
+   ],
+   "That introduces a restrictive clause, which never takes commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Saskatoon, the largest city in Saskatchewan, sits on the South Saskatchewan River.",
+   [
+    "Saskatoon the largest city in Saskatchewan, sits on the South Saskatchewan River.",
+    "Saskatoon, the largest city in Saskatchewan sits on the South Saskatchewan River.",
+    "Saskatoon, the largest city, in Saskatchewan sits on the South Saskatchewan River."
+   ],
+   "The appositive the largest city in Saskatchewan needs two commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Hockey, which many call Canada's game, is played in winter.",
+   [
+    "Hockey which many call Canada's game, is played in winter.",
+    "Hockey, which many call Canada's game is played in winter.",
+    "Hockey, which many call, Canada's game is played in winter."
+   ],
+   "The nonrestrictive clause is set off by commas on both sides."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The new library, built last spring, has a maker space.",
+   [
+    "The new library built last spring, has a maker space.",
+    "The new library, built last spring has a maker space.",
+    "The new library, built, last spring has a maker space."
+   ],
+   "The nonrestrictive phrase built last spring is enclosed in commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Anyone who wants a snack should line up now.",
+   [
+    "Anyone, who wants a snack, should line up now.",
+    "Anyone who wants a snack, should line up now.",
+    "Anyone, who wants a snack should line up now."
+   ],
+   "The clause tells which people, so it is restrictive and needs no commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Terry Fox, a young runner from B.C., raised money for cancer research.",
+   [
+    "Terry Fox a young runner from B.C., raised money for cancer research.",
+    "Terry Fox, a young runner from B.C. raised money for cancer research.",
+    "Terry Fox, a young runner, from B.C. raised money for cancer research."
+   ],
+   "The appositive describing Terry Fox needs a comma on each side."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "My bike, which I got for my birthday, has ten gears.",
+   [
+    "My bike which I got for my birthday, has ten gears.",
+    "My bike, which I got for my birthday has ten gears.",
+    "My bike which, I got for my birthday, has ten gears."
+   ],
+   "Which introduces nonrestrictive information, so commas go on both sides."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The jacket that has a broken zipper is in the lost and found.",
+   [
+    "The jacket, that has a broken zipper, is in the lost and found.",
+    "The jacket that has a broken zipper, is in the lost and found.",
+    "The jacket, that has a broken zipper is in the lost and found."
+   ],
+   "The clause identifies which jacket, so it takes no commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Jupiter, the largest planet, has dozens of moons.",
+   [
+    "Jupiter the largest planet, has dozens of moons.",
+    "Jupiter, the largest planet has dozens of moons.",
+    "Jupiter, the largest, planet has dozens of moons."
+   ],
+   "The appositive the largest planet must be enclosed in commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Our principal, smiling proudly, handed out the awards.",
+   [
+    "Our principal smiling proudly, handed out the awards.",
+    "Our principal, smiling proudly handed out the awards.",
+    "Our principal, smiling, proudly handed, out the awards."
+   ],
+   "The nonrestrictive participial phrase smiling proudly needs a comma on each side."
+  ],
+  [
+   "Which sentence correctly uses commas around a nonrestrictive element?",
+   "The Rideau Canal, which freezes each winter, becomes a skating rink.",
+   [
+    "The Rideau Canal which freezes each winter becomes a skating rink.",
+    "The Rideau Canal, which freezes each winter becomes a skating rink.",
+    "The Rideau Canal which freezes, each winter, becomes a skating rink."
+   ],
+   "Since there is only one Rideau Canal, the which clause is extra and needs two commas."
+  ],
+  [
+   "Which sentence correctly leaves out commas because the element is restrictive?",
+   "The player who scored the goal was my cousin.",
+   [
+    "The player, who scored the goal, was my cousin.",
+    "The player who scored the goal, was my cousin.",
+    "The player, who scored the goal was my cousin."
+   ],
+   "The clause identifies which player, so no commas are used."
+  ],
+  [
+   "Why does this sentence need commas? Mr. Ali, our coach, called a time out.",
+   "Our coach adds extra information about Mr. Ali.",
+   [
+    "Our coach tells which of many Mr. Alis is meant.",
+    "Commas always follow a person's name.",
+    "A comma replaces the word and."
+   ],
+   "The appositive is nonessential because the name already identifies him, so it is set off by commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Dr. Banting, who helped discover insulin, was born in Ontario.",
+   [
+    "Dr. Banting who helped discover insulin, was born in Ontario.",
+    "Dr. Banting, who helped discover insulin was born in Ontario.",
+    "Dr. Banting who, helped discover insulin, was born in Ontario."
+   ],
+   "The name identifies the person, so the who clause is extra and needs two commas."
+  ]
+ ],
+ "engPCS": [
+  [
+   "Choose the correct pronoun: ___ walked to school together.",
+   "We",
+   [
+    "Us",
+    "Our",
+    "Ourselves"
+   ],
+   "We is a subject pronoun and is the subject of walked."
+  ],
+  [
+   "Choose the correct pronoun: The teacher gave ___ extra time.",
+   "us",
+   [
+    "we",
+    "our",
+    "ourselves"
+   ],
+   "Us is an object pronoun and receives the action of gave."
+  ],
+  [
+   "Choose the correct pronoun: Can you help ___ with this box?",
+   "me",
+   [
+    "I",
+    "my",
+    "mine"
+   ],
+   "Me is the object of help."
+  ],
+  [
+   "Choose the correct pronoun: ___ is my best friend.",
+   "He",
+   [
+    "Him",
+    "His",
+    "Himself"
+   ],
+   "He is a subject pronoun used as the subject of is."
+  ],
+  [
+   "Choose the correct pronoun: Grandma baked cookies for ___.",
+   "them",
+   [
+    "they",
+    "their",
+    "theirs"
+   ],
+   "Them is the object of the preposition for."
+  ],
+  [
+   "Choose the correct pronoun: My brother and ___ built a fort.",
+   "I",
+   [
+    "me",
+    "myself",
+    "mine"
+   ],
+   "I is part of the compound subject my brother and I."
+  ],
+  [
+   "Choose the correct pronoun: Coach picked Ava and ___ for the team.",
+   "me",
+   [
+    "I",
+    "my",
+    "myself"
+   ],
+   "Me is part of the compound object of picked."
+  ],
+  [
+   "Choose the correct pronoun: ___ won the spelling bee.",
+   "She",
+   [
+    "Her",
+    "Hers",
+    "Herself"
+   ],
+   "She is the subject of won."
+  ],
+  [
+   "Choose the correct pronoun: The puppy licked ___ on the cheek.",
+   "her",
+   [
+    "she",
+    "hers",
+    "herself"
+   ],
+   "Her is the object of licked."
+  ],
+  [
+   "Choose the correct pronoun: ___ and their cousins went camping.",
+   "They",
+   [
+    "Them",
+    "Their",
+    "Themselves"
+   ],
+   "They is a subject pronoun in the compound subject."
+  ],
+  [
+   "Choose the correct pronoun: Please sit between Leo and ___.",
+   "me",
+   [
+    "I",
+    "mine",
+    "myself"
+   ],
+   "After the preposition between, use the object pronoun me."
+  ],
+  [
+   "Choose the correct pronoun: Jordan and ___ are in the school play.",
+   "she",
+   [
+    "her",
+    "hers",
+    "herself"
+   ],
+   "She is part of the compound subject Jordan and she."
+  ],
+  [
+   "Choose the correct pronoun: The bus driver waved at ___.",
+   "us",
+   [
+    "we",
+    "our",
+    "ours"
+   ],
+   "Us is the object of the preposition at."
+  ],
+  [
+   "Choose the correct pronoun: ___ love playing road hockey.",
+   "They",
+   [
+    "Them",
+    "Their",
+    "Theirs"
+   ],
+   "They is the subject of love."
+  ],
+  [
+   "Choose the correct pronoun: Mom drove Priya and ___ to the rink.",
+   "him",
+   [
+    "he",
+    "his",
+    "himself"
+   ],
+   "Him is part of the compound object of drove."
+  ],
+  [
+   "Choose the correct pronoun: It was ___ who found the lost kitten.",
+   "he",
+   [
+    "him",
+    "his",
+    "himself"
+   ],
+   "After a linking verb like was, formal English uses the subject pronoun he."
+  ],
+  [
+   "Choose the correct pronoun: Our neighbours invited ___ to their barbecue.",
+   "us",
+   [
+    "we",
+    "ours",
+    "ourselves"
+   ],
+   "Us is the object of invited."
+  ],
+  [
+   "Choose the correct pronoun: Between you and ___, the surprise party is on Friday.",
+   "me",
+   [
+    "I",
+    "myself",
+    "mine"
+   ],
+   "After the preposition between, use the object pronoun me."
+  ],
+  [
+   "Choose the correct pronoun: The prize was shared by Sam and ___.",
+   "her",
+   [
+    "she",
+    "hers",
+    "herself"
+   ],
+   "Her is the object of the preposition by."
+  ],
+  [
+   "Choose the correct pronoun: The librarian showed ___ the new books.",
+   "them",
+   [
+    "they",
+    "their",
+    "theirs"
+   ],
+   "Them is the indirect object of showed."
+  ],
+  [
+   "Which sentence uses pronouns correctly?",
+   "Kim and I went skating.",
+   [
+    "Kim and me went skating.",
+    "Me and Kim went skating.",
+    "Myself and Kim went skating."
+   ],
+   "I is the subject pronoun needed in the compound subject."
+  ],
+  [
+   "Which sentence uses pronouns correctly?",
+   "The coach thanked him and me.",
+   [
+    "The coach thanked he and I.",
+    "The coach thanked him and I.",
+    "The coach thanked he and me."
+   ],
+   "Him and me are object pronouns, needed after the verb thanked."
+  ]
+ ],
+ "engCMA": [
+  [
+   "Which sentence uses commas correctly?",
+   "We bought apples, pears and grapes.",
+   [
+    "We bought apples pears, and, grapes.",
+    "We bought, apples, pears and grapes.",
+    "We bought apples pears and, grapes."
+   ],
+   "Commas separate items in a list."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "After the game, we went for pizza.",
+   [
+    "After the game we went, for pizza.",
+    "After, the game we went for pizza.",
+    "After the game we, went for pizza."
+   ],
+   "A comma follows an introductory phrase."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "Noah, please close the door.",
+   [
+    "Noah please, close the door.",
+    "Noah please close, the door.",
+    "Noah please close the, door."
+   ],
+   "A comma sets off the name of the person being spoken to."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "I wanted to go outside, but it was raining.",
+   [
+    "I wanted, to go outside but it was raining.",
+    "I wanted to go outside but, it was raining.",
+    "I wanted to go, outside but it was raining."
+   ],
+   "A comma goes before but when it joins two complete sentences."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "Our school opened on September 3, 2019.",
+   [
+    "Our school opened on September, 3 2019.",
+    "Our school opened, on September 3 2019.",
+    "Our school opened on, September 3 2019."
+   ],
+   "A comma separates the day from the year in a date."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "We drove from Moncton, New Brunswick, to Halifax.",
+   [
+    "We drove from Moncton New Brunswick, to Halifax.",
+    "We drove, from Moncton New Brunswick to Halifax.",
+    "We drove from, Moncton New Brunswick to Halifax."
+   ],
+   "Commas separate a city from its province and follow the province."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "No, I have not finished my homework.",
+   [
+    "No I have, not finished my homework.",
+    "No I have not, finished my homework.",
+    "No I have not finished, my homework."
+   ],
+   "A comma follows an introductory word like no."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "\"Let's go,\" said Emma.",
+   [
+    "\"Let's go\" said, Emma.",
+    "\"Let's go\", said Emma.",
+    "\"Let's, go\" said Emma."
+   ],
+   "A comma inside the quotation marks separates the quote from the speaker tag."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "The tall, friendly giraffe ate leaves.",
+   [
+    "The tall friendly, giraffe ate leaves.",
+    "The, tall friendly giraffe ate leaves.",
+    "The tall friendly giraffe, ate leaves."
+   ],
+   "A comma separates two adjectives that each describe the noun."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "When the bell rang, everyone cheered.",
+   [
+    "When the bell rang everyone, cheered.",
+    "When, the bell rang everyone cheered.",
+    "When the bell, rang everyone cheered."
+   ],
+   "A comma follows an introductory clause."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "My dog, Biscuit, loves the beach.",
+   [
+    "My dog Biscuit, loves, the beach.",
+    "My, dog Biscuit loves the beach.",
+    "My dog Biscuit loves, the beach."
+   ],
+   "Commas set off the extra information Biscuit."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "Mom made soup, and Dad made bread.",
+   [
+    "Mom made, soup and Dad made bread.",
+    "Mom made soup and, Dad made bread.",
+    "Mom, made soup and Dad made bread."
+   ],
+   "A comma goes before and when it joins two complete sentences."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "Wow, that was an amazing goal!",
+   [
+    "Wow that was, an amazing goal!",
+    "Wow that was an, amazing goal!",
+    "Wow that, was an amazing goal!"
+   ],
+   "A comma follows an interjection like wow."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "I packed a hat, mitts, a scarf and boots.",
+   [
+    "I packed a hat mitts, a scarf, and, boots.",
+    "I packed, a hat mitts a scarf and boots.",
+    "I packed a, hat, mitts, a scarf and boots."
+   ],
+   "Commas separate the items in a list."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "Can you help me, Mr. Patel?",
+   [
+    "Can you, help me Mr. Patel?",
+    "Can you help, me Mr. Patel?",
+    "Can, you help me Mr. Patel?"
+   ],
+   "A comma sets off the name of the person being addressed."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "However, the trip was cancelled.",
+   [
+    "However the trip, was cancelled.",
+    "However the trip was, cancelled.",
+    "However the, trip was cancelled."
+   ],
+   "A comma follows a transition word like however at the start of a sentence."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "Ottawa, the capital of Canada, is in Ontario.",
+   [
+    "Ottawa the capital of Canada, is in Ontario.",
+    "Ottawa, the capital of Canada is in Ontario.",
+    "Ottawa the capital, of Canada is in Ontario."
+   ],
+   "Commas go on both sides of the phrase that renames Ottawa."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "If you finish early, you may read quietly.",
+   [
+    "If you finish early you may, read quietly.",
+    "If, you finish early you may read quietly.",
+    "If you finish, early you may read quietly."
+   ],
+   "A comma follows an introductory if clause."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "Ben likes soccer, swimming and chess.",
+   [
+    "Ben likes, soccer swimming and chess.",
+    "Ben likes soccer swimming, and chess,.",
+    "Ben, likes soccer swimming and chess."
+   ],
+   "Commas separate items in a series."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "Yes, the library is open on Sunday.",
+   [
+    "Yes the library is, open on Sunday.",
+    "Yes the library, is open on Sunday.",
+    "Yes the library is open, on Sunday."
+   ],
+   "A comma follows an introductory word like yes."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "She said, \"Dinner is ready.\"",
+   [
+    "She said \"Dinner, is ready.\"",
+    "She, said \"Dinner is ready.\"",
+    "She said \"Dinner is ready,\""
+   ],
+   "A comma comes before a quotation that follows the speaker tag."
+  ],
+  [
+   "Which sentence uses commas correctly?",
+   "It was a dark, stormy night.",
+   [
+    "It was a dark stormy, night.",
+    "It was, a dark stormy night.",
+    "It was a, dark stormy night."
+   ],
+   "A comma separates two adjectives that both describe night."
+  ]
+ ],
+ "engAlSr": [
+  [
+   "Where does the allusion a Herculean task come from?",
+   "Greek or Roman mythology",
+   [
+    "The Bible",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "Hercules is a hero of Greek and Roman myth who completed twelve great labours."
+  ],
+  [
+   "Where does the allusion the patience of Job come from?",
+   "The Bible",
+   [
+    "Greek or Roman mythology",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "Job is a man in the Bible who stays faithful through great suffering."
+  ],
+  [
+   "Where does the allusion \"Et tu, Brute?\" come from?",
+   "Shakespeare",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Fairy tales and folklore"
+   ],
+   "Julius Caesar says these words in Shakespeare's play Julius Caesar."
+  ],
+  [
+   "Where does the allusion Little Red Riding Hood come from?",
+   "Fairy tales and folklore",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Shakespeare"
+   ],
+   "Little Red Riding Hood is a well-known folk fairy tale."
+  ],
+  [
+   "Where does the allusion the Garden of Eden come from?",
+   "The Bible",
+   [
+    "Greek or Roman mythology",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "The Garden of Eden is described in the book of Genesis."
+  ],
+  [
+   "Where does the allusion a Cupid come from?",
+   "Greek or Roman mythology",
+   [
+    "The Bible",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "Cupid is the Roman god of love."
+  ],
+  [
+   "Where does the allusion \"All the world's a stage\" come from?",
+   "Shakespeare",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Fairy tales and folklore"
+   ],
+   "This line is from Shakespeare's As You Like It."
+  ],
+  [
+   "Where does the allusion Rapunzel come from?",
+   "Fairy tales and folklore",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Shakespeare"
+   ],
+   "Rapunzel is a German fairy tale collected by the Brothers Grimm."
+  ],
+  [
+   "Where does the allusion Narcissus come from?",
+   "Greek or Roman mythology",
+   [
+    "The Bible",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "Narcissus is a figure in Greek myth who fell in love with his reflection."
+  ],
+  [
+   "Where does the allusion the writing on the wall come from?",
+   "The Bible",
+   [
+    "Greek or Roman mythology",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "In the book of Daniel, a hand writes a warning on a king's wall."
+  ],
+  [
+   "Where does the allusion Goldilocks come from?",
+   "Fairy tales and folklore",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Shakespeare"
+   ],
+   "Goldilocks and the Three Bears is a traditional folk tale."
+  ],
+  [
+   "Where does the allusion Lady Macbeth come from?",
+   "Shakespeare",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Fairy tales and folklore"
+   ],
+   "Lady Macbeth is a character in Shakespeare's Macbeth."
+  ],
+  [
+   "Where does the allusion an odyssey come from?",
+   "Greek or Roman mythology",
+   [
+    "The Bible",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "The Odyssey is an ancient Greek epic about Odysseus's long voyage home."
+  ],
+  [
+   "Where does the allusion Adam and Eve come from?",
+   "The Bible",
+   [
+    "Greek or Roman mythology",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "Adam and Eve are the first humans in the book of Genesis."
+  ],
+  [
+   "Where does the allusion Jack and the Beanstalk come from?",
+   "Fairy tales and folklore",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Shakespeare"
+   ],
+   "Jack and the Beanstalk is a traditional English fairy tale."
+  ],
+  [
+   "Where does the allusion a Shylock come from?",
+   "Shakespeare",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Fairy tales and folklore"
+   ],
+   "Shylock is a moneylender in Shakespeare's The Merchant of Venice."
+  ],
+  [
+   "Where does the allusion the Labyrinth come from?",
+   "Greek or Roman mythology",
+   [
+    "The Bible",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "The Labyrinth held the Minotaur in Greek myth."
+  ],
+  [
+   "Where does the allusion the Tower of Babel come from?",
+   "The Bible",
+   [
+    "Greek or Roman mythology",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "The Tower of Babel story appears in Genesis."
+  ],
+  [
+   "Where does the allusion the Pied Piper come from?",
+   "Fairy tales and folklore",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Shakespeare"
+   ],
+   "The Pied Piper of Hamelin is a German folk legend."
+  ],
+  [
+   "Where does the allusion star-crossed lovers come from?",
+   "Shakespeare",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Fairy tales and folklore"
+   ],
+   "Shakespeare calls Romeo and Juliet star-crossed lovers in the play's prologue."
+  ],
+  [
+   "Where does the allusion Mount Olympus come from?",
+   "Greek or Roman mythology",
+   [
+    "The Bible",
+    "Shakespeare",
+    "Fairy tales and folklore"
+   ],
+   "Mount Olympus is the home of the gods in Greek myth."
+  ],
+  [
+   "Where does the allusion Hansel and Gretel come from?",
+   "Fairy tales and folklore",
+   [
+    "Greek or Roman mythology",
+    "The Bible",
+    "Shakespeare"
+   ],
+   "Hansel and Gretel is a fairy tale collected by the Brothers Grimm."
+  ]
+ ],
+ "engXPrlU": [
+  [
+   "Which choice keeps the sentence parallel? We spent the weekend reading, skating and ___.",
+   "baking",
+   [
+    "to bake",
+    "we baked cookies",
+    "bake"
+   ],
+   "Baking matches the -ing words reading and skating."
+  ],
+  [
+   "Which choice keeps the sentence parallel? The puppy is small, fluffy and ___.",
+   "playful",
+   [
+    "it likes to play",
+    "playing",
+    "to play"
+   ],
+   "Playful matches the adjectives small and fluffy."
+  ],
+  [
+   "Which choice keeps the sentence parallel? Mom asked me to feed the cat, to water the plants and ___.",
+   "to take out the trash",
+   [
+    "taking out the trash",
+    "the trash goes out",
+    "took out the trash"
+   ],
+   "To take out matches to feed and to water."
+  ],
+  [
+   "Which choice keeps the sentence parallel? He ran down the hall, through the door and ___.",
+   "into the gym",
+   [
+    "he entered the gym",
+    "going to the gym",
+    "to enter the gym"
+   ],
+   "Into the gym matches the prepositional phrases down the hall and through the door."
+  ],
+  [
+   "Which choice keeps the sentence parallel? A good leader listens carefully, speaks clearly and ___.",
+   "acts fairly",
+   [
+    "fairness in acting",
+    "to act fairly",
+    "acting fair"
+   ],
+   "Acts fairly matches the verb + adverb pattern listens carefully and speaks clearly."
+  ],
+  [
+   "Which choice keeps the sentence parallel? My favourite activities are hiking, canoeing and ___.",
+   "fishing",
+   [
+    "to fish",
+    "I fish",
+    "fish catching"
+   ],
+   "Fishing matches the -ing nouns hiking and canoeing."
+  ],
+  [
+   "Which choice keeps the sentence parallel? The recipe tells you to mix the flour, add the eggs and ___.",
+   "stir the batter",
+   [
+    "stirring the batter",
+    "the batter is stirred",
+    "stirred the batter"
+   ],
+   "Stir matches the base verbs mix and add."
+  ],
+  [
+   "Which choice keeps the sentence parallel? She wanted not only to win but also ___.",
+   "to have fun",
+   [
+    "having fun",
+    "fun was had",
+    "she had fun"
+   ],
+   "To have fun matches to win in a not only … but also pair."
+  ],
+  [
+   "Which choice keeps the sentence parallel? The movie was long, boring and ___.",
+   "confusing",
+   [
+    "it confused me",
+    "to confuse",
+    "with confusion"
+   ],
+   "Confusing matches the adjectives long and boring."
+  ],
+  [
+   "Which choice keeps the sentence parallel? Our teacher is patient, kind and ___.",
+   "funny",
+   [
+    "she makes us laugh",
+    "to be funny",
+    "with humour"
+   ],
+   "Funny matches the adjectives patient and kind."
+  ],
+  [
+   "Which choice keeps the sentence parallel? I like to paint, to draw and ___.",
+   "to sculpt",
+   [
+    "sculpting",
+    "sculpted",
+    "sculptures are fun"
+   ],
+   "To sculpt matches to paint and to draw."
+  ],
+  [
+   "Which choice keeps the sentence parallel? The team practised in the rain, in the snow and ___.",
+   "in the wind",
+   [
+    "when it was windy",
+    "the wind blew",
+    "windy"
+   ],
+   "In the wind matches the prepositional phrases in the rain and in the snow."
+  ],
+  [
+   "Which choice keeps the sentence parallel? Exercise makes you stronger, healthier and ___.",
+   "happier",
+   [
+    "more happiness",
+    "to be happy",
+    "it makes you happy"
+   ],
+   "Happier matches the comparative adjectives stronger and healthier."
+  ],
+  [
+   "Which choice keeps the sentence parallel? Either we take the bus or ___.",
+   "we walk",
+   [
+    "walking",
+    "to walk",
+    "a walk"
+   ],
+   "We walk matches the clause we take the bus."
+  ],
+  [
+   "Which choice keeps the sentence parallel? The guide told us where to go, what to see and ___.",
+   "when to leave",
+   [
+    "leaving time",
+    "we should leave soon",
+    "the leaving"
+   ],
+   "When to leave matches where to go and what to see."
+  ],
+  [
+   "Which choice keeps the sentence parallel? Lena enjoys swimming in summer and ___ in winter.",
+   "skiing",
+   [
+    "to ski",
+    "ski",
+    "she skis"
+   ],
+   "Skiing matches swimming."
+  ],
+  [
+   "Which choice keeps the sentence parallel? The speech was inspiring, clear and ___.",
+   "memorable",
+   [
+    "we remembered it",
+    "to remember",
+    "remembering"
+   ],
+   "Memorable matches the adjectives inspiring and clear."
+  ],
+  [
+   "Which choice keeps the sentence parallel? To prepare for the test, review your notes, get enough sleep and ___.",
+   "eat a good breakfast",
+   [
+    "eating a good breakfast",
+    "a good breakfast",
+    "you ate breakfast"
+   ],
+   "Eat matches the command verbs review and get."
+  ],
+  [
+   "Which choice keeps the sentence parallel? The old house had creaky floors, dusty windows and ___.",
+   "a leaky roof",
+   [
+    "the roof leaked",
+    "leaking from the roof",
+    "to leak"
+   ],
+   "A leaky roof matches the adjective + noun pattern."
+  ],
+  [
+   "Which choice keeps the sentence parallel? He was praised for his honesty, his hard work and ___.",
+   "his kindness",
+   [
+    "being kind",
+    "he was kind",
+    "to be kind"
+   ],
+   "His kindness matches his honesty and his hard work."
+  ],
+  [
+   "Which sentence has parallel structure?",
+   "Ana likes singing, dancing and acting.",
+   [
+    "Ana likes singing, dancing and to act.",
+    "Ana likes to sing, dancing and acting.",
+    "Ana likes singing, to dance and she acts."
+   ],
+   "All three items use the same -ing form."
+  ],
+  [
+   "Which sentence has parallel structure?",
+   "The trail was steep, rocky and narrow.",
+   [
+    "The trail was steep, rocky and it was narrow.",
+    "The trail was steep, full of rocks and narrowing.",
+    "The trail was steep, rocky and had narrowness."
+   ],
+   "All three items are single adjectives."
+  ]
+ ],
+ "engXAlMn": [
+  [
+   "Our tiny school team faced the provincial champions; it was a real David and Goliath match. What does the allusion suggest?",
+   "A small underdog facing a much stronger opponent",
+   [
+    "Two equal teams",
+    "A game played in the rain",
+    "A team with a famous coach"
+   ],
+   "David, a young shepherd, defeated the giant Goliath, so the allusion means an underdog against a giant."
+  ],
+  [
+   "After years of foolish spending, my uncle returned home like the Prodigal Son. What does the allusion suggest?",
+   "Someone coming back sorry after wasting things away",
+   [
+    "Someone who never left home",
+    "A person winning a prize",
+    "A family having a fight"
+   ],
+   "In the parable, the Prodigal Son wastes his inheritance and returns home in regret."
+  ],
+  [
+   "Cleaning the garage was a Herculean task. What does the allusion suggest?",
+   "A job needing enormous strength and effort",
+   [
+    "A quick and easy chore",
+    "A job done by a team",
+    "A task that was skipped"
+   ],
+   "Hercules completed twelve nearly impossible labours."
+  ],
+  [
+   "The new kid was a Good Samaritan when he helped me pick up my spilled books. What does the allusion suggest?",
+   "A person who helps a stranger in need",
+   [
+    "A person who causes trouble",
+    "A person who tells secrets",
+    "A person who is new in town"
+   ],
+   "In the parable, the Good Samaritan helps an injured stranger others ignored."
+  ],
+  [
+   "Her rise from the junior league to the Olympics was a real Cinderella story. What does the allusion suggest?",
+   "An unexpected success after humble beginnings",
+   [
+    "A story about a lost shoe",
+    "A failure after early success",
+    "A story that ends at midnight"
+   ],
+   "Cinderella goes from a servant to a princess, so the allusion means a surprising rise to success."
+  ],
+  [
+   "Jamal kept talking about his science fair win; he was a bit of a narcissist. What does the allusion suggest?",
+   "Someone overly focused on himself",
+   [
+    "Someone who loves flowers",
+    "Someone who is very shy",
+    "Someone who helps others"
+   ],
+   "Narcissus fell in love with his own reflection."
+  ],
+  [
+   "The coach warned, \"Don't fly too close to the sun,\" when I tried a move I hadn't practised. What does the allusion suggest?",
+   "Being too ambitious can lead to failure",
+   [
+    "Stay out of the sunlight",
+    "Practise only in the morning",
+    "Fly a kite carefully"
+   ],
+   "Icarus flew too close to the sun, melting his wax wings, and fell."
+  ],
+  [
+   "The two rival families were like the Montagues and Capulets. What does the allusion suggest?",
+   "Bitter enemies whose feud lasts for generations",
+   [
+    "Families who are best friends",
+    "Families who live in Italy",
+    "Families who own restaurants"
+   ],
+   "In Shakespeare's Romeo and Juliet, the Montagues and Capulets are feuding families."
+  ],
+  [
+   "When the power went out, the hallway became a labyrinth. What does the allusion suggest?",
+   "A confusing maze that is hard to find your way through",
+   [
+    "A bright, open space",
+    "A place full of monsters only",
+    "A straight, short hallway"
+   ],
+   "The Labyrinth in Greek myth was a maze built to trap the Minotaur."
+  ],
+  [
+   "My little brother cried wolf so many times that nobody believed his stomach ache was real. What does the allusion suggest?",
+   "Raising false alarms until no one believes you",
+   [
+    "Seeing a real wolf",
+    "Being very brave",
+    "Telling the truth every time"
+   ],
+   "In Aesop's fable, a boy who keeps falsely shouting wolf is ignored when a wolf really comes."
+  ],
+  [
+   "Searching for my phone in my messy room turned into a real odyssey. What does the allusion suggest?",
+   "A long, difficult journey or search",
+   [
+    "A quick glance",
+    "A short nap",
+    "A pleasant holiday"
+   ],
+   "In Homer's Odyssey, Odysseus spends years struggling to get home."
+  ],
+  [
+   "Keeping my brother's secret became an albatross around my neck. What does the allusion suggest?",
+   "A heavy burden or source of guilt",
+   [
+    "A good-luck charm",
+    "A beautiful necklace",
+    "A secret that is easy to keep"
+   ],
+   "In Coleridge's poem, a sailor must wear the albatross he killed as a sign of his guilt."
+  ],
+  [
+   "Trying to finish my essay before the deadline was a race against Father Time. What does the allusion suggest?",
+   "Struggling against time running out",
+   [
+    "Racing an old man",
+    "Having plenty of time",
+    "Winning a sprint"
+   ],
+   "Father Time is a traditional figure who represents the passing of time."
+  ],
+  [
+   "When Aria finally solved the puzzle, she shouted, \"Eureka!\" What does the allusion suggest?",
+   "A sudden joyful discovery",
+   [
+    "A feeling of sadness",
+    "A wish for help",
+    "A greeting to a friend"
+   ],
+   "Archimedes is said to have shouted Eureka when he made a discovery in his bath."
+  ],
+  [
+   "He sat on the couch for hours like Rip Van Winkle and missed the whole tournament. What does the allusion suggest?",
+   "Being asleep or unaware while important things change",
+   [
+    "Being the first to arrive",
+    "Watching very closely",
+    "Winning a tournament"
+   ],
+   "Rip Van Winkle sleeps for twenty years and misses major changes."
+  ],
+  [
+   "Our class garden turned into a Garden of Eden by June. What does the allusion suggest?",
+   "A beautiful, perfect paradise",
+   [
+    "A garden full of weeds",
+    "A dry desert",
+    "A place nobody visits"
+   ],
+   "The Garden of Eden in the Bible is a perfect paradise."
+  ],
+  [
+   "The puppy was a real Grinch when it chewed up all our holiday decorations. What does the allusion suggest?",
+   "Someone who spoils a celebration",
+   [
+    "Someone who gives gifts",
+    "Someone who loves snow",
+    "Someone who sings carols"
+   ],
+   "Dr. Seuss's Grinch tries to ruin Christmas for everyone."
+  ],
+  [
+   "My sister's Jekyll-and-Hyde moods make her hard to predict. What does the allusion suggest?",
+   "Sudden switches between good and bad behaviour",
+   [
+    "Always being cheerful",
+    "Always being grumpy",
+    "Being very quiet"
+   ],
+   "In Stevenson's story, kind Dr. Jekyll turns into the cruel Mr. Hyde."
+  ],
+  [
+   "She is the Pied Piper of the playground; all the little kids followed her. What does the allusion suggest?",
+   "Someone who attracts many followers",
+   [
+    "Someone who plays music badly",
+    "Someone who scares children",
+    "Someone who stays alone"
+   ],
+   "In the folk tale, the Pied Piper leads the town's children away with his music."
+  ],
+  [
+   "He felt like Sisyphus as he shovelled the driveway again after another snowfall. What does the allusion suggest?",
+   "Doing an endless task that never gets finished",
+   [
+    "Doing an easy task once",
+    "Taking a well-earned break",
+    "Winning a contest"
+   ],
+   "Sisyphus was forced to push a boulder uphill forever, only for it to roll back down."
+  ],
+  [
+   "The player's last-minute goal was his swan song before retiring. What does the allusion suggest?",
+   "A final performance before leaving",
+   [
+    "A first performance",
+    "A song about birds",
+    "A mistake in a game"
+   ],
+   "Legend says swans sing a beautiful song just before they die."
+  ],
+  [
+   "Leaving her lunch unguarded near the seagulls was like leaving the fox to guard the henhouse. What does the allusion suggest?",
+   "Trusting someone likely to cause harm",
+   [
+    "Keeping something perfectly safe",
+    "Feeding animals kindly",
+    "Building a new henhouse"
+   ],
+   "The folk saying warns that a fox put in charge of hens will eat them."
+  ]
+ ],
+ "engRdn": [
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "Please repeat your answer.",
+   [
+    "Please repeat your answer again.",
+    "Please repeat your answer once more again.",
+    "Please say your answer again a second time."
+   ],
+   "Repeat already means say again, so again is redundant."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The concert begins at 7 p.m.",
+   [
+    "The concert begins at 7 p.m. in the evening.",
+    "The concert begins at 7 p.m. at night tonight.",
+    "The concert starts and begins at 7 p.m."
+   ],
+   "P.m. already means evening, so in the evening is redundant."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "We gathered in the gym.",
+   [
+    "We gathered together in the gym.",
+    "We all gathered together as a group in the gym.",
+    "We gathered together in the gym area."
+   ],
+   "Gathered already means came together."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The ice cream was free.",
+   [
+    "The ice cream was a free gift.",
+    "The ice cream was free of charge for free.",
+    "The ice cream was given free for nothing."
+   ],
+   "Free already means it cost nothing."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "Each student has a unique locker code.",
+   [
+    "Each student has a very unique locker code.",
+    "Each student has a unique, one-of-a-kind locker code.",
+    "Each student has a completely unique locker code of their own."
+   ],
+   "Unique means one of a kind, so very or one-of-a-kind adds nothing."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The cabin was surrounded by trees.",
+   [
+    "The cabin was surrounded on all sides by trees.",
+    "The cabin was surrounded all around by trees.",
+    "The cabin was surrounded on every side all around by trees."
+   ],
+   "Surrounded already means on all sides."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "Combine the flour and sugar.",
+   [
+    "Combine the flour and sugar together.",
+    "Combine together the flour and sugar mixed.",
+    "Combine and mix the flour and sugar together."
+   ],
+   "Combine already means put together."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The two teams met in the final.",
+   [
+    "The two teams met together in the final.",
+    "The two teams met in the final last game.",
+    "Both of the two teams met in the final."
+   ],
+   "Met already suggests together, and final means the last game."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "I saw it with my own eyes.",
+   [
+    "I saw it with my own eyes visually.",
+    "I personally saw it myself with my own eyes.",
+    "I saw it with my own eyes and looked at it."
+   ],
+   "Visually and personally myself repeat what saw with my own eyes already says."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The plan has an advantage.",
+   [
+    "The plan has an added bonus advantage.",
+    "The plan has a positive advantage.",
+    "The plan has a good positive advantage."
+   ],
+   "An advantage is always positive, so positive is redundant."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "Our history dates back to 1867.",
+   [
+    "Our history dates back in the past to 1867.",
+    "Our past history dates back to 1867.",
+    "Our past history dates back in time to 1867."
+   ],
+   "History is already about the past."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The bus was late.",
+   [
+    "The bus was late and not on time.",
+    "The bus was tardy and late.",
+    "The bus was late, arriving behind schedule late."
+   ],
+   "Not on time repeats the meaning of late."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "Let's start the game.",
+   [
+    "Let's start the game off to begin.",
+    "Let's begin to start the game.",
+    "Let's start off and begin the game."
+   ],
+   "Start and begin mean the same thing, so using both is redundant."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The fire destroyed the barn.",
+   [
+    "The fire completely destroyed the barn.",
+    "The fire totally destroyed the barn entirely.",
+    "The fire destroyed the barn completely and fully."
+   ],
+   "Destroyed already means ruined completely."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "We need new ideas.",
+   [
+    "We need new innovations and ideas.",
+    "We need brand-new fresh ideas.",
+    "We need new, novel ideas."
+   ],
+   "Brand-new fresh and new novel repeat the same meaning."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The meeting will be at noon.",
+   [
+    "The meeting will be at 12 noon.",
+    "The meeting will be at noon in the middle of the day.",
+    "The meeting will be at 12 p.m. noon."
+   ],
+   "Noon already means 12 in the middle of the day."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "Our final goal is to raise $500.",
+   [
+    "Our final end goal is to raise $500.",
+    "Our ultimate final goal is to raise $500.",
+    "Our final end result goal is to raise $500."
+   ],
+   "End and ultimate repeat the meaning of final."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "I will plan the party.",
+   [
+    "I will plan ahead for the party.",
+    "I will plan in advance for the party.",
+    "I will plan ahead in advance for the party."
+   ],
+   "Planning is always done ahead, so ahead and in advance are redundant."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The sky was blue.",
+   [
+    "The sky was blue in colour.",
+    "The sky was blue in colour and hue.",
+    "The sky was a blue colour in hue."
+   ],
+   "Blue is already a colour."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "He is an expert at chess.",
+   [
+    "He is a skilled expert at chess.",
+    "He is an experienced, skilled expert at chess.",
+    "He is a trained expert who is skilled at chess."
+   ],
+   "An expert is already skilled."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The ruins are very old.",
+   [
+    "The ruins are very old and ancient.",
+    "The old ruins are very old and ancient.",
+    "The ancient ruins are very old in age."
+   ],
+   "Ancient repeats the meaning of very old."
+  ],
+  [
+   "Which sentence is the most concise, with no redundant words?",
+   "The results were the same.",
+   [
+    "The results were exactly the same and identical.",
+    "The results were the same identical ones.",
+    "The results were identical and the same."
+   ],
+   "Identical repeats the meaning of the same."
+  ]
+ ],
+ "engPhCl": [
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "the snow fell",
+   [
+    "under the bridge",
+    "after the long winter",
+    "to the store"
+   ],
+   "The snow fell has a subject (snow) and a verb (fell)."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "in the morning",
+   [
+    "we woke up",
+    "the sun rose",
+    "birds sang"
+   ],
+   "In the morning has no subject and verb, so it is a phrase."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "because she was late",
+   [
+    "with a smile",
+    "beside the lake",
+    "running quickly"
+   ],
+   "She is the subject and was is the verb, so it is a clause."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "across the field",
+   [
+    "the horse galloped",
+    "when the bell rang",
+    "they cheered"
+   ],
+   "Across the field has no subject-verb pair."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "the dog barked loudly",
+   [
+    "the big brown dog",
+    "near the fence",
+    "barking loudly"
+   ],
+   "Dog is the subject and barked is the verb."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "the big brown dog",
+   [
+    "the dog barked",
+    "if the dog barks",
+    "dogs bark"
+   ],
+   "The big brown dog has a noun but no verb."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "when the movie ended",
+   [
+    "at the end of the movie",
+    "during the movie",
+    "to watch a movie"
+   ],
+   "Movie is the subject and ended is the verb."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "to win the game",
+   [
+    "we won the game",
+    "since we won",
+    "they played hard"
+   ],
+   "To win is an infinitive, not a subject and verb, so this is a phrase."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "Maya plays the violin",
+   [
+    "playing the violin",
+    "with her violin",
+    "the violin case"
+   ],
+   "Maya is the subject and plays is the verb."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "after the storm",
+   [
+    "after the storm passed",
+    "the storm passed",
+    "while it stormed"
+   ],
+   "After the storm has no verb."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "if it rains tomorrow",
+   [
+    "on a rainy day",
+    "in the pouring rain",
+    "under an umbrella"
+   ],
+   "It is the subject and rains is the verb."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "swimming in the lake",
+   [
+    "we swam in the lake",
+    "the lake was cold",
+    "since we swam"
+   ],
+   "Swimming in the lake has no subject doing the verb."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "the students wrote their tests",
+   [
+    "the students' tests",
+    "on the test",
+    "writing their tests"
+   ],
+   "Students is the subject and wrote is the verb."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "over the moon",
+   [
+    "the cow jumped",
+    "the moon rose",
+    "although the moon shone"
+   ],
+   "Over the moon has no subject and verb."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "who lives next door",
+   [
+    "next to the door",
+    "the door next to us",
+    "living next door"
+   ],
+   "Who is the subject and lives is the verb."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "a cup of hot chocolate",
+   [
+    "I drank hot chocolate",
+    "the chocolate was hot",
+    "because it was hot"
+   ],
+   "A cup of hot chocolate is a noun phrase with no verb."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "the bus arrived",
+   [
+    "at the bus stop",
+    "on the bus",
+    "waiting for the bus"
+   ],
+   "Bus is the subject and arrived is the verb."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "behind the old barn",
+   [
+    "the barn is old",
+    "where the barn stood",
+    "farmers built barns"
+   ],
+   "Behind the old barn has no subject and verb."
+  ],
+  [
+   "Which group of words is a <strong>clause</strong>?",
+   "they laughed",
+   [
+    "with laughter",
+    "laughing at jokes",
+    "a funny joke"
+   ],
+   "They is the subject and laughed is the verb."
+  ],
+  [
+   "Which group of words is a <strong>phrase</strong>?",
+   "during recess",
+   [
+    "we played tag",
+    "recess ended",
+    "until recess began"
+   ],
+   "During recess has no verb."
+  ],
+  [
+   "Is this group of words a phrase or a clause? the moose crossed the highway",
+   "Clause, because it has a subject and a verb",
+   [
+    "Phrase, because it has a subject and a verb",
+    "Phrase, because it has no verb",
+    "Clause, because it has no verb"
+   ],
+   "Moose is the subject and crossed is the verb."
+  ],
+  [
+   "Is this group of words a phrase or a clause? along the frozen river",
+   "Phrase, because it has no subject and verb",
+   [
+    "Clause, because it has no subject and verb",
+    "Clause, because it has a subject and a verb",
+    "Phrase, because it has a subject and a verb"
+   ],
+   "Along the frozen river is a prepositional phrase with no verb."
+  ]
+ ],
+ "engAppo": [
+  [
+   "Which group of words is the appositive? Lake Ontario, the smallest of the Great Lakes, borders Toronto.",
+   "the smallest of the Great Lakes",
+   [
+    "Lake Ontario",
+    "borders Toronto",
+    "of the Great Lakes"
+   ],
+   "This phrase renames Lake Ontario."
+  ],
+  [
+   "Which group of words is the appositive? Our cat, a fluffy Persian, sleeps all day.",
+   "a fluffy Persian",
+   [
+    "Our cat",
+    "sleeps all day",
+    "all day"
+   ],
+   "A fluffy Persian renames our cat."
+  ],
+  [
+   "Which group of words is the appositive? Mr. Dubois, the bus driver, waves every morning.",
+   "the bus driver",
+   [
+    "Mr. Dubois",
+    "waves every morning",
+    "every morning"
+   ],
+   "The bus driver renames Mr. Dubois."
+  ],
+  [
+   "Which group of words is the appositive? We visited Halifax, a port city in Nova Scotia.",
+   "a port city in Nova Scotia",
+   [
+    "We visited",
+    "Halifax",
+    "in Nova Scotia"
+   ],
+   "This phrase renames Halifax."
+  ],
+  [
+   "Which group of words is the appositive? My best friend, Ayesha, loves soccer.",
+   "Ayesha",
+   [
+    "My best friend",
+    "loves soccer",
+    "soccer"
+   ],
+   "Ayesha renames my best friend."
+  ],
+  [
+   "Which group of words is the appositive? The poet Pauline Johnson performed across Canada.",
+   "Pauline Johnson",
+   [
+    "The poet",
+    "performed across Canada",
+    "across Canada"
+   ],
+   "Pauline Johnson identifies which poet."
+  ],
+  [
+   "Which group of words is the appositive? Basketball, a game invented by a Canadian, is popular worldwide.",
+   "a game invented by a Canadian",
+   [
+    "Basketball",
+    "is popular worldwide",
+    "by a Canadian"
+   ],
+   "This phrase renames basketball."
+  ],
+  [
+   "Which group of words is the appositive? I gave the gift to Ms. Kaur, my piano teacher.",
+   "my piano teacher",
+   [
+    "I gave the gift",
+    "to Ms. Kaur",
+    "the gift"
+   ],
+   "My piano teacher renames Ms. Kaur."
+  ],
+  [
+   "Which group of words is the appositive? Jupiter, a gas giant, has a giant red storm.",
+   "a gas giant",
+   [
+    "Jupiter",
+    "a giant red storm",
+    "has a storm"
+   ],
+   "A gas giant renames Jupiter."
+  ],
+  [
+   "Which group of words is the appositive? Our new neighbour, a nurse from Winnipeg, works nights.",
+   "a nurse from Winnipeg",
+   [
+    "Our new neighbour",
+    "works nights",
+    "from Winnipeg"
+   ],
+   "This phrase renames our new neighbour."
+  ],
+  [
+   "Which group of words is the appositive? My brother Luca plays the drums.",
+   "Luca",
+   [
+    "My brother",
+    "plays the drums",
+    "the drums"
+   ],
+   "Luca identifies which brother."
+  ],
+  [
+   "Which group of words is the appositive? The maple leaf, a symbol of Canada, is on our flag.",
+   "a symbol of Canada",
+   [
+    "The maple leaf",
+    "on our flag",
+    "is on our flag"
+   ],
+   "This phrase renames the maple leaf."
+  ],
+  [
+   "Which group of words is the appositive? We ate poutine, a dish from Quebec, for lunch.",
+   "a dish from Quebec",
+   [
+    "We ate poutine",
+    "for lunch",
+    "from Quebec"
+   ],
+   "This phrase renames poutine."
+  ],
+  [
+   "Which group of words is the appositive? Sir John A. Macdonald, Canada's first prime minister, was born in Scotland.",
+   "Canada's first prime minister",
+   [
+    "Sir John A. Macdonald",
+    "was born in Scotland",
+    "in Scotland"
+   ],
+   "This phrase renames Sir John A. Macdonald."
+  ],
+  [
+   "Which group of words is the appositive? Our school mascot, a grizzly bear, appears at every game.",
+   "a grizzly bear",
+   [
+    "Our school mascot",
+    "at every game",
+    "appears at every game"
+   ],
+   "A grizzly bear renames the mascot."
+  ],
+  [
+   "Which group of words is the appositive? I read <em>Charlotte's Web</em>, a story about a pig and a spider.",
+   "a story about a pig and a spider",
+   [
+    "I read",
+    "<em>Charlotte's Web</em>",
+    "a pig and a spider"
+   ],
+   "This phrase renames the book."
+  ],
+  [
+   "Which group of words is the appositive? The coach, a former Olympian, trains us hard.",
+   "a former Olympian",
+   [
+    "The coach",
+    "trains us hard",
+    "us hard"
+   ],
+   "A former Olympian renames the coach."
+  ],
+  [
+   "Which group of words is the appositive? Mercury, the closest planet to the sun, is very hot.",
+   "the closest planet to the sun",
+   [
+    "Mercury",
+    "is very hot",
+    "to the sun"
+   ],
+   "This phrase renames Mercury."
+  ],
+  [
+   "Which group of words is the appositive? Her hobby, birdwatching, takes patience.",
+   "birdwatching",
+   [
+    "Her hobby",
+    "takes patience",
+    "patience"
+   ],
+   "Birdwatching renames her hobby."
+  ],
+  [
+   "Which group of words is the appositive? The singer Shania Twain grew up in Timmins.",
+   "Shania Twain",
+   [
+    "The singer",
+    "grew up in Timmins",
+    "in Timmins"
+   ],
+   "Shania Twain identifies which singer."
+  ],
+  [
+   "Which sentence contains an appositive?",
+   "Bella, my older cousin, is visiting.",
+   [
+    "Bella is visiting my older cousin.",
+    "My older cousin is visiting Bella.",
+    "Bella is older than my cousin."
+   ],
+   "My older cousin renames Bella and is set off by commas."
+  ],
+  [
+   "Which sentence contains an appositive?",
+   "The moose, a huge animal, crossed the road.",
+   [
+    "The huge moose crossed the road.",
+    "The moose crossed the road hugely.",
+    "A huge moose was crossing the road."
+   ],
+   "A huge animal renames the moose."
+  ]
+ ],
+ "engRlCl": [
+  [
+   "Choose the best way to combine the sentences. The boy found my wallet. The boy lives on my street.",
+   "The boy who found my wallet lives on my street.",
+   [
+    "The boy which found my wallet lives on my street.",
+    "The boy whose found my wallet lives on my street.",
+    "The boy found my wallet lives on my street."
+   ],
+   "Who refers to a person and tells which boy."
+  ],
+  [
+   "Choose the best way to combine the sentences. Banff is a popular park. Banff is in Alberta.",
+   "Banff, which is in Alberta, is a popular park.",
+   [
+    "Banff, who is in Alberta, is a popular park.",
+    "Banff which is in Alberta is a popular park, which.",
+    "Banff is in Alberta is a popular park."
+   ],
+   "Which refers to a place, and the commas mark extra information."
+  ],
+  [
+   "Choose the best way to combine the sentences. The teacher was kind. Her class won the award.",
+   "The teacher whose class won the award was kind.",
+   [
+    "The teacher who class won the award was kind.",
+    "The teacher which class won the award was kind.",
+    "The teacher whom class won the award was kind."
+   ],
+   "Whose shows possession: her class."
+  ],
+  [
+   "Choose the best way to combine the sentences. I read the book. You lent me the book.",
+   "I read the book that you lent me.",
+   [
+    "I read the book who you lent me.",
+    "I read the book whose you lent me.",
+    "I read the book you lent me the book."
+   ],
+   "That refers to a thing and identifies which book."
+  ],
+  [
+   "Choose the best way to combine the sentences. The doctor helped my grandma. We thanked the doctor.",
+   "We thanked the doctor who helped my grandma.",
+   [
+    "We thanked the doctor which helped my grandma.",
+    "We thanked the doctor whose helped my grandma.",
+    "We thanked the doctor helped my grandma."
+   ],
+   "Who refers to the doctor, a person."
+  ],
+  [
+   "Choose the best way to combine the sentences. The bridge is very old. The bridge crosses the river.",
+   "The bridge that crosses the river is very old.",
+   [
+    "The bridge who crosses the river is very old.",
+    "The bridge whose crosses the river is very old.",
+    "The bridge crosses the river is very old."
+   ],
+   "That refers to a thing and identifies which bridge."
+  ],
+  [
+   "Choose the best way to combine the sentences. My aunt is a pilot. I admire my aunt.",
+   "My aunt, whom I admire, is a pilot.",
+   [
+    "My aunt, which I admire, is a pilot.",
+    "My aunt, whose I admire, is a pilot.",
+    "My aunt, I admire, is a pilot whom."
+   ],
+   "Whom is the object of admire and refers to a person."
+  ],
+  [
+   "Choose the best way to combine the sentences. The dog is friendly. The dog's tail is wagging.",
+   "The dog whose tail is wagging is friendly.",
+   [
+    "The dog who's tail is wagging is friendly.",
+    "The dog which tail is wagging is friendly.",
+    "The dog that's tail is wagging is friendly."
+   ],
+   "Whose shows possession; who's means who is."
+  ],
+  [
+   "Choose the best way to combine the sentences. The cookies were delicious. Dad baked the cookies.",
+   "The cookies that Dad baked were delicious.",
+   [
+    "The cookies who Dad baked were delicious.",
+    "The cookies whose Dad baked were delicious.",
+    "The cookies Dad baked them were delicious."
+   ],
+   "That refers to the cookies and tells which ones."
+  ],
+  [
+   "Choose the best way to combine the sentences. Terry Fox ran across Canada. Terry Fox had one leg amputated.",
+   "Terry Fox, who had one leg amputated, ran across Canada.",
+   [
+    "Terry Fox, which had one leg amputated, ran across Canada.",
+    "Terry Fox, whose had one leg amputated, ran across Canada.",
+    "Terry Fox who had one leg amputated ran across Canada, who."
+   ],
+   "Who refers to a person, and commas set off the extra fact."
+  ],
+  [
+   "Choose the best way to combine the sentences. The store sells skates. The store opened last week.",
+   "The store that opened last week sells skates.",
+   [
+    "The store who opened last week sells skates.",
+    "The store whose opened last week sells skates.",
+    "The store opened last week sells skates."
+   ],
+   "That refers to the store and tells which one."
+  ],
+  [
+   "Choose the best way to combine the sentences. The student won the prize. Her poem was about the North.",
+   "The student whose poem was about the North won the prize.",
+   [
+    "The student who poem was about the North won the prize.",
+    "The student which poem was about the North won the prize.",
+    "The student her poem was about the North won the prize."
+   ],
+   "Whose shows that the poem belongs to the student."
+  ],
+  [
+   "Choose the best way to combine the sentences. We hiked to the lake. The lake was crystal clear.",
+   "We hiked to the lake, which was crystal clear.",
+   [
+    "We hiked to the lake, who was crystal clear.",
+    "We hiked to the lake, whose was crystal clear.",
+    "We hiked to the lake was crystal clear."
+   ],
+   "Which refers to the lake and adds extra information."
+  ],
+  [
+   "Choose the best way to combine the sentences. The man is my uncle. You met the man yesterday.",
+   "The man whom you met yesterday is my uncle.",
+   [
+    "The man which you met yesterday is my uncle.",
+    "The man whose you met yesterday is my uncle.",
+    "The man you met him yesterday is my uncle."
+   ],
+   "Whom is the object of met and refers to a person."
+  ],
+  [
+   "Choose the best way to combine the sentences. The CN Tower is in Toronto. The CN Tower is 553 metres tall.",
+   "The CN Tower, which is 553 metres tall, is in Toronto.",
+   [
+    "The CN Tower, who is 553 metres tall, is in Toronto.",
+    "The CN Tower, whose is 553 metres tall, is in Toronto.",
+    "The CN Tower is 553 metres tall is in Toronto."
+   ],
+   "Which refers to a thing and adds extra information set off by commas."
+  ],
+  [
+   "Choose the best way to combine the sentences. The players were tired. The players practised for three hours.",
+   "The players who practised for three hours were tired.",
+   [
+    "The players which practised for three hours were tired.",
+    "The players whose practised for three hours were tired.",
+    "The players practised for three hours were tired."
+   ],
+   "Who refers to people and tells which players."
+  ],
+  [
+   "Choose the best way to combine the sentences. I lost the pen. My grandpa gave me the pen.",
+   "I lost the pen that my grandpa gave me.",
+   [
+    "I lost the pen who my grandpa gave me.",
+    "I lost the pen whose my grandpa gave me.",
+    "I lost the pen my grandpa gave me it."
+   ],
+   "That refers to the pen and identifies which one."
+  ],
+  [
+   "Choose the best way to combine the sentences. The author visited our school. Her books are about hockey.",
+   "The author whose books are about hockey visited our school.",
+   [
+    "The author who books are about hockey visited our school.",
+    "The author which books are about hockey visited our school.",
+    "The author her books are about hockey visited our school."
+   ],
+   "Whose shows that the books belong to the author."
+  ],
+  [
+   "Choose the best way to combine the sentences. The river froze. We skated on the river.",
+   "The river that we skated on froze.",
+   [
+    "The river who we skated on froze.",
+    "The river whose we skated on froze.",
+    "The river we skated on it froze."
+   ],
+   "That refers to the river and tells which one."
+  ],
+  [
+   "Choose the best way to combine the sentences. My neighbour has a garden. I help my neighbour on weekends.",
+   "My neighbour, whom I help on weekends, has a garden.",
+   [
+    "My neighbour, which I help on weekends, has a garden.",
+    "My neighbour, whose I help on weekends, has a garden.",
+    "My neighbour I help on weekends has a garden him."
+   ],
+   "Whom is the object of help and refers to a person."
+  ],
+  [
+   "Choose the best way to combine the sentences. The puppy chewed my shoe. The puppy is only eight weeks old.",
+   "The puppy that chewed my shoe is only eight weeks old.",
+   [
+    "The puppy whose chewed my shoe is only eight weeks old.",
+    "The puppy chewed my shoe is only eight weeks old.",
+    "The puppy, chewed my shoe, is only eight weeks old."
+   ],
+   "That introduces a relative clause identifying the puppy."
+  ],
+  [
+   "Choose the best way to combine the sentences. Iqaluit is the capital of Nunavut. Iqaluit is on Baffin Island.",
+   "Iqaluit, which is on Baffin Island, is the capital of Nunavut.",
+   [
+    "Iqaluit, who is on Baffin Island, is the capital of Nunavut.",
+    "Iqaluit, whose is on Baffin Island, is the capital of Nunavut.",
+    "Iqaluit is on Baffin Island is the capital of Nunavut."
+   ],
+   "Which refers to a place and adds extra information."
+  ]
+ ],
+ "engCLS": [
+  [
+   "Which of these is a <strong>dependent clause</strong>?",
+   "because the roads were icy",
+   [
+    "The roads were icy.",
+    "School was cancelled.",
+    "We stayed home."
+   ],
+   "Because makes the clause unable to stand alone."
+  ],
+  [
+   "Which of these is an <strong>independent clause</strong>?",
+   "The geese flew south.",
+   [
+    "when the geese flew south",
+    "after the geese left",
+    "since the geese were gone"
+   ],
+   "It has a subject and verb and expresses a complete thought."
+  ],
+  [
+   "Which of these is a <strong>dependent clause</strong>?",
+   "although it was raining",
+   [
+    "It was raining.",
+    "We played outside.",
+    "The grass was wet."
+   ],
+   "Although makes this clause depend on another for meaning."
+  ],
+  [
+   "Which of these is an <strong>independent clause</strong>?",
+   "My sister loves to read.",
+   [
+    "because my sister loves to read",
+    "if my sister reads",
+    "while my sister was reading"
+   ],
+   "It can stand alone as a complete sentence."
+  ],
+  [
+   "Which of these is a <strong>dependent clause</strong>?",
+   "until the bell rings",
+   [
+    "The bell rings.",
+    "Students wait quietly.",
+    "Class begins."
+   ],
+   "Until makes the clause incomplete on its own."
+  ],
+  [
+   "Which of these is an <strong>independent clause</strong>?",
+   "The team won the game.",
+   [
+    "after the team won",
+    "since the team won the game",
+    "unless the team wins"
+   ],
+   "It expresses a complete thought."
+  ],
+  [
+   "Which of these is a <strong>dependent clause</strong>?",
+   "if you finish your chores",
+   [
+    "You finished your chores.",
+    "You can watch TV.",
+    "Your room is clean."
+   ],
+   "If makes the clause depend on another for its meaning."
+  ],
+  [
+   "Which of these is an <strong>independent clause</strong>?",
+   "Leo built a snowman.",
+   [
+    "when Leo built a snowman",
+    "before Leo built a snowman",
+    "because Leo built a snowman"
+   ],
+   "It has a subject and verb and stands alone."
+  ],
+  [
+   "Which of these is a <strong>dependent clause</strong>?",
+   "who borrowed my pencil",
+   [
+    "Someone borrowed my pencil.",
+    "My pencil is gone.",
+    "I need a pencil."
+   ],
+   "A clause starting with who cannot stand alone here."
+  ],
+  [
+   "Which of these is an <strong>independent clause</strong>?",
+   "We ate dinner at six.",
+   [
+    "while we ate dinner",
+    "after we ate dinner at six",
+    "as soon as we ate"
+   ],
+   "It is a complete thought on its own."
+  ],
+  [
+   "Which of these is a <strong>dependent clause</strong>?",
+   "whenever the dog barks",
+   [
+    "The dog barks.",
+    "The baby wakes up.",
+    "We need quiet."
+   ],
+   "Whenever makes this an incomplete thought."
+  ],
+  [
+   "Which of these is an <strong>independent clause</strong>?",
+   "The bus was late again.",
+   [
+    "since the bus was late",
+    "because the bus was late again",
+    "unless the bus is late"
+   ],
+   "It can stand alone as a sentence."
+  ],
+  [
+   "Which of these is a <strong>dependent clause</strong>?",
+   "before the movie starts",
+   [
+    "The movie starts.",
+    "Buy some popcorn.",
+    "We found our seats."
+   ],
+   "Before makes the clause dependent."
+  ],
+  [
+   "Which of these is an <strong>independent clause</strong>?",
+   "Grandpa told a funny story.",
+   [
+    "when Grandpa told a story",
+    "as Grandpa told a funny story",
+    "after Grandpa told a story"
+   ],
+   "It expresses a complete idea."
+  ],
+  [
+   "Which of these is a <strong>dependent clause</strong>?",
+   "that we planted last spring",
+   [
+    "We planted a tree.",
+    "The tree grew tall.",
+    "Spring was warm."
+   ],
+   "That introduces a clause that cannot stand alone."
+  ],
+  [
+   "Which of these is an <strong>independent clause</strong>?",
+   "The lights went out.",
+   [
+    "when the lights went out",
+    "because the lights went out",
+    "if the lights go out"
+   ],
+   "It is a complete thought with a subject and verb."
+  ],
+  [
+   "Is this group of words an independent or dependent clause? Unless you hurry",
+   "Dependent clause, because it cannot stand alone",
+   [
+    "Independent clause, because it cannot stand alone",
+    "Independent clause, because it is a complete thought",
+    "Dependent clause, because it is a complete thought"
+   ],
+   "Unless leaves the thought unfinished."
+  ],
+  [
+   "Is this group of words an independent or dependent clause? The moon rose over the lake.",
+   "Independent clause, because it is a complete thought",
+   [
+    "Dependent clause, because it is a complete thought",
+    "Dependent clause, because it cannot stand alone",
+    "Independent clause, because it cannot stand alone"
+   ],
+   "It has a subject and verb and makes sense alone."
+  ],
+  [
+   "Identify the dependent clause. When the snow melts, the river will rise.",
+   "When the snow melts",
+   [
+    "the river will rise",
+    "the snow",
+    "the river"
+   ],
+   "When the snow melts cannot stand on its own."
+  ],
+  [
+   "Identify the independent clause. We cheered because our team scored.",
+   "We cheered",
+   [
+    "because our team scored",
+    "our team",
+    "because our team"
+   ],
+   "We cheered is a complete thought by itself."
+  ],
+  [
+   "Identify the dependent clause. I wore mittens since it was freezing.",
+   "since it was freezing",
+   [
+    "I wore mittens",
+    "it was",
+    "I wore"
+   ],
+   "Since makes it unable to stand alone."
+  ],
+  [
+   "Identify the independent clause. After school ended, Mia went skating.",
+   "Mia went skating",
+   [
+    "After school ended",
+    "After school",
+    "school ended, Mia"
+   ],
+   "Mia went skating makes sense on its own."
+  ]
+ ],
+ "engANL": [
+  [
+   "Doctor is to hospital as teacher is to ___.",
+   "school",
+   [
+    "student",
+    "lesson",
+    "chalk"
+   ],
+   "A doctor works in a hospital, and a teacher works in a school."
+  ],
+  [
+   "Glove is to hand as sock is to ___.",
+   "foot",
+   [
+    "shoe",
+    "leg",
+    "wool"
+   ],
+   "A glove covers a hand, and a sock covers a foot."
+  ],
+  [
+   "Cow is to calf as horse is to ___.",
+   "foal",
+   [
+    "pony",
+    "stable",
+    "mare"
+   ],
+   "A calf is a young cow, and a foal is a young horse."
+  ],
+  [
+   "Brave is to cowardly as generous is to ___.",
+   "selfish",
+   [
+    "kind",
+    "giving",
+    "wealthy"
+   ],
+   "Brave and cowardly are opposites, as are generous and selfish."
+  ],
+  [
+   "Scissors are to cut as broom is to ___.",
+   "sweep",
+   [
+    "floor",
+    "dust",
+    "handle"
+   ],
+   "Scissors are used to cut, and a broom is used to sweep."
+  ],
+  [
+   "Page is to book as slice is to ___.",
+   "loaf",
+   [
+    "knife",
+    "butter",
+    "toast"
+   ],
+   "A page is part of a book, and a slice is part of a loaf."
+  ],
+  [
+   "Painter is to brush as carpenter is to ___.",
+   "hammer",
+   [
+    "wood",
+    "house",
+    "paint"
+   ],
+   "A painter's tool is a brush, and a carpenter's tool is a hammer."
+  ],
+  [
+   "Tiny is to small as huge is to ___.",
+   "large",
+   [
+    "little",
+    "short",
+    "narrow"
+   ],
+   "Tiny means very small, and huge means very large."
+  ],
+  [
+   "Ear is to hear as nose is to ___.",
+   "smell",
+   [
+    "face",
+    "mouth",
+    "sneeze"
+   ],
+   "You hear with your ear and smell with your nose."
+  ],
+  [
+   "Canada is to Ottawa as France is to ___.",
+   "Paris",
+   [
+    "Europe",
+    "French",
+    "London"
+   ],
+   "Ottawa is the capital of Canada, and Paris is the capital of France."
+  ],
+  [
+   "Wolf is to pack as fish is to ___.",
+   "school",
+   [
+    "water",
+    "fin",
+    "pond"
+   ],
+   "A group of wolves is a pack, and a group of fish is a school."
+  ],
+  [
+   "Seed is to tree as egg is to ___.",
+   "bird",
+   [
+    "nest",
+    "shell",
+    "yolk"
+   ],
+   "A seed grows into a tree, and an egg hatches into a bird."
+  ],
+  [
+   "Pilot is to plane as captain is to ___.",
+   "ship",
+   [
+    "sea",
+    "crew",
+    "anchor"
+   ],
+   "A pilot controls a plane, and a captain commands a ship."
+  ],
+  [
+   "Ancient is to modern as rough is to ___.",
+   "smooth",
+   [
+    "bumpy",
+    "hard",
+    "rocky"
+   ],
+   "Ancient and modern are opposites, as are rough and smooth."
+  ],
+  [
+   "Library is to books as bank is to ___.",
+   "money",
+   [
+    "teller",
+    "loans",
+    "building"
+   ],
+   "A library stores books, and a bank stores money."
+  ],
+  [
+   "Chapter is to novel as verse is to ___.",
+   "poem",
+   [
+    "rhyme",
+    "poet",
+    "line"
+   ],
+   "A chapter is part of a novel, and a verse is part of a poem."
+  ],
+  [
+   "Freeze is to ice as boil is to ___.",
+   "steam",
+   [
+    "kettle",
+    "cold",
+    "water"
+   ],
+   "Freezing water makes ice, and boiling water makes steam."
+  ],
+  [
+   "Hungry is to eat as tired is to ___.",
+   "sleep",
+   [
+    "yawn",
+    "bed",
+    "awake"
+   ],
+   "When hungry you eat, and when tired you sleep."
+  ],
+  [
+   "Clock is to time as scale is to ___.",
+   "mass",
+   [
+    "kitchen",
+    "numbers",
+    "length"
+   ],
+   "A clock measures time, and a scale measures mass."
+  ],
+  [
+   "Bee is to buzz as snake is to ___.",
+   "hiss",
+   [
+    "slither",
+    "bite",
+    "scale"
+   ],
+   "A bee makes a buzzing sound, and a snake makes a hissing sound."
+  ],
+  [
+   "Ask is to answer as give is to ___.",
+   "receive",
+   [
+    "present",
+    "share",
+    "offer"
+   ],
+   "Ask and answer are a matched pair, as are give and receive."
+  ],
+  [
+   "Petal is to flower as feather is to ___.",
+   "bird",
+   [
+    "wing",
+    "pillow",
+    "nest"
+   ],
+   "A petal is part of a flower, and a feather is part of a bird."
+  ]
+ ],
+ "engDiOb": [
+  [
+   "What is the word in bold? Grandma knitted <strong>me</strong> a toque.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Me tells for whom the toque was knitted."
+  ],
+  [
+   "What is the word in bold? Grandma knitted me a <strong>toque</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Toque is what was knitted."
+  ],
+  [
+   "What is the word in bold? The coach threw <strong>Amir</strong> the ball.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Amir tells to whom the ball was thrown."
+  ],
+  [
+   "What is the word in bold? The coach threw Amir the <strong>ball</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Ball is what was thrown."
+  ],
+  [
+   "What is the word in bold? Mom bought the <strong>twins</strong> new skates.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "The twins tells for whom the skates were bought."
+  ],
+  [
+   "What is the word in bold? Mom bought the twins new <strong>skates</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Skates is what Mom bought."
+  ],
+  [
+   "What is the word in bold? Our teacher told <strong>us</strong> a ghost story.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Us tells to whom the story was told."
+  ],
+  [
+   "What is the word in bold? Our teacher told us a ghost <strong>story</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Story is what was told."
+  ],
+  [
+   "What is the word in bold? Liam sent his <strong>grandpa</strong> a postcard.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Grandpa tells to whom the postcard was sent."
+  ],
+  [
+   "What is the word in bold? Liam sent his grandpa a <strong>postcard</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Postcard is what Liam sent."
+  ],
+  [
+   "What is the word in bold? The waiter brought <strong>Dad</strong> the bill.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Dad tells to whom the bill was brought."
+  ],
+  [
+   "What is the word in bold? The chef made the <strong>guests</strong> pancakes.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Guests tells for whom the pancakes were made."
+  ],
+  [
+   "What is the word in bold? The chef made the guests <strong>pancakes</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Pancakes is what the chef made."
+  ],
+  [
+   "What is the word in bold? Zara painted a <strong>mural</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Mural is what Zara painted; there is no indirect object."
+  ],
+  [
+   "What is the word in bold? I lent <strong>Kofi</strong> my bike.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Kofi tells to whom the bike was lent."
+  ],
+  [
+   "What is the word in bold? I lent Kofi my <strong>bike</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Bike is what was lent."
+  ],
+  [
+   "What is the word in bold? The <strong>principal</strong> handed us our report cards.",
+   "Subject",
+   [
+    "Direct object",
+    "Indirect object",
+    "Predicate noun"
+   ],
+   "Principal is the one doing the handing, so it is the subject."
+  ],
+  [
+   "What is the word in bold? The principal handed <strong>us</strong> our report cards.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Us tells to whom the report cards were handed."
+  ],
+  [
+   "What is the word in bold? Ella showed her <strong>class</strong> the photos.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Class tells to whom the photos were shown."
+  ],
+  [
+   "What is the word in bold? Ella showed her class the <strong>photos</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Photos is what Ella showed."
+  ],
+  [
+   "What is the word in bold? The museum offered <strong>visitors</strong> free maps.",
+   "Indirect object",
+   [
+    "Direct object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Visitors tells to whom the maps were offered."
+  ],
+  [
+   "What is the word in bold? The museum offered visitors free <strong>maps</strong>.",
+   "Direct object",
+   [
+    "Indirect object",
+    "Subject",
+    "Predicate noun"
+   ],
+   "Maps is what was offered."
+  ]
+ ],
+ "engMdSl": [
+  [
+   "Which sentence contains a <strong>dangling</strong> modifier?",
+   "Running for the bus, my backpack fell open.",
+   [
+    "Running for the bus, I dropped my backpack.",
+    "My backpack fell open as I ran for the bus.",
+    "I ran for the bus with my backpack."
+   ],
+   "The backpack was not running, and the person who ran is never named."
+  ],
+  [
+   "Which sentence contains a <strong>misplaced</strong> modifier?",
+   "We saw a moose driving to the cottage.",
+   [
+    "Driving to the cottage, we saw a moose.",
+    "We saw a moose while we drove to the cottage.",
+    "On the way to the cottage, we saw a moose."
+   ],
+   "Driving to the cottage is placed next to moose, as if the moose were driving."
+  ],
+  [
+   "Which sentence contains a <strong>dangling</strong> modifier?",
+   "After eating lunch, the dishes were washed.",
+   [
+    "After eating lunch, we washed the dishes.",
+    "We washed the dishes after lunch.",
+    "After lunch, the dishes were washed by Sam."
+   ],
+   "The sentence never says who ate lunch."
+  ],
+  [
+   "Which sentence contains a <strong>misplaced</strong> modifier?",
+   "She almost drove her sister to school every day.",
+   [
+    "She drove her sister to school almost every day.",
+    "Almost every day, she drove her sister to school.",
+    "She drove her sister to school every day."
+   ],
+   "Almost should modify every day, not drove."
+  ],
+  [
+   "Which sentence contains a <strong>dangling</strong> modifier?",
+   "To win the race, hard training is needed.",
+   [
+    "To win the race, you need hard training.",
+    "You need hard training to win the race.",
+    "Hard training helps runners win races."
+   ],
+   "There is no person who wants to win the race."
+  ],
+  [
+   "Which sentence contains a <strong>misplaced</strong> modifier?",
+   "The girl walked the dog in a pink sweater.",
+   [
+    "The girl in a pink sweater walked the dog.",
+    "Wearing a pink sweater, the girl walked the dog.",
+    "The girl walked the dog."
+   ],
+   "In a pink sweater seems to describe the dog."
+  ],
+  [
+   "Which sentence contains a <strong>dangling</strong> modifier?",
+   "Having finished the test, the room was quiet.",
+   [
+    "Having finished the test, the students sat quietly.",
+    "The room was quiet after the test.",
+    "When the students finished the test, the room was quiet."
+   ],
+   "The room did not finish the test, and no person is named."
+  ],
+  [
+   "Which sentence contains a <strong>misplaced</strong> modifier?",
+   "I found a gold ring walking on the beach.",
+   [
+    "Walking on the beach, I found a gold ring.",
+    "I found a gold ring while walking on the beach.",
+    "On the beach, I found a gold ring."
+   ],
+   "Walking on the beach is next to ring, as if the ring were walking."
+  ],
+  [
+   "Which sentence contains a <strong>dangling</strong> modifier?",
+   "While doing homework, the phone rang.",
+   [
+    "While I was doing homework, the phone rang.",
+    "The phone rang while I did homework.",
+    "While doing homework, I heard the phone ring."
+   ],
+   "The phone was not doing homework, and no person is named."
+  ],
+  [
+   "Which sentence contains a <strong>misplaced</strong> modifier?",
+   "He bought a puppy for his son called Max.",
+   [
+    "He bought a puppy called Max for his son.",
+    "He bought his son a puppy called Max.",
+    "For his son, he bought a puppy named Max."
+   ],
+   "Called Max seems to name the son instead of the puppy."
+  ],
+  [
+   "Which sentence contains a <strong>dangling</strong> modifier?",
+   "At the age of six, my family moved to Edmonton.",
+   [
+    "When I was six, my family moved to Edmonton.",
+    "My family moved to Edmonton when I was six.",
+    "At the age of six, I moved to Edmonton with my family."
+   ],
+   "The family was not six; the person who was six is missing."
+  ],
+  [
+   "Which sentence contains a <strong>misplaced</strong> modifier?",
+   "The teacher returned the tests to the students that were marked.",
+   [
+    "The teacher returned the marked tests to the students.",
+    "The teacher returned the tests that were marked to the students.",
+    "The teacher marked the tests and returned them."
+   ],
+   "That were marked seems to describe the students."
+  ],
+  [
+   "Which sentence contains a <strong>dangling</strong> modifier?",
+   "Stuck in traffic, the concert started without us.",
+   [
+    "Stuck in traffic, we missed the start of the concert.",
+    "Because we were stuck in traffic, the concert started without us.",
+    "The concert started while we were stuck in traffic."
+   ],
+   "The concert was not stuck in traffic, and we is never the subject."
+  ],
+  [
+   "Which sentence contains a <strong>misplaced</strong> modifier?",
+   "Our neighbour gave a cake to the baby with chocolate icing.",
+   [
+    "Our neighbour gave a cake with chocolate icing to the baby.",
+    "Our neighbour gave the baby a chocolate-iced cake.",
+    "Our neighbour gave the baby a cake."
+   ],
+   "With chocolate icing seems to describe the baby."
+  ],
+  [
+   "Which sentence contains a <strong>dangling</strong> modifier?",
+   "Excited about the trip, the bags were packed early.",
+   [
+    "Excited about the trip, we packed our bags early.",
+    "We packed our bags early because we were excited.",
+    "The bags were packed early by the excited campers."
+   ],
+   "The bags were not excited, and the people are not named."
+  ],
+  [
+   "Which sentence contains a <strong>misplaced</strong> modifier?",
+   "Covered in mud, Dad washed the dog.",
+   [
+    "Dad washed the dog, which was covered in mud.",
+    "Dad washed the muddy dog.",
+    "Dad washed the dog after its walk."
+   ],
+   "Covered in mud is next to Dad, though the dog is the muddy one."
+  ],
+  [
+   "Is the modifier in this sentence dangling, misplaced or correct? Flying over the city, the buildings looked tiny.",
+   "Dangling, because no person flying is named",
+   [
+    "Misplaced, because no person flying is named",
+    "Correct, because buildings can look tiny",
+    "Misplaced, because it describes the city"
+   ],
+   "The buildings are not flying, and the flyer never appears in the sentence."
+  ],
+  [
+   "Is the modifier in this sentence dangling, misplaced or correct? I only ate one cookie.",
+   "Misplaced, because only should come before one cookie",
+   [
+    "Dangling, because the eater is missing",
+    "Correct, because only is next to ate",
+    "Dangling, because only should come before one cookie"
+   ],
+   "Only should limit one cookie, not ate."
+  ],
+  [
+   "Is the modifier in this sentence dangling, misplaced or correct? Holding the map, Priya led us up the trail.",
+   "Correct",
+   [
+    "Dangling, because the person holding the map is missing",
+    "Misplaced, because the map is leading",
+    "Dangling, because Priya is not named"
+   ],
+   "Holding the map correctly describes Priya, who is right after it."
+  ],
+  [
+   "Is the modifier in this sentence dangling, misplaced or correct? Wrapped in shiny paper, my brother opened the gift.",
+   "Misplaced, because the gift was wrapped, not my brother",
+   [
+    "Dangling, because no person is named",
+    "Correct, because my brother opened it",
+    "Misplaced, because opened should come first"
+   ],
+   "Wrapped in shiny paper is placed next to brother instead of gift."
+  ],
+  [
+   "Is the modifier in this sentence dangling, misplaced or correct? Before going to bed, the lights must be turned off.",
+   "Dangling, because no person going to bed is named",
+   [
+    "Misplaced, because the lights go to bed",
+    "Correct, because lights are turned off at night",
+    "Misplaced, because before should be at the end"
+   ],
+   "The sentence never names who is going to bed."
+  ],
+  [
+   "Is the modifier in this sentence dangling, misplaced or correct? Laughing at the joke, the students fell off their chairs.",
+   "Correct",
+   [
+    "Dangling, because no one laughs",
+    "Misplaced, because the chairs were laughing",
+    "Dangling, because the joke is missing"
+   ],
+   "Laughing at the joke correctly describes the students."
+  ]
+ ],
+ "engMdOk": [
+  [
+   "Which sentence uses modifiers correctly?",
+   "Climbing the tree, Oliver tore his shirt.",
+   [
+    "Climbing the tree, Oliver's shirt was torn.",
+    "Climbing the tree, the shirt tore.",
+    "Oliver's shirt tore climbing the tree."
+   ],
+   "Climbing the tree correctly describes Oliver."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Waiting in line, we talked about the movie.",
+   [
+    "Waiting in line, the movie was discussed.",
+    "Waiting in line, the talk was about the movie.",
+    "The movie, waiting in line, was talked about."
+   ],
+   "Waiting in line correctly describes we."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Nina found a wallet full of money on the sidewalk.",
+   [
+    "Nina found a wallet on the sidewalk full of money.",
+    "Full of money, Nina found a wallet on the sidewalk.",
+    "On the sidewalk full of money, Nina found a wallet."
+   ],
+   "Full of money is next to wallet, the word it describes."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Hoping for snow, the kids watched the weather report.",
+   [
+    "Hoping for snow, the weather report was watched.",
+    "Hoping for snow, the TV showed the weather.",
+    "The weather report, hoping for snow, was on."
+   ],
+   "Hoping for snow correctly describes the kids."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "I ate almost all of the popcorn.",
+   [
+    "I almost ate all of the popcorn, then I ate it.",
+    "Almost I ate all of the popcorn.",
+    "I ate all of the almost popcorn."
+   ],
+   "Almost correctly limits all of the popcorn."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Startled by the noise, the cat jumped off the couch.",
+   [
+    "Startled by the noise, the couch was jumped off.",
+    "Startled by the noise, the cat's couch was empty.",
+    "The couch, startled by the noise, lost the cat."
+   ],
+   "Startled by the noise correctly describes the cat."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "After practising for weeks, Jun played the song perfectly.",
+   [
+    "After practising for weeks, the song was played perfectly.",
+    "After practising for weeks, the piano sounded perfect.",
+    "The song, after practising for weeks, was perfect."
+   ],
+   "Jun is the one who practised, so the modifier is clear."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "The man with the red umbrella waited at the corner.",
+   [
+    "The man waited at the corner with the red umbrella there.",
+    "With the red umbrella, the corner had a man waiting.",
+    "The corner waited with the red umbrella for the man."
+   ],
+   "With the red umbrella is placed right after man."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Frightened by the thunder, the puppy hid under the bed.",
+   [
+    "Frightened by the thunder, the bed hid the puppy.",
+    "Frightened by the thunder, we found the puppy under the bed.",
+    "Under the bed, frightened, was the thunder's puppy."
+   ],
+   "Frightened by the thunder correctly describes the puppy."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "To get good marks, you must study regularly.",
+   [
+    "To get good marks, studying must be regular.",
+    "To get good marks, regular study is a must.",
+    "To get good marks, the textbook must be read."
+   ],
+   "You is the one who wants good marks, so the modifier has a clear subject."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Glowing in the dark, the stars filled the sky.",
+   [
+    "Glowing in the dark, we looked at the stars.",
+    "Glowing in the dark, the sky was looked at.",
+    "We, glowing in the dark, filled the sky with stars."
+   ],
+   "Glowing in the dark correctly describes the stars."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Carrying a heavy box, Ms. Leblanc climbed the stairs.",
+   [
+    "Carrying a heavy box, the stairs were climbed.",
+    "Carrying a heavy box, the stairs seemed long.",
+    "The stairs, carrying a heavy box, were climbed by Ms. Leblanc."
+   ],
+   "Carrying a heavy box correctly describes Ms. Leblanc."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Wearing his new skates, Ethan glided across the rink.",
+   [
+    "Wearing his new skates, the rink was crossed.",
+    "Wearing his new skates, the ice felt smooth.",
+    "The rink, wearing his new skates, was crossed by Ethan."
+   ],
+   "Wearing his new skates correctly describes Ethan."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "We gave the leftover sandwiches to the hungry campers.",
+   [
+    "We gave the sandwiches to the campers that were leftover.",
+    "Leftover, we gave the sandwiches to the campers.",
+    "We gave the hungry sandwiches to the leftover campers."
+   ],
+   "Leftover and hungry each sit beside the noun they describe."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Swimming toward the shore, the boy spotted a turtle.",
+   [
+    "Swimming toward the shore, a turtle was spotted.",
+    "Swimming toward the shore, the boy's eyes spotted a turtle.",
+    "Swimming toward the shore, the beach held a turtle."
+   ],
+   "Swimming toward the shore correctly describes the boy."
+  ],
+  [
+   "Which sentence uses modifiers correctly?",
+   "Proud of her work, Anika showed her science project to the class.",
+   [
+    "Proud of her work, the science project was shown to the class.",
+    "Proud of her work, the class saw Anika's science project.",
+    "Anika showed her science project proud of her work to the class's teacher."
+   ],
+   "Proud of her work correctly describes Anika."
+  ],
+  [
+   "Are the modifiers used correctly? Bored by the lecture, the clock seemed to move slowly.",
+   "Incorrect, because the clock was not bored",
+   [
+    "Correct, because the clock moved slowly",
+    "Correct, because the lecture was boring",
+    "Incorrect, because lecture should come first"
+   ],
+   "Bored by the lecture describes a person, but the sentence attaches it to the clock."
+  ],
+  [
+   "Are the modifiers used correctly? Bored by the lecture, Kai watched the clock.",
+   "Correct, because Kai was bored",
+   [
+    "Incorrect, because the clock was bored",
+    "Incorrect, because the lecture was bored",
+    "Incorrect, because no person is named"
+   ],
+   "Bored by the lecture correctly describes Kai."
+  ],
+  [
+   "Are the modifiers used correctly? Barking all night, the neighbours could not sleep because of the dog.",
+   "Incorrect, because the neighbours were not barking",
+   [
+    "Correct, because the dog barked",
+    "Correct, because the neighbours could not sleep",
+    "Incorrect, because all night should come first"
+   ],
+   "Barking all night is attached to the neighbours instead of the dog."
+  ],
+  [
+   "Are the modifiers used correctly? Lost in the woods, the hikers used a compass to find their way.",
+   "Correct, because the hikers were lost",
+   [
+    "Incorrect, because the compass was lost",
+    "Incorrect, because the woods were lost",
+    "Incorrect, because no person is named"
+   ],
+   "Lost in the woods correctly describes the hikers."
+  ],
+  [
+   "Are the modifiers used correctly? Freshly baked, Mom pulled the bread out of the oven.",
+   "Incorrect, because Mom was not freshly baked",
+   [
+    "Correct, because the bread was baked",
+    "Correct, because Mom did the baking",
+    "Incorrect, because oven should come first"
+   ],
+   "Freshly baked is attached to Mom instead of the bread."
+  ],
+  [
+   "Are the modifiers used correctly? I saw a shooting star lying on the grass.",
+   "Incorrect, because the star was not lying on the grass",
+   [
+    "Correct, because I was lying on the grass",
+    "Correct, because stars can be on grass",
+    "Incorrect, because shooting should come last"
+   ],
+   "Lying on the grass is placed next to star; it should come at the start to describe I."
+  ]
+ ],
+ "engXPlCm": [
+  [
+   "What is the plural of sister-in-law?",
+   "sisters-in-law",
+   [
+    "sister-in-laws",
+    "sisters-in-laws",
+    "sister's-in-law"
+   ],
+   "Make the main noun, sister, plural."
+  ],
+  [
+   "What is the plural of spoonful?",
+   "spoonfuls",
+   [
+    "spoonsful",
+    "spoonfulls",
+    "spoonful's"
+   ],
+   "Compound words ending in -ful add -s at the end."
+  ],
+  [
+   "What is the plural of bystander?",
+   "bystanders",
+   [
+    "bysstanders",
+    "bystanderes",
+    "bystander's"
+   ],
+   "Bystander is a closed compound, so just add -s."
+  ],
+  [
+   "What is the plural of editor-in-chief?",
+   "editors-in-chief",
+   [
+    "editor-in-chiefs",
+    "editors-in-chiefs",
+    "editor's-in-chief"
+   ],
+   "Pluralize the main noun, editor."
+  ],
+  [
+   "What is the plural of lieutenant governor?",
+   "lieutenant governors",
+   [
+    "lieutenants governor",
+    "lieutenants governors",
+    "lieutenant governores"
+   ],
+   "Governor is the main noun, so it takes the -s."
+  ],
+  [
+   "What is the plural of hanger-on?",
+   "hangers-on",
+   [
+    "hanger-ons",
+    "hangers-ons",
+    "hanger's-on"
+   ],
+   "Pluralize the main noun, hanger."
+  ],
+  [
+   "What is the plural of bookshelf?",
+   "bookshelves",
+   [
+    "bookshelfs",
+    "booksshelf",
+    "bookshelfes"
+   ],
+   "Shelf becomes shelves, so bookshelf becomes bookshelves."
+  ],
+  [
+   "What is the plural of brother-in-arms?",
+   "brothers-in-arms",
+   [
+    "brother-in-armses",
+    "brothers-in-armses",
+    "brother's-in-arms"
+   ],
+   "Pluralize the main noun, brother."
+  ],
+  [
+   "What is the plural of father-in-law?",
+   "fathers-in-law",
+   [
+    "father-in-laws",
+    "fathers-in-laws",
+    "father's-in-law"
+   ],
+   "Pluralize father, the main noun."
+  ],
+  [
+   "What is the plural of handful?",
+   "handfuls",
+   [
+    "handsful",
+    "handfulls",
+    "hands-full"
+   ],
+   "Words ending in -ful add -s at the end."
+  ],
+  [
+   "What is the plural of maid of honour?",
+   "maids of honour",
+   [
+    "maid of honours",
+    "maids of honours",
+    "maid's of honour"
+   ],
+   "Pluralize maid, the main noun."
+  ],
+  [
+   "What is the plural of grown-up?",
+   "grown-ups",
+   [
+    "growns-up",
+    "grown-ups'",
+    "growns-ups"
+   ],
+   "Grown-up has no noun inside it, so add -s at the end."
+  ],
+  [
+   "What is the plural of firefighter?",
+   "firefighters",
+   [
+    "firesfighter",
+    "firesfighters",
+    "firefighteres"
+   ],
+   "Firefighter is a closed compound, so add -s to the end."
+  ],
+  [
+   "What is the plural of chief of police?",
+   "chiefs of police",
+   [
+    "chief of polices",
+    "chiefs of polices",
+    "chieves of police"
+   ],
+   "Pluralize chief, the main noun; chief simply adds -s."
+  ],
+  [
+   "What is the plural of forget-me-not?",
+   "forget-me-nots",
+   [
+    "forgets-me-not",
+    "forget-me-not's",
+    "forgets-me-nots"
+   ],
+   "This compound has no main noun, so add -s at the end."
+  ],
+  [
+   "What is the plural of man-at-arms?",
+   "men-at-arms",
+   [
+    "man-at-armses",
+    "mans-at-arms",
+    "men-at-armses"
+   ],
+   "Pluralize the main noun, man, which becomes men."
+  ],
+  [
+   "What is the plural of looker-on?",
+   "lookers-on",
+   [
+    "looker-ons",
+    "lookers-ons",
+    "looker's-on"
+   ],
+   "Pluralize the main noun, looker."
+  ],
+  [
+   "What is the plural of mouthful?",
+   "mouthfuls",
+   [
+    "mouthsful",
+    "mouthfulls",
+    "mouthfuls'"
+   ],
+   "Words ending in -ful add -s at the end."
+  ],
+  [
+   "What is the plural of son-in-law?",
+   "sons-in-law",
+   [
+    "son-in-laws",
+    "sons-in-laws",
+    "son's-in-law"
+   ],
+   "Pluralize the main noun, son."
+  ],
+  [
+   "What is the plural of drive-in?",
+   "drive-ins",
+   [
+    "drives-in",
+    "drive-ines",
+    "drives-ins"
+   ],
+   "Drive-in has no noun part, so add -s to the end."
+  ],
+  [
+   "What is the plural of bus stop?",
+   "bus stops",
+   [
+    "buses stop",
+    "buses stops",
+    "bus stopes"
+   ],
+   "Stop is the main noun, so it takes the -s."
+  ],
+  [
+   "What is the plural of man-of-war?",
+   "men-of-war",
+   [
+    "man-of-wars",
+    "mans-of-war",
+    "men-of-wars"
+   ],
+   "Pluralize the main noun, man, which becomes men."
+  ]
+ ],
+ "engXMmPic": [
+  [
+   "Which sentence is correct?",
+   "🐕 Barking loudly, the dog chased the mail carrier.",
+   [
+    "🐕 Barking loudly, the mail carrier was chased by the dog.",
+    "🐕 The mail carrier chased the dog barking loudly.",
+    "🐕 Barking loudly, the mail was chased by the dog."
+   ],
+   "Barking loudly correctly describes the dog."
+  ],
+  [
+   "Which sentence is correct?",
+   "🎂 Covered in frosting, the cake sat on the table.",
+   [
+    "🎂 Covered in frosting, the table held the cake.",
+    "🎂 The table sat on the cake covered in frosting.",
+    "🎂 Covered in frosting, we put the cake on the table."
+   ],
+   "Covered in frosting correctly describes the cake."
+  ],
+  [
+   "Which sentence is correct?",
+   "⛸️ While skating on the canal, I saw a heron.",
+   [
+    "⛸️ While skating on the canal, a heron was seen.",
+    "⛸️ A heron, while skating on the canal, was seen by me.",
+    "⛸️ Skating on the canal, the heron watched me."
+   ],
+   "The modifier while skating correctly describes I."
+  ],
+  [
+   "Which sentence is correct?",
+   "🍕 Hot from the oven, the pizza smelled amazing.",
+   [
+    "🍕 Hot from the oven, we smelled the amazing pizza.",
+    "🍕 We smelled the amazing pizza hot from the oven in the car.",
+    "🍕 Hot from the oven, my nose smelled the pizza."
+   ],
+   "Hot from the oven correctly describes the pizza."
+  ],
+  [
+   "Which sentence is correct?",
+   "🐟 Leaping out of the water, the salmon swam upstream.",
+   [
+    "🐟 Leaping out of the water, the fisher watched the salmon.",
+    "🐟 The fisher watched the salmon leaping out of the water with a camera.",
+    "🐟 Leaping out of the water, the river held salmon."
+   ],
+   "Leaping out of the water correctly describes the salmon."
+  ],
+  [
+   "Which sentence is correct?",
+   "🧥 Lia wore a red coat with gold buttons to school.",
+   [
+    "🧥 Lia wore a red coat to school with gold buttons.",
+    "🧥 With gold buttons, Lia wore a red coat to school.",
+    "🧥 To school with gold buttons, Lia wore a red coat."
+   ],
+   "With gold buttons must sit next to coat, the noun it describes."
+  ],
+  [
+   "Which sentence is correct?",
+   "🚲 Pedalling hard, Jonah reached the top of the hill.",
+   [
+    "🚲 Pedalling hard, the hill was reached by Jonah.",
+    "🚲 The top of the hill, pedalling hard, was reached.",
+    "🚲 Pedalling hard, the bike reached the hill top by Jonah."
+   ],
+   "Pedalling hard correctly describes Jonah."
+  ],
+  [
+   "Which sentence is correct?",
+   "🐱 Sleeping in the sun, the cat purred softly.",
+   [
+    "🐱 Sleeping in the sun, the purr was soft.",
+    "🐱 The cat purred softly in the sun sleeping on the porch's floor.",
+    "🐱 Sleeping in the sun, I heard the purring cat."
+   ],
+   "Sleeping in the sun correctly describes the cat."
+  ],
+  [
+   "Which sentence is correct?",
+   "📚 I found a book about whales in the library.",
+   [
+    "📚 I found a book in the library about whales swimming.",
+    "📚 About whales, I found a book in the library.",
+    "📚 In the library about whales, I found a book."
+   ],
+   "About whales sits next to book, the noun it describes."
+  ],
+  [
+   "Which sentence is correct?",
+   "🌧️ Soaked by the rain, we ran into the house.",
+   [
+    "🌧️ Soaked by the rain, the house was where we ran.",
+    "🌧️ We ran into the house soaked by the rain's roof.",
+    "🌧️ Soaked by the rain, the door let us in."
+   ],
+   "Soaked by the rain correctly describes we."
+  ],
+  [
+   "Which sentence is correct?",
+   "🎸 The boy with the guitar sang on stage.",
+   [
+    "🎸 The boy sang on stage with the guitar strings shining.",
+    "🎸 With the guitar, the stage sang the boy.",
+    "🎸 The boy sang with the guitar on stage the song with strings."
+   ],
+   "With the guitar is placed right after boy, the noun it describes."
+  ],
+  [
+   "Which sentence is correct?",
+   "🦌 Grazing in the meadow, the deer looked peaceful.",
+   [
+    "🦌 Grazing in the meadow, we thought the deer looked peaceful.",
+    "🦌 Grazing in the meadow, the peaceful look was on the deer.",
+    "🦌 The meadow, grazing, looked peaceful with deer."
+   ],
+   "Grazing in the meadow correctly describes the deer."
+  ],
+  [
+   "Which sentence is correct?",
+   "🧁 Kim ate nearly the whole batch of cupcakes.",
+   [
+    "🧁 Kim nearly ate the whole batch of cupcakes, all of them.",
+    "🧁 Nearly Kim ate the whole batch of cupcakes.",
+    "🧁 Kim ate the whole nearly batch of cupcakes."
+   ],
+   "Nearly belongs right before the whole batch, the amount it limits."
+  ],
+  [
+   "Which sentence is correct?",
+   "🏒 Racing down the ice, Sam scored a goal.",
+   [
+    "🏒 Racing down the ice, a goal was scored by Sam.",
+    "🏒 Racing down the ice, the puck was Sam's goal.",
+    "🏒 A goal, racing down the ice, Sam scored."
+   ],
+   "Racing down the ice correctly describes Sam."
+  ],
+  [
+   "Which sentence is correct?",
+   "🌻 Reaching toward the sun, the sunflowers grew tall.",
+   [
+    "🌻 Reaching toward the sun, the farmer saw tall sunflowers.",
+    "🌻 Reaching toward the sun, the garden grew sunflowers tall.",
+    "🌻 The sunflowers grew tall the farmer reaching toward the sun."
+   ],
+   "Reaching toward the sun correctly describes the sunflowers."
+  ],
+  [
+   "Which sentence is correct?",
+   "🥾 Tired from the hike, Maya rested on a log.",
+   [
+    "🥾 Tired from the hike, the log was where Maya rested.",
+    "🥾 Maya rested on a log tired from the hike all day log.",
+    "🥾 Tired from the hike, a log held Maya."
+   ],
+   "Tired from the hike correctly describes Maya."
+  ],
+  [
+   "Which sentence is correct?",
+   "🐦 Through the window, I watched a robin build its nest.",
+   [
+    "🐦 I watched a robin build its nest through the window flying.",
+    "🐦 Building its nest, I watched a robin through the window.",
+    "🐦 Through the window, a nest was built while I watched."
+   ],
+   "Through the window clearly tells where I watched from, and no modifier is attached to the wrong noun."
+  ],
+  [
+   "Which sentence is correct?",
+   "📸 Smiling for the camera, the twins posed by the tree.",
+   [
+    "📸 Smiling for the camera, the tree stood by the twins.",
+    "📸 The camera posed the twins smiling by the tree.",
+    "📸 Smiling for the camera, the photo showed a tree."
+   ],
+   "Smiling for the camera correctly describes the twins."
+  ],
+  [
+   "Which sentence is correct?",
+   "🍎 From a farmer, we bought a big basket of apples.",
+   [
+    "🍎 We bought apples from a farmer in a big basket.",
+    "🍎 In a big basket, a farmer bought us apples.",
+    "🍎 A big basket bought apples from a farmer."
+   ],
+   "The sentence avoids suggesting the farmer was in the basket."
+  ],
+  [
+   "Which sentence is correct?",
+   "❄️ Shivering in the cold, the children waited for the bus.",
+   [
+    "❄️ Shivering in the cold, the bus was waited for.",
+    "❄️ The bus, shivering in the cold, waited for the children.",
+    "❄️ Shivering in the cold, the bus stop held the children."
+   ],
+   "Shivering in the cold correctly describes the children."
+  ],
+  [
+   "Which sentence is correct?",
+   "🎨 After finishing the painting, Ana hung it on the wall.",
+   [
+    "🎨 After finishing the painting, the wall held it.",
+    "🎨 After finishing the painting, it was hung on the wall.",
+    "🎨 The wall, after finishing the painting, held Ana's art."
+   ],
+   "Ana is the one who finished the painting, so the modifier is correctly placed."
+  ],
+  [
+   "Which sentence is correct?",
+   "🐻 Searching for berries, the bear wandered through the forest.",
+   [
+    "🐻 Searching for berries, the forest was full of bears.",
+    "🐻 The forest wandered, searching for berries, through the bear.",
+    "🐻 Searching for berries, our camera spotted the bear."
+   ],
+   "Searching for berries correctly describes the bear."
+  ]
+ ]
+}
