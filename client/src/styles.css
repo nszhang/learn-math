@@ -242,6 +242,10 @@ body {
 .skill-search-results .skill-code { white-space: nowrap; }
 .skill-search-section { font-weight: 400; font-size: .9em; }
 .skill-search-more { margin: 8px 20px 14px; }
+.assign-search { margin: 6px 0 14px; }
+.assign-hit { display: flex; align-items: center; gap: 10px; padding: 9px 20px; border-top: 1px solid var(--line-soft); cursor: pointer; }
+.assign-hit:hover { background: var(--primary-light); }
+.assign-hit .skill-code { flex: none; }
 @media (max-width: 600px) {
   .skill-search-results .skill-row { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 12px 16px; }
   .skill-search-results .skill-row > * { grid-column: 1; justify-self: start; }

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api.js';
 import { SUBJECTS, SKILL_INDEX, STUDENT_GRADES, gradeLabel, isHsk, studentLevelFor, isStudentLevel, isAboveLevel } from '../skills.js';
 import { distinctQuestions } from '../questionPool.js';
+import { searchSkills } from '../skillSearch.js';
 import { localDateStr, niceDate, skillName, isAboveGrade } from '../homework.js';
 import Fold from './Fold.jsx';
 
@@ -13,6 +14,8 @@ export default function TeacherAssign({ toast }) {
   const [checked, setChecked] = useState(() => new Set());
   const [assignments, setAssignments] = useState([]);
   const [showAll, setShowAll] = useState(false);
+  const [query, setQuery] = useState('');
+  const [showAllHits, setShowAllHits] = useState(false);
 
   async function load() {
     try {
@@ -38,6 +41,13 @@ export default function TeacherAssign({ toast }) {
     if (grade === null && !showAll) return [...mine, ...all.filter(f => !isHsk(f.sub))];
     return showAll ? [...mine, ...all.filter(f => !mine.includes(f))] : mine;
   }, [student, grade, showAll]);
+
+  // search every subject for a topic ("similar triangles", "grade 7 fractions"); the student's grade ranks first
+  const hits = useMemo(() => {
+    if (!query.trim()) return null;
+    const all = SUBJECTS.flatMap(sub => searchSkills(sub, query, { myGrade: isHsk(sub) ? null : grade, limit: 60 }).results.map(r => ({ ...r, sub })));
+    return all.sort((a, b) => b.score - a.score).slice(0, 60);
+  }, [query, grade]);
 
   const aboveSelected = [...checked].filter(id => isAboveGrade(id, student));
   // skills whose question bank is smaller than the questions asked — some would have to repeat
@@ -146,6 +156,32 @@ export default function TeacherAssign({ toast }) {
             {showAll ? 'Show only the student\'s level' : 'Show all grades and levels'}
           </button>
           {checked.size > 0 && <button type="button" className="btn btn-ghost" onClick={() => setChecked(new Set())}>Clear ({checked.size})</button>}
+        </div>
+
+        <div className="skill-search assign-search">
+          <input type="search" className="skill-search-input" value={query} aria-label="Search skills to assign"
+            placeholder='🔍 Search skills to assign — e.g. "similar triangles", "grade 7 fractions", "Shakespeare"'
+            onChange={e => { setQuery(e.target.value); setShowAllHits(false); }} />
+          {hits && (
+            <div className="skill-search-results">
+              <p className="muted skill-search-summary">
+                {hits.length ? <>{hits.length}{hits.length === 60 ? '+' : ''} matching skill{hits.length === 1 ? '' : 's'}{grade !== null ? ` — ${gradeLabel(grade)} first` : ''}. Tick to add them to this assignment.</>
+                  : 'No skills match — try fewer or different words.'}
+              </p>
+              {(showAllHits ? hits : hits.slice(0, 12)).map(h => (
+                <label className="assign-skill assign-hit" key={h.skill.id}>
+                  <input type="checkbox" checked={checked.has(h.skill.id)} onChange={() => toggleSkill(h.skill.id)} />
+                  <span className="skill-code">{h.sub.emoji} {h.grade.name} · {h.skill.code}</span>
+                  <span>{h.skill.title} <span className="muted">· {h.section.name}</span>
+                    {isAboveGrade(h.skill.id, student) && <span className="grade-tag above" style={{ marginLeft: 6 }}>⚠️ above grade</span>}
+                    {scoreOf(h.skill.id) >= 100 ? ' 🥇' : scoreOf(h.skill.id) > 0 ? <span className="muted"> ({scoreOf(h.skill.id)})</span> : ''}</span>
+                </label>
+              ))}
+              {hits.length > 12 && !showAllHits && (
+                <button type="button" className="btn btn-ghost skill-search-more" onClick={() => setShowAllHits(true)}>Show all {hits.length}</button>
+              )}
+            </div>
+          )}
         </div>
 
         <div>
