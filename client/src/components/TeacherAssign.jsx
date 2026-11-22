@@ -34,12 +34,15 @@ export default function TeacherAssign({ toast }) {
   const grade = student?.grade ?? null;
   const scoreOf = id => student?.skillProgress?.find(p => p.skill_id === id)?.score || 0;
 
-  // subject × level folds; show the student's grade first (others, including Chinese HSK levels, on request).
+  // subject × level folds: the student's grade in Math, English and Science, plus Chinese (by HSK level,
+  // which is not tied to grade, so all levels are listed); other grades on request.
   const folds = useMemo(() => {
     const all = SUBJECTS.flatMap(sub => sub.grades.map(g => ({ sub, grade: g })));
     const mine = all.filter(f => isStudentLevel(f.sub, f.grade.num, student));
-    if (grade === null && !showAll) return [...mine, ...all.filter(f => !isHsk(f.sub))];
-    return showAll ? [...mine, ...all.filter(f => !mine.includes(f))] : mine;
+    const chinese = all.filter(f => isHsk(f.sub));
+    if (showAll) return [...mine, ...all.filter(f => !mine.includes(f) && !isHsk(f.sub)), ...chinese];
+    if (grade === null) return [...all.filter(f => !isHsk(f.sub)), ...chinese];
+    return [...mine, ...chinese];
   }, [student, grade, showAll]);
 
   // search every subject for a topic ("similar triangles", "grade 7 fractions"); the student's grade ranks first
@@ -64,7 +67,10 @@ export default function TeacherAssign({ toast }) {
     const pickedNow = new Set(checked);
     let added = 0;
     for (const sub of SUBJECTS) {
-      const level = studentLevelFor(sub, student);
+      // Chinese has no grade: suggest from the lowest HSK level the student hasn't mastered yet
+      const level = isHsk(sub)
+        ? sub.grades.find(g => g.sections.some(sec => sec.skills.some(sk => scoreOf(sk.id) < 100)))?.num ?? null
+        : studentLevelFor(sub, student);
       if (level === null) continue;
       const g = sub.grades.find(x => x.num === level);
       if (!g) continue;
@@ -121,7 +127,7 @@ export default function TeacherAssign({ toast }) {
     <main className="page">
       <div className="page-head">
         <h2>📝 Assign Exercises</h2>
-        <p className="muted">Choose a student, a due date, and the skills to practice. Skills come from the student's grade; anything above it is flagged. Chinese HSK skills are under “show all”.</p>
+        <p className="muted">Choose a student, a due date, and the skills to practice. Math, English and Science come from the student's grade (anything above it is flagged); Chinese is listed by HSK level.</p>
       </div>
 
       <form className="assign-card" onSubmit={submit}>
@@ -153,7 +159,7 @@ export default function TeacherAssign({ toast }) {
         <div className="anim-controls" style={{ margin: '10px 0' }}>
           <button type="button" className="btn btn-ghost" onClick={suggest} disabled={!student}>✨ Suggest skills for {gradeLabel(grade)}</button>
           <button type="button" className="btn btn-ghost" onClick={() => setShowAll(v => !v)}>
-            {showAll ? 'Show only the student\'s level' : 'Show all grades and levels'}
+            {showAll ? 'Show only the student\'s grade' : 'Show all grades'}
           </button>
           {checked.size > 0 && <button type="button" className="btn btn-ghost" onClick={() => setChecked(new Set())}>Clear ({checked.size})</button>}
         </div>
