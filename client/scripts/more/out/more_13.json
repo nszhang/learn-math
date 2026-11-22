@@ -1,0 +1,5552 @@
+{
+ "engScJn": [
+  [
+   "Which sentence is correct?",
+   "The bus was late, but we still made the show.",
+   [
+    "The bus was late; but, we still made the show.",
+    "The bus was late: but we still made the show.",
+    "The bus was late but, we still made the show."
+   ],
+   "A comma goes before a coordinating conjunction like but when it joins two independent clauses."
+  ],
+  [
+   "Which sentence is correct?",
+   "The lake froze early; the skaters were thrilled.",
+   [
+    "The lake froze early, the skaters were thrilled.",
+    "The lake froze early; and, the skaters were thrilled.",
+    "The lake froze; early the skaters were thrilled."
+   ],
+   "A semicolon can join two closely related independent clauses without a conjunction."
+  ],
+  [
+   "Which sentence is correct?",
+   "The roads were icy; however, the buses ran on time.",
+   [
+    "The roads were icy, however, the buses ran on time.",
+    "The roads were icy; however the buses, ran on time.",
+    "The roads were icy however; the buses ran on time."
+   ],
+   "A conjunctive adverb like however joining two clauses takes a semicolon before it and a comma after it."
+  ],
+  [
+   "Which sentence is correct?",
+   "Amir forgot his lunch, so his friend shared a sandwich.",
+   [
+    "Amir forgot his lunch so, his friend shared a sandwich.",
+    "Amir forgot his lunch; so, his friend shared a sandwich.",
+    "Amir forgot, his lunch so his friend shared a sandwich."
+   ],
+   "Use a comma before so when it joins two independent clauses."
+  ],
+  [
+   "Which sentence is correct?",
+   "The forecast called for sun; instead, it poured all afternoon.",
+   [
+    "The forecast called for sun, instead, it poured all afternoon.",
+    "The forecast called for sun; instead it, poured all afternoon.",
+    "The forecast called for sun instead; it poured all afternoon."
+   ],
+   "Instead is a conjunctive adverb here, so it needs a semicolon before it and a comma after it."
+  ],
+  [
+   "Which sentence is correct?",
+   "We could take the ferry, or we could drive around the bay.",
+   [
+    "We could take the ferry or, we could drive around the bay.",
+    "We could take the ferry: or we could drive around the bay.",
+    "We could take, the ferry or we could drive around the bay."
+   ],
+   "A comma belongs before or when it links two complete clauses."
+  ],
+  [
+   "Which sentence is correct?",
+   "When the bell rang, the students rushed outside.",
+   [
+    "When the bell rang; the students rushed outside.",
+    "When the bell rang the students; rushed outside.",
+    "When, the bell rang the students rushed outside."
+   ],
+   "A comma, not a semicolon, follows an introductory dependent clause."
+  ],
+  [
+   "Which sentence is correct?",
+   "My sister loves hockey; my brother prefers basketball.",
+   [
+    "My sister loves hockey, my brother prefers basketball.",
+    "My sister loves hockey; and my brother, prefers basketball.",
+    "My sister loves; hockey my brother prefers basketball."
+   ],
+   "Two related independent clauses with no conjunction are correctly joined with a semicolon."
+  ],
+  [
+   "Which sentence is correct?",
+   "The museum was closed; consequently, we visited the park.",
+   [
+    "The museum was closed, consequently, we visited the park.",
+    "The museum was closed; consequently we visited, the park.",
+    "The museum was closed consequently; we visited the park."
+   ],
+   "Consequently connects two independent clauses, so it takes a semicolon before and a comma after."
+  ],
+  [
+   "Which sentence is correct?",
+   "Although it was cold, we went for a walk.",
+   [
+    "Although it was cold; we went for a walk.",
+    "Although, it was cold we went for a walk.",
+    "Although it was cold we; went for a walk."
+   ],
+   "An introductory dependent clause is followed by a comma, never a semicolon."
+  ],
+  [
+   "Which sentence is correct?",
+   "Ravi studied for hours, yet he still felt nervous.",
+   [
+    "Ravi studied for hours yet, he still felt nervous.",
+    "Ravi studied for hours; yet, he still felt nervous.",
+    "Ravi studied, for hours yet he still felt nervous."
+   ],
+   "Yet is a coordinating conjunction, so a comma goes before it when it joins two clauses."
+  ],
+  [
+   "Which sentence is correct?",
+   "The power went out; nobody could finish the movie.",
+   [
+    "The power went out, nobody could finish the movie.",
+    "The power went out; and, nobody could finish the movie.",
+    "The power; went out nobody could finish the movie."
+   ],
+   "Joining two independent clauses with only a comma creates a comma splice, so a semicolon is needed."
+  ],
+  [
+   "Which sentence is correct?",
+   "Leah wanted to join the team; in fact, she had practised all summer.",
+   [
+    "Leah wanted to join the team, in fact, she had practised all summer.",
+    "Leah wanted to join the team; in fact she had, practised all summer.",
+    "Leah wanted to join; the team in fact she had practised all summer."
+   ],
+   "A transitional phrase like in fact between two clauses takes a semicolon before and a comma after."
+  ],
+  [
+   "Which sentence is correct?",
+   "The trail was steep, and the hikers stopped often to rest.",
+   [
+    "The trail was steep and, the hikers stopped often to rest.",
+    "The trail was steep; and, the hikers stopped often to rest.",
+    "The trail was steep: and the hikers stopped often to rest."
+   ],
+   "A comma goes before and when it joins two independent clauses."
+  ],
+  [
+   "Which sentence is correct?",
+   "The concert sold out quickly; tickets were gone in an hour.",
+   [
+    "The concert sold out quickly, tickets were gone in an hour.",
+    "The concert sold out quickly; and, tickets were gone in an hour.",
+    "The concert sold; out quickly tickets were gone in an hour."
+   ],
+   "The second clause explains the first, and a semicolon correctly links the two independent clauses."
+  ],
+  [
+   "Which sentence is correct?",
+   "Because the store was busy, we waited in line.",
+   [
+    "Because the store was busy; we waited in line.",
+    "Because, the store was busy we waited in line.",
+    "Because the store was busy we, waited in line."
+   ],
+   "A comma follows an introductory clause beginning with because."
+  ],
+  [
+   "Which sentence is correct?",
+   "The coach was strict; nevertheless, the players respected her.",
+   [
+    "The coach was strict, nevertheless, the players respected her.",
+    "The coach was strict; nevertheless the players, respected her.",
+    "The coach was strict nevertheless; the players respected her."
+   ],
+   "Nevertheless joins two clauses as a conjunctive adverb, so it needs a semicolon before and a comma after."
+  ],
+  [
+   "Which sentence is correct?",
+   "I wanted to stay up, but my eyes kept closing.",
+   [
+    "I wanted to stay up but, my eyes kept closing.",
+    "I wanted to stay up; but, my eyes kept closing.",
+    "I wanted, to stay up but my eyes kept closing."
+   ],
+   "Put the comma before but, not after it, when joining two independent clauses."
+  ],
+  [
+   "Which sentence is correct?",
+   "The garden needs water; otherwise, the tomatoes will wilt.",
+   [
+    "The garden needs water, otherwise, the tomatoes will wilt.",
+    "The garden needs water; otherwise the tomatoes, will wilt.",
+    "The garden needs water otherwise; the tomatoes will wilt."
+   ],
+   "Otherwise is a conjunctive adverb linking two clauses, so a semicolon comes before it and a comma after."
+  ],
+  [
+   "Which sentence is correct?",
+   "The town has two seasons: winter and road construction.",
+   [
+    "The town has two seasons; winter and road construction.",
+    "The town has: two seasons winter and road construction.",
+    "The town has two seasons, winter; and road construction."
+   ],
+   "A colon introduces a list or explanation after a complete sentence."
+  ],
+  [
+   "Which sentence is correct?",
+   "Nadia missed the bus, for she had overslept.",
+   [
+    "Nadia missed the bus for, she had overslept.",
+    "Nadia missed the bus; for, she had overslept.",
+    "Nadia missed, the bus for she had overslept."
+   ],
+   "For used as a conjunction meaning because is preceded by a comma when it joins two clauses."
+  ],
+  [
+   "Which sentence is correct?",
+   "The kitten was tiny; still, it ruled the whole house.",
+   [
+    "The kitten was tiny, still, it ruled the whole house.",
+    "The kitten was tiny; still it, ruled the whole house.",
+    "The kitten was tiny still; it ruled the whole house."
+   ],
+   "Still acts as a conjunctive adverb here, so it takes a semicolon before and a comma after."
+  ]
+ ],
+ "engScSr": [
+  [
+   "Which sentence is punctuated correctly?",
+   "We packed tents, sleeping bags and a camp stove.",
+   [
+    "We packed tents; sleeping bags and a camp stove.",
+    "We packed: tents, sleeping bags and a camp stove.",
+    "We packed tents sleeping bags, and a camp stove."
+   ],
+   "Simple list items with no internal commas are separated by commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The tour stops in Halifax, Nova Scotia; Québec City, Quebec; and Victoria, British Columbia.",
+   [
+    "The tour stops in Halifax, Nova Scotia, Québec City, Quebec, and Victoria, British Columbia.",
+    "The tour stops in Halifax; Nova Scotia, Québec City; Quebec, and Victoria; British Columbia.",
+    "The tour stops in: Halifax, Nova Scotia; Québec City, Quebec; and Victoria, British Columbia."
+   ],
+   "Semicolons separate list items that already contain commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Bring the following items: a pencil, an eraser and a ruler.",
+   [
+    "Bring the following items; a pencil, an eraser and a ruler.",
+    "Bring the following items, a pencil; an eraser; and a ruler.",
+    "Bring the following: items a pencil, an eraser and a ruler."
+   ],
+   "A colon introduces a list after a complete independent clause."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The winners were Ana, first place; Jules, second place; and Kai, third place.",
+   [
+    "The winners were Ana, first place, Jules, second place, and Kai, third place.",
+    "The winners were Ana; first place, Jules; second place, and Kai; third place.",
+    "The winners were: Ana first place, Jules second place; and Kai third place."
+   ],
+   "Because each item has an internal comma, semicolons are needed between the items."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "My favourite subjects are math, science and art.",
+   [
+    "My favourite subjects are: math, science and art.",
+    "My favourite subjects are math; science; and art.",
+    "My favourite subjects, are math, science and art."
+   ],
+   "A colon should not come directly after a verb like are, and simple items take commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "She needs three things for the trip: a passport, a ticket and a suitcase.",
+   [
+    "She needs three things for the trip; a passport, a ticket and a suitcase.",
+    "She needs: three things for the trip a passport, a ticket and a suitcase.",
+    "She needs three things for the trip, a passport; a ticket; and a suitcase."
+   ],
+   "A colon after the complete clause introduces the list."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The band includes Lia, who sings; Omar, who drums; and Ben, who plays guitar.",
+   [
+    "The band includes Lia, who sings, Omar, who drums, and Ben, who plays guitar.",
+    "The band includes Lia; who sings, Omar; who drums, and Ben; who plays guitar.",
+    "The band includes: Lia who sings; Omar who drums; and Ben who plays guitar."
+   ],
+   "Semicolons divide items that contain their own commas, making the list clear."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The recipe calls for flour, sugar, eggs and butter.",
+   [
+    "The recipe calls for: flour, sugar, eggs and butter.",
+    "The recipe calls for flour; sugar; eggs; and butter.",
+    "The recipe calls for flour sugar, eggs, and, butter."
+   ],
+   "Simple items are separated by commas, and no colon follows the preposition for."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "We studied three explorers: Cabot, who reached Newfoundland; Cartier, who sailed the St. Lawrence; and Champlain, who founded Québec.",
+   [
+    "We studied three explorers: Cabot, who reached Newfoundland, Cartier, who sailed the St. Lawrence, and Champlain, who founded Québec.",
+    "We studied three explorers; Cabot, who reached Newfoundland; Cartier, who sailed the St. Lawrence; and Champlain, who founded Québec.",
+    "We studied three explorers: Cabot; who reached Newfoundland, Cartier; who sailed the St. Lawrence, and Champlain; who founded Québec."
+   ],
+   "A colon introduces the list, and semicolons separate items that contain commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Dates to remember are June 1, 2025; July 15, 2025; and August 3, 2025.",
+   [
+    "Dates to remember are June 1, 2025, July 15, 2025, and August 3, 2025.",
+    "Dates to remember are June 1; 2025, July 15; 2025, and August 3; 2025.",
+    "Dates to remember are: June 1 2025; July 15 2025; and August 3 2025."
+   ],
+   "Each date contains a comma, so semicolons separate the dates."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The shelter needs blankets, towels and pet food.",
+   [
+    "The shelter needs: blankets, towels and pet food.",
+    "The shelter needs blankets; towels; and pet food.",
+    "The shelter, needs blankets, towels and pet food."
+   ],
+   "A short list after a verb uses commas with no colon."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Our team has one rule: everyone helps clean up.",
+   [
+    "Our team has one rule; everyone helps clean up.",
+    "Our team has: one rule everyone helps clean up.",
+    "Our team has one rule, everyone; helps clean up."
+   ],
+   "A colon introduces an explanation that follows a complete sentence."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The speakers were Dr. Patel, a doctor; Mr. Wong, a pilot; and Ms. Diaz, a chef.",
+   [
+    "The speakers were Dr. Patel, a doctor, Mr. Wong, a pilot, and Ms. Diaz, a chef.",
+    "The speakers were Dr. Patel; a doctor, Mr. Wong; a pilot, and Ms. Diaz; a chef.",
+    "The speakers were Dr. Patel a doctor; Mr. Wong a pilot; and Ms. Diaz a chef."
+   ],
+   "Semicolons separate people from their descriptions, which are set off by commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The colours of the flag are red and white.",
+   [
+    "The colours of the flag are: red and white.",
+    "The colours of the flag are red; and white.",
+    "The colours of the flag, are red and white."
+   ],
+   "Two items joined by and need no comma, semicolon or colon."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Pack these snacks: apples, crackers and cheese.",
+   [
+    "Pack these snacks; apples, crackers and cheese.",
+    "Pack: these snacks apples, crackers and cheese.",
+    "Pack these snacks, apples; crackers; and cheese."
+   ],
+   "A colon after a complete command introduces the list that follows."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The cities with the most rain were Vancouver, B.C.; Halifax, N.S.; and St. John's, N.L.",
+   [
+    "The cities with the most rain were Vancouver, B.C., Halifax, N.S., and St. John's, N.L.",
+    "The cities with the most rain were Vancouver; B.C., Halifax; N.S., and St. John's; N.L.",
+    "The cities with the most rain were: Vancouver B.C., Halifax N.S. and St. John's N.L."
+   ],
+   "City–province pairs contain commas, so semicolons separate the items."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "I ordered soup, a salad and a glass of milk.",
+   [
+    "I ordered: soup, a salad and a glass of milk.",
+    "I ordered soup; a salad; and a glass of milk.",
+    "I ordered soup a salad, and, a glass of milk."
+   ],
+   "Commas separate simple list items, and no colon is used after a verb."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The club meets on three days: Monday, Wednesday and Friday.",
+   [
+    "The club meets on three days; Monday, Wednesday and Friday.",
+    "The club meets on: three days Monday, Wednesday and Friday.",
+    "The club meets on three days, Monday; Wednesday; and Friday."
+   ],
+   "A colon after a complete clause introduces the list of days."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The committee chose Ottawa, Ontario, for the meeting.",
+   [
+    "The committee chose Ottawa; Ontario, for the meeting.",
+    "The committee chose Ottawa: Ontario for the meeting.",
+    "The committee chose; Ottawa, Ontario for the meeting."
+   ],
+   "Commas set off the province after a city name; no semicolon or colon is needed."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Her goals were to run faster, to jump higher and to win the relay.",
+   [
+    "Her goals were: to run faster, to jump higher and to win the relay.",
+    "Her goals were to run faster; to jump higher; and to win the relay.",
+    "Her goals were to run faster to jump higher, and, to win the relay."
+   ],
+   "Simple items after a verb are separated by commas without a colon."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The display featured three paintings: a lake, which was blue; a forest, which was green; and a field, which was gold.",
+   [
+    "The display featured three paintings: a lake, which was blue, a forest, which was green, and a field, which was gold.",
+    "The display featured three paintings; a lake, which was blue; a forest, which was green; and a field, which was gold.",
+    "The display featured: three paintings a lake, which was blue; a forest, which was green; and a field, which was gold."
+   ],
+   "A colon introduces the list, and semicolons separate items that contain commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Required gear includes a helmet, gloves and knee pads.",
+   [
+    "Required gear includes: a helmet, gloves and knee pads.",
+    "Required gear includes a helmet; gloves; and knee pads.",
+    "Required gear, includes a helmet, gloves and knee pads."
+   ],
+   "A list that directly follows the verb includes needs only commas."
+  ]
+ ],
+ "engSMC": [
+  [
+   "Which sentence is punctuated correctly?",
+   "I know one thing: practice pays off.",
+   [
+    "I know one thing; practice pays off.",
+    "I know: one thing practice pays off.",
+    "I know one thing, practice; pays off."
+   ],
+   "A colon introduces an explanation after a complete sentence."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The rain stopped; the sun came out.",
+   [
+    "The rain stopped, the sun came out.",
+    "The rain stopped: the sun; came out.",
+    "The rain; stopped the sun came out."
+   ],
+   "A semicolon joins two closely related independent clauses."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The bake sale raised money for three causes: the library, the food bank and the animal shelter.",
+   [
+    "The bake sale raised money for three causes; the library, the food bank and the animal shelter.",
+    "The bake sale raised money for: three causes the library, the food bank and the animal shelter.",
+    "The bake sale raised money for three causes, the library; the food bank; and the animal shelter."
+   ],
+   "A colon after a complete clause introduces a list."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Maya loves to read; her brother loves to draw.",
+   [
+    "Maya loves to read, her brother loves to draw.",
+    "Maya loves to read: her brother; loves to draw.",
+    "Maya loves; to read her brother loves to draw."
+   ],
+   "Two related independent clauses without a conjunction are joined by a semicolon."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The meeting starts at 3:30 p.m.",
+   [
+    "The meeting starts at 3;30 p.m.",
+    "The meeting starts at: 3:30 p.m.",
+    "The meeting starts at 3,30 p.m."
+   ],
+   "A colon separates hours and minutes in a time."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "He was tired; however, he finished his homework.",
+   [
+    "He was tired, however, he finished his homework.",
+    "He was tired: however he, finished his homework.",
+    "He was tired however; he finished his homework."
+   ],
+   "Use a semicolon before however and a comma after it when it joins two clauses."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "We need two things for the game: a ball and a net.",
+   [
+    "We need two things for the game; a ball and a net.",
+    "We need: two things for the game a ball and a net.",
+    "We need two things, for the game; a ball and a net."
+   ],
+   "A colon introduces the list after a complete clause."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The dog barked loudly; the mail carrier hurried away.",
+   [
+    "The dog barked loudly, the mail carrier hurried away.",
+    "The dog barked loudly: the mail; carrier hurried away.",
+    "The dog; barked loudly the mail carrier hurried away."
+   ],
+   "A semicolon correctly links two independent clauses that are closely related."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Dear Principal Singh:",
+   [
+    "Dear Principal Singh;",
+    "Dear: Principal Singh",
+    "Dear; Principal Singh"
+   ],
+   "A colon can follow the greeting in a formal business letter."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The team met in Calgary, Alberta; Regina, Saskatchewan; and Winnipeg, Manitoba.",
+   [
+    "The team met in Calgary, Alberta, Regina, Saskatchewan, and Winnipeg, Manitoba.",
+    "The team met in Calgary; Alberta, Regina; Saskatchewan, and Winnipeg; Manitoba.",
+    "The team met in: Calgary Alberta; Regina Saskatchewan; and Winnipeg Manitoba."
+   ],
+   "Semicolons separate list items that contain commas."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The answer was clear: we had to try again.",
+   [
+    "The answer was clear; we had: to try again.",
+    "The answer was: clear we had to try again.",
+    "The answer, was clear; we had to try again."
+   ],
+   "A colon introduces an explanation of what came before it."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "It snowed all night; school was cancelled.",
+   [
+    "It snowed all night, school was cancelled.",
+    "It snowed: all night school was cancelled.",
+    "It snowed all; night school was cancelled."
+   ],
+   "A semicolon prevents a comma splice between two independent clauses."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Remember the golden rule: treat others as you want to be treated.",
+   [
+    "Remember the golden rule; treat others as you want to be treated.",
+    "Remember: the golden rule treat others as you want to be treated.",
+    "Remember the golden rule, treat others; as you want to be treated."
+   ],
+   "A colon introduces the rule that explains the first clause."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Liam practised every day; therefore, he made the team.",
+   [
+    "Liam practised every day, therefore, he made the team.",
+    "Liam practised every day: therefore he, made the team.",
+    "Liam practised every day therefore; he made the team."
+   ],
+   "Therefore joining two clauses needs a semicolon before and a comma after."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "My favourite foods are pizza and pasta.",
+   [
+    "My favourite foods are: pizza and pasta.",
+    "My favourite foods are; pizza and pasta.",
+    "My favourite foods: are pizza and pasta."
+   ],
+   "No colon is used directly after a verb like are."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The class read two novels: <em>Hatchet</em> and <em>Holes</em>.",
+   [
+    "The class read two novels; <em>Hatchet</em> and <em>Holes</em>.",
+    "The class read: two novels <em>Hatchet</em> and <em>Holes</em>.",
+    "The class read two novels, <em>Hatchet</em>; and <em>Holes</em>."
+   ],
+   "A colon after a complete clause introduces the titles that follow."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The movie was long; still, we enjoyed it.",
+   [
+    "The movie was long, still, we enjoyed it.",
+    "The movie was long: still we, enjoyed it.",
+    "The movie was long still; we enjoyed it."
+   ],
+   "Still links the clauses as a conjunctive adverb, so a semicolon goes before it."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The guests came from Toronto, Ontario; Moncton, New Brunswick; and Iqaluit, Nunavut.",
+   [
+    "The guests came from Toronto, Ontario, Moncton, New Brunswick, and Iqaluit, Nunavut.",
+    "The guests came from Toronto; Ontario, Moncton; New Brunswick, and Iqaluit; Nunavut.",
+    "The guests came from: Toronto Ontario; Moncton New Brunswick; and Iqaluit Nunavut."
+   ],
+   "Semicolons make a list with internal commas easy to read."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "She had one fear: spiders.",
+   [
+    "She had one fear; spiders.",
+    "She had: one fear spiders.",
+    "She had one; fear spiders."
+   ],
+   "A colon can introduce a single word that explains the sentence."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "The lights flickered; then the room went dark.",
+   [
+    "The lights flickered, then the room went dark.",
+    "The lights flickered: then the room; went dark.",
+    "The lights; flickered then the room went dark."
+   ],
+   "Then is not a conjunction, so a semicolon is needed between the two independent clauses."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "Our trip had one problem: the car broke down.",
+   [
+    "Our trip had one problem; the car broke down.",
+    "Our trip had: one problem the car broke down.",
+    "Our trip had one problem, the car; broke down."
+   ],
+   "A colon introduces the explanation of the problem."
+  ],
+  [
+   "Which sentence is punctuated correctly?",
+   "I wanted to win; I also wanted to have fun.",
+   [
+    "I wanted to win, I also wanted to have fun.",
+    "I wanted to win: I also; wanted to have fun.",
+    "I wanted; to win I also wanted to have fun."
+   ],
+   "A semicolon joins the two related independent clauses."
+  ]
+ ],
+ "engDsHy": [
+  [
+   "Which sentence uses hyphens correctly?",
+   "We hiked a two-kilometre trail.",
+   [
+    "We hiked a two kilometre trail.",
+    "We hiked a twokilometre trail.",
+    "We hiked a two-kilometre-trail."
+   ],
+   "A number and unit used together before a noun form a hyphenated compound adjective."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "The bread was freshly baked.",
+   [
+    "The bread was freshly-baked.",
+    "The bread was freshlybaked.",
+    "The bread was freshly—baked."
+   ],
+   "Compounds that begin with an -ly adverb are never hyphenated."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "He gave a last-minute speech.",
+   [
+    "He gave a last minute speech.",
+    "He gave a lastminute speech.",
+    "He gave a last-minute-speech."
+   ],
+   "Last-minute is a compound adjective before the noun speech, so it is hyphenated."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "It was a carefully planned event.",
+   [
+    "It was a carefully-planned event.",
+    "It was a carefullyplanned event.",
+    "It was a carefully—planned event."
+   ],
+   "Compounds beginning with an -ly adverb are not hyphenated."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "Our seven-year-old cousin visited.",
+   [
+    "Our seven year old cousin visited.",
+    "Our seven-year old cousin visited.",
+    "Our seven year-old cousin visited."
+   ],
+   "An age used as an adjective before a noun is hyphenated throughout."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "My cousin is seven years old.",
+   [
+    "My cousin is seven-years-old.",
+    "My cousin is seven-years old.",
+    "My cousin is seven years-old."
+   ],
+   "An age that comes after the verb is not hyphenated."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "She wrote a thought-provoking essay.",
+   [
+    "She wrote a thought provoking essay.",
+    "She wrote a thoughtprovoking essay.",
+    "She wrote a thought—provoking essay."
+   ],
+   "Thought-provoking is a compound adjective before essay, so it takes a hyphen."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "They live in a fast-growing town.",
+   [
+    "They live in a fast growing town.",
+    "They live in a fastgrowing town.",
+    "They live in a fast-growing-town."
+   ],
+   "Fast-growing works as one adjective before town, so it is hyphenated."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "The team needs a full-time coach.",
+   [
+    "The team needs a full time coach.",
+    "The team needs a fulltime coach.",
+    "The team needs a full—time coach."
+   ],
+   "Full-time before a noun is a compound adjective that needs a hyphen."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "This is an up-to-date map.",
+   [
+    "This is an up to date map.",
+    "This is an up-to date map.",
+    "This is an up to-date map."
+   ],
+   "Up-to-date before a noun is hyphenated as one compound adjective."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "Please make sure the map is up to date.",
+   [
+    "Please make sure the map is up-to-date-map.",
+    "Please make sure the map is up-to date.",
+    "Please make sure the map is up to-date."
+   ],
+   "After the verb, up to date is normally written without hyphens."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "We ate at a family-owned restaurant.",
+   [
+    "We ate at a family owned restaurant.",
+    "We ate at a familyowned restaurant.",
+    "We ate at a family—owned restaurant."
+   ],
+   "Family-owned is a compound adjective before restaurant, so it is hyphenated."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "The river has a slow-moving current.",
+   [
+    "The river has a slow moving current.",
+    "The river has a slowmoving current.",
+    "The river has a slow-moving-current."
+   ],
+   "Slow-moving modifies current as one idea, so it needs a hyphen."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "The highly skilled pilot landed safely.",
+   [
+    "The highly-skilled pilot landed safely.",
+    "The highlyskilled pilot landed safely.",
+    "The highly—skilled pilot landed safely."
+   ],
+   "No hyphen is used after an adverb ending in -ly."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "He bought a used, ten-speed bike.",
+   [
+    "He bought a used, ten speed bike.",
+    "He bought a used, tenspeed bike.",
+    "He bought a used, ten-speed-bike."
+   ],
+   "A number plus a noun before another noun forms a hyphenated adjective."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "A snake is a cold-blooded animal.",
+   [
+    "A snake is a cold blooded animal.",
+    "A snake is a coldblooded animal.",
+    "A snake is a cold—blooded animal."
+   ],
+   "Cold-blooded joins two words into one adjective before animal, so a hyphen links them."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "She is a part-time cashier.",
+   [
+    "She is a part time cashier.",
+    "She is a parttime cashier.",
+    "She is a part—time cashier."
+   ],
+   "Part-time before a noun is a compound adjective and takes a hyphen."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "They held a three-day festival.",
+   [
+    "They held a three day festival.",
+    "They held a threeday festival.",
+    "They held a three-day-festival."
+   ],
+   "A number and unit before a noun are hyphenated as a compound adjective."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "The festival lasted three days.",
+   [
+    "The festival lasted three-days.",
+    "The festival lasted three—days.",
+    "The festival lasted threedays."
+   ],
+   "When the number and unit follow the verb, no hyphen is used."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "We need a well-trained guide.",
+   [
+    "We need a well trained guide.",
+    "We need a welltrained guide.",
+    "We need a well—trained guide."
+   ],
+   "Well-trained before a noun is a compound adjective and needs a hyphen."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "The store sells sugar-free gum.",
+   [
+    "The store sells sugar free gum.",
+    "The store sells sugarfree gum.",
+    "The store sells sugar—free gum."
+   ],
+   "Sugar-free forms one adjective before gum, so it is hyphenated."
+  ],
+  [
+   "Which sentence uses hyphens correctly?",
+   "It was a once-in-a-lifetime trip.",
+   [
+    "It was a once in a lifetime trip.",
+    "It was a once-in a-lifetime trip.",
+    "It was a once in-a-lifetime trip."
+   ],
+   "A multi-word phrase used as a single adjective before a noun is hyphenated throughout."
+  ]
+ ],
+ "engDsEl": [
+  [
+   "Original: \"The park, which opened in 1990, attracts thousands of visitors.\" Which quotation uses the ellipsis appropriately?",
+   "\"The park … attracts thousands of visitors.\"",
+   [
+    "\"The park, which opened … thousands of visitors.\"",
+    "\"The park … opened … visitors.\"",
+    "\"The park, which … attracts … thousands.\" … of visitors"
+   ],
+   "Removing only the non-essential clause keeps the meaning and grammar of the original."
+  ],
+  [
+   "Original: \"The plan is not affordable for most families.\" Which quotation uses the ellipsis appropriately?",
+   "\"The plan is not affordable ….\"",
+   [
+    "\"The plan is … affordable for most families.\"",
+    "\"The plan … affordable for most families.\"",
+    "\"… affordable for most families.\""
+   ],
+   "Only this version keeps the word not, so it does not reverse the speaker's meaning."
+  ],
+  [
+   "Original: \"Scientists, after years of careful study, finally identified the cause.\" Which quotation uses the ellipsis appropriately?",
+   "\"Scientists … finally identified the cause.\"",
+   [
+    "\"Scientists, after years of careful … the cause.\"",
+    "\"Scientists … years … identified.\"",
+    "\"Scientists, after … careful study, … finally … cause.\""
+   ],
+   "Leaving out the interrupting phrase keeps the main sentence clear and accurate."
+  ],
+  [
+   "Original: \"The coach said the team was never in danger of losing.\" Which quotation uses the ellipsis appropriately?",
+   "\"The coach said the team was never in danger ….\"",
+   [
+    "\"The coach said the team was … in danger of losing.\"",
+    "\"The coach said … in danger of losing.\"",
+    "\"The coach said the team … losing.\""
+   ],
+   "Removing never would reverse the meaning, so only the version that keeps it is fair."
+  ],
+  [
+   "Original: \"Maple syrup, a Canadian favourite, is made from the sap of sugar maples.\" Which quotation uses the ellipsis appropriately?",
+   "\"Maple syrup … is made from the sap of sugar maples.\"",
+   [
+    "\"Maple syrup, a Canadian … of sugar maples.\"",
+    "\"Maple … favourite … maples.\"",
+    "\"Maple syrup, a Canadian favourite, is made … sap … of … maples.\""
+   ],
+   "Cutting the appositive leaves a complete, accurate sentence."
+  ],
+  [
+   "Original: \"The new rule is unfair to students who take the bus.\" Which quotation uses the ellipsis appropriately?",
+   "\"The new rule is unfair to students ….\"",
+   [
+    "\"The new rule is … fair to students who take the bus.\"",
+    "\"The new … students who take the bus.\"",
+    "\"… rule is unfair … bus … students.\""
+   ],
+   "This version shortens the quotation without changing its meaning."
+  ],
+  [
+   "Original: \"Our class, despite the storm, completed the clean-up on time.\" Which quotation uses the ellipsis appropriately?",
+   "\"Our class … completed the clean-up on time.\"",
+   [
+    "\"Our class, despite … the clean-up on time.\"",
+    "\"Our class … the storm … time.\"",
+    "\"Our … class, despite the … storm, completed.\""
+   ],
+   "The omitted phrase is non-essential, so the shortened quotation is accurate and grammatical."
+  ],
+  [
+   "Original: \"The critic wrote that the film was hardly a success.\" Which quotation uses the ellipsis appropriately?",
+   "\"The critic wrote that the film was hardly a success.\" (no ellipsis needed)",
+   [
+    "\"The critic wrote that the film was … a success.\"",
+    "\"The critic wrote … the film was … a success.\"",
+    "\"… the film was … a success.\""
+   ],
+   "Dropping hardly would make the critic seem to praise the film, so the full quotation must be kept."
+  ],
+  [
+   "Original: \"Northern lights, or auroras, are caused by charged particles from the Sun.\" Which quotation uses the ellipsis appropriately?",
+   "\"Northern lights … are caused by charged particles from the Sun.\"",
+   [
+    "\"Northern lights, or … charged particles from the Sun.\"",
+    "\"Northern … auroras … Sun.\"",
+    "\"Northern lights, or auroras, are … caused … from.\""
+   ],
+   "Removing the alternate name keeps the scientific claim accurate."
+  ],
+  [
+   "Original: \"The mayor will not raise taxes this year.\" Which quotation uses the ellipsis appropriately?",
+   "\"The mayor will not raise taxes ….\"",
+   [
+    "\"The mayor will … raise taxes this year.\"",
+    "\"The mayor … raise taxes this year.\"",
+    "\"… will … raise taxes.\""
+   ],
+   "Only this version keeps not, so the mayor's promise is reported accurately."
+  ],
+  [
+   "Original: \"The library, built in 1912 and renovated in 2015, is the oldest in town.\" Which quotation uses the ellipsis appropriately?",
+   "\"The library … is the oldest in town.\"",
+   [
+    "\"The library, built in … renovated … the oldest.\"",
+    "\"The library, built in 1912 and … is … town.\"",
+    "\"… built … oldest in town.\""
+   ],
+   "The omitted dates are extra detail, and the remaining sentence is complete and accurate."
+  ],
+  [
+   "Original: \"The experiment did not prove that the drug works.\" Which quotation uses the ellipsis appropriately?",
+   "\"The experiment did not prove ….\"",
+   [
+    "\"The experiment did … prove that the drug works.\"",
+    "\"The experiment … prove that the drug works.\"",
+    "\"… that the drug works.\""
+   ],
+   "Only this version avoids turning a negative finding into a false positive claim."
+  ],
+  [
+   "Original: \"Beavers, Canada's national animal, build dams to create ponds.\" Which quotation uses the ellipsis appropriately?",
+   "\"Beavers … build dams to create ponds.\"",
+   [
+    "\"Beavers, Canada's … to create ponds.\"",
+    "\"Beavers … animal … ponds.\"",
+    "\"Beavers, Canada's national … build … create.\""
+   ],
+   "Omitting the appositive leaves a clear and truthful sentence."
+  ],
+  [
+   "Original: \"The report found that only a few students failed the test.\" Which quotation uses the ellipsis appropriately?",
+   "\"The report found that only a few students failed ….\"",
+   [
+    "\"The report found that … students failed the test.\"",
+    "\"The report found … students … failed the test.\"",
+    "\"… students failed the test.\""
+   ],
+   "Removing only a few would suggest many students failed, so this is the only fair version."
+  ],
+  [
+   "Original: \"The volunteers, tired but cheerful, planted two hundred trees.\" Which quotation uses the ellipsis appropriately?",
+   "\"The volunteers … planted two hundred trees.\"",
+   [
+    "\"The volunteers, tired but … two hundred trees.\"",
+    "\"The volunteers … cheerful … trees.\"",
+    "\"The volunteers, tired … planted two … .\""
+   ],
+   "The descriptive phrase can be removed without changing the main idea."
+  ],
+  [
+   "Original: \"She said the concert was not her favourite.\" Which quotation uses the ellipsis appropriately?",
+   "\"She said the concert was not her favourite.\" (no ellipsis needed)",
+   [
+    "\"She said the concert was … her favourite.\"",
+    "\"She said … her favourite.\"",
+    "\"… the concert was … favourite.\""
+   ],
+   "Any cut here would remove not or the subject and twist her meaning, so the full quote is best."
+  ],
+  [
+   "Original: \"The bridge, which took six years to build, connects the two islands.\" Which quotation uses the ellipsis appropriately?",
+   "\"The bridge … connects the two islands.\"",
+   [
+    "\"The bridge, which took six … the two islands.\"",
+    "\"The bridge … years … islands.\"",
+    "\"The bridge, which took … build, connects … two.\""
+   ],
+   "Removing the non-essential clause keeps the sentence accurate and grammatical."
+  ],
+  [
+   "Original: \"Doctors warn that sugary drinks are bad for your teeth.\" Which quotation uses the ellipsis appropriately?",
+   "\"Doctors warn that sugary drinks are bad for your teeth.\" (no ellipsis needed)",
+   [
+    "\"Doctors warn that sugary drinks are … for your teeth.\"",
+    "\"Doctors … sugary drinks are … for your teeth.\"",
+    "\"… drinks are … teeth.\""
+   ],
+   "Removing the word bad changes the warning into something the doctors never said."
+  ],
+  [
+   "Original: \"The writer, in her first novel, explored life in a small fishing village.\" Which quotation uses the ellipsis appropriately?",
+   "\"The writer … explored life in a small fishing village.\"",
+   [
+    "\"The writer, in her first … a small fishing village.\"",
+    "\"The writer … novel … village.\"",
+    "\"The writer, in her … explored … fishing.\""
+   ],
+   "Leaving out the interrupting phrase keeps the main point intact."
+  ],
+  [
+   "Original: \"The team was never behind in the game.\" Which quotation uses the ellipsis appropriately?",
+   "\"The team was never behind ….\"",
+   [
+    "\"The team was … behind in the game.\"",
+    "\"The team … behind in the game.\"",
+    "\"… was … behind.\""
+   ],
+   "Only this version keeps never, so the result is reported truthfully."
+  ],
+  [
+   "Original: \"Polar bears, which live in the Arctic, depend on sea ice to hunt seals.\" Which quotation uses the ellipsis appropriately?",
+   "\"Polar bears … depend on sea ice to hunt seals.\"",
+   [
+    "\"Polar bears, which live … to hunt seals.\"",
+    "\"Polar bears … Arctic … seals.\"",
+    "\"Polar bears, which live in the … depend … hunt.\""
+   ],
+   "Removing the non-essential clause leaves an accurate, complete sentence."
+  ],
+  [
+   "Original: \"The principal said phones are not allowed during tests.\" Which quotation uses the ellipsis appropriately?",
+   "\"The principal said phones are not allowed ….\"",
+   [
+    "\"The principal said phones are … allowed during tests.\"",
+    "\"The principal said … allowed during tests.\"",
+    "\"… phones are … allowed.\""
+   ],
+   "Only this version keeps not, so the rule is quoted accurately."
+  ]
+ ],
+ "engALU": [
+  [
+   "What does the allusion A Sisyphean task suggest?",
+   "A frustrating job that never seems to end",
+   [
+    "Someone rising from obscurity to sudden success",
+    "A person who is overly in love with themselves",
+    "Pretending not to want what you cannot have"
+   ],
+   "Sisyphus was doomed to roll a boulder uphill forever, only to watch it roll back down."
+  ],
+  [
+   "What does the allusion A Cassandra suggest?",
+   "Someone whose true warnings are ignored",
+   [
+    "A creation that turns against its creator",
+    "A romantic, devoted young lover",
+    "A long, adventurous journey"
+   ],
+   "Cassandra could see the future, but no one believed her prophecies."
+  ],
+  [
+   "What does the allusion A Pied Piper suggest?",
+   "A leader who lures followers with attractive promises",
+   [
+    "A romantic, devoted young lover",
+    "Pretending not to want what you cannot have",
+    "A long, adventurous journey"
+   ],
+   "The Pied Piper led the town's children away with his music."
+  ],
+  [
+   "What does the allusion Big Brother suggest?",
+   "Government or authority that watches people constantly",
+   [
+    "A leader who lures followers with attractive promises",
+    "A range that is just right, not too much or too little",
+    "Raising false alarms until no one believes you"
+   ],
+   "In Orwell's <em>Nineteen Eighty-Four</em>, Big Brother keeps citizens under constant surveillance."
+  ],
+  [
+   "What does the allusion A Jekyll and Hyde suggest?",
+   "A person with two very different sides",
+   [
+    "A person who is overly in love with themselves",
+    "A frustrating job that never seems to end",
+    "Someone who can escape from any trap or tight spot"
+   ],
+   "Dr. Jekyll transforms into the cruel Mr. Hyde, showing a split personality."
+  ],
+  [
+   "What does the allusion An odyssey suggest?",
+   "A long, adventurous journey",
+   [
+    "A person with two very different sides",
+    "An adult who refuses to grow up",
+    "A frustrating job that never seems to end"
+   ],
+   "Homer's <em>Odyssey</em> tells of Odysseus's ten-year voyage home."
+  ],
+  [
+   "What does the allusion Sour grapes suggest?",
+   "Pretending not to want what you cannot have",
+   [
+    "Someone rising from obscurity to sudden success",
+    "A person with two very different sides",
+    "A leader who lures followers with attractive promises"
+   ],
+   "In Aesop's fable, a fox that can't reach the grapes decides they must be sour."
+  ],
+  [
+   "What does the allusion Crying wolf suggest?",
+   "Raising false alarms until no one believes you",
+   [
+    "Someone rising from obscurity to sudden success",
+    "Someone who returns after wasting their chances",
+    "Someone who can escape from any trap or tight spot"
+   ],
+   "In Aesop's fable, a boy who falsely cries wolf is ignored when a real wolf appears."
+  ],
+  [
+   "What does the allusion A Romeo suggest?",
+   "A romantic, devoted young lover",
+   [
+    "A person with two very different sides",
+    "Someone rising from obscurity to sudden success",
+    "The last possible moment"
+   ],
+   "Romeo is Shakespeare's famous passionate young lover."
+  ],
+  [
+   "What does the allusion A Cinderella story suggest?",
+   "Someone rising from obscurity to sudden success",
+   [
+    "Raising false alarms until no one believes you",
+    "A grumpy person who spoils others' fun",
+    "A range that is just right, not too much or too little"
+   ],
+   "Cinderella goes from a mistreated servant to marrying a prince."
+  ],
+  [
+   "What does the allusion A Narcissus suggest?",
+   "A person who is overly in love with themselves",
+   [
+    "Someone who grows from plain to beautiful or successful",
+    "Someone who can escape from any trap or tight spot",
+    "The last possible moment"
+   ],
+   "Narcissus fell in love with his own reflection in a pool."
+  ],
+  [
+   "What does the allusion Meeting one's Waterloo suggest?",
+   "Suffering a final, decisive defeat",
+   [
+    "Someone who can escape from any trap or tight spot",
+    "A person who is overly in love with themselves",
+    "Government or authority that watches people constantly"
+   ],
+   "Napoleon was finally defeated at the Battle of Waterloo in 1815."
+  ],
+  [
+   "What does the allusion The eleventh hour suggest?",
+   "The last possible moment",
+   [
+    "Suffering a final, decisive defeat",
+    "An adult who refuses to grow up",
+    "A romantic, devoted young lover"
+   ],
+   "In a biblical parable, workers are hired at the eleventh hour, just before the day ends."
+  ],
+  [
+   "What does the allusion A Robin Hood suggest?",
+   "Someone who takes from the rich to help the poor",
+   [
+    "Someone who returns after wasting their chances",
+    "A range that is just right, not too much or too little",
+    "A person with two very different sides"
+   ],
+   "Robin Hood is the legendary outlaw who robbed the rich to give to the poor."
+  ],
+  [
+   "What does the allusion A Houdini suggest?",
+   "Someone who can escape from any trap or tight spot",
+   [
+    "Someone who returns after wasting their chances",
+    "A creation that turns against its creator",
+    "A range that is just right, not too much or too little"
+   ],
+   "Harry Houdini was a famous escape artist."
+  ],
+  [
+   "What does the allusion A prodigal son suggest?",
+   "Someone who returns after wasting their chances",
+   [
+    "A long, adventurous journey",
+    "Someone rising from obscurity to sudden success",
+    "Pretending not to want what you cannot have"
+   ],
+   "In the biblical parable, a son wastes his inheritance and then returns home."
+  ],
+  [
+   "What does the allusion A Grinch suggest?",
+   "A grumpy person who spoils others' fun",
+   [
+    "A long, adventurous journey",
+    "Someone who is cheerful and optimistic no matter what",
+    "Suffering a final, decisive defeat"
+   ],
+   "Dr. Seuss's Grinch tries to steal Christmas from the cheerful Whos."
+  ],
+  [
+   "What does the allusion A Pollyanna suggest?",
+   "Someone who is cheerful and optimistic no matter what",
+   [
+    "A romantic, devoted young lover",
+    "Suffering a final, decisive defeat",
+    "Someone who can escape from any trap or tight spot"
+   ],
+   "Pollyanna, from Eleanor Porter's novel, always finds something to be glad about."
+  ],
+  [
+   "What does the allusion The Goldilocks zone suggest?",
+   "A range that is just right, not too much or too little",
+   [
+    "A romantic, devoted young lover",
+    "An adult who refuses to grow up",
+    "A creation that turns against its creator"
+   ],
+   "Goldilocks chooses the porridge that is neither too hot nor too cold."
+  ],
+  [
+   "What does the allusion An ugly duckling suggest?",
+   "Someone who grows from plain to beautiful or successful",
+   [
+    "The last possible moment",
+    "A person with two very different sides",
+    "A range that is just right, not too much or too little"
+   ],
+   "In Andersen's tale, a mocked duckling grows into a beautiful swan."
+  ],
+  [
+   "What does the allusion A Peter Pan suggest?",
+   "An adult who refuses to grow up",
+   [
+    "Someone who returns after wasting their chances",
+    "Someone who is cheerful and optimistic no matter what",
+    "Raising false alarms until no one believes you"
+   ],
+   "Peter Pan is the boy who never grows up."
+  ],
+  [
+   "What does the allusion A Frankenstein's monster suggest?",
+   "A creation that turns against its creator",
+   [
+    "A range that is just right, not too much or too little",
+    "Raising false alarms until no one believes you",
+    "Pretending not to want what you cannot have"
+   ],
+   "Victor Frankenstein's creature turns against him in Mary Shelley's novel."
+  ]
+ ],
+ "engVCE": [
+  [
+   "Which sentence is in passive voice?",
+   "The mural was painted by local students.",
+   [
+    "Local students painted the mural.",
+    "Local students are painting a mural.",
+    "The students will paint the mural."
+   ],
+   "The subject mural receives the action, and the verb uses was plus a past participle."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The game was cancelled because of rain.",
+   [
+    "Rain cancelled the game.",
+    "The league cancelled the game.",
+    "The players left the game early."
+   ],
+   "The game receives the action of being cancelled, which makes the sentence passive."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The cookies are baked fresh every morning.",
+   [
+    "The baker bakes cookies every morning.",
+    "We bake fresh cookies every morning.",
+    "The cookies smell wonderful every morning."
+   ],
+   "Are baked is a form of be plus a past participle, and the subject receives the action."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The new arena will be built next year.",
+   [
+    "The city will build a new arena next year.",
+    "Workers will start the new arena next year.",
+    "The new arena will open next year."
+   ],
+   "Will be built shows the subject arena receiving the action."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The thief has been caught by the police.",
+   [
+    "The police have caught the thief.",
+    "The thief has run from the police.",
+    "The police are chasing the thief."
+   ],
+   "Has been caught is passive because the subject thief receives the action."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "Our names were called one at a time.",
+   [
+    "The teacher called our names one at a time.",
+    "We called out our names one at a time.",
+    "Our names appeared one at a time."
+   ],
+   "Were called shows the names receiving the action."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The bridge is being repaired this week.",
+   [
+    "Crews are repairing the bridge this week.",
+    "The crew repairs bridges every week.",
+    "The bridge looks old this week."
+   ],
+   "Is being repaired is a passive form in which the bridge receives the action."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "Mistakes were made during the experiment.",
+   [
+    "We made mistakes during the experiment.",
+    "The students made a mistake during the experiment.",
+    "Mistakes happen during experiments."
+   ],
+   "Were made is passive, hiding who performed the action."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The poem was written in 1915.",
+   [
+    "John McCrae wrote the poem in 1915.",
+    "The poet wrote about the war in 1915.",
+    "The poem describes poppies in a field."
+   ],
+   "Was written uses a form of be plus a past participle, so the poem receives the action."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The garden is watered by an automatic sprinkler.",
+   [
+    "An automatic sprinkler waters the garden.",
+    "The sprinkler sprays water on the garden.",
+    "The gardener waters the plants by hand."
+   ],
+   "The garden receives the action, and the doer appears after by."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The email had been sent before the deadline.",
+   [
+    "Ms. Grant had sent the email before the deadline.",
+    "I had sent the email before the deadline.",
+    "The email arrived before the deadline."
+   ],
+   "Had been sent is the past perfect passive, so the subject receives the action."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "The wind scattered the leaves across the yard.",
+   [
+    "The leaves were scattered across the yard.",
+    "The leaves were scattered by the wind.",
+    "The leaves had been scattered across the yard."
+   ],
+   "The subject wind performs the action of scattering, so the sentence is active."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "Our class planted twenty trees.",
+   [
+    "Twenty trees were planted by our class.",
+    "Twenty trees were planted yesterday.",
+    "Twenty trees have been planted."
+   ],
+   "The subject class does the planting, which makes the sentence active."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "The referee blew the whistle.",
+   [
+    "The whistle was blown by the referee.",
+    "The whistle was blown loudly.",
+    "The whistle had been blown twice."
+   ],
+   "The referee performs the action, so the sentence is in active voice."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "Scientists discovered a new species of frog.",
+   [
+    "A new species of frog was discovered.",
+    "A new species of frog was discovered by scientists.",
+    "A new species of frog has been discovered."
+   ],
+   "The subject scientists performs the discovering, so it is active."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "The students will present their projects on Friday.",
+   [
+    "The projects will be presented on Friday.",
+    "The projects will be presented by the students.",
+    "Their projects are being presented on Friday."
+   ],
+   "The students are the doers of the action, so the sentence is active."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "A loud noise woke the baby.",
+   [
+    "The baby was woken by a loud noise.",
+    "The baby was woken early.",
+    "The baby has been woken twice."
+   ],
+   "The noise performs the action of waking, which is active voice."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "The firefighters rescued the cat from the tree.",
+   [
+    "The cat was rescued from the tree.",
+    "The cat was rescued by the firefighters.",
+    "The cat is being rescued from the tree."
+   ],
+   "The subject firefighters does the rescuing, so the sentence is active."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "Jordan is writing a letter to the editor.",
+   [
+    "A letter is being written to the editor.",
+    "A letter is being written by Jordan.",
+    "A letter was written to the editor."
+   ],
+   "Jordan performs the action, so the sentence is active even though it uses is."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "The storm knocked down three power lines.",
+   [
+    "Three power lines were knocked down.",
+    "Three power lines were knocked down by the storm.",
+    "Three power lines have been knocked down."
+   ],
+   "The storm is the subject that performs the action, so it is active."
+  ],
+  [
+   "Which sentence is in passive voice?",
+   "The winners will be announced at noon.",
+   [
+    "The judges will announce the winners at noon.",
+    "The winners will celebrate at noon.",
+    "We will announce the winners at noon."
+   ],
+   "Will be announced shows the winners receiving the action."
+  ],
+  [
+   "Which sentence is in active voice?",
+   "Grandma knitted this scarf for me.",
+   [
+    "This scarf was knitted for me.",
+    "This scarf was knitted by Grandma.",
+    "This scarf has been knitted for me."
+   ],
+   "Grandma is the subject who performs the knitting, so the sentence is active."
+  ]
+ ],
+ "engXActW": [
+  [
+   "Which sentence is the active-voice version? The song was sung by the choir.",
+   "The choir sang the song.",
+   [
+    "The song sang the choir.",
+    "The choir was sung by the song.",
+    "Sang the song, the choir did."
+   ],
+   "In active voice the doer, the choir, becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The fence was painted by Leo and Jaya.",
+   "Leo and Jaya painted the fence.",
+   [
+    "The fence painted Leo and Jaya.",
+    "Leo and Jaya were painted by the fence.",
+    "Painted the fence Leo and Jaya."
+   ],
+   "Leo and Jaya perform the action, so they become the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The trophy is held by the captain.",
+   "The captain holds the trophy.",
+   [
+    "The trophy holds the captain.",
+    "The captain is held by the trophy.",
+    "Holds the trophy, the captain."
+   ],
+   "The captain does the holding, so the captain becomes the subject in present tense."
+  ],
+  [
+   "Which sentence is the active-voice version? The dishes will be washed by Dad.",
+   "Dad will wash the dishes.",
+   [
+    "The dishes will wash Dad.",
+    "Dad will be washed by the dishes.",
+    "Will wash the dishes Dad."
+   ],
+   "The future tense is kept, and Dad, the doer, becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The streets were cleared by snowplows.",
+   "Snowplows cleared the streets.",
+   [
+    "The streets cleared snowplows.",
+    "Snowplows were cleared by the streets.",
+    "Cleared the streets, snowplows did."
+   ],
+   "Snowplows perform the clearing, so they move to the subject position."
+  ],
+  [
+   "Which sentence is the active-voice version? The rules have been explained by the coach.",
+   "The coach has explained the rules.",
+   [
+    "The rules have explained the coach.",
+    "The coach has been explained by the rules.",
+    "Explained the rules, the coach has."
+   ],
+   "The coach becomes the subject, and the present perfect tense is kept."
+  ],
+  [
+   "Which sentence is the active-voice version? The bread is being sliced by the baker.",
+   "The baker is slicing the bread.",
+   [
+    "The bread is slicing the baker.",
+    "The baker is being sliced by the bread.",
+    "Slicing the bread is the baker."
+   ],
+   "The baker is the doer, and the progressive tense becomes is slicing."
+  ],
+  [
+   "Which sentence is the active-voice version? The new park was designed by an architect.",
+   "An architect designed the new park.",
+   [
+    "The new park designed an architect.",
+    "An architect was designed by the new park.",
+    "Designed the new park an architect."
+   ],
+   "The architect performs the action, so the architect becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The book was recommended to us by the librarian.",
+   "The librarian recommended the book to us.",
+   [
+    "We recommended the book to the librarian.",
+    "The book recommended the librarian to us.",
+    "The librarian was recommended the book by us."
+   ],
+   "The librarian is the doer, so the librarian becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The ice was cracked by the heavy truck.",
+   "The heavy truck cracked the ice.",
+   [
+    "The ice cracked the heavy truck.",
+    "The heavy truck was cracked by the ice.",
+    "Cracked the ice, the heavy truck."
+   ],
+   "The truck performs the cracking, so it becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The essays are graded by Ms. Okafor.",
+   "Ms. Okafor grades the essays.",
+   [
+    "The essays grade Ms. Okafor.",
+    "Ms. Okafor is graded by the essays.",
+    "Grades the essays, Ms. Okafor."
+   ],
+   "Ms. Okafor performs the action in present tense, so she is the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The canoe was paddled across the lake by my uncle.",
+   "My uncle paddled the canoe across the lake.",
+   [
+    "The canoe paddled my uncle across the lake.",
+    "My uncle was paddled across the lake by the canoe.",
+    "Across the lake paddled the canoe my uncle."
+   ],
+   "My uncle is the doer, so he becomes the subject of the active sentence."
+  ],
+  [
+   "Which sentence is the active-voice version? The question was answered by Priya.",
+   "Priya answered the question.",
+   [
+    "The question answered Priya.",
+    "Priya was answered by the question.",
+    "Answered the question Priya did."
+   ],
+   "Priya performs the action, so she moves to the subject position."
+  ],
+  [
+   "Which sentence is the active-voice version? The lights will be turned off by the last person.",
+   "The last person will turn off the lights.",
+   [
+    "The lights will turn off the last person.",
+    "The last person will be turned off by the lights.",
+    "Will turn off the lights the last person."
+   ],
+   "The last person is the doer, and the future tense is kept."
+  ],
+  [
+   "Which sentence is the active-voice version? The movie was enjoyed by the whole family.",
+   "The whole family enjoyed the movie.",
+   [
+    "The movie enjoyed the whole family.",
+    "The whole family was enjoyed by the movie.",
+    "Enjoyed the movie the whole family."
+   ],
+   "The family does the enjoying, so the family becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The school was closed by the blizzard.",
+   "The blizzard closed the school.",
+   [
+    "The school closed the blizzard.",
+    "The blizzard was closed by the school.",
+    "Closed the school, the blizzard."
+   ],
+   "The blizzard caused the action, so it becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? Our tent was knocked over by a moose.",
+   "A moose knocked over our tent.",
+   [
+    "Our tent knocked over a moose.",
+    "A moose was knocked over by our tent.",
+    "Knocked over our tent a moose."
+   ],
+   "The moose performs the action, so it becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The invitations have been mailed by Aunt Rosa.",
+   "Aunt Rosa has mailed the invitations.",
+   [
+    "The invitations have mailed Aunt Rosa.",
+    "Aunt Rosa has been mailed by the invitations.",
+    "Mailed the invitations Aunt Rosa has."
+   ],
+   "Aunt Rosa becomes the subject, and the present perfect has mailed is kept."
+  ],
+  [
+   "Which sentence is the active-voice version? The goal was scored by the youngest player.",
+   "The youngest player scored the goal.",
+   [
+    "The goal scored the youngest player.",
+    "The youngest player was scored by the goal.",
+    "Scored the goal the youngest player."
+   ],
+   "The player does the scoring, so the player becomes the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The problem is being solved by the engineers.",
+   "The engineers are solving the problem.",
+   [
+    "The problem is solving the engineers.",
+    "The engineers are being solved by the problem.",
+    "Solving the problem are the engineers."
+   ],
+   "The engineers are the doers, and the progressive tense becomes are solving."
+  ],
+  [
+   "Which sentence is the active-voice version? The house was cleaned by the twins.",
+   "The twins cleaned the house.",
+   [
+    "The house cleaned the twins.",
+    "The twins were cleaned by the house.",
+    "Cleaned the house the twins."
+   ],
+   "The twins perform the action, so they become the subject."
+  ],
+  [
+   "Which sentence is the active-voice version? The flag is raised by a student every morning.",
+   "A student raises the flag every morning.",
+   [
+    "The flag raises a student every morning.",
+    "A student is raised by the flag every morning.",
+    "Raises the flag a student every morning."
+   ],
+   "A student does the raising, so the student becomes the subject in present tense."
+  ]
+ ],
+ "engPRL": [
+  [
+   "Which sentence uses parallel structure?",
+   "On weekends, Omar likes to sleep in, to read comics, and to play hockey.",
+   [
+    "On weekends, Omar likes to sleep in, reading comics, and to play hockey.",
+    "On weekends, Omar likes sleeping in, to read comics, and playing hockey.",
+    "On weekends, Omar likes to sleep in, read comics, and playing hockey."
+   ],
+   "Every item uses the same to + verb form."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "The trail was steep, rocky, and muddy.",
+   [
+    "The trail was steep, rocky, and full of mud.",
+    "The trail was steep, had rocks, and muddy.",
+    "The trail was steep, rocky, and it had mud."
+   ],
+   "All three items are single adjectives."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "She wants to travel, to learn, and to grow.",
+   [
+    "She wants to travel, learning, and to grow.",
+    "She wants travelling, to learn, and growing.",
+    "She wants to travel, to learn, and growth."
+   ],
+   "Each item is an infinitive, so the list is parallel."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "We cleaned the kitchen, swept the floor, and folded the laundry.",
+   [
+    "We cleaned the kitchen, sweeping the floor, and folded the laundry.",
+    "We cleaned the kitchen, swept the floor, and the laundry was folded.",
+    "We cleaned the kitchen, the floor was swept, and folding the laundry."
+   ],
+   "All three items are past-tense verbs followed by objects."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "Not only is the book funny, but it is also wise.",
+   [
+    "Not only is the book funny, but also it has wisdom.",
+    "Not only funny, but the book is also wise.",
+    "The book not only is funny, but also wisdom."
+   ],
+   "Both halves of not only … but also are full clauses with the same pattern."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "I would rather walk than drive.",
+   [
+    "I would rather walk than driving.",
+    "I would rather walking than drive.",
+    "I would rather walk than to be driving."
+   ],
+   "Walk and drive are the same verb form, balanced on each side of than."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "The job requires patience, creativity, and honesty.",
+   [
+    "The job requires patience, being creative, and honesty.",
+    "The job requires patience, creativity, and to be honest.",
+    "The job requires being patient, creativity, and honest."
+   ],
+   "All three items are nouns."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "Either we leave now, or we miss the bus.",
+   [
+    "Either we leave now, or missing the bus.",
+    "Either leaving now, or we miss the bus.",
+    "Either we leave now, or the bus will be missed by us."
+   ],
+   "Both parts of either … or are clauses with the same active structure."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "He spoke clearly, slowly, and confidently.",
+   [
+    "He spoke clearly, slowly, and with confidence.",
+    "He spoke clearly, slow, and confidently.",
+    "He spoke clearly, in a slow way, and confidently."
+   ],
+   "All three items are adverbs ending in -ly."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "The coach praised us for our effort, our teamwork, and our attitude.",
+   [
+    "The coach praised us for our effort, working as a team, and our attitude.",
+    "The coach praised us for our effort, our teamwork, and because we were positive.",
+    "The coach praised us for trying hard, our teamwork, and our attitude."
+   ],
+   "Each item is a noun phrase starting with our."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "Mia enjoys painting, singing, and dancing.",
+   [
+    "Mia enjoys painting, singing, and to dance.",
+    "Mia enjoys to paint, singing, and dancing.",
+    "Mia enjoys painting, to sing, and dance."
+   ],
+   "All three items are gerunds ending in -ing."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "The plan was simple, cheap, and effective.",
+   [
+    "The plan was simple, cheap, and it worked well.",
+    "The plan was simple, did not cost much, and effective.",
+    "The plan was simple, cheap, and had effectiveness."
+   ],
+   "Each item is an adjective."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "Both the students and the teachers attended the assembly.",
+   [
+    "Both the students and teachers were attending, the assembly.",
+    "Both the students and also teachers attended the assembly.",
+    "Both the students attended and the teachers the assembly."
+   ],
+   "Both and and are followed by matching noun phrases."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "To win the race, you must train hard, eat well, and rest often.",
+   [
+    "To win the race, you must train hard, eating well, and rest often.",
+    "To win the race, you must train hard, eat well, and resting often.",
+    "To win the race, you must train hard, good eating, and rest often."
+   ],
+   "Each item uses a base verb after must."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "The town is known for its beaches, its seafood, and its festivals.",
+   [
+    "The town is known for its beaches, its seafood, and because it has festivals.",
+    "The town is known for its beaches, eating seafood, and its festivals.",
+    "The town is known for having beaches, its seafood, and festivals are held."
+   ],
+   "All items are noun phrases that begin with its."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "He was tired but happy.",
+   [
+    "He was tired but feeling happiness.",
+    "He was tired but with happiness.",
+    "He was tired but he had happiness."
+   ],
+   "Tired and happy are both adjectives joined by but."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "Reading builds vocabulary, and writing builds clarity.",
+   [
+    "Reading builds vocabulary, and to write builds clarity.",
+    "To read builds vocabulary, and writing is how clarity is built.",
+    "Reading builds vocabulary, and clarity is built when writing."
+   ],
+   "Both clauses follow the pattern gerund + builds + noun."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "The volunteers collected food, sorted donations, and delivered boxes.",
+   [
+    "The volunteers collected food, sorted donations, and were delivering boxes.",
+    "The volunteers collected food, sorting donations, and delivered boxes.",
+    "The volunteers collected food, donations were sorted, and delivered boxes."
+   ],
+   "All three items are simple past-tense verbs with objects."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "She is a talented musician, a skilled athlete, and a loyal friend.",
+   [
+    "She is a talented musician, a skilled athlete, and loyal to her friends.",
+    "She is a talented musician, athletic, and a loyal friend.",
+    "She is a talented musician, plays sports well, and a loyal friend."
+   ],
+   "Each item is an adjective + noun phrase."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "Neither the heat nor the bugs could stop us.",
+   [
+    "Neither the heat nor being bitten by bugs could stop us.",
+    "Neither the heat could nor the bugs stop us.",
+    "Neither being hot nor the bugs could stop us."
+   ],
+   "Neither and nor are followed by matching noun phrases."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "Our goals are to finish early, to work carefully, and to help each other.",
+   [
+    "Our goals are to finish early, working carefully, and to help each other.",
+    "Our goals are finishing early, to work carefully, and helping each other.",
+    "Our goals are to finish early, careful work, and to help each other."
+   ],
+   "Each goal is expressed as an infinitive phrase."
+  ],
+  [
+   "Which sentence uses parallel structure?",
+   "The speech was short, clear, and inspiring.",
+   [
+    "The speech was short, clear, and it inspired us.",
+    "The speech was short, had clarity, and inspiring.",
+    "The speech was short, clear, and an inspiration to us."
+   ],
+   "All three items are adjectives describing the speech."
+  ]
+ ],
+ "engApCp": [
+  [
+   "Ali and Zoe share one dog. Which sentence is correct?",
+   "Ali and Zoe's dog loves the park.",
+   [
+    "Ali's and Zoe's dog loves the park.",
+    "Ali and Zoes' dog loves the park.",
+    "Alis and Zoe's dog loves the park."
+   ],
+   "For joint ownership, only the last name takes the apostrophe and s."
+  ],
+  [
+   "Ali and Zoe each have a bike. Which sentence is correct?",
+   "Ali's and Zoe's bikes are red.",
+   [
+    "Ali and Zoe's bikes are red.",
+    "Alis' and Zoes' bikes are red.",
+    "Ali and Zoes bikes are red."
+   ],
+   "For separate ownership, each name takes its own apostrophe and s."
+  ],
+  [
+   "Which sentence is correct?",
+   "My sister-in-law's car is blue.",
+   [
+    "My sister's-in-law car is blue.",
+    "My sisters-in-law car is blue.",
+    "My sister-in-laws car is blue."
+   ],
+   "In a hyphenated compound noun, the apostrophe and s go at the end of the whole compound."
+  ],
+  [
+   "Which sentence is correct?",
+   "The attorney general's report was released.",
+   [
+    "The attorney's general report was released.",
+    "The attorneys general report was released.",
+    "The attorney generals report was released."
+   ],
+   "The possessive ending attaches to the last word of the compound noun."
+  ],
+  [
+   "Jin and Maria co-wrote one song. Which sentence is correct?",
+   "Jin and Maria's song topped the chart.",
+   [
+    "Jin's and Maria's song topped the chart.",
+    "Jins and Maria's song topped the chart.",
+    "Jin and Marias song topped the chart."
+   ],
+   "Shared ownership puts the apostrophe and s only on the last name."
+  ],
+  [
+   "Jin and Maria each wrote a poem. Which sentence is correct?",
+   "Jin's and Maria's poems were published.",
+   [
+    "Jin and Maria's poems were published.",
+    "Jins and Marias poems were published.",
+    "Jin's and Marias' poems were published."
+   ],
+   "Individual ownership needs an apostrophe and s on each name."
+  ],
+  [
+   "Which sentence is correct?",
+   "The passer-by's phone rang loudly.",
+   [
+    "The passer's-by phone rang loudly.",
+    "The passers-by phone rang loudly.",
+    "The passer-bys phone rang loudly."
+   ],
+   "The possessive ending goes at the end of the hyphenated compound."
+  ],
+  [
+   "My grandparents own one cottage together. Which sentence is correct?",
+   "Grandma and Grandpa's cottage is on the lake.",
+   [
+    "Grandma's and Grandpa's cottage is on the lake.",
+    "Grandma and Grandpas cottage is on the lake.",
+    "Grandmas and Grandpa's cottage is on the lake."
+   ],
+   "Joint ownership marks only the final noun with an apostrophe and s."
+  ],
+  [
+   "Which sentence is correct?",
+   "Both of my brothers-in-law's houses are near Halifax.",
+   [
+    "Both of my brother's-in-law houses are near Halifax.",
+    "Both of my brothers'-in-law houses are near Halifax.",
+    "Both of my brothers-in-laws houses are near Halifax."
+   ],
+   "For a plural compound, add the apostrophe and s after the last word: brothers-in-law's."
+  ],
+  [
+   "Liam and I share a locker. Which sentence is correct?",
+   "Liam's and my locker is in the east hallway.",
+   [
+    "Liam and my locker is in the east hallway.",
+    "Liam and I's locker is in the east hallway.",
+    "Liam's and I locker is in the east hallway."
+   ],
+   "When a pronoun shares ownership with a noun, both owners take the possessive form: Liam's and my."
+  ],
+  [
+   "Ella and Noor each have a seat. Which sentence is correct?",
+   "Ella's and Noor's seats are in row five.",
+   [
+    "Ella and Noor's seats are in row five.",
+    "Ellas' and Noors' seats are in row five.",
+    "Ella and Noors seats are in row five."
+   ],
+   "Separate ownership means each name is made possessive."
+  ],
+  [
+   "Which sentence is correct?",
+   "The commander-in-chief's orders arrived.",
+   [
+    "The commander's-in-chief orders arrived.",
+    "The commanders-in-chief orders arrived.",
+    "The commander-in-chiefs orders arrived."
+   ],
+   "The possessive marker is added to the end of the full compound noun."
+  ],
+  [
+   "Mr. Gill and Ms. Roy run one bakery together. Which sentence is correct?",
+   "Mr. Gill and Ms. Roy's bakery opens at six.",
+   [
+    "Mr. Gill's and Ms. Roy's bakery opens at six.",
+    "Mr. Gills and Ms. Roy's bakery opens at six.",
+    "Mr. Gill and Ms. Roys bakery opens at six."
+   ],
+   "A business owned jointly takes the possessive only on the last name."
+  ],
+  [
+   "Mr. Gill and Ms. Roy each own a bakery. Which sentence is correct?",
+   "Mr. Gill's and Ms. Roy's bakeries are busy.",
+   [
+    "Mr. Gill and Ms. Roy's bakeries are busy.",
+    "Mr. Gills and Ms. Roys bakeries are busy.",
+    "Mr. Gill's and Ms. Roys' bakeries are busy."
+   ],
+   "Separate bakeries mean separate possessives on each name."
+  ],
+  [
+   "Which sentence is correct?",
+   "My father-in-law's garden is huge.",
+   [
+    "My father's-in-law garden is huge.",
+    "My fathers-in-law garden is huge.",
+    "My father-in-laws garden is huge."
+   ],
+   "Add the apostrophe and s at the very end of father-in-law."
+  ],
+  [
+   "The twins share one bedroom. Which sentence is correct?",
+   "Kate and Nora's bedroom is upstairs.",
+   [
+    "Kate's and Nora's bedroom is upstairs.",
+    "Kates and Nora's bedroom is upstairs.",
+    "Kate and Noras bedroom is upstairs."
+   ],
+   "The shared bedroom gets one possessive at the end of the pair."
+  ],
+  [
+   "Ivan and Leo each have a phone. Which sentence is correct?",
+   "Ivan's and Leo's phones need charging.",
+   [
+    "Ivan and Leo's phones need charging.",
+    "Ivans and Leos phones need charging.",
+    "Ivan and Leos' phones need charging."
+   ],
+   "Each person owns a separate phone, so both names are possessive."
+  ],
+  [
+   "Which sentence is correct?",
+   "The runner-up's prize was a medal.",
+   [
+    "The runner's-up prize was a medal.",
+    "The runners-up prize was a medal.",
+    "The runner-ups prize was a medal."
+   ],
+   "The possessive ending is attached to the end of the compound runner-up."
+  ],
+  [
+   "Canada and Mexico share a trade agreement. Which sentence is correct?",
+   "Canada and Mexico's agreement was signed.",
+   [
+    "Canada's and Mexico's agreement was signed.",
+    "Canadas and Mexico's agreement was signed.",
+    "Canada and Mexicos agreement was signed."
+   ],
+   "One shared agreement takes the possessive only on the last noun."
+  ],
+  [
+   "Sam and Ava each gave a speech. Which sentence is correct?",
+   "Sam's and Ava's speeches were moving.",
+   [
+    "Sam and Ava's speeches were moving.",
+    "Sams' and Avas' speeches were moving.",
+    "Sam and Avas speeches were moving."
+   ],
+   "Two separate speeches mean two separate possessives."
+  ],
+  [
+   "You and Jake share a project. Which sentence is correct?",
+   "Jake's and your project won first prize.",
+   [
+    "Jake and your project won first prize.",
+    "Jake and you's project won first prize.",
+    "Jake's and you project won first prize."
+   ],
+   "When a pronoun shares ownership with a noun, both owners take the possessive form: Jake's and your."
+  ],
+  [
+   "Which sentence is correct?",
+   "The maid of honour's speech was funny.",
+   [
+    "The maid's of honour speech was funny.",
+    "The maids of honour speech was funny.",
+    "The maid of honours' speech was funny."
+   ],
+   "In a compound noun phrase, the apostrophe and s go at the end of the whole phrase."
+  ]
+ ],
+ "engVBL": [
+  [
+   "What is the word or phrase in bold? <strong>Skating</strong> on the canal is a winter tradition.",
+   "Gerund",
+   [
+    "Participle",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Skating ends in -ing and acts as the subject noun of the sentence."
+  ],
+  [
+   "What is the word or phrase in bold? The <strong>frozen</strong> pond sparkled in the sun.",
+   "Participle",
+   [
+    "Gerund",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Frozen is a past participle used as an adjective describing pond."
+  ],
+  [
+   "What is the word or phrase in bold? We hope <strong>to visit</strong> Banff next summer.",
+   "Infinitive",
+   [
+    "Gerund",
+    "Participle",
+    "Main verb"
+   ],
+   "To visit is to + a base verb, so it is an infinitive."
+  ],
+  [
+   "What is the word or phrase in bold? The <strong>barking</strong> dog woke the neighbours.",
+   "Participle",
+   [
+    "Gerund",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Barking describes the noun dog, so it is a participle acting as an adjective."
+  ],
+  [
+   "What is the word or phrase in bold? My brother hates <strong>washing</strong> dishes.",
+   "Gerund",
+   [
+    "Participle",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Washing names an activity and is the object of hates, so it is a gerund."
+  ],
+  [
+   "What is the word or phrase in bold? <strong>To finish</strong> on time, we skipped lunch.",
+   "Infinitive",
+   [
+    "Gerund",
+    "Participle",
+    "Main verb"
+   ],
+   "To finish is an infinitive explaining why we skipped lunch."
+  ],
+  [
+   "What is the word or phrase in bold? The children <strong>played</strong> in the snow all afternoon.",
+   "Main verb",
+   [
+    "Gerund",
+    "Participle",
+    "Infinitive"
+   ],
+   "Played is the action of the subject children, so it is the main verb, not a verbal."
+  ],
+  [
+   "What is the word or phrase in bold? The <strong>stolen</strong> bike was found in the park.",
+   "Participle",
+   [
+    "Gerund",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Stolen is a past participle describing bike."
+  ],
+  [
+   "What is the word or phrase in bold? Her favourite hobby is <strong>baking</strong>.",
+   "Gerund",
+   [
+    "Participle",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Baking names an activity and renames hobby, so it is a gerund."
+  ],
+  [
+   "What is the word or phrase in bold? Jamal was the first <strong>to arrive</strong>.",
+   "Infinitive",
+   [
+    "Gerund",
+    "Participle",
+    "Main verb"
+   ],
+   "To arrive is the infinitive form of the verb arrive."
+  ],
+  [
+   "What is the word or phrase in bold? <strong>Smiling</strong> brightly, the singer waved to the crowd.",
+   "Participle",
+   [
+    "Gerund",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Smiling begins a phrase that describes the singer, so it is a participle."
+  ],
+  [
+   "What is the word or phrase in bold? Thank you for <strong>helping</strong> me.",
+   "Gerund",
+   [
+    "Participle",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Helping is the object of the preposition for, so it acts as a noun."
+  ],
+  [
+   "What is the word or phrase in bold? The <strong>falling</strong> leaves covered the path.",
+   "Participle",
+   [
+    "Gerund",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Falling describes leaves, so it is a participle."
+  ],
+  [
+   "What is the word or phrase in bold? I need <strong>to study</strong> for the test.",
+   "Infinitive",
+   [
+    "Gerund",
+    "Participle",
+    "Main verb"
+   ],
+   "To study is to + base verb, which makes it an infinitive."
+  ],
+  [
+   "What is the word or phrase in bold? The puppy <strong>chewed</strong> my slipper.",
+   "Main verb",
+   [
+    "Gerund",
+    "Participle",
+    "Infinitive"
+   ],
+   "Chewed tells what the puppy did, so it is the sentence's main verb."
+  ],
+  [
+   "What is the word or phrase in bold? <strong>Recycling</strong> reduces waste.",
+   "Gerund",
+   [
+    "Participle",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Recycling is the subject of the sentence, so it is a gerund."
+  ],
+  [
+   "What is the word or phrase in bold? The <strong>excited</strong> fans cheered loudly.",
+   "Participle",
+   [
+    "Gerund",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Excited is a past participle describing fans."
+  ],
+  [
+   "What is the word or phrase in bold? It is important <strong>to listen</strong> carefully.",
+   "Infinitive",
+   [
+    "Gerund",
+    "Participle",
+    "Main verb"
+   ],
+   "To listen is an infinitive formed with to and a base verb."
+  ],
+  [
+   "What is the word or phrase in bold? Nina is <strong>running</strong> the relay today.",
+   "Main verb",
+   [
+    "Gerund",
+    "Participle",
+    "Infinitive"
+   ],
+   "Running works with is as the main verb of the sentence, not as a verbal."
+  ],
+  [
+   "What is the word or phrase in bold? He was tired of <strong>waiting</strong>.",
+   "Gerund",
+   [
+    "Participle",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Waiting is the object of the preposition of, so it is a gerund."
+  ],
+  [
+   "What is the word or phrase in bold? The <strong>written</strong> instructions were easy to follow.",
+   "Participle",
+   [
+    "Gerund",
+    "Infinitive",
+    "Main verb"
+   ],
+   "Written is a past participle describing instructions."
+  ],
+  [
+   "What is the word or phrase in bold? They decided <strong>to paint</strong> the fence blue.",
+   "Infinitive",
+   [
+    "Gerund",
+    "Participle",
+    "Main verb"
+   ],
+   "To paint is the infinitive object of decided."
+  ]
+ ],
+ "engVbPt": [
+  [
+   "The broken window let in the cold air. What noun does the participle modify?",
+   "window",
+   [
+    "broken",
+    "air",
+    "let"
+   ],
+   "Broken describes the window."
+  ],
+  [
+   "Exhausted, the runners collapsed at the finish line. What noun does the participle modify?",
+   "runners",
+   [
+    "finish",
+    "line",
+    "collapsed"
+   ],
+   "The introductory participle exhausted describes the runners."
+  ],
+  [
+   "The girl holding the trophy is my cousin. What noun does the participle modify?",
+   "girl",
+   [
+    "trophy",
+    "cousin",
+    "holding"
+   ],
+   "The phrase holding the trophy tells which girl."
+  ],
+  [
+   "We watched the rising sun. What noun does the participle modify?",
+   "sun",
+   [
+    "rising",
+    "We",
+    "watched"
+   ],
+   "Rising describes the sun."
+  ],
+  [
+   "The letter, written in pencil, was hard to read. What noun does the participle modify?",
+   "letter",
+   [
+    "pencil",
+    "written",
+    "read"
+   ],
+   "Written in pencil describes the letter."
+  ],
+  [
+   "Laughing at the joke, Sofia nearly spilled her drink. What noun does the participle modify?",
+   "Sofia",
+   [
+    "joke",
+    "drink",
+    "Laughing"
+   ],
+   "Laughing at the joke describes what Sofia was doing."
+  ],
+  [
+   "The chef tasted the simmering soup. What noun does the participle modify?",
+   "soup",
+   [
+    "chef",
+    "simmering",
+    "tasted"
+   ],
+   "Simmering describes the soup."
+  ],
+  [
+   "The fans, cheering wildly, filled the arena. What noun does the participle modify?",
+   "fans",
+   [
+    "arena",
+    "cheering",
+    "filled"
+   ],
+   "Cheering wildly describes the fans."
+  ],
+  [
+   "A frightened deer leapt across the road. What noun does the participle modify?",
+   "deer",
+   [
+    "road",
+    "frightened",
+    "leapt"
+   ],
+   "Frightened describes the deer."
+  ],
+  [
+   "The tourists took photos of the crashing waves. What noun does the participle modify?",
+   "waves",
+   [
+    "tourists",
+    "photos",
+    "crashing"
+   ],
+   "Crashing describes the waves."
+  ],
+  [
+   "Covered in mud, the dog ran into the kitchen. What noun does the participle modify?",
+   "dog",
+   [
+    "mud",
+    "kitchen",
+    "Covered"
+   ],
+   "Covered in mud describes the dog."
+  ],
+  [
+   "The teacher returned the graded tests. What noun does the participle modify?",
+   "tests",
+   [
+    "teacher",
+    "graded",
+    "returned"
+   ],
+   "Graded describes the tests."
+  ],
+  [
+   "The man painting the fence waved at us. What noun does the participle modify?",
+   "man",
+   [
+    "fence",
+    "us",
+    "painting"
+   ],
+   "Painting the fence tells which man."
+  ],
+  [
+   "Grandpa fixed the squeaking door. What noun does the participle modify?",
+   "door",
+   [
+    "Grandpa",
+    "squeaking",
+    "fixed"
+   ],
+   "Squeaking describes the door."
+  ],
+  [
+   "Hidden under the bed, the cat refused to come out. What noun does the participle modify?",
+   "cat",
+   [
+    "bed",
+    "Hidden",
+    "refused"
+   ],
+   "Hidden under the bed describes the cat."
+  ],
+  [
+   "The students found a buried time capsule. What noun does the participle modify?",
+   "time capsule",
+   [
+    "students",
+    "buried",
+    "found"
+   ],
+   "Buried describes the time capsule."
+  ],
+  [
+   "Feeling confident, Arjun raised his hand. What noun does the participle modify?",
+   "Arjun",
+   [
+    "hand",
+    "Feeling",
+    "raised"
+   ],
+   "Feeling confident describes Arjun."
+  ],
+  [
+   "The crowd admired the fireworks lighting up the sky. What noun does the participle modify?",
+   "fireworks",
+   [
+    "crowd",
+    "sky",
+    "admired"
+   ],
+   "Lighting up the sky describes the fireworks."
+  ],
+  [
+   "The melted snow flooded the basement. What noun does the participle modify?",
+   "snow",
+   [
+    "basement",
+    "melted",
+    "flooded"
+   ],
+   "Melted describes the snow."
+  ],
+  [
+   "Tired of waiting, the passengers complained to the driver. What noun does the participle modify?",
+   "passengers",
+   [
+    "driver",
+    "waiting",
+    "complained"
+   ],
+   "Tired of waiting describes the passengers."
+  ],
+  [
+   "She picked up the ringing phone. What noun does the participle modify?",
+   "phone",
+   [
+    "She",
+    "ringing",
+    "picked"
+   ],
+   "Ringing describes the phone."
+  ],
+  [
+   "The bridge built in 1932 still carries traffic. What noun does the participle modify?",
+   "bridge",
+   [
+    "traffic",
+    "built",
+    "carries"
+   ],
+   "Built in 1932 describes the bridge."
+  ]
+ ],
+ "engVbGr": [
+  [
+   "What function does the gerund in bold have? <strong>Camping</strong> is fun in the summer.",
+   "Subject",
+   [
+    "Direct object",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Camping is the subject of the verb is."
+  ],
+  [
+   "What function does the gerund in bold have? My brother loves <strong>fishing</strong>.",
+   "Direct object",
+   [
+    "Subject",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Fishing receives the action of loves."
+  ],
+  [
+   "What function does the gerund in bold have? She improved by <strong>practising</strong> every day.",
+   "Object of a preposition",
+   [
+    "Subject",
+    "Direct object",
+    "Predicate noun"
+   ],
+   "Practising follows the preposition by."
+  ],
+  [
+   "What function does the gerund in bold have? His job is <strong>delivering</strong> mail.",
+   "Predicate noun",
+   [
+    "Subject",
+    "Direct object",
+    "Object of a preposition"
+   ],
+   "Delivering mail follows the linking verb is and renames job."
+  ],
+  [
+   "What function does the gerund in bold have? <strong>Cycling</strong> to school saves money.",
+   "Subject",
+   [
+    "Direct object",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Cycling to school is the subject of saves."
+  ],
+  [
+   "What function does the gerund in bold have? We finished <strong>painting</strong> the shed.",
+   "Direct object",
+   [
+    "Subject",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Painting the shed tells what we finished."
+  ],
+  [
+   "What function does the gerund in bold have? Wash your hands before <strong>eating</strong>.",
+   "Object of a preposition",
+   [
+    "Subject",
+    "Direct object",
+    "Predicate noun"
+   ],
+   "Eating follows the preposition before."
+  ],
+  [
+   "What function does the gerund in bold have? Her passion is <strong>dancing</strong>.",
+   "Predicate noun",
+   [
+    "Subject",
+    "Direct object",
+    "Object of a preposition"
+   ],
+   "Dancing follows is and renames passion."
+  ],
+  [
+   "What function does the gerund in bold have? <strong>Shouting</strong> in the library is not allowed.",
+   "Subject",
+   [
+    "Direct object",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Shouting in the library is the subject of is."
+  ],
+  [
+   "What function does the gerund in bold have? The puppy enjoys <strong>chasing</strong> squirrels.",
+   "Direct object",
+   [
+    "Subject",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Chasing squirrels is what the puppy enjoys."
+  ],
+  [
+   "What function does the gerund in bold have? He is interested in <strong>building</strong> robots.",
+   "Object of a preposition",
+   [
+    "Subject",
+    "Direct object",
+    "Predicate noun"
+   ],
+   "Building follows the preposition in."
+  ],
+  [
+   "What function does the gerund in bold have? The hardest part was <strong>waiting</strong>.",
+   "Predicate noun",
+   [
+    "Subject",
+    "Direct object",
+    "Object of a preposition"
+   ],
+   "Waiting follows was and renames the hardest part."
+  ],
+  [
+   "What function does the gerund in bold have? <strong>Reading</strong> maps is a useful skill.",
+   "Subject",
+   [
+    "Direct object",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Reading maps is the subject of is."
+  ],
+  [
+   "What function does the gerund in bold have? Please stop <strong>tapping</strong> your pencil.",
+   "Direct object",
+   [
+    "Subject",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Tapping your pencil is what you are asked to stop."
+  ],
+  [
+   "What function does the gerund in bold have? She won the prize for <strong>writing</strong> the best story.",
+   "Object of a preposition",
+   [
+    "Subject",
+    "Direct object",
+    "Predicate noun"
+   ],
+   "Writing follows the preposition for."
+  ],
+  [
+   "What function does the gerund in bold have? My chore is <strong>feeding</strong> the cat.",
+   "Predicate noun",
+   [
+    "Subject",
+    "Direct object",
+    "Object of a preposition"
+   ],
+   "Feeding the cat renames chore after the linking verb is."
+  ],
+  [
+   "What function does the gerund in bold have? <strong>Gardening</strong> relaxes my grandmother.",
+   "Subject",
+   [
+    "Direct object",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Gardening performs the action of relaxes, so it is the subject."
+  ],
+  [
+   "What function does the gerund in bold have? They considered <strong>moving</strong> to Saskatoon.",
+   "Direct object",
+   [
+    "Subject",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Moving is what they considered."
+  ],
+  [
+   "What function does the gerund in bold have? Nobody thanked him for <strong>cleaning</strong> up.",
+   "Object of a preposition",
+   [
+    "Subject",
+    "Direct object",
+    "Predicate noun"
+   ],
+   "Cleaning follows the preposition for."
+  ],
+  [
+   "What function does the gerund in bold have? The best exercise is <strong>swimming</strong>.",
+   "Predicate noun",
+   [
+    "Subject",
+    "Direct object",
+    "Object of a preposition"
+   ],
+   "Swimming follows is and renames exercise."
+  ],
+  [
+   "What function does the gerund in bold have? I appreciate <strong>getting</strong> your help.",
+   "Direct object",
+   [
+    "Subject",
+    "Object of a preposition",
+    "Predicate noun"
+   ],
+   "Getting your help is what I appreciate."
+  ],
+  [
+   "What function does the gerund in bold have? Without <strong>studying</strong>, you may struggle on the test.",
+   "Object of a preposition",
+   [
+    "Subject",
+    "Direct object",
+    "Predicate noun"
+   ],
+   "Studying follows the preposition without."
+  ]
+ ],
+ "engVbIn": [
+  [
+   "How is the infinitive phrase in bold used? <strong>To win the championship</strong> was our goal.",
+   "Noun",
+   [
+    "Adjective",
+    "Adverb",
+    "Main verb"
+   ],
+   "The infinitive phrase is the subject of was, so it acts as a noun."
+  ],
+  [
+   "How is the infinitive phrase in bold used? She has a lot of homework <strong>to finish</strong>.",
+   "Adjective",
+   [
+    "Noun",
+    "Adverb",
+    "Main verb"
+   ],
+   "To finish describes the noun homework."
+  ],
+  [
+   "How is the infinitive phrase in bold used? We went to the store <strong>to buy milk</strong>.",
+   "Adverb",
+   [
+    "Noun",
+    "Adjective",
+    "Main verb"
+   ],
+   "To buy milk tells why we went, modifying the verb went."
+  ],
+  [
+   "How is the infinitive phrase in bold used? He hopes <strong>to become a pilot</strong>.",
+   "Noun",
+   [
+    "Adjective",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase is the direct object of hopes, so it acts as a noun."
+  ],
+  [
+   "How is the infinitive phrase in bold used? This is the best place <strong>to see the northern lights</strong>.",
+   "Adjective",
+   [
+    "Noun",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase describes which place, so it acts as an adjective."
+  ],
+  [
+   "How is the infinitive phrase in bold used? The puzzle was hard <strong>to solve</strong>.",
+   "Adverb",
+   [
+    "Noun",
+    "Adjective",
+    "Main verb"
+   ],
+   "To solve modifies the adjective hard, so it acts as an adverb."
+  ],
+  [
+   "How is the infinitive phrase in bold used? My plan is <strong>to save half my allowance</strong>.",
+   "Noun",
+   [
+    "Adjective",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase follows is and renames plan, acting as a noun."
+  ],
+  [
+   "How is the infinitive phrase in bold used? I need a pen <strong>to sign the form</strong>.",
+   "Adjective",
+   [
+    "Noun",
+    "Adverb",
+    "Main verb"
+   ],
+   "To sign the form tells what kind of pen, describing the noun."
+  ],
+  [
+   "How is the infinitive phrase in bold used? Liam stayed late <strong>to help the coach</strong>.",
+   "Adverb",
+   [
+    "Noun",
+    "Adjective",
+    "Main verb"
+   ],
+   "The phrase tells why Liam stayed, modifying the verb."
+  ],
+  [
+   "How is the infinitive phrase in bold used? They decided <strong>to take the train</strong>.",
+   "Noun",
+   [
+    "Adjective",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase is the object of decided, acting as a noun."
+  ],
+  [
+   "How is the infinitive phrase in bold used? She was the first student <strong>to finish the test</strong>.",
+   "Adjective",
+   [
+    "Noun",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase describes the noun student."
+  ],
+  [
+   "How is the infinitive phrase in bold used? We were happy <strong>to see our grandparents</strong>.",
+   "Adverb",
+   [
+    "Noun",
+    "Adjective",
+    "Main verb"
+   ],
+   "The phrase modifies the adjective happy, so it acts as an adverb."
+  ],
+  [
+   "How is the infinitive phrase in bold used? <strong>To learn French</strong> takes patience.",
+   "Noun",
+   [
+    "Adjective",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase is the subject of takes."
+  ],
+  [
+   "How is the infinitive phrase in bold used? Do you have anything <strong>to drink</strong>?",
+   "Adjective",
+   [
+    "Noun",
+    "Adverb",
+    "Main verb"
+   ],
+   "To drink describes the pronoun anything."
+  ],
+  [
+   "How is the infinitive phrase in bold used? He practised every day <strong>to improve his skating</strong>.",
+   "Adverb",
+   [
+    "Noun",
+    "Adjective",
+    "Main verb"
+   ],
+   "The phrase explains why he practised."
+  ],
+  [
+   "How is the infinitive phrase in bold used? Everyone wants <strong>to go on the field trip</strong>.",
+   "Noun",
+   [
+    "Adjective",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase is the direct object of wants."
+  ],
+  [
+   "How is the infinitive phrase in bold used? The team needs someone <strong>to lead them</strong>.",
+   "Adjective",
+   [
+    "Noun",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase describes the pronoun someone."
+  ],
+  [
+   "How is the infinitive phrase in bold used? The water is too cold <strong>to swim in</strong>.",
+   "Adverb",
+   [
+    "Noun",
+    "Adjective",
+    "Main verb"
+   ],
+   "The phrase modifies the adjective cold, acting as an adverb."
+  ],
+  [
+   "How is the infinitive phrase in bold used? Her wish was <strong>to meet a real astronaut</strong>.",
+   "Noun",
+   [
+    "Adjective",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase renames wish after the linking verb was."
+  ],
+  [
+   "How is the infinitive phrase in bold used? Ottawa has many museums <strong>to visit</strong>.",
+   "Adjective",
+   [
+    "Noun",
+    "Adverb",
+    "Main verb"
+   ],
+   "To visit describes the noun museums."
+  ],
+  [
+   "How is the infinitive phrase in bold used? She saved her money <strong>to buy a new guitar</strong>.",
+   "Adverb",
+   [
+    "Noun",
+    "Adjective",
+    "Main verb"
+   ],
+   "The phrase tells why she saved, modifying the verb saved."
+  ],
+  [
+   "How is the infinitive phrase in bold used? I forgot <strong>to lock the door</strong>.",
+   "Noun",
+   [
+    "Adjective",
+    "Adverb",
+    "Main verb"
+   ],
+   "The phrase is the direct object of forgot."
+  ]
+ ],
+ "engMOD": [
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Running for the bus, Jasmine dropped her lunch.",
+   [
+    "Running for the bus, Jasmine's lunch fell.",
+    "Running for the bus, the lunch was dropped.",
+    "Running for the bus, her lunch dropped from Jasmine."
+   ],
+   "Jasmine is the one running, so her name comes right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Wrapped in shiny paper, the gift sat under the tree.",
+   [
+    "Wrapped in shiny paper, I put the gift under the tree.",
+    "Wrapped in shiny paper, Mom placed the gift under the tree.",
+    "Wrapped in shiny paper, we admired the gift under the tree."
+   ],
+   "The gift, not a person, was wrapped in shiny paper."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "While cooking dinner, Dad burned his finger.",
+   [
+    "While cooking dinner, Dad's finger was burned.",
+    "While cooking dinner, the finger got burned.",
+    "While cooking dinner, a burn appeared on Dad's finger."
+   ],
+   "Dad is the one cooking, so he is named right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Barking loudly, the dog chased the squirrel.",
+   [
+    "Barking loudly, the squirrel was chased by the dog.",
+    "Barking loudly, the squirrel ran from the dog.",
+    "Barking loudly, the tree held the squirrel."
+   ],
+   "The dog is doing the barking, so it follows the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "She served cake on paper plates to the children.",
+   [
+    "She served cake to the children on paper plates.",
+    "On paper plates, she served the children cake to.",
+    "She served on paper plates the children cake to."
+   ],
+   "Placing on paper plates next to cake avoids suggesting the children sat on plates."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "After eating lunch, we went back to class.",
+   [
+    "After eating lunch, the bell rang for class.",
+    "After eating lunch, class started again.",
+    "After eating lunch, the hallway was crowded."
+   ],
+   "We are the ones who ate lunch, so we follows the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Nervous about the test, Ben studied all night.",
+   [
+    "Nervous about the test, the night was long for Ben.",
+    "Nervous about the test, Ben's lamp stayed on all night.",
+    "Nervous about the test, the books were studied by Ben."
+   ],
+   "Ben is the nervous one, so he directly follows the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Hiking up the mountain, we spotted a mountain goat.",
+   [
+    "Hiking up the mountain, a mountain goat was spotted.",
+    "Hiking up the mountain, a mountain goat appeared to us.",
+    "Hiking up the mountain, the goat watched us."
+   ],
+   "We did the hiking, so we comes right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "I saw a moose with huge antlers from the car window.",
+   [
+    "I saw a moose from the car window with huge antlers.",
+    "With huge antlers, I saw a moose from the car window.",
+    "From the car window with huge antlers, I saw a moose."
+   ],
+   "With huge antlers is placed next to moose, so the moose has the antlers."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Sitting by the fire, Lina read a book.",
+   [
+    "Sitting by the fire, the book was read by Lina.",
+    "Sitting by the fire, the book kept Lina busy.",
+    "Sitting by the fire, the pages turned slowly."
+   ],
+   "Lina is the one sitting, so her name follows the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Wearing a bright red coat, Emma was easy to spot.",
+   [
+    "Wearing a bright red coat, it was easy to spot Emma.",
+    "Wearing a bright red coat, we could easily spot Emma.",
+    "Wearing a bright red coat, the crowd noticed Emma."
+   ],
+   "Emma wears the coat, so she must come right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Exhausted after the game, the players slept on the bus.",
+   [
+    "Exhausted after the game, the bus carried the players home.",
+    "Exhausted after the game, the bus ride was quiet.",
+    "Exhausted after the game, sleep came to the players on the bus."
+   ],
+   "The players are exhausted, so they directly follow the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "The teacher handed back the essays that had been marked.",
+   [
+    "The teacher that had been marked handed back the essays.",
+    "That had been marked, the teacher handed back the essays.",
+    "The teacher handed back that had been marked the essays."
+   ],
+   "The clause that had been marked is placed next to essays, the word it describes."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Having finished the race, Kenji drank a bottle of water.",
+   [
+    "Having finished the race, a bottle of water was drunk by Kenji.",
+    "Having finished the race, the water tasted great.",
+    "Having finished the race, a bottle of water was handed to Kenji."
+   ],
+   "Kenji finished the race, so his name comes right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Floating down the river, the canoe drifted past the dock.",
+   [
+    "Floating down the river, we watched the dock pass by.",
+    "Floating down the river, the dock was passed by the canoe.",
+    "Floating down the river, the dock looked small."
+   ],
+   "The canoe is floating, so it is named right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Made with fresh berries, the pie tasted amazing.",
+   [
+    "Made with fresh berries, we loved the pie.",
+    "Made with fresh berries, Aunt Kim served the pie.",
+    "Made with fresh berries, everyone wanted more pie."
+   ],
+   "The pie was made with berries, so it follows the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Climbing the stairs, Owen tripped over a backpack.",
+   [
+    "Climbing the stairs, a backpack tripped Owen.",
+    "Climbing the stairs, the backpack was in Owen's way.",
+    "Climbing the stairs, Owen's foot hit a backpack."
+   ],
+   "Owen is climbing the stairs, so he is named right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Cheering loudly, the fans welcomed the team home.",
+   [
+    "Cheering loudly, the team was welcomed home by the fans.",
+    "Cheering loudly, the team's bus arrived home.",
+    "Cheering loudly, the airport was full of fans."
+   ],
+   "The fans are cheering, so they come right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Glowing in the dark, the stars on the ceiling helped Mia sleep.",
+   [
+    "Glowing in the dark, Mia fell asleep under the stars on the ceiling.",
+    "Glowing in the dark, Mia's bedroom ceiling had stars.",
+    "Glowing in the dark, sleep came easily to Mia."
+   ],
+   "The stars are glowing, so they directly follow the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Startled by the thunder, the baby began to cry.",
+   [
+    "Startled by the thunder, the crying of the baby began.",
+    "Startled by the thunder, tears ran down the baby's face.",
+    "Startled by the thunder, the room filled with crying."
+   ],
+   "The baby was startled, so the baby follows the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Walking along the beach, Talia found a sand dollar.",
+   [
+    "Walking along the beach, a sand dollar was found by Talia.",
+    "Walking along the beach, a sand dollar caught Talia's eye.",
+    "Walking along the beach, the sand dollar lay in the sand."
+   ],
+   "Talia is the one walking, so she comes right after the modifier."
+  ],
+  [
+   "Which sentence is written clearly, with the modifier next to the word it describes?",
+   "Tired from the long flight, my parents went straight to bed.",
+   [
+    "Tired from the long flight, the bed looked inviting to my parents.",
+    "Tired from the long flight, bed was the first stop for my parents.",
+    "Tired from the long flight, the hotel room welcomed my parents."
+   ],
+   "My parents are tired, so they directly follow the modifier."
+  ]
+ ],
+ "engMnId": [
+  [
+   "Beavers are often seen as pests because their dams flood roads and fields. Yet the wetlands they create filter water, store carbon and give homes to fish, birds and insects. What is the main idea of the passage?",
+   "Beavers cause problems but also create valuable wetlands.",
+   [
+    "Beavers build dams.",
+    "Roads sometimes flood.",
+    "Fish live in wetlands."
+   ],
+   "The passage weighs the problems beavers cause against the important benefits of their wetlands."
+  ],
+  [
+   "Many people think multitasking saves time. Research shows, however, that switching between tasks slows people down and leads to more mistakes than doing one thing at a time. What is the main idea of the passage?",
+   "Multitasking is less efficient than focusing on one task.",
+   [
+    "People like to save time.",
+    "Research is often surprising.",
+    "Mistakes are common."
+   ],
+   "Every detail supports the point that multitasking actually reduces efficiency."
+  ],
+  [
+   "The Inuit developed the qajaq, a lightweight boat made from driftwood or bone and sealskin. Its sleek design let hunters move silently and quickly through Arctic waters, and it later inspired the modern kayak. What is the main idea of the passage?",
+   "The Inuit qajaq was a brilliant design that shaped the modern kayak.",
+   [
+    "Sealskin is waterproof.",
+    "Arctic waters are cold.",
+    "Hunters need to be quiet."
+   ],
+   "The passage explains the qajaq's design and its lasting influence."
+  ],
+  [
+   "Food waste is a huge problem: Canadian households throw out millions of tonnes of edible food each year. Planning meals, storing food properly and using leftovers can cut that waste dramatically. What is the main idea of the passage?",
+   "Households waste a lot of food but can reduce it with simple habits.",
+   [
+    "Leftovers taste good.",
+    "Canada is a large country.",
+    "Food is expensive."
+   ],
+   "The passage presents a problem and practical ways to solve it."
+  ],
+  [
+   "Long before GPS, Polynesian navigators crossed thousands of kilometres of open ocean by reading the stars, ocean swells and the flight paths of birds. What is the main idea of the passage?",
+   "Polynesian navigators used natural clues to travel vast distances.",
+   [
+    "GPS is modern technology.",
+    "Birds can fly far.",
+    "The ocean is large."
+   ],
+   "Each detail shows how navigators used nature to find their way."
+  ],
+  [
+   "Some schools have replaced traditional grades with detailed written feedback. Supporters say students focus more on learning than on scores, while critics worry that families find the feedback harder to understand. What is the main idea of the passage?",
+   "Replacing grades with feedback has both supporters and critics.",
+   [
+    "Grades are numbers.",
+    "Families care about school.",
+    "Students like scores."
+   ],
+   "The passage presents both sides of the debate over replacing grades."
+  ],
+  [
+   "The monarch butterfly migrates up to 4,000 kilometres from Canada to Mexico. Remarkably, no single butterfly makes the round trip; it takes several generations to complete the cycle. What is the main idea of the passage?",
+   "Monarch migration is an extraordinary journey spread over generations.",
+   [
+    "Butterflies are orange.",
+    "Mexico is south of Canada.",
+    "Butterflies live short lives."
+   ],
+   "The passage stresses the remarkable, multi-generation nature of the migration."
+  ],
+  [
+   "Sleep is not just rest. During deep sleep, the brain sorts and stores memories, clears away waste products and repairs itself, which is why teenagers who sleep well often learn better. What is the main idea of the passage?",
+   "Sleep performs important work that helps the brain function and learn.",
+   [
+    "Teenagers are often tired.",
+    "The brain is complex.",
+    "Rest feels good."
+   ],
+   "The passage explains the active jobs the brain does during sleep."
+  ],
+  [
+   "When the Rideau Canal opened in 1832, it was built as a military supply route. Today it is a UNESCO World Heritage Site and, in winter, one of the world's largest skating rinks. What is the main idea of the passage?",
+   "The Rideau Canal has changed from a military route to a beloved landmark.",
+   [
+    "Skating is popular.",
+    "The canal is old.",
+    "UNESCO protects sites."
+   ],
+   "The passage traces how the canal's purpose has changed over time."
+  ],
+  [
+   "Plastic microbeads were once common in face washes. Because they were too small to be filtered out, they washed into lakes and oceans, where fish swallowed them. Canada banned them in 2018. What is the main idea of the passage?",
+   "Microbeads harmed waterways, which led Canada to ban them.",
+   [
+    "Face wash cleans skin.",
+    "Fish live in lakes.",
+    "Plastic is useful."
+   ],
+   "The passage explains the harm caused by microbeads and the resulting ban."
+  ],
+  [
+   "Volunteering can benefit the volunteer as much as the community. Studies link regular volunteering to lower stress, stronger friendships and a greater sense of purpose. What is the main idea of the passage?",
+   "Volunteering has real benefits for the volunteers themselves.",
+   [
+    "Communities need help.",
+    "Stress is common.",
+    "Friendships are important."
+   ],
+   "All the evidence points to how volunteering helps those who do it."
+  ],
+  [
+   "Glaciers in the Rockies are shrinking quickly. As they melt, rivers that depend on their meltwater in late summer may run lower, affecting farms, fish and cities downstream. What is the main idea of the passage?",
+   "Shrinking glaciers threaten the water supply of communities downstream.",
+   [
+    "Glaciers are made of ice.",
+    "The Rockies are tall.",
+    "Summers are warm."
+   ],
+   "The passage links melting glaciers to their effects on people and nature downstream."
+  ],
+  [
+   "Video games are often blamed for wasting time, but some research suggests certain games can improve problem-solving, hand–eye coordination and teamwork when played in moderation. What is the main idea of the passage?",
+   "Some video games may build useful skills when played in moderation.",
+   [
+    "Video games are popular.",
+    "Teamwork is important.",
+    "Games waste time."
+   ],
+   "The passage argues that games can have benefits, contrary to a common belief."
+  ],
+  [
+   "The printing press, developed in the 1400s, made books cheaper and faster to produce. As a result, literacy spread, ideas travelled farther and education changed forever. What is the main idea of the passage?",
+   "The printing press transformed how knowledge spread.",
+   [
+    "Books were expensive.",
+    "The 1400s were long ago.",
+    "Reading is a skill."
+   ],
+   "Each detail describes how the press changed the spread of ideas."
+  ],
+  [
+   "Urban gardens are popping up on rooftops and empty lots. Besides providing fresh vegetables, they cool neighbourhoods, support pollinators and bring neighbours together. What is the main idea of the passage?",
+   "Urban gardens offer many benefits beyond food.",
+   [
+    "Rooftops are high.",
+    "Vegetables are healthy.",
+    "Bees like flowers."
+   ],
+   "The passage lists the many benefits of urban gardens."
+  ],
+  [
+   "Although sharks have a fearsome reputation, they kill fewer than ten people a year worldwide. Humans, by contrast, kill tens of millions of sharks each year, pushing many species toward extinction. What is the main idea of the passage?",
+   "Sharks are far more threatened by humans than humans are by sharks.",
+   [
+    "Sharks have sharp teeth.",
+    "Swimming is dangerous.",
+    "Sharks live in oceans."
+   ],
+   "The passage contrasts shark attacks with the much larger human threat to sharks."
+  ],
+  [
+   "Libraries today do much more than lend books. Many offer free internet access, job-search help, language classes and spaces for community events. What is the main idea of the passage?",
+   "Modern libraries serve as wide-ranging community resources.",
+   [
+    "Libraries lend books.",
+    "Internet access is useful.",
+    "Language classes are fun."
+   ],
+   "The passage shows the many services libraries now provide."
+  ],
+  [
+   "Indigenous peoples in North America have long practised controlled burning to clear underbrush and renew grasslands. Today, some fire agencies are partnering with Indigenous communities to bring back these methods and reduce wildfire risk. What is the main idea of the passage?",
+   "Traditional Indigenous burning practices are being used to reduce wildfires today.",
+   [
+    "Forests have underbrush.",
+    "Wildfires are dangerous.",
+    "Grass grows back."
+   ],
+   "The passage connects long-standing Indigenous practice with modern wildfire prevention."
+  ],
+  [
+   "Learning a second language does more than help travellers. It can strengthen memory, improve focus and even delay signs of aging in the brain. What is the main idea of the passage?",
+   "Learning a second language benefits the brain.",
+   [
+    "Travel is fun.",
+    "Memory can fade.",
+    "Many languages exist."
+   ],
+   "Every detail describes a mental benefit of learning a language."
+  ],
+  [
+   "Fast fashion makes clothing cheap, but the low prices hide high costs: huge amounts of water and energy are used, and millions of garments end up in landfills each year. What is the main idea of the passage?",
+   "Cheap fast fashion carries serious environmental costs.",
+   [
+    "Clothes are affordable.",
+    "Landfills are large.",
+    "Fashion changes quickly."
+   ],
+   "The passage reveals the hidden environmental costs behind low prices."
+  ],
+  [
+   "For centuries, people believed the heart, not the brain, was the centre of thought. Experiments in anatomy gradually showed that the brain controls thinking, movement and the senses. What is the main idea of the passage?",
+   "Scientific study changed what people believed about the source of thought.",
+   [
+    "The heart pumps blood.",
+    "Anatomy is a science.",
+    "People think a lot."
+   ],
+   "The passage explains how scientific evidence overturned an old belief."
+  ],
+  [
+   "Wind turbines produce clean electricity, but they can harm birds and bats. Engineers are testing solutions such as painting one blade black and pausing turbines during migrations. What is the main idea of the passage?",
+   "Engineers are working to make wind energy safer for wildlife.",
+   [
+    "Wind is free.",
+    "Birds migrate.",
+    "Turbines are tall."
+   ],
+   "The passage describes a problem with turbines and efforts to fix it."
+  ]
+ ],
+ "engFrml": [
+  [
+   "Which text is most formal?",
+   "Students must submit their assignments by Friday at 4:00 p.m.",
+   [
+    "Hand your stuff in by Friday, OK?",
+    "Friday's the deadline — don't forget!",
+    "Get it in by Friday or else, guys."
+   ],
+   "It uses complete sentences, precise details and no slang or contractions."
+  ],
+  [
+   "Which text is most formal?",
+   "The board of directors has accepted the treasurer's resignation.",
+   [
+    "The treasurer quit, and the board's fine with it.",
+    "So the treasurer's out — board said OK.",
+    "Bye-bye treasurer, says the board!"
+   ],
+   "It uses precise titles and complete, impersonal phrasing with no slang."
+  ],
+  [
+   "Which text is most formal?",
+   "The findings indicate that regular exercise improves concentration.",
+   [
+    "Basically, working out makes you focus better.",
+    "Exercise totally helps you focus, for real.",
+    "So yeah, gym = better focus."
+   ],
+   "It uses precise academic vocabulary and an objective tone."
+  ],
+  [
+   "Which text is most formal?",
+   "Please accept my sincere apologies for the delay.",
+   [
+    "Sorry it took so long!",
+    "My bad, I was late.",
+    "Oops — sorry 'bout that!"
+   ],
+   "Its complete, polite phrasing is suitable for a formal letter."
+  ],
+  [
+   "Which text is most formal?",
+   "Visitors are requested to refrain from feeding the animals.",
+   [
+    "Don't feed the animals, people!",
+    "Hey, no snacks for the critters.",
+    "Seriously, quit feeding the animals."
+   ],
+   "Refrain and are requested are formal word choices."
+  ],
+  [
+   "Which text is most formal?",
+   "I am writing to apply for the position of summer camp counsellor.",
+   [
+    "Hey, I wanna be a camp counsellor this summer.",
+    "So I heard you need camp counsellors?",
+    "I'm totally the right person for your camp job!"
+   ],
+   "It states its purpose clearly in a formal, complete sentence."
+  ],
+  [
+   "Which text is most formal?",
+   "The library will be closed on Monday in observance of the holiday.",
+   [
+    "Library's closed Monday — holiday!",
+    "No library Monday, sorry!",
+    "The library's shut Monday 'cause of the holiday."
+   ],
+   "It avoids contractions and uses formal vocabulary such as in observance of."
+  ],
+  [
+   "Which text is most formal?",
+   "The author employs vivid imagery to convey the character's isolation.",
+   [
+    "The author uses lots of cool images to show the character's lonely.",
+    "The writer's pictures make you feel how lonely the guy is.",
+    "It's super obvious the character's lonely."
+   ],
+   "Its academic vocabulary suits a formal literary essay."
+  ],
+  [
+   "Which text is most formal?",
+   "Thank you for your prompt response to my inquiry.",
+   [
+    "Thanks for getting back to me so fast!",
+    "Wow, quick reply — thanks!",
+    "Cheers for answering my question."
+   ],
+   "Prompt response and inquiry are formal word choices."
+  ],
+  [
+   "Which text is most formal?",
+   "Participants should arrive fifteen minutes before the scheduled start time.",
+   [
+    "Show up 15 mins early, everyone.",
+    "Try to get there a bit early, OK?",
+    "Don't be late — come early!"
+   ],
+   "It gives instructions in complete, impersonal sentences."
+  ],
+  [
+   "Which text is most formal?",
+   "Further research is required to confirm these results.",
+   [
+    "We gotta check this more.",
+    "Not sure this is right — more tests, maybe?",
+    "These results might be off, who knows."
+   ],
+   "It uses objective, precise language typical of formal writing."
+  ],
+  [
+   "Which text is most formal?",
+   "The municipality has approved funding for a new community centre.",
+   [
+    "The city's finally paying for a new community centre!",
+    "Guess what? New community centre coming!",
+    "They said yes to the community centre, yay."
+   ],
+   "Municipality and approved funding are formal terms."
+  ],
+  [
+   "Which text is most formal?",
+   "Should you have any questions, please do not hesitate to contact me.",
+   [
+    "Got questions? Just text me.",
+    "Hit me up if you're confused.",
+    "Ask me if you need anything, no worries."
+   ],
+   "The inverted conditional and polite wording are formal."
+  ],
+  [
+   "Which text is most formal?",
+   "The committee unanimously endorsed the proposal.",
+   [
+    "Everybody on the committee liked the idea.",
+    "The committee was all in on the plan.",
+    "Yep, the committee said yes to it."
+   ],
+   "Unanimously endorsed is precise, formal vocabulary."
+  ],
+  [
+   "Which text is most formal?",
+   "Attendance at the assembly is mandatory for all students.",
+   [
+    "Everyone's gotta go to the assembly.",
+    "You can't skip the assembly, guys.",
+    "The assembly is a must — no excuses!"
+   ],
+   "Mandatory and the impersonal tone make it formal."
+  ],
+  [
+   "Which text is most formal?",
+   "The data were collected over a period of six months.",
+   [
+    "We got the data over about six months.",
+    "It took like six months to get all the info.",
+    "Six months of data — phew!"
+   ],
+   "It uses objective language and avoids casual expressions."
+  ],
+  [
+   "Which text is most formal?",
+   "Due to inclement weather, all outdoor activities have been cancelled.",
+   [
+    "It's gross out, so no outdoor stuff.",
+    "Rain's ruined everything — no outside fun.",
+    "Weather's bad, so we're staying in."
+   ],
+   "Inclement weather is a formal expression, and the sentence avoids slang."
+  ],
+  [
+   "Which text is most formal?",
+   "The museum's collection includes artifacts dating to the eighteenth century.",
+   [
+    "The museum's got some really old stuff.",
+    "There's tons of ancient junk at the museum.",
+    "You'll see super old things at the museum."
+   ],
+   "It uses precise nouns like artifacts and avoids vague slang."
+  ],
+  [
+   "Which text is most formal?",
+   "I respectfully disagree with the council's decision.",
+   [
+    "The council's decision is totally dumb.",
+    "No way, the council messed up.",
+    "I'm so not okay with what the council did."
+   ],
+   "It expresses disagreement politely and formally."
+  ],
+  [
+   "Which text is most formal?",
+   "Employees are reminded to log out of their computers at the end of each shift.",
+   [
+    "Don't forget to log off, team!",
+    "Log out before you leave, OK?",
+    "Seriously, log out when you're done."
+   ],
+   "It uses impersonal, complete phrasing suitable for a workplace notice."
+  ],
+  [
+   "Which text is most formal?",
+   "The results of the survey suggest that most residents favour the new bylaw.",
+   [
+    "Most people seem to like the new rule, I think.",
+    "Looks like everybody's into the new bylaw.",
+    "Survey says: people dig the bylaw."
+   ],
+   "It uses objective wording and precise terms like residents and bylaw."
+  ],
+  [
+   "Which text is most formal?",
+   "Kindly ensure that all forms are signed prior to submission.",
+   [
+    "Sign your forms before handing them in, please.",
+    "Make sure you sign the stuff first.",
+    "Don't forget to sign — duh!"
+   ],
+   "Kindly ensure and prior to submission are formal phrases."
+  ]
+ ],
+ "engAuPu": [
+  [
+   "\"Be sure to tighten each lug nut in a star pattern to keep the wheel evenly seated.\" Who is the most likely audience?",
+   "People changing a car tire",
+   [
+    "Pastry chefs",
+    "Kindergarten students",
+    "Hockey referees"
+   ],
+   "The technical car-repair instructions suit people working on a car."
+  ],
+  [
+   "\"Once upon a time, a little fox lost his red mitten in the snow.\" Who is the most likely audience?",
+   "Young children",
+   [
+    "University professors",
+    "Car mechanics",
+    "Business investors"
+   ],
+   "The simple fairy-tale language and subject suit young children."
+  ],
+  [
+   "\"The quadratic formula gives the roots of any equation of the form ax<sup>2</sup> + bx + c = 0.\" Who is the most likely audience?",
+   "Math students",
+   [
+    "Gardeners",
+    "Toddlers",
+    "Bus drivers"
+   ],
+   "The mathematical content is written for students learning algebra."
+  ],
+  [
+   "\"Our new running shoe cushions every step — get 20% off this weekend only!\" What is the purpose?",
+   "To persuade readers to buy shoes",
+   [
+    "To explain how shoes are made",
+    "To tell an entertaining story",
+    "To describe the history of running"
+   ],
+   "The discount and praise are meant to convince readers to buy."
+  ],
+  [
+   "A brochure lists the opening hours, ticket prices and parking options for a science centre. What is the purpose?",
+   "To inform visitors",
+   [
+    "To persuade voters",
+    "To entertain with a poem",
+    "To argue against science"
+   ],
+   "It gives practical facts that visitors need."
+  ],
+  [
+   "\"Dear Council Members, I urge you to install a crosswalk on Elm Street before someone is hurt.\" What is the purpose?",
+   "To persuade the council to act",
+   [
+    "To entertain the council",
+    "To describe Elm Street's history",
+    "To inform students about traffic laws"
+   ],
+   "The writer urges the council to take a specific action."
+  ],
+  [
+   "\"Patients should take one tablet twice daily with food and avoid alcohol.\" Who is the most likely audience?",
+   "People taking a medication",
+   [
+    "Fashion designers",
+    "Football coaches",
+    "Art collectors"
+   ],
+   "The dosage instructions are written for patients using the medicine."
+  ],
+  [
+   "A humorous story describes a cat that keeps stealing socks from the laundry basket. What is the purpose?",
+   "To entertain readers",
+   [
+    "To persuade people to buy socks",
+    "To teach laundry safety",
+    "To report scientific findings"
+   ],
+   "The funny story is meant mainly to amuse."
+  ],
+  [
+   "\"In this lab, you will measure the pH of five household liquids and record your observations.\" Who is the most likely audience?",
+   "Science students",
+   [
+    "Restaurant owners",
+    "Retired athletes",
+    "Toddlers"
+   ],
+   "Lab instructions about pH are written for science students."
+  ],
+  [
+   "A government website explains how to apply for a passport and what documents are needed. What is the purpose?",
+   "To inform people about a process",
+   [
+    "To entertain travellers",
+    "To persuade people not to travel",
+    "To review a travel book"
+   ],
+   "It explains steps and requirements, which informs readers."
+  ],
+  [
+   "\"Join the Green Team! Together we can make our school waste-free. Sign up in Room 112.\" Who is the most likely audience?",
+   "Students at the school",
+   [
+    "Hospital patients",
+    "Airline pilots",
+    "Senior citizens in another city"
+   ],
+   "The call to join a school club is aimed at students."
+  ],
+  [
+   "\"Preheat the oven to 180 °C and whisk the eggs until frothy.\" Who is the most likely audience?",
+   "People following a recipe",
+   [
+    "Construction workers",
+    "Swimmers",
+    "Politicians"
+   ],
+   "The cooking steps are written for someone baking."
+  ],
+  [
+   "An editorial argues that the city should extend library hours for teens studying for exams. What is the purpose?",
+   "To persuade readers to support longer hours",
+   [
+    "To inform about library history",
+    "To entertain with a story",
+    "To describe how books are printed"
+   ],
+   "An editorial gives an opinion and tries to win support."
+  ],
+  [
+   "\"Shareholders will receive a dividend of $0.45 per share on March 31.\" Who is the most likely audience?",
+   "Investors in the company",
+   [
+    "Elementary students",
+    "Campers",
+    "Music fans"
+   ],
+   "Dividends and shareholders are terms for company investors."
+  ],
+  [
+   "A diary entry describes how the writer felt on the first day at a new school. What is the purpose?",
+   "To express personal feelings",
+   [
+    "To sell school supplies",
+    "To give directions to the school",
+    "To persuade parents to choose the school"
+   ],
+   "Diary entries mainly record and express the writer's own experiences."
+  ],
+  [
+   "\"Coaches must certify that all players have completed concussion training before the season begins.\" Who is the most likely audience?",
+   "Youth sports coaches",
+   [
+    "Movie critics",
+    "Pre-school children",
+    "Gardeners"
+   ],
+   "The rule speaks directly to coaches."
+  ],
+  [
+   "A pamphlet explains the warning signs of a stroke and when to call 911. What is the purpose?",
+   "To inform the public about health",
+   [
+    "To entertain with a joke",
+    "To persuade people to buy medicine",
+    "To describe hospital architecture"
+   ],
+   "It gives important health facts so people can act."
+  ],
+  [
+   "\"This sleek, waterproof jacket will keep you dry on every adventure — order now!\" What is the purpose?",
+   "To persuade readers to buy a jacket",
+   [
+    "To inform about weather patterns",
+    "To entertain with a story about rain",
+    "To explain how waterproofing was invented"
+   ],
+   "Praise and the call to order are persuasive techniques."
+  ],
+  [
+   "\"Before landing, please return your seat to the upright position and fasten your seatbelt.\" Who is the most likely audience?",
+   "Airline passengers",
+   [
+    "Train engineers",
+    "Farmers",
+    "Lifeguards"
+   ],
+   "The instructions are announced to people on a plane."
+  ],
+  [
+   "A comic strip shows a penguin trying and failing to learn to fly. What is the purpose?",
+   "To entertain readers",
+   [
+    "To inform about penguin diets",
+    "To persuade readers to visit Antarctica",
+    "To give flying lessons"
+   ],
+   "A comic strip of this kind is meant to amuse."
+  ],
+  [
+   "\"Claim the Canada Child Benefit by filing your tax return each year, even if you had no income.\" Who is the most likely audience?",
+   "Parents and caregivers",
+   [
+    "Young children",
+    "Professional athletes",
+    "Tourists"
+   ],
+   "The benefit information is aimed at those raising children."
+  ],
+  [
+   "A news report states how many centimetres of snow fell and which highways are closed. What is the purpose?",
+   "To inform readers about current conditions",
+   [
+    "To persuade people to move south",
+    "To entertain with a poem about snow",
+    "To sell snow shovels"
+   ],
+   "News reports present facts so readers know what is happening."
+  ]
+ ],
+ "engSbOb": [
+  [
+   "Passage A: \"The hockey game ended 3–2 in overtime.\" Passage B: \"The thrilling game ended in a nail-biting overtime win.\" Which passage uses a subjective tone?",
+   "Passage B",
+   [
+    "Passage A",
+    "Both",
+    "Neither"
+   ],
+   "Words like thrilling and nail-biting reveal the writer's feelings."
+  ],
+  [
+   "Passage A: \"This restaurant serves the most delicious pizza in town.\" Passage B: \"The restaurant opened in 2019 and seats 60 people.\" Which passage is objective?",
+   "Passage B",
+   [
+    "Passage A",
+    "Both",
+    "Neither"
+   ],
+   "Passage B states only facts that can be checked."
+  ],
+  [
+   "Passage A: \"The lazy council ignored residents again.\" Passage B: \"The council voted 5–4 against the proposal.\" Which passage uses a subjective tone?",
+   "Passage A",
+   [
+    "Passage B",
+    "Both",
+    "Neither"
+   ],
+   "Lazy is a judgment that shows the writer's opinion."
+  ],
+  [
+   "Passage A: \"The museum holds over 10,000 artifacts.\" Passage B: \"The museum's exhibits are fascinating and beautifully arranged.\" Which passage is objective?",
+   "Passage A",
+   [
+    "Passage B",
+    "Both",
+    "Neither"
+   ],
+   "Passage A gives a measurable fact without opinion."
+  ],
+  [
+   "Passage A: \"The new phone has a 6.1-inch screen and a 12-megapixel camera.\" Passage B: \"The new phone is a gorgeous, must-have gadget.\" Which passage uses a subjective tone?",
+   "Passage B",
+   [
+    "Passage A",
+    "Both",
+    "Neither"
+   ],
+   "Gorgeous and must-have express the writer's opinion."
+  ],
+  [
+   "Passage A: \"Temperatures reached 35 °C on Tuesday.\" Passage B: \"Tuesday's heat was absolutely unbearable.\" Which passage is objective?",
+   "Passage A",
+   [
+    "Passage B",
+    "Both",
+    "Neither"
+   ],
+   "Passage A reports a measured temperature without judgment."
+  ],
+  [
+   "Passage A: \"The film is a boring, overlong mess.\" Passage B: \"The film runs two hours and forty minutes.\" Which passage uses a subjective tone?",
+   "Passage A",
+   [
+    "Passage B",
+    "Both",
+    "Neither"
+   ],
+   "Boring and mess are opinion words."
+  ],
+  [
+   "Passage A: \"The river flooded 200 homes in May.\" Passage B: \"The terrible flood devastated the heartbroken town.\" Which passage is objective?",
+   "Passage A",
+   [
+    "Passage B",
+    "Both",
+    "Neither"
+   ],
+   "Passage A gives verifiable facts without emotional language."
+  ],
+  [
+   "Passage A: \"The singer's voice is simply magical.\" Passage B: \"The singer released her third album in June.\" Which passage uses a subjective tone?",
+   "Passage A",
+   [
+    "Passage B",
+    "Both",
+    "Neither"
+   ],
+   "Magical expresses the writer's personal reaction."
+  ],
+  [
+   "Passage A: \"The park has three trails and a picnic area.\" Passage B: \"The park's trails total 12 kilometres.\" Which passage uses a subjective tone?",
+   "Neither",
+   [
+    "Passage A",
+    "Passage B",
+    "Both"
+   ],
+   "Both passages state checkable facts without opinion words."
+  ],
+  [
+   "Passage A: \"The novel is a dull, predictable story.\" Passage B: \"Critics everywhere hated this awful novel.\" Which passage is objective?",
+   "Neither",
+   [
+    "Passage A",
+    "Passage B",
+    "Both"
+   ],
+   "Both passages use judgment words like dull and awful, so neither is objective."
+  ],
+  [
+   "Passage A: \"The school added a new science lab this year.\" Passage B: \"Enrolment rose by 8% from last year.\" Which passage is objective?",
+   "Both",
+   [
+    "Passage A",
+    "Passage B",
+    "Neither"
+   ],
+   "Both passages report verifiable facts."
+  ],
+  [
+   "Passage A: \"The mayor's brilliant plan will save our city.\" Passage B: \"The mayor's wasteful plan will bankrupt our city.\" Which passage uses a subjective tone?",
+   "Both",
+   [
+    "Passage A",
+    "Passage B",
+    "Neither"
+   ],
+   "Brilliant and wasteful both reveal opinions."
+  ],
+  [
+   "Passage A: \"Our team's heroic effort deserved a win.\" Passage B: \"Our team outshot the opponents 30 to 18.\" Which passage is objective?",
+   "Passage B",
+   [
+    "Passage A",
+    "Both",
+    "Neither"
+   ],
+   "Passage B gives statistics without judgment."
+  ],
+  [
+   "Passage A: \"The concert sold out in ten minutes.\" Passage B: \"Fans were ecstatic to grab tickets to the best concert ever.\" Which passage uses a subjective tone?",
+   "Passage B",
+   [
+    "Passage A",
+    "Both",
+    "Neither"
+   ],
+   "Ecstatic and best concert ever show strong opinion."
+  ],
+  [
+   "Passage A: \"The bill would raise the minimum wage to $17 an hour.\" Passage B: \"This shameful bill will destroy small businesses.\" Which passage is objective?",
+   "Passage A",
+   [
+    "Passage B",
+    "Both",
+    "Neither"
+   ],
+   "Passage A describes the bill factually."
+  ],
+  [
+   "Passage A: \"Canada's population passed 40 million in 2023.\" Passage B: \"The capital of Canada is Ottawa.\" Which passage uses a subjective tone?",
+   "Neither",
+   [
+    "Passage A",
+    "Passage B",
+    "Both"
+   ],
+   "Both passages state facts without opinion."
+  ],
+  [
+   "Passage A: \"The ridiculous new uniforms look terrible.\" Passage B: \"The new uniforms are navy blue with white trim.\" Which passage is objective?",
+   "Passage B",
+   [
+    "Passage A",
+    "Both",
+    "Neither"
+   ],
+   "Passage B describes the uniforms without judgment."
+  ],
+  [
+   "Passage A: \"The speech lasted 45 minutes.\" Passage B: \"The speaker droned on for an endless 45 minutes.\" Which passage uses a subjective tone?",
+   "Passage B",
+   [
+    "Passage A",
+    "Both",
+    "Neither"
+   ],
+   "Droned on and endless show the writer's negative opinion."
+  ],
+  [
+   "Passage A: \"The bakery's croissants are heavenly.\" Passage B: \"The bakery's owner is a genius.\" Which passage is objective?",
+   "Neither",
+   [
+    "Passage A",
+    "Passage B",
+    "Both"
+   ],
+   "Heavenly and genius are both opinions, so neither passage is objective."
+  ],
+  [
+   "Passage A: \"The study surveyed 1,200 students across Ontario.\" Passage B: \"About 60% of respondents reported sleeping less than eight hours.\" Which passage is objective?",
+   "Both",
+   [
+    "Passage A",
+    "Passage B",
+    "Neither"
+   ],
+   "Both passages report facts from the study without opinion."
+  ],
+  [
+   "Passage A: \"The selfish neighbours refused to help.\" Passage B: \"The neighbours declined to sign the petition.\" Which passage uses a subjective tone?",
+   "Passage A",
+   [
+    "Passage B",
+    "Both",
+    "Neither"
+   ],
+   "Selfish is a judgment that reveals the writer's feelings."
+  ]
+ ],
+ "engPOV": [
+  [
+   "What point of view is this? I clutched the map and wondered if we would ever find the trail.",
+   "First person",
+   [
+    "Second person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "The narrator uses I and describes their own thoughts."
+  ],
+  [
+   "What point of view is this? You step onto the ice and feel it creak beneath your boots.",
+   "Second person",
+   [
+    "First person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "The narrator addresses the reader as you."
+  ],
+  [
+   "What point of view is this? Marcus stared at the test, wondering whether he had studied the right chapter. The teacher smiled at the class, and Marcus wished he knew what she was thinking.",
+   "Third person limited",
+   [
+    "First person",
+    "Second person",
+    "Third person omniscient"
+   ],
+   "The narrator uses he and reveals only Marcus's thoughts."
+  ],
+  [
+   "What point of view is this? Elena hoped no one noticed her shaking hands, while across the room Raj secretly worried that his own speech would be worse.",
+   "Third person omniscient",
+   [
+    "First person",
+    "Second person",
+    "Third person limited"
+   ],
+   "The narrator reveals the private thoughts of both Elena and Raj."
+  ],
+  [
+   "What point of view is this? We huddled under the tarp as the rain hammered the tent.",
+   "First person",
+   [
+    "Second person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "We shows the narrator is part of the story."
+  ],
+  [
+   "What point of view is this? You open the envelope slowly, afraid of what it might say.",
+   "Second person",
+   [
+    "First person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "The story puts the reader in the action using you."
+  ],
+  [
+   "What point of view is this? Priya listened to the wind and felt sure someone was outside. She could not guess what her brother, asleep in the next room, was dreaming about.",
+   "Third person limited",
+   [
+    "First person",
+    "Second person",
+    "Third person omniscient"
+   ],
+   "Only Priya's thoughts are shown, and the narrator says she cannot know her brother's."
+  ],
+  [
+   "What point of view is this? The captain believed the storm would pass, the crew feared it would not, and the passengers had no idea how much danger they were in.",
+   "Third person omniscient",
+   [
+    "First person",
+    "Second person",
+    "Third person limited"
+   ],
+   "The narrator knows the thoughts and knowledge of many characters."
+  ],
+  [
+   "What point of view is this? My grandmother taught me to bake bannock when I was seven.",
+   "First person",
+   [
+    "Second person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "My and me show a narrator telling their own story."
+  ],
+  [
+   "What point of view is this? Oliver dreaded the dentist appointment. He kept checking the clock, sure it was moving faster than usual.",
+   "Third person limited",
+   [
+    "First person",
+    "Second person",
+    "Third person omniscient"
+   ],
+   "The narrator uses he and stays inside Oliver's mind."
+  ],
+  [
+   "What point of view is this? The wolf thought only of food, the rabbit thought only of escape, and the old owl, watching from above, knew how the chase would end.",
+   "Third person omniscient",
+   [
+    "First person",
+    "Second person",
+    "Third person limited"
+   ],
+   "The narrator reveals what several different characters think."
+  ],
+  [
+   "What point of view is this? You hear footsteps behind you, so you walk a little faster.",
+   "Second person",
+   [
+    "First person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "The reader is addressed directly as you."
+  ],
+  [
+   "What point of view is this? I never told anyone what I saw in the attic that night.",
+   "First person",
+   [
+    "Second person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "The narrator speaks as I about their own experience."
+  ],
+  [
+   "What point of view is this? Jada was certain her friends had forgotten her birthday. She trudged home, unaware of anything waiting for her.",
+   "Third person limited",
+   [
+    "First person",
+    "Second person",
+    "Third person omniscient"
+   ],
+   "The narrator follows only Jada's thoughts and what she knows."
+  ],
+  [
+   "What point of view is this? Each family on the street privately believed theirs was the happiest, and each was secretly wrong in a different way.",
+   "Third person omniscient",
+   [
+    "First person",
+    "Second person",
+    "Third person limited"
+   ],
+   "The narrator knows the private beliefs of every family."
+  ],
+  [
+   "What point of view is this? Our canoe tipped just as we rounded the bend.",
+   "First person",
+   [
+    "Second person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "Our and we show the narrator is a character."
+  ],
+  [
+   "What point of view is this? You reach for the doorknob, but something makes you hesitate.",
+   "Second person",
+   [
+    "First person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "The narrator speaks directly to you."
+  ],
+  [
+   "What point of view is this? Kofi wondered why the coach looked so serious. He had no idea that the team was about to be told big news.",
+   "Third person limited",
+   [
+    "First person",
+    "Second person",
+    "Third person omniscient"
+   ],
+   "Only Kofi's thoughts are revealed, and the narrator keeps to what he knows."
+  ],
+  [
+   "What point of view is this? The mother worried about the bills, the father worried about his job, and their son worried only about tomorrow's hockey game.",
+   "Third person omniscient",
+   [
+    "First person",
+    "Second person",
+    "Third person limited"
+   ],
+   "The narrator reveals the separate worries of three characters."
+  ],
+  [
+   "What point of view is this? I could feel my heart pounding as my name was called.",
+   "First person",
+   [
+    "Second person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "The narrator uses I and my to describe their own feelings."
+  ],
+  [
+   "What point of view is this? Sam studied the old photograph, trying to remember the day it was taken.",
+   "Third person limited",
+   [
+    "First person",
+    "Second person",
+    "Third person omniscient"
+   ],
+   "The narrator uses third-person pronouns and shows only Sam's thoughts."
+  ],
+  [
+   "What point of view is this? You never expected the quiet new student to become your closest friend.",
+   "Second person",
+   [
+    "First person",
+    "Third person limited",
+    "Third person omniscient"
+   ],
+   "The narrator addresses the reader directly with you."
+  ]
+ ],
+ "engFgEh": [
+  [
+   "Which figure of speech is this? The store is having a pre-owned car sale.",
+   "Euphemism",
+   [
+    "Hyperbole",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "Pre-owned is a gentler way of saying used."
+  ],
+  [
+   "Which figure of speech is this? I've told you a thousand times to close the door.",
+   "Hyperbole",
+   [
+    "Euphemism",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "A thousand times is an obvious exaggeration for emphasis."
+  ],
+  [
+   "Which figure of speech is this? It was an open secret that she was moving away.",
+   "Oxymoron",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Paradox"
+   ],
+   "Open and secret are contradictory words placed side by side."
+  ],
+  [
+   "Which figure of speech is this? Less is more.",
+   "Paradox",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Oxymoron"
+   ],
+   "The statement seems contradictory but expresses a truth about simplicity."
+  ],
+  [
+   "Which figure of speech is this? My grandfather is a senior citizen.",
+   "Euphemism",
+   [
+    "Hyperbole",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "Senior citizen is a polite way of saying old person."
+  ],
+  [
+   "Which figure of speech is this? This backpack weighs more than an elephant.",
+   "Hyperbole",
+   [
+    "Euphemism",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "No backpack truly outweighs an elephant; it is exaggeration."
+  ],
+  [
+   "Which figure of speech is this? The pretty ugly sweater made everyone laugh.",
+   "Oxymoron",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Paradox"
+   ],
+   "Pretty ugly joins two opposite ideas in one phrase."
+  ],
+  [
+   "Which figure of speech is this? You have to be cruel to be kind.",
+   "Paradox",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Oxymoron"
+   ],
+   "It seems self-contradictory but reveals that hard choices can help someone."
+  ],
+  [
+   "Which figure of speech is this? The soldiers were killed by friendly fire.",
+   "Euphemism",
+   [
+    "Hyperbole",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "Friendly fire softens the harsh fact of being shot by one's own side."
+  ],
+  [
+   "Which figure of speech is this? I'm so tired I could sleep for a year.",
+   "Hyperbole",
+   [
+    "Euphemism",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "Sleeping for a year is an extreme exaggeration."
+  ],
+  [
+   "Which figure of speech is this? The meeting produced an original copy of the report.",
+   "Oxymoron",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Paradox"
+   ],
+   "Original and copy contradict each other."
+  ],
+  [
+   "Which figure of speech is this? The beginning of the end had arrived.",
+   "Paradox",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Oxymoron"
+   ],
+   "Beginning and end seem contradictory but express a truth about a turning point."
+  ],
+  [
+   "Which figure of speech is this? The custodian is a sanitation engineer.",
+   "Euphemism",
+   [
+    "Hyperbole",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "Sanitation engineer is a more flattering term for a cleaner."
+  ],
+  [
+   "Which figure of speech is this? The line at the bakery was a mile long.",
+   "Hyperbole",
+   [
+    "Euphemism",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "A mile-long line exaggerates how long the wait was."
+  ],
+  [
+   "Which figure of speech is this? Their argument ended in a peaceful war of words.",
+   "Oxymoron",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Paradox"
+   ],
+   "Peaceful and war are contradictory terms combined for effect."
+  ],
+  [
+   "Which figure of speech is this? The only constant is change.",
+   "Paradox",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Oxymoron"
+   ],
+   "It sounds contradictory, yet it truthfully says change never stops."
+  ],
+  [
+   "Which figure of speech is this? The company let go of fifty workers.",
+   "Euphemism",
+   [
+    "Hyperbole",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "Let go is a softer way of saying fired."
+  ],
+  [
+   "Which figure of speech is this? My little brother cried an ocean of tears.",
+   "Hyperbole",
+   [
+    "Euphemism",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "An ocean of tears is a huge exaggeration."
+  ],
+  [
+   "Which figure of speech is this? We heard a quiet roar from the distant waterfall.",
+   "Oxymoron",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Paradox"
+   ],
+   "Quiet and roar are opposites placed together."
+  ],
+  [
+   "Which figure of speech is this? If you want to save time, slow down.",
+   "Paradox",
+   [
+    "Euphemism",
+    "Hyperbole",
+    "Oxymoron"
+   ],
+   "Slowing down to save time seems contradictory but can be true because you make fewer mistakes."
+  ],
+  [
+   "Which figure of speech is this? She's a little thin on top these days.",
+   "Euphemism",
+   [
+    "Hyperbole",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "Thin on top is a gentle way of saying bald."
+  ],
+  [
+   "Which figure of speech is this? He ran faster than the speed of light.",
+   "Hyperbole",
+   [
+    "Euphemism",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "No one can run faster than light; it is exaggeration."
+  ]
+ ],
+ "engFgRv": [
+  [
+   "Which figure of speech is this? O moon, why do you hide behind the clouds tonight?",
+   "Apostrophe",
+   [
+    "Hyperbole",
+    "Oxymoron",
+    "Paradox"
+   ],
+   "The speaker addresses the moon, which cannot answer."
+  ],
+  [
+   "Which figure of speech is this? We will not tire, we will not falter, we will not fail.",
+   "Anaphora",
+   [
+    "Understatement",
+    "Hyperbole",
+    "Antithesis"
+   ],
+   "The phrase we will not is repeated at the start of each clause."
+  ],
+  [
+   "Which figure of speech is this? That was a living nightmare.",
+   "Oxymoron",
+   [
+    "Paradox",
+    "Euphemism",
+    "Hyperbole"
+   ],
+   "Living and nightmare combine contrasting ideas in a short phrase."
+  ],
+  [
+   "Which figure of speech is this? Speech is silver, but silence is golden.",
+   "Antithesis",
+   [
+    "Hyperbole",
+    "Paradox",
+    "Understatement"
+   ],
+   "Speech and silence are contrasting ideas set in balanced clauses."
+  ],
+  [
+   "Which figure of speech is this? Scoring 98% on the exam wasn't too bad.",
+   "Understatement",
+   [
+    "Anaphora",
+    "Euphemism",
+    "Antithesis"
+   ],
+   "Calling an excellent score not too bad deliberately downplays it."
+  ],
+  [
+   "Which figure of speech is this? My parents will kill me if I'm late again.",
+   "Hyperbole",
+   [
+    "Anaphora",
+    "Apostrophe",
+    "Paradox"
+   ],
+   "The exaggeration emphasizes how upset the parents will be."
+  ],
+  [
+   "Which figure of speech is this? Our cat was put to sleep last spring.",
+   "Euphemism",
+   [
+    "Paradox",
+    "Understatement",
+    "Antithesis"
+   ],
+   "Put to sleep is a gentle way of saying the cat was euthanized."
+  ],
+  [
+   "Which figure of speech is this? I must be cruel only to be kind.",
+   "Paradox",
+   [
+    "Oxymoron",
+    "Euphemism",
+    "Antithesis"
+   ],
+   "Being cruel to be kind seems contradictory but expresses a truth."
+  ],
+  [
+   "Which figure of speech is this? Every day we read, every day we learn, every day we grow.",
+   "Anaphora",
+   [
+    "Hyperbole",
+    "Paradox",
+    "Euphemism"
+   ],
+   "Every day is repeated at the beginning of successive clauses."
+  ],
+  [
+   "Which figure of speech is this? Death, be not proud.",
+   "Apostrophe",
+   [
+    "Anaphora",
+    "Hyperbole",
+    "Euphemism"
+   ],
+   "The speaker addresses death as though it could listen."
+  ],
+  [
+   "Which figure of speech is this? It's a small step for one person, a giant leap for a community.",
+   "Antithesis",
+   [
+    "Anaphora",
+    "Paradox",
+    "Understatement"
+   ],
+   "Small step and giant leap are balanced opposites."
+  ],
+  [
+   "Which figure of speech is this? The Sahara is a bit warm in July.",
+   "Understatement",
+   [
+    "Antithesis",
+    "Paradox",
+    "Apostrophe"
+   ],
+   "Calling the scorching desert a bit warm downplays the extreme heat."
+  ],
+  [
+   "Which figure of speech is this? This homework will take me a century.",
+   "Hyperbole",
+   [
+    "Apostrophe",
+    "Oxymoron",
+    "Anaphora"
+   ],
+   "A century is an exaggeration for a long time."
+  ],
+  [
+   "Which figure of speech is this? The army officially withdrew, though people called it a strategic retreat.",
+   "Euphemism",
+   [
+    "Paradox",
+    "Apostrophe",
+    "Antithesis"
+   ],
+   "Strategic retreat is a softer term that disguises a defeat."
+  ],
+  [
+   "Which figure of speech is this? The silence spoke volumes.",
+   "Paradox",
+   [
+    "Hyperbole",
+    "Oxymoron",
+    "Understatement"
+   ],
+   "Silence speaking seems impossible but conveys a truth about meaning."
+  ],
+  [
+   "Which figure of speech is this? The comedian's act was seriously funny.",
+   "Oxymoron",
+   [
+    "Anaphora",
+    "Hyperbole",
+    "Euphemism"
+   ],
+   "Seriously and funny are contradictory words joined together."
+  ],
+  [
+   "Which figure of speech is this? Oh, stubborn old car, please start just this once!",
+   "Apostrophe",
+   [
+    "Euphemism",
+    "Understatement",
+    "Hyperbole"
+   ],
+   "The speaker addresses an object that cannot respond."
+  ],
+  [
+   "Which figure of speech is this? Not that the losing streak bothered the fans much — they only booed for three hours.",
+   "Understatement",
+   [
+    "Apostrophe",
+    "Oxymoron",
+    "Antithesis"
+   ],
+   "Saying it didn't bother them much downplays obvious anger."
+  ],
+  [
+   "Which figure of speech is this? Ask not what your country can do for you; ask what you can do for your country.",
+   "Antithesis",
+   [
+    "Paradox",
+    "Understatement",
+    "Euphemism"
+   ],
+   "The two clauses reverse and contrast the same ideas."
+  ],
+  [
+   "Which figure of speech is this? We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.",
+   "Anaphora",
+   [
+    "Apostrophe",
+    "Euphemism",
+    "Oxymoron"
+   ],
+   "We shall fight is repeated at the start of each clause."
+  ],
+  [
+   "Which figure of speech is this? The janitor is now called a custodial engineer.",
+   "Euphemism",
+   [
+    "Hyperbole",
+    "Antithesis",
+    "Understatement"
+   ],
+   "Custodial engineer is a more dignified-sounding term for janitor."
+  ],
+  [
+   "Which figure of speech is this? I'm drowning in a sea of homework.",
+   "Hyperbole",
+   [
+    "Antithesis",
+    "Anaphora",
+    "Oxymoron"
+   ],
+   "The exaggeration stresses how much homework there is."
+  ]
+ ],
+ "engLTD": [
+  [
+   "Which literary device is shown? The scarlet maple leaves rustled against the cool, blue October sky.",
+   "Imagery",
+   [
+    "Flashback",
+    "Irony",
+    "Foreshadowing"
+   ],
+   "Vivid details of colour, sound and temperature appeal to the senses."
+  ],
+  [
+   "Which literary device is shown? A lifeguard who cannot swim.",
+   "Irony",
+   [
+    "Symbolism",
+    "Flashback",
+    "Foreshadowing"
+   ],
+   "You would expect a lifeguard to swim, so the opposite is ironic."
+  ],
+  [
+   "Which literary device is shown? Before the trip, the old sailor warns, \"Not everyone who sails that strait comes back.\"",
+   "Foreshadowing",
+   [
+    "Symbolism",
+    "Imagery",
+    "Flashback"
+   ],
+   "The warning hints that danger will come later."
+  ],
+  [
+   "Which literary device is shown? In the middle of the game, the story jumps back to the day the player first laced up skates.",
+   "Flashback",
+   [
+    "Irony",
+    "Foreshadowing",
+    "Symbolism"
+   ],
+   "The story moves back in time to an earlier event."
+  ],
+  [
+   "Which literary device is shown? A broken chain on the prisoner's wrist stands for his new freedom.",
+   "Symbolism",
+   [
+    "Flashback",
+    "Irony",
+    "Foreshadowing"
+   ],
+   "The broken chain represents the idea of freedom."
+  ],
+  [
+   "Which literary device is shown? The smell of fresh bread and warm cinnamon filled the tiny kitchen.",
+   "Imagery",
+   [
+    "Foreshadowing",
+    "Flashback",
+    "Irony"
+   ],
+   "Details of smell and warmth create a sensory picture."
+  ],
+  [
+   "Which literary device is shown? A traffic-safety expert gets a speeding ticket.",
+   "Irony",
+   [
+    "Symbolism",
+    "Imagery",
+    "Foreshadowing"
+   ],
+   "The outcome is the opposite of what we would expect from a safety expert."
+  ],
+  [
+   "Which literary device is shown? The heroine notices a crack in the dam days before the heavy rains begin.",
+   "Foreshadowing",
+   [
+    "Flashback",
+    "Imagery",
+    "Irony"
+   ],
+   "The crack hints at a disaster to come."
+  ],
+  [
+   "Which literary device is shown? As she holds the faded letter, she remembers the summer her father left.",
+   "Flashback",
+   [
+    "Symbolism",
+    "Foreshadowing",
+    "Irony"
+   ],
+   "The scene returns to an earlier time in the character's life."
+  ],
+  [
+   "Which literary device is shown? A wilting rose on the windowsill represents a fading friendship.",
+   "Symbolism",
+   [
+    "Imagery",
+    "Foreshadowing",
+    "Flashback"
+   ],
+   "The rose stands for something beyond itself: the friendship."
+  ],
+  [
+   "Which literary device is shown? Thunder cracked like a whip, and icy rain stung their cheeks.",
+   "Imagery",
+   [
+    "Foreshadowing",
+    "Symbolism",
+    "Irony"
+   ],
+   "Sound and touch details help readers feel the storm."
+  ],
+  [
+   "Which literary device is shown? A famous chef can't boil an egg at home.",
+   "Irony",
+   [
+    "Flashback",
+    "Symbolism",
+    "Foreshadowing"
+   ],
+   "It is the opposite of what we expect from a skilled chef."
+  ],
+  [
+   "Which literary device is shown? The new student glances nervously at the locked door no one is allowed to open.",
+   "Foreshadowing",
+   [
+    "Imagery",
+    "Irony",
+    "Flashback"
+   ],
+   "The forbidden door hints it will matter later."
+  ],
+  [
+   "Which literary device is shown? The chapter returns to the night of the fire twenty years earlier.",
+   "Flashback",
+   [
+    "Imagery",
+    "Foreshadowing",
+    "Irony"
+   ],
+   "The narrative goes back to past events."
+  ],
+  [
+   "Which literary device is shown? A lit candle in the window shows the family still has hope.",
+   "Symbolism",
+   [
+    "Imagery",
+    "Flashback",
+    "Foreshadowing"
+   ],
+   "The candle stands for hope."
+  ],
+  [
+   "Which literary device is shown? The glossy black crow cawed hoarsely from the frost-covered fence.",
+   "Imagery",
+   [
+    "Irony",
+    "Symbolism",
+    "Flashback"
+   ],
+   "Details of sight and sound create a vivid picture."
+  ],
+  [
+   "Which literary device is shown? The marriage counsellor files for divorce.",
+   "Irony",
+   [
+    "Flashback",
+    "Symbolism",
+    "Foreshadowing"
+   ],
+   "The result is the opposite of what we would expect from a marriage counsellor."
+  ],
+  [
+   "Which literary device is shown? Early in the story, the father checks the old rifle on the wall and says it still works.",
+   "Foreshadowing",
+   [
+    "Flashback",
+    "Symbolism",
+    "Irony"
+   ],
+   "Mentioning the rifle hints that it will be used later."
+  ],
+  [
+   "Which literary device is shown? Lying in the hospital bed, he relives the moment of the accident.",
+   "Flashback",
+   [
+    "Irony",
+    "Foreshadowing",
+    "Imagery"
+   ],
+   "The story interrupts the present to show an earlier event."
+  ],
+  [
+   "Which literary device is shown? The caged bird in the story represents the girl's trapped life.",
+   "Symbolism",
+   [
+    "Imagery",
+    "Foreshadowing",
+    "Flashback"
+   ],
+   "The caged bird stands for the girl's lack of freedom."
+  ],
+  [
+   "Which literary device is shown? Sticky, sweet juice dripped down our chins as we bit into the peaches.",
+   "Imagery",
+   [
+    "Symbolism",
+    "Irony",
+    "Foreshadowing"
+   ],
+   "Taste and touch details make the moment vivid."
+  ],
+  [
+   "Which literary device is shown? The weather forecaster forgets his umbrella and is caught in a downpour.",
+   "Irony",
+   [
+    "Foreshadowing",
+    "Symbolism",
+    "Imagery"
+   ],
+   "The person who predicts weather is unprepared for it, which is ironic."
+  ]
+ ],
+ "engShS": [
+  [
+   "Read the short story (an original story written for LearnAce). Every afternoon, Ayesha left half her lunch on the bench by the library. One day she stayed to watch, and a boy from her class, who never ate in the cafeteria, slipped the sandwich into his bag. The next day she packed two sandwiches. What can be inferred about Ayesha?",
+   "She is quietly generous and wants to help without embarrassing him.",
+   [
+    "She is trying to lose weight.",
+    "She dislikes the boy and is testing him.",
+    "She forgets to eat her lunch."
+   ],
+   "Packing an extra sandwich after seeing his need shows quiet kindness."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). The old bridge creaked as Jonah stepped onto it. Halfway across, a board snapped. He froze, then remembered his grandfather's advice: \"Move slowly, keep your weight low.\" Crouching, he inched forward until his boots touched solid ground. What is the main conflict in the story?",
+   "Jonah against the dangerous bridge",
+   [
+    "Jonah against his grandfather",
+    "Jonah against a rival",
+    "Jonah against his town"
+   ],
+   "The struggle is with the physical danger of the bridge, a person-versus-nature conflict."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Clara laughed at the new girl's handmade sweater. That evening, her mother pulled out a box of sweaters she had knitted for Clara when she was small. Clara held one for a long time and said nothing. What is Clara most likely feeling?",
+   "Regretful about the way she treated the new girl",
+   [
+    "Proud of her own clothes",
+    "Angry at her mother",
+    "Bored by the sweaters"
+   ],
+   "Remembering her mother's handmade gifts makes her see her cruelty in a new light."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). For years Mr. Petrov's corner store had the only fresh bread in town. When a big supermarket opened, the crowds disappeared. Then, one snowy morning, the supermarket's power failed, and a long line formed outside Mr. Petrov's door. He smiled and simply said, \"Good morning.\" What theme does the story suggest?",
+   "Loyalty and patience can be rewarded in unexpected ways.",
+   [
+    "Big stores are always better.",
+    "Snow ruins businesses.",
+    "People should never shop locally."
+   ],
+   "The small store's steady presence is finally appreciated when it is needed."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Nadia's hands shook as she read the acceptance letter. She read it again. Then she ran down the hallway, shouting her brother's name, and they both jumped until the floor shook. Why does the author repeat that Nadia read the letter again?",
+   "To show she could hardly believe the good news",
+   [
+    "To show she could not read well",
+    "To suggest the letter was confusing",
+    "To show she was bored"
+   ],
+   "Rereading shows her disbelief before the joy sinks in."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Every spring, Grandma Lu planted marigolds along the fence. The year she moved into a care home, the family forgot. In June, though, orange flowers appeared anyway — seeds from last year had scattered. Her granddaughter brought her a photo, and Grandma Lu laughed for the first time in weeks. What do the marigolds most likely symbolize?",
+   "Grandma Lu's lasting influence on her family",
+   [
+    "The family's carelessness",
+    "The end of summer",
+    "A dangerous weed"
+   ],
+   "The flowers returning on their own suggest her care continues even after she leaves."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Theo always took the shortcut through the woods. Tonight, though, the path seemed darker, and a branch snapped behind him. He walked faster, then laughed when a raccoon waddled out of the bushes. How does the author build suspense?",
+   "By describing darkness and an unexplained sound",
+   [
+    "By using a cheerful narrator",
+    "By listing facts about raccoons",
+    "By telling the ending first"
+   ],
+   "The dark path and mysterious snap make readers feel tense before the harmless reveal."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Hana practised her speech in front of the mirror every night. On the day of the assembly, the microphone died. Without missing a beat, she stepped forward and spoke louder, and the audience leaned in. What trait does Hana show?",
+   "Adaptability under pressure",
+   [
+    "Laziness",
+    "Shyness that stops her",
+    "Carelessness"
+   ],
+   "She adjusts calmly when the microphone fails."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Every evening, Ravi's father came home late, tired and quiet. Ravi thought he didn't care. Then Ravi found a notebook in the car filled with his hockey scores, each game carefully recorded. What does Ravi most likely realize?",
+   "His father has been paying attention all along.",
+   [
+    "His father wants to quit his job.",
+    "His father dislikes hockey.",
+    "The notebook belongs to someone else."
+   ],
+   "The detailed records reveal his father's hidden interest and love."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). \"We'll never win,\" Ben grumbled as the rain poured on the soccer field. Mira tightened her ponytail. \"Then let's lose trying.\" She ran back into position. How do Ben and Mira differ?",
+   "Ben is discouraged, while Mira is determined.",
+   [
+    "Ben is determined, while Mira gives up.",
+    "Both are eager to quit.",
+    "Both are excited about the rain."
+   ],
+   "Ben's complaint contrasts with Mira's decision to keep playing."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Sofia found the injured sparrow in the snow and carried it home in her mitten. For a week she fed it seeds and water. When it finally flew from her window, she cried, then smiled. What is the best theme?",
+   "Caring for something sometimes means letting it go.",
+   [
+    "Birds are dangerous pets.",
+    "Winter is cruel to everyone.",
+    "Crying shows weakness."
+   ],
+   "Her mixed tears and smile show that releasing the bird is an act of love."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). The village elders said the river spirit punished anyone who fished at night. Kiona did not believe them, until the night her boat drifted silently into a whirlpool she had never seen in daylight. What is the most likely purpose of the elders' warning?",
+   "To foreshadow the danger Kiona later faces",
+   [
+    "To show the elders are foolish",
+    "To explain how to fish",
+    "To describe the village's history"
+   ],
+   "The warning hints at the danger that comes true later in the story."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Mateo told everyone his family was going to Paris for March break. On the first day back, when friends asked for photos, he changed the subject and stared at his shoes. What can be inferred?",
+   "Mateo probably did not actually go to Paris.",
+   [
+    "Mateo lost his camera on the plane.",
+    "Mateo loved Paris too much to talk about it.",
+    "Mateo's friends are not interested."
+   ],
+   "Avoiding the question and looking down suggest he exaggerated or made up the trip."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Lena painted the same lake every morning. Her teacher asked why. \"Because it's never the same lake twice,\" she said, holding up a canvas streaked with pink fog. What does Lena's answer reveal about her?",
+   "She notices small changes others overlook.",
+   [
+    "She cannot think of anything else to paint.",
+    "She dislikes the lake.",
+    "She wants to stop painting."
+   ],
+   "Her reply shows she sees the lake changing each day."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). The power went out during the blizzard, and the house grew cold. Marcus, who usually spent evenings gaming in his room, found himself by the woodstove, playing cards with his little sister. By morning he was teaching her to shuffle. How does Marcus change?",
+   "He grows closer to his sister.",
+   [
+    "He becomes angry at the storm.",
+    "He decides to move away.",
+    "He forgets how to play cards."
+   ],
+   "Without his usual distraction, he spends time with and bonds with his sister."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Old Mr. Haddad shouted at kids who cut across his lawn. One day Zara's kite tangled in his tree. Expecting a scolding, she knocked anyway. He climbed the ladder himself, freed the kite and handed it back with a gruff, \"Mind the wind.\" What does the ending suggest about Mr. Haddad?",
+   "He is kinder than his grumpy manner suggests.",
+   [
+    "He wants to keep the kite.",
+    "He is afraid of ladders.",
+    "He hates all children."
+   ],
+   "His helpful action contrasts with his gruff reputation."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Emma and her best friend both tried out for the lead in the play. When the cast list went up, Emma's name was at the top. She looked at her friend's face, then hugged her for a long time without saying a word. What is the main conflict Emma faces?",
+   "Her joy at winning versus her sympathy for her friend",
+   [
+    "Emma against the director",
+    "Emma against a storm",
+    "Emma against her parents"
+   ],
+   "Emma's silent hug shows she is torn between happiness and concern for her friend."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). The sign on the bakery said \"Closed Forever.\" Jae pressed his nose to the glass, remembering Saturday mornings, warm croissants and Mrs. Kim's laugh. He wrote a note — \"Thank you\" — and slid it under the door. What is the mood of the story?",
+   "Nostalgic and bittersweet",
+   [
+    "Terrifying",
+    "Cheerful and silly",
+    "Angry"
+   ],
+   "Fond memories mixed with loss create a bittersweet mood."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Amir hated his name; kids mispronounced it every year. In September, his new teacher asked him to say it slowly, then practised until she got it right. That night Amir wrote his name across the top of his notebook in large letters. What does the final action show?",
+   "Amir has begun to feel proud of his name.",
+   [
+    "Amir wants to change his name.",
+    "Amir forgot his notebook.",
+    "Amir is angry at the teacher."
+   ],
+   "Writing it boldly shows the teacher's respect has changed how he feels."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). The team had lost every game. At the final buzzer of the last match, the score was still against them, yet the players hugged and laughed on the bench. Coach Diaz had told them, \"Count the improvement, not the score.\" Why are the players happy?",
+   "They are proud of how much they improved.",
+   [
+    "They secretly won the game.",
+    "They are glad the season is over.",
+    "They did not care about the game."
+   ],
+   "The coach's words show they measured success by progress."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Iris kept the seashell from her mother's last trip to the coast. Whenever she felt lonely at university, she held it to her ear and listened to the faint rush of the waves. What does the seashell represent for Iris?",
+   "A comforting connection to her mother and home",
+   [
+    "A science experiment",
+    "Something she plans to sell",
+    "Her fear of the ocean"
+   ],
+   "She turns to the shell when lonely, showing it links her to her mother."
+  ],
+  [
+   "Read the short story (an original story written for LearnAce). Diego practised his free throws every night under the streetlight. His older brother teased him. But when Diego sank the winning shot in the playoff game, his brother was the first one on the court, lifting him into the air. What is the best theme?",
+   "Steady effort pays off and can change how others see you.",
+   [
+    "Older brothers are always mean.",
+    "Luck matters more than practice.",
+    "Streetlights help athletes."
+   ],
+   "Diego's nightly practice leads to success and wins his brother's respect."
+  ]
+ ],
+ "engInfD": [
+  [
+   "What text structure does this passage mainly use? First, the sap is collected from maple trees. Next, it is boiled for hours. Finally, the thick syrup is filtered and bottled.",
+   "Chronological order",
+   [
+    "Problem and solution",
+    "Compare and contrast",
+    "Description"
+   ],
+   "Signal words first, next and finally show steps in order."
+  ],
+  [
+   "What text structure does this passage mainly use? Crocodiles have long, V-shaped snouts, while alligators have wider, U-shaped snouts.",
+   "Compare and contrast",
+   [
+    "Chronological order",
+    "Description",
+    "Cause and effect"
+   ],
+   "The passage shows how two animals differ."
+  ],
+  [
+   "What text structure does this passage mainly use? A drought hit the Prairies, so wheat harvests fell, which caused bread prices to rise.",
+   "Cause and effect",
+   [
+    "Compare and contrast",
+    "Problem and solution",
+    "Chronological order"
+   ],
+   "Each event leads to the next result."
+  ],
+  [
+   "What text structure does this passage mainly use? Our school's recycling bins were always contaminated. The student council made colour-coded labels and posters, and contamination dropped by half.",
+   "Problem and solution",
+   [
+    "Chronological order",
+    "Compare and contrast",
+    "Cause and effect"
+   ],
+   "A problem is described and then solved."
+  ],
+  [
+   "What text structure does this passage mainly use? The tundra is a vast, treeless plain covered in mosses and lichens, with frozen ground lying just below the surface.",
+   "Description",
+   [
+    "Problem and solution",
+    "Compare and contrast",
+    "Cause and effect"
+   ],
+   "The passage describes the features of a place."
+  ],
+  [
+   "What text structure does this passage mainly use? In 1867, Canada became a country. In 1885, the railway was completed, and in 1905 Alberta and Saskatchewan joined Confederation.",
+   "Chronological order",
+   [
+    "Compare and contrast",
+    "Problem and solution",
+    "Cause and effect"
+   ],
+   "Events are presented in time order with dates."
+  ],
+  [
+   "What text structure does this passage mainly use? Both e-books and printed books let you read stories, but e-books are lighter to carry, while printed books never need charging.",
+   "Compare and contrast",
+   [
+    "Problem and solution",
+    "Description",
+    "Chronological order"
+   ],
+   "The passage shows similarities and differences."
+  ],
+  [
+   "What text structure does this passage mainly use? When ocean water warms, coral expels the algae living inside it. As a result, the coral turns white and may die.",
+   "Cause and effect",
+   [
+    "Compare and contrast",
+    "Problem and solution",
+    "Chronological order"
+   ],
+   "Warming water causes coral bleaching."
+  ],
+  [
+   "What text structure does this passage mainly use? Traffic jams clogged the downtown core every morning. To reduce congestion, the city added bus lanes and bike paths.",
+   "Problem and solution",
+   [
+    "Compare and contrast",
+    "Chronological order",
+    "Cause and effect"
+   ],
+   "The city responds to a problem with a solution."
+  ],
+  [
+   "What text structure does this passage mainly use? The violin has a hollow wooden body, four strings and a curved neck ending in a carved scroll.",
+   "Description",
+   [
+    "Compare and contrast",
+    "Cause and effect",
+    "Problem and solution"
+   ],
+   "The passage lists the features of a violin."
+  ],
+  [
+   "What text structure does this passage mainly use? Unlike frogs, which have smooth, moist skin, toads have dry, bumpy skin.",
+   "Compare and contrast",
+   [
+    "Problem and solution",
+    "Chronological order",
+    "Cause and effect"
+   ],
+   "Unlike signals a comparison of two animals."
+  ],
+  [
+   "What text structure does this passage mainly use? Because the factory dumped waste into the river, fish populations declined and local fishers lost their income.",
+   "Cause and effect",
+   [
+    "Problem and solution",
+    "Compare and contrast",
+    "Chronological order"
+   ],
+   "Because introduces a cause, followed by its effects."
+  ],
+  [
+   "What text structure does this passage mainly use? Many seniors felt isolated during the winter. Volunteers started a phone-call program to check in with them weekly.",
+   "Problem and solution",
+   [
+    "Description",
+    "Cause and effect",
+    "Chronological order"
+   ],
+   "The program addresses the problem of isolation."
+  ],
+  [
+   "What text structure does this passage mainly use? To make a paper airplane, fold the sheet in half lengthwise, then fold the top corners to the centre, and finally fold the wings down.",
+   "Chronological order",
+   [
+    "Cause and effect",
+    "Compare and contrast",
+    "Problem and solution"
+   ],
+   "The steps are given in the order they are done."
+  ],
+  [
+   "What text structure does this passage mainly use? The northern lights shimmer in ribbons of green and violet, swirling and flickering across the night sky.",
+   "Description",
+   [
+    "Compare and contrast",
+    "Chronological order",
+    "Problem and solution"
+   ],
+   "The passage uses sensory details to describe something."
+  ],
+  [
+   "What text structure does this passage mainly use? Heavy rain soaked the hillside. Consequently, the soil loosened and a landslide blocked the highway.",
+   "Cause and effect",
+   [
+    "Compare and contrast",
+    "Problem and solution",
+    "Chronological order"
+   ],
+   "Consequently signals the effect of the heavy rain."
+  ],
+  [
+   "What text structure does this passage mainly use? Solar power and wind power are both renewable, but solar works only in daylight, while wind turbines can run day or night.",
+   "Compare and contrast",
+   [
+    "Problem and solution",
+    "Cause and effect",
+    "Description"
+   ],
+   "The passage compares two energy sources."
+  ],
+  [
+   "What text structure does this passage mainly use? The community garden kept losing vegetables to rabbits. Gardeners installed low wire fencing, and the losses stopped.",
+   "Problem and solution",
+   [
+    "Compare and contrast",
+    "Chronological order",
+    "Cause and effect"
+   ],
+   "A problem and its successful fix are described."
+  ],
+  [
+   "What text structure does this passage mainly use? Terry Fox began his Marathon of Hope in April 1980. By September he had run more than 5,000 kilometres before cancer forced him to stop.",
+   "Chronological order",
+   [
+    "Problem and solution",
+    "Description",
+    "Cause and effect"
+   ],
+   "The passage follows events through time."
+  ],
+  [
+   "What text structure does this passage mainly use? The great horned owl has tufted ear feathers, piercing yellow eyes and mottled brown plumage that blends with tree bark.",
+   "Description",
+   [
+    "Cause and effect",
+    "Compare and contrast",
+    "Chronological order"
+   ],
+   "The passage describes the owl's features."
+  ],
+  [
+   "What text structure does this passage mainly use? As more people bought electric cars, demand for charging stations grew, so companies built thousands of new ones.",
+   "Cause and effect",
+   [
+    "Description",
+    "Compare and contrast",
+    "Chronological order"
+   ],
+   "The rise in electric cars caused demand and new construction."
+  ],
+  [
+   "What text structure does this passage mainly use? Students were too hungry to focus in morning classes. The school launched a free breakfast program, and teachers reported better attention.",
+   "Problem and solution",
+   [
+    "Chronological order",
+    "Description",
+    "Compare and contrast"
+   ],
+   "The breakfast program is a solution to hunger in class."
+  ]
+ ]
+}
