@@ -115,7 +115,7 @@ const SCIENCE_MAP = {
   'Shapes and colours': 1, Comparing: 1, 'Heating and cooling': 1, 'Changes of state': 1, Mixtures: 1, 'States of Matter': 1, 'Phase change': 1,
   'Electricity and magnets': 1, 'Physical and chemical changes': 1, Light: 1, Electricity: 1, 'Matter and mass': 1, 'Acceleration and forces': 1,
   'Atoms and elements': 1, 'Modeling matter': 1, 'Thermal energy': 1, Density: 1, 'Atoms, elements and ions': 1, 'Energy transfer and energy transformation': 1,
-  'Electrical circuits': 1, 'Nuclear chemistry': 1, 'Periodic trends': 1, 'Molecular structure': 1, 'The mole and quantifying matter': 1, 'Balancing chemical equations': 1,
+  'Electrical circuits': 1, 'Nuclear chemistry': 1, 'Periodic trends': 1, 'Molecular structure': 1, 'The mole and quantifying matter': 1, 'Balancing chemical equations': 1, 'Acids and bases': 1,
   Stoichiometry: 1, Thermochemistry: 1, 'Rates of reactions': 1, 'Electromagnetic waves': 1, Optics: 1, Magnetism: 1,
   Traits: 2, Adaptations: 2, 'Traits and heredity': 2, 'Body systems': 2, 'Scientific names': 2, 'Plant reproduction': 2, 'Ecological interactions': 2,
   'Classification and scientific names': 2, Biochemistry: 2, 'The chemistry of life': 2, 'Multicellular organisms': 2, 'Cell energy': 2, DNA: 2,

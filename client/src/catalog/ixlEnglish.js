@@ -20,6 +20,7 @@ import { FOUNDATION2_SPECS } from './eng/ixlFoundations2.js';
 import { LANGUAGE2_SPECS } from './eng/ixlLanguage2.js';
 import { STRATEGY2_SPECS } from './eng/ixlStrategies2.js';
 import { KINDER_SPECS } from './eng/ixlKindergarten.js';
+import { ADDITIONS_SPECS } from './eng/ixlAdditions.js';
 import { ADVANCED } from './eng/advanced.js';
 import { MORE_GRAMMAR } from './eng/moreGrammar.js';
 import { MORE_READING } from './eng/moreReading.js';
@@ -152,7 +153,7 @@ const addSpec = (key, spec) => {
   SPECS.set(key + '_2', { ...spec, idKey: key });
 };
 for (const sp of [...FOUNDATION_SPECS, ...READING_E_SPECS, ...READING_SPECS, ...VOCAB_SPECS, ...LANGUAGE_SPECS, ...GRAMMAR_SPECS,
-  ...RC_SPECS, ...FOUNDATION2_SPECS, ...LANGUAGE2_SPECS, ...STRATEGY2_SPECS, ...KINDER_SPECS]) {
+  ...RC_SPECS, ...FOUNDATION2_SPECS, ...LANGUAGE2_SPECS, ...STRATEGY2_SPECS, ...KINDER_SPECS, ...ADDITIONS_SPECS]) {
   addSpec(sp.k, { title: sp.t, section: sp.s, grades: GRADE_OVERRIDES[sp.k] || sp.g, gen: sp.gen });
 }
 // the original (pre-catalog) skills: one fixed grade each
@@ -210,7 +211,7 @@ const genFor = (key, grade) => {
 
 // keys that IXL titles resolve to at some grade
 const IXL_KEYS = new Set();
-for (let grade = 0; grade <= 12; grade++) for (const [, , title] of IXL_ENGLISH[grade]) { const k = resolve(title, grade); if (k) IXL_KEYS.add(k); }
+for (let grade = -1; grade <= 12; grade++) for (const [, , title] of IXL_ENGLISH[grade]) { const k = resolve(title, grade); if (k) IXL_KEYS.add(k); }
 
 // our Reading comprehension skills are offered at all their grades, even where IXL also uses them
 const OWN = new Set(['RcL', 'RcI', 'RcA', 'RcP', 'RcC']);
@@ -219,7 +220,7 @@ export const ENGLISH_UNRESOLVED = []; // IXL titles we could not place (should s
 export const ENGLISH_ALIASES = {};    // old skill id → current skill id
 const all = [];
 const usedKeysAnyGrade = new Set();
-for (let grade = 0; grade <= 12; grade++) {
+for (let grade = -1; grade <= 12; grade++) {
   const rows = [], used = new Set(), titles = new Set();
   for (const [cat, section, title] of IXL_ENGLISH[grade]) {
     if (SKIPPED.includes(title)) continue;
@@ -244,7 +245,7 @@ for (let grade = 0; grade <= 12; grade++) {
   const rank = r => [CAT_ORDER.indexOf(r.category) < 0 ? 9 : CAT_ORDER.indexOf(r.category), r.section === 'Reading comprehension' ? -1 : secOrder.indexOf(r.section)];
   rows.map((r, i) => ({ r, i, k: rank(r) })).sort((a, z) => a.k[0] - z.k[0] || a.k[1] - z.k[1] || a.i - z.i)
     .forEach(({ r }) => all.push({
-      id: 'eng' + (SPECS.get(r.key).idKey || r.key) + grade, key: r.key, title: r.title, grade, section: r.section,
+      id: 'eng' + (SPECS.get(r.key).idKey || r.key) + (grade === -1 ? 'JK' : grade), key: r.key, title: r.title, grade, section: r.section,
       icon: iconFor(r.section), category: r.category, gen: genFor(r.key, grade)
     }));
 }

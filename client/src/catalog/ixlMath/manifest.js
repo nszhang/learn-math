@@ -831,6 +831,7 @@ export const MANIFEST = {
       ["mth2C08", "Skip-counting puzzles"],
       ["mth2C09", "Counting patterns - up to 100"],
       ["mth2C10", "Counting patterns - up to 1000"],
+      ["mth2C11", "Count objects by tens and ones - up to 120"],
     ] },
     { name: "Names of numbers", skills: [
       ["mth2D01", "Spell word names for numbers up to 20"],
@@ -3022,6 +3023,7 @@ export const MANIFEST = {
       ["mth6U05", "Find the total given a part and a percent"],
       ["mth6U06", "Solve percent problems"],
       ["mth6U07", "Solve percent word problems"],
+      ["mth6U08", "Percents of numbers"],
     ] },
     { name: "Units of measurement", skills: [
       ["mth6V01", "Estimate metric measurements"],
@@ -4292,6 +4294,7 @@ export const MANIFEST = {
       ["mth9S24", "Slopes of parallel and perpendicular lines"],
       ["mth9S25", "Write an equation for a parallel or perpendicular line"],
       ["mth9S26", "Transformations of linear functions"],
+      ["mth9S27", "Rate of change of a linear function: graphs"],
     ] },
     { name: "Systems of linear equations", skills: [
       ["mth9T01", "Is (x, y) a solution to the system of equations?"],
@@ -4844,6 +4847,7 @@ export const MANIFEST = {
       ["mth11M05", "Multiply and divide rational expressions"],
       ["mth11M06", "Add and subtract rational expressions"],
       ["mth11M07", "Solve rational equations"],
+      ["mth11M08", "Domain and range of reciprocal functions"],
     ] },
     { name: "Exponential functions", skills: [
       ["mth11N01", "Evaluate exponential functions"],
@@ -5074,6 +5078,7 @@ export const MANIFEST = {
       ["mth12E01", "Rational functions: asymptotes and excluded values"],
       ["mth12E02", "Solve rational equations"],
       ["mth12E03", "Check whether two rational functions are inverses"],
+      ["mth12E04", "Domain and range of reciprocal functions"],
     ] },
     { name: "Logarithms", skills: [
       ["mth12F01", "Convert between exponential and logarithmic form: rational bases"],
@@ -5458,6 +5463,7 @@ export const MANIFEST = {
       ["mthCM01", "Find derivatives using implicit differentiation"],
       ["mthCM02", "Find tangent lines using implicit differentiation"],
       ["mthCM03", "Find derivatives using logarithmic differentiation"],
+      ["mthCM04", "Find second derivatives using implicit differentiation"],
     ] },
     { name: "Calculate higher derivatives", skills: [
       ["mthCN01", "Find higher derivatives of polynomials"],

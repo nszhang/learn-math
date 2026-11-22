@@ -55,7 +55,7 @@ const SECTIONS = [
   ['Ecological interactions', '🐝'], ['Classification and scientific names', '🗂️'], ['Biochemistry', '🧪'], ['The chemistry of life', '💧'],
   ['Multicellular organisms', '🫀'], ['Cell energy', '🔋'], ['DNA', '🧬'], ['Meiosis and sexual reproduction', '🔀'], ['Genes to traits', '🧬'],
   ['Evolution', '🦕'], ['Ecology', '🦊'], ['Biodiversity', '🐠'], ['Cell structure', '🧫'], ['Cellular transport', '🚪'], ['Protein synthesis', '🧬'],
-  ['Patterns of inheritance', '🧬'], ['Human impacts', '🏭'], ["Earth's features", '🏔️'], ['Conservation and natural resources', '♻️'],
+  ['Patterns of inheritance', '🧬'], ['Acids and bases', '🧪'], ['Human impacts', '🏭'], ["Earth's features", '🏔️'], ['Conservation and natural resources', '♻️'],
   ["Earth's systems", '🌍'], ['Rocks', '🪨'], ['Conservation', '🐢'], ["Earth's cycles", '🔄']
 ];
 const SECTION_INFO = new Map(SECTIONS.map(([name, icon], i) => [name, { icon, order: i }]));

@@ -168,7 +168,7 @@ export const ALG6_RULES = [
     const a = ri(1, 3), c = ri(0, 4), x = ri(1, 4), pts = [0, 1, 2, 3, 4].map(k => ({ x: k, y: a * k + c, color: C.primary }));
     return num(`${plane({ min: 0, max: 14, points: pts, labelEvery: 2, lines: [[0, c, 4, 4 * a + c]] })}Use the graph. What is the y-value when x = ${b(x)}?`, a * x + c, `Read up from x = ${x} to the line: y = ${b(a * x + c)}.`);
   }),
-  R(/^(?:Constant )?[Rr]ate of change: (?:tables|graphs)$/, (mt, ctx) => () => {
+  R(/^(?:Constant )?[Rr]ate of change: (?:tables|graphs)$|^Rate of change of a linear function: graphs$/, (mt, ctx) => () => {
     const a = nz(-5, 6), c = nz(-4, 8), xs = [0, 2, 4, 6];
     if (/graphs/.test(ctx.title)) { const aa = ri(1, 4), cc = ri(0, 3); return num(`${plane({ min: 0, max: 14, points: [0, 1, 2, 3].map(k => ({ x: k, y: aa * k + cc, color: C.primary })), lines: [[0, cc, 4, 4 * aa + cc]], labelEvery: 2 })}What is the rate of change (the slope) of the line?`, aa, `The line rises ${aa} for every 1 across: slope = ${b(aa)}.`); }
     return num(`${table(['x', 'y'], xs.map(x => [x, a * x + c]))}What is the rate of change (change in y ÷ change in x)?`, a, `${S(a * 2)} ÷ 2 = ${b(S(a))}.`);

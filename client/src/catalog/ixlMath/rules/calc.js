@@ -185,6 +185,16 @@ export const CALC_RULES = [
     const a = ri(2, 5), x0 = ri(1, 2), kind = pick(['poly', 'exp', 'trig']);
     return kind === 'poly' ? num(`${m(`f(x) = ${a}x³ − ${a + 1}x`)}. Find ${m(`f′(${x0})`)}.`, 3 * a * x0 * x0 - (a + 1), `f′(x) = ${3 * a}x² − ${a + 1}: ${b(3 * a * x0 * x0 - (a + 1))}.`) : kind === 'exp' ? mc(`Differentiate ${m(`f(x) = x e<sup>x</sup>`)}.`, '(x + 1)e<sup>x</sup>', ['e<sup>x</sup>', 'xe<sup>x</sup>', 'e<sup>x</sup>(x − 1)'], 'Product rule: e^x + xe^x.', 4) : mc(`Differentiate ${m(`f(x) = ${a}x + cos x`)}.`, `${a} − sin x`, [`${a} + sin x`, `${a}x − sin x`, `${a} − cos x`], `d/dx cos x = −sin x.`, 4);
   }),
+  // x² + y² = c (circle) or x² − y² = c (hyperbola): y′ = ∓x/y and y″ = −c/y³ in both cases
+  R(/^Find second derivatives using implicit differentiation$/, () => () => {
+    const circle = Math.random() < 0.6;
+    const [x0, y0] = pick(circle ? [[3, 4], [4, 3], [0, 5], [-3, 4], [3, -4], [-4, -3], [0, 2], [1, 2]] : [[3, 2], [5, 4], [2, 1], [4, 3], [3, -1], [-2, 1]]);
+    const c = circle ? x0 * x0 + y0 * y0 : x0 * x0 - y0 * y0;
+    const eq = circle ? `x² + y² = ${c}` : `x² ${MINUS} y² = ${c}`;
+    const ans = num2(-c / y0 ** 3, 2);
+    return num(`For ${m(eq)}, find ${m('d²y/dx²')} at the point (${S(x0)}, ${S(y0)}). (round to 2 decimals)`, ans,
+      `Differentiate: ${circle ? '2x + 2y·y′ = 0, so y′ = −x/y' : '2x − 2y·y′ = 0, so y′ = x/y'}. Differentiate again and substitute y′: y″ = ${circle ? '−(y² + x²)/y³' : '(y² − x²)/y³'} = −${c}/y³ = −${c}/(${S(y0)})³ = ${b(S(ans))}.`);
+  }),
   R(/^Find derivatives using implicit differentiation$|^Find tangent lines using implicit differentiation$/, (mt, ctx) => () => {
     const [p, q] = pick([[3, 4], [5, 12], [6, 8]]), r2 = p * p + q * q;
     return /tangent/.test(ctx.title) ? mc(`Find the tangent line to ${m(`x² + y² = ${r2}`)} at ${b(`(${p}, ${q})`)}.`, `y = ${fs(-p, q).replace(/^-/, MINUS)}x + ${fs(r2, q)}`, [`y = ${fs(p, q)}x + ${fs(r2, q)}`, `y = ${fs(-p, q).replace(/^-/, MINUS)}x + ${fs(q, p)}`, `y = ${fs(-q, p).replace(/^-/, MINUS)}x + ${fs(r2, p)}`], `Slope = −x/y = ${fs(-p, q)}; then y = ${fs(-p, q)}x + ${fs(r2, q)}.`, 4) : num(`For ${m(`x² + y² = ${r2}`)}, find ${m('dy/dx')} at ${b(`(${p}, ${q})`)}. (as a decimal, round to 3 places)`, num2(-p / q), `2x + 2y·y′ = 0 so y′ = −x/y = ${fs(-p, q)} ≈ ${b(num2(-p / q))}.`);

@@ -181,9 +181,10 @@ export const NUMBER_RULES = [
     const n = ri(11, 19);
     return mc(`${tenFrame(n)}Which addition sentence matches the ten frames?`, `10 + ${n - 10} = ${n}`, [`10 + ${n - 9} = ${n + 1}`, `${n} + ${n - 10} = ${2 * n - 10}`, `1 + ${n - 1} = ${n}`], `A full ten frame is 10, plus ${n - 10} more: ${b(`10 + ${n - 10} = ${n}`)}.`);
   }),
-  R(/^Count tens and ones - up to (\d+)$/, mt => () => {
-    const lim = +mt[1], n = lim <= 20 ? ri(11, 20) : ri(20, 99), t = Math.floor(n / 10), o = n % 10;
-    return num(`${baseTen(0, t, o)}What number do the blocks show?`, n, `${t} tens and ${o} ones = ${b(n)}.`);
+  R(/^Count (?:objects by )?tens and ones - up to (\d+)$/, mt => () => {
+    const lim = +mt[1], n = lim <= 20 ? ri(11, 20) : ri(20, Math.min(lim, 120)), h = Math.floor(n / 100), t = Math.floor(n / 10) % 10, o = n % 10;
+    return num(`${baseTen(h, t, o)}What number do the blocks show?`, n,
+      h ? `1 hundred, ${t} tens and ${o} ones = ${b(n)}. (A flat is 10 tens = 100.)` : `${t} tens and ${o} ones = ${b(n)}.`);
   }),
   R(/^Place value models(?: for two-digit numbers| up to (?:20|hundreds|thousands)| - (?:tens and ones|up to (?:hundreds|thousands)))?$|^Place value models$/, (mt, ctx) => () => {
     const hi = /thousands/.test(ctx.title) ? 3 : /hundreds/.test(ctx.title) || ctx.grade >= 3 ? 2 : 1;

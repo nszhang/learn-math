@@ -179,6 +179,16 @@ export const FUNC9_RULES = [
     const h = nz(-5, 5), k = nz(-5, 5), q = pick([[`g(x) = f(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)})`, `shifted ${Math.abs(h)} unit${Math.abs(h) > 1 ? 's' : ''} ${h > 0 ? 'right' : 'left'}`], [`g(x) = f(x) ${k < 0 ? MINUS : '+'} ${Math.abs(k)}`, `shifted ${Math.abs(k)} unit${Math.abs(k) > 1 ? 's' : ''} ${k > 0 ? 'up' : 'down'}`], [`g(x) = −f(x)`, 'reflected across the x-axis'], [`g(x) = f(−x)`, 'reflected across the y-axis'], [`g(x) = 2f(x)`, 'stretched vertically by a factor of 2']]);
     return mc(`How is the graph of ${m(q[0])} related to the graph of f?`, q[1], ['shifted 3 units right', 'shifted 3 units up', 'reflected across the x-axis', 'reflected across the y-axis', 'stretched vertically by a factor of 2', 'shifted 4 units left'].filter(v_ => v_ !== q[1]).slice(0, 3), `${q[0]} is f ${b(q[1])}.`, 4);
   }),
+  // f(x) = a/(x − h) + k: the vertical asymptote x = h is not in the domain, the horizontal one y = k not in the range
+  R(/^Domain and range of reciprocal functions$/, () => () => {
+    const a = pick([1, 2, 3, -1, -2, 4]), h = nz(-5, 5), k = nz(-4, 4);
+    const f = `f(x) = ${a === 1 ? '' : a === -1 ? MINUS : S(a)}${a === 1 || a === -1 ? '1' : ''}/(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)}) ${k < 0 ? MINUS : '+'} ${Math.abs(k)}`;
+    const askDomain = Math.random() < 0.5, all = 'all real numbers';
+    if (askDomain) return mc(`What is the domain of ${m(f)}?`, `x ≠ ${S(h)}`, [`x ≠ ${S(-h)}`, `x ≠ ${S(k)}`, all],
+      `The denominator is 0 when x = ${S(h)}, so that value is excluded: ${b(`x ≠ ${S(h)}`)} (the vertical asymptote).`, 4);
+    return mc(`What is the range of ${m(f)}?`, `y ≠ ${S(k)}`, [`y ≠ ${S(-k)}`, `y ≠ ${S(h)}`, all],
+      `${S(a)}/(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)}) can never be 0, so f(x) never equals ${S(k)}: ${b(`y ≠ ${S(k)}`)} (the horizontal asymptote).`, 4);
+  }),
   R(/^Domain and range of exponential and logarithmic functions$/, () => () => {
     const base = ri(2, 5), exp = Math.random() < 0.5;
     return mc(`What is the range of ${m(exp ? `f(x) = ${base}<sup>x</sup>` : `f(x) = log<sub>${base}</sub>(x)`)}?`, exp ? 'y > 0' : 'all real numbers', exp ? ['all real numbers', 'y ≥ 0', 'y < 0'] : ['y > 0', 'y ≥ 0', 'x > 0'], exp ? 'Powers of a positive base are always positive.' : 'Logarithms can take any real value.', 4);
