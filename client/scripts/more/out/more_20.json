@@ -1,0 +1,5552 @@
+{
+ "sciXsPlPF": [
+  [
+   "Which plant part is usually underground and soaks up water?",
+   "Roots",
+   [
+    "Petals",
+    "Leaves",
+    "Fruit"
+   ],
+   "Roots grow down into the soil, where they take in water and minerals."
+  ],
+  [
+   "What do the petals of a flower do?",
+   "Attract pollinators like bees and butterflies",
+   [
+    "Carry water to the roots",
+    "Hold the plant in the soil",
+    "Store food for winter"
+   ],
+   "Bright, colourful petals draw in pollinators that help the flower make seeds."
+  ],
+  [
+   "Which part of a carrot plant do we usually eat?",
+   "The root",
+   [
+    "The flower",
+    "The seed",
+    "The stem"
+   ],
+   "A carrot is a thick root that stores food for the plant."
+  ],
+  [
+   "Which part of a celery plant do we usually eat?",
+   "The stalk, a part of the stem",
+   [
+    "The root",
+    "The flower",
+    "The seed"
+   ],
+   "Celery stalks carry water up from the roots to the leaves."
+  ],
+  [
+   "Why do many leaves grow wide and flat?",
+   "To catch as much sunlight as possible",
+   [
+    "To hold more soil",
+    "To make the plant heavier",
+    "To keep insects away"
+   ],
+   "A wide, flat surface helps a leaf catch the sunlight it needs to make food."
+  ],
+  [
+   "Tiny openings on the underside of a leaf let gases in and out. What are they called?",
+   "Stomata",
+   [
+    "Petals",
+    "Root hairs",
+    "Sepals"
+   ],
+   "Stomata are tiny pores that let carbon dioxide in and oxygen and water vapour out."
+  ],
+  [
+   "Which gas do leaves take in from the air to make food?",
+   "Carbon dioxide",
+   [
+    "Oxygen",
+    "Helium",
+    "Nitrogen only"
+   ],
+   "Plants use carbon dioxide, water and light energy to make sugar in photosynthesis."
+  ],
+  [
+   "Which gas do leaves release during photosynthesis?",
+   "Oxygen",
+   [
+    "Carbon dioxide",
+    "Smoke",
+    "Steam"
+   ],
+   "Photosynthesis gives off oxygen as a by-product."
+  ],
+  [
+   "What green substance in leaves captures light energy?",
+   "Chlorophyll",
+   [
+    "Nectar",
+    "Pollen",
+    "Sap"
+   ],
+   "Chlorophyll is the green pigment that absorbs light for photosynthesis."
+  ],
+  [
+   "Which part of a flower makes pollen?",
+   "The stamen",
+   [
+    "The root",
+    "The sepal",
+    "The stem"
+   ],
+   "The stamen is the male part of a flower; its anther produces pollen."
+  ],
+  [
+   "Which part of a flower receives pollen and later develops the seeds?",
+   "The pistil",
+   [
+    "The petal",
+    "The leaf",
+    "The stamen"
+   ],
+   "The pistil is the female part; its ovary holds the ovules that become seeds."
+  ],
+  [
+   "What does the bark of a tree do?",
+   "Protects the tree's trunk from damage and insects",
+   [
+    "Makes the tree's seeds",
+    "Soaks up water from soil",
+    "Catches sunlight to make food"
+   ],
+   "Bark is a tough outer layer that protects the living tissue inside the trunk."
+  ],
+  [
+   "A potato is a swollen underground stem. What is its main job?",
+   "Storing food for the plant",
+   [
+    "Catching sunlight",
+    "Attracting bees",
+    "Making pollen"
+   ],
+   "A potato tuber stores starch the plant can use to grow new shoots."
+  ],
+  [
+   "What are the small green leaf-like parts that protect a flower bud before it opens?",
+   "Sepals",
+   [
+    "Roots",
+    "Seeds",
+    "Stamens"
+   ],
+   "Sepals wrap around and protect the flower bud before it blooms."
+  ],
+  [
+   "Which tubes carry water from the roots up through the stem?",
+   "Xylem",
+   [
+    "Phloem",
+    "Stomata",
+    "Petals"
+   ],
+   "Xylem tubes move water and minerals upward from the roots."
+  ],
+  [
+   "Which tubes carry sugar made in the leaves to other parts of the plant?",
+   "Phloem",
+   [
+    "Xylem",
+    "Root hairs",
+    "Sepals"
+   ],
+   "Phloem tubes move the food made in the leaves throughout the plant."
+  ],
+  [
+   "What do tiny root hairs do?",
+   "Give the root more surface to soak up water",
+   [
+    "Make food from sunlight",
+    "Attract insects",
+    "Produce pollen"
+   ],
+   "Root hairs greatly increase the root's surface area for absorbing water and minerals."
+  ],
+  [
+   "Which part of a pine tree holds its seeds?",
+   "The cone",
+   [
+    "The needle",
+    "The bark",
+    "The root"
+   ],
+   "Pine trees do not have flowers; their seeds develop inside cones."
+  ],
+  [
+   "Which part of a plant is a pea pod?",
+   "The fruit",
+   [
+    "The root",
+    "The leaf",
+    "The stem"
+   ],
+   "A pea pod develops from a flower and holds the seeds, so it is a fruit."
+  ],
+  [
+   "What does a seed coat do?",
+   "Protects the tiny plant inside the seed",
+   [
+    "Makes food from sunlight",
+    "Takes in carbon dioxide",
+    "Carries water up the stem"
+   ],
+   "The tough seed coat shields the embryo until conditions are right to sprout."
+  ],
+  [
+   "Why do cactus plants have spines instead of wide leaves?",
+   "Spines lose less water and protect the plant",
+   [
+    "Spines make food faster",
+    "Spines soak up rain",
+    "Spines attract bees"
+   ],
+   "Spines are modified leaves that reduce water loss and keep animals away."
+  ],
+  [
+   "What do the tendrils of a pea plant do?",
+   "Wrap around supports to help the plant climb",
+   [
+    "Make seeds",
+    "Store water underground",
+    "Attract pollinators"
+   ],
+   "Tendrils coil around objects so the plant can climb toward sunlight."
+  ]
+ ],
+ "sciXsFPLC": [
+  [
+   "What is the last stage before a flowering plant makes fruit?",
+   "Flower",
+   [
+    "Seed",
+    "Seedling",
+    "Root"
+   ],
+   "A flower must be pollinated before the fruit with seeds can form."
+  ],
+  [
+   "A tiny plant with its first leaves has just poked out of the soil. Which stage is it?",
+   "Seedling",
+   [
+    "Seed",
+    "Adult plant",
+    "Fruit"
+   ],
+   "A young plant that has just sprouted is called a seedling."
+  ],
+  [
+   "What does a seed need to germinate?",
+   "Water, air and the right temperature",
+   [
+    "Only darkness",
+    "Only salt",
+    "Only wind"
+   ],
+   "Seeds need moisture, oxygen and warmth to start growing."
+  ],
+  [
+   "What grows out of a seed first when it germinates?",
+   "A root",
+   [
+    "A flower",
+    "A fruit",
+    "A cone"
+   ],
+   "The first root grows down to anchor the seedling and take in water."
+  ],
+  [
+   "Which stage comes right after an adult plant?",
+   "Flower",
+   [
+    "Seed",
+    "Seedling",
+    "Germination"
+   ],
+   "A grown plant produces flowers so it can reproduce."
+  ],
+  [
+   "A diagram shows: seed → ? → adult plant. What goes in the blank?",
+   "Seedling",
+   [
+    "Fruit",
+    "Flower",
+    "Pollen"
+   ],
+   "A seed sprouts into a seedling, which grows into an adult plant."
+  ],
+  [
+   "A diagram shows: flower → ? → seed. What goes in the blank?",
+   "Fruit",
+   [
+    "Seedling",
+    "Root",
+    "Leaf"
+   ],
+   "After pollination the flower develops into a fruit that holds the seeds."
+  ],
+  [
+   "In a life cycle diagram, why does the arrow from 'fruit with seeds' point back to 'seed'?",
+   "Seeds from the fruit start the cycle again",
+   [
+    "The fruit turns back into a flower",
+    "The plant shrinks into a seed",
+    "The arrow is drawn by mistake"
+   ],
+   "New seeds grow into new plants, so the cycle repeats."
+  ],
+  [
+   "What happens to a flower's petals after the flower is pollinated?",
+   "They dry up and fall off",
+   [
+    "They turn into roots",
+    "They become seeds",
+    "They grow bigger forever"
+   ],
+   "Once pollinated, the flower no longer needs its petals, and the fruit begins to grow."
+  ],
+  [
+   "What is it called when a seed starts to sprout?",
+   "Germination",
+   [
+    "Pollination",
+    "Evaporation",
+    "Hibernation"
+   ],
+   "Germination is the start of growth from a seed."
+  ],
+  [
+   "Which life cycle stage is an apple?",
+   "Fruit with seeds",
+   [
+    "Seedling",
+    "Flower",
+    "Seed only"
+   ],
+   "An apple is the fruit of an apple tree, and it contains seeds."
+  ],
+  [
+   "Which stage is a sunflower seedling growing toward?",
+   "Adult plant",
+   [
+    "Seed",
+    "Pollen",
+    "Fruit only"
+   ],
+   "A seedling keeps growing until it becomes an adult plant."
+  ],
+  [
+   "What must happen to a flower before it can become a fruit?",
+   "It must be pollinated",
+   [
+    "It must freeze",
+    "It must lose its roots",
+    "It must be cut off"
+   ],
+   "Pollen must reach the pistil before seeds and fruit can develop."
+  ],
+  [
+   "A bean plant is drawn with flowers and pods. Which stage of its life cycle is shown?",
+   "Adult plant making fruit",
+   [
+    "Seed",
+    "Seedling",
+    "Germination"
+   ],
+   "Flowers and pods only form on a mature, adult plant."
+  ],
+  [
+   "Which order shows a bean's life cycle?",
+   "bean seed → sprout → bean plant → flowers → pods with beans",
+   [
+    "pods → sprout → flowers → bean seed",
+    "flowers → bean seed → pods → sprout",
+    "sprout → pods → bean seed → flowers"
+   ],
+   "A seed sprouts, grows, flowers and then makes pods holding new seeds."
+  ],
+  [
+   "Which order shows a pumpkin's life cycle?",
+   "seed → seedling → vine → flower → pumpkin",
+   [
+    "pumpkin → flower → seed → vine",
+    "vine → seed → pumpkin → seedling",
+    "flower → seedling → pumpkin → seed"
+   ],
+   "A pumpkin seed sprouts, grows a vine, flowers, then the pollinated flower becomes a pumpkin."
+  ],
+  [
+   "Which stage does a dandelion's fluffy white head show?",
+   "Seeds ready to spread",
+   [
+    "A seedling",
+    "Roots growing",
+    "A closed bud"
+   ],
+   "The fluffy head is made of seeds, each with a tiny parachute."
+  ],
+  [
+   "What does an adult plant need to make flowers?",
+   "Enough sunlight, water and nutrients to grow",
+   [
+    "Total darkness",
+    "Only cold air",
+    "No water at all"
+   ],
+   "A plant must be healthy and fully grown to produce flowers."
+  ],
+  [
+   "What is the main job of the flower stage in the life cycle?",
+   "To make seeds",
+   [
+    "To soak up water",
+    "To hold the plant up",
+    "To store food underground"
+   ],
+   "Flowers are the reproductive part that produces seeds."
+  ],
+  [
+   "Which stage comes right before seedling?",
+   "Seed",
+   [
+    "Flower",
+    "Fruit",
+    "Adult plant"
+   ],
+   "A seedling grows out of a germinating seed."
+  ],
+  [
+   "Which is a stage in a flowering plant's life cycle?",
+   "Seedling",
+   [
+    "Tadpole",
+    "Larva",
+    "Cocoon"
+   ],
+   "Seedling is a plant stage; the others are animal life cycle stages."
+  ],
+  [
+   "A seed is planted in dry sand with no water. What will most likely happen?",
+   "It will not germinate",
+   [
+    "It will flower right away",
+    "It will become a fruit",
+    "It will grow into an adult plant overnight"
+   ],
+   "Without water, a seed cannot start to grow."
+  ]
+ ],
+ "sciXsFPNew": [
+  [
+   "How do maple seeds spread?",
+   "Their wings help them spin away in the wind",
+   [
+    "They float down rivers on purpose",
+    "They stick to fur",
+    "They explode out of pods"
+   ],
+   "Maple keys have wing-like parts that let the wind carry them away."
+  ],
+  [
+   "How do birds help spread the seeds of berries?",
+   "They eat the berries and drop the seeds elsewhere",
+   [
+    "They plant seeds with their beaks",
+    "They glue seeds to leaves",
+    "They turn seeds into pollen"
+   ],
+   "Seeds pass through a bird's body and land far from the parent plant."
+  ],
+  [
+   "How do squirrels help oak trees make new trees?",
+   "They bury acorns and forget some",
+   [
+    "They eat all the acorns",
+    "They carry pollen on their tails",
+    "They water the acorns"
+   ],
+   "Forgotten buried acorns can sprout into new oak trees."
+  ],
+  [
+   "What is pollination?",
+   "Moving pollen from a stamen to a pistil",
+   [
+    "Watering a plant",
+    "A seed sprouting",
+    "A leaf making food"
+   ],
+   "Pollination brings pollen to the pistil so seeds can form."
+  ],
+  [
+   "Why do bees visit flowers?",
+   "To collect nectar and pollen for food",
+   [
+    "To eat the leaves",
+    "To lay eggs in roots",
+    "To drink rainwater only"
+   ],
+   "Bees feed on nectar and pollen and carry pollen between flowers as they go."
+  ],
+  [
+   "What do bees carry from flower to flower?",
+   "Pollen",
+   [
+    "Seeds",
+    "Roots",
+    "Soil"
+   ],
+   "Pollen sticks to a bee's fuzzy body and rubs off on the next flower."
+  ],
+  [
+   "How do touch-me-not (jewelweed) seed pods spread seeds?",
+   "The pods burst open and fling the seeds",
+   [
+    "The seeds float on the ocean",
+    "Birds carry the pods to nests",
+    "The seeds blow away on parachutes"
+   ],
+   "Ripe jewelweed pods snap open when touched and shoot the seeds away."
+  ],
+  [
+   "How do water lilies and other pond plants often spread seeds?",
+   "The seeds float on water",
+   [
+    "The seeds stick to fur",
+    "The pods explode",
+    "Ants carry them underground"
+   ],
+   "Many water plants have seeds that float to new places."
+  ],
+  [
+   "Which seed is most likely spread by sticking to animal fur?",
+   "A burr with tiny hooks",
+   [
+    "A coconut",
+    "A dandelion seed",
+    "A cherry"
+   ],
+   "Tiny hooks catch on fur and clothing, carrying the seed away."
+  ],
+  [
+   "What part of a flowering plant does a seed come from?",
+   "The flower, after it is pollinated",
+   [
+    "The root",
+    "The bark",
+    "The leaf"
+   ],
+   "Seeds develop in the flower's ovary after pollination."
+  ],
+  [
+   "Why do some flowers smell sweet?",
+   "To attract pollinators",
+   [
+    "To scare away rain",
+    "To help roots grow",
+    "To keep the plant warm"
+   ],
+   "A sweet scent draws insects that carry pollen."
+  ],
+  [
+   "How do hummingbirds help flowers?",
+   "They carry pollen while drinking nectar",
+   [
+    "They plant seeds in the soil",
+    "They eat the stems",
+    "They dig up roots"
+   ],
+   "Pollen sticks to a hummingbird's head and is carried to the next flower."
+  ],
+  [
+   "Which plants are pollinated mostly by wind?",
+   "Grasses",
+   [
+    "Roses",
+    "Sunflowers",
+    "Apple trees"
+   ],
+   "Grasses make lots of light pollen that the wind carries."
+  ],
+  [
+   "Why do wind-pollinated plants make huge amounts of pollen?",
+   "Most pollen blows away and never reaches a flower",
+   [
+    "Pollen is heavy and sinks",
+    "Bees eat all of it",
+    "It helps the roots grow"
+   ],
+   "Wind spreads pollen randomly, so plants make extra to make sure some lands on a pistil."
+  ],
+  [
+   "Which fruit has seeds on the outside?",
+   "A strawberry",
+   [
+    "An apple",
+    "A peach",
+    "A watermelon"
+   ],
+   "Strawberries are covered in tiny seed-like fruits on their surface."
+  ],
+  [
+   "A peach has one big seed inside. What is that seed called?",
+   "A pit or stone",
+   [
+    "A petal",
+    "A bulb",
+    "A burr"
+   ],
+   "The hard pit protects the single seed of a peach."
+  ],
+  [
+   "How do people help spread seeds?",
+   "By planting gardens and carrying seeds on clothes",
+   [
+    "By turning off lights",
+    "By melting snow",
+    "By breathing on flowers"
+   ],
+   "People plant seeds on purpose and also carry them by accident on shoes and clothes."
+  ],
+  [
+   "Why do some fruits taste sweet and juicy?",
+   "So animals eat them and spread the seeds",
+   [
+    "So the seeds can swim",
+    "So the plant can make pollen",
+    "So the roots grow faster"
+   ],
+   "Tasty fruit attracts animals, which carry the seeds to new places."
+  ],
+  [
+   "What would most likely happen if there were no pollinators?",
+   "Many plants could not make seeds",
+   [
+    "Plants would grow faster",
+    "More fruit would grow",
+    "Seeds would grow on leaves"
+   ],
+   "Many flowering plants depend on pollinators to make seeds and fruit."
+  ],
+  [
+   "What grows inside a seed?",
+   "A tiny baby plant",
+   [
+    "A small flower",
+    "A ball of pollen",
+    "A tiny root only and no shoot"
+   ],
+   "Each seed holds an embryo, a tiny plant ready to grow."
+  ],
+  [
+   "Seeds fall right under a big parent tree. Why might they have trouble growing?",
+   "The parent tree blocks light and uses the water",
+   [
+    "The tree sings to them",
+    "They are too close to the sky",
+    "The tree turns them into fruit"
+   ],
+   "Seeds that land far away have more space, light and water."
+  ],
+  [
+   "What do ants do for some plants' seeds?",
+   "Carry them to their nests, where they can sprout",
+   [
+    "Turn them into pollen",
+    "Freeze them",
+    "Make them float"
+   ],
+   "Ants move some seeds underground, helping them spread and sprout."
+  ]
+ ],
+ "sciXsTraitO": [
+  [
+   "Which is a trait of a giraffe?",
+   "A long neck",
+   [
+    "Living in a zoo",
+    "Being photographed",
+    "Having a name"
+   ],
+   "A long neck is a body feature that a giraffe is born with."
+  ],
+  [
+   "Which is a trait of a ladybug?",
+   "Red wings with black spots",
+   [
+    "Sitting on a leaf",
+    "Being in a jar",
+    "Flying to a garden"
+   ],
+   "Spotted red wing covers are a physical feature of many ladybugs."
+  ],
+  [
+   "Which is a trait of an elephant?",
+   "A long trunk",
+   [
+    "Eating peanuts at a zoo",
+    "Being in a picture book",
+    "Having a keeper"
+   ],
+   "An elephant's trunk is part of its body."
+  ],
+  [
+   "Which is a trait of a pine tree?",
+   "Needle-shaped leaves",
+   [
+    "Being decorated with lights",
+    "Growing in a park",
+    "Being cut for lumber"
+   ],
+   "Needle-shaped leaves are a feature of pine trees."
+  ],
+  [
+   "Which is a trait of a fish?",
+   "Fins",
+   [
+    "Living in a fish tank",
+    "Being a pet",
+    "Being fed flakes"
+   ],
+   "Fins are body parts fish use to swim."
+  ],
+  [
+   "Which trait can you observe on a frog?",
+   "Skin colour",
+   [
+    "Its favourite pond",
+    "Its owner",
+    "How old the pond is"
+   ],
+   "You can see a frog's skin colour by looking at it."
+  ],
+  [
+   "Which trait can you observe on a flower?",
+   "Petal colour",
+   [
+    "Who picked it",
+    "The vase it is in",
+    "The price at the store"
+   ],
+   "Petal colour is a feature of the flower itself."
+  ],
+  [
+   "Which is a trait of a porcupine?",
+   "Sharp quills",
+   [
+    "Living in Canada",
+    "Being in a story",
+    "Being seen by hikers"
+   ],
+   "Quills are part of a porcupine's body."
+  ],
+  [
+   "Which is a trait of a moose?",
+   "Large antlers on males",
+   [
+    "Crossing a road",
+    "Being on a coin",
+    "Being in a forest photo"
+   ],
+   "Male moose grow large antlers, a body feature."
+  ],
+  [
+   "Which is a trait of a butterfly?",
+   "Wing pattern",
+   [
+    "Landing on a child",
+    "Being in a net",
+    "Flying past a school"
+   ],
+   "The pattern on its wings is a feature of the butterfly."
+  ],
+  [
+   "Which is a trait of a turtle?",
+   "A hard shell",
+   [
+    "Living in a classroom",
+    "Being slow on a race day",
+    "Having a pet name"
+   ],
+   "A turtle's shell is part of its body."
+  ],
+  [
+   "Which is a trait of a strawberry plant?",
+   "Red berries with seeds on the outside",
+   [
+    "Being in a garden box",
+    "Being picked by a farmer",
+    "Sold at a market"
+   ],
+   "Red berries are a feature the plant grows."
+  ],
+  [
+   "Which trait can you observe in a cat?",
+   "Eye colour",
+   [
+    "Its favourite toy",
+    "Its owner's name",
+    "The bed it sleeps in"
+   ],
+   "Eye colour is a feature you can see on the cat itself."
+  ],
+  [
+   "Which is NOT a trait?",
+   "The name of a dog",
+   [
+    "The colour of a dog's fur",
+    "The shape of a dog's ears",
+    "The length of a dog's tail"
+   ],
+   "A name is given by people; it is not a feature of the dog's body."
+  ],
+  [
+   "Which is NOT a trait of a tree?",
+   "The bench beside it",
+   [
+    "Its bark texture",
+    "Its leaf shape",
+    "Its height"
+   ],
+   "A bench is not part of the tree, so it is not a trait."
+  ],
+  [
+   "Which is a trait of a beaver?",
+   "A flat, wide tail",
+   [
+    "Living near a cabin",
+    "Being on a stamp",
+    "Being in a cartoon"
+   ],
+   "A beaver's flat tail is part of its body."
+  ],
+  [
+   "Which is a trait of a skunk?",
+   "Black fur with a white stripe",
+   [
+    "Visiting a backyard",
+    "Living under a porch",
+    "Scaring a dog"
+   ],
+   "The black and white fur pattern is a skunk's body feature."
+  ],
+  [
+   "Which is a trait of a cardinal (a bird)?",
+   "Bright red feathers on males",
+   [
+    "Sitting at a feeder",
+    "Being in a photo",
+    "Singing in the morning only"
+   ],
+   "Male cardinals have bright red feathers."
+  ],
+  [
+   "Which is a trait of a dandelion?",
+   "Yellow flowers",
+   [
+    "Growing in a lawn",
+    "Being picked by kids",
+    "Being a weed to some people"
+   ],
+   "Yellow flowers are a feature of the dandelion plant."
+  ],
+  [
+   "Which is a trait of an owl?",
+   "Large, forward-facing eyes",
+   [
+    "Living in a barn",
+    "Hooting at night in a story",
+    "Being on a poster"
+   ],
+   "Big forward-facing eyes are part of an owl's body."
+  ],
+  [
+   "Which word best describes a trait?",
+   "A feature of a living thing",
+   [
+    "A place where something lives",
+    "A food something eats",
+    "A job something does for people"
+   ],
+   "A trait is a feature, like colour, shape or size."
+  ],
+  [
+   "Which trait could you observe on a leaf?",
+   "Its edge: smooth or jagged",
+   [
+    "Who stepped on it",
+    "Which day it fell",
+    "Its price"
+   ],
+   "The shape of a leaf's edge is a feature of the leaf itself."
+  ]
+ ],
+ "sciXsTraitC": [
+  [
+   "Two dogs: one has curly fur and one has straight fur. Which trait is different?",
+   "Fur texture",
+   [
+    "Both have tails",
+    "Both bark",
+    "Both have four legs"
+   ],
+   "Curly and straight describe the texture of the fur, which differs."
+  ],
+  [
+   "Two maple leaves: one is green and one is red. Which trait is different?",
+   "Leaf colour",
+   [
+    "Leaf type",
+    "Both have veins",
+    "Both came from trees"
+   ],
+   "The two leaves differ in colour."
+  ],
+  [
+   "A goldfish and a shark both live in water. Which trait do they share?",
+   "Fins",
+   [
+    "Sharp teeth",
+    "Orange scales",
+    "Huge size"
+   ],
+   "Both fish have fins for swimming."
+  ],
+  [
+   "How are a robin and a bat alike?",
+   "Both can fly",
+   [
+    "Both have feathers",
+    "Both lay eggs",
+    "Both have beaks"
+   ],
+   "Robins and bats both have wings and can fly, though bats have fur, not feathers."
+  ],
+  [
+   "How are a bat and a robin different?",
+   "A bat has fur and a robin has feathers",
+   [
+    "Only one can fly",
+    "Only the bat has wings",
+    "Only the robin breathes air"
+   ],
+   "Bats are mammals with fur, while robins are birds with feathers."
+  ],
+  [
+   "A calf and its mother are both black and white. Which trait do they share?",
+   "Coat pattern",
+   [
+    "Body size",
+    "Age",
+    "Number of teeth"
+   ],
+   "Offspring often share traits like coat pattern with their parents."
+  ],
+  [
+   "How is a tadpole different from an adult frog?",
+   "A tadpole has a tail and no legs",
+   [
+    "A tadpole has longer legs",
+    "A tadpole can hop farther",
+    "A tadpole lives on land"
+   ],
+   "Tadpoles have tails for swimming and grow legs as they become frogs."
+  ],
+  [
+   "Two tomato plants grew from the same packet of seeds. One has more tomatoes. Which trait differs?",
+   "Number of fruits",
+   [
+    "Plant type",
+    "Both have leaves",
+    "Both have roots"
+   ],
+   "They are the same kind of plant but produced different numbers of fruit."
+  ],
+  [
+   "Which trait could you measure to compare two snakes?",
+   "Body length",
+   [
+    "Their favourite rock",
+    "Their names",
+    "Who saw them"
+   ],
+   "Length is a body trait you can measure with a ruler or tape."
+  ],
+  [
+   "Which trait do all mammals share?",
+   "Hair or fur",
+   [
+    "Feathers",
+    "Scales",
+    "Gills"
+   ],
+   "All mammals have at least some hair or fur."
+  ],
+  [
+   "Which trait do all fish share?",
+   "Gills for breathing underwater",
+   [
+    "Fur",
+    "Feathers",
+    "Lungs only"
+   ],
+   "Fish use gills to take oxygen from water."
+  ],
+  [
+   "Two oak leaves are from the same tree, but one is bigger. What does this show?",
+   "Living things of the same kind can vary",
+   [
+    "They are from different species",
+    "Leaf size is not a trait",
+    "One leaf is not an oak leaf"
+   ],
+   "Traits like size can vary even within the same plant."
+  ],
+  [
+   "A brown rabbit has a white baby. Which trait is different between them?",
+   "Fur colour",
+   [
+    "Long ears",
+    "Both are rabbits",
+    "Both have whiskers"
+   ],
+   "Fur colour differs, while the other features are shared."
+  ],
+  [
+   "How are a cactus and a pine tree alike?",
+   "Both have needle-like or spiny leaves",
+   [
+    "Both grow in deserts",
+    "Both have big flowers all year",
+    "Both lose all their leaves in fall"
+   ],
+   "Cactus spines and pine needles are both narrow, modified leaves."
+  ],
+  [
+   "How are a duck and a chicken alike?",
+   "Both have feathers and lay eggs",
+   [
+    "Both have webbed feet",
+    "Both swim in ponds",
+    "Both have fur"
+   ],
+   "Ducks and chickens are birds, so they share feathers and egg-laying."
+  ],
+  [
+   "How are a duck and a chicken different?",
+   "A duck has webbed feet",
+   [
+    "Only the duck has feathers",
+    "Only the chicken lays eggs",
+    "Only the duck has a beak"
+   ],
+   "Ducks have webbed feet for swimming; chickens do not."
+  ],
+  [
+   "Two sunflowers get the same light and water. One is 2 m tall and one is 1 m tall. Which trait is compared?",
+   "Height",
+   [
+    "Petal colour",
+    "Leaf shape",
+    "Seed type"
+   ],
+   "The difference described is how tall the plants are."
+  ],
+  [
+   "Which pair shows a trait passed from parents to young?",
+   "A spotted dog has spotted puppies",
+   [
+    "A dog learns to sit",
+    "A dog wears a collar",
+    "A dog sleeps on a bed"
+   ],
+   "Spots are inherited; learned tricks and objects are not traits from parents."
+  ],
+  [
+   "Which trait is learned, not inherited?",
+   "A parrot saying words",
+   [
+    "A parrot's green feathers",
+    "A parrot's curved beak",
+    "A parrot's claw shape"
+   ],
+   "Talking is learned from hearing people; feather colour and beak shape are inherited."
+  ],
+  [
+   "Which trait is inherited from parents?",
+   "Eye colour",
+   [
+    "Speaking French",
+    "Riding a bike",
+    "A scar from a fall"
+   ],
+   "Eye colour is passed down; the others come from learning or experience."
+  ],
+  [
+   "How is a caterpillar different from a butterfly?",
+   "A caterpillar has no wings",
+   [
+    "A caterpillar has more wings",
+    "A caterpillar can fly higher",
+    "A caterpillar drinks nectar with a long tongue"
+   ],
+   "Caterpillars grow wings only after changing inside the chrysalis."
+  ],
+  [
+   "Two kittens have the same parents. One has long fur and one has short fur. Which trait differs?",
+   "Fur length",
+   [
+    "Number of legs",
+    "Having whiskers",
+    "Being cats"
+   ],
+   "Fur length differs, showing that young from the same parents can vary."
+  ]
+ ],
+ "sciXsAdapt": [
+  [
+   "How does a beaver's flat tail help it?",
+   "It helps it steer while swimming and slap a warning",
+   [
+    "It helps it fly",
+    "It keeps it cool in the desert",
+    "It helps it climb trees"
+   ],
+   "A beaver uses its flat tail as a rudder and slaps it on water to warn others."
+  ],
+  [
+   "How does a giraffe's long neck help it?",
+   "It can reach leaves high in trees",
+   [
+    "It helps it swim",
+    "It helps it dig burrows",
+    "It keeps it warm"
+   ],
+   "A long neck lets a giraffe eat leaves other animals cannot reach."
+  ],
+  [
+   "How does an arctic fox's thick fur help it?",
+   "It keeps it warm in the cold",
+   [
+    "It helps it swim fast",
+    "It keeps it cool in the sun",
+    "It helps it fly"
+   ],
+   "Thick fur traps heat and protects the fox from Arctic cold."
+  ],
+  [
+   "How does a porcupine's quills help it?",
+   "They protect it from predators",
+   [
+    "They help it swim",
+    "They keep it cool",
+    "They help it catch fish"
+   ],
+   "Sharp quills make a porcupine painful for predators to attack."
+  ],
+  [
+   "How does a woodpecker's strong, pointed beak help it?",
+   "It can drill into wood to find insects",
+   [
+    "It helps it swim",
+    "It helps it crack ice",
+    "It keeps it warm"
+   ],
+   "A woodpecker chisels into bark to reach insects hiding inside."
+  ],
+  [
+   "How do a frog's long, sticky tongue help it?",
+   "It catches insects quickly",
+   [
+    "It helps it breathe underwater",
+    "It keeps it warm",
+    "It helps it climb"
+   ],
+   "A frog flicks out its sticky tongue to grab flying insects."
+  ],
+  [
+   "How does a chameleon's ability to change colour help it?",
+   "It blends in and hides from predators",
+   [
+    "It helps it swim",
+    "It keeps it warm in snow",
+    "It makes it run faster"
+   ],
+   "Changing colour helps a chameleon stay hidden and signal to others."
+  ],
+  [
+   "How does a whale's thick layer of blubber help it?",
+   "It keeps it warm in cold ocean water",
+   [
+    "It helps it fly",
+    "It helps it climb",
+    "It makes it lighter than air"
+   ],
+   "Blubber is fat that insulates whales from cold water."
+  ],
+  [
+   "How do a camel's humps help it?",
+   "They store fat it can use when food is scarce",
+   [
+    "They store water to drink",
+    "They help it swim",
+    "They help it see far"
+   ],
+   "Camel humps hold fat, which gives energy on long trips through the desert."
+  ],
+  [
+   "How do a cheetah's long legs and flexible spine help it?",
+   "They let it run very fast to catch prey",
+   [
+    "They help it swim deep",
+    "They keep it warm",
+    "They help it hide in snow"
+   ],
+   "Long legs and a bending spine let a cheetah take huge strides at high speed."
+  ],
+  [
+   "How do a fish's gills help it?",
+   "They take oxygen from the water",
+   [
+    "They help it walk on land",
+    "They help it fly",
+    "They keep it dry"
+   ],
+   "Gills let fish breathe by removing oxygen from water."
+  ],
+  [
+   "How does a hawk's sharp, curved talons help it?",
+   "They grab and hold prey",
+   [
+    "They help it swim",
+    "They help it dig tunnels",
+    "They keep it cool"
+   ],
+   "Sharp talons let a hawk catch and carry its food."
+  ],
+  [
+   "How do a mole's large, claw-like front feet help it?",
+   "They help it dig tunnels underground",
+   [
+    "They help it fly",
+    "They help it swim in the ocean",
+    "They help it climb trees"
+   ],
+   "Moles use their strong front claws like shovels to dig."
+  ],
+  [
+   "How does a hummingbird's long, thin beak help it?",
+   "It reaches nectar deep inside flowers",
+   [
+    "It cracks hard nuts",
+    "It tears meat",
+    "It digs in the soil"
+   ],
+   "A long, thin beak fits into tube-shaped flowers to sip nectar."
+  ],
+  [
+   "How does a walrus use its long tusks?",
+   "To pull itself out of the water onto ice",
+   [
+    "To fly over water",
+    "To keep its eyes warm",
+    "To breathe underwater"
+   ],
+   "Walruses hook their tusks into ice to haul themselves out of the sea."
+  ],
+  [
+   "How do a bear's habits of eating a lot in fall and sleeping in winter help it?",
+   "It survives the winter when food is scarce",
+   [
+    "It stays cool in summer",
+    "It learns to swim",
+    "It grows wings"
+   ],
+   "Bears store fat in fall and rest through winter when little food is available."
+  ],
+  [
+   "How do birds migrating south help them survive?",
+   "They find food and warmer weather in winter",
+   [
+    "They grow thicker fur",
+    "They learn to swim",
+    "They hide underground"
+   ],
+   "Many birds fly to warmer places where food is still available in winter."
+  ],
+  [
+   "How does a stick insect's shape help it?",
+   "It looks like a twig so predators miss it",
+   [
+    "It helps it swim",
+    "It keeps it warm",
+    "It makes it faster"
+   ],
+   "Looking like a twig is camouflage that hides the insect."
+  ],
+  [
+   "How do a water lily's floating leaves help it?",
+   "They stay at the surface to catch sunlight",
+   [
+    "They hold the plant in sand",
+    "They keep the plant dry in deserts",
+    "They scare away fish"
+   ],
+   "Floating leaves catch sunlight on top of the water."
+  ],
+  [
+   "How does a monarch butterfly's bright orange colour help it?",
+   "It warns predators that it tastes bad",
+   [
+    "It keeps it warm",
+    "It helps it swim",
+    "It helps it hide in snow"
+   ],
+   "Monarchs taste bitter, and bright colours warn birds not to eat them."
+  ],
+  [
+   "Which trait is an adaptation for living in a very cold place?",
+   "Thick fur and a layer of fat",
+   [
+    "Thin skin and big ears",
+    "Webbed feet only",
+    "Bright feathers"
+   ],
+   "Thick fur and fat hold in body heat."
+  ],
+  [
+   "Which trait is an adaptation for living in a dry desert?",
+   "Storing water in the body",
+   [
+    "Thick blubber",
+    "Webbed feet",
+    "Gills"
+   ],
+   "Desert living things survive by saving and storing water."
+  ]
+ ],
+ "sciHAB": [
+  [
+   "Where does a moose live?",
+   "Forest",
+   [
+    "Ocean",
+    "Desert",
+    "Polar region"
+   ],
+   "Moose live in forests where they eat twigs, leaves and water plants."
+  ],
+  [
+   "Where does an octopus live?",
+   "Ocean",
+   [
+    "Forest",
+    "Desert",
+    "Polar region"
+   ],
+   "Octopuses live in salt water in the ocean."
+  ],
+  [
+   "Where does a walrus live?",
+   "Polar region",
+   [
+    "Forest",
+    "Desert",
+    "Ocean"
+   ],
+   "Walruses live on Arctic ice and in cold Arctic waters."
+  ],
+  [
+   "Where does a roadrunner live?",
+   "Desert",
+   [
+    "Forest",
+    "Ocean",
+    "Polar region"
+   ],
+   "Roadrunners live in hot, dry deserts of North America."
+  ],
+  [
+   "Where does a squirrel live?",
+   "Forest",
+   [
+    "Ocean",
+    "Desert",
+    "Polar region"
+   ],
+   "Squirrels live in trees and eat nuts and seeds from forests."
+  ],
+  [
+   "Where does a shark live?",
+   "Ocean",
+   [
+    "Forest",
+    "Desert",
+    "Polar region"
+   ],
+   "Sharks are fish that live in the ocean."
+  ],
+  [
+   "Where does an arctic fox live?",
+   "Polar region",
+   [
+    "Forest",
+    "Desert",
+    "Ocean"
+   ],
+   "Arctic foxes live in the cold Arctic tundra."
+  ],
+  [
+   "Where does a rattlesnake live?",
+   "Desert",
+   [
+    "Ocean",
+    "Polar region",
+    "Forest"
+   ],
+   "Many rattlesnakes live in dry, rocky desert areas."
+  ],
+  [
+   "Where does a woodpecker live?",
+   "Forest",
+   [
+    "Ocean",
+    "Desert",
+    "Polar region"
+   ],
+   "Woodpeckers drill into tree trunks to find food and make nests."
+  ],
+  [
+   "Where does a sea star live?",
+   "Ocean",
+   [
+    "Forest",
+    "Desert",
+    "Polar region"
+   ],
+   "Sea stars live on the ocean floor and on rocky shores."
+  ],
+  [
+   "Where does a narwhal live?",
+   "Polar region",
+   [
+    "Forest",
+    "Desert",
+    "Ocean"
+   ],
+   "Narwhals live in icy Arctic waters around northern Canada and Greenland."
+  ],
+  [
+   "Where does a fennec fox live?",
+   "Desert",
+   [
+    "Forest",
+    "Ocean",
+    "Polar region"
+   ],
+   "Fennec foxes live in the Sahara Desert and have big ears to lose heat."
+  ],
+  [
+   "Where does a black bear live?",
+   "Forest",
+   [
+    "Ocean",
+    "Desert",
+    "Polar region"
+   ],
+   "Black bears live in forests across Canada."
+  ],
+  [
+   "Where does a jellyfish live?",
+   "Ocean",
+   [
+    "Forest",
+    "Desert",
+    "Polar region"
+   ],
+   "Jellyfish drift in ocean water."
+  ],
+  [
+   "Where does a musk ox live?",
+   "Polar region",
+   [
+    "Forest",
+    "Desert",
+    "Ocean"
+   ],
+   "Musk oxen live on the Arctic tundra and have long, thick coats."
+  ],
+  [
+   "Where does a lizard called a Gila monster live?",
+   "Desert",
+   [
+    "Forest",
+    "Ocean",
+    "Polar region"
+   ],
+   "Gila monsters live in the deserts of the southwestern United States and Mexico."
+  ],
+  [
+   "Where does a chipmunk live?",
+   "Forest",
+   [
+    "Ocean",
+    "Desert",
+    "Polar region"
+   ],
+   "Chipmunks live on forest floors and store nuts in burrows."
+  ],
+  [
+   "Where does a sea turtle live?",
+   "Ocean",
+   [
+    "Forest",
+    "Desert",
+    "Polar region"
+   ],
+   "Sea turtles spend almost their whole lives in the ocean."
+  ],
+  [
+   "Where does a snowy owl live?",
+   "Polar region",
+   [
+    "Desert",
+    "Ocean",
+    "Forest"
+   ],
+   "Snowy owls nest on the Arctic tundra."
+  ],
+  [
+   "Where does a meerkat live?",
+   "Desert",
+   [
+    "Forest",
+    "Ocean",
+    "Polar region"
+   ],
+   "Meerkats live in the dry Kalahari Desert in southern Africa."
+  ],
+  [
+   "Where does a raccoon live?",
+   "Forest",
+   [
+    "Ocean",
+    "Desert",
+    "Polar region"
+   ],
+   "Raccoons live in forests near water, and also in towns."
+  ],
+  [
+   "Where does a dolphin live?",
+   "Ocean",
+   [
+    "Forest",
+    "Desert",
+    "Polar region"
+   ],
+   "Dolphins are mammals that live in the ocean."
+  ]
+ ],
+ "sciXsWaterE": [
+  [
+   "Which body of water is the largest?",
+   "An ocean",
+   [
+    "A pond",
+    "A stream",
+    "A puddle"
+   ],
+   "Oceans are the biggest bodies of water on Earth."
+  ],
+  [
+   "What is a lake?",
+   "A large body of water surrounded by land",
+   [
+    "A tiny stream of rain",
+    "Frozen water in clouds",
+    "Salt water between continents"
+   ],
+   "Lakes are large inland bodies of water, usually fresh."
+  ],
+  [
+   "What is a stream?",
+   "A small body of flowing water",
+   [
+    "A huge salty body of water",
+    "A frozen mountain of ice",
+    "A still pool of rain"
+   ],
+   "A stream is a small, narrow flow of water, smaller than a river."
+  ],
+  [
+   "Which ocean is on Canada's west coast?",
+   "The Pacific Ocean",
+   [
+    "The Atlantic Ocean",
+    "The Arctic Ocean",
+    "The Indian Ocean"
+   ],
+   "British Columbia faces the Pacific Ocean."
+  ],
+  [
+   "Which ocean is on Canada's east coast?",
+   "The Atlantic Ocean",
+   [
+    "The Pacific Ocean",
+    "The Indian Ocean",
+    "The Southern Ocean"
+   ],
+   "Nova Scotia and Newfoundland face the Atlantic Ocean."
+  ],
+  [
+   "Which ocean is north of Canada?",
+   "The Arctic Ocean",
+   [
+    "The Pacific Ocean",
+    "The Atlantic Ocean",
+    "The Indian Ocean"
+   ],
+   "Canada's northern coast borders the Arctic Ocean."
+  ],
+  [
+   "What are the Great Lakes?",
+   "Five large freshwater lakes in Ontario and the United States",
+   [
+    "Five salty oceans",
+    "Five big glaciers",
+    "Five underground rivers"
+   ],
+   "The Great Lakes are among the largest freshwater lakes in the world."
+  ],
+  [
+   "Which of these is salt water?",
+   "The Pacific Ocean",
+   [
+    "Lake Superior",
+    "The Bow River",
+    "A rain puddle"
+   ],
+   "Ocean water is salty; lakes, rivers and rain are fresh."
+  ],
+  [
+   "Which of these is fresh water?",
+   "A river",
+   [
+    "The Arctic Ocean",
+    "The Atlantic Ocean",
+    "Hudson Bay"
+   ],
+   "Rivers carry fresh water; oceans and bays connected to them are salty."
+  ],
+  [
+   "Where does a river usually end?",
+   "In a lake or an ocean",
+   [
+    "On top of a mountain",
+    "In a cloud",
+    "Inside a glacier"
+   ],
+   "Rivers flow downhill until they reach a larger body of water."
+  ],
+  [
+   "Where can fresh water be found underground?",
+   "Groundwater in soil and rock",
+   [
+    "In lava",
+    "In the ocean floor only",
+    "In sand dunes only"
+   ],
+   "Rain soaks into the ground and fills spaces in soil and rock."
+  ],
+  [
+   "What is an iceberg?",
+   "A large chunk of ice floating in the ocean",
+   [
+    "A salty lake",
+    "A sandy island",
+    "A cloud near the ground"
+   ],
+   "Icebergs break off glaciers and float in the sea."
+  ],
+  [
+   "Is the water in an iceberg salty or fresh?",
+   "Fresh",
+   [
+    "Salty",
+    "Half lava",
+    "Muddy and salty"
+   ],
+   "Icebergs come from glaciers, which form from snow, so their ice is fresh water."
+  ],
+  [
+   "Why is it important to keep lakes and rivers clean?",
+   "People and animals need fresh water to drink",
+   [
+    "Clean water makes the ocean saltier",
+    "Dirty water turns into ice faster",
+    "Fish only live in dirty water"
+   ],
+   "Only a small amount of Earth's water is fresh and drinkable, so we must protect it."
+  ],
+  [
+   "Which takes up more of Earth's surface?",
+   "Water",
+   [
+    "Land",
+    "Ice cream",
+    "Sand dunes"
+   ],
+   "About 70 per cent of Earth's surface is covered by water."
+  ],
+  [
+   "What is a waterfall?",
+   "Water flowing over a steep drop",
+   [
+    "A pile of ice",
+    "A salty lake",
+    "A pond with no water"
+   ],
+   "A waterfall forms where a river drops over a cliff or ledge, like Niagara Falls."
+  ],
+  [
+   "What is a bay?",
+   "Part of a sea or lake that curves into the land",
+   [
+    "A mountain made of ice",
+    "A deep hole in a desert",
+    "A river that flows uphill"
+   ],
+   "A bay is a body of water partly surrounded by land, like Hudson Bay."
+  ],
+  [
+   "Where is a glacier usually found?",
+   "High in mountains or near the poles",
+   [
+    "In hot deserts",
+    "At the bottom of ponds",
+    "In tropical rainforests"
+   ],
+   "Glaciers form where it is cold enough for snow to pile up year after year."
+  ],
+  [
+   "What is a wetland?",
+   "Land that is soaked with water much of the year",
+   [
+    "Dry sand with no plants",
+    "A frozen ocean",
+    "A mountain top"
+   ],
+   "Marshes, swamps and bogs are wetlands with wet, soggy ground."
+  ],
+  [
+   "Which body of water is the smallest?",
+   "A puddle",
+   [
+    "A lake",
+    "An ocean",
+    "A river"
+   ],
+   "A puddle is a tiny pool of water that often dries up."
+  ],
+  [
+   "Which water could you most safely drink after it is cleaned at a treatment plant?",
+   "Lake water",
+   [
+    "Ocean water",
+    "Sea water from a beach",
+    "Water from a salty bay"
+   ],
+   "Lake water is fresh, so it can be treated for drinking; salt water needs special removal of salt."
+  ],
+  [
+   "What is the water vapour in the air made of?",
+   "Water in the form of a gas",
+   [
+    "Tiny grains of salt",
+    "Melted rock",
+    "Tiny bits of sand"
+   ],
+   "Water vapour is water that has evaporated and become an invisible gas."
+  ]
+ ],
+ "sciXsLandF": [
+  [
+   "A high, flat area of land with steep sides is a…",
+   "plateau",
+   [
+    "valley",
+    "island",
+    "canyon"
+   ],
+   "A plateau is raised land with a flat top."
+  ],
+  [
+   "Land that sticks out into water and is surrounded by water on three sides is a…",
+   "peninsula",
+   [
+    "island",
+    "plain",
+    "valley"
+   ],
+   "Nova Scotia is mostly a peninsula, joined to the mainland on one side."
+  ],
+  [
+   "A rounded landform that is lower than a mountain is a…",
+   "hill",
+   [
+    "canyon",
+    "plain",
+    "valley"
+   ],
+   "Hills rise above the land around them but are smaller than mountains."
+  ],
+  [
+   "A long line of connected mountains is a…",
+   "mountain range",
+   [
+    "plain",
+    "peninsula",
+    "bay"
+   ],
+   "The Rocky Mountains are a mountain range in western Canada."
+  ],
+  [
+   "A mountain that can erupt with lava is a…",
+   "volcano",
+   [
+    "plateau",
+    "plain",
+    "peninsula"
+   ],
+   "Volcanoes are openings in Earth's crust where lava and ash come out."
+  ],
+  [
+   "A dry area that gets very little rain is a…",
+   "desert",
+   [
+    "wetland",
+    "valley",
+    "lake"
+   ],
+   "Deserts receive very little rainfall each year."
+  ],
+  [
+   "Wide, flat grassy land in central Canada is called the…",
+   "prairies",
+   [
+    "mountains",
+    "canyons",
+    "glaciers"
+   ],
+   "The prairies of Alberta, Saskatchewan and Manitoba are flat plains."
+  ],
+  [
+   "A narrow strip of land that connects two larger pieces of land is an…",
+   "isthmus",
+   [
+    "island",
+    "plateau",
+    "canyon"
+   ],
+   "An isthmus joins two larger land areas, like the one joining Nova Scotia to New Brunswick."
+  ],
+  [
+   "The flat, sandy land where an ocean meets the shore is a…",
+   "beach",
+   [
+    "canyon",
+    "plateau",
+    "mountain"
+   ],
+   "Beaches are made of sand or pebbles along the water's edge."
+  ],
+  [
+   "A large hole or opening under the ground in rock is a…",
+   "cave",
+   [
+    "peninsula",
+    "plain",
+    "hill"
+   ],
+   "Caves are hollow spaces in rock, often carved by water."
+  ],
+  [
+   "A steep, high wall of rock, often by the sea, is a…",
+   "cliff",
+   [
+    "plain",
+    "valley",
+    "bay"
+   ],
+   "A cliff is a steep rock face."
+  ],
+  [
+   "Which landform is Prince Edward Island?",
+   "island",
+   [
+    "peninsula",
+    "mountain",
+    "canyon"
+   ],
+   "Prince Edward Island is surrounded by water on all sides."
+  ],
+  [
+   "Which landform are the Rocky Mountains?",
+   "mountain range",
+   [
+    "plain",
+    "plateau",
+    "island"
+   ],
+   "The Rockies are a long chain of tall mountains."
+  ],
+  [
+   "Which landform has the highest point?",
+   "mountain",
+   [
+    "hill",
+    "plain",
+    "valley"
+   ],
+   "Mountains rise much higher than hills."
+  ],
+  [
+   "Which landform is the lowest between two mountains?",
+   "valley",
+   [
+    "peak",
+    "plateau",
+    "hill"
+   ],
+   "Valleys are low areas between higher land."
+  ],
+  [
+   "Which landform is best for growing big fields of wheat?",
+   "plain",
+   [
+    "mountain",
+    "canyon",
+    "cliff"
+   ],
+   "Flat plains make it easy to plant and harvest large fields."
+  ],
+  [
+   "Where land meets the ocean is called the…",
+   "coast",
+   [
+    "plateau",
+    "canyon",
+    "peak"
+   ],
+   "The coast is the edge of the land beside the sea."
+  ],
+  [
+   "A hill of sand piled up by the wind is a…",
+   "sand dune",
+   [
+    "glacier",
+    "plateau",
+    "canyon"
+   ],
+   "Wind blows sand into mounds called dunes."
+  ],
+  [
+   "The top point of a mountain is its…",
+   "peak",
+   [
+    "valley",
+    "base",
+    "canyon"
+   ],
+   "The peak or summit is the highest point of a mountain."
+  ],
+  [
+   "A deep, narrow valley with steep rock walls is a…",
+   "canyon",
+   [
+    "plain",
+    "hill",
+    "island"
+   ],
+   "Canyons are steep-sided valleys, often carved by rivers."
+  ],
+  [
+   "A group of islands close together is called an…",
+   "archipelago",
+   [
+    "isthmus",
+    "plateau",
+    "canyon"
+   ],
+   "The Arctic Archipelago in northern Canada is a large group of islands."
+  ],
+  [
+   "Which landform is most like a table with a flat top?",
+   "plateau",
+   [
+    "peak",
+    "valley",
+    "canyon"
+   ],
+   "A plateau is high land with a flat top, like a tabletop."
+  ]
+ ],
+ "sciXsChES": [
+  [
+   "Which is a FAST change to Earth's surface?",
+   "A rockslide blocks a road",
+   [
+    "A river slowly carves a canyon",
+    "Wind wears down a rock",
+    "A glacier creeps down a valley"
+   ],
+   "A rockslide happens in seconds to minutes."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "Rain slowly wears away a statue",
+   [
+    "An earthquake cracks a road",
+    "A volcano erupts",
+    "A mudslide covers a field"
+   ],
+   "Weathering by rain takes many years."
+  ],
+  [
+   "Which is a FAST change to Earth's surface?",
+   "A flood washes away a riverbank",
+   [
+    "Waves shape a beach over years",
+    "Roots slowly crack a rock",
+    "A mountain wears down over millions of years"
+   ],
+   "A flood can change land in hours or days."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "A mountain wears down over millions of years",
+   [
+    "A landslide slides down a hill",
+    "An earthquake shakes the ground",
+    "A volcano erupts"
+   ],
+   "Weathering and erosion of mountains takes millions of years."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "Tree roots slowly crack a rock",
+   [
+    "A mudslide after heavy rain",
+    "A sinkhole suddenly opens",
+    "A volcano erupts"
+   ],
+   "Roots grow a little at a time, splitting rock over many years."
+  ],
+  [
+   "Which is a FAST change to Earth's surface?",
+   "A sinkhole suddenly opens in a street",
+   [
+    "Wind shapes sand dunes over years",
+    "A glacier moves",
+    "A river carves a valley"
+   ],
+   "A sinkhole can collapse in minutes."
+  ],
+  [
+   "Which is a FAST change to Earth's surface?",
+   "A mudslide after a heavy storm",
+   [
+    "Ice slowly cracks rocks each winter",
+    "Waves wear down a cliff over decades",
+    "Wind wears down a rock"
+   ],
+   "Mudslides rush down slopes in minutes."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "A glacier carves a U-shaped valley",
+   [
+    "An avalanche of rock",
+    "An earthquake",
+    "A flash flood"
+   ],
+   "Glaciers move only a little each day and shape valleys over thousands of years."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "Waves wear down a sea cliff over many years",
+   [
+    "A cliff edge suddenly collapses in a storm",
+    "A volcano erupts",
+    "An earthquake lifts the ground"
+   ],
+   "Wave erosion wears rock away little by little."
+  ],
+  [
+   "Which is a FAST change to Earth's surface?",
+   "An earthquake lifts part of the ground",
+   [
+    "A river slowly widens",
+    "Wind wears down a rock",
+    "Sand slowly builds a dune"
+   ],
+   "Earthquakes change the land in seconds."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "A river builds a delta at its mouth",
+   [
+    "A tsunami floods a coast",
+    "A landslide",
+    "A volcano erupts"
+   ],
+   "Deltas grow as sediment builds up over many years."
+  ],
+  [
+   "Which is a FAST change to Earth's surface?",
+   "A tsunami floods a coast",
+   [
+    "A glacier moves",
+    "Wind shapes a rock arch",
+    "Rain slowly wears down a hill"
+   ],
+   "A tsunami strikes a coast within minutes."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "Wind shapes a rock into an arch",
+   [
+    "A rockslide",
+    "A flash flood",
+    "An avalanche of mud"
+   ],
+   "Wind and weathering carve arches over thousands of years."
+  ],
+  [
+   "Which is a FAST change to Earth's surface?",
+   "Lava from an eruption covers a field",
+   [
+    "A glacier creeps",
+    "Rivers carve canyons",
+    "Mountains slowly wear down"
+   ],
+   "A volcanic eruption can cover land with lava in hours."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "Ice in cracks slowly breaks rocks apart",
+   [
+    "A volcano erupts",
+    "A landslide",
+    "A sinkhole opens"
+   ],
+   "Freezing and thawing over many winters gradually splits rock."
+  ],
+  [
+   "Which is a FAST change to Earth's surface?",
+   "A snow avalanche drags rocks down a mountain",
+   [
+    "A river smooths stones",
+    "Wind wears down a rock",
+    "A glacier melts back over centuries"
+   ],
+   "Avalanches race down slopes in minutes."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "A river smooths stones in its bed",
+   [
+    "A flash flood",
+    "An earthquake",
+    "A rockslide"
+   ],
+   "Water tumbles stones for years to make them smooth."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "Sand slowly builds up into a dune",
+   [
+    "A mudslide",
+    "A tsunami",
+    "An eruption"
+   ],
+   "Wind piles up sand grain by grain over a long time."
+  ],
+  [
+   "Which is a FAST change to Earth's surface?",
+   "A river bank collapses during a storm",
+   [
+    "A canyon deepens over thousands of years",
+    "A glacier moves",
+    "A cave slowly forms in rock"
+   ],
+   "A bank can give way in moments when water rushes against it."
+  ],
+  [
+   "Which is a SLOW change to Earth's surface?",
+   "Water slowly dissolves rock to form a cave",
+   [
+    "An earthquake",
+    "A landslide",
+    "A volcano erupts"
+   ],
+   "Caves form as water dissolves rock over thousands of years."
+  ],
+  [
+   "Which takes the longest time?",
+   "A river carving the Grand Canyon",
+   [
+    "A landslide",
+    "An earthquake",
+    "A flash flood"
+   ],
+   "The Grand Canyon took millions of years to form."
+  ],
+  [
+   "Which happens the fastest?",
+   "An earthquake",
+   [
+    "A glacier carving a valley",
+    "Wind shaping a dune",
+    "Waves wearing down a cliff"
+   ],
+   "Earthquakes last only seconds to minutes."
+  ]
+ ],
+ "sciXsEvChE": [
+  [
+   "A pile of broken rock lies at the bottom of a steep cliff. What probably happened?",
+   "Rocks fell from the cliff in a rockslide",
+   [
+    "A volcano erupted",
+    "A glacier melted",
+    "It snowed"
+   ],
+   "Loose rock at a cliff's base is evidence that pieces broke off and fell."
+  ],
+  [
+   "A fence on a hillside is tilted and the ground below it has slid downhill. What is this evidence of?",
+   "A landslide",
+   [
+    "A rainbow",
+    "A tsunami far away",
+    "Photosynthesis"
+   ],
+   "Ground that has moved downhill shows a landslide."
+  ],
+  [
+   "A delta of mud and sand has grown at the mouth of a river. What caused it?",
+   "The river dropped sediment it carried",
+   [
+    "Wind blew sand uphill",
+    "A volcano erupted",
+    "An earthquake shook the ground"
+   ],
+   "Rivers slow down where they meet a lake or sea and drop their sediment."
+  ],
+  [
+   "Large boulders sit alone in a flat field far from any mountain. What probably carried them there?",
+   "A glacier long ago",
+   [
+    "Wind",
+    "Rain",
+    "A small stream"
+   ],
+   "Glaciers carry huge boulders and leave them behind when they melt."
+  ],
+  [
+   "A rock has deep cracks with plant roots growing in them. What is this evidence of?",
+   "Weathering by plant roots",
+   [
+    "A volcano erupting",
+    "Melting glaciers",
+    "A tsunami"
+   ],
+   "Growing roots push into cracks and split rock apart."
+  ],
+  [
+   "A rock in the desert has a smooth, sandblasted look. What shaped it?",
+   "Wind carrying sand",
+   [
+    "Lava",
+    "An earthquake",
+    "Moving glaciers"
+   ],
+   "Wind-blown sand wears rock surfaces smooth."
+  ],
+  [
+   "Rock layers on a cliff are bent and folded. What is this evidence of?",
+   "Strong forces pushed the rock over time",
+   [
+    "Rain fell on it yesterday",
+    "Wind blew on it once",
+    "Animals dug in it"
+   ],
+   "Folded rock layers show that Earth's crust was squeezed over a long time."
+  ],
+  [
+   "A coastal town finds its beach covered in seaweed, logs and new sand after a giant wave. What happened?",
+   "A tsunami or storm surge hit the coast",
+   [
+    "A glacier formed",
+    "A drought dried the sea",
+    "A volcano grew on the beach"
+   ],
+   "Debris pushed far inland is evidence of a huge wave."
+  ],
+  [
+   "A stream bank is cut back and tree roots are hanging in the air. What is this evidence of?",
+   "Water eroding the bank",
+   [
+    "A volcano",
+    "Frost in summer",
+    "An earthquake far away"
+   ],
+   "Flowing water has carried away the soil that once covered the roots."
+  ],
+  [
+   "Seashell fossils are found high on a mountain. What does this show?",
+   "The rock was once under the sea",
+   [
+    "Birds carried the sea up there",
+    "Shells grow on mountains",
+    "It rained shells"
+   ],
+   "Shell fossils show the rock formed underwater and was later pushed up."
+  ],
+  [
+   "A curved hollow in a rocky cliff by the sea gets bigger every year. What is causing it?",
+   "Waves wearing away the rock",
+   [
+    "Lava cooling",
+    "Glaciers forming",
+    "Sunlight melting the rock"
+   ],
+   "Pounding waves erode cliffs, making caves and hollows."
+  ],
+  [
+   "A crack runs across a field and the two sides no longer line up. What is this evidence of?",
+   "Movement along a fault during an earthquake",
+   [
+    "Water freezing in a puddle",
+    "Rain soaking the soil",
+    "A tree growing"
+   ],
+   "A fault is a crack where the ground has shifted during earthquakes."
+  ],
+  [
+   "A layer of grey ash covers the ground and cars for many kilometres. What happened?",
+   "A volcano erupted",
+   [
+    "A flood came",
+    "A glacier melted",
+    "Leaves fell in autumn"
+   ],
+   "Volcanic ash can spread far from an erupting volcano."
+  ],
+  [
+   "A river has a wide valley with gentle slopes and many bends. What made the valley?",
+   "The river eroding it over a long time",
+   [
+    "A single storm last week",
+    "A volcano",
+    "An earthquake yesterday"
+   ],
+   "Rivers slowly widen and shape their valleys over thousands of years."
+  ],
+  [
+   "Long ridges of mixed sand and gravel lie across parts of Canada. What left them?",
+   "Melting glaciers",
+   [
+    "Ocean waves",
+    "Volcanoes",
+    "Wind on a single day"
+   ],
+   "Glaciers dropped sand and gravel as they melted, forming ridges."
+  ],
+  [
+   "Tree trunks on a slope are curved at the bottom. What is this evidence of?",
+   "The soil slowly creeping downhill",
+   [
+    "A fast volcano eruption",
+    "A tsunami",
+    "A drought"
+   ],
+   "Trees bend upward as the slowly sliding soil tilts their bases."
+  ],
+  [
+   "What evidence would show that wind is moving sand across a beach?",
+   "Ripples in the sand and sand piled against fences",
+   [
+    "Fresh lava",
+    "Cracks from an earthquake",
+    "Fish on the sand"
+   ],
+   "Wind leaves ripples and drifts of sand behind objects."
+  ],
+  [
+   "Water in a river turns brown and muddy after a storm. What is this evidence of?",
+   "Soil being eroded and carried by the river",
+   [
+    "A volcano erupting underwater",
+    "The river freezing",
+    "Plants growing faster"
+   ],
+   "Muddy water carries soil that has been washed away."
+  ],
+  [
+   "A rock arch stands in a desert. What is it evidence of?",
+   "Weathering and erosion wearing away weaker rock",
+   [
+    "A recent earthquake building it",
+    "People carving it",
+    "A glacier freezing it"
+   ],
+   "Arches form when softer rock is worn away and harder rock remains."
+  ],
+  [
+   "A lake in Canada has a shape that was gouged into the rock. What carved many lakes like this?",
+   "Glaciers",
+   [
+    "Volcanoes",
+    "Wind",
+    "Earthquakes"
+   ],
+   "Ice-age glaciers scraped out basins that filled with water."
+  ],
+  [
+   "A town measures a beach each year. It gets 1 m narrower every year. What is this evidence of?",
+   "Ongoing erosion by waves",
+   [
+    "A sudden landslide",
+    "A volcano",
+    "Glaciers forming"
+   ],
+   "Steady loss of beach over years shows slow wave erosion."
+  ],
+  [
+   "Steam vents and hot springs are found in an area. What could this be evidence of?",
+   "Hot magma underground nearby",
+   [
+    "A glacier",
+    "A drought",
+    "A sand dune"
+   ],
+   "Hot springs and steam vents are heated by magma below the surface."
+  ]
+ ],
+ "sciXsQuake": [
+  [
+   "What is the place on Earth's surface right above where an earthquake starts called?",
+   "The epicentre",
+   [
+    "The crater",
+    "The summit",
+    "The delta"
+   ],
+   "The epicentre is the point on the surface directly above the earthquake's starting point."
+  ],
+  [
+   "What tool do scientists use to measure earthquakes?",
+   "A seismograph",
+   [
+    "A thermometer",
+    "A barometer",
+    "A telescope"
+   ],
+   "A seismograph records the shaking of the ground."
+  ],
+  [
+   "What is a crack in Earth's crust where rocks move during earthquakes called?",
+   "A fault",
+   [
+    "A canyon",
+    "A delta",
+    "A dune"
+   ],
+   "Faults are breaks in rock where earthquakes happen."
+  ],
+  [
+   "What are the large moving pieces of Earth's crust called?",
+   "Tectonic plates",
+   [
+    "Glaciers",
+    "Fault lines of ice",
+    "Lava rivers"
+   ],
+   "Earth's crust is broken into huge plates that slowly move."
+  ],
+  [
+   "Why does British Columbia have many earthquakes?",
+   "It sits where tectonic plates meet",
+   [
+    "It has many lakes",
+    "It has tall trees",
+    "It is near the North Pole"
+   ],
+   "Plates grinding past or under each other near the BC coast cause earthquakes."
+  ],
+  [
+   "What can strong shaking do to buildings?",
+   "Crack walls or make them collapse",
+   [
+    "Make them taller",
+    "Paint them",
+    "Make them waterproof"
+   ],
+   "Strong earthquakes can damage or knock down buildings."
+  ],
+  [
+   "How can an earthquake cause a landslide?",
+   "Shaking loosens soil and rock on slopes",
+   [
+    "It makes the hill grow",
+    "It freezes the hill",
+    "It fills the hill with water"
+   ],
+   "Shaking can make loose ground on hills slide down."
+  ],
+  [
+   "What should you do during an earthquake if you are outside?",
+   "Move to an open area away from buildings and power lines",
+   [
+    "Run inside a tall building",
+    "Stand under a power line",
+    "Climb a tree"
+   ],
+   "Open areas keep you away from falling objects."
+  ],
+  [
+   "Where should you take cover indoors during an earthquake?",
+   "Under a sturdy table or desk",
+   [
+    "Next to a window",
+    "On top of a bookshelf",
+    "In a doorway with glass"
+   ],
+   "A sturdy table protects you from falling objects."
+  ],
+  [
+   "What are the smaller earthquakes that come after a big earthquake called?",
+   "Aftershocks",
+   [
+    "Pre-quakes",
+    "Tsunamis",
+    "Eruptions"
+   ],
+   "Aftershocks happen as rocks settle after the main quake."
+  ],
+  [
+   "How fast does an earthquake usually change the land?",
+   "In seconds to minutes",
+   [
+    "Over millions of years",
+    "Over hundreds of years",
+    "Over one whole season"
+   ],
+   "Earthquakes are sudden, fast changes to Earth's surface."
+  ],
+  [
+   "What can an earthquake do to a road?",
+   "Crack and split it",
+   [
+    "Make it smoother",
+    "Make it longer",
+    "Paint new lines"
+   ],
+   "The ground can break and shift under a road."
+  ],
+  [
+   "Which is a way to make buildings safer in earthquakes?",
+   "Build them with flexible frames that can sway",
+   [
+    "Build them with loose bricks",
+    "Use glass walls only",
+    "Stack heavy items on the roof"
+   ],
+   "Flexible designs absorb shaking instead of breaking."
+  ],
+  [
+   "An earthquake happens under the Pacific Ocean near the coast. What should people on the beach do?",
+   "Move to higher ground in case of a tsunami",
+   [
+    "Swim out to sea",
+    "Stay on the beach to watch",
+    "Dig a hole in the sand"
+   ],
+   "A tsunami can follow an undersea quake, so people should head to high ground."
+  ],
+  [
+   "What is it called when the ground suddenly shakes because rocks underground slip?",
+   "An earthquake",
+   [
+    "A volcano",
+    "A flood",
+    "A glacier"
+   ],
+   "An earthquake is shaking caused by rocks suddenly moving."
+  ],
+  [
+   "Why are earthquakes rare in central Ontario compared to the BC coast?",
+   "Central Ontario is far from plate boundaries",
+   [
+    "Ontario has no rocks",
+    "Ontario is too cold",
+    "Ontario has too many lakes"
+   ],
+   "Most earthquakes happen near the edges of tectonic plates."
+  ],
+  [
+   "What can earthquakes do to rivers?",
+   "Change their path or block them with landslides",
+   [
+    "Turn them into glaciers",
+    "Make them salty",
+    "Make them flow uphill forever"
+   ],
+   "Shifting ground and landslides can block or move rivers."
+  ],
+  [
+   "Which word describes the shaking felt during an earthquake?",
+   "Vibrations",
+   [
+    "Evaporation",
+    "Pollination",
+    "Erosion"
+   ],
+   "Earthquake energy travels through the ground as vibrations, or seismic waves."
+  ],
+  [
+   "What do scientists call the energy waves that travel through the ground during an earthquake?",
+   "Seismic waves",
+   [
+    "Sound bubbles",
+    "Light rays",
+    "Ocean currents"
+   ],
+   "Seismic waves carry earthquake energy through rock."
+  ],
+  [
+   "What can an earthquake do to the height of land?",
+   "Lift some land up or drop it down",
+   [
+    "Only make it hotter",
+    "Only add snow",
+    "Only grow grass on it"
+   ],
+   "Movement along faults can raise or lower the ground."
+  ],
+  [
+   "What should a family have ready in case of an earthquake?",
+   "An emergency kit with water, food and a flashlight",
+   [
+    "A kite",
+    "A sled",
+    "A beach umbrella"
+   ],
+   "An emergency kit helps a family until help arrives."
+  ],
+  [
+   "What happens to the shaking farther away from an earthquake's epicentre?",
+   "It usually gets weaker",
+   [
+    "It always gets stronger",
+    "It turns into lava",
+    "It becomes a flood"
+   ],
+   "Seismic waves lose energy as they travel away from the epicentre."
+  ]
+ ],
+ "sciXsVolc": [
+  [
+   "What is the opening at the top of a volcano called?",
+   "A crater",
+   [
+    "A fault",
+    "A delta",
+    "A valley"
+   ],
+   "The crater is the bowl-shaped opening where material erupts."
+  ],
+  [
+   "What is the hot liquid rock inside a volcano called before it erupts?",
+   "Magma",
+   [
+    "Lava",
+    "Ash",
+    "Sand"
+   ],
+   "Melted rock below the surface is called magma."
+  ],
+  [
+   "What is a volcano that has not erupted in a very long time and is not expected to erupt again called?",
+   "Extinct",
+   [
+    "Active",
+    "Erupting",
+    "Steaming"
+   ],
+   "Extinct volcanoes are not expected to erupt again."
+  ],
+  [
+   "What is a volcano that is erupting or could erupt soon called?",
+   "Active",
+   [
+    "Extinct",
+    "Frozen",
+    "Flat"
+   ],
+   "Active volcanoes have erupted recently or show signs of erupting."
+  ],
+  [
+   "What kind of rock forms when lava cools?",
+   "Igneous rock",
+   [
+    "Sedimentary rock only",
+    "Sandstone",
+    "Limestone"
+   ],
+   "Igneous rocks form from cooled magma or lava."
+  ],
+  [
+   "Which rock forms from lava that cooled very fast, making it glassy?",
+   "Obsidian",
+   [
+    "Sandstone",
+    "Marble",
+    "Chalk"
+   ],
+   "Obsidian is volcanic glass that cools too quickly for crystals to form."
+  ],
+  [
+   "Which light, holey rock can float on water and comes from volcanoes?",
+   "Pumice",
+   [
+    "Granite",
+    "Marble",
+    "Coal"
+   ],
+   "Pumice is full of gas bubbles, so it is light enough to float."
+  ],
+  [
+   "What can happen when volcanic ash rises high into the sky?",
+   "Airplanes may have to stop flying",
+   [
+    "It makes rainbows every day",
+    "It turns into snow",
+    "It cleans the air"
+   ],
+   "Ash can damage airplane engines."
+  ],
+  [
+   "How can a volcano cause a mudflow?",
+   "Heat melts snow and ice, mixing with ash and soil",
+   [
+    "Lava freezes into mud",
+    "Wind blows sand into lakes",
+    "Earthquakes make rain"
+   ],
+   "Melting snow on a volcano can mix with ash to make fast mudflows."
+  ],
+  [
+   "Where do many volcanoes form?",
+   "Where tectonic plates meet",
+   [
+    "In the middle of deserts only",
+    "Under every lake",
+    "At the North Pole only"
+   ],
+   "Most volcanoes are found along plate boundaries."
+  ],
+  [
+   "What is the 'Ring of Fire'?",
+   "A ring of volcanoes and earthquakes around the Pacific Ocean",
+   [
+    "A ring of forest fires",
+    "A circle of deserts",
+    "A ring of hot springs in Ontario"
+   ],
+   "Many active volcanoes surround the Pacific Ocean."
+  ],
+  [
+   "How do volcanic soils help farmers?",
+   "They are rich in minerals that help plants grow",
+   [
+    "They are too hot to use",
+    "They stop all plant growth",
+    "They are made of salt"
+   ],
+   "Weathered volcanic rock makes very fertile soil."
+  ],
+  [
+   "How can a volcano make a new island?",
+   "Lava builds up on the ocean floor until it rises above the water",
+   [
+    "Waves pile up sand",
+    "Ice freezes into land",
+    "Coral turns into lava"
+   ],
+   "Repeated underwater eruptions can pile up rock until an island forms."
+  ],
+  [
+   "What is the shape of many volcanoes?",
+   "A cone or mountain",
+   [
+    "A deep valley",
+    "A flat plain",
+    "A narrow canyon"
+   ],
+   "Layers of lava and ash pile into cone-shaped mountains."
+  ],
+  [
+   "Why do people live near volcanoes even though they can be dangerous?",
+   "The soil is good for farming",
+   [
+    "Volcanoes keep away rain",
+    "Volcanoes make the air cooler",
+    "There is no danger at all"
+   ],
+   "Fertile volcanic soil attracts farmers."
+  ],
+  [
+   "What do scientists who study volcanoes measure to predict eruptions?",
+   "Earthquakes, gases and swelling of the ground",
+   [
+    "The colour of the sky only",
+    "The number of birds",
+    "How many trees grow"
+   ],
+   "Changes in shaking, gases and ground shape can warn of an eruption."
+  ],
+  [
+   "What is a scientist who studies volcanoes called?",
+   "A volcanologist",
+   [
+    "A botanist",
+    "An astronomer",
+    "A zoologist"
+   ],
+   "Volcanologists study how volcanoes work."
+  ],
+  [
+   "What happens to plants and buildings in the path of a lava flow?",
+   "They are burned or buried",
+   [
+    "They grow faster",
+    "They turn into ice",
+    "They float away safely"
+   ],
+   "Lava is extremely hot and destroys what it covers."
+  ],
+  [
+   "Which is a fast change caused by a volcano?",
+   "A lava flow covering a road",
+   [
+    "A river carving a canyon",
+    "Wind shaping dunes",
+    "Waves wearing a cliff"
+   ],
+   "An eruption can cover land in hours."
+  ],
+  [
+   "What is an underwater opening that releases hot water and minerals called?",
+   "A hydrothermal vent",
+   [
+    "A glacier",
+    "A sand bar",
+    "A delta"
+   ],
+   "Hydrothermal vents form over magma on the ocean floor."
+  ],
+  [
+   "What makes a volcano erupt?",
+   "Pressure from magma and gases pushes up",
+   [
+    "Too much rain",
+    "Strong wind",
+    "Cold weather"
+   ],
+   "Gas-filled magma builds pressure until it bursts out."
+  ],
+  [
+   "What can lava do when it flows into the ocean?",
+   "Cool and harden into new land",
+   [
+    "Turn into sugar",
+    "Make the ocean freeze",
+    "Disappear forever"
+   ],
+   "Lava cools quickly in water and adds new rock to the shore."
+  ]
+ ],
+ "sciXsEros": [
+  [
+   "What is the difference between weathering and erosion?",
+   "Weathering breaks rock; erosion carries pieces away",
+   [
+    "They are exactly the same",
+    "Erosion only happens in deserts",
+    "Weathering only happens underwater"
+   ],
+   "Weathering breaks rock into pieces, and erosion moves those pieces."
+  ],
+  [
+   "Which can cause erosion in cold places?",
+   "Moving glaciers",
+   [
+    "Lava",
+    "Sunlight alone",
+    "Moonlight"
+   ],
+   "Glaciers scrape and carry rock as they move."
+  ],
+  [
+   "What happens to the soil that is carried away by erosion?",
+   "It is dropped somewhere else",
+   [
+    "It vanishes",
+    "It turns into water",
+    "It goes into space"
+   ],
+   "Eroded soil is deposited in a new place, like a river mouth."
+  ],
+  [
+   "What is it called when eroded sand and soil are dropped in a new place?",
+   "Deposition",
+   [
+    "Evaporation",
+    "Pollination",
+    "Germination"
+   ],
+   "Deposition is the dropping of sediment carried by water, wind or ice."
+  ],
+  [
+   "Why does more erosion happen on a steep hill than a flat field?",
+   "Water flows faster down steep slopes",
+   [
+    "Steep hills have no soil",
+    "Flat fields have more rain",
+    "Steep hills are colder"
+   ],
+   "Fast-moving water carries away more soil."
+  ],
+  [
+   "Why do bare fields erode more than fields with plants?",
+   "No roots hold the soil in place",
+   [
+    "Bare soil is heavier",
+    "Plants attract more wind",
+    "Plants make more rain"
+   ],
+   "Plant roots bind soil together and protect it."
+  ],
+  [
+   "What does a river carry that causes erosion?",
+   "Sand, pebbles and soil",
+   [
+    "Clouds",
+    "Light",
+    "Air bubbles only"
+   ],
+   "Sediment in the water scrapes the riverbed and banks."
+  ],
+  [
+   "Which landform is made mostly by erosion?",
+   "A canyon",
+   [
+    "A volcano",
+    "A sand dune built by deposition",
+    "A delta"
+   ],
+   "Rivers wear away rock to form canyons."
+  ],
+  [
+   "How can waves erode a coastline?",
+   "They pound rocks and carry away sand",
+   [
+    "They add lava",
+    "They make it hotter",
+    "They freeze the beach"
+   ],
+   "Wave action breaks and moves material along shores."
+  ],
+  [
+   "How do people sometimes cause erosion?",
+   "By cutting down forests",
+   [
+    "By planting trees",
+    "By building windbreaks",
+    "By putting mulch on gardens"
+   ],
+   "Removing trees leaves soil unprotected."
+  ],
+  [
+   "What can happen if a lot of soil erodes from farmland?",
+   "Crops grow poorly",
+   [
+    "Crops grow faster",
+    "The soil gets richer",
+    "Farmers need less water"
+   ],
+   "The rich top layer of soil is lost, so crops struggle."
+  ],
+  [
+   "Which is evidence of wind erosion?",
+   "A rock with a smooth, carved shape in the desert",
+   [
+    "A crack from an earthquake",
+    "A fresh lava field",
+    "A puddle after rain"
+   ],
+   "Sand blown by wind carves desert rocks."
+  ],
+  [
+   "How does ice cause weathering that leads to erosion?",
+   "Water freezes in cracks, expands and splits rock",
+   [
+    "Ice makes rocks melt",
+    "Ice glues rocks together",
+    "Ice paints rocks"
+   ],
+   "Freezing water expands, breaking rock into pieces that can be eroded."
+  ],
+  [
+   "Which force pulls loose rocks and soil downhill?",
+   "Gravity",
+   [
+    "Magnetism",
+    "Sunlight",
+    "Electricity"
+   ],
+   "Gravity causes rockfalls and landslides that move material downhill."
+  ],
+  [
+   "Why do rivers carry more sediment after heavy rain?",
+   "Faster, higher water can move more material",
+   [
+    "Rain makes rocks lighter",
+    "Rain stops erosion",
+    "Rain turns sand into water"
+   ],
+   "More, faster water has more energy to carry sediment."
+  ],
+  [
+   "How do sea walls help reduce erosion?",
+   "They block waves from hitting the shore",
+   [
+    "They make waves bigger",
+    "They melt sand",
+    "They add more water"
+   ],
+   "A wall absorbs or reflects wave energy before it reaches the land."
+  ],
+  [
+   "Which is a slow change caused by erosion?",
+   "A river widening its valley",
+   [
+    "An earthquake",
+    "A volcano erupting",
+    "A sinkhole opening suddenly"
+   ],
+   "River erosion works little by little over many years."
+  ],
+  [
+   "What happens to rocks as they tumble along a riverbed?",
+   "They become smaller and rounder",
+   [
+    "They become bigger",
+    "They turn into lava",
+    "They get sharper corners"
+   ],
+   "Rubbing against each other wears rocks smooth."
+  ],
+  [
+   "Which ground cover best prevents soil from washing away?",
+   "A thick layer of grass",
+   [
+    "Bare dirt",
+    "Loose sand",
+    "Dry gravel on a slope"
+   ],
+   "Grass roots and leaves protect and hold the soil."
+  ],
+  [
+   "Niagara Falls moves slowly backward up the river. Why?",
+   "Water erodes the rock at the edge of the falls",
+   [
+    "The falls are being pulled by magnets",
+    "Ice builds new rock there",
+    "People move it"
+   ],
+   "Falling water wears away the cliff, so the falls slowly move upstream."
+  ],
+  [
+   "What can strong winds do in a dry, bare field?",
+   "Blow away the topsoil",
+   [
+    "Add new soil",
+    "Make soil wetter",
+    "Grow new plants"
+   ],
+   "Wind lifts dry, loose soil and carries it off."
+  ],
+  [
+   "Which carries the largest rocks during erosion?",
+   "Glaciers",
+   [
+    "Gentle wind",
+    "Light rain",
+    "A small puddle"
+   ],
+   "Glaciers are strong enough to move huge boulders."
+  ]
+ ],
+ "sciSurfCh": [
+  [
+   "Which is a fast change to Earth's surface?",
+   "A mudslide covers a road",
+   [
+    "A canyon slowly deepens",
+    "A glacier creeps down a valley",
+    "Wind wears down a rock"
+   ],
+   "Mudslides happen in minutes."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "Rain wears down a mountain",
+   [
+    "An earthquake splits the ground",
+    "A volcano erupts",
+    "A rockslide"
+   ],
+   "Weathering mountains takes millions of years."
+  ],
+  [
+   "Which is a fast change to Earth's surface?",
+   "A tsunami washes away a beach",
+   [
+    "Waves slowly shape a beach",
+    "Roots crack a rock",
+    "A river builds a delta"
+   ],
+   "A tsunami changes the coast within minutes."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "Ice slowly breaks rocks apart over many winters",
+   [
+    "A landslide",
+    "A flood",
+    "A sinkhole opens"
+   ],
+   "Repeated freezing and thawing takes many years."
+  ],
+  [
+   "Which is a fast change to Earth's surface?",
+   "A sinkhole opens in a parking lot",
+   [
+    "A river carves a valley",
+    "A glacier moves",
+    "Sand dunes slowly shift"
+   ],
+   "Sinkholes can open suddenly."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "A river builds a delta",
+   [
+    "An avalanche",
+    "A volcano erupts",
+    "An earthquake"
+   ],
+   "Deltas grow slowly as sediment is dropped."
+  ],
+  [
+   "Which is a fast change to Earth's surface?",
+   "A volcano covers land with ash",
+   [
+    "Wind shapes a rock arch",
+    "A cave forms",
+    "Rivers smooth pebbles"
+   ],
+   "Ash from an eruption can bury land in hours."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "Wind slowly shapes a sand dune",
+   [
+    "A flash flood",
+    "An earthquake",
+    "A rockfall"
+   ],
+   "Dunes form grain by grain over time."
+  ],
+  [
+   "Which is a fast change to Earth's surface?",
+   "A cliff collapses into the sea during a storm",
+   [
+    "Waves slowly wear down a cliff",
+    "A mountain wears down",
+    "A glacier carves a valley"
+   ],
+   "A sudden collapse happens in moments."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "Water dissolves rock to make a cave",
+   [
+    "A landslide",
+    "A tsunami",
+    "A volcano erupts"
+   ],
+   "Caves take thousands of years to form."
+  ],
+  [
+   "Which is a fast change to Earth's surface?",
+   "An avalanche of rock rushes down a mountain",
+   [
+    "A river slowly cuts into rock",
+    "Plant roots split a boulder",
+    "A delta grows"
+   ],
+   "Rock avalanches move in seconds to minutes."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "Plant roots split a boulder",
+   [
+    "A flood",
+    "An earthquake",
+    "An eruption"
+   ],
+   "Roots grow slowly and widen cracks over years."
+  ],
+  [
+   "Which is a fast change to Earth's surface?",
+   "A flash flood carves a new gully",
+   [
+    "A glacier moves",
+    "Wind wears down a rock",
+    "A canyon deepens over millions of years"
+   ],
+   "Flash floods rush through quickly, cutting into land."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "A glacier pushes rocks into a ridge",
+   [
+    "A rockslide",
+    "A sinkhole",
+    "A volcano erupts"
+   ],
+   "Glaciers move very slowly and build ridges over many years."
+  ],
+  [
+   "Which is a fast change to Earth's surface?",
+   "An earthquake lifts a beach out of the water",
+   [
+    "A beach slowly erodes",
+    "A river slowly widens",
+    "Sand slowly fills a lake"
+   ],
+   "Earthquakes can raise land in seconds."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "Sediment slowly fills in a lake",
+   [
+    "A landslide fills a lake",
+    "A tsunami",
+    "An avalanche"
+   ],
+   "Lakes fill with sediment over many years."
+  ],
+  [
+   "Which takes the longest?",
+   "Wind shaping a rock arch",
+   [
+    "A landslide",
+    "An earthquake",
+    "A flash flood"
+   ],
+   "Rock arches take thousands of years to form."
+  ],
+  [
+   "Which takes the shortest time?",
+   "A rockslide",
+   [
+    "A river carving a canyon",
+    "Waves shaping a beach",
+    "A glacier carving a valley"
+   ],
+   "A rockslide happens in seconds to minutes."
+  ],
+  [
+   "Which is a slow change to Earth's surface?",
+   "Waves smooth the rocks on a beach",
+   [
+    "A storm surge floods a town",
+    "A volcano erupts",
+    "A mudslide"
+   ],
+   "Waves smooth rocks over many years."
+  ],
+  [
+   "Which is a fast change to Earth's surface?",
+   "Lava flows into the sea and makes new land",
+   [
+    "A glacier melts back over centuries",
+    "A river smooths stones",
+    "Wind wears down a rock"
+   ],
+   "Lava can build new land in hours or days."
+  ],
+  [
+   "Which pair are both fast changes?",
+   "An earthquake and a landslide",
+   [
+    "A glacier and a canyon forming",
+    "Wind erosion and a delta forming",
+    "Wave erosion and a cave forming"
+   ],
+   "Earthquakes and landslides both happen in seconds to minutes."
+  ],
+  [
+   "Which pair are both slow changes?",
+   "A canyon forming and a glacier moving",
+   [
+    "An earthquake and a volcano",
+    "A flood and a landslide",
+    "A sinkhole and a mudslide"
+   ],
+   "Canyons and glaciers change land over very long times."
+  ]
+ ],
+ "sciXsDesEros": [
+  [
+   "A class pours 1 L of water down three model hills. The bare hill lost 300 g of soil, the hill with mulch lost 80 g, and the hill with grass lost 30 g. Which covering worked best?",
+   "Grass",
+   [
+    "Mulch",
+    "Bare soil",
+    "They all worked the same"
+   ],
+   "The grass-covered hill lost the least soil, so it prevented the most erosion."
+  ],
+  [
+   "Which design best protects a sand dune at a beach from people walking on it?",
+   "A boardwalk over the dune",
+   [
+    "A path straight through the dune",
+    "Removing the dune grass",
+    "Driving trucks over it"
+   ],
+   "A boardwalk keeps feet off the sand and plants that hold the dune together."
+  ],
+  [
+   "Why do people plant beach grass on sand dunes?",
+   "Its roots hold the sand in place",
+   [
+    "It makes the sand blow away faster",
+    "It melts the sand",
+    "It attracts waves"
+   ],
+   "Beach grass roots form a web that holds sand against wind."
+  ],
+  [
+   "A town tests two fences to stop blowing snow and soil. Fence A stopped 90% and Fence B stopped 40%. Which design is better?",
+   "Fence A",
+   [
+    "Fence B",
+    "Neither",
+    "Both are equal"
+   ],
+   "Fence A stopped more material, so it worked better."
+  ],
+  [
+   "What is a drawback of planting trees as a windbreak?",
+   "Trees take years to grow tall enough",
+   [
+    "Trees stop all rain",
+    "Trees make wind stronger",
+    "Trees cause earthquakes"
+   ],
+   "Windbreaks work well but need time to grow."
+  ],
+  [
+   "Which solution slows water erosion in a ditch on a steep road?",
+   "Lining the ditch with rocks",
+   [
+    "Removing all plants from the ditch",
+    "Pouring loose sand in it",
+    "Making the ditch steeper"
+   ],
+   "Rocks slow the water and protect the soil underneath."
+  ],
+  [
+   "A gardener wants to stop rain washing soil from a garden bed. Which is the best choice?",
+   "Cover the soil with mulch",
+   [
+    "Leave the soil bare",
+    "Rake the soil loose before rain",
+    "Pour water on it daily"
+   ],
+   "Mulch shields soil from raindrops and slows runoff."
+  ],
+  [
+   "Why might a rock wall (riprap) be better than a concrete wall along a river?",
+   "Rocks let water through and absorb energy, and are cheaper",
+   [
+    "Rocks make the river faster",
+    "Rocks dissolve in water",
+    "Concrete grows plants"
+   ],
+   "Riprap breaks up wave and current energy and costs less."
+  ],
+  [
+   "Which plan best prevents erosion on a construction site?",
+   "Use silt fences and cover bare soil",
+   [
+    "Leave piles of loose dirt uncovered",
+    "Spray soil with water all day",
+    "Remove all fences"
+   ],
+   "Silt fences trap soil and covers protect it from rain."
+  ],
+  [
+   "A farmer ploughs straight up and down a hill. What problem might this cause?",
+   "Water runs down the furrows and erodes soil",
+   [
+    "Crops get too much sunlight",
+    "The hill grows taller",
+    "Seeds blow into the sky"
+   ],
+   "Furrows running downhill act like channels for water."
+  ],
+  [
+   "Which farming method helps prevent erosion on a hill?",
+   "Ploughing across the slope (contour ploughing)",
+   [
+    "Ploughing straight downhill",
+    "Removing all crop leftovers",
+    "Leaving fields bare all winter"
+   ],
+   "Furrows across the slope catch water and stop it from rushing downhill."
+  ],
+  [
+   "Why do some farmers leave old crop stalks on fields over winter?",
+   "They protect the soil from wind and water",
+   [
+    "They attract more wind",
+    "They make the soil wetter in a flood",
+    "They melt snow faster"
+   ],
+   "Leftover stalks cover and hold the soil."
+  ],
+  [
+   "Two designs protect a riverbank: Design A costs $5000 and lost 2 kg of soil. Design B costs $1000 and lost 3 kg of soil. If money is very limited, which is the better choice?",
+   "Design B",
+   [
+    "Design A",
+    "Neither design",
+    "Both cost the same"
+   ],
+   "Design B works almost as well for much less money."
+  ],
+  [
+   "Which material would wash away most easily in a test of erosion?",
+   "Loose sand",
+   [
+    "Packed clay with grass",
+    "Large rocks",
+    "Concrete"
+   ],
+   "Small, loose grains are easily carried by water."
+  ],
+  [
+   "Why do engineers test erosion solutions on small models first?",
+   "It is cheaper and safer to find problems early",
+   [
+    "Models are always bigger than real hills",
+    "Testing is not needed",
+    "Models never erode"
+   ],
+   "Model tests let engineers compare designs before building the real thing."
+  ],
+  [
+   "Which design protects a lakeshore while still letting wildlife reach the water?",
+   "A living shoreline of native plants and logs",
+   [
+    "A tall concrete wall",
+    "A metal fence",
+    "Bare gravel"
+   ],
+   "Native plants hold the shore and keep habitat for animals."
+  ],
+  [
+   "What is a drawback of putting large rocks along a beach?",
+   "They can block people from using the beach",
+   [
+    "They make waves stronger everywhere",
+    "They cause volcanoes",
+    "They turn sand into mud"
+   ],
+   "Riprap protects the land but can make the beach harder to use."
+  ],
+  [
+   "Which test result shows that a design does NOT prevent erosion well?",
+   "A lot of soil washed away during the test",
+   [
+    "Very little soil moved",
+    "The water stayed clear",
+    "The model stayed the same shape"
+   ],
+   "Large soil loss means the design did not protect the soil."
+  ],
+  [
+   "What is the main job of a retaining wall on a slope?",
+   "Hold back soil so it does not slide",
+   [
+    "Make the slope steeper",
+    "Add water to the soil",
+    "Block sunlight"
+   ],
+   "Retaining walls support soil on steep slopes."
+  ],
+  [
+   "Why should a fair test of erosion designs use the same amount of water on each model?",
+   "So only the design changes",
+   [
+    "So the test is more fun",
+    "So the models look nicer",
+    "So the water stays warm"
+   ],
+   "Keeping water the same means differences come from the designs."
+  ],
+  [
+   "Which solution best stops wind from blowing soil off a prairie farm?",
+   "Planting rows of trees or shrubs around fields",
+   [
+    "Removing all trees",
+    "Ploughing in dry, windy weather",
+    "Leaving the soil bare"
+   ],
+   "Shelterbelts slow the wind across the field."
+  ],
+  [
+   "A school path keeps washing out in rain. Which is the best fix?",
+   "Add gravel and small drains to direct water off the path",
+   [
+    "Remove the path's edges",
+    "Water the path more",
+    "Make the path steeper"
+   ],
+   "Gravel and drains move water away before it erodes the path."
+  ]
+ ],
+ "sciXsDesFlood": [
+  [
+   "Why do some towns build dikes along rivers?",
+   "To keep river water from spreading onto land",
+   [
+    "To make the river wider",
+    "To speed up rainfall",
+    "To make the river salty"
+   ],
+   "Dikes are raised walls of earth that hold water back."
+  ],
+  [
+   "What is a floodway?",
+   "A channel that carries extra flood water around a city",
+   [
+    "A road for boats",
+    "A type of dam that makes floods",
+    "A pipe for drinking water"
+   ],
+   "Winnipeg's Red River Floodway sends flood water around the city."
+  ],
+  [
+   "What is a drawback of building a levee?",
+   "Water may flood other areas downstream more",
+   [
+    "It makes rain stop",
+    "It removes all fish",
+    "It causes earthquakes"
+   ],
+   "Holding water in a channel can push more water to places downstream."
+  ],
+  [
+   "How does a green roof help reduce flooding?",
+   "Plants and soil on the roof soak up rain",
+   [
+    "It makes rain heavier",
+    "It sends all rain to the street faster",
+    "It melts snow faster"
+   ],
+   "A green roof holds rainwater so less runs off."
+  ],
+  [
+   "Which design best keeps a basement from flooding?",
+   "A sump pump that pumps water out",
+   [
+    "Leaving the windows open",
+    "Removing the drains",
+    "Using a paper wall"
+   ],
+   "A sump pump removes water that collects under a house."
+  ],
+  [
+   "Why might a city keep parks and fields near a river instead of building houses there?",
+   "The land can flood safely without hurting homes",
+   [
+    "Parks stop all rain",
+    "Houses make rivers dry",
+    "Fields push water uphill"
+   ],
+   "Open land on a floodplain can hold flood water."
+  ],
+  [
+   "A town tests two ditch designs. Ditch A drained 500 L in 10 minutes; Ditch B drained 500 L in 30 minutes. Which drains faster?",
+   "Ditch A",
+   [
+    "Ditch B",
+    "They are the same",
+    "Neither drains"
+   ],
+   "Ditch A drained the same water in less time."
+  ],
+  [
+   "What is a disadvantage of sandbags?",
+   "They take a lot of time and people to fill and stack",
+   [
+    "They let all water through",
+    "They make floods bigger",
+    "They cost billions of dollars each"
+   ],
+   "Sandbag walls work but need a lot of labour."
+  ],
+  [
+   "How do rain barrels help reduce flooding?",
+   "They collect rain from roofs instead of letting it run off",
+   [
+    "They push rain into streets",
+    "They make more rain",
+    "They block sunlight"
+   ],
+   "Storing rooftop water lowers runoff during storms."
+  ],
+  [
+   "Which surface lets the most rain soak into the ground?",
+   "A grassy lawn",
+   [
+    "An asphalt road",
+    "A concrete driveway",
+    "A metal roof"
+   ],
+   "Grass and soil absorb water; pavement and metal do not."
+  ],
+  [
+   "Why do engineers look at past flood records before designing a barrier?",
+   "To know how high the water might rise",
+   [
+    "To pick the barrier's colour",
+    "To count the fish",
+    "To find the sunniest day"
+   ],
+   "Past flood heights help engineers decide how tall a barrier must be."
+  ],
+  [
+   "What is the main purpose of storm drains in a city?",
+   "Carry rainwater away from streets",
+   [
+    "Bring drinking water to homes",
+    "Heat homes in winter",
+    "Store snow all summer"
+   ],
+   "Storm drains move runoff so streets do not flood."
+  ],
+  [
+   "Why should storm drains be kept clear of leaves and garbage?",
+   "Blocked drains cannot carry water away",
+   [
+    "Leaves make the water clean",
+    "Garbage helps water flow",
+    "It makes drains louder"
+   ],
+   "Clogged drains cause water to back up and flood streets."
+  ],
+  [
+   "Which plan helps prevent flooding when spring snow melts quickly?",
+   "Clear ice jams and keep channels open",
+   [
+    "Pile more snow on the river",
+    "Block all culverts",
+    "Build homes on the riverbank"
+   ],
+   "Ice jams block rivers and cause flooding, so keeping channels open helps."
+  ],
+  [
+   "How does planting trees in a watershed help reduce flooding?",
+   "Tree roots and leaf litter help soil soak up rain",
+   [
+    "Trees make more rain fall",
+    "Trees block rivers",
+    "Trees make soil waterproof"
+   ],
+   "Forests slow runoff and help water soak into the ground."
+  ],
+  [
+   "Two flood walls hold back water equally well. Wall A costs less and is easier to repair. Which is the better choice?",
+   "Wall A",
+   [
+    "Wall B",
+    "Neither",
+    "It is impossible to choose"
+   ],
+   "When performance is equal, the cheaper, easier-to-repair design is better."
+  ],
+  [
+   "What is a culvert?",
+   "A pipe under a road that lets water flow through",
+   [
+    "A type of boat",
+    "A wall on a roof",
+    "A sandbag"
+   ],
+   "Culverts let streams pass under roads without flooding them."
+  ],
+  [
+   "Why might a culvert that is too small cause flooding?",
+   "Water backs up when it cannot pass through fast enough",
+   [
+    "Small pipes make water disappear",
+    "Small pipes make more rain",
+    "Small pipes are too heavy"
+   ],
+   "A narrow culvert limits flow, so water pools upstream."
+  ],
+  [
+   "Which home design helps protect a house in a flood zone?",
+   "Raising the house on a higher foundation",
+   [
+    "Building the house lower than the river",
+    "Putting the furnace on the basement floor",
+    "Using paper walls"
+   ],
+   "Raising the house keeps living spaces above flood water."
+  ],
+  [
+   "What is a drawback of permeable pavement?",
+   "It can clog with dirt and needs cleaning",
+   [
+    "It makes floods worse",
+    "It cannot be walked on",
+    "It turns into lava"
+   ],
+   "Pores in permeable pavement can fill with debris over time."
+  ],
+  [
+   "Which is the best criterion to compare flood barrier designs?",
+   "How much water each one holds back",
+   [
+    "Which one has the nicest colour",
+    "Which one is the loudest",
+    "Which one is the tallest tree"
+   ],
+   "A flood barrier's main job is to hold back water."
+  ],
+  [
+   "What does a dam's reservoir do during heavy rain?",
+   "It stores extra water and releases it slowly",
+   [
+    "It makes the rain stop",
+    "It sends all the water at once",
+    "It heats the water"
+   ],
+   "Reservoirs hold back flood water and release it gradually."
+  ]
+ ],
+ "sciXsDesHurr": [
+  [
+   "What is a hurricane?",
+   "A huge storm with very strong winds and heavy rain",
+   [
+    "A small dust cloud",
+    "A light spring shower",
+    "An earthquake under the sea"
+   ],
+   "Hurricanes form over warm oceans and bring powerful winds and rain."
+  ],
+  [
+   "What is storm surge?",
+   "Ocean water pushed onto land by a storm's winds",
+   [
+    "Snow falling in summer",
+    "Lava pushed out of a volcano",
+    "A strong wind with no rain"
+   ],
+   "Hurricane winds pile up seawater and push it onto the coast."
+  ],
+  [
+   "Which part of Canada is most often hit by hurricanes or their remains?",
+   "Atlantic Canada",
+   [
+    "The Prairies",
+    "Nunavut",
+    "Central British Columbia"
+   ],
+   "Storms moving north along the Atlantic coast can reach Nova Scotia and Newfoundland."
+  ],
+  [
+   "Why are hurricane straps or clips used in houses?",
+   "They tie the roof firmly to the walls",
+   [
+    "They hold up curtains",
+    "They keep doors unlocked",
+    "They make the roof lighter"
+   ],
+   "Straps stop strong winds from lifting the roof off."
+  ],
+  [
+   "Which window type holds up best against flying debris in a hurricane?",
+   "Impact-resistant glass",
+   [
+    "Thin regular glass",
+    "Paper windows",
+    "Open windows with no glass"
+   ],
+   "Impact-resistant glass is designed not to shatter when hit."
+  ],
+  [
+   "Why are sand dunes and beach plants important on a hurricane coast?",
+   "They act as a natural barrier to waves and surge",
+   [
+    "They make storms stronger",
+    "They block the sun",
+    "They pull storms closer"
+   ],
+   "Dunes absorb wave energy and protect land behind them."
+  ],
+  [
+   "Which house shape usually handles high winds best?",
+   "A rounded or square, low shape",
+   [
+    "A tall, thin tower with a flat roof",
+    "A house with large overhangs",
+    "A house on loose blocks"
+   ],
+   "Compact, low shapes let wind flow around more easily."
+  ],
+  [
+   "Why can large roof overhangs be a problem in a hurricane?",
+   "Wind can get under them and lift the roof",
+   [
+    "They make houses too cool",
+    "They attract lightning only",
+    "They stop rain completely"
+   ],
+   "Wind pushing under an overhang creates lift that can tear the roof off."
+  ],
+  [
+   "Two roof designs are tested in a wind tunnel. Roof A stayed on at 200 km/h; Roof B blew off at 120 km/h. Which is better for hurricanes?",
+   "Roof A",
+   [
+    "Roof B",
+    "Both are equal",
+    "Neither could be tested"
+   ],
+   "Roof A held on in much stronger wind."
+  ],
+  [
+   "Why should trees close to a house be trimmed before hurricane season?",
+   "Branches can break and smash into the house",
+   [
+    "Trees grow faster in storms",
+    "Leaves make wind stronger",
+    "Trimming stops rain"
+   ],
+   "Loose branches become dangerous flying objects."
+  ],
+  [
+   "What is the best location for a new home in a hurricane area?",
+   "On higher ground away from the shoreline",
+   [
+    "Right on the beach",
+    "In a low area near the water",
+    "On sand at sea level"
+   ],
+   "Higher ground away from the shore avoids storm surge."
+  ],
+  [
+   "Why might a seawall help a town during a hurricane?",
+   "It blocks waves and storm surge from reaching buildings",
+   [
+    "It makes the hurricane turn into snow",
+    "It stops all wind",
+    "It attracts fish"
+   ],
+   "A seawall holds back rising water and breaking waves."
+  ],
+  [
+   "What is a drawback of building tall seawalls?",
+   "They are very expensive and can block views and beaches",
+   [
+    "They make the ocean disappear",
+    "They cause hurricanes",
+    "They have no drawbacks"
+   ],
+   "Seawalls cost a lot and can harm beaches."
+  ],
+  [
+   "Which material is best for the frame of a house in a hurricane zone?",
+   "Reinforced concrete or steel",
+   [
+    "Cardboard",
+    "Straw",
+    "Plastic sheets"
+   ],
+   "Strong, heavy materials resist wind and flying debris."
+  ],
+  [
+   "Why do engineers check how a building is anchored to its foundation?",
+   "So wind cannot shift or lift the house",
+   [
+    "So the house can float away",
+    "So the house looks taller",
+    "So it is easy to move"
+   ],
+   "Strong anchors keep the whole house in place."
+  ],
+  [
+   "How do wetlands help during hurricanes?",
+   "They soak up flood water and slow storm surge",
+   [
+    "They make the wind faster",
+    "They add more rain",
+    "They pull in the storm"
+   ],
+   "Marshes act like sponges and buffers along the coast."
+  ],
+  [
+   "Which item should be tied down or brought inside before a hurricane?",
+   "Garbage cans and patio chairs",
+   [
+    "A concrete foundation",
+    "A brick chimney",
+    "A buried pipe"
+   ],
+   "Light outdoor objects can be thrown by the wind."
+  ],
+  [
+   "Why are power lines buried underground in some coastal areas?",
+   "Wind cannot knock them down",
+   [
+    "It makes electricity faster",
+    "It keeps them warm",
+    "It is cheaper than any other way"
+   ],
+   "Underground lines are protected from wind and falling trees."
+  ],
+  [
+   "What is a drawback of burying power lines?",
+   "It costs much more than overhead lines",
+   [
+    "The lines stop working in sunlight",
+    "The power turns off every night",
+    "It makes hurricanes stronger"
+   ],
+   "Burying lines protects them but is expensive."
+  ],
+  [
+   "Which test would best show if a window protects a house in a hurricane?",
+   "Firing a piece of wood at it at high speed",
+   [
+    "Looking at it in sunlight",
+    "Washing it with soap",
+    "Measuring its colour"
+   ],
+   "Hurricane window tests simulate flying debris."
+  ],
+  [
+   "A coastal town must choose a design. Which should it consider?",
+   "How well it works, its cost and its effect on nature",
+   [
+    "Only its colour",
+    "Only how tall it looks",
+    "Only who built it"
+   ],
+   "Good designs balance effectiveness, cost and environmental effects."
+  ],
+  [
+   "What is the safest design for a garage in a hurricane zone?",
+   "Walls and door reinforced and strapped to the house frame",
+   [
+    "A tent garage",
+    "A garage with no door",
+    "A garage made of glass"
+   ],
+   "Reinforced walls and doors keep wind from getting inside and lifting the roof."
+  ]
+ ],
+ "sciEngDP": [
+  [
+   "Which step of the engineering-design process is this? Students learn that a classroom gets too hot and they need a cheap way to shade the windows.",
+   "Define the problem",
+   [
+    "Brainstorm solutions",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "Identifying the need and limits is defining the problem."
+  ],
+  [
+   "Which step of the engineering-design process is this? The team lists every idea they can think of for keeping ice from melting, without judging them.",
+   "Brainstorm solutions",
+   [
+    "Define the problem",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "Coming up with many possible ideas is brainstorming."
+  ],
+  [
+   "Which step of the engineering-design process is this? Students glue straws and tape together to make their first model bridge.",
+   "Build a prototype",
+   [
+    "Brainstorm solutions",
+    "Test and evaluate",
+    "Define the problem"
+   ],
+   "Making a first working model is building a prototype."
+  ],
+  [
+   "Which step of the engineering-design process is this? Students time how long their paper helicopter takes to fall 2 m.",
+   "Test and evaluate",
+   [
+    "Build a prototype",
+    "Improve the design",
+    "Brainstorm solutions"
+   ],
+   "Measuring how well a design works is testing."
+  ],
+  [
+   "Which step of the engineering-design process is this? The paper boat sank, so the team adds wax to the bottom and tries again.",
+   "Improve the design",
+   [
+    "Test and evaluate",
+    "Build a prototype",
+    "Brainstorm solutions"
+   ],
+   "Changing a design after testing is improving it."
+  ],
+  [
+   "Which step of the engineering-design process is this? Engineers decide the wheelchair ramp must have a gentle slope and fit a 3 m space.",
+   "Define the problem",
+   [
+    "Brainstorm solutions",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "Setting the requirements and limits is part of defining the problem."
+  ],
+  [
+   "Which step of the engineering-design process is this? Engineers sketch five different shapes for a new kayak.",
+   "Brainstorm solutions",
+   [
+    "Define the problem",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "Sketching several possible designs is brainstorming."
+  ],
+  [
+   "Which step of the engineering-design process is this? A team 3-D prints a small plastic model of their new phone stand.",
+   "Build a prototype",
+   [
+    "Brainstorm solutions",
+    "Test and evaluate",
+    "Define the problem"
+   ],
+   "A first physical model is a prototype."
+  ],
+  [
+   "Which step of the engineering-design process is this? Students put their water filter to work and measure how clear the water comes out.",
+   "Test and evaluate",
+   [
+    "Build a prototype",
+    "Improve the design",
+    "Brainstorm solutions"
+   ],
+   "Checking results against goals is testing and evaluating."
+  ],
+  [
+   "Which step of the engineering-design process is this? After the test, the team makes the wings of their glider longer so it flies farther.",
+   "Improve the design",
+   [
+    "Test and evaluate",
+    "Build a prototype",
+    "Brainstorm solutions"
+   ],
+   "Making changes based on test results is improving."
+  ],
+  [
+   "Which step of the engineering-design process is this? A town needs a bridge that boats can still pass under.",
+   "Define the problem",
+   [
+    "Brainstorm solutions",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "Stating what the solution must do is defining the problem."
+  ],
+  [
+   "Which step of the engineering-design process is this? Students vote on the best of their ideas for a bird feeder after listing many.",
+   "Brainstorm solutions",
+   [
+    "Define the problem",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "Generating and choosing among ideas is part of brainstorming."
+  ],
+  [
+   "Which step of the engineering-design process is this? The class builds a cardboard model of a playground slide.",
+   "Build a prototype",
+   [
+    "Brainstorm solutions",
+    "Test and evaluate",
+    "Define the problem"
+   ],
+   "A model built to try out the idea is a prototype."
+  ],
+  [
+   "Which step of the engineering-design process is this? Engineers put a new car seat in a crash-test sled and record the results.",
+   "Test and evaluate",
+   [
+    "Build a prototype",
+    "Improve the design",
+    "Brainstorm solutions"
+   ],
+   "A crash test checks how well the design works."
+  ],
+  [
+   "Which step of the engineering-design process is this? The solar oven did not get hot enough, so students add foil to reflect more sunlight.",
+   "Improve the design",
+   [
+    "Test and evaluate",
+    "Build a prototype",
+    "Brainstorm solutions"
+   ],
+   "Adding foil after a poor result is improving the design."
+  ],
+  [
+   "Which step of the engineering-design process is this? A team writes down that their robot must weigh under 2 kg and climb a ramp.",
+   "Define the problem",
+   [
+    "Brainstorm solutions",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "Criteria and constraints are set when defining the problem."
+  ],
+  [
+   "Which step of the engineering-design process is this? Students make a mind map of ways to carry water without spilling.",
+   "Brainstorm solutions",
+   [
+    "Define the problem",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "A mind map of ideas is a brainstorming tool."
+  ],
+  [
+   "Which step of the engineering-design process is this? The team builds a working small-scale wind turbine from wood and plastic.",
+   "Build a prototype",
+   [
+    "Brainstorm solutions",
+    "Test and evaluate",
+    "Define the problem"
+   ],
+   "Building a small working version is making a prototype."
+  ],
+  [
+   "Which step of the engineering-design process is this? Students drop their parachute from a balcony and see if the egg survives.",
+   "Test and evaluate",
+   [
+    "Build a prototype",
+    "Improve the design",
+    "Brainstorm solutions"
+   ],
+   "Dropping the design to see if it works is testing."
+  ],
+  [
+   "Which step of the engineering-design process is this? The tower fell over, so the team makes the base wider.",
+   "Improve the design",
+   [
+    "Test and evaluate",
+    "Build a prototype",
+    "Brainstorm solutions"
+   ],
+   "Widening the base after a failure is improving the design."
+  ],
+  [
+   "Which step of the engineering-design process is this? Engineers find out that people in a village need a way to clean their drinking water.",
+   "Define the problem",
+   [
+    "Brainstorm solutions",
+    "Build a prototype",
+    "Test and evaluate"
+   ],
+   "Recognizing the need is the first step, defining the problem."
+  ],
+  [
+   "Which step of the engineering-design process is this? Students compare the results of three bridge tests to decide which held the most weight.",
+   "Test and evaluate",
+   [
+    "Build a prototype",
+    "Improve the design",
+    "Brainstorm solutions"
+   ],
+   "Comparing test results is evaluating the designs."
+  ]
+ ],
+ "sciSciMeth": [
+  [
+   "A student wonders, \"Does salt make ice melt faster?\" What step is this?",
+   "Ask a question",
+   [
+    "Analyze data",
+    "Draw a conclusion",
+    "Share results"
+   ],
+   "Wondering about something to investigate is asking a question."
+  ],
+  [
+   "A student predicts, \"If I add salt, the ice will melt faster.\" What step is this?",
+   "Form a hypothesis",
+   [
+    "Ask a question",
+    "Analyze data",
+    "Share results"
+   ],
+   "A testable prediction is a hypothesis."
+  ],
+  [
+   "A student puts salt on one ice cube and nothing on another, then times them. What step is this?",
+   "Test with an experiment",
+   [
+    "Form a hypothesis",
+    "Share results",
+    "Ask a question"
+   ],
+   "Carrying out a test is doing an experiment."
+  ],
+  [
+   "A student writes down how many minutes each ice cube took to melt. What step is this?",
+   "Record observations",
+   [
+    "Form a hypothesis",
+    "Ask a question",
+    "Share results"
+   ],
+   "Writing down measurements is recording observations or data."
+  ],
+  [
+   "A student makes a bar graph comparing the melting times. What step is this?",
+   "Analyze data",
+   [
+    "Ask a question",
+    "Form a hypothesis",
+    "Test with an experiment"
+   ],
+   "Organizing data into a graph helps analyze it."
+  ],
+  [
+   "A student says, \"The salted ice melted faster, so my hypothesis was right.\" What step is this?",
+   "Draw a conclusion",
+   [
+    "Ask a question",
+    "Test with an experiment",
+    "Form a hypothesis"
+   ],
+   "Deciding what the results mean is drawing a conclusion."
+  ],
+  [
+   "A student writes a report about the ice experiment for the class blog. What step is this?",
+   "Share results",
+   [
+    "Form a hypothesis",
+    "Ask a question",
+    "Analyze data"
+   ],
+   "Communicating findings to others is sharing results."
+  ],
+  [
+   "Which step comes right after asking a question?",
+   "Research and form a hypothesis",
+   [
+    "Share results",
+    "Draw a conclusion",
+    "Analyze data"
+   ],
+   "After a question, scientists gather background information and make a hypothesis."
+  ],
+  [
+   "Which step comes right before drawing a conclusion?",
+   "Analyze data",
+   [
+    "Ask a question",
+    "Form a hypothesis",
+    "Share results"
+   ],
+   "You must look closely at the data before deciding what it means."
+  ],
+  [
+   "Which step usually comes last?",
+   "Share results",
+   [
+    "Ask a question",
+    "Form a hypothesis",
+    "Test with an experiment"
+   ],
+   "Scientists share their findings after drawing conclusions."
+  ],
+  [
+   "What is a hypothesis?",
+   "A testable prediction",
+   [
+    "A final answer that cannot change",
+    "A list of materials",
+    "A graph of results"
+   ],
+   "A hypothesis is an educated guess that can be tested."
+  ],
+  [
+   "In an experiment, what is the variable you change on purpose called?",
+   "The independent variable",
+   [
+    "The dependent variable",
+    "The controlled variable",
+    "The conclusion"
+   ],
+   "The independent variable is the one the scientist changes."
+  ],
+  [
+   "In an experiment, what is the variable you measure called?",
+   "The dependent variable",
+   [
+    "The independent variable",
+    "The controlled variable",
+    "The hypothesis"
+   ],
+   "The dependent variable responds to the change and is measured."
+  ],
+  [
+   "Why do scientists keep all other variables the same in a test?",
+   "So it is a fair test",
+   [
+    "So it takes longer",
+    "So the results look nicer",
+    "So they need fewer notes"
+   ],
+   "Keeping other variables constant means only one factor affects the results."
+  ],
+  [
+   "Why should an experiment be repeated several times?",
+   "To make sure the results are reliable",
+   [
+    "To use up materials",
+    "To change the hypothesis each time",
+    "To make the graph longer"
+   ],
+   "Repeating trials shows whether results are consistent."
+  ],
+  [
+   "A student reads books and websites about plants before testing. What step is this?",
+   "Do background research",
+   [
+    "Share results",
+    "Draw a conclusion",
+    "Analyze data"
+   ],
+   "Learning what is already known is background research."
+  ],
+  [
+   "A student grows one plant with fertilizer and one without. Which plant is the control?",
+   "The plant without fertilizer",
+   [
+    "The plant with fertilizer",
+    "Both plants",
+    "Neither plant"
+   ],
+   "The control group does not get the change being tested."
+  ],
+  [
+   "A student measures plant height with a ruler every day. What step is this?",
+   "Record observations",
+   [
+    "Ask a question",
+    "Form a hypothesis",
+    "Share results"
+   ],
+   "Taking and writing down measurements is recording data."
+  ],
+  [
+   "A student's results do not match her hypothesis. What should she do?",
+   "Report it honestly and test a new hypothesis",
+   [
+    "Change the data to match",
+    "Hide the results",
+    "Stop doing science"
+   ],
+   "Results that do not support a hypothesis are still useful and should be reported honestly."
+  ],
+  [
+   "A team presents a poster about their results at a science fair. What step is this?",
+   "Share results",
+   [
+    "Analyze data",
+    "Form a hypothesis",
+    "Test with an experiment"
+   ],
+   "Presenting findings to others is sharing results."
+  ],
+  [
+   "A student asks, \"Which paper towel brand soaks up the most water?\" Which is a good hypothesis?",
+   "If I test three brands, the thickest one will soak up the most water",
+   [
+    "Paper towels are white",
+    "I like paper towels",
+    "Water is wet"
+   ],
+   "A good hypothesis makes a testable prediction about the question."
+  ],
+  [
+   "A student finds the average of three trials. What step is this?",
+   "Analyze data",
+   [
+    "Ask a question",
+    "Share results",
+    "Form a hypothesis"
+   ],
+   "Calculating averages is part of analyzing data."
+  ]
+ ],
+ "sciXsSLGid": [
+  [
+   "Which of these is a gas? 🎈",
+   "The helium inside a party balloon",
+   [
+    "The rubber of the balloon",
+    "The string on the balloon",
+    "Water in a glass"
+   ],
+   "Helium spreads out to fill the balloon, so it is a gas."
+  ],
+  [
+   "Which of these is a liquid?",
+   "🥛 Milk in a cup",
+   [
+    "🧊 An ice cube",
+    "🪨 A pebble",
+    "💨 Air in a tire"
+   ],
+   "Milk flows and takes the shape of its cup."
+  ],
+  [
+   "Which of these is a solid?",
+   "🪵 A wooden block",
+   [
+    "🧃 Apple juice",
+    "♨️ Steam",
+    "🍯 Honey"
+   ],
+   "A wooden block keeps its own shape."
+  ],
+  [
+   "Which of these is a gas?",
+   "♨️ Steam from a kettle",
+   [
+    "🥣 Soup",
+    "🧈 Butter",
+    "🧊 Ice"
+   ],
+   "Steam is water in the gas state."
+  ],
+  [
+   "Which of these is a liquid?",
+   "🛢️ Cooking oil",
+   [
+    "🧂 Salt grains",
+    "🥄 A metal spoon",
+    "🫧 Air in bubbles"
+   ],
+   "Oil flows and takes the shape of its container."
+  ],
+  [
+   "Which of these is a solid?",
+   "🧂 A grain of salt",
+   [
+    "🍵 Tea",
+    "💨 Wind",
+    "🫗 Vinegar"
+   ],
+   "Each grain of salt has its own fixed shape."
+  ],
+  [
+   "Which of these is a gas?",
+   "💨 The air you breathe out",
+   [
+    "💧 Rain",
+    "🍫 A chocolate bar",
+    "🧴 Shampoo"
+   ],
+   "Breath is made of gases like carbon dioxide and water vapour."
+  ],
+  [
+   "Which of these is a liquid?",
+   "🌧️ Rain",
+   [
+    "❄️ A snowflake",
+    "🧱 A brick",
+    "🎈 Helium"
+   ],
+   "Rain is liquid water falling from clouds."
+  ],
+  [
+   "Which of these is a solid?",
+   "❄️ A snowflake",
+   [
+    "🌧️ Rain",
+    "♨️ Steam",
+    "🥤 Pop"
+   ],
+   "A snowflake is frozen water with a fixed shape."
+  ],
+  [
+   "Which of these is a liquid?",
+   "🍯 Maple syrup",
+   [
+    "🍁 A maple leaf",
+    "🌫️ Fog's water vapour",
+    "🪨 A rock"
+   ],
+   "Maple syrup flows slowly but takes the shape of its bottle."
+  ],
+  [
+   "Which of these is a solid?",
+   "✏️ A pencil",
+   [
+    "🥛 Milk",
+    "💨 Air",
+    "🧃 Juice"
+   ],
+   "A pencil keeps its shape no matter where you put it."
+  ],
+  [
+   "Which of these is a gas?",
+   "🫧 The air inside a soap bubble",
+   [
+    "🧼 A bar of soap",
+    "💧 Water",
+    "🧽 A sponge"
+   ],
+   "The bubble is filled with air, which is a gas."
+  ],
+  [
+   "Which of these keeps its own shape?",
+   "A solid",
+   [
+    "A liquid",
+    "A gas",
+    "Both liquids and gases"
+   ],
+   "Solids have a fixed shape; liquids and gases take the shape of their containers."
+  ],
+  [
+   "Which of these spreads out to fill its whole container?",
+   "A gas",
+   [
+    "A solid",
+    "A liquid",
+    "An ice cube"
+   ],
+   "Gas particles spread apart to fill any space."
+  ],
+  [
+   "Which of these takes the shape of its container but does not fill it all the way up?",
+   "A liquid",
+   [
+    "A solid",
+    "A gas",
+    "A rock"
+   ],
+   "A liquid flows to the bottom and takes its container's shape."
+  ],
+  [
+   "What state of matter is a frozen pond?",
+   "Solid",
+   [
+    "Liquid",
+    "Gas",
+    "Water vapour"
+   ],
+   "Frozen water is ice, a solid."
+  ],
+  [
+   "What state of matter is the water in a running tap?",
+   "Liquid",
+   [
+    "Solid",
+    "Gas",
+    "Ice"
+   ],
+   "Running tap water is liquid; it flows."
+  ],
+  [
+   "What state of matter is the smell of cookies travelling across a room?",
+   "Gas",
+   [
+    "Solid",
+    "Liquid",
+    "Ice"
+   ],
+   "Smells travel as tiny gas particles in the air."
+  ],
+  [
+   "Which of these is a solid?",
+   "🧈 Cold butter",
+   [
+    "🥛 Milk",
+    "🍵 Hot tea",
+    "♨️ Steam"
+   ],
+   "Cold butter keeps its block shape."
+  ],
+  [
+   "Which of these is a liquid?",
+   "🧴 Hand lotion being poured",
+   [
+    "🧽 A sponge",
+    "🪙 A coin",
+    "💨 Air in a balloon"
+   ],
+   "Lotion flows and takes the shape of what it is poured into."
+  ],
+  [
+   "Which of these is a solid?",
+   "🪙 A coin",
+   [
+    "🫗 Water",
+    "💨 Air",
+    "🧃 Juice"
+   ],
+   "A coin keeps its round shape."
+  ],
+  [
+   "Which of these is a gas?",
+   "The bubbles in boiling water",
+   [
+    "The pot",
+    "The liquid water",
+    "The ice before heating"
+   ],
+   "The bubbles in boiling water are water vapour, a gas."
+  ]
+ ],
+ "sciHeatFlow": [
+  [
+   "You put your hand in cold lake water. Which way does heat flow?",
+   "From your hand to the water",
+   [
+    "From the water to your hand",
+    "Cold flows into your hand",
+    "Heat does not flow"
+   ],
+   "Heat moves from the warmer hand to the colder water."
+  ],
+  [
+   "An ice cube sits in a glass of lemonade. Which way does heat flow?",
+   "From the lemonade to the ice cube",
+   [
+    "From the ice cube to the lemonade",
+    "Cold flows into the lemonade",
+    "Heat does not flow"
+   ],
+   "The warmer lemonade gives heat to the colder ice."
+  ],
+  [
+   "A pot of water sits on a hot stove. Which way does heat flow?",
+   "From the stove to the pot",
+   [
+    "From the pot to the stove",
+    "Cold flows into the stove",
+    "Heat does not flow"
+   ],
+   "Heat moves from the hot stove into the cooler pot."
+  ],
+  [
+   "You wrap your cold hands around a warm mug. Which way does heat flow?",
+   "From the mug to your hands",
+   [
+    "From your hands to the mug",
+    "Cold flows into the mug",
+    "Heat does not flow"
+   ],
+   "The warmer mug transfers heat to your colder hands."
+  ],
+  [
+   "Frozen peas are put into hot boiling water. Which way does heat flow?",
+   "From the water to the peas",
+   [
+    "From the peas to the water",
+    "Cold flows into the water",
+    "Heat does not flow"
+   ],
+   "Heat moves from the hot water to the frozen peas."
+  ],
+  [
+   "You touch a metal railing on a cold winter day. Which way does heat flow?",
+   "From your hand to the railing",
+   [
+    "From the railing to your hand",
+    "Cold flows into your hand",
+    "Heat does not flow"
+   ],
+   "Your warmer hand loses heat to the cold metal."
+  ],
+  [
+   "A hot baked potato is wrapped in foil on the counter. Which way does heat flow?",
+   "From the potato to the surrounding air",
+   [
+    "From the air to the potato",
+    "Cold flows into the potato",
+    "Heat does not flow"
+   ],
+   "The hot potato slowly loses heat to the cooler air."
+  ],
+  [
+   "Sun shines on a dark car seat. Which way does heat flow when you sit on the hot seat?",
+   "From the seat to your legs",
+   [
+    "From your legs to the seat",
+    "Cold flows into the seat",
+    "Heat does not flow"
+   ],
+   "The hotter seat transfers heat to your cooler body."
+  ],
+  [
+   "You put a cold carton of milk into a warm room. Which way does heat flow?",
+   "From the room air to the milk",
+   [
+    "From the milk to the air",
+    "Cold flows into the room",
+    "Heat does not flow"
+   ],
+   "The warmer air gives heat to the colder milk."
+  ],
+  [
+   "Two blocks touch: one at 60 °C and one at 20 °C. Which way does heat flow?",
+   "From the 60 °C block to the 20 °C block",
+   [
+    "From the 20 °C block to the 60 °C block",
+    "Both ways equally",
+    "Heat does not flow"
+   ],
+   "Heat flows from higher temperature to lower temperature."
+  ],
+  [
+   "Two cups of water are both at 25 °C and touching. Which way does heat flow?",
+   "No net heat flows between them",
+   [
+    "From the left cup to the right cup",
+    "From the right cup to the left cup",
+    "Cold flows between them"
+   ],
+   "Objects at the same temperature are in thermal equilibrium, so there is no net heat flow."
+  ],
+  [
+   "A snowball is held in a mitten-covered hand. Which way does heat flow?",
+   "From the hand through the mitten to the snowball",
+   [
+    "From the snowball to the hand",
+    "Cold flows from the snowball into the hand",
+    "Heat does not flow"
+   ],
+   "Heat always travels from the warmer hand toward the colder snow."
+  ],
+  [
+   "A campfire warms your face. How does most of this heat reach you?",
+   "By radiation",
+   [
+    "By conduction",
+    "By convection only through the ground",
+    "Heat does not travel"
+   ],
+   "Heat from a fire reaches you as infrared radiation through the air."
+  ],
+  [
+   "Hot air rises above a heater and cool air sinks to take its place. What kind of heat transfer is this?",
+   "Convection",
+   [
+    "Conduction",
+    "Radiation",
+    "Insulation"
+   ],
+   "Convection moves heat by the flow of liquids or gases."
+  ],
+  [
+   "A metal pan handle gets hot when the pan is on the stove. What kind of heat transfer is this?",
+   "Conduction",
+   [
+    "Convection",
+    "Radiation",
+    "Evaporation"
+   ],
+   "Conduction moves heat through direct contact within the metal."
+  ],
+  [
+   "Why does a wooden spoon stay cooler than a metal spoon in hot soup?",
+   "Wood is a poor conductor of heat",
+   [
+    "Wood is colder inside",
+    "Metal makes its own heat",
+    "Wood pushes cold into the soup"
+   ],
+   "Wood is an insulator, so heat moves through it slowly."
+  ],
+  [
+   "Why does a winter coat keep you warm?",
+   "It slows heat flowing from your body to the cold air",
+   [
+    "It pushes cold out",
+    "It makes heat",
+    "It adds cold to the air"
+   ],
+   "Insulating coats reduce heat loss from your body."
+  ],
+  [
+   "A cooler keeps drinks cold on a hot day. What does the cooler do?",
+   "Slows heat flowing from the warm air into the drinks",
+   [
+    "Makes cold",
+    "Pushes cold into the drinks",
+    "Stops time"
+   ],
+   "Insulation slows heat transfer from the warmer outside."
+  ],
+  [
+   "A hot drink and a cold drink are mixed. What happens to the final temperature?",
+   "It ends up between the two starting temperatures",
+   [
+    "It becomes hotter than the hot drink",
+    "It becomes colder than the cold drink",
+    "It stays exactly the same as the hot drink"
+   ],
+   "Heat flows from hot to cold until both reach a temperature in between."
+  ],
+  [
+   "A lizard lies on a warm rock in the morning. Which way does heat flow?",
+   "From the rock to the lizard",
+   [
+    "From the lizard to the rock",
+    "Cold flows from the lizard",
+    "Heat does not flow"
+   ],
+   "The warmer rock heats the cooler lizard."
+  ],
+  [
+   "An ice pack is placed in a lunch bag with a sandwich. Which way does heat flow?",
+   "From the sandwich to the ice pack",
+   [
+    "From the ice pack to the sandwich",
+    "Cold flows from the ice pack into the sandwich",
+    "Heat does not flow"
+   ],
+   "The ice pack keeps food cool by absorbing heat from it."
+  ],
+  [
+   "Hot soup is put in the fridge. Which way does heat flow?",
+   "From the soup to the cold fridge air",
+   [
+    "From the fridge air to the soup",
+    "Cold flows into the soup",
+    "Heat does not flow"
+   ],
+   "The hot soup loses heat to the colder air in the fridge."
+  ]
+ ],
+ "sciXsPredT": [
+  [
+   "A glass of cold water sits in the sun. What will happen to its temperature?",
+   "It will increase",
+   [
+    "It will decrease",
+    "It will freeze",
+    "It will stay the same"
+   ],
+   "The warm sunlight and air will heat the cold water."
+  ],
+  [
+   "A hot bowl of oatmeal sits on the table. What will happen to its temperature over time?",
+   "It will decrease",
+   [
+    "It will increase",
+    "It will boil",
+    "It will stay the same"
+   ],
+   "Heat moves from the oatmeal to the cooler air."
+  ],
+  [
+   "You put a warm bottle of water in the freezer. What will happen to its temperature?",
+   "It will decrease",
+   [
+    "It will increase",
+    "It will stay the same",
+    "It will boil"
+   ],
+   "The cold freezer air takes heat from the bottle."
+  ],
+  [
+   "A cold metal spoon is placed in hot cocoa. What happens to the spoon?",
+   "It gets warmer",
+   [
+    "It gets colder",
+    "It stays the same",
+    "It turns into a liquid"
+   ],
+   "Heat flows from the hot cocoa into the spoon."
+  ],
+  [
+   "A frozen juice box is put in a lunch bag. What happens to the juice box by lunchtime?",
+   "It gets warmer",
+   [
+    "It gets colder",
+    "It stays frozen solid forever",
+    "It boils"
+   ],
+   "The warmer air in the bag heats the frozen juice."
+  ],
+  [
+   "You hold an ice cube in your hand. What happens to your hand?",
+   "It gets cooler",
+   [
+    "It gets warmer",
+    "It stays the same",
+    "It starts to boil"
+   ],
+   "Your hand loses heat to the ice cube."
+  ],
+  [
+   "A warm cookie is placed on a cold plate. What happens to the plate?",
+   "It gets warmer",
+   [
+    "It gets colder",
+    "It stays exactly the same",
+    "It freezes"
+   ],
+   "Heat moves from the warm cookie into the colder plate."
+  ],
+  [
+   "Snow sits on a sidewalk on a warm, sunny spring day. What happens to the snow's temperature?",
+   "It increases until it melts",
+   [
+    "It decreases",
+    "It stays the same forever",
+    "It turns to steam right away"
+   ],
+   "The warm air and sun heat the snow until it melts."
+  ],
+  [
+   "A hot bath is left to sit for an hour. What happens to the water?",
+   "It cools down",
+   [
+    "It gets hotter",
+    "It freezes",
+    "It stays the same"
+   ],
+   "The bath water loses heat to the cooler room."
+  ],
+  [
+   "A cup of cold milk is left on the counter. What will its temperature become after many hours?",
+   "About the same as the room",
+   [
+    "Hotter than the room",
+    "Colder than ice",
+    "Exactly 100 °C"
+   ],
+   "Objects warm or cool until they match their surroundings."
+  ],
+  [
+   "A hot drink is poured into a foam cup and a thin metal cup. Which drink will cool faster?",
+   "The drink in the metal cup",
+   [
+    "The drink in the foam cup",
+    "They will cool at the same rate",
+    "Neither will cool"
+   ],
+   "Metal conducts heat away quickly, while foam is an insulator."
+  ],
+  [
+   "A cold apple is held in a warm hand. What happens to the apple?",
+   "It gets warmer",
+   [
+    "It gets colder",
+    "It stays the same",
+    "It freezes"
+   ],
+   "Heat flows from the hand into the apple."
+  ],
+  [
+   "A pan is taken off a hot stove. What will happen to its temperature?",
+   "It will decrease",
+   [
+    "It will increase",
+    "It will stay hot forever",
+    "It will freeze right away"
+   ],
+   "With no more heat from the stove, the pan cools in the air."
+  ],
+  [
+   "A thermometer reads 20 °C and is put into warm water at 40 °C. What will the thermometer show?",
+   "A higher temperature",
+   [
+    "A lower temperature",
+    "The same 20 °C",
+    "A negative temperature"
+   ],
+   "The thermometer warms up to match the warmer water."
+  ],
+  [
+   "A thermometer reads 22 °C and is put into a snowbank. What will the thermometer show?",
+   "A lower temperature",
+   [
+    "A higher temperature",
+    "The same 22 °C",
+    "Exactly 100 °C"
+   ],
+   "The thermometer loses heat to the colder snow."
+  ],
+  [
+   "A cold stone is placed in a warm pond. What happens to the pond water right next to the stone?",
+   "It gets a little cooler",
+   [
+    "It gets hotter",
+    "It boils",
+    "It freezes solid at once"
+   ],
+   "The water gives some heat to the cold stone."
+  ],
+  [
+   "You wrap a hot potato in a towel. How does this change its cooling?",
+   "It cools more slowly",
+   [
+    "It cools much faster",
+    "It heats up more",
+    "It freezes"
+   ],
+   "A towel insulates the potato, slowing heat loss."
+  ],
+  [
+   "A popsicle is taken out of the freezer. What happens to its temperature?",
+   "It increases",
+   [
+    "It decreases",
+    "It stays the same",
+    "It drops below the freezer temperature"
+   ],
+   "The warmer room air heats the popsicle."
+  ],
+  [
+   "A sunny window warms a cat lying beside it. What happens to the cat's fur temperature?",
+   "It increases",
+   [
+    "It decreases",
+    "It freezes",
+    "It stays exactly the same"
+   ],
+   "Sunlight warms the cat's fur."
+  ],
+  [
+   "A metal slide sits in the sun all afternoon. What will its temperature be like?",
+   "Hot",
+   [
+    "Freezing cold",
+    "Colder than the shade",
+    "Exactly the same as in the morning"
+   ],
+   "Sunlight heats the metal throughout the afternoon."
+  ],
+  [
+   "A hot pie is set beside a cold pie. What happens to the cold pie?",
+   "It warms up a little",
+   [
+    "It gets colder",
+    "It becomes hotter than the hot pie",
+    "It stays exactly the same"
+   ],
+   "Some heat flows from the hot pie to the cold pie."
+  ],
+  [
+   "Ice water is poured into a warm glass. What happens to the glass?",
+   "It gets colder",
+   [
+    "It gets warmer",
+    "It melts",
+    "It stays the same"
+   ],
+   "The glass loses heat to the colder ice water."
+  ]
+ ],
+ "sciXsPCcmp": [
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "Toasting bread until it turns brown",
+   [
+    "Cutting bread into slices",
+    "Squishing bread into a ball",
+    "Freezing bread"
+   ],
+   "Toasting makes new substances that give a brown colour and new smell."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Melting chocolate",
+   [
+    "Burning wood",
+    "Rusting a bike chain",
+    "Baking a cake"
+   ],
+   "Melted chocolate is still chocolate; only its state changed."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "Mixing baking soda and vinegar to make bubbles",
+   [
+    "Mixing sand and water",
+    "Stirring sugar into tea",
+    "Chopping carrots"
+   ],
+   "The bubbles are a new gas, carbon dioxide."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Dissolving sugar in water",
+   [
+    "Burning sugar",
+    "Rotting fruit",
+    "Cooking an egg"
+   ],
+   "The sugar is still there and can be recovered by evaporating the water."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "Frying an egg",
+   [
+    "Cracking an egg",
+    "Whisking an egg",
+    "Chilling an egg"
+   ],
+   "Heat changes the egg proteins into new substances that cannot go back."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Crushing a pop can",
+   [
+    "Burning gasoline",
+    "Leaves decaying",
+    "A battery powering a light"
+   ],
+   "A crushed can is still aluminum; only its shape changed."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "An apple slice turning brown in air",
+   [
+    "Cutting an apple",
+    "Peeling an apple",
+    "Freezing an apple"
+   ],
+   "Browning happens when substances in the apple react with oxygen."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Water evaporating from a puddle",
+   [
+    "Wood burning in a campfire",
+    "A copper roof turning green",
+    "Milk going sour"
+   ],
+   "Evaporation changes water from liquid to gas, but it is still water."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "A copper roof turning green over time",
+   [
+    "Bending a copper wire",
+    "Polishing a copper pot",
+    "Melting copper"
+   ],
+   "The green coating is a new substance formed by reaction with air and water."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Sharpening a pencil",
+   [
+    "Burning paper",
+    "Digesting food",
+    "Lighting a match"
+   ],
+   "Pencil shavings are still wood and graphite."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "Food being digested in your stomach",
+   [
+    "Chewing food into small pieces",
+    "Pouring juice",
+    "Freezing water"
+   ],
+   "Digestion breaks food down into new substances."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Folding a paper airplane",
+   [
+    "Burning a paper airplane",
+    "Paper yellowing in sunlight over years",
+    "Paper decaying in compost"
+   ],
+   "Folding changes only the shape of the paper."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "Lighting a match",
+   [
+    "Breaking a match",
+    "Wetting a match",
+    "Painting a match"
+   ],
+   "Burning makes new substances, heat and light."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Ice cream melting on a hot day",
+   [
+    "Leaves rotting on the ground",
+    "Cookies baking",
+    "Fireworks exploding"
+   ],
+   "Melted ice cream is still ice cream in liquid form."
+  ],
+  [
+   "Which is a clue that a <strong>chemical</strong> change has happened?",
+   "A new gas, colour or smell forms",
+   [
+    "The object changes shape",
+    "The object is cut in half",
+    "The object is moved to a new place"
+   ],
+   "New substances often give off gas, change colour or make a new smell."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Mixing salt and pepper",
+   [
+    "Burning toast",
+    "Rusting steel wool",
+    "Baking muffins"
+   ],
+   "Salt and pepper can be separated; no new substance is made."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "Leaves rotting in a compost bin",
+   [
+    "Raking leaves into a pile",
+    "Crunching dry leaves",
+    "Leaves blowing in wind"
+   ],
+   "Decomposition turns leaves into new substances like soil and gases."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Water freezing into ice",
+   [
+    "Wood turning to ash",
+    "Gasoline burning in a car",
+    "A cake rising in the oven"
+   ],
+   "Ice is still water; only its state changed."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "Cake batter baking into a cake",
+   [
+    "Stirring cake batter",
+    "Pouring batter into a pan",
+    "Chilling cake batter"
+   ],
+   "Heat causes reactions that make new substances and gas bubbles."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Tearing a piece of cloth",
+   [
+    "Burning a piece of cloth",
+    "Bleach removing a stain",
+    "Cloth rotting"
+   ],
+   "The torn cloth is still the same material."
+  ],
+  [
+   "Which is a <strong>chemical</strong> change?",
+   "A glow stick lighting up when bent",
+   [
+    "Bending a straw",
+    "Cutting a glow stick's wrapper",
+    "Rolling a glow stick"
+   ],
+   "Bending the stick mixes chemicals that react and give off light."
+  ],
+  [
+   "Which is a <strong>physical</strong> change?",
+   "Grinding coffee beans",
+   [
+    "Roasting coffee beans",
+    "Burning coffee beans",
+    "Coffee beans going mouldy"
+   ],
+   "Grinding changes size only; the beans are still coffee."
+  ]
+ ],
+ "sciFRC": [
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Opening a door toward you by its handle",
+   [
+    "Kicking a ball",
+    "Pressing a doorbell",
+    "Closing a drawer"
+   ],
+   "Bringing something toward you is a pull."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Pressing a button on an elevator",
+   [
+    "Pulling a sled",
+    "Picking up a backpack strap",
+    "Pulling a weed"
+   ],
+   "Pressing moves the button away from your finger, so it is a push."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Pulling a weed out of the garden",
+   [
+    "Pushing a swing",
+    "Kicking a ball",
+    "Pressing clay flat"
+   ],
+   "Lifting a weed toward you out of the soil is a pull."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Pushing a friend on a swing",
+   [
+    "Pulling up your socks",
+    "Reeling in a fish",
+    "Pulling a wagon"
+   ],
+   "Moving the swing away from you is a push."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Reeling in a fishing line",
+   [
+    "Throwing a ball",
+    "Pushing a cart",
+    "Hitting a puck"
+   ],
+   "Reeling brings the fish toward you, which is a pull."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Hitting a hockey puck with a stick",
+   [
+    "Pulling a rope",
+    "Opening a drawer",
+    "Pulling a zipper up"
+   ],
+   "The stick moves the puck away, so it is a push."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Zipping up a jacket",
+   [
+    "Pressing a stapler",
+    "Kicking a can",
+    "Pushing a stroller"
+   ],
+   "Zipping up pulls the zipper along its track."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Pushing a stroller",
+   [
+    "Pulling a toboggan",
+    "Pulling on boots",
+    "Reeling in a kite"
+   ],
+   "Moving the stroller ahead of you is a push."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Pulling a toboggan up a hill",
+   [
+    "Pushing a door shut",
+    "Throwing a snowball",
+    "Pressing a key"
+   ],
+   "Dragging the toboggan behind you is a pull."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Throwing a snowball",
+   [
+    "Pulling a sled",
+    "Pulling a curtain open",
+    "Tugging a rope"
+   ],
+   "Throwing moves the snowball away from you."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Pulling a curtain open",
+   [
+    "Pushing a wheelbarrow",
+    "Pressing a doorbell",
+    "Kicking a soccer ball"
+   ],
+   "Drawing the curtain toward you is a pull."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Pushing a wheelbarrow",
+   [
+    "Pulling a wagon",
+    "Opening a drawer",
+    "Pulling a rope in tug-of-war"
+   ],
+   "The wheelbarrow moves ahead as you push it."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Earth's gravity making an apple fall",
+   [
+    "Wind pushing a sailboat",
+    "A bat hitting a ball",
+    "A hand closing a door"
+   ],
+   "Gravity pulls objects toward Earth."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Wind moving a sailboat forward",
+   [
+    "A magnet attracting a nail",
+    "Gravity pulling a ball down",
+    "Pulling a kite string"
+   ],
+   "Wind pushes against the sail."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "A dog tugging on its leash",
+   [
+    "Pushing a toy car",
+    "Pressing playdough",
+    "Kicking a ball"
+   ],
+   "The dog moves the leash toward itself, which is a pull."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Pressing playdough flat",
+   [
+    "Pulling taffy",
+    "Picking an apple from a tree",
+    "Pulling a drawer"
+   ],
+   "Pressing down moves the playdough away from your hand."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Picking an apple from a tree",
+   [
+    "Pushing a door open",
+    "Bouncing a basketball",
+    "Kicking a stone"
+   ],
+   "You pull the apple off the branch toward you."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Bouncing a basketball",
+   [
+    "Pulling a rope",
+    "Pulling on a hat",
+    "Pulling a cart"
+   ],
+   "Pushing the ball down toward the floor makes it bounce."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Lifting a bucket by its handle",
+   [
+    "Pushing a box across the floor",
+    "Kicking a ball",
+    "Pressing a light switch"
+   ],
+   "Lifting a bucket by the handle pulls it up toward you."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "Pushing a box across the floor",
+   [
+    "Pulling on a rope",
+    "Pulling a wagon",
+    "Opening a cupboard door"
+   ],
+   "Moving the box away from you is a push."
+  ],
+  [
+   "Which of these is a <strong>pull</strong>?",
+   "Pulling on a pair of boots",
+   [
+    "Pushing a shopping cart",
+    "Pressing a button",
+    "Throwing a ball"
+   ],
+   "Drawing the boots up onto your feet is a pull."
+  ],
+  [
+   "Which of these is a <strong>push</strong>?",
+   "A bulldozer moving dirt in front of it",
+   [
+    "A tow truck towing a car",
+    "A horse pulling a cart",
+    "A magnet picking up pins"
+   ],
+   "The bulldozer moves the dirt ahead of it, so it is a push."
+  ]
+ ]
+}
