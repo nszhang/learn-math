@@ -1,0 +1,5552 @@
+{
+ "engCtNt": [
+  [
+   "What is the contraction for had not ?",
+   "hadn't",
+   [
+    "hasn't",
+    "haven't",
+    "hadnt'"
+   ],
+   "Join the words and replace the o in not with an apostrophe: had not becomes hadn't."
+  ],
+  [
+   "What is the contraction for must not ?",
+   "mustn't",
+   [
+    "mightn't",
+    "musn't",
+    "shouldn't"
+   ],
+   "Join the words and replace the o in not with an apostrophe: must not becomes mustn't."
+  ],
+  [
+   "What is the contraction for need not ?",
+   "needn't",
+   [
+    "neednt'",
+    "needn'",
+    "don't"
+   ],
+   "Join the words and replace the o in not with an apostrophe: need not becomes needn't."
+  ],
+  [
+   "Which two words make the contraction <strong>don't</strong>?",
+   "do not",
+   [
+    "did not",
+    "does not",
+    "done not"
+   ],
+   "Don't is short for do not."
+  ],
+  [
+   "Which two words make the contraction <strong>won't</strong>?",
+   "will not",
+   [
+    "would not",
+    "was not",
+    "were not"
+   ],
+   "Won't is a special contraction that means will not."
+  ],
+  [
+   "Which two words make the contraction <strong>isn't</strong>?",
+   "is not",
+   [
+    "it not",
+    "was not",
+    "are not"
+   ],
+   "Isn't is short for is not."
+  ],
+  [
+   "Which two words make the contraction <strong>can't</strong>?",
+   "cannot",
+   [
+    "could not",
+    "care not",
+    "come not"
+   ],
+   "Can't is short for cannot."
+  ],
+  [
+   "Which two words make the contraction <strong>couldn't</strong>?",
+   "could not",
+   [
+    "would not",
+    "can not",
+    "should not"
+   ],
+   "Couldn't is short for could not."
+  ],
+  [
+   "Which two words make the contraction <strong>wasn't</strong>?",
+   "was not",
+   [
+    "were not",
+    "is not",
+    "want not"
+   ],
+   "Wasn't is short for was not."
+  ],
+  [
+   "Which contraction is spelled correctly?",
+   "didn't",
+   [
+    "did'nt",
+    "didnt'",
+    "di'dnt"
+   ],
+   "The apostrophe goes where the o in not was removed: didn't."
+  ],
+  [
+   "Which contraction is spelled correctly?",
+   "shouldn't",
+   [
+    "should'nt",
+    "shouldnt'",
+    "shoul'dnt"
+   ],
+   "The apostrophe replaces the o in not: shouldn't."
+  ],
+  [
+   "What is the contraction for the words in bold? Tom <strong>does not</strong> like rain.",
+   "doesn't",
+   [
+    "don't",
+    "didn't",
+    "doen't"
+   ],
+   "The words in bold, does not, join to make doesn't."
+  ],
+  [
+   "What is the contraction for the words in bold? We <strong>could not</strong> find the trail.",
+   "couldn't",
+   [
+    "wouldn't",
+    "can't",
+    "coudn't"
+   ],
+   "The words in bold, could not, join to make couldn't."
+  ],
+  [
+   "What is the contraction for the words in bold? The bus <strong>was not</strong> on time.",
+   "wasn't",
+   [
+    "weren't",
+    "isn't",
+    "was'nt"
+   ],
+   "The words in bold, was not, join to make wasn't."
+  ],
+  [
+   "What is the contraction for the words in bold? I <strong>have not</strong> read that book.",
+   "haven't",
+   [
+    "hasn't",
+    "hadn't",
+    "havn't"
+   ],
+   "The words in bold, have not, join to make haven't."
+  ],
+  [
+   "What is the contraction for the words in bold? You <strong>should not</strong> run in the hall.",
+   "shouldn't",
+   [
+    "wouldn't",
+    "couldn't",
+    "shouldnt"
+   ],
+   "The words in bold, should not, join to make shouldn't."
+  ],
+  [
+   "What is the contraction for the words in bold? The twins <strong>are not</strong> home yet.",
+   "aren't",
+   [
+    "isn't",
+    "weren't",
+    "arn't"
+   ],
+   "The words in bold, are not, join to make aren't."
+  ],
+  [
+   "What is the contraction for the words in bold? My dog <strong>will not</strong> sit still.",
+   "won't",
+   [
+    "wouldn't",
+    "willn't",
+    "wasn't"
+   ],
+   "The words in bold, will not, join to make won't."
+  ],
+  [
+   "What is the contraction for the words in bold? She <strong>did not</strong> hear the bell.",
+   "didn't",
+   [
+    "doesn't",
+    "don't",
+    "did'nt"
+   ],
+   "The words in bold, did not, join to make didn't."
+  ],
+  [
+   "What is the contraction for the words in bold? It <strong>is not</strong> very cold today.",
+   "isn't",
+   [
+    "aren't",
+    "wasn't",
+    "is'nt"
+   ],
+   "The words in bold, is not, join to make isn't."
+  ],
+  [
+   "What is the contraction for the words in bold? They <strong>were not</strong> at the game.",
+   "weren't",
+   [
+    "wasn't",
+    "aren't",
+    "wern't"
+   ],
+   "The words in bold, were not, join to make weren't."
+  ],
+  [
+   "What is the contraction for the words in bold? Mia <strong>has not</strong> eaten lunch.",
+   "hasn't",
+   [
+    "haven't",
+    "hadn't",
+    "has'nt"
+   ],
+   "The words in bold, has not, join to make hasn't."
+  ]
+ ],
+ "engXCtSn": [
+  [
+   "Complete the sentence. ___ not ready yet. (I am)",
+   "I'm",
+   [
+    "I'll",
+    "I've",
+    "Im"
+   ],
+   "The contraction I'm is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ my best friend. (She is)",
+   "She's",
+   [
+    "She'll",
+    "She'd",
+    "Shes"
+   ],
+   "The contraction She's is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. We ___ go outside in the storm. (should not)",
+   "shouldn't",
+   [
+    "wouldn't",
+    "couldn't",
+    "shouldnt"
+   ],
+   "The contraction shouldn't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ bring snacks for everyone. (I will)",
+   "I'll",
+   [
+    "I'm",
+    "I've",
+    "Ill"
+   ],
+   "The contraction I'll is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. The cat ___ like baths. (does not)",
+   "doesn't",
+   [
+    "don't",
+    "didn't",
+    "isn't"
+   ],
+   "The contraction doesn't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ been to the zoo before. (They have)",
+   "They've",
+   [
+    "They're",
+    "They'll",
+    "Theyve"
+   ],
+   "The contraction They've is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. It ___ snowing anymore. (is not)",
+   "isn't",
+   [
+    "aren't",
+    "wasn't",
+    "doesn't"
+   ],
+   "The contraction isn't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ a sunny day today. (It is)",
+   "It's",
+   [
+    "Its",
+    "It'll",
+    "It'd"
+   ],
+   "The contraction It's is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ at the library. (He is)",
+   "He's",
+   [
+    "He'll",
+    "His",
+    "He'd"
+   ],
+   "The contraction He's is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. You ___ forget your boots. (must not)",
+   "mustn't",
+   [
+    "mightn't",
+    "shouldn't",
+    "needn't"
+   ],
+   "The contraction mustn't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ visit Grandma on Sunday. (We will)",
+   "We'll",
+   [
+    "We're",
+    "We've",
+    "Well"
+   ],
+   "The contraction We'll is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. I ___ hear the teacher. (could not)",
+   "couldn't",
+   [
+    "wouldn't",
+    "can't",
+    "didn't"
+   ],
+   "The contraction couldn't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ the best goalie on our team. (You are)",
+   "You're",
+   [
+    "Your",
+    "You'll",
+    "You've"
+   ],
+   "The contraction You're is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. The puppies ___ asleep yet. (are not)",
+   "aren't",
+   [
+    "isn't",
+    "weren't",
+    "don't"
+   ],
+   "The contraction aren't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ finished my homework. (I have)",
+   "I've",
+   [
+    "I'm",
+    "I'll",
+    "Ive"
+   ],
+   "The contraction I've is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. She ___ at school yesterday. (was not)",
+   "wasn't",
+   [
+    "weren't",
+    "isn't",
+    "won't"
+   ],
+   "The contraction wasn't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ going to win the race! (They are)",
+   "They're",
+   [
+    "There",
+    "Their",
+    "They've"
+   ],
+   "The contraction They're is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. We ___ seen that movie. (have not)",
+   "haven't",
+   [
+    "hasn't",
+    "hadn't",
+    "haven"
+   ],
+   "The contraction haven't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. Dad ___ eat mushrooms. (will not)",
+   "won't",
+   [
+    "wouldn't",
+    "willn't",
+    "wasn't"
+   ],
+   "The contraction won't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ like to play tag. (We would)",
+   "We'd",
+   [
+    "We'll",
+    "Wed",
+    "We're"
+   ],
+   "The contraction We'd is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. The bus ___ come on time. (did not)",
+   "didn't",
+   [
+    "doesn't",
+    "don't",
+    "wasn't"
+   ],
+   "The contraction didn't is the short form of the words in brackets."
+  ],
+  [
+   "Complete the sentence. ___ raining outside. (It is)",
+   "It's",
+   [
+    "Its",
+    "Its'",
+    "It'll"
+   ],
+   "The contraction It's is the short form of the words in brackets."
+  ]
+ ],
+ "engCpSI": [
+  [
+   "Which sentence is capitalized correctly?",
+   "I like to read at night.",
+   [
+    "i like to read at night.",
+    "I like to read at night",
+    "i Like to read at night."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Can I have a turn?",
+   [
+    "can i have a turn?",
+    "Can i have a turn?",
+    "can I have a turn?"
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "My sister and I play chess.",
+   [
+    "my sister and i play chess.",
+    "My sister and i play chess.",
+    "my sister and I play chess."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Yesterday I lost a tooth.",
+   [
+    "yesterday i lost a tooth.",
+    "Yesterday i lost a tooth.",
+    "yesterday I lost a tooth."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "The dog barked at me.",
+   [
+    "the dog barked at me.",
+    "The Dog barked at me.",
+    "the Dog barked at me."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "I think it will snow.",
+   [
+    "i think it will snow.",
+    "I Think it will snow.",
+    "i Think it will snow."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "We went to the beach.",
+   [
+    "we went to the beach.",
+    "We Went to the beach.",
+    "we Went to the beach."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Dad and I fixed the bike.",
+   [
+    "dad and i fixed the bike.",
+    "Dad and i fixed the bike.",
+    "dad and I fixed the bike."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Am I late for class?",
+   [
+    "am i late for class?",
+    "Am i late for class?",
+    "am I late for class?"
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Our cat sleeps all day.",
+   [
+    "our cat sleeps all day.",
+    "Our Cat sleeps all day.",
+    "our Cat sleeps all day."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "At recess I played tag.",
+   [
+    "at recess i played tag.",
+    "At recess i played tag.",
+    "at recess I played tag."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "I have two goldfish.",
+   [
+    "i have two goldfish.",
+    "I Have two goldfish.",
+    "i Have two goldfish."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "The bus is late today.",
+   [
+    "the bus is late today.",
+    "The bus is late Today.",
+    "the Bus is late today."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Then I washed my hands.",
+   [
+    "then i washed my hands.",
+    "Then i washed my hands.",
+    "then I washed my hands."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "She and I are cousins.",
+   [
+    "she and i are cousins.",
+    "She and i are cousins.",
+    "she and I are cousins."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Look at the big moose!",
+   [
+    "look at the big moose!",
+    "Look at the Big moose!",
+    "look at the big Moose!"
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "I can tie my shoes.",
+   [
+    "i can tie my shoes.",
+    "I Can tie my shoes.",
+    "i can Tie my shoes."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "May I go outside?",
+   [
+    "may i go outside?",
+    "May i go outside?",
+    "may I go outside?"
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Ben and I built a fort.",
+   [
+    "ben and i built a fort.",
+    "Ben and i built a fort.",
+    "ben and I built a fort."
+   ],
+   "A sentence starts with a capital letter, and the word I is always a capital letter."
+  ],
+  [
+   "Which word should be capitalized? <em>my brother and i like pizza.</em>",
+   "my and i",
+   [
+    "brother and pizza",
+    "like and pizza",
+    "brother and like"
+   ],
+   "The first word of a sentence and the word I always get capital letters."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "When can I swim?",
+   [
+    "when can i swim?",
+    "When can i swim?",
+    "when can I swim?"
+   ],
+   "Start the sentence with a capital W and always write I as a capital."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Every day I walk to school.",
+   [
+    "every day i walk to school.",
+    "Every day i walk to school.",
+    "every day I walk to school."
+   ],
+   "Start the sentence with a capital letter and write I as a capital."
+  ]
+ ],
+ "engXRhRd": [
+  [
+   "It rhymes with bed. It is the colour of a fire truck. What is it?",
+   "red",
+   [
+    "rad",
+    "rde",
+    "redd"
+   ],
+   "Red answers the riddle and is spelled r-e-d."
+  ],
+  [
+   "It rhymes with sun. You eat a hot dog in it. What is it?",
+   "bun",
+   [
+    "ban",
+    "bnu",
+    "bunn"
+   ],
+   "Bun answers the riddle and is spelled b-u-n."
+  ],
+  [
+   "It rhymes with rain. It runs on tracks. What is it?",
+   "train",
+   [
+    "trane",
+    "tran",
+    "trian"
+   ],
+   "Train answers the riddle and is spelled t-r-a-i-n."
+  ],
+  [
+   "It rhymes with bake. It is full of water and ducks swim on it. What is it?",
+   "lake",
+   [
+    "laek",
+    "lak",
+    "leke"
+   ],
+   "Lake answers the riddle and is spelled l-a-k-e."
+  ],
+  [
+   "It rhymes with hair. It is a big brown animal that sleeps all winter. What is it?",
+   "bear",
+   [
+    "baer",
+    "ber",
+    "bair"
+   ],
+   "Bear answers the riddle and is spelled b-e-a-r."
+  ],
+  [
+   "It rhymes with book. He makes food in a kitchen. What is it?",
+   "cook",
+   [
+    "cuk",
+    "coke",
+    "kook"
+   ],
+   "Cook answers the riddle and is spelled c-o-o-k."
+  ],
+  [
+   "It rhymes with bug. You drink hot cocoa from it. What is it?",
+   "mug",
+   [
+    "mag",
+    "mugg",
+    "mgu"
+   ],
+   "Mug answers the riddle and is spelled m-u-g."
+  ],
+  [
+   "It rhymes with light. You fly it on a windy day. What is it?",
+   "kite",
+   [
+    "kit",
+    "kiet",
+    "kyte"
+   ],
+   "Kite answers the riddle and is spelled k-i-t-e."
+  ],
+  [
+   "It rhymes with nose. It is a flower with thorns. What is it?",
+   "rose",
+   [
+    "rows",
+    "roes",
+    "rouse"
+   ],
+   "Rose answers the riddle and is spelled r-o-s-e."
+  ],
+  [
+   "It rhymes with sing. A bird uses it to fly. What is it?",
+   "wing",
+   [
+    "wign",
+    "weng",
+    "wingg"
+   ],
+   "Wing answers the riddle and is spelled w-i-n-g."
+  ],
+  [
+   "It rhymes with bark. It is a fish with sharp teeth. What is it?",
+   "shark",
+   [
+    "sherk",
+    "shrak",
+    "sharc"
+   ],
+   "Shark answers the riddle and is spelled s-h-a-r-k."
+  ],
+  [
+   "It rhymes with chair. It is a round fruit that is green or yellow. What is it?",
+   "pear",
+   [
+    "pair",
+    "paer",
+    "peer"
+   ],
+   "Pear answers the riddle and is spelled p-e-a-r."
+  ],
+  [
+   "It rhymes with jam. It is a baby sheep. What is it?",
+   "lamb",
+   [
+    "lam",
+    "lamm",
+    "lmab"
+   ],
+   "Lamb answers the riddle and is spelled l-a-m-b."
+  ],
+  [
+   "It rhymes with seat. You walk on them. What is it?",
+   "feet",
+   [
+    "feat",
+    "fete",
+    "feett"
+   ],
+   "Feet answers the riddle and is spelled f-e-e-t."
+  ],
+  [
+   "It rhymes with boat. It has horns and says maa. What is it?",
+   "goat",
+   [
+    "gote",
+    "gaot",
+    "gowt"
+   ],
+   "Goat answers the riddle and is spelled g-o-a-t."
+  ],
+  [
+   "It rhymes with ball. It is very high, like a giraffe. What is it?",
+   "tall",
+   [
+    "tal",
+    "tawl",
+    "tall'"
+   ],
+   "Tall answers the riddle and is spelled t-a-l-l."
+  ],
+  [
+   "It rhymes with fox. You put toys in it. What is it?",
+   "box",
+   [
+    "boks",
+    "bax",
+    "bxo"
+   ],
+   "Box answers the riddle and is spelled b-o-x."
+  ],
+  [
+   "It rhymes with game. It is what people call you. What is it?",
+   "name",
+   [
+    "naem",
+    "nam",
+    "neme"
+   ],
+   "Name answers the riddle and is spelled n-a-m-e."
+  ],
+  [
+   "It rhymes with nest. It is the opposite of worst. What is it?",
+   "best",
+   [
+    "bets",
+    "bist",
+    "bestt"
+   ],
+   "Best answers the riddle and is spelled b-e-s-t."
+  ],
+  [
+   "It rhymes with jar. It twinkles in the night sky. What is it?",
+   "star",
+   [
+    "stra",
+    "ster",
+    "starr"
+   ],
+   "Star answers the riddle and is spelled s-t-a-r."
+  ],
+  [
+   "It rhymes with dish. You make one when you blow out candles. What is it?",
+   "wish",
+   [
+    "wsih",
+    "whish",
+    "wich"
+   ],
+   "Wish answers the riddle and is spelled w-i-s-h."
+  ],
+  [
+   "It rhymes with pig. It means very large. What is it?",
+   "big",
+   [
+    "bigg",
+    "bgi",
+    "beg"
+   ],
+   "Big answers the riddle and is spelled b-i-g."
+  ]
+ ],
+ "engXDg": [
+  [
+   "📊 Complete the word: gra__",
+   "ph",
+   [
+    "qu",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph ph."
+  ],
+  [
+   "🔮 Complete the word: s__ere",
+   "ph",
+   [
+    "qu",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph ph."
+  ],
+  [
+   "🦆 Complete the word: a duck says __ack",
+   "qu",
+   [
+    "ph",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph qu."
+  ],
+  [
+   "❓ Complete the word: __at",
+   "wh",
+   [
+    "ph",
+    "qu",
+    "kn"
+   ],
+   "The word needs the digraph wh."
+  ],
+  [
+   "🤫 Complete the word: __iet",
+   "qu",
+   [
+    "ph",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph qu."
+  ],
+  [
+   "🪙 Complete the word: __arter",
+   "qu",
+   [
+    "ph",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph qu."
+  ],
+  [
+   "🛑 (to stop) Complete the word: __it",
+   "qu",
+   [
+    "ph",
+    "wh",
+    "dr"
+   ],
+   "The word needs the digraph qu."
+  ],
+  [
+   "🌪️ Complete the word: __irl",
+   "wh",
+   [
+    "ph",
+    "qu",
+    "th"
+   ],
+   "The word needs the digraph wh."
+  ],
+  [
+   "🎵 Complete the word: __istle",
+   "wh",
+   [
+    "ph",
+    "qu",
+    "sk"
+   ],
+   "The word needs the digraph wh."
+  ],
+  [
+   "🐘 Complete the word: ele__ant",
+   "ph",
+   [
+    "qu",
+    "wh",
+    "ch"
+   ],
+   "The word needs the digraph ph."
+  ],
+  [
+   "🏆 Complete the word: tro__y",
+   "ph",
+   [
+    "qu",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph ph."
+  ],
+  [
+   "⏱️ Complete the word: __ick",
+   "qu",
+   [
+    "ph",
+    "wh",
+    "gw"
+   ],
+   "The word needs the digraph qu."
+  ],
+  [
+   "🧩 Complete the word: __estion",
+   "qu",
+   [
+    "ph",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph qu."
+  ],
+  [
+   "🦄 Complete the word: __isper",
+   "wh",
+   [
+    "ph",
+    "qu",
+    "th"
+   ],
+   "The word needs the digraph wh."
+  ],
+  [
+   "🔤 Complete the word: al__abet",
+   "ph",
+   [
+    "qu",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph ph."
+  ],
+  [
+   "🦑 Complete the word: s__id",
+   "qu",
+   [
+    "ph",
+    "wh",
+    "t"
+   ],
+   "The word needs the digraph qu."
+  ],
+  [
+   "⏰ Complete the word: __en is lunch?",
+   "wh",
+   [
+    "ph",
+    "qu",
+    "fr"
+   ],
+   "The word needs the digraph wh."
+  ],
+  [
+   "🎤 Complete the word: micro__one",
+   "ph",
+   [
+    "qu",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph ph."
+  ],
+  [
+   "🪶 Complete the word: __ill pen",
+   "qu",
+   [
+    "ph",
+    "wh",
+    "sm"
+   ],
+   "The word needs the digraph qu."
+  ],
+  [
+   "🤔 Complete the word: __y? (asking for a reason)",
+   "wh",
+   [
+    "ph",
+    "qu",
+    "kn"
+   ],
+   "The word needs the digraph wh."
+  ],
+  [
+   "📸 Complete the word: __otograph",
+   "ph",
+   [
+    "qu",
+    "wh",
+    "th"
+   ],
+   "The word needs the digraph ph."
+  ],
+  [
+   "🧭 Complete the word: __ite (colour of snow)",
+   "wh",
+   [
+    "ph",
+    "qu",
+    "gr"
+   ],
+   "The word needs the digraph wh."
+  ]
+ ],
+ "engXDgS": [
+  [
+   "🐘 Which is the correct spelling?",
+   "elephant",
+   [
+    "elefant",
+    "elephent",
+    "eliphant"
+   ],
+   "Elephant is spelled with the digraph ph."
+  ],
+  [
+   "🏆 Which is the correct spelling?",
+   "trophy",
+   [
+    "trofy",
+    "trophie",
+    "torphy"
+   ],
+   "Trophy is spelled with the digraph ph."
+  ],
+  [
+   "📊 Which is the correct spelling?",
+   "graph",
+   [
+    "graf",
+    "grahp",
+    "graph'"
+   ],
+   "Graph is spelled with the digraph ph."
+  ],
+  [
+   "🎤 Which is the correct spelling?",
+   "microphone",
+   [
+    "microfone",
+    "micraphone",
+    "microphon"
+   ],
+   "Microphone is spelled with the digraph ph."
+  ],
+  [
+   "🦑 Which is the correct spelling?",
+   "squid",
+   [
+    "skwid",
+    "sqiud",
+    "squed"
+   ],
+   "Squid is spelled with the digraph qu."
+  ],
+  [
+   "🪙 Which is the correct spelling?",
+   "quarter",
+   [
+    "qarter",
+    "quater",
+    "kwarter"
+   ],
+   "Quarter is spelled with the digraph qu."
+  ],
+  [
+   "❓ Which is the correct spelling?",
+   "question",
+   [
+    "qestion",
+    "kwestion",
+    "quesion"
+   ],
+   "Question is spelled with the digraph qu."
+  ],
+  [
+   "🤫 Which is the correct spelling?",
+   "quiet",
+   [
+    "qiet",
+    "quite",
+    "kwiet"
+   ],
+   "Quiet is spelled with the digraph qu."
+  ],
+  [
+   "⚪ Which is the correct spelling?",
+   "white",
+   [
+    "wite",
+    "whight",
+    "whiet"
+   ],
+   "White is spelled with the digraph wh."
+  ],
+  [
+   "🐱 Which is the correct spelling?",
+   "whiskers",
+   [
+    "wiskers",
+    "whiskars",
+    "hwiskers"
+   ],
+   "Whiskers is spelled with the digraph wh."
+  ],
+  [
+   "🪶 Which is the correct spelling?",
+   "quill",
+   [
+    "qill",
+    "kwill",
+    "quil"
+   ],
+   "Quill is spelled with the digraph qu."
+  ],
+  [
+   "🐿️ Which is the correct spelling?",
+   "squirrel",
+   [
+    "sqirrel",
+    "skwirrel",
+    "squirel"
+   ],
+   "Squirrel is spelled with the digraph qu."
+  ],
+  [
+   "♿ Which is the correct spelling?",
+   "wheelchair",
+   [
+    "weelchair",
+    "wheelchar",
+    "wheilchair"
+   ],
+   "Wheelchair is spelled with the digraph wh."
+  ],
+  [
+   "🎧 Which is the correct spelling?",
+   "headphones",
+   [
+    "headfones",
+    "headphons",
+    "hedphones"
+   ],
+   "Headphones is spelled with the digraph ph."
+  ],
+  [
+   "📝 Which is the correct spelling?",
+   "quiz",
+   [
+    "qiz",
+    "kwiz",
+    "quizz"
+   ],
+   "Quiz is spelled with the digraph qu."
+  ],
+  [
+   "🟰 Which is the correct spelling?",
+   "equal",
+   [
+    "eqal",
+    "ekwal",
+    "equel"
+   ],
+   "Equal is spelled with the digraph qu."
+  ],
+  [
+   "🔮 Which is the correct spelling?",
+   "sphere",
+   [
+    "sfere",
+    "spere",
+    "sphear"
+   ],
+   "Sphere is spelled with the digraph ph."
+  ],
+  [
+   "📸 Which is the correct spelling?",
+   "photograph",
+   [
+    "fotograph",
+    "photagraph",
+    "photograf"
+   ],
+   "Photograph is spelled with the digraph ph."
+  ],
+  [
+   "🔤 Which is the correct spelling?",
+   "alphabet",
+   [
+    "alfabet",
+    "alphebet",
+    "alpabet"
+   ],
+   "Alphabet is spelled with the digraph ph."
+  ],
+  [
+   "📣 Which is the correct spelling?",
+   "whistle",
+   [
+    "wistle",
+    "whisle",
+    "whistel"
+   ],
+   "Whistle is spelled with the digraph wh."
+  ],
+  [
+   "🦆 Which is the correct spelling?",
+   "quack",
+   [
+    "qack",
+    "kwack",
+    "quak"
+   ],
+   "Quack is spelled with the digraph qu."
+  ],
+  [
+   "💊 Which is the correct spelling?",
+   "pharmacy",
+   [
+    "farmacy",
+    "pharmasy",
+    "phamracy"
+   ],
+   "Pharmacy is spelled with the digraph ph."
+  ]
+ ],
+ "engXB3S": [
+  [
+   "Complete the sentence. Zebras have a black and white ___ pattern.",
+   "stripe",
+   [
+    "splash",
+    "shrimp",
+    "throne"
+   ],
+   "stripe fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. Look both ways before you cross the ___.",
+   "street",
+   [
+    "stream",
+    "scream",
+    "sprout"
+   ],
+   "street fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. I ate a juicy red ___.",
+   "strawberry",
+   [
+    "string",
+    "spray",
+    "squeak"
+   ],
+   "strawberry fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. The fish swam down the ___.",
+   "stream",
+   [
+    "street",
+    "strap",
+    "shrink"
+   ],
+   "stream fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. I got a ___ in my finger from the wood.",
+   "splinter",
+   [
+    "spring",
+    "scratch",
+    "three"
+   ],
+   "splinter fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. Mom will ___ the apple in half.",
+   "split",
+   [
+    "sprint",
+    "shred",
+    "strap"
+   ],
+   "split fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. Please ___ some water on the plants.",
+   "spray",
+   [
+    "stray",
+    "splint",
+    "throat"
+   ],
+   "spray fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. A tiny green ___ came up from the seed.",
+   "sprout",
+   [
+    "shrimp",
+    "scrub",
+    "stripe"
+   ],
+   "sprout fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. I ___ butter on my toast.",
+   "spread",
+   [
+    "squeeze",
+    "strike",
+    "throne"
+   ],
+   "spread fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. ___ the lemon to get the juice.",
+   "Squeeze",
+   [
+    "Spread",
+    "Shrink",
+    "Strike"
+   ],
+   "Squeeze fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. A ___ has four equal sides.",
+   "square",
+   [
+    "scream",
+    "string",
+    "shrub"
+   ],
+   "square fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. The mouse gave a little ___.",
+   "squeak",
+   [
+    "scrape",
+    "throat",
+    "stream"
+   ],
+   "squeak fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. Use a brush to ___ the dirty pot.",
+   "scrub",
+   [
+    "strum",
+    "sprout",
+    "squid"
+   ],
+   "scrub fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. The cat will ___ the post with its claws.",
+   "scratch",
+   [
+    "splash",
+    "street",
+    "shrimp"
+   ],
+   "scratch fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. We watched a movie on the big ___.",
+   "screen",
+   [
+    "stream",
+    "spring",
+    "thread"
+   ],
+   "screen fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. I have ___ pencils in my bag.",
+   "three",
+   [
+    "throw",
+    "shrink",
+    "strap"
+   ],
+   "three fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. My ___ is sore, so I drink warm tea.",
+   "throat",
+   [
+    "throne",
+    "scratch",
+    "spray"
+   ],
+   "throat fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. Grandma used a needle and ___ to sew the button.",
+   "thread",
+   [
+    "throat",
+    "stripe",
+    "squeak"
+   ],
+   "thread fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. If you wash wool in hot water, it may ___.",
+   "shrink",
+   [
+    "shriek",
+    "sprout",
+    "scrub"
+   ],
+   "shrink fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. The king sat on his ___.",
+   "throne",
+   [
+    "throat",
+    "screen",
+    "strap"
+   ],
+   "throne fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. A ___ is a small sea animal with a shell and many legs.",
+   "shrimp",
+   [
+    "shrink",
+    "splash",
+    "square"
+   ],
+   "shrimp fits the sentence and begins with a three-letter blend."
+  ],
+  [
+   "Complete the sentence. My backpack ___ broke, so I carried it in my arms.",
+   "strap",
+   [
+    "scrap",
+    "sprout",
+    "three"
+   ],
+   "strap fits the sentence and begins with a three-letter blend."
+  ]
+ ],
+ "engSlLt": [
+  [
+   "Complete the word. I scraped my __ee when I fell.",
+   "kn",
+   [
+    "k",
+    "n",
+    "wr"
+   ],
+   "The missing letters are kn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. The __ight wore shiny armour.",
+   "kn",
+   [
+    "k",
+    "gn",
+    "n"
+   ],
+   "The missing letters are kn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. Grandpa likes to __it warm socks.",
+   "kn",
+   [
+    "k",
+    "n",
+    "wr"
+   ],
+   "The missing letters are kn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. Turn the door __ob to open it.",
+   "kn",
+   [
+    "k",
+    "n",
+    "gn"
+   ],
+   "The missing letters are kn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. I hurt my __uckle on the table.",
+   "kn",
+   [
+    "k",
+    "n",
+    "wr"
+   ],
+   "The missing letters are kn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. Please __ap the present in paper.",
+   "wr",
+   [
+    "r",
+    "w",
+    "kn"
+   ],
+   "The missing letters are wr; one of the letters is silent."
+  ],
+  [
+   "Complete the word. Oops, that answer is __ong.",
+   "wr",
+   [
+    "r",
+    "w",
+    "gn"
+   ],
+   "The missing letters are wr; one of the letters is silent."
+  ],
+  [
+   "Complete the word. We hung a holiday __eath on the door.",
+   "wr",
+   [
+    "r",
+    "w",
+    "kn"
+   ],
+   "The missing letters are wr; one of the letters is silent."
+  ],
+  [
+   "Complete the word. A tiny __en sang in the bush.",
+   "wr",
+   [
+    "r",
+    "w",
+    "gn"
+   ],
+   "The missing letters are wr; one of the letters is silent."
+  ],
+  [
+   "Complete the word. My shirt has a __inkle in it.",
+   "wr",
+   [
+    "r",
+    "w",
+    "kn"
+   ],
+   "The missing letters are wr; one of the letters is silent."
+  ],
+  [
+   "Complete the word. The dog likes to __aw on a bone.",
+   "gn",
+   [
+    "n",
+    "g",
+    "kn"
+   ],
+   "The missing letters are gn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. A __at is a tiny flying bug.",
+   "gn",
+   [
+    "n",
+    "g",
+    "wr"
+   ],
+   "The missing letters are gn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. Stop at the red stop si__ .",
+   "gn",
+   [
+    "n",
+    "g",
+    "mb"
+   ],
+   "The missing letters are gn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. The beaver will __aw through the tree.",
+   "gn",
+   [
+    "n",
+    "g",
+    "kn"
+   ],
+   "The missing letters are gn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. We will cli__ to the top of the hill.",
+   "mb",
+   [
+    "m",
+    "b",
+    "mm"
+   ],
+   "The missing letters are mb; one of the letters is silent."
+  ],
+  [
+   "Complete the word. A cookie cru__ fell on the floor.",
+   "mb",
+   [
+    "m",
+    "b",
+    "mm"
+   ],
+   "The missing letters are mb; one of the letters is silent."
+  ],
+  [
+   "Complete the word. My fingers felt nu__ in the cold.",
+   "mb",
+   [
+    "m",
+    "b",
+    "mm"
+   ],
+   "The missing letters are mb; one of the letters is silent."
+  ],
+  [
+   "Complete the word. The plu__er fixed our leaky sink.",
+   "mb",
+   [
+    "m",
+    "b",
+    "mm"
+   ],
+   "The missing letters are mb; one of the letters is silent."
+  ],
+  [
+   "Complete the word. I will __estle with my brother on the mat.",
+   "wr",
+   [
+    "r",
+    "w",
+    "kn"
+   ],
+   "The missing letters are wr; one of the letters is silent."
+  ],
+  [
+   "Complete the word. A bird's beak is made for pecking. A beaver's teeth are made to __aw.",
+   "gn",
+   [
+    "n",
+    "g",
+    "kn"
+   ],
+   "The missing letters are gn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. The baby will __eel on the rug.",
+   "kn",
+   [
+    "k",
+    "n",
+    "wr"
+   ],
+   "The missing letters are kn; one of the letters is silent."
+  ],
+  [
+   "Complete the word. Our team wore a __ist band with our logo.",
+   "wr",
+   [
+    "r",
+    "w",
+    "kn"
+   ],
+   "The missing letters are wr; one of the letters is silent."
+  ]
+ ],
+ "engXSpA": [
+  [
+   "✋ Which is the correct spelling?",
+   "hand",
+   [
+    "hend",
+    "hund",
+    "hnad"
+   ],
+   "Hand has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🪔 Which is the correct spelling?",
+   "lamp",
+   [
+    "lemp",
+    "lamb",
+    "lmap"
+   ],
+   "Lamp has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🪭 Which is the correct spelling?",
+   "fan",
+   [
+    "fen",
+    "fin",
+    "fna"
+   ],
+   "Fan has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🍎 Which is the correct spelling?",
+   "apple",
+   [
+    "aple",
+    "appel",
+    "epple"
+   ],
+   "Apple has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🐀 Which is the correct spelling?",
+   "rat",
+   [
+    "rot",
+    "rta",
+    "ret"
+   ],
+   "Rat has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🌵 Which is the correct spelling?",
+   "cactus",
+   [
+    "kactus",
+    "cactis",
+    "catcus"
+   ],
+   "Cactus has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🎭 Which is the correct spelling?",
+   "mask",
+   [
+    "mesk",
+    "msak",
+    "mosk"
+   ],
+   "Mask has the short a sound, spelled with the letter a."
+  ],
+  [
+   "👨 Which is the correct spelling?",
+   "man",
+   [
+    "men",
+    "mna",
+    "mun"
+   ],
+   "Man has the short a sound, spelled with the letter a."
+  ],
+  [
+   "👖 Which is the correct spelling?",
+   "pants",
+   [
+    "pents",
+    "pnats",
+    "punts"
+   ],
+   "Pants has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🛁 Which is the correct spelling?",
+   "bath",
+   [
+    "beth",
+    "bahth",
+    "bth"
+   ],
+   "Bath has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🔨 Which is the correct spelling?",
+   "hammer",
+   [
+    "hamer",
+    "hemmer",
+    "hammar"
+   ],
+   "Hammer has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🪓 Which is the correct spelling?",
+   "axe",
+   [
+    "ex",
+    "aks",
+    "exe"
+   ],
+   "Axe has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🚕 Which is the correct spelling?",
+   "cab",
+   [
+    "cob",
+    "cba",
+    "cub"
+   ],
+   "Cab has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🏷️ Which is the correct spelling?",
+   "tag",
+   [
+    "teg",
+    "tga",
+    "tog"
+   ],
+   "Tag has the short a sound, spelled with the letter a."
+  ],
+  [
+   "⛺ Which is the correct spelling?",
+   "camp",
+   [
+    "kamp",
+    "cemp",
+    "cmap"
+   ],
+   "Camp has the short a sound, spelled with the letter a."
+  ],
+  [
+   "😢 Which is the correct spelling?",
+   "sad",
+   [
+    "sed",
+    "sda",
+    "sod"
+   ],
+   "Sad has the short a sound, spelled with the letter a."
+  ],
+  [
+   "😴 Which is the correct spelling?",
+   "nap",
+   [
+    "nep",
+    "npa",
+    "nip"
+   ],
+   "Nap has the short a sound, spelled with the letter a."
+  ],
+  [
+   "👏 Which is the correct spelling?",
+   "clap",
+   [
+    "clep",
+    "calp",
+    "clop"
+   ],
+   "Clap has the short a sound, spelled with the letter a."
+  ],
+  [
+   "⬛ Which is the correct spelling?",
+   "black",
+   [
+    "blak",
+    "bleck",
+    "blcak"
+   ],
+   "Black has the short a sound, spelled with the letter a."
+  ],
+  [
+   "💵 Which is the correct spelling?",
+   "cash",
+   [
+    "cesh",
+    "cahs",
+    "kash"
+   ],
+   "Cash has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🌱 Which is the correct spelling?",
+   "plant",
+   [
+    "plent",
+    "palnt",
+    "plnat"
+   ],
+   "Plant has the short a sound, spelled with the letter a."
+  ],
+  [
+   "🛤️ Which is the correct spelling?",
+   "track",
+   [
+    "trak",
+    "treck",
+    "tarck"
+   ],
+   "Track has the short a sound, spelled with the letter a."
+  ]
+ ],
+ "engXSpI": [
+  [
+   "🤐 Which is the correct spelling?",
+   "zip",
+   [
+    "zap",
+    "zpi",
+    "zep"
+   ],
+   "Zip has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🏊 Which is the correct spelling?",
+   "swim",
+   [
+    "swem",
+    "swmi",
+    "swam"
+   ],
+   "Swim has the short i sound, spelled with the letter i."
+  ],
+  [
+   "💍 Which is the correct spelling?",
+   "ring",
+   [
+    "reng",
+    "rnig",
+    "rang"
+   ],
+   "Ring has the short i sound, spelled with the letter i."
+  ],
+  [
+   "👑 Which is the correct spelling?",
+   "king",
+   [
+    "keng",
+    "kign",
+    "kang"
+   ],
+   "King has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🌉 Which is the correct spelling?",
+   "bridge",
+   [
+    "brige",
+    "bredge",
+    "brigde"
+   ],
+   "Bridge has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🧤 Which is the correct spelling?",
+   "mittens",
+   [
+    "mittins",
+    "mitens",
+    "mettens"
+   ],
+   "Mittens has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🍟 Which is the correct spelling?",
+   "chips",
+   [
+    "chps",
+    "cheps",
+    "chisp"
+   ],
+   "Chips has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🚰 Which is the correct spelling?",
+   "sink",
+   [
+    "senk",
+    "snik",
+    "sinc"
+   ],
+   "Sink has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🖋️ Which is the correct spelling?",
+   "ink",
+   [
+    "enk",
+    "ikn",
+    "inc"
+   ],
+   "Ink has the short i sound, spelled with the letter i."
+  ],
+  [
+   "💊 Which is the correct spelling?",
+   "pills",
+   [
+    "pils",
+    "pells",
+    "plils"
+   ],
+   "Pills has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🏒 Which is the correct spelling?",
+   "stick",
+   [
+    "stik",
+    "steck",
+    "stcik"
+   ],
+   "Stick has the short i sound, spelled with the letter i."
+  ],
+  [
+   "👯 Which is the correct spelling?",
+   "twins",
+   [
+    "twens",
+    "tiwns",
+    "twinz"
+   ],
+   "Twins has the short i sound, spelled with the letter i."
+  ],
+  [
+   "✊ Which is the correct spelling?",
+   "fist",
+   [
+    "fest",
+    "fsit",
+    "fiss"
+   ],
+   "Fist has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🍽️ Which is the correct spelling?",
+   "dish",
+   [
+    "desh",
+    "dihs",
+    "dich"
+   ],
+   "Dish has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🐱 Which is the correct spelling?",
+   "kitten",
+   [
+    "kiten",
+    "ketten",
+    "kittin"
+   ],
+   "Kitten has the short i sound, spelled with the letter i."
+  ],
+  [
+   "⛰️ Which is the correct spelling?",
+   "hill",
+   [
+    "hil",
+    "hell",
+    "hlil"
+   ],
+   "Hill has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🌬️ Which is the correct spelling?",
+   "wind",
+   [
+    "wend",
+    "wnid",
+    "windd"
+   ],
+   "Wind has the short i sound, spelled with the letter i."
+  ],
+  [
+   "😉 Which is the correct spelling?",
+   "wink",
+   [
+    "wenk",
+    "wnik",
+    "winc"
+   ],
+   "Wink has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🐔 Which is the correct spelling?",
+   "chicken",
+   [
+    "chiken",
+    "checken",
+    "chikcen"
+   ],
+   "Chicken has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🦎 Which is the correct spelling?",
+   "lizard",
+   [
+    "lizzard",
+    "lezard",
+    "lizerd"
+   ],
+   "Lizard has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🧺 Which is the correct spelling?",
+   "picnic",
+   [
+    "picnik",
+    "pecnic",
+    "pikcnic"
+   ],
+   "Picnic has the short i sound, spelled with the letter i."
+  ],
+  [
+   "🥤 Which is the correct spelling?",
+   "drink",
+   [
+    "drenk",
+    "drnik",
+    "drinc"
+   ],
+   "Drink has the short i sound, spelled with the letter i."
+  ]
+ ],
+ "engXSpO": [
+  [
+   "🐙 Which is the correct spelling?",
+   "octopus",
+   [
+    "actopus",
+    "octepus",
+    "otcopus"
+   ],
+   "Octopus has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🦦 Which is the correct spelling?",
+   "otter",
+   [
+    "oter",
+    "atter",
+    "ottar"
+   ],
+   "Otter has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🍭 Which is the correct spelling?",
+   "lollipop",
+   [
+    "lolipop",
+    "lallipop",
+    "lollypap"
+   ],
+   "Lollipop has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🛑 Which is the correct spelling?",
+   "stop",
+   [
+    "stap",
+    "sotp",
+    "stup"
+   ],
+   "Stop has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🌶️ Which is the correct spelling?",
+   "hot",
+   [
+    "hat",
+    "hto",
+    "hut"
+   ],
+   "Hot has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🧑‍⚕️ Which is the correct spelling?",
+   "doctor",
+   [
+    "docter",
+    "dacter",
+    "doctar"
+   ],
+   "Doctor has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🔝 Which is the correct spelling?",
+   "top",
+   [
+    "tap",
+    "tpo",
+    "tup"
+   ],
+   "Top has the short o sound, spelled with the letter o."
+  ],
+  [
+   "💧 Which is the correct spelling?",
+   "drop",
+   [
+    "drap",
+    "dorp",
+    "drup"
+   ],
+   "Drop has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🦞 Which is the correct spelling?",
+   "lobster",
+   [
+    "labster",
+    "lobstor",
+    "lobstar"
+   ],
+   "Lobster has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🔵 Which is the correct spelling?",
+   "dot",
+   [
+    "dat",
+    "dto",
+    "dut"
+   ],
+   "Dot has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🌽 Which is the correct spelling?",
+   "cob",
+   [
+    "cab",
+    "cbo",
+    "cub"
+   ],
+   "Cob has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🪢 Which is the correct spelling?",
+   "knot",
+   [
+    "nott",
+    "knat",
+    "kont"
+   ],
+   "Knot has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🐂 Which is the correct spelling?",
+   "ox",
+   [
+    "ax",
+    "oks",
+    "xo"
+   ],
+   "Ox has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🚀 Which is the correct spelling?",
+   "rocket",
+   [
+    "raket",
+    "rokcet",
+    "rockit"
+   ],
+   "Rocket has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🛏️ Which is the correct spelling?",
+   "cot",
+   [
+    "cat",
+    "cto",
+    "cut"
+   ],
+   "Cot has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🌸 Which is the correct spelling?",
+   "blossom",
+   [
+    "blosom",
+    "blassom",
+    "blossum"
+   ],
+   "Blossom has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🐊 Which is the correct spelling?",
+   "crocodile",
+   [
+    "crokodile",
+    "crocadile",
+    "crocodial"
+   ],
+   "Crocodile has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🏞️ Which is the correct spelling?",
+   "pond",
+   [
+    "pand",
+    "podn",
+    "pund"
+   ],
+   "Pond has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🏒 Which is the correct spelling?",
+   "hockey",
+   [
+    "hokey",
+    "hackey",
+    "hockie"
+   ],
+   "Hockey has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🛒 Which is the correct spelling?",
+   "shop",
+   [
+    "shap",
+    "sohp",
+    "shup"
+   ],
+   "Shop has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🐇 Which is the correct spelling?",
+   "hop",
+   [
+    "hap",
+    "hpo",
+    "hup"
+   ],
+   "Hop has the short o sound, spelled with the letter o."
+  ],
+  [
+   "🪓 Which is the correct spelling?",
+   "chop",
+   [
+    "chap",
+    "cohp",
+    "chup"
+   ],
+   "Chop has the short o sound, spelled with the letter o."
+  ]
+ ],
+ "engXLvlongaeo": [
+  [
+   "Jane Bakes An original passage written for LearnAce Jane and Dave bake a cake. They use a lot of cream. They place the cake on a plate. Then they eat it by the lake. Who bakes with Jane?",
+   "Dave",
+   [
+    "Pete",
+    "Rose",
+    "Steve"
+   ],
+   "The story says Jane and Dave bake a cake."
+  ],
+  [
+   "Jane Bakes An original passage written for LearnAce Jane and Dave bake a cake. They use a lot of cream. They place the cake on a plate. Then they eat it by the lake. Where do they put the cake?",
+   "On a plate",
+   [
+    "In a cone",
+    "On a boat",
+    "In a hole"
+   ],
+   "They place the cake on a plate."
+  ],
+  [
+   "Jane Bakes An original passage written for LearnAce Jane and Dave bake a cake. They use a lot of cream. They place the cake on a plate. Then they eat it by the lake. Where do they eat the cake?",
+   "By the lake",
+   [
+    "At home",
+    "In the cave",
+    "By the gate"
+   ],
+   "The last sentence says they eat it by the lake."
+  ],
+  [
+   "Jane Bakes An original passage written for LearnAce Jane and Dave bake a cake. They use a lot of cream. They place the cake on a plate. Then they eat it by the lake. What do they use a lot of?",
+   "Cream",
+   [
+    "Beans",
+    "Cheese",
+    "Soap"
+   ],
+   "They use a lot of cream in the cake."
+  ],
+  [
+   "The Lost Note An original passage written for LearnAce Joe wrote a note to his friend Eve. The wind blew the note away. It flew past a pole and over a stone. At last, Eve found it near her home. Who wrote the note?",
+   "Joe",
+   [
+    "Eve",
+    "Kate",
+    "Gabe"
+   ],
+   "The story says Joe wrote a note."
+  ],
+  [
+   "The Lost Note An original passage written for LearnAce Joe wrote a note to his friend Eve. The wind blew the note away. It flew past a pole and over a stone. At last, Eve found it near her home. What made the note fly away?",
+   "The wind",
+   [
+    "A goat",
+    "The rain",
+    "A crow"
+   ],
+   "The wind blew the note away."
+  ],
+  [
+   "The Lost Note An original passage written for LearnAce Joe wrote a note to his friend Eve. The wind blew the note away. It flew past a pole and over a stone. At last, Eve found it near her home. Where did Eve find the note?",
+   "Near her home",
+   [
+    "On a boat",
+    "In a cave",
+    "At the lake"
+   ],
+   "At last, Eve found it near her home."
+  ],
+  [
+   "Steve the Seal An original passage written for LearnAce Steve is a seal. He likes to swim in the sea. He eats fish and plays with a pole. When he gets sleepy, he naps on a big stone in the sun. What kind of animal is Steve?",
+   "A seal",
+   [
+    "A goat",
+    "A whale",
+    "A snake"
+   ],
+   "The story says Steve is a seal."
+  ],
+  [
+   "Steve the Seal An original passage written for LearnAce Steve is a seal. He likes to swim in the sea. He eats fish and plays with a pole. When he gets sleepy, he naps on a big stone in the sun. Where does Steve like to swim?",
+   "In the sea",
+   [
+    "In a lake",
+    "In a pond",
+    "In a tub"
+   ],
+   "He likes to swim in the sea."
+  ],
+  [
+   "Steve the Seal An original passage written for LearnAce Steve is a seal. He likes to swim in the sea. He eats fish and plays with a pole. When he gets sleepy, he naps on a big stone in the sun. Where does Steve nap?",
+   "On a big stone",
+   [
+    "In a cave",
+    "On a boat",
+    "Under a tree"
+   ],
+   "He naps on a big stone in the sun."
+  ],
+  [
+   "Steve the Seal An original passage written for LearnAce Steve is a seal. He likes to swim in the sea. He eats fish and plays with a pole. When he gets sleepy, he naps on a big stone in the sun. What does Steve play with?",
+   "A pole",
+   [
+    "A cone",
+    "A rope",
+    "A plate"
+   ],
+   "He plays with a pole."
+  ],
+  [
+   "A Day at the Lake An original passage written for LearnAce Gabe and his dad rode a boat on the lake. Gabe saw a toad on a log. Dad gave him a peach to eat. They came home late, but Gabe was not sleepy. What did Gabe and his dad ride?",
+   "A boat",
+   [
+    "A bike",
+    "A train",
+    "A plane"
+   ],
+   "They rode a boat on the lake."
+  ],
+  [
+   "A Day at the Lake An original passage written for LearnAce Gabe and his dad rode a boat on the lake. Gabe saw a toad on a log. Dad gave him a peach to eat. They came home late, but Gabe was not sleepy. What did Gabe see on a log?",
+   "A toad",
+   [
+    "A goat",
+    "A bee",
+    "A snake"
+   ],
+   "Gabe saw a toad on a log."
+  ],
+  [
+   "A Day at the Lake An original passage written for LearnAce Gabe and his dad rode a boat on the lake. Gabe saw a toad on a log. Dad gave him a peach to eat. They came home late, but Gabe was not sleepy. What did Dad give Gabe?",
+   "A peach",
+   [
+    "A cake",
+    "A pear",
+    "A cone"
+   ],
+   "Dad gave him a peach to eat."
+  ],
+  [
+   "A Day at the Lake An original passage written for LearnAce Gabe and his dad rode a boat on the lake. Gabe saw a toad on a log. Dad gave him a peach to eat. They came home late, but Gabe was not sleepy. When did they come home?",
+   "Late",
+   [
+    "At noon",
+    "At dawn",
+    "Early"
+   ],
+   "The story says they came home late."
+  ],
+  [
+   "The Bake Sale An original passage written for LearnAce Our class had a bake sale. Pete made sweet treats. Rose sold them at the table. We made enough to buy a game for the class. What did Pete make?",
+   "Sweet treats",
+   [
+    "A game",
+    "A note",
+    "A boat"
+   ],
+   "Pete made sweet treats."
+  ],
+  [
+   "The Bake Sale An original passage written for LearnAce Our class had a bake sale. Pete made sweet treats. Rose sold them at the table. We made enough to buy a game for the class. Who sold the treats?",
+   "Rose",
+   [
+    "Pete",
+    "Jake",
+    "Dave"
+   ],
+   "Rose sold them at the table."
+  ],
+  [
+   "The Bake Sale An original passage written for LearnAce Our class had a bake sale. Pete made sweet treats. Rose sold them at the table. We made enough to buy a game for the class. What did the class buy?",
+   "A game",
+   [
+    "A cake",
+    "A rose",
+    "A plate"
+   ],
+   "They made enough to buy a game for the class."
+  ],
+  [
+   "Grace and the Goat An original passage written for LearnAce Grace has a goat named Moe. Moe likes to eat hay. One day, Moe ate a rose from the garden! Grace said, \"No, Moe. Roses are not for goats.\" What is the goat's name?",
+   "Moe",
+   [
+    "Joe",
+    "Pete",
+    "Dave"
+   ],
+   "Grace has a goat named Moe."
+  ],
+  [
+   "Grace and the Goat An original passage written for LearnAce Grace has a goat named Moe. Moe likes to eat hay. One day, Moe ate a rose from the garden! Grace said, \"No, Moe. Roses are not for goats.\" What does Moe like to eat?",
+   "Hay",
+   [
+    "Beans",
+    "Cake",
+    "Seeds"
+   ],
+   "Moe likes to eat hay."
+  ],
+  [
+   "Grace and the Goat An original passage written for LearnAce Grace has a goat named Moe. Moe likes to eat hay. One day, Moe ate a rose from the garden! Grace said, \"No, Moe. Roses are not for goats.\" What did Moe eat from the garden?",
+   "A rose",
+   [
+    "A peach",
+    "A cone",
+    "A leaf"
+   ],
+   "One day, Moe ate a rose from the garden."
+  ],
+  [
+   "Grace and the Goat An original passage written for LearnAce Grace has a goat named Moe. Moe likes to eat hay. One day, Moe ate a rose from the garden! Grace said, \"No, Moe. Roses are not for goats.\" What did Grace say to Moe?",
+   "Roses are not for goats",
+   [
+    "Eat more hay",
+    "Go home",
+    "Hide the rose"
+   ],
+   "Grace said, Roses are not for goats."
+  ]
+ ],
+ "engXLvlongiu": [
+  [
+   "Five Kites An original passage written for LearnAce Mike has five kites. He likes to fly them on a fine day. One kite is white, and one is blue. At night, he puts the kites in a pile by his bike. How many kites does Mike have?",
+   "Five",
+   [
+    "Nine",
+    "Two",
+    "Three"
+   ],
+   "The story says Mike has five kites."
+  ],
+  [
+   "Five Kites An original passage written for LearnAce Mike has five kites. He likes to fly them on a fine day. One kite is white, and one is blue. At night, he puts the kites in a pile by his bike. When does Mike fly his kites?",
+   "On a fine day",
+   [
+    "At night",
+    "On a wet day",
+    "At noon"
+   ],
+   "He likes to fly them on a fine day."
+  ],
+  [
+   "Five Kites An original passage written for LearnAce Mike has five kites. He likes to fly them on a fine day. One kite is white, and one is blue. At night, he puts the kites in a pile by his bike. Where does Mike put the kites at night?",
+   "In a pile by his bike",
+   [
+    "In a box",
+    "On a hook",
+    "Under his bed"
+   ],
+   "At night, he puts the kites in a pile by his bike."
+  ],
+  [
+   "Five Kites An original passage written for LearnAce Mike has five kites. He likes to fly them on a fine day. One kite is white, and one is blue. At night, he puts the kites in a pile by his bike. What colour is one of the kites?",
+   "White",
+   [
+    "Red",
+    "Green",
+    "Pink"
+   ],
+   "One kite is white, and one is blue."
+  ],
+  [
+   "Luke's Tune An original passage written for LearnAce Luke plays a tune on his flute. His mule likes the tune. The mule sways and nods. Luke smiles and plays the tune one more time. What does Luke play?",
+   "A flute",
+   [
+    "A drum",
+    "A bell",
+    "A tuba"
+   ],
+   "Luke plays a tune on his flute."
+  ],
+  [
+   "Luke's Tune An original passage written for LearnAce Luke plays a tune on his flute. His mule likes the tune. The mule sways and nods. Luke smiles and plays the tune one more time. Who likes the tune?",
+   "His mule",
+   [
+    "His cat",
+    "His mom",
+    "His dog"
+   ],
+   "His mule likes the tune."
+  ],
+  [
+   "Luke's Tune An original passage written for LearnAce Luke plays a tune on his flute. His mule likes the tune. The mule sways and nods. Luke smiles and plays the tune one more time. What does Luke do at the end?",
+   "Plays the tune one more time",
+   [
+    "Rides his bike",
+    "Hides the flute",
+    "Feeds the mule"
+   ],
+   "Luke smiles and plays the tune one more time."
+  ],
+  [
+   "A Ride on the Line An original passage written for LearnAce Kim and Duke ride a bike on a wide line by the pine trees. They ride for a mile. Then they stop to eat ripe limes. Duke says, \"It is time to ride home.\" Where do Kim and Duke ride?",
+   "By the pine trees",
+   [
+    "By the lake",
+    "In the city",
+    "On the ice"
+   ],
+   "They ride on a wide line by the pine trees."
+  ],
+  [
+   "A Ride on the Line An original passage written for LearnAce Kim and Duke ride a bike on a wide line by the pine trees. They ride for a mile. Then they stop to eat ripe limes. Duke says, \"It is time to ride home.\" How far do they ride?",
+   "A mile",
+   [
+    "Five miles",
+    "Ten miles",
+    "A block"
+   ],
+   "The story says they ride for a mile."
+  ],
+  [
+   "A Ride on the Line An original passage written for LearnAce Kim and Duke ride a bike on a wide line by the pine trees. They ride for a mile. Then they stop to eat ripe limes. Duke says, \"It is time to ride home.\" What do they eat?",
+   "Ripe limes",
+   [
+    "Rice",
+    "Cubes of ice",
+    "Plums"
+   ],
+   "They stop to eat ripe limes."
+  ],
+  [
+   "The Huge Cube An original passage written for LearnAce June found a huge cube of ice. It was too big to lift! She used it to make a cute ice slide. The kids rode down the slide all day. What did June find?",
+   "A huge cube of ice",
+   [
+    "A kite",
+    "A mule",
+    "A flute"
+   ],
+   "June found a huge cube of ice."
+  ],
+  [
+   "The Huge Cube An original passage written for LearnAce June found a huge cube of ice. It was too big to lift! She used it to make a cute ice slide. The kids rode down the slide all day. What did June make?",
+   "An ice slide",
+   [
+    "A kite",
+    "A pie",
+    "A tune"
+   ],
+   "She used it to make a cute ice slide."
+  ],
+  [
+   "The Huge Cube An original passage written for LearnAce June found a huge cube of ice. It was too big to lift! She used it to make a cute ice slide. The kids rode down the slide all day. What did the kids do all day?",
+   "Rode down the slide",
+   [
+    "Flew kites",
+    "Rode bikes",
+    "Hummed a tune"
+   ],
+   "The kids rode down the slide all day."
+  ],
+  [
+   "Hide and Find An original passage written for LearnAce Tim and his cat Spike play hide and find. Spike likes to hide in a pile of white sheets. Tim looks and looks. At last, he sees Spike's tail and smiles. What is the cat's name?",
+   "Spike",
+   [
+    "Duke",
+    "Mike",
+    "Mule"
+   ],
+   "Tim's cat is named Spike."
+  ],
+  [
+   "Hide and Find An original passage written for LearnAce Tim and his cat Spike play hide and find. Spike likes to hide in a pile of white sheets. Tim looks and looks. At last, he sees Spike's tail and smiles. Where does Spike like to hide?",
+   "In a pile of white sheets",
+   [
+    "Under a bike",
+    "In a box",
+    "By the pine tree"
+   ],
+   "Spike likes to hide in a pile of white sheets."
+  ],
+  [
+   "Hide and Find An original passage written for LearnAce Tim and his cat Spike play hide and find. Spike likes to hide in a pile of white sheets. Tim looks and looks. At last, he sees Spike's tail and smiles. How does Tim find Spike?",
+   "He sees Spike's tail",
+   [
+    "He hears Spike",
+    "Spike runs out",
+    "Mom tells him"
+   ],
+   "At last, he sees Spike's tail."
+  ],
+  [
+   "A Rude Mule An original passage written for LearnAce Jules has a mule named Prune. Prune is not nice. He kicks the fence and bites the pipe. But Jules still likes Prune. She gives him a cube of sugar each night. What is the mule's name?",
+   "Prune",
+   [
+    "Jules",
+    "Duke",
+    "June"
+   ],
+   "Jules has a mule named Prune."
+  ],
+  [
+   "A Rude Mule An original passage written for LearnAce Jules has a mule named Prune. Prune is not nice. He kicks the fence and bites the pipe. But Jules still likes Prune. She gives him a cube of sugar each night. What does Prune bite?",
+   "The pipe",
+   [
+    "The kite",
+    "The bike",
+    "The tube"
+   ],
+   "He kicks the fence and bites the pipe."
+  ],
+  [
+   "A Rude Mule An original passage written for LearnAce Jules has a mule named Prune. Prune is not nice. He kicks the fence and bites the pipe. But Jules still likes Prune. She gives him a cube of sugar each night. What does Jules give Prune each night?",
+   "A cube of sugar",
+   [
+    "A ripe lime",
+    "A slice of pie",
+    "A dish of rice"
+   ],
+   "She gives him a cube of sugar each night."
+  ],
+  [
+   "Time to Dine An original passage written for LearnAce Dad made rice and a fine pie. He set the table at nine. Sue used a tube of glue to make a cute name card for each plate. Then they sat down to dine. What did Dad make?",
+   "Rice and a pie",
+   [
+    "Rice and limes",
+    "A pie and a cube",
+    "Soup and rice"
+   ],
+   "Dad made rice and a fine pie."
+  ],
+  [
+   "Time to Dine An original passage written for LearnAce Dad made rice and a fine pie. He set the table at nine. Sue used a tube of glue to make a cute name card for each plate. Then they sat down to dine. When did Dad set the table?",
+   "At nine",
+   [
+    "At five",
+    "At noon",
+    "At night"
+   ],
+   "He set the table at nine."
+  ],
+  [
+   "Time to Dine An original passage written for LearnAce Dad made rice and a fine pie. He set the table at nine. Sue used a tube of glue to make a cute name card for each plate. Then they sat down to dine. What did Sue make with glue?",
+   "Name cards",
+   [
+    "A kite",
+    "A flute",
+    "A tube"
+   ],
+   "Sue used a tube of glue to make a cute name card for each plate."
+  ]
+ ],
+ "engXLvSt": [
+  [
+   "Mae has a pet snail named Speedy. Speedy is very slow. Each day Mae feeds him green leaves. When it rains, Speedy likes to play in the wet grass. What kind of pet does Mae have?",
+   "A snail",
+   [
+    "A goat",
+    "A toad",
+    "A bee"
+   ],
+   "Mae has a pet snail named Speedy."
+  ],
+  [
+   "Mae has a pet snail named Speedy. Speedy is very slow. Each day Mae feeds him green leaves. When it rains, Speedy likes to play in the wet grass. What does Mae feed Speedy?",
+   "Green leaves",
+   [
+    "Seeds",
+    "Oats",
+    "Grapes"
+   ],
+   "Each day Mae feeds him green leaves."
+  ],
+  [
+   "Mae has a pet snail named Speedy. Speedy is very slow. Each day Mae feeds him green leaves. When it rains, Speedy likes to play in the wet grass. When does Speedy play in the grass?",
+   "When it rains",
+   [
+    "At night",
+    "When it snows",
+    "In the morning"
+   ],
+   "When it rains, Speedy likes to play in the wet grass."
+  ],
+  [
+   "Joe went to the coast with his family. He made a sand castle near the waves. A big wave came and took the castle away. Joe did not mind. He made a new one far from the sea. Where did Joe go?",
+   "To the coast",
+   [
+    "To a farm",
+    "To the city",
+    "To a lake"
+   ],
+   "Joe went to the coast with his family."
+  ],
+  [
+   "Joe went to the coast with his family. He made a sand castle near the waves. A big wave came and took the castle away. Joe did not mind. He made a new one far from the sea. What happened to the first castle?",
+   "A wave took it away",
+   [
+    "A dog dug it up",
+    "Joe kicked it",
+    "The wind blew it down"
+   ],
+   "A big wave came and took the castle away."
+  ],
+  [
+   "Joe went to the coast with his family. He made a sand castle near the waves. A big wave came and took the castle away. Joe did not mind. He made a new one far from the sea. Where did Joe make the new castle?",
+   "Far from the sea",
+   [
+    "On a boat",
+    "Near the waves",
+    "In the yard"
+   ],
+   "He made a new one far from the sea."
+  ],
+  [
+   "Dean likes to bake bread. First he mixes the dough in a bowl. Then he waits for it to rise. At last, he bakes it until it is golden. The whole home smells sweet. What does Dean like to bake?",
+   "Bread",
+   [
+    "Pie",
+    "Cake",
+    "Cookies"
+   ],
+   "Dean likes to bake bread."
+  ],
+  [
+   "Dean likes to bake bread. First he mixes the dough in a bowl. Then he waits for it to rise. At last, he bakes it until it is golden. The whole home smells sweet. What does Dean do first?",
+   "Mixes the dough",
+   [
+    "Bakes the bread",
+    "Waits for it to rise",
+    "Eats the bread"
+   ],
+   "First he mixes the dough in a bowl."
+  ],
+  [
+   "Dean likes to bake bread. First he mixes the dough in a bowl. Then he waits for it to rise. At last, he bakes it until it is golden. The whole home smells sweet. How does the home smell?",
+   "Sweet",
+   [
+    "Smoky",
+    "Sour",
+    "Like soap"
+   ],
+   "The whole home smells sweet."
+  ],
+  [
+   "On a snowy day, Rae and Neil made a snowman. They used a carrot for his nose and stones for his eyes. Then Rae gave him her old scarf to keep him warm. What did Rae and Neil make?",
+   "A snowman",
+   [
+    "A snow fort",
+    "A sled",
+    "A kite"
+   ],
+   "They made a snowman on a snowy day."
+  ],
+  [
+   "On a snowy day, Rae and Neil made a snowman. They used a carrot for his nose and stones for his eyes. Then Rae gave him her old scarf to keep him warm. What did they use for the nose?",
+   "A carrot",
+   [
+    "A stone",
+    "A stick",
+    "A leaf"
+   ],
+   "They used a carrot for his nose."
+  ],
+  [
+   "On a snowy day, Rae and Neil made a snowman. They used a carrot for his nose and stones for his eyes. Then Rae gave him her old scarf to keep him warm. What did Rae give the snowman?",
+   "Her old scarf",
+   [
+    "Her coat",
+    "A hat",
+    "Her boots"
+   ],
+   "Rae gave him her old scarf to keep him warm."
+  ],
+  [
+   "A crow sat on a high branch. It saw a bright, shiny bead on the road. The crow flew down, grabbed the bead and flew back to its nest. Now the nest has a pretty bead. Where did the crow sit?",
+   "On a high branch",
+   [
+    "On a roof",
+    "On a boat",
+    "On the road"
+   ],
+   "A crow sat on a high branch."
+  ],
+  [
+   "A crow sat on a high branch. It saw a bright, shiny bead on the road. The crow flew down, grabbed the bead and flew back to its nest. Now the nest has a pretty bead. What did the crow see on the road?",
+   "A shiny bead",
+   [
+    "A seed",
+    "A peach",
+    "A coin"
+   ],
+   "It saw a bright, shiny bead on the road."
+  ],
+  [
+   "A crow sat on a high branch. It saw a bright, shiny bead on the road. The crow flew down, grabbed the bead and flew back to its nest. Now the nest has a pretty bead. Where did the crow take the bead?",
+   "To its nest",
+   [
+    "To a tree stump",
+    "To the lake",
+    "To the sea"
+   ],
+   "It flew back to its nest with the bead."
+  ],
+  [
+   "Jean and her goat walked to the meadow. The goat ate the green grass. Jean sat in the shade and read a tale about a brave queen. They went home when the sun went down. Where did Jean and her goat walk?",
+   "To the meadow",
+   [
+    "To the beach",
+    "To the barn",
+    "To the coast"
+   ],
+   "They walked to the meadow."
+  ],
+  [
+   "Jean and her goat walked to the meadow. The goat ate the green grass. Jean sat in the shade and read a tale about a brave queen. They went home when the sun went down. What was Jean's tale about?",
+   "A brave queen",
+   [
+    "A sly fox",
+    "A tiny snail",
+    "A big whale"
+   ],
+   "She read a tale about a brave queen."
+  ],
+  [
+   "Jean and her goat walked to the meadow. The goat ate the green grass. Jean sat in the shade and read a tale about a brave queen. They went home when the sun went down. When did they go home?",
+   "When the sun went down",
+   [
+    "At noon",
+    "When it rained",
+    "In the morning"
+   ],
+   "They went home when the sun went down."
+  ],
+  [
+   "Lee has a new red sled. He rode it down the steep hill. The sled went fast! At the bottom, he fell in the deep snow. Lee laughed and ran up to ride again. What colour is Lee's sled?",
+   "Red",
+   [
+    "Blue",
+    "Green",
+    "Yellow"
+   ],
+   "Lee has a new red sled."
+  ],
+  [
+   "Lee has a new red sled. He rode it down the steep hill. The sled went fast! At the bottom, he fell in the deep snow. Lee laughed and ran up to ride again. What happened at the bottom of the hill?",
+   "He fell in the deep snow",
+   [
+    "The sled broke",
+    "He went home",
+    "He lost his hat"
+   ],
+   "At the bottom, he fell in the deep snow."
+  ],
+  [
+   "Lee has a new red sled. He rode it down the steep hill. The sled went fast! At the bottom, he fell in the deep snow. Lee laughed and ran up to ride again. What did Lee do after he fell?",
+   "Laughed and ran up to ride again",
+   [
+    "Cried and went home",
+    "Got a new sled",
+    "Made a snowman"
+   ],
+   "Lee laughed and ran up to ride again."
+  ],
+  [
+   "Lee has a new red sled. He rode it down the steep hill. The sled went fast! At the bottom, he fell in the deep snow. Lee laughed and ran up to ride again. What did Lee ride down?",
+   "A steep hill",
+   [
+    "A slide",
+    "A road",
+    "A sand dune"
+   ],
+   "He rode it down the steep hill."
+  ]
+ ],
+ "engXIld": [
+  [
+   "Complete the sentence. The ___ wind blew my hat off.",
+   "cold",
+   [
+    "colt",
+    "cost",
+    "child"
+   ],
+   "Cold makes sense in the sentence and uses the old pattern."
+  ],
+  [
+   "Complete the sentence. Can you ___ this bag for me?",
+   "hold",
+   [
+    "host",
+    "hind",
+    "mild"
+   ],
+   "Hold makes sense in the sentence and uses the old pattern."
+  ],
+  [
+   "Complete the sentence. My brother dressed up as a spooky ___ for Halloween.",
+   "ghost",
+   [
+    "gold",
+    "grind",
+    "jolt"
+   ],
+   "Ghost makes sense in the sentence and uses the ost pattern."
+  ],
+  [
+   "Complete the sentence. This salsa is ___, not spicy.",
+   "mild",
+   [
+    "mold",
+    "mind",
+    "most"
+   ],
+   "Mild makes sense in the sentence and uses the ild pattern."
+  ],
+  [
+   "Complete the sentence. Grandpa is very ___. He is 90!",
+   "old",
+   [
+    "olt",
+    "wild",
+    "host"
+   ],
+   "Old makes sense in the sentence and uses the old pattern."
+  ],
+  [
+   "Complete the sentence. The ___ blew the leaves off the trees.",
+   "wind",
+   [
+    "wild",
+    "mind",
+    "bolt"
+   ],
+   "Wind makes sense in the sentence and uses the ind pattern."
+  ],
+  [
+   "Complete the sentence. The puppy hid ___ the couch.",
+   "behind",
+   [
+    "bold",
+    "blind",
+    "most"
+   ],
+   "Behind makes sense in the sentence and uses the ind pattern."
+  ],
+  [
+   "Complete the sentence. Do not leave bread out, or it will grow ___.",
+   "mold",
+   [
+    "mild",
+    "most",
+    "colt"
+   ],
+   "Mold makes sense in the sentence and uses the old pattern."
+  ],
+  [
+   "Complete the sentence. A ___ of lightning lit up the sky.",
+   "bolt",
+   [
+    "bold",
+    "blind",
+    "post"
+   ],
+   "Bolt makes sense in the sentence and uses the olt pattern."
+  ],
+  [
+   "Complete the sentence. My teacher ___ us a funny story.",
+   "told",
+   [
+    "toll",
+    "tilt",
+    "kind"
+   ],
+   "Told makes sense in the sentence and uses the old pattern."
+  ],
+  [
+   "Complete the sentence. We ___ lemonade at our stand.",
+   "sold",
+   [
+    "sild",
+    "soled",
+    "sort"
+   ],
+   "Sold makes sense in the sentence and uses the old pattern."
+  ],
+  [
+   "Complete the sentence. I do not ___ if you sit here.",
+   "mind",
+   [
+    "mild",
+    "mold",
+    "most"
+   ],
+   "Mind makes sense in the sentence and uses the ind pattern."
+  ],
+  [
+   "Complete the sentence. Who will ___ the party at their house?",
+   "host",
+   [
+    "hold",
+    "hind",
+    "halt"
+   ],
+   "Host makes sense in the sentence and uses the ost pattern."
+  ],
+  [
+   "Complete the sentence. The bumpy bus ride gave me a ___.",
+   "jolt",
+   [
+    "jold",
+    "joint",
+    "jest"
+   ],
+   "Jolt makes sense in the sentence and uses the olt pattern."
+  ],
+  [
+   "Complete the sentence. I ___ finished my book. I have one page left.",
+   "almost",
+   [
+    "mold",
+    "most",
+    "cold"
+   ],
+   "Almost makes sense in the sentence and uses the ost pattern."
+  ],
+  [
+   "Complete the sentence. The ___ held her teddy bear tight.",
+   "child",
+   [
+    "chilled",
+    "chold",
+    "chost"
+   ],
+   "Child makes sense in the sentence and uses the ild pattern."
+  ],
+  [
+   "Complete the sentence. Use the mill to ___ the wheat into flour.",
+   "grind",
+   [
+    "grant",
+    "gold",
+    "ghost"
+   ],
+   "Grind makes sense in the sentence and uses the ind pattern."
+  ],
+  [
+   "Complete the sentence. Do not eat the orange ___. It is bitter.",
+   "rind",
+   [
+    "roast",
+    "rolt",
+    "rail"
+   ],
+   "Rind makes sense in the sentence and uses the ind pattern."
+  ],
+  [
+   "Complete the sentence. The ___ knight rode into the dark forest.",
+   "bold",
+   [
+    "bolt",
+    "bind",
+    "boast"
+   ],
+   "Bold makes sense in the sentence and uses the old pattern."
+  ],
+  [
+   "Complete the sentence. Mom will ___ the dog for chewing her shoe.",
+   "scold",
+   [
+    "scald",
+    "scost",
+    "skind"
+   ],
+   "Scold makes sense in the sentence and uses the old pattern."
+  ],
+  [
+   "Complete the sentence. Did you ___ your lost mitten?",
+   "find",
+   [
+    "fold",
+    "fond",
+    "fast"
+   ],
+   "Find makes sense in the sentence and uses the ind pattern."
+  ],
+  [
+   "Complete the sentence. The farmer fed the young ___ in the stable.",
+   "colt",
+   [
+    "cold",
+    "cost",
+    "child"
+   ],
+   "Colt makes sense in the sentence and uses the olt pattern."
+  ]
+ ],
+ "engXLa": [
+  [
+   "🐋 Which is the correct spelling?",
+   "whale",
+   [
+    "whail",
+    "wayle",
+    "whal"
+   ],
+   "Whale spells the long a sound with a silent e."
+  ],
+  [
+   "🐍 Which is the correct spelling?",
+   "snake",
+   [
+    "snaik",
+    "snak",
+    "snayk"
+   ],
+   "Snake spells the long a sound with a silent e."
+  ],
+  [
+   "🍇 Which is the correct spelling?",
+   "grapes",
+   [
+    "graips",
+    "grapse",
+    "graps"
+   ],
+   "Grapes spells the long a sound with a silent e."
+  ],
+  [
+   "⛸️ Which is the correct spelling?",
+   "skate",
+   [
+    "skait",
+    "sakte",
+    "skat"
+   ],
+   "Skate spells the long a sound with a silent e."
+  ],
+  [
+   "🏺 Which is the correct spelling?",
+   "vase",
+   [
+    "vais",
+    "vaes",
+    "vas"
+   ],
+   "Vase spells the long a sound with a silent e."
+  ],
+  [
+   "📬 Which is the correct spelling?",
+   "mail",
+   [
+    "male",
+    "mial",
+    "mayl"
+   ],
+   "Mail spells the long a sound with ai."
+  ],
+  [
+   "💅 Which is the correct spelling?",
+   "nail",
+   [
+    "nale",
+    "nial",
+    "nayl"
+   ],
+   "Nail spells the long a sound with ai."
+  ],
+  [
+   "⛵ Which is the correct spelling?",
+   "sail",
+   [
+    "sale",
+    "sial",
+    "sayl"
+   ],
+   "Sail spells the long a sound with ai."
+  ],
+  [
+   "⛓️ Which is the correct spelling?",
+   "chain",
+   [
+    "chane",
+    "chian",
+    "chayn"
+   ],
+   "Chain spells the long a sound with ai."
+  ],
+  [
+   "🖍️ Which is the correct spelling?",
+   "crayon",
+   [
+    "craon",
+    "creyon",
+    "craion"
+   ],
+   "Crayon spells the long a sound with ay."
+  ],
+  [
+   "👋 Which is the correct spelling?",
+   "wave",
+   [
+    "waiv",
+    "wavee",
+    "vawe"
+   ],
+   "Wave spells the long a sound with a silent e."
+  ],
+  [
+   "✈️ Which is the correct spelling?",
+   "plane",
+   [
+    "plain",
+    "plan",
+    "palne"
+   ],
+   "Plane spells the long a sound with a silent e."
+  ],
+  [
+   "♠️ Which is the correct spelling?",
+   "spade",
+   [
+    "spaid",
+    "spad",
+    "sapde"
+   ],
+   "Spade spells the long a sound with a silent e."
+  ],
+  [
+   "🦸 Which is the correct spelling?",
+   "cape",
+   [
+    "caip",
+    "cap",
+    "caep"
+   ],
+   "Cape spells the long a sound with a silent e."
+  ],
+  [
+   "🏞️ Which is the correct spelling?",
+   "lake",
+   [
+    "laik",
+    "lak",
+    "laek"
+   ],
+   "Lake spells the long a sound with a silent e."
+  ],
+  [
+   "🌈 Which is the correct spelling?",
+   "rainbow",
+   [
+    "ranebow",
+    "rainbo",
+    "rianbow"
+   ],
+   "Rainbow spells the long a sound with ai."
+  ],
+  [
+   "🪣 Which is the correct spelling?",
+   "pail",
+   [
+    "pale",
+    "pial",
+    "payl"
+   ],
+   "Pail spells the long a sound with ai."
+  ],
+  [
+   "🔥 Which is the correct spelling?",
+   "flame",
+   [
+    "flaim",
+    "flam",
+    "flaem"
+   ],
+   "Flame spells the long a sound with a silent e."
+  ],
+  [
+   "🌼 Which is the correct spelling?",
+   "daisy",
+   [
+    "dasy",
+    "daysy",
+    "diasy"
+   ],
+   "Daisy spells the long a sound with ai."
+  ],
+  [
+   "🛤️ Which is the correct spelling?",
+   "railway",
+   [
+    "ralway",
+    "railwae",
+    "raleway"
+   ],
+   "Railway spells the long a sound with ai."
+  ],
+  [
+   "⏳ Which is the correct spelling?",
+   "wait",
+   [
+    "wate",
+    "wiat",
+    "wayt"
+   ],
+   "Wait spells the long a sound with ai."
+  ],
+  [
+   "🧴 Which is the correct spelling?",
+   "spray",
+   [
+    "sprai",
+    "spary",
+    "sprae"
+   ],
+   "Spray spells the long a sound with ay."
+  ]
+ ],
+ "engXLe": [
+  [
+   "🟢 Which is the correct spelling?",
+   "green",
+   [
+    "grean",
+    "gren",
+    "greene"
+   ],
+   "Green spells the long e sound with ee."
+  ],
+  [
+   "🧀 Which is the correct spelling?",
+   "cheese",
+   [
+    "cheeze",
+    "chese",
+    "cheas"
+   ],
+   "Cheese spells the long e sound with ee."
+  ],
+  [
+   "🛞 Which is the correct spelling?",
+   "wheel",
+   [
+    "wheal",
+    "whel",
+    "wehel"
+   ],
+   "Wheel spells the long e sound with ee."
+  ],
+  [
+   "🍬 Which is the correct spelling?",
+   "sweet",
+   [
+    "sweat",
+    "swet",
+    "sweete"
+   ],
+   "Sweet spells the long e sound with ee."
+  ],
+  [
+   "🫘 Which is the correct spelling?",
+   "bean",
+   [
+    "been",
+    "ben",
+    "baen"
+   ],
+   "Bean spells the long e sound with ea."
+  ],
+  [
+   "🍖 Which is the correct spelling?",
+   "meat",
+   [
+    "meet",
+    "met",
+    "mate"
+   ],
+   "Meat spells the long e sound with ea."
+  ],
+  [
+   "🍵 Which is the correct spelling?",
+   "tea",
+   [
+    "tee",
+    "tae",
+    "te"
+   ],
+   "Tea spells the long e sound with ea."
+  ],
+  [
+   "🌊 Which is the correct spelling?",
+   "sea",
+   [
+    "see",
+    "sae",
+    "se"
+   ],
+   "Sea spells the long e sound with ea."
+  ],
+  [
+   "🦅 Which is the correct spelling?",
+   "eagle",
+   [
+    "eegle",
+    "egle",
+    "eagel"
+   ],
+   "Eagle spells the long e sound with ea."
+  ],
+  [
+   "🫛 Which is the correct spelling?",
+   "peas",
+   [
+    "pees",
+    "paes",
+    "pease"
+   ],
+   "Peas spells the long e sound with ea."
+  ],
+  [
+   "👖 Which is the correct spelling?",
+   "jeans",
+   [
+    "jeens",
+    "jenas",
+    "janes"
+   ],
+   "Jeans spells the long e sound with ea."
+  ],
+  [
+   "🌱 Which is the correct spelling?",
+   "seeds",
+   [
+    "seads",
+    "sedes",
+    "sedds"
+   ],
+   "Seeds spells the long e sound with ee."
+  ],
+  [
+   "😴 Which is the correct spelling?",
+   "sleep",
+   [
+    "sleap",
+    "slep",
+    "sleeb"
+   ],
+   "Sleep spells the long e sound with ee."
+  ],
+  [
+   "🦵 Which is the correct spelling?",
+   "knee",
+   [
+    "knea",
+    "nee",
+    "kne"
+   ],
+   "Knee spells the long e sound with ee."
+  ],
+  [
+   "📖 Which is the correct spelling?",
+   "read",
+   [
+    "reed",
+    "raed",
+    "rede"
+   ],
+   "Read spells the long e sound with ea."
+  ],
+  [
+   "3️⃣ Which is the correct spelling?",
+   "three",
+   [
+    "threa",
+    "thre",
+    "tree"
+   ],
+   "Three spells the long e sound with ee."
+  ],
+  [
+   "♨️ Which is the correct spelling?",
+   "steam",
+   [
+    "steem",
+    "stem",
+    "staem"
+   ],
+   "Steam spells the long e sound with ea."
+  ],
+  [
+   "🌾 Which is the correct spelling?",
+   "wheat",
+   [
+    "wheet",
+    "whet",
+    "waet"
+   ],
+   "Wheat spells the long e sound with ea."
+  ],
+  [
+   "🦌 Which is the correct spelling?",
+   "deer",
+   [
+    "dear",
+    "der",
+    "deere"
+   ],
+   "Deer spells the long e sound with ee."
+  ],
+  [
+   "👠 Which is the correct spelling?",
+   "heel",
+   [
+    "heal",
+    "hel",
+    "heele"
+   ],
+   "Heel spells the long e sound with ee."
+  ],
+  [
+   "💭 Which is the correct spelling?",
+   "dream",
+   [
+    "dreem",
+    "drem",
+    "draem"
+   ],
+   "Dream spells the long e sound with ea."
+  ],
+  [
+   "🧹 Which is the correct spelling?",
+   "sweep",
+   [
+    "sweap",
+    "swep",
+    "sweeb"
+   ],
+   "Sweep spells the long e sound with ee."
+  ]
+ ],
+ "engXLi": [
+  [
+   "🛝 Which is the correct spelling?",
+   "slide",
+   [
+    "slyde",
+    "slid",
+    "sliede"
+   ],
+   "Slide spells the long i sound with a silent e."
+  ],
+  [
+   "9️⃣ Which is the correct spelling?",
+   "nine",
+   [
+    "nyne",
+    "nin",
+    "niene"
+   ],
+   "Nine spells the long i sound with a silent e."
+  ],
+  [
+   "🧊 Which is the correct spelling?",
+   "ice",
+   [
+    "ise",
+    "yce",
+    "iec"
+   ],
+   "Ice spells the long i sound with a silent e."
+  ],
+  [
+   "🌲 Which is the correct spelling?",
+   "pine",
+   [
+    "pyne",
+    "pin",
+    "pien"
+   ],
+   "Pine spells the long i sound with a silent e."
+  ],
+  [
+   "🎲 Which is the correct spelling?",
+   "dice",
+   [
+    "dyce",
+    "dise",
+    "dic"
+   ],
+   "Dice spells the long i sound with a silent e."
+  ],
+  [
+   "😊 Which is the correct spelling?",
+   "smile",
+   [
+    "smyle",
+    "smil",
+    "simle"
+   ],
+   "Smile spells the long i sound with a silent e."
+  ],
+  [
+   "👰 Which is the correct spelling?",
+   "bride",
+   [
+    "bryde",
+    "brid",
+    "bried"
+   ],
+   "Bride spells the long i sound with a silent e."
+  ],
+  [
+   "🚗 Which is the correct spelling?",
+   "drive",
+   [
+    "dryve",
+    "driv",
+    "dirve"
+   ],
+   "Drive spells the long i sound with a silent e."
+  ],
+  [
+   "➖ Which is the correct spelling?",
+   "line",
+   [
+    "lyne",
+    "lin",
+    "lien"
+   ],
+   "Line spells the long i sound with a silent e."
+  ],
+  [
+   "🍟 Which is the correct spelling?",
+   "fries",
+   [
+    "frys",
+    "freis",
+    "fryes"
+   ],
+   "Fries spells the long i sound with ie."
+  ],
+  [
+   "🕵️ Which is the correct spelling?",
+   "spy",
+   [
+    "spie",
+    "spi",
+    "sipy"
+   ],
+   "Spy spells the long i sound with y."
+  ],
+  [
+   "😳 Which is the correct spelling?",
+   "shy",
+   [
+    "shie",
+    "shi",
+    "hsy"
+   ],
+   "Shy spells the long i sound with y."
+  ],
+  [
+   "🍚 Which is the correct spelling?",
+   "rice",
+   [
+    "ryce",
+    "rise",
+    "ric"
+   ],
+   "Rice spells the long i sound with a silent e."
+  ],
+  [
+   "🔪 Which is the correct spelling?",
+   "knife",
+   [
+    "nife",
+    "knif",
+    "knyfe"
+   ],
+   "Knife spells the long i sound with a silent e."
+  ],
+  [
+   "⚪ Which is the correct spelling?",
+   "white",
+   [
+    "whyte",
+    "whit",
+    "wihte"
+   ],
+   "White spells the long i sound with a silent e."
+  ],
+  [
+   "🥾 Which is the correct spelling?",
+   "hike",
+   [
+    "hyke",
+    "hik",
+    "hieke"
+   ],
+   "Hike spells the long i sound with a silent e."
+  ],
+  [
+   "🏆 Which is the correct spelling?",
+   "prize",
+   [
+    "pryze",
+    "priz",
+    "prise"
+   ],
+   "Prize spells the long i sound with a silent e."
+  ],
+  [
+   "⏰ Which is the correct spelling?",
+   "time",
+   [
+    "tyme",
+    "tim",
+    "tiem"
+   ],
+   "Time spells the long i sound with a silent e."
+  ],
+  [
+   "🦉 Which is the correct spelling?",
+   "wise",
+   [
+    "wyse",
+    "wis",
+    "wize"
+   ],
+   "Wise spells the long i sound with a silent e."
+  ],
+  [
+   "🙈 Which is the correct spelling?",
+   "hide",
+   [
+    "hyde",
+    "hid",
+    "heid"
+   ],
+   "Hide spells the long i sound with a silent e."
+  ],
+  [
+   "🍇 Which is the correct spelling?",
+   "vine",
+   [
+    "vyne",
+    "vin",
+    "vien"
+   ],
+   "Vine spells the long i sound with a silent e."
+  ],
+  [
+   "🏜️ Which is the correct spelling?",
+   "dry",
+   [
+    "drie",
+    "dri",
+    "dyr"
+   ],
+   "Dry spells the long i sound with y."
+  ]
+ ],
+ "engXLo": [
+  [
+   "🧼 Which is the correct spelling?",
+   "soap",
+   [
+    "sope",
+    "saop",
+    "sowp"
+   ],
+   "Soap spells the long o sound with oa."
+  ],
+  [
+   "🛣️ Which is the correct spelling?",
+   "road",
+   [
+    "rode",
+    "raod",
+    "rowd"
+   ],
+   "Road spells the long o sound with oa."
+  ],
+  [
+   "🍞 Which is the correct spelling?",
+   "toast",
+   [
+    "tost",
+    "taost",
+    "towst"
+   ],
+   "Toast spells the long o sound with oa."
+  ],
+  [
+   "🐦‍⬛ Which is the correct spelling?",
+   "crow",
+   [
+    "croe",
+    "cro",
+    "craw"
+   ],
+   "Crow spells the long o sound with ow."
+  ],
+  [
+   "🎀 Which is the correct spelling?",
+   "bow",
+   [
+    "boe",
+    "bo",
+    "bwo"
+   ],
+   "Bow spells the long o sound with ow."
+  ],
+  [
+   "🌍 Which is the correct spelling?",
+   "globe",
+   [
+    "glob",
+    "gloab",
+    "glowb"
+   ],
+   "Globe spells the long o sound with a silent e."
+  ],
+  [
+   "🪢 Which is the correct spelling?",
+   "rope",
+   [
+    "roap",
+    "rop",
+    "rowp"
+   ],
+   "Rope spells the long o sound with a silent e."
+  ],
+  [
+   "👃 Which is the correct spelling?",
+   "nose",
+   [
+    "noze",
+    "noas",
+    "nos"
+   ],
+   "Nose spells the long o sound with a silent e."
+  ],
+  [
+   "🍦 Which is the correct spelling?",
+   "cone",
+   [
+    "coan",
+    "con",
+    "cown"
+   ],
+   "Cone spells the long o sound with a silent e."
+  ],
+  [
+   "🏠 Which is the correct spelling?",
+   "home",
+   [
+    "hoam",
+    "hom",
+    "howm"
+   ],
+   "Home spells the long o sound with a silent e."
+  ],
+  [
+   "🪟 Which is the correct spelling?",
+   "window",
+   [
+    "windo",
+    "windoe",
+    "windaw"
+   ],
+   "Window spells the long o sound with ow."
+  ],
+  [
+   "☃️ Which is the correct spelling?",
+   "snowman",
+   [
+    "snoman",
+    "snoaman",
+    "snowmen"
+   ],
+   "Snowman spells the long o sound with ow."
+  ],
+  [
+   "🌳 Which is the correct spelling?",
+   "oak",
+   [
+    "oke",
+    "aok",
+    "owk"
+   ],
+   "Oak spells the long o sound with oa."
+  ],
+  [
+   "💪 Which is the correct spelling?",
+   "elbow",
+   [
+    "elbo",
+    "elboe",
+    "elbaw"
+   ],
+   "Elbow spells the long o sound with ow."
+  ],
+  [
+   "🚣 Which is the correct spelling?",
+   "row",
+   [
+    "roe",
+    "ro",
+    "rwo"
+   ],
+   "Row spells the long o sound with ow."
+  ],
+  [
+   "🪨 Which is the correct spelling?",
+   "stone",
+   [
+    "stoan",
+    "ston",
+    "stown"
+   ],
+   "Stone spells the long o sound with a silent e."
+  ],
+  [
+   "💨 Which is the correct spelling?",
+   "smoke",
+   [
+    "smoak",
+    "smok",
+    "smowk"
+   ],
+   "Smoke spells the long o sound with a silent e."
+  ],
+  [
+   "🕳️ Which is the correct spelling?",
+   "hole",
+   [
+    "hoal",
+    "hol",
+    "howl"
+   ],
+   "Hole spells the long o sound with a silent e."
+  ],
+  [
+   "😂 Which is the correct spelling?",
+   "joke",
+   [
+    "joak",
+    "jok",
+    "jowk"
+   ],
+   "Joke spells the long o sound with a silent e."
+  ],
+  [
+   "🥣 Which is the correct spelling?",
+   "oats",
+   [
+    "otes",
+    "aots",
+    "owts"
+   ],
+   "Oats spells the long o sound with oa."
+  ],
+  [
+   "🥅 Which is the correct spelling?",
+   "goal",
+   [
+    "gole",
+    "gaol",
+    "gowl"
+   ],
+   "Goal spells the long o sound with oa."
+  ],
+  [
+   "👘 Which is the correct spelling?",
+   "robe",
+   [
+    "roab",
+    "rob",
+    "rowb"
+   ],
+   "Robe spells the long o sound with a silent e."
+  ]
+ ],
+ "engXLu": [
+  [
+   "🎵 Which is the correct spelling?",
+   "tune",
+   [
+    "toon",
+    "tuen",
+    "tun"
+   ],
+   "Tune spells the long u sound with a silent e."
+  ],
+  [
+   "📏 Which is the correct spelling?",
+   "rule",
+   [
+    "rool",
+    "rulle",
+    "ruel"
+   ],
+   "Rule spells the long u sound with a silent e."
+  ],
+  [
+   "🍲 Which is the correct spelling?",
+   "stew",
+   [
+    "stue",
+    "stoo",
+    "stwe"
+   ],
+   "Stew spells the long u sound with ew."
+  ],
+  [
+   "💧 Which is the correct spelling?",
+   "dew",
+   [
+    "dwe",
+    "doo",
+    "deu"
+   ],
+   "Dew spells the long u sound with ew."
+  ],
+  [
+   "📰 Which is the correct spelling?",
+   "news",
+   [
+    "nues",
+    "noos",
+    "nwes"
+   ],
+   "News spells the long u sound with ew."
+  ],
+  [
+   "🧹 Which is the correct spelling?",
+   "broom",
+   [
+    "brume",
+    "brom",
+    "bruem"
+   ],
+   "Broom spells the long u sound with oo."
+  ],
+  [
+   "🦁 Which is the correct spelling?",
+   "zoo",
+   [
+    "zue",
+    "zew",
+    "zo"
+   ],
+   "Zoo spells the long u sound with oo."
+  ],
+  [
+   "🏠 Which is the correct spelling?",
+   "roof",
+   [
+    "rufe",
+    "ruf",
+    "rofo"
+   ],
+   "Roof spells the long u sound with oo."
+  ],
+  [
+   "🦷 Which is the correct spelling?",
+   "tooth",
+   [
+    "tuth",
+    "toth",
+    "tewth"
+   ],
+   "Tooth spells the long u sound with oo."
+  ],
+  [
+   "🪿 Which is the correct spelling?",
+   "goose",
+   [
+    "guse",
+    "gose",
+    "goos"
+   ],
+   "Goose spells the long u sound with oo."
+  ],
+  [
+   "🏊 Which is the correct spelling?",
+   "pool",
+   [
+    "pule",
+    "pol",
+    "poole"
+   ],
+   "Pool spells the long u sound with oo."
+  ],
+  [
+   "🏫 Which is the correct spelling?",
+   "school",
+   [
+    "skool",
+    "schol",
+    "schoal"
+   ],
+   "School spells the long u sound with oo."
+  ],
+  [
+   "🐓 Which is the correct spelling?",
+   "rooster",
+   [
+    "ruster",
+    "roster",
+    "rooter"
+   ],
+   "Rooster spells the long u sound with oo."
+  ],
+  [
+   "🧊 Which is the correct spelling?",
+   "igloo",
+   [
+    "iglu",
+    "igloe",
+    "iggloo"
+   ],
+   "Igloo spells the long u sound with oo."
+  ],
+  [
+   "🦘 Which is the correct spelling?",
+   "kangaroo",
+   [
+    "kangaru",
+    "kangeroo",
+    "kangarue"
+   ],
+   "Kangaroo spells the long u sound with oo."
+  ],
+  [
+   "🎈 Which is the correct spelling?",
+   "balloon",
+   [
+    "baloon",
+    "ballon",
+    "balloun"
+   ],
+   "Balloon spells the long u sound with oo."
+  ],
+  [
+   "🦝 Which is the correct spelling?",
+   "raccoon",
+   [
+    "racoon",
+    "raccon",
+    "racune"
+   ],
+   "Raccoon spells the long u sound with oo."
+  ],
+  [
+   "🛴 Which is the correct spelling?",
+   "scooter",
+   [
+    "scuter",
+    "scootor",
+    "skooter"
+   ],
+   "Scooter spells the long u sound with oo."
+  ],
+  [
+   "✅ Which is the correct spelling?",
+   "true",
+   [
+    "troo",
+    "tru",
+    "trew"
+   ],
+   "True spells the long u sound with ue."
+  ],
+  [
+   "🔍 Which is the correct spelling?",
+   "clue",
+   [
+    "cloo",
+    "clew",
+    "clu"
+   ],
+   "Clue spells the long u sound with ue."
+  ],
+  [
+   "🏜️ Which is the correct spelling?",
+   "dune",
+   [
+    "doon",
+    "dun",
+    "duen"
+   ],
+   "Dune spells the long u sound with a silent e."
+  ],
+  [
+   "💎 Which is the correct spelling?",
+   "jewel",
+   [
+    "juel",
+    "jool",
+    "jewle"
+   ],
+   "Jewel spells the long u sound with ew."
+  ]
+ ],
+ "engXRc": [
+  [
+   "🧑‍⚕️ Complete the word: n__se",
+   "ur",
+   [
+    "er",
+    "ir",
+    "ar"
+   ],
+   "The word is spelled with ur: nurse."
+  ],
+  [
+   "🟣 Complete the word: p__ple",
+   "ur",
+   [
+    "er",
+    "ir",
+    "or"
+   ],
+   "The word is spelled with ur: purple."
+  ],
+  [
+   "⭕ Complete the word: c__cle",
+   "ir",
+   [
+    "er",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with ir: circle."
+  ],
+  [
+   "👗 Complete the word: sk__t",
+   "ir",
+   [
+    "er",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with ir: skirt."
+  ],
+  [
+   "🔢 (the number 13) Complete the word: th__teen",
+   "ir",
+   [
+    "er",
+    "ur",
+    "or"
+   ],
+   "The word is spelled with ir: thirteen."
+  ],
+  [
+   "🦃 Complete the word: t__key",
+   "ur",
+   [
+    "er",
+    "ir",
+    "ar"
+   ],
+   "The word is spelled with ur: turkey."
+  ],
+  [
+   "🏄 Complete the word: s__f",
+   "ur",
+   [
+    "er",
+    "ir",
+    "ar"
+   ],
+   "The word is spelled with ur: surf."
+  ],
+  [
+   "🐯 Complete the word: tig__",
+   "er",
+   [
+    "ir",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with er: tiger."
+  ],
+  [
+   "🕷️ Complete the word: spid__",
+   "er",
+   [
+    "ir",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with er: spider."
+  ],
+  [
+   "🏞️ Complete the word: riv__",
+   "er",
+   [
+    "ir",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with er: river."
+  ],
+  [
+   "🌸 Complete the word: flow__",
+   "er",
+   [
+    "ir",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with er: flower."
+  ],
+  [
+   "🦠 Complete the word: g__m",
+   "er",
+   [
+    "ir",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with er: germ."
+  ],
+  [
+   "🥄 Complete the word: st__",
+   "ir",
+   [
+    "er",
+    "ur",
+    "or"
+   ],
+   "The word is spelled with ir: stir."
+  ],
+  [
+   "🪴 Complete the word: d__t",
+   "ir",
+   [
+    "er",
+    "ur",
+    "or"
+   ],
+   "The word is spelled with ir: dirt."
+  ],
+  [
+   "🥇 Complete the word: f__st",
+   "ir",
+   [
+    "er",
+    "ur",
+    "or"
+   ],
+   "The word is spelled with ir: first."
+  ],
+  [
+   "🥉 Complete the word: th__d",
+   "ir",
+   [
+    "er",
+    "ur",
+    "or"
+   ],
+   "The word is spelled with ir: third."
+  ],
+  [
+   "🤕 Complete the word: h__t",
+   "ur",
+   [
+    "er",
+    "ir",
+    "or"
+   ],
+   "The word is spelled with ur: hurt."
+  ],
+  [
+   "🐿️ Complete the word: squ__rel",
+   "ir",
+   [
+    "er",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with ir: squirrel."
+  ],
+  [
+   "🥤 Complete the word: th__sty",
+   "ir",
+   [
+    "er",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with ir: thirsty."
+  ],
+  [
+   "❄️ Complete the word: wint__",
+   "er",
+   [
+    "ir",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with er: winter."
+  ],
+  [
+   "🦋 Complete the word: butt__fly",
+   "er",
+   [
+    "ir",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with er: butterfly."
+  ],
+  [
+   "🧜 Complete the word: m__maid",
+   "er",
+   [
+    "ir",
+    "ur",
+    "ar"
+   ],
+   "The word is spelled with er: mermaid."
+  ]
+ ],
+ "engXSgSp": [
+  [
+   "🎭 Which is the correct spelling?",
+   "stage",
+   [
+    "staje",
+    "stag",
+    "stadge"
+   ],
+   "Stage has a soft g sound and is spelled stage."
+  ],
+  [
+   "🪄 Which is the correct spelling?",
+   "magic",
+   [
+    "majic",
+    "magik",
+    "magick"
+   ],
+   "Magic has a soft g sound and is spelled magic."
+  ],
+  [
+   "🌉 Which is the correct spelling?",
+   "bridge",
+   [
+    "brige",
+    "bridj",
+    "brigde"
+   ],
+   "Bridge has a soft g sound and is spelled bridge."
+  ],
+  [
+   "🧃 Which is the correct spelling?",
+   "juice",
+   [
+    "juise",
+    "jucie",
+    "juce"
+   ],
+   "Juice has a soft c sound and is spelled juice."
+  ],
+  [
+   "💃 Which is the correct spelling?",
+   "dance",
+   [
+    "danse",
+    "dence",
+    "danc"
+   ],
+   "Dance has a soft c sound and is spelled dance."
+  ],
+  [
+   "🤴 Which is the correct spelling?",
+   "prince",
+   [
+    "prinse",
+    "prence",
+    "prinz"
+   ],
+   "Prince has a soft c sound and is spelled prince."
+  ],
+  [
+   "👸 Which is the correct spelling?",
+   "princess",
+   [
+    "prinsess",
+    "princes",
+    "prencess"
+   ],
+   "Princess has a soft c sound and is spelled princess."
+  ],
+  [
+   "🦔 Which is the correct spelling?",
+   "hedgehog",
+   [
+    "hegehog",
+    "hejhog",
+    "hedghog"
+   ],
+   "Hedgehog has a soft g sound and is spelled hedgehog."
+  ],
+  [
+   "🍕 Which is the correct spelling?",
+   "slice",
+   [
+    "slise",
+    "slic",
+    "sleice"
+   ],
+   "Slice has a soft c sound and is spelled slice."
+  ],
+  [
+   "🥬 Which is the correct spelling?",
+   "celery",
+   [
+    "selery",
+    "celary",
+    "celry"
+   ],
+   "Celery has a soft c sound and is spelled celery."
+  ],
+  [
+   "🥣 Which is the correct spelling?",
+   "cereal",
+   [
+    "sereal",
+    "cerial",
+    "cereel"
+   ],
+   "Cereal has a soft c sound and is spelled cereal."
+  ],
+  [
+   "🚲 Which is the correct spelling?",
+   "bicycle",
+   [
+    "bisycle",
+    "bicycel",
+    "bycicle"
+   ],
+   "Bicycle has a soft c sound and is spelled bicycle."
+  ],
+  [
+   "🎲 Which is the correct spelling?",
+   "dice",
+   [
+    "dise",
+    "dic",
+    "deice"
+   ],
+   "Dice has a soft c sound and is spelled dice."
+  ],
+  [
+   "👮 Which is the correct spelling?",
+   "police",
+   [
+    "polise",
+    "polic",
+    "pollice"
+   ],
+   "Police has a soft c sound and is spelled police."
+  ],
+  [
+   "🍪 Which is the correct spelling?",
+   "gingerbread",
+   [
+    "jingerbread",
+    "gingerbred",
+    "gingarbread"
+   ],
+   "Gingerbread has a soft g sound and is spelled gingerbread."
+  ],
+  [
+   "📛 Which is the correct spelling?",
+   "badge",
+   [
+    "bage",
+    "badj",
+    "bagde"
+   ],
+   "Badge has a soft g sound and is spelled badge."
+  ],
+  [
+   "🚂 Which is the correct spelling?",
+   "engine",
+   [
+    "enjine",
+    "engin",
+    "engien"
+   ],
+   "Engine has a soft g sound and is spelled engine."
+  ],
+  [
+   "🌌 Which is the correct spelling?",
+   "space",
+   [
+    "spase",
+    "spac",
+    "spaec"
+   ],
+   "Space has a soft c sound and is spelled space."
+  ],
+  [
+   "🏁 Which is the correct spelling?",
+   "race",
+   [
+    "rase",
+    "rac",
+    "raec"
+   ],
+   "Race has a soft c sound and is spelled race."
+  ],
+  [
+   "🦠 Which is the correct spelling?",
+   "germ",
+   [
+    "jerm",
+    "gurm",
+    "grem"
+   ],
+   "Germ has a soft g sound and is spelled germ."
+  ],
+  [
+   "🩹 Which is the correct spelling?",
+   "bandage",
+   [
+    "bandaje",
+    "bandag",
+    "bandege"
+   ],
+   "Bandage has a soft g sound and is spelled bandage."
+  ],
+  [
+   "🧽 Which is the correct spelling?",
+   "sponge",
+   [
+    "sponje",
+    "spong",
+    "spunge"
+   ],
+   "Sponge has a soft g sound and is spelled sponge."
+  ]
+ ],
+ "engFbTh": [
+  [
+   "Read the fable. A crow sat in a tree with a piece of cheese. A fox told her she had the most beautiful voice and begged her to sing. When the crow opened her beak to sing, the cheese fell, and the fox ate it. What is the theme (lesson) of this fable?",
+   "Do not trust people who flatter you to get something.",
+   [
+    "Slow and steady wins the race.",
+    "Hard work pays off in the end.",
+    "Never give up on your dreams."
+   ],
+   "The events of the story show that do not trust people who flatter you to get something."
+  ],
+  [
+   "Read the fable. An ant fell into a stream. A dove dropped a leaf, and the ant climbed onto it to safety. Later, a hunter aimed at the dove, and the ant bit his foot so the dove could fly away. What is the theme (lesson) of this fable?",
+   "One good turn deserves another.",
+   [
+    "Do not count on something before it happens.",
+    "Be happy with who you are.",
+    "Look before you leap."
+   ],
+   "The events of the story show that one good turn deserves another."
+  ],
+  [
+   "Read the fable. A fox served a stork soup in a flat dish, so the stork could not drink it. Later, the stork served the fox food in a tall, narrow jar, so the fox could not eat. What is the theme (lesson) of this fable?",
+   "Treat others the way you want to be treated.",
+   [
+    "Many hands make light work.",
+    "It is wise to prepare for the future.",
+    "Things are not always what they seem."
+   ],
+   "The events of the story show that treat others the way you want to be treated."
+  ],
+  [
+   "Read the fable. The mice met to decide how to stay safe from the cat. A young mouse said, \"Let's tie a bell on the cat!\" Everyone cheered — until an old mouse asked, \"Who will tie it on?\" No one answered. What is the theme (lesson) of this fable?",
+   "It is easy to suggest a plan but hard to carry it out.",
+   [
+    "Even small friends can be a big help.",
+    "Treat others the way you want to be treated.",
+    "Being greedy can make you lose what you have."
+   ],
+   "The events of the story show that it is easy to suggest a plan but hard to carry it out."
+  ],
+  [
+   "Read the fable. A milkmaid walked to market with a pail of milk on her head. She dreamed of selling the milk, buying hens and getting rich. She tossed her head proudly, and the milk spilled everywhere. What is the theme (lesson) of this fable?",
+   "Do not count on something before it happens.",
+   [
+    "Kindness and gentleness work better than force.",
+    "Treat others the way you want to be treated.",
+    "Working together makes us stronger."
+   ],
+   "The events of the story show that do not count on something before it happens."
+  ],
+  [
+   "Read the fable. Two friends were walking in the woods when a bear appeared. One friend quickly climbed a tree and left the other alone on the ground. After the bear left, the friend on the ground said, \"A true friend would not have left me.\" What is the theme (lesson) of this fable?",
+   "A true friend stands by you in times of danger.",
+   [
+    "It is easy to suggest a plan but hard to carry it out.",
+    "Slow and steady wins the race.",
+    "Do not count on something before it happens."
+   ],
+   "The events of the story show that a true friend stands by you in times of danger."
+  ],
+  [
+   "Read the fable. A father gave each of his sons a single stick, and each son broke it easily. Then he tied a bundle of sticks together. None of the sons could break the bundle. What is the theme (lesson) of this fable?",
+   "Working together makes us stronger.",
+   [
+    "Do not trust people who flatter you to get something.",
+    "Look before you leap.",
+    "It is wise to prepare for the future."
+   ],
+   "The events of the story show that working together makes us stronger."
+  ],
+  [
+   "Read the fable. A jay found some peacock feathers and stuck them in his tail. He strutted among the peacocks, but they pulled out the feathers and chased him away. His own jay friends would not let him back either. What is the theme (lesson) of this fable?",
+   "Be happy being yourself instead of pretending to be someone else.",
+   [
+    "One good turn deserves another.",
+    "Working together makes us stronger.",
+    "People will not believe someone who often lies."
+   ],
+   "The events of the story show that be happy being yourself instead of pretending to be someone else."
+  ],
+  [
+   "Read the fable. A boy pushed his hand into a jar of nuts and grabbed as many as he could. His fist was too full to pull out of the jar. His mother said, \"Take just a few, and your hand will come out easily.\" What is the theme (lesson) of this fable?",
+   "Do not try to take too much at once.",
+   [
+    "A true friend stands by you in times of danger.",
+    "Be happy being yourself instead of pretending to be someone else.",
+    "Treat others the way you want to be treated."
+   ],
+   "The events of the story show that do not try to take too much at once."
+  ],
+  [
+   "Read the fable. A proud oak tree stood stiff against a strong storm and was knocked down. The thin reeds by the river bent with the wind. When the storm ended, the reeds stood up again, unharmed. What is the theme (lesson) of this fable?",
+   "It is sometimes better to bend than to break.",
+   [
+    "Do not count on something before it happens.",
+    "One good turn deserves another.",
+    "Many hands make light work."
+   ],
+   "The events of the story show that it is sometimes better to bend than to break."
+  ],
+  [
+   "Read the fable. A fox fell into a well and could not climb out. A thirsty goat came by. The fox said the water was delicious, so the goat jumped in. The fox climbed on the goat's back, leapt out and left the goat stuck in the well. What is the theme (lesson) of this fable?",
+   "Look before you leap.",
+   [
+    "Working together makes us stronger.",
+    "Even small friends can be a big help.",
+    "It is wise to prepare for the future."
+   ],
+   "The events of the story show that look before you leap."
+  ],
+  [
+   "Read the folktale. Hungry travellers came to a village with only a pot and a stone. They began making \"stone soup.\" One villager added carrots, another added potatoes, and another added beans. Soon there was a delicious soup for everyone. What is the theme (lesson) of this folktale?",
+   "When everyone shares a little, there is plenty for all.",
+   [
+    "Look before you leap.",
+    "Do not trust people who flatter you to get something.",
+    "Slow and steady wins the race."
+   ],
+   "The events of the story show that when everyone shares a little, there is plenty for all."
+  ],
+  [
+   "Read the folktale. The Little Red Hen asked her friends to help plant, cut and grind the wheat. Each time they said, \"Not I.\" When she baked the bread, they all wanted some. She said, \"I did the work, so I will eat it.\" What is the theme (lesson) of this folktale?",
+   "Those who will not help should not expect to share the reward.",
+   [
+    "It is sometimes better to bend than to break.",
+    "Be happy being yourself instead of pretending to be someone else.",
+    "Do not try to take too much at once."
+   ],
+   "The events of the story show that those who will not help should not expect to share the reward."
+  ],
+  [
+   "Read the fable. A wolf put on a sheep's skin and walked into the flock. The sheep thought he was one of them and followed him away from the shepherd. What is the theme (lesson) of this fable?",
+   "Things are not always what they seem.",
+   [
+    "It is easy to suggest a plan but hard to carry it out.",
+    "One good turn deserves another.",
+    "Do not count on something before it happens."
+   ],
+   "The events of the story show that things are not always what they seem."
+  ],
+  [
+   "Read the fable. A monkey was riding on a crocodile's back across the river. The crocodile said, \"I want to eat your heart!\" The monkey said, \"Oh no, I left my heart in the tree. Take me back and I will get it.\" When they reached the shore, the monkey leapt safely into the tree. What is the theme (lesson) of this fable?",
+   "Staying calm and thinking quickly can get you out of trouble.",
+   [
+    "When everyone shares a little, there is plenty for all.",
+    "A true friend stands by you in times of danger.",
+    "Do not try to take too much at once."
+   ],
+   "The events of the story show that staying calm and thinking quickly can get you out of trouble."
+  ],
+  [
+   "Read the folktale. Two tricksters told an emperor they had made him clothes that foolish people could not see. No one wanted to seem foolish, so everyone praised the clothes. Then a child shouted, \"But he has nothing on!\" What is the theme (lesson) of this folktale?",
+   "It takes courage to tell the truth when others will not.",
+   [
+    "Treat others the way you want to be treated.",
+    "It is sometimes better to bend than to break.",
+    "Working together makes us stronger."
+   ],
+   "The events of the story show that it takes courage to tell the truth when others will not."
+  ],
+  [
+   "Read the folktale. A poor shoemaker had leather for only one pair of shoes. Each night, two tiny elves secretly made beautiful shoes for him. To thank them, the shoemaker and his wife sewed the elves tiny clothes. What is the theme (lesson) of this folktale?",
+   "We should show thanks to those who help us.",
+   [
+    "Look before you leap.",
+    "Things are not always what they seem.",
+    "Do not count on something before it happens."
+   ],
+   "The events of the story show that we should show thanks to those who help us."
+  ],
+  [
+   "Read the fable. A dog lay in a manger full of hay. When the hungry ox came to eat, the dog growled and would not let him near. The dog could not eat hay, but he would not share it either. What is the theme (lesson) of this fable?",
+   "Do not keep from others what you cannot use yourself.",
+   [
+    "Staying calm and thinking quickly can get you out of trouble.",
+    "It takes courage to tell the truth when others will not.",
+    "Slow and steady wins the race."
+   ],
+   "The events of the story show that do not keep from others what you cannot use yourself."
+  ],
+  [
+   "Read the fable. A peacock laughed at a crane's plain grey feathers. The crane said, \"Your feathers are lovely, but I can fly high above the clouds while you stay on the ground.\" What is the theme (lesson) of this fable?",
+   "Everyone has their own special strengths.",
+   [
+    "Look before you leap.",
+    "Do not keep from others what you cannot use yourself.",
+    "It is easy to suggest a plan but hard to carry it out."
+   ],
+   "The events of the story show that everyone has their own special strengths."
+  ],
+  [
+   "Read the fable. A mother crab told her son, \"Stop walking sideways! Walk straight.\" The young crab said, \"Show me how, Mother.\" The mother crab tried, but she could only walk sideways too. What is the theme (lesson) of this fable?",
+   "Show others how to do something by doing it yourself.",
+   [
+    "When everyone shares a little, there is plenty for all.",
+    "Do not trust people who flatter you to get something.",
+    "Things are not always what they seem."
+   ],
+   "The events of the story show that show others how to do something by doing it yourself."
+  ],
+  [
+   "Read the fable. A miser buried his gold under a tree and dug it up each day just to look at it. One night a thief stole it. A neighbour said, \"Bury a stone instead. You never used the gold anyway, so the stone is worth just as much.\" What is the theme (lesson) of this fable?",
+   "Riches are worth nothing if they are never used.",
+   [
+    "One good turn deserves another.",
+    "Everyone has their own special strengths.",
+    "Staying calm and thinking quickly can get you out of trouble."
+   ],
+   "The events of the story show that riches are worth nothing if they are never used."
+  ],
+  [
+   "Read the fable. A fisherman caught a tiny fish. The fish begged, \"Let me go! When I am big, you can catch me again.\" The fisherman said, \"I would be silly to give up a fish I have for a bigger one I might never catch.\" What is the theme (lesson) of this fable?",
+   "A small thing you have is better than a big thing you only might get.",
+   [
+    "It takes courage to tell the truth when others will not.",
+    "Those who will not help should not expect to share the reward.",
+    "It is sometimes better to bend than to break."
+   ],
+   "The events of the story show that a small thing you have is better than a big thing you only might get."
+  ]
+ ],
+ "engPrpE": [
+  [
+   "Why did the author write this? Beavers build dams out of sticks and mud.",
+   "To inform",
+   [
+    "To persuade",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The facts teach the reader about a real topic."
+  ],
+  [
+   "Why did the author write this? The maple leaf is shown on Canada's flag.",
+   "To inform",
+   [
+    "To persuade",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The facts teach the reader about a real topic."
+  ],
+  [
+   "Why did the author write this? A spider has eight legs.",
+   "To inform",
+   [
+    "To persuade",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The facts teach the reader about a real topic."
+  ],
+  [
+   "Why did the author write this? Water freezes at 0 degrees Celsius.",
+   "To inform",
+   [
+    "To persuade",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The facts teach the reader about a real topic."
+  ],
+  [
+   "Why did the author write this? Bees make honey from the nectar of flowers.",
+   "To inform",
+   [
+    "To persuade",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The facts teach the reader about a real topic."
+  ],
+  [
+   "Why did the author write this? Polar bears live in the Arctic and hunt seals on the ice.",
+   "To inform",
+   [
+    "To persuade",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The facts teach the reader about a real topic."
+  ],
+  [
+   "Why did the author write this? Our heart pumps blood all through our body.",
+   "To inform",
+   [
+    "To persuade",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The facts teach the reader about a real topic."
+  ],
+  [
+   "Why did the author write this? You should eat more fruit and vegetables every day!",
+   "To persuade",
+   [
+    "To inform",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The writer is trying to get the reader to do or believe something."
+  ],
+  [
+   "Why did the author write this? Come to our school play on Friday. You will love it!",
+   "To persuade",
+   [
+    "To inform",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The writer is trying to get the reader to do or believe something."
+  ],
+  [
+   "Why did the author write this? Please recycle your cans and bottles to help our planet.",
+   "To persuade",
+   [
+    "To inform",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The writer is trying to get the reader to do or believe something."
+  ],
+  [
+   "Why did the author write this? Vote for Ava for class president. She will make recess longer!",
+   "To persuade",
+   [
+    "To inform",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The writer is trying to get the reader to do or believe something."
+  ],
+  [
+   "Why did the author write this? Everyone should read for twenty minutes every night.",
+   "To persuade",
+   [
+    "To inform",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The writer is trying to get the reader to do or believe something."
+  ],
+  [
+   "Why did the author write this? Try our new pancakes. They are the fluffiest in Canada!",
+   "To persuade",
+   [
+    "To inform",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The writer is trying to get the reader to do or believe something."
+  ],
+  [
+   "Why did the author write this? Turn off the lights when you leave a room to save energy.",
+   "To persuade",
+   [
+    "To inform",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The writer is trying to get the reader to do or believe something."
+  ],
+  [
+   "Why did the author write this? A moose put on skates and twirled across the frozen pond.",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To express feelings"
+   ],
+   "The made-up, fun story is meant to amuse the reader."
+  ],
+  [
+   "Why did the author write this? The talking pumpkin rolled down the hill, giggling all the way.",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To express feelings"
+   ],
+   "The made-up, fun story is meant to amuse the reader."
+  ],
+  [
+   "Why did the author write this? Once there was a tiny dragon who sneezed bubbles instead of fire.",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To express feelings"
+   ],
+   "The made-up, fun story is meant to amuse the reader."
+  ],
+  [
+   "Why did the author write this? The cat wore a crown and ordered the dogs to bring her ice cream.",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To express feelings"
+   ],
+   "The made-up, fun story is meant to amuse the reader."
+  ],
+  [
+   "Why did the author write this? Grandpa's sock ran away to join the circus.",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To express feelings"
+   ],
+   "The made-up, fun story is meant to amuse the reader."
+  ],
+  [
+   "Why did the author write this? A snowman wanted to visit the beach, so he packed his sunscreen.",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To express feelings"
+   ],
+   "The made-up, fun story is meant to amuse the reader."
+  ],
+  [
+   "Why did the author write this? The Moon is about 384 000 kilometres from Earth.",
+   "To inform",
+   [
+    "To persuade",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The facts teach the reader about a real topic."
+  ],
+  [
+   "Why did the author write this? Adopt a pet from the animal shelter. They need loving homes!",
+   "To persuade",
+   [
+    "To inform",
+    "To entertain",
+    "To express feelings"
+   ],
+   "The writer is trying to get the reader to do or believe something."
+  ]
+ ],
+ "engCsEf": [
+  [
+   "Effect: The snowman melted. What was the cause?",
+   "The sun came out and it got warm.",
+   [
+    "Sara knocked over her glass.",
+    "She helped clean up the classroom.",
+    "Mom watered them every day."
+   ],
+   "The snowman melted because the sun came out and it got warm."
+  ],
+  [
+   "Cause: She rode over a sharp nail. What is the effect?",
+   "Ava's bike had a flat tire.",
+   [
+    "The ice cream truck drove by.",
+    "Max lost his voice.",
+    "Our class went inside early."
+   ],
+   "She rode over a sharp nail, so ava's bike had a flat tire."
+  ],
+  [
+   "Effect: The baby woke up crying. What was the cause?",
+   "A loud thunderclap boomed outside.",
+   [
+    "He ate too much candy.",
+    "Winter was coming.",
+    "The sun came out and it got warm."
+   ],
+   "The baby woke up crying because a loud thunderclap boomed outside."
+  ],
+  [
+   "Cause: He ate too much candy. What is the effect?",
+   "Jake's tummy hurt.",
+   [
+    "The ice cream truck drove by.",
+    "The kite flew high.",
+    "Lily got a gold star."
+   ],
+   "He ate too much candy, so jake's tummy hurt."
+  ],
+  [
+   "Effect: The flowers grew tall. What was the cause?",
+   "Mom watered them every day.",
+   [
+    "She rode over a sharp nail.",
+    "Sara knocked over her glass.",
+    "Someone turned off the lights."
+   ],
+   "The flowers grew tall because mom watered them every day."
+  ],
+  [
+   "Cause: It started to rain at recess. What is the effect?",
+   "Our class went inside early.",
+   [
+    "The kite flew high.",
+    "Ben's shoes got muddy.",
+    "The cookies burned."
+   ],
+   "It started to rain at recess, so our class went inside early."
+  ],
+  [
+   "Effect: The lake froze. What was the cause?",
+   "The weather was very cold for many days.",
+   [
+    "It started to rain at recess.",
+    "He ate too much candy.",
+    "Dad left them in the oven too long."
+   ],
+   "The lake froze because the weather was very cold for many days."
+  ],
+  [
+   "Cause: He stayed up too late. What is the effect?",
+   "Noah fell asleep in class.",
+   [
+    "The lake froze.",
+    "The snowman melted.",
+    "The cookies burned."
+   ],
+   "He stayed up too late, so noah fell asleep in class."
+  ],
+  [
+   "Effect: The milk spilled on the floor. What was the cause?",
+   "Sara knocked over her glass.",
+   [
+    "Dad left them in the oven too long.",
+    "The weather was very cold for many days.",
+    "It started to rain at recess."
+   ],
+   "The milk spilled on the floor because sara knocked over her glass."
+  ],
+  [
+   "Cause: Dad left them in the oven too long. What is the effect?",
+   "The cookies burned.",
+   [
+    "Lily got a gold star.",
+    "The birds flew south.",
+    "Ben's shoes got muddy."
+   ],
+   "Dad left them in the oven too long, so the cookies burned."
+  ],
+  [
+   "Effect: Lily got a gold star. What was the cause?",
+   "She helped clean up the classroom.",
+   [
+    "A loud thunderclap boomed outside.",
+    "She forgot her mittens at home.",
+    "A stranger knocked on the door."
+   ],
+   "Lily got a gold star because she helped clean up the classroom."
+  ],
+  [
+   "Cause: A stranger knocked on the door. What is the effect?",
+   "The dog barked loudly.",
+   [
+    "The ice cream truck drove by.",
+    "The room was dark.",
+    "Noah fell asleep in class."
+   ],
+   "A stranger knocked on the door, so the dog barked loudly."
+  ],
+  [
+   "Effect: Ben's shoes got muddy. What was the cause?",
+   "He jumped in a big puddle.",
+   [
+    "It started to rain at recess.",
+    "He stayed up too late.",
+    "He cheered too loudly at the hockey game."
+   ],
+   "Ben's shoes got muddy because he jumped in a big puddle."
+  ],
+  [
+   "Cause: The ice cream truck drove by. What is the effect?",
+   "The children ran outside to buy treats.",
+   [
+    "Sara knocked over her glass.",
+    "A loud thunderclap boomed outside.",
+    "A strong breeze was blowing."
+   ],
+   "The children ran outside because the ice cream truck came by."
+  ],
+  [
+   "Effect: The tree fell down. What was the cause?",
+   "A strong wind blew during the storm.",
+   [
+    "Dad left them in the oven too long.",
+    "The sun came out and it got warm.",
+    "Winter was coming."
+   ],
+   "The tree fell down because a strong wind blew during the storm."
+  ],
+  [
+   "Cause: She brushed them twice a day. What is the effect?",
+   "Emma's teeth stayed healthy.",
+   [
+    "The plant leaned toward the window.",
+    "The cookies burned.",
+    "The room was dark."
+   ],
+   "She brushed them twice a day, so emma's teeth stayed healthy."
+  ],
+  [
+   "Effect: Max lost his voice. What was the cause?",
+   "He cheered too loudly at the hockey game.",
+   [
+    "The weather was very cold for many days.",
+    "The children ran outside to buy treats.",
+    "She forgot her mittens at home."
+   ],
+   "Max lost his voice because he cheered too loudly at the hockey game."
+  ],
+  [
+   "Cause: Someone turned off the lights. What is the effect?",
+   "The room was dark.",
+   [
+    "Mia's hands were cold.",
+    "The cookies burned.",
+    "The ice cream truck drove by."
+   ],
+   "Someone turned off the lights, so the room was dark."
+  ],
+  [
+   "Effect: The kite flew high. What was the cause?",
+   "A strong breeze was blowing.",
+   [
+    "A strong wind blew during the storm.",
+    "It started to rain at recess.",
+    "He stayed up too late."
+   ],
+   "The kite flew high because a strong breeze was blowing."
+  ],
+  [
+   "Cause: It was reaching for the sunlight. What is the effect?",
+   "The plant leaned toward the window.",
+   [
+    "The cookies burned.",
+    "The milk spilled on the floor.",
+    "Ava's bike had a flat tire."
+   ],
+   "It was reaching for the sunlight, so the plant leaned toward the window."
+  ],
+  [
+   "Effect: Mia's hands were cold. What was the cause?",
+   "She forgot her mittens at home.",
+   [
+    "A loud thunderclap boomed outside.",
+    "She rode over a sharp nail.",
+    "A strong wind blew during the storm."
+   ],
+   "Mia's hands were cold because she forgot her mittens at home."
+  ],
+  [
+   "Cause: Winter was coming. What is the effect?",
+   "The birds flew south.",
+   [
+    "Mia's hands were cold.",
+    "The milk spilled on the floor.",
+    "Max lost his voice."
+   ],
+   "Winter was coming, so the birds flew south."
+  ]
+ ]
+}

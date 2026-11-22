@@ -1,0 +1,4442 @@
+{
+ "engXPrRpl": [
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>The puppies</strong> chased the ball. → ___ chased the ball.",
+   "They",
+   [
+    "Them",
+    "It",
+    "We"
+   ],
+   "\"The puppies\" is plural and is the subject, so use \"They.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. I fed <strong>the fish</strong> in the tank. → I fed ___.",
+   "them",
+   [
+    "they",
+    "it",
+    "us"
+   ],
+   "\"The fish\" in the tank are more than one and receive the action, so use \"them.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>My sister and I</strong> built a fort. → ___ built a fort.",
+   "We",
+   [
+    "They",
+    "Us",
+    "She"
+   ],
+   "\"My sister and I\" includes the speaker and is the subject, so use \"We.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. Grandpa read a story to <strong>my brother and me</strong>. → Grandpa read a story to ___.",
+   "us",
+   [
+    "we",
+    "them",
+    "they"
+   ],
+   "\"My brother and me\" includes the speaker and comes after \"to,\" so use \"us.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>The farmers</strong> picked apples. → ___ picked apples.",
+   "They",
+   [
+    "Them",
+    "He",
+    "We"
+   ],
+   "\"The farmers\" is plural and is the subject, so use \"They.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. The teacher praised <strong>the students</strong>. → The teacher praised ___.",
+   "them",
+   [
+    "they",
+    "him",
+    "us"
+   ],
+   "\"The students\" are more than one and receive the praise, so use \"them.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>The cookies</strong> smelled sweet. → ___ smelled sweet.",
+   "They",
+   [
+    "It",
+    "Them",
+    "We"
+   ],
+   "\"The cookies\" is plural and is the subject, so use \"They.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. Mom called <strong>Jake and me</strong> for dinner. → Mom called ___ for dinner.",
+   "us",
+   [
+    "we",
+    "them",
+    "they"
+   ],
+   "\"Jake and me\" includes the speaker and receives the action, so use \"us.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>The geese</strong> flew south. → ___ flew south.",
+   "They",
+   [
+    "It",
+    "Them",
+    "We"
+   ],
+   "\"The geese\" is plural and is the subject, so use \"They.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. We planted <strong>the seeds</strong> in pots. → We planted ___ in pots.",
+   "them",
+   [
+    "they",
+    "it",
+    "us"
+   ],
+   "\"The seeds\" are more than one and receive the action, so use \"them.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>Ava and I</strong> walked to school. → ___ walked to school.",
+   "We",
+   [
+    "Us",
+    "They",
+    "Her"
+   ],
+   "\"Ava and I\" includes the speaker and is the subject, so use \"We.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. The coach gave <strong>the players</strong> water. → The coach gave ___ water.",
+   "them",
+   [
+    "they",
+    "him",
+    "we"
+   ],
+   "\"The players\" are more than one and receive the water, so use \"them.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>The bees</strong> buzzed near the flowers. → ___ buzzed near the flowers.",
+   "They",
+   [
+    "It",
+    "Them",
+    "Us"
+   ],
+   "\"The bees\" is plural and is the subject, so use \"They.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. Dad drove <strong>my friends and me</strong> to the rink. → Dad drove ___ to the rink.",
+   "us",
+   [
+    "we",
+    "them",
+    "they"
+   ],
+   "\"My friends and me\" includes the speaker and receives the action, so use \"us.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>The children</strong> sang a song. → ___ sang a song.",
+   "They",
+   [
+    "Them",
+    "She",
+    "We"
+   ],
+   "\"The children\" is plural and is the subject, so use \"They.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. I washed <strong>the dishes</strong> after supper. → I washed ___ after supper.",
+   "them",
+   [
+    "they",
+    "it",
+    "us"
+   ],
+   "\"The dishes\" are more than one and receive the action, so use \"them.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>Leo, Kim and I</strong> are on the same team. → ___ are on the same team.",
+   "We",
+   [
+    "They",
+    "Us",
+    "He"
+   ],
+   "\"Leo, Kim and I\" includes the speaker and is the subject, so use \"We.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. The bus waited for <strong>the twins</strong>. → The bus waited for ___.",
+   "them",
+   [
+    "they",
+    "it",
+    "us"
+   ],
+   "\"The twins\" are two people after \"for,\" so use \"them.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>My cousins</strong> live in Halifax. → ___ live in Halifax.",
+   "They",
+   [
+    "Them",
+    "It",
+    "We"
+   ],
+   "\"My cousins\" is plural and is the subject, so use \"They.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. The clown made <strong>Mia and me</strong> laugh. → The clown made ___ laugh.",
+   "us",
+   [
+    "we",
+    "they",
+    "them"
+   ],
+   "\"Mia and me\" includes the speaker and receives the action, so use \"us.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. <strong>The ducks</strong> swam in the pond. → ___ swam in the pond.",
+   "They",
+   [
+    "It",
+    "Them",
+    "Us"
+   ],
+   "\"The ducks\" is plural and is the subject, so use \"They.\""
+  ],
+  [
+   "Replace the <strong>bold</strong> words with a pronoun. Please put away <strong>your toys</strong>. → Please put away ___.",
+   "them",
+   [
+    "they",
+    "it",
+    "us"
+   ],
+   "\"Your toys\" are more than one and receive the action, so use \"them.\""
+  ]
+ ],
+ "engXPpId": [
+  [
+   "Which of these words is a possessive pronoun?",
+   "his",
+   [
+    "he",
+    "him",
+    "they"
+   ],
+   "\"His\" shows that something belongs to a boy or man."
+  ],
+  [
+   "Which word is a possessive pronoun?",
+   "her",
+   [
+    "she",
+    "we",
+    "it"
+   ],
+   "In \"her book,\" the word \"her\" shows ownership."
+  ],
+  [
+   "Which word is a possessive pronoun?",
+   "your",
+   [
+    "you",
+    "they",
+    "us"
+   ],
+   "\"Your\" shows that something belongs to the person you are talking to."
+  ],
+  [
+   "Which of these words shows ownership?",
+   "their",
+   [
+    "they",
+    "them",
+    "he"
+   ],
+   "\"Their\" shows that something belongs to a group."
+  ],
+  [
+   "Which of these words shows ownership?",
+   "hers",
+   [
+    "she",
+    "him",
+    "them"
+   ],
+   "\"Hers\" stands for something that belongs to a girl or woman."
+  ],
+  [
+   "Which of these words is a possessive pronoun?",
+   "yours",
+   [
+    "you",
+    "we",
+    "him"
+   ],
+   "\"Yours\" stands for something that belongs to you."
+  ],
+  [
+   "Which word is a possessive pronoun?",
+   "our",
+   [
+    "we",
+    "us",
+    "they"
+   ],
+   "\"Our\" shows that something belongs to the speaker and others."
+  ],
+  [
+   "Which word is a possessive pronoun?",
+   "its",
+   [
+    "it",
+    "he",
+    "us"
+   ],
+   "\"Its\" (no apostrophe) shows that something belongs to a thing or animal."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? That red bike is mine.",
+   "mine",
+   [
+    "That",
+    "red",
+    "bike"
+   ],
+   "\"Mine\" tells who owns the bike."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? We packed our lunches.",
+   "our",
+   [
+    "We",
+    "packed",
+    "lunches"
+   ],
+   "\"Our\" tells whose lunches they are."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? The dog wagged its tail.",
+   "its",
+   [
+    "dog",
+    "wagged",
+    "tail"
+   ],
+   "\"Its\" tells whose tail it is."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? Is this jacket yours?",
+   "yours",
+   [
+    "Is",
+    "this",
+    "jacket"
+   ],
+   "\"Yours\" tells who owns the jacket."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? Sara lost her mitten.",
+   "her",
+   [
+    "Sara",
+    "lost",
+    "mitten"
+   ],
+   "\"Her\" tells whose mitten was lost."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? The boys cleaned their room.",
+   "their",
+   [
+    "boys",
+    "cleaned",
+    "room"
+   ],
+   "\"Their\" tells whose room it is."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? Ben forgot his hat.",
+   "his",
+   [
+    "Ben",
+    "forgot",
+    "hat"
+   ],
+   "\"His\" tells whose hat it is."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? The last cookie is hers.",
+   "hers",
+   [
+    "last",
+    "cookie",
+    "is"
+   ],
+   "\"Hers\" tells who owns the cookie."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? Did you bring your skates?",
+   "your",
+   [
+    "you",
+    "bring",
+    "skates"
+   ],
+   "\"Your\" tells whose skates they are."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? That big house is theirs.",
+   "theirs",
+   [
+    "That",
+    "big",
+    "house"
+   ],
+   "\"Theirs\" tells who owns the house."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? I hung my coat on the hook.",
+   "my",
+   [
+    "I",
+    "coat",
+    "hook"
+   ],
+   "\"My\" tells whose coat it is."
+  ],
+  [
+   "Which word in the sentence is a possessive pronoun? The blue tent is ours.",
+   "ours",
+   [
+    "blue",
+    "tent",
+    "is"
+   ],
+   "\"Ours\" tells who owns the tent."
+  ],
+  [
+   "Which word is <em>not</em> a possessive pronoun?",
+   "they",
+   [
+    "mine",
+    "his",
+    "yours"
+   ],
+   "\"They\" names people but does not show ownership."
+  ],
+  [
+   "Which word is <em>not</em> a possessive pronoun?",
+   "me",
+   [
+    "ours",
+    "hers",
+    "their"
+   ],
+   "\"Me\" refers to the speaker but does not show ownership."
+  ]
+ ],
+ "engPrPs": [
+  [
+   "Complete the sentence. Liam brushed ___ teeth.",
+   "his",
+   [
+    "hers",
+    "theirs",
+    "ours"
+   ],
+   "\"His\" goes before the noun \"teeth\" to show they belong to Liam."
+  ],
+  [
+   "Complete the sentence. Those mittens belong to you. They are ___.",
+   "yours",
+   [
+    "your",
+    "mine",
+    "theirs"
+   ],
+   "\"Yours\" stands alone to mean \"belonging to you.\""
+  ],
+  [
+   "Complete the sentence. The cat licked ___ paw.",
+   "its",
+   [
+    "it's",
+    "theirs",
+    "hers"
+   ],
+   "\"Its\" shows the paw belongs to the cat; \"it's\" means \"it is.\""
+  ],
+  [
+   "Complete the sentence. We painted ___ fence white.",
+   "our",
+   [
+    "ours",
+    "mine",
+    "theirs"
+   ],
+   "\"Our\" goes before the noun \"fence\" to show it belongs to us."
+  ],
+  [
+   "Complete the sentence. That kite belongs to Emma. It is ___.",
+   "hers",
+   [
+    "her",
+    "theirs",
+    "mine"
+   ],
+   "\"Hers\" stands alone to mean \"belonging to her.\""
+  ],
+  [
+   "Complete the sentence. I can't find ___ pencil.",
+   "my",
+   [
+    "mine",
+    "yours",
+    "ours"
+   ],
+   "\"My\" goes before the noun \"pencil.\""
+  ],
+  [
+   "Complete the sentence. The twins rode ___ bikes to the park.",
+   "their",
+   [
+    "theirs",
+    "his",
+    "ours"
+   ],
+   "\"Their\" goes before \"bikes\" to show they belong to the twins."
+  ],
+  [
+   "Complete the sentence. This sandcastle belongs to us. It is ___.",
+   "ours",
+   [
+    "our",
+    "theirs",
+    "yours"
+   ],
+   "\"Ours\" stands alone to mean \"belonging to us.\""
+  ],
+  [
+   "Complete the sentence. Did you finish ___ homework?",
+   "your",
+   [
+    "yours",
+    "mine",
+    "theirs"
+   ],
+   "\"Your\" goes before the noun \"homework.\""
+  ],
+  [
+   "Complete the sentence. That puppy belongs to Mr. Chan. It is ___.",
+   "his",
+   [
+    "him",
+    "hers",
+    "theirs"
+   ],
+   "\"His\" can stand alone to mean \"belonging to him.\""
+  ],
+  [
+   "Complete the sentence. The garden belongs to my neighbours. It is ___.",
+   "theirs",
+   [
+    "their",
+    "ours",
+    "mine"
+   ],
+   "\"Theirs\" stands alone to mean \"belonging to them.\""
+  ],
+  [
+   "Complete the sentence. Nora wore ___ new boots.",
+   "her",
+   [
+    "hers",
+    "his",
+    "theirs"
+   ],
+   "\"Her\" goes before \"boots\" to show they belong to Nora."
+  ],
+  [
+   "Complete the sentence. The bird built ___ nest in the tree.",
+   "its",
+   [
+    "their",
+    "hers",
+    "it's"
+   ],
+   "\"Its\" shows the nest belongs to the bird."
+  ],
+  [
+   "Complete the sentence. This seat is ___, so you can sit in the other one.",
+   "mine",
+   [
+    "my",
+    "your",
+    "our"
+   ],
+   "\"Mine\" stands alone to mean \"belonging to me.\""
+  ],
+  [
+   "Complete the sentence. Dad and I washed ___ car.",
+   "our",
+   [
+    "ours",
+    "their",
+    "his"
+   ],
+   "\"Our\" goes before \"car\" to show it belongs to Dad and me."
+  ],
+  [
+   "Complete the sentence. Is this water bottle ___, Jordan?",
+   "yours",
+   [
+    "your",
+    "theirs",
+    "its"
+   ],
+   "\"Yours\" stands alone when you ask if something belongs to the person you are talking to."
+  ],
+  [
+   "Complete the sentence. The students hung ___ art on the wall.",
+   "their",
+   [
+    "theirs",
+    "her",
+    "our"
+   ],
+   "\"Their\" goes before \"art\" to show it belongs to the students."
+  ],
+  [
+   "Complete the sentence. Grandma lost ___ glasses again.",
+   "her",
+   [
+    "hers",
+    "their",
+    "his"
+   ],
+   "\"Her\" goes before \"glasses\" to show they belong to Grandma."
+  ],
+  [
+   "Complete the sentence. Those seats belong to Kai and Ruby. They are ___.",
+   "theirs",
+   [
+    "their",
+    "his",
+    "ours"
+   ],
+   "\"Theirs\" stands alone to mean \"belonging to them.\""
+  ],
+  [
+   "Complete the sentence. I packed ___ swimsuit for the trip.",
+   "my",
+   [
+    "mine",
+    "its",
+    "hers"
+   ],
+   "\"My\" goes before the noun \"swimsuit.\""
+  ],
+  [
+   "Complete the sentence. Omar showed us ___ rock collection.",
+   "his",
+   [
+    "him",
+    "theirs",
+    "hers"
+   ],
+   "\"His\" goes before \"rock collection\" to show it belongs to Omar."
+  ],
+  [
+   "Complete the sentence. The prize goes to our team. The trophy is ___!",
+   "ours",
+   [
+    "our",
+    "theirs",
+    "yours"
+   ],
+   "\"Ours\" stands alone to mean \"belonging to us.\""
+  ]
+ ],
+ "engXPrRe": [
+  [
+   "Complete the sentence. Jacob hurt ___ on the slide.",
+   "himself",
+   [
+    "him",
+    "his",
+    "he"
+   ],
+   "When the subject (Jacob) does the action to himself, use the reflexive \"himself.\""
+  ],
+  [
+   "Complete the sentence. Ms. Patel gave ___ a homework sheet.",
+   "me",
+   [
+    "myself",
+    "I",
+    "mine"
+   ],
+   "The teacher is doing the action to someone else, so use the personal pronoun \"me.\""
+  ],
+  [
+   "Complete the sentence. We cheered for ___ after the big win.",
+   "ourselves",
+   [
+    "us",
+    "we",
+    "ours"
+   ],
+   "\"We\" cheered for the same people, so the reflexive \"ourselves\" is needed."
+  ],
+  [
+   "Complete the sentence. The puppy saw ___ in the mirror.",
+   "itself",
+   [
+    "it",
+    "its",
+    "itselves"
+   ],
+   "The puppy is looking at the puppy, so use the reflexive \"itself.\""
+  ],
+  [
+   "Complete the sentence. Can you pass ___ the salt, please?",
+   "me",
+   [
+    "myself",
+    "I",
+    "mine"
+   ],
+   "The speaker is not the subject here, so use \"me.\""
+  ],
+  [
+   "Complete the sentence. They built the treehouse by ___.",
+   "themselves",
+   [
+    "them",
+    "they",
+    "theirselves"
+   ],
+   "\"By themselves\" means without help; \"theirselves\" is not standard English."
+  ],
+  [
+   "Complete the sentence. Ella wrote a letter to ___ to open in ten years.",
+   "herself",
+   [
+    "her",
+    "she",
+    "hers"
+   ],
+   "Ella is writing to Ella, so the reflexive \"herself\" is correct."
+  ],
+  [
+   "Complete the sentence. Grandpa told ___ a funny story about his childhood.",
+   "us",
+   [
+    "ourselves",
+    "we",
+    "our"
+   ],
+   "Grandpa did the telling to other people, so use \"us.\""
+  ],
+  [
+   "Complete the sentence. I made ___ a sandwich for lunch.",
+   "myself",
+   [
+    "me",
+    "I",
+    "mine"
+   ],
+   "The subject \"I\" is also the one receiving the sandwich, so use \"myself.\""
+  ],
+  [
+   "Complete the sentence. Be careful not to cut ___ with those scissors, Leo.",
+   "yourself",
+   [
+    "you",
+    "yours",
+    "yourselves"
+   ],
+   "The person spoken to (one person) might cut himself, so use \"yourself.\""
+  ],
+  [
+   "Complete the sentence. The coach thanked ___ for coming to practice.",
+   "them",
+   [
+    "themselves",
+    "they",
+    "their"
+   ],
+   "The coach thanked other people, so use the personal pronoun \"them.\""
+  ],
+  [
+   "Complete the sentence. Noah and I taught ___ how to juggle.",
+   "ourselves",
+   [
+    "us",
+    "we",
+    "myself"
+   ],
+   "\"Noah and I\" did the teaching to the same people, so use \"ourselves.\""
+  ],
+  [
+   "Complete the sentence. Mom asked ___ to set the table.",
+   "him",
+   [
+    "himself",
+    "he",
+    "his"
+   ],
+   "Mom is asking someone else, so use the personal pronoun \"him.\""
+  ],
+  [
+   "Complete the sentence. The cat cleaned ___ after dinner.",
+   "itself",
+   [
+    "it",
+    "its",
+    "itself's"
+   ],
+   "The cat cleaned the cat, so use the reflexive \"itself.\""
+  ],
+  [
+   "Complete the sentence. Kids, please help ___ to the snacks on the table.",
+   "yourselves",
+   [
+    "yourself",
+    "you",
+    "yours"
+   ],
+   "\"Kids\" means more than one person, so use the plural reflexive \"yourselves.\""
+  ],
+  [
+   "Complete the sentence. She waved at ___ from across the street.",
+   "us",
+   [
+    "ourselves",
+    "we",
+    "our"
+   ],
+   "\"She\" waved at other people, so use the personal pronoun \"us.\""
+  ],
+  [
+   "Complete the sentence. He reminded ___ to bring his library book.",
+   "himself",
+   [
+    "him",
+    "he",
+    "hisself"
+   ],
+   "He is reminding himself, so use \"himself\"; \"hisself\" is not standard English."
+  ],
+  [
+   "Complete the sentence. The players gave ___ a cheer at the end of the game.",
+   "themselves",
+   [
+    "them",
+    "their",
+    "theirselves"
+   ],
+   "The players cheered for the players, so use \"themselves.\""
+  ],
+  [
+   "Complete the sentence. Aunt Rosa sent ___ a postcard from Quebec City.",
+   "me",
+   [
+    "myself",
+    "I",
+    "my"
+   ],
+   "Aunt Rosa sent it to someone else, so use \"me.\""
+  ],
+  [
+   "Complete the sentence. I drew a picture of ___ for the class mural.",
+   "myself",
+   [
+    "me",
+    "mine",
+    "I"
+   ],
+   "\"I\" drew \"I,\" so the reflexive \"myself\" is correct."
+  ],
+  [
+   "Complete the sentence. The baby giggled when the dog licked ___.",
+   "her",
+   [
+    "herself",
+    "she",
+    "hers"
+   ],
+   "The dog licked the baby, not itself, so use the personal pronoun \"her.\""
+  ],
+  [
+   "Complete the sentence. Priya and Sam, did you enjoy ___ at the fair?",
+   "yourselves",
+   [
+    "yourself",
+    "you",
+    "your"
+   ],
+   "Two people are being spoken to and they are the subject, so use \"yourselves.\""
+  ]
+ ],
+ "engPrRf": [
+  [
+   "Complete the sentence. He fixed the bike ___.",
+   "himself",
+   [
+    "hisself",
+    "themselves",
+    "myself"
+   ],
+   "\"He\" matches \"himself\"; \"hisself\" is not standard English."
+  ],
+  [
+   "Complete the sentence. You can pour the juice ___, Maya.",
+   "yourself",
+   [
+    "yourselves",
+    "herself",
+    "myself"
+   ],
+   "One person (\"you,\" Maya) matches \"yourself.\""
+  ],
+  [
+   "Complete the sentence. The robot shut ___ off.",
+   "itself",
+   [
+    "himself",
+    "themselves",
+    "itselves"
+   ],
+   "A thing like a robot uses \"itself.\""
+  ],
+  [
+   "Complete the sentence. We cleaned the whole garage ___.",
+   "ourselves",
+   [
+    "ourself",
+    "themselves",
+    "yourselves"
+   ],
+   "\"We\" matches \"ourselves.\""
+  ],
+  [
+   "Complete the sentence. The kittens washed ___ in the sun.",
+   "themselves",
+   [
+    "theirselves",
+    "itself",
+    "ourselves"
+   ],
+   "\"The kittens\" (more than one) matches \"themselves.\""
+  ],
+  [
+   "Complete the sentence. I taught ___ to ride a skateboard.",
+   "myself",
+   [
+    "meself",
+    "himself",
+    "yourself"
+   ],
+   "\"I\" matches \"myself.\""
+  ],
+  [
+   "Complete the sentence. Grandma knitted the scarf ___.",
+   "herself",
+   [
+    "himself",
+    "themselves",
+    "yourself"
+   ],
+   "\"Grandma\" matches \"herself.\""
+  ],
+  [
+   "Complete the sentence. Children, please line up by ___.",
+   "yourselves",
+   [
+    "yourself",
+    "ourselves",
+    "themselves"
+   ],
+   "Several children being spoken to matches \"yourselves.\""
+  ],
+  [
+   "Complete the sentence. Dad cut ___ while chopping onions.",
+   "himself",
+   [
+    "herself",
+    "hisself",
+    "itself"
+   ],
+   "\"Dad\" matches \"himself.\""
+  ],
+  [
+   "Complete the sentence. The door closed by ___.",
+   "itself",
+   [
+    "themselves",
+    "himself",
+    "herself"
+   ],
+   "A door is a thing, so it uses \"itself.\""
+  ],
+  [
+   "Complete the sentence. My friends and I made lunch ___.",
+   "ourselves",
+   [
+    "themselves",
+    "myself",
+    "yourselves"
+   ],
+   "\"My friends and I\" means \"we,\" which matches \"ourselves.\""
+  ],
+  [
+   "Complete the sentence. Zoe looked at ___ in the mirror.",
+   "herself",
+   [
+    "himself",
+    "themselves",
+    "yourself"
+   ],
+   "\"Zoe\" matches \"herself.\""
+  ],
+  [
+   "Complete the sentence. The players dressed ___ for the game.",
+   "themselves",
+   [
+    "theirselves",
+    "himself",
+    "ourselves"
+   ],
+   "\"The players\" matches \"themselves.\""
+  ],
+  [
+   "Complete the sentence. I gave ___ a pat on the back.",
+   "myself",
+   [
+    "yourself",
+    "herself",
+    "itself"
+   ],
+   "\"I\" matches \"myself.\""
+  ],
+  [
+   "Complete the sentence. Did you build that snowman ___?",
+   "yourself",
+   [
+    "yourselfs",
+    "itself",
+    "myself"
+   ],
+   "\"You\" (one person) matches \"yourself.\""
+  ],
+  [
+   "Complete the sentence. The owl tucked ___ into the hollow log.",
+   "itself",
+   [
+    "themselves",
+    "herself",
+    "itselves"
+   ],
+   "An animal of unknown sex uses \"itself.\""
+  ],
+  [
+   "Complete the sentence. Mr. Diaz painted the mural ___.",
+   "himself",
+   [
+    "herself",
+    "themselves",
+    "hisself"
+   ],
+   "\"Mr. Diaz\" matches \"himself.\""
+  ],
+  [
+   "Complete the sentence. The girls planned the party ___.",
+   "themselves",
+   [
+    "herself",
+    "theirselves",
+    "ourselves"
+   ],
+   "\"The girls\" (more than one) matches \"themselves.\""
+  ],
+  [
+   "Complete the sentence. We wrapped the presents ___.",
+   "ourselves",
+   [
+    "themselves",
+    "ourselfs",
+    "yourselves"
+   ],
+   "\"We\" matches \"ourselves.\""
+  ],
+  [
+   "Complete the sentence. Mom treated ___ to a cup of tea.",
+   "herself",
+   [
+    "himself",
+    "itself",
+    "myself"
+   ],
+   "\"Mom\" matches \"herself.\""
+  ],
+  [
+   "Complete the sentence. Boys, you can carry the boxes ___.",
+   "yourselves",
+   [
+    "yourself",
+    "themselves",
+    "himself"
+   ],
+   "\"Boys\" being spoken to means more than one, so use \"yourselves.\""
+  ],
+  [
+   "Complete the sentence. I wrote the song all by ___.",
+   "myself",
+   [
+    "yourself",
+    "ourselves",
+    "meself"
+   ],
+   "\"I\" matches \"myself.\""
+  ]
+ ],
+ "engXHelp": [
+  [
+   "Which word is the helping verb? We are baking bread.",
+   "are",
+   [
+    "We",
+    "baking",
+    "bread"
+   ],
+   "\"Are\" helps the main verb \"baking.\""
+  ],
+  [
+   "Which word is the helping verb? The baby was sleeping.",
+   "was",
+   [
+    "The",
+    "baby",
+    "sleeping"
+   ],
+   "\"Was\" helps the main verb \"sleeping.\""
+  ],
+  [
+   "Which word is the helping verb? I can swim well.",
+   "can",
+   [
+    "I",
+    "swim",
+    "well"
+   ],
+   "\"Can\" helps the main verb \"swim.\""
+  ],
+  [
+   "Which word is the helping verb? Dad will cook supper.",
+   "will",
+   [
+    "Dad",
+    "cook",
+    "supper"
+   ],
+   "\"Will\" helps the main verb \"cook.\""
+  ],
+  [
+   "Which word is the helping verb? The dogs were barking loudly.",
+   "were",
+   [
+    "dogs",
+    "barking",
+    "loudly"
+   ],
+   "\"Were\" helps the main verb \"barking.\""
+  ],
+  [
+   "Which word is the helping verb? She has finished her book.",
+   "has",
+   [
+    "She",
+    "finished",
+    "book"
+   ],
+   "\"Has\" helps the main verb \"finished.\""
+  ],
+  [
+   "Which word is the helping verb? You must wear a helmet.",
+   "must",
+   [
+    "You",
+    "wear",
+    "helmet"
+   ],
+   "\"Must\" helps the main verb \"wear.\""
+  ],
+  [
+   "Which word is the helping verb? Tom could hear the music.",
+   "could",
+   [
+    "Tom",
+    "hear",
+    "music"
+   ],
+   "\"Could\" helps the main verb \"hear.\""
+  ],
+  [
+   "Which word is the helping verb? The birds are singing outside.",
+   "are",
+   [
+    "birds",
+    "singing",
+    "outside"
+   ],
+   "\"Are\" helps the main verb \"singing.\""
+  ],
+  [
+   "Which word is the helping verb? I am reading a comic.",
+   "am",
+   [
+    "I",
+    "reading",
+    "comic"
+   ],
+   "\"Am\" helps the main verb \"reading.\""
+  ],
+  [
+   "Which word is the helping verb? We might go skating.",
+   "might",
+   [
+    "We",
+    "go",
+    "skating"
+   ],
+   "\"Might\" helps the main verb \"go.\""
+  ],
+  [
+   "Which word is the helping verb? Mia had lost her mitten.",
+   "had",
+   [
+    "Mia",
+    "lost",
+    "mitten"
+   ],
+   "\"Had\" helps the main verb \"lost.\""
+  ],
+  [
+   "Which word is the helping verb? The kids would like pizza.",
+   "would",
+   [
+    "kids",
+    "like",
+    "pizza"
+   ],
+   "\"Would\" helps the main verb \"like.\""
+  ],
+  [
+   "Which word is the helping verb? He is painting a picture.",
+   "is",
+   [
+    "He",
+    "painting",
+    "picture"
+   ],
+   "\"Is\" helps the main verb \"painting.\""
+  ],
+  [
+   "Which word is the helping verb? They will visit Grandma.",
+   "will",
+   [
+    "They",
+    "visit",
+    "Grandma"
+   ],
+   "\"Will\" helps the main verb \"visit.\""
+  ],
+  [
+   "Which word is the helping verb? My cat was chasing a fly.",
+   "was",
+   [
+    "cat",
+    "chasing",
+    "fly"
+   ],
+   "\"Was\" helps the main verb \"chasing.\""
+  ],
+  [
+   "Which word is the helping verb? We have planted tulips.",
+   "have",
+   [
+    "We",
+    "planted",
+    "tulips"
+   ],
+   "\"Have\" helps the main verb \"planted.\""
+  ],
+  [
+   "Which word is the helping verb? You may borrow my pen.",
+   "may",
+   [
+    "You",
+    "borrow",
+    "pen"
+   ],
+   "\"May\" helps the main verb \"borrow.\""
+  ],
+  [
+   "Which word is the helping verb? The snow is falling fast.",
+   "is",
+   [
+    "snow",
+    "falling",
+    "fast"
+   ],
+   "\"Is\" helps the main verb \"falling.\""
+  ],
+  [
+   "Which word is the helping verb? Ben does like carrots.",
+   "does",
+   [
+    "Ben",
+    "like",
+    "carrots"
+   ],
+   "\"Does\" helps the main verb \"like.\""
+  ],
+  [
+   "Which word is the helping verb? I should brush my teeth.",
+   "should",
+   [
+    "I",
+    "brush",
+    "teeth"
+   ],
+   "\"Should\" helps the main verb \"brush.\""
+  ],
+  [
+   "Which word is the helping verb? The team can win today.",
+   "can",
+   [
+    "team",
+    "win",
+    "today"
+   ],
+   "\"Can\" helps the main verb \"win.\""
+  ]
+ ],
+ "engPST": [
+  [
+   "Yesterday we ___ to the zoo. (go)",
+   "went",
+   [
+    "goed",
+    "go",
+    "going"
+   ],
+   "\"Go\" is irregular; its past tense is \"went.\""
+  ],
+  [
+   "Last week Sam ___ a big fish. (catch)",
+   "caught",
+   [
+    "catched",
+    "catch",
+    "catches"
+   ],
+   "\"Catch\" is irregular; its past tense is \"caught.\""
+  ],
+  [
+   "This morning I ___ my bed. (make)",
+   "made",
+   [
+    "maked",
+    "make",
+    "making"
+   ],
+   "\"Make\" is irregular; its past tense is \"made.\""
+  ],
+  [
+   "The baby ___ all night long. (cry)",
+   "cried",
+   [
+    "cryed",
+    "cries",
+    "crying"
+   ],
+   "For verbs ending in consonant + y, change y to i and add -ed: \"cried.\""
+  ],
+  [
+   "Mom ___ the door for us. (open)",
+   "opened",
+   [
+    "opens",
+    "open",
+    "opening"
+   ],
+   "Add -ed to \"open\" to make the past tense \"opened.\""
+  ],
+  [
+   "Last summer we ___ in a tent. (sleep)",
+   "slept",
+   [
+    "sleeped",
+    "sleep",
+    "sleeps"
+   ],
+   "\"Sleep\" is irregular; its past tense is \"slept.\""
+  ],
+  [
+   "Yesterday Lily ___ a picture of a horse. (draw)",
+   "drew",
+   [
+    "drawed",
+    "draw",
+    "drawn"
+   ],
+   "\"Draw\" is irregular; its simple past tense is \"drew.\""
+  ],
+  [
+   "The frog ___ into the pond. (hop)",
+   "hopped",
+   [
+    "hoped",
+    "hops",
+    "hoping"
+   ],
+   "Double the p in \"hop\" before adding -ed: \"hopped.\""
+  ],
+  [
+   "We ___ a song at the concert last night. (sing)",
+   "sang",
+   [
+    "singed",
+    "sing",
+    "sung"
+   ],
+   "\"Sing\" is irregular; its simple past tense is \"sang.\""
+  ],
+  [
+   "Last night it ___ for hours. (snow)",
+   "snowed",
+   [
+    "snows",
+    "snow",
+    "snowing"
+   ],
+   "Add -ed to \"snow\" to make the past tense \"snowed.\""
+  ],
+  [
+   "Dad ___ me a new book on Monday. (buy)",
+   "bought",
+   [
+    "buyed",
+    "buys",
+    "buy"
+   ],
+   "\"Buy\" is irregular; its past tense is \"bought.\""
+  ],
+  [
+   "Earlier today Jen ___ her bike to school. (ride)",
+   "rode",
+   [
+    "rided",
+    "ride",
+    "ridden"
+   ],
+   "\"Ride\" is irregular; its simple past tense is \"rode.\""
+  ],
+  [
+   "The kids ___ the cookies an hour ago. (bake)",
+   "baked",
+   [
+    "bakeed",
+    "bakes",
+    "baking"
+   ],
+   "For verbs ending in e, just add -d: \"baked.\""
+  ],
+  [
+   "I ___ my friend at the park yesterday. (see)",
+   "saw",
+   [
+    "seed",
+    "see",
+    "seen"
+   ],
+   "\"See\" is irregular; its simple past tense is \"saw.\""
+  ],
+  [
+   "Last year my brother ___ two centimetres taller. (grow)",
+   "grew",
+   [
+    "growed",
+    "grow",
+    "grows"
+   ],
+   "\"Grow\" is irregular; its past tense is \"grew.\""
+  ],
+  [
+   "We ___ our dog a bath on Sunday. (give)",
+   "gave",
+   [
+    "gived",
+    "give",
+    "given"
+   ],
+   "\"Give\" is irregular; its simple past tense is \"gave.\""
+  ],
+  [
+   "The car ___ at the red light. (stop)",
+   "stopped",
+   [
+    "stoped",
+    "stops",
+    "stopping"
+   ],
+   "Double the p in \"stop\" before adding -ed: \"stopped.\""
+  ],
+  [
+   "Yesterday Omar ___ a letter to his cousin. (write)",
+   "wrote",
+   [
+    "writed",
+    "write",
+    "written"
+   ],
+   "\"Write\" is irregular; its simple past tense is \"wrote.\""
+  ],
+  [
+   "Last night the wind ___ hard. (blow)",
+   "blew",
+   [
+    "blowed",
+    "blow",
+    "blows"
+   ],
+   "\"Blow\" is irregular; its past tense is \"blew.\""
+  ],
+  [
+   "The class ___ about whales last week. (learn)",
+   "learned",
+   [
+    "learns",
+    "learn",
+    "learning"
+   ],
+   "Add -ed to \"learn\" to make the past tense \"learned.\""
+  ],
+  [
+   "Mia ___ her milk at breakfast. (drink)",
+   "drank",
+   [
+    "drinked",
+    "drink",
+    "drunk"
+   ],
+   "\"Drink\" is irregular; its simple past tense is \"drank.\""
+  ],
+  [
+   "Yesterday we ___ in the lake. (swim)",
+   "swam",
+   [
+    "swimmed",
+    "swim",
+    "swum"
+   ],
+   "\"Swim\" is irregular; its simple past tense is \"swam.\""
+  ]
+ ],
+ "engXAdDn": [
+  [
+   "Which adjective describes the noun <strong>jacket</strong>? She wore a warm jacket.",
+   "warm",
+   [
+    "She",
+    "wore",
+    "a"
+   ],
+   "\"warm\" tells what the jacket is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>dog</strong>? The muddy dog shook itself.",
+   "muddy",
+   [
+    "shook",
+    "The",
+    "itself"
+   ],
+   "\"muddy\" tells what the dog is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>apple</strong>? Leo picked a shiny apple.",
+   "shiny",
+   [
+    "Leo",
+    "picked",
+    "a"
+   ],
+   "\"shiny\" tells what the apple is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>road</strong>? We drove down a bumpy road.",
+   "bumpy",
+   [
+    "drove",
+    "down",
+    "We"
+   ],
+   "\"bumpy\" tells what the road is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>storm</strong>? A loud storm woke us up.",
+   "loud",
+   [
+    "woke",
+    "us",
+    "up"
+   ],
+   "\"loud\" tells what the storm is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>box</strong>? He carried the heavy box.",
+   "heavy",
+   [
+    "He",
+    "carried",
+    "the"
+   ],
+   "\"heavy\" tells what the box is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>lake</strong>? The lake was calm and blue this morning.",
+   "calm",
+   [
+    "was",
+    "morning",
+    "this"
+   ],
+   "\"calm\" tells what the lake is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>tiger</strong>? The striped tiger paced in its cage.",
+   "striped",
+   [
+    "paced",
+    "cage",
+    "its"
+   ],
+   "\"striped\" tells what the tiger is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>soup</strong>? Grandma made spicy soup.",
+   "spicy",
+   [
+    "Grandma",
+    "made",
+    "for"
+   ],
+   "\"spicy\" tells what the soup is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>bridge</strong>? We crossed an old bridge.",
+   "old",
+   [
+    "We",
+    "crossed",
+    "an"
+   ],
+   "\"old\" tells what the bridge is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>bird</strong>? A tiny bird sat on the fence.",
+   "tiny",
+   [
+    "sat",
+    "fence",
+    "on"
+   ],
+   "\"tiny\" tells what the bird is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>cushion</strong>? I sat on a soft cushion.",
+   "soft",
+   [
+    "sat",
+    "on",
+    "I"
+   ],
+   "\"soft\" tells what the cushion is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>song</strong>? The choir sang a cheerful song.",
+   "cheerful",
+   [
+    "choir",
+    "sang",
+    "a"
+   ],
+   "\"cheerful\" tells what the song is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>hallway</strong>? The hallway was dark and quiet.",
+   "dark",
+   [
+    "was",
+    "The",
+    "and"
+   ],
+   "\"dark\" tells what the hallway is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>pumpkin</strong>? They carved an enormous pumpkin.",
+   "enormous",
+   [
+    "carved",
+    "They",
+    "an"
+   ],
+   "\"enormous\" tells what the pumpkin is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>sweater</strong>? Dad knit me an itchy sweater.",
+   "itchy",
+   [
+    "Dad",
+    "knit",
+    "me"
+   ],
+   "\"itchy\" tells what the sweater is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>puzzle</strong>? We solved a tricky puzzle.",
+   "tricky",
+   [
+    "solved",
+    "We",
+    "a"
+   ],
+   "\"tricky\" tells what the puzzle is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>leaves</strong>? Crunchy leaves covered the path.",
+   "Crunchy",
+   [
+    "covered",
+    "path",
+    "the"
+   ],
+   "\"Crunchy\" tells what the leaves is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>milk</strong>? Please pour me some cold milk.",
+   "cold",
+   [
+    "pour",
+    "me",
+    "Please"
+   ],
+   "\"cold\" tells what the milk is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>castle</strong>? The knight lived in a giant castle.",
+   "giant",
+   [
+    "knight",
+    "lived",
+    "in"
+   ],
+   "\"giant\" tells what the castle is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>snake</strong>? A long snake slid under the rock.",
+   "long",
+   [
+    "slid",
+    "under",
+    "rock"
+   ],
+   "\"long\" tells what the snake is like, so it is the adjective describing it."
+  ],
+  [
+   "Which adjective describes the noun <strong>cookies</strong>? Mom baked delicious cookies today.",
+   "delicious",
+   [
+    "Mom",
+    "baked",
+    "today"
+   ],
+   "\"delicious\" tells what the cookies is like, so it is the adjective describing it."
+  ]
+ ],
+ "engAdAv": [
+  [
+   "Choose the correct word. The turtle moved ___ across the sand.",
+   "slowly",
+   [
+    "slow",
+    "slowness",
+    "slowful"
+   ],
+   "\"Slowly\" is an adverb that tells how the turtle moved."
+  ],
+  [
+   "Choose the correct word. This soup tastes ___.",
+   "delicious",
+   [
+    "deliciously",
+    "deliciousness",
+    "deliciouser"
+   ],
+   "After a linking verb like \"tastes,\" use an adjective: \"delicious.\""
+  ],
+  [
+   "Choose the correct word. Nadia answered the question ___.",
+   "correctly",
+   [
+    "correct",
+    "correctness",
+    "corrects"
+   ],
+   "\"Correctly\" is an adverb telling how she answered."
+  ],
+  [
+   "Choose the correct word. The puppy looks ___ after its bath.",
+   "happy",
+   [
+    "happily",
+    "happiness",
+    "happier than"
+   ],
+   "After the linking verb \"looks,\" use the adjective \"happy.\""
+  ],
+  [
+   "Choose the correct word. He spoke ___ so the baby would not wake.",
+   "quietly",
+   [
+    "quiet",
+    "quietness",
+    "quieted"
+   ],
+   "\"Quietly\" is an adverb that tells how he spoke."
+  ],
+  [
+   "Choose the correct word. The children played ___ in the snow.",
+   "happily",
+   [
+    "happy",
+    "happiness",
+    "happiest"
+   ],
+   "\"Happily\" is an adverb telling how they played."
+  ],
+  [
+   "Choose the correct word. Ali is a ___ runner.",
+   "quick",
+   [
+    "quickly",
+    "quickness",
+    "quicken"
+   ],
+   "\"Quick\" is an adjective describing the noun \"runner.\""
+  ],
+  [
+   "Choose the correct word. Ali runs ___.",
+   "quickly",
+   [
+    "quick",
+    "quickness",
+    "quicken"
+   ],
+   "\"Quickly\" is an adverb describing the verb \"runs.\""
+  ],
+  [
+   "Choose the correct word. The music was too ___.",
+   "loud",
+   [
+    "loudly",
+    "loudness",
+    "louding"
+   ],
+   "After the linking verb \"was,\" use the adjective \"loud.\""
+  ],
+  [
+   "Choose the correct word. Please hold the kitten ___.",
+   "gently",
+   [
+    "gentle",
+    "gentleness",
+    "gentled"
+   ],
+   "\"Gently\" is an adverb telling how to hold the kitten."
+  ],
+  [
+   "Choose the correct word. Our teacher is very ___.",
+   "patient",
+   [
+    "patiently",
+    "patience",
+    "patients"
+   ],
+   "After the linking verb \"is,\" use the adjective \"patient.\""
+  ],
+  [
+   "Choose the correct word. Wait ___ for your turn.",
+   "patiently",
+   [
+    "patient",
+    "patience",
+    "patients"
+   ],
+   "\"Patiently\" is an adverb telling how to wait."
+  ],
+  [
+   "Choose the correct word. The sky turned ___ before the storm.",
+   "dark",
+   [
+    "darkly",
+    "darkness",
+    "darken"
+   ],
+   "\"Turned\" acts as a linking verb here, so use the adjective \"dark.\""
+  ],
+  [
+   "Choose the correct word. Marco finished his project ___.",
+   "easily",
+   [
+    "easy",
+    "easiness",
+    "easier"
+   ],
+   "\"Easily\" is an adverb telling how he finished."
+  ],
+  [
+   "Choose the correct word. You did a ___ job on your poster!",
+   "great",
+   [
+    "greatly",
+    "greatness",
+    "greats"
+   ],
+   "\"Great\" is an adjective describing the noun \"job.\""
+  ],
+  [
+   "Choose the correct word. She feels ___ about the test.",
+   "nervous",
+   [
+    "nervously",
+    "nervousness",
+    "nerves"
+   ],
+   "After the linking verb \"feels,\" use the adjective \"nervous.\""
+  ],
+  [
+   "Choose the correct word. The fans cheered ___ for their team.",
+   "loudly",
+   [
+    "loud",
+    "loudness",
+    "louding"
+   ],
+   "\"Loudly\" is an adverb telling how the fans cheered."
+  ],
+  [
+   "Choose the correct word. Ivy plays the piano ___.",
+   "well",
+   [
+    "good",
+    "goodly",
+    "weller"
+   ],
+   "\"Well\" is the adverb that tells how she plays; \"good\" is an adjective."
+  ],
+  [
+   "Choose the correct word. That was a ___ movie.",
+   "good",
+   [
+    "well",
+    "goodly",
+    "weller"
+   ],
+   "\"Good\" is an adjective describing the noun \"movie.\""
+  ],
+  [
+   "Choose the correct word. The rain fell ___ all afternoon.",
+   "steadily",
+   [
+    "steady",
+    "steadiness",
+    "steadied"
+   ],
+   "\"Steadily\" is an adverb telling how the rain fell."
+  ],
+  [
+   "Choose the correct word. The roses smell ___.",
+   "sweet",
+   [
+    "sweetly",
+    "sweetness",
+    "sweeten"
+   ],
+   "After the linking verb \"smell,\" use the adjective \"sweet.\""
+  ],
+  [
+   "Choose the correct word. The fox crept ___ toward the henhouse.",
+   "silently",
+   [
+    "silent",
+    "silence",
+    "silenced"
+   ],
+   "\"Silently\" is an adverb telling how the fox crept."
+  ]
+ ],
+ "engXCtUs": [
+  [
+   "Complete the sentence. ___ going to the park. (I am)",
+   "I'm",
+   [
+    "Im",
+    "I'll",
+    "I'd"
+   ],
+   "\"I'm\" is the contraction for \"I am.\""
+  ],
+  [
+   "Complete the sentence. We ___ find the remote. (can not)",
+   "can't",
+   [
+    "cant",
+    "won't",
+    "don't"
+   ],
+   "\"can't\" is the contraction for \"can not.\""
+  ],
+  [
+   "Complete the sentence. ___ raining outside. (It is)",
+   "It's",
+   [
+    "Its",
+    "It'll",
+    "It'd"
+   ],
+   "\"It's\" is the contraction for \"It is.\""
+  ],
+  [
+   "Complete the sentence. He ___ want any dessert. (does not)",
+   "doesn't",
+   [
+    "doesnt",
+    "don't",
+    "didn't"
+   ],
+   "\"doesn't\" is the contraction for \"does not.\""
+  ],
+  [
+   "Complete the sentence. ___ be home at five o'clock. (They will)",
+   "They'll",
+   [
+    "Theyll",
+    "They're",
+    "They'd"
+   ],
+   "\"They'll\" is the contraction for \"They will.\""
+  ],
+  [
+   "Complete the sentence. You ___ be late for school. (should not)",
+   "shouldn't",
+   [
+    "shouldnt",
+    "wouldn't",
+    "couldn't"
+   ],
+   "\"shouldn't\" is the contraction for \"should not.\""
+  ],
+  [
+   "Complete the sentence. ___ my favourite colour. (That is)",
+   "That's",
+   [
+    "Thats",
+    "That'll",
+    "That'd"
+   ],
+   "\"That's\" is the contraction for \"That is.\""
+  ],
+  [
+   "Complete the sentence. I ___ finish my peas. (did not)",
+   "didn't",
+   [
+    "didnt",
+    "don't",
+    "doesn't"
+   ],
+   "\"didn't\" is the contraction for \"did not.\""
+  ],
+  [
+   "Complete the sentence. ___ the best soccer team. (We are)",
+   "We're",
+   [
+    "Were",
+    "We'll",
+    "We've"
+   ],
+   "\"We're\" is the contraction for \"We are.\""
+  ],
+  [
+   "Complete the sentence. She ___ come to the party. (can not)",
+   "can't",
+   [
+    "cann't",
+    "won't",
+    "couldn't"
+   ],
+   "\"can't\" is the contraction for \"can not.\""
+  ],
+  [
+   "Complete the sentence. ___ help you carry that box. (I will)",
+   "I'll",
+   [
+    "Ill",
+    "I'd",
+    "I'm"
+   ],
+   "\"I'll\" is the contraction for \"I will.\""
+  ],
+  [
+   "Complete the sentence. The door ___ open. (is not)",
+   "isn't",
+   [
+    "isnt",
+    "aren't",
+    "wasn't"
+   ],
+   "\"isn't\" is the contraction for \"is not.\""
+  ],
+  [
+   "Complete the sentence. ___ a great idea! (What is)",
+   "What's",
+   [
+    "Whats",
+    "What'll",
+    "What'd"
+   ],
+   "\"What's\" is the contraction for \"What is.\""
+  ],
+  [
+   "Complete the sentence. We ___ seen that movie yet. (have not)",
+   "haven't",
+   [
+    "havent",
+    "hasn't",
+    "hadn't"
+   ],
+   "\"haven't\" is the contraction for \"have not.\""
+  ],
+  [
+   "Complete the sentence. ___ bring the snacks. (He will)",
+   "He'll",
+   [
+    "Hell",
+    "He'd",
+    "He's"
+   ],
+   "\"He'll\" is the contraction for \"He will.\""
+  ],
+  [
+   "Complete the sentence. The cookies ___ ready yet. (are not)",
+   "aren't",
+   [
+    "arent",
+    "isn't",
+    "weren't"
+   ],
+   "\"aren't\" is the contraction for \"are not.\""
+  ],
+  [
+   "Complete the sentence. ___ my new neighbour. (He is)",
+   "He's",
+   [
+    "Hes",
+    "He'll",
+    "He'd"
+   ],
+   "\"He's\" is the contraction for \"He is.\""
+  ],
+  [
+   "Complete the sentence. I ___ go out without a coat. (will not)",
+   "won't",
+   [
+    "willn't",
+    "wont",
+    "wouldn't"
+   ],
+   "\"won't\" is the contraction for \"will not.\""
+  ],
+  [
+   "Complete the sentence. ___ eaten all the grapes. (You have)",
+   "You've",
+   [
+    "Youve",
+    "You're",
+    "You'll"
+   ],
+   "\"You've\" is the contraction for \"You have.\""
+  ],
+  [
+   "Complete the sentence. Mom ___ at home right now. (is not)",
+   "isn't",
+   [
+    "isnt",
+    "ain't",
+    "wasn't"
+   ],
+   "\"isn't\" is the contraction for \"is not.\""
+  ],
+  [
+   "Complete the sentence. ___ sure you will love it. (I am)",
+   "I'm",
+   [
+    "Im",
+    "I've",
+    "I'd"
+   ],
+   "\"I'm\" is the contraction for \"I am.\""
+  ],
+  [
+   "Complete the sentence. They ___ hear the bell. (could not)",
+   "couldn't",
+   [
+    "couldnt",
+    "can't",
+    "shouldn't"
+   ],
+   "\"couldn't\" is the contraction for \"could not.\""
+  ]
+ ],
+ "engCON": [
+  [
+   "Which contraction means <strong>he is</strong>?",
+   "he's",
+   [
+    "his",
+    "he'll",
+    "he'd"
+   ],
+   "\"he's\" joins \"he is\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>they will</strong>?",
+   "they'll",
+   [
+    "they're",
+    "they've",
+    "they'd"
+   ],
+   "\"they'll\" joins \"they will\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>was not</strong>?",
+   "wasn't",
+   [
+    "weren't",
+    "isn't",
+    "won't"
+   ],
+   "\"wasn't\" joins \"was not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>are not</strong>?",
+   "aren't",
+   [
+    "isn't",
+    "weren't",
+    "ain't"
+   ],
+   "\"aren't\" joins \"are not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>did not</strong>?",
+   "didn't",
+   [
+    "don't",
+    "doesn't",
+    "hadn't"
+   ],
+   "\"didn't\" joins \"did not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>could not</strong>?",
+   "couldn't",
+   [
+    "can't",
+    "wouldn't",
+    "shouldn't"
+   ],
+   "\"couldn't\" joins \"could not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>I have</strong>?",
+   "I've",
+   [
+    "I'll",
+    "I'd",
+    "I'm"
+   ],
+   "\"I've\" joins \"I have\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>we will</strong>?",
+   "we'll",
+   [
+    "we're",
+    "we've",
+    "we'd"
+   ],
+   "\"we'll\" joins \"we will\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>let us</strong>?",
+   "let's",
+   [
+    "lest",
+    "let'us",
+    "lets'"
+   ],
+   "\"let's\" joins \"let us\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>who is</strong>?",
+   "who's",
+   [
+    "whose",
+    "who'll",
+    "who've"
+   ],
+   "\"who's\" joins \"who is\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>there is</strong>?",
+   "there's",
+   [
+    "theirs",
+    "there'll",
+    "they're"
+   ],
+   "\"there's\" joins \"there is\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>have not</strong>?",
+   "haven't",
+   [
+    "hasn't",
+    "hadn't",
+    "aren't"
+   ],
+   "\"haven't\" joins \"have not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>should not</strong>?",
+   "shouldn't",
+   [
+    "couldn't",
+    "wouldn't",
+    "shan't"
+   ],
+   "\"shouldn't\" joins \"should not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>I would</strong>?",
+   "I'd",
+   [
+    "I'll",
+    "I've",
+    "I'm"
+   ],
+   "\"I'd\" joins \"I would\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>you will</strong>?",
+   "you'll",
+   [
+    "you're",
+    "you've",
+    "you'd"
+   ],
+   "\"you'll\" joins \"you will\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>does not</strong>?",
+   "doesn't",
+   [
+    "don't",
+    "didn't",
+    "isn't"
+   ],
+   "\"doesn't\" joins \"does not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>would not</strong>?",
+   "wouldn't",
+   [
+    "won't",
+    "couldn't",
+    "shouldn't"
+   ],
+   "\"wouldn't\" joins \"would not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>has not</strong>?",
+   "hasn't",
+   [
+    "haven't",
+    "isn't",
+    "hadn't"
+   ],
+   "\"hasn't\" joins \"has not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>were not</strong>?",
+   "weren't",
+   [
+    "wasn't",
+    "aren't",
+    "won't"
+   ],
+   "\"weren't\" joins \"were not\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>she will</strong>?",
+   "she'll",
+   [
+    "she's",
+    "she'd",
+    "shell"
+   ],
+   "\"she'll\" joins \"she will\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>they have</strong>?",
+   "they've",
+   [
+    "they'll",
+    "they're",
+    "they'd"
+   ],
+   "\"they've\" joins \"they have\" with an apostrophe replacing the missing letter(s)."
+  ],
+  [
+   "Which contraction means <strong>what is</strong>?",
+   "what's",
+   [
+    "whats'",
+    "what'll",
+    "what'd"
+   ],
+   "\"what's\" joins \"what is\" with an apostrophe replacing the missing letter(s)."
+  ]
+ ],
+ "engCpPG": [
+  [
+   "Which sentence is capitalized correctly?",
+   "My cousin lives near Lake Louise.",
+   [
+    "My cousin lives near lake Louise.",
+    "My cousin lives near lake louise.",
+    "my cousin lives near Lake Louise."
+   ],
+   "\"Lake Louise\" is the name of a specific lake, so both words are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "We camped beside the Fraser River.",
+   [
+    "We camped beside the fraser river.",
+    "We camped beside the Fraser river.",
+    "We Camped beside the Fraser River."
+   ],
+   "\"Fraser River\" names a specific river, so both words are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Our class took a trip to Montreal.",
+   [
+    "Our class took a trip to montreal.",
+    "Our Class took a trip to Montreal.",
+    "our class took a trip to Montreal."
+   ],
+   "\"Montreal\" is the name of a city, so it starts with a capital letter."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "The ferry crossed the Bay of Fundy.",
+   [
+    "The ferry crossed the bay of fundy.",
+    "The ferry crossed the Bay Of Fundy.",
+    "The Ferry crossed the Bay of Fundy."
+   ],
+   "Important words in a place name are capitalized, but small words like \"of\" are not."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Grandpa grew up in Saskatchewan.",
+   [
+    "Grandpa grew up in saskatchewan.",
+    "grandpa grew up in Saskatchewan.",
+    "Grandpa Grew Up in Saskatchewan."
+   ],
+   "\"Saskatchewan\" is the name of a province, so it is capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "We hiked in Banff National Park.",
+   [
+    "We hiked in banff national park.",
+    "We hiked in Banff national park.",
+    "We Hiked in Banff National Park."
+   ],
+   "\"Banff National Park\" is the full name of a place, so each word is capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "The Atlantic Ocean is very cold in winter.",
+   [
+    "The atlantic ocean is very cold in winter.",
+    "The Atlantic ocean is very cold in Winter.",
+    "the Atlantic Ocean is very cold in winter."
+   ],
+   "\"Atlantic Ocean\" names a specific ocean; seasons like winter are not capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "My aunt moved to Mexico last year.",
+   [
+    "My aunt moved to mexico last year.",
+    "My Aunt moved to Mexico Last Year.",
+    "my aunt moved to Mexico last year."
+   ],
+   "\"Mexico\" is the name of a country, so it is capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "We walked along Yonge Street.",
+   [
+    "We walked along yonge street.",
+    "We walked along Yonge street.",
+    "we walked along Yonge Street."
+   ],
+   "\"Yonge Street\" is the name of a specific street, so both words are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Niagara Falls is in Ontario.",
+   [
+    "Niagara falls is in Ontario.",
+    "niagara Falls is in ontario.",
+    "Niagara Falls is in ontario."
+   ],
+   "\"Niagara Falls\" and \"Ontario\" are names of places, so they are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "The Sahara Desert is hot and dry.",
+   [
+    "The sahara desert is hot and dry.",
+    "The Sahara desert is hot and dry.",
+    "the Sahara Desert is Hot and dry."
+   ],
+   "\"Sahara Desert\" names a specific desert, so both words are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "We crossed the river on a small boat.",
+   [
+    "We crossed the River on a small boat.",
+    "We crossed the river on a small Boat.",
+    "we crossed the river on a small boat."
+   ],
+   "\"River\" is not a name here, so it stays lowercase."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Hudson Bay freezes in the winter.",
+   [
+    "Hudson bay freezes in the winter.",
+    "hudson Bay freezes in the winter.",
+    "Hudson Bay freezes in the Winter."
+   ],
+   "\"Hudson Bay\" names a specific bay; seasons are not capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "My family drove through Alberta.",
+   [
+    "My family drove through alberta.",
+    "My Family drove through Alberta.",
+    "my family drove through Alberta."
+   ],
+   "\"Alberta\" is the name of a province, so it is capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "The mountain behind our town is very tall.",
+   [
+    "The Mountain behind our town is very tall.",
+    "The mountain behind our Town is very tall.",
+    "the mountain behind our town is very tall."
+   ],
+   "\"Mountain\" and \"town\" are common nouns here, so they stay lowercase."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "We swam in Lake Superior.",
+   [
+    "We swam in lake superior.",
+    "We swam in Lake superior.",
+    "We swam in lake Superior."
+   ],
+   "\"Lake Superior\" is the name of a specific lake, so both words are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Prince Edward Island has red sand beaches.",
+   [
+    "Prince edward island has red sand beaches.",
+    "prince Edward Island has red sand beaches.",
+    "Prince Edward Island has Red Sand Beaches."
+   ],
+   "\"Prince Edward Island\" is a province name, so all three words are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "The Amazon River flows through Brazil.",
+   [
+    "The amazon river flows through brazil.",
+    "The Amazon river flows through Brazil.",
+    "The Amazon River flows through brazil."
+   ],
+   "\"Amazon River\" and \"Brazil\" are specific place names, so they are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "My uncle works in Yellowknife.",
+   [
+    "My uncle works in yellowknife.",
+    "My Uncle works in yellowknife.",
+    "my uncle works in Yellowknife."
+   ],
+   "\"Yellowknife\" is the name of a city, so it is capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "We saw whales in the Arctic Ocean.",
+   [
+    "We saw whales in the arctic ocean.",
+    "We saw Whales in the Arctic Ocean.",
+    "We saw whales in the Arctic ocean."
+   ],
+   "\"Arctic Ocean\" names a specific ocean, so both words are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Our school is on Maple Avenue.",
+   [
+    "Our school is on maple avenue.",
+    "Our School is on Maple Avenue.",
+    "Our school is on Maple avenue."
+   ],
+   "\"Maple Avenue\" is the name of a street, so both words are capitalized."
+  ],
+  [
+   "Which sentence is capitalized correctly?",
+   "Japan is a country in Asia.",
+   [
+    "japan is a country in Asia.",
+    "Japan is a Country in Asia.",
+    "Japan is a country in asia."
+   ],
+   "\"Japan\" and \"Asia\" are names of places, so they are capitalized."
+  ]
+ ],
+ "engCpTt": [
+  [
+   "Which title is capitalized correctly?",
+   "Anne of Green Gables",
+   [
+    "Anne Of Green Gables",
+    "anne of Green Gables",
+    "Anne of green gables"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Cat in the Hat",
+   [
+    "The Cat In The Hat",
+    "The cat in the hat",
+    "the Cat in the Hat"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Green Eggs and Ham",
+   [
+    "Green Eggs And Ham",
+    "Green eggs and ham",
+    "green Eggs and Ham"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Lion, the Witch and the Wardrobe",
+   [
+    "The Lion, The Witch And The Wardrobe",
+    "The lion, the witch and the wardrobe",
+    "the Lion, the Witch and the Wardrobe"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Island of the Blue Dolphins",
+   [
+    "Island Of The Blue Dolphins",
+    "Island of the blue dolphins",
+    "island of the Blue Dolphins"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Very Hungry Caterpillar",
+   [
+    "The very hungry caterpillar",
+    "The Very hungry Caterpillar",
+    "the Very Hungry Caterpillar"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Secret Garden",
+   [
+    "The secret garden",
+    "The Secret garden",
+    "the Secret Garden"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Alice's Adventures in Wonderland",
+   [
+    "Alice's Adventures In Wonderland",
+    "Alice's adventures in wonderland",
+    "alice's Adventures in Wonderland"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "\"Stopping by Woods on a Snowy Evening\"",
+   [
+    "\"Stopping By Woods On A Snowy Evening\"",
+    "\"Stopping by woods on a snowy evening\"",
+    "\"stopping by Woods on a Snowy Evening\""
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Wind in the Willows",
+   [
+    "The Wind In The Willows",
+    "The wind in the willows",
+    "the Wind in the Willows"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Bridge to Terabithia",
+   [
+    "Bridge To Terabithia",
+    "bridge to Terabithia",
+    "Bridge to terabithia"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Diary of a Wimpy Kid",
+   [
+    "Diary Of A Wimpy Kid",
+    "Diary of a wimpy kid",
+    "diary of a Wimpy Kid"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Girl Who Drank the Moon",
+   [
+    "The Girl who Drank the Moon",
+    "The girl who drank the moon",
+    "The Girl Who Drank The Moon"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Frog and Toad Are Friends",
+   [
+    "Frog and Toad are Friends",
+    "Frog And Toad Are Friends",
+    "frog and toad are friends"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "A Bear Called Paddington",
+   [
+    "A Bear called Paddington",
+    "a Bear Called Paddington",
+    "A bear called Paddington"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Hobbit",
+   [
+    "the Hobbit",
+    "The hobbit",
+    "THE hobbit"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Out of the Dust",
+   [
+    "Out Of The Dust",
+    "Out of the dust",
+    "out of the Dust"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "\"O Canada\"",
+   [
+    "\"o Canada\"",
+    "\"O canada\"",
+    "\"o canada\""
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Tale of Peter Rabbit",
+   [
+    "The Tale Of Peter Rabbit",
+    "The tale of Peter Rabbit",
+    "the Tale of Peter Rabbit"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Pippi Longstocking",
+   [
+    "pippi Longstocking",
+    "Pippi longstocking",
+    "pippi longstocking"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "Of Mice and Men",
+   [
+    "of Mice and Men",
+    "Of Mice And Men",
+    "Of mice and men"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ],
+  [
+   "Which title is capitalized correctly?",
+   "The Outsiders",
+   [
+    "The outsiders",
+    "the Outsiders",
+    "the outsiders"
+   ],
+   "Capitalize the first, last and important words in a title; short articles, conjunctions and prepositions stay lowercase."
+  ]
+ ],
+ "engFmGC": [
+  [
+   "Which greeting is written correctly?",
+   "Dear Grandpa,",
+   [
+    "Dear grandpa,",
+    "dear Grandpa,",
+    "Dear Grandpa."
+   ],
+   "Capitalize \"Dear\" and the name, and end the greeting with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Yours truly,",
+   [
+    "Yours Truly,",
+    "yours truly,",
+    "Yours truly."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Mr. Brown,",
+   [
+    "Dear mr. Brown,",
+    "dear Mr. Brown,",
+    "Dear Mr. Brown."
+   ],
+   "Capitalize \"Dear,\" the title and the name, and end with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Thank you,",
+   [
+    "Thank You,",
+    "thank you,",
+    "Thank you."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Mom,",
+   [
+    "dear Mom,",
+    "Dear mom,",
+    "Dear Mom."
+   ],
+   "\"Mom\" is used as a name here, so it is capitalized, and the greeting ends with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Your pal,",
+   [
+    "Your Pal,",
+    "your pal,",
+    "Your pal."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Dr. Singh,",
+   [
+    "Dear dr. Singh,",
+    "Dear Dr. singh,",
+    "Dear Dr. Singh."
+   ],
+   "Capitalize \"Dear,\" the title and the name, and end with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Love always,",
+   [
+    "Love Always,",
+    "love always,",
+    "Love always."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Coach Kim,",
+   [
+    "Dear coach Kim,",
+    "dear Coach Kim,",
+    "Dear Coach Kim."
+   ],
+   "\"Coach\" is a title before a name here, so it is capitalized; end with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Your daughter,",
+   [
+    "Your Daughter,",
+    "your daughter,",
+    "Your daughter."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Auntie May,",
+   [
+    "Dear auntie May,",
+    "Dear Auntie may,",
+    "Dear Auntie May."
+   ],
+   "Capitalize \"Dear\" and every part of the name, and end with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Warm regards,",
+   [
+    "Warm Regards,",
+    "warm regards,",
+    "Warm regards."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Mrs. Wong,",
+   [
+    "Dear mrs. Wong,",
+    "Dear Mrs. wong,",
+    "Dear Mrs. Wong."
+   ],
+   "Capitalize \"Dear,\" the title and the name, and end with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "See you soon,",
+   [
+    "See You Soon,",
+    "see you soon,",
+    "See you soon."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Principal Lopez,",
+   [
+    "Dear principal Lopez,",
+    "dear Principal Lopez,",
+    "Dear Principal Lopez."
+   ],
+   "\"Principal\" is a title before a name, so it is capitalized; end with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Your granddaughter,",
+   [
+    "Your Granddaughter,",
+    "your granddaughter,",
+    "Your granddaughter."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Ava,",
+   [
+    "dear Ava,",
+    "Dear ava,",
+    "Dear Ava."
+   ],
+   "Capitalize \"Dear\" and the name, and end the greeting with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Your buddy,",
+   [
+    "Your Buddy,",
+    "your buddy,",
+    "Your buddy."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Grandma and Grandpa,",
+   [
+    "Dear grandma and grandpa,",
+    "Dear Grandma And Grandpa,",
+    "Dear Grandma and Grandpa."
+   ],
+   "Capitalize the names but not the small word \"and\"; end with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Hugs and kisses,",
+   [
+    "Hugs And Kisses,",
+    "hugs and kisses,",
+    "Hugs and kisses."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ],
+  [
+   "Which greeting is written correctly?",
+   "Dear Uncle Raj,",
+   [
+    "Dear uncle Raj,",
+    "dear Uncle Raj,",
+    "Dear Uncle Raj."
+   ],
+   "\"Uncle\" is part of the name here, so it is capitalized; end with a comma."
+  ],
+  [
+   "Which closing is written correctly?",
+   "Your student,",
+   [
+    "Your Student,",
+    "your student,",
+    "Your student."
+   ],
+   "Capitalize only the first word of a closing and end it with a comma."
+  ]
+ ],
+ "engCAP": [
+  [
+   "Which sentence uses capital letters correctly?",
+   "Leo has a dog named Max.",
+   [
+    "leo has a dog named Max.",
+    "Leo has a dog named max.",
+    "Leo Has A Dog Named Max."
+   ],
+   "Sentences start with a capital, and names like Leo and Max are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "My birthday is in May.",
+   [
+    "My birthday is in may.",
+    "my birthday is in May.",
+    "My Birthday Is In May."
+   ],
+   "The first word and the month \"May\" are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "I like to read with Dad.",
+   [
+    "i like to read with Dad.",
+    "I like to read with dad.",
+    "I Like To Read With Dad."
+   ],
+   "\"I\" is always capitalized, and \"Dad\" is used as a name."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "We go swimming on Saturday.",
+   [
+    "We go swimming on saturday.",
+    "we go swimming on Saturday.",
+    "We Go Swimming On Saturday."
+   ],
+   "Days of the week like Saturday are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Mr. Chen is our new teacher.",
+   [
+    "mr. Chen is our new teacher.",
+    "Mr. chen is our new teacher.",
+    "Mr. Chen is our New Teacher."
+   ],
+   "Titles and names like Mr. Chen are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Ana and I went to Halifax.",
+   [
+    "Ana and i went to Halifax.",
+    "ana and I went to halifax.",
+    "Ana And I Went To Halifax."
+   ],
+   "Names, the word \"I\" and city names are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "The park is on Elm Street.",
+   [
+    "The park is on elm street.",
+    "the park is on Elm Street.",
+    "The Park Is On Elm Street."
+   ],
+   "Street names like Elm Street are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Canada Day is in July.",
+   [
+    "canada day is in july.",
+    "Canada day is in July.",
+    "Canada Day is in july."
+   ],
+   "Holidays and months are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "My cat Luna loves to nap.",
+   [
+    "My cat luna loves to nap.",
+    "my cat Luna loves to nap.",
+    "My Cat Luna Loves To Nap."
+   ],
+   "A pet's name like Luna is capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Dr. Ross helped my sister.",
+   [
+    "dr. Ross helped my sister.",
+    "Dr. ross helped my sister.",
+    "Dr. Ross helped My Sister."
+   ],
+   "Titles and names like Dr. Ross are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Can Ben come over on Friday?",
+   [
+    "can Ben come over on Friday?",
+    "Can ben come over on friday?",
+    "Can Ben Come Over On Friday?"
+   ],
+   "The first word, names and days are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "We live in Winnipeg.",
+   [
+    "We live in winnipeg.",
+    "we live in Winnipeg.",
+    "We Live In Winnipeg."
+   ],
+   "City names like Winnipeg are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Grandma visits us in December.",
+   [
+    "Grandma visits us in december.",
+    "grandma visits us in December.",
+    "Grandma Visits Us In December."
+   ],
+   "The first word and month names are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Jack and Mia are twins.",
+   [
+    "jack and Mia are twins.",
+    "Jack and mia are twins.",
+    "Jack And Mia Are Twins."
+   ],
+   "Names of people are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Our class went to the zoo.",
+   [
+    "Our Class went to the Zoo.",
+    "our class went to the zoo.",
+    "Our class went to the Zoo."
+   ],
+   "Only the first word needs a capital; \"zoo\" is not a name."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "My best friend is Priya.",
+   [
+    "My best friend is priya.",
+    "my best friend is Priya.",
+    "My Best Friend Is Priya."
+   ],
+   "Names like Priya are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "I saw a moose in Ontario.",
+   [
+    "I saw a Moose in Ontario.",
+    "i saw a moose in Ontario.",
+    "I saw a moose in ontario."
+   ],
+   "\"I\" and province names are capitalized; \"moose\" is not."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Ms. Park reads us a story.",
+   [
+    "ms. Park reads us a story.",
+    "Ms. park reads us a story.",
+    "Ms. Park Reads Us A Story."
+   ],
+   "Titles and names like Ms. Park are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "School starts on Tuesday.",
+   [
+    "School starts on tuesday.",
+    "school starts on Tuesday.",
+    "School Starts On Tuesday."
+   ],
+   "Days of the week are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Sam has a red bike.",
+   [
+    "sam has a red bike.",
+    "Sam has a Red Bike.",
+    "Sam Has A Red Bike."
+   ],
+   "The first word and the name Sam are capitalized."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "We ate turkey on Thanksgiving.",
+   [
+    "We ate turkey on thanksgiving.",
+    "we ate turkey on Thanksgiving.",
+    "We ate Turkey on Thanksgiving."
+   ],
+   "Holidays like Thanksgiving are capitalized; \"turkey\" is not."
+  ],
+  [
+   "Which sentence uses capital letters correctly?",
+   "Maya and Noah live in Calgary.",
+   [
+    "Maya and noah live in calgary.",
+    "maya and Noah live in Calgary.",
+    "Maya And Noah Live In Calgary."
+   ],
+   "Names of people and cities are capitalized."
+  ]
+ ],
+ "engXDpSp": [
+  [
+   "🐮 Which is the correct spelling?",
+   "towel",
+   [
+    "tawel",
+    "towle",
+    "toowel"
+   ],
+   "\"towel\" uses the ow vowel pattern."
+  ],
+  [
+   "🦁 Which is the correct spelling?",
+   "growl",
+   [
+    "grawl",
+    "groul",
+    "grolw"
+   ],
+   "\"growl\" uses the ow vowel pattern."
+  ],
+  [
+   "🧑‍🌾 Which is the correct spelling?",
+   "soil",
+   [
+    "soyl",
+    "siol",
+    "sail"
+   ],
+   "\"soil\" uses the oi vowel pattern."
+  ],
+  [
+   "🔊 Which is the correct spelling?",
+   "noise",
+   [
+    "noyse",
+    "nose",
+    "niose"
+   ],
+   "\"noise\" uses the oi vowel pattern."
+  ],
+  [
+   "🦪 Which is the correct spelling?",
+   "oyster",
+   [
+    "oister",
+    "oystre",
+    "aister"
+   ],
+   "\"oyster\" uses the oy vowel pattern."
+  ],
+  [
+   "😃 Which is the correct spelling?",
+   "joy",
+   [
+    "joi",
+    "jay",
+    "jow"
+   ],
+   "\"joy\" uses the oy vowel pattern."
+  ],
+  [
+   "🍪 Which is the correct spelling?",
+   "round",
+   [
+    "rownd",
+    "ruond",
+    "raund"
+   ],
+   "\"round\" uses the ou vowel pattern."
+  ],
+  [
+   "🔢 Which is the correct spelling?",
+   "count",
+   [
+    "cownt",
+    "cuont",
+    "caunt"
+   ],
+   "\"count\" uses the ou vowel pattern."
+  ],
+  [
+   "🤡 Which is the correct spelling?",
+   "clown",
+   [
+    "cloun",
+    "claun",
+    "colwn"
+   ],
+   "\"clown\" uses the ow vowel pattern."
+  ],
+  [
+   "🏙️ Which is the correct spelling?",
+   "town",
+   [
+    "toun",
+    "tawn",
+    "twon"
+   ],
+   "\"town\" uses the ow vowel pattern."
+  ],
+  [
+   "👆 Which is the correct spelling?",
+   "point",
+   [
+    "poynt",
+    "piont",
+    "pount"
+   ],
+   "\"point\" uses the oi vowel pattern."
+  ],
+  [
+   "🥾 Which is the correct spelling?",
+   "loud",
+   [
+    "lowd",
+    "luod",
+    "laud"
+   ],
+   "\"loud\" uses the ou vowel pattern."
+  ],
+  [
+   "🫖 Which is the correct spelling?",
+   "boil",
+   [
+    "boyl",
+    "biol",
+    "bail"
+   ],
+   "\"boil\" uses the oi vowel pattern."
+  ],
+  [
+   "☁️ Which is the correct spelling?",
+   "shout",
+   [
+    "showt",
+    "shuot",
+    "shaut"
+   ],
+   "\"shout\" uses the ou vowel pattern."
+  ],
+  [
+   "🌧️ Which is the correct spelling?",
+   "shower",
+   [
+    "shouer",
+    "shwoer",
+    "shawer"
+   ],
+   "\"shower\" uses the ow vowel pattern."
+  ],
+  [
+   "👑 Which is the correct spelling?",
+   "royal",
+   [
+    "roial",
+    "rayal",
+    "ryoal"
+   ],
+   "\"royal\" uses the oy vowel pattern."
+  ],
+  [
+   "🚜 Which is the correct spelling?",
+   "plow",
+   [
+    "plou",
+    "plaw",
+    "polw"
+   ],
+   "\"plow\" uses the ow vowel pattern."
+  ],
+  [
+   "👁️ Which is the correct spelling?",
+   "eyebrow",
+   [
+    "eyebrou",
+    "eyebraw",
+    "eyebrwo"
+   ],
+   "\"eyebrow\" uses the ow vowel pattern."
+  ],
+  [
+   "🌍 Which is the correct spelling?",
+   "ground",
+   [
+    "grownd",
+    "gruond",
+    "graund"
+   ],
+   "\"ground\" uses the ou vowel pattern."
+  ],
+  [
+   "🪙 Which is the correct spelling?",
+   "coins",
+   [
+    "coyns",
+    "cions",
+    "cains"
+   ],
+   "\"coins\" uses the oi vowel pattern."
+  ],
+  [
+   "🧒 Which is the correct spelling?",
+   "boys",
+   [
+    "bois",
+    "bays",
+    "biys"
+   ],
+   "\"boys\" uses the oy vowel pattern."
+  ],
+  [
+   "🎉 Which is the correct spelling?",
+   "enjoy",
+   [
+    "enjoi",
+    "enjay",
+    "enjoe"
+   ],
+   "\"enjoy\" uses the oy vowel pattern."
+  ]
+ ],
+ "engKyDt": [
+  [
+   "Read the details. What is the main idea? • Bears eat lots of food in the fall. • They find a den in a cave or log. • They sleep through most of the winter.",
+   "Bears get ready for and survive the winter.",
+   [
+    "Bears live in caves.",
+    "Bears like food.",
+    "Winter is cold."
+   ],
+   "Every detail tells how bears prepare for and spend the winter."
+  ],
+  [
+   "Read the details. What is the main idea? • Maple sap is collected in early spring. • The sap is boiled for many hours. • It turns into thick, sweet syrup.",
+   "Maple syrup is made from boiled sap.",
+   [
+    "Spring is early.",
+    "Syrup is sweet.",
+    "Trees are tall."
+   ],
+   "All the details describe the steps of making maple syrup."
+  ],
+  [
+   "Read the details. What is the main idea? • Bees carry pollen from flower to flower. • This helps plants make seeds and fruit. • Many foods we eat need bees.",
+   "Bees are important to plants and people.",
+   [
+    "Bees can sting.",
+    "Flowers are pretty.",
+    "Fruit has seeds."
+   ],
+   "Each detail shows a way bees help plants and our food supply."
+  ],
+  [
+   "Read the details. What is the main idea? • Dentists check your teeth for holes. • They clean away plaque. • They teach you how to brush well.",
+   "Dentists help keep teeth healthy.",
+   [
+    "Brushes are soft.",
+    "Plaque is sticky.",
+    "Teeth are white."
+   ],
+   "Every detail shows a way dentists care for teeth."
+  ],
+  [
+   "Read the details. What is the main idea? • Camels store fat in their humps. • They can go days without water. • Their wide feet do not sink in sand.",
+   "Camels are built for life in the desert.",
+   [
+    "Camels have humps.",
+    "Sand is hot.",
+    "Camels are tall."
+   ],
+   "All the details explain how camels survive in the desert."
+  ],
+  [
+   "Read the details. What is the main idea? • Some trees lose their leaves in fall. • The leaves turn red, orange and yellow first. • New leaves grow back in spring.",
+   "Many trees change with the seasons.",
+   [
+    "Leaves are orange.",
+    "Spring is warm.",
+    "Trees are tall."
+   ],
+   "The details all describe how trees change through the seasons."
+  ],
+  [
+   "Read the details. What is the main idea? • Firefighters put out fires. • They rescue people from danger. • They teach kids about fire safety.",
+   "Firefighters keep communities safe.",
+   [
+    "Fire is hot.",
+    "Trucks are red.",
+    "Kids go to school."
+   ],
+   "Each detail is a way firefighters protect people."
+  ],
+  [
+   "Read the details. What is the main idea? • Exercise makes your heart stronger. • It helps you sleep better. • It can put you in a good mood.",
+   "Exercise is good for your body and mind.",
+   [
+    "Hearts beat fast.",
+    "Sleep is restful.",
+    "Moods can change."
+   ],
+   "All the details are benefits of exercise."
+  ],
+  [
+   "Read the details. What is the main idea? • Octopuses can change colour. • They can squeeze through tiny holes. • They squirt ink to escape enemies.",
+   "Octopuses have clever ways to stay safe.",
+   [
+    "Ink is black.",
+    "Holes are tiny.",
+    "Octopuses live in the sea."
+   ],
+   "Every detail shows how an octopus avoids danger."
+  ],
+  [
+   "Read the details. What is the main idea? • Libraries lend books for free. • They offer computers to use. • Many have story times and clubs.",
+   "Libraries offer many services to people.",
+   [
+    "Books are fun.",
+    "Computers are fast.",
+    "Clubs meet weekly."
+   ],
+   "The details all list things libraries provide."
+  ],
+  [
+   "Read the details. What is the main idea? • The Moon has no air to breathe. • It is very hot in sunlight and very cold in shadow. • There is no liquid water on its surface.",
+   "The Moon would be a hard place to live.",
+   [
+    "The Moon is round.",
+    "Shadows are dark.",
+    "Air is invisible."
+   ],
+   "Each detail describes a harsh condition on the Moon."
+  ],
+  [
+   "Read the details. What is the main idea? • Dogs can learn to guide people who are blind. • Some dogs sniff out danger. • Others help search for lost hikers.",
+   "Dogs can do many helpful jobs.",
+   [
+    "Dogs can sniff.",
+    "Hikers get lost.",
+    "Dogs like walks."
+   ],
+   "Every detail names a job dogs do to help people."
+  ],
+  [
+   "Read the details. What is the main idea? • Salmon hatch in rivers. • They swim to the ocean to grow. • They return to the same river to lay eggs.",
+   "Salmon travel far during their lives.",
+   [
+    "Rivers are long.",
+    "The ocean is salty.",
+    "Salmon have eggs."
+   ],
+   "All the details describe the salmon's long journey."
+  ],
+  [
+   "Read the details. What is the main idea? • Plants need sunlight. • They need water from the soil. • They need air to make food.",
+   "Plants need several things to grow.",
+   [
+    "Sunlight is bright.",
+    "Soil is brown.",
+    "Air is everywhere."
+   ],
+   "Each detail is something a plant needs."
+  ],
+  [
+   "Read the details. What is the main idea? • Inuit families once built igloos from snow. • They used kayaks to hunt in the water. • They made warm clothing from animal skins.",
+   "Inuit people used their environment to live in the Arctic.",
+   [
+    "Snow is cold.",
+    "Kayaks are boats.",
+    "Skins are warm."
+   ],
+   "Every detail shows how Inuit used Arctic resources to live."
+  ],
+  [
+   "Read the details. What is the main idea? • Hummingbirds flap their wings very fast. • They can fly backward. • They can hover in one spot.",
+   "Hummingbirds are amazing fliers.",
+   [
+    "Hummingbirds are small.",
+    "Wings are feathery.",
+    "Birds eat seeds."
+   ],
+   "All the details describe special ways hummingbirds fly."
+  ],
+  [
+   "Read the details. What is the main idea? • Recycled paper can become new paper. • Old bottles can be made into new bottles. • Cans can be melted and reused.",
+   "Many things can be recycled into new products.",
+   [
+    "Paper is thin.",
+    "Bottles hold water.",
+    "Cans are metal."
+   ],
+   "Each detail gives an example of recycling into something new."
+  ],
+  [
+   "Read the details. What is the main idea? • Spiders spin webs to catch insects. • Some spiders hunt by jumping on prey. • Others hide and wait in burrows.",
+   "Spiders catch food in different ways.",
+   [
+    "Webs are sticky.",
+    "Insects fly.",
+    "Burrows are holes."
+   ],
+   "Every detail is a different way spiders get food."
+  ],
+  [
+   "Read the details. What is the main idea? • Helmets protect your head. • Knee pads protect your knees. • Bright clothing helps drivers see you.",
+   "Safety gear helps protect bike riders.",
+   [
+    "Knees can bend.",
+    "Clothes are bright.",
+    "Drivers drive cars."
+   ],
+   "All the details are ways gear keeps riders safe."
+  ],
+  [
+   "Read the details. What is the main idea? • Earthquakes can crack roads. • They can knock down buildings. • They can cause huge ocean waves.",
+   "Earthquakes can cause a lot of damage.",
+   [
+    "Roads are long.",
+    "Buildings are tall.",
+    "Oceans are deep."
+   ],
+   "Each detail is a type of damage from earthquakes."
+  ],
+  [
+   "Read the details. What is the main idea? • Snowshoe hares turn white in winter. • They turn brown in summer. • Their colour helps them hide from foxes.",
+   "Snowshoe hares change colour to stay hidden.",
+   [
+    "Foxes are hungry.",
+    "Winter is white.",
+    "Hares are fast."
+   ],
+   "All the details explain how the hare's colour change keeps it hidden."
+  ],
+  [
+   "Read the details. What is the main idea? • Milk has calcium for strong bones. • Fruit has vitamins. • Whole grains give you energy.",
+   "Different foods help the body in different ways.",
+   [
+    "Milk is white.",
+    "Fruit is sweet.",
+    "Grains are small."
+   ],
+   "Each detail tells how a food helps the body."
+  ]
+ ],
+ "engMnIE": [
+  [
+   "Read the passage. Beavers are busy builders. They chew down trees with their sharp teeth and pile up sticks and mud to make dams and lodges. What is the main idea?",
+   "Beavers are skilled builders.",
+   [
+    "Beavers have sharp teeth.",
+    "Mud is sticky.",
+    "Trees grow by rivers."
+   ],
+   "The whole passage is about how beavers build."
+  ],
+  [
+   "Read the passage. A garden needs care. You must water it, pull out weeds and make sure the plants get enough sun. What is the main idea?",
+   "Gardens need care to grow well.",
+   [
+    "Weeds are green.",
+    "The sun is hot.",
+    "Water is wet."
+   ],
+   "Every sentence explains a way to care for a garden."
+  ],
+  [
+   "Read the passage. Hockey is popular in Canada. Kids play on outdoor rinks, families watch games on TV, and many towns have their own teams. What is the main idea?",
+   "Many Canadians love hockey.",
+   [
+    "Rinks are cold.",
+    "TV shows games.",
+    "Towns have names."
+   ],
+   "All the details show how popular hockey is in Canada."
+  ],
+  [
+   "Read the passage. Bats are not blind, but they often use sound to find their way. They make high squeaks and listen for the echoes that bounce back. What is the main idea?",
+   "Bats use sound and echoes to find their way.",
+   [
+    "Bats are blind.",
+    "Bats sleep in caves.",
+    "Echoes are loud."
+   ],
+   "The passage explains how bats use echoes to get around."
+  ],
+  [
+   "Read the passage. Washing your hands is important. Soap and water remove germs that can make you sick, so wash before you eat and after you use the washroom. What is the main idea?",
+   "Washing your hands helps keep you healthy.",
+   [
+    "Soap smells nice.",
+    "Washrooms have sinks.",
+    "Germs are tiny."
+   ],
+   "The passage explains why handwashing keeps you from getting sick."
+  ],
+  [
+   "Read the passage. The Arctic fox has thick white fur that keeps it warm and helps it hide in the snow. Its small ears and short legs help it hold in heat. What is the main idea?",
+   "The Arctic fox's body is suited to the cold.",
+   [
+    "Foxes like snow.",
+    "Ears can hear.",
+    "The Arctic is far away."
+   ],
+   "Every detail describes how the fox's body handles cold."
+  ],
+  [
+   "Read the passage. Reading every day has many benefits. It helps you learn new words, improves your imagination and can even help you relax before bed. What is the main idea?",
+   "Reading every day is good for you.",
+   [
+    "Books have pages.",
+    "Bedtime is at night.",
+    "Words are long."
+   ],
+   "The passage lists benefits of daily reading."
+  ],
+  [
+   "Read the passage. Volunteers help their communities in many ways. Some pick up litter in parks, others serve food at shelters, and some read to children at the library. What is the main idea?",
+   "Volunteers help their communities in many ways.",
+   [
+    "Parks have litter.",
+    "Libraries have books.",
+    "Shelters serve food."
+   ],
+   "All the examples show ways volunteers help."
+  ],
+  [
+   "Read the passage. Monarch butterflies travel thousands of kilometres each fall. They fly from Canada all the way to Mexico to spend the winter where it is warm. What is the main idea?",
+   "Monarch butterflies make a long journey south.",
+   [
+    "Mexico is warm.",
+    "Butterflies are orange.",
+    "Fall is cool."
+   ],
+   "The passage is about the monarchs' long migration."
+  ],
+  [
+   "Read the passage. Thunderstorms can be dangerous. Lightning can strike tall objects, and heavy rain can cause floods. It is safest to stay indoors during a storm. What is the main idea?",
+   "Thunderstorms can be dangerous, so stay safe indoors.",
+   [
+    "Rain is wet.",
+    "Lightning is bright.",
+    "Floods are big."
+   ],
+   "Every sentence warns about storm dangers and how to stay safe."
+  ],
+  [
+   "Read the passage. Elephants have amazing trunks. They use them to drink, to pick up food, to spray water on their backs and even to hug each other. What is the main idea?",
+   "Elephants use their trunks in many ways.",
+   [
+    "Elephants are grey.",
+    "Elephants are large.",
+    "Water is cool."
+   ],
+   "All the details are uses of an elephant's trunk."
+  ],
+  [
+   "Read the passage. Long ago, people did not have refrigerators. They kept food cold in cellars, packed it in ice or dried and salted it so it would last. What is the main idea?",
+   "People once used other ways to keep food from spoiling.",
+   [
+    "Ice is cold.",
+    "Cellars are dark.",
+    "Salt is white."
+   ],
+   "The passage describes old ways of preserving food."
+  ],
+  [
+   "Read the passage. Sleep helps your body and brain. While you sleep, your body repairs itself and your brain stores what you learned that day. What is the main idea?",
+   "Sleep is important for your body and brain.",
+   [
+    "Beds are comfy.",
+    "Brains are smart.",
+    "Nights are dark."
+   ],
+   "The passage explains how sleep helps you."
+  ],
+  [
+   "Read the passage. Lighthouses guide ships at night. Their bright lights warn sailors about rocks and show them the way to a safe harbour. What is the main idea?",
+   "Lighthouses help keep ships safe.",
+   [
+    "Lights are bright.",
+    "Rocks are hard.",
+    "Sailors wear hats."
+   ],
+   "Every detail shows how lighthouses protect ships."
+  ],
+  [
+   "Read the passage. Cactus plants can live in dry deserts. They store water in their thick stems, and their spines protect them from thirsty animals. What is the main idea?",
+   "Cactuses are adapted to survive in the desert.",
+   [
+    "Spines are sharp.",
+    "Deserts are sandy.",
+    "Animals get thirsty."
+   ],
+   "All the details show how cactuses survive dry places."
+  ],
+  [
+   "Read the passage. Our class pet, a hamster named Peanut, needs daily care. We give him fresh food and water, clean his cage and let him run on his wheel. What is the main idea?",
+   "Peanut the hamster needs care every day.",
+   [
+    "Hamsters are small.",
+    "Wheels go around.",
+    "Cages have doors."
+   ],
+   "The passage lists the daily care Peanut needs."
+  ],
+  [
+   "Read the passage. The Canadarm was a robotic arm built in Canada. Astronauts used it to move equipment, catch satellites and help build the International Space Station. What is the main idea?",
+   "The Canadarm was a useful tool in space.",
+   [
+    "Astronauts wear suits.",
+    "Satellites orbit Earth.",
+    "Canada is large."
+   ],
+   "Every detail shows how the Canadarm helped in space."
+  ],
+  [
+   "Read the passage. Ants work together as a team. Some gather food, some care for the young, and others guard the nest from enemies. What is the main idea?",
+   "Ants share jobs to help their colony.",
+   [
+    "Ants are tiny.",
+    "Nests are underground.",
+    "Food is tasty."
+   ],
+   "The passage explains how ants divide up the work."
+  ],
+  [
+   "Read the passage. Wearing sunscreen protects your skin. The sun's rays can cause sunburn, so put sunscreen on before going outside and add more after swimming. What is the main idea?",
+   "Sunscreen protects your skin from the sun.",
+   [
+    "Swimming is fun.",
+    "The sun is bright.",
+    "Skin can tan."
+   ],
+   "All the details are about sunscreen protecting skin."
+  ],
+  [
+   "Read the passage. Pumpkins grow on long vines. They start as small yellow flowers, then turn into green fruit that slowly grows and turns orange. What is the main idea?",
+   "Pumpkins change as they grow on the vine.",
+   [
+    "Flowers are yellow.",
+    "Vines are long.",
+    "Orange is a colour."
+   ],
+   "The passage describes the stages of a growing pumpkin."
+  ],
+  [
+   "Read the passage. Bicycles are a great way to travel. They do not pollute the air, they give you exercise and they are cheaper than cars. What is the main idea?",
+   "Bicycles are a good way to get around.",
+   [
+    "Cars are expensive.",
+    "Air can be dirty.",
+    "Bikes have wheels."
+   ],
+   "All the details are reasons biking is a good choice."
+  ],
+  [
+   "Read the passage. Snow can be fun. You can build snowmen, go sledding down hills and have snowball fights with your friends. What is the main idea?",
+   "There are many fun things to do in the snow.",
+   [
+    "Hills are steep.",
+    "Snow is cold.",
+    "Friends are kind."
+   ],
+   "Every detail is a fun snow activity."
+  ]
+ ],
+ "engXPuMm": [
+  [
+   "A recipe card lists ingredients and steps for making pancakes. What is the author's purpose?",
+   "To explain how to do something",
+   [
+    "To persuade you to buy eggs",
+    "To tell a funny story",
+    "To share a feeling"
+   ],
+   "A recipe gives steps for making a food."
+  ],
+  [
+   "A TV commercial shows kids laughing while playing with a new toy robot and says, \"Get yours today!\" What is the purpose of the commercial?",
+   "To persuade people to buy the toy",
+   [
+    "To explain how robots work",
+    "To tell a true story",
+    "To give safety rules"
+   ],
+   "Commercials try to convince people to buy things."
+  ],
+  [
+   "📺 A cartoon about a silly dog who wants to be a pilot. What is the author's main purpose?",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To give directions"
+   ],
+   "A silly cartoon story is made for fun."
+  ],
+  [
+   "A sign at the pool lists rules like \"No running\" and \"Swim with a buddy.\" What is the purpose of the sign?",
+   "To inform swimmers of the rules",
+   [
+    "To entertain swimmers",
+    "To sell swimsuits",
+    "To tell a story about the pool"
+   ],
+   "The sign gives important information about pool rules."
+  ],
+  [
+   "A podcast episode explains how volcanoes form and why they erupt. What is the purpose of the podcast?",
+   "To inform",
+   [
+    "To entertain with jokes",
+    "To persuade",
+    "To sell tickets"
+   ],
+   "The podcast teaches facts about volcanoes."
+  ],
+  [
+   "A billboard says \"Visit Sunny Farm — pick your own strawberries!\" with a picture of a smiling family. What is the purpose of the billboard?",
+   "To persuade people to visit the farm",
+   [
+    "To explain how strawberries grow",
+    "To tell a story about a family",
+    "To share the weather"
+   ],
+   "The billboard tries to get people to come to the farm."
+  ],
+  [
+   "🎵 A song about a frog who goes on a goofy adventure. What is the author's main purpose?",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To give instructions"
+   ],
+   "A goofy song is written to amuse listeners."
+  ],
+  [
+   "A weather app shows today's temperature, wind and chance of rain. What is the purpose of the app screen?",
+   "To inform",
+   [
+    "To entertain",
+    "To persuade",
+    "To tell a story"
+   ],
+   "The app gives facts about the weather."
+  ],
+  [
+   "A poster shows a toothbrush and says \"Brush twice a day for a healthy smile!\" What is the purpose of the poster?",
+   "To persuade kids to brush their teeth",
+   [
+    "To tell a funny story",
+    "To list types of toothbrushes",
+    "To explain how teeth grow"
+   ],
+   "The poster tries to convince kids to brush."
+  ],
+  [
+   "A video shows how to plant a seed in a pot, step by step. What is the author's purpose?",
+   "To explain how to do something",
+   [
+    "To persuade you to buy pots",
+    "To entertain with a story",
+    "To describe a feeling"
+   ],
+   "The video gives steps for planting a seed."
+  ],
+  [
+   "📖 A picture book about a dragon who is afraid of the dark. What is the author's main purpose?",
+   "To entertain",
+   [
+    "To inform",
+    "To persuade",
+    "To give directions"
+   ],
+   "An imaginative story about a dragon is meant for enjoyment."
+  ],
+  [
+   "A website page lists facts about the animals that live in Canada's national parks. What is the purpose of the page?",
+   "To inform",
+   [
+    "To entertain",
+    "To persuade",
+    "To tell a joke"
+   ],
+   "The page shares facts about animals."
+  ],
+  [
+   "A flyer says \"Join the Lions soccer team! It's the most fun you'll have all summer!\" What is the purpose of the flyer?",
+   "To persuade kids to join the team",
+   [
+    "To explain soccer rules",
+    "To tell a story about lions",
+    "To report a game score"
+   ],
+   "The flyer tries to convince kids to sign up."
+  ],
+  [
+   "A labelled diagram shows the parts of a plant: roots, stem, leaves and flower. What is the purpose of the diagram?",
+   "To inform",
+   [
+    "To entertain",
+    "To persuade",
+    "To tell a story"
+   ],
+   "The diagram teaches the parts of a plant."
+  ],
+  [
+   "A comic strip shows a penguin slipping on ice and landing in a bowl of soup. What is the main purpose of the comic?",
+   "To entertain",
+   [
+    "To teach about penguins",
+    "To persuade you to eat soup",
+    "To give safety tips"
+   ],
+   "The silly comic is meant to make readers laugh."
+  ],
+  [
+   "An instruction sheet with pictures shows how to put together a bookshelf. What is the author's purpose?",
+   "To explain how to do something",
+   [
+    "To persuade you to read",
+    "To tell a story about books",
+    "To share an opinion"
+   ],
+   "The sheet gives steps for building a bookshelf."
+  ],
+  [
+   "A radio ad says, \"Pizza Palace has the best pizza in town — order now!\" What is the purpose of the ad?",
+   "To persuade listeners to buy pizza",
+   [
+    "To explain how pizza is made",
+    "To report the news",
+    "To tell a story about a palace"
+   ],
+   "The ad tries to get people to order pizza."
+  ],
+  [
+   "📰 A news report about a new park opening in town. What is the author's main purpose?",
+   "To inform",
+   [
+    "To entertain",
+    "To persuade",
+    "To give directions"
+   ],
+   "A news report shares facts about an event."
+  ],
+  [
+   "A video game trailer shows exciting scenes and says \"Coming soon — pre-order now!\" What is the purpose of the trailer?",
+   "To persuade people to buy the game",
+   [
+    "To teach how games are made",
+    "To give game rules",
+    "To tell a true story"
+   ],
+   "The trailer tries to make people want to buy the game."
+  ],
+  [
+   "A school website shows the lunch menu for each day of the week. What is the purpose of the menu?",
+   "To inform",
+   [
+    "To entertain",
+    "To persuade",
+    "To tell a story"
+   ],
+   "The menu gives information about lunches."
+  ],
+  [
+   "A puppet show tells a funny tale about a fox who tries to cook dinner. What is the purpose of the puppet show?",
+   "To entertain",
+   [
+    "To teach cooking",
+    "To persuade you to buy puppets",
+    "To report news"
+   ],
+   "A funny puppet tale is meant to amuse the audience."
+  ],
+  [
+   "A poster with arrows shows the fire exit routes in the school. What is the purpose of the poster?",
+   "To inform people where to go in a fire",
+   [
+    "To entertain students",
+    "To persuade people to buy alarms",
+    "To tell a story about a fire"
+   ],
+   "The poster gives safety information about exits."
+  ]
+ ],
+ "engXCeInf": [
+  [
+   "A drought hit the prairies one summer. With little rain, wheat plants dried out, and farmers harvested much less grain than usual. What was one effect of the drought?",
+   "Farmers harvested less grain",
+   [
+    "Wheat grew taller",
+    "More rain fell",
+    "Farmers planted more trees"
+   ],
+   "The text says little rain dried out the wheat, so the harvest was smaller."
+  ],
+  [
+   "Zebra mussels arrived in the Great Lakes in the 1980s. They clog water pipes and eat the tiny plankton that native fish need. What is one effect of zebra mussels?",
+   "Water pipes get clogged",
+   [
+    "Native fish get more food",
+    "The lakes became warmer",
+    "Plankton increased"
+   ],
+   "The text states that zebra mussels clog water pipes."
+  ],
+  [
+   "Our town installed new streetlights on dark roads. Since then, the number of nighttime accidents has gone down. What is one effect of the new streetlights?",
+   "Fewer nighttime accidents",
+   [
+    "More cars on the road",
+    "Roads became darker",
+    "More accidents during the day"
+   ],
+   "The text says accidents at night decreased after the lights were added."
+  ],
+  [
+   "Wolves were brought back to Yellowstone Park in 1995. The wolves hunted elk, so elk stopped overeating young trees along rivers, and the trees began to grow back. Why did the trees begin to grow back?",
+   "Wolves kept the elk from overeating them",
+   [
+    "Rivers flooded more",
+    "Elk planted new seeds",
+    "People stopped cutting them"
+   ],
+   "The wolves reduced elk grazing, which let the trees recover."
+  ],
+  [
+   "When the ice on Hudson Bay melts earlier in spring, polar bears have less time to hunt seals. As a result, many bears go hungry during the summer. What causes polar bears to go hungry?",
+   "They have less time on the ice to hunt",
+   [
+    "They eat too many seals",
+    "The water is too cold",
+    "They sleep all summer"
+   ],
+   "Earlier melting shortens the bears' hunting season."
+  ],
+  [
+   "A factory began dumping waste into a river. Soon, the fish in the river started dying, and people could no longer swim there. What caused the fish to die?",
+   "Waste from the factory polluted the river",
+   [
+    "The river froze",
+    "People swam too much",
+    "There were too many fish"
+   ],
+   "The fish died after the factory dumped waste."
+  ],
+  [
+   "After the school added a salad bar, students began eating more vegetables at lunch. What is one effect of adding the salad bar?",
+   "Students ate more vegetables",
+   [
+    "Students skipped lunch",
+    "Lunch got shorter",
+    "Fewer students came to school"
+   ],
+   "The text says vegetable eating went up after the salad bar was added."
+  ],
+  [
+   "Strong winds blew across the bare farm fields during the 1930s. The dry topsoil lifted into huge dust storms, and many farms were ruined. What caused the dust storms?",
+   "Strong winds blew dry topsoil",
+   [
+    "Heavy rains washed fields",
+    "Farmers planted too many trees",
+    "Snow covered the fields"
+   ],
+   "The text explains winds lifted the dry soil into storms."
+  ],
+  [
+   "Because honeybee numbers have dropped, some farmers now rent hives to pollinate their crops. Why do some farmers rent beehives?",
+   "There are fewer honeybees to pollinate crops",
+   [
+    "Bees make crops taste sweeter",
+    "Farmers want to sell honey",
+    "Hives keep pests away"
+   ],
+   "The drop in bees means farmers need extra help pollinating."
+  ],
+  [
+   "When a city planted thousands of trees, summer temperatures in some neighbourhoods dropped by a few degrees. Shade from the trees cooled the streets. What is one effect of planting the trees?",
+   "Some neighbourhoods became cooler",
+   [
+    "Streets became hotter",
+    "More cars drove there",
+    "Fewer people lived there"
+   ],
+   "The trees' shade lowered temperatures."
+  ],
+  [
+   "Sea otters eat sea urchins. Where otters were hunted, urchins multiplied and ate the kelp forests, leaving bare rock. What happened to the kelp when otters disappeared?",
+   "Urchins ate most of the kelp",
+   [
+    "The kelp grew taller",
+    "Otters ate the kelp",
+    "The kelp moved to shore"
+   ],
+   "Without otters, the urchin population grew and destroyed the kelp."
+  ],
+  [
+   "The invention of the printing press made books much cheaper to produce. As a result, more people could buy books and learn to read. What is one effect of the printing press?",
+   "More people learned to read",
+   [
+    "Books became more expensive",
+    "People stopped writing",
+    "Fewer books were made"
+   ],
+   "Cheaper books meant more people could read."
+  ],
+  [
+   "A heavy ice storm coated power lines in Quebec in 1998. The weight of the ice snapped lines and towers, and millions of people lost power. Why did people lose power?",
+   "Ice broke power lines and towers",
+   [
+    "Too many people used electricity",
+    "Lightning hit a power plant",
+    "Workers turned off the power"
+   ],
+   "The text says the heavy ice snapped the lines."
+  ],
+  [
+   "When people began using seat belts regularly, the number of serious injuries in car crashes dropped. What is one effect of wearing seat belts?",
+   "Fewer serious injuries in crashes",
+   [
+    "More crashes happened",
+    "Cars went faster",
+    "Roads got wider"
+   ],
+   "The text links seat belt use to fewer injuries."
+  ],
+  [
+   "Because the town lowered the speed limit near the school, cars now drive more slowly, and it is safer for students to cross the street. What caused it to be safer for students to cross?",
+   "Cars drive more slowly",
+   [
+    "Students walk faster",
+    "There are more cars",
+    "The school moved"
+   ],
+   "The lower speed limit slowed the cars."
+  ],
+  [
+   "Plastic bags in the ocean can look like jellyfish to sea turtles. Turtles eat the bags, which can make them sick. Why do sea turtles eat plastic bags?",
+   "The bags look like jellyfish",
+   [
+    "Turtles like the taste of plastic",
+    "There is no other food",
+    "The bags smell like fish"
+   ],
+   "The text says turtles mistake bags for jellyfish."
+  ],
+  [
+   "The library started staying open later on weeknights. Since then, many more students have come in to study after school. What is one effect of the longer hours?",
+   "More students study at the library",
+   [
+    "Fewer books were borrowed",
+    "The library closed early",
+    "Students stopped studying"
+   ],
+   "The text says more students came after the hours were extended."
+  ],
+  [
+   "Cutting down forests removes tree roots that hold soil in place. When heavy rain falls, the loose soil washes into rivers. What is one effect of cutting down forests?",
+   "Soil washes into rivers",
+   [
+    "Rivers become clearer",
+    "More trees grow",
+    "Rain stops falling"
+   ],
+   "Without roots, soil washes away in the rain."
+  ],
+  [
+   "Vaccines were given to millions of children around the world. As a result, smallpox disappeared completely by 1980. What caused smallpox to disappear?",
+   "Widespread vaccination",
+   [
+    "Warmer weather",
+    "New hospitals",
+    "Fewer children"
+   ],
+   "The text credits the vaccines for ending smallpox."
+  ],
+  [
+   "A late frost hit the orchards just after the apple trees bloomed. The cold killed many blossoms, so the trees produced fewer apples that year. Why were there fewer apples?",
+   "Frost killed many blossoms",
+   [
+    "The trees were too old",
+    "Birds ate the apples",
+    "Farmers picked too early"
+   ],
+   "The frost destroyed the blossoms that would have become apples."
+  ],
+  [
+   "When a new highway was built around the town, trucks no longer drove down Main Street. The street became quieter, and more people walked there. What is one effect of the new highway?",
+   "Main Street became quieter",
+   [
+    "Main Street got busier",
+    "More trucks used Main Street",
+    "People stopped walking"
+   ],
+   "Trucks used the highway instead of Main Street."
+  ],
+  [
+   "Because the Earth's axis is tilted, the Northern Hemisphere leans toward the Sun in June. Sunlight hits it more directly, which causes summer. What causes summer in the Northern Hemisphere?",
+   "It tilts toward the Sun",
+   [
+    "The Earth is closer to the Moon",
+    "The Sun gets bigger",
+    "Clouds disappear"
+   ],
+   "The tilt makes sunlight more direct, which warms the hemisphere."
+  ]
+ ]
+}
