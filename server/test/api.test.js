@@ -25,6 +25,12 @@ before(async () => {
   await initSchema(pool);
   const app = createApp(pool, 'test-secret', fakeMailer());
   await new Promise(resolve => { server = app.listen(0, resolve); });
+  // Never let the server time out idle keep-alive connections. Some tests block the event loop for
+  // seconds (loading the whole skill catalog); the server's 5 s idle timer and the client's 4 s one then
+  // fire late together, and the next request could go out on a socket the server is closing →
+  // intermittent "fetch failed". With no server-side timeout only the client ends idle sockets.
+  // (after() closes all connections.)
+  server.keepAliveTimeout = 0;
   base = `http://localhost:${server.address().port}`;
 
   // seed the bootstrap admin directly in the DB
