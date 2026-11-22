@@ -712,3 +712,20 @@ test('activity history: answers and time are logged per day for teacher reports'
   assert.ok(s.lastSeen, 'last seen recorded');
   assert.ok(s.skillProgress.find(p => p.skill_id === 'algB1').last_at, 'skill last practised time');
 });
+
+test('diagnostic: students save results; teachers see the latest per subject', async () => {
+  let r = await api('POST', '/api/diagnostic', { token: student.token, body: { subject: 'math', level: 6.5, strands: { Fractions: 5, Geometry: 7 }, answered: 20, correct: 12 } });
+  assert.equal(r.status, 200);
+  r = await api('POST', '/api/diagnostic', { token: student.token, body: { subject: 'math', level: 7, strands: { Fractions: 6 }, answered: 20, correct: 14 } });
+  r = await api('POST', '/api/diagnostic', { token: student.token, body: { subject: 'art', level: 3, strands: {} } });
+  assert.equal(r.status, 400, 'unknown subject');
+  r = await api('POST', '/api/diagnostic', { token: student.token, body: { subject: 'math', level: 40, strands: {} } });
+  assert.equal(r.status, 400, 'level out of range');
+  r = await api('POST', '/api/diagnostic', { token: teacher.token, body: { subject: 'math', level: 3, strands: {} } });
+  assert.equal(r.status, 403, 'students only');
+  r = await api('GET', '/api/diagnostic', { token: student.token });
+  assert.equal(r.data.length, 1, 'one (latest) result per subject');
+  assert.equal(r.data[0].level, 7);
+  r = await api('GET', '/api/students', { token: teacher.token });
+  assert.equal(r.data.find(s => s.username === 'stu1').diagnostics[0].level, 7);
+});

@@ -290,3 +290,15 @@ export async function countKnownWords(pool, userId, knownBox) {
   const { rows } = await pool.query('SELECT COUNT(*) AS n FROM word_reviews WHERE user_id = $1 AND box >= $2', [userId, knownBox]);
   return Number(rows[0]?.n || 0);
 }
+
+// ---------- diagnostics ----------
+export async function saveDiagnostic(pool, userId, { subject, level, strands, answered, correct }) {
+  await pool.query('INSERT INTO diagnostics (user_id, subject, level, strands, answered, correct) VALUES ($1, $2, $3, $4, $5, $6)',
+    [userId, subject, level, JSON.stringify(strands), answered, correct]);
+}
+/** latest result per subject, newest first */
+export async function latestDiagnostics(pool, userId) {
+  const { rows } = await pool.query('SELECT subject, level, strands, answered, correct, taken_at FROM diagnostics WHERE user_id = $1 ORDER BY taken_at DESC', [userId]);
+  const seen = new Set();
+  return rows.filter(r => !seen.has(r.subject) && seen.add(r.subject));
+}

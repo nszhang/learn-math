@@ -1,0 +1,5562 @@
+{
+ "engXPpPc": [
+  [
+   "🐟🌊 The fish swims ___ the water.",
+   "in",
+   [
+    "on",
+    "above",
+    "behind"
+   ],
+   "The fish is inside the water, so it swims in it."
+  ],
+  [
+   "🐱🪑 The cat sleeps ___ the chair. (The chair is on top of the cat.)",
+   "under",
+   [
+    "on",
+    "in",
+    "above"
+   ],
+   "If the chair is on top of the cat, the cat is under it."
+  ],
+  [
+   "🧢👦 The hat is ___ the boy's head.",
+   "on",
+   [
+    "under",
+    "in",
+    "beside"
+   ],
+   "A hat sits on top of your head."
+  ],
+  [
+   "✈️🏠 The plane flies ___ the house.",
+   "above",
+   [
+    "under",
+    "in",
+    "behind"
+   ],
+   "A plane in the sky is higher than the house, so it is above it."
+  ],
+  [
+   "🐰🌳 The rabbit hides ___ the tree, where you cannot see it.",
+   "behind",
+   [
+    "on",
+    "above",
+    "in"
+   ],
+   "When something is at the back of a tree and hidden, it is behind the tree."
+  ],
+  [
+   "🍎🧺 The apples are ___ the basket.",
+   "in",
+   [
+    "under",
+    "above",
+    "behind"
+   ],
+   "The apples are inside the basket."
+  ],
+  [
+   "👧👦 Mia stands ___ her brother, right at his side.",
+   "beside",
+   [
+    "under",
+    "in",
+    "on"
+   ],
+   "Beside means right next to someone."
+  ],
+  [
+   "🐦🌲 The bird sits ___ the top of the tree.",
+   "on",
+   [
+    "under",
+    "in",
+    "behind"
+   ],
+   "The bird is resting on the top of the tree."
+  ],
+  [
+   "🐛🍃 The bug crawls ___ the leaf, on its bottom side.",
+   "under",
+   [
+    "above",
+    "in",
+    "beside"
+   ],
+   "The bottom side of a leaf is under it."
+  ],
+  [
+   "☀️⛰️ The sun is ___ the mountain.",
+   "above",
+   [
+    "under",
+    "in",
+    "beside"
+   ],
+   "The sun is up high, over the mountain."
+  ],
+  [
+   "🐶🏠 The dog is ___ its doghouse, out of the rain.",
+   "in",
+   [
+    "on",
+    "above",
+    "under"
+   ],
+   "The dog is inside its doghouse."
+  ],
+  [
+   "📚🎒 The books are ___ the backpack.",
+   "in",
+   [
+    "on",
+    "above",
+    "beside"
+   ],
+   "The books are inside the backpack."
+  ],
+  [
+   "🚗🚌 The car is parked ___ the bus, at the back of it.",
+   "behind",
+   [
+    "on",
+    "in",
+    "above"
+   ],
+   "At the back of something means behind it."
+  ],
+  [
+   "🧸🛏️ The teddy bear sits ___ the bed.",
+   "on",
+   [
+    "under",
+    "in",
+    "behind"
+   ],
+   "The teddy bear is on top of the bed."
+  ],
+  [
+   "🐸🪨 The frog jumps ___ the rock and lands on top.",
+   "onto",
+   [
+    "under",
+    "behind",
+    "inside"
+   ],
+   "Landing on top of the rock means the frog jumps onto it."
+  ],
+  [
+   "🌙🏙️ The moon shines ___ the city.",
+   "above",
+   [
+    "under",
+    "in",
+    "behind"
+   ],
+   "The moon is high in the sky over the city."
+  ],
+  [
+   "🐭🧀 The mouse is ___ the cheese, right next to it.",
+   "beside",
+   [
+    "above",
+    "in",
+    "under"
+   ],
+   "Right next to something means beside it."
+  ],
+  [
+   "⚽🥅 The ball goes ___ the net. Goal!",
+   "in",
+   [
+    "on",
+    "above",
+    "behind"
+   ],
+   "A goal is scored when the ball goes inside the net."
+  ],
+  [
+   "🐢🏖️ The turtle walks ___ the sand.",
+   "on",
+   [
+    "above",
+    "in",
+    "under"
+   ],
+   "The turtle walks on top of the sand."
+  ],
+  [
+   "👟🛏️ My shoes are ___ the bed, down on the floor.",
+   "under",
+   [
+    "above",
+    "on",
+    "in"
+   ],
+   "The floor below a bed is under it."
+  ],
+  [
+   "🦉🌳 The owl hides ___ a hole in the tree.",
+   "in",
+   [
+    "on",
+    "above",
+    "beside"
+   ],
+   "The owl is inside a hole in the tree."
+  ],
+  [
+   "🏃‍♀️🧍 Ava stands ___ Jon in line, so she is first.",
+   "in front of",
+   [
+    "behind",
+    "under",
+    "above"
+   ],
+   "If Ava is first in line, she is in front of Jon."
+  ]
+ ],
+ "engXWh": [
+  [
+   "___ is your birthday? It is in May.",
+   "When",
+   [
+    "Who",
+    "Where",
+    "What"
+   ],
+   "When asks about time, like a month or day."
+  ],
+  [
+   "___ are you crying? I fell down.",
+   "Why",
+   [
+    "When",
+    "Who",
+    "Where"
+   ],
+   "Why asks for a reason."
+  ],
+  [
+   "___ is in the box? A toy car.",
+   "What",
+   [
+    "Who",
+    "When",
+    "Why"
+   ],
+   "What asks about a thing."
+  ],
+  [
+   "___ is your teacher? Ms. Lee.",
+   "Who",
+   [
+    "What",
+    "Where",
+    "When"
+   ],
+   "Who asks about a person."
+  ],
+  [
+   "___ is the park? Next to the school.",
+   "Where",
+   [
+    "Who",
+    "Why",
+    "When"
+   ],
+   "Where asks about a place."
+  ],
+  [
+   "Which question word would you use to ask about a place, like a city or a room?",
+   "Where",
+   [
+    "Who",
+    "When",
+    "Why"
+   ],
+   "Where asks about a place."
+  ],
+  [
+   "Which question word would you use to ask what time something happens?",
+   "When",
+   [
+    "What",
+    "Who",
+    "Where"
+   ],
+   "When asks about time."
+  ],
+  [
+   "Which question word would you use to find out the reason for something?",
+   "Why",
+   [
+    "Who",
+    "What",
+    "Where"
+   ],
+   "Why asks for a reason."
+  ],
+  [
+   "Which question word asks about a thing?",
+   "What",
+   [
+    "Who",
+    "When",
+    "Where"
+   ],
+   "What asks about things."
+  ],
+  [
+   "___ do we eat lunch? At noon.",
+   "When",
+   [
+    "Where",
+    "Who",
+    "What"
+   ],
+   "At noon is a time, so the question uses When."
+  ],
+  [
+   "___ did you go on the weekend? To the farm.",
+   "Where",
+   [
+    "When",
+    "Who",
+    "Why"
+   ],
+   "To the farm is a place, so the question uses Where."
+  ],
+  [
+   "___ is your favourite colour? Blue.",
+   "What",
+   [
+    "Who",
+    "Where",
+    "When"
+   ],
+   "Blue is a thing you name, so the question uses What."
+  ],
+  [
+   "___ made this cake? My dad did.",
+   "Who",
+   [
+    "What",
+    "Where",
+    "Why"
+   ],
+   "My dad is a person, so the question uses Who."
+  ],
+  [
+   "___ is the dog barking? It sees a squirrel.",
+   "Why",
+   [
+    "Who",
+    "Where",
+    "When"
+   ],
+   "The answer gives a reason, so the question uses Why."
+  ],
+  [
+   "___ do you sleep? In my bed.",
+   "Where",
+   [
+    "Who",
+    "Why",
+    "When"
+   ],
+   "In my bed is a place, so the question uses Where."
+  ],
+  [
+   "___ is that girl? She is my cousin.",
+   "Who",
+   [
+    "What",
+    "When",
+    "Where"
+   ],
+   "The answer names a person, so the question uses Who."
+  ],
+  [
+   "___ does school start? In September.",
+   "When",
+   [
+    "Who",
+    "What",
+    "Where"
+   ],
+   "September is a time, so the question uses When."
+  ],
+  [
+   "___ are you wearing a coat? It is cold outside.",
+   "Why",
+   [
+    "Who",
+    "What",
+    "When"
+   ],
+   "The answer tells a reason, so the question uses Why."
+  ],
+  [
+   "___ do cows drink? Water.",
+   "What",
+   [
+    "Who",
+    "Where",
+    "When"
+   ],
+   "Water is a thing, so the question uses What."
+  ],
+  [
+   "___ is my hat? It is on the hook.",
+   "Where",
+   [
+    "Who",
+    "When",
+    "Why"
+   ],
+   "On the hook is a place, so the question uses Where."
+  ],
+  [
+   "___ will we go swimming? After lunch.",
+   "When",
+   [
+    "Where",
+    "Why",
+    "Who"
+   ],
+   "After lunch is a time, so the question uses When."
+  ],
+  [
+   "___ helped you clean up? My sister.",
+   "Who",
+   [
+    "What",
+    "Where",
+    "When"
+   ],
+   "My sister is a person, so the question uses Who."
+  ]
+ ],
+ "engXSynM": [
+  [
+   "Which word means the same as huge ?",
+   "giant",
+   [
+    "tiny",
+    "slow",
+    "sad"
+   ],
+   "Huge and giant both mean very big."
+  ],
+  [
+   "Which word means the same as tiny ?",
+   "small",
+   [
+    "large",
+    "happy",
+    "loud"
+   ],
+   "Tiny and small both mean not big."
+  ],
+  [
+   "Which word means the same as sad ?",
+   "unhappy",
+   [
+    "glad",
+    "quick",
+    "tall"
+   ],
+   "Sad and unhappy both mean feeling down."
+  ],
+  [
+   "Which word means the same as begin ?",
+   "start",
+   [
+    "stop",
+    "sleep",
+    "close"
+   ],
+   "Begin and start both mean to get going."
+  ],
+  [
+   "Which word means the same as yell ?",
+   "shout",
+   [
+    "whisper",
+    "sit",
+    "run"
+   ],
+   "Yell and shout both mean to call out loudly."
+  ],
+  [
+   "Which word means the same as look ?",
+   "see",
+   [
+    "hear",
+    "jump",
+    "eat"
+   ],
+   "Look and see both have to do with using your eyes."
+  ],
+  [
+   "Which word means the same as talk ?",
+   "speak",
+   [
+    "listen",
+    "walk",
+    "sleep"
+   ],
+   "Talk and speak both mean to say words."
+  ],
+  [
+   "Which word means the same as present ?",
+   "gift",
+   [
+    "box",
+    "party",
+    "cake"
+   ],
+   "A present and a gift are the same thing."
+  ],
+  [
+   "Which word means the same as smile ?",
+   "grin",
+   [
+    "frown",
+    "cry",
+    "yawn"
+   ],
+   "Smile and grin both mean to look happy with your mouth."
+  ],
+  [
+   "Which word means the same as street ?",
+   "road",
+   [
+    "house",
+    "car",
+    "park"
+   ],
+   "A street and a road are both ways to travel on."
+  ],
+  [
+   "Which word means the same as finish ?",
+   "end",
+   [
+    "start",
+    "open",
+    "go"
+   ],
+   "Finish and end both mean to be done."
+  ],
+  [
+   "Which word means the same as pretty ?",
+   "lovely",
+   [
+    "ugly",
+    "loud",
+    "wet"
+   ],
+   "Pretty and lovely both mean nice to look at."
+  ],
+  [
+   "Which word means the same as sick ?",
+   "ill",
+   [
+    "well",
+    "tall",
+    "fast"
+   ],
+   "Sick and ill both mean not feeling well."
+  ],
+  [
+   "Which word means the same as rock ?",
+   "stone",
+   [
+    "stick",
+    "leaf",
+    "sand"
+   ],
+   "A rock and a stone are the same thing."
+  ],
+  [
+   "Which word means the same as mad ?",
+   "angry",
+   [
+    "happy",
+    "sleepy",
+    "kind"
+   ],
+   "Mad and angry both mean upset."
+  ],
+  [
+   "Which word means the same as cold ?",
+   "chilly",
+   [
+    "hot",
+    "sunny",
+    "dry"
+   ],
+   "Cold and chilly both mean not warm."
+  ],
+  [
+   "Which word means the same as toss ?",
+   "throw",
+   [
+    "catch",
+    "kick",
+    "hold"
+   ],
+   "Toss and throw both mean to send something through the air."
+  ],
+  [
+   "Which word means the same as sleep ?",
+   "nap",
+   [
+    "wake",
+    "run",
+    "play"
+   ],
+   "To nap is to sleep for a short time."
+  ],
+  [
+   "Which word means the same as kid ?",
+   "child",
+   [
+    "adult",
+    "pet",
+    "toy"
+   ],
+   "A kid and a child are both young people."
+  ],
+  [
+   "Which word means the same as fix ?",
+   "repair",
+   [
+    "break",
+    "drop",
+    "lose"
+   ],
+   "Fix and repair both mean to make something work again."
+  ],
+  [
+   "Which word means the same as scared ?",
+   "afraid",
+   [
+    "brave",
+    "happy",
+    "bored"
+   ],
+   "Scared and afraid both mean full of fear."
+  ],
+  [
+   "Which word means the same as right ?",
+   "correct",
+   [
+    "wrong",
+    "left",
+    "late"
+   ],
+   "A right answer is a correct answer."
+  ]
+ ],
+ "engXMmPc": [
+  [
+   "Which picture matches the underlined word? The baby <strong>bat</strong> hung upside down in the cave.",
+   "🦇",
+   [
+    "🏏",
+    "⚾",
+    "🧢"
+   ],
+   "A bat that hangs in a cave is the flying animal."
+  ],
+  [
+   "Which picture matches the underlined word? I like to <strong>watch</strong> the birds at the feeder.",
+   "👀",
+   [
+    "⌚",
+    "🕰️",
+    "⏰"
+   ],
+   "To watch birds means to look at them with your eyes."
+  ],
+  [
+   "Which picture matches the underlined word? We sat on the <strong>bank</strong> of the river.",
+   "🏞️",
+   [
+    "🏦",
+    "💰",
+    "🐷"
+   ],
+   "The bank of a river is the land beside the water."
+  ],
+  [
+   "Which picture matches the underlined word? Mom put money in the <strong>bank</strong>.",
+   "🏦",
+   [
+    "🏞️",
+    "🌊",
+    "🐟"
+   ],
+   "A bank that holds money is a building."
+  ],
+  [
+   "Which picture matches the underlined word? The <strong>ring</strong> on her finger is gold.",
+   "💍",
+   [
+    "🔔",
+    "📞",
+    "⭕"
+   ],
+   "A ring you wear on your finger is jewellery."
+  ],
+  [
+   "Which picture matches the underlined word? I hear the phone <strong>ring</strong>.",
+   "📞",
+   [
+    "💍",
+    "👂",
+    "🎤"
+   ],
+   "A phone rings when it makes a sound."
+  ],
+  [
+   "Which picture matches the underlined word? The <strong>fly</strong> buzzed around the room.",
+   "🪰",
+   [
+    "✈️",
+    "🐦",
+    "🪁"
+   ],
+   "A fly that buzzes is a small insect."
+  ],
+  [
+   "Which picture matches the underlined word? I wrote with a <strong>pen</strong>.",
+   "🖊️",
+   [
+    "🐖",
+    "🐑",
+    "🏠"
+   ],
+   "A pen you write with is a writing tool."
+  ],
+  [
+   "Which picture matches the underlined word? The pigs live in a <strong>pen</strong> on the farm.",
+   "🐖",
+   [
+    "🖊️",
+    "✏️",
+    "📝"
+   ],
+   "A pen on a farm is a fenced place for animals."
+  ],
+  [
+   "Which picture matches the underlined word? Please <strong>wave</strong> goodbye to Grandma.",
+   "👋",
+   [
+    "🌊",
+    "🏄",
+    "🐚"
+   ],
+   "To wave goodbye means to move your hand."
+  ],
+  [
+   "Which picture matches the underlined word? A big <strong>wave</strong> splashed the beach.",
+   "🌊",
+   [
+    "👋",
+    "✋",
+    "👏"
+   ],
+   "A wave that splashes is moving water."
+  ],
+  [
+   "Which picture matches the underlined word? The <strong>star</strong> twinkled in the night sky.",
+   "⭐",
+   [
+    "🎤",
+    "🎬",
+    "🏆"
+   ],
+   "A star in the sky shines at night."
+  ],
+  [
+   "Which picture matches the underlined word? Dad put a pretty <strong>bow</strong> on the gift.",
+   "🎀",
+   [
+    "🏹",
+    "🙇",
+    "🎯"
+   ],
+   "A bow on a gift is a ribbon tied in loops."
+  ],
+  [
+   "Which picture matches the underlined word? The archer pulled back her <strong>bow</strong>.",
+   "🏹",
+   [
+    "🎀",
+    "🎁",
+    "🙇"
+   ],
+   "An archer uses a bow to shoot arrows."
+  ],
+  [
+   "Which picture matches the underlined word? I ate a piece of <strong>toast</strong> for breakfast.",
+   "🍞",
+   [
+    "🥂",
+    "🎉",
+    "🍷"
+   ],
+   "Toast you eat is bread that has been browned."
+  ],
+  [
+   "Which picture matches the underlined word? The baseball <strong>pitcher</strong> threw the ball.",
+   "⚾",
+   [
+    "🫖",
+    "🥛",
+    "🧃"
+   ],
+   "A baseball pitcher is the player who throws the ball."
+  ],
+  [
+   "Which picture matches the underlined word? Pour the milk from the <strong>pitcher</strong>.",
+   "🫖",
+   [
+    "⚾",
+    "🧤",
+    "🏟️"
+   ],
+   "A pitcher you pour from is a jug."
+  ],
+  [
+   "Which picture matches the underlined word? The <strong>seal</strong> swam in the cold sea.",
+   "🦭",
+   [
+    "✉️",
+    "🔒",
+    "📦"
+   ],
+   "A seal that swims is a sea animal."
+  ],
+  [
+   "Which picture matches the underlined word? The <strong>trunk</strong> of the tree is wide.",
+   "🌳",
+   [
+    "🐘",
+    "🧳",
+    "🚗"
+   ],
+   "A tree trunk is the thick main stem of a tree."
+  ],
+  [
+   "Which picture matches the underlined word? The elephant lifted water with its <strong>trunk</strong>.",
+   "🐘",
+   [
+    "🌳",
+    "🧳",
+    "🪵"
+   ],
+   "An elephant's trunk is its long nose."
+  ],
+  [
+   "Which picture matches the underlined word? We planted a <strong>rose</strong> in the garden.",
+   "🌹",
+   [
+    "🌅",
+    "🎈",
+    "🚀"
+   ],
+   "A rose in a garden is a flower."
+  ],
+  [
+   "Which picture matches the underlined word? The <strong>key</strong> opens the front door.",
+   "🔑",
+   [
+    "🎹",
+    "🗺️",
+    "🎵"
+   ],
+   "A key that opens a door is a small metal tool."
+  ]
+ ],
+ "engXTell": [
+  [
+   "Which one is an asking sentence?",
+   "Can we go to the park?",
+   [
+    "We go to the park.",
+    "The park is big.",
+    "I like the park."
+   ],
+   "An asking sentence asks something and ends with a question mark."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "The cat is black.",
+   [
+    "Is the cat black?",
+    "Do you have a cat?",
+    "Where is the cat?"
+   ],
+   "A telling sentence tells something and ends with a period."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "Is it raining?",
+   [
+    "It is raining.",
+    "The rain is wet.",
+    "I see rain."
+   ],
+   "Is it raining? asks a question and ends with a question mark."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "I have a red ball.",
+   [
+    "Do you have a ball?",
+    "Is the ball red?",
+    "Where is my ball?"
+   ],
+   "I have a red ball tells something and ends with a period."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "Where is my shoe?",
+   [
+    "My shoe is blue.",
+    "I lost my shoe.",
+    "The shoe is here."
+   ],
+   "Where is my shoe? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "We play in the snow.",
+   [
+    "Can we play in the snow?",
+    "Is the snow cold?",
+    "Do you like snow?"
+   ],
+   "We play in the snow tells something."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "Do you want milk?",
+   [
+    "I want milk.",
+    "Milk is white.",
+    "The milk is cold."
+   ],
+   "Do you want milk? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "The bus is yellow.",
+   [
+    "Is the bus here?",
+    "Can I ride the bus?",
+    "Where is the bus?"
+   ],
+   "The bus is yellow tells something."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "Who is your friend?",
+   [
+    "My friend is Sam.",
+    "Sam is nice.",
+    "I play with Sam."
+   ],
+   "Who is your friend? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "My mom reads to me.",
+   [
+    "Does your mom read?",
+    "Can you read to me?",
+    "What do you read?"
+   ],
+   "My mom reads to me tells something."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "Can you hop on one foot?",
+   [
+    "I can hop on one foot.",
+    "He hops on one foot.",
+    "Hop on one foot."
+   ],
+   "Can you hop on one foot? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "The fish swims fast.",
+   [
+    "Can the fish swim?",
+    "Is the fish fast?",
+    "Where does the fish swim?"
+   ],
+   "The fish swims fast tells something."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "What is in the bag?",
+   [
+    "A toy is in the bag.",
+    "The bag is big.",
+    "I have a bag."
+   ],
+   "What is in the bag? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "I like to paint.",
+   [
+    "Do you like to paint?",
+    "Can I paint?",
+    "What can I paint?"
+   ],
+   "I like to paint tells something."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "Are you hungry?",
+   [
+    "I am hungry.",
+    "We eat lunch.",
+    "Lunch is good."
+   ],
+   "Are you hungry? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "The sun is hot.",
+   [
+    "Is the sun hot?",
+    "Where is the sun?",
+    "Can you see the sun?"
+   ],
+   "The sun is hot tells something."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "When is snack time?",
+   [
+    "Snack time is now.",
+    "I eat a snack.",
+    "The snack is good."
+   ],
+   "When is snack time? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "Dad bakes bread.",
+   [
+    "Does Dad bake bread?",
+    "Can Dad bake?",
+    "Who bakes bread?"
+   ],
+   "Dad bakes bread tells something."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "Is the dog sleeping?",
+   [
+    "The dog is sleeping.",
+    "The dog sleeps a lot.",
+    "My dog is brown."
+   ],
+   "Is the dog sleeping? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "We sing a song.",
+   [
+    "Can we sing a song?",
+    "Do you sing?",
+    "What song is it?"
+   ],
+   "We sing a song tells something."
+  ],
+  [
+   "Which one is an asking sentence?",
+   "May I have a turn?",
+   [
+    "I have a turn.",
+    "It is my turn.",
+    "You have a turn."
+   ],
+   "May I have a turn? asks a question."
+  ],
+  [
+   "Which one is a telling sentence?",
+   "The frog is green.",
+   [
+    "Is the frog green?",
+    "Where is the frog?",
+    "Can the frog jump?"
+   ],
+   "The frog is green tells something."
+  ]
+ ],
+ "engPUN": [
+  [
+   "Which end mark goes at the end? Do you like pizza",
+   "Question mark ?",
+   [
+    "Period .",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence asks something, so it ends with a question mark."
+  ],
+  [
+   "Which end mark goes at the end? I have a little sister",
+   "Period .",
+   [
+    "Question mark ?",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence tells something, so it ends with a period."
+  ],
+  [
+   "Which end mark goes at the end? Wow, look at that rainbow",
+   "Exclamation mark !",
+   [
+    "Period .",
+    "Question mark ?",
+    "Comma ,"
+   ],
+   "This sentence shows strong feeling, so it ends with an exclamation mark."
+  ],
+  [
+   "Which end mark goes at the end? The cat sleeps on the mat",
+   "Period .",
+   [
+    "Question mark ?",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence tells something, so it ends with a period."
+  ],
+  [
+   "Which end mark goes at the end? Can I play with you",
+   "Question mark ?",
+   [
+    "Period .",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence asks something, so it ends with a question mark."
+  ],
+  [
+   "Which end mark goes at the end? Watch out, the stove is hot",
+   "Exclamation mark !",
+   [
+    "Period .",
+    "Question mark ?",
+    "Comma ,"
+   ],
+   "This is a strong warning, so it ends with an exclamation mark."
+  ],
+  [
+   "Which end mark goes at the end? We go to school on the bus",
+   "Period .",
+   [
+    "Question mark ?",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence tells something, so it ends with a period."
+  ],
+  [
+   "Which end mark goes at the end? Who is at the door",
+   "Question mark ?",
+   [
+    "Period .",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence asks something, so it ends with a question mark."
+  ],
+  [
+   "Which end mark goes at the end? Hooray, we won the game",
+   "Exclamation mark !",
+   [
+    "Period .",
+    "Question mark ?",
+    "Comma ,"
+   ],
+   "This sentence shows excitement, so it ends with an exclamation mark."
+  ],
+  [
+   "Which end mark goes at the end? My coat is red",
+   "Period .",
+   [
+    "Question mark ?",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence tells something, so it ends with a period."
+  ],
+  [
+   "Which end mark goes at the end? Is it time for lunch",
+   "Question mark ?",
+   [
+    "Period .",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence asks something, so it ends with a question mark."
+  ],
+  [
+   "Which end mark goes at the end? Ouch, I bumped my knee",
+   "Exclamation mark !",
+   [
+    "Period .",
+    "Question mark ?",
+    "Comma ,"
+   ],
+   "This sentence shows a sudden feeling, so it ends with an exclamation mark."
+  ],
+  [
+   "Which end mark goes at the end? Grandma lives in Halifax",
+   "Period .",
+   [
+    "Question mark ?",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence tells something, so it ends with a period."
+  ],
+  [
+   "Which end mark goes at the end? How old is your brother",
+   "Question mark ?",
+   [
+    "Period .",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence asks something, so it ends with a question mark."
+  ],
+  [
+   "Which end mark goes at the end? Yay, it is snowing",
+   "Exclamation mark !",
+   [
+    "Period .",
+    "Question mark ?",
+    "Comma ,"
+   ],
+   "This sentence shows excitement, so it ends with an exclamation mark."
+  ],
+  [
+   "Which end mark goes at the end? The bird sings in the tree",
+   "Period .",
+   [
+    "Question mark ?",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence tells something, so it ends with a period."
+  ],
+  [
+   "Which end mark goes at the end? Where did you put the ball",
+   "Question mark ?",
+   [
+    "Period .",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence asks something, so it ends with a question mark."
+  ],
+  [
+   "Which end mark goes at the end? Stop, the light is red",
+   "Exclamation mark !",
+   [
+    "Period .",
+    "Question mark ?",
+    "Comma ,"
+   ],
+   "This is a strong command, so it ends with an exclamation mark."
+  ],
+  [
+   "Which end mark goes at the end? I ate an apple at snack time",
+   "Period .",
+   [
+    "Question mark ?",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence tells something, so it ends with a period."
+  ],
+  [
+   "Which end mark goes at the end? Are we there yet",
+   "Question mark ?",
+   [
+    "Period .",
+    "Exclamation mark !",
+    "Comma ,"
+   ],
+   "This sentence asks something, so it ends with a question mark."
+  ],
+  [
+   "Which sentence has the right end mark?",
+   "Do you have a pet?",
+   [
+    "Do you have a pet.",
+    "Do you have a pet!",
+    "Do you have a pet,"
+   ],
+   "This sentence asks something, so it needs a question mark."
+  ],
+  [
+   "Which sentence has the right end mark?",
+   "The dog is brown.",
+   [
+    "The dog is brown?",
+    "The dog is brown,",
+    "The dog brown?"
+   ],
+   "This sentence tells something, so it needs a period."
+  ]
+ ],
+ "engXAvImg": [
+  [
+   "🏃 Look at the picture. Which word is an action word?",
+   "run",
+   [
+    "fast",
+    "shoe",
+    "red"
+   ],
+   "Run is something you do, so it is an action."
+  ],
+  [
+   "🏊 Look at the picture. Which word is an action word?",
+   "swim",
+   [
+    "pool",
+    "wet",
+    "blue"
+   ],
+   "Swim is something you do, so it is an action."
+  ],
+  [
+   "🍽️ Look at the picture. Which word is an action word?",
+   "eat",
+   [
+    "plate",
+    "hot",
+    "yummy"
+   ],
+   "Eat is something you do, so it is an action."
+  ],
+  [
+   "🎤 Look at the picture. Which word is an action word?",
+   "sing",
+   [
+    "loud",
+    "song",
+    "girl"
+   ],
+   "Sing is something you do, so it is an action."
+  ],
+  [
+   "📖 Look at the picture. Which word is an action word?",
+   "read",
+   [
+    "book",
+    "page",
+    "big"
+   ],
+   "Read is something you do, so it is an action."
+  ],
+  [
+   "✍️ Look at the picture. Which word is an action word?",
+   "write",
+   [
+    "pen",
+    "paper",
+    "neat"
+   ],
+   "Write is something you do, so it is an action."
+  ],
+  [
+   "🧗 Look at the picture. Which word is an action word?",
+   "climb",
+   [
+    "rock",
+    "tall",
+    "rope"
+   ],
+   "Climb is something you do, so it is an action."
+  ],
+  [
+   "👏 Look at the picture. Which word is an action word?",
+   "clap",
+   [
+    "hand",
+    "loud",
+    "two"
+   ],
+   "Clap is something you do, so it is an action."
+  ],
+  [
+   "🚴 Look at the picture. Which word is an action word?",
+   "ride",
+   [
+    "bike",
+    "wheel",
+    "fast"
+   ],
+   "Ride is something you do, so it is an action."
+  ],
+  [
+   "🎨 Look at the picture. Which word is an action word?",
+   "paint",
+   [
+    "brush",
+    "colour",
+    "pretty"
+   ],
+   "Paint is something you do, so it is an action."
+  ],
+  [
+   "👋 Look at the picture. Which word is an action word?",
+   "wave",
+   [
+    "hand",
+    "hello",
+    "nice"
+   ],
+   "Wave is something you do, so it is an action."
+  ],
+  [
+   "🚶 Look at the picture. Which word is an action word?",
+   "walk",
+   [
+    "road",
+    "slow",
+    "boy"
+   ],
+   "Walk is something you do, so it is an action."
+  ],
+  [
+   "🍳 Look at the picture. Which word is an action word?",
+   "cook",
+   [
+    "pan",
+    "egg",
+    "hot"
+   ],
+   "Cook is something you do, so it is an action."
+  ],
+  [
+   "🧹 Look at the picture. Which word is an action word?",
+   "sweep",
+   [
+    "broom",
+    "dirty",
+    "floor"
+   ],
+   "Sweep is something you do, so it is an action."
+  ],
+  [
+   "⚽ Look at the picture. Which word is an action word?",
+   "kick",
+   [
+    "ball",
+    "round",
+    "grass"
+   ],
+   "Kick is something you do, so it is an action."
+  ],
+  [
+   "🤗 Look at the picture. Which word is an action word?",
+   "hug",
+   [
+    "mom",
+    "warm",
+    "kind"
+   ],
+   "Hug is something you do, so it is an action."
+  ],
+  [
+   "😭 Look at the picture. Which word is an action word?",
+   "cry",
+   [
+    "sad",
+    "tear",
+    "baby"
+   ],
+   "Cry is something you do, so it is an action."
+  ],
+  [
+   "🥁 Look at the picture. Which word is an action word?",
+   "drum",
+   [
+    "loud",
+    "stick",
+    "band"
+   ],
+   "Drum is something you do when you beat a drum, so it is an action."
+  ],
+  [
+   "🪁 Look at the picture. Which word is an action word?",
+   "fly",
+   [
+    "kite",
+    "sky",
+    "windy"
+   ],
+   "Fly is something you do with a kite, so it is an action."
+  ],
+  [
+   "🧽 Look at the picture. Which word is an action word?",
+   "wash",
+   [
+    "soap",
+    "clean",
+    "sink"
+   ],
+   "Wash is something you do, so it is an action."
+  ],
+  [
+   "😂 Look at the picture. Which word is an action word?",
+   "laugh",
+   [
+    "funny",
+    "joke",
+    "happy"
+   ],
+   "Laugh is something you do, so it is an action."
+  ],
+  [
+   "🛷 Look at the picture. Which word is an action word?",
+   "slide",
+   [
+    "snow",
+    "cold",
+    "hill"
+   ],
+   "Slide is something you do on a sled, so it is an action."
+  ]
+ ],
+ "engVbAc": [
+  [
+   "Which word is the action verb? The baby giggled at the puppy.",
+   "giggled",
+   [
+    "baby",
+    "puppy",
+    "at"
+   ],
+   "Giggled tells what the baby did."
+  ],
+  [
+   "Which word is the action verb? Maple leaves fall in October.",
+   "fall",
+   [
+    "leaves",
+    "Maple",
+    "October"
+   ],
+   "Fall tells what the leaves do."
+  ],
+  [
+   "Which word is the action verb? Nadia painted a picture of a moose.",
+   "painted",
+   [
+    "Nadia",
+    "picture",
+    "moose"
+   ],
+   "Painted tells what Nadia did."
+  ],
+  [
+   "Which word is the action verb? The players kicked the soccer ball.",
+   "kicked",
+   [
+    "players",
+    "soccer",
+    "ball"
+   ],
+   "Kicked tells what the players did."
+  ],
+  [
+   "Which word is the action verb? Grandpa builds birdhouses in his garage.",
+   "builds",
+   [
+    "Grandpa",
+    "birdhouses",
+    "garage"
+   ],
+   "Builds tells what Grandpa does."
+  ],
+  [
+   "Which word is the action verb? A beaver chewed through the log.",
+   "chewed",
+   [
+    "beaver",
+    "through",
+    "log"
+   ],
+   "Chewed tells what the beaver did."
+  ],
+  [
+   "Which word is the action verb? We planted carrots in the garden.",
+   "planted",
+   [
+    "carrots",
+    "garden",
+    "We"
+   ],
+   "Planted tells what we did."
+  ],
+  [
+   "Which word is the action verb? The wind howled all night.",
+   "howled",
+   [
+    "wind",
+    "all",
+    "night"
+   ],
+   "Howled tells what the wind did."
+  ],
+  [
+   "Which word is the action verb? Lucas carefully stacked the blocks.",
+   "stacked",
+   [
+    "carefully",
+    "Lucas",
+    "blocks"
+   ],
+   "Stacked tells what Lucas did."
+  ],
+  [
+   "Which word is the action verb? The chef stirs the soup slowly.",
+   "stirs",
+   [
+    "chef",
+    "soup",
+    "slowly"
+   ],
+   "Stirs tells what the chef does."
+  ],
+  [
+   "Which word is the action verb? Hockey fans cheered for their team.",
+   "cheered",
+   [
+    "Hockey",
+    "fans",
+    "team"
+   ],
+   "Cheered tells what the fans did."
+  ],
+  [
+   "Which word is the action verb? My sister whispered a secret to me.",
+   "whispered",
+   [
+    "sister",
+    "secret",
+    "me"
+   ],
+   "Whispered tells what my sister did."
+  ],
+  [
+   "Which word is the action verb? Salmon swim up the river each fall.",
+   "swim",
+   [
+    "Salmon",
+    "river",
+    "fall"
+   ],
+   "Swim tells what the salmon do."
+  ],
+  [
+   "Which word is the action verb? The students explored the forest trail.",
+   "explored",
+   [
+    "students",
+    "forest",
+    "trail"
+   ],
+   "Explored tells what the students did."
+  ],
+  [
+   "Which word is the action verb? Dad grilled corn for supper.",
+   "grilled",
+   [
+    "Dad",
+    "corn",
+    "supper"
+   ],
+   "Grilled tells what Dad did."
+  ],
+  [
+   "Which word is the action verb? The tired hikers rested under a pine tree.",
+   "rested",
+   [
+    "tired",
+    "hikers",
+    "pine"
+   ],
+   "Rested tells what the hikers did."
+  ],
+  [
+   "Which word is the action verb? Snow covers the rooftops in winter.",
+   "covers",
+   [
+    "Snow",
+    "rooftops",
+    "winter"
+   ],
+   "Covers tells what the snow does."
+  ],
+  [
+   "Which word is the action verb? The frog leaped into the pond.",
+   "leaped",
+   [
+    "frog",
+    "into",
+    "pond"
+   ],
+   "Leaped tells what the frog did."
+  ],
+  [
+   "Which word is the action verb? Ella quickly typed her story on the computer.",
+   "typed",
+   [
+    "quickly",
+    "story",
+    "computer"
+   ],
+   "Typed tells what Ella did."
+  ],
+  [
+   "Which word is the action verb? The geese honked loudly overhead.",
+   "honked",
+   [
+    "geese",
+    "loudly",
+    "overhead"
+   ],
+   "Honked tells what the geese did."
+  ],
+  [
+   "Which word is the action verb? Our class visited the science centre.",
+   "visited",
+   [
+    "class",
+    "science",
+    "centre"
+   ],
+   "Visited tells what our class did."
+  ],
+  [
+   "Which word is the action verb? The mechanic repaired the flat tire.",
+   "repaired",
+   [
+    "mechanic",
+    "flat",
+    "tire"
+   ],
+   "Repaired tells what the mechanic did."
+  ]
+ ],
+ "engXAvPc": [
+  [
+   "🏃 Mia ___ to the park.",
+   "runs",
+   [
+    "reads",
+    "sings",
+    "sleeps"
+   ],
+   "The picture shows running, so Mia runs."
+  ],
+  [
+   "🎤 Leo ___ a song.",
+   "sings",
+   [
+    "eats",
+    "swims",
+    "climbs"
+   ],
+   "The picture shows a microphone for singing, so Leo sings."
+  ],
+  [
+   "🍎 Sara ___ an apple.",
+   "eats",
+   [
+    "kicks",
+    "writes",
+    "throws"
+   ],
+   "You eat an apple, so Sara eats."
+  ],
+  [
+   "😴 The tired puppy ___ on the rug.",
+   "sleeps",
+   [
+    "jumps",
+    "dances",
+    "paints"
+   ],
+   "The picture shows sleeping, so the baby sleeps."
+  ],
+  [
+   "⚽ Omar ___ the ball.",
+   "kicks",
+   [
+    "reads",
+    "eats",
+    "sings"
+   ],
+   "The picture shows a soccer ball, which you kick."
+  ],
+  [
+   "🎨 Zoe ___ a picture.",
+   "paints",
+   [
+    "swims",
+    "eats",
+    "runs"
+   ],
+   "The picture shows paint, so Zoe paints."
+  ],
+  [
+   "🧗 Dad ___ the wall.",
+   "climbs",
+   [
+    "sings",
+    "reads",
+    "eats"
+   ],
+   "The picture shows climbing, so Dad climbs."
+  ],
+  [
+   "💃 Lily ___ to the music.",
+   "dances",
+   [
+    "sleeps",
+    "writes",
+    "eats"
+   ],
+   "The picture shows dancing, so Lily dances."
+  ],
+  [
+   "🚴 Ben ___ his bike.",
+   "rides",
+   [
+    "reads",
+    "eats",
+    "sings"
+   ],
+   "You ride a bike, so Ben rides."
+  ],
+  [
+   "👋 Grandma ___ hello.",
+   "waves",
+   [
+    "swims",
+    "kicks",
+    "climbs"
+   ],
+   "The picture shows a waving hand, so Grandma waves."
+  ],
+  [
+   "🍳 Mom ___ eggs.",
+   "cooks",
+   [
+    "throws",
+    "reads",
+    "kicks"
+   ],
+   "The picture shows a pan for cooking, so Mom cooks."
+  ],
+  [
+   "🐕 The dog ___ at the cat.",
+   "barks",
+   [
+    "sings",
+    "reads",
+    "paints"
+   ],
+   "Dogs bark, so the dog barks."
+  ],
+  [
+   "🧹 Sam ___ the floor.",
+   "sweeps",
+   [
+    "eats",
+    "sings",
+    "rides"
+   ],
+   "The picture shows a broom, so Sam sweeps."
+  ],
+  [
+   "🛁 The girl ___ in the tub.",
+   "bathes",
+   [
+    "runs",
+    "climbs",
+    "writes"
+   ],
+   "The picture shows a bathtub, so the girl bathes."
+  ],
+  [
+   "🥁 Max ___ the drum.",
+   "bangs",
+   [
+    "reads",
+    "eats",
+    "sleeps"
+   ],
+   "You bang a drum to play it."
+  ],
+  [
+   "⚾ Ava ___ the ball to me.",
+   "throws",
+   [
+    "reads",
+    "sleeps",
+    "paints"
+   ],
+   "The picture shows a ball to throw, so Ava throws it."
+  ],
+  [
+   "🧽 Jon ___ the dishes.",
+   "washes",
+   [
+    "kicks",
+    "sings",
+    "rides"
+   ],
+   "The picture shows a sponge, so Jon washes."
+  ],
+  [
+   "🐸 The frog ___ over the log.",
+   "jumps",
+   [
+    "reads",
+    "writes",
+    "cooks"
+   ],
+   "Frogs jump, so the frog jumps."
+  ],
+  [
+   "🪁 Kim ___ a kite.",
+   "flies",
+   [
+    "eats",
+    "reads",
+    "sweeps"
+   ],
+   "You fly a kite, so Kim flies it."
+  ],
+  [
+   "😂 The kids ___ at the joke.",
+   "laugh",
+   [
+    "sleep",
+    "swim",
+    "cook"
+   ],
+   "The picture shows laughing, so the kids laugh."
+  ],
+  [
+   "🤗 Ella ___ her teddy bear.",
+   "hugs",
+   [
+    "kicks",
+    "throws",
+    "rides"
+   ],
+   "The picture shows a hug, so Ella hugs."
+  ],
+  [
+   "🦷 Noah ___ his teeth.",
+   "brushes",
+   [
+    "kicks",
+    "sings",
+    "climbs"
+   ],
+   "The picture shows a tooth, so Noah brushes his teeth."
+  ]
+ ],
+ "engXRhPo": [
+  [
+   "Complete the poem. I have a cat, It sleeps on a ___.",
+   "mat",
+   [
+    "bed",
+    "rug",
+    "chair"
+   ],
+   "Mat rhymes with cat."
+  ],
+  [
+   "Complete the poem. I see a frog, It sits on a ___.",
+   "log",
+   [
+    "rock",
+    "leaf",
+    "stick"
+   ],
+   "Log rhymes with frog."
+  ],
+  [
+   "Complete the poem. The big brown bear, Sat on a ___.",
+   "chair",
+   [
+    "bed",
+    "seat",
+    "box"
+   ],
+   "Chair rhymes with bear."
+  ],
+  [
+   "Complete the poem. I like to play, All through the ___.",
+   "day",
+   [
+    "night",
+    "week",
+    "time"
+   ],
+   "Day rhymes with play."
+  ],
+  [
+   "Complete the poem. My little dog, Ran in the ___.",
+   "fog",
+   [
+    "rain",
+    "park",
+    "snow"
+   ],
+   "Fog rhymes with dog."
+  ],
+  [
+   "Complete the poem. A bee in a tree, Is buzzing at ___.",
+   "me",
+   [
+    "you",
+    "him",
+    "us"
+   ],
+   "Me rhymes with bee and tree."
+  ],
+  [
+   "Complete the poem. The snow is white, It falls at ___.",
+   "night",
+   [
+    "noon",
+    "dawn",
+    "dusk"
+   ],
+   "Night rhymes with white."
+  ],
+  [
+   "Complete the poem. I have a boat, I watch it ___.",
+   "float",
+   [
+    "sink",
+    "go",
+    "sail"
+   ],
+   "Float rhymes with boat."
+  ],
+  [
+   "Complete the poem. A star so bright, Shines in the ___.",
+   "night",
+   [
+    "sky",
+    "dark",
+    "air"
+   ],
+   "Night rhymes with bright."
+  ],
+  [
+   "Complete the poem. The pig is pink, It likes to ___.",
+   "drink",
+   [
+    "eat",
+    "sleep",
+    "run"
+   ],
+   "Drink rhymes with pink."
+  ],
+  [
+   "Complete the poem. I see a mouse, Inside my ___.",
+   "house",
+   [
+    "room",
+    "home",
+    "shed"
+   ],
+   "House rhymes with mouse."
+  ],
+  [
+   "Complete the poem. The king had a ring, He liked to ___.",
+   "sing",
+   [
+    "dance",
+    "talk",
+    "read"
+   ],
+   "Sing rhymes with king and ring."
+  ],
+  [
+   "Complete the poem. A goat in a coat, Sat in a ___.",
+   "boat",
+   [
+    "car",
+    "box",
+    "tub"
+   ],
+   "Boat rhymes with goat and coat."
+  ],
+  [
+   "Complete the poem. The cake is sweet, It is fun to ___.",
+   "eat",
+   [
+    "bake",
+    "make",
+    "share"
+   ],
+   "Eat rhymes with sweet."
+  ],
+  [
+   "Complete the poem. I lost my shoe, It was bright ___.",
+   "blue",
+   [
+    "red",
+    "green",
+    "pink"
+   ],
+   "Blue rhymes with shoe."
+  ],
+  [
+   "Complete the poem. The rain is wet, It soaked my ___.",
+   "pet",
+   [
+    "dog",
+    "hat",
+    "cat"
+   ],
+   "Pet rhymes with wet."
+  ],
+  [
+   "Complete the poem. The tall green tree, Is home to a ___.",
+   "bee",
+   [
+    "bird",
+    "nest",
+    "fox"
+   ],
+   "Bee rhymes with tree."
+  ],
+  [
+   "Complete the poem. I ride my bike, Down the long ___.",
+   "hike",
+   [
+    "road",
+    "path",
+    "street"
+   ],
+   "Hike rhymes with bike."
+  ],
+  [
+   "Complete the poem. My kite flew high, Up in the ___.",
+   "sky",
+   [
+    "air",
+    "clouds",
+    "wind"
+   ],
+   "Sky rhymes with high."
+  ],
+  [
+   "Complete the poem. The fish can swim, I'll swim with ___.",
+   "him",
+   [
+    "her",
+    "you",
+    "them"
+   ],
+   "Him rhymes with swim."
+  ],
+  [
+   "Complete the poem. The moon is round, It makes no ___.",
+   "sound",
+   [
+    "noise",
+    "light",
+    "song"
+   ],
+   "Sound rhymes with round."
+  ],
+  [
+   "Complete the poem. I hear a bell, Ring loud and ___.",
+   "well",
+   [
+    "clear",
+    "long",
+    "high"
+   ],
+   "Well rhymes with bell."
+  ]
+ ],
+ "engXVteeea": [
+  [
+   "A Sweet Treat An original passage written for LearnAce Pete and Lee went to the beach. They sat on a seat by the sea. Lee had a peach. Pete had a sweet bean bun. A seagull came to eat their treat! They had to keep their food in a bag. Where did Pete and Lee go?",
+   "To the beach",
+   [
+    "To the farm",
+    "To the store",
+    "To the zoo"
+   ],
+   "The story says Pete and Lee went to the beach."
+  ],
+  [
+   "A Sweet Treat An original passage written for LearnAce Pete and Lee went to the beach. They sat on a seat by the sea. Lee had a peach. Pete had a sweet bean bun. A seagull came to eat their treat! They had to keep their food in a bag. What did Lee have?",
+   "A peach",
+   [
+    "A bean bun",
+    "A leaf",
+    "A pea"
+   ],
+   "The story says Lee had a peach."
+  ],
+  [
+   "A Sweet Treat An original passage written for LearnAce Pete and Lee went to the beach. They sat on a seat by the sea. Lee had a peach. Pete had a sweet bean bun. A seagull came to eat their treat! They had to keep their food in a bag. What came to eat their treat?",
+   "A seagull",
+   [
+    "A bee",
+    "A seal",
+    "A sheep"
+   ],
+   "The story says a seagull came to eat their treat."
+  ],
+  [
+   "A Sweet Treat An original passage written for LearnAce Pete and Lee went to the beach. They sat on a seat by the sea. Lee had a peach. Pete had a sweet bean bun. A seagull came to eat their treat! They had to keep their food in a bag. Where did they sit?",
+   "On a seat by the sea",
+   [
+    "On a tree",
+    "In a jeep",
+    "On a sheet"
+   ],
+   "The story says they sat on a seat by the sea."
+  ],
+  [
+   "A Sweet Treat An original passage written for LearnAce Pete and Lee went to the beach. They sat on a seat by the sea. Lee had a peach. Pete had a sweet bean bun. A seagull came to eat their treat! They had to keep their food in a bag. What did they do with their food at the end?",
+   "Kept it in a bag",
+   [
+    "Gave it to the seagull",
+    "Threw it in the sea",
+    "Ate it all fast"
+   ],
+   "The story says they had to keep their food in a bag."
+  ],
+  [
+   "The Green Tree An original passage written for LearnAce A big green tree grew by the stream. Three birds made a nest in it. Each day they would sing and tweet. When it was hot, a sheep would sleep in the shade under the tree's leaves. Where did the tree grow?",
+   "By the stream",
+   [
+    "By the street",
+    "In a field of wheat",
+    "On a peak"
+   ],
+   "The story says the tree grew by the stream."
+  ],
+  [
+   "The Green Tree An original passage written for LearnAce A big green tree grew by the stream. Three birds made a nest in it. Each day they would sing and tweet. When it was hot, a sheep would sleep in the shade under the tree's leaves. How many birds made a nest?",
+   "Three",
+   [
+    "Two",
+    "Four",
+    "One"
+   ],
+   "The story says three birds made a nest."
+  ],
+  [
+   "The Green Tree An original passage written for LearnAce A big green tree grew by the stream. Three birds made a nest in it. Each day they would sing and tweet. When it was hot, a sheep would sleep in the shade under the tree's leaves. What did the birds do each day?",
+   "Sing and tweet",
+   [
+    "Eat seeds",
+    "Sleep in the shade",
+    "Swim in the stream"
+   ],
+   "The story says the birds would sing and tweet each day."
+  ],
+  [
+   "The Green Tree An original passage written for LearnAce A big green tree grew by the stream. Three birds made a nest in it. Each day they would sing and tweet. When it was hot, a sheep would sleep in the shade under the tree's leaves. Who slept under the tree when it was hot?",
+   "A sheep",
+   [
+    "A seal",
+    "A bee",
+    "A deer"
+   ],
+   "The story says a sheep would sleep in the shade."
+  ],
+  [
+   "The Green Tree An original passage written for LearnAce A big green tree grew by the stream. Three birds made a nest in it. Each day they would sing and tweet. When it was hot, a sheep would sleep in the shade under the tree's leaves. What colour was the tree?",
+   "Green",
+   [
+    "Red",
+    "Yellow",
+    "Brown"
+   ],
+   "The story says it was a big green tree."
+  ],
+  [
+   "Clean Feet An original passage written for LearnAce Dean ran in the mud with bare feet. His feet were not clean! Mom said, \"Please clean your feet before you eat.\" Dean washed his feet in a pail of water. Then he ate a meal of beans and meat. Why were Dean's feet not clean?",
+   "He ran in the mud",
+   [
+    "He sat in the sea",
+    "He fell in the leaves",
+    "He played in the sand"
+   ],
+   "Dean's feet got dirty because he ran in the mud."
+  ],
+  [
+   "Clean Feet An original passage written for LearnAce Dean ran in the mud with bare feet. His feet were not clean! Mom said, \"Please clean your feet before you eat.\" Dean washed his feet in a pail of water. Then he ate a meal of beans and meat. What did Mom ask Dean to do?",
+   "Clean his feet",
+   [
+    "Go to sleep",
+    "Read a book",
+    "Feed the dog"
+   ],
+   "Mom said, \"Please clean your feet before you eat.\""
+  ],
+  [
+   "Clean Feet An original passage written for LearnAce Dean ran in the mud with bare feet. His feet were not clean! Mom said, \"Please clean your feet before you eat.\" Dean washed his feet in a pail of water. Then he ate a meal of beans and meat. When did Mom want his feet clean?",
+   "Before he ate",
+   [
+    "After he slept",
+    "Before he swam",
+    "After the meal"
+   ],
+   "Mom said to clean his feet before he eats."
+  ],
+  [
+   "Clean Feet An original passage written for LearnAce Dean ran in the mud with bare feet. His feet were not clean! Mom said, \"Please clean your feet before you eat.\" Dean washed his feet in a pail of water. Then he ate a meal of beans and meat. What did Dean eat?",
+   "Beans and meat",
+   [
+    "Peas and cheese",
+    "A peach and bread",
+    "Seeds and leaves"
+   ],
+   "The story says he ate a meal of beans and meat."
+  ],
+  [
+   "The Bee Team An original passage written for LearnAce Jean and Reed keep bees. The bees need a lot of flowers. Each week, Jean and Reed check on the bees. The bees make sweet honey. Jean and Reed sell the honey on their street. What do Jean and Reed keep?",
+   "Bees",
+   [
+    "Sheep",
+    "Seals",
+    "Geese"
+   ],
+   "The story says Jean and Reed keep bees."
+  ],
+  [
+   "The Bee Team An original passage written for LearnAce Jean and Reed keep bees. The bees need a lot of flowers. Each week, Jean and Reed check on the bees. The bees make sweet honey. Jean and Reed sell the honey on their street. What do the bees need?",
+   "A lot of flowers",
+   [
+    "A lot of meat",
+    "A deep sea",
+    "Green beans"
+   ],
+   "The story says the bees need a lot of flowers."
+  ],
+  [
+   "The Bee Team An original passage written for LearnAce Jean and Reed keep bees. The bees need a lot of flowers. Each week, Jean and Reed check on the bees. The bees make sweet honey. Jean and Reed sell the honey on their street. What do the bees make?",
+   "Sweet honey",
+   [
+    "Green tea",
+    "Cheese",
+    "Wheat bread"
+   ],
+   "The story says the bees make sweet honey."
+  ],
+  [
+   "The Bee Team An original passage written for LearnAce Jean and Reed keep bees. The bees need a lot of flowers. Each week, Jean and Reed check on the bees. The bees make sweet honey. Jean and Reed sell the honey on their street. Where do they sell the honey?",
+   "On their street",
+   [
+    "At the beach",
+    "By the sea",
+    "In a jeep"
+   ],
+   "The story says they sell the honey on their street."
+  ],
+  [
+   "Read the story. Neal sees a seal in the sea. The seal has a fish to eat. Neal waves, and the seal claps its feet. What does the seal have?",
+   "A fish",
+   [
+    "A leaf",
+    "A peach",
+    "A bean"
+   ],
+   "The story says the seal has a fish to eat."
+  ],
+  [
+   "Read the story. Lee feels weak and needs to sleep. She lies in bed with a sheet and reads. Soon she dreams of a sweet green field. What does Lee dream of?",
+   "A sweet green field",
+   [
+    "A deep sea",
+    "A tall tree",
+    "A big meal"
+   ],
+   "The story says she dreams of a sweet green field."
+  ],
+  [
+   "Read the story. Dee went to the beach. She dug a deep hole in the sand with a team of friends. Then the sea came in and filled the hole. What filled the hole?",
+   "The sea",
+   [
+    "The rain",
+    "Leaves",
+    "Beans"
+   ],
+   "The story says the sea came in and filled the hole."
+  ],
+  [
+   "Read the story. Steve and his team play soccer on a green field. Steve kicks the ball with his feet. It goes in the net! The team cheers. What does Steve kick the ball with?",
+   "His feet",
+   [
+    "His knees",
+    "His hands",
+    "His head"
+   ],
+   "The story says Steve kicks the ball with his feet."
+  ]
+ ],
+ "engXVtoaow": [
+  [
+   "Joan's Toast An original passage written for LearnAce Joan woke up and made toast. She put jam on the toast. Her goat poked his nose in the window. Joan gave the goat a bit of toast. The goat was so happy he rolled in the grass. What did Joan make?",
+   "Toast",
+   [
+    "Soap",
+    "Soup",
+    "Oats"
+   ],
+   "The story says Joan made toast."
+  ],
+  [
+   "Joan's Toast An original passage written for LearnAce Joan woke up and made toast. She put jam on the toast. Her goat poked his nose in the window. Joan gave the goat a bit of toast. The goat was so happy he rolled in the grass. What did Joan put on the toast?",
+   "Jam",
+   [
+    "Honey",
+    "Butter",
+    "Cheese"
+   ],
+   "The story says she put jam on the toast."
+  ],
+  [
+   "Joan's Toast An original passage written for LearnAce Joan woke up and made toast. She put jam on the toast. Her goat poked his nose in the window. Joan gave the goat a bit of toast. The goat was so happy he rolled in the grass. Who poked his nose in the window?",
+   "Her goat",
+   [
+    "Her dog",
+    "A crow",
+    "A toad"
+   ],
+   "The story says her goat poked his nose in the window."
+  ],
+  [
+   "Joan's Toast An original passage written for LearnAce Joan woke up and made toast. She put jam on the toast. Her goat poked his nose in the window. Joan gave the goat a bit of toast. The goat was so happy he rolled in the grass. What did the goat do when he was happy?",
+   "Rolled in the grass",
+   [
+    "Ran down the road",
+    "Jumped on a boat",
+    "Ate a bowl of oats"
+   ],
+   "The story says the goat rolled in the grass."
+  ],
+  [
+   "Joan's Toast An original passage written for LearnAce Joan woke up and made toast. She put jam on the toast. Her goat poked his nose in the window. Joan gave the goat a bit of toast. The goat was so happy he rolled in the grass. What did Joan give the goat?",
+   "A bit of toast",
+   [
+    "A bowl of milk",
+    "A coat",
+    "A bit of soap"
+   ],
+   "Joan gave the goat a bit of toast."
+  ],
+  [
+   "The Toad on the Road An original passage written for LearnAce A toad sat on the road. A crow flew low and said, \"You must go! A truck is coming.\" The toad hopped to the side. The truck went by slowly. The toad thanked the crow. Where did the toad sit?",
+   "On the road",
+   [
+    "In a boat",
+    "On a coat",
+    "In the snow"
+   ],
+   "The story says a toad sat on the road."
+  ],
+  [
+   "The Toad on the Road An original passage written for LearnAce A toad sat on the road. A crow flew low and said, \"You must go! A truck is coming.\" The toad hopped to the side. The truck went by slowly. The toad thanked the crow. Who warned the toad?",
+   "A crow",
+   [
+    "A goat",
+    "A dog",
+    "A fox"
+   ],
+   "The story says a crow flew low and warned the toad."
+  ],
+  [
+   "The Toad on the Road An original passage written for LearnAce A toad sat on the road. A crow flew low and said, \"You must go! A truck is coming.\" The toad hopped to the side. The truck went by slowly. The toad thanked the crow. What was coming down the road?",
+   "A truck",
+   [
+    "A boat",
+    "A bus",
+    "A bike"
+   ],
+   "The crow said a truck was coming."
+  ],
+  [
+   "The Toad on the Road An original passage written for LearnAce A toad sat on the road. A crow flew low and said, \"You must go! A truck is coming.\" The toad hopped to the side. The truck went by slowly. The toad thanked the crow. What did the toad do at the end?",
+   "Thanked the crow",
+   [
+    "Rode in the truck",
+    "Ate the crow",
+    "Went to sleep"
+   ],
+   "The story says the toad thanked the crow."
+  ],
+  [
+   "The Toad on the Road An original passage written for LearnAce A toad sat on the road. A crow flew low and said, \"You must go! A truck is coming.\" The toad hopped to the side. The truck went by slowly. The toad thanked the crow. How did the crow fly?",
+   "Low",
+   [
+    "Fast and high",
+    "Upside down",
+    "In a circle"
+   ],
+   "The story says the crow flew low."
+  ],
+  [
+   "Owen Grows Beans An original passage written for LearnAce Owen had a bowl of beans. He put the beans in the soil in a row. He gave them water each day. Soon the beans began to grow. Owen showed them to his mom with pride. What did Owen have in a bowl?",
+   "Beans",
+   [
+    "Oats",
+    "Soap",
+    "Toast"
+   ],
+   "The story says Owen had a bowl of beans."
+  ],
+  [
+   "Owen Grows Beans An original passage written for LearnAce Owen had a bowl of beans. He put the beans in the soil in a row. He gave them water each day. Soon the beans began to grow. Owen showed them to his mom with pride. How did Owen plant the beans?",
+   "In a row",
+   [
+    "In a boat",
+    "In the snow",
+    "In a coat"
+   ],
+   "The story says he put the beans in the soil in a row."
+  ],
+  [
+   "Owen Grows Beans An original passage written for LearnAce Owen had a bowl of beans. He put the beans in the soil in a row. He gave them water each day. Soon the beans began to grow. Owen showed them to his mom with pride. What did Owen give the beans each day?",
+   "Water",
+   [
+    "Milk",
+    "Toast",
+    "Snow"
+   ],
+   "The story says he gave them water each day."
+  ],
+  [
+   "Owen Grows Beans An original passage written for LearnAce Owen had a bowl of beans. He put the beans in the soil in a row. He gave them water each day. Soon the beans began to grow. Owen showed them to his mom with pride. Who did Owen show the beans to?",
+   "His mom",
+   [
+    "His goat",
+    "A crow",
+    "His teacher"
+   ],
+   "The story says he showed them to his mom."
+  ],
+  [
+   "Snow Day An original passage written for LearnAce It snowed all night. In the morning, Rowan put on his coat and his blue mittens. He and his dad made a snow fort. Then they had a bowl of hot oatmeal. When did it snow?",
+   "All night",
+   [
+    "All day",
+    "At noon",
+    "After lunch"
+   ],
+   "The story says it snowed all night."
+  ],
+  [
+   "Snow Day An original passage written for LearnAce It snowed all night. In the morning, Rowan put on his coat and his blue mittens. He and his dad made a snow fort. Then they had a bowl of hot oatmeal. What did Rowan and his dad make?",
+   "A snow fort",
+   [
+    "A snowman",
+    "A boat",
+    "A road"
+   ],
+   "The story says they made a snow fort."
+  ],
+  [
+   "Snow Day An original passage written for LearnAce It snowed all night. In the morning, Rowan put on his coat and his blue mittens. He and his dad made a snow fort. Then they had a bowl of hot oatmeal. What did they eat after?",
+   "A bowl of hot oatmeal",
+   [
+    "A bowl of soup",
+    "Toast with jam",
+    "A cold drink"
+   ],
+   "The story says they had a bowl of hot oatmeal."
+  ],
+  [
+   "Read the story. A yellow boat floats on the lake. A crow sits on the bow of the boat. The wind blows, and the boat goes slowly to the shore. What sits on the boat?",
+   "A crow",
+   [
+    "A goat",
+    "A toad",
+    "A cow"
+   ],
+   "The story says a crow sits on the boat."
+  ],
+  [
+   "Read the story. Joan has a bowl of soap and water. She blows bubbles that float in the air. One bubble lands on her nose and pops! Where did the bubble land?",
+   "On her nose",
+   [
+    "On her coat",
+    "On the road",
+    "In the bowl"
+   ],
+   "The story says one bubble lands on her nose."
+  ],
+  [
+   "Read the story. Moe the mole lives in a hole by an oak tree. When it rains, he stays low in his hole. When the sun shows, he comes out to eat. Where does Moe live?",
+   "In a hole by an oak tree",
+   [
+    "In a boat",
+    "Under the snow",
+    "In a goat pen"
+   ],
+   "The story says Moe lives in a hole by an oak tree."
+  ],
+  [
+   "Read the story. Rose has a toy boat. She takes it to the pond and lets it float. The wind blows, and the boat goes far. Rose rows a little raft to get it back. What does Rose have?",
+   "A toy boat",
+   [
+    "A toy goat",
+    "A new coat",
+    "A yellow bow"
+   ],
+   "The story says Rose has a toy boat."
+  ],
+  [
+   "Read the story. Mom made a big bowl of soap for the dog. Joe and Mom wash the dog. The dog shakes and gets soap all over Joe's coat! What got soap on it?",
+   "Joe's coat",
+   [
+    "Mom's hat",
+    "The road",
+    "The goat"
+   ],
+   "The story says the dog got soap all over Joe's coat."
+  ]
+ ],
+ "engXVtaiay": [
+  [
+   "Rain on the Train An original passage written for LearnAce Jay and his mom took a train. Rain fell on the window. Jay liked to play a game. He counted the drops of rain. At the end of the day, the train came to the main station. What did Jay and his mom ride?",
+   "A train",
+   [
+    "A plane",
+    "A boat",
+    "A bus"
+   ],
+   "The story says Jay and his mom took a train."
+  ],
+  [
+   "Rain on the Train An original passage written for LearnAce Jay and his mom took a train. Rain fell on the window. Jay liked to play a game. He counted the drops of rain. At the end of the day, the train came to the main station. What fell on the window?",
+   "Rain",
+   [
+    "Snow",
+    "Hail",
+    "Mail"
+   ],
+   "The story says rain fell on the window."
+  ],
+  [
+   "Rain on the Train An original passage written for LearnAce Jay and his mom took a train. Rain fell on the window. Jay liked to play a game. He counted the drops of rain. At the end of the day, the train came to the main station. What game did Jay play?",
+   "He counted the drops of rain",
+   [
+    "He painted a picture",
+    "He sailed a boat",
+    "He read a book"
+   ],
+   "The story says he counted the drops of rain."
+  ],
+  [
+   "Rain on the Train An original passage written for LearnAce Jay and his mom took a train. Rain fell on the window. Jay liked to play a game. He counted the drops of rain. At the end of the day, the train came to the main station. Where did the train stop?",
+   "At the main station",
+   [
+    "At a farm",
+    "By the bay",
+    "On a trail"
+   ],
+   "The story says the train came to the main station."
+  ],
+  [
+   "Mail for Gail An original passage written for LearnAce Gail waited all day for the mail. At last, the mail truck came. There was a box for Gail! In the box was a pail and a spade. \"Hooray!\" said Gail. \"Now I can play in the sand at the bay.\" What did Gail wait for?",
+   "The mail",
+   [
+    "The rain",
+    "A train",
+    "A snail"
+   ],
+   "The story says Gail waited all day for the mail."
+  ],
+  [
+   "Mail for Gail An original passage written for LearnAce Gail waited all day for the mail. At last, the mail truck came. There was a box for Gail! In the box was a pail and a spade. \"Hooray!\" said Gail. \"Now I can play in the sand at the bay.\" What was in the box?",
+   "A pail and a spade",
+   [
+    "A sail and a boat",
+    "A cake and a plate",
+    "Paint and a brush"
+   ],
+   "The story says a pail and a spade were in the box."
+  ],
+  [
+   "Mail for Gail An original passage written for LearnAce Gail waited all day for the mail. At last, the mail truck came. There was a box for Gail! In the box was a pail and a spade. \"Hooray!\" said Gail. \"Now I can play in the sand at the bay.\" What did Gail say when she saw the box?",
+   "Hooray!",
+   [
+    "Oh no!",
+    "Okay.",
+    "Go away!"
+   ],
+   "The story says Gail said, \"Hooray!\""
+  ],
+  [
+   "Mail for Gail An original passage written for LearnAce Gail waited all day for the mail. At last, the mail truck came. There was a box for Gail! In the box was a pail and a spade. \"Hooray!\" said Gail. \"Now I can play in the sand at the bay.\" Where will Gail play?",
+   "In the sand at the bay",
+   [
+    "In the rain",
+    "On the train",
+    "In the hay"
+   ],
+   "Gail says she can play in the sand at the bay."
+  ],
+  [
+   "Mail for Gail An original passage written for LearnAce Gail waited all day for the mail. At last, the mail truck came. There was a box for Gail! In the box was a pail and a spade. \"Hooray!\" said Gail. \"Now I can play in the sand at the bay.\" How long did Gail wait?",
+   "All day",
+   [
+    "One hour",
+    "All week",
+    "A minute"
+   ],
+   "The story says she waited all day."
+  ],
+  [
+   "Paint Day An original passage written for LearnAce Today is paint day at school. Ray paints a tail on his snail. May paints a sailboat on a blue bay. They let the paint dry. Then they take their paintings home to show their families. What does Ray paint?",
+   "A snail",
+   [
+    "A sailboat",
+    "A train",
+    "A whale"
+   ],
+   "The story says Ray paints a tail on his snail."
+  ],
+  [
+   "Paint Day An original passage written for LearnAce Today is paint day at school. Ray paints a tail on his snail. May paints a sailboat on a blue bay. They let the paint dry. Then they take their paintings home to show their families. What does May paint?",
+   "A sailboat",
+   [
+    "A snail",
+    "A rainbow",
+    "A daisy"
+   ],
+   "The story says May paints a sailboat on a blue bay."
+  ],
+  [
+   "Paint Day An original passage written for LearnAce Today is paint day at school. Ray paints a tail on his snail. May paints a sailboat on a blue bay. They let the paint dry. Then they take their paintings home to show their families. What do they let dry?",
+   "The paint",
+   [
+    "The rain",
+    "The clay",
+    "The hay"
+   ],
+   "The story says they let the paint dry."
+  ],
+  [
+   "Paint Day An original passage written for LearnAce Today is paint day at school. Ray paints a tail on his snail. May paints a sailboat on a blue bay. They let the paint dry. Then they take their paintings home to show their families. Where do they take their paintings?",
+   "Home",
+   [
+    "To the bay",
+    "To the train",
+    "To the farm"
+   ],
+   "The story says they take their paintings home."
+  ],
+  [
+   "The Lost Tail An original passage written for LearnAce A little grey mouse lost the bow on her tail. She looked on the trail. She looked in the hay. At last she found it by the gate. She tied it back on her tail and went to play. What did the mouse lose?",
+   "The bow on her tail",
+   [
+    "Her pail",
+    "Her train",
+    "Her mail"
+   ],
+   "The story says she lost the bow on her tail."
+  ],
+  [
+   "The Lost Tail An original passage written for LearnAce A little grey mouse lost the bow on her tail. She looked on the trail. She looked in the hay. At last she found it by the gate. She tied it back on her tail and went to play. Where did she look first?",
+   "On the trail",
+   [
+    "In the hay",
+    "By the gate",
+    "In the rain"
+   ],
+   "The story says she looked on the trail first."
+  ],
+  [
+   "The Lost Tail An original passage written for LearnAce A little grey mouse lost the bow on her tail. She looked on the trail. She looked in the hay. At last she found it by the gate. She tied it back on her tail and went to play. Where did she find it?",
+   "By the gate",
+   [
+    "In the hay",
+    "On the trail",
+    "In a pail"
+   ],
+   "The story says she found it by the gate."
+  ],
+  [
+   "The Lost Tail An original passage written for LearnAce A little grey mouse lost the bow on her tail. She looked on the trail. She looked in the hay. At last she found it by the gate. She tied it back on her tail and went to play. What did she do at the end?",
+   "Went to play",
+   [
+    "Went to sleep",
+    "Went home",
+    "Went on a train"
+   ],
+   "The story says she went to play."
+  ],
+  [
+   "Read the story. Kay has a pet snail named Pal. Pal is very slow. Each day, Kay gives Pal a leaf. Pal leaves a shiny trail on the plate. What is the name of the snail?",
+   "Pal",
+   [
+    "Kay",
+    "Ray",
+    "Gail"
+   ],
+   "The story says the snail is named Pal."
+  ],
+  [
+   "Read the story. It was a hot day in May. Jay sat in the shade and ate grapes on a tray. Then a cool rain came, and Jay ran to play in it. What month was it?",
+   "May",
+   [
+    "July",
+    "March",
+    "June"
+   ],
+   "The story says it was a hot day in May."
+  ],
+  [
+   "Read the story. Dale and his dad sail on the bay. They wait for the wind. When it comes, the sail fills up and the boat speeds away. What do Dale and his dad wait for?",
+   "The wind",
+   [
+    "The rain",
+    "The train",
+    "The mail"
+   ],
+   "The story says they wait for the wind."
+  ],
+  [
+   "Read the story. Fay made a cake for her mom. She put it on a plate and added a daisy on top. Mom said, \"What a great day!\" What did Fay put on top of the cake?",
+   "A daisy",
+   [
+    "A snail",
+    "A sail",
+    "Some hay"
+   ],
+   "The story says she added a daisy on top."
+  ],
+  [
+   "Read the story. A train goes down the track each day at nine. Ray waves to the man who drives it. Today the man waves back and blows the horn! What does the man do today?",
+   "Waves back and blows the horn",
+   [
+    "Stops the train",
+    "Gives Ray the mail",
+    "Gets off the train"
+   ],
+   "The story says the man waves back and blows the horn."
+  ]
+ ],
+ "engXVtSt": [
+  [
+   "The Lost Coat An original passage written for LearnAce Jo lost her blue coat. She looked in the closet and under her bed. She looked on the road. At last she saw it on a hook by the door. Jo was so happy she gave a big cheer. What did Jo lose?",
+   "Her blue coat",
+   [
+    "Her red hat",
+    "Her green boots",
+    "Her toy boat"
+   ],
+   "The story says Jo lost her blue coat."
+  ],
+  [
+   "The Lost Coat An original passage written for LearnAce Jo lost her blue coat. She looked in the closet and under her bed. She looked on the road. At last she saw it on a hook by the door. Jo was so happy she gave a big cheer. Where did Jo find the coat?",
+   "On a hook by the door",
+   [
+    "Under her bed",
+    "On the road",
+    "In the closet"
+   ],
+   "The story says she saw it on a hook by the door."
+  ],
+  [
+   "The Lost Coat An original passage written for LearnAce Jo lost her blue coat. She looked in the closet and under her bed. She looked on the road. At last she saw it on a hook by the door. Jo was so happy she gave a big cheer. How did Jo feel at the end?",
+   "Happy",
+   [
+    "Sad",
+    "Angry",
+    "Sleepy"
+   ],
+   "The story says Jo was so happy she gave a big cheer."
+  ],
+  [
+   "A Day at the Beach An original passage written for LearnAce Ray and Lee went to the beach. They played in the waves and made a sand castle. A seagull flew low and took Ray's peach! The boys laughed and shared a treat instead. Where did Ray and Lee go?",
+   "To the beach",
+   [
+    "To the park",
+    "To the store",
+    "To school"
+   ],
+   "The story says they went to the beach."
+  ],
+  [
+   "A Day at the Beach An original passage written for LearnAce Ray and Lee went to the beach. They played in the waves and made a sand castle. A seagull flew low and took Ray's peach! The boys laughed and shared a treat instead. What did they make?",
+   "A sand castle",
+   [
+    "A snowman",
+    "A boat",
+    "A kite"
+   ],
+   "The story says they made a sand castle."
+  ],
+  [
+   "A Day at the Beach An original passage written for LearnAce Ray and Lee went to the beach. They played in the waves and made a sand castle. A seagull flew low and took Ray's peach! The boys laughed and shared a treat instead. What did the seagull take?",
+   "Ray's peach",
+   [
+    "Lee's hat",
+    "Ray's pail",
+    "Lee's toast"
+   ],
+   "The story says a seagull took Ray's peach."
+  ],
+  [
+   "Snow and Toast An original passage written for LearnAce Snow fell on the road all night. In the morning, Owen ate hot toast with jam. Then he put on his coat and went out to throw snowballs with his friend Dee. What fell all night?",
+   "Snow",
+   [
+    "Rain",
+    "Leaves",
+    "Hail"
+   ],
+   "The story says snow fell on the road all night."
+  ],
+  [
+   "Snow and Toast An original passage written for LearnAce Snow fell on the road all night. In the morning, Owen ate hot toast with jam. Then he put on his coat and went out to throw snowballs with his friend Dee. What did Owen eat?",
+   "Hot toast with jam",
+   [
+    "A bowl of oats",
+    "A peach",
+    "Beans"
+   ],
+   "The story says Owen ate hot toast with jam."
+  ],
+  [
+   "Snow and Toast An original passage written for LearnAce Snow fell on the road all night. In the morning, Owen ate hot toast with jam. Then he put on his coat and went out to throw snowballs with his friend Dee. Who did Owen play with?",
+   "His friend Dee",
+   [
+    "His dog",
+    "His mom",
+    "A goat"
+   ],
+   "The story says he threw snowballs with his friend Dee."
+  ],
+  [
+   "The Seed An original passage written for LearnAce Kai planted a seed in a pail of soil. Each day he gave it water. He kept it in the sun. One day a green leaf came up. \"It is growing!\" Kai said with a smile. Where did Kai plant the seed?",
+   "In a pail of soil",
+   [
+    "In a bowl of water",
+    "By the sea",
+    "On the road"
+   ],
+   "The story says he planted it in a pail of soil."
+  ],
+  [
+   "The Seed An original passage written for LearnAce Kai planted a seed in a pail of soil. Each day he gave it water. He kept it in the sun. One day a green leaf came up. \"It is growing!\" Kai said with a smile. What did Kai give the seed each day?",
+   "Water",
+   [
+    "Milk",
+    "Toast",
+    "Paint"
+   ],
+   "The story says he gave it water each day."
+  ],
+  [
+   "The Seed An original passage written for LearnAce Kai planted a seed in a pail of soil. Each day he gave it water. He kept it in the sun. One day a green leaf came up. \"It is growing!\" Kai said with a smile. What came up one day?",
+   "A green leaf",
+   [
+    "A red flower",
+    "A tall tree",
+    "A snail"
+   ],
+   "The story says a green leaf came up."
+  ],
+  [
+   "The Seed An original passage written for LearnAce Kai planted a seed in a pail of soil. Each day he gave it water. He kept it in the sun. One day a green leaf came up. \"It is growing!\" Kai said with a smile. How did Kai feel?",
+   "Happy",
+   [
+    "Sad",
+    "Mad",
+    "Scared"
+   ],
+   "Kai said \"It is growing!\" with a smile, so he was happy."
+  ],
+  [
+   "The Goat and the Bee An original passage written for LearnAce A goat ate grass by a tree. A bee flew near his nose. The goat did not move. The bee went to a flower to eat. Then the goat lay down to sleep in the shade. What did the goat eat?",
+   "Grass",
+   [
+    "Toast",
+    "Leaves",
+    "Hay"
+   ],
+   "The story says the goat ate grass."
+  ],
+  [
+   "The Goat and the Bee An original passage written for LearnAce A goat ate grass by a tree. A bee flew near his nose. The goat did not move. The bee went to a flower to eat. Then the goat lay down to sleep in the shade. Where did the bee go?",
+   "To a flower",
+   [
+    "To the sea",
+    "To a boat",
+    "To the road"
+   ],
+   "The story says the bee went to a flower to eat."
+  ],
+  [
+   "The Goat and the Bee An original passage written for LearnAce A goat ate grass by a tree. A bee flew near his nose. The goat did not move. The bee went to a flower to eat. Then the goat lay down to sleep in the shade. What did the goat do at the end?",
+   "Lay down to sleep",
+   [
+    "Ran away",
+    "Ate the bee",
+    "Swam in the sea"
+   ],
+   "The story says the goat lay down to sleep in the shade."
+  ],
+  [
+   "Rain Day An original passage written for LearnAce It was a grey day with lots of rain. Jean and Gail stayed inside. They made a paper boat and let it float in a bowl of water. Then they had a snack of green peas. What was the weather?",
+   "Rainy",
+   [
+    "Sunny",
+    "Snowy",
+    "Windy"
+   ],
+   "The story says it was a grey day with lots of rain."
+  ],
+  [
+   "Rain Day An original passage written for LearnAce It was a grey day with lots of rain. Jean and Gail stayed inside. They made a paper boat and let it float in a bowl of water. Then they had a snack of green peas. What did Jean and Gail make?",
+   "A paper boat",
+   [
+    "A kite",
+    "A cake",
+    "A snowman"
+   ],
+   "The story says they made a paper boat."
+  ],
+  [
+   "Rain Day An original passage written for LearnAce It was a grey day with lots of rain. Jean and Gail stayed inside. They made a paper boat and let it float in a bowl of water. Then they had a snack of green peas. Where did the boat float?",
+   "In a bowl of water",
+   [
+    "In the sea",
+    "In the rain",
+    "In a pail of sand"
+   ],
+   "The story says they let it float in a bowl of water."
+  ],
+  [
+   "Read the story. A crow sat on a branch in the rain. It was wet and cold. Then the sun came out. The crow dried its wings and flew away to its nest. What did the crow do when the sun came out?",
+   "Dried its wings",
+   [
+    "Took a bath",
+    "Ate a seed",
+    "Went to sleep"
+   ],
+   "The story says the crow dried its wings when the sun came out."
+  ],
+  [
+   "Read the story. Mai and her dad went on a hike on a long trail. They saw a deer eat leaves by a stream. Mai kept very still so she would not scare it. What did the deer eat?",
+   "Leaves",
+   [
+    "Seeds",
+    "Toast",
+    "Hay"
+   ],
+   "The story says they saw a deer eat leaves."
+  ],
+  [
+   "Read the story. Mai and her dad went on a hike on a long trail. They saw a deer eat leaves by a stream. Mai kept very still so she would not scare it. Why did Mai keep still?",
+   "So she would not scare the deer",
+   [
+    "Because she was tired",
+    "So she could sleep",
+    "Because it was raining"
+   ],
+   "The story says Mai kept still so she would not scare the deer."
+  ]
+ ],
+ "engDpMt": [
+  [
+   "🐭 Which word names the picture?",
+   "mouse",
+   [
+    "coin",
+    "owl",
+    "boy"
+   ],
+   "The picture shows a mouse."
+  ],
+  [
+   "🏠 Which word names the picture?",
+   "house",
+   [
+    "toy",
+    "cow",
+    "oil"
+   ],
+   "The picture shows a house."
+  ],
+  [
+   "👄 Which word names the picture?",
+   "mouth",
+   [
+    "boil",
+    "crown",
+    "soil"
+   ],
+   "The picture shows a mouth."
+  ],
+  [
+   "🪙 Which word names the picture?",
+   "coin",
+   [
+    "cloud",
+    "owl",
+    "house"
+   ],
+   "The picture shows a coin."
+  ],
+  [
+   "🧸 Which word names the picture?",
+   "toy",
+   [
+    "town",
+    "mouse",
+    "coin"
+   ],
+   "The picture shows a toy."
+  ],
+  [
+   "🦉 Which word names the picture?",
+   "owl",
+   [
+    "boy",
+    "mouth",
+    "oil"
+   ],
+   "The picture shows an owl."
+  ],
+  [
+   "👑 Which word names the picture?",
+   "crown",
+   [
+    "coin",
+    "joy",
+    "house"
+   ],
+   "The picture shows a crown."
+  ],
+  [
+   "☁️ Which word names the picture?",
+   "cloud",
+   [
+    "toy",
+    "cow",
+    "boil"
+   ],
+   "The picture shows a cloud."
+  ],
+  [
+   "🛢️ Which word names the picture?",
+   "oil",
+   [
+    "owl",
+    "mouse",
+    "crown"
+   ],
+   "The picture shows a barrel of oil."
+  ],
+  [
+   "🪴 Which word names the picture?",
+   "soil",
+   [
+    "cloud",
+    "boy",
+    "toy"
+   ],
+   "The picture shows a plant in a pot of soil."
+  ],
+  [
+   "🚿 Which word names the picture?",
+   "shower",
+   [
+    "coin",
+    "toy",
+    "mouth"
+   ],
+   "The picture shows a shower."
+  ],
+  [
+   "🏙️ Which word names the picture?",
+   "town",
+   [
+    "boil",
+    "oyster",
+    "cloud"
+   ],
+   "The picture shows a town."
+  ],
+  [
+   "🦪 Which word names the picture?",
+   "oyster",
+   [
+    "owl",
+    "house",
+    "crown"
+   ],
+   "The picture shows an oyster."
+  ],
+  [
+   "🛋️ Which word names the picture?",
+   "couch",
+   [
+    "coin",
+    "toy",
+    "cow"
+   ],
+   "The picture shows a couch."
+  ],
+  [
+   "🗼 Which word names the picture?",
+   "tower",
+   [
+    "boy",
+    "oil",
+    "mouse"
+   ],
+   "The picture shows a tower."
+  ],
+  [
+   "🤡 Which word names the picture?",
+   "clown",
+   [
+    "joy",
+    "coin",
+    "house"
+   ],
+   "The picture shows a clown."
+  ],
+  [
+   "🔢 Which word means to say numbers in order, like 1, 2, 3?",
+   "count",
+   [
+    "boil",
+    "flower",
+    "toy"
+   ],
+   "To count is to say numbers in order; it has the ou sound."
+  ],
+  [
+   "🐶 Which word names the picture?",
+   "hound",
+   [
+    "toy",
+    "crown",
+    "soil"
+   ],
+   "The picture shows a hound."
+  ],
+  [
+   "🤕 Which word names the picture?",
+   "ouch",
+   [
+    "boy",
+    "cow",
+    "coin"
+   ],
+   "Ouch is what you say when something hurts."
+  ],
+  [
+   "👖 Which word names the picture?",
+   "trousers",
+   [
+    "toys",
+    "clouds",
+    "coins"
+   ],
+   "The picture shows trousers."
+  ],
+  [
+   "😃 Which word names the picture?",
+   "joy",
+   [
+    "owl",
+    "cloud",
+    "house"
+   ],
+   "The happy face shows joy."
+  ],
+  [
+   "🐄🐄 Which word names the picture?",
+   "cows",
+   [
+    "boys",
+    "coins",
+    "clouds"
+   ],
+   "The picture shows cows."
+  ]
+ ],
+ "engXTsSn": [
+  [
+   "Complete the sentence. A ___ hopped across the grass.",
+   "rabbit",
+   [
+    "pencil",
+    "window",
+    "basket"
+   ],
+   "\"Rabbit\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. We picked a big orange ___ from the patch.",
+   "pumpkin",
+   [
+    "zebra",
+    "button",
+    "spider"
+   ],
+   "\"Pumpkin\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. After the rain, I saw a ___ in the sky.",
+   "rainbow",
+   [
+    "pocket",
+    "kitten",
+    "garden"
+   ],
+   "\"Rainbow\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. I sewed a ___ on my coat.",
+   "button",
+   [
+    "tiger",
+    "rabbit",
+    "lemon"
+   ],
+   "\"Button\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. The ___ stuck to the fridge door.",
+   "magnet",
+   [
+    "sandwich",
+    "rocket",
+    "dragon"
+   ],
+   "\"Magnet\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. Look out the ___ to see the snow.",
+   "window",
+   [
+    "napkin",
+    "pumpkin",
+    "muffin"
+   ],
+   "\"Window\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. The little ___ drank a bowl of milk.",
+   "kitten",
+   [
+    "pencil",
+    "basket",
+    "candle"
+   ],
+   "\"Kitten\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. Mom packed a ___ for my lunch.",
+   "sandwich",
+   [
+    "tiger",
+    "window",
+    "rocket"
+   ],
+   "\"Sandwich\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. The ___ blasted off into space.",
+   "rocket",
+   [
+    "button",
+    "kitten",
+    "picnic"
+   ],
+   "\"Rocket\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. We put the apples in a ___.",
+   "basket",
+   [
+    "tiger",
+    "rainbow",
+    "dragon"
+   ],
+   "\"Basket\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. A ___ has orange fur and black stripes.",
+   "tiger",
+   [
+    "muffin",
+    "pocket",
+    "window"
+   ],
+   "\"Tiger\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. I keep my coins in my ___.",
+   "pocket",
+   [
+    "zebra",
+    "kitten",
+    "rocket"
+   ],
+   "\"Pocket\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. Dad lit a ___ on the birthday cake.",
+   "candle",
+   [
+    "rabbit",
+    "tiger",
+    "garden"
+   ],
+   "\"Candle\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. We grow carrots in our ___.",
+   "garden",
+   [
+    "button",
+    "pencil",
+    "muffin"
+   ],
+   "\"Garden\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. I ate a blueberry ___ for breakfast.",
+   "muffin",
+   [
+    "magnet",
+    "tiger",
+    "basket"
+   ],
+   "\"Muffin\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. We had a ___ in the park with a big blanket.",
+   "picnic",
+   [
+    "rocket",
+    "kitten",
+    "pencil"
+   ],
+   "\"Picnic\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. A sour yellow fruit is a ___.",
+   "lemon",
+   [
+    "candle",
+    "window",
+    "rabbit"
+   ],
+   "\"Lemon\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. I wipe my mouth with a ___.",
+   "napkin",
+   [
+    "tiger",
+    "pumpkin",
+    "rocket"
+   ],
+   "\"Napkin\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. The ___ in the story breathed fire.",
+   "dragon",
+   [
+    "muffin",
+    "pocket",
+    "napkin"
+   ],
+   "\"Dragon\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. The baby duck is called a ___.",
+   "duckling",
+   [
+    "pencil",
+    "window",
+    "candle"
+   ],
+   "\"Duckling\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. We bake cookies in the ___.",
+   "oven",
+   [
+    "lemon",
+    "tiger",
+    "kitten"
+   ],
+   "\"Oven\" makes sense in the sentence and has two syllables."
+  ],
+  [
+   "Complete the sentence. The farmer drove a ___ in the field.",
+   "tractor",
+   [
+    "napkin",
+    "muffin",
+    "button"
+   ],
+   "\"Tractor\" makes sense in the sentence and has two syllables."
+  ]
+ ],
+ "engRcI": [
+  [
+   "Maple Trees An original passage written for LearnAce Maple trees grow in Canada. In the spring, sap flows inside the trees. People collect the sap in buckets. They boil the sap for a long time. The sap turns into sweet maple syrup. When does sap flow in maple trees?",
+   "In the spring",
+   [
+    "In the winter",
+    "At night only",
+    "In the summer"
+   ],
+   "The passage says sap flows in the spring."
+  ],
+  [
+   "Maple Trees An original passage written for LearnAce Maple trees grow in Canada. In the spring, sap flows inside the trees. People collect the sap in buckets. They boil the sap for a long time. The sap turns into sweet maple syrup. What do people do with the sap?",
+   "Boil it",
+   [
+    "Freeze it",
+    "Throw it away",
+    "Paint with it"
+   ],
+   "The passage says they boil the sap for a long time."
+  ],
+  [
+   "Maple Trees An original passage written for LearnAce Maple trees grow in Canada. In the spring, sap flows inside the trees. People collect the sap in buckets. They boil the sap for a long time. The sap turns into sweet maple syrup. What does the sap turn into?",
+   "Maple syrup",
+   [
+    "Honey",
+    "Juice",
+    "Milk"
+   ],
+   "The passage says the sap turns into sweet maple syrup."
+  ],
+  [
+   "Maple Trees An original passage written for LearnAce Maple trees grow in Canada. In the spring, sap flows inside the trees. People collect the sap in buckets. They boil the sap for a long time. The sap turns into sweet maple syrup. What do people collect the sap in?",
+   "Buckets",
+   [
+    "Boxes",
+    "Bags",
+    "Boats"
+   ],
+   "The passage says people collect the sap in buckets."
+  ],
+  [
+   "Beavers An original passage written for LearnAce Beavers are big rodents. They have sharp front teeth that never stop growing. Beavers chew down trees with their teeth. They use sticks and mud to build dams across streams. Their flat tails help them swim. What do beavers use to chew down trees?",
+   "Their teeth",
+   [
+    "Their tails",
+    "Their feet",
+    "Their claws"
+   ],
+   "The passage says beavers chew down trees with their teeth."
+  ],
+  [
+   "Beavers An original passage written for LearnAce Beavers are big rodents. They have sharp front teeth that never stop growing. Beavers chew down trees with their teeth. They use sticks and mud to build dams across streams. Their flat tails help them swim. What do beavers build dams with?",
+   "Sticks and mud",
+   [
+    "Rocks and sand",
+    "Leaves and grass",
+    "Snow and ice"
+   ],
+   "The passage says they use sticks and mud."
+  ],
+  [
+   "Beavers An original passage written for LearnAce Beavers are big rodents. They have sharp front teeth that never stop growing. Beavers chew down trees with their teeth. They use sticks and mud to build dams across streams. Their flat tails help them swim. What helps beavers swim?",
+   "Their flat tails",
+   [
+    "Their sharp teeth",
+    "Their big ears",
+    "Their long necks"
+   ],
+   "The passage says their flat tails help them swim."
+  ],
+  [
+   "Beavers An original passage written for LearnAce Beavers are big rodents. They have sharp front teeth that never stop growing. Beavers chew down trees with their teeth. They use sticks and mud to build dams across streams. Their flat tails help them swim. What is special about a beaver's front teeth?",
+   "They never stop growing",
+   [
+    "They fall out each year",
+    "They are very soft",
+    "They are green"
+   ],
+   "The passage says the teeth never stop growing."
+  ],
+  [
+   "The Moon An original passage written for LearnAce The Moon goes around Earth. It does not make its own light. The Moon shines because sunlight bounces off it. The Moon seems to change shape over a month. These shapes are called phases. What does the Moon go around?",
+   "Earth",
+   [
+    "The Sun only",
+    "Mars",
+    "A star"
+   ],
+   "The passage says the Moon goes around Earth."
+  ],
+  [
+   "The Moon An original passage written for LearnAce The Moon goes around Earth. It does not make its own light. The Moon shines because sunlight bounces off it. The Moon seems to change shape over a month. These shapes are called phases. Why does the Moon shine?",
+   "Sunlight bounces off it",
+   [
+    "It is on fire",
+    "It makes its own light",
+    "It is made of lamps"
+   ],
+   "The passage says sunlight bounces off the Moon."
+  ],
+  [
+   "The Moon An original passage written for LearnAce The Moon goes around Earth. It does not make its own light. The Moon shines because sunlight bounces off it. The Moon seems to change shape over a month. These shapes are called phases. What are the Moon's shapes called?",
+   "Phases",
+   [
+    "Craters",
+    "Seasons",
+    "Orbits"
+   ],
+   "The passage says the shapes are called phases."
+  ],
+  [
+   "Frogs Grow Up An original passage written for LearnAce A frog starts life as an egg in a pond. The egg hatches into a tadpole. A tadpole has a tail and lives in water. Slowly it grows legs and loses its tail. Then it becomes a frog that can hop on land. Where does a frog start life?",
+   "As an egg in a pond",
+   [
+    "As a seed in soil",
+    "In a nest in a tree",
+    "Inside a shell on land"
+   ],
+   "The passage says a frog starts life as an egg in a pond."
+  ],
+  [
+   "Frogs Grow Up An original passage written for LearnAce A frog starts life as an egg in a pond. The egg hatches into a tadpole. A tadpole has a tail and lives in water. Slowly it grows legs and loses its tail. Then it becomes a frog that can hop on land. What hatches from the egg?",
+   "A tadpole",
+   [
+    "A fish",
+    "A bird",
+    "A frog with legs"
+   ],
+   "The passage says the egg hatches into a tadpole."
+  ],
+  [
+   "Frogs Grow Up An original passage written for LearnAce A frog starts life as an egg in a pond. The egg hatches into a tadpole. A tadpole has a tail and lives in water. Slowly it grows legs and loses its tail. Then it becomes a frog that can hop on land. What does a tadpole lose as it grows?",
+   "Its tail",
+   [
+    "Its legs",
+    "Its eyes",
+    "Its mouth"
+   ],
+   "The passage says it grows legs and loses its tail."
+  ],
+  [
+   "Recycling An original passage written for LearnAce Recycling means making old things into new things. Paper, cans and plastic bottles can be recycled. We put them in a blue bin. Trucks take them to a plant where they are cleaned and made into new items. Recycling keeps garbage out of landfills. What does recycling mean?",
+   "Making old things into new things",
+   [
+    "Throwing things away",
+    "Buying new things",
+    "Burning old things"
+   ],
+   "The passage says recycling means making old things into new things."
+  ],
+  [
+   "Recycling An original passage written for LearnAce Recycling means making old things into new things. Paper, cans and plastic bottles can be recycled. We put them in a blue bin. Trucks take them to a plant where they are cleaned and made into new items. Recycling keeps garbage out of landfills. Where do we put things to recycle?",
+   "In a blue bin",
+   [
+    "In the garden",
+    "In a lake",
+    "Under the bed"
+   ],
+   "The passage says we put them in a blue bin."
+  ],
+  [
+   "Recycling An original passage written for LearnAce Recycling means making old things into new things. Paper, cans and plastic bottles can be recycled. We put them in a blue bin. Trucks take them to a plant where they are cleaned and made into new items. Recycling keeps garbage out of landfills. How does recycling help?",
+   "It keeps garbage out of landfills",
+   [
+    "It makes more garbage",
+    "It uses more trucks",
+    "It makes paper heavier"
+   ],
+   "The passage says recycling keeps garbage out of landfills."
+  ],
+  [
+   "Polar Bears An original passage written for LearnAce Polar bears live in the Arctic, in the far north of Canada. Their thick fur and a layer of fat keep them warm. They are strong swimmers. Polar bears hunt seals on the sea ice. Where do polar bears live?",
+   "In the Arctic",
+   [
+    "In the desert",
+    "In the rainforest",
+    "In big cities"
+   ],
+   "The passage says polar bears live in the Arctic."
+  ],
+  [
+   "Polar Bears An original passage written for LearnAce Polar bears live in the Arctic, in the far north of Canada. Their thick fur and a layer of fat keep them warm. They are strong swimmers. Polar bears hunt seals on the sea ice. What keeps polar bears warm?",
+   "Thick fur and fat",
+   [
+    "Warm caves",
+    "Fires",
+    "Their long tails"
+   ],
+   "The passage says thick fur and a layer of fat keep them warm."
+  ],
+  [
+   "Polar Bears An original passage written for LearnAce Polar bears live in the Arctic, in the far north of Canada. Their thick fur and a layer of fat keep them warm. They are strong swimmers. Polar bears hunt seals on the sea ice. What do polar bears hunt?",
+   "Seals",
+   [
+    "Bees",
+    "Deer",
+    "Rabbits"
+   ],
+   "The passage says polar bears hunt seals on the sea ice."
+  ],
+  [
+   "Healthy Teeth An original passage written for LearnAce Your teeth help you bite and chew food. To keep them healthy, brush them two times a day. Use floss to clean between your teeth. Eating too many sweets can cause cavities. A dentist can check your teeth. How often should you brush your teeth?",
+   "Two times a day",
+   [
+    "Once a week",
+    "Five times a day",
+    "Once a month"
+   ],
+   "The passage says to brush two times a day."
+  ],
+  [
+   "Healthy Teeth An original passage written for LearnAce Your teeth help you bite and chew food. To keep them healthy, brush them two times a day. Use floss to clean between your teeth. Eating too many sweets can cause cavities. A dentist can check your teeth. What can cause cavities?",
+   "Eating too many sweets",
+   [
+    "Drinking water",
+    "Brushing your teeth",
+    "Using floss"
+   ],
+   "The passage says too many sweets can cause cavities."
+  ],
+  [
+   "Healthy Teeth An original passage written for LearnAce Your teeth help you bite and chew food. To keep them healthy, brush them two times a day. Use floss to clean between your teeth. Eating too many sweets can cause cavities. A dentist can check your teeth. Who can check your teeth?",
+   "A dentist",
+   [
+    "A pilot",
+    "A farmer",
+    "A chef"
+   ],
+   "The passage says a dentist can check your teeth."
+  ]
+ ],
+ "engChAD": [
+  [
+   "Read the text. Lily stomped her feet, crossed her arms and shouted, \"That's not fair!\" How does Lily feel?",
+   "angry",
+   [
+    "calm",
+    "sleepy",
+    "proud"
+   ],
+   "Stomping, crossing arms and shouting show that Lily is angry."
+  ],
+  [
+   "Read the text. Jamal's hands shook as he walked up to the stage. He whispered, \"I hope I remember my lines.\" How does Jamal feel?",
+   "nervous",
+   [
+    "bored",
+    "angry",
+    "silly"
+   ],
+   "Shaking hands and worrying about his lines show that Jamal is nervous."
+  ],
+  [
+   "Read the text. Priya saw a new girl sitting alone. She sat down beside her and said, \"Do you want to play with us?\" What can you tell about Priya?",
+   "She is kind.",
+   [
+    "She is shy.",
+    "She is rude.",
+    "She is lazy."
+   ],
+   "Inviting someone who is alone to play shows that Priya is kind."
+  ],
+  [
+   "Read the text. Leo jumped up and down and squealed, \"We're going to the water park tomorrow!\" How does Leo feel?",
+   "excited",
+   [
+    "worried",
+    "grumpy",
+    "tired"
+   ],
+   "Jumping and squealing about a trip show that Leo is excited."
+  ],
+  [
+   "Read the text. Hana kept her eyes on the floor and spoke so softly that no one could hear her name. What can you tell about Hana?",
+   "She is shy.",
+   [
+    "She is bossy.",
+    "She is angry.",
+    "She is silly."
+   ],
+   "Looking down and speaking very softly show that Hana is shy."
+  ],
+  [
+   "Read the text. Sam practised his piano piece every day for a month, even when his friends were outside playing. What can you tell about Sam?",
+   "He is hard-working.",
+   [
+    "He is lazy.",
+    "He is careless.",
+    "He is unkind."
+   ],
+   "Practising every day for a month shows that Sam is hard-working."
+  ],
+  [
+   "Read the text. Ava held up her painting, grinned and said, \"I did it all by myself!\" How does Ava feel?",
+   "proud",
+   [
+    "scared",
+    "sad",
+    "jealous"
+   ],
+   "Holding up her work and saying she did it herself show that Ava is proud."
+  ],
+  [
+   "Read the text. Noah looked out the window at the rain and sighed. \"Now we can't go to the beach,\" he said. How does Noah feel?",
+   "disappointed",
+   [
+    "thrilled",
+    "brave",
+    "curious"
+   ],
+   "Sighing about missing the beach shows that Noah is disappointed."
+  ],
+  [
+   "Read the text. Mei found a wallet on the sidewalk and took it straight to the office so it could be returned. What can you tell about Mei?",
+   "She is honest.",
+   [
+    "She is greedy.",
+    "She is forgetful.",
+    "She is lazy."
+   ],
+   "Returning a lost wallet shows that Mei is honest."
+  ],
+  [
+   "Read the text. When the lights went out, Eli grabbed his dad's hand and squeezed his eyes shut. How does Eli feel?",
+   "scared",
+   [
+    "happy",
+    "bored",
+    "proud"
+   ],
+   "Grabbing his dad's hand and shutting his eyes show that Eli is scared."
+  ],
+  [
+   "Read the text. Rosa kept asking, \"How does it work? Why does it spin? What's inside?\" as she looked at the old clock. What can you tell about Rosa?",
+   "She is curious.",
+   [
+    "She is sleepy.",
+    "She is angry.",
+    "She is shy."
+   ],
+   "Asking many questions about how something works shows that Rosa is curious."
+  ],
+  [
+   "Read the text. Marcus snatched the ball from the little kids and said, \"It's mine now.\" What can you tell about Marcus?",
+   "He is not being fair.",
+   [
+    "He is being helpful.",
+    "He is being generous.",
+    "He is being polite."
+   ],
+   "Taking the ball from others shows that Marcus is not being fair."
+  ],
+  [
+   "Read the text. Grandpa chuckled, wiped a tear from his eye and said, \"That's the funniest joke I've heard all year!\" How does Grandpa feel?",
+   "amused",
+   [
+    "upset",
+    "nervous",
+    "lonely"
+   ],
+   "Chuckling at a joke shows that Grandpa is amused."
+  ],
+  [
+   "Read the text. Zara watched her best friend get the lead role. She frowned and muttered, \"I should have gotten that part.\" How does Zara feel?",
+   "jealous",
+   [
+    "proud",
+    "relieved",
+    "calm"
+   ],
+   "Frowning and wishing she had the role show that Zara is jealous."
+  ],
+  [
+   "Read the text. Even though the water was cold and deep, Kai dove in to help his little brother reach the shore. What can you tell about Kai?",
+   "He is brave.",
+   [
+    "He is lazy.",
+    "He is selfish.",
+    "He is shy."
+   ],
+   "Diving into cold, deep water to help someone shows that Kai is brave."
+  ],
+  [
+   "Read the text. After the test, Olivia let out a long breath and smiled. \"I passed!\" she said. How does Olivia feel?",
+   "relieved",
+   [
+    "furious",
+    "worried",
+    "bored"
+   ],
+   "Letting out a breath and smiling after passing shows that Olivia is relieved."
+  ],
+  [
+   "Read the text. Ben sat by the window all afternoon. \"Nobody wants to play with me,\" he said quietly. How does Ben feel?",
+   "lonely",
+   [
+    "excited",
+    "proud",
+    "angry"
+   ],
+   "Sitting alone and saying no one wants to play show that Ben is lonely."
+  ],
+  [
+   "Read the text. Ms. Park checked every answer twice and fixed the tiny spelling mistakes before handing in her report. What can you tell about Ms. Park?",
+   "She is careful.",
+   [
+    "She is careless.",
+    "She is rushed.",
+    "She is silly."
+   ],
+   "Checking twice and fixing small mistakes show that Ms. Park is careful."
+  ],
+  [
+   "Read the text. When his sister dropped her ice cream, Theo gave her half of his cone. What can you tell about Theo?",
+   "He is generous.",
+   [
+    "He is greedy.",
+    "He is rude.",
+    "He is lazy."
+   ],
+   "Sharing his own ice cream shows that Theo is generous."
+  ],
+  [
+   "Read the text. Nina rolled her eyes and yawned as her cousin talked about cars for the third time. How does Nina feel?",
+   "bored",
+   [
+    "thrilled",
+    "scared",
+    "proud"
+   ],
+   "Rolling her eyes and yawning show that Nina is bored."
+  ],
+  [
+   "Read the text. \"Hurry up! Line up now! Do it my way!\" Jake told the other kids during the game. What can you tell about Jake?",
+   "He is bossy.",
+   [
+    "He is shy.",
+    "He is gentle.",
+    "He is sleepy."
+   ],
+   "Giving orders to everyone shows that Jake is bossy."
+  ],
+  [
+   "Read the text. Aiden tried to fix his bike chain five times. Each time it slipped off, he said, \"I'll try again.\" What can you tell about Aiden?",
+   "He does not give up.",
+   [
+    "He gives up easily.",
+    "He does not like bikes.",
+    "He wants help right away."
+   ],
+   "Trying again and again shows that Aiden does not give up."
+  ]
+ ],
+ "engXNnPc": [
+  [
+   "🍎 Grandpa picked an ___ from the tree.",
+   "apple",
+   [
+    "chair",
+    "boat",
+    "shoe"
+   ],
+   "The picture shows an apple, which completes the sentence."
+  ],
+  [
+   "🚌 The yellow ___ stops at the corner.",
+   "bus",
+   [
+    "cake",
+    "fish",
+    "hat"
+   ],
+   "The picture shows a bus, which completes the sentence."
+  ],
+  [
+   "🐱 The ___ says meow.",
+   "cat",
+   [
+    "dog",
+    "cow",
+    "bird"
+   ],
+   "The picture shows a cat, which completes the sentence."
+  ],
+  [
+   "🌳 The bird sits in the ___.",
+   "tree",
+   [
+    "cup",
+    "car",
+    "sock"
+   ],
+   "The picture shows a tree, which completes the sentence."
+  ],
+  [
+   "📚 I read a ___.",
+   "book",
+   [
+    "ball",
+    "egg",
+    "bed"
+   ],
+   "The picture shows a book, which completes the sentence."
+  ],
+  [
+   "🐟 The ___ swims in the lake.",
+   "fish",
+   [
+    "bus",
+    "hat",
+    "frog"
+   ],
+   "The picture shows a fish, which completes the sentence."
+  ],
+  [
+   "🎂 We ate birthday ___.",
+   "cake",
+   [
+    "shoe",
+    "boat",
+    "duck"
+   ],
+   "The picture shows a cake, which completes the sentence."
+  ],
+  [
+   "🚗 Dad drives the ___.",
+   "car",
+   [
+    "tree",
+    "bed",
+    "apple"
+   ],
+   "The picture shows a car, which completes the sentence."
+  ],
+  [
+   "🐸 The ___ hops on a lily pad.",
+   "frog",
+   [
+    "bus",
+    "cake",
+    "sock"
+   ],
+   "The picture shows a frog, which completes the sentence."
+  ],
+  [
+   "🧢 I wear a ___ on my head.",
+   "hat",
+   [
+    "fish",
+    "cup",
+    "ball"
+   ],
+   "The picture shows a hat, which completes the sentence."
+  ],
+  [
+   "🛏️ I sleep in my ___.",
+   "bed",
+   [
+    "boat",
+    "egg",
+    "car"
+   ],
+   "The picture shows a bed, which completes the sentence."
+  ],
+  [
+   "☀️ The ___ is hot and bright.",
+   "sun",
+   [
+    "moon",
+    "shoe",
+    "cat"
+   ],
+   "The picture shows the sun, which completes the sentence."
+  ],
+  [
+   "🦆 The ___ swims in the pond.",
+   "duck",
+   [
+    "cow",
+    "bus",
+    "hat"
+   ],
+   "The picture shows a duck, which completes the sentence."
+  ],
+  [
+   "🥚 The hen laid an ___.",
+   "egg",
+   [
+    "apple",
+    "cake",
+    "hat"
+   ],
+   "The picture shows an egg, which completes the sentence."
+  ],
+  [
+   "🌙 The ___ shines at night.",
+   "moon",
+   [
+    "sun",
+    "car",
+    "fish"
+   ],
+   "The picture shows the moon, which completes the sentence."
+  ],
+  [
+   "👟 I tie my ___.",
+   "shoe",
+   [
+    "egg",
+    "tree",
+    "cake"
+   ],
+   "The picture shows a shoe, which completes the sentence."
+  ],
+  [
+   "🐄 The ___ gives us milk.",
+   "cow",
+   [
+    "frog",
+    "duck",
+    "cat"
+   ],
+   "The picture shows a cow, which completes the sentence."
+  ],
+  [
+   "⛵ The ___ sails on the water.",
+   "boat",
+   [
+    "bus",
+    "car",
+    "bed"
+   ],
+   "The picture shows a boat, which completes the sentence."
+  ],
+  [
+   "🍪 I ate a yummy ___.",
+   "cookie",
+   [
+    "sock",
+    "tree",
+    "boat"
+   ],
+   "The picture shows a cookie, which completes the sentence."
+  ],
+  [
+   "🧦 I put a ___ on my foot.",
+   "sock",
+   [
+    "hat",
+    "cup",
+    "egg"
+   ],
+   "The picture shows a sock, which completes the sentence."
+  ],
+  [
+   "☕ Mom drinks from a ___.",
+   "cup",
+   [
+    "shoe",
+    "bed",
+    "tree"
+   ],
+   "The picture shows a cup, which completes the sentence."
+  ],
+  [
+   "🌷 I smell the pretty ___.",
+   "flower",
+   [
+    "rock",
+    "bus",
+    "sock"
+   ],
+   "The picture shows a flower, which completes the sentence."
+  ]
+ ],
+ "engXAfUs": [
+  [
+   "Complete the sentence. I need to ___ my shoes. (tie again)",
+   "retie",
+   [
+    "untie",
+    "tieful",
+    "tieless"
+   ],
+   "Re- means again, so retie means tie again."
+  ],
+  [
+   "Complete the sentence. The puppy was ___ when it ate my sock. (full of play)",
+   "playful",
+   [
+    "replay",
+    "unplay",
+    "playless"
+   ],
+   "-ful means full of, so playful means full of play."
+  ],
+  [
+   "Complete the sentence. Please ___ the box so we can see the gift. (the opposite of wrap)",
+   "unwrap",
+   [
+    "rewrap",
+    "wrapful",
+    "wrapper"
+   ],
+   "Un- means the opposite of, so unwrap is the opposite of wrap."
+  ],
+  [
+   "Complete the sentence. My old bike is ___ now that it is broken. (without use)",
+   "useless",
+   [
+    "useful",
+    "reuse",
+    "unuse"
+   ],
+   "-less means without, so useless means without use."
+  ],
+  [
+   "Complete the sentence. I will ___ the page because I made a mistake. (write again)",
+   "rewrite",
+   [
+    "unwrite",
+    "writeful",
+    "writeless"
+   ],
+   "Re- means again, so rewrite means write again."
+  ],
+  [
+   "Complete the sentence. The answer was ___, so I fixed it. (not correct)",
+   "incorrect",
+   [
+    "recorrect",
+    "correctful",
+    "correctless"
+   ],
+   "In- means not, so incorrect means not correct."
+  ],
+  [
+   "Complete the sentence. It is ___ to cross the street without looking. (not safe)",
+   "unsafe",
+   [
+    "resafe",
+    "safeful",
+    "safeness"
+   ],
+   "Un- means not, so unsafe means not safe."
+  ],
+  [
+   "Complete the sentence. The sky was ___ with no clouds at all. (without clouds)",
+   "cloudless",
+   [
+    "cloudful",
+    "uncloud",
+    "recloud"
+   ],
+   "-less means without, so cloudless means without clouds."
+  ],
+  [
+   "Complete the sentence. I will ___ the library book tomorrow. (bring back)",
+   "return",
+   [
+    "unturn",
+    "turnful",
+    "turnless"
+   ],
+   "Re- can mean back, so return means to bring back."
+  ],
+  [
+   "Complete the sentence. Thank you for being so ___. (full of help)",
+   "helpful",
+   [
+    "helpless",
+    "unhelp",
+    "rehelp"
+   ],
+   "-ful means full of, so helpful means full of help."
+  ],
+  [
+   "Complete the sentence. The box was still ___ on the table. (not opened)",
+   "unopened",
+   [
+    "reopened",
+    "openful",
+    "openless"
+   ],
+   "Un- means not, so unopened means not opened."
+  ],
+  [
+   "Complete the sentence. Mom asked me to ___ my bag after the trip. (the opposite of pack)",
+   "unpack",
+   [
+    "repack",
+    "packful",
+    "packless"
+   ],
+   "Un- means the opposite of, so unpack is the opposite of pack."
+  ],
+  [
+   "Complete the sentence. The ___ ran the fastest in the race. (one who runs)",
+   "runner",
+   [
+    "rerun",
+    "unrun",
+    "runful"
+   ],
+   "-er can mean one who, so a runner is one who runs."
+  ],
+  [
+   "Complete the sentence. My brother is ___ than me. (more tall)",
+   "taller",
+   [
+    "untall",
+    "retall",
+    "tallful"
+   ],
+   "-er can mean more, so taller means more tall."
+  ],
+  [
+   "Complete the sentence. The kind boy was ___ to the new student. (full of thanks)",
+   "thankful",
+   [
+    "thankless",
+    "rethank",
+    "unthank"
+   ],
+   "-ful means full of, so thankful means full of thanks."
+  ],
+  [
+   "Complete the sentence. I need to ___ the game because the power went out. (start again)",
+   "restart",
+   [
+    "unstart",
+    "startful",
+    "starter"
+   ],
+   "Re- means again, so restart means start again."
+  ],
+  [
+   "Complete the sentence. Do not be ___ with the paint. (without care)",
+   "careless",
+   [
+    "careful",
+    "recare",
+    "uncare"
+   ],
+   "-less means without, so careless means without care."
+  ],
+  [
+   "Complete the sentence. The door was ___, so we walked in. (not locked)",
+   "unlocked",
+   [
+    "relocked",
+    "lockful",
+    "lockless"
+   ],
+   "Un- means not, so unlocked means not locked."
+  ],
+  [
+   "Complete the sentence. The farmer had to ___ the seeds after the flood. (plant again)",
+   "replant",
+   [
+    "unplant",
+    "plantful",
+    "plantless"
+   ],
+   "Re- means again, so replant means plant again."
+  ],
+  [
+   "Complete the sentence. The ___ taught us a new song. (one who teaches)",
+   "teacher",
+   [
+    "reteach",
+    "unteach",
+    "teachful"
+   ],
+   "-er can mean one who, so a teacher is one who teaches."
+  ],
+  [
+   "Complete the sentence. The puppy was ___ in the big storm. (full of fear)",
+   "fearful",
+   [
+    "fearless",
+    "refear",
+    "unfear"
+   ],
+   "-ful means full of, so fearful means full of fear."
+  ],
+  [
+   "Complete the sentence. Can you ___ my glass with water? (fill again)",
+   "refill",
+   [
+    "unfill",
+    "fillful",
+    "fillless"
+   ],
+   "Re- means again, so refill means fill again."
+  ]
+ ],
+ "engXAfUn": [
+  [
+   "What does reread mean?",
+   "read again",
+   [
+    "not read",
+    "one who reads",
+    "full of reading"
+   ],
+   "Re- means again, so reread means read again."
+  ],
+  [
+   "What does unkind mean?",
+   "not kind",
+   [
+    "kind again",
+    "full of kindness",
+    "without kindness"
+   ],
+   "Un- means not, so unkind means not kind."
+  ],
+  [
+   "What does fearless mean?",
+   "without fear",
+   [
+    "full of fear",
+    "fear again",
+    "not afraid of fun"
+   ],
+   "-less means without, so fearless means without fear."
+  ],
+  [
+   "What does colourful mean?",
+   "full of colour",
+   [
+    "without colour",
+    "colour again",
+    "not colour"
+   ],
+   "-ful means full of, so colourful means full of colour."
+  ],
+  [
+   "What does rebuild mean?",
+   "build again",
+   [
+    "not build",
+    "one who builds",
+    "without building"
+   ],
+   "Re- means again, so rebuild means build again."
+  ],
+  [
+   "What does untie mean?",
+   "the opposite of tie",
+   [
+    "tie again",
+    "full of ties",
+    "one who ties"
+   ],
+   "Un- means the opposite of, so untie is the opposite of tie."
+  ],
+  [
+   "What does painter mean?",
+   "one who paints",
+   [
+    "paint again",
+    "not paint",
+    "full of paint"
+   ],
+   "-er means one who, so a painter is one who paints."
+  ],
+  [
+   "What does homeless mean?",
+   "without a home",
+   [
+    "full of homes",
+    "home again",
+    "one who has a home"
+   ],
+   "-less means without, so homeless means without a home."
+  ],
+  [
+   "What does refill mean?",
+   "fill again",
+   [
+    "not fill",
+    "full of fill",
+    "one who fills"
+   ],
+   "Re- means again, so refill means fill again."
+  ],
+  [
+   "What does unsafe mean?",
+   "not safe",
+   [
+    "safe again",
+    "full of safety",
+    "one who is safe"
+   ],
+   "Un- means not, so unsafe means not safe."
+  ],
+  [
+   "What does joyful mean?",
+   "full of joy",
+   [
+    "without joy",
+    "joy again",
+    "not joy"
+   ],
+   "-ful means full of, so joyful means full of joy."
+  ],
+  [
+   "What does rewrite mean?",
+   "write again",
+   [
+    "not write",
+    "one who writes",
+    "without writing"
+   ],
+   "Re- means again, so rewrite means write again."
+  ],
+  [
+   "What does teacher mean?",
+   "one who teaches",
+   [
+    "teach again",
+    "not teach",
+    "without teaching"
+   ],
+   "-er means one who, so a teacher is one who teaches."
+  ],
+  [
+   "What does careless mean?",
+   "without care",
+   [
+    "full of care",
+    "care again",
+    "one who cares"
+   ],
+   "-less means without, so careless means without care."
+  ],
+  [
+   "What does unpack mean?",
+   "the opposite of pack",
+   [
+    "pack again",
+    "one who packs",
+    "full of packs"
+   ],
+   "Un- means the opposite of, so unpack is the opposite of pack."
+  ],
+  [
+   "What does restart mean?",
+   "start again",
+   [
+    "not start",
+    "one who starts",
+    "full of starts"
+   ],
+   "Re- means again, so restart means start again."
+  ],
+  [
+   "What does thankful mean?",
+   "full of thanks",
+   [
+    "without thanks",
+    "thank again",
+    "not thank"
+   ],
+   "-ful means full of, so thankful means full of thanks."
+  ],
+  [
+   "What does unfair mean?",
+   "not fair",
+   [
+    "fair again",
+    "full of fairness",
+    "one who is fair"
+   ],
+   "Un- means not, so unfair means not fair."
+  ],
+  [
+   "What does singer mean?",
+   "one who sings",
+   [
+    "sing again",
+    "not sing",
+    "without singing"
+   ],
+   "-er means one who, so a singer is one who sings."
+  ],
+  [
+   "What does spotless mean?",
+   "without spots",
+   [
+    "full of spots",
+    "spot again",
+    "one who spots"
+   ],
+   "-less means without, so spotless means without spots."
+  ],
+  [
+   "What does reuse mean?",
+   "use again",
+   [
+    "not use",
+    "without use",
+    "full of use"
+   ],
+   "Re- means again, so reuse means use again."
+  ],
+  [
+   "What does painful mean?",
+   "full of pain",
+   [
+    "without pain",
+    "pain again",
+    "one who has pain"
+   ],
+   "-ful means full of, so painful means full of pain."
+  ]
+ ],
+ "engXCxEz": [
+  [
+   "What does the underlined word mean? The giant elephant was so <strong>enormous</strong> that it could barely fit through the gate.",
+   "very big",
+   [
+    "very small",
+    "very fast",
+    "very loud"
+   ],
+   "Barely fitting through the gate shows enormous means very big."
+  ],
+  [
+   "What does the underlined word mean? After running all day, the dog was <strong>exhausted</strong> and fell asleep right away.",
+   "very tired",
+   [
+    "very hungry",
+    "very happy",
+    "very wet"
+   ],
+   "Falling asleep after running all day shows exhausted means very tired."
+  ],
+  [
+   "What does the underlined word mean? Max was <strong>furious</strong> when his brother broke his favourite toy, and he stomped away.",
+   "very angry",
+   [
+    "very glad",
+    "very sleepy",
+    "very calm"
+   ],
+   "Stomping away after a toy is broken shows furious means very angry."
+  ],
+  [
+   "What does the underlined word mean? The baby was <strong>tiny</strong> enough to fit in Dad's arms.",
+   "very small",
+   [
+    "very tall",
+    "very old",
+    "very loud"
+   ],
+   "Fitting in Dad's arms shows tiny means very small."
+  ],
+  [
+   "What does the underlined word mean? The music was so <strong>loud</strong> that we covered our ears.",
+   "noisy",
+   [
+    "quiet",
+    "soft",
+    "slow"
+   ],
+   "Covering your ears shows loud means noisy."
+  ],
+  [
+   "What does the underlined word mean? Please <strong>discard</strong> your trash in the bin before you leave.",
+   "throw away",
+   [
+    "pick up",
+    "colour",
+    "keep"
+   ],
+   "Putting trash in a bin shows discard means throw away."
+  ],
+  [
+   "What does the underlined word mean? The puppy was <strong>soaked</strong> after playing in the rain.",
+   "very wet",
+   [
+    "very dry",
+    "very warm",
+    "very clean"
+   ],
+   "Playing in the rain shows soaked means very wet."
+  ],
+  [
+   "What does the underlined word mean? Ella was <strong>thrilled</strong> to get a new bike, and she cheered loudly.",
+   "very excited",
+   [
+    "very bored",
+    "very sad",
+    "very scared"
+   ],
+   "Cheering about a new bike shows thrilled means very excited."
+  ],
+  [
+   "What does the underlined word mean? The path was <strong>narrow</strong>, so we had to walk one at a time.",
+   "not wide",
+   [
+    "very long",
+    "very wet",
+    "not steep"
+   ],
+   "Walking one at a time shows narrow means not wide."
+  ],
+  [
+   "What does the underlined word mean? The <strong>ancient</strong> castle was built more than a thousand years ago.",
+   "very old",
+   [
+    "very new",
+    "very small",
+    "very bright"
+   ],
+   "Being built a thousand years ago shows ancient means very old."
+  ],
+  [
+   "What does the underlined word mean? Ben was <strong>famished</strong> because he had not eaten since breakfast.",
+   "very hungry",
+   [
+    "very full",
+    "very tired",
+    "very cold"
+   ],
+   "Not eating all day shows famished means very hungry."
+  ],
+  [
+   "What does the underlined word mean? The kitten <strong>peered</strong> around the corner to see who was there.",
+   "looked carefully",
+   [
+    "ran quickly",
+    "slept quietly",
+    "ate slowly"
+   ],
+   "Looking to see who was there shows peered means looked carefully."
+  ],
+  [
+   "What does the underlined word mean? The glass vase is <strong>fragile</strong>, so please hold it gently.",
+   "easy to break",
+   [
+    "very heavy",
+    "very bright",
+    "hard to see"
+   ],
+   "Holding it gently shows fragile means easy to break."
+  ],
+  [
+   "What does the underlined word mean? The road was <strong>slick</strong> with ice, and cars slid around the corner.",
+   "slippery",
+   [
+    "bumpy",
+    "dusty",
+    "dry"
+   ],
+   "Cars sliding on ice shows slick means slippery."
+  ],
+  [
+   "What does the underlined word mean? Mia <strong>whispered</strong> so she would not wake the baby.",
+   "spoke very softly",
+   [
+    "yelled loudly",
+    "sang a song",
+    "laughed hard"
+   ],
+   "Not waking the baby shows whispered means spoke very softly."
+  ],
+  [
+   "What does the underlined word mean? The lake was so <strong>calm</strong> that it looked like a mirror.",
+   "still and quiet",
+   [
+    "rough and wavy",
+    "dark and cold",
+    "dirty and muddy"
+   ],
+   "Looking like a mirror shows calm means still and quiet."
+  ],
+  [
+   "What does the underlined word mean? Grandma was <strong>delighted</strong> by the card and gave me a big hug.",
+   "very pleased",
+   [
+    "very upset",
+    "very tired",
+    "very sick"
+   ],
+   "A big hug shows delighted means very pleased."
+  ],
+  [
+   "What does the underlined word mean? The <strong>timid</strong> rabbit hid behind the bush when we came near.",
+   "shy",
+   [
+    "brave",
+    "loud",
+    "hungry"
+   ],
+   "Hiding when people come near shows timid means shy."
+  ],
+  [
+   "What does the underlined word mean? We had to <strong>hurry</strong> or we would miss the bus.",
+   "go fast",
+   [
+    "go slowly",
+    "stay home",
+    "sit still"
+   ],
+   "Not wanting to miss the bus shows hurry means go fast."
+  ],
+  [
+   "What does the underlined word mean? The soup was <strong>scalding</strong>, so I waited for it to cool.",
+   "very hot",
+   [
+    "very cold",
+    "very salty",
+    "very thick"
+   ],
+   "Waiting for it to cool shows scalding means very hot."
+  ],
+  [
+   "What does the underlined word mean? The room was <strong>dim</strong>, so we turned on a lamp to read.",
+   "not bright",
+   [
+    "very noisy",
+    "very clean",
+    "not warm"
+   ],
+   "Needing a lamp shows dim means not bright."
+  ],
+  [
+   "What does the underlined word mean? Sam was <strong>puzzled</strong> by the hard riddle and scratched his head.",
+   "confused",
+   [
+    "angry",
+    "sleepy",
+    "proud"
+   ],
+   "Scratching his head at a hard riddle shows puzzled means confused."
+  ]
+ ],
+ "engXNmAc": [
+  [
+   "My big sister rides a bike. Which part is the naming part?",
+   "My big sister",
+   [
+    "rides a bike",
+    "rides",
+    "a bike"
+   ],
+   "The naming part tells who or what the sentence is about: My big sister."
+  ],
+  [
+   "The tall giraffe eats leaves. Which part is the naming part?",
+   "The tall giraffe",
+   [
+    "eats leaves",
+    "eats",
+    "leaves"
+   ],
+   "The naming part tells who or what the sentence is about: The tall giraffe."
+  ],
+  [
+   "Dad cooks pancakes. Which part is the action part?",
+   "cooks pancakes",
+   [
+    "Dad",
+    "pancakes",
+    "Dad cooks"
+   ],
+   "The action part tells what someone or something does: cooks pancakes."
+  ],
+  [
+   "The little bird sings a song. Which part is the action part?",
+   "sings a song",
+   [
+    "The little bird",
+    "a song",
+    "The little"
+   ],
+   "The action part tells what someone or something does: sings a song."
+  ],
+  [
+   "Our class went to the zoo. Which part is the naming part?",
+   "Our class",
+   [
+    "went to the zoo",
+    "to the zoo",
+    "went"
+   ],
+   "The naming part tells who or what the sentence is about: Our class."
+  ],
+  [
+   "The puppy chases its tail. Which part is the action part?",
+   "chases its tail",
+   [
+    "The puppy",
+    "its tail",
+    "The puppy chases"
+   ],
+   "The action part tells what someone or something does: chases its tail."
+  ],
+  [
+   "Grandma knits a scarf. Which part is the naming part?",
+   "Grandma",
+   [
+    "knits a scarf",
+    "a scarf",
+    "knits"
+   ],
+   "The naming part tells who or what the sentence is about: Grandma."
+  ],
+  [
+   "The children build a snowman. Which part is the action part?",
+   "build a snowman",
+   [
+    "The children",
+    "a snowman",
+    "The children build"
+   ],
+   "The action part tells what someone or something does: build a snowman."
+  ],
+  [
+   "A green frog jumps into the pond. Which part is the naming part?",
+   "A green frog",
+   [
+    "jumps into the pond",
+    "into the pond",
+    "jumps"
+   ],
+   "The naming part tells who or what the sentence is about: A green frog."
+  ],
+  [
+   "Mr. Patel drives the school bus. Which part is the action part?",
+   "drives the school bus",
+   [
+    "Mr. Patel",
+    "the school bus",
+    "Mr. Patel drives"
+   ],
+   "The action part tells what someone or something does: drives the school bus."
+  ],
+  [
+   "The baby claps her hands. Which part is the naming part?",
+   "The baby",
+   [
+    "claps her hands",
+    "her hands",
+    "claps"
+   ],
+   "The naming part tells who or what the sentence is about: The baby."
+  ],
+  [
+   "My friends play hockey. Which part is the action part?",
+   "play hockey",
+   [
+    "My friends",
+    "hockey",
+    "My friends play"
+   ],
+   "The action part tells what someone or something does: play hockey."
+  ],
+  [
+   "The red fox runs fast. Which part is the naming part?",
+   "The red fox",
+   [
+    "runs fast",
+    "fast",
+    "runs"
+   ],
+   "The naming part tells who or what the sentence is about: The red fox."
+  ],
+  [
+   "Lena paints a picture. Which part is the action part?",
+   "paints a picture",
+   [
+    "Lena",
+    "a picture",
+    "Lena paints"
+   ],
+   "The action part tells what someone or something does: paints a picture."
+  ],
+  [
+   "The farmer feeds the pigs. Which part is the naming part?",
+   "The farmer",
+   [
+    "feeds the pigs",
+    "the pigs",
+    "feeds"
+   ],
+   "The naming part tells who or what the sentence is about: The farmer."
+  ],
+  [
+   "The kittens nap in the sun. Which part is the action part?",
+   "nap in the sun",
+   [
+    "The kittens",
+    "in the sun",
+    "The kittens nap"
+   ],
+   "The action part tells what someone or something does: nap in the sun."
+  ],
+  [
+   "Two ducks swim in the lake. Which part is the naming part?",
+   "Two ducks",
+   [
+    "swim in the lake",
+    "in the lake",
+    "swim"
+   ],
+   "The naming part tells who or what the sentence is about: Two ducks."
+  ],
+  [
+   "Uncle Joe plays the guitar. Which part is the action part?",
+   "plays the guitar",
+   [
+    "Uncle Joe",
+    "the guitar",
+    "Uncle Joe plays"
+   ],
+   "The action part tells what someone or something does: plays the guitar."
+  ],
+  [
+   "The wind blows the leaves. Which part is the naming part?",
+   "The wind",
+   [
+    "blows the leaves",
+    "the leaves",
+    "blows"
+   ],
+   "The naming part tells who or what the sentence is about: The wind."
+  ],
+  [
+   "My teacher reads a story. Which part is the action part?",
+   "reads a story",
+   [
+    "My teacher",
+    "a story",
+    "My teacher reads"
+   ],
+   "The action part tells what someone or something does: reads a story."
+  ],
+  [
+   "The bees buzz around the flowers. Which part is the naming part?",
+   "The bees",
+   [
+    "buzz around the flowers",
+    "around the flowers",
+    "buzz"
+   ],
+   "The naming part tells who or what the sentence is about: The bees."
+  ],
+  [
+   "Noah brushes his teeth. Which part is the action part?",
+   "brushes his teeth",
+   [
+    "Noah",
+    "his teeth",
+    "Noah brushes"
+   ],
+   "The action part tells what someone or something does: brushes his teeth."
+  ]
+ ],
+ "engXCmpW": [
+  [
+   "Complete the sentence. The cat is ___.",
+   "soft",
+   [
+    "cat",
+    "runs",
+    "sit"
+   ],
+   "\"Soft\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. I ___ my bike.",
+   "ride",
+   [
+    "bike",
+    "blue",
+    "happy"
+   ],
+   "\"Ride\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The dog ___ the ball.",
+   "gets",
+   [
+    "dog",
+    "ball",
+    "big"
+   ],
+   "\"Gets\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. We ___ to the park.",
+   "walk",
+   [
+    "park",
+    "green",
+    "tree"
+   ],
+   "\"Walk\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The snow is ___.",
+   "cold",
+   [
+    "snow",
+    "jumps",
+    "eat"
+   ],
+   "\"Cold\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. He ___ his milk.",
+   "drinks",
+   [
+    "milk",
+    "white",
+    "cup"
+   ],
+   "\"Drinks\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. Mom ___ a cake.",
+   "bakes",
+   [
+    "cake",
+    "sweet",
+    "oven"
+   ],
+   "\"Bakes\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The fish can ___.",
+   "swim",
+   [
+    "fish",
+    "wet",
+    "blue"
+   ],
+   "\"Swim\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. My hat is ___.",
+   "red",
+   [
+    "hat",
+    "run",
+    "sing"
+   ],
+   "\"Red\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. I can ___ fast.",
+   "run",
+   [
+    "fast",
+    "shoe",
+    "red"
+   ],
+   "\"Run\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The baby ___ at night.",
+   "sleeps",
+   [
+    "baby",
+    "bed",
+    "small"
+   ],
+   "\"Sleeps\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The bird ___ in the sky.",
+   "flies",
+   [
+    "bird",
+    "sky",
+    "high"
+   ],
+   "\"Flies\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. Dad ___ the car.",
+   "drives",
+   [
+    "car",
+    "road",
+    "fast"
+   ],
+   "\"Drives\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The apple is ___.",
+   "sweet",
+   [
+    "apple",
+    "eats",
+    "tree"
+   ],
+   "\"Sweet\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. We ___ a song.",
+   "sing",
+   [
+    "song",
+    "loud",
+    "music"
+   ],
+   "\"Sing\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. She ___ a picture.",
+   "draws",
+   [
+    "picture",
+    "pretty",
+    "pencil"
+   ],
+   "\"Draws\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The frog ___ in the pond.",
+   "jumps",
+   [
+    "frog",
+    "pond",
+    "green"
+   ],
+   "\"Jumps\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The sun is ___.",
+   "bright",
+   [
+    "sun",
+    "shines",
+    "sky"
+   ],
+   "\"Bright\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. I ___ my hands.",
+   "wash",
+   [
+    "hands",
+    "soap",
+    "clean"
+   ],
+   "\"Wash\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The elephant is ___.",
+   "big",
+   [
+    "elephant",
+    "walks",
+    "trunk"
+   ],
+   "\"Big\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. Sam ___ a letter.",
+   "writes",
+   [
+    "letter",
+    "paper",
+    "neat"
+   ],
+   "\"Writes\" makes the sentence complete and makes sense."
+  ],
+  [
+   "Complete the sentence. The cow ___ grass.",
+   "eats",
+   [
+    "cow",
+    "green",
+    "farm"
+   ],
+   "\"Eats\" makes the sentence complete and makes sense."
+  ]
+ ],
+ "engXNnSel": [
+  [
+   "Which word is a noun?",
+   "house",
+   [
+    "run",
+    "soft",
+    "slowly"
+   ],
+   "A noun names a person, place or thing — \"house\" is a noun."
+  ],
+  [
+   "Which word names a thing?",
+   "apple",
+   [
+    "eat",
+    "red",
+    "happily"
+   ],
+   "A noun names a person, place or thing — \"apple\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "doctor",
+   [
+    "kind",
+    "help",
+    "quickly"
+   ],
+   "A noun names a person, place or thing — \"doctor\" is a noun."
+  ],
+  [
+   "Which word names a place?",
+   "park",
+   [
+    "play",
+    "green",
+    "fast"
+   ],
+   "A noun names a person, place or thing — \"park\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "bicycle",
+   [
+    "ride",
+    "shiny",
+    "loudly"
+   ],
+   "A noun names a person, place or thing — \"bicycle\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "moose",
+   [
+    "walk",
+    "big",
+    "brown"
+   ],
+   "A noun names a person, place or thing — \"moose\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "chair",
+   [
+    "sit",
+    "tall",
+    "gently"
+   ],
+   "A noun names a person, place or thing — \"chair\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "Toronto",
+   [
+    "visit",
+    "busy",
+    "far"
+   ],
+   "A noun names a person, place or thing — \"Toronto\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "girl",
+   [
+    "sing",
+    "happy",
+    "sadly"
+   ],
+   "A noun names a person, place or thing — \"girl\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "lake",
+   [
+    "swim",
+    "cold",
+    "deep"
+   ],
+   "A noun names a person, place or thing — \"lake\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "hammer",
+   [
+    "hit",
+    "heavy",
+    "hard"
+   ],
+   "A noun names a person, place or thing — \"hammer\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "kitchen",
+   [
+    "cook",
+    "warm",
+    "clean"
+   ],
+   "A noun names a person, place or thing — \"kitchen\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "farmer",
+   [
+    "grow",
+    "busy",
+    "early"
+   ],
+   "A noun names a person, place or thing — \"farmer\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "snowflake",
+   [
+    "melt",
+    "cold",
+    "white"
+   ],
+   "A noun names a person, place or thing — \"snowflake\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "library",
+   [
+    "read",
+    "quiet",
+    "softly"
+   ],
+   "A noun names a person, place or thing — \"library\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "Maria",
+   [
+    "laugh",
+    "kind",
+    "loudly"
+   ],
+   "A noun names a person, place or thing — \"Maria\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "backpack",
+   [
+    "carry",
+    "heavy",
+    "full"
+   ],
+   "A noun names a person, place or thing — \"backpack\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "ocean",
+   [
+    "splash",
+    "blue",
+    "wide"
+   ],
+   "A noun names a person, place or thing — \"ocean\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "baker",
+   [
+    "bake",
+    "sweet",
+    "warmly"
+   ],
+   "A noun names a person, place or thing — \"baker\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "mountain",
+   [
+    "climb",
+    "steep",
+    "high"
+   ],
+   "A noun names a person, place or thing — \"mountain\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "cookie",
+   [
+    "munch",
+    "crunchy",
+    "yummy"
+   ],
+   "A noun names a person, place or thing — \"cookie\" is a noun."
+  ],
+  [
+   "Which word is a noun?",
+   "airport",
+   [
+    "fly",
+    "noisy",
+    "busy"
+   ],
+   "A noun names a person, place or thing — \"airport\" is a noun."
+  ]
+ ]
+}

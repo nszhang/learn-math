@@ -14,7 +14,7 @@ import { loadExtras } from '../extraQuestions.js';
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
 const gradeEmoji = n => (n < 0 ? '🧸' : n === 0 ? '🎒' : n === 13 ? '∫' : GRADE_EMOJI[n - 1]);
 
-export default function SkillsPage({ subject, me, homework, onStartSkill, onStartHomework, toast, onLevelChanged, onLearn, onStartReview }) {
+export default function SkillsPage({ subject, me, homework, onStartSkill, onStartHomework, toast, onLevelChanged, onLearn, onStartReview, onStartDiagnostic }) {
   const GRADES = subject.grades;
   const hsk = isHsk(subject);
   const isStudent = me?.user?.role === 'student';
@@ -81,7 +81,14 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
     );
   })();
 
+  const diagButton = isStudent && onStartDiagnostic && ['math', 'english', 'science'].includes(subject.id) && (
+    <div className="diag-cta">
+      <span><strong>🎯 Not sure where to start?</strong> <span className="muted">Take the {subject.name} diagnostic — about 20 questions that adjust to you and find your level.</span></span>
+      <button type="button" className="btn btn-primary" onClick={onStartDiagnostic}>Start the diagnostic</button>
+    </div>
+  );
   const search = (<>
+    {diagButton}
     <SkillSearch subject={subject} myGrade={myGrade} scoreOf={scoreOf} hwSkills={hwSkills} onPick={clickSkill} />
     <Recommendations subject={subject} me={me} scoreOf={scoreOf} hwSkills={hwSkills} onPick={clickSkill} />
   </>);

@@ -1,0 +1,5552 @@
+{
+"engXSameE": [
+[
+"Which two words have the same ending?",
+"fan and van",
+[
+"hen and rat",
+"bug and box",
+"cap and car"
+],
+"<em>Fan</em> and <em>van</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"hen and ten",
+[
+"bug and box",
+"cap and car",
+"bat and spoon"
+],
+"<em>Hen</em> and <em>ten</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"bug and rug",
+[
+"cap and car",
+"bat and spoon",
+"fox and shell"
+],
+"<em>Bug</em> and <em>rug</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"cap and map",
+[
+"bat and spoon",
+"fox and shell",
+"star and ring"
+],
+"<em>Cap</em> and <em>map</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"bat and rat",
+[
+"fox and shell",
+"star and ring",
+"moon and coat"
+],
+"<em>Bat</em> and <em>rat</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"fox and box",
+[
+"star and ring",
+"moon and coat",
+"bell and dish"
+],
+"<em>Fox</em> and <em>box</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"star and car",
+[
+"moon and coat",
+"bell and dish",
+"king and red"
+],
+"<em>Star</em> and <em>car</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"moon and spoon",
+[
+"bell and dish",
+"king and red",
+"boat and mop"
+],
+"<em>Moon</em> and <em>spoon</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"bell and shell",
+[
+"king and red",
+"boat and mop",
+"fish and pup"
+],
+"<em>Bell</em> and <em>shell</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"king and ring",
+[
+"boat and mop",
+"fish and pup",
+"bed and light"
+],
+"<em>King</em> and <em>ring</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"boat and coat",
+[
+"fish and pup",
+"bed and light",
+"hop and train"
+],
+"<em>Boat</em> and <em>coat</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"fish and dish",
+[
+"bed and light",
+"hop and train",
+"cup and chair"
+],
+"<em>Fish</em> and <em>dish</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"bed and red",
+[
+"hop and train",
+"cup and chair",
+"night and rock"
+],
+"<em>Bed</em> and <em>red</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"hop and mop",
+[
+"cup and chair",
+"night and rock",
+"rain and rose"
+],
+"<em>Hop</em> and <em>mop</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"cup and pup",
+[
+"night and rock",
+"rain and rose",
+"bear and book"
+],
+"<em>Cup</em> and <em>pup</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"night and light",
+[
+"rain and rose",
+"bear and book",
+"sock and jog"
+],
+"<em>Night</em> and <em>light</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"rain and train",
+[
+"bear and book",
+"sock and jog",
+"nose and van"
+],
+"<em>Rain</em> and <em>train</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"bear and chair",
+[
+"sock and jog",
+"nose and van",
+"cook and ten"
+],
+"<em>Bear</em> and <em>chair</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"sock and rock",
+[
+"nose and van",
+"cook and ten",
+"frog and rug"
+],
+"<em>Sock</em> and <em>rock</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"nose and rose",
+[
+"cook and ten",
+"frog and rug",
+"fan and map"
+],
+"<em>Nose</em> and <em>rose</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"cook and book",
+[
+"frog and rug",
+"fan and map",
+"hen and rat"
+],
+"<em>Cook</em> and <em>book</em> rhyme — they end with the same sound."
+],
+[
+"Which two words have the same ending?",
+"frog and jog",
+[
+"fan and map",
+"hen and rat",
+"bug and box"
+],
+"<em>Frog</em> and <em>jog</em> rhyme — they end with the same sound."
+]
+],
+"engXOnset": [
+[
+"Blend /c/ + -up . What word do they make?",
+"cup",
+[
+"log",
+"lip",
+"hen"
+],
+"/c/ and -up blend together to say <em>cup</em>."
+],
+[
+"Blend /b/ + -ug . What word do they make?",
+"bug",
+[
+"rug",
+"jet",
+"dip"
+],
+"/b/ and -ug blend together to say <em>bug</em>."
+],
+[
+"Blend /f/ + -an . What word do they make?",
+"fan",
+[
+"bat",
+"dip",
+"wig"
+],
+"/f/ and -an blend together to say <em>fan</em>."
+],
+[
+"Blend /h/ + -en . What word do they make?",
+"hen",
+[
+"net",
+"jet",
+"dip"
+],
+"/h/ and -en blend together to say <em>hen</em>."
+],
+[
+"Blend /j/ + -et . What word do they make?",
+"jet",
+[
+"cup",
+"wig",
+"zip"
+],
+"/j/ and -et blend together to say <em>jet</em>."
+],
+[
+"Blend /l/ + -og . What word do they make?",
+"log",
+[
+"mud",
+"cup",
+"bat"
+],
+"/l/ and -og blend together to say <em>log</em>."
+],
+[
+"Blend /m/ + -ap . What word do they make?",
+"map",
+[
+"rug",
+"pen",
+"lip"
+],
+"/m/ and -ap blend together to say <em>map</em>."
+],
+[
+"Blend /n/ + -et . What word do they make?",
+"net",
+[
+"hen",
+"ten",
+"cup"
+],
+"/n/ and -et blend together to say <em>net</em>."
+],
+[
+"Blend /p/ + -en . What word do they make?",
+"pen",
+[
+"cup",
+"kit",
+"hop"
+],
+"/p/ and -en blend together to say <em>pen</em>."
+],
+[
+"Blend /r/ + -ug . What word do they make?",
+"rug",
+[
+"cup",
+"wig",
+"map"
+],
+"/r/ and -ug blend together to say <em>rug</em>."
+],
+[
+"Blend /s/ + -ix . What word do they make?",
+"six",
+[
+"zip",
+"cup",
+"gum"
+],
+"/s/ and -ix blend together to say <em>six</em>."
+],
+[
+"Blend /t/ + -en . What word do they make?",
+"ten",
+[
+"net",
+"bat",
+"dip"
+],
+"/t/ and -en blend together to say <em>ten</em>."
+],
+[
+"Blend /v/ + -an . What word do they make?",
+"van",
+[
+"hop",
+"net",
+"ten"
+],
+"/v/ and -an blend together to say <em>van</em>."
+],
+[
+"Blend /w/ + -ig . What word do they make?",
+"wig",
+[
+"net",
+"kit",
+"bat"
+],
+"/w/ and -ig blend together to say <em>wig</em>."
+],
+[
+"Blend /z/ + -ip . What word do they make?",
+"zip",
+[
+"rug",
+"cup",
+"wig"
+],
+"/z/ and -ip blend together to say <em>zip</em>."
+],
+[
+"Blend /b/ + -at . What word do they make?",
+"bat",
+[
+"hop",
+"hen",
+"log"
+],
+"/b/ and -at blend together to say <em>bat</em>."
+],
+[
+"Blend /d/ + -ip . What word do they make?",
+"dip",
+[
+"kit",
+"rug",
+"hen"
+],
+"/d/ and -ip blend together to say <em>dip</em>."
+],
+[
+"Blend /g/ + -um . What word do they make?",
+"gum",
+[
+"six",
+"dip",
+"wig"
+],
+"/g/ and -um blend together to say <em>gum</em>."
+],
+[
+"Blend /h/ + -op . What word do they make?",
+"hop",
+[
+"dip",
+"map",
+"rug"
+],
+"/h/ and -op blend together to say <em>hop</em>."
+],
+[
+"Blend /l/ + -ip . What word do they make?",
+"lip",
+[
+"rug",
+"hop",
+"bat"
+],
+"/l/ and -ip blend together to say <em>lip</em>."
+],
+[
+"Blend /m/ + -ud . What word do they make?",
+"mud",
+[
+"dip",
+"van",
+"hop"
+],
+"/m/ and -ud blend together to say <em>mud</em>."
+],
+[
+"Blend /k/ + -it . What word do they make?",
+"kit",
+[
+"bug",
+"bat",
+"net"
+],
+"/k/ and -it blend together to say <em>kit</em>."
+]
+],
+"engXWBlE": [
+[
+"🏕️ Which blend does camp end with?",
+"mp",
+[
+"lk",
+"ld",
+"ft"
+],
+"<em>camp</em> ends with the sounds /m/ and /p/ blended together: mp."
+],
+[
+"💡 Which blend does lamp end with?",
+"mp",
+[
+"nk",
+"ft",
+"sk"
+],
+"<em>lamp</em> ends with the sounds /m/ and /p/ blended together: mp."
+],
+[
+"🦘 Which blend does jump end with?",
+"mp",
+[
+"ft",
+"nt",
+"st"
+],
+"<em>jump</em> ends with the sounds /m/ and /p/ blended together: mp."
+],
+[
+"🐜 Which blend does ant end with?",
+"nt",
+[
+"ld",
+"nk",
+"mp"
+],
+"<em>ant</em> ends with the sounds /n/ and /t/ blended together: nt."
+],
+[
+"🎨 Which blend does paint end with?",
+"nt",
+[
+"st",
+"mp",
+"ld"
+],
+"<em>paint</em> ends with the sounds /n/ and /t/ blended together: nt."
+],
+[
+"🌬️ Which blend does wind end with?",
+"nd",
+[
+"lt",
+"nt",
+"sk"
+],
+"<em>wind</em> ends with the sounds /n/ and /d/ blended together: nd."
+],
+[
+"🏖️ Which blend does sand end with?",
+"nd",
+[
+"nt",
+"ft",
+"lk"
+],
+"<em>sand</em> ends with the sounds /n/ and /d/ blended together: nd."
+],
+[
+"🪺 Which blend does nest end with?",
+"st",
+[
+"mp",
+"nk",
+"nt"
+],
+"<em>nest</em> ends with the sounds /s/ and /t/ blended together: st."
+],
+[
+"✊ Which blend does fist end with?",
+"st",
+[
+"ld",
+"sk",
+"nd"
+],
+"<em>fist</em> ends with the sounds /s/ and /t/ blended together: st."
+],
+[
+"🍞 Which blend does toast end with?",
+"st",
+[
+"sk",
+"ld",
+"lt"
+],
+"<em>toast</em> ends with the sounds /s/ and /t/ blended together: st."
+],
+[
+"🪑 Which blend does desk end with?",
+"sk",
+[
+"ld",
+"lk",
+"mp"
+],
+"<em>desk</em> ends with the sounds /s/ and /k/ blended together: sk."
+],
+[
+"🐘 Which blend does tusk end with?",
+"sk",
+[
+"lk",
+"lt",
+"nk"
+],
+"<em>tusk</em> ends with the sounds /s/ and /k/ blended together: sk."
+],
+[
+"👖 Which blend does belt end with?",
+"lt",
+[
+"ld",
+"nd",
+"st"
+],
+"<em>belt</em> ends with the sounds /l/ and /t/ blended together: lt."
+],
+[
+"🧂 Which blend does salt end with?",
+"lt",
+[
+"ld",
+"nk",
+"sk"
+],
+"<em>salt</em> ends with the sounds /l/ and /t/ blended together: lt."
+],
+[
+"🛶 Which blend does raft end with?",
+"ft",
+[
+"ld",
+"st",
+"lt"
+],
+"<em>raft</em> ends with the sounds /f/ and /t/ blended together: ft."
+],
+[
+"🖋️ Which blend does ink end with?",
+"nk",
+[
+"nd",
+"lt",
+"mp"
+],
+"<em>ink</em> ends with the sounds /n/ and /k/ blended together: nk."
+],
+[
+"🩷 Which blend does pink end with?",
+"nk",
+[
+"lk",
+"sk",
+"ft"
+],
+"<em>pink</em> ends with the sounds /n/ and /k/ blended together: nk."
+],
+[
+"😉 Which blend does wink end with?",
+"nk",
+[
+"mp",
+"lt",
+"ld"
+],
+"<em>wink</em> ends with the sounds /n/ and /k/ blended together: nk."
+],
+[
+"🦌 Which blend does elk end with?",
+"lk",
+[
+"ft",
+"mp",
+"nk"
+],
+"<em>elk</em> ends with the sounds /l/ and /k/ blended together: lk."
+],
+[
+"🧣 Which blend does silk end with?",
+"lk",
+[
+"nd",
+"ft",
+"st"
+],
+"<em>silk</em> ends with the sounds /l/ and /k/ blended together: lk."
+],
+[
+"🌿 Which blend does mint end with?",
+"nt",
+[
+"nd",
+"sk",
+"lk"
+],
+"<em>mint</em> ends with the sounds /n/ and /t/ blended together: nt."
+],
+[
+"🥶 Which blend does cold end with?",
+"ld",
+[
+"nk",
+"lt",
+"lk"
+],
+"<em>cold</em> ends with the sounds /l/ and /d/ blended together: ld."
+]
+],
+"engBlEn": [
+[
+"🦘 Complete the word: ju__",
+"mp",
+[
+"ft",
+"sk",
+"lt"
+],
+"ju + mp makes the word <em>jump</em>."
+],
+[
+"💡 Complete the word: la__",
+"mp",
+[
+"ft",
+"lk",
+"sk"
+],
+"la + mp makes the word <em>lamp</em>."
+],
+[
+"🌬️ Complete the word: wi__",
+"nd",
+[
+"ft",
+"sk",
+"lk"
+],
+"wi + nd makes the word <em>wind</em>."
+],
+[
+"🪺 Complete the word: ne__",
+"st",
+[
+"lk",
+"mp",
+"sk"
+],
+"ne + st makes the word <em>nest</em>."
+],
+[
+"✊ Complete the word: fi__",
+"st",
+[
+"mp",
+"lk",
+"sk"
+],
+"fi + st makes the word <em>fist</em>."
+],
+[
+"🧂 Complete the word: sa__",
+"lt",
+[
+"mp",
+"sk",
+"ft"
+],
+"sa + lt makes the word <em>salt</em>."
+],
+[
+"🛶 Complete the word: ra__",
+"ft",
+[
+"lk",
+"sk",
+"st"
+],
+"ra + ft makes the word <em>raft</em>."
+],
+[
+"🩷 Complete the word: pi__",
+"nk",
+[
+"ft",
+"lk",
+"sk"
+],
+"pi + nk makes the word <em>pink</em>."
+],
+[
+"🦌 Complete the word: e__",
+"lk",
+[
+"mp",
+"sk",
+"nk"
+],
+"e + lk makes the word <em>elk</em>."
+],
+[
+"🧣 Complete the word: si__",
+"lk",
+[
+"mp",
+"sk",
+"nd"
+],
+"si + lk makes the word <em>silk</em>."
+],
+[
+"🐘 Complete the word: tu__",
+"sk",
+[
+"nd",
+"mp",
+"lk"
+],
+"tu + sk makes the word <em>tusk</em>."
+],
+[
+"🌆 Complete the word: du__",
+"sk",
+[
+"ft",
+"nd",
+"lk"
+],
+"du + sk makes the word <em>dusk</em>."
+],
+[
+"🪑 Complete the word: de__",
+"sk",
+[
+"mp",
+"lk",
+"nk"
+],
+"de + sk makes the word <em>desk</em>."
+],
+[
+"👖 Complete the word: be__",
+"lt",
+[
+"mp",
+"sk",
+"ft"
+],
+"be + lt makes the word <em>belt</em>."
+],
+[
+"🍞 Complete the word: toa__",
+"st",
+[
+"mp",
+"lk",
+"nd"
+],
+"toa + st makes the word <em>toast</em>."
+],
+[
+"🌿 Complete the word: mi__",
+"nt",
+[
+"mp",
+"sk",
+"ft"
+],
+"mi + nt makes the word <em>mint</em>."
+],
+[
+"🏕️ Complete the word: ca__",
+"mp",
+[
+"ft",
+"nd",
+"nk"
+],
+"ca + mp makes the word <em>camp</em>."
+],
+[
+"🎸 Complete the word: ba__",
+"nd",
+[
+"mp",
+"ft",
+"lt"
+],
+"ba + nd makes the word <em>band</em>."
+],
+[
+"🦆 Complete the word: po__",
+"nd",
+[
+"lk",
+"sk",
+"ft"
+],
+"po + nd makes the word <em>pond</em>."
+],
+[
+"🥶 Complete the word: co__",
+"ld",
+[
+"ft",
+"mp",
+"sk"
+],
+"co + ld makes the word <em>cold</em>."
+],
+[
+"🌳 Complete the word: tru__",
+"nk",
+[
+"lk",
+"ft",
+"sk"
+],
+"tru + nk makes the word <em>trunk</em>."
+],
+[
+"🧰 Complete the word: che__",
+"st",
+[
+"mp",
+"lk",
+"sk"
+],
+"che + st makes the word <em>chest</em>."
+]
+],
+"engXDblW": [
+[
+"🔒 Which word matches the picture?",
+"lock",
+[
+"stick",
+"neck",
+"glass"
+],
+"The picture shows <em>lock</em>, which ends with -ck."
+],
+[
+"🪨 Which word matches the picture?",
+"rock",
+[
+"chick",
+"stick",
+"track"
+],
+"The picture shows <em>rock</em>, which ends with -ck."
+],
+[
+"🐥 Which word matches the picture?",
+"chick",
+[
+"lock",
+"fizz",
+"snack"
+],
+"The picture shows <em>chick</em>, which ends with -ck."
+],
+[
+"🏒 Which word matches the picture?",
+"stick",
+[
+"glass",
+"kiss",
+"snack"
+],
+"The picture shows <em>stick</em>, which ends with -ck."
+],
+[
+"🧱 Which word matches the picture?",
+"brick",
+[
+"stick",
+"hill",
+"cliff"
+],
+"The picture shows <em>brick</em>, which ends with -ck."
+],
+[
+"🪆 Which word matches the picture?",
+"doll",
+[
+"chess",
+"chick",
+"hill"
+],
+"The picture shows <em>doll</em>, which ends with -ll."
+],
+[
+"⛰️ Which word matches the picture?",
+"hill",
+[
+"pill",
+"chess",
+"lick"
+],
+"The picture shows <em>hill</em>, which ends with -ll."
+],
+[
+"💊 Which word matches the picture?",
+"pill",
+[
+"doll",
+"glass",
+"chess"
+],
+"The picture shows <em>pill</em>, which ends with -ll."
+],
+[
+"💋 Which word matches the picture?",
+"kiss",
+[
+"fizz",
+"floss",
+"jazz"
+],
+"The picture shows <em>kiss</em>, which ends with -ss."
+],
+[
+"🥛 Which word matches the picture?",
+"glass",
+[
+"jazz",
+"stick",
+"lock"
+],
+"The picture shows <em>glass</em>, which ends with -ss."
+],
+[
+"♟️ Which word matches the picture?",
+"chess",
+[
+"glass",
+"cliff",
+"floss"
+],
+"The picture shows <em>chess</em>, which ends with -ss."
+],
+[
+"🦷 Which word matches the picture?",
+"floss",
+[
+"fizz",
+"pill",
+"glass"
+],
+"The picture shows <em>floss</em>, which ends with -ss."
+],
+[
+"💨 Which word matches the picture?",
+"puff",
+[
+"stick",
+"kiss",
+"neck"
+],
+"The picture shows <em>puff</em>, which ends with -ff."
+],
+[
+"🧗 Which word matches the picture?",
+"cliff",
+[
+"kiss",
+"jazz",
+"lock"
+],
+"The picture shows <em>cliff</em>, which ends with -ff."
+],
+[
+"👃 Which word matches the picture?",
+"sniff",
+[
+"pill",
+"lock",
+"cliff"
+],
+"The picture shows <em>sniff</em>, which ends with -ff."
+],
+[
+"🥤 Which word matches the picture?",
+"fizz",
+[
+"brick",
+"rock",
+"doll"
+],
+"The picture shows <em>fizz</em>, which ends with -zz."
+],
+[
+"🎷 Which word matches the picture?",
+"jazz",
+[
+"sniff",
+"quill",
+"cliff"
+],
+"The picture shows <em>jazz</em>, which ends with -zz."
+],
+[
+"🪶 Which word matches the picture?",
+"quill",
+[
+"neck",
+"pill",
+"jazz"
+],
+"The picture shows <em>quill</em>, which ends with -ll."
+],
+[
+"🦒 Which word matches the picture?",
+"neck",
+[
+"sniff",
+"pill",
+"jazz"
+],
+"The picture shows <em>neck</em>, which ends with -ck."
+],
+[
+"👅 Which word matches the picture?",
+"lick",
+[
+"lock",
+"puff",
+"chess"
+],
+"The picture shows <em>lick</em>, which ends with -ck."
+],
+[
+"🛤️ Which word matches the picture?",
+"track",
+[
+"snack",
+"cliff",
+"rock"
+],
+"The picture shows <em>track</em>, which ends with -ck."
+],
+[
+"🍿 Which word matches the picture?",
+"snack",
+[
+"glass",
+"brick",
+"hill"
+],
+"The picture shows <em>snack</em>, which ends with -ck."
+]
+],
+"engDgEn": [
+[
+"🏖️ Complete the word: bea__",
+"ch",
+[
+"sh",
+"th",
+"ng"
+],
+"Adding ch makes the word <em>beach</em>."
+],
+[
+"💰 Complete the word: ca__",
+"sh",
+[
+"ch",
+"th",
+"ng"
+],
+"Adding sh makes the word <em>cash</em>."
+],
+[
+"🎶 Complete the word: so__",
+"ng",
+[
+"sh",
+"ch",
+"th"
+],
+"Adding ng makes the word <em>song</em>."
+],
+[
+"🪥 Complete the word: too__",
+"th",
+[
+"sh",
+"ch",
+"ng"
+],
+"Adding th makes the word <em>tooth</em>."
+],
+[
+"🔦 Complete the word: tor__",
+"ch",
+[
+"sh",
+"th",
+"ng"
+],
+"Adding ch makes the word <em>torch</em>."
+],
+[
+"🗑️ Complete the word: tra__",
+"sh",
+[
+"ch",
+"th",
+"ng"
+],
+"Adding sh makes the word <em>trash</em>."
+],
+[
+"🌊 Complete the word: spla__",
+"sh",
+[
+"ch",
+"th",
+"ng"
+],
+"Adding sh makes the word <em>splash</em>."
+],
+[
+"🐥 Complete the word: chi__",
+"ck",
+[
+"sh",
+"th",
+"ch"
+],
+"Adding ck makes the word <em>chick</em>."
+],
+[
+"🧱 Complete the word: bri__",
+"ck",
+[
+"sh",
+"th",
+"ch"
+],
+"Adding ck makes the word <em>brick</em>."
+],
+[
+"🧭 Complete the word: nor__",
+"th",
+[
+"sh",
+"ch",
+"ng"
+],
+"Adding th makes the word <em>north</em>."
+],
+[
+"🎤 Complete the word: si__",
+"ng",
+[
+"sh",
+"ch",
+"th"
+],
+"Adding ng makes the word <em>sing</em>."
+],
+[
+"🦆 Complete the word: qua__",
+"ck",
+[
+"ch",
+"th",
+"ng"
+],
+"Adding ck makes the word <em>quack</em>."
+],
+[
+"💥 Complete the word: cra__",
+"sh",
+[
+"ch",
+"th",
+"ng"
+],
+"Adding sh makes the word <em>crash</em>."
+],
+[
+"🍱 Complete the word: lun__",
+"ch",
+[
+"sh",
+"th",
+"ng"
+],
+"Adding ch makes the word <em>lunch</em>."
+],
+[
+"🦒 Complete the word: ne__",
+"ck",
+[
+"sh",
+"ch",
+"th"
+],
+"Adding ck makes the word <em>neck</em>."
+],
+[
+"🧼 Complete the word: wa__",
+"sh",
+[
+"ch",
+"th",
+"ng"
+],
+"Adding sh makes the word <em>wash</em>."
+],
+[
+"🥊 Complete the word: pun__",
+"ch",
+[
+"sh",
+"th",
+"ng"
+],
+"Adding ch makes the word <em>punch</em>."
+],
+[
+"🧀 Complete the word: __eese",
+"ch",
+[
+"sh",
+"th",
+"ck"
+],
+"Adding ch makes the word <em>cheese</em>."
+],
+[
+"🦈 Complete the word: __ark",
+"sh",
+[
+"ch",
+"th",
+"ck"
+],
+"Adding sh makes the word <em>shark</em>."
+],
+[
+"🐑 Complete the word: __eep",
+"sh",
+[
+"th",
+"ck",
+"ng"
+],
+"Adding sh makes the word <em>sheep</em>."
+],
+[
+"🍒 Complete the word: __erry",
+"ch",
+[
+"th",
+"ck",
+"ng"
+],
+"Adding ch makes the word <em>cherry</em>."
+],
+[
+"👍 Complete the word: __umb",
+"th",
+[
+"sh",
+"ch",
+"ck"
+],
+"Adding th makes the word <em>thumb</em>."
+]
+],
+"engXSSa": [
+[
+"🐀 Which sentence matches the picture?",
+"A rat is in a trap.",
+[
+"Sam has a cap.",
+"I can open the can.",
+"Gran has cash."
+],
+"The picture shows a rat, so the sentence is about a rat in a trap."
+],
+[
+"🎒 Which sentence matches the picture?",
+"Pam has a backpack.",
+[
+"Tam can swing a bat.",
+"A crab is in the sand.",
+"Max has a snack."
+],
+"The picture shows a backpack."
+],
+[
+"🧢 Which sentence matches the picture?",
+"Sam has a cap.",
+[
+"We clap, clap, clap.",
+"Gran has cash.",
+"Sam has an apple."
+],
+"The picture shows a cap."
+],
+[
+"🥫 Which sentence matches the picture?",
+"I can open the can.",
+[
+"Gran has cash.",
+"Pam has a backpack.",
+"Nan has a basket."
+],
+"The picture shows a can."
+],
+[
+"🚐 Which sentence matches the picture?",
+"The van is black.",
+[
+"A crab is in the sand.",
+"Dan can climb the ladder.",
+"Dad gets in a cab."
+],
+"The picture shows a van."
+],
+[
+"🪭 Which sentence matches the picture?",
+"Dad has a fan.",
+[
+"Al is sad.",
+"Tam can swing a bat.",
+"Jan is glad."
+],
+"The picture shows a fan."
+],
+[
+"🦀 Which sentence matches the picture?",
+"A crab is in the sand.",
+[
+"Matt and Jan camp.",
+"Al is sad.",
+"We clap, clap, clap."
+],
+"The picture shows a crab."
+],
+[
+"🍎 Which sentence matches the picture?",
+"Sam has an apple.",
+[
+"Pam has a backpack.",
+"A rat is in a trap.",
+"Tam can swing a bat."
+],
+"The picture shows an apple."
+],
+[
+"🐜 Which sentence matches the picture?",
+"The ant is on a plant.",
+[
+"Matt and Jan camp.",
+"A black cat naps.",
+"Dad gets in a cab."
+],
+"The picture shows an ant."
+],
+[
+"👏 Which sentence matches the picture?",
+"We clap, clap, clap.",
+[
+"Dan can climb the ladder.",
+"Al is sad.",
+"Dad has a fan."
+],
+"The picture shows hands clapping."
+],
+[
+"🥪 Which sentence matches the picture?",
+"Max has a snack.",
+[
+"Jan is glad.",
+"Dad has a fan.",
+"Sam has an apple."
+],
+"The picture shows a sandwich, which is a snack."
+],
+[
+"🐈‍⬛ Which sentence matches the picture?",
+"A black cat naps.",
+[
+"Sam has an apple.",
+"A rat is in a trap.",
+"Dad has a fan."
+],
+"The picture shows a black cat."
+],
+[
+"🏏 Which sentence matches the picture?",
+"Tam can swing a bat.",
+[
+"Max has a snack.",
+"Dad has a fan.",
+"The van is black."
+],
+"The picture shows a bat used to hit a ball."
+],
+[
+"🚕 Which sentence matches the picture?",
+"Dad gets in a cab.",
+[
+"Al is sad.",
+"We had ham.",
+"A black cat naps."
+],
+"The picture shows a cab (taxi)."
+],
+[
+"🪜 Which sentence matches the picture?",
+"Dan can climb the ladder.",
+[
+"Al is sad.",
+"Jan is glad.",
+"Dad has a fan."
+],
+"The picture shows a ladder."
+],
+[
+"🏕️ Which sentence matches the picture?",
+"Matt and Jan camp.",
+[
+"Dan can climb the ladder.",
+"Dad gets in a cab.",
+"Al is sad."
+],
+"The picture shows a camp."
+],
+[
+"✋ Which sentence matches the picture?",
+"My hand is flat.",
+[
+"A black cat naps.",
+"Nan has a basket.",
+"We had ham."
+],
+"The picture shows a flat hand."
+],
+[
+"😢 Which sentence matches the picture?",
+"Al is sad.",
+[
+"A black cat naps.",
+"Dan can climb the ladder.",
+"Dad has a fan."
+],
+"The picture shows a sad face."
+],
+[
+"😄 Which sentence matches the picture?",
+"Jan is glad.",
+[
+"Tam can swing a bat.",
+"Dan can climb the ladder.",
+"My hand is flat."
+],
+"The picture shows a happy, glad face."
+],
+[
+"🧺 Which sentence matches the picture?",
+"Nan has a basket.",
+[
+"Sam has an apple.",
+"Matt and Jan camp.",
+"The ant is on a plant."
+],
+"The picture shows a basket."
+],
+[
+"💵 Which sentence matches the picture?",
+"Gran has cash.",
+[
+"Matt and Jan camp.",
+"My hand is flat.",
+"Nan has a basket."
+],
+"The picture shows money, or cash."
+],
+[
+"🍖 Which sentence matches the picture?",
+"We had ham.",
+[
+"A black cat naps.",
+"Dan can climb the ladder.",
+"Nan has a basket."
+],
+"The picture shows meat, like ham."
+]
+],
+"engXSSe": [
+[
+"🥚 Which sentence matches the picture?",
+"Ben has ten eggs.",
+[
+"The elephant is big.",
+"She is the best.",
+"I sent a letter."
+],
+"The picture shows an egg."
+],
+[
+"🍋 Which sentence matches the picture?",
+"The lemon is yellow.",
+[
+"The tools are in the shed.",
+"Jen can help.",
+"I have a vest."
+],
+"The picture shows a lemon."
+],
+[
+"🔔 Which sentence matches the picture?",
+"Ted rang the bell.",
+[
+"The pig is in a pen.",
+"The jet went up.",
+"I sit at my desk."
+],
+"The picture shows a bell."
+],
+[
+"🐚 Which sentence matches the picture?",
+"I found a shell.",
+[
+"Jen can help.",
+"Fred has bread.",
+"The pepper is green."
+],
+"The picture shows a shell."
+],
+[
+"🪺 Which sentence matches the picture?",
+"Look at the nest.",
+[
+"An elk ran by.",
+"I sent a letter.",
+"Ted has a pet."
+],
+"The picture shows a nest."
+],
+[
+"🛷 Which sentence matches the picture?",
+"Jen has a sled.",
+[
+"An elk ran by.",
+"The pepper is green.",
+"She is the best."
+],
+"The picture shows a sled."
+],
+[
+"🛩️ Which sentence matches the picture?",
+"The jet went up.",
+[
+"I got wet in the rain.",
+"Fred has bread.",
+"I hurt my leg."
+],
+"The picture shows a jet."
+],
+[
+"🦵 Which sentence matches the picture?",
+"I hurt my leg.",
+[
+"Jen can help.",
+"An elk ran by.",
+"The elephant is big."
+],
+"The picture shows a leg."
+],
+[
+"🦺 Which sentence matches the picture?",
+"I have a vest.",
+[
+"The pepper is green.",
+"Ted rang the bell.",
+"The pig is in a pen."
+],
+"The picture shows a vest."
+],
+[
+"📝 Which sentence matches the picture?",
+"I sit at my desk.",
+[
+"Ben has ten eggs.",
+"The jet went up.",
+"I found a shell."
+],
+"The picture shows writing, which you do at a desk."
+],
+[
+"🍞 Which sentence matches the picture?",
+"Fred has bread.",
+[
+"The lemon is yellow.",
+"She is the best.",
+"Ted has a pet."
+],
+"The picture shows bread."
+],
+[
+"🐷 Which sentence matches the picture?",
+"The pig is in a pen.",
+[
+"I have a vest.",
+"She is the best.",
+"I hurt my leg."
+],
+"The picture shows a pig, which lives in a pen."
+],
+[
+"🐘 Which sentence matches the picture?",
+"The elephant is big.",
+[
+"I found a shell.",
+"An elk ran by.",
+"Look at the nest."
+],
+"The picture shows an elephant."
+],
+[
+"🕸️ Which sentence matches the picture?",
+"The web is wet.",
+[
+"I have a vest.",
+"I hurt my leg.",
+"The jet went up."
+],
+"The picture shows a web."
+],
+[
+"🌧️ Which sentence matches the picture?",
+"I got wet in the rain.",
+[
+"The lemon is yellow.",
+"The web is wet.",
+"Ted has a pet."
+],
+"The picture shows rain, which makes you wet."
+],
+[
+"🏚️ Which sentence matches the picture?",
+"The tools are in the shed.",
+[
+"The lemon is yellow.",
+"The pig is in a pen.",
+"The pepper is green."
+],
+"The picture shows a shed."
+],
+[
+"🙋 Which sentence matches the picture?",
+"Jen can help.",
+[
+"Jen has a sled.",
+"I hurt my leg.",
+"Ben has ten eggs."
+],
+"The picture shows someone raising a hand to help."
+],
+[
+"🦌 Which sentence matches the picture?",
+"An elk ran by.",
+[
+"Ted rang the bell.",
+"I found a shell.",
+"Ted has a pet."
+],
+"The picture shows a deer-like animal, an elk."
+],
+[
+"✉️ Which sentence matches the picture?",
+"I sent a letter.",
+[
+"Ben has ten eggs.",
+"The lemon is yellow.",
+"Ted has a pet."
+],
+"The picture shows a letter."
+],
+[
+"🥇 Which sentence matches the picture?",
+"She is the best.",
+[
+"The pig is in a pen.",
+"I have a vest.",
+"Look at the nest."
+],
+"The picture shows a gold medal for the best."
+],
+[
+"🫑 Which sentence matches the picture?",
+"The pepper is green.",
+[
+"Jen has a sled.",
+"Ted has a pet.",
+"Jen can help."
+],
+"The picture shows a green pepper."
+],
+[
+"🐶 Which sentence matches the picture?",
+"Ted has a pet.",
+[
+"Ben has ten eggs.",
+"The elephant is big.",
+"I sent a letter."
+],
+"The picture shows a dog, which is a pet."
+]
+],
+"engShIm": [
+[
+"💋 Which word matches the picture?",
+"kiss",
+[
+"kid",
+"shrimp",
+"king"
+],
+"The picture shows <em>kiss</em>, which has the short i sound."
+],
+[
+"🌬️ Which word matches the picture?",
+"wind",
+[
+"kid",
+"kiss",
+"hippo"
+],
+"The picture shows <em>wind</em>, which has the short i sound."
+],
+[
+"🧒 Which word matches the picture?",
+"kid",
+[
+"fist",
+"ring",
+"window"
+],
+"The picture shows <em>kid</em>, which has the short i sound."
+],
+[
+"🍽️ Which word matches the picture?",
+"dish",
+[
+"cliff",
+"ink",
+"kiss"
+],
+"The picture shows <em>dish</em>, which has the short i sound."
+],
+[
+"💍 Which word matches the picture?",
+"ring",
+[
+"cliff",
+"sink",
+"chicken"
+],
+"The picture shows <em>ring</em>, which has the short i sound."
+],
+[
+"👑 Which word matches the picture?",
+"king",
+[
+"fist",
+"wind",
+"window"
+],
+"The picture shows <em>king</em>, which has the short i sound."
+],
+[
+"🏒 Which word matches the picture?",
+"stick",
+[
+"hill",
+"twins",
+"ring"
+],
+"The picture shows <em>stick</em>, which has the short i sound."
+],
+[
+"😉 Which word matches the picture?",
+"wink",
+[
+"sink",
+"shrimp",
+"kid"
+],
+"The picture shows <em>wink</em>, which has the short i sound."
+],
+[
+"🦐 Which word matches the picture?",
+"shrimp",
+[
+"cliff",
+"dish",
+"kiss"
+],
+"The picture shows <em>shrimp</em>, which has the short i sound."
+],
+[
+"🏊 Which word matches the picture?",
+"swim",
+[
+"lizard",
+"ring",
+"ink"
+],
+"The picture shows <em>swim</em>, which has the short i sound."
+],
+[
+"🪟 Which word matches the picture?",
+"window",
+[
+"chicken",
+"hill",
+"sink"
+],
+"The picture shows <em>window</em>, which has the short i sound."
+],
+[
+"🧗 Which word matches the picture?",
+"cliff",
+[
+"pickle",
+"window",
+"ring"
+],
+"The picture shows <em>cliff</em>, which has the short i sound."
+],
+[
+"🦛 Which word matches the picture?",
+"hippo",
+[
+"window",
+"shrimp",
+"twins"
+],
+"The picture shows <em>hippo</em>, which has the short i sound."
+],
+[
+"⛰️ Which word matches the picture?",
+"hill",
+[
+"fist",
+"lizard",
+"kiss"
+],
+"The picture shows <em>hill</em>, which has the short i sound."
+],
+[
+"🐈 Which word matches the picture?",
+"kitten",
+[
+"pickle",
+"ring",
+"wind"
+],
+"The picture shows <em>kitten</em>, which has the short i sound."
+],
+[
+"🦎 Which word matches the picture?",
+"lizard",
+[
+"shrimp",
+"wind",
+"ring"
+],
+"The picture shows <em>lizard</em>, which has the short i sound."
+],
+[
+"🚰 Which word matches the picture?",
+"sink",
+[
+"stick",
+"fist",
+"ring"
+],
+"The picture shows <em>sink</em>, which has the short i sound."
+],
+[
+"🖋️ Which word matches the picture?",
+"ink",
+[
+"kitten",
+"wink",
+"sink"
+],
+"The picture shows <em>ink</em>, which has the short i sound."
+],
+[
+"🥒 Which word matches the picture?",
+"pickle",
+[
+"wind",
+"wink",
+"twins"
+],
+"The picture shows <em>pickle</em>, which has the short i sound."
+],
+[
+"🐔 Which word matches the picture?",
+"chicken",
+[
+"kitten",
+"kid",
+"shrimp"
+],
+"The picture shows <em>chicken</em>, which has the short i sound."
+],
+[
+"👯 Which word matches the picture?",
+"twins",
+[
+"dish",
+"chicken",
+"shrimp"
+],
+"The picture shows <em>twins</em>, which has the short i sound."
+],
+[
+"✊ Which word matches the picture?",
+"fist",
+[
+"chicken",
+"twins",
+"cliff"
+],
+"The picture shows <em>fist</em>, which has the short i sound."
+]
+],
+"engShIc": [
+[
+"💋 Complete the word: k_ss",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>kiss</em>, with a short i."
+],
+[
+"🧒 Complete the word: k_d",
+"i",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>kid</em>, with a short i."
+],
+[
+"🍽️ Complete the word: d_sh",
+"i",
+[
+"e",
+"o",
+"u"
+],
+"The word is <em>dish</em>, with a short i."
+],
+[
+"👑 Complete the word: k_ng",
+"i",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>king</em>, with a short i."
+],
+[
+"🦐 Complete the word: shr_mp",
+"i",
+[
+"a",
+"o",
+"u"
+],
+"The word is <em>shrimp</em>, with a short i."
+],
+[
+"🪟 Complete the word: w_ndow",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>window</em>, with a short i."
+],
+[
+"🧗 Complete the word: cl_ff",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>cliff</em>, with a short i."
+],
+[
+"🦛 Complete the word: h_ppo",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>hippo</em>, with a short i."
+],
+[
+"🐈 Complete the word: k_tten",
+"i",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>kitten</em>, with a short i."
+],
+[
+"🦎 Complete the word: l_zard",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>lizard</em>, with a short i."
+],
+[
+"🖋️ Complete the word: _nk",
+"i",
+[
+"a",
+"o",
+"u"
+],
+"The word is <em>ink</em>, with a short i."
+],
+[
+"🥒 Complete the word: p_ckle",
+"i",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>pickle</em>, with a short i."
+],
+[
+"🐔 Complete the word: ch_cken",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>chicken</em>, with a short i."
+],
+[
+"👯 Complete the word: tw_ns",
+"i",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>twins</em>, with a short i."
+],
+[
+"🧔 Complete the word: ch_n",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>chin</em>, with a short i."
+],
+[
+"🤐 Complete the word: z_pper",
+"i",
+[
+"e",
+"o",
+"u"
+],
+"The word is <em>zipper</em>, with a short i."
+],
+[
+"🍝 Complete the word: d_nner",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>dinner</em>, with a short i."
+],
+[
+"🌿 Complete the word: tw_g",
+"i",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>twig</em>, with a short i."
+],
+[
+"🛏️ Complete the word: cr_b",
+"i",
+[
+"e",
+"o",
+"u"
+],
+"The word is <em>crib</em>, with a short i."
+],
+[
+"🥣 Complete the word: m_x",
+"i",
+[
+"e",
+"o",
+"u"
+],
+"The word is <em>mix</em>, with a short i."
+],
+[
+"🛌 Complete the word: qu_lt",
+"i",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>quilt</em>, with a short i."
+],
+[
+"🥄 Complete the word: wh_sk",
+"i",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>whisk</em>, with a short i."
+]
+],
+"engXSSi": [
+[
+"👑 Which sentence matches the picture?",
+"The king is rich.",
+[
+"The pen has ink.",
+"We go up the hill.",
+"Tim can wink."
+],
+"The picture matches the sentence \"The king is rich.\""
+],
+[
+"💋 Which sentence matches the picture?",
+"Mom gave me a kiss.",
+[
+"A lizard sits on a rock.",
+"The shrimp is pink.",
+"I can zip my jacket."
+],
+"The picture matches the sentence \"Mom gave me a kiss.\""
+],
+[
+"🐈 Which sentence matches the picture?",
+"The kitten is little.",
+[
+"The wall is made of bricks.",
+"We go up the hill.",
+"The hippo can swim."
+],
+"The picture matches the sentence \"The kitten is little.\""
+],
+[
+"🦛 Which sentence matches the picture?",
+"The hippo can swim.",
+[
+"I feel the wind.",
+"The king is rich.",
+"I can zip my jacket."
+],
+"The picture matches the sentence \"The hippo can swim.\""
+],
+[
+"🧗 Which sentence matches the picture?",
+"Jim is on a cliff.",
+[
+"Kim has a pickle.",
+"Tim can wink.",
+"The pen has ink."
+],
+"The picture matches the sentence \"Jim is on a cliff.\""
+],
+[
+"🦎 Which sentence matches the picture?",
+"A lizard sits on a rock.",
+[
+"I have a ring.",
+"I can zip my jacket.",
+"Tim can wink."
+],
+"The picture matches the sentence \"A lizard sits on a rock.\""
+],
+[
+"🥛 Which sentence matches the picture?",
+"Tim drinks milk.",
+[
+"Tim can wink.",
+"I can zip my jacket.",
+"The kid is six."
+],
+"The picture matches the sentence \"Tim drinks milk.\""
+],
+[
+"💍 Which sentence matches the picture?",
+"I have a ring.",
+[
+"The wall is made of bricks.",
+"Jim is on a cliff.",
+"The pen has ink."
+],
+"The picture matches the sentence \"I have a ring.\""
+],
+[
+"🖋️ Which sentence matches the picture?",
+"The pen has ink.",
+[
+"The wall is made of bricks.",
+"Jim is on a cliff.",
+"I wash the dish."
+],
+"The picture matches the sentence \"The pen has ink.\""
+],
+[
+"🥒 Which sentence matches the picture?",
+"Kim has a pickle.",
+[
+"The kid is six.",
+"The king is rich.",
+"The kitten is little."
+],
+"The picture matches the sentence \"Kim has a pickle.\""
+],
+[
+"🐔 Which sentence matches the picture?",
+"The chicken sits.",
+[
+"A lizard sits on a rock.",
+"We go up the hill.",
+"Mom gave me a kiss."
+],
+"The picture matches the sentence \"The chicken sits.\""
+],
+[
+"🪟 Which sentence matches the picture?",
+"Look out the window.",
+[
+"Kim has a pickle.",
+"The king is rich.",
+"The pen has ink."
+],
+"The picture matches the sentence \"Look out the window.\""
+],
+[
+"🦐 Which sentence matches the picture?",
+"The shrimp is pink.",
+[
+"I can zip my jacket.",
+"I feel the wind.",
+"The kid is six."
+],
+"The picture matches the sentence \"The shrimp is pink.\""
+],
+[
+"🧒 Which sentence matches the picture?",
+"The kid is six.",
+[
+"Bill can swim.",
+"The shrimp is pink.",
+"We go up the hill."
+],
+"The picture matches the sentence \"The kid is six.\""
+],
+[
+"🏊 Which sentence matches the picture?",
+"Bill can swim.",
+[
+"The chick is in a nest.",
+"Jim is on a cliff.",
+"Look out the window."
+],
+"The picture matches the sentence \"Bill can swim.\""
+],
+[
+"🐥 Which sentence matches the picture?",
+"The chick is in a nest.",
+[
+"The hippo can swim.",
+"Mom gave me a kiss.",
+"Jim is on a cliff."
+],
+"The picture matches the sentence \"The chick is in a nest.\""
+],
+[
+"🤐 Which sentence matches the picture?",
+"I can zip my jacket.",
+[
+"The chick is in a nest.",
+"Tim drinks milk.",
+"The pen has ink."
+],
+"The picture matches the sentence \"I can zip my jacket.\""
+],
+[
+"🍽️ Which sentence matches the picture?",
+"I wash the dish.",
+[
+"The kid is six.",
+"Kim has a pickle.",
+"The wall is made of bricks."
+],
+"The picture matches the sentence \"I wash the dish.\""
+],
+[
+"😉 Which sentence matches the picture?",
+"Tim can wink.",
+[
+"I can zip my jacket.",
+"The shrimp is pink.",
+"We go up the hill."
+],
+"The picture matches the sentence \"Tim can wink.\""
+],
+[
+"⛰️ Which sentence matches the picture?",
+"We go up the hill.",
+[
+"Look out the window.",
+"I wash the dish.",
+"Tim can wink."
+],
+"The picture matches the sentence \"We go up the hill.\""
+],
+[
+"🌬️ Which sentence matches the picture?",
+"I feel the wind.",
+[
+"The kid is six.",
+"Tim can wink.",
+"I have a ring."
+],
+"The picture matches the sentence \"I feel the wind.\""
+],
+[
+"🧱 Which sentence matches the picture?",
+"The wall is made of bricks.",
+[
+"The chicken sits.",
+"The king is rich.",
+"The pen has ink."
+],
+"The picture matches the sentence \"The wall is made of bricks.\""
+]
+],
+"engShOm": [
+[
+"🐙 Which word matches the picture?",
+"octopus",
+[
+"mom",
+"hop",
+"blossom"
+],
+"The picture shows <em>octopus</em>, which has the short o sound."
+],
+[
+"🦦 Which word matches the picture?",
+"otter",
+[
+"sob",
+"golf",
+"mom"
+],
+"The picture shows <em>otter</em>, which has the short o sound."
+],
+[
+"🍭 Which word matches the picture?",
+"lollipop",
+[
+"stop",
+"bottle",
+"golf"
+],
+"The picture shows <em>lollipop</em>, which has the short o sound."
+],
+[
+"🦞 Which word matches the picture?",
+"lobster",
+[
+"rocket",
+"knot",
+"stop"
+],
+"The picture shows <em>lobster</em>, which has the short o sound."
+],
+[
+"🛑 Which word matches the picture?",
+"stop",
+[
+"lollipop",
+"chop",
+"mom"
+],
+"The picture shows <em>stop</em>, which has the short o sound."
+],
+[
+"🐂 Which word matches the picture?",
+"ox",
+[
+"lollipop",
+"popcorn",
+"dot"
+],
+"The picture shows <em>ox</em>, which has the short o sound."
+],
+[
+"🐇 Which word matches the picture?",
+"hop",
+[
+"shop",
+"stop",
+"octopus"
+],
+"The picture shows <em>hop</em>, which has the short o sound."
+],
+[
+"🍼 Which word matches the picture?",
+"bottle",
+[
+"knot",
+"shop",
+"mom"
+],
+"The picture shows <em>bottle</em>, which has the short o sound."
+],
+[
+"🧑‍⚕️ Which word matches the picture?",
+"doctor",
+[
+"lobster",
+"otter",
+"mom"
+],
+"The picture shows <em>doctor</em>, which has the short o sound."
+],
+[
+"🚀 Which word matches the picture?",
+"rocket",
+[
+"hot",
+"golf",
+"blossom"
+],
+"The picture shows <em>rocket</em>, which has the short o sound."
+],
+[
+"🪢 Which word matches the picture?",
+"knot",
+[
+"sob",
+"doctor",
+"drop"
+],
+"The picture shows <em>knot</em>, which has the short o sound."
+],
+[
+"🌸 Which word matches the picture?",
+"blossom",
+[
+"bottle",
+"otter",
+"rocket"
+],
+"The picture shows <em>blossom</em>, which has the short o sound."
+],
+[
+"🍿 Which word matches the picture?",
+"popcorn",
+[
+"octopus",
+"lollipop",
+"lobster"
+],
+"The picture shows <em>popcorn</em>, which has the short o sound."
+],
+[
+"🔥 Which word matches the picture?",
+"hot",
+[
+"mom",
+"sob",
+"otter"
+],
+"The picture shows <em>hot</em>, which has the short o sound."
+],
+[
+"🛍️ Which word matches the picture?",
+"shop",
+[
+"hop",
+"hot",
+"rocket"
+],
+"The picture shows <em>shop</em>, which has the short o sound."
+],
+[
+"🏃 Which word matches the picture?",
+"jog",
+[
+"dot",
+"rocket",
+"stop"
+],
+"The picture shows <em>jog</em>, which has the short o sound."
+],
+[
+"🪓 Which word matches the picture?",
+"chop",
+[
+"otter",
+"knot",
+"mom"
+],
+"The picture shows <em>chop</em>, which has the short o sound."
+],
+[
+"💧 Which word matches the picture?",
+"drop",
+[
+"blossom",
+"stop",
+"popcorn"
+],
+"The picture shows <em>drop</em>, which has the short o sound."
+],
+[
+"😭 Which word matches the picture?",
+"sob",
+[
+"popcorn",
+"shop",
+"chop"
+],
+"The picture shows <em>sob</em>, which has the short o sound."
+],
+[
+"⛳ Which word matches the picture?",
+"golf",
+[
+"popcorn",
+"mom",
+"drop"
+],
+"The picture shows <em>golf</em>, which has the short o sound."
+],
+[
+"👩 Which word matches the picture?",
+"mom",
+[
+"lobster",
+"golf",
+"chop"
+],
+"The picture shows <em>mom</em>, which has the short o sound."
+],
+[
+"🔴 Which word matches the picture?",
+"dot",
+[
+"doctor",
+"hot",
+"bottle"
+],
+"The picture shows <em>dot</em>, which has the short o sound."
+]
+],
+"engShOc": [
+[
+"🐙 Complete the word: _ctopus",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>octopus</em>, with a short o."
+],
+[
+"🦦 Complete the word: _tter",
+"o",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>otter</em>, with a short o."
+],
+[
+"🍭 Complete the word: l_llipop",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>lollipop</em>, with a short o."
+],
+[
+"🦞 Complete the word: l_bster",
+"o",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>lobster</em>, with a short o."
+],
+[
+"🛑 Complete the word: st_p",
+"o",
+[
+"a",
+"i",
+"u"
+],
+"The word is <em>stop</em>, with a short o."
+],
+[
+"🍼 Complete the word: b_ttle",
+"o",
+[
+"e",
+"i",
+"u"
+],
+"The word is <em>bottle</em>, with a short o."
+],
+[
+"🧑‍⚕️ Complete the word: d_ctor",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>doctor</em>, with a short o."
+],
+[
+"🚀 Complete the word: r_cket",
+"o",
+[
+"e",
+"i",
+"u"
+],
+"The word is <em>rocket</em>, with a short o."
+],
+[
+"🪢 Complete the word: kn_t",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>knot</em>, with a short o."
+],
+[
+"🌸 Complete the word: bl_ssom",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>blossom</em>, with a short o."
+],
+[
+"🍿 Complete the word: p_pcorn",
+"o",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>popcorn</em>, with a short o."
+],
+[
+"🛍️ Complete the word: sh_p",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>shop</em>, with a short o."
+],
+[
+"💧 Complete the word: dr_p",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>drop</em>, with a short o."
+],
+[
+"😭 Complete the word: s_b",
+"o",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>sob</em>, with a short o."
+],
+[
+"👩 Complete the word: m_m",
+"o",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>mom</em>, with a short o."
+],
+[
+"🔴 Complete the word: d_t",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>dot</em>, with a short o."
+],
+[
+"🏞️ Complete the word: p_nd",
+"o",
+[
+"a",
+"i",
+"u"
+],
+"The word is <em>pond</em>, with a short o."
+],
+[
+"🏒 Complete the word: h_ckey",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>hockey</em>, with a short o."
+],
+[
+"🐦 Complete the word: r_bin",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>robin</em>, with a short o."
+],
+[
+"☄️ Complete the word: c_met",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>comet</em>, with a short o."
+],
+[
+"🫒 Complete the word: _live",
+"o",
+[
+"e",
+"i",
+"u"
+],
+"The word is <em>olive</em>, with a short o."
+],
+[
+"🍫 Complete the word: ch_colate",
+"o",
+[
+"a",
+"e",
+"u"
+],
+"The word is <em>chocolate</em>, with a short o."
+]
+],
+"engXSSo": [
+[
+"🐙 Which sentence matches the picture?",
+"An octopus has lots of arms.",
+[
+"Bob can jog.",
+"Tom plays hockey.",
+"We shop at the mall."
+],
+"The picture matches the sentence \"An octopus has lots of arms.\""
+],
+[
+"🦦 Which sentence matches the picture?",
+"The otter is on a rock.",
+[
+"A dolphin can flip.",
+"Bob can jog.",
+"The blossom is pink."
+],
+"The picture matches the sentence \"The otter is on a rock.\""
+],
+[
+"🍭 Which sentence matches the picture?",
+"Tom got a lollipop.",
+[
+"Dad can chop logs.",
+"An octopus has lots of arms.",
+"Tom plays hockey."
+],
+"The picture matches the sentence \"Tom got a lollipop.\""
+],
+[
+"🛑 Which sentence matches the picture?",
+"We stop at the sign.",
+[
+"A lobster is on the dock.",
+"Dad can chop logs.",
+"An octopus has lots of arms."
+],
+"The picture matches the sentence \"We stop at the sign.\""
+],
+[
+"🐇 Which sentence matches the picture?",
+"The rabbit can hop.",
+[
+"The baby will sob.",
+"Pop the popcorn.",
+"A lobster is on the dock."
+],
+"The picture matches the sentence \"The rabbit can hop.\""
+],
+[
+"🍼 Which sentence matches the picture?",
+"Mom has a bottle.",
+[
+"The ox is strong.",
+"The rabbit can hop.",
+"The otter is on a rock."
+],
+"The picture matches the sentence \"Mom has a bottle.\""
+],
+[
+"🧑‍⚕️ Which sentence matches the picture?",
+"I went to the doctor.",
+[
+"The ox is strong.",
+"Dad can chop logs.",
+"I got an olive."
+],
+"The picture matches the sentence \"I went to the doctor.\""
+],
+[
+"🚀 Which sentence matches the picture?",
+"Look at the rocket.",
+[
+"I see a drop of water.",
+"The ox is strong.",
+"We shop at the mall."
+],
+"The picture matches the sentence \"Look at the rocket.\""
+],
+[
+"🔥 Which sentence matches the picture?",
+"The fire is hot.",
+[
+"I like chocolate.",
+"An octopus has lots of arms.",
+"A lobster is on the dock."
+],
+"The picture matches the sentence \"The fire is hot.\""
+],
+[
+"🛍️ Which sentence matches the picture?",
+"We shop at the mall.",
+[
+"The otter is on a rock.",
+"An octopus has lots of arms.",
+"I see a drop of water."
+],
+"The picture matches the sentence \"We shop at the mall.\""
+],
+[
+"🏃 Which sentence matches the picture?",
+"Bob can jog.",
+[
+"The fire is hot.",
+"I got an olive.",
+"We shop at the mall."
+],
+"The picture matches the sentence \"Bob can jog.\""
+],
+[
+"🪓 Which sentence matches the picture?",
+"Dad can chop logs.",
+[
+"A lobster is on the dock.",
+"Pop the popcorn.",
+"Bob can jog."
+],
+"The picture matches the sentence \"Dad can chop logs.\""
+],
+[
+"💧 Which sentence matches the picture?",
+"I see a drop of water.",
+[
+"Mom has a bottle.",
+"Dad can chop logs.",
+"The ox is strong."
+],
+"The picture matches the sentence \"I see a drop of water.\""
+],
+[
+"😭 Which sentence matches the picture?",
+"The baby will sob.",
+[
+"Bob can jog.",
+"Dad can chop logs.",
+"The fire is hot."
+],
+"The picture matches the sentence \"The baby will sob.\""
+],
+[
+"🏒 Which sentence matches the picture?",
+"Tom plays hockey.",
+[
+"We shop at the mall.",
+"I see a drop of water.",
+"We stop at the sign."
+],
+"The picture matches the sentence \"Tom plays hockey.\""
+],
+[
+"🫒 Which sentence matches the picture?",
+"I got an olive.",
+[
+"An octopus has lots of arms.",
+"A lobster is on the dock.",
+"The rabbit can hop."
+],
+"The picture matches the sentence \"I got an olive.\""
+],
+[
+"🍫 Which sentence matches the picture?",
+"I like chocolate.",
+[
+"We shop at the mall.",
+"A dolphin can flip.",
+"Look at the rocket."
+],
+"The picture matches the sentence \"I like chocolate.\""
+],
+[
+"🐬 Which sentence matches the picture?",
+"A dolphin can flip.",
+[
+"The ox is strong.",
+"The fire is hot.",
+"Look at the rocket."
+],
+"The picture matches the sentence \"A dolphin can flip.\""
+],
+[
+"🌸 Which sentence matches the picture?",
+"The blossom is pink.",
+[
+"Bob can jog.",
+"Mom has a bottle.",
+"The baby will sob."
+],
+"The picture matches the sentence \"The blossom is pink.\""
+],
+[
+"🦞 Which sentence matches the picture?",
+"A lobster is on the dock.",
+[
+"The ox is strong.",
+"We stop at the sign.",
+"Pop the popcorn."
+],
+"The picture matches the sentence \"A lobster is on the dock.\""
+],
+[
+"🍿 Which sentence matches the picture?",
+"Pop the popcorn.",
+[
+"A lobster is on the dock.",
+"Bob can jog.",
+"The ox is strong."
+],
+"The picture matches the sentence \"Pop the popcorn.\""
+],
+[
+"🐂 Which sentence matches the picture?",
+"The ox is strong.",
+[
+"Look at the rocket.",
+"Tom plays hockey.",
+"Mom has a bottle."
+],
+"The picture matches the sentence \"The ox is strong.\""
+]
+],
+"engShUm": [
+[
+"☂️ Which word matches the picture?",
+"umbrella",
+[
+"pup",
+"bucket",
+"trumpet"
+],
+"The picture shows <em>umbrella</em>, which has the short u sound."
+],
+[
+"🐻 Which word matches the picture?",
+"cub",
+[
+"up",
+"mushroom",
+"jump"
+],
+"The picture shows <em>cub</em>, which has the short u sound."
+],
+[
+"🫂 Which word matches the picture?",
+"hug",
+[
+"buffalo",
+"run",
+"cub"
+],
+"The picture shows <em>hug</em>, which has the short u sound."
+],
+[
+"🐶 Which word matches the picture?",
+"pup",
+[
+"pumpkin",
+"trumpet",
+"bucket"
+],
+"The picture shows <em>pup</em>, which has the short u sound."
+],
+[
+"🏃 Which word matches the picture?",
+"run",
+[
+"up",
+"bun",
+"cupcake"
+],
+"The picture shows <em>run</em>, which has the short u sound."
+],
+[
+"🧈 Which word matches the picture?",
+"butter",
+[
+"bucket",
+"hug",
+"thumb"
+],
+"The picture shows <em>butter</em>, which has the short u sound."
+],
+[
+"🍔 Which word matches the picture?",
+"bun",
+[
+"cut",
+"run",
+"hut"
+],
+"The picture shows <em>bun</em>, which has the short u sound."
+],
+[
+"🎺 Which word matches the picture?",
+"trumpet",
+[
+"cupcake",
+"pumpkin",
+"jump"
+],
+"The picture shows <em>trumpet</em>, which has the short u sound."
+],
+[
+"🦬 Which word matches the picture?",
+"buffalo",
+[
+"mushroom",
+"thumb",
+"lunch"
+],
+"The picture shows <em>buffalo</em>, which has the short u sound."
+],
+[
+"🦘 Which word matches the picture?",
+"jump",
+[
+"bucket",
+"mushroom",
+"up"
+],
+"The picture shows <em>jump</em>, which has the short u sound."
+],
+[
+"🧁 Which word matches the picture?",
+"cupcake",
+[
+"cub",
+"mushroom",
+"run"
+],
+"The picture shows <em>cupcake</em>, which has the short u sound."
+],
+[
+"🪣 Which word matches the picture?",
+"bucket",
+[
+"bun",
+"umbrella",
+"hut"
+],
+"The picture shows <em>bucket</em>, which has the short u sound."
+],
+[
+"👍 Which word matches the picture?",
+"thumb",
+[
+"up",
+"pumpkin",
+"lunch"
+],
+"The picture shows <em>thumb</em>, which has the short u sound."
+],
+[
+"🪥 Which word matches the picture?",
+"brush",
+[
+"bubble",
+"trumpet",
+"cub"
+],
+"The picture shows <em>brush</em>, which has the short u sound."
+],
+[
+"🍱 Which word matches the picture?",
+"lunch",
+[
+"hut",
+"bubble",
+"cupcake"
+],
+"The picture shows <em>lunch</em>, which has the short u sound."
+],
+[
+"🍄 Which word matches the picture?",
+"mushroom",
+[
+"bubble",
+"cupcake",
+"trumpet"
+],
+"The picture shows <em>mushroom</em>, which has the short u sound."
+],
+[
+"🛖 Which word matches the picture?",
+"hut",
+[
+"hug",
+"bunny",
+"jump"
+],
+"The picture shows <em>hut</em>, which has the short u sound."
+],
+[
+"🎃 Which word matches the picture?",
+"pumpkin",
+[
+"pup",
+"trumpet",
+"cub"
+],
+"The picture shows <em>pumpkin</em>, which has the short u sound."
+],
+[
+"🫧 Which word matches the picture?",
+"bubble",
+[
+"cub",
+"hut",
+"bun"
+],
+"The picture shows <em>bubble</em>, which has the short u sound."
+],
+[
+"🐰 Which word matches the picture?",
+"bunny",
+[
+"mushroom",
+"hug",
+"umbrella"
+],
+"The picture shows <em>bunny</em>, which has the short u sound."
+],
+[
+"⬆️ Which word matches the picture?",
+"up",
+[
+"mushroom",
+"pup",
+"butter"
+],
+"The picture shows <em>up</em>, which has the short u sound."
+],
+[
+"✂️ Which word matches the picture?",
+"cut",
+[
+"hut",
+"jump",
+"trumpet"
+],
+"The picture shows <em>cut</em>, which has the short u sound."
+]
+],
+"engShUc": [
+[
+"☂️ Complete the word: _mbrella",
+"u",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>umbrella</em>, with a short u."
+],
+[
+"🎺 Complete the word: tr_mpet",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>trumpet</em>, with a short u."
+],
+[
+"🦬 Complete the word: b_ffalo",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>buffalo</em>, with a short u."
+],
+[
+"🦘 Complete the word: j_mp",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>jump</em>, with a short u."
+],
+[
+"🧁 Complete the word: c_pcake",
+"u",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>cupcake</em>, with a short u."
+],
+[
+"🪣 Complete the word: b_cket",
+"u",
+[
+"a",
+"i",
+"o"
+],
+"The word is <em>bucket</em>, with a short u."
+],
+[
+"👍 Complete the word: th_mb",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>thumb</em>, with a short u."
+],
+[
+"🪥 Complete the word: br_sh",
+"u",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>brush</em>, with a short u."
+],
+[
+"🍱 Complete the word: l_nch",
+"u",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>lunch</em>, with a short u."
+],
+[
+"🍄 Complete the word: m_shroom",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>mushroom</em>, with a short u."
+],
+[
+"🎃 Complete the word: p_mpkin",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>pumpkin</em>, with a short u."
+],
+[
+"🐰 Complete the word: b_nny",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>bunny</em>, with a short u."
+],
+[
+"⬆️ Complete the word: _p",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>up</em>, with a short u."
+],
+[
+"🧁 Complete the word: m_ffin",
+"u",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>muffin</em>, with a short u."
+],
+[
+"🍬 Complete the word: g_m",
+"u",
+[
+"a",
+"i",
+"o"
+],
+"The word is <em>gum</em>, with a short u."
+],
+[
+"🐫 Complete the word: h_mp",
+"u",
+[
+"a",
+"i",
+"o"
+],
+"The word is <em>hump</em>, with a short u."
+],
+[
+"🐘 Complete the word: tr_nk",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>trunk</em>, with a short u."
+],
+[
+"🔢 Complete the word: n_mber",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>number</em>, with a short u."
+],
+[
+"🌻 Complete the word: s_nflower",
+"u",
+[
+"a",
+"e",
+"i"
+],
+"The word is <em>sunflower</em>, with a short u."
+],
+[
+"🧹 Complete the word: d_st",
+"u",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>dust</em>, with a short u."
+],
+[
+"🍀 Complete the word: l_cky",
+"u",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>lucky</em>, with a short u."
+],
+[
+"➕ Complete the word: pl_s",
+"u",
+[
+"a",
+"e",
+"o"
+],
+"The word is <em>plus</em>, with a short u."
+]
+],
+"engXSSu": [
+[
+"☂️ Which sentence matches the picture?",
+"I have an umbrella.",
+[
+"Fill the bucket.",
+"I brush my teeth.",
+"I can run fast."
+],
+"The picture matches the sentence \"I have an umbrella.\""
+],
+[
+"🐻 Which sentence matches the picture?",
+"The cub is fuzzy.",
+[
+"We have a hut.",
+"The bunny can hop.",
+"Gus can play the trumpet."
+],
+"The picture matches the sentence \"The cub is fuzzy.\""
+],
+[
+"🫂 Which sentence matches the picture?",
+"Mom gave me a hug.",
+[
+"The pup is fun.",
+"I feel lucky.",
+"I have an umbrella."
+],
+"The picture matches the sentence \"Mom gave me a hug.\""
+],
+[
+"🐶 Which sentence matches the picture?",
+"The pup is fun.",
+[
+"We have a hut.",
+"I like gum.",
+"I brush my teeth."
+],
+"The picture matches the sentence \"The pup is fun.\""
+],
+[
+"🏃 Which sentence matches the picture?",
+"I can run fast.",
+[
+"The cub is fuzzy.",
+"Fill the bucket.",
+"I cut the paper."
+],
+"The picture matches the sentence \"I can run fast.\""
+],
+[
+"🎺 Which sentence matches the picture?",
+"Gus can play the trumpet.",
+[
+"I like gum.",
+"I see a mushroom.",
+"Thumbs up!"
+],
+"The picture matches the sentence \"Gus can play the trumpet.\""
+],
+[
+"🦘 Which sentence matches the picture?",
+"I can jump up.",
+[
+"Gus can play the trumpet.",
+"The pup is fun.",
+"Thumbs up!"
+],
+"The picture matches the sentence \"I can jump up.\""
+],
+[
+"🧁 Which sentence matches the picture?",
+"I ate a cupcake.",
+[
+"I can jump up.",
+"I have an umbrella.",
+"Thumbs up!"
+],
+"The picture matches the sentence \"I ate a cupcake.\""
+],
+[
+"🪣 Which sentence matches the picture?",
+"Fill the bucket.",
+[
+"Thumbs up!",
+"I can jump up.",
+"Gus can play the trumpet."
+],
+"The picture matches the sentence \"Fill the bucket.\""
+],
+[
+"👍 Which sentence matches the picture?",
+"Thumbs up!",
+[
+"I brush my teeth.",
+"I feel lucky.",
+"I see a mushroom."
+],
+"The picture matches the sentence \"Thumbs up!\""
+],
+[
+"🪥 Which sentence matches the picture?",
+"I brush my teeth.",
+[
+"Mom gave me a hug.",
+"The sunflower is tall.",
+"It is time for lunch."
+],
+"The picture matches the sentence \"I brush my teeth.\""
+],
+[
+"🍱 Which sentence matches the picture?",
+"It is time for lunch.",
+[
+"We have a hut.",
+"I cut the paper.",
+"I ate a cupcake."
+],
+"The picture matches the sentence \"It is time for lunch.\""
+],
+[
+"🍄 Which sentence matches the picture?",
+"I see a mushroom.",
+[
+"Gus can play the trumpet.",
+"I ate a cupcake.",
+"The bunny can hop."
+],
+"The picture matches the sentence \"I see a mushroom.\""
+],
+[
+"🛖 Which sentence matches the picture?",
+"We have a hut.",
+[
+"Fill the bucket.",
+"Mom gave me a hug.",
+"I like gum."
+],
+"The picture matches the sentence \"We have a hut.\""
+],
+[
+"🎃 Which sentence matches the picture?",
+"Cut the pumpkin.",
+[
+"Thumbs up!",
+"I have an umbrella.",
+"I feel lucky."
+],
+"The picture matches the sentence \"Cut the pumpkin.\""
+],
+[
+"🫧 Which sentence matches the picture?",
+"Blow a bubble.",
+[
+"The camel has a hump.",
+"Thumbs up!",
+"I cut the paper."
+],
+"The picture matches the sentence \"Blow a bubble.\""
+],
+[
+"🐰 Which sentence matches the picture?",
+"The bunny can hop.",
+[
+"I can jump up.",
+"We have a hut.",
+"The sunflower is tall."
+],
+"The picture matches the sentence \"The bunny can hop.\""
+],
+[
+"✂️ Which sentence matches the picture?",
+"I cut the paper.",
+[
+"I feel lucky.",
+"Thumbs up!",
+"We have a hut."
+],
+"The picture matches the sentence \"I cut the paper.\""
+],
+[
+"🍬 Which sentence matches the picture?",
+"I like gum.",
+[
+"Cut the pumpkin.",
+"Gus can play the trumpet.",
+"I ate a cupcake."
+],
+"The picture matches the sentence \"I like gum.\""
+],
+[
+"🐫 Which sentence matches the picture?",
+"The camel has a hump.",
+[
+"Thumbs up!",
+"Fill the bucket.",
+"The cub is fuzzy."
+],
+"The picture matches the sentence \"The camel has a hump.\""
+],
+[
+"🌻 Which sentence matches the picture?",
+"The sunflower is tall.",
+[
+"Mom gave me a hug.",
+"The cub is fuzzy.",
+"Cut the pumpkin."
+],
+"The picture matches the sentence \"The sunflower is tall.\""
+],
+[
+"🍀 Which sentence matches the picture?",
+"I feel lucky.",
+[
+"The sunflower is tall.",
+"Fill the bucket.",
+"The bunny can hop."
+],
+"The picture matches the sentence \"I feel lucky.\""
+]
+],
+"engXRQs": [
+[
+"Can a fish swim?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"Fish swim in water."
+],
+[
+"Can a hen sit on an egg?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"A hen sits on her eggs to keep them warm."
+],
+[
+"Can a cat dig?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"A cat can dig with its paws."
+],
+[
+"Is a bug big?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"A bug is very small."
+],
+[
+"Can a rock run?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"A rock is not alive, so it cannot run."
+],
+[
+"Is mud wet?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"Mud is wet dirt."
+],
+[
+"Can a frog hop?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"Frogs hop on their strong legs."
+],
+[
+"Can a cup jog?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"A cup has no legs, so it cannot jog."
+],
+[
+"Can you sit on a rug?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"A rug is on the floor, so you can sit on it."
+],
+[
+"Can a pot sing?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"A pot is not alive, so it cannot sing."
+],
+[
+"Is ten more than six?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"Ten is more than six."
+],
+[
+"Can a duck swim in a pond?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"Ducks swim in ponds."
+],
+[
+"Can a bed run?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"A bed has no legs that move, so it cannot run."
+],
+[
+"Is a log as hot as the sun?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"The sun is much hotter than a log."
+],
+[
+"Can a pup get on a bed?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"A pup can jump up on a bed."
+],
+[
+"Can a hat hug?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"A hat has no arms, so it cannot hug."
+],
+[
+"Is milk red?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"Milk is white, not red."
+],
+[
+"Can you nap in a bed?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"A bed is a good place to nap."
+],
+[
+"Can a bat fly?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"A bat has wings and can fly."
+],
+[
+"Can a box tap a drum?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"A box cannot move by itself, so it cannot tap a drum."
+],
+[
+"Is a nut as big as a van?",
+"No",
+[
+"Yes",
+"Maybe",
+"Not sure"
+],
+"A nut is tiny and a van is big."
+],
+[
+"Can a kid hop on one leg?",
+"Yes",
+[
+"No",
+"Maybe",
+"Not sure"
+],
+"A kid can hop on one leg."
+]
+],
+"engXFLa": [
+[
+"Which word has the long a sound?",
+"snake",
+[
+"tube",
+"goat",
+"bee"
+],
+"<em>Snake</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"tray",
+[
+"fox",
+"cat",
+"leaf"
+],
+"<em>Tray</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"gate",
+[
+"mule",
+"snow",
+"pie"
+],
+"<em>Gate</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"lake",
+[
+"bed",
+"snow",
+"goat"
+],
+"<em>Lake</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"cape",
+[
+"goat",
+"fish",
+"nose"
+],
+"<em>Cape</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"chain",
+[
+"bowl",
+"map",
+"bed"
+],
+"<em>Chain</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"nail",
+[
+"bag",
+"bike",
+"cat"
+],
+"<em>Nail</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"tail",
+[
+"goat",
+"tube",
+"snow"
+],
+"<em>Tail</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"mail",
+[
+"cat",
+"moon",
+"boat"
+],
+"<em>Mail</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"vase",
+[
+"fox",
+"kite",
+"nose"
+],
+"<em>Vase</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"rake",
+[
+"bike",
+"seed",
+"kite"
+],
+"<em>Rake</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"cave",
+[
+"moon",
+"cat",
+"bowl"
+],
+"<em>Cave</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"wave",
+[
+"cube",
+"fish",
+"teeth"
+],
+"<em>Wave</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"plate",
+[
+"boat",
+"map",
+"fox"
+],
+"<em>Plate</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"face",
+[
+"pie",
+"cube",
+"bag"
+],
+"<em>Face</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"sail",
+[
+"mule",
+"cat",
+"teeth"
+],
+"<em>Sail</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"paper",
+[
+"cat",
+"cube",
+"leaf"
+],
+"<em>Paper</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"baby",
+[
+"goat",
+"bed",
+"seed"
+],
+"<em>Baby</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"table",
+[
+"mule",
+"pie",
+"cube"
+],
+"<em>Table</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"crayon",
+[
+"seed",
+"snow",
+"fish"
+],
+"<em>Crayon</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"maple",
+[
+"cube",
+"leaf",
+"nose"
+],
+"<em>Maple</em> has the long a sound, like its letter name."
+],
+[
+"Which word has the long a sound?",
+"frame",
+[
+"hat",
+"seed",
+"bowl"
+],
+"<em>Frame</em> has the long a sound, like its letter name."
+]
+],
+"engXFLe": [
+[
+"Which word has the long e sound?",
+"seed",
+[
+"pig",
+"five",
+"cake"
+],
+"<em>Seed</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"bean",
+[
+"bed",
+"boat",
+"sock"
+],
+"<em>Bean</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"jeep",
+[
+"tube",
+"bed",
+"cat"
+],
+"<em>Jeep</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"key",
+[
+"five",
+"moon",
+"sock"
+],
+"<em>Key</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"tea",
+[
+"pie",
+"web",
+"moon"
+],
+"<em>Tea</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"pea",
+[
+"boat",
+"tube",
+"bread"
+],
+"<em>Pea</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"beach",
+[
+"cup",
+"rose",
+"bread"
+],
+"<em>Beach</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"knee",
+[
+"boat",
+"globe",
+"mule"
+],
+"<em>Knee</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"eagle",
+[
+"five",
+"rain",
+"pig"
+],
+"<em>Eagle</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"beaver",
+[
+"boat",
+"moon",
+"snail"
+],
+"<em>Beaver</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"green",
+[
+"cat",
+"web",
+"head"
+],
+"<em>Green</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"sleep",
+[
+"pie",
+"mule",
+"rain"
+],
+"<em>Sleep</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"dream",
+[
+"sock",
+"web",
+"mule"
+],
+"<em>Dream</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"team",
+[
+"boat",
+"rain",
+"web"
+],
+"<em>Team</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"zebra",
+[
+"sock",
+"rain",
+"head"
+],
+"<em>Zebra</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"sea",
+[
+"web",
+"pie",
+"mule"
+],
+"<em>Sea</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"week",
+[
+"pie",
+"boat",
+"bone"
+],
+"<em>Week</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"street",
+[
+"bone",
+"rain",
+"snail"
+],
+"<em>Street</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"cream",
+[
+"pie",
+"rain",
+"web"
+],
+"<em>Cream</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"meal",
+[
+"bone",
+"rose",
+"pig"
+],
+"<em>Meal</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"wheat",
+[
+"boat",
+"pig",
+"five"
+],
+"<em>Wheat</em> has the long e sound, like its letter name."
+],
+[
+"Which word has the long e sound?",
+"heel",
+[
+"moon",
+"five",
+"net"
+],
+"<em>Heel</em> has the long e sound, like its letter name."
+]
+],
+"engXFLi": [
+[
+"Which word has the long i sound?",
+"slide",
+[
+"nose",
+"tube",
+"cup"
+],
+"<em>Slide</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"ice",
+[
+"mitt",
+"cake",
+"leaf"
+],
+"<em>Ice</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"rice",
+[
+"rope",
+"seed",
+"pig"
+],
+"<em>Rice</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"lime",
+[
+"moon",
+"cup",
+"goat"
+],
+"<em>Lime</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"vine",
+[
+"rope",
+"sock",
+"chick"
+],
+"<em>Vine</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"hive",
+[
+"moon",
+"sun",
+"rope"
+],
+"<em>Hive</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"knife",
+[
+"cake",
+"lip",
+"hat"
+],
+"<em>Knife</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"night",
+[
+"tube",
+"pig",
+"sock"
+],
+"<em>Night</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"sky",
+[
+"pig",
+"boat",
+"fish"
+],
+"<em>Sky</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"cry",
+[
+"nose",
+"leaf",
+"fish"
+],
+"<em>Cry</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"tiger",
+[
+"fish",
+"cake",
+"sun"
+],
+"<em>Tiger</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"spider",
+[
+"lip",
+"nose",
+"pig"
+],
+"<em>Spider</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"pine",
+[
+"pig",
+"bee",
+"train"
+],
+"<em>Pine</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"tire",
+[
+"lip",
+"chick",
+"nose"
+],
+"<em>Tire</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"bite",
+[
+"pig",
+"lip",
+"sock"
+],
+"<em>Bite</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"prize",
+[
+"bee",
+"cake",
+"cup"
+],
+"<em>Prize</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"ride",
+[
+"hat",
+"pig",
+"fish"
+],
+"<em>Ride</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"bright",
+[
+"tube",
+"boat",
+"train"
+],
+"<em>Bright</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"side",
+[
+"bee",
+"sun",
+"cake"
+],
+"<em>Side</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"shine",
+[
+"nose",
+"train",
+"boat"
+],
+"<em>Shine</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"wipe",
+[
+"bee",
+"cup",
+"nose"
+],
+"<em>Wipe</em> has the long i sound, like its letter name."
+],
+[
+"Which word has the long i sound?",
+"high",
+[
+"goat",
+"train",
+"pig"
+],
+"<em>High</em> has the long i sound, like its letter name."
+]
+],
+"engXFLu": [
+[
+"Which word has the long u sound?",
+"glue",
+[
+"rope",
+"nose",
+"rain"
+],
+"<em>Glue</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"flute",
+[
+"seed",
+"duck",
+"cake"
+],
+"<em>Flute</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"mule",
+[
+"foot",
+"bone",
+"cake"
+],
+"<em>Mule</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"blue",
+[
+"bed",
+"sheep",
+"foot"
+],
+"<em>Blue</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"stool",
+[
+"bone",
+"fish",
+"cake"
+],
+"<em>Stool</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"pool",
+[
+"pie",
+"seed",
+"rain"
+],
+"<em>Pool</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"food",
+[
+"nose",
+"cup",
+"kite"
+],
+"<em>Food</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"goose",
+[
+"bus",
+"pie",
+"foot"
+],
+"<em>Goose</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"zoo",
+[
+"hat",
+"foot",
+"nose"
+],
+"<em>Zoo</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"roof",
+[
+"duck",
+"pie",
+"kite"
+],
+"<em>Roof</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"suit",
+[
+"fish",
+"foot",
+"sun"
+],
+"<em>Suit</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"chew",
+[
+"seed",
+"sheep",
+"boat"
+],
+"<em>Chew</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"June",
+[
+"cup",
+"book",
+"hat"
+],
+"<em>June</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"rule",
+[
+"nose",
+"foot",
+"bike"
+],
+"<em>Rule</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"huge",
+[
+"book",
+"duck",
+"bed"
+],
+"<em>Huge</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"music",
+[
+"boat",
+"sun",
+"book"
+],
+"<em>Music</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"unicorn",
+[
+"sun",
+"rain",
+"boat"
+],
+"<em>Unicorn</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"broom",
+[
+"bike",
+"sun",
+"rope"
+],
+"<em>Broom</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"noon",
+[
+"rain",
+"seed",
+"boat"
+],
+"<em>Noon</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"prune",
+[
+"nose",
+"bed",
+"bone"
+],
+"<em>Prune</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"moose",
+[
+"seed",
+"bus",
+"foot"
+],
+"<em>Moose</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+],
+[
+"Which word has the long u sound?",
+"crew",
+[
+"duck",
+"pie",
+"sheep"
+],
+"<em>Crew</em> has the long u sound, as in <em>moon</em> or <em>cute</em>."
+]
+],
+"engPcAb": [
+[
+"🍁 🍂 🍃 What is the picture about?",
+"leaves falling in autumn",
+[
+"Halloween night",
+"keeping clean",
+"building a house"
+],
+"All three pictures show leaves falling in autumn."
+],
+[
+"🏒 🥅 ⛸️ What is the picture about?",
+"a hockey game",
+[
+"a visit to the doctor",
+"pets at home",
+"ways to travel"
+],
+"All three pictures show a hockey game."
+],
+[
+"🪥 🧼 🛁 What is the picture about?",
+"keeping clean",
+[
+"Halloween night",
+"growing crops on a farm",
+"a hot summer day"
+],
+"All three pictures show keeping clean."
+],
+[
+"🚀 🌙 ⭐ What is the picture about?",
+"a trip to space",
+[
+"camping in the woods",
+"animals in the ocean",
+"ways to travel"
+],
+"All three pictures show a trip to space."
+],
+[
+"🐟 🐙 🦀 What is the picture about?",
+"animals in the ocean",
+[
+"eating breakfast",
+"animals at the zoo",
+"Halloween night"
+],
+"All three pictures show animals in the ocean."
+],
+[
+"🎃 👻 🍬 What is the picture about?",
+"Halloween night",
+[
+"a hockey game",
+"camping in the woods",
+"pets at home"
+],
+"All three pictures show Halloween night."
+],
+[
+"🛏️ 🌙 😴 What is the picture about?",
+"going to bed at night",
+[
+"ways to travel",
+"a visit to the doctor",
+"a rainy day"
+],
+"All three pictures show going to bed at night."
+],
+[
+"🚗 🚌 🚲 What is the picture about?",
+"ways to travel",
+[
+"a visit to the doctor",
+"camping in the woods",
+"making music"
+],
+"All three pictures show ways to travel."
+],
+[
+"🌧️ ☂️ 🥾 What is the picture about?",
+"a rainy day",
+[
+"pets at home",
+"making music",
+"making art"
+],
+"All three pictures show a rainy day."
+],
+[
+"🎨 🖌️ 🖍️ What is the picture about?",
+"making art",
+[
+"reading books",
+"making music",
+"playing ball sports"
+],
+"All three pictures show making art."
+],
+[
+"📖 📚 👓 What is the picture about?",
+"reading books",
+[
+"animals in the ocean",
+"a trip to space",
+"playing ball sports"
+],
+"All three pictures show reading books."
+],
+[
+"🐶 🐱 🐹 What is the picture about?",
+"pets at home",
+[
+"growing crops on a farm",
+"Halloween night",
+"a visit to the doctor"
+],
+"All three pictures show pets at home."
+],
+[
+"🦁 🐘 🦒 What is the picture about?",
+"animals at the zoo",
+[
+"reading books",
+"Halloween night",
+"keeping clean"
+],
+"All three pictures show animals at the zoo."
+],
+[
+"⚽ 🏀 🎾 What is the picture about?",
+"playing ball sports",
+[
+"a visit to the doctor",
+"making art",
+"bees making honey"
+],
+"All three pictures show playing ball sports."
+],
+[
+"🍳 🥞 🥛 What is the picture about?",
+"eating breakfast",
+[
+"bees making honey",
+"a visit to the doctor",
+"pets at home"
+],
+"All three pictures show eating breakfast."
+],
+[
+"🌲 🏕️ 🔥 What is the picture about?",
+"camping in the woods",
+[
+"a trip to space",
+"animals at the zoo",
+"keeping clean"
+],
+"All three pictures show camping in the woods."
+],
+[
+"🎹 🎸 🥁 What is the picture about?",
+"making music",
+[
+"making art",
+"pets at home",
+"bees making honey"
+],
+"All three pictures show making music."
+],
+[
+"👩‍⚕️ 🩺 🏥 What is the picture about?",
+"a visit to the doctor",
+[
+"a rainy day",
+"camping in the woods",
+"a hot summer day"
+],
+"All three pictures show a visit to the doctor."
+],
+[
+"🐝 🌼 🍯 What is the picture about?",
+"bees making honey",
+[
+"making art",
+"reading books",
+"Halloween night"
+],
+"All three pictures show bees making honey."
+],
+[
+"🚜 🌾 🌽 What is the picture about?",
+"growing crops on a farm",
+[
+"building a house",
+"leaves falling in autumn",
+"camping in the woods"
+],
+"All three pictures show growing crops on a farm."
+],
+[
+"🧱 🔨 👷 What is the picture about?",
+"building a house",
+[
+"a visit to the doctor",
+"a rainy day",
+"reading books"
+],
+"All three pictures show building a house."
+],
+[
+"☀️ 🕶️ 🍦 What is the picture about?",
+"a hot summer day",
+[
+"a rainy day",
+"eating breakfast",
+"making art"
+],
+"All three pictures show a hot summer day."
+]
+],
+"engWhAm": [
+[
+"Read the riddle. What am I? I live in the sea. I have eight arms.",
+"an octopus 🐙",
+[
+"a beaver 🦫",
+"a school bus 🚌",
+"a pumpkin 🎃"
+],
+"Only an octopus fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I have a long trunk and big ears.",
+"an elephant 🐘",
+[
+"boots 🥾",
+"a school bus 🚌",
+"a piano 🎹"
+],
+"Only an elephant fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I am red and round. I grow on a tree. You can eat me.",
+"an apple 🍎",
+[
+"a bee 🐝",
+"a bird 🐦",
+"a toothbrush 🪥"
+],
+"Only an apple fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I fall from the clouds. I make puddles.",
+"rain 🌧️",
+[
+"a school bus 🚌",
+"ice cream 🍦",
+"a beaver 🦫"
+],
+"Only rain fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I have black and white stripes. I look like a horse.",
+"a zebra 🦓",
+[
+"a maple leaf 🍁",
+"a pencil ✏️",
+"a bird 🐦"
+],
+"Only a zebra fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I am a big cat. I am orange with black stripes.",
+"a tiger 🐯",
+[
+"the moon 🌙",
+"a bee 🐝",
+"a beaver 🦫"
+],
+"Only a tiger fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I am red. You can see me in the middle of Canada's flag.",
+"a maple leaf 🍁",
+[
+"ice cream 🍦",
+"rain 🌧️",
+"a turtle 🐢"
+],
+"Only a maple leaf fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I have a beak and feathers. I can fly.",
+"a bird 🐦",
+[
+"a tiger 🐯",
+"a pumpkin 🎃",
+"a pencil ✏️"
+],
+"Only a bird fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I shine in the sky at night. Sometimes I am round.",
+"the moon 🌙",
+[
+"a piano 🎹",
+"a giraffe 🦒",
+"a pencil ✏️"
+],
+"Only the moon fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? You wear us on your feet in the snow and mud.",
+"boots 🥾",
+[
+"a mouse 🐭",
+"the moon 🌙",
+"an octopus 🐙"
+],
+"Only boots fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I have a very long neck and brown spots.",
+"a giraffe 🦒",
+[
+"a maple leaf 🍁",
+"a tiger 🐯",
+"a rainbow 🌈"
+],
+"Only a giraffe fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I am cold and sweet. You lick me from a cone.",
+"ice cream 🍦",
+[
+"a turtle 🐢",
+"a pumpkin 🎃",
+"a tiger 🐯"
+],
+"Only ice cream fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I am big and yellow. I take children to school.",
+"a school bus 🚌",
+[
+"a bird 🐦",
+"a tiger 🐯",
+"an elephant 🐘"
+],
+"Only a school bus fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I live in a hive. I make honey.",
+"a bee 🐝",
+[
+"a beaver 🦫",
+"the moon 🌙",
+"a tiger 🐯"
+],
+"Only a bee fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I have black and white keys. You play music on me.",
+"a piano 🎹",
+[
+"an elephant 🐘",
+"a zebra 🦓",
+"rain 🌧️"
+],
+"Only a piano fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I move slowly. I carry a hard shell on my back.",
+"a turtle 🐢",
+[
+"a giraffe 🦒",
+"a tiger 🐯",
+"a toothbrush 🪥"
+],
+"Only a turtle fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? You use me with toothpaste to clean your teeth.",
+"a toothbrush 🪥",
+[
+"a maple leaf 🍁",
+"a pencil ✏️",
+"an elephant 🐘"
+],
+"Only a toothbrush fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I build dams with sticks. I am on the Canadian nickel.",
+"a beaver 🦫",
+[
+"a bee 🐝",
+"a piano 🎹",
+"ice cream 🍦"
+],
+"Only a beaver fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? You write with me. I have a point and an eraser.",
+"a pencil ✏️",
+[
+"a school bus 🚌",
+"a pumpkin 🎃",
+"an apple 🍎"
+],
+"Only a pencil fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I appear in the sky after rain. I have many colours.",
+"a rainbow 🌈",
+[
+"a pumpkin 🎃",
+"a bird 🐦",
+"the moon 🌙"
+],
+"Only a rainbow fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I am orange and round. People carve faces in me at Halloween.",
+"a pumpkin 🎃",
+[
+"a school bus 🚌",
+"an octopus 🐙",
+"a mouse 🐭"
+],
+"Only a pumpkin fits every clue in the riddle."
+],
+[
+"Read the riddle. What am I? I am small with a long tail. I squeak.",
+"a mouse 🐭",
+[
+"a school bus 🚌",
+"the moon 🌙",
+"a bee 🐝"
+],
+"Only a mouse fits every clue in the riddle."
+]
+],
+"engXLoc": [
+[
+"🐱 in 📦 — The cat is ___ the box.",
+"inside",
+[
+"outside",
+"below",
+"beside"
+],
+"<em>Inside</em> means in, which matches the picture."
+],
+[
+"🌙 over 🏠 — The moon is ___ the house.",
+"above",
+[
+"beside",
+"below",
+"inside"
+],
+"<em>Above</em> means over, which matches the picture."
+],
+[
+"👟 under 🪑 — The shoes are ___ the chair.",
+"below",
+[
+"above",
+"beside",
+"next to"
+],
+"<em>Below</em> means under, which matches the picture."
+],
+[
+"🐕 out of 🏠 — The dog plays ___ the house.",
+"outside",
+[
+"below",
+"beside",
+"inside"
+],
+"<em>Outside</em> means out of, which matches the picture."
+],
+[
+"🍎 in 🧺 — The apple is ___ the basket.",
+"inside",
+[
+"next to",
+"beside",
+"below"
+],
+"<em>Inside</em> means in, which matches the picture."
+],
+[
+"☁️ over 🌳 — The cloud is ___ the tree.",
+"above",
+[
+"beside",
+"below",
+"outside"
+],
+"<em>Above</em> means over, which matches the picture."
+],
+[
+"🐭 under 🛏️ — The mouse hides ___ the bed.",
+"below",
+[
+"outside",
+"beside",
+"above"
+],
+"<em>Below</em> means under, which matches the picture."
+],
+[
+"👧 👦 — The girl stands ___ the boy.",
+"beside",
+[
+"below",
+"above",
+"outside"
+],
+"<em>Beside</em> means right by the side of, which matches the picture."
+],
+[
+"🐦 in 🪺 — The bird sits ___ the nest.",
+"inside",
+[
+"above",
+"beside",
+"below"
+],
+"<em>Inside</em> means in, which matches the picture."
+],
+[
+"🌞 over ⛰️ — The sun is ___ the hill.",
+"above",
+[
+"inside",
+"below",
+"next to"
+],
+"<em>Above</em> means over, which matches the picture."
+],
+[
+"🪱 under 🌱 — The worm is ___ the ground.",
+"below",
+[
+"inside",
+"next to",
+"beside"
+],
+"<em>Below</em> means under, which matches the picture."
+],
+[
+"🥛 🍪 — The milk is ___ the cookie.",
+"next to",
+[
+"above",
+"below",
+"inside"
+],
+"<em>Next to</em> means right by the side of, which matches the picture."
+],
+[
+"🧦 in 🗄️ — The socks are ___ the drawer.",
+"inside",
+[
+"below",
+"next to",
+"above"
+],
+"<em>Inside</em> means in, which matches the picture."
+],
+[
+"🐸 🌷 — The frog sits ___ the flower.",
+"beside",
+[
+"below",
+"inside",
+"outside"
+],
+"<em>Beside</em> means right by the side of, which matches the picture."
+],
+[
+"✈️ over 🏙️ — The plane flies ___ the city.",
+"above",
+[
+"below",
+"next to",
+"beside"
+],
+"<em>Above</em> means over, which matches the picture."
+],
+[
+"🐠 under ⛵ — The fish swims ___ the boat.",
+"below",
+[
+"next to",
+"beside",
+"inside"
+],
+"<em>Below</em> means under, which matches the picture."
+],
+[
+"🌳 out of 🏫 — The tree grows ___ the school.",
+"outside",
+[
+"beside",
+"below",
+"next to"
+],
+"<em>Outside</em> means out of, which matches the picture."
+],
+[
+"🧸 in 🎒 — The teddy bear is ___ the backpack.",
+"inside",
+[
+"below",
+"next to",
+"above"
+],
+"<em>Inside</em> means in, which matches the picture."
+],
+[
+"🐶 🐱 — The dog sleeps ___ the cat.",
+"next to",
+[
+"below",
+"inside",
+"outside"
+],
+"<em>Next to</em> means right by the side of, which matches the picture."
+],
+[
+"🪁 over 🌲 — The kite is ___ the tree.",
+"above",
+[
+"below",
+"next to",
+"outside"
+],
+"<em>Above</em> means over, which matches the picture."
+],
+[
+"🖍️ 📘 — The crayon is ___ the book.",
+"beside",
+[
+"outside",
+"below",
+"inside"
+],
+"<em>Beside</em> means right by the side of, which matches the picture."
+],
+[
+"🐞 under 🍃 — The ladybug is ___ the leaf.",
+"below",
+[
+"inside",
+"next to",
+"beside"
+],
+"<em>Below</em> means under, which matches the picture."
+]
+]
+}

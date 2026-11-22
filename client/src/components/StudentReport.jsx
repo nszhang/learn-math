@@ -156,6 +156,12 @@ export function StudentActivity({ s, r }) {
     <section className="report-student">
       <h4>📈 Activity — last {r.n} days</h4>
       {s.lastSeen && <p className="muted">Last opened LearnAce {new Date(s.lastSeen).toLocaleString()}.</p>}
+      {s.diagnostics?.length > 0 && (
+        <p className="report-diag">🎯 Diagnostic: {s.diagnostics.map(d => (
+          <span key={d.subject} title={Object.entries(d.strands || {}).map(([k, v]) => `${k}: ${gradeLabel(Math.round(v))}`).join('\n')}>
+            <strong>{d.subject[0].toUpperCase() + d.subject.slice(1)}</strong> ≈ {gradeLabel(Math.round(d.level))} <span className="muted">({new Date(d.taken_at).toLocaleDateString()})</span>
+          </span>)).reduce((a, b) => [a, ' · ', b])}</p>
+      )}
       <div className="report-flags">
         {r.flags.length ? r.flags.map(f => <span key={f.id} className="report-flag">⚠️ {f.text}</span>) : <span className="report-good">✓ On track</span>}
       </div>

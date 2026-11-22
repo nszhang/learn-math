@@ -18,6 +18,7 @@ import { CallProvider } from './components/Calls.jsx';
 import { startLiveEvents, stopLiveEvents, onLiveEvent } from './events.js';
 import ChallengesPage from './components/Challenges.jsx';
 import PracticePage from './components/PracticePage.jsx';
+import DiagnosticPage from './components/DiagnosticPage.jsx';
 import Confetti from './components/Confetti.jsx';
 import ThemeToggle from './components/ThemeToggle.jsx';
 
@@ -193,7 +194,10 @@ export default function App() {
       </div>
     </header>
 
-    {practiceCfg?.mode === 'review' ? (
+    {practiceCfg?.mode === 'diagnostic' ? (
+      <DiagnosticPage subject={SUBJECTS.find(s => s.id === practiceCfg.subject)} me={me} onExit={() => exitPractice(practiceCfg)}
+        onStartSkill={skillId => setView({ ...view, practice: { mode: 'skill', skillId } }, { replace: true })} />
+    ) : practiceCfg?.mode === 'review' ? (
       <ReviewPage toast={toast} fireConfetti={fireConfetti} onExit={() => exitPractice(practiceCfg)} />
     ) : practiceCfg ? (
       <PracticePage cfg={practiceCfg} me={me} toast={toast}
@@ -215,7 +219,8 @@ export default function App() {
           onStartSkill={startSkill} onStartHomework={startHomework} toast={toast}
           onLevelChanged={() => { refreshMe(); refreshHomework(); }}
           onLearn={openLesson}
-          onStartReview={() => startPractice({ mode: 'review' })} />))}
+          onStartReview={() => startPractice({ mode: 'review' })}
+          onStartDiagnostic={() => startPractice({ mode: 'diagnostic', subject: subj.id })} />))}
       {page === 'homework' && <HomeworkPage homework={homework} onStart={startHomework} />}
       {page === 'learn' && <LearnPage key={learnOpen || 'learn'} toast={toast} fireConfetti={fireConfetti} initialOpen={learnOpen}
         myGrade={me?.user?.grade ?? null} onPractice={user.role === 'student' ? startSkill : null} />}

@@ -190,3 +190,16 @@ CREATE INDEX IF NOT EXISTS idx_skill_days_user ON skill_days(user_id, day);
 ALTER TABLE skill_progress ADD COLUMN IF NOT EXISTS last_at TIMESTAMPTZ;
 ALTER TABLE skill_progress ADD COLUMN IF NOT EXISTS mastered_at TIMESTAMPTZ;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS last_seen_at TIMESTAMPTZ;
+
+-- ---------- diagnostic results (adaptive placement check per subject) ----------
+CREATE TABLE IF NOT EXISTS diagnostics (
+  id       SERIAL PRIMARY KEY,
+  user_id  INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  subject  TEXT NOT NULL,
+  level    REAL NOT NULL,          -- estimated working grade (-1 = JK … 12)
+  strands  JSONB NOT NULL,         -- { strandName: level }
+  answered INT  NOT NULL DEFAULT 0,
+  correct  INT  NOT NULL DEFAULT 0,
+  taken_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+CREATE INDEX IF NOT EXISTS idx_diagnostics_user ON diagnostics(user_id);

@@ -1,0 +1,5552 @@
+{
+ "engNnSl": [
+  [
+   "Which word is a noun? The frog jumped into the pond.",
+   "pond",
+   [
+    "jumped",
+    "into",
+    "the"
+   ],
+   "“pond” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? My cousin sings loudly.",
+   "cousin",
+   [
+    "My",
+    "sings",
+    "loudly"
+   ],
+   "“cousin” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? We painted a bright mural.",
+   "mural",
+   [
+    "We",
+    "painted",
+    "bright"
+   ],
+   "“mural” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? Grandma knits warm mittens.",
+   "mittens",
+   [
+    "knits",
+    "warm",
+    "slowly"
+   ],
+   "“mittens” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? They rode quickly to school.",
+   "school",
+   [
+    "They",
+    "rode",
+    "quickly"
+   ],
+   "“school” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? A tiny spider spun a web.",
+   "web",
+   [
+    "tiny",
+    "spun",
+    "A"
+   ],
+   "“web” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? He carefully opened the gift.",
+   "gift",
+   [
+    "He",
+    "carefully",
+    "opened"
+   ],
+   "“gift” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? I wear my boots when it snows.",
+   "boots",
+   [
+    "wear",
+    "when",
+    "snows"
+   ],
+   "“boots” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? The happy baby giggled.",
+   "baby",
+   [
+    "happy",
+    "giggled",
+    "The"
+   ],
+   "“baby” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? Our class visited a farm.",
+   "farm",
+   [
+    "Our",
+    "visited",
+    "a"
+   ],
+   "“farm” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? She climbed up the tall ladder.",
+   "ladder",
+   [
+    "climbed",
+    "up",
+    "tall"
+   ],
+   "“ladder” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? Please pass the salt to me.",
+   "salt",
+   [
+    "Please",
+    "pass",
+    "me"
+   ],
+   "“salt” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? The bus stopped suddenly.",
+   "bus",
+   [
+    "stopped",
+    "suddenly",
+    "The"
+   ],
+   "“bus” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? We will swim in the lake.",
+   "lake",
+   [
+    "will",
+    "swim",
+    "in"
+   ],
+   "“lake” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? My brother is very silly.",
+   "brother",
+   [
+    "is",
+    "very",
+    "silly"
+   ],
+   "“brother” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? The moose drank cold water.",
+   "moose",
+   [
+    "drank",
+    "cold",
+    "The"
+   ],
+   "“moose” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? The pilot flew over the city.",
+   "pilot",
+   [
+    "flew",
+    "over",
+    "The"
+   ],
+   "“pilot” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? They quietly read their comics.",
+   "comics",
+   [
+    "They",
+    "quietly",
+    "read"
+   ],
+   "“comics” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? A strong wind shook the house.",
+   "wind",
+   [
+    "strong",
+    "shook",
+    "A"
+   ],
+   "“wind” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? We ate soup at noon.",
+   "soup",
+   [
+    "We",
+    "ate",
+    "at"
+   ],
+   "“soup” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? The shiny coin fell down.",
+   "coin",
+   [
+    "shiny",
+    "fell",
+    "down"
+   ],
+   "“coin” names a person, place, animal or thing."
+  ],
+  [
+   "Which word is a noun? I smell fresh bread.",
+   "bread",
+   [
+    "I",
+    "smell",
+    "fresh"
+   ],
+   "“bread” names a person, place, animal or thing."
+  ]
+ ],
+ "engXPrpN": [
+  [
+   "Which word is a proper noun?",
+   "Manitoba",
+   [
+    "province",
+    "flag",
+    "river"
+   ],
+   "Manitoba is the name of a special province, so it starts with a capital letter."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Montreal",
+   [
+    "city",
+    "street",
+    "park"
+   ],
+   "Montreal names one special city."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Friday",
+   [
+    "week",
+    "night",
+    "morning"
+   ],
+   "Friday is the name of a day of the week."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Lake Superior",
+   [
+    "lake",
+    "pond",
+    "beach"
+   ],
+   "Lake Superior is the name of one special lake."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Ms. Patel",
+   [
+    "teacher",
+    "woman",
+    "friend"
+   ],
+   "Ms. Patel is the name of a special person."
+  ],
+  [
+   "Which word is a proper noun?",
+   "August",
+   [
+    "month",
+    "summer",
+    "year"
+   ],
+   "August is the name of a month."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Canada Day",
+   [
+    "party",
+    "holiday",
+    "parade"
+   ],
+   "Canada Day is the name of a special holiday."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Rocky Mountains",
+   [
+    "mountains",
+    "hill",
+    "valley"
+   ],
+   "The Rocky Mountains are a special, named mountain range."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Max",
+   [
+    "dog",
+    "puppy",
+    "pet"
+   ],
+   "Max is the name of one special pet."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Vancouver",
+   [
+    "town",
+    "harbour",
+    "island"
+   ],
+   "Vancouver names one special city."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Maple Street",
+   [
+    "road",
+    "street",
+    "sidewalk"
+   ],
+   "Maple Street is the name of one special street."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Saturday",
+   [
+    "weekend",
+    "day",
+    "noon"
+   ],
+   "Saturday is the name of a day of the week."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Mr. Brown",
+   [
+    "man",
+    "coach",
+    "doctor"
+   ],
+   "Mr. Brown is the name of a special person."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Nova Scotia",
+   [
+    "province",
+    "ocean",
+    "farm"
+   ],
+   "Nova Scotia is the name of a province."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Christmas",
+   [
+    "holiday",
+    "present",
+    "tree"
+   ],
+   "Christmas is the name of a special holiday."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Lily",
+   [
+    "girl",
+    "sister",
+    "baby"
+   ],
+   "Lily is a person's name."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Niagara Falls",
+   [
+    "waterfall",
+    "river",
+    "cliff"
+   ],
+   "Niagara Falls is the name of one special waterfall."
+  ],
+  [
+   "Which word is a proper noun?",
+   "December",
+   [
+    "winter",
+    "month",
+    "season"
+   ],
+   "December is the name of a month."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Ottawa",
+   [
+    "capital",
+    "city",
+    "building"
+   ],
+   "Ottawa names one special city, the capital of Canada."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Dr. Singh",
+   [
+    "nurse",
+    "doctor",
+    "dentist"
+   ],
+   "Dr. Singh is the name of a special person."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Atlantic Ocean",
+   [
+    "ocean",
+    "sea",
+    "wave"
+   ],
+   "The Atlantic Ocean is the name of one special ocean."
+  ],
+  [
+   "Which word is a proper noun?",
+   "Earth Day",
+   [
+    "planet",
+    "day",
+    "garden"
+   ],
+   "Earth Day is the name of a special day."
+  ]
+ ],
+ "engXIpPc": [
+  [
+   "🍞🍞 Which word matches the picture?",
+   "loaves",
+   [
+    "loaf",
+    "loafs",
+    "loafes"
+   ],
+   "The plural of loaf is loaves."
+  ],
+  [
+   "🍞 Which word matches the picture?",
+   "loaf",
+   [
+    "loaves",
+    "loafs",
+    "loafes"
+   ],
+   "There is only one, so the word is loaf."
+  ],
+  [
+   "🧝🧝🧝 Which word matches the picture?",
+   "elves",
+   [
+    "elf",
+    "elfs",
+    "elfes"
+   ],
+   "The plural of elf is elves."
+  ],
+  [
+   "🧝 Which word matches the picture?",
+   "elf",
+   [
+    "elves",
+    "elfs",
+    "elfes"
+   ],
+   "There is only one, so the word is elf."
+  ],
+  [
+   "🧣🧣 Which word matches the picture?",
+   "scarves",
+   [
+    "scarf",
+    "scarfs",
+    "scarfes"
+   ],
+   "The plural of scarf is scarves."
+  ],
+  [
+   "🧣 Which word matches the picture?",
+   "scarf",
+   [
+    "scarves",
+    "scarfs",
+    "scarfes"
+   ],
+   "There is only one, so the word is scarf."
+  ],
+  [
+   "🦬🦬🦬 Which word matches the picture?",
+   "bison",
+   [
+    "bisons",
+    "bisones",
+    "bisen"
+   ],
+   "Bison stays the same for one or many."
+  ],
+  [
+   "👩👩👩 Which word matches the picture?",
+   "women",
+   [
+    "woman",
+    "womans",
+    "womens"
+   ],
+   "The plural of woman is women."
+  ],
+  [
+   "👩 Which word matches the picture?",
+   "woman",
+   [
+    "women",
+    "womans",
+    "womens"
+   ],
+   "There is only one, so the word is woman."
+  ],
+  [
+   "🐑🐑🐑 Which word matches the picture?",
+   "sheep",
+   [
+    "sheeps",
+    "sheepes",
+    "shoop"
+   ],
+   "Sheep stays the same for one or many."
+  ],
+  [
+   "🐟🐟🐟 Which word matches the picture?",
+   "fish",
+   [
+    "fishs",
+    "fishies",
+    "foosh"
+   ],
+   "Fish usually stays the same when there are many."
+  ],
+  [
+   "🦌🦌 Which word matches the picture?",
+   "deer",
+   [
+    "deers",
+    "dears",
+    "deeres"
+   ],
+   "Deer stays the same for one or many."
+  ],
+  [
+   "🦑🦑 Which word matches the picture?",
+   "squid",
+   [
+    "squids",
+    "squides",
+    "squiden"
+   ],
+   "Squid usually stays the same for one or many."
+  ],
+  [
+   "🐂🐂 Which word matches the picture?",
+   "oxen",
+   [
+    "oxes",
+    "ox",
+    "oxs"
+   ],
+   "The plural of ox is oxen."
+  ],
+  [
+   "🐂 Which word matches the picture?",
+   "ox",
+   [
+    "oxen",
+    "oxes",
+    "oxs"
+   ],
+   "There is only one, so the word is ox."
+  ],
+  [
+   "🍂🍂🍂 Which word matches the picture?",
+   "leaves",
+   [
+    "leafs",
+    "leaf",
+    "leafes"
+   ],
+   "The plural of leaf is leaves."
+  ],
+  [
+   "🍂 Which word matches the picture?",
+   "leaf",
+   [
+    "leaves",
+    "leafs",
+    "leafes"
+   ],
+   "There is only one, so the word is leaf."
+  ],
+  [
+   "🔪🔪 Which word matches the picture?",
+   "knives",
+   [
+    "knifes",
+    "knife",
+    "knivs"
+   ],
+   "The plural of knife is knives."
+  ],
+  [
+   "🐺🐺🐺 Which word matches the picture?",
+   "wolves",
+   [
+    "wolfs",
+    "wolf",
+    "wolfes"
+   ],
+   "The plural of wolf is wolves."
+  ],
+  [
+   "🐺 Which word matches the picture?",
+   "wolf",
+   [
+    "wolves",
+    "wolfs",
+    "wolfes"
+   ],
+   "There is only one, so the word is wolf."
+  ],
+  [
+   "🧑🧑🧑 Which word matches the picture?",
+   "people",
+   [
+    "person",
+    "persons",
+    "peoples"
+   ],
+   "The plural of person is usually people."
+  ],
+  [
+   "🧑 Which word matches the picture?",
+   "person",
+   [
+    "people",
+    "peoples",
+    "persones"
+   ],
+   "There is only one, so the word is person."
+  ]
+ ],
+ "engXPsPc": [
+  [
+   "🐷🌽 Which words match the picture?",
+   "the pig's corn",
+   [
+    "the pigs corn",
+    "the pig corn's",
+    "the corn pig"
+   ],
+   "Adding 's to pig shows that the corn belongs to the pig."
+  ],
+  [
+   "👦⚽ Which words match the picture?",
+   "the boy's ball",
+   [
+    "the boys ball",
+    "the boy ball's",
+    "the ball boy"
+   ],
+   "Adding 's to boy shows that the ball belongs to the boy."
+  ],
+  [
+   "🐰🥕 Which words match the picture?",
+   "the rabbit's carrot",
+   [
+    "the rabbits carrot",
+    "the rabbit carrot's",
+    "the carrot rabbit"
+   ],
+   "Adding 's to rabbit shows that the carrot belongs to the rabbit."
+  ],
+  [
+   "👩‍⚕️🩺 Which words match the picture?",
+   "the doctor's stethoscope",
+   [
+    "the doctors stethoscope",
+    "the doctor stethoscope's",
+    "the stethoscope doctor"
+   ],
+   "Adding 's to doctor shows that the stethoscope belongs to the doctor."
+  ],
+  [
+   "🐝🍯 Which words match the picture?",
+   "the bee's honey",
+   [
+    "the bees honey",
+    "the bee honey's",
+    "the honey bee"
+   ],
+   "Adding 's to bee shows that the honey belongs to the bee."
+  ],
+  [
+   "🐒🍌 Which words match the picture?",
+   "the monkey's banana",
+   [
+    "the monkeys banana",
+    "the monkey banana's",
+    "the banana monkey"
+   ],
+   "Adding 's to monkey shows that the banana belongs to the monkey."
+  ],
+  [
+   "👶🍼 Which words match the picture?",
+   "the baby's bottle",
+   [
+    "the babys bottle",
+    "the baby bottle's",
+    "the bottle baby"
+   ],
+   "Adding 's to baby shows that the bottle belongs to the baby."
+  ],
+  [
+   "🧙🪄 Which words match the picture?",
+   "the wizard's wand",
+   [
+    "the wizards wand",
+    "the wizard wand's",
+    "the wand wizard"
+   ],
+   "Adding 's to wizard shows that the wand belongs to the wizard."
+  ],
+  [
+   "🐴🪢 Which words match the picture?",
+   "the horse's rope",
+   [
+    "the horses rope",
+    "the horse rope's",
+    "the rope horse"
+   ],
+   "Adding 's to horse shows that the rope belongs to the horse."
+  ],
+  [
+   "👮🚓 Which words match the picture?",
+   "the officer's car",
+   [
+    "the officers car",
+    "the officer car's",
+    "the car officer"
+   ],
+   "Adding 's to officer shows that the car belongs to the officer."
+  ],
+  [
+   "🐭🧀 Which words match the picture?",
+   "the mouse's cheese",
+   [
+    "the mouses cheese",
+    "the mouse cheese's",
+    "the cheese mouse"
+   ],
+   "Adding 's to mouse shows that the cheese belongs to the mouse."
+  ],
+  [
+   "👸👑 Which words match the picture?",
+   "the queen's crown",
+   [
+    "the queens crown",
+    "the queen crown's",
+    "the crown queen"
+   ],
+   "Adding 's to queen shows that the crown belongs to the queen."
+  ],
+  [
+   "🐻🍯 Which words match the picture?",
+   "the bear's pot",
+   [
+    "the bears pot",
+    "the bear pot's",
+    "the pot bear"
+   ],
+   "Adding 's to bear shows that the pot belongs to the bear."
+  ],
+  [
+   "🧑‍🚀🚀 Which words match the picture?",
+   "the astronaut's rocket",
+   [
+    "the astronauts rocket",
+    "the astronaut rocket's",
+    "the rocket astronaut"
+   ],
+   "Adding 's to astronaut shows that the rocket belongs to the astronaut."
+  ],
+  [
+   "🐸🪷 Which words match the picture?",
+   "the frog's lily pad",
+   [
+    "the frogs lily pad",
+    "the frog lily pad's",
+    "the lily pad frog"
+   ],
+   "Adding 's to frog shows that the lily pad belongs to the frog."
+  ],
+  [
+   "👨‍🌾🚜 Which words match the picture?",
+   "the farmer's tractor",
+   [
+    "the farmers tractor",
+    "the farmer tractor's",
+    "the tractor farmer"
+   ],
+   "Adding 's to farmer shows that the tractor belongs to the farmer."
+  ],
+  [
+   "🐔🥚 Which words match the picture?",
+   "the hen's egg",
+   [
+    "the hens egg",
+    "the hen egg's",
+    "the egg hen"
+   ],
+   "Adding 's to hen shows that the egg belongs to the hen."
+  ],
+  [
+   "🧑‍🎨🎨 Which words match the picture?",
+   "the artist's paint",
+   [
+    "the artists paint",
+    "the artist paint's",
+    "the paint artist"
+   ],
+   "Adding 's to artist shows that the paint belongs to the artist."
+  ],
+  [
+   "🐿️🌰 Which words match the picture?",
+   "the squirrel's acorn",
+   [
+    "the squirrels acorn",
+    "the squirrel acorn's",
+    "the acorn squirrel"
+   ],
+   "Adding 's to squirrel shows that the acorn belongs to the squirrel."
+  ],
+  [
+   "👴🎩 Which words match the picture?",
+   "the man's hat",
+   [
+    "the mans hat",
+    "the man hat's",
+    "the hat man"
+   ],
+   "Adding 's to man shows that the hat belongs to the man."
+  ],
+  [
+   "🐧🐟 Which words match the picture?",
+   "the penguin's fish",
+   [
+    "the penguins fish",
+    "the penguin fish's",
+    "the fish penguin"
+   ],
+   "Adding 's to penguin shows that the fish belongs to the penguin."
+  ],
+  [
+   "🦁👑 Which words match the picture?",
+   "the lion's crown",
+   [
+    "the lions crown",
+    "the lion crown's",
+    "the crown lion"
+   ],
+   "Adding 's to lion shows that the crown belongs to the lion."
+  ]
+ ],
+ "engPLU": [
+  [
+   "What is the plural of goose ? (More than one)",
+   "geese",
+   [
+    "gooses",
+    "geeses",
+    "goose"
+   ],
+   "The plural of goose is geese."
+  ],
+  [
+   "What is the plural of elf ? (More than one)",
+   "elves",
+   [
+    "elfs",
+    "elfes",
+    "elvs"
+   ],
+   "The plural of elf is elves."
+  ],
+  [
+   "What is the plural of woman ? (More than one)",
+   "women",
+   [
+    "womans",
+    "womens",
+    "womanes"
+   ],
+   "The plural of woman is women."
+  ],
+  [
+   "What is the plural of sheep ? (More than one)",
+   "sheep",
+   [
+    "sheeps",
+    "shoop",
+    "sheepes"
+   ],
+   "The plural of sheep is sheep."
+  ],
+  [
+   "What is the plural of leaf ? (More than one)",
+   "leaves",
+   [
+    "leafs",
+    "leafes",
+    "leavs"
+   ],
+   "The plural of leaf is leaves."
+  ],
+  [
+   "What is the plural of wolf ? (More than one)",
+   "wolves",
+   [
+    "wolfs",
+    "wolfes",
+    "wolvs"
+   ],
+   "The plural of wolf is wolves."
+  ],
+  [
+   "What is the plural of knife ? (More than one)",
+   "knives",
+   [
+    "knifes",
+    "knifs",
+    "knivs"
+   ],
+   "The plural of knife is knives."
+  ],
+  [
+   "What is the plural of ox ? (More than one)",
+   "oxen",
+   [
+    "oxes",
+    "oxs",
+    "oxens"
+   ],
+   "The plural of ox is oxen."
+  ],
+  [
+   "What is the plural of person ? (More than one)",
+   "people",
+   [
+    "persons",
+    "peoples",
+    "persones"
+   ],
+   "The plural of person is people."
+  ],
+  [
+   "What is the plural of deer ? (More than one)",
+   "deer",
+   [
+    "deers",
+    "dears",
+    "deeres"
+   ],
+   "The plural of deer is deer."
+  ],
+  [
+   "What is the plural of fish ? (More than one)",
+   "fish",
+   [
+    "fishs",
+    "fishies",
+    "fishen"
+   ],
+   "The plural of fish is fish."
+  ],
+  [
+   "What is the plural of calf ? (More than one)",
+   "calves",
+   [
+    "calfs",
+    "calfes",
+    "calvs"
+   ],
+   "The plural of calf is calves."
+  ],
+  [
+   "What is the plural of shelf ? (More than one)",
+   "shelves",
+   [
+    "shelfs",
+    "shelfes",
+    "shelvs"
+   ],
+   "The plural of shelf is shelves."
+  ],
+  [
+   "What is the plural of scarf ? (More than one)",
+   "scarves",
+   [
+    "scarfs",
+    "scarfes",
+    "scarvs"
+   ],
+   "The plural of scarf is scarves."
+  ],
+  [
+   "What is the plural of fox ? (More than one)",
+   "foxes",
+   [
+    "foxs",
+    "foxen",
+    "foxies"
+   ],
+   "The plural of fox is foxes."
+  ],
+  [
+   "What is the plural of life ? (More than one)",
+   "lives",
+   [
+    "lifes",
+    "lifs",
+    "livs"
+   ],
+   "The plural of life is lives."
+  ],
+  [
+   "What is the plural of bench ? (More than one)",
+   "benches",
+   [
+    "benchs",
+    "benchies",
+    "benchen"
+   ],
+   "The plural of bench is benches."
+  ],
+  [
+   "What is the plural of puppy ? (More than one)",
+   "puppies",
+   [
+    "puppys",
+    "puppyes",
+    "puppis"
+   ],
+   "The plural of puppy is puppies."
+  ],
+  [
+   "What is the plural of half ? (More than one)",
+   "halves",
+   [
+    "halfs",
+    "halfes",
+    "halvs"
+   ],
+   "The plural of half is halves."
+  ],
+  [
+   "What is the plural of loaf ? (More than one)",
+   "loaves",
+   [
+    "loafs",
+    "loafes",
+    "loavs"
+   ],
+   "The plural of loaf is loaves."
+  ],
+  [
+   "What is the plural of moose ? (More than one)",
+   "moose",
+   [
+    "mooses",
+    "meese",
+    "moosen"
+   ],
+   "The plural of moose is moose."
+  ],
+  [
+   "What is the plural of cherry ? (More than one)",
+   "cherries",
+   [
+    "cherrys",
+    "cherryes",
+    "cherris"
+   ],
+   "The plural of cherry is cherries."
+  ]
+ ],
+ "engXPrCh": [
+  [
+   "Complete the sentence. Sam lost his hat. ___ looked everywhere for it.",
+   "He",
+   [
+    "She",
+    "It",
+    "They"
+   ],
+   "Sam is one boy, so we use He."
+  ],
+  [
+   "Complete the sentence. Lucy is my friend. I play with ___ at recess.",
+   "her",
+   [
+    "she",
+    "him",
+    "they"
+   ],
+   "Her is used after a verb for a girl."
+  ],
+  [
+   "Complete the sentence. The dog is barking. ___ wants to go outside.",
+   "It",
+   [
+    "He",
+    "They",
+    "We"
+   ],
+   "We use It for an animal or thing."
+  ],
+  [
+   "Complete the sentence. Mom and Dad cooked supper. ___ made pasta.",
+   "They",
+   [
+    "We",
+    "He",
+    "Them"
+   ],
+   "Mom and Dad are two people, so we use They."
+  ],
+  [
+   "Complete the sentence. I called Ben, but ___ did not answer.",
+   "he",
+   [
+    "him",
+    "she",
+    "they"
+   ],
+   "Ben is one boy doing the action, so we use he."
+  ],
+  [
+   "Complete the sentence. My friends and I went skating. ___ had fun.",
+   "We",
+   [
+    "They",
+    "Us",
+    "I"
+   ],
+   "My friends and I includes me, so we use We."
+  ],
+  [
+   "Complete the sentence. Can you help ___ carry this box? I can't lift it alone.",
+   "me",
+   [
+    "I",
+    "my",
+    "we"
+   ],
+   "Me is used after a verb when the speaker is the one helped."
+  ],
+  [
+   "Complete the sentence. Mr. Kim is our coach. We like ___ a lot.",
+   "him",
+   [
+    "he",
+    "his",
+    "they"
+   ],
+   "Him is used after a verb for a man."
+  ],
+  [
+   "Complete the sentence. The flowers need water. Please water ___.",
+   "them",
+   [
+    "they",
+    "it",
+    "him"
+   ],
+   "Flowers is more than one, so we use them."
+  ],
+  [
+   "Complete the sentence. Grandma sent a card. ___ lives in Halifax.",
+   "She",
+   [
+    "He",
+    "It",
+    "Her"
+   ],
+   "Grandma is a woman doing the action, so we use She."
+  ],
+  [
+   "Complete the sentence. Jake and I built a snowman. Mom took a picture of ___.",
+   "us",
+   [
+    "we",
+    "they",
+    "I"
+   ],
+   "Us is used after of when the speaker is included."
+  ],
+  [
+   "Complete the sentence. My bike is broken. Dad will fix ___ today.",
+   "it",
+   [
+    "him",
+    "them",
+    "he"
+   ],
+   "A bike is a thing, so we use it."
+  ],
+  [
+   "Complete the sentence. Nina, are ___ ready to go?",
+   "you",
+   [
+    "she",
+    "me",
+    "they"
+   ],
+   "We use you when we talk to someone."
+  ],
+  [
+   "Complete the sentence. The twins have a new puppy. ___ named it Biscuit.",
+   "They",
+   [
+    "She",
+    "He",
+    "We"
+   ],
+   "The twins are two people, so we use They."
+  ],
+  [
+   "Complete the sentence. I have a sore throat. ___ need some tea.",
+   "I",
+   [
+    "Me",
+    "My",
+    "Mine"
+   ],
+   "I is used when the speaker does the action."
+  ],
+  [
+   "Complete the sentence. Ella waved at Tim, and Tim waved at ___.",
+   "her",
+   [
+    "she",
+    "him",
+    "them"
+   ],
+   "Ella is a girl, and her is used after a verb."
+  ],
+  [
+   "Complete the sentence. The teacher read us a story. ___ loved it!",
+   "We",
+   [
+    "Us",
+    "They",
+    "He"
+   ],
+   "We is used when the speakers do the action."
+  ],
+  [
+   "Complete the sentence. My uncle drives a truck. ___ drives it every day.",
+   "He",
+   [
+    "She",
+    "It",
+    "Him"
+   ],
+   "My uncle is a man doing the action, so we use He."
+  ],
+  [
+   "Complete the sentence. Those birds are noisy. Can you hear ___?",
+   "them",
+   [
+    "they",
+    "it",
+    "her"
+   ],
+   "Birds is more than one, so we use them after a verb."
+  ],
+  [
+   "Complete the sentence. The cake looks yummy. Let's eat ___!",
+   "it",
+   [
+    "them",
+    "him",
+    "she"
+   ],
+   "A cake is one thing, so we use it."
+  ],
+  [
+   "Complete the sentence. Ali and Maya are here. Please say hello to ___.",
+   "them",
+   [
+    "they",
+    "her",
+    "us"
+   ],
+   "Ali and Maya are two people, so we use them after to."
+  ],
+  [
+   "Complete the sentence. Mom gave ___ a hug before school, and I hugged her back.",
+   "me",
+   [
+    "I",
+    "he",
+    "they"
+   ],
+   "Me is used after a verb for the speaker."
+  ]
+ ],
+ "engXPrCs": [
+  [
+   "Complete the sentence. Lena likes to paint. ___ paints every day.",
+   "She",
+   [
+    "He",
+    "It",
+    "They"
+   ],
+   "Lena is a girl, so we use She."
+  ],
+  [
+   "Complete the sentence. The ball rolled away. Kai ran after ___.",
+   "it",
+   [
+    "him",
+    "them",
+    "they"
+   ],
+   "A ball is a thing, so we use it."
+  ],
+  [
+   "Complete the sentence. My cousins live far away. I miss ___.",
+   "them",
+   [
+    "they",
+    "him",
+    "it"
+   ],
+   "Cousins is more than one, so we use them."
+  ],
+  [
+   "Complete the sentence. Omar is tall. ___ can reach the top shelf.",
+   "He",
+   [
+    "She",
+    "It",
+    "Him"
+   ],
+   "Omar is a boy, so we use He."
+  ],
+  [
+   "Complete the sentence. Mia and I are best friends. ___ sit together.",
+   "We",
+   [
+    "Us",
+    "They",
+    "She"
+   ],
+   "Mia and I includes me, so we use We."
+  ],
+  [
+   "Complete the sentence. The kitten is cute. I want to pet ___.",
+   "it",
+   [
+    "them",
+    "she",
+    "they"
+   ],
+   "One kitten is one animal, so we use it."
+  ],
+  [
+   "Complete the sentence. Aunt Rose came over. We baked with ___.",
+   "her",
+   [
+    "she",
+    "him",
+    "them"
+   ],
+   "Aunt Rose is a woman, and her comes after with."
+  ],
+  [
+   "Complete the sentence. The boys are loud. ___ are playing tag.",
+   "They",
+   [
+    "He",
+    "We",
+    "Them"
+   ],
+   "The boys are more than one, so we use They."
+  ],
+  [
+   "Complete the sentence. Dad drove ___ to school because I was late.",
+   "me",
+   [
+    "I",
+    "my",
+    "he"
+   ],
+   "Me comes after a verb for the speaker."
+  ],
+  [
+   "Complete the sentence. The sun is hot today. ___ is shining brightly.",
+   "It",
+   [
+    "He",
+    "She",
+    "They"
+   ],
+   "The sun is a thing, so we use It."
+  ],
+  [
+   "Complete the sentence. Leo, can ___ pass the crayons?",
+   "you",
+   [
+    "he",
+    "they",
+    "me"
+   ],
+   "We use you when talking to someone."
+  ],
+  [
+   "Complete the sentence. Grandpa tells funny jokes. I laugh with ___.",
+   "him",
+   [
+    "he",
+    "her",
+    "them"
+   ],
+   "Grandpa is a man, and him comes after with."
+  ],
+  [
+   "Complete the sentence. My sister and I cleaned our room. Mom thanked ___.",
+   "us",
+   [
+    "we",
+    "they",
+    "I"
+   ],
+   "Us comes after a verb when the speaker is included."
+  ],
+  [
+   "Complete the sentence. The apples are ripe. Let's pick ___.",
+   "them",
+   [
+    "it",
+    "they",
+    "him"
+   ],
+   "Apples is more than one, so we use them."
+  ],
+  [
+   "Complete the sentence. I am hungry. ___ want a snack.",
+   "I",
+   [
+    "Me",
+    "He",
+    "It"
+   ],
+   "I is used when the speaker does the action."
+  ],
+  [
+   "Complete the sentence. The ducks swim in the pond. ___ like the water.",
+   "They",
+   [
+    "It",
+    "He",
+    "We"
+   ],
+   "The ducks are more than one, so we use They."
+  ],
+  [
+   "Complete the sentence. Mrs. Lopez is the principal. ___ visits our class.",
+   "She",
+   [
+    "He",
+    "It",
+    "They"
+   ],
+   "Mrs. Lopez is a woman, so we use She."
+  ],
+  [
+   "Complete the sentence. Jack lost his mitten. I found ___ in the snow.",
+   "it",
+   [
+    "him",
+    "them",
+    "they"
+   ],
+   "One mitten is a thing, so we use it."
+  ],
+  [
+   "Complete the sentence. Zoe drew a picture for ___, and I put it on my wall.",
+   "me",
+   [
+    "I",
+    "she",
+    "we"
+   ],
+   "Me comes after for when it means the speaker."
+  ],
+  [
+   "Complete the sentence. Ben and Ty are brothers. ___ share a room.",
+   "They",
+   [
+    "He",
+    "We",
+    "Them"
+   ],
+   "Ben and Ty are two people, so we use They."
+  ],
+  [
+   "Complete the sentence. The baby is sleeping. Please don't wake ___.",
+   "her",
+   [
+    "she",
+    "they",
+    "we"
+   ],
+   "We use her after a verb for a baby girl."
+  ],
+  [
+   "Complete the sentence. My friends and I like music. ___ sing in a band.",
+   "We",
+   [
+    "They",
+    "Us",
+    "She"
+   ],
+   "My friends and I includes the speaker, so we use We."
+  ]
+ ],
+ "engXPpCh": [
+  [
+   "Complete the sentence. Sara has a blue coat. It is ___ coat.",
+   "her",
+   [
+    "his",
+    "their",
+    "my"
+   ],
+   "Her shows the coat belongs to Sara."
+  ],
+  [
+   "Complete the sentence. I own this toy. It is ___ toy.",
+   "my",
+   [
+    "your",
+    "her",
+    "their"
+   ],
+   "My shows the toy belongs to me."
+  ],
+  [
+   "Complete the sentence. The kids have a fort. It is ___ fort.",
+   "their",
+   [
+    "his",
+    "her",
+    "its"
+   ],
+   "Their shows the fort belongs to the kids."
+  ],
+  [
+   "Complete the sentence. We have a garden. It is ___ garden.",
+   "our",
+   [
+    "their",
+    "my",
+    "his"
+   ],
+   "Our shows the garden belongs to us."
+  ],
+  [
+   "Complete the sentence. Is this ___ pencil, Ava?",
+   "your",
+   [
+    "my",
+    "his",
+    "its"
+   ],
+   "Your shows the pencil belongs to the person we talk to."
+  ],
+  [
+   "Complete the sentence. The dog wagged ___ tail.",
+   "its",
+   [
+    "it's",
+    "his",
+    "their"
+   ],
+   "Its shows the tail belongs to the dog."
+  ],
+  [
+   "Complete the sentence. Ryan packed ___ lunch.",
+   "his",
+   [
+    "her",
+    "its",
+    "our"
+   ],
+   "His shows the lunch belongs to Ryan."
+  ],
+  [
+   "Complete the sentence. Mom and Dad washed ___ car.",
+   "their",
+   [
+    "her",
+    "its",
+    "my"
+   ],
+   "Their shows the car belongs to Mom and Dad."
+  ],
+  [
+   "Complete the sentence. My sister and I fed ___ fish.",
+   "our",
+   [
+    "their",
+    "my",
+    "her"
+   ],
+   "Our shows the fish belongs to my sister and me."
+  ],
+  [
+   "Complete the sentence. I combed ___ hair.",
+   "my",
+   [
+    "your",
+    "her",
+    "his"
+   ],
+   "My shows the hair belongs to me."
+  ],
+  [
+   "Complete the sentence. Grandma lost ___ glasses.",
+   "her",
+   [
+    "his",
+    "their",
+    "its"
+   ],
+   "Her shows the glasses belong to Grandma."
+  ],
+  [
+   "Complete the sentence. The bird built ___ nest.",
+   "its",
+   [
+    "it's",
+    "their",
+    "her"
+   ],
+   "Its shows the nest belongs to the bird."
+  ],
+  [
+   "Complete the sentence. Uncle Joe fixed ___ roof.",
+   "his",
+   [
+    "her",
+    "their",
+    "its"
+   ],
+   "His shows the roof belongs to Uncle Joe."
+  ],
+  [
+   "Complete the sentence. You did ___ homework.",
+   "your",
+   [
+    "my",
+    "our",
+    "their"
+   ],
+   "Your shows the homework belongs to you."
+  ],
+  [
+   "Complete the sentence. The girls hung up ___ jackets.",
+   "their",
+   [
+    "her",
+    "its",
+    "his"
+   ],
+   "Their shows the jackets belong to the girls."
+  ],
+  [
+   "Complete the sentence. This is Kim's book. It is ___ book.",
+   "her",
+   [
+    "his",
+    "our",
+    "its"
+   ],
+   "Her shows the book belongs to Kim, a girl."
+  ],
+  [
+   "Complete the sentence. That ball belongs to Matt. It is ___ ball.",
+   "his",
+   [
+    "her",
+    "their",
+    "my"
+   ],
+   "His shows the ball belongs to Matt."
+  ],
+  [
+   "Complete the sentence. We love ___ teacher.",
+   "our",
+   [
+    "their",
+    "his",
+    "its"
+   ],
+   "Our shows the teacher is the one we have."
+  ],
+  [
+   "Complete the sentence. The tree lost ___ leaves.",
+   "its",
+   [
+    "it's",
+    "his",
+    "her"
+   ],
+   "Its shows the leaves belong to the tree."
+  ],
+  [
+   "Complete the sentence. Did you bring ___ boots?",
+   "your",
+   [
+    "my",
+    "its",
+    "their"
+   ],
+   "Your shows the boots belong to you."
+  ],
+  [
+   "Complete the sentence. The puppies ate ___ food.",
+   "their",
+   [
+    "its",
+    "his",
+    "her"
+   ],
+   "Their shows the food belongs to the puppies."
+  ],
+  [
+   "Complete the sentence. I like ___ new shoes.",
+   "my",
+   [
+    "your",
+    "its",
+    "their"
+   ],
+   "My shows the shoes belong to me."
+  ]
+ ],
+ "engXAvUs": [
+  [
+   "Complete the sentence. The fish ___ in the tank.",
+   "swims",
+   [
+    "wet",
+    "blue",
+    "bowl"
+   ],
+   "“swims” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. Mia ___ a letter to Grandma.",
+   "writes",
+   [
+    "paper",
+    "happy",
+    "slow"
+   ],
+   "“writes” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The baby ___ loudly.",
+   "cries",
+   [
+    "tiny",
+    "crib",
+    "soft"
+   ],
+   "“cries” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. We ___ the fence white.",
+   "paint",
+   [
+    "brush",
+    "shiny",
+    "fresh"
+   ],
+   "“paint” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The frog ___ over the log.",
+   "hops",
+   [
+    "green",
+    "pond",
+    "small"
+   ],
+   "“hops” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. Dad ___ the grass on Saturday.",
+   "mows",
+   [
+    "yard",
+    "tall",
+    "noisy"
+   ],
+   "“mows” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. I ___ my teeth every night.",
+   "brush",
+   [
+    "clean",
+    "white",
+    "sink"
+   ],
+   "“brush” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The horse ___ across the field.",
+   "gallops",
+   [
+    "brown",
+    "barn",
+    "quick"
+   ],
+   "“gallops” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. Leo ___ the drum.",
+   "bangs",
+   [
+    "loud",
+    "stick",
+    "round"
+   ],
+   "“bangs” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The chef ___ the onions.",
+   "chops",
+   [
+    "kitchen",
+    "sharp",
+    "sour"
+   ],
+   "“chops” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. They ___ up the hill.",
+   "climb",
+   [
+    "steep",
+    "rocky",
+    "top"
+   ],
+   "“climb” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The cat ___ the mouse.",
+   "chases",
+   [
+    "grey",
+    "quiet",
+    "tail"
+   ],
+   "“chases” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. Grandpa ___ wood for the fire.",
+   "splits",
+   [
+    "warm",
+    "axe",
+    "dry"
+   ],
+   "“splits” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The kids ___ in the snow.",
+   "play",
+   [
+    "cold",
+    "white",
+    "mitten"
+   ],
+   "“play” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. She ___ the rope.",
+   "pulls",
+   [
+    "long",
+    "thick",
+    "knot"
+   ],
+   "“pulls” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The wind ___ the leaves around.",
+   "blows",
+   [
+    "windy",
+    "autumn",
+    "red"
+   ],
+   "“blows” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. Our team ___ the game.",
+   "wins",
+   [
+    "proud",
+    "score",
+    "best"
+   ],
+   "“wins” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The plane ___ into the sky.",
+   "zooms",
+   [
+    "silver",
+    "airport",
+    "high"
+   ],
+   "“zooms” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. Ava ___ a song for the class.",
+   "sings",
+   [
+    "pretty",
+    "music",
+    "stage"
+   ],
+   "“sings” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The dog ___ a hole in the yard.",
+   "digs",
+   [
+    "muddy",
+    "shovel",
+    "deep"
+   ],
+   "“digs” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. I ___ my bike to the park.",
+   "ride",
+   [
+    "fast",
+    "wheel",
+    "red"
+   ],
+   "“ride” is an action verb — it tells what someone or something does."
+  ],
+  [
+   "Complete the sentence. The students ___ their hands.",
+   "raise",
+   [
+    "quiet",
+    "desk",
+    "polite"
+   ],
+   "“raise” is an action verb — it tells what someone or something does."
+  ]
+ ],
+ "engXOneM": [
+  [
+   "Which subject is more than one?",
+   "The puppies …",
+   [
+    "The bus …",
+    "The teacher …",
+    "My best friend …"
+   ],
+   "“The puppies” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "That tree …",
+   [
+    "Those trees …",
+    "My cousins …",
+    "Ten buses …"
+   ],
+   "“That tree” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "My cousins …",
+   [
+    "My aunt …",
+    "Our baby …",
+    "A goose …"
+   ],
+   "“My cousins” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "The red balloon …",
+   [
+    "Many balloons …",
+    "Three frogs …",
+    "Mom and Dad …"
+   ],
+   "“The red balloon” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "Three frogs …",
+   [
+    "A frog …",
+    "That tree …",
+    "The moon …"
+   ],
+   "“Three frogs” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "My best friend …",
+   [
+    "The children …",
+    "The teachers …",
+    "The girls …"
+   ],
+   "“My best friend” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "The teachers …",
+   [
+    "The teacher …",
+    "The red balloon …",
+    "Mom …"
+   ],
+   "“The teachers” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "A goose …",
+   [
+    "The mice …",
+    "The geese …",
+    "Two men …"
+   ],
+   "“A goose” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "The geese …",
+   [
+    "Our baby …",
+    "My best friend …",
+    "The child …"
+   ],
+   "“The geese” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "The moon …",
+   [
+    "Ten buses …",
+    "Those trees …",
+    "The kittens …"
+   ],
+   "“The moon” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "Those trees …",
+   [
+    "That tree …",
+    "A goose …",
+    "This mouse …"
+   ],
+   "“Those trees” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "Mom …",
+   [
+    "Mom and Dad …",
+    "Many balloons …",
+    "All the boxes …"
+   ],
+   "“Mom” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "Many balloons …",
+   [
+    "The red balloon …",
+    "The moon …",
+    "A big truck …"
+   ],
+   "“Many balloons” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "The child …",
+   [
+    "The girls …",
+    "The children …",
+    "Some people …"
+   ],
+   "“The child” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "The children …",
+   [
+    "My best friend …",
+    "Mom …",
+    "Our house …"
+   ],
+   "“The children” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "This mouse …",
+   [
+    "Two men …",
+    "The mice …",
+    "The puppies …"
+   ],
+   "“This mouse” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "The mice …",
+   [
+    "A goose …",
+    "The child …",
+    "The pilot …"
+   ],
+   "“The mice” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "A big truck …",
+   [
+    "The kittens …",
+    "Ten buses …",
+    "My cousins …"
+   ],
+   "“A big truck” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "Ten buses …",
+   [
+    "The moon …",
+    "This mouse …",
+    "The bus …"
+   ],
+   "“Ten buses” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "Our house …",
+   [
+    "All the boxes …",
+    "Mom and Dad …",
+    "Three frogs …"
+   ],
+   "“Our house” names only one."
+  ],
+  [
+   "Which subject is more than one?",
+   "Mom and Dad …",
+   [
+    "Mom …",
+    "A big truck …",
+    "My aunt …"
+   ],
+   "“Mom and Dad” names more than one."
+  ],
+  [
+   "Which subject is just one?",
+   "The pilot …",
+   [
+    "Some people …",
+    "The girls …",
+    "The teachers …"
+   ],
+   "“The pilot” names only one."
+  ]
+ ],
+ "engXTlPr": [
+  [
+   "Which sentence tells about the present?",
+   "The bird is singing in the tree.",
+   [
+    "Last night we watched the stars.",
+    "Grandma will visit us next week.",
+    "Our class walked to the library last week."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "We are eating lunch now.",
+   [
+    "I jumped in the puddles yesterday.",
+    "I will feed the cat later.",
+    "I helped Dad wash the car yesterday."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "My brother rides his bike.",
+   [
+    "Grandpa visited us last weekend.",
+    "Next year she will be in Grade 3.",
+    "We picked apples last autumn."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "The kitten is playing with yarn.",
+   [
+    "The baby smiled at me this morning.",
+    "We will go camping this weekend.",
+    "The snow melted two days ago."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "Mom is reading a story.",
+   [
+    "We planted tulips last fall.",
+    "Dad will fix my bike tomorrow.",
+    "Ana called her cousin last night."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "I am brushing my teeth right now.",
+   [
+    "Mom painted the fence on Sunday.",
+    "The class will go on a trip next month.",
+    "The team played hockey on Saturday."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "The sun is shining today.",
+   [
+    "The puppy chewed my sock yesterday.",
+    "I will call you tonight.",
+    "I cleaned my room an hour ago."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "Dad cooks pancakes on Sundays.",
+   [
+    "Our class walked to the library last week.",
+    "We are going to skate on Saturday.",
+    "We camped by the lake last summer."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "The kids are building a fort.",
+   [
+    "I helped Dad wash the car yesterday.",
+    "Mom will read to us at bedtime.",
+    "The bus stopped at the corner earlier today."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "She paints a picture now.",
+   [
+    "We picked apples last autumn.",
+    "The team will play hockey tomorrow.",
+    "Ben kicked the ball over the fence yesterday."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "The dog is digging a hole.",
+   [
+    "The snow melted two days ago.",
+    "Next week I will go to the dentist.",
+    "We visited the museum last month."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "We are singing a song.",
+   [
+    "Ana called her cousin last night.",
+    "We will watch the fireworks on Canada Day.",
+    "My sister baked muffins yesterday."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "The baby is napping now.",
+   [
+    "The team played hockey on Saturday.",
+    "I am going to paint my room next week.",
+    "The frog hopped onto the log a minute ago."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "My friends are skating on the rink.",
+   [
+    "I cleaned my room an hour ago.",
+    "My cousin will come over later.",
+    "Dad fixed the sink last night."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "I hear the rain on the roof.",
+   [
+    "We camped by the lake last summer.",
+    "We will build a snowman tomorrow.",
+    "The kids skated on the pond last winter."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "Grandma is knitting a scarf.",
+   [
+    "The bus stopped at the corner earlier today.",
+    "Tomorrow the sun will rise early.",
+    "I mailed a letter yesterday."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "The frog sits on a lily pad.",
+   [
+    "Ben kicked the ball over the fence yesterday.",
+    "I will wear my new boots next winter.",
+    "Last night we watched the stars."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "We are washing the dishes.",
+   [
+    "We visited the museum last month.",
+    "We are going to visit the farm on Friday.",
+    "I jumped in the puddles yesterday."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "The wind is blowing hard right now.",
+   [
+    "My sister baked muffins yesterday.",
+    "The baby will nap after lunch.",
+    "Grandpa visited us last weekend."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "Leo is drawing a dragon.",
+   [
+    "The frog hopped onto the log a minute ago.",
+    "Next spring we will see the robins.",
+    "The baby smiled at me this morning."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "The class is listening to the teacher.",
+   [
+    "Dad fixed the sink last night.",
+    "Tomorrow we will bake a pie.",
+    "We planted tulips last fall."
+   ],
+   "This sentence tells about something happening now."
+  ],
+  [
+   "Which sentence tells about the present?",
+   "I am feeding my fish.",
+   [
+    "The kids skated on the pond last winter.",
+    "Next summer I will learn to swim.",
+    "Mom painted the fence on Sunday."
+   ],
+   "This sentence tells about something happening now."
+  ]
+ ],
+ "engXTlPa": [
+  [
+   "Which sentence tells about the past?",
+   "Last night we watched the stars.",
+   [
+    "My brother rides his bike.",
+    "Tomorrow we will bake a pie.",
+    "She paints a picture now."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "I jumped in the puddles yesterday.",
+   [
+    "The kitten is playing with yarn.",
+    "Next summer I will learn to swim.",
+    "The dog is digging a hole."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "Grandpa visited us last weekend.",
+   [
+    "Mom is reading a story.",
+    "We will plant a garden in the spring.",
+    "We are singing a song."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "The baby smiled at me this morning.",
+   [
+    "I am brushing my teeth right now.",
+    "Grandma will visit us next week.",
+    "The baby is napping now."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "We planted tulips last fall.",
+   [
+    "The sun is shining today.",
+    "I will feed the cat later.",
+    "My friends are skating on the rink."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "Mom painted the fence on Sunday.",
+   [
+    "Dad cooks pancakes on Sundays.",
+    "Next year she will be in Grade 3.",
+    "I hear the rain on the roof."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "The puppy chewed my sock yesterday.",
+   [
+    "The kids are building a fort.",
+    "We will go camping this weekend.",
+    "Grandma is knitting a scarf."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "Our class walked to the library last week.",
+   [
+    "She paints a picture now.",
+    "Dad will fix my bike tomorrow.",
+    "The frog sits on a lily pad."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "I helped Dad wash the car yesterday.",
+   [
+    "The dog is digging a hole.",
+    "The class will go on a trip next month.",
+    "We are washing the dishes."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "We picked apples last autumn.",
+   [
+    "We are singing a song.",
+    "I will call you tonight.",
+    "The wind is blowing hard right now."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "The snow melted two days ago.",
+   [
+    "The baby is napping now.",
+    "We are going to skate on Saturday.",
+    "Leo is drawing a dragon."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "Ana called her cousin last night.",
+   [
+    "My friends are skating on the rink.",
+    "Mom will read to us at bedtime.",
+    "The class is listening to the teacher."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "The team played hockey on Saturday.",
+   [
+    "I hear the rain on the roof.",
+    "The team will play hockey tomorrow.",
+    "I am feeding my fish."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "I cleaned my room an hour ago.",
+   [
+    "Grandma is knitting a scarf.",
+    "Next week I will go to the dentist.",
+    "The bus is coming down the street."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "We camped by the lake last summer.",
+   [
+    "The frog sits on a lily pad.",
+    "We will watch the fireworks on Canada Day.",
+    "The bird is singing in the tree."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "The bus stopped at the corner earlier today.",
+   [
+    "We are washing the dishes.",
+    "I am going to paint my room next week.",
+    "We are eating lunch now."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "Ben kicked the ball over the fence yesterday.",
+   [
+    "The wind is blowing hard right now.",
+    "My cousin will come over later.",
+    "My brother rides his bike."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "We visited the museum last month.",
+   [
+    "Leo is drawing a dragon.",
+    "We will build a snowman tomorrow.",
+    "The kitten is playing with yarn."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "My sister baked muffins yesterday.",
+   [
+    "The class is listening to the teacher.",
+    "Tomorrow the sun will rise early.",
+    "Mom is reading a story."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "The frog hopped onto the log a minute ago.",
+   [
+    "I am feeding my fish.",
+    "I will wear my new boots next winter.",
+    "I am brushing my teeth right now."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "Dad fixed the sink last night.",
+   [
+    "The bus is coming down the street.",
+    "We are going to visit the farm on Friday.",
+    "The sun is shining today."
+   ],
+   "This sentence tells about something that already happened."
+  ],
+  [
+   "Which sentence tells about the past?",
+   "The kids skated on the pond last winter.",
+   [
+    "The bird is singing in the tree.",
+    "The baby will nap after lunch.",
+    "Dad cooks pancakes on Sundays."
+   ],
+   "This sentence tells about something that already happened."
+  ]
+ ],
+ "engXTlFu": [
+  [
+   "Which sentence tells about the future?",
+   "Tomorrow we will bake a pie.",
+   [
+    "We planted tulips last fall.",
+    "I am brushing my teeth right now.",
+    "Ana called her cousin last night."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "Next summer I will learn to swim.",
+   [
+    "Mom painted the fence on Sunday.",
+    "The sun is shining today.",
+    "The team played hockey on Saturday."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "We will plant a garden in the spring.",
+   [
+    "The puppy chewed my sock yesterday.",
+    "Dad cooks pancakes on Sundays.",
+    "I cleaned my room an hour ago."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "Grandma will visit us next week.",
+   [
+    "Our class walked to the library last week.",
+    "The kids are building a fort.",
+    "We camped by the lake last summer."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "I will feed the cat later.",
+   [
+    "I helped Dad wash the car yesterday.",
+    "She paints a picture now.",
+    "The bus stopped at the corner earlier today."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "Next year she will be in Grade 3.",
+   [
+    "We picked apples last autumn.",
+    "The dog is digging a hole.",
+    "Ben kicked the ball over the fence yesterday."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "We will go camping this weekend.",
+   [
+    "The snow melted two days ago.",
+    "We are singing a song.",
+    "We visited the museum last month."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "Dad will fix my bike tomorrow.",
+   [
+    "Ana called her cousin last night.",
+    "The baby is napping now.",
+    "My sister baked muffins yesterday."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "The class will go on a trip next month.",
+   [
+    "The team played hockey on Saturday.",
+    "My friends are skating on the rink.",
+    "The frog hopped onto the log a minute ago."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "I will call you tonight.",
+   [
+    "I cleaned my room an hour ago.",
+    "I hear the rain on the roof.",
+    "Dad fixed the sink last night."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "We are going to skate on Saturday.",
+   [
+    "We camped by the lake last summer.",
+    "Grandma is knitting a scarf.",
+    "The kids skated on the pond last winter."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "Mom will read to us at bedtime.",
+   [
+    "The bus stopped at the corner earlier today.",
+    "The frog sits on a lily pad.",
+    "I mailed a letter yesterday."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "The team will play hockey tomorrow.",
+   [
+    "Ben kicked the ball over the fence yesterday.",
+    "We are washing the dishes.",
+    "Last night we watched the stars."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "Next week I will go to the dentist.",
+   [
+    "We visited the museum last month.",
+    "The wind is blowing hard right now.",
+    "I jumped in the puddles yesterday."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "We will watch the fireworks on Canada Day.",
+   [
+    "My sister baked muffins yesterday.",
+    "Leo is drawing a dragon.",
+    "Grandpa visited us last weekend."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "I am going to paint my room next week.",
+   [
+    "The frog hopped onto the log a minute ago.",
+    "The class is listening to the teacher.",
+    "The baby smiled at me this morning."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "My cousin will come over later.",
+   [
+    "Dad fixed the sink last night.",
+    "I am feeding my fish.",
+    "We planted tulips last fall."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "We will build a snowman tomorrow.",
+   [
+    "The kids skated on the pond last winter.",
+    "The bus is coming down the street.",
+    "Mom painted the fence on Sunday."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "Tomorrow the sun will rise early.",
+   [
+    "I mailed a letter yesterday.",
+    "The bird is singing in the tree.",
+    "The puppy chewed my sock yesterday."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "I will wear my new boots next winter.",
+   [
+    "Last night we watched the stars.",
+    "We are eating lunch now.",
+    "Our class walked to the library last week."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "We are going to visit the farm on Friday.",
+   [
+    "I jumped in the puddles yesterday.",
+    "My brother rides his bike.",
+    "I helped Dad wash the car yesterday."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ],
+  [
+   "Which sentence tells about the future?",
+   "The baby will nap after lunch.",
+   [
+    "Grandpa visited us last weekend.",
+    "The kitten is playing with yarn.",
+    "We picked apples last autumn."
+   ],
+   "This sentence tells about something that has not happened yet."
+  ]
+ ],
+ "engXTmLn": [
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "I jumped in the puddles yesterday.",
+   [
+    "The sun is shining today.",
+    "The class will go on a trip next month.",
+    "I hear the rain on the roof."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "My brother rides his bike.",
+   [
+    "Our class walked to the library last week.",
+    "I will call you tonight.",
+    "The bus stopped at the corner earlier today."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "Grandma will visit us next week.",
+   [
+    "I helped Dad wash the car yesterday.",
+    "The dog is digging a hole.",
+    "Ben kicked the ball over the fence yesterday."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "We planted tulips last fall.",
+   [
+    "She paints a picture now.",
+    "Mom will read to us at bedtime.",
+    "We are washing the dishes."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "I am brushing my teeth right now.",
+   [
+    "The snow melted two days ago.",
+    "The team will play hockey tomorrow.",
+    "My sister baked muffins yesterday."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "We will go camping this weekend.",
+   [
+    "Ana called her cousin last night.",
+    "My friends are skating on the rink.",
+    "The frog hopped onto the log a minute ago."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "Our class walked to the library last week.",
+   [
+    "The baby is napping now.",
+    "We will watch the fireworks on Canada Day.",
+    "The class is listening to the teacher."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "The kids are building a fort.",
+   [
+    "I cleaned my room an hour ago.",
+    "I am going to paint my room next week.",
+    "The kids skated on the pond last winter."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "I will call you tonight.",
+   [
+    "We camped by the lake last summer.",
+    "The frog sits on a lily pad.",
+    "I mailed a letter yesterday."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "The snow melted two days ago.",
+   [
+    "Grandma is knitting a scarf.",
+    "We will build a snowman tomorrow.",
+    "The bird is singing in the tree."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "We are singing a song.",
+   [
+    "Ben kicked the ball over the fence yesterday.",
+    "Tomorrow the sun will rise early.",
+    "I jumped in the puddles yesterday."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "The team will play hockey tomorrow.",
+   [
+    "We visited the museum last month.",
+    "Leo is drawing a dragon.",
+    "Grandpa visited us last weekend."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "I cleaned my room an hour ago.",
+   [
+    "The wind is blowing hard right now.",
+    "We are going to visit the farm on Friday.",
+    "The kitten is playing with yarn."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "I hear the rain on the roof.",
+   [
+    "The frog hopped onto the log a minute ago.",
+    "The baby will nap after lunch.",
+    "We planted tulips last fall."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "I am going to paint my room next week.",
+   [
+    "Dad fixed the sink last night.",
+    "The bus is coming down the street.",
+    "Mom painted the fence on Sunday."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "Ben kicked the ball over the fence yesterday.",
+   [
+    "I am feeding my fish.",
+    "Tomorrow we will bake a pie.",
+    "The sun is shining today."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "We are washing the dishes.",
+   [
+    "I mailed a letter yesterday.",
+    "Next summer I will learn to swim.",
+    "Our class walked to the library last week."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "Tomorrow the sun will rise early.",
+   [
+    "Last night we watched the stars.",
+    "My brother rides his bike.",
+    "I helped Dad wash the car yesterday."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "The frog hopped onto the log a minute ago.",
+   [
+    "We are eating lunch now.",
+    "Grandma will visit us next week.",
+    "She paints a picture now."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "The class is listening to the teacher.",
+   [
+    "Grandpa visited us last weekend.",
+    "I will feed the cat later.",
+    "The snow melted two days ago."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "The baby will nap after lunch.",
+   [
+    "The baby smiled at me this morning.",
+    "I am brushing my teeth right now.",
+    "Ana called her cousin last night."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "I mailed a letter yesterday.",
+   [
+    "Mom is reading a story.",
+    "We will go camping this weekend.",
+    "The baby is napping now."
+   ],
+   "This sentence tells about the past."
+  ]
+ ],
+ "engXTmIr": [
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "We ate tacos last night.",
+   [
+    "I eat cereal every morning.",
+    "We will ride the train on Friday.",
+    "The baby sleeps in her crib."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "She sings in the choir.",
+   [
+    "She drew a horse this morning.",
+    "He will throw a party next month.",
+    "Dad drove us to school yesterday."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "I will eat a sandwich at lunch tomorrow.",
+   [
+    "He threw the ball over the fence.",
+    "The baby sleeps in her crib.",
+    "The bird flew away an hour ago."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "I saw a moose yesterday.",
+   [
+    "The baby sleeps in her crib.",
+    "I will tell you a secret later.",
+    "The children drink lemonade."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "I eat cereal every morning.",
+   [
+    "Dad drove us to school yesterday.",
+    "Dad will drive us home tonight.",
+    "We swam in the lake last July."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "She will draw a map next week.",
+   [
+    "The bird flew away an hour ago.",
+    "The children drink lemonade.",
+    "The glass broke yesterday."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "She drew a horse this morning.",
+   [
+    "The children drink lemonade.",
+    "She will draw a map next week.",
+    "I eat cereal every morning."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "He runs around the track now.",
+   [
+    "We swam in the lake last July.",
+    "We will ride the train on Friday.",
+    "He told a funny joke at lunch."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "We will ride the train on Friday.",
+   [
+    "The glass broke yesterday.",
+    "I eat cereal every morning.",
+    "We rode our bikes on Sunday."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "He threw the ball over the fence.",
+   [
+    "I eat cereal every morning.",
+    "They will swim in the ocean next summer.",
+    "The baby sleeps in her crib."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "We are drinking cold milk.",
+   [
+    "He told a funny joke at lunch.",
+    "I will tell you a secret later.",
+    "We ate tacos last night."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "He will throw a party next month.",
+   [
+    "We rode our bikes on Sunday.",
+    "The baby sleeps in her crib.",
+    "I saw a moose yesterday."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "We went to the beach last summer.",
+   [
+    "The baby sleeps in her crib.",
+    "I will eat a sandwich at lunch tomorrow.",
+    "The children drink lemonade."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "The baby sleeps in her crib.",
+   [
+    "We ate tacos last night.",
+    "She will draw a map next week.",
+    "He threw the ball over the fence."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "They will swim in the ocean next summer.",
+   [
+    "I saw a moose yesterday.",
+    "The children drink lemonade.",
+    "We went to the beach last summer."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "Dad drove us to school yesterday.",
+   [
+    "The children drink lemonade.",
+    "He will throw a party next month.",
+    "I eat cereal every morning."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "They swim in the pool now.",
+   [
+    "He threw the ball over the fence.",
+    "They will swim in the ocean next summer.",
+    "The bird flew away an hour ago."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "I will tell you a secret later.",
+   [
+    "We went to the beach last summer.",
+    "I eat cereal every morning.",
+    "I wrote a poem last week."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "The bird flew away an hour ago.",
+   [
+    "I eat cereal every morning.",
+    "Dad will drive us home tonight.",
+    "The baby sleeps in her crib."
+   ],
+   "This sentence tells about the past."
+  ],
+  [
+   "Which sentence goes on the <strong>present</strong> part of the timeline?",
+   "I am writing a story.",
+   [
+    "The bird flew away an hour ago.",
+    "I will eat a sandwich at lunch tomorrow.",
+    "The glass broke yesterday."
+   ],
+   "This sentence tells about the present."
+  ],
+  [
+   "Which sentence goes on the <strong>future</strong> part of the timeline?",
+   "Dad will drive us home tonight.",
+   [
+    "I wrote a poem last week.",
+    "The baby sleeps in her crib.",
+    "Mom made soup last night."
+   ],
+   "This sentence tells about the future."
+  ],
+  [
+   "Which sentence goes on the <strong>past</strong> part of the timeline?",
+   "I wrote a poem last week.",
+   [
+    "The baby sleeps in her crib.",
+    "We will ride the train on Friday.",
+    "The children drink lemonade."
+   ],
+   "This sentence tells about the past."
+  ]
+ ],
+ "engXEdIng": [
+  [
+   "🎨 Which sentence tells about something happening now?",
+   "She is painting a flower.",
+   [
+    "She painted a flower yesterday.",
+    "She is going to paint a flower.",
+    "She is about to paint a flower."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🎨 Which sentence tells about something that happened in the past?",
+   "She painted a flower yesterday.",
+   [
+    "She is painting a flower.",
+    "She is going to paint a flower.",
+    "She is about to paint a flower."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🚲 Which sentence tells about something happening now?",
+   "Tom is pedalling his bike.",
+   [
+    "Tom pedalled his bike this morning.",
+    "Tom is going to pedal his bike.",
+    "Tom is about to pedal his bike."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🚲 Which sentence tells about something that happened in the past?",
+   "Tom pedalled his bike this morning.",
+   [
+    "Tom is pedalling his bike.",
+    "Tom is going to pedal his bike.",
+    "Tom is about to pedal his bike."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🧹 Which sentence tells about something happening now?",
+   "Mom is cleaning the floor.",
+   [
+    "Mom cleaned the floor last night.",
+    "Mom is going to clean the floor.",
+    "Mom is about to clean the floor."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🧹 Which sentence tells about something that happened in the past?",
+   "Mom cleaned the floor last night.",
+   [
+    "Mom is cleaning the floor.",
+    "Mom is going to clean the floor.",
+    "Mom is about to clean the floor."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🎣 Which sentence tells about something happening now?",
+   "Grandpa is fishing at the lake.",
+   [
+    "Grandpa fished at the lake last week.",
+    "Grandpa is going to fish at the lake.",
+    "Grandpa is about to fish at the lake."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🎣 Which sentence tells about something that happened in the past?",
+   "Grandpa fished at the lake last week.",
+   [
+    "Grandpa is fishing at the lake.",
+    "Grandpa is going to fish at the lake.",
+    "Grandpa is about to fish at the lake."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🛁 Which sentence tells about something happening now?",
+   "The baby is splashing in the tub.",
+   [
+    "The baby splashed in the tub last night.",
+    "The baby is going to splash in the tub.",
+    "The baby is about to splash in the tub."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🛁 Which sentence tells about something that happened in the past?",
+   "The baby splashed in the tub last night.",
+   [
+    "The baby is splashing in the tub.",
+    "The baby is going to splash in the tub.",
+    "The baby is about to splash in the tub."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🌱 Which sentence tells about something happening now?",
+   "We are planting seeds.",
+   [
+    "We planted seeds last spring.",
+    "We are going to plant seeds.",
+    "We are about to plant seeds."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🌱 Which sentence tells about something that happened in the past?",
+   "We planted seeds last spring.",
+   [
+    "We are planting seeds.",
+    "We are going to plant seeds.",
+    "We are about to plant seeds."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🎤 Which sentence tells about something happening now?",
+   "Ava is singing a song.",
+   [
+    "Ava sang a song at the concert.",
+    "Ava is going to sing a song.",
+    "Ava is about to sing a song."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🎤 Which sentence tells about something that happened in the past?",
+   "Ava sang a song at the concert.",
+   [
+    "Ava is singing a song.",
+    "Ava is going to sing a song.",
+    "Ava is about to sing a song."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "⛸️ Which sentence tells about something happening now?",
+   "The kids are skating on the pond.",
+   [
+    "The kids skated on the pond yesterday.",
+    "The kids are going to skate on the pond.",
+    "The kids are about to skate on the pond."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "⛸️ Which sentence tells about something that happened in the past?",
+   "The kids skated on the pond yesterday.",
+   [
+    "The kids are skating on the pond.",
+    "The kids are going to skate on the pond.",
+    "The kids are about to skate on the pond."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🧁 Which sentence tells about something happening now?",
+   "Dad is baking cupcakes.",
+   [
+    "Dad baked cupcakes this morning.",
+    "Dad is going to bake cupcakes.",
+    "Dad is about to bake cupcakes."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🧁 Which sentence tells about something that happened in the past?",
+   "Dad baked cupcakes this morning.",
+   [
+    "Dad is baking cupcakes.",
+    "Dad is going to bake cupcakes.",
+    "Dad is about to bake cupcakes."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🐕 Which sentence tells about something happening now?",
+   "The dog is barking at the mail carrier.",
+   [
+    "The dog barked at the mail carrier an hour ago.",
+    "The dog is going to bark at the mail carrier.",
+    "The dog is about to bark at the mail carrier."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🐕 Which sentence tells about something that happened in the past?",
+   "The dog barked at the mail carrier an hour ago.",
+   [
+    "The dog is barking at the mail carrier.",
+    "The dog is going to bark at the mail carrier.",
+    "The dog is about to bark at the mail carrier."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ],
+  [
+   "🪁 Which sentence tells about something happening now?",
+   "The girls are flying a kite.",
+   [
+    "The girls flew a kite on Sunday.",
+    "The girls are going to fly a kite.",
+    "The girls are about to fly a kite."
+   ],
+   "The verb with is or are and -ing shows it is happening now."
+  ],
+  [
+   "🪁 Which sentence tells about something that happened in the past?",
+   "The girls flew a kite on Sunday.",
+   [
+    "The girls are flying a kite.",
+    "The girls are going to fly a kite.",
+    "The girls are about to fly a kite."
+   ],
+   "The past tense verb (like the -ed form) shows it already happened."
+  ]
+ ],
+ "engXBePr": [
+  [
+   "Complete the sentence. She ___ my best friend.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "She is one person, so we use is."
+  ],
+  [
+   "Complete the sentence. The cookies ___ in the oven.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "Cookies is more than one, so we use are."
+  ],
+  [
+   "Complete the sentence. I ___ ready for school.",
+   "am",
+   [
+    "is",
+    "are",
+    "be"
+   ],
+   "We always use am with I."
+  ],
+  [
+   "Complete the sentence. The sky ___ grey today.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "The sky is one thing, so we use is."
+  ],
+  [
+   "Complete the sentence. My shoes ___ too small.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "Shoes is more than one, so we use are."
+  ],
+  [
+   "Complete the sentence. They ___ on the soccer team.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "We use are with they."
+  ],
+  [
+   "Complete the sentence. He ___ taller than me.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "He is one person, so we use is."
+  ],
+  [
+   "Complete the sentence. I ___ seven years old.",
+   "am",
+   [
+    "is",
+    "are",
+    "be"
+   ],
+   "We always use am with I."
+  ],
+  [
+   "Complete the sentence. The puppy ___ sleepy.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "The puppy is one animal, so we use is."
+  ],
+  [
+   "Complete the sentence. You and Mia ___ partners.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "You and Mia are two people, so we use are."
+  ],
+  [
+   "Complete the sentence. It ___ cold outside.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "We use is with it."
+  ],
+  [
+   "Complete the sentence. The leaves ___ red and orange.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "Leaves is more than one, so we use are."
+  ],
+  [
+   "Complete the sentence. I ___ in Grade 2.",
+   "am",
+   [
+    "is",
+    "are",
+    "be"
+   ],
+   "We always use am with I."
+  ],
+  [
+   "Complete the sentence. Our teacher ___ very funny.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "Our teacher is one person, so we use is."
+  ],
+  [
+   "Complete the sentence. The geese ___ by the pond.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "Geese is more than one, so we use are."
+  ],
+  [
+   "Complete the sentence. Mom and Dad ___ at work.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "Mom and Dad are two people, so we use are."
+  ],
+  [
+   "Complete the sentence. This apple ___ sweet.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "This apple is one thing, so we use is."
+  ],
+  [
+   "Complete the sentence. I ___ so excited!",
+   "am",
+   [
+    "is",
+    "are",
+    "be"
+   ],
+   "We always use am with I."
+  ],
+  [
+   "Complete the sentence. You ___ a great helper.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "We use are with you."
+  ],
+  [
+   "Complete the sentence. The library ___ open today.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "The library is one place, so we use is."
+  ],
+  [
+   "Complete the sentence. My cousins ___ from Winnipeg.",
+   "are",
+   [
+    "is",
+    "am",
+    "be"
+   ],
+   "Cousins is more than one, so we use are."
+  ],
+  [
+   "Complete the sentence. Ben ___ in the kitchen.",
+   "is",
+   [
+    "are",
+    "am",
+    "be"
+   ],
+   "Ben is one person, so we use is."
+  ]
+ ],
+ "engXBePa": [
+  [
+   "Complete the sentence. I ___ sick yesterday.",
+   "was",
+   [
+    "were",
+    "is",
+    "am"
+   ],
+   "We use was with I for the past."
+  ],
+  [
+   "Complete the sentence. The dogs ___ muddy after the walk.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "Dogs is more than one, so we use were for the past."
+  ],
+  [
+   "Complete the sentence. She ___ at the dentist on Monday.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "She is one person, so we use was for the past."
+  ],
+  [
+   "Complete the sentence. We ___ late for the bus yesterday.",
+   "were",
+   [
+    "was",
+    "are",
+    "am"
+   ],
+   "We use were with we for the past."
+  ],
+  [
+   "Complete the sentence. The movie ___ funny last night.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "The movie is one thing, so we use was for the past."
+  ],
+  [
+   "Complete the sentence. They ___ at the beach last summer.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "We use were with they for the past."
+  ],
+  [
+   "Complete the sentence. It ___ windy last night.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "We use was with it for the past."
+  ],
+  [
+   "Complete the sentence. My boots ___ wet after the rain.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "Boots is more than one, so we use were for the past."
+  ],
+  [
+   "Complete the sentence. Grandma ___ a nurse long ago.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "Grandma is one person, so we use was for the past."
+  ],
+  [
+   "Complete the sentence. You ___ so brave at the doctor's yesterday.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "We use were with you for the past."
+  ],
+  [
+   "Complete the sentence. The cake ___ delicious at the party.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "The cake is one thing, so we use was for the past."
+  ],
+  [
+   "Complete the sentence. Sam and Leo ___ in my class last year.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "Sam and Leo are two people, so we use were for the past."
+  ],
+  [
+   "Complete the sentence. I ___ tired after the long hike.",
+   "was",
+   [
+    "were",
+    "is",
+    "am"
+   ],
+   "We use was with I for the past."
+  ],
+  [
+   "Complete the sentence. The stars ___ bright last night.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "Stars is more than one, so we use were for the past."
+  ],
+  [
+   "Complete the sentence. He ___ the first one in line this morning.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "He is one person, so we use was for the past."
+  ],
+  [
+   "Complete the sentence. The cookies ___ warm when we ate them.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "Cookies is more than one, so we use were for the past."
+  ],
+  [
+   "Complete the sentence. Our trip ___ fun last week.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "Our trip is one thing, so we use was for the past."
+  ],
+  [
+   "Complete the sentence. We ___ happy when it snowed yesterday.",
+   "were",
+   [
+    "was",
+    "are",
+    "am"
+   ],
+   "We use were with we for the past."
+  ],
+  [
+   "Complete the sentence. The baby ___ asleep an hour ago.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "The baby is one person, so we use was for the past."
+  ],
+  [
+   "Complete the sentence. My friends ___ at my party on Saturday.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "Friends is more than one, so we use were for the past."
+  ],
+  [
+   "Complete the sentence. The door ___ open this morning.",
+   "was",
+   [
+    "were",
+    "is",
+    "are"
+   ],
+   "The door is one thing, so we use was for the past."
+  ],
+  [
+   "Complete the sentence. The kittens ___ tiny when they were born.",
+   "were",
+   [
+    "was",
+    "are",
+    "is"
+   ],
+   "Kittens is more than one, so we use were for the past."
+  ]
+ ],
+ "engSvHv": [
+  [
+   "Complete the sentence. I ___ two sisters.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "We use have with I."
+  ],
+  [
+   "Complete the sentence. He ___ a pet snake.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "We use has with he."
+  ],
+  [
+   "Complete the sentence. The cat ___ green eyes.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "The cat is one animal, so we use has."
+  ],
+  [
+   "Complete the sentence. You ___ a nice smile.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "We use have with you."
+  ],
+  [
+   "Complete the sentence. My parents ___ a blue van.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "Parents is more than one, so we use have."
+  ],
+  [
+   "Complete the sentence. Lily ___ a loose tooth.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "Lily is one person, so we use has."
+  ],
+  [
+   "Complete the sentence. We ___ art class on Tuesday.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "We use have with we."
+  ],
+  [
+   "Complete the sentence. The tree ___ lots of apples.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "The tree is one thing, so we use has."
+  ],
+  [
+   "Complete the sentence. The twins ___ matching hats.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "The twins are two people, so we use have."
+  ],
+  [
+   "Complete the sentence. It ___ four wheels.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "We use has with it."
+  ],
+  [
+   "Complete the sentence. Our school ___ a big gym.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "Our school is one place, so we use has."
+  ],
+  [
+   "Complete the sentence. Ducks ___ webbed feet.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "Ducks is more than one, so we use have."
+  ],
+  [
+   "Complete the sentence. Mr. Ito ___ a red canoe.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "Mr. Ito is one person, so we use has."
+  ],
+  [
+   "Complete the sentence. They ___ a pool in their yard.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "We use have with they."
+  ],
+  [
+   "Complete the sentence. I ___ a cold today.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "We use have with I."
+  ],
+  [
+   "Complete the sentence. My brother ___ a hockey game tonight.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "My brother is one person, so we use has."
+  ],
+  [
+   "Complete the sentence. The kids ___ lots of homework.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "The kids are more than one, so we use have."
+  ],
+  [
+   "Complete the sentence. She ___ curly hair.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "We use has with she."
+  ],
+  [
+   "Complete the sentence. Spiders ___ eight legs.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "Spiders is more than one, so we use have."
+  ],
+  [
+   "Complete the sentence. This book ___ many pictures.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "This book is one thing, so we use has."
+  ],
+  [
+   "Complete the sentence. Mom and I ___ a plan.",
+   "have",
+   [
+    "has",
+    "haves",
+    "having"
+   ],
+   "Mom and I are two people, so we use have."
+  ],
+  [
+   "Complete the sentence. A bird ___ feathers.",
+   "has",
+   [
+    "have",
+    "haves",
+    "having"
+   ],
+   "A bird is one animal, so we use has."
+  ]
+ ],
+ "engXSense": [
+  [
+   "Which sense does this sentence tell about? The drum goes boom, boom.",
+   "hearing",
+   [
+    "touch",
+    "taste",
+    "smell"
+   ],
+   "Boom is a sound we hear."
+  ],
+  [
+   "Which sense does this sentence tell about? The soup tastes spicy.",
+   "taste",
+   [
+    "hearing",
+    "sight",
+    "touch"
+   ],
+   "Spicy tells how something tastes."
+  ],
+  [
+   "Which sense does this sentence tell about? The roses smell sweet.",
+   "smell",
+   [
+    "taste",
+    "touch",
+    "hearing"
+   ],
+   "Smell sweet tells about the nose."
+  ],
+  [
+   "Which sense does this sentence tell about? The sand feels hot.",
+   "touch",
+   [
+    "hearing",
+    "smell",
+    "sight"
+   ],
+   "Feels hot tells how something feels on the skin."
+  ],
+  [
+   "Which sense does this sentence tell about? The rainbow looks bright.",
+   "sight",
+   [
+    "hearing",
+    "smell",
+    "touch"
+   ],
+   "Looks bright tells what we see."
+  ],
+  [
+   "Which sense does this sentence tell about? The thunder booms.",
+   "hearing",
+   [
+    "taste",
+    "smell",
+    "sight"
+   ],
+   "Booms is a sound we hear."
+  ],
+  [
+   "Which sense does this sentence tell about? The popcorn tastes salty.",
+   "taste",
+   [
+    "sight",
+    "hearing",
+    "smell"
+   ],
+   "Salty tells how something tastes."
+  ],
+  [
+   "Which sense does this sentence tell about? The garbage smells stinky.",
+   "smell",
+   [
+    "sight",
+    "hearing",
+    "touch"
+   ],
+   "Stinky tells about the nose."
+  ],
+  [
+   "Which sense does this sentence tell about? The sweater feels itchy.",
+   "touch",
+   [
+    "sight",
+    "taste",
+    "hearing"
+   ],
+   "Itchy tells how something feels on the skin."
+  ],
+  [
+   "Which sense does this sentence tell about? The stars twinkle in the dark sky.",
+   "sight",
+   [
+    "hearing",
+    "smell",
+    "touch"
+   ],
+   "Twinkle tells what we see."
+  ],
+  [
+   "Which sense does this sentence tell about? The puppy whimpers softly.",
+   "hearing",
+   [
+    "touch",
+    "sight",
+    "smell"
+   ],
+   "Whimpers is a sound we hear."
+  ],
+  [
+   "Which sense does this sentence tell about? The candy tastes sweet.",
+   "taste",
+   [
+    "hearing",
+    "sight",
+    "touch"
+   ],
+   "Tastes sweet is about the tongue."
+  ],
+  [
+   "Which sense does this sentence tell about? The smoke smells like a campfire.",
+   "smell",
+   [
+    "taste",
+    "touch",
+    "hearing"
+   ],
+   "Smells like a campfire tells about the nose."
+  ],
+  [
+   "Which sense does this sentence tell about? The rock feels rough.",
+   "touch",
+   [
+    "smell",
+    "taste",
+    "sight"
+   ],
+   "Rough tells how something feels."
+  ],
+  [
+   "Which sense does this sentence tell about? The pumpkin looks orange and round.",
+   "sight",
+   [
+    "hearing",
+    "taste",
+    "smell"
+   ],
+   "Looks orange tells what we see."
+  ],
+  [
+   "Which sense does this sentence tell about? The leaves crunch under my boots.",
+   "hearing",
+   [
+    "touch",
+    "smell",
+    "taste"
+   ],
+   "Crunch is a sound we hear."
+  ],
+  [
+   "Which sense does this sentence tell about? The pickle tastes sour.",
+   "taste",
+   [
+    "sight",
+    "hearing",
+    "smell"
+   ],
+   "Sour tells how something tastes."
+  ],
+  [
+   "Which sense does this sentence tell about? The fresh bread smells yummy.",
+   "smell",
+   [
+    "taste",
+    "sight",
+    "hearing"
+   ],
+   "Smells yummy tells about the nose."
+  ],
+  [
+   "Which sense does this sentence tell about? The snowball feels icy.",
+   "touch",
+   [
+    "smell",
+    "hearing",
+    "taste"
+   ],
+   "Icy tells how something feels on the skin."
+  ],
+  [
+   "Which sense does this sentence tell about? The fireworks look sparkly.",
+   "sight",
+   [
+    "touch",
+    "smell",
+    "hearing"
+   ],
+   "Sparkly tells what we see."
+  ],
+  [
+   "Which sense does this sentence tell about? The bees buzz in the garden.",
+   "hearing",
+   [
+    "smell",
+    "taste",
+    "touch"
+   ],
+   "Buzz is a sound we hear."
+  ],
+  [
+   "Which sense does this sentence tell about? The kitten's fur feels fluffy.",
+   "touch",
+   [
+    "hearing",
+    "sight",
+    "smell"
+   ],
+   "Fluffy tells how something feels."
+  ]
+ ],
+ "engAdIdE": [
+  [
+   "Which word is an adjective? The fluffy cat slept.",
+   "fluffy",
+   [
+    "cat",
+    "slept",
+    "The"
+   ],
+   "“fluffy” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? We hiked up a steep trail.",
+   "steep",
+   [
+    "hiked",
+    "trail",
+    "up"
+   ],
+   "“steep” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? Dad bought a shiny car.",
+   "shiny",
+   [
+    "bought",
+    "car",
+    "Dad"
+   ],
+   "“shiny” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? The soup was delicious.",
+   "delicious",
+   [
+    "soup",
+    "was",
+    "The"
+   ],
+   "“delicious” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? A curious raccoon opened the bin.",
+   "curious",
+   [
+    "raccoon",
+    "opened",
+    "bin"
+   ],
+   "“curious” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? She told an exciting story.",
+   "exciting",
+   [
+    "told",
+    "story",
+    "She"
+   ],
+   "“exciting” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? The ancient castle stood on a hill.",
+   "ancient",
+   [
+    "castle",
+    "stood",
+    "hill"
+   ],
+   "“ancient” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? My brother is noisy.",
+   "noisy",
+   [
+    "brother",
+    "is",
+    "very"
+   ],
+   "“noisy” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? They crossed the frozen lake carefully.",
+   "frozen",
+   [
+    "crossed",
+    "lake",
+    "carefully"
+   ],
+   "“frozen” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? The enormous truck rumbled past.",
+   "enormous",
+   [
+    "truck",
+    "rumbled",
+    "past"
+   ],
+   "“enormous” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? Her answer was clever.",
+   "clever",
+   [
+    "answer",
+    "was",
+    "quickly"
+   ],
+   "“clever” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? We found three eggs in the nest.",
+   "three",
+   [
+    "found",
+    "eggs",
+    "nest"
+   ],
+   "“three” describes how many eggs there are."
+  ],
+  [
+   "Which word is an adjective? The gloomy sky hid the sun.",
+   "gloomy",
+   [
+    "sky",
+    "hid",
+    "sun"
+   ],
+   "“gloomy” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? Mia carried a heavy backpack.",
+   "heavy",
+   [
+    "carried",
+    "backpack",
+    "Mia"
+   ],
+   "“heavy” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? The narrow path wound through the forest.",
+   "narrow",
+   [
+    "path",
+    "wound",
+    "forest"
+   ],
+   "“narrow” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? A gentle breeze cooled us.",
+   "gentle",
+   [
+    "breeze",
+    "cooled",
+    "us"
+   ],
+   "“gentle” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? The scientist made a surprising discovery.",
+   "surprising",
+   [
+    "scientist",
+    "made",
+    "discovery"
+   ],
+   "“surprising” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? Our neighbour has a friendly dog.",
+   "friendly",
+   [
+    "neighbour",
+    "has",
+    "dog"
+   ],
+   "“friendly” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? The sour grapes made me frown.",
+   "sour",
+   [
+    "grapes",
+    "made",
+    "frown"
+   ],
+   "“sour” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? Ravi wore a woollen sweater.",
+   "woollen",
+   [
+    "wore",
+    "sweater",
+    "Ravi"
+   ],
+   "“woollen” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? The exhausted runners crossed the finish line.",
+   "exhausted",
+   [
+    "runners",
+    "crossed",
+    "line"
+   ],
+   "“exhausted” describes a noun in the sentence."
+  ],
+  [
+   "Which word is an adjective? Several geese flew south.",
+   "Several",
+   [
+    "geese",
+    "flew",
+    "south"
+   ],
+   "“Several” describes how many geese there are."
+  ]
+ ],
+ "engXAdTw": [
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "My dog is bigger than your dog.",
+   [
+    "Ben is the tallest boy in the class.",
+    "January is the coldest month of the year.",
+    "It is the biggest pumpkin in the patch."
+   ],
+   "“bigger” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "Ben is the tallest boy in the class.",
+   [
+    "My dog is bigger than your dog.",
+    "Ana is taller than her brother.",
+    "This puzzle is harder than the last one."
+   ],
+   "“tallest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "A cheetah is faster than a horse.",
+   [
+    "That was the scariest ride at the fair.",
+    "Jo is the fastest runner on the team.",
+    "That is the brightest star in the sky."
+   ],
+   "“faster” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "That was the scariest ride at the fair.",
+   [
+    "A cheetah is faster than a horse.",
+    "My bag is heavier than yours.",
+    "A mouse is smaller than a cat."
+   ],
+   "“scariest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "This rope is longer than that one.",
+   [
+    "This is the longest river in Canada.",
+    "This is the heaviest box of all.",
+    "She has the softest kitten of the litter."
+   ],
+   "“longer” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "This is the longest river in Canada.",
+   [
+    "This rope is longer than that one.",
+    "The lake is deeper than the pond.",
+    "Today is sunnier than yesterday."
+   ],
+   "“longest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "Winter is colder than fall.",
+   [
+    "January is the coldest month of the year.",
+    "It is the biggest pumpkin in the patch.",
+    "This is the sweetest apple in the bag."
+   ],
+   "“colder” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "January is the coldest month of the year.",
+   [
+    "Winter is colder than fall.",
+    "This puzzle is harder than the last one.",
+    "My pencil is sharper than yours."
+   ],
+   "“coldest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "Ana is taller than her brother.",
+   [
+    "Jo is the fastest runner on the team.",
+    "That is the brightest star in the sky.",
+    "He told the silliest joke of all."
+   ],
+   "“taller” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "Jo is the fastest runner on the team.",
+   [
+    "Ana is taller than her brother.",
+    "A mouse is smaller than a cat.",
+    "My dog is bigger than your dog."
+   ],
+   "“fastest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "My bag is heavier than yours.",
+   [
+    "This is the heaviest box of all.",
+    "She has the softest kitten of the litter.",
+    "Ben is the tallest boy in the class."
+   ],
+   "“heavier” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "This is the heaviest box of all.",
+   [
+    "My bag is heavier than yours.",
+    "Today is sunnier than yesterday.",
+    "A cheetah is faster than a horse."
+   ],
+   "“heaviest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "The lake is deeper than the pond.",
+   [
+    "It is the biggest pumpkin in the patch.",
+    "This is the sweetest apple in the bag.",
+    "That was the scariest ride at the fair."
+   ],
+   "“deeper” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "It is the biggest pumpkin in the patch.",
+   [
+    "The lake is deeper than the pond.",
+    "My pencil is sharper than yours.",
+    "This rope is longer than that one."
+   ],
+   "“biggest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "This puzzle is harder than the last one.",
+   [
+    "That is the brightest star in the sky.",
+    "He told the silliest joke of all.",
+    "This is the longest river in Canada."
+   ],
+   "“harder” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "That is the brightest star in the sky.",
+   [
+    "This puzzle is harder than the last one.",
+    "My dog is bigger than your dog.",
+    "Winter is colder than fall."
+   ],
+   "“brightest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "A mouse is smaller than a cat.",
+   [
+    "She has the softest kitten of the litter.",
+    "Ben is the tallest boy in the class.",
+    "January is the coldest month of the year."
+   ],
+   "“smaller” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "She has the softest kitten of the litter.",
+   [
+    "A mouse is smaller than a cat.",
+    "A cheetah is faster than a horse.",
+    "Ana is taller than her brother."
+   ],
+   "“softest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "Today is sunnier than yesterday.",
+   [
+    "This is the sweetest apple in the bag.",
+    "That was the scariest ride at the fair.",
+    "Jo is the fastest runner on the team."
+   ],
+   "“sunnier” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "This is the sweetest apple in the bag.",
+   [
+    "Today is sunnier than yesterday.",
+    "This rope is longer than that one.",
+    "My bag is heavier than yours."
+   ],
+   "“sweetest” ends in -est, so it compares more than two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>two</strong> things?",
+   "My pencil is sharper than yours.",
+   [
+    "He told the silliest joke of all.",
+    "This is the longest river in Canada.",
+    "This is the heaviest box of all."
+   ],
+   "“sharper” ends in -er, so it compares two things."
+  ],
+  [
+   "Which sentence uses an adjective that compares <strong>more than two</strong> things?",
+   "He told the silliest joke of all.",
+   [
+    "My pencil is sharper than yours.",
+    "Winter is colder than fall.",
+    "The lake is deeper than the pond."
+   ],
+   "“silliest” ends in -est, so it compares more than two things."
+  ]
+ ],
+ "engPpBs": [
+  [
+   "Choose the preposition that best completes the sentence. The kitten crawled ___ the blanket.",
+   "under",
+   [
+    "sleepy",
+    "hide",
+    "soon"
+   ],
+   "Under tells where the kitten crawled."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. We go swimming ___ the summer.",
+   "in",
+   [
+    "swam",
+    "wet",
+    "fun"
+   ],
+   "In is used with seasons."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The plane flew ___ the clouds.",
+   "above",
+   [
+    "flying",
+    "high",
+    "fast"
+   ],
+   "Above tells where the plane flew."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. Put your boots ___ the door.",
+   "by",
+   [
+    "muddy",
+    "wear",
+    "now"
+   ],
+   "By tells where to put the boots."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The ball rolled ___ the table.",
+   "off",
+   [
+    "round",
+    "roll",
+    "red"
+   ],
+   "Off tells where the ball went."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The letter M comes ___ L and N in the alphabet.",
+   "between",
+   [
+    "sit",
+    "happy",
+    "then"
+   ],
+   "Between tells the place in the middle of two things."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. My birthday is ___ June.",
+   "in",
+   [
+    "party",
+    "fun",
+    "cake"
+   ],
+   "In is used with months."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The bird sat ___ the branch.",
+   "on",
+   [
+    "tweet",
+    "small",
+    "flew"
+   ],
+   "On tells where the bird sat."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The ducks swam ___ the river.",
+   "across",
+   [
+    "walk",
+    "long",
+    "quiet"
+   ],
+   "Across tells how the ducks went from one side to the other."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The kids ran ___ the hill.",
+   "down",
+   [
+    "run",
+    "grassy",
+    "quick"
+   ],
+   "Down tells which way the kids ran."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. Lunch is ___ noon.",
+   "at",
+   [
+    "hungry",
+    "eat",
+    "soon"
+   ],
+   "At is used with a time of day like noon."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The dog jumped ___ the fence.",
+   "over",
+   [
+    "jump",
+    "tall",
+    "bark"
+   ],
+   "Over tells how the dog got past the fence."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. We have music class ___ Monday.",
+   "on",
+   [
+    "sing",
+    "loud",
+    "today"
+   ],
+   "On is used with days of the week."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The fish swam ___ the water.",
+   "in",
+   [
+    "wet",
+    "swimming",
+    "blue"
+   ],
+   "In tells where the fish swam."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. I put the toys ___ the box.",
+   "into",
+   [
+    "play",
+    "fun",
+    "messy"
+   ],
+   "Into tells where the toys went."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The car drove ___ the tunnel.",
+   "through",
+   [
+    "dark",
+    "drive",
+    "long"
+   ],
+   "Through tells how the car went in one end and out the other."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. Hang the picture ___ the couch.",
+   "above",
+   [
+    "pretty",
+    "hang",
+    "frame"
+   ],
+   "Above tells where to hang the picture."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The train came ___ the station.",
+   "to",
+   [
+    "choo",
+    "fast",
+    "ride"
+   ],
+   "To tells where the train came."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. I go to bed ___ eight o'clock.",
+   "at",
+   [
+    "sleep",
+    "tired",
+    "night"
+   ],
+   "At is used with a clock time."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. The puppy sleeps ___ my feet.",
+   "near",
+   [
+    "sleep",
+    "cozy",
+    "tiny"
+   ],
+   "Near tells where the puppy sleeps."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. Please stand ___ me in line.",
+   "behind",
+   [
+    "stand",
+    "tall",
+    "wait"
+   ],
+   "Behind tells where to stand."
+  ],
+  [
+   "Choose the preposition that best completes the sentence. We played outside ___ dinner.",
+   "before",
+   [
+    "play",
+    "yummy",
+    "outside"
+   ],
+   "Before tells when we played."
+  ]
+ ],
+ "engCjUs": [
+  [
+   "Choose the conjunction that best completes the sentence. I wanted to play outside, ___ it was raining.",
+   "but",
+   [
+    "so",
+    "and",
+    "or"
+   ],
+   "But shows a contrast between wanting to play and the rain."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. Do you want juice ___ milk?",
+   "or",
+   [
+    "but",
+    "so",
+    "because"
+   ],
+   "Or gives a choice between two things."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. She studied hard, ___ she passed the test.",
+   "so",
+   [
+    "but",
+    "or",
+    "because"
+   ],
+   "So shows the result of studying."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. He wore a coat ___ it was cold.",
+   "because",
+   [
+    "so",
+    "or",
+    "but"
+   ],
+   "Because gives the reason for wearing a coat."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. We packed sandwiches ___ apples.",
+   "and",
+   [
+    "but",
+    "or",
+    "because"
+   ],
+   "And joins two things that were packed."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. The road was icy, ___ Dad drove slowly.",
+   "so",
+   [
+    "because",
+    "or",
+    "but"
+   ],
+   "So shows what happened because of the icy road."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. I like soccer, ___ my sister likes hockey.",
+   "but",
+   [
+    "so",
+    "because",
+    "or"
+   ],
+   "But shows a difference between two people's likes."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. You can read a book ___ draw a picture.",
+   "or",
+   [
+    "so",
+    "because",
+    "but"
+   ],
+   "Or gives a choice between two activities."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. The baby cried ___ she was hungry.",
+   "because",
+   [
+    "or",
+    "so",
+    "but"
+   ],
+   "Because tells why the baby cried."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. We can go to the park ___ it stops raining.",
+   "after",
+   [
+    "but",
+    "or",
+    "so"
+   ],
+   "After tells when we can go to the park."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. Max was tired, ___ he kept running.",
+   "but",
+   [
+    "so",
+    "because",
+    "or"
+   ],
+   "But shows a surprising contrast."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. I'll lend you my pencil ___ you return it.",
+   "if",
+   [
+    "but",
+    "or",
+    "so"
+   ],
+   "If gives the condition for lending the pencil."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. The power went out, ___ we lit candles.",
+   "so",
+   [
+    "or",
+    "because",
+    "but"
+   ],
+   "So shows what happened as a result of the power outage."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. She was late ___ the bus broke down.",
+   "because",
+   [
+    "so",
+    "or",
+    "and"
+   ],
+   "Because gives the reason she was late."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. ___ it was snowing, we still went to school.",
+   "Although",
+   [
+    "Because",
+    "So",
+    "Or"
+   ],
+   "Although introduces a contrast with what happened next."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. Neither Tom ___ Ali knew the answer.",
+   "nor",
+   [
+    "or",
+    "but",
+    "so"
+   ],
+   "Nor pairs with neither."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. Wash your hands ___ you eat lunch.",
+   "before",
+   [
+    "but",
+    "or",
+    "so"
+   ],
+   "Before tells when to wash your hands."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. The movie was long, ___ it was exciting.",
+   "yet",
+   [
+    "so",
+    "or",
+    "because"
+   ],
+   "Yet shows a contrast, like but."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. We stayed inside ___ the storm passed.",
+   "until",
+   [
+    "but",
+    "or",
+    "so"
+   ],
+   "Until tells how long we stayed inside."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. Both the cat ___ the dog were asleep.",
+   "and",
+   [
+    "or",
+    "nor",
+    "but"
+   ],
+   "Both pairs with and."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. I didn't finish my homework, ___ I can't watch TV.",
+   "so",
+   [
+    "because",
+    "or",
+    "yet"
+   ],
+   "So shows the result of not finishing the homework."
+  ],
+  [
+   "Choose the conjunction that best completes the sentence. Either we leave now, ___ we will miss the bus.",
+   "or",
+   [
+    "and",
+    "nor",
+    "so"
+   ],
+   "Either pairs with or."
+  ]
+ ],
+ "engTmId": [
+  [
+   "Which word is a time-order word? First, we put on our skates.",
+   "First",
+   [
+    "put",
+    "skates",
+    "our"
+   ],
+   "“First” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Then, the bell rang.",
+   "Then",
+   [
+    "bell",
+    "rang",
+    "the"
+   ],
+   "“Then” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Finally, the cake was ready.",
+   "Finally",
+   [
+    "cake",
+    "ready",
+    "was"
+   ],
+   "“Finally” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Before school, I eat breakfast.",
+   "Before",
+   [
+    "school",
+    "eat",
+    "breakfast"
+   ],
+   "“Before” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Second, mix the flour and eggs.",
+   "Second",
+   [
+    "mix",
+    "flour",
+    "eggs"
+   ],
+   "“Second” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Afterward, we cleaned up the mess.",
+   "Afterward",
+   [
+    "cleaned",
+    "mess",
+    "up"
+   ],
+   "“Afterward” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Last, turn off the lights.",
+   "Last",
+   [
+    "turn",
+    "off",
+    "lights"
+   ],
+   "“Last” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Soon, the snow began to fall.",
+   "Soon",
+   [
+    "snow",
+    "began",
+    "fall"
+   ],
+   "“Soon” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Meanwhile, Dad set the table.",
+   "Meanwhile",
+   [
+    "Dad",
+    "set",
+    "table"
+   ],
+   "“Meanwhile” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? During recess, we played tag.",
+   "During",
+   [
+    "recess",
+    "played",
+    "tag"
+   ],
+   "“During” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? At last, the train arrived.",
+   "At last",
+   [
+    "train",
+    "arrived",
+    "the"
+   ],
+   "“At last” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Yesterday, we went to the zoo.",
+   "Yesterday",
+   [
+    "went",
+    "zoo",
+    "we"
+   ],
+   "“Yesterday” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Third, add the chocolate chips.",
+   "Third",
+   [
+    "add",
+    "chocolate",
+    "chips"
+   ],
+   "“Third” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Now, open your books.",
+   "Now",
+   [
+    "open",
+    "books",
+    "your"
+   ],
+   "“Now” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Earlier, Mom called Grandma.",
+   "Earlier",
+   [
+    "Mom",
+    "called",
+    "Grandma"
+   ],
+   "“Earlier” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Tomorrow, we will visit the farm.",
+   "Tomorrow",
+   [
+    "visit",
+    "farm",
+    "will"
+   ],
+   "“Tomorrow” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? In the end, the hero saved the town.",
+   "In the end",
+   [
+    "hero",
+    "saved",
+    "town"
+   ],
+   "“In the end” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Once the paint dries, hang the sign.",
+   "Once",
+   [
+    "paint",
+    "dries",
+    "sign"
+   ],
+   "“Once” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Eventually, the caterpillar became a butterfly.",
+   "Eventually",
+   [
+    "caterpillar",
+    "became",
+    "butterfly"
+   ],
+   "“Eventually” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? To begin, read the instructions.",
+   "To begin",
+   [
+    "read",
+    "instructions",
+    "the"
+   ],
+   "“To begin” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? After that, we brushed our teeth.",
+   "After that",
+   [
+    "brushed",
+    "teeth",
+    "our"
+   ],
+   "“After that” tells when something happens in order."
+  ],
+  [
+   "Which word is a time-order word? Until noon, we worked on our project.",
+   "Until",
+   [
+    "noon",
+    "worked",
+    "project"
+   ],
+   "“Until” tells when something happens in order."
+  ]
+ ]
+}

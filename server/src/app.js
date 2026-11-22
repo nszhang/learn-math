@@ -332,6 +332,22 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     res.json({ newAwards, stars });
   });
 
+  // ---------- diagnostic (adaptive placement check) ----------
+  const DIAG_SUBJECTS = ['math', 'english', 'science'];
+  app.post('/api/diagnostic', auth, async (req, res) => {
+    if (req.role !== 'student') return res.status(403).json({ error: 'Students only' });
+    const { subject, level, strands, answered, correct } = req.body || {};
+    if (!DIAG_SUBJECTS.includes(subject)) return res.status(400).json({ error: 'Unknown subject' });
+    const lvl = Number(level);
+    if (!Number.isFinite(lvl) || lvl < -1 || lvl > 12) return res.status(400).json({ error: 'Level out of range' });
+    const clean = {};
+    for (const [k, v] of Object.entries(strands && typeof strands === 'object' ? strands : {}).slice(0, 30))
+      if (typeof k === 'string' && k.length <= 80 && Number.isFinite(Number(v))) clean[k] = Math.max(-1, Math.min(12, Number(v)));
+    await db.saveDiagnostic(pool, req.uid, { subject, level: lvl, strands: clean, answered: Math.max(0, answered | 0), correct: Math.max(0, correct | 0) });
+    res.json({ ok: true });
+  });
+  app.get('/api/diagnostic', auth, async (req, res) => res.json(await db.latestDiagnostics(pool, req.uid)));
+
   // ---------- homework (student) ----------
   app.get('/api/homework', auth, async (req, res) => {
     const [assignments, progress, completed] = await Promise.all([
@@ -376,6 +392,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
         id: s.id, username: s.username, displayName: s.display_name, stars: s.stars, grade: s.grade ?? null,
         wordsKnown: await db.countKnownWords(pool, s.id, srs.KNOWN_BOX),
         lastSeen: s.last_seen_at ?? null,
+        diagnostics: await db.latestDiagnostics(pool, s.id),
         activity, skillDays,
         stats: {
           answered: s.answered || 0, correct: s.correct || 0, time_sec: s.time_sec || 0,
