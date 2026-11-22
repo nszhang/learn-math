@@ -3,7 +3,7 @@ import { api } from '../api.js';
 import { SUBJECTS, STUDENT_GRADES, gradeLabel, studentLevelFor } from '../skills.js';
 import { niceDate, skillName } from '../homework.js';
 import { clickable } from '../a11y.js';
-import { ClassOverview, StudentActivity, downloadCsv, summarize, agoText, REPORTS_START } from './StudentReport.jsx';
+import { ClassOverview, StudentActivity, TroubleSpots, downloadCsv, summarize, agoText, REPORTS_START } from './StudentReport.jsx';
 
 function StudentCard({ s, r, open, setOpen, onGrade }) {
   const pct = s.stats.answered ? Math.round(100 * s.stats.correct / s.stats.answered) : 0;
@@ -70,6 +70,8 @@ export default function TeacherStudents({ toast }) {
   const [students, setStudents] = useState(null);
   const [n, setN] = useState(7);            // report period in days
   const [openId, setOpenId] = useState(null);
+  const [trouble, setTrouble] = useState(null);
+  useEffect(() => { api('GET', `/api/reports/trouble?days=${n}`).then(setTrouble).catch(() => setTrouble(null)); }, [n]);
   const cards = useRef({});
   const rows = useMemo(() => (students || []).map(s => ({ s, r: summarize(s, n) })), [students, n]);
   const attention = rows.filter(x => x.r.flags.length).length;
@@ -104,6 +106,7 @@ export default function TeacherStudents({ toast }) {
           <button type="button" className="btn btn-ghost" onClick={() => window.print()}>🖨️ Print</button>
         </div>
         <ClassOverview rows={rows} onOpen={openStudent} />
+        <TroubleSpots data={trouble} />
         <h3 style={{ margin: '24px 0 10px' }}>Student reports</h3>
       </>)}
       {students === null

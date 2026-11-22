@@ -202,6 +202,11 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
 
     try {
       const body = { skillId, correct, streak: newStreak };
+      // a missed question (as plain text) feeds the teacher's "Trouble spots" report
+      if (!correct && (question.type === 'mc' || question.type === 'num')) {
+        const plain = h => { const d = document.createElement('div'); d.innerHTML = String(h); d.querySelectorAll('svg').forEach(n => n.replaceWith(' [picture] ')); return d.textContent.replace(/\s+/g, ' ').trim(); };
+        body.missed = { question: plain(question.prompt).slice(0, 600), given: plain(question.type === 'num' ? inputVal : selected).slice(0, 120), answer: plain(question.type === 'num' ? fmtNum(question.answer) : question.answer).slice(0, 120) };
+      }
       if (isCh) body.challengeId = cfg.assignment.id;
       else if (isHw) {
         body.assignmentId = cfg.assignment.id;

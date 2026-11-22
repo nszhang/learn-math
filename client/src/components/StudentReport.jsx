@@ -65,7 +65,7 @@ export function summarize(s, n) {
   return { n, days, byDay, period, prev, accuracy, skillRows, struggling, mastered, lastActive, overdue, open, flags };
 }
 
-const skillLabel = id => {
+export const skillLabel = id => {
   const e = SKILL_INDEX[id];
   return e ? `${e.subject.id === 'math' ? '' : e.subject.name + ' '}${e.grade.name} · ${e.skill.code} ${e.skill.title}` : id;
 };
@@ -208,6 +208,31 @@ export function StudentActivity({ s, r }) {
           {r.open.map(a => <li key={a.id}>Due {niceDate(a.due)} — {a.done}/{a.total} done</li>)}
         </ul>
       </>)}
+    </section>
+  );
+}
+
+/** Trouble spots (IXL-style): the skills the class missed most in the period, who missed them, and examples. */
+export function TroubleSpots({ data }) {
+  if (!data) return null;
+  if (!data.skills.length) return <p className="muted">🚩 No trouble spots in the last {data.days} days — nobody has missed questions repeatedly.</p>;
+  return (
+    <section className="trouble">
+      <h3>🚩 Trouble spots — last {data.days} days</h3>
+      <p className="muted">Skills your students missed most, with the questions they got wrong. Good candidates for a mini-lesson or homework.</p>
+      {data.skills.map(t => (
+        <details className="trouble-item" key={t.skillId}>
+          <summary><strong>{skillLabel(t.skillId)}</strong> <span className="muted">— {t.students.length} student{t.students.length === 1 ? '' : 's'}, {t.misses} missed question{t.misses === 1 ? '' : 's'}</span></summary>
+          <div className="trouble-body">
+            <div><strong>Who:</strong> {t.students.map(s => `${s.name} (${s.misses})`).join(', ')}</div>
+            <ul className="report-list">
+              {t.examples.map((e, i) => (
+                <li key={i}><span className="muted">{e.student}:</span> {e.question} <br /><span className="report-bad">answered “{e.given}”</span> · correct: <strong>{e.answer}</strong></li>
+              ))}
+            </ul>
+          </div>
+        </details>
+      ))}
     </section>
   );
 }

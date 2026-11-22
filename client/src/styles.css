@@ -1197,3 +1197,10 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .diag-strands { display: grid; gap: 8px; }
 .diag-strand { display: grid; grid-template-columns: minmax(160px, 260px) 1fr 110px; align-items: center; gap: 12px; }
 button.rec-card { text-align: left; font: inherit; color: inherit; border: 0; }
+
+/* Trouble spots */
+.trouble { margin: 20px 0 6px; }
+.trouble h3 { margin-bottom: 4px; }
+.trouble-item { background: var(--card); border-radius: 12px; box-shadow: var(--shadow); margin: 8px 0; padding: 10px 14px; }
+.trouble-item summary { cursor: pointer; }
+.trouble-body { margin-top: 8px; line-height: 1.5; }

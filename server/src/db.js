@@ -302,3 +302,21 @@ export async function latestDiagnostics(pool, userId) {
   const seen = new Set();
   return rows.filter(r => !seen.has(r.subject) && seen.add(r.subject));
 }
+
+// ---------- missed questions (Trouble spots) ----------
+const plainText = (v, max) => String(v ?? '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, max);
+export async function logMissed(pool, userId, skillId, { question, given, answer }) {
+  const q = plainText(question, 600);
+  if (!q) return;
+  await pool.query('INSERT INTO missed_questions (user_id, skill_id, question, given, answer) VALUES ($1, $2, $3, $4, $5)',
+    [userId, skillId, q, plainText(given, 120), plainText(answer, 120)]);
+  // keep only the most recent 200 per student
+  const { rows } = await pool.query('SELECT id FROM missed_questions WHERE user_id = $1 ORDER BY id DESC', [userId]);
+  if (rows.length > 200) await pool.query('DELETE FROM missed_questions WHERE user_id = $1 AND id <= $2', [userId, rows[200].id]);
+}
+export async function missedSince(pool, userIds, since) {
+  if (!userIds.length) return [];
+  const { rows } = await pool.query('SELECT user_id, skill_id, question, given, answer, at FROM missed_questions WHERE at >= $1 ORDER BY at DESC', [since]);
+  const ids = new Set(userIds);
+  return rows.filter(r => ids.has(r.user_id));
+}

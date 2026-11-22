@@ -203,3 +203,15 @@ CREATE TABLE IF NOT EXISTS diagnostics (
   taken_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 CREATE INDEX IF NOT EXISTS idx_diagnostics_user ON diagnostics(user_id);
+
+-- ---------- missed questions (teacher "Trouble spots"; plain text, last 200 per student) ----------
+CREATE TABLE IF NOT EXISTS missed_questions (
+  id       SERIAL PRIMARY KEY,
+  user_id  INT  NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  skill_id TEXT NOT NULL,
+  question TEXT NOT NULL,
+  given    TEXT NOT NULL,
+  answer   TEXT NOT NULL,
+  at       TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+CREATE INDEX IF NOT EXISTS idx_missed_user ON missed_questions(user_id, at);

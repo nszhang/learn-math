@@ -729,3 +729,16 @@ test('diagnostic: students save results; teachers see the latest per subject', a
   r = await api('GET', '/api/students', { token: teacher.token });
   assert.equal(r.data.find(s => s.username === 'stu1').diagnostics[0].level, 7);
 });
+
+test('trouble spots: missed questions are stored as plain text and summarised for the teacher', async () => {
+  await api('POST', '/api/answers', { token: student.token, body: { skillId: 'algB1', correct: false, streak: 0,
+    missed: { question: 'Solve <b>x + 3 = 5</b><script>alert(1)</script>', given: '8', answer: '2' } } });
+  await api('POST', '/api/answers', { token: student.token, body: { skillId: 'algB1', correct: false, streak: 0, missed: { question: 'Solve x + 4 = 9', given: '13', answer: '5' } } });
+  let r = await api('GET', '/api/reports/trouble?days=7', { token: teacher.token });
+  assert.equal(r.status, 200);
+  const t = r.data.skills.find(s => s.skillId === 'algB1');
+  assert.ok(t && t.misses >= 2 && t.students[0].name, 'skill summarised with students');
+  assert.ok(t.examples.every(e => !/[<>]/.test(e.question)), 'stored as plain text, no HTML');
+  r = await api('GET', '/api/reports/trouble', { token: student.token });
+  assert.equal(r.status, 403, 'teachers only');
+});

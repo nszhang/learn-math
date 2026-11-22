@@ -255,6 +255,7 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
     });
     await db.recordAnswerStats(pool, req.uid, correct, Math.max(0, streak | 0));
     await db.logAnswerActivity(pool, req.uid, dayOf(req), skillId, correct, score);
+    if (!correct && req.body?.missed && typeof req.body.missed === 'object') await db.logMissed(pool, req.uid, skillId, req.body.missed);
 
     // --- homework progress (when in homework mode) ---
     let homework = null;
@@ -408,6 +409,26 @@ export function createApp(pool, jwtSecret = 'dev-secret-change-me', mailer = nul
       });
     }
     res.json(result);
+  });
+
+  // Trouble spots: the skills a teacher's students miss most in the last N days, with examples
+  app.get('/api/reports/trouble', auth, teacherOnly, async (req, res) => {
+    const days = Math.max(1, Math.min(60, req.query.days | 0 || 7));
+    const students = await db.getStudentsWithStats(pool, req.uid);
+    const names = new Map(students.map(s => [s.id, s.display_name]));
+    const rows = await db.missedSince(pool, students.map(s => s.id), new Date(Date.now() - days * 864e5));
+    const bySkill = new Map();
+    for (const r of rows) {
+      const t = bySkill.get(r.skill_id) || { skillId: r.skill_id, misses: 0, students: new Map(), examples: [] };
+      t.misses++;
+      t.students.set(r.user_id, (t.students.get(r.user_id) || 0) + 1);
+      if (t.examples.length < 5) t.examples.push({ student: names.get(r.user_id), question: r.question, given: r.given, answer: r.answer, at: r.at });
+      bySkill.set(r.skill_id, t);
+    }
+    const list = [...bySkill.values()]
+      .map(t => ({ ...t, students: [...t.students].map(([id, n]) => ({ id, name: names.get(id), misses: n })).sort((a, b) => b.misses - a.misses) }))
+      .sort((a, b) => b.students.length - a.students.length || b.misses - a.misses).slice(0, 20);
+    res.json({ days, skills: list });
   });
 
   app.post('/api/assignments', auth, teacherOnly, async (req, res) => {
