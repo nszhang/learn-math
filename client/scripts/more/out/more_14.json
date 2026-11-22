@@ -3328,5 +3328,2225 @@
    ],
    "\"The reason … is that\" avoids the redundant \"reason … because.\""
   ]
+ ],
+ "engSPL": [
+  [
+   "Which word is spelled correctly?",
+   "conscientious",
+   [
+    "consientious",
+    "conscientous",
+    "conchientious"
+   ],
+   "Conscientious keeps the <em>sc</em> from <em>science</em> and ends in <em>-tious</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "millennium",
+   [
+    "millenium",
+    "milennium",
+    "milenium"
+   ],
+   "Millennium has a double <em>l</em> and a double <em>n</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "privilege",
+   [
+    "priviledge",
+    "privelege",
+    "privilage"
+   ],
+   "Privilege has no <em>d</em> and is spelled <em>pri-vi-lege</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "recommend",
+   [
+    "reccommend",
+    "recomend",
+    "reccomend"
+   ],
+   "Recommend has one <em>c</em> and a double <em>m</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "harass",
+   [
+    "harrass",
+    "harras",
+    "herass"
+   ],
+   "Harass has one <em>r</em> and a double <em>s</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "committee",
+   [
+    "commitee",
+    "comittee",
+    "committe"
+   ],
+   "Committee doubles the <em>m</em>, the <em>t</em> and the <em>e</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "perseverance",
+   [
+    "perseverence",
+    "perserverance",
+    "perseveranse"
+   ],
+   "Perseverance has no <em>r</em> after the first <em>e</em> and ends in <em>-ance</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "liaison",
+   [
+    "liason",
+    "liasion",
+    "laison"
+   ],
+   "Liaison has an <em>i</em> on both sides of the <em>a</em>: <em>li-ai-son</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "questionnaire",
+   [
+    "questionaire",
+    "questionnare",
+    "qestionnaire"
+   ],
+   "Questionnaire has a double <em>n</em> and ends in <em>-aire</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "mischievous",
+   [
+    "mischievious",
+    "mischevous",
+    "mischeivous"
+   ],
+   "Mischievous has only three syllables and no <em>i</em> before the <em>-ous</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "pastime",
+   [
+    "passtime",
+    "pasttime",
+    "pastyme"
+   ],
+   "Pastime has a single <em>s</em> and a single <em>t</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "supersede",
+   [
+    "supercede",
+    "superseed",
+    "supersead"
+   ],
+   "Supersede is the only common English word ending in <em>-sede</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "weird",
+   [
+    "wierd",
+    "weerd",
+    "wiered"
+   ],
+   "Weird breaks the <em>i before e</em> rule: it is spelled <em>w-e-i-r-d</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "guarantee",
+   [
+    "garantee",
+    "guarentee",
+    "guaranty"
+   ],
+   "Guarantee has a <em>u</em> after the <em>g</em> and ends in <em>-ee</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "acquaintance",
+   [
+    "aquaintance",
+    "acquaintence",
+    "acquantance"
+   ],
+   "Acquaintance begins with <em>acq-</em> and ends in <em>-ance</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "bureaucracy",
+   [
+    "beaurocracy",
+    "burocracy",
+    "bureacracy"
+   ],
+   "Bureaucracy starts with <em>bureau</em>, from French."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "exhilarate",
+   [
+    "exhilerate",
+    "exilarate",
+    "exhillarate"
+   ],
+   "Exhilarate has a silent <em>h</em> and an <em>a</em> after the <em>l</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "threshold",
+   [
+    "threshhold",
+    "thresold",
+    "threshould"
+   ],
+   "Threshold has only one <em>h</em> in the middle."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "noticeable",
+   [
+    "noticable",
+    "noticeble",
+    "notisable"
+   ],
+   "Noticeable keeps the <em>e</em> so the <em>c</em> stays soft."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "occasionally",
+   [
+    "occassionally",
+    "ocasionally",
+    "occasionaly"
+   ],
+   "Occasionally has a double <em>c</em>, a single <em>s</em> and a double <em>l</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "unnecessary",
+   [
+    "unecessary",
+    "unneccessary",
+    "unnecesary"
+   ],
+   "Unnecessary is <em>un-</em> + <em>necessary</em>, so it has a double <em>n</em>, one <em>c</em> and a double <em>s</em>."
+  ],
+  [
+   "Which word is spelled correctly?",
+   "lieutenant",
+   [
+    "leiutenant",
+    "lieutenent",
+    "lootenant"
+   ],
+   "Lieutenant begins with <em>lieu</em>, French for \"place\", and ends in <em>-ant</em>."
+  ]
+ ],
+ "engWcPt": [
+  [
+   "Entry: Okafor, Ngozi. <em>Rivers of the North</em>. House of Anansi, 2018. What is the title of the work?",
+   "Rivers of the North",
+   [
+    "House of Anansi",
+    "Ngozi Okafor",
+    "2018"
+   ],
+   "The italicized title after the author's name is the title of the book."
+  ],
+  [
+   "Entry: Okafor, Ngozi. <em>Rivers of the North</em>. House of Anansi, 2018. Who is the publisher?",
+   "House of Anansi",
+   [
+    "Ngozi Okafor",
+    "Rivers of the North",
+    "2018"
+   ],
+   "The publisher appears after the title and before the year."
+  ],
+  [
+   "Entry: Okafor, Ngozi. <em>Rivers of the North</em>. House of Anansi, 2018. Who is the author?",
+   "Ngozi Okafor",
+   [
+    "House of Anansi",
+    "Rivers of the North",
+    "Okafor House"
+   ],
+   "The author's name comes first, written last name first: Okafor, Ngozi."
+  ],
+  [
+   "Entry: Tremblay, Luc. \"Saving the Monarchs.\" <em>Canadian Geographic</em>, vol. 141, no. 2, 2021, pp. 30–37. What is the title of the article?",
+   "Saving the Monarchs",
+   [
+    "Canadian Geographic",
+    "Luc Tremblay",
+    "vol. 141"
+   ],
+   "An article title appears in quotation marks right after the author."
+  ],
+  [
+   "Entry: Tremblay, Luc. \"Saving the Monarchs.\" <em>Canadian Geographic</em>, vol. 141, no. 2, 2021, pp. 30–37. What is the container?",
+   "Canadian Geographic",
+   [
+    "Saving the Monarchs",
+    "Luc Tremblay",
+    "pp. 30–37"
+   ],
+   "The container is the larger publication, here the italicized magazine title."
+  ],
+  [
+   "Entry: Tremblay, Luc. \"Saving the Monarchs.\" <em>Canadian Geographic</em>, vol. 141, no. 2, 2021, pp. 30–37. What is the volume number?",
+   "141",
+   [
+    "2",
+    "2021",
+    "30"
+   ],
+   "The volume number follows the abbreviation <em>vol.</em>"
+  ],
+  [
+   "Entry: Tremblay, Luc. \"Saving the Monarchs.\" <em>Canadian Geographic</em>, vol. 141, no. 2, 2021, pp. 30–37. Which issue number is given?",
+   "2",
+   [
+    "141",
+    "2021",
+    "37"
+   ],
+   "The issue number follows the abbreviation <em>no.</em>"
+  ],
+  [
+   "Entry: Tremblay, Luc. \"Saving the Monarchs.\" <em>Canadian Geographic</em>, vol. 141, no. 2, 2021, pp. 30–37. Which pages does the article cover?",
+   "30 to 37",
+   [
+    "141 to 2",
+    "2 to 30",
+    "2021 to 2022"
+   ],
+   "<em>pp. 30–37</em> shows the article runs from page 30 to page 37."
+  ],
+  [
+   "Entry: Singh, Priya. \"How Glaciers Move.\" <em>Earth Now</em>, 4 Mar. 2022, www.earthnow.ca/glaciers. What does www.earthnow.ca/glaciers show?",
+   "The location (web address) of the source",
+   [
+    "The title of the website",
+    "The author's email",
+    "The publisher's city"
+   ],
+   "For an online source, MLA ends the entry with the URL as its location."
+  ],
+  [
+   "Entry: Singh, Priya. \"How Glaciers Move.\" <em>Earth Now</em>, 4 Mar. 2022, www.earthnow.ca/glaciers. When was the article published?",
+   "4 March 2022",
+   [
+    "March 2022 to April",
+    "2 April 2022",
+    "4 May 2022"
+   ],
+   "MLA writes dates day, month, year, so <em>4 Mar. 2022</em> means 4 March 2022."
+  ],
+  [
+   "Entry: Singh, Priya. \"How Glaciers Move.\" <em>Earth Now</em>, 4 Mar. 2022, www.earthnow.ca/glaciers. What is the name of the website?",
+   "Earth Now",
+   [
+    "How Glaciers Move",
+    "Priya Singh",
+    "earthnow.ca/glaciers"
+   ],
+   "The italicized name after the article title is the website, which is the container."
+  ],
+  [
+   "Entry: Morales, Ana, and Ben Wright. <em>Coding for Beginners</em>. 2nd ed., Pearson, 2019. How many authors does the book have?",
+   "Two",
+   [
+    "One",
+    "Three",
+    "Four"
+   ],
+   "Two authors are joined by <em>and</em>; only the first is written last name first."
+  ],
+  [
+   "Entry: Morales, Ana, and Ben Wright. <em>Coding for Beginners</em>. 2nd ed., Pearson, 2019. What does 2nd ed. tell you?",
+   "It is the second edition of the book",
+   [
+    "It has two volumes",
+    "It was published twice in 2019",
+    "It has two authors"
+   ],
+   "<em>ed.</em> after an ordinal number shows which edition of the book is cited."
+  ],
+  [
+   "Entry: Morales, Ana, and Ben Wright. <em>Coding for Beginners</em>. 2nd ed., Pearson, 2019. Why is the second author written Ben Wright rather than Wright, Ben?",
+   "Only the first author's name is reversed",
+   [
+    "Ben is the main author",
+    "Wright is a first name",
+    "The second author is the editor"
+   ],
+   "MLA reverses only the first author's name so the list can be alphabetized by it."
+  ],
+  [
+   "Entry: Okafor, Ngozi. <em>Rivers of the North</em>. House of Anansi, 2018. Where would this entry be placed in the Works Cited list?",
+   "Alphabetically under O",
+   [
+    "Alphabetically under R",
+    "Under the year 2018",
+    "Under H for the publisher"
+   ],
+   "Works Cited entries are alphabetized by the first word, which is usually the author's last name."
+  ],
+  [
+   "Entry: \"Wildfire Season Begins.\" <em>CBC News</em>, 2 June 2023. Why does this entry begin with the article title?",
+   "No author is listed",
+   [
+    "The article is very short",
+    "Titles always come first",
+    "CBC is the author"
+   ],
+   "When there is no author, MLA starts the entry with the title of the source."
+  ],
+  [
+   "In MLA format, how is the title of a magazine article shown in a Works Cited entry?",
+   "In quotation marks",
+   [
+    "In italics",
+    "In bold",
+    "Underlined and in capital letters"
+   ],
+   "Shorter works within a larger container, like articles, go in quotation marks."
+  ],
+  [
+   "In MLA format, how is the title of a website shown when it is the container?",
+   "In italics",
+   [
+    "In quotation marks",
+    "In bold",
+    "In parentheses"
+   ],
+   "Containers, such as websites, magazines and books, are italicized."
+  ],
+  [
+   "What is the title at the top of an MLA list of sources?",
+   "Works Cited",
+   [
+    "Bibliography of Sources",
+    "References",
+    "Citations Used"
+   ],
+   "MLA names the list Works Cited and centres the title at the top of the page."
+  ],
+  [
+   "How are lines after the first one in each MLA Works Cited entry formatted?",
+   "Indented half an inch (a hanging indent)",
+   [
+    "Bolded",
+    "Numbered in order",
+    "Centred on the page"
+   ],
+   "MLA uses a hanging indent so each entry's first word stands out."
+  ],
+  [
+   "Which punctuation mark follows the author's name in an MLA Works Cited entry?",
+   "A period",
+   [
+    "A comma",
+    "A colon",
+    "A semicolon"
+   ],
+   "The author element ends with a period, as in <em>Okafor, Ngozi.</em>"
+  ],
+  [
+   "Entry: Patel, Ravi. <em>The Last Ice</em>. Nimbus, 2020. Which entry would come right before it in an alphabetical list?",
+   "Lee, Jordan. <em>The Quiet Coast</em>. Penguin, 2019.",
+   [
+    "Smith, Alex. <em>Rain</em>. Annick, 2018.",
+    "Ruiz, Maya. <em>Cold Light</em>. Orca, 2021.",
+    "Tan, Wei. <em>Flight</em>. Kids Can, 2017."
+   ],
+   "Lee begins with L, which comes before P in alphabetical order, while the others come after."
+  ]
+ ],
+ "engXWcPr": [
+  [
+   "In this entry, what is Nguyen, Thi? Nguyen, Thi. <em>Stars Over Prairie Towns</em>. Coteau Books, 2016.",
+   "The author",
+   [
+    "The publisher",
+    "The title of the source",
+    "The container"
+   ],
+   "The first element of an MLA entry is the author, last name first."
+  ],
+  [
+   "In this entry, what is <em>Stars Over Prairie Towns</em>? Nguyen, Thi. <em>Stars Over Prairie Towns</em>. Coteau Books, 2016.",
+   "The title of the source",
+   [
+    "The container",
+    "The publisher",
+    "The author"
+   ],
+   "For a book, the italicized title after the author is the title of the source."
+  ],
+  [
+   "In this entry, what is Coteau Books? Nguyen, Thi. <em>Stars Over Prairie Towns</em>. Coteau Books, 2016.",
+   "The publisher",
+   [
+    "The author",
+    "The title of the source",
+    "The location"
+   ],
+   "The publisher comes after the title and before the publication date."
+  ],
+  [
+   "In this entry, what is 2016? Nguyen, Thi. <em>Stars Over Prairie Towns</em>. Coteau Books, 2016.",
+   "The publication date",
+   [
+    "The page count",
+    "The edition",
+    "The volume"
+   ],
+   "The year at the end of a book entry is the publication date."
+  ],
+  [
+   "In this entry, what is \"The Science of Sleep\"? Bauer, Kim. \"The Science of Sleep.\" <em>Maclean's</em>, vol. 134, no. 5, 2021, pp. 22–25.",
+   "The title of the source",
+   [
+    "The container",
+    "The author",
+    "The publisher"
+   ],
+   "The article title in quotation marks is the title of the source."
+  ],
+  [
+   "In this entry, what is <em>Maclean's</em>? Bauer, Kim. \"The Science of Sleep.\" <em>Maclean's</em>, vol. 134, no. 5, 2021, pp. 22–25.",
+   "The container (the publication)",
+   [
+    "The title of the source",
+    "The publisher's city",
+    "The author"
+   ],
+   "The magazine that holds the article is its container."
+  ],
+  [
+   "In this entry, what is vol. 134? Bauer, Kim. \"The Science of Sleep.\" <em>Maclean's</em>, vol. 134, no. 5, 2021, pp. 22–25.",
+   "The volume number",
+   [
+    "The issue number",
+    "The page numbers",
+    "The edition"
+   ],
+   "<em>vol.</em> marks the volume number of a periodical."
+  ],
+  [
+   "In this entry, what is no. 5? Bauer, Kim. \"The Science of Sleep.\" <em>Maclean's</em>, vol. 134, no. 5, 2021, pp. 22–25.",
+   "The issue number",
+   [
+    "The volume number",
+    "The page numbers",
+    "The edition"
+   ],
+   "<em>no.</em> marks the issue number."
+  ],
+  [
+   "In this entry, what is pp. 22–25? Bauer, Kim. \"The Science of Sleep.\" <em>Maclean's</em>, vol. 134, no. 5, 2021, pp. 22–25.",
+   "The page numbers",
+   [
+    "The volume and issue",
+    "The publication dates",
+    "The number of authors"
+   ],
+   "<em>pp.</em> marks the range of pages the article covers."
+  ],
+  [
+   "In this entry, what is 2021? Bauer, Kim. \"The Science of Sleep.\" <em>Maclean's</em>, vol. 134, no. 5, 2021, pp. 22–25.",
+   "The publication date",
+   [
+    "The issue number",
+    "The page count",
+    "The volume"
+   ],
+   "The date element tells when the magazine issue was published."
+  ],
+  [
+   "In this entry, what is <em>Sky Watch</em>? Ahmed, Sara. \"Northern Lights Explained.\" <em>Sky Watch</em>, 10 Jan. 2023, www.skywatch.ca/aurora.",
+   "The container (the website)",
+   [
+    "The title of the source",
+    "The author",
+    "The location"
+   ],
+   "The italicized website name is the container that holds the article."
+  ],
+  [
+   "In this entry, what is www.skywatch.ca/aurora? Ahmed, Sara. \"Northern Lights Explained.\" <em>Sky Watch</em>, 10 Jan. 2023, www.skywatch.ca/aurora.",
+   "The location (URL)",
+   [
+    "The publisher",
+    "The container",
+    "The title of the source"
+   ],
+   "For online sources, the URL is the location element at the end of the entry."
+  ],
+  [
+   "In this entry, what is 10 Jan. 2023? Ahmed, Sara. \"Northern Lights Explained.\" <em>Sky Watch</em>, 10 Jan. 2023, www.skywatch.ca/aurora.",
+   "The publication date",
+   [
+    "The access date",
+    "The page numbers",
+    "The volume"
+   ],
+   "The date after the container shows when the web article was published."
+  ],
+  [
+   "In this entry, what is \"Northern Lights Explained\"? Ahmed, Sara. \"Northern Lights Explained.\" <em>Sky Watch</em>, 10 Jan. 2023, www.skywatch.ca/aurora.",
+   "The title of the source",
+   [
+    "The container",
+    "The location",
+    "The author"
+   ],
+   "The title of the web page appears in quotation marks."
+  ],
+  [
+   "In this entry, what is editor? Clark, Joe, editor. <em>Voices of the Coast</em>. Harbour Publishing, 2015.",
+   "A label showing Joe Clark edited the book rather than wrote it",
+   [
+    "The book's genre",
+    "The publisher's job title",
+    "The edition number"
+   ],
+   "In MLA, a descriptor such as <em>editor</em> follows the name of a person who edited the work."
+  ],
+  [
+   "In this entry, what is Harbour Publishing? Clark, Joe, editor. <em>Voices of the Coast</em>. Harbour Publishing, 2015.",
+   "The publisher",
+   [
+    "The container",
+    "The location",
+    "The author"
+   ],
+   "The publisher appears before the year in a book entry."
+  ],
+  [
+   "In this entry, what is Translated by Tom Hill? Dubois, Marie. <em>Le Petit Prince Revisited</em>. Translated by Tom Hill, Orca, 2020.",
+   "An other contributor (the translator)",
+   [
+    "The second author",
+    "The publisher",
+    "The container"
+   ],
+   "MLA lists other contributors, such as translators, after the title."
+  ],
+  [
+   "In this entry, what is Dubois, Marie? Dubois, Marie. <em>Le Petit Prince Revisited</em>. Translated by Tom Hill, Orca, 2020.",
+   "The author",
+   [
+    "The translator",
+    "The publisher",
+    "The title of the source"
+   ],
+   "The person whose name begins the entry is the author of the work."
+  ],
+  [
+   "In this entry, what is Orca? Dubois, Marie. <em>Le Petit Prince Revisited</em>. Translated by Tom Hill, Orca, 2020.",
+   "The publisher",
+   [
+    "The translator",
+    "The container",
+    "The author"
+   ],
+   "The publisher appears just before the year."
+  ],
+  [
+   "In MLA 8th edition, what is a container?",
+   "The larger work that holds the source",
+   [
+    "The author's full name",
+    "The page range of the source",
+    "The date you accessed the source"
+   ],
+   "A container is the larger whole, such as a magazine, website or anthology, that includes the source."
+  ],
+  [
+   "Which list shows the first MLA core elements in the correct order?",
+   "Author, title of source, title of container",
+   [
+    "Title of source, author, publisher",
+    "Publisher, author, date",
+    "Container, title of source, author"
+   ],
+   "MLA core elements begin with author, then title of source, then title of container."
+  ],
+  [
+   "In this entry, which element comes immediately after \"Ocean Plastics\"? Smith, Alex. \"Ocean Plastics.\" <em>Science Weekly</em>, vol. 12, no. 3, 2021, pp. 14–19.",
+   "The container, <em>Science Weekly</em>",
+   [
+    "The author, Alex Smith",
+    "The page numbers",
+    "The publication date"
+   ],
+   "After the title of the source, MLA lists the title of the container."
+  ]
+ ],
+ "engInTx": [
+  [
+   "You quote page 112 of a book by Bergeron. Which MLA in-text citation is correct?",
+   "(Bergeron 112)",
+   [
+    "(Bergeron, 112)",
+    "(Bergeron p. 112)",
+    "(112 Bergeron)"
+   ],
+   "MLA puts the author's last name and page number with no comma or <em>p.</em> between them."
+  ],
+  [
+   "You paraphrase page 7 of an article by Tanaka. Which citation is correct?",
+   "(Tanaka 7)",
+   [
+    "(Tanaka, page 7)",
+    "(7)",
+    "(Tanaka, 2020)"
+   ],
+   "Paraphrases are cited the same way as quotations: last name and page number."
+  ],
+  [
+   "The author is named in your sentence: Desai argues that … The idea is on page 30. What goes in the parentheses?",
+   "(30)",
+   [
+    "(Desai 30)",
+    "(Desai)",
+    "(p. 30)"
+   ],
+   "When the author is named in the sentence, only the page number goes in the parentheses."
+  ],
+  [
+   "A source has three or more authors: Kim, Ortiz and Walsh. You cite page 9. Which citation is correct?",
+   "(Kim et al. 9)",
+   [
+    "(Kim, Ortiz, and Walsh 9)",
+    "(Kim and others, 9)",
+    "(Walsh et al. 9)"
+   ],
+   "For three or more authors, MLA uses the first author's last name followed by <em>et al.</em>"
+  ],
+  [
+   "A website has no author. Its page title is \"Bee Facts\". Which citation is correct?",
+   "(\"Bee Facts\")",
+   [
+    "(Anonymous)",
+    "(Bee Facts 1)",
+    "(Website)"
+   ],
+   "With no author, MLA uses a shortened title in quotation marks."
+  ],
+  [
+   "A book with no author is titled <em>The Great Canadian Atlas</em>. You cite page 50. Which citation is correct?",
+   "(<em>Great Canadian Atlas</em> 50)",
+   [
+    "(\"Great Canadian Atlas\" 50)",
+    "(Unknown 50)",
+    "(Atlas, 50)"
+   ],
+   "A book title stays italicized in a citation, shortened to its key words, followed by the page."
+  ],
+  [
+   "You cite two different books by Atwood. Which citation makes clear which book you mean?",
+   "(Atwood, <em>Oryx</em> 45)",
+   [
+    "(Atwood 45)",
+    "(Atwood 2003 45)",
+    "(Atwood book 2, 45)"
+   ],
+   "When you cite more than one work by the same author, add a short title after a comma."
+  ],
+  [
+   "You quote two authors named Lee (Jordan Lee and Ming Lee). Which citation is correct?",
+   "(J. Lee 14)",
+   [
+    "(Lee 14)",
+    "(Lee, Jordan, 14)",
+    "(Lee and Lee 14)"
+   ],
+   "When two cited authors share a last name, add the first initial to tell them apart."
+  ],
+  [
+   "Which sentence places the in-text citation correctly?",
+   "The ice is melting faster than expected (Ross 22).",
+   [
+    "The ice is melting faster than expected. (Ross 22)",
+    "(Ross 22) The ice is melting faster than expected.",
+    "The ice is (Ross 22) melting faster than expected."
+   ],
+   "The parenthetical citation goes at the end of the borrowed idea, before the period."
+  ],
+  [
+   "A quotation ends with a question mark: \"Who decides?\" Where does the citation go?",
+   "\"Who decides?\" (Patel 8).",
+   [
+    "\"Who decides (Patel 8)?\"",
+    "\"Who decides?\". (Patel 8)",
+    "(Patel 8) \"Who decides?\""
+   ],
+   "Keep the question mark inside the quotation marks, then add the citation and a period."
+  ],
+  [
+   "What should every in-text citation match?",
+   "The first word of an entry in the Works Cited list",
+   [
+    "The title of your essay",
+    "The first sentence of the source",
+    "The date you read the source"
+   ],
+   "The name or title in parentheses lets readers find the matching Works Cited entry."
+  ],
+  [
+   "You cite pages 40 to 42 of a book by Fraser. Which citation is correct?",
+   "(Fraser 40–42)",
+   [
+    "(Fraser pp. 40–42)",
+    "(Fraser, 40 to 42)",
+    "(Fraser 40, 41, 42)"
+   ],
+   "Page ranges use a dash between the numbers and no <em>pp.</em>"
+  ],
+  [
+   "You quote a line from an online video by the National Film Board, which shows 02:15 as the time. Which citation is correct?",
+   "(National Film Board 00:02:15)",
+   [
+    "(National Film Board p. 2)",
+    "(National Film Board, video)",
+    "(02:15 National Film Board)"
+   ],
+   "For time-based media, MLA gives the time stamp in place of a page number."
+  ],
+  [
+   "A source is written by a group, the Canadian Red Cross, with no page numbers. Which citation is correct?",
+   "(Canadian Red Cross)",
+   [
+    "(Red Cross, Canadian)",
+    "(Anonymous)",
+    "(Canadian Red Cross n.p.)"
+   ],
+   "A corporate author is cited by its name, and no page is given when the source has none."
+  ],
+  [
+   "You quote a long passage of more than four lines. How should it be formatted?",
+   "As an indented block quotation with the citation after the final period",
+   [
+    "In quotation marks with the citation before the period",
+    "In italics with no citation",
+    "As a footnote at the bottom of the page"
+   ],
+   "Long quotations are set off as block quotations, and the citation follows the closing punctuation."
+  ],
+  [
+   "The author is named in your sentence: As Kovač explains, … The source is a web page with no page numbers. What goes in the parentheses?",
+   "Nothing; no parenthetical citation is needed",
+   [
+    "(Kovač)",
+    "(n.p.)",
+    "(web)"
+   ],
+   "If the author is named in the sentence and there is no page number, no parentheses are needed."
+  ],
+  [
+   "You quote a poem by Pauline Johnson and cite lines 5 to 7. Which citation is correct?",
+   "(Johnson, lines 5–7)",
+   [
+    "(Johnson pp. 5–7)",
+    "(Johnson 5 to 7 lines)",
+    "(Johnson, poem)"
+   ],
+   "For poems, MLA cites line numbers; write <em>lines</em> the first time to make that clear."
+  ],
+  [
+   "You cite a quotation that Sharma used, originally said by Lin, on page 61 of Sharma's book. Which citation is correct?",
+   "(qtd. in Sharma 61)",
+   [
+    "(Lin 61)",
+    "(Sharma and Lin 61)",
+    "(Lin qtd. Sharma)"
+   ],
+   "For an indirect source, use <em>qtd. in</em> with the author of the source you actually read."
+  ],
+  [
+   "Why do writers use in-text citations?",
+   "To give credit to sources and help readers find them",
+   [
+    "To make an essay longer",
+    "To show the essay's word count",
+    "To replace the Works Cited list"
+   ],
+   "In-text citations credit borrowed ideas and point readers to full entries in the Works Cited list."
+  ],
+  [
+   "Which in-text citation uses correct MLA punctuation?",
+   "(Nakamura 17)",
+   [
+    "(Nakamura, 17)",
+    "(Nakamura: 17)",
+    "(Nakamura; 17)"
+   ],
+   "MLA puts only a space between the author's name and the page number."
+  ],
+  [
+   "You cite two sources for the same idea: Grant page 5 and Shah page 19. Which citation is correct?",
+   "(Grant 5; Shah 19)",
+   [
+    "(Grant 5, Shah 19)",
+    "(Grant and Shah 5, 19)",
+    "(Grant 5) and (Shah 19)"
+   ],
+   "Multiple sources in one parenthetical citation are separated by a semicolon."
+  ],
+  [
+   "You quote two authors, Murphy and Bell, page 3. Which citation is correct?",
+   "(Murphy and Bell 3)",
+   [
+    "(Murphy et al. 3)",
+    "(Murphy, Bell, 3)",
+    "(Murphy & Bell, p. 3)"
+   ],
+   "For two authors, MLA names both, joined by <em>and</em>."
+  ]
+ ],
+ "engWpAn": [
+  [
+   "Complete the analogy. paint : painter :: garden : ___",
+   "gardener",
+   [
+    "gardening",
+    "gardens",
+    "gardened"
+   ],
+   "Adding <em>-er</em> to a verb names the person who does it, so garden becomes gardener."
+  ],
+  [
+   "Complete the analogy. fear : fearless :: help : ___",
+   "helpless",
+   [
+    "helpful",
+    "helped",
+    "helper"
+   ],
+   "<em>-less</em> means without, so without help is helpless."
+  ],
+  [
+   "Complete the analogy. joy : joyful :: peace : ___",
+   "peaceful",
+   [
+    "peaceless",
+    "peacefully",
+    "peacing"
+   ],
+   "<em>-ful</em> means full of, so full of peace is peaceful."
+  ],
+  [
+   "Complete the analogy. happy : happiness :: lonely : ___",
+   "loneliness",
+   [
+    "lonelier",
+    "lonelily",
+    "lonesome"
+   ],
+   "<em>-ness</em> turns an adjective into a noun, and the <em>y</em> changes to <em>i</em>."
+  ],
+  [
+   "Complete the analogy. legal : illegal :: logical : ___",
+   "illogical",
+   [
+    "unlogical",
+    "dislogical",
+    "inlogical"
+   ],
+   "Before a word starting with <em>l</em>, the negative prefix <em>in-</em> becomes <em>il-</em>."
+  ],
+  [
+   "Complete the analogy. possible : impossible :: patient : ___",
+   "impatient",
+   [
+    "unpatient",
+    "inpatient",
+    "dispatient"
+   ],
+   "Before <em>p</em>, the negative prefix <em>in-</em> becomes <em>im-</em>."
+  ],
+  [
+   "Complete the analogy. regular : irregular :: responsible : ___",
+   "irresponsible",
+   [
+    "unresponsible",
+    "inresponsible",
+    "disresponsible"
+   ],
+   "Before <em>r</em>, the negative prefix <em>in-</em> becomes <em>ir-</em>."
+  ],
+  [
+   "Complete the analogy. connect : disconnect :: obey : ___",
+   "disobey",
+   [
+    "unobey",
+    "misobey",
+    "reobey"
+   ],
+   "<em>dis-</em> reverses or negates a verb, so obey becomes disobey."
+  ],
+  [
+   "Complete the analogy. spell : misspell :: understand : ___",
+   "misunderstand",
+   [
+    "disunderstand",
+    "ununderstand",
+    "reunderstand"
+   ],
+   "<em>mis-</em> means wrongly, so to understand wrongly is to misunderstand."
+  ],
+  [
+   "Complete the analogy. view : preview :: heat : ___",
+   "preheat",
+   [
+    "reheat",
+    "misheat",
+    "unheat"
+   ],
+   "<em>pre-</em> means before, matching preview, which means to view beforehand."
+  ],
+  [
+   "Complete the analogy. move : movement :: govern : ___",
+   "government",
+   [
+    "governor",
+    "governing",
+    "governance"
+   ],
+   "<em>-ment</em> turns a verb into a noun naming the action or result, like movement."
+  ],
+  [
+   "Complete the analogy. decide : decision :: divide : ___",
+   "division",
+   [
+    "dividing",
+    "divider",
+    "divisible"
+   ],
+   "Verbs ending in <em>-ide</em> often form nouns ending in <em>-ision</em>."
+  ],
+  [
+   "Complete the analogy. read : readable :: wash : ___",
+   "washable",
+   [
+    "washer",
+    "washing",
+    "washful"
+   ],
+   "<em>-able</em> means able to be, so able to be washed is washable."
+  ],
+  [
+   "Complete the analogy. child : childhood :: neighbour : ___",
+   "neighbourhood",
+   [
+    "neighbourly",
+    "neighbours",
+    "neighbourship"
+   ],
+   "<em>-hood</em> names a state or group, like childhood and neighbourhood."
+  ],
+  [
+   "Complete the analogy. friend : friendship :: leader : ___",
+   "leadership",
+   [
+    "leaderhood",
+    "leaderly",
+    "leading"
+   ],
+   "<em>-ship</em> names a state or role, so friend becomes friendship and leader becomes leadership."
+  ],
+  [
+   "Complete the analogy. wide : widen :: short : ___",
+   "shorten",
+   [
+    "shortly",
+    "shortness",
+    "shorter"
+   ],
+   "<em>-en</em> turns an adjective into a verb meaning to make, so to make short is to shorten."
+  ],
+  [
+   "Complete the analogy. modern : modernize :: visual : ___",
+   "visualize",
+   [
+    "visually",
+    "visualness",
+    "visualist"
+   ],
+   "<em>-ize</em> turns an adjective into a verb; Canadian spelling keeps the <em>z</em>."
+  ],
+  [
+   "Complete the analogy. cycle : bicycle :: angle : ___",
+   "triangle",
+   [
+    "angled",
+    "angular",
+    "biangle"
+   ],
+   "Numeric prefixes follow a pattern: <em>bi-</em> for two in bicycle, <em>tri-</em> for three in triangle."
+  ],
+  [
+   "Complete the analogy. danger : dangerous :: fame : ___",
+   "famous",
+   [
+    "fameous",
+    "famously",
+    "famed"
+   ],
+   "<em>-ous</em> means full of; the silent <em>e</em> in fame is dropped."
+  ],
+  [
+   "Complete the analogy. science : scientist :: art : ___",
+   "artist",
+   [
+    "artistry",
+    "artful",
+    "artsy"
+   ],
+   "<em>-ist</em> names a person who practises something, like scientist and artist."
+  ],
+  [
+   "Complete the analogy. marine : submarine :: way : ___",
+   "subway",
+   [
+    "midway",
+    "highway",
+    "anyway"
+   ],
+   "<em>sub-</em> means under, so a subway runs under the ground as a submarine goes under the sea."
+  ],
+  [
+   "Complete the analogy. courage : encourage :: danger : ___",
+   "endanger",
+   [
+    "dangerous",
+    "disdanger",
+    "undanger"
+   ],
+   "<em>en-</em> turns a noun into a verb meaning to put into, so to put in danger is to endanger."
+  ]
+ ],
+ "engWpSn": [
+  [
+   "Choose the word that completes the sentence. The instructions were so ___ that nobody could follow them. (not clear)",
+   "unclear",
+   [
+    "clearly",
+    "declear",
+    "clearance"
+   ],
+   "The prefix <em>un-</em> means not, so unclear means not clear."
+  ],
+  [
+   "Choose the word that completes the sentence. The museum's collection of fossils is truly ___. (not able to be replaced)",
+   "irreplaceable",
+   [
+    "replacement",
+    "unreplacing",
+    "replaceful"
+   ],
+   "<em>ir-</em> means not and <em>-able</em> means able to be, so irreplaceable means not able to be replaced."
+  ],
+  [
+   "Choose the word that completes the sentence. He tried to ___ the old radio so it would work again. (make new again)",
+   "renew",
+   [
+    "unnew",
+    "newly",
+    "newness"
+   ],
+   "<em>re-</em> means again, so renew means to make new again."
+  ],
+  [
+   "Choose the word that completes the sentence. Her ___ in the debate earned her a trophy. (the state of being excellent)",
+   "excellence",
+   [
+    "excellently",
+    "excellent",
+    "excelling"
+   ],
+   "The suffix <em>-ence</em> turns the adjective excellent into a noun naming the quality."
+  ],
+  [
+   "Choose the word that completes the sentence. The hikers were ___ after climbing for six hours. (without energy, worn out)",
+   "exhausted",
+   [
+    "exhausting",
+    "exhaustion",
+    "exhaustive"
+   ],
+   "<em>-ed</em> describes how a person feels, so worn-out hikers are exhausted."
+  ],
+  [
+   "Choose the word that completes the sentence. The team ___ the instructions and built the shelf upside down. (read wrongly)",
+   "misread",
+   [
+    "reread",
+    "unread",
+    "preread"
+   ],
+   "<em>mis-</em> means wrongly, so misread means read wrongly."
+  ],
+  [
+   "Choose the word that completes the sentence. Please ___ your phone before the concert begins. (turn off; the opposite of activate)",
+   "deactivate",
+   [
+    "reactivate",
+    "activation",
+    "inactive"
+   ],
+   "<em>de-</em> reverses an action, so deactivate is the opposite of activate."
+  ],
+  [
+   "Choose the word that completes the sentence. The scientist made a ___ discovery about the virus. (causing great change)",
+   "revolutionary",
+   [
+    "revolver",
+    "revolution",
+    "revolving"
+   ],
+   "<em>-ary</em> turns the noun revolution into an adjective meaning causing great change."
+  ],
+  [
+   "Choose the word that completes the sentence. The pilot checked the plane before the ___ flight. (crossing an ocean, the Atlantic)",
+   "transatlantic",
+   [
+    "subatlantic",
+    "antiatlantic",
+    "preatlantic"
+   ],
+   "<em>trans-</em> means across, so a transatlantic flight crosses the Atlantic."
+  ],
+  [
+   "Choose the word that completes the sentence. The magician's trick seemed ___. (not able to be believed)",
+   "unbelievable",
+   [
+    "believer",
+    "disbelieve",
+    "believably"
+   ],
+   "<em>un-</em> means not and <em>-able</em> means able to be, giving unbelievable."
+  ],
+  [
+   "Choose the word that completes the sentence. The town held a ___ for the soldiers who served. (an act of remembering)",
+   "remembrance",
+   [
+    "rememberer",
+    "remembering",
+    "rememberable"
+   ],
+   "<em>-ance</em> turns the verb remember into a noun naming the act."
+  ],
+  [
+   "Choose the word that completes the sentence. The coach was ___ with the players who kept arriving late. (not patient)",
+   "impatient",
+   [
+    "patiently",
+    "inpatient",
+    "patience"
+   ],
+   "Before <em>p</em>, the prefix meaning not is <em>im-</em>, giving impatient."
+  ],
+  [
+   "Choose the word that completes the sentence. The student was ___ of the noise outside the window. (not aware)",
+   "unaware",
+   [
+    "awareness",
+    "disaware",
+    "awarely"
+   ],
+   "<em>un-</em> means not, so unaware means not aware."
+  ],
+  [
+   "Choose the word that completes the sentence. The workers had to ___ the old pipes before laying new ones. (take apart)",
+   "dismantle",
+   [
+    "remantle",
+    "mantled",
+    "unmantled"
+   ],
+   "<em>dis-</em> means apart or the opposite, and dismantle means to take apart."
+  ],
+  [
+   "Choose the word that completes the sentence. The new rule made the hallway ___ during class time. (able to be used by everyone)",
+   "accessible",
+   [
+    "accessory",
+    "accessing",
+    "accession"
+   ],
+   "<em>-ible</em> means able to be, so accessible means able to be reached or used."
+  ],
+  [
+   "Choose the word that completes the sentence. Their ___ grew stronger after the long trip together. (the state of being friends)",
+   "friendship",
+   [
+    "friendly",
+    "befriend",
+    "friendless"
+   ],
+   "<em>-ship</em> names a state or relationship, so friendship is the state of being friends."
+  ],
+  [
+   "Choose the word that completes the sentence. The documentary was very ___ about life in the Arctic. (giving information)",
+   "informative",
+   [
+    "informer",
+    "misinform",
+    "information"
+   ],
+   "<em>-ive</em> turns the verb inform into an adjective meaning giving information."
+  ],
+  [
+   "Choose the word that completes the sentence. The company decided to ___ its old website. (design again)",
+   "redesign",
+   [
+    "undesign",
+    "designer",
+    "predesign"
+   ],
+   "<em>re-</em> means again, so redesign means to design again."
+  ],
+  [
+   "Choose the word that completes the sentence. The parents were ___ when their child came home safely. (feeling relief)",
+   "relieved",
+   [
+    "relief",
+    "relieving",
+    "unrelieved"
+   ],
+   "<em>-ed</em> forms an adjective describing how someone feels, so relieved means feeling relief."
+  ],
+  [
+   "Choose the word that completes the sentence. A ___ journey took the train across the whole country. (from one coast to the other)",
+   "transcontinental",
+   [
+    "intercontinental",
+    "subcontinental",
+    "continentally"
+   ],
+   "<em>trans-</em> means across, so a transcontinental trip crosses a continent."
+  ],
+  [
+   "Choose the word that completes the sentence. The puppy looked ___ after its owner left. (without hope)",
+   "hopeless",
+   [
+    "hopeful",
+    "unhope",
+    "hopingly"
+   ],
+   "<em>-less</em> means without, so hopeless means without hope."
+  ],
+  [
+   "Choose the word that completes the sentence. The broken step was ___ for anyone walking in the dark. (full of danger)",
+   "hazardous",
+   [
+    "hazardless",
+    "unhazard",
+    "hazardly"
+   ],
+   "<em>-ous</em> means full of, so hazardous means full of danger."
+  ]
+ ],
+ "engHmUs": [
+  [
+   "Choose the correct word. The new rules will ___ everyone in the school.",
+   "affect",
+   [
+    "effect",
+    "infect",
+    "effort"
+   ],
+   "<em>Affect</em> is usually the verb meaning to influence, while <em>effect</em> is usually the noun."
+  ],
+  [
+   "Choose the correct word. The medicine had no ___ on his cough.",
+   "effect",
+   [
+    "affect",
+    "defect",
+    "affection"
+   ],
+   "<em>Effect</em> is the noun meaning a result."
+  ],
+  [
+   "Choose the correct word. The red scarf will ___ her green coat nicely.",
+   "complement",
+   [
+    "compliment",
+    "implement",
+    "supplement"
+   ],
+   "To <em>complement</em> means to go well with or complete something."
+  ],
+  [
+   "Choose the correct word. We walked along the shore to the end of the ___.",
+   "pier",
+   [
+    "peer",
+    "pear",
+    "pare"
+   ],
+   "A <em>pier</em> is a platform built out over the water."
+  ],
+  [
+   "Choose the correct word. She will ___ through the telescope at Saturn's rings.",
+   "peer",
+   [
+    "pier",
+    "pare",
+    "pair"
+   ],
+   "To <em>peer</em> means to look closely."
+  ],
+  [
+   "Choose the correct word. The bride walked down the ___ to the altar.",
+   "aisle",
+   [
+    "isle",
+    "I'll",
+    "ail"
+   ],
+   "An <em>aisle</em> is a passage between rows of seats."
+  ],
+  [
+   "Choose the correct word. Prince Edward Island is a beautiful ___ in the Gulf of St. Lawrence.",
+   "isle",
+   [
+    "aisle",
+    "I'll",
+    "ail"
+   ],
+   "An <em>isle</em> is an island."
+  ],
+  [
+   "Choose the correct word. Press the ___ gently when the light turns yellow.",
+   "brake",
+   [
+    "break",
+    "brick",
+    "broke"
+   ],
+   "A <em>brake</em> is the device that slows or stops a vehicle."
+  ],
+  [
+   "Choose the correct word. The team's ___ was low after three losses in a row.",
+   "morale",
+   [
+    "moral",
+    "mural",
+    "morel"
+   ],
+   "<em>Morale</em> means the confidence or spirit of a group."
+  ],
+  [
+   "Choose the correct word. The fable ended with a clear ___ about honesty.",
+   "moral",
+   [
+    "morale",
+    "mural",
+    "morel"
+   ],
+   "A <em>moral</em> is the lesson of a story."
+  ],
+  [
+   "Choose the correct word. The beach was covered in ___ sand and sharp pebbles.",
+   "coarse",
+   [
+    "course",
+    "curse",
+    "corps"
+   ],
+   "<em>Coarse</em> means rough in texture."
+  ],
+  [
+   "Choose the correct word. The castle had a deep ___ around its walls.",
+   "moat",
+   [
+    "mote",
+    "moot",
+    "mode"
+   ],
+   "A <em>moat</em> is a water-filled ditch around a castle."
+  ],
+  [
+   "Choose the correct word. The nurse found the ___ in his arm on the first try.",
+   "vein",
+   [
+    "vain",
+    "vane",
+    "vine"
+   ],
+   "A <em>vein</em> is a blood vessel that carries blood to the heart."
+  ],
+  [
+   "Choose the correct word. The weather ___ on the barn roof spun in the wind.",
+   "vane",
+   [
+    "vain",
+    "vein",
+    "van"
+   ],
+   "A weather <em>vane</em> shows which way the wind is blowing."
+  ],
+  [
+   "Choose the correct word. The ___ of the mountain was covered in snow.",
+   "peak",
+   [
+    "peek",
+    "pique",
+    "peck"
+   ],
+   "A <em>peak</em> is the pointed top of a mountain."
+  ],
+  [
+   "Choose the correct word. The mystery novel's ending will ___ your curiosity.",
+   "pique",
+   [
+    "peak",
+    "peek",
+    "pick"
+   ],
+   "To <em>pique</em> curiosity means to arouse it."
+  ],
+  [
+   "Choose the correct word. Please do not ___ at your presents before the party.",
+   "peek",
+   [
+    "peak",
+    "pique",
+    "peck"
+   ],
+   "To <em>peek</em> means to take a quick look."
+  ],
+  [
+   "Choose the correct word. The store sells ___ for writing letters.",
+   "stationery",
+   [
+    "stationary",
+    "station",
+    "stationed"
+   ],
+   "<em>Stationery</em> with an <em>e</em> means writing paper and envelopes."
+  ],
+  [
+   "Choose the correct word. The city chose a new ___ for the hospital.",
+   "site",
+   [
+    "sight",
+    "cite",
+    "sighed"
+   ],
+   "A <em>site</em> is a location where something is built."
+  ],
+  [
+   "Choose the correct word. She has a natural ___ for public speaking.",
+   "flair",
+   [
+    "flare",
+    "flier",
+    "flail"
+   ],
+   "A <em>flair</em> is a natural talent."
+  ],
+  [
+   "Choose the correct word. The stranded hikers sent up a ___ to signal for help.",
+   "flare",
+   [
+    "flair",
+    "flower",
+    "flour"
+   ],
+   "A <em>flare</em> is a bright light used as a signal."
+  ],
+  [
+   "Choose the correct word. Honesty is a ___ she will never give up.",
+   "principle",
+   [
+    "principal",
+    "principled",
+    "prince"
+   ],
+   "A <em>principle</em> is a basic belief or rule."
+  ]
+ ],
+ "engHmEr": [
+  [
+   "Which word is used incorrectly, and what is the correction? The dog wagged it's tail when we came home.",
+   "it's → its",
+   [
+    "wagged → waged",
+    "tail → tale",
+    "No error"
+   ],
+   "<em>Its</em> is the possessive; <em>it's</em> means it is."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? Their going to the museum on Saturday.",
+   "Their → They're",
+   [
+    "museum → musem",
+    "Saturday → saterday",
+    "No error"
+   ],
+   "<em>They're</em> is the contraction of they are."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The bear walked threw the forest at dawn.",
+   "threw → through",
+   [
+    "bear → bare",
+    "dawn → don",
+    "No error"
+   ],
+   "<em>Through</em> means from one side to the other; <em>threw</em> is the past of throw."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? He tried to stay calm and not loose his temper.",
+   "loose → lose",
+   [
+    "calm → calmn",
+    "temper → tempur",
+    "No error"
+   ],
+   "<em>Lose</em> means to misplace or fail to keep; <em>loose</em> means not tight."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The heavy rain will effect the outdoor concert.",
+   "effect → affect",
+   [
+    "rain → reign",
+    "concert → consert",
+    "No error"
+   ],
+   "<em>Affect</em> is the verb meaning to influence."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? We read a tail about a fox and a crow.",
+   "tail → tale",
+   [
+    "read → red",
+    "crow → crowe",
+    "No error"
+   ],
+   "A <em>tale</em> is a story; a <em>tail</em> is on an animal."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? Please right your name at the top of the page.",
+   "right → write",
+   [
+    "name → nayme",
+    "page → paige",
+    "No error"
+   ],
+   "To <em>write</em> means to put words on paper."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The baker bought a large bag of flower for the bread.",
+   "flower → flour",
+   [
+    "baker → bakker",
+    "bread → bred",
+    "No error"
+   ],
+   "<em>Flour</em> is the powder made from grain used in baking."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? Will you meat me at the library after school?",
+   "meat → meet",
+   [
+    "library → libary",
+    "school → skool",
+    "No error"
+   ],
+   "To <em>meet</em> means to come together with someone."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The sun was shining, and the sky was a deep blew.",
+   "blew → blue",
+   [
+    "sun → son",
+    "deep → deap",
+    "No error"
+   ],
+   "<em>Blue</em> is the colour; <em>blew</em> is the past of blow."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The children were board during the long car ride.",
+   "board → bored",
+   [
+    "children → childs",
+    "ride → rode",
+    "No error"
+   ],
+   "<em>Bored</em> means tired and uninterested; a <em>board</em> is a flat piece of wood."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? We need to buy a new pear of hockey skates.",
+   "pear → pair",
+   [
+    "hockey → hocky",
+    "skates → skaits",
+    "No error"
+   ],
+   "A <em>pair</em> is a set of two."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The queen's rain lasted for many years.",
+   "rain → reign",
+   [
+    "queen's → queens",
+    "years → yeers",
+    "No error"
+   ],
+   "A <em>reign</em> is the period a monarch rules."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? Turn write at the next stoplight.",
+   "write → right",
+   [
+    "Turn → Tern",
+    "stoplight → stop-lite",
+    "No error"
+   ],
+   "<em>Right</em> is the direction opposite to left."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The boy ate eight pancakes for breakfast and was full.",
+   "No error",
+   [
+    "ate → eight",
+    "eight → ate",
+    "full → fool"
+   ],
+   "<em>Ate</em> is the past of eat and <em>eight</em> is the number, so both are used correctly."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? She tied a bow in her hare before the recital.",
+   "hare → hair",
+   [
+    "bow → bough",
+    "recital → resital",
+    "No error"
+   ],
+   "<em>Hair</em> grows on the head; a <em>hare</em> is an animal like a rabbit."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The wind blue the leaves across the yard.",
+   "blue → blew",
+   [
+    "wind → wined",
+    "yard → yarred",
+    "No error"
+   ],
+   "<em>Blew</em> is the past tense of blow."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The doctor said I need more patients while my arm heals.",
+   "patients → patience",
+   [
+    "doctor → docter",
+    "heals → heels",
+    "No error"
+   ],
+   "<em>Patience</em> is the ability to wait calmly; <em>patients</em> are people receiving care."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The class went on a field trip to sea the art gallery.",
+   "sea → see",
+   [
+    "field → feild",
+    "gallery → galery",
+    "No error"
+   ],
+   "To <em>see</em> means to look at; the <em>sea</em> is a large body of salt water."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? I would like a peace of birthday cake, please.",
+   "peace → piece",
+   [
+    "cake → caik",
+    "please → pleas",
+    "No error"
+   ],
+   "A <em>piece</em> is a part of something; <em>peace</em> means calm or no war."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The runners could not weight for the race to begin.",
+   "weight → wait",
+   [
+    "runners → runers",
+    "race → rays",
+    "No error"
+   ],
+   "To <em>wait</em> means to stay until something happens."
+  ],
+  [
+   "Which word is used incorrectly, and what is the correction? The principal asked students to complement the cafeteria staff.",
+   "complement → compliment",
+   [
+    "principal → principle",
+    "staff → staf",
+    "No error"
+   ],
+   "To <em>compliment</em> means to praise someone; <em>complement</em> means to go well with."
+  ]
+ ],
+ "engFgEt": [
+  [
+   "<strong>Biology</strong> comes from Greek <em>bios</em> (\"life\") + <em>logia</em> (\"study\"). What does biology mean?",
+   "the study of living things",
+   [
+    "the study of rocks",
+    "a book about a person's life",
+    "the science of stars"
+   ],
+   "Combining life and study gives the study of living things."
+  ],
+  [
+   "<strong>Telephone</strong> comes from Greek <em>tele</em> (\"far\") + <em>phone</em> (\"sound, voice\"). What is a telephone?",
+   "a device that carries voices over a distance",
+   [
+    "a device that shows pictures",
+    "a machine that writes messages",
+    "a tool for seeing far away"
+   ],
+   "Far plus voice describes a device that sends voices over a distance."
+  ],
+  [
+   "<strong>Benevolent</strong> comes from Latin <em>bene</em> (\"well\") + <em>volens</em> (\"wishing\"). What does benevolent mean?",
+   "kind and wishing others well",
+   [
+    "angry and spiteful",
+    "very wealthy",
+    "easily frightened"
+   ],
+   "Wishing well describes a kind, generous person."
+  ],
+  [
+   "<strong>Malnutrition</strong> comes from Latin <em>mal</em> (\"bad\") + <em>nutrire</em> (\"to nourish\"). What does malnutrition mean?",
+   "poor nourishment from a lack of healthy food",
+   [
+    "too much exercise",
+    "a type of medicine",
+    "a large meal"
+   ],
+   "Bad nourishment means the body lacks the food it needs."
+  ],
+  [
+   "<strong>Chronological</strong> comes from Greek <em>chronos</em> (\"time\") + <em>logos</em> (\"word, reason\"). What does chronological order mean?",
+   "arranged in the order events happened in time",
+   [
+    "arranged by size",
+    "arranged alphabetically",
+    "arranged by importance"
+   ],
+   "The root <em>chronos</em> points to time, so chronological order follows time."
+  ],
+  [
+   "<strong>Democracy</strong> comes from Greek <em>demos</em> (\"people\") + <em>kratos</em> (\"power, rule\"). What is a democracy?",
+   "government by the people",
+   [
+    "rule by one king",
+    "rule by the army",
+    "a country with no laws"
+   ],
+   "People plus rule means a system where citizens hold power."
+  ],
+  [
+   "<strong>Manuscript</strong> comes from Latin <em>manu</em> (\"by hand\") + <em>scriptus</em> (\"written\"). What is a manuscript, originally?",
+   "a document written by hand",
+   [
+    "a printed newspaper",
+    "a spoken speech",
+    "a painted portrait"
+   ],
+   "Written by hand describes a handwritten document."
+  ],
+  [
+   "<strong>Submarine</strong> comes from Latin <em>sub</em> (\"under\") + <em>marinus</em> (\"of the sea\"). What is a submarine?",
+   "a vessel that travels under the sea",
+   [
+    "a boat that floats on rivers",
+    "a large fish",
+    "a lighthouse"
+   ],
+   "Under plus sea describes a vessel that operates underwater."
+  ],
+  [
+   "<strong>Autograph</strong> comes from Greek <em>autos</em> (\"self\") + <em>graphein</em> (\"to write\"). What is an autograph?",
+   "a person's own signature",
+   [
+    "a photograph of a car",
+    "a printed map",
+    "a list of names"
+   ],
+   "Self plus write means something a person writes themselves, like a signature."
+  ],
+  [
+   "<strong>Insomnia</strong> comes from Latin <em>in</em> (\"not\") + <em>somnus</em> (\"sleep\"). What is insomnia?",
+   "the inability to sleep",
+   [
+    "sleepwalking",
+    "a very long dream",
+    "a kind of pillow"
+   ],
+   "Not plus sleep describes difficulty sleeping."
+  ],
+  [
+   "<strong>Hydrophobia</strong> comes from Greek <em>hydor</em> (\"water\") + <em>phobos</em> (\"fear\"). What does hydrophobia mean?",
+   "a fear of water",
+   [
+    "a love of swimming",
+    "a fear of heights",
+    "a lack of water"
+   ],
+   "Water plus fear gives a fear of water."
+  ],
+  [
+   "<strong>Philanthropist</strong> comes from Greek <em>philos</em> (\"loving\") + <em>anthropos</em> (\"human being\"). What is a philanthropist?",
+   "a person who gives to help others",
+   [
+    "a person who studies plants",
+    "a person who dislikes people",
+    "a collector of stamps"
+   ],
+   "A lover of humanity is someone who generously helps others."
+  ],
+  [
+   "<strong>Circumference</strong> comes from Latin <em>circum</em> (\"around\") + <em>ferre</em> (\"to carry\"). What is the circumference of a circle?",
+   "the distance around it",
+   [
+    "the distance across its middle",
+    "the space inside it",
+    "its centre point"
+   ],
+   "Carried around describes the distance around the outside of a circle."
+  ],
+  [
+   "<strong>Malevolent</strong> comes from Latin <em>male</em> (\"badly\") + <em>volens</em> (\"wishing\"). What does malevolent mean?",
+   "wishing harm to others",
+   [
+    "generous and kind",
+    "forgetful",
+    "shy and quiet"
+   ],
+   "Wishing badly means wanting harm to come to others."
+  ],
+  [
+   "<strong>Unanimous</strong> comes from Latin <em>unus</em> (\"one\") + <em>animus</em> (\"mind\"). What does a unanimous vote mean?",
+   "everyone agreed",
+   [
+    "the vote was cancelled",
+    "only one person voted",
+    "the vote was very close"
+   ],
+   "One mind means everyone thinks the same."
+  ],
+  [
+   "<strong>Astronaut</strong> comes from Greek <em>astron</em> (\"star\") + <em>nautes</em> (\"sailor\"). What is an astronaut?",
+   "a person trained to travel in space",
+   [
+    "a person who studies weather",
+    "a sailor on the ocean",
+    "a person who names stars"
+   ],
+   "A star sailor is someone who travels into space."
+  ],
+  [
+   "<strong>Spectator</strong> comes from Latin <em>spectare</em> (\"to watch\"). What is a spectator?",
+   "a person who watches an event",
+   [
+    "a person who plays in a game",
+    "a person who sells tickets",
+    "a person who judges art"
+   ],
+   "Someone who watches is a spectator."
+  ],
+  [
+   "<strong>Credible</strong> comes from Latin <em>credere</em> (\"to believe\"). What does credible mean?",
+   "able to be believed",
+   [
+    "very loud",
+    "difficult to read",
+    "owing money"
+   ],
+   "From to believe, credible describes something believable."
+  ],
+  [
+   "<strong>Pedestrian</strong> comes from Latin <em>pedes</em> (\"on foot\"). What is a pedestrian?",
+   "a person travelling on foot",
+   [
+    "a person riding a bicycle",
+    "a person driving a bus",
+    "a person flying a plane"
+   ],
+   "On foot describes a person who is walking."
+  ],
+  [
+   "<strong>Ambiguous</strong> comes from Latin <em>ambi</em> (\"both ways\") + <em>agere</em> (\"to drive, lead\"). What does ambiguous mean?",
+   "open to more than one meaning",
+   [
+    "perfectly clear",
+    "extremely large",
+    "very old"
+   ],
+   "Leading both ways describes something that can be understood in more than one way."
+  ],
+  [
+   "<strong>Sympathy</strong> comes from Greek <em>syn</em> (\"together\") + <em>pathos</em> (\"feeling\"). What is sympathy?",
+   "sharing in another person's feelings",
+   [
+    "a type of music",
+    "a fear of crowds",
+    "a strong dislike"
+   ],
+   "Feeling together means sharing someone else's sorrow or feelings."
+  ],
+  [
+   "<strong>Companion</strong> comes from Latin <em>com</em> (\"with\") + <em>panis</em> (\"bread\"). What is a companion?",
+   "a person you spend time with",
+   [
+    "a baker",
+    "a loaf of bread",
+    "a dinner table"
+   ],
+   "Originally someone you share bread with, a companion is someone who keeps you company."
+  ]
+ ],
+ "engFgCx": [
+  [
+   "What does the expression in bold mean? After the long winter, the first warm day gave everyone a feeling of <strong>joie de vivre</strong>, and the park filled with laughing families.",
+   "a joyful enjoyment of life",
+   [
+    "a feeling of sadness",
+    "a fear of crowds",
+    "a spring holiday"
+   ],
+   "The laughing families in the park show a cheerful delight in living."
+  ],
+  [
+   "What does the expression in bold mean? The famous chef was the <strong>raison d'être</strong> of the restaurant; without her, it would close.",
+   "the reason for existing",
+   [
+    "the head waiter",
+    "the main dish",
+    "the opening night"
+   ],
+   "If the restaurant would close without her, she is its reason for existing."
+  ],
+  [
+   "What does the expression in bold mean? The guest arrived <strong>incognito</strong>, wearing sunglasses and a hat so no one would know him.",
+   "in disguise, with identity hidden",
+   [
+    "very late",
+    "with a large group",
+    "in a fancy car"
+   ],
+   "The sunglasses and hat show he hid his identity."
+  ],
+  [
+   "What does the expression in bold mean? The novel was a <strong>tour de force</strong>; critics called it the finest book of the year.",
+   "an impressive achievement showing great skill",
+   [
+    "a long journey",
+    "a weak attempt",
+    "a short summary"
+   ],
+   "Calling it the finest book of the year shows it was a masterful achievement."
+  ],
+  [
+   "What does the expression in bold mean? Every year, at the <strong>rendezvous</strong> point by the old oak tree, the cousins met to begin their hike.",
+   "a meeting place",
+   [
+    "a picnic lunch",
+    "a hiking trail",
+    "a farewell"
+   ],
+   "The cousins met at that spot, so it is a meeting place."
+  ],
+  [
+   "What does the expression in bold mean? The class president said, \"Let's not discuss it <strong>ad nauseam</strong>; we have talked about the dance for two hours already.\"",
+   "to a tiresome, excessive degree",
+   [
+    "in secret",
+    "with great joy",
+    "in another language"
+   ],
+   "Talking for two hours already shows the discussion has gone on far too long."
+  ],
+  [
+   "What does the expression in bold mean? Her research was <strong>bona fide</strong>; every source had been checked by experts.",
+   "genuine and real",
+   [
+    "fake and misleading",
+    "very old",
+    "short and simple"
+   ],
+   "Sources checked by experts show the research is genuine."
+  ],
+  [
+   "What does the expression in bold mean? The new student felt a bit of <strong>déjà vu</strong>, sure she had walked down this exact hallway before.",
+   "the feeling of having already experienced something",
+   [
+    "fear of new places",
+    "a happy surprise",
+    "a sense of being lost"
+   ],
+   "Feeling sure she had been there before describes déjà vu."
+  ],
+  [
+   "What does the expression in bold mean? The fashion show's designs were <strong>avant-garde</strong>, unlike anything the audience had seen.",
+   "new and experimental",
+   [
+    "old-fashioned",
+    "inexpensive",
+    "plain and simple"
+   ],
+   "Designs unlike anything seen before are new and experimental."
+  ],
+  [
+   "What does the expression in bold mean? The mayor's comment was taken out of context, so her office issued a statement <strong>post hoc</strong>, after the story spread.",
+   "after the event",
+   [
+    "before the event",
+    "in secret",
+    "in a different language"
+   ],
+   "The statement came after the story spread, so post hoc means after the fact."
+  ],
+  [
+   "What does the expression in bold mean? He was the <strong>enfant terrible</strong> of the art world, always shocking critics with outrageous work.",
+   "a person whose unconventional behaviour shocks others",
+   [
+    "a young child",
+    "a famous museum",
+    "a talented teacher"
+   ],
+   "Always shocking critics with outrageous work describes a shocking, rebellious figure."
+  ],
+  [
+   "What does the expression in bold mean? We agreed on a <strong>quid pro quo</strong>: I would help with her math homework, and she would help me with French.",
+   "a favour given in return for another",
+   [
+    "a group project",
+    "a bitter argument",
+    "a free gift"
+   ],
+   "Each person helps the other, so it is an exchange of favours."
+  ],
+  [
+   "What does the expression in bold mean? At the end of the meal, the waiter asked if we wanted dessert <strong>à la mode</strong>, with a scoop of vanilla ice cream on the pie.",
+   "served with ice cream",
+   [
+    "served cold",
+    "served in a bowl",
+    "served without sugar"
+   ],
+   "The scoop of ice cream on the pie explains the meaning of à la mode in North American menus."
+  ],
+  [
+   "What does the expression in bold mean? The detective's <strong>modus operandi</strong> was always the same: observe quietly, then ask one sharp question.",
+   "a usual method of working",
+   [
+    "a secret code",
+    "a crime scene",
+    "a police badge"
+   ],
+   "Always using the same steps describes a habitual way of working."
+  ],
+  [
+   "What does the expression in bold mean? The small café became a <strong>cause célèbre</strong> when thousands of people protested its closing.",
+   "an issue that attracts wide public attention",
+   [
+    "a famous recipe",
+    "a quiet celebration",
+    "a legal document"
+   ],
+   "Thousands of protesters show the issue drew wide public attention."
+  ],
+  [
+   "What does the expression in bold mean? The two leaders met <strong>in camera</strong>, with reporters and the public shut out of the room.",
+   "in private",
+   [
+    "on television",
+    "outdoors",
+    "in a hurry"
+   ],
+   "Shutting out reporters and the public means the meeting was private."
+  ],
+  [
+   "What does the expression in bold mean? She signed her letter with the <strong>nom de plume</strong> \"Ivy Lane\" so readers would not know her real name.",
+   "a pen name",
+   [
+    "a signature in ink",
+    "a thank-you note",
+    "a famous quotation"
+   ],
+   "Using a different name so readers would not know her real one is a pen name."
+  ],
+  [
+   "What does the expression in bold mean? The team's victory was a <strong>fait accompli</strong>; with a ten-goal lead and one minute left, nothing could change it.",
+   "something already decided that cannot be changed",
+   [
+    "a surprising loss",
+    "a close game",
+    "a fair rule"
+   ],
+   "A ten-goal lead with a minute left means the result is settled."
+  ],
+  [
+   "What does the expression in bold mean? After years of arguing, the neighbours reached a <strong>détente</strong> and began to wave to each other again.",
+   "an easing of tension",
+   [
+    "a new fence",
+    "a formal lawsuit",
+    "a bigger quarrel"
+   ],
+   "Waving again shows the conflict calmed down."
+  ],
+  [
+   "What does the expression in bold mean? The concert was <strong>gratis</strong>, so nobody had to buy a ticket.",
+   "free of charge",
+   [
+    "sold out",
+    "very expensive",
+    "cancelled"
+   ],
+   "Nobody having to buy a ticket shows it cost nothing."
+  ],
+  [
+   "What does the expression in bold mean? The young singer, a <strong>protégé</strong> of the famous opera star, took lessons from her every week.",
+   "a person guided and supported by an experienced mentor",
+   [
+    "a rival competitor",
+    "a backup dancer",
+    "a ticket seller"
+   ],
+   "Weekly lessons from the star show she was a guided student."
+  ],
+  [
+   "What does the expression in bold mean? Our grandparents told stories of the good old days, <strong>ad infinitum</strong>; they never seemed to run out.",
+   "endlessly, without limit",
+   [
+    "only once",
+    "in a whisper",
+    "in the past tense"
+   ],
+   "Never running out of stories means they went on without end."
+  ]
  ]
 }
