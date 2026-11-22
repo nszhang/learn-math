@@ -7,6 +7,7 @@ import { dueWords, KNOWN_BOX } from './ReviewPage.jsx';
 import { clickable } from '../a11y.js';
 import { useNavState } from '../nav.js';
 import SkillSearch from './SkillSearch.jsx';
+import Recommendations from './Recommendations.jsx';
 import { loadReadingForGrade } from '../catalog/eng/comprehension.js';
 import { loadExtras } from '../extraQuestions.js';
 
@@ -80,7 +81,10 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
     );
   })();
 
-  const search = <SkillSearch subject={subject} myGrade={myGrade} scoreOf={scoreOf} hwSkills={hwSkills} onPick={clickSkill} />;
+  const search = (<>
+    <SkillSearch subject={subject} myGrade={myGrade} scoreOf={scoreOf} hwSkills={hwSkills} onPick={clickSkill} />
+    <Recommendations subject={subject} me={me} scoreOf={scoreOf} hwSkills={hwSkills} onPick={clickSkill} />
+  </>);
 
   // ---------- grade grid (IXL math home) ----------
   if (gradeNum === null) {

@@ -1174,3 +1174,14 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .worked-example-label { font-size: .82rem; margin-bottom: 8px; }
 .worked-example-q { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
 .worked-example .explain { line-height: 1.55; }
+
+/* Recommended for you */
+.recs { margin: 0 0 22px; }
+.recs-title { font-size: 1.05rem; margin-bottom: 10px; }
+.recs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.rec-card { position: relative; background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px 58px 14px 16px; cursor: pointer; transition: transform .12s, box-shadow .12s; }
+.rec-card:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(15,23,42,.12); }
+.rec-card .medallion { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); }
+.rec-reason { font-size: .78rem; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: .03em; }
+.rec-name { font-weight: 700; margin: 4px 0; }
+.rec-meta { font-size: .82rem; }
