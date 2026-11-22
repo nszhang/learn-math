@@ -8,6 +8,7 @@ import { clickable } from '../a11y.js';
 import { useNavState } from '../nav.js';
 import SkillSearch from './SkillSearch.jsx';
 import { loadReadingForGrade } from '../catalog/eng/comprehension.js';
+import { loadExtras } from '../extraQuestions.js';
 
 const GRADE_EMOJI = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟','1️⃣1️⃣','1️⃣2️⃣'];
 const gradeEmoji = n => (n < 0 ? '🧸' : n === 0 ? '🎒' : n === 13 ? '∫' : GRADE_EMOJI[n - 1]);
@@ -34,7 +35,7 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
   const [gradeNum, setGradeNum] = useNavState('grade:' + subject.id, startGrade);
   const [openSections, setOpenSections] = useState(() => new Set());
   // English: start fetching the reading library for the grade on screen (falls back to the student's grade)
-  useEffect(() => { if (subject.id === 'english') loadReadingForGrade(gradeNum ?? myGrade); }, [subject.id, gradeNum, myGrade]);
+  useEffect(() => { if (subject.id === 'english') loadReadingForGrade(gradeNum ?? myGrade); loadExtras(subject.id); }, [subject.id, gradeNum, myGrade]);
   useEffect(() => {   // remember the grade (also when Back/Forward changed it); a new grade starts collapsed
     if (gradeNum === null) localStorage.removeItem(gradeKey);
     else localStorage.setItem(gradeKey, String(gradeNum));

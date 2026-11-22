@@ -5,6 +5,8 @@ import { niceDate, localDateStr } from '../homework.js';
 import WriteCharacters from './WriteCharacters.jsx';
 import { createDeduper, questionSig } from '../questionPool.js';
 import { canSpeak, speak } from '../speech.js';
+import { loadExtras } from '../extraQuestions.js';
+import { loadReadingForGrade } from '../catalog/eng/comprehension.js';
 
 let audioCtx = null;
 
@@ -38,6 +40,20 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
   const skillId = isHw ? currentItem.skillId : cfg.skillId;
   const skill = SKILL_INDEX[skillId].skill;
   const isChinese = SKILL_INDEX[skillId].subject.id === 'chinese';
+  // fetch the subject's extra question banks (and English reading library) in the background
+  useEffect(() => { loadExtras(SKILL_INDEX[skillId].subject.id); if (SKILL_INDEX[skillId].subject.id === 'english') loadReadingForGrade(SKILL_INDEX[skillId].grade.num); }, [skillId]);
+  // "Learn with an example": a fresh question of the same skill, shown solved (IXL-style)
+  const [example, setExample] = useState(null);
+  const toggleExample = () => {
+    if (example) return setExample(null);
+    for (let i = 0; i < 8; i++) { try { const q = skill.gen(); if (q && q.prompt !== question?.prompt && q.type !== 'write') return setExample(q); } catch { /* try again */ } }
+  };
+  // read the question (and its choices) aloud with the browser's voice
+  const readAloud = () => {
+    const text = el => { const d = document.createElement('div'); d.innerHTML = el; d.querySelectorAll('svg').forEach(n => n.remove()); return d.textContent.replace(/\s+/g, ' ').trim(); };
+    const choices = question?.type === 'mc' ? ` Choices: ${question.choices.map(c => text(String(c))).join('; ')}.` : '';
+    speak(text(question.prompt) + choices, { lang: 'en-US', rate: 0.95 });
+  };
 
   // no repeated questions within an assignment (remembered across visits) or a practice session
   const [dedupe] = useState(() => createDeduper(isHw ? `mm_seen_${me?.user?.id ?? 'u'}_${cfg.assignment.id}` : null));
@@ -46,6 +62,7 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
   const [ended, setEnded] = useState(() => (!isHw && startScore >= 100 ? 'mastered' : null)); // 'mastered' | 'exhausted'
   const [reviewing, setReviewing] = useState(false); // chose to keep going after mastery
   const [question, setQuestion] = useState(() => (!isHw && startScore >= 100 ? null : dedupe.next(skill, { allowRepeat: isHw })));
+  useEffect(() => { setExample(null); window.speechSynthesis?.cancel?.(); }, [question]);   // a new question closes the example
   const [answered, setAnswered] = useState(false);
   const [feedback, setFeedback] = useState(null); // { correct, title }
   const [inputVal, setInputVal] = useState('');
@@ -336,6 +353,20 @@ export default function PracticePage({ cfg, me, toast, fireConfetti, onExit, onL
             ) : <p className="warn-box">🔇 This browser can't play speech, so here is the text: <span className="zh">{question.say}</span></p>
           ) : question.say && canSpeak && (
             <button type="button" className="btn btn-ghost speak-btn" onClick={() => speak(question.say, { lang: question.lang })} title="Listen">🔊 Listen</button>
+          )}
+          <div className="practice-tools">
+            {canSpeak && !question.listen && !isChinese && (
+              <button type="button" className="btn btn-ghost" onClick={readAloud} title="Read the question aloud">🔊 Read aloud</button>
+            )}
+            <button type="button" className="btn btn-ghost" aria-expanded={!!example} onClick={toggleExample}>💡 {example ? 'Hide the example' : 'Learn with an example'}</button>
+          </div>
+          {example && (
+            <div className="worked-example">
+              <div className="muted worked-example-label">Example — a different question with the answer worked out (it doesn't count toward your score)</div>
+              <div className="worked-example-q" dangerouslySetInnerHTML={{ __html: example.prompt }} />
+              <p><strong>Answer:</strong> {example.type === 'num' ? fmtNum(example.answer) : example.answer}</p>
+              {example.explain && <div className="explain" dangerouslySetInnerHTML={{ __html: example.explain }} />}
+            </div>
           )}
 
           {question.type === 'write' ? (

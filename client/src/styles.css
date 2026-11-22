@@ -1167,3 +1167,10 @@ details.fold > summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
   .student-card:not(.open) { display: none; }
   .report-bar { background: #555; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
 }
+
+/* practice tools: read aloud, learn with an example */
+.practice-tools { display: flex; flex-wrap: wrap; gap: 6px; margin: -14px 0 14px; }
+.worked-example { background: var(--subtle); border: 2px dashed var(--line-strong); border-radius: 12px; padding: 14px 16px; margin: 0 0 18px; }
+.worked-example-label { font-size: .82rem; margin-bottom: 8px; }
+.worked-example-q { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
+.worked-example .explain { line-height: 1.55; }

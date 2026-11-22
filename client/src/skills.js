@@ -15,6 +15,7 @@ import { EXTRA2_SKILLS } from './catalog/extra2.js';
 import { GRADE9_BOOK_SKILLS } from './catalog/grade9book.js';
 import { ENGLISH_ALL, ENGLISH_ALIASES } from './catalog/ixlEnglish.js';
 import { CHINESE_ALL, HSK_LEVELS, hskLabel } from './catalog/ixlChinese.js';
+import { withExtras, bankKey } from './extraQuestions.js';
 import { SCIENCE_ALL } from './catalog/ixlScience.js';
 import { EXTRA_VARIETY } from './catalog/extraVariety.js';
 import { IXL_MATH_SKILLS, IXL_MATH_SECTION_ORDER, ixlIconFor } from './catalog/ixlMath/index.js';
@@ -283,6 +284,12 @@ export function hskReadiness(level, scoreOf) {
 }
 
 // flat lookup: skill id -> { subject, grade, section, skill }
+// English and Science skills also draw on the large extra question banks (loaded on demand)
+for (const subj of SUBJECTS) {
+  if (subj.id !== 'english' && subj.id !== 'science') continue;
+  for (const g of subj.grades) for (const sec of g.sections) for (const sk of sec.skills) sk.gen = withExtras(subj.id, bankKey(subj.id, sk.id, sk.title), sk.gen);
+}
+
 export const SKILL_INDEX = {};
 for (const subject of SUBJECTS) {
   subject.grades.forEach(grade => grade.sections.forEach(section =>
