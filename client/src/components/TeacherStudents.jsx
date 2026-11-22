@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { api } from '../api.js';
-import { SUBJECTS, STUDENT_GRADES, HSK_LEVELS, gradeLabel, hskLabel, studentLevelFor, hskReadiness } from '../skills.js';
+import { SUBJECTS, STUDENT_GRADES, gradeLabel, studentLevelFor } from '../skills.js';
 import { niceDate, skillName } from '../homework.js';
 import { clickable } from '../a11y.js';
 import { ClassOverview, StudentActivity, downloadCsv, summarize, agoText, REPORTS_START } from './StudentReport.jsx';
 
-function StudentCard({ s, r, open, setOpen, onGrade, onHsk }) {
+function StudentCard({ s, r, open, setOpen, onGrade }) {
   const pct = s.stats.answered ? Math.round(100 * s.stats.correct / s.stats.answered) : 0;
   const mastered = s.skillProgress.filter(p => p.score >= 100).length;
   const total = s.skillProgress.reduce((sum, p) => sum + p.score, 0);
@@ -17,7 +17,6 @@ function StudentCard({ s, r, open, setOpen, onGrade, onHsk }) {
         <strong>{s.displayName}</strong> <span className="muted">@{s.username}</span>
         <span className="muted report-seen">· practised {agoText(r.lastActive)}{r.flags.length ? ` · ⚠️ ${r.flags.length}` : ''}</span>
         <span className={'grade-tag ' + (s.grade === null ? 'above' : 'mine')} style={{ margin: '0 6px' }}>{s.grade === null ? '⚠️ no grade' : gradeLabel(s.grade)}</span>
-        <span className="grade-tag mine" style={{ marginRight: 6 }} title="Chinese HSK level">🀄 {hskLabel(s.hskLevel ?? 1)}{s.wordsKnown ? ` · 🧠 ${s.wordsKnown} words` : ''}</span>
         <span className="student-stats">
           📊 {total} &nbsp;•&nbsp; 🥇 {mastered} mastered &nbsp;•&nbsp; 🎯 {pct}% &nbsp;•&nbsp;
           ⏱️ {Math.floor(s.stats.time_sec / 60)}m &nbsp;•&nbsp; 📝 {s.stats.homework_done} homeworks &nbsp;•&nbsp; ⭐ {s.stars}
@@ -34,13 +33,7 @@ function StudentCard({ s, r, open, setOpen, onGrade, onHsk }) {
               {STUDENT_GRADES.map(g => <option key={g} value={g}>{gradeLabel(g)}</option>)}
             </select>
           </label>
-          <label className="muted" style={{ display: 'block', marginBottom: 10 }}>Chinese level (independent of grade — students can also move themselves up):{' '}
-            <select className="grade-select" value={s.hskLevel ?? 1} onChange={e => onHsk(s, e.target.value)}>
-              {HSK_LEVELS.map(l => <option key={l} value={l}>{hskLabel(l)}</option>)}
-            </select>
-            {hskReadiness(s.hskLevel ?? 1, scoreOf).ready && (s.hskLevel ?? 1) < 6 && <span className="grade-tag mine" style={{ marginLeft: 8 }}>✅ ready for {hskLabel((s.hskLevel ?? 1) + 1)}</span>}
-          </label>
-          {s.grade === null && <p className="muted">Set a grade to see Math, English and Science progress at the student's level.</p>}
+          {s.grade === null && <p className="muted">Set a grade to see the student's progress at their grade.</p>}
           {SUBJECTS.map(sub => {
               const level = studentLevelFor(sub, s);
               const g = level === null ? null : sub.grades.find(x => x.num === level);
@@ -92,13 +85,6 @@ export default function TeacherStudents({ toast }) {
       load();
     } catch (e) { toast?.('⚠️', e.message); }
   }
-  async function setHsk(s, value) {
-    try {
-      await api('PUT', `/api/students/${s.id}/hsk-level`, { level: Number(value) });
-      toast?.('🀄', `${s.displayName} is now studying ${hskLabel(Number(value))}`);
-      load();
-    } catch (e) { toast?.('⚠️', e.message); }
-  }
 
   return (
     <main className="page">
@@ -126,7 +112,7 @@ export default function TeacherStudents({ toast }) {
           ? <p className="muted">No students in your roster yet. Ask an admin to add students to your roster.</p>
           : rows.map(({ s, r }) => (
             <div key={s.id} ref={el => { cards.current[s.id] = el; }}>
-              <StudentCard s={s} r={r} open={openId === s.id} setOpen={o => setOpenId(o ? s.id : null)} onGrade={setGrade} onHsk={setHsk} />
+              <StudentCard s={s} r={r} open={openId === s.id} setOpen={o => setOpenId(o ? s.id : null)} onGrade={setGrade} />
             </div>))}
     </main>
   );

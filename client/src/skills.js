@@ -262,8 +262,10 @@ export const SUBJECTS = [
 /* ---------- levels: school grade, or HSK level for Chinese ---------- */
 export { HSK_LEVELS, hskLabel };
 export const isHsk = subject => subject?.levels === 'hsk';
-// u: anything with grade / hskLevel (the user, a student row, homework data). HSK starts at 1.
-export const studentLevelFor = (subject, u) => (isHsk(subject) ? (u?.hskLevel ?? 1) : (u?.grade ?? null));
+// A student has one attribute: their school grade. Chinese HSK levels are open content that anyone
+// may browse or be assigned, never a level the student is placed in — so Chinese has no "own level".
+// u: anything with a grade (the user, a student row, homework data).
+export const studentLevelFor = (subject, u) => (isHsk(subject) ? null : (u?.grade ?? null));
 export const levelLabelFor = (subject, n) => (isHsk(subject) ? hskLabel(n) : gradeLabel(n));
 // the level a subject's grade/level number counts as when compared with the student's
 export const levelOf = (subject, num) => (isHsk(subject) ? num : gradeLevel(num));

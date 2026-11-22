@@ -271,11 +271,6 @@ export async function setGrade(pool, userId, grade) {
   return rowCount > 0;
 }
 
-export async function setHskLevel(pool, userId, level) {
-  const { rowCount } = await pool.query("UPDATE users SET hsk_level = $2 WHERE id = $1 AND role = 'student'", [userId, level]);
-  return rowCount > 0;
-}
-
 // ---------- Chinese word review deck ----------
 export async function getWordReviews(pool, userId) {
   const { rows } = await pool.query('SELECT word, box, due, reviews, lapses FROM word_reviews WHERE user_id = $1', [userId]);

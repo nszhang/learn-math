@@ -12,23 +12,21 @@ export function niceDate(str) {
     .toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
-// Skills at a student's level, per subject ([] when that subject has no such level).
-// Chinese uses the student's HSK level (default 1); the others use the school grade.
-export function skillsAtGrade(grade, hskLevel = 1) {
-  return SUBJECTS.map(sub => {
-    const level = isHsk(sub) ? (hskLevel ?? 1) : grade;
-    return { subject: sub, skills: (sub.grades.find(g => g.num === level)?.sections || []).flatMap(s => s.skills) };
-  });
+// Skills at a student's grade, per grade-based subject (Chinese goes by HSK level, not grade, so it is
+// left out — teachers can still assign Chinese skills directly).
+export function skillsAtGrade(grade) {
+  return SUBJECTS.filter(sub => !isHsk(sub)).map(sub =>
+    ({ subject: sub, skills: (sub.grades.find(g => g.num === grade)?.sections || []).flatMap(s => s.skills) }));
 }
 
 // Deterministic daily set for a calendar date: 3 skills × 5 questions, all from ONE subject.
-// With a grade, the subject rotates day by day (Math → English → Science → Chinese) among the
-// subjects that have that grade (Chinese at the student's HSK level). Without a grade: three math skills.
-export function dailyAssignment(dateString, grade = null, hskLevel = 1) {
+// With a grade, the subject rotates day by day (Math → English → Science) among the subjects
+// that have that grade. Without a grade: three math skills.
+export function dailyAssignment(dateString, grade = null) {
   let seed = 0;
   for (const c of dateString) seed = (seed * 31 + c.charCodeAt(0)) >>> 0;
   const items = [];
-  const pools = grade !== null && grade !== undefined ? skillsAtGrade(grade, hskLevel).filter(p => p.skills.length) : [];
+  const pools = grade !== null && grade !== undefined ? skillsAtGrade(grade).filter(p => p.skills.length) : [];
   const [y, m, d] = dateString.split('-').map(Number);
   const dayNum = Math.floor(Date.UTC(y, m - 1, d) / 86400000);
   const chosen = pools.length ? pools[dayNum % pools.length] : { subject: SUBJECTS.find(sb => sb.id === 'math'), skills: ALL_SKILLS };
@@ -44,7 +42,7 @@ export function dailyAssignment(dateString, grade = null, hskLevel = 1) {
 
 // Merge server-provided daily progress into a daily assignment object.
 export function dailyWithProgress(dateString, homeworkData) {
-  const a = dailyAssignment(dateString, homeworkData?.grade ?? null, homeworkData?.hskLevel ?? 1);
+  const a = dailyAssignment(dateString, homeworkData?.grade ?? null);
   const rows = (homeworkData?.dailyProgress || []).filter(r => r.assignment_id === a.id);
   const progress = a.items.map(i => {
     const row = rows.find(r => r.skill_id === i.skillId);
@@ -96,7 +94,7 @@ export function findHomeworkForSkill(skillId, homeworkData) {
 // Grade number a skill belongs to (null if unknown).
 export const skillGrade = skillId => SKILL_INDEX[skillId]?.grade.num ?? null;
 // Is this skill above the student's level — their grade, or HSK level for Chinese?
-// u: { grade, hskLevel }. False when the student has no grade (grade subjects).
+// u: { grade }. False when the student has no grade, and always for Chinese (no student level).
 export const isAboveGrade = (skillId, u) => { const e = SKILL_INDEX[skillId]; return !!e && isAboveLevel(e.subject, e.grade.num, u); };
 
 export function skillName(skillId) {

@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react';
 import { homeworkSkillIdsToday, findHomeworkForSkill } from '../homework.js';
 import Medallion from './Medallion.jsx';
-import { HSK_LEVELS, hskLabel, isHsk, studentLevelFor, levelLabelFor, isAboveLevel, hskReadiness } from '../skills.js';
+import { isHsk, studentLevelFor, levelLabelFor, isAboveLevel } from '../skills.js';
 import { api } from '../api.js';
 import { dueWords, KNOWN_BOX } from './ReviewPage.jsx';
-import { HSK } from '../catalog/zh/hsk.js';
 import { clickable } from '../a11y.js';
 import { useNavState } from '../nav.js';
 import SkillSearch from './SkillSearch.jsx';
@@ -58,31 +57,15 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
     }
   }
 
-  async function setHskLevel(level) {
-    try {
-      await api('PUT', '/api/me/hsk-level', { level });
-      toast('🀄', `You're now studying ${hskLabel(level)} — 加油 (jiā yóu)!`);
-      onLevelChanged?.();
-    } catch (e) { toast('⚠️', e.message); }
-  }
-
-  // Chinese: the student's own HSK level and how close they are to the next one
-  const hskPanel = hsk && myGrade !== null && (() => {
-    const r = hskReadiness(myGrade, scoreOf), next = myGrade + 1;
-    const levelWords = new Set(HSK[myGrade].map(w => w[0]));
-    const known = deck ? deck.filter(w => w.box >= KNOWN_BOX && levelWords.has(w.word)).length : 0;
+  // Chinese: word review and the tones lesson. HSK levels are open to everyone — no "your level".
+  const hskPanel = hsk && (isStudent || onLearn) && (() => {
+    const known = deck ? deck.filter(w => w.box >= KNOWN_BOX).length : 0;
     const due = deck ? dueWords(deck).length : 0;
     return (
       <div className="hsk-panel">
         <div className="hsk-panel-main">
-          <div><span className="hsk-badge">{hskLabel(myGrade)}</span> <strong>your Chinese level</strong>
-            <span className="muted"> — separate from your school grade, so you can go at your own pace.</span></div>
-          <div className="topic-progress" style={{ margin: '8px 0 4px' }}>
-            <div className="topic-progress-fill" style={{ width: Math.round(100 * r.passed / (r.total || 1)) + '%' }} />
-          </div>
-          <div className="muted">{r.passed} of {r.total} skills at 🥉 70 or better.{' '}
-            {myGrade < 6 && (r.ready ? <strong>You're ready for {hskLabel(next)}! 🎉</strong> : `Reach ${Math.ceil(r.total * 0.7)} and we'll suggest ${hskLabel(next)} — or move up whenever you feel ready.`)}</div>
-          {deck && <div className="muted">🧠 You know <strong>{known}</strong> of the {levelWords.size} {hskLabel(myGrade)} words (remembered over 3+ days).</div>}
+          <div><strong>Chinese by HSK level</strong> <span className="muted">— pick any level below and go at your own pace.</span></div>
+          {deck && <div className="muted">🧠 You know <strong>{known}</strong> words (remembered over 3+ days).</div>}
         </div>
         <div className="hsk-panel-actions">
           {isStudent && onStartReview && (
@@ -91,17 +74,6 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
             </button>
           )}
           {onLearn && <button type="button" className="btn btn-ghost" onClick={() => onLearn('tones')}>🎵 Learn the tones</button>}
-          {isStudent && myGrade < 6 && (
-            <button type="button" className={'btn ' + (r.ready ? 'btn-primary' : 'btn-ghost')}
-              onClick={() => (r.ready || window.confirm(`You've passed ${r.passed} of ${r.total} ${hskLabel(myGrade)} skills. Move up to ${hskLabel(next)} anyway? You can always come back.`)) && setHskLevel(next)}>
-              ⬆️ Move up to {hskLabel(next)}
-            </button>
-          )}
-          {isStudent && (
-            <select className="grade-select" aria-label="Choose your HSK level" value={myGrade} onChange={e => setHskLevel(Number(e.target.value))}>
-              {HSK_LEVELS.map(l => <option key={l} value={l}>{hskLabel(l)}</option>)}
-            </select>
-          )}
         </div>
       </div>
     );
@@ -166,11 +138,9 @@ export default function SkillsPage({ subject, me, homework, onStartSkill, onStar
       </div>
       {search}
       {isAboveLevel(subject, grade.num, me?.user) && (
-        <div className="grade-note">{hsk
-          ? <>🚀 This is above your level ({hskLabel(myGrade)}) — exploring ahead is great!{isStudent && <> Feeling ready? <button type="button" className="btn btn-ghost" onClick={() => setHskLevel(grade.num)}>Make {hskLabel(grade.num)} my level</button></>}</>
-          : <>🚀 This is above your grade ({levelLabelFor(subject, myGrade)}) — exploring ahead is great! Homework will usually come from your own grade.</>}</div>
+        <div className="grade-note">🚀 This is above your grade ({levelLabelFor(subject, myGrade)}) — exploring ahead is great! Homework will usually come from your own grade.</div>
       )}
-      {hsk && grade.num === myGrade && hskPanel}
+      {hskPanel}
 
       {grade.sections.map((section, idx) => {
         const sid = grade.id + section.letter;

@@ -453,26 +453,15 @@ test('student grade: set on create, by admin, and by roster teacher only', async
   assert.equal(r.status, 403, 'students cannot set their own grade');
 });
 
-test('HSK level: independent of grade, students advance themselves, teachers for roster only', async () => {
+test('a student has only a grade — no Chinese (HSK) level or any per-subject level', async () => {
   let r = await api('GET', '/api/me', { token: student.token });
-  assert.equal(r.data.user.hskLevel, 1, 'everyone starts at HSK 1');
-  r = await api('PUT', '/api/me/hsk-level', { token: student.token, body: { level: 3 } });
-  assert.equal(r.status, 200, 'a keen student can move themselves up');
+  assert.ok(!('hskLevel' in r.data.user), 'no HSK level on the user');
   r = await api('GET', '/api/homework', { token: student.token });
-  assert.equal(r.data.hskLevel, 3);
-  r = await api('PUT', '/api/me/hsk-level', { token: student.token, body: { level: 7 } });
-  assert.equal(r.status, 400, 'only HSK 1–6');
-  r = await api('PUT', '/api/me/hsk-level', { token: teacher.token, body: { level: 2 } });
-  assert.equal(r.status, 403, 'teachers have no HSK level of their own');
-  r = await api('PUT', `/api/students/${student.user.id}/hsk-level`, { token: teacher.token, body: { level: 2 } });
-  assert.equal(r.status, 200);
+  assert.ok(!('hskLevel' in r.data), 'homework is by grade only');
   r = await api('GET', '/api/students', { token: teacher.token });
-  assert.equal(r.data.find(s => s.id === student.user.id).hskLevel, 2);
-  const other = await api('POST', '/api/admin/users', { token: admin.token, body: { username: 'hsk_other', role: 'student', password: 'pw123' } });
-  r = await api('PUT', `/api/students/${other.data.user.id}/hsk-level`, { token: teacher.token, body: { level: 4 } });
-  assert.equal(r.status, 403, 'not in roster');
-  r = await api('PUT', `/api/admin/users/${other.data.user.id}/hsk-level`, { token: admin.token, body: { level: 4 } });
-  assert.equal(r.status, 200);
+  assert.ok(r.data.every(s => !('hskLevel' in s)), 'teachers see grade only');
+  r = await api('PUT', `/api/students/${student.user.id}/hsk-level`, { token: teacher.token, body: { level: 2 } });
+  assert.equal(r.status, 404, 'there is no HSK level to set');
 });
 
 test('Chinese review deck: words join when seen, move up boxes when reviewed, drop back on a miss', async () => {
