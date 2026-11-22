@@ -10,7 +10,7 @@ word-for-word) and generate close-reading questions that can be checked mechanic
 Every answer is verified against the passage text, distractors are checked to be absent from it,
 and passages with offensive period language are skipped.
 """
-import json, os, random, re, sys
+import glob, hashlib, json, os, random, re, sys
 from collections import Counter, defaultdict
 from library_books import B, GA
 
@@ -217,8 +217,19 @@ for (url, disp, author, year, kind, bands) in GA:
             if len(qs) >= 2:
                 library[band].append({'t': f'From {disp} ({year})', 'by': f'{author} (public domain in Canada)', 'kind': kind, 'p': g, 'q': qs})
 
+# ---------------- stable ids + hand-written deeper questions (deep/*.json: {id: [[q, a, [w,w,w], why], ...]}) ----------------
+pid = lambda it: hashlib.sha1((it['t'] + '|' + it['p'][0][:120]).encode()).hexdigest()[:12]
+deep = {}
+for f in sorted(glob.glob('deep/*.json')):
+    for k, qs in json.load(open(f)).items(): deep.setdefault(k, []).extend(qs)
+for band in library:
+    for it in library[band]:
+        it['id'] = pid(it)
+        if it['id'] in deep:   # hand-written deeper questions go first; 'd' says how many there are
+            it['q'] = [list(q) for q in deep[it['id']]] + it['q']; it['d'] = len(deep[it['id']])
+
 # ---------------- validate: drop any question that fails a check ----------------
-plain = lambda s: re.sub(r'\s+', ' ', re.sub(r'</?em>', '', s))
+plain = lambda s: re.sub(r'\s+', ' ', re.sub(r'</?em>', '', s).replace('’', "'").replace('‘', "'").replace('“', '"').replace('”', '"'))
 def valid(text, q):
     prompt, a, wrong, why = q[:4]
     need = 2 if 'point of view' in prompt else 3
@@ -226,8 +237,8 @@ def valid(text, q):
     if len(q) > 4 and (len(re.findall(rf'\b{re.escape(a)}\b', text)) != 1 or any(re.search(rf'\b{re.escape(w)}\b', text, re.I) for w in wrong)):
         return False
     for quote in re.findall(r'“([^”]+)”', why):
-        for part in quote.split(' …'):
-            part = part.strip().rstrip('.')
+        for part in re.split(r' …|…|\.\.\.', quote):
+            part = plain(part).strip(' ,;:.!?—-')
             if len(part.split()) >= 3 and part not in text: return False
     return True
 dropped = 0
@@ -235,7 +246,9 @@ for band in library:
     kept = []
     for it in library[band]:
         text = plain(' '.join(it['p']))
+        ndeep = it.get('d', 0)
         qs = [q for q in it['q'] if valid(text, q)]
+        if ndeep: it['d'] = sum(1 for q in it['q'][:ndeep] if valid(text, q))
         dropped += len(it['q']) - len(qs)
         if len(qs) >= 2: kept.append({**it, 'q': qs})
     library[band] = kept

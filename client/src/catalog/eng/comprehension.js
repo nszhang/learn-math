@@ -96,7 +96,9 @@ const withLibrary = (kinds, curated, share = 0.65) => {
 export const passageGen = pools => grade => {
   const pool = typeof pools === 'function' ? pools(grade) : pools;
   const ps = nextPassage(pool);
-  const [q, a, wrong, why, blank] = pick(ps.q);
+  // library passages list their hand-written deeper questions first (ps.d of them): prefer those
+  const qs = ps.d && Math.random() < 0.7 ? ps.q.slice(0, ps.d) : ps.q;
+  const [q, a, wrong, why, blank] = pick(qs);
   return {
     type: 'mc',
     prompt: `${renderPassage(ps, { blank })}<p class="rc-q">${q}</p>`,
