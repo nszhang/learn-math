@@ -22,7 +22,7 @@ Work stopped when the session usage limit was hit. Everything needed to continue
 | 25 | 10 of 25 banks written | Finish it with the write prompt; it keeps what's there. |
 | 26–31 | not started (all science) | Use the write prompt. |
 
-Live totals at pause: about 12,000 extra questions (English 407 banks, science roughly 150 banks).
+Live totals at pause: 12,651 extra questions (English 407 banks / 8,955 questions; science 168 banks / 3,696 questions).
 
 ## How to run (at most 4 agents at a time, since 20 at once hit the usage limit)
 
