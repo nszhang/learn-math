@@ -14,12 +14,11 @@ Work stopped when the session usage limit was hit. Everything needed to continue
 
 | Batch | State |
 |---|---|
-| 00–24 | published; all pass check.py (no giveaways). `server/test/extra-banks.test.js` now enforces it |
-| 25 | in progress, 10 of 25 banks done (`work/more_25.json`) |
-| 26–28 | in progress (`work/more_NN.json`) |
-| 29–31 | not started (all science). Use the write prompt |
+| 00–26 | published; all pass check.py. `server/test/extra-banks.test.js` enforces no giveaways |
+| 27–30 | in progress (`work/more_NN.json`; resumable, the write prompt keeps finished banks) |
+| 31 | not started (science). Use the write prompt |
 
-Live: 13,751 extra questions (English 407 banks / 8,955; science 218 banks / 4,796).
+Live: 14,851 extra questions (English 407 banks / 8,955; science 268 banks / 5,896).
 check.py also rejects a right answer that alone carries a bracketed note, e.g. "slate (metamorphic)".
 
 ## How to run (at most 4 agents at a time, since 20 at once hit the usage limit)
@@ -36,6 +35,6 @@ check.py also rejects a right answer that alone carries a bracketed note, e.g. "
 > For every bank that `check.py` flags as "much longer or shorter than all the wrong answers", rewrite the questions so the four options are similar in length, detail and form. Usually this means turning the wrong answers into tempting, specific options that are still clearly wrong: too narrow (a detail, not the main idea), too broad, partly true, contradicting the text, true but irrelevant, or an opinion instead of evidence. Don't change what is tested or which option is right. Edit only the flagged banks, and save after each file.
 
 ## Remaining after the banks (IXL parity)
-- About 416 low-variety **math** skills (down from 476; list them with `node work/mathlow.mjs`: skills giving < 12 distinct questions in 60 tries, grouped by rule) (`mth:` banks; generators such as skip-counting or coin values give only about 5 distinct questions). Improve the generators or add banks.
+- About 345 low-variety **math** skills (down from 476; mostly a long tail of one-skill rules; list them with `node work/mathlow.mjs`: skills giving < 12 distinct questions in 60 tries, grouped by rule) (`mth:` banks; generators such as skip-counting or coin values give only about 5 distinct questions). Improve the generators or add banks.
 - About 25 audio/picture banks that were skipped by the export.
 - **Skill plans** (mapping skills to provincial curriculum outcomes). IXL loads the outcome lists by script, so the mapping has to come from the curriculum documents themselves.
