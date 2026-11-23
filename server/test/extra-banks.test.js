@@ -21,7 +21,7 @@ test('extra question banks: keys match skills and questions are well formed', as
       for (let i = 0; i < 20; i++) {
         const q = sk.gen(); used++;
         if (q.type === 'mc' && (!q.choices.includes(q.answer) || new Set(q.choices).size !== q.choices.length || q.choices.length < 2)) problems.add(`${sk.id}: bad choices`);
-        if (/undefined|NaN|\[object/.test(q.prompt + q.explain)) problems.add(`${sk.id}: junk text`);
+        if (/\bundefined\b|\bNaN\b|\[object/.test(q.prompt + q.explain)) problems.add(`${sk.id}: junk text`);
       }
     }
   }

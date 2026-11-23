@@ -3348,5 +3348,1115 @@
    ],
    "Sexual reproduction mixes genes from two parents; the others make clones."
   ]
+ ],
+ "sciXsGeneEnv": [
+  [
+   "Which is a genetic factor that affects plant growth?",
+   "The alleles the plant inherits",
+   [
+    "The amount of rainfall",
+    "The hours of sunlight",
+    "The nutrients in the soil"
+   ],
+   "Alleles are inherited genes; rain, light and nutrients are environmental."
+  ],
+  [
+   "Which is an environmental factor that affects plant height?",
+   "The amount of water it gets",
+   [
+    "The genes from its parent plants",
+    "The number of its chromosomes",
+    "The order of bases in its DNA"
+   ],
+   "Water supply comes from the environment, not from the plant's genes."
+  ],
+  [
+   "Two seeds from different parent plants are grown side by side in identical conditions. One grows much taller. What most likely explains this?",
+   "Differences in their genes",
+   [
+    "Differences in their soil",
+    "Differences in their light",
+    "Differences in their water"
+   ],
+   "With the environment kept the same, differences in growth point to genetic differences."
+  ],
+  [
+   "In an experiment on light and plant growth, what should be kept the same for every plant?",
+   "Water, soil, temperature and plant genotype",
+   [
+    "Only the amount of light each plant gets",
+    "Only the colour of the plant pots",
+    "Nothing, so results are more natural"
+   ],
+   "Controlling all other variables makes sure light is the only thing changing."
+  ],
+  [
+   "A plant's observable traits, such as height and leaf colour, are its …",
+   "phenotype",
+   [
+    "genotype",
+    "allele",
+    "chromosome"
+   ],
+   "The phenotype is what you can observe, produced by genes and environment together."
+  ],
+  [
+   "A plant's genetic makeup is its …",
+   "genotype",
+   [
+    "phenotype",
+    "habitat",
+    "biome"
+   ],
+   "The genotype is the set of alleles a plant carries."
+  ],
+  [
+   "Seedlings grown in the dark are tall, thin and pale. What is this called?",
+   "Etiolation",
+   [
+    "Germination",
+    "Pollination",
+    "Transpiration"
+   ],
+   "Etiolated seedlings stretch toward light and lack chlorophyll when grown in the dark."
+  ],
+  [
+   "Plants of the same variety grown on a windy hilltop are shorter than those in a sheltered valley. What does this show?",
+   "Environment affects the phenotype",
+   [
+    "Wind changes the plants' DNA",
+    "The hilltop plants are a new species",
+    "Genes have no effect on height"
+   ],
+   "Same genes in different conditions gave different traits, showing an environmental effect."
+  ],
+  [
+   "A plant has the genes to make red flowers but grows in very poor light and makes few flowers. Its genotype …",
+   "is unchanged; only its phenotype is affected",
+   [
+    "has changed to a different set of genes",
+    "has been lost from all of its cells",
+    "has turned into a white-flower genotype"
+   ],
+   "The environment changes how genes are expressed, not the genes themselves."
+  ],
+  [
+   "Corn plants with an albino gene cannot make chlorophyll no matter how much light they get. This trait is controlled mainly by …",
+   "genes",
+   [
+    "sunlight",
+    "soil type",
+    "temperature"
+   ],
+   "If the trait appears in all conditions, it is determined mainly by the plant's genes."
+  ],
+  [
+   "Why do farmers add fertilizer to crops with high-yield genes?",
+   "So the plants have nutrients to reach their genetic potential",
+   [
+    "So the plants change their genes to high-yield ones",
+    "So the plants stop needing water and sunlight",
+    "So the plants become a different species"
+   ],
+   "High-yield genes can only be fully expressed when nutrients are not limiting."
+  ],
+  [
+   "Primrose plants make red flowers at 20 °C but white flowers at 30 °C. What controls the colour difference?",
+   "Temperature",
+   [
+    "Soil acidity",
+    "Day length",
+    "Wind speed"
+   ],
+   "The same plants change flower colour with temperature, an environmental factor."
+  ],
+  [
+   "Why should a scientist use many plants in each group of a growth experiment?",
+   "To reduce the effect of individual differences",
+   [
+    "To make the experiment take longer",
+    "To guarantee the hypothesis is true",
+    "To use up extra seeds"
+   ],
+   "Larger samples make results more reliable by averaging out random variation."
+  ],
+  [
+   "Cuttings from one plant are grown in sandy and rich soils. Why use cuttings?",
+   "They all have the same genotype",
+   [
+    "They grow faster than seeds",
+    "They have no genes at all",
+    "They cannot be affected by soil"
+   ],
+   "Cuttings are clones, so differences in growth come from the environment."
+  ],
+  [
+   "Which result shows that both genes and environment affect plant height?",
+   "Tall varieties grow taller than short ones, but all are shorter in poor soil",
+   [
+    "All varieties grow to the same height in any soil",
+    "Only the soil type changes height, never the variety",
+    "Only the variety changes height, never the soil"
+   ],
+   "Height differs by variety (genes) and by soil (environment), so both matter."
+  ],
+  [
+   "Many traits, such as plant height, show a wide range of values. One reason is that they are …",
+   "controlled by many genes plus the environment",
+   [
+    "controlled by a single gene with no other effects",
+    "never affected by the plant's surroundings",
+    "decided only by the plant's chromosome count"
+   ],
+   "Traits affected by many genes and the environment vary continuously."
+  ],
+  [
+   "A plant that wilts in dry soil recovers after watering. Its genes have …",
+   "stayed the same",
+   [
+    "changed to new ones",
+    "doubled in number",
+    "been lost"
+   ],
+   "Wilting is a response to the environment; watering does not alter the plant's DNA."
+  ],
+  [
+   "Which factor would be the independent variable in a test of how fertilizer affects bean plants?",
+   "The amount of fertilizer",
+   [
+    "The height of the plants",
+    "The type of bean seeds",
+    "The size of the pots"
+   ],
+   "The independent variable is the one the scientist changes on purpose."
+  ],
+  [
+   "In that fertilizer test, which is the dependent variable?",
+   "The growth of the plants",
+   [
+    "The amount of fertilizer",
+    "The amount of water given",
+    "The type of bean seeds"
+   ],
+   "The dependent variable is what is measured to see the effect."
+  ],
+  [
+   "Plants of the same species grown at high altitude are often shorter. Which environmental factor could cause this?",
+   "Colder temperatures",
+   [
+    "Different alleles",
+    "More chromosomes",
+    "A new DNA code"
+   ],
+   "Cold temperatures and harsh conditions at high altitude limit growth."
+  ],
+  [
+   "Some plants flower only when nights are long enough. Which environmental factor triggers their flowering?",
+   "Day length",
+   [
+    "Soil pH",
+    "Wind direction",
+    "Seed size"
+   ],
+   "Many plants sense day length (photoperiod) to time their flowering."
+  ],
+  [
+   "Why can identical plant clones look different in different gardens?",
+   "The environment changes how their genes are expressed",
+   [
+    "Their DNA mutates to match each garden",
+    "Clones always have different genotypes",
+    "Gardens change plants into new species"
+   ],
+   "Clones share genes, so differences come from the environment's effect on gene expression."
+  ]
+ ],
+ "sciXsFossEvo": [
+  [
+   "In undisturbed rock layers, where are the oldest fossils usually found?",
+   "In the deepest layers",
+   [
+    "In the top layers",
+    "In the middle layers only",
+    "Spread evenly in all layers"
+   ],
+   "Sediment builds up over time, so deeper layers are older."
+  ],
+  [
+   "What is the idea that lower rock layers are older than upper layers called?",
+   "The law of superposition",
+   [
+    "The law of conservation",
+    "The law of gravity",
+    "The law of segregation"
+   ],
+   "Superposition states that, in undisturbed rock, each layer is younger than the one below."
+  ],
+  [
+   "Which kind of rock is most likely to contain fossils?",
+   "Sedimentary rock",
+   [
+    "Igneous rock",
+    "Metamorphic rock",
+    "Volcanic glass"
+   ],
+   "Fossils form when organisms are buried in sediment that hardens into sedimentary rock."
+  ],
+  [
+   "What does relative dating tell us about a fossil?",
+   "Whether it is older or younger than other fossils",
+   [
+    "Its exact age in years",
+    "What colour the organism was",
+    "What the organism ate"
+   ],
+   "Relative dating places fossils in order without giving an exact age."
+  ],
+  [
+   "What does radiometric dating measure to find a rock's age?",
+   "The decay of radioactive isotopes",
+   [
+    "The colour of the rock",
+    "The weight of the fossil",
+    "The hardness of the rock"
+   ],
+   "Radioactive isotopes decay at known rates, so measuring them gives an age in years."
+  ],
+  [
+   "Archaeopteryx had feathers like a bird and teeth and a bony tail like a reptile. What does it support?",
+   "Birds evolved from reptile-like ancestors",
+   [
+    "Birds and reptiles are unrelated",
+    "Feathers evolved after teeth vanished",
+    "All reptiles could once fly"
+   ],
+   "Archaeopteryx is a transitional fossil linking dinosaurs and birds."
+  ],
+  [
+   "Why are soft-bodied animals such as jellyfish rare in the fossil record?",
+   "Soft tissues usually decay before fossilizing",
+   [
+    "They never lived in the past",
+    "They lived only on dry land",
+    "They are too heavy to fossilize"
+   ],
+   "Hard parts like bones and shells fossilize much more easily than soft tissue."
+  ],
+  [
+   "Canada's Burgess Shale in British Columbia is famous because …",
+   "it preserved many soft-bodied Cambrian animals",
+   [
+    "it contains the first human fossils",
+    "it has only dinosaur eggs and nests",
+    "it formed less than 1000 years ago"
+   ],
+   "The Burgess Shale preserved soft tissues of ocean animals from over 500 million years ago."
+  ],
+  [
+   "Fossils of warm-climate forest trees are found in rocks on Ellesmere Island in the Arctic. What does this suggest?",
+   "The area's climate was once much warmer",
+   [
+    "Those trees grow in the Arctic today",
+    "Fossils were moved there by people",
+    "Plants have never changed over time"
+   ],
+   "Fossils of warm-climate plants show the region once had a warm climate."
+  ],
+  [
+   "Which is a good index fossil?",
+   "A species that was widespread but lived only a short time",
+   [
+    "A species that lived in one small pond for millions of years",
+    "A species that is still alive and common today",
+    "A species that left only one fossil ever"
+   ],
+   "Index fossils are useful because they were widespread and existed for a short, known time."
+  ],
+  [
+   "Ammonite fossils are found in a rock layer in Alberta and one in England. What can scientists conclude?",
+   "The two layers are about the same age",
+   [
+    "The two layers are the same rock",
+    "Ammonites still live in both places",
+    "The layers formed a few years ago"
+   ],
+   "Ammonites are index fossils, so matching ones suggest layers of similar age."
+  ],
+  [
+   "Which order of first appearance is shown by the fossil record?",
+   "Fish, then amphibians, then reptiles",
+   [
+    "Reptiles, then fish, then amphibians",
+    "Amphibians, then reptiles, then fish",
+    "Reptiles, then amphibians, then fish"
+   ],
+   "Fish appear first in older rocks, followed by amphibians and then reptiles."
+  ],
+  [
+   "A fossil is found in a layer between two volcanic ash layers dated at 75 and 70 million years old. How old is the fossil?",
+   "Between 70 and 75 million years",
+   [
+    "Older than 75 million years",
+    "Younger than 70 million years",
+    "Exactly 145 million years"
+   ],
+   "The fossil formed after the lower ash and before the upper ash."
+  ],
+  [
+   "What is a trace fossil?",
+   "Evidence of activity, such as a footprint or burrow",
+   [
+    "The preserved bones of a large animal",
+    "A living species that looks ancient",
+    "A rock with no sign of life"
+   ],
+   "Trace fossils record behaviour, like tracks and burrows, rather than body parts."
+  ],
+  [
+   "Mammoths have been found frozen in permafrost. Why is this useful to scientists?",
+   "Soft tissue and even DNA can be preserved",
+   [
+    "It shows mammoths are still alive",
+    "It proves mammoths lived in the tropics",
+    "It shows ice turns into rock"
+   ],
+   "Freezing can preserve hair, skin and DNA, giving much more detail than bones alone."
+  ],
+  [
+   "Most species that ever lived are now …",
+   "extinct",
+   [
+    "alive in oceans",
+    "alive in forests",
+    "frozen in ice"
+   ],
+   "The fossil record shows that the great majority of species have gone extinct."
+  ],
+  [
+   "What happened to many species, including non-avian dinosaurs, about 66 million years ago?",
+   "A mass extinction",
+   [
+    "A sudden ice-free period",
+    "The first appearance of life",
+    "The formation of the Moon"
+   ],
+   "A mass extinction at the end of the Cretaceous wiped out the non-avian dinosaurs."
+  ],
+  [
+   "Fossils of the same reptile, Mesosaurus, are found in Brazil and southern Africa. Mesosaurus lived in fresh water. Why is this important?",
+   "It could not have crossed the ocean, so the continents were joined",
+   [
+    "It shows reptiles swam across oceans easily",
+    "It proves Mesosaurus still lives today",
+    "It shows fossils move with ocean currents"
+   ],
+   "A freshwater reptile could not cross a salty ocean, supporting continental drift."
+  ],
+  [
+   "Which observation would most strongly challenge evolution if it were ever found?",
+   "Rabbit fossils in rocks older than the first fish",
+   [
+    "Fish fossils in rocks older than the first rabbits",
+    "Bird fossils above dinosaur fossils",
+    "Mammal fossils in younger rock layers"
+   ],
+   "Evolution predicts mammals appear long after fish; finding them in very old rock would contradict that."
+  ],
+  [
+   "Fossil whales such as Pakicetus had legs and lived near shore. What does this show?",
+   "Whales evolved from land mammals",
+   [
+    "Whales evolved from fish",
+    "Whales have never changed",
+    "Whales came before fish"
+   ],
+   "Fossils like Pakicetus show stages between land mammals and modern whales."
+  ],
+  [
+   "Fossils show that early horses were small and had several toes. What best explains the change to large, one-toed horses?",
+   "Natural selection in a changing environment",
+   [
+    "Horses chose to change their own feet",
+    "Random changes with no effect on survival",
+    "Humans breeding horses millions of years ago"
+   ],
+   "As forests became grasslands, traits suited to running were favoured by natural selection."
+  ],
+  [
+   "Why do scientists look at many fossils over many rock layers rather than just one fossil?",
+   "A series shows gradual change over time",
+   [
+    "One fossil is always enough proof",
+    "Fossils in one layer are always fake",
+    "Layers never contain more than one fossil"
+   ],
+   "A sequence of fossils through layers reveals patterns of change over long periods."
+  ]
+ ],
+ "sciXsAnatEvo": [
+  [
+   "A penguin's flipper and a human arm have the same set of bones. These are …",
+   "homologous structures",
+   [
+    "analogous structures",
+    "vestigial structures",
+    "unrelated structures"
+   ],
+   "Shared bone structure inherited from a common ancestor makes them homologous."
+  ],
+  [
+   "A butterfly's wing and a bat's wing are both used for flying but are built very differently. They are …",
+   "analogous structures",
+   [
+    "homologous structures",
+    "vestigial structures",
+    "identical structures"
+   ],
+   "Same function but different structure and origin means they are analogous."
+  ],
+  [
+   "Snakes such as pythons have tiny leftover hip and leg bones. These are …",
+   "vestigial structures",
+   [
+    "analogous structures",
+    "new adaptations",
+    "transitional fossils"
+   ],
+   "Small, reduced leg bones are leftovers from limbed ancestors."
+  ],
+  [
+   "What do homologous structures suggest about two species?",
+   "They share a common ancestor",
+   [
+    "They live in the same habitat",
+    "They are the same species",
+    "They evolved separately"
+   ],
+   "Homologous structures were inherited from a shared ancestor."
+  ],
+  [
+   "What do analogous structures suggest about two species?",
+   "Similar environments selected similar features",
+   [
+    "They share a very recent ancestor",
+    "They are exactly the same species",
+    "Their DNA must be identical"
+   ],
+   "Analogous features arise from convergent evolution, not close ancestry."
+  ],
+  [
+   "Sharks and dolphins have similar streamlined body shapes but are not closely related. This is an example of …",
+   "convergent evolution",
+   [
+    "divergent evolution",
+    "artificial selection",
+    "genetic drift"
+   ],
+   "Unrelated species evolving similar features in similar environments is convergent evolution."
+  ],
+  [
+   "Many species descended from one ancestor and became different in different habitats. This is …",
+   "divergent evolution",
+   [
+    "convergent evolution",
+    "spontaneous generation",
+    "vestigial evolution"
+   ],
+   "Divergent evolution is when related species become more different over time."
+  ],
+  [
+   "Early human embryos have tail-like structures and pharyngeal pouches like fish embryos. What does this support?",
+   "Humans and fish share a distant common ancestor",
+   [
+    "Humans evolved from modern fish",
+    "Human embryos breathe through gills",
+    "Fish and humans are the same species"
+   ],
+   "Similar embryo features point to common ancestry."
+  ],
+  [
+   "Which is a vestigial structure in humans?",
+   "Wisdom teeth",
+   [
+    "Heart valves",
+    "Kidneys",
+    "Lungs"
+   ],
+   "Wisdom teeth are leftovers from ancestors with larger jaws who chewed tougher food."
+  ],
+  [
+   "Blind cave fish have small, non-working eyes. These eyes are …",
+   "vestigial",
+   [
+    "analogous",
+    "homologous to fins",
+    "brand new organs"
+   ],
+   "Their reduced eyes are leftovers from sighted ancestors."
+  ],
+  [
+   "Scientists compare the amino acid sequence of hemoglobin in several animals. Fewer differences mean …",
+   "a closer evolutionary relationship",
+   [
+    "a more distant relationship",
+    "the animals live farther apart",
+    "the animals are larger"
+   ],
+   "Species that split more recently have had less time to build up differences."
+  ],
+  [
+   "Hemoglobin differences from humans: gorilla 1, mouse 27, frog 67. Which animal is most closely related to humans?",
+   "Gorilla",
+   [
+    "Mouse",
+    "Frog",
+    "All are equally related"
+   ],
+   "The gorilla's hemoglobin has the fewest differences from human hemoglobin."
+  ],
+  [
+   "Hemoglobin differences from humans: gorilla 1, mouse 27, frog 67. Which is least closely related to humans?",
+   "Frog",
+   [
+    "Gorilla",
+    "Mouse",
+    "All are equally related"
+   ],
+   "The frog has the most differences, so it shares the most distant common ancestor."
+  ],
+  [
+   "Why is DNA evidence useful when species look very similar on the outside?",
+   "It shows true relationships hidden by appearance",
+   [
+    "It changes the species into new ones",
+    "It always matches their outside looks",
+    "It tells the colour of each species"
+   ],
+   "Molecular evidence can reveal relationships that body shape alone may hide."
+  ],
+  [
+   "All living things use DNA and the same genetic code. What does this suggest?",
+   "All life shares a common origin",
+   [
+    "All life evolved separately",
+    "DNA was copied by scientists",
+    "Only animals are related"
+   ],
+   "A universal genetic code is strong evidence that all life descends from a common ancestor."
+  ],
+  [
+   "A family tree diagram showing how species are related is called a …",
+   "phylogenetic tree",
+   [
+    "food web diagram",
+    "Punnett square",
+    "pedigree of traits"
+   ],
+   "Phylogenetic trees show evolutionary relationships among species."
+  ],
+  [
+   "On a phylogenetic tree, a branching point represents …",
+   "a common ancestor",
+   [
+    "an extinct predator",
+    "a habitat change only",
+    "a fossil location"
+   ],
+   "Each branching point (node) represents an ancestor shared by the branches above it."
+  ],
+  [
+   "The forelimbs of a horse, a mole and a human look different but share the same bones. Why do they look different?",
+   "They evolved for different uses",
+   [
+    "They have different ancestors",
+    "They are vestigial structures",
+    "They were made by humans"
+   ],
+   "Homologous limbs were modified by natural selection for running, digging and grasping."
+  ],
+  [
+   "Some whales have tiny, buried hind-leg bones. What does this best support?",
+   "Whales descended from four-legged ancestors",
+   [
+    "Whales will soon grow back their legs",
+    "Whales use these bones to swim fast",
+    "Whales are closely related to sharks"
+   ],
+   "Vestigial leg bones are evidence that whale ancestors walked on land."
+  ],
+  [
+   "Humans have muscles to move the ears, though most people cannot use them well. These are an example of …",
+   "vestigial structures",
+   [
+    "analogous structures",
+    "convergent features",
+    "transitional fossils"
+   ],
+   "Ear muscles are reduced leftovers from ancestors that could turn their ears."
+  ],
+  [
+   "Comparing DNA, scientists found that whales are most closely related to hippos. What kind of evidence is this?",
+   "Molecular evidence",
+   [
+    "Fossil evidence",
+    "Embryo evidence",
+    "Behaviour evidence"
+   ],
+   "DNA comparisons are molecular evidence of evolution."
+  ],
+  [
+   "A bird's wing and a bat's wing share the same arm bones, but bird feathers and bat skin membranes evolved separately. The bones are …",
+   "homologous",
+   [
+    "analogous",
+    "vestigial",
+    "artificial"
+   ],
+   "The shared bone pattern comes from a common four-limbed ancestor, so the bones are homologous."
+  ]
+ ],
+ "sciXsSerengeti": [
+  [
+   "In the Serengeti, what is the original source of energy for the whole food web?",
+   "The Sun",
+   [
+    "The soil",
+    "The lions",
+    "The rivers"
+   ],
+   "Grasses capture sunlight by photosynthesis, which powers the whole food web."
+  ],
+  [
+   "Which Serengeti organism is a carnivore?",
+   "Cheetah",
+   [
+    "Zebra",
+    "Gazelle",
+    "Acacia tree"
+   ],
+   "Cheetahs hunt and eat other animals such as gazelles."
+  ],
+  [
+   "Giraffes eat leaves from acacia trees. What role do giraffes play?",
+   "Primary consumer",
+   [
+    "Producer",
+    "Secondary consumer",
+    "Decomposer"
+   ],
+   "Giraffes eat plants, making them primary consumers."
+  ],
+  [
+   "Lions eat zebras, which eat grass. What role do zebras play?",
+   "Primary consumer",
+   [
+    "Producer",
+    "Tertiary consumer",
+    "Decomposer"
+   ],
+   "Zebras eat producers, so they are primary consumers."
+  ],
+  [
+   "If lions were removed from the Serengeti, what would likely happen to zebras at first?",
+   "Their population would rise",
+   [
+    "Their population would fall",
+    "They would start eating lions",
+    "They would stop eating grass"
+   ],
+   "Without a major predator, more zebras survive, so their numbers increase."
+  ],
+  [
+   "If disease killed many wildebeest, what would likely happen to the grass at first?",
+   "It would grow more",
+   [
+    "It would die out",
+    "It would stop growing",
+    "It would eat the zebras"
+   ],
+   "Fewer grazers means less grass is eaten."
+  ],
+  [
+   "Which organisms break down dead grass and dung, returning nutrients to the soil?",
+   "Fungi and bacteria",
+   [
+    "Lions and hyenas",
+    "Zebras and gazelles",
+    "Acacias and grasses"
+   ],
+   "Fungi and bacteria are decomposers that recycle nutrients."
+  ],
+  [
+   "Only about 10% of the energy in grass is passed on to the zebras that eat it. Where does most of the rest go?",
+   "Lost as heat from life processes",
+   [
+    "Stored forever in the soil",
+    "Passed straight to the lions",
+    "Turned back into sunlight"
+   ],
+   "Most energy is used for movement, growth and body heat, and is lost as heat."
+  ],
+  [
+   "Why are there far fewer lions than zebras in the Serengeti?",
+   "Less energy is available at higher trophic levels",
+   [
+    "Lions eat more grass than zebras",
+    "Lions are always hunted by zebras",
+    "Lions do not need any energy"
+   ],
+   "Energy decreases at each level, so top predators are fewer in number."
+  ],
+  [
+   "Oxpecker birds eat ticks off the backs of buffalo. The buffalo gets cleaned and the bird gets food. This relationship is …",
+   "mutualism",
+   [
+    "predation",
+    "parasitism",
+    "competition"
+   ],
+   "Both species benefit, so the relationship is mutualism."
+  ],
+  [
+   "Ticks feed on the blood of zebras. This relationship is …",
+   "parasitism",
+   [
+    "mutualism",
+    "commensalism",
+    "competition"
+   ],
+   "The tick benefits while harming its host, which is parasitism."
+  ],
+  [
+   "Cheetahs and leopards both hunt gazelles. If cheetah numbers fell, what might happen to leopards?",
+   "They might find prey more easily",
+   [
+    "They would surely go extinct",
+    "They would switch to eating grass",
+    "They would stop hunting gazelles"
+   ],
+   "Less competition for gazelles could mean more food for leopards."
+  ],
+  [
+   "In the chain grass → gazelle → cheetah, what is the cheetah?",
+   "A secondary consumer",
+   [
+    "A primary consumer",
+    "A producer",
+    "A decomposer"
+   ],
+   "The cheetah eats a primary consumer, so it is a secondary consumer."
+  ],
+  [
+   "Hyenas both hunt prey and eat leftover kills. They are best described as …",
+   "predators and scavengers",
+   [
+    "producers and decomposers",
+    "herbivores and producers",
+    "only decomposers"
+   ],
+   "Hyenas hunt live animals and also scavenge carcasses."
+  ],
+  [
+   "Elephants knock down trees and keep the grassland open. What effect does this have on grazers like zebras?",
+   "It helps them by keeping more grass",
+   [
+    "It harms them by removing grass",
+    "It has no effect on them at all",
+    "It turns them into browsers"
+   ],
+   "Fewer trees leave more open grassland for grazing animals."
+  ],
+  [
+   "Which arrow direction is correct in a food web diagram?",
+   "From the organism eaten to the eater",
+   [
+    "From the eater to the organism eaten",
+    "From the predator to the Sun",
+    "From the decomposer to the Sun"
+   ],
+   "Arrows show the flow of energy, from food to consumer."
+  ],
+  [
+   "What would most likely happen to the Serengeti food web if rainfall increased for several years?",
+   "More grass would support more grazers",
+   [
+    "Fewer grazers would survive at all",
+    "Lions would begin eating grass",
+    "Decomposers would stop working"
+   ],
+   "More rain means more plant growth, which can support larger herbivore populations."
+  ],
+  [
+   "Zebras eat the tall tops of grass, and wildebeest then eat the shorter grass underneath. How does this help them?",
+   "They share food without competing as much",
+   [
+    "They compete more fiercely for food",
+    "They become predators of each other",
+    "They make the grass disappear for good"
+   ],
+   "Eating different parts of the grass reduces competition between the species."
+  ],
+  [
+   "Why might a food web be more stable than a single food chain?",
+   "Animals have other food if one source declines",
+   [
+    "Animals in webs never need food",
+    "Food webs have no predators at all",
+    "Food webs contain only producers"
+   ],
+   "With many feeding links, consumers can switch prey when one species declines."
+  ],
+  [
+   "Which Serengeti organism is an omnivore?",
+   "Baboon",
+   [
+    "Lion",
+    "Wildebeest",
+    "Grass"
+   ],
+   "Baboons eat fruit, seeds and insects as well as small animals."
+  ],
+  [
+   "Which is a correct Serengeti food chain?",
+   "grass → wildebeest → lion",
+   [
+    "lion → wildebeest → grass",
+    "wildebeest → grass → lion",
+    "grass → lion → wildebeest"
+   ],
+   "Energy flows from the producer (grass) to the herbivore and then to the predator."
+  ],
+  [
+   "Many wildebeest drown crossing rivers during migration. Which organisms benefit from this?",
+   "Crocodiles and vultures",
+   [
+    "Grasses and acacias",
+    "Zebras and gazelles",
+    "Giraffes and elephants"
+   ],
+   "Crocodiles feed at the crossings, and vultures scavenge the carcasses."
+  ]
+ ],
+ "sciXsAntarc": [
+  [
+   "Which Antarctic organism is a producer?",
+   "Phytoplankton",
+   [
+    "Krill",
+    "Penguin",
+    "Leopard seal"
+   ],
+   "Phytoplankton use sunlight to make food by photosynthesis."
+  ],
+  [
+   "What role do krill play in the Antarctic food web?",
+   "Primary consumers",
+   [
+    "Producers",
+    "Top predators",
+    "Decomposers"
+   ],
+   "Krill eat phytoplankton, so they are primary consumers."
+  ],
+  [
+   "Blue whales eat krill. What kind of consumer is a blue whale in the chain phytoplankton → krill → blue whale?",
+   "Secondary consumer",
+   [
+    "Primary consumer",
+    "Producer",
+    "Tertiary consumer"
+   ],
+   "The blue whale eats a primary consumer, making it a secondary consumer."
+  ],
+  [
+   "How do baleen whales feed on tiny krill?",
+   "They filter krill from water with baleen plates",
+   [
+    "They chase krill one at a time with teeth",
+    "They catch krill in the air above the water",
+    "They dig krill out of the sea floor mud"
+   ],
+   "Baleen plates act like a sieve, trapping krill while water flows out."
+  ],
+  [
+   "Orcas eat seals, and seals eat fish. If orcas declined, seal numbers would likely …",
+   "increase",
+   [
+    "decrease",
+    "drop to zero",
+    "stay exactly the same"
+   ],
+   "Fewer predators means more seals survive."
+  ],
+  [
+   "If seal numbers grew after orcas declined, what might happen to fish?",
+   "They might decrease",
+   [
+    "They might increase",
+    "They would become producers",
+    "They would stop eating"
+   ],
+   "More seals would eat more fish, lowering fish numbers."
+  ],
+  [
+   "Why is there very little phytoplankton growth during the Antarctic winter?",
+   "There is very little sunlight",
+   [
+    "The water is too salty",
+    "Krill eat it all at once",
+    "There is too much oxygen"
+   ],
+   "Phytoplankton need light for photosynthesis, and Antarctic winters are dark."
+  ],
+  [
+   "Many krill feed on algae growing under the sea ice. Why is losing sea ice a threat to the whole food web?",
+   "Krill support many animals higher in the web",
+   [
+    "Krill are the top predators",
+    "Sea ice is eaten by penguins",
+    "Seals make their own food"
+   ],
+   "Since so many animals eat krill, a drop in krill affects the whole web."
+  ],
+  [
+   "Commercial fishing boats harvest Antarctic krill. Which animals could be harmed most directly?",
+   "Penguins and baleen whales",
+   [
+    "Phytoplankton and algae",
+    "Orcas only",
+    "No animals at all"
+   ],
+   "Penguins and baleen whales eat krill, so less krill means less food for them."
+  ],
+  [
+   "Emperor penguins eat fish, squid and krill. What kind of feeder are they?",
+   "Carnivore",
+   [
+    "Herbivore",
+    "Producer",
+    "Decomposer"
+   ],
+   "Penguins eat only animals, making them carnivores."
+  ],
+  [
+   "Bacteria break down dead whales on the sea floor. What role do they play?",
+   "Decomposers",
+   [
+    "Producers",
+    "Herbivores",
+    "Top predators"
+   ],
+   "Decomposers break down dead matter and release nutrients."
+  ],
+  [
+   "Skuas are birds that steal penguin eggs and eat dead animals. They are …",
+   "predators and scavengers",
+   [
+    "producers and herbivores",
+    "decomposers only",
+    "filter feeders only"
+   ],
+   "Skuas hunt chicks and eggs and also scavenge carcasses."
+  ],
+  [
+   "Why is the Antarctic food web said to be 'short'?",
+   "Few links separate producers from top predators",
+   [
+    "It has no producers at all",
+    "It has only one animal species",
+    "It has no top predators at all"
+   ],
+   "Energy moves from phytoplankton to krill to large animals in just a few steps."
+  ],
+  [
+   "Why are there more krill than penguins by mass in the Antarctic?",
+   "Energy is lost at each trophic level",
+   [
+    "Penguins eat phytoplankton directly",
+    "Krill are the top predators",
+    "Penguins never need to eat"
+   ],
+   "Only about 10% of energy passes up each level, so higher levels hold less biomass."
+  ],
+  [
+   "Which is a correct Antarctic food chain?",
+   "phytoplankton → krill → fish → Weddell seal",
+   [
+    "Weddell seal → fish → krill → phytoplankton",
+    "krill → phytoplankton → fish → Weddell seal",
+    "fish → Weddell seal → krill → phytoplankton"
+   ],
+   "Energy flows from producers through consumers to the predator."
+  ],
+  [
+   "Leopard seals eat penguins and krill. If penguins became rare, leopard seals might …",
+   "eat more krill instead",
+   [
+    "start making their own food",
+    "stop eating completely",
+    "eat the phytoplankton only"
+   ],
+   "Having several food sources lets a predator switch prey when one becomes scarce."
+  ],
+  [
+   "Adélie penguin numbers fell in areas where sea ice decreased. What is the most likely link?",
+   "Less sea ice meant fewer krill to eat",
+   [
+    "Less sea ice meant more food for them",
+    "Penguins eat sea ice for energy",
+    "Sea ice is a predator of penguins"
+   ],
+   "Krill depend on ice algae, so less ice reduces penguins' food supply."
+  ],
+  [
+   "Whale numbers dropped greatly from hunting in the 1900s. What did scientists predict would happen to krill?",
+   "Krill numbers might increase",
+   [
+    "Krill numbers would drop to zero",
+    "Krill would become predators",
+    "Krill would start eating whales"
+   ],
+   "With fewer whales eating them, more krill would be left for other animals."
+  ],
+  [
+   "What do Antarctic squid mainly eat?",
+   "Krill and small fish",
+   [
+    "Leopard seals",
+    "Sea ice",
+    "Orcas"
+   ],
+   "Squid are predators of small animals such as krill and fish."
+  ],
+  [
+   "Which change would most likely increase phytoplankton growth?",
+   "More nutrients and sunlight in the water",
+   [
+    "More orcas hunting seals",
+    "Fewer hours of daylight",
+    "Thicker ice blocking light"
+   ],
+   "Phytoplankton need light and nutrients to photosynthesize and grow."
+  ],
+  [
+   "Why are orcas called apex predators in the Antarctic?",
+   "No other animal regularly hunts adult orcas",
+   [
+    "They eat only phytoplankton",
+    "They are eaten by leopard seals",
+    "They are the smallest predators"
+   ],
+   "Apex predators are at the top of the food web with no natural predators."
+  ],
+  [
+   "In the chain phytoplankton → krill → penguin → leopard seal → orca, what is the penguin?",
+   "A secondary consumer",
+   [
+    "A primary consumer",
+    "A producer",
+    "A quaternary consumer"
+   ],
+   "The penguin eats krill, a primary consumer, so it is a secondary consumer."
+  ]
  ]
 }
