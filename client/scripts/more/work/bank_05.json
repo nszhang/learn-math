@@ -1,0 +1,2353 @@
+[
+ {
+  "key": "engTpSE",
+  "subject": "english",
+  "title": "Choose topic sentences for narrative paragraphs",
+  "section": "Topic sentences",
+  "grades": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpSE2",
+   "engTpSE3",
+   "engTpSE4",
+   "engTpSE5"
+  ],
+  "examples": [
+   {
+    "question": "Which topic sentence best fits this paragraph? … Snakes smell with their tongues. They feel vibrations through the ground. Some can even sense heat from their prey.",
+    "answer": "Snakes have special ways of sensing the world.",
+    "choices": [
+     "Snakes are long.",
+     "Snakes have special ways of sensing the world.",
+     "Heat comes from the sun."
+    ]
+   },
+   {
+    "question": "Which topic sentence best fits this paragraph? … First we visited the aquarium. Then we ate pizza by the water. At night we watched fireworks.",
+    "answer": "Our trip to the city was full of fun.",
+    "choices": [
+     "Our trip to the city was full of fun.",
+     "Fireworks are loud.",
+     "Pizza is my favourite food."
+    ]
+   },
+   {
+    "question": "Which topic sentence best fits this paragraph? … Mix flour, sugar and eggs. Pour the batter into a pan. Bake it for thirty minutes.",
+    "answer": "Making a cake is easy if you follow these steps.",
+    "choices": [
+     "Eggs come from chickens.",
+     "Ovens are hot.",
+     "Making a cake is easy if you follow these steps."
+    ]
+   },
+   {
+    "question": "Which topic sentence best fits this paragraph? … They have strong legs for jumping. Their sticky tongues catch flies. Their skin helps them breathe underwater.",
+    "answer": "Frogs have bodies that help them survive.",
+    "choices": [
+     "Frogs have bodies that help them survive.",
+     "I like to swim.",
+     "Flies are annoying."
+    ]
+   },
+   {
+    "question": "Which topic sentence best fits this paragraph? … Wear a warm coat. Put on mittens and a hat. Stay dry so you do not get chilled.",
+    "answer": "There are several ways to stay warm in winter.",
+    "choices": [
+     "There are several ways to stay warm in winter.",
+     "Hats come in many colours.",
+     "Winter has short days."
+    ]
+   },
+   {
+    "question": "Which topic sentence best fits this paragraph? … On Saturday we cleaned the beach. We picked up bottles and bags. By noon, the sand was spotless.",
+    "answer": "Our beach clean-up made a big difference.",
+    "choices": [
+     "Bottles are made of glass.",
+     "Our beach clean-up made a big difference.",
+     "Sand is made of rock."
+    ]
+   },
+   {
+    "question": "Which topic sentence best fits this paragraph? … Recess lets us run and play. It gives our brains a break. We come back ready to learn.",
+    "answer": "Recess is important for students.",
+    "choices": [
+     "Running is fast.",
+     "Recess is important for students.",
+     "Brains are in our heads."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTpEx",
+  "subject": "english",
+  "title": "Choose topic sentences for expository paragraphs",
+  "section": "Topic sentences",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engXTpEx2",
+   "engXTpEx3"
+  ],
+  "examples": [
+   {
+    "question": "___ They have long trunks for drinking and big ears that help them stay cool. They can weigh as much as a small truck. Which topic sentence best fits the paragraph?",
+    "answer": "Elephants are amazing animals.",
+    "choices": [
+     "Trucks are heavy.",
+     "I saw a zoo once.",
+     "My ears are small.",
+     "Elephants are amazing animals."
+    ]
+   },
+   {
+    "question": "___ You should brush twice a day, floss once a day and visit the dentist twice a year. Which topic sentence best fits the paragraph?",
+    "answer": "There are several ways to keep your teeth healthy.",
+    "choices": [
+     "There are several ways to keep your teeth healthy.",
+     "Toothpaste tastes like mint.",
+     "My dentist is nice.",
+     "I lost a tooth last year."
+    ]
+   },
+   {
+    "question": "___ You need a helmet, a bike that fits you and lights if you ride at night. Always ride on the right side of the road. Which topic sentence best fits the paragraph?",
+    "answer": "There are rules to stay safe on a bike.",
+    "choices": [
+     "Bikes have two wheels.",
+     "There are rules to stay safe on a bike.",
+     "I got a bike for my birthday.",
+     "Cars are faster than bikes."
+    ]
+   },
+   {
+    "question": "___ First, the caterpillar hatches from an egg. Then it forms a chrysalis. Finally, a butterfly comes out. Which topic sentence best fits the paragraph?",
+    "answer": "A butterfly changes a lot as it grows.",
+    "choices": [
+     "Eggs are small.",
+     "A butterfly changes a lot as it grows.",
+     "Moths fly at night.",
+     "I like the colour orange."
+    ]
+   },
+   {
+    "question": "___ It can be very hot during the day and freezing at night, and it may not rain for years. Which topic sentence best fits the paragraph?",
+    "answer": "Deserts are places with extreme weather.",
+    "choices": [
+     "Deserts are places with extreme weather.",
+     "Camels have humps.",
+     "I want to visit a desert.",
+     "Sand is yellow."
+    ]
+   },
+   {
+    "question": "___ Bees carry pollen from flower to flower. This helps plants make seeds and fruit. Which topic sentence best fits the paragraph?",
+    "answer": "Bees help plants grow.",
+    "choices": [
+     "Flowers are pretty.",
+     "I eat fruit every day.",
+     "Bees help plants grow.",
+     "Bees can sting."
+    ]
+   },
+   {
+    "question": "___ Beavers cut down trees with their strong teeth. They use the logs and mud to build dams and lodges. Which topic sentence best fits the paragraph?",
+    "answer": "Beavers are skilled builders.",
+    "choices": [
+     "Some teeth are white.",
+     "Logs float.",
+     "Beavers are skilled builders.",
+     "Mud is wet."
+    ]
+   },
+   {
+    "question": "___ Volunteers pick up litter, plant trees and clean the shoreline every spring. Which topic sentence best fits the paragraph?",
+    "answer": "Volunteers help keep our park clean.",
+    "choices": [
+     "Spring is warm.",
+     "Trees are tall.",
+     "Volunteers help keep our park clean.",
+     "Litter is bad."
+    ]
+   },
+   {
+    "question": "___ Maple syrup comes from the sap of maple trees. Farmers collect the sap in early spring and boil it until it is thick and sweet. Which topic sentence best fits the paragraph?",
+    "answer": "Maple syrup is made from tree sap.",
+    "choices": [
+     "Some trees lose their leaves.",
+     "Maple syrup is made from tree sap.",
+     "Pancakes are tasty.",
+     "Spring is my favourite season."
+    ]
+   },
+   {
+    "question": "___ They help make honey, and they carry pollen from flower to flower so plants can make seeds. Which topic sentence best fits the paragraph?",
+    "answer": "Bees are important insects.",
+    "choices": [
+     "Bees are important insects.",
+     "Flowers are pretty.",
+     "I saw a bee yesterday.",
+     "Honey is sticky."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSbCj",
+  "subject": "english",
+  "title": "Use subordinating conjunctions",
+  "section": "Linking words",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engSbCj2",
+   "engSbCj3",
+   "engSbCj4"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best word to complete the sentence. Wait here ___ I come back.",
+    "answer": "until",
+    "choices": [
+     "although",
+     "until",
+     "when",
+     "because"
+    ]
+   },
+   {
+    "question": "Choose the best word to complete the sentence. I will call you ___ I get home.",
+    "answer": "when",
+    "choices": [
+     "until",
+     "although",
+     "because",
+     "when"
+    ]
+   },
+   {
+    "question": "Choose the best word to complete the sentence. ___ the bell rang, everyone lined up.",
+    "answer": "When",
+    "choices": [
+     "Until",
+     "Although",
+     "Because",
+     "When"
+    ]
+   },
+   {
+    "question": "Choose the best word to complete the sentence. You can play ___ you finish your homework.",
+    "answer": "after",
+    "choices": [
+     "although",
+     "when",
+     "after",
+     "because"
+    ]
+   },
+   {
+    "question": "Choose the best word to complete the sentence. ___ it was cold, we went swimming.",
+    "answer": "Although",
+    "choices": [
+     "Although",
+     "Until",
+     "Because",
+     "When"
+    ]
+   },
+   {
+    "question": "Choose the best word to complete the sentence. We can go to the park ___ it stops raining.",
+    "answer": "if",
+    "choices": [
+     "because",
+     "if",
+     "when",
+     "although"
+    ]
+   },
+   {
+    "question": "Choose the best word to complete the sentence. She smiled ___ she was nervous.",
+    "answer": "although",
+    "choices": [
+     "because",
+     "until",
+     "although",
+     "when"
+    ]
+   },
+   {
+    "question": "Choose the best word to complete the sentence. We stayed inside ___ it was raining.",
+    "answer": "because",
+    "choices": [
+     "until",
+     "when",
+     "because",
+     "although"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTmUs",
+  "subject": "english",
+  "title": "Use time-order words",
+  "section": "Linking words",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engTmUs2",
+   "engTmUs3"
+  ],
+  "examples": [
+   {
+    "question": "Which time-order word best begins this sentence? ___, a flower bloomed.",
+    "answer": "Finally",
+    "choices": [
+     "First",
+     "Finally",
+     "Next",
+     "Before"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, the seed was planted in the soil.",
+    "answer": "First",
+    "choices": [
+     "Finally",
+     "Next",
+     "First",
+     "Before"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, ana got out of bed.",
+    "answer": "First",
+    "choices": [
+     "Next",
+     "Finally",
+     "Before",
+     "First"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, she walked to school.",
+    "answer": "Finally",
+    "choices": [
+     "First",
+     "Next",
+     "Finally",
+     "Before"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, we ate a slice.",
+    "answer": "Finally",
+    "choices": [
+     "Finally",
+     "Before",
+     "First",
+     "Next"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, he parked the bike at the park.",
+    "answer": "Finally",
+    "choices": [
+     "Finally",
+     "Next",
+     "Before",
+     "First"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, leo put on his helmet.",
+    "answer": "First",
+    "choices": [
+     "Next",
+     "Finally",
+     "First",
+     "Before"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, we mixed the flour and eggs.",
+    "answer": "First",
+    "choices": [
+     "First",
+     "Finally",
+     "Next",
+     "Before"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, it came out as a butterfly.",
+    "answer": "Finally",
+    "choices": [
+     "First",
+     "Finally",
+     "Before",
+     "Next"
+    ]
+   },
+   {
+    "question": "Which time-order word best begins this sentence? ___, the caterpillar hatched from an egg.",
+    "answer": "First",
+    "choices": [
+     "Finally",
+     "Before",
+     "First",
+     "Next"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXOpEx",
+  "subject": "english",
+  "title": "Complete the opinion passage with an example",
+  "section": "Opinion writing",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engXOpEx2",
+   "engXOpEx3"
+  ],
+  "examples": [
+   {
+    "question": "Opinion: Our school should have a garden. Reason: A garden would help us learn about plants. Which sentence is the best example to support the reason?",
+    "answer": "We could watch seeds sprout and measure how fast they grow.",
+    "choices": [
+     "Gardens are green.",
+     "Our school has a gym.",
+     "I like pizza.",
+     "We could watch seeds sprout and measure how fast they grow."
+    ]
+   },
+   {
+    "question": "Opinion: Dogs make great pets. Reason: Dogs are loyal. Which sentence is the best example to support the reason?",
+    "answer": "My dog waits by the door every day until I come home.",
+    "choices": [
+     "My dog waits by the door every day until I come home.",
+     "Dogs need food.",
+     "Some dogs are big.",
+     "Cats like to nap."
+    ]
+   },
+   {
+    "question": "Opinion: We should recycle. Reason: It keeps garbage out of landfills. Which example best supports the reason?",
+    "answer": "Our class recycled 200 cans this month instead of throwing them away.",
+    "choices": [
+     "Cans are made of metal.",
+     "Our class recycled 200 cans this month instead of throwing them away.",
+     "Trucks pick up garbage.",
+     "Paper is flat."
+    ]
+   },
+   {
+    "question": "Opinion: Gardens are great for schools. Reason: Students learn where food comes from. Which example best supports the reason?",
+    "answer": "Our class grew carrots and ate them at lunch.",
+    "choices": [
+     "Lunch is at noon.",
+     "Carrots are orange.",
+     "Our class grew carrots and ate them at lunch.",
+     "Gardens need water."
+    ]
+   },
+   {
+    "question": "Opinion: Winter is the best season. Reason: There are lots of fun things to do. Which example best supports the reason?",
+    "answer": "Last weekend we went tobogganing and built a snow fort.",
+    "choices": [
+     "Winter is cold.",
+     "Snow is white.",
+     "Last weekend we went tobogganing and built a snow fort.",
+     "Summer is hot."
+    ]
+   },
+   {
+    "question": "Opinion: Field trips are worth it. Reason: Students see things they read about. Which example best supports the reason?",
+    "answer": "At the science centre we touched a real meteorite.",
+    "choices": [
+     "At the science centre we touched a real meteorite.",
+     "Buses are big.",
+     "The trip was in May.",
+     "Lunch was at noon."
+    ]
+   },
+   {
+    "question": "Opinion: Reading is fun. Reason: Books take you to new places. Which example best supports the reason?",
+    "answer": "In my favourite book, I travelled to a castle on the moon.",
+    "choices": [
+     "In my favourite book, I travelled to a castle on the moon.",
+     "Pencils are yellow.",
+     "Books have covers.",
+     "The library is quiet."
+    ]
+   },
+   {
+    "question": "Opinion: Dogs make great pets. Reason: They are loyal. Which example best supports the reason?",
+    "answer": "My dog waits by the door every day when I come home.",
+    "choices": [
+     "Dogs have four legs.",
+     "Some dogs are brown.",
+     "My dog waits by the door every day when I come home.",
+     "Cats like to sleep."
+    ]
+   },
+   {
+    "question": "Opinion: Everyone should learn to swim. Reason: Swimming keeps you safe near water. Which sentence is the best example to support the reason?",
+    "answer": "If you fall into a lake, knowing how to swim can help you reach the shore.",
+    "choices": [
+     "If you fall into a lake, knowing how to swim can help you reach the shore.",
+     "Pools are fun.",
+     "Swimsuits come in many colours.",
+     "Fish can swim."
+    ]
+   },
+   {
+    "question": "Opinion: Music class is important. Reason: It helps students work together. Which example best supports the reason?",
+    "answer": "Our band practised for weeks to play one song together at the concert.",
+    "choices": [
+     "Drums are loud.",
+     "Music is in Room 4.",
+     "Some songs are long.",
+     "Our band practised for weeks to play one song together at the concert."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXOpRs",
+  "subject": "english",
+  "title": "Complete the opinion passage with a reason",
+  "section": "Opinion writing",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engXOpRs2",
+   "engXOpRs3"
+  ],
+  "examples": [
+   {
+    "question": "Opinion: Our library should stay open later. Which is the best reason to support the opinion?",
+    "answer": "Families who work late could still borrow books.",
+    "choices": [
+     "Families who work late could still borrow books.",
+     "The library has many books.",
+     "The library is on Main Street.",
+     "Books have pages."
+    ]
+   },
+   {
+    "question": "Opinion: Our class should have a pet fish. Which is the best reason to support the opinion?",
+    "answer": "Taking care of a fish would teach us responsibility.",
+    "choices": [
+     "Some fish are orange.",
+     "Taking care of a fish would teach us responsibility.",
+     "Fish live in water.",
+     "My cousin has a dog."
+    ]
+   },
+   {
+    "question": "Opinion: Kids should help with chores at home. Which is the best reason to support the opinion?",
+    "answer": "Chores teach skills you will need when you grow up.",
+    "choices": [
+     "Some houses are big.",
+     "Chores teach skills you will need when you grow up.",
+     "Dishes are made of glass.",
+     "My mom likes soup."
+    ]
+   },
+   {
+    "question": "Opinion: Recess should be longer. Which is the best reason to support the opinion?",
+    "answer": "Playing outside helps us focus better in class.",
+    "choices": [
+     "The playground has swings.",
+     "Playing outside helps us focus better in class.",
+     "Recess is at 10 o'clock.",
+     "It rained on Monday."
+    ]
+   },
+   {
+    "question": "Opinion: Everyone should learn to swim. Which is the best reason to support the opinion?",
+    "answer": "Swimming can keep you safe near water.",
+    "choices": [
+     "Some people swim on Saturdays.",
+     "Swimming can keep you safe near water.",
+     "Water is wet.",
+     "Pools are blue."
+    ]
+   },
+   {
+    "question": "Opinion: Reading every night is a good habit. Which is the best reason to support the opinion?",
+    "answer": "Reading helps you learn new words.",
+    "choices": [
+     "Reading helps you learn new words.",
+     "The library closes at 5.",
+     "Books have pages.",
+     "My book is blue."
+    ]
+   },
+   {
+    "question": "Opinion: Recess should be longer. Which is the best reason to support the opinion?",
+    "answer": "Playing outside helps students focus better in class.",
+    "choices": [
+     "Recess is at 10:30.",
+     "The playground has a slide.",
+     "Playing outside helps students focus better in class.",
+     "I wore my red shoes."
+    ]
+   },
+   {
+    "question": "Opinion: Students should walk or bike to school. Which is the best reason to support the opinion?",
+    "answer": "It is good exercise and keeps the air cleaner.",
+    "choices": [
+     "School starts at 8:30.",
+     "Some students have red bikes.",
+     "Buses are yellow.",
+     "It is good exercise and keeps the air cleaner."
+    ]
+   },
+   {
+    "question": "Opinion: Our town should build a skate park. Which is the best reason to support the opinion?",
+    "answer": "It would give teens a safe place to have fun.",
+    "choices": [
+     "The town has a mayor.",
+     "Skateboards have wheels.",
+     "Concrete is grey.",
+     "It would give teens a safe place to have fun."
+    ]
+   },
+   {
+    "question": "Opinion: We should plant more trees in our town. Which is the best reason to support the opinion?",
+    "answer": "Trees give shade and clean the air.",
+    "choices": [
+     "It rained yesterday.",
+     "Trees give shade and clean the air.",
+     "Our town has a mayor.",
+     "Trees have leaves."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXOpTb",
+  "subject": "english",
+  "title": "Complete the opinion-reason-example table",
+  "section": "Opinion writing",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engXOpTb2",
+   "engXOpTb3"
+  ],
+  "examples": [
+   {
+    "question": "Opinion: Music class is important. | Reason: ___ | Example: Our band practised for weeks to play one song together at the concert. Which reason best completes the table?",
+    "answer": "It helps students work together.",
+    "choices": [
+     "It helps students work together.",
+     "Some songs are long.",
+     "Drums are loud.",
+     "Music is in Room 4."
+    ]
+   },
+   {
+    "question": "Opinion: Field trips are worth it. | Reason: ___ | Example: At the science centre we touched a real meteorite. Which reason best completes the table?",
+    "answer": "Students see things they read about.",
+    "choices": [
+     "Students see things they read about.",
+     "Lunch was at noon.",
+     "The trip was in May.",
+     "Buses are big."
+    ]
+   },
+   {
+    "question": "Opinion: Reading is fun. | Reason: ___ | Example: In my favourite book, I travelled to a castle on the moon. Which reason best completes the table?",
+    "answer": "Books take you to new places.",
+    "choices": [
+     "The library is quiet.",
+     "Books have covers.",
+     "Pencils are yellow.",
+     "Books take you to new places."
+    ]
+   },
+   {
+    "question": "Opinion: Gardens are great for schools. | Reason: ___ | Example: Our class grew carrots and ate them at lunch. Which reason best completes the table?",
+    "answer": "Students learn where food comes from.",
+    "choices": [
+     "Students learn where food comes from.",
+     "Gardens need water.",
+     "Carrots are orange.",
+     "Lunch is at noon."
+    ]
+   },
+   {
+    "question": "Opinion: ___ | Reason: Fruit has vitamins. | Example: Oranges have lots of vitamin C. Which opinion best completes the table?",
+    "answer": "Kids should eat more fruit.",
+    "choices": [
+     "Vitamins are tiny.",
+     "Kids should eat more fruit.",
+     "I had cereal today.",
+     "Oranges are orange."
+    ]
+   },
+   {
+    "question": "Opinion: Soccer is the best sport. | Reason: It keeps you active. | Example: ___ Which example best completes the table?",
+    "answer": "In one game, players can run more than five kilometres.",
+    "choices": [
+     "Soccer balls are round.",
+     "My team wears blue.",
+     "In one game, players can run more than five kilometres.",
+     "Hockey is played on ice."
+    ]
+   },
+   {
+    "question": "Opinion: Winter is the best season. | Reason: ___ | Example: Last weekend we went tobogganing and built a snow fort. Which reason best completes the table?",
+    "answer": "There are lots of fun things to do.",
+    "choices": [
+     "Summer is hot.",
+     "Snow is white.",
+     "There are lots of fun things to do.",
+     "Winter is cold."
+    ]
+   },
+   {
+    "question": "Opinion: Cats are good pets. | Reason: ___ | Example: My cat cleans itself and uses a litter box. Which reason best completes the table?",
+    "answer": "Cats are easy to take care of.",
+    "choices": [
+     "Cats have whiskers.",
+     "Cats are easy to take care of.",
+     "Cats sleep a lot.",
+     "Dogs bark."
+    ]
+   },
+   {
+    "question": "Opinion: Dogs make great pets. | Reason: ___ | Example: My dog waits by the door every day when I come home. Which reason best completes the table?",
+    "answer": "They are loyal.",
+    "choices": [
+     "They are loyal.",
+     "Some dogs are brown.",
+     "Dogs have four legs.",
+     "Cats like to sleep."
+    ]
+   },
+   {
+    "question": "Opinion: We should recycle. | Reason: ___ | Example: Our class recycled 200 cans this month instead of throwing them away. Which reason best completes the table?",
+    "answer": "It keeps garbage out of landfills.",
+    "choices": [
+     "It keeps garbage out of landfills.",
+     "Cans are made of metal.",
+     "Paper is flat.",
+     "Trucks pick up garbage."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSnPc",
+  "subject": "english",
+  "title": "Choose the sensory details that match the picture",
+  "section": "Descriptive details",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXSnPc2"
+  ],
+  "examples": [
+   {
+    "question": "🌹 Which detail tells how the picture smells?",
+    "answer": "sweet and flowery",
+    "choices": [
+     "red",
+     "silent",
+     "sweet and flowery",
+     "thorny"
+    ]
+   },
+   {
+    "question": "🌈 Which detail tells how the picture looks?",
+    "answer": "colourful",
+    "choices": [
+     "loud",
+     "rough",
+     "sour",
+     "colourful"
+    ]
+   },
+   {
+    "question": "🔔 Which detail tells how the picture sounds?",
+    "answer": "ringing",
+    "choices": [
+     "cold",
+     "ringing",
+     "sweet",
+     "shiny"
+    ]
+   },
+   {
+    "question": "🧸 Which detail tells how the picture feels?",
+    "answer": "soft and fuzzy",
+    "choices": [
+     "salty",
+     "brown",
+     "soft and fuzzy",
+     "quiet"
+    ]
+   },
+   {
+    "question": "🍋 Which detail tells how the picture tastes?",
+    "answer": "sour",
+    "choices": [
+     "quiet",
+     "smooth",
+     "sour",
+     "yellow"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engStVb",
+  "subject": "english",
+  "title": "Revise the sentence using a stronger verb",
+  "section": "Descriptive details",
+  "grades": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engStVb2",
+   "engStVb3",
+   "engStVb4",
+   "engStVb5"
+  ],
+  "examples": [
+   {
+    "question": "Which verb is stronger than the underlined verb? The door closed .",
+    "answer": "slammed",
+    "choices": [
+     "was",
+     "slammed",
+     "did",
+     "went"
+    ]
+   },
+   {
+    "question": "Which verb is stronger than the underlined verb? She said , \"Help!\"",
+    "answer": "shrieked",
+    "choices": [
+     "told",
+     "shrieked",
+     "had",
+     "did"
+    ]
+   },
+   {
+    "question": "Which verb is stronger than the underlined verb? The wind moved the trees.",
+    "answer": "shook",
+    "choices": [
+     "had",
+     "shook",
+     "got",
+     "was"
+    ]
+   },
+   {
+    "question": "Which verb is stronger than the underlined verb? The cat looked at the bird.",
+    "answer": "stared",
+    "choices": [
+     "was",
+     "stared",
+     "did",
+     "saw"
+    ]
+   },
+   {
+    "question": "Which verb is stronger than the underlined verb? The baby cried .",
+    "answer": "wailed",
+    "choices": [
+     "did",
+     "wailed",
+     "was",
+     "had"
+    ]
+   },
+   {
+    "question": "Which verb is stronger than the underlined verb? The lion went across the field.",
+    "answer": "prowled",
+    "choices": [
+     "did",
+     "had",
+     "prowled",
+     "was"
+    ]
+   },
+   {
+    "question": "Which verb is stronger than the underlined verb? The kids ran into the pool.",
+    "answer": "dashed",
+    "choices": [
+     "dashed",
+     "were",
+     "got",
+     "did"
+    ]
+   },
+   {
+    "question": "Which verb is stronger than the underlined verb? He ate the pizza.",
+    "answer": "devoured",
+    "choices": [
+     "got",
+     "devoured",
+     "did",
+     "had"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPxUs",
+  "subject": "english",
+  "title": "Use the prefixes pre-, re- and mis-",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXPxUs2",
+   "engXPxUs3",
+   "engXPxUs4"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. We watched a ___ of the movie. (view before)",
+    "answer": "preview",
+    "choices": [
+     "preview",
+     "misview",
+     "review",
+     "unview"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Can you ___ the story? (tell again)",
+    "answer": "retell",
+    "choices": [
+     "retell",
+     "mistell",
+     "pretell",
+     "untell"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I ___ my keys again. (placed wrongly)",
+    "answer": "misplaced",
+    "choices": [
+     "misplaced",
+     "preplaced",
+     "unplaced",
+     "replaced"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Please ___ the oven before baking. (heat before)",
+    "answer": "preheat",
+    "choices": [
+     "misheat",
+     "preheat",
+     "reheat",
+     "unheat"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Oops, I ___ the word \"cat.\" (spelled wrongly)",
+    "answer": "misspelled",
+    "choices": [
+     "misspelled",
+     "prespelled",
+     "unspelled",
+     "respelled"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPxFL",
+  "subject": "english",
+  "title": "Determine the meaning of a word with -ful or -less",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engPxFL2",
+   "engPxFL3",
+   "engPxFL4"
+  ],
+  "examples": [
+   {
+    "question": "What does fearless mean?",
+    "answer": "without fear",
+    "choices": [
+     "test before",
+     "without fear",
+     "not like",
+     "the act of agreeing"
+    ]
+   },
+   {
+    "question": "What does spotless mean?",
+    "answer": "without a spot",
+    "choices": [
+     "in a soft way",
+     "without fear",
+     "without help",
+     "without a spot"
+    ]
+   },
+   {
+    "question": "What does helpless mean?",
+    "answer": "without help",
+    "choices": [
+     "able to be washed",
+     "not happy",
+     "in a kind way",
+     "without help"
+    ]
+   },
+   {
+    "question": "What does endless mean?",
+    "answer": "without an end",
+    "choices": [
+     "the act of paying",
+     "without an end",
+     "the state of being dark",
+     "not honest"
+    ]
+   },
+   {
+    "question": "What does joyful mean?",
+    "answer": "full of joy",
+    "choices": [
+     "full of joy",
+     "not honest",
+     "without fear",
+     "pay before"
+    ]
+   },
+   {
+    "question": "What does careless mean?",
+    "answer": "without care",
+    "choices": [
+     "without care",
+     "not kind",
+     "read again",
+     "view before"
+    ]
+   },
+   {
+    "question": "What does careful mean?",
+    "answer": "full of care",
+    "choices": [
+     "without care",
+     "full of care",
+     "without fear",
+     "without help"
+    ]
+   },
+   {
+    "question": "What does helpful mean?",
+    "answer": "full of help",
+    "choices": [
+     "not kind",
+     "without an end",
+     "spell wrongly",
+     "full of help"
+    ]
+   },
+   {
+    "question": "What does colourful mean?",
+    "answer": "full of colour",
+    "choices": [
+     "the state of being dark",
+     "without a spot",
+     "full of colour",
+     "read again"
+    ]
+   },
+   {
+    "question": "What does hopeful mean?",
+    "answer": "full of hope",
+    "choices": [
+     "in a kind way",
+     "full of hope",
+     "full of colour",
+     "do again"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCmpU",
+  "subject": "english",
+  "title": "Form and use compound words",
+  "section": "Compound words",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXCmpU2",
+   "engXCmpU3",
+   "engXCmpU4"
+  ],
+  "examples": [
+   {
+    "question": "Which compound word completes the sentence? We saw a ___ after the rain.",
+    "answer": "rainbow",
+    "choices": [
+     "snowman",
+     "rainbow",
+     "raincoat",
+     "sunset"
+    ]
+   },
+   {
+    "question": "Which compound word completes the sentence? We ate ___ at the movie.",
+    "answer": "popcorn",
+    "choices": [
+     "popcorn",
+     "cupcake",
+     "football",
+     "pancake"
+    ]
+   },
+   {
+    "question": "Which compound word completes the sentence? The kids slid down the slide at the ___.",
+    "answer": "playground",
+    "choices": [
+     "airplane",
+     "bedroom",
+     "mailbox",
+     "playground"
+    ]
+   },
+   {
+    "question": "Which compound word completes the sentence? We built a ___ in the yard.",
+    "answer": "snowman",
+    "choices": [
+     "doorbell",
+     "snowball",
+     "snowman",
+     "sunflower"
+    ]
+   },
+   {
+    "question": "Which compound word completes the sentence? A ___ landed on the flower.",
+    "answer": "butterfly",
+    "choices": [
+     "butterfly",
+     "goldfish",
+     "firefly",
+     "starfish"
+    ]
+   },
+   {
+    "question": "Which compound word completes the sentence? I sleep in my ___.",
+    "answer": "bedroom",
+    "choices": [
+     "classroom",
+     "bathtub",
+     "bedroom",
+     "playground"
+    ]
+   },
+   {
+    "question": "Which compound word completes the sentence? I keep my homework in a ___.",
+    "answer": "notebook",
+    "choices": [
+     "backpack",
+     "notebook",
+     "bookcase",
+     "mailbox"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCMP",
+  "subject": "english",
+  "title": "Compound words",
+  "section": "Compound words",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engCMP2"
+  ],
+  "examples": [
+   {
+    "question": "Which two small words make the compound word cupcake ?",
+    "answer": "cup + cake",
+    "choices": [
+     "cup + cake",
+     "star + fish",
+     "foot + ball",
+     "sun + shine"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word starfish ?",
+    "answer": "star + fish",
+    "choices": [
+     "foot + ball",
+     "butter + fly",
+     "snow + man",
+     "star + fish"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word notebook ?",
+    "answer": "note + book",
+    "choices": [
+     "butter + fly",
+     "bed + room",
+     "sun + shine",
+     "note + book"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word butterfly ?",
+    "answer": "butter + fly",
+    "choices": [
+     "bed + room",
+     "butter + fly",
+     "rain + bow",
+     "star + fish"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word football ?",
+    "answer": "foot + ball",
+    "choices": [
+     "foot + ball",
+     "butter + fly",
+     "pop + corn",
+     "note + book"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word popcorn ?",
+    "answer": "pop + corn",
+    "choices": [
+     "pop + corn",
+     "cup + cake",
+     "star + fish",
+     "snow + man"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word sunshine ?",
+    "answer": "sun + shine",
+    "choices": [
+     "butter + fly",
+     "sun + shine",
+     "bed + room",
+     "rain + bow"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word bedroom ?",
+    "answer": "bed + room",
+    "choices": [
+     "snow + man",
+     "foot + ball",
+     "rain + bow",
+     "bed + room"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word snowman ?",
+    "answer": "snow + man",
+    "choices": [
+     "butter + fly",
+     "pop + corn",
+     "snow + man",
+     "cup + cake"
+    ]
+   },
+   {
+    "question": "Which two small words make the compound word rainbow ?",
+    "answer": "rain + bow",
+    "choices": [
+     "pop + corn",
+     "sun + shine",
+     "cup + cake",
+     "rain + bow"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSyCx",
+  "subject": "english",
+  "title": "Find synonyms in context",
+  "section": "Synonyms and antonyms",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXSyCx2",
+   "engXSyCx3",
+   "engXSyCx4",
+   "engXSyCx5",
+   "engXSyCx6"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a synonym for the underlined word? The enormous whale was bigger than the boat.",
+    "answer": "huge",
+    "choices": [
+     "tiny",
+     "quiet",
+     "huge",
+     "quick"
+    ]
+   },
+   {
+    "question": "Which word is a synonym for the underlined word? The clever fox found a way across the river.",
+    "answer": "smart",
+    "choices": [
+     "smart",
+     "silly",
+     "sleepy",
+     "slow"
+    ]
+   },
+   {
+    "question": "Which word is a synonym for the underlined word? She was glad that her friend came to visit.",
+    "answer": "happy",
+    "choices": [
+     "afraid",
+     "tired",
+     "angry",
+     "happy"
+    ]
+   },
+   {
+    "question": "Which word is a synonym for the underlined word? The test was simple , so everyone finished early.",
+    "answer": "easy",
+    "choices": [
+     "hard",
+     "easy",
+     "long",
+     "boring"
+    ]
+   },
+   {
+    "question": "Which word is a synonym for the underlined word? Please shut the window; it's cold.",
+    "answer": "close",
+    "choices": [
+     "close",
+     "clean",
+     "break",
+     "open"
+    ]
+   },
+   {
+    "question": "Which word is a synonym for the underlined word? The thief grabbed the bag and ran.",
+    "answer": "snatched",
+    "choices": [
+     "dropped",
+     "snatched",
+     "carried",
+     "opened"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAnSn",
+  "subject": "english",
+  "title": "Which sentence uses an antonym?",
+  "section": "Synonyms and antonyms",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXAnSn2",
+   "engXAnSn3",
+   "engXAnSn4"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses an antonym of full ?",
+    "answer": "My cup was full, but now it is empty.",
+    "choices": [
+     "My cup was very full.",
+     "My full cup was heavy.",
+     "My cup was full, but now it is empty.",
+     "My cup was full of juice."
+    ]
+   },
+   {
+    "question": "Which sentence uses an antonym of loud ?",
+    "answer": "The drum is loud, but the flute is quiet.",
+    "choices": [
+     "The drum is loud and big.",
+     "The loud drum boomed.",
+     "The drum is loud, but the flute is quiet.",
+     "The drum is very loud."
+    ]
+   },
+   {
+    "question": "Which sentence uses an antonym of open ?",
+    "answer": "The door was open, but now it is closed.",
+    "choices": [
+     "The open door creaked.",
+     "Please leave the door open.",
+     "The door was wide open.",
+     "The door was open, but now it is closed."
+    ]
+   },
+   {
+    "question": "Which sentence uses an antonym of hot ?",
+    "answer": "The soup was hot, but the ice cream was cold.",
+    "choices": [
+     "The soup was hot, but the ice cream was cold.",
+     "The soup was very, very hot.",
+     "The soup was hot and steamy.",
+     "The hot soup was warm."
+    ]
+   },
+   {
+    "question": "Which sentence uses an antonym of early ?",
+    "answer": "Sam came early, but Kim came late.",
+    "choices": [
+     "Sam came early, but Kim came late.",
+     "Sam came early and quickly.",
+     "Sam came very early.",
+     "Sam came early in the day."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAnCx",
+  "subject": "english",
+  "title": "Find antonyms in context",
+  "section": "Synonyms and antonyms",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXAnCx2",
+   "engXAnCx3",
+   "engXAnCx4",
+   "engXAnCx5",
+   "engXAnCx6"
+  ],
+  "examples": [
+   {
+    "question": "Which word in the sentence is an antonym of the underlined word? Some days are calm; others are stormy .",
+    "answer": "calm",
+    "choices": [
+     "short",
+     "cool",
+     "calm",
+     "sunny"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is an antonym of the underlined word? The first hill was steep; the second was gentle .",
+    "answer": "steep",
+    "choices": [
+     "steep",
+     "rocky",
+     "tall",
+     "grassy"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is an antonym of the underlined word? The old bridge was weak, but the new one is sturdy .",
+    "answer": "weak",
+    "choices": [
+     "long",
+     "weak",
+     "new",
+     "wide"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is an antonym of the underlined word? The soup was hot, but the salad was cold .",
+    "answer": "hot",
+    "choices": [
+     "fresh",
+     "hot",
+     "tasty",
+     "green"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is an antonym of the underlined word? Ali is shy, but his sister is outgoing .",
+    "answer": "shy",
+    "choices": [
+     "shy",
+     "tall",
+     "kind",
+     "funny"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is an antonym of the underlined word? He arrived early, but she was late .",
+    "answer": "early",
+    "choices": [
+     "tired",
+     "ready",
+     "early",
+     "happy"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXHmPc",
+  "subject": "english",
+  "title": "Homophones with pictures",
+  "section": "Homophones",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXHmPc2",
+   "engXHmPc3",
+   "engXHmPc4"
+  ],
+  "examples": [
+   {
+    "question": "🐝 Which word matches the picture?",
+    "answer": "bee",
+    "choices": [
+     "bee",
+     "be"
+    ]
+   },
+   {
+    "question": "🦌 Which word matches the picture?",
+    "answer": "deer",
+    "choices": [
+     "dear",
+     "deer"
+    ]
+   },
+   {
+    "question": "🍐 Which word matches the picture?",
+    "answer": "pear",
+    "choices": [
+     "pair",
+     "pear"
+    ]
+   },
+   {
+    "question": "🐕 Which word matches the picture?",
+    "answer": "tail",
+    "choices": [
+     "tail",
+     "tale"
+    ]
+   },
+   {
+    "question": "☀️ Which word matches the picture?",
+    "answer": "sun",
+    "choices": [
+     "son",
+     "sun"
+    ]
+   },
+   {
+    "question": "8️⃣ Which word matches the picture?",
+    "answer": "eight",
+    "choices": [
+     "ate",
+     "eight"
+    ]
+   },
+   {
+    "question": "🌊 Which word matches the picture?",
+    "answer": "sea",
+    "choices": [
+     "see",
+     "sea"
+    ]
+   },
+   {
+    "question": "👀 Which word matches the picture?",
+    "answer": "see",
+    "choices": [
+     "sea",
+     "see"
+    ]
+   },
+   {
+    "question": "🌙 Which word matches the picture?",
+    "answer": "night",
+    "choices": [
+     "knight",
+     "night"
+    ]
+   },
+   {
+    "question": "🌸 Which word matches the picture?",
+    "answer": "flower",
+    "choices": [
+     "flour",
+     "flower"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXIdPc",
+  "subject": "english",
+  "title": "Choose the picture that matches the idiomatic expression",
+  "section": "Idioms",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engXIdPc2",
+   "engXIdPc3"
+  ],
+  "examples": [
+   {
+    "question": "What does this idiom mean? It's a piece of cake.",
+    "answer": "👍 (It is very easy.)",
+    "choices": [
+     "🎂 (It is a birthday.)",
+     "🍰 (It is dessert.)",
+     "😓 (It is very hard.)",
+     "👍 (It is very easy.)"
+    ]
+   },
+   {
+    "question": "What does this idiom mean? He has butterflies in his stomach.",
+    "answer": "😬 (He feels nervous.)",
+    "choices": [
+     "😬 (He feels nervous.)",
+     "🤢 (He is sick.)",
+     "🦋 (He ate butterflies.)",
+     "😴 (He is sleepy.)"
+    ]
+   },
+   {
+    "question": "What does this idiom mean? She has a frog in her throat.",
+    "answer": "🗣️😣 (Her voice is hoarse.)",
+    "choices": [
+     "😄 (She is laughing.)",
+     "🗣️😣 (Her voice is hoarse.)",
+     "🎤 (She is singing well.)",
+     "🐸 (She ate a frog.)"
+    ]
+   },
+   {
+    "question": "What does this idiom mean? Hold your horses!",
+    "answer": "✋ (Wait and be patient.)",
+    "choices": [
+     "🧲 (Hold on tight.)",
+     "🏃 (Hurry up!)",
+     "✋ (Wait and be patient.)",
+     "🐎 (Ride a horse.)"
+    ]
+   },
+   {
+    "question": "What does this idiom mean? It's raining cats and dogs.",
+    "answer": "🌧️🌧️ (It is raining very hard.)",
+    "choices": [
+     "🐱🐶 (Pets are falling.)",
+     "❄️ (It is snowing.)",
+     "🌧️🌧️ (It is raining very hard.)",
+     "☀️ (It is sunny.)"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXDict",
+  "subject": "english",
+  "title": "Use dictionary entries",
+  "section": "Reference skills",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "engXDict2",
+   "engXDict3",
+   "engXDict4",
+   "engXDict5",
+   "engXDict6",
+   "engXDict7",
+   "engXDict8",
+   "engXDict9",
+   "engXDict10"
+  ],
+  "examples": [
+   {
+    "question": "bank (noun) 1. land along the side of a river 2. a place that keeps money Which definition matches the underlined word? Mom put her paycheque in the bank .",
+    "answer": "Definition 2",
+    "choices": [
+     "Definition 1",
+     "Definition 2"
+    ]
+   },
+   {
+    "question": "scale (noun) 1. a tool for weighing 2. a thin plate covering a fish Which definition matches the underlined word? Put the apples on the scale .",
+    "answer": "Definition 1",
+    "choices": [
+     "Definition 2",
+     "Definition 1"
+    ]
+   },
+   {
+    "question": "pitch 1. (verb) to throw a ball 2. (noun) how high or low a sound is Which definition matches the underlined word? The singer hit a very high pitch .",
+    "answer": "Definition 2",
+    "choices": [
+     "Definition 2",
+     "Definition 1"
+    ]
+   },
+   {
+    "question": "scale (noun) 1. a tool for weighing 2. a thin plate covering a fish Which definition matches the underlined word? The fish shed a shiny scale .",
+    "answer": "Definition 2",
+    "choices": [
+     "Definition 2",
+     "Definition 1"
+    ]
+   },
+   {
+    "question": "file 1. (noun) a folder for papers 2. (verb) to walk in a line Which definition matches the underlined word? The students file into the gym.",
+    "answer": "Definition 2",
+    "choices": [
+     "Definition 1",
+     "Definition 2"
+    ]
+   },
+   {
+    "question": "bank (noun) 1. land along the side of a river 2. a place that keeps money Which definition matches the underlined word? We had a picnic on the bank of the river.",
+    "answer": "Definition 1",
+    "choices": [
+     "Definition 2",
+     "Definition 1"
+    ]
+   },
+   {
+    "question": "pitch 1. (verb) to throw a ball 2. (noun) how high or low a sound is Which definition matches the underlined word? Can you pitch the ball to me?",
+    "answer": "Definition 1",
+    "choices": [
+     "Definition 1",
+     "Definition 2"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSubj",
+  "subject": "english",
+  "title": "Identify the subject of a sentence",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXSubj2"
+  ],
+  "examples": [
+   {
+    "question": "What is the subject of the sentence? The dog chased the ball.",
+    "answer": "The dog",
+    "choices": [
+     "chased the ball.",
+     "The dog",
+     "dog",
+     "chased"
+    ]
+   },
+   {
+    "question": "What is the subject of the sentence? My mom baked bread.",
+    "answer": "My mom",
+    "choices": [
+     "baked bread.",
+     "baked",
+     "mom",
+     "My mom"
+    ]
+   },
+   {
+    "question": "What is the subject of the sentence? Our teacher read a story.",
+    "answer": "Our teacher",
+    "choices": [
+     "read a story.",
+     "read",
+     "teacher",
+     "Our teacher"
+    ]
+   },
+   {
+    "question": "What is the subject of the sentence? The bus was late.",
+    "answer": "The bus",
+    "choices": [
+     "The bus",
+     "was late.",
+     "bus",
+     "was"
+    ]
+   },
+   {
+    "question": "What is the subject of the sentence? Two birds sang outside.",
+    "answer": "Two birds",
+    "choices": [
+     "sang outside.",
+     "sang",
+     "Two birds",
+     "birds"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPred",
+  "subject": "english",
+  "title": "Identify the predicate of a sentence",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXPred2"
+  ],
+  "examples": [
+   {
+    "question": "What is the predicate of the sentence? My mom baked bread.",
+    "answer": "baked bread.",
+    "choices": [
+     "bread.",
+     "baked bread.",
+     "mom",
+     "My mom"
+    ]
+   },
+   {
+    "question": "What is the predicate of the sentence? The bus was late.",
+    "answer": "was late.",
+    "choices": [
+     "was late.",
+     "bus",
+     "The bus",
+     "late."
+    ]
+   },
+   {
+    "question": "What is the predicate of the sentence? Two birds sang outside.",
+    "answer": "sang outside.",
+    "choices": [
+     "sang outside.",
+     "birds",
+     "outside.",
+     "Two birds"
+    ]
+   },
+   {
+    "question": "What is the predicate of the sentence? The dog chased the ball.",
+    "answer": "chased the ball.",
+    "choices": [
+     "ball.",
+     "The dog",
+     "dog",
+     "chased the ball."
+    ]
+   },
+   {
+    "question": "What is the predicate of the sentence? Our teacher read a story.",
+    "answer": "read a story.",
+    "choices": [
+     "story.",
+     "read a story.",
+     "Our teacher",
+     "teacher"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRunO",
+  "subject": "english",
+  "title": "Is it a complete sentence or a run-on?",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRunO2",
+   "engRunO3",
+   "engRunO4",
+   "engRunO5",
+   "engRunO6",
+   "engRunO7",
+   "engRunO8",
+   "engRunO9",
+   "engRunO10",
+   "engRunO11",
+   "engRunO12"
+  ],
+  "examples": [
+   {
+    "question": "Is this a complete sentence or a run-on? We were tired, we kept walking.",
+    "answer": "Run-on",
+    "choices": [
+     "Run-on",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? I love music, and I play the guitar every day.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Complete sentence",
+     "Run-on"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? The movie was long and boring.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Complete sentence",
+     "Run-on"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? Although we were tired, we kept walking.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Run-on",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? It rained all morning, the game was cancelled.",
+    "answer": "Run-on",
+    "choices": [
+     "Run-on",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? The movie was long it was also boring.",
+    "answer": "Run-on",
+    "choices": [
+     "Complete sentence",
+     "Run-on"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? I love music I play the guitar every day.",
+    "answer": "Run-on",
+    "choices": [
+     "Complete sentence",
+     "Run-on"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? She wrote the report he edited it.",
+    "answer": "Run-on",
+    "choices": [
+     "Run-on",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? She wrote the report, and he edited it.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Complete sentence",
+     "Run-on"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a run-on? It rained all morning; the game was cancelled.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Run-on",
+     "Complete sentence"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFrRo",
+  "subject": "english",
+  "title": "Is it a complete sentence, a fragment or a run-on?",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engFrRo2",
+   "engFrRo3",
+   "engFrRo4",
+   "engFrRo5",
+   "engFrRo6",
+   "engFrRo7",
+   "engFrRo8"
+  ],
+  "examples": [
+   {
+    "question": "I called you, you did not answer.",
+    "answer": "Run-on",
+    "choices": [
+     "Run-on",
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Wishing the day would never end.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Run-on",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Such a lovely day for a walk.",
+    "answer": "Fragment",
+    "choices": [
+     "Complete sentence",
+     "Run-on",
+     "Fragment"
+    ]
+   },
+   {
+    "question": "Please close the window.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Complete sentence",
+     "Fragment",
+     "Run-on"
+    ]
+   },
+   {
+    "question": "When the bus arrived late.",
+    "answer": "Fragment",
+    "choices": [
+     "Complete sentence",
+     "Run-on",
+     "Fragment"
+    ]
+   },
+   {
+    "question": "Under the old oak tree by the river.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Run-on",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "The bus arrived late we missed the show.",
+    "answer": "Run-on",
+    "choices": [
+     "Fragment",
+     "Complete sentence",
+     "Run-on"
+    ]
+   },
+   {
+    "question": "The bus arrived late.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Fragment",
+     "Complete sentence",
+     "Run-on"
+    ]
+   },
+   {
+    "question": "Birds migrate south in winter, many travel thousands of miles.",
+    "answer": "Run-on",
+    "choices": [
+     "Complete sentence",
+     "Run-on",
+     "Fragment"
+    ]
+   },
+   {
+    "question": "Birds migrate south in winter.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Run-on",
+     "Fragment",
+     "Complete sentence"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXNnWh",
+  "subject": "english",
+  "title": "Which word is a noun?",
+  "section": "Nouns",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXNnWh2",
+   "engXNnWh3",
+   "engXNnWh4"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a noun?",
+    "answer": "bicycle",
+    "choices": [
+     "brave",
+     "slowly",
+     "swim",
+     "bicycle"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "friend",
+    "choices": [
+     "under",
+     "laugh",
+     "friend",
+     "think"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "idea",
+    "choices": [
+     "quiet",
+     "idea",
+     "laugh",
+     "under"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "kitchen",
+    "choices": [
+     "laugh",
+     "kitchen",
+     "bright",
+     "slowly"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "city",
+    "choices": [
+     "slowly",
+     "brave",
+     "city",
+     "under"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "turtle",
+    "choices": [
+     "quiet",
+     "turtle",
+     "think",
+     "under"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "window",
+    "choices": [
+     "bright",
+     "think",
+     "quiet",
+     "window"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "garden",
+    "choices": [
+     "swim",
+     "quiet",
+     "under",
+     "garden"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrId",
+  "subject": "english",
+  "title": "Identify personal pronouns",
+  "section": "Pronouns",
+  "grades": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXPrId2",
+   "engXPrId3",
+   "engXPrId4",
+   "engXPrId5"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a personal pronoun?",
+    "answer": "him",
+    "choices": [
+     "tree",
+     "him",
+     "quickly",
+     "happy"
+    ]
+   },
+   {
+    "question": "Which word is a personal pronoun?",
+    "answer": "them",
+    "choices": [
+     "them",
+     "blue",
+     "dog",
+     "school"
+    ]
+   },
+   {
+    "question": "Which word is a personal pronoun?",
+    "answer": "we",
+    "choices": [
+     "school",
+     "quickly",
+     "we",
+     "happy"
+    ]
+   },
+   {
+    "question": "Which word is a personal pronoun?",
+    "answer": "she",
+    "choices": [
+     "she",
+     "blue",
+     "dog",
+     "run"
+    ]
+   },
+   {
+    "question": "Which word is a personal pronoun?",
+    "answer": "I",
+    "choices": [
+     "happy",
+     "school",
+     "I",
+     "tree"
+    ]
+   },
+   {
+    "question": "Which word is a personal pronoun?",
+    "answer": "they",
+    "choices": [
+     "tree",
+     "happy",
+     "they",
+     "blue"
+    ]
+   },
+   {
+    "question": "Which word is a personal pronoun?",
+    "answer": "us",
+    "choices": [
+     "us",
+     "happy",
+     "quickly",
+     "dog"
+    ]
+   },
+   {
+    "question": "Which word is a personal pronoun?",
+    "answer": "it",
+    "choices": [
+     "dog",
+     "quickly",
+     "school",
+     "it"
+    ]
+   }
+  ]
+ }
+]

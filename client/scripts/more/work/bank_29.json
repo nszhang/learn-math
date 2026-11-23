@@ -1,0 +1,2606 @@
+[
+ {
+  "key": "sciNewtonL",
+  "subject": "science",
+  "title": "Newton's laws of motion",
+  "section": "Forces and laws of motion",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciNewtonL9",
+   "sciNewtonL10",
+   "sciNewtonL11",
+   "sciNewtonL12"
+  ],
+  "examples": [
+   {
+    "question": "Which of Newton's laws best explains this? You push off a wall and roll backward.",
+    "answer": "Third law",
+    "choices": [
+     "Second law",
+     "Third law",
+     "First law"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws best explains this? A gun recoils when fired.",
+    "answer": "Third law",
+    "choices": [
+     "Second law",
+     "Third law",
+     "First law"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws best explains this? A heavier cart needs a bigger push to accelerate equally.",
+    "answer": "Second law",
+    "choices": [
+     "First law",
+     "Second law",
+     "Third law"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws best explains this? A rocket pushes exhaust down and moves up.",
+    "answer": "Third law",
+    "choices": [
+     "First law",
+     "Second law",
+     "Third law"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws best explains this? A hockey puck keeps sliding on smooth ice.",
+    "answer": "First law",
+    "choices": [
+     "Third law",
+     "Second law",
+     "First law"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws best explains this? Passengers lurch forward when a car brakes.",
+    "answer": "First law",
+    "choices": [
+     "First law",
+     "Second law",
+     "Third law"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws best explains this? A tablecloth is yanked away but the dishes stay put.",
+    "answer": "First law",
+    "choices": [
+     "Third law",
+     "First law",
+     "Second law"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws best explains this? F = ma: a 2 kg mass pushed with 10 N accelerates at 5 m/s².",
+    "answer": "Second law",
+    "choices": [
+     "First law",
+     "Third law",
+     "Second law"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciExoEndo",
+  "subject": "science",
+  "title": "Identify exothermic and endothermic processes",
+  "section": "Energy changes",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciExoEndo9",
+   "sciExoEndo10",
+   "sciExoEndo11",
+   "sciExoEndo12"
+  ],
+  "examples": [
+   {
+    "question": "Is this process exothermic or endothermic? An instant cold pack getting cold",
+    "answer": "Endothermic",
+    "choices": [
+     "Endothermic",
+     "Exothermic"
+    ]
+   },
+   {
+    "question": "Is this process exothermic or endothermic? Water boiling",
+    "answer": "Endothermic",
+    "choices": [
+     "Exothermic",
+     "Endothermic"
+    ]
+   },
+   {
+    "question": "Is this process exothermic or endothermic? Steam condensing on a mirror",
+    "answer": "Exothermic",
+    "choices": [
+     "Endothermic",
+     "Exothermic"
+    ]
+   },
+   {
+    "question": "Is this process exothermic or endothermic? Ice melting",
+    "answer": "Endothermic",
+    "choices": [
+     "Endothermic",
+     "Exothermic"
+    ]
+   },
+   {
+    "question": "Is this process exothermic or endothermic? Photosynthesis",
+    "answer": "Endothermic",
+    "choices": [
+     "Endothermic",
+     "Exothermic"
+    ]
+   },
+   {
+    "question": "Is this process exothermic or endothermic? A hand warmer heating up",
+    "answer": "Exothermic",
+    "choices": [
+     "Exothermic",
+     "Endothermic"
+    ]
+   },
+   {
+    "question": "Is this process exothermic or endothermic? Water freezing into ice",
+    "answer": "Exothermic",
+    "choices": [
+     "Endothermic",
+     "Exothermic"
+    ]
+   },
+   {
+    "question": "Is this process exothermic or endothermic? Burning wood in a fireplace",
+    "answer": "Exothermic",
+    "choices": [
+     "Exothermic",
+     "Endothermic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMagnet",
+  "subject": "science",
+  "title": "Magnetic forces and fields",
+  "section": "Electricity and magnetism",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciMagnet9",
+   "sciMagnet10",
+   "sciMagnet11",
+   "sciMagnet12"
+  ],
+  "examples": [
+   {
+    "question": "Moving a magnet through a coil of wire produces …",
+    "answer": "an electric current",
+    "choices": [
+     "heat only",
+     "a chemical change",
+     "light only",
+     "an electric current"
+    ]
+   },
+   {
+    "question": "A wire carrying an electric current creates a …",
+    "answer": "magnetic field",
+    "choices": [
+     "chemical reaction",
+     "magnetic field",
+     "gravitational field",
+     "sound wave"
+    ]
+   },
+   {
+    "question": "Outside a magnet, magnetic field lines point from the …",
+    "answer": "north pole to the south pole",
+    "choices": [
+     "north pole to the south pole",
+     "south pole to the north pole",
+     "ground to the sky",
+     "middle to both ends"
+    ]
+   },
+   {
+    "question": "A compass needle points toward Earth's …",
+    "answer": "magnetic north pole",
+    "choices": [
+     "equator",
+     "Moon",
+     "geographic south pole",
+     "magnetic north pole"
+    ]
+   },
+   {
+    "question": "A coil of wire wrapped around an iron core and carrying current is an …",
+    "answer": "electromagnet",
+    "choices": [
+     "insulator",
+     "resistor",
+     "battery",
+     "electromagnet"
+    ]
+   },
+   {
+    "question": "Increasing the current in an electromagnet makes it …",
+    "answer": "stronger",
+    "choices": [
+     "weaker",
+     "non-magnetic",
+     "unchanged",
+     "stronger"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWater",
+  "subject": "science",
+  "title": "Chemistry of water",
+  "section": "The chemistry of life",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciXsWater9"
+  ],
+  "examples": [
+   {
+    "question": "Why doesn't oil dissolve in water?",
+    "answer": "Oil is non-polar and water is polar",
+    "choices": [
+     "Water is too cold",
+     "Oil is non-polar and water is polar",
+     "Oil is heavier",
+     "Oil is ionic"
+    ]
+   },
+   {
+    "question": "What attracts one water molecule to another?",
+    "answer": "Hydrogen bonds",
+    "choices": [
+     "Magnetism",
+     "Metallic bonds",
+     "Hydrogen bonds",
+     "Ionic bonds"
+    ]
+   },
+   {
+    "question": "Why does salt dissolve in water?",
+    "answer": "Polar water molecules surround and separate the ions",
+    "choices": [
+     "Polar water molecules surround and separate the ions",
+     "Salt is a gas",
+     "Water is non-polar",
+     "Salt melts"
+    ]
+   },
+   {
+    "question": "How does sweating cool the body?",
+    "answer": "Evaporating water absorbs a lot of heat",
+    "choices": [
+     "Evaporating water absorbs a lot of heat",
+     "Sweat is cold",
+     "Sweat freezes skin",
+     "Sweat blocks the Sun"
+    ]
+   },
+   {
+    "question": "Which atom in water has a partial negative charge?",
+    "answer": "Oxygen",
+    "choices": [
+     "Both hydrogens",
+     "Oxygen",
+     "Neither",
+     "Hydrogen"
+    ]
+   },
+   {
+    "question": "Why does ice float?",
+    "answer": "Hydrogen bonds hold ice in an open structure that is less dense than liquid water",
+    "choices": [
+     "Hydrogen bonds hold ice in an open structure that is less dense than liquid water",
+     "Ice has no hydrogen",
+     "Ice contains air bubbles only",
+     "Ice is heavier"
+    ]
+   },
+   {
+    "question": "Why is water called the \"universal solvent\"?",
+    "answer": "Its polarity lets it dissolve many substances",
+    "choices": [
+     "Its polarity lets it dissolve many substances",
+     "It has no bonds",
+     "It is very heavy",
+     "It dissolves everything including oil"
+    ]
+   },
+   {
+    "question": "Why does water have a high boiling point for its size?",
+    "answer": "Hydrogen bonds hold the molecules together",
+    "choices": [
+     "It is ionic",
+     "It has no bonds",
+     "Hydrogen bonds hold the molecules together",
+     "It is a metal"
+    ]
+   },
+   {
+    "question": "What is water's high specific heat?",
+    "answer": "It takes a lot of energy to change water's temperature",
+    "choices": [
+     "It takes a lot of energy to change water's temperature",
+     "Water heats instantly",
+     "Water cannot be heated",
+     "Water is always cold"
+    ]
+   },
+   {
+    "question": "Why do lakes freeze from the top down?",
+    "answer": "Ice is less dense than liquid water, so it floats",
+    "choices": [
+     "The bottom is warmer from the Sun",
+     "Cold air sinks into the lake",
+     "Fish keep the bottom warm",
+     "Ice is less dense than liquid water, so it floats"
+    ]
+   },
+   {
+    "question": "Why is a water molecule polar?",
+    "answer": "Oxygen pulls shared electrons more strongly than hydrogen, giving it a partial negative charge",
+    "choices": [
+     "Oxygen pulls shared electrons more strongly than hydrogen, giving it a partial negative charge",
+     "It is a metal",
+     "It contains ions",
+     "It has no charge anywhere"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCohes",
+  "subject": "science",
+  "title": "Properties of water: cohesion and adhesion",
+  "section": "The chemistry of life",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciXsCohes9"
+  ],
+  "examples": [
+   {
+    "question": "Why can you overfill a glass slightly without spilling?",
+    "answer": "Surface tension from cohesion holds water together",
+    "choices": [
+     "Air pushes it down",
+     "Water is sticky glue",
+     "Surface tension from cohesion holds water together",
+     "The glass grows"
+    ]
+   },
+   {
+    "question": "How do cohesion and adhesion help trees?",
+    "answer": "They help pull water up through xylem to the leaves",
+    "choices": [
+     "They help pull water up through xylem to the leaves",
+     "They make wood",
+     "They make leaves green",
+     "They store sugar"
+    ]
+   },
+   {
+    "question": "How does water move up a paper towel?",
+    "answer": "Capillary action from adhesion and cohesion",
+    "choices": [
+     "Magnetism",
+     "Capillary action from adhesion and cohesion",
+     "Gravity",
+     "Wind"
+    ]
+   },
+   {
+    "question": "A water strider can walk on a pond because of…",
+    "answer": "surface tension caused by cohesion",
+    "choices": [
+     "adhesion to its legs",
+     "buoyant gas",
+     "magnetism",
+     "surface tension caused by cohesion"
+    ]
+   },
+   {
+    "question": "Why does a paper clip float on water but sink if pushed in?",
+    "answer": "Surface tension supports it until the surface breaks",
+    "choices": [
+     "Water is magnetic",
+     "It is hollow",
+     "It is lighter than air",
+     "Surface tension supports it until the surface breaks"
+    ]
+   },
+   {
+    "question": "How do cohesion and adhesion help plants?",
+    "answer": "They help water move up through xylem",
+    "choices": [
+     "They stop photosynthesis",
+     "They make roots grow down",
+     "They make leaves green",
+     "They help water move up through xylem"
+    ]
+   },
+   {
+    "question": "What is adhesion?",
+    "answer": "Attraction between molecules of different substances",
+    "choices": [
+     "Water condensing",
+     "Attraction between molecules of different substances",
+     "Water boiling",
+     "Attraction within one substance only"
+    ]
+   },
+   {
+    "question": "Water climbing up a narrow glass tube is mainly due to…",
+    "answer": "adhesion",
+    "choices": [
+     "cohesion only",
+     "freezing",
+     "gravity",
+     "adhesion"
+    ]
+   },
+   {
+    "question": "What causes a meniscus (curved surface) in a glass tube?",
+    "answer": "Adhesion of water to the glass",
+    "choices": [
+     "Gravity only",
+     "Freezing",
+     "Adhesion of water to the glass",
+     "Evaporation"
+    ]
+   },
+   {
+    "question": "What is cohesion?",
+    "answer": "Attraction between molecules of the same substance",
+    "choices": [
+     "Water freezing",
+     "Attraction between different substances",
+     "Attraction between molecules of the same substance",
+     "Water evaporating"
+    ]
+   },
+   {
+    "question": "Water droplets beading up on a leaf is mainly due to…",
+    "answer": "cohesion",
+    "choices": [
+     "adhesion",
+     "cohesion",
+     "osmosis",
+     "evaporation"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciHomeo",
+  "subject": "science",
+  "title": "Homeostasis and feedback loops",
+  "section": "Multicellular organisms",
+  "grades": [
+   9,
+   10,
+   11
+  ],
+  "skillIds": [
+   "sciHomeo9",
+   "sciHomeo10",
+   "sciHomeo11"
+  ],
+  "examples": [
+   {
+    "question": "When blood sugar rises after a meal, the pancreas releases …",
+    "answer": "insulin",
+    "choices": [
+     "insulin",
+     "bile",
+     "saliva",
+     "adrenaline"
+    ]
+   },
+   {
+    "question": "When you are hot, you sweat to cool down. Keeping conditions inside the body stable is called …",
+    "answer": "homeostasis",
+    "choices": [
+     "evolution",
+     "homeostasis",
+     "metabolism",
+     "digestion"
+    ]
+   },
+   {
+    "question": "Shivering when you are cold helps the body …",
+    "answer": "produce heat",
+    "choices": [
+     "produce heat",
+     "digest food",
+     "store water",
+     "lose heat"
+    ]
+   },
+   {
+    "question": "During exercise, your breathing rate increases to …",
+    "answer": "supply more oxygen to muscles",
+    "choices": [
+     "supply more oxygen to muscles",
+     "cool down the lungs",
+     "slow the heart",
+     "store carbon dioxide"
+    ]
+   },
+   {
+    "question": "A loop that reverses a change to keep conditions stable is a …",
+    "answer": "negative feedback loop",
+    "choices": [
+     "reflex arc only",
+     "negative feedback loop",
+     "food chain",
+     "positive feedback loop"
+    ]
+   },
+   {
+    "question": "Which body system releases hormones that help maintain homeostasis?",
+    "answer": "Endocrine system",
+    "choices": [
+     "Skeletal system",
+     "Endocrine system",
+     "Digestive system",
+     "Integumentary system"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDivIntro",
+  "subject": "science",
+  "title": "Introduction to cell division",
+  "section": "Cell growth and division",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsDivIntro9",
+   "sciXsDivIntro10"
+  ],
+  "examples": [
+   {
+    "question": "Which process makes cells for growth?",
+    "answer": "Mitosis",
+    "choices": [
+     "Photosynthesis",
+     "Mitosis",
+     "Fertilization",
+     "Meiosis"
+    ]
+   },
+   {
+    "question": "What is binary fission?",
+    "answer": "How bacteria divide into two identical cells",
+    "choices": [
+     "How plants make seeds",
+     "How bacteria divide into two identical cells",
+     "How viruses grow",
+     "How humans make gametes"
+    ]
+   },
+   {
+    "question": "Before a cell divides, what must it copy?",
+    "answer": "Its DNA",
+    "choices": [
+     "Its cell wall only",
+     "Its vacuole",
+     "Its DNA",
+     "Its ribosomes only"
+    ]
+   },
+   {
+    "question": "How many chromosomes does each daughter cell have after mitosis in humans?",
+    "answer": "46",
+    "choices": [
+     "46",
+     "23",
+     "12",
+     "92"
+    ]
+   },
+   {
+    "question": "Why do cells divide?",
+    "answer": "For growth, repair and reproduction",
+    "choices": [
+     "To absorb light",
+     "For growth, repair and reproduction",
+     "To store water",
+     "To make food"
+    ]
+   },
+   {
+    "question": "What is a chromosome?",
+    "answer": "A coiled strand of DNA and protein",
+    "choices": [
+     "A coiled strand of DNA and protein",
+     "A type of cell",
+     "A sugar",
+     "A protein only"
+    ]
+   },
+   {
+    "question": "What can happen if cells divide uncontrollably?",
+    "answer": "A tumour can form",
+    "choices": [
+     "The organism grows taller normally",
+     "Cells stop working",
+     "A tumour can form",
+     "Nothing happens"
+    ]
+   },
+   {
+    "question": "Mitosis produces…",
+    "answer": "two genetically identical daughter cells",
+    "choices": [
+     "gametes with half the DNA",
+     "two genetically identical daughter cells",
+     "four different cells",
+     "one larger cell"
+    ]
+   },
+   {
+    "question": "Which type of cell division makes sperm and eggs?",
+    "answer": "Meiosis",
+    "choices": [
+     "Meiosis",
+     "Budding",
+     "Mitosis",
+     "Binary fission"
+    ]
+   },
+   {
+    "question": "What are sister chromatids?",
+    "answer": "Two identical copies of a chromosome joined at the centromere",
+    "choices": [
+     "Two cells",
+     "A pair of parents",
+     "Two different chromosomes",
+     "Two identical copies of a chromosome joined at the centromere"
+    ]
+   },
+   {
+    "question": "Why is cell division needed when you cut your finger?",
+    "answer": "To make new cells that repair the wound",
+    "choices": [
+     "To make hair grow only",
+     "To make gametes",
+     "To make new cells that repair the wound",
+     "To digest food"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCycle",
+  "subject": "science",
+  "title": "The cell cycle",
+  "section": "Cell growth and division",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsCycle9",
+   "sciXsCycle10"
+  ],
+  "examples": [
+   {
+    "question": "What are the three stages of interphase?",
+    "answer": "G1, S and G2",
+    "choices": [
+     "G0 and M",
+     "G1, S and G2",
+     "Telophase and cytokinesis",
+     "Prophase, metaphase, anaphase"
+    ]
+   },
+   {
+    "question": "What are checkpoints in the cell cycle?",
+    "answer": "Points where the cell checks for errors before continuing",
+    "choices": [
+     "Points where the cell checks for errors before continuing",
+     "Places where cells die",
+     "Stages of meiosis",
+     "Parts of the nucleus"
+    ]
+   },
+   {
+    "question": "Which cells rarely divide in adults?",
+    "answer": "Nerve cells",
+    "choices": [
+     "Skin cells",
+     "Nerve cells",
+     "Cells lining the gut",
+     "Blood-forming cells"
+    ]
+   },
+   {
+    "question": "In which phase does DNA replication happen?",
+    "answer": "S phase of interphase",
+    "choices": [
+     "Cytokinesis",
+     "S phase of interphase",
+     "Prophase",
+     "Anaphase"
+    ]
+   },
+   {
+    "question": "Which phase includes mitosis and cytokinesis?",
+    "answer": "The M phase",
+    "choices": [
+     "The M phase",
+     "G1",
+     "S",
+     "G2"
+    ]
+   },
+   {
+    "question": "Which part of the cell cycle is longest?",
+    "answer": "Interphase",
+    "choices": [
+     "Metaphase",
+     "Anaphase",
+     "Interphase",
+     "Telophase"
+    ]
+   },
+   {
+    "question": "What can happen when the cell cycle is not regulated?",
+    "answer": "Uncontrolled division, which can lead to cancer",
+    "choices": [
+     "Nothing",
+     "Cells stop needing energy",
+     "Cells turn into plants",
+     "Uncontrolled division, which can lead to cancer"
+    ]
+   },
+   {
+    "question": "What happens in G1?",
+    "answer": "The cell grows and carries out normal functions",
+    "choices": [
+     "The cell divides",
+     "The cell grows and carries out normal functions",
+     "DNA is copied",
+     "Chromosomes separate"
+    ]
+   },
+   {
+    "question": "What happens during cytokinesis?",
+    "answer": "The cytoplasm divides to form two cells",
+    "choices": [
+     "Chromosomes line up",
+     "The nucleus disappears",
+     "DNA is copied",
+     "The cytoplasm divides to form two cells"
+    ]
+   },
+   {
+    "question": "What happens in G2?",
+    "answer": "The cell prepares for mitosis",
+    "choices": [
+     "DNA is copied",
+     "Chromosomes line up",
+     "The cell prepares for mitosis",
+     "The cell splits"
+    ]
+   },
+   {
+    "question": "Why do skin cells divide often?",
+    "answer": "They are constantly worn away and replaced",
+    "choices": [
+     "They are constantly worn away and replaced",
+     "They never die",
+     "They store fat",
+     "They make gametes"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCellCyc",
+  "subject": "science",
+  "title": "Describe phases of mitosis and the cell cycle",
+  "section": "Cell growth and division",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciCellCyc9",
+   "sciCellCyc10",
+   "sciCellCyc11",
+   "sciCellCyc12"
+  ],
+  "examples": [
+   {
+    "question": "What process splits the cytoplasm into two cells?",
+    "answer": "Cytokinesis",
+    "choices": [
+     "Cytokinesis",
+     "Telophase",
+     "Metaphase",
+     "Anaphase"
+    ]
+   },
+   {
+    "question": "In which phase does the cell grow and copy its DNA?",
+    "answer": "Interphase",
+    "choices": [
+     "Metaphase",
+     "Anaphase",
+     "Interphase",
+     "Prophase"
+    ]
+   },
+   {
+    "question": "In which phase do chromosomes condense and become visible?",
+    "answer": "Prophase",
+    "choices": [
+     "Prophase",
+     "Cytokinesis",
+     "Metaphase",
+     "Telophase"
+    ]
+   },
+   {
+    "question": "In which phase are sister chromatids pulled apart?",
+    "answer": "Anaphase",
+    "choices": [
+     "Anaphase",
+     "Cytokinesis",
+     "Interphase",
+     "Telophase"
+    ]
+   },
+   {
+    "question": "In which phase do two new nuclei form?",
+    "answer": "Telophase",
+    "choices": [
+     "Cytokinesis",
+     "Interphase",
+     "Anaphase",
+     "Telophase"
+    ]
+   },
+   {
+    "question": "In which phase do chromosomes line up in the middle?",
+    "answer": "Metaphase",
+    "choices": [
+     "Prophase",
+     "Metaphase",
+     "Anaphase",
+     "Interphase"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMitPlant",
+  "subject": "science",
+  "title": "Identify phases of mitosis and the cell cycle in plant cells",
+  "section": "Cell growth and division",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsMitPlant9",
+   "sciXsMitPlant10"
+  ],
+  "examples": [
+   {
+    "question": "Which phase is shown in this plant cell? Chromosomes condense and become visible; the nuclear envelope breaks down",
+    "answer": "Prophase",
+    "choices": [
+     "Anaphase",
+     "Metaphase",
+     "Prophase",
+     "Interphase",
+     "Telophase and cytokinesis"
+    ]
+   },
+   {
+    "question": "Which phase is shown in this plant cell? A cell plate forms between two new nuclei",
+    "answer": "Telophase and cytokinesis",
+    "choices": [
+     "Metaphase",
+     "Anaphase",
+     "Telophase and cytokinesis",
+     "Interphase",
+     "Prophase"
+    ]
+   },
+   {
+    "question": "Which phase is shown in this plant cell? Chromosomes line up across the middle of the cell",
+    "answer": "Metaphase",
+    "choices": [
+     "Metaphase",
+     "Telophase and cytokinesis",
+     "Prophase",
+     "Anaphase",
+     "Interphase"
+    ]
+   },
+   {
+    "question": "Which phase is shown in this plant cell? Two new nuclear envelopes form",
+    "answer": "Telophase and cytokinesis",
+    "choices": [
+     "Prophase",
+     "Interphase",
+     "Anaphase",
+     "Metaphase",
+     "Telophase and cytokinesis"
+    ]
+   },
+   {
+    "question": "Which phase is shown in this plant cell? Sister chromatids are pulled to opposite ends",
+    "answer": "Anaphase",
+    "choices": [
+     "Prophase",
+     "Metaphase",
+     "Interphase",
+     "Anaphase",
+     "Telophase and cytokinesis"
+    ]
+   },
+   {
+    "question": "Which phase is shown in this plant cell? The nucleus is intact and chromatin is spread out",
+    "answer": "Interphase",
+    "choices": [
+     "Anaphase",
+     "Prophase",
+     "Metaphase",
+     "Interphase",
+     "Telophase and cytokinesis"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMTS",
+  "subject": "science",
+  "title": "Mitosis and meiosis",
+  "section": "Cell growth and division",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciMTS9"
+  ],
+  "examples": [
+   {
+    "question": "Which process produces gametes (sperm and egg)?",
+    "answer": "Meiosis",
+    "choices": [
+     "Meiosis",
+     "Mitosis"
+    ]
+   },
+   {
+    "question": "Which process is used for growth and repair?",
+    "answer": "Mitosis",
+    "choices": [
+     "Mitosis",
+     "Meiosis"
+    ]
+   },
+   {
+    "question": "In which process does crossing over occur?",
+    "answer": "Meiosis",
+    "choices": [
+     "Meiosis",
+     "Mitosis"
+    ]
+   },
+   {
+    "question": "Which process produces four cells with half the chromosomes?",
+    "answer": "Meiosis",
+    "choices": [
+     "Meiosis",
+     "Mitosis"
+    ]
+   },
+   {
+    "question": "Which process produces two identical daughter cells?",
+    "answer": "Mitosis",
+    "choices": [
+     "Mitosis",
+     "Meiosis"
+    ]
+   },
+   {
+    "question": "Which process has one round of cell division?",
+    "answer": "Mitosis",
+    "choices": [
+     "Mitosis",
+     "Meiosis"
+    ]
+   },
+   {
+    "question": "Which process creates genetic variation?",
+    "answer": "Meiosis",
+    "choices": [
+     "Meiosis",
+     "Mitosis"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciDNAst",
+  "subject": "science",
+  "title": "Structure and function: nucleic acids",
+  "section": "DNA",
+  "grades": [
+   9,
+   10,
+   11
+  ],
+  "skillIds": [
+   "sciDNAst9",
+   "sciDNAst10",
+   "sciDNAst11"
+  ],
+  "examples": [
+   {
+    "question": "What are the building blocks of DNA called?",
+    "answer": "Nucleotides",
+    "choices": [
+     "Nucleotides",
+     "Simple sugars",
+     "Amino acids",
+     "Fatty acids"
+    ]
+   },
+   {
+    "question": "What does DNA carry?",
+    "answer": "Genetic instructions",
+    "choices": [
+     "Energy for movement",
+     "Genetic instructions",
+     "Waste products",
+     "Oxygen"
+    ]
+   },
+   {
+    "question": "Which base is found in RNA but not in DNA?",
+    "answer": "Uracil",
+    "choices": [
+     "Adenine",
+     "Guanine",
+     "Uracil",
+     "Thymine"
+    ]
+   },
+   {
+    "question": "Where is DNA found in eukaryotic cells?",
+    "answer": "In the nucleus",
+    "choices": [
+     "In the vacuole only",
+     "In the nucleus",
+     "In the cell membrane",
+     "In the cell wall"
+    ]
+   },
+   {
+    "question": "Which base pairs with cytosine in DNA?",
+    "answer": "Guanine",
+    "choices": [
+     "Guanine",
+     "Adenine",
+     "Thymine",
+     "Uracil"
+    ]
+   },
+   {
+    "question": "Which sugar is found in RNA?",
+    "answer": "Ribose",
+    "choices": [
+     "Deoxyribose",
+     "Glucose",
+     "Ribose",
+     "Fructose"
+    ]
+   },
+   {
+    "question": "What holds the two strands of DNA together?",
+    "answer": "Hydrogen bonds between bases",
+    "choices": [
+     "Magnets",
+     "Ionic bonds between sugars",
+     "Hydrogen bonds between bases",
+     "Peptide bonds"
+    ]
+   },
+   {
+    "question": "What is the shape of a DNA molecule?",
+    "answer": "A double helix",
+    "choices": [
+     "A single straight line",
+     "A double helix",
+     "A triangle",
+     "A ring of six atoms"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsGenCode",
+  "subject": "science",
+  "title": "Introduction to the genetic code",
+  "section": "DNA",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsGenCode9",
+   "sciXsGenCode10"
+  ],
+  "examples": [
+   {
+    "question": "What does a codon code for?",
+    "answer": "One amino acid (or a stop signal)",
+    "choices": [
+     "One gene",
+     "One protein",
+     "One chromosome",
+     "One amino acid (or a stop signal)"
+    ]
+   },
+   {
+    "question": "How many different codons are possible?",
+    "answer": "64",
+    "choices": [
+     "4",
+     "16",
+     "64",
+     "20"
+    ]
+   },
+   {
+    "question": "How many nucleotides make up a codon?",
+    "answer": "3",
+    "choices": [
+     "2",
+     "1",
+     "3",
+     "4"
+    ]
+   },
+   {
+    "question": "How many amino acids are commonly coded by the genetic code?",
+    "answer": "20",
+    "choices": [
+     "4",
+     "64",
+     "20",
+     "100"
+    ]
+   },
+   {
+    "question": "A mutation changes one codon to another that codes for the same amino acid. What is the effect on the protein?",
+    "answer": "Usually none (a silent mutation)",
+    "choices": [
+     "The protein becomes huge",
+     "The protein is deleted",
+     "The cell dies",
+     "Usually none (a silent mutation)"
+    ]
+   },
+   {
+    "question": "Which codons are stop codons?",
+    "answer": "UAA, UAG and UGA",
+    "choices": [
+     "GGG and CCC",
+     "AUG only",
+     "UUU and AAA",
+     "UAA, UAG and UGA"
+    ]
+   },
+   {
+    "question": "What is the start codon?",
+    "answer": "AUG",
+    "choices": [
+     "UGA",
+     "AUG",
+     "UAA",
+     "GGG"
+    ]
+   },
+   {
+    "question": "Why is the genetic code called \"redundant\"?",
+    "answer": "Several codons can code for the same amino acid",
+    "choices": [
+     "Several codons can code for the same amino acid",
+     "Each codon codes for many amino acids",
+     "It never changes",
+     "It has no stop codons"
+    ]
+   },
+   {
+    "question": "Why is the genetic code called universal?",
+    "answer": "Nearly all organisms use the same codons for the same amino acids",
+    "choices": [
+     "Nearly all organisms use the same codons for the same amino acids",
+     "It is different in every cell",
+     "Only humans use it",
+     "It changes daily"
+    ]
+   },
+   {
+    "question": "What does DNA use instead of uracil?",
+    "answer": "Thymine",
+    "choices": [
+     "Guanine",
+     "Thymine",
+     "Adenine",
+     "Cytosine"
+    ]
+   },
+   {
+    "question": "What is a mutation?",
+    "answer": "A change in the DNA sequence",
+    "choices": [
+     "A change in the DNA sequence",
+     "A protein",
+     "A type of cell division",
+     "A new organ"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDnaRep",
+  "subject": "science",
+  "title": "DNA replication",
+  "section": "DNA",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsDnaRep9",
+   "sciXsDnaRep10"
+  ],
+  "examples": [
+   {
+    "question": "Why must DNA be copied before a cell divides?",
+    "answer": "So each new cell gets a complete set of DNA",
+    "choices": [
+     "To make proteins faster",
+     "To destroy old DNA",
+     "So each new cell gets a complete set of DNA",
+     "So the cell can grow larger"
+    ]
+   },
+   {
+    "question": "When does a cell copy (replicate) its DNA?",
+    "answer": "During the S phase of interphase, before division",
+    "choices": [
+     "During metaphase",
+     "Only after the cell divides",
+     "During the S phase of interphase, before division",
+     "During cytokinesis"
+    ]
+   },
+   {
+    "question": "A template strand reads A T T G C A. What is the new strand?",
+    "answer": "T A A C G T",
+    "choices": [
+     "U A A C G U",
+     "T A A C G T",
+     "A T T G C A",
+     "G C C A T G"
+    ]
+   },
+   {
+    "question": "On the lagging strand, DNA is made in short pieces called…",
+    "answer": "Okazaki fragments",
+    "choices": [
+     "Introns",
+     "Okazaki fragments",
+     "Codons",
+     "Chromatids"
+    ]
+   },
+   {
+    "question": "Why is DNA replication called semi-conservative?",
+    "answer": "Each new DNA molecule has one old strand and one new strand",
+    "choices": [
+     "Half the genes are lost",
+     "Only half the DNA is copied",
+     "Both old strands stay together",
+     "Each new DNA molecule has one old strand and one new strand"
+    ]
+   },
+   {
+    "question": "Which base pairs with guanine (G) in DNA?",
+    "answer": "Cytosine (C)",
+    "choices": [
+     "Adenine (A)",
+     "Cytosine (C)",
+     "Uracil (U)",
+     "Thymine (T)"
+    ]
+   },
+   {
+    "question": "Which enzyme unzips the DNA double helix?",
+    "answer": "Helicase",
+    "choices": [
+     "DNA polymerase",
+     "Ligase",
+     "Helicase",
+     "Amylase"
+    ]
+   },
+   {
+    "question": "Which enzyme adds new nucleotides to build the new strand?",
+    "answer": "DNA polymerase",
+    "choices": [
+     "DNA polymerase",
+     "RNA",
+     "Lipase",
+     "Helicase"
+    ]
+   },
+   {
+    "question": "Which bonds break when the two DNA strands separate?",
+    "answer": "Hydrogen bonds between the bases",
+    "choices": [
+     "Peptide bonds",
+     "Ionic bonds with salt",
+     "Covalent bonds in the sugar",
+     "Hydrogen bonds between the bases"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMeio",
+  "subject": "science",
+  "title": "Sexual reproduction and genetic variation: part II",
+  "section": "Meiosis and sexual reproduction",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciXsMeio29"
+  ],
+  "examples": [
+   {
+    "question": "Why does sexual reproduction increase variation compared with asexual reproduction?",
+    "answer": "Offspring get new combinations of genes from two parents",
+    "choices": [
+     "Offspring are clones",
+     "It needs only one parent",
+     "It is faster",
+     "Offspring get new combinations of genes from two parents"
+    ]
+   },
+   {
+    "question": "What is independent assortment?",
+    "answer": "Homologous pairs line up randomly, so each gamete gets a random mix",
+    "choices": [
+     "Genes never separate",
+     "All chromosomes from one parent go together",
+     "Only one chromosome is passed on",
+     "Homologous pairs line up randomly, so each gamete gets a random mix"
+    ]
+   },
+   {
+    "question": "How does sexual reproduction help a species?",
+    "answer": "Variation helps some offspring survive changing conditions",
+    "choices": [
+     "All offspring are identical",
+     "It needs only one parent",
+     "Variation helps some offspring survive changing conditions",
+     "It is faster than asexual reproduction"
+    ]
+   },
+   {
+    "question": "What is nondisjunction?",
+    "answer": "Chromosomes failing to separate properly in meiosis",
+    "choices": [
+     "Fertilization",
+     "A type of mitosis",
+     "Normal crossing over",
+     "Chromosomes failing to separate properly in meiosis"
+    ]
+   },
+   {
+    "question": "What are homologous chromosomes?",
+    "answer": "A pair of chromosomes, one from each parent, carrying the same genes",
+    "choices": [
+     "Two identical copies made by replication",
+     "A pair of chromosomes, one from each parent, carrying the same genes",
+     "Chromosomes from the same parent",
+     "Sex cells"
+    ]
+   },
+   {
+    "question": "When does crossing over happen?",
+    "answer": "Prophase I of meiosis",
+    "choices": [
+     "Prophase I of meiosis",
+     "Interphase",
+     "Anaphase of mitosis",
+     "Telophase II"
+    ]
+   },
+   {
+    "question": "What is crossing over?",
+    "answer": "Homologous chromosomes swap segments during meiosis I",
+    "choices": [
+     "Chromosomes being copied",
+     "Cells dividing in two",
+     "Homologous chromosomes swap segments during meiosis I",
+     "Genes turning off"
+    ]
+   },
+   {
+    "question": "How many chromosome combinations can a human make from independent assortment alone?",
+    "answer": "About 8 million (2²³)",
+    "choices": [
+     "About 8 million (2²³)",
+     "23",
+     "2",
+     "46"
+    ]
+   },
+   {
+    "question": "Why are gametes genetically different from each other?",
+    "answer": "Crossing over and independent assortment shuffle alleles",
+    "choices": [
+     "Crossing over and independent assortment shuffle alleles",
+     "All gametes are identical",
+     "Gametes have no DNA",
+     "Mitosis copies DNA exactly"
+    ]
+   },
+   {
+    "question": "Which produces genetically identical offspring?",
+    "answer": "Asexual reproduction",
+    "choices": [
+     "Fertilization",
+     "Sexual reproduction",
+     "Meiosis",
+     "Asexual reproduction"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsGeneEnv",
+  "subject": "science",
+  "title": "How do genes and the environment affect plant growth?",
+  "section": "Genes to traits",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciXsGeneEnv9"
+  ],
+  "examples": [
+   {
+    "question": "Why do scientists grow plants with the same genotype in different conditions?",
+    "answer": "To isolate the effect of the environment",
+    "choices": [
+     "To confuse results",
+     "To save seeds",
+     "To make new genes",
+     "To isolate the effect of the environment"
+    ]
+   },
+   {
+    "question": "Which is an environmental factor affecting plant growth?",
+    "answer": "Temperature",
+    "choices": [
+     "Allele type",
+     "Temperature",
+     "DNA sequence",
+     "Chromosome number"
+    ]
+   },
+   {
+    "question": "A plant with genes for large fruit grows in poor soil and makes small fruit. Why?",
+    "answer": "Lack of nutrients limits gene expression",
+    "choices": [
+     "Fruit size is random",
+     "Lack of nutrients limits gene expression",
+     "It became a new species",
+     "It lost its genes"
+    ]
+   },
+   {
+    "question": "Arctic fox fur turns white in winter. What triggers it?",
+    "answer": "Shorter days (an environmental signal)",
+    "choices": [
+     "Eating snow",
+     "A mutation each year",
+     "Snow paints it",
+     "Shorter days (an environmental signal)"
+    ]
+   },
+   {
+    "question": "Why do some plants grown in the dark turn yellow?",
+    "answer": "They cannot make chlorophyll without light",
+    "choices": [
+     "They cannot make chlorophyll without light",
+     "Darkness paints them",
+     "Their genes change to yellow",
+     "They are a different species"
+    ]
+   },
+   {
+    "question": "Hydrangeas with the same genes can be blue or pink. What causes the difference?",
+    "answer": "Soil acidity",
+    "choices": [
+     "Soil acidity",
+     "Bees",
+     "The time of day",
+     "Their DNA"
+    ]
+   },
+   {
+    "question": "Identical twin plants grow in different soils and one is taller. What does this show?",
+    "answer": "The environment affects the phenotype",
+    "choices": [
+     "Their genes are different",
+     "The environment affects the phenotype",
+     "Height is not genetic",
+     "Soil changes DNA"
+    ]
+   },
+   {
+    "question": "Hydrangea flowers are blue in acidic soil and pink in basic soil. This is an example of…",
+    "answer": "the environment affecting a trait",
+    "choices": [
+     "natural selection",
+     "a mutation",
+     "meiosis",
+     "the environment affecting a trait"
+    ]
+   },
+   {
+    "question": "Genetically identical plants grow in bright and dim light. The bright-light plants grow taller. What does this show?",
+    "answer": "The environment affects the phenotype",
+    "choices": [
+     "The environment affects the phenotype",
+     "Genes don't matter at all",
+     "The plants have different genes",
+     "Light changes DNA"
+    ]
+   },
+   {
+    "question": "A plant has genes for tallness but grows in poor soil and stays short. Why?",
+    "answer": "Lack of nutrients limits expression of its genetic potential",
+    "choices": [
+     "Soil changes its DNA",
+     "It lost its genes",
+     "Lack of nutrients limits expression of its genetic potential",
+     "It is a different species"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFossEvo",
+  "subject": "science",
+  "title": "Evaluate fossil evidence of evolution",
+  "section": "Evolution",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsFossEvo9",
+   "sciXsFossEvo10"
+  ],
+  "examples": [
+   {
+    "question": "Why are there gaps in the fossil record?",
+    "answer": "Fossils form only under special conditions",
+    "choices": [
+     "Gaps mean evolution is false",
+     "Animals didn't exist then",
+     "Fossils form only under special conditions",
+     "Fossils are hidden on purpose"
+    ]
+   },
+   {
+    "question": "How do scientists date fossils?",
+    "answer": "Using the age of rock layers and radioactive dating",
+    "choices": [
+     "By their colour",
+     "By their smell",
+     "By guessing",
+     "Using the age of rock layers and radioactive dating"
+    ]
+   },
+   {
+    "question": "Fossils of the same species are found in South America and Africa. What does this support?",
+    "answer": "The continents were once joined",
+    "choices": [
+     "It is a coincidence",
+     "Fossils float",
+     "Animals swam across oceans",
+     "The continents were once joined"
+    ]
+   },
+   {
+    "question": "Why are simpler organisms found in older rock layers?",
+    "answer": "Life has changed over time, with complex forms appearing later",
+    "choices": [
+     "Simple organisms sink",
+     "Complex fossils dissolve",
+     "Life has changed over time, with complex forms appearing later",
+     "Rocks change fossils"
+    ]
+   },
+   {
+    "question": "Horse fossils show legs becoming longer with a single toe. What does this suggest?",
+    "answer": "Horses adapted to running on open grasslands",
+    "choices": [
+     "Toes grew back",
+     "Horses adapted to running on open grasslands",
+     "Horses got shorter",
+     "Horses learned to fly"
+    ]
+   },
+   {
+    "question": "What are index fossils used for?",
+    "answer": "Dating and matching rock layers",
+    "choices": [
+     "Making jewellery",
+     "Dating and matching rock layers",
+     "Finding oil only",
+     "Measuring temperature"
+    ]
+   },
+   {
+    "question": "Fossils of whales with small hind legs support the idea that…",
+    "answer": "whales evolved from land-dwelling ancestors",
+    "choices": [
+     "legs grow on modern whales",
+     "whales are fish",
+     "whales have always lived in water",
+     "whales evolved from land-dwelling ancestors"
+    ]
+   },
+   {
+    "question": "What does Tiktaalik, a fossil with fins and a neck, show?",
+    "answer": "A transition from fish to land animals",
+    "choices": [
+     "Fish never changed",
+     "Birds evolved from fish directly",
+     "A transition from fish to land animals",
+     "Mammals are fish"
+    ]
+   },
+   {
+    "question": "What is a transitional fossil?",
+    "answer": "A fossil showing traits of both an ancestral group and a descendant group",
+    "choices": [
+     "A fossil that moved",
+     "The newest fossil",
+     "Any fossil in sandstone",
+     "A fossil showing traits of both an ancestral group and a descendant group"
+    ]
+   },
+   {
+    "question": "What does the fossil record show about life over time?",
+    "answer": "Life forms have changed, with many species going extinct",
+    "choices": [
+     "Nothing has changed",
+     "All species appeared at once",
+     "Fossils are random",
+     "Life forms have changed, with many species going extinct"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAnatEvo",
+  "subject": "science",
+  "title": "Evaluate anatomical and molecular evidence of evolution",
+  "section": "Evolution",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsAnatEvo9",
+   "sciXsAnatEvo10"
+  ],
+  "examples": [
+   {
+    "question": "Humans and chimpanzees share about 98% of their DNA. What does this suggest?",
+    "answer": "They share a recent common ancestor",
+    "choices": [
+     "DNA is identical in all animals",
+     "Humans evolved from modern chimpanzees",
+     "They share a recent common ancestor",
+     "They are the same species"
+    ]
+   },
+   {
+    "question": "What does it mean when two species share many DNA sequences?",
+    "answer": "They share a recent common ancestor",
+    "choices": [
+     "They never interbred",
+     "They are the same species",
+     "DNA is random",
+     "They share a recent common ancestor"
+    ]
+   },
+   {
+    "question": "A bird wing and an insect wing have the same function but different structures. They are…",
+    "answer": "analogous structures",
+    "choices": [
+     "vestigial",
+     "identical genes",
+     "analogous structures",
+     "homologous structures"
+    ]
+   },
+   {
+    "question": "Which pair shows homologous structures?",
+    "answer": "A cat's leg and a bat's wing",
+    "choices": [
+     "A fly wing and a bat wing",
+     "A cat's leg and a bat's wing",
+     "A bird wing and a butterfly wing",
+     "A shark fin and a dolphin fin"
+    ]
+   },
+   {
+    "question": "Why are a shark's fin and a dolphin's fin called analogous?",
+    "answer": "They have similar functions but evolved separately",
+    "choices": [
+     "They have similar functions but evolved separately",
+     "They are vestigial",
+     "They come from a recent ancestor",
+     "They have the same bones"
+    ]
+   },
+   {
+    "question": "Whales have tiny hip bones. What are these?",
+    "answer": "Vestigial structures from land-dwelling ancestors",
+    "choices": [
+     "Vestigial structures from land-dwelling ancestors",
+     "Tumours",
+     "Analogous structures",
+     "New organs"
+    ]
+   },
+   {
+    "question": "Embryos of fish, chickens and humans all have similar early features. What does this suggest?",
+    "answer": "Common ancestry",
+    "choices": [
+     "Common ancestry",
+     "They live in water",
+     "Embryos are random",
+     "They are the same animal"
+    ]
+   },
+   {
+    "question": "Which is a vestigial structure in humans?",
+    "answer": "The tailbone (coccyx)",
+    "choices": [
+     "The lungs",
+     "The eyes",
+     "The tailbone (coccyx)",
+     "The heart"
+    ]
+   },
+   {
+    "question": "The human appendix is an example of a…",
+    "answer": "vestigial structure",
+    "choices": [
+     "analogous structure",
+     "vestigial structure",
+     "homologous structure",
+     "new organ"
+    ]
+   },
+   {
+    "question": "A human arm, bat wing and whale flipper have the same bone pattern. These are…",
+    "answer": "homologous structures",
+    "choices": [
+     "homologous structures",
+     "vestigial structures",
+     "fossils",
+     "analogous structures"
+    ]
+   },
+   {
+    "question": "Cytochrome c protein sequences in humans and chimpanzees are identical. What does this show?",
+    "answer": "Humans and chimpanzees are closely related",
+    "choices": [
+     "Humans evolved from chimps",
+     "The protein is useless",
+     "Humans and chimpanzees are closely related",
+     "Proteins never change"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSerengeti",
+  "subject": "science",
+  "title": "Interpret a Serengeti food web",
+  "section": "Ecology",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsSerengeti9",
+   "sciXsSerengeti10"
+  ],
+  "examples": [
+   {
+    "question": "If a drought kills much of the grass, what happens to wildebeest?",
+    "answer": "Their population falls",
+    "choices": [
+     "It stays the same",
+     "They become carnivores",
+     "Their population falls",
+     "It rises"
+    ]
+   },
+   {
+    "question": "What role do dung beetles play in the Serengeti?",
+    "answer": "Decomposers that recycle nutrients",
+    "choices": [
+     "Decomposers that recycle nutrients",
+     "Herbivores",
+     "Top predators",
+     "Producers"
+    ]
+   },
+   {
+    "question": "Which Serengeti animal is a herbivore?",
+    "answer": "Wildebeest",
+    "choices": [
+     "Lion",
+     "Wildebeest",
+     "Hyena",
+     "Cheetah"
+    ]
+   },
+   {
+    "question": "What would happen to lions if wildebeest numbers dropped sharply?",
+    "answer": "Lion numbers would likely fall",
+    "choices": [
+     "Lion numbers would likely fall",
+     "Nothing",
+     "Lions would eat grass",
+     "Lions would increase"
+    ]
+   },
+   {
+    "question": "Hyenas and lions both eat zebras. This is an example of…",
+    "answer": "competition",
+    "choices": [
+     "mutualism",
+     "parasitism",
+     "commensalism",
+     "competition"
+    ]
+   },
+   {
+    "question": "Why do wildebeest migrate across the Serengeti?",
+    "answer": "To follow seasonal rains and fresh grass",
+    "choices": [
+     "To visit the ocean",
+     "To find snow",
+     "To escape the cold",
+     "To follow seasonal rains and fresh grass"
+    ]
+   },
+   {
+    "question": "Lions and hyenas compete for prey. What is this relationship?",
+    "answer": "Competition",
+    "choices": [
+     "Mutualism",
+     "Commensalism",
+     "Competition",
+     "Parasitism"
+    ]
+   },
+   {
+    "question": "In the Serengeti, which organism is a producer?",
+    "answer": "Grass",
+    "choices": [
+     "Vulture",
+     "Grass",
+     "Lion",
+     "Zebra"
+    ]
+   },
+   {
+    "question": "Vultures feed on lion kills. What role do they play?",
+    "answer": "Scavengers that help recycle nutrients",
+    "choices": [
+     "Scavengers that help recycle nutrients",
+     "Primary consumers",
+     "Pollinators",
+     "Producers"
+    ]
+   },
+   {
+    "question": "In the Serengeti, grass is eaten by zebras and wildebeest; lions eat both. What is the lion?",
+    "answer": "A tertiary or top consumer",
+    "choices": [
+     "A decomposer",
+     "A primary consumer",
+     "A tertiary or top consumer",
+     "A producer"
+    ]
+   },
+   {
+    "question": "Which organism is a tertiary consumer in the chain grass → zebra → lion?",
+    "answer": "None — the lion is a secondary consumer here",
+    "choices": [
+     "None — the lion is a secondary consumer here",
+     "Zebra",
+     "Lion is the producer",
+     "Grass"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAntarc",
+  "subject": "science",
+  "title": "Interpret an Antarctic food web",
+  "section": "Ecology",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsAntarc9",
+   "sciXsAntarc10"
+  ],
+  "examples": [
+   {
+    "question": "Leopard seals eat penguins. If leopard seals decline, penguins may…",
+    "answer": "increase",
+    "choices": [
+     "decrease",
+     "increase",
+     "disappear",
+     "stay exactly the same"
+    ]
+   },
+   {
+    "question": "Which Antarctic animal is a top predator?",
+    "answer": "Orca",
+    "choices": [
+     "Krill",
+     "Phytoplankton",
+     "Squid",
+     "Orca"
+    ]
+   },
+   {
+    "question": "What are phytoplankton?",
+    "answer": "Microscopic producers that photosynthesize",
+    "choices": [
+     "Microscopic producers that photosynthesize",
+     "Small fish",
+     "Decomposers",
+     "Top predators"
+    ]
+   },
+   {
+    "question": "If krill populations crash, what happens to penguins?",
+    "answer": "They decline",
+    "choices": [
+     "They switch to eating ice",
+     "They stay the same",
+     "They decline",
+     "They increase"
+    ]
+   },
+   {
+    "question": "Why is phytoplankton growth high in Antarctic summer?",
+    "answer": "There are many hours of sunlight",
+    "choices": [
+     "The water is warm like the tropics",
+     "There is no light",
+     "There are many hours of sunlight",
+     "Penguins fertilize it"
+    ]
+   },
+   {
+    "question": "How does melting sea ice affect krill?",
+    "answer": "Krill populations fall because they feed on algae under the ice",
+    "choices": [
+     "No effect",
+     "Krill populations fall because they feed on algae under the ice",
+     "Krill increase",
+     "Krill move to deserts"
+    ]
+   },
+   {
+    "question": "Which is a correct Antarctic food chain?",
+    "answer": "phytoplankton → krill → penguin → leopard seal",
+    "choices": [
+     "krill → orca → phytoplankton",
+     "phytoplankton → krill → penguin → leopard seal",
+     "penguin → krill → phytoplankton",
+     "orca → seal → krill → fish"
+    ]
+   },
+   {
+    "question": "What do Weddell seals eat?",
+    "answer": "Fish and squid",
+    "choices": [
+     "Fish and squid",
+     "Krill only",
+     "Grass",
+     "Penguins only"
+    ]
+   },
+   {
+    "question": "If krill declined, which animals would be most directly affected?",
+    "answer": "Penguins, seals and baleen whales",
+    "choices": [
+     "Only orcas",
+     "Penguins, seals and baleen whales",
+     "No animals",
+     "Only phytoplankton"
+    ]
+   },
+   {
+    "question": "In the Antarctic, krill eat phytoplankton; penguins, seals and whales eat krill. Which organism is the key link?",
+    "answer": "Krill",
+    "choices": [
+     "Krill",
+     "Penguins",
+     "Leopard seals",
+     "Orcas"
+    ]
+   },
+   {
+    "question": "What do Antarctic krill eat?",
+    "answer": "Phytoplankton",
+    "choices": [
+     "Whales",
+     "Phytoplankton",
+     "Seals",
+     "Penguins"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCarryF",
+  "subject": "science",
+  "title": "Factors affecting carrying capacity",
+  "section": "Ecology",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsCarryF9",
+   "sciXsCarryF10"
+  ],
+  "examples": [
+   {
+    "question": "Is this limiting factor density-dependent or density-independent? Competition for food",
+    "answer": "Density-dependent",
+    "choices": [
+     "Density-dependent",
+     "Density-independent"
+    ]
+   },
+   {
+    "question": "Is this limiting factor density-dependent or density-independent? A severe drought",
+    "answer": "Density-independent",
+    "choices": [
+     "Density-dependent",
+     "Density-independent"
+    ]
+   },
+   {
+    "question": "Is this limiting factor density-dependent or density-independent? Spread of disease",
+    "answer": "Density-dependent",
+    "choices": [
+     "Density-dependent",
+     "Density-independent"
+    ]
+   },
+   {
+    "question": "Is this limiting factor density-dependent or density-independent? Predation",
+    "answer": "Density-dependent",
+    "choices": [
+     "Density-independent",
+     "Density-dependent"
+    ]
+   },
+   {
+    "question": "Is this limiting factor density-dependent or density-independent? A hurricane",
+    "answer": "Density-independent",
+    "choices": [
+     "Density-independent",
+     "Density-dependent"
+    ]
+   },
+   {
+    "question": "Is this limiting factor density-dependent or density-independent? A wildfire",
+    "answer": "Density-independent",
+    "choices": [
+     "Density-independent",
+     "Density-dependent"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsGroupSurv",
+  "subject": "science",
+  "title": "How can group behaviour affect survival? Identify evidence to support a claim",
+  "section": "Ecology",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsGroupSurv9",
+   "sciXsGroupSurv10"
+  ],
+  "examples": [
+   {
+    "question": "Claim: Schooling helps fish avoid predators. Which evidence supports this?",
+    "answer": "Predators caught fewer fish per attack when fish were in schools",
+    "choices": [
+     "Fish lay eggs",
+     "Schools are large",
+     "Fish have gills",
+     "Predators caught fewer fish per attack when fish were in schools"
+    ]
+   },
+   {
+    "question": "Claim: Dolphins cooperate to herd fish. Which evidence supports it?",
+    "answer": "Dolphins in groups caught more fish per dive than lone dolphins",
+    "choices": [
+     "Dolphins are mammals",
+     "Dolphins breathe air",
+     "Dolphins jump",
+     "Dolphins in groups caught more fish per dive than lone dolphins"
+    ]
+   },
+   {
+    "question": "Claim: Living in groups can also have costs. Which evidence supports it?",
+    "answer": "Diseases spread faster in crowded colonies",
+    "choices": [
+     "Groups are noisy",
+     "Groups are bigger",
+     "Diseases spread faster in crowded colonies",
+     "Groups look nice"
+    ]
+   },
+   {
+    "question": "Claim: Starlings flock to avoid hawks. Which evidence supports it?",
+    "answer": "Hawks caught fewer starlings from large flocks than from small ones",
+    "choices": [
+     "Starlings are black",
+     "Hawks fly fast",
+     "Hawks caught fewer starlings from large flocks than from small ones",
+     "Starlings sing"
+    ]
+   },
+   {
+    "question": "Claim: Wolves hunting in packs catch more food. Which evidence supports it?",
+    "answer": "Packs brought down large moose that single wolves could not",
+    "choices": [
+     "Wolves live in forests",
+     "Wolves have fur",
+     "Packs brought down large moose that single wolves could not",
+     "Wolves howl"
+    ]
+   },
+   {
+    "question": "Claim: Musk oxen survive wolf attacks better in groups. Which evidence supports this?",
+    "answer": "Musk oxen forming a defensive circle lost fewer calves than those alone",
+    "choices": [
+     "Wolves hunt in winter",
+     "Musk oxen eat grass",
+     "Musk oxen have thick fur",
+     "Musk oxen forming a defensive circle lost fewer calves than those alone"
+    ]
+   },
+   {
+    "question": "Claim: Elephant herds protect calves. Which evidence supports it?",
+    "answer": "Calves in herds with older females survived predator attacks more often",
+    "choices": [
+     "Elephants are big",
+     "Calves in herds with older females survived predator attacks more often",
+     "Elephants have trunks",
+     "Calves drink milk"
+    ]
+   },
+   {
+    "question": "Claim: Honeybees huddle to survive winter. Which evidence supports it?",
+    "answer": "Hive temperature stayed near 30 °C while outside was below freezing",
+    "choices": [
+     "Bees sting",
+     "Bees make honey",
+     "Bees fly",
+     "Hive temperature stayed near 30 °C while outside was below freezing"
+    ]
+   },
+   {
+    "question": "Claim: Emperor penguins survive cold better by huddling. Which evidence supports this?",
+    "answer": "Huddled penguins lost less body heat than isolated penguins",
+    "choices": [
+     "Huddled penguins lost less body heat than isolated penguins",
+     "Penguins cannot fly",
+     "Penguins eat fish",
+     "Penguins live in Antarctica"
+    ]
+   },
+   {
+    "question": "Claim: Meerkats survive better in groups. Which evidence supports it?",
+    "answer": "Groups with sentinels spotted predators earlier and lost fewer members",
+    "choices": [
+     "Groups with sentinels spotted predators earlier and lost fewer members",
+     "Meerkats dig burrows",
+     "Meerkats live in deserts",
+     "Meerkats eat insects"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsKelp",
+  "subject": "science",
+  "title": "Kelp forests: factors affecting biodiversity",
+  "section": "Biodiversity",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsKelp9",
+   "sciXsKelp10"
+  ],
+  "examples": [
+   {
+    "question": "Sea otters eat sea urchins, which eat kelp. If sea otters are removed, what happens to the kelp forest?",
+    "answer": "Urchins increase and kelp declines",
+    "choices": [
+     "Nothing changes",
+     "Urchins decrease",
+     "Urchins increase and kelp declines",
+     "Kelp increases"
+    ]
+   },
+   {
+    "question": "Why is a kelp forest more biodiverse than bare sea floor?",
+    "answer": "Its structure creates many different habitats",
+    "choices": [
+     "It is warmer",
+     "It has fewer predators",
+     "It is darker",
+     "Its structure creates many different habitats"
+    ]
+   },
+   {
+    "question": "What happens to kelp when sea urchin numbers explode?",
+    "answer": "Urchins eat the kelp, creating \"urchin barrens\"",
+    "choices": [
+     "Kelp moves away",
+     "Nothing",
+     "Urchins eat the kelp, creating \"urchin barrens\"",
+     "Kelp grows faster"
+    ]
+   },
+   {
+    "question": "What is a keystone species?",
+    "answer": "One that has a much larger effect on its ecosystem than its numbers suggest",
+    "choices": [
+     "One that has a much larger effect on its ecosystem than its numbers suggest",
+     "The largest species",
+     "The most common species",
+     "Any plant"
+    ]
+   },
+   {
+    "question": "What is a keystone species?",
+    "answer": "A species with a large effect on its ecosystem relative to its numbers",
+    "choices": [
+     "A species with a large effect on its ecosystem relative to its numbers",
+     "The largest species",
+     "The most common species",
+     "A species that eats only kelp"
+    ]
+   },
+   {
+    "question": "Why are kelp forests high in biodiversity?",
+    "answer": "Kelp provides food and shelter for many species",
+    "choices": [
+     "Kelp provides food and shelter for many species",
+     "They have no predators",
+     "They are very cold",
+     "Kelp is poisonous"
+    ]
+   },
+   {
+    "question": "How can warming ocean water reduce kelp forest biodiversity?",
+    "answer": "Kelp grows poorly in warm, nutrient-poor water",
+    "choices": [
+     "Warm water makes kelp grow faster",
+     "It removes urchins",
+     "It has no effect",
+     "Kelp grows poorly in warm, nutrient-poor water"
+    ]
+   },
+   {
+    "question": "How can marine heat waves harm kelp?",
+    "answer": "Warm water lowers nutrients and stresses kelp",
+    "choices": [
+     "No effect",
+     "Warm water lowers nutrients and stresses kelp",
+     "Heat makes kelp grow taller",
+     "It adds more otters"
+    ]
+   },
+   {
+    "question": "How did the return of sea otters affect BC's kelp forests?",
+    "answer": "Kelp recovered as otters ate urchins",
+    "choices": [
+     "No change",
+     "Kelp recovered as otters ate urchins",
+     "Otters ate the kelp",
+     "Kelp disappeared"
+    ]
+   },
+   {
+    "question": "What do kelp need to grow?",
+    "answer": "Sunlight, cool water and nutrients",
+    "choices": [
+     "Fresh water",
+     "Darkness and warm water",
+     "Sunlight, cool water and nutrients",
+     "Sand only"
+    ]
+   },
+   {
+    "question": "What do kelp forests provide for fish?",
+    "answer": "Food and shelter",
+    "choices": [
+     "Ice",
+     "Food and shelter",
+     "Only sunlight",
+     "Sand"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPHR",
+  "subject": "science",
+  "title": "Photosynthesis and respiration",
+  "section": "Photosynthesis",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciPHR9"
+  ],
+  "examples": [
+   {
+    "question": "Which process uses glucose and oxygen to release energy (ATP)?",
+    "answer": "Cellular respiration",
+    "choices": [
+     "Photosynthesis",
+     "Cellular respiration",
+     "Both"
+    ]
+   },
+   {
+    "question": "Which process releases carbon dioxide as a product?",
+    "answer": "Cellular respiration",
+    "choices": [
+     "Photosynthesis",
+     "Both",
+     "Cellular respiration"
+    ]
+   },
+   {
+    "question": "Which process occurs in chloroplasts?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Cellular respiration",
+     "Photosynthesis",
+     "Both"
+    ]
+   },
+   {
+    "question": "Which process requires light energy?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Cellular respiration",
+     "Photosynthesis",
+     "Both"
+    ]
+   },
+   {
+    "question": "Which process occurs in mitochondria?",
+    "answer": "Cellular respiration",
+    "choices": [
+     "Photosynthesis",
+     "Both",
+     "Cellular respiration"
+    ]
+   },
+   {
+    "question": "Which process takes in carbon dioxide and water to make glucose?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Both",
+     "Photosynthesis",
+     "Cellular respiration"
+    ]
+   },
+   {
+    "question": "Which process releases oxygen as a product?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Both",
+     "Cellular respiration",
+     "Photosynthesis"
+    ]
+   },
+   {
+    "question": "Which process occurs in plant cells?",
+    "answer": "Both",
+    "choices": [
+     "Photosynthesis",
+     "Cellular respiration",
+     "Both"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciDNA",
+  "subject": "science",
+  "title": "DNA and protein synthesis",
+  "section": "DNA and protein synthesis",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciDNA9"
+  ],
+  "examples": [
+   {
+    "question": "A group of three bases that codes for one amino acid is a …",
+    "answer": "Codon",
+    "choices": [
+     "Uracil (U)",
+     "Translation",
+     "Codon",
+     "Double helix"
+    ]
+   },
+   {
+    "question": "Which base replaces thymine in RNA?",
+    "answer": "Uracil (U)",
+    "choices": [
+     "Cytosine (C)",
+     "Double helix",
+     "Uracil (U)",
+     "Translation"
+    ]
+   },
+   {
+    "question": "Which sugar is found in DNA?",
+    "answer": "Deoxyribose",
+    "choices": [
+     "Deoxyribose",
+     "Translation",
+     "Cytosine (C)",
+     "Thymine (T)"
+    ]
+   },
+   {
+    "question": "What is the process of copying DNA into mRNA called?",
+    "answer": "Transcription",
+    "choices": [
+     "Deoxyribose",
+     "Codon",
+     "Cytosine (C)",
+     "Transcription"
+    ]
+   },
+   {
+    "question": "Which base pairs with guanine (G) in DNA?",
+    "answer": "Cytosine (C)",
+    "choices": [
+     "Double helix",
+     "Adenine (A)",
+     "Cytosine (C)",
+     "Uracil (U)"
+    ]
+   },
+   {
+    "question": "What is the process of building a protein from mRNA called?",
+    "answer": "Translation",
+    "choices": [
+     "Cytosine (C)",
+     "Uracil (U)",
+     "Transcription",
+     "Translation"
+    ]
+   },
+   {
+    "question": "Which base pairs with adenine (A) in DNA?",
+    "answer": "Thymine (T)",
+    "choices": [
+     "Ribose",
+     "Double helix",
+     "Codon",
+     "Thymine (T)"
+    ]
+   },
+   {
+    "question": "What is the shape of the DNA molecule?",
+    "answer": "Double helix",
+    "choices": [
+     "Double helix",
+     "Transcription",
+     "Thymine (T)",
+     "Cytosine (C)"
+    ]
+   }
+  ]
+ }
+]

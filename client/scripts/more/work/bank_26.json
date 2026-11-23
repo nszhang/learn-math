@@ -1,0 +1,2633 @@
+[
+ {
+  "key": "sciNatSel",
+  "subject": "science",
+  "title": "Introduction to natural selection",
+  "section": "Adaptations and natural selection",
+  "grades": [
+   6,
+   7,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciNatSel6",
+   "sciNatSel7",
+   "sciNatSel9",
+   "sciNatSel10"
+  ],
+  "examples": [
+   {
+    "question": "For natural selection to act on a trait, the trait must be …",
+    "answer": "inherited",
+    "choices": [
+     "caused by injury",
+     "inherited",
+     "temporary",
+     "learned"
+    ]
+   },
+   {
+    "question": "What must exist in a population for natural selection to happen?",
+    "answer": "Variation in traits",
+    "choices": [
+     "No predators",
+     "Only one generation",
+     "Identical individuals",
+     "Variation in traits"
+    ]
+   },
+   {
+    "question": "Who proposed the theory of evolution by natural selection?",
+    "answer": "Charles Darwin",
+    "choices": [
+     "Gregor Mendel",
+     "Marie Curie",
+     "Isaac Newton",
+     "Charles Darwin"
+    ]
+   },
+   {
+    "question": "Organisms with helpful traits survive and reproduce more. This process is called …",
+    "answer": "natural selection",
+    "choices": [
+     "hibernation",
+     "metamorphosis",
+     "photosynthesis",
+     "natural selection"
+    ]
+   },
+   {
+    "question": "Light moths were eaten more often on dark, sooty trees. Over time, the moth population became …",
+    "answer": "mostly dark",
+    "choices": [
+     "mostly light",
+     "mostly dark",
+     "larger in size",
+     "extinct"
+    ]
+   },
+   {
+    "question": "Why do bacteria become resistant to an antibiotic over time?",
+    "answer": "Resistant bacteria survive and reproduce.",
+    "choices": [
+     "All bacteria change on purpose.",
+     "Resistant bacteria survive and reproduce.",
+     "The antibiotic teaches them.",
+     "The antibiotic gets weaker in the bottle."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsNatSel",
+  "subject": "science",
+  "title": "Construct explanations of natural selection",
+  "section": "Adaptations and natural selection",
+  "grades": [
+   6,
+   7,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsNatSel6",
+   "sciXsNatSel7",
+   "sciXsNatSel9",
+   "sciXsNatSel10"
+  ],
+  "examples": [
+   {
+    "question": "Which is an example of natural selection?",
+    "answer": "Longer-necked giraffes reached more food and had more offspring",
+    "choices": [
+     "Longer-necked giraffes reached more food and had more offspring",
+     "A tree was cut down",
+     "A person dyed their hair",
+     "A dog learned a trick"
+    ]
+   },
+   {
+    "question": "In a forest with dark tree bark, dark moths survive better than light moths. Over generations, what happens?",
+    "answer": "Dark moths become more common",
+    "choices": [
+     "Dark moths become more common",
+     "Nothing changes",
+     "Light moths become more common",
+     "All moths become white"
+    ]
+   },
+   {
+    "question": "Darwin's finches on different islands have different beaks. Why?",
+    "answer": "Each beak shape suited the food on that island",
+    "choices": [
+     "It was random with no effect",
+     "Each beak shape suited the food on that island",
+     "They chose different beaks",
+     "The beaks were painted"
+    ]
+   },
+   {
+    "question": "In a snowy area, white rabbits survive better than brown rabbits. What happens over generations?",
+    "answer": "More rabbits are white",
+    "choices": [
+     "All rabbits disappear",
+     "Rabbits turn blue",
+     "More rabbits are white",
+     "More rabbits are brown"
+    ]
+   },
+   {
+    "question": "Why do insects become resistant to pesticides over time?",
+    "answer": "Resistant insects survive and pass on resistance",
+    "choices": [
+     "Pesticides make insects stronger on purpose",
+     "Insects are not affected at all",
+     "Insects learn to avoid sprays",
+     "Resistant insects survive and pass on resistance"
+    ]
+   },
+   {
+    "question": "Why do giraffes with longer necks tend to have more offspring?",
+    "answer": "They can reach more food and survive to reproduce",
+    "choices": [
+     "They can reach more food and survive to reproduce",
+     "They are older",
+     "They stretch their necks during life and pass that on",
+     "They are lucky"
+    ]
+   },
+   {
+    "question": "Bacteria exposed to an antibiotic: a few resistant ones survive. What happens to the next generation?",
+    "answer": "More bacteria are resistant",
+    "choices": [
+     "None survive",
+     "Fewer are resistant",
+     "More bacteria are resistant",
+     "They become viruses"
+    ]
+   },
+   {
+    "question": "Why is variation important for natural selection?",
+    "answer": "Without differences, no trait can be favoured",
+    "choices": [
+     "It has no role",
+     "Without differences, no trait can be favoured",
+     "Variation stops evolution",
+     "All animals must be identical"
+    ]
+   },
+   {
+    "question": "Which describes natural selection?",
+    "answer": "Individuals with helpful inherited traits survive and reproduce more",
+    "choices": [
+     "Individuals with helpful inherited traits survive and reproduce more",
+     "All individuals are the same",
+     "Animals choose to change their bodies",
+     "Traits never change"
+    ]
+   },
+   {
+    "question": "Which is required for natural selection?",
+    "answer": "Variation in traits that can be inherited",
+    "choices": [
+     "Unlimited food",
+     "No competition",
+     "Variation in traits that can be inherited",
+     "All individuals being identical"
+    ]
+   },
+   {
+    "question": "What must happen for a trait to be passed on by natural selection?",
+    "answer": "The trait must be inherited",
+    "choices": [
+     "The trait must be acquired by injury",
+     "The trait must be harmful",
+     "The trait must be inherited",
+     "The trait must be learned"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFlCon",
+  "subject": "science",
+  "title": "Flowering plant and conifer life cycles",
+  "section": "Plant reproduction",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciXsFlCon6"
+  ],
+  "examples": [
+   {
+    "question": "How are flowering plants pollinated?",
+    "answer": "Often by insects, birds or wind",
+    "choices": [
+     "Only by water",
+     "Never",
+     "Often by insects, birds or wind",
+     "Only by people"
+    ]
+   },
+   {
+    "question": "Where do flowering plants produce seeds?",
+    "answer": "Inside fruit that develops from the flower",
+    "choices": [
+     "In roots",
+     "In spores",
+     "In cones",
+     "Inside fruit that develops from the flower"
+    ]
+   },
+   {
+    "question": "How are conifers usually pollinated?",
+    "answer": "By the wind",
+    "choices": [
+     "By bats",
+     "By bees only",
+     "By the wind",
+     "By hummingbirds"
+    ]
+   },
+   {
+    "question": "Where do conifers produce seeds?",
+    "answer": "In cones",
+    "choices": [
+     "In cones",
+     "In spores",
+     "In flowers",
+     "In fruit"
+    ]
+   },
+   {
+    "question": "Where are a conifer's seeds?",
+    "answer": "On the scales of female cones",
+    "choices": [
+     "In the roots",
+     "Inside fruit",
+     "On the scales of female cones",
+     "In the flowers"
+    ]
+   },
+   {
+    "question": "How are most conifer seeds spread?",
+    "answer": "By wind (some have wings)",
+    "choices": [
+     "By wind (some have wings)",
+     "By floating on water only",
+     "By bees",
+     "Inside sweet fruit"
+    ]
+   },
+   {
+    "question": "How long can it take a pine cone's seeds to mature?",
+    "answer": "About two years",
+    "choices": [
+     "One hour",
+     "About two years",
+     "One week",
+     "One day"
+    ]
+   },
+   {
+    "question": "What happens after a flower is pollinated?",
+    "answer": "Seeds and fruit begin to develop",
+    "choices": [
+     "The plant dies",
+     "The flower turns into a cone",
+     "Seeds and fruit begin to develop",
+     "The roots grow flowers"
+    ]
+   },
+   {
+    "question": "Which plant makes fruit?",
+    "answer": "An apple tree",
+    "choices": [
+     "A spruce",
+     "A fir",
+     "A pine tree",
+     "An apple tree"
+    ]
+   },
+   {
+    "question": "What do male pine cones produce?",
+    "answer": "Pollen",
+    "choices": [
+     "Seeds",
+     "Fruit",
+     "Pollen",
+     "Nectar"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMossFern",
+  "subject": "science",
+  "title": "Moss and fern life cycles",
+  "section": "Plant reproduction",
+  "grades": [
+   6,
+   7
+  ],
+  "skillIds": [
+   "sciXsMossFern6",
+   "sciXsMossFern7"
+  ],
+  "examples": [
+   {
+    "question": "Where are fern spores found?",
+    "answer": "In clusters (sori) on the underside of fronds",
+    "choices": [
+     "Inside fruit",
+     "In cones",
+     "In clusters (sori) on the underside of fronds",
+     "In flowers"
+    ]
+   },
+   {
+    "question": "What are young, curled fern leaves called?",
+    "answer": "Fiddleheads",
+    "choices": [
+     "Capsules",
+     "Petals",
+     "Cones",
+     "Fiddleheads"
+    ]
+   },
+   {
+    "question": "How are spores spread?",
+    "answer": "By wind and water",
+    "choices": [
+     "By wind and water",
+     "By fruit",
+     "By squirrels burying them",
+     "By bees only"
+    ]
+   },
+   {
+    "question": "Why are mosses small?",
+    "answer": "They lack tubes (vascular tissue) to carry water far",
+    "choices": [
+     "They grow underground",
+     "They don't need water",
+     "They are young trees",
+     "They lack tubes (vascular tissue) to carry water far"
+    ]
+   },
+   {
+    "question": "What grows from a fern spore?",
+    "answer": "A small heart-shaped plant (prothallus)",
+    "choices": [
+     "A small heart-shaped plant (prothallus)",
+     "A full fern right away",
+     "A flower",
+     "A seed"
+    ]
+   },
+   {
+    "question": "Mosses and ferns reproduce using…",
+    "answer": "spores",
+    "choices": [
+     "fruit",
+     "spores",
+     "cones",
+     "seeds"
+    ]
+   },
+   {
+    "question": "Why do ferns need moist places to reproduce?",
+    "answer": "Sperm must swim through water to reach the egg",
+    "choices": [
+     "Ferns drink rain only",
+     "Ferns are fish",
+     "Spores melt in sun",
+     "Sperm must swim through water to reach the egg"
+    ]
+   },
+   {
+    "question": "Why do mosses usually grow in damp places?",
+    "answer": "Their sperm needs water to swim to the egg",
+    "choices": [
+     "Their sperm needs water to swim to the egg",
+     "They need wind",
+     "They need sand",
+     "They make seeds that need dry soil"
+    ]
+   },
+   {
+    "question": "How do ferns differ from mosses?",
+    "answer": "Ferns have vascular tissue and grow larger",
+    "choices": [
+     "Ferns make seeds",
+     "Ferns have vascular tissue and grow larger",
+     "They are the same",
+     "Mosses have roots and ferns don't"
+    ]
+   },
+   {
+    "question": "What structure releases moss spores?",
+    "answer": "A capsule on a thin stalk",
+    "choices": [
+     "A flower",
+     "A cone",
+     "A capsule on a thin stalk",
+     "A fruit"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPhotoE",
+  "subject": "science",
+  "title": "How do plants use and change energy?",
+  "section": "Photosynthesis",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciPhotoE6",
+   "sciPhotoE7",
+   "sciPhotoE8"
+  ],
+  "examples": [
+   {
+    "question": "Photosynthesis changes light energy into …",
+    "answer": "chemical energy",
+    "choices": [
+     "nuclear energy",
+     "chemical energy",
+     "electrical energy",
+     "sound energy"
+    ]
+   },
+   {
+    "question": "What gas do plants take in for photosynthesis?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "Nitrogen",
+     "Helium",
+     "Carbon dioxide",
+     "Oxygen"
+    ]
+   },
+   {
+    "question": "What sugar do plants make?",
+    "answer": "Glucose",
+    "choices": [
+     "Fat",
+     "Salt",
+     "Protein",
+     "Glucose"
+    ]
+   },
+   {
+    "question": "What energy source do plants use to make food?",
+    "answer": "Sunlight",
+    "choices": [
+     "Soil",
+     "Sunlight",
+     "Wind",
+     "Heat from the ground"
+    ]
+   },
+   {
+    "question": "What green pigment captures light energy?",
+    "answer": "Chlorophyll",
+    "choices": [
+     "Chlorophyll",
+     "Hemoglobin",
+     "Melanin",
+     "Keratin"
+    ]
+   },
+   {
+    "question": "Where in the cell does photosynthesis happen?",
+    "answer": "Chloroplasts",
+    "choices": [
+     "Mitochondria",
+     "Chloroplasts",
+     "Nucleus",
+     "Cell wall"
+    ]
+   },
+   {
+    "question": "Which organism can photosynthesize?",
+    "answer": "Algae",
+    "choices": [
+     "Bacteria that cause colds",
+     "Rabbits",
+     "Algae",
+     "Mushrooms"
+    ]
+   },
+   {
+    "question": "What gas do plants release during photosynthesis?",
+    "answer": "Oxygen",
+    "choices": [
+     "Hydrogen",
+     "Methane",
+     "Carbon dioxide",
+     "Oxygen"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPhoto",
+  "subject": "science",
+  "title": "Identify the photosynthetic organism",
+  "section": "Photosynthesis",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsPhoto6",
+   "sciXsPhoto7",
+   "sciXsPhoto8"
+  ],
+  "examples": [
+   {
+    "question": "Does this organism carry out photosynthesis? Green algae",
+    "answer": "Photosynthetic",
+    "choices": [
+     "Not photosynthetic",
+     "Photosynthetic"
+    ]
+   },
+   {
+    "question": "Does this organism carry out photosynthesis? Earthworm",
+    "answer": "Not photosynthetic",
+    "choices": [
+     "Not photosynthetic",
+     "Photosynthetic"
+    ]
+   },
+   {
+    "question": "Does this organism carry out photosynthesis? Maple tree",
+    "answer": "Photosynthetic",
+    "choices": [
+     "Photosynthetic",
+     "Not photosynthetic"
+    ]
+   },
+   {
+    "question": "Does this organism carry out photosynthesis? Deer",
+    "answer": "Not photosynthetic",
+    "choices": [
+     "Not photosynthetic",
+     "Photosynthetic"
+    ]
+   },
+   {
+    "question": "Does this organism carry out photosynthesis? Bread mould",
+    "answer": "Not photosynthetic",
+    "choices": [
+     "Photosynthetic",
+     "Not photosynthetic"
+    ]
+   },
+   {
+    "question": "Does this organism carry out photosynthesis? Seaweed (kelp)",
+    "answer": "Photosynthetic",
+    "choices": [
+     "Photosynthetic",
+     "Not photosynthetic"
+    ]
+   },
+   {
+    "question": "Does this organism carry out photosynthesis? Cyanobacteria",
+    "answer": "Photosynthetic",
+    "choices": [
+     "Not photosynthetic",
+     "Photosynthetic"
+    ]
+   },
+   {
+    "question": "Does this organism carry out photosynthesis? Mushroom",
+    "answer": "Not photosynthetic",
+    "choices": [
+     "Not photosynthetic",
+     "Photosynthetic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPopEco",
+  "subject": "science",
+  "title": "Describe populations, communities and ecosystems",
+  "section": "Ecosystems",
+  "grades": [
+   6,
+   7
+  ],
+  "skillIds": [
+   "sciPopEco6",
+   "sciPopEco7"
+  ],
+  "examples": [
+   {
+    "question": "Which level of organization is this? A pond: its living things plus water, rocks and sunlight.",
+    "answer": "Ecosystem",
+    "choices": [
+     "Community",
+     "Ecosystem",
+     "Population"
+    ]
+   },
+   {
+    "question": "Which level of organization is this? A desert: its plants, animals, sand and climate.",
+    "answer": "Ecosystem",
+    "choices": [
+     "Ecosystem",
+     "Population",
+     "Community"
+    ]
+   },
+   {
+    "question": "Which level of organization is this? All the deer in a forest.",
+    "answer": "Population",
+    "choices": [
+     "Community",
+     "Ecosystem",
+     "Population"
+    ]
+   },
+   {
+    "question": "Which level of organization is this? All the bullfrogs in a pond.",
+    "answer": "Population",
+    "choices": [
+     "Ecosystem",
+     "Population",
+     "Community"
+    ]
+   },
+   {
+    "question": "Which level of organization is this? All the living things in a pond: frogs, fish, plants and insects.",
+    "answer": "Community",
+    "choices": [
+     "Community",
+     "Population",
+     "Ecosystem"
+    ]
+   },
+   {
+    "question": "Which level of organization is this? All the organisms on a coral reef.",
+    "answer": "Community",
+    "choices": [
+     "Community",
+     "Population",
+     "Ecosystem"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciORG",
+  "subject": "science",
+  "title": "Cell organelles",
+  "section": "Cells",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciORG6"
+  ],
+  "examples": [
+   {
+    "question": "What is the jelly-like fluid that fills the cell?",
+    "answer": "Cytoplasm",
+    "choices": [
+     "Chloroplast",
+     "Cell membrane",
+     "Cell wall",
+     "Cytoplasm"
+    ]
+   },
+   {
+    "question": "Which structure surrounds the cell and controls what enters and leaves?",
+    "answer": "Cell membrane",
+    "choices": [
+     "Mitochondria",
+     "Cytoplasm",
+     "Cell wall",
+     "Cell membrane"
+    ]
+   },
+   {
+    "question": "Which organelle stores water, food and waste?",
+    "answer": "Vacuole",
+    "choices": [
+     "Vacuole",
+     "Mitochondria",
+     "Chloroplast",
+     "Ribosome"
+    ]
+   },
+   {
+    "question": "Which organelle makes food by photosynthesis in plant cells?",
+    "answer": "Chloroplast",
+    "choices": [
+     "Chloroplast",
+     "Ribosome",
+     "Mitochondria",
+     "Nucleus"
+    ]
+   },
+   {
+    "question": "Which stiff outer layer gives plant cells their shape?",
+    "answer": "Cell wall",
+    "choices": [
+     "Vacuole",
+     "Mitochondria",
+     "Cell wall",
+     "Nucleus"
+    ]
+   },
+   {
+    "question": "Which organelle releases energy from food (the “powerhouse”)?",
+    "answer": "Mitochondria",
+    "choices": [
+     "Mitochondria",
+     "Nucleus",
+     "Cell wall",
+     "Chloroplast"
+    ]
+   },
+   {
+    "question": "Which organelle builds proteins?",
+    "answer": "Ribosome",
+    "choices": [
+     "Vacuole",
+     "Mitochondria",
+     "Chloroplast",
+     "Ribosome"
+    ]
+   },
+   {
+    "question": "Which organelle is the “control center” that holds DNA?",
+    "answer": "Nucleus",
+    "choices": [
+     "Cell wall",
+     "Mitochondria",
+     "Nucleus",
+     "Vacuole"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCoral",
+  "subject": "science",
+  "title": "Coral reef biodiversity and human uses: explore a problem",
+  "section": "Conservation",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsCoral16",
+   "sciXsCoral26",
+   "sciXsCoral17",
+   "sciXsCoral27",
+   "sciXsCoral18",
+   "sciXsCoral28"
+  ],
+  "examples": [
+   {
+    "question": "How do reefs protect coasts?",
+    "answer": "They break waves before they reach shore",
+    "choices": [
+     "They make waves bigger",
+     "They have no effect",
+     "They break waves before they reach shore",
+     "They pull water away"
+    ]
+   },
+   {
+    "question": "What is coral bleaching?",
+    "answer": "Corals lose their colourful algae when stressed by warm water",
+    "choices": [
+     "Corals growing faster",
+     "Painting corals white",
+     "Sand covering corals",
+     "Corals lose their colourful algae when stressed by warm water"
+    ]
+   },
+   {
+    "question": "Why are coral reefs important?",
+    "answer": "They support a huge variety of marine species",
+    "choices": [
+     "They have no animals",
+     "They support a huge variety of marine species",
+     "They are made of plastic",
+     "They block all waves"
+    ]
+   },
+   {
+    "question": "How do people use coral reefs?",
+    "answer": "Fishing, tourism and coastal protection",
+    "choices": [
+     "Fishing, tourism and coastal protection",
+     "Making snow",
+     "Mining coal",
+     "Growing wheat"
+    ]
+   },
+   {
+    "question": "Why are reefs called \"rainforests of the sea\"?",
+    "answer": "They support a huge variety of life",
+    "choices": [
+     "They are green",
+     "They support a huge variety of life",
+     "They have trees",
+     "They are rainy"
+    ]
+   },
+   {
+    "question": "How can runoff from farms harm reefs?",
+    "answer": "Fertilizer causes algae blooms that smother coral",
+    "choices": [
+     "It adds sand",
+     "Fertilizer causes algae blooms that smother coral",
+     "It feeds coral",
+     "It cools the water"
+    ]
+   },
+   {
+    "question": "Which human activity harms coral reefs?",
+    "answer": "Overfishing and pollution",
+    "choices": [
+     "Reducing runoff",
+     "Planting mangroves",
+     "Overfishing and pollution",
+     "Creating marine parks"
+    ]
+   },
+   {
+    "question": "What are coral reefs made of?",
+    "answer": "Skeletons of tiny animals called coral polyps",
+    "choices": [
+     "Skeletons of tiny animals called coral polyps",
+     "Rocks from volcanoes only",
+     "Plants",
+     "Sand"
+    ]
+   },
+   {
+    "question": "What is one threat to coral reefs?",
+    "answer": "Ocean acidification from extra carbon dioxide",
+    "choices": [
+     "Snowfall",
+     "Moonlight",
+     "Too many penguins",
+     "Ocean acidification from extra carbon dioxide"
+    ]
+   },
+   {
+    "question": "Why do corals need clear, shallow water?",
+    "answer": "Algae living inside them need sunlight",
+    "choices": [
+     "Algae living inside them need sunlight",
+     "Corals breathe air",
+     "Deep water is too warm",
+     "Corals hate fish"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsGroundW",
+  "subject": "science",
+  "title": "Evaluate claims about natural resource use: groundwater",
+  "section": "Natural resources and human impacts",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsGroundW6",
+   "sciXsGroundW7",
+   "sciXsGroundW8",
+   "sciXsGroundW9",
+   "sciXsGroundW10"
+  ],
+  "examples": [
+   {
+    "question": "Which evidence would support the claim that a town is overusing groundwater?",
+    "answer": "Well water levels dropping year after year",
+    "choices": [
+     "A new park",
+     "Well water levels dropping year after year",
+     "Cooler summers",
+     "More rain this year"
+    ]
+   },
+   {
+    "question": "Claim: Paving large areas reduces groundwater recharge. Is this supported?",
+    "answer": "Yes — rain runs off pavement instead of soaking in",
+    "choices": [
+     "Yes — rain runs off pavement instead of soaking in",
+     "No — rain never soaks in",
+     "No — pavement adds water",
+     "Only in deserts"
+    ]
+   },
+   {
+    "question": "What is an aquifer?",
+    "answer": "An underground layer of rock or sediment that holds water",
+    "choices": [
+     "An underground layer of rock or sediment that holds water",
+     "A water bottle",
+     "A river on the surface",
+     "A type of cloud"
+    ]
+   },
+   {
+    "question": "Claim: Pumping groundwater faster than it refills can lower the water table. Is this supported?",
+    "answer": "Yes — wells go dry when water is removed faster than rain recharges it",
+    "choices": [
+     "Only in oceans",
+     "No — groundwater refills instantly",
+     "Yes — wells go dry when water is removed faster than rain recharges it",
+     "No — groundwater never runs out"
+    ]
+   },
+   {
+    "question": "How can farms reduce groundwater use?",
+    "answer": "Use drip irrigation",
+    "choices": [
+     "Use drip irrigation",
+     "Flood the fields",
+     "Water at noon in summer",
+     "Plant thirsty crops in deserts"
+    ]
+   },
+   {
+    "question": "What happens near the coast if too much groundwater is pumped?",
+    "answer": "Salt water can move into the aquifer",
+    "choices": [
+     "The ocean dries up",
+     "Nothing",
+     "The aquifer freezes",
+     "Salt water can move into the aquifer"
+    ]
+   },
+   {
+    "question": "Claim: Groundwater can be polluted by leaking fuel tanks. Is it supported?",
+    "answer": "Yes — chemicals can seep down into aquifers",
+    "choices": [
+     "No — groundwater is always pure",
+     "No — soil blocks everything",
+     "Only in oceans",
+     "Yes — chemicals can seep down into aquifers"
+    ]
+   },
+   {
+    "question": "Claim: Reducing lawn watering helps protect groundwater supplies. Which evidence supports it?",
+    "answer": "Water-use limits in summer slowed the drop in the town's water table",
+    "choices": [
+     "People like gardens",
+     "Lawns are green",
+     "Sprinklers are noisy",
+     "Water-use limits in summer slowed the drop in the town's water table"
+    ]
+   },
+   {
+    "question": "Which evidence shows an aquifer is being overused?",
+    "answer": "The water table drops year after year",
+    "choices": [
+     "The water table drops year after year",
+     "Wells are painted",
+     "The town got bigger signs",
+     "It rained more"
+    ]
+   },
+   {
+    "question": "How long can it take some aquifers to refill?",
+    "answer": "Hundreds to thousands of years",
+    "choices": [
+     "One week",
+     "Hundreds to thousands of years",
+     "One day",
+     "One hour"
+    ]
+   },
+   {
+    "question": "Claim: Leaky septic systems can contaminate drinking wells. Which evidence supports it?",
+    "answer": "Wells near failing septic tanks tested positive for bacteria",
+    "choices": [
+     "Wells near failing septic tanks tested positive for bacteria",
+     "Septic tanks are underground",
+     "Wells are deep",
+     "Water is clear"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFossilF",
+  "subject": "science",
+  "title": "Evaluate claims about natural resource use: fossil fuels",
+  "section": "Natural resources and human impacts",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsFossilF6",
+   "sciXsFossilF7",
+   "sciXsFossilF8",
+   "sciXsFossilF9",
+   "sciXsFossilF10"
+  ],
+  "examples": [
+   {
+    "question": "What greenhouse gas is released when fossil fuels burn?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "Helium",
+     "Carbon dioxide",
+     "Nitrogen",
+     "Oxygen"
+    ]
+   },
+   {
+    "question": "Why are fossil fuels nonrenewable?",
+    "answer": "They take millions of years to form",
+    "choices": [
+     "They are made by people",
+     "They take millions of years to form",
+     "They regrow each year",
+     "They come from wind"
+    ]
+   },
+   {
+    "question": "Why do some countries still rely on fossil fuels?",
+    "answer": "They are energy-dense and existing systems are built for them",
+    "choices": [
+     "They are energy-dense and existing systems are built for them",
+     "They are renewable",
+     "They don't pollute",
+     "They are unlimited"
+    ]
+   },
+   {
+    "question": "Claim: Burning fossil fuels increases carbon dioxide in the atmosphere. Which evidence supports this?",
+    "answer": "Atmospheric CO₂ has risen as fossil-fuel use has increased",
+    "choices": [
+     "Oil floats on water",
+     "Coal is black",
+     "Gas is invisible",
+     "Atmospheric CO₂ has risen as fossil-fuel use has increased"
+    ]
+   },
+   {
+    "question": "Claim: Switching from gas cars to electric cars reduces emissions from driving. Which evidence supports it?",
+    "answer": "Electric cars produce no tailpipe exhaust",
+    "choices": [
+     "Electric cars produce no tailpipe exhaust",
+     "Cars have wheels",
+     "Gas is expensive",
+     "Electric cars are quiet"
+    ]
+   },
+   {
+    "question": "Which is a fossil fuel?",
+    "answer": "Natural gas",
+    "choices": [
+     "Wind",
+     "Moving water",
+     "Natural gas",
+     "Sunlight"
+    ]
+   },
+   {
+    "question": "Claim: Burning coal causes air pollution. Which evidence supports it?",
+    "answer": "Cities near coal plants had more smog and asthma cases",
+    "choices": [
+     "Coal is black",
+     "Cities near coal plants had more smog and asthma cases",
+     "Coal is found underground",
+     "Coal is heavy"
+    ]
+   },
+   {
+    "question": "Claim: Oil spills harm seabirds. Which evidence supports it?",
+    "answer": "After a spill, rescuers recorded thousands of oiled birds that could not fly or stay warm",
+    "choices": [
+     "Seabirds eat fish",
+     "After a spill, rescuers recorded thousands of oiled birds that could not fly or stay warm",
+     "Oil floats",
+     "Birds have feathers"
+    ]
+   },
+   {
+    "question": "What is one environmental risk of transporting oil?",
+    "answer": "Spills that harm wildlife",
+    "choices": [
+     "It plants trees",
+     "There are no risks",
+     "It makes rivers colder",
+     "Spills that harm wildlife"
+    ]
+   },
+   {
+    "question": "Why are fossil fuels nonrenewable?",
+    "answer": "They form over millions of years and are used much faster",
+    "choices": [
+     "They form over millions of years and are used much faster",
+     "They come from the Sun directly",
+     "They are made in factories",
+     "They regrow every year"
+    ]
+   },
+   {
+    "question": "Claim: Natural gas emits less CO₂ than coal for the same energy. Which evidence supports it?",
+    "answer": "Measurements show gas plants release about half the CO₂ per kilowatt-hour",
+    "choices": [
+     "Measurements show gas plants release about half the CO₂ per kilowatt-hour",
+     "Gas is cheaper",
+     "Coal is heavier",
+     "Natural gas is invisible"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAirMExp",
+  "subject": "science",
+  "title": "Explore air masses",
+  "section": "The atmosphere",
+  "grades": [
+   6,
+   8,
+   10
+  ],
+  "skillIds": [
+   "sciXsAirMExp6",
+   "sciXsAirMExp8",
+   "sciXsAirMExp10"
+  ],
+  "examples": [
+   {
+    "question": "A maritime polar air mass is…",
+    "answer": "cold and moist",
+    "choices": [
+     "warm and dry",
+     "cold and moist",
+     "warm and moist",
+     "cold and dry"
+    ]
+   },
+   {
+    "question": "A continental tropical air mass is…",
+    "answer": "warm and dry",
+    "choices": [
+     "warm and moist",
+     "cold and dry",
+     "warm and dry",
+     "cold and moist"
+    ]
+   },
+   {
+    "question": "Which air mass brings very cold winter weather to the Prairies?",
+    "answer": "Continental arctic",
+    "choices": [
+     "Continental tropical",
+     "Maritime tropical",
+     "Maritime polar",
+     "Continental arctic"
+    ]
+   },
+   {
+    "question": "A maritime tropical air mass is…",
+    "answer": "warm and humid",
+    "choices": [
+     "cold and dry",
+     "warm and humid",
+     "cold and humid",
+     "warm and dry"
+    ]
+   },
+   {
+    "question": "What forms where two different air masses meet?",
+    "answer": "A front",
+    "choices": [
+     "A mountain",
+     "An ocean",
+     "A desert",
+     "A front"
+    ]
+   },
+   {
+    "question": "A continental polar air mass is…",
+    "answer": "cold and dry",
+    "choices": [
+     "cold and dry",
+     "warm and dry",
+     "cold and humid",
+     "warm and humid"
+    ]
+   },
+   {
+    "question": "What is an air mass?",
+    "answer": "A large body of air with similar temperature and humidity",
+    "choices": [
+     "A single raindrop",
+     "A cloud",
+     "A large body of air with similar temperature and humidity",
+     "A small breeze"
+    ]
+   },
+   {
+    "question": "What is a warm front?",
+    "answer": "Where warm air moves in over cooler air",
+    "choices": [
+     "Where warm air moves in over cooler air",
+     "A wind from the ocean",
+     "A hot desert",
+     "Where two cold masses meet"
+    ]
+   },
+   {
+    "question": "What is a stationary front?",
+    "answer": "A boundary between air masses that is not moving much",
+    "choices": [
+     "A boundary between air masses that is not moving much",
+     "A fast-moving storm",
+     "A tornado",
+     "A heat wave"
+    ]
+   },
+   {
+    "question": "Which air mass brings humid summer heat to Ontario?",
+    "answer": "Maritime tropical",
+    "choices": [
+     "Maritime tropical",
+     "Continental arctic",
+     "Continental polar",
+     "Maritime polar"
+    ]
+   },
+   {
+    "question": "What happens when a cold air mass pushes under a warm one?",
+    "answer": "The warm air rises, often causing clouds and storms",
+    "choices": [
+     "Nothing",
+     "It always gets sunny",
+     "Snow melts instantly",
+     "The warm air rises, often causing clouds and storms"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciAirMass",
+  "subject": "science",
+  "title": "Identify and compare air masses",
+  "section": "The atmosphere",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciAirMass6",
+   "sciAirMass7",
+   "sciAirMass8",
+   "sciAirMass9",
+   "sciAirMass10"
+  ],
+  "examples": [
+   {
+    "question": "Which air mass forms here? An air mass that brings bitter, dry cold snaps to the prairies in winter.",
+    "answer": "Continental polar",
+    "choices": [
+     "Maritime tropical",
+     "Continental tropical",
+     "Continental polar",
+     "Maritime polar"
+    ]
+   },
+   {
+    "question": "Which air mass forms here? An air mass that brings cool, damp, cloudy weather to the west coast.",
+    "answer": "Maritime polar",
+    "choices": [
+     "Continental polar",
+     "Maritime polar",
+     "Continental tropical",
+     "Maritime tropical"
+    ]
+   },
+   {
+    "question": "Which air mass forms here? An air mass that brings hot, dry heat waves to the southwest.",
+    "answer": "Continental tropical",
+    "choices": [
+     "Maritime polar",
+     "Continental tropical",
+     "Continental polar",
+     "Maritime tropical"
+    ]
+   },
+   {
+    "question": "Which air mass forms here? Over frozen northern Canada — cold and dry.",
+    "answer": "Continental polar",
+    "choices": [
+     "Continental polar",
+     "Continental tropical",
+     "Maritime tropical",
+     "Maritime polar"
+    ]
+   },
+   {
+    "question": "Which air mass forms here? Over the hot deserts of Mexico — warm and dry.",
+    "answer": "Continental tropical",
+    "choices": [
+     "Maritime polar",
+     "Maritime tropical",
+     "Continental tropical",
+     "Continental polar"
+    ]
+   },
+   {
+    "question": "Which air mass forms here? Over the warm Gulf of Mexico — warm and humid.",
+    "answer": "Maritime tropical",
+    "choices": [
+     "Continental tropical",
+     "Maritime polar",
+     "Maritime tropical",
+     "Continental polar"
+    ]
+   },
+   {
+    "question": "Which air mass forms here? Over the cold North Pacific — cold and humid.",
+    "answer": "Maritime polar",
+    "choices": [
+     "Maritime polar",
+     "Maritime tropical",
+     "Continental polar",
+     "Continental tropical"
+    ]
+   },
+   {
+    "question": "Which air mass forms here? An air mass that brings hot, humid summer days to eastern North America.",
+    "answer": "Maritime tropical",
+    "choices": [
+     "Maritime tropical",
+     "Maritime polar",
+     "Continental polar",
+     "Continental tropical"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAirMForm",
+  "subject": "science",
+  "title": "How do air masses form?",
+  "section": "The atmosphere",
+  "grades": [
+   6,
+   8,
+   10
+  ],
+  "skillIds": [
+   "sciXsAirMForm6",
+   "sciXsAirMForm8",
+   "sciXsAirMForm10"
+  ],
+  "examples": [
+   {
+    "question": "How does an air mass get its properties?",
+    "answer": "By staying over one region and taking on its temperature and moisture",
+    "choices": [
+     "By staying over one region and taking on its temperature and moisture",
+     "From the Moon",
+     "By spinning",
+     "From city lights"
+    ]
+   },
+   {
+    "question": "An air mass forms over northern Canada in winter. It will be…",
+    "answer": "cold and dry",
+    "choices": [
+     "cold and dry",
+     "warm and moist",
+     "warm and wet",
+     "hot and dry"
+    ]
+   },
+   {
+    "question": "Why are air masses that form near the equator warm?",
+    "answer": "They form where sunlight is strong",
+    "choices": [
+     "Warm air comes from space",
+     "They are close to the Moon",
+     "The equator is icy",
+     "They form where sunlight is strong"
+    ]
+   },
+   {
+    "question": "An air mass forms over Hudson Bay in winter when it is frozen. What will it be like?",
+    "answer": "Cold and fairly dry",
+    "choices": [
+     "Cold and fairly dry",
+     "Warm and dry",
+     "Hot and humid",
+     "Hot and wet"
+    ]
+   },
+   {
+    "question": "Why must air stay over a region for a while to become an air mass?",
+    "answer": "It needs time to take on that region's temperature and moisture",
+    "choices": [
+     "It must freeze",
+     "It needs time to take on that region's temperature and moisture",
+     "It has to get dark",
+     "It needs to stop spinning"
+    ]
+   },
+   {
+    "question": "An air mass forms over the Gulf of Mexico. It will be…",
+    "answer": "warm and moist",
+    "choices": [
+     "warm and dry",
+     "cold and moist",
+     "cold and dry",
+     "warm and moist"
+    ]
+   },
+   {
+    "question": "Where do continental air masses form?",
+    "answer": "Over large land areas",
+    "choices": [
+     "Underground",
+     "Over oceans",
+     "Over large land areas",
+     "In space"
+    ]
+   },
+   {
+    "question": "Where do maritime air masses form?",
+    "answer": "Over oceans",
+    "choices": [
+     "Over mountains only",
+     "Over oceans",
+     "Over deserts",
+     "Over cities"
+    ]
+   },
+   {
+    "question": "Why does an air mass forming over the Pacific Ocean bring rain to BC?",
+    "answer": "It picks up moisture from the ocean",
+    "choices": [
+     "It is very hot",
+     "The ocean is dry",
+     "Mountains make water",
+     "It picks up moisture from the ocean"
+    ]
+   },
+   {
+    "question": "What happens to an air mass as it moves?",
+    "answer": "It slowly changes as it passes over new surfaces",
+    "choices": [
+     "It never changes",
+     "It slowly changes as it passes over new surfaces",
+     "It turns into a cloud",
+     "It disappears instantly"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciGreenh",
+  "subject": "science",
+  "title": "The greenhouse effect",
+  "section": "The atmosphere",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciGreenh6",
+   "sciGreenh7",
+   "sciGreenh8",
+   "sciGreenh9",
+   "sciGreenh10"
+  ],
+  "examples": [
+   {
+    "question": "Without any greenhouse effect, Earth would be …",
+    "answer": "much colder",
+    "choices": [
+     "much colder",
+     "much hotter",
+     "exactly the same",
+     "underwater"
+    ]
+   },
+   {
+    "question": "Which gas released by cattle and landfills is a strong greenhouse gas?",
+    "answer": "Methane",
+    "choices": [
+     "Oxygen",
+     "Methane",
+     "Neon",
+     "Helium"
+    ]
+   },
+   {
+    "question": "Greenhouse gases warm Earth by …",
+    "answer": "trapping heat in the atmosphere",
+    "choices": [
+     "cooling the oceans",
+     "making more oxygen",
+     "blocking all sunlight",
+     "trapping heat in the atmosphere"
+    ]
+   },
+   {
+    "question": "Which human activity adds the most carbon dioxide to the air?",
+    "answer": "Burning fossil fuels",
+    "choices": [
+     "Riding bikes",
+     "Planting trees",
+     "Recycling paper",
+     "Burning fossil fuels"
+    ]
+   },
+   {
+    "question": "Which gas is the main human-added greenhouse gas?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "Oxygen",
+     "Argon",
+     "Carbon dioxide",
+     "Nitrogen"
+    ]
+   },
+   {
+    "question": "Cutting down forests can increase carbon dioxide because trees …",
+    "answer": "absorb carbon dioxide",
+    "choices": [
+     "absorb carbon dioxide",
+     "block wind",
+     "release oxygen only at night",
+     "make carbon dioxide"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciAtmLay",
+  "subject": "science",
+  "title": "Layers of the atmosphere",
+  "section": "The atmosphere",
+  "grades": [
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciAtmLay6",
+   "sciAtmLay8"
+  ],
+  "examples": [
+   {
+    "question": "Where do auroras happen?",
+    "answer": "Thermosphere",
+    "choices": [
+     "Troposphere (upper part)",
+     "Thermosphere",
+     "Exosphere",
+     "Mesosphere"
+    ]
+   },
+   {
+    "question": "In which layer does weather happen?",
+    "answer": "Troposphere",
+    "choices": [
+     "Thermosphere",
+     "Mesosphere",
+     "Stratosphere",
+     "Troposphere"
+    ]
+   },
+   {
+    "question": "In which layer do meteors burn up?",
+    "answer": "Mesosphere",
+    "choices": [
+     "Mesosphere",
+     "Exosphere",
+     "Thermosphere",
+     "Troposphere"
+    ]
+   },
+   {
+    "question": "Which layer contains the ozone layer?",
+    "answer": "Stratosphere",
+    "choices": [
+     "Thermosphere",
+     "Stratosphere",
+     "Troposphere",
+     "Mesosphere"
+    ]
+   },
+   {
+    "question": "Which is the outermost layer?",
+    "answer": "Exosphere",
+    "choices": [
+     "Stratosphere",
+     "Exosphere",
+     "Mesosphere",
+     "Thermosphere"
+    ]
+   },
+   {
+    "question": "In which layer do most airliners fly?",
+    "answer": "Troposphere (upper part)",
+    "choices": [
+     "Troposphere (upper part)",
+     "Exosphere",
+     "Stratosphere",
+     "Thermosphere"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsClCurr",
+  "subject": "science",
+  "title": "Factors affecting climate: surface ocean currents",
+  "section": "Weather and climate",
+  "grades": [
+   6,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsClCurr6",
+   "sciXsClCurr8",
+   "sciXsClCurr9",
+   "sciXsClCurr10"
+  ],
+  "examples": [
+   {
+    "question": "How do currents move heat around the planet?",
+    "answer": "Warm water flows toward the poles and cold water toward the equator",
+    "choices": [
+     "They create heat",
+     "Warm water flows toward the poles and cold water toward the equator",
+     "They only move cold water",
+     "They keep heat in one place"
+    ]
+   },
+   {
+    "question": "How do cold currents affect nearby deserts like the Atacama?",
+    "answer": "They cool the air so it holds little moisture, making it dry",
+    "choices": [
+     "They cool the air so it holds little moisture, making it dry",
+     "They have no effect",
+     "They cause floods",
+     "They make it tropical"
+    ]
+   },
+   {
+    "question": "Why does Iceland have milder winters than parts of Canada at similar latitude?",
+    "answer": "Warm currents flow near Iceland",
+    "choices": [
+     "Warm currents flow near Iceland",
+     "Canada is underwater",
+     "Iceland is closer to the Sun",
+     "Iceland has volcanoes everywhere"
+    ]
+   },
+   {
+    "question": "A cold current flows along a coast. Nearby land is likely to be…",
+    "answer": "cooler and drier",
+    "choices": [
+     "warmer and wetter",
+     "tropical",
+     "cooler and drier",
+     "unchanged"
+    ]
+   },
+   {
+    "question": "What drives surface ocean currents?",
+    "answer": "Mainly global winds",
+    "choices": [
+     "Earthquakes",
+     "Fish",
+     "The Moon only",
+     "Mainly global winds"
+    ]
+   },
+   {
+    "question": "The Gulf Stream carries warm water northeast. How does it affect western Europe?",
+    "answer": "It makes winters milder",
+    "choices": [
+     "It has no effect",
+     "It makes winters milder",
+     "It causes deserts",
+     "It makes winters colder"
+    ]
+   },
+   {
+    "question": "What is El Niño?",
+    "answer": "A warming of Pacific waters that changes weather around the world",
+    "choices": [
+     "A cold wind in Canada",
+     "A warming of Pacific waters that changes weather around the world",
+     "A tornado",
+     "A type of fish"
+    ]
+   },
+   {
+    "question": "What drives surface ocean currents?",
+    "answer": "Mainly wind",
+    "choices": [
+     "Earthquakes",
+     "Mainly wind",
+     "The Moon only",
+     "Fish"
+    ]
+   },
+   {
+    "question": "Which current warms the coast of western Europe?",
+    "answer": "The Gulf Stream (North Atlantic Drift)",
+    "choices": [
+     "The California Current",
+     "The Humboldt Current",
+     "The Gulf Stream (North Atlantic Drift)",
+     "The Labrador Current"
+    ]
+   },
+   {
+    "question": "Which cold current cools Newfoundland's coast?",
+    "answer": "The Labrador Current",
+    "choices": [
+     "The Kuroshio Current",
+     "The Brazil Current",
+     "The Labrador Current",
+     "The Gulf Stream"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciClimFac",
+  "subject": "science",
+  "title": "Factors affecting climate",
+  "section": "Weather and climate",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciClimFac6",
+   "sciClimFac7",
+   "sciClimFac8",
+   "sciClimFac9",
+   "sciClimFac10"
+  ],
+  "examples": [
+   {
+    "question": "Places far from the equator receive sunlight …",
+    "answer": "at a lower angle",
+    "choices": [
+     "for 24 hours every day",
+     "at a lower angle",
+     "more directly",
+     "only in winter"
+    ]
+   },
+   {
+    "question": "A warm ocean current flowing past a coast makes the nearby land …",
+    "answer": "warmer",
+    "choices": [
+     "windless",
+     "drier",
+     "warmer",
+     "colder"
+    ]
+   },
+   {
+    "question": "Coastal cities often have milder temperatures than inland cities because water …",
+    "answer": "heats and cools slowly",
+    "choices": [
+     "creates wind only",
+     "blocks the sun",
+     "heats and cools quickly",
+     "heats and cools slowly"
+    ]
+   },
+   {
+    "question": "Places near the equator are usually warmer because of their …",
+    "answer": "latitude",
+    "choices": [
+     "population",
+     "latitude",
+     "longitude",
+     "time zone"
+    ]
+   },
+   {
+    "question": "Mountain tops are colder than nearby valleys because of their …",
+    "answer": "altitude",
+    "choices": [
+     "soil type",
+     "latitude",
+     "longitude",
+     "altitude"
+    ]
+   },
+   {
+    "question": "The side of a mountain facing moist ocean winds is usually …",
+    "answer": "wetter",
+    "choices": [
+     "colder than the top",
+     "windless",
+     "drier",
+     "wetter"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsESM",
+  "subject": "science",
+  "title": "Analyze models of the Earth-Sun-Moon system",
+  "section": "Astronomy",
+  "grades": [
+   6,
+   9
+  ],
+  "skillIds": [
+   "sciXsESM6",
+   "sciXsESM9"
+  ],
+  "examples": [
+   {
+    "question": "A model shows the Moon orbiting Earth and Earth orbiting the Sun. What does it explain?",
+    "answer": "Moon phases, eclipses and seasons",
+    "choices": [
+     "Volcanoes",
+     "Moon phases, eclipses and seasons",
+     "Earthquakes",
+     "Ocean saltiness"
+    ]
+   },
+   {
+    "question": "In summer in Canada, which way is the Northern Hemisphere tilted?",
+    "answer": "Toward the Sun",
+    "choices": [
+     "Not tilted",
+     "Away from the Sun",
+     "Toward the Moon",
+     "Toward the Sun"
+    ]
+   },
+   {
+    "question": "What causes the phases of the Moon?",
+    "answer": "Seeing different amounts of the Moon's sunlit half as it orbits Earth",
+    "choices": [
+     "The Moon changing shape",
+     "Seeing different amounts of the Moon's sunlit half as it orbits Earth",
+     "Earth's shadow on the Moon",
+     "Clouds covering the Moon"
+    ]
+   },
+   {
+    "question": "What causes high and low tides?",
+    "answer": "Mainly the Moon's gravity pulling on Earth's oceans",
+    "choices": [
+     "Wind",
+     "Earthquakes",
+     "The Sun's heat only",
+     "Mainly the Moon's gravity pulling on Earth's oceans"
+    ]
+   },
+   {
+    "question": "How long does the Moon take to orbit Earth?",
+    "answer": "About 27 days",
+    "choices": [
+     "About 1 hour",
+     "About 1 year",
+     "About 1 day",
+     "About 27 days"
+    ]
+   },
+   {
+    "question": "Why do seasons in Australia happen opposite to Canada's?",
+    "answer": "The hemispheres tilt toward the Sun at opposite times",
+    "choices": [
+     "The Moon causes it",
+     "Australia has no seasons",
+     "Australia is closer to the Sun",
+     "The hemispheres tilt toward the Sun at opposite times"
+    ]
+   },
+   {
+    "question": "How long does Earth take to orbit the Sun?",
+    "answer": "About 365 days",
+    "choices": [
+     "About 27 days",
+     "About 24 hours",
+     "About 365 days",
+     "About 10 years"
+    ]
+   },
+   {
+    "question": "What phase is the Moon when it is between Earth and the Sun?",
+    "answer": "New moon",
+    "choices": [
+     "New moon",
+     "First quarter",
+     "Third quarter",
+     "Full moon"
+    ]
+   },
+   {
+    "question": "What causes seasons on Earth?",
+    "answer": "The tilt of Earth's axis",
+    "choices": [
+     "Earth's distance from the Sun",
+     "The Moon's phases",
+     "The tilt of Earth's axis",
+     "The Sun's size changing"
+    ]
+   },
+   {
+    "question": "Why do we always see the same side of the Moon?",
+    "answer": "The Moon rotates once for each orbit around Earth",
+    "choices": [
+     "Earth blocks the other side",
+     "The other side is dark forever",
+     "The Moon does not rotate",
+     "The Moon rotates once for each orbit around Earth"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLunEcl",
+  "subject": "science",
+  "title": "Lunar eclipses",
+  "section": "Astronomy",
+  "grades": [
+   6,
+   9
+  ],
+  "skillIds": [
+   "sciXsLunEcl6",
+   "sciXsLunEcl9"
+  ],
+  "examples": [
+   {
+    "question": "How long can a total lunar eclipse last?",
+    "answer": "Up to about an hour and 40 minutes",
+    "choices": [
+     "A few seconds",
+     "A full year",
+     "Up to about an hour and 40 minutes",
+     "A whole week"
+    ]
+   },
+   {
+    "question": "During a lunar eclipse, what blocks sunlight from reaching the Moon?",
+    "answer": "Earth",
+    "choices": [
+     "The Sun",
+     "Clouds",
+     "Mars",
+     "Earth"
+    ]
+   },
+   {
+    "question": "What is the darkest part of Earth's shadow called?",
+    "answer": "The umbra",
+    "choices": [
+     "The umbra",
+     "The corona",
+     "The penumbra",
+     "The crescent"
+    ]
+   },
+   {
+    "question": "During which Moon phase can a lunar eclipse happen?",
+    "answer": "Full moon",
+    "choices": [
+     "First quarter",
+     "Waning crescent",
+     "Full moon",
+     "New moon"
+    ]
+   },
+   {
+    "question": "In what order are the bodies lined up?",
+    "answer": "Sun – Earth – Moon",
+    "choices": [
+     "Moon – Sun – Earth",
+     "Sun – Moon – Earth",
+     "Sun – Earth – Moon",
+     "Earth – Sun – Moon"
+    ]
+   },
+   {
+    "question": "What is the order of bodies during a lunar eclipse?",
+    "answer": "Sun – Earth – Moon",
+    "choices": [
+     "Moon – Sun – Earth",
+     "Sun – Moon – Earth",
+     "Sun – Earth – Moon",
+     "Earth – Sun – Moon"
+    ]
+   },
+   {
+    "question": "Why don't lunar eclipses happen every full moon?",
+    "answer": "The Moon's orbit is tilted, so it usually misses Earth's shadow",
+    "choices": [
+     "Earth stops",
+     "The Moon stops",
+     "The Sun moves",
+     "The Moon's orbit is tilted, so it usually misses Earth's shadow"
+    ]
+   },
+   {
+    "question": "Is it safe to look at a lunar eclipse without special glasses?",
+    "answer": "Yes",
+    "choices": [
+     "Yes",
+     "Only with sunglasses",
+     "No, never",
+     "Only through a telescope"
+    ]
+   },
+   {
+    "question": "Who can see a lunar eclipse?",
+    "answer": "Anyone on the night side of Earth",
+    "choices": [
+     "Anyone on the night side of Earth",
+     "Only astronauts",
+     "Only people at the equator",
+     "Only people in Canada"
+    ]
+   },
+   {
+    "question": "Why does the Moon look red during a total lunar eclipse?",
+    "answer": "Earth's atmosphere bends red sunlight onto the Moon",
+    "choices": [
+     "Earth's atmosphere bends red sunlight onto the Moon",
+     "The Moon is on fire",
+     "Mars reflects light on it",
+     "The Moon heats up"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsUniv",
+  "subject": "science",
+  "title": "Structure of the universe",
+  "section": "Astronomy",
+  "grades": [
+   6,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsUniv6",
+   "sciXsUniv9",
+   "sciXsUniv10"
+  ],
+  "examples": [
+   {
+    "question": "About how many galaxies are in the observable universe?",
+    "answer": "Hundreds of billions or more",
+    "choices": [
+     "About ten",
+     "Only one",
+     "Hundreds of billions or more",
+     "About one hundred"
+    ]
+   },
+   {
+    "question": "What is a galaxy?",
+    "answer": "A huge system of billions of stars, gas and dust held by gravity",
+    "choices": [
+     "A huge system of billions of stars, gas and dust held by gravity",
+     "A planet",
+     "A single star",
+     "A moon"
+    ]
+   },
+   {
+    "question": "What is the nearest large galaxy to the Milky Way?",
+    "answer": "Andromeda",
+    "choices": [
+     "The Sun",
+     "Orion",
+     "Andromeda",
+     "Jupiter"
+    ]
+   },
+   {
+    "question": "What holds galaxies together?",
+    "answer": "Gravity",
+    "choices": [
+     "Magnetism only",
+     "Light",
+     "Wind",
+     "Gravity"
+    ]
+   },
+   {
+    "question": "What is our galaxy called?",
+    "answer": "The Milky Way",
+    "choices": [
+     "The Solar System",
+     "The Milky Way",
+     "Orion",
+     "Andromeda"
+    ]
+   },
+   {
+    "question": "What is a nebula?",
+    "answer": "A cloud of gas and dust where stars can form",
+    "choices": [
+     "A comet's tail",
+     "A dead planet",
+     "A cloud of gas and dust where stars can form",
+     "A black hole"
+    ]
+   },
+   {
+    "question": "Which is the smallest?",
+    "answer": "Earth",
+    "choices": [
+     "The Milky Way",
+     "The universe",
+     "The solar system",
+     "Earth"
+    ]
+   },
+   {
+    "question": "Which list is in order from smallest to largest?",
+    "answer": "planet, solar system, galaxy, universe",
+    "choices": [
+     "universe, galaxy, solar system, planet",
+     "galaxy, planet, universe, solar system",
+     "solar system, planet, galaxy, universe",
+     "planet, solar system, galaxy, universe"
+    ]
+   },
+   {
+    "question": "Light from a star 10 light-years away left the star…",
+    "answer": "10 years ago",
+    "choices": [
+     "100 years ago",
+     "just now",
+     "10 days ago",
+     "10 years ago"
+    ]
+   },
+   {
+    "question": "What is a light-year?",
+    "answer": "The distance light travels in one year",
+    "choices": [
+     "The time a star lives",
+     "The brightness of a star",
+     "One year on another planet",
+     "The distance light travels in one year"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsGalax",
+  "subject": "science",
+  "title": "Describe and classify galaxies",
+  "section": "Astronomy",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciXsGalax6"
+  ],
+  "examples": [
+   {
+    "question": "What type of galaxy is described? A flat, rotating disk with curved arms",
+    "answer": "Spiral",
+    "choices": [
+     "Spiral",
+     "Elliptical",
+     "Irregular"
+    ]
+   },
+   {
+    "question": "What type of galaxy is described? No clear shape",
+    "answer": "Irregular",
+    "choices": [
+     "Irregular",
+     "Elliptical",
+     "Spiral"
+    ]
+   },
+   {
+    "question": "What type of galaxy is described? A giant ball-shaped galaxy with little gas",
+    "answer": "Elliptical",
+    "choices": [
+     "Elliptical",
+     "Irregular",
+     "Spiral"
+    ]
+   },
+   {
+    "question": "What type of galaxy is described? The Milky Way",
+    "answer": "Spiral",
+    "choices": [
+     "Irregular",
+     "Spiral",
+     "Elliptical"
+    ]
+   },
+   {
+    "question": "What type of galaxy is described? The Large Magellanic Cloud",
+    "answer": "Irregular",
+    "choices": [
+     "Elliptical",
+     "Irregular",
+     "Spiral"
+    ]
+   },
+   {
+    "question": "What type of galaxy is described? A smooth, oval or round shape with older stars",
+    "answer": "Elliptical",
+    "choices": [
+     "Irregular",
+     "Spiral",
+     "Elliptical"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPlates",
+  "subject": "science",
+  "title": "Tectonic plate boundaries",
+  "section": "Plate tectonics",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciPlates6",
+   "sciPlates7",
+   "sciPlates8",
+   "sciPlates9",
+   "sciPlates10"
+  ],
+  "examples": [
+   {
+    "question": "Which type of plate boundary is described? New ocean floor forms as magma rises.",
+    "answer": "Divergent",
+    "choices": [
+     "Transform",
+     "Convergent",
+     "Divergent"
+    ]
+   },
+   {
+    "question": "Which type of plate boundary is described? Plates collide and form mountains such as the Himalayas.",
+    "answer": "Convergent",
+    "choices": [
+     "Convergent",
+     "Divergent",
+     "Transform"
+    ]
+   },
+   {
+    "question": "Which type of plate boundary is described? A rift valley opens in East Africa.",
+    "answer": "Divergent",
+    "choices": [
+     "Divergent",
+     "Transform",
+     "Convergent"
+    ]
+   },
+   {
+    "question": "Which type of plate boundary is described? A chain of volcanoes forms where one plate sinks under another.",
+    "answer": "Convergent",
+    "choices": [
+     "Transform",
+     "Divergent",
+     "Convergent"
+    ]
+   },
+   {
+    "question": "Which type of plate boundary is described? Plates move apart at the Mid-Atlantic Ridge.",
+    "answer": "Divergent",
+    "choices": [
+     "Transform",
+     "Convergent",
+     "Divergent"
+    ]
+   },
+   {
+    "question": "Which type of plate boundary is described? An ocean plate sinks under a continental plate, forming a trench.",
+    "answer": "Convergent",
+    "choices": [
+     "Divergent",
+     "Convergent",
+     "Transform"
+    ]
+   },
+   {
+    "question": "Which type of plate boundary is described? Crust is neither made nor destroyed, but earthquakes are common.",
+    "answer": "Transform",
+    "choices": [
+     "Transform",
+     "Divergent",
+     "Convergent"
+    ]
+   },
+   {
+    "question": "Which type of plate boundary is described? Plates slide past each other along the San Andreas Fault.",
+    "answer": "Transform",
+    "choices": [
+     "Transform",
+     "Divergent",
+     "Convergent"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAtomEl",
+  "subject": "science",
+  "title": "What are atoms and chemical elements?",
+  "section": "Atoms and elements",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsAtomEl7",
+   "sciXsAtomEl9"
+  ],
+  "examples": [
+   {
+    "question": "Which particle has no charge?",
+    "answer": "Neutron",
+    "choices": [
+     "Ion",
+     "Electron",
+     "Proton",
+     "Neutron"
+    ]
+   },
+   {
+    "question": "What determines which element an atom is?",
+    "answer": "The number of protons",
+    "choices": [
+     "Its size",
+     "The number of protons",
+     "The number of neutrons",
+     "The number of electrons"
+    ]
+   },
+   {
+    "question": "What is the symbol for sodium?",
+    "answer": "Na",
+    "choices": [
+     "S",
+     "So",
+     "Na",
+     "Sd"
+    ]
+   },
+   {
+    "question": "Where are protons and neutrons found?",
+    "answer": "In the nucleus",
+    "choices": [
+     "In the nucleus",
+     "In the electron cloud",
+     "Orbiting the nucleus",
+     "Outside the atom"
+    ]
+   },
+   {
+    "question": "Which is NOT an element?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "Carbon",
+     "Carbon dioxide",
+     "Oxygen",
+     "Iron"
+    ]
+   },
+   {
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "choices": [
+     "Gd",
+     "Au",
+     "Ag",
+     "Go"
+    ]
+   },
+   {
+    "question": "What is an element?",
+    "answer": "A pure substance made of only one kind of atom",
+    "choices": [
+     "A mixture of atoms",
+     "A pure substance made of only one kind of atom",
+     "A compound",
+     "Any liquid"
+    ]
+   },
+   {
+    "question": "How many elements are on the periodic table today?",
+    "answer": "About 118",
+    "choices": [
+     "About 1,000",
+     "About 12",
+     "About 118",
+     "About 50"
+    ]
+   },
+   {
+    "question": "What is an atom?",
+    "answer": "The smallest unit of an element that keeps its properties",
+    "choices": [
+     "A molecule of water",
+     "A mixture",
+     "A type of cell",
+     "The smallest unit of an element that keeps its properties"
+    ]
+   },
+   {
+    "question": "Which particle has a negative charge?",
+    "answer": "Electron",
+    "choices": [
+     "Electron",
+     "Neutron",
+     "Proton",
+     "Nucleus"
+    ]
+   },
+   {
+    "question": "Which is an element?",
+    "answer": "Oxygen",
+    "choices": [
+     "Salt",
+     "Air",
+     "Oxygen",
+     "Water"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFormMod",
+  "subject": "science",
+  "title": "How are substances represented by chemical formulas and models?",
+  "section": "Modeling matter",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsFormMod7",
+   "sciXsFormMod9"
+  ],
+  "examples": [
+   {
+    "question": "A molecule of carbon dioxide contains 1 C, 2 O atom(s). Which formula represents it?",
+    "answer": "CO₂",
+    "choices": [
+     "CO₂",
+     "NaCl",
+     "NH₃",
+     "H₂O₂"
+    ]
+   },
+   {
+    "question": "A molecule of nitrogen gas contains 2 N atom(s). Which formula represents it?",
+    "answer": "N₂",
+    "choices": [
+     "H₂O₂",
+     "N₂",
+     "H₂O",
+     "NH₃"
+    ]
+   },
+   {
+    "question": "A molecule of glucose contains 6 C, 12 H, 6 O atom(s). Which formula represents it?",
+    "answer": "C₆H₁₂O₆",
+    "choices": [
+     "C₆H₁₂O₆",
+     "CO₂",
+     "H₂O",
+     "CH₄"
+    ]
+   },
+   {
+    "question": "A molecule of methane contains 1 C, 4 H atom(s). Which formula represents it?",
+    "answer": "CH₄",
+    "choices": [
+     "H₂O",
+     "NaCl",
+     "CH₄",
+     "C₆H₁₂O₆"
+    ]
+   },
+   {
+    "question": "A molecule of oxygen gas contains 2 O atom(s). Which formula represents it?",
+    "answer": "O₂",
+    "choices": [
+     "H₂O₂",
+     "NaCl",
+     "CaCO₃",
+     "O₂"
+    ]
+   },
+   {
+    "question": "A molecule of water contains 2 H, 1 O atom(s). Which formula represents it?",
+    "answer": "H₂O",
+    "choices": [
+     "CO₂",
+     "C₆H₁₂O₆",
+     "NaCl",
+     "H₂O"
+    ]
+   },
+   {
+    "question": "A molecule of sodium chloride contains 1 Na, 1 Cl atom(s). Which formula represents it?",
+    "answer": "NaCl",
+    "choices": [
+     "CaCO₃",
+     "H₂O₂",
+     "N₂",
+     "NaCl"
+    ]
+   },
+   {
+    "question": "A molecule of calcium carbonate contains 1 Ca, 1 C, 3 O atom(s). Which formula represents it?",
+    "answer": "CaCO₃",
+    "choices": [
+     "CaCO₃",
+     "O₂",
+     "H₂O₂",
+     "H₂O"
+    ]
+   },
+   {
+    "question": "A molecule of hydrogen peroxide contains 2 H, 2 O atom(s). Which formula represents it?",
+    "answer": "H₂O₂",
+    "choices": [
+     "N₂",
+     "NH₃",
+     "CO₂",
+     "H₂O₂"
+    ]
+   },
+   {
+    "question": "A molecule of ammonia contains 1 N, 3 H atom(s). Which formula represents it?",
+    "answer": "NH₃",
+    "choices": [
+     "CH₄",
+     "CaCO₃",
+     "H₂O₂",
+     "NH₃"
+    ]
+   }
+  ]
+ }
+]

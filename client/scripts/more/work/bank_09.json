@@ -1,0 +1,2365 @@
+[
+ {
+  "key": "engTpAr",
+  "subject": "english",
+  "title": "Read about art, music and traditions",
+  "section": "Informational texts: level 1",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "engTpAr4"
+  ],
+  "examples": [
+   {
+    "question": "The Story of the Piano An original passage written for LearnAce 1 About three hundred years ago in Italy, an instrument maker named Bartolomeo Cristofori built a new keyboard instrument. Earlier keyboards, like the harpsichord, plucked their strings, so every note sounded equally loud. 2 Cristofori's instrument used small hammers to strike the strings. When a player pressed a key gently, the note was soft. When the player pressed hard, the note was loud. He named it the \"gravicembalo col piano e forte\" — the \"harpsichord with soft and loud.\" Over time, people shortened the name to piano. How was Cristofori's instrument different?",
+    "answer": "Hammers struck the strings, so notes could be soft or loud",
+    "choices": [
+     "Hammers struck the strings, so notes could be soft or loud",
+     "It was played with a bow",
+     "It had no strings",
+     "It was smaller"
+    ]
+   },
+   {
+    "question": "The Inuksuk An original passage written for LearnAce 1 Across the Arctic stand stone figures called inuksuit (the singular is inuksuk). The word comes from Inuktitut and means \"to act in the capacity of a human.\" For thousands of years, Inuit have built these stone structures for many purposes. 2 Some inuksuit mark a good place to fish or hunt. Others point the way home across the open tundra, where there are few trees or landmarks. Certain arrangements warned travellers of danger, such as thin ice. A few are sacred and are treated with great respect. 3 Building an inuksuk takes skill. Stones must be balanced carefully so the structure can stand for generations in fierce Arctic winds. 4 Today the inuksuk is a symbol of Canada and appears on the flag of Nunavut. For many people it represents leadership, cooperation and the importance of helping others find their way. Which purpose is NOT mentioned in the passage?",
+    "answer": "Marking the border between two countries",
+    "choices": [
+     "Pointing the way home",
+     "Warning of thin ice",
+     "Marking a good fishing spot",
+     "Marking the border between two countries"
+    ]
+   },
+   {
+    "question": "The Drums of the Powwow An original passage written for LearnAce 1 At a powwow, a gathering held by many First Nations, the sound of the drum can be heard long before you see the dancers. The drum is often called the heartbeat of the powwow. 2 A group of singers sits around one large drum, striking it together in a steady rhythm while they sing. Dancers wearing beautiful regalia — outfits decorated with beads, feathers and ribbons — move in time with the beat. 3 Powwows celebrate culture, friendship and community. Visitors are often welcome, but they are asked to follow the rules, such as not taking photos during certain sacred songs. Why is the drum called the heartbeat of the powwow?",
+    "answer": "Its steady rhythm is at the centre of the singing and dancing",
+    "choices": [
+     "It is very quiet",
+     "It is shaped like a heart",
+     "It is played only once",
+     "Its steady rhythm is at the centre of the singing and dancing"
+    ]
+   },
+   {
+    "question": "The Story of the Piano An original passage written for LearnAce 1 About three hundred years ago in Italy, an instrument maker named Bartolomeo Cristofori built a new keyboard instrument. Earlier keyboards, like the harpsichord, plucked their strings, so every note sounded equally loud. 2 Cristofori's instrument used small hammers to strike the strings. When a player pressed a key gently, the note was soft. When the player pressed hard, the note was loud. He named it the \"gravicembalo col piano e forte\" — the \"harpsichord with soft and loud.\" Over time, people shortened the name to piano. How is the passage organized?",
+    "answer": "It compares an old instrument with a new invention",
+    "choices": [
+     "It argues pianos are best",
+     "It gives steps for playing piano",
+     "It compares an old instrument with a new invention",
+     "It tells a fictional story"
+    ]
+   },
+   {
+    "question": "The Drums of the Powwow An original passage written for LearnAce 1 At a powwow, a gathering held by many First Nations, the sound of the drum can be heard long before you see the dancers. The drum is often called the heartbeat of the powwow. 2 A group of singers sits around one large drum, striking it together in a steady rhythm while they sing. Dancers wearing beautiful regalia — outfits decorated with beads, feathers and ribbons — move in time with the beat. 3 Powwows celebrate culture, friendship and community. Visitors are often welcome, but they are asked to follow the rules, such as not taking photos during certain sacred songs. What do powwows celebrate?",
+    "answer": "Culture, friendship and community",
+    "choices": [
+     "Culture, friendship and community",
+     "Birthdays only",
+     "The end of school",
+     "Sports victories"
+    ]
+   },
+   {
+    "question": "The Inuksuk An original passage written for LearnAce 1 Across the Arctic stand stone figures called inuksuit (the singular is inuksuk). The word comes from Inuktitut and means \"to act in the capacity of a human.\" For thousands of years, Inuit have built these stone structures for many purposes. 2 Some inuksuit mark a good place to fish or hunt. Others point the way home across the open tundra, where there are few trees or landmarks. Certain arrangements warned travellers of danger, such as thin ice. A few are sacred and are treated with great respect. 3 Building an inuksuk takes skill. Stones must be balanced carefully so the structure can stand for generations in fierce Arctic winds. 4 Today the inuksuk is a symbol of Canada and appears on the flag of Nunavut. For many people it represents leadership, cooperation and the importance of helping others find their way. What does paragraph 4 mainly explain?",
+    "answer": "What the inuksuk represents today",
+    "choices": [
+     "Why stones are heavy",
+     "How to build an inuksuk",
+     "What the inuksuk represents today",
+     "Where Nunavut is"
+    ]
+   },
+   {
+    "question": "The Inuksuk An original passage written for LearnAce 1 Across the Arctic stand stone figures called inuksuit (the singular is inuksuk). The word comes from Inuktitut and means \"to act in the capacity of a human.\" For thousands of years, Inuit have built these stone structures for many purposes. 2 Some inuksuit mark a good place to fish or hunt. Others point the way home across the open tundra, where there are few trees or landmarks. Certain arrangements warned travellers of danger, such as thin ice. A few are sacred and are treated with great respect. 3 Building an inuksuk takes skill. Stones must be balanced carefully so the structure can stand for generations in fierce Arctic winds. 4 Today the inuksuk is a symbol of Canada and appears on the flag of Nunavut. For many people it represents leadership, cooperation and the importance of helping others find their way. What does the word inuksuk mean?",
+    "answer": "To act in the capacity of a human",
+    "choices": [
+     "A frozen lake",
+     "A hunting tool",
+     "A stone house",
+     "To act in the capacity of a human"
+    ]
+   },
+   {
+    "question": "The Story of the Piano An original passage written for LearnAce 1 About three hundred years ago in Italy, an instrument maker named Bartolomeo Cristofori built a new keyboard instrument. Earlier keyboards, like the harpsichord, plucked their strings, so every note sounded equally loud. 2 Cristofori's instrument used small hammers to strike the strings. When a player pressed a key gently, the note was soft. When the player pressed hard, the note was loud. He named it the \"gravicembalo col piano e forte\" — the \"harpsichord with soft and loud.\" Over time, people shortened the name to piano. Where does the name \"piano\" come from?",
+    "answer": "Part of the Italian phrase meaning \"soft and loud\"",
+    "choices": [
+     "The town where it was made",
+     "Part of the Italian phrase meaning \"soft and loud\"",
+     "The inventor's last name",
+     "The sound it makes"
+    ]
+   },
+   {
+    "question": "The Inuksuk An original passage written for LearnAce 1 Across the Arctic stand stone figures called inuksuit (the singular is inuksuk). The word comes from Inuktitut and means \"to act in the capacity of a human.\" For thousands of years, Inuit have built these stone structures for many purposes. 2 Some inuksuit mark a good place to fish or hunt. Others point the way home across the open tundra, where there are few trees or landmarks. Certain arrangements warned travellers of danger, such as thin ice. A few are sacred and are treated with great respect. 3 Building an inuksuk takes skill. Stones must be balanced carefully so the structure can stand for generations in fierce Arctic winds. 4 Today the inuksuk is a symbol of Canada and appears on the flag of Nunavut. For many people it represents leadership, cooperation and the importance of helping others find their way. As used in paragraph 3, \"fierce\" means …",
+    "answer": "very strong and violent",
+    "choices": [
+     "gentle",
+     "very strong and violent",
+     "quiet",
+     "cold and wet"
+    ]
+   },
+   {
+    "question": "The Drums of the Powwow An original passage written for LearnAce 1 At a powwow, a gathering held by many First Nations, the sound of the drum can be heard long before you see the dancers. The drum is often called the heartbeat of the powwow. 2 A group of singers sits around one large drum, striking it together in a steady rhythm while they sing. Dancers wearing beautiful regalia — outfits decorated with beads, feathers and ribbons — move in time with the beat. 3 Powwows celebrate culture, friendship and community. Visitors are often welcome, but they are asked to follow the rules, such as not taking photos during certain sacred songs. Why might visitors be asked not to take photos during some songs?",
+    "answer": "Those songs are sacred",
+    "choices": [
+     "Photos cost money",
+     "Cameras are too loud",
+     "Those songs are sacred",
+     "The lights are off"
+    ]
+   },
+   {
+    "question": "The Story of the Piano An original passage written for LearnAce 1 About three hundred years ago in Italy, an instrument maker named Bartolomeo Cristofori built a new keyboard instrument. Earlier keyboards, like the harpsichord, plucked their strings, so every note sounded equally loud. 2 Cristofori's instrument used small hammers to strike the strings. When a player pressed a key gently, the note was soft. When the player pressed hard, the note was loud. He named it the \"gravicembalo col piano e forte\" — the \"harpsichord with soft and loud.\" Over time, people shortened the name to piano. What problem did earlier keyboards have?",
+    "answer": "Every note sounded equally loud",
+    "choices": [
+     "They could not be tuned",
+     "Every note sounded equally loud",
+     "They were too heavy",
+     "They had no keys"
+    ]
+   },
+   {
+    "question": "The Drums of the Powwow An original passage written for LearnAce 1 At a powwow, a gathering held by many First Nations, the sound of the drum can be heard long before you see the dancers. The drum is often called the heartbeat of the powwow. 2 A group of singers sits around one large drum, striking it together in a steady rhythm while they sing. Dancers wearing beautiful regalia — outfits decorated with beads, feathers and ribbons — move in time with the beat. 3 Powwows celebrate culture, friendship and community. Visitors are often welcome, but they are asked to follow the rules, such as not taking photos during certain sacred songs. What is regalia?",
+    "answer": "Outfits decorated with beads, feathers and ribbons",
+    "choices": [
+     "A sacred song",
+     "A type of drum",
+     "A kind of food",
+     "Outfits decorated with beads, feathers and ribbons"
+    ]
+   },
+   {
+    "question": "The Inuksuk An original passage written for LearnAce 1 Across the Arctic stand stone figures called inuksuit (the singular is inuksuk). The word comes from Inuktitut and means \"to act in the capacity of a human.\" For thousands of years, Inuit have built these stone structures for many purposes. 2 Some inuksuit mark a good place to fish or hunt. Others point the way home across the open tundra, where there are few trees or landmarks. Certain arrangements warned travellers of danger, such as thin ice. A few are sacred and are treated with great respect. 3 Building an inuksuk takes skill. Stones must be balanced carefully so the structure can stand for generations in fierce Arctic winds. 4 Today the inuksuk is a symbol of Canada and appears on the flag of Nunavut. For many people it represents leadership, cooperation and the importance of helping others find their way. Why were inuksuit useful as direction markers?",
+    "answer": "The tundra has few trees or landmarks",
+    "choices": [
+     "They are very tall buildings",
+     "They glow in the dark",
+     "They are made of ice",
+     "The tundra has few trees or landmarks"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpHi",
+  "subject": "english",
+  "title": "Read about history",
+  "section": "Informational texts: level 2",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpHi4",
+   "engTpHi5"
+  ],
+  "examples": [
+   {
+    "question": "The Underground Railroad An original passage written for LearnAce 1 The Underground Railroad was not a real railroad. It was a secret network of people and safe houses that helped enslaved people in the United States escape to freedom in the 1800s. 2 People who guided escapees were called \"conductors,\" and the safe houses were called \"stations.\" Travelling mostly at night, freedom seekers followed the North Star. Many journeyed all the way to Canada, where slavery had been abolished. 3 Harriet Tubman, who escaped slavery herself, became one of the most famous conductors. She returned again and again to lead others to safety. Why did freedom seekers often travel to Canada?",
+    "answer": "Slavery had been abolished there",
+    "choices": [
+     "Trains went there",
+     "Slavery had been abolished there",
+     "It was closer than any other place",
+     "They had family there"
+    ]
+   },
+   {
+    "question": "The Building of the Canadian Pacific Railway An original passage written for LearnAce 1 When British Columbia joined Canada in 1871, it was promised a railway connecting it to the rest of the country. Building it was an enormous challenge. 2 Workers had to cut through the rocky Canadian Shield and blast tunnels through the Rocky Mountains. Thousands of Chinese labourers did some of the most dangerous work, often for lower pay than other workers, and many lost their lives. 3 On November 7, 1885, the \"last spike\" was hammered in at Craigellachie, B.C. The railway linked Canada from the Atlantic to the Pacific and helped the young country grow. Which group did some of the most dangerous work?",
+    "answer": "Chinese labourers",
+    "choices": [
+     "Chinese labourers",
+     "Government leaders",
+     "Farmers from Europe",
+     "Soldiers"
+    ]
+   },
+   {
+    "question": "The Underground Railroad An original passage written for LearnAce 1 The Underground Railroad was not a real railroad. It was a secret network of people and safe houses that helped enslaved people in the United States escape to freedom in the 1800s. 2 People who guided escapees were called \"conductors,\" and the safe houses were called \"stations.\" Travelling mostly at night, freedom seekers followed the North Star. Many journeyed all the way to Canada, where slavery had been abolished. 3 Harriet Tubman, who escaped slavery herself, became one of the most famous conductors. She returned again and again to lead others to safety. What was the Underground Railroad?",
+    "answer": "A secret network that helped enslaved people escape",
+    "choices": [
+     "A secret network that helped enslaved people escape",
+     "A train that ran underground",
+     "A tunnel to Canada",
+     "A railroad company"
+    ]
+   },
+   {
+    "question": "The Building of the Canadian Pacific Railway An original passage written for LearnAce 1 When British Columbia joined Canada in 1871, it was promised a railway connecting it to the rest of the country. Building it was an enormous challenge. 2 Workers had to cut through the rocky Canadian Shield and blast tunnels through the Rocky Mountains. Thousands of Chinese labourers did some of the most dangerous work, often for lower pay than other workers, and many lost their lives. 3 On November 7, 1885, the \"last spike\" was hammered in at Craigellachie, B.C. The railway linked Canada from the Atlantic to the Pacific and helped the young country grow. Why was the railway built?",
+    "answer": "Canada promised British Columbia a connection to the rest of the country",
+    "choices": [
+     "To reach the United States",
+     "Canada promised British Columbia a connection to the rest of the country",
+     "To carry tourists only",
+     "To connect two cities in Ontario"
+    ]
+   },
+   {
+    "question": "The Underground Railroad An original passage written for LearnAce 1 The Underground Railroad was not a real railroad. It was a secret network of people and safe houses that helped enslaved people in the United States escape to freedom in the 1800s. 2 People who guided escapees were called \"conductors,\" and the safe houses were called \"stations.\" Travelling mostly at night, freedom seekers followed the North Star. Many journeyed all the way to Canada, where slavery had been abolished. 3 Harriet Tubman, who escaped slavery herself, became one of the most famous conductors. She returned again and again to lead others to safety. Why did travellers follow the North Star?",
+    "answer": "It helped them find their way north at night",
+    "choices": [
+     "It helped them find their way north at night",
+     "It was a signal from conductors",
+     "It warned of danger",
+     "It was the brightest star"
+    ]
+   },
+   {
+    "question": "The Underground Railroad An original passage written for LearnAce 1 The Underground Railroad was not a real railroad. It was a secret network of people and safe houses that helped enslaved people in the United States escape to freedom in the 1800s. 2 People who guided escapees were called \"conductors,\" and the safe houses were called \"stations.\" Travelling mostly at night, freedom seekers followed the North Star. Many journeyed all the way to Canada, where slavery had been abolished. 3 Harriet Tubman, who escaped slavery herself, became one of the most famous conductors. She returned again and again to lead others to safety. What made Harriet Tubman remarkable?",
+    "answer": "After escaping, she returned many times to guide others",
+    "choices": [
+     "She lived in Canada her whole life",
+     "She built a railroad",
+     "She was a train driver",
+     "After escaping, she returned many times to guide others"
+    ]
+   },
+   {
+    "question": "The Building of the Canadian Pacific Railway An original passage written for LearnAce 1 When British Columbia joined Canada in 1871, it was promised a railway connecting it to the rest of the country. Building it was an enormous challenge. 2 Workers had to cut through the rocky Canadian Shield and blast tunnels through the Rocky Mountains. Thousands of Chinese labourers did some of the most dangerous work, often for lower pay than other workers, and many lost their lives. 3 On November 7, 1885, the \"last spike\" was hammered in at Craigellachie, B.C. The railway linked Canada from the Atlantic to the Pacific and helped the young country grow. What does the \"last spike\" represent?",
+    "answer": "The completion of the railway",
+    "choices": [
+     "The first train ride",
+     "The completion of the railway",
+     "A broken tool",
+     "The start of construction"
+    ]
+   },
+   {
+    "question": "The Building of the Canadian Pacific Railway An original passage written for LearnAce 1 When British Columbia joined Canada in 1871, it was promised a railway connecting it to the rest of the country. Building it was an enormous challenge. 2 Workers had to cut through the rocky Canadian Shield and blast tunnels through the Rocky Mountains. Thousands of Chinese labourers did some of the most dangerous work, often for lower pay than other workers, and many lost their lives. 3 On November 7, 1885, the \"last spike\" was hammered in at Craigellachie, B.C. The railway linked Canada from the Atlantic to the Pacific and helped the young country grow. What was one effect of the railway?",
+    "answer": "It linked Canada from coast to coast and helped it grow",
+    "choices": [
+     "It closed the Rocky Mountains",
+     "It made British Columbia leave Canada",
+     "It linked Canada from coast to coast and helped it grow",
+     "It ended all travel by ship"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRmSn",
+  "subject": "english",
+  "title": "Remove the sentence that does not belong",
+  "section": "Organizing writing",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engRmSn4",
+   "engRmSn5"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence does not belong in the paragraph? To plant a seed, dig a small hole. Drop the seed in. My dog likes to play fetch. Cover it with soil and water it.",
+    "answer": "My dog likes to play fetch.",
+    "choices": [
+     "My dog likes to play fetch.",
+     "Cover it with soil and water it.",
+     "To plant a seed, dig a small hole.",
+     "Drop the seed in."
+    ]
+   },
+   {
+    "question": "Which sentence does not belong in the paragraph? Bats are amazing animals. They use sound to find food in the dark. Bananas are a yellow fruit. Some bats eat thousands of insects each night.",
+    "answer": "Bananas are a yellow fruit.",
+    "choices": [
+     "Bats are amazing animals.",
+     "Bananas are a yellow fruit.",
+     "Some bats eat thousands of insects each night.",
+     "They use sound to find food in the dark."
+    ]
+   },
+   {
+    "question": "Which sentence does not belong in the paragraph? Our class went to the science museum. We saw a dinosaur skeleton. Pizza is my favourite food. We also visited the space room.",
+    "answer": "Pizza is my favourite food.",
+    "choices": [
+     "We also visited the space room.",
+     "We saw a dinosaur skeleton.",
+     "Our class went to the science museum.",
+     "Pizza is my favourite food."
+    ]
+   },
+   {
+    "question": "Which sentence does not belong in the paragraph? Winter can be a lot of fun. You can build a snowman or go sledding. I got a new pair of sandals. Skating on a frozen pond is exciting too.",
+    "answer": "I got a new pair of sandals.",
+    "choices": [
+     "Skating on a frozen pond is exciting too.",
+     "I got a new pair of sandals.",
+     "You can build a snowman or go sledding.",
+     "Winter can be a lot of fun."
+    ]
+   },
+   {
+    "question": "Which sentence does not belong in the paragraph? Whales are huge sea mammals. They breathe air through blowholes. My cousin has a red bike. Baby whales drink their mothers' milk.",
+    "answer": "My cousin has a red bike.",
+    "choices": [
+     "Baby whales drink their mothers' milk.",
+     "My cousin has a red bike.",
+     "Whales are huge sea mammals.",
+     "They breathe air through blowholes."
+    ]
+   },
+   {
+    "question": "Which sentence does not belong in the paragraph? Our class pet is a hamster named Pip. Pip runs on his wheel all night. My uncle drives a truck. We take turns feeding Pip.",
+    "answer": "My uncle drives a truck.",
+    "choices": [
+     "Our class pet is a hamster named Pip.",
+     "My uncle drives a truck.",
+     "Pip runs on his wheel all night.",
+     "We take turns feeding Pip."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engClSE",
+  "subject": "english",
+  "title": "Choose the best concluding sentence",
+  "section": "Introductions and conclusions",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engClSE4",
+   "engClSE5"
+  ],
+  "examples": [
+   {
+    "question": "Which concluding sentence best ends this paragraph? Bicycles are a great way to travel. They do not pollute the air. Riding one is good exercise. …",
+    "answer": "Clearly, biking is good for you and for the planet.",
+    "choices": [
+     "Bikes have two wheels.",
+     "Clearly, biking is good for you and for the planet.",
+     "Some bikes are red."
+    ]
+   },
+   {
+    "question": "Which concluding sentence best ends this paragraph? Volunteering helps people in need. It also makes volunteers feel good. It builds stronger neighbourhoods. …",
+    "answer": "Volunteering truly helps everyone involved.",
+    "choices": [
+     "Some volunteers are young.",
+     "Neighbourhoods have streets.",
+     "Volunteering truly helps everyone involved."
+    ]
+   },
+   {
+    "question": "Which concluding sentence best ends this paragraph? Our field trip to the farm was amazing. We milked a cow, fed the goats and picked apples. …",
+    "answer": "It was a day on the farm we will never forget.",
+    "choices": [
+     "Cows say moo.",
+     "Apples grow on trees.",
+     "It was a day on the farm we will never forget."
+    ]
+   },
+   {
+    "question": "Which concluding sentence best ends this paragraph? Reading every day helps you learn new words. It improves your imagination. It is also relaxing. …",
+    "answer": "That is why reading every day is a great habit.",
+    "choices": [
+     "That is why reading every day is a great habit.",
+     "Some books are long.",
+     "Libraries close at night."
+    ]
+   },
+   {
+    "question": "Which concluding sentence best ends this paragraph? Dogs make wonderful pets. They are loyal and loving. They keep you active with walks. …",
+    "answer": "For all these reasons, a dog can be a great friend.",
+    "choices": [
+     "Some dogs are brown.",
+     "Cats like to climb.",
+     "For all these reasons, a dog can be a great friend."
+    ]
+   },
+   {
+    "question": "Which concluding sentence best ends this paragraph? Our class garden was a huge project. We planted seeds, watered them daily and pulled weeds. …",
+    "answer": "In the end, our hard work gave us a beautiful garden.",
+    "choices": [
+     "Seeds are small.",
+     "Weeds are plants.",
+     "In the end, our hard work gave us a beautiful garden."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSdLit",
+  "subject": "english",
+  "title": "Identify supporting details in literary texts",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXSdLit4",
+   "engXSdLit5",
+   "engXSdLit6",
+   "engXSdLit7",
+   "engXSdLit8"
+  ],
+  "examples": [
+   {
+    "question": "Omar was the kindest boy in the class. He shared his crayons, helped the new student find her locker and always said thank you. Which detail supports the idea that Omar is kind?",
+    "answer": "He helped the new student find her locker",
+    "choices": [
+     "He helped the new student find her locker",
+     "He had crayons",
+     "He had a locker",
+     "He was in the class"
+    ]
+   },
+   {
+    "question": "Jada slammed her locker, stomped down the hall and refused to look at anyone. Which detail best supports the idea that Jada is upset?",
+    "answer": "She slammed her locker",
+    "choices": [
+     "She walked down the hall",
+     "She slammed her locker",
+     "She was at school",
+     "She has a locker"
+    ]
+   },
+   {
+    "question": "Aunt Rita was generous. She knitted mittens for every child on the street and never asked for anything in return. Which detail supports that Aunt Rita is generous?",
+    "answer": "She knitted mittens for every child and asked for nothing",
+    "choices": [
+     "She knitted mittens for every child and asked for nothing",
+     "Mittens keep hands warm",
+     "She lived on a street",
+     "She owned yarn"
+    ]
+   },
+   {
+    "question": "The village was celebrating. Lanterns lit the streets, music played and children danced around the square. Which detail supports that the village is celebrating?",
+    "answer": "Children danced while music played",
+    "choices": [
+     "It was night",
+     "The village had streets",
+     "There was a square",
+     "Children danced while music played"
+    ]
+   },
+   {
+    "question": "The house felt spooky. The floorboards creaked, a door slammed by itself and cold air brushed Lily's neck. Which detail best supports the idea that the house is spooky?",
+    "answer": "A door slammed by itself",
+    "choices": [
+     "A door slammed by itself",
+     "The house had floors",
+     "The house had doors",
+     "Lily had a neck"
+    ]
+   },
+   {
+    "question": "Pedro felt nervous about the test. He tapped his pencil, checked the clock again and again, and could not stop his knee from bouncing. Which detail shows Pedro's nervousness?",
+    "answer": "His knee kept bouncing",
+    "choices": [
+     "He had a pencil",
+     "He took a test",
+     "There was a clock",
+     "His knee kept bouncing"
+    ]
+   },
+   {
+    "question": "The old house creaked in the wind. Dust covered every surface, and cobwebs hung from the ceiling. Which detail best supports the idea that the house is abandoned?",
+    "answer": "Dust covered every surface",
+    "choices": [
+     "The house had a ceiling",
+     "The wind was blowing",
+     "It was a house",
+     "Dust covered every surface"
+    ]
+   },
+   {
+    "question": "The old dog was loyal. Every evening at six, he waited by the gate for his owner to come home. Which detail supports that the dog is loyal?",
+    "answer": "He waited by the gate every evening",
+    "choices": [
+     "The gate was wooden",
+     "He waited by the gate every evening",
+     "It was six o'clock",
+     "He was old"
+    ]
+   },
+   {
+    "question": "Ben practised the piano every morning before school and every night after dinner. Which detail best supports the idea that Ben is dedicated?",
+    "answer": "He practised every morning and every night",
+    "choices": [
+     "He ate dinner",
+     "He practised every morning and every night",
+     "He went to school",
+     "He has a piano"
+    ]
+   },
+   {
+    "question": "Nell was determined to finish the marathon. Even when her legs cramped, she kept running, step by painful step. Which detail shows Nell is determined?",
+    "answer": "She kept running even when her legs cramped",
+    "choices": [
+     "She ran a marathon",
+     "She kept running even when her legs cramped",
+     "She was named Nell",
+     "She had legs"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSdInf",
+  "subject": "english",
+  "title": "Identify supporting details in informational texts",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXSdInf4",
+   "engXSdInf5",
+   "engXSdInf6",
+   "engXSdInf7",
+   "engXSdInf8"
+  ],
+  "examples": [
+   {
+    "question": "Sea otters help kelp forests survive. They eat sea urchins, which would otherwise chew through the kelp. Which detail supports the idea that sea otters help kelp forests?",
+    "answer": "They eat sea urchins that chew through kelp",
+    "choices": [
+     "Kelp is green",
+     "Sea otters are furry",
+     "Urchins are spiny",
+     "They eat sea urchins that chew through kelp"
+    ]
+   },
+   {
+    "question": "Recycling saves resources. Making cans from recycled aluminum uses about 95 percent less energy than making them from new metal. Which detail best supports the main idea?",
+    "answer": "Recycled aluminum uses 95 percent less energy",
+    "choices": [
+     "Recycled aluminum uses 95 percent less energy",
+     "People drink from cans",
+     "Aluminum is shiny",
+     "Cans are made of metal"
+    ]
+   },
+   {
+    "question": "Cheetahs are the fastest land animals. They can reach 110 km/h in about three seconds, and their long tails help them balance in sharp turns. Which detail best supports the idea that cheetahs are built for speed?",
+    "answer": "They can reach 110 km/h in about three seconds",
+    "choices": [
+     "They have tails",
+     "They are animals",
+     "They can reach 110 km/h in about three seconds",
+     "They live on land"
+    ]
+   },
+   {
+    "question": "Walking is great exercise. It strengthens the heart, needs no equipment and can be done almost anywhere. Which detail supports the idea that walking is great exercise?",
+    "answer": "It strengthens the heart",
+    "choices": [
+     "Some people walk dogs",
+     "It strengthens the heart",
+     "Shoes come in many colours",
+     "Sidewalks are grey"
+    ]
+   },
+   {
+    "question": "Honeybees communicate with dances. A bee that finds flowers performs a \"waggle dance\" that shows other bees the direction to the food. Which detail supports the main idea?",
+    "answer": "The waggle dance shows the direction to food",
+    "choices": [
+     "Bees make honey",
+     "Bees live in hives",
+     "Flowers are colourful",
+     "The waggle dance shows the direction to food"
+    ]
+   },
+   {
+    "question": "Canada has many official symbols. The beaver, the maple leaf and the Canadian horse have all been named national symbols. Which detail supports the main idea?",
+    "answer": "The beaver and maple leaf are national symbols",
+    "choices": [
+     "Beavers build dams",
+     "The beaver and maple leaf are national symbols",
+     "Horses are fast",
+     "Maple trees turn red"
+    ]
+   },
+   {
+    "question": "Recess helps students learn. Studies show that children who take breaks pay more attention in class afterward. Which detail supports the main idea?",
+    "answer": "Children who take breaks pay more attention afterward",
+    "choices": [
+     "Children who take breaks pay more attention afterward",
+     "Children like games",
+     "Recess is outside",
+     "Studies are long"
+    ]
+   },
+   {
+    "question": "Plastic is a problem for oceans. Each year, millions of tonnes of plastic wash into the sea, where animals can mistake it for food. Which detail supports the main idea?",
+    "answer": "Animals can mistake plastic for food",
+    "choices": [
+     "Some bottles are blue",
+     "Oceans are salty",
+     "Animals can mistake plastic for food",
+     "Plastic is light"
+    ]
+   },
+   {
+    "question": "Sleep helps students learn. In one study, students who slept eight hours remembered more vocabulary than those who slept five. Which detail best supports the main idea?",
+    "answer": "Students who slept eight hours remembered more",
+    "choices": [
+     "Students who slept eight hours remembered more",
+     "Vocabulary is important",
+     "Students go to school",
+     "Five is less than eight"
+    ]
+   },
+   {
+    "question": "The Trans-Canada Highway connects the country. It runs about 7 800 km from St. John's to Victoria and passes through all ten provinces. Which detail supports the idea that the highway connects Canada?",
+    "answer": "It passes through all ten provinces",
+    "choices": [
+     "It passes through all ten provinces",
+     "It has gas stations",
+     "It is paved",
+     "Cars drive on it"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPlgR",
+  "subject": "english",
+  "title": "Identify and correct plagiarism",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPlgR4",
+   "engPlgR5",
+   "engPlgR6",
+   "engPlgR7",
+   "engPlgR8",
+   "engPlgR9",
+   "engPlgR10",
+   "engPlgR11",
+   "engPlgR12"
+  ],
+  "examples": [
+   {
+    "question": "Is this plagiarism or acceptable use? A student changes a few words in a copied paragraph and does not cite the source.",
+    "answer": "Plagiarism",
+    "choices": [
+     "Acceptable use",
+     "Plagiarism"
+    ]
+   },
+   {
+    "question": "Is this plagiarism or acceptable use? A student uses a well-known fact (water boils at 100°C) without citing.",
+    "answer": "Acceptable use",
+    "choices": [
+     "Plagiarism",
+     "Acceptable use"
+    ]
+   },
+   {
+    "question": "Is this plagiarism or acceptable use? A student summarizes an article in their own words and cites it.",
+    "answer": "Acceptable use",
+    "choices": [
+     "Plagiarism",
+     "Acceptable use"
+    ]
+   },
+   {
+    "question": "Is this plagiarism or acceptable use? A student buys an essay online and submits it as their work.",
+    "answer": "Plagiarism",
+    "choices": [
+     "Acceptable use",
+     "Plagiarism"
+    ]
+   },
+   {
+    "question": "Is this plagiarism or acceptable use? A student reuses their own essay from another class without permission.",
+    "answer": "Plagiarism",
+    "choices": [
+     "Plagiarism",
+     "Acceptable use"
+    ]
+   },
+   {
+    "question": "Is this plagiarism or acceptable use? A student copies two paragraphs from a website and hands them in as their own.",
+    "answer": "Plagiarism",
+    "choices": [
+     "Acceptable use",
+     "Plagiarism"
+    ]
+   },
+   {
+    "question": "Is this plagiarism or acceptable use? A student uses a graph from a report and credits the report below the graph.",
+    "answer": "Acceptable use",
+    "choices": [
+     "Acceptable use",
+     "Plagiarism"
+    ]
+   },
+   {
+    "question": "Is this plagiarism or acceptable use? A student quotes a sentence in quotation marks with a citation.",
+    "answer": "Acceptable use",
+    "choices": [
+     "Plagiarism",
+     "Acceptable use"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRtMw",
+  "subject": "english",
+  "title": "Use the meanings of words as clues to the meanings of Greek and Latin roots",
+  "section": "Greek and Latin roots",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXRtMw4",
+   "engXRtMw5",
+   "engXRtMw6"
+  ],
+  "examples": [
+   {
+    "question": "Look at these words: rupture, erupt, interrupt . What does the root rupt most likely mean?",
+    "answer": "break",
+    "choices": [
+     "carry",
+     "build",
+     "break",
+     "see"
+    ]
+   },
+   {
+    "question": "Look at these words: transport, portable, export . What does the root port most likely mean?",
+    "answer": "carry",
+    "choices": [
+     "look",
+     "build",
+     "carry",
+     "break"
+    ]
+   },
+   {
+    "question": "Look at these words: autograph, paragraph, graphic . What does the root graph most likely mean?",
+    "answer": "write",
+    "choices": [
+     "carry",
+     "measure",
+     "write",
+     "see"
+    ]
+   },
+   {
+    "question": "Look at these words: tractor, attract, subtract . What does the root tract most likely mean?",
+    "answer": "pull",
+    "choices": [
+     "push",
+     "look",
+     "write",
+     "pull"
+    ]
+   },
+   {
+    "question": "Look at these words: dictate, predict, dictionary . What does the root dict most likely mean?",
+    "answer": "say",
+    "choices": [
+     "pull",
+     "hear",
+     "say",
+     "write"
+    ]
+   },
+   {
+    "question": "Look at these words: construct, structure, instruct . What does the root struct most likely mean?",
+    "answer": "build",
+    "choices": [
+     "break",
+     "say",
+     "build",
+     "look"
+    ]
+   },
+   {
+    "question": "Look at these words: spectator, inspect, spectacles . What does the root spect most likely mean?",
+    "answer": "look",
+    "choices": [
+     "write",
+     "carry",
+     "hear",
+     "look"
+    ]
+   },
+   {
+    "question": "Look at these words: audience, audible, audio . What does the root aud most likely mean?",
+    "answer": "hear",
+    "choices": [
+     "move",
+     "hear",
+     "speak",
+     "see"
+    ]
+   },
+   {
+    "question": "Look at these words: biology, biography, antibiotic . What does the root bio most likely mean?",
+    "answer": "life",
+    "choices": [
+     "star",
+     "earth",
+     "life",
+     "water"
+    ]
+   },
+   {
+    "question": "Look at these words: telephone, symphony, phonics . What does the root phon most likely mean?",
+    "answer": "sound",
+    "choices": [
+     "water",
+     "earth",
+     "light",
+     "sound"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRtMt",
+  "subject": "english",
+  "title": "Match words with Greek and Latin roots to their meanings",
+  "section": "Greek and Latin roots",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXRtMt4",
+   "engXRtMt5"
+  ],
+  "examples": [
+   {
+    "question": "What does telescope mean?",
+    "answer": "a tool for seeing far away",
+    "choices": [
+     "a long phone call",
+     "a tool for seeing far away",
+     "a tiny picture",
+     "a tool for hearing"
+    ]
+   },
+   {
+    "question": "What does transport mean?",
+    "answer": "to carry across",
+    "choices": [
+     "to break apart",
+     "to look closely",
+     "to carry across",
+     "to write down"
+    ]
+   },
+   {
+    "question": "What does microscope mean?",
+    "answer": "a tool for seeing tiny things",
+    "choices": [
+     "a small phone",
+     "a tool for seeing tiny things",
+     "a tool for measuring heat",
+     "a tiny map"
+    ]
+   },
+   {
+    "question": "What does autograph mean?",
+    "answer": "a person's own signature",
+    "choices": [
+     "a self-driving robot",
+     "a type of graph",
+     "a moving car",
+     "a person's own signature"
+    ]
+   },
+   {
+    "question": "What does biology mean?",
+    "answer": "the study of living things",
+    "choices": [
+     "a life story",
+     "the study of living things",
+     "the study of stars",
+     "the study of rocks"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXIdC",
+  "subject": "english",
+  "title": "Determine the meaning of idioms from context: set 1",
+  "section": "Idioms and adages",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXIdC14",
+   "engXIdC24",
+   "engXIdC15",
+   "engXIdC25",
+   "engXIdC16",
+   "engXIdC26"
+  ],
+  "examples": [
+   {
+    "question": "What does the underlined idiom mean? We only see my uncle once in a blue moon .",
+    "answer": "very rarely",
+    "choices": [
+     "very rarely",
+     "in summer",
+     "every week",
+     "at night"
+    ]
+   },
+   {
+    "question": "What does the underlined idiom mean? Ben has a test tomorrow, so he needs to hit the books tonight.",
+    "answer": "study hard",
+    "choices": [
+     "sleep early",
+     "study hard",
+     "go to the library to play",
+     "throw his books"
+    ]
+   },
+   {
+    "question": "What does the underlined idiom mean? Maya stayed home because she felt under the weather .",
+    "answer": "sick",
+    "choices": [
+     "busy",
+     "sick",
+     "cold",
+     "happy"
+    ]
+   },
+   {
+    "question": "What does the underlined idiom mean? I was nervous on my first day, so the teacher told a joke to break the ice .",
+    "answer": "make people feel more relaxed",
+    "choices": [
+     "end the class",
+     "make people feel more relaxed",
+     "crack the frozen pond",
+     "start a fight"
+    ]
+   },
+   {
+    "question": "What does the underlined idiom mean? That new phone costs an arm and a leg .",
+    "answer": "is very expensive",
+    "choices": [
+     "is free",
+     "is very expensive",
+     "is easy to use",
+     "is broken"
+    ]
+   },
+   {
+    "question": "What does the underlined idiom mean? Don't spill the beans about the surprise party!",
+    "answer": "tell the secret",
+    "choices": [
+     "forget",
+     "tell the secret",
+     "be late",
+     "drop the food"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engIdA",
+  "subject": "english",
+  "title": "Identify the meaning of idioms and adages: set 1",
+  "section": "Idioms and adages",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engIdA14",
+   "engIdA24",
+   "engIdA15",
+   "engIdA25",
+   "engIdA16"
+  ],
+  "examples": [
+   {
+    "question": "What does this mean? We only go there once in a blue moon.",
+    "answer": "We go there very rarely.",
+    "choices": [
+     "We go there very rarely.",
+     "He told a secret.",
+     "She is nervous about the show.",
+     "It is raining very hard."
+    ]
+   },
+   {
+    "question": "What does this mean? It's raining cats and dogs.",
+    "answer": "It is raining very hard.",
+    "choices": [
+     "It is raining very hard.",
+     "Think before you act.",
+     "Good luck!",
+     "Don't tell the secret!"
+    ]
+   },
+   {
+    "question": "What does this mean? I'm feeling under the weather.",
+    "answer": "I feel sick.",
+    "choices": [
+     "She is nervous about the show.",
+     "He told a secret.",
+     "I feel sick.",
+     "The test was very easy."
+    ]
+   },
+   {
+    "question": "What does this mean? Hold your horses!",
+    "answer": "Wait and be patient.",
+    "choices": [
+     "What you do matters more than what you say.",
+     "Wait and be patient.",
+     "People who start early succeed.",
+     "Working together helps solve problems."
+    ]
+   },
+   {
+    "question": "What does this mean? It costs an arm and a leg.",
+    "answer": "It is very expensive.",
+    "choices": [
+     "People who start early succeed.",
+     "What you do matters more than what you say.",
+     "I am extremely happy.",
+     "It is very expensive."
+    ]
+   },
+   {
+    "question": "What does this mean? She has cold feet about the show.",
+    "answer": "She is nervous about the show.",
+    "choices": [
+     "She is nervous about the show.",
+     "Wait and be patient.",
+     "People who start early succeed.",
+     "That will never happen."
+    ]
+   },
+   {
+    "question": "What does this mean? Practice makes perfect.",
+    "answer": "Doing something often makes you better at it.",
+    "choices": [
+     "That will never happen.",
+     "Doing something often makes you better at it.",
+     "Working together helps solve problems.",
+     "What you do matters more than what you say."
+    ]
+   },
+   {
+    "question": "What does this mean? The early bird catches the worm.",
+    "answer": "People who start early succeed.",
+    "choices": [
+     "She is nervous about the show.",
+     "People who start early succeed.",
+     "I feel sick.",
+     "Don't judge something only by how it looks."
+    ]
+   },
+   {
+    "question": "What does this mean? Look before you leap.",
+    "answer": "Think before you act.",
+    "choices": [
+     "He told a secret.",
+     "The test was very easy.",
+     "Think before you act.",
+     "Working together helps solve problems."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFwCx",
+  "subject": "english",
+  "title": "Find words using context",
+  "section": "Context clues",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXFwCx4",
+   "engXFwCx5",
+   "engXFwCx6",
+   "engXFwCx7",
+   "engXFwCx8"
+  ],
+  "examples": [
+   {
+    "question": "Which word completes the sentence? Water turning into vapour is called ___ .",
+    "answer": "evaporation",
+    "choices": [
+     "condensation",
+     "evaporation",
+     "precipitation",
+     "erosion"
+    ]
+   },
+   {
+    "question": "Which word completes the sentence? The ___ of the story is where it takes place.",
+    "answer": "setting",
+    "choices": [
+     "character",
+     "theme",
+     "plot",
+     "setting"
+    ]
+   },
+   {
+    "question": "Which word completes the sentence? A ___ is a person who writes books.",
+    "answer": "author",
+    "choices": [
+     "artist",
+     "actor",
+     "author",
+     "athlete"
+    ]
+   },
+   {
+    "question": "Which word completes the sentence? The doctor listened to my heart with a ___ .",
+    "answer": "stethoscope",
+    "choices": [
+     "microscope",
+     "stethoscope",
+     "telescope",
+     "thermometer"
+    ]
+   },
+   {
+    "question": "Which word completes the sentence? A baby frog is called a ___ .",
+    "answer": "tadpole",
+    "choices": [
+     "cub",
+     "kitten",
+     "tadpole",
+     "calf"
+    ]
+   },
+   {
+    "question": "Which word completes the sentence? We use a ___ to look at tiny cells.",
+    "answer": "microscope",
+    "choices": [
+     "microscope",
+     "telescope",
+     "periscope",
+     "stethoscope"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXDomP",
+  "subject": "english",
+  "title": "Determine the meaning of domain-specific words with pictures",
+  "section": "Context clues",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXDomP4",
+   "engXDomP5",
+   "engXDomP6",
+   "engXDomP7",
+   "engXDomP8"
+  ],
+  "examples": [
+   {
+    "question": "⚖️ What is a balance ?",
+    "answer": "a tool for comparing weights",
+    "choices": [
+     "a tool for measuring length",
+     "a tool for heating",
+     "a map",
+     "a tool for comparing weights"
+    ]
+   },
+   {
+    "question": "🦴 What is a skeleton ?",
+    "answer": "the frame of bones in a body",
+    "choices": [
+     "a type of muscle",
+     "the frame of bones in a body",
+     "a body organ",
+     "a blood vessel"
+    ]
+   },
+   {
+    "question": "🧫 What is a bacteria ?",
+    "answer": "tiny living things seen with a microscope",
+    "choices": [
+     "types of weather",
+     "tiny living things seen with a microscope",
+     "kinds of rocks",
+     "large animals"
+    ]
+   },
+   {
+    "question": "🌋 What is a volcano ?",
+    "answer": "a mountain that can erupt lava",
+    "choices": [
+     "a mountain that can erupt lava",
+     "a frozen river",
+     "a desert storm",
+     "a deep ocean trench"
+    ]
+   },
+   {
+    "question": "🔭 What is a telescope ?",
+    "answer": "a tool for seeing faraway objects",
+    "choices": [
+     "a tool for seeing faraway objects",
+     "a sound recorder",
+     "a weather tool",
+     "a tool for seeing tiny things"
+    ]
+   },
+   {
+    "question": "🌡️ What is a thermometer ?",
+    "answer": "a tool that measures temperature",
+    "choices": [
+     "a tool that measures temperature",
+     "a tool that tells time",
+     "a tool that measures distance",
+     "a tool that measures weight"
+    ]
+   },
+   {
+    "question": "🧲 What is a magnet ?",
+    "answer": "an object that attracts iron",
+    "choices": [
+     "an object that attracts iron",
+     "a kind of battery",
+     "a tool for measuring",
+     "a type of rock"
+    ]
+   },
+   {
+    "question": "🧭 What is a compass ?",
+    "answer": "a tool that shows direction",
+    "choices": [
+     "a tool that shows direction",
+     "a clock",
+     "a tool for weighing",
+     "a ruler"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXThes",
+  "subject": "english",
+  "title": "Use thesaurus entries",
+  "section": "Reference skills",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "engXThes4",
+   "engXThes5",
+   "engXThes6",
+   "engXThes7",
+   "engXThes8",
+   "engXThes9",
+   "engXThes10"
+  ],
+  "examples": [
+   {
+    "question": "walk : stroll, march, stride, tiptoe Which word best completes the sentence? We ___ past the sleeping baby.",
+    "answer": "tiptoed",
+    "choices": [
+     "strode",
+     "tiptoed",
+     "strolled",
+     "marched"
+    ]
+   },
+   {
+    "question": "say : whisper, shout, mumble, announce Which word best completes the sentence? Please ___ so you don't wake the baby.",
+    "answer": "whisper",
+    "choices": [
+     "announce",
+     "whisper",
+     "shout",
+     "mumble"
+    ]
+   },
+   {
+    "question": "happy : content, thrilled, cheerful, relieved Which word best completes the sentence? He was ___ to win the championship!",
+    "answer": "thrilled",
+    "choices": [
+     "relieved",
+     "thrilled",
+     "cheerful",
+     "content"
+    ]
+   },
+   {
+    "question": "walk : stroll, march, stride, tiptoe Which word best completes the sentence? The soldiers ___ in a straight line.",
+    "answer": "marched",
+    "choices": [
+     "marched",
+     "strolled",
+     "strode",
+     "tiptoed"
+    ]
+   },
+   {
+    "question": "happy : content, thrilled, cheerful, relieved Which word best completes the sentence? She was ___ that the test was finally over.",
+    "answer": "relieved",
+    "choices": [
+     "content",
+     "thrilled",
+     "relieved",
+     "cheerful"
+    ]
+   },
+   {
+    "question": "say : whisper, shout, mumble, announce Which word best completes the sentence? The principal will ___ the winners at the assembly.",
+    "answer": "announce",
+    "choices": [
+     "mumble",
+     "whisper",
+     "shout",
+     "announce"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSNT",
+  "subject": "english",
+  "title": "Types of sentences",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   4,
+   7
+  ],
+  "skillIds": [
+   "engSNT4",
+   "engSNT7"
+  ],
+  "examples": [
+   {
+    "question": "What kind of sentence is this? Do you like soccer?",
+    "answer": "Question",
+    "choices": [
+     "Statement",
+     "Command",
+     "Exclamation",
+     "Question"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? Where did you put my book?",
+    "answer": "Question",
+    "choices": [
+     "Question",
+     "Statement",
+     "Command",
+     "Exclamation"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? What a great day this is!",
+    "answer": "Exclamation",
+    "choices": [
+     "Question",
+     "Exclamation",
+     "Statement",
+     "Command"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? Turn off the lights.",
+    "answer": "Command",
+    "choices": [
+     "Statement",
+     "Exclamation",
+     "Command",
+     "Question"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? I walk to school every day.",
+    "answer": "Statement",
+    "choices": [
+     "Command",
+     "Exclamation",
+     "Question",
+     "Statement"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? Wash your hands.",
+    "answer": "Command",
+    "choices": [
+     "Statement",
+     "Command",
+     "Question",
+     "Exclamation"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? That was amazing!",
+    "answer": "Exclamation",
+    "choices": [
+     "Statement",
+     "Exclamation",
+     "Command",
+     "Question"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? The sky is blue.",
+    "answer": "Statement",
+    "choices": [
+     "Command",
+     "Question",
+     "Statement",
+     "Exclamation"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? What time is it?",
+    "answer": "Question",
+    "choices": [
+     "Exclamation",
+     "Command",
+     "Statement",
+     "Question"
+    ]
+   },
+   {
+    "question": "What kind of sentence is this? Please close the door.",
+    "answer": "Command",
+    "choices": [
+     "Exclamation",
+     "Statement",
+     "Command",
+     "Question"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAPO",
+  "subject": "english",
+  "title": "Apostrophes for possession",
+  "section": "Nouns",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "engAPO4"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word: That is my ___ jacket. (one sister)",
+    "answer": "sister's",
+    "choices": [
+     "sister's",
+     "sisters'",
+     "sisters's",
+     "sisters"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The ___ toys are on the floor. (many children)",
+    "answer": "children's",
+    "choices": [
+     "childs'",
+     "childrens'",
+     "childrens",
+     "children's"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The ___ team won the game. (many boys)",
+    "answer": "boys'",
+    "choices": [
+     "boy's",
+     "boys",
+     "boys'",
+     "boys's"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The ___ wings are green. (one parrot)",
+    "answer": "parrot's",
+    "choices": [
+     "parrot's",
+     "parrots",
+     "parrots'",
+     "parrots's"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The ___ lockers are in the hall. (many girls)",
+    "answer": "girls'",
+    "choices": [
+     "girls",
+     "girls'",
+     "girl's",
+     "girls's"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The ___ coats hang by the door. (many men)",
+    "answer": "men's",
+    "choices": [
+     "mens",
+     "mens'",
+     "men'",
+     "men's"
+    ]
+   },
+   {
+    "question": "Choose the correct word: My ___ desk is neat. (one teacher)",
+    "answer": "teacher's",
+    "choices": [
+     "teachers",
+     "teacher's",
+     "teachers's",
+     "teachers'"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The ___ bone is under the bed. (one dog)",
+    "answer": "dog's",
+    "choices": [
+     "dogs'",
+     "dogs",
+     "dog's",
+     "dogs's"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRlId",
+  "subject": "english",
+  "title": "Identify relative pronouns",
+  "section": "Pronouns",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXRlId4",
+   "engXRlId5",
+   "engXRlId6"
+  ],
+  "examples": [
+   {
+    "question": "Which word in the sentence is a relative pronoun? The girl who won is my cousin.",
+    "answer": "who",
+    "choices": [
+     "who",
+     "girl",
+     "my",
+     "won"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is a relative pronoun? The car, which is red, is new.",
+    "answer": "which",
+    "choices": [
+     "red",
+     "which",
+     "car",
+     "The"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is a relative pronoun? The boy whose dog barked apologized.",
+    "answer": "whose",
+    "choices": [
+     "whose",
+     "dog",
+     "The",
+     "barked"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is a relative pronoun? The man whom we met is a chef.",
+    "answer": "whom",
+    "choices": [
+     "met",
+     "man",
+     "whom",
+     "we"
+    ]
+   },
+   {
+    "question": "Which word in the sentence is a relative pronoun? The book that I read was great.",
+    "answer": "that",
+    "choices": [
+     "that",
+     "read",
+     "I",
+     "book"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXWhom",
+  "subject": "english",
+  "title": "Use relative pronouns: who and whom",
+  "section": "Pronouns",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXWhom4",
+   "engXWhom5",
+   "engXWhom6",
+   "engXWhom7",
+   "engXWhom8",
+   "engXWhom9",
+   "engXWhom10",
+   "engXWhom11",
+   "engXWhom12"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. The girl ___ won the race is my cousin.",
+    "answer": "who",
+    "choices": [
+     "who",
+     "whom"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ is coming to the party?",
+    "answer": "Who",
+    "choices": [
+     "Whom",
+     "Who"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The students ___ finished early may leave.",
+    "answer": "who",
+    "choices": [
+     "whom",
+     "who"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The author ___ I admire wrote this book.",
+    "answer": "whom",
+    "choices": [
+     "who",
+     "whom"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The man ___ we met yesterday is a pilot.",
+    "answer": "whom",
+    "choices": [
+     "who",
+     "whom"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ did you call last night?",
+    "answer": "Whom",
+    "choices": [
+     "Whom",
+     "Who"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She is the coach ___ everyone respects.",
+    "answer": "whom",
+    "choices": [
+     "whom",
+     "who"
+    ]
+   },
+   {
+    "question": "Complete the sentence. To ___ should I give this letter?",
+    "answer": "whom",
+    "choices": [
+     "who",
+     "whom"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPnRl",
+  "subject": "english",
+  "title": "Use relative pronouns: who, whom, whose, which and that",
+  "section": "Pronouns",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPnRl4",
+   "engPnRl5",
+   "engPnRl6",
+   "engPnRl7",
+   "engPnRl8",
+   "engPnRl9",
+   "engPnRl10",
+   "engPnRl11",
+   "engPnRl12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best relative pronoun. Any book ___ has pictures is welcome.",
+    "answer": "that",
+    "choices": [
+     "who",
+     "that",
+     "whose",
+     "whom"
+    ]
+   },
+   {
+    "question": "Choose the best relative pronoun. The coat, ___ I bought last winter, is too small.",
+    "answer": "which",
+    "choices": [
+     "whose",
+     "who",
+     "that",
+     "which"
+    ]
+   },
+   {
+    "question": "Choose the best relative pronoun. The student ___ essay won is my cousin.",
+    "answer": "whose",
+    "choices": [
+     "whom",
+     "which",
+     "whose",
+     "who"
+    ]
+   },
+   {
+    "question": "Choose the best relative pronoun. The bridge, ___ was built in 1930, is closing.",
+    "answer": "which",
+    "choices": [
+     "that",
+     "whom",
+     "which",
+     "who"
+    ]
+   },
+   {
+    "question": "Choose the best relative pronoun. The song ___ she wrote became a hit.",
+    "answer": "that",
+    "choices": [
+     "who",
+     "that",
+     "whom",
+     "whose"
+    ]
+   },
+   {
+    "question": "Choose the best relative pronoun. The woman ___ lives next door is a doctor.",
+    "answer": "who",
+    "choices": [
+     "whose",
+     "who",
+     "which",
+     "whom"
+    ]
+   },
+   {
+    "question": "Choose the best relative pronoun. The teacher ___ I admire most retired.",
+    "answer": "whom",
+    "choices": [
+     "whose",
+     "which",
+     "who",
+     "whom"
+    ]
+   },
+   {
+    "question": "Choose the best relative pronoun. She is the one ___ called.",
+    "answer": "who",
+    "choices": [
+     "whose",
+     "whom",
+     "who",
+     "which"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXModS",
+  "subject": "english",
+  "title": "What does the modal verb show?",
+  "section": "Verb types",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXModS4",
+   "engXModS5",
+   "engXModS6"
+  ],
+  "examples": [
+   {
+    "question": "What does the underlined modal verb show? You may leave early today.",
+    "answer": "Something is allowed",
+    "choices": [
+     "Something is impossible",
+     "Something is allowed",
+     "Something is required",
+     "Someone is unable"
+    ]
+   },
+   {
+    "question": "What does the underlined modal verb show? Birds can fly.",
+    "answer": "Someone is able",
+    "choices": [
+     "Something is required",
+     "Something is allowed",
+     "Something is unlikely",
+     "Someone is able"
+    ]
+   },
+   {
+    "question": "What does the underlined modal verb show? It might rain later.",
+    "answer": "Something is possible",
+    "choices": [
+     "Someone is able",
+     "Something is possible",
+     "Something is required",
+     "Something is allowed"
+    ]
+   },
+   {
+    "question": "What does the underlined modal verb show? You should drink more water.",
+    "answer": "Something is a good idea",
+    "choices": [
+     "Something is required",
+     "Something is impossible",
+     "Someone is unable",
+     "Something is a good idea"
+    ]
+   },
+   {
+    "question": "What does the underlined modal verb show? You must wear a helmet.",
+    "answer": "Something is required",
+    "choices": [
+     "Something is possible",
+     "Something is a choice",
+     "Something is allowed",
+     "Something is required"
+    ]
+   },
+   {
+    "question": "What does the underlined modal verb show? We could go to the beach.",
+    "answer": "Something is possible",
+    "choices": [
+     "Something is forbidden",
+     "Something is required",
+     "Someone is unable",
+     "Something is possible"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVbMd",
+  "subject": "english",
+  "title": "Use the correct modal verb",
+  "section": "Verb types",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engVbMd4",
+   "engVbMd5",
+   "engVbMd6"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best modal verb. I ___ swim across the pool. (I am able to)",
+    "answer": "can",
+    "choices": [
+     "might",
+     "must",
+     "can",
+     "should"
+    ]
+   },
+   {
+    "question": "Choose the best modal verb. It ___ rain later; the sky is grey. (it is possible)",
+    "answer": "might",
+    "choices": [
+     "can",
+     "might",
+     "must",
+     "should"
+    ]
+   },
+   {
+    "question": "Choose the best modal verb. She ___ be at home; her car is in the driveway. (very likely)",
+    "answer": "must",
+    "choices": [
+     "might",
+     "can",
+     "may",
+     "must"
+    ]
+   },
+   {
+    "question": "Choose the best modal verb. ___ you help me carry this box? (polite request)",
+    "answer": "Could",
+    "choices": [
+     "Can",
+     "May",
+     "Should",
+     "Could"
+    ]
+   },
+   {
+    "question": "Choose the best modal verb. You ___ eat more vegetables. (it is a good idea)",
+    "answer": "should",
+    "choices": [
+     "might",
+     "may",
+     "must",
+     "should"
+    ]
+   },
+   {
+    "question": "Choose the best modal verb. We ___ leave now or we will be late. (it is necessary)",
+    "answer": "must",
+    "choices": [
+     "should",
+     "may",
+     "might",
+     "must"
+    ]
+   },
+   {
+    "question": "Choose the best modal verb. You ___ wear a helmet when you ride a bike. (it is necessary)",
+    "answer": "must",
+    "choices": [
+     "must",
+     "may",
+     "can",
+     "should"
+    ]
+   },
+   {
+    "question": "Choose the best modal verb. ___ I borrow your pencil? (asking permission)",
+    "answer": "May",
+    "choices": [
+     "Can",
+     "May",
+     "Might",
+     "Must"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSvCs",
+  "subject": "english",
+  "title": "Use the correct subject or verb – with compound subjects",
+  "section": "Subject-verb agreement",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXSvCs4",
+   "engXSvCs5",
+   "engXSvCs6",
+   "engXSvCs7",
+   "engXSvCs8"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. Neither the teacher nor the students ___ ready.",
+    "answer": "are",
+    "choices": [
+     "is",
+     "are"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Neither the boys nor their sister ___ the answer.",
+    "answer": "knows",
+    "choices": [
+     "knows",
+     "know"
+    ]
+   },
+   {
+    "question": "Complete the sentence. My mom and dad ___ pancakes on Sunday.",
+    "answer": "make",
+    "choices": [
+     "makes",
+     "make"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Either the cat or the dog ___ the food.",
+    "answer": "eats",
+    "choices": [
+     "eat",
+     "eats"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Tom and Ana ___ to school.",
+    "answer": "walk",
+    "choices": [
+     "walks",
+     "walk"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Either my sisters or my brother ___ me home.",
+    "answer": "drives",
+    "choices": [
+     "drives",
+     "drive"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrgU",
+  "subject": "english",
+  "title": "Use the progressive verb tenses",
+  "section": "Verb tense",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXPrgU4",
+   "engXPrgU5",
+   "engXPrgU6"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. Right now, we ___ dinner.",
+    "answer": "are eating",
+    "choices": [
+     "will eat",
+     "are eating",
+     "ate",
+     "eat"
+    ]
+   },
+   {
+    "question": "Complete the sentence. At 8 p.m. last night, I ___ a movie.",
+    "answer": "was watching",
+    "choices": [
+     "will watch",
+     "was watching",
+     "am watching",
+     "watch"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Shh! The baby ___.",
+    "answer": "is sleeping",
+    "choices": [
+     "will sleep",
+     "slept",
+     "sleeps",
+     "is sleeping"
+    ]
+   },
+   {
+    "question": "Complete the sentence. This time tomorrow, they ___ to Paris.",
+    "answer": "will be flying",
+    "choices": [
+     "flew",
+     "are flying",
+     "fly",
+     "will be flying"
+    ]
+   },
+   {
+    "question": "Complete the sentence. When the phone rang, she ___ a shower.",
+    "answer": "was taking",
+    "choices": [
+     "was taking",
+     "is taking",
+     "will take",
+     "takes"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Next week, we ___ at the cabin.",
+    "answer": "will be staying",
+    "choices": [
+     "stay",
+     "will be staying",
+     "were staying",
+     "stayed"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTnPr",
+  "subject": "english",
+  "title": "Form the progressive verb tenses",
+  "section": "Verb tense",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engTnPr4",
+   "engTnPr5",
+   "engTnPr6",
+   "engTnPr7",
+   "engTnPr8",
+   "engTnPr9",
+   "engTnPr10",
+   "engTnPr11",
+   "engTnPr12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct verb form. By the time you call, I ___ dinner. (cook, future progressive)",
+    "answer": "will be cooking",
+    "choices": [
+     "am cooked",
+     "will be cooking",
+     "cooked",
+     "was cooked"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. The kids ___ in the yard when it began to rain. (play, past progressive)",
+    "answer": "were playing",
+    "choices": [
+     "were playing",
+     "will play",
+     "played",
+     "are playing"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. Right now, she ___ a book. (read, present progressive)",
+    "answer": "is reading",
+    "choices": [
+     "is reading",
+     "has read",
+     "will read",
+     "was reading"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. Yesterday at noon, they ___ lunch. (eat, past progressive)",
+    "answer": "were eating",
+    "choices": [
+     "will eat",
+     "are eating",
+     "have eaten",
+     "were eating"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. We ___ to the lake next week. (drive, future progressive)",
+    "answer": "will be driving",
+    "choices": [
+     "were driving",
+     "will be driving",
+     "drive",
+     "are driven"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. He ___ his bike at the moment. (ride, present progressive)",
+    "answer": "is riding",
+    "choices": [
+     "will ride",
+     "is riding",
+     "rode",
+     "was riding"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. At this time last year, I ___ in Spain. (live, past progressive)",
+    "answer": "was living",
+    "choices": [
+     "have lived",
+     "am living",
+     "will live",
+     "was living"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. Tomorrow at six, I ___ for the exam. (study, future progressive)",
+    "answer": "will be studying",
+    "choices": [
+     "am studying",
+     "have studied",
+     "was studying",
+     "will be studying"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrfU",
+  "subject": "english",
+  "title": "Use the perfect verb tenses",
+  "section": "Verb tense",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXPrfU4",
+   "engXPrfU5",
+   "engXPrfU6"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. I ___ my homework already.",
+    "answer": "have finished",
+    "choices": [
+     "finish",
+     "have finished",
+     "will have finished",
+     "finishing"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We ___ to Japan twice.",
+    "answer": "have been",
+    "choices": [
+     "have been",
+     "are",
+     "had been",
+     "will have been"
+    ]
+   },
+   {
+    "question": "Complete the sentence. By June, she ___ the whole book.",
+    "answer": "will have read",
+    "choices": [
+     "has read",
+     "reads",
+     "will have read",
+     "had read"
+    ]
+   },
+   {
+    "question": "Complete the sentence. He ___ the cake before the guests came.",
+    "answer": "had baked",
+    "choices": [
+     "will have baked",
+     "has baked",
+     "had baked",
+     "bakes"
+    ]
+   },
+   {
+    "question": "Complete the sentence. By the time we arrived, the movie ___.",
+    "answer": "had started",
+    "choices": [
+     "will start",
+     "had started",
+     "has started",
+     "starts"
+    ]
+   },
+   {
+    "question": "Complete the sentence. They ___ in Halifax since 2015.",
+    "answer": "have lived",
+    "choices": [
+     "have lived",
+     "live",
+     "will have lived",
+     "had lived"
+    ]
+   }
+  ]
+ }
+]

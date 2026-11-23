@@ -1,0 +1,2359 @@
+[
+ {
+  "key": "engFgUs",
+  "subject": "english",
+  "title": "Use the correct foreign expression",
+  "section": "Foreign words and expressions",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFgUs9",
+   "engFgUs10",
+   "engFgUs11",
+   "engFgUs12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the expression that best completes the sentence. The team lost, but she shrugged and said, \"___\" (such is life).",
+    "answer": "C'est la vie",
+    "choices": [
+     "C'est la vie",
+     "Carpe diem",
+     "Bon appétit",
+     "Alma mater"
+    ]
+   },
+   {
+    "question": "Choose the expression that best completes the sentence. Money itself is not evil ___; its use matters. (in itself)",
+    "answer": "per se",
+    "choices": [
+     "carte blanche",
+     "pro bono",
+     "per se",
+     "ad hoc"
+    ]
+   },
+   {
+    "question": "Choose the expression that best completes the sentence. The committee formed an ___ group to handle this one issue. (for this specific purpose)",
+    "answer": "ad hoc",
+    "choices": [
+     "pro bono",
+     "ad hoc",
+     "a priori",
+     "de facto"
+    ]
+   },
+   {
+    "question": "Choose the expression that best completes the sentence. The lawyer took the case ___, charging no fee. (for the public good)",
+    "answer": "pro bono",
+    "choices": [
+     "per se",
+     "pro bono",
+     "ad hoc",
+     "bona fide"
+    ]
+   },
+   {
+    "question": "Choose the expression that best completes the sentence. She arrived with a bouquet and said, \"___!\" as the guests cheered. (a cry of joy for a surprise)",
+    "answer": "Voilà",
+    "choices": [
+     "Ciao",
+     "Adios",
+     "Gesundheit",
+     "Voilà"
+    ]
+   },
+   {
+    "question": "Choose the expression that best completes the sentence. The director gave the designer ___ to redesign the stage. (full freedom)",
+    "answer": "carte blanche",
+    "choices": [
+     "carte blanche",
+     "faux pas",
+     "ad hoc",
+     "status quo"
+    ]
+   },
+   {
+    "question": "Choose the expression that best completes the sentence. She returned to her ___ to give the graduation speech. (the school she attended)",
+    "answer": "alma mater",
+    "choices": [
+     "alma mater",
+     "ad hoc",
+     "carte blanche",
+     "pro bono"
+    ]
+   },
+   {
+    "question": "Choose the expression that best completes the sentence. The antique was a ___ Ming vase, not a copy. (genuine)",
+    "answer": "bona fide",
+    "choices": [
+     "bona fide",
+     "ad hoc",
+     "pro bono",
+     "status quo"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engNuCd",
+  "subject": "english",
+  "title": "Choose the word whose connotation and denotation best match the sentence",
+  "section": "Word usage and nuance",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engNuCd9",
+   "engNuCd10",
+   "engNuCd11",
+   "engNuCd12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best word. Her ___ remarks wounded him. (negative: harsh)",
+    "answer": "biting",
+    "choices": [
+     "gentle",
+     "tender",
+     "mild",
+     "biting"
+    ]
+   },
+   {
+    "question": "Choose the best word. The ___ child refused to share anything. (negative)",
+    "answer": "selfish",
+    "choices": [
+     "selfish",
+     "frugal",
+     "independent",
+     "thrifty"
+    ]
+   },
+   {
+    "question": "Choose the best word. The ___ chef refused to change a single ingredient. (positive: dedicated)",
+    "answer": "passionate",
+    "choices": [
+     "passionate",
+     "obsessed",
+     "fanatical",
+     "stubborn"
+    ]
+   },
+   {
+    "question": "Choose the best word. The ___ lawyer pressed every point in court. (aggressive but admirable)",
+    "answer": "tenacious",
+    "choices": [
+     "obstinate",
+     "pushy",
+     "tenacious",
+     "stubborn"
+    ]
+   },
+   {
+    "question": "Choose the best word. The coach praised the team's ___ spirit. (positive: eager and lively)",
+    "answer": "spirited",
+    "choices": [
+     "spirited",
+     "unruly",
+     "rowdy",
+     "noisy"
+    ]
+   },
+   {
+    "question": "Choose the best word. The ___ crowd rushed the gates. (negative: out of control)",
+    "answer": "mob",
+    "choices": [
+     "mob",
+     "audience",
+     "gathering",
+     "assembly"
+    ]
+   },
+   {
+    "question": "Choose the best word. Our guide was a ___ man who knew every trail. (positive: experienced)",
+    "answer": "seasoned",
+    "choices": [
+     "aged",
+     "ancient",
+     "seasoned",
+     "decrepit"
+    ]
+   },
+   {
+    "question": "Choose the best word. The ___ landscape stretched for miles. (neutral/positive: wide open)",
+    "answer": "vast",
+    "choices": [
+     "desolate",
+     "vast",
+     "barren",
+     "bleak"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engNuPr",
+  "subject": "english",
+  "title": "Use words accurately and precisely",
+  "section": "Word usage and nuance",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engNuPr9",
+   "engNuPr10",
+   "engNuPr11",
+   "engNuPr12"
+  ],
+  "examples": [
+   {
+    "question": "Which word fits the meaning best? The chef's dishes are known for their ___ of flavours. (pleasing combination)",
+    "answer": "harmony",
+    "choices": [
+     "discord",
+     "dispute",
+     "clash",
+     "harmony"
+    ]
+   },
+   {
+    "question": "Which word fits the meaning best? The news ___ the town; people were shocked into silence. (stunned)",
+    "answer": "staggered",
+    "choices": [
+     "entertained",
+     "amused",
+     "staggered",
+     "soothed"
+    ]
+   },
+   {
+    "question": "Which word fits the meaning best? The judge's ___ ruling surprised everyone. (clear and final)",
+    "answer": "unequivocal",
+    "choices": [
+     "tentative",
+     "unequivocal",
+     "ambiguous",
+     "vague"
+    ]
+   },
+   {
+    "question": "Which word fits the meaning best? The scientist's results were ___; no other lab could repeat them. (not reliable)",
+    "answer": "dubious",
+    "choices": [
+     "robust",
+     "dubious",
+     "definitive",
+     "rigorous"
+    ]
+   },
+   {
+    "question": "Which word fits the meaning best? The politician's speech was full of ___, saying little in many words. (empty talk)",
+    "answer": "rhetoric",
+    "choices": [
+     "candour",
+     "logic",
+     "evidence",
+     "rhetoric"
+    ]
+   },
+   {
+    "question": "Which word fits the meaning best? The two cultures ___ in many ways, blending traditions over centuries. (came together)",
+    "answer": "converged",
+    "choices": [
+     "converged",
+     "dispersed",
+     "diverged",
+     "receded"
+    ]
+   },
+   {
+    "question": "Which word fits the meaning best? Her ___ for detail saved the project. (careful attention)",
+    "answer": "eye",
+    "choices": [
+     "tongue",
+     "ear",
+     "eye",
+     "foot"
+    ]
+   },
+   {
+    "question": "Which word fits the meaning best? The new rule will ___ the problem rather than solve it. (make worse)",
+    "answer": "exacerbate",
+    "choices": [
+     "mitigate",
+     "alleviate",
+     "exacerbate",
+     "resolve"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engNuTh",
+  "subject": "english",
+  "title": "Replace words using a thesaurus",
+  "section": "Word usage and nuance",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engNuTh9",
+   "engNuTh10",
+   "engNuTh11",
+   "engNuTh12"
+  ],
+  "examples": [
+   {
+    "question": "Which word can replace the underlined word without changing the meaning? The ancient manuscript was fragile.",
+    "answer": "archaic",
+    "choices": [
+     "modern",
+     "archaic",
+     "recent",
+     "fresh"
+    ]
+   },
+   {
+    "question": "Which word can replace the underlined word without changing the meaning? The teacher gave a clear explanation.",
+    "answer": "lucid",
+    "choices": [
+     "murky",
+     "lucid",
+     "vague",
+     "confusing"
+    ]
+   },
+   {
+    "question": "Which word can replace the underlined word without changing the meaning? His candid answer surprised us.",
+    "answer": "frank",
+    "choices": [
+     "secretive",
+     "guarded",
+     "evasive",
+     "frank"
+    ]
+   },
+   {
+    "question": "Which word can replace the underlined word without changing the meaning? The speaker's brief remarks ended quickly.",
+    "answer": "concise",
+    "choices": [
+     "detailed",
+     "concise",
+     "lengthy",
+     "rambling"
+    ]
+   },
+   {
+    "question": "Which word can replace the underlined word without changing the meaning? The soldiers showed great courage .",
+    "answer": "valour",
+    "choices": [
+     "doubt",
+     "caution",
+     "valour",
+     "fear"
+    ]
+   },
+   {
+    "question": "Which word can replace the underlined word without changing the meaning? She was reluctant to speak.",
+    "answer": "hesitant",
+    "choices": [
+     "eager",
+     "outspoken",
+     "hesitant",
+     "ready"
+    ]
+   },
+   {
+    "question": "Which word can replace the underlined word without changing the meaning? The enormous tree shaded the yard.",
+    "answer": "gigantic",
+    "choices": [
+     "gigantic",
+     "slender",
+     "ancient",
+     "delicate"
+    ]
+   },
+   {
+    "question": "Which word can replace the underlined word without changing the meaning? The city is thriving .",
+    "answer": "flourishing",
+    "choices": [
+     "fading",
+     "declining",
+     "shrinking",
+     "flourishing"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engNuCt",
+  "subject": "english",
+  "title": "Explore words with new or contested usages",
+  "section": "Word usage and nuance",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engNuCt9",
+   "engNuCt10",
+   "engNuCt11",
+   "engNuCt12"
+  ],
+  "examples": [
+   {
+    "question": "Traditionally, decimate means …",
+    "answer": "to destroy a large part of something",
+    "choices": [
+     "to decorate",
+     "to divide by ten exactly",
+     "to destroy a large part of something",
+     "to count carefully"
+    ]
+   },
+   {
+    "question": "Traditionally, nauseous means …",
+    "answer": "causing nausea",
+    "choices": [
+     "causing nausea",
+     "being dizzy",
+     "feeling sick",
+     "being angry"
+    ]
+   },
+   {
+    "question": "Which usage of fewer is traditionally correct?",
+    "answer": "Fewer students came today.",
+    "choices": [
+     "Less students came today.",
+     "Lesser students came today.",
+     "Least students came today.",
+     "Fewer students came today."
+    ]
+   },
+   {
+    "question": "Which is the traditional meaning of enormity ?",
+    "answer": "great wickedness",
+    "choices": [
+     "great wickedness",
+     "small amount",
+     "huge size",
+     "great speed"
+    ]
+   },
+   {
+    "question": "\"Can I go to the store?\" Traditionally, which word asks permission?",
+    "answer": "may",
+    "choices": [
+     "will",
+     "can",
+     "shall",
+     "may"
+    ]
+   },
+   {
+    "question": "Traditionally, literally means …",
+    "answer": "in a literal sense; exactly",
+    "choices": [
+     "kind of",
+     "rarely",
+     "in a literal sense; exactly",
+     "figuratively"
+    ]
+   },
+   {
+    "question": "Which is the traditional use of who vs. whom ?",
+    "answer": "Whom is the object: \"To whom did you speak?\"",
+    "choices": [
+     "Who is only used in questions.",
+     "They are always interchangeable.",
+     "Whom is the object: \"To whom did you speak?\"",
+     "Whom is the subject: \"Whom called?\""
+    ]
+   },
+   {
+    "question": "Traditionally, disinterested means …",
+    "answer": "impartial",
+    "choices": [
+     "biased",
+     "impartial",
+     "unfriendly",
+     "bored"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engNuDc",
+  "subject": "english",
+  "title": "Use dictionary entries to determine correct usage",
+  "section": "Reference skills",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engNuDc9",
+   "engNuDc10",
+   "engNuDc11",
+   "engNuDc12"
+  ],
+  "examples": [
+   {
+    "question": "tenuous (adj.): very weak or slight. Which sentence uses it correctly?",
+    "answer": "The evidence connecting the suspect to the crime was tenuous.",
+    "choices": [
+     "The evidence connecting the suspect to the crime was tenuous.",
+     "She had a tenuous grip on the heavy anchor.",
+     "The tenuous bridge held a hundred trucks.",
+     "He told a tenuous, bold lie."
+    ]
+   },
+   {
+    "question": "mitigate (v.): to make less severe. Which sentence uses it correctly?",
+    "answer": "Sandbags helped mitigate the flood damage.",
+    "choices": [
+     "Sandbags helped mitigate the flood damage.",
+     "She mitigated the wall.",
+     "He mitigated his house into a mansion.",
+     "The sun mitigated the temperature to 40 degrees."
+    ]
+   },
+   {
+    "question": "lenient (adj.): not strict. Which sentence uses it correctly?",
+    "answer": "The lenient teacher allowed extra time on the test.",
+    "choices": [
+     "The lenient mountain was very steep.",
+     "The lenient teacher allowed extra time on the test.",
+     "He was lenient to the strict rules and enforced them harshly.",
+     "A lenient iron bar bent in two."
+    ]
+   },
+   {
+    "question": "ambivalent (adj.): having mixed feelings about something. Which sentence uses it correctly?",
+    "answer": "She felt ambivalent about moving: excited yet sad.",
+    "choices": [
+     "The ambivalent cake was delicious.",
+     "He was ambivalent when the exam ended with 100%.",
+     "She felt ambivalent about moving: excited yet sad.",
+     "The ambivalent dog ran across the field."
+    ]
+   },
+   {
+    "question": "cache (n.): a hidden or stored supply. Which sentence uses it correctly?",
+    "answer": "The hikers found a cache of food in the cabin.",
+    "choices": [
+     "She cached for a cold.",
+     "The hikers found a cache of food in the cabin.",
+     "The cache of the room was beautiful.",
+     "He paid in cache at the till."
+    ]
+   },
+   {
+    "question": "discreet (adj.): careful in what one says or does. Which sentence uses it correctly?",
+    "answer": "The assistant was discreet about the private meeting.",
+    "choices": [
+     "The two discreet planets were far apart.",
+     "He was discreet when he announced it to everyone loudly.",
+     "The discreet music was very loud.",
+     "The assistant was discreet about the private meeting."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFrPn",
+  "subject": "english",
+  "title": "Choose punctuation to avoid fragments and run-ons",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFrPn9",
+   "engFrPn10",
+   "engFrPn11",
+   "engFrPn12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best revision. We hiked for hours we reached the summit.",
+    "answer": "We hiked for hours; we reached the summit.",
+    "choices": [
+     "We hiked for hours: we reached the summit and.",
+     "We hiked for hours; we reached the summit.",
+     "We hiked for hours. we reached the summit.",
+     "We hiked for hours, we reached the summit."
+    ]
+   },
+   {
+    "question": "Choose the best revision. My cousin, who lives in Calgary.",
+    "answer": "My cousin, who lives in Calgary, is visiting.",
+    "choices": [
+     "My cousin, who lives in Calgary, is visiting.",
+     "My cousin who lives in Calgary.",
+     "My cousin who, lives in Calgary.",
+     "My cousin, who lives, in Calgary."
+    ]
+   },
+   {
+    "question": "Choose the best revision. Since the storm destroyed the bridge.",
+    "answer": "Since the storm destroyed the bridge, the town was cut off.",
+    "choices": [
+     "Since the storm. Destroyed the bridge.",
+     "Since the storm destroyed the bridge,",
+     "Since, the storm destroyed the bridge.",
+     "Since the storm destroyed the bridge, the town was cut off."
+    ]
+   },
+   {
+    "question": "Choose the best revision. The class read a poem it was long.",
+    "answer": "The class read a poem. It was long.",
+    "choices": [
+     "The class read a poem. It was long.",
+     "The class read a poem; it, was long.",
+     "The class read a poem it, was long.",
+     "The class read a poem, it was long."
+    ]
+   },
+   {
+    "question": "Choose the best revision. I was tired, I stayed up late.",
+    "answer": "I was tired, but I stayed up late.",
+    "choices": [
+     "I was tired; but I stayed up late.",
+     "I was tired, but I stayed up late.",
+     "I was tired I stayed up late.",
+     "I was tired but, I stayed up late."
+    ]
+   },
+   {
+    "question": "Choose the best revision. She loves to paint, however she rarely has time.",
+    "answer": "She loves to paint; however, she rarely has time.",
+    "choices": [
+     "She loves to paint, however, she rarely has time.",
+     "She loves to paint however, she rarely has time.",
+     "She loves to paint: however she rarely has time.",
+     "She loves to paint; however, she rarely has time."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPnRv",
+  "subject": "english",
+  "title": "Subject and object pronouns review",
+  "section": "Pronouns",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXPnRv9",
+   "engXPnRv10",
+   "engXPnRv11",
+   "engXPnRv12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is correct?",
+    "answer": "We students organized the event.",
+    "choices": [
+     "Ourselves students organized the event.",
+     "Us students organized the event.",
+     "Our students organized the event ourselves.",
+     "We students organized the event."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Between you and me, the plan won't work.",
+    "choices": [
+     "Between you and me, the plan won't work.",
+     "Between I and you, the plan won't work.",
+     "Between yourself and me, the plan won't work.",
+     "Between you and I, the plan won't work."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "She is taller than he.",
+    "choices": [
+     "She is taller than he.",
+     "She is taller than him is.",
+     "Her is taller than he.",
+     "She is taller than himself."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Sam and I went to the game.",
+    "choices": [
+     "Me and Sam went to the game.",
+     "Sam and myself went to the game.",
+     "Sam and me went to the game.",
+     "Sam and I went to the game."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "It was they who called.",
+    "choices": [
+     "It was they who called.",
+     "It was them who called.",
+     "It was their who called.",
+     "It was themselves who called."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "The coach gave Ali and me a ride.",
+    "choices": [
+     "The coach gave I and Ali a ride.",
+     "The coach gave Ali and I a ride.",
+     "The coach gave Ali and myself a ride.",
+     "The coach gave Ali and me a ride."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPnTA",
+  "subject": "english",
+  "title": "Pronouns after \"than\" and \"as\"",
+  "section": "Pronouns",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPnTA9",
+   "engPnTA10",
+   "engPnTA11",
+   "engPnTA12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses the correct pronoun?",
+    "answer": "Ana is as tall as he.",
+    "choices": [
+     "Ana is as tall as him.",
+     "Ana is as tall as he.",
+     "Ana is as tall as his.",
+     "Ana is as tall as himself."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct pronoun?",
+    "answer": "My brother is taller than I.",
+    "choices": [
+     "My brother is taller than me.",
+     "My brother is taller than mine.",
+     "My brother is taller than I.",
+     "My brother is taller than myself."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct pronoun?",
+    "answer": "She cooks as well as he.",
+    "choices": [
+     "She cooks as well as him.",
+     "She cooks as well as he.",
+     "She cooks as well as his.",
+     "She cooks as well as himself."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct pronoun?",
+    "answer": "The cat likes you more than me.",
+    "choices": [
+     "The cat likes you more than me.",
+     "The cat likes you more than mine.",
+     "The cat likes you more than I.",
+     "The cat likes you more than myself."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct pronoun?",
+    "answer": "Nobody works harder than she.",
+    "choices": [
+     "Nobody works harder than her.",
+     "Nobody works harder than hers.",
+     "Nobody works harder than herself.",
+     "Nobody works harder than she."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct pronoun?",
+    "answer": "You are as nervous as I.",
+    "choices": [
+     "You are as nervous as mine.",
+     "You are as nervous as I.",
+     "You are as nervous as me.",
+     "You are as nervous as myself."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct pronoun?",
+    "answer": "The cat likes you more than I.",
+    "choices": [
+     "The cat likes you more than me do.",
+     "The cat likes you more than I.",
+     "The cat likes you more than I likes.",
+     "The cat likes you more than I does."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct pronoun?",
+    "answer": "They finished sooner than we.",
+    "choices": [
+     "They finished sooner than ours.",
+     "They finished sooner than us.",
+     "They finished sooner than ourselves.",
+     "They finished sooner than we."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPnWh",
+  "subject": "english",
+  "title": "Identify and correct pronoun errors with \"who\"",
+  "section": "Pronouns",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPnWh9",
+   "engPnWh10",
+   "engPnWh11",
+   "engPnWh12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is correct?",
+    "answer": "The man whom we met was a pilot.",
+    "choices": [
+     "The man whom we met was a pilot.",
+     "The man who we met him was a pilot.",
+     "The man whom we met him was a pilot.",
+     "The man whose we met was a pilot."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "For whom are these flowers?",
+    "choices": [
+     "For who are these flowers?",
+     "For whose are these flowers?",
+     "For whoever are these flowers?",
+     "For whom are these flowers?"
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Who is calling?",
+    "choices": [
+     "Who are calling?",
+     "Who is calling?",
+     "Whom is calling?",
+     "Whose is calling?"
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "To whom did you send the letter?",
+    "choices": [
+     "To whose did you send the letter?",
+     "To who did you send the letter?",
+     "To whom did you send the letter?",
+     "To whomever did you send the letter?"
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "She is the actor who won the award.",
+    "choices": [
+     "She is the actor whose won the award.",
+     "She is the actor whom won the award.",
+     "She is the actor which won the award.",
+     "She is the actor who won the award."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Give the prize to whoever answers correctly.",
+    "choices": [
+     "Give the prize to whoever answers correctly.",
+     "Give the prize to whomever answers correctly.",
+     "Give the prize to who answers correctly.",
+     "Give the prize to whichever answers correctly."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Whoever finishes first wins.",
+    "choices": [
+     "Whoever finishes first wins.",
+     "Whosever finishes first wins.",
+     "Whichever finishes first wins.",
+     "Whomever finishes first wins."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Whom did the committee choose?",
+    "choices": [
+     "Whomever did the committee choose?",
+     "Who did the committee choose to?",
+     "Whom did the committee choose?",
+     "Whose did the committee choose?"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSvCp",
+  "subject": "english",
+  "title": "Identify and correct verb agreement with compound subjects",
+  "section": "Subject-verb agreement",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engSvCp9",
+   "engSvCp10",
+   "engSvCp11",
+   "engSvCp12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is correct?",
+    "answer": "The cat and the dogs are sleeping.",
+    "choices": [
+     "The cat and the dogs is sleeping.",
+     "The cat and the dogs be sleeping.",
+     "The cat and the dogs are sleeping.",
+     "The cat and the dogs was sleeping."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Either the students or the teacher is responsible.",
+    "choices": [
+     "Either the students or the teacher is responsible.",
+     "Either the students or the teacher were responsible.",
+     "Either the students or the teacher are responsible.",
+     "Either the students or the teacher be responsible."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Sam and Lee are partners.",
+    "choices": [
+     "Sam and Lee was partners.",
+     "Sam and Lee are partners.",
+     "Sam and Lee is partners.",
+     "Sam and Lee be partners."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Neither of the girls nor the boy was late.",
+    "choices": [
+     "Neither of the girls nor the boy was late.",
+     "Neither of the girls nor the boy are late.",
+     "Neither of the girls nor the boy were late.",
+     "Neither of the girls nor the boy be late."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Neither the coach nor the players were ready.",
+    "choices": [
+     "Neither the coach nor the players is ready.",
+     "Neither the coach nor the players were ready.",
+     "Neither the coach nor the players was ready.",
+     "Neither the coach nor the players be ready."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Bread and butter is a classic pairing.",
+    "choices": [
+     "Bread and butter be a classic pairing.",
+     "Bread and butter is a classic pairing.",
+     "Bread and butter are a classic pairing.",
+     "Bread and butter were a classic pairing."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Either the dogs or the cat is hungry.",
+    "choices": [
+     "Either the dogs or the cat is hungry.",
+     "Either the dogs or the cat are hungry.",
+     "Either the dogs or the cat be hungry.",
+     "Either the dogs or the cat were hungry."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "My friend and teammate has arrived.",
+    "choices": [
+     "My friend and teammate has arrived.",
+     "My friend and teammate are arrived.",
+     "My friend and teammate were arrived.",
+     "My friend and teammate have arrived."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAGR",
+  "subject": "english",
+  "title": "Subject-verb agreement",
+  "section": "Subject-verb agreement",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "engAGR9"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct verb: The team of players ___ practicing.",
+    "answer": "is",
+    "choices": [
+     "were",
+     "be",
+     "is",
+     "are"
+    ]
+   },
+   {
+    "question": "Choose the correct verb: Either the cat or the dogs ___ outside.",
+    "answer": "are",
+    "choices": [
+     "are",
+     "is",
+     "was",
+     "be"
+    ]
+   },
+   {
+    "question": "Choose the correct verb: The books on the shelf ___ old.",
+    "answer": "are",
+    "choices": [
+     "be",
+     "was",
+     "are",
+     "is"
+    ]
+   },
+   {
+    "question": "Choose the correct verb: Mathematics ___ my favorite subject.",
+    "answer": "is",
+    "choices": [
+     "be",
+     "are",
+     "is",
+     "were"
+    ]
+   },
+   {
+    "question": "Choose the correct verb: The jury ___ reached its verdict.",
+    "answer": "has",
+    "choices": [
+     "have",
+     "has",
+     "were",
+     "are"
+    ]
+   },
+   {
+    "question": "Choose the correct verb: The data ___ clear.",
+    "answer": "are",
+    "choices": [
+     "be",
+     "are",
+     "was",
+     "is"
+    ]
+   },
+   {
+    "question": "Choose the correct verb: Neither the teacher nor the students ___ ready.",
+    "answer": "are",
+    "choices": [
+     "be",
+     "are",
+     "is",
+     "was"
+    ]
+   },
+   {
+    "question": "Choose the correct verb: Each of the boys ___ a bike.",
+    "answer": "has",
+    "choices": [
+     "are having",
+     "have",
+     "having",
+     "has"
+    ]
+   },
+   {
+    "question": "Choose the correct verb: Everyone ___ here.",
+    "answer": "is",
+    "choices": [
+     "be",
+     "are",
+     "is",
+     "were"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engScRv",
+  "subject": "english",
+  "title": "Semicolons, colons and commas: review",
+  "section": "Semicolons, colons and commas",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engScRv9",
+   "engScRv10",
+   "engScRv11",
+   "engScRv12"
+  ],
+  "examples": [
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "I have three pets: a dog, a cat and a parrot.",
+    "choices": [
+     "I have three pets, a dog; a cat and a parrot.",
+     "I have three pets: a dog, a cat and a parrot.",
+     "I have: three pets a dog, a cat and a parrot.",
+     "I have three pets; a dog, a cat and a parrot."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "He had one rule: never give up.",
+    "choices": [
+     "He had one rule: never give up.",
+     "He had: one rule never give up.",
+     "He had one rule, never give up.",
+     "He had one rule; never give up."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "The store sells shirts, ties and socks.",
+    "choices": [
+     "The store sells; shirts, ties and socks.",
+     "The store sells shirts; ties and socks.",
+     "The store sells shirts, ties and socks.",
+     "The store sells: shirts, ties and socks."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "The trip was long; the scenery was worth it.",
+    "choices": [
+     "The trip was long; but, the scenery was worth it.",
+     "The trip was long; the scenery was worth it.",
+     "The trip was long, the scenery was worth it.",
+     "The trip was long: the scenery was worth it."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "She packed her bag, and then she left.",
+    "choices": [
+     "She packed her bag; and then she left.",
+     "She packed her bag, and then she left.",
+     "She packed her bag: and then she left.",
+     "She packed her bag and, then she left."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "Whenever it snows, the schools close; however, the buses still run.",
+    "choices": [
+     "Whenever it snows, the schools close: however the buses still run.",
+     "Whenever it snows, the schools close; however, the buses still run.",
+     "Whenever it snows the schools close, however the buses still run.",
+     "Whenever it snows, the schools close, however, the buses still run."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRED",
+  "subject": "english",
+  "title": "Reading: author's purpose",
+  "section": "Audience, purpose and tone",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "engRED10"
+  ],
+  "examples": [
+   {
+    "question": "What is the author's main purpose? Every citizen should vote — it is the best way to shape our future.",
+    "answer": "To persuade",
+    "choices": [
+     "To inform",
+     "To persuade",
+     "To entertain"
+    ]
+   },
+   {
+    "question": "What is the author's main purpose? Schools must offer healthier lunches, because children deserve better.",
+    "answer": "To persuade",
+    "choices": [
+     "To persuade",
+     "To entertain",
+     "To inform"
+    ]
+   },
+   {
+    "question": "What is the author's main purpose? The Great Wall of China is over 20,000 kilometres long.",
+    "answer": "To inform",
+    "choices": [
+     "To inform",
+     "To entertain",
+     "To persuade"
+    ]
+   },
+   {
+    "question": "What is the author's main purpose? Buy our new sneakers today — you deserve the very best!",
+    "answer": "To persuade",
+    "choices": [
+     "To persuade",
+     "To inform",
+     "To entertain"
+    ]
+   },
+   {
+    "question": "What is the author's main purpose? There once was a cat who thought she was a lion, and the mice laughed all day.",
+    "answer": "To entertain",
+    "choices": [
+     "To persuade",
+     "To entertain",
+     "To inform"
+    ]
+   },
+   {
+    "question": "What is the author's main purpose? The heart has four chambers and pumps about five litres of blood per minute.",
+    "answer": "To inform",
+    "choices": [
+     "To persuade",
+     "To entertain",
+     "To inform"
+    ]
+   },
+   {
+    "question": "What is the author's main purpose? The tiny dragon sneezed, setting the king's beard on fire — again.",
+    "answer": "To entertain",
+    "choices": [
+     "To entertain",
+     "To inform",
+     "To persuade"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPOE",
+  "subject": "english",
+  "title": "Poetry terms",
+  "section": "Analyzing literature",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "engPOE10"
+  ],
+  "examples": [
+   {
+    "question": "A poem that tells a story, often sung, is a …",
+    "answer": "ballad",
+    "choices": [
+     "free verse",
+     "enjambment",
+     "meter",
+     "ballad"
+    ]
+   },
+   {
+    "question": "A poem of praise for a person, thing or event is an …",
+    "answer": "ode",
+    "choices": [
+     "ode",
+     "free verse",
+     "ballad",
+     "assonance"
+    ]
+   },
+   {
+    "question": "A line that continues into the next line without punctuation is …",
+    "answer": "enjambment",
+    "choices": [
+     "enjambment",
+     "haiku",
+     "stanza",
+     "meter"
+    ]
+   },
+   {
+    "question": "A three-line Japanese poem with a 5-7-5 syllable pattern is a …",
+    "answer": "haiku",
+    "choices": [
+     "free verse",
+     "enjambment",
+     "sonnet",
+     "haiku"
+    ]
+   },
+   {
+    "question": "A poem with 14 lines is called a …",
+    "answer": "sonnet",
+    "choices": [
+     "sonnet",
+     "ballad",
+     "free verse",
+     "assonance"
+    ]
+   },
+   {
+    "question": "The repetition of vowel sounds in nearby words is …",
+    "answer": "assonance",
+    "choices": [
+     "enjambment",
+     "ode",
+     "haiku",
+     "assonance"
+    ]
+   },
+   {
+    "question": "Poetry without a regular rhyme or meter is called …",
+    "answer": "free verse",
+    "choices": [
+     "free verse",
+     "ode",
+     "haiku",
+     "sonnet"
+    ]
+   },
+   {
+    "question": "A group of lines in a poem, like a paragraph, is a …",
+    "answer": "stanza",
+    "choices": [
+     "free verse",
+     "stanza",
+     "ballad",
+     "meter"
+    ]
+   },
+   {
+    "question": "The pattern of stressed and unstressed syllables in a line is …",
+    "answer": "meter",
+    "choices": [
+     "ode",
+     "meter",
+     "enjambment",
+     "stanza"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFLC",
+  "subject": "english",
+  "title": "Logical fallacies",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "engFLC10"
+  ],
+  "examples": [
+   {
+    "question": "Which logical fallacy is this? Either we ban all cars or we accept a polluted planet.",
+    "answer": "False dilemma",
+    "choices": [
+     "Slippery slope",
+     "False dilemma",
+     "Bandwagon",
+     "Ad hominem",
+     "Straw man"
+    ]
+   },
+   {
+    "question": "Which logical fallacy is this? You're either with us or against us.",
+    "answer": "False dilemma",
+    "choices": [
+     "False dilemma",
+     "Ad hominem",
+     "Slippery slope",
+     "Straw man",
+     "Bandwagon"
+    ]
+   },
+   {
+    "question": "Which logical fallacy is this? Everyone is buying this phone, so it must be the best.",
+    "answer": "Bandwagon",
+    "choices": [
+     "Ad hominem",
+     "False dilemma",
+     "Slippery slope",
+     "Bandwagon",
+     "Straw man"
+    ]
+   },
+   {
+    "question": "Which logical fallacy is this? You can't trust her opinion on climate — she dropped out of college.",
+    "answer": "Ad hominem",
+    "choices": [
+     "Slippery slope",
+     "Bandwagon",
+     "Ad hominem",
+     "Straw man",
+     "False dilemma"
+    ]
+   },
+   {
+    "question": "Which logical fallacy is this? Millions of people believe in it, so it must be true.",
+    "answer": "Bandwagon",
+    "choices": [
+     "False dilemma",
+     "Ad hominem",
+     "Straw man",
+     "Bandwagon",
+     "Slippery slope"
+    ]
+   },
+   {
+    "question": "Which logical fallacy is this? If we let students use calculators, soon they won't be able to add at all.",
+    "answer": "Slippery slope",
+    "choices": [
+     "Straw man",
+     "False dilemma",
+     "Ad hominem",
+     "Slippery slope",
+     "Bandwagon"
+    ]
+   },
+   {
+    "question": "Which logical fallacy is this? Senator Lee wants a better road budget, so she must hate public transit.",
+    "answer": "Straw man",
+    "choices": [
+     "Bandwagon",
+     "Ad hominem",
+     "Straw man",
+     "Slippery slope",
+     "False dilemma"
+    ]
+   },
+   {
+    "question": "Which logical fallacy is this? Of course his plan is flawed — he's just a rookie.",
+    "answer": "Ad hominem",
+    "choices": [
+     "False dilemma",
+     "Ad hominem",
+     "Straw man",
+     "Bandwagon",
+     "Slippery slope"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVOC",
+  "subject": "english",
+  "title": "Vocabulary in context",
+  "section": "Context clues",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "engVOC10"
+  ],
+  "examples": [
+   {
+    "question": "Which word best completes the sentence? The ___ details of the painting amazed us.",
+    "answer": "meticulous",
+    "choices": [
+     "meticulous",
+     "drab",
+     "vague",
+     "careless"
+    ]
+   },
+   {
+    "question": "Which word best completes the sentence? His ___ nature made him the life of the party.",
+    "answer": "gregarious",
+    "choices": [
+     "candid",
+     "austere",
+     "gregarious",
+     "reclusive"
+    ]
+   },
+   {
+    "question": "Which word best completes the sentence? She gave a ___ reply, barely a word.",
+    "answer": "terse",
+    "choices": [
+     "jovial",
+     "ardent",
+     "terse",
+     "verbose"
+    ]
+   },
+   {
+    "question": "Which word best completes the sentence? The ___ student never missed a deadline.",
+    "answer": "diligent",
+    "choices": [
+     "arrogant",
+     "reckless",
+     "diligent",
+     "lethargic"
+    ]
+   },
+   {
+    "question": "Which word best completes the sentence? The old phone is now ___; nobody uses it.",
+    "answer": "obsolete",
+    "choices": [
+     "vivid",
+     "prudent",
+     "ambitious",
+     "obsolete"
+    ]
+   },
+   {
+    "question": "Which word best completes the sentence? He was ___ about spending money, saving every penny.",
+    "answer": "frugal",
+    "choices": [
+     "obsolete",
+     "gregarious",
+     "lavish",
+     "frugal"
+    ]
+   },
+   {
+    "question": "Which word best completes the sentence? Her ___ speech convinced everyone in the room.",
+    "answer": "eloquent",
+    "choices": [
+     "meager",
+     "frugal",
+     "reluctant",
+     "eloquent"
+    ]
+   },
+   {
+    "question": "Which word best completes the sentence? The politician's ___ praise was clearly insincere.",
+    "answer": "effusive",
+    "choices": [
+     "blunt",
+     "timid",
+     "effusive",
+     "subdued"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engWHM",
+  "subject": "english",
+  "title": "Who vs. whom",
+  "section": "Pronouns",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "engWHM10"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word: I wonder ___ will win.",
+    "answer": "who",
+    "choices": [
+     "whom",
+     "which",
+     "whose",
+     "who"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The woman ___ called you is my aunt.",
+    "answer": "who",
+    "choices": [
+     "whose",
+     "which",
+     "whom",
+     "who"
+    ]
+   },
+   {
+    "question": "Choose the correct word: ___ did you invite to the party?",
+    "answer": "Whom",
+    "choices": [
+     "Whom",
+     "Who",
+     "Whose",
+     "Which"
+    ]
+   },
+   {
+    "question": "Choose the correct word: He is the player ___ the coach praised.",
+    "answer": "whom",
+    "choices": [
+     "whose",
+     "who",
+     "which",
+     "whom"
+    ]
+   },
+   {
+    "question": "Choose the correct word: To ___ should I address the letter?",
+    "answer": "whom",
+    "choices": [
+     "which",
+     "whose",
+     "who",
+     "whom"
+    ]
+   },
+   {
+    "question": "Choose the correct word: ___ left their coat on the bus?",
+    "answer": "Who",
+    "choices": [
+     "Which",
+     "Who",
+     "Whose",
+     "Whom"
+    ]
+   },
+   {
+    "question": "Choose the correct word: With ___ are you going?",
+    "answer": "whom",
+    "choices": [
+     "which",
+     "whose",
+     "whom",
+     "who"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRcL",
+  "subject": "english",
+  "title": "Read and understand: stories",
+  "section": "Reading comprehension",
+  "grades": [
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRcL11",
+   "engRcL12"
+  ],
+  "examples": [
+   {
+    "question": "The Glassblower An original passage written for LearnAce 1 The furnace in my grandfather's workshop never went out. In winter it warmed the whole street; in summer it made the air above the roof shimmer like a mirage. \"Glass has a memory,\" he told me the first time I held a blowpipe. \"Rush it, and it remembers. Cool it too fast, and one day — years later — it cracks for no reason anyone can see.\" 2 I was sixteen and impatient, and for months everything I made remembered my impatience. Bowls slumped. Vases split in the cooling oven overnight. He never fixed my mistakes; he only set them on a shelf by the door, where customers could see them, labelled with my name and the date. 3 I hated that shelf. I believed it was a punishment. Only years later, after he had died and I was running the shop, did I take the pieces down and line them up in order. Arranged that way, the shelf told a story — a slow correction of a lopsided rim; a gradual thinning of glass that had once been as thick as a jar. It was not a record of my failures. It was a record of my learning, kept by someone who knew I would need proof of it someday. 4 The shelf is still by the door. My own apprentice hates it, as she should. Why did the grandfather display the narrator's mistakes?",
+    "answer": "To create a visible record of progress over time",
+    "choices": [
+     "To embarrass the narrator",
+     "To create a visible record of progress over time",
+     "To decorate the shop",
+     "To sell them cheaply"
+    ]
+   },
+   {
+    "question": "The Translator An original passage written for LearnAce 1 For eleven years I translated for my parents — at the bank, at the doctor's, at the parent-teacher conferences where I was, absurdly, required to relay my own report card. I learned early that translation is not a matter of swapping words. It is a matter of deciding what to leave out. 2 When the landlord said my father's English was \"cute,\" I translated it as \"He says he understands.\" When the doctor used the word \"concerning,\" I said, \"She wants more tests,\" and watched my mother's shoulders loosen. I was not lying, exactly. I was editing the world into a shape my parents could carry. 3 It took me until university to recognize that I had also been editing them. My father's jokes, which made his cousins weep with laughter, arrived in English flattened and polite. My mother's precise, sharp-edged opinions about the school system became \"My mother has some questions.\" In my mouth, they were smaller than they were. 4 Last month my father passed his citizenship interview. He insisted on going alone. Afterward he called me, and for the first time I heard him tell a joke in English — a terrible pun about the officer's tie — and heard the officer laugh. I had spent years protecting him from a language that, it turned out, he had been quietly learning to carry himself. Why is the word \"absurdly\" used in paragraph 1?",
+    "answer": "It highlights how strange it was for a child to translate her own report card",
+    "choices": [
+     "It shows the narrator disliked school",
+     "It shows the teachers were rude",
+     "It shows the conferences were funny",
+     "It highlights how strange it was for a child to translate her own report card"
+    ]
+   },
+   {
+    "question": "The Glassblower An original passage written for LearnAce 1 The furnace in my grandfather's workshop never went out. In winter it warmed the whole street; in summer it made the air above the roof shimmer like a mirage. \"Glass has a memory,\" he told me the first time I held a blowpipe. \"Rush it, and it remembers. Cool it too fast, and one day — years later — it cracks for no reason anyone can see.\" 2 I was sixteen and impatient, and for months everything I made remembered my impatience. Bowls slumped. Vases split in the cooling oven overnight. He never fixed my mistakes; he only set them on a shelf by the door, where customers could see them, labelled with my name and the date. 3 I hated that shelf. I believed it was a punishment. Only years later, after he had died and I was running the shop, did I take the pieces down and line them up in order. Arranged that way, the shelf told a story — a slow correction of a lopsided rim; a gradual thinning of glass that had once been as thick as a jar. It was not a record of my failures. It was a record of my learning, kept by someone who knew I would need proof of it someday. 4 The shelf is still by the door. My own apprentice hates it, as she should. Which theme does the passage develop?",
+    "answer": "Growth requires patience and is often visible only over time",
+    "choices": [
+     "Mistakes should be hidden",
+     "Family businesses always fail",
+     "Growth requires patience and is often visible only over time",
+     "Talent cannot be taught"
+    ]
+   },
+   {
+    "question": "The Translator An original passage written for LearnAce 1 For eleven years I translated for my parents — at the bank, at the doctor's, at the parent-teacher conferences where I was, absurdly, required to relay my own report card. I learned early that translation is not a matter of swapping words. It is a matter of deciding what to leave out. 2 When the landlord said my father's English was \"cute,\" I translated it as \"He says he understands.\" When the doctor used the word \"concerning,\" I said, \"She wants more tests,\" and watched my mother's shoulders loosen. I was not lying, exactly. I was editing the world into a shape my parents could carry. 3 It took me until university to recognize that I had also been editing them. My father's jokes, which made his cousins weep with laughter, arrived in English flattened and polite. My mother's precise, sharp-edged opinions about the school system became \"My mother has some questions.\" In my mouth, they were smaller than they were. 4 Last month my father passed his citizenship interview. He insisted on going alone. Afterward he called me, and for the first time I heard him tell a joke in English — a terrible pun about the officer's tie — and heard the officer laugh. I had spent years protecting him from a language that, it turned out, he had been quietly learning to carry himself. What is ironic about the ending?",
+    "answer": "Her father had been learning to manage English all along, even as she protected him",
+    "choices": [
+     "The narrator went to the interview",
+     "Her father had been learning to manage English all along, even as she protected him",
+     "The officer failed her father",
+     "Her father never learned English"
+    ]
+   },
+   {
+    "question": "The Glassblower An original passage written for LearnAce 1 The furnace in my grandfather's workshop never went out. In winter it warmed the whole street; in summer it made the air above the roof shimmer like a mirage. \"Glass has a memory,\" he told me the first time I held a blowpipe. \"Rush it, and it remembers. Cool it too fast, and one day — years later — it cracks for no reason anyone can see.\" 2 I was sixteen and impatient, and for months everything I made remembered my impatience. Bowls slumped. Vases split in the cooling oven overnight. He never fixed my mistakes; he only set them on a shelf by the door, where customers could see them, labelled with my name and the date. 3 I hated that shelf. I believed it was a punishment. Only years later, after he had died and I was running the shop, did I take the pieces down and line them up in order. Arranged that way, the shelf told a story — a slow correction of a lopsided rim; a gradual thinning of glass that had once been as thick as a jar. It was not a record of my failures. It was a record of my learning, kept by someone who knew I would need proof of it someday. 4 The shelf is still by the door. My own apprentice hates it, as she should. What is the effect of the final line, \"as she should\"?",
+    "answer": "It shows wry understanding that the apprentice will learn what the narrator learned",
+    "choices": [
+     "It suggests the apprentice will quit",
+     "It shows the narrator is cruel",
+     "It shows the shelf will be removed",
+     "It shows wry understanding that the apprentice will learn what the narrator learned"
+    ]
+   },
+   {
+    "question": "The Translator An original passage written for LearnAce 1 For eleven years I translated for my parents — at the bank, at the doctor's, at the parent-teacher conferences where I was, absurdly, required to relay my own report card. I learned early that translation is not a matter of swapping words. It is a matter of deciding what to leave out. 2 When the landlord said my father's English was \"cute,\" I translated it as \"He says he understands.\" When the doctor used the word \"concerning,\" I said, \"She wants more tests,\" and watched my mother's shoulders loosen. I was not lying, exactly. I was editing the world into a shape my parents could carry. 3 It took me until university to recognize that I had also been editing them. My father's jokes, which made his cousins weep with laughter, arrived in English flattened and polite. My mother's precise, sharp-edged opinions about the school system became \"My mother has some questions.\" In my mouth, they were smaller than they were. 4 Last month my father passed his citizenship interview. He insisted on going alone. Afterward he called me, and for the first time I heard him tell a joke in English — a terrible pun about the officer's tie — and heard the officer laugh. I had spent years protecting him from a language that, it turned out, he had been quietly learning to carry himself. What does the narrator mean by \"translation is … a matter of deciding what to leave out\"?",
+    "answer": "Translating involves choices about what to soften or omit",
+    "choices": [
+     "Some languages have fewer words",
+     "Translation is mostly guesswork",
+     "Translating involves choices about what to soften or omit",
+     "Translators should use shorter words"
+    ]
+   },
+   {
+    "question": "The Glassblower An original passage written for LearnAce 1 The furnace in my grandfather's workshop never went out. In winter it warmed the whole street; in summer it made the air above the roof shimmer like a mirage. \"Glass has a memory,\" he told me the first time I held a blowpipe. \"Rush it, and it remembers. Cool it too fast, and one day — years later — it cracks for no reason anyone can see.\" 2 I was sixteen and impatient, and for months everything I made remembered my impatience. Bowls slumped. Vases split in the cooling oven overnight. He never fixed my mistakes; he only set them on a shelf by the door, where customers could see them, labelled with my name and the date. 3 I hated that shelf. I believed it was a punishment. Only years later, after he had died and I was running the shop, did I take the pieces down and line them up in order. Arranged that way, the shelf told a story — a slow correction of a lopsided rim; a gradual thinning of glass that had once been as thick as a jar. It was not a record of my failures. It was a record of my learning, kept by someone who knew I would need proof of it someday. 4 The shelf is still by the door. My own apprentice hates it, as she should. What idea does \"Glass has a memory\" express beyond its literal meaning?",
+    "answer": "Haste and carelessness have lasting consequences",
+    "choices": [
+     "Glass can store information",
+     "Grandfather had a poor memory",
+     "Haste and carelessness have lasting consequences",
+     "Old glass is more valuable"
+    ]
+   },
+   {
+    "question": "The Translator An original passage written for LearnAce 1 For eleven years I translated for my parents — at the bank, at the doctor's, at the parent-teacher conferences where I was, absurdly, required to relay my own report card. I learned early that translation is not a matter of swapping words. It is a matter of deciding what to leave out. 2 When the landlord said my father's English was \"cute,\" I translated it as \"He says he understands.\" When the doctor used the word \"concerning,\" I said, \"She wants more tests,\" and watched my mother's shoulders loosen. I was not lying, exactly. I was editing the world into a shape my parents could carry. 3 It took me until university to recognize that I had also been editing them. My father's jokes, which made his cousins weep with laughter, arrived in English flattened and polite. My mother's precise, sharp-edged opinions about the school system became \"My mother has some questions.\" In my mouth, they were smaller than they were. 4 Last month my father passed his citizenship interview. He insisted on going alone. Afterward he called me, and for the first time I heard him tell a joke in English — a terrible pun about the officer's tie — and heard the officer laugh. I had spent years protecting him from a language that, it turned out, he had been quietly learning to carry himself. What does \"editing the world into a shape my parents could carry\" suggest?",
+    "answer": "She softened harsh realities to protect her parents",
+    "choices": [
+     "She rewrote documents for money",
+     "She helped her parents move house",
+     "She taught her parents to edit",
+     "She softened harsh realities to protect her parents"
+    ]
+   },
+   {
+    "question": "The Translator An original passage written for LearnAce 1 For eleven years I translated for my parents — at the bank, at the doctor's, at the parent-teacher conferences where I was, absurdly, required to relay my own report card. I learned early that translation is not a matter of swapping words. It is a matter of deciding what to leave out. 2 When the landlord said my father's English was \"cute,\" I translated it as \"He says he understands.\" When the doctor used the word \"concerning,\" I said, \"She wants more tests,\" and watched my mother's shoulders loosen. I was not lying, exactly. I was editing the world into a shape my parents could carry. 3 It took me until university to recognize that I had also been editing them. My father's jokes, which made his cousins weep with laughter, arrived in English flattened and polite. My mother's precise, sharp-edged opinions about the school system became \"My mother has some questions.\" In my mouth, they were smaller than they were. 4 Last month my father passed his citizenship interview. He insisted on going alone. Afterward he called me, and for the first time I heard him tell a joke in English — a terrible pun about the officer's tie — and heard the officer laugh. I had spent years protecting him from a language that, it turned out, he had been quietly learning to carry himself. What does the narrator realize in paragraph 3?",
+    "answer": "Her translations had made her parents seem smaller than they were",
+    "choices": [
+     "She was a poor student",
+     "Her father was not funny",
+     "Her translations had made her parents seem smaller than they were",
+     "Her parents did not need her help"
+    ]
+   },
+   {
+    "question": "The Glassblower An original passage written for LearnAce 1 The furnace in my grandfather's workshop never went out. In winter it warmed the whole street; in summer it made the air above the roof shimmer like a mirage. \"Glass has a memory,\" he told me the first time I held a blowpipe. \"Rush it, and it remembers. Cool it too fast, and one day — years later — it cracks for no reason anyone can see.\" 2 I was sixteen and impatient, and for months everything I made remembered my impatience. Bowls slumped. Vases split in the cooling oven overnight. He never fixed my mistakes; he only set them on a shelf by the door, where customers could see them, labelled with my name and the date. 3 I hated that shelf. I believed it was a punishment. Only years later, after he had died and I was running the shop, did I take the pieces down and line them up in order. Arranged that way, the shelf told a story — a slow correction of a lopsided rim; a gradual thinning of glass that had once been as thick as a jar. It was not a record of my failures. It was a record of my learning, kept by someone who knew I would need proof of it someday. 4 The shelf is still by the door. My own apprentice hates it, as she should. How does the narrator's view of the shelf change?",
+    "answer": "From seeing it as a punishment to seeing it as a gift",
+    "choices": [
+     "It never changes",
+     "From pride to shame",
+     "From interest to boredom",
+     "From seeing it as a punishment to seeing it as a gift"
+    ]
+   },
+   {
+    "question": "The Translator An original passage written for LearnAce 1 For eleven years I translated for my parents — at the bank, at the doctor's, at the parent-teacher conferences where I was, absurdly, required to relay my own report card. I learned early that translation is not a matter of swapping words. It is a matter of deciding what to leave out. 2 When the landlord said my father's English was \"cute,\" I translated it as \"He says he understands.\" When the doctor used the word \"concerning,\" I said, \"She wants more tests,\" and watched my mother's shoulders loosen. I was not lying, exactly. I was editing the world into a shape my parents could carry. 3 It took me until university to recognize that I had also been editing them. My father's jokes, which made his cousins weep with laughter, arrived in English flattened and polite. My mother's precise, sharp-edged opinions about the school system became \"My mother has some questions.\" In my mouth, they were smaller than they were. 4 Last month my father passed his citizenship interview. He insisted on going alone. Afterward he called me, and for the first time I heard him tell a joke in English — a terrible pun about the officer's tie — and heard the officer laugh. I had spent years protecting him from a language that, it turned out, he had been quietly learning to carry himself. Which word best describes the narrator's attitude in the final paragraph?",
+    "answer": "Humbled and admiring",
+    "choices": [
+     "Humbled and admiring",
+     "Bored and detached",
+     "Bitter and resentful",
+     "Fearful and anxious"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRHD",
+  "subject": "english",
+  "title": "Rhetorical devices",
+  "section": "Literary devices",
+  "grades": [
+   11
+  ],
+  "skillIds": [
+   "engRHD11"
+  ],
+  "examples": [
+   {
+    "question": "Which device is used? “It was the best of times, it was the worst of times.” — Charles Dickens, A Tale of Two Cities (1859)",
+    "answer": "Antithesis",
+    "choices": [
+     "Paradox",
+     "Oxymoron",
+     "Rhetorical question",
+     "Anaphora",
+     "Antithesis"
+    ]
+   },
+   {
+    "question": "Which device is used? “I have a dream that one day this nation will rise up … I have a dream that my four little children will one day live in a nation …” — Martin Luther King Jr., “I Have a Dream” speech (1963)",
+    "answer": "Anaphora",
+    "choices": [
+     "Paradox",
+     "Anaphora",
+     "Antithesis",
+     "Rhetorical question",
+     "Oxymoron"
+    ]
+   },
+   {
+    "question": "Which device is used? “Ask not what your country can do for you — ask what you can do for your country.” — John F. Kennedy, inaugural address (1961)",
+    "answer": "Antithesis",
+    "choices": [
+     "Paradox",
+     "Rhetorical question",
+     "Antithesis",
+     "Anaphora",
+     "Oxymoron"
+    ]
+   },
+   {
+    "question": "Which device is used? “We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets.” — Winston Churchill, speech to the House of Commons (1940)",
+    "answer": "Anaphora",
+    "choices": [
+     "Paradox",
+     "Oxymoron",
+     "Rhetorical question",
+     "Antithesis",
+     "Anaphora"
+    ]
+   },
+   {
+    "question": "Which device is used? Less is more.",
+    "answer": "Paradox",
+    "choices": [
+     "Oxymoron",
+     "Antithesis",
+     "Anaphora",
+     "Paradox",
+     "Rhetorical question"
+    ]
+   },
+   {
+    "question": "Which device is used? The silence was deafening.",
+    "answer": "Oxymoron",
+    "choices": [
+     "Rhetorical question",
+     "Paradox",
+     "Oxymoron",
+     "Anaphora",
+     "Antithesis"
+    ]
+   },
+   {
+    "question": "Which device is used? Can we really sit back and do nothing?",
+    "answer": "Rhetorical question",
+    "choices": [
+     "Oxymoron",
+     "Paradox",
+     "Anaphora",
+     "Antithesis",
+     "Rhetorical question"
+    ]
+   },
+   {
+    "question": "Which device is used? Jumbo shrimp",
+    "answer": "Oxymoron",
+    "choices": [
+     "Oxymoron",
+     "Antithesis",
+     "Rhetorical question",
+     "Anaphora",
+     "Paradox"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAUT",
+  "subject": "english",
+  "title": "American literature: authors",
+  "section": "Analyzing literature",
+  "grades": [
+   11
+  ],
+  "skillIds": [
+   "engAUT11"
+  ],
+  "examples": [
+   {
+    "question": "Who wrote To Kill a Mockingbird ?",
+    "answer": "Harper Lee",
+    "choices": [
+     "F. Scott Fitzgerald",
+     "Harper Lee",
+     "J. D. Salinger",
+     "Edgar Allan Poe"
+    ]
+   },
+   {
+    "question": "Who wrote Moby-Dick ?",
+    "answer": "Herman Melville",
+    "choices": [
+     "F. Scott Fitzgerald",
+     "Arthur Miller",
+     "Herman Melville",
+     "Harper Lee"
+    ]
+   },
+   {
+    "question": "Who wrote The Catcher in the Rye ?",
+    "answer": "J. D. Salinger",
+    "choices": [
+     "Herman Melville",
+     "John Steinbeck",
+     "J. D. Salinger",
+     "Edgar Allan Poe"
+    ]
+   },
+   {
+    "question": "Who wrote The Crucible ?",
+    "answer": "Arthur Miller",
+    "choices": [
+     "F. Scott Fitzgerald",
+     "Edgar Allan Poe",
+     "Herman Melville",
+     "Arthur Miller"
+    ]
+   },
+   {
+    "question": "Who wrote The Great Gatsby ?",
+    "answer": "F. Scott Fitzgerald",
+    "choices": [
+     "Mark Twain",
+     "John Steinbeck",
+     "F. Scott Fitzgerald",
+     "J. D. Salinger"
+    ]
+   },
+   {
+    "question": "Who wrote The Scarlet Letter ?",
+    "answer": "Nathaniel Hawthorne",
+    "choices": [
+     "John Steinbeck",
+     "Arthur Miller",
+     "Herman Melville",
+     "Nathaniel Hawthorne"
+    ]
+   },
+   {
+    "question": "Who wrote Adventures of Huckleberry Finn ?",
+    "answer": "Mark Twain",
+    "choices": [
+     "Edgar Allan Poe",
+     "Mark Twain",
+     "Harper Lee",
+     "Nathaniel Hawthorne"
+    ]
+   },
+   {
+    "question": "Who wrote The Grapes of Wrath ?",
+    "answer": "John Steinbeck",
+    "choices": [
+     "Harper Lee",
+     "Arthur Miller",
+     "John Steinbeck",
+     "J. D. Salinger"
+    ]
+   },
+   {
+    "question": "Who wrote Of Mice and Men ?",
+    "answer": "John Steinbeck",
+    "choices": [
+     "Herman Melville",
+     "Mark Twain",
+     "Harper Lee",
+     "John Steinbeck"
+    ]
+   },
+   {
+    "question": "Who wrote “The Raven”?",
+    "answer": "Edgar Allan Poe",
+    "choices": [
+     "Mark Twain",
+     "J. D. Salinger",
+     "Nathaniel Hawthorne",
+     "Edgar Allan Poe"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPER",
+  "subject": "english",
+  "title": "American literary periods",
+  "section": "Analyzing literature",
+  "grades": [
+   11
+  ],
+  "skillIds": [
+   "engPER11"
+  ],
+  "examples": [
+   {
+    "question": "Which literary movement is most associated with Zora Neale Hurston?",
+    "answer": "Harlem Renaissance",
+    "choices": [
+     "Romanticism",
+     "Harlem Renaissance",
+     "Modernism",
+     "Realism"
+    ]
+   },
+   {
+    "question": "Which literary movement is most associated with Henry James?",
+    "answer": "Realism",
+    "choices": [
+     "Romanticism",
+     "Modernism",
+     "Harlem Renaissance",
+     "Realism"
+    ]
+   },
+   {
+    "question": "Which literary movement is most associated with F. Scott Fitzgerald?",
+    "answer": "Modernism",
+    "choices": [
+     "Harlem Renaissance",
+     "Realism",
+     "Modernism",
+     "Romanticism"
+    ]
+   },
+   {
+    "question": "Which literary movement is most associated with Edgar Allan Poe?",
+    "answer": "Romanticism",
+    "choices": [
+     "Modernism",
+     "Harlem Renaissance",
+     "Romanticism",
+     "Realism"
+    ]
+   },
+   {
+    "question": "Which literary movement is most associated with Mark Twain?",
+    "answer": "Realism",
+    "choices": [
+     "Modernism",
+     "Realism",
+     "Romanticism",
+     "Harlem Renaissance"
+    ]
+   },
+   {
+    "question": "Which literary movement is most associated with Ernest Hemingway?",
+    "answer": "Modernism",
+    "choices": [
+     "Realism",
+     "Modernism",
+     "Romanticism",
+     "Harlem Renaissance"
+    ]
+   },
+   {
+    "question": "Which literary movement is most associated with Langston Hughes?",
+    "answer": "Harlem Renaissance",
+    "choices": [
+     "Romanticism",
+     "Harlem Renaissance",
+     "Realism",
+     "Modernism"
+    ]
+   },
+   {
+    "question": "Which literary movement is most associated with Ralph Waldo Emerson?",
+    "answer": "Romanticism",
+    "choices": [
+     "Harlem Renaissance",
+     "Romanticism",
+     "Realism",
+     "Modernism"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engERR",
+  "subject": "english",
+  "title": "Fixing sentence errors",
+  "section": "Editing and revising",
+  "grades": [
+   11
+  ],
+  "skillIds": [
+   "engERR11"
+  ],
+  "examples": [
+   {
+    "question": "Which is the best correction? Having finished the exam, the bell rang.",
+    "answer": "Having finished the exam, we heard the bell ring.",
+    "choices": [
+     "Having finished the exam, the bell was rung.",
+     "The bell rang having finished the exam.",
+     "Finishing the exam, the bell rung.",
+     "Having finished the exam, we heard the bell ring."
+    ]
+   },
+   {
+    "question": "Which is the best correction? Me and her went to the game.",
+    "answer": "She and I went to the game.",
+    "choices": [
+     "She and me went to the game.",
+     "She and I went to the game.",
+     "Her and I went to the game.",
+     "Me and she went to the game."
+    ]
+   },
+   {
+    "question": "Which is the best correction? I could of won the race.",
+    "answer": "I could have won the race.",
+    "choices": [
+     "I could have won the race.",
+     "I could've of won the race.",
+     "I could of win the race.",
+     "I can of won the race."
+    ]
+   },
+   {
+    "question": "Which is the best correction? The decision was between he and I.",
+    "answer": "The decision was between him and me.",
+    "choices": [
+     "The decision was among he and I.",
+     "The decision was between he and me.",
+     "The decision was between him and me.",
+     "The decision was between him and I."
+    ]
+   },
+   {
+    "question": "Which is the best correction? Its a beautiful day, isn't it?",
+    "answer": "It's a beautiful day, isn't it?",
+    "choices": [
+     "It's a beautiful day, isn't it?",
+     "Its a beautiful day isn't it.",
+     "Its a beautiful, day, isn't it?",
+     "Its' a beautiful day, isn't it?"
+    ]
+   },
+   {
+    "question": "Which is the best correction? Each of the students bring a lunch.",
+    "answer": "Each of the students brings a lunch.",
+    "choices": [
+     "Each of the students bring lunches.",
+     "Each of the students have brought a lunch.",
+     "Each of the students brings a lunch.",
+     "Each of the students are bringing a lunch."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPfx",
+  "subject": "english",
+  "title": "Prefixes",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPfx11",
+   "engPfx12"
+  ],
+  "examples": [
+   {
+    "question": "What does omnipresent mean?",
+    "answer": "present everywhere",
+    "choices": [
+     "present once",
+     "present nearby",
+     "present everywhere",
+     "never present"
+    ]
+   },
+   {
+    "question": "What does malfunction mean?",
+    "answer": "a failure to work properly",
+    "choices": [
+     "an improvement",
+     "a new function",
+     "a failure to work properly",
+     "a repair"
+    ]
+   },
+   {
+    "question": "What does antithesis mean?",
+    "answer": "the direct opposite",
+    "choices": [
+     "the direct opposite",
+     "a strong agreement",
+     "a beginning",
+     "a summary"
+    ]
+   },
+   {
+    "question": "What does circumnavigate mean?",
+    "answer": "to sail all the way around",
+    "choices": [
+     "to sail underwater",
+     "to avoid sailing",
+     "to sail in a straight line",
+     "to sail all the way around"
+    ]
+   },
+   {
+    "question": "What does hyperactive mean?",
+    "answer": "abnormally active",
+    "choices": [
+     "slightly active",
+     "not active",
+     "abnormally active",
+     "formerly active"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCxDm",
+  "subject": "english",
+  "title": "Domain-specific vocabulary in context: science and technical subjects",
+  "section": "Context clues",
+  "grades": [
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCxDm11",
+   "engCxDm12"
+  ],
+  "examples": [
+   {
+    "question": "The tectonic plates shift slowly, causing earthquakes. What does the underlined word mean?",
+    "answer": "relating to Earth's crust movement",
+    "choices": [
+     "relating to oceans",
+     "relating to weather",
+     "relating to stars",
+     "relating to Earth's crust movement"
+    ]
+   },
+   {
+    "question": "The circumference of the circle is the distance all the way around it. What does the underlined word mean?",
+    "answer": "the distance around a circle",
+    "choices": [
+     "the centre",
+     "the distance around a circle",
+     "the area inside",
+     "the distance across"
+    ]
+   },
+   {
+    "question": "The engineer measured the tensile strength, how much pulling force the cable could take before breaking. What does the underlined word mean?",
+    "answer": "able to resist pulling",
+    "choices": [
+     "able to resist pulling",
+     "able to resist heat",
+     "able to melt",
+     "able to bend"
+    ]
+   },
+   {
+    "question": "The algorithm followed a precise sequence of steps to sort the list. What does the underlined word mean?",
+    "answer": "a step-by-step procedure",
+    "choices": [
+     "a password",
+     "a step-by-step procedure",
+     "a bug in a program",
+     "a type of computer"
+    ]
+   },
+   {
+    "question": "Plants use photosynthesis to convert sunlight, water and carbon dioxide into sugar. What does the underlined word mean?",
+    "answer": "making food from light",
+    "choices": [
+     "absorbing water",
+     "releasing carbon",
+     "growing roots",
+     "making food from light"
+    ]
+   },
+   {
+    "question": "A herbivore , such as a deer, feeds only on plants. What does the underlined word mean?",
+    "answer": "an animal that eats plants",
+    "choices": [
+     "an animal that eats plants",
+     "an animal that eats meat",
+     "a bird",
+     "a hunter"
+    ]
+   },
+   {
+    "question": "The enzyme sped up the chemical reaction without being used up. What does the underlined word mean?",
+    "answer": "a protein that speeds up reactions",
+    "choices": [
+     "a metal",
+     "a gas",
+     "a type of sugar",
+     "a protein that speeds up reactions"
+    ]
+   },
+   {
+    "question": "Heat moves through the metal by conduction , passing from one particle to the next. What does the underlined word mean?",
+    "answer": "transfer of heat by contact",
+    "choices": [
+     "transfer of heat by light",
+     "melting",
+     "cooling by wind",
+     "transfer of heat by contact"
+    ]
+   }
+  ]
+ }
+]

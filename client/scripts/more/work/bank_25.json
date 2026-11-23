@@ -1,0 +1,2669 @@
+[
+ {
+  "key": "sciXsEngTest",
+  "subject": "science",
+  "title": "Evaluate tests of engineering-design solutions",
+  "section": "Engineering practices",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "sciXsEngTest6",
+   "sciXsEngTest7",
+   "sciXsEngTest8",
+   "sciXsEngTest9"
+  ],
+  "examples": [
+   {
+    "question": "Why should a design be tested more than once?",
+    "answer": "To check that results are consistent",
+    "choices": [
+     "To check that results are consistent",
+     "To use more time",
+     "It doesn't matter",
+     "To break more materials"
+    ]
+   },
+   {
+    "question": "A team tests a water filter only with clean water. What is the weakness?",
+    "answer": "It does not test whether the filter removes dirt",
+    "choices": [
+     "The test is too long",
+     "Filters can't be tested",
+     "Clean water is too heavy",
+     "It does not test whether the filter removes dirt"
+    ]
+   },
+   {
+    "question": "Engineers test 3 helmet designs by dropping each once from different heights. What is wrong with this test?",
+    "answer": "The drop height should be the same for each helmet",
+    "choices": [
+     "Helmets shouldn't be tested",
+     "The drop height should be the same for each helmet",
+     "Nothing is wrong",
+     "They should use more colours"
+    ]
+   },
+   {
+    "question": "Engineers find their bridge fails at the joints. What should they do next?",
+    "answer": "Redesign the joints and test again",
+    "choices": [
+     "Paint the bridge",
+     "Ignore the failure",
+     "Stop the project",
+     "Redesign the joints and test again"
+    ]
+   },
+   {
+    "question": "A water filter is tested once. Why is that a weakness?",
+    "answer": "One test may not be reliable; repeated trials are needed",
+    "choices": [
+     "It is too many tests",
+     "It uses too much water",
+     "Filters don't need testing",
+     "One test may not be reliable; repeated trials are needed"
+    ]
+   },
+   {
+    "question": "A test of solar ovens is done on a sunny day for one design and a cloudy day for another. What is the problem?",
+    "answer": "Weather is not controlled",
+    "choices": [
+     "One design is too small",
+     "Ovens should be painted",
+     "Weather is not controlled",
+     "There is no problem"
+    ]
+   },
+   {
+    "question": "Why compare a new design to an existing one?",
+    "answer": "To see if it is actually an improvement",
+    "choices": [
+     "To skip testing",
+     "To see if it is actually an improvement",
+     "To make it cost more",
+     "To copy the old design"
+    ]
+   },
+   {
+    "question": "What should a good test measure?",
+    "answer": "How well the design meets its criteria",
+    "choices": [
+     "Who built it",
+     "How well the design meets its criteria",
+     "How pretty the design looks",
+     "How long the name is"
+    ]
+   },
+   {
+    "question": "A test of helmet designs only measures weight. What is missing?",
+    "answer": "A measure of how well each helmet protects in an impact",
+    "choices": [
+     "The helmet colour",
+     "The cost of paint",
+     "The designer's name",
+     "A measure of how well each helmet protects in an impact"
+    ]
+   },
+   {
+    "question": "Engineers test three bridge designs by adding weight until each fails. Why use the same weights and supports for each?",
+    "answer": "So the test is fair and results can be compared",
+    "choices": [
+     "So the test is fair and results can be compared",
+     "To make the test faster",
+     "To save money",
+     "So all bridges fail"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMoon",
+  "subject": "science",
+  "title": "Explore the engineering-design process: going to the Moon!",
+  "section": "Engineering practices",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "sciXsMoon6",
+   "sciXsMoon7",
+   "sciXsMoon8",
+   "sciXsMoon9"
+  ],
+  "examples": [
+   {
+    "question": "Why do space engineers make systems with backups?",
+    "answer": "If one part fails, another can take over",
+    "choices": [
+     "To save money",
+     "To confuse astronauts",
+     "To make rockets heavier",
+     "If one part fails, another can take over"
+    ]
+   },
+   {
+    "question": "Why are rovers tested in deserts on Earth?",
+    "answer": "Deserts have rocky, dusty ground like the Moon",
+    "choices": [
+     "Deserts are close to the Moon",
+     "Deserts have no gravity",
+     "Deserts have rocky, dusty ground like the Moon",
+     "Deserts are cold"
+    ]
+   },
+   {
+    "question": "What is a criterion for a successful Moon habitat?",
+    "answer": "It must protect astronauts from radiation",
+    "choices": [
+     "It must be heavy",
+     "It must be pink",
+     "It must be noisy",
+     "It must protect astronauts from radiation"
+    ]
+   },
+   {
+    "question": "Why do Moon landers use legs with wide footpads?",
+    "answer": "To spread weight and avoid sinking into dust",
+    "choices": [
+     "To look nice",
+     "To run faster",
+     "To spread weight and avoid sinking into dust",
+     "To swim"
+    ]
+   },
+   {
+    "question": "Why do engineers test parachutes for landers on Earth before using them on Mars but not the Moon?",
+    "answer": "The Moon has no air, so parachutes don't work there",
+    "choices": [
+     "The Moon is too small",
+     "Parachutes are banned",
+     "The Moon has no air, so parachutes don't work there",
+     "The Moon has strong winds"
+    ]
+   },
+   {
+    "question": "What is a constraint in designing a Moon rover?",
+    "answer": "A limit, such as a maximum mass that a rocket can carry",
+    "choices": [
+     "A limit, such as a maximum mass that a rocket can carry",
+     "The name of the mission",
+     "The rover's favourite colour",
+     "A goal to drive far"
+    ]
+   },
+   {
+    "question": "A lunar lander must weigh less than a set limit. This limit is a…",
+    "answer": "constraint",
+    "choices": [
+     "prototype",
+     "hypothesis",
+     "criterion for success",
+     "constraint"
+    ]
+   },
+   {
+    "question": "What is the first step in the engineering-design process?",
+    "answer": "Define the problem and its criteria and constraints",
+    "choices": [
+     "Define the problem and its criteria and constraints",
+     "Celebrate",
+     "Launch the rocket",
+     "Build the final product"
+    ]
+   },
+   {
+    "question": "Why must a lunar rover handle extreme temperatures?",
+    "answer": "The Moon has no atmosphere to hold heat",
+    "choices": [
+     "It rains on the Moon",
+     "The Moon is always warm",
+     "The Moon has oceans",
+     "The Moon has no atmosphere to hold heat"
+    ]
+   },
+   {
+    "question": "After a test shows a weakness, engineers should…",
+    "answer": "redesign and test again",
+    "choices": [
+     "launch anyway",
+     "give up",
+     "redesign and test again",
+     "hide the results"
+    ]
+   },
+   {
+    "question": "Why do engineers build and test prototypes?",
+    "answer": "To find problems and improve the design before the real mission",
+    "choices": [
+     "To make it cost more",
+     "To find problems and improve the design before the real mission",
+     "To avoid testing",
+     "To skip planning"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAbForce",
+  "subject": "science",
+  "title": "Abbreviate force, energy and electricity units",
+  "section": "Units and measurement",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsAbForce6",
+   "sciXsAbForce7",
+   "sciXsAbForce8"
+  ],
+  "examples": [
+   {
+    "question": "What is the symbol for ohm?",
+    "answer": "Ω",
+    "choices": [
+     "O",
+     "oh",
+     "Ω",
+     "Ohm"
+    ]
+   },
+   {
+    "question": "What is the symbol for joule (energy)?",
+    "answer": "J",
+    "choices": [
+     "J",
+     "Jo",
+     "jl",
+     "j"
+    ]
+   },
+   {
+    "question": "What is the symbol for volt?",
+    "answer": "V",
+    "choices": [
+     "v",
+     "vt",
+     "V",
+     "Vo"
+    ]
+   },
+   {
+    "question": "What is the symbol for newton (force)?",
+    "answer": "N",
+    "choices": [
+     "n",
+     "N",
+     "nw",
+     "Nt"
+    ]
+   },
+   {
+    "question": "What is the symbol for ampere?",
+    "answer": "A",
+    "choices": [
+     "A",
+     "amp",
+     "Am",
+     "a"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciDensCmp",
+  "subject": "science",
+  "title": "Compare the densities of substances",
+  "section": "Matter and mass",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciDensCmp6",
+   "sciDensCmp7",
+   "sciDensCmp8"
+  ],
+  "examples": [
+   {
+    "question": "Ice (0.92 g/cm³) is placed in water (1.0 g/cm³). What happens?",
+    "answer": "It floats",
+    "choices": [
+     "It dissolves",
+     "It floats",
+     "It sinks"
+    ]
+   },
+   {
+    "question": "Two blocks have the same volume. Block A has more mass. Which is denser?",
+    "answer": "Block A",
+    "choices": [
+     "They have equal density",
+     "Block A",
+     "Block B"
+    ]
+   },
+   {
+    "question": "Oil floats on top of water. Which is denser?",
+    "answer": "Water",
+    "choices": [
+     "Water",
+     "Oil",
+     "They have equal density"
+    ]
+   },
+   {
+    "question": "A rock is cut in half. What happens to the density of each half?",
+    "answer": "It stays the same",
+    "choices": [
+     "It doubles",
+     "It stays the same",
+     "It is cut in half"
+    ]
+   },
+   {
+    "question": "Water has a density of 1.0 g/cm³. Will a steel bolt (7.8 g/cm³) sink or float in water?",
+    "answer": "Sink",
+    "choices": [
+     "Sink",
+     "Float"
+    ]
+   },
+   {
+    "question": "Water has a density of 1.0 g/cm³. Will a cork (0.24 g/cm³) sink or float in water?",
+    "answer": "Float",
+    "choices": [
+     "Sink",
+     "Float"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciAccel",
+  "subject": "science",
+  "title": "Identify whether objects are accelerating",
+  "section": "Acceleration and forces",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciAccel6",
+   "sciAccel7",
+   "sciAccel8",
+   "sciAccel9",
+   "sciAccel10"
+  ],
+  "examples": [
+   {
+    "question": "Is the object accelerating? A ball falls from a roof.",
+    "answer": "Accelerating",
+    "choices": [
+     "Accelerating",
+     "Not accelerating"
+    ]
+   },
+   {
+    "question": "Is the object accelerating? A car speeds up from a stop sign.",
+    "answer": "Accelerating",
+    "choices": [
+     "Not accelerating",
+     "Accelerating"
+    ]
+   },
+   {
+    "question": "Is the object accelerating? A bus slows down at a stop.",
+    "answer": "Accelerating",
+    "choices": [
+     "Accelerating",
+     "Not accelerating"
+    ]
+   },
+   {
+    "question": "Is the object accelerating? A train moves at a steady 80 km/h on a straight track.",
+    "answer": "Not accelerating",
+    "choices": [
+     "Accelerating",
+     "Not accelerating"
+    ]
+   },
+   {
+    "question": "Is the object accelerating? An airplane cruises straight at a constant speed.",
+    "answer": "Not accelerating",
+    "choices": [
+     "Not accelerating",
+     "Accelerating"
+    ]
+   },
+   {
+    "question": "Is the object accelerating? A parked bike sits on the sidewalk.",
+    "answer": "Not accelerating",
+    "choices": [
+     "Not accelerating",
+     "Accelerating"
+    ]
+   },
+   {
+    "question": "Is the object accelerating? A satellite circles Earth at constant speed.",
+    "answer": "Accelerating",
+    "choices": [
+     "Not accelerating",
+     "Accelerating"
+    ]
+   },
+   {
+    "question": "Is the object accelerating? A runner rounds a curve at constant speed.",
+    "answer": "Accelerating",
+    "choices": [
+     "Not accelerating",
+     "Accelerating"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciNewton",
+  "subject": "science",
+  "title": "Predict forces using Newton's third law of motion",
+  "section": "Acceleration and forces",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciNewton36",
+   "sciNewton37",
+   "sciNewton38",
+   "sciNewton39",
+   "sciNewton310"
+  ],
+  "examples": [
+   {
+    "question": "A skater pushes off a wall. What happens to the skater?",
+    "answer": "The skater moves away from the wall",
+    "choices": [
+     "Nothing happens",
+     "The skater moves away from the wall",
+     "Pushes in the same direction",
+     "Disappears"
+    ]
+   },
+   {
+    "question": "A rocket pushes gas downward. What does the gas do?",
+    "answer": "Pushes the rocket upward",
+    "choices": [
+     "Disappears",
+     "Pushes the rocket upward",
+     "Nothing happens",
+     "Pushes in the same direction"
+    ]
+   },
+   {
+    "question": "You push on a wall with 50 N. How hard does the wall push on you?",
+    "answer": "50 N, in the opposite direction",
+    "choices": [
+     "Nothing happens",
+     "50 N, in the opposite direction",
+     "Pushes in the same direction",
+     "Disappears"
+    ]
+   },
+   {
+    "question": "A swimmer pushes the water backward. What does the water do?",
+    "answer": "Pushes the swimmer forward",
+    "choices": [
+     "Pushes the swimmer forward",
+     "Nothing happens",
+     "Pushes in the same direction",
+     "Disappears"
+    ]
+   },
+   {
+    "question": "A bird pushes air down with its wings. What does the air do?",
+    "answer": "Pushes the bird up",
+    "choices": [
+     "Nothing happens",
+     "Pushes in the same direction",
+     "Pushes the bird up",
+     "Disappears"
+    ]
+   },
+   {
+    "question": "A hammer hits a nail. What does the nail do to the hammer?",
+    "answer": "Pushes back on the hammer with equal force",
+    "choices": [
+     "Nothing happens",
+     "Disappears",
+     "Pushes in the same direction",
+     "Pushes back on the hammer with equal force"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCarSafe",
+  "subject": "science",
+  "title": "Collisions and car safety features",
+  "section": "Acceleration and forces",
+  "grades": [
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciXsCarSafe6",
+   "sciXsCarSafe8"
+  ],
+  "examples": [
+   {
+    "question": "What is a crumple zone?",
+    "answer": "A part of the car designed to crush and absorb energy",
+    "choices": [
+     "A type of seat",
+     "A part of the car designed to crush and absorb energy",
+     "The engine",
+     "A spare tire"
+    ]
+   },
+   {
+    "question": "Why are seat belts made of webbing that stretches a little?",
+    "answer": "To slow the body over a longer time",
+    "choices": [
+     "To keep you cool",
+     "To break easily",
+     "To be stylish",
+     "To slow the body over a longer time"
+    ]
+   },
+   {
+    "question": "Why do seat belts stretch slightly in a crash?",
+    "answer": "To spread the stopping force over a longer time",
+    "choices": [
+     "To break easily",
+     "To make passengers move faster",
+     "They don't stretch",
+     "To spread the stopping force over a longer time"
+    ]
+   },
+   {
+    "question": "Why does a heavier car need more braking force to stop?",
+    "answer": "It has more momentum",
+    "choices": [
+     "It has less inertia",
+     "It has more momentum",
+     "Brakes work better on light cars",
+     "Heavy cars have no friction"
+    ]
+   },
+   {
+    "question": "How does an air bag reduce injuries in a collision?",
+    "answer": "It increases the time over which the person stops, reducing the force",
+    "choices": [
+     "It stops the car from moving",
+     "It increases the time over which the person stops, reducing the force",
+     "It makes the car heavier",
+     "It speeds the person up"
+    ]
+   },
+   {
+    "question": "Why do cars have headrests?",
+    "answer": "To stop the head snapping back in a rear-end collision",
+    "choices": [
+     "To block sunlight",
+     "To stop the head snapping back in a rear-end collision",
+     "For comfort only",
+     "To hold sunglasses"
+    ]
+   },
+   {
+    "question": "According to Newton's first law, what happens to an unbelted passenger when a car suddenly stops?",
+    "answer": "They keep moving forward",
+    "choices": [
+     "They move backward",
+     "They stop instantly",
+     "They float up",
+     "They keep moving forward"
+    ]
+   },
+   {
+    "question": "How do anti-lock brakes help?",
+    "answer": "They stop wheels from locking so the driver can still steer",
+    "choices": [
+     "They stop wheels from locking so the driver can still steer",
+     "They make the car faster",
+     "They inflate airbags",
+     "They turn on the lights"
+    ]
+   },
+   {
+    "question": "How does a crumple zone protect passengers?",
+    "answer": "It crushes slowly, increasing the time of the collision and reducing force",
+    "choices": [
+     "It crushes slowly, increasing the time of the collision and reducing force",
+     "It adds mass",
+     "It stops the car instantly",
+     "It makes the car bounce"
+    ]
+   },
+   {
+    "question": "Why are child car seats placed facing backward for babies?",
+    "answer": "The seat back spreads crash forces across the baby's body",
+    "choices": [
+     "It is easier to buckle",
+     "It keeps them warm",
+     "The seat back spreads crash forces across the baby's body",
+     "Babies like the view"
+    ]
+   },
+   {
+    "question": "What does Newton's first law say happens to loose objects when a car stops suddenly?",
+    "answer": "They keep moving forward",
+    "choices": [
+     "They stop instantly",
+     "They move backward",
+     "They keep moving forward",
+     "They float up"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCondIns",
+  "subject": "science",
+  "title": "Conductors and insulators",
+  "section": "Electricity and magnetism",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciCondIns6"
+  ],
+  "examples": [
+   {
+    "question": "Is a rubber band an electrical conductor or insulator?",
+    "answer": "Insulator",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is dry cotton an electrical conductor or insulator?",
+    "answer": "Insulator",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is a glass marble an electrical conductor or insulator?",
+    "answer": "Insulator",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is a ceramic plate an electrical conductor or insulator?",
+    "answer": "Insulator",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is a copper wire an electrical conductor or insulator?",
+    "answer": "Conductor",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is a wooden ruler an electrical conductor or insulator?",
+    "answer": "Insulator",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is a silver ring an electrical conductor or insulator?",
+    "answer": "Conductor",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is graphite (pencil lead) an electrical conductor or insulator?",
+    "answer": "Conductor",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is a steel nail an electrical conductor or insulator?",
+    "answer": "Conductor",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is an aluminum can an electrical conductor or insulator?",
+    "answer": "Conductor",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is salt water an electrical conductor or insulator?",
+    "answer": "Conductor",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is a plastic straw an electrical conductor or insulator?",
+    "answer": "Insulator",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciStatic",
+  "subject": "science",
+  "title": "Static electricity and charged objects",
+  "section": "Electricity and magnetism",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciStatic6",
+   "sciStatic7",
+   "sciStatic8"
+  ],
+  "examples": [
+   {
+    "question": "After you shuffle on carpet, a doorknob gives you a shock because …",
+    "answer": "extra charge jumps to the metal.",
+    "choices": [
+     "the doorknob is hot.",
+     "your shoes make electricity.",
+     "extra charge jumps to the metal.",
+     "the carpet is magnetic."
+    ]
+   },
+   {
+    "question": "A charged balloon sticks to a wall because …",
+    "answer": "opposite charges attract.",
+    "choices": [
+     "the wall is magnetic.",
+     "opposite charges attract.",
+     "like charges attract.",
+     "the balloon is sticky."
+    ]
+   },
+   {
+    "question": "Two balloons both have a negative charge. What happens when they are brought close?",
+    "answer": "They repel.",
+    "choices": [
+     "They repel.",
+     "Nothing happens.",
+     "They attract.",
+     "They pop."
+    ]
+   },
+   {
+    "question": "Lightning is a giant …",
+    "answer": "static discharge.",
+    "choices": [
+     "sound wave.",
+     "static discharge.",
+     "magnet.",
+     "chemical reaction."
+    ]
+   },
+   {
+    "question": "A negatively charged balloon is held near a positively charged one. What happens?",
+    "answer": "They attract.",
+    "choices": [
+     "They attract.",
+     "They repel.",
+     "Nothing happens.",
+     "Both become neutral instantly."
+    ]
+   },
+   {
+    "question": "Rubbing a balloon on your hair moves which particles?",
+    "answer": "Electrons",
+    "choices": [
+     "Neutrons",
+     "Electrons",
+     "Atoms of hair",
+     "Protons"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPMTemp",
+  "subject": "science",
+  "title": "How does particle motion affect temperature?",
+  "section": "Particle motion and energy",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsPMTemp6",
+   "sciXsPMTemp7",
+   "sciXsPMTemp8"
+  ],
+  "examples": [
+   {
+    "question": "What is temperature a measure of?",
+    "answer": "The average kinetic energy of particles",
+    "choices": [
+     "The number of particles",
+     "The total mass",
+     "The average kinetic energy of particles",
+     "The volume"
+    ]
+   },
+   {
+    "question": "An aerosol can is left in a hot car. How do the gas particles move, and what happens to the temperature?",
+    "answer": "They move faster; temperature increases",
+    "choices": [
+     "They stop moving; temperature increases",
+     "They move faster; temperature stays the same",
+     "They move faster; temperature increases",
+     "They move slower; temperature decreases"
+    ]
+   },
+   {
+    "question": "What happens to particle motion as a substance gets hotter?",
+    "answer": "Particles move faster",
+    "choices": [
+     "Particles disappear",
+     "Particles stop",
+     "Particles move faster",
+     "Particles move slower"
+    ]
+   },
+   {
+    "question": "A car tire cools overnight in winter. How do the gas particles move, and what happens to the temperature?",
+    "answer": "They move slower; temperature decreases",
+    "choices": [
+     "They move slower; temperature stays the same",
+     "They move slower; temperature decreases",
+     "They stop moving; temperature decreases",
+     "They move faster; temperature increases"
+    ]
+   },
+   {
+    "question": "A pressure cooker is heated on the stove. How do the gas particles move, and what happens to the temperature?",
+    "answer": "They move faster; temperature increases",
+    "choices": [
+     "They move faster; temperature increases",
+     "They move faster; temperature stays the same",
+     "They stop moving; temperature increases",
+     "They move slower; temperature decreases"
+    ]
+   },
+   {
+    "question": "Sample A's particles move faster than Sample B's. Which has the higher temperature?",
+    "answer": "Sample A",
+    "choices": [
+     "They are equal",
+     "Sample A",
+     "Sample B"
+    ]
+   },
+   {
+    "question": "A balloon is put in the freezer. How do the gas particles move, and what happens to the temperature?",
+    "answer": "They move slower; temperature decreases",
+    "choices": [
+     "They move faster; temperature increases",
+     "They move slower; temperature decreases",
+     "They move slower; temperature stays the same",
+     "They stop moving; temperature decreases"
+    ]
+   },
+   {
+    "question": "A sealed can of air is heated. How do the gas particles move, and what happens to the temperature?",
+    "answer": "They move faster; temperature increases",
+    "choices": [
+     "They stop moving; temperature increases",
+     "They move slower; temperature decreases",
+     "They move faster; temperature stays the same",
+     "They move faster; temperature increases"
+    ]
+   },
+   {
+    "question": "A sealed jar of air is placed in an ice bath. How do the gas particles move, and what happens to the temperature?",
+    "answer": "They move slower; temperature decreases",
+    "choices": [
+     "They move slower; temperature decreases",
+     "They stop moving; temperature decreases",
+     "They move faster; temperature increases",
+     "They move slower; temperature stays the same"
+    ]
+   },
+   {
+    "question": "A bike tire sits in hot sunlight. How do the gas particles move, and what happens to the temperature?",
+    "answer": "They move faster; temperature increases",
+    "choices": [
+     "They stop moving; temperature increases",
+     "They move slower; temperature decreases",
+     "They move faster; temperature increases",
+     "They move faster; temperature stays the same"
+    ]
+   },
+   {
+    "question": "A soda bottle is put in a cold fridge. How do the gas particles move, and what happens to the temperature?",
+    "answer": "They move slower; temperature decreases",
+    "choices": [
+     "They stop moving; temperature decreases",
+     "They move slower; temperature decreases",
+     "They move faster; temperature increases",
+     "They move slower; temperature stays the same"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPMPres",
+  "subject": "science",
+  "title": "How does particle motion affect gas pressure?",
+  "section": "Particle motion and energy",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsPMPres6",
+   "sciXsPMPres7",
+   "sciXsPMPres8"
+  ],
+  "examples": [
+   {
+    "question": "A balloon is put in the freezer. What happens to the gas pressure inside?",
+    "answer": "It decreases",
+    "choices": [
+     "It stays the same",
+     "It decreases",
+     "It increases"
+    ]
+   },
+   {
+    "question": "What causes gas pressure?",
+    "answer": "Gas particles colliding with the walls of their container",
+    "choices": [
+     "Light hitting the gas",
+     "Particles sticking together",
+     "The container's colour",
+     "Gas particles colliding with the walls of their container"
+    ]
+   },
+   {
+    "question": "A sealed container of gas is heated. What happens to the pressure?",
+    "answer": "It increases",
+    "choices": [
+     "It stays the same",
+     "It decreases",
+     "It increases"
+    ]
+   },
+   {
+    "question": "A bike tire is left in the cold. What happens to its pressure?",
+    "answer": "It decreases",
+    "choices": [
+     "It decreases",
+     "It stays the same",
+     "It increases"
+    ]
+   },
+   {
+    "question": "A sealed jar of air is placed in an ice bath. What happens to the gas pressure inside?",
+    "answer": "It decreases",
+    "choices": [
+     "It increases",
+     "It decreases",
+     "It stays the same"
+    ]
+   },
+   {
+    "question": "A soda bottle is put in a cold fridge. What happens to the gas pressure inside?",
+    "answer": "It decreases",
+    "choices": [
+     "It stays the same",
+     "It increases",
+     "It decreases"
+    ]
+   },
+   {
+    "question": "A car tire cools overnight in winter. What happens to the gas pressure inside?",
+    "answer": "It decreases",
+    "choices": [
+     "It increases",
+     "It decreases",
+     "It stays the same"
+    ]
+   },
+   {
+    "question": "A pressure cooker is heated on the stove. What happens to the gas pressure inside?",
+    "answer": "It increases",
+    "choices": [
+     "It stays the same",
+     "It decreases",
+     "It increases"
+    ]
+   },
+   {
+    "question": "A sealed can of air is heated. What happens to the gas pressure inside?",
+    "answer": "It increases",
+    "choices": [
+     "It stays the same",
+     "It increases",
+     "It decreases"
+    ]
+   },
+   {
+    "question": "An aerosol can is left in a hot car. What happens to the gas pressure inside?",
+    "answer": "It increases",
+    "choices": [
+     "It increases",
+     "It decreases",
+     "It stays the same"
+    ]
+   },
+   {
+    "question": "A bike tire sits in hot sunlight. What happens to the gas pressure inside?",
+    "answer": "It increases",
+    "choices": [
+     "It stays the same",
+     "It decreases",
+     "It increases"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciHTT",
+  "subject": "science",
+  "title": "Heat transfer",
+  "section": "Heat and thermal energy",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciHTT6"
+  ],
+  "examples": [
+   {
+    "question": "Which type of heat transfer is this? You feel heat from a campfire on your face from a few steps away.",
+    "answer": "Radiation",
+    "choices": [
+     "Conduction",
+     "Radiation",
+     "Convection"
+    ]
+   },
+   {
+    "question": "Which type of heat transfer is this? A frying pan handle becomes hot.",
+    "answer": "Conduction",
+    "choices": [
+     "Conduction",
+     "Convection",
+     "Radiation"
+    ]
+   },
+   {
+    "question": "Which type of heat transfer is this? Warm air rises from a heater and circulates around the room.",
+    "answer": "Convection",
+    "choices": [
+     "Conduction",
+     "Radiation",
+     "Convection"
+    ]
+   },
+   {
+    "question": "Which type of heat transfer is this? Sea breezes form as warm air rises over land.",
+    "answer": "Convection",
+    "choices": [
+     "Convection",
+     "Radiation",
+     "Conduction"
+    ]
+   },
+   {
+    "question": "Which type of heat transfer is this? Boiling water bubbles up and sinks as it circulates in a pot.",
+    "answer": "Convection",
+    "choices": [
+     "Conduction",
+     "Radiation",
+     "Convection"
+    ]
+   },
+   {
+    "question": "Which type of heat transfer is this? Your hand gets warm touching a mug of tea.",
+    "answer": "Conduction",
+    "choices": [
+     "Convection",
+     "Radiation",
+     "Conduction"
+    ]
+   },
+   {
+    "question": "Which type of heat transfer is this? You feel warmth from the Sun.",
+    "answer": "Radiation",
+    "choices": [
+     "Convection",
+     "Conduction",
+     "Radiation"
+    ]
+   },
+   {
+    "question": "Which type of heat transfer is this? A metal spoon gets hot in a pot of soup.",
+    "answer": "Conduction",
+    "choices": [
+     "Convection",
+     "Conduction",
+     "Radiation"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPhChem",
+  "subject": "science",
+  "title": "Identify physical and chemical changes",
+  "section": "Physical and chemical change",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciPhChem6",
+   "sciPhChem7",
+   "sciPhChem8"
+  ],
+  "examples": [
+   {
+    "question": "Is this a physical or chemical change? Melting butter",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Bending a wire",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? A bike chain rusting",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Freezing juice into ice pops",
+    "answer": "Physical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? A banana turning brown",
+    "answer": "Chemical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Burning a candle wick",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Dissolving salt in water",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Baking bread",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Chopping carrots",
+    "answer": "Physical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Fireworks exploding",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Tearing paper",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Vinegar and baking soda fizzing",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMixt",
+  "subject": "science",
+  "title": "Identify mixtures and pure substances",
+  "section": "Properties of matter",
+  "grades": [
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciMixt6",
+   "sciMixt8"
+  ],
+  "examples": [
+   {
+    "question": "Is trail mix a pure substance or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Mixture",
+     "Pure substance"
+    ]
+   },
+   {
+    "question": "Is gold a pure substance or a mixture?",
+    "answer": "Pure substance",
+    "choices": [
+     "Mixture",
+     "Pure substance"
+    ]
+   },
+   {
+    "question": "Is oxygen a pure substance or a mixture?",
+    "answer": "Pure substance",
+    "choices": [
+     "Mixture",
+     "Pure substance"
+    ]
+   },
+   {
+    "question": "Is lemonade a pure substance or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Mixture",
+     "Pure substance"
+    ]
+   },
+   {
+    "question": "Is air a pure substance or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Pure substance",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is distilled water a pure substance or a mixture?",
+    "answer": "Pure substance",
+    "choices": [
+     "Pure substance",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is carbon dioxide a pure substance or a mixture?",
+    "answer": "Pure substance",
+    "choices": [
+     "Pure substance",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is salt water a pure substance or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Pure substance",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is salad a pure substance or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Mixture",
+     "Pure substance"
+    ]
+   },
+   {
+    "question": "Is sugar a pure substance or a mixture?",
+    "answer": "Pure substance",
+    "choices": [
+     "Mixture",
+     "Pure substance"
+    ]
+   },
+   {
+    "question": "Is soil a pure substance or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Mixture",
+     "Pure substance"
+    ]
+   },
+   {
+    "question": "Is table salt a pure substance or a mixture?",
+    "answer": "Pure substance",
+    "choices": [
+     "Mixture",
+     "Pure substance"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSciName",
+  "subject": "science",
+  "title": "Identify common and scientific names",
+  "section": "Scientific names",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciSciName6",
+   "sciSciName7",
+   "sciSciName8"
+  ],
+  "examples": [
+   {
+    "question": "In a scientific name such as Panthera leo , the first word is the …",
+    "answer": "genus",
+    "choices": [
+     "family",
+     "genus",
+     "kingdom",
+     "species"
+    ]
+   },
+   {
+    "question": "What is the common name of Ursus maritimus ?",
+    "answer": "Polar bear",
+    "choices": [
+     "Walrus",
+     "Polar bear",
+     "Grizzly bear",
+     "Seal"
+    ]
+   },
+   {
+    "question": "What is the common name of Felis catus ?",
+    "answer": "House cat",
+    "choices": [
+     "Lion",
+     "Grey wolf",
+     "House cat",
+     "Tiger"
+    ]
+   },
+   {
+    "question": "What is the common name of Apis mellifera ?",
+    "answer": "Honeybee",
+    "choices": [
+     "Wasp",
+     "Ant",
+     "Butterfly",
+     "Honeybee"
+    ]
+   },
+   {
+    "question": "In a scientific name such as Panthera leo , the second word is the …",
+    "answer": "species",
+    "choices": [
+     "genus",
+     "order",
+     "species",
+     "phylum"
+    ]
+   },
+   {
+    "question": "What is the common name of Panthera leo ?",
+    "answer": "Lion",
+    "choices": [
+     "House cat",
+     "Tiger",
+     "Lion",
+     "Leopard"
+    ]
+   },
+   {
+    "question": "What is the common name of Homo sapiens ?",
+    "answer": "Human",
+    "choices": [
+     "Chimpanzee",
+     "Human",
+     "Gorilla",
+     "Wolf"
+    ]
+   },
+   {
+    "question": "What is the common name of Canis lupus ?",
+    "answer": "Grey wolf",
+    "choices": [
+     "Lion",
+     "House cat",
+     "Grey wolf",
+     "Red fox"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSciOrig",
+  "subject": "science",
+  "title": "Origins of scientific names",
+  "section": "Scientific names",
+  "grades": [
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciXsSciOrig6",
+   "sciXsSciOrig8"
+  ],
+  "examples": [
+   {
+    "question": "In \"Tyrannosaurus rex,\" what does \"rex\" mean?",
+    "answer": "King",
+    "choices": [
+     "King",
+     "Giant",
+     "Lizard",
+     "Tooth"
+    ]
+   },
+   {
+    "question": "Many scientific names honour people. \"Darwinius\" honours…",
+    "answer": "Charles Darwin",
+    "choices": [
+     "Charles Darwin",
+     "A colour",
+     "A mountain",
+     "A river"
+    ]
+   },
+   {
+    "question": "\"Hippopotamus\" comes from Greek words meaning…",
+    "answer": "river horse",
+    "choices": [
+     "river horse",
+     "fat pig",
+     "water cow",
+     "big mouth"
+    ]
+   },
+   {
+    "question": "\"Dinosaur\" comes from Greek words meaning…",
+    "answer": "terrible lizard",
+    "choices": [
+     "big bird",
+     "fast runner",
+     "old bone",
+     "terrible lizard"
+    ]
+   },
+   {
+    "question": "In \"Acer saccharum\" (sugar maple), what does \"saccharum\" refer to?",
+    "answer": "Sugar",
+    "choices": [
+     "Leaves",
+     "Sugar",
+     "Red colour",
+     "Size"
+    ]
+   },
+   {
+    "question": "In \"Castor canadensis\" (beaver), what does \"canadensis\" tell you?",
+    "answer": "It is from Canada",
+    "choices": [
+     "It builds dams",
+     "It is from Canada",
+     "It has a flat tail",
+     "It eats trees"
+    ]
+   },
+   {
+    "question": "In the name \"Homo sapiens,\" \"sapiens\" means \"wise.\" What does it describe?",
+    "answer": "A trait of humans",
+    "choices": [
+     "Where humans live",
+     "Human height",
+     "What humans eat",
+     "A trait of humans"
+    ]
+   },
+   {
+    "question": "Which language do scientific names traditionally use?",
+    "answer": "Latin",
+    "choices": [
+     "Chinese",
+     "French",
+     "Latin",
+     "English"
+    ]
+   },
+   {
+    "question": "Scientific names are usually written in which language?",
+    "answer": "Latin (often with Greek roots)",
+    "choices": [
+     "French",
+     "Spanish",
+     "Latin (often with Greek roots)",
+     "English"
+    ]
+   },
+   {
+    "question": "Why do scientists use scientific names instead of common names?",
+    "answer": "Each organism has one name understood worldwide",
+    "choices": [
+     "Common names are too short",
+     "Scientific names change often",
+     "Latin is easier",
+     "Each organism has one name understood worldwide"
+    ]
+   },
+   {
+    "question": "In \"Ursus maritimus\" (polar bear), \"maritimus\" means \"of the sea.\" What does this describe?",
+    "answer": "Where the bear lives",
+    "choices": [
+     "Its colour",
+     "Its size",
+     "Its diet only",
+     "Where the bear lives"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSciUse",
+  "subject": "science",
+  "title": "Use scientific names to classify organisms",
+  "section": "Scientific names",
+  "grades": [
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciXsSciUse6",
+   "sciXsSciUse8"
+  ],
+  "examples": [
+   {
+    "question": "How should a scientific name be written?",
+    "answer": "Italicized, with the genus capitalized and species lowercase",
+    "choices": [
+     "Italicized, with the genus capitalized and species lowercase",
+     "All capital letters",
+     "All lowercase, not italic",
+     "Underlined in red"
+    ]
+   },
+   {
+    "question": "Which two organisms are in the same genus?",
+    "answer": "Ursus arctos and Ursus maritimus",
+    "choices": [
+     "Ursus arctos and Ursus maritimus",
+     "Ursus arctos and Canis lupus",
+     "Homo sapiens and Pan troglodytes",
+     "Felis catus and Canis lupus"
+    ]
+   },
+   {
+    "question": "In binomial nomenclature, the second word names the…",
+    "answer": "species",
+    "choices": [
+     "species",
+     "kingdom",
+     "class",
+     "family"
+    ]
+   },
+   {
+    "question": "Acer rubrum and Acer saccharum are both…",
+    "answer": "maple trees in the genus Acer",
+    "choices": [
+     "different kingdoms",
+     "maple trees in the genus Acer",
+     "types of birds",
+     "the same species"
+    ]
+   },
+   {
+    "question": "Panthera leo (lion) and Panthera tigris (tiger) share which group?",
+    "answer": "The same genus, Panthera",
+    "choices": [
+     "Different kingdoms",
+     "The same genus, Panthera",
+     "The same species",
+     "Nothing"
+    ]
+   },
+   {
+    "question": "Which pair is most closely related?",
+    "answer": "Canis lupus and Canis familiaris",
+    "choices": [
+     "Canis lupus and Felis catus",
+     "Ursus arctos and Felis catus",
+     "Homo sapiens and Canis lupus",
+     "Canis lupus and Canis familiaris"
+    ]
+   },
+   {
+    "question": "What does the first word of a scientific name tell you?",
+    "answer": "The genus",
+    "choices": [
+     "The kingdom",
+     "The colour",
+     "The species",
+     "The genus"
+    ]
+   },
+   {
+    "question": "Why can two animals share a common name but different scientific names?",
+    "answer": "Common names vary by region; scientific names are unique",
+    "choices": [
+     "Common names are always correct",
+     "Common names vary by region; scientific names are unique",
+     "Scientific names change daily",
+     "They are the same animal"
+    ]
+   },
+   {
+    "question": "Canis lupus (wolf) and Canis latrans (coyote) are…",
+    "answer": "closely related members of the same genus",
+    "choices": [
+     "not related",
+     "the same species",
+     "different species in different kingdoms",
+     "closely related members of the same genus"
+    ]
+   },
+   {
+    "question": "Felis catus is the house cat. Which organism is most closely related?",
+    "answer": "Felis silvestris (wildcat)",
+    "choices": [
+     "Felis silvestris (wildcat)",
+     "Panthera leo",
+     "Canis familiaris",
+     "Mus musculus"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsVertEv",
+  "subject": "science",
+  "title": "Use evidence to classify mammals, birds, fish, reptiles and amphibians",
+  "section": "Classification",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciXsVertEv6"
+  ],
+  "examples": [
+   {
+    "question": "Which group does an animal with these traits belong to? Has gills and fins as an adult",
+    "answer": "Fish",
+    "choices": [
+     "Fish",
+     "Bird",
+     "Amphibian",
+     "Mammal",
+     "Reptile"
+    ]
+   },
+   {
+    "question": "Which group does an animal with these traits belong to? Has hair and gives birth to live young",
+    "answer": "Mammal",
+    "choices": [
+     "Fish",
+     "Amphibian",
+     "Reptile",
+     "Bird",
+     "Mammal"
+    ]
+   },
+   {
+    "question": "Which group does an animal with these traits belong to? Has feathers and lays hard-shelled eggs",
+    "answer": "Bird",
+    "choices": [
+     "Mammal",
+     "Fish",
+     "Bird",
+     "Amphibian",
+     "Reptile"
+    ]
+   },
+   {
+    "question": "Which group does an animal with these traits belong to? Has fur and feeds its young milk",
+    "answer": "Mammal",
+    "choices": [
+     "Fish",
+     "Reptile",
+     "Amphibian",
+     "Mammal",
+     "Bird"
+    ]
+   },
+   {
+    "question": "Which group does an animal with these traits belong to? Has dry scales and lays leathery eggs on land",
+    "answer": "Reptile",
+    "choices": [
+     "Bird",
+     "Amphibian",
+     "Mammal",
+     "Fish",
+     "Reptile"
+    ]
+   },
+   {
+    "question": "Which group does an animal with these traits belong to? Lives in water when young and on land as an adult, with moist skin",
+    "answer": "Amphibian",
+    "choices": [
+     "Mammal",
+     "Amphibian",
+     "Bird",
+     "Fish",
+     "Reptile"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAnEv",
+  "subject": "science",
+  "title": "Use evidence to classify animals",
+  "section": "Classification",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciXsAnEv6"
+  ],
+  "examples": [
+   {
+    "question": "Is this animal a vertebrate or an invertebrate? Has an exoskeleton and six legs",
+    "answer": "Invertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is this animal a vertebrate or an invertebrate? Has a skull and a backbone",
+    "answer": "Vertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is this animal a vertebrate or an invertebrate? Has a spinal cord protected by vertebrae",
+    "answer": "Vertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is this animal a vertebrate or an invertebrate? Has eight legs and two body segments",
+    "answer": "Invertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is this animal a vertebrate or an invertebrate? Has a soft body and a shell, no backbone",
+    "answer": "Invertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is this animal a vertebrate or an invertebrate? Has a backbone and an internal skeleton",
+    "answer": "Vertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciKingdom",
+  "subject": "science",
+  "title": "Describe, classify and compare kingdoms",
+  "section": "Classification",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciKingdom6",
+   "sciKingdom7",
+   "sciKingdom8"
+  ],
+  "examples": [
+   {
+    "question": "Which kingdom does a sea sponge belong to?",
+    "answer": "Animals",
+    "choices": [
+     "Plants",
+     "Animals",
+     "Bacteria",
+     "Fungi",
+     "Protists"
+    ]
+   },
+   {
+    "question": "Which kingdom does yeast belong to?",
+    "answer": "Fungi",
+    "choices": [
+     "Bacteria",
+     "Plants",
+     "Fungi",
+     "Protists",
+     "Animals"
+    ]
+   },
+   {
+    "question": "Which kingdom does a beetle belong to?",
+    "answer": "Animals",
+    "choices": [
+     "Bacteria",
+     "Protists",
+     "Animals",
+     "Fungi",
+     "Plants"
+    ]
+   },
+   {
+    "question": "Which kingdom does an amoeba belong to?",
+    "answer": "Protists",
+    "choices": [
+     "Plants",
+     "Protists",
+     "Fungi",
+     "Animals",
+     "Bacteria"
+    ]
+   },
+   {
+    "question": "Which kingdom does a moss belong to?",
+    "answer": "Plants",
+    "choices": [
+     "Bacteria",
+     "Plants",
+     "Fungi",
+     "Protists",
+     "Animals"
+    ]
+   },
+   {
+    "question": "Which kingdom does E. coli belong to?",
+    "answer": "Bacteria",
+    "choices": [
+     "Bacteria",
+     "Fungi",
+     "Protists",
+     "Animals",
+     "Plants"
+    ]
+   },
+   {
+    "question": "Which kingdom does Streptococcus belong to?",
+    "answer": "Bacteria",
+    "choices": [
+     "Fungi",
+     "Protists",
+     "Plants",
+     "Bacteria",
+     "Animals"
+    ]
+   },
+   {
+    "question": "Which kingdom does a mushroom belong to?",
+    "answer": "Fungi",
+    "choices": [
+     "Fungi",
+     "Animals",
+     "Protists",
+     "Bacteria",
+     "Plants"
+    ]
+   },
+   {
+    "question": "Which kingdom does a maple tree belong to?",
+    "answer": "Plants",
+    "choices": [
+     "Plants",
+     "Bacteria",
+     "Protists",
+     "Fungi",
+     "Animals"
+    ]
+   },
+   {
+    "question": "Which kingdom does a paramecium belong to?",
+    "answer": "Protists",
+    "choices": [
+     "Fungi",
+     "Bacteria",
+     "Plants",
+     "Protists",
+     "Animals"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciKNG",
+  "subject": "science",
+  "title": "Kingdoms of life",
+  "section": "Classification",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciKNG6"
+  ],
+  "examples": [
+   {
+    "question": "Which kingdom does a spider belong to?",
+    "answer": "Animal",
+    "choices": [
+     "Bacteria",
+     "Plant",
+     "Fungus",
+     "Animal"
+    ]
+   },
+   {
+    "question": "Which kingdom does Lactobacillus in yogurt belong to?",
+    "answer": "Bacteria",
+    "choices": [
+     "Animal",
+     "Bacteria",
+     "Fungus",
+     "Plant"
+    ]
+   },
+   {
+    "question": "Which kingdom does a fern belong to?",
+    "answer": "Plant",
+    "choices": [
+     "Fungus",
+     "Bacteria",
+     "Plant",
+     "Animal"
+    ]
+   },
+   {
+    "question": "Which kingdom does a mushroom belong to?",
+    "answer": "Fungus",
+    "choices": [
+     "Plant",
+     "Bacteria",
+     "Animal",
+     "Fungus"
+    ]
+   },
+   {
+    "question": "Which kingdom does yeast belong to?",
+    "answer": "Fungus",
+    "choices": [
+     "Fungus",
+     "Animal",
+     "Plant",
+     "Bacteria"
+    ]
+   },
+   {
+    "question": "Which kingdom does E. coli belong to?",
+    "answer": "Bacteria",
+    "choices": [
+     "Plant",
+     "Bacteria",
+     "Fungus",
+     "Animal"
+    ]
+   },
+   {
+    "question": "Which kingdom does a jellyfish belong to?",
+    "answer": "Animal",
+    "choices": [
+     "Plant",
+     "Fungus",
+     "Animal",
+     "Bacteria"
+    ]
+   },
+   {
+    "question": "Which kingdom does bread mold belong to?",
+    "answer": "Fungus",
+    "choices": [
+     "Animal",
+     "Plant",
+     "Fungus",
+     "Bacteria"
+    ]
+   },
+   {
+    "question": "Which kingdom does a sponge belong to?",
+    "answer": "Animal",
+    "choices": [
+     "Animal",
+     "Plant",
+     "Fungus",
+     "Bacteria"
+    ]
+   },
+   {
+    "question": "Which kingdom does an oak tree belong to?",
+    "answer": "Plant",
+    "choices": [
+     "Plant",
+     "Fungus",
+     "Animal",
+     "Bacteria"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciFrVeg",
+  "subject": "science",
+  "title": "Classify fruits and vegetables as plant parts",
+  "section": "Plants",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciFrVeg6"
+  ],
+  "examples": [
+   {
+    "question": "Which plant part do we eat when we eat a carrot ?",
+    "answer": "Root",
+    "choices": [
+     "Flower",
+     "Seed",
+     "Stem",
+     "Leaf",
+     "Fruit",
+     "Root"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat a tomato ?",
+    "answer": "Fruit",
+    "choices": [
+     "Stem",
+     "Flower",
+     "Fruit",
+     "Root",
+     "Leaf",
+     "Seed"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat lettuce ?",
+    "answer": "Leaf",
+    "choices": [
+     "Leaf",
+     "Fruit",
+     "Seed",
+     "Flower",
+     "Stem",
+     "Root"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat broccoli ?",
+    "answer": "Flower",
+    "choices": [
+     "Flower",
+     "Stem",
+     "Root",
+     "Fruit",
+     "Seed",
+     "Leaf"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat spinach ?",
+    "answer": "Leaf",
+    "choices": [
+     "Stem",
+     "Root",
+     "Flower",
+     "Leaf",
+     "Fruit",
+     "Seed"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat cauliflower ?",
+    "answer": "Flower",
+    "choices": [
+     "Leaf",
+     "Root",
+     "Fruit",
+     "Seed",
+     "Flower",
+     "Stem"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat a beet ?",
+    "answer": "Root",
+    "choices": [
+     "Seed",
+     "Flower",
+     "Root",
+     "Leaf",
+     "Fruit",
+     "Stem"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat a pea ?",
+    "answer": "Seed",
+    "choices": [
+     "Leaf",
+     "Fruit",
+     "Stem",
+     "Seed",
+     "Flower",
+     "Root"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat asparagus ?",
+    "answer": "Stem",
+    "choices": [
+     "Flower",
+     "Fruit",
+     "Leaf",
+     "Stem",
+     "Root",
+     "Seed"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat a sunflower seed ?",
+    "answer": "Seed",
+    "choices": [
+     "Seed",
+     "Flower",
+     "Stem",
+     "Fruit",
+     "Root",
+     "Leaf"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat an apple ?",
+    "answer": "Fruit",
+    "choices": [
+     "Flower",
+     "Leaf",
+     "Seed",
+     "Fruit",
+     "Root",
+     "Stem"
+    ]
+   },
+   {
+    "question": "Which plant part do we eat when we eat celery ?",
+    "answer": "Stem",
+    "choices": [
+     "Leaf",
+     "Fruit",
+     "Stem",
+     "Root",
+     "Flower",
+     "Seed"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLCanim",
+  "subject": "science",
+  "title": "Read and construct animal life cycle diagrams",
+  "section": "Animals",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciXsLCanim66"
+  ],
+  "examples": [
+   {
+    "question": "Which life cycle has no metamorphosis?",
+    "answer": "A dog's",
+    "choices": [
+     "A dog's",
+     "A frog's",
+     "A butterfly's",
+     "A beetle's"
+    ]
+   },
+   {
+    "question": "In a frog's life cycle, when do lungs develop?",
+    "answer": "As the tadpole becomes a froglet",
+    "choices": [
+     "Never",
+     "In the egg",
+     "Only in adults over 5 years",
+     "As the tadpole becomes a froglet"
+    ]
+   },
+   {
+    "question": "Which animal has a life cycle with a nymph stage?",
+    "answer": "Dragonfly",
+    "choices": [
+     "Dragonfly",
+     "Butterfly",
+     "Frog",
+     "Chicken"
+    ]
+   },
+   {
+    "question": "What is the pupa stage?",
+    "answer": "A resting stage when the larva changes into an adult",
+    "choices": [
+     "The egg",
+     "A resting stage when the larva changes into an adult",
+     "The adult",
+     "The newly hatched young"
+    ]
+   },
+   {
+    "question": "Salmon hatch in rivers, grow in the ocean and return to rivers to spawn. What is spawning?",
+    "answer": "Laying and fertilizing eggs",
+    "choices": [
+     "Laying and fertilizing eggs",
+     "Migrating to the ocean",
+     "Eating insects",
+     "Growing scales"
+    ]
+   },
+   {
+    "question": "Which order is correct for a ladybug?",
+    "answer": "egg → larva → pupa → adult",
+    "choices": [
+     "egg → larva → pupa → adult",
+     "egg → nymph → adult",
+     "egg → pupa → larva → adult",
+     "larva → egg → pupa → adult"
+    ]
+   },
+   {
+    "question": "Which is the correct life cycle of a mosquito?",
+    "answer": "egg → larva → pupa → adult",
+    "choices": [
+     "egg → larva → pupa → adult",
+     "egg → nymph → adult",
+     "larva → egg → adult → pupa",
+     "adult → pupa → egg"
+    ]
+   },
+   {
+    "question": "Which life cycle shows incomplete metamorphosis?",
+    "answer": "egg → nymph → adult (grasshopper)",
+    "choices": [
+     "egg → nymph → adult (grasshopper)",
+     "egg → tadpole → frog",
+     "egg → larva → pupa → adult (beetle)",
+     "egg → caterpillar → chrysalis → butterfly"
+    ]
+   },
+   {
+    "question": "In a frog life cycle, what comes between tadpole and adult frog?",
+    "answer": "Froglet",
+    "choices": [
+     "Pupa",
+     "Nymph",
+     "Froglet",
+     "Larva"
+    ]
+   },
+   {
+    "question": "What do mammal life cycles usually include?",
+    "answer": "Live birth and young fed with milk",
+    "choices": [
+     "A tadpole stage",
+     "A pupa stage",
+     "A larval stage",
+     "Live birth and young fed with milk"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPhantom",
+  "subject": "science",
+  "title": "Science literacy: how does the nervous system produce phantom pain?",
+  "section": "Anatomy and physiology",
+  "grades": [
+   6,
+   8,
+   9
+  ],
+  "skillIds": [
+   "sciXsPhantom6",
+   "sciXsPhantom8",
+   "sciXsPhantom9"
+  ],
+  "examples": [
+   {
+    "question": "After an amputation, why can a person still feel the missing limb?",
+    "answer": "The brain's map of the body still includes the limb",
+    "choices": [
+     "Nerves stop working",
+     "The limb grows back",
+     "The brain's map of the body still includes the limb",
+     "Pain comes from the heart"
+    ]
+   },
+   {
+    "question": "Which cells carry signals in the nervous system?",
+    "answer": "Neurons",
+    "choices": [
+     "Red blood cells",
+     "Bone cells",
+     "Neurons",
+     "Skin cells only"
+    ]
+   },
+   {
+    "question": "Which therapy uses a mirror to help phantom pain?",
+    "answer": "Mirror therapy, which lets the brain \"see\" the missing limb moving",
+    "choices": [
+     "Loud music",
+     "Mirror therapy, which lets the brain \"see\" the missing limb moving",
+     "Ice baths",
+     "Surgery on the mirror"
+    ]
+   },
+   {
+    "question": "What do damaged nerve endings near an amputation do?",
+    "answer": "They can send confusing signals to the brain",
+    "choices": [
+     "They stop sending any signals",
+     "They can send confusing signals to the brain",
+     "They pump blood",
+     "They grow new fingers"
+    ]
+   },
+   {
+    "question": "Why is phantom pain an example of the brain \"interpreting\" signals?",
+    "answer": "Pain is felt even though the body part is not there",
+    "choices": [
+     "The brain does nothing",
+     "Pain is felt even though the body part is not there",
+     "Pain only comes from injuries",
+     "The pain is imaginary and fake"
+    ]
+   },
+   {
+    "question": "Which part of the nervous system processes the feeling of phantom pain?",
+    "answer": "The brain",
+    "choices": [
+     "The kidneys",
+     "The stomach",
+     "The brain",
+     "The lungs"
+    ]
+   },
+   {
+    "question": "What is phantom pain?",
+    "answer": "Pain felt in a limb that has been removed",
+    "choices": [
+     "Pain from an imaginary injury that is made up",
+     "Pain in a healthy limb",
+     "Pain felt in a limb that has been removed",
+     "A type of headache"
+    ]
+   },
+   {
+    "question": "What is a reflex arc?",
+    "answer": "A nerve pathway where the spinal cord responds before the brain",
+    "choices": [
+     "A type of muscle",
+     "A bone joint",
+     "A nerve pathway where the spinal cord responds before the brain",
+     "A blood vessel"
+    ]
+   },
+   {
+    "question": "Why can the brain feel pain in a missing limb?",
+    "answer": "Nerves and brain areas that served the limb still send and receive signals",
+    "choices": [
+     "The limb grows back",
+     "The heart sends pain signals",
+     "Nerves and brain areas that served the limb still send and receive signals",
+     "Pain is only in the skin"
+    ]
+   },
+   {
+    "question": "How does mirror therapy help?",
+    "answer": "Seeing the reflected healthy limb move \"tricks\" the brain into relaxing the missing limb",
+    "choices": [
+     "The mirror heals nerves",
+     "Seeing the reflected healthy limb move \"tricks\" the brain into relaxing the missing limb",
+     "It makes the limb grow",
+     "It blocks light"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBehav",
+  "subject": "science",
+  "title": "How can animal behaviours affect reproductive success? Identify evidence to support a claim",
+  "section": "Adaptations and natural selection",
+  "grades": [
+   6,
+   7
+  ],
+  "skillIds": [
+   "sciXsBehav6",
+   "sciXsBehav7"
+  ],
+  "examples": [
+   {
+    "question": "Claim: Bowerbirds with decorated bowers attract more females. Which evidence supports it?",
+    "answer": "Males with more blue objects in their bowers mated more",
+    "choices": [
+     "Males with more blue objects in their bowers mated more",
+     "Blue is a colour",
+     "Bowerbirds are birds",
+     "Bowers are made of sticks"
+    ]
+   },
+   {
+    "question": "Claim: Male birds that sing more complex songs attract more mates. Which evidence supports it?",
+    "answer": "Females chose males with more song types more often",
+    "choices": [
+     "Birds can fly",
+     "Males have feathers",
+     "Songs are loud",
+     "Females chose males with more song types more often"
+    ]
+   },
+   {
+    "question": "Claim: Male peacocks with bigger tail displays have more offspring. Which evidence supports this?",
+    "answer": "Peahens chose males with larger tails more often in observations",
+    "choices": [
+     "Peahens chose males with larger tails more often in observations",
+     "Peacocks live in India",
+     "Peahens are brown",
+     "Peacocks eat seeds"
+    ]
+   },
+   {
+    "question": "Claim: Birds that build nests in high branches raise more chicks. Which evidence supports this?",
+    "answer": "Nests higher up lost fewer eggs to predators",
+    "choices": [
+     "Nests higher up lost fewer eggs to predators",
+     "Branches are thin",
+     "Some birds nest on the ground",
+     "Birds like high places"
+    ]
+   },
+   {
+    "question": "Claim: Fireflies that flash brighter find mates more easily. Which evidence supports it?",
+    "answer": "In experiments, females responded more to brighter flashes",
+    "choices": [
+     "Fireflies glow",
+     "In experiments, females responded more to brighter flashes",
+     "Fireflies are insects",
+     "Fireflies fly at night"
+    ]
+   },
+   {
+    "question": "Claim: Elephant seals that win fights mate more. Which evidence supports it?",
+    "answer": "Dominant males fathered most pups on the beach",
+    "choices": [
+     "Dominant males fathered most pups on the beach",
+     "Seals swim",
+     "Seals are big",
+     "Seals live on beaches"
+    ]
+   },
+   {
+    "question": "Claim: Deer that guard their fawns raise more young. Which evidence supports it?",
+    "answer": "Fawns of guarding mothers were eaten by predators less often",
+    "choices": [
+     "Deer eat grass",
+     "Fawns of guarding mothers were eaten by predators less often",
+     "Deer run fast",
+     "Fawns have spots"
+    ]
+   },
+   {
+    "question": "Claim: Male stickleback fish that build better nests have more offspring. Which evidence supports it?",
+    "answer": "Females laid more eggs in nests that were larger and better built",
+    "choices": [
+     "Sticklebacks have spines",
+     "Nests are made of plants",
+     "They live in streams",
+     "Females laid more eggs in nests that were larger and better built"
+    ]
+   },
+   {
+    "question": "Claim: Penguins that build nests from more stones raise more chicks. Which evidence supports it?",
+    "answer": "Higher stone nests stayed dry and more chicks survived floods",
+    "choices": [
+     "Stones are grey",
+     "Penguins swim",
+     "Penguins live in colonies",
+     "Higher stone nests stayed dry and more chicks survived floods"
+    ]
+   },
+   {
+    "question": "Claim: Songbirds that defend larger territories raise more chicks. Which evidence supports it?",
+    "answer": "Pairs with bigger territories fledged more young",
+    "choices": [
+     "Songbirds sing at dawn",
+     "Birds have wings",
+     "Pairs with bigger territories fledged more young",
+     "Territories have trees"
+    ]
+   },
+   {
+    "question": "Claim: Frogs that call louder have more offspring. Which evidence supports it?",
+    "answer": "Louder-calling males mated more often in a field study",
+    "choices": [
+     "Louder-calling males mated more often in a field study",
+     "Frogs eat flies",
+     "Frogs live in ponds",
+     "Calls happen at night"
+    ]
+   }
+  ]
+ }
+]

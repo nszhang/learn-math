@@ -1,0 +1,2719 @@
+[
+ {
+  "key": "sciXsRCLab",
+  "subject": "science",
+  "title": "Label parts of rock cycle diagrams",
+  "section": "Rocks and minerals",
+  "grades": [
+   4,
+   5,
+   7
+  ],
+  "skillIds": [
+   "sciXsRCLab4",
+   "sciXsRCLab5",
+   "sciXsRCLab7"
+  ],
+  "examples": [
+   {
+    "question": "Which type of rock forms from cooling magma or lava?",
+    "answer": "Igneous",
+    "choices": [
+     "Igneous",
+     "Metamorphic",
+     "Sedimentary",
+     "Fossil"
+    ]
+   },
+   {
+    "question": "In a rock cycle diagram, igneous rock that is weathered becomes…",
+    "answer": "sediment",
+    "choices": [
+     "magma",
+     "lava",
+     "sediment",
+     "metamorphic rock"
+    ]
+   },
+   {
+    "question": "Sedimentary rock buried deep and heated becomes…",
+    "answer": "metamorphic rock",
+    "choices": [
+     "metamorphic rock",
+     "lava",
+     "igneous rock directly",
+     "sediment"
+    ]
+   },
+   {
+    "question": "Can metamorphic rock be weathered into sediment?",
+    "answer": "Yes",
+    "choices": [
+     "Yes",
+     "Only on the Moon",
+     "Only underwater",
+     "No, never"
+    ]
+   },
+   {
+    "question": "What energy drives the parts of the rock cycle deep underground?",
+    "answer": "Earth's internal heat",
+    "choices": [
+     "Sunlight",
+     "Wind",
+     "Earth's internal heat",
+     "The Moon"
+    ]
+   },
+   {
+    "question": "Melting rock forms…",
+    "answer": "magma",
+    "choices": [
+     "sandstone",
+     "sediment",
+     "magma",
+     "marble"
+    ]
+   },
+   {
+    "question": "In the rock cycle, magma cools to form…",
+    "answer": "igneous rock",
+    "choices": [
+     "igneous rock",
+     "sedimentary rock",
+     "metamorphic rock",
+     "sediment"
+    ]
+   },
+   {
+    "question": "What process turns sediment into sedimentary rock?",
+    "answer": "Compaction and cementation",
+    "choices": [
+     "Weathering",
+     "Melting",
+     "Compaction and cementation",
+     "Cooling"
+    ]
+   },
+   {
+    "question": "Weathering and erosion break rock into…",
+    "answer": "sediment",
+    "choices": [
+     "sediment",
+     "lava",
+     "metamorphic rock",
+     "magma"
+    ]
+   },
+   {
+    "question": "Heat and pressure change rock into…",
+    "answer": "metamorphic rock",
+    "choices": [
+     "igneous rock",
+     "magma",
+     "sediment",
+     "metamorphic rock"
+    ]
+   },
+   {
+    "question": "Magma that reaches the surface is called…",
+    "answer": "lava",
+    "choices": [
+     "shale",
+     "sediment",
+     "lava",
+     "marble"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsRCSel",
+  "subject": "science",
+  "title": "Select parts of rock cycle diagrams",
+  "section": "Rocks and minerals",
+  "grades": [
+   4,
+   5,
+   7
+  ],
+  "skillIds": [
+   "sciXsRCSel4",
+   "sciXsRCSel5",
+   "sciXsRCSel7"
+  ],
+  "examples": [
+   {
+    "question": "Which arrow leads from magma to igneous rock?",
+    "answer": "Cooling and crystallizing",
+    "choices": [
+     "Cooling and crystallizing",
+     "Erosion",
+     "Compaction",
+     "Melting"
+    ]
+   },
+   {
+    "question": "Which arrow leads from any rock to magma?",
+    "answer": "Melting",
+    "choices": [
+     "Cooling",
+     "Erosion",
+     "Cementation",
+     "Melting"
+    ]
+   },
+   {
+    "question": "Which arrow leads from sediment to sedimentary rock?",
+    "answer": "Compaction and cementation",
+    "choices": [
+     "Compaction and cementation",
+     "Melting",
+     "Cooling",
+     "Heat and pressure"
+    ]
+   },
+   {
+    "question": "Which arrow leads from metamorphic rock to magma?",
+    "answer": "Melting",
+    "choices": [
+     "Melting",
+     "Cementation",
+     "Weathering",
+     "Cooling"
+    ]
+   },
+   {
+    "question": "Which two processes must happen before sediment can form from rock?",
+    "answer": "Weathering and erosion",
+    "choices": [
+     "Weathering and erosion",
+     "Compaction and cementation",
+     "Melting and cooling",
+     "Heat and pressure"
+    ]
+   },
+   {
+    "question": "Which arrow leads from igneous rock to magma?",
+    "answer": "Melting",
+    "choices": [
+     "Compaction",
+     "Melting",
+     "Cooling",
+     "Erosion"
+    ]
+   },
+   {
+    "question": "Which arrow leads from igneous to metamorphic rock?",
+    "answer": "Heat and pressure",
+    "choices": [
+     "Weathering",
+     "Heat and pressure",
+     "Cooling",
+     "Melting"
+    ]
+   },
+   {
+    "question": "Which arrow leads from sedimentary rock to sediment?",
+    "answer": "Weathering and erosion",
+    "choices": [
+     "Weathering and erosion",
+     "Heat and pressure",
+     "Melting",
+     "Cooling"
+    ]
+   },
+   {
+    "question": "Which arrow leads from lava to igneous rock at the surface?",
+    "answer": "Cooling quickly",
+    "choices": [
+     "Compaction",
+     "Cooling quickly",
+     "Weathering",
+     "Melting"
+    ]
+   },
+   {
+    "question": "Which arrow leads from igneous rock to metamorphic rock?",
+    "answer": "Heat and pressure",
+    "choices": [
+     "Heat and pressure",
+     "Deposition",
+     "Weathering",
+     "Cooling"
+    ]
+   },
+   {
+    "question": "Which arrow leads from sedimentary rock to metamorphic rock?",
+    "answer": "Heat and pressure",
+    "choices": [
+     "Heat and pressure",
+     "Melting",
+     "Cooling",
+     "Erosion"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFossCl",
+  "subject": "science",
+  "title": "Identify and classify fossils",
+  "section": "Fossils",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsFossCl4"
+  ],
+  "examples": [
+   {
+    "question": "An imprint of a leaf in rock is a…",
+    "answer": "mould (imprint) fossil",
+    "choices": [
+     "amber fossil",
+     "cast",
+     "petrified wood",
+     "mould (imprint) fossil"
+    ]
+   },
+   {
+    "question": "A whole mammoth frozen in ice is a…",
+    "answer": "preserved remains fossil",
+    "choices": [
+     "mould",
+     "cast",
+     "trace fossil",
+     "preserved remains fossil"
+    ]
+   },
+   {
+    "question": "A dinosaur egg that has turned to stone is a…",
+    "answer": "body fossil",
+    "choices": [
+     "body fossil",
+     "trace fossil",
+     "mould",
+     "cast"
+    ]
+   },
+   {
+    "question": "A mosquito trapped in hardened tree resin is preserved in…",
+    "answer": "amber",
+    "choices": [
+     "amber",
+     "tar",
+     "sandstone",
+     "ice"
+    ]
+   },
+   {
+    "question": "Dinosaur footprints are an example of…",
+    "answer": "trace fossils",
+    "choices": [
+     "body fossils",
+     "trace fossils",
+     "amber fossils",
+     "casts"
+    ]
+   },
+   {
+    "question": "Burrows left in rock by ancient worms are…",
+    "answer": "trace fossils",
+    "choices": [
+     "body fossils",
+     "petrified wood",
+     "trace fossils",
+     "amber fossils"
+    ]
+   },
+   {
+    "question": "A footprint preserved in rock is a…",
+    "answer": "trace fossil",
+    "choices": [
+     "petrified fossil",
+     "body fossil",
+     "trace fossil",
+     "cast"
+    ]
+   },
+   {
+    "question": "A shell-shaped fossil formed when sediment filled an empty shell. What type of fossil is it?",
+    "answer": "Cast",
+    "choices": [
+     "Cast",
+     "Amber",
+     "Petrified wood",
+     "Trace fossil"
+    ]
+   },
+   {
+    "question": "Wood that turned to stone is called…",
+    "answer": "petrified wood",
+    "choices": [
+     "a cast",
+     "coal",
+     "petrified wood",
+     "amber"
+    ]
+   },
+   {
+    "question": "An insect preserved in hardened tree sap is preserved in…",
+    "answer": "amber",
+    "choices": [
+     "sandstone",
+     "tar",
+     "amber",
+     "ice"
+    ]
+   },
+   {
+    "question": "Fossil dung (coprolite) is a…",
+    "answer": "trace fossil",
+    "choices": [
+     "body fossil",
+     "cast",
+     "trace fossil",
+     "petrified wood"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSpheres",
+  "subject": "science",
+  "title": "Describe the lithosphere, biosphere, hydrosphere, and atmosphere",
+  "section": "Earth's systems",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsSpheres4"
+  ],
+  "examples": [
+   {
+    "question": "Which Earth system does this belong to? Plants and animals",
+    "answer": "Biosphere",
+    "choices": [
+     "Hydrosphere",
+     "Biosphere",
+     "Lithosphere",
+     "Atmosphere"
+    ]
+   },
+   {
+    "question": "Which Earth system does this belong to? Soil and sand",
+    "answer": "Lithosphere",
+    "choices": [
+     "Lithosphere",
+     "Hydrosphere",
+     "Atmosphere",
+     "Biosphere"
+    ]
+   },
+   {
+    "question": "Which Earth system does this belong to? Oceans and lakes",
+    "answer": "Hydrosphere",
+    "choices": [
+     "Lithosphere",
+     "Atmosphere",
+     "Biosphere",
+     "Hydrosphere"
+    ]
+   },
+   {
+    "question": "Which Earth system does this belong to? Glaciers and rivers",
+    "answer": "Hydrosphere",
+    "choices": [
+     "Lithosphere",
+     "Hydrosphere",
+     "Atmosphere",
+     "Biosphere"
+    ]
+   },
+   {
+    "question": "Which Earth system does this belong to? Rocks and mountains",
+    "answer": "Lithosphere",
+    "choices": [
+     "Biosphere",
+     "Atmosphere",
+     "Hydrosphere",
+     "Lithosphere"
+    ]
+   },
+   {
+    "question": "Which Earth system does this belong to? Air and clouds",
+    "answer": "Atmosphere",
+    "choices": [
+     "Lithosphere",
+     "Atmosphere",
+     "Biosphere",
+     "Hydrosphere"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciDayNt",
+  "subject": "science",
+  "title": "Earth's rotation and orbit",
+  "section": "Astronomy",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciDayNt4",
+   "sciDayNt5",
+   "sciDayNt6",
+   "sciDayNt7",
+   "sciDayNt8"
+  ],
+  "examples": [
+   {
+    "question": "About how long does Earth take to rotate once?",
+    "answer": "24 hours",
+    "choices": [
+     "1 hour",
+     "24 hours",
+     "365 days",
+     "7 days"
+    ]
+   },
+   {
+    "question": "What causes day and night?",
+    "answer": "Earth spinning on its axis",
+    "choices": [
+     "Earth orbiting the Sun",
+     "The Moon blocking the Sun",
+     "Earth spinning on its axis",
+     "Clouds covering the sky"
+    ]
+   },
+   {
+    "question": "What is Earth's path around the Sun called?",
+    "answer": "Its orbit",
+    "choices": [
+     "Its orbit",
+     "Its rotation",
+     "Its equator",
+     "Its axis"
+    ]
+   },
+   {
+    "question": "Why does the Sun seem to rise in the east?",
+    "answer": "Earth rotates toward the east.",
+    "choices": [
+     "The Moon pushes the Sun.",
+     "The east is closer to the Sun.",
+     "The Sun orbits Earth.",
+     "Earth rotates toward the east."
+    ]
+   },
+   {
+    "question": "About how long does the Moon take to orbit Earth?",
+    "answer": "27 days",
+    "choices": [
+     "365 days",
+     "7 days",
+     "27 days",
+     "24 hours"
+    ]
+   },
+   {
+    "question": "About how long does Earth take to orbit the Sun?",
+    "answer": "365 days",
+    "choices": [
+     "10 years",
+     "24 hours",
+     "365 days",
+     "30 days"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDayNt",
+  "subject": "science",
+  "title": "Day and night",
+  "section": "Astronomy",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsDayNt4",
+   "sciXsDayNt5"
+  ],
+  "examples": [
+   {
+    "question": "How long does one rotation of Earth take?",
+    "answer": "About 24 hours",
+    "choices": [
+     "About 1 year",
+     "About 1 hour",
+     "About 1 month",
+     "About 24 hours"
+    ]
+   },
+   {
+    "question": "How long does Earth take to spin once on its axis?",
+    "answer": "About 24 hours",
+    "choices": [
+     "About 30 days",
+     "About 1 hour",
+     "About 24 hours",
+     "About 365 days"
+    ]
+   },
+   {
+    "question": "When it is day in Canada, what is it on the opposite side of Earth?",
+    "answer": "Night",
+    "choices": [
+     "Night",
+     "Winter",
+     "Noon everywhere",
+     "Also day"
+    ]
+   },
+   {
+    "question": "Which way does Earth spin?",
+    "answer": "From west to east",
+    "choices": [
+     "From west to east",
+     "From north to south",
+     "It doesn't spin",
+     "From east to west"
+    ]
+   },
+   {
+    "question": "What causes day and night?",
+    "answer": "Earth rotating on its axis",
+    "choices": [
+     "Earth orbiting the Sun",
+     "The Sun turning off",
+     "The Moon blocking the Sun",
+     "Earth rotating on its axis"
+    ]
+   },
+   {
+    "question": "When it is noon in Ottawa, what time is it roughly on the opposite side of Earth?",
+    "answer": "Midnight",
+    "choices": [
+     "Midnight",
+     "Afternoon",
+     "Noon",
+     "Sunrise"
+    ]
+   },
+   {
+    "question": "Does the Sun really move across our sky?",
+    "answer": "No, Earth's rotation makes it look like it moves",
+    "choices": [
+     "Yes, it circles Earth daily",
+     "Only in summer",
+     "Yes, it bounces",
+     "No, Earth's rotation makes it look like it moves"
+    ]
+   },
+   {
+    "question": "Why do we have day on one side of Earth and night on the other?",
+    "answer": "Only half of Earth faces the Sun at a time",
+    "choices": [
+     "Only half of Earth faces the Sun at a time",
+     "Clouds cover half of Earth",
+     "The Moon blocks the Sun",
+     "The Sun turns off"
+    ]
+   },
+   {
+    "question": "Which direction does the Sun appear to move across the sky?",
+    "answer": "From east to west",
+    "choices": [
+     "From north to south",
+     "From east to west",
+     "From west to east",
+     "It doesn't move"
+    ]
+   },
+   {
+    "question": "Why are winter days shorter in Canada?",
+    "answer": "Earth's tilt means our part of Earth gets less daylight",
+    "choices": [
+     "The Sun is farther away",
+     "Earth spins faster",
+     "Earth's tilt means our part of Earth gets less daylight",
+     "The Moon blocks the Sun"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBright",
+  "subject": "science",
+  "title": "Brightness of the Sun and other stars",
+  "section": "Astronomy",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsBright4",
+   "sciXsBright5"
+  ],
+  "examples": [
+   {
+    "question": "Why does a star's brightness from Earth not tell you its true size?",
+    "answer": "Its distance also affects how bright it looks",
+    "choices": [
+     "All stars are the same size",
+     "Its distance also affects how bright it looks",
+     "Stars are flat",
+     "Brightness shows only colour"
+    ]
+   },
+   {
+    "question": "Why can't we see stars during the day?",
+    "answer": "The Sun's light is much brighter",
+    "choices": [
+     "They are behind the Moon",
+     "The Sun's light is much brighter",
+     "Stars turn off",
+     "Stars move away"
+    ]
+   },
+   {
+    "question": "What is the Sun?",
+    "answer": "A star",
+    "choices": [
+     "A comet",
+     "A moon",
+     "A star",
+     "A planet"
+    ]
+   },
+   {
+    "question": "Why does the Sun look brighter than other stars?",
+    "answer": "It is much closer to Earth",
+    "choices": [
+     "It is the biggest star in the universe",
+     "Other stars are made of ice",
+     "It is much closer to Earth",
+     "Other stars are smaller than the Moon"
+    ]
+   },
+   {
+    "question": "Compared with other stars, how big is the Sun?",
+    "answer": "Medium-sized",
+    "choices": [
+     "Not a star",
+     "The smallest star",
+     "Medium-sized",
+     "The largest star"
+    ]
+   },
+   {
+    "question": "What is the closest star to Earth?",
+    "answer": "The Sun",
+    "choices": [
+     "The Sun",
+     "Proxima Centauri",
+     "Polaris",
+     "Sirius"
+    ]
+   },
+   {
+    "question": "Two identical stars: one is far, one is near. Which looks brighter?",
+    "answer": "The near star",
+    "choices": [
+     "They look the same",
+     "The far star",
+     "The near star"
+    ]
+   },
+   {
+    "question": "Why do some stars look brighter than others?",
+    "answer": "They are closer or give off more light",
+    "choices": [
+     "They are closer or give off more light",
+     "They are planets",
+     "They are painted",
+     "They are made of gold"
+    ]
+   },
+   {
+    "question": "If two stars give off the same light, which looks brighter?",
+    "answer": "The closer one",
+    "choices": [
+     "The closer one",
+     "The farther one",
+     "They look the same",
+     "Neither shows"
+    ]
+   },
+   {
+    "question": "Sirius looks brighter than many bigger stars. Why?",
+    "answer": "It is relatively close to Earth",
+    "choices": [
+     "It is the biggest star",
+     "It is on fire more",
+     "It is relatively close to Earth",
+     "It is a planet"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsConstCh",
+  "subject": "science",
+  "title": "Constellations and the changing night sky",
+  "section": "Astronomy",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciXsConstCh4",
+   "sciXsConstCh5",
+   "sciXsConstCh6"
+  ],
+  "examples": [
+   {
+    "question": "What is a constellation?",
+    "answer": "A pattern of stars that people have named",
+    "choices": [
+     "A galaxy",
+     "A planet",
+     "A single bright star",
+     "A pattern of stars that people have named"
+    ]
+   },
+   {
+    "question": "Why did ancient people use constellations?",
+    "answer": "To tell seasons and navigate",
+    "choices": [
+     "To tell seasons and navigate",
+     "To grow crops faster",
+     "To make light",
+     "To predict earthquakes"
+    ]
+   },
+   {
+    "question": "Why is Orion easy to see on winter nights but not in summer?",
+    "answer": "In summer, Orion is in the sky during the day",
+    "choices": [
+     "Orion moves to another galaxy",
+     "Clouds hide it",
+     "In summer, Orion is in the sky during the day",
+     "Orion disappears in summer"
+    ]
+   },
+   {
+    "question": "Why do constellations seem to move across the sky during one night?",
+    "answer": "Earth rotates",
+    "choices": [
+     "Clouds carry them",
+     "Stars orbit Earth nightly",
+     "Earth rotates",
+     "The Sun pushes them"
+    ]
+   },
+   {
+    "question": "How long does it take for the same constellations to return to the same place at the same time of night?",
+    "answer": "About one year",
+    "choices": [
+     "One day",
+     "Ten years",
+     "One month",
+     "About one year"
+    ]
+   },
+   {
+    "question": "Which star stays almost still in the northern sky?",
+    "answer": "Polaris",
+    "choices": [
+     "Sirius",
+     "The Sun",
+     "Vega",
+     "Polaris"
+    ]
+   },
+   {
+    "question": "Why do stars rise in the east and set in the west?",
+    "answer": "Earth rotates from west to east",
+    "choices": [
+     "Stars move west",
+     "The Sun pushes them",
+     "They orbit Earth",
+     "Earth rotates from west to east"
+    ]
+   },
+   {
+    "question": "In which season can you best see the Summer Triangle?",
+    "answer": "Summer",
+    "choices": [
+     "Summer",
+     "Only at noon",
+     "Winter",
+     "Never"
+    ]
+   },
+   {
+    "question": "Why do we see different constellations in different seasons?",
+    "answer": "Earth's orbit around the Sun changes which part of space we face at night",
+    "choices": [
+     "Constellations disappear",
+     "The Moon blocks them",
+     "Earth's orbit around the Sun changes which part of space we face at night",
+     "Stars move closer in winter"
+    ]
+   },
+   {
+    "question": "Why does the Big Dipper seem to circle Polaris?",
+    "answer": "Earth rotates on an axis pointing near Polaris",
+    "choices": [
+     "Earth rotates on an axis pointing near Polaris",
+     "The stars spin",
+     "The Dipper orbits Polaris",
+     "Polaris moves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSolEcl",
+  "subject": "science",
+  "title": "Solar eclipses",
+  "section": "Astronomy",
+  "grades": [
+   4,
+   5,
+   6,
+   9
+  ],
+  "skillIds": [
+   "sciXsSolEcl4",
+   "sciXsSolEcl5",
+   "sciXsSolEcl6",
+   "sciXsSolEcl9"
+  ],
+  "examples": [
+   {
+    "question": "Why can a solar eclipse only be seen from part of Earth?",
+    "answer": "The Moon's shadow is small compared with Earth",
+    "choices": [
+     "The Sun is small",
+     "The Moon's shadow is small compared with Earth",
+     "Eclipses are secret",
+     "Earth is flat"
+    ]
+   },
+   {
+    "question": "How can you safely watch a solar eclipse?",
+    "answer": "With certified eclipse glasses or a pinhole projector",
+    "choices": [
+     "With certified eclipse glasses or a pinhole projector",
+     "By staring briefly",
+     "With binoculars alone",
+     "With sunglasses"
+    ]
+   },
+   {
+    "question": "How long does totality (complete darkness) usually last?",
+    "answer": "A few minutes",
+    "choices": [
+     "A few minutes",
+     "One second",
+     "A whole day",
+     "A week"
+    ]
+   },
+   {
+    "question": "Why don't solar eclipses happen every month?",
+    "answer": "The Moon's orbit is tilted, so it usually passes above or below the Sun",
+    "choices": [
+     "The Sun hides",
+     "The Moon's orbit is tilted, so it usually passes above or below the Sun",
+     "Earth stops spinning",
+     "The Moon stops"
+    ]
+   },
+   {
+    "question": "During a solar eclipse, what blocks the Sun's light?",
+    "answer": "The Moon",
+    "choices": [
+     "Venus",
+     "A cloud",
+     "Earth",
+     "The Moon"
+    ]
+   },
+   {
+    "question": "Why is it unsafe to look directly at a solar eclipse?",
+    "answer": "Sunlight can damage your eyes",
+    "choices": [
+     "The Moon is too bright",
+     "Sunlight can damage your eyes",
+     "It causes earthquakes",
+     "It is too dark to see"
+    ]
+   },
+   {
+    "question": "At which Moon phase can a solar eclipse happen?",
+    "answer": "New moon",
+    "choices": [
+     "Full moon",
+     "First quarter",
+     "New moon",
+     "Waxing gibbous"
+    ]
+   },
+   {
+    "question": "During a solar eclipse, what blocks the Sun?",
+    "answer": "The Moon",
+    "choices": [
+     "A cloud",
+     "The Moon",
+     "Mars",
+     "Earth"
+    ]
+   },
+   {
+    "question": "During a total solar eclipse, what can you see around the dark Moon?",
+    "answer": "The Sun's glowing corona",
+    "choices": [
+     "Earth's shadow",
+     "Mars",
+     "Clouds",
+     "The Sun's glowing corona"
+    ]
+   },
+   {
+    "question": "In what order are the bodies lined up during a solar eclipse?",
+    "answer": "Sun – Moon – Earth",
+    "choices": [
+     "Moon – Sun – Earth",
+     "Sun – Moon – Earth",
+     "Earth – Sun – Moon",
+     "Sun – Earth – Moon"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsConstId",
+  "subject": "science",
+  "title": "Identify constellations",
+  "section": "Astronomy",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciXsConstId4",
+   "sciXsConstId5",
+   "sciXsConstId6"
+  ],
+  "examples": [
+   {
+    "question": "Which constellation looks like a W or M?",
+    "answer": "Cassiopeia",
+    "choices": [
+     "Leo",
+     "Orion",
+     "Ursa Major",
+     "Cassiopeia"
+    ]
+   },
+   {
+    "question": "Which constellation looks like a hunter with a sword hanging from his belt?",
+    "answer": "Orion",
+    "choices": [
+     "Leo",
+     "Cygnus",
+     "Cassiopeia",
+     "Orion"
+    ]
+   },
+   {
+    "question": "Which star is at the end of the Little Dipper's handle?",
+    "answer": "Polaris (the North Star)",
+    "choices": [
+     "Betelgeuse",
+     "Sirius",
+     "Polaris (the North Star)",
+     "Vega"
+    ]
+   },
+   {
+    "question": "Which bright red star is in Orion's shoulder?",
+    "answer": "Betelgeuse",
+    "choices": [
+     "Betelgeuse",
+     "Polaris",
+     "Vega",
+     "Sirius"
+    ]
+   },
+   {
+    "question": "Which constellation looks like a lion?",
+    "answer": "Leo",
+    "choices": [
+     "Orion",
+     "Leo",
+     "Cygnus",
+     "Cassiopeia"
+    ]
+   },
+   {
+    "question": "Which constellation looks like a swan or a cross?",
+    "answer": "Cygnus",
+    "choices": [
+     "Ursa Minor",
+     "Cygnus",
+     "Orion",
+     "Leo"
+    ]
+   },
+   {
+    "question": "Which constellation contains the Little Dipper?",
+    "answer": "Ursa Minor",
+    "choices": [
+     "Ursa Minor",
+     "Cassiopeia",
+     "Orion",
+     "Gemini"
+    ]
+   },
+   {
+    "question": "Which constellation has twins?",
+    "answer": "Gemini",
+    "choices": [
+     "Leo",
+     "Orion",
+     "Gemini",
+     "Cygnus"
+    ]
+   },
+   {
+    "question": "Which constellation is the hunter with a belt of three stars?",
+    "answer": "Orion",
+    "choices": [
+     "Orion",
+     "Ursa Minor",
+     "Leo",
+     "Cygnus"
+    ]
+   },
+   {
+    "question": "Which two stars in the Big Dipper point to Polaris?",
+    "answer": "The two stars at the end of the bowl",
+    "choices": [
+     "The two stars at the end of the bowl",
+     "Any two stars",
+     "The handle stars",
+     "Orion's belt"
+    ]
+   },
+   {
+    "question": "Which constellation contains the Big Dipper?",
+    "answer": "Ursa Major (the Great Bear)",
+    "choices": [
+     "Cassiopeia",
+     "Orion",
+     "Ursa Major (the Great Bear)",
+     "Scorpius"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciWTR",
+  "subject": "science",
+  "title": "The water cycle",
+  "section": "Water cycle",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciWTR4"
+  ],
+  "examples": [
+   {
+    "question": "Water flowing from a stream into the ocean is part of …",
+    "answer": "Collection",
+    "choices": [
+     "Condensation",
+     "Precipitation",
+     "Collection",
+     "Evaporation"
+    ]
+   },
+   {
+    "question": "What process forms the water drops on the outside of a cold glass?",
+    "answer": "Condensation",
+    "choices": [
+     "Condensation",
+     "Collection",
+     "Evaporation",
+     "Precipitation"
+    ]
+   },
+   {
+    "question": "Water vapor cools and forms tiny droplets in clouds. What is this called?",
+    "answer": "Condensation",
+    "choices": [
+     "Precipitation",
+     "Condensation",
+     "Evaporation",
+     "Collection"
+    ]
+   },
+   {
+    "question": "Liquid water heats up and turns into water vapor. What is this called?",
+    "answer": "Evaporation",
+    "choices": [
+     "Evaporation",
+     "Precipitation",
+     "Condensation",
+     "Collection"
+    ]
+   },
+   {
+    "question": "What process makes puddles disappear on a sunny day?",
+    "answer": "Evaporation",
+    "choices": [
+     "Condensation",
+     "Evaporation",
+     "Collection",
+     "Precipitation"
+    ]
+   },
+   {
+    "question": "Rain, snow and hail fall from clouds. What is this called?",
+    "answer": "Precipitation",
+    "choices": [
+     "Collection",
+     "Evaporation",
+     "Precipitation",
+     "Condensation"
+    ]
+   },
+   {
+    "question": "Water gathers in rivers, lakes and oceans. What is this called?",
+    "answer": "Collection",
+    "choices": [
+     "Collection",
+     "Condensation",
+     "Precipitation",
+     "Evaporation"
+    ]
+   },
+   {
+    "question": "Snow falling on a mountain is an example of …",
+    "answer": "Precipitation",
+    "choices": [
+     "Precipitation",
+     "Evaporation",
+     "Condensation",
+     "Collection"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciLayers",
+  "subject": "science",
+  "title": "Label Earth layers",
+  "section": "Plate tectonics",
+  "grades": [
+   4,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciLayers4",
+   "sciLayers6",
+   "sciLayers7",
+   "sciLayers8"
+  ],
+  "examples": [
+   {
+    "question": "Where does magma mostly come from?",
+    "answer": "Mantle",
+    "choices": [
+     "Crust",
+     "Outer core",
+     "Mantle",
+     "Inner core"
+    ]
+   },
+   {
+    "question": "Which layer is the thinnest?",
+    "answer": "Crust",
+    "choices": [
+     "Mantle",
+     "Crust",
+     "Inner core",
+     "Outer core"
+    ]
+   },
+   {
+    "question": "Which is the thickest layer?",
+    "answer": "Mantle",
+    "choices": [
+     "Mantle",
+     "Crust",
+     "Outer core",
+     "Inner core"
+    ]
+   },
+   {
+    "question": "Which layer of Earth do we live on?",
+    "answer": "Crust",
+    "choices": [
+     "Outer core",
+     "Mantle",
+     "Inner core",
+     "Crust"
+    ]
+   },
+   {
+    "question": "Which layer is liquid iron and nickel?",
+    "answer": "Outer core",
+    "choices": [
+     "Outer core",
+     "Crust",
+     "Mantle",
+     "Inner core"
+    ]
+   },
+   {
+    "question": "Which layer is the solid centre?",
+    "answer": "Inner core",
+    "choices": [
+     "Mantle",
+     "Outer core",
+     "Inner core",
+     "Crust"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciLabSafe",
+  "subject": "science",
+  "title": "Laboratory safety equipment",
+  "section": "Science practices and tools",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciLabSafe5",
+   "sciLabSafe6",
+   "sciLabSafe7",
+   "sciLabSafe8",
+   "sciLabSafe9",
+   "sciLabSafe10"
+  ],
+  "examples": [
+   {
+    "question": "What should you use if a large chemical spill gets on your body?",
+    "answer": "A safety shower",
+    "choices": [
+     "A safety shower",
+     "A fire blanket",
+     "A fire extinguisher",
+     "Gloves"
+    ]
+   },
+   {
+    "question": "What should you use if a chemical splashes into your eyes?",
+    "answer": "An eyewash station",
+    "choices": [
+     "Gloves",
+     "An eyewash station",
+     "A fire blanket",
+     "A lab coat"
+    ]
+   },
+   {
+    "question": "What protects your hands from chemicals?",
+    "answer": "Gloves",
+    "choices": [
+     "A safety shower",
+     "A lab coat",
+     "Gloves",
+     "A fume hood"
+    ]
+   },
+   {
+    "question": "What protects your clothes and skin?",
+    "answer": "A lab coat",
+    "choices": [
+     "An eyewash station",
+     "A fume hood",
+     "A fire blanket",
+     "A lab coat"
+    ]
+   },
+   {
+    "question": "What removes harmful fumes from the air?",
+    "answer": "A fume hood",
+    "choices": [
+     "A fire extinguisher",
+     "A fume hood",
+     "Gloves",
+     "A safety shower"
+    ]
+   },
+   {
+    "question": "What can smother a fire on a person's clothes?",
+    "answer": "A fire blanket",
+    "choices": [
+     "A fire extinguisher",
+     "A fire blanket",
+     "Safety goggles",
+     "A fume hood"
+    ]
+   },
+   {
+    "question": "What protects your eyes from splashes?",
+    "answer": "Safety goggles",
+    "choices": [
+     "A safety shower",
+     "Gloves",
+     "Safety goggles",
+     "An eyewash station"
+    ]
+   },
+   {
+    "question": "What is used to put out a small fire?",
+    "answer": "A fire extinguisher",
+    "choices": [
+     "An eyewash station",
+     "A fume hood",
+     "A fire extinguisher",
+     "Gloves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCtlGrp",
+  "subject": "science",
+  "title": "Identify control and experimental groups",
+  "section": "Designing experiments",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciCtlGrp5",
+   "sciCtlGrp6",
+   "sciCtlGrp7",
+   "sciCtlGrp8",
+   "sciCtlGrp9",
+   "sciCtlGrp10"
+  ],
+  "examples": [
+   {
+    "question": "Ana tests whether salt makes ice melt faster. Cup 1 has salted ice; cup 2 has plain ice. Which is the experimental group?",
+    "answer": "Cup 1 (salted ice)",
+    "choices": [
+     "Cup 2 (plain ice)",
+     "Both cups",
+     "Cup 1 (salted ice)",
+     "Neither cup"
+    ]
+   },
+   {
+    "question": "Why does an experiment need a control group?",
+    "answer": "To compare results against a group without the change",
+    "choices": [
+     "To guarantee the hypothesis is right",
+     "To compare results against a group without the change",
+     "To use more materials",
+     "To make the experiment longer"
+    ]
+   },
+   {
+    "question": "A doctor tests a new medicine. Half the patients get the medicine, half get a sugar pill. Which is the control group?",
+    "answer": "The patients who get the sugar pill",
+    "choices": [
+     "The doctor",
+     "All the patients",
+     "The patients who get the medicine",
+     "The patients who get the sugar pill"
+    ]
+   },
+   {
+    "question": "Maya tests whether fertilizer helps plants grow. Group A gets fertilizer; Group B gets none. Which is the control group?",
+    "answer": "Group B (no fertilizer)",
+    "choices": [
+     "Neither group",
+     "Both groups",
+     "Group B (no fertilizer)",
+     "Group A (fertilizer)"
+    ]
+   },
+   {
+    "question": "Omar tests if light colour affects plant growth: red light, blue light, and normal white light. Which is the control?",
+    "answer": "The plants under white light",
+    "choices": [
+     "The plants under white light",
+     "The plants under blue light",
+     "All the plants",
+     "The plants under red light"
+    ]
+   },
+   {
+    "question": "Leo tests whether music helps mice run a maze faster. One group hears music; one hears silence. Which is the experimental group?",
+    "answer": "The group that hears music",
+    "choices": [
+     "The group that hears music",
+     "Neither group",
+     "Both groups",
+     "The group that hears silence"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciIndDep",
+  "subject": "science",
+  "title": "Identify independent and dependent variables",
+  "section": "Designing experiments",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciIndDep5",
+   "sciIndDep6",
+   "sciIndDep7",
+   "sciIndDep8",
+   "sciIndDep9",
+   "sciIndDep10"
+  ],
+  "examples": [
+   {
+    "question": "Does water temperature affect how fast sugar dissolves? What is the dependent variable?",
+    "answer": "The time it takes to dissolve",
+    "choices": [
+     "The amount of sugar",
+     "The time it takes to dissolve",
+     "The size of the cup",
+     "The water temperature"
+    ]
+   },
+   {
+    "question": "Does the type of ball affect how high it bounces? What should stay the same (a controlled variable)?",
+    "answer": "The height it is dropped from",
+    "choices": [
+     "The type of ball",
+     "The height it is dropped from",
+     "Nothing",
+     "The bounce height"
+    ]
+   },
+   {
+    "question": "How does the height of a ramp affect how far a toy car rolls? What is the independent variable?",
+    "answer": "The height of the ramp",
+    "choices": [
+     "The type of car",
+     "The floor surface",
+     "The height of the ramp",
+     "The distance the car rolls"
+    ]
+   },
+   {
+    "question": "A student tests how the amount of water affects bean growth. What is the dependent variable?",
+    "answer": "The height of the beans",
+    "choices": [
+     "The pot size",
+     "The height of the beans",
+     "The type of soil",
+     "The amount of water"
+    ]
+   },
+   {
+    "question": "How does the height of a ramp affect how far a toy car rolls? What is the dependent variable?",
+    "answer": "The distance the car rolls",
+    "choices": [
+     "The floor surface",
+     "The height of the ramp",
+     "The distance the car rolls",
+     "The type of car"
+    ]
+   },
+   {
+    "question": "A student tests whether more sunlight makes plants greener. Which should be kept the same?",
+    "answer": "The amount of water",
+    "choices": [
+     "The greenness measured",
+     "The amount of sunlight",
+     "The amount of water",
+     "Nothing"
+    ]
+   },
+   {
+    "question": "A student tests how the amount of water affects bean growth. What is the independent variable?",
+    "answer": "The amount of water",
+    "choices": [
+     "The height of the beans",
+     "The pot size",
+     "The amount of water",
+     "The type of soil"
+    ]
+   },
+   {
+    "question": "Does water temperature affect how fast sugar dissolves? What is the independent variable?",
+    "answer": "The water temperature",
+    "choices": [
+     "The time to dissolve",
+     "The size of the cup",
+     "The amount of sugar",
+     "The water temperature"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciExpQ",
+  "subject": "science",
+  "title": "Identify the experimental question",
+  "section": "Designing experiments",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciExpQ5",
+   "sciExpQ6",
+   "sciExpQ7",
+   "sciExpQ8",
+   "sciExpQ9",
+   "sciExpQ10"
+  ],
+  "examples": [
+   {
+    "question": "Ben dropped a ball from 1 m, 2 m and 3 m and measured each bounce. What question was he testing?",
+    "answer": "Does drop height affect how high a ball bounces?",
+    "choices": [
+     "Does drop height affect how high a ball bounces?",
+     "Does wing shape affect how far a paper airplane flies?",
+     "Does the type of soil affect how well seeds grow?",
+     "Does sunlight affect how fast ice melts?"
+    ]
+   },
+   {
+    "question": "Noah raced paper airplanes with different wing shapes. What question was he testing?",
+    "answer": "Does wing shape affect how far a paper airplane flies?",
+    "choices": [
+     "Does the type of soil affect how well seeds grow?",
+     "Does sunlight affect how fast ice melts?",
+     "Does wing shape affect how far a paper airplane flies?",
+     "Does drop height affect how high a ball bounces?"
+    ]
+   },
+   {
+    "question": "Sofia wrapped cups of hot water in foil, wool and paper and recorded their temperatures. What question was she testing?",
+    "answer": "Which material keeps water warm the longest?",
+    "choices": [
+     "Which material keeps water warm the longest?",
+     "Does wing shape affect how far a paper airplane flies?",
+     "Does sunlight affect how fast ice melts?",
+     "Does the type of soil affect how well seeds grow?"
+    ]
+   },
+   {
+    "question": "Liam put one ice cube in a sunny window and one in the shade, then timed how long each took to melt. What question was he testing?",
+    "answer": "Does sunlight affect how fast ice melts?",
+    "choices": [
+     "Does sunlight affect how fast ice melts?",
+     "Does the type of soil affect how well seeds grow?",
+     "Does wing shape affect how far a paper airplane flies?",
+     "Does drop height affect how high a ball bounces?"
+    ]
+   },
+   {
+    "question": "Mia put bread in a fridge and on a counter and checked daily for mould. What question was she testing?",
+    "answer": "Does temperature affect how fast mould grows on bread?",
+    "choices": [
+     "Which material keeps water warm the longest?",
+     "Does the type of soil affect how well seeds grow?",
+     "Does temperature affect how fast mould grows on bread?",
+     "Does drop height affect how high a ball bounces?"
+    ]
+   },
+   {
+    "question": "Priya planted seeds in sand, clay and potting soil and measured their growth. What question was she testing?",
+    "answer": "Does the type of soil affect how well seeds grow?",
+    "choices": [
+     "Which material keeps water warm the longest?",
+     "Does the type of soil affect how well seeds grow?",
+     "Does sunlight affect how fast ice melts?",
+     "Does drop height affect how high a ball bounces?"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsInvQ",
+  "subject": "science",
+  "title": "Identify questions that can be investigated with a set of materials",
+  "section": "Designing experiments",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsInvQ5",
+   "sciXsInvQ6",
+   "sciXsInvQ7",
+   "sciXsInvQ8",
+   "sciXsInvQ9",
+   "sciXsInvQ10"
+  ],
+  "examples": [
+   {
+    "question": "Materials: cups of water at different temperatures, sugar cubes and a timer. Which question can you investigate?",
+    "answer": "Does sugar dissolve faster in warmer water?",
+    "choices": [
+     "Where does sugar grow?",
+     "Why is sugar sweet?",
+     "Does sugar dissolve faster in warmer water?",
+     "Is sugar healthy?"
+    ]
+   },
+   {
+    "question": "Materials: seeds, pots, soil, water, a sunny window and a dark closet. Which question can you investigate?",
+    "answer": "Does light affect how fast seeds sprout?",
+    "choices": [
+     "How old is the soil?",
+     "Which seed tastes best?",
+     "Does light affect how fast seeds sprout?",
+     "Where were the seeds grown?"
+    ]
+   },
+   {
+    "question": "Materials: ice cubes, salt, sugar, plates and a timer. Which question can you investigate?",
+    "answer": "Does salt or sugar make ice melt faster?",
+    "choices": [
+     "Where does salt come from?",
+     "Does salt or sugar make ice melt faster?",
+     "Which ice cube is prettiest?",
+     "Why is ice cold?"
+    ]
+   },
+   {
+    "question": "Materials: magnets, paper clips and sheets of paper. Which question can you investigate?",
+    "answer": "How many sheets of paper can a magnet pull through?",
+    "choices": [
+     "How many sheets of paper can a magnet pull through?",
+     "Where do magnets come from?",
+     "Why is paper white?",
+     "How are magnets made?"
+    ]
+   },
+   {
+    "question": "Materials: three types of paper towel, water, a measuring cup. Which question can you investigate?",
+    "answer": "Which paper towel absorbs the most water?",
+    "choices": [
+     "Which paper towel absorbs the most water?",
+     "Which paper towel is the prettiest?",
+     "How are paper towels made in factories?",
+     "What is the history of paper?"
+    ]
+   },
+   {
+    "question": "Materials: balls of different materials, a metre stick and a hard floor. Which question can you investigate?",
+    "answer": "Which ball bounces highest?",
+    "choices": [
+     "Which ball is most fun?",
+     "Why do people like sports?",
+     "Who invented balls?",
+     "Which ball bounces highest?"
+    ]
+   },
+   {
+    "question": "Materials: a flashlight, a ruler and objects. Which question can you investigate?",
+    "answer": "How does distance from the light change shadow size?",
+    "choices": [
+     "What is the speed of light?",
+     "Who invented flashlights?",
+     "Why do people fear the dark?",
+     "How does distance from the light change shadow size?"
+    ]
+   },
+   {
+    "question": "Materials: a ramp, a toy car, a ruler, books to change the height. Which question can you investigate?",
+    "answer": "Does a steeper ramp make the car roll farther?",
+    "choices": [
+     "Does a steeper ramp make the car roll farther?",
+     "Why do people like cars?",
+     "What colour car is fastest?",
+     "How do engines work?"
+    ]
+   },
+   {
+    "question": "Materials: three types of soil, cups, water and a measuring cup. Which question can you investigate?",
+    "answer": "Which soil holds the most water?",
+    "choices": [
+     "Why is soil brown?",
+     "Who made the soil?",
+     "Which soil is oldest?",
+     "Which soil holds the most water?"
+    ]
+   },
+   {
+    "question": "Materials: paper airplanes of different designs, tape measure. Which question can you investigate?",
+    "answer": "Which design flies farthest?",
+    "choices": [
+     "Who invented airplanes?",
+     "Which colour is fastest in the sky?",
+     "Which design flies farthest?",
+     "Why do birds fly?"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPartic",
+  "subject": "science",
+  "title": "Particles of matter",
+  "section": "Properties of matter",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciXsPartic5"
+  ],
+  "examples": [
+   {
+    "question": "How do particles in a liquid move?",
+    "answer": "They slide past each other while staying close",
+    "choices": [
+     "They stay in fixed spots",
+     "They don't move",
+     "They slide past each other while staying close",
+     "They fly far apart"
+    ]
+   },
+   {
+    "question": "In which state are particles farthest apart?",
+    "answer": "Gas",
+    "choices": [
+     "They are the same",
+     "Liquid",
+     "Gas",
+     "Solid"
+    ]
+   },
+   {
+    "question": "How do particles move in a gas?",
+    "answer": "Quickly and far apart",
+    "choices": [
+     "Quickly and far apart",
+     "Slowly in fixed spots",
+     "Not at all",
+     "Only up and down"
+    ]
+   },
+   {
+    "question": "What happens to particles when a liquid is heated?",
+    "answer": "They move faster",
+    "choices": [
+     "They get smaller",
+     "They stop moving",
+     "They disappear",
+     "They move faster"
+    ]
+   },
+   {
+    "question": "Why does a solid keep its shape?",
+    "answer": "Its particles are tightly packed in fixed positions",
+    "choices": [
+     "It has no particles",
+     "Its particles are tightly packed in fixed positions",
+     "Its particles are far apart",
+     "Its particles move freely"
+    ]
+   },
+   {
+    "question": "Why does a gas fill its container?",
+    "answer": "Its particles move freely and spread out",
+    "choices": [
+     "Its particles move freely and spread out",
+     "It has no particles",
+     "It is heavy",
+     "Its particles are stuck together"
+    ]
+   },
+   {
+    "question": "Why can liquids flow?",
+    "answer": "Their particles can slide past each other",
+    "choices": [
+     "Their particles can slide past each other",
+     "Their particles are frozen in place",
+     "They have no particles",
+     "Their particles are very far apart"
+    ]
+   },
+   {
+    "question": "Why can you smell cookies baking from another room?",
+    "answer": "Gas particles spread through the air",
+    "choices": [
+     "Cookies shout",
+     "The particles stay in the oven",
+     "Gas particles spread through the air",
+     "Light carries smell"
+    ]
+   },
+   {
+    "question": "Which state can be squeezed into a smaller space most easily?",
+    "answer": "Gas",
+    "choices": [
+     "Solid",
+     "None",
+     "Gas",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "How are particles arranged in a solid?",
+    "answer": "Close together in fixed positions",
+    "choices": [
+     "Close together in fixed positions",
+     "Close but sliding past each other",
+     "Not moving at all and far apart",
+     "Far apart and moving freely"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCs",
+  "subject": "science",
+  "title": "Change-of-state diagrams: melting, freezing, evaporating and condensing",
+  "section": "Physical and chemical changes",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciXsCs45"
+  ],
+  "examples": [
+   {
+    "question": "Chocolate softens in your hand. Which change of state is this?",
+    "answer": "melting",
+    "choices": [
+     "condensing",
+     "freezing",
+     "evaporating",
+     "melting"
+    ]
+   },
+   {
+    "question": "Ice cubes turn into water in a glass. Which change of state is this?",
+    "answer": "melting",
+    "choices": [
+     "melting",
+     "freezing",
+     "condensing",
+     "evaporating"
+    ]
+   },
+   {
+    "question": "Which arrow is the reverse of melting?",
+    "answer": "Freezing",
+    "choices": [
+     "Condensing",
+     "Boiling",
+     "Freezing",
+     "Evaporating"
+    ]
+   },
+   {
+    "question": "A puddle disappears on a sunny day. Which change of state is this?",
+    "answer": "evaporating",
+    "choices": [
+     "melting",
+     "evaporating",
+     "freezing",
+     "condensing"
+    ]
+   },
+   {
+    "question": "Which arrow is the reverse of evaporating?",
+    "answer": "Condensing",
+    "choices": [
+     "Sublimating",
+     "Condensing",
+     "Melting",
+     "Freezing"
+    ]
+   },
+   {
+    "question": "Wet hair dries in the sun. Which change of state is this?",
+    "answer": "evaporating",
+    "choices": [
+     "freezing",
+     "evaporating",
+     "condensing",
+     "melting"
+    ]
+   },
+   {
+    "question": "Lake water turns to ice in winter. Which change of state is this?",
+    "answer": "freezing",
+    "choices": [
+     "condensing",
+     "freezing",
+     "melting",
+     "evaporating"
+    ]
+   },
+   {
+    "question": "Fog forms over a lake on a cool morning. Which change of state is this?",
+    "answer": "condensing",
+    "choices": [
+     "evaporating",
+     "melting",
+     "freezing",
+     "condensing"
+    ]
+   },
+   {
+    "question": "Which changes require adding thermal energy?",
+    "answer": "Melting and evaporating",
+    "choices": [
+     "Freezing and melting",
+     "Melting and evaporating",
+     "Freezing and condensing",
+     "Condensing only"
+    ]
+   },
+   {
+    "question": "Water droplets form on a cold can. Which change of state is this?",
+    "answer": "condensing",
+    "choices": [
+     "melting",
+     "evaporating",
+     "condensing",
+     "freezing"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBike",
+  "subject": "science",
+  "title": "Explore energy transformations: bike ride",
+  "section": "Energy",
+  "grades": [
+   5,
+   9
+  ],
+  "skillIds": [
+   "sciXsBike5",
+   "sciXsBike9"
+  ],
+  "examples": [
+   {
+    "question": "Why do bike tires feel warm after a long ride?",
+    "answer": "Friction changes some kinetic energy into thermal energy",
+    "choices": [
+     "Friction changes some kinetic energy into thermal energy",
+     "Air is hot",
+     "The Sun heats only tires",
+     "Rubber makes heat by itself"
+    ]
+   },
+   {
+    "question": "When the cyclist brakes, kinetic energy changes mostly into…",
+    "answer": "thermal energy (heat) in the brakes",
+    "choices": [
+     "chemical energy",
+     "potential energy",
+     "light energy",
+     "thermal energy (heat) in the brakes"
+    ]
+   },
+   {
+    "question": "When the cyclist rings the bell, energy is changed into…",
+    "answer": "sound energy",
+    "choices": [
+     "sound energy",
+     "potential energy",
+     "chemical energy",
+     "light energy"
+    ]
+   },
+   {
+    "question": "When a cyclist pedals, chemical energy from food is changed into…",
+    "answer": "kinetic (motion) energy",
+    "choices": [
+     "light energy only",
+     "magnetic energy",
+     "kinetic (motion) energy",
+     "nuclear energy"
+    ]
+   },
+   {
+    "question": "Why does a cyclist get tired?",
+    "answer": "Chemical energy in the body is used up",
+    "choices": [
+     "Gravity stops",
+     "Chemical energy in the body is used up",
+     "The bike gets heavier",
+     "The wheels shrink"
+    ]
+   },
+   {
+    "question": "When the bike coasts downhill, gravitational potential energy changes into…",
+    "answer": "kinetic energy",
+    "choices": [
+     "kinetic energy",
+     "chemical energy",
+     "nuclear energy",
+     "sound only"
+    ]
+   },
+   {
+    "question": "A bike light powered by a generator changes kinetic energy into…",
+    "answer": "electrical then light energy",
+    "choices": [
+     "sound only",
+     "chemical energy",
+     "nuclear energy",
+     "electrical then light energy"
+    ]
+   },
+   {
+    "question": "Where does a cyclist get the energy to pedal?",
+    "answer": "Chemical energy stored in food",
+    "choices": [
+     "Sunlight directly",
+     "Electricity",
+     "Nuclear energy",
+     "Chemical energy stored in food"
+    ]
+   },
+   {
+    "question": "Pedalling uphill increases which energy?",
+    "answer": "Gravitational potential energy",
+    "choices": [
+     "Light energy",
+     "Chemical energy in the bike",
+     "Gravitational potential energy",
+     "Sound energy"
+    ]
+   },
+   {
+    "question": "What does a bike dynamo light change kinetic energy into?",
+    "answer": "Electrical energy, then light",
+    "choices": [
+     "Electrical energy, then light",
+     "Chemical energy",
+     "Sound only",
+     "Heat only"
+    ]
+   },
+   {
+    "question": "At the top of a hill, a cyclist stops pedalling. What kind of energy is highest?",
+    "answer": "Gravitational potential energy",
+    "choices": [
+     "Gravitational potential energy",
+     "Sound energy",
+     "Kinetic energy",
+     "Light energy"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCoaster",
+  "subject": "science",
+  "title": "Explore energy transformations: roller coaster ride",
+  "section": "Energy",
+  "grades": [
+   5,
+   6,
+   9
+  ],
+  "skillIds": [
+   "sciXsCoaster5",
+   "sciXsCoaster6",
+   "sciXsCoaster9"
+  ],
+  "examples": [
+   {
+    "question": "What energy change happens when brakes stop the coaster?",
+    "answer": "Kinetic energy to thermal energy",
+    "choices": [
+     "Light to sound",
+     "Thermal to kinetic",
+     "Kinetic energy to thermal energy",
+     "Chemical to nuclear"
+    ]
+   },
+   {
+    "question": "Why must each hill be lower than the first?",
+    "answer": "The coaster has less total mechanical energy after friction",
+    "choices": [
+     "The coaster has less total mechanical energy after friction",
+     "It is a rule only",
+     "Taller hills are scarier",
+     "Gravity grows"
+    ]
+   },
+   {
+    "question": "As a coaster climbs a hill, what happens to its kinetic energy?",
+    "answer": "It decreases",
+    "choices": [
+     "It stays the same",
+     "It becomes chemical energy",
+     "It increases",
+     "It decreases"
+    ]
+   },
+   {
+    "question": "Where is a roller coaster moving fastest?",
+    "answer": "At the bottom of the biggest drop",
+    "choices": [
+     "In the station",
+     "At the top of the first hill",
+     "At the bottom of the biggest drop",
+     "At the top of a loop"
+    ]
+   },
+   {
+    "question": "What lifts a coaster to the top of the first hill?",
+    "answer": "A motor-powered chain or cable",
+    "choices": [
+     "Friction",
+     "A motor-powered chain or cable",
+     "The riders' screams",
+     "Gravity"
+    ]
+   },
+   {
+    "question": "Where does a roller coaster have the most potential energy?",
+    "answer": "At the top of the highest hill",
+    "choices": [
+     "At the top of the highest hill",
+     "In the station",
+     "In a loop at ground level",
+     "At the bottom of a hill"
+    ]
+   },
+   {
+    "question": "Why can't a second hill be taller than the first (without a motor)?",
+    "answer": "Some energy is lost to friction and sound",
+    "choices": [
+     "The coaster gains energy going down",
+     "Kinetic energy turns into mass",
+     "Some energy is lost to friction and sound",
+     "Gravity stops working"
+    ]
+   },
+   {
+    "question": "As the coaster rolls downhill, potential energy changes into…",
+    "answer": "kinetic energy",
+    "choices": [
+     "potential energy",
+     "kinetic energy",
+     "chemical energy",
+     "nuclear energy"
+    ]
+   },
+   {
+    "question": "Which is true at the very top of a hill (moving slowly)?",
+    "answer": "Potential energy is high and kinetic energy is low",
+    "choices": [
+     "Kinetic is high, potential is low",
+     "Both are very high",
+     "Both are zero",
+     "Potential energy is high and kinetic energy is low"
+    ]
+   },
+   {
+    "question": "Why do coasters slow down over the ride?",
+    "answer": "Friction and air resistance turn energy into heat and sound",
+    "choices": [
+     "The tracks get longer",
+     "Gravity disappears",
+     "Friction and air resistance turn energy into heat and sound",
+     "Energy is created"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPotKin",
+  "subject": "science",
+  "title": "Identify changes in potential and kinetic energy",
+  "section": "Energy",
+  "grades": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciPotKin5",
+   "sciPotKin6",
+   "sciPotKin7",
+   "sciPotKin8"
+  ],
+  "examples": [
+   {
+    "question": "A truck and a bike move at the same speed. Which has more kinetic energy?",
+    "answer": "The truck",
+    "choices": [
+     "Neither has any",
+     "The truck",
+     "They have the same",
+     "The bike"
+    ]
+   },
+   {
+    "question": "At the bottom of a swing's path, which energy is greatest?",
+    "answer": "Kinetic energy",
+    "choices": [
+     "Light energy",
+     "Potential energy",
+     "Kinetic energy",
+     "Chemical energy"
+    ]
+   },
+   {
+    "question": "The coaster races down the hill. What happens to its kinetic energy?",
+    "answer": "It increases.",
+    "choices": [
+     "It stays the same.",
+     "It decreases.",
+     "It increases.",
+     "It becomes zero."
+    ]
+   },
+   {
+    "question": "At the very top of a swing's path, which energy is greatest?",
+    "answer": "Potential energy",
+    "choices": [
+     "Electrical energy",
+     "Kinetic energy",
+     "Potential energy",
+     "Sound energy"
+    ]
+   },
+   {
+    "question": "A car doubles its speed. Its kinetic energy …",
+    "answer": "becomes four times as large.",
+    "choices": [
+     "halves.",
+     "becomes four times as large.",
+     "stays the same.",
+     "doubles."
+    ]
+   },
+   {
+    "question": "A book is moved from the floor to a high shelf. Its potential energy …",
+    "answer": "increases.",
+    "choices": [
+     "increases.",
+     "decreases.",
+     "stays the same.",
+     "becomes kinetic energy."
+    ]
+   },
+   {
+    "question": "A roller coaster climbs the first hill. What happens to its gravitational potential energy?",
+    "answer": "It increases.",
+    "choices": [
+     "It decreases.",
+     "It increases.",
+     "It stays the same.",
+     "It disappears."
+    ]
+   },
+   {
+    "question": "A ball is thrown straight up. As it rises, its kinetic energy …",
+    "answer": "decreases.",
+    "choices": [
+     "increases.",
+     "decreases.",
+     "doubles.",
+     "stays the same."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPartCS",
+  "subject": "science",
+  "title": "Particle motion and changes of state",
+  "section": "Heat and thermal energy",
+  "grades": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsPartCS5",
+   "sciXsPartCS6",
+   "sciXsPartCS7",
+   "sciXsPartCS8"
+  ],
+  "examples": [
+   {
+    "question": "What happens to water particles when water freezes?",
+    "answer": "They lose energy and lock into place",
+    "choices": [
+     "They spread out into gas",
+     "They speed up",
+     "They lose energy and lock into place",
+     "They split apart"
+    ]
+   },
+   {
+    "question": "Why does steam take up more space than water?",
+    "answer": "Gas particles are much farther apart",
+    "choices": [
+     "Water is lighter",
+     "Steam has more particles",
+     "Steam particles are bigger",
+     "Gas particles are much farther apart"
+    ]
+   },
+   {
+    "question": "Does the temperature change while ice is melting?",
+    "answer": "No, the energy goes into breaking the solid structure",
+    "choices": [
+     "No, the energy goes into breaking the solid structure",
+     "It doubles",
+     "Yes, it drops",
+     "Yes, it rises quickly"
+    ]
+   },
+   {
+    "question": "Why does a gas fill its whole container?",
+    "answer": "Its particles move quickly and spread out",
+    "choices": [
+     "It has no particles",
+     "Its particles move quickly and spread out",
+     "Its particles are glued together",
+     "It is heavier than liquids"
+    ]
+   },
+   {
+    "question": "At the melting point, what are particles doing?",
+    "answer": "Breaking out of fixed positions",
+    "choices": [
+     "Getting smaller",
+     "Turning into a gas",
+     "Stopping completely",
+     "Breaking out of fixed positions"
+    ]
+   },
+   {
+    "question": "What do particles do during condensation?",
+    "answer": "Slow down and come closer together",
+    "choices": [
+     "Stay the same",
+     "Split apart",
+     "Speed up and spread out",
+     "Slow down and come closer together"
+    ]
+   },
+   {
+    "question": "What happens to particles as liquid wax cools?",
+    "answer": "They slow down and lock into place",
+    "choices": [
+     "They slow down and lock into place",
+     "They disappear",
+     "They spread into gas",
+     "They speed up"
+    ]
+   },
+   {
+    "question": "What happens to particles when a solid melts?",
+    "answer": "They gain energy and start sliding past each other",
+    "choices": [
+     "They disappear",
+     "They stop moving",
+     "They lose energy",
+     "They gain energy and start sliding past each other"
+    ]
+   },
+   {
+    "question": "Why do puddles evaporate faster on hot days?",
+    "answer": "Particles have more energy to escape",
+    "choices": [
+     "Hot days have more rain",
+     "Heat stops particles",
+     "Particles have more energy to escape",
+     "The puddle gets heavier"
+    ]
+   },
+   {
+    "question": "What happens to particles when water boils?",
+    "answer": "They gain energy and escape as a gas",
+    "choices": [
+     "They stick together",
+     "They gain energy and escape as a gas",
+     "They lose energy",
+     "They freeze"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDirF",
+  "subject": "science",
+  "title": "Identify directions of forces",
+  "section": "Force and motion",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciXsDirF5"
+  ],
+  "examples": [
+   {
+    "question": "A sled slides to the right across snow. Which way does friction act?",
+    "answer": "To the left",
+    "choices": [
+     "To the right",
+     "Up",
+     "To the left",
+     "Down"
+    ]
+   },
+   {
+    "question": "In which direction does gravity pull on a falling apple?",
+    "answer": "Down, toward Earth's centre",
+    "choices": [
+     "Down, toward Earth's centre",
+     "In every direction",
+     "Up",
+     "Sideways"
+    ]
+   },
+   {
+    "question": "A rocket launches upward. Which way does the engine push the rocket?",
+    "answer": "Up",
+    "choices": [
+     "To the left",
+     "Up",
+     "To the right",
+     "Down"
+    ]
+   },
+   {
+    "question": "A hockey puck slides north. Which way does friction push on it?",
+    "answer": "South",
+    "choices": [
+     "Up",
+     "Down",
+     "To the left",
+     "South"
+    ]
+   },
+   {
+    "question": "Friction on a sliding box acts…",
+    "answer": "opposite to the direction of motion",
+    "choices": [
+     "toward the Sun",
+     "straight up",
+     "opposite to the direction of motion",
+     "in the same direction as motion"
+    ]
+   },
+   {
+    "question": "A kite string pulls the kite down toward you. Which way does the wind push the kite?",
+    "answer": "Up and away from you",
+    "choices": [
+     "Up and away from you",
+     "To the left",
+     "Down",
+     "Up"
+    ]
+   },
+   {
+    "question": "An apple falls from a tree. Which way does gravity pull it?",
+    "answer": "Down",
+    "choices": [
+     "Up",
+     "Down",
+     "To the right",
+     "To the left"
+    ]
+   },
+   {
+    "question": "A table pushes up on a book. This force is called…",
+    "answer": "the normal force",
+    "choices": [
+     "friction",
+     "gravity",
+     "magnetism",
+     "the normal force"
+    ]
+   },
+   {
+    "question": "A swimmer pushes the water backward. Which way does the water push the swimmer?",
+    "answer": "Forward",
+    "choices": [
+     "Up",
+     "Down",
+     "Forward",
+     "To the left"
+    ]
+   },
+   {
+    "question": "A book rests on a table. Which way does the table push on the book?",
+    "answer": "Up",
+    "choices": [
+     "Down",
+     "Up",
+     "To the left",
+     "To the right"
+    ]
+   },
+   {
+    "question": "You pull a wagon toward you (to the left). Which way is your force?",
+    "answer": "To the left",
+    "choices": [
+     "To the left",
+     "Down",
+     "To the right",
+     "Up"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCHG",
+  "subject": "science",
+  "title": "Physical and chemical changes",
+  "section": "Physical and chemical change",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciCHG5"
+  ],
+  "examples": [
+   {
+    "question": "Is this a physical or chemical change? Milk turning sour",
+    "answer": "Chemical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Crushing a can",
+    "answer": "Physical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Wood burning",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Iron rusting",
+    "answer": "Chemical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Cutting paper",
+    "answer": "Physical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? A cut apple turning brown",
+    "answer": "Chemical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Sugar dissolving in water",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Water boiling",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Ice melting",
+    "answer": "Physical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical change? Baking a cake",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   }
+  ]
+ }
+]

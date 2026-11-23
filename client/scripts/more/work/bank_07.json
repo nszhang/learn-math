@@ -1,0 +1,2434 @@
+[
+ {
+  "key": "engXInfSd",
+  "subject": "english",
+  "title": "Draw inferences and identify supporting details",
+  "section": "Inference",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXInfSd3",
+   "engXInfSd4",
+   "engXInfSd5"
+  ],
+  "examples": [
+   {
+    "question": "Mara grabbed her umbrella, pulled on her boots and frowned at the grey sky. What can you infer about the weather?",
+    "answer": "It is probably going to rain",
+    "choices": [
+     "It is a clear night",
+     "It is probably going to rain",
+     "It is sunny and hot",
+     "It is snowing heavily"
+    ]
+   },
+   {
+    "question": "The kitchen smelled like smoke, and Dad was fanning the smoke alarm with a towel. What probably happened?",
+    "answer": "Something burned while cooking",
+    "choices": [
+     "Something burned while cooking",
+     "The house was cold",
+     "The power went out",
+     "Dad was baking perfectly"
+    ]
+   },
+   {
+    "question": "Grandpa squinted at the menu, held it farther away and then patted his shirt pocket. What can you infer, and which detail supports it?",
+    "answer": "He needs his reading glasses — he squinted and patted his pocket",
+    "choices": [
+     "He is cold — he patted his shirt",
+     "He needs his reading glasses — he squinted and patted his pocket",
+     "He is angry — he held the menu away",
+     "He is hungry — he read the menu"
+    ]
+   },
+   {
+    "question": "Mila grabbed her umbrella, pulled on her boots and frowned at the grey sky. What can you infer, and which detail supports it?",
+    "answer": "It is probably going to rain — she grabbed her umbrella",
+    "choices": [
+     "It is probably going to rain — she grabbed her umbrella",
+     "It is sunny — she frowned",
+     "It is night — the sky was grey",
+     "It is snowing — she wore boots"
+    ]
+   },
+   {
+    "question": "The stadium roared. Jamal's teammates lifted him onto their shoulders as the clock hit zero. What can you infer?",
+    "answer": "Jamal's team won, probably because of him",
+    "choices": [
+     "Jamal got hurt",
+     "The team lost badly",
+     "Jamal's team won, probably because of him",
+     "The game was cancelled"
+    ]
+   },
+   {
+    "question": "When the bell rang, Omar raced out the door, shouting, \"Finally! Summer!\" What can you infer, and which detail supports it?",
+    "answer": "It is the last day of school — he shouted \"Finally! Summer!\"",
+    "choices": [
+     "Omar forgot his bag — he shouted",
+     "Omar is sad — he raced out",
+     "Omar is late — the bell rang",
+     "It is the last day of school — he shouted \"Finally! Summer!\""
+    ]
+   },
+   {
+    "question": "The bird feeder was empty, seeds were scattered on the ground and a striped tail disappeared up the tree. What most likely emptied the feeder?",
+    "answer": "A raccoon or squirrel",
+    "choices": [
+     "The wind",
+     "A cow",
+     "A raccoon or squirrel",
+     "A fish"
+    ]
+   },
+   {
+    "question": "Sam's hands shook as he walked to the front of the class with his notes. How does Sam most likely feel?",
+    "answer": "Nervous about speaking",
+    "choices": [
+     "Bored",
+     "Nervous about speaking",
+     "Angry at his friends",
+     "Sleepy"
+    ]
+   },
+   {
+    "question": "Ellie yawned, rubbed her eyes and kept reading the last chapter under her blanket with a flashlight. What can you infer about Ellie?",
+    "answer": "She is staying up late because she can't stop reading",
+    "choices": [
+     "She dislikes the book",
+     "She is staying up late because she can't stop reading",
+     "She is at school",
+     "She is scared of the dark"
+    ]
+   },
+   {
+    "question": "Grandma set out six plates, put on her best apron and kept checking the window. What can you infer?",
+    "answer": "She is expecting guests",
+    "choices": [
+     "She is expecting guests",
+     "She is alone for the day",
+     "She is going to sleep",
+     "She is moving away"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engStEl",
+  "subject": "english",
+  "title": "Identify story elements",
+  "section": "Story elements",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engStEl3",
+   "engStEl4",
+   "engStEl5"
+  ],
+  "examples": [
+   {
+    "question": "In a story, what is this? a dark forest at midnight",
+    "answer": "Setting",
+    "choices": [
+     "Plot event",
+     "Character",
+     "Setting"
+    ]
+   },
+   {
+    "question": "In a story, what is this? a busy city in the year 3000",
+    "answer": "Setting",
+    "choices": [
+     "Setting",
+     "Character",
+     "Plot event"
+    ]
+   },
+   {
+    "question": "In a story, what is this? a brave girl named Rosa",
+    "answer": "Character",
+    "choices": [
+     "Setting",
+     "Character",
+     "Plot event"
+    ]
+   },
+   {
+    "question": "In a story, what is this? Rosa finds a hidden map.",
+    "answer": "Plot event",
+    "choices": [
+     "Plot event",
+     "Setting",
+     "Character"
+    ]
+   },
+   {
+    "question": "In a story, what is this? the grumpy old king",
+    "answer": "Character",
+    "choices": [
+     "Setting",
+     "Character",
+     "Plot event"
+    ]
+   },
+   {
+    "question": "In a story, what is this? a small farm in the summer",
+    "answer": "Setting",
+    "choices": [
+     "Setting",
+     "Character",
+     "Plot event"
+    ]
+   },
+   {
+    "question": "In a story, what is this? a talking owl who gives advice",
+    "answer": "Character",
+    "choices": [
+     "Character",
+     "Setting",
+     "Plot event"
+    ]
+   },
+   {
+    "question": "In a story, what is this? The bridge collapses during the storm.",
+    "answer": "Plot event",
+    "choices": [
+     "Character",
+     "Plot event",
+     "Setting"
+    ]
+   },
+   {
+    "question": "In a story, what is this? The friends finally find the treasure.",
+    "answer": "Plot event",
+    "choices": [
+     "Character",
+     "Plot event",
+     "Setting"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXMyIl",
+  "subject": "english",
+  "title": "Compare mythological illustrations",
+  "section": "Visual elements",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXMyIl3",
+   "engXMyIl4",
+   "engXMyIl5"
+  ],
+  "examples": [
+   {
+    "question": "Illustration A shows Icarus soaring high, his wax wings dripping in the bright sun. Illustration B shows Icarus falling toward the sea as feathers scatter. How are the illustrations different?",
+    "answer": "A shows Icarus flying; B shows him falling",
+    "choices": [
+     "A shows the sea; B shows a forest",
+     "Both show him flying",
+     "A shows Icarus flying; B shows him falling",
+     "Both show him falling"
+    ]
+   },
+   {
+    "question": "Illustration A shows Pandora smiling as she lifts the lid of a box. Illustration B shows dark, winged creatures flying out while Pandora covers her face. What does Illustration B show that A does not?",
+    "answer": "The troubles escaping from the box",
+    "choices": [
+     "A closed box",
+     "The troubles escaping from the box",
+     "Pandora opening the lid",
+     "Pandora smiling"
+    ]
+   },
+   {
+    "question": "Illustration A shows Pandora opening a jar as dark shapes fly out. Illustration B shows a small light — Hope — left at the bottom of the jar. What do both illustrations include?",
+    "answer": "Pandora's jar",
+    "choices": [
+     "The light of Hope",
+     "Pandora's jar",
+     "A dragon",
+     "Dark shapes"
+    ]
+   },
+   {
+    "question": "Illustration A shows the tortoise plodding steadily along a road. Illustration B shows the hare asleep under a tree while the tortoise passes him. What do both illustrations include?",
+    "answer": "The tortoise",
+    "choices": [
+     "A finish line",
+     "The hare asleep",
+     "A tree",
+     "The tortoise"
+    ]
+   },
+   {
+    "question": "Illustration A shows King Midas joyfully turning a rose to gold. Illustration B shows Midas weeping as his daughter turns to gold in his arms. How does the mood change from A to B?",
+    "answer": "From joyful to sorrowful",
+    "choices": [
+     "From joyful to sorrowful",
+     "From sad to happy",
+     "It stays the same",
+     "From angry to calm"
+    ]
+   },
+   {
+    "question": "Illustration A shows Thor swinging his hammer at giants. Illustration B shows Thor fishing with a giant in a small boat. What do both illustrations show?",
+    "answer": "Thor with giants",
+    "choices": [
+     "Thor with giants",
+     "Thor sleeping",
+     "A battle at sea",
+     "Thor fishing"
+    ]
+   },
+   {
+    "question": "Illustration A shows Sky Woman falling from the sky. Illustration B shows animals placing earth on the back of a great turtle to make land for her. What part of the story does Illustration B show?",
+    "answer": "Animals creating land on the turtle's back",
+    "choices": [
+     "The turtle swimming away",
+     "Animals creating land on the turtle's back",
+     "Sky Woman falling",
+     "A storm"
+    ]
+   },
+   {
+    "question": "Illustration A shows Midas turning a rose to gold and smiling. Illustration B shows Midas crying as his daughter turns to gold. How does Midas feel in each illustration?",
+    "answer": "Happy in A; sad in B",
+    "choices": [
+     "Happy in both",
+     "Happy in A; sad in B",
+     "Sad in both",
+     "Angry in A; happy in B"
+    ]
+   },
+   {
+    "question": "Illustration A shows Persephone picking flowers in a meadow. Illustration B shows her in the dark underworld eating pomegranate seeds. How are the settings different?",
+    "answer": "A is a sunny meadow; B is the dark underworld",
+    "choices": [
+     "A is a castle; B is a forest",
+     "Both are underground",
+     "Both are meadows",
+     "A is a sunny meadow; B is the dark underworld"
+    ]
+   },
+   {
+    "question": "Illustration A shows Raven stealing the Sun from a box. Illustration B shows the Sun shining over the world after Raven releases it. What does Illustration B show?",
+    "answer": "What happens after Raven frees the Sun",
+    "choices": [
+     "Raven sleeping",
+     "The world in darkness",
+     "What happens after Raven frees the Sun",
+     "Raven stealing the box"
+    ]
+   },
+   {
+    "question": "Illustration A shows Icarus flying close to the Sun with wax dripping from his wings. Illustration B shows Icarus's father, Daedalus, warning him before they take off. What part of the myth does Illustration B show?",
+    "answer": "The warning before the flight",
+    "choices": [
+     "The wings melting",
+     "The warning before the flight",
+     "The Sun rising",
+     "Icarus falling into the sea"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpFnI",
+  "subject": "english",
+  "title": "Read fantasy with illustrations",
+  "section": "Literary texts: level 1",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpFnI3",
+   "engTpFnI4",
+   "engTpFnI5"
+  ],
+  "examples": [
+   {
+    "question": "👟✨ The Shrinking Shoes An original passage written for LearnAce 1 Leo bought a pair of red sneakers at a strange little shop with no sign. \"Be careful,\" the shopkeeper warned. \"They grow small when you tell a lie.\" 2 At dinner, Leo's mother asked if he had finished his homework. \"Yes,\" he said — and his toes began to pinch. When his teacher asked who had broken the class pencil sharpener, Leo said, \"Not me,\" and the shoes squeezed so tightly that he hopped in pain. 3 That night Leo told the truth about both. The shoes loosened at once. He kept wearing them for years, and they always fit perfectly. What happened when Leo said \"Not me\"?",
+    "answer": "The shoes squeezed so tightly that he hopped in pain",
+    "choices": [
+     "His teacher believed him",
+     "The shoes grew bigger",
+     "The shoes fell off",
+     "The shoes squeezed so tightly that he hopped in pain"
+    ]
+   },
+   {
+    "question": "🐉🌙 The Dragon Who Was Afraid of the Dark An original passage written for LearnAce 1 Ember was the only dragon in the valley who slept with a candle burning. The other dragons laughed. \"You breathe fire!\" they said. \"How can you be afraid of the dark?\" 2 One night, a storm blew out every torch in the village below. The villagers could not find their way home. Ember was frightened, but she flew down anyway and breathed a gentle flame into each lantern, one by one. By morning, the villagers had made her a crown of candles — and no one laughed again. Why did the other dragons laugh at Ember?",
+    "answer": "She was afraid of the dark even though she could breathe fire",
+    "choices": [
+     "She lived in the village",
+     "She could not fly",
+     "She was afraid of the dark even though she could breathe fire",
+     "She was very small"
+    ]
+   },
+   {
+    "question": "👟✨ The Shrinking Shoes An original passage written for LearnAce 1 Leo bought a pair of red sneakers at a strange little shop with no sign. \"Be careful,\" the shopkeeper warned. \"They grow small when you tell a lie.\" 2 At dinner, Leo's mother asked if he had finished his homework. \"Yes,\" he said — and his toes began to pinch. When his teacher asked who had broken the class pencil sharpener, Leo said, \"Not me,\" and the shoes squeezed so tightly that he hopped in pain. 3 That night Leo told the truth about both. The shoes loosened at once. He kept wearing them for years, and they always fit perfectly. What was special about the shoes?",
+    "answer": "They shrank when Leo told a lie",
+    "choices": [
+     "They shrank when Leo told a lie",
+     "They could talk",
+     "They changed colour",
+     "They made Leo run fast"
+    ]
+   },
+   {
+    "question": "🐉🌙 The Dragon Who Was Afraid of the Dark An original passage written for LearnAce 1 Ember was the only dragon in the valley who slept with a candle burning. The other dragons laughed. \"You breathe fire!\" they said. \"How can you be afraid of the dark?\" 2 One night, a storm blew out every torch in the village below. The villagers could not find their way home. Ember was frightened, but she flew down anyway and breathed a gentle flame into each lantern, one by one. By morning, the villagers had made her a crown of candles — and no one laughed again. What does Ember's choice show about her?",
+    "answer": "She was brave even when she was afraid",
+    "choices": [
+     "She did not care about the villagers",
+     "She wanted a crown",
+     "She was brave even when she was afraid",
+     "She liked storms"
+    ]
+   },
+   {
+    "question": "👟✨ The Shrinking Shoes An original passage written for LearnAce 1 Leo bought a pair of red sneakers at a strange little shop with no sign. \"Be careful,\" the shopkeeper warned. \"They grow small when you tell a lie.\" 2 At dinner, Leo's mother asked if he had finished his homework. \"Yes,\" he said — and his toes began to pinch. When his teacher asked who had broken the class pencil sharpener, Leo said, \"Not me,\" and the shoes squeezed so tightly that he hopped in pain. 3 That night Leo told the truth about both. The shoes loosened at once. He kept wearing them for years, and they always fit perfectly. Why did the shoes always fit perfectly in the end?",
+    "answer": "Leo stopped telling lies",
+    "choices": [
+     "His feet stopped growing",
+     "The magic wore off",
+     "Leo bought bigger shoes",
+     "Leo stopped telling lies"
+    ]
+   },
+   {
+    "question": "🐉🌙 The Dragon Who Was Afraid of the Dark An original passage written for LearnAce 1 Ember was the only dragon in the valley who slept with a candle burning. The other dragons laughed. \"You breathe fire!\" they said. \"How can you be afraid of the dark?\" 2 One night, a storm blew out every torch in the village below. The villagers could not find their way home. Ember was frightened, but she flew down anyway and breathed a gentle flame into each lantern, one by one. By morning, the villagers had made her a crown of candles — and no one laughed again. Which detail shows this story is a fantasy?",
+    "answer": "A dragon lights lanterns with her breath",
+    "choices": [
+     "People make a crown",
+     "Villagers walk home",
+     "A storm blows out torches",
+     "A dragon lights lanterns with her breath"
+    ]
+   },
+   {
+    "question": "🐉🌙 The Dragon Who Was Afraid of the Dark An original passage written for LearnAce 1 Ember was the only dragon in the valley who slept with a candle burning. The other dragons laughed. \"You breathe fire!\" they said. \"How can you be afraid of the dark?\" 2 One night, a storm blew out every torch in the village below. The villagers could not find their way home. Ember was frightened, but she flew down anyway and breathed a gentle flame into each lantern, one by one. By morning, the villagers had made her a crown of candles — and no one laughed again. What problem did the storm cause?",
+    "answer": "It blew out the torches so villagers could not find their way home",
+    "choices": [
+     "It knocked down the dragons' caves",
+     "It scared away the dragons",
+     "It blew out the torches so villagers could not find their way home",
+     "It flooded the valley"
+    ]
+   },
+   {
+    "question": "👟✨ The Shrinking Shoes An original passage written for LearnAce 1 Leo bought a pair of red sneakers at a strange little shop with no sign. \"Be careful,\" the shopkeeper warned. \"They grow small when you tell a lie.\" 2 At dinner, Leo's mother asked if he had finished his homework. \"Yes,\" he said — and his toes began to pinch. When his teacher asked who had broken the class pencil sharpener, Leo said, \"Not me,\" and the shoes squeezed so tightly that he hopped in pain. 3 That night Leo told the truth about both. The shoes loosened at once. He kept wearing them for years, and they always fit perfectly. What is the lesson of the story?",
+    "answer": "Honesty is the best choice",
+    "choices": [
+     "Red shoes are lucky",
+     "Homework is not important",
+     "Honesty is the best choice",
+     "Never shop at strange stores"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpHfI",
+  "subject": "english",
+  "title": "Read historical fiction with illustrations",
+  "section": "Literary texts: level 1",
+  "grades": [
+   3,
+   5
+  ],
+  "skillIds": [
+   "engTpHfI3",
+   "engTpHfI5"
+  ],
+  "examples": [
+   {
+    "question": "⛸️❄️ Ice Skates on the Rideau An original passage written for LearnAce 1 In the winter of 1910, Marie laced up her father's old skates on the frozen Rideau Canal in Ottawa. Her skates were too big, so she stuffed her mother's knitted socks into the toes. 2 Back then, there were no snow-clearing machines on the canal. Families shovelled their own paths across the ice. Marie's brothers cleared a long, winding lane from their house to the market so the family could skate there to buy bread. 3 Today, the Rideau Canal Skateway is cleared by machines and is one of the longest skating rinks in the world. But on cold mornings, Marie's great-granddaughter still stuffs a pair of knitted socks into her skates — just for luck. Why did Marie's brothers clear a path to the market?",
+    "answer": "So the family could skate there to buy bread",
+    "choices": [
+     "To win a race",
+     "To build a rink",
+     "So the family could skate there to buy bread",
+     "To help the city"
+    ]
+   },
+   {
+    "question": "🐎✉️ The Last Run of the Pony Express An original passage written for LearnAce 1 In October 1861, sixteen-year-old Billy galloped across the Nevada desert with a leather pouch of letters strapped to his saddle. Riders like him changed horses every fifteen kilometres so the mail could cross the country in just ten days. 2 At the station, the keeper handed him a cup of water and some news. \"Telegraph lines reached California today,\" he said. \"Messages can cross the country in minutes now.\" 3 Billy looked at the thin wire stretched along the poles. He patted his tired horse. \"Then let's make this last ride a good one,\" he said, and he raced off into the setting sun. What can you infer will happen to the Pony Express?",
+    "answer": "It will no longer be needed",
+    "choices": [
+     "It will deliver more mail than ever",
+     "It will move to California",
+     "It will no longer be needed",
+     "It will get faster horses"
+    ]
+   },
+   {
+    "question": "⛸️❄️ Ice Skates on the Rideau An original passage written for LearnAce 1 In the winter of 1910, Marie laced up her father's old skates on the frozen Rideau Canal in Ottawa. Her skates were too big, so she stuffed her mother's knitted socks into the toes. 2 Back then, there were no snow-clearing machines on the canal. Families shovelled their own paths across the ice. Marie's brothers cleared a long, winding lane from their house to the market so the family could skate there to buy bread. 3 Today, the Rideau Canal Skateway is cleared by machines and is one of the longest skating rinks in the world. But on cold mornings, Marie's great-granddaughter still stuffs a pair of knitted socks into her skates — just for luck. How was skating on the canal different in 1910?",
+    "answer": "Families shovelled their own paths because there were no machines",
+    "choices": [
+     "Families shovelled their own paths because there were no machines",
+     "The canal never froze",
+     "Only adults could skate",
+     "Skating was not allowed"
+    ]
+   },
+   {
+    "question": "🐎✉️ The Last Run of the Pony Express An original passage written for LearnAce 1 In October 1861, sixteen-year-old Billy galloped across the Nevada desert with a leather pouch of letters strapped to his saddle. Riders like him changed horses every fifteen kilometres so the mail could cross the country in just ten days. 2 At the station, the keeper handed him a cup of water and some news. \"Telegraph lines reached California today,\" he said. \"Messages can cross the country in minutes now.\" 3 Billy looked at the thin wire stretched along the poles. He patted his tired horse. \"Then let's make this last ride a good one,\" he said, and he raced off into the setting sun. How did Pony Express riders deliver mail so quickly?",
+    "answer": "They changed horses often and rode day and night",
+    "choices": [
+     "They used boats",
+     "They changed horses often and rode day and night",
+     "They used trains",
+     "They sent letters by telegraph"
+    ]
+   },
+   {
+    "question": "⛸️❄️ Ice Skates on the Rideau An original passage written for LearnAce 1 In the winter of 1910, Marie laced up her father's old skates on the frozen Rideau Canal in Ottawa. Her skates were too big, so she stuffed her mother's knitted socks into the toes. 2 Back then, there were no snow-clearing machines on the canal. Families shovelled their own paths across the ice. Marie's brothers cleared a long, winding lane from their house to the market so the family could skate there to buy bread. 3 Today, the Rideau Canal Skateway is cleared by machines and is one of the longest skating rinks in the world. But on cold mornings, Marie's great-granddaughter still stuffs a pair of knitted socks into her skates — just for luck. Why did Marie stuff socks into her skates?",
+    "answer": "The skates were too big for her",
+    "choices": [
+     "The skates were too big for her",
+     "It was a family rule",
+     "Her skates were broken",
+     "Her feet were cold"
+    ]
+   },
+   {
+    "question": "🐎✉️ The Last Run of the Pony Express An original passage written for LearnAce 1 In October 1861, sixteen-year-old Billy galloped across the Nevada desert with a leather pouch of letters strapped to his saddle. Riders like him changed horses every fifteen kilometres so the mail could cross the country in just ten days. 2 At the station, the keeper handed him a cup of water and some news. \"Telegraph lines reached California today,\" he said. \"Messages can cross the country in minutes now.\" 3 Billy looked at the thin wire stretched along the poles. He patted his tired horse. \"Then let's make this last ride a good one,\" he said, and he raced off into the setting sun. Which detail shows the story is historical fiction?",
+    "answer": "It is set in 1861 and describes real events like the telegraph reaching California",
+    "choices": [
+     "Billy pats his horse",
+     "The sun is setting",
+     "Billy is sixteen years old",
+     "It is set in 1861 and describes real events like the telegraph reaching California"
+    ]
+   },
+   {
+    "question": "🐎✉️ The Last Run of the Pony Express An original passage written for LearnAce 1 In October 1861, sixteen-year-old Billy galloped across the Nevada desert with a leather pouch of letters strapped to his saddle. Riders like him changed horses every fifteen kilometres so the mail could cross the country in just ten days. 2 At the station, the keeper handed him a cup of water and some news. \"Telegraph lines reached California today,\" he said. \"Messages can cross the country in minutes now.\" 3 Billy looked at the thin wire stretched along the poles. He patted his tired horse. \"Then let's make this last ride a good one,\" he said, and he raced off into the setting sun. What news did the station keeper share?",
+    "answer": "The telegraph could now send messages across the country in minutes",
+    "choices": [
+     "A storm was coming",
+     "Billy had won a prize",
+     "The desert was closed",
+     "The telegraph could now send messages across the country in minutes"
+    ]
+   },
+   {
+    "question": "⛸️❄️ Ice Skates on the Rideau An original passage written for LearnAce 1 In the winter of 1910, Marie laced up her father's old skates on the frozen Rideau Canal in Ottawa. Her skates were too big, so she stuffed her mother's knitted socks into the toes. 2 Back then, there were no snow-clearing machines on the canal. Families shovelled their own paths across the ice. Marie's brothers cleared a long, winding lane from their house to the market so the family could skate there to buy bread. 3 Today, the Rideau Canal Skateway is cleared by machines and is one of the longest skating rinks in the world. But on cold mornings, Marie's great-granddaughter still stuffs a pair of knitted socks into her skates — just for luck. What connects the past and present in the story?",
+    "answer": "The family tradition of stuffing knitted socks into skates",
+    "choices": [
+     "The same pair of skates",
+     "The snow-clearing machines",
+     "The family tradition of stuffing knitted socks into skates",
+     "The bakery at the market"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpSfI",
+  "subject": "english",
+  "title": "Read science fiction with illustrations",
+  "section": "Literary texts: level 1",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "engTpSfI3",
+   "engTpSfI4"
+  ],
+  "examples": [
+   {
+    "question": "🤖🐕 Robot Rex An original passage written for LearnAce 1 In the year 2090, Asha's family adopted Rex, a robot dog with silver fur and blue light-up eyes. Rex could fetch, sit and even fold laundry, but he could not wag his tail. His programmers had forgotten. 2 Asha decided to fix that. Every evening, she studied coding on her tablet. After three weeks, she added a single new line to Rex's program: if happy, wag tail. 3 When Asha came home from school the next day, Rex ran to the door. His silver tail swished back and forth so fast it hummed. Asha laughed. \"Now you're a real dog,\" she said. How did Asha solve the problem?",
+    "answer": "She learned to code and added a new line to Rex's program",
+    "choices": [
+     "She asked the programmers",
+     "She bought a new robot",
+     "She glued on a new tail",
+     "She learned to code and added a new line to Rex's program"
+    ]
+   },
+   {
+    "question": "🚀🌱 Garden on Mars An original passage written for LearnAce 1 Commander Yuki checked the greenhouse dome for the tenth time that day. Outside, the red Martian dust swirled. Inside, under special purple lights, sixty tiny lettuce plants were growing. 2 Earth was 225 million kilometres away. Supply rockets came only once every two years. If the crew wanted fresh food, they had to grow it themselves. 3 One morning, a dust storm blocked the sunlight that powered the lights. Yuki and the crew connected the greenhouse to their backup batteries and kept the plants alive for six days. When the storm cleared, Yuki ate the first fresh salad on Mars. It was the best thing she had ever tasted. Why was the salad \"the best thing she had ever tasted\"?",
+    "answer": "The crew had worked hard to grow it in a difficult place",
+    "choices": [
+     "It came from Earth",
+     "It was her birthday",
+     "The crew had worked hard to grow it in a difficult place",
+     "It was very expensive"
+    ]
+   },
+   {
+    "question": "🤖🐕 Robot Rex An original passage written for LearnAce 1 In the year 2090, Asha's family adopted Rex, a robot dog with silver fur and blue light-up eyes. Rex could fetch, sit and even fold laundry, but he could not wag his tail. His programmers had forgotten. 2 Asha decided to fix that. Every evening, she studied coding on her tablet. After three weeks, she added a single new line to Rex's program: if happy, wag tail. 3 When Asha came home from school the next day, Rex ran to the door. His silver tail swished back and forth so fast it hummed. Asha laughed. \"Now you're a real dog,\" she said. Which detail shows this story is science fiction?",
+    "answer": "It is set in 2090 with a robot dog",
+    "choices": [
+     "It is set in 2090 with a robot dog",
+     "Asha goes to school",
+     "Asha laughs",
+     "Asha studies in the evening"
+    ]
+   },
+   {
+    "question": "🚀🌱 Garden on Mars An original passage written for LearnAce 1 Commander Yuki checked the greenhouse dome for the tenth time that day. Outside, the red Martian dust swirled. Inside, under special purple lights, sixty tiny lettuce plants were growing. 2 Earth was 225 million kilometres away. Supply rockets came only once every two years. If the crew wanted fresh food, they had to grow it themselves. 3 One morning, a dust storm blocked the sunlight that powered the lights. Yuki and the crew connected the greenhouse to their backup batteries and kept the plants alive for six days. When the storm cleared, Yuki ate the first fresh salad on Mars. It was the best thing she had ever tasted. What problem did the dust storm cause?",
+    "answer": "It blocked the sunlight that powered the greenhouse lights",
+    "choices": [
+     "It blocked the sunlight that powered the greenhouse lights",
+     "It broke the dome",
+     "It destroyed the rockets",
+     "It made the crew sick"
+    ]
+   },
+   {
+    "question": "🚀🌱 Garden on Mars An original passage written for LearnAce 1 Commander Yuki checked the greenhouse dome for the tenth time that day. Outside, the red Martian dust swirled. Inside, under special purple lights, sixty tiny lettuce plants were growing. 2 Earth was 225 million kilometres away. Supply rockets came only once every two years. If the crew wanted fresh food, they had to grow it themselves. 3 One morning, a dust storm blocked the sunlight that powered the lights. Yuki and the crew connected the greenhouse to their backup batteries and kept the plants alive for six days. When the storm cleared, Yuki ate the first fresh salad on Mars. It was the best thing she had ever tasted. Why did the crew need to grow their own food?",
+    "answer": "Supply rockets came only once every two years",
+    "choices": [
+     "They did not like Earth food",
+     "Supply rockets came only once every two years",
+     "Lettuce grows better on Mars",
+     "Mars has many farms"
+    ]
+   },
+   {
+    "question": "🤖🐕 Robot Rex An original passage written for LearnAce 1 In the year 2090, Asha's family adopted Rex, a robot dog with silver fur and blue light-up eyes. Rex could fetch, sit and even fold laundry, but he could not wag his tail. His programmers had forgotten. 2 Asha decided to fix that. Every evening, she studied coding on her tablet. After three weeks, she added a single new line to Rex's program: if happy, wag tail. 3 When Asha came home from school the next day, Rex ran to the door. His silver tail swished back and forth so fast it hummed. Asha laughed. \"Now you're a real dog,\" she said. Which word best describes Asha?",
+    "answer": "Determined",
+    "choices": [
+     "Lazy",
+     "Forgetful",
+     "Rude",
+     "Determined"
+    ]
+   },
+   {
+    "question": "🚀🌱 Garden on Mars An original passage written for LearnAce 1 Commander Yuki checked the greenhouse dome for the tenth time that day. Outside, the red Martian dust swirled. Inside, under special purple lights, sixty tiny lettuce plants were growing. 2 Earth was 225 million kilometres away. Supply rockets came only once every two years. If the crew wanted fresh food, they had to grow it themselves. 3 One morning, a dust storm blocked the sunlight that powered the lights. Yuki and the crew connected the greenhouse to their backup batteries and kept the plants alive for six days. When the storm cleared, Yuki ate the first fresh salad on Mars. It was the best thing she had ever tasted. How did the crew save the plants?",
+    "answer": "They used backup batteries",
+    "choices": [
+     "They called Earth for help",
+     "They planted new seeds",
+     "They used backup batteries",
+     "They moved the plants outside"
+    ]
+   },
+   {
+    "question": "🤖🐕 Robot Rex An original passage written for LearnAce 1 In the year 2090, Asha's family adopted Rex, a robot dog with silver fur and blue light-up eyes. Rex could fetch, sit and even fold laundry, but he could not wag his tail. His programmers had forgotten. 2 Asha decided to fix that. Every evening, she studied coding on her tablet. After three weeks, she added a single new line to Rex's program: if happy, wag tail. 3 When Asha came home from school the next day, Rex ran to the door. His silver tail swished back and forth so fast it hummed. Asha laughed. \"Now you're a real dog,\" she said. What could Rex NOT do at the beginning?",
+    "answer": "Wag his tail",
+    "choices": [
+     "Sit",
+     "Wag his tail",
+     "Fetch",
+     "Fold laundry"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpFd",
+  "subject": "english",
+  "title": "Read about food",
+  "section": "Informational texts: level 1",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "engTpFd3"
+  ],
+  "examples": [
+   {
+    "question": "Bread Around the World An original passage written for LearnAce 1 Almost every culture in the world has its own kind of bread. In India, people cook flat, round chapati on a hot pan. In Mexico, tortillas made from corn have been eaten for thousands of years. In France, long, crusty baguettes are sold fresh every morning. 2 Some breads rise and some stay flat. Breads that rise, like baguettes, contain yeast, a tiny living thing that makes bubbles of gas in the dough. Flatbreads like chapati and tortillas usually contain no yeast at all. What makes some bread rise?",
+    "answer": "Yeast, which makes bubbles of gas",
+    "choices": [
+     "Salt",
+     "A hot pan",
+     "Corn",
+     "Yeast, which makes bubbles of gas"
+    ]
+   },
+   {
+    "question": "The Story of Maple Syrup An original passage written for LearnAce 1 Long before Europeans arrived in North America, Indigenous peoples discovered that the sap of maple trees could be boiled into a sweet syrup. Today, Canada produces about three-quarters of the world's maple syrup. 2 Each spring, when days are warm and nights are still freezing, sap begins to flow inside maple trees. Farmers drill small holes and collect the clear, watery sap in buckets or tubes. 3 The sap is then boiled for hours until most of the water evaporates. It takes about forty litres of sap to make just one litre of syrup! When does sap begin to flow?",
+    "answer": "In spring, when days are warm and nights are freezing",
+    "choices": [
+     "Only during snowstorms",
+     "In the middle of summer",
+     "In spring, when days are warm and nights are freezing",
+     "In late fall"
+    ]
+   },
+   {
+    "question": "Bread Around the World An original passage written for LearnAce 1 Almost every culture in the world has its own kind of bread. In India, people cook flat, round chapati on a hot pan. In Mexico, tortillas made from corn have been eaten for thousands of years. In France, long, crusty baguettes are sold fresh every morning. 2 Some breads rise and some stay flat. Breads that rise, like baguettes, contain yeast, a tiny living thing that makes bubbles of gas in the dough. Flatbreads like chapati and tortillas usually contain no yeast at all. What is the main idea of paragraph 1?",
+    "answer": "Many cultures have their own kind of bread",
+    "choices": [
+     "French bread is the best",
+     "Bread is only eaten in the morning",
+     "Many cultures have their own kind of bread",
+     "Tortillas are made of wheat"
+    ]
+   },
+   {
+    "question": "The Story of Maple Syrup An original passage written for LearnAce 1 Long before Europeans arrived in North America, Indigenous peoples discovered that the sap of maple trees could be boiled into a sweet syrup. Today, Canada produces about three-quarters of the world's maple syrup. 2 Each spring, when days are warm and nights are still freezing, sap begins to flow inside maple trees. Farmers drill small holes and collect the clear, watery sap in buckets or tubes. 3 The sap is then boiled for hours until most of the water evaporates. It takes about forty litres of sap to make just one litre of syrup! Why must sap be boiled for hours?",
+    "answer": "To evaporate most of the water",
+    "choices": [
+     "To freeze it",
+     "To change its colour to green",
+     "To evaporate most of the water",
+     "To kill insects"
+    ]
+   },
+   {
+    "question": "The Story of Maple Syrup An original passage written for LearnAce 1 Long before Europeans arrived in North America, Indigenous peoples discovered that the sap of maple trees could be boiled into a sweet syrup. Today, Canada produces about three-quarters of the world's maple syrup. 2 Each spring, when days are warm and nights are still freezing, sap begins to flow inside maple trees. Farmers drill small holes and collect the clear, watery sap in buckets or tubes. 3 The sap is then boiled for hours until most of the water evaporates. It takes about forty litres of sap to make just one litre of syrup! Who first discovered how to make maple syrup?",
+    "answer": "Indigenous peoples of North America",
+    "choices": [
+     "Indigenous peoples of North America",
+     "Scientists",
+     "European settlers",
+     "Canadian farmers in 2000"
+    ]
+   },
+   {
+    "question": "Bread Around the World An original passage written for LearnAce 1 Almost every culture in the world has its own kind of bread. In India, people cook flat, round chapati on a hot pan. In Mexico, tortillas made from corn have been eaten for thousands of years. In France, long, crusty baguettes are sold fresh every morning. 2 Some breads rise and some stay flat. Breads that rise, like baguettes, contain yeast, a tiny living thing that makes bubbles of gas in the dough. Flatbreads like chapati and tortillas usually contain no yeast at all. How is paragraph 2 organized?",
+    "answer": "It contrasts breads that rise with flatbreads",
+    "choices": [
+     "It describes one person",
+     "It tells events in order",
+     "It lists steps in a recipe",
+     "It contrasts breads that rise with flatbreads"
+    ]
+   },
+   {
+    "question": "The Story of Maple Syrup An original passage written for LearnAce 1 Long before Europeans arrived in North America, Indigenous peoples discovered that the sap of maple trees could be boiled into a sweet syrup. Today, Canada produces about three-quarters of the world's maple syrup. 2 Each spring, when days are warm and nights are still freezing, sap begins to flow inside maple trees. Farmers drill small holes and collect the clear, watery sap in buckets or tubes. 3 The sap is then boiled for hours until most of the water evaporates. It takes about forty litres of sap to make just one litre of syrup! Which detail shows that making syrup takes a lot of sap?",
+    "answer": "Forty litres of sap make one litre of syrup",
+    "choices": [
+     "Sap is clear",
+     "Canada produces most syrup",
+     "Forty litres of sap make one litre of syrup",
+     "Farmers use buckets"
+    ]
+   },
+   {
+    "question": "Bread Around the World An original passage written for LearnAce 1 Almost every culture in the world has its own kind of bread. In India, people cook flat, round chapati on a hot pan. In Mexico, tortillas made from corn have been eaten for thousands of years. In France, long, crusty baguettes are sold fresh every morning. 2 Some breads rise and some stay flat. Breads that rise, like baguettes, contain yeast, a tiny living thing that makes bubbles of gas in the dough. Flatbreads like chapati and tortillas usually contain no yeast at all. Which bread is made from corn?",
+    "answer": "Tortillas",
+    "choices": [
+     "Chapati",
+     "Baguettes",
+     "Tortillas",
+     "Sourdough"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpSp",
+  "subject": "english",
+  "title": "Read about sports and hobbies",
+  "section": "Informational texts: level 1",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpSp3",
+   "engTpSp4",
+   "engTpSp5"
+  ],
+  "examples": [
+   {
+    "question": "The Invention of Basketball An original passage written for LearnAce 1 In 1891, James Naismith, a Canadian teacher working in Massachusetts, needed an indoor game to keep his students active during the cold winter. He nailed two peach baskets to the balcony at each end of the gym. 2 The first game used a soccer ball, and players could not run while holding it. Every time someone scored, a person had to climb a ladder to get the ball out of the basket! Years later, someone cut the bottoms out of the baskets. 3 Today basketball is played by millions of people in more than two hundred countries. Which detail shows that basketball is popular today?",
+    "answer": "It is played in more than two hundred countries",
+    "choices": [
+     "Players could not run",
+     "It was invented in 1891",
+     "It used a soccer ball",
+     "It is played in more than two hundred countries"
+    ]
+   },
+   {
+    "question": "Rock Climbing An original passage written for LearnAce 1 Rock climbers use their hands and feet to climb up steep walls of rock. Many beginners start indoors at climbing gyms, where coloured holds are bolted to the walls. 2 Safety is the most important part of climbing. Climbers wear a harness attached to a strong rope. A partner on the ground, called a belayer, holds the other end of the rope and can stop the climber from falling far. 3 Climbing builds strength, balance and problem-solving skills. Climbers must plan each move, like solving a puzzle made of rock. What is a belayer?",
+    "answer": "A partner who holds the rope to keep the climber safe",
+    "choices": [
+     "A kind of rock",
+     "A partner who holds the rope to keep the climber safe",
+     "A climbing shoe",
+     "A coloured hold"
+    ]
+   },
+   {
+    "question": "The Invention of Basketball An original passage written for LearnAce 1 In 1891, James Naismith, a Canadian teacher working in Massachusetts, needed an indoor game to keep his students active during the cold winter. He nailed two peach baskets to the balcony at each end of the gym. 2 The first game used a soccer ball, and players could not run while holding it. Every time someone scored, a person had to climb a ladder to get the ball out of the basket! Years later, someone cut the bottoms out of the baskets. 3 Today basketball is played by millions of people in more than two hundred countries. Why did Naismith invent basketball?",
+    "answer": "He needed an indoor game for the winter",
+    "choices": [
+     "He wanted to sell baskets",
+     "His students were bored with reading",
+     "He needed an indoor game for the winter",
+     "He was a famous athlete"
+    ]
+   },
+   {
+    "question": "Rock Climbing An original passage written for LearnAce 1 Rock climbers use their hands and feet to climb up steep walls of rock. Many beginners start indoors at climbing gyms, where coloured holds are bolted to the walls. 2 Safety is the most important part of climbing. Climbers wear a harness attached to a strong rope. A partner on the ground, called a belayer, holds the other end of the rope and can stop the climber from falling far. 3 Climbing builds strength, balance and problem-solving skills. Climbers must plan each move, like solving a puzzle made of rock. Where do many beginners start climbing?",
+    "answer": "At indoor climbing gyms",
+    "choices": [
+     "In trees",
+     "At indoor climbing gyms",
+     "On ladders",
+     "On mountains"
+    ]
+   },
+   {
+    "question": "The Invention of Basketball An original passage written for LearnAce 1 In 1891, James Naismith, a Canadian teacher working in Massachusetts, needed an indoor game to keep his students active during the cold winter. He nailed two peach baskets to the balcony at each end of the gym. 2 The first game used a soccer ball, and players could not run while holding it. Every time someone scored, a person had to climb a ladder to get the ball out of the basket! Years later, someone cut the bottoms out of the baskets. 3 Today basketball is played by millions of people in more than two hundred countries. What was used as the first hoops?",
+    "answer": "Peach baskets",
+    "choices": [
+     "Buckets",
+     "Peach baskets",
+     "Boxes",
+     "Metal rings"
+    ]
+   },
+   {
+    "question": "Rock Climbing An original passage written for LearnAce 1 Rock climbers use their hands and feet to climb up steep walls of rock. Many beginners start indoors at climbing gyms, where coloured holds are bolted to the walls. 2 Safety is the most important part of climbing. Climbers wear a harness attached to a strong rope. A partner on the ground, called a belayer, holds the other end of the rope and can stop the climber from falling far. 3 Climbing builds strength, balance and problem-solving skills. Climbers must plan each move, like solving a puzzle made of rock. Why does the author compare climbing to solving a puzzle?",
+    "answer": "Climbers must plan each move carefully",
+    "choices": [
+     "Puzzles are made of rock",
+     "Climbing is easy",
+     "Climbing walls have puzzle pieces",
+     "Climbers must plan each move carefully"
+    ]
+   },
+   {
+    "question": "The Invention of Basketball An original passage written for LearnAce 1 In 1891, James Naismith, a Canadian teacher working in Massachusetts, needed an indoor game to keep his students active during the cold winter. He nailed two peach baskets to the balcony at each end of the gym. 2 The first game used a soccer ball, and players could not run while holding it. Every time someone scored, a person had to climb a ladder to get the ball out of the basket! Years later, someone cut the bottoms out of the baskets. 3 Today basketball is played by millions of people in more than two hundred countries. What problem did the original baskets cause?",
+    "answer": "Someone had to climb a ladder to get the ball out",
+    "choices": [
+     "They broke easily",
+     "Players could not see them",
+     "Someone had to climb a ladder to get the ball out",
+     "The ball was too small"
+    ]
+   },
+   {
+    "question": "Rock Climbing An original passage written for LearnAce 1 Rock climbers use their hands and feet to climb up steep walls of rock. Many beginners start indoors at climbing gyms, where coloured holds are bolted to the walls. 2 Safety is the most important part of climbing. Climbers wear a harness attached to a strong rope. A partner on the ground, called a belayer, holds the other end of the rope and can stop the climber from falling far. 3 Climbing builds strength, balance and problem-solving skills. Climbers must plan each move, like solving a puzzle made of rock. What is the main idea of paragraph 2?",
+    "answer": "Climbers use safety equipment and a partner",
+    "choices": [
+     "Climbing is dangerous and should be avoided",
+     "Climbers use safety equipment and a partner",
+     "Climbing gyms are colourful",
+     "Climbing builds strength"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpPe",
+  "subject": "english",
+  "title": "Read about famous people",
+  "section": "Informational texts: level 2",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpPe3",
+   "engTpPe4",
+   "engTpPe5"
+  ],
+  "examples": [
+   {
+    "question": "Terry Fox An original passage written for LearnAce 1 In 1977, eighteen-year-old Terry Fox learned he had bone cancer, and doctors had to remove part of his right leg. While in the hospital, he saw other young people suffering from cancer and decided to do something to help. 2 In April 1980, wearing an artificial leg, Terry began running across Canada to raise money for cancer research. He called it the Marathon of Hope. He ran about forty-two kilometres — a full marathon — almost every day. 3 After 143 days and more than 5,000 kilometres, the cancer returned, and Terry had to stop. He died the next year. Today, millions of people take part in Terry Fox Runs each September, and they have raised more than 850 million dollars for cancer research. Why did Terry have to stop running?",
+    "answer": "His cancer returned",
+    "choices": [
+     "He hurt his good leg",
+     "He reached the ocean",
+     "He ran out of money",
+     "His cancer returned"
+    ]
+   },
+   {
+    "question": "Viola Desmond An original passage written for LearnAce 1 In 1946, Viola Desmond, a Black businesswoman from Halifax, went to a movie theatre in New Glasgow, Nova Scotia. She sat on the main floor, but the theatre's unfair rules said Black customers had to sit in the balcony. 2 When she refused to move, she was arrested, held overnight in jail and fined. Viola fought the decision in court. She lost, but her bravery inspired others to challenge unfair treatment. 3 In 2010, Nova Scotia officially apologized and pardoned her. In 2018, she became the first Canadian woman to appear alone on a regular Canadian banknote — the ten-dollar bill. What unfair rule did the theatre have?",
+    "answer": "Black customers had to sit in the balcony",
+    "choices": [
+     "Black customers had to sit in the balcony",
+     "No one could sit on the main floor",
+     "Women could not attend",
+     "Tickets were free"
+    ]
+   },
+   {
+    "question": "Terry Fox An original passage written for LearnAce 1 In 1977, eighteen-year-old Terry Fox learned he had bone cancer, and doctors had to remove part of his right leg. While in the hospital, he saw other young people suffering from cancer and decided to do something to help. 2 In April 1980, wearing an artificial leg, Terry began running across Canada to raise money for cancer research. He called it the Marathon of Hope. He ran about forty-two kilometres — a full marathon — almost every day. 3 After 143 days and more than 5,000 kilometres, the cancer returned, and Terry had to stop. He died the next year. Today, millions of people take part in Terry Fox Runs each September, and they have raised more than 850 million dollars for cancer research. What was the Marathon of Hope?",
+    "answer": "His run across Canada",
+    "choices": [
+     "A marathon in one city",
+     "A medicine",
+     "His run across Canada",
+     "A hospital"
+    ]
+   },
+   {
+    "question": "Viola Desmond An original passage written for LearnAce 1 In 1946, Viola Desmond, a Black businesswoman from Halifax, went to a movie theatre in New Glasgow, Nova Scotia. She sat on the main floor, but the theatre's unfair rules said Black customers had to sit in the balcony. 2 When she refused to move, she was arrested, held overnight in jail and fined. Viola fought the decision in court. She lost, but her bravery inspired others to challenge unfair treatment. 3 In 2010, Nova Scotia officially apologized and pardoned her. In 2018, she became the first Canadian woman to appear alone on a regular Canadian banknote — the ten-dollar bill. What happened when Viola refused to move?",
+    "answer": "She was arrested and fined",
+    "choices": [
+     "The movie stopped",
+     "She was given a better seat",
+     "She left quietly",
+     "She was arrested and fined"
+    ]
+   },
+   {
+    "question": "Terry Fox An original passage written for LearnAce 1 In 1977, eighteen-year-old Terry Fox learned he had bone cancer, and doctors had to remove part of his right leg. While in the hospital, he saw other young people suffering from cancer and decided to do something to help. 2 In April 1980, wearing an artificial leg, Terry began running across Canada to raise money for cancer research. He called it the Marathon of Hope. He ran about forty-two kilometres — a full marathon — almost every day. 3 After 143 days and more than 5,000 kilometres, the cancer returned, and Terry had to stop. He died the next year. Today, millions of people take part in Terry Fox Runs each September, and they have raised more than 850 million dollars for cancer research. Why did Terry Fox start his run?",
+    "answer": "To raise money for cancer research",
+    "choices": [
+     "To win a race",
+     "To see Canada",
+     "To become famous",
+     "To raise money for cancer research"
+    ]
+   },
+   {
+    "question": "Viola Desmond An original passage written for LearnAce 1 In 1946, Viola Desmond, a Black businesswoman from Halifax, went to a movie theatre in New Glasgow, Nova Scotia. She sat on the main floor, but the theatre's unfair rules said Black customers had to sit in the balcony. 2 When she refused to move, she was arrested, held overnight in jail and fined. Viola fought the decision in court. She lost, but her bravery inspired others to challenge unfair treatment. 3 In 2010, Nova Scotia officially apologized and pardoned her. In 2018, she became the first Canadian woman to appear alone on a regular Canadian banknote — the ten-dollar bill. How was Viola Desmond honoured in 2018?",
+    "answer": "She appeared on the ten-dollar bill",
+    "choices": [
+     "She received a medal",
+     "She appeared on the ten-dollar bill",
+     "She became premier",
+     "A theatre was named after her"
+    ]
+   },
+   {
+    "question": "Terry Fox An original passage written for LearnAce 1 In 1977, eighteen-year-old Terry Fox learned he had bone cancer, and doctors had to remove part of his right leg. While in the hospital, he saw other young people suffering from cancer and decided to do something to help. 2 In April 1980, wearing an artificial leg, Terry began running across Canada to raise money for cancer research. He called it the Marathon of Hope. He ran about forty-two kilometres — a full marathon — almost every day. 3 After 143 days and more than 5,000 kilometres, the cancer returned, and Terry had to stop. He died the next year. Today, millions of people take part in Terry Fox Runs each September, and they have raised more than 850 million dollars for cancer research. Which detail shows Terry's lasting impact?",
+    "answer": "Terry Fox Runs have raised more than 850 million dollars",
+    "choices": [
+     "Terry Fox Runs have raised more than 850 million dollars",
+     "He wore an artificial leg",
+     "He was eighteen in 1977",
+     "He ran for 143 days"
+    ]
+   },
+   {
+    "question": "Viola Desmond An original passage written for LearnAce 1 In 1946, Viola Desmond, a Black businesswoman from Halifax, went to a movie theatre in New Glasgow, Nova Scotia. She sat on the main floor, but the theatre's unfair rules said Black customers had to sit in the balcony. 2 When she refused to move, she was arrested, held overnight in jail and fined. Viola fought the decision in court. She lost, but her bravery inspired others to challenge unfair treatment. 3 In 2010, Nova Scotia officially apologized and pardoned her. In 2018, she became the first Canadian woman to appear alone on a regular Canadian banknote — the ten-dollar bill. Why is Viola Desmond remembered today?",
+    "answer": "Her courage helped inspire the fight against unfair treatment",
+    "choices": [
+     "She owned a movie theatre",
+     "She won her court case",
+     "Her courage helped inspire the fight against unfair treatment",
+     "She was a famous actor"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpPl",
+  "subject": "english",
+  "title": "Read about famous places",
+  "section": "Informational texts: level 2",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpPl3",
+   "engTpPl4",
+   "engTpPl5"
+  ],
+  "examples": [
+   {
+    "question": "Niagara Falls An original passage written for LearnAce 1 Niagara Falls is made up of three waterfalls on the border between Ontario and New York State. The largest, the Horseshoe Falls, is named for its curved shape. 2 Every second, more than two million litres of water pour over the falls. The rushing water is also used to make electricity at nearby power stations, providing power for millions of homes. 3 Visitors can ride boats right up to the base of the falls, where the mist is so thick that everyone wears a rain poncho. Why do boat visitors wear rain ponchos?",
+    "answer": "The mist at the base of the falls is very thick",
+    "choices": [
+     "The mist at the base of the falls is very thick",
+     "It is a costume",
+     "It always rains there",
+     "The boats leak"
+    ]
+   },
+   {
+    "question": "Machu Picchu An original passage written for LearnAce 1 High in the Andes Mountains of Peru sits Machu Picchu, a city built by the Inca people more than five hundred years ago. It is about 2,400 metres above sea level. 2 The Inca built Machu Picchu without iron tools or wheels. They cut stones so precisely that they fit together without mortar — not even a knife blade can slide between some of them. Terraces cut into the steep slopes allowed farmers to grow crops and prevented landslides. 3 The city was hidden from much of the world until 1911. Today it is one of the most visited ancient sites on Earth. What were the terraces used for?",
+    "answer": "Growing crops and preventing landslides",
+    "choices": [
+     "Growing crops and preventing landslides",
+     "Storing water",
+     "Climbing the mountain",
+     "Building houses"
+    ]
+   },
+   {
+    "question": "Niagara Falls An original passage written for LearnAce 1 Niagara Falls is made up of three waterfalls on the border between Ontario and New York State. The largest, the Horseshoe Falls, is named for its curved shape. 2 Every second, more than two million litres of water pour over the falls. The rushing water is also used to make electricity at nearby power stations, providing power for millions of homes. 3 Visitors can ride boats right up to the base of the falls, where the mist is so thick that everyone wears a rain poncho. Where is Niagara Falls located?",
+    "answer": "On the border between Ontario and New York State",
+    "choices": [
+     "In the Rocky Mountains",
+     "On the border between Ontario and New York State",
+     "In British Columbia",
+     "In Quebec City"
+    ]
+   },
+   {
+    "question": "Niagara Falls An original passage written for LearnAce 1 Niagara Falls is made up of three waterfalls on the border between Ontario and New York State. The largest, the Horseshoe Falls, is named for its curved shape. 2 Every second, more than two million litres of water pour over the falls. The rushing water is also used to make electricity at nearby power stations, providing power for millions of homes. 3 Visitors can ride boats right up to the base of the falls, where the mist is so thick that everyone wears a rain poncho. How did the Horseshoe Falls get its name?",
+    "answer": "From its curved shape",
+    "choices": [
+     "From a nearby town",
+     "From a famous horse",
+     "From its curved shape",
+     "From its colour"
+    ]
+   },
+   {
+    "question": "Machu Picchu An original passage written for LearnAce 1 High in the Andes Mountains of Peru sits Machu Picchu, a city built by the Inca people more than five hundred years ago. It is about 2,400 metres above sea level. 2 The Inca built Machu Picchu without iron tools or wheels. They cut stones so precisely that they fit together without mortar — not even a knife blade can slide between some of them. Terraces cut into the steep slopes allowed farmers to grow crops and prevented landslides. 3 The city was hidden from much of the world until 1911. Today it is one of the most visited ancient sites on Earth. Who built Machu Picchu?",
+    "answer": "The Inca people",
+    "choices": [
+     "The Inca people",
+     "Spanish explorers",
+     "The Romans",
+     "Modern engineers"
+    ]
+   },
+   {
+    "question": "Machu Picchu An original passage written for LearnAce 1 High in the Andes Mountains of Peru sits Machu Picchu, a city built by the Inca people more than five hundred years ago. It is about 2,400 metres above sea level. 2 The Inca built Machu Picchu without iron tools or wheels. They cut stones so precisely that they fit together without mortar — not even a knife blade can slide between some of them. Terraces cut into the steep slopes allowed farmers to grow crops and prevented landslides. 3 The city was hidden from much of the world until 1911. Today it is one of the most visited ancient sites on Earth. As used in paragraph 2, \"precisely\" means …",
+    "answer": "exactly",
+    "choices": [
+     "quickly",
+     "loudly",
+     "exactly",
+     "roughly"
+    ]
+   },
+   {
+    "question": "Niagara Falls An original passage written for LearnAce 1 Niagara Falls is made up of three waterfalls on the border between Ontario and New York State. The largest, the Horseshoe Falls, is named for its curved shape. 2 Every second, more than two million litres of water pour over the falls. The rushing water is also used to make electricity at nearby power stations, providing power for millions of homes. 3 Visitors can ride boats right up to the base of the falls, where the mist is so thick that everyone wears a rain poncho. What is one way people use the water of Niagara Falls?",
+    "answer": "To make electricity",
+    "choices": [
+     "To make electricity",
+     "To water farms",
+     "To fill swimming pools",
+     "To make ice"
+    ]
+   },
+   {
+    "question": "Machu Picchu An original passage written for LearnAce 1 High in the Andes Mountains of Peru sits Machu Picchu, a city built by the Inca people more than five hundred years ago. It is about 2,400 metres above sea level. 2 The Inca built Machu Picchu without iron tools or wheels. They cut stones so precisely that they fit together without mortar — not even a knife blade can slide between some of them. Terraces cut into the steep slopes allowed farmers to grow crops and prevented landslides. 3 The city was hidden from much of the world until 1911. Today it is one of the most visited ancient sites on Earth. Which detail shows the Inca were skilled builders?",
+    "answer": "Stones fit so tightly that a knife blade cannot slide between them",
+    "choices": [
+     "The city is in Peru",
+     "It is visited by many people",
+     "Stones fit so tightly that a knife blade cannot slide between them",
+     "It was hidden until 1911"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpBu",
+  "subject": "english",
+  "title": "Read about business and technology",
+  "section": "Informational texts: level 2",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpBu3",
+   "engTpBu4",
+   "engTpBu5"
+  ],
+  "examples": [
+   {
+    "question": "How a Smartphone Is Made An original passage written for LearnAce 1 A single smartphone contains parts from many countries. The glass screen may be made in one country, the computer chips in another and the battery in a third. 2 Inside are tiny amounts of more than sixty different materials, including gold, copper and rare metals mined from the ground. Engineers design the phone, factories assemble it, and ships and planes carry it around the world. 3 Because phones contain valuable materials, recycling old phones is important. Recycling recovers metals so they can be used again instead of being mined. How is paragraph 2 mainly organized?",
+    "answer": "It describes the steps from materials to finished phone",
+    "choices": [
+     "It describes the steps from materials to finished phone",
+     "It argues for a new law",
+     "It tells a personal story",
+     "It compares two phones"
+    ]
+   },
+   {
+    "question": "The Community Garden Market An original passage written for LearnAce 1 The students of Maple Street School grow vegetables in their schoolyard garden. Every Friday in the fall, they run a small market to sell what they harvest. 2 The students track their costs, such as seeds and soil, and their sales. Last year they spent $150 and earned $420. Their profit — the money left after paying costs — was $270. 3 The class voted to use the profit to buy more seeds and to donate fresh vegetables to the local food bank. How did the students calculate a profit of $270?",
+    "answer": "They subtracted $150 in costs from $420 in sales",
+    "choices": [
+     "They counted vegetables",
+     "They added $150 and $420",
+     "They subtracted $150 in costs from $420 in sales",
+     "They doubled their costs"
+    ]
+   },
+   {
+    "question": "How a Smartphone Is Made An original passage written for LearnAce 1 A single smartphone contains parts from many countries. The glass screen may be made in one country, the computer chips in another and the battery in a third. 2 Inside are tiny amounts of more than sixty different materials, including gold, copper and rare metals mined from the ground. Engineers design the phone, factories assemble it, and ships and planes carry it around the world. 3 Because phones contain valuable materials, recycling old phones is important. Recycling recovers metals so they can be used again instead of being mined. Which materials are found in smartphones?",
+    "answer": "Gold, copper and rare metals",
+    "choices": [
+     "Cotton and wool",
+     "Wood and paper",
+     "Gold, copper and rare metals",
+     "Sand only"
+    ]
+   },
+   {
+    "question": "The Community Garden Market An original passage written for LearnAce 1 The students of Maple Street School grow vegetables in their schoolyard garden. Every Friday in the fall, they run a small market to sell what they harvest. 2 The students track their costs, such as seeds and soil, and their sales. Last year they spent $150 and earned $420. Their profit — the money left after paying costs — was $270. 3 The class voted to use the profit to buy more seeds and to donate fresh vegetables to the local food bank. What is profit?",
+    "answer": "Money left after paying costs",
+    "choices": [
+     "Money donated",
+     "The cost of seeds",
+     "All the money earned",
+     "Money left after paying costs"
+    ]
+   },
+   {
+    "question": "The Community Garden Market An original passage written for LearnAce 1 The students of Maple Street School grow vegetables in their schoolyard garden. Every Friday in the fall, they run a small market to sell what they harvest. 2 The students track their costs, such as seeds and soil, and their sales. Last year they spent $150 and earned $420. Their profit — the money left after paying costs — was $270. 3 The class voted to use the profit to buy more seeds and to donate fresh vegetables to the local food bank. What do the students sell?",
+    "answer": "Vegetables from their school garden",
+    "choices": [
+     "Baked goods",
+     "Books",
+     "Vegetables from their school garden",
+     "Toys"
+    ]
+   },
+   {
+    "question": "How a Smartphone Is Made An original passage written for LearnAce 1 A single smartphone contains parts from many countries. The glass screen may be made in one country, the computer chips in another and the battery in a third. 2 Inside are tiny amounts of more than sixty different materials, including gold, copper and rare metals mined from the ground. Engineers design the phone, factories assemble it, and ships and planes carry it around the world. 3 Because phones contain valuable materials, recycling old phones is important. Recycling recovers metals so they can be used again instead of being mined. Why is recycling old phones important?",
+    "answer": "It recovers valuable metals so they can be reused",
+    "choices": [
+     "It makes phones cheaper to call",
+     "It recovers valuable metals so they can be reused",
+     "It makes phones faster",
+     "It is required by law everywhere"
+    ]
+   },
+   {
+    "question": "The Community Garden Market An original passage written for LearnAce 1 The students of Maple Street School grow vegetables in their schoolyard garden. Every Friday in the fall, they run a small market to sell what they harvest. 2 The students track their costs, such as seeds and soil, and their sales. Last year they spent $150 and earned $420. Their profit — the money left after paying costs — was $270. 3 The class voted to use the profit to buy more seeds and to donate fresh vegetables to the local food bank. How did the class decide to use the profit?",
+    "answer": "To buy more seeds and donate vegetables",
+    "choices": [
+     "To buy a computer",
+     "To pay the teacher",
+     "To buy more seeds and donate vegetables",
+     "To take a trip"
+    ]
+   },
+   {
+    "question": "How a Smartphone Is Made An original passage written for LearnAce 1 A single smartphone contains parts from many countries. The glass screen may be made in one country, the computer chips in another and the battery in a third. 2 Inside are tiny amounts of more than sixty different materials, including gold, copper and rare metals mined from the ground. Engineers design the phone, factories assemble it, and ships and planes carry it around the world. 3 Because phones contain valuable materials, recycling old phones is important. Recycling recovers metals so they can be used again instead of being mined. What is the main idea of paragraph 1?",
+    "answer": "Smartphone parts come from many countries",
+    "choices": [
+     "Glass screens break easily",
+     "Batteries are dangerous",
+     "Phones are expensive",
+     "Smartphone parts come from many countries"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engOrgT",
+  "subject": "english",
+  "title": "Organize information by topic",
+  "section": "Organizing writing",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engOrgT3",
+   "engOrgT4",
+   "engOrgT5",
+   "engOrgT6",
+   "engOrgT7",
+   "engOrgT8",
+   "engOrgT9",
+   "engOrgT10",
+   "engOrgT11",
+   "engOrgT12"
+  ],
+  "examples": [
+   {
+    "question": "A report on volcanoes has the sections Causes , Types and Safety . Where does \"Magma rises when tectonic plates move\" belong?",
+    "answer": "Causes",
+    "choices": [
+     "Types",
+     "Safety",
+     "Causes"
+    ]
+   },
+   {
+    "question": "A travel brochure has the sections Food , Sights and Getting around . Where does \"The old castle overlooks the harbour\" belong?",
+    "answer": "Sights",
+    "choices": [
+     "Food",
+     "Getting around",
+     "Sights"
+    ]
+   },
+   {
+    "question": "A travel brochure has the sections Food , Sights and Getting around . Where does \"The subway runs every five minutes\" belong?",
+    "answer": "Getting around",
+    "choices": [
+     "Sights",
+     "Food",
+     "Getting around"
+    ]
+   },
+   {
+    "question": "An essay on exercise has the sections Physical benefits , Mental benefits and Getting started . Under which section does \"Regular exercise lowers stress and improves mood\" belong?",
+    "answer": "Mental benefits",
+    "choices": [
+     "Physical benefits",
+     "Mental benefits",
+     "Getting started"
+    ]
+   },
+   {
+    "question": "A report on volcanoes has the sections Causes , Types and Safety . Where does \"Shield, cinder cone and composite volcanoes differ in shape\" belong?",
+    "answer": "Types",
+    "choices": [
+     "Causes",
+     "Safety",
+     "Types"
+    ]
+   },
+   {
+    "question": "A report on volcanoes has the sections Causes , Types and Safety . Where does \"Residents should know their evacuation routes\" belong?",
+    "answer": "Safety",
+    "choices": [
+     "Safety",
+     "Types",
+     "Causes"
+    ]
+   },
+   {
+    "question": "An essay on exercise has the sections Physical benefits , Mental benefits and Getting started . Under which section does \"Strengthens the heart and bones\" belong?",
+    "answer": "Physical benefits",
+    "choices": [
+     "Mental benefits",
+     "Physical benefits",
+     "Getting started"
+    ]
+   },
+   {
+    "question": "An essay on exercise has the sections Physical benefits , Mental benefits and Getting started . Under which section does \"Begin with ten-minute walks\" belong?",
+    "answer": "Getting started",
+    "choices": [
+     "Physical benefits",
+     "Getting started",
+     "Mental benefits"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTrBs",
+  "subject": "english",
+  "title": "Choose the best transition",
+  "section": "Linking words",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTrBs3",
+   "engTrBs4",
+   "engTrBs5"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best transition. It was raining. ___, the game was cancelled.",
+    "answer": "As a result",
+    "choices": [
+     "Next",
+     "Also",
+     "For example",
+     "As a result"
+    ]
+   },
+   {
+    "question": "Choose the best transition. Exercise keeps you strong. ___, it helps you sleep.",
+    "answer": "Also",
+    "choices": [
+     "As a result",
+     "Next",
+     "However",
+     "Also"
+    ]
+   },
+   {
+    "question": "Choose the best transition. First, mix the paint. ___, dip your brush.",
+    "answer": "Next",
+    "choices": [
+     "Next",
+     "For example",
+     "However",
+     "As a result"
+    ]
+   },
+   {
+    "question": "Choose the best transition. I love fruit. ___, apples and pears are my favourites.",
+    "answer": "For example",
+    "choices": [
+     "However",
+     "For example",
+     "Next",
+     "As a result"
+    ]
+   },
+   {
+    "question": "Choose the best transition. Dogs need walks. ___, cats can use a litter box.",
+    "answer": "On the other hand",
+    "choices": [
+     "For example",
+     "However",
+     "On the other hand",
+     "Next"
+    ]
+   },
+   {
+    "question": "Choose the best transition. Cats are cuddly. ___, they can be independent.",
+    "answer": "However",
+    "choices": [
+     "Also",
+     "For example",
+     "However",
+     "Next"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engOpSt",
+  "subject": "english",
+  "title": "Identify an author's statement of opinion",
+  "section": "Opinion writing",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engOpSt3",
+   "engOpSt4",
+   "engOpSt5"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence states an opinion?",
+    "answer": "Homework on weekends is unfair.",
+    "choices": [
+     "Homework on weekends is unfair.",
+     "Homework can take an hour.",
+     "Some teachers give weekend homework.",
+     "Weekends are Saturday and Sunday."
+    ]
+   },
+   {
+    "question": "Which sentence states an opinion?",
+    "answer": "Summer is the best season of the year.",
+    "choices": [
+     "Summer comes after spring.",
+     "Summer is the best season of the year.",
+     "Many schools close in summer.",
+     "Days are longer in summer."
+    ]
+   },
+   {
+    "question": "Which sentence states an opinion?",
+    "answer": "Spiders are the creepiest animals.",
+    "choices": [
+     "Spiders are the creepiest animals.",
+     "Spiders have eight legs.",
+     "Spiders eat insects.",
+     "Many spiders spin webs."
+    ]
+   },
+   {
+    "question": "Which sentence states an opinion?",
+    "answer": "Everyone should try painting.",
+    "choices": [
+     "Paint can be mixed to make new colours.",
+     "Everyone should try painting.",
+     "Some paints are water-based.",
+     "Brushes come in many sizes."
+    ]
+   },
+   {
+    "question": "Which sentence states an opinion?",
+    "answer": "Our town has the prettiest park in the country.",
+    "choices": [
+     "The park was built in 1950.",
+     "The park opens at 7 a.m.",
+     "Our town has the prettiest park in the country.",
+     "The park has a pond."
+    ]
+   },
+   {
+    "question": "Which sentence states an opinion?",
+    "answer": "Pizza is the most delicious food ever made.",
+    "choices": [
+     "Pizza was first made in Italy.",
+     "Pizza is baked in an oven.",
+     "Pizza often has cheese on it.",
+     "Pizza is the most delicious food ever made."
+    ]
+   },
+   {
+    "question": "Which sentence states an opinion?",
+    "answer": "Soccer is more fun than basketball.",
+    "choices": [
+     "Soccer is more fun than basketball.",
+     "A soccer team has eleven players.",
+     "Both sports use a ball.",
+     "Basketball uses a hoop."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engOpRs",
+  "subject": "english",
+  "title": "Choose reasons to support an opinion",
+  "section": "Opinion writing",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engOpRs3",
+   "engOpRs4",
+   "engOpRs5"
+  ],
+  "examples": [
+   {
+    "question": "Opinion: Students should learn to cook. Which reason best supports this opinion?",
+    "answer": "Cooking helps you make healthy meals for yourself.",
+    "choices": [
+     "Some foods are sweet.",
+     "Cooking helps you make healthy meals for yourself.",
+     "Kitchens have ovens."
+    ]
+   },
+   {
+    "question": "Opinion: Dogs are great pets. Which reason best supports this opinion?",
+    "answer": "Dogs are loyal and love to play.",
+    "choices": [
+     "Some dogs are small.",
+     "Dogs are loyal and love to play.",
+     "Dogs have four legs."
+    ]
+   },
+   {
+    "question": "Opinion: Our school should have a longer recess. Which reason best supports this opinion?",
+    "answer": "Playing outside helps students focus in class.",
+    "choices": [
+     "Playing outside helps students focus in class.",
+     "Recess happens at noon.",
+     "Some students like math."
+    ]
+   },
+   {
+    "question": "Opinion: Our town needs a new library. Which reason best supports this opinion?",
+    "answer": "The old library is too small for all the people who use it.",
+    "choices": [
+     "Libraries have books.",
+     "The old library is too small for all the people who use it.",
+     "Our town has a mayor."
+    ]
+   },
+   {
+    "question": "Opinion: Everyone should learn to swim. Which reason best supports this opinion?",
+    "answer": "Swimming can keep you safe near water.",
+    "choices": [
+     "Swimming can keep you safe near water.",
+     "Pools are blue.",
+     "Swimsuits come in many colours."
+    ]
+   },
+   {
+    "question": "Opinion: Kids should eat more vegetables. Which reason best supports this opinion?",
+    "answer": "Vegetables have vitamins that keep you healthy.",
+    "choices": [
+     "Vegetables grow in gardens.",
+     "Carrots are orange.",
+     "Vegetables have vitamins that keep you healthy."
+    ]
+   },
+   {
+    "question": "Opinion: Kids should play outside every day. Which reason best supports this opinion?",
+    "answer": "Fresh air and exercise keep kids healthy.",
+    "choices": [
+     "Fresh air and exercise keep kids healthy.",
+     "The sky is blue.",
+     "Parks have benches."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engShEm",
+  "subject": "english",
+  "title": "Show character emotions and traits",
+  "section": "Descriptive details",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engShEm3",
+   "engShEm4",
+   "engShEm5"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence best shows that Ava is nervous?",
+    "answer": "Ava chewed her pencil and tapped her foot as the test began.",
+    "choices": [
+     "Ava was nervous.",
+     "Ava chewed her pencil and tapped her foot as the test began.",
+     "Ava has a pencil.",
+     "Ava took a test."
+    ]
+   },
+   {
+    "question": "Which sentence best shows that Grandma is tired?",
+    "answer": "Grandma yawned and sank slowly into her armchair.",
+    "choices": [
+     "Grandma was tired.",
+     "Grandma is old.",
+     "Grandma has a chair.",
+     "Grandma yawned and sank slowly into her armchair."
+    ]
+   },
+   {
+    "question": "Which sentence best shows that Omar is proud?",
+    "answer": "Omar held up his trophy and grinned at everyone in the room.",
+    "choices": [
+     "Omar was proud.",
+     "Omar held up his trophy and grinned at everyone in the room.",
+     "Omar is in a room.",
+     "Omar has a trophy."
+    ]
+   },
+   {
+    "question": "Which sentence best shows that Ben is curious?",
+    "answer": "Ben pressed his nose to the glass and asked question after question about the fish.",
+    "choices": [
+     "Ben pressed his nose to the glass and asked question after question about the fish.",
+     "Ben was curious.",
+     "Ben likes fish.",
+     "The tank is glass."
+    ]
+   },
+   {
+    "question": "Which sentence best shows that Zoe is scared?",
+    "answer": "Zoe froze, her heart pounding, as the floorboards creaked behind her.",
+    "choices": [
+     "The floor is wooden.",
+     "Zoe has a house.",
+     "Zoe froze, her heart pounding, as the floorboards creaked behind her.",
+     "Zoe was scared."
+    ]
+   },
+   {
+    "question": "Which sentence best shows that the puppy is excited?",
+    "answer": "The puppy wiggled, yipped and spun in circles by the door.",
+    "choices": [
+     "The puppy has a door.",
+     "The puppy wiggled, yipped and spun in circles by the door.",
+     "The puppy is brown.",
+     "The puppy was excited."
+    ]
+   },
+   {
+    "question": "Which sentence best shows that Leo is generous?",
+    "answer": "Leo split his allowance with his little sister.",
+    "choices": [
+     "Leo gets an allowance.",
+     "Leo has a sister.",
+     "Leo split his allowance with his little sister.",
+     "Leo is generous."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPxLN",
+  "subject": "english",
+  "title": "Determine the meaning of a word with -ly or -ness",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "engPxLN3",
+   "engPxLN4"
+  ],
+  "examples": [
+   {
+    "question": "What does quickly mean?",
+    "answer": "in a quick way",
+    "choices": [
+     "read wrongly",
+     "full of joy",
+     "able to be washed",
+     "in a quick way"
+    ]
+   },
+   {
+    "question": "What does darkness mean?",
+    "answer": "the state of being dark",
+    "choices": [
+     "able to be read",
+     "the act of enjoying",
+     "the state of being dark",
+     "not possible"
+    ]
+   },
+   {
+    "question": "What does softness mean?",
+    "answer": "the state of being soft",
+    "choices": [
+     "the state of being soft",
+     "fill again",
+     "lead wrongly",
+     "full of hope"
+    ]
+   },
+   {
+    "question": "What does sadness mean?",
+    "answer": "the state of being sad",
+    "choices": [
+     "not kind",
+     "the opposite of lock",
+     "the state of being sad",
+     "in a soft way"
+    ]
+   },
+   {
+    "question": "What does kindly mean?",
+    "answer": "in a kind way",
+    "choices": [
+     "without an end",
+     "able to be enjoyed",
+     "in a kind way",
+     "in a brave way"
+    ]
+   },
+   {
+    "question": "What does bravely mean?",
+    "answer": "in a brave way",
+    "choices": [
+     "do again",
+     "full of care",
+     "in a brave way",
+     "heat before"
+    ]
+   },
+   {
+    "question": "What does softly mean?",
+    "answer": "in a soft way",
+    "choices": [
+     "in a soft way",
+     "full of help",
+     "view before",
+     "not safe"
+    ]
+   },
+   {
+    "question": "What does kindness mean?",
+    "answer": "the state of being kind",
+    "choices": [
+     "the state of being kind",
+     "test before",
+     "the act of moving",
+     "read wrongly"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPxAM",
+  "subject": "english",
+  "title": "Determine the meaning of a word with -able or -ment",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "engPxAM3",
+   "engPxAM4"
+  ],
+  "examples": [
+   {
+    "question": "What does readable mean?",
+    "answer": "able to be read",
+    "choices": [
+     "test before",
+     "without a spot",
+     "able to be read",
+     "without fear"
+    ]
+   },
+   {
+    "question": "What does agreement mean?",
+    "answer": "the act of agreeing",
+    "choices": [
+     "in a brave way",
+     "in a kind way",
+     "full of joy",
+     "the act of agreeing"
+    ]
+   },
+   {
+    "question": "What does washable mean?",
+    "answer": "able to be washed",
+    "choices": [
+     "without care",
+     "without an end",
+     "able to be washed",
+     "full of joy"
+    ]
+   },
+   {
+    "question": "What does payment mean?",
+    "answer": "the act of paying",
+    "choices": [
+     "the act of paying",
+     "able to be read",
+     "in a soft way",
+     "full of hope"
+    ]
+   },
+   {
+    "question": "What does enjoyment mean?",
+    "answer": "the act of enjoying",
+    "choices": [
+     "without a spot",
+     "the act of enjoying",
+     "without help",
+     "not correct"
+    ]
+   },
+   {
+    "question": "What does breakable mean?",
+    "answer": "able to be broken",
+    "choices": [
+     "without stopping",
+     "full of help",
+     "able to be broken",
+     "in a soft way"
+    ]
+   },
+   {
+    "question": "What does movement mean?",
+    "answer": "the act of moving",
+    "choices": [
+     "without help",
+     "without stopping",
+     "the act of moving",
+     "write again"
+    ]
+   },
+   {
+    "question": "What does enjoyable mean?",
+    "answer": "able to be enjoyed",
+    "choices": [
+     "lead wrongly",
+     "not like",
+     "able to be enjoyed",
+     "in a kind way"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPFX",
+  "subject": "english",
+  "title": "Prefixes",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "engPFX3"
+  ],
+  "examples": [
+   {
+    "question": "What does the word unsafe mean?",
+    "answer": "not safe",
+    "choices": [
+     "not safe",
+     "see before",
+     "pay before",
+     "not like"
+    ]
+   },
+   {
+    "question": "What does the word prepay mean?",
+    "answer": "pay before",
+    "choices": [
+     "do again",
+     "pay before",
+     "see before",
+     "not agree"
+    ]
+   },
+   {
+    "question": "What does the word preview mean?",
+    "answer": "see before",
+    "choices": [
+     "not safe",
+     "see before",
+     "not happy",
+     "not agree"
+    ]
+   },
+   {
+    "question": "What does the word disagree mean?",
+    "answer": "not agree",
+    "choices": [
+     "not happy",
+     "not agree",
+     "do again",
+     "write again"
+    ]
+   },
+   {
+    "question": "What does the word unfair mean?",
+    "answer": "not fair",
+    "choices": [
+     "not fair",
+     "see before",
+     "write again",
+     "not like"
+    ]
+   },
+   {
+    "question": "What does the word dislike mean?",
+    "answer": "not like",
+    "choices": [
+     "not like",
+     "not happy",
+     "not safe",
+     "not agree"
+    ]
+   },
+   {
+    "question": "What does the word misspell mean?",
+    "answer": "spell wrongly",
+    "choices": [
+     "spell wrongly",
+     "do again",
+     "not safe",
+     "pay before"
+    ]
+   },
+   {
+    "question": "What does the word redo mean?",
+    "answer": "do again",
+    "choices": [
+     "not safe",
+     "not like",
+     "spell wrongly",
+     "do again"
+    ]
+   },
+   {
+    "question": "What does the word rewrite mean?",
+    "answer": "write again",
+    "choices": [
+     "write again",
+     "not like",
+     "not happy",
+     "not safe"
+    ]
+   },
+   {
+    "question": "What does the word unhappy mean?",
+    "answer": "not happy",
+    "choices": [
+     "write again",
+     "not happy",
+     "not fair",
+     "not like"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRtCl",
+  "subject": "english",
+  "title": "Use Greek and Latin roots as clues to the meanings of words",
+  "section": "Greek and Latin roots",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRtCl3",
+   "engRtCl4",
+   "engRtCl5",
+   "engRtCl6",
+   "engRtCl7",
+   "engRtCl8",
+   "engRtCl9",
+   "engRtCl10",
+   "engRtCl11",
+   "engRtCl12"
+  ],
+  "examples": [
+   {
+    "question": "The root tract means \"pull\". What does tractor do?",
+    "answer": "pulls heavy loads",
+    "choices": [
+     "lights fields",
+     "pulls heavy loads",
+     "pushes loads",
+     "carries water"
+    ]
+   },
+   {
+    "question": "The root aud means \"hear\". What is an audience ?",
+    "answer": "a group that listens",
+    "choices": [
+     "a stage",
+     "a group that sings",
+     "a speaker",
+     "a group that listens"
+    ]
+   },
+   {
+    "question": "The root chron means \"time\". What does chronological order mean?",
+    "answer": "in order of time",
+    "choices": [
+     "in order of time",
+     "in random order",
+     "in order of size",
+     "in alphabetical order"
+    ]
+   },
+   {
+    "question": "The root rupt means \"break\". What does interrupt most likely mean?",
+    "answer": "break into a conversation",
+    "choices": [
+     "break into a conversation",
+     "walk away",
+     "repeat again",
+     "agree fully"
+    ]
+   },
+   {
+    "question": "The root scrib/script means \"write\". What is a manuscript ?",
+    "answer": "a handwritten document",
+    "choices": [
+     "a spoken speech",
+     "a printed poster",
+     "a handwritten document",
+     "a drawing"
+    ]
+   },
+   {
+    "question": "The root vis means \"see\". What does invisible mean?",
+    "answer": "not able to be seen",
+    "choices": [
+     "not able to be seen",
+     "seen by many",
+     "easy to see",
+     "seen twice"
+    ]
+   },
+   {
+    "question": "The root geo means \"earth\". What does a geologist study?",
+    "answer": "the Earth",
+    "choices": [
+     "the sea only",
+     "the Earth",
+     "the stars",
+     "ancient words"
+    ]
+   },
+   {
+    "question": "The root mal means \"bad\". What does malfunction mean?",
+    "answer": "to work badly",
+    "choices": [
+     "to work well",
+     "to start",
+     "to work badly",
+     "to repair"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engHOM",
+  "subject": "english",
+  "title": "Homophones",
+  "section": "Homophones",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "engHOM3"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word: Can I come ___?",
+    "answer": "too",
+    "choices": [
+     "two",
+     "tew",
+     "too",
+     "to"
+    ]
+   },
+   {
+    "question": "Choose the correct word: I can ___ the bird singing.",
+    "answer": "hear",
+    "choices": [
+     "here",
+     "heer",
+     "hear",
+     "hare"
+    ]
+   },
+   {
+    "question": "Choose the correct word: We walked ___ the store.",
+    "answer": "to",
+    "choices": [
+     "to",
+     "too",
+     "two",
+     "tu"
+    ]
+   },
+   {
+    "question": "Choose the correct word: Come over ___!",
+    "answer": "here",
+    "choices": [
+     "heer",
+     "hair",
+     "hear",
+     "here"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The kids lost ___ toys.",
+    "answer": "their",
+    "choices": [
+     "they're",
+     "there",
+     "thier",
+     "their"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The ___ is shining today.",
+    "answer": "sun",
+    "choices": [
+     "son",
+     "sin",
+     "sun",
+     "sunn"
+    ]
+   },
+   {
+    "question": "Choose the correct word: ___ going to the park. (They are)",
+    "answer": "They're",
+    "choices": [
+     "Thier",
+     "They're",
+     "There",
+     "Their"
+    ]
+   },
+   {
+    "question": "Choose the correct word: I ___ a bird in the tree.",
+    "answer": "saw",
+    "choices": [
+     "sore",
+     "soar",
+     "saw",
+     "sau"
+    ]
+   },
+   {
+    "question": "Choose the correct word: I left my coat over ___.",
+    "answer": "there",
+    "choices": [
+     "thare",
+     "they're",
+     "there",
+     "their"
+    ]
+   },
+   {
+    "question": "Choose the correct word: I have ___ apples. (the number 2)",
+    "answer": "two",
+    "choices": [
+     "tu",
+     "two",
+     "to",
+     "too"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCxSy",
+  "subject": "english",
+  "title": "Determine the meaning of words using synonyms in context",
+  "section": "Context clues",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCxSy3",
+   "engCxSy4",
+   "engCxSy5",
+   "engCxSy6",
+   "engCxSy9",
+   "engCxSy10",
+   "engCxSy11",
+   "engCxSy12"
+  ],
+  "examples": [
+   {
+    "question": "He was a benevolent and kind king. What does the underlined word mean?",
+    "answer": "kind",
+    "choices": [
+     "kind",
+     "difficult",
+     "dry",
+     "honest"
+    ]
+   },
+   {
+    "question": "Her candid , honest answer surprised us. What does the underlined word mean?",
+    "answer": "honest",
+    "choices": [
+     "dry",
+     "kind",
+     "honest",
+     "unbiased"
+    ]
+   },
+   {
+    "question": "The task was arduous , demanding and difficult. What does the underlined word mean?",
+    "answer": "difficult",
+    "choices": [
+     "difficult",
+     "unbiased",
+     "joyful",
+     "careful"
+    ]
+   },
+   {
+    "question": "The explorer was intrepid , or fearless, as he entered the cave. What does the underlined word mean?",
+    "answer": "fearless",
+    "choices": [
+     "unbiased",
+     "careful",
+     "honest",
+     "fearless"
+    ]
+   },
+   {
+    "question": "The judge's impartial , unbiased ruling pleased both sides. What does the underlined word mean?",
+    "answer": "unbiased",
+    "choices": [
+     "difficult",
+     "unbiased",
+     "fearless",
+     "joyful"
+    ]
+   },
+   {
+    "question": "The desert was arid , dry and cracked. What does the underlined word mean?",
+    "answer": "dry",
+    "choices": [
+     "careful",
+     "joyful",
+     "difficult",
+     "dry"
+    ]
+   },
+   {
+    "question": "Mara's meticulous , or careful, notes impressed her teacher. What does the underlined word mean?",
+    "answer": "careful",
+    "choices": [
+     "careful",
+     "joyful",
+     "kind",
+     "difficult"
+    ]
+   },
+   {
+    "question": "The villagers were jubilant , joyful at the news. What does the underlined word mean?",
+    "answer": "joyful",
+    "choices": [
+     "dry",
+     "joyful",
+     "difficult",
+     "careful"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCxMn",
+  "subject": "english",
+  "title": "Use context to identify the meaning of a word",
+  "section": "Context clues",
+  "grades": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engCxMn3",
+   "engCxMn4",
+   "engCxMn5",
+   "engCxMn6"
+  ],
+  "examples": [
+   {
+    "question": "The audience was captivated ; no one moved or whispered. What does the underlined word most likely mean?",
+    "answer": "held spellbound",
+    "choices": [
+     "confused",
+     "annoyed",
+     "bored",
+     "held spellbound"
+    ]
+   },
+   {
+    "question": "After weeks of no rain, the farmers feared the drought would ruin the harvest. What does the underlined word most likely mean?",
+    "answer": "a long period without rain",
+    "choices": [
+     "a heavy storm",
+     "a strong wind",
+     "a pest",
+     "a long period without rain"
+    ]
+   },
+   {
+    "question": "The meagre meal of bread and water barely fed the family. What does the underlined word most likely mean?",
+    "answer": "small in amount",
+    "choices": [
+     "small in amount",
+     "enormous",
+     "delicious",
+     "expensive"
+    ]
+   },
+   {
+    "question": "His apprehension grew as the exam time approached, and his hands shook. What does the underlined word most likely mean?",
+    "answer": "anxiety",
+    "choices": [
+     "anxiety",
+     "excitement",
+     "laughter",
+     "pride"
+    ]
+   },
+   {
+    "question": "The explorers faced treacherous cliffs, any one of which could send them tumbling. What does the underlined word most likely mean?",
+    "answer": "dangerous",
+    "choices": [
+     "colourful",
+     "beautiful",
+     "ancient",
+     "dangerous"
+    ]
+   },
+   {
+    "question": "She spoke so eloquently that the crowd applauded her every sentence. What does the underlined word most likely mean?",
+    "answer": "fluently and persuasively",
+    "choices": [
+     "angrily",
+     "quietly",
+     "nervously",
+     "fluently and persuasively"
+    ]
+   },
+   {
+    "question": "The ship was adrift in the middle of the ocean, with no engine or sail. What does the underlined word most likely mean?",
+    "answer": "floating without direction",
+    "choices": [
+     "racing",
+     "sinking",
+     "docked",
+     "floating without direction"
+    ]
+   },
+   {
+    "question": "The scarce supplies meant each person got only a spoonful. What does the underlined word most likely mean?",
+    "answer": "in short supply",
+    "choices": [
+     "in short supply",
+     "tasty",
+     "plentiful",
+     "fresh"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCsub",
+  "subject": "english",
+  "title": "Identify the complete subject of a sentence",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXCsub3",
+   "engXCsub4"
+  ],
+  "examples": [
+   {
+    "question": "What is the complete subject? My little brother loves trucks.",
+    "answer": "My little brother",
+    "choices": [
+     "My little brother",
+     "My little",
+     "loves trucks.",
+     "little brother"
+    ]
+   },
+   {
+    "question": "What is the complete subject? The old wooden bridge creaked.",
+    "answer": "The old wooden bridge",
+    "choices": [
+     "wooden bridge",
+     "creaked.",
+     "The old",
+     "The old wooden bridge"
+    ]
+   },
+   {
+    "question": "What is the complete subject? All of the students clapped loudly.",
+    "answer": "All of the students",
+    "choices": [
+     "the students",
+     "All of",
+     "All of the students",
+     "clapped loudly."
+    ]
+   },
+   {
+    "question": "What is the complete subject? The tall girl in the red coat waved to us.",
+    "answer": "The tall girl in the red coat",
+    "choices": [
+     "red coat",
+     "The tall girl in the red coat",
+     "waved to us.",
+     "The tall"
+    ]
+   },
+   {
+    "question": "What is the complete subject? A family of ducks crossed the road.",
+    "answer": "A family of ducks",
+    "choices": [
+     "A family",
+     "A family of ducks",
+     "of ducks",
+     "crossed the road."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCprd",
+  "subject": "english",
+  "title": "Identify the complete predicate of a sentence",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXCprd3",
+   "engXCprd4"
+  ],
+  "examples": [
+   {
+    "question": "What is the complete predicate? A family of ducks crossed the busy road.",
+    "answer": "crossed the busy road.",
+    "choices": [
+     "A family of ducks",
+     "crossed",
+     "busy road.",
+     "crossed the busy road."
+    ]
+   },
+   {
+    "question": "What is the complete predicate? The bridge creaked in the wind.",
+    "answer": "creaked in the wind.",
+    "choices": [
+     "creaked",
+     "the wind.",
+     "creaked in the wind.",
+     "The bridge"
+    ]
+   },
+   {
+    "question": "What is the complete predicate? My little brother loves big red trucks.",
+    "answer": "loves big red trucks.",
+    "choices": [
+     "loves big red trucks.",
+     "My little brother",
+     "red trucks.",
+     "loves"
+    ]
+   },
+   {
+    "question": "What is the complete predicate? The students clapped loudly at the end.",
+    "answer": "clapped loudly at the end.",
+    "choices": [
+     "clapped loudly at the end.",
+     "the end.",
+     "clapped",
+     "The students"
+    ]
+   },
+   {
+    "question": "What is the complete predicate? The tall girl waved to us from the bus.",
+    "answer": "waved to us from the bus.",
+    "choices": [
+     "The tall girl",
+     "the bus.",
+     "waved to us from the bus.",
+     "waved"
+    ]
+   }
+  ]
+ }
+]

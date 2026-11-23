@@ -1,0 +1,2464 @@
+[
+ {
+  "key": "sciProEu",
+  "subject": "science",
+  "title": "Compare cell types by their structures",
+  "section": "Cells",
+  "grades": [
+   9,
+   10,
+   11
+  ],
+  "skillIds": [
+   "sciProEu9",
+   "sciProEu10",
+   "sciProEu11"
+  ],
+  "examples": [
+   {
+    "question": "Is this describing a prokaryotic or eukaryotic cell? Plants, animals and fungi are made of this cell type.",
+    "answer": "Eukaryotic",
+    "choices": [
+     "Prokaryotic",
+     "Eukaryotic"
+    ]
+   },
+   {
+    "question": "Is this describing a prokaryotic or eukaryotic cell? It is usually very small and simple.",
+    "answer": "Prokaryotic",
+    "choices": [
+     "Prokaryotic",
+     "Eukaryotic"
+    ]
+   },
+   {
+    "question": "Is this describing a prokaryotic or eukaryotic cell? It has a nucleus.",
+    "answer": "Eukaryotic",
+    "choices": [
+     "Eukaryotic",
+     "Prokaryotic"
+    ]
+   },
+   {
+    "question": "Is this describing a prokaryotic or eukaryotic cell? It is usually larger and more complex.",
+    "answer": "Eukaryotic",
+    "choices": [
+     "Eukaryotic",
+     "Prokaryotic"
+    ]
+   },
+   {
+    "question": "Is this describing a prokaryotic or eukaryotic cell? It has no nucleus.",
+    "answer": "Prokaryotic",
+    "choices": [
+     "Prokaryotic",
+     "Eukaryotic"
+    ]
+   },
+   {
+    "question": "Is this describing a prokaryotic or eukaryotic cell? Its DNA floats in the cytoplasm.",
+    "answer": "Prokaryotic",
+    "choices": [
+     "Prokaryotic",
+     "Eukaryotic"
+    ]
+   },
+   {
+    "question": "Is this describing a prokaryotic or eukaryotic cell? It has membrane-bound organelles such as mitochondria.",
+    "answer": "Eukaryotic",
+    "choices": [
+     "Eukaryotic",
+     "Prokaryotic"
+    ]
+   },
+   {
+    "question": "Is this describing a prokaryotic or eukaryotic cell? Bacteria are made of this cell type.",
+    "answer": "Prokaryotic",
+    "choices": [
+     "Eukaryotic",
+     "Prokaryotic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciTransp",
+  "subject": "science",
+  "title": "Cellular transport",
+  "section": "Cells",
+  "grades": [
+   9,
+   10,
+   11
+  ],
+  "skillIds": [
+   "sciTransp9",
+   "sciTransp10",
+   "sciTransp11"
+  ],
+  "examples": [
+   {
+    "question": "Diffusion of water across a membrane is …",
+    "answer": "Osmosis",
+    "choices": [
+     "Active transport",
+     "Diffusion",
+     "Osmosis",
+     "Facilitated diffusion"
+    ]
+   },
+   {
+    "question": "A cell placed in salty water loses water. The water moves by …",
+    "answer": "Osmosis",
+    "choices": [
+     "Facilitated diffusion",
+     "Diffusion",
+     "Osmosis",
+     "Active transport"
+    ]
+   },
+   {
+    "question": "Which type of transport needs ATP?",
+    "answer": "Active transport",
+    "choices": [
+     "Diffusion",
+     "Facilitated diffusion",
+     "Osmosis",
+     "Active transport"
+    ]
+   },
+   {
+    "question": "Moving particles from low to high concentration using energy is …",
+    "answer": "Active transport",
+    "choices": [
+     "Diffusion",
+     "Osmosis",
+     "Active transport",
+     "Facilitated diffusion"
+    ]
+   },
+   {
+    "question": "Movement of particles from high to low concentration without energy is …",
+    "answer": "Diffusion",
+    "choices": [
+     "Active transport",
+     "Facilitated diffusion",
+     "Osmosis",
+     "Diffusion"
+    ]
+   },
+   {
+    "question": "Passive transport through a protein channel is called …",
+    "answer": "Facilitated diffusion",
+    "choices": [
+     "Osmosis",
+     "Diffusion",
+     "Facilitated diffusion",
+     "Active transport"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCarbBio",
+  "subject": "science",
+  "title": "The carbon cycle: biosphere processes and interactions",
+  "section": "Earth's cycles",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsCarbBio9",
+   "sciXsCarbBio10"
+  ],
+  "examples": [
+   {
+    "question": "How does planting forests affect the carbon cycle?",
+    "answer": "Trees store carbon in their wood",
+    "choices": [
+     "Trees store carbon in their wood",
+     "They stop photosynthesis",
+     "They release more CO₂",
+     "They have no effect"
+    ]
+   },
+   {
+    "question": "How do decomposers return carbon to the atmosphere?",
+    "answer": "By respiring as they break down dead matter",
+    "choices": [
+     "By photosynthesis",
+     "By respiring as they break down dead matter",
+     "By freezing it",
+     "By eating rocks"
+    ]
+   },
+   {
+    "question": "Why do CO₂ levels rise and fall each year?",
+    "answer": "Plants absorb more CO₂ in summer and less in winter",
+    "choices": [
+     "People breathe more in winter",
+     "The ocean freezes",
+     "Plants absorb more CO₂ in summer and less in winter",
+     "Volcanoes erupt every summer"
+    ]
+   },
+   {
+    "question": "Which organisms move the most carbon out of the atmosphere?",
+    "answer": "Producers like plants and phytoplankton",
+    "choices": [
+     "Carnivores",
+     "Fungi only",
+     "Decomposers",
+     "Producers like plants and phytoplankton"
+    ]
+   },
+   {
+    "question": "How does carbon move from producers to consumers?",
+    "answer": "By eating (feeding)",
+    "choices": [
+     "By eating (feeding)",
+     "By photosynthesis",
+     "By volcanic activity",
+     "By evaporation"
+    ]
+   },
+   {
+    "question": "Which process moves carbon from the atmosphere into living things?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Photosynthesis",
+     "Combustion",
+     "Cellular respiration",
+     "Decomposition"
+    ]
+   },
+   {
+    "question": "What happens to the carbon in a tree that burns in a forest fire?",
+    "answer": "It is released as CO₂",
+    "choices": [
+     "It stays in the ash entirely",
+     "It becomes oxygen",
+     "It is released as CO₂",
+     "It turns into water"
+    ]
+   },
+   {
+    "question": "Decomposers release carbon from dead organisms back into…",
+    "answer": "the atmosphere and soil",
+    "choices": [
+     "the atmosphere and soil",
+     "the Sun",
+     "deep space",
+     "magma only"
+    ]
+   },
+   {
+    "question": "What is the main form of carbon in the atmosphere?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "Diamond",
+     "Carbon dioxide",
+     "Methane only",
+     "Glucose"
+    ]
+   },
+   {
+    "question": "Which process returns carbon to the atmosphere when animals breathe out?",
+    "answer": "Cellular respiration",
+    "choices": [
+     "Photosynthesis",
+     "Cellular respiration",
+     "Sedimentation",
+     "Weathering"
+    ]
+   },
+   {
+    "question": "How does carbon move from a rabbit to a fox?",
+    "answer": "The fox eats the rabbit",
+    "choices": [
+     "Through rain",
+     "Through photosynthesis",
+     "The fox eats the rabbit",
+     "Through the air"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCarbGeo",
+  "subject": "science",
+  "title": "The carbon cycle: geosphere processes and interactions",
+  "section": "Earth's cycles",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsCarbGeo9",
+   "sciXsCarbGeo10"
+  ],
+  "examples": [
+   {
+    "question": "How does subduction move carbon?",
+    "answer": "It carries carbon-rich rocks deep into the mantle",
+    "choices": [
+     "It releases all carbon at once",
+     "It has no effect",
+     "It turns carbon into water",
+     "It carries carbon-rich rocks deep into the mantle"
+    ]
+   },
+   {
+    "question": "How do shell-making sea creatures store carbon?",
+    "answer": "They build calcium carbonate shells that settle on the sea floor",
+    "choices": [
+     "They turn it into oil instantly",
+     "They build calcium carbonate shells that settle on the sea floor",
+     "They exhale it",
+     "They float it to the surface"
+    ]
+   },
+   {
+    "question": "How does weathering of rocks remove CO₂ from the air?",
+    "answer": "CO₂ dissolves in rain and reacts with rock minerals",
+    "choices": [
+     "Rocks burn it",
+     "It doesn't",
+     "Rocks breathe it in",
+     "CO₂ dissolves in rain and reacts with rock minerals"
+    ]
+   },
+   {
+    "question": "How long can carbon stay stored in limestone?",
+    "answer": "Millions of years",
+    "choices": [
+     "Millions of years",
+     "One year",
+     "A few hours",
+     "A few days"
+    ]
+   },
+   {
+    "question": "Which reservoir holds the most carbon on Earth?",
+    "answer": "Rocks (the lithosphere)",
+    "choices": [
+     "Animals",
+     "The atmosphere",
+     "Rocks (the lithosphere)",
+     "Forests"
+    ]
+   },
+   {
+    "question": "Fossil fuels formed from…",
+    "answer": "ancient organisms buried and compressed over millions of years",
+    "choices": [
+     "volcanic lava",
+     "ocean salt",
+     "meteorites",
+     "ancient organisms buried and compressed over millions of years"
+    ]
+   },
+   {
+    "question": "How do humans move geosphere carbon into the atmosphere quickly?",
+    "answer": "By burning fossil fuels",
+    "choices": [
+     "By building dams",
+     "By recycling paper",
+     "By planting forests",
+     "By burning fossil fuels"
+    ]
+   },
+   {
+    "question": "How is carbon stored in limestone?",
+    "answer": "Shells and skeletons of marine organisms build up and form sedimentary rock",
+    "choices": [
+     "Rain carries CO₂ into the mantle",
+     "Plants photosynthesize underground",
+     "Lightning makes rocks",
+     "Shells and skeletons of marine organisms build up and form sedimentary rock"
+    ]
+   },
+   {
+    "question": "Which geosphere process releases carbon into the atmosphere?",
+    "answer": "Volcanic eruptions",
+    "choices": [
+     "Sedimentation",
+     "Fossilization",
+     "Volcanic eruptions",
+     "Photosynthesis"
+    ]
+   },
+   {
+    "question": "How do volcanoes affect atmospheric carbon?",
+    "answer": "They release CO₂ from deep inside Earth",
+    "choices": [
+     "They release CO₂ from deep inside Earth",
+     "They produce only oxygen",
+     "They absorb CO₂",
+     "No effect"
+    ]
+   },
+   {
+    "question": "Why does burning fossil fuels speed up the geosphere part of the carbon cycle?",
+    "answer": "It releases carbon in decades that took millions of years to store",
+    "choices": [
+     "It has no effect",
+     "It releases carbon in decades that took millions of years to store",
+     "It makes new fossil fuels",
+     "It slows the cycle"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSolarObj",
+  "subject": "science",
+  "title": "Identify objects in the solar system",
+  "section": "Astronomy",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciXsSolarObj9"
+  ],
+  "examples": [
+   {
+    "question": "A natural body that orbits a planet is a…",
+    "answer": "moon",
+    "choices": [
+     "comet",
+     "star",
+     "meteor",
+     "moon"
+    ]
+   },
+   {
+    "question": "A rocky body orbiting the Sun, mostly between Mars and Jupiter, is an…",
+    "answer": "asteroid",
+    "choices": [
+     "asteroid",
+     "star",
+     "comet",
+     "galaxy"
+    ]
+   },
+   {
+    "question": "What is the Sun?",
+    "answer": "A star at the centre of the solar system",
+    "choices": [
+     "A planet",
+     "A star at the centre of the solar system",
+     "A moon",
+     "A comet"
+    ]
+   },
+   {
+    "question": "Which planet has the most visible rings?",
+    "answer": "Saturn",
+    "choices": [
+     "Saturn",
+     "Mars",
+     "Mercury",
+     "Venus"
+    ]
+   },
+   {
+    "question": "Which is closest to the Sun?",
+    "answer": "Mercury",
+    "choices": [
+     "Venus",
+     "Mercury",
+     "Earth",
+     "Mars"
+    ]
+   },
+   {
+    "question": "Pluto is classified as a…",
+    "answer": "dwarf planet",
+    "choices": [
+     "planet",
+     "moon",
+     "comet",
+     "dwarf planet"
+    ]
+   },
+   {
+    "question": "A small, icy body that grows a glowing tail near the Sun is a…",
+    "answer": "comet",
+    "choices": [
+     "dwarf planet",
+     "comet",
+     "asteroid",
+     "moon"
+    ]
+   },
+   {
+    "question": "What is a meteor?",
+    "answer": "A streak of light when a space rock burns up in the atmosphere",
+    "choices": [
+     "A star",
+     "A moon",
+     "A streak of light when a space rock burns up in the atmosphere",
+     "A planet"
+    ]
+   },
+   {
+    "question": "What is a meteorite?",
+    "answer": "A space rock that reaches Earth's surface",
+    "choices": [
+     "A dwarf planet",
+     "A burning gas",
+     "A comet tail",
+     "A space rock that reaches Earth's surface"
+    ]
+   },
+   {
+    "question": "Which is the largest planet?",
+    "answer": "Jupiter",
+    "choices": [
+     "Neptune",
+     "Saturn",
+     "Earth",
+     "Jupiter"
+    ]
+   },
+   {
+    "question": "What is the Kuiper Belt?",
+    "answer": "A region of icy bodies beyond Neptune",
+    "choices": [
+     "The asteroid belt",
+     "A region of icy bodies beyond Neptune",
+     "Earth's orbit",
+     "A ring of Saturn"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsStars",
+  "subject": "science",
+  "title": "Properties and classifications of stars",
+  "section": "Astronomy",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciXsStars9"
+  ],
+  "examples": [
+   {
+    "question": "What is a star's luminosity?",
+    "answer": "The total energy it gives off",
+    "choices": [
+     "Its colour only",
+     "Its age",
+     "Its distance",
+     "The total energy it gives off"
+    ]
+   },
+   {
+    "question": "What can a very massive star become after a supernova?",
+    "answer": "A neutron star or black hole",
+    "choices": [
+     "A planet",
+     "A comet",
+     "A neutron star or black hole",
+     "A white dwarf only"
+    ]
+   },
+   {
+    "question": "Which star is cooler: red or blue?",
+    "answer": "Red",
+    "choices": [
+     "They are equal",
+     "Red",
+     "Neither has a temperature",
+     "Blue"
+    ]
+   },
+   {
+    "question": "Which stars are the hottest?",
+    "answer": "Blue stars",
+    "choices": [
+     "Blue stars",
+     "Yellow stars",
+     "Orange stars",
+     "Red stars"
+    ]
+   },
+   {
+    "question": "What determines a star's colour?",
+    "answer": "Its surface temperature",
+    "choices": [
+     "Its surface temperature",
+     "Its age only",
+     "Its distance from Earth",
+     "Its name"
+    ]
+   },
+   {
+    "question": "What will the Sun become at the end of its life?",
+    "answer": "A red giant, then a white dwarf",
+    "choices": [
+     "A red giant, then a white dwarf",
+     "A planet",
+     "A supernova",
+     "A black hole"
+    ]
+   },
+   {
+    "question": "Where do stars form?",
+    "answer": "In nebulae — clouds of gas and dust",
+    "choices": [
+     "In black holes only",
+     "In nebulae — clouds of gas and dust",
+     "Inside planets",
+     "On comets"
+    ]
+   },
+   {
+    "question": "What is a main-sequence star?",
+    "answer": "A star steadily fusing hydrogen in its core",
+    "choices": [
+     "A dying star",
+     "A star steadily fusing hydrogen in its core",
+     "A star made of iron",
+     "A planet"
+    ]
+   },
+   {
+    "question": "What diagram classifies stars by temperature and luminosity?",
+    "answer": "The Hertzsprung–Russell diagram",
+    "choices": [
+     "A Punnett square",
+     "The periodic table",
+     "The rock cycle",
+     "The Hertzsprung–Russell diagram"
+    ]
+   },
+   {
+    "question": "Where is the Sun on the H-R diagram?",
+    "answer": "On the main sequence",
+    "choices": [
+     "Among white dwarfs",
+     "Among supergiants",
+     "On the main sequence",
+     "Off the diagram"
+    ]
+   },
+   {
+    "question": "What powers a star?",
+    "answer": "Nuclear fusion of hydrogen into helium",
+    "choices": [
+     "Burning coal",
+     "Electricity",
+     "Chemical reactions like fire",
+     "Nuclear fusion of hydrogen into helium"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsGravUniv",
+  "subject": "science",
+  "title": "Gravity and its role in the universe",
+  "section": "Astronomy",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "sciXsGravUniv9"
+  ],
+  "examples": [
+   {
+    "question": "Why do astronauts float in the International Space Station?",
+    "answer": "They are in free fall around Earth along with the station",
+    "choices": [
+     "There is no gravity in space",
+     "The station has magnets",
+     "They are in free fall around Earth along with the station",
+     "They are too light"
+    ]
+   },
+   {
+    "question": "Why does the Moon cause tides on Earth?",
+    "answer": "Its gravity pulls on Earth's oceans",
+    "choices": [
+     "Its light heats the water",
+     "Earth's rotation only",
+     "Wind from the Moon",
+     "Its gravity pulls on Earth's oceans"
+    ]
+   },
+   {
+    "question": "What holds the Milky Way together?",
+    "answer": "Gravity",
+    "choices": [
+     "Magnetism",
+     "Friction",
+     "Gravity",
+     "Light"
+    ]
+   },
+   {
+    "question": "What keeps planets in orbit around the Sun?",
+    "answer": "Gravity",
+    "choices": [
+     "Gravity",
+     "Wind",
+     "Friction",
+     "Magnetism"
+    ]
+   },
+   {
+    "question": "Your mass is 50 kg on Earth. What is your mass on the Moon?",
+    "answer": "50 kg",
+    "choices": [
+     "0 kg",
+     "300 kg",
+     "50 kg",
+     "8 kg"
+    ]
+   },
+   {
+    "question": "What role did gravity play in forming stars?",
+    "answer": "It pulled gas and dust together until fusion began",
+    "choices": [
+     "It pushed gas apart",
+     "It pulled gas and dust together until fusion began",
+     "None",
+     "It created light"
+    ]
+   },
+   {
+    "question": "If the distance between two objects doubles, the gravitational force…",
+    "answer": "becomes one-quarter as strong",
+    "choices": [
+     "halves",
+     "becomes one-quarter as strong",
+     "doubles",
+     "stays the same"
+    ]
+   },
+   {
+    "question": "What is a black hole?",
+    "answer": "A region where gravity is so strong that not even light escapes",
+    "choices": [
+     "A hole in space with nothing in it",
+     "A dark planet",
+     "A cold star",
+     "A region where gravity is so strong that not even light escapes"
+    ]
+   },
+   {
+    "question": "What does the law of universal gravitation say?",
+    "answer": "Every mass attracts every other mass",
+    "choices": [
+     "Gravity pushes objects apart",
+     "Gravity only works in space",
+     "Only Earth has gravity",
+     "Every mass attracts every other mass"
+    ]
+   },
+   {
+    "question": "How does gravitational force change as distance between two objects increases?",
+    "answer": "It decreases",
+    "choices": [
+     "It stays the same",
+     "It decreases",
+     "It increases"
+    ]
+   },
+   {
+    "question": "Which has stronger gravity at the surface, Earth or the Moon?",
+    "answer": "Earth",
+    "choices": [
+     "They are equal",
+     "The Moon",
+     "Earth"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMatProp",
+  "subject": "science",
+  "title": "Classify matter using physical and chemical properties",
+  "section": "Properties of matter",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsMatProp10"
+  ],
+  "examples": [
+   {
+    "question": "Is this a physical or chemical property? Density",
+    "answer": "Physical property",
+    "choices": [
+     "Physical property",
+     "Chemical property"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical property? Melting point",
+    "answer": "Physical property",
+    "choices": [
+     "Physical property",
+     "Chemical property"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical property? Boiling point",
+    "answer": "Physical property",
+    "choices": [
+     "Chemical property",
+     "Physical property"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical property? Colour",
+    "answer": "Physical property",
+    "choices": [
+     "Physical property",
+     "Chemical property"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical property? Ability to rust",
+    "answer": "Chemical property",
+    "choices": [
+     "Chemical property",
+     "Physical property"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical property? Toxicity from reacting in the body",
+    "answer": "Chemical property",
+    "choices": [
+     "Chemical property",
+     "Physical property"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical property? Flammability",
+    "answer": "Chemical property",
+    "choices": [
+     "Chemical property",
+     "Physical property"
+    ]
+   },
+   {
+    "question": "Is this a physical or chemical property? Reacts with acid",
+    "answer": "Chemical property",
+    "choices": [
+     "Physical property",
+     "Chemical property"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPerTr",
+  "subject": "science",
+  "title": "Periodic trends",
+  "section": "Atomic structure",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciPerTr10",
+   "sciPerTr11",
+   "sciPerTr12"
+  ],
+  "examples": [
+   {
+    "question": "Which element is the most electronegative?",
+    "answer": "Fluorine",
+    "choices": [
+     "Cesium",
+     "Sodium",
+     "Helium",
+     "Fluorine"
+    ]
+   },
+   {
+    "question": "Which has the higher first ionization energy: Li or F?",
+    "answer": "F",
+    "choices": [
+     "F",
+     "Cannot be compared",
+     "Li",
+     "They are equal"
+    ]
+   },
+   {
+    "question": "Moving down a group, atomic radius generally …",
+    "answer": "increases",
+    "choices": [
+     "increases",
+     "stays the same",
+     "halves",
+     "decreases"
+    ]
+   },
+   {
+    "question": "Moving left to right across a period, ionization energy generally …",
+    "answer": "increases",
+    "choices": [
+     "decreases",
+     "increases",
+     "stays the same",
+     "drops to zero"
+    ]
+   },
+   {
+    "question": "Which has the larger atomic radius: Na or Cl?",
+    "answer": "Na",
+    "choices": [
+     "Cl",
+     "Cannot be compared",
+     "They are equal",
+     "Na"
+    ]
+   },
+   {
+    "question": "Moving left to right across a period, atomic radius generally …",
+    "answer": "decreases",
+    "choices": [
+     "stays the same",
+     "increases",
+     "decreases",
+     "doubles"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciDecay",
+  "subject": "science",
+  "title": "Types of radioactive decay",
+  "section": "Nuclear chemistry",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciDecay10",
+   "sciDecay11",
+   "sciDecay12"
+  ],
+  "examples": [
+   {
+    "question": "Which radiation needs thick lead or concrete to stop it?",
+    "answer": "Gamma rays",
+    "choices": [
+     "Visible light",
+     "Alpha particles",
+     "Gamma rays",
+     "Beta particles"
+    ]
+   },
+   {
+    "question": "Which radiation can be stopped by a sheet of paper?",
+    "answer": "Alpha particles",
+    "choices": [
+     "Alpha particles",
+     "X-rays",
+     "Beta particles",
+     "Gamma rays"
+    ]
+   },
+   {
+    "question": "Which decay releases only high-energy electromagnetic radiation?",
+    "answer": "Gamma decay",
+    "choices": [
+     "Alpha decay",
+     "Positron decay",
+     "Beta decay",
+     "Gamma decay"
+    ]
+   },
+   {
+    "question": "Which decay releases a helium nucleus (2 protons and 2 neutrons)?",
+    "answer": "Alpha decay",
+    "choices": [
+     "Gamma decay",
+     "Alpha decay",
+     "Fusion",
+     "Beta decay"
+    ]
+   },
+   {
+    "question": "In alpha decay, the atomic number …",
+    "answer": "decreases by 2",
+    "choices": [
+     "stays the same",
+     "increases by 1",
+     "decreases by 2",
+     "decreases by 4"
+    ]
+   },
+   {
+    "question": "Which decay turns a neutron into a proton and releases an electron?",
+    "answer": "Beta decay",
+    "choices": [
+     "Fission",
+     "Gamma decay",
+     "Alpha decay",
+     "Beta decay"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsNucRx",
+  "subject": "science",
+  "title": "Classify nuclear reactions",
+  "section": "Nuclear chemistry",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsNucRx10"
+  ],
+  "examples": [
+   {
+    "question": "What type of nuclear reaction is this? Hydrogen nuclei combining in the Sun",
+    "answer": "Fusion",
+    "choices": [
+     "Beta decay",
+     "Fission",
+     "Gamma emission",
+     "Fusion",
+     "Alpha decay"
+    ]
+   },
+   {
+    "question": "What type of nuclear reaction is this? ¹⁴C → ¹⁴N + e⁻",
+    "answer": "Beta decay",
+    "choices": [
+     "Alpha decay",
+     "Beta decay",
+     "Fission",
+     "Gamma emission",
+     "Fusion"
+    ]
+   },
+   {
+    "question": "What type of nuclear reaction is this? ²³⁵U + n → ¹⁴¹Ba + ⁹²Kr + 3n",
+    "answer": "Fission",
+    "choices": [
+     "Gamma emission",
+     "Beta decay",
+     "Fission",
+     "Alpha decay",
+     "Fusion"
+    ]
+   },
+   {
+    "question": "What type of nuclear reaction is this? ²³⁸U → ²³⁴Th + ⁴He",
+    "answer": "Alpha decay",
+    "choices": [
+     "Fusion",
+     "Gamma emission",
+     "Alpha decay",
+     "Beta decay",
+     "Fission"
+    ]
+   },
+   {
+    "question": "What type of nuclear reaction is this? An excited nucleus releases a high-energy photon",
+    "answer": "Gamma emission",
+    "choices": [
+     "Gamma emission",
+     "Alpha decay",
+     "Beta decay",
+     "Fission",
+     "Fusion"
+    ]
+   },
+   {
+    "question": "What type of nuclear reaction is this? ²H + ³H → ⁴He + n",
+    "answer": "Fusion",
+    "choices": [
+     "Alpha decay",
+     "Fission",
+     "Gamma emission",
+     "Fusion",
+     "Beta decay"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsIonE",
+  "subject": "science",
+  "title": "Periodic trends: Ionization energy",
+  "section": "Periodic trends",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsIonE10"
+  ],
+  "examples": [
+   {
+    "question": "Which has the lower first ionization energy: Li or Cs?",
+    "answer": "Cs",
+    "choices": [
+     "They are equal",
+     "Li",
+     "Cs"
+    ]
+   },
+   {
+    "question": "What is ionization energy?",
+    "answer": "The energy needed to remove an electron from an atom",
+    "choices": [
+     "The energy released by fusion",
+     "The mass of an atom",
+     "The energy to melt a metal",
+     "The energy needed to remove an electron from an atom"
+    ]
+   },
+   {
+    "question": "How does ionization energy change down a group?",
+    "answer": "It generally decreases",
+    "choices": [
+     "It generally increases",
+     "It stays the same",
+     "It generally decreases"
+    ]
+   },
+   {
+    "question": "How does ionization energy change across a period (left to right)?",
+    "answer": "It generally increases",
+    "choices": [
+     "It generally decreases",
+     "It generally increases",
+     "It stays the same"
+    ]
+   },
+   {
+    "question": "Which has the higher first ionization energy: Na or Cl?",
+    "answer": "Cl",
+    "choices": [
+     "They are equal",
+     "Na",
+     "Cl"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciBND",
+  "subject": "science",
+  "title": "Ionic and covalent bonds",
+  "section": "Chemical bonding",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciBND10"
+  ],
+  "examples": [
+   {
+    "question": "What type of bonding holds CO₂ together?",
+    "answer": "Covalent",
+    "choices": [
+     "Covalent",
+     "Ionic"
+    ]
+   },
+   {
+    "question": "What type of bonding holds MgO together?",
+    "answer": "Ionic",
+    "choices": [
+     "Ionic",
+     "Covalent"
+    ]
+   },
+   {
+    "question": "What type of bonding holds CH₄ (methane) together?",
+    "answer": "Covalent",
+    "choices": [
+     "Ionic",
+     "Covalent"
+    ]
+   },
+   {
+    "question": "What type of bonding holds NH₃ together?",
+    "answer": "Covalent",
+    "choices": [
+     "Covalent",
+     "Ionic"
+    ]
+   },
+   {
+    "question": "What type of bonding holds H₂O (water) together?",
+    "answer": "Covalent",
+    "choices": [
+     "Ionic",
+     "Covalent"
+    ]
+   },
+   {
+    "question": "What type of bonding holds CaCl₂ together?",
+    "answer": "Ionic",
+    "choices": [
+     "Ionic",
+     "Covalent"
+    ]
+   },
+   {
+    "question": "What type of bonding holds NaCl (table salt) together?",
+    "answer": "Ionic",
+    "choices": [
+     "Ionic",
+     "Covalent"
+    ]
+   },
+   {
+    "question": "What type of bonding holds KBr together?",
+    "answer": "Ionic",
+    "choices": [
+     "Covalent",
+     "Ionic"
+    ]
+   },
+   {
+    "question": "What type of bonding holds O₂ together?",
+    "answer": "Covalent",
+    "choices": [
+     "Ionic",
+     "Covalent"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLewis",
+  "subject": "science",
+  "title": "Identify the Lewis structure of a molecule or ion",
+  "section": "Molecular structure",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsLewis10"
+  ],
+  "examples": [
+   {
+    "question": "What bond is between the two O atoms in O₂?",
+    "answer": "A double bond",
+    "choices": [
+     "A double bond",
+     "A triple bond",
+     "A single bond",
+     "An ionic bond"
+    ]
+   },
+   {
+    "question": "How many bonds does carbon form in CH₄?",
+    "answer": "4 single bonds",
+    "choices": [
+     "4 single bonds",
+     "3 single bonds",
+     "1 triple bond",
+     "2 double bonds"
+    ]
+   },
+   {
+    "question": "How many lone pairs are on the oxygen atom in H₂O?",
+    "answer": "2",
+    "choices": [
+     "1",
+     "3",
+     "2",
+     "0"
+    ]
+   },
+   {
+    "question": "What bond joins the N atoms in N₂?",
+    "answer": "A triple bond",
+    "choices": [
+     "A single bond",
+     "A double bond",
+     "No bond",
+     "A triple bond"
+    ]
+   },
+   {
+    "question": "How many lone pairs are on N in NH₃?",
+    "answer": "1",
+    "choices": [
+     "3",
+     "0",
+     "2",
+     "1"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCountMod",
+  "subject": "science",
+  "title": "Count atoms in chemical reactions using models",
+  "section": "Balancing chemical equations",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsCountMod10"
+  ],
+  "examples": [
+   {
+    "question": "Why do chemical reaction models show the same atoms on both sides?",
+    "answer": "Atoms are rearranged, not created or destroyed",
+    "choices": [
+     "Atoms multiply",
+     "Atoms are rearranged, not created or destroyed",
+     "Atoms disappear",
+     "Models are wrong"
+    ]
+   },
+   {
+    "question": "A model shows 2 H₂ molecules reacting with 1 O₂ molecule. How many atoms are on the reactant side?",
+    "answer": "6",
+    "choices": [
+     "6",
+     "8",
+     "4",
+     "3"
+    ]
+   },
+   {
+    "question": "A reactant model has 4 H atoms and 2 O atoms. What must the product model have?",
+    "answer": "4 H atoms and 2 O atoms",
+    "choices": [
+     "2 H and 4 O",
+     "4 H and 4 O",
+     "Any number",
+     "4 H atoms and 2 O atoms"
+    ]
+   },
+   {
+    "question": "In a model, red balls are oxygen and white are hydrogen. One molecule has 1 red and 2 white. What is it?",
+    "answer": "H₂O",
+    "choices": [
+     "H₂",
+     "H₂O",
+     "O₂",
+     "HO₂"
+    ]
+   },
+   {
+    "question": "A model of CH₄ + 2O₂ shows how many atoms in total?",
+    "answer": "9",
+    "choices": [
+     "7",
+     "5",
+     "9",
+     "6"
+    ]
+   },
+   {
+    "question": "A model shows 1 CH₄ and 2 O₂. How many O atoms are on the reactant side?",
+    "answer": "4",
+    "choices": [
+     "2",
+     "6",
+     "4",
+     "3"
+    ]
+   },
+   {
+    "question": "A model shows 3 water molecules (H₂O). How many hydrogen atoms are there?",
+    "answer": "6",
+    "choices": [
+     "6",
+     "9",
+     "3",
+     "2"
+    ]
+   },
+   {
+    "question": "If reactant and product models have the same number of each atom, the equation is…",
+    "answer": "balanced",
+    "choices": [
+     "nuclear",
+     "incomplete",
+     "unbalanced",
+     "balanced"
+    ]
+   },
+   {
+    "question": "A model of products shows 2 NH₃ molecules. How many H atoms are there?",
+    "answer": "6",
+    "choices": [
+     "3",
+     "2",
+     "6",
+     "8"
+    ]
+   },
+   {
+    "question": "A model shows 2 CO₂ molecules. How many oxygen atoms are there?",
+    "answer": "4",
+    "choices": [
+     "2",
+     "3",
+     "6",
+     "4"
+    ]
+   },
+   {
+    "question": "A model shows 2 NH₃ molecules. How many nitrogen atoms are there?",
+    "answer": "2",
+    "choices": [
+     "1",
+     "6",
+     "2",
+     "3"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBalance",
+  "subject": "science",
+  "title": "Balance chemical equations I",
+  "section": "Balancing chemical equations",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsBalance110",
+   "sciXsBalance210"
+  ],
+  "examples": [
+   {
+    "question": "Balance: _Na + _Cl₂ → _NaCl",
+    "answer": "2, 1, 2",
+    "choices": [
+     "2, 2, 2",
+     "1, 1, 1",
+     "2, 1, 2",
+     "1, 2, 1"
+    ]
+   },
+   {
+    "question": "Balance: _CH₄ + _O₂ → _CO₂ + _H₂O",
+    "answer": "1, 2, 1, 2",
+    "choices": [
+     "2, 1, 2, 1",
+     "1, 2, 1, 2",
+     "1, 1, 1, 1",
+     "1, 3, 1, 2"
+    ]
+   },
+   {
+    "question": "Balance: _Mg + _O₂ → _MgO",
+    "answer": "2, 1, 2",
+    "choices": [
+     "2, 1, 2",
+     "2, 2, 1",
+     "1, 1, 1",
+     "1, 2, 1"
+    ]
+   },
+   {
+    "question": "Balance: _N₂ + _H₂ → _NH₃",
+    "answer": "1, 3, 2",
+    "choices": [
+     "1, 3, 2",
+     "1, 2, 3",
+     "1, 1, 1",
+     "2, 3, 2"
+    ]
+   },
+   {
+    "question": "Balance: _H₂ + _O₂ → _H₂O",
+    "answer": "2, 1, 2",
+    "choices": [
+     "1, 2, 1",
+     "1, 1, 1",
+     "2, 1, 2",
+     "2, 2, 2"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRXN",
+  "subject": "science",
+  "title": "Types of chemical reactions",
+  "section": "Chemical reactions",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciRXN10"
+  ],
+  "examples": [
+   {
+    "question": "What type of reaction is this? CH₄ + 2O₂ → CO₂ + 2H₂O",
+    "answer": "Combustion",
+    "choices": [
+     "Decomposition",
+     "Combustion",
+     "Single replacement",
+     "Synthesis",
+     "Double replacement"
+    ]
+   },
+   {
+    "question": "What type of reaction is this? N₂ + 3H₂ → 2NH₃",
+    "answer": "Synthesis",
+    "choices": [
+     "Double replacement",
+     "Synthesis",
+     "Decomposition",
+     "Single replacement",
+     "Combustion"
+    ]
+   },
+   {
+    "question": "What type of reaction is this? 2H₂ + O₂ → 2H₂O",
+    "answer": "Synthesis",
+    "choices": [
+     "Synthesis",
+     "Decomposition",
+     "Combustion",
+     "Single replacement",
+     "Double replacement"
+    ]
+   },
+   {
+    "question": "What type of reaction is this? C₃H₈ + 5O₂ → 3CO₂ + 4H₂O",
+    "answer": "Combustion",
+    "choices": [
+     "Decomposition",
+     "Single replacement",
+     "Double replacement",
+     "Combustion",
+     "Synthesis"
+    ]
+   },
+   {
+    "question": "What type of reaction is this? Fe + CuSO₄ → FeSO₄ + Cu",
+    "answer": "Single replacement",
+    "choices": [
+     "Synthesis",
+     "Double replacement",
+     "Single replacement",
+     "Decomposition",
+     "Combustion"
+    ]
+   },
+   {
+    "question": "What type of reaction is this? 2KClO₃ → 2KCl + 3O₂",
+    "answer": "Decomposition",
+    "choices": [
+     "Decomposition",
+     "Double replacement",
+     "Single replacement",
+     "Combustion",
+     "Synthesis"
+    ]
+   },
+   {
+    "question": "What type of reaction is this? AgNO₃ + NaCl → AgCl + NaNO₃",
+    "answer": "Double replacement",
+    "choices": [
+     "Synthesis",
+     "Double replacement",
+     "Single replacement",
+     "Combustion",
+     "Decomposition"
+    ]
+   },
+   {
+    "question": "What type of reaction is this? 2H₂O → 2H₂ + O₂",
+    "answer": "Decomposition",
+    "choices": [
+     "Double replacement",
+     "Synthesis",
+     "Combustion",
+     "Decomposition",
+     "Single replacement"
+    ]
+   },
+   {
+    "question": "What type of reaction is this? Zn + 2HCl → ZnCl₂ + H₂",
+    "answer": "Single replacement",
+    "choices": [
+     "Decomposition",
+     "Single replacement",
+     "Double replacement",
+     "Combustion",
+     "Synthesis"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciBalance",
+  "subject": "science",
+  "title": "Balance chemical equations",
+  "section": "Chemical reactions",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciBalance10",
+   "sciBalance11",
+   "sciBalance12"
+  ],
+  "examples": [
+   {
+    "question": "Balance: __KClO₃ → __KCl + __O₂",
+    "answer": "2, 2, 3",
+    "choices": [
+     "4, 3, 2",
+     "1, 3, 2",
+     "1, 2, 1, 2",
+     "2, 2, 3"
+    ]
+   },
+   {
+    "question": "Balance: __N₂ + __H₂ → __NH₃",
+    "answer": "1, 3, 2",
+    "choices": [
+     "1, 2, 1, 2",
+     "4, 3, 2",
+     "2, 1, 2",
+     "1, 3, 2"
+    ]
+   },
+   {
+    "question": "Balance: __Na + __Cl₂ → __NaCl",
+    "answer": "2, 1, 2",
+    "choices": [
+     "4, 3, 2",
+     "1, 2, 1, 2",
+     "2, 1, 2",
+     "1, 3, 2"
+    ]
+   },
+   {
+    "question": "Balance: __Al + __O₂ → __Al₂O₃",
+    "answer": "4, 3, 2",
+    "choices": [
+     "2, 1, 2",
+     "4, 3, 2",
+     "1, 2, 1, 2",
+     "1, 3, 2"
+    ]
+   },
+   {
+    "question": "Balance: __CH₄ + __O₂ → __CO₂ + __H₂O",
+    "answer": "1, 2, 1, 2",
+    "choices": [
+     "2, 2, 3",
+     "1, 3, 2",
+     "1, 2, 1, 2",
+     "4, 3, 2"
+    ]
+   },
+   {
+    "question": "Balance: __H₂ + __O₂ → __H₂O",
+    "answer": "2, 1, 2",
+    "choices": [
+     "2, 2, 3",
+     "1, 3, 2",
+     "2, 1, 2",
+     "1, 2, 1, 2"
+    ]
+   },
+   {
+    "question": "Balance: __Fe + __O₂ → __Fe₂O₃",
+    "answer": "4, 3, 2",
+    "choices": [
+     "1, 2, 1, 2",
+     "2, 2, 3",
+     "2, 1, 2",
+     "4, 3, 2"
+    ]
+   },
+   {
+    "question": "Balance: __Mg + __O₂ → __MgO",
+    "answer": "2, 1, 2",
+    "choices": [
+     "2, 2, 3",
+     "4, 3, 2",
+     "1, 3, 2",
+     "2, 1, 2"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPHS",
+  "subject": "science",
+  "title": "Acids, bases and pH",
+  "section": "Solutions",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciPHS10"
+  ],
+  "examples": [
+   {
+    "question": "A solution has pH 9. Is it acidic, neutral or basic?",
+    "answer": "Basic",
+    "choices": [
+     "Neutral",
+     "Basic",
+     "Acidic"
+    ]
+   },
+   {
+    "question": "A solution has pH 14. Is it acidic, neutral or basic?",
+    "answer": "Basic",
+    "choices": [
+     "Basic",
+     "Acidic",
+     "Neutral"
+    ]
+   },
+   {
+    "question": "A solution has pH 7. Is it acidic, neutral or basic?",
+    "answer": "Neutral",
+    "choices": [
+     "Neutral",
+     "Acidic",
+     "Basic"
+    ]
+   },
+   {
+    "question": "A solution has pH 7.0 (pure water). Is it acidic, neutral or basic?",
+    "answer": "Neutral",
+    "choices": [
+     "Neutral",
+     "Basic",
+     "Acidic"
+    ]
+   },
+   {
+    "question": "A solution has pH 1. Is it acidic, neutral or basic?",
+    "answer": "Acidic",
+    "choices": [
+     "Acidic",
+     "Basic",
+     "Neutral"
+    ]
+   },
+   {
+    "question": "A solution has pH 2. Is it acidic, neutral or basic?",
+    "answer": "Acidic",
+    "choices": [
+     "Acidic",
+     "Neutral",
+     "Basic"
+    ]
+   },
+   {
+    "question": "A solution has pH 8.5. Is it acidic, neutral or basic?",
+    "answer": "Basic",
+    "choices": [
+     "Neutral",
+     "Acidic",
+     "Basic"
+    ]
+   },
+   {
+    "question": "A solution has pH 5. Is it acidic, neutral or basic?",
+    "answer": "Acidic",
+    "choices": [
+     "Basic",
+     "Neutral",
+     "Acidic"
+    ]
+   },
+   {
+    "question": "A solution has pH 6.5. Is it acidic, neutral or basic?",
+    "answer": "Acidic",
+    "choices": [
+     "Neutral",
+     "Basic",
+     "Acidic"
+    ]
+   },
+   {
+    "question": "A solution has pH 12. Is it acidic, neutral or basic?",
+    "answer": "Basic",
+    "choices": [
+     "Basic",
+     "Neutral",
+     "Acidic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsNewton",
+  "subject": "science",
+  "title": "Newton's first law of motion",
+  "section": "Forces and laws of motion",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsNewton110"
+  ],
+  "examples": [
+   {
+    "question": "Why do seat belts save lives?",
+    "answer": "They supply the force to stop your body with the car",
+    "choices": [
+     "They supply the force to stop your body with the car",
+     "They reduce gravity",
+     "They make you lighter",
+     "They push you forward"
+    ]
+   },
+   {
+    "question": "Newton's first law says an object in motion will…",
+    "answer": "stay in motion at constant velocity unless acted on by a net force",
+    "choices": [
+     "stop after a while",
+     "always slow down",
+     "speed up on its own",
+     "stay in motion at constant velocity unless acted on by a net force"
+    ]
+   },
+   {
+    "question": "Why do you lurch forward when a bus stops suddenly?",
+    "answer": "Your body tends to keep moving (inertia)",
+    "choices": [
+     "Your body tends to keep moving (inertia)",
+     "The bus pushes you forward",
+     "Air pushes you",
+     "Gravity pulls you forward"
+    ]
+   },
+   {
+    "question": "Why does a puck slide farther on ice than on carpet?",
+    "answer": "Ice has less friction, so less force slows it",
+    "choices": [
+     "The puck is lighter on ice",
+     "Ice adds energy",
+     "Ice has less friction, so less force slows it",
+     "Carpet has no friction"
+    ]
+   },
+   {
+    "question": "A book sits on a table without moving. What is the net force on it?",
+    "answer": "Zero",
+    "choices": [
+     "Its weight",
+     "Infinity",
+     "Zero",
+     "The table's push"
+    ]
+   },
+   {
+    "question": "A tablecloth is pulled quickly and the dishes stay put. Which law explains this?",
+    "answer": "Newton's first law",
+    "choices": [
+     "Ohm's law",
+     "Newton's third law",
+     "The law of reflection",
+     "Newton's first law"
+    ]
+   },
+   {
+    "question": "A spacecraft far from any planet turns off its engines. What happens to its motion?",
+    "answer": "It keeps moving at constant velocity",
+    "choices": [
+     "It slows down",
+     "It keeps moving at constant velocity",
+     "It falls",
+     "It stops"
+    ]
+   },
+   {
+    "question": "Which has more inertia: a bowling ball or a tennis ball?",
+    "answer": "The bowling ball",
+    "choices": [
+     "They are equal",
+     "The bowling ball",
+     "Neither",
+     "The tennis ball"
+    ]
+   },
+   {
+    "question": "What is inertia?",
+    "answer": "An object's resistance to changes in its motion",
+    "choices": [
+     "A type of energy",
+     "An object's resistance to changes in its motion",
+     "Speed",
+     "A force pulling objects down"
+    ]
+   },
+   {
+    "question": "What is needed to change an object's motion?",
+    "answer": "An unbalanced (net) force",
+    "choices": [
+     "An unbalanced (net) force",
+     "Nothing",
+     "A balanced force",
+     "Only time"
+    ]
+   },
+   {
+    "question": "A hockey puck slides on ice at constant velocity. The net force on it is…",
+    "answer": "zero",
+    "choices": [
+     "zero",
+     "equal to its weight",
+     "backward",
+     "large and forward"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCircMot",
+  "subject": "science",
+  "title": "Circular motion",
+  "section": "Forces and laws of motion",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsCircMot10"
+  ],
+  "examples": [
+   {
+    "question": "What provides the centripetal force for a car turning on a flat road?",
+    "answer": "Friction between the tires and the road",
+    "choices": [
+     "Gravity alone",
+     "Air resistance",
+     "Friction between the tires and the road",
+     "The engine"
+    ]
+   },
+   {
+    "question": "Which direction does centripetal force point?",
+    "answer": "Toward the centre of the circle",
+    "choices": [
+     "Toward the centre of the circle",
+     "Away from the centre",
+     "Straight up",
+     "Along the direction of motion"
+    ]
+   },
+   {
+    "question": "What force keeps an object moving in a circle?",
+    "answer": "A centripetal force directed toward the centre",
+    "choices": [
+     "A force along the direction of motion",
+     "A centripetal force directed toward the centre",
+     "A force directed outward",
+     "No force is needed"
+    ]
+   },
+   {
+    "question": "What provides centripetal force when you swing a ball on a string?",
+    "answer": "Tension in the string",
+    "choices": [
+     "Magnetism",
+     "Gravity only",
+     "Tension in the string",
+     "Friction"
+    ]
+   },
+   {
+    "question": "What happens to the needed centripetal force if speed increases?",
+    "answer": "It increases",
+    "choices": [
+     "It stays the same",
+     "It decreases",
+     "It becomes zero",
+     "It increases"
+    ]
+   },
+   {
+    "question": "If the string of a twirling ball breaks, the ball moves…",
+    "answer": "in a straight line tangent to the circle",
+    "choices": [
+     "in a straight line tangent to the circle",
+     "in a spiral",
+     "toward the centre",
+     "straight outward"
+    ]
+   },
+   {
+    "question": "What provides centripetal force for a satellite orbiting Earth?",
+    "answer": "Gravity",
+    "choices": [
+     "Gravity",
+     "Air resistance",
+     "A rope",
+     "Friction"
+    ]
+   },
+   {
+    "question": "If the radius of a turn gets smaller at the same speed, the needed centripetal force…",
+    "answer": "increases",
+    "choices": [
+     "becomes zero",
+     "stays the same",
+     "increases",
+     "decreases"
+    ]
+   },
+   {
+    "question": "What provides the centripetal force for the Moon orbiting Earth?",
+    "answer": "Gravity",
+    "choices": [
+     "Tension",
+     "Friction",
+     "Gravity",
+     "Magnetism"
+    ]
+   },
+   {
+    "question": "A car takes a curve on icy roads and slides straight. Why?",
+    "answer": "There is not enough friction to provide the centripetal force",
+    "choices": [
+     "Ice pushes outward",
+     "The car is too light",
+     "There is not enough friction to provide the centripetal force",
+     "Gravity reverses"
+    ]
+   },
+   {
+    "question": "Why do passengers feel pushed outward on a merry-go-round?",
+    "answer": "Their inertia tends to carry them in a straight line",
+    "choices": [
+     "A real outward force pushes them",
+     "Gravity pushes outward",
+     "Their inertia tends to carry them in a straight line",
+     "Wind pushes them"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciGrav",
+  "subject": "science",
+  "title": "Newton's law of universal gravitation",
+  "section": "Forces and laws of motion",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciGrav10",
+   "sciGrav11",
+   "sciGrav12"
+  ],
+  "examples": [
+   {
+    "question": "If one of the masses doubles, the gravitational force …",
+    "answer": "doubles",
+    "choices": [
+     "quadruples",
+     "stays the same",
+     "halves",
+     "doubles"
+    ]
+   },
+   {
+    "question": "What keeps the Moon in orbit around Earth?",
+    "answer": "Earth's gravity",
+    "choices": [
+     "Earth's gravity",
+     "Air pressure",
+     "The Moon's engines",
+     "The Sun's magnetism"
+    ]
+   },
+   {
+    "question": "The gravitational force between two masses is always …",
+    "answer": "attractive",
+    "choices": [
+     "zero",
+     "magnetic",
+     "attractive",
+     "repulsive"
+    ]
+   },
+   {
+    "question": "If the distance between two masses doubles, the gravitational force becomes …",
+    "answer": "one-quarter as strong",
+    "choices": [
+     "four times as strong",
+     "half as strong",
+     "twice as strong",
+     "one-quarter as strong"
+    ]
+   },
+   {
+    "question": "If the distance between two masses is cut in half, the force becomes …",
+    "answer": "four times as strong",
+    "choices": [
+     "four times as strong",
+     "half as strong",
+     "one-quarter as strong",
+     "twice as strong"
+    ]
+   },
+   {
+    "question": "Why do you weigh less on the Moon?",
+    "answer": "The Moon has less mass, so its gravity is weaker.",
+    "choices": [
+     "Your mass decreases on the Moon.",
+     "There is no air on the Moon.",
+     "The Moon is colder.",
+     "The Moon has less mass, so its gravity is weaker."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPhotoE",
+  "subject": "science",
+  "title": "The photoelectric effect and the particle nature of light",
+  "section": "Electromagnetic waves",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsPhotoE10"
+  ],
+  "examples": [
+   {
+    "question": "The photoelectric effect is evidence that light behaves as…",
+    "answer": "particles (photons)",
+    "choices": [
+     "sound",
+     "particles (photons)",
+     "only a wave",
+     "a magnetic field only"
+    ]
+   },
+   {
+    "question": "Why does dim ultraviolet light eject electrons but bright red light does not?",
+    "answer": "Each UV photon has enough energy; red photons do not, no matter how many",
+    "choices": [
+     "UV is louder",
+     "Each UV photon has enough energy; red photons do not, no matter how many",
+     "Brightness controls photon energy",
+     "Red light is too fast"
+    ]
+   },
+   {
+    "question": "Which device uses the photoelectric effect?",
+    "answer": "A solar cell",
+    "choices": [
+     "A loudspeaker",
+     "A thermometer",
+     "A solar cell",
+     "A compass"
+    ]
+   },
+   {
+    "question": "What is the photoelectric effect?",
+    "answer": "Light shining on a metal ejects electrons",
+    "choices": [
+     "Light bending in water",
+     "Electrons orbiting atoms",
+     "Light shining on a metal ejects electrons",
+     "Metals glowing when hot"
+    ]
+   },
+   {
+    "question": "What happens if you increase the brightness of UV light on a metal?",
+    "answer": "More electrons are ejected",
+    "choices": [
+     "The electrons go faster only",
+     "More electrons are ejected",
+     "No electrons are ejected",
+     "The metal melts"
+    ]
+   },
+   {
+    "question": "Which technology relies on the photoelectric effect?",
+    "answer": "Solar panels and digital camera sensors",
+    "choices": [
+     "Solar panels and digital camera sensors",
+     "Loudspeakers",
+     "Microwave ovens",
+     "Compasses"
+    ]
+   },
+   {
+    "question": "What is a photon?",
+    "answer": "A packet (particle) of light energy",
+    "choices": [
+     "A proton",
+     "A packet (particle) of light energy",
+     "A type of electron",
+     "A sound wave"
+    ]
+   },
+   {
+    "question": "How does a photon's energy depend on frequency?",
+    "answer": "Higher frequency means more energy (E = hf)",
+    "choices": [
+     "Lower frequency means more energy",
+     "Frequency doesn't matter",
+     "Energy is the same for all",
+     "Higher frequency means more energy (E = hf)"
+    ]
+   },
+   {
+    "question": "Why does red light fail to eject electrons from some metals even when very bright?",
+    "answer": "Each red photon has too little energy",
+    "choices": [
+     "Each red photon has too little energy",
+     "Red light is too slow",
+     "Metals reflect red",
+     "Bright light has fewer photons"
+    ]
+   },
+   {
+    "question": "Who explained the photoelectric effect?",
+    "answer": "Albert Einstein",
+    "choices": [
+     "Isaac Newton",
+     "Marie Curie",
+     "Albert Einstein",
+     "Charles Darwin"
+    ]
+   },
+   {
+    "question": "What is \"wave-particle duality\"?",
+    "answer": "Light shows both wave and particle properties",
+    "choices": [
+     "Light is only a particle",
+     "Light shows both wave and particle properties",
+     "Particles are waves of water",
+     "Light is only a wave"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCoulomb",
+  "subject": "science",
+  "title": "Coulomb's law: electrostatic forces",
+  "section": "Electricity",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciCoulomb10",
+   "sciCoulomb11",
+   "sciCoulomb12"
+  ],
+  "examples": [
+   {
+    "question": "Electric force depends on the size of the charges and the …",
+    "answer": "distance between them",
+    "choices": [
+     "temperature of the room",
+     "distance between them",
+     "speed of light",
+     "colour of the objects"
+    ]
+   },
+   {
+    "question": "If the distance between two charges triples, the force becomes …",
+    "answer": "one-ninth as strong",
+    "choices": [
+     "one-third as strong",
+     "three times as strong",
+     "nine times as strong",
+     "one-ninth as strong"
+    ]
+   },
+   {
+    "question": "What is the SI unit of electric charge?",
+    "answer": "The coulomb",
+    "choices": [
+     "The ohm",
+     "The coulomb",
+     "The volt",
+     "The ampere"
+    ]
+   },
+   {
+    "question": "A positive charge and a negative charge …",
+    "answer": "attract each other",
+    "choices": [
+     "repel each other",
+     "become neutrons",
+     "do not interact",
+     "attract each other"
+    ]
+   },
+   {
+    "question": "If both charges double, the force becomes …",
+    "answer": "four times as strong",
+    "choices": [
+     "twice as strong",
+     "half as strong",
+     "unchanged",
+     "four times as strong"
+    ]
+   },
+   {
+    "question": "Two positive charges …",
+    "answer": "repel each other",
+    "choices": [
+     "do not interact",
+     "repel each other",
+     "cancel to zero mass",
+     "attract each other"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMagnet",
+  "subject": "science",
+  "title": "Magnets and magnetism",
+  "section": "Magnetism",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsMagnet1010"
+  ],
+  "examples": [
+   {
+    "question": "Why is Earth like a giant magnet?",
+    "answer": "Moving molten iron in its outer core creates a magnetic field",
+    "choices": [
+     "The Sun magnetizes it",
+     "It is made of magnets",
+     "The Moon magnetizes it",
+     "Moving molten iron in its outer core creates a magnetic field"
+    ]
+   },
+   {
+    "question": "How can you make an electromagnet stronger?",
+    "answer": "Add more coils, more current, or an iron core",
+    "choices": [
+     "Remove the core",
+     "Add more coils, more current, or an iron core",
+     "Lower the current",
+     "Use plastic wire"
+    ]
+   },
+   {
+    "question": "Which way does a compass needle point?",
+    "answer": "Toward Earth's magnetic north",
+    "choices": [
+     "Toward the nearest metal only",
+     "Toward Earth's magnetic north",
+     "Toward the Sun",
+     "Always east"
+    ]
+   },
+   {
+    "question": "What protects Earth from the solar wind?",
+    "answer": "Its magnetic field (magnetosphere)",
+    "choices": [
+     "Clouds",
+     "The Moon",
+     "The ozone layer only",
+     "Its magnetic field (magnetosphere)"
+    ]
+   },
+   {
+    "question": "What is a magnetic domain?",
+    "answer": "A small region where atoms' magnetic fields line up",
+    "choices": [
+     "A small region where atoms' magnetic fields line up",
+     "A magnet's colour",
+     "A type of metal",
+     "The north pole"
+    ]
+   },
+   {
+    "question": "Magnetic field lines outside a bar magnet go from…",
+    "answer": "north pole to south pole",
+    "choices": [
+     "nowhere",
+     "north pole to south pole",
+     "south pole to north pole",
+     "the centre outward"
+    ]
+   },
+   {
+    "question": "What happens when a magnet moves through a coil of wire?",
+    "answer": "An electric current is induced",
+    "choices": [
+     "Nothing happens",
+     "The magnet loses its poles",
+     "An electric current is induced",
+     "The wire melts"
+    ]
+   },
+   {
+    "question": "Why does heating a magnet weaken it?",
+    "answer": "Heat scrambles the alignment of domains",
+    "choices": [
+     "Heat scrambles the alignment of domains",
+     "Heat adds poles",
+     "Heat makes it heavier",
+     "Heat doesn't affect it"
+    ]
+   },
+   {
+    "question": "What happens if you cut a bar magnet in half?",
+    "answer": "You get two smaller magnets, each with N and S poles",
+    "choices": [
+     "It loses all magnetism",
+     "It becomes an electromagnet",
+     "You get a separate N and a separate S",
+     "You get two smaller magnets, each with N and S poles"
+    ]
+   },
+   {
+    "question": "What creates a magnetic field around a wire?",
+    "answer": "An electric current",
+    "choices": [
+     "An electric current",
+     "Heat",
+     "Light only",
+     "Static charge at rest"
+    ]
+   },
+   {
+    "question": "Which material is strongly attracted to magnets?",
+    "answer": "Iron",
+    "choices": [
+     "Plastic",
+     "Copper",
+     "Iron",
+     "Aluminum"
+    ]
+   }
+  ]
+ }
+]

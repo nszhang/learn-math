@@ -1,0 +1,2523 @@
+[
+ {
+  "key": "engNnSl",
+  "subject": "english",
+  "title": "Identify nouns in a sentence",
+  "section": "Nouns",
+  "grades": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engNnSl1",
+   "engNnSl2",
+   "engNnSl3",
+   "engNnSl4"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a noun? She read a funny book.",
+    "answer": "book",
+    "choices": [
+     "She",
+     "funny",
+     "book",
+     "read"
+    ]
+   },
+   {
+    "question": "Which word is a noun? The teacher smiled at us.",
+    "answer": "teacher",
+    "choices": [
+     "smiled",
+     "teacher",
+     "us",
+     "at"
+    ]
+   },
+   {
+    "question": "Which word is a noun? Dad fixed the old bike.",
+    "answer": "bike",
+    "choices": [
+     "old",
+     "Dad",
+     "fixed",
+     "bike"
+    ]
+   },
+   {
+    "question": "Which word is a noun? We ate pizza for dinner.",
+    "answer": "pizza",
+    "choices": [
+     "for",
+     "We",
+     "pizza",
+     "ate"
+    ]
+   },
+   {
+    "question": "Which word is a noun? I lost my red mitten.",
+    "answer": "mitten",
+    "choices": [
+     "mitten",
+     "red",
+     "lost",
+     "my"
+    ]
+   },
+   {
+    "question": "Which word is a noun? My sister likes to swim.",
+    "answer": "sister",
+    "choices": [
+     "My",
+     "sister",
+     "swim",
+     "to"
+    ]
+   },
+   {
+    "question": "Which word is a noun? The bird sang a song.",
+    "answer": "bird",
+    "choices": [
+     "sang",
+     "bird",
+     "song"
+    ]
+   },
+   {
+    "question": "Which word is a noun? A frog jumped into the pond.",
+    "answer": "frog",
+    "choices": [
+     "into",
+     "pond",
+     "frog",
+     "jumped"
+    ]
+   },
+   {
+    "question": "Which word is a noun? Our school has a big garden.",
+    "answer": "school",
+    "choices": [
+     "Our",
+     "big",
+     "school",
+     "has"
+    ]
+   },
+   {
+    "question": "Which word is a noun? The dog chased the ball.",
+    "answer": "dog",
+    "choices": [
+     "dog",
+     "ball",
+     "chased"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrpN",
+  "subject": "english",
+  "title": "Identify proper nouns",
+  "section": "Nouns",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXPrpN1"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Halloween",
+    "choices": [
+     "day",
+     "Halloween",
+     "holiday",
+     "dog"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Pacific Ocean",
+    "choices": [
+     "day",
+     "Pacific Ocean",
+     "country",
+     "city"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Dr. Lee",
+    "choices": [
+     "city",
+     "Dr. Lee",
+     "lake",
+     "country"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Monday",
+    "choices": [
+     "ocean",
+     "Monday",
+     "girl",
+     "lake"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "July",
+    "choices": [
+     "July",
+     "river",
+     "dog",
+     "doctor"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Canada",
+    "choices": [
+     "girl",
+     "river",
+     "day",
+     "Canada"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Rex",
+    "choices": [
+     "lake",
+     "girl",
+     "day",
+     "Rex"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Toronto",
+    "choices": [
+     "river",
+     "doctor",
+     "Toronto",
+     "girl"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Maria",
+    "choices": [
+     "Maria",
+     "girl",
+     "city",
+     "dog"
+    ]
+   },
+   {
+    "question": "Which word is a proper noun?",
+    "answer": "Lake Ontario",
+    "choices": [
+     "girl",
+     "city",
+     "day",
+     "Lake Ontario"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXIpPc",
+  "subject": "english",
+  "title": "Irregular plurals: select the word that matches the picture",
+  "section": "Nouns",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXIpPc1"
+  ],
+  "examples": [
+   {
+    "question": "🦷🦷🦷 Which word matches the picture?",
+    "answer": "teeth",
+    "choices": [
+     "tooth",
+     "tooths",
+     "teeth",
+     "toothes"
+    ]
+   },
+   {
+    "question": "🧒🧒🧒 Which word matches the picture?",
+    "answer": "children",
+    "choices": [
+     "childes",
+     "childs",
+     "children",
+     "child"
+    ]
+   },
+   {
+    "question": "🧒 Which word matches the picture?",
+    "answer": "child",
+    "choices": [
+     "child",
+     "children",
+     "childs"
+    ]
+   },
+   {
+    "question": "🪿 Which word matches the picture?",
+    "answer": "goose",
+    "choices": [
+     "geese",
+     "goose",
+     "gooses"
+    ]
+   },
+   {
+    "question": "🐭🐭🐭 Which word matches the picture?",
+    "answer": "mice",
+    "choices": [
+     "mouse",
+     "mice",
+     "mouses",
+     "mousees"
+    ]
+   },
+   {
+    "question": "🦶 Which word matches the picture?",
+    "answer": "foot",
+    "choices": [
+     "foot",
+     "feet",
+     "foots"
+    ]
+   },
+   {
+    "question": "🦷 Which word matches the picture?",
+    "answer": "tooth",
+    "choices": [
+     "tooths",
+     "teeth",
+     "tooth"
+    ]
+   },
+   {
+    "question": "🪿🪿🪿 Which word matches the picture?",
+    "answer": "geese",
+    "choices": [
+     "goose",
+     "goosees",
+     "geese",
+     "gooses"
+    ]
+   },
+   {
+    "question": "👨👨👨 Which word matches the picture?",
+    "answer": "men",
+    "choices": [
+     "men",
+     "mans",
+     "manes",
+     "man"
+    ]
+   },
+   {
+    "question": "👨 Which word matches the picture?",
+    "answer": "man",
+    "choices": [
+     "man",
+     "men",
+     "mans"
+    ]
+   },
+   {
+    "question": "🦶🦶🦶 Which word matches the picture?",
+    "answer": "feet",
+    "choices": [
+     "footes",
+     "foots",
+     "feet",
+     "foot"
+    ]
+   },
+   {
+    "question": "🐭 Which word matches the picture?",
+    "answer": "mouse",
+    "choices": [
+     "mice",
+     "mouses",
+     "mouse"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPsPc",
+  "subject": "english",
+  "title": "Select the possessive noun that matches the picture",
+  "section": "Nouns",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXPsPc1"
+  ],
+  "examples": [
+   {
+    "question": "🐦🪺 Which words match the picture?",
+    "answer": "the bird's nest",
+    "choices": [
+     "the nest bird",
+     "the birds nest",
+     "the bird's nest",
+     "the bird nest's"
+    ]
+   },
+   {
+    "question": "🐱🧶 Which words match the picture?",
+    "answer": "the cat's yarn",
+    "choices": [
+     "the cat yarn's",
+     "the cats yarn",
+     "the cat's yarn",
+     "the yarn cat"
+    ]
+   },
+   {
+    "question": "👨‍🍳🍕 Which words match the picture?",
+    "answer": "the chef's pizza",
+    "choices": [
+     "the pizza chef",
+     "the chef's pizza",
+     "the chefs pizza",
+     "the chef pizza's"
+    ]
+   },
+   {
+    "question": "👧🎀 Which words match the picture?",
+    "answer": "the girl's bow",
+    "choices": [
+     "the girls bow",
+     "the girl bow's",
+     "the girl's bow",
+     "the bow girl"
+    ]
+   },
+   {
+    "question": "👑🏰 Which words match the picture?",
+    "answer": "the king's castle",
+    "choices": [
+     "the kings castle",
+     "the king's castle",
+     "the castle king",
+     "the king castle's"
+    ]
+   },
+   {
+    "question": "🐶🦴 Which words match the picture?",
+    "answer": "the dog's bone",
+    "choices": [
+     "the dogs' bones",
+     "the dog's bone",
+     "the bone dog",
+     "the dogs bone"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPLU",
+  "subject": "english",
+  "title": "Plural nouns",
+  "section": "Nouns",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engPLU1"
+  ],
+  "examples": [
+   {
+    "question": "What is the plural of tooth ? (More than one)",
+    "answer": "teeth",
+    "choices": [
+     "tooths",
+     "teeth",
+     "teeths",
+     "toothes"
+    ]
+   },
+   {
+    "question": "What is the plural of foot ? (More than one)",
+    "answer": "feet",
+    "choices": [
+     "feet",
+     "footes",
+     "foots",
+     "feets"
+    ]
+   },
+   {
+    "question": "What is the plural of mouse ? (More than one)",
+    "answer": "mice",
+    "choices": [
+     "mouses",
+     "mice",
+     "meese",
+     "mouse"
+    ]
+   },
+   {
+    "question": "What is the plural of child ? (More than one)",
+    "answer": "children",
+    "choices": [
+     "children",
+     "childes",
+     "childen",
+     "childs"
+    ]
+   },
+   {
+    "question": "What is the plural of dish ? (More than one)",
+    "answer": "dishes",
+    "choices": [
+     "dishes",
+     "dish",
+     "dishen",
+     "dishs"
+    ]
+   },
+   {
+    "question": "What is the plural of box ? (More than one)",
+    "answer": "boxes",
+    "choices": [
+     "boxs",
+     "boxen",
+     "boxes",
+     "box"
+    ]
+   },
+   {
+    "question": "What is the plural of man ? (More than one)",
+    "answer": "men",
+    "choices": [
+     "manes",
+     "men",
+     "mans",
+     "mens"
+    ]
+   },
+   {
+    "question": "What is the plural of baby ? (More than one)",
+    "answer": "babies",
+    "choices": [
+     "babys",
+     "baby",
+     "babies",
+     "babyes"
+    ]
+   },
+   {
+    "question": "What is the plural of bus ? (More than one)",
+    "answer": "buses",
+    "choices": [
+     "buss",
+     "busen",
+     "buses",
+     "bus"
+    ]
+   },
+   {
+    "question": "What is the plural of cat ? (More than one)",
+    "answer": "cats",
+    "choices": [
+     "cat",
+     "cats",
+     "cates",
+     "caties"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrCh",
+  "subject": "english",
+  "title": "Choose the correct personal pronoun",
+  "section": "Pronouns",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXPrCh1",
+   "engXPrCh2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. Please give the book to ___ — it is mine.",
+    "answer": "me",
+    "choices": [
+     "they",
+     "me",
+     "I",
+     "he"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Dad and I made a fort. ___ worked all day.",
+    "answer": "We",
+    "choices": [
+     "I",
+     "We",
+     "Us",
+     "They"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Ask Mrs. Cho. ___ knows the answer.",
+    "answer": "She",
+    "choices": [
+     "She",
+     "It",
+     "He",
+     "They"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Lily has a dog. ___ walks it every day.",
+    "answer": "She",
+    "choices": [
+     "We",
+     "He",
+     "She",
+     "They"
+    ]
+   },
+   {
+    "question": "Complete the sentence. My brothers like soccer. ___ play every Saturday.",
+    "answer": "They",
+    "choices": [
+     "It",
+     "They",
+     "He",
+     "We"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The cookies are hot. Don't touch ___ yet.",
+    "answer": "them",
+    "choices": [
+     "him",
+     "them",
+     "it",
+     "her"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The kite flew high. ___ was red and yellow.",
+    "answer": "It",
+    "choices": [
+     "He",
+     "She",
+     "They",
+     "It"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Sam is my friend. ___ likes to play tag.",
+    "answer": "He",
+    "choices": [
+     "They",
+     "She",
+     "He",
+     "It"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrCs",
+  "subject": "english",
+  "title": "Complete the sentence with the correct personal pronoun",
+  "section": "Pronouns",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXPrCs1"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. My brothers like soccer. ___ play every Saturday.",
+    "answer": "They",
+    "choices": [
+     "He",
+     "They",
+     "We",
+     "It"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The cookies are hot. Don't touch ___ yet.",
+    "answer": "them",
+    "choices": [
+     "them",
+     "him",
+     "her",
+     "it"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Dad and I made a fort. ___ worked all day.",
+    "answer": "We",
+    "choices": [
+     "Us",
+     "They",
+     "I",
+     "We"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Lily has a dog. ___ walks it every day.",
+    "answer": "She",
+    "choices": [
+     "They",
+     "We",
+     "He",
+     "She"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Please give the book to ___ — it is mine.",
+    "answer": "me",
+    "choices": [
+     "I",
+     "he",
+     "they",
+     "me"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The kite flew high. ___ was red and yellow.",
+    "answer": "It",
+    "choices": [
+     "She",
+     "They",
+     "It",
+     "He"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Sam is my friend. ___ likes to play tag.",
+    "answer": "He",
+    "choices": [
+     "She",
+     "It",
+     "They",
+     "He"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Ask Mrs. Cho. ___ knows the answer.",
+    "answer": "She",
+    "choices": [
+     "It",
+     "They",
+     "He",
+     "She"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPpCh",
+  "subject": "english",
+  "title": "Choose the correct possessive pronoun",
+  "section": "Pronouns",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXPpCh1"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. That bike belongs to Tom. It is ___ bike.",
+    "answer": "his",
+    "choices": [
+     "his",
+     "her",
+     "our",
+     "my"
+    ]
+   },
+   {
+    "question": "Complete the sentence. This is Mia's hat. It is ___ hat.",
+    "answer": "her",
+    "choices": [
+     "her",
+     "its",
+     "his",
+     "their"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The cat licked ___ paw.",
+    "answer": "its",
+    "choices": [
+     "it's",
+     "their",
+     "his",
+     "its"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We cleaned ___ room.",
+    "answer": "our",
+    "choices": [
+     "its",
+     "their",
+     "my",
+     "our"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I brushed ___ teeth.",
+    "answer": "my",
+    "choices": [
+     "mine",
+     "your",
+     "his",
+     "my"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Is this ___ coat, Ben?",
+    "answer": "your",
+    "choices": [
+     "your",
+     "you're",
+     "mine",
+     "yours"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The twins lost ___ ball.",
+    "answer": "their",
+    "choices": [
+     "their",
+     "our",
+     "his",
+     "there"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAvUs",
+  "subject": "english",
+  "title": "Use action verbs",
+  "section": "Verbs",
+  "grades": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXAvUs1",
+   "engXAvUs2",
+   "engXAvUs3",
+   "engXAvUs4"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. Mom ___ a cake.",
+    "answer": "bakes",
+    "choices": [
+     "bakes",
+     "cold",
+     "fast",
+     "shoe"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The bird ___ in the sky.",
+    "answer": "flies",
+    "choices": [
+     "pencil",
+     "tall",
+     "flies",
+     "sweet"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Tom ___ the ball to me.",
+    "answer": "kicks",
+    "choices": [
+     "chair",
+     "soft",
+     "green",
+     "kicks"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We ___ our lunch at noon.",
+    "answer": "eat",
+    "choices": [
+     "yellow",
+     "eat",
+     "window",
+     "quiet"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The frog ___ over the log.",
+    "answer": "jumps",
+    "choices": [
+     "grass",
+     "jumps",
+     "big",
+     "wet"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The baby ___ in her bed.",
+    "answer": "sleeps",
+    "choices": [
+     "table",
+     "happy",
+     "blue",
+     "sleeps"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The kids ___ on the swings.",
+    "answer": "play",
+    "choices": [
+     "fun",
+     "play",
+     "park",
+     "red"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Kim ___ a picture.",
+    "answer": "draws",
+    "choices": [
+     "tiny",
+     "pink",
+     "draws",
+     "paper"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXOneM",
+  "subject": "english",
+  "title": "One or more than one?",
+  "section": "Subject-verb agreement",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXOneM1",
+   "engXOneM2"
+  ],
+  "examples": [
+   {
+    "question": "Is the subject one or more than one? My sister …",
+    "answer": "One",
+    "choices": [
+     "One",
+     "More than one"
+    ]
+   },
+   {
+    "question": "Is the subject one or more than one? Grandpa …",
+    "answer": "One",
+    "choices": [
+     "More than one",
+     "One"
+    ]
+   },
+   {
+    "question": "Is the subject one or more than one? The dog …",
+    "answer": "One",
+    "choices": [
+     "More than one",
+     "One"
+    ]
+   },
+   {
+    "question": "Is the subject one or more than one? The teacher …",
+    "answer": "One",
+    "choices": [
+     "More than one",
+     "One"
+    ]
+   },
+   {
+    "question": "Is the subject one or more than one? The kids …",
+    "answer": "More than one",
+    "choices": [
+     "More than one",
+     "One"
+    ]
+   },
+   {
+    "question": "Is the subject one or more than one? My friends …",
+    "answer": "More than one",
+    "choices": [
+     "One",
+     "More than one"
+    ]
+   },
+   {
+    "question": "Is the subject one or more than one? Mom and Dad …",
+    "answer": "More than one",
+    "choices": [
+     "More than one",
+     "One"
+    ]
+   },
+   {
+    "question": "Is the subject one or more than one? The birds …",
+    "answer": "More than one",
+    "choices": [
+     "More than one",
+     "One"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTlPr",
+  "subject": "english",
+  "title": "Select the sentence that tells about the present",
+  "section": "Verb tense",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXTlPr1"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence tells about the present ?",
+    "answer": "My sister is drawing a picture.",
+    "choices": [
+     "The dog barked all night.",
+     "My sister is drawing a picture.",
+     "I lost my tooth last Friday.",
+     "Tomorrow we will go to the zoo."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present ?",
+    "answer": "We are reading right now.",
+    "choices": [
+     "I will visit Grandma next week.",
+     "We swam at the lake last summer.",
+     "We are reading right now.",
+     "We baked cookies last week."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present ?",
+    "answer": "The cat sleeps on my bed.",
+    "choices": [
+     "Yesterday we played in the snow.",
+     "We are going to swim later.",
+     "Next year I will be in Grade 2.",
+     "The cat sleeps on my bed."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present?",
+    "answer": "Today she reads a book.",
+    "choices": [
+     "We will swim later.",
+     "Last night we baked bread.",
+     "Today she reads a book."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present ?",
+    "answer": "It is raining outside now.",
+    "choices": [
+     "It is raining outside now.",
+     "I will visit Grandma next week.",
+     "It will snow tonight.",
+     "The dog barked all night."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present ?",
+    "answer": "Dad is making supper.",
+    "choices": [
+     "We will plant seeds in the spring.",
+     "Mom planted flowers yesterday.",
+     "Dad is making supper."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present ?",
+    "answer": "The bird is singing.",
+    "choices": [
+     "We are going to swim later.",
+     "I will visit Grandma next week.",
+     "I lost my tooth last Friday.",
+     "The bird is singing."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present?",
+    "answer": "I play soccer now.",
+    "choices": [
+     "He walked the dog this morning.",
+     "I play soccer now.",
+     "Next week we will visit Grandma."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present ?",
+    "answer": "I am eating lunch now.",
+    "choices": [
+     "We baked cookies last week.",
+     "I am eating lunch now.",
+     "We are going to swim later.",
+     "We swam at the lake last summer."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the present ?",
+    "answer": "The sun shines today.",
+    "choices": [
+     "The bus will come soon.",
+     "Yesterday we played in the snow.",
+     "The sun shines today."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTlPa",
+  "subject": "english",
+  "title": "Select the sentence that tells about the past",
+  "section": "Verb tense",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXTlPa1"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence tells about the past ?",
+    "answer": "We baked cookies last week.",
+    "choices": [
+     "My sister is drawing a picture.",
+     "We baked cookies last week.",
+     "Dad is making supper.",
+     "We will plant seeds in the spring."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past?",
+    "answer": "He walked the dog this morning.",
+    "choices": [
+     "He walked the dog this morning.",
+     "Tomorrow I will play soccer.",
+     "Today she reads a book."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past ?",
+    "answer": "Yesterday we played in the snow.",
+    "choices": [
+     "Tomorrow we will go to the zoo.",
+     "Yesterday we played in the snow.",
+     "The bird is singing.",
+     "My sister is drawing a picture."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past ?",
+    "answer": "Last night I read a book.",
+    "choices": [
+     "Next year I will be in Grade 2.",
+     "Last night I read a book.",
+     "My sister is drawing a picture.",
+     "I am eating lunch now."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past ?",
+    "answer": "We swam at the lake last summer.",
+    "choices": [
+     "My sister is drawing a picture.",
+     "Next year I will be in Grade 2.",
+     "We will plant seeds in the spring.",
+     "We swam at the lake last summer."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past?",
+    "answer": "Last night we baked bread.",
+    "choices": [
+     "I play soccer now.",
+     "Today she reads a book.",
+     "Last night we baked bread."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past?",
+    "answer": "Yesterday I played soccer.",
+    "choices": [
+     "Yesterday I played soccer.",
+     "We will swim later.",
+     "Next week we will visit Grandma."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past ?",
+    "answer": "The baby cried this morning.",
+    "choices": [
+     "We are reading right now.",
+     "The baby cried this morning.",
+     "I will visit Grandma next week."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past ?",
+    "answer": "Mom planted flowers yesterday.",
+    "choices": [
+     "Mom planted flowers yesterday.",
+     "I am eating lunch now.",
+     "It will snow tonight.",
+     "We will plant seeds in the spring."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past ?",
+    "answer": "I lost my tooth last Friday.",
+    "choices": [
+     "The sun shines today.",
+     "It will snow tonight.",
+     "I lost my tooth last Friday.",
+     "Next year I will be in Grade 2."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the past ?",
+    "answer": "The dog barked all night.",
+    "choices": [
+     "The bus will come soon.",
+     "The cat sleeps on my bed.",
+     "I am eating lunch now.",
+     "The dog barked all night."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTlFu",
+  "subject": "english",
+  "title": "Select the sentence that tells about the future",
+  "section": "Verb tense",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXTlFu1"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence tells about the future?",
+    "answer": "Next week we will visit Grandma.",
+    "choices": [
+     "Next week we will visit Grandma.",
+     "I play soccer now.",
+     "Yesterday I played soccer."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future?",
+    "answer": "We will swim later.",
+    "choices": [
+     "He walked the dog this morning.",
+     "Last night we baked bread.",
+     "We will swim later."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future?",
+    "answer": "Tomorrow I will play soccer.",
+    "choices": [
+     "Tomorrow I will play soccer.",
+     "Today she reads a book.",
+     "I play soccer now."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future ?",
+    "answer": "We are going to swim later.",
+    "choices": [
+     "Mom planted flowers yesterday.",
+     "The sun shines today.",
+     "We are going to swim later.",
+     "We baked cookies last week."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future ?",
+    "answer": "We will plant seeds in the spring.",
+    "choices": [
+     "The baby cried this morning.",
+     "We will plant seeds in the spring.",
+     "Yesterday we played in the snow.",
+     "My sister is drawing a picture."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future ?",
+    "answer": "It will snow tonight.",
+    "choices": [
+     "I lost my tooth last Friday.",
+     "The sun shines today.",
+     "It will snow tonight.",
+     "We are reading right now."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future ?",
+    "answer": "Tomorrow we will go to the zoo.",
+    "choices": [
+     "The sun shines today.",
+     "Tomorrow we will go to the zoo.",
+     "Yesterday we played in the snow.",
+     "Last night I read a book."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future ?",
+    "answer": "I will visit Grandma next week.",
+    "choices": [
+     "Last night I read a book.",
+     "I am eating lunch now.",
+     "The baby cried this morning.",
+     "I will visit Grandma next week."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future ?",
+    "answer": "The bus will come soon.",
+    "choices": [
+     "The baby cried this morning.",
+     "Last night I read a book.",
+     "The bus will come soon.",
+     "The cat sleeps on my bed."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future ?",
+    "answer": "Next year I will be in Grade 2.",
+    "choices": [
+     "It is raining outside now.",
+     "Next year I will be in Grade 2.",
+     "The dog barked all night.",
+     "I lost my tooth last Friday."
+    ]
+   },
+   {
+    "question": "Which sentence tells about the future ?",
+    "answer": "I will clean my room after school.",
+    "choices": [
+     "We baked cookies last week.",
+     "My sister is drawing a picture.",
+     "I lost my tooth last Friday.",
+     "I will clean my room after school."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTmLn",
+  "subject": "english",
+  "title": "Place sentences on a timeline",
+  "section": "Verb tense",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXTmLn1"
+  ],
+  "examples": [
+   {
+    "question": "Where does this sentence go on the timeline? Next week we will visit Grandma.",
+    "answer": "Future",
+    "choices": [
+     "Past",
+     "Present",
+     "Future"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? I play soccer now.",
+    "answer": "Present",
+    "choices": [
+     "Present",
+     "Past",
+     "Future"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? Yesterday I played soccer.",
+    "answer": "Past",
+    "choices": [
+     "Future",
+     "Past",
+     "Present"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? Today she reads a book.",
+    "answer": "Present",
+    "choices": [
+     "Present",
+     "Past",
+     "Future"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? Last night we baked bread.",
+    "answer": "Past",
+    "choices": [
+     "Future",
+     "Past",
+     "Present"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? We will swim later.",
+    "answer": "Future",
+    "choices": [
+     "Future",
+     "Present",
+     "Past"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? Tomorrow I will play soccer.",
+    "answer": "Future",
+    "choices": [
+     "Future",
+     "Present",
+     "Past"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? He walked the dog this morning.",
+    "answer": "Past",
+    "choices": [
+     "Present",
+     "Future",
+     "Past"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTmIr",
+  "subject": "english",
+  "title": "Place sentences with irregular verbs on a timeline",
+  "section": "Verb tense",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXTmIr1",
+   "engXTmIr2"
+  ],
+  "examples": [
+   {
+    "question": "Where does this sentence go on the timeline? She sang in the choir last year.",
+    "answer": "Past",
+    "choices": [
+     "Past",
+     "Present",
+     "Future"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? Tomorrow I will run to school.",
+    "answer": "Future",
+    "choices": [
+     "Past",
+     "Present",
+     "Future"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? She will sing tomorrow.",
+    "answer": "Future",
+    "choices": [
+     "Present",
+     "Future",
+     "Past"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? I run to school every day.",
+    "answer": "Present",
+    "choices": [
+     "Future",
+     "Past",
+     "Present"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? Yesterday I ran to school.",
+    "answer": "Past",
+    "choices": [
+     "Present",
+     "Past",
+     "Future"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? Next week we will eat tacos.",
+    "answer": "Future",
+    "choices": [
+     "Past",
+     "Present",
+     "Future"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? We eat tacos on Fridays.",
+    "answer": "Present",
+    "choices": [
+     "Past",
+     "Present",
+     "Future"
+    ]
+   },
+   {
+    "question": "Where does this sentence go on the timeline? Last week we ate tacos.",
+    "answer": "Past",
+    "choices": [
+     "Past",
+     "Future",
+     "Present"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXEdIng",
+  "subject": "english",
+  "title": "Match the -ed and -ing sentences to the pictures",
+  "section": "Verb tense",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXEdIng1",
+   "engXEdIng2"
+  ],
+  "examples": [
+   {
+    "question": "⚽ Which sentence tells about something happening now?",
+    "answer": "They are kicking the ball.",
+    "choices": [
+     "They kicked the ball an hour ago.",
+     "They are kicking the ball."
+    ]
+   },
+   {
+    "question": "🍳 Which sentence tells about something happening in the past?",
+    "answer": "Dad cooked eggs this morning.",
+    "choices": [
+     "Dad is cooking eggs.",
+     "Dad cooked eggs this morning."
+    ]
+   },
+   {
+    "question": "🏊 Which sentence tells about something happening in the past?",
+    "answer": "He swam in the pool yesterday.",
+    "choices": [
+     "He is swimming in the pool.",
+     "He swam in the pool yesterday."
+    ]
+   },
+   {
+    "question": "🎨 Which sentence tells about something happening now?",
+    "answer": "She is painting a picture.",
+    "choices": [
+     "She is painting a picture.",
+     "She painted a picture last week."
+    ]
+   },
+   {
+    "question": "🎨 Which sentence tells about something happening in the past?",
+    "answer": "She painted a picture last week.",
+    "choices": [
+     "She is painting a picture.",
+     "She painted a picture last week."
+    ]
+   },
+   {
+    "question": "🍳 Which sentence tells about something happening now?",
+    "answer": "Dad is cooking eggs.",
+    "choices": [
+     "Dad is cooking eggs.",
+     "Dad cooked eggs this morning."
+    ]
+   },
+   {
+    "question": "🧹 Which sentence tells about something happening now?",
+    "answer": "Mia is sweeping the floor.",
+    "choices": [
+     "Mia is sweeping the floor.",
+     "Mia swept the floor yesterday."
+    ]
+   },
+   {
+    "question": "🧹 Which sentence tells about something happening in the past?",
+    "answer": "Mia swept the floor yesterday.",
+    "choices": [
+     "Mia is sweeping the floor.",
+     "Mia swept the floor yesterday."
+    ]
+   },
+   {
+    "question": "🏊 Which sentence tells about something happening now?",
+    "answer": "He is swimming in the pool.",
+    "choices": [
+     "He swam in the pool yesterday.",
+     "He is swimming in the pool."
+    ]
+   },
+   {
+    "question": "⚽ Which sentence tells about something happening in the past?",
+    "answer": "They kicked the ball an hour ago.",
+    "choices": [
+     "They are kicking the ball.",
+     "They kicked the ball an hour ago."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXBePr",
+  "subject": "english",
+  "title": "To be: use the correct present tense form",
+  "section": "Verb tense",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXBePr1",
+   "engXBePr2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. I ___ happy today.",
+    "answer": "am",
+    "choices": [
+     "are",
+     "is",
+     "am"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We ___ in the same class.",
+    "answer": "are",
+    "choices": [
+     "are",
+     "is",
+     "am"
+    ]
+   },
+   {
+    "question": "Complete the sentence. You ___ very kind.",
+    "answer": "are",
+    "choices": [
+     "are",
+     "am",
+     "is"
+    ]
+   },
+   {
+    "question": "Complete the sentence. They ___ my friends.",
+    "answer": "are",
+    "choices": [
+     "am",
+     "is",
+     "are"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She ___ at home.",
+    "answer": "is",
+    "choices": [
+     "am",
+     "are",
+     "is"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The dog ___ hungry.",
+    "answer": "is",
+    "choices": [
+     "is",
+     "am",
+     "are"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXBePa",
+  "subject": "english",
+  "title": "To be: use the correct past tense form",
+  "section": "Verb tense",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXBePa1",
+   "engXBePa2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. He ___ in Grade 1 last year.",
+    "answer": "was",
+    "choices": [
+     "were",
+     "was"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The kids ___ at the park.",
+    "answer": "were",
+    "choices": [
+     "was",
+     "were"
+    ]
+   },
+   {
+    "question": "Complete the sentence. You ___ right!",
+    "answer": "were",
+    "choices": [
+     "were",
+     "was"
+    ]
+   },
+   {
+    "question": "Complete the sentence. It ___ cold yesterday.",
+    "answer": "was",
+    "choices": [
+     "were",
+     "was"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We ___ late for school.",
+    "answer": "were",
+    "choices": [
+     "was",
+     "were"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I ___ tired last night.",
+    "answer": "was",
+    "choices": [
+     "were",
+     "was"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSvHv",
+  "subject": "english",
+  "title": "To have: use the correct form",
+  "section": "Verb tense",
+  "grades": [
+   1,
+   3
+  ],
+  "skillIds": [
+   "engSvHv1",
+   "engSvHv3"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. They ___ a red umbrella.",
+    "answer": "have",
+    "choices": [
+     "have",
+     "has"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We ___ a red umbrella.",
+    "answer": "have",
+    "choices": [
+     "has",
+     "have"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She ___ a red umbrella.",
+    "answer": "has",
+    "choices": [
+     "has",
+     "have"
+    ]
+   },
+   {
+    "question": "Complete the sentence. He ___ a red umbrella.",
+    "answer": "has",
+    "choices": [
+     "has",
+     "have"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I ___ a red umbrella.",
+    "answer": "have",
+    "choices": [
+     "has",
+     "have"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Mom and Dad ___ a red umbrella.",
+    "answer": "have",
+    "choices": [
+     "have",
+     "has"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Grandpa ___ a red umbrella.",
+    "answer": "has",
+    "choices": [
+     "has",
+     "have"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The kids ___ a red umbrella.",
+    "answer": "have",
+    "choices": [
+     "have",
+     "has"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The teacher ___ a red umbrella.",
+    "answer": "has",
+    "choices": [
+     "have",
+     "has"
+    ]
+   },
+   {
+    "question": "Complete the sentence. My sister ___ a red umbrella.",
+    "answer": "has",
+    "choices": [
+     "have",
+     "has"
+    ]
+   },
+   {
+    "question": "Complete the sentence. You ___ a red umbrella.",
+    "answer": "have",
+    "choices": [
+     "have",
+     "has"
+    ]
+   },
+   {
+    "question": "Complete the sentence. My friends ___ a red umbrella.",
+    "answer": "have",
+    "choices": [
+     "have",
+     "has"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSense",
+  "subject": "english",
+  "title": "Use sense words",
+  "section": "Adjectives",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXSense1",
+   "engXSense2"
+  ],
+  "examples": [
+   {
+    "question": "Which sense does this sentence tell about? The kitten feels soft.",
+    "answer": "touch",
+    "choices": [
+     "hearing",
+     "taste",
+     "smell",
+     "touch",
+     "sight"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The ice is cold.",
+    "answer": "touch",
+    "choices": [
+     "touch",
+     "hearing",
+     "sight",
+     "taste",
+     "smell"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The sky looks blue.",
+    "answer": "sight",
+    "choices": [
+     "taste",
+     "hearing",
+     "smell",
+     "sight",
+     "touch"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The bell rings loudly.",
+    "answer": "hearing",
+    "choices": [
+     "taste",
+     "hearing",
+     "touch",
+     "smell",
+     "sight"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The flowers smell sweet.",
+    "answer": "smell",
+    "choices": [
+     "sight",
+     "touch",
+     "smell",
+     "hearing",
+     "taste"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The lemon tastes sour.",
+    "answer": "taste",
+    "choices": [
+     "hearing",
+     "smell",
+     "sight",
+     "touch",
+     "taste"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The music is loud.",
+    "answer": "hearing",
+    "choices": [
+     "touch",
+     "smell",
+     "sight",
+     "taste",
+     "hearing"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The cookies smell yummy.",
+    "answer": "smell",
+    "choices": [
+     "taste",
+     "hearing",
+     "sight",
+     "touch",
+     "smell"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The candy is sweet.",
+    "answer": "taste",
+    "choices": [
+     "sight",
+     "smell",
+     "taste",
+     "hearing",
+     "touch"
+    ]
+   },
+   {
+    "question": "Which sense does this sentence tell about? The sun looks bright.",
+    "answer": "sight",
+    "choices": [
+     "sight",
+     "hearing",
+     "smell",
+     "taste",
+     "touch"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAdIdE",
+  "subject": "english",
+  "title": "Identify adjectives",
+  "section": "Adjectives",
+  "grades": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engAdIdE1",
+   "engAdIdE2",
+   "engAdIdE3",
+   "engAdIdE4",
+   "engAdIdE5",
+   "engAdIdE6",
+   "engAdIdE7",
+   "engAdIdE8"
+  ],
+  "examples": [
+   {
+    "question": "Which word is an adjective? It was a cold morning.",
+    "answer": "cold",
+    "choices": [
+     "It",
+     "was",
+     "cold",
+     "morning"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? She wore a pretty dress.",
+    "answer": "pretty",
+    "choices": [
+     "dress",
+     "She",
+     "pretty",
+     "wore"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? We saw a huge whale.",
+    "answer": "huge",
+    "choices": [
+     "whale",
+     "We",
+     "saw",
+     "huge"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? They live in a big house.",
+    "answer": "big",
+    "choices": [
+     "live",
+     "big",
+     "in",
+     "They"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? A shiny coin fell out.",
+    "answer": "shiny",
+    "choices": [
+     "coin",
+     "shiny",
+     "out",
+     "fell"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? The red car is fast.",
+    "answer": "red",
+    "choices": [
+     "car",
+     "red",
+     "fast",
+     "is"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? The tiny ant carried a crumb.",
+    "answer": "tiny",
+    "choices": [
+     "ant",
+     "carried",
+     "crumb",
+     "tiny"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? He found three shells.",
+    "answer": "three",
+    "choices": [
+     "found",
+     "shells",
+     "He",
+     "three"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? I have a fluffy cat.",
+    "answer": "fluffy",
+    "choices": [
+     "have",
+     "cat",
+     "fluffy"
+    ]
+   },
+   {
+    "question": "Which word is an adjective? The soup is hot.",
+    "answer": "hot",
+    "choices": [
+     "soup",
+     "hot",
+     "is"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAdTw",
+  "subject": "english",
+  "title": "Does the adjective compare two or more than two?",
+  "section": "Adjectives",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXAdTw1"
+  ],
+  "examples": [
+   {
+    "question": "Does the underlined adjective compare two things or more than two? That was the funniest movie of all.",
+    "answer": "More than two",
+    "choices": [
+     "More than two",
+     "Two"
+    ]
+   },
+   {
+    "question": "Does the underlined adjective compare two things or more than two? This is the smallest of the three cups.",
+    "answer": "More than two",
+    "choices": [
+     "More than two",
+     "Two"
+    ]
+   },
+   {
+    "question": "Does the underlined adjective compare two things or more than two? Today is colder than yesterday.",
+    "answer": "Two",
+    "choices": [
+     "Two",
+     "More than two"
+    ]
+   },
+   {
+    "question": "Does the underlined adjective compare two things or more than two? This box is bigger than that one.",
+    "answer": "Two",
+    "choices": [
+     "Two",
+     "More than two"
+    ]
+   },
+   {
+    "question": "Does the underlined adjective compare two things or more than two? She is the tallest girl in class.",
+    "answer": "More than two",
+    "choices": [
+     "Two",
+     "More than two"
+    ]
+   },
+   {
+    "question": "Does the underlined adjective compare two things or more than two? My dog is faster than yours.",
+    "answer": "Two",
+    "choices": [
+     "Two",
+     "More than two"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPpBs",
+  "subject": "english",
+  "title": "Select the best preposition to complete the sentence",
+  "section": "Prepositions",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engPpBs1",
+   "engPpBs2"
+  ],
+  "examples": [
+   {
+    "question": "Choose the preposition that best completes the sentence. The book is ___ the shelf.",
+    "answer": "on",
+    "choices": [
+     "read",
+     "on",
+     "here",
+     "thick"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. She walked ___ the door.",
+    "answer": "through",
+    "choices": [
+     "wooden",
+     "through",
+     "walked",
+     "later"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. We ate lunch ___ noon.",
+    "answer": "at",
+    "choices": [
+     "eat",
+     "hungry",
+     "soon",
+     "at"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. We walked ___ the bridge.",
+    "answer": "across",
+    "choices": [
+     "loudly",
+     "jumped",
+     "green",
+     "across"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. I sat ___ my two friends.",
+    "answer": "between",
+    "choices": [
+     "funny",
+     "between",
+     "sat",
+     "now"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. The cat is hiding ___ the bed.",
+    "answer": "under",
+    "choices": [
+     "slowly",
+     "under",
+     "happy",
+     "eat"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. The ball rolled ___ the hill.",
+    "answer": "down",
+    "choices": [
+     "round",
+     "kick",
+     "yesterday",
+     "down"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. The bird flew ___ the clouds.",
+    "answer": "above",
+    "choices": [
+     "softly",
+     "above",
+     "sing",
+     "blue"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. The dog sat ___ the fire.",
+    "answer": "near",
+    "choices": [
+     "gently",
+     "warm",
+     "sat",
+     "near"
+    ]
+   },
+   {
+    "question": "Choose the preposition that best completes the sentence. Put the milk ___ the fridge.",
+    "answer": "in",
+    "choices": [
+     "in",
+     "run",
+     "quickly",
+     "tall"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCjUs",
+  "subject": "english",
+  "title": "Use conjunctions",
+  "section": "Linking words",
+  "grades": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engCjUs1",
+   "engCjUs2",
+   "engCjUs3",
+   "engCjUs4",
+   "engCjUs5",
+   "engCjUs6"
+  ],
+  "examples": [
+   {
+    "question": "Choose the conjunction that best completes the sentence. I like apples ___ bananas.",
+    "answer": "and",
+    "choices": [
+     "so",
+     "and",
+     "because",
+     "but"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. The dog was hungry, ___ we fed it.",
+    "answer": "so",
+    "choices": [
+     "so",
+     "or",
+     "because",
+     "but"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. We stayed inside ___ it was raining.",
+    "answer": "because",
+    "choices": [
+     "or",
+     "and",
+     "but",
+     "because"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. I wore boots ___ the ground was muddy.",
+    "answer": "because",
+    "choices": [
+     "or",
+     "but",
+     "and",
+     "because"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. It was cold, ___ I wore a coat.",
+    "answer": "so",
+    "choices": [
+     "but",
+     "because",
+     "and",
+     "so"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. Do you want milk ___ juice?",
+    "answer": "or",
+    "choices": [
+     "so",
+     "and",
+     "but",
+     "or"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. She is tired, ___ she keeps working.",
+    "answer": "but",
+    "choices": [
+     "but",
+     "so",
+     "or",
+     "and"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. I wanted to play, ___ it was raining.",
+    "answer": "but",
+    "choices": [
+     "but",
+     "and",
+     "because",
+     "so"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. Sam ___ Ana went to the park.",
+    "answer": "and",
+    "choices": [
+     "or",
+     "so",
+     "because",
+     "and"
+    ]
+   },
+   {
+    "question": "Choose the conjunction that best completes the sentence. You can draw ___ paint.",
+    "answer": "or",
+    "choices": [
+     "and",
+     "so",
+     "because",
+     "or"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTmId",
+  "subject": "english",
+  "title": "Identify time-order words",
+  "section": "Linking words",
+  "grades": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engTmId1",
+   "engTmId2",
+   "engTmId3",
+   "engTmId4"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a time-order word? After lunch, we went hiking.",
+    "answer": "After",
+    "choices": [
+     "hiking",
+     "went",
+     "After",
+     "lunch"
+    ]
+   },
+   {
+    "question": "Which word is a time-order word? Next, we drove to the lake.",
+    "answer": "Next",
+    "choices": [
+     "drove",
+     "lake",
+     "the",
+     "Next"
+    ]
+   },
+   {
+    "question": "Which word is a time-order word? Later, we watched a movie.",
+    "answer": "Later",
+    "choices": [
+     "watched",
+     "movie",
+     "Later"
+    ]
+   },
+   {
+    "question": "Which word is a time-order word? Last, put the cherry on top.",
+    "answer": "Last",
+    "choices": [
+     "Last",
+     "put",
+     "cherry",
+     "the"
+    ]
+   },
+   {
+    "question": "Which word is a time-order word? Then we set up the tent.",
+    "answer": "Then",
+    "choices": [
+     "Then",
+     "tent",
+     "the",
+     "set"
+    ]
+   },
+   {
+    "question": "Which word is a time-order word? First, we packed our bags.",
+    "answer": "First",
+    "choices": [
+     "our",
+     "packed",
+     "First",
+     "bags"
+    ]
+   },
+   {
+    "question": "Which word is a time-order word? Finally, we roasted marshmallows.",
+    "answer": "Finally",
+    "choices": [
+     "roasted",
+     "Finally",
+     "marshmallows"
+    ]
+   },
+   {
+    "question": "Which word is a time-order word? Before bed, I brush my teeth.",
+    "answer": "Before",
+    "choices": [
+     "bed",
+     "teeth",
+     "brush",
+     "Before"
+    ]
+   }
+  ]
+ }
+]

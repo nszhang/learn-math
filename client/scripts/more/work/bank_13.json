@@ -1,0 +1,2459 @@
+[
+ {
+  "key": "engScJn",
+  "subject": "english",
+  "title": "Use semicolons and commas to separate clauses",
+  "section": "Semicolons, colons and commas",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engScJn7",
+   "engScJn8",
+   "engScJn9",
+   "engScJn10",
+   "engScJn11",
+   "engScJn12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is correct?",
+    "answer": "It rained all day, so we stayed inside.",
+    "choices": [
+     "It rained all day: so we stayed inside.",
+     "It rained all day, so we stayed inside.",
+     "It rained all day so, we stayed inside.",
+     "It rained all day; so we stayed inside."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "He studied hard; therefore, he succeeded.",
+    "choices": [
+     "He studied hard; therefore he, succeeded.",
+     "He studied hard, therefore, he succeeded.",
+     "He studied hard: therefore, he succeeded.",
+     "He studied hard; therefore, he succeeded."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "She had one wish: to travel the world.",
+    "choices": [
+     "She had one wish; to travel the world.",
+     "She had one wish: and to travel the world.",
+     "She had one wish, to travel the world.",
+     "She had one wish: to travel the world."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "I like tea; my sister prefers coffee.",
+    "choices": [
+     "I like tea; and my sister prefers coffee.",
+     "I like tea: my sister prefers coffee.",
+     "I like tea, my sister prefers coffee.",
+     "I like tea; my sister prefers coffee."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "We have a problem: the printer is broken.",
+    "choices": [
+     "We have a problem: the printer is broken.",
+     "We have a problem: but the printer is broken.",
+     "We have a problem; the printer is broken.",
+     "We have a problem, the printer is broken."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Pack carefully: you will not have a second chance.",
+    "choices": [
+     "Pack carefully: and you will not have a second chance.",
+     "Pack carefully; you will, not have a second chance.",
+     "Pack carefully, you will not have a second chance.",
+     "Pack carefully: you will not have a second chance."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "The test was hard; I still passed.",
+    "choices": [
+     "The test was hard; but I still passed.",
+     "The test was hard, I still passed.",
+     "The test was hard; I still passed.",
+     "The test was hard: I still passed."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "The sky darkened, and the wind rose.",
+    "choices": [
+     "The sky darkened, and the wind rose.",
+     "The sky darkened and, the wind rose.",
+     "The sky darkened; and the wind rose.",
+     "The sky darkened: and the wind rose."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engScSr",
+  "subject": "english",
+  "title": "Use semicolons, colons and commas with lists",
+  "section": "Semicolons, colons and commas",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engScSr7",
+   "engScSr8",
+   "engScSr9",
+   "engScSr10",
+   "engScSr11",
+   "engScSr12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "The meetings are on Monday, May 5; Tuesday, May 6; and Friday, May 9.",
+    "choices": [
+     "The meetings are on Monday, May 5, Tuesday, May 6, and Friday, May 9.",
+     "The meetings are on Monday; May 5, Tuesday; May 6, and Friday; May 9.",
+     "The meetings are on Monday, May 5; Tuesday, May 6, and Friday, May 9.",
+     "The meetings are on Monday, May 5; Tuesday, May 6; and Friday, May 9."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "The committee includes Dr. Lee, a chemist; Ms. Ortiz, a lawyer; and Mr. Kim, a teacher.",
+    "choices": [
+     "The committee includes Dr. Lee, a chemist, Ms. Ortiz, a lawyer, and Mr. Kim, a teacher.",
+     "The committee includes Dr. Lee, a chemist; Ms. Ortiz, a lawyer, and Mr. Kim, a teacher.",
+     "The committee includes Dr. Lee, a chemist; Ms. Ortiz, a lawyer; and Mr. Kim, a teacher.",
+     "The committee includes Dr. Lee; a chemist, Ms. Ortiz; a lawyer, and Mr. Kim; a teacher."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "I bought apples, oranges and bananas.",
+    "choices": [
+     "I bought, apples oranges and bananas.",
+     "I bought apples; oranges and bananas.",
+     "I bought apples, oranges and bananas.",
+     "I bought apples; oranges; and bananas."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "We visited Paris, France; Rome, Italy; and Madrid, Spain.",
+    "choices": [
+     "We visited Paris, France; Rome, Italy; and Madrid, Spain.",
+     "We visited Paris; France, Rome; Italy, and Madrid; Spain.",
+     "We visited Paris, France, Rome, Italy, and Madrid, Spain.",
+     "We visited Paris, France; Rome, Italy, and Madrid, Spain."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "We packed tents, sleeping bags and stoves.",
+    "choices": [
+     "We packed: tents sleeping bags and stoves.",
+     "We packed tents, sleeping bags and stoves.",
+     "We packed tents; sleeping bags; and stoves.",
+     "We packed tents; sleeping bags and stoves."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "The tour stops in Lyon, France; Zurich, Switzerland; and Vienna, Austria.",
+    "choices": [
+     "The tour stops in Lyon, France; Zurich, Switzerland, and Vienna, Austria.",
+     "The tour stops in Lyon, France, Zurich, Switzerland, and Vienna, Austria.",
+     "The tour stops in Lyon; France, Zurich; Switzerland, and Vienna; Austria.",
+     "The tour stops in Lyon, France; Zurich, Switzerland; and Vienna, Austria."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSMC",
+  "subject": "english",
+  "title": "Semicolons and colons",
+  "section": "Semicolons, colons and commas",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "engSMC7"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "She had one goal: to win.",
+    "choices": [
+     "She had one goal, to win.",
+     "She had: one goal to win.",
+     "She had one goal: to win.",
+     "She had one goal; to win."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "It was late; we went home.",
+    "choices": [
+     "It was late, we went home.",
+     "It was late: we went; home.",
+     "It was; late we went home.",
+     "It was late; we went home."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "We visited Paris, France; Rome, Italy; and Madrid, Spain.",
+    "choices": [
+     "We visited Paris; France, Rome; Italy and Madrid, Spain.",
+     "We visited Paris, France, Rome, Italy, and Madrid, Spain.",
+     "We visited: Paris, France; Rome Italy; and Madrid Spain.",
+     "We visited Paris, France; Rome, Italy; and Madrid, Spain."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "I love pizza; my sister prefers pasta.",
+    "choices": [
+     "I love; pizza my sister prefers pasta.",
+     "I love pizza, my sister prefers pasta.",
+     "I love pizza; my sister prefers pasta.",
+     "I love pizza: my sister prefers pasta."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "Pack these items: a towel, sunscreen, and water.",
+    "choices": [
+     "Pack these items, a towel; sunscreen, and water.",
+     "Pack these items; a towel, sunscreen, and water.",
+     "Pack these items: a towel, sunscreen, and water.",
+     "Pack: these items a towel, sunscreen, and water."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engDsHy",
+  "subject": "english",
+  "title": "Use hyphens in compound adjectives",
+  "section": "Dashes, hyphens and ellipses",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engDsHy7",
+   "engDsHy8",
+   "engDsHy9",
+   "engDsHy10",
+   "engDsHy11",
+   "engDsHy12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses hyphens correctly?",
+    "answer": "She is a well-known author.",
+    "choices": [
+     "She is a well known author.",
+     "She is a wellknown author.",
+     "She is a well-known author.",
+     "She is a well—known author."
+    ]
+   },
+   {
+    "question": "Which sentence uses hyphens correctly?",
+    "answer": "It was a long-awaited result.",
+    "choices": [
+     "It was a long awaited result.",
+     "It was a longawaited result.",
+     "It was a long—awaited result.",
+     "It was a long-awaited result."
+    ]
+   },
+   {
+    "question": "Which sentence uses hyphens correctly?",
+    "answer": "They bought a high-quality camera.",
+    "choices": [
+     "They bought a high-quality camera.",
+     "They bought a high—quality camera.",
+     "They bought a highquality camera.",
+     "They bought a high quality camera."
+    ]
+   },
+   {
+    "question": "Which sentence uses hyphens correctly?",
+    "answer": "She wrote a two-page essay.",
+    "choices": [
+     "She wrote a twopage essay.",
+     "She wrote a two page essay.",
+     "She wrote a two—page essay.",
+     "She wrote a two-page essay."
+    ]
+   },
+   {
+    "question": "Which sentence uses hyphens correctly?",
+    "answer": "The author is well known.",
+    "choices": [
+     "The author is well known.",
+     "The author is well-known.",
+     "The author is wellknown.",
+     "The author is well—known."
+    ]
+   },
+   {
+    "question": "Which sentence uses hyphens correctly?",
+    "answer": "We saw a six-year-old boy.",
+    "choices": [
+     "We saw a six-year old boy.",
+     "We saw a six year-old boy.",
+     "We saw a six year old boy.",
+     "We saw a six-year-old boy."
+    ]
+   },
+   {
+    "question": "Which sentence uses hyphens correctly?",
+    "answer": "He drove a fast-moving truck.",
+    "choices": [
+     "He drove a fast-moving truck.",
+     "He drove a fast—moving truck.",
+     "He drove a fast moving truck.",
+     "He drove a fastmoving truck."
+    ]
+   },
+   {
+    "question": "Which sentence uses hyphens correctly?",
+    "answer": "The truck was moving fast.",
+    "choices": [
+     "The truck was moving-fast.",
+     "The truck was-moving fast.",
+     "The truck was moving—fast.",
+     "The truck was moving fast."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engDsEl",
+  "subject": "english",
+  "title": "Decide whether ellipses are used appropriately",
+  "section": "Dashes, hyphens and ellipses",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engDsEl7",
+   "engDsEl8",
+   "engDsEl9",
+   "engDsEl10",
+   "engDsEl11",
+   "engDsEl12"
+  ],
+  "examples": [
+   {
+    "question": "Is the ellipsis used appropriately? Original: \"The trip was long and tiring, but the view was spectacular.\" Quote: \"The trip was long and tiring … the view was spectacular.\"",
+    "answer": "Appropriate",
+    "choices": [
+     "Appropriate",
+     "Not appropriate"
+    ]
+   },
+   {
+    "question": "Is the ellipsis used appropriately? Writing: \"Well … I guess so.\" in dialogue to show hesitation",
+    "answer": "Appropriate",
+    "choices": [
+     "Appropriate",
+     "Not appropriate"
+    ]
+   },
+   {
+    "question": "Is the ellipsis used appropriately? Original (Declaration of Independence, 1776): \"We hold these truths to be self-evident, that all men are created equal.\" Quote: \"We hold these truths … that all men are created equal.\"",
+    "answer": "Appropriate",
+    "choices": [
+     "Not appropriate",
+     "Appropriate"
+    ]
+   },
+   {
+    "question": "Is the ellipsis used appropriately? Original: \"I do not support this plan.\" Quote: \"I … support this plan.\"",
+    "answer": "Not appropriate",
+    "choices": [
+     "Appropriate",
+     "Not appropriate"
+    ]
+   },
+   {
+    "question": "Is the ellipsis used appropriately? Original: \"Winter is cold, and it is dark early, but spring follows.\" Quote: \"Winter is cold … spring follows.\"",
+    "answer": "Appropriate",
+    "choices": [
+     "Not appropriate",
+     "Appropriate"
+    ]
+   },
+   {
+    "question": "Is the ellipsis used appropriately? Quote: \"I … love … this … book\" (as a normal sentence by the writer)",
+    "answer": "Not appropriate",
+    "choices": [
+     "Appropriate",
+     "Not appropriate"
+    ]
+   },
+   {
+    "question": "Is the ellipsis used appropriately? Original: \"The results, which were published in 2020, surprised experts.\" Quote: \"The results … surprised experts.\"",
+    "answer": "Appropriate",
+    "choices": [
+     "Not appropriate",
+     "Appropriate"
+    ]
+   },
+   {
+    "question": "Is the ellipsis used appropriately? Original: \"He was not guilty of the crime.\" Quote: \"He was … guilty of the crime.\"",
+    "answer": "Not appropriate",
+    "choices": [
+     "Appropriate",
+     "Not appropriate"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engALU",
+  "subject": "english",
+  "title": "Allusions",
+  "section": "Literary devices",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "engALU8"
+  ],
+  "examples": [
+   {
+    "question": "What does the allusion The Midas touch suggest?",
+    "answer": "The ability to make money from everything",
+    "choices": [
+     "The ability to make money from everything",
+     "An action that unleashes many unexpected troubles",
+     "A small underdog facing a much larger opponent",
+     "Something that looks harmless but hides danger"
+    ]
+   },
+   {
+    "question": "What does the allusion Achilles' heel suggest?",
+    "answer": "A weakness in an otherwise strong person",
+    "choices": [
+     "A job that takes great strength or effort",
+     "A weakness in an otherwise strong person",
+     "An action that unleashes many unexpected troubles",
+     "The ability to make money from everything"
+    ]
+   },
+   {
+    "question": "What does the allusion A Herculean task suggest?",
+    "answer": "A job that takes great strength or effort",
+    "choices": [
+     "A weakness in an otherwise strong person",
+     "A person who helps strangers in need",
+     "A job that takes great strength or effort",
+     "A miserly, ungenerous person"
+    ]
+   },
+   {
+    "question": "What does the allusion A Trojan horse suggest?",
+    "answer": "Something that looks harmless but hides danger",
+    "choices": [
+     "Something that looks harmless but hides danger",
+     "An action that unleashes many unexpected troubles",
+     "A person who helps strangers in need",
+     "A small underdog facing a much larger opponent"
+    ]
+   },
+   {
+    "question": "What does the allusion Pandora's box suggest?",
+    "answer": "An action that unleashes many unexpected troubles",
+    "choices": [
+     "A miserly, ungenerous person",
+     "The ability to make money from everything",
+     "A job that takes great strength or effort",
+     "An action that unleashes many unexpected troubles"
+    ]
+   },
+   {
+    "question": "What does the allusion Scrooge suggest?",
+    "answer": "A miserly, ungenerous person",
+    "choices": [
+     "A miserly, ungenerous person",
+     "A small underdog facing a much larger opponent",
+     "A person who helps strangers in need",
+     "A weakness in an otherwise strong person"
+    ]
+   },
+   {
+    "question": "What does the allusion David and Goliath suggest?",
+    "answer": "A small underdog facing a much larger opponent",
+    "choices": [
+     "A job that takes great strength or effort",
+     "A person who helps strangers in need",
+     "An action that unleashes many unexpected troubles",
+     "A small underdog facing a much larger opponent"
+    ]
+   },
+   {
+    "question": "What does the allusion A Good Samaritan suggest?",
+    "answer": "A person who helps strangers in need",
+    "choices": [
+     "A miserly, ungenerous person",
+     "A person who helps strangers in need",
+     "Something that looks harmless but hides danger",
+     "The ability to make money from everything"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVCE",
+  "subject": "english",
+  "title": "Identify active and passive voice",
+  "section": "Active and passive voice",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "engVCE8",
+   "engVCE9",
+   "engVCE10"
+  ],
+  "examples": [
+   {
+    "question": "Is this sentence in active or passive voice? The report will be finished tomorrow.",
+    "answer": "Passive voice",
+    "choices": [
+     "Passive voice",
+     "Active voice"
+    ]
+   },
+   {
+    "question": "Is this sentence in active or passive voice? The chef cooked the meal.",
+    "answer": "Active voice",
+    "choices": [
+     "Passive voice",
+     "Active voice"
+    ]
+   },
+   {
+    "question": "Is this sentence in active or passive voice? The meal was cooked by the chef.",
+    "answer": "Passive voice",
+    "choices": [
+     "Passive voice",
+     "Active voice"
+    ]
+   },
+   {
+    "question": "Is this sentence in active or passive voice? Ana threw the ball.",
+    "answer": "Active voice",
+    "choices": [
+     "Active voice",
+     "Passive voice"
+    ]
+   },
+   {
+    "question": "Is this sentence in active or passive voice? Dogs chase cats.",
+    "answer": "Active voice",
+    "choices": [
+     "Active voice",
+     "Passive voice"
+    ]
+   },
+   {
+    "question": "Is this sentence in active or passive voice? Our team won the championship.",
+    "answer": "Active voice",
+    "choices": [
+     "Active voice",
+     "Passive voice"
+    ]
+   },
+   {
+    "question": "Is this sentence in active or passive voice? The window was broken.",
+    "answer": "Passive voice",
+    "choices": [
+     "Passive voice",
+     "Active voice"
+    ]
+   },
+   {
+    "question": "Is this sentence in active or passive voice? The ball was thrown by Ana.",
+    "answer": "Passive voice",
+    "choices": [
+     "Passive voice",
+     "Active voice"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXActW",
+  "subject": "english",
+  "title": "Rewrite the sentence in active voice",
+  "section": "Active and passive voice",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "engXActW8",
+   "engXActW9",
+   "engXActW10"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is the active-voice version? The window was broken by the storm.",
+    "answer": "The storm broke the window.",
+    "choices": [
+     "The window broke the storm.",
+     "The storm broke the window.",
+     "Broke the window, the storm did.",
+     "The storm was broken by the window."
+    ]
+   },
+   {
+    "question": "Which sentence is the active-voice version? The award was given to Mia by the principal.",
+    "answer": "The principal gave the award to Mia.",
+    "choices": [
+     "The principal was given the award by Mia.",
+     "Mia gave the award to the principal.",
+     "The award gave the principal to Mia.",
+     "The principal gave the award to Mia."
+    ]
+   },
+   {
+    "question": "Which sentence is the active-voice version? The project will be presented by our team.",
+    "answer": "Our team will present the project.",
+    "choices": [
+     "Presented the project our team will.",
+     "Our team will be presented by the project.",
+     "Our team will present the project.",
+     "The project will present our team."
+    ]
+   },
+   {
+    "question": "Which sentence is the active-voice version? The letter was written by Grandpa.",
+    "answer": "Grandpa wrote the letter.",
+    "choices": [
+     "Grandpa wrote the letter.",
+     "The letter wrote Grandpa.",
+     "Written was the letter by Grandpa.",
+     "Grandpa was written by the letter."
+    ]
+   },
+   {
+    "question": "Which sentence is the active-voice version? The ball was thrown by Ana.",
+    "answer": "Ana threw the ball.",
+    "choices": [
+     "The ball threw Ana.",
+     "Thrown was the ball by Ana.",
+     "Ana threw the ball.",
+     "Ana was thrown by the ball."
+    ]
+   },
+   {
+    "question": "Which sentence is the active-voice version? The cake was eaten by the children.",
+    "answer": "The children ate the cake.",
+    "choices": [
+     "Eaten was the cake by the children.",
+     "The children ate the cake.",
+     "The cake ate the children.",
+     "The children were eaten by the cake."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPRL",
+  "subject": "english",
+  "title": "Parallel structure",
+  "section": "Writing clearly and concisely",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "engPRL8"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses parallel structure?",
+    "answer": "The coach told us to stretch, to run, and to rest.",
+    "choices": [
+     "The coach told us stretching, to run, and rest.",
+     "The coach told us to stretch, running, and to rest.",
+     "The coach told us to stretch, to run, and to rest.",
+     "The coach told us to stretch, to run, and resting."
+    ]
+   },
+   {
+    "question": "Which sentence uses parallel structure?",
+    "answer": "We came, we saw, we conquered.",
+    "choices": [
+     "Coming, we saw, we conquered.",
+     "We came, seeing, and we conquered.",
+     "We came, we saw, we conquered.",
+     "We came, we saw, conquering."
+    ]
+   },
+   {
+    "question": "Which sentence uses parallel structure?",
+    "answer": "She likes hiking, swimming, and biking.",
+    "choices": [
+     "She likes to hike, swimming, and biking.",
+     "She likes hiking, swimming, and biking.",
+     "She likes hiking, swimming, and to bike.",
+     "She likes hiking, to swim, and biking."
+    ]
+   },
+   {
+    "question": "Which sentence uses parallel structure?",
+    "answer": "He is smart, funny, and kind.",
+    "choices": [
+     "He is smart, funny, and has kindness.",
+     "He is smart, makes jokes, and kind.",
+     "He is smart, funny, and kind.",
+     "He is smart, funny, and a kindness."
+    ]
+   },
+   {
+    "question": "Which sentence uses parallel structure?",
+    "answer": "To read is to learn.",
+    "choices": [
+     "To read is to learn.",
+     "To read is learned.",
+     "To read is learning.",
+     "Reading is to learn."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engApCp",
+  "subject": "english",
+  "title": "Identify and correct errors with compound and joint possession",
+  "section": "Nouns",
+  "grades": [
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engApCp8",
+   "engApCp9",
+   "engApCp10",
+   "engApCp11",
+   "engApCp12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is correct?",
+    "answer": "The editor-in-chief's decision was final.",
+    "choices": [
+     "The editors-in-chief decision was final.",
+     "The editor's-in-chief decision was final.",
+     "The editor-in-chiefs decision was final.",
+     "The editor-in-chief's decision was final."
+    ]
+   },
+   {
+    "question": "Tom and Sue lead one band together. Which sentence is correct?",
+    "answer": "Tom and Sue's band won the contest.",
+    "choices": [
+     "Tom and Sues' band won the contest.",
+     "Tom's and Sue's band won the contest.",
+     "Toms and Sue's band won the contest.",
+     "Tom and Sue's band won the contest."
+    ]
+   },
+   {
+    "question": "Anna and Ben each own a coat. Which sentence is correct?",
+    "answer": "Anna's and Ben's coats are wet.",
+    "choices": [
+     "Anna and Bens coats are wet.",
+     "Anna and Ben's coats are wet.",
+     "Anna's and Ben's coats are wet.",
+     "Annas' and Bens' coats are wet."
+    ]
+   },
+   {
+    "question": "Anna and Ben own one house together. Which sentence is correct?",
+    "answer": "Anna and Ben's house is big.",
+    "choices": [
+     "Anna and Bens' house is big.",
+     "Anna's and Ben's house is big.",
+     "Annas and Ben's house is big.",
+     "Anna and Ben's house is big."
+    ]
+   },
+   {
+    "question": "Sara and Raj each gave an answer. Which sentence is correct?",
+    "answer": "Sara's and Raj's answers differed.",
+    "choices": [
+     "Sara's and Rajs' answers differed.",
+     "Saras and Rajs answers differed.",
+     "Sara's and Raj's answers differed.",
+     "Sara and Raj's answers differed."
+    ]
+   },
+   {
+    "question": "Lee and Kim each wrote an essay. Which sentence is correct?",
+    "answer": "Lee's and Kim's essays were graded.",
+    "choices": [
+     "Lees and Kims essays were graded.",
+     "Lee's and Kim's essays were graded.",
+     "Lee and Kim's essays were graded.",
+     "Lee's and Kims' essays were graded."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "My mother-in-law's recipe is famous.",
+    "choices": [
+     "My mother's-in-law recipe is famous.",
+     "My mother-in-law's recipe is famous.",
+     "My mothers-in-law recipe is famous.",
+     "My mother-in-laws recipe is famous."
+    ]
+   },
+   {
+    "question": "Dad and Mom share one anniversary. Which sentence is correct?",
+    "answer": "Dad and Mom's anniversary is today.",
+    "choices": [
+     "Dad's and Mom's anniversary is today.",
+     "Dad and Moms' anniversary is today.",
+     "Dad and Mom's anniversary is today.",
+     "Dads and Mom's anniversary is today."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVBL",
+  "subject": "english",
+  "title": "Gerunds, participles and infinitives",
+  "section": "Verb types",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "engVBL8"
+  ],
+  "examples": [
+   {
+    "question": "What is the underlined verbal? The laughing children ran outside.",
+    "answer": "Participle",
+    "choices": [
+     "Gerund",
+     "Participle",
+     "Infinitive"
+    ]
+   },
+   {
+    "question": "What is the underlined verbal? I enjoy reading before bed.",
+    "answer": "Gerund",
+    "choices": [
+     "Gerund",
+     "Participle",
+     "Infinitive"
+    ]
+   },
+   {
+    "question": "What is the underlined verbal? He hopes to travel this summer.",
+    "answer": "Infinitive",
+    "choices": [
+     "Gerund",
+     "Infinitive",
+     "Participle"
+    ]
+   },
+   {
+    "question": "What is the underlined verbal? To learn a language takes time.",
+    "answer": "Infinitive",
+    "choices": [
+     "Participle",
+     "Gerund",
+     "Infinitive"
+    ]
+   },
+   {
+    "question": "What is the underlined verbal? Her amazing performance won the prize.",
+    "answer": "Participle",
+    "choices": [
+     "Participle",
+     "Gerund",
+     "Infinitive"
+    ]
+   },
+   {
+    "question": "What is the underlined verbal? Swimming is my favorite sport.",
+    "answer": "Gerund",
+    "choices": [
+     "Participle",
+     "Gerund",
+     "Infinitive"
+    ]
+   },
+   {
+    "question": "What is the underlined verbal? The broken vase lay on the floor.",
+    "answer": "Participle",
+    "choices": [
+     "Participle",
+     "Gerund",
+     "Infinitive"
+    ]
+   },
+   {
+    "question": "What is the underlined verbal? She wants to win the race.",
+    "answer": "Infinitive",
+    "choices": [
+     "Infinitive",
+     "Gerund",
+     "Participle"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVbPt",
+  "subject": "english",
+  "title": "Identify participles and what they modify",
+  "section": "Verb tense",
+  "grades": [
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engVbPt8",
+   "engVbPt9",
+   "engVbPt10",
+   "engVbPt11",
+   "engVbPt12"
+  ],
+  "examples": [
+   {
+    "question": "The smiling child waved goodbye. What noun does the participle modify?",
+    "answer": "child",
+    "choices": [
+     "smiling",
+     "child",
+     "waved",
+     "goodbye"
+    ]
+   },
+   {
+    "question": "The carved pumpkin glowed. What noun does the participle modify?",
+    "answer": "pumpkin",
+    "choices": [
+     "carved",
+     "pumpkin",
+     "The",
+     "glowed"
+    ]
+   },
+   {
+    "question": "The coach praised the team practising in the rain. What noun does the participle modify?",
+    "answer": "team",
+    "choices": [
+     "coach",
+     "rain",
+     "praised",
+     "team"
+    ]
+   },
+   {
+    "question": "Rising early, Dev made breakfast. What noun does the participle modify?",
+    "answer": "Dev",
+    "choices": [
+     "Rising",
+     "breakfast",
+     "early",
+     "Dev"
+    ]
+   },
+   {
+    "question": "A frightened kitten hid under the porch. What noun does the participle modify?",
+    "answer": "kitten",
+    "choices": [
+     "porch",
+     "frightened",
+     "hid",
+     "kitten"
+    ]
+   },
+   {
+    "question": "Exhausted , the runner collapsed. What noun does the participle modify?",
+    "answer": "runner",
+    "choices": [
+     "runner",
+     "Exhausted",
+     "the",
+     "collapsed"
+    ]
+   },
+   {
+    "question": "We watched the setting sun. What noun does the participle modify?",
+    "answer": "sun",
+    "choices": [
+     "setting",
+     "We",
+     "watched",
+     "sun"
+    ]
+   },
+   {
+    "question": "The broken window let in the cold. What noun does the participle modify?",
+    "answer": "window",
+    "choices": [
+     "let",
+     "window",
+     "cold",
+     "broken"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVbGr",
+  "subject": "english",
+  "title": "Identify gerunds and their functions",
+  "section": "Verb tense",
+  "grades": [
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engVbGr8",
+   "engVbGr9",
+   "engVbGr10",
+   "engVbGr11",
+   "engVbGr12"
+  ],
+  "examples": [
+   {
+    "question": "What function does the underlined gerund have? Laughing is good medicine.",
+    "answer": "Subject",
+    "choices": [
+     "Object of a preposition",
+     "Subject",
+     "Direct object",
+     "Predicate noun"
+    ]
+   },
+   {
+    "question": "What function does the underlined gerund have? She is good at drawing .",
+    "answer": "Object of a preposition",
+    "choices": [
+     "Direct object",
+     "Subject",
+     "Object of a preposition",
+     "Predicate noun"
+    ]
+   },
+   {
+    "question": "What function does the underlined gerund have? I enjoy reading before bed.",
+    "answer": "Direct object",
+    "choices": [
+     "Predicate noun",
+     "Direct object",
+     "Subject",
+     "Object of a preposition"
+    ]
+   },
+   {
+    "question": "What function does the underlined gerund have? He left without saying goodbye.",
+    "answer": "Object of a preposition",
+    "choices": [
+     "Predicate noun",
+     "Direct object",
+     "Object of a preposition",
+     "Subject"
+    ]
+   },
+   {
+    "question": "What function does the underlined gerund have? They love hiking in autumn.",
+    "answer": "Direct object",
+    "choices": [
+     "Direct object",
+     "Subject",
+     "Predicate noun",
+     "Object of a preposition"
+    ]
+   },
+   {
+    "question": "What function does the underlined gerund have? Swimming keeps me fit.",
+    "answer": "Subject",
+    "choices": [
+     "Object of a preposition",
+     "Subject",
+     "Direct object",
+     "Predicate noun"
+    ]
+   },
+   {
+    "question": "What function does the underlined gerund have? My goal is finishing the marathon.",
+    "answer": "Predicate noun",
+    "choices": [
+     "Predicate noun",
+     "Object of a preposition",
+     "Subject",
+     "Direct object"
+    ]
+   },
+   {
+    "question": "What function does the underlined gerund have? Her hobby is collecting stamps.",
+    "answer": "Predicate noun",
+    "choices": [
+     "Object of a preposition",
+     "Subject",
+     "Direct object",
+     "Predicate noun"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVbIn",
+  "subject": "english",
+  "title": "Identify infinitives and infinitive phrases",
+  "section": "Verb tense",
+  "grades": [
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engVbIn8",
+   "engVbIn9",
+   "engVbIn10",
+   "engVbIn11",
+   "engVbIn12"
+  ],
+  "examples": [
+   {
+    "question": "How is the underlined infinitive phrase used? Her dream is to become a doctor .",
+    "answer": "Noun",
+    "choices": [
+     "Adjective",
+     "Adverb",
+     "Noun"
+    ]
+   },
+   {
+    "question": "How is the underlined infinitive phrase used? He has a report to finish .",
+    "answer": "Adjective",
+    "choices": [
+     "Noun",
+     "Adjective",
+     "Adverb"
+    ]
+   },
+   {
+    "question": "How is the underlined infinitive phrase used? She wants to travel .",
+    "answer": "Noun",
+    "choices": [
+     "Adverb",
+     "Adjective",
+     "Noun"
+    ]
+   },
+   {
+    "question": "How is the underlined infinitive phrase used? It is time to leave .",
+    "answer": "Adjective",
+    "choices": [
+     "Adverb",
+     "Adjective",
+     "Noun"
+    ]
+   },
+   {
+    "question": "How is the underlined infinitive phrase used? I saved money to buy a bike .",
+    "answer": "Adverb",
+    "choices": [
+     "Adverb",
+     "Noun",
+     "Adjective"
+    ]
+   },
+   {
+    "question": "How is the underlined infinitive phrase used? The best way to learn is to practise.",
+    "answer": "Adjective",
+    "choices": [
+     "Adjective",
+     "Noun",
+     "Adverb"
+    ]
+   },
+   {
+    "question": "How is the underlined infinitive phrase used? We came to help .",
+    "answer": "Adverb",
+    "choices": [
+     "Noun",
+     "Adjective",
+     "Adverb"
+    ]
+   },
+   {
+    "question": "How is the underlined infinitive phrase used? To succeed takes effort.",
+    "answer": "Noun",
+    "choices": [
+     "Adverb",
+     "Noun",
+     "Adjective"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engMOD",
+  "subject": "english",
+  "title": "Misplaced and dangling modifiers",
+  "section": "Misplaced modifiers",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "engMOD8"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is written clearly, with the modifier next to the word it describes?",
+    "answer": "I found a wallet lying on the sidewalk.",
+    "choices": [
+     "Lying on the sidewalk, a wallet found me.",
+     "Lying on the sidewalk, I found a wallet.",
+     "I found a wallet lying on the sidewalk."
+    ]
+   },
+   {
+    "question": "Which sentence is written clearly, with the modifier next to the word it describes?",
+    "answer": "After finishing the test, Mia handed it in.",
+    "choices": [
+     "After finishing the test, the paper was handed in.",
+     "After finishing the test, Mia handed it in.",
+     "After finishing the test, the bell rang."
+    ]
+   },
+   {
+    "question": "Which sentence is written clearly, with the modifier next to the word it describes?",
+    "answer": "Walking to school, I saw a rainbow.",
+    "choices": [
+     "Walking to school, I saw a rainbow.",
+     "Walking to school, the rain stopped.",
+     "Walking to school, a rainbow appeared in the sky."
+    ]
+   },
+   {
+    "question": "Which sentence is written clearly, with the modifier next to the word it describes?",
+    "answer": "Covered in chocolate, the strawberries were delicious.",
+    "choices": [
+     "Covered in chocolate, I ate the strawberries.",
+     "Covered in chocolate, the strawberries were delicious.",
+     "Covered in chocolate, Dad served us."
+    ]
+   },
+   {
+    "question": "Which sentence is written clearly, with the modifier next to the word it describes?",
+    "answer": "Slipping on the ice, Tom dropped his books.",
+    "choices": [
+     "Slipping on the ice, Tom dropped his books.",
+     "Slipping on the ice, the books fell.",
+     "Slipping on the ice, the sidewalk was dangerous to Tom."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engMnId",
+  "subject": "english",
+  "title": "Determine the main idea of a passage",
+  "section": "Main idea",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engMnId9",
+   "engMnId10",
+   "engMnId11",
+   "engMnId12"
+  ],
+  "examples": [
+   {
+    "question": "Handwriting may seem old-fashioned, yet studies show students who take notes by hand remember lectures better than those who type, because writing forces them to summarize instead of copying word for word. What is the main idea of the passage?",
+    "answer": "Taking notes by hand can improve learning.",
+    "choices": [
+     "Taking notes by hand can improve learning.",
+     "Lectures are long.",
+     "Handwriting is old-fashioned.",
+     "Typing is faster."
+    ]
+   },
+   {
+    "question": "Once dismissed as noise, the songs of humpback whales are now known to change over time and spread from group to group, much like human music trends. What is the main idea of the passage?",
+    "answer": "Humpback whale songs evolve and spread in ways similar to human culture.",
+    "choices": [
+     "Whales are noisy.",
+     "Music is popular.",
+     "Humpback whale songs evolve and spread in ways similar to human culture.",
+     "Humpback whales are large."
+    ]
+   },
+   {
+    "question": "Read the passage. Urban heat islands form when concrete and asphalt absorb sunlight and release heat. Cities can be several degrees warmer than surrounding areas. Planting trees, installing green roofs and using reflective materials can lower temperatures significantly. What is the main idea?",
+    "answer": "Cities trap heat, but design changes can reduce it.",
+    "choices": [
+     "Cities trap heat, but design changes can reduce it.",
+     "Cities are always too hot to live in.",
+     "Trees are beautiful.",
+     "Asphalt is a type of rock."
+    ]
+   },
+   {
+    "question": "Read the passage. Though often dismissed as mere entertainment, video games have become a serious subject of academic study. Researchers examine how games tell stories, how players form communities and how game design can shape behaviour — inquiries that draw on psychology, literature and economics alike. What is the main idea?",
+    "answer": "Video games are now studied seriously across several academic fields.",
+    "choices": [
+     "Video games are now studied seriously across several academic fields.",
+     "Economics is the most important field.",
+     "Players form online communities.",
+     "Video games are only entertainment."
+    ]
+   },
+   {
+    "question": "For centuries, maps reflected the beliefs of their makers. European maps often placed Europe at the centre and drew it larger than it really is, shaping how people saw the world. What is the main idea of the passage?",
+    "answer": "Maps can reflect the biases of the people who make them.",
+    "choices": [
+     "Maps are always accurate.",
+     "People like maps.",
+     "Europe is in the centre of the world.",
+     "Maps can reflect the biases of the people who make them."
+    ]
+   },
+   {
+    "question": "Canada's Arctic is warming nearly four times faster than the global average. Thawing permafrost is cracking roads and buildings, and shrinking sea ice is changing how northern communities hunt and travel. What is the main idea of the passage?",
+    "answer": "Rapid Arctic warming is reshaping daily life and infrastructure in the North.",
+    "choices": [
+     "Sea ice is used for hunting.",
+     "Permafrost is frozen ground.",
+     "The Arctic is cold.",
+     "Rapid Arctic warming is reshaping daily life and infrastructure in the North."
+    ]
+   },
+   {
+    "question": "Libraries are no longer just places to borrow books. Many now lend tools, offer 3D printers, host coding classes and provide free internet to people who cannot afford it. What is the main idea of the passage?",
+    "answer": "Libraries have become community centres offering much more than books.",
+    "choices": [
+     "Internet access is free everywhere.",
+     "Libraries have become community centres offering much more than books.",
+     "Libraries lend tools.",
+     "3D printers are expensive."
+    ]
+   },
+   {
+    "question": "Sleep is not wasted time. During sleep the brain stores memories, clears waste and repairs itself, which is why sleep-deprived students often struggle on tests. What is the main idea of the passage?",
+    "answer": "Sleep performs essential work for the brain.",
+    "choices": [
+     "The brain stores memories only at school.",
+     "Students take tests.",
+     "Sleep performs essential work for the brain.",
+     "Tests are hard."
+    ]
+   },
+   {
+    "question": "Fast fashion lets people buy trendy clothes cheaply, but the industry produces huge amounts of waste and often relies on poorly paid workers. What is the main idea of the passage?",
+    "answer": "Cheap trendy clothing comes with serious hidden costs.",
+    "choices": [
+     "Cheap trendy clothing comes with serious hidden costs.",
+     "Fashion changes quickly.",
+     "Workers make clothes.",
+     "Clothes are cheap."
+    ]
+   },
+   {
+    "question": "Although the Group of Seven is famous for painting Canada's wilderness, critics note that their empty landscapes erased the Indigenous peoples who lived there. What is the main idea of the passage?",
+    "answer": "The Group of Seven's celebrated paintings also left out Indigenous presence.",
+    "choices": [
+     "Wilderness is empty.",
+     "The Group of Seven's celebrated paintings also left out Indigenous presence.",
+     "Critics dislike painting.",
+     "The Group of Seven had seven members."
+    ]
+   },
+   {
+    "question": "Urban beekeeping is growing. City rooftops offer flowers from parks and gardens, and city bees often produce more honey than country bees, which face pesticides on farms. What is the main idea of the passage?",
+    "answer": "Cities can be surprisingly good places to keep bees.",
+    "choices": [
+     "Honey is sweet.",
+     "Rooftops are flat.",
+     "Farm pesticides are illegal.",
+     "Cities can be surprisingly good places to keep bees."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFrml",
+  "subject": "english",
+  "title": "Which text is most formal?",
+  "section": "Audience, purpose and tone",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFrml9",
+   "engFrml10",
+   "engFrml11",
+   "engFrml12"
+  ],
+  "examples": [
+   {
+    "question": "Which text is most formal?",
+    "answer": "Residents are advised to remain indoors until the warning is lifted.",
+    "choices": [
+     "Stay inside till the warning's over.",
+     "Residents are advised to remain indoors until the warning is lifted.",
+     "Seriously, stay home, people.",
+     "Don't go out, it's nasty out there!"
+    ]
+   },
+   {
+    "question": "Which sentence is most appropriate for a formal research paper?",
+    "answer": "The data suggest a correlation between sleep duration and academic performance.",
+    "choices": [
+     "So basically, more sleep = better grades.",
+     "Sleep totally matters for school, honestly.",
+     "The data kind of show that sleep and grades are connected.",
+     "The data suggest a correlation between sleep duration and academic performance."
+    ]
+   },
+   {
+    "question": "Which sentence is most formal?",
+    "answer": "The committee will convene at 9:00 a.m. to deliberate.",
+    "choices": [
+     "Nine o'clock — meeting time, folks!",
+     "The committee will convene at 9:00 a.m. to deliberate.",
+     "The committee's gonna meet at nine to talk it over.",
+     "We'll all hang out at nine and figure it out."
+    ]
+   },
+   {
+    "question": "Which text is most formal?",
+    "answer": "We regret to inform you that the event has been postponed.",
+    "choices": [
+     "We regret to inform you that the event has been postponed.",
+     "Event? Nope. Not happening.",
+     "Sorry guys, no event this week lol.",
+     "Bad news — the event's off for now."
+    ]
+   },
+   {
+    "question": "Which text is most formal?",
+    "answer": "The committee has reviewed your proposal and will respond within ten business days.",
+    "choices": [
+     "Cool idea! We'll let you know.",
+     "We looked at your idea and will get back to you soon.",
+     "The committee has reviewed your proposal and will respond within ten business days.",
+     "Got your proposal. Stay tuned!"
+    ]
+   },
+   {
+    "question": "Which text is most formal?",
+    "answer": "Applicants must submit their résumés by Friday, March 3.",
+    "choices": [
+     "Send us your résumé by Friday, OK?",
+     "Applicants must submit their résumés by Friday, March 3.",
+     "Résumés due Fri — don't be late!!",
+     "Get your stuff in by Friday!"
+    ]
+   },
+   {
+    "question": "Which sentence is most appropriate for a letter to a city council?",
+    "answer": "I respectfully request that the council reconsider the proposed fare increase.",
+    "choices": [
+     "Hey council, please don't hike the fares.",
+     "I respectfully request that the council reconsider the proposed fare increase.",
+     "Fares going up? Not cool.",
+     "The fare thing is super unfair, guys."
+    ]
+   },
+   {
+    "question": "Which text is most formal?",
+    "answer": "Thank you for your prompt reply; your assistance is greatly appreciated.",
+    "choices": [
+     "Thx, you're the best!",
+     "Thanks for getting back so fast!",
+     "Thank you for your prompt reply; your assistance is greatly appreciated.",
+     "Awesome, thanks a bunch!"
+    ]
+   },
+   {
+    "question": "Which text is most formal?",
+    "answer": "I would appreciate the opportunity to discuss my grade with you.",
+    "choices": [
+     "I would appreciate the opportunity to discuss my grade with you.",
+     "What's up with my grade?",
+     "Hey, my grade is kinda unfair.",
+     "Can we talk about my mark?"
+    ]
+   },
+   {
+    "question": "Which text is most formal?",
+    "answer": "Please refrain from using mobile devices during the examination.",
+    "choices": [
+     "Phones = zero on the test, got it?",
+     "Put your phones away, folks!",
+     "Please refrain from using mobile devices during the examination.",
+     "No phones during the test, please."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAuPu",
+  "subject": "english",
+  "title": "Identify audience and purpose",
+  "section": "Audience, purpose and tone",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engAuPu9",
+   "engAuPu10",
+   "engAuPu11",
+   "engAuPu12"
+  ],
+  "examples": [
+   {
+    "question": "\"Mitochondria generate most of the chemical energy needed to power a cell's biochemical reactions.\" Who is the most likely audience?",
+    "answer": "Biology students",
+    "choices": [
+     "Biology students",
+     "Travel agents",
+     "Car mechanics",
+     "Young children"
+    ]
+   },
+   {
+    "question": "An email from a principal lists the snow-day procedures for buses and pickups. What is the purpose of the email?",
+    "answer": "To inform families about procedures",
+    "choices": [
+     "To persuade students to skip school",
+     "To inform families about procedures",
+     "To entertain with a story",
+     "To sell bus passes"
+    ]
+   },
+   {
+    "question": "\"Imagine a city where every child can breathe clean air. Support the transit expansion — vote yes on Measure 4.\" What is the purpose?",
+    "answer": "To persuade voters",
+    "choices": [
+     "To inform about history",
+     "To explain a scientific process",
+     "To persuade voters",
+     "To entertain children"
+    ]
+   },
+   {
+    "question": "\"Applicants must submit a portfolio, two letters of reference and a 500-word statement by March 1.\" Who is the audience, and what is the purpose?",
+    "answer": "Prospective applicants; to give requirements",
+    "choices": [
+     "Teachers; to describe a place",
+     "Prospective applicants; to give requirements",
+     "Current students; to entertain",
+     "Parents; to persuade"
+    ]
+   },
+   {
+    "question": "A speech at a city council meeting urges members to save a heritage building from demolition. What is the speaker's purpose?",
+    "answer": "To persuade council to protect the building",
+    "choices": [
+     "To persuade council to protect the building",
+     "To entertain the audience",
+     "To describe the building's colour",
+     "To sell tickets"
+    ]
+   },
+   {
+    "question": "A pamphlet explains how to read a medication label, using large print and simple steps. Who is the most likely audience?",
+    "answer": "Patients, including older adults",
+    "choices": [
+     "Patients, including older adults",
+     "Professional athletes",
+     "Pharmacy researchers",
+     "Toddlers"
+    ]
+   },
+   {
+    "question": "A blog post written in casual language reviews the best budget headphones for students. Who is the intended audience?",
+    "answer": "Students shopping for headphones",
+    "choices": [
+     "Professional musicians only",
+     "Students shopping for headphones",
+     "Audio engineers",
+     "Retired teachers"
+    ]
+   },
+   {
+    "question": "A bright flyer says \"Join the Junior Robotics Club! No experience needed — snacks provided!\" What is the purpose of the flyer?",
+    "answer": "To persuade students to join the club",
+    "choices": [
+     "To report a news event",
+     "To criticize robotics",
+     "To persuade students to join the club",
+     "To explain how robots are built"
+    ]
+   },
+   {
+    "question": "A report full of statistics recommends changes to provincial tax policy. Who is the most likely audience?",
+    "answer": "Government decision-makers",
+    "choices": [
+     "Kindergarten students",
+     "Pet owners",
+     "Tourists",
+     "Government decision-makers"
+    ]
+   },
+   {
+    "question": "A scientific article describes a new method for measuring glacier melt, with equations and citations. Who is the intended audience?",
+    "answer": "Other scientists",
+    "choices": [
+     "Car buyers",
+     "Young children",
+     "Other scientists",
+     "Chefs"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSbOb",
+  "subject": "english",
+  "title": "Compare passages for subjective and objective tone",
+  "section": "Audience, purpose and tone",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engSbOb9",
+   "engSbOb10",
+   "engSbOb11",
+   "engSbOb12"
+  ],
+  "examples": [
+   {
+    "question": "Passage A: \"The senator's ridiculous plan will ruin our schools.\" Passage B: \"The senator's plan would cut school funding by 3%.\" Which passage uses a subjective tone?",
+    "answer": "Passage A",
+    "choices": [
+     "Passage B",
+     "Both",
+     "Passage A",
+     "Neither"
+    ]
+   },
+   {
+    "question": "Passage A: \"The team's pathetic defence collapsed again.\" Passage B: \"The team allowed four goals in the third period.\" Which passage is objective?",
+    "answer": "Passage B",
+    "choices": [
+     "Both",
+     "Neither",
+     "Passage A",
+     "Passage B"
+    ]
+   },
+   {
+    "question": "Is the tone objective or subjective? The bill passed the House of Commons by a vote of 178 to 147.",
+    "answer": "Objective",
+    "choices": [
+     "Subjective",
+     "Objective"
+    ]
+   },
+   {
+    "question": "Passage A: \"The bridge is 450 metres long and opened in 1997.\" Passage B: \"The bridge is a breathtaking masterpiece that everyone must see.\" Which passage is objective?",
+    "answer": "Passage A",
+    "choices": [
+     "Neither",
+     "Passage B",
+     "Passage A",
+     "Both"
+    ]
+   },
+   {
+    "question": "Is the tone objective or subjective? The reckless bill sailed through Parliament with shameful speed.",
+    "answer": "Subjective",
+    "choices": [
+     "Objective",
+     "Subjective"
+    ]
+   },
+   {
+    "question": "Passage A: \"The novel is set in 1920s Montreal and follows two sisters.\" Passage B: \"The novel's gorgeous prose will break your heart.\" Which passage is objective?",
+    "answer": "Passage A",
+    "choices": [
+     "Passage B",
+     "Both",
+     "Neither",
+     "Passage A"
+    ]
+   },
+   {
+    "question": "Passage A: \"Unemployment fell to 5.8% in June, according to Statistics Canada.\" Passage B: \"Finally, the struggling economy is showing wonderful signs of life!\" Which passage is objective?",
+    "answer": "Passage A",
+    "choices": [
+     "Neither",
+     "Both",
+     "Passage A",
+     "Passage B"
+    ]
+   },
+   {
+    "question": "Is the tone objective or subjective? This dazzling, unforgettable novel is the finest of the decade.",
+    "answer": "Subjective",
+    "choices": [
+     "Subjective",
+     "Objective"
+    ]
+   },
+   {
+    "question": "Passage A: \"This hilarious movie is the best of the year.\" Passage B: \"The movie, released in March, runs 112 minutes.\" Which passage is subjective?",
+    "answer": "Passage A",
+    "choices": [
+     "Passage A",
+     "Passage B",
+     "Both",
+     "Neither"
+    ]
+   },
+   {
+    "question": "Is the tone objective or subjective? The novel's narrator is unreliable, revealing contradictions as the plot unfolds.",
+    "answer": "Objective",
+    "choices": [
+     "Subjective",
+     "Objective"
+    ]
+   },
+   {
+    "question": "Passage A: \"Many residents attended the meeting, which lasted three hours.\" Passage B: \"Outraged residents packed the chaotic meeting for three exhausting hours.\" Which passage is subjective?",
+    "answer": "Passage B",
+    "choices": [
+     "Both",
+     "Neither",
+     "Passage B",
+     "Passage A"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPOV",
+  "subject": "english",
+  "title": "Identify the narrative point of view",
+  "section": "Literary devices",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPOV9",
+   "engPOV10",
+   "engPOV11",
+   "engPOV12"
+  ],
+  "examples": [
+   {
+    "question": "What point of view is this? They never knew what waited beyond the gate.",
+    "answer": "Third person",
+    "choices": [
+     "First person",
+     "Third person",
+     "Second person"
+    ]
+   },
+   {
+    "question": "What point of view is this? My brother laughed, and I couldn't help joining in.",
+    "answer": "First person",
+    "choices": [
+     "First person",
+     "Third person",
+     "Second person"
+    ]
+   },
+   {
+    "question": "What point of view is this? You pick up the phone and hear a strange voice.",
+    "answer": "Second person",
+    "choices": [
+     "Third person",
+     "Second person",
+     "First person"
+    ]
+   },
+   {
+    "question": "What point of view is this? She opened the door and stepped into the dark hallway.",
+    "answer": "Third person",
+    "choices": [
+     "Third person",
+     "Second person",
+     "First person"
+    ]
+   },
+   {
+    "question": "What point of view is this? You open the door and step into the dark hallway.",
+    "answer": "Second person",
+    "choices": [
+     "Second person",
+     "Third person",
+     "First person"
+    ]
+   },
+   {
+    "question": "What point of view is this? We hiked up the hill and set up camp at sunset.",
+    "answer": "First person",
+    "choices": [
+     "Third person",
+     "First person",
+     "Second person"
+    ]
+   },
+   {
+    "question": "What point of view is this? I walked into the room and felt my heart pound.",
+    "answer": "First person",
+    "choices": [
+     "Third person",
+     "Second person",
+     "First person"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFgEh",
+  "subject": "english",
+  "title": "Classify figures of speech: euphemism, hyperbole, oxymoron, paradox",
+  "section": "Literary devices",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "engFgEh9"
+  ],
+  "examples": [
+   {
+    "question": "Which figure of speech is this? The company is downsizing its workforce.",
+    "answer": "Euphemism",
+    "choices": [
+     "Oxymoron",
+     "Euphemism",
+     "Paradox",
+     "Hyperbole"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Wise fools speak only the truth.",
+    "answer": "Paradox",
+    "choices": [
+     "Oxymoron",
+     "Hyperbole",
+     "Paradox",
+     "Euphemism"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? I have a million things to do today.",
+    "answer": "Hyperbole",
+    "choices": [
+     "Paradox",
+     "Hyperbole",
+     "Oxymoron",
+     "Euphemism"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? The more you learn, the less you know.",
+    "answer": "Paradox",
+    "choices": [
+     "Paradox",
+     "Oxymoron",
+     "Hyperbole",
+     "Euphemism"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? I'm so hungry I could eat the entire cafeteria.",
+    "answer": "Hyperbole",
+    "choices": [
+     "Euphemism",
+     "Paradox",
+     "Oxymoron",
+     "Hyperbole"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? This bag weighs a ton.",
+    "answer": "Hyperbole",
+    "choices": [
+     "Hyperbole",
+     "Paradox",
+     "Oxymoron",
+     "Euphemism"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? It was a deafening silence.",
+    "answer": "Oxymoron",
+    "choices": [
+     "Paradox",
+     "Oxymoron",
+     "Euphemism",
+     "Hyperbole"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? The movie was awfully good.",
+    "answer": "Oxymoron",
+    "choices": [
+     "Euphemism",
+     "Hyperbole",
+     "Oxymoron",
+     "Paradox"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Our dog passed away last night.",
+    "answer": "Euphemism",
+    "choices": [
+     "Oxymoron",
+     "Euphemism",
+     "Hyperbole",
+     "Paradox"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? He is between jobs right now.",
+    "answer": "Euphemism",
+    "choices": [
+     "Euphemism",
+     "Hyperbole",
+     "Paradox",
+     "Oxymoron"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Jumbo shrimp",
+    "answer": "Oxymoron",
+    "choices": [
+     "Euphemism",
+     "Paradox",
+     "Oxymoron",
+     "Hyperbole"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? I can resist everything except temptation.",
+    "answer": "Paradox",
+    "choices": [
+     "Hyperbole",
+     "Oxymoron",
+     "Paradox",
+     "Euphemism"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFgRv",
+  "subject": "english",
+  "title": "Classify figures of speech: review",
+  "section": "Literary devices",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFgRv9",
+   "engFgRv10",
+   "engFgRv11",
+   "engFgRv12"
+  ],
+  "examples": [
+   {
+    "question": "Which figure of speech is this? “O Captain! my Captain! rise up and hear the bells.” — Walt Whitman, “O Captain! My Captain!” (1865)",
+    "answer": "Apostrophe",
+    "choices": [
+     "Hyperbole",
+     "Apostrophe",
+     "Understatement",
+     "Euphemism",
+     "Antithesis",
+     "Anaphora",
+     "Paradox",
+     "Oxymoron"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Let us work together, let us build together, let us win together.",
+    "answer": "Anaphora",
+    "choices": [
+     "Hyperbole",
+     "Euphemism",
+     "Oxymoron",
+     "Antithesis",
+     "Paradox",
+     "Understatement",
+     "Anaphora",
+     "Apostrophe"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Nobody goes to that restaurant anymore — it's too crowded.",
+    "answer": "Paradox",
+    "choices": [
+     "Anaphora",
+     "Understatement",
+     "Paradox",
+     "Apostrophe",
+     "Antithesis",
+     "Euphemism",
+     "Hyperbole",
+     "Oxymoron"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? We are here to heal, not to harm.",
+    "answer": "Antithesis",
+    "choices": [
+     "Hyperbole",
+     "Apostrophe",
+     "Anaphora",
+     "Euphemism",
+     "Paradox",
+     "Understatement",
+     "Antithesis",
+     "Oxymoron"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Bittersweet memories",
+    "answer": "Oxymoron",
+    "choices": [
+     "Anaphora",
+     "Oxymoron",
+     "Understatement",
+     "Apostrophe",
+     "Euphemism",
+     "Antithesis",
+     "Hyperbole",
+     "Paradox"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? I've read this book a thousand times.",
+    "answer": "Hyperbole",
+    "choices": [
+     "Paradox",
+     "Anaphora",
+     "Oxymoron",
+     "Antithesis",
+     "Euphemism",
+     "Apostrophe",
+     "Understatement",
+     "Hyperbole"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? The hurricane caused some minor inconvenience to the town it flattened.",
+    "answer": "Understatement",
+    "choices": [
+     "Apostrophe",
+     "Paradox",
+     "Hyperbole",
+     "Euphemism",
+     "Anaphora",
+     "Understatement",
+     "Antithesis",
+     "Oxymoron"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? He's gone to a better place.",
+    "answer": "Euphemism",
+    "choices": [
+     "Paradox",
+     "Apostrophe",
+     "Oxymoron",
+     "Hyperbole",
+     "Anaphora",
+     "Antithesis",
+     "Euphemism",
+     "Understatement"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engLTD",
+  "subject": "english",
+  "title": "Literary devices",
+  "section": "Literary devices",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "engLTD9"
+  ],
+  "examples": [
+   {
+    "question": "Which literary device is shown? The crisp, golden leaves crunched underfoot and smelled of woodsmoke.",
+    "answer": "Imagery",
+    "choices": [
+     "Irony",
+     "Imagery",
+     "Foreshadowing",
+     "Flashback",
+     "Symbolism"
+    ]
+   },
+   {
+    "question": "Which literary device is shown? A chapter breaks to show the hero's childhood years earlier.",
+    "answer": "Flashback",
+    "choices": [
+     "Foreshadowing",
+     "Irony",
+     "Flashback",
+     "Symbolism",
+     "Imagery"
+    ]
+   },
+   {
+    "question": "Which literary device is shown? A white dove appears when the war ends.",
+    "answer": "Symbolism",
+    "choices": [
+     "Symbolism",
+     "Flashback",
+     "Imagery",
+     "Foreshadowing",
+     "Irony"
+    ]
+   },
+   {
+    "question": "Which literary device is shown? A fire station burns down.",
+    "answer": "Irony",
+    "choices": [
+     "Foreshadowing",
+     "Irony",
+     "Symbolism",
+     "Imagery",
+     "Flashback"
+    ]
+   },
+   {
+    "question": "Which literary device is shown? A broken mirror appears before the character's troubles begin.",
+    "answer": "Foreshadowing",
+    "choices": [
+     "Symbolism",
+     "Imagery",
+     "Flashback",
+     "Irony",
+     "Foreshadowing"
+    ]
+   },
+   {
+    "question": "Which literary device is shown? Dark clouds gathered as the family set off on the trip, and Mom frowned at the sky.",
+    "answer": "Foreshadowing",
+    "choices": [
+     "Irony",
+     "Foreshadowing",
+     "Flashback",
+     "Symbolism",
+     "Imagery"
+    ]
+   },
+   {
+    "question": "Which literary device is shown? The sweet scent of lilacs drifted through the warm, humming evening.",
+    "answer": "Imagery",
+    "choices": [
+     "Flashback",
+     "Imagery",
+     "Symbolism",
+     "Foreshadowing",
+     "Irony"
+    ]
+   },
+   {
+    "question": "Which literary device is shown? A pilot who is afraid of heights.",
+    "answer": "Irony",
+    "choices": [
+     "Imagery",
+     "Symbolism",
+     "Irony",
+     "Flashback",
+     "Foreshadowing"
+    ]
+   },
+   {
+    "question": "Which literary device is shown? A green light at the end of a dock stands for the hero's dreams.",
+    "answer": "Symbolism",
+    "choices": [
+     "Flashback",
+     "Irony",
+     "Foreshadowing",
+     "Symbolism",
+     "Imagery"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engShS",
+  "subject": "english",
+  "title": "Analyze short stories: set 1",
+  "section": "Analyzing literature",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engShS19",
+   "engShS29",
+   "engShS110",
+   "engShS210",
+   "engShS111",
+   "engShS211",
+   "engShS112",
+   "engShS212"
+  ],
+  "examples": [
+   {
+    "question": "Read the short story (an original story written for LearnAce). Every morning, old Mr. Tran fed the pigeons in the square, though the city had posted a sign forbidding it. Children crowded around him, laughing. The day the sign was removed, the square seemed strangely empty without his scolding glare. What can be inferred about Mr. Tran?",
+    "answer": "He is a kind person people have come to value.",
+    "choices": [
+     "He dislikes pigeons.",
+     "He is a kind person people have come to value.",
+     "He is a bitter man who hates children.",
+     "He wrote the sign."
+    ]
+   },
+   {
+    "question": "Read the short story (an original story written for LearnAce). Marisol had practised the violin for months. As she stepped onto the stage, her hands trembled, but she remembered her teacher's words: \"Play for the music, not the crowd.\" She breathed, raised her bow, and the first note rang clear. What is the best theme of this excerpt?",
+    "answer": "Preparation and focus can overcome nervousness.",
+    "choices": [
+     "Preparation and focus can overcome nervousness.",
+     "Teachers give bad advice.",
+     "Stage fright cannot be beaten.",
+     "Music is more important than people."
+    ]
+   },
+   {
+    "question": "Read the short story (an original story written for LearnAce). Dev had always laughed at his sister's clumsy drawings. When he found them framed on the wall of her art school, each one signed with a confident flourish, he felt something shift. He stood quietly for a long time. What does Dev most likely feel at the end?",
+    "answer": "Surprised and a little ashamed",
+    "choices": [
+     "Angry and jealous",
+     "Surprised and a little ashamed",
+     "Proud of his own art",
+     "Bored and unimpressed"
+    ]
+   },
+   {
+    "question": "Read the short story (an original story written for LearnAce). The village believed the old lighthouse was haunted, so no one visited. Lena climbed it one night and found only a tangle of nests and a window with a view of every star. She came down changed, eager to tell the others. How does the author create the setting's mood?",
+    "answer": "By contrasting fear with wonder",
+    "choices": [
+     "By using humour throughout",
+     "By contrasting fear with wonder",
+     "By describing a busy harbour",
+     "By listing facts about lighthouses"
+    ]
+   },
+   {
+    "question": "Read the short story (an original story written for LearnAce). \"I'm fine,\" Tomás said, for the third time, as he rubbed his sore ankle and tried to hide his limp. The coach raised an eyebrow, but the whistle blew and he jogged back onto the field. What does the repetition of \"I'm fine\" suggest?",
+    "answer": "Tomás is hiding his pain.",
+    "choices": [
+     "Tomás is confident he can win.",
+     "The coach is angry at him.",
+     "Tomás is hiding his pain.",
+     "The game is almost over."
+    ]
+   },
+   {
+    "question": "Read the short story (an original story written for LearnAce). The storm had knocked out the power for three days. At first the family argued over the dead phones. By the third night they were sitting on the porch, sharing stories under the stars, and no one wanted the lights to come back. How does the family change in the story?",
+    "answer": "They grow closer once distractions are gone.",
+    "choices": [
+     "They grow closer once distractions are gone.",
+     "They become angry at one another.",
+     "They fear the dark more.",
+     "They move to a new house."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engInfD",
+  "subject": "english",
+  "title": "Analyze the development of informational passages: set 1",
+  "section": "Analyzing informational texts",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engInfD19",
+   "engInfD29",
+   "engInfD110",
+   "engInfD210",
+   "engInfD111",
+   "engInfD211",
+   "engInfD112",
+   "engInfD212"
+  ],
+  "examples": [
+   {
+    "question": "What text structure does this passage mainly use? Many students struggled to focus. The school responded by starting later and adding a mid-morning break.",
+    "answer": "Problem and solution",
+    "choices": [
+     "Chronological order",
+     "Compare and contrast",
+     "Cause and effect",
+     "Problem and solution",
+     "Description"
+    ]
+   },
+   {
+    "question": "What text structure does this passage mainly use? In 1903 the Wright brothers made their first flight. By 1927 Lindbergh had crossed the Atlantic, and by 1969 humans were on the Moon.",
+    "answer": "Chronological order",
+    "choices": [
+     "Compare and contrast",
+     "Problem and solution",
+     "Cause and effect",
+     "Description",
+     "Chronological order"
+    ]
+   },
+   {
+    "question": "What text structure does this passage mainly use? Because the river flooded, crops were destroyed. As a result, food prices rose throughout the region.",
+    "answer": "Cause and effect",
+    "choices": [
+     "Compare and contrast",
+     "Chronological order",
+     "Problem and solution",
+     "Description",
+     "Cause and effect"
+    ]
+   },
+   {
+    "question": "What text structure does this passage mainly use? Both bats and birds can fly, but bats are mammals with leathery wings, while birds have feathers.",
+    "answer": "Compare and contrast",
+    "choices": [
+     "Chronological order",
+     "Compare and contrast",
+     "Cause and effect",
+     "Description",
+     "Problem and solution"
+    ]
+   },
+   {
+    "question": "What text structure does this passage mainly use? The town faced a severe shortage of clean water. To solve it, engineers built a new well and a filtration plant.",
+    "answer": "Problem and solution",
+    "choices": [
+     "Chronological order",
+     "Compare and contrast",
+     "Problem and solution",
+     "Description",
+     "Cause and effect"
+    ]
+   },
+   {
+    "question": "What text structure does this passage mainly use? The cottage sat at the end of a gravel path, its blue shutters faded, its garden crowded with lavender and bees.",
+    "answer": "Description",
+    "choices": [
+     "Compare and contrast",
+     "Description",
+     "Problem and solution",
+     "Chronological order",
+     "Cause and effect"
+    ]
+   },
+   {
+    "question": "What text structure does this passage mainly use? Heavy smoking can damage the lungs, which leads to breathing problems and an increased risk of cancer.",
+    "answer": "Cause and effect",
+    "choices": [
+     "Cause and effect",
+     "Problem and solution",
+     "Chronological order",
+     "Compare and contrast",
+     "Description"
+    ]
+   },
+   {
+    "question": "What text structure does this passage mainly use? Unlike the arctic fox, which has thick white fur, the fennec fox has thin sandy fur and enormous ears.",
+    "answer": "Compare and contrast",
+    "choices": [
+     "Compare and contrast",
+     "Problem and solution",
+     "Chronological order",
+     "Cause and effect",
+     "Description"
+    ]
+   }
+  ]
+ }
+]

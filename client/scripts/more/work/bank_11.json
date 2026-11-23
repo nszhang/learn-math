@@ -1,0 +1,2464 @@
+[
+ {
+  "key": "engXQtTh",
+  "subject": "english",
+  "title": "Match the quotations with their themes",
+  "section": "Theme",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "engXQtTh6",
+   "engXQtTh7",
+   "engXQtTh8",
+   "engXQtTh9"
+  ],
+  "examples": [
+   {
+    "question": "\"We may have lost the game, but we won something more — we became a team.\" Which theme best matches the quotation?",
+    "answer": "Teamwork",
+    "choices": [
+     "Loneliness",
+     "Pride",
+     "Teamwork",
+     "Betrayal"
+    ]
+   },
+   {
+    "question": "\"I thought I needed to be the best. Now I know I just needed to keep trying.\" Which theme best matches the quotation?",
+    "answer": "Perseverance",
+    "choices": [
+     "Revenge",
+     "Greed",
+     "Perseverance",
+     "Jealousy"
+    ]
+   },
+   {
+    "question": "\"I was afraid, but I spoke up anyway.\" Which theme best matches the quotation?",
+    "answer": "Courage",
+    "choices": [
+     "Envy",
+     "Courage",
+     "Greed",
+     "Laziness"
+    ]
+   },
+   {
+    "question": "\"Even in the darkest winter, I knew spring would come.\" Which theme best matches the quotation?",
+    "answer": "Hope",
+    "choices": [
+     "Hope",
+     "Anger",
+     "Greed",
+     "Fear"
+    ]
+   },
+   {
+    "question": "\"The more I got, the more I wanted, until I had nothing that mattered.\" Which theme best matches the quotation?",
+    "answer": "Greed",
+    "choices": [
+     "Hope",
+     "Greed",
+     "Friendship",
+     "Courage"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTnCp",
+  "subject": "english",
+  "title": "Compare passages for tone",
+  "section": "Author's purpose and tone",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engTnCp6",
+   "engTnCp7",
+   "engTnCp8",
+   "engTnCp9",
+   "engTnCp10",
+   "engTnCp11",
+   "engTnCp12"
+  ],
+  "examples": [
+   {
+    "question": "Which word best describes the tone? Tomorrow is a new day, and I know that with effort, we will rebuild stronger than before.",
+    "answer": "Optimistic",
+    "choices": [
+     "Somber",
+     "Nostalgic",
+     "Optimistic",
+     "Humorous",
+     "Sarcastic"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? Though the road is long, I am confident that brighter days are ahead.",
+    "answer": "Optimistic",
+    "choices": [
+     "Nostalgic",
+     "Humorous",
+     "Optimistic",
+     "Sarcastic",
+     "Somber"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? Sure, because nothing says \"relaxing\" like a three-hour wait at the airport.",
+    "answer": "Sarcastic",
+    "choices": [
+     "Somber",
+     "Sarcastic",
+     "Nostalgic",
+     "Humorous",
+     "Optimistic"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? Those were the days — long walks home, laughing with friends, and no worries at all.",
+    "answer": "Nostalgic",
+    "choices": [
+     "Somber",
+     "Nostalgic",
+     "Humorous",
+     "Sarcastic",
+     "Optimistic"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? I tried yoga once; the instructor said my downward dog looked more like a confused flamingo.",
+    "answer": "Humorous",
+    "choices": [
+     "Optimistic",
+     "Nostalgic",
+     "Humorous",
+     "Somber",
+     "Sarcastic"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? The funeral procession moved slowly, and not a word was spoken.",
+    "answer": "Somber",
+    "choices": [
+     "Humorous",
+     "Nostalgic",
+     "Somber",
+     "Optimistic",
+     "Sarcastic"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? The village lay silent beneath grey skies, mourning those who would never return.",
+    "answer": "Somber",
+    "choices": [
+     "Optimistic",
+     "Humorous",
+     "Sarcastic",
+     "Somber",
+     "Nostalgic"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? My dog thinks the vacuum is a monster, which is odd for an animal who eats socks.",
+    "answer": "Humorous",
+    "choices": [
+     "Optimistic",
+     "Sarcastic",
+     "Nostalgic",
+     "Somber",
+     "Humorous"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? Oh, wonderful — another meeting that could have been an email.",
+    "answer": "Sarcastic",
+    "choices": [
+     "Sarcastic",
+     "Nostalgic",
+     "Humorous",
+     "Optimistic",
+     "Somber"
+    ]
+   },
+   {
+    "question": "Which word best describes the tone? I still remember the smell of grandma's kitchen and the way summer evenings seemed to last forever.",
+    "answer": "Nostalgic",
+    "choices": [
+     "Somber",
+     "Humorous",
+     "Nostalgic",
+     "Sarcastic",
+     "Optimistic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAuPv",
+  "subject": "english",
+  "title": "Determine the author's point of view",
+  "section": "Point of view",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXAuPv6",
+   "engXAuPv7",
+   "engXAuPv8"
+  ],
+  "examples": [
+   {
+    "question": "Some people love winter sports, but I find the cold miserable. Give me a sunny beach any day. What is the author's point of view about winter?",
+    "answer": "The author dislikes the cold of winter",
+    "choices": [
+     "The author loves winter sports",
+     "The author dislikes the cold of winter",
+     "The author has never seen snow",
+     "The author prefers skiing"
+    ]
+   },
+   {
+    "question": "Video games can teach problem-solving and teamwork, as long as players also make time for other activities. What is the author's point of view about video games?",
+    "answer": "They can be helpful in balance with other activities",
+    "choices": [
+     "They are always harmful",
+     "They should be banned",
+     "They can be helpful in balance with other activities",
+     "They are only for adults"
+    ]
+   },
+   {
+    "question": "Video games often get blamed for everything, yet many teach teamwork, problem-solving and patience. How does the author view video games?",
+    "answer": "They have real benefits",
+    "choices": [
+     "They are boring",
+     "They should be banned",
+     "They are harmful",
+     "They have real benefits"
+    ]
+   },
+   {
+    "question": "Four-day school weeks sound fun, but younger students would lose valuable learning time. What does the author think of four-day school weeks?",
+    "answer": "They would hurt younger students' learning",
+    "choices": [
+     "They would help learning",
+     "They are a great idea",
+     "They would hurt younger students' learning",
+     "The author has no view"
+    ]
+   },
+   {
+    "question": "Libraries are more important than ever. They offer free books, computers and classes to everyone. Closing them would be a serious mistake. What is the author's point of view?",
+    "answer": "Libraries are valuable and should stay open",
+    "choices": [
+     "Libraries are valuable and should stay open",
+     "Libraries should close",
+     "The author has no opinion",
+     "Libraries are outdated"
+    ]
+   },
+   {
+    "question": "Uniforms take away students' chance to express who they are. How does the author feel about school uniforms?",
+    "answer": "Against them",
+    "choices": [
+     "Neutral",
+     "Against them",
+     "Unsure",
+     "In favour of them"
+    ]
+   },
+   {
+    "question": "Some people say homework is a waste of time, but I believe practice at home builds skills that class time alone cannot. What is the author's point of view about homework?",
+    "answer": "Homework is valuable",
+    "choices": [
+     "Homework is a waste of time",
+     "The author has no opinion",
+     "Homework is valuable",
+     "Homework should be banned"
+    ]
+   },
+   {
+    "question": "City life is noisy and crowded. I would trade every skyscraper for a quiet cabin by a lake. What does the author prefer?",
+    "answer": "Quiet country life",
+    "choices": [
+     "Busy city life",
+     "Quiet country life",
+     "Skyscrapers",
+     "Crowds"
+    ]
+   },
+   {
+    "question": "Public libraries are more important than ever: they offer free internet, classes and a safe place for everyone. What is the author's view of public libraries?",
+    "answer": "They are very important",
+    "choices": [
+     "They are very important",
+     "They should charge fees",
+     "They are only for books",
+     "They are outdated"
+    ]
+   },
+   {
+    "question": "Plastic straws may seem small, but millions end up in our oceans each year. It is time to switch to paper or metal. What is the author's position?",
+    "answer": "We should stop using plastic straws",
+    "choices": [
+     "Plastic straws are harmless",
+     "We should stop using plastic straws",
+     "Oceans are clean",
+     "Metal straws are dangerous"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFgCl",
+  "subject": "english",
+  "title": "Classify figures of speech",
+  "section": "Literary devices",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXFgCl6",
+   "engXFgCl7",
+   "engXFgCl8"
+  ],
+  "examples": [
+   {
+    "question": "Which figure of speech is used? I'm so hungry I could eat a horse!",
+    "answer": "Hyperbole",
+    "choices": [
+     "Metaphor",
+     "Personification",
+     "Simile",
+     "Hyperbole"
+    ]
+   },
+   {
+    "question": "Which figure of speech is used? Buzz! went the bee.",
+    "answer": "Onomatopoeia",
+    "choices": [
+     "Alliteration",
+     "Onomatopoeia",
+     "Metaphor",
+     "Simile"
+    ]
+   },
+   {
+    "question": "Which figure of speech is used? She ran as fast as a cheetah.",
+    "answer": "Simile",
+    "choices": [
+     "Simile",
+     "Alliteration",
+     "Metaphor",
+     "Hyperbole"
+    ]
+   },
+   {
+    "question": "Which figure of speech is used? The leaves danced in the wind.",
+    "answer": "Personification",
+    "choices": [
+     "Simile",
+     "Hyperbole",
+     "Personification",
+     "Onomatopoeia"
+    ]
+   },
+   {
+    "question": "Which figure of speech is used? The snow was a white blanket.",
+    "answer": "Metaphor",
+    "choices": [
+     "Onomatopoeia",
+     "Simile",
+     "Personification",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Which figure of speech is used? Peter Piper picked a peck of pickled peppers.",
+    "answer": "Alliteration",
+    "choices": [
+     "Hyperbole",
+     "Simile",
+     "Onomatopoeia",
+     "Alliteration"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engArgT",
+  "subject": "english",
+  "title": "Trace an argument",
+  "section": "Analyzing informational texts",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engArgT6",
+   "engArgT7",
+   "engArgT8",
+   "engArgT9",
+   "engArgT10",
+   "engArgT11",
+   "engArgT12"
+  ],
+  "examples": [
+   {
+    "question": "In an argument about school start times, what role does this sentence play? Critics worry that bus schedules would be difficult to change.",
+    "answer": "Counterclaim",
+    "choices": [
+     "Reason",
+     "Claim",
+     "Evidence",
+     "Counterclaim"
+    ]
+   },
+   {
+    "question": "In an argument about school start times, what role does this sentence play? Schools should start later in the morning.",
+    "answer": "Claim",
+    "choices": [
+     "Claim",
+     "Counterclaim",
+     "Reason",
+     "Evidence"
+    ]
+   },
+   {
+    "question": "In an argument about school start times, what role does this sentence play? According to the American Academy of Pediatrics, adolescents need 8–10 hours of sleep.",
+    "answer": "Evidence",
+    "choices": [
+     "Reason",
+     "Counterclaim",
+     "Evidence",
+     "Claim"
+    ]
+   },
+   {
+    "question": "In an argument about school start times, what role does this sentence play? A study of 9,000 students found that those starting after 8:30 a.m. had higher grades.",
+    "answer": "Evidence",
+    "choices": [
+     "Evidence",
+     "Claim",
+     "Reason",
+     "Counterclaim"
+    ]
+   },
+   {
+    "question": "In an argument about school start times, what role does this sentence play? Some argue that later start times would interfere with after-school sports.",
+    "answer": "Counterclaim",
+    "choices": [
+     "Counterclaim",
+     "Evidence",
+     "Reason",
+     "Claim"
+    ]
+   },
+   {
+    "question": "In an argument about school start times, what role does this sentence play? Sleep-deprived students are more likely to be involved in car accidents.",
+    "answer": "Reason",
+    "choices": [
+     "Reason",
+     "Counterclaim",
+     "Claim",
+     "Evidence"
+    ]
+   },
+   {
+    "question": "In an argument about school start times, what role does this sentence play? School start times should be moved later to protect students' health.",
+    "answer": "Claim",
+    "choices": [
+     "Counterclaim",
+     "Claim",
+     "Evidence",
+     "Reason"
+    ]
+   },
+   {
+    "question": "In an argument about school start times, what role does this sentence play? Teenagers need more sleep because their body clocks shift later.",
+    "answer": "Reason",
+    "choices": [
+     "Evidence",
+     "Claim",
+     "Reason",
+     "Counterclaim"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCmpG",
+  "subject": "english",
+  "title": "Compare two texts with different genres",
+  "section": "Comparing texts",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXCmpG6",
+   "engXCmpG7",
+   "engXCmpG8"
+  ],
+  "examples": [
+   {
+    "question": "Poem: \"The maple flares in autumn red, / a torch above the river's bed.\" Article: \"Maple leaves turn red in fall because trees stop making green chlorophyll and produce red pigments.\" How do the two texts treat the topic differently?",
+    "answer": "The poem uses imagery; the article explains the science",
+    "choices": [
+     "The poem uses imagery; the article explains the science",
+     "Both explain the science",
+     "Both use rhyme",
+     "The article is fiction"
+    ]
+   },
+   {
+    "question": "Myth: \"Raven brought light to the world by stealing the Sun from a box.\" Science article: \"The Sun formed about 4.6 billion years ago from a cloud of gas and dust.\" How do the texts explain the Sun differently?",
+    "answer": "The myth tells a traditional story; the article gives scientific facts",
+    "choices": [
+     "Both give scientific facts",
+     "Both are myths",
+     "The myth tells a traditional story; the article gives scientific facts",
+     "The article tells about Raven"
+    ]
+   },
+   {
+    "question": "Play script: \"MAYA (whispering): Did you hear that?\" Short story: \"Maya whispered, asking if anyone else had heard the noise.\" How do the genres present dialogue differently?",
+    "answer": "The script uses a speaker label and stage direction; the story uses narration",
+    "choices": [
+     "Neither has dialogue",
+     "The script uses a speaker label and stage direction; the story uses narration",
+     "The story uses speaker labels",
+     "Both use stage directions"
+    ]
+   },
+   {
+    "question": "Story: \"Grandma's kitchen smelled of bannock as she told us about her childhood.\" Recipe: \"Mix 2 cups flour, 1 tbsp baking powder and 1 cup water. Bake at 200 °C for 20 minutes.\" What is a key difference between the texts?",
+    "answer": "The story shares memories; the recipe gives instructions",
+    "choices": [
+     "The story shares memories; the recipe gives instructions",
+     "The recipe tells about Grandma",
+     "Both are poems",
+     "Both give instructions"
+    ]
+   },
+   {
+    "question": "Recipe: \"Mix 2 cups flour with 1 cup milk.\" Memoir: \"My grandmother never measured flour; she just knew by feel.\" What is a key difference?",
+    "answer": "The recipe gives exact steps; the memoir shares a memory",
+    "choices": [
+     "Both are poems",
+     "The memoir lists ingredients",
+     "Both give exact steps",
+     "The recipe gives exact steps; the memoir shares a memory"
+    ]
+   },
+   {
+    "question": "Poem: \"The geese write V's across the sky, / goodbye, goodbye, they seem to cry.\" Article: \"Canada geese migrate south in V-formation to save energy.\" What is a key difference between the texts?",
+    "answer": "The poem expresses feeling; the article explains a fact",
+    "choices": [
+     "Both are poems",
+     "The poem expresses feeling; the article explains a fact",
+     "The poem gives scientific data",
+     "The article rhymes"
+    ]
+   },
+   {
+    "question": "Fable: \"The ant worked all summer while the grasshopper played. In winter, the grasshopper went hungry.\" Science text: \"Ants store food in their nests for the winter.\" What does the fable have that the science text does not?",
+    "answer": "A lesson about hard work",
+    "choices": [
+     "A lesson about hard work",
+     "Facts about ants",
+     "Scientific vocabulary",
+     "A diagram"
+    ]
+   },
+   {
+    "question": "News article: \"A blizzard closed Highway 1 on Tuesday.\" Poem: \"White silence buries the road, / and the world holds its breath.\" How do the texts describe the storm differently?",
+    "answer": "The article states facts; the poem uses imagery",
+    "choices": [
+     "Neither mentions snow",
+     "The article states facts; the poem uses imagery",
+     "The article uses imagery",
+     "Both state facts only"
+    ]
+   },
+   {
+    "question": "Speech: \"Friends, our river is dying, and we must act now!\" Report: \"Water samples showed lead levels of 15 parts per billion.\" How is the speech different from the report?",
+    "answer": "The speech uses emotion to persuade; the report gives data",
+    "choices": [
+     "Both give only data",
+     "The speech uses emotion to persuade; the report gives data",
+     "The report is emotional",
+     "The speech is a poem"
+    ]
+   },
+   {
+    "question": "Letter: \"Dear Ms. Patel, thank you for the wonderful field trip!\" Advertisement: \"Book your class trip today and save 20%!\" What is a key difference in purpose?",
+    "answer": "The letter thanks someone; the ad tries to sell something",
+    "choices": [
+     "Both thank someone",
+     "The letter thanks someone; the ad tries to sell something",
+     "Both sell trips",
+     "The letter tries to sell"
+    ]
+   },
+   {
+    "question": "Diary: \"Dear Diary, today I saw my first moose! My heart pounded.\" Encyclopedia: \"The moose (Alces alces) is the largest member of the deer family.\" How do the texts differ in purpose?",
+    "answer": "The diary shares a personal experience; the encyclopedia informs",
+    "choices": [
+     "The encyclopedia tells a story",
+     "The diary shares a personal experience; the encyclopedia informs",
+     "Both are fictional",
+     "Both share personal feelings"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLhIl",
+  "subject": "english",
+  "title": "Compare illustrations of literary and historical subjects",
+  "section": "Visual elements",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXLhIl6",
+   "engXLhIl7",
+   "engXLhIl8"
+  ],
+  "examples": [
+   {
+    "question": "In one illustration of Romeo and Juliet's balcony scene, Juliet is lit by moonlight while Romeo hides in shadow below. In another, both stand together in a bright garden. What effect does the shadow in the first illustration create?",
+    "answer": "It suggests secrecy and danger",
+    "choices": [
+     "It suggests secrecy and danger",
+     "It makes the scene cheerful",
+     "It shows that it is noon",
+     "It shows the two are related"
+    ]
+   },
+   {
+    "question": "Two illustrations show Laura Secord's 1813 walk to warn British troops. One shows her alone in a dark forest, looking afraid; the other shows her proudly delivering the message to an officer. What does the first illustration emphasize that the second does not?",
+    "answer": "The danger and fear of her journey",
+    "choices": [
+     "A celebration",
+     "The British officer",
+     "The danger and fear of her journey",
+     "Her success"
+    ]
+   },
+   {
+    "question": "One illustration of Cinderella shows her in a sparkling gown at the ball. Another shows her scrubbing floors in rags. What does each illustration focus on?",
+    "answer": "One shows her transformation; the other her hard life",
+    "choices": [
+     "Both show her cleaning",
+     "Both show the ball",
+     "Neither shows Cinderella",
+     "One shows her transformation; the other her hard life"
+    ]
+   },
+   {
+    "question": "An 1800s drawing shows the Klondike Gold Rush with happy miners holding nuggets. A photo from the same time shows exhausted people climbing a snowy mountain pass with heavy packs. What does the photo show that the drawing leaves out?",
+    "answer": "How hard and dangerous the journey was",
+    "choices": [
+     "How much gold people found",
+     "How warm the weather was",
+     "How easy travel was",
+     "How hard and dangerous the journey was"
+    ]
+   },
+   {
+    "question": "One illustration of Odysseus shows him as a strong warrior fighting a monster. Another shows him alone on a raft, looking tired and homesick. How do the illustrations show Odysseus differently?",
+    "answer": "One shows his strength; the other shows his loneliness and struggle",
+    "choices": [
+     "Neither shows Odysseus",
+     "One shows his strength; the other shows his loneliness and struggle",
+     "Both show him fighting",
+     "Both show him at home"
+    ]
+   },
+   {
+    "question": "One illustration of the Last Spike (1885) shows crowds cheering; another shows exhausted workers resting beside the tracks. How do the illustrations present the event differently?",
+    "answer": "One celebrates the achievement; the other shows the workers' hardship",
+    "choices": [
+     "Both show only workers",
+     "Neither shows the railway",
+     "One celebrates the achievement; the other shows the workers' hardship",
+     "Both show celebrations"
+    ]
+   },
+   {
+    "question": "A textbook drawing of Jacques Cartier shows him planting a cross while sailors cheer. A Haudenosaunee artist's version shows Chief Donnacona looking on with concern. Whose perspective does the second illustration add?",
+    "answer": "The Indigenous people who already lived there",
+    "choices": [
+     "Cartier's ship builders",
+     "The king of France",
+     "The sailors' families in France",
+     "The Indigenous people who already lived there"
+    ]
+   },
+   {
+    "question": "One illustration of Robin Hood shows him as a smiling hero giving gold to the poor. Another shows him as a sneaky thief hiding in the forest. How do the illustrations portray Robin Hood differently?",
+    "answer": "One shows him as a hero; the other as a thief",
+    "choices": [
+     "Both show him as a thief",
+     "Neither shows Robin Hood",
+     "Both show him as a king",
+     "One shows him as a hero; the other as a thief"
+    ]
+   },
+   {
+    "question": "A painting of Confederation shows the Fathers of Confederation in fine suits around a table. A modern illustration shows the same scene with Indigenous leaders watching from outside the window. What does the modern illustration add?",
+    "answer": "It draws attention to people who were left out of the decision",
+    "choices": [
+     "It removes the table",
+     "It shows the same thing exactly",
+     "It draws attention to people who were left out of the decision",
+     "It shows a hockey game"
+    ]
+   },
+   {
+    "question": "A poster from 1914 shows soldiers marching proudly with flags. A painting made after the war shows soldiers in muddy trenches. How do the two images present the war differently?",
+    "answer": "The poster makes war look glorious; the painting shows its harsh reality",
+    "choices": [
+     "Both show trenches",
+     "Both make war look glorious",
+     "The poster makes war look glorious; the painting shows its harsh reality",
+     "Neither shows soldiers"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpSn",
+  "subject": "english",
+  "title": "Choose the topic sentence that best captures the main idea",
+  "section": "Organizing writing",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engTpSn6",
+   "engTpSn7",
+   "engTpSn8",
+   "engTpSn9",
+   "engTpSn10",
+   "engTpSn11",
+   "engTpSn12"
+  ],
+  "examples": [
+   {
+    "question": "Which topic sentence best introduces this paragraph? …Volunteers shelve books, run reading nights, and help neighbours learn computer skills.",
+    "answer": "Volunteers keep the library running and serving the community.",
+    "choices": [
+     "Volunteers keep the library running and serving the community.",
+     "Computers are expensive.",
+     "Libraries have too many books.",
+     "Reading is boring."
+    ]
+   },
+   {
+    "question": "Which topic sentence best introduces this paragraph? …The Nile provided fertile soil, a water supply, and a route for trade. Cities grew along its banks.",
+    "answer": "The Nile River was essential to ancient Egyptian civilization.",
+    "choices": [
+     "The Nile River was essential to ancient Egyptian civilization.",
+     "Trade is important today.",
+     "Egypt is a hot country.",
+     "Rivers flow into the sea."
+    ]
+   },
+   {
+    "question": "Which topic sentence best introduces this paragraph? …It reduces stress, improves focus, and gives students a break from screens. Many schools now schedule it daily.",
+    "answer": "Outdoor recess benefits students in several ways.",
+    "choices": [
+     "Screens are harmful.",
+     "Recess should be shortened.",
+     "Schools have many schedules.",
+     "Outdoor recess benefits students in several ways."
+    ]
+   },
+   {
+    "question": "Which topic sentence best introduces this paragraph? …Dark chocolate contains antioxidants, may lower blood pressure, and can improve mood when eaten in moderation.",
+    "answer": "Eaten in moderation, dark chocolate offers some health benefits.",
+    "choices": [
+     "Mood is hard to measure.",
+     "Chocolate is sweet.",
+     "Eaten in moderation, dark chocolate offers some health benefits.",
+     "Candy bars should be banned."
+    ]
+   },
+   {
+    "question": "Which topic sentence best introduces this paragraph? …Dogs can sniff out explosives. They guide people who are blind. Some even detect illnesses before doctors can.",
+    "answer": "Dogs perform many important jobs for people.",
+    "choices": [
+     "People should adopt shelter animals.",
+     "Some dogs are afraid of loud noises.",
+     "Dogs are the best pets.",
+     "Dogs perform many important jobs for people."
+    ]
+   },
+   {
+    "question": "Which topic sentence best introduces this paragraph? …Cutting emissions, protecting forests, and investing in clean energy can slow climate change. Each step helps.",
+    "answer": "There are practical ways to combat climate change.",
+    "choices": [
+     "There are practical ways to combat climate change.",
+     "Clean energy costs too much.",
+     "Forests grow very slowly.",
+     "Climate change is a myth."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCjAv",
+  "subject": "english",
+  "title": "Transitions with conjunctive adverbs",
+  "section": "Organizing writing",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCjAv6",
+   "engCjAv7",
+   "engCjAv8",
+   "engCjAv9",
+   "engCjAv10",
+   "engCjAv11",
+   "engCjAv12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best conjunctive adverb. The report is thorough; ___, it includes helpful charts.",
+    "answer": "moreover",
+    "choices": [
+     "moreover",
+     "nevertheless",
+     "instead",
+     "however"
+    ]
+   },
+   {
+    "question": "Choose the best conjunctive adverb. The team practised for months; ___, they won the championship.",
+    "answer": "consequently",
+    "choices": [
+     "meanwhile",
+     "consequently",
+     "otherwise",
+     "however"
+    ]
+   },
+   {
+    "question": "Choose the best conjunctive adverb. The bus was late; ___, we missed the first act.",
+    "answer": "therefore",
+    "choices": [
+     "therefore",
+     "meanwhile",
+     "instead",
+     "however"
+    ]
+   },
+   {
+    "question": "Choose the best conjunctive adverb. She loves hiking; ___, she spends every weekend on the trails.",
+    "answer": "in fact",
+    "choices": [
+     "nevertheless",
+     "otherwise",
+     "in fact",
+     "instead"
+    ]
+   },
+   {
+    "question": "Choose the best conjunctive adverb. We expected rain; ___, the day turned out sunny.",
+    "answer": "nevertheless",
+    "choices": [
+     "therefore",
+     "moreover",
+     "likewise",
+     "nevertheless"
+    ]
+   },
+   {
+    "question": "Choose the best conjunctive adverb. He enjoys painting; ___, his sister prefers sculpture.",
+    "answer": "meanwhile",
+    "choices": [
+     "consequently",
+     "meanwhile",
+     "furthermore",
+     "otherwise"
+    ]
+   },
+   {
+    "question": "Choose the best conjunctive adverb. Study tonight; ___, you will be unprepared tomorrow.",
+    "answer": "otherwise",
+    "choices": [
+     "therefore",
+     "moreover",
+     "otherwise",
+     "similarly"
+    ]
+   },
+   {
+    "question": "Choose the best conjunctive adverb. The recipe looked simple; ___, it took three hours to prepare.",
+    "answer": "however",
+    "choices": [
+     "however",
+     "likewise",
+     "therefore",
+     "furthermore"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engEvBt",
+  "subject": "english",
+  "title": "Choose evidence to support a claim",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engEvBt6",
+   "engEvBt7",
+   "engEvBt8",
+   "engEvBt9",
+   "engEvBt10",
+   "engEvBt11",
+   "engEvBt12"
+  ],
+  "examples": [
+   {
+    "question": "Claim: The city needs more bike lanes.",
+    "answer": "Cyclist injuries fell 40% on streets where bike lanes were added.",
+    "choices": [
+     "Many people like parks.",
+     "Bicycles have two wheels.",
+     "Cyclist injuries fell 40% on streets where bike lanes were added.",
+     "Roads can be crowded."
+    ]
+   },
+   {
+    "question": "Claim: Volunteering benefits the volunteer.",
+    "answer": "Studies link volunteering to lower stress and a greater sense of purpose.",
+    "choices": [
+     "Volunteers wear name tags.",
+     "Studies link volunteering to lower stress and a greater sense of purpose.",
+     "Some people prefer to work alone.",
+     "Charities need funding."
+    ]
+   },
+   {
+    "question": "Claim: Electric cars are becoming more popular.",
+    "answer": "Sales of electric cars doubled in the past three years.",
+    "choices": [
+     "Cars have four wheels.",
+     "Sales of electric cars doubled in the past three years.",
+     "My neighbour bought a truck.",
+     "Gas prices were high in 1990."
+    ]
+   },
+   {
+    "question": "Claim: Ancient Rome was well engineered.",
+    "answer": "Roman roads and aqueducts have remained usable for nearly two thousand years.",
+    "choices": [
+     "Roman roads and aqueducts have remained usable for nearly two thousand years.",
+     "Latin is no longer spoken.",
+     "Rome is in Italy.",
+     "The Colosseum is popular with tourists."
+    ]
+   },
+   {
+    "question": "Claim: Eating breakfast improves school performance.",
+    "answer": "Students who ate breakfast scored higher on attention tests than those who skipped it.",
+    "choices": [
+     "Breakfast is eaten in the morning.",
+     "Some schools have cafeterias.",
+     "Cereal comes in many flavours.",
+     "Students who ate breakfast scored higher on attention tests than those who skipped it."
+    ]
+   },
+   {
+    "question": "Claim: Teens spend too much time on phones.",
+    "answer": "A survey found the average teen spends over seven hours a day on screens.",
+    "choices": [
+     "A survey found the average teen spends over seven hours a day on screens.",
+     "Some phones are black.",
+     "I do not own a phone.",
+     "Phones were invented in the 1800s."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCtCl",
+  "subject": "english",
+  "title": "Identify counterclaims",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCtCl6",
+   "engCtCl7",
+   "engCtCl8",
+   "engCtCl9",
+   "engCtCl10",
+   "engCtCl11",
+   "engCtCl12"
+  ],
+  "examples": [
+   {
+    "question": "Claim: Space exploration is worth the cost. Which is a counterclaim?",
+    "answer": "The money could be used to solve urgent problems on Earth.",
+    "choices": [
+     "Space research led to new technologies.",
+     "The money could be used to solve urgent problems on Earth.",
+     "Satellites help forecast weather.",
+     "Exploration inspires young scientists."
+    ]
+   },
+   {
+    "question": "Claim: Zoos should be closed. Which is a counterclaim?",
+    "answer": "Zoos help breed endangered species and educate the public.",
+    "choices": [
+     "Zoos help breed endangered species and educate the public.",
+     "Wild animals can roam freely in nature.",
+     "Animals in zoos have limited space.",
+     "Some zoos are very old."
+    ]
+   },
+   {
+    "question": "Claim: Students should have less homework. Which is a response that rebuts a counterclaim?",
+    "answer": "Although homework builds habits, excessive amounts lead to burnout and less actual learning.",
+    "choices": [
+     "Although homework builds habits, excessive amounts lead to burnout and less actual learning.",
+     "Homework is assigned every night.",
+     "Teachers decide how much homework to give.",
+     "Homework builds habits."
+    ]
+   },
+   {
+    "question": "Claim: School uniforms should be required. Which is a counterclaim?",
+    "answer": "Uniforms limit students' self-expression.",
+    "choices": [
+     "Uniforms save time in the morning.",
+     "Uniforms reduce peer pressure.",
+     "Uniforms limit students' self-expression.",
+     "Many schools have dress codes."
+    ]
+   },
+   {
+    "question": "Claim: Cities should ban plastic bags. Which is a counterclaim?",
+    "answer": "Reusable bags can be costly for low-income families.",
+    "choices": [
+     "Reusable bags can be costly for low-income families.",
+     "Plastic bags pollute oceans.",
+     "Many stores already offer paper bags.",
+     "Plastic bags take centuries to decompose."
+    ]
+   },
+   {
+    "question": "Claim: Voting should be mandatory. Which is a counterclaim?",
+    "answer": "Forcing citizens to vote infringes on personal freedom.",
+    "choices": [
+     "Forcing citizens to vote infringes on personal freedom.",
+     "Higher turnout makes governments more representative.",
+     "Voting is a civic duty.",
+     "Several countries already require voting."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPers",
+  "subject": "english",
+  "title": "Use personification",
+  "section": "Creative techniques",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "engXPers6",
+   "engXPers7",
+   "engXPers8",
+   "engXPers9",
+   "engXPers10"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses personification?",
+    "answer": "The old car groaned up the hill.",
+    "choices": [
+     "The car drove up the hill.",
+     "The old car was slow.",
+     "The car was red.",
+     "The old car groaned up the hill."
+    ]
+   },
+   {
+    "question": "Which sentence uses personification?",
+    "answer": "The sun smiled down on the picnic.",
+    "choices": [
+     "The sun was bright.",
+     "The picnic was in the sun.",
+     "The sun smiled down on the picnic.",
+     "It was sunny at the picnic."
+    ]
+   },
+   {
+    "question": "Which sentence uses personification?",
+    "answer": "The wind whispered through the trees.",
+    "choices": [
+     "The wind was strong.",
+     "The wind blew at 50 km/h.",
+     "It was a windy day.",
+     "The wind whispered through the trees."
+    ]
+   },
+   {
+    "question": "Which sentence uses personification?",
+    "answer": "The flowers danced in the breeze.",
+    "choices": [
+     "There was a breeze.",
+     "The flowers were pink.",
+     "The flowers danced in the breeze.",
+     "The flowers moved in the breeze."
+    ]
+   },
+   {
+    "question": "Which sentence uses personification?",
+    "answer": "My alarm clock screamed at 6 a.m.",
+    "choices": [
+     "My alarm clock screamed at 6 a.m.",
+     "I woke up at 6 a.m.",
+     "My alarm clock is loud.",
+     "My alarm clock rang at 6 a.m."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSigns",
+  "subject": "english",
+  "title": "Correct errors with signs",
+  "section": "Editing and revising",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXSigns6",
+   "engXSigns7",
+   "engXSigns8",
+   "engXSigns9",
+   "engXSigns10",
+   "engXSigns11",
+   "engXSigns12"
+  ],
+  "examples": [
+   {
+    "question": "🏪 Sign: \"Apple's for sale — 3 for $1\" Which is the correct version?",
+    "answer": "Apples for sale — 3 for $1",
+    "choices": [
+     "Apples' for sale — 3 for $1",
+     "Apple's for sale — 3 for $1",
+     "Apples for sale — 3 for $1",
+     "Apple for sales — 3 for $1"
+    ]
+   },
+   {
+    "question": "🍕 Sign: \"Its the best pizza in town!\" Which is the correct version?",
+    "answer": "It's the best pizza in town!",
+    "choices": [
+     "It's the best pizza in town!",
+     "It the best pizza in town!",
+     "Its the best pizza in town!",
+     "Its' the best pizza in town!"
+    ]
+   },
+   {
+    "question": "🏊 Sign: \"No diving aloud.\" Which is the correct version?",
+    "answer": "No diving allowed.",
+    "choices": [
+     "No diving allowed.",
+     "No diving a loud.",
+     "No diving aloud.",
+     "No diving alowed."
+    ]
+   },
+   {
+    "question": "🐕 Sign: \"Please keep you're dog on a leash.\" Which is the correct version?",
+    "answer": "Please keep your dog on a leash.",
+    "choices": [
+     "Please keep you're dog on a leash.",
+     "Please keep yours dog on a leash.",
+     "Please keep youre dog on a leash.",
+     "Please keep your dog on a leash."
+    ]
+   },
+   {
+    "question": "🛒 Sign: \"10 items or less\" Which is the correct version?",
+    "answer": "10 items or fewer",
+    "choices": [
+     "10 items or less",
+     "10 items or fewer",
+     "10 items or lesser",
+     "10 item or less"
+    ]
+   },
+   {
+    "question": "🚧 Sign: \"Your welcome to park here after 6 p.m.\" Which is the correct version?",
+    "answer": "You're welcome to park here after 6 p.m.",
+    "choices": [
+     "You welcome to park here after 6 p.m.",
+     "You're welcome to park here after 6 p.m.",
+     "Youre welcome to park here after 6 p.m.",
+     "Your welcome to park here after 6 p.m."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRvSg",
+  "subject": "english",
+  "title": "Suggest appropriate revisions",
+  "section": "Editing and revising",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRvSg6",
+   "engRvSg7",
+   "engRvSg8",
+   "engRvSg9",
+   "engRvSg10",
+   "engRvSg11",
+   "engRvSg12"
+  ],
+  "examples": [
+   {
+    "question": "Which revision is the clearest? The book was read by me and it was liked by me.",
+    "answer": "I read the book and liked it.",
+    "choices": [
+     "Me read and liked the book.",
+     "It was the book read and liked.",
+     "I read the book and liked it.",
+     "The book was read and liked by me."
+    ]
+   },
+   {
+    "question": "Which revision is the clearest? Running down the street, the bus was missed by Dana.",
+    "answer": "Running down the street, Dana missed the bus.",
+    "choices": [
+     "The bus, running down the street, missed Dana.",
+     "Down the street, was the bus missed running.",
+     "Running down the street, Dana missed the bus.",
+     "Running down the street, the bus missed Dana."
+    ]
+   },
+   {
+    "question": "Which revision is the clearest? The thing about the plan is that it has problems that are kind of big.",
+    "answer": "The plan has serious problems.",
+    "choices": [
+     "The plan kind of has problems.",
+     "The plan is thing-wise not good.",
+     "The plan has serious problems.",
+     "The plan has some things going on."
+    ]
+   },
+   {
+    "question": "Which revision is the clearest? In my opinion, I think that school should start later.",
+    "answer": "I think school should start later.",
+    "choices": [
+     "School, I think, in my opinion, later.",
+     "I think school should start later.",
+     "Opinion school later start.",
+     "In my opinion I think that I believe school should start later."
+    ]
+   },
+   {
+    "question": "Which revision is the clearest? She is a woman who is very, very smart and intelligent.",
+    "answer": "She is brilliant.",
+    "choices": [
+     "She is very, very smart and also intelligent.",
+     "She is brilliant.",
+     "She is smart and also very intelligent.",
+     "She is a woman smart."
+    ]
+   },
+   {
+    "question": "Which revision is the clearest? There are many reasons why people exercise, and one of the reasons is health.",
+    "answer": "People exercise for many reasons, including health.",
+    "choices": [
+     "Exercise, there are many reasons, is health.",
+     "People exercise reasons health.",
+     "Health is one reason of many reasons for reasons.",
+     "People exercise for many reasons, including health."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXBias",
+  "subject": "english",
+  "title": "Evaluate newspaper headlines for bias",
+  "section": "Research skills",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXBias6",
+   "engXBias7",
+   "engXBias8"
+  ],
+  "examples": [
+   {
+    "question": "Which headline is the most neutral?",
+    "answer": "Temperatures Reach 35 °C in Vancouver",
+    "choices": [
+     "Temperatures Reach 35 °C in Vancouver",
+     "Killer Heat Wave Terrorizes City",
+     "Glorious Sunshine Blesses City",
+     "Heat Ruins Summer Plans"
+    ]
+   },
+   {
+    "question": "Which headline is the most neutral?",
+    "answer": "School Board Approves Later Start Time",
+    "choices": [
+     "Brilliant Board Saves Students' Sleep",
+     "Disastrous Decision Shakes Families",
+     "School Board Caves to Lazy Teens",
+     "School Board Approves Later Start Time"
+    ]
+   },
+   {
+    "question": "Which headline uses loaded language?",
+    "answer": "Reckless Teens Take Over Mall",
+    "choices": [
+     "Reckless Teens Take Over Mall",
+     "Teens Gather at Mall on Saturday",
+     "Mall Reports Busy Weekend",
+     "Mall Extends Weekend Hours"
+    ]
+   },
+   {
+    "question": "Which headline shows bias against the team?",
+    "answer": "Hopeless Hawks Stumble to Another Loss",
+    "choices": [
+     "Hawks Lose 3–1 to Bears",
+     "Hopeless Hawks Stumble to Another Loss",
+     "Bears Defeat Hawks on Saturday",
+     "Hawks Fall in Close Game"
+    ]
+   },
+   {
+    "question": "Which headline is the most neutral?",
+    "answer": "New Phone Goes on Sale Friday",
+    "choices": [
+     "New Phone Goes on Sale Friday",
+     "Overpriced Phone Disappoints Fans",
+     "Amazing Phone Will Change Your Life",
+     "Must-Have Phone Sells Out Instantly"
+    ]
+   },
+   {
+    "question": "Which headline shows bias against the new park?",
+    "answer": "Council Wastes Millions on Useless Park",
+    "choices": [
+     "Council Wastes Millions on Useless Park",
+     "Park Plan Costs $3 Million",
+     "New Park to Open in June",
+     "Council Approves New Park"
+    ]
+   },
+   {
+    "question": "Which headline shows bias in favour of the mayor?",
+    "answer": "Visionary Mayor Delivers Bold New Transit Plan",
+    "choices": [
+     "Visionary Mayor Delivers Bold New Transit Plan",
+     "Transit Plan Released Monday",
+     "Mayor to Present Plan to Council",
+     "Mayor Announces Transit Plan"
+    ]
+   },
+   {
+    "question": "Which headline is the most neutral (least biased)?",
+    "answer": "City Council Votes 6–3 to Build New Park",
+    "choices": [
+     "Shocking Park Plan Will Ruin Our City",
+     "Heroic Council Finally Gives Kids a Park!",
+     "City Council Votes 6–3 to Build New Park",
+     "Greedy Council Wastes Money on Useless Park"
+    ]
+   },
+   {
+    "question": "Which headline is the most neutral?",
+    "answer": "School Board Votes 5–4 to Change Start Time",
+    "choices": [
+     "Brilliant Board Fixes Schedule",
+     "School Board Votes 5–4 to Change Start Time",
+     "Reckless Board Ruins Mornings",
+     "Board Forces Kids Out of Bed"
+    ]
+   },
+   {
+    "question": "Which headline shows bias against the subject?",
+    "answer": "Clueless Mayor Botches Snow Clean-up Again",
+    "choices": [
+     "Mayor Announces New Snow Clean-up Plan",
+     "Snow Clean-up Delayed by Equipment Problems",
+     "Clueless Mayor Botches Snow Clean-up Again",
+     "City Reviews Snow Clean-up After Storm"
+    ]
+   },
+   {
+    "question": "Which headline uses loaded language?",
+    "answer": "Greedy Developers Bulldoze Beloved Forest",
+    "choices": [
+     "Greedy Developers Bulldoze Beloved Forest",
+     "Construction Starts on Elm Street",
+     "Housing Project Begins on Former Woodland",
+     "Developers Clear Forest for Housing"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engROT",
+  "subject": "english",
+  "title": "Greek and Latin roots",
+  "section": "Greek and Latin roots",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "engROT6"
+  ],
+  "examples": [
+   {
+    "question": "The root auto (as in automobile) means …",
+    "answer": "self",
+    "choices": [
+     "self",
+     "carry",
+     "water",
+     "far"
+    ]
+   },
+   {
+    "question": "The root chron (as in chronology) means …",
+    "answer": "time",
+    "choices": [
+     "time",
+     "far",
+     "look",
+     "water"
+    ]
+   },
+   {
+    "question": "The root bio (as in biology) means …",
+    "answer": "life",
+    "choices": [
+     "far",
+     "life",
+     "carry",
+     "earth"
+    ]
+   },
+   {
+    "question": "The root port (as in transport) means …",
+    "answer": "carry",
+    "choices": [
+     "say",
+     "carry",
+     "earth",
+     "far"
+    ]
+   },
+   {
+    "question": "The root dict (as in dictate) means …",
+    "answer": "say",
+    "choices": [
+     "water",
+     "time",
+     "self",
+     "say"
+    ]
+   },
+   {
+    "question": "The root tele (as in telephone) means …",
+    "answer": "far",
+    "choices": [
+     "far",
+     "look",
+     "carry",
+     "self"
+    ]
+   },
+   {
+    "question": "The root geo (as in geography) means …",
+    "answer": "earth",
+    "choices": [
+     "look",
+     "earth",
+     "self",
+     "say"
+    ]
+   },
+   {
+    "question": "The root spect (as in spectator) means …",
+    "answer": "look",
+    "choices": [
+     "far",
+     "look",
+     "carry",
+     "say"
+    ]
+   },
+   {
+    "question": "The root aqua (as in aquarium) means …",
+    "answer": "water",
+    "choices": [
+     "water",
+     "say",
+     "write",
+     "carry"
+    ]
+   },
+   {
+    "question": "The root scrib/script (as in manuscript) means …",
+    "answer": "write",
+    "choices": [
+     "self",
+     "write",
+     "time",
+     "earth"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXIdA",
+  "subject": "english",
+  "title": "Identify the meaning of idioms and adages: set 2",
+  "section": "Idioms and adages",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "engXIdA26"
+  ],
+  "examples": [
+   {
+    "question": "What does the idiom or adage mean? Spill the beans",
+    "answer": "tell a secret",
+    "choices": [
+     "tell a lie",
+     "make a mess",
+     "cook dinner",
+     "tell a secret"
+    ]
+   },
+   {
+    "question": "What does the idiom or adage mean? Under the weather",
+    "answer": "feeling sick",
+    "choices": [
+     "in a storm",
+     "standing outside",
+     "feeling sick",
+     "very happy"
+    ]
+   },
+   {
+    "question": "What does the idiom or adage mean? Actions speak louder than words",
+    "answer": "what you do matters more than what you say",
+    "choices": [
+     "talk a lot",
+     "shout to be heard",
+     "be quiet",
+     "what you do matters more than what you say"
+    ]
+   },
+   {
+    "question": "What does the idiom or adage mean? Cost an arm and a leg",
+    "answer": "be very expensive",
+    "choices": [
+     "be very expensive",
+     "be free",
+     "be cheap",
+     "cause an injury"
+    ]
+   },
+   {
+    "question": "What does the idiom or adage mean? Break the ice",
+    "answer": "start a conversation in an awkward situation",
+    "choices": [
+     "break something frozen",
+     "start a conversation in an awkward situation",
+     "stop talking",
+     "make a mistake"
+    ]
+   },
+   {
+    "question": "What does the idiom or adage mean? The early bird catches the worm",
+    "answer": "people who act early succeed",
+    "choices": [
+     "wake up late",
+     "people who act early succeed",
+     "be patient",
+     "birds eat worms"
+    ]
+   },
+   {
+    "question": "What does the idiom or adage mean? Once in a blue moon",
+    "answer": "very rarely",
+    "choices": [
+     "at midnight",
+     "every night",
+     "very rarely",
+     "during a full moon"
+    ]
+   },
+   {
+    "question": "What does the idiom or adage mean? Hit the books",
+    "answer": "study hard",
+    "choices": [
+     "read for fun",
+     "punch a book",
+     "throw books away",
+     "study hard"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engNuDf",
+  "subject": "english",
+  "title": "Describe the difference between related words",
+  "section": "Shades of meaning",
+  "grades": [
+   6,
+   7,
+   8,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engNuDf6",
+   "engNuDf7",
+   "engNuDf8",
+   "engNuDf11",
+   "engNuDf12"
+  ],
+  "examples": [
+   {
+    "question": "Which word is stronger than dislike ?",
+    "answer": "despise",
+    "choices": [
+     "avoid",
+     "resist",
+     "despise",
+     "doubt"
+    ]
+   },
+   {
+    "question": "Which word is the most formal for get ?",
+    "answer": "obtain",
+    "choices": [
+     "obtain",
+     "nab",
+     "grab",
+     "snag"
+    ]
+   },
+   {
+    "question": "Which word means a stronger kind of walk than \"stroll\"?",
+    "answer": "march",
+    "choices": [
+     "march",
+     "saunter",
+     "wander",
+     "drift"
+    ]
+   },
+   {
+    "question": "Which word means careful and exact rather than just careful ?",
+    "answer": "meticulous",
+    "choices": [
+     "meticulous",
+     "cautious",
+     "watchful",
+     "wary"
+    ]
+   },
+   {
+    "question": "Which word means thin in a positive way?",
+    "answer": "slender",
+    "choices": [
+     "slender",
+     "skinny",
+     "gaunt",
+     "scrawny"
+    ]
+   },
+   {
+    "question": "Which word has the most negative meaning?",
+    "answer": "scheme",
+    "choices": [
+     "scheme",
+     "plan",
+     "strategy",
+     "outline"
+    ]
+   },
+   {
+    "question": "Which word describes a quieter voice than shout ?",
+    "answer": "murmur",
+    "choices": [
+     "bellow",
+     "yell",
+     "murmur",
+     "roar"
+    ]
+   },
+   {
+    "question": "Which word means a more intense feeling than happy ?",
+    "answer": "ecstatic",
+    "choices": [
+     "ecstatic",
+     "content",
+     "satisfied",
+     "pleased"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAnlC",
+  "subject": "english",
+  "title": "Analogies: challenge",
+  "section": "Analogies",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engAnlC6",
+   "engAnlC7",
+   "engAnlC8",
+   "engAnlC9",
+   "engAnlC10",
+   "engAnlC11",
+   "engAnlC12"
+  ],
+  "examples": [
+   {
+    "question": "Complete the analogy. archaic : modern :: ancient : ___",
+    "answer": "recent",
+    "choices": [
+     "aged",
+     "recent",
+     "historic",
+     "old"
+    ]
+   },
+   {
+    "question": "Complete the analogy. reticent : talkative :: timid : ___",
+    "answer": "bold",
+    "choices": [
+     "quiet",
+     "shy",
+     "bold",
+     "afraid"
+    ]
+   },
+   {
+    "question": "Complete the analogy. verbose : concise :: lavish : ___",
+    "answer": "sparse",
+    "choices": [
+     "rich",
+     "sparse",
+     "grand",
+     "generous"
+    ]
+   },
+   {
+    "question": "Complete the analogy. catalyst : reaction :: spark : ___",
+    "answer": "fire",
+    "choices": [
+     "fire",
+     "smoke",
+     "match",
+     "heat"
+    ]
+   },
+   {
+    "question": "Complete the analogy. frugal : miserly :: thrifty : ___",
+    "answer": "stingy",
+    "choices": [
+     "wealthy",
+     "stingy",
+     "generous",
+     "careful"
+    ]
+   },
+   {
+    "question": "Complete the analogy. obstinate : yielding :: rigid : ___",
+    "answer": "flexible",
+    "choices": [
+     "tough",
+     "hard",
+     "stiff",
+     "flexible"
+    ]
+   },
+   {
+    "question": "Complete the analogy. eloquent : speaker :: skilled : ___",
+    "answer": "craftsperson",
+    "choices": [
+     "craftsperson",
+     "tool",
+     "speech",
+     "work"
+    ]
+   },
+   {
+    "question": "Complete the analogy. whisper : shout :: stroll : ___",
+    "answer": "sprint",
+    "choices": [
+     "amble",
+     "walk",
+     "wander",
+     "sprint"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCxAn",
+  "subject": "english",
+  "title": "Determine the meaning of words using antonyms in context",
+  "section": "Context clues",
+  "grades": [
+   6,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCxAn6",
+   "engCxAn9",
+   "engCxAn10",
+   "engCxAn11",
+   "engCxAn12"
+  ],
+  "examples": [
+   {
+    "question": "The old building looked decrepit , yet its neighbour was brand-new. What does the underlined word mean?",
+    "answer": "run-down",
+    "choices": [
+     "modern",
+     "quiet",
+     "run-down",
+     "tall"
+    ]
+   },
+   {
+    "question": "Unlike his garrulous brother, Sam rarely said a word. What does the underlined word mean?",
+    "answer": "talkative",
+    "choices": [
+     "talkative",
+     "angry",
+     "silent",
+     "tall"
+    ]
+   },
+   {
+    "question": "She was frugal , whereas her sister spent money freely. What does the underlined word mean?",
+    "answer": "careful with money",
+    "choices": [
+     "greedy",
+     "careful with money",
+     "poor",
+     "generous"
+    ]
+   },
+   {
+    "question": "Though most animals avoid fire, the intrepid pony stayed close. What does the underlined word mean?",
+    "answer": "bold",
+    "choices": [
+     "young",
+     "fast",
+     "bold",
+     "fearful"
+    ]
+   },
+   {
+    "question": "He was reticent in class but outspoken at home. What does the underlined word mean?",
+    "answer": "reluctant to speak",
+    "choices": [
+     "talkative",
+     "reluctant to speak",
+     "angry",
+     "friendly"
+    ]
+   },
+   {
+    "question": "Rather than ascend the stairs, she took the elevator down. What does the underlined word mean?",
+    "answer": "go up",
+    "choices": [
+     "avoid",
+     "count",
+     "go down",
+     "go up"
+    ]
+   },
+   {
+    "question": "His lucid explanation made sense, unlike the earlier muddled one. What does the underlined word mean?",
+    "answer": "clear",
+    "choices": [
+     "long",
+     "clear",
+     "short",
+     "confusing"
+    ]
+   },
+   {
+    "question": "The first day was tranquil , but the second was full of chaos. What does the underlined word mean?",
+    "answer": "calm",
+    "choices": [
+     "noisy",
+     "brief",
+     "cold",
+     "calm"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAnte",
+  "subject": "english",
+  "title": "Identify pronouns and their antecedents",
+  "section": "Pronouns and antecedents",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXAnte6",
+   "engXAnte7",
+   "engXAnte8"
+  ],
+  "examples": [
+   {
+    "question": "What is the antecedent of the underlined pronoun? When Leo called, he sounded tired.",
+    "answer": "Leo",
+    "choices": [
+     "Leo",
+     "called",
+     "sounded",
+     "tired"
+    ]
+   },
+   {
+    "question": "What is the antecedent of the underlined pronoun? The tree dropped its leaves in October.",
+    "answer": "tree",
+    "choices": [
+     "dropped",
+     "tree",
+     "October",
+     "leaves"
+    ]
+   },
+   {
+    "question": "What is the antecedent of the underlined pronoun? Ana and Rosa finished their project.",
+    "answer": "Ana and Rosa",
+    "choices": [
+     "Rosa only",
+     "project",
+     "finished",
+     "Ana and Rosa"
+    ]
+   },
+   {
+    "question": "What is the antecedent of the underlined pronoun? Maya lost her backpack.",
+    "answer": "Maya",
+    "choices": [
+     "backpack",
+     "Maya",
+     "lost",
+     "her"
+    ]
+   },
+   {
+    "question": "What is the antecedent of the underlined pronoun? The dogs wagged their tails.",
+    "answer": "dogs",
+    "choices": [
+     "wagged",
+     "dogs",
+     "the",
+     "tails"
+    ]
+   },
+   {
+    "question": "What is the antecedent of the underlined pronoun? The school opened its new gym.",
+    "answer": "school",
+    "choices": [
+     "school",
+     "new",
+     "opened",
+     "gym"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAgre",
+  "subject": "english",
+  "title": "Use the pronoun that agrees with the antecedent",
+  "section": "Pronouns and antecedents",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXAgre6",
+   "engXAgre7",
+   "engXAgre8"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. Neither of the girls brought ___ umbrella.",
+    "answer": "her",
+    "choices": [
+     "their",
+     "its",
+     "her",
+     "our"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Both of the boys forgot ___ homework.",
+    "answer": "their",
+    "choices": [
+     "her",
+     "its",
+     "their",
+     "his"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Everyone should do ___ best.",
+    "answer": "his or her",
+    "choices": [
+     "its",
+     "his or her",
+     "our",
+     "their"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The cat licked ___ fur.",
+    "answer": "its",
+    "choices": [
+     "it's",
+     "its",
+     "her",
+     "their"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The team celebrated ___ victory.",
+    "answer": "its",
+    "choices": [
+     "it's",
+     "their",
+     "his",
+     "its"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Each student must bring ___ own lunch.",
+    "answer": "his or her",
+    "choices": [
+     "his or her",
+     "its",
+     "our",
+     "their"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPnVg",
+  "subject": "english",
+  "title": "Identify vague pronoun references",
+  "section": "Pronouns and antecedents",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPnVg6",
+   "engPnVg7",
+   "engPnVg8",
+   "engPnVg9",
+   "engPnVg10",
+   "engPnVg11",
+   "engPnVg12"
+  ],
+  "examples": [
+   {
+    "question": "Is the pronoun reference clear or vague? Mia told Ana, \"I won.\"",
+    "answer": "Clear",
+    "choices": [
+     "Vague",
+     "Clear"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? In the report, it says sales fell.",
+    "answer": "Vague",
+    "choices": [
+     "Vague",
+     "Clear"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? Mia told Ana that she had won.",
+    "answer": "Vague",
+    "choices": [
+     "Vague",
+     "Clear"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? The mayor announced that the new mall will open soon.",
+    "answer": "Clear",
+    "choices": [
+     "Clear",
+     "Vague"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? Dad put the cake on the table, and it was beautiful.",
+    "answer": "Vague",
+    "choices": [
+     "Clear",
+     "Vague"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? They say the new mall will open soon.",
+    "answer": "Vague",
+    "choices": [
+     "Vague",
+     "Clear"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? Tom's habit of swimming is good for his health.",
+    "answer": "Clear",
+    "choices": [
+     "Vague",
+     "Clear"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? Dad put the beautiful cake on the table.",
+    "answer": "Clear",
+    "choices": [
+     "Clear",
+     "Vague"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? The report says sales fell.",
+    "answer": "Clear",
+    "choices": [
+     "Clear",
+     "Vague"
+    ]
+   },
+   {
+    "question": "Is the pronoun reference clear or vague? Tom likes to swim, which is good for his health.",
+    "answer": "Vague",
+    "choices": [
+     "Clear",
+     "Vague"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPnAn",
+  "subject": "english",
+  "title": "Identify all of the possible antecedents",
+  "section": "Pronouns and antecedents",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPnAn6",
+   "engPnAn7",
+   "engPnAn8",
+   "engPnAn9",
+   "engPnAn10",
+   "engPnAn11",
+   "engPnAn12"
+  ],
+  "examples": [
+   {
+    "question": "What could the underlined pronoun refer to? Anna called Maria after she got home.",
+    "answer": "Anna or Maria",
+    "choices": [
+     "only Anna",
+     "only Maria",
+     "Anna or Maria",
+     "neither"
+    ]
+   },
+   {
+    "question": "What could the underlined pronoun refer to? When Dev gave Sam the keys, he smiled.",
+    "answer": "Dev or Sam",
+    "choices": [
+     "Dev or Sam",
+     "neither",
+     "only Dev",
+     "only Sam"
+    ]
+   },
+   {
+    "question": "What could the underlined pronoun refer to? Kai told Leo that he was late.",
+    "answer": "Kai or Leo",
+    "choices": [
+     "Only Kai",
+     "Kai or Leo",
+     "Only Leo",
+     "Neither"
+    ]
+   },
+   {
+    "question": "What could the underlined pronoun refer to? The dentist told the patient that she needed a break.",
+    "answer": "the dentist or the patient",
+    "choices": [
+     "only the dentist",
+     "only the patient",
+     "neither",
+     "the dentist or the patient"
+    ]
+   },
+   {
+    "question": "What could the underlined pronoun refer to? The trophy didn't fit in the box because it was too large.",
+    "answer": "the trophy or the box",
+    "choices": [
+     "neither",
+     "only the box",
+     "the trophy or the box",
+     "only the trophy"
+    ]
+   },
+   {
+    "question": "What could the underlined pronoun refer to? The dog chased the cat until it was exhausted.",
+    "answer": "the dog or the cat",
+    "choices": [
+     "neither",
+     "the dog or the cat",
+     "only the cat",
+     "only the dog"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPnSh",
+  "subject": "english",
+  "title": "Correct inappropriate shifts in pronoun number and person",
+  "section": "Pronouns and antecedents",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPnSh6",
+   "engPnSh7",
+   "engPnSh8",
+   "engPnSh9",
+   "engPnSh10",
+   "engPnSh11",
+   "engPnSh12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence keeps pronoun number and person consistent?",
+    "answer": "When you visit Paris, you should try the pastries.",
+    "choices": [
+     "When you visit Paris, you should try the pastries.",
+     "When you visit Paris, one should try the pastries.",
+     "When you visit Paris, a person should try the pastries.",
+     "When you visit Paris, they should try the pastries."
+    ]
+   },
+   {
+    "question": "Which sentence keeps pronoun number and person consistent?",
+    "answer": "Students should bring their notebooks.",
+    "choices": [
+     "Students should bring your notebooks.",
+     "Students should bring his notebooks.",
+     "Students should bring its notebooks.",
+     "Students should bring their notebooks."
+    ]
+   },
+   {
+    "question": "Which sentence keeps pronoun number and person consistent?",
+    "answer": "A good leader listens to the team and values its ideas.",
+    "choices": [
+     "A good leader listens to the team and values their ideas.",
+     "A good leader listens to the team and values his ideas.",
+     "A good leader listens to the team and values its ideas.",
+     "A good leader listens to the team and values your ideas."
+    ]
+   },
+   {
+    "question": "Which sentence keeps pronoun number and person consistent?",
+    "answer": "When students arrive, they should check in.",
+    "choices": [
+     "When students arrive, one should check in.",
+     "When students arrive, you should check in.",
+     "When students arrive, they should check in.",
+     "When students arrive, he should check in."
+    ]
+   },
+   {
+    "question": "Which sentence keeps pronoun number and person consistent?",
+    "answer": "If a person studies, he or she will succeed.",
+    "choices": [
+     "If a person studies, we will succeed.",
+     "If a person studies, I will succeed.",
+     "If a person studies, he or she will succeed.",
+     "If a person studies, you will succeed."
+    ]
+   },
+   {
+    "question": "Which sentence keeps pronoun number and person consistent?",
+    "answer": "I like hiking because I can see wildlife.",
+    "choices": [
+     "I like hiking because I can see wildlife.",
+     "I like hiking because you can see wildlife.",
+     "I like hiking because we can see wildlife.",
+     "I like hiking because one can see wildlife."
+    ]
+   },
+   {
+    "question": "Which sentence keeps pronoun number and person consistent?",
+    "answer": "Each of the players brought his or her own helmet.",
+    "choices": [
+     "Each of the players brought your own helmet.",
+     "Each of the players brought his or her own helmet.",
+     "Each of the players brought my own helmet.",
+     "Each of the players brought our own helmet."
+    ]
+   },
+   {
+    "question": "Which sentence keeps pronoun number and person consistent?",
+    "answer": "Many people enjoy cooking because it relaxes them.",
+    "choices": [
+     "Many people enjoy cooking because it relaxes him.",
+     "Many people enjoy cooking because it relaxes one.",
+     "Many people enjoy cooking because it relaxes you.",
+     "Many people enjoy cooking because it relaxes them."
+    ]
+   }
+  ]
+ }
+]

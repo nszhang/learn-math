@@ -1,0 +1,2624 @@
+[
+ {
+  "key": "sciPartMot",
+  "subject": "science",
+  "title": "Particle motion and energy",
+  "section": "Particle motion and energy",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciPartMot5",
+   "sciPartMot6",
+   "sciPartMot7",
+   "sciPartMot8",
+   "sciPartMot9",
+   "sciPartMot10"
+  ],
+  "examples": [
+   {
+    "question": "When water vapour condenses, its particles …",
+    "answer": "slow down and move closer together.",
+    "choices": [
+     "slow down and move closer together.",
+     "turn into new particles.",
+     "stop moving completely.",
+     "speed up and spread apart."
+    ]
+   },
+   {
+    "question": "Why does a balloon shrink in a cold car?",
+    "answer": "The gas particles slow down and push less on the balloon.",
+    "choices": [
+     "The gas particles slow down and push less on the balloon.",
+     "Cold air pushes the balloon inward from outside only.",
+     "The balloon leaks air when it is cold.",
+     "The particles get smaller in the cold."
+    ]
+   },
+   {
+    "question": "In which state are particles packed tightly and only vibrate in place?",
+    "answer": "Solid",
+    "choices": [
+     "Gas",
+     "Plasma",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "What happens to gas pressure in a sealed container when it is heated?",
+    "answer": "It increases.",
+    "choices": [
+     "It decreases.",
+     "It increases.",
+     "It drops to zero.",
+     "It stays the same."
+    ]
+   },
+   {
+    "question": "As a substance is heated, what happens to its particles?",
+    "answer": "They move faster.",
+    "choices": [
+     "They stop moving.",
+     "They get bigger.",
+     "They move slower.",
+     "They move faster."
+    ]
+   },
+   {
+    "question": "In which state of matter do particles move the fastest?",
+    "answer": "Gas",
+    "choices": [
+     "Solid",
+     "Gas",
+     "Liquid",
+     "They all move at the same speed"
+    ]
+   },
+   {
+    "question": "In which state do particles slide past each other but stay close?",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Crystal",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Temperature is a measure of the average … of particles.",
+    "answer": "kinetic energy",
+    "choices": [
+     "number",
+     "colour",
+     "kinetic energy",
+     "size"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCircResp",
+  "subject": "science",
+  "title": "Body systems: circulation and respiration",
+  "section": "Body systems",
+  "grades": [
+   5,
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciXsCircResp5",
+   "sciXsCircResp6",
+   "sciXsCircResp8"
+  ],
+  "examples": [
+   {
+    "question": "Which vessels carry blood back to the heart?",
+    "answer": "Veins",
+    "choices": [
+     "Veins",
+     "Nerves",
+     "Arteries",
+     "Capillaries only"
+    ]
+   },
+   {
+    "question": "Which tube carries air from the throat to the lungs?",
+    "answer": "The trachea (windpipe)",
+    "choices": [
+     "The trachea (windpipe)",
+     "An artery",
+     "A vein",
+     "The esophagus"
+    ]
+   },
+   {
+    "question": "Which muscle helps you breathe in?",
+    "answer": "The diaphragm",
+    "choices": [
+     "The heart",
+     "The stomach",
+     "The diaphragm",
+     "The biceps"
+    ]
+   },
+   {
+    "question": "Why does your heart beat faster when you exercise?",
+    "answer": "Your muscles need more oxygen",
+    "choices": [
+     "Your bones grow",
+     "Your lungs stop",
+     "You are digesting",
+     "Your muscles need more oxygen"
+    ]
+   },
+   {
+    "question": "Where does blood pick up oxygen?",
+    "answer": "In the lungs",
+    "choices": [
+     "In the stomach",
+     "In the bones",
+     "In the lungs",
+     "In the liver"
+    ]
+   },
+   {
+    "question": "Which blood vessels carry blood away from the heart?",
+    "answer": "Arteries",
+    "choices": [
+     "Capillaries only",
+     "Arteries",
+     "Veins",
+     "Nerves"
+    ]
+   },
+   {
+    "question": "What are the tiny air sacs in the lungs called?",
+    "answer": "Alveoli",
+    "choices": [
+     "Neurons",
+     "Arteries",
+     "Villi",
+     "Alveoli"
+    ]
+   },
+   {
+    "question": "Which gas do we breathe out as waste?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "Carbon dioxide",
+     "Helium",
+     "Nitrogen only",
+     "Oxygen"
+    ]
+   },
+   {
+    "question": "What is the job of the respiratory system?",
+    "answer": "To bring oxygen in and remove carbon dioxide",
+    "choices": [
+     "To digest food",
+     "To move bones",
+     "To bring oxygen in and remove carbon dioxide",
+     "To filter blood"
+    ]
+   },
+   {
+    "question": "Which organ pumps blood through the body?",
+    "answer": "The heart",
+    "choices": [
+     "The lungs",
+     "The heart",
+     "The brain",
+     "The stomach"
+    ]
+   },
+   {
+    "question": "What carries oxygen in the blood?",
+    "answer": "Red blood cells",
+    "choices": [
+     "Red blood cells",
+     "Plasma only",
+     "White blood cells",
+     "Platelets"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDigest",
+  "subject": "science",
+  "title": "Body systems: digestion",
+  "section": "Body systems",
+  "grades": [
+   5,
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciXsDigest5",
+   "sciXsDigest6",
+   "sciXsDigest8"
+  ],
+  "examples": [
+   {
+    "question": "What does saliva do?",
+    "answer": "Starts breaking down food and makes it easy to swallow",
+    "choices": [
+     "Starts breaking down food and makes it easy to swallow",
+     "Fights germs only",
+     "Absorbs nutrients",
+     "Pumps blood"
+    ]
+   },
+   {
+    "question": "What does the large intestine mainly absorb?",
+    "answer": "Water",
+    "choices": [
+     "Blood",
+     "Oxygen",
+     "Protein",
+     "Water"
+    ]
+   },
+   {
+    "question": "Where does digestion begin?",
+    "answer": "In the mouth",
+    "choices": [
+     "In the liver",
+     "In the stomach",
+     "In the small intestine",
+     "In the mouth"
+    ]
+   },
+   {
+    "question": "Which organ makes bile to help digest fats?",
+    "answer": "The liver",
+    "choices": [
+     "The heart",
+     "The kidneys",
+     "The liver",
+     "The lungs"
+    ]
+   },
+   {
+    "question": "How long is the small intestine in an adult?",
+    "answer": "About 6 metres",
+    "choices": [
+     "About 1 metre",
+     "About 6 metres",
+     "About 6 centimetres",
+     "About 60 metres"
+    ]
+   },
+   {
+    "question": "Where are most nutrients absorbed into the blood?",
+    "answer": "The small intestine",
+    "choices": [
+     "The stomach",
+     "The large intestine",
+     "The esophagus",
+     "The small intestine"
+    ]
+   },
+   {
+    "question": "What are villi?",
+    "answer": "Tiny finger-like bumps in the small intestine that absorb nutrients",
+    "choices": [
+     "Teeth",
+     "Tiny finger-like bumps in the small intestine that absorb nutrients",
+     "Parts of the brain",
+     "Blood cells"
+    ]
+   },
+   {
+    "question": "What does the stomach do?",
+    "answer": "Mixes food with acid and enzymes to break it down",
+    "choices": [
+     "Stores urine",
+     "Makes blood",
+     "Mixes food with acid and enzymes to break it down",
+     "Absorbs most nutrients"
+    ]
+   },
+   {
+    "question": "What moves food along the digestive tract?",
+    "answer": "Muscle contractions called peristalsis",
+    "choices": [
+     "Nerves only",
+     "Gravity only",
+     "Muscle contractions called peristalsis",
+     "Blood"
+    ]
+   },
+   {
+    "question": "Why do we chew food?",
+    "answer": "To break it into smaller pieces so it digests more easily",
+    "choices": [
+     "To remove water",
+     "To make it hotter",
+     "To add vitamins",
+     "To break it into smaller pieces so it digests more easily"
+    ]
+   },
+   {
+    "question": "Which tube carries food from the mouth to the stomach?",
+    "answer": "The esophagus",
+    "choices": [
+     "The esophagus",
+     "The trachea",
+     "The small intestine",
+     "An artery"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWaste",
+  "subject": "science",
+  "title": "Body systems: removing waste",
+  "section": "Body systems",
+  "grades": [
+   5,
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciXsWaste5",
+   "sciXsWaste6",
+   "sciXsWaste8"
+  ],
+  "examples": [
+   {
+    "question": "Why is drinking water important for the excretory system?",
+    "answer": "It helps the kidneys flush out wastes",
+    "choices": [
+     "It stops breathing",
+     "It makes hair grow",
+     "It helps the kidneys flush out wastes",
+     "It builds muscles"
+    ]
+   },
+   {
+    "question": "Which tube carries urine from the kidneys to the bladder?",
+    "answer": "The ureter",
+    "choices": [
+     "The esophagus",
+     "An artery",
+     "The ureter",
+     "The trachea"
+    ]
+   },
+   {
+    "question": "How does the large intestine help remove waste?",
+    "answer": "It absorbs water and forms solid waste",
+    "choices": [
+     "It breathes out CO₂",
+     "It absorbs water and forms solid waste",
+     "It makes sweat",
+     "It filters blood"
+    ]
+   },
+   {
+    "question": "What waste do the kidneys remove?",
+    "answer": "Extra water, salts and urea from the blood",
+    "choices": [
+     "Extra water, salts and urea from the blood",
+     "Undigested food",
+     "Dead skin",
+     "Carbon dioxide"
+    ]
+   },
+   {
+    "question": "How does sweating help the body?",
+    "answer": "It cools the body and removes some salts",
+    "choices": [
+     "It makes bones grow",
+     "It cools the body and removes some salts",
+     "It digests food",
+     "It pumps blood"
+    ]
+   },
+   {
+    "question": "Where is urine stored?",
+    "answer": "The bladder",
+    "choices": [
+     "The stomach",
+     "The liver",
+     "The kidneys",
+     "The bladder"
+    ]
+   },
+   {
+    "question": "Which organ removes carbon dioxide?",
+    "answer": "The lungs",
+    "choices": [
+     "The lungs",
+     "The kidneys",
+     "The stomach",
+     "The bladder"
+    ]
+   },
+   {
+    "question": "Which organs filter waste from the blood?",
+    "answer": "The kidneys",
+    "choices": [
+     "The stomach",
+     "The heart",
+     "The kidneys",
+     "The lungs"
+    ]
+   },
+   {
+    "question": "How does skin help remove waste?",
+    "answer": "It releases sweat",
+    "choices": [
+     "It digests food",
+     "It releases sweat",
+     "It makes urine",
+     "It pumps blood"
+    ]
+   },
+   {
+    "question": "How do the lungs help remove waste?",
+    "answer": "They breathe out carbon dioxide",
+    "choices": [
+     "They store urine",
+     "They filter blood",
+     "They digest food",
+     "They breathe out carbon dioxide"
+    ]
+   },
+   {
+    "question": "Which organ breaks down harmful substances like old blood cells and some toxins?",
+    "answer": "The liver",
+    "choices": [
+     "The bladder",
+     "The skin",
+     "The liver",
+     "The lungs"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsNerve",
+  "subject": "science",
+  "title": "Body systems: perception and motion",
+  "section": "Body systems",
+  "grades": [
+   5,
+   6,
+   8
+  ],
+  "skillIds": [
+   "sciXsNerve5",
+   "sciXsNerve6",
+   "sciXsNerve8"
+  ],
+  "examples": [
+   {
+    "question": "Which part of the brain helps with balance and coordination?",
+    "answer": "The cerebellum",
+    "choices": [
+     "The spinal cord",
+     "The cerebrum only",
+     "The heart",
+     "The cerebellum"
+    ]
+   },
+   {
+    "question": "What is a reflex?",
+    "answer": "A fast, automatic response like pulling your hand from a hot stove",
+    "choices": [
+     "A slow decision",
+     "A bone",
+     "A muscle",
+     "A fast, automatic response like pulling your hand from a hot stove"
+    ]
+   },
+   {
+    "question": "Which part of the nervous system carries messages up and down the back?",
+    "answer": "The spinal cord",
+    "choices": [
+     "The lungs",
+     "The heart",
+     "The spinal cord",
+     "The stomach"
+    ]
+   },
+   {
+    "question": "How do muscles move bones?",
+    "answer": "They contract and pull on the bones",
+    "choices": [
+     "They grow longer",
+     "They melt",
+     "They push bones",
+     "They contract and pull on the bones"
+    ]
+   },
+   {
+    "question": "Which two systems work together to move your arm?",
+    "answer": "Muscular and skeletal",
+    "choices": [
+     "Digestive and respiratory",
+     "Respiratory and digestive",
+     "Muscular and skeletal",
+     "Circulatory and excretory"
+    ]
+   },
+   {
+    "question": "What connects bones to other bones at joints?",
+    "answer": "Ligaments",
+    "choices": [
+     "Arteries",
+     "Ligaments",
+     "Nerves",
+     "Tendons"
+    ]
+   },
+   {
+    "question": "Nerves carry messages…",
+    "answer": "between the brain and the body",
+    "choices": [
+     "between the stomach and the lungs only",
+     "only to the skin",
+     "only to the bones",
+     "between the brain and the body"
+    ]
+   },
+   {
+    "question": "Which sense organ detects light?",
+    "answer": "The eye",
+    "choices": [
+     "The nose",
+     "The ear",
+     "The tongue",
+     "The eye"
+    ]
+   },
+   {
+    "question": "What connects muscles to bones?",
+    "answer": "Tendons",
+    "choices": [
+     "Tendons",
+     "Nerves",
+     "Veins",
+     "Ligaments"
+    ]
+   },
+   {
+    "question": "Which organ controls the body and processes information from the senses?",
+    "answer": "The brain",
+    "choices": [
+     "The heart",
+     "The stomach",
+     "The kidneys",
+     "The brain"
+    ]
+   },
+   {
+    "question": "What are nerve cells called?",
+    "answer": "Neurons",
+    "choices": [
+     "Platelets",
+     "Neurons",
+     "Villi",
+     "Alveoli"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCEL",
+  "subject": "science",
+  "title": "Plant and animal cells",
+  "section": "Cells",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciCEL5"
+  ],
+  "examples": [
+   {
+    "question": "Which cells have a cell wall ?",
+    "answer": "Plant cells only",
+    "choices": [
+     "Both plant and animal cells",
+     "Animal cells only",
+     "Plant cells only"
+    ]
+   },
+   {
+    "question": "Which cells have a nucleus ?",
+    "answer": "Both plant and animal cells",
+    "choices": [
+     "Animal cells only",
+     "Both plant and animal cells",
+     "Plant cells only"
+    ]
+   },
+   {
+    "question": "Which cells have a cell membrane ?",
+    "answer": "Both plant and animal cells",
+    "choices": [
+     "Plant cells only",
+     "Both plant and animal cells",
+     "Animal cells only"
+    ]
+   },
+   {
+    "question": "Which cells have ribosomes ?",
+    "answer": "Both plant and animal cells",
+    "choices": [
+     "Animal cells only",
+     "Both plant and animal cells",
+     "Plant cells only"
+    ]
+   },
+   {
+    "question": "Which cells have a large central vacuole ?",
+    "answer": "Plant cells only",
+    "choices": [
+     "Both plant and animal cells",
+     "Plant cells only",
+     "Animal cells only"
+    ]
+   },
+   {
+    "question": "Which cells have mitochondria ?",
+    "answer": "Both plant and animal cells",
+    "choices": [
+     "Animal cells only",
+     "Plant cells only",
+     "Both plant and animal cells"
+    ]
+   },
+   {
+    "question": "Which cells have cytoplasm ?",
+    "answer": "Both plant and animal cells",
+    "choices": [
+     "Plant cells only",
+     "Animal cells only",
+     "Both plant and animal cells"
+    ]
+   },
+   {
+    "question": "Which cells have chloroplasts ?",
+    "answer": "Plant cells only",
+    "choices": [
+     "Both plant and animal cells",
+     "Plant cells only",
+     "Animal cells only"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciVertInv",
+  "subject": "science",
+  "title": "Identify vertebrates and invertebrates",
+  "section": "Classification",
+  "grades": [
+   5,
+   7
+  ],
+  "skillIds": [
+   "sciVertInv5",
+   "sciVertInv7"
+  ],
+  "examples": [
+   {
+    "question": "Is a butterfly a vertebrate or an invertebrate?",
+    "answer": "Invertebrate",
+    "choices": [
+     "Vertebrate",
+     "Invertebrate"
+    ]
+   },
+   {
+    "question": "Is an earthworm a vertebrate or an invertebrate?",
+    "answer": "Invertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is a horse a vertebrate or an invertebrate?",
+    "answer": "Vertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is a jellyfish a vertebrate or an invertebrate?",
+    "answer": "Invertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is a human a vertebrate or an invertebrate?",
+    "answer": "Vertebrate",
+    "choices": [
+     "Vertebrate",
+     "Invertebrate"
+    ]
+   },
+   {
+    "question": "Is an eagle a vertebrate or an invertebrate?",
+    "answer": "Vertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is a toad a vertebrate or an invertebrate?",
+    "answer": "Vertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is a snake a vertebrate or an invertebrate?",
+    "answer": "Vertebrate",
+    "choices": [
+     "Vertebrate",
+     "Invertebrate"
+    ]
+   },
+   {
+    "question": "Is a spider a vertebrate or an invertebrate?",
+    "answer": "Invertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is a crab a vertebrate or an invertebrate?",
+    "answer": "Invertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is a trout a vertebrate or an invertebrate?",
+    "answer": "Vertebrate",
+    "choices": [
+     "Invertebrate",
+     "Vertebrate"
+    ]
+   },
+   {
+    "question": "Is an octopus a vertebrate or an invertebrate?",
+    "answer": "Invertebrate",
+    "choices": [
+     "Vertebrate",
+     "Invertebrate"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPetrol",
+  "subject": "science",
+  "title": "Petroleum formation and distribution on Earth",
+  "section": "Conservation and natural resources",
+  "grades": [
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciXsPetrol5",
+   "sciXsPetrol6"
+  ],
+  "examples": [
+   {
+    "question": "What products are made from petroleum?",
+    "answer": "Gasoline, plastics and asphalt",
+    "choices": [
+     "Steel and iron",
+     "Glass and sand",
+     "Paper and wood",
+     "Gasoline, plastics and asphalt"
+    ]
+   },
+   {
+    "question": "What changed buried organisms into oil?",
+    "answer": "Heat and pressure over millions of years",
+    "choices": [
+     "Sunlight",
+     "Wind",
+     "Heat and pressure over millions of years",
+     "Freezing"
+    ]
+   },
+   {
+    "question": "What did petroleum form from?",
+    "answer": "Remains of tiny ocean organisms buried for millions of years",
+    "choices": [
+     "Remains of tiny ocean organisms buried for millions of years",
+     "Melted glaciers",
+     "Rainwater",
+     "Volcanic lava"
+    ]
+   },
+   {
+    "question": "Why does oil collect in some rocks and not others?",
+    "answer": "It moves up through porous rock until trapped by a non-porous layer",
+    "choices": [
+     "Oil falls with rain",
+     "It moves up through porous rock until trapped by a non-porous layer",
+     "Oil prefers granite",
+     "It is spread evenly"
+    ]
+   },
+   {
+    "question": "What are the oil sands?",
+    "answer": "Sand and clay mixed with thick oil called bitumen",
+    "choices": [
+     "Sand made of plastic",
+     "Beaches covered in oil spills",
+     "Sand and clay mixed with thick oil called bitumen",
+     "Sand in deserts"
+    ]
+   },
+   {
+    "question": "Why is petroleum considered nonrenewable?",
+    "answer": "It takes millions of years to form",
+    "choices": [
+     "It comes from the Sun",
+     "It is made in factories",
+     "It renews each year",
+     "It takes millions of years to form"
+    ]
+   },
+   {
+    "question": "Why is petroleum found only in certain places?",
+    "answer": "Only some places had the right ancient seas and rock layers to trap it",
+    "choices": [
+     "Only some places had the right ancient seas and rock layers to trap it",
+     "It falls with rain",
+     "Oil moves around every year",
+     "It is spread evenly everywhere"
+    ]
+   },
+   {
+    "question": "Why is it important to use petroleum carefully?",
+    "answer": "It is nonrenewable and burning it pollutes",
+    "choices": [
+     "It renews every year",
+     "It cleans the air",
+     "It is nonrenewable and burning it pollutes",
+     "It is unlimited"
+    ]
+   },
+   {
+    "question": "Petroleum formed mostly from…",
+    "answer": "tiny sea organisms buried long ago",
+    "choices": [
+     "sand",
+     "dinosaur bones",
+     "tiny sea organisms buried long ago",
+     "melted rock"
+    ]
+   },
+   {
+    "question": "Where is a lot of Canada's oil found?",
+    "answer": "In Alberta",
+    "choices": [
+     "In Prince Edward Island",
+     "In Nunavut glaciers",
+     "In Alberta",
+     "In Lake Ontario"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWCWorld",
+  "subject": "science",
+  "title": "Weather and climate around the world",
+  "section": "Weather and climate",
+  "grades": [
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciXsWCWorld5",
+   "sciXsWCWorld6"
+  ],
+  "examples": [
+   {
+    "question": "What is climate?",
+    "answer": "The average weather in a place over many years",
+    "choices": [
+     "Today's temperature",
+     "Tomorrow's forecast",
+     "One storm",
+     "The average weather in a place over many years"
+    ]
+   },
+   {
+    "question": "Which describes climate?",
+    "answer": "Victoria has mild, rainy winters",
+    "choices": [
+     "Victoria has mild, rainy winters",
+     "It will snow tomorrow",
+     "A storm hit last night",
+     "It is windy right now"
+    ]
+   },
+   {
+    "question": "Why do coastal areas often have milder climates?",
+    "answer": "Oceans warm and cool slowly",
+    "choices": [
+     "Oceans make snow",
+     "The sun is closer",
+     "Oceans warm and cool slowly",
+     "There are more trees"
+    ]
+   },
+   {
+    "question": "Which place has a polar climate?",
+    "answer": "Antarctica",
+    "choices": [
+     "Egypt",
+     "Mexico",
+     "Brazil",
+     "Antarctica"
+    ]
+   },
+   {
+    "question": "What is the difference between weather and climate?",
+    "answer": "Weather is day-to-day conditions; climate is the average over many years",
+    "choices": [
+     "Weather is only about rain",
+     "Climate changes hourly",
+     "Weather is day-to-day conditions; climate is the average over many years",
+     "They are the same"
+    ]
+   },
+   {
+    "question": "Places near the equator usually have a climate that is…",
+    "answer": "warm all year",
+    "choices": [
+     "snowy every day",
+     "dry and freezing",
+     "cold all year",
+     "warm all year"
+    ]
+   },
+   {
+    "question": "What is weather?",
+    "answer": "The conditions of the air at a certain time and place",
+    "choices": [
+     "The shape of land",
+     "The average conditions over 30 years",
+     "Ocean currents only",
+     "The conditions of the air at a certain time and place"
+    ]
+   },
+   {
+    "question": "Which climate has very low rainfall?",
+    "answer": "Desert climate",
+    "choices": [
+     "Monsoon climate",
+     "Rainforest climate",
+     "Desert climate",
+     "Marine climate"
+    ]
+   },
+   {
+    "question": "Which climate zone is around the equator?",
+    "answer": "Tropical",
+    "choices": [
+     "Tropical",
+     "Arctic",
+     "Temperate",
+     "Polar"
+    ]
+   },
+   {
+    "question": "Which climate zone includes most of southern Canada?",
+    "answer": "Temperate",
+    "choices": [
+     "Temperate",
+     "Desert",
+     "Tropical",
+     "Polar only"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWorC",
+  "subject": "science",
+  "title": "Weather or climate? Cite text",
+  "section": "Weather and climate",
+  "grades": [
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciXsWorC5",
+   "sciXsWorC6"
+  ],
+  "examples": [
+   {
+    "question": "Does this sentence describe weather or climate? A thunderstorm will hit Regina tonight.",
+    "answer": "Weather",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   },
+   {
+    "question": "Does this sentence describe weather or climate? Vancouver usually has mild, rainy winters.",
+    "answer": "Climate",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   },
+   {
+    "question": "Does this sentence describe weather or climate? Today's high is 28 °C.",
+    "answer": "Weather",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   },
+   {
+    "question": "Does this sentence describe weather or climate? Iqaluit has long, cold winters every year.",
+    "answer": "Climate",
+    "choices": [
+     "Weather",
+     "Climate"
+    ]
+   },
+   {
+    "question": "Does this sentence describe weather or climate? It is snowing in Ottawa this morning.",
+    "answer": "Weather",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   },
+   {
+    "question": "Does this sentence describe weather or climate? The Sahara gets less than 25 mm of rain per year on average.",
+    "answer": "Climate",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDescClim",
+  "subject": "science",
+  "title": "Use data to describe climates",
+  "section": "Weather and climate",
+  "grades": [
+   5,
+   6,
+   8,
+   10
+  ],
+  "skillIds": [
+   "sciXsDescClim5",
+   "sciXsDescClim6",
+   "sciXsDescClim8",
+   "sciXsDescClim10"
+  ],
+  "examples": [
+   {
+    "question": "Average temperatures (winter, spring, summer, fall): -15, 8, 21, 5 °C · Yearly rainfall: 400 mm Which climate does this data describe?",
+    "answer": "Grassland (prairie)",
+    "choices": [
+     "Tropical rainforest",
+     "Desert",
+     "Grassland (prairie)",
+     "Tundra"
+    ]
+   },
+   {
+    "question": "Average summer 10 °C, winter −30 °C, little rain. Which climate is this?",
+    "answer": "Tundra",
+    "choices": [
+     "Tropical rainforest",
+     "Tundra",
+     "Mediterranean",
+     "Desert hot"
+    ]
+   },
+   {
+    "question": "Average temperature 27 °C all year and 2,500 mm of rain. Which climate is this?",
+    "answer": "Tropical rainforest",
+    "choices": [
+     "Desert",
+     "Tropical rainforest",
+     "Polar ice cap",
+     "Tundra"
+    ]
+   },
+   {
+    "question": "Hot, dry summers and mild, rainy winters. Which climate is this?",
+    "answer": "Mediterranean",
+    "choices": [
+     "Polar",
+     "Tundra",
+     "Tropical rainforest",
+     "Mediterranean"
+    ]
+   },
+   {
+    "question": "Average temperatures (winter, spring, summer, fall): 11, 16, 26, 19 °C · Yearly rainfall: 500 mm Which climate does this data describe?",
+    "answer": "Mediterranean",
+    "choices": [
+     "Mediterranean",
+     "Tundra",
+     "Desert",
+     "Tropical rainforest"
+    ]
+   },
+   {
+    "question": "Average temperatures (winter, spring, summer, fall): 26, 27, 27, 27 °C · Yearly rainfall: 2600 mm Which climate does this data describe?",
+    "answer": "Tropical rainforest",
+    "choices": [
+     "Desert",
+     "Tundra",
+     "Tropical rainforest",
+     "Temperate forest"
+    ]
+   },
+   {
+    "question": "Average temperatures (winter, spring, summer, fall): 15, 25, 35, 22 °C · Yearly rainfall: 120 mm Which climate does this data describe?",
+    "answer": "Desert",
+    "choices": [
+     "Desert",
+     "Tundra",
+     "Tropical rainforest",
+     "Temperate forest"
+    ]
+   },
+   {
+    "question": "Average temperatures (winter, spring, summer, fall): -45, -30, -10, -35 °C · Yearly rainfall: 50 mm Which climate does this data describe?",
+    "answer": "Polar ice cap",
+    "choices": [
+     "Desert",
+     "Tundra",
+     "Polar ice cap",
+     "Tropical rainforest"
+    ]
+   },
+   {
+    "question": "Average temperatures (winter, spring, summer, fall): -28, -10, 8, -12 °C · Yearly rainfall: 200 mm Which climate does this data describe?",
+    "answer": "Tundra",
+    "choices": [
+     "Tropical rainforest",
+     "Temperate forest",
+     "Desert",
+     "Tundra"
+    ]
+   },
+   {
+    "question": "Average temperatures (winter, spring, summer, fall): -22, 0, 16, -2 °C · Yearly rainfall: 450 mm Which climate does this data describe?",
+    "answer": "Boreal (subarctic) forest",
+    "choices": [
+     "Tundra",
+     "Tropical rainforest",
+     "Boreal (subarctic) forest",
+     "Desert"
+    ]
+   },
+   {
+    "question": "Average temperatures (winter, spring, summer, fall): -6, 10, 22, 9 °C · Yearly rainfall: 900 mm Which climate does this data describe?",
+    "answer": "Temperate forest",
+    "choices": [
+     "Tundra",
+     "Desert",
+     "Temperate forest",
+     "Tropical rainforest"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLandPh",
+  "subject": "science",
+  "title": "Identify Earth's land features using photographs",
+  "section": "Earth's features",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciXsLandPh5"
+  ],
+  "examples": [
+   {
+    "question": "A photo shows a cone-shaped mountain with a crater at the top. What is it?",
+    "answer": "A volcano",
+    "choices": [
+     "A dune",
+     "A delta",
+     "A volcano",
+     "A plateau"
+    ]
+   },
+   {
+    "question": "A photo shows a large river of ice moving slowly down a valley. What is it?",
+    "answer": "A glacier",
+    "choices": [
+     "A beach",
+     "A lake",
+     "A glacier",
+     "A delta"
+    ]
+   },
+   {
+    "question": "A photo shows flat, wide grassland stretching to the horizon. What is it?",
+    "answer": "A plain",
+    "choices": [
+     "A mountain",
+     "An island",
+     "A plain",
+     "A canyon"
+    ]
+   },
+   {
+    "question": "A photo shows a deep, narrow valley with steep rock walls and a river at the bottom. What is it?",
+    "answer": "A canyon",
+    "choices": [
+     "A canyon",
+     "A beach",
+     "A plateau",
+     "A delta"
+    ]
+   },
+   {
+    "question": "A photo shows a hill of sand shaped by wind. What is it?",
+    "answer": "A sand dune",
+    "choices": [
+     "A glacier",
+     "A mesa",
+     "A sand dune",
+     "A canyon"
+    ]
+   },
+   {
+    "question": "A photo shows a flat-topped landform rising sharply above the land around it. What is it?",
+    "answer": "A plateau (or mesa)",
+    "choices": [
+     "A plateau (or mesa)",
+     "A valley",
+     "A canyon",
+     "A delta"
+    ]
+   },
+   {
+    "question": "A photo shows a fan of sediment where a river meets the sea. What is it?",
+    "answer": "A delta",
+    "choices": [
+     "A canyon",
+     "An island",
+     "A delta",
+     "A mountain"
+    ]
+   },
+   {
+    "question": "A photo shows land completely surrounded by water. What is it?",
+    "answer": "An island",
+    "choices": [
+     "A valley",
+     "An island",
+     "A peninsula",
+     "A canyon"
+    ]
+   },
+   {
+    "question": "A photograph shows a narrow strip of land with water on three sides. What is it?",
+    "answer": "A peninsula",
+    "choices": [
+     "A peninsula",
+     "A plateau",
+     "A valley",
+     "An island"
+    ]
+   },
+   {
+    "question": "A photo shows a tall landform with a pointed peak covered in snow. What is it?",
+    "answer": "A mountain",
+    "choices": [
+     "A plain",
+     "A lake",
+     "A valley",
+     "A mountain"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLandSat",
+  "subject": "science",
+  "title": "Identify Earth's land features using satellite images",
+  "section": "Earth's features",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciXsLandSat5"
+  ],
+  "examples": [
+   {
+    "question": "A satellite image shows dark green land along the Amazon River. What is it?",
+    "answer": "Rainforest",
+    "choices": [
+     "Desert",
+     "Ice sheet",
+     "Tundra",
+     "Rainforest"
+    ]
+   },
+   {
+    "question": "A satellite image shows a long, white tongue of ice between mountains. What is it?",
+    "answer": "A glacier",
+    "choices": [
+     "A river",
+     "A forest",
+     "A desert",
+     "A glacier"
+    ]
+   },
+   {
+    "question": "A satellite image shows a wide white area at the North Pole. What is it?",
+    "answer": "Sea ice",
+    "choices": [
+     "A desert",
+     "A forest",
+     "Sea ice",
+     "A city"
+    ]
+   },
+   {
+    "question": "A satellite image shows a circular lake inside a mountain top. What is it?",
+    "answer": "A volcanic crater lake",
+    "choices": [
+     "A delta",
+     "A canyon",
+     "A volcanic crater lake",
+     "A sand dune"
+    ]
+   },
+   {
+    "question": "A satellite image shows a long, winding blue line through green land. What is it?",
+    "answer": "A river",
+    "choices": [
+     "A mountain range",
+     "A volcano",
+     "A river",
+     "A desert"
+    ]
+   },
+   {
+    "question": "A satellite image shows a fan of sediment where a river spreads into many channels before the sea. What is it?",
+    "answer": "A delta",
+    "choices": [
+     "A canyon",
+     "A volcano",
+     "A delta",
+     "A glacier"
+    ]
+   },
+   {
+    "question": "A satellite image shows five large connected lakes between Canada and the United States. What are they?",
+    "answer": "The Great Lakes",
+    "choices": [
+     "Hudson Bay",
+     "The Prairies",
+     "The Great Lakes",
+     "The Rocky Mountains"
+    ]
+   },
+   {
+    "question": "A satellite image shows a long chain of mountains along western North America. What is it?",
+    "answer": "The Rocky Mountains",
+    "choices": [
+     "The Appalachian Plateau",
+     "The Canadian Shield",
+     "The Prairies",
+     "The Rocky Mountains"
+    ]
+   },
+   {
+    "question": "A satellite image shows a land shape almost surrounded by water but joined to a continent. What is it?",
+    "answer": "A peninsula",
+    "choices": [
+     "A lake",
+     "A peninsula",
+     "An island",
+     "A plain"
+    ]
+   },
+   {
+    "question": "A satellite image shows a large brown area with no vegetation in North Africa. What is it?",
+    "answer": "The Sahara Desert",
+    "choices": [
+     "The Sahara Desert",
+     "The Great Lakes",
+     "The Arctic Ocean",
+     "The Amazon rainforest"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSeasons",
+  "subject": "science",
+  "title": "What causes the seasons on Earth?",
+  "section": "Astronomy",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciSeasons5",
+   "sciSeasons6",
+   "sciSeasons7",
+   "sciSeasons8",
+   "sciSeasons9",
+   "sciSeasons10"
+  ],
+  "examples": [
+   {
+    "question": "When the Northern Hemisphere tilts toward the Sun, it is …",
+    "answer": "summer in the Northern Hemisphere",
+    "choices": [
+     "night everywhere",
+     "spring everywhere",
+     "winter in the Northern Hemisphere",
+     "summer in the Northern Hemisphere"
+    ]
+   },
+   {
+    "question": "When it is summer in Canada, what season is it in Australia?",
+    "answer": "Winter",
+    "choices": [
+     "Spring",
+     "Autumn",
+     "Summer",
+     "Winter"
+    ]
+   },
+   {
+    "question": "What causes Earth's seasons?",
+    "answer": "The tilt of Earth's axis",
+    "choices": [
+     "Earth's distance from the Sun",
+     "Clouds",
+     "The tilt of Earth's axis",
+     "The Moon's phases"
+    ]
+   },
+   {
+    "question": "On the summer solstice, the Northern Hemisphere has …",
+    "answer": "its longest day",
+    "choices": [
+     "no daylight",
+     "equal day and night",
+     "its longest day",
+     "its shortest day"
+    ]
+   },
+   {
+    "question": "In summer, sunlight strikes the ground …",
+    "answer": "more directly",
+    "choices": [
+     "more directly",
+     "only at noon",
+     "not at all",
+     "at a lower angle"
+    ]
+   },
+   {
+    "question": "Is summer caused by Earth being closer to the Sun?",
+    "answer": "No — it is caused by Earth's tilt.",
+    "choices": [
+     "No — it is caused by the Moon.",
+     "Yes, the Sun gets bigger in summer.",
+     "Yes, Earth is closest in summer.",
+     "No — it is caused by Earth's tilt."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciEclipse",
+  "subject": "science",
+  "title": "Solar and lunar eclipses",
+  "section": "Astronomy",
+  "grades": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciEclipse5",
+   "sciEclipse6",
+   "sciEclipse7",
+   "sciEclipse8"
+  ],
+  "examples": [
+   {
+    "question": "In a lunar eclipse, whose shadow falls on the Moon?",
+    "answer": "Earth's",
+    "choices": [
+     "The Sun's",
+     "Mars's",
+     "Earth's",
+     "The Moon's own"
+    ]
+   },
+   {
+    "question": "A solar eclipse can only happen during which Moon phase?",
+    "answer": "New moon",
+    "choices": [
+     "Third quarter",
+     "Waxing gibbous",
+     "New moon",
+     "Full moon"
+    ]
+   },
+   {
+    "question": "A lunar eclipse can only happen during which Moon phase?",
+    "answer": "Full moon",
+    "choices": [
+     "Full moon",
+     "First quarter",
+     "New moon",
+     "Waning crescent"
+    ]
+   },
+   {
+    "question": "During a lunar eclipse, the order is …",
+    "answer": "Sun – Earth – Moon",
+    "choices": [
+     "Earth – Sun – Moon",
+     "Sun – Earth – Moon",
+     "Moon – Sun – Earth",
+     "Sun – Moon – Earth"
+    ]
+   },
+   {
+    "question": "During a solar eclipse, the order is …",
+    "answer": "Sun – Moon – Earth",
+    "choices": [
+     "Sun – Moon – Earth",
+     "Sun – Earth – Moon",
+     "Moon – Sun – Earth",
+     "Earth – Sun – Moon"
+    ]
+   },
+   {
+    "question": "In a solar eclipse, which body blocks the Sun?",
+    "answer": "The Moon",
+    "choices": [
+     "Earth",
+     "Mars",
+     "A cloud",
+     "The Moon"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciStars",
+  "subject": "science",
+  "title": "Stars, constellations and the universe",
+  "section": "Astronomy",
+  "grades": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciStars5",
+   "sciStars6",
+   "sciStars9",
+   "sciStars10"
+  ],
+  "examples": [
+   {
+    "question": "A pattern of stars in the sky is a …",
+    "answer": "constellation",
+    "choices": [
+     "comet",
+     "galaxy",
+     "planet",
+     "constellation"
+    ]
+   },
+   {
+    "question": "The theory that the universe began from a hot, dense state is the …",
+    "answer": "Big Bang theory",
+    "choices": [
+     "Big Bang theory",
+     "Cell theory",
+     "Steady Sun theory",
+     "Plate tectonics theory"
+    ]
+   },
+   {
+    "question": "Why does the Sun look brighter than other stars?",
+    "answer": "It is much closer to us.",
+    "choices": [
+     "It is much closer to us.",
+     "It is the only star.",
+     "It is the biggest star in the universe.",
+     "Other stars are turned off in the day."
+    ]
+   },
+   {
+    "question": "What is the closest star to Earth?",
+    "answer": "The Sun",
+    "choices": [
+     "The Moon",
+     "Polaris",
+     "Sirius",
+     "The Sun"
+    ]
+   },
+   {
+    "question": "Why do we see different constellations in different seasons?",
+    "answer": "Earth moves around the Sun.",
+    "choices": [
+     "Constellations change colour.",
+     "Earth moves around the Sun.",
+     "The Moon blocks some stars.",
+     "Stars move every night."
+    ]
+   },
+   {
+    "question": "A galaxy shaped like a pinwheel with arms is a … galaxy.",
+    "answer": "spiral",
+    "choices": [
+     "elliptical",
+     "square",
+     "irregular",
+     "spiral"
+    ]
+   },
+   {
+    "question": "What powers the Sun?",
+    "answer": "Nuclear fusion",
+    "choices": [
+     "Chemical batteries",
+     "Electricity",
+     "Nuclear fusion",
+     "Burning coal"
+    ]
+   },
+   {
+    "question": "What is the name of our galaxy?",
+    "answer": "The Milky Way",
+    "choices": [
+     "Orion",
+     "Andromeda",
+     "The Milky Way",
+     "The Big Dipper"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciERT",
+  "subject": "science",
+  "title": "Layers of the Earth",
+  "section": "Plate tectonics",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciERT5"
+  ],
+  "examples": [
+   {
+    "question": "Which layer is the solid, hottest center of the Earth?",
+    "answer": "Inner core",
+    "choices": [
+     "Mantle",
+     "Outer core",
+     "Inner core",
+     "Crust"
+    ]
+   },
+   {
+    "question": "Which layer is at the very center of the Earth?",
+    "answer": "Inner core",
+    "choices": [
+     "Mantle",
+     "Inner core",
+     "Outer core",
+     "Crust"
+    ]
+   },
+   {
+    "question": "Which layer is the thinnest?",
+    "answer": "Crust",
+    "choices": [
+     "Crust",
+     "Mantle",
+     "Outer core",
+     "Inner core"
+    ]
+   },
+   {
+    "question": "Mountains and oceans are part of which layer?",
+    "answer": "Crust",
+    "choices": [
+     "Inner core",
+     "Crust",
+     "Outer core",
+     "Mantle"
+    ]
+   },
+   {
+    "question": "Which layer of the Earth do we live on?",
+    "answer": "Crust",
+    "choices": [
+     "Crust",
+     "Outer core",
+     "Inner core",
+     "Mantle"
+    ]
+   },
+   {
+    "question": "Volcanic magma comes from which layer?",
+    "answer": "Mantle",
+    "choices": [
+     "Crust",
+     "Mantle",
+     "Inner core",
+     "Outer core"
+    ]
+   },
+   {
+    "question": "Which layer is the thickest and made of hot, slowly flowing rock?",
+    "answer": "Mantle",
+    "choices": [
+     "Crust",
+     "Inner core",
+     "Outer core",
+     "Mantle"
+    ]
+   },
+   {
+    "question": "Which layer is made of liquid metal?",
+    "answer": "Outer core",
+    "choices": [
+     "Crust",
+     "Outer core",
+     "Inner core",
+     "Mantle"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRCK",
+  "subject": "science",
+  "title": "Types of rocks",
+  "section": "Rocks and minerals",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "sciRCK5"
+  ],
+  "examples": [
+   {
+    "question": "Which type of rock is slate ?",
+    "answer": "Metamorphic",
+    "choices": [
+     "Igneous",
+     "Metamorphic",
+     "Sedimentary"
+    ]
+   },
+   {
+    "question": "Which type of rock is granite ?",
+    "answer": "Igneous",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "Which type of rock is pumice ?",
+    "answer": "Igneous",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "Which type of rock is obsidian ?",
+    "answer": "Igneous",
+    "choices": [
+     "Sedimentary",
+     "Igneous",
+     "Metamorphic"
+    ]
+   },
+   {
+    "question": "Which type of rock is gneiss ?",
+    "answer": "Metamorphic",
+    "choices": [
+     "Igneous",
+     "Metamorphic",
+     "Sedimentary"
+    ]
+   },
+   {
+    "question": "Which type of rock is marble ?",
+    "answer": "Metamorphic",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "Which type of rock is shale ?",
+    "answer": "Sedimentary",
+    "choices": [
+     "Igneous",
+     "Sedimentary",
+     "Metamorphic"
+    ]
+   },
+   {
+    "question": "Which type of rock is basalt ?",
+    "answer": "Igneous",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "Which type of rock is limestone ?",
+    "answer": "Sedimentary",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "Which type of rock is sandstone ?",
+    "answer": "Sedimentary",
+    "choices": [
+     "Igneous",
+     "Sedimentary",
+     "Metamorphic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRockCyc",
+  "subject": "science",
+  "title": "The rock cycle",
+  "section": "Rocks and minerals",
+  "grades": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciRockCyc5",
+   "sciRockCyc6",
+   "sciRockCyc7",
+   "sciRockCyc8"
+  ],
+  "examples": [
+   {
+    "question": "What process breaks rock into small pieces?",
+    "answer": "Weathering",
+    "choices": [
+     "Cementation",
+     "Igneous rock",
+     "Weathering",
+     "Metamorphic rock"
+    ]
+   },
+   {
+    "question": "Melted rock below Earth's surface is called …",
+    "answer": "Magma",
+    "choices": [
+     "Magma",
+     "Metamorphic rock",
+     "Cementation",
+     "Erosion"
+    ]
+   },
+   {
+    "question": "What carries weathered sediments away?",
+    "answer": "Erosion",
+    "choices": [
+     "Weathering",
+     "Erosion",
+     "Cementation",
+     "Metamorphic rock"
+    ]
+   },
+   {
+    "question": "Sediments become sedimentary rock through compaction and …",
+    "answer": "Cementation",
+    "choices": [
+     "Weathering",
+     "Erosion",
+     "Metamorphic rock",
+     "Cementation"
+    ]
+   },
+   {
+    "question": "Heat and pressure turn rock into …",
+    "answer": "Metamorphic rock",
+    "choices": [
+     "Metamorphic rock",
+     "Weathering",
+     "Magma",
+     "Cementation"
+    ]
+   },
+   {
+    "question": "Magma that cools turns into …",
+    "answer": "Igneous rock",
+    "choices": [
+     "Magma",
+     "Erosion",
+     "Igneous rock",
+     "Metamorphic rock"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPetrol",
+  "subject": "science",
+  "title": "Petroleum formation and fossil fuels",
+  "section": "Natural resources and human impacts",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciPetrol5",
+   "sciPetrol6",
+   "sciPetrol7",
+   "sciPetrol8",
+   "sciPetrol9",
+   "sciPetrol10"
+  ],
+  "examples": [
+   {
+    "question": "Why are fossil fuels nonrenewable?",
+    "answer": "They form far more slowly than we use them.",
+    "choices": [
+     "They are found everywhere.",
+     "They are made in factories.",
+     "They regrow every year.",
+     "They form far more slowly than we use them."
+    ]
+   },
+   {
+    "question": "Coal formed mostly from the remains of …",
+    "answer": "ancient swamp plants",
+    "choices": [
+     "sea shells",
+     "glaciers",
+     "ancient swamp plants",
+     "sand dunes"
+    ]
+   },
+   {
+    "question": "Oil and natural gas formed mostly from the remains of …",
+    "answer": "tiny ancient sea organisms",
+    "choices": [
+     "modern trees",
+     "tiny ancient sea organisms",
+     "volcanic lava",
+     "dinosaur bones only"
+    ]
+   },
+   {
+    "question": "Burning fossil fuels releases which greenhouse gas?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "Carbon dioxide",
+     "Helium",
+     "Oxygen",
+     "Nitrogen"
+    ]
+   },
+   {
+    "question": "About how long did fossil fuels take to form?",
+    "answer": "Millions of years",
+    "choices": [
+     "A few days",
+     "Millions of years",
+     "About 1,000 years",
+     "About 100 years"
+    ]
+   },
+   {
+    "question": "Pumping groundwater faster than it refills can cause …",
+    "answer": "wells and springs to dry up",
+    "choices": [
+     "rocks to melt",
+     "more rain to fall",
+     "oceans to freeze",
+     "wells and springs to dry up"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciWaterCyc",
+  "subject": "science",
+  "title": "The water cycle",
+  "section": "Water cycle",
+  "grades": [
+   5,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciWaterCyc5",
+   "sciWaterCyc7",
+   "sciWaterCyc8"
+  ],
+  "examples": [
+   {
+    "question": "Which part of the water cycle is this? Liquid water is heated and turns into water vapour.",
+    "answer": "Evaporation",
+    "choices": [
+     "Infiltration",
+     "Precipitation",
+     "Condensation",
+     "Evaporation"
+    ]
+   },
+   {
+    "question": "Which part of the water cycle is this? Water gathers in oceans, lakes and rivers.",
+    "answer": "Collection (runoff)",
+    "choices": [
+     "Collection (runoff)",
+     "Infiltration",
+     "Precipitation",
+     "Condensation"
+    ]
+   },
+   {
+    "question": "Which part of the water cycle is this? Water vapour cools and forms clouds.",
+    "answer": "Condensation",
+    "choices": [
+     "Collection (runoff)",
+     "Transpiration",
+     "Precipitation",
+     "Condensation"
+    ]
+   },
+   {
+    "question": "Which part of the water cycle is this? Water soaks into the ground.",
+    "answer": "Infiltration",
+    "choices": [
+     "Evaporation",
+     "Transpiration",
+     "Precipitation",
+     "Infiltration"
+    ]
+   },
+   {
+    "question": "Which part of the water cycle is this? Plants release water vapour from their leaves.",
+    "answer": "Transpiration",
+    "choices": [
+     "Infiltration",
+     "Evaporation",
+     "Transpiration",
+     "Collection (runoff)"
+    ]
+   },
+   {
+    "question": "Which part of the water cycle is this? Water falls from clouds as rain, snow or hail.",
+    "answer": "Precipitation",
+    "choices": [
+     "Evaporation",
+     "Transpiration",
+     "Precipitation",
+     "Condensation"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsProtPl",
+  "subject": "science",
+  "title": "Understand an experimental protocol about plant growth",
+  "section": "Designing experiments",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsProtPl6",
+   "sciXsProtPl7",
+   "sciXsProtPl8"
+  ],
+  "examples": [
+   {
+    "question": "Why should the student record results in a table?",
+    "answer": "To organize data so patterns are easy to see",
+    "choices": [
+     "To organize data so patterns are easy to see",
+     "To make the plants grow",
+     "To change the results",
+     "To skip measuring"
+    ]
+   },
+   {
+    "question": "A student grows bean plants with 0, 5 and 10 mL of fertilizer per week. What is the independent variable?",
+    "answer": "The amount of fertilizer",
+    "choices": [
+     "Plant height",
+     "The type of bean",
+     "The pot size",
+     "The amount of fertilizer"
+    ]
+   },
+   {
+    "question": "What should the student do if one plant is knocked over and damaged?",
+    "answer": "Note it and exclude or explain that result",
+    "choices": [
+     "Stop the whole project",
+     "Hide the result",
+     "Note it and exclude or explain that result",
+     "Change other results"
+    ]
+   },
+   {
+    "question": "Why should every plant get the same amount of water and light?",
+    "answer": "So fertilizer is the only factor being tested",
+    "choices": [
+     "It doesn't matter",
+     "So fertilizer is the only factor being tested",
+     "To make plants grow faster",
+     "To save time"
+    ]
+   },
+   {
+    "question": "Why use several plants for each amount?",
+    "answer": "To reduce the effect of chance and make results more reliable",
+    "choices": [
+     "To change the variable",
+     "To reduce the effect of chance and make results more reliable",
+     "To use up seeds",
+     "To make it harder"
+    ]
+   },
+   {
+    "question": "In the same experiment, what is the dependent variable?",
+    "answer": "Plant height",
+    "choices": [
+     "Amount of fertilizer",
+     "Plant height",
+     "Pot colour",
+     "Amount of sunlight"
+    ]
+   },
+   {
+    "question": "A student tests whether music helps bean plants grow. What should be the same for every plant?",
+    "answer": "Light, water, soil and pot size",
+    "choices": [
+     "Light, water, soil and pot size",
+     "Nothing",
+     "The amount of music",
+     "The type of music"
+    ]
+   },
+   {
+    "question": "A student waters plants with 10, 20 and 30 mL a day. What is the dependent variable if she measures leaf count?",
+    "answer": "Number of leaves",
+    "choices": [
+     "Amount of water",
+     "Pot size",
+     "Type of plant",
+     "Number of leaves"
+    ]
+   },
+   {
+    "question": "In a plant growth experiment, what is the control group?",
+    "answer": "Plants that get no treatment, for comparison",
+    "choices": [
+     "The tallest plants",
+     "The plants that die",
+     "Plants that get no treatment, for comparison",
+     "Plants with the most fertilizer"
+    ]
+   },
+   {
+    "question": "Why does the student measure every plant at the same time each day?",
+    "answer": "So measurements can be compared fairly",
+    "choices": [
+     "So measurements can be compared fairly",
+     "To make plants grow",
+     "It doesn't matter",
+     "To save time"
+    ]
+   },
+   {
+    "question": "Which is a testable question about plant growth?",
+    "answer": "Does the colour of light affect how tall plants grow?",
+    "choices": [
+     "Does the colour of light affect how tall plants grow?",
+     "Are plants pretty?",
+     "Do plants like people?",
+     "Which plant is nicest?"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsProtDif",
+  "subject": "science",
+  "title": "Understand an experimental protocol about diffusion",
+  "section": "Designing experiments",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsProtDif6",
+   "sciXsProtDif7",
+   "sciXsProtDif8"
+  ],
+  "examples": [
+   {
+    "question": "A student drops food colouring into cups of water at 10 °C, 25 °C and 40 °C and times how long it takes to spread. What is being tested?",
+    "answer": "How temperature affects the rate of diffusion",
+    "choices": [
+     "How light affects colour",
+     "How cups affect water",
+     "How temperature affects the rate of diffusion",
+     "How colour affects taste"
+    ]
+   },
+   {
+    "question": "Which result would you expect?",
+    "answer": "The colouring spreads fastest in the 40 °C water",
+    "choices": [
+     "It spreads fastest in the 10 °C water",
+     "It spreads at the same rate in all cups",
+     "The colouring spreads fastest in the 40 °C water",
+     "It never spreads"
+    ]
+   },
+   {
+    "question": "What must be kept the same in each cup?",
+    "answer": "The volume of water and the amount of colouring",
+    "choices": [
+     "Nothing",
+     "The temperature",
+     "The time measured",
+     "The volume of water and the amount of colouring"
+    ]
+   },
+   {
+    "question": "What is diffusion?",
+    "answer": "Particles spreading from where they are more concentrated to where they are less concentrated",
+    "choices": [
+     "Particles staying in one place",
+     "Heat turning into light",
+     "Water freezing",
+     "Particles spreading from where they are more concentrated to where they are less concentrated"
+    ]
+   },
+   {
+    "question": "Which change should speed up diffusion?",
+    "answer": "Warmer water",
+    "choices": [
+     "Warmer water",
+     "Colder water",
+     "Less water",
+     "A bigger cup with the same water"
+    ]
+   },
+   {
+    "question": "Why use the same number of drops in each cup?",
+    "answer": "So the amount of dye is controlled",
+    "choices": [
+     "To save dye",
+     "So the amount of dye is controlled",
+     "It doesn't matter",
+     "To make it more colourful"
+    ]
+   },
+   {
+    "question": "In a diffusion experiment with food colouring, what should be measured?",
+    "answer": "The time it takes for the colour to spread evenly",
+    "choices": [
+     "The time it takes for the colour to spread evenly",
+     "The student's height",
+     "The room's size",
+     "The colour of the cup"
+    ]
+   },
+   {
+    "question": "A student sees colouring spread faster in hot water. What conclusion fits?",
+    "answer": "Higher temperature increases the rate of diffusion",
+    "choices": [
+     "Cold water speeds diffusion",
+     "Dye makes water hot",
+     "Higher temperature increases the rate of diffusion",
+     "Temperature has no effect"
+    ]
+   },
+   {
+    "question": "What is the independent variable in testing how temperature affects diffusion?",
+    "answer": "The water temperature",
+    "choices": [
+     "The cup size",
+     "The time to spread",
+     "The water temperature",
+     "The colour used"
+    ]
+   },
+   {
+    "question": "Why should the cups not be stirred?",
+    "answer": "Stirring would mix the colour and hide the effect of diffusion",
+    "choices": [
+     "Stirring would mix the colour and hide the effect of diffusion",
+     "It makes the water disappear",
+     "Stirring makes it colder",
+     "Stirring is not allowed"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsProtEvp",
+  "subject": "science",
+  "title": "Understand an experimental protocol about evaporation",
+  "section": "Designing experiments",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsProtEvp6",
+   "sciXsProtEvp7",
+   "sciXsProtEvp8"
+  ],
+  "examples": [
+   {
+    "question": "Why repeat the experiment several times?",
+    "answer": "To make sure the results are reliable",
+    "choices": [
+     "To use more water",
+     "To make it last longer",
+     "To change the variable",
+     "To make sure the results are reliable"
+    ]
+   },
+   {
+    "question": "What would you expect?",
+    "answer": "More water evaporates from the wide dish",
+    "choices": [
+     "The same amount evaporates",
+     "More water evaporates from the narrow jar",
+     "No water evaporates",
+     "More water evaporates from the wide dish"
+    ]
+   },
+   {
+    "question": "Which result would you expect?",
+    "answer": "The dish with the fan loses more water",
+    "choices": [
+     "The dish with the fan loses more water",
+     "The dish without the fan loses more",
+     "Both lose the same",
+     "Neither loses water"
+    ]
+   },
+   {
+    "question": "What is evaporation?",
+    "answer": "A liquid changing into a gas",
+    "choices": [
+     "A solid melting",
+     "A liquid freezing",
+     "A liquid changing into a gas",
+     "A gas changing into a liquid"
+    ]
+   },
+   {
+    "question": "Which change would also increase evaporation?",
+    "answer": "Putting the dish in a warm place",
+    "choices": [
+     "Using a narrow jar",
+     "Putting it in the fridge",
+     "Putting the dish in a warm place",
+     "Covering the dish"
+    ]
+   },
+   {
+    "question": "How should the student measure evaporation?",
+    "answer": "Measure the water left with a graduated cylinder",
+    "choices": [
+     "Measure the water left with a graduated cylinder",
+     "Count the bubbles",
+     "Guess by looking",
+     "Smell the water"
+    ]
+   },
+   {
+    "question": "Why should both containers be in the same place?",
+    "answer": "So temperature and air flow are the same",
+    "choices": [
+     "To share the water",
+     "So they look nice",
+     "So temperature and air flow are the same",
+     "So they evaporate faster"
+    ]
+   },
+   {
+    "question": "A student tests whether wind affects evaporation. What is the independent variable?",
+    "answer": "Whether a fan blows on the dish",
+    "choices": [
+     "The dish size",
+     "The type of water",
+     "Whether a fan blows on the dish",
+     "The amount of water left"
+    ]
+   },
+   {
+    "question": "A student puts 100 mL of water in a wide dish and 100 mL in a narrow jar, then measures what is left after 3 days. What is the independent variable?",
+    "answer": "The surface area of the container",
+    "choices": [
+     "The surface area of the container",
+     "The temperature",
+     "The amount of water left",
+     "The type of water"
+    ]
+   },
+   {
+    "question": "Why should both dishes start with the same amount of water?",
+    "answer": "To compare results fairly",
+    "choices": [
+     "To save water",
+     "To make it harder",
+     "To compare results fairly",
+     "It doesn't matter"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciVAR",
+  "subject": "science",
+  "title": "Variables in experiments",
+  "section": "Designing experiments",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "sciVAR6"
+  ],
+  "examples": [
+   {
+    "question": "A student tests how sunlight affects plant growth. The height of the plant is the …",
+    "answer": "Dependent variable",
+    "choices": [
+     "Dependent variable",
+     "Independent variable",
+     "Controlled variable"
+    ]
+   },
+   {
+    "question": "A student tests how sunlight affects plant growth. The type of soil used for all plants is a …",
+    "answer": "Controlled variable",
+    "choices": [
+     "Controlled variable",
+     "Independent variable",
+     "Dependent variable"
+    ]
+   },
+   {
+    "question": "A student tests how ramp height affects how far a car rolls. The distance rolled is the …",
+    "answer": "Dependent variable",
+    "choices": [
+     "Independent variable",
+     "Controlled variable",
+     "Dependent variable"
+    ]
+   },
+   {
+    "question": "A student tests how sunlight affects plant growth. The amount of sunlight is the …",
+    "answer": "Independent variable",
+    "choices": [
+     "Controlled variable",
+     "Independent variable",
+     "Dependent variable"
+    ]
+   },
+   {
+    "question": "A student tests how ramp height affects how far a car rolls. The height of the ramp is the …",
+    "answer": "Independent variable",
+    "choices": [
+     "Independent variable",
+     "Controlled variable",
+     "Dependent variable"
+    ]
+   },
+   {
+    "question": "A student tests how temperature affects how fast sugar dissolves. The amount of sugar in every cup is a …",
+    "answer": "Controlled variable",
+    "choices": [
+     "Independent variable",
+     "Dependent variable",
+     "Controlled variable"
+    ]
+   },
+   {
+    "question": "A student tests how temperature affects how fast sugar dissolves. The time to dissolve is the …",
+    "answer": "Dependent variable",
+    "choices": [
+     "Dependent variable",
+     "Independent variable",
+     "Controlled variable"
+    ]
+   },
+   {
+    "question": "A student tests how temperature affects how fast sugar dissolves. The water temperature is the …",
+    "answer": "Independent variable",
+    "choices": [
+     "Dependent variable",
+     "Independent variable",
+     "Controlled variable"
+    ]
+   }
+  ]
+ }
+]

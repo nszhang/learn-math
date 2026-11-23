@@ -1,0 +1,2384 @@
+[
+ {
+  "key": "engPnRf",
+  "subject": "english",
+  "title": "Is the pronoun reflexive or intensive?",
+  "section": "Pronoun types",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engPnRf6",
+   "engPnRf7",
+   "engPnRf8"
+  ],
+  "examples": [
+   {
+    "question": "The president herself answered the call.",
+    "answer": "Intensive",
+    "choices": [
+     "Reflexive",
+     "Intensive"
+    ]
+   },
+   {
+    "question": "You yourself must decide.",
+    "answer": "Intensive",
+    "choices": [
+     "Intensive",
+     "Reflexive"
+    ]
+   },
+   {
+    "question": "I hurt myself playing soccer.",
+    "answer": "Reflexive",
+    "choices": [
+     "Reflexive",
+     "Intensive"
+    ]
+   },
+   {
+    "question": "We congratulated ourselves.",
+    "answer": "Reflexive",
+    "choices": [
+     "Intensive",
+     "Reflexive"
+    ]
+   },
+   {
+    "question": "They enjoyed themselves at the party.",
+    "answer": "Reflexive",
+    "choices": [
+     "Reflexive",
+     "Intensive"
+    ]
+   },
+   {
+    "question": "She taught herself to code.",
+    "answer": "Reflexive",
+    "choices": [
+     "Intensive",
+     "Reflexive"
+    ]
+   },
+   {
+    "question": "I made the cake myself.",
+    "answer": "Intensive",
+    "choices": [
+     "Intensive",
+     "Reflexive"
+    ]
+   },
+   {
+    "question": "The chef himself tasted every dish.",
+    "answer": "Intensive",
+    "choices": [
+     "Intensive",
+     "Reflexive"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVbTr",
+  "subject": "english",
+  "title": "Identify transitive and intransitive verbs",
+  "section": "Verb types",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engVbTr6",
+   "engVbTr7",
+   "engVbTr8",
+   "engVbTr9",
+   "engVbTr10",
+   "engVbTr11",
+   "engVbTr12"
+  ],
+  "examples": [
+   {
+    "question": "Is the underlined verb transitive or intransitive? The chef made a salad.",
+    "answer": "Transitive",
+    "choices": [
+     "Intransitive",
+     "Transitive"
+    ]
+   },
+   {
+    "question": "Is the underlined verb transitive or intransitive? The leaves fell to the ground.",
+    "answer": "Intransitive",
+    "choices": [
+     "Intransitive",
+     "Transitive"
+    ]
+   },
+   {
+    "question": "Is the underlined verb transitive or intransitive? She kicked the ball.",
+    "answer": "Transitive",
+    "choices": [
+     "Transitive",
+     "Intransitive"
+    ]
+   },
+   {
+    "question": "Is the underlined verb transitive or intransitive? They painted the fence.",
+    "answer": "Transitive",
+    "choices": [
+     "Intransitive",
+     "Transitive"
+    ]
+   },
+   {
+    "question": "Is the underlined verb transitive or intransitive? The sun rose at six.",
+    "answer": "Intransitive",
+    "choices": [
+     "Intransitive",
+     "Transitive"
+    ]
+   },
+   {
+    "question": "Is the underlined verb transitive or intransitive? The baby slept peacefully.",
+    "answer": "Intransitive",
+    "choices": [
+     "Intransitive",
+     "Transitive"
+    ]
+   },
+   {
+    "question": "Is the underlined verb transitive or intransitive? He wrote a letter.",
+    "answer": "Transitive",
+    "choices": [
+     "Transitive",
+     "Intransitive"
+    ]
+   },
+   {
+    "question": "Is the underlined verb transitive or intransitive? We arrived late.",
+    "answer": "Intransitive",
+    "choices": [
+     "Intransitive",
+     "Transitive"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVbLk",
+  "subject": "english",
+  "title": "Identify linking verbs, predicate adjectives and predicate nouns",
+  "section": "Verb types",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engVbLk6",
+   "engVbLk7",
+   "engVbLk8",
+   "engVbLk9",
+   "engVbLk10",
+   "engVbLk11",
+   "engVbLk12"
+  ],
+  "examples": [
+   {
+    "question": "What is the underlined word? She baked a cake .",
+    "answer": "Direct object",
+    "choices": [
+     "Predicate noun",
+     "Direct object",
+     "Predicate adjective"
+    ]
+   },
+   {
+    "question": "What is the underlined word? The night grew cold .",
+    "answer": "Predicate adjective",
+    "choices": [
+     "Predicate adjective",
+     "Direct object",
+     "Predicate noun"
+    ]
+   },
+   {
+    "question": "What is the underlined word? The dog chased the squirrel .",
+    "answer": "Direct object",
+    "choices": [
+     "Predicate adjective",
+     "Direct object",
+     "Predicate noun"
+    ]
+   },
+   {
+    "question": "What is the underlined word? The soup smells delicious .",
+    "answer": "Predicate adjective",
+    "choices": [
+     "Predicate noun",
+     "Predicate adjective",
+     "Direct object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? He seems tired .",
+    "answer": "Predicate adjective",
+    "choices": [
+     "Direct object",
+     "Predicate adjective",
+     "Predicate noun"
+    ]
+   },
+   {
+    "question": "What is the underlined word? My uncle is a pilot .",
+    "answer": "Predicate noun",
+    "choices": [
+     "Predicate adjective",
+     "Direct object",
+     "Predicate noun"
+    ]
+   },
+   {
+    "question": "What is the underlined word? Canada is a country .",
+    "answer": "Predicate noun",
+    "choices": [
+     "Predicate noun",
+     "Predicate adjective",
+     "Direct object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? Mr. Lee became our principal .",
+    "answer": "Predicate noun",
+    "choices": [
+     "Direct object",
+     "Predicate adjective",
+     "Predicate noun"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTnIr",
+  "subject": "english",
+  "title": "Irregular past tense: review",
+  "section": "Verb tense",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engTnIr6",
+   "engTnIr7",
+   "engTnIr8"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct form. They have ___ their lunch. (eat)",
+    "answer": "eaten",
+    "choices": [
+     "eated",
+     "eaten",
+     "ate",
+     "eat"
+    ]
+   },
+   {
+    "question": "Choose the correct form. The river had ___ over its banks. (rise)",
+    "answer": "risen",
+    "choices": [
+     "rised",
+     "risen",
+     "rose",
+     "rise"
+    ]
+   },
+   {
+    "question": "Choose the correct form. She ___ the ball over the fence. (throw)",
+    "answer": "threw",
+    "choices": [
+     "throw",
+     "thrown",
+     "throwed",
+     "threw"
+    ]
+   },
+   {
+    "question": "Choose the correct form. Yesterday I ___ a new song. (sing)",
+    "answer": "sang",
+    "choices": [
+     "sang",
+     "sung",
+     "singed",
+     "sing"
+    ]
+   },
+   {
+    "question": "Choose the correct form. I have ___ that movie before. (see)",
+    "answer": "seen",
+    "choices": [
+     "seed",
+     "see",
+     "saw",
+     "seen"
+    ]
+   },
+   {
+    "question": "Choose the correct form. The bell ___ at noon. (ring)",
+    "answer": "rang",
+    "choices": [
+     "ring",
+     "ringed",
+     "rung",
+     "rang"
+    ]
+   },
+   {
+    "question": "Choose the correct form. She has ___ the answer. (know)",
+    "answer": "known",
+    "choices": [
+     "know",
+     "knew",
+     "knowed",
+     "known"
+    ]
+   },
+   {
+    "question": "Choose the correct form. He ___ the window by accident. (break)",
+    "answer": "broke",
+    "choices": [
+     "broke",
+     "breaked",
+     "broken",
+     "break"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAdCp",
+  "subject": "english",
+  "title": "Form and use comparative and superlative adjectives",
+  "section": "Adjectives and adverbs",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engAdCp6",
+   "engAdCp7",
+   "engAdCp8",
+   "engAdCp9",
+   "engAdCp10",
+   "engAdCp11",
+   "engAdCp12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct form. That was the ___ decision of all. (wise)",
+    "answer": "wisest",
+    "choices": [
+     "wiser",
+     "most wiser",
+     "more wise",
+     "wisest"
+    ]
+   },
+   {
+    "question": "Choose the correct form. Of the two paths, this one is ___. (narrow)",
+    "answer": "narrower",
+    "choices": [
+     "more narrowest",
+     "most narrow",
+     "narrower",
+     "narrowest"
+    ]
+   },
+   {
+    "question": "Choose the correct form. It was the ___ movie I have ever seen. (funny)",
+    "answer": "funniest",
+    "choices": [
+     "funniest",
+     "funnyest",
+     "most funny",
+     "more funniest"
+    ]
+   },
+   {
+    "question": "Choose the correct form. This route is ___ than that one. (direct)",
+    "answer": "more direct",
+    "choices": [
+     "directest",
+     "more direct",
+     "most direct",
+     "directer"
+    ]
+   },
+   {
+    "question": "Choose the correct form. My bag is ___ than yours. (heavy)",
+    "answer": "heavier",
+    "choices": [
+     "heavyer",
+     "heaviest",
+     "more heavy",
+     "heavier"
+    ]
+   },
+   {
+    "question": "Choose the correct form. Today is ___ than yesterday. (warm)",
+    "answer": "warmer",
+    "choices": [
+     "more warmest",
+     "warmest",
+     "warmer",
+     "most warm"
+    ]
+   },
+   {
+    "question": "Choose the correct form. She is the ___ student in the class. (intelligent)",
+    "answer": "most intelligent",
+    "choices": [
+     "most intelligenter",
+     "most intelligent",
+     "more intelligent",
+     "intelligentest"
+    ]
+   },
+   {
+    "question": "Choose the correct form. This is the ___ day of the year. (long)",
+    "answer": "longest",
+    "choices": [
+     "longest",
+     "most longer",
+     "longer",
+     "more long"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAdGb",
+  "subject": "english",
+  "title": "Good, better, best, bad, worse and worst",
+  "section": "Adjectives and adverbs",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engAdGb6",
+   "engAdGb7",
+   "engAdGb8",
+   "engAdGb9",
+   "engAdGb10",
+   "engAdGb11",
+   "engAdGb12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word. That was the ___ storm in a decade. (bad)",
+    "answer": "worst",
+    "choices": [
+     "worst",
+     "worse",
+     "most bad",
+     "baddest"
+    ]
+   },
+   {
+    "question": "Choose the correct word. Of all the options, this is the ___. (good)",
+    "answer": "best",
+    "choices": [
+     "goodest",
+     "better",
+     "best",
+     "gooder"
+    ]
+   },
+   {
+    "question": "Choose the correct word. This pizza is ___ than the last one. (good)",
+    "answer": "better",
+    "choices": [
+     "gooder",
+     "best",
+     "more good",
+     "better"
+    ]
+   },
+   {
+    "question": "Choose the correct word. Today's weather is ___ than yesterday's. (bad)",
+    "answer": "worse",
+    "choices": [
+     "worse",
+     "more bad",
+     "worst",
+     "badder"
+    ]
+   },
+   {
+    "question": "Choose the correct word. His cold got ___ overnight. (bad)",
+    "answer": "worse",
+    "choices": [
+     "worse",
+     "badder",
+     "more worse",
+     "worst"
+    ]
+   },
+   {
+    "question": "Choose the correct word. It was the ___ concert of my life. (good)",
+    "answer": "best",
+    "choices": [
+     "most good",
+     "goodest",
+     "best",
+     "better"
+    ]
+   },
+   {
+    "question": "Choose the correct word. This is the ___ day of my life! (bad)",
+    "answer": "worst",
+    "choices": [
+     "worst",
+     "baddest",
+     "worse",
+     "most worst"
+    ]
+   },
+   {
+    "question": "Choose the correct word. Her second attempt was ___ than the first. (good)",
+    "answer": "better",
+    "choices": [
+     "gooder",
+     "best",
+     "more better",
+     "better"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRsPn",
+  "subject": "english",
+  "title": "What does the punctuation suggest?",
+  "section": "Punctuation",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRsPn6",
+   "engRsPn7",
+   "engRsPn8",
+   "engRsPn9",
+   "engRsPn10",
+   "engRsPn11",
+   "engRsPn12"
+  ],
+  "examples": [
+   {
+    "question": "My brother, who lives in Calgary, is a chef. What does the punctuation suggest?",
+    "answer": "I have only one brother.",
+    "choices": [
+     "I have only one brother.",
+     "My brother is a chef in Calgary only.",
+     "I have several brothers.",
+     "Calgary is far."
+    ]
+   },
+   {
+    "question": "Her car which is red was stolen. What does the punctuation suggest?",
+    "answer": "She has more than one car.",
+    "choices": [
+     "Her car was not red.",
+     "She has only one car.",
+     "She has more than one car.",
+     "Nothing was stolen."
+    ]
+   },
+   {
+    "question": "The students who studied hard passed. What does the punctuation suggest?",
+    "answer": "Only the students who studied hard passed.",
+    "choices": [
+     "Nobody studied.",
+     "All the students passed.",
+     "Only the students who studied hard passed.",
+     "The students failed."
+    ]
+   },
+   {
+    "question": "The students, who studied hard, passed. What does the punctuation suggest?",
+    "answer": "All the students studied hard and passed.",
+    "choices": [
+     "The students failed.",
+     "Only some students passed.",
+     "Some students did not study.",
+     "All the students studied hard and passed."
+    ]
+   },
+   {
+    "question": "My brother who lives in Calgary is a chef. What does the punctuation suggest?",
+    "answer": "I have more than one brother.",
+    "choices": [
+     "My brother is not a chef.",
+     "I have only one brother.",
+     "Calgary is far.",
+     "I have more than one brother."
+    ]
+   },
+   {
+    "question": "Her car, which is red, was stolen. What does the punctuation suggest?",
+    "answer": "She has only one car, and it is red.",
+    "choices": [
+     "She has several cars.",
+     "Red cars are stolen more often.",
+     "She has only one car, and it is red.",
+     "Her car was not stolen."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRsCm",
+  "subject": "english",
+  "title": "Commas with nonrestrictive elements",
+  "section": "Punctuation",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRsCm6",
+   "engRsCm7",
+   "engRsCm8",
+   "engRsCm9",
+   "engRsCm10",
+   "engRsCm11",
+   "engRsCm12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "Our principal, Dr. Singh, welcomed the guests.",
+    "choices": [
+     "Our principal Dr. Singh, welcomed the guests.",
+     "Our principal, Dr. Singh welcomed the guests.",
+     "Our principal Dr. Singh welcomed, the guests.",
+     "Our principal, Dr. Singh, welcomed the guests."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "The Nile, which flows north, is the longest river in Africa.",
+    "choices": [
+     "The Nile which flows north, is the longest river in Africa.",
+     "The Nile, which flows north is the longest river in Africa.",
+     "The Nile, which flows north, is the longest river in Africa.",
+     "The Nile which flows north is the longest river in Africa."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "Mount Everest, the tallest mountain on Earth, attracts climbers.",
+    "choices": [
+     "Mount Everest the tallest mountain on Earth attracts climbers.",
+     "Mount Everest, the tallest mountain on Earth attracts climbers.",
+     "Mount Everest, the tallest mountain on Earth, attracts climbers.",
+     "Mount Everest the tallest mountain on Earth, attracts climbers."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "The book that I borrowed was excellent.",
+    "choices": [
+     "The book that, I borrowed was excellent.",
+     "The book, that I borrowed, was excellent.",
+     "The book, that I borrowed was excellent.",
+     "The book that I borrowed was excellent."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "Anyone who finishes early may leave.",
+    "choices": [
+     "Anyone, who finishes early, may leave.",
+     "Anyone, who finishes early may leave.",
+     "Anyone who finishes early may leave.",
+     "Anyone who finishes early, may leave."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "My sister, who lives in Halifax, called last night.",
+    "choices": [
+     "My sister who lives in Halifax, called last night.",
+     "My sister, who lives in Halifax, called last night.",
+     "My sister, who lives in Halifax called last night.",
+     "My sister who lives, in Halifax called last night."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "Students who finish early may leave.",
+    "choices": [
+     "Students, who finish early, may leave.",
+     "Students, who finish early may leave.",
+     "Students who finish early, may leave.",
+     "Students who finish early may leave."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "Paris, the capital of France, is famous for its cafés.",
+    "choices": [
+     "Paris the capital of France is famous for its cafés.",
+     "Paris, the capital of France is famous for its cafés.",
+     "Paris the capital of France, is famous for its cafés.",
+     "Paris, the capital of France, is famous for its cafés."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engDsUs",
+  "subject": "english",
+  "title": "Use dashes",
+  "section": "Punctuation",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engDsUs6",
+   "engDsUs7",
+   "engDsUs8",
+   "engDsUs9",
+   "engDsUs10",
+   "engDsUs11",
+   "engDsUs12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses dashes correctly?",
+    "answer": "She had only one fear—heights.",
+    "choices": [
+     "She had only one fear—, heights.",
+     "She had only one fear—heights.",
+     "She had only one fear heights—.",
+     "She had only—one fear heights."
+    ]
+   },
+   {
+    "question": "Which sentence uses dashes correctly?",
+    "answer": "My sister—the one in Vancouver—is visiting.",
+    "choices": [
+     "My sister—the one in Vancouver—is visiting.",
+     "My sister—the one in Vancouver is visiting.",
+     "My sister the one in Vancouver—is visiting.",
+     "My sister-the one in Vancouver-is visiting."
+    ]
+   },
+   {
+    "question": "Which sentence uses dashes correctly?",
+    "answer": "Three things matter—time, effort and patience.",
+    "choices": [
+     "Three things matter-time, effort and patience.",
+     "Three things matter time—effort and patience.",
+     "Three things matter—time, effort and patience.",
+     "Three things matter—time—effort and patience."
+    ]
+   },
+   {
+    "question": "Which sentence uses dashes correctly?",
+    "answer": "He wanted one thing—to win.",
+    "choices": [
+     "He wanted one thing—to, win.",
+     "He wanted—one thing to win.",
+     "He wanted one thing—to win.",
+     "He wanted one thing - to win."
+    ]
+   },
+   {
+    "question": "Which sentence uses dashes correctly?",
+    "answer": "I thought I could—but I was wrong.",
+    "choices": [
+     "I thought I could—but I was wrong.",
+     "I thought I could but—I was wrong.",
+     "I thought—I could but I was wrong.",
+     "I thought I could—, but I was wrong."
+    ]
+   },
+   {
+    "question": "Which sentence uses dashes correctly?",
+    "answer": "The weather—cold and wet—spoiled our plans.",
+    "choices": [
+     "The weather—cold and wet, spoiled our plans.",
+     "The weather—cold and wet spoiled—our plans.",
+     "The weather—cold and wet—spoiled our plans.",
+     "The weather, cold and wet—spoiled our plans."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPCS",
+  "subject": "english",
+  "title": "Subject and object pronouns",
+  "section": "Pronouns",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "engPCS6"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct pronoun: The dog followed ___ home.",
+    "answer": "him",
+    "choices": [
+     "his",
+     "him",
+     "himself",
+     "he"
+    ]
+   },
+   {
+    "question": "Choose the correct pronoun: ___ and Jake are on the same team.",
+    "answer": "She",
+    "choices": [
+     "Herself",
+     "Her",
+     "She",
+     "Hers"
+    ]
+   },
+   {
+    "question": "Choose the correct pronoun: Maria and ___ went to the store.",
+    "answer": "I",
+    "choices": [
+     "myself",
+     "I",
+     "mine",
+     "me"
+    ]
+   },
+   {
+    "question": "Choose the correct pronoun: Dad drove my brother and ___ to practice.",
+    "answer": "me",
+    "choices": [
+     "mine",
+     "I",
+     "myself",
+     "me"
+    ]
+   },
+   {
+    "question": "Choose the correct pronoun: ___ are going to the museum.",
+    "answer": "They",
+    "choices": [
+     "Their",
+     "They",
+     "Theirs",
+     "Them"
+    ]
+   },
+   {
+    "question": "Choose the correct pronoun: The teacher gave the prize to Sam and ___.",
+    "answer": "me",
+    "choices": [
+     "me",
+     "I",
+     "mine",
+     "myself"
+    ]
+   },
+   {
+    "question": "Choose the correct pronoun: It was ___ who called.",
+    "answer": "he",
+    "choices": [
+     "himself",
+     "his",
+     "him",
+     "he"
+    ]
+   },
+   {
+    "question": "Choose the correct pronoun: The prize was awarded to ___.",
+    "answer": "her",
+    "choices": [
+     "herself",
+     "she",
+     "her",
+     "hers"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCMA",
+  "subject": "english",
+  "title": "Commas",
+  "section": "Commas",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "engCMA6"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "My sister, who is ten, loves soccer.",
+    "choices": [
+     "My sister, who is ten loves soccer.",
+     "My, sister who is ten loves soccer.",
+     "My sister who is ten, loves soccer.",
+     "My sister, who is ten, loves soccer."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "Yes, I will help you.",
+    "choices": [
+     "Yes, I will, help you.",
+     "Yes, I will help you.",
+     "Yes I will help, you.",
+     "Yes I will, help you."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "It was a long, cold winter.",
+    "choices": [
+     "It was a long, cold winter.",
+     "It was a long cold, winter.",
+     "It was, a long cold winter.",
+     "It was a long, cold, winter."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "After dinner, we watched a movie.",
+    "choices": [
+     "After dinner, we watched a movie.",
+     "After dinner we, watched a movie.",
+     "After, dinner we watched a movie.",
+     "After dinner we watched, a movie."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "I wanted to go, but it was raining.",
+    "choices": [
+     "I wanted, to go but it was raining.",
+     "I wanted to go but it was, raining.",
+     "I wanted to go but, it was raining.",
+     "I wanted to go, but it was raining."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "Please, Tom, close the door.",
+    "choices": [
+     "Please Tom, close the door.",
+     "Please, Tom close the door.",
+     "Please, Tom, close the door.",
+     "Please Tom close, the door."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "We bought apples, pears, and bananas.",
+    "choices": [
+     "We bought apples, pears, and, bananas.",
+     "We bought apples pears, and bananas.",
+     "We bought, apples, pears and bananas.",
+     "We bought apples, pears, and bananas."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAlMn",
+  "subject": "english",
+  "title": "Interpret the meaning of an allusion from its source",
+  "section": "Literary devices",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXAlMn7",
+   "engXAlMn8",
+   "engXAlMn9",
+   "engXAlMn10",
+   "engXAlMn11",
+   "engXAlMn12"
+  ],
+  "examples": [
+   {
+    "question": "Their defence was strong, but the goalie's weak ankle was the team's Achilles' heel. What does the allusion suggest?",
+    "answer": "A small but serious weakness",
+    "choices": [
+     "A small but serious weakness",
+     "A great strength",
+     "A lucky charm",
+     "An injury that healed"
+    ]
+   },
+   {
+    "question": "Selling the family farm felt like crossing the Rubicon. What does the allusion suggest?",
+    "answer": "Making a decision that cannot be undone",
+    "choices": [
+     "Making a decision that cannot be undone",
+     "Taking a short trip",
+     "Going for a swim",
+     "Building a bridge"
+    ]
+   },
+   {
+    "question": "\"Don't open that Pandora's box,\" Mom warned when I asked about the old argument. What does the allusion suggest?",
+    "answer": "Something that will cause many unexpected problems",
+    "choices": [
+     "Something that will cause many unexpected problems",
+     "A gift box",
+     "A locked diary",
+     "A treasure chest"
+    ]
+   },
+   {
+    "question": "The village was quiet, but we sensed a Trojan horse in the stranger's generous offer. What does the allusion suggest?",
+    "answer": "A trick disguised as a gift",
+    "choices": [
+     "A real horse",
+     "A wooden toy",
+     "A kind gesture",
+     "A trick disguised as a gift"
+    ]
+   },
+   {
+    "question": "He has the Midas touch — every business he starts succeeds. What does the allusion suggest?",
+    "answer": "An ability to make everything successful",
+    "choices": [
+     "A golden ring",
+     "A gentle touch",
+     "Bad luck",
+     "An ability to make everything successful"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAlSr",
+  "subject": "english",
+  "title": "Recall the source of an allusion",
+  "section": "Literary devices",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "engAlSr7"
+  ],
+  "examples": [
+   {
+    "question": "Where does the allusion \"To be, or not to be\" come from?",
+    "answer": "Shakespeare",
+    "choices": [
+     "The Bible",
+     "Fairy tales and folklore",
+     "Greek or Roman mythology",
+     "Shakespeare"
+    ]
+   },
+   {
+    "question": "Where does the allusion Pandora's box come from?",
+    "answer": "Greek or Roman mythology",
+    "choices": [
+     "Fairy tales and folklore",
+     "Shakespeare",
+     "The Bible",
+     "Greek or Roman mythology"
+    ]
+   },
+   {
+    "question": "Where does the allusion David and Goliath come from?",
+    "answer": "The Bible",
+    "choices": [
+     "Shakespeare",
+     "The Bible",
+     "Greek or Roman mythology",
+     "Fairy tales and folklore"
+    ]
+   },
+   {
+    "question": "Where does the allusion the Midas touch come from?",
+    "answer": "Greek or Roman mythology",
+    "choices": [
+     "The Bible",
+     "Fairy tales and folklore",
+     "Greek or Roman mythology",
+     "Shakespeare"
+    ]
+   },
+   {
+    "question": "Where does the allusion a Romeo come from?",
+    "answer": "Shakespeare",
+    "choices": [
+     "Shakespeare",
+     "Greek or Roman mythology",
+     "Fairy tales and folklore",
+     "The Bible"
+    ]
+   },
+   {
+    "question": "Where does the allusion the big bad wolf come from?",
+    "answer": "Fairy tales and folklore",
+    "choices": [
+     "Greek or Roman mythology",
+     "The Bible",
+     "Fairy tales and folklore",
+     "Shakespeare"
+    ]
+   },
+   {
+    "question": "Where does the allusion Cinderella story come from?",
+    "answer": "Fairy tales and folklore",
+    "choices": [
+     "The Bible",
+     "Shakespeare",
+     "Greek or Roman mythology",
+     "Fairy tales and folklore"
+    ]
+   },
+   {
+    "question": "Where does the allusion Achilles' heel come from?",
+    "answer": "Greek or Roman mythology",
+    "choices": [
+     "The Bible",
+     "Fairy tales and folklore",
+     "Shakespeare",
+     "Greek or Roman mythology"
+    ]
+   },
+   {
+    "question": "Where does the allusion the Good Samaritan come from?",
+    "answer": "The Bible",
+    "choices": [
+     "Fairy tales and folklore",
+     "Shakespeare",
+     "Greek or Roman mythology",
+     "The Bible"
+    ]
+   },
+   {
+    "question": "Where does the allusion the Prodigal Son come from?",
+    "answer": "The Bible",
+    "choices": [
+     "The Bible",
+     "Shakespeare",
+     "Fairy tales and folklore",
+     "Greek or Roman mythology"
+    ]
+   },
+   {
+    "question": "Where does the allusion a Trojan horse come from?",
+    "answer": "Greek or Roman mythology",
+    "choices": [
+     "The Bible",
+     "Shakespeare",
+     "Fairy tales and folklore",
+     "Greek or Roman mythology"
+    ]
+   },
+   {
+    "question": "Where does the allusion Noah's ark come from?",
+    "answer": "The Bible",
+    "choices": [
+     "Shakespeare",
+     "Fairy tales and folklore",
+     "Greek or Roman mythology",
+     "The Bible"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrlU",
+  "subject": "english",
+  "title": "Use parallel structure",
+  "section": "Editing and revising",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXPrlU7",
+   "engXPrlU8",
+   "engXPrlU9",
+   "engXPrlU10",
+   "engXPrlU11",
+   "engXPrlU12"
+  ],
+  "examples": [
+   {
+    "question": "Which choice keeps the sentence parallel? He was tired, hungry and ___.",
+    "answer": "cold",
+    "choices": [
+     "cold",
+     "he was cold",
+     "to be cold",
+     "feeling cold"
+    ]
+   },
+   {
+    "question": "Which choice keeps the sentence parallel? She likes hiking, swimming and ___.",
+    "answer": "biking",
+    "choices": [
+     "bike rides are fun",
+     "biking",
+     "to bike",
+     "she bikes"
+    ]
+   },
+   {
+    "question": "Which choice keeps the sentence parallel? The coach told us to stretch, to drink water and ___.",
+    "answer": "to rest",
+    "choices": [
+     "rested",
+     "resting",
+     "to rest",
+     "we should rest"
+    ]
+   },
+   {
+    "question": "Which choice keeps the sentence parallel? The job requires patience, skill and ___.",
+    "answer": "creativity",
+    "choices": [
+     "to create",
+     "being creative",
+     "creativity",
+     "creatively"
+    ]
+   },
+   {
+    "question": "Which choice keeps the sentence parallel? We can travel by car, by train or ___.",
+    "answer": "by bus",
+    "choices": [
+     "to ride a bus",
+     "by bus",
+     "bus",
+     "taking the bus"
+    ]
+   },
+   {
+    "question": "Which choice keeps the sentence parallel? Reading improves vocabulary, builds focus and ___.",
+    "answer": "sparks imagination",
+    "choices": [
+     "it sparks imagination",
+     "imagination",
+     "to spark imagination",
+     "sparks imagination"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRdn",
+  "subject": "english",
+  "title": "Remove redundant words or phrases",
+  "section": "Editing and revising",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRdn7",
+   "engRdn8",
+   "engRdn9",
+   "engRdn10",
+   "engRdn11",
+   "engRdn12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is the most concise, with no redundant words?",
+    "answer": "We must plan for the future.",
+    "choices": [
+     "We must plan for the future.",
+     "We must make future plans for the future.",
+     "We must plan in advance for the future ahead.",
+     "We must plan ahead for the future."
+    ]
+   },
+   {
+    "question": "Which sentence is the most concise, with no redundant words?",
+    "answer": "The final outcome surprised us.",
+    "choices": [
+     "The outcome in the end surprised us.",
+     "The final outcome surprised us.",
+     "The final result outcome surprised us.",
+     "The final end outcome surprised us all."
+    ]
+   },
+   {
+    "question": "Which sentence is the most concise, with no redundant words?",
+    "answer": "The two friends shared the cake.",
+    "choices": [
+     "The two friends shared the cake with each other.",
+     "The two friends equally shared the cake together.",
+     "Both of the two friends shared the cake together.",
+     "The two friends shared the cake."
+    ]
+   },
+   {
+    "question": "Which sentence is the most concise, with no redundant words?",
+    "answer": "The sunset was beautiful.",
+    "choices": [
+     "The sunset was beautiful in appearance.",
+     "The sunset was a beautiful, pretty sight.",
+     "The sunset was beautiful.",
+     "The sunset was very beautiful and lovely."
+    ]
+   },
+   {
+    "question": "Which sentence is the most concise, with no redundant words?",
+    "answer": "She returned the book.",
+    "choices": [
+     "She went and returned the book back.",
+     "She returned back the book.",
+     "She returned the book.",
+     "She returned the book back again."
+    ]
+   },
+   {
+    "question": "Which sentence is the most concise, with no redundant words?",
+    "answer": "The meeting begins at 3 p.m.",
+    "choices": [
+     "The meeting begins at exactly 3 p.m. sharp.",
+     "The meeting begins at 3 p.m.",
+     "The meeting starts and begins at 3 p.m.",
+     "The meeting begins at 3 p.m. in the afternoon."
+    ]
+   },
+   {
+    "question": "Which sentence is the most concise, with no redundant words?",
+    "answer": "The reason is that he was late.",
+    "choices": [
+     "The reason is because he was late.",
+     "The reason is that he was late.",
+     "The reason for it is due to the fact that he was late.",
+     "The reason why is because he was late."
+    ]
+   },
+   {
+    "question": "Which sentence is the most concise, with no redundant words?",
+    "answer": "The group voted unanimously.",
+    "choices": [
+     "The group voted completely and unanimously.",
+     "The group voted unanimously.",
+     "The group voted unanimously as one.",
+     "The group all voted unanimously together."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engANL",
+  "subject": "english",
+  "title": "Word analogies",
+  "section": "Analogies",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "engANL7"
+  ],
+  "examples": [
+   {
+    "question": "Pen is to write as knife is to ___.",
+    "answer": "cut",
+    "choices": [
+     "foot",
+     "cut",
+     "sorrowful",
+     "cat"
+    ]
+   },
+   {
+    "question": "Finger is to hand as toe is to ___.",
+    "answer": "foot",
+    "choices": [
+     "hive",
+     "cat",
+     "foot",
+     "cut"
+    ]
+   },
+   {
+    "question": "Thermometer is to temperature as ruler is to ___.",
+    "answer": "length",
+    "choices": [
+     "cut",
+     "foot",
+     "down",
+     "length"
+    ]
+   },
+   {
+    "question": "Bird is to nest as bee is to ___.",
+    "answer": "hive",
+    "choices": [
+     "hive",
+     "sorrowful",
+     "foot",
+     "cut"
+    ]
+   },
+   {
+    "question": "Happy is to joyful as sad is to ___.",
+    "answer": "sorrowful",
+    "choices": [
+     "sorrowful",
+     "down",
+     "hive",
+     "length"
+    ]
+   },
+   {
+    "question": "Puppy is to dog as kitten is to ___.",
+    "answer": "cat",
+    "choices": [
+     "sorrowful",
+     "cat",
+     "foot",
+     "hive"
+    ]
+   },
+   {
+    "question": "Author is to book as composer is to ___.",
+    "answer": "symphony",
+    "choices": [
+     "length",
+     "cut",
+     "down",
+     "symphony"
+    ]
+   },
+   {
+    "question": "Hot is to cold as up is to ___.",
+    "answer": "down",
+    "choices": [
+     "down",
+     "symphony",
+     "cut",
+     "sorrowful"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPhCl",
+  "subject": "english",
+  "title": "Is it a phrase or a clause?",
+  "section": "Phrases and clauses",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPhCl7",
+   "engPhCl8",
+   "engPhCl9",
+   "engPhCl10",
+   "engPhCl11",
+   "engPhCl12"
+  ],
+  "examples": [
+   {
+    "question": "Is this group of words a phrase or a clause? to finish the race",
+    "answer": "Phrase",
+    "choices": [
+     "Clause",
+     "Phrase"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? running along the beach",
+    "answer": "Phrase",
+    "choices": [
+     "Phrase",
+     "Clause"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? the boy laughed",
+    "answer": "Clause",
+    "choices": [
+     "Clause",
+     "Phrase"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? under the bridge",
+    "answer": "Phrase",
+    "choices": [
+     "Phrase",
+     "Clause"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? when the rain stopped",
+    "answer": "Clause",
+    "choices": [
+     "Phrase",
+     "Clause"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? who lives next door",
+    "answer": "Clause",
+    "choices": [
+     "Phrase",
+     "Clause"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? a tall glass of water",
+    "answer": "Phrase",
+    "choices": [
+     "Phrase",
+     "Clause"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? if you call me",
+    "answer": "Clause",
+    "choices": [
+     "Phrase",
+     "Clause"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? because she studied",
+    "answer": "Clause",
+    "choices": [
+     "Phrase",
+     "Clause"
+    ]
+   },
+   {
+    "question": "Is this group of words a phrase or a clause? after the long meeting",
+    "answer": "Phrase",
+    "choices": [
+     "Phrase",
+     "Clause"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAppo",
+  "subject": "english",
+  "title": "Identify appositives and appositive phrases",
+  "section": "Phrases and clauses",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engAppo7",
+   "engAppo8",
+   "engAppo9",
+   "engAppo10",
+   "engAppo11",
+   "engAppo12"
+  ],
+  "examples": [
+   {
+    "question": "Which group of words is the appositive? The Nile, the longest river in Africa, flows north.",
+    "answer": "the longest river in Africa",
+    "choices": [
+     "flows north",
+     "The Nile",
+     "in Africa",
+     "the longest river in Africa"
+    ]
+   },
+   {
+    "question": "Which group of words is the appositive? I met Sam, a friend from camp, at the mall.",
+    "answer": "a friend from camp",
+    "choices": [
+     "a friend from camp",
+     "at the mall",
+     "from camp",
+     "I met Sam"
+    ]
+   },
+   {
+    "question": "Which group of words is the appositive? My neighbour, a retired pilot, tells great stories.",
+    "answer": "a retired pilot",
+    "choices": [
+     "My neighbour",
+     "tells great stories",
+     "a retired pilot",
+     "great stories"
+    ]
+   },
+   {
+    "question": "Which group of words is the appositive? We read Hamlet , a tragedy by Shakespeare.",
+    "answer": "a tragedy by Shakespeare",
+    "choices": [
+     "by Shakespeare",
+     "a tragedy by Shakespeare",
+     "Hamlet",
+     "We read"
+    ]
+   },
+   {
+    "question": "Which group of words is the appositive? Her sister Mia won the contest.",
+    "answer": "Mia",
+    "choices": [
+     "Her sister",
+     "the contest",
+     "Mia",
+     "won the contest"
+    ]
+   },
+   {
+    "question": "Which group of words is the appositive? Her favourite dessert, chocolate cake, was served.",
+    "answer": "chocolate cake",
+    "choices": [
+     "chocolate cake",
+     "favourite",
+     "was served",
+     "Her favourite dessert"
+    ]
+   },
+   {
+    "question": "Which group of words is the appositive? Dr. Lee, our principal, spoke first.",
+    "answer": "our principal",
+    "choices": [
+     "spoke first",
+     "first",
+     "our principal",
+     "Dr. Lee"
+    ]
+   },
+   {
+    "question": "Which group of words is the appositive? Toronto, the largest city in Canada, hosts many festivals.",
+    "answer": "the largest city in Canada",
+    "choices": [
+     "hosts many festivals",
+     "the largest city in Canada",
+     "many festivals",
+     "Toronto"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRlCl",
+  "subject": "english",
+  "title": "Combine sentences using relative clauses",
+  "section": "Phrases and clauses",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRlCl7",
+   "engRlCl8",
+   "engRlCl9",
+   "engRlCl10",
+   "engRlCl11",
+   "engRlCl12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best way to combine the sentences. The town is small. The town lies near the coast.",
+    "answer": "The town, which lies near the coast, is small.",
+    "choices": [
+     "The town, which lies near the coast, is small.",
+     "The town lies near the coast is small.",
+     "The town, who lies near the coast, is small.",
+     "The town who lies near the coast, is small."
+    ]
+   },
+   {
+    "question": "Choose the best way to combine the sentences. The student left early. The student's backpack was lost.",
+    "answer": "The student whose backpack was lost left early.",
+    "choices": [
+     "The student whom backpack was lost left early.",
+     "The student whose backpack was lost left early.",
+     "The student which backpack was lost left early.",
+     "The student who backpack was lost left early."
+    ]
+   },
+   {
+    "question": "Choose the best way to combine the sentences. The girl won the race. The girl is my cousin.",
+    "answer": "The girl who won the race is my cousin.",
+    "choices": [
+     "The girl whose won the race is my cousin.",
+     "The girl who won the race is my cousin.",
+     "The girl won the race is my cousin.",
+     "The girl which won the race is my cousin."
+    ]
+   },
+   {
+    "question": "Choose the best way to combine the sentences. The book is on the shelf. I borrowed the book.",
+    "answer": "The book that I borrowed is on the shelf.",
+    "choices": [
+     "The book who I borrowed is on the shelf.",
+     "The book I borrowed it is on the shelf.",
+     "The book whom I borrowed is on the shelf.",
+     "The book that I borrowed is on the shelf."
+    ]
+   },
+   {
+    "question": "Choose the best way to combine the sentences. I met a woman. The woman had climbed Everest.",
+    "answer": "I met a woman who had climbed Everest.",
+    "choices": [
+     "I met a woman who had climbed Everest.",
+     "I met a woman had climbed Everest.",
+     "I met a woman whom had climbed Everest.",
+     "I met a woman which had climbed Everest."
+    ]
+   },
+   {
+    "question": "Choose the best way to combine the sentences. The author spoke tonight. We admire the author.",
+    "answer": "The author whom we admire spoke tonight.",
+    "choices": [
+     "The author who we admire him spoke tonight.",
+     "The author whose we admire spoke tonight.",
+     "The author which we admire spoke tonight.",
+     "The author whom we admire spoke tonight."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCLS",
+  "subject": "english",
+  "title": "Independent and dependent clauses",
+  "section": "Phrases and clauses",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "engCLS7"
+  ],
+  "examples": [
+   {
+    "question": "Is this group of words an independent or dependent clause? Since we missed the bus",
+    "answer": "Dependent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   },
+   {
+    "question": "Is this group of words an independent or dependent clause? Maya finished her homework.",
+    "answer": "Independent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "Is this group of words an independent or dependent clause? We went to the beach.",
+    "answer": "Independent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "Is this group of words an independent or dependent clause? If you study hard",
+    "answer": "Dependent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   },
+   {
+    "question": "Is this group of words an independent or dependent clause? The movie starts at eight.",
+    "answer": "Independent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "Is this group of words an independent or dependent clause? When the bell rang",
+    "answer": "Dependent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "Is this group of words an independent or dependent clause? The dog barked loudly.",
+    "answer": "Independent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "Is this group of words an independent or dependent clause? Although she was tired",
+    "answer": "Dependent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   },
+   {
+    "question": "Is this group of words an independent or dependent clause? Because it was raining",
+    "answer": "Dependent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPlCm",
+  "subject": "english",
+  "title": "Form and use plurals of compound nouns",
+  "section": "Nouns",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "engXPlCm7",
+   "engXPlCm8",
+   "engXPlCm9",
+   "engXPlCm10"
+  ],
+  "examples": [
+   {
+    "question": "What is the plural of attorney general ?",
+    "answer": "attorneys general",
+    "choices": [
+     "attorney generals",
+     "attorney's general",
+     "attorneys general",
+     "attorneys generals"
+    ]
+   },
+   {
+    "question": "What is the plural of cupful ?",
+    "answer": "cupfuls",
+    "choices": [
+     "cupsful",
+     "cupfuls",
+     "cupfulls",
+     "cupful's"
+    ]
+   },
+   {
+    "question": "What is the plural of passer-by ?",
+    "answer": "passers-by",
+    "choices": [
+     "passers-by",
+     "passer-bys",
+     "passer-by's",
+     "passers-bys"
+    ]
+   },
+   {
+    "question": "What is the plural of mother-in-law ?",
+    "answer": "mothers-in-law",
+    "choices": [
+     "mothers-in-law",
+     "mother-in-laws",
+     "mother-ins-law",
+     "mothers-in-laws"
+    ]
+   },
+   {
+    "question": "What is the plural of toothbrush ?",
+    "answer": "toothbrushes",
+    "choices": [
+     "teethbrush",
+     "toothbrushs",
+     "teethbrushes",
+     "toothbrushes"
+    ]
+   },
+   {
+    "question": "What is the plural of runner-up ?",
+    "answer": "runners-up",
+    "choices": [
+     "runners-ups",
+     "runners-up",
+     "runner's-up",
+     "runner-ups"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engDiOb",
+  "subject": "english",
+  "title": "Is it a direct object or an indirect object?",
+  "section": "Direct and indirect objects",
+  "grades": [
+   7,
+   8
+  ],
+  "skillIds": [
+   "engDiOb7",
+   "engDiOb8"
+  ],
+  "examples": [
+   {
+    "question": "What is the underlined word? She gave her sister a gift.",
+    "answer": "Indirect object",
+    "choices": [
+     "Indirect object",
+     "Direct object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? Dad read the children a story .",
+    "answer": "Direct object",
+    "choices": [
+     "Direct object",
+     "Indirect object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? She gave her sister a gift .",
+    "answer": "Direct object",
+    "choices": [
+     "Indirect object",
+     "Direct object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? I told Maya the secret .",
+    "answer": "Direct object",
+    "choices": [
+     "Indirect object",
+     "Direct object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? Dad read the children a story.",
+    "answer": "Indirect object",
+    "choices": [
+     "Indirect object",
+     "Direct object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? The coach handed the captain the trophy .",
+    "answer": "Direct object",
+    "choices": [
+     "Direct object",
+     "Indirect object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? The coach handed the captain the trophy.",
+    "answer": "Indirect object",
+    "choices": [
+     "Indirect object",
+     "Direct object"
+    ]
+   },
+   {
+    "question": "What is the underlined word? I told Maya the secret.",
+    "answer": "Indirect object",
+    "choices": [
+     "Indirect object",
+     "Direct object"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXMmPic",
+  "subject": "english",
+  "title": "Misplaced modifiers with pictures",
+  "section": "Misplaced modifiers",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXMmPic7",
+   "engXMmPic8",
+   "engXMmPic9",
+   "engXMmPic10",
+   "engXMmPic11",
+   "engXMmPic12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Wearing a tiny hat, the cat posed for a photo.",
+    "choices": [
+     "The cat posed for a photo, the tiny hat wearing.",
+     "Wearing a tiny hat, the photo showed the cat.",
+     "Wearing a tiny hat, the cat posed for a photo.",
+     "The photo posed for the cat wearing a tiny hat."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Hungry after the long hike, we ate every sandwich.",
+    "choices": [
+     "We ate every sandwich hungry after the long hike in the basket.",
+     "Hungry after the long hike, we ate every sandwich.",
+     "Every sandwich was hungry after the long hike.",
+     "Hungry after the long hike, every sandwich was eaten."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "🚌 While waiting for the bus, I read a book.",
+    "choices": [
+     "🚌 While waiting for the bus, I read a book.",
+     "🚌 While waiting for the bus, my book was read.",
+     "🚌 My book, while waiting for the bus, was read.",
+     "🚌 Waiting for the bus, the book was read by me."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "I saw a deer with huge antlers while driving to work.",
+    "choices": [
+     "I saw a deer with huge antlers while driving to work.",
+     "Driving to work, the deer had huge antlers.",
+     "I saw a deer driving to work with huge antlers.",
+     "While driving to work, a deer with huge antlers was seen."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Covered in mud, the dog ran into the kitchen.",
+    "choices": [
+     "Covered in mud, the dog ran into the kitchen.",
+     "The kitchen ran into the dog covered in mud.",
+     "The dog ran into the kitchen covered in mud, which was spotless.",
+     "Covered in mud, the kitchen had a dog run into it."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "She served cake on paper plates to the children.",
+    "choices": [
+     "She served the children on paper plates cake.",
+     "On paper plates, the children were served cake by her.",
+     "She served cake to the children on paper plates.",
+     "She served cake on paper plates to the children."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "Barking loudly, the puppy chased the mail carrier.",
+    "choices": [
+     "The mail carrier, barking loudly, was chased.",
+     "The puppy chased the mail carrier barking loudly at him from his truck.",
+     "Barking loudly, the puppy chased the mail carrier.",
+     "Barking loudly, the mail carrier was chased by the puppy."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "🍕 I ate the pizza that was covered in cheese.",
+    "choices": [
+     "🍕 I, covered in cheese, ate the pizza.",
+     "🍕 I ate the pizza that was covered in cheese.",
+     "🍕 I ate the pizza covered in cheese myself.",
+     "🍕 Covered in cheese, I ate the pizza."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "The boy in the red jacket fed the ducks.",
+    "choices": [
+     "The boy in the red jacket fed the ducks.",
+     "The boy fed the ducks in the red jacket.",
+     "The ducks in the red jacket fed the boy.",
+     "In the red jacket, the ducks were fed by the boy."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "🐟 We saw a fish swimming in the tank.",
+    "choices": [
+     "🐟 We saw a fish swimming in the tank.",
+     "🐟 Swimming, the tank had a fish we saw.",
+     "🐟 Swimming in the tank, we saw a fish.",
+     "🐟 We, swimming in the tank, saw a fish."
+    ]
+   },
+   {
+    "question": "Which sentence is correct?",
+    "answer": "🐕 Wagging its tail, the dog greeted us.",
+    "choices": [
+     "🐕 Wagging its tail, we were greeted by the dog.",
+     "🐕 Wagging its tail, the dog greeted us.",
+     "🐕 We were greeted, wagging its tail, by the dog.",
+     "🐕 The dog greeted us wagging our tails."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engMdSl",
+  "subject": "english",
+  "title": "Select the misplaced or dangling modifier",
+  "section": "Misplaced modifiers",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engMdSl7",
+   "engMdSl8",
+   "engMdSl9",
+   "engMdSl10",
+   "engMdSl11",
+   "engMdSl12"
+  ],
+  "examples": [
+   {
+    "question": "Walking to school, a squirrel ran across my path.",
+    "answer": "Dangling modifier",
+    "choices": [
+     "Correct",
+     "Dangling modifier",
+     "Misplaced modifier"
+    ]
+   },
+   {
+    "question": "After finishing the exam, the bell rang.",
+    "answer": "Dangling modifier",
+    "choices": [
+     "Misplaced modifier",
+     "Dangling modifier",
+     "Correct"
+    ]
+   },
+   {
+    "question": "She served sandwiches to the guests on paper plates.",
+    "answer": "Misplaced modifier",
+    "choices": [
+     "Dangling modifier",
+     "Misplaced modifier",
+     "Correct"
+    ]
+   },
+   {
+    "question": "The man with the umbrella waited on the bench.",
+    "answer": "Correct",
+    "choices": [
+     "Dangling modifier",
+     "Correct",
+     "Misplaced modifier"
+    ]
+   },
+   {
+    "question": "After finishing the exam, we heard the bell ring.",
+    "answer": "Correct",
+    "choices": [
+     "Dangling modifier",
+     "Correct",
+     "Misplaced modifier"
+    ]
+   },
+   {
+    "question": "Having finished dinner, the dishes were washed.",
+    "answer": "Dangling modifier",
+    "choices": [
+     "Correct",
+     "Misplaced modifier",
+     "Dangling modifier"
+    ]
+   },
+   {
+    "question": "The woman bought a dress at the store with a red bow.",
+    "answer": "Misplaced modifier",
+    "choices": [
+     "Misplaced modifier",
+     "Correct",
+     "Dangling modifier"
+    ]
+   },
+   {
+    "question": "Walking to school, I saw a squirrel run across my path.",
+    "answer": "Correct",
+    "choices": [
+     "Misplaced modifier",
+     "Dangling modifier",
+     "Correct"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engMdOk",
+  "subject": "english",
+  "title": "Are the modifiers used correctly?",
+  "section": "Misplaced modifiers",
+  "grades": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engMdOk7",
+   "engMdOk8",
+   "engMdOk9",
+   "engMdOk10",
+   "engMdOk11",
+   "engMdOk12"
+  ],
+  "examples": [
+   {
+    "question": "Are the modifiers used correctly? Tired after the long hike, bed was a welcome sight.",
+    "answer": "Incorrect",
+    "choices": [
+     "Correct",
+     "Incorrect"
+    ]
+   },
+   {
+    "question": "Are the modifiers used correctly? Running through the park, I noticed the flowers.",
+    "answer": "Correct",
+    "choices": [
+     "Correct",
+     "Incorrect"
+    ]
+   },
+   {
+    "question": "Are the modifiers used correctly? Tired after the long hike, we went to bed early.",
+    "answer": "Correct",
+    "choices": [
+     "Correct",
+     "Incorrect"
+    ]
+   },
+   {
+    "question": "Are the modifiers used correctly? Running through the park, the flowers caught my eye.",
+    "answer": "Incorrect",
+    "choices": [
+     "Incorrect",
+     "Correct"
+    ]
+   },
+   {
+    "question": "Are the modifiers used correctly? To pass the course, studying is necessary.",
+    "answer": "Incorrect",
+    "choices": [
+     "Incorrect",
+     "Correct"
+    ]
+   },
+   {
+    "question": "Are the modifiers used correctly? The teacher returned the tests that she had graded to the students.",
+    "answer": "Correct",
+    "choices": [
+     "Correct",
+     "Incorrect"
+    ]
+   },
+   {
+    "question": "Are the modifiers used correctly? To pass the course, you must study.",
+    "answer": "Correct",
+    "choices": [
+     "Correct",
+     "Incorrect"
+    ]
+   },
+   {
+    "question": "Are the modifiers used correctly? The teacher returned the tests to the students that she had graded.",
+    "answer": "Incorrect",
+    "choices": [
+     "Correct",
+     "Incorrect"
+    ]
+   }
+  ]
+ }
+]

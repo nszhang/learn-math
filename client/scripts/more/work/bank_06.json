@@ -1,0 +1,2304 @@
+[
+ {
+  "key": "engXPrRpl",
+  "subject": "english",
+  "title": "Replace the plural noun with a personal pronoun",
+  "section": "Pronouns",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXPrRpl2"
+  ],
+  "examples": [
+   {
+    "question": "Replace the underlined words with a pronoun. The birds sang. → ___ sang.",
+    "answer": "They",
+    "choices": [
+     "They",
+     "We",
+     "It",
+     "Them"
+    ]
+   },
+   {
+    "question": "Replace the underlined words with a pronoun. Mom thanked Sam and me . → Mom thanked ___.",
+    "answer": "us",
+    "choices": [
+     "us",
+     "we",
+     "they",
+     "them"
+    ]
+   },
+   {
+    "question": "Replace the underlined words with a pronoun. Dad and I went fishing. → ___ went fishing.",
+    "answer": "We",
+    "choices": [
+     "We",
+     "They",
+     "He",
+     "Us"
+    ]
+   },
+   {
+    "question": "Replace the underlined words with a pronoun. I gave the cookies to my friends . → I gave the cookies to ___.",
+    "answer": "them",
+    "choices": [
+     "him",
+     "it",
+     "them",
+     "they"
+    ]
+   },
+   {
+    "question": "Replace the underlined words with a pronoun. The kids played tag. → ___ played tag.",
+    "answer": "They",
+    "choices": [
+     "He",
+     "They",
+     "She",
+     "It"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPpId",
+  "subject": "english",
+  "title": "Identify possessive pronouns",
+  "section": "Pronouns",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXPpId2",
+   "engXPpId3",
+   "engXPpId4"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a possessive pronoun?",
+    "answer": "my",
+    "choices": [
+     "my",
+     "it",
+     "we",
+     "they"
+    ]
+   },
+   {
+    "question": "Which word is a possessive pronoun?",
+    "answer": "ours",
+    "choices": [
+     "it",
+     "ours",
+     "me",
+     "we"
+    ]
+   },
+   {
+    "question": "Which word is a possessive pronoun?",
+    "answer": "theirs",
+    "choices": [
+     "she",
+     "it",
+     "theirs",
+     "me"
+    ]
+   },
+   {
+    "question": "Which word is a possessive pronoun?",
+    "answer": "mine",
+    "choices": [
+     "mine",
+     "me",
+     "it",
+     "they"
+    ]
+   },
+   {
+    "question": "Which word is a possessive pronoun?",
+    "answer": "his",
+    "choices": [
+     "his",
+     "we",
+     "it",
+     "she"
+    ]
+   },
+   {
+    "question": "Which word is a possessive pronoun?",
+    "answer": "their",
+    "choices": [
+     "us",
+     "him",
+     "me",
+     "their"
+    ]
+   },
+   {
+    "question": "Which word is a possessive pronoun?",
+    "answer": "hers",
+    "choices": [
+     "hers",
+     "we",
+     "they",
+     "she"
+    ]
+   },
+   {
+    "question": "Which word is a possessive pronoun?",
+    "answer": "yours",
+    "choices": [
+     "she",
+     "us",
+     "it",
+     "yours"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPrPs",
+  "subject": "english",
+  "title": "Use possessive pronouns",
+  "section": "Pronouns",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engPrPs2",
+   "engPrPs3"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. They lost ___ backpack.",
+    "answer": "their",
+    "choices": [
+     "their",
+     "theirs",
+     "yours",
+     "ours"
+    ]
+   },
+   {
+    "question": "Complete the sentence. That backpack belongs to me. It is ___.",
+    "answer": "mine",
+    "choices": [
+     "mine",
+     "theirs",
+     "ours",
+     "our"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She lost ___ backpack.",
+    "answer": "her",
+    "choices": [
+     "mine",
+     "my",
+     "her",
+     "ours"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We lost ___ backpack.",
+    "answer": "our",
+    "choices": [
+     "hers",
+     "our",
+     "his",
+     "ours"
+    ]
+   },
+   {
+    "question": "Complete the sentence. That backpack belongs to us. It is ___.",
+    "answer": "ours",
+    "choices": [
+     "their",
+     "theirs",
+     "ours",
+     "her"
+    ]
+   },
+   {
+    "question": "Complete the sentence. That backpack belongs to her. It is ___.",
+    "answer": "hers",
+    "choices": [
+     "hers",
+     "her",
+     "yours",
+     "his"
+    ]
+   },
+   {
+    "question": "Complete the sentence. That backpack belongs to them. It is ___.",
+    "answer": "theirs",
+    "choices": [
+     "yours",
+     "theirs",
+     "ours",
+     "your"
+    ]
+   },
+   {
+    "question": "Complete the sentence. That backpack belongs to him. It is ___.",
+    "answer": "his",
+    "choices": [
+     "his",
+     "my",
+     "her",
+     "their"
+    ]
+   },
+   {
+    "question": "Complete the sentence. That backpack belongs to you. It is ___.",
+    "answer": "yours",
+    "choices": [
+     "yours",
+     "your",
+     "our",
+     "theirs"
+    ]
+   },
+   {
+    "question": "Complete the sentence. He lost ___ backpack.",
+    "answer": "his",
+    "choices": [
+     "their",
+     "hers",
+     "ours",
+     "his"
+    ]
+   },
+   {
+    "question": "Complete the sentence. You lost ___ backpack.",
+    "answer": "your",
+    "choices": [
+     "her",
+     "mine",
+     "your",
+     "ours"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I lost ___ backpack.",
+    "answer": "my",
+    "choices": [
+     "my",
+     "theirs",
+     "ours",
+     "mine"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrRe",
+  "subject": "english",
+  "title": "Choose between personal and reflexive pronouns",
+  "section": "Pronouns",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXPrRe2",
+   "engXPrRe3",
+   "engXPrRe4",
+   "engXPrRe5",
+   "engXPrRe6",
+   "engXPrRe7",
+   "engXPrRe8"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. Maya taught ___ to knit.",
+    "answer": "herself",
+    "choices": [
+     "she",
+     "herself",
+     "hers",
+     "her"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Please help ___ to some cookies.",
+    "answer": "yourself",
+    "choices": [
+     "yourself",
+     "you",
+     "yours",
+     "your"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Mom made dinner for ___ — all five of us.",
+    "answer": "us",
+    "choices": [
+     "us",
+     "our",
+     "ourselves",
+     "we"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I can tie my shoes by ___.",
+    "answer": "myself",
+    "choices": [
+     "mine",
+     "I",
+     "myself",
+     "me"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The boys made ___ sandwiches.",
+    "answer": "themselves",
+    "choices": [
+     "themselves",
+     "their",
+     "they",
+     "them"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Grandpa gave ___ a pat on the back.",
+    "answer": "himself",
+    "choices": [
+     "himself",
+     "he",
+     "his",
+     "him"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Ana smiled at ___ in the mirror.",
+    "answer": "herself",
+    "choices": [
+     "her",
+     "hers",
+     "herself",
+     "she"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Can you pass the bread to ___?",
+    "answer": "me",
+    "choices": [
+     "me",
+     "mine",
+     "myself",
+     "I"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPrRf",
+  "subject": "english",
+  "title": "Use reflexive pronouns",
+  "section": "Pronouns",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engPrRf2",
+   "engPrRf3",
+   "engPrRf4",
+   "engPrRf5",
+   "engPrRf6",
+   "engPrRf7",
+   "engPrRf8"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. She made the card ___.",
+    "answer": "herself",
+    "choices": [
+     "myself",
+     "theirselves",
+     "hisself",
+     "herself"
+    ]
+   },
+   {
+    "question": "Complete the sentence. They made the card ___.",
+    "answer": "themselves",
+    "choices": [
+     "ourselves",
+     "herself",
+     "theirselves",
+     "themselves"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We made the card ___.",
+    "answer": "ourselves",
+    "choices": [
+     "ourselves",
+     "herself",
+     "hisself",
+     "yourself"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I made the card ___.",
+    "answer": "myself",
+    "choices": [
+     "myself",
+     "themselves",
+     "yourself",
+     "herself"
+    ]
+   },
+   {
+    "question": "Complete the sentence. You made the card ___.",
+    "answer": "yourself",
+    "choices": [
+     "ourselves",
+     "myself",
+     "yourself",
+     "hisself"
+    ]
+   },
+   {
+    "question": "Complete the sentence. He made the card ___.",
+    "answer": "himself",
+    "choices": [
+     "theirselves",
+     "ourselves",
+     "himself",
+     "herself"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXHelp",
+  "subject": "english",
+  "title": "Identify helping verbs",
+  "section": "Verb types",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXHelp2"
+  ],
+  "examples": [
+   {
+    "question": "Which word is the helping verb? You should rest.",
+    "answer": "should",
+    "choices": [
+     "rest",
+     "You",
+     "should"
+    ]
+   },
+   {
+    "question": "Which word is the helping verb? She is running fast.",
+    "answer": "is",
+    "choices": [
+     "fast",
+     "She",
+     "is",
+     "running"
+    ]
+   },
+   {
+    "question": "Which word is the helping verb? They have eaten lunch.",
+    "answer": "have",
+    "choices": [
+     "lunch",
+     "have",
+     "They",
+     "eaten"
+    ]
+   },
+   {
+    "question": "Which word is the helping verb? We will go home.",
+    "answer": "will",
+    "choices": [
+     "We",
+     "will",
+     "home",
+     "go"
+    ]
+   },
+   {
+    "question": "Which word is the helping verb? I was reading a book.",
+    "answer": "was",
+    "choices": [
+     "a",
+     "I",
+     "reading",
+     "was"
+    ]
+   },
+   {
+    "question": "Which word is the helping verb? He can swim well.",
+    "answer": "can",
+    "choices": [
+     "He",
+     "well",
+     "swim",
+     "can"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPST",
+  "subject": "english",
+  "title": "Past tense verbs",
+  "section": "Verb tense",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engPST2"
+  ],
+  "examples": [
+   {
+    "question": "The kids ___ games after lunch. (play)",
+    "answer": "played",
+    "choices": [
+     "plays",
+     "played",
+     "play",
+     "playing"
+    ]
+   },
+   {
+    "question": "Last night I ___ my dinner. (eat)",
+    "answer": "ate",
+    "choices": [
+     "eated",
+     "ate",
+     "eat",
+     "eaten"
+    ]
+   },
+   {
+    "question": "Yesterday the dog ___ in the yard. (run)",
+    "answer": "ran",
+    "choices": [
+     "run",
+     "runned",
+     "ran",
+     "running"
+    ]
+   },
+   {
+    "question": "Last week she ___ a big fish. (see)",
+    "answer": "saw",
+    "choices": [
+     "seen",
+     "saw",
+     "see",
+     "seed"
+    ]
+   },
+   {
+    "question": "We ___ to school yesterday. (go)",
+    "answer": "went",
+    "choices": [
+     "gone",
+     "goed",
+     "go",
+     "went"
+    ]
+   },
+   {
+    "question": "Last summer he ___ in the lake. (swim)",
+    "answer": "swam",
+    "choices": [
+     "swam",
+     "swimmed",
+     "swim",
+     "swum"
+    ]
+   },
+   {
+    "question": "Yesterday we ___ to the park. (walk)",
+    "answer": "walked",
+    "choices": [
+     "walk",
+     "walked",
+     "walking",
+     "will walk"
+    ]
+   },
+   {
+    "question": "Tom ___ over the puddle. (jump)",
+    "answer": "jumped",
+    "choices": [
+     "jump",
+     "jumped",
+     "jumping",
+     "jumps"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAdDn",
+  "subject": "english",
+  "title": "Identify the adjective that describes the noun",
+  "section": "Adjectives and adverbs",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXAdDn2",
+   "engXAdDn3",
+   "engXAdDn4"
+  ],
+  "examples": [
+   {
+    "question": "Which adjective describes the noun mountain ? We climbed a tall mountain.",
+    "answer": "tall",
+    "choices": [
+     "tall",
+     "a",
+     "We",
+     "climbed"
+    ]
+   },
+   {
+    "question": "Which adjective describes the noun kitten ? The fluffy kitten slept.",
+    "answer": "fluffy",
+    "choices": [
+     "slept",
+     "fluffy",
+     "The"
+    ]
+   },
+   {
+    "question": "Which adjective describes the noun peach ? I ate a juicy peach.",
+    "answer": "juicy",
+    "choices": [
+     "juicy",
+     "I",
+     "a",
+     "ate"
+    ]
+   },
+   {
+    "question": "Which adjective describes the noun scarf ? She wore a red scarf.",
+    "answer": "red",
+    "choices": [
+     "She",
+     "red",
+     "wore",
+     "a"
+    ]
+   },
+   {
+    "question": "Which adjective describes the noun alarm ? A loud alarm rang.",
+    "answer": "loud",
+    "choices": [
+     "loud",
+     "A",
+     "rang"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAdAv",
+  "subject": "english",
+  "title": "Choose between adjectives and adverbs",
+  "section": "Adjectives and adverbs",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engAdAv2",
+   "engAdAv3",
+   "engAdAv4",
+   "engAdAv5",
+   "engAdAv6",
+   "engAdAv7",
+   "engAdAv8"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word. The room smells ___. (fresh / freshly)",
+    "answer": "fresh",
+    "choices": [
+     "freshly",
+     "fresh"
+    ]
+   },
+   {
+    "question": "Choose the correct word. She sings ___. (beautiful / beautifully)",
+    "answer": "beautifully",
+    "choices": [
+     "beautifully",
+     "beautiful"
+    ]
+   },
+   {
+    "question": "Choose the correct word. He walked ___ down the hall. (slow / slowly)",
+    "answer": "slowly",
+    "choices": [
+     "slow",
+     "slowly"
+    ]
+   },
+   {
+    "question": "Choose the correct word. She answered the question ___. (quick / quickly)",
+    "answer": "quickly",
+    "choices": [
+     "quick",
+     "quickly"
+    ]
+   },
+   {
+    "question": "Choose the correct word. He was ___ tired. (extreme / extremely)",
+    "answer": "extremely",
+    "choices": [
+     "extremely",
+     "extreme"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The dog looked ___ at the stranger. (suspicious / suspiciously)",
+    "answer": "suspiciously",
+    "choices": [
+     "suspicious",
+     "suspiciously"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The soup tastes ___. (delicious / deliciously)",
+    "answer": "delicious",
+    "choices": [
+     "delicious",
+     "deliciously"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The music sounded ___. (beautiful / beautifully)",
+    "answer": "beautiful",
+    "choices": [
+     "beautiful",
+     "beautifully"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCtUs",
+  "subject": "english",
+  "title": "Use contractions in a sentence",
+  "section": "Contractions",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXCtUs2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. I ___ like spinach. (do not)",
+    "answer": "don't",
+    "choices": [
+     "dont",
+     "didn't",
+     "don't",
+     "doesn't"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ my best friend. (She is)",
+    "answer": "She's",
+    "choices": [
+     "She'd",
+     "She'll",
+     "She's",
+     "Shes"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ go to the beach tomorrow. (We will)",
+    "answer": "We'll",
+    "choices": [
+     "Well",
+     "We'd",
+     "We'll",
+     "We're"
+    ]
+   },
+   {
+    "question": "Complete the sentence. He ___ finished yet. (has not)",
+    "answer": "hasn't",
+    "choices": [
+     "haven't",
+     "hadn't",
+     "isn't",
+     "hasn't"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ been waiting a long time. (They have)",
+    "answer": "They've",
+    "choices": [
+     "They've",
+     "They're",
+     "They'll",
+     "Theyve"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCON",
+  "subject": "english",
+  "title": "Contractions",
+  "section": "Contractions",
+  "grades": [
+   2,
+   7
+  ],
+  "skillIds": [
+   "engCON2",
+   "engCON7"
+  ],
+  "examples": [
+   {
+    "question": "Which contraction means you are ?",
+    "answer": "you're",
+    "choices": [
+     "she's",
+     "I'm",
+     "you're",
+     "won't"
+    ]
+   },
+   {
+    "question": "Which contraction means it is ?",
+    "answer": "it's",
+    "choices": [
+     "it's",
+     "can't",
+     "you're",
+     "isn't"
+    ]
+   },
+   {
+    "question": "Which contraction means will not ?",
+    "answer": "won't",
+    "choices": [
+     "she's",
+     "I'm",
+     "isn't",
+     "won't"
+    ]
+   },
+   {
+    "question": "Which contraction means we are ?",
+    "answer": "we're",
+    "choices": [
+     "I'm",
+     "don't",
+     "we're",
+     "she's"
+    ]
+   },
+   {
+    "question": "Which contraction means they are ?",
+    "answer": "they're",
+    "choices": [
+     "she's",
+     "they're",
+     "it's",
+     "isn't"
+    ]
+   },
+   {
+    "question": "Which contraction means I am ?",
+    "answer": "I'm",
+    "choices": [
+     "I'm",
+     "they're",
+     "she's",
+     "can't"
+    ]
+   },
+   {
+    "question": "Which contraction means can not ?",
+    "answer": "can't",
+    "choices": [
+     "don't",
+     "can't",
+     "isn't",
+     "you're"
+    ]
+   },
+   {
+    "question": "Which contraction means she is ?",
+    "answer": "she's",
+    "choices": [
+     "can't",
+     "it's",
+     "she's",
+     "won't"
+    ]
+   },
+   {
+    "question": "Which contraction means do not ?",
+    "answer": "don't",
+    "choices": [
+     "they're",
+     "don't",
+     "isn't",
+     "can't"
+    ]
+   },
+   {
+    "question": "Which contraction means is not ?",
+    "answer": "isn't",
+    "choices": [
+     "you're",
+     "isn't",
+     "we're",
+     "can't"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCpPG",
+  "subject": "english",
+  "title": "Capitalizing the names of places and geographic features",
+  "section": "Capitalization",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engCpPG2",
+   "engCpPG3",
+   "engCpPG4"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited Vancouver last summer.",
+    "choices": [
+     "We visited vancouver last summer.",
+     "We visited Vancouver last Summer.",
+     "We visited Vancouver last summer.",
+     "we visited Vancouver last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited Toronto last summer.",
+    "choices": [
+     "We visited Toronto last Summer.",
+     "we visited Toronto last summer.",
+     "We visited toronto last summer.",
+     "We visited Toronto last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited the Rocky Mountains last summer.",
+    "choices": [
+     "We visited the Rocky Mountains last Summer.",
+     "We visited the rocky mountains last summer.",
+     "we visited the Rocky Mountains last summer.",
+     "We visited the Rocky Mountains last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited the Nile River last summer.",
+    "choices": [
+     "We visited the nile river last summer.",
+     "We visited the Nile River last Summer.",
+     "we visited the Nile River last summer.",
+     "We visited the Nile River last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited Mount Everest last summer.",
+    "choices": [
+     "We visited Mount Everest last summer.",
+     "We visited mount everest last summer.",
+     "We visited Mount Everest last Summer.",
+     "we visited Mount Everest last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited Lake Ontario last summer.",
+    "choices": [
+     "We visited lake ontario last summer.",
+     "We visited Lake Ontario last Summer.",
+     "we visited Lake Ontario last summer.",
+     "We visited Lake Ontario last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited Ottawa last summer.",
+    "choices": [
+     "We visited ottawa last summer.",
+     "We visited Ottawa last Summer.",
+     "We visited Ottawa last summer.",
+     "we visited Ottawa last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited the Pacific Ocean last summer.",
+    "choices": [
+     "We visited the pacific ocean last summer.",
+     "we visited the Pacific Ocean last summer.",
+     "We visited the Pacific Ocean last Summer.",
+     "We visited the Pacific Ocean last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited Paris last summer.",
+    "choices": [
+     "We visited Paris last Summer.",
+     "we visited Paris last summer.",
+     "We visited paris last summer.",
+     "We visited Paris last summer."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We visited Main Street last summer.",
+    "choices": [
+     "We visited Main Street last summer.",
+     "We visited Main Street last Summer.",
+     "We visited main street last summer.",
+     "we visited Main Street last summer."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCpTt",
+  "subject": "english",
+  "title": "Capitalizing titles",
+  "section": "Capitalization",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "engCpTt2",
+   "engCpTt3",
+   "engCpTt4",
+   "engCpTt5",
+   "engCpTt6",
+   "engCpTt7",
+   "engCpTt8",
+   "engCpTt9"
+  ],
+  "examples": [
+   {
+    "question": "Which title is capitalized correctly?",
+    "answer": "Charlotte's Web",
+    "choices": [
+     "charlotte's Web",
+     "Charlotte's WEB",
+     "Charlotte's Web",
+     "Charlotte's web"
+    ]
+   },
+   {
+    "question": "Which title is capitalized correctly?",
+    "answer": "\"The Road Not Taken\"",
+    "choices": [
+     "\"the Road Not Taken\"",
+     "\"The Road Not Taken\"",
+     "\"The Road not Taken\"",
+     "\"The road not taken\""
+    ]
+   },
+   {
+    "question": "Which title is capitalized correctly?",
+    "answer": "Journey to the Center of the Earth",
+    "choices": [
+     "journey to the Center of the Earth",
+     "Journey to the Center of the Earth",
+     "Journey to the center of the earth",
+     "Journey To The Center Of The Earth"
+    ]
+   },
+   {
+    "question": "Which title is capitalized correctly?",
+    "answer": "To Kill a Mockingbird",
+    "choices": [
+     "To Kill A Mockingbird",
+     "To kill a Mockingbird",
+     "to Kill a Mockingbird",
+     "To Kill a Mockingbird"
+    ]
+   },
+   {
+    "question": "Which title is capitalized correctly?",
+    "answer": "A Wrinkle in Time",
+    "choices": [
+     "a Wrinkle in Time",
+     "A wrinkle in time",
+     "A Wrinkle In Time",
+     "A Wrinkle in Time"
+    ]
+   },
+   {
+    "question": "Which title is capitalized correctly?",
+    "answer": "The Lord of the Rings",
+    "choices": [
+     "The Lord of the Rings",
+     "The Lord Of The Rings",
+     "The lord of the rings",
+     "The Lord of The Rings"
+    ]
+   },
+   {
+    "question": "Which title is capitalized correctly?",
+    "answer": "Where the Wild Things Are",
+    "choices": [
+     "Where the Wild Things Are",
+     "Where the wild things are",
+     "Where The Wild Things Are",
+     "where the Wild Things Are"
+    ]
+   },
+   {
+    "question": "Which title is capitalized correctly?",
+    "answer": "Harry Potter and the Sorcerer's Stone",
+    "choices": [
+     "Harry potter and the sorcerer's stone",
+     "Harry Potter and the sorcerer's Stone",
+     "Harry Potter and the Sorcerer's Stone",
+     "Harry Potter And The Sorcerer's Stone"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFmGC",
+  "subject": "english",
+  "title": "Greetings and closings of letters",
+  "section": "Capitalization",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engFmGC2",
+   "engFmGC3",
+   "engFmGC4"
+  ],
+  "examples": [
+   {
+    "question": "Which closing is written correctly?",
+    "answer": "Sincerely,",
+    "choices": [
+     "Sincerely.",
+     "sincerely,",
+     "Sincerely,"
+    ]
+   },
+   {
+    "question": "Which greeting is written correctly?",
+    "answer": "Dear Grandma,",
+    "choices": [
+     "Dear grandma,",
+     "Dear Grandma,",
+     "dear Grandma,",
+     "Dear Grandma."
+    ]
+   },
+   {
+    "question": "Which closing is written correctly?",
+    "answer": "Your friend,",
+    "choices": [
+     "your friend,",
+     "Your friend,",
+     "Your friend.",
+     "Your Friend,"
+    ]
+   },
+   {
+    "question": "Which closing is written correctly?",
+    "answer": "Love,",
+    "choices": [
+     "love,",
+     "Love,",
+     "Love."
+    ]
+   },
+   {
+    "question": "Which greeting is written correctly?",
+    "answer": "Dear Uncle Joe,",
+    "choices": [
+     "Dear uncle joe,",
+     "Dear Uncle Joe,",
+     "dear Uncle Joe,",
+     "Dear Uncle Joe"
+    ]
+   },
+   {
+    "question": "Which greeting is written correctly?",
+    "answer": "Dear Sam,",
+    "choices": [
+     "Dear Sam.",
+     "Dear Sam",
+     "Dear Sam,",
+     "Dear sam,"
+    ]
+   },
+   {
+    "question": "Which closing is written correctly?",
+    "answer": "Your grandson,",
+    "choices": [
+     "Your Grandson,",
+     "Your grandson.",
+     "your grandson,",
+     "Your grandson,"
+    ]
+   },
+   {
+    "question": "Which greeting is written correctly?",
+    "answer": "Dear Ms. Lee,",
+    "choices": [
+     "Dear ms. lee,",
+     "Dear Ms. Lee.",
+     "Dear Ms. Lee,",
+     "Dear Ms. Lee"
+    ]
+   },
+   {
+    "question": "Which closing is written correctly?",
+    "answer": "Best wishes,",
+    "choices": [
+     "best wishes,",
+     "Best wishes,",
+     "Best Wishes,",
+     "Best wishes."
+    ]
+   },
+   {
+    "question": "Which greeting is written correctly?",
+    "answer": "Dear Aunt Rosa,",
+    "choices": [
+     "dear Aunt Rosa,",
+     "Dear Aunt Rosa,",
+     "Dear Aunt Rosa",
+     "Dear aunt rosa,"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCAP",
+  "subject": "english",
+  "title": "Capital letters",
+  "section": "Capitalization",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engCAP2"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses capital letters correctly?",
+    "answer": "My friend Sam lives in Toronto.",
+    "choices": [
+     "My friend Sam lives in Toronto.",
+     "My friend sam lives in toronto.",
+     "My Friend Sam Lives In Toronto.",
+     "my friend Sam lives in Toronto."
+    ]
+   },
+   {
+    "question": "Which sentence uses capital letters correctly?",
+    "answer": "We visited Paris in July.",
+    "choices": [
+     "We visited Paris in July.",
+     "We visited paris in july.",
+     "we visited Paris in July.",
+     "We Visited Paris In July."
+    ]
+   },
+   {
+    "question": "Which sentence uses capital letters correctly?",
+    "answer": "Mrs. Lee reads to our class.",
+    "choices": [
+     "Mrs. lee reads to Our Class.",
+     "mrs. lee reads to our class.",
+     "mrs. Lee reads to our class.",
+     "Mrs. Lee reads to our class."
+    ]
+   },
+   {
+    "question": "Which sentence uses capital letters correctly?",
+    "answer": "Today is Monday.",
+    "choices": [
+     "Today is Monday.",
+     "today is monday.",
+     "Today is monday.",
+     "today is Monday."
+    ]
+   },
+   {
+    "question": "Which sentence uses capital letters correctly?",
+    "answer": "The river is near Canada.",
+    "choices": [
+     "The River is near canada.",
+     "The river is near canada.",
+     "the river is near Canada.",
+     "The river is near Canada."
+    ]
+   },
+   {
+    "question": "Which sentence uses capital letters correctly?",
+    "answer": "Emma and I play soccer.",
+    "choices": [
+     "Emma and i play soccer.",
+     "Emma and I play soccer.",
+     "emma and I play soccer.",
+     "Emma And I Play Soccer."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXDpSp",
+  "subject": "english",
+  "title": "Spell words with vowel diphthong patterns",
+  "section": "Diphthongs and r vowel patterns",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "engXDpSp3"
+  ],
+  "examples": [
+   {
+    "question": "🐭 Which is the correct spelling?",
+    "answer": "mouse",
+    "choices": [
+     "muose",
+     "meuse",
+     "mowse",
+     "mouse"
+    ]
+   },
+   {
+    "question": "🌸 Which is the correct spelling?",
+    "answer": "flower",
+    "choices": [
+     "flowre",
+     "flawer",
+     "flower",
+     "lfower"
+    ]
+   },
+   {
+    "question": "🦉 Which is the correct spelling?",
+    "answer": "owl",
+    "choices": [
+     "owl",
+     "olw",
+     "ewl",
+     "iwl"
+    ]
+   },
+   {
+    "question": "🪙 Which is the correct spelling?",
+    "answer": "coin",
+    "choices": [
+     "cion",
+     "coin",
+     "cain",
+     "coyn"
+    ]
+   },
+   {
+    "question": "👦 Which is the correct spelling?",
+    "answer": "boy",
+    "choices": [
+     "boy",
+     "biy",
+     "bay",
+     "boye"
+    ]
+   },
+   {
+    "question": "☁️ Which is the correct spelling?",
+    "answer": "cloud",
+    "choices": [
+     "cluod",
+     "cloud",
+     "lcoud",
+     "colud"
+    ]
+   },
+   {
+    "question": "🧸 Which is the correct spelling?",
+    "answer": "toy",
+    "choices": [
+     "tey",
+     "tiy",
+     "toy",
+     "tay"
+    ]
+   },
+   {
+    "question": "🛢️ Which is the correct spelling?",
+    "answer": "oil",
+    "choices": [
+     "oile",
+     "oli",
+     "oil",
+     "uil"
+    ]
+   },
+   {
+    "question": "👄 Which is the correct spelling?",
+    "answer": "mouth",
+    "choices": [
+     "omuth",
+     "mouth",
+     "mowth",
+     "muoth"
+    ]
+   },
+   {
+    "question": "🏠 Which is the correct spelling?",
+    "answer": "house",
+    "choices": [
+     "house",
+     "hous",
+     "hosue",
+     "huose"
+    ]
+   },
+   {
+    "question": "👑 Which is the correct spelling?",
+    "answer": "crown",
+    "choices": [
+     "crewn",
+     "corwn",
+     "croan",
+     "crown"
+    ]
+   },
+   {
+    "question": "🐄 Which is the correct spelling?",
+    "answer": "cow",
+    "choices": [
+     "ciw",
+     "ocw",
+     "cow",
+     "cew"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engKyDt",
+  "subject": "english",
+  "title": "Use key details to determine the main idea",
+  "section": "Main idea",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engKyDt3",
+   "engKyDt4",
+   "engKyDt5"
+  ],
+  "examples": [
+   {
+    "question": "Read the details. What is the main idea? • Cats sleep up to 16 hours a day. • They can jump six times their height. • They use whiskers to feel their way.",
+    "answer": "Cats have many amazing abilities.",
+    "choices": [
+     "Whiskers are long.",
+     "Cats have many amazing abilities.",
+     "Cats are lazy."
+    ]
+   },
+   {
+    "question": "Read the details. What is the main idea? • Volcanoes can form islands. • Lava cools into new rock. • Ash makes soil rich.",
+    "answer": "Volcanoes change the land.",
+    "choices": [
+     "Lava is hot.",
+     "Islands are in oceans.",
+     "Volcanoes change the land."
+    ]
+   },
+   {
+    "question": "Read the details. What is the main idea? • Frogs lay eggs in water. • Tadpoles hatch from the eggs. • Tadpoles grow legs and become frogs.",
+    "answer": "Frogs change as they grow.",
+    "choices": [
+     "Frogs change as they grow.",
+     "Frogs like water.",
+     "Tadpoles have tails."
+    ]
+   },
+   {
+    "question": "Read the details. What is the main idea? • The library has books. • It lends movies. • It hosts story time for kids.",
+    "answer": "The library offers many things.",
+    "choices": [
+     "Books are heavy.",
+     "Movies are fun.",
+     "The library offers many things."
+    ]
+   },
+   {
+    "question": "Read the details. What is the main idea? • Wear a helmet. • Use hand signals. • Ride on the right side of the road.",
+    "answer": "There are ways to stay safe on a bike.",
+    "choices": [
+     "There are ways to stay safe on a bike.",
+     "Helmets are colourful.",
+     "Roads are long."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engMnIE",
+  "subject": "english",
+  "title": "Determine the main idea of a passage",
+  "section": "Main idea",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engMnIE3",
+   "engMnIE4",
+   "engMnIE5"
+  ],
+  "examples": [
+   {
+    "question": "Read the passage. Owls hunt at night. Their big eyes see well in the dark, and their soft feathers let them fly silently. What is the main idea?",
+    "answer": "Owls have special features for hunting at night.",
+    "choices": [
+     "Owls sleep all night.",
+     "The dark is scary.",
+     "Feathers are soft.",
+     "Owls have special features for hunting at night."
+    ]
+   },
+   {
+    "question": "Read the passage. Penguins cannot fly, but they are excellent swimmers. They use their wings like flippers and can dive deep to catch fish. What is the main idea?",
+    "answer": "Penguins are strong swimmers even though they cannot fly.",
+    "choices": [
+     "Fish are hard to catch.",
+     "Wings are only for flying.",
+     "Penguins are strong swimmers even though they cannot fly.",
+     "Penguins live in hot places."
+    ]
+   },
+   {
+    "question": "Read the passage. Recycling is easy. Rinse your bottles, flatten your boxes and put them in the blue bin. Every bit helps keep our planet clean. What is the main idea?",
+    "answer": "Recycling is a simple way to help the planet.",
+    "choices": [
+     "Bottles are made of glass.",
+     "Bins are blue.",
+     "Boxes are flat.",
+     "Recycling is a simple way to help the planet."
+    ]
+   },
+   {
+    "question": "Read the passage. Bees help plants grow. As they visit flowers for nectar, pollen sticks to their bodies and is carried to other flowers. What is the main idea?",
+    "answer": "Bees help flowers by carrying pollen.",
+    "choices": [
+     "Bees make loud noises.",
+     "Nectar is sweet.",
+     "Flowers are colourful.",
+     "Bees help flowers by carrying pollen."
+    ]
+   },
+   {
+    "question": "Read the passage. Long ago, people wrote with feather pens dipped in ink. Later came pencils, then typewriters, and now computers. What is the main idea?",
+    "answer": "Writing tools have changed over time.",
+    "choices": [
+     "Feathers make good pens.",
+     "Ink is messy.",
+     "Computers are fast.",
+     "Writing tools have changed over time."
+    ]
+   },
+   {
+    "question": "Read the passage. Drinking water keeps your body healthy. It helps you think clearly, keeps you cool, and gives you energy to play. What is the main idea?",
+    "answer": "Water is important for your body.",
+    "choices": [
+     "Playing is fun.",
+     "Water is wet.",
+     "You should not think too much.",
+     "Water is important for your body."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPuMm",
+  "subject": "english",
+  "title": "Identify the author's purpose: mixed media",
+  "section": "Author's purpose",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "engXPuMm3"
+  ],
+  "examples": [
+   {
+    "question": "A cereal box shows a cartoon tiger and the words \"Grrreat taste! Kids love it!\" What is the main purpose of the box design?",
+    "answer": "To persuade people to buy the cereal",
+    "choices": [
+     "To give nutrition facts only",
+     "To persuade people to buy the cereal",
+     "To teach about tigers",
+     "To tell a story"
+    ]
+   },
+   {
+    "question": "📗 A comic about a talking cat who solves mysteries What is the author's main purpose?",
+    "answer": "To entertain",
+    "choices": [
+     "To report the news",
+     "To entertain",
+     "To persuade",
+     "To give directions"
+    ]
+   },
+   {
+    "question": "📋 A list of steps for building a birdhouse What is the author's main purpose?",
+    "answer": "To explain how to do something",
+    "choices": [
+     "To tell a funny story",
+     "To persuade",
+     "To explain how to do something",
+     "To describe a feeling"
+    ]
+   },
+   {
+    "question": "A map of the zoo shows where each animal lives and where the washrooms are. What is the purpose of the map?",
+    "answer": "To inform visitors",
+    "choices": [
+     "To share the author's feelings",
+     "To persuade people to buy tickets",
+     "To entertain with a story",
+     "To inform visitors"
+    ]
+   },
+   {
+    "question": "A slideshow about the water cycle shows labelled diagrams of evaporation and rain. What is the purpose of the slideshow?",
+    "answer": "To inform",
+    "choices": [
+     "To entertain",
+     "To inform",
+     "To sell umbrellas",
+     "To persuade"
+    ]
+   },
+   {
+    "question": "A radio ad says, \"Hurry to Joe's Shoes — everything is half price this weekend only!\" What is the purpose of the ad?",
+    "answer": "To persuade listeners to shop",
+    "choices": [
+     "To report the news",
+     "To persuade listeners to shop",
+     "To explain how shoes are made",
+     "To tell a story about Joe"
+    ]
+   },
+   {
+    "question": "A video shows step-by-step how to fold a paper airplane. What is the author's purpose?",
+    "answer": "To explain how to do something",
+    "choices": [
+     "To share an opinion",
+     "To explain how to do something",
+     "To entertain with a story",
+     "To persuade you to buy paper"
+    ]
+   },
+   {
+    "question": "A poster says \"Turn off the tap! Save water!\" with a picture of a sad fish. What is the purpose of the poster?",
+    "answer": "To persuade people to save water",
+    "choices": [
+     "To list facts about taps",
+     "To persuade people to save water",
+     "To tell a funny joke",
+     "To explain how fish swim"
+    ]
+   },
+   {
+    "question": "🗺️ A museum map with labels for each room What is the author's main purpose?",
+    "answer": "To inform",
+    "choices": [
+     "To express an opinion",
+     "To inform",
+     "To entertain",
+     "To persuade"
+    ]
+   },
+   {
+    "question": "📰 A poster that says \"Vote for Ana for class president!\" What is the author's main purpose?",
+    "answer": "To persuade",
+    "choices": [
+     "To give scientific facts",
+     "To explain how to do something",
+     "To persuade",
+     "To entertain with a story"
+    ]
+   },
+   {
+    "question": "A comic strip shows a cat trying to catch a laser dot and crashing into a wall. What is the main purpose of the comic?",
+    "answer": "To entertain",
+    "choices": [
+     "To inform about lasers",
+     "To entertain",
+     "To persuade you to buy a cat",
+     "To give instructions"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCeInf",
+  "subject": "english",
+  "title": "Match causes and effects in informational texts",
+  "section": "Text structure",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXCeInf3",
+   "engXCeInf4",
+   "engXCeInf5",
+   "engXCeInf6",
+   "engXCeInf7",
+   "engXCeInf8"
+  ],
+  "examples": [
+   {
+    "question": "In 1816, a volcano in Indonesia threw so much ash into the sky that it blocked sunlight around the world. As a result, summer temperatures dropped, and crops failed in Europe and North America. What was one effect of the volcano?",
+    "answer": "Crops failed",
+    "choices": [
+     "Summers became hotter",
+     "The volcano stopped erupting",
+     "Crops failed",
+     "More sunlight reached Earth"
+    ]
+   },
+   {
+    "question": "Many cities have added bike lanes. Since then, more people have started biking to work, and traffic on some streets has decreased. What is one effect of adding bike lanes?",
+    "answer": "More people bike to work",
+    "choices": [
+     "Traffic increased everywhere",
+     "Fewer people own bikes",
+     "Bike lanes were removed",
+     "More people bike to work"
+    ]
+   },
+   {
+    "question": "When people stopped using a pesticide called DDT, populations of bald eagles began to recover. DDT had made the birds' eggshells so thin that they broke. Why had bald eagle populations dropped?",
+    "answer": "DDT made their eggshells too thin",
+    "choices": [
+     "DDT made their eggshells too thin",
+     "Their nests were too high",
+     "People hunted them",
+     "They had no food"
+    ]
+   },
+   {
+    "question": "Because beavers build dams, streams back up into ponds. These ponds create wetlands where frogs, ducks and fish can live. What causes the ponds to form?",
+    "answer": "Beavers build dams",
+    "choices": [
+     "Fish swim upstream",
+     "Beavers build dams",
+     "Frogs dig holes",
+     "Ducks need water"
+    ]
+   },
+   {
+    "question": "Heavy rain soaked the hillside for a week. The soil became loose and heavy, and a mudslide closed the highway. What caused the mudslide?",
+    "answer": "A week of heavy rain loosened the soil",
+    "choices": [
+     "The highway was too busy",
+     "A week of heavy rain loosened the soil",
+     "Trees were planted",
+     "An earthquake shook the hill"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPrSl",
+  "subject": "english",
+  "title": "Match problems with their solutions",
+  "section": "Text structure",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engPrSl3",
+   "engPrSl4",
+   "engPrSl5",
+   "engPrSl6",
+   "engPrSl7",
+   "engPrSl8"
+  ],
+  "examples": [
+   {
+    "question": "Problem: The town has too much traffic. What is the best solution?",
+    "answer": "Add more buses and bike lanes.",
+    "choices": [
+     "Write assignments in a planner.",
+     "Pump air into the tire or patch it.",
+     "Put up posters and check with the animal shelter.",
+     "Add more buses and bike lanes."
+    ]
+   },
+   {
+    "question": "Problem: The bike tire is flat. What is the best solution?",
+    "answer": "Pump air into the tire or patch it.",
+    "choices": [
+     "Take the dog for more walks and give it toys.",
+     "Pump air into the tire or patch it.",
+     "Use quiet voices during reading time.",
+     "Put up posters and check with the animal shelter."
+    ]
+   },
+   {
+    "question": "Problem: The classroom is too noisy to read. What is the best solution?",
+    "answer": "Use quiet voices during reading time.",
+    "choices": [
+     "Use quiet voices during reading time.",
+     "Water the plants every morning.",
+     "Pump air into the tire or patch it.",
+     "Take the dog for more walks and give it toys."
+    ]
+   },
+   {
+    "question": "Problem: The park is full of litter. What is the best solution?",
+    "answer": "Organize a clean-up day.",
+    "choices": [
+     "Organize a clean-up day.",
+     "Water the plants every morning.",
+     "Pump air into the tire or patch it.",
+     "Put up posters and check with the animal shelter."
+    ]
+   },
+   {
+    "question": "Problem: The garden plants are drying out. What is the best solution?",
+    "answer": "Water the plants every morning.",
+    "choices": [
+     "Take the dog for more walks and give it toys.",
+     "Organize a clean-up day.",
+     "Put up posters and check with the animal shelter.",
+     "Water the plants every morning."
+    ]
+   },
+   {
+    "question": "Problem: The dog is bored and chews shoes. What is the best solution?",
+    "answer": "Take the dog for more walks and give it toys.",
+    "choices": [
+     "Pump air into the tire or patch it.",
+     "Use quiet voices during reading time.",
+     "Take the dog for more walks and give it toys.",
+     "Write assignments in a planner."
+    ]
+   },
+   {
+    "question": "Problem: Students forget their homework. What is the best solution?",
+    "answer": "Write assignments in a planner.",
+    "choices": [
+     "Write assignments in a planner.",
+     "Pump air into the tire or patch it.",
+     "Take the dog for more walks and give it toys.",
+     "Add more buses and bike lanes."
+    ]
+   },
+   {
+    "question": "Problem: A puppy is lost. What is the best solution?",
+    "answer": "Put up posters and check with the animal shelter.",
+    "choices": [
+     "Put up posters and check with the animal shelter.",
+     "Use quiet voices during reading time.",
+     "Write assignments in a planner.",
+     "Pump air into the tire or patch it."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTxSt",
+  "subject": "english",
+  "title": "Identify text structures",
+  "section": "Text structure",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXTxSt3",
+   "engXTxSt4",
+   "engXTxSt5",
+   "engXTxSt6",
+   "engXTxSt7",
+   "engXTxSt8"
+  ],
+  "examples": [
+   {
+    "question": "Our school's recycling bins were always overflowing. To fix this, students started a club that empties the bins twice a week. Which text structure does the passage use?",
+    "answer": "Problem and solution",
+    "choices": [
+     "Compare and contrast",
+     "Problem and solution",
+     "Description",
+     "Sequence"
+    ]
+   },
+   {
+    "question": "Because the river flooded, many roads were closed. As a result, students could not get to school. Which text structure does the passage use?",
+    "answer": "Cause and effect",
+    "choices": [
+     "Cause and effect",
+     "Problem and solution",
+     "Compare and contrast",
+     "Sequence"
+    ]
+   },
+   {
+    "question": "Sharks and dolphins both live in the ocean. However, sharks are fish, while dolphins are mammals that breathe air. Which text structure does the passage use?",
+    "answer": "Compare and contrast",
+    "choices": [
+     "Sequence",
+     "Cause and effect",
+     "Problem and solution",
+     "Compare and contrast"
+    ]
+   },
+   {
+    "question": "First, mix the flour and sugar. Next, add the eggs. Then pour the batter into a pan and bake for 30 minutes. Which text structure does the passage use?",
+    "answer": "Sequence",
+    "choices": [
+     "Sequence",
+     "Cause and effect",
+     "Problem and solution",
+     "Compare and contrast"
+    ]
+   },
+   {
+    "question": "The giant panda has black-and-white fur, round ears and a large head. It weighs up to 120 kilograms and eats mostly bamboo. Which text structure does the passage use?",
+    "answer": "Description",
+    "choices": [
+     "Sequence",
+     "Cause and effect",
+     "Problem and solution",
+     "Description"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSmMn",
+  "subject": "english",
+  "title": "Determine the meanings of similes",
+  "section": "Literary devices",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "engSmMn3"
+  ],
+  "examples": [
+   {
+    "question": "What does the simile mean? Mia ran like the wind.",
+    "answer": "Mia ran very fast.",
+    "choices": [
+     "Mia ran very fast.",
+     "He is very brave.",
+     "The baby's skin was very soft.",
+     "Her eyes were shiny and bright."
+    ]
+   },
+   {
+    "question": "What does the simile mean? The baby's skin was as soft as silk.",
+    "answer": "The baby's skin was very soft.",
+    "choices": [
+     "He is very brave.",
+     "The baby's skin was very soft.",
+     "Sam is very busy.",
+     "The snow covered everything."
+    ]
+   },
+   {
+    "question": "What does the simile mean? Sam is as busy as a bee.",
+    "answer": "Sam is very busy.",
+    "choices": [
+     "Sam is very busy.",
+     "Her eyes were shiny and bright.",
+     "The room was very quiet.",
+     "The snow covered everything."
+    ]
+   },
+   {
+    "question": "What does the simile mean? Her eyes sparkled like diamonds.",
+    "answer": "Her eyes were shiny and bright.",
+    "choices": [
+     "The room was very quiet.",
+     "Sam is very busy.",
+     "He is very brave.",
+     "Her eyes were shiny and bright."
+    ]
+   },
+   {
+    "question": "What does the simile mean? The snow was like a white blanket.",
+    "answer": "The snow covered everything.",
+    "choices": [
+     "The baby's skin was very soft.",
+     "He is very brave.",
+     "The snow covered everything.",
+     "Her eyes were shiny and bright."
+    ]
+   },
+   {
+    "question": "What does the simile mean? The room was as quiet as a mouse.",
+    "answer": "The room was very quiet.",
+    "choices": [
+     "Her eyes were shiny and bright.",
+     "He is very brave.",
+     "Sam is very busy.",
+     "The room was very quiet."
+    ]
+   },
+   {
+    "question": "What does the simile mean? The water was as cold as ice.",
+    "answer": "The water was very cold.",
+    "choices": [
+     "The room was very quiet.",
+     "The water was very cold.",
+     "The snow covered everything.",
+     "Her eyes were shiny and bright."
+    ]
+   },
+   {
+    "question": "What does the simile mean? He is as brave as a lion.",
+    "answer": "He is very brave.",
+    "choices": [
+     "Her eyes were shiny and bright.",
+     "Sam is very busy.",
+     "The room was very quiet.",
+     "He is very brave."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPvDs",
+  "subject": "english",
+  "title": "Distinguish points of view",
+  "section": "Point of view",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "engPvDs3",
+   "engPvDs4"
+  ],
+  "examples": [
+   {
+    "question": "What point of view is used? We baked cookies for our neighbours.",
+    "answer": "First person",
+    "choices": [
+     "First person",
+     "Third person"
+    ]
+   },
+   {
+    "question": "What point of view is used? She ran to the park with her dog.",
+    "answer": "Third person",
+    "choices": [
+     "Third person",
+     "First person"
+    ]
+   },
+   {
+    "question": "What point of view is used? They baked cookies for their neighbours.",
+    "answer": "Third person",
+    "choices": [
+     "Third person",
+     "First person"
+    ]
+   },
+   {
+    "question": "What point of view is used? The fox crept toward the henhouse.",
+    "answer": "Third person",
+    "choices": [
+     "First person",
+     "Third person"
+    ]
+   },
+   {
+    "question": "What point of view is used? I ran to the park with my dog.",
+    "answer": "First person",
+    "choices": [
+     "Third person",
+     "First person"
+    ]
+   },
+   {
+    "question": "What point of view is used? My heart pounded as I opened the door.",
+    "answer": "First person",
+    "choices": [
+     "First person",
+     "Third person"
+    ]
+   },
+   {
+    "question": "What point of view is used? His heart pounded as he opened the door.",
+    "answer": "Third person",
+    "choices": [
+     "First person",
+     "Third person"
+    ]
+   },
+   {
+    "question": "What point of view is used? I could not believe my eyes!",
+    "answer": "First person",
+    "choices": [
+     "First person",
+     "Third person"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engInfE",
+  "subject": "english",
+  "title": "Draw inferences from a text",
+  "section": "Inference",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engInfE3",
+   "engInfE4",
+   "engInfE5"
+  ],
+  "examples": [
+   {
+    "question": "Read the text. The streets were wet, puddles filled the sidewalk, and people were closing their umbrellas. What can you infer?",
+    "answer": "It just stopped raining.",
+    "choices": [
+     "It just stopped raining.",
+     "It is snowing.",
+     "It is about to start raining.",
+     "It has not rained in weeks."
+    ]
+   },
+   {
+    "question": "Read the text. Maya held her report card and danced around the room, waving it in the air. What can you infer?",
+    "answer": "Maya got good grades.",
+    "choices": [
+     "Maya has a sore foot.",
+     "Maya lost her report card.",
+     "Maya got good grades.",
+     "Maya is sad."
+    ]
+   },
+   {
+    "question": "Read the text. Mom found muddy paw prints on the clean kitchen floor and a half-eaten sandwich on the rug. What can you infer?",
+    "answer": "The dog took the sandwich.",
+    "choices": [
+     "It rained inside.",
+     "A bird cleaned the floor.",
+     "Mom ate the sandwich.",
+     "The dog took the sandwich."
+    ]
+   },
+   {
+    "question": "Read the text. The crowd groaned as the ball sailed over the goalpost and the clock ran out. What can you infer?",
+    "answer": "The team missed the winning kick.",
+    "choices": [
+     "The crowd was asleep.",
+     "The team missed the winning kick.",
+     "The game was just starting.",
+     "The team scored and won."
+    ]
+   },
+   {
+    "question": "Read the text. Grandpa put on his thick coat, wrapped a scarf around his neck and pulled on his boots before stepping outside. What can you infer?",
+    "answer": "It is cold outside.",
+    "choices": [
+     "It is night time.",
+     "It is cold outside.",
+     "It is hot outside.",
+     "Grandpa is going swimming."
+    ]
+   }
+  ]
+ }
+]

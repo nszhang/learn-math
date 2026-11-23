@@ -1,0 +1,2835 @@
+[
+ {
+  "key": "sciXsWhale",
+  "subject": "science",
+  "title": "Where do whale sharks and tree frogs live?",
+  "section": "Animals",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsWhale0",
+   "sciXsWhale1"
+  ],
+  "examples": [
+   {
+    "question": "Where does the tree frog live?",
+    "answer": "In a rainforest",
+    "choices": [
+     "In the Arctic",
+     "In the ocean",
+     "In a desert",
+     "In a rainforest"
+    ]
+   },
+   {
+    "question": "What does a whale shark eat?",
+    "answer": "Tiny plankton",
+    "choices": [
+     "Seals",
+     "Tiny plankton",
+     "Big fish only",
+     "Plants on land"
+    ]
+   },
+   {
+    "question": "How does a whale shark breathe?",
+    "answer": "With gills",
+    "choices": [
+     "With lungs at the surface",
+     "With gills",
+     "Through its skin only",
+     "It doesn't breathe"
+    ]
+   },
+   {
+    "question": "Where do red-eyed tree frogs live?",
+    "answer": "In tropical rainforests",
+    "choices": [
+     "In deserts",
+     "On ice",
+     "In tropical rainforests",
+     "In the ocean"
+    ]
+   },
+   {
+    "question": "Where does the whale shark live?",
+    "answer": "In warm oceans",
+    "choices": [
+     "In a desert",
+     "In a forest",
+     "In warm oceans",
+     "In a lake on a mountain"
+    ]
+   },
+   {
+    "question": "How do sticky toe pads help a tree frog?",
+    "answer": "They help it climb leaves and branches",
+    "choices": [
+     "They help it climb leaves and branches",
+     "They help it swim fast",
+     "They keep it warm",
+     "They help it dig"
+    ]
+   },
+   {
+    "question": "Where do whale sharks live?",
+    "answer": "In warm oceans",
+    "choices": [
+     "In ponds",
+     "In warm oceans",
+     "In deserts",
+     "In the Arctic tundra"
+    ]
+   },
+   {
+    "question": "Which animal could NOT live in a whale shark's habitat?",
+    "answer": "A camel",
+    "choices": [
+     "A dolphin",
+     "A camel",
+     "A jellyfish",
+     "A sea turtle"
+    ]
+   },
+   {
+    "question": "How does a whale shark get food?",
+    "answer": "It filters tiny animals from the water",
+    "choices": [
+     "It eats grass",
+     "It catches birds",
+     "It filters tiny animals from the water",
+     "It hunts in trees"
+    ]
+   },
+   {
+    "question": "Why does a rainforest suit a tree frog?",
+    "answer": "It is warm and wet",
+    "choices": [
+     "It is cold and icy",
+     "It is dry and sandy",
+     "It has no trees",
+     "It is warm and wet"
+    ]
+   },
+   {
+    "question": "How do sticky toe pads help a tree frog?",
+    "answer": "They help it climb and cling to leaves",
+    "choices": [
+     "They help it dig",
+     "They keep it warm",
+     "They help it swim far",
+     "They help it climb and cling to leaves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSNS",
+  "subject": "science",
+  "title": "The five senses",
+  "section": "Animals",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciSNS0",
+   "sciSNS1"
+  ],
+  "examples": [
+   {
+    "question": "Which sense do you use? Tasting ice cream",
+    "answer": "Taste",
+    "choices": [
+     "Sight",
+     "Touch",
+     "Smell",
+     "Hearing",
+     "Taste"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Listening to a bird sing",
+    "answer": "Hearing",
+    "choices": [
+     "Touch",
+     "Taste",
+     "Hearing",
+     "Smell",
+     "Sight"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Smelling fresh bread",
+    "answer": "Smell",
+    "choices": [
+     "Taste",
+     "Sight",
+     "Hearing",
+     "Smell",
+     "Touch"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Feeling a soft blanket",
+    "answer": "Touch",
+    "choices": [
+     "Hearing",
+     "Taste",
+     "Sight",
+     "Touch",
+     "Smell"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Feeling something hot",
+    "answer": "Touch",
+    "choices": [
+     "Touch",
+     "Smell",
+     "Taste",
+     "Sight",
+     "Hearing"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Looking at a rainbow",
+    "answer": "Sight",
+    "choices": [
+     "Hearing",
+     "Smell",
+     "Touch",
+     "Taste",
+     "Sight"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Hearing a drum",
+    "answer": "Hearing",
+    "choices": [
+     "Taste",
+     "Touch",
+     "Hearing",
+     "Sight",
+     "Smell"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Tasting a sour lemon",
+    "answer": "Taste",
+    "choices": [
+     "Hearing",
+     "Touch",
+     "Smell",
+     "Taste",
+     "Sight"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Sniffing a flower",
+    "answer": "Smell",
+    "choices": [
+     "Sight",
+     "Hearing",
+     "Touch",
+     "Smell",
+     "Taste"
+    ]
+   },
+   {
+    "question": "Which sense do you use? Watching a movie",
+    "answer": "Sight",
+    "choices": [
+     "Smell",
+     "Sight",
+     "Hearing",
+     "Touch",
+     "Taste"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlNeed",
+  "subject": "science",
+  "title": "What do plants need to survive?",
+  "section": "Plants",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsPlNeed0",
+   "sciXsPlNeed1"
+  ],
+  "examples": [
+   {
+    "question": "A plant's leaves turn toward the window. Why?",
+    "answer": "To get more sunlight",
+    "choices": [
+     "To find water",
+     "To get more sunlight",
+     "To hide from people",
+     "To stay cold"
+    ]
+   },
+   {
+    "question": "What do roots take in from the soil?",
+    "answer": "Water and nutrients",
+    "choices": [
+     "Candy",
+     "Air only",
+     "Water and nutrients",
+     "Sunlight"
+    ]
+   },
+   {
+    "question": "Which plant will grow best?",
+    "answer": "One with sun, water and good soil",
+    "choices": [
+     "One in a dark box",
+     "One with sun, water and good soil",
+     "One planted in sand with no water",
+     "One with no water"
+    ]
+   },
+   {
+    "question": "What gas do plants take in from the air?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "Smoke only",
+     "Carbon dioxide",
+     "Helium",
+     "Steam only"
+    ]
+   },
+   {
+    "question": "Which do plants need to grow?",
+    "answer": "Sunlight, water and air",
+    "choices": [
+     "Candy",
+     "Darkness only",
+     "Sunlight, water and air",
+     "Toys"
+    ]
+   },
+   {
+    "question": "What happens to a plant left in a dark closet?",
+    "answer": "It becomes weak and yellow",
+    "choices": [
+     "Nothing changes",
+     "It turns blue",
+     "It becomes weak and yellow",
+     "It grows faster"
+    ]
+   },
+   {
+    "question": "Why do farmers water their crops when it does not rain?",
+    "answer": "Plants need water to grow",
+    "choices": [
+     "To cool the farmer",
+     "Plants need water to grow",
+     "To wash the soil",
+     "To scare birds"
+    ]
+   },
+   {
+    "question": "Why do plants need space?",
+    "answer": "So their roots and leaves are not crowded",
+    "choices": [
+     "So they can sleep",
+     "They don't need space",
+     "So their roots and leaves are not crowded",
+     "So they can walk"
+    ]
+   },
+   {
+    "question": "Where do most plants get water?",
+    "answer": "From the soil through their roots",
+    "choices": [
+     "From the soil through their roots",
+     "From their flowers",
+     "From animals",
+     "From the air only"
+    ]
+   },
+   {
+    "question": "A plant kept in a dark closet turns pale and droopy. What is it missing?",
+    "answer": "Sunlight",
+    "choices": [
+     "Ice",
+     "Sunlight",
+     "Toys",
+     "Music"
+    ]
+   },
+   {
+    "question": "What do plants need to grow?",
+    "answer": "Sunlight, water, air and nutrients from soil",
+    "choices": [
+     "Sunlight, water, air and nutrients from soil",
+     "Only darkness",
+     "Only candy",
+     "Only ice"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlParts",
+  "subject": "science",
+  "title": "Identify plant parts",
+  "section": "Plants",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsPlParts0",
+   "sciXsPlParts1"
+  ],
+  "examples": [
+   {
+    "question": "Which part of a plant grows underground?",
+    "answer": "The root",
+    "choices": [
+     "The flower",
+     "The fruit",
+     "The leaf",
+     "The root"
+    ]
+   },
+   {
+    "question": "A carrot is which part of a plant?",
+    "answer": "Root",
+    "choices": [
+     "Leaf",
+     "Flower",
+     "Stem",
+     "Root"
+    ]
+   },
+   {
+    "question": "🌷 Which part of a plant is usually colourful and makes seeds?",
+    "answer": "The flower",
+    "choices": [
+     "The stem",
+     "The flower",
+     "The root",
+     "The leaf"
+    ]
+   },
+   {
+    "question": "Which part of an apple tree do we eat?",
+    "answer": "Fruit",
+    "choices": [
+     "Root",
+     "Leaf",
+     "Fruit",
+     "Bark"
+    ]
+   },
+   {
+    "question": "Which part holds the plant up?",
+    "answer": "The stem",
+    "choices": [
+     "The stem",
+     "The seed",
+     "The root",
+     "The flower"
+    ]
+   },
+   {
+    "question": "Which part of a plant holds it in the soil?",
+    "answer": "Roots",
+    "choices": [
+     "Leaves",
+     "Fruit",
+     "Roots",
+     "Flowers"
+    ]
+   },
+   {
+    "question": "Which part of a sunflower do we roast and eat as a snack?",
+    "answer": "Seeds",
+    "choices": [
+     "Seeds",
+     "Leaves",
+     "Stem",
+     "Roots"
+    ]
+   },
+   {
+    "question": "Which part of a plant makes seeds?",
+    "answer": "Flower",
+    "choices": [
+     "Stem",
+     "Root",
+     "Bark",
+     "Flower"
+    ]
+   },
+   {
+    "question": "Which part of a plant holds it up and carries water?",
+    "answer": "Stem",
+    "choices": [
+     "Root hair",
+     "Stem",
+     "Seed",
+     "Petal"
+    ]
+   },
+   {
+    "question": "Which part of a plant is usually green and flat?",
+    "answer": "Leaf",
+    "choices": [
+     "Flower",
+     "Seed",
+     "Root",
+     "Leaf"
+    ]
+   },
+   {
+    "question": "🍃 Which part is usually green and flat?",
+    "answer": "The leaf",
+    "choices": [
+     "The root",
+     "The seed",
+     "The leaf",
+     "The flower"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPlntFn",
+  "subject": "science",
+  "title": "Identify what plant parts do",
+  "section": "Plants",
+  "grades": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "skillIds": [
+   "sciPlntFn0",
+   "sciPlntFn1",
+   "sciPlntFn2",
+   "sciPlntFn3",
+   "sciPlntFn4",
+   "sciPlntFn6"
+  ],
+  "examples": [
+   {
+    "question": "Which colourful parts of a flower attract bees?",
+    "answer": "Petals",
+    "choices": [
+     "Petals",
+     "Seeds",
+     "Stem",
+     "Roots"
+    ]
+   },
+   {
+    "question": "Which plant part takes in water and holds the plant in the ground?",
+    "answer": "Roots",
+    "choices": [
+     "Flower",
+     "Fruit",
+     "Leaves",
+     "Roots"
+    ]
+   },
+   {
+    "question": "Which plant part can grow into a new plant?",
+    "answer": "Seed",
+    "choices": [
+     "Bark",
+     "Leaf",
+     "Petal",
+     "Seed"
+    ]
+   },
+   {
+    "question": "Which plant part makes food using sunlight?",
+    "answer": "Leaves",
+    "choices": [
+     "Roots",
+     "Seeds",
+     "Bark",
+     "Leaves"
+    ]
+   },
+   {
+    "question": "Which plant part protects the seeds?",
+    "answer": "Fruit",
+    "choices": [
+     "Fruit",
+     "Leaves",
+     "Stem",
+     "Roots"
+    ]
+   },
+   {
+    "question": "Which plant part carries water from the roots to the leaves?",
+    "answer": "Stem",
+    "choices": [
+     "Seed",
+     "Stem",
+     "Flower",
+     "Fruit"
+    ]
+   },
+   {
+    "question": "Which plant part makes seeds?",
+    "answer": "Flower",
+    "choices": [
+     "Stem",
+     "Roots",
+     "Flower",
+     "Leaves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlPar",
+  "subject": "science",
+  "title": "Match plants to their parents",
+  "section": "Plants",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciXsPlPar0",
+   "sciXsPlPar1",
+   "sciXsPlPar2"
+  ],
+  "examples": [
+   {
+    "question": "A pumpkin seed sprouts. What will the plant grow?",
+    "answer": "Pumpkins",
+    "choices": [
+     "Apples",
+     "Corn",
+     "Tulips",
+     "Pumpkins"
+    ]
+   },
+   {
+    "question": "How is a young tulip like its parent?",
+    "answer": "It has the same shape of leaves and flowers",
+    "choices": [
+     "It is exactly the same size",
+     "It has the same shape of leaves and flowers",
+     "It grows apples",
+     "It is a different kind of plant"
+    ]
+   },
+   {
+    "question": "Maple keys (seeds) grow into…",
+    "answer": "maple trees",
+    "choices": [
+     "daisies",
+     "corn",
+     "maple trees",
+     "oak trees"
+    ]
+   },
+   {
+    "question": "An acorn grows into a…",
+    "answer": "oak tree",
+    "choices": [
+     "maple tree",
+     "sunflower",
+     "pine tree",
+     "oak tree"
+    ]
+   },
+   {
+    "question": "A sunflower seed is planted. What will grow?",
+    "answer": "A sunflower",
+    "choices": [
+     "A carrot",
+     "A rose",
+     "An oak tree",
+     "A sunflower"
+    ]
+   },
+   {
+    "question": "A pumpkin seed grows into a…",
+    "answer": "pumpkin plant",
+    "choices": [
+     "apple tree",
+     "pumpkin plant",
+     "carrot",
+     "grass"
+    ]
+   },
+   {
+    "question": "A pine cone seed grows. What will it become?",
+    "answer": "A pine tree",
+    "choices": [
+     "A pine tree",
+     "A palm tree",
+     "A rose bush",
+     "A mushroom"
+    ]
+   },
+   {
+    "question": "A sunflower seed grows into a…",
+    "answer": "sunflower",
+    "choices": [
+     "sunflower",
+     "cactus",
+     "rose",
+     "tree"
+    ]
+   },
+   {
+    "question": "How is a seedling different from its parent plant?",
+    "answer": "It is smaller",
+    "choices": [
+     "It has a different leaf shape",
+     "It is smaller",
+     "It grows different fruit",
+     "It is a different kind of plant"
+    ]
+   },
+   {
+    "question": "A bean seed sprouts. What will grow?",
+    "answer": "A bean plant",
+    "choices": [
+     "A tomato",
+     "A sunflower",
+     "A pea plant",
+     "A bean plant"
+    ]
+   },
+   {
+    "question": "Which baby plant came from a maple tree?",
+    "answer": "A small tree with maple-shaped leaves",
+    "choices": [
+     "A blade of grass",
+     "A small tree with maple-shaped leaves",
+     "A tiny cactus",
+     "A daisy"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlType",
+  "subject": "science",
+  "title": "Identify types of plants",
+  "section": "Plants",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsPlType0",
+   "sciXsPlType1"
+  ],
+  "examples": [
+   {
+    "question": "Which plant has needles instead of flat leaves?",
+    "answer": "A spruce tree",
+    "choices": [
+     "A lily",
+     "A maple tree",
+     "A daisy",
+     "A spruce tree"
+    ]
+   },
+   {
+    "question": "🌾 What type of plant is wheat?",
+    "answer": "Grass",
+    "choices": [
+     "Tree",
+     "Grass",
+     "Cactus",
+     "Moss"
+    ]
+   },
+   {
+    "question": "🌵 What type of plant has thick stems that store water and spines?",
+    "answer": "Cactus",
+    "choices": [
+     "Moss",
+     "Grass",
+     "Fern",
+     "Cactus"
+    ]
+   },
+   {
+    "question": "Which plant makes spores instead of seeds?",
+    "answer": "A fern",
+    "choices": [
+     "An apple tree",
+     "A sunflower",
+     "A bean",
+     "A fern"
+    ]
+   },
+   {
+    "question": "Which plant is a cactus?",
+    "answer": "A saguaro",
+    "choices": [
+     "A fern",
+     "A tulip",
+     "A saguaro",
+     "A maple"
+    ]
+   },
+   {
+    "question": "🌲 What type of plant is a pine?",
+    "answer": "Tree",
+    "choices": [
+     "Grass",
+     "Vine",
+     "Flower",
+     "Tree"
+    ]
+   },
+   {
+    "question": "Which is a tree?",
+    "answer": "An oak",
+    "choices": [
+     "An oak",
+     "A dandelion",
+     "Grass",
+     "Moss"
+    ]
+   },
+   {
+    "question": "Which is a flowering plant?",
+    "answer": "A rose",
+    "choices": [
+     "A pine tree",
+     "A moss",
+     "A fern",
+     "A rose"
+    ]
+   },
+   {
+    "question": "🌿 Which plant has feathery leaves and no flowers?",
+    "answer": "Fern",
+    "choices": [
+     "Fern",
+     "Tulip",
+     "Sunflower",
+     "Rose"
+    ]
+   },
+   {
+    "question": "What kind of plant is a strawberry plant?",
+    "answer": "A flowering plant that makes fruit",
+    "choices": [
+     "A cactus",
+     "A flowering plant that makes fruit",
+     "A tree",
+     "A moss"
+    ]
+   },
+   {
+    "question": "Which is a grass?",
+    "answer": "Wheat",
+    "choices": [
+     "Wheat",
+     "An oak",
+     "A fern",
+     "A cactus"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLily",
+  "subject": "science",
+  "title": "Where do water lilies and saguaros live?",
+  "section": "Plants",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsLily0",
+   "sciXsLily1"
+  ],
+  "examples": [
+   {
+    "question": "Where does the saguaro cactus live?",
+    "answer": "In a hot, dry desert",
+    "choices": [
+     "In a pond",
+     "In a rainforest",
+     "In a hot, dry desert",
+     "Under the sea"
+    ]
+   },
+   {
+    "question": "How does a saguaro survive with little rain?",
+    "answer": "It stores water in its stem",
+    "choices": [
+     "It grows only in winter",
+     "It floats on water",
+     "It stores water in its stem",
+     "It drops its roots"
+    ]
+   },
+   {
+    "question": "Where does the water lily live?",
+    "answer": "In ponds and lakes",
+    "choices": [
+     "On a mountain cliff",
+     "In the Arctic",
+     "In a desert",
+     "In ponds and lakes"
+    ]
+   },
+   {
+    "question": "Which plant would die if planted in a desert?",
+    "answer": "A water lily",
+    "choices": [
+     "A prickly pear",
+     "A saguaro",
+     "A water lily",
+     "A desert sage"
+    ]
+   },
+   {
+    "question": "How does a saguaro's thick stem help it?",
+    "answer": "It stores water",
+    "choices": [
+     "It helps it float",
+     "It makes it taller only",
+     "It catches snow",
+     "It stores water"
+    ]
+   },
+   {
+    "question": "Where are a water lily's roots?",
+    "answer": "In the mud at the bottom of the pond",
+    "choices": [
+     "On rocks in the desert",
+     "Inside a tree",
+     "In the mud at the bottom of the pond",
+     "In the air"
+    ]
+   },
+   {
+    "question": "Where do saguaro cacti grow?",
+    "answer": "In hot, dry deserts",
+    "choices": [
+     "In hot, dry deserts",
+     "In rainforests",
+     "In ponds",
+     "In the Arctic"
+    ]
+   },
+   {
+    "question": "How do floating leaves help a water lily?",
+    "answer": "They reach sunlight at the water's surface",
+    "choices": [
+     "They help it walk",
+     "They reach sunlight at the water's surface",
+     "They keep insects away",
+     "They store water"
+    ]
+   },
+   {
+    "question": "Where do water lilies grow?",
+    "answer": "In ponds and slow-moving water",
+    "choices": [
+     "In deserts",
+     "In snow",
+     "On mountaintops",
+     "In ponds and slow-moving water"
+    ]
+   },
+   {
+    "question": "Why does a cactus have spines instead of big leaves?",
+    "answer": "Spines lose less water and protect the plant",
+    "choices": [
+     "Spines help it float",
+     "Spines attract fish",
+     "Spines make food",
+     "Spines lose less water and protect the plant"
+    ]
+   },
+   {
+    "question": "How do the flat leaves of a water lily help it?",
+    "answer": "They float and catch sunlight",
+    "choices": [
+     "They store water for the desert",
+     "They protect it from snow",
+     "They dig into soil",
+     "They float and catch sunlight"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBear",
+  "subject": "science",
+  "title": "Where do bearberries and powdery strap air plants live?",
+  "section": "Plants",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsBear0",
+   "sciXsBear1"
+  ],
+  "examples": [
+   {
+    "question": "How does an air plant get water?",
+    "answer": "From rain and moist air",
+    "choices": [
+     "From sand",
+     "From ice",
+     "From deep roots in soil",
+     "From rain and moist air"
+    ]
+   },
+   {
+    "question": "What colour are bearberry fruits?",
+    "answer": "Red",
+    "choices": [
+     "Purple",
+     "Blue",
+     "White",
+     "Red"
+    ]
+   },
+   {
+    "question": "Which animal eats bearberries?",
+    "answer": "Bears",
+    "choices": [
+     "Camels",
+     "Bears",
+     "Whales",
+     "Fish"
+    ]
+   },
+   {
+    "question": "Where does the bearberry plant grow?",
+    "answer": "In cold, rocky tundra and northern forests",
+    "choices": [
+     "In a hot desert",
+     "In cold, rocky tundra and northern forests",
+     "In a rainforest canopy",
+     "Under the sea"
+    ]
+   },
+   {
+    "question": "How does growing low to the ground help a bearberry?",
+    "answer": "It stays out of the cold wind",
+    "choices": [
+     "It floats",
+     "It stays out of the cold wind",
+     "It climbs trees",
+     "It gets more sun in the desert"
+    ]
+   },
+   {
+    "question": "Where do powdery strap air plants grow?",
+    "answer": "On the branches of trees in warm, wet forests",
+    "choices": [
+     "In deserts",
+     "On the branches of trees in warm, wet forests",
+     "Under the snow",
+     "In ponds"
+    ]
+   },
+   {
+    "question": "Where do bearberries grow?",
+    "answer": "In cold, rocky places like the tundra",
+    "choices": [
+     "In deserts",
+     "In the ocean",
+     "In cold, rocky places like the tundra",
+     "In hot rainforests"
+    ]
+   },
+   {
+    "question": "How does growing low to the ground help the bearberry?",
+    "answer": "It stays out of cold, strong winds",
+    "choices": [
+     "It reaches more water",
+     "It climbs trees",
+     "It stays out of cold, strong winds",
+     "It floats"
+    ]
+   },
+   {
+    "question": "Where does the powdery strap air plant live?",
+    "answer": "On tree branches in warm, wet forests",
+    "choices": [
+     "At the bottom of a lake",
+     "In desert sand",
+     "In the Arctic",
+     "On tree branches in warm, wet forests"
+    ]
+   },
+   {
+    "question": "Why does an air plant grow high on a tree?",
+    "answer": "To reach sunlight in a shady forest",
+    "choices": [
+     "To avoid rain",
+     "To reach sunlight in a shady forest",
+     "To hide from water",
+     "To stay cold"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTurtle",
+  "subject": "science",
+  "title": "Where do turtle grass and giant sequoias live?",
+  "section": "Plants",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsTurtle0",
+   "sciXsTurtle1"
+  ],
+  "examples": [
+   {
+    "question": "Where do giant sequoias grow?",
+    "answer": "In mountain forests in California",
+    "choices": [
+     "In mountain forests in California",
+     "In the ocean",
+     "On ice",
+     "In deserts"
+    ]
+   },
+   {
+    "question": "Which animal eats turtle grass?",
+    "answer": "Sea turtles",
+    "choices": [
+     "Polar bears",
+     "Camels",
+     "Sea turtles",
+     "Owls"
+    ]
+   },
+   {
+    "question": "Why does turtle grass need shallow water?",
+    "answer": "Sunlight must reach it",
+    "choices": [
+     "Sunlight must reach it",
+     "It needs darkness",
+     "It needs ice",
+     "It needs to be cold"
+    ]
+   },
+   {
+    "question": "Which is one of the largest living things on Earth?",
+    "answer": "A giant sequoia",
+    "choices": [
+     "A giant sequoia",
+     "A daisy",
+     "Turtle grass",
+     "A cactus"
+    ]
+   },
+   {
+    "question": "Where does turtle grass grow?",
+    "answer": "Underwater in shallow, warm seas",
+    "choices": [
+     "Underwater in shallow, warm seas",
+     "In the Arctic",
+     "In deserts",
+     "On mountains"
+    ]
+   },
+   {
+    "question": "Where does turtle grass grow?",
+    "answer": "In warm, shallow ocean water",
+    "choices": [
+     "In a desert",
+     "In warm, shallow ocean water",
+     "In the Arctic",
+     "On a mountain"
+    ]
+   },
+   {
+    "question": "How does turtle grass stay in place?",
+    "answer": "Its roots hold onto the sandy sea floor",
+    "choices": [
+     "It floats on top",
+     "Its roots hold onto the sandy sea floor",
+     "It ties to rocks with vines",
+     "It sticks to turtles"
+    ]
+   },
+   {
+    "question": "How does thick bark help a giant sequoia?",
+    "answer": "It protects the tree from fire",
+    "choices": [
+     "It stores salt",
+     "It protects the tree from fire",
+     "It catches fish",
+     "It helps it float"
+    ]
+   },
+   {
+    "question": "Where does the giant sequoia grow?",
+    "answer": "In mountain forests",
+    "choices": [
+     "In a desert",
+     "In a pond",
+     "In mountain forests",
+     "In the ocean"
+    ]
+   },
+   {
+    "question": "What is special about giant sequoias?",
+    "answer": "They are among the largest trees on Earth",
+    "choices": [
+     "They are among the largest trees on Earth",
+     "They are the smallest trees",
+     "They grow underwater",
+     "They have no roots"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPlAn",
+  "subject": "science",
+  "title": "Identify plants and animals",
+  "section": "Classification",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciPlAn0",
+   "sciPlAn1",
+   "sciPlAn2"
+  ],
+  "examples": [
+   {
+    "question": "Is 🌿 a fern a plant or an animal?",
+    "answer": "Plant",
+    "choices": [
+     "Animal",
+     "Plant"
+    ]
+   },
+   {
+    "question": "Is 🐸 a frog a plant or an animal?",
+    "answer": "Animal",
+    "choices": [
+     "Plant",
+     "Animal"
+    ]
+   },
+   {
+    "question": "Is 🌷 a tulip a plant or an animal?",
+    "answer": "Plant",
+    "choices": [
+     "Plant",
+     "Animal"
+    ]
+   },
+   {
+    "question": "Is 🌲 a pine tree a plant or an animal?",
+    "answer": "Plant",
+    "choices": [
+     "Animal",
+     "Plant"
+    ]
+   },
+   {
+    "question": "Is 🦉 an owl a plant or an animal?",
+    "answer": "Animal",
+    "choices": [
+     "Animal",
+     "Plant"
+    ]
+   },
+   {
+    "question": "Is 🌵 a cactus a plant or an animal?",
+    "answer": "Plant",
+    "choices": [
+     "Animal",
+     "Plant"
+    ]
+   },
+   {
+    "question": "Is 🐝 a bee a plant or an animal?",
+    "answer": "Animal",
+    "choices": [
+     "Animal",
+     "Plant"
+    ]
+   },
+   {
+    "question": "Is 🐟 a fish a plant or an animal?",
+    "answer": "Animal",
+    "choices": [
+     "Animal",
+     "Plant"
+    ]
+   },
+   {
+    "question": "Is 🥕 a carrot plant a plant or an animal?",
+    "answer": "Plant",
+    "choices": [
+     "Animal",
+     "Plant"
+    ]
+   },
+   {
+    "question": "Is 🐌 a snail a plant or an animal?",
+    "answer": "Animal",
+    "choices": [
+     "Plant",
+     "Animal"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsChEnv",
+  "subject": "science",
+  "title": "How do living things change their environments to meet their needs?",
+  "section": "Ecosystems",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsChEnv0",
+   "sciXsChEnv1"
+  ],
+  "examples": [
+   {
+    "question": "How do elephants change their environment?",
+    "answer": "They knock down trees and open up grassland",
+    "choices": [
+     "They knock down trees and open up grassland",
+     "They build nests",
+     "They make snow",
+     "They plant forests"
+    ]
+   },
+   {
+    "question": "How do people change the environment to meet their needs?",
+    "answer": "They build houses and roads",
+    "choices": [
+     "They build nests of sticks",
+     "They build houses and roads",
+     "They grow fur",
+     "They dig burrows like moles"
+    ]
+   },
+   {
+    "question": "How do beavers change their environment?",
+    "answer": "They build dams that make ponds",
+    "choices": [
+     "They build dams that make ponds",
+     "They plant trees",
+     "They melt snow",
+     "They make deserts"
+    ]
+   },
+   {
+    "question": "How do plant roots change rocks over time?",
+    "answer": "Roots grow into cracks and break rocks apart",
+    "choices": [
+     "Roots make rocks bigger",
+     "Roots grow into cracks and break rocks apart",
+     "Roots melt rocks",
+     "Roots paint rocks"
+    ]
+   },
+   {
+    "question": "How do prairie dogs change the land?",
+    "answer": "They dig large networks of tunnels",
+    "choices": [
+     "They make ponds",
+     "They cut down trees",
+     "They dig large networks of tunnels",
+     "They build dams"
+    ]
+   },
+   {
+    "question": "How do woodpeckers change trees?",
+    "answer": "They drill holes to find insects and make nests",
+    "choices": [
+     "They plant trees",
+     "They paint bark",
+     "They water roots",
+     "They drill holes to find insects and make nests"
+    ]
+   },
+   {
+    "question": "How do people change the environment to meet their needs?",
+    "answer": "They build houses and clear land for farms",
+    "choices": [
+     "They hibernate",
+     "They make honey",
+     "They grow fur",
+     "They build houses and clear land for farms"
+    ]
+   },
+   {
+    "question": "How does a beaver change its environment?",
+    "answer": "It builds dams that make ponds",
+    "choices": [
+     "It builds roads",
+     "It melts snow",
+     "It builds dams that make ponds",
+     "It plants flowers"
+    ]
+   },
+   {
+    "question": "How do earthworms change the soil?",
+    "answer": "They make tunnels that let air and water in",
+    "choices": [
+     "They freeze the soil",
+     "They make it rocky",
+     "They remove all water",
+     "They make tunnels that let air and water in"
+    ]
+   },
+   {
+    "question": "How do birds change their environment to raise young?",
+    "answer": "They build nests",
+    "choices": [
+     "They build nests",
+     "They build roads",
+     "They dig rivers",
+     "They grow fruit"
+    ]
+   },
+   {
+    "question": "How do tree roots change their environment?",
+    "answer": "They can crack rocks and sidewalks",
+    "choices": [
+     "They make rain",
+     "They freeze ponds",
+     "They make the sun shine",
+     "They can crack rocks and sidewalks"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSquir",
+  "subject": "science",
+  "title": "How do gray squirrels change the forest to meet their needs?",
+  "section": "Ecosystems",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsSquir0",
+   "sciXsSquir1"
+  ],
+  "examples": [
+   {
+    "question": "How can squirrels harm a garden?",
+    "answer": "By digging up bulbs and seeds",
+    "choices": [
+     "By planting weeds on purpose",
+     "By flooding it",
+     "By digging up bulbs and seeds",
+     "By building dams"
+    ]
+   },
+   {
+    "question": "How do gray squirrels build nests?",
+    "answer": "With leaves and twigs high in trees",
+    "choices": [
+     "With mud in rivers",
+     "With snow",
+     "With leaves and twigs high in trees",
+     "Underground with rocks"
+    ]
+   },
+   {
+    "question": "Why does a gray squirrel build a leafy nest (drey) in a tree?",
+    "answer": "For shelter",
+    "choices": [
+     "To store water",
+     "To catch fish",
+     "For shelter",
+     "To hide from the sun only"
+    ]
+   },
+   {
+    "question": "What can happen to acorns a squirrel forgets?",
+    "answer": "They can grow into new oak trees",
+    "choices": [
+     "They turn into rocks",
+     "They disappear",
+     "They can grow into new oak trees",
+     "They become flowers"
+    ]
+   },
+   {
+    "question": "Why do gray squirrels bury acorns?",
+    "answer": "To store food for winter",
+    "choices": [
+     "To hide from owls",
+     "To plant a garden on purpose",
+     "To keep acorns warm",
+     "To store food for winter"
+    ]
+   },
+   {
+    "question": "Why do squirrels chew on bark and branches?",
+    "answer": "To keep their teeth worn down",
+    "choices": [
+     "To grow taller",
+     "To make music",
+     "To keep their teeth worn down",
+     "To find water only"
+    ]
+   },
+   {
+    "question": "How does a gray squirrel change the forest?",
+    "answer": "It buries nuts that sometimes grow into new trees",
+    "choices": [
+     "It makes ponds",
+     "It cuts down trees",
+     "It builds roads",
+     "It buries nuts that sometimes grow into new trees"
+    ]
+   },
+   {
+    "question": "What do gray squirrels bury in the fall?",
+    "answer": "Acorns and other nuts",
+    "choices": [
+     "Rocks",
+     "Leaves",
+     "Acorns and other nuts",
+     "Insects"
+    ]
+   },
+   {
+    "question": "What does a gray squirrel use to build its nest?",
+    "answer": "Twigs and leaves",
+    "choices": [
+     "Shells",
+     "Twigs and leaves",
+     "Mud and stones",
+     "Snow"
+    ]
+   },
+   {
+    "question": "How do gray squirrels help oak trees?",
+    "answer": "They plant acorns by burying them",
+    "choices": [
+     "They prune branches",
+     "They plant acorns by burying them",
+     "They protect them from fire",
+     "They water oak trees"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciEarthMat",
+  "subject": "science",
+  "title": "Earth materials: water, rocks and soil",
+  "section": "Earth's resources",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciEarthMat0",
+   "sciEarthMat1",
+   "sciEarthMat2"
+  ],
+  "examples": [
+   {
+    "question": "Which Earth material is described? Pebbles and boulders are pieces of it.",
+    "answer": "Rocks",
+    "choices": [
+     "Soil",
+     "Rocks",
+     "Water"
+    ]
+   },
+   {
+    "question": "Which Earth material is described? It is hard and can be used to build walls.",
+    "answer": "Rocks",
+    "choices": [
+     "Water",
+     "Soil",
+     "Rocks"
+    ]
+   },
+   {
+    "question": "Which Earth material is described? It falls from clouds as rain.",
+    "answer": "Water",
+    "choices": [
+     "Water",
+     "Rocks",
+     "Soil"
+    ]
+   },
+   {
+    "question": "Which Earth material is described? Plants grow in it.",
+    "answer": "Soil",
+    "choices": [
+     "Rocks",
+     "Water",
+     "Soil"
+    ]
+   },
+   {
+    "question": "Which Earth material is described? Worms dig through it.",
+    "answer": "Soil",
+    "choices": [
+     "Water",
+     "Rocks",
+     "Soil"
+    ]
+   },
+   {
+    "question": "Which Earth material is described? It is made of tiny bits of rock and dead plants.",
+    "answer": "Soil",
+    "choices": [
+     "Soil",
+     "Rocks",
+     "Water"
+    ]
+   },
+   {
+    "question": "Which Earth material is described? It flows in rivers and fills the oceans.",
+    "answer": "Water",
+    "choices": [
+     "Water",
+     "Rocks",
+     "Soil"
+    ]
+   },
+   {
+    "question": "Which Earth material is described? We drink it and plants need it.",
+    "answer": "Water",
+    "choices": [
+     "Water",
+     "Soil",
+     "Rocks"
+    ]
+   },
+   {
+    "question": "Which Earth material is described? Mountains are made of it.",
+    "answer": "Rocks",
+    "choices": [
+     "Soil",
+     "Rocks",
+     "Water"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciNatRes",
+  "subject": "science",
+  "title": "Natural resources",
+  "section": "Earth's resources",
+  "grades": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciNatRes0",
+   "sciNatRes1",
+   "sciNatRes2",
+   "sciNatRes3"
+  ],
+  "examples": [
+   {
+    "question": "Which natural resource is burned in many power plants?",
+    "answer": "Coal",
+    "choices": [
+     "Wood",
+     "Soil",
+     "Sunlight",
+     "Coal"
+    ]
+   },
+   {
+    "question": "What natural resource do we drink?",
+    "answer": "Water",
+    "choices": [
+     "Water",
+     "Coal",
+     "Wood",
+     "Soil"
+    ]
+   },
+   {
+    "question": "What natural resource do we get from trees to make paper?",
+    "answer": "Wood",
+    "choices": [
+     "Air",
+     "Wood",
+     "Soil",
+     "Sunlight"
+    ]
+   },
+   {
+    "question": "What natural resource gives us light and heat during the day?",
+    "answer": "Sunlight",
+    "choices": [
+     "Soil",
+     "Sunlight",
+     "Air",
+     "Coal"
+    ]
+   },
+   {
+    "question": "What natural resource do we breathe?",
+    "answer": "Air",
+    "choices": [
+     "Soil",
+     "Air",
+     "Coal",
+     "Sunlight"
+    ]
+   },
+   {
+    "question": "What natural resource do plants grow in?",
+    "answer": "Soil",
+    "choices": [
+     "Soil",
+     "Air",
+     "Wood",
+     "Coal"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWthr",
+  "subject": "science",
+  "title": "Describe the weather",
+  "section": "Weather",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsWthr0",
+   "sciXsWthr1"
+  ],
+  "examples": [
+   {
+    "question": "Which clothing is best for −15 °C and snowing?",
+    "answer": "A winter coat, hat and mittens",
+    "choices": [
+     "A winter coat, hat and mittens",
+     "Sandals",
+     "Shorts and a T-shirt",
+     "A swimsuit"
+    ]
+   },
+   {
+    "question": "It is 30 °C with no clouds. How would you describe it?",
+    "answer": "Hot and sunny",
+    "choices": [
+     "Cool and rainy",
+     "Freezing",
+     "Hot and sunny",
+     "Cold and snowy"
+    ]
+   },
+   {
+    "question": "What tool measures how much rain fell?",
+    "answer": "A rain gauge",
+    "choices": [
+     "A compass",
+     "A scale",
+     "A rain gauge",
+     "A thermometer"
+    ]
+   },
+   {
+    "question": "The air is thick and you can't see far. What is the weather?",
+    "answer": "Foggy",
+    "choices": [
+     "Foggy",
+     "Sunny",
+     "Hot and clear",
+     "Windy"
+    ]
+   },
+   {
+    "question": "💨 Trees are bending and leaves blow around. The weather is…",
+    "answer": "windy",
+    "choices": [
+     "sunny",
+     "calm",
+     "windy",
+     "snowy"
+    ]
+   },
+   {
+    "question": "What tool measures temperature?",
+    "answer": "A thermometer",
+    "choices": [
+     "A rain gauge",
+     "A wind sock",
+     "A thermometer",
+     "A ruler"
+    ]
+   },
+   {
+    "question": "The sky is grey and water is falling. How would you describe the weather?",
+    "answer": "Rainy",
+    "choices": [
+     "Snowy and windy",
+     "Rainy",
+     "Clear",
+     "Sunny"
+    ]
+   },
+   {
+    "question": "❄️ White flakes fall and cover the ground. The weather is…",
+    "answer": "snowy",
+    "choices": [
+     "sunny",
+     "rainy",
+     "hot",
+     "snowy"
+    ]
+   },
+   {
+    "question": "The flag is flapping hard and leaves are blowing. What is the weather like?",
+    "answer": "Windy",
+    "choices": [
+     "Calm",
+     "Foggy",
+     "Snowy",
+     "Windy"
+    ]
+   },
+   {
+    "question": "🌧️ Water drops fall from grey clouds. The weather is…",
+    "answer": "rainy",
+    "choices": [
+     "windy",
+     "rainy",
+     "sunny",
+     "snowy"
+    ]
+   },
+   {
+    "question": "☀️ The sky is clear and the sun is bright. The weather is…",
+    "answer": "sunny",
+    "choices": [
+     "foggy",
+     "sunny",
+     "snowy",
+     "rainy"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPrecip",
+  "subject": "science",
+  "title": "Types of precipitation",
+  "section": "Weather",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciPrecip0",
+   "sciPrecip1",
+   "sciPrecip2"
+  ],
+  "examples": [
+   {
+    "question": "What are balls of ice that fall during thunderstorms called?",
+    "answer": "Hail 🧊",
+    "choices": [
+     "Freezing rain",
+     "Hail 🧊",
+     "Snow ❄️",
+     "Rain 🌧️"
+    ]
+   },
+   {
+    "question": "What is liquid water falling from clouds called?",
+    "answer": "Rain 🌧️",
+    "choices": [
+     "Drizzle",
+     "Rain 🌧️",
+     "Hail 🧊",
+     "Sleet"
+    ]
+   },
+   {
+    "question": "What is rain that freezes when it hits cold ground called?",
+    "answer": "Freezing rain",
+    "choices": [
+     "Hail 🧊",
+     "Freezing rain",
+     "Rain 🌧️",
+     "Sleet"
+    ]
+   },
+   {
+    "question": "What is very light, fine rain called?",
+    "answer": "Drizzle",
+    "choices": [
+     "Rain 🌧️",
+     "Drizzle",
+     "Sleet",
+     "Hail 🧊"
+    ]
+   },
+   {
+    "question": "What is rain that freezes into ice pellets before landing called?",
+    "answer": "Sleet",
+    "choices": [
+     "Rain 🌧️",
+     "Drizzle",
+     "Hail 🧊",
+     "Sleet"
+    ]
+   },
+   {
+    "question": "What are ice crystals falling as flakes called?",
+    "answer": "Snow ❄️",
+    "choices": [
+     "Hail 🧊",
+     "Snow ❄️",
+     "Freezing rain",
+     "Sleet"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWthPat",
+  "subject": "science",
+  "title": "Weather patterns",
+  "section": "Weather",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsWthPat0",
+   "sciXsWthPat1"
+  ],
+  "examples": [
+   {
+    "question": "What weather pattern is common in spring?",
+    "answer": "Warming temperatures and rain showers",
+    "choices": [
+     "No rain at all",
+     "Warming temperatures and rain showers",
+     "The hottest days",
+     "Blizzards every day"
+    ]
+   },
+   {
+    "question": "In Canada, which season is usually the coldest?",
+    "answer": "Winter",
+    "choices": [
+     "Spring",
+     "Fall",
+     "Winter",
+     "Summer"
+    ]
+   },
+   {
+    "question": "Which season comes after winter?",
+    "answer": "Spring",
+    "choices": [
+     "Winter again",
+     "Spring",
+     "Summer",
+     "Fall"
+    ]
+   },
+   {
+    "question": "When are days longest in Canada?",
+    "answer": "Summer",
+    "choices": [
+     "Spring",
+     "Fall",
+     "Winter",
+     "Summer"
+    ]
+   },
+   {
+    "question": "In which season do many trees lose their leaves?",
+    "answer": "Fall",
+    "choices": [
+     "Fall",
+     "Summer",
+     "Spring",
+     "Winter only at night"
+    ]
+   },
+   {
+    "question": "Which season usually has the warmest weather?",
+    "answer": "Summer",
+    "choices": [
+     "Fall",
+     "Spring",
+     "Winter",
+     "Summer"
+    ]
+   },
+   {
+    "question": "In the morning it is cool; at noon it is warmer. What usually happens in the evening?",
+    "answer": "It gets cooler again",
+    "choices": [
+     "It gets cooler again",
+     "It gets much hotter",
+     "It always snows",
+     "It stays the same"
+    ]
+   },
+   {
+    "question": "What usually happens to temperatures from morning to afternoon on a sunny day?",
+    "answer": "They get warmer",
+    "choices": [
+     "They stay the same",
+     "They get warmer",
+     "They get colder",
+     "They drop below zero"
+    ]
+   },
+   {
+    "question": "When is it usually warmer: noon or midnight?",
+    "answer": "Noon",
+    "choices": [
+     "Midnight",
+     "Same",
+     "Neither",
+     "Noon"
+    ]
+   },
+   {
+    "question": "Why do people check the weather forecast?",
+    "answer": "To plan what to wear and do",
+    "choices": [
+     "To plan what to wear and do",
+     "To change the weather",
+     "To stop seasons",
+     "To make it rain"
+    ]
+   },
+   {
+    "question": "In which season is it usually coldest in Canada?",
+    "answer": "Winter",
+    "choices": [
+     "Spring",
+     "Winter",
+     "Summer",
+     "Fall"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBliz",
+  "subject": "science",
+  "title": "Severe weather: blizzards",
+  "section": "Weather",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsBliz0",
+   "sciXsBliz1"
+  ],
+  "examples": [
+   {
+    "question": "Why are blizzards dangerous?",
+    "answer": "Snow and wind make it hard to see and very cold",
+    "choices": [
+     "They cause floods of warm water",
+     "They are too sunny",
+     "They are always quiet",
+     "Snow and wind make it hard to see and very cold"
+    ]
+   },
+   {
+    "question": "Why is driving dangerous in a blizzard?",
+    "answer": "Drivers cannot see well and roads are icy",
+    "choices": [
+     "It is too sunny",
+     "Cars get too hot",
+     "Roads are dry",
+     "Drivers cannot see well and roads are icy"
+    ]
+   },
+   {
+    "question": "What is a whiteout?",
+    "answer": "When blowing snow makes it impossible to see",
+    "choices": [
+     "A white house",
+     "When blowing snow makes it impossible to see",
+     "A type of cloud in summer",
+     "A sunny snow day"
+    ]
+   },
+   {
+    "question": "How can people stay safe in a blizzard?",
+    "answer": "Stay indoors and keep warm",
+    "choices": [
+     "Drive fast",
+     "Stay indoors and keep warm",
+     "Go swimming",
+     "Go for a long walk"
+    ]
+   },
+   {
+    "question": "What can strong blizzard winds create?",
+    "answer": "Large snowdrifts",
+    "choices": [
+     "Heat waves",
+     "Large snowdrifts",
+     "Rainbows",
+     "Sand dunes"
+    ]
+   },
+   {
+    "question": "What is a blizzard?",
+    "answer": "A storm with heavy snow and strong winds",
+    "choices": [
+     "A gentle rain",
+     "A sunny, calm day",
+     "A hot, dry day",
+     "A storm with heavy snow and strong winds"
+    ]
+   },
+   {
+    "question": "How should you stay safe in a blizzard?",
+    "answer": "Stay indoors",
+    "choices": [
+     "Stay indoors",
+     "Go for a long walk",
+     "Drive fast",
+     "Go swimming"
+    ]
+   },
+   {
+    "question": "What is a blizzard?",
+    "answer": "A storm with heavy snow, strong winds and low visibility",
+    "choices": [
+     "A rainstorm in summer",
+     "A hot, dry wind",
+     "A sunny day",
+     "A storm with heavy snow, strong winds and low visibility"
+    ]
+   },
+   {
+    "question": "What should a home have ready for a blizzard?",
+    "answer": "Flashlights, food, water and blankets",
+    "choices": [
+     "Flashlights, food, water and blankets",
+     "Ice cream only",
+     "Sunscreen and swimsuits",
+     "Fans"
+    ]
+   },
+   {
+    "question": "Where are blizzards most common in Canada?",
+    "answer": "The prairies and the north",
+    "choices": [
+     "Nowhere",
+     "The prairies and the north",
+     "Only in Vancouver",
+     "Only in summer"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTorn",
+  "subject": "science",
+  "title": "Severe weather: tornadoes",
+  "section": "Weather",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsTorn0",
+   "sciXsTorn1"
+  ],
+  "examples": [
+   {
+    "question": "In which season are tornadoes most common in Canada?",
+    "answer": "Summer",
+    "choices": [
+     "Never",
+     "Only in January",
+     "Summer",
+     "Winter"
+    ]
+   },
+   {
+    "question": "Where is the safest place in a tornado?",
+    "answer": "A basement or inside room with no windows",
+    "choices": [
+     "Outside in a field",
+     "Near windows",
+     "A basement or inside room with no windows",
+     "In a car on the highway"
+    ]
+   },
+   {
+    "question": "What is a tornado?",
+    "answer": "A spinning column of air that touches the ground",
+    "choices": [
+     "An earthquake",
+     "A big snowstorm",
+     "A spinning column of air that touches the ground",
+     "A sunny day"
+    ]
+   },
+   {
+    "question": "What often comes before a tornado?",
+    "answer": "Dark clouds and a thunderstorm",
+    "choices": [
+     "Fog only",
+     "Snow",
+     "Clear blue skies",
+     "Dark clouds and a thunderstorm"
+    ]
+   },
+   {
+    "question": "What shape is a tornado?",
+    "answer": "A funnel",
+    "choices": [
+     "A flat sheet",
+     "A funnel",
+     "A square",
+     "A ball"
+    ]
+   },
+   {
+    "question": "What colour does the sky often turn before a tornado?",
+    "answer": "Dark greenish-grey",
+    "choices": [
+     "White",
+     "Bright pink",
+     "Clear blue",
+     "Dark greenish-grey"
+    ]
+   },
+   {
+    "question": "Where should you go during a tornado?",
+    "answer": "A basement or an inside room without windows",
+    "choices": [
+     "Next to a window",
+     "A basement or an inside room without windows",
+     "Under a tree",
+     "Outside to watch"
+    ]
+   },
+   {
+    "question": "What does a tornado warning mean?",
+    "answer": "A tornado has been seen or detected — take shelter now",
+    "choices": [
+     "The weather is nice",
+     "A tornado has been seen or detected — take shelter now",
+     "A hurricane is far away",
+     "It might snow"
+    ]
+   },
+   {
+    "question": "What kind of storm can make tornadoes?",
+    "answer": "Thunderstorms",
+    "choices": [
+     "Fog",
+     "Blizzards",
+     "Light drizzle",
+     "Thunderstorms"
+    ]
+   },
+   {
+    "question": "Why are tornadoes dangerous?",
+    "answer": "Their winds can destroy buildings",
+    "choices": [
+     "They are quiet",
+     "They last for weeks",
+     "Their winds can destroy buildings",
+     "They are very cold"
+    ]
+   },
+   {
+    "question": "Where do many tornadoes happen in Canada?",
+    "answer": "Southern Ontario and the prairies",
+    "choices": [
+     "Nunavut",
+     "Downtown Vancouver only",
+     "The Arctic Ocean",
+     "Southern Ontario and the prairies"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDaySky",
+  "subject": "science",
+  "title": "The daytime sky",
+  "section": "Astronomy",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsDaySky0",
+   "sciXsDaySky1"
+  ],
+  "examples": [
+   {
+    "question": "What is the brightest object in the daytime sky?",
+    "answer": "The sun",
+    "choices": [
+     "A star",
+     "The sun",
+     "The moon",
+     "A cloud"
+    ]
+   },
+   {
+    "question": "Can you sometimes see the Moon in the daytime?",
+    "answer": "Yes",
+    "choices": [
+     "No, never",
+     "Only underwater",
+     "Only in winter at noon",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Why can't we see most stars during the day?",
+    "answer": "The sun is too bright",
+    "choices": [
+     "The sun is too bright",
+     "Stars disappear",
+     "Clouds always cover them",
+     "Stars move away"
+    ]
+   },
+   {
+    "question": "Where is the sun in the sky at noon?",
+    "answer": "High in the sky",
+    "choices": [
+     "In the east, low",
+     "Below the horizon",
+     "High in the sky",
+     "In the west, low"
+    ]
+   },
+   {
+    "question": "Can you sometimes see the moon during the day?",
+    "answer": "Yes",
+    "choices": [
+     "Only in winter",
+     "Only at the beach",
+     "Yes",
+     "No, never"
+    ]
+   },
+   {
+    "question": "Why should you never look straight at the Sun?",
+    "answer": "It can hurt your eyes",
+    "choices": [
+     "It will disappear",
+     "It is too far away",
+     "It is cold",
+     "It can hurt your eyes"
+    ]
+   },
+   {
+    "question": "Why should you never look straight at the sun?",
+    "answer": "It can hurt your eyes",
+    "choices": [
+     "It makes clouds",
+     "It can hurt your eyes",
+     "It is too cold",
+     "It will disappear"
+    ]
+   },
+   {
+    "question": "What makes clouds move across the sky?",
+    "answer": "Wind",
+    "choices": [
+     "The sun",
+     "The moon",
+     "Birds",
+     "Wind"
+    ]
+   },
+   {
+    "question": "What is the brightest object in the daytime sky?",
+    "answer": "The Sun",
+    "choices": [
+     "The Moon",
+     "A star",
+     "The Sun",
+     "A cloud"
+    ]
+   },
+   {
+    "question": "Where does the sun rise?",
+    "answer": "In the east",
+    "choices": [
+     "In the east",
+     "Straight above",
+     "In the north",
+     "In the west"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsNtSky",
+  "subject": "science",
+  "title": "The night sky",
+  "section": "Astronomy",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsNtSky0",
+   "sciXsNtSky1"
+  ],
+  "examples": [
+   {
+    "question": "Why do stars look tiny?",
+    "answer": "They are very far away",
+    "choices": [
+     "They are close",
+     "They are very far away",
+     "They are very small",
+     "They are made of ice"
+    ]
+   },
+   {
+    "question": "What is a group of stars that makes a picture called?",
+    "answer": "A constellation",
+    "choices": [
+     "A comet",
+     "A planet",
+     "A constellation",
+     "A cloud"
+    ]
+   },
+   {
+    "question": "What can you see in the night sky?",
+    "answer": "The Moon and stars",
+    "choices": [
+     "Clouds lit by the Sun",
+     "The Moon and stars",
+     "Rainbows",
+     "The Sun"
+    ]
+   },
+   {
+    "question": "Why does the moon shine?",
+    "answer": "It reflects light from the sun",
+    "choices": [
+     "It is on fire",
+     "It makes its own light",
+     "It is made of light bulbs",
+     "It reflects light from the sun"
+    ]
+   },
+   {
+    "question": "Does the shape of the Moon seem to change over a month?",
+    "answer": "Yes",
+    "choices": [
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "question": "Does the moon always look the same shape?",
+    "answer": "No, its shape seems to change each night",
+    "choices": [
+     "It is square",
+     "No, its shape seems to change each night",
+     "It is always a crescent",
+     "Yes, always round"
+    ]
+   },
+   {
+    "question": "What is the Big Dipper?",
+    "answer": "A group of stars shaped like a ladle",
+    "choices": [
+     "A comet",
+     "A spoon on the moon",
+     "A group of stars shaped like a ladle",
+     "A planet"
+    ]
+   },
+   {
+    "question": "What can you see in a clear night sky?",
+    "answer": "The moon and stars",
+    "choices": [
+     "Blue sky",
+     "Rainbows",
+     "The moon and stars",
+     "The sun"
+    ]
+   },
+   {
+    "question": "What looks like a bright star but doesn't twinkle as much?",
+    "answer": "A planet",
+    "choices": [
+     "An airplane on the ground",
+     "The sun",
+     "A cloud",
+     "A planet"
+    ]
+   },
+   {
+    "question": "Why do stars look so small?",
+    "answer": "They are very far away",
+    "choices": [
+     "They are made of ice",
+     "They are close to Earth",
+     "They are very far away",
+     "They are tiny pebbles"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSunshade",
+  "subject": "science",
+  "title": "Design a sunshade",
+  "section": "Engineering practices",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "sciXsSunshade1"
+  ],
+  "examples": [
+   {
+    "question": "What should a good sunshade do?",
+    "answer": "Block sunlight to make shade",
+    "choices": [
+     "Make the area hotter",
+     "Let all the light through",
+     "Block sunlight to make shade",
+     "Make noise"
+    ]
+   },
+   {
+    "question": "Which material makes the best sunshade?",
+    "answer": "Thick cloth",
+    "choices": [
+     "Clear plastic wrap",
+     "Tissue paper",
+     "Thick cloth",
+     "Glass"
+    ]
+   },
+   {
+    "question": "Which material makes the best sunshade to keep a sandbox cool?",
+    "answer": "A thick, light-coloured cloth",
+    "choices": [
+     "A thin net",
+     "A thick, light-coloured cloth",
+     "A sheet of glass",
+     "Clear plastic wrap"
+    ]
+   },
+   {
+    "question": "Where should you put a sunshade to shade a sandbox at noon?",
+    "answer": "Above the sandbox",
+    "choices": [
+     "Far to the side",
+     "Under the sandbox",
+     "Above the sandbox",
+     "Behind a tree far away"
+    ]
+   },
+   {
+    "question": "Which sunshade gives the most shade?",
+    "answer": "A big, wide one",
+    "choices": [
+     "A big, wide one",
+     "A see-through one",
+     "One with holes",
+     "A tiny one"
+    ]
+   },
+   {
+    "question": "Why would a sunshade need strong poles?",
+    "answer": "So wind doesn't blow it over",
+    "choices": [
+     "So it looks taller",
+     "So wind doesn't blow it over",
+     "It doesn't need them",
+     "So it is heavier to carry"
+    ]
+   },
+   {
+    "question": "How can you test which sunshade works best?",
+    "answer": "Measure the temperature under each one",
+    "choices": [
+     "Guess",
+     "Look at the colour",
+     "Measure the temperature under each one",
+     "Smell them"
+    ]
+   },
+   {
+    "question": "How could you test which sunshade works best?",
+    "answer": "Measure the temperature under each shade",
+    "choices": [
+     "Ask which is prettiest",
+     "Measure the temperature under each shade",
+     "Use no shade at all",
+     "Guess by looking at the colour"
+    ]
+   },
+   {
+    "question": "Why does a white sunshade stay cooler than a black one?",
+    "answer": "White reflects more sunlight",
+    "choices": [
+     "White is thinner",
+     "White is wet",
+     "Black is see-through",
+     "White reflects more sunlight"
+    ]
+   },
+   {
+    "question": "Your sunshade blows away. How can you improve it?",
+    "answer": "Tie it down or add weights",
+    "choices": [
+     "Tie it down or add weights",
+     "Make it lighter",
+     "Use paper",
+     "Remove the poles"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCompare",
+  "subject": "science",
+  "title": "Comparing: long and short, light and heavy, hot and cold, fast and slow",
+  "section": "Materials",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "sciCompare1"
+  ],
+  "examples": [
+   {
+    "question": "Which is colder?",
+    "answer": "⛄ a snowman",
+    "choices": [
+     "⛄ a snowman",
+     "☀️ the sun"
+    ]
+   },
+   {
+    "question": "Which is hotter?",
+    "answer": "🔥 a campfire",
+    "choices": [
+     "🔥 a campfire",
+     "🧊 an ice cube"
+    ]
+   },
+   {
+    "question": "Which is slower?",
+    "answer": "🐌 a snail",
+    "choices": [
+     "🐌 a snail",
+     "🐇 a rabbit"
+    ]
+   },
+   {
+    "question": "Which is shorter?",
+    "answer": "✏️ a pencil",
+    "choices": [
+     "🛤️ a train track",
+     "✏️ a pencil"
+    ]
+   },
+   {
+    "question": "Which is lighter?",
+    "answer": "🪶 a feather",
+    "choices": [
+     "🪶 a feather",
+     "🧱 a brick"
+    ]
+   },
+   {
+    "question": "Which is heavier?",
+    "answer": "🐘 an elephant",
+    "choices": [
+     "🐁 a mouse",
+     "🐘 an elephant"
+    ]
+   },
+   {
+    "question": "Which is faster?",
+    "answer": "🐆 a cheetah",
+    "choices": [
+     "🐆 a cheetah",
+     "🐢 a turtle"
+    ]
+   },
+   {
+    "question": "Which is longer?",
+    "answer": "🐍 a snake",
+    "choices": [
+     "🐍 a snake",
+     "🐛 a caterpillar"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSolLiq",
+  "subject": "science",
+  "title": "Classify solids and liquids",
+  "section": "States of matter",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "sciSolLiq1"
+  ],
+  "examples": [
+   {
+    "question": "Is a spoon a solid or a liquid?",
+    "answer": "Solid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is soup a solid or a liquid?",
+    "answer": "Liquid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is juice a solid or a liquid?",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is rain a solid or a liquid?",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is a shoe a solid or a liquid?",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is a rock a solid or a liquid?",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is a book a solid or a liquid?",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is shampoo a solid or a liquid?",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is milk a solid or a liquid?",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is an ice cube a solid or a liquid?",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is a crayon a solid or a liquid?",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is honey a solid or a liquid?",
+    "answer": "Liquid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   }
+  ]
+ }
+]

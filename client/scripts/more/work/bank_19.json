@@ -1,0 +1,2744 @@
+[
+ {
+  "key": "sciXsSLGs",
+  "subject": "science",
+  "title": "Sort solids, liquids and gases",
+  "section": "States of matter",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsSLGs2",
+   "sciXsSLGs3"
+  ],
+  "examples": [
+   {
+    "question": "Which group does this belong in? 🎈 helium in a balloon",
+    "answer": "Gas",
+    "choices": [
+     "Solid",
+     "Liquid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Which group does this belong in? ☁️ oxygen we breathe",
+    "answer": "Gas",
+    "choices": [
+     "Liquid",
+     "Gas",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Which group does this belong in? 🧊 iceberg",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Which group does this belong in? 🌊 seawater",
+    "answer": "Liquid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Which group does this belong in? 🥫 soup",
+    "answer": "Liquid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Which group does this belong in? 🪵 log",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMAT",
+  "subject": "science",
+  "title": "Solid, liquid or gas?",
+  "section": "States of matter",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciMAT2"
+  ],
+  "examples": [
+   {
+    "question": "Is helium a solid, a liquid or a gas?",
+    "answer": "Gas",
+    "choices": [
+     "Liquid",
+     "Gas",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is rain a solid, a liquid or a gas?",
+    "answer": "Liquid",
+    "choices": [
+     "Solid",
+     "Gas",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is the air in a balloon a solid, a liquid or a gas?",
+    "answer": "Gas",
+    "choices": [
+     "Liquid",
+     "Gas",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is oxygen a solid, a liquid or a gas?",
+    "answer": "Gas",
+    "choices": [
+     "Solid",
+     "Liquid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Is an ice cube a solid, a liquid or a gas?",
+    "answer": "Solid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is a pencil a solid, a liquid or a gas?",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Is a wooden chair a solid, a liquid or a gas?",
+    "answer": "Solid",
+    "choices": [
+     "Gas",
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is a rock a solid, a liquid or a gas?",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Is steam a solid, a liquid or a gas?",
+    "answer": "Gas",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Is honey a solid, a liquid or a gas?",
+    "answer": "Liquid",
+    "choices": [
+     "Gas",
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is milk a solid, a liquid or a gas?",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Is orange juice a solid, a liquid or a gas?",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Gas",
+     "Solid"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCsLG",
+  "subject": "science",
+  "title": "Change-of-state diagrams: liquid and gas",
+  "section": "Changes of state",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsCsLG2"
+  ],
+  "examples": [
+   {
+    "question": "Wet laundry drying turns into water vapour . What is this change called?",
+    "answer": "evaporating",
+    "choices": [
+     "freezing",
+     "condensing",
+     "evaporating",
+     "melting"
+    ]
+   },
+   {
+    "question": "Dew forms on the grass on a cool morning. What is this change called?",
+    "answer": "condensing",
+    "choices": [
+     "condensing",
+     "melting",
+     "evaporating",
+     "freezing"
+    ]
+   },
+   {
+    "question": "Water in a pot turns into steam . What is this change called?",
+    "answer": "evaporating",
+    "choices": [
+     "condensing",
+     "melting",
+     "freezing",
+     "evaporating"
+    ]
+   },
+   {
+    "question": "A puddle on a hot day turns into water vapour . What is this change called?",
+    "answer": "evaporating",
+    "choices": [
+     "evaporating",
+     "freezing",
+     "condensing",
+     "melting"
+    ]
+   },
+   {
+    "question": "Water drops form on a cold glass. Which change is this?",
+    "answer": "Condensing",
+    "choices": [
+     "Evaporating",
+     "Condensing",
+     "Melting",
+     "Freezing"
+    ]
+   },
+   {
+    "question": "Water droplets form on the outside of a cold glass of lemonade. What is this change called?",
+    "answer": "condensing",
+    "choices": [
+     "melting",
+     "freezing",
+     "evaporating",
+     "condensing"
+    ]
+   },
+   {
+    "question": "Gas → liquid. What is this change called?",
+    "answer": "Condensing",
+    "choices": [
+     "Freezing",
+     "Evaporating",
+     "Melting",
+     "Condensing"
+    ]
+   },
+   {
+    "question": "Liquid → gas. What is this change called?",
+    "answer": "Evaporating",
+    "choices": [
+     "Melting",
+     "Condensing",
+     "Evaporating",
+     "Freezing"
+    ]
+   },
+   {
+    "question": "Soup boiling turns into steam . What is this change called?",
+    "answer": "evaporating",
+    "choices": [
+     "melting",
+     "freezing",
+     "evaporating",
+     "condensing"
+    ]
+   },
+   {
+    "question": "A mirror fogs up after a hot shower. What is this change called?",
+    "answer": "condensing",
+    "choices": [
+     "condensing",
+     "melting",
+     "freezing",
+     "evaporating"
+    ]
+   },
+   {
+    "question": "Your breath makes tiny drops on a cold window. What is this change called?",
+    "answer": "condensing",
+    "choices": [
+     "condensing",
+     "evaporating",
+     "melting",
+     "freezing"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsHCec",
+  "subject": "science",
+  "title": "Heating, cooling and changes of state: evaporating and condensing",
+  "section": "Changes of state",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsHCec2"
+  ],
+  "examples": [
+   {
+    "question": "To make a wet towel dry up (evaporate) faster, should you heat it or cool it?",
+    "answer": "Heat it",
+    "choices": [
+     "Heat it",
+     "Cool it"
+    ]
+   },
+   {
+    "question": "Water vapour turns into tiny drops on a can of cold pop . Does heating or cooling cause this?",
+    "answer": "Cooling",
+    "choices": [
+     "Cooling",
+     "Heating"
+    ]
+   },
+   {
+    "question": "To make wet paint dry up (evaporate) faster, should you heat it or cool it?",
+    "answer": "Heat it",
+    "choices": [
+     "Cool it",
+     "Heat it"
+    ]
+   },
+   {
+    "question": "Water vapour turns into tiny drops on cold grass at night . Does heating or cooling cause this?",
+    "answer": "Cooling",
+    "choices": [
+     "Heating",
+     "Cooling"
+    ]
+   },
+   {
+    "question": "To make water in a kettle dry up (evaporate) faster, should you heat it or cool it?",
+    "answer": "Heat it",
+    "choices": [
+     "Cool it",
+     "Heat it"
+    ]
+   },
+   {
+    "question": "Water vapour turns into tiny drops on a cold window . Does heating or cooling cause this?",
+    "answer": "Cooling",
+    "choices": [
+     "Heating",
+     "Cooling"
+    ]
+   },
+   {
+    "question": "To make a puddle dry up (evaporate) faster, should you heat it or cool it?",
+    "answer": "Heat it",
+    "choices": [
+     "Heat it",
+     "Cool it"
+    ]
+   },
+   {
+    "question": "A puddle disappears on a hot day. Was the water heated or cooled?",
+    "answer": "Heated",
+    "choices": [
+     "Heated",
+     "Cooled"
+    ]
+   },
+   {
+    "question": "Fog forms on a cold mirror after a shower. Was the water vapour heated or cooled?",
+    "answer": "Cooled",
+    "choices": [
+     "Cooled",
+     "Heated"
+    ]
+   },
+   {
+    "question": "Steam rises from boiling soup. Which change is this?",
+    "answer": "Evaporating",
+    "choices": [
+     "Freezing",
+     "Evaporating",
+     "Melting",
+     "Condensing"
+    ]
+   },
+   {
+    "question": "Water vapour turns into tiny drops on an icy mirror . Does heating or cooling cause this?",
+    "answer": "Cooling",
+    "choices": [
+     "Cooling",
+     "Heating"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMix",
+  "subject": "science",
+  "title": "Identify mixtures",
+  "section": "Mixtures",
+  "grades": [
+   2,
+   5,
+   8
+  ],
+  "skillIds": [
+   "sciXsMix2",
+   "sciXsMix5",
+   "sciXsMix8"
+  ],
+  "examples": [
+   {
+    "question": "Is this a mixture? 🪙 a pure gold nugget",
+    "answer": "Not a mixture",
+    "choices": [
+     "Not a mixture",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is this a mixture? 🥣 trail mix",
+    "answer": "Mixture",
+    "choices": [
+     "Not a mixture",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is this a mixture? 🏖️ sand and seashells",
+    "answer": "Mixture",
+    "choices": [
+     "Mixture",
+     "Not a mixture"
+    ]
+   },
+   {
+    "question": "Is this a mixture? 🧃 fruit punch",
+    "answer": "Mixture",
+    "choices": [
+     "Mixture",
+     "Not a mixture"
+    ]
+   },
+   {
+    "question": "Is this a mixture? 🥗 a salad",
+    "answer": "Mixture",
+    "choices": [
+     "Not a mixture",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is this a mixture? 💧 pure water",
+    "answer": "Not a mixture",
+    "choices": [
+     "Mixture",
+     "Not a mixture"
+    ]
+   },
+   {
+    "question": "Is this a mixture? 🌬️ air",
+    "answer": "Mixture",
+    "choices": [
+     "Not a mixture",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is this a mixture? 🧂 pure salt",
+    "answer": "Not a mixture",
+    "choices": [
+     "Mixture",
+     "Not a mixture"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPP",
+  "subject": "science",
+  "title": "Identify pushes and pulls",
+  "section": "Force and motion",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsPP22",
+   "sciXsPP23"
+  ],
+  "examples": [
+   {
+    "question": "Is this a push or a pull? Kicking a soccer ball",
+    "answer": "Push",
+    "choices": [
+     "Pull",
+     "Push"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Lifting a bag by its handle",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Throwing a ball",
+    "answer": "Push",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Pushing a stroller",
+    "answer": "Push",
+    "choices": [
+     "Pull",
+     "Push"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Opening a drawer",
+    "answer": "Pull",
+    "choices": [
+     "Pull",
+     "Push"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Towing a sled with a rope",
+    "answer": "Pull",
+    "choices": [
+     "Pull",
+     "Push"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMassF",
+  "subject": "science",
+  "title": "How do mass and force affect motion?",
+  "section": "Force and motion",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsMassF2",
+   "sciXsMassF3"
+  ],
+  "examples": [
+   {
+    "question": "How can you make a wagon go faster?",
+    "answer": "Pull it harder",
+    "choices": [
+     "Pull it softer",
+     "Pull it harder",
+     "Stop pulling",
+     "Add more rocks"
+    ]
+   },
+   {
+    "question": "You kick a soccer ball and a bowling ball with the same force. Which moves farther?",
+    "answer": "The soccer ball",
+    "choices": [
+     "Neither moves",
+     "The soccer ball",
+     "They move the same",
+     "The bowling ball"
+    ]
+   },
+   {
+    "question": "Two friends push the same sled. One pushes gently, one pushes hard. Which sled goes faster?",
+    "answer": "The one pushed hard",
+    "choices": [
+     "The one pushed hard",
+     "The one pushed gently",
+     "Neither",
+     "Both the same"
+    ]
+   },
+   {
+    "question": "The same push is given to an empty wagon and a full wagon. Which moves farther?",
+    "answer": "The empty wagon",
+    "choices": [
+     "The full wagon",
+     "The empty wagon",
+     "They move the same",
+     "Neither moves"
+    ]
+   },
+   {
+    "question": "Which needs the smallest push to move?",
+    "answer": "A ping-pong ball",
+    "choices": [
+     "A ping-pong ball",
+     "A car",
+     "A boulder",
+     "A fridge"
+    ]
+   },
+   {
+    "question": "Why is a heavy box hard to move?",
+    "answer": "It has a lot of mass",
+    "choices": [
+     "It has a lot of mass",
+     "It is very small",
+     "It is a bright colour",
+     "It is made of paper"
+    ]
+   },
+   {
+    "question": "Which needs a stronger push to move: a feather or a bowling ball?",
+    "answer": "A bowling ball",
+    "choices": [
+     "They need the same push",
+     "A feather",
+     "A bowling ball",
+     "Neither"
+    ]
+   },
+   {
+    "question": "Which is harder to push: an empty shopping cart or a full one?",
+    "answer": "A full one",
+    "choices": [
+     "Neither",
+     "An empty one",
+     "A full one",
+     "They are the same"
+    ]
+   },
+   {
+    "question": "What happens if you add more toys to a toy truck and push with the same force?",
+    "answer": "It moves slower",
+    "choices": [
+     "It flies",
+     "It moves faster",
+     "It moves the same",
+     "It moves slower"
+    ]
+   },
+   {
+    "question": "How can you make a ball roll faster?",
+    "answer": "Push it harder",
+    "choices": [
+     "Push it more gently",
+     "Put it on sand",
+     "Make it heavier",
+     "Push it harder"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMagAR",
+  "subject": "science",
+  "title": "How do magnets attract and repel each other?",
+  "section": "Magnets",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsMagAR2"
+  ],
+  "examples": [
+   {
+    "question": "What happens when two north poles face each other?",
+    "answer": "They repel (push apart)",
+    "choices": [
+     "Nothing happens",
+     "They attract",
+     "They stick tightly",
+     "They repel (push apart)"
+    ]
+   },
+   {
+    "question": "[ S | N ] [ N | S ] The two magnets are placed end to end as shown. Will they attract or repel?",
+    "answer": "Repel",
+    "choices": [
+     "Repel",
+     "Attract"
+    ]
+   },
+   {
+    "question": "What happens when a north pole faces a south pole?",
+    "answer": "They attract (pull together)",
+    "choices": [
+     "Nothing happens",
+     "They melt",
+     "They attract (pull together)",
+     "They repel (push apart)"
+    ]
+   },
+   {
+    "question": "[ N | S ] [ N | S ] The two magnets are placed end to end as shown. Will they attract or repel?",
+    "answer": "Attract",
+    "choices": [
+     "Attract",
+     "Repel"
+    ]
+   },
+   {
+    "question": "One magnet's south pole faces another magnet's south pole. What happens?",
+    "answer": "They repel (push apart)",
+    "choices": [
+     "They repel (push apart)",
+     "They attract (pull together)",
+     "Nothing happens"
+    ]
+   },
+   {
+    "question": "One magnet's north pole faces another magnet's north pole. What happens?",
+    "answer": "They repel (push apart)",
+    "choices": [
+     "They attract (pull together)",
+     "Nothing happens",
+     "They repel (push apart)"
+    ]
+   },
+   {
+    "question": "One magnet's south pole faces another magnet's north pole. What happens?",
+    "answer": "They attract (pull together)",
+    "choices": [
+     "They attract (pull together)",
+     "They repel (push apart)",
+     "Nothing happens"
+    ]
+   },
+   {
+    "question": "[ N | S ] [ S | N ] The two magnets are placed end to end as shown. Will they attract or repel?",
+    "answer": "Repel",
+    "choices": [
+     "Attract",
+     "Repel"
+    ]
+   },
+   {
+    "question": "[ S | N ] [ S | N ] The two magnets are placed end to end as shown. Will they attract or repel?",
+    "answer": "Attract",
+    "choices": [
+     "Repel",
+     "Attract"
+    ]
+   },
+   {
+    "question": "What happens when two south poles face each other?",
+    "answer": "They repel",
+    "choices": [
+     "They attract",
+     "They repel",
+     "They change colour",
+     "They lose magnetism"
+    ]
+   },
+   {
+    "question": "One magnet's north pole faces another magnet's south pole. What happens?",
+    "answer": "They attract (pull together)",
+    "choices": [
+     "They repel (push apart)",
+     "Nothing happens",
+     "They attract (pull together)"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMagAR",
+  "subject": "science",
+  "title": "Identify magnets that attract or repel",
+  "section": "Magnets",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciMagAR2",
+   "sciMagAR3",
+   "sciMagAR4"
+  ],
+  "examples": [
+   {
+    "question": "One magnet's south pole faces another magnet's south pole. What happens?",
+    "answer": "They repel (push apart)",
+    "choices": [
+     "Nothing happens",
+     "They repel (push apart)",
+     "They attract (pull together)"
+    ]
+   },
+   {
+    "question": "Two magnets are placed so that a N pole faces a S pole. Will they attract or repel?",
+    "answer": "Attract",
+    "choices": [
+     "Repel",
+     "Attract"
+    ]
+   },
+   {
+    "question": "Two magnets are placed so that a S pole faces a S pole. Will they attract or repel?",
+    "answer": "Repel",
+    "choices": [
+     "Attract",
+     "Repel"
+    ]
+   },
+   {
+    "question": "One magnet's south pole faces another magnet's north pole. What happens?",
+    "answer": "They attract (pull together)",
+    "choices": [
+     "Nothing happens",
+     "They repel (push apart)",
+     "They attract (pull together)"
+    ]
+   },
+   {
+    "question": "One magnet's north pole faces another magnet's south pole. What happens?",
+    "answer": "They attract (pull together)",
+    "choices": [
+     "They repel (push apart)",
+     "Nothing happens",
+     "They attract (pull together)"
+    ]
+   },
+   {
+    "question": "[ S | N ] [ N | S ] The two magnets are placed end to end as shown. Will they attract or repel?",
+    "answer": "Repel",
+    "choices": [
+     "Repel",
+     "Attract"
+    ]
+   },
+   {
+    "question": "Two magnets are placed so that a S pole faces a N pole. Will they attract or repel?",
+    "answer": "Attract",
+    "choices": [
+     "Repel",
+     "Attract"
+    ]
+   },
+   {
+    "question": "One magnet's north pole faces another magnet's north pole. What happens?",
+    "answer": "They repel (push apart)",
+    "choices": [
+     "Nothing happens",
+     "They attract (pull together)",
+     "They repel (push apart)"
+    ]
+   },
+   {
+    "question": "[ S | N ] [ S | N ] The two magnets are placed end to end as shown. Will they attract or repel?",
+    "answer": "Attract",
+    "choices": [
+     "Repel",
+     "Attract"
+    ]
+   },
+   {
+    "question": "[ N | S ] [ S | N ] The two magnets are placed end to end as shown. Will they attract or repel?",
+    "answer": "Repel",
+    "choices": [
+     "Repel",
+     "Attract"
+    ]
+   },
+   {
+    "question": "[ N | S ] [ N | S ] The two magnets are placed end to end as shown. Will they attract or repel?",
+    "answer": "Attract",
+    "choices": [
+     "Attract",
+     "Repel"
+    ]
+   },
+   {
+    "question": "Two magnets are placed so that a N pole faces a N pole. Will they attract or repel?",
+    "answer": "Repel",
+    "choices": [
+     "Repel",
+     "Attract"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMagUse",
+  "subject": "science",
+  "title": "Solve problems using magnets",
+  "section": "Magnets",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsMagUse2",
+   "sciXsMagUse3"
+  ],
+  "examples": [
+   {
+    "question": "How do magnetic letters stay on a whiteboard?",
+    "answer": "The board has steel inside",
+    "choices": [
+     "The board has steel inside",
+     "The board is wood",
+     "They float",
+     "They are glued"
+    ]
+   },
+   {
+    "question": "How can a magnet help sort coins from steel nails?",
+    "answer": "The magnet picks up the nails, not the coins",
+    "choices": [
+     "The magnet melts the nails",
+     "The magnet picks up the nails, not the coins",
+     "The magnet picks up only the coins",
+     "It sorts by colour"
+    ]
+   },
+   {
+    "question": "How could you pick up spilled paper clips quickly?",
+    "answer": "Use a magnet",
+    "choices": [
+     "Use a fan",
+     "Use a magnet",
+     "Use a sponge",
+     "Use tape on paper"
+    ]
+   },
+   {
+    "question": "A cabinet door keeps swinging open. How could a magnet help?",
+    "answer": "Use a magnetic latch to hold it shut",
+    "choices": [
+     "Use a magnetic latch to hold it shut",
+     "Remove the door handle",
+     "Paint the door",
+     "Use a feather"
+    ]
+   },
+   {
+    "question": "Why are magnets used on fridge doors?",
+    "answer": "To keep the door closed tightly",
+    "choices": [
+     "To keep food cold",
+     "To make noise",
+     "To keep the door closed tightly",
+     "To make light"
+    ]
+   },
+   {
+    "question": "How could you separate iron filings from sand?",
+    "answer": "Pull the iron filings out with a magnet",
+    "choices": [
+     "Pull the iron filings out with a magnet",
+     "Add water",
+     "Freeze it",
+     "Shake it"
+    ]
+   },
+   {
+    "question": "You dropped steel pins in the grass. What could help find them?",
+    "answer": "A magnet",
+    "choices": [
+     "A magnet",
+     "A plastic spoon",
+     "A sponge",
+     "A flashlight only"
+    ]
+   },
+   {
+    "question": "Which can a magnet NOT pick up?",
+    "answer": "A plastic button",
+    "choices": [
+     "A steel bottle cap",
+     "A steel paper clip",
+     "A plastic button",
+     "An iron nail"
+    ]
+   },
+   {
+    "question": "How could you keep a cabinet door closed?",
+    "answer": "Use a magnetic latch",
+    "choices": [
+     "Use a rubber band only",
+     "Use water",
+     "Use a paper clip glued to plastic",
+     "Use a magnetic latch"
+    ]
+   },
+   {
+    "question": "How can a magnet find a lost needle in a haystack?",
+    "answer": "It pulls the steel needle out",
+    "choices": [
+     "It pulls the steel needle out",
+     "It burns the hay",
+     "It makes the hay float",
+     "It changes the needle's colour"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsStatic",
+  "subject": "science",
+  "title": "Introduction to static electricity and charged objects",
+  "section": "Magnets",
+  "grades": [
+   2,
+   4,
+   6
+  ],
+  "skillIds": [
+   "sciXsStatic2",
+   "sciXsStatic4",
+   "sciXsStatic6"
+  ],
+  "examples": [
+   {
+    "question": "What happens when you rub a balloon on your hair?",
+    "answer": "It builds up static charge and can stick to a wall",
+    "choices": [
+     "It pops",
+     "Nothing happens",
+     "It gets heavier",
+     "It builds up static charge and can stick to a wall"
+    ]
+   },
+   {
+    "question": "Why does your hair stand up after you take off a wool hat?",
+    "answer": "The hairs have the same charge and push apart",
+    "choices": [
+     "The hat was too small",
+     "The hat was wet",
+     "The hairs have the same charge and push apart",
+     "Hair is magnetic"
+    ]
+   },
+   {
+    "question": "Why can you get a shock after walking on carpet?",
+    "answer": "Your body built up static charge",
+    "choices": [
+     "You are cold",
+     "Your body built up static charge",
+     "The carpet is magnetic",
+     "The doorknob is wet"
+    ]
+   },
+   {
+    "question": "What is lightning?",
+    "answer": "A giant spark of static electricity",
+    "choices": [
+     "Fire from a volcano",
+     "A shooting star",
+     "A giant spark of static electricity",
+     "Sunlight in a cloud"
+    ]
+   },
+   {
+    "question": "When is static electricity more common?",
+    "answer": "On cold, dry days",
+    "choices": [
+     "On hot, rainy days",
+     "Only at night",
+     "Underwater",
+     "On cold, dry days"
+    ]
+   },
+   {
+    "question": "You walk across a carpet and touch a doorknob. Why do you feel a shock?",
+    "answer": "Static charge jumps to the metal",
+    "choices": [
+     "The doorknob is hot",
+     "The door is magnetic",
+     "The carpet is wet",
+     "Static charge jumps to the metal"
+    ]
+   },
+   {
+    "question": "Why does a balloon rubbed on your hair stick to a wall?",
+    "answer": "It becomes electrically charged",
+    "choices": [
+     "It becomes magnetic",
+     "It gets heavier",
+     "It gets sticky glue",
+     "It becomes electrically charged"
+    ]
+   },
+   {
+    "question": "Objects with opposite charges…",
+    "answer": "attract",
+    "choices": [
+     "melt",
+     "attract",
+     "repel",
+     "do nothing"
+    ]
+   },
+   {
+    "question": "Objects with the same charge…",
+    "answer": "repel",
+    "choices": [
+     "light up",
+     "stick together",
+     "attract",
+     "repel"
+    ]
+   },
+   {
+    "question": "A charged comb can pick up…",
+    "answer": "small bits of paper",
+    "choices": [
+     "a heavy book",
+     "a metal car",
+     "small bits of paper",
+     "a glass of water"
+    ]
+   },
+   {
+    "question": "Two balloons are both rubbed on wool. What happens when you hold them close together?",
+    "answer": "They push apart",
+    "choices": [
+     "They stick together",
+     "They pop",
+     "Nothing happens",
+     "They push apart"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMAG",
+  "subject": "science",
+  "title": "Magnets",
+  "section": "Magnets",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciMAG2"
+  ],
+  "examples": [
+   {
+    "question": "Will a magnet stick to a steel screw ?",
+    "answer": "Attracted to a magnet",
+    "choices": [
+     "Not attracted",
+     "Attracted to a magnet"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to a steel paper clip ?",
+    "answer": "Attracted to a magnet",
+    "choices": [
+     "Attracted to a magnet",
+     "Not attracted"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to a plastic spoon ?",
+    "answer": "Not attracted",
+    "choices": [
+     "Not attracted",
+     "Attracted to a magnet"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to a cotton ball ?",
+    "answer": "Not attracted",
+    "choices": [
+     "Not attracted",
+     "Attracted to a magnet"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to a glass marble ?",
+    "answer": "Not attracted",
+    "choices": [
+     "Not attracted",
+     "Attracted to a magnet"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to a rubber band ?",
+    "answer": "Not attracted",
+    "choices": [
+     "Not attracted",
+     "Attracted to a magnet"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to an iron frying pan ?",
+    "answer": "Attracted to a magnet",
+    "choices": [
+     "Not attracted",
+     "Attracted to a magnet"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to an iron nail ?",
+    "answer": "Attracted to a magnet",
+    "choices": [
+     "Not attracted",
+     "Attracted to a magnet"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to aluminum foil ?",
+    "answer": "Not attracted",
+    "choices": [
+     "Attracted to a magnet",
+     "Not attracted"
+    ]
+   },
+   {
+    "question": "Will a magnet stick to a wooden pencil ?",
+    "answer": "Not attracted",
+    "choices": [
+     "Attracted to a magnet",
+     "Not attracted"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBack",
+  "subject": "science",
+  "title": "Identify animals with and without backbones",
+  "section": "Classification",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsBack2"
+  ],
+  "examples": [
+   {
+    "question": "Does this animal have a backbone? 🦋 butterfly",
+    "answer": "No backbone",
+    "choices": [
+     "No backbone",
+     "Has a backbone"
+    ]
+   },
+   {
+    "question": "Does this animal have a backbone? 🐕 dog",
+    "answer": "Has a backbone",
+    "choices": [
+     "Has a backbone",
+     "No backbone"
+    ]
+   },
+   {
+    "question": "Does this animal have a backbone? 🐦 robin",
+    "answer": "Has a backbone",
+    "choices": [
+     "No backbone",
+     "Has a backbone"
+    ]
+   },
+   {
+    "question": "Does this animal have a backbone? 🐙 octopus",
+    "answer": "No backbone",
+    "choices": [
+     "No backbone",
+     "Has a backbone"
+    ]
+   },
+   {
+    "question": "Does this animal have a backbone? 🐟 fish",
+    "answer": "Has a backbone",
+    "choices": [
+     "No backbone",
+     "Has a backbone"
+    ]
+   },
+   {
+    "question": "Does this animal have a backbone? 🕷️ spider",
+    "answer": "No backbone",
+    "choices": [
+     "Has a backbone",
+     "No backbone"
+    ]
+   },
+   {
+    "question": "Does this animal have a backbone? 🐛 worm",
+    "answer": "No backbone",
+    "choices": [
+     "No backbone",
+     "Has a backbone"
+    ]
+   },
+   {
+    "question": "Does this animal have a backbone? 🐍 snake",
+    "answer": "Has a backbone",
+    "choices": [
+     "Has a backbone",
+     "No backbone"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLCread",
+  "subject": "science",
+  "title": "Read animal life cycle diagrams",
+  "section": "Animals",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsLCread2"
+  ],
+  "examples": [
+   {
+    "question": "In the life cycle of a butterfly, what stage comes right after egg ?",
+    "answer": "caterpillar (larva)",
+    "choices": [
+     "chrysalis (pupa)",
+     "adult butterfly",
+     "caterpillar (larva)"
+    ]
+   },
+   {
+    "question": "In the life cycle of a butterfly, what stage comes right after chrysalis (pupa) ?",
+    "answer": "adult butterfly",
+    "choices": [
+     "caterpillar (larva)",
+     "egg",
+     "adult butterfly"
+    ]
+   },
+   {
+    "question": "In the life cycle of a ladybug, what stage comes right after egg ?",
+    "answer": "larva",
+    "choices": [
+     "larva",
+     "adult ladybug",
+     "pupa"
+    ]
+   },
+   {
+    "question": "In the life cycle of a ladybug, what stage comes right after pupa ?",
+    "answer": "adult ladybug",
+    "choices": [
+     "larva",
+     "adult ladybug",
+     "egg"
+    ]
+   },
+   {
+    "question": "In the life cycle of a chicken, what stage comes right after chick ?",
+    "answer": "young chicken",
+    "choices": [
+     "young chicken",
+     "egg",
+     "adult chicken"
+    ]
+   },
+   {
+    "question": "In the life cycle of a chicken, what stage comes right after egg ?",
+    "answer": "chick",
+    "choices": [
+     "chick",
+     "adult chicken",
+     "young chicken"
+    ]
+   },
+   {
+    "question": "In the life cycle of a frog, what stage comes right after froglet ?",
+    "answer": "adult frog",
+    "choices": [
+     "egg",
+     "tadpole",
+     "adult frog"
+    ]
+   },
+   {
+    "question": "In the life cycle of a ladybug, what stage comes right after larva ?",
+    "answer": "pupa",
+    "choices": [
+     "adult ladybug",
+     "pupa",
+     "egg"
+    ]
+   },
+   {
+    "question": "In the life cycle of a frog, what stage comes right after egg ?",
+    "answer": "tadpole",
+    "choices": [
+     "tadpole",
+     "froglet",
+     "adult frog"
+    ]
+   },
+   {
+    "question": "In the life cycle of a butterfly, what stage comes right after caterpillar (larva) ?",
+    "answer": "chrysalis (pupa)",
+    "choices": [
+     "adult butterfly",
+     "chrysalis (pupa)",
+     "egg"
+    ]
+   },
+   {
+    "question": "In the life cycle of a chicken, what stage comes right after young chicken ?",
+    "answer": "adult chicken",
+    "choices": [
+     "chick",
+     "adult chicken",
+     "egg"
+    ]
+   },
+   {
+    "question": "In the life cycle of a frog, what stage comes right after tadpole ?",
+    "answer": "froglet",
+    "choices": [
+     "egg",
+     "adult frog",
+     "froglet"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsHumm",
+  "subject": "science",
+  "title": "Pollinator: ruby-throated hummingbird",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsHumm2",
+   "sciXsHumm3"
+  ],
+  "examples": [
+   {
+    "question": "Why can a hummingbird hover in front of a flower?",
+    "answer": "It beats its wings very fast",
+    "choices": [
+     "It floats on air like a balloon",
+     "It beats its wings very fast",
+     "It holds onto the stem",
+     "It has very big wings"
+    ]
+   },
+   {
+    "question": "Which body part helps the hummingbird reach nectar?",
+    "answer": "Its long, thin beak",
+    "choices": [
+     "Its feet",
+     "Its eyes",
+     "Its long, thin beak",
+     "Its tail"
+    ]
+   },
+   {
+    "question": "Where does pollen stick on a hummingbird?",
+    "answer": "On its head and beak",
+    "choices": [
+     "Inside its stomach",
+     "On its head and beak",
+     "On its eggs",
+     "On its feet only"
+    ]
+   },
+   {
+    "question": "What does the hummingbird drink from flowers?",
+    "answer": "Nectar",
+    "choices": [
+     "Water",
+     "Nectar",
+     "Sap",
+     "Milk"
+    ]
+   },
+   {
+    "question": "How does a hummingbird's long, thin beak help it?",
+    "answer": "It reaches deep into flowers",
+    "choices": [
+     "It reaches deep into flowers",
+     "It cracks nuts",
+     "It digs holes",
+     "It catches fish"
+    ]
+   },
+   {
+    "question": "What does a ruby-throated hummingbird drink from flowers?",
+    "answer": "Nectar",
+    "choices": [
+     "Nectar",
+     "Milk",
+     "Sap from logs",
+     "Water from roots"
+    ]
+   },
+   {
+    "question": "Where do ruby-throated hummingbirds go in winter?",
+    "answer": "South to Central America",
+    "choices": [
+     "They live in the ocean",
+     "South to Central America",
+     "They hibernate in caves",
+     "They stay in Canada under the snow"
+    ]
+   },
+   {
+    "question": "How does a hummingbird help flowers?",
+    "answer": "It carries pollen from flower to flower",
+    "choices": [
+     "It digs up the roots",
+     "It eats the petals",
+     "It waters them",
+     "It carries pollen from flower to flower"
+    ]
+   },
+   {
+    "question": "What colour flowers do hummingbirds like best?",
+    "answer": "Red and orange",
+    "choices": [
+     "Brown",
+     "White only",
+     "Black",
+     "Red and orange"
+    ]
+   },
+   {
+    "question": "How does the ruby-throated hummingbird help flowers?",
+    "answer": "It carries pollen from flower to flower",
+    "choices": [
+     "It waters the flowers",
+     "It plants seeds",
+     "It eats the flowers",
+     "It carries pollen from flower to flower"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFox",
+  "subject": "science",
+  "title": "Pollinator: Indian flying fox",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsFox2",
+   "sciXsFox3"
+  ],
+  "examples": [
+   {
+    "question": "When does an Indian flying fox feed?",
+    "answer": "At night",
+    "choices": [
+     "Only at noon",
+     "Only in winter",
+     "Never",
+     "At night"
+    ]
+   },
+   {
+    "question": "How does the Indian flying fox pollinate flowers?",
+    "answer": "Pollen sticks to its fur as it feeds",
+    "choices": [
+     "It digs up seeds",
+     "It eats the leaves",
+     "It waters the plants",
+     "Pollen sticks to its fur as it feeds"
+    ]
+   },
+   {
+    "question": "How does a flying fox pollinate plants?",
+    "answer": "Pollen sticks to its fur as it feeds on flowers",
+    "choices": [
+     "It plants seeds with its feet",
+     "It eats the roots",
+     "It waters flowers",
+     "Pollen sticks to its fur as it feeds on flowers"
+    ]
+   },
+   {
+    "question": "What is the Indian flying fox?",
+    "answer": "A large fruit bat",
+    "choices": [
+     "A butterfly",
+     "A bird",
+     "A kind of fox",
+     "A large fruit bat"
+    ]
+   },
+   {
+    "question": "When does the Indian flying fox feed?",
+    "answer": "At night",
+    "choices": [
+     "At night",
+     "At noon",
+     "Only in winter",
+     "Never"
+    ]
+   },
+   {
+    "question": "What does a flying fox eat?",
+    "answer": "Fruit and nectar",
+    "choices": [
+     "Grass",
+     "Fruit and nectar",
+     "Fish",
+     "Mice"
+    ]
+   },
+   {
+    "question": "Where does a flying fox rest during the day?",
+    "answer": "Hanging upside down in trees",
+    "choices": [
+     "In a nest on the ground",
+     "In the water",
+     "Hanging upside down in trees",
+     "In a burrow"
+    ]
+   },
+   {
+    "question": "Why are flowers pollinated by bats often pale?",
+    "answer": "Pale flowers are easier to see at night",
+    "choices": [
+     "Bats are colour-blind to white",
+     "Pale flowers are easier to see at night",
+     "Bats like bright red",
+     "Pale flowers taste sweeter"
+    ]
+   },
+   {
+    "question": "How does a flying fox help spread seeds?",
+    "answer": "It drops seeds from the fruit it eats in new places",
+    "choices": [
+     "It plants trees with its nose",
+     "It buries acorns",
+     "It drops seeds from the fruit it eats in new places",
+     "It doesn't eat fruit"
+    ]
+   },
+   {
+    "question": "What is an Indian flying fox?",
+    "answer": "A large fruit bat",
+    "choices": [
+     "A fox that flies",
+     "A large fruit bat",
+     "An insect",
+     "A bird"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsButt",
+  "subject": "science",
+  "title": "Pollinator: painted lady butterfly",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsButt2",
+   "sciXsButt3"
+  ],
+  "examples": [
+   {
+    "question": "What does a painted lady butterfly drink?",
+    "answer": "Nectar from flowers",
+    "choices": [
+     "Nectar from flowers",
+     "Milk",
+     "Tree sap only",
+     "Pond water only"
+    ]
+   },
+   {
+    "question": "Painted ladies travel long distances each year. This is called…",
+    "answer": "migration",
+    "choices": [
+     "migration",
+     "hibernation",
+     "pollination",
+     "camouflage"
+    ]
+   },
+   {
+    "question": "Where does a painted lady lay its eggs?",
+    "answer": "On leaves of plants the caterpillars can eat",
+    "choices": [
+     "In water",
+     "In a bird's nest",
+     "In the sand",
+     "On leaves of plants the caterpillars can eat"
+    ]
+   },
+   {
+    "question": "Why do butterflies visit many flowers?",
+    "answer": "They need lots of nectar, and pollen spreads as they go",
+    "choices": [
+     "They are planting seeds",
+     "They need lots of nectar, and pollen spreads as they go",
+     "They are lost",
+     "They are sleeping"
+    ]
+   },
+   {
+    "question": "How does a painted lady help plants?",
+    "answer": "It carries pollen between flowers",
+    "choices": [
+     "It digs up soil",
+     "It eats the leaves",
+     "It waters plants",
+     "It carries pollen between flowers"
+    ]
+   },
+   {
+    "question": "What is the second stage of a butterfly's life cycle?",
+    "answer": "Caterpillar (larva)",
+    "choices": [
+     "Adult",
+     "Caterpillar (larva)",
+     "Chrysalis",
+     "Egg"
+    ]
+   },
+   {
+    "question": "How does the painted lady butterfly help plants?",
+    "answer": "It carries pollen between flowers",
+    "choices": [
+     "It digs holes",
+     "It carries pollen between flowers",
+     "It spreads seeds by burying them",
+     "It eats roots"
+    ]
+   },
+   {
+    "question": "Which body part does a butterfly use to drink nectar?",
+    "answer": "Its long, straw-like proboscis",
+    "choices": [
+     "Its wings",
+     "Its legs",
+     "Its long, straw-like proboscis",
+     "Its antennae"
+    ]
+   },
+   {
+    "question": "What body part does a butterfly use to drink?",
+    "answer": "A long tube called a proboscis",
+    "choices": [
+     "Its wings",
+     "Its antennae",
+     "A long tube called a proboscis",
+     "Its legs"
+    ]
+   },
+   {
+    "question": "What do butterflies drink?",
+    "answer": "Nectar",
+    "choices": [
+     "Milk",
+     "Nectar",
+     "Sap",
+     "Seawater"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSqrl",
+  "subject": "science",
+  "title": "Seed disperser: Eurasian red squirrel",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsSqrl2",
+   "sciXsSqrl3"
+  ],
+  "examples": [
+   {
+    "question": "Where do red squirrels live?",
+    "answer": "In forests",
+    "choices": [
+     "In forests",
+     "In deserts",
+     "In the ocean",
+     "On ice"
+    ]
+   },
+   {
+    "question": "Why do red squirrels bury food?",
+    "answer": "To save it for winter",
+    "choices": [
+     "To keep it warm",
+     "To grow a garden on purpose",
+     "To save it for winter",
+     "To hide from birds"
+    ]
+   },
+   {
+    "question": "Where does the red squirrel live?",
+    "answer": "In forests",
+    "choices": [
+     "In forests",
+     "In the ocean",
+     "In the Arctic sea",
+     "In a desert"
+    ]
+   },
+   {
+    "question": "How do a squirrel's strong front teeth help it?",
+    "answer": "They crack open hard nuts",
+    "choices": [
+     "They dig tunnels",
+     "They crack open hard nuts",
+     "They make silk",
+     "They catch fish"
+    ]
+   },
+   {
+    "question": "What helps a red squirrel balance in trees?",
+    "answer": "Its bushy tail",
+    "choices": [
+     "Its whiskers",
+     "Its bushy tail",
+     "Its claws only",
+     "Its ears"
+    ]
+   },
+   {
+    "question": "How does a Eurasian red squirrel spread seeds?",
+    "answer": "It buries nuts and seeds and forgets some, which grow into trees",
+    "choices": [
+     "It drops seeds in the ocean",
+     "It buries nuts and seeds and forgets some, which grow into trees",
+     "It eats every seed",
+     "It plants seeds in rows"
+    ]
+   },
+   {
+    "question": "What does the red squirrel store for winter?",
+    "answer": "Nuts and seeds",
+    "choices": [
+     "Water",
+     "Nuts and seeds",
+     "Leaves",
+     "Flowers"
+    ]
+   },
+   {
+    "question": "How does the Eurasian red squirrel help plants spread?",
+    "answer": "It buries seeds and nuts and forgets some, which grow into new plants",
+    "choices": [
+     "It buries seeds and nuts and forgets some, which grow into new plants",
+     "It carries pollen",
+     "It eats the leaves",
+     "It waters the trees"
+    ]
+   },
+   {
+    "question": "How does a squirrel help a forest?",
+    "answer": "Some buried seeds grow into new trees",
+    "choices": [
+     "It eats all the leaves",
+     "It digs up roots",
+     "It cuts down trees",
+     "Some buried seeds grow into new trees"
+    ]
+   },
+   {
+    "question": "What kind of seeds do red squirrels carry?",
+    "answer": "Pine cone seeds and nuts",
+    "choices": [
+     "Rice",
+     "Coconuts",
+     "Pine cone seeds and nuts",
+     "Strawberry seeds only"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsElep",
+  "subject": "science",
+  "title": "Seed disperser: African elephant",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsElep2",
+   "sciXsElep3"
+  ],
+  "examples": [
+   {
+    "question": "What do African elephants eat that contains seeds?",
+    "answer": "Fruit",
+    "choices": [
+     "Fruit",
+     "Insects",
+     "Rocks",
+     "Fish"
+    ]
+   },
+   {
+    "question": "How does an African elephant spread seeds?",
+    "answer": "Seeds pass through its body and come out in its dung far away",
+    "choices": [
+     "Seeds pass through its body and come out in its dung far away",
+     "It buries them",
+     "It plants them with its trunk",
+     "It throws them"
+    ]
+   },
+   {
+    "question": "How far can elephants carry seeds?",
+    "answer": "Many kilometres",
+    "choices": [
+     "Only a few centimetres",
+     "Many kilometres",
+     "They never move",
+     "Only across a pond"
+    ]
+   },
+   {
+    "question": "What does an African elephant eat?",
+    "answer": "Fruit, leaves, bark and grass",
+    "choices": [
+     "Fish",
+     "Fruit, leaves, bark and grass",
+     "Insects only",
+     "Meat"
+    ]
+   },
+   {
+    "question": "Why are elephants called \"gardeners of the forest\"?",
+    "answer": "They spread the seeds of many trees",
+    "choices": [
+     "They spread the seeds of many trees",
+     "They water plants",
+     "They mow the grass",
+     "They pick weeds"
+    ]
+   },
+   {
+    "question": "Some tree seeds only sprout after passing through an elephant. What would happen if elephants disappeared?",
+    "answer": "Fewer of those trees would grow",
+    "choices": [
+     "Nothing would change",
+     "Fewer of those trees would grow",
+     "More of those trees would grow",
+     "Trees would grow faster"
+    ]
+   },
+   {
+    "question": "Which body part does an elephant use to pick fruit?",
+    "answer": "Its trunk",
+    "choices": [
+     "Its tail",
+     "Its tusks only",
+     "Its ears",
+     "Its trunk"
+    ]
+   },
+   {
+    "question": "Why does it help a plant when its seeds are carried far away?",
+    "answer": "The new plants won't crowd the parent plant",
+    "choices": [
+     "The seeds lose their shells",
+     "The new plants won't crowd the parent plant",
+     "The seeds get colder",
+     "It doesn't help"
+    ]
+   },
+   {
+    "question": "Why do seeds in elephant dung grow well?",
+    "answer": "The dung gives them nutrients",
+    "choices": [
+     "It keeps them frozen",
+     "It hides them from rain",
+     "It makes them float",
+     "The dung gives them nutrients"
+    ]
+   },
+   {
+    "question": "How does the African elephant spread seeds?",
+    "answer": "It eats fruit and drops the seeds far away in its dung",
+    "choices": [
+     "It plants seeds with its trunk",
+     "It eats fruit and drops the seeds far away in its dung",
+     "It carries pollen",
+     "It blows seeds with its ears"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsOstr",
+  "subject": "science",
+  "title": "Seed disperser: common ostrich",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsOstr2",
+   "sciXsOstr3"
+  ],
+  "examples": [
+   {
+    "question": "How do strong legs help an ostrich spread seeds?",
+    "answer": "It walks long distances",
+    "choices": [
+     "It climbs trees",
+     "It digs holes",
+     "It walks long distances",
+     "It kicks seeds into the air"
+    ]
+   },
+   {
+    "question": "Can ostriches fly?",
+    "answer": "No, but they run very fast",
+    "choices": [
+     "No, but they run very fast",
+     "Only at night",
+     "Only short distances over water",
+     "Yes, very high"
+    ]
+   },
+   {
+    "question": "What is special about ostrich eggs?",
+    "answer": "They are the largest eggs of any bird",
+    "choices": [
+     "They are the largest eggs of any bird",
+     "They are smaller than a chicken's",
+     "They are blue",
+     "They float"
+    ]
+   },
+   {
+    "question": "Where do ostriches live?",
+    "answer": "On African savannas and deserts",
+    "choices": [
+     "On African savannas and deserts",
+     "In the ocean",
+     "In rainforest treetops",
+     "In the Arctic"
+    ]
+   },
+   {
+    "question": "What does an ostrich eat?",
+    "answer": "Plants, seeds and some insects",
+    "choices": [
+     "Only meat",
+     "Plants, seeds and some insects",
+     "Only fish",
+     "Only grass"
+    ]
+   },
+   {
+    "question": "Why does an ostrich swallow small stones?",
+    "answer": "To help grind up food in its stomach",
+    "choices": [
+     "To play",
+     "To make itself heavier",
+     "To build a nest",
+     "To help grind up food in its stomach"
+    ]
+   },
+   {
+    "question": "How does the common ostrich spread seeds?",
+    "answer": "It eats fruits and seeds and leaves them in its droppings as it travels",
+    "choices": [
+     "It carries pollen",
+     "It eats fruits and seeds and leaves them in its droppings as it travels",
+     "It buries eggs",
+     "It plants seeds with its feet"
+    ]
+   },
+   {
+    "question": "Where does the ostrich live?",
+    "answer": "In African grasslands and deserts",
+    "choices": [
+     "In African grasslands and deserts",
+     "In rainforest trees",
+     "In the Arctic",
+     "In the ocean"
+    ]
+   },
+   {
+    "question": "Can an ostrich fly?",
+    "answer": "No, but it can run very fast",
+    "choices": [
+     "Yes, but only at night",
+     "Yes, very high",
+     "Only short hops",
+     "No, but it can run very fast"
+    ]
+   },
+   {
+    "question": "How does a common ostrich help spread seeds?",
+    "answer": "It eats fruit and drops the seeds in its droppings",
+    "choices": [
+     "It flies seeds to new places",
+     "It plants seeds in rows",
+     "It throws seeds",
+     "It eats fruit and drops the seeds in its droppings"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBodyF",
+  "subject": "science",
+  "title": "Body parts and their functions",
+  "section": "Animals",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsBodyF2"
+  ],
+  "examples": [
+   {
+    "question": "What do bones do?",
+    "answer": "Support and protect the body",
+    "choices": [
+     "Pump blood",
+     "Support and protect the body",
+     "Digest food",
+     "Make sound"
+    ]
+   },
+   {
+    "question": "What do gills help fish do?",
+    "answer": "Breathe underwater",
+    "choices": [
+     "See",
+     "Swim faster",
+     "Breathe underwater",
+     "Eat"
+    ]
+   },
+   {
+    "question": "What do eyes help animals do?",
+    "answer": "See",
+    "choices": [
+     "See",
+     "Taste",
+     "Smell",
+     "Hear"
+    ]
+   },
+   {
+    "question": "What does the heart do?",
+    "answer": "Pumps blood around the body",
+    "choices": [
+     "Pumps blood around the body",
+     "Digests food",
+     "Breathes air",
+     "Thinks"
+    ]
+   },
+   {
+    "question": "What does a fish use to breathe in water?",
+    "answer": "Gills",
+    "choices": [
+     "Gills",
+     "Fins",
+     "Scales",
+     "Lungs"
+    ]
+   },
+   {
+    "question": "What does a bird use its wings for?",
+    "answer": "Flying",
+    "choices": [
+     "Digging",
+     "Smelling",
+     "Flying",
+     "Swimming only"
+    ]
+   },
+   {
+    "question": "What does an elephant use its trunk for?",
+    "answer": "Breathing, smelling, drinking and grabbing food",
+    "choices": [
+     "Breathing, smelling, drinking and grabbing food",
+     "Hearing only",
+     "Seeing",
+     "Flying"
+    ]
+   },
+   {
+    "question": "What does a porcupine use its quills for?",
+    "answer": "Protection",
+    "choices": [
+     "Swimming",
+     "Protection",
+     "Flying",
+     "Eating"
+    ]
+   },
+   {
+    "question": "What do claws help a bear do?",
+    "answer": "Dig and catch food",
+    "choices": [
+     "Swim only",
+     "See",
+     "Dig and catch food",
+     "Breathe"
+    ]
+   },
+   {
+    "question": "What does a rabbit use its long ears for?",
+    "answer": "Hearing danger",
+    "choices": [
+     "Eating",
+     "Hearing danger",
+     "Swimming",
+     "Climbing"
+    ]
+   },
+   {
+    "question": "What do lungs do?",
+    "answer": "Take in oxygen from the air",
+    "choices": [
+     "Pump blood",
+     "Hold the body up",
+     "Take in oxygen from the air",
+     "Digest food"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCarib",
+  "subject": "science",
+  "title": "Benefits of group behaviour: North American caribou",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsCarib2",
+   "sciXsCarib3"
+  ],
+  "examples": [
+   {
+    "question": "How do caribou hooves help them?",
+    "answer": "They are wide for walking on snow and digging",
+    "choices": [
+     "They help them fly",
+     "They catch fish",
+     "They are wide for walking on snow and digging",
+     "They keep them warm only"
+    ]
+   },
+   {
+    "question": "Why do caribou migrate together?",
+    "answer": "To find food and safe places to raise calves",
+    "choices": [
+     "To find water in the desert",
+     "To build nests",
+     "To find food and safe places to raise calves",
+     "To escape the sea"
+    ]
+   },
+   {
+    "question": "How do caribou calves stay safe?",
+    "answer": "They stay in the middle of the herd",
+    "choices": [
+     "They stay in the middle of the herd",
+     "They climb trees",
+     "They stay alone",
+     "They hide in caves"
+    ]
+   },
+   {
+    "question": "Why do caribou sometimes run together in a tight group?",
+    "answer": "To confuse predators so no single caribou is easy to catch",
+    "choices": [
+     "To confuse predators so no single caribou is easy to catch",
+     "To stay cool",
+     "To find fish",
+     "To build nests"
+    ]
+   },
+   {
+    "question": "Why do North American caribou travel in large herds?",
+    "answer": "There is safety in numbers from wolves",
+    "choices": [
+     "To build nests",
+     "There is safety in numbers from wolves",
+     "To stay alone",
+     "To find the ocean"
+    ]
+   },
+   {
+    "question": "How does living in a herd help North American caribou?",
+    "answer": "Many eyes watch for wolves, so the herd is safer",
+    "choices": [
+     "They find water faster alone",
+     "Many eyes watch for wolves, so the herd is safer",
+     "They can fly away",
+     "They get more sleep alone"
+    ]
+   },
+   {
+    "question": "What happens to a caribou that gets separated from the herd?",
+    "answer": "It is easier for wolves to catch",
+    "choices": [
+     "It is safer",
+     "It grows bigger",
+     "It becomes faster",
+     "It is easier for wolves to catch"
+    ]
+   },
+   {
+    "question": "What do caribou eat in winter?",
+    "answer": "Lichen dug from under the snow",
+    "choices": [
+     "Lichen dug from under the snow",
+     "Bark only",
+     "Fish",
+     "Berries only"
+    ]
+   },
+   {
+    "question": "Caribou make long trips every year. What is this called?",
+    "answer": "Migration",
+    "choices": [
+     "Camouflage",
+     "Pollination",
+     "Migration",
+     "Hibernation"
+    ]
+   },
+   {
+    "question": "How does a herd help caribou find food?",
+    "answer": "Many eyes and noses find good feeding areas",
+    "choices": [
+     "They share one stomach",
+     "They don't need food",
+     "Many eyes and noses find good feeding areas",
+     "They grow food together"
+    ]
+   },
+   {
+    "question": "How do caribou help each other find the way during migration?",
+    "answer": "Younger caribou follow older caribou that know the route",
+    "choices": [
+     "They stay home",
+     "Younger caribou follow older caribou that know the route",
+     "They follow the Moon only",
+     "They use maps"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWDog",
+  "subject": "science",
+  "title": "Benefits of group behaviour: African wild dogs",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsWDog2",
+   "sciXsWDog3"
+  ],
+  "examples": [
+   {
+    "question": "What is one benefit of living in a group?",
+    "answer": "Better protection and more success hunting",
+    "choices": [
+     "Better protection and more success hunting",
+     "More danger",
+     "No benefits",
+     "Less food for everyone"
+    ]
+   },
+   {
+    "question": "Why do African wild dogs greet each other before a hunt?",
+    "answer": "It strengthens the bond so they work well as a team",
+    "choices": [
+     "To scare prey",
+     "To sleep",
+     "It strengthens the bond so they work well as a team",
+     "To find water"
+    ]
+   },
+   {
+    "question": "How does hunting in a pack help African wild dogs?",
+    "answer": "Together they can catch animals bigger than themselves",
+    "choices": [
+     "They don't need to eat",
+     "Together they can catch animals bigger than themselves",
+     "They can sleep more",
+     "They hunt only insects"
+    ]
+   },
+   {
+    "question": "How do wild dogs communicate in a pack?",
+    "answer": "With calls, sneezes and body language",
+    "choices": [
+     "With colours only",
+     "With calls, sneezes and body language",
+     "With writing",
+     "They never communicate"
+    ]
+   },
+   {
+    "question": "How do African wild dogs share food?",
+    "answer": "Pack members share food with pups and the sick",
+    "choices": [
+     "Pack members share food with pups and the sick",
+     "They bury food",
+     "They never share",
+     "Only the leader eats"
+    ]
+   },
+   {
+    "question": "Who guards the pups while the pack hunts?",
+    "answer": "One or more adults stay behind at the den",
+    "choices": [
+     "The pups guard themselves",
+     "Nobody",
+     "Lions",
+     "One or more adults stay behind at the den"
+    ]
+   },
+   {
+    "question": "Why do African wild dogs share food with pups?",
+    "answer": "Pups can't hunt yet, so the pack feeds them",
+    "choices": [
+     "They give food to lions",
+     "Pups can't hunt yet, so the pack feeds them",
+     "Pups are the hunters",
+     "Pups don't eat"
+    ]
+   },
+   {
+    "question": "How do African wild dogs hunt?",
+    "answer": "In packs that work together",
+    "choices": [
+     "Alone at night only",
+     "In packs that work together",
+     "By climbing trees",
+     "By digging"
+    ]
+   },
+   {
+    "question": "Why can a pack catch larger prey than one dog alone?",
+    "answer": "They take turns chasing until the prey is tired",
+    "choices": [
+     "They hide in water",
+     "They are bigger than lions",
+     "They use tools",
+     "They take turns chasing until the prey is tired"
+    ]
+   },
+   {
+    "question": "How does a pack help a wild dog that is sick or hurt?",
+    "answer": "Pack members bring it food",
+    "choices": [
+     "They chase it away",
+     "Pack members bring it food",
+     "Nothing happens",
+     "They leave it behind"
+    ]
+   },
+   {
+    "question": "Where do African wild dogs live?",
+    "answer": "On savannas and open woodlands in Africa",
+    "choices": [
+     "In the ocean",
+     "In the Arctic",
+     "On savannas and open woodlands in Africa",
+     "In Canadian forests"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAnts",
+  "subject": "science",
+  "title": "Benefits of group behaviour: leafcutter ants",
+  "section": "Animals",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsAnts2",
+   "sciXsAnts3"
+  ],
+  "examples": [
+   {
+    "question": "What do leafcutter ants do with the leaves they cut?",
+    "answer": "They use them to grow fungus for food",
+    "choices": [
+     "They build boats",
+     "They make nests in trees",
+     "They eat the leaves directly",
+     "They use them to grow fungus for food"
+    ]
+   },
+   {
+    "question": "Why can a group of leafcutter ants carry so many leaves?",
+    "answer": "Thousands of ants work together",
+    "choices": [
+     "Thousands of ants work together",
+     "Each ant is as big as a dog",
+     "The wind carries them",
+     "The leaves are magnetic"
+    ]
+   },
+   {
+    "question": "How does working together help the ant colony survive?",
+    "answer": "The colony gets more food and stays protected",
+    "choices": [
+     "It causes fights",
+     "The colony gets more food and stays protected",
+     "It has no benefit",
+     "It makes ants sleepy"
+    ]
+   },
+   {
+    "question": "What do leafcutter ants do with waste from the fungus garden?",
+    "answer": "Special workers carry it to a waste chamber away from the garden",
+    "choices": [
+     "Special workers carry it to a waste chamber away from the garden",
+     "They leave it in the garden",
+     "They eat it",
+     "They give it to the queen"
+    ]
+   },
+   {
+    "question": "How does working in a group help leafcutter ants?",
+    "answer": "Different ants do different jobs, like cutting leaves and caring for young",
+    "choices": [
+     "Different ants do different jobs, like cutting leaves and caring for young",
+     "Each ant does everything alone",
+     "They live alone",
+     "They don't need food"
+    ]
+   },
+   {
+    "question": "How do leafcutter ants mark the path to good leaves?",
+    "answer": "With scent trails other ants can follow",
+    "choices": [
+     "With pebbles",
+     "With sounds only",
+     "With paint",
+     "With scent trails other ants can follow"
+    ]
+   },
+   {
+    "question": "What do leafcutter ants do with leaves?",
+    "answer": "Use them to grow fungus for food",
+    "choices": [
+     "Eat them right away",
+     "Make nests in trees",
+     "Build boats",
+     "Use them to grow fungus for food"
+    ]
+   },
+   {
+    "question": "How do leafcutter ants share work?",
+    "answer": "Different ants have different jobs",
+    "choices": [
+     "They don't work",
+     "Every ant does everything alone",
+     "Only the queen works",
+     "Different ants have different jobs"
+    ]
+   },
+   {
+    "question": "How do small worker ants protect leaf carriers?",
+    "answer": "They ride on the leaves to fight off flies",
+    "choices": [
+     "They dig tunnels",
+     "They ride on the leaves to fight off flies",
+     "They lay eggs",
+     "They carry the leaves"
+    ]
+   },
+   {
+    "question": "Where do leafcutter ants live?",
+    "answer": "In underground nests in warm forests",
+    "choices": [
+     "In ponds",
+     "On icebergs",
+     "In underground nests in warm forests",
+     "On mountaintops"
+    ]
+   },
+   {
+    "question": "What does the queen leafcutter ant do?",
+    "answer": "Lays eggs",
+    "choices": [
+     "Lays eggs",
+     "Carries food",
+     "Guards the trail",
+     "Cuts leaves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciLIF",
+  "subject": "science",
+  "title": "Life cycles",
+  "section": "Animals",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciLIF2"
+  ],
+  "examples": [
+   {
+    "question": "A caterpillar turns into a ___ before it becomes a butterfly.",
+    "answer": "chrysalis",
+    "choices": [
+     "chrysalis",
+     "tadpole",
+     "frog",
+     "dog"
+    ]
+   },
+   {
+    "question": "A butterfly starts its life as an ___.",
+    "answer": "egg",
+    "choices": [
+     "cat",
+     "egg",
+     "dog",
+     "chrysalis"
+    ]
+   },
+   {
+    "question": "A tadpole grows into a ___.",
+    "answer": "frog",
+    "choices": [
+     "egg",
+     "frog",
+     "seedling",
+     "tadpole"
+    ]
+   },
+   {
+    "question": "A chick hatches from an ___.",
+    "answer": "egg",
+    "choices": [
+     "egg",
+     "chrysalis",
+     "dog",
+     "seedling"
+    ]
+   },
+   {
+    "question": "A seed grows into a small ___.",
+    "answer": "seedling",
+    "choices": [
+     "cat",
+     "seedling",
+     "frog",
+     "egg"
+    ]
+   },
+   {
+    "question": "A frog starts life as an egg, then becomes a ___.",
+    "answer": "tadpole",
+    "choices": [
+     "frog",
+     "tadpole",
+     "seedling",
+     "egg"
+    ]
+   },
+   {
+    "question": "A kitten grows up to be a ___.",
+    "answer": "cat",
+    "choices": [
+     "cat",
+     "seedling",
+     "dog",
+     "frog"
+    ]
+   },
+   {
+    "question": "A puppy grows up to be a ___.",
+    "answer": "dog",
+    "choices": [
+     "dog",
+     "seedling",
+     "cat",
+     "chrysalis"
+    ]
+   }
+  ]
+ }
+]

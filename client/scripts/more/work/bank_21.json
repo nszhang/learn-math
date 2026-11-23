@@ -1,0 +1,2713 @@
+[
+ {
+  "key": "sciMCH",
+  "subject": "science",
+  "title": "Simple machines",
+  "section": "Force and motion",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "sciMCH3"
+  ],
+  "examples": [
+   {
+    "question": "Which simple machine is a bicycle wheel ?",
+    "answer": "Wheel and axle",
+    "choices": [
+     "Wheel and axle",
+     "Lever",
+     "Wedge",
+     "Inclined plane",
+     "Pulley"
+    ]
+   },
+   {
+    "question": "Which simple machine is a seesaw ?",
+    "answer": "Lever",
+    "choices": [
+     "Lever",
+     "Pulley",
+     "Inclined plane",
+     "Wedge",
+     "Wheel and axle"
+    ]
+   },
+   {
+    "question": "Which simple machine is a ramp ?",
+    "answer": "Inclined plane",
+    "choices": [
+     "Pulley",
+     "Wedge",
+     "Inclined plane",
+     "Wheel and axle",
+     "Lever"
+    ]
+   },
+   {
+    "question": "Which simple machine is a rope on a flagpole ?",
+    "answer": "Pulley",
+    "choices": [
+     "Pulley",
+     "Wheel and axle",
+     "Inclined plane",
+     "Wedge",
+     "Lever"
+    ]
+   },
+   {
+    "question": "Which simple machine is a crowbar ?",
+    "answer": "Lever",
+    "choices": [
+     "Wheel and axle",
+     "Inclined plane",
+     "Pulley",
+     "Lever",
+     "Wedge"
+    ]
+   },
+   {
+    "question": "Which simple machine is an axe head ?",
+    "answer": "Wedge",
+    "choices": [
+     "Inclined plane",
+     "Pulley",
+     "Wedge",
+     "Lever",
+     "Wheel and axle"
+    ]
+   },
+   {
+    "question": "Which simple machine is a knife blade ?",
+    "answer": "Wedge",
+    "choices": [
+     "Lever",
+     "Wheel and axle",
+     "Pulley",
+     "Inclined plane",
+     "Wedge"
+    ]
+   },
+   {
+    "question": "Which simple machine is a playground slide ?",
+    "answer": "Inclined plane",
+    "choices": [
+     "Wheel and axle",
+     "Pulley",
+     "Lever",
+     "Wedge",
+     "Inclined plane"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciBalForce",
+  "subject": "science",
+  "title": "Balanced and unbalanced forces",
+  "section": "Force and motion",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciBalForce3",
+   "sciBalForce4",
+   "sciBalForce5",
+   "sciBalForce6",
+   "sciBalForce7",
+   "sciBalForce8",
+   "sciBalForce9",
+   "sciBalForce10"
+  ],
+  "examples": [
+   {
+    "question": "Are the forces balanced or unbalanced? A book sits still on a table.",
+    "answer": "Balanced forces",
+    "choices": [
+     "Balanced forces",
+     "Unbalanced forces"
+    ]
+   },
+   {
+    "question": "Are the forces balanced or unbalanced? One team pulls harder and wins tug-of-war.",
+    "answer": "Unbalanced forces",
+    "choices": [
+     "Unbalanced forces",
+     "Balanced forces"
+    ]
+   },
+   {
+    "question": "Are the forces balanced or unbalanced? A car drives at a steady speed in a straight line.",
+    "answer": "Balanced forces",
+    "choices": [
+     "Balanced forces",
+     "Unbalanced forces"
+    ]
+   },
+   {
+    "question": "Are the forces balanced or unbalanced? Two teams pull a rope equally hard and nobody moves.",
+    "answer": "Balanced forces",
+    "choices": [
+     "Balanced forces",
+     "Unbalanced forces"
+    ]
+   },
+   {
+    "question": "Are the forces balanced or unbalanced? A bike speeds up going downhill.",
+    "answer": "Unbalanced forces",
+    "choices": [
+     "Balanced forces",
+     "Unbalanced forces"
+    ]
+   },
+   {
+    "question": "Are the forces balanced or unbalanced? A sled slows down on grass.",
+    "answer": "Unbalanced forces",
+    "choices": [
+     "Balanced forces",
+     "Unbalanced forces"
+    ]
+   },
+   {
+    "question": "Are the forces balanced or unbalanced? A lamp hangs still from the ceiling.",
+    "answer": "Balanced forces",
+    "choices": [
+     "Unbalanced forces",
+     "Balanced forces"
+    ]
+   },
+   {
+    "question": "Are the forces balanced or unbalanced? A soccer ball starts rolling after a kick.",
+    "answer": "Unbalanced forces",
+    "choices": [
+     "Balanced forces",
+     "Unbalanced forces"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMassForce",
+  "subject": "science",
+  "title": "How does mass affect force and acceleration?",
+  "section": "Force and motion",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciMassForce3",
+   "sciMassForce4",
+   "sciMassForce5",
+   "sciMassForce6",
+   "sciMassForce7",
+   "sciMassForce8",
+   "sciMassForce9",
+   "sciMassForce10"
+  ],
+  "examples": [
+   {
+    "question": "If an object's mass doubles but the force stays the same, its acceleration …",
+    "answer": "halves",
+    "choices": [
+     "halves",
+     "doubles",
+     "stays the same"
+    ]
+   },
+   {
+    "question": "To give a bowling ball and a tennis ball the same acceleration, which needs more force?",
+    "answer": "The bowling ball",
+    "choices": [
+     "The tennis ball",
+     "They need the same force",
+     "The bowling ball"
+    ]
+   },
+   {
+    "question": "A small ball and a big ball are kicked equally hard. Which goes faster?",
+    "answer": "The small (lighter) ball",
+    "choices": [
+     "The small (lighter) ball",
+     "The big (heavier) ball",
+     "They go equally fast"
+    ]
+   },
+   {
+    "question": "You push an empty cart and a full cart with the same force. Which speeds up more?",
+    "answer": "The empty cart",
+    "choices": [
+     "The full cart",
+     "The empty cart",
+     "They speed up the same"
+    ]
+   },
+   {
+    "question": "If you push twice as hard on the same object, its acceleration …",
+    "answer": "doubles",
+    "choices": [
+     "doubles",
+     "stays the same",
+     "halves"
+    ]
+   },
+   {
+    "question": "A truck and a bike have the same speed. Which is harder to stop?",
+    "answer": "The truck",
+    "choices": [
+     "The truck",
+     "The bike",
+     "They are equally hard to stop"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciLifeCyc",
+  "subject": "science",
+  "title": "Compare animal life cycles",
+  "section": "Animals",
+  "grades": [
+   3,
+   4,
+   6,
+   7
+  ],
+  "skillIds": [
+   "sciLifeCyc3",
+   "sciLifeCyc4",
+   "sciLifeCyc6",
+   "sciLifeCyc7"
+  ],
+  "examples": [
+   {
+    "question": "What kind of life cycle does a cockroach have?",
+    "answer": "Incomplete metamorphosis",
+    "choices": [
+     "No metamorphosis",
+     "Complete metamorphosis",
+     "Incomplete metamorphosis"
+    ]
+   },
+   {
+    "question": "What kind of life cycle does a butterfly have?",
+    "answer": "Complete metamorphosis",
+    "choices": [
+     "No metamorphosis",
+     "Complete metamorphosis",
+     "Incomplete metamorphosis"
+    ]
+   },
+   {
+    "question": "What kind of life cycle does a dragonfly have?",
+    "answer": "Incomplete metamorphosis",
+    "choices": [
+     "Incomplete metamorphosis",
+     "Complete metamorphosis",
+     "No metamorphosis"
+    ]
+   },
+   {
+    "question": "What kind of life cycle does a chicken have?",
+    "answer": "No metamorphosis",
+    "choices": [
+     "No metamorphosis",
+     "Incomplete metamorphosis",
+     "Complete metamorphosis"
+    ]
+   },
+   {
+    "question": "What kind of life cycle does a mosquito have?",
+    "answer": "Complete metamorphosis",
+    "choices": [
+     "Complete metamorphosis",
+     "Incomplete metamorphosis",
+     "No metamorphosis"
+    ]
+   },
+   {
+    "question": "What kind of life cycle does a human have?",
+    "answer": "No metamorphosis",
+    "choices": [
+     "Complete metamorphosis",
+     "Incomplete metamorphosis",
+     "No metamorphosis"
+    ]
+   },
+   {
+    "question": "What kind of life cycle does a dog have?",
+    "answer": "No metamorphosis",
+    "choices": [
+     "Incomplete metamorphosis",
+     "No metamorphosis",
+     "Complete metamorphosis"
+    ]
+   },
+   {
+    "question": "What kind of life cycle does a beetle have?",
+    "answer": "Complete metamorphosis",
+    "choices": [
+     "Complete metamorphosis",
+     "Incomplete metamorphosis",
+     "No metamorphosis"
+    ]
+   },
+   {
+    "question": "What kind of life cycle does a grasshopper have?",
+    "answer": "Incomplete metamorphosis",
+    "choices": [
+     "Incomplete metamorphosis",
+     "Complete metamorphosis",
+     "No metamorphosis"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlFood",
+  "subject": "science",
+  "title": "How do plants make food?",
+  "section": "Plants",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciXsPlFood3",
+   "sciXsPlFood4"
+  ],
+  "examples": [
+   {
+    "question": "Which part of the plant makes most of its food?",
+    "answer": "The leaves",
+    "choices": [
+     "The seeds",
+     "The flowers",
+     "The leaves",
+     "The roots"
+    ]
+   },
+   {
+    "question": "Where does water enter a plant?",
+    "answer": "Through the roots",
+    "choices": [
+     "Through the petals",
+     "Through the roots",
+     "Through the seeds",
+     "Through the flowers"
+    ]
+   },
+   {
+    "question": "What green substance in leaves captures sunlight?",
+    "answer": "Chlorophyll",
+    "choices": [
+     "Nectar",
+     "Pollen",
+     "Chlorophyll",
+     "Sap"
+    ]
+   },
+   {
+    "question": "Where do plants store extra food?",
+    "answer": "In roots, stems, seeds and fruits",
+    "choices": [
+     "In the soil around them",
+     "In roots, stems, seeds and fruits",
+     "In the air",
+     "Only in flowers"
+    ]
+   },
+   {
+    "question": "What gas do plants give off when they make food?",
+    "answer": "Oxygen",
+    "choices": [
+     "Oxygen",
+     "Carbon dioxide",
+     "Helium",
+     "Nitrogen"
+    ]
+   },
+   {
+    "question": "Through what tiny openings does carbon dioxide enter a leaf?",
+    "answer": "Stomata",
+    "choices": [
+     "Seeds",
+     "Stomata",
+     "Roots",
+     "Petals"
+    ]
+   },
+   {
+    "question": "What is the food that plants make called?",
+    "answer": "Sugar (glucose)",
+    "choices": [
+     "Sugar (glucose)",
+     "Protein",
+     "Fat",
+     "Salt"
+    ]
+   },
+   {
+    "question": "What is the process plants use to make food called?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Respiration",
+     "Evaporation",
+     "Digestion",
+     "Photosynthesis"
+    ]
+   },
+   {
+    "question": "What do plants use to make food?",
+    "answer": "Sunlight, water and carbon dioxide",
+    "choices": [
+     "Soil and rocks only",
+     "Sunlight, water and carbon dioxide",
+     "Oxygen and salt",
+     "Milk and sugar"
+    ]
+   },
+   {
+    "question": "Why do many leaves face the Sun?",
+    "answer": "To catch as much light as possible for making food",
+    "choices": [
+     "To catch rain",
+     "To catch as much light as possible for making food",
+     "To scare animals",
+     "To stay cool"
+    ]
+   },
+   {
+    "question": "What would happen to a plant kept in darkness for weeks?",
+    "answer": "It could not make food and would weaken",
+    "choices": [
+     "It would make more sugar",
+     "It would grow faster",
+     "Nothing",
+     "It could not make food and would weaken"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPollin",
+  "subject": "science",
+  "title": "Pollinators and seed dispersers",
+  "section": "Plants",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciPollin3",
+   "sciPollin4"
+  ],
+  "examples": [
+   {
+    "question": "Why do many flowers have bright colours and sweet smells?",
+    "answer": "To attract pollinators.",
+    "choices": [
+     "It carries pollen from flower to flower.",
+     "It blows the seeds to new places.",
+     "It drops the seeds in new places.",
+     "To attract pollinators."
+    ]
+   },
+   {
+    "question": "How does a squirrel help an oak tree?",
+    "answer": "It buries acorns that can grow into trees.",
+    "choices": [
+     "It carries pollen from flower to flower.",
+     "It blows the seeds to new places.",
+     "It buries acorns that can grow into trees.",
+     "So the seeds are carried to new places."
+    ]
+   },
+   {
+    "question": "How does a bee help a flower?",
+    "answer": "It carries pollen from flower to flower.",
+    "choices": [
+     "It carries pollen from flower to flower.",
+     "It blows the seeds to new places.",
+     "So the seeds are carried to new places.",
+     "It drops the seeds in new places."
+    ]
+   },
+   {
+    "question": "How does a bird that eats berries help the plant?",
+    "answer": "It drops the seeds in new places.",
+    "choices": [
+     "So the seeds are carried to new places.",
+     "To attract pollinators.",
+     "It buries acorns that can grow into trees.",
+     "It drops the seeds in new places."
+    ]
+   },
+   {
+    "question": "Why do burrs stick to animal fur?",
+    "answer": "So the seeds are carried to new places.",
+    "choices": [
+     "It drops the seeds in new places.",
+     "So the seeds are carried to new places.",
+     "It buries acorns that can grow into trees.",
+     "It carries pollen from flower to flower."
+    ]
+   },
+   {
+    "question": "How does wind help a dandelion?",
+    "answer": "It blows the seeds to new places.",
+    "choices": [
+     "To attract pollinators.",
+     "It blows the seeds to new places.",
+     "So the seeds are carried to new places.",
+     "It drops the seeds in new places."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciBiome",
+  "subject": "science",
+  "title": "Identify ecosystems",
+  "section": "Ecosystems",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciBiome3",
+   "sciBiome4",
+   "sciBiome5",
+   "sciBiome6",
+   "sciBiome7",
+   "sciBiome8",
+   "sciBiome9",
+   "sciBiome10"
+  ],
+  "examples": [
+   {
+    "question": "Which ecosystem is described? Four seasons, trees that drop their leaves in autumn, deer and squirrels.",
+    "answer": "Deciduous forest",
+    "choices": [
+     "Grassland",
+     "Tundra",
+     "Ocean",
+     "Desert",
+     "Tropical rainforest",
+     "Deciduous forest"
+    ]
+   },
+   {
+    "question": "Which ecosystem is described? Very little rain, hot days, cold nights, cacti and lizards.",
+    "answer": "Desert",
+    "choices": [
+     "Desert",
+     "Tropical rainforest",
+     "Grassland",
+     "Deciduous forest",
+     "Ocean",
+     "Tundra"
+    ]
+   },
+   {
+    "question": "Which ecosystem is described? Hot and wet all year, tall trees, the most species on land.",
+    "answer": "Tropical rainforest",
+    "choices": [
+     "Tropical rainforest",
+     "Tundra",
+     "Deciduous forest",
+     "Grassland",
+     "Ocean",
+     "Desert"
+    ]
+   },
+   {
+    "question": "Which ecosystem is described? A thick canopy where monkeys, toucans and frogs live.",
+    "answer": "Tropical rainforest",
+    "choices": [
+     "Deciduous forest",
+     "Tropical rainforest",
+     "Desert",
+     "Ocean",
+     "Tundra",
+     "Grassland"
+    ]
+   },
+   {
+    "question": "Which ecosystem is described? Wide open land with grasses, few trees, bison or zebras.",
+    "answer": "Grassland",
+    "choices": [
+     "Tundra",
+     "Deciduous forest",
+     "Tropical rainforest",
+     "Desert",
+     "Grassland",
+     "Ocean"
+    ]
+   },
+   {
+    "question": "Which ecosystem is described? Sand dunes and plants with deep roots that store water.",
+    "answer": "Desert",
+    "choices": [
+     "Tropical rainforest",
+     "Tundra",
+     "Grassland",
+     "Deciduous forest",
+     "Desert",
+     "Ocean"
+    ]
+   },
+   {
+    "question": "Which ecosystem is described? Salt water covering most of Earth, coral reefs and whales.",
+    "answer": "Ocean",
+    "choices": [
+     "Tundra",
+     "Desert",
+     "Tropical rainforest",
+     "Deciduous forest",
+     "Grassland",
+     "Ocean"
+    ]
+   },
+   {
+    "question": "Which ecosystem is described? Frozen ground (permafrost), short summers, mosses and caribou.",
+    "answer": "Tundra",
+    "choices": [
+     "Tundra",
+     "Deciduous forest",
+     "Ocean",
+     "Grassland",
+     "Tropical rainforest",
+     "Desert"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsEco",
+  "subject": "science",
+  "title": "Describe ecosystems",
+  "section": "Ecosystems",
+  "grades": [
+   3,
+   4,
+   6,
+   7,
+   10
+  ],
+  "skillIds": [
+   "sciXsEco3",
+   "sciXsEco4",
+   "sciXsEco6",
+   "sciXsEco7",
+   "sciXsEco10"
+  ],
+  "examples": [
+   {
+    "question": "Which ecosystem has the most species?",
+    "answer": "Tropical rainforest",
+    "choices": [
+     "Tundra",
+     "Polar ice",
+     "Desert",
+     "Tropical rainforest"
+    ]
+   },
+   {
+    "question": "What happens to an ecosystem if one species disappears?",
+    "answer": "Other species that depend on it are affected",
+    "choices": [
+     "It becomes a desert immediately",
+     "All species disappear at once",
+     "Other species that depend on it are affected",
+     "Nothing changes"
+    ]
+   },
+   {
+    "question": "Which is a biotic (living) factor in a forest ecosystem?",
+    "answer": "Mushrooms",
+    "choices": [
+     "Mushrooms",
+     "Sunlight",
+     "Rain",
+     "Rocks"
+    ]
+   },
+   {
+    "question": "Which is a non-living part of an ecosystem?",
+    "answer": "Sunlight",
+    "choices": [
+     "Sunlight",
+     "A deer",
+     "Bacteria",
+     "A tree"
+    ]
+   },
+   {
+    "question": "What is an ecosystem?",
+    "answer": "All the living and non-living things in an area and how they interact",
+    "choices": [
+     "A type of weather",
+     "All the living and non-living things in an area and how they interact",
+     "Only the plants in an area",
+     "Only the animals in an area"
+    ]
+   },
+   {
+    "question": "Which is an abiotic (non-living) factor in a pond ecosystem?",
+    "answer": "Water temperature",
+    "choices": [
+     "Algae",
+     "Frogs",
+     "Water temperature",
+     "Fish"
+    ]
+   },
+   {
+    "question": "What do we call all the populations of different species living in one area?",
+    "answer": "A community",
+    "choices": [
+     "A community",
+     "A habitat",
+     "A climate",
+     "An individual"
+    ]
+   },
+   {
+    "question": "What ecosystem covers most of northern Canada's forests?",
+    "answer": "Boreal forest",
+    "choices": [
+     "Boreal forest",
+     "Coral reef",
+     "Desert",
+     "Tropical rainforest"
+    ]
+   },
+   {
+    "question": "What is a wetland?",
+    "answer": "Land covered by shallow water for much of the year",
+    "choices": [
+     "A deep ocean",
+     "A mountaintop",
+     "A dry desert",
+     "Land covered by shallow water for much of the year"
+    ]
+   },
+   {
+    "question": "Which ecosystem has very little rainfall and plants like cacti?",
+    "answer": "Desert",
+    "choices": [
+     "Tundra",
+     "Wetland",
+     "Desert",
+     "Rainforest"
+    ]
+   },
+   {
+    "question": "Which ecosystem has frozen ground (permafrost) and few trees?",
+    "answer": "Tundra",
+    "choices": [
+     "Tundra",
+     "Rainforest",
+     "Grassland",
+     "Desert"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciFCH",
+  "subject": "science",
+  "title": "Food chains",
+  "section": "Ecosystems",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "sciFCH3"
+  ],
+  "examples": [
+   {
+    "question": "In a food chain, a deer is a …",
+    "answer": "Consumer",
+    "choices": [
+     "Producer",
+     "Decomposer",
+     "Consumer"
+    ]
+   },
+   {
+    "question": "In a food chain, a rabbit is a …",
+    "answer": "Consumer",
+    "choices": [
+     "Decomposer",
+     "Producer",
+     "Consumer"
+    ]
+   },
+   {
+    "question": "In a food chain, a bread mold is a …",
+    "answer": "Decomposer",
+    "choices": [
+     "Producer",
+     "Decomposer",
+     "Consumer"
+    ]
+   },
+   {
+    "question": "In a food chain, a sunflower is a …",
+    "answer": "Producer",
+    "choices": [
+     "Producer",
+     "Consumer",
+     "Decomposer"
+    ]
+   },
+   {
+    "question": "In a food chain, a blade of grass is a …",
+    "answer": "Producer",
+    "choices": [
+     "Decomposer",
+     "Producer",
+     "Consumer"
+    ]
+   },
+   {
+    "question": "In a food chain, a oak tree is a …",
+    "answer": "Producer",
+    "choices": [
+     "Producer",
+     "Decomposer",
+     "Consumer"
+    ]
+   },
+   {
+    "question": "In a food chain, a seaweed is a …",
+    "answer": "Producer",
+    "choices": [
+     "Decomposer",
+     "Consumer",
+     "Producer"
+    ]
+   },
+   {
+    "question": "In a food chain, a mushroom is a …",
+    "answer": "Decomposer",
+    "choices": [
+     "Decomposer",
+     "Consumer",
+     "Producer"
+    ]
+   },
+   {
+    "question": "In a food chain, a hawk is a …",
+    "answer": "Consumer",
+    "choices": [
+     "Consumer",
+     "Producer",
+     "Decomposer"
+    ]
+   },
+   {
+    "question": "In a food chain, a fox is a …",
+    "answer": "Consumer",
+    "choices": [
+     "Consumer",
+     "Decomposer",
+     "Producer"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciAdapt",
+  "subject": "science",
+  "title": "Animal adaptations",
+  "section": "Adaptations and natural selection",
+  "grades": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciAdapt3",
+   "sciAdapt4",
+   "sciAdapt5",
+   "sciAdapt6"
+  ],
+  "examples": [
+   {
+    "question": "A duck has webbed feet. This helps it …",
+    "answer": "paddle through water",
+    "choices": [
+     "hide from predators",
+     "see at night",
+     "drill into wood for insects",
+     "paddle through water"
+    ]
+   },
+   {
+    "question": "An owl has large eyes. This helps it …",
+    "answer": "see at night",
+    "choices": [
+     "drill into wood for insects",
+     "save water and avoid being eaten",
+     "survive without food for a long time",
+     "see at night"
+    ]
+   },
+   {
+    "question": "A camel stores fat in its hump. This helps it …",
+    "answer": "survive without food for a long time",
+    "choices": [
+     "survive without food for a long time",
+     "stay warm in the cold",
+     "hide from predators",
+     "see at night"
+    ]
+   },
+   {
+    "question": "A polar bear has thick fur and a layer of fat. This helps it …",
+    "answer": "stay warm in the cold",
+    "choices": [
+     "paddle through water",
+     "drink nectar from flowers",
+     "survive without food for a long time",
+     "stay warm in the cold"
+    ]
+   },
+   {
+    "question": "A chameleon changes colour. This helps it …",
+    "answer": "hide from predators",
+    "choices": [
+     "see at night",
+     "drill into wood for insects",
+     "hide from predators",
+     "save water and avoid being eaten"
+    ]
+   },
+   {
+    "question": "A hummingbird has a long, thin beak. This helps it …",
+    "answer": "drink nectar from flowers",
+    "choices": [
+     "hide from predators",
+     "survive without food for a long time",
+     "stay warm in the cold",
+     "drink nectar from flowers"
+    ]
+   },
+   {
+    "question": "A woodpecker has a strong, pointed beak. This helps it …",
+    "answer": "drill into wood for insects",
+    "choices": [
+     "drill into wood for insects",
+     "stay warm in the cold",
+     "hide from predators",
+     "see at night"
+    ]
+   },
+   {
+    "question": "A cactus has spines instead of leaves. This helps it …",
+    "answer": "save water and avoid being eaten",
+    "choices": [
+     "paddle through water",
+     "survive without food for a long time",
+     "save water and avoid being eaten",
+     "drill into wood for insects"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFossInt",
+  "subject": "science",
+  "title": "Introduction to fossils",
+  "section": "Fossils",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciXsFossInt3",
+   "sciXsFossInt4"
+  ],
+  "examples": [
+   {
+    "question": "What do fossils tell scientists?",
+    "answer": "What life on Earth was like long ago",
+    "choices": [
+     "What life on Earth was like long ago",
+     "How far the Moon is",
+     "How to make plastic",
+     "What the weather will be tomorrow"
+    ]
+   },
+   {
+    "question": "Which is a trace fossil?",
+    "answer": "A dinosaur footprint",
+    "choices": [
+     "A seashell",
+     "A dinosaur bone",
+     "A dinosaur footprint",
+     "A shark tooth"
+    ]
+   },
+   {
+    "question": "Where in Canada are many dinosaur fossils found?",
+    "answer": "The badlands of Alberta",
+    "choices": [
+     "Prince Edward Island beaches",
+     "The badlands of Alberta",
+     "Downtown Toronto",
+     "Hudson Bay"
+    ]
+   },
+   {
+    "question": "What is a fossil?",
+    "answer": "The preserved remains or traces of a living thing from long ago",
+    "choices": [
+     "A type of crystal",
+     "The preserved remains or traces of a living thing from long ago",
+     "A kind of volcano",
+     "A modern seashell"
+    ]
+   },
+   {
+    "question": "Which part of an animal most often becomes a fossil?",
+    "answer": "Hard parts like bones, teeth and shells",
+    "choices": [
+     "Soft skin",
+     "Eyes",
+     "Hard parts like bones, teeth and shells",
+     "Feathers only"
+    ]
+   },
+   {
+    "question": "Why are fossils usually found in sedimentary rock?",
+    "answer": "Remains get buried in layers of sediment",
+    "choices": [
+     "Remains get buried in layers of sediment",
+     "Fossils fall from space",
+     "Fossils form in lava",
+     "Fossils grow in metamorphic rock"
+    ]
+   },
+   {
+    "question": "In which type of rock are fossils usually found?",
+    "answer": "Sedimentary rock",
+    "choices": [
+     "Sedimentary rock",
+     "Lava",
+     "Igneous rock",
+     "Metamorphic rock"
+    ]
+   },
+   {
+    "question": "What is a paleontologist?",
+    "answer": "A scientist who studies fossils",
+    "choices": [
+     "A doctor for animals",
+     "A volcano expert",
+     "A scientist who studies fossils",
+     "A rock collector only"
+    ]
+   },
+   {
+    "question": "How long does it usually take a fossil to form?",
+    "answer": "Thousands to millions of years",
+    "choices": [
+     "An hour",
+     "Thousands to millions of years",
+     "A few days",
+     "One year"
+    ]
+   },
+   {
+    "question": "Which can become a fossil?",
+    "answer": "A shell buried in mud",
+    "choices": [
+     "A shell buried in mud",
+     "A cloud",
+     "A rock that was always a rock",
+     "A plastic toy"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFossMod",
+  "subject": "science",
+  "title": "Compare fossils to modern organisms",
+  "section": "Fossils",
+  "grades": [
+   3,
+   4,
+   7
+  ],
+  "skillIds": [
+   "sciXsFossMod3",
+   "sciXsFossMod4",
+   "sciXsFossMod7"
+  ],
+  "examples": [
+   {
+    "question": "Fossils of trilobites are found but no living trilobites. What does this suggest?",
+    "answer": "Trilobites are extinct",
+    "choices": [
+     "Trilobites are plants",
+     "Trilobites live in deserts",
+     "Trilobites are hiding",
+     "Trilobites are extinct"
+    ]
+   },
+   {
+    "question": "Fossil horse ancestors had several toes. Modern horses have one hoof. What does this suggest?",
+    "answer": "Horses changed over time",
+    "choices": [
+     "Modern horses are not related",
+     "Horses never changed",
+     "Fossils are wrong",
+     "Horses changed over time"
+    ]
+   },
+   {
+    "question": "How are a T. rex and a modern bird alike?",
+    "answer": "They share bones like a wishbone and hollow bones",
+    "choices": [
+     "They share bones like a wishbone and hollow bones",
+     "Both have teeth today",
+     "Both are mammals",
+     "Both are huge"
+    ]
+   },
+   {
+    "question": "Fossil shark teeth look like modern shark teeth. What does this suggest?",
+    "answer": "Sharks have existed for a very long time",
+    "choices": [
+     "Modern sharks are reptiles",
+     "Sharks are new",
+     "Sharks have existed for a very long time",
+     "Teeth never fossilize"
+    ]
+   },
+   {
+    "question": "A fossil fern looks like ferns growing today. What does this suggest?",
+    "answer": "Ferns have lived on Earth for a very long time",
+    "choices": [
+     "Ferns lived only in the past",
+     "Ferns have lived on Earth for a very long time",
+     "Ferns are new plants",
+     "Fossils are fake"
+    ]
+   },
+   {
+    "question": "A fossil fish has fins like modern fish. What can you infer?",
+    "answer": "It probably lived and swam in water",
+    "choices": [
+     "It could fly",
+     "It was a plant",
+     "It lived in a desert",
+     "It probably lived and swam in water"
+    ]
+   },
+   {
+    "question": "A fossil dragonfly looks like a modern dragonfly but had wings 70 cm across. What does this show?",
+    "answer": "Dragonflies existed long ago but have changed in size",
+    "choices": [
+     "Modern dragonflies are extinct",
+     "Fossils are always bigger",
+     "Dragonflies just appeared",
+     "Dragonflies existed long ago but have changed in size"
+    ]
+   },
+   {
+    "question": "A fossil shows a large marine reptile with flippers. Which modern animal has a similar body?",
+    "answer": "A dolphin",
+    "choices": [
+     "An eagle",
+     "A camel",
+     "A dolphin",
+     "A spider"
+    ]
+   },
+   {
+    "question": "Woolly mammoth fossils look like elephants with thick fur. What does this suggest?",
+    "answer": "Mammoths were related to elephants and lived in cold places",
+    "choices": [
+     "Mammoths were reptiles",
+     "Mammoths lived in rainforests",
+     "Mammoths were related to elephants and lived in cold places",
+     "Elephants are extinct"
+    ]
+   },
+   {
+    "question": "Ginkgo tree fossils look almost the same as living ginkgo trees. What does this show?",
+    "answer": "Ginkgos have changed very little over millions of years",
+    "choices": [
+     "Ginkgos are extinct",
+     "Ginkgos are new plants",
+     "Ginkgos have changed very little over millions of years",
+     "Fossils are fake"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFossHyp",
+  "subject": "science",
+  "title": "Compare ancient and modern organisms: use observations to support a hypothesis",
+  "section": "Fossils",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciXsFossHyp3",
+   "sciXsFossHyp4"
+  ],
+  "examples": [
+   {
+    "question": "Hypothesis: Some dinosaurs had feathers. Which observation supports it?",
+    "answer": "Fossils in China show feather impressions on dinosaur skeletons",
+    "choices": [
+     "Dinosaurs were big",
+     "Fossils in China show feather impressions on dinosaur skeletons",
+     "Feathers are light",
+     "Birds have feathers"
+    ]
+   },
+   {
+    "question": "Hypothesis: Ancient beavers were much bigger than modern beavers. Which observation supports it?",
+    "answer": "Fossil beaver skulls are many times larger than modern ones",
+    "choices": [
+     "Fossil beaver skulls are many times larger than modern ones",
+     "Beavers live in ponds",
+     "Beavers have flat tails",
+     "Beavers build dams"
+    ]
+   },
+   {
+    "question": "Hypothesis: Ancient crocodiles lived in Canada's Arctic. Which observation supports it?",
+    "answer": "Crocodile-like fossils were found on Ellesmere Island",
+    "choices": [
+     "Crocodiles have teeth",
+     "The Arctic is cold today",
+     "Crocodile-like fossils were found on Ellesmere Island",
+     "Crocodiles live in Florida"
+    ]
+   },
+   {
+    "question": "Hypothesis: Ancient horses were smaller than modern horses. Which observation supports this?",
+    "answer": "Fossil horse skeletons are much smaller than modern horse skeletons",
+    "choices": [
+     "Fossil horse skeletons are much smaller than modern horse skeletons",
+     "Horses live on farms",
+     "Modern horses eat grass",
+     "Fossils are found in rock"
+    ]
+   },
+   {
+    "question": "Hypothesis: Some ancient sharks were giants. Which observation supports it?",
+    "answer": "Fossil Megalodon teeth are about three times longer than great white shark teeth",
+    "choices": [
+     "Sharks swim",
+     "Fossil Megalodon teeth are about three times longer than great white shark teeth",
+     "Sharks live in oceans",
+     "Sharks have fins"
+    ]
+   },
+   {
+    "question": "Hypothesis: Ancient penguins were taller than modern ones. Which observation supports it?",
+    "answer": "Fossil penguin bones show birds about 1.6 m tall",
+    "choices": [
+     "Penguins are black and white",
+     "Penguins swim",
+     "Fossil penguin bones show birds about 1.6 m tall",
+     "Penguins live in Antarctica"
+    ]
+   },
+   {
+    "question": "Hypothesis: Early whales had legs. Which observation supports it?",
+    "answer": "Fossil whales such as Ambulocetus had four legs",
+    "choices": [
+     "Fossil whales such as Ambulocetus had four legs",
+     "Whales are large",
+     "Whales breathe air",
+     "Modern whales swim"
+    ]
+   },
+   {
+    "question": "Hypothesis: Some ancient birds had teeth. Which observation supports this?",
+    "answer": "Fossils of Archaeopteryx show teeth in its beak",
+    "choices": [
+     "Birds fly south",
+     "Birds lay eggs",
+     "Modern birds have feathers",
+     "Fossils of Archaeopteryx show teeth in its beak"
+    ]
+   },
+   {
+    "question": "Hypothesis: Ancient ferns grew taller than modern ferns. Which observation supports it?",
+    "answer": "Fossil tree ferns had trunks many metres tall",
+    "choices": [
+     "Ferns grow in shade",
+     "Ferns make spores",
+     "Fossil tree ferns had trunks many metres tall",
+     "Ferns have fronds"
+    ]
+   },
+   {
+    "question": "Hypothesis: Ancient sea scorpions were larger than modern scorpions. Which observation supports it?",
+    "answer": "Fossil sea scorpions measure over 2 metres long",
+    "choices": [
+     "Fossil sea scorpions measure over 2 metres long",
+     "Modern scorpions live in deserts",
+     "Scorpions sting",
+     "Some scorpions glow"
+    ]
+   },
+   {
+    "question": "Hypothesis: Mammoths ate grasses. Which observation supports it?",
+    "answer": "Grass was found in the stomachs of frozen mammoths",
+    "choices": [
+     "Mammoths were big",
+     "Grass was found in the stomachs of frozen mammoths",
+     "Mammoths had tusks",
+     "Elephants eat leaves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLayers",
+  "subject": "science",
+  "title": "How do rock layers form?",
+  "section": "Fossils",
+  "grades": [
+   3,
+   4,
+   5,
+   7
+  ],
+  "skillIds": [
+   "sciXsLayers3",
+   "sciXsLayers4",
+   "sciXsLayers5",
+   "sciXsLayers7"
+  ],
+  "examples": [
+   {
+    "question": "Where do layers of sediment often build up?",
+    "answer": "At the bottom of lakes, rivers and oceans",
+    "choices": [
+     "Inside volcanoes",
+     "On mountaintops",
+     "In the sky",
+     "At the bottom of lakes, rivers and oceans"
+    ]
+   },
+   {
+    "question": "What can be trapped between layers of sediment?",
+    "answer": "Remains of plants and animals",
+    "choices": [
+     "Lava",
+     "Sunlight",
+     "Remains of plants and animals",
+     "Clouds"
+    ]
+   },
+   {
+    "question": "In undisturbed rock layers, where is the oldest layer?",
+    "answer": "At the bottom",
+    "choices": [
+     "In the middle",
+     "It is random",
+     "At the top",
+     "At the bottom"
+    ]
+   },
+   {
+    "question": "What is sediment?",
+    "answer": "Small pieces of rock, sand, mud and shells",
+    "choices": [
+     "Ice crystals",
+     "Small pieces of rock, sand, mud and shells",
+     "Melted rock",
+     "Only gold"
+    ]
+   },
+   {
+    "question": "How do sedimentary rock layers form?",
+    "answer": "Sediment settles in layers that are pressed together over time",
+    "choices": [
+     "Ice melts in summer",
+     "Rocks fall from space",
+     "Sediment settles in layers that are pressed together over time",
+     "Lava cools quickly"
+    ]
+   },
+   {
+    "question": "In undisturbed layers, which layer formed most recently?",
+    "answer": "The top layer",
+    "choices": [
+     "The bottom layer",
+     "The top layer",
+     "The middle layer",
+     "All at the same time"
+    ]
+   },
+   {
+    "question": "How long does it take to form thick rock layers?",
+    "answer": "Thousands to millions of years",
+    "choices": [
+     "A few hours",
+     "One year",
+     "Thousands to millions of years",
+     "One day"
+    ]
+   },
+   {
+    "question": "What turns layers of sediment into rock?",
+    "answer": "Pressure from layers above and natural cement",
+    "choices": [
+     "Wind",
+     "Sunlight",
+     "Freezing",
+     "Pressure from layers above and natural cement"
+    ]
+   },
+   {
+    "question": "Why can you see stripes in a canyon wall?",
+    "answer": "Each stripe is a different rock layer",
+    "choices": [
+     "They are tree rings",
+     "Someone painted them",
+     "Each stripe is a different rock layer",
+     "They are lava flows only"
+    ]
+   },
+   {
+    "question": "What can tilted or folded rock layers tell us?",
+    "answer": "Forces moved the layers after they formed",
+    "choices": [
+     "Nothing happened",
+     "Forces moved the layers after they formed",
+     "The layers formed sideways",
+     "The layers are new"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLayEv",
+  "subject": "science",
+  "title": "Interpret evidence from fossils in rock layers",
+  "section": "Fossils",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciXsLayEv3",
+   "sciXsLayEv4"
+  ],
+  "examples": [
+   {
+    "question": "Fish fossils are found in rock on a mountain top. What does this suggest?",
+    "answer": "The area was once covered by water",
+    "choices": [
+     "The area was once covered by water",
+     "Fish could climb mountains",
+     "It rained fish",
+     "The mountain was always dry"
+    ]
+   },
+   {
+    "question": "Fossil A is in a lower layer than Fossil B. Which is probably older?",
+    "answer": "Fossil A",
+    "choices": [
+     "Fossil B",
+     "They are the same age",
+     "Fossil A"
+    ]
+   },
+   {
+    "question": "Seashell fossils are found in rock in Saskatchewan. What does this suggest?",
+    "answer": "A sea once covered the area",
+    "choices": [
+     "A sea once covered the area",
+     "Shells grow in soil",
+     "Saskatchewan is underwater now",
+     "People brought shells there"
+    ]
+   },
+   {
+    "question": "Palm tree fossils are found in Canada's Arctic. What does this suggest?",
+    "answer": "The climate there was once much warmer",
+    "choices": [
+     "Someone planted them",
+     "The climate there was once much warmer",
+     "Palm trees grow in snow",
+     "The fossils moved there by wind"
+    ]
+   },
+   {
+    "question": "Fossil corals are found in rock in Ontario. What was Ontario's environment like then?",
+    "answer": "A warm, shallow sea",
+    "choices": [
+     "A glacier",
+     "A mountain range",
+     "A desert",
+     "A warm, shallow sea"
+    ]
+   },
+   {
+    "question": "The same fossil appears in rock layers in two distant places. What can you infer?",
+    "answer": "The layers formed at about the same time",
+    "choices": [
+     "The fossil walked there",
+     "The layers formed at about the same time",
+     "The rocks are unrelated",
+     "The layers are different ages"
+    ]
+   },
+   {
+    "question": "A layer with dinosaur fossils is below a layer with mammal fossils. What does this suggest?",
+    "answer": "The dinosaurs lived earlier than those mammals",
+    "choices": [
+     "The mammals lived first",
+     "Fossils move up",
+     "The dinosaurs lived earlier than those mammals",
+     "They lived at the same time"
+    ]
+   },
+   {
+    "question": "A layer full of ash lies between two fossil layers. What does this suggest?",
+    "answer": "A volcano erupted between those times",
+    "choices": [
+     "It snowed",
+     "A volcano erupted between those times",
+     "A river flooded",
+     "Nothing happened"
+    ]
+   },
+   {
+    "question": "Layer A has fish fossils; the layer above has land-plant fossils. What changed?",
+    "answer": "The area changed from water to land",
+    "choices": [
+     "Fish turned into plants",
+     "The area changed from water to land",
+     "The area became deeper water",
+     "Nothing changed"
+    ]
+   },
+   {
+    "question": "Coal (from ancient plants) is found under snowy land. What does this suggest?",
+    "answer": "The land once had many plants and a warmer climate",
+    "choices": [
+     "The land once had many plants and a warmer climate",
+     "Snow makes coal",
+     "Coal grows in snow",
+     "It was always snowy"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciFossil",
+  "subject": "science",
+  "title": "Fossils and rock layers",
+  "section": "Fossils",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciFossil3",
+   "sciFossil4",
+   "sciFossil5",
+   "sciFossil6",
+   "sciFossil7",
+   "sciFossil8"
+  ],
+  "examples": [
+   {
+    "question": "A palm-tree fossil found in a cold place suggests the climate there was once …",
+    "answer": "warmer",
+    "choices": [
+     "warmer",
+     "the same as today",
+     "underwater ice",
+     "colder"
+    ]
+   },
+   {
+    "question": "A fish fossil found on a mountaintop suggests the area was once …",
+    "answer": "covered by water",
+    "choices": [
+     "covered by water",
+     "covered in ice",
+     "a forest fire",
+     "a desert"
+    ]
+   },
+   {
+    "question": "What is a fossil?",
+    "answer": "The preserved remains or traces of an ancient organism",
+    "choices": [
+     "The preserved remains or traces of an ancient organism",
+     "A living animal that is very old",
+     "A rock made by a volcano",
+     "A shiny mineral crystal"
+    ]
+   },
+   {
+    "question": "A dinosaur footprint in stone is a … fossil.",
+    "answer": "trace",
+    "choices": [
+     "trace",
+     "mineral",
+     "body",
+     "living"
+    ]
+   },
+   {
+    "question": "In undisturbed rock layers, where is the oldest layer?",
+    "answer": "At the bottom",
+    "choices": [
+     "At the top",
+     "In the middle",
+     "At the bottom",
+     "It is random"
+    ]
+   },
+   {
+    "question": "Fossils are most often found in which type of rock?",
+    "answer": "Sedimentary rock",
+    "choices": [
+     "Metamorphic rock",
+     "Lava",
+     "Sedimentary rock",
+     "Igneous rock"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciWxClim",
+  "subject": "science",
+  "title": "What's the difference between weather and climate?",
+  "section": "Weather and climate",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "skillIds": [
+   "sciWxClim3",
+   "sciWxClim4",
+   "sciWxClim5",
+   "sciWxClim6",
+   "sciWxClim7"
+  ],
+  "examples": [
+   {
+    "question": "Is this about weather or climate? Tomorrow will be windy and cold.",
+    "answer": "Weather",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   },
+   {
+    "question": "Is this about weather or climate? A thunderstorm hit this afternoon.",
+    "answer": "Weather",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   },
+   {
+    "question": "Is this about weather or climate? The Sahara gets very little rain each year.",
+    "answer": "Climate",
+    "choices": [
+     "Weather",
+     "Climate"
+    ]
+   },
+   {
+    "question": "Is this about weather or climate? It snowed 10 cm last night.",
+    "answer": "Weather",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   },
+   {
+    "question": "Is this about weather or climate? Vancouver has mild, wet winters.",
+    "answer": "Climate",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   },
+   {
+    "question": "Is this about weather or climate? Rainforests are hot and humid all year.",
+    "answer": "Climate",
+    "choices": [
+     "Weather",
+     "Climate"
+    ]
+   },
+   {
+    "question": "Is this about weather or climate? The Arctic is cold most of the year.",
+    "answer": "Climate",
+    "choices": [
+     "Weather",
+     "Climate"
+    ]
+   },
+   {
+    "question": "Is this about weather or climate? It is raining in Toronto right now.",
+    "answer": "Weather",
+    "choices": [
+     "Climate",
+     "Weather"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWCLabel",
+  "subject": "science",
+  "title": "Label parts of water cycle diagrams",
+  "section": "Earth's features",
+  "grades": [
+   3,
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "sciXsWCLabel3",
+   "sciXsWCLabel7",
+   "sciXsWCLabel8",
+   "sciXsWCLabel9"
+  ],
+  "examples": [
+   {
+    "question": "Water stored underground is called…",
+    "answer": "groundwater",
+    "choices": [
+     "cloud water",
+     "rain",
+     "groundwater",
+     "runoff"
+    ]
+   },
+   {
+    "question": "The step where water vapour forms clouds is…",
+    "answer": "condensation",
+    "choices": [
+     "evaporation",
+     "condensation",
+     "collection",
+     "precipitation"
+    ]
+   },
+   {
+    "question": "Rain and snow falling from clouds is…",
+    "answer": "precipitation",
+    "choices": [
+     "transpiration",
+     "condensation",
+     "evaporation",
+     "precipitation"
+    ]
+   },
+   {
+    "question": "On a water cycle diagram, water rising from plant leaves is labelled…",
+    "answer": "transpiration",
+    "choices": [
+     "precipitation",
+     "condensation",
+     "transpiration",
+     "runoff"
+    ]
+   },
+   {
+    "question": "Water soaking into the ground is labelled…",
+    "answer": "infiltration",
+    "choices": [
+     "infiltration",
+     "condensation",
+     "transpiration",
+     "evaporation"
+    ]
+   },
+   {
+    "question": "Tiny water drops forming a cloud are labelled…",
+    "answer": "condensation",
+    "choices": [
+     "runoff",
+     "evaporation",
+     "infiltration",
+     "condensation"
+    ]
+   },
+   {
+    "question": "Snow falling from a cloud is labelled…",
+    "answer": "precipitation",
+    "choices": [
+     "precipitation",
+     "condensation",
+     "transpiration",
+     "evaporation"
+    ]
+   },
+   {
+    "question": "Where does most evaporation happen?",
+    "answer": "From the oceans",
+    "choices": [
+     "From the oceans",
+     "From ice caps only",
+     "From clouds",
+     "From mountains"
+    ]
+   },
+   {
+    "question": "On a water cycle diagram, the arrow from the ocean up to the clouds shows…",
+    "answer": "evaporation",
+    "choices": [
+     "precipitation",
+     "evaporation",
+     "condensation",
+     "runoff"
+    ]
+   },
+   {
+    "question": "What drives the water cycle?",
+    "answer": "Energy from the Sun",
+    "choices": [
+     "Energy from the Sun",
+     "The Moon",
+     "Earthquakes",
+     "Wind only"
+    ]
+   },
+   {
+    "question": "Water flowing over land into rivers is…",
+    "answer": "runoff",
+    "choices": [
+     "condensation",
+     "sublimation",
+     "evaporation",
+     "runoff"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCoalWind",
+  "subject": "science",
+  "title": "Natural energy resources: coal and wind",
+  "section": "Earth's features",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsCoalWind3",
+   "sciXsCoalWind4",
+   "sciXsCoalWind5"
+  ],
+  "examples": [
+   {
+    "question": "Which of these makes electricity without polluting the air while it runs?",
+    "answer": "A wind turbine",
+    "choices": [
+     "A wood fire",
+     "A wind turbine",
+     "A diesel generator",
+     "A coal power plant"
+    ]
+   },
+   {
+    "question": "How do people get coal out of the ground?",
+    "answer": "By mining",
+    "choices": [
+     "By catching it in nets",
+     "By planting it",
+     "By collecting rain",
+     "By mining"
+    ]
+   },
+   {
+    "question": "Is wind a renewable or a nonrenewable resource?",
+    "answer": "Renewable",
+    "choices": [
+     "Nonrenewable",
+     "It must be mined",
+     "It runs out in one year",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Where is the best place to build wind turbines?",
+    "answer": "Where strong winds blow often, like open hills or coasts",
+    "choices": [
+     "Deep inside a forest",
+     "In a calm, sheltered valley",
+     "Where strong winds blow often, like open hills or coasts",
+     "Underground in a mine"
+    ]
+   },
+   {
+    "question": "Is coal a renewable or a nonrenewable resource?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Nonrenewable",
+     "Both",
+     "Renewable",
+     "Neither"
+    ]
+   },
+   {
+    "question": "What is one problem with burning coal for energy?",
+    "answer": "It puts pollution and carbon dioxide into the air",
+    "choices": [
+     "It only works when it is windy",
+     "It makes the air cleaner",
+     "It never runs out",
+     "It puts pollution and carbon dioxide into the air"
+    ]
+   },
+   {
+    "question": "What was coal made from?",
+    "answer": "Remains of plants buried and pressed for millions of years",
+    "choices": [
+     "Remains of plants buried and pressed for millions of years",
+     "Melted rock from volcanoes",
+     "Sand mixed with clay",
+     "Frozen sea water"
+    ]
+   },
+   {
+    "question": "What is one problem with wind energy?",
+    "answer": "The wind does not always blow",
+    "choices": [
+     "It pollutes the air",
+     "It must be dug from mines",
+     "The wind does not always blow",
+     "It will run out soon"
+    ]
+   },
+   {
+    "question": "How does a wind turbine make electricity?",
+    "answer": "Wind turns the blades, which spin a generator",
+    "choices": [
+     "Wind melts the metal blades",
+     "Wind is burned like fuel",
+     "Wind turns the blades, which spin a generator",
+     "Wind heats water into steam"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciErosion",
+  "subject": "science",
+  "title": "Weathering, erosion and deposition",
+  "section": "Earth events",
+  "grades": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciErosion3",
+   "sciErosion4",
+   "sciErosion5",
+   "sciErosion6"
+  ],
+  "examples": [
+   {
+    "question": "Which process is this? Ice in a crack splits a rock apart.",
+    "answer": "Weathering",
+    "choices": [
+     "Weathering",
+     "Erosion",
+     "Deposition"
+    ]
+   },
+   {
+    "question": "Which process is this? Wind blows soil off a field.",
+    "answer": "Erosion",
+    "choices": [
+     "Weathering",
+     "Erosion",
+     "Deposition"
+    ]
+   },
+   {
+    "question": "Which process is this? A glacier drags rocks across a valley.",
+    "answer": "Erosion",
+    "choices": [
+     "Weathering",
+     "Deposition",
+     "Erosion"
+    ]
+   },
+   {
+    "question": "Which process is this? Tree roots break a sidewalk.",
+    "answer": "Weathering",
+    "choices": [
+     "Erosion",
+     "Deposition",
+     "Weathering"
+    ]
+   },
+   {
+    "question": "Which process is this? Wind piles sand into dunes.",
+    "answer": "Deposition",
+    "choices": [
+     "Weathering",
+     "Deposition",
+     "Erosion"
+    ]
+   },
+   {
+    "question": "Which process is this? A river drops sand at its mouth, forming a delta.",
+    "answer": "Deposition",
+    "choices": [
+     "Weathering",
+     "Deposition",
+     "Erosion"
+    ]
+   },
+   {
+    "question": "Which process is this? A glacier melts and leaves boulders behind.",
+    "answer": "Deposition",
+    "choices": [
+     "Weathering",
+     "Erosion",
+     "Deposition"
+    ]
+   },
+   {
+    "question": "Which process is this? A river carries sand downstream.",
+    "answer": "Erosion",
+    "choices": [
+     "Weathering",
+     "Erosion",
+     "Deposition"
+    ]
+   },
+   {
+    "question": "Which process is this? Acid rain dissolves a statue.",
+    "answer": "Weathering",
+    "choices": [
+     "Weathering",
+     "Deposition",
+     "Erosion"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSOL",
+  "subject": "science",
+  "title": "The solar system",
+  "section": "Astronomy",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "sciSOL3"
+  ],
+  "examples": [
+   {
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars",
+    "choices": [
+     "Venus",
+     "Neptune",
+     "Mars",
+     "Earth"
+    ]
+   },
+   {
+    "question": "What is the star at the center of our solar system?",
+    "answer": "The Sun",
+    "choices": [
+     "Jupiter",
+     "Mercury",
+     "The Sun",
+     "Neptune"
+    ]
+   },
+   {
+    "question": "Which planet is famous for its bright rings?",
+    "answer": "Saturn",
+    "choices": [
+     "Neptune",
+     "Mars",
+     "Saturn",
+     "The Sun"
+    ]
+   },
+   {
+    "question": "Which planet is farthest from the Sun?",
+    "answer": "Neptune",
+    "choices": [
+     "Neptune",
+     "Jupiter",
+     "Earth",
+     "The Sun"
+    ]
+   },
+   {
+    "question": "Which planet is closest to the Sun?",
+    "answer": "Mercury",
+    "choices": [
+     "Mercury",
+     "Saturn",
+     "Earth",
+     "Mars"
+    ]
+   },
+   {
+    "question": "Which planet is the hottest?",
+    "answer": "Venus",
+    "choices": [
+     "Jupiter",
+     "Venus",
+     "Mars",
+     "The Sun"
+    ]
+   },
+   {
+    "question": "Which is the largest planet?",
+    "answer": "Jupiter",
+    "choices": [
+     "Neptune",
+     "Jupiter",
+     "Venus",
+     "Mercury"
+    ]
+   },
+   {
+    "question": "Which planet do we live on?",
+    "answer": "Earth",
+    "choices": [
+     "Earth",
+     "Neptune",
+     "Mercury",
+     "Venus"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRenNon",
+  "subject": "science",
+  "title": "Renewable and nonrenewable resources",
+  "section": "Natural resources and human impacts",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciRenNon3",
+   "sciRenNon4",
+   "sciRenNon5",
+   "sciRenNon6",
+   "sciRenNon7",
+   "sciRenNon8",
+   "sciRenNon9",
+   "sciRenNon10"
+  ],
+  "examples": [
+   {
+    "question": "Is natural gas renewable or nonrenewable?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is trees (if replanted) renewable or nonrenewable?",
+    "answer": "Renewable",
+    "choices": [
+     "Nonrenewable",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Is sunlight renewable or nonrenewable?",
+    "answer": "Renewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is uranium renewable or nonrenewable?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Nonrenewable",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Is oil renewable or nonrenewable?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Nonrenewable",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Is geothermal heat renewable or nonrenewable?",
+    "answer": "Renewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is wind renewable or nonrenewable?",
+    "answer": "Renewable",
+    "choices": [
+     "Nonrenewable",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Is copper ore renewable or nonrenewable?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is flowing water renewable or nonrenewable?",
+    "answer": "Renewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is coal renewable or nonrenewable?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsUVol",
+  "subject": "science",
+  "title": "Choose units of volume",
+  "section": "Units and measurement",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsUVol4"
+  ],
+  "examples": [
+   {
+    "question": "Which unit would you use for the volume of a bathtub?",
+    "answer": "litres",
+    "choices": [
+     "centimetres",
+     "millilitres",
+     "grams",
+     "litres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a juice box ?",
+    "answer": "millilitres",
+    "choices": [
+     "litres",
+     "millilitres",
+     "kilolitres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a lake ?",
+    "answer": "kilolitres",
+    "choices": [
+     "millilitres",
+     "litres",
+     "kilolitres"
+    ]
+   },
+   {
+    "question": "Which unit would you use for the volume of a juice box?",
+    "answer": "millilitres",
+    "choices": [
+     "millilitres",
+     "kilolitres",
+     "kilograms",
+     "metres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a fish tank ?",
+    "answer": "litres",
+    "choices": [
+     "millilitres",
+     "kilolitres",
+     "litres"
+    ]
+   },
+   {
+    "question": "Which unit would you use for the volume of a spoonful of medicine?",
+    "answer": "millilitres",
+    "choices": [
+     "millilitres",
+     "kilolitres",
+     "kilograms",
+     "litres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a bucket ?",
+    "answer": "litres",
+    "choices": [
+     "kilolitres",
+     "litres",
+     "millilitres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a can of soup ?",
+    "answer": "millilitres",
+    "choices": [
+     "litres",
+     "kilolitres",
+     "millilitres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a milk jug ?",
+    "answer": "litres",
+    "choices": [
+     "kilolitres",
+     "millilitres",
+     "litres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a swimming pool ?",
+    "answer": "kilolitres",
+    "choices": [
+     "litres",
+     "millilitres",
+     "kilolitres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of an eye dropper ?",
+    "answer": "millilitres",
+    "choices": [
+     "kilolitres",
+     "millilitres",
+     "litres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a bathtub ?",
+    "answer": "litres",
+    "choices": [
+     "litres",
+     "millilitres",
+     "kilolitres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a teaspoon of medicine ?",
+    "answer": "millilitres",
+    "choices": [
+     "millilitres",
+     "kilolitres",
+     "litres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a raindrop ?",
+    "answer": "millilitres",
+    "choices": [
+     "millilitres",
+     "litres",
+     "kilolitres"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSLG",
+  "subject": "science",
+  "title": "Identify and sort solids, liquids and gases",
+  "section": "States of matter",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsSLG44",
+   "sciXsSLG45"
+  ],
+  "examples": [
+   {
+    "question": "Is this a solid, a liquid or a gas? 💨 the air inside a tire",
+    "answer": "Gas",
+    "choices": [
+     "Solid",
+     "Gas",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this a solid, a liquid or a gas? 🫧 carbon dioxide in soda bubbles",
+    "answer": "Gas",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this a solid, a liquid or a gas? 🥄 a spoon",
+    "answer": "Solid",
+    "choices": [
+     "Gas",
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this a solid, a liquid or a gas? ♨️ steam from a kettle",
+    "answer": "Gas",
+    "choices": [
+     "Solid",
+     "Gas",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this a solid, a liquid or a gas? 🍯 maple syrup",
+    "answer": "Liquid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this a solid, a liquid or a gas? 🥛 orange juice",
+    "answer": "Liquid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this a solid, a liquid or a gas? 🧊 an ice cube",
+    "answer": "Solid",
+    "choices": [
+     "Solid",
+     "Gas",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this a solid, a liquid or a gas? 🪨 a pebble",
+    "answer": "Solid",
+    "choices": [
+     "Solid",
+     "Gas",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this a solid, a liquid or a gas? 🫗 vinegar",
+    "answer": "Liquid",
+    "choices": [
+     "Solid",
+     "Gas",
+     "Liquid"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsETrans",
+  "subject": "science",
+  "title": "Energy transformation",
+  "section": "Energy",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsETrans4",
+   "sciXsETrans5"
+  ],
+  "examples": [
+   {
+    "question": "A toaster changes electrical energy into…",
+    "answer": "thermal (heat) energy",
+    "choices": [
+     "light only",
+     "chemical energy",
+     "sound energy only",
+     "thermal (heat) energy"
+    ]
+   },
+   {
+    "question": "A light bulb changes electrical energy into…",
+    "answer": "light and heat",
+    "choices": [
+     "chemical energy",
+     "light and heat",
+     "sound only",
+     "kinetic energy only"
+    ]
+   },
+   {
+    "question": "A solar panel changes light energy into…",
+    "answer": "electrical energy",
+    "choices": [
+     "electrical energy",
+     "sound energy",
+     "chemical energy in food",
+     "motion of the Sun"
+    ]
+   },
+   {
+    "question": "A wind turbine changes kinetic energy of wind into…",
+    "answer": "electrical energy",
+    "choices": [
+     "chemical energy",
+     "light energy",
+     "sound only",
+     "electrical energy"
+    ]
+   },
+   {
+    "question": "Plants change light energy into…",
+    "answer": "chemical energy in food",
+    "choices": [
+     "kinetic energy",
+     "sound energy",
+     "electrical energy",
+     "chemical energy in food"
+    ]
+   },
+   {
+    "question": "A car engine changes the chemical energy in gasoline into…",
+    "answer": "kinetic energy and heat",
+    "choices": [
+     "chemical energy",
+     "nuclear energy",
+     "kinetic energy and heat",
+     "light only"
+    ]
+   },
+   {
+    "question": "Rubbing your hands together changes kinetic energy into…",
+    "answer": "thermal energy",
+    "choices": [
+     "chemical energy",
+     "light energy",
+     "thermal energy",
+     "electrical energy"
+    ]
+   },
+   {
+    "question": "A guitar string changes motion energy into…",
+    "answer": "sound energy",
+    "choices": [
+     "nuclear energy",
+     "sound energy",
+     "light energy",
+     "chemical energy"
+    ]
+   },
+   {
+    "question": "A speaker changes electrical energy into…",
+    "answer": "sound energy",
+    "choices": [
+     "chemical energy",
+     "sound energy",
+     "light energy",
+     "nuclear energy"
+    ]
+   },
+   {
+    "question": "A flashlight changes chemical energy in its battery into…",
+    "answer": "light energy",
+    "choices": [
+     "magnetic energy",
+     "light energy",
+     "sound energy only",
+     "nuclear energy"
+    ]
+   },
+   {
+    "question": "When you eat food, your body changes chemical energy into…",
+    "answer": "kinetic and thermal energy",
+    "choices": [
+     "kinetic and thermal energy",
+     "nuclear energy",
+     "light energy",
+     "magnetic energy"
+    ]
+   }
+  ]
+ }
+]

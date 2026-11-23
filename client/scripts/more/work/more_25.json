@@ -1,0 +1,2222 @@
+{
+ "sciXsEngTest": [
+  [
+   "A team tests a boat design in a calm pool, but the boat will be used on a windy lake. What is the weakness of this test?",
+   "The test conditions do not match real use",
+   [
+    "The pool water is too clean",
+    "Boats should never be tested in water",
+    "The test used too few materials"
+   ],
+   "A good test should copy the conditions the design will actually face."
+  ],
+  [
+   "Three students test paper airplane designs, but each student throws a different plane. Why is this a problem?",
+   "Throwing strength is a variable that is not controlled",
+   [
+    "Paper airplanes cannot be measured",
+    "Three planes are too many to test",
+    "The planes should be thrown indoors only"
+   ],
+   "If different people throw, differences in distance could come from the thrower instead of the design."
+  ],
+  [
+   "A phone case is dropped 10 times and cracks once. Another case is dropped once and does not crack. Which result is more reliable?",
+   "The case dropped 10 times, because it had more trials",
+   [
+    "The case dropped once, because it never cracked",
+    "Both are equally reliable no matter the trials",
+    "Neither, because drop tests are not useful"
+   ],
+   "More trials give more reliable evidence about how a design performs."
+  ],
+  [
+   "The criterion for an insulated lunch box is to keep food cold for 4 hours. Which test best evaluates it?",
+   "Measure the food's temperature every hour for 4 hours",
+   [
+    "Weigh the lunch box when it is empty",
+    "Ask friends which colour they like best",
+    "Measure how long it takes to open the lid"
+   ],
+   "The test should measure the property named in the criterion, which is keeping food cold over time."
+  ],
+  [
+   "A bridge model holds 2 kg in one trial, 2.1 kg in the next and 6 kg in the third. What should engineers do?",
+   "Check for an error and repeat the trials",
+   [
+    "Report only the 6 kg result",
+    "Average them and ignore the odd result",
+    "Stop testing because the design works"
+   ],
+   "A result very different from the others may come from a mistake, so it should be checked and the test repeated."
+  ],
+  [
+   "Engineers test a new wind turbine blade on one very windy day only. What is a weakness of this test?",
+   "It does not show how the blade works in lighter winds",
+   [
+    "Wind turbines should be tested indoors only",
+    "One day is far too long for a test",
+    "Windy days make the blades heavier"
+   ],
+   "Testing under only one condition does not show how the design performs across the conditions it will face."
+  ],
+  [
+   "Why do engineers record test results in a data table?",
+   "To organize results so designs can be compared",
+   [
+    "To make the test take longer",
+    "Because tables replace the need to test",
+    "To hide results that look wrong"
+   ],
+   "A data table organizes measurements so patterns and comparisons are easy to see."
+  ],
+  [
+   "A team tests a backpack by asking only the designers if they like it. What is the problem with this test?",
+   "The designers may be biased toward their own design",
+   [
+    "Backpacks cannot be tested by people",
+    "The designers are not strong enough",
+    "Asking questions is always forbidden"
+   ],
+   "People who made a design may favour it, so testing should include fair measurements or other users."
+  ],
+  [
+   "Two egg-drop designs are tested. One uses a large egg and one uses a small egg. Why is this a problem?",
+   "The egg size is a variable that should be the same",
+   [
+    "Eggs should never be used in tests",
+    "Small eggs always break first",
+    "Large eggs are too easy to drop"
+   ],
+   "To compare designs fairly, everything except the design itself should be kept the same."
+  ],
+  [
+   "A water filter makes dirty water look clear. Why is this not enough evidence that the water is safe to drink?",
+   "Clear water can still contain germs or dissolved chemicals",
+   [
+    "Clear water is always unsafe",
+    "Filters cannot change how water looks",
+    "Water must be blue to be safe"
+   ],
+   "Looking clear does not prove water is free of microbes or dissolved substances, so other tests are needed."
+  ],
+  [
+   "After testing, a chair design holds weight well but costs too much. What should engineers do next?",
+   "Redesign to lower the cost while keeping it strong",
+   [
+    "Give up on the whole project",
+    "Ignore the cost and build it anyway",
+    "Make it weaker to use more material"
+   ],
+   "Test results show which criteria or constraints are not met so the design can be improved."
+  ],
+  [
+   "A team measures how far a toy car rolls, but they use a different ramp height for each car. What should they change?",
+   "Use the same ramp height for every car",
+   [
+    "Use a different car for every trial",
+    "Measure in centimetres for one car only",
+    "Paint all the cars the same colour"
+   ],
+   "Keeping the ramp height constant makes the comparison fair."
+  ],
+  [
+   "What is a prototype?",
+   "An early model built to test a design",
+   [
+    "The final product sold in stores",
+    "A drawing of a different design",
+    "A list of materials to buy"
+   ],
+   "A prototype is a working model used to test ideas before making the final version."
+  ],
+  [
+   "Why is it useful to test a design until it fails?",
+   "It shows the limits of the design",
+   [
+    "It proves the design is perfect",
+    "It saves all the materials",
+    "It makes the design stronger"
+   ],
+   "Knowing where and when a design fails helps engineers understand its limits and improve it."
+  ],
+  [
+   "Two insulated cups are tested. One starts with water at 80 °C and the other at 60 °C. What is the problem?",
+   "The starting temperature should be the same",
+   [
+    "The cups should hold juice instead",
+    "80 °C is too cold for a test",
+    "Cups cannot be compared at all"
+   ],
+   "A fair test starts both designs under the same conditions."
+  ],
+  [
+   "A test shows that a parachute design falls slowly but tangles often. Which conclusion is best?",
+   "It meets the speed criterion but needs work on reliability",
+   [
+    "It is a perfect design with no problems",
+    "It fails every criterion",
+    "Tangling does not matter in a parachute"
+   ],
+   "Evaluating a test means checking each criterion separately, including both strengths and weaknesses."
+  ],
+  [
+   "A team tests a shoe sole for grip only on dry floors. What is missing?",
+   "A test of grip on wet or icy surfaces",
+   [
+    "A test of the shoe's colour",
+    "A test of the shoelace length",
+    "A test on a floor that is also dry"
+   ],
+   "A shoe must grip on many surfaces, so testing only dry floors leaves out important conditions."
+  ],
+  [
+   "Why should test results be shared with other engineers?",
+   "Others can check the results and suggest improvements",
+   [
+    "So others can copy the design and sell it",
+    "Because sharing makes the results change",
+    "So the team does not need to test again"
+   ],
+   "Sharing results allows others to review, repeat and improve on the work."
+  ],
+  [
+   "A sunscreen is tested on one person for 10 minutes. Why is this a weak test?",
+   "The sample is too small and the time is too short",
+   [
+    "Sunscreen does not need testing",
+    "Ten minutes is far too long",
+    "One person is too many people"
+   ],
+   "Reliable tests use enough trials or subjects and run long enough to show real results."
+  ],
+  [
+   "Engineers test a model house in a wind tunnel at increasing speeds. What are they most likely measuring?",
+   "How much wind the house can withstand",
+   [
+    "How much the house costs to build",
+    "How warm the house stays in winter",
+    "How many rooms the house has"
+   ],
+   "A wind tunnel test with increasing speeds checks how strong a structure is against wind."
+  ],
+  [
+   "A team tests a new cooler and finds ice melts in 6 hours. Their old cooler took 5 hours. What can they conclude?",
+   "The new cooler keeps ice longer than the old one",
+   [
+    "The new cooler is worse than the old one",
+    "Both coolers perform exactly the same",
+    "The test tells them nothing at all"
+   ],
+   "Comparing to the old design shows the new cooler is an improvement, as ice lasts an hour longer."
+  ],
+  [
+   "What is the purpose of a control in testing a design?",
+   "To give a standard for comparing the results",
+   [
+    "To make the test cost more money",
+    "To change several variables at once",
+    "To guarantee the design will pass"
+   ],
+   "A control or comparison shows whether the design actually makes a difference."
+  ]
+ ],
+ "sciXsMoon": [
+  [
+   "Why do astronauts on the Moon need spacesuits with their own air supply?",
+   "The Moon has almost no atmosphere to breathe",
+   [
+    "The Moon's air is too hot to breathe",
+    "Moon air is full of smoke",
+    "Astronauts must hold their breath on the Moon"
+   ],
+   "With almost no atmosphere, the Moon has no breathable air, so suits must supply oxygen."
+  ],
+  [
+   "Moon dust is very sharp and sticky. Which design feature would help most?",
+   "Seals that keep dust out of joints and equipment",
+   [
+    "Bright paint on the outside of the rover",
+    "Larger windows in the lander",
+    "Softer seats inside the cabin"
+   ],
+   "Sharp lunar dust can damage moving parts, so seals protect equipment."
+  ],
+  [
+   "Why are rockets built in stages that drop away?",
+   "Dropping empty stages makes the rocket lighter",
+   [
+    "Stages make the rocket look taller",
+    "Dropping stages slows the rocket down",
+    "Each stage carries a separate astronaut"
+   ],
+   "Getting rid of empty fuel tanks reduces mass, so the remaining fuel can push the rocket faster."
+  ],
+  [
+   "A Moon base must be built using as few materials from Earth as possible. Why?",
+   "Launching mass from Earth is very expensive",
+   [
+    "Earth materials melt on the Moon",
+    "Moon rules ban Earth materials",
+    "Earth materials are too light to use"
+   ],
+   "Every kilogram launched costs a lot of fuel and money, which is a major constraint."
+  ],
+  [
+   "Gravity on the Moon is about 1/6 of Earth's. How does this affect a rover design?",
+   "Its wheels must still grip on low gravity and loose dust",
+   [
+    "It needs no wheels at all",
+    "It must be much heavier to stay down",
+    "It can only move at night"
+   ],
+   "Low gravity means less weight pressing the wheels down, so engineers design wheels for grip on dust."
+  ],
+  [
+   "Why might a Moon base be built near the lunar south pole?",
+   "Ice may be found in shadowy craters there",
+   [
+    "It is the warmest place on the Moon",
+    "It is the only place with air",
+    "It is closest to the Sun"
+   ],
+   "Scientists think ice exists in permanently shadowed craters near the poles, which could supply water."
+  ],
+  [
+   "Which is a criterion for a Moon rover?",
+   "It must travel across rough, rocky ground",
+   [
+    "It must be cheaper than a bicycle",
+    "It must float in lunar oceans",
+    "It must work without any power"
+   ],
+   "A criterion describes what the design must do to succeed, such as crossing rough terrain."
+  ],
+  [
+   "Why do engineers use computer simulations before building a lunar lander?",
+   "To test ideas safely and cheaply before building",
+   [
+    "Because simulations replace all real testing",
+    "To make the lander heavier",
+    "Because the Moon cannot be studied"
+   ],
+   "Simulations let engineers test many ideas without the cost and risk of building each one."
+  ],
+  [
+   "Engineers have two lander designs. Design A is lighter; Design B is stronger. What should they do?",
+   "Compare both designs against the criteria and constraints",
+   [
+    "Always pick the one with a cooler name",
+    "Pick whichever was drawn first",
+    "Build neither and start over"
+   ],
+   "Choosing among solutions means weighing how well each meets the criteria and constraints."
+  ],
+  [
+   "Why do Moon habitats need thick walls or covering soil?",
+   "To block radiation and tiny meteorites",
+   [
+    "To keep the Moon's wind out",
+    "To hold in the Moon's oxygen",
+    "To make the habitat float"
+   ],
+   "Without an atmosphere, the Moon's surface is exposed to radiation and micrometeorites."
+  ],
+  [
+   "Why do solar panels work well for power on most of the Moon's surface?",
+   "Sunlight is not blocked by clouds or air",
+   [
+    "The Moon makes its own sunlight",
+    "The Moon is always in daylight",
+    "Solar panels need no sunlight on the Moon"
+   ],
+   "With no atmosphere, sunlight reaches the surface directly, though long lunar nights still need stored power."
+  ],
+  [
+   "A night on the Moon lasts about two Earth weeks. What design problem does this create?",
+   "Equipment needs stored power and heat to survive",
+   [
+    "Astronauts cannot sleep for two weeks",
+    "Rovers must drive twice as fast",
+    "Solar panels make too much power"
+   ],
+   "During the long, cold lunar night there is no sunlight, so batteries and heaters are needed."
+  ],
+  [
+   "Why do engineers brainstorm many ideas before choosing one?",
+   "Considering many ideas makes a better solution more likely",
+   [
+    "It is required to use all the ideas",
+    "Brainstorming replaces testing",
+    "The first idea is always the worst"
+   ],
+   "Generating several possible solutions helps engineers find the one that best fits the criteria."
+  ],
+  [
+   "A spacecraft must fit inside the nose cone of a rocket. This is an example of a…",
+   "size constraint",
+   [
+    "test result",
+    "scientific law",
+    "prototype"
+   ],
+   "The nose cone sets a limit on the spacecraft's size, so it is a constraint."
+  ],
+  [
+   "Why would engineers reuse water on a Moon base?",
+   "Water is heavy to bring from Earth and scarce on the Moon",
+   [
+    "Water on the Moon is too salty",
+    "Reusing water makes it heavier",
+    "Astronauts do not need water"
+   ],
+   "Recycling water reduces how much must be launched from Earth."
+  ],
+  [
+   "How do Moon landers slow down before touching down?",
+   "They fire rocket engines downward",
+   [
+    "They open large parachutes",
+    "They glide on wings through the air",
+    "They bounce off the clouds"
+   ],
+   "With no air for parachutes or wings, landers use rocket engines to slow their fall."
+  ],
+  [
+   "Why are lunar spacesuits tested in vacuum chambers on Earth?",
+   "A vacuum chamber copies the airless conditions on the Moon",
+   [
+    "Vacuum chambers make suits lighter",
+    "Vacuum chambers add Moon gravity",
+    "Spacesuits are cleaned in vacuum chambers"
+   ],
+   "Testing in a vacuum lets engineers check that suits work in conditions like the Moon's."
+  ],
+  [
+   "A rover keeps getting stuck in sand during a test. What is the best next step?",
+   "Change the wheel design and test again",
+   [
+    "Launch the rover to the Moon anyway",
+    "Stop testing because it failed once",
+    "Paint the rover a lighter colour"
+   ],
+   "Engineers use test failures to improve the design and then retest it."
+  ],
+  [
+   "Why do engineers communicate with the public and other teams about a Moon mission?",
+   "To share results, gain feedback and support",
+   [
+    "To keep the mission a total secret",
+    "Because talking replaces engineering",
+    "To change the laws of physics"
+   ],
+   "Sharing designs and results helps teams improve ideas and keeps the public informed."
+  ],
+  [
+   "Why can radio messages from the Moon reach Earth, but sound cannot?",
+   "Radio waves travel through space, but sound needs matter",
+   [
+    "Sound is too slow to leave the Moon",
+    "Radio waves need air to travel",
+    "The Moon blocks all sound waves"
+   ],
+   "Sound needs a medium such as air, but radio waves can travel through the vacuum of space."
+  ],
+  [
+   "Which is a trade-off in designing a Moon rover?",
+   "Adding more batteries gives more range but adds mass",
+   [
+    "Bigger wheels always make it lighter",
+    "Adding cameras removes the need for power",
+    "Painting it white makes it faster"
+   ],
+   "A trade-off means improving one feature makes another worse, like range versus mass."
+  ],
+  [
+   "Why do Moon missions often send robots before people?",
+   "Robots can explore safely and gather data first",
+   [
+    "Robots are always cheaper than paper",
+    "People are not allowed to visit the Moon",
+    "Robots can breathe Moon air"
+   ],
+   "Robotic missions reduce risk by scouting conditions before humans arrive."
+  ]
+ ],
+ "sciXsAbForce": [
+  [
+   "What is the symbol for watt (power)?",
+   "W",
+   [
+    "Wt",
+    "w",
+    "Wa"
+   ],
+   "The watt, the unit of power, uses the symbol W."
+  ],
+  [
+   "What is the symbol for coulomb (electric charge)?",
+   "C",
+   [
+    "Co",
+    "c",
+    "Cb"
+   ],
+   "The coulomb, the unit of charge, uses the symbol C."
+  ],
+  [
+   "What is the symbol for kilojoule?",
+   "kJ",
+   [
+    "KJ",
+    "kj",
+    "Kj"
+   ],
+   "The prefix kilo is a lowercase k, and joule is a capital J."
+  ],
+  [
+   "What is the symbol for kilowatt?",
+   "kW",
+   [
+    "KW",
+    "kw",
+    "Kw"
+   ],
+   "Kilo uses a lowercase k and watt uses a capital W."
+  ],
+  [
+   "What is the symbol for milliampere?",
+   "mA",
+   [
+    "MA",
+    "ma",
+    "Ma"
+   ],
+   "Milli uses a lowercase m and ampere uses a capital A."
+  ],
+  [
+   "What is the symbol for kilonewton?",
+   "kN",
+   [
+    "KN",
+    "kn",
+    "Kn"
+   ],
+   "Kilo uses a lowercase k and newton uses a capital N."
+  ],
+  [
+   "What is the symbol for kilovolt?",
+   "kV",
+   [
+    "KV",
+    "kv",
+    "Kv"
+   ],
+   "Kilo uses a lowercase k and volt uses a capital V."
+  ],
+  [
+   "What is the symbol for megawatt?",
+   "MW",
+   [
+    "mW",
+    "mw",
+    "Mw"
+   ],
+   "Mega uses a capital M, and watt uses a capital W; mW would mean milliwatt."
+  ],
+  [
+   "What is the symbol for millivolt?",
+   "mV",
+   [
+    "MV",
+    "mv",
+    "Mv"
+   ],
+   "Milli uses a lowercase m; MV would mean megavolt."
+  ],
+  [
+   "What is the symbol for kilowatt-hour (electrical energy)?",
+   "kWh",
+   [
+    "KWH",
+    "kwh",
+    "Kwh"
+   ],
+   "A kilowatt-hour is written kWh: lowercase k, capital W, lowercase h."
+  ],
+  [
+   "What is the symbol for megajoule?",
+   "MJ",
+   [
+    "mJ",
+    "mj",
+    "Mj"
+   ],
+   "Mega uses a capital M and joule uses a capital J."
+  ],
+  [
+   "What is the symbol for kilohm?",
+   "kΩ",
+   [
+    "KΩ",
+    "ko",
+    "Ko"
+   ],
+   "Kilo uses a lowercase k and ohm uses the Greek letter omega, Ω."
+  ],
+  [
+   "Which unit does the symbol N stand for?",
+   "newton",
+   [
+    "nanometre",
+    "neutron",
+    "number"
+   ],
+   "N is the symbol for the newton, the SI unit of force."
+  ],
+  [
+   "Which unit does the symbol J stand for?",
+   "joule",
+   [
+    "jolt",
+    "jump",
+    "jewel"
+   ],
+   "J is the symbol for the joule, the SI unit of energy."
+  ],
+  [
+   "Which unit does the symbol W stand for?",
+   "watt",
+   [
+    "weight",
+    "width",
+    "work"
+   ],
+   "W is the symbol for the watt, the SI unit of power."
+  ],
+  [
+   "Which unit does the symbol V stand for?",
+   "volt",
+   [
+    "velocity",
+    "volume",
+    "vector"
+   ],
+   "V is the symbol for the volt, the SI unit of electric potential difference."
+  ],
+  [
+   "Which unit does the symbol A stand for?",
+   "ampere",
+   [
+    "area",
+    "atom",
+    "acceleration"
+   ],
+   "A is the symbol for the ampere, the SI unit of electric current."
+  ],
+  [
+   "Which unit does the symbol Ω stand for?",
+   "ohm",
+   [
+    "omega wave",
+    "orbit",
+    "ounce"
+   ],
+   "Ω is the symbol for the ohm, the SI unit of electrical resistance."
+  ],
+  [
+   "Which unit does the symbol C stand for?",
+   "coulomb",
+   [
+    "calorie",
+    "centimetre",
+    "circuit"
+   ],
+   "In electricity, C is the symbol for the coulomb, the unit of charge."
+  ],
+  [
+   "Which is the correct way to write 5 kilowatts?",
+   "5 kW",
+   [
+    "5 KW",
+    "5 kw",
+    "5 Kw"
+   ],
+   "The kilo prefix is a lowercase k, and units named after people use a capital letter."
+  ],
+  [
+   "Which is the correct way to write 250 milliamperes?",
+   "250 mA",
+   [
+    "250 MA",
+    "250 ma",
+    "250 Ma"
+   ],
+   "Milli is a lowercase m and ampere is a capital A."
+  ],
+  [
+   "Which is the correct way to write 12 newtons?",
+   "12 N",
+   [
+    "12 n",
+    "12 Nw",
+    "12 Nt"
+   ],
+   "The newton's symbol is a single capital N."
+  ]
+ ],
+ "sciDensCmp": [
+  [
+   "Gold has a density of 19.3 g/cm³ and aluminum has a density of 2.7 g/cm³. Which is denser?",
+   "Gold",
+   [
+    "Aluminum",
+    "They are equally dense",
+    "It depends on the size"
+   ],
+   "Gold has the greater mass per cubic centimetre, so it is denser."
+  ],
+  [
+   "A wooden block (0.6 g/cm³) is placed in water (1.0 g/cm³). What happens?",
+   "It floats",
+   [
+    "It sinks",
+    "It dissolves",
+    "It stays halfway down forever"
+   ],
+   "An object less dense than water floats."
+  ],
+  [
+   "Two balls are the same size. Ball X has a mass of 50 g and Ball Y has a mass of 20 g. Which is denser?",
+   "Ball X",
+   [
+    "Ball Y",
+    "They are equally dense",
+    "Neither has a density"
+   ],
+   "With equal volumes, the one with more mass is denser."
+  ],
+  [
+   "Two objects have the same mass. Object P has a volume of 10 cm³ and Object Q has a volume of 40 cm³. Which is denser?",
+   "Object P",
+   [
+    "Object Q",
+    "They are equally dense",
+    "Neither has a density"
+   ],
+   "The same mass packed into a smaller volume means greater density."
+  ],
+  [
+   "Honey (1.4 g/cm³), water (1.0 g/cm³) and vegetable oil (0.9 g/cm³) are poured into a jar. Which layer ends up on the bottom?",
+   "Honey",
+   [
+    "Water",
+    "Vegetable oil",
+    "They mix evenly"
+   ],
+   "The densest liquid sinks to the bottom."
+  ],
+  [
+   "Honey (1.4 g/cm³), water (1.0 g/cm³) and vegetable oil (0.9 g/cm³) are poured into a jar. Which layer ends up on top?",
+   "Vegetable oil",
+   [
+    "Honey",
+    "Water",
+    "They mix evenly"
+   ],
+   "The least dense liquid floats on top."
+  ],
+  [
+   "A plastic toy sinks in water but floats in salt water. What does this tell you?",
+   "Salt water is denser than fresh water",
+   [
+    "Fresh water is denser than salt water",
+    "The toy got lighter in salt water",
+    "Salt water and fresh water are equally dense"
+   ],
+   "An object floats in a liquid denser than itself, so salt water must be denser than fresh water."
+  ],
+  [
+   "A steel nail sinks in water, but a large steel ship floats. Why?",
+   "The ship's hollow shape gives it a lower overall density",
+   [
+    "The ship is made of lighter steel",
+    "Water is denser than steel",
+    "The ship has less mass than the nail"
+   ],
+   "The ship encloses lots of air, so its average density is less than water."
+  ],
+  [
+   "Which is denser: 1 kg of feathers or 1 kg of iron?",
+   "Iron",
+   [
+    "Feathers",
+    "They are equally dense",
+    "It depends on the weather"
+   ],
+   "They have the same mass, but iron takes up much less volume, so it is denser."
+  ],
+  [
+   "A piece of clay is rolled into a long snake shape. What happens to its density?",
+   "It stays the same",
+   [
+    "It increases",
+    "It decreases",
+    "It becomes zero"
+   ],
+   "Changing the shape does not change the mass or volume, so density stays the same."
+  ],
+  [
+   "Mercury has a density of 13.6 g/cm³. Would a steel bolt (7.8 g/cm³) sink or float in mercury?",
+   "Float",
+   [
+    "Sink",
+    "Dissolve",
+    "Stay at the bottom"
+   ],
+   "Steel is less dense than mercury, so it floats on mercury."
+  ],
+  [
+   "Granite is 2.7 g/cm³ and pumice is 0.6 g/cm³. Which rock could float on water?",
+   "Pumice",
+   [
+    "Granite",
+    "Both rocks",
+    "Neither rock"
+   ],
+   "Pumice is less dense than water (1.0 g/cm³), so it can float; granite sinks."
+  ],
+  [
+   "A grape sinks in water. What can you say about its density?",
+   "It is greater than 1.0 g/cm³",
+   [
+    "It is less than 1.0 g/cm³",
+    "It is exactly 0 g/cm³",
+    "It is the same as air"
+   ],
+   "Objects that sink in water are denser than water's 1.0 g/cm³."
+  ],
+  [
+   "Hot air rises above cool air. Which is less dense?",
+   "Hot air",
+   [
+    "Cool air",
+    "They are equally dense",
+    "Neither has a density"
+   ],
+   "Heated air expands, so its density decreases and it rises."
+  ],
+  [
+   "Substance A: 30 g in 10 cm³. Substance B: 30 g in 15 cm³. Which is denser?",
+   "Substance A",
+   [
+    "Substance B",
+    "They are equally dense",
+    "It cannot be compared"
+   ],
+   "A has a density of 3 g/cm³ and B has 2 g/cm³, so A is denser."
+  ],
+  [
+   "Substance A: 12 g in 4 cm³. Substance B: 20 g in 10 cm³. Which is denser?",
+   "Substance A",
+   [
+    "Substance B",
+    "They are equally dense",
+    "It cannot be compared"
+   ],
+   "A is 3 g/cm³ and B is 2 g/cm³, so A is denser even though B has more mass."
+  ],
+  [
+   "A small pebble sinks in water, but a large log floats. Which statement is correct?",
+   "The pebble is denser than the log",
+   [
+    "The log is denser than the pebble",
+    "The pebble has more mass than the log",
+    "They have the same density"
+   ],
+   "Sinking or floating depends on density, not size, so the pebble is denser."
+  ],
+  [
+   "A block of ice (0.92 g/cm³) is placed in vegetable oil (0.9 g/cm³). What happens?",
+   "It sinks",
+   [
+    "It floats",
+    "It boils",
+    "It rises to the top"
+   ],
+   "Ice is slightly denser than vegetable oil, so it sinks in oil."
+  ],
+  [
+   "A cube of copper is cut into four smaller pieces. How does the density of each piece compare to the original?",
+   "It is the same",
+   [
+    "It is four times greater",
+    "It is one quarter as much",
+    "It is twice as much"
+   ],
+   "Density is a property of the substance, so it does not change when the sample is cut."
+  ],
+  [
+   "Which material is the least dense? Lead 11.3 g/cm³, aluminum 2.7 g/cm³, iron 7.9 g/cm³, cork 0.24 g/cm³",
+   "Cork",
+   [
+    "Lead",
+    "Aluminum",
+    "Iron"
+   ],
+   "Cork has the smallest density of the four."
+  ],
+  [
+   "Which material is the most dense? Silver 10.5 g/cm³, glass 2.5 g/cm³, ice 0.92 g/cm³, oak wood 0.75 g/cm³",
+   "Silver",
+   [
+    "Glass",
+    "Ice",
+    "Oak wood"
+   ],
+   "Silver has the largest density of the four materials."
+  ],
+  [
+   "Why does a helium balloon rise in the air?",
+   "Helium is less dense than air",
+   [
+    "Helium is denser than air",
+    "Helium has no mass at all",
+    "Air pushes down on balloons"
+   ],
+   "A gas less dense than the surrounding air rises."
+  ]
+ ],
+ "sciAccel": [
+  [
+   "Which object is accelerating?",
+   "A skateboarder speeding up down a hill",
+   [
+    "A book resting on a desk",
+    "A car moving at a steady 50 km/h in a straight line",
+    "A ship sailing straight at a constant speed"
+   ],
+   "Speeding up is a change in velocity, so the skateboarder is accelerating."
+  ],
+  [
+   "Which object is NOT accelerating?",
+   "An elevator rising at a constant speed",
+   [
+    "A car turning a corner",
+    "A ball slowing as it rolls on grass",
+    "A sled speeding up down a hill"
+   ],
+   "Constant speed in a straight line means the velocity is not changing."
+  ],
+  [
+   "Which object is accelerating?",
+   "A Ferris wheel seat moving in a circle at constant speed",
+   [
+    "A lamp sitting on a table",
+    "A plane flying straight at constant speed",
+    "A train stopped at a station"
+   ],
+   "Moving in a circle changes direction constantly, so the seat is accelerating."
+  ],
+  [
+   "Which object is NOT accelerating?",
+   "A hockey puck gliding straight at a steady speed on smooth ice",
+   [
+    "A puck that is slowed by a stick",
+    "A puck hit so it speeds up",
+    "A puck that bounces off the boards"
+   ],
+   "A puck moving at a constant speed in a straight line has constant velocity."
+  ],
+  [
+   "A cyclist brakes and slows down. Is the cyclist accelerating?",
+   "Yes, because the speed is changing",
+   [
+    "No, because the cyclist is slowing down",
+    "No, because the direction is the same",
+    "Yes, because the cyclist is moving"
+   ],
+   "Any change in speed, including slowing down, is acceleration."
+  ],
+  [
+   "A car drives around a roundabout at a steady 30 km/h. Is it accelerating?",
+   "Yes, because its direction is changing",
+   [
+    "No, because its speed is constant",
+    "No, because 30 km/h is slow",
+    "Yes, because its speed is increasing"
+   ],
+   "Acceleration is a change in velocity, and velocity includes direction."
+  ],
+  [
+   "A rock rests on the ground. Is it accelerating?",
+   "No, because its velocity is not changing",
+   [
+    "Yes, because gravity pulls on it",
+    "Yes, because Earth is under it",
+    "No, because rocks have no mass"
+   ],
+   "An object at rest with balanced forces has a constant velocity of zero."
+  ],
+  [
+   "A soccer ball is kicked and leaves the ground. At the moment of the kick, is the ball accelerating?",
+   "Yes, because its speed increases quickly",
+   [
+    "No, because the foot stops touching it",
+    "No, because it was not moving before",
+    "Yes, because it is on the ground"
+   ],
+   "The kick changes the ball's speed from zero, which is acceleration."
+  ],
+  [
+   "A rocket lifts off and goes faster and faster. Is it accelerating?",
+   "Yes, because its speed is increasing",
+   [
+    "No, because it moves straight up",
+    "No, because rockets move at constant speed",
+    "Yes, because it is very heavy"
+   ],
+   "Increasing speed means the rocket's velocity is changing."
+  ],
+  [
+   "A ball is thrown straight up and slows as it rises. Is it accelerating?",
+   "Yes, because its speed is decreasing",
+   [
+    "No, because it is going up",
+    "No, because it has not stopped yet",
+    "Yes, because it is getting heavier"
+   ],
+   "Gravity slows the ball, changing its velocity, so it accelerates."
+  ],
+  [
+   "A truck travels on a straight highway at a steady 100 km/h. Is it accelerating?",
+   "No, because its speed and direction are constant",
+   [
+    "Yes, because 100 km/h is fast",
+    "Yes, because the engine is running",
+    "No, because trucks cannot accelerate"
+   ],
+   "Constant speed in a straight line means zero acceleration."
+  ],
+  [
+   "Which object is accelerating?",
+   "A swing slowing down as it reaches the top",
+   [
+    "A parked car on a flat street",
+    "A box sitting on a shelf",
+    "A cruise ship sailing straight at steady speed"
+   ],
+   "The swing's speed is changing, so it is accelerating."
+  ],
+  [
+   "Which object is NOT accelerating?",
+   "A drone hovering in one place",
+   [
+    "A drone speeding up as it climbs",
+    "A drone turning in a circle",
+    "A drone slowing to land"
+   ],
+   "A hovering drone stays still, so its velocity does not change."
+  ],
+  [
+   "A child on a merry-go-round moves at a steady speed. Why is the child accelerating?",
+   "The child's direction keeps changing",
+   [
+    "The child's speed keeps increasing",
+    "The child is not moving at all",
+    "The child's mass keeps changing"
+   ],
+   "Circular motion means a constant change in direction, which is acceleration."
+  ],
+  [
+   "A runner keeps a steady pace along a straight track. What is the runner's acceleration?",
+   "It is zero",
+   [
+    "It is increasing",
+    "It equals the speed",
+    "It is decreasing"
+   ],
+   "With no change in speed or direction, the acceleration is zero."
+  ],
+  [
+   "A car's speedometer reads 60 km/h, then 70 km/h, then 80 km/h on a straight road. What is the car doing?",
+   "Accelerating by speeding up",
+   [
+    "Moving at constant velocity",
+    "Accelerating by turning",
+    "Decelerating as it slows"
+   ],
+   "The speed is increasing, so the car is accelerating."
+  ],
+  [
+   "A car's speedometer stays at 60 km/h as it follows a curved road. What is the car doing?",
+   "Accelerating by changing direction",
+   [
+    "Moving at constant velocity",
+    "Accelerating by speeding up",
+    "Standing still on the road"
+   ],
+   "Following a curve changes direction, so the car accelerates even at constant speed."
+  ],
+  [
+   "Which change does NOT count as acceleration?",
+   "Moving the same speed in the same direction",
+   [
+    "Speeding up",
+    "Slowing down",
+    "Changing direction"
+   ],
+   "Acceleration is any change in speed or direction, so no change means no acceleration."
+  ],
+  [
+   "A skydiver falls at a steady terminal speed. Is the skydiver accelerating?",
+   "No, because the speed and direction are constant",
+   [
+    "Yes, because the skydiver is falling",
+    "Yes, because gravity always accelerates",
+    "No, because the skydiver is not moving"
+   ],
+   "At terminal speed, air resistance balances gravity, so velocity stays constant."
+  ],
+  [
+   "A hockey player skates around the net in a curve without changing speed. Is the player accelerating?",
+   "Yes, because the direction is changing",
+   [
+    "No, because the speed stays the same",
+    "No, because ice has no friction",
+    "Yes, because the speed is increasing"
+   ],
+   "A change in direction is a change in velocity, so it is acceleration."
+  ],
+  [
+   "A subway train pulls into a station and comes to a stop. Is it accelerating while it stops?",
+   "Yes, because its speed is decreasing",
+   [
+    "No, because it is stopping",
+    "No, because it travels underground",
+    "Yes, because its direction is reversing"
+   ],
+   "Slowing down is a change in velocity, so the train accelerates."
+  ],
+  [
+   "The Moon orbits Earth. Is the Moon accelerating?",
+   "Yes, because its direction keeps changing",
+   [
+    "No, because it is far from Earth",
+    "No, because space has no air",
+    "Yes, because it is speeding up forever"
+   ],
+   "Moving in a curved orbit means the Moon's direction, and so its velocity, is always changing."
+  ]
+ ],
+ "sciNewton": [
+  [
+   "A person steps off a small boat onto a dock. What happens to the boat?",
+   "The boat moves away from the dock",
+   [
+    "The boat moves toward the dock",
+    "The boat stays perfectly still",
+    "The boat sinks straight down"
+   ],
+   "The person pushes the boat backward as they push themselves forward, so the boat moves the other way."
+  ],
+  [
+   "A cannon fires a cannonball forward. What happens to the cannon?",
+   "It recoils backward",
+   [
+    "It moves forward with the ball",
+    "It stays completely still",
+    "It lifts straight upward"
+   ],
+   "The cannon pushes the ball forward, and the ball pushes the cannon backward with an equal force."
+  ],
+  [
+   "You push on a box with 30 N. How hard does the box push on you?",
+   "30 N, in the opposite direction",
+   [
+    "30 N, in the same direction",
+    "15 N, in the opposite direction",
+    "0 N, because boxes cannot push"
+   ],
+   "Newton's third law says forces come in equal and opposite pairs."
+  ],
+  [
+   "A balloon is let go and air rushes out of the back. Which way does the balloon move?",
+   "Forward, away from the escaping air",
+   [
+    "Backward, with the escaping air",
+    "Straight down to the floor",
+    "It does not move at all"
+   ],
+   "The balloon pushes air out the back, and the air pushes the balloon the opposite way."
+  ],
+  [
+   "A person walks forward. Which way do their feet push on the ground?",
+   "Backward",
+   [
+    "Forward",
+    "Upward only",
+    "They do not push"
+   ],
+   "Your feet push the ground backward, and the ground pushes you forward."
+  ],
+  [
+   "A book rests on a table. The book pushes down on the table. What does the table do?",
+   "Pushes up on the book with an equal force",
+   [
+    "Pushes down on the book",
+    "Pulls the book sideways",
+    "Does nothing to the book"
+   ],
+   "The table exerts an equal and opposite upward force on the book."
+  ],
+  [
+   "A canoeist pushes the paddle backward through the water. What does the water do?",
+   "Pushes the canoe forward",
+   [
+    "Pushes the canoe backward",
+    "Pulls the canoe down",
+    "Stops the canoe from moving"
+   ],
+   "The water pushes forward on the paddle, moving the canoe forward."
+  ],
+  [
+   "A small car and a large truck collide. Which feels the larger force?",
+   "Both feel forces of the same size",
+   [
+    "The small car feels a larger force",
+    "The large truck feels a larger force",
+    "Neither vehicle feels any force"
+   ],
+   "By Newton's third law, the forces are equal and opposite, though the car accelerates more."
+  ],
+  [
+   "Two skaters stand face to face and push off each other. What happens?",
+   "They both move apart in opposite directions",
+   [
+    "Only the stronger skater moves",
+    "They both move in the same direction",
+    "Neither skater moves at all"
+   ],
+   "Each skater pushes the other, so both receive a force in opposite directions."
+  ],
+  [
+   "A jet engine pushes hot gas backward. What does the gas do to the plane?",
+   "Pushes the plane forward",
+   [
+    "Pushes the plane backward",
+    "Pulls the plane down",
+    "Has no effect on the plane"
+   ],
+   "The gas pushes back on the engine with an equal and opposite force, moving the plane forward."
+  ],
+  [
+   "A fish pushes water backward with its tail. What does the water do?",
+   "Pushes the fish forward",
+   [
+    "Pushes the fish backward",
+    "Pulls the fish to the bottom",
+    "Nothing at all"
+   ],
+   "The water pushes the fish forward with an equal and opposite force."
+  ],
+  [
+   "A soccer player kicks a ball. What does the ball do to the player's foot?",
+   "Pushes back on the foot with equal force",
+   [
+    "Pulls the foot forward",
+    "Pushes the foot with a smaller force",
+    "Exerts no force on the foot"
+   ],
+   "The ball exerts a force on the foot equal in size and opposite in direction."
+  ],
+  [
+   "A rifle is fired. Why does it push back against the shooter's shoulder?",
+   "The bullet pushes back on the rifle as the rifle pushes it forward",
+   [
+    "The rifle gets heavier when fired",
+    "Air pulls the rifle backward",
+    "The shoulder pushes the rifle forward"
+   ],
+   "The forces on the bullet and the rifle are an equal and opposite pair."
+  ],
+  [
+   "A swimmer pushes off the wall of a pool. What pushes the swimmer forward?",
+   "The wall pushing on the swimmer",
+   [
+    "The swimmer pushing on the wall",
+    "The water pulling the swimmer",
+    "Gravity pulling the swimmer"
+   ],
+   "The swimmer pushes the wall, and the wall pushes the swimmer forward."
+  ],
+  [
+   "A garden hose sprays water forward. What happens to the nozzle?",
+   "It is pushed backward",
+   [
+    "It is pushed forward",
+    "It is pulled downward",
+    "It feels no force"
+   ],
+   "The water is pushed out forward, so the water pushes the nozzle backward."
+  ],
+  [
+   "Earth pulls the Moon toward it with gravity. What does the Moon do to Earth?",
+   "Pulls Earth toward the Moon with an equal force",
+   [
+    "Pushes Earth away from it",
+    "Pulls Earth with a much smaller force",
+    "Exerts no force on Earth"
+   ],
+   "Gravitational forces also come in equal and opposite pairs."
+  ],
+  [
+   "A person on roller skates throws a heavy ball forward. What happens to the person?",
+   "They roll backward",
+   [
+    "They roll forward",
+    "They stay still",
+    "They spin in a circle"
+   ],
+   "The person pushes the ball forward, and the ball pushes the person backward."
+  ],
+  [
+   "A hockey stick hits a puck with a force of 40 N. What force does the puck exert on the stick?",
+   "40 N, in the opposite direction",
+   [
+    "40 N, in the same direction",
+    "20 N, in the opposite direction",
+    "80 N, in the opposite direction"
+   ],
+   "The puck pushes back on the stick with an equal and opposite force."
+  ],
+  [
+   "A squid shoots water out of its body backward. What happens to the squid?",
+   "It moves forward",
+   [
+    "It moves backward",
+    "It sinks",
+    "It stops moving"
+   ],
+   "Pushing water backward makes the water push the squid forward."
+  ],
+  [
+   "A helicopter's blades push air downward. What does the air do?",
+   "Pushes the helicopter upward",
+   [
+    "Pushes the helicopter downward",
+    "Pulls the helicopter sideways",
+    "Does nothing to the helicopter"
+   ],
+   "The air pushes back up on the blades, lifting the helicopter."
+  ],
+  [
+   "You lean against a tree and push on it. Why don't you fall into the tree?",
+   "The tree pushes back on you with an equal force",
+   [
+    "The tree pulls you toward it",
+    "You stop pushing as you lean",
+    "Gravity stops working on you"
+   ],
+   "The tree exerts an equal and opposite force that supports you."
+  ],
+  [
+   "A bowling ball hits a pin. Compared with the force the ball exerts on the pin, the force the pin exerts on the ball is…",
+   "equal and opposite",
+   [
+    "larger and opposite",
+    "smaller and in the same direction",
+    "zero"
+   ],
+   "Newton's third law says the forces between two objects are equal in size and opposite in direction."
+  ]
+ ],
+ "sciXsCarSafe": [
+  [
+   "Why do air bags inflate so quickly in a crash?",
+   "They must be in place before the person moves forward",
+   [
+    "To make a loud warning noise",
+    "To cool down the engine",
+    "To stop the car's wheels"
+   ],
+   "The bag must inflate in a fraction of a second to cushion the person before they hit the dashboard."
+  ],
+  [
+   "Why are side-curtain air bags useful?",
+   "They protect the head in side impacts and rollovers",
+   [
+    "They help the driver see behind",
+    "They keep the windows clean",
+    "They make the car faster"
+   ],
+   "Side-curtain air bags cushion the head when the car is hit from the side or rolls over."
+  ],
+  [
+   "What should happen to a seat belt after a serious crash?",
+   "It should be replaced",
+   [
+    "It should be washed",
+    "It should be tightened",
+    "It should be painted"
+   ],
+   "A seat belt that has stretched in a crash may not protect as well next time."
+  ],
+  [
+   "Why is it dangerous to place a rear-facing infant seat in front of an active air bag?",
+   "The inflating air bag can hit the seat with great force",
+   [
+    "The air bag will not inflate",
+    "The baby will be too warm",
+    "The car will not start"
+   ],
+   "Air bags inflate very forcefully, which can seriously injure a baby close to the dashboard."
+  ],
+  [
+   "Why do car crashes at higher speeds cause more damage?",
+   "The car has much more kinetic energy to absorb",
+   [
+    "The car becomes lighter at high speed",
+    "Seat belts stop working at high speed",
+    "Air bags inflate too slowly"
+   ],
+   "Kinetic energy increases with the square of speed, so faster crashes involve far more energy."
+  ],
+  [
+   "Why does a seat belt cross the hips and chest instead of the stomach?",
+   "Bones there can handle the stopping force better",
+   [
+    "The stomach is too far from the door",
+    "The belt looks better there",
+    "The chest is lighter than the stomach"
+   ],
+   "The pelvis and rib cage are strong and spread the force, while the soft stomach can be injured."
+  ],
+  [
+   "What is the job of the rigid passenger cage in a car?",
+   "To keep its shape and protect the people inside",
+   [
+    "To crumple as much as possible",
+    "To hold the engine in place",
+    "To make the car lighter"
+   ],
+   "The strong passenger compartment resists crushing while crumple zones absorb energy."
+  ],
+  [
+   "Why do booster seats help children who are too small for adult seat belts?",
+   "They raise the child so the belt fits across the hips and chest",
+   [
+    "They let the child see out the window",
+    "They make the car seat softer",
+    "They keep the child warmer"
+   ],
+   "A booster positions the belt over strong bones instead of the neck and stomach."
+  ],
+  [
+   "According to Newton's first law, what happens to a cup of coffee in a cup holder when a car turns sharply?",
+   "It tends to keep moving in a straight line",
+   [
+    "It moves into the turn with the car",
+    "It stops moving instantly",
+    "It floats upward"
+   ],
+   "Objects keep their motion unless a force changes it, so the coffee resists the turn."
+  ],
+  [
+   "Why are dashboards often padded?",
+   "Padding increases stopping time and reduces force on the body",
+   [
+    "Padding makes the car faster",
+    "Padding keeps the engine cool",
+    "Padding helps the radio work"
+   ],
+   "Softer surfaces slow a body more gradually, reducing the force of impact."
+  ],
+  [
+   "Why do bumpers absorb small impacts?",
+   "To reduce damage in low-speed collisions",
+   [
+    "To make the car look longer",
+    "To hold the licence plate",
+    "To make the car brake faster"
+   ],
+   "Bumpers are designed to absorb energy from minor bumps and protect the car's body."
+  ],
+  [
+   "Why does increasing the stopping time in a crash reduce injuries?",
+   "The same change in momentum over more time needs less force",
+   [
+    "It makes the car heavier",
+    "It removes the car's momentum instantly",
+    "It increases the car's speed"
+   ],
+   "Spreading the change in motion over a longer time lowers the force on the passengers."
+  ],
+  [
+   "Why do engineers use crash-test dummies?",
+   "To measure forces on the body safely in crash tests",
+   [
+    "To drive cars on real roads",
+    "To replace seat belts in cars",
+    "To make crashes happen faster"
+   ],
+   "Dummies have sensors that record forces in a crash without risking real people."
+  ],
+  [
+   "Why is stopping distance longer on icy roads?",
+   "There is less friction between the tires and road",
+   [
+    "Ice makes the car heavier",
+    "Ice increases the brake force",
+    "Cold air pushes the car forward"
+   ],
+   "Less friction means the tires cannot slow the car as quickly."
+  ],
+  [
+   "Why should heavy objects be secured in a car's trunk or cargo area?",
+   "Loose objects keep moving in a crash and can hit people",
+   [
+    "Heavy objects slow the car down",
+    "Loose objects make the car lighter",
+    "Secured objects make the engine stronger"
+   ],
+   "By Newton's first law, unsecured objects keep moving forward when the car stops suddenly."
+  ],
+  [
+   "What does electronic stability control do?",
+   "It helps prevent skidding by braking individual wheels",
+   [
+    "It inflates the air bags",
+    "It locks all the doors",
+    "It turns on the headlights"
+   ],
+   "Stability control senses when the car begins to skid and brakes wheels to help keep control."
+  ],
+  [
+   "Why do cars have laminated windshields made of glass layers with plastic in between?",
+   "The glass holds together instead of shattering into pieces",
+   [
+    "The windshield becomes a mirror",
+    "The glass gets hotter in the sun",
+    "The windshield can bend like rubber"
+   ],
+   "The plastic layer keeps broken glass stuck together, protecting people from sharp pieces."
+  ],
+  [
+   "Why does a heavier truck take longer to stop than a small car at the same speed?",
+   "It has more momentum to change",
+   [
+    "It has less friction on the road",
+    "It has smaller brakes",
+    "It moves faster at the same speed"
+   ],
+   "More mass at the same speed means more momentum, which takes more force or time to stop."
+  ],
+  [
+   "Why are side-impact beams built into car doors?",
+   "To resist crushing when the car is hit from the side",
+   [
+    "To make the doors open faster",
+    "To hold the windows up",
+    "To make the car lighter"
+   ],
+   "Strong beams in the doors help protect passengers in side collisions."
+  ],
+  [
+   "Why does a seat belt pretensioner tighten the belt at the start of a crash?",
+   "To remove slack so the person is held in place sooner",
+   [
+    "To make the belt easier to unbuckle",
+    "To stretch the belt for comfort",
+    "To warn the driver with a sound"
+   ],
+   "Removing slack lets the belt start slowing the person right away."
+  ],
+  [
+   "In a crash, why is it safer to be slowed by an air bag than by the steering wheel?",
+   "The air bag slows the person over a longer time and area",
+   [
+    "The air bag is harder than the wheel",
+    "The steering wheel moves away from the driver",
+    "The air bag makes the car stop sooner"
+   ],
+   "Spreading the force over more time and a larger area reduces injury."
+  ],
+  [
+   "Why does driving slower in bad weather improve safety?",
+   "It reduces stopping distance and crash energy",
+   [
+    "It increases the car's momentum",
+    "It makes air bags inflate faster",
+    "It makes the road less slippery"
+   ],
+   "Lower speed means less momentum and kinetic energy, so the car can stop sooner and crashes are less severe."
+  ]
+ ],
+ "sciCondIns": [
+  [
+   "Which of these is an electrical conductor?",
+   "A brass key",
+   [
+    "A rubber eraser",
+    "A wool sock",
+    "A plastic cup"
+   ],
+   "Brass is a metal, and metals let electricity flow easily."
+  ],
+  [
+   "Which of these is an electrical insulator?",
+   "A plastic spoon",
+   [
+    "A copper penny",
+    "A steel paper clip",
+    "An aluminum pie plate"
+   ],
+   "Plastic does not let electricity flow easily, so it is an insulator."
+  ],
+  [
+   "Which of these is an electrical conductor?",
+   "A gold necklace",
+   [
+    "A glass jar",
+    "A wooden spoon",
+    "A cotton shirt"
+   ],
+   "Gold is a metal and conducts electricity very well."
+  ],
+  [
+   "Which of these is an electrical insulator?",
+   "A rubber boot",
+   [
+    "A tin can",
+    "A silver fork",
+    "An iron nail"
+   ],
+   "Rubber is an insulator because it does not let charge flow easily."
+  ],
+  [
+   "Which of these is an electrical conductor?",
+   "An iron frying pan",
+   [
+    "A paper towel",
+    "A styrofoam cup",
+    "A rubber glove"
+   ],
+   "Iron is a metal, so it conducts electricity."
+  ],
+  [
+   "Which of these is an electrical insulator?",
+   "A porcelain mug",
+   [
+    "A copper pipe",
+    "A steel spoon",
+    "An aluminum foil sheet"
+   ],
+   "Porcelain is a ceramic, which is an insulator."
+  ],
+  [
+   "Which of these is an electrical insulator?",
+   "A dry leather belt",
+   [
+    "A steel belt buckle",
+    "A brass doorknob",
+    "A copper wire"
+   ],
+   "Dry leather does not let electricity flow easily."
+  ],
+  [
+   "Which of these is an electrical conductor?",
+   "A metal coin",
+   [
+    "A dry cork",
+    "A plastic button",
+    "A wax candle"
+   ],
+   "Metal coins let electricity flow, so they are conductors."
+  ],
+  [
+   "Why are electrical wires covered in plastic?",
+   "Plastic is an insulator that keeps current in the wire",
+   [
+    "Plastic helps the current flow faster",
+    "Plastic is a conductor that adds power",
+    "Plastic makes the wire magnetic"
+   ],
+   "The plastic insulation stops electricity from reaching people or other wires."
+  ],
+  [
+   "Why are the inside parts of wires usually made of copper?",
+   "Copper is a good conductor",
+   [
+    "Copper is a good insulator",
+    "Copper does not let charge flow",
+    "Copper is see-through"
+   ],
+   "Copper lets electric current flow easily, so it makes good wire."
+  ],
+  [
+   "Why do electricians wear rubber-soled boots?",
+   "Rubber is an insulator that helps protect them from shocks",
+   [
+    "Rubber conducts electricity away safely",
+    "Rubber makes the boots magnetic",
+    "Rubber makes the current stronger"
+   ],
+   "Rubber resists the flow of electricity, adding a layer of protection."
+  ],
+  [
+   "A bulb lights when a steel paper clip completes a circuit. What does this show about steel?",
+   "It is a conductor",
+   [
+    "It is an insulator",
+    "It is a magnet",
+    "It stores electricity"
+   ],
+   "If the bulb lights, current can flow through the material, so it conducts."
+  ],
+  [
+   "A bulb stays off when a rubber band is placed in a circuit gap. What does this show about rubber?",
+   "It is an insulator",
+   [
+    "It is a conductor",
+    "It is a battery",
+    "It is a magnet"
+   ],
+   "If no current flows, the material is an insulator."
+  ],
+  [
+   "Which group contains only conductors?",
+   "Copper, silver, aluminum",
+   [
+    "Copper, rubber, glass",
+    "Plastic, wood, silver",
+    "Glass, cotton, rubber"
+   ],
+   "Copper, silver and aluminum are all metals that conduct electricity."
+  ],
+  [
+   "Which group contains only insulators?",
+   "Rubber, glass, plastic",
+   [
+    "Rubber, copper, glass",
+    "Steel, wood, plastic",
+    "Gold, glass, rubber"
+   ],
+   "Rubber, glass and plastic all resist the flow of electricity."
+  ],
+  [
+   "Why do the handles of many electrical tools have plastic or rubber grips?",
+   "The grips are insulators that protect the user",
+   [
+    "The grips conduct current to the tool",
+    "The grips make the tools heavier",
+    "The grips store electricity"
+   ],
+   "Insulating grips help keep current from flowing through the person holding the tool."
+  ],
+  [
+   "Why is it dangerous to use electrical devices with wet hands?",
+   "Water with dissolved salts can conduct electricity",
+   [
+    "Water is a perfect insulator",
+    "Wet hands block all current",
+    "Water turns electricity into heat only"
+   ],
+   "Water on skin usually has dissolved substances that let current flow, increasing the risk of shock."
+  ],
+  [
+   "Which material is used in a circuit to let electricity flow from a battery to a bulb?",
+   "A metal wire",
+   [
+    "A rubber band",
+    "A plastic straw",
+    "A wooden stick"
+   ],
+   "Metal wires are conductors that carry current around a circuit."
+  ],
+  [
+   "Which of these is an electrical insulator?",
+   "A glass window",
+   [
+    "A steel railing",
+    "An aluminum ladder",
+    "A copper pot"
+   ],
+   "Glass is an insulator and does not let electricity flow easily."
+  ],
+  [
+   "Which of these is an electrical conductor?",
+   "An aluminum baseball bat",
+   [
+    "A wooden baseball bat",
+    "A rubber ball",
+    "A leather glove"
+   ],
+   "Aluminum is a metal, so it conducts electricity."
+  ],
+  [
+   "Why are power lines held on poles by glass or ceramic pieces?",
+   "Glass and ceramic are insulators that stop current reaching the pole",
+   [
+    "They help current flow into the pole",
+    "They make the wires magnetic",
+    "They store extra electricity"
+   ],
+   "Insulators keep the electricity in the wires instead of flowing into the poles."
+  ],
+  [
+   "What makes a material a good electrical conductor?",
+   "It lets electric charge flow through it easily",
+   [
+    "It stops electric charge from moving",
+    "It always feels warm to touch",
+    "It is always heavy"
+   ],
+   "Conductors allow electric charges to move through them easily."
+  ]
+ ],
+ "sciStatic": [
+  [
+   "Two balloons both have a positive charge. What happens when they are brought close?",
+   "They repel.",
+   [
+    "They attract.",
+    "They stick together.",
+    "Nothing happens."
+   ],
+   "Like charges repel each other."
+  ],
+  [
+   "A negatively charged comb is held near a positively charged piece of paper. What happens?",
+   "They attract.",
+   [
+    "They repel.",
+    "The paper melts.",
+    "Nothing happens."
+   ],
+   "Opposite charges attract each other."
+  ],
+  [
+   "Which particles move from one object to another when objects are rubbed together?",
+   "Electrons",
+   [
+    "Protons",
+    "Neutrons",
+    "Atoms"
+   ],
+   "Electrons can be transferred by rubbing; protons stay in the nucleus."
+  ],
+  [
+   "An object gains extra electrons. What is its charge?",
+   "Negative",
+   [
+    "Positive",
+    "Neutral",
+    "Magnetic"
+   ],
+   "Electrons are negative, so gaining extra electrons makes an object negatively charged."
+  ],
+  [
+   "An object loses some electrons. What is its charge?",
+   "Positive",
+   [
+    "Negative",
+    "Neutral",
+    "Magnetic"
+   ],
+   "Losing negative electrons leaves more protons than electrons, so the object is positive."
+  ],
+  [
+   "An object has equal numbers of protons and electrons. What is its charge?",
+   "Neutral",
+   [
+    "Positive",
+    "Negative",
+    "Magnetic"
+   ],
+   "Equal positive and negative charges cancel out, so the object is neutral."
+  ],
+  [
+   "Why does your hair stand up after you pull off a wool hat?",
+   "Each hair gets the same charge, so they repel.",
+   [
+    "The hair is pulled by gravity.",
+    "The hat makes the hair magnetic.",
+    "Each hair gets opposite charges."
+   ],
+   "Hairs with like charges push away from each other."
+  ],
+  [
+   "Why do clothes sometimes cling together after coming out of a dryer?",
+   "Rubbing gives them opposite charges.",
+   [
+    "The dryer makes them wet.",
+    "The clothes become magnetic.",
+    "The clothes get the same charge."
+   ],
+   "Tumbling transfers electrons between fabrics, and opposite charges attract."
+  ],
+  [
+   "A charged balloon picks up small bits of paper. Why?",
+   "The balloon's charge attracts the paper.",
+   [
+    "The paper is magnetic.",
+    "The balloon is sticky.",
+    "The paper is heavier."
+   ],
+   "A charged object can attract neutral light objects such as bits of paper."
+  ],
+  [
+   "What is static electricity?",
+   "A build-up of charge on an object",
+   [
+    "Current flowing in a circuit",
+    "Electricity from a battery",
+    "Energy stored in a magnet"
+   ],
+   "Static electricity is charge that collects on an object rather than flowing."
+  ],
+  [
+   "Why are shocks from static electricity more common in winter in Canada?",
+   "Dry air lets charge build up more easily.",
+   [
+    "Cold air makes electrons heavier.",
+    "Snow creates electric currents.",
+    "Winter clothes are magnetic."
+   ],
+   "Humid air helps charge leak away, but dry winter air lets it build up."
+  ],
+  [
+   "Which device is used to detect static charge?",
+   "Electroscope",
+   [
+    "Thermometer",
+    "Barometer",
+    "Microscope"
+   ],
+   "An electroscope's leaves spread apart when it is charged."
+  ],
+  [
+   "When you touch a charged electroscope with your finger, the leaves fall. Why?",
+   "The charge flows through you to the ground.",
+   [
+    "Your finger adds more charge.",
+    "Your finger is magnetic.",
+    "The leaves get too heavy."
+   ],
+   "Touching it grounds the electroscope, letting the extra charge escape."
+  ],
+  [
+   "What is grounding?",
+   "Letting extra charge flow into the ground",
+   [
+    "Burying a battery in the soil",
+    "Making an object magnetic",
+    "Adding protons to an object"
+   ],
+   "Grounding gives charge a path to the Earth so it does not build up."
+  ],
+  [
+   "Why do buildings have lightning rods?",
+   "To carry lightning's charge safely to the ground",
+   [
+    "To attract rain to the roof",
+    "To make lightning brighter",
+    "To store electricity for later"
+   ],
+   "A lightning rod gives charge a safe path to the ground, protecting the building."
+  ],
+  [
+   "Which pair of charges will attract?",
+   "Positive and negative",
+   [
+    "Positive and positive",
+    "Negative and negative",
+    "Neutral and neutral"
+   ],
+   "Only opposite charges attract each other."
+  ],
+  [
+   "A rubbed plastic rod repels a charged balloon. The balloon is negative. What is the rod's charge?",
+   "Negative",
+   [
+    "Positive",
+    "Neutral",
+    "Magnetic"
+   ],
+   "Repulsion happens between like charges, so the rod must also be negative."
+  ],
+  [
+   "A rubbed glass rod has a positive charge. It is held near a negatively charged balloon. What happens?",
+   "They attract.",
+   [
+    "They repel.",
+    "Both become neutral.",
+    "Nothing happens."
+   ],
+   "Opposite charges attract each other."
+  ],
+  [
+   "Why does a doorknob shock you only once and not again right away?",
+   "The extra charge was used up in the spark.",
+   [
+    "The doorknob became magnetic.",
+    "Your hand became colder.",
+    "The spark added more charge."
+   ],
+   "The spark lets the built-up charge escape, so there is none left until more builds up."
+  ],
+  [
+   "Why should you avoid standing under a tall tree during a thunderstorm?",
+   "Lightning tends to strike tall objects.",
+   [
+    "Trees attract rain clouds.",
+    "Trees store static charge for weeks.",
+    "Leaves block radio signals."
+   ],
+   "Lightning often strikes the tallest object, and the charge can jump to people nearby."
+  ],
+  [
+   "What happens inside a thundercloud to cause lightning?",
+   "Charges separate, and a big discharge occurs.",
+   [
+    "Water freezes into magnets.",
+    "Clouds burn like a fire.",
+    "Wind turns into electricity."
+   ],
+   "Collisions between ice and water particles separate charge until it discharges as lightning."
+  ],
+  [
+   "What happens when you rub a balloon on a wool sweater?",
+   "Electrons move from the wool to the balloon.",
+   [
+    "Protons move from the balloon to the wool.",
+    "The balloon loses all its electrons.",
+    "The wool becomes magnetic."
+   ],
+   "The balloon gains electrons from the wool and becomes negatively charged."
+  ]
+ ],
+ "sciXsPMTemp": [
+  [
+   "A cup of hot cocoa sits on a table and cools. How do its particles move, and what happens to the temperature?",
+   "They move slower; temperature decreases",
+   [
+    "They move faster; temperature decreases",
+    "They move slower; temperature increases",
+    "They stop moving; temperature stays the same"
+   ],
+   "As the cocoa loses energy, its particles slow down and the temperature drops."
+  ],
+  [
+   "A pot of water is heated on a stove. How do the water particles move, and what happens to the temperature?",
+   "They move faster; temperature increases",
+   [
+    "They move slower; temperature increases",
+    "They move faster; temperature decreases",
+    "They stop moving; temperature increases"
+   ],
+   "Adding heat gives particles more kinetic energy, raising the temperature."
+  ],
+  [
+   "An ice cube is taken out of the freezer and warms toward 0 °C. How do its particles move?",
+   "They vibrate faster",
+   [
+    "They vibrate slower",
+    "They stop moving completely",
+    "They leave the ice instantly"
+   ],
+   "As the ice warms, its particles gain energy and vibrate faster in place."
+  ],
+  [
+   "Sample X is at 20 °C and Sample Y is at 70 °C. Which sample's particles move faster on average?",
+   "Sample Y",
+   [
+    "Sample X",
+    "They move at the same speed",
+    "Neither sample's particles move"
+   ],
+   "Higher temperature means higher average particle kinetic energy."
+  ],
+  [
+   "Which statement about the particles in a cold substance is true?",
+   "They still move, but more slowly",
+   [
+    "They do not move at all",
+    "They move faster than in hot substances",
+    "They grow larger"
+   ],
+   "Particles are always moving; colder particles just move more slowly."
+  ],
+  [
+   "A metal spoon is placed in hot soup. What happens to the particles in the spoon?",
+   "They gain energy and vibrate faster",
+   [
+    "They lose energy and slow down",
+    "They become larger in size",
+    "They stop vibrating"
+   ],
+   "Energy from the soup transfers to the spoon's particles, so they vibrate faster and the spoon warms."
+  ],
+  [
+   "When a warm hand touches a cold window, what happens to the particles of the glass?",
+   "They speed up as they gain energy",
+   [
+    "They slow down as they gain energy",
+    "They speed up as they lose energy",
+    "They do not change at all"
+   ],
+   "Energy flows from the warm hand to the glass, making its particles move faster."
+  ],
+  [
+   "Two cups of water have the same temperature. One is large and one is small. How does the average particle motion compare?",
+   "It is the same in both cups",
+   [
+    "It is faster in the large cup",
+    "It is faster in the small cup",
+    "Only the small cup's particles move"
+   ],
+   "Temperature measures average kinetic energy, which is the same at equal temperatures."
+  ],
+  [
+   "What happens to the particles of a puddle as the Sun warms it?",
+   "They move faster, and some escape as vapour",
+   [
+    "They move slower and freeze",
+    "They stop moving and sink",
+    "They shrink and disappear"
+   ],
+   "Warming gives particles more energy, and the fastest ones escape the surface by evaporation."
+  ],
+  [
+   "A lake freezes in winter. How does the motion of the water particles change?",
+   "They slow down and lock into place",
+   [
+    "They speed up and spread apart",
+    "They stop existing",
+    "They move faster and become ice"
+   ],
+   "As water loses energy, its particles slow until they form the solid structure of ice."
+  ],
+  [
+   "Why does a thermometer's liquid rise when it gets warmer?",
+   "Its particles move faster and spread apart",
+   [
+    "Its particles shrink in size",
+    "Its particles stop moving",
+    "Its particles become heavier"
+   ],
+   "Faster-moving particles take up more space, so the liquid expands up the tube."
+  ],
+  [
+   "Which has particles with the lowest average kinetic energy?",
+   "Water at 5 °C",
+   [
+    "Water at 25 °C",
+    "Water at 50 °C",
+    "Water at 90 °C"
+   ],
+   "The lowest temperature has the slowest average particle motion."
+  ],
+  [
+   "Which has particles with the highest average kinetic energy?",
+   "Air at 40 °C",
+   [
+    "Air at −10 °C",
+    "Air at 0 °C",
+    "Air at 15 °C"
+   ],
+   "The highest temperature means the fastest average particle motion."
+  ],
+  [
+   "A frozen pizza is put in a hot oven. How do its particles move, and what happens to the temperature?",
+   "They move faster; temperature increases",
+   [
+    "They move slower; temperature increases",
+    "They move faster; temperature decreases",
+    "They stop moving; temperature decreases"
+   ],
+   "Heat from the oven gives the pizza's particles more energy."
+  ],
+  [
+   "A hot iron is unplugged and left to sit. How do its particles move, and what happens to the temperature?",
+   "They move slower; temperature decreases",
+   [
+    "They move faster; temperature decreases",
+    "They move slower; temperature increases",
+    "They stop moving; temperature increases"
+   ],
+   "The iron loses energy to its surroundings, so its particles slow down."
+  ],
+  [
+   "Energy always flows from a hotter object to a colder one. What happens to the particles of the colder object?",
+   "They speed up",
+   [
+    "They slow down",
+    "They stop moving",
+    "They disappear"
+   ],
+   "The colder object gains energy, so its particles move faster."
+  ],
+  [
+   "Why does rubbing your hands together make them warm?",
+   "Friction makes the particles in your skin move faster",
+   [
+    "Rubbing removes particles from your skin",
+    "Rubbing makes the particles stop",
+    "Rubbing cools the air around your hands"
+   ],
+   "Work from friction becomes thermal energy, speeding up particles."
+  ],
+  [
+   "A cold drink is left in a warm room. Over time, what happens?",
+   "Its particles speed up until it reaches room temperature",
+   [
+    "Its particles slow down forever",
+    "It gets colder than the room",
+    "Its particles stop moving"
+   ],
+   "The drink gains energy from the room until both are at the same temperature."
+  ],
+  [
+   "What is absolute zero?",
+   "The temperature at which particles have the least possible motion",
+   [
+    "The temperature at which water freezes",
+    "The temperature of outer space",
+    "The temperature at which water boils"
+   ],
+   "Absolute zero (−273 °C) is the lowest possible temperature, where particle motion is at a minimum."
+  ],
+  [
+   "A bowl of soup at 80 °C and a bathtub of water at 40 °C are compared. Which has faster-moving particles on average?",
+   "The soup",
+   [
+    "The bathtub",
+    "Both are the same",
+    "Neither has moving particles"
+   ],
+   "The soup is at a higher temperature, so its particles move faster on average."
+  ],
+  [
+   "Snow on a sunny roof begins to melt. How do the particles in the snow move?",
+   "They move faster as they absorb energy",
+   [
+    "They move slower as they absorb energy",
+    "They stop as they melt",
+    "They move faster as they lose energy"
+   ],
+   "Absorbing energy from sunlight makes the particles move faster until the solid melts."
+  ],
+  [
+   "Which tool measures how fast particles are moving on average?",
+   "A thermometer",
+   [
+    "A balance",
+    "A ruler",
+    "A graduated cylinder"
+   ],
+   "A thermometer measures temperature, which reflects the average kinetic energy of particles."
+  ]
+ ]
+}

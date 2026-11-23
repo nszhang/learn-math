@@ -1,0 +1,2278 @@
+[
+ {
+  "key": "engXPpPc",
+  "subject": "english",
+  "title": "Choose the best location word to match the picture",
+  "section": "Location words",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXPpPc0",
+   "engXPpPc1",
+   "engXPpPc2"
+  ],
+  "examples": [
+   {
+    "question": "🐱⬆️📦 The cat is ___ the box.",
+    "answer": "on",
+    "choices": [
+     "on",
+     "under",
+     "behind",
+     "in"
+    ]
+   },
+   {
+    "question": "🐶⬇️🛏️ The dog is ___ the bed.",
+    "answer": "under",
+    "choices": [
+     "in",
+     "under",
+     "above",
+     "on"
+    ]
+   },
+   {
+    "question": "🧸➡️🛋️ The bear is ___ the sofa.",
+    "answer": "beside",
+    "choices": [
+     "on",
+     "under",
+     "beside",
+     "above"
+    ]
+   },
+   {
+    "question": "🐦☁️ The bird flies ___ the clouds.",
+    "answer": "above",
+    "choices": [
+     "beside",
+     "in",
+     "under",
+     "above"
+    ]
+   },
+   {
+    "question": "🐟🫙 The fish is ___ the jar.",
+    "answer": "in",
+    "choices": [
+     "under",
+     "beside",
+     "on",
+     "in"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXWh",
+  "subject": "english",
+  "title": "Who, what, when, where or why?",
+  "section": "Question words",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engXWh50",
+   "engXWh51"
+  ],
+  "examples": [
+   {
+    "question": "Which question word asks about a person?",
+    "answer": "Who",
+    "choices": [
+     "What",
+     "Where",
+     "When",
+     "Who"
+    ]
+   },
+   {
+    "question": "___ do you live? In Calgary.",
+    "answer": "Where",
+    "choices": [
+     "Who",
+     "Why",
+     "Where",
+     "When"
+    ]
+   },
+   {
+    "question": "___ is at the door? It is Grandma!",
+    "answer": "Who",
+    "choices": [
+     "What",
+     "Who",
+     "Why",
+     "Where"
+    ]
+   },
+   {
+    "question": "___ is your name?",
+    "answer": "What",
+    "choices": [
+     "When",
+     "What",
+     "Who",
+     "Where"
+    ]
+   },
+   {
+    "question": "Which question word asks for a reason?",
+    "answer": "Why",
+    "choices": [
+     "Who",
+     "Why",
+     "What",
+     "Where"
+    ]
+   },
+   {
+    "question": "___ is lunch? At noon.",
+    "answer": "When",
+    "choices": [
+     "What",
+     "When",
+     "Where",
+     "Who"
+    ]
+   },
+   {
+    "question": "Which question word asks about a place?",
+    "answer": "Where",
+    "choices": [
+     "Where",
+     "When",
+     "Why",
+     "Who"
+    ]
+   },
+   {
+    "question": "Which question word asks about a time?",
+    "answer": "When",
+    "choices": [
+     "What",
+     "Where",
+     "Who",
+     "When"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSynM",
+  "subject": "english",
+  "title": "Match synonyms",
+  "section": "Synonyms and antonyms",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXSynM0"
+  ],
+  "examples": [
+   {
+    "question": "Which word means the same as fast ?",
+    "answer": "quick",
+    "choices": [
+     "quick",
+     "large",
+     "little",
+     "glad"
+    ]
+   },
+   {
+    "question": "Which word means the same as jump ?",
+    "answer": "hop",
+    "choices": [
+     "hop",
+     "glad",
+     "little",
+     "large"
+    ]
+   },
+   {
+    "question": "Which word means the same as happy ?",
+    "answer": "glad",
+    "choices": [
+     "hop",
+     "large",
+     "quick",
+     "glad"
+    ]
+   },
+   {
+    "question": "Which word means the same as shut ?",
+    "answer": "close",
+    "choices": [
+     "glad",
+     "quick",
+     "little",
+     "close"
+    ]
+   },
+   {
+    "question": "Which word means the same as small ?",
+    "answer": "little",
+    "choices": [
+     "hop",
+     "quick",
+     "close",
+     "little"
+    ]
+   },
+   {
+    "question": "Which word means the same as big ?",
+    "answer": "large",
+    "choices": [
+     "large",
+     "glad",
+     "close",
+     "quick"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXMmPc",
+  "subject": "english",
+  "title": "Multiple-meaning words with pictures",
+  "section": "Multiple-meaning words",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXMmPc0",
+   "engXMmPc1",
+   "engXMmPc2"
+  ],
+  "examples": [
+   {
+    "question": "Which picture matches the underlined word? The dog let out a loud bark .",
+    "answer": "🐕",
+    "choices": [
+     "🐕",
+     "🌳"
+    ]
+   },
+   {
+    "question": "Which picture matches the underlined word? I wear a watch on my wrist.",
+    "answer": "⌚",
+    "choices": [
+     "👀",
+     "⌚"
+    ]
+   },
+   {
+    "question": "Which picture matches the underlined word? He swung the bat at the ball.",
+    "answer": "🏏",
+    "choices": [
+     "🦇",
+     "🏏"
+    ]
+   },
+   {
+    "question": "Which picture matches the underlined word? The tree has rough bark .",
+    "answer": "🌳",
+    "choices": [
+     "🌳",
+     "🐕"
+    ]
+   },
+   {
+    "question": "Which picture matches the underlined word? She wore a gold ring .",
+    "answer": "💍",
+    "choices": [
+     "💍",
+     "🔔"
+    ]
+   },
+   {
+    "question": "Which picture matches the underlined word? A big wave hit the beach.",
+    "answer": "🌊",
+    "choices": [
+     "🌊",
+     "👋"
+    ]
+   },
+   {
+    "question": "Which picture matches the underlined word? The bat flew out of the cave.",
+    "answer": "🦇",
+    "choices": [
+     "🏏",
+     "🦇"
+    ]
+   },
+   {
+    "question": "Which picture matches the underlined word? A fly landed on the cake.",
+    "answer": "🪰",
+    "choices": [
+     "✈️",
+     "🪰"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTell",
+  "subject": "english",
+  "title": "Is it a telling sentence or an asking sentence?",
+  "section": "Sentences",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXTell0"
+  ],
+  "examples": [
+   {
+    "question": "Do you like apples? Is it a telling sentence or an asking sentence?",
+    "answer": "Asking sentence",
+    "choices": [
+     "Asking sentence",
+     "Telling sentence"
+    ]
+   },
+   {
+    "question": "Is the dog brown? Is it a telling sentence or an asking sentence?",
+    "answer": "Asking sentence",
+    "choices": [
+     "Telling sentence",
+     "Asking sentence"
+    ]
+   },
+   {
+    "question": "It is cold. Is it a telling sentence or an asking sentence?",
+    "answer": "Telling sentence",
+    "choices": [
+     "Telling sentence",
+     "Asking sentence"
+    ]
+   },
+   {
+    "question": "We go to school. Is it a telling sentence or an asking sentence?",
+    "answer": "Telling sentence",
+    "choices": [
+     "Asking sentence",
+     "Telling sentence"
+    ]
+   },
+   {
+    "question": "I like apples. Is it a telling sentence or an asking sentence?",
+    "answer": "Telling sentence",
+    "choices": [
+     "Asking sentence",
+     "Telling sentence"
+    ]
+   },
+   {
+    "question": "Is it cold? Is it a telling sentence or an asking sentence?",
+    "answer": "Asking sentence",
+    "choices": [
+     "Asking sentence",
+     "Telling sentence"
+    ]
+   },
+   {
+    "question": "Can we go now? Is it a telling sentence or an asking sentence?",
+    "answer": "Asking sentence",
+    "choices": [
+     "Asking sentence",
+     "Telling sentence"
+    ]
+   },
+   {
+    "question": "The dog is brown. Is it a telling sentence or an asking sentence?",
+    "answer": "Telling sentence",
+    "choices": [
+     "Asking sentence",
+     "Telling sentence"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPUN",
+  "subject": "english",
+  "title": "Identify and use end marks",
+  "section": "Sentences",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engPUN0",
+   "engPUN1"
+  ],
+  "examples": [
+   {
+    "question": "Which end mark goes at the end? What is your name",
+    "answer": "Question mark ?",
+    "choices": [
+     "Question mark ?",
+     "Exclamation mark !",
+     "Period ."
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? Where is my hat",
+    "answer": "Question mark ?",
+    "choices": [
+     "Period .",
+     "Exclamation mark !",
+     "Question mark ?"
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? Help, a bee is on me",
+    "answer": "Exclamation mark !",
+    "choices": [
+     "Period .",
+     "Exclamation mark !",
+     "Question mark ?"
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? Wow, that is huge",
+    "answer": "Exclamation mark !",
+    "choices": [
+     "Period .",
+     "Exclamation mark !",
+     "Question mark ?"
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? Can we play outside",
+    "answer": "Question mark ?",
+    "choices": [
+     "Exclamation mark !",
+     "Period .",
+     "Question mark ?"
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? I won the game",
+    "answer": "Exclamation mark !",
+    "choices": [
+     "Question mark ?",
+     "Exclamation mark !",
+     "Period ."
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? The cat is sleeping",
+    "answer": "Period .",
+    "choices": [
+     "Question mark ?",
+     "Exclamation mark !",
+     "Period ."
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? We went to the zoo",
+    "answer": "Period .",
+    "choices": [
+     "Exclamation mark !",
+     "Question mark ?",
+     "Period ."
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? I like pizza",
+    "answer": "Period .",
+    "choices": [
+     "Period .",
+     "Question mark ?",
+     "Exclamation mark !"
+    ]
+   },
+   {
+    "question": "Which end mark goes at the end? How old are you",
+    "answer": "Question mark ?",
+    "choices": [
+     "Period .",
+     "Exclamation mark !",
+     "Question mark ?"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAvImg",
+  "subject": "english",
+  "title": "Find the action verb with images",
+  "section": "Verbs",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXAvImg0"
+  ],
+  "examples": [
+   {
+    "question": "💃 Which word is the action?",
+    "answer": "dance",
+    "choices": [
+     "dance",
+     "soft",
+     "tree",
+     "big"
+    ]
+   },
+   {
+    "question": "😴 Which word is the action?",
+    "answer": "sleep",
+    "choices": [
+     "red",
+     "tree",
+     "sleep",
+     "dog"
+    ]
+   },
+   {
+    "question": "🤸 Which word is the action?",
+    "answer": "jump",
+    "choices": [
+     "big",
+     "jump",
+     "dog",
+     "happy"
+    ]
+   },
+   {
+    "question": "🎤 Which word is the action?",
+    "answer": "sing",
+    "choices": [
+     "soft",
+     "red",
+     "big",
+     "sing"
+    ]
+   },
+   {
+    "question": "🧗 Which word is the action?",
+    "answer": "climb",
+    "choices": [
+     "dog",
+     "happy",
+     "red",
+     "climb"
+    ]
+   },
+   {
+    "question": "🍽️ Which word is the action?",
+    "answer": "eat",
+    "choices": [
+     "tree",
+     "soft",
+     "eat",
+     "big"
+    ]
+   },
+   {
+    "question": "🏃 Which word is the action?",
+    "answer": "run",
+    "choices": [
+     "soft",
+     "happy",
+     "run",
+     "dog"
+    ]
+   },
+   {
+    "question": "📖 Which word is the action?",
+    "answer": "read",
+    "choices": [
+     "read",
+     "tree",
+     "red",
+     "big"
+    ]
+   },
+   {
+    "question": "🏊 Which word is the action?",
+    "answer": "swim",
+    "choices": [
+     "big",
+     "swim",
+     "happy",
+     "tree"
+    ]
+   },
+   {
+    "question": "✍️ Which word is the action?",
+    "answer": "write",
+    "choices": [
+     "soft",
+     "big",
+     "red",
+     "write"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engVbAc",
+  "subject": "english",
+  "title": "Find the action verb",
+  "section": "Verbs",
+  "grades": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engVbAc0",
+   "engVbAc1",
+   "engVbAc2",
+   "engVbAc3",
+   "engVbAc4"
+  ],
+  "examples": [
+   {
+    "question": "Which word is the action verb? Birds fly south.",
+    "answer": "fly",
+    "choices": [
+     "fly",
+     "south",
+     "Birds"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? The dog barked loudly.",
+    "answer": "barked",
+    "choices": [
+     "barked",
+     "loudly",
+     "dog"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? We swim in the lake.",
+    "answer": "swim",
+    "choices": [
+     "swim",
+     "lake",
+     "We",
+     "in"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? Maya kicked the ball.",
+    "answer": "kicked",
+    "choices": [
+     "kicked",
+     "Maya",
+     "ball"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? She jumps over the puddle.",
+    "answer": "jumps",
+    "choices": [
+     "jumps",
+     "puddle",
+     "over",
+     "She"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? I hugged my grandma.",
+    "answer": "hugged",
+    "choices": [
+     "grandma",
+     "my",
+     "hugged"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? The chef chopped the onions.",
+    "answer": "chopped",
+    "choices": [
+     "chopped",
+     "chef",
+     "onions"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? The baby laughed.",
+    "answer": "laughed",
+    "choices": [
+     "laughed",
+     "baby"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? Tom painted a picture.",
+    "answer": "painted",
+    "choices": [
+     "picture",
+     "painted",
+     "Tom"
+    ]
+   },
+   {
+    "question": "Which word is the action verb? The kids danced at the party.",
+    "answer": "danced",
+    "choices": [
+     "danced",
+     "kids",
+     "at",
+     "party"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAvPc",
+  "subject": "english",
+  "title": "Complete the sentence with an action verb to match the picture",
+  "section": "Verbs",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engXAvPc0",
+   "engXAvPc1"
+  ],
+  "examples": [
+   {
+    "question": "🏊 Ana ___ in the pool.",
+    "answer": "swims",
+    "choices": [
+     "dances",
+     "eats",
+     "swims",
+     "sings"
+    ]
+   },
+   {
+    "question": "📖 Liam ___ a book.",
+    "answer": "reads",
+    "choices": [
+     "reads",
+     "runs",
+     "eats",
+     "climbs"
+    ]
+   },
+   {
+    "question": "✍️ Ken ___ a letter.",
+    "answer": "writes",
+    "choices": [
+     "writes",
+     "sings",
+     "reads",
+     "climbs"
+    ]
+   },
+   {
+    "question": "😴 The baby ___ in the crib.",
+    "answer": "sleeps",
+    "choices": [
+     "reads",
+     "runs",
+     "eats",
+     "sleeps"
+    ]
+   },
+   {
+    "question": "🎤 Grandma ___ a song.",
+    "answer": "sings",
+    "choices": [
+     "writes",
+     "sleeps",
+     "sings",
+     "dances"
+    ]
+   },
+   {
+    "question": "🚴 Mom ___ her bike.",
+    "answer": "rides",
+    "choices": [
+     "eats",
+     "dances",
+     "rides",
+     "reads"
+    ]
+   },
+   {
+    "question": "🏃 Sam ___ fast.",
+    "answer": "runs",
+    "choices": [
+     "climbs",
+     "runs",
+     "writes",
+     "swims"
+    ]
+   },
+   {
+    "question": "🧗 Ali ___ the wall.",
+    "answer": "climbs",
+    "choices": [
+     "eats",
+     "reads",
+     "rides",
+     "climbs"
+    ]
+   },
+   {
+    "question": "💃 Zoe ___ to the music.",
+    "answer": "dances",
+    "choices": [
+     "sleeps",
+     "dances",
+     "reads",
+     "rides"
+    ]
+   },
+   {
+    "question": "🍽️ Dad ___ his dinner.",
+    "answer": "eats",
+    "choices": [
+     "climbs",
+     "runs",
+     "eats",
+     "rides"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRhPo",
+  "subject": "english",
+  "title": "Complete the poem with a word that rhymes",
+  "section": "Rhyming",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXRhPo1",
+   "engXRhPo2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the poem. I see the moon, I'll sleep very ___.",
+    "answer": "soon",
+    "choices": [
+     "fast",
+     "well",
+     "late",
+     "soon"
+    ]
+   },
+   {
+    "question": "Complete the poem. The sun is hot, I like it a ___.",
+    "answer": "lot",
+    "choices": [
+     "bit",
+     "lot",
+     "day",
+     "ton"
+    ]
+   },
+   {
+    "question": "Complete the poem. The rain came down, All over ___.",
+    "answer": "town",
+    "choices": [
+     "here",
+     "us",
+     "town",
+     "the city"
+    ]
+   },
+   {
+    "question": "Complete the poem. The frog can hop And never ___.",
+    "answer": "stop",
+    "choices": [
+     "stop",
+     "rest",
+     "go",
+     "sit"
+    ]
+   },
+   {
+    "question": "Complete the poem. I like to play Outside all ___.",
+    "answer": "day",
+    "choices": [
+     "night",
+     "day",
+     "week",
+     "time"
+    ]
+   },
+   {
+    "question": "Complete the poem. A big red truck Is stuck in the ___.",
+    "answer": "muck",
+    "choices": [
+     "muck",
+     "sand",
+     "mud",
+     "snow"
+    ]
+   },
+   {
+    "question": "Complete the poem. My dog can run And have some ___.",
+    "answer": "fun",
+    "choices": [
+     "toys",
+     "fun",
+     "naps",
+     "food"
+    ]
+   },
+   {
+    "question": "Complete the poem. I saw a bee Up in a ___.",
+    "answer": "tree",
+    "choices": [
+     "nest",
+     "sky",
+     "bush",
+     "tree"
+    ]
+   },
+   {
+    "question": "Complete the poem. The cat sat On a soft ___.",
+    "answer": "mat",
+    "choices": [
+     "rug",
+     "mat",
+     "bed",
+     "chair"
+    ]
+   },
+   {
+    "question": "Complete the poem. A little mouse Ran in the ___.",
+    "answer": "house",
+    "choices": [
+     "barn",
+     "room",
+     "house",
+     "yard"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXVteeea",
+  "subject": "english",
+  "title": "Read vowel team stories: ee, ea",
+  "section": "Vowel teams",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXVteeea1"
+  ],
+  "examples": [
+   {
+    "question": "The Seal and the Bee An original passage written for LearnAce A seal sat in the sea. A bee came to see him. \"Can I eat with you?\" asked the bee. The seal gave the bee a green leaf to eat. They had a treat by the beach. What did the seal give the bee?",
+    "answer": "A green leaf",
+    "choices": [
+     "A green leaf",
+     "A peach",
+     "A bean",
+     "A seed"
+    ]
+   },
+   {
+    "question": "Jean Cleans Up An original passage written for LearnAce Jean had a big mess in her room. She swept the floor and made it neat and clean. Then she had a treat: a sweet peach. Jean likes a clean room. What did Jean do first?",
+    "answer": "Swept the floor",
+    "choices": [
+     "Ate a peach",
+     "Swept the floor",
+     "Went to sleep",
+     "Read a book"
+    ]
+   },
+   {
+    "question": "The Seal and the Bee An original passage written for LearnAce A seal sat in the sea. A bee came to see him. \"Can I eat with you?\" asked the bee. The seal gave the bee a green leaf to eat. They had a treat by the beach. Where did the seal sit?",
+    "answer": "In the sea",
+    "choices": [
+     "In a nest",
+     "On a boat",
+     "In a tree",
+     "In the sea"
+    ]
+   },
+   {
+    "question": "Jean Cleans Up An original passage written for LearnAce Jean had a big mess in her room. She swept the floor and made it neat and clean. Then she had a treat: a sweet peach. Jean likes a clean room. What was Jean's treat?",
+    "answer": "A sweet peach",
+    "choices": [
+     "Ice cream",
+     "A cookie",
+     "A sweet peach",
+     "A green bean"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXVtoaow",
+  "subject": "english",
+  "title": "Read vowel team stories: oa, ow",
+  "section": "Vowel teams",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXVtoaow1"
+  ],
+  "examples": [
+   {
+    "question": "The Goat and the Boat An original passage written for LearnAce A goat had a red boat. He rowed the boat on the lake. The wind began to blow. The goat put on his coat and rowed home slowly. What did the goat have?",
+    "answer": "A red boat",
+    "choices": [
+     "A red boat",
+     "A red coat",
+     "A toad",
+     "A bowl"
+    ]
+   },
+   {
+    "question": "Snow on the Road An original passage written for LearnAce Snow fell on the road. Joan put on her coat and went to throw snowballs. Her dog rolled in the snow. They made a snowman with a bow. What did they put on the snowman?",
+    "answer": "A bow",
+    "choices": [
+     "A boat",
+     "A coat",
+     "A hat",
+     "A bow"
+    ]
+   },
+   {
+    "question": "Snow on the Road An original passage written for LearnAce Snow fell on the road. Joan put on her coat and went to throw snowballs. Her dog rolled in the snow. They made a snowman with a bow. What fell on the road?",
+    "answer": "Snow",
+    "choices": [
+     "Toast",
+     "Leaves",
+     "Snow",
+     "Rain"
+    ]
+   },
+   {
+    "question": "The Goat and the Boat An original passage written for LearnAce A goat had a red boat. He rowed the boat on the lake. The wind began to blow. The goat put on his coat and rowed home slowly. What did the goat put on when the wind blew?",
+    "answer": "His coat",
+    "choices": [
+     "His boots",
+     "His hat",
+     "His coat",
+     "A bow"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXVtaiay",
+  "subject": "english",
+  "title": "Read vowel team stories: ai, ay",
+  "section": "Vowel teams",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXVtaiay1"
+  ],
+  "examples": [
+   {
+    "question": "The Snail on the Trail An original passage written for LearnAce A snail went down a trail. It was slow, but it did not stop. At the end of the trail, it found hay to play in. \"Hooray!\" said the snail. What did the snail find at the end?",
+    "answer": "Hay to play in",
+    "choices": [
+     "Rain",
+     "A pail",
+     "A train",
+     "Hay to play in"
+    ]
+   },
+   {
+    "question": "A Day in the Rain An original passage written for LearnAce It was a gray day. Rain fell all day. Jay and Gail did not stay inside. They put on rain boots and played in the rain. They made a sail for a little paper boat. What did Jay and Gail make?",
+    "answer": "A sail for a paper boat",
+    "choices": [
+     "A sail for a paper boat",
+     "A kite",
+     "A snail",
+     "A cake"
+    ]
+   },
+   {
+    "question": "The Snail on the Trail An original passage written for LearnAce A snail went down a trail. It was slow, but it did not stop. At the end of the trail, it found hay to play in. \"Hooray!\" said the snail. Where did the snail go?",
+    "answer": "Down a trail",
+    "choices": [
+     "Into a pail",
+     "On a train",
+     "Down a trail",
+     "Up a tree"
+    ]
+   },
+   {
+    "question": "A Day in the Rain An original passage written for LearnAce It was a gray day. Rain fell all day. Jay and Gail did not stay inside. They put on rain boots and played in the rain. They made a sail for a little paper boat. What was the day like?",
+    "answer": "Gray and rainy",
+    "choices": [
+     "Gray and rainy",
+     "Windy and dry",
+     "Snowy",
+     "Hot and sunny"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXVtSt",
+  "subject": "english",
+  "title": "Read vowel team stories",
+  "section": "Vowel teams",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXVtSt1"
+  ],
+  "examples": [
+   {
+    "question": "Kate has a green kite. She flies it high in the sky on a windy day. When the wind stops, the kite floats down to her feet. What colour is the kite?",
+    "answer": "Green",
+    "choices": [
+     "Yellow",
+     "Blue",
+     "Green",
+     "Red"
+    ]
+   },
+   {
+    "question": "Kate has a green kite. She flies it high in the sky on a windy day. When the wind stops, the kite floats down to her feet. What happens when the wind stops?",
+    "answer": "The kite floats down",
+    "choices": [
+     "It starts to rain",
+     "The kite flies away",
+     "The kite floats down",
+     "Kate goes home"
+    ]
+   },
+   {
+    "question": "A little goat lives by the sea. Each day the goat eats green leaves and plays on the beach. At night, the goat sleeps under a tree. Where does the goat live?",
+    "answer": "By the sea",
+    "choices": [
+     "By the sea",
+     "On a boat",
+     "In the city",
+     "In a barn"
+    ]
+   },
+   {
+    "question": "A little goat lives by the sea. Each day the goat eats green leaves and plays on the beach. At night, the goat sleeps under a tree. Where does the goat sleep?",
+    "answer": "Under a tree",
+    "choices": [
+     "In a cave",
+     "Under a tree",
+     "In a boat",
+     "On the beach"
+    ]
+   },
+   {
+    "question": "Jay and his dog went out to play. It began to rain, so they ran home. Jay put on a coat. Then they read a book by the heat of the fire. Why did Jay and his dog run home?",
+    "answer": "It began to rain",
+    "choices": [
+     "It was night",
+     "The dog was tired",
+     "They were hungry",
+     "It began to rain"
+    ]
+   },
+   {
+    "question": "Jay and his dog went out to play. It began to rain, so they ran home. Jay put on a coat. Then they read a book by the heat of the fire. What did Jay put on?",
+    "answer": "A coat",
+    "choices": [
+     "A scarf",
+     "Boots",
+     "A coat",
+     "A hat"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engDpMt",
+  "subject": "english",
+  "title": "Choose the diphthong word that matches the picture",
+  "section": "Diphthongs: oi, oy, ou, ow",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engDpMt1"
+  ],
+  "examples": [
+   {
+    "question": "🐄 Which word matches the picture?",
+    "answer": "cow",
+    "choices": [
+     "boy",
+     "mouth",
+     "flower",
+     "cow"
+    ]
+   },
+   {
+    "question": "🌸 Which word matches the picture?",
+    "answer": "flower",
+    "choices": [
+     "toy",
+     "coin",
+     "flower",
+     "house"
+    ]
+   },
+   {
+    "question": "👦 Which word matches the picture?",
+    "answer": "boy",
+    "choices": [
+     "boy",
+     "mouse",
+     "flower",
+     "crown"
+    ]
+   },
+   {
+    "question": "🏠 Which word matches the picture?",
+    "answer": "house",
+    "choices": [
+     "owl",
+     "boy",
+     "house",
+     "coin"
+    ]
+   },
+   {
+    "question": "🦉 Which word matches the picture?",
+    "answer": "owl",
+    "choices": [
+     "coin",
+     "cow",
+     "house",
+     "owl"
+    ]
+   },
+   {
+    "question": "👑 Which word matches the picture?",
+    "answer": "crown",
+    "choices": [
+     "crown",
+     "mouth",
+     "cow",
+     "toy"
+    ]
+   },
+   {
+    "question": "🛢️ Which word matches the picture?",
+    "answer": "oil",
+    "choices": [
+     "toy",
+     "oil",
+     "cow",
+     "crown"
+    ]
+   },
+   {
+    "question": "🐭 Which word matches the picture?",
+    "answer": "mouse",
+    "choices": [
+     "mouth",
+     "mouse",
+     "boy",
+     "cloud"
+    ]
+   },
+   {
+    "question": "🧸 Which word matches the picture?",
+    "answer": "toy",
+    "choices": [
+     "toy",
+     "flower",
+     "mouth",
+     "mouse"
+    ]
+   },
+   {
+    "question": "🪙 Which word matches the picture?",
+    "answer": "coin",
+    "choices": [
+     "coin",
+     "toy",
+     "flower",
+     "crown"
+    ]
+   },
+   {
+    "question": "👄 Which word matches the picture?",
+    "answer": "mouth",
+    "choices": [
+     "mouth",
+     "house",
+     "owl",
+     "toy"
+    ]
+   },
+   {
+    "question": "☁️ Which word matches the picture?",
+    "answer": "cloud",
+    "choices": [
+     "mouse",
+     "cloud",
+     "toy",
+     "flower"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTsSn",
+  "subject": "english",
+  "title": "Complete the sentence with a two-syllable word",
+  "section": "Two-syllable words",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXTsSn1",
+   "engXTsSn2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. The ___ spun a web.",
+    "answer": "spider",
+    "choices": [
+     "spider",
+     "zebra",
+     "button",
+     "rabbit"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I write with a sharp ___.",
+    "answer": "pencil",
+    "choices": [
+     "pencil",
+     "rabbit",
+     "zebra",
+     "rainbow"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The ___ has black and white stripes.",
+    "answer": "zebra",
+    "choices": [
+     "magnet",
+     "zebra",
+     "rabbit",
+     "pumpkin"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Please sew the ___ on my coat.",
+    "answer": "button",
+    "choices": [
+     "pencil",
+     "button",
+     "magnet",
+     "rainbow"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The ___ hops across the grass.",
+    "answer": "rabbit",
+    "choices": [
+     "rainbow",
+     "spider",
+     "pumpkin",
+     "rabbit"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We carved a ___ for Halloween.",
+    "answer": "pumpkin",
+    "choices": [
+     "button",
+     "penguin",
+     "pencil",
+     "pumpkin"
+    ]
+   },
+   {
+    "question": "Complete the sentence. After the rain, we saw a ___.",
+    "answer": "rainbow",
+    "choices": [
+     "monkey",
+     "pumpkin",
+     "rainbow",
+     "zebra"
+    ]
+   },
+   {
+    "question": "Complete the sentence. A ___ can pick up paper clips.",
+    "answer": "magnet",
+    "choices": [
+     "spider",
+     "magnet",
+     "pumpkin",
+     "pencil"
+    ]
+   },
+   {
+    "question": "Complete the sentence. A ___ swims in the cold sea.",
+    "answer": "penguin",
+    "choices": [
+     "rabbit",
+     "monkey",
+     "penguin",
+     "pencil"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The ___ climbed the tree.",
+    "answer": "monkey",
+    "choices": [
+     "monkey",
+     "spider",
+     "magnet",
+     "penguin"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRcI",
+  "subject": "english",
+  "title": "Read and understand: nonfiction",
+  "section": "Reading comprehension",
+  "grades": [
+   1,
+   12
+  ],
+  "skillIds": [
+   "engRcI1",
+   "engRcI12"
+  ],
+  "examples": [
+   {
+    "question": "Busy Bees An original passage written for LearnAce Bees are insects. They have six legs and four wings. Bees fly from flower to flower. They drink a sweet juice called nectar. Bees use nectar to make honey. Bees also help flowers make new seeds. How many legs does a bee have?",
+    "answer": "Six",
+    "choices": [
+     "Four",
+     "Two",
+     "Six",
+     "Eight"
+    ]
+   },
+   {
+    "question": "Penguins An original passage written for LearnAce Penguins are birds, but they cannot fly. They use their wings to swim. Penguins live where it is very cold. Thick feathers keep them warm. Penguins eat fish from the sea. Where do penguins live?",
+    "answer": "In very cold places",
+    "choices": [
+     "In hot deserts",
+     "In very cold places",
+     "In big cities",
+     "In tall trees"
+    ]
+   },
+   {
+    "question": "Your Five Senses An original passage written for LearnAce You have five senses. You see with your eyes. You hear with your ears. You smell with your nose. You taste with your tongue. You touch with your skin. Your senses help you learn about the world. Which body part helps you taste?",
+    "answer": "Your tongue",
+    "choices": [
+     "Your tongue",
+     "Your skin",
+     "Your eyes",
+     "Your ears"
+    ]
+   },
+   {
+    "question": "Busy Bees An original passage written for LearnAce Bees are insects. They have six legs and four wings. Bees fly from flower to flower. They drink a sweet juice called nectar. Bees use nectar to make honey. Bees also help flowers make new seeds. What is this text mostly about?",
+    "answer": "Bees and what they do",
+    "choices": [
+     "How to grow flowers",
+     "Different kinds of birds",
+     "Why insects are scary",
+     "Bees and what they do"
+    ]
+   },
+   {
+    "question": "Penguins An original passage written for LearnAce Penguins are birds, but they cannot fly. They use their wings to swim. Penguins live where it is very cold. Thick feathers keep them warm. Penguins eat fish from the sea. What keeps penguins warm?",
+    "answer": "Thick feathers",
+    "choices": [
+     "The hot sun",
+     "Thick feathers",
+     "Long fur",
+     "Warm houses"
+    ]
+   },
+   {
+    "question": "Your Five Senses An original passage written for LearnAce You have five senses. You see with your eyes. You hear with your ears. You smell with your nose. You taste with your tongue. You touch with your skin. Your senses help you learn about the world. How many senses do you have?",
+    "answer": "Five",
+    "choices": [
+     "Four",
+     "Six",
+     "Five",
+     "Three"
+    ]
+   },
+   {
+    "question": "Busy Bees An original passage written for LearnAce Bees are insects. They have six legs and four wings. Bees fly from flower to flower. They drink a sweet juice called nectar. Bees use nectar to make honey. Bees also help flowers make new seeds. What do bees make from nectar?",
+    "answer": "Honey",
+    "choices": [
+     "Honey",
+     "Bread",
+     "Milk",
+     "Seeds"
+    ]
+   },
+   {
+    "question": "Penguins An original passage written for LearnAce Penguins are birds, but they cannot fly. They use their wings to swim. Penguins live where it is very cold. Thick feathers keep them warm. Penguins eat fish from the sea. What do penguins eat?",
+    "answer": "Fish",
+    "choices": [
+     "Fish",
+     "Grass",
+     "Berries",
+     "Nuts"
+    ]
+   },
+   {
+    "question": "Your Five Senses An original passage written for LearnAce You have five senses. You see with your eyes. You hear with your ears. You smell with your nose. You taste with your tongue. You touch with your skin. Your senses help you learn about the world. What do your senses help you do?",
+    "answer": "Learn about the world",
+    "choices": [
+     "Fall asleep",
+     "Grow taller",
+     "Run faster",
+     "Learn about the world"
+    ]
+   },
+   {
+    "question": "Penguins An original passage written for LearnAce Penguins are birds, but they cannot fly. They use their wings to swim. Penguins live where it is very cold. Thick feathers keep them warm. Penguins eat fish from the sea. What do penguins use their wings for?",
+    "answer": "Swimming",
+    "choices": [
+     "Swimming",
+     "Flying",
+     "Climbing trees",
+     "Digging"
+    ]
+   },
+   {
+    "question": "Your Five Senses An original passage written for LearnAce You have five senses. You see with your eyes. You hear with your ears. You smell with your nose. You taste with your tongue. You touch with your skin. Your senses help you learn about the world. What do you use to hear?",
+    "answer": "Your ears",
+    "choices": [
+     "Your ears",
+     "Your nose",
+     "Your tongue",
+     "Your eyes"
+    ]
+   },
+   {
+    "question": "Busy Bees An original passage written for LearnAce Bees are insects. They have six legs and four wings. Bees fly from flower to flower. They drink a sweet juice called nectar. Bees use nectar to make honey. Bees also help flowers make new seeds. What is nectar?",
+    "answer": "A sweet juice in flowers",
+    "choices": [
+     "A bee house",
+     "A kind of insect",
+     "A sweet juice in flowers",
+     "A type of seed"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engChAD",
+  "subject": "english",
+  "title": "Use actions and dialogue to understand characters",
+  "section": "Inference and analysis",
+  "grades": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engChAD1",
+   "engChAD2",
+   "engChAD3",
+   "engChAD4",
+   "engChAD5"
+  ],
+  "examples": [
+   {
+    "question": "Read the text. Ben yawned, rubbed his eyes and put his head on the desk. How does Ben feel?",
+    "answer": "tired",
+    "choices": [
+     "proud",
+     "angry",
+     "excited",
+     "tired"
+    ]
+   },
+   {
+    "question": "Read the text. Maya looked at the empty plate, then at the dog licking its lips. \"Max!\" she groaned. What can you tell about Maya?",
+    "answer": "She thinks the dog ate the food.",
+    "choices": [
+     "She is hungry for more.",
+     "She cooked the dog's dinner.",
+     "She is proud of the dog.",
+     "She thinks the dog ate the food."
+    ]
+   },
+   {
+    "question": "Read the text. Omar grinned from ear to ear and hugged his new puppy tightly. How does Omar feel?",
+    "answer": "happy",
+    "choices": [
+     "scared",
+     "angry",
+     "happy",
+     "bored"
+    ]
+   },
+   {
+    "question": "Read the text. Lily stomped her feet and crossed her arms. \"It's not fair!\" she shouted. How does Lily feel?",
+    "answer": "angry",
+    "choices": [
+     "angry",
+     "calm",
+     "sleepy",
+     "proud"
+    ]
+   },
+   {
+    "question": "Read the text. Ava's hands shook as she walked onto the stage. She whispered, \"What if I forget my lines?\" How does Ava feel?",
+    "answer": "nervous",
+    "choices": [
+     "sleepy",
+     "nervous",
+     "bored",
+     "angry"
+    ]
+   },
+   {
+    "question": "Read the text. Zoe shared her lunch with a new student who had forgotten his. What is Zoe like?",
+    "answer": "kind",
+    "choices": [
+     "selfish",
+     "kind",
+     "lazy",
+     "rude"
+    ]
+   },
+   {
+    "question": "Read the text. Noah practised the piano every day, even when it was hard, until he could play the whole song. What is Noah like?",
+    "answer": "hard-working",
+    "choices": [
+     "hard-working",
+     "mean",
+     "lazy",
+     "shy"
+    ]
+   },
+   {
+    "question": "Read the text. Leo jumped up and down. \"We're going to the beach! I can't wait!\" How does Leo feel?",
+    "answer": "excited",
+    "choices": [
+     "sad",
+     "excited",
+     "worried",
+     "tired"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXNnPc",
+  "subject": "english",
+  "title": "Complete the sentence with a noun to match the picture",
+  "section": "Nouns and adjectives",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXNnPc1"
+  ],
+  "examples": [
+   {
+    "question": "🎈 The ___ floated up high.",
+    "answer": "balloon",
+    "choices": [
+     "bus",
+     "balloon",
+     "fish",
+     "cake"
+    ]
+   },
+   {
+    "question": "⚽ Kick the ___!",
+    "answer": "ball",
+    "choices": [
+     "tree",
+     "book",
+     "ball",
+     "apple"
+    ]
+   },
+   {
+    "question": "🐶 The ___ wags its tail.",
+    "answer": "dog",
+    "choices": [
+     "bus",
+     "frog",
+     "dog",
+     "apple"
+    ]
+   },
+   {
+    "question": "🚌 We ride the ___ to school.",
+    "answer": "bus",
+    "choices": [
+     "ball",
+     "bus",
+     "book",
+     "tree"
+    ]
+   },
+   {
+    "question": "📚 Mia reads a ___.",
+    "answer": "book",
+    "choices": [
+     "ball",
+     "cake",
+     "fish",
+     "book"
+    ]
+   },
+   {
+    "question": "🍎 I ate a red ___.",
+    "answer": "apple",
+    "choices": [
+     "ball",
+     "apple",
+     "bus",
+     "frog"
+    ]
+   },
+   {
+    "question": "🌳 A bird sits in the ___.",
+    "answer": "tree",
+    "choices": [
+     "ball",
+     "tree",
+     "bus",
+     "apple"
+    ]
+   },
+   {
+    "question": "🐟 A ___ swims in the tank.",
+    "answer": "fish",
+    "choices": [
+     "apple",
+     "tree",
+     "fish",
+     "balloon"
+    ]
+   },
+   {
+    "question": "🍰 We ate ___ at the party.",
+    "answer": "cake",
+    "choices": [
+     "cake",
+     "ball",
+     "balloon",
+     "tree"
+    ]
+   },
+   {
+    "question": "🐸 The ___ hops into the pond.",
+    "answer": "frog",
+    "choices": [
+     "frog",
+     "apple",
+     "bus",
+     "ball"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAfUs",
+  "subject": "english",
+  "title": "Use words with prefixes and suffixes",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXAfUs1"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. I have to ___ my messy drawing. (draw again)",
+    "answer": "redraw",
+    "choices": [
+     "undraw",
+     "drawless",
+     "redraw",
+     "drawful"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The broken toy made Sam ___. (not happy)",
+    "answer": "unhappy",
+    "choices": [
+     "rehappy",
+     "happyless",
+     "unhappy",
+     "happyful"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Be ___ with the glass vase. (full of care)",
+    "answer": "careful",
+    "choices": [
+     "uncare",
+     "recare",
+     "careless",
+     "careful"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Please ___ the box. (opposite of tie)",
+    "answer": "untie",
+    "choices": [
+     "retie",
+     "untie",
+     "tieful",
+     "tieless"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The ___ helped us with our homework. (one who teaches)",
+    "answer": "teacher",
+    "choices": [
+     "unteach",
+     "teachful",
+     "reteach",
+     "teacher"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAfUn",
+  "subject": "english",
+  "title": "Understand words with prefixes and suffixes",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXAfUn1"
+  ],
+  "examples": [
+   {
+    "question": "What does replay mean?",
+    "answer": "play again",
+    "choices": [
+     "one who plays",
+     "not play",
+     "play before",
+     "play again"
+    ]
+   },
+   {
+    "question": "What does unlock mean?",
+    "answer": "the opposite of lock",
+    "choices": [
+     "a person who locks",
+     "full of locks",
+     "lock again",
+     "the opposite of lock"
+    ]
+   },
+   {
+    "question": "What does helpful mean?",
+    "answer": "full of help",
+    "choices": [
+     "full of help",
+     "without help",
+     "help again",
+     "not help"
+    ]
+   },
+   {
+    "question": "What does unhappy mean?",
+    "answer": "not happy",
+    "choices": [
+     "very happy",
+     "not happy",
+     "full of happy",
+     "happy again"
+    ]
+   },
+   {
+    "question": "What does painter mean?",
+    "answer": "a person who paints",
+    "choices": [
+     "a person who paints",
+     "not paint",
+     "full of paint",
+     "paint again"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCxEz",
+  "subject": "english",
+  "title": "Use context to identify the meaning of a word",
+  "section": "Context clues",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXCxEz1",
+   "engXCxEz2"
+  ],
+  "examples": [
+   {
+    "question": "What does the underlined word mean? It was so chilly that I wore a coat and mittens.",
+    "answer": "cold",
+    "choices": [
+     "wet",
+     "loud",
+     "cold",
+     "sunny"
+    ]
+   },
+   {
+    "question": "What does the underlined word mean? The cake smelled delicious , and we ate it all.",
+    "answer": "very tasty",
+    "choices": [
+     "very hot",
+     "very tasty",
+     "very big",
+     "very old"
+    ]
+   },
+   {
+    "question": "What does the underlined word mean? The kitten was frightened and hid under the bed.",
+    "answer": "scared",
+    "choices": [
+     "tall",
+     "hungry",
+     "silly",
+     "scared"
+    ]
+   },
+   {
+    "question": "What does the underlined word mean? I was thirsty , so I drank a glass of water.",
+    "answer": "needing a drink",
+    "choices": [
+     "needing a drink",
+     "sleepy",
+     "happy",
+     "cold"
+    ]
+   },
+   {
+    "question": "What does the underlined word mean? The puppy was so tiny that it fit in my hand.",
+    "answer": "very small",
+    "choices": [
+     "very old",
+     "very fast",
+     "very small",
+     "very loud"
+    ]
+   },
+   {
+    "question": "What does the underlined word mean? Dad was exhausted after the long hike and fell asleep.",
+    "answer": "very tired",
+    "choices": [
+     "very tired",
+     "very hungry",
+     "very happy",
+     "very fast"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXNmAc",
+  "subject": "english",
+  "title": "Is it the naming or action part of the sentence?",
+  "section": "Sentences",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXNmAc1"
+  ],
+  "examples": [
+   {
+    "question": "The kids play tag. Is the underlined part the naming part or the action part? play tag",
+    "answer": "Action part",
+    "choices": [
+     "Action part",
+     "Naming part"
+    ]
+   },
+   {
+    "question": "Grandpa reads the paper. Is the underlined part the naming part or the action part? Grandpa",
+    "answer": "Naming part",
+    "choices": [
+     "Naming part",
+     "Action part"
+    ]
+   },
+   {
+    "question": "The dog barks loudly. Is the underlined part the naming part or the action part? The dog",
+    "answer": "Naming part",
+    "choices": [
+     "Naming part",
+     "Action part"
+    ]
+   },
+   {
+    "question": "A frog jumps in the pond. Is the underlined part the naming part or the action part? jumps in the pond",
+    "answer": "Action part",
+    "choices": [
+     "Naming part",
+     "Action part"
+    ]
+   },
+   {
+    "question": "The bird sings a song. Is the underlined part the naming part or the action part? The bird",
+    "answer": "Naming part",
+    "choices": [
+     "Naming part",
+     "Action part"
+    ]
+   },
+   {
+    "question": "The bird sings a song. Is the underlined part the naming part or the action part? sings a song",
+    "answer": "Action part",
+    "choices": [
+     "Naming part",
+     "Action part"
+    ]
+   },
+   {
+    "question": "My sister rides a bike. Is the underlined part the naming part or the action part? rides a bike",
+    "answer": "Action part",
+    "choices": [
+     "Action part",
+     "Naming part"
+    ]
+   },
+   {
+    "question": "A frog jumps in the pond. Is the underlined part the naming part or the action part? A frog",
+    "answer": "Naming part",
+    "choices": [
+     "Action part",
+     "Naming part"
+    ]
+   },
+   {
+    "question": "The kids play tag. Is the underlined part the naming part or the action part? The kids",
+    "answer": "Naming part",
+    "choices": [
+     "Naming part",
+     "Action part"
+    ]
+   },
+   {
+    "question": "Grandpa reads the paper. Is the underlined part the naming part or the action part? reads the paper",
+    "answer": "Action part",
+    "choices": [
+     "Action part",
+     "Naming part"
+    ]
+   },
+   {
+    "question": "The dog barks loudly. Is the underlined part the naming part or the action part? barks loudly",
+    "answer": "Action part",
+    "choices": [
+     "Naming part",
+     "Action part"
+    ]
+   },
+   {
+    "question": "My sister rides a bike. Is the underlined part the naming part or the action part? My sister",
+    "answer": "Naming part",
+    "choices": [
+     "Naming part",
+     "Action part"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCmpW",
+  "subject": "english",
+  "title": "Complete the sentence",
+  "section": "Sentences",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXCmpW1"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. The sun is ___.",
+    "answer": "hot",
+    "choices": [
+     "sun",
+     "run",
+     "hot",
+     "jumps"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I ___ a book.",
+    "answer": "read",
+    "choices": [
+     "book",
+     "read",
+     "tall",
+     "red"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She ___ a song.",
+    "answer": "sings",
+    "choices": [
+     "sings",
+     "loud",
+     "song",
+     "sweet"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We ___ to the park.",
+    "answer": "go",
+    "choices": [
+     "green",
+     "soft",
+     "go",
+     "park"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The ___ barks.",
+    "answer": "dog",
+    "choices": [
+     "run",
+     "big",
+     "happy",
+     "dog"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXNnSel",
+  "subject": "english",
+  "title": "Select the nouns",
+  "section": "Nouns",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "engXNnSel1",
+   "engXNnSel2"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a noun?",
+    "answer": "teacher",
+    "choices": [
+     "blue",
+     "jump",
+     "tall",
+     "teacher"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "dog",
+    "choices": [
+     "happy",
+     "dog",
+     "soft",
+     "quickly"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "pencil",
+    "choices": [
+     "quickly",
+     "run",
+     "pencil",
+     "jump"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "river",
+    "choices": [
+     "happy",
+     "river",
+     "jump",
+     "soft"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "school",
+    "choices": [
+     "soft",
+     "school",
+     "quickly",
+     "tall"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "park",
+    "choices": [
+     "quickly",
+     "tall",
+     "sing",
+     "park"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "ball",
+    "choices": [
+     "tall",
+     "quickly",
+     "ball",
+     "soft"
+    ]
+   },
+   {
+    "question": "Which word is a noun?",
+    "answer": "apple",
+    "choices": [
+     "happy",
+     "apple",
+     "sing",
+     "tall"
+    ]
+   }
+  ]
+ }
+]

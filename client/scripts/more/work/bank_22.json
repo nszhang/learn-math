@@ -1,0 +1,2761 @@
+[
+ {
+  "key": "sciENE",
+  "subject": "science",
+  "title": "Forms of energy",
+  "section": "Energy",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciENE4"
+  ],
+  "examples": [
+   {
+    "question": "What kind of energy is shown? A speeding bicycle",
+    "answer": "Motion energy",
+    "choices": [
+     "Sound energy",
+     "Heat energy",
+     "Motion energy",
+     "Light energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? Thunder",
+    "answer": "Sound energy",
+    "choices": [
+     "Motion energy",
+     "Sound energy",
+     "Light energy",
+     "Heat energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? A ringing bell",
+    "answer": "Sound energy",
+    "choices": [
+     "Light energy",
+     "Heat energy",
+     "Sound energy",
+     "Motion energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? A falling rock",
+    "answer": "Motion energy",
+    "choices": [
+     "Sound energy",
+     "Motion energy",
+     "Heat energy",
+     "Light energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? A rolling ball",
+    "answer": "Motion energy",
+    "choices": [
+     "Heat energy",
+     "Motion energy",
+     "Sound energy",
+     "Light energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? A cup of hot cocoa",
+    "answer": "Heat energy",
+    "choices": [
+     "Motion energy",
+     "Light energy",
+     "Sound energy",
+     "Heat energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? A hot stove",
+    "answer": "Heat energy",
+    "choices": [
+     "Light energy",
+     "Heat energy",
+     "Sound energy",
+     "Motion energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? A glowing light bulb",
+    "answer": "Light energy",
+    "choices": [
+     "Sound energy",
+     "Heat energy",
+     "Light energy",
+     "Motion energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? Someone clapping",
+    "answer": "Sound energy",
+    "choices": [
+     "Heat energy",
+     "Sound energy",
+     "Motion energy",
+     "Light energy"
+    ]
+   },
+   {
+    "question": "What kind of energy is shown? The Sun shining through a window",
+    "answer": "Light energy",
+    "choices": [
+     "Heat energy",
+     "Sound energy",
+     "Light energy",
+     "Motion energy"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciEnTrans",
+  "subject": "science",
+  "title": "Energy transformations",
+  "section": "Energy",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciEnTrans4",
+   "sciEnTrans5",
+   "sciEnTrans6",
+   "sciEnTrans7",
+   "sciEnTrans8"
+  ],
+  "examples": [
+   {
+    "question": "A battery-powered flashlight is on. What energy change happens in the battery?",
+    "answer": "Chemical → electrical",
+    "choices": [
+     "Thermal → nuclear",
+     "Electrical → light",
+     "Kinetic → electrical",
+     "Chemical → electrical"
+    ]
+   },
+   {
+    "question": "A light bulb glows. What energy change happens?",
+    "answer": "Electrical → light",
+    "choices": [
+     "Electrical → thermal",
+     "Electrical → light",
+     "Sound → chemical",
+     "Kinetic → electrical"
+    ]
+   },
+   {
+    "question": "A wind turbine generates power. What energy change happens?",
+    "answer": "Kinetic → electrical",
+    "choices": [
+     "Kinetic → electrical",
+     "Electrical → thermal",
+     "Electrical → light",
+     "Chemical → electrical"
+    ]
+   },
+   {
+    "question": "You eat food and then run. What energy change happens in your body?",
+    "answer": "Chemical → kinetic",
+    "choices": [
+     "Kinetic → electrical",
+     "Chemical → kinetic",
+     "Electrical → light",
+     "Chemical → electrical"
+    ]
+   },
+   {
+    "question": "A campfire burns wood. What energy change happens?",
+    "answer": "Chemical → thermal and light",
+    "choices": [
+     "Kinetic → electrical",
+     "Sound → chemical",
+     "Chemical → kinetic",
+     "Chemical → thermal and light"
+    ]
+   },
+   {
+    "question": "A solar panel powers a calculator. What energy change happens?",
+    "answer": "Light → electrical",
+    "choices": [
+     "Electrical → thermal",
+     "Light → electrical",
+     "Chemical → kinetic",
+     "Thermal → nuclear"
+    ]
+   },
+   {
+    "question": "A speaker plays music. What energy change happens?",
+    "answer": "Electrical → sound",
+    "choices": [
+     "Kinetic → electrical",
+     "Sound → chemical",
+     "Electrical → sound",
+     "Thermal → nuclear"
+    ]
+   },
+   {
+    "question": "A toaster browns bread. What energy change happens?",
+    "answer": "Electrical → thermal",
+    "choices": [
+     "Chemical → kinetic",
+     "Electrical → thermal",
+     "Kinetic → electrical",
+     "Chemical → electrical"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSeeObj",
+  "subject": "science",
+  "title": "How do we see objects?",
+  "section": "Light and sound",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsSeeObj4"
+  ],
+  "examples": [
+   {
+    "question": "Why does a white shirt look white?",
+    "answer": "It reflects all colours of light",
+    "choices": [
+     "It is see-through",
+     "It absorbs all light",
+     "It makes light",
+     "It reflects all colours of light"
+    ]
+   },
+   {
+    "question": "Why can you see the Moon at night?",
+    "answer": "It reflects sunlight",
+    "choices": [
+     "It makes its own light",
+     "It reflects sunlight",
+     "It is on fire",
+     "Stars light it"
+    ]
+   },
+   {
+    "question": "Which object is a light source?",
+    "answer": "A candle flame",
+    "choices": [
+     "A white wall",
+     "A candle flame",
+     "A mirror",
+     "The Moon"
+    ]
+   },
+   {
+    "question": "Why do cats' eyes seem to glow in a flashlight beam?",
+    "answer": "A layer in their eyes reflects light back",
+    "choices": [
+     "They are on fire",
+     "They are batteries",
+     "A layer in their eyes reflects light back",
+     "Their eyes make light"
+    ]
+   },
+   {
+    "question": "Which object gives off its own light?",
+    "answer": "A lamp",
+    "choices": [
+     "A book",
+     "A mirror",
+     "A lamp",
+     "The Moon"
+    ]
+   },
+   {
+    "question": "Why can't we see in a completely dark room?",
+    "answer": "No light reflects off objects into our eyes",
+    "choices": [
+     "Sound is too loud",
+     "Our eyes stop working at night",
+     "Objects disappear in the dark",
+     "No light reflects off objects into our eyes"
+    ]
+   },
+   {
+    "question": "What does your eye need to see an object?",
+    "answer": "Light from the object entering the eye",
+    "choices": [
+     "Light from the object entering the eye",
+     "Heat from the object",
+     "Darkness",
+     "Sound from the object"
+    ]
+   },
+   {
+    "question": "Why can you see a red apple?",
+    "answer": "Red light bounces off it into your eyes",
+    "choices": [
+     "Your eyes shine on it",
+     "It absorbs all light",
+     "Red light bounces off it into your eyes",
+     "The apple makes its own light"
+    ]
+   },
+   {
+    "question": "How do we see a book on a table?",
+    "answer": "Light reflects off the book and enters our eyes",
+    "choices": [
+     "The book glows by itself",
+     "Light reflects off the book and enters our eyes",
+     "Sound from the book reaches our ears",
+     "Our eyes send light to the book"
+    ]
+   },
+   {
+    "question": "Why does a black shirt look black?",
+    "answer": "It absorbs most light",
+    "choices": [
+     "It makes black light",
+     "It reflects all light",
+     "It absorbs most light",
+     "It is transparent"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLightT",
+  "subject": "science",
+  "title": "How does light travel and interact with matter?",
+  "section": "Light and sound",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsLightT4",
+   "sciXsLightT5"
+  ],
+  "examples": [
+   {
+    "question": "Which surface reflects light best?",
+    "answer": "A smooth mirror",
+    "choices": [
+     "Dark soil",
+     "A black carpet",
+     "A smooth mirror",
+     "A rough stone"
+    ]
+   },
+   {
+    "question": "Which material is opaque?",
+    "answer": "A cardboard box",
+    "choices": [
+     "A cardboard box",
+     "Air",
+     "Clear plastic",
+     "Water"
+    ]
+   },
+   {
+    "question": "Why does a spoon look broken in a glass of water?",
+    "answer": "Light refracts when it goes from water to air",
+    "choices": [
+     "Light refracts when it goes from water to air",
+     "The spoon bends",
+     "Light stops in water",
+     "Water is magnetic"
+    ]
+   },
+   {
+    "question": "A straw in water looks bent. Why?",
+    "answer": "Light bends (refracts) as it passes from water to air",
+    "choices": [
+     "Water is magnetic",
+     "Light bends (refracts) as it passes from water to air",
+     "Light reflects back",
+     "The straw really bends"
+    ]
+   },
+   {
+    "question": "What happens when light hits a mirror?",
+    "answer": "It reflects (bounces off)",
+    "choices": [
+     "It stops existing",
+     "It turns into sound",
+     "It is absorbed completely",
+     "It reflects (bounces off)"
+    ]
+   },
+   {
+    "question": "Which material is translucent?",
+    "answer": "Wax paper",
+    "choices": [
+     "Wax paper",
+     "A wooden door",
+     "Clear glass",
+     "A brick"
+    ]
+   },
+   {
+    "question": "Which material lets almost all light pass through?",
+    "answer": "Clear glass (transparent)",
+    "choices": [
+     "A brick",
+     "Wood (opaque)",
+     "Clear glass (transparent)",
+     "Wax paper (translucent)"
+    ]
+   },
+   {
+    "question": "What is a rainbow?",
+    "answer": "Sunlight bent and split into colours by raindrops",
+    "choices": [
+     "Paint in the sky",
+     "Light from the Moon",
+     "Coloured clouds",
+     "Sunlight bent and split into colours by raindrops"
+    ]
+   },
+   {
+    "question": "What happens to light passing through a prism?",
+    "answer": "It bends and splits into colours",
+    "choices": [
+     "It turns to sound",
+     "It bends and splits into colours",
+     "It disappears",
+     "It gets stronger"
+    ]
+   },
+   {
+    "question": "How does light travel?",
+    "answer": "In straight lines",
+    "choices": [
+     "In circles",
+     "In straight lines",
+     "Only through solids",
+     "Only at night"
+    ]
+   },
+   {
+    "question": "Why does a shadow form?",
+    "answer": "An opaque object blocks light travelling in straight lines",
+    "choices": [
+     "Light bends around objects",
+     "An opaque object blocks light travelling in straight lines",
+     "Objects absorb sound",
+     "Darkness is pulled toward objects"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCND",
+  "subject": "science",
+  "title": "Conductors and insulators",
+  "section": "Electricity and magnetism",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciCND4",
+   "sciCND5",
+   "sciCND6"
+  ],
+  "examples": [
+   {
+    "question": "Is a glass cup a conductor or an insulator of electricity?",
+    "answer": "Insulator",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is steel scissors blades a conductor or an insulator of electricity?",
+    "answer": "Conductor",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is a copper wire a conductor or an insulator of electricity?",
+    "answer": "Conductor",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is a rubber glove a conductor or an insulator of electricity?",
+    "answer": "Insulator",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is an iron nail a conductor or an insulator of electricity?",
+    "answer": "Conductor",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is a wooden spoon a conductor or an insulator of electricity?",
+    "answer": "Insulator",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is aluminum foil a conductor or an insulator of electricity?",
+    "answer": "Conductor",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is a silver spoon a conductor or an insulator of electricity?",
+    "answer": "Conductor",
+    "choices": [
+     "Conductor",
+     "Insulator"
+    ]
+   },
+   {
+    "question": "Is a plastic bag a conductor or an insulator of electricity?",
+    "answer": "Insulator",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   },
+   {
+    "question": "Is a cotton shirt a conductor or an insulator of electricity?",
+    "answer": "Insulator",
+    "choices": [
+     "Insulator",
+     "Conductor"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCircuit",
+  "subject": "science",
+  "title": "Electric circuits",
+  "section": "Electricity and magnetism",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciCircuit4",
+   "sciCircuit5",
+   "sciCircuit6",
+   "sciCircuit7",
+   "sciCircuit8"
+  ],
+  "examples": [
+   {
+    "question": "What does a switch do in a circuit?",
+    "answer": "Opens or closes the circuit",
+    "choices": [
+     "Stores electricity",
+     "Changes the battery",
+     "Opens or closes the circuit",
+     "Makes light"
+    ]
+   },
+   {
+    "question": "Which is the best material for wires?",
+    "answer": "Copper",
+    "choices": [
+     "Rubber",
+     "Wood",
+     "Plastic",
+     "Copper"
+    ]
+   },
+   {
+    "question": "What provides the energy in a simple circuit?",
+    "answer": "The battery",
+    "choices": [
+     "The switch",
+     "The wire",
+     "The bulb",
+     "The battery"
+    ]
+   },
+   {
+    "question": "Adding more bulbs to a series circuit makes each bulb …",
+    "answer": "dimmer.",
+    "choices": [
+     "the same.",
+     "dimmer.",
+     "change colour.",
+     "brighter."
+    ]
+   },
+   {
+    "question": "Homes use which kind of circuit so each light works on its own?",
+    "answer": "Parallel",
+    "choices": [
+     "Parallel",
+     "Open",
+     "Broken",
+     "Series"
+    ]
+   },
+   {
+    "question": "A bulb lights only when the circuit is …",
+    "answer": "closed (a complete loop).",
+    "choices": [
+     "turned upside down.",
+     "made of rubber.",
+     "open (a broken loop).",
+     "closed (a complete loop)."
+    ]
+   },
+   {
+    "question": "In a series circuit, if one bulb burns out, the others …",
+    "answer": "go out too.",
+    "choices": [
+     "start blinking.",
+     "go out too.",
+     "get brighter.",
+     "stay on."
+    ]
+   },
+   {
+    "question": "In a parallel circuit, if one bulb burns out, the others …",
+    "answer": "stay on.",
+    "choices": [
+     "explode.",
+     "go out too.",
+     "stay on.",
+     "turn off and on."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciReflAbs",
+  "subject": "science",
+  "title": "Transmission, reflection and absorption",
+  "section": "Waves",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciReflAbs4",
+   "sciReflAbs5",
+   "sciReflAbs6",
+   "sciReflAbs7",
+   "sciReflAbs8"
+  ],
+  "examples": [
+   {
+    "question": "What happens to the light (or sound)? Dark asphalt warms up on a sunny day.",
+    "answer": "Absorption",
+    "choices": [
+     "Reflection",
+     "Absorption",
+     "Transmission"
+    ]
+   },
+   {
+    "question": "What happens to the light (or sound)? The moon shines with light from the sun.",
+    "answer": "Reflection",
+    "choices": [
+     "Transmission",
+     "Reflection",
+     "Absorption"
+    ]
+   },
+   {
+    "question": "What happens to the light (or sound)? You see yourself in a mirror.",
+    "answer": "Reflection",
+    "choices": [
+     "Absorption",
+     "Reflection",
+     "Transmission"
+    ]
+   },
+   {
+    "question": "What happens to the light (or sound)? Music passes through the wall from next door.",
+    "answer": "Transmission",
+    "choices": [
+     "Reflection",
+     "Transmission",
+     "Absorption"
+    ]
+   },
+   {
+    "question": "What happens to the light (or sound)? Sunlight shines through a window.",
+    "answer": "Transmission",
+    "choices": [
+     "Absorption",
+     "Transmission",
+     "Reflection"
+    ]
+   },
+   {
+    "question": "What happens to the light (or sound)? A black shirt gets hot in the sun.",
+    "answer": "Absorption",
+    "choices": [
+     "Absorption",
+     "Transmission",
+     "Reflection"
+    ]
+   },
+   {
+    "question": "What happens to the light (or sound)? An echo bounces off a canyon wall.",
+    "answer": "Reflection",
+    "choices": [
+     "Absorption",
+     "Transmission",
+     "Reflection"
+    ]
+   },
+   {
+    "question": "What happens to the light (or sound)? A thick curtain blocks and soaks up sound.",
+    "answer": "Absorption",
+    "choices": [
+     "Transmission",
+     "Reflection",
+     "Absorption"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciFlower",
+  "subject": "science",
+  "title": "Identify flower parts and their functions",
+  "section": "Plants",
+  "grades": [
+   4,
+   6,
+   7
+  ],
+  "skillIds": [
+   "sciFlower4",
+   "sciFlower6",
+   "sciFlower7"
+  ],
+  "examples": [
+   {
+    "question": "Which flower parts are colourful and attract pollinators?",
+    "answer": "Petals",
+    "choices": [
+     "Petals",
+     "Stamen",
+     "Ovary",
+     "Pistil"
+    ]
+   },
+   {
+    "question": "Which flower part makes pollen?",
+    "answer": "Anther",
+    "choices": [
+     "Anther",
+     "Pistil",
+     "Stamen",
+     "Stigma"
+    ]
+   },
+   {
+    "question": "After pollination, which part grows into the fruit?",
+    "answer": "Ovary",
+    "choices": [
+     "Petals",
+     "Sepals",
+     "Anther",
+     "Ovary"
+    ]
+   },
+   {
+    "question": "Which flower part is sticky and catches pollen?",
+    "answer": "Stigma",
+    "choices": [
+     "Ovary",
+     "Stigma",
+     "Stamen",
+     "Pistil"
+    ]
+   },
+   {
+    "question": "What is the female part of the flower (stigma, style and ovary) called?",
+    "answer": "Pistil",
+    "choices": [
+     "Stigma",
+     "Sepals",
+     "Petals",
+     "Pistil"
+    ]
+   },
+   {
+    "question": "What is the male part of the flower (anther + filament) called?",
+    "answer": "Stamen",
+    "choices": [
+     "Anther",
+     "Ovary",
+     "Stamen",
+     "Sepals"
+    ]
+   },
+   {
+    "question": "Which flower part contains the ovules (future seeds)?",
+    "answer": "Ovary",
+    "choices": [
+     "Stamen",
+     "Ovary",
+     "Pistil",
+     "Stigma"
+    ]
+   },
+   {
+    "question": "Which leaf-like parts protect the flower bud?",
+    "answer": "Sepals",
+    "choices": [
+     "Sepals",
+     "Petals",
+     "Stigma",
+     "Stamen"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBeak",
+  "subject": "science",
+  "title": "Animal adaptations: beaks, mouths and necks",
+  "section": "Adaptations",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsBeak4",
+   "sciXsBeak5"
+  ],
+  "examples": [
+   {
+    "question": "A heron's long, sharp beak is adapted for…",
+    "answer": "spearing fish",
+    "choices": [
+     "tearing meat",
+     "spearing fish",
+     "cracking nuts",
+     "drinking nectar"
+    ]
+   },
+   {
+    "question": "A giraffe's long neck is adapted for…",
+    "answer": "reaching leaves high in trees",
+    "choices": [
+     "catching fish",
+     "digging burrows",
+     "swimming",
+     "reaching leaves high in trees"
+    ]
+   },
+   {
+    "question": "A hummingbird's long, thin beak is adapted for…",
+    "answer": "drinking nectar from flowers",
+    "choices": [
+     "tearing meat",
+     "drinking nectar from flowers",
+     "cracking nuts",
+     "scooping fish"
+    ]
+   },
+   {
+    "question": "A grosbeak's thick, cone-shaped beak is adapted for…",
+    "answer": "cracking hard seeds",
+    "choices": [
+     "spearing fish",
+     "sipping nectar",
+     "cracking hard seeds",
+     "catching insects in flight"
+    ]
+   },
+   {
+    "question": "An eagle's hooked beak is adapted for…",
+    "answer": "tearing meat",
+    "choices": [
+     "tearing meat",
+     "sipping nectar",
+     "filtering mud",
+     "drilling wood"
+    ]
+   },
+   {
+    "question": "An anteater's long, sticky tongue is adapted for…",
+    "answer": "catching ants and termites",
+    "choices": [
+     "catching fish",
+     "eating leaves",
+     "catching ants and termites",
+     "cracking shells"
+    ]
+   },
+   {
+    "question": "A pelican's pouch-like bill is adapted for…",
+    "answer": "scooping up fish",
+    "choices": [
+     "sipping nectar",
+     "cracking nuts",
+     "pecking wood",
+     "scooping up fish"
+    ]
+   },
+   {
+    "question": "A parrot's strong, curved beak is adapted for…",
+    "answer": "cracking hard nuts and seeds",
+    "choices": [
+     "sipping nectar",
+     "cracking hard nuts and seeds",
+     "catching insects in flight",
+     "filtering water"
+    ]
+   },
+   {
+    "question": "A duck's flat, wide bill is adapted for…",
+    "answer": "straining food from water and mud",
+    "choices": [
+     "drilling wood",
+     "straining food from water and mud",
+     "cracking nuts",
+     "tearing meat"
+    ]
+   },
+   {
+    "question": "A woodpecker's strong, chisel-shaped beak is adapted for…",
+    "answer": "drilling into wood to find insects",
+    "choices": [
+     "cracking seeds only",
+     "drilling into wood to find insects",
+     "scooping fish",
+     "sipping nectar"
+    ]
+   },
+   {
+    "question": "A crossbill's crossed beak is adapted for…",
+    "answer": "prying seeds out of pine cones",
+    "choices": [
+     "sipping nectar",
+     "catching fish",
+     "tearing meat",
+     "prying seeds out of pine cones"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFeet",
+  "subject": "science",
+  "title": "Animal adaptations: feet and limbs",
+  "section": "Adaptations",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "sciXsFeet4",
+   "sciXsFeet5",
+   "sciXsFeet6"
+  ],
+  "examples": [
+   {
+    "question": "A kangaroo's powerful back legs are adapted for…",
+    "answer": "hopping long distances",
+    "choices": [
+     "climbing",
+     "swimming",
+     "digging",
+     "hopping long distances"
+    ]
+   },
+   {
+    "question": "A sloth's long, curved claws are adapted for…",
+    "answer": "hanging from tree branches",
+    "choices": [
+     "running",
+     "hanging from tree branches",
+     "swimming fast",
+     "digging"
+    ]
+   },
+   {
+    "question": "A mole's wide, clawed front feet are adapted for…",
+    "answer": "digging",
+    "choices": [
+     "climbing",
+     "flying",
+     "digging",
+     "swimming"
+    ]
+   },
+   {
+    "question": "A snowshoe hare's large, furry feet are adapted for…",
+    "answer": "walking on snow without sinking",
+    "choices": [
+     "walking on snow without sinking",
+     "digging tunnels",
+     "catching fish",
+     "swimming"
+    ]
+   },
+   {
+    "question": "Sharp, curved talons are adapted for…",
+    "answer": "catching and holding prey",
+    "choices": [
+     "swimming",
+     "catching and holding prey",
+     "walking on sand",
+     "running fast on ice"
+    ]
+   },
+   {
+    "question": "A polar bear's large, furry paws are adapted for…",
+    "answer": "walking on ice and snow and swimming",
+    "choices": [
+     "walking on ice and snow and swimming",
+     "digging deep tunnels",
+     "flying",
+     "climbing trees"
+    ]
+   },
+   {
+    "question": "A frog's long back legs are adapted for…",
+    "answer": "jumping",
+    "choices": [
+     "digging",
+     "jumping",
+     "climbing only",
+     "flying"
+    ]
+   },
+   {
+    "question": "A gecko's sticky toe pads are adapted for…",
+    "answer": "climbing walls",
+    "choices": [
+     "climbing walls",
+     "catching fish",
+     "digging",
+     "swimming"
+    ]
+   },
+   {
+    "question": "A sea turtle's flippers are adapted for…",
+    "answer": "swimming",
+    "choices": [
+     "digging tunnels",
+     "running",
+     "climbing trees",
+     "swimming"
+    ]
+   },
+   {
+    "question": "An ostrich's long, strong legs are adapted for…",
+    "answer": "running fast",
+    "choices": [
+     "digging burrows",
+     "climbing trees",
+     "swimming",
+     "running fast"
+    ]
+   },
+   {
+    "question": "Webbed feet are adapted for…",
+    "answer": "swimming",
+    "choices": [
+     "digging",
+     "swimming",
+     "grasping prey",
+     "climbing trees"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSkin",
+  "subject": "science",
+  "title": "Animal adaptations: skins and body coverings",
+  "section": "Adaptations",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsSkin4",
+   "sciXsSkin5"
+  ],
+  "examples": [
+   {
+    "question": "A frog's moist skin helps it…",
+    "answer": "take in oxygen",
+    "choices": [
+     "fly",
+     "stay dry",
+     "take in oxygen",
+     "stay warm in snow"
+    ]
+   },
+   {
+    "question": "A snake's scales help it…",
+    "answer": "move and protect its body",
+    "choices": [
+     "fly",
+     "make sounds",
+     "move and protect its body",
+     "stay wet"
+    ]
+   },
+   {
+    "question": "A fish's slimy coating helps it…",
+    "answer": "glide through water and resist germs",
+    "choices": [
+     "glide through water and resist germs",
+     "stay dry",
+     "breathe air",
+     "walk on land"
+    ]
+   },
+   {
+    "question": "A hedgehog's spines help it…",
+    "answer": "protect itself from predators",
+    "choices": [
+     "protect itself from predators",
+     "stay cool",
+     "swim",
+     "fly"
+    ]
+   },
+   {
+    "question": "A walrus's thick blubber helps it…",
+    "answer": "stay warm in icy water",
+    "choices": [
+     "see better",
+     "run fast",
+     "climb",
+     "stay warm in icy water"
+    ]
+   },
+   {
+    "question": "A turtle's hard shell helps it…",
+    "answer": "protect itself from predators",
+    "choices": [
+     "climb",
+     "catch food quickly",
+     "protect itself from predators",
+     "fly"
+    ]
+   },
+   {
+    "question": "An armadillo's bony shell helps it…",
+    "answer": "protect itself from predators",
+    "choices": [
+     "protect itself from predators",
+     "fly",
+     "stay cool",
+     "swim faster"
+    ]
+   },
+   {
+    "question": "An arctic fox's thick white winter fur helps it…",
+    "answer": "stay warm and blend in with snow",
+    "choices": [
+     "climb trees",
+     "stay warm and blend in with snow",
+     "stay cool in summer",
+     "swim fast"
+    ]
+   },
+   {
+    "question": "A chameleon's colour-changing skin helps it…",
+    "answer": "blend in with its surroundings",
+    "choices": [
+     "breathe underwater",
+     "run fast",
+     "blend in with its surroundings",
+     "stay warm"
+    ]
+   },
+   {
+    "question": "A porcupine's quills help it…",
+    "answer": "defend against predators",
+    "choices": [
+     "defend against predators",
+     "stay cool",
+     "fly",
+     "swim"
+    ]
+   },
+   {
+    "question": "A seal's thick blubber helps it…",
+    "answer": "stay warm in cold water",
+    "choices": [
+     "stay warm in cold water",
+     "run fast",
+     "see in the dark",
+     "climb trees"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTraitHyp",
+  "subject": "science",
+  "title": "What affects traits? Use observations to support a hypothesis",
+  "section": "Traits and heredity",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsTraitHyp4"
+  ],
+  "examples": [
+   {
+    "question": "Hypothesis: Temperature affects whether turtle eggs hatch as male or female. Which observation supports it?",
+    "answer": "Eggs kept warmer hatched mostly females",
+    "choices": [
+     "Turtles lay eggs",
+     "Eggs kept warmer hatched mostly females",
+     "Turtles have shells",
+     "Turtles swim"
+    ]
+   },
+   {
+    "question": "Hypothesis: Diet affects the colour of a canary's feathers. Which observation supports it?",
+    "answer": "Canaries fed red peppers grew redder feathers",
+    "choices": [
+     "Canaries are birds",
+     "Canaries live in cages",
+     "Canaries sing",
+     "Canaries fed red peppers grew redder feathers"
+    ]
+   },
+   {
+    "question": "Hypothesis: Hydrangea flower colour depends on soil. Which observation supports it?",
+    "answer": "The same hydrangea variety grew blue flowers in acidic soil and pink in other soil",
+    "choices": [
+     "They grow in gardens",
+     "Hydrangeas are pretty",
+     "They need water",
+     "The same hydrangea variety grew blue flowers in acidic soil and pink in other soil"
+    ]
+   },
+   {
+    "question": "Hypothesis: Diet affects a flamingo's colour. Which observation supports this?",
+    "answer": "Flamingos fed shrimp with pink pigment are pinker than those that are not",
+    "choices": [
+     "Flamingos stand on one leg",
+     "Flamingos have long legs",
+     "Flamingos live in groups",
+     "Flamingos fed shrimp with pink pigment are pinker than those that are not"
+    ]
+   },
+   {
+    "question": "Hypothesis: Fertilizer makes tomato plants grow taller. Which observation supports it?",
+    "answer": "Identical tomato plants given fertilizer grew taller than plants without it",
+    "choices": [
+     "Identical tomato plants given fertilizer grew taller than plants without it",
+     "Some plants were in pots",
+     "The plants were watered",
+     "Tomatoes are red"
+    ]
+   },
+   {
+    "question": "Hypothesis: Exercise makes muscles bigger. Which observation supports it?",
+    "answer": "People who lifted weights for months had larger muscles",
+    "choices": [
+     "Everyone has muscles",
+     "People who lifted weights for months had larger muscles",
+     "Muscles are under the skin",
+     "Muscles help us move"
+    ]
+   },
+   {
+    "question": "Hypothesis: Cold temperatures make a Himalayan rabbit's fur grow dark. Which observation supports it?",
+    "answer": "Fur grew back dark where an ice pack was placed on the rabbit's back",
+    "choices": [
+     "Rabbits eat carrots",
+     "Fur keeps rabbits warm",
+     "Rabbits have long ears",
+     "Fur grew back dark where an ice pack was placed on the rabbit's back"
+    ]
+   },
+   {
+    "question": "Hypothesis: Practice improves a dog's ability to catch a ball. Which observation supports it?",
+    "answer": "Dogs that practised daily caught more throws than untrained dogs of the same breed",
+    "choices": [
+     "Balls are round",
+     "Dogs that practised daily caught more throws than untrained dogs of the same breed",
+     "Dogs have four legs",
+     "Dogs like balls"
+    ]
+   },
+   {
+    "question": "Hypothesis: The amount of sunlight affects how tall a plant grows. Which observation supports this?",
+    "answer": "Identical seedlings in sun grew taller than those in shade",
+    "choices": [
+     "Identical seedlings in sun grew taller than those in shade",
+     "The pots were the same colour",
+     "All plants were the same height",
+     "Plants in shade were green"
+    ]
+   },
+   {
+    "question": "Hypothesis: Plants grown in shade have bigger leaves. Which observation supports it?",
+    "answer": "The same plant variety grew larger leaves in shade than in full sun",
+    "choices": [
+     "Sun is bright",
+     "The same plant variety grew larger leaves in shade than in full sun",
+     "Leaves are green",
+     "Shade is cool"
+    ]
+   },
+   {
+    "question": "Hypothesis: Sunlight makes plants grow toward it. Which observation supports it?",
+    "answer": "Plants by a window bent toward the light",
+    "choices": [
+     "Windows are glass",
+     "Plants are green",
+     "Plants need water",
+     "Plants by a window bent toward the light"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsOffspr",
+  "subject": "science",
+  "title": "Match offspring to parents using inherited traits",
+  "section": "Traits and heredity",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsOffspr4"
+  ],
+  "examples": [
+   {
+    "question": "Two red-flowered rose bushes are crossed. What colour flowers are the new plants likely to have?",
+    "answer": "Red",
+    "choices": [
+     "Red",
+     "Green",
+     "Blue",
+     "Black"
+    ]
+   },
+   {
+    "question": "Two sunflowers with very tall stems are crossed. What will their seeds most likely grow into?",
+    "answer": "Tall sunflowers",
+    "choices": [
+     "Roses",
+     "Tulips",
+     "Tall sunflowers",
+     "Short daisies"
+    ]
+   },
+   {
+    "question": "A white cat and a white cat have kittens. What colour will the kittens most likely be?",
+    "answer": "White",
+    "choices": [
+     "Spotted green",
+     "White",
+     "Feathered",
+     "Striped orange"
+    ]
+   },
+   {
+    "question": "A tall pea plant and a tall pea plant are crossed. What are the offspring most likely to be?",
+    "answer": "Tall",
+    "choices": [
+     "Short",
+     "Purple animals",
+     "Tall",
+     "Rocks"
+    ]
+   },
+   {
+    "question": "Both parent rabbits have black fur and floppy ears. Which baby is most likely theirs?",
+    "answer": "A baby with black fur and floppy ears",
+    "choices": [
+     "A baby with a long neck",
+     "A baby with stripes",
+     "A baby with feathers",
+     "A baby with black fur and floppy ears"
+    ]
+   },
+   {
+    "question": "Both parent rabbits have short ears. Which baby is most likely theirs?",
+    "answer": "A baby rabbit with short ears",
+    "choices": [
+     "A baby with a trunk",
+     "A baby rabbit with short ears",
+     "A baby with long floppy ears and stripes",
+     "A baby with wings"
+    ]
+   },
+   {
+    "question": "Two wrinkled-seed pea plants are crossed. What seeds will the offspring make?",
+    "answer": "Wrinkled seeds",
+    "choices": [
+     "No seeds",
+     "Square seeds",
+     "Round seeds only",
+     "Wrinkled seeds"
+    ]
+   },
+   {
+    "question": "A spotted dog and a spotted dog have puppies. What trait will the puppies likely show?",
+    "answer": "Spots",
+    "choices": [
+     "Scales",
+     "Spots",
+     "Wings",
+     "Feathers"
+    ]
+   },
+   {
+    "question": "Both parent dogs have curly fur. What will their puppies most likely have?",
+    "answer": "Curly fur",
+    "choices": [
+     "Curly fur",
+     "Stripes",
+     "Scales",
+     "Feathers"
+    ]
+   },
+   {
+    "question": "Both parent horses are brown with white faces. Which foal is most likely theirs?",
+    "answer": "A brown foal with a white face",
+    "choices": [
+     "A brown foal with a white face",
+     "A spotted calf",
+     "A grey kitten",
+     "A black foal with stripes"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsInhAcq",
+  "subject": "science",
+  "title": "Identify inherited and acquired traits",
+  "section": "Traits and heredity",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsInhAcq4"
+  ],
+  "examples": [
+   {
+    "question": "Is this trait inherited or acquired? Speaking French",
+    "answer": "Acquired",
+    "choices": [
+     "Acquired",
+     "Inherited"
+    ]
+   },
+   {
+    "question": "Is this trait inherited or acquired? Knowing how to ride a bike",
+    "answer": "Acquired",
+    "choices": [
+     "Inherited",
+     "Acquired"
+    ]
+   },
+   {
+    "question": "Is this trait inherited or acquired? A dog that learned to sit",
+    "answer": "Acquired",
+    "choices": [
+     "Inherited",
+     "Acquired"
+    ]
+   },
+   {
+    "question": "Is this trait inherited or acquired? Dimples",
+    "answer": "Inherited",
+    "choices": [
+     "Inherited",
+     "Acquired"
+    ]
+   },
+   {
+    "question": "Is this trait inherited or acquired? Eye colour",
+    "answer": "Inherited",
+    "choices": [
+     "Inherited",
+     "Acquired"
+    ]
+   },
+   {
+    "question": "Is this trait inherited or acquired? A dog's fur colour",
+    "answer": "Inherited",
+    "choices": [
+     "Inherited",
+     "Acquired"
+    ]
+   },
+   {
+    "question": "Is this trait inherited or acquired? A scar from a fall",
+    "answer": "Acquired",
+    "choices": [
+     "Acquired",
+     "Inherited"
+    ]
+   },
+   {
+    "question": "Is this trait inherited or acquired? A bird's beak shape",
+    "answer": "Inherited",
+    "choices": [
+     "Inherited",
+     "Acquired"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsInhEv",
+  "subject": "science",
+  "title": "Inherited and acquired traits: use evidence to support a statement",
+  "section": "Traits and heredity",
+  "grades": [
+   4,
+   9
+  ],
+  "skillIds": [
+   "sciXsInhEv4",
+   "sciXsInhEv9"
+  ],
+  "examples": [
+   {
+    "question": "Statement: Playing piano is an acquired trait. Which evidence supports this?",
+    "answer": "People learn to play through practice and lessons",
+    "choices": [
+     "People learn to play through practice and lessons",
+     "Some families own pianos",
+     "Pianists have ten fingers",
+     "Pianos are heavy"
+    ]
+   },
+   {
+    "question": "Statement: Riding a bike is acquired. Which evidence supports this?",
+    "answer": "People must practise to learn to ride",
+    "choices": [
+     "Bikes are fast",
+     "Babies can't ride",
+     "Bikes have wheels",
+     "People must practise to learn to ride"
+    ]
+   },
+   {
+    "question": "Statement: Speaking Spanish is acquired. Which evidence supports this?",
+    "answer": "People learn Spanish by studying or living where it is spoken",
+    "choices": [
+     "Spain is in Europe",
+     "Some people sing",
+     "People learn Spanish by studying or living where it is spoken",
+     "Spanish has many words"
+    ]
+   },
+   {
+    "question": "Statement: A dog that rolls over on command learned it. Which evidence supports this?",
+    "answer": "The dog was trained with treats",
+    "choices": [
+     "Dogs have four legs",
+     "Dogs have fur",
+     "The dog was trained with treats",
+     "Puppies are small"
+    ]
+   },
+   {
+    "question": "Statement: A dog's ability to fetch is acquired. Which evidence supports this?",
+    "answer": "Dogs learn to fetch through training",
+    "choices": [
+     "Puppies are born with fur",
+     "All dogs have tails",
+     "Dogs have four legs",
+     "Dogs learn to fetch through training"
+    ]
+   },
+   {
+    "question": "Statement: A cat's eye colour is inherited. Which evidence supports this?",
+    "answer": "Kittens usually have eye colours like their parents",
+    "choices": [
+     "Cats can be trained",
+     "Cats sleep a lot",
+     "Kittens usually have eye colours like their parents",
+     "Cats like milk"
+    ]
+   },
+   {
+    "question": "Statement: Curly hair is an inherited trait. Which evidence supports this?",
+    "answer": "Children of curly-haired parents often have curly hair from birth",
+    "choices": [
+     "Children of curly-haired parents often have curly hair from birth",
+     "Some people dye their hair",
+     "Hair grows longer over time",
+     "People can straighten their hair"
+    ]
+   },
+   {
+    "question": "Statement: Freckles are inherited. Which evidence supports this?",
+    "answer": "Children of parents with freckles often have freckles",
+    "choices": [
+     "Children of parents with freckles often have freckles",
+     "Freckles are small",
+     "Freckles can get darker in the sun",
+     "Some people cover freckles"
+    ]
+   },
+   {
+    "question": "Statement: A scar is acquired. Which evidence supports this?",
+    "answer": "It forms after an injury during a person's life",
+    "choices": [
+     "Everyone is born with it",
+     "It is a colour",
+     "It forms after an injury during a person's life",
+     "It is passed from parents"
+    ]
+   },
+   {
+    "question": "Statement: Hair texture is inherited. Which evidence supports this?",
+    "answer": "Babies are born with hair texture similar to their parents'",
+    "choices": [
+     "Hair can be cut",
+     "Babies are born with hair texture similar to their parents'",
+     "Hair grows",
+     "Hair can be straightened"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciFoodRole",
+  "subject": "science",
+  "title": "Producers, consumers and decomposers",
+  "section": "Ecosystems",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciFoodRole4",
+   "sciFoodRole5",
+   "sciFoodRole6",
+   "sciFoodRole7",
+   "sciFoodRole8"
+  ],
+  "examples": [
+   {
+    "question": "What role does a fox that eats rabbits play in its food web?",
+    "answer": "Secondary consumer",
+    "choices": [
+     "Decomposer",
+     "Primary consumer",
+     "Producer",
+     "Secondary consumer"
+    ]
+   },
+   {
+    "question": "What role does bacteria in soil play in its food web?",
+    "answer": "Decomposer",
+    "choices": [
+     "Producer",
+     "Secondary consumer",
+     "Decomposer",
+     "Primary consumer"
+    ]
+   },
+   {
+    "question": "What role does an oak tree play in its food web?",
+    "answer": "Producer",
+    "choices": [
+     "Secondary consumer",
+     "Producer",
+     "Primary consumer",
+     "Decomposer"
+    ]
+   },
+   {
+    "question": "What role does a frog that eats grasshoppers play in its food web?",
+    "answer": "Secondary consumer",
+    "choices": [
+     "Secondary consumer",
+     "Primary consumer",
+     "Decomposer",
+     "Producer"
+    ]
+   },
+   {
+    "question": "What role does a rabbit play in its food web?",
+    "answer": "Primary consumer",
+    "choices": [
+     "Producer",
+     "Secondary consumer",
+     "Primary consumer",
+     "Decomposer"
+    ]
+   },
+   {
+    "question": "What role does algae play in its food web?",
+    "answer": "Producer",
+    "choices": [
+     "Producer",
+     "Decomposer",
+     "Primary consumer",
+     "Secondary consumer"
+    ]
+   },
+   {
+    "question": "What role does a grasshopper play in its food web?",
+    "answer": "Primary consumer",
+    "choices": [
+     "Producer",
+     "Secondary consumer",
+     "Decomposer",
+     "Primary consumer"
+    ]
+   },
+   {
+    "question": "What role does grass play in its food web?",
+    "answer": "Producer",
+    "choices": [
+     "Primary consumer",
+     "Decomposer",
+     "Secondary consumer",
+     "Producer"
+    ]
+   },
+   {
+    "question": "What role does a mushroom play in its food web?",
+    "answer": "Decomposer",
+    "choices": [
+     "Secondary consumer",
+     "Producer",
+     "Primary consumer",
+     "Decomposer"
+    ]
+   },
+   {
+    "question": "What role does a deer play in its food web?",
+    "answer": "Primary consumer",
+    "choices": [
+     "Primary consumer",
+     "Secondary consumer",
+     "Decomposer",
+     "Producer"
+    ]
+   },
+   {
+    "question": "What role does an earthworm play in its food web?",
+    "answer": "Decomposer",
+    "choices": [
+     "Decomposer",
+     "Producer",
+     "Secondary consumer",
+     "Primary consumer"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciBDY",
+  "subject": "science",
+  "title": "Body systems",
+  "section": "Anatomy and physiology",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciBDY4"
+  ],
+  "examples": [
+   {
+    "question": "Which body system gives your body its frame?",
+    "answer": "Skeletal system",
+    "choices": [
+     "Digestive system",
+     "Skeletal system",
+     "Nervous system",
+     "Respiratory system"
+    ]
+   },
+   {
+    "question": "Which body system includes the brain?",
+    "answer": "Nervous system",
+    "choices": [
+     "Digestive system",
+     "Skeletal system",
+     "Circulatory system",
+     "Nervous system"
+    ]
+   },
+   {
+    "question": "Which body system lets you move?",
+    "answer": "Muscular system",
+    "choices": [
+     "Skeletal system",
+     "Digestive system",
+     "Muscular system",
+     "Respiratory system"
+    ]
+   },
+   {
+    "question": "Which body system breaks down food?",
+    "answer": "Digestive system",
+    "choices": [
+     "Nervous system",
+     "Circulatory system",
+     "Respiratory system",
+     "Digestive system"
+    ]
+   },
+   {
+    "question": "The heart is part of which system?",
+    "answer": "Circulatory system",
+    "choices": [
+     "Circulatory system",
+     "Digestive system",
+     "Muscular system",
+     "Nervous system"
+    ]
+   },
+   {
+    "question": "Which body system moves blood around the body?",
+    "answer": "Circulatory system",
+    "choices": [
+     "Circulatory system",
+     "Nervous system",
+     "Digestive system",
+     "Muscular system"
+    ]
+   },
+   {
+    "question": "Which body system helps you breathe?",
+    "answer": "Respiratory system",
+    "choices": [
+     "Muscular system",
+     "Digestive system",
+     "Circulatory system",
+     "Respiratory system"
+    ]
+   },
+   {
+    "question": "The stomach is part of which system?",
+    "answer": "Digestive system",
+    "choices": [
+     "Digestive system",
+     "Muscular system",
+     "Respiratory system",
+     "Circulatory system"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciOrgans",
+  "subject": "science",
+  "title": "Human organs and their functions",
+  "section": "Anatomy and physiology",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciOrgans4",
+   "sciOrgans5"
+  ],
+  "examples": [
+   {
+    "question": "Which is the body's largest organ?",
+    "answer": "Skin",
+    "choices": [
+     "Small intestine",
+     "Heart",
+     "Skin",
+     "Lungs"
+    ]
+   },
+   {
+    "question": "Which organ pumps blood?",
+    "answer": "Heart",
+    "choices": [
+     "Heart",
+     "Liver",
+     "Kidneys",
+     "Lungs"
+    ]
+   },
+   {
+    "question": "Which organ breaks down food with acid?",
+    "answer": "Stomach",
+    "choices": [
+     "Brain",
+     "Stomach",
+     "Kidneys",
+     "Heart"
+    ]
+   },
+   {
+    "question": "Which organ controls the body and thinking?",
+    "answer": "Brain",
+    "choices": [
+     "Small intestine",
+     "Lungs",
+     "Heart",
+     "Brain"
+    ]
+   },
+   {
+    "question": "Which organs filter waste from the blood?",
+    "answer": "Kidneys",
+    "choices": [
+     "Kidneys",
+     "Heart",
+     "Small intestine",
+     "Stomach"
+    ]
+   },
+   {
+    "question": "Which organs take in oxygen?",
+    "answer": "Lungs",
+    "choices": [
+     "Small intestine",
+     "Kidneys",
+     "Stomach",
+     "Lungs"
+    ]
+   },
+   {
+    "question": "Where is most food absorbed into the blood?",
+    "answer": "Small intestine",
+    "choices": [
+     "Skin",
+     "Kidneys",
+     "Small intestine",
+     "Brain"
+    ]
+   },
+   {
+    "question": "Which organ makes bile and cleans the blood?",
+    "answer": "Liver",
+    "choices": [
+     "Small intestine",
+     "Skin",
+     "Liver",
+     "Stomach"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTurtles",
+  "subject": "science",
+  "title": "Science literacy: how can a community protect sea turtles?",
+  "section": "Conservation and natural resources",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsTurtles4",
+   "sciXsTurtles5"
+  ],
+  "examples": [
+   {
+    "question": "How can people help after hatchlings emerge?",
+    "answer": "Keep their path to the ocean clear and let them crawl on their own",
+    "choices": [
+     "Pick them up and carry them home",
+     "Shine flashlights on them",
+     "Keep their path to the ocean clear and let them crawl on their own",
+     "Put them in a pool"
+    ]
+   },
+   {
+    "question": "How does reducing plastic help sea turtles?",
+    "answer": "Turtles can mistake plastic bags for jellyfish and eat them",
+    "choices": [
+     "Plastic makes nests",
+     "Turtles eat plastic for food",
+     "Plastic keeps the water warm",
+     "Turtles can mistake plastic bags for jellyfish and eat them"
+    ]
+   },
+   {
+    "question": "What are turtle excluder devices?",
+    "answer": "Openings in fishing nets that let turtles escape",
+    "choices": [
+     "Openings in fishing nets that let turtles escape",
+     "Lights for beaches",
+     "Fences on beaches",
+     "Turtle food"
+    ]
+   },
+   {
+    "question": "Why do sea turtles return to beaches?",
+    "answer": "To lay their eggs in the sand",
+    "choices": [
+     "To find fresh water",
+     "To lay their eggs in the sand",
+     "To hunt seals",
+     "To sleep"
+    ]
+   },
+   {
+    "question": "Why do bright beach lights harm baby sea turtles?",
+    "answer": "Hatchlings crawl toward lights instead of the ocean",
+    "choices": [
+     "Lights help them find food",
+     "Hatchlings crawl toward lights instead of the ocean",
+     "Lights scare away fish",
+     "Lights make the sand hot"
+    ]
+   },
+   {
+    "question": "Which community rule helps nesting turtles?",
+    "answer": "Turn off or shield beach lights at night",
+    "choices": [
+     "Turn off or shield beach lights at night",
+     "Leave chairs on the sand overnight",
+     "Allow cars on the beach",
+     "Build on the dunes"
+    ]
+   },
+   {
+    "question": "How do fishing nets harm sea turtles?",
+    "answer": "Turtles get caught and can drown",
+    "choices": [
+     "Nets feed turtles",
+     "Nets keep turtles warm",
+     "They have no effect",
+     "Turtles get caught and can drown"
+    ]
+   },
+   {
+    "question": "Which community action helps protect sea turtle nests?",
+    "answer": "Marking and protecting nest areas on beaches",
+    "choices": [
+     "Leaving plastic on the sand",
+     "Building on dunes",
+     "Driving cars on the beach",
+     "Marking and protecting nest areas on beaches"
+    ]
+   },
+   {
+    "question": "How can lights near a beach harm hatchlings?",
+    "answer": "Hatchlings crawl toward the lights instead of the ocean",
+    "choices": [
+     "Lights feed predators",
+     "Lights make the eggs cold",
+     "Lights help them swim",
+     "Hatchlings crawl toward the lights instead of the ocean"
+    ]
+   },
+   {
+    "question": "Why is warming sand a problem for sea turtles?",
+    "answer": "Sand temperature affects whether hatchlings are male or female",
+    "choices": [
+     "Warm sand makes eggs bigger",
+     "It doesn't matter",
+     "Turtles like hot sand",
+     "Sand temperature affects whether hatchlings are male or female"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsEnSrc",
+  "subject": "science",
+  "title": "Evaluate natural energy sources",
+  "section": "Conservation and natural resources",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsEnSrc4",
+   "sciXsEnSrc5"
+  ],
+  "examples": [
+   {
+    "question": "What is a drawback of solar power?",
+    "answer": "It produces less energy on cloudy days and at night",
+    "choices": [
+     "It causes air pollution",
+     "It needs coal to work",
+     "It produces less energy on cloudy days and at night",
+     "It will run out soon"
+    ]
+   },
+   {
+    "question": "Which energy source comes from heat inside Earth?",
+    "answer": "Geothermal energy",
+    "choices": [
+     "Tidal energy",
+     "Geothermal energy",
+     "Solar energy",
+     "Wind energy"
+    ]
+   },
+   {
+    "question": "What is a disadvantage of coal?",
+    "answer": "Burning it pollutes the air and releases carbon dioxide",
+    "choices": [
+     "It never runs out",
+     "Burning it pollutes the air and releases carbon dioxide",
+     "It is clean",
+     "It is renewable"
+    ]
+   },
+   {
+    "question": "What is a disadvantage of hydroelectric dams?",
+    "answer": "They flood land and change river habitats",
+    "choices": [
+     "They need sunlight",
+     "They pollute the air",
+     "They use coal",
+     "They flood land and change river habitats"
+    ]
+   },
+   {
+    "question": "Which source is nonrenewable?",
+    "answer": "Natural gas",
+    "choices": [
+     "Natural gas",
+     "Sunlight",
+     "Wind",
+     "Moving water"
+    ]
+   },
+   {
+    "question": "Which energy source is renewable?",
+    "answer": "Wind",
+    "choices": [
+     "Wind",
+     "Oil",
+     "Coal",
+     "Natural gas"
+    ]
+   },
+   {
+    "question": "Which energy source uses the rise and fall of ocean water?",
+    "answer": "Tidal energy",
+    "choices": [
+     "Geothermal",
+     "Natural gas",
+     "Solar",
+     "Tidal energy"
+    ]
+   },
+   {
+    "question": "What is an advantage of wind power?",
+    "answer": "It does not pollute the air",
+    "choices": [
+     "It produces smoke",
+     "It will run out soon",
+     "It works without wind",
+     "It does not pollute the air"
+    ]
+   },
+   {
+    "question": "Which energy source uses moving water?",
+    "answer": "Hydroelectric power",
+    "choices": [
+     "Geothermal power",
+     "Coal power",
+     "Solar power",
+     "Hydroelectric power"
+    ]
+   },
+   {
+    "question": "Why might a sunny desert town choose solar power?",
+    "answer": "It gets lots of sunlight",
+    "choices": [
+     "It gets lots of sunlight",
+     "It has strong tides",
+     "It has many rivers",
+     "It has coal mines"
+    ]
+   },
+   {
+    "question": "What is a drawback of burning fossil fuels?",
+    "answer": "It pollutes the air and adds greenhouse gases",
+    "choices": [
+     "It only works at night",
+     "It pollutes the air and adds greenhouse gases",
+     "It never runs out",
+     "It needs wind"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsRkCST",
+  "subject": "science",
+  "title": "Classify rocks and minerals by colour, shape and texture",
+  "section": "Rocks and minerals",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsRkCST4"
+  ],
+  "examples": [
+   {
+    "question": "Which texture best describes this rock or mineral? Obsidian that looks like dark glass",
+    "answer": "Glassy",
+    "choices": [
+     "Glassy",
+     "Rough",
+     "Smooth"
+    ]
+   },
+   {
+    "question": "Which texture best describes this rock or mineral? Shiny quartz crystal faces",
+    "answer": "Glassy",
+    "choices": [
+     "Glassy",
+     "Smooth",
+     "Rough"
+    ]
+   },
+   {
+    "question": "Which texture best describes this rock or mineral? Granite with large crystals",
+    "answer": "Rough",
+    "choices": [
+     "Glassy",
+     "Rough",
+     "Smooth"
+    ]
+   },
+   {
+    "question": "Which texture best describes this rock or mineral? A river stone worn round by water",
+    "answer": "Smooth",
+    "choices": [
+     "Glassy",
+     "Rough",
+     "Smooth"
+    ]
+   },
+   {
+    "question": "Which texture best describes this rock or mineral? A polished beach pebble",
+    "answer": "Smooth",
+    "choices": [
+     "Glassy",
+     "Smooth",
+     "Rough"
+    ]
+   },
+   {
+    "question": "Which texture best describes this rock or mineral? Pumice full of holes",
+    "answer": "Rough",
+    "choices": [
+     "Smooth",
+     "Glassy",
+     "Rough"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMinProp",
+  "subject": "science",
+  "title": "Identify minerals using properties",
+  "section": "Rocks and minerals",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsMinProp4"
+  ],
+  "examples": [
+   {
+    "question": "What is a mineral's streak?",
+    "answer": "The colour of its powder",
+    "choices": [
+     "Its shape",
+     "Its weight",
+     "The colour of its powder",
+     "Its temperature"
+    ]
+   },
+   {
+    "question": "Which mineral is the hardest?",
+    "answer": "Diamond",
+    "choices": [
+     "Talc",
+     "Diamond",
+     "Calcite",
+     "Gypsum"
+    ]
+   },
+   {
+    "question": "What is a mineral's lustre?",
+    "answer": "How shiny it looks",
+    "choices": [
+     "How heavy it is",
+     "How shiny it looks",
+     "Its hardness",
+     "Its smell"
+    ]
+   },
+   {
+    "question": "Which property describes how a mineral reflects light?",
+    "answer": "Lustre",
+    "choices": [
+     "Colour of powder",
+     "Streak",
+     "Lustre",
+     "Hardness"
+    ]
+   },
+   {
+    "question": "What does it mean when a mineral has cleavage?",
+    "answer": "It breaks along flat, smooth surfaces",
+    "choices": [
+     "It breaks along flat, smooth surfaces",
+     "It breaks into powder",
+     "It melts easily",
+     "It cannot break"
+    ]
+   },
+   {
+    "question": "A mineral can be scratched by a fingernail. It is…",
+    "answer": "soft",
+    "choices": [
+     "glassy",
+     "magnetic",
+     "soft",
+     "hard"
+    ]
+   },
+   {
+    "question": "Pyrite looks like gold. How can you tell them apart?",
+    "answer": "Pyrite leaves a greenish-black streak; gold leaves a yellow streak",
+    "choices": [
+     "Gold is lighter",
+     "Pyrite is always round",
+     "They smell different",
+     "Pyrite leaves a greenish-black streak; gold leaves a yellow streak"
+    ]
+   },
+   {
+    "question": "Which mineral fizzes when acid is dropped on it?",
+    "answer": "Calcite",
+    "choices": [
+     "Quartz",
+     "Diamond",
+     "Gold",
+     "Calcite"
+    ]
+   },
+   {
+    "question": "Which test checks a mineral's hardness?",
+    "answer": "Scratching it with other materials",
+    "choices": [
+     "Looking at its colour",
+     "Smelling it",
+     "Scratching it with other materials",
+     "Weighing it"
+    ]
+   },
+   {
+    "question": "Which mineral is attracted to a magnet?",
+    "answer": "Magnetite",
+    "choices": [
+     "Magnetite",
+     "Talc",
+     "Quartz",
+     "Calcite"
+    ]
+   },
+   {
+    "question": "Which mineral can be scratched by a fingernail?",
+    "answer": "Talc",
+    "choices": [
+     "Topaz",
+     "Talc",
+     "Quartz",
+     "Diamond"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsRockProp",
+  "subject": "science",
+  "title": "Identify rocks using properties",
+  "section": "Rocks and minerals",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "sciXsRockProp4"
+  ],
+  "examples": [
+   {
+    "question": "A rock is smooth, white and was formed when limestone was heated and squeezed. It is…",
+    "answer": "marble (metamorphic)",
+    "choices": [
+     "sandstone",
+     "pumice",
+     "granite",
+     "marble (metamorphic)"
+    ]
+   },
+   {
+    "question": "A rock splits into thin, flat sheets and formed from shale. It is…",
+    "answer": "slate (metamorphic)",
+    "choices": [
+     "pumice",
+     "limestone",
+     "slate (metamorphic)",
+     "granite"
+    ]
+   },
+   {
+    "question": "A rock has layers and contains small fossils. It is most likely…",
+    "answer": "sedimentary",
+    "choices": [
+     "a mineral",
+     "igneous",
+     "sedimentary",
+     "metamorphic"
+    ]
+   },
+   {
+    "question": "A rock feels gritty and is made of sand grains. It is…",
+    "answer": "sandstone (sedimentary)",
+    "choices": [
+     "basalt",
+     "sandstone (sedimentary)",
+     "obsidian",
+     "marble"
+    ]
+   },
+   {
+    "question": "A rock has bands of minerals squeezed by heat and pressure. It is…",
+    "answer": "metamorphic",
+    "choices": [
+     "sedimentary",
+     "a fossil",
+     "igneous",
+     "metamorphic"
+    ]
+   },
+   {
+    "question": "A black, glassy rock with sharp edges is…",
+    "answer": "obsidian (igneous)",
+    "choices": [
+     "obsidian (igneous)",
+     "chalk",
+     "shale",
+     "sandstone"
+    ]
+   },
+   {
+    "question": "A rock is made of tiny shells cemented together and fizzes in acid. It is…",
+    "answer": "limestone (sedimentary)",
+    "choices": [
+     "basalt",
+     "limestone (sedimentary)",
+     "obsidian",
+     "granite"
+    ]
+   },
+   {
+    "question": "A rock made of rounded pebbles cemented together is…",
+    "answer": "conglomerate (sedimentary)",
+    "choices": [
+     "basalt",
+     "granite",
+     "conglomerate (sedimentary)",
+     "slate"
+    ]
+   },
+   {
+    "question": "A rock has many holes and floats on water. It is…",
+    "answer": "pumice (igneous)",
+    "choices": [
+     "pumice (igneous)",
+     "granite",
+     "marble",
+     "sandstone"
+    ]
+   },
+   {
+    "question": "A rock has large crystals that formed as magma cooled slowly underground. It is…",
+    "answer": "granite (igneous)",
+    "choices": [
+     "granite (igneous)",
+     "marble",
+     "sandstone",
+     "shale"
+    ]
+   },
+   {
+    "question": "A rock is dark, fine-grained and formed from lava that cooled quickly. It is…",
+    "answer": "basalt (igneous)",
+    "choices": [
+     "sandstone",
+     "marble",
+     "basalt (igneous)",
+     "limestone"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSedRk",
+  "subject": "science",
+  "title": "How do sedimentary rocks form?",
+  "section": "Rocks and minerals",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsSedRk4",
+   "sciXsSedRk5"
+  ],
+  "examples": [
+   {
+    "question": "What is the first step in forming sedimentary rock?",
+    "answer": "Rocks are weathered into small pieces (sediment)",
+    "choices": [
+     "Magma cools",
+     "Crystals grow in lava",
+     "Rocks are weathered into small pieces (sediment)",
+     "Rock melts"
+    ]
+   },
+   {
+    "question": "What is compaction?",
+    "answer": "Layers of sediment being squeezed together by the weight above",
+    "choices": [
+     "Layers of sediment being squeezed together by the weight above",
+     "Rock melting",
+     "Wind blowing sand",
+     "Rock cooling"
+    ]
+   },
+   {
+    "question": "Which sedimentary rock forms from plant remains in swamps?",
+    "answer": "Coal",
+    "choices": [
+     "Obsidian",
+     "Slate",
+     "Granite",
+     "Coal"
+    ]
+   },
+   {
+    "question": "Which rock forms from mud?",
+    "answer": "Shale",
+    "choices": [
+     "Marble",
+     "Shale",
+     "Granite",
+     "Basalt"
+    ]
+   },
+   {
+    "question": "Which comes first in forming sedimentary rock?",
+    "answer": "Weathering breaks rock into sediment",
+    "choices": [
+     "Compaction",
+     "Cementation",
+     "Weathering breaks rock into sediment",
+     "Deposition"
+    ]
+   },
+   {
+    "question": "Which is a sedimentary rock?",
+    "answer": "Sandstone",
+    "choices": [
+     "Basalt",
+     "Sandstone",
+     "Granite",
+     "Marble"
+    ]
+   },
+   {
+    "question": "What is deposition?",
+    "answer": "Sediment being dropped in a new place",
+    "choices": [
+     "Sediment being dropped in a new place",
+     "Sediment being lifted",
+     "Rock being heated",
+     "Rock being melted"
+    ]
+   },
+   {
+    "question": "What happens to sediment after it is deposited in layers?",
+    "answer": "It is compacted and cemented into rock",
+    "choices": [
+     "It is compacted and cemented into rock",
+     "It turns into lava",
+     "It melts",
+     "It evaporates"
+    ]
+   },
+   {
+    "question": "What is cementation?",
+    "answer": "Minerals gluing sediment grains together",
+    "choices": [
+     "Minerals gluing sediment grains together",
+     "Ice melting",
+     "Lava cooling",
+     "Rock heating"
+    ]
+   },
+   {
+    "question": "Why do sedimentary rocks often have layers?",
+    "answer": "Sediment settles in layers over time",
+    "choices": [
+     "Lava flows in stripes",
+     "Crystals grow in rows",
+     "Sediment settles in layers over time",
+     "Heat makes stripes"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRockTyp",
+  "subject": "science",
+  "title": "Classify rocks as igneous, sedimentary or metamorphic",
+  "section": "Rocks and minerals",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciRockTyp4",
+   "sciRockTyp5",
+   "sciRockTyp6",
+   "sciRockTyp7",
+   "sciRockTyp8"
+  ],
+  "examples": [
+   {
+    "question": "What type of rock is described? Sandstone and limestone are examples.",
+    "answer": "Sedimentary",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "What type of rock is described? Marble and slate are examples.",
+    "answer": "Metamorphic",
+    "choices": [
+     "Metamorphic",
+     "Igneous",
+     "Sedimentary"
+    ]
+   },
+   {
+    "question": "What type of rock is described? It often contains fossils.",
+    "answer": "Sedimentary",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "What type of rock is described? It may have glassy texture or gas bubbles.",
+    "answer": "Igneous",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "What type of rock is described? It may have bands of minerals.",
+    "answer": "Metamorphic",
+    "choices": [
+     "Sedimentary",
+     "Igneous",
+     "Metamorphic"
+    ]
+   },
+   {
+    "question": "What type of rock is described? It forms when heat and pressure change other rocks.",
+    "answer": "Metamorphic",
+    "choices": [
+     "Igneous",
+     "Metamorphic",
+     "Sedimentary"
+    ]
+   },
+   {
+    "question": "What type of rock is described? It forms when lava cools and hardens.",
+    "answer": "Igneous",
+    "choices": [
+     "Metamorphic",
+     "Sedimentary",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "What type of rock is described? It forms from layers of sand, mud or shells pressed together.",
+    "answer": "Sedimentary",
+    "choices": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "What type of rock is described? Granite and basalt are examples.",
+    "answer": "Igneous",
+    "choices": [
+     "Sedimentary",
+     "Igneous",
+     "Metamorphic"
+    ]
+   }
+  ]
+ }
+]

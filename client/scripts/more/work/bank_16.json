@@ -1,0 +1,2612 @@
+[
+ {
+  "key": "engCmRv",
+  "subject": "english",
+  "title": "Commas: review",
+  "section": "Commas",
+  "grades": [
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCmRv11",
+   "engCmRv12"
+  ],
+  "examples": [
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "She lives in Halifax, Nova Scotia.",
+    "choices": [
+     "She lives, in Halifax Nova Scotia.",
+     "She lives in, Halifax Nova Scotia.",
+     "She lives in Halifax Nova Scotia.",
+     "She lives in Halifax, Nova Scotia."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "Dear Sam,",
+    "choices": [
+     "Dear Sam;",
+     "Dear Sam,",
+     "Dear Sam",
+     "Dear, Sam,"
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "We need eggs, flour, sugar, and butter.",
+    "choices": [
+     "We need eggs flour sugar and butter.",
+     "We need eggs, flour, sugar, and butter.",
+     "We need, eggs flour sugar, and butter.",
+     "We need eggs, flour sugar and, butter."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "On Monday, March 3, we leave for Ottawa.",
+    "choices": [
+     "On Monday, March, 3 we leave for Ottawa.",
+     "On Monday March 3 we leave for Ottawa.",
+     "On Monday March 3, we leave for Ottawa.",
+     "On Monday, March 3, we leave for Ottawa."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "Yes, I can help.",
+    "choices": [
+     "Yes, I can, help.",
+     "Yes I can, help.",
+     "Yes, I can help.",
+     "Yes I can help."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "\"I am ready,\" she said.",
+    "choices": [
+     "\"I am ready\" she said.",
+     "\"I am ready\", she said.",
+     "\"I am ready,\" she said.",
+     "\"I am ready.\" she said."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "Sincerely,",
+    "choices": [
+     "Sincerely:",
+     "Sincerely;",
+     "Sincerely,",
+     "Sincerely."
+    ]
+   },
+   {
+    "question": "Which is punctuated correctly?",
+    "answer": "The meeting, however, was cancelled.",
+    "choices": [
+     "The meeting, however was cancelled.",
+     "The meeting however, was cancelled.",
+     "The meeting, however, was cancelled.",
+     "The meeting however was cancelled."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engScCl",
+  "subject": "english",
+  "title": "Use colons and commas to introduce lists, quotations and appositives",
+  "section": "Semicolons, colons and commas",
+  "grades": [
+   11,
+   12
+  ],
+  "skillIds": [
+   "engScCl11",
+   "engScCl12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "He announced the winner: Maya Chen.",
+    "choices": [
+     "He announced: the winner Maya Chen.",
+     "He announced the winner, Maya Chen (as a list).",
+     "He announced the winner; Maya Chen.",
+     "He announced the winner: Maya Chen."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "We need flour, eggs and milk.",
+    "choices": [
+     "We need; flour, eggs and milk.",
+     "We need flour, eggs and milk.",
+     "We need: flour, eggs and milk.",
+     "We need flour: eggs and milk."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "The inscription read: \"Gone but not forgotten.\"",
+    "choices": [
+     "The inscription read, \"Gone but not forgotten.\"",
+     "The inscription read; \"Gone but not forgotten.\"",
+     "The inscription: read \"Gone but not forgotten.\"",
+     "The inscription read: \"Gone but not forgotten.\""
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "The author made one point: courage matters.",
+    "choices": [
+     "The author made one point, courage matters.",
+     "The author made one point; courage matters.",
+     "The author made one point courage: matters.",
+     "The author made one point: courage matters."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "Remember the rules: be kind, be honest and be on time.",
+    "choices": [
+     "Remember the rules: be kind, be honest and be on time.",
+     "Remember the rules; be kind; be honest and be on time.",
+     "Remember: the rules be kind, be honest and be on time.",
+     "Remember the rules, be kind, be honest and be on time."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "We need three things: flour, eggs and milk.",
+    "choices": [
+     "We need three things, flour, eggs and milk.",
+     "We need three things; flour, eggs and milk.",
+     "We need three things: flour, eggs and milk.",
+     "We need: three things flour, eggs and milk."
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "She said, \"I will be there.\"",
+    "choices": [
+     "She said; \"I will be there.\"",
+     "She said, \"I will be there.\"",
+     "She said: \"I will be there.\"",
+     "She said \"I will be there.\""
+    ]
+   },
+   {
+    "question": "Which sentence is punctuated correctly?",
+    "answer": "My friend, a skilled chef, cooked dinner.",
+    "choices": [
+     "My friend, a skilled chef, cooked dinner.",
+     "My friend; a skilled chef, cooked dinner.",
+     "My friend: a skilled chef cooked dinner.",
+     "My friend a skilled chef, cooked dinner."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFgAn",
+  "subject": "english",
+  "title": "Classify the figure of speech: anaphora, antithesis, apostrophe, assonance, chiasmus, understatement",
+  "section": "Literary devices",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "engFgAn12"
+  ],
+  "examples": [
+   {
+    "question": "Which figure of speech is this? Oh, Death, where is thy sting?",
+    "answer": "Apostrophe",
+    "choices": [
+     "Assonance",
+     "Understatement",
+     "Apostrophe",
+     "Chiasmus",
+     "Antithesis",
+     "Anaphora"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Never let a fool kiss you, or a kiss fool you.",
+    "answer": "Chiasmus",
+    "choices": [
+     "Assonance",
+     "Chiasmus",
+     "Anaphora",
+     "Antithesis",
+     "Apostrophe",
+     "Understatement"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Every day, every night, every hour, I think of you.",
+    "answer": "Anaphora",
+    "choices": [
+     "Assonance",
+     "Understatement",
+     "Chiasmus",
+     "Anaphora",
+     "Apostrophe",
+     "Antithesis"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? “To err is human; to forgive, divine.” — Alexander Pope, An Essay on Criticism (1711)",
+    "answer": "Antithesis",
+    "choices": [
+     "Chiasmus",
+     "Anaphora",
+     "Understatement",
+     "Assonance",
+     "Apostrophe",
+     "Antithesis"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? “That's one small step for man, one giant leap for mankind.” — Neil Armstrong, on the Moon (1969)",
+    "answer": "Antithesis",
+    "choices": [
+     "Chiasmus",
+     "Assonance",
+     "Antithesis",
+     "Apostrophe",
+     "Understatement",
+     "Anaphora"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? \"It's just a scratch,\" said the knight whose arm had been cut off.",
+    "answer": "Understatement",
+    "choices": [
+     "Antithesis",
+     "Chiasmus",
+     "Anaphora",
+     "Understatement",
+     "Assonance",
+     "Apostrophe"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? The rain in Spain stays mainly in the plain.",
+    "answer": "Assonance",
+    "choices": [
+     "Assonance",
+     "Understatement",
+     "Chiasmus",
+     "Apostrophe",
+     "Anaphora",
+     "Antithesis"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Try to light the fire at night.",
+    "answer": "Assonance",
+    "choices": [
+     "Assonance",
+     "Anaphora",
+     "Understatement",
+     "Apostrophe",
+     "Chiasmus",
+     "Antithesis"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? The Sahara is a bit dry.",
+    "answer": "Understatement",
+    "choices": [
+     "Chiasmus",
+     "Anaphora",
+     "Apostrophe",
+     "Assonance",
+     "Antithesis",
+     "Understatement"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? We will not tire, we will not falter, we will not fail.",
+    "answer": "Anaphora",
+    "choices": [
+     "Antithesis",
+     "Chiasmus",
+     "Assonance",
+     "Anaphora",
+     "Understatement",
+     "Apostrophe"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? “Fair is foul, and foul is fair.” — the witches, William Shakespeare, Macbeth (1606)",
+    "answer": "Chiasmus",
+    "choices": [
+     "Anaphora",
+     "Apostrophe",
+     "Understatement",
+     "Assonance",
+     "Antithesis",
+     "Chiasmus"
+    ]
+   },
+   {
+    "question": "Which figure of speech is this? Rise, O sun, and warm my weary bones!",
+    "answer": "Apostrophe",
+    "choices": [
+     "Apostrophe",
+     "Anaphora",
+     "Assonance",
+     "Antithesis",
+     "Chiasmus",
+     "Understatement"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engBRL",
+  "subject": "english",
+  "title": "British literature: authors and works",
+  "section": "Analyzing literature",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "engBRL12"
+  ],
+  "examples": [
+   {
+    "question": "Who wrote Frankenstein ?",
+    "answer": "Mary Shelley",
+    "choices": [
+     "Charlotte Brontë",
+     "Emily Brontë",
+     "Mary Shelley",
+     "Charles Dickens"
+    ]
+   },
+   {
+    "question": "Who wrote Heart of Darkness ?",
+    "answer": "Joseph Conrad",
+    "choices": [
+     "Joseph Conrad",
+     "Emily Brontë",
+     "George Orwell",
+     "Charlotte Brontë"
+    ]
+   },
+   {
+    "question": "Who wrote Wuthering Heights ?",
+    "answer": "Emily Brontë",
+    "choices": [
+     "Emily Brontë",
+     "Mary Shelley",
+     "Jane Austen",
+     "George Orwell"
+    ]
+   },
+   {
+    "question": "Who wrote Great Expectations ?",
+    "answer": "Charles Dickens",
+    "choices": [
+     "Mary Shelley",
+     "Emily Brontë",
+     "Charles Dickens",
+     "Anonymous (unknown)"
+    ]
+   },
+   {
+    "question": "Who wrote Jane Eyre ?",
+    "answer": "Charlotte Brontë",
+    "choices": [
+     "Anonymous (unknown)",
+     "Geoffrey Chaucer",
+     "Charlotte Brontë",
+     "George Orwell"
+    ]
+   },
+   {
+    "question": "Who wrote Beowulf ?",
+    "answer": "Anonymous (unknown)",
+    "choices": [
+     "John Milton",
+     "Joseph Conrad",
+     "Anonymous (unknown)",
+     "George Orwell"
+    ]
+   },
+   {
+    "question": "Who wrote Pride and Prejudice ?",
+    "answer": "Jane Austen",
+    "choices": [
+     "Mary Shelley",
+     "Jane Austen",
+     "Charlotte Brontë",
+     "John Milton"
+    ]
+   },
+   {
+    "question": "Who wrote 1984 ?",
+    "answer": "George Orwell",
+    "choices": [
+     "Charlotte Brontë",
+     "George Orwell",
+     "Emily Brontë",
+     "Charles Dickens"
+    ]
+   },
+   {
+    "question": "Who wrote The Canterbury Tales ?",
+    "answer": "Geoffrey Chaucer",
+    "choices": [
+     "Emily Brontë",
+     "Geoffrey Chaucer",
+     "Charles Dickens",
+     "John Milton"
+    ]
+   },
+   {
+    "question": "Who wrote Paradise Lost ?",
+    "answer": "John Milton",
+    "choices": [
+     "John Milton",
+     "Mary Shelley",
+     "Charlotte Brontë",
+     "George Orwell"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSHK",
+  "subject": "english",
+  "title": "Shakespeare",
+  "section": "Analyzing literature",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "engSHK12"
+  ],
+  "examples": [
+   {
+    "question": "In which play does a king divide his kingdom among his three daughters?",
+    "answer": "King Lear",
+    "choices": [
+     "King Lear",
+     "Julius Caesar",
+     "Hamlet",
+     "Romeo and Juliet"
+    ]
+   },
+   {
+    "question": "In which play does Iago deceive his general into jealousy?",
+    "answer": "Othello",
+    "choices": [
+     "Romeo and Juliet",
+     "Othello",
+     "A Midsummer Night's Dream",
+     "The Merchant of Venice"
+    ]
+   },
+   {
+    "question": "Which play contains the line “Et tu, Brute?”",
+    "answer": "Julius Caesar",
+    "choices": [
+     "Julius Caesar",
+     "Macbeth",
+     "Othello",
+     "Romeo and Juliet"
+    ]
+   },
+   {
+    "question": "Which comedy features Puck, fairies and a magical forest?",
+    "answer": "A Midsummer Night's Dream",
+    "choices": [
+     "The Tempest",
+     "Julius Caesar",
+     "Macbeth",
+     "A Midsummer Night's Dream"
+    ]
+   },
+   {
+    "question": "Which play begins with a shipwreck and a magician named Prospero?",
+    "answer": "The Tempest",
+    "choices": [
+     "Macbeth",
+     "Hamlet",
+     "The Tempest",
+     "Othello"
+    ]
+   },
+   {
+    "question": "Which play features the characters Romeo and Juliet?",
+    "answer": "Romeo and Juliet",
+    "choices": [
+     "Macbeth",
+     "Romeo and Juliet",
+     "The Tempest",
+     "A Midsummer Night's Dream"
+    ]
+   },
+   {
+    "question": "In which play does the Prince of Denmark seek revenge on his uncle?",
+    "answer": "Hamlet",
+    "choices": [
+     "A Midsummer Night's Dream",
+     "Hamlet",
+     "Macbeth",
+     "The Merchant of Venice"
+    ]
+   },
+   {
+    "question": "In which play does a moneylender demand a “pound of flesh”?",
+    "answer": "The Merchant of Venice",
+    "choices": [
+     "The Merchant of Venice",
+     "Macbeth",
+     "Julius Caesar",
+     "Othello"
+    ]
+   },
+   {
+    "question": "In which play do three witches prophesy that a Scottish general will become king?",
+    "answer": "Macbeth",
+    "choices": [
+     "The Merchant of Venice",
+     "Macbeth",
+     "The Tempest",
+     "A Midsummer Night's Dream"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engMVT",
+  "subject": "english",
+  "title": "Literary movements",
+  "section": "Analyzing literature",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "engMVT12"
+  ],
+  "examples": [
+   {
+    "question": "Which movement or period is T. S. Eliot's The Waste Land most associated with?",
+    "answer": "Modernism",
+    "choices": [
+     "Renaissance",
+     "Romanticism",
+     "Modernism",
+     "Victorian",
+     "Gothic"
+    ]
+   },
+   {
+    "question": "Which movement or period is Virginia Woolf most associated with?",
+    "answer": "Modernism",
+    "choices": [
+     "Renaissance",
+     "Victorian",
+     "Romanticism",
+     "Modernism",
+     "Gothic"
+    ]
+   },
+   {
+    "question": "Which movement or period is William Shakespeare most associated with?",
+    "answer": "Renaissance",
+    "choices": [
+     "Modernism",
+     "Romanticism",
+     "Victorian",
+     "Gothic",
+     "Renaissance"
+    ]
+   },
+   {
+    "question": "Which movement or period is Lord Byron most associated with?",
+    "answer": "Romanticism",
+    "choices": [
+     "Gothic",
+     "Renaissance",
+     "Modernism",
+     "Victorian",
+     "Romanticism"
+    ]
+   },
+   {
+    "question": "Which movement or period is Bram Stoker's Dracula most associated with?",
+    "answer": "Gothic",
+    "choices": [
+     "Renaissance",
+     "Victorian",
+     "Gothic",
+     "Modernism",
+     "Romanticism"
+    ]
+   },
+   {
+    "question": "Which movement or period is Christopher Marlowe most associated with?",
+    "answer": "Renaissance",
+    "choices": [
+     "Modernism",
+     "Gothic",
+     "Renaissance",
+     "Romanticism",
+     "Victorian"
+    ]
+   },
+   {
+    "question": "Which movement or period is William Wordsworth most associated with?",
+    "answer": "Romanticism",
+    "choices": [
+     "Gothic",
+     "Renaissance",
+     "Modernism",
+     "Victorian",
+     "Romanticism"
+    ]
+   },
+   {
+    "question": "Which movement or period is Charles Dickens most associated with?",
+    "answer": "Victorian",
+    "choices": [
+     "Romanticism",
+     "Renaissance",
+     "Modernism",
+     "Victorian",
+     "Gothic"
+    ]
+   },
+   {
+    "question": "Which movement or period is Mary Shelley's Frankenstein most associated with?",
+    "answer": "Gothic",
+    "choices": [
+     "Renaissance",
+     "Victorian",
+     "Gothic",
+     "Romanticism",
+     "Modernism"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCNV",
+  "subject": "english",
+  "title": "Writing conventions: pronoun reference",
+  "section": "Pronouns",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "engCNV12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence has a clear pronoun reference?",
+    "answer": "The report says that sales fell.",
+    "choices": [
+     "They say in the report that sales fell.",
+     "In the report it says that sales fell.",
+     "The report says that sales fell."
+    ]
+   },
+   {
+    "question": "Which sentence has a clear pronoun reference?",
+    "answer": "Mia told Ana, \"You are late.\"",
+    "choices": [
+     "Mia told Ana, \"You are late.\"",
+     "Mia told Ana that she was late.",
+     "Mia told Ana she was late and so was she."
+    ]
+   },
+   {
+    "question": "Which sentence has a clear pronoun reference?",
+    "answer": "Dr. Lee told the patient, \"I will call you tomorrow.\"",
+    "choices": [
+     "Dr. Lee told the patient she would call tomorrow.",
+     "Dr. Lee told the patient that she would call her tomorrow.",
+     "Dr. Lee told the patient, \"I will call you tomorrow.\""
+    ]
+   },
+   {
+    "question": "Which sentence has a clear pronoun reference?",
+    "answer": "When Maria met Ana, Maria gave Ana a gift.",
+    "choices": [
+     "When Maria met Ana, Maria gave Ana a gift.",
+     "Maria met Ana, and she gave her one.",
+     "When Maria met Ana, she gave her a gift."
+    ]
+   },
+   {
+    "question": "Which sentence has a clear pronoun reference?",
+    "answer": "The manager told Lee, \"I will approve your request.\"",
+    "choices": [
+     "The manager told Lee, \"I will approve your request.\"",
+     "The manager told Lee he would approve it for him.",
+     "The manager told Lee that he would approve his request."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTrack",
+  "subject": "science",
+  "title": "Design a race car track",
+  "section": "Engineering practices",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsTrack0",
+   "sciXsTrack1"
+  ],
+  "examples": [
+   {
+    "question": "A toy car flies off the end of a ramp. How could you design the track so it stops safely?",
+    "answer": "Add a soft wall or a flat part at the end",
+    "choices": [
+     "Use a heavier car",
+     "Remove the end of the track",
+     "Add a soft wall or a flat part at the end",
+     "Make the ramp steeper"
+    ]
+   },
+   {
+    "question": "Which surface lets a toy car roll the farthest?",
+    "answer": "Smooth wood",
+    "choices": [
+     "Thick carpet",
+     "Smooth wood",
+     "Sand",
+     "Grass"
+    ]
+   },
+   {
+    "question": "You want a car to go faster down a ramp. What should you change?",
+    "answer": "Make the ramp steeper",
+    "choices": [
+     "Put carpet on it",
+     "Make the ramp steeper",
+     "Make it shorter and flat",
+     "Make it flatter"
+    ]
+   },
+   {
+    "question": "A car keeps falling off a curve. What could fix it?",
+    "answer": "Add walls on the curve",
+    "choices": [
+     "Make the curve sharper",
+     "Add walls on the curve",
+     "Remove the curve walls",
+     "Make the car lighter"
+    ]
+   },
+   {
+    "question": "Why do engineers test their designs?",
+    "answer": "To find problems and make them better",
+    "choices": [
+     "To break toys",
+     "To waste time",
+     "To change the colour",
+     "To find problems and make them better"
+    ]
+   },
+   {
+    "question": "The car keeps falling off the curve. What could help?",
+    "answer": "Add walls to the sides of the track",
+    "choices": [
+     "Add walls to the sides of the track",
+     "Remove the track",
+     "Paint it a new colour",
+     "Make the track bumpier"
+    ]
+   },
+   {
+    "question": "Which surface makes a toy car roll farthest?",
+    "answer": "Smooth wood",
+    "choices": [
+     "Sand",
+     "Carpet",
+     "Grass",
+     "Smooth wood"
+    ]
+   },
+   {
+    "question": "You want a toy car to go faster down a ramp. What could you change?",
+    "answer": "Make the ramp steeper",
+    "choices": [
+     "Make the ramp steeper",
+     "Use a heavier blanket on the ramp",
+     "Make the ramp flat",
+     "Add sand to the ramp"
+    ]
+   },
+   {
+    "question": "How can you test which track design is fastest?",
+    "answer": "Time the same car on each track",
+    "choices": [
+     "Paint the tracks",
+     "Guess",
+     "Use a different car each time",
+     "Time the same car on each track"
+    ]
+   },
+   {
+    "question": "Why might a car slow down on a carpet track?",
+    "answer": "Carpet has more friction",
+    "choices": [
+     "Carpet is magnetic",
+     "Carpet has more friction",
+     "Carpet is shiny",
+     "Carpet is colder"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsShp",
+  "subject": "science",
+  "title": "Classify objects by two-dimensional shape",
+  "section": "Shapes and colours",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "sciXsShp20",
+   "sciXsShp30"
+  ],
+  "examples": [
+   {
+    "question": "What shape is this object? ⚠️ a warning sign",
+    "answer": "triangle",
+    "choices": [
+     "circle",
+     "rectangle",
+     "square",
+     "triangle"
+    ]
+   },
+   {
+    "question": "What shape is this object? 🕐 a clock",
+    "answer": "circle",
+    "choices": [
+     "rectangle",
+     "square",
+     "circle",
+     "triangle"
+    ]
+   },
+   {
+    "question": "What shape is this object? 📱 a phone",
+    "answer": "rectangle",
+    "choices": [
+     "rectangle",
+     "triangle",
+     "circle",
+     "square"
+    ]
+   },
+   {
+    "question": "What shape is this object? 🧇 a waffle square",
+    "answer": "square",
+    "choices": [
+     "circle",
+     "rectangle",
+     "square",
+     "triangle"
+    ]
+   },
+   {
+    "question": "What shape is this object? 🚪 a door",
+    "answer": "rectangle",
+    "choices": [
+     "triangle",
+     "square",
+     "rectangle",
+     "circle"
+    ]
+   },
+   {
+    "question": "What shape is this object? 🍕 a pizza slice",
+    "answer": "triangle",
+    "choices": [
+     "triangle",
+     "circle",
+     "square",
+     "rectangle"
+    ]
+   },
+   {
+    "question": "What shape is this object? 🍪 a cookie",
+    "answer": "circle",
+    "choices": [
+     "circle",
+     "square",
+     "triangle",
+     "rectangle"
+    ]
+   },
+   {
+    "question": "What shape is this object? 🖼️ a square picture frame",
+    "answer": "square",
+    "choices": [
+     "rectangle",
+     "square",
+     "triangle",
+     "circle"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsShp2s",
+  "subject": "science",
+  "title": "Sort objects by two-dimensional shape",
+  "section": "Shapes and colours",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "sciXsShp2s0"
+  ],
+  "examples": [
+   {
+    "question": "Which shape group does this object belong to? 🍪 a cookie",
+    "answer": "circle",
+    "choices": [
+     "circle",
+     "triangle",
+     "rectangle",
+     "square"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? ⚠️ a warning sign",
+    "answer": "triangle",
+    "choices": [
+     "circle",
+     "rectangle",
+     "triangle",
+     "square"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🍕 a pizza slice",
+    "answer": "triangle",
+    "choices": [
+     "circle",
+     "rectangle",
+     "triangle",
+     "square"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 📱 a phone",
+    "answer": "rectangle",
+    "choices": [
+     "triangle",
+     "circle",
+     "rectangle",
+     "square"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🕐 a clock",
+    "answer": "circle",
+    "choices": [
+     "square",
+     "rectangle",
+     "triangle",
+     "circle"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🖼️ a square picture frame",
+    "answer": "square",
+    "choices": [
+     "circle",
+     "square",
+     "triangle",
+     "rectangle"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🧇 a waffle square",
+    "answer": "square",
+    "choices": [
+     "square",
+     "rectangle",
+     "triangle",
+     "circle"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🚪 a door",
+    "answer": "rectangle",
+    "choices": [
+     "triangle",
+     "rectangle",
+     "circle",
+     "square"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsShp3s",
+  "subject": "science",
+  "title": "Sort objects by three-dimensional shape",
+  "section": "Shapes and colours",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "sciXsShp3s0"
+  ],
+  "examples": [
+   {
+    "question": "Which shape group does this object belong to? 🥫 a soup can",
+    "answer": "cylinder",
+    "choices": [
+     "sphere",
+     "cube",
+     "cone",
+     "cylinder"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🧊 an ice cube",
+    "answer": "cube",
+    "choices": [
+     "cylinder",
+     "cube",
+     "sphere",
+     "cone"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🕯️ a candle",
+    "answer": "cylinder",
+    "choices": [
+     "cube",
+     "sphere",
+     "cone",
+     "cylinder"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🎉 a party hat",
+    "answer": "cone",
+    "choices": [
+     "sphere",
+     "cone",
+     "cylinder",
+     "cube"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🎲 a die",
+    "answer": "cube",
+    "choices": [
+     "cylinder",
+     "cube",
+     "cone",
+     "sphere"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🌐 a globe",
+    "answer": "sphere",
+    "choices": [
+     "cube",
+     "cone",
+     "cylinder",
+     "sphere"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? ⚽ a ball",
+    "answer": "sphere",
+    "choices": [
+     "cylinder",
+     "sphere",
+     "cone",
+     "cube"
+    ]
+   },
+   {
+    "question": "Which shape group does this object belong to? 🍦 an ice-cream cone",
+    "answer": "cone",
+    "choices": [
+     "cone",
+     "sphere",
+     "cube",
+     "cylinder"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCol",
+  "subject": "science",
+  "title": "Classify objects by colour",
+  "section": "Shapes and colours",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "sciXsCol0"
+  ],
+  "examples": [
+   {
+    "question": "What colour is this? 🥦 broccoli",
+    "answer": "green",
+    "choices": [
+     "green",
+     "red",
+     "yellow",
+     "blue"
+    ]
+   },
+   {
+    "question": "What colour is this? 🫐 blueberries",
+    "answer": "blue",
+    "choices": [
+     "blue",
+     "green",
+     "yellow",
+     "red"
+    ]
+   },
+   {
+    "question": "What colour is this? 🍓 strawberry",
+    "answer": "red",
+    "choices": [
+     "red",
+     "blue",
+     "green",
+     "yellow"
+    ]
+   },
+   {
+    "question": "What colour is this? 🐸 frog",
+    "answer": "green",
+    "choices": [
+     "red",
+     "green",
+     "yellow",
+     "blue"
+    ]
+   },
+   {
+    "question": "What colour is this? 🍋 lemon",
+    "answer": "yellow",
+    "choices": [
+     "red",
+     "yellow",
+     "blue",
+     "green"
+    ]
+   },
+   {
+    "question": "What colour is this? 💙 heart",
+    "answer": "blue",
+    "choices": [
+     "yellow",
+     "green",
+     "red",
+     "blue"
+    ]
+   },
+   {
+    "question": "What colour is this? 🍌 banana",
+    "answer": "yellow",
+    "choices": [
+     "blue",
+     "yellow",
+     "green",
+     "red"
+    ]
+   },
+   {
+    "question": "What colour is this? 🍎 apple",
+    "answer": "red",
+    "choices": [
+     "red",
+     "yellow",
+     "blue",
+     "green"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsColS",
+  "subject": "science",
+  "title": "Sort objects by colour",
+  "section": "Shapes and colours",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "sciXsColS0"
+  ],
+  "examples": [
+   {
+    "question": "Which colour group does it belong to? 🍌 banana",
+    "answer": "yellow",
+    "choices": [
+     "green",
+     "blue",
+     "red",
+     "yellow"
+    ]
+   },
+   {
+    "question": "Which colour group does it belong to? 🍎 apple",
+    "answer": "red",
+    "choices": [
+     "green",
+     "red",
+     "yellow",
+     "blue"
+    ]
+   },
+   {
+    "question": "Which colour group does it belong to? 🥦 broccoli",
+    "answer": "green",
+    "choices": [
+     "red",
+     "green",
+     "yellow",
+     "blue"
+    ]
+   },
+   {
+    "question": "Which colour group does it belong to? 💙 heart",
+    "answer": "blue",
+    "choices": [
+     "red",
+     "blue",
+     "yellow",
+     "green"
+    ]
+   },
+   {
+    "question": "Which colour group does it belong to? 🐸 frog",
+    "answer": "green",
+    "choices": [
+     "green",
+     "yellow",
+     "blue",
+     "red"
+    ]
+   },
+   {
+    "question": "Which colour group does it belong to? 🍓 strawberry",
+    "answer": "red",
+    "choices": [
+     "yellow",
+     "blue",
+     "green",
+     "red"
+    ]
+   },
+   {
+    "question": "Which colour group does it belong to? 🍋 lemon",
+    "answer": "yellow",
+    "choices": [
+     "blue",
+     "green",
+     "red",
+     "yellow"
+    ]
+   },
+   {
+    "question": "Which colour group does it belong to? 🫐 blueberries",
+    "answer": "blue",
+    "choices": [
+     "blue",
+     "green",
+     "red",
+     "yellow"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMatTx",
+  "subject": "science",
+  "title": "Classify objects by texture",
+  "section": "Materials",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciMatTx0",
+   "sciMatTx1",
+   "sciMatTx2"
+  ],
+  "examples": [
+   {
+    "question": "How does 🪵 tree bark feel?",
+    "answer": "Rough",
+    "choices": [
+     "Hard",
+     "Soft",
+     "Rough",
+     "Smooth"
+    ]
+   },
+   {
+    "question": "How does 🧽 sandpaper feel?",
+    "answer": "Rough",
+    "choices": [
+     "Rough",
+     "Soft",
+     "Hard",
+     "Smooth"
+    ]
+   },
+   {
+    "question": "How does 🪟 a glass window feel?",
+    "answer": "Smooth",
+    "choices": [
+     "Soft",
+     "Rough",
+     "Hard",
+     "Smooth"
+    ]
+   },
+   {
+    "question": "How does 🔩 a metal bolt feel?",
+    "answer": "Hard",
+    "choices": [
+     "Rough",
+     "Hard",
+     "Soft",
+     "Smooth"
+    ]
+   },
+   {
+    "question": "How does 🛏️ a pillow feel?",
+    "answer": "Soft",
+    "choices": [
+     "Smooth",
+     "Rough",
+     "Hard",
+     "Soft"
+    ]
+   },
+   {
+    "question": "How does 🧊 an ice cube feel?",
+    "answer": "Smooth",
+    "choices": [
+     "Hard",
+     "Smooth",
+     "Rough",
+     "Soft"
+    ]
+   },
+   {
+    "question": "How does 🧸 a teddy bear feel?",
+    "answer": "Soft",
+    "choices": [
+     "Smooth",
+     "Rough",
+     "Hard",
+     "Soft"
+    ]
+   },
+   {
+    "question": "How does 🍍 a pineapple skin feel?",
+    "answer": "Rough",
+    "choices": [
+     "Smooth",
+     "Soft",
+     "Hard",
+     "Rough"
+    ]
+   },
+   {
+    "question": "How does 🪨 a rock feel?",
+    "answer": "Hard",
+    "choices": [
+     "Smooth",
+     "Hard",
+     "Soft",
+     "Rough"
+    ]
+   },
+   {
+    "question": "How does 🐑 wool feel?",
+    "answer": "Soft",
+    "choices": [
+     "Smooth",
+     "Soft",
+     "Rough",
+     "Hard"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTexS",
+  "subject": "science",
+  "title": "Sort objects by texture",
+  "section": "Materials",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsTexS0",
+   "sciXsTexS1"
+  ],
+  "examples": [
+   {
+    "question": "Which group does this object belong to? 🔩 bolt",
+    "answer": "hard",
+    "choices": [
+     "soft",
+     "prickly",
+     "hard"
+    ]
+   },
+   {
+    "question": "Which group does this object belong to? 🌵 cactus",
+    "answer": "prickly",
+    "choices": [
+     "prickly",
+     "soft",
+     "hard"
+    ]
+   },
+   {
+    "question": "Which group does this object belong to? 🦔 hedgehog",
+    "answer": "prickly",
+    "choices": [
+     "hard",
+     "soft",
+     "prickly"
+    ]
+   },
+   {
+    "question": "Which group does this object belong to? 🪨 rock",
+    "answer": "hard",
+    "choices": [
+     "hard",
+     "soft",
+     "prickly"
+    ]
+   },
+   {
+    "question": "Which group does this object belong to? 🧱 brick",
+    "answer": "hard",
+    "choices": [
+     "soft",
+     "hard",
+     "prickly"
+    ]
+   },
+   {
+    "question": "Which group does this object belong to? 🧸 teddy bear",
+    "answer": "soft",
+    "choices": [
+     "soft",
+     "prickly",
+     "hard"
+    ]
+   },
+   {
+    "question": "Which group does this object belong to? 🧶 yarn",
+    "answer": "soft",
+    "choices": [
+     "prickly",
+     "hard",
+     "soft"
+    ]
+   },
+   {
+    "question": "Which group does this object belong to? 🪶 feather",
+    "answer": "soft",
+    "choices": [
+     "hard",
+     "prickly",
+     "soft"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMatS",
+  "subject": "science",
+  "title": "Sort objects by material",
+  "section": "Materials",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsMatS0",
+   "sciXsMatS1"
+  ],
+  "examples": [
+   {
+    "question": "Which material group does it belong to? 🧦 cotton sock",
+    "answer": "fabric",
+    "choices": [
+     "fabric",
+     "plastic",
+     "wood",
+     "paper",
+     "metal"
+    ]
+   },
+   {
+    "question": "Which material group does it belong to? 🔨 steel hammer head",
+    "answer": "metal",
+    "choices": [
+     "wood",
+     "fabric",
+     "paper",
+     "metal",
+     "plastic"
+    ]
+   },
+   {
+    "question": "Which material group does it belong to? ✏️ wooden pencil",
+    "answer": "wood",
+    "choices": [
+     "paper",
+     "plastic",
+     "fabric",
+     "wood",
+     "metal"
+    ]
+   },
+   {
+    "question": "Which material group does it belong to? 🪑 wooden chair",
+    "answer": "wood",
+    "choices": [
+     "metal",
+     "plastic",
+     "paper",
+     "wood",
+     "fabric"
+    ]
+   },
+   {
+    "question": "Which material group does it belong to? 🥤 plastic cup",
+    "answer": "plastic",
+    "choices": [
+     "fabric",
+     "metal",
+     "paper",
+     "plastic",
+     "wood"
+    ]
+   },
+   {
+    "question": "Which material group does it belong to? 🥄 metal spoon",
+    "answer": "metal",
+    "choices": [
+     "paper",
+     "metal",
+     "plastic",
+     "fabric",
+     "wood"
+    ]
+   },
+   {
+    "question": "Which material group does it belong to? 📦 cardboard box",
+    "answer": "paper",
+    "choices": [
+     "wood",
+     "fabric",
+     "metal",
+     "plastic",
+     "paper"
+    ]
+   },
+   {
+    "question": "Which material group does it belong to? 🧃 plastic juice bottle",
+    "answer": "plastic",
+    "choices": [
+     "fabric",
+     "plastic",
+     "paper",
+     "wood",
+     "metal"
+    ]
+   },
+   {
+    "question": "Which material group does it belong to? 🧸 cloth teddy bear",
+    "answer": "fabric",
+    "choices": [
+     "metal",
+     "wood",
+     "plastic",
+     "fabric",
+     "paper"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDesc",
+  "subject": "science",
+  "title": "Describe objects",
+  "section": "Materials",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsDesc0",
+   "sciXsDesc1"
+  ],
+  "examples": [
+   {
+    "question": "🪨 Which word best describes a rock?",
+    "answer": "hard",
+    "choices": [
+     "hard",
+     "soft",
+     "fluffy",
+     "squishy"
+    ]
+   },
+   {
+    "question": "🪶 Which word best describes a feather?",
+    "answer": "light",
+    "choices": [
+     "heavy",
+     "cold",
+     "sharp",
+     "light"
+    ]
+   },
+   {
+    "question": "🍯 Which word best describes honey?",
+    "answer": "sticky",
+    "choices": [
+     "sticky",
+     "hard",
+     "bumpy",
+     "dry"
+    ]
+   },
+   {
+    "question": "🎈 Which word best describes a balloon?",
+    "answer": "stretchy",
+    "choices": [
+     "wooden",
+     "prickly",
+     "heavy",
+     "stretchy"
+    ]
+   },
+   {
+    "question": "🧊 Which word best describes ice?",
+    "answer": "cold",
+    "choices": [
+     "hot",
+     "bendy",
+     "fuzzy",
+     "cold"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPshPl",
+  "subject": "science",
+  "title": "Push and pull",
+  "section": "Force and motion",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciPshPl0",
+   "sciPshPl1",
+   "sciPshPl2"
+  ],
+  "examples": [
+   {
+    "question": "Is this a push or a pull? 🚪 shutting a door",
+    "answer": "Push",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? 🪁 flying a kite on a string",
+    "answer": "Pull",
+    "choices": [
+     "Pull",
+     "Push"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? 🐕 walking a dog on a leash",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? 🛷 dragging a sled",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? 🧒 pushing a friend on a swing",
+    "answer": "Push",
+    "choices": [
+     "Pull",
+     "Push"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? ⚽ kicking a ball",
+    "answer": "Push",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? 🗄️ opening a drawer",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? 🛒 moving a cart forward",
+    "answer": "Push",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? 🎳 rolling a bowling ball",
+    "answer": "Push",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? 🧲 a magnet picking up a nail",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsInvP",
+  "subject": "science",
+  "title": "Investigate pushes and pulls",
+  "section": "Force and motion",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsInvP0",
+   "sciXsInvP1"
+  ],
+  "examples": [
+   {
+    "question": "How can you change the direction of a rolling ball?",
+    "answer": "Push it from the side",
+    "choices": [
+     "Push it from the side",
+     "Say \"stop\"",
+     "Look at it",
+     "Wait"
+    ]
+   },
+   {
+    "question": "You want a toy car to go farther. What should you do?",
+    "answer": "Push it harder",
+    "choices": [
+     "Not push it",
+     "Hold it still",
+     "Push it softer",
+     "Push it harder"
+    ]
+   },
+   {
+    "question": "What can change the direction of a rolling ball?",
+    "answer": "A push or pull from the side",
+    "choices": [
+     "A push or pull from the side",
+     "Looking at it",
+     "Saying stop",
+     "Nothing"
+    ]
+   },
+   {
+    "question": "Two children push a box from opposite sides with the same strength. What happens?",
+    "answer": "The box does not move",
+    "choices": [
+     "The box does not move",
+     "The box flies up",
+     "The box moves fast",
+     "The box breaks"
+    ]
+   },
+   {
+    "question": "Which takes a stronger pull?",
+    "answer": "A wagon full of rocks",
+    "choices": [
+     "An empty wagon",
+     "A wagon full of rocks",
+     "A feather",
+     "A wagon with one toy"
+    ]
+   },
+   {
+    "question": "What happens if you push a ball gently?",
+    "answer": "It moves a short distance",
+    "choices": [
+     "It moves a short distance",
+     "It does not move at all",
+     "It flies very far",
+     "It gets bigger"
+    ]
+   },
+   {
+    "question": "You push a toy car gently and then hard. What happens with the hard push?",
+    "answer": "The car goes farther",
+    "choices": [
+     "The car goes farther",
+     "The car goes backward",
+     "The car does not move",
+     "The car goes less far"
+    ]
+   },
+   {
+    "question": "Which is a push?",
+    "answer": "Closing a door",
+    "choices": [
+     "Tugging a rope",
+     "Opening a drawer",
+     "Closing a door",
+     "Pulling a wagon"
+    ]
+   },
+   {
+    "question": "Which push makes a ball roll the slowest?",
+    "answer": "A gentle push",
+    "choices": [
+     "A gentle push",
+     "A strong push",
+     "A hard throw",
+     "A very strong kick"
+    ]
+   },
+   {
+    "question": "Which is a pull?",
+    "answer": "Opening a drawer toward you",
+    "choices": [
+     "Pressing a button",
+     "Kicking a ball",
+     "Pushing a swing",
+     "Opening a drawer toward you"
+    ]
+   },
+   {
+    "question": "A wagon is stuck. What will help it move?",
+    "answer": "A stronger pull",
+    "choices": [
+     "A stronger pull",
+     "No pull at all",
+     "Waiting",
+     "Pulling more gently"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMove",
+  "subject": "science",
+  "title": "The ways things move",
+  "section": "Force and motion",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciXsMove0",
+   "sciXsMove1",
+   "sciXsMove2"
+  ],
+  "examples": [
+   {
+    "question": "🪀 A yo-yo moves…",
+    "answer": "up and down",
+    "choices": [
+     "in a circle only",
+     "in a zigzag",
+     "sideways",
+     "up and down"
+    ]
+   },
+   {
+    "question": "🐇 A rabbit running away from a fox moves in a…",
+    "answer": "zigzag",
+    "choices": [
+     "straight line only",
+     "back and forth",
+     "zigzag",
+     "circle"
+    ]
+   },
+   {
+    "question": "🎠 A merry-go-round moves in a…",
+    "answer": "circle",
+    "choices": [
+     "straight line",
+     "circle",
+     "zigzag",
+     "back and forth"
+    ]
+   },
+   {
+    "question": "🚗 A car on a straight road moves in a…",
+    "answer": "straight line",
+    "choices": [
+     "circle",
+     "back and forth",
+     "zigzag",
+     "straight line"
+    ]
+   },
+   {
+    "question": "🛝 A swing moves…",
+    "answer": "back and forth",
+    "choices": [
+     "in a circle",
+     "in a straight line",
+     "up only",
+     "back and forth"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAnNeed",
+  "subject": "science",
+  "title": "What do animals need to survive?",
+  "section": "Animals",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsAnNeed0",
+   "sciXsAnNeed1"
+  ],
+  "examples": [
+   {
+    "question": "Why do animals need shelter?",
+    "answer": "To stay safe and protected from weather",
+    "choices": [
+     "To play games",
+     "To store toys",
+     "To watch the sky",
+     "To stay safe and protected from weather"
+    ]
+   },
+   {
+    "question": "Why do birds build nests?",
+    "answer": "To keep their eggs and babies safe",
+    "choices": [
+     "To store water",
+     "To make food",
+     "To sleep in winter only",
+     "To keep their eggs and babies safe"
+    ]
+   },
+   {
+    "question": "What do fish get from water to breathe?",
+    "answer": "Oxygen",
+    "choices": [
+     "Sugar",
+     "Sand",
+     "Oxygen",
+     "Light"
+    ]
+   },
+   {
+    "question": "What does a deer eat?",
+    "answer": "Plants",
+    "choices": [
+     "Rocks",
+     "Plastic",
+     "Plants",
+     "Fish"
+    ]
+   },
+   {
+    "question": "Which of these do animals need to survive?",
+    "answer": "Food and water",
+    "choices": [
+     "Food and water",
+     "Toys",
+     "Money",
+     "Television"
+    ]
+   },
+   {
+    "question": "Where does a fish get the oxygen it needs?",
+    "answer": "From the water, using its gills",
+    "choices": [
+     "From rocks",
+     "From the air above the lake",
+     "From the water, using its gills",
+     "From sunlight"
+    ]
+   },
+   {
+    "question": "A polar bear has thick fur. Which need does the fur help with?",
+    "answer": "Staying warm (shelter from cold)",
+    "choices": [
+     "Drinking water",
+     "Staying warm (shelter from cold)",
+     "Breathing",
+     "Finding food"
+    ]
+   },
+   {
+    "question": "What would happen to a pet hamster with no water?",
+    "answer": "It would get sick and could die",
+    "choices": [
+     "It would turn into a mouse",
+     "It would grow faster",
+     "Nothing would happen",
+     "It would get sick and could die"
+    ]
+   },
+   {
+    "question": "What do all animals need to stay alive?",
+    "answer": "Food, water, air and shelter",
+    "choices": [
+     "Only sunlight",
+     "Food, water, air and shelter",
+     "Only water",
+     "Toys and games"
+    ]
+   },
+   {
+    "question": "Why does a fox dig a den?",
+    "answer": "For shelter",
+    "choices": [
+     "To find water",
+     "To get sunlight",
+     "To make food",
+     "For shelter"
+    ]
+   },
+   {
+    "question": "Which is NOT something animals need?",
+    "answer": "Books",
+    "choices": [
+     "Books",
+     "Air",
+     "Water",
+     "Food"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciBodyUse",
+  "subject": "science",
+  "title": "How do animals use their body parts?",
+  "section": "Animals",
+  "grades": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciBodyUse0",
+   "sciBodyUse1",
+   "sciBodyUse2",
+   "sciBodyUse3"
+  ],
+  "examples": [
+   {
+    "question": "How does a woodpecker use its strong beak?",
+    "answer": "To drill holes in wood for insects",
+    "choices": [
+     "To keep warm",
+     "To drill holes in wood for insects",
+     "To carry its babies",
+     "To swim underwater"
+    ]
+   },
+   {
+    "question": "How does a duck use its webbed feet?",
+    "answer": "To paddle through water",
+    "choices": [
+     "To dig tunnels",
+     "To climb trees",
+     "To catch insects in the air",
+     "To paddle through water"
+    ]
+   },
+   {
+    "question": "How does a giraffe use its long neck?",
+    "answer": "To reach leaves high in trees",
+    "choices": [
+     "To dig for roots",
+     "To reach leaves high in trees",
+     "To hide underground",
+     "To swim fast"
+    ]
+   },
+   {
+    "question": "How does a fish use its fins?",
+    "answer": "To steer and balance in water",
+    "choices": [
+     "To breathe",
+     "To steer and balance in water",
+     "To walk on land",
+     "To see"
+    ]
+   },
+   {
+    "question": "How does an eagle use its sharp claws?",
+    "answer": "To grab its prey",
+    "choices": [
+     "To swim",
+     "To sing",
+     "To grab its prey",
+     "To keep warm"
+    ]
+   },
+   {
+    "question": "How does a rabbit use its long ears?",
+    "answer": "To hear danger coming",
+    "choices": [
+     "To dig",
+     "To swim",
+     "To catch fish",
+     "To hear danger coming"
+    ]
+   },
+   {
+    "question": "How does a porcupine use its quills?",
+    "answer": "To protect itself from predators",
+    "choices": [
+     "To protect itself from predators",
+     "To smell food",
+     "To fly",
+     "To swim"
+    ]
+   },
+   {
+    "question": "How does an elephant use its trunk?",
+    "answer": "To grab food and drink water",
+    "choices": [
+     "To lay eggs",
+     "To fly",
+     "To grab food and drink water",
+     "To see in the dark"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsYoung",
+  "subject": "science",
+  "title": "Compare young living things to their parents",
+  "section": "Animals",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsYoung0",
+   "sciXsYoung1"
+  ],
+  "examples": [
+   {
+    "question": "Which baby looks most like its parent?",
+    "answer": "A foal and a horse",
+    "choices": [
+     "A foal and a horse",
+     "A caterpillar and a butterfly",
+     "A maggot and a fly",
+     "A tadpole and a frog"
+    ]
+   },
+   {
+    "question": "How is a caterpillar different from an adult butterfly?",
+    "answer": "It has no wings",
+    "choices": [
+     "It is a fish",
+     "It is the same",
+     "It has no wings",
+     "It has wings"
+    ]
+   },
+   {
+    "question": "How is a kitten different from an adult cat?",
+    "answer": "It is smaller",
+    "choices": [
+     "It has scales",
+     "It is smaller",
+     "It has more legs",
+     "It has feathers"
+    ]
+   },
+   {
+    "question": "How is a tadpole different from an adult frog?",
+    "answer": "It has a tail and lives only in water",
+    "choices": [
+     "It has four legs",
+     "It has a tail and lives only in water",
+     "It eats flies",
+     "It hops on land"
+    ]
+   },
+   {
+    "question": "How is a kitten like its mother?",
+    "answer": "It has fur, whiskers and a tail",
+    "choices": [
+     "It lays eggs",
+     "It has fur, whiskers and a tail",
+     "It has scales",
+     "It has feathers"
+    ]
+   },
+   {
+    "question": "How is a puppy different from a grown dog?",
+    "answer": "It is smaller",
+    "choices": [
+     "It is a cat",
+     "It has wings",
+     "It is smaller",
+     "It has scales"
+    ]
+   },
+   {
+    "question": "How is a chick like an adult chicken?",
+    "answer": "It has a beak and feathers",
+    "choices": [
+     "It has fins",
+     "It has fur",
+     "It has a long tail like a cat",
+     "It has a beak and feathers"
+    ]
+   },
+   {
+    "question": "How is a tadpole different from an adult frog?",
+    "answer": "A tadpole has a tail and no legs",
+    "choices": [
+     "A tadpole is bigger",
+     "A tadpole can fly",
+     "A tadpole has a tail and no legs",
+     "A tadpole has fur"
+    ]
+   },
+   {
+    "question": "How is a seedling like the plant it came from?",
+    "answer": "It has the same kind of leaves",
+    "choices": [
+     "It is the same size",
+     "It has the same kind of leaves",
+     "It is a different kind of plant",
+     "It has flowers right away"
+    ]
+   },
+   {
+    "question": "How is a puppy like an adult dog?",
+    "answer": "Both have fur, four legs and a tail",
+    "choices": [
+     "Both have feathers",
+     "Both have fur, four legs and a tail",
+     "Both can fly",
+     "Both are the same size"
+    ]
+   },
+   {
+    "question": "A baby swan is grey and fluffy. Its parents are white. What will happen as it grows?",
+    "answer": "It will grow white feathers",
+    "choices": [
+     "It will grow fur",
+     "It will turn into a duck",
+     "It will stay grey forever",
+     "It will grow white feathers"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCamel",
+  "subject": "science",
+  "title": "Where do dromedary camels and polar bears live?",
+  "section": "Animals",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsCamel0",
+   "sciXsCamel1"
+  ],
+  "examples": [
+   {
+    "question": "Where does the polar bear live?",
+    "answer": "In the cold Arctic",
+    "choices": [
+     "In a grassland",
+     "In the cold Arctic",
+     "In a rainforest",
+     "In a hot desert"
+    ]
+   },
+   {
+    "question": "Where do polar bears live?",
+    "answer": "In the cold Arctic",
+    "choices": [
+     "In jungles",
+     "In hot deserts",
+     "In the cold Arctic",
+     "In lakes"
+    ]
+   },
+   {
+    "question": "Why do polar bears have thick fat?",
+    "answer": "To stay warm in the cold",
+    "choices": [
+     "To climb trees",
+     "To run fast",
+     "To store water",
+     "To stay warm in the cold"
+    ]
+   },
+   {
+    "question": "Why do camels have wide, flat feet?",
+    "answer": "So they do not sink in sand",
+    "choices": [
+     "So they do not sink in sand",
+     "So they can swim",
+     "So they can dig tunnels",
+     "So they can climb trees"
+    ]
+   },
+   {
+    "question": "How does a polar bear's thick fat help it?",
+    "answer": "It keeps the bear warm",
+    "choices": [
+     "It keeps the bear warm",
+     "It helps it see",
+     "It helps it run in the desert",
+     "It helps it climb trees"
+    ]
+   },
+   {
+    "question": "Which habitat has very little rain?",
+    "answer": "The desert where camels live",
+    "choices": [
+     "The Arctic Ocean",
+     "The desert where camels live",
+     "A rainforest",
+     "A lake"
+    ]
+   },
+   {
+    "question": "Where do dromedary camels live?",
+    "answer": "In hot, dry deserts",
+    "choices": [
+     "On Arctic ice",
+     "In oceans",
+     "In hot, dry deserts",
+     "In rainforests"
+    ]
+   },
+   {
+    "question": "What does a polar bear hunt?",
+    "answer": "Seals",
+    "choices": [
+     "Lizards",
+     "Camels",
+     "Seals",
+     "Cacti"
+    ]
+   },
+   {
+    "question": "How does a camel's hump help it?",
+    "answer": "It stores fat for energy when food is scarce",
+    "choices": [
+     "It stores water for swimming",
+     "It keeps it cool",
+     "It helps it fly",
+     "It stores fat for energy when food is scarce"
+    ]
+   },
+   {
+    "question": "Where does the dromedary camel live?",
+    "answer": "In a hot, dry desert",
+    "choices": [
+     "In the icy Arctic",
+     "In a hot, dry desert",
+     "In the deep ocean",
+     "In a rainforest"
+    ]
+   },
+   {
+    "question": "Which body part helps a camel walk on sand?",
+    "answer": "Wide, padded feet",
+    "choices": [
+     "Wide, padded feet",
+     "Long claws for ice",
+     "Webbed feet",
+     "Fins"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsGiraffe",
+  "subject": "science",
+  "title": "Where do giraffes and beavers live?",
+  "section": "Animals",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "sciXsGiraffe0",
+   "sciXsGiraffe1"
+  ],
+  "examples": [
+   {
+    "question": "How does a giraffe's long neck help it?",
+    "answer": "It can eat leaves high in trees",
+    "choices": [
+     "It helps it dig",
+     "It keeps it warm",
+     "It helps it swim",
+     "It can eat leaves high in trees"
+    ]
+   },
+   {
+    "question": "Which body part helps a beaver swim?",
+    "answer": "A flat tail and webbed back feet",
+    "choices": [
+     "Long legs",
+     "A flat tail and webbed back feet",
+     "A long neck",
+     "A hump"
+    ]
+   },
+   {
+    "question": "How does a beaver's flat tail help it?",
+    "answer": "It helps it swim and steer",
+    "choices": [
+     "It helps it swim and steer",
+     "It helps it fly",
+     "It helps it climb",
+     "It keeps it cool in deserts"
+    ]
+   },
+   {
+    "question": "Where do beavers live?",
+    "answer": "In ponds, rivers and lakes with trees nearby",
+    "choices": [
+     "In deserts",
+     "On mountaintops",
+     "In ponds, rivers and lakes with trees nearby",
+     "In the ocean"
+    ]
+   },
+   {
+    "question": "What do beavers build in their habitat?",
+    "answer": "Dams and lodges",
+    "choices": [
+     "Ice caves",
+     "Burrows in sand",
+     "Dams and lodges",
+     "Nests in trees"
+    ]
+   },
+   {
+    "question": "Where does the beaver live?",
+    "answer": "In and near ponds and rivers",
+    "choices": [
+     "In a desert",
+     "In the ocean",
+     "On a mountain top",
+     "In and near ponds and rivers"
+    ]
+   },
+   {
+    "question": "Which animal changes its habitat by building dams?",
+    "answer": "A beaver",
+    "choices": [
+     "A lion",
+     "A giraffe",
+     "A camel",
+     "A beaver"
+    ]
+   },
+   {
+    "question": "Where do giraffes live?",
+    "answer": "On grassy African savannas",
+    "choices": [
+     "In the Arctic",
+     "In caves",
+     "On grassy African savannas",
+     "In deep oceans"
+    ]
+   },
+   {
+    "question": "What do giraffes mostly eat?",
+    "answer": "Acacia leaves",
+    "choices": [
+     "Acacia leaves",
+     "Fish",
+     "Seals",
+     "Bark only"
+    ]
+   },
+   {
+    "question": "Where does the giraffe live?",
+    "answer": "In a grassland (savanna) with tall trees",
+    "choices": [
+     "Underground",
+     "In a grassland (savanna) with tall trees",
+     "In a pond",
+     "In the Arctic"
+    ]
+   },
+   {
+    "question": "How does a long neck help a giraffe?",
+    "answer": "It can reach leaves high in trees",
+    "choices": [
+     "It can swim",
+     "It can stay warm",
+     "It can dig",
+     "It can reach leaves high in trees"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,2506 @@
+[
+ {
+  "key": "engTnPf",
+  "subject": "english",
+  "title": "Form the perfect verb tenses",
+  "section": "Verb tense",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engTnPf4",
+   "engTnPf5",
+   "engTnPf6",
+   "engTnPf7",
+   "engTnPf8",
+   "engTnPf9",
+   "engTnPf10",
+   "engTnPf11",
+   "engTnPf12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct verb form. By noon, they ___ the work. (finish, future perfect)",
+    "answer": "will have finished",
+    "choices": [
+     "have finished",
+     "will have finished",
+     "had finished",
+     "finish"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. The soup ___ cold before we sat down. (get, past perfect)",
+    "answer": "had gotten",
+    "choices": [
+     "has gotten",
+     "will have gotten",
+     "gets",
+     "had gotten"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. By next June, she ___ her degree. (earn, future perfect)",
+    "answer": "will have earned",
+    "choices": [
+     "will have earned",
+     "had earned",
+     "earned",
+     "has earned"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. He ___ the test before the bell rang. (finish, past perfect)",
+    "answer": "had finished",
+    "choices": [
+     "had finished",
+     "finishes",
+     "has finished",
+     "will finish"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. They ___ the city twice already. (visit, present perfect)",
+    "answer": "have visited",
+    "choices": [
+     "visit",
+     "will have visited",
+     "had visited",
+     "have visited"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. I ___ here for ten years. (live, present perfect)",
+    "answer": "have lived",
+    "choices": [
+     "will have lived",
+     "have lived",
+     "am living",
+     "had lived"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. When we arrived, the movie ___. (start, past perfect)",
+    "answer": "had started",
+    "choices": [
+     "starts",
+     "has started",
+     "will have started",
+     "had started"
+    ]
+   },
+   {
+    "question": "Choose the correct verb form. She ___ the book three times. (read, present perfect)",
+    "answer": "has read",
+    "choices": [
+     "had read",
+     "has read",
+     "will have read",
+     "is reading"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAdOr",
+  "subject": "english",
+  "title": "Order adjectives",
+  "section": "Adjectives and adverbs",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXAdOr4",
+   "engXAdOr5",
+   "engXAdOr6",
+   "engXAdOr7",
+   "engXAdOr8"
+  ],
+  "examples": [
+   {
+    "question": "Which words complete the sentence in the correct order? It was a ___ day.",
+    "answer": "cold windy",
+    "choices": [
+     "windily cold",
+     "windy cold",
+     "cold, and windy,",
+     "cold windy"
+    ]
+   },
+   {
+    "question": "Which words complete the sentence in the correct order? I found an ___ box.",
+    "answer": "old wooden",
+    "choices": [
+     "old wooden",
+     "wooden, old",
+     "old and wooden and",
+     "wooden old"
+    ]
+   },
+   {
+    "question": "Which words complete the sentence in the correct order? They live in a ___ house.",
+    "answer": "lovely little white",
+    "choices": [
+     "white lovely little",
+     "white little lovely",
+     "lovely little white",
+     "little lovely white"
+    ]
+   },
+   {
+    "question": "Which words complete the sentence in the correct order? We saw a ___ dog.",
+    "answer": "big brown",
+    "choices": [
+     "big, brown, and",
+     "big brown",
+     "brownly big",
+     "brown big"
+    ]
+   },
+   {
+    "question": "Which words complete the sentence in the correct order? She wore a ___ dress.",
+    "answer": "beautiful long red",
+    "choices": [
+     "red beautiful long",
+     "beautiful long red",
+     "long red beautiful",
+     "red long beautiful"
+    ]
+   },
+   {
+    "question": "Which words complete the sentence in the correct order? He bought ___ apples.",
+    "answer": "three fresh green",
+    "choices": [
+     "three green fresh",
+     "green fresh three",
+     "fresh three green",
+     "three fresh green"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRlAv",
+  "subject": "english",
+  "title": "Use relative adverbs",
+  "section": "Adjectives and adverbs",
+  "grades": [
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXRlAv4",
+   "engXRlAv5",
+   "engXRlAv6"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. That is the house ___ I grew up.",
+    "answer": "where",
+    "choices": [
+     "why",
+     "where",
+     "when"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I remember the day ___ we met.",
+    "answer": "when",
+    "choices": [
+     "where",
+     "why",
+     "when"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Tell me the reason ___ you are late.",
+    "answer": "why",
+    "choices": [
+     "where",
+     "why",
+     "when"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Summer is the season ___ we swim.",
+    "answer": "when",
+    "choices": [
+     "when",
+     "where",
+     "why"
+    ]
+   },
+   {
+    "question": "Complete the sentence. This is the park ___ we play.",
+    "answer": "where",
+    "choices": [
+     "when",
+     "why",
+     "where"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Do you know the reason ___ she left?",
+    "answer": "why",
+    "choices": [
+     "when",
+     "where",
+     "why"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXMoMo",
+  "subject": "english",
+  "title": "Use adjectives with more and most",
+  "section": "Adjectives and adverbs",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXMoMo4",
+   "engXMoMo5"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. This book is ___ than that one.",
+    "answer": "more interesting",
+    "choices": [
+     "most interesting",
+     "interestinger",
+     "more interesting",
+     "more interestinger"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She is the ___ driver I know.",
+    "answer": "most careful",
+    "choices": [
+     "most careful",
+     "more careful",
+     "carefullest",
+     "most carefuller"
+    ]
+   },
+   {
+    "question": "Complete the sentence. This is the ___ painting in the museum.",
+    "answer": "most beautiful",
+    "choices": [
+     "more beautiful",
+     "most beautiful",
+     "beautifuler",
+     "beautifulest"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Math is ___ than art for me.",
+    "answer": "more difficult",
+    "choices": [
+     "most difficult",
+     "difficulter",
+     "more difficulter",
+     "more difficult"
+    ]
+   },
+   {
+    "question": "Complete the sentence. That was the ___ meal ever!",
+    "answer": "most delicious",
+    "choices": [
+     "most delicious",
+     "deliciouser",
+     "more delicious",
+     "deliciousest"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCpHN",
+  "subject": "english",
+  "title": "Capitalizing the names of historical events, periods and documents",
+  "section": "Capitalization",
+  "grades": [
+   4
+  ],
+  "skillIds": [
+   "engCpHN4"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "My grandfather is Italian.",
+    "choices": [
+     "My Grandfather is italian.",
+     "my grandfather is Italian.",
+     "My grandfather is Italian.",
+     "My grandfather is italian."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "We studied the Second World War.",
+    "choices": [
+     "We studied the second world war.",
+     "We studied the Second world war.",
+     "We studied the Second World War.",
+     "We Studied the second World War."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "I love Mexican food.",
+    "choices": [
+     "I love Mexican Food.",
+     "i love mexican food.",
+     "I love Mexican food.",
+     "I love mexican food."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "She speaks French and Spanish.",
+    "choices": [
+     "She speaks French and spanish.",
+     "She speaks French and Spanish.",
+     "she speaks French and Spanish.",
+     "She speaks french and spanish."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "The Middle Ages lasted for centuries.",
+    "choices": [
+     "the middle Ages lasted for centuries.",
+     "The middle ages lasted for centuries.",
+     "The Middle Ages lasted for centuries.",
+     "The Middle ages lasted for centuries."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "They signed the Declaration of Independence.",
+    "choices": [
+     "They Signed the declaration of Independence.",
+     "They signed the Declaration of independence.",
+     "They signed the Declaration of Independence.",
+     "They signed the declaration of independence."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPvCc",
+  "subject": "english",
+  "title": "Compare and contrast points of view",
+  "section": "Point of view",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "engXPvCc5"
+  ],
+  "examples": [
+   {
+    "question": "Narrator 1: \"Our new teacher is strict, and I miss Ms. Lee.\" Narrator 2: \"Our new teacher is strict, but she makes learning fun.\" What do both narrators agree on?",
+    "answer": "The new teacher is strict",
+    "choices": [
+     "They both miss Ms. Lee",
+     "The new teacher is strict",
+     "The teacher is not strict",
+     "The new teacher is fun"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"Moving to a new city was scary. I didn't know anyone.\" Narrator 2: \"Moving was an adventure! I couldn't wait to explore.\" How do the narrators feel differently about moving?",
+    "answer": "One feels scared; the other feels excited",
+    "choices": [
+     "Both feel excited",
+     "Both feel scared",
+     "One feels scared; the other feels excited",
+     "Neither has moved"
+    ]
+   },
+   {
+    "question": "Account 1: \"The storm was terrifying — the wind shook our windows all night.\" Account 2: \"The storm was amazing. I watched the lightning for hours.\" How are the two accounts different?",
+    "answer": "One person was scared; the other was fascinated",
+    "choices": [
+     "Neither saw lightning",
+     "Both slept through it",
+     "One person was scared; the other was fascinated",
+     "Both were scared"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"Grandma's old house is creepy and full of dust.\" Narrator 2: \"Grandma's house is full of treasures and stories.\" How do the narrators see Grandma's house?",
+    "answer": "One sees it as creepy; the other as full of treasures",
+    "choices": [
+     "One sees it as creepy; the other as full of treasures",
+     "Both love the dust",
+     "Both think it is creepy",
+     "Neither visits it"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"The storm knocked out our power, and I hated the dark.\" Narrator 2: \"When the power went out, we lit candles and told stories. It was the best night!\" How are their views of the power outage different?",
+    "answer": "One disliked it; the other enjoyed it",
+    "choices": [
+     "Both enjoyed it",
+     "Neither noticed it",
+     "Both hated it",
+     "One disliked it; the other enjoyed it"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"Snow days are the best — sledding all day!\" Narrator 2: \"Snow days mean shovelling the driveway before breakfast.\" How do the narrators view snow days?",
+    "answer": "One sees fun; the other sees chores",
+    "choices": [
+     "Neither likes snow",
+     "One sees fun; the other sees chores",
+     "Both see only fun",
+     "Both shovel"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"The new library is too quiet — I miss the old noisy one.\" Narrator 2: \"Finally, a calm place where I can actually think!\" How do the narrators feel about the quiet library?",
+    "answer": "One dislikes the quiet; the other appreciates it",
+    "choices": [
+     "Both dislike it",
+     "Both love it",
+     "One dislikes the quiet; the other appreciates it",
+     "Neither has visited it"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"Soccer practice is boring because we just run drills.\" Narrator 2: \"Drills make us better, so I love practice.\" How do the narrators view soccer practice?",
+    "answer": "One finds it boring; the other loves it",
+    "choices": [
+     "Both love it",
+     "One finds it boring; the other loves it",
+     "Neither plays soccer",
+     "Both find it boring"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"I was nervous when the new dog came home. It barked at everything.\" Narrator 2: \"I was so excited when we got our dog! He was just saying hello.\" How do the two narrators view the new dog differently?",
+    "answer": "One is nervous about it; the other is excited",
+    "choices": [
+     "One is nervous about it; the other is excited",
+     "Both are scared of it",
+     "Both dislike it",
+     "Neither has met it"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"The camping trip was ruined by rain.\" Narrator 2: \"The rain gave us a reason to play cards in the tent all afternoon.\" How do the narrators view the rain?",
+    "answer": "One thinks it ruined the trip; the other found a way to enjoy it",
+    "choices": [
+     "Both stayed home",
+     "One thinks it ruined the trip; the other found a way to enjoy it",
+     "Neither saw rain",
+     "Both enjoyed the rain"
+    ]
+   },
+   {
+    "question": "Narrator 1: \"Our puppy chews everything — he's a nightmare.\" Narrator 2: \"Our puppy is just curious and learning about the world.\" How do the narrators view the puppy's chewing?",
+    "answer": "One is annoyed; the other is understanding",
+    "choices": [
+     "Neither has a puppy",
+     "Both are annoyed",
+     "Both are understanding",
+     "One is annoyed; the other is understanding"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFcOp",
+  "subject": "english",
+  "title": "Distinguish facts from opinions",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   5,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFcOp5",
+   "engFcOp9",
+   "engFcOp10",
+   "engFcOp11",
+   "engFcOp12"
+  ],
+  "examples": [
+   {
+    "question": "Is this a fact or an opinion? Mathematics is the most boring subject.",
+    "answer": "Opinion",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? Everyone should learn a second language.",
+    "answer": "Opinion",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? Canada has ten provinces and three territories.",
+    "answer": "Fact",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? Water freezes at 0 degrees Celsius.",
+    "answer": "Fact",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? Reality shows are a waste of time.",
+    "answer": "Opinion",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? Cats make better pets than dogs.",
+    "answer": "Opinion",
+    "choices": [
+     "Fact",
+     "Opinion"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? Canada is the most beautiful country in the world.",
+    "answer": "Opinion",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? The Moon orbits Earth about once every 27 days.",
+    "answer": "Fact",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? The Pacific is the largest ocean on Earth.",
+    "answer": "Fact",
+    "choices": [
+     "Fact",
+     "Opinion"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? The Great Wall of China is thousands of kilometres long.",
+    "answer": "Fact",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? Winter is the worst season.",
+    "answer": "Opinion",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   },
+   {
+    "question": "Is this a fact or an opinion? The human heart has four chambers.",
+    "answer": "Fact",
+    "choices": [
+     "Opinion",
+     "Fact"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCfWd",
+  "subject": "english",
+  "title": "Use the correct frequently confused word",
+  "section": "Editing and revising",
+  "grades": [
+   5,
+   6,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCfWd5",
+   "engCfWd6",
+   "engCfWd8",
+   "engCfWd9",
+   "engCfWd10",
+   "engCfWd11",
+   "engCfWd12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word. Her ___ was impressive: a calm presence.",
+    "answer": "composure",
+    "choices": [
+     "composure",
+     "composer"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The new law will ___ many families.",
+    "answer": "affect",
+    "choices": [
+     "affect",
+     "effect"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The screw came ___ over time.",
+    "answer": "loose",
+    "choices": [
+     "loose",
+     "lose"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The ___ of the medicine was immediate.",
+    "answer": "effect",
+    "choices": [
+     "effect",
+     "affect"
+    ]
+   },
+   {
+    "question": "Choose the correct word. Everyone ___ Jess went to the concert.",
+    "answer": "except",
+    "choices": [
+     "except",
+     "accept"
+    ]
+   },
+   {
+    "question": "Choose the correct word. Try not to ___ your keys.",
+    "answer": "lose",
+    "choices": [
+     "loose",
+     "lose"
+    ]
+   },
+   {
+    "question": "Choose the correct word. Please ___ my apology.",
+    "answer": "accept",
+    "choices": [
+     "accept",
+     "except"
+    ]
+   },
+   {
+    "question": "Choose the correct word. A person's moral rule is a ___.",
+    "answer": "principle",
+    "choices": [
+     "principle",
+     "principal"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The principal gave us good ___.",
+    "answer": "advice",
+    "choices": [
+     "advice",
+     "advise"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The class is smaller ___ last year's.",
+    "answer": "than",
+    "choices": [
+     "then",
+     "than"
+    ]
+   },
+   {
+    "question": "Choose the correct word. I ___ you to apply early.",
+    "answer": "advise",
+    "choices": [
+     "advice",
+     "advise"
+    ]
+   },
+   {
+    "question": "Choose the correct word. She ate dinner and ___ went for a walk.",
+    "answer": "then",
+    "choices": [
+     "than",
+     "then"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCfEr",
+  "subject": "english",
+  "title": "Correct errors with frequently confused words",
+  "section": "Editing and revising",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXCfEr5",
+   "engXCfEr6",
+   "engXCfEr7",
+   "engXCfEr8",
+   "engXCfEr9",
+   "engXCfEr10",
+   "engXCfEr11",
+   "engXCfEr12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses the correct word?",
+    "answer": "Please ensure that the door is locked.",
+    "choices": [
+     "Please insure that the door is locked.",
+     "Please ensure that the door is locked.",
+     "Please assure that the door is locked.",
+     "Please ensurre that the door is locked."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct word?",
+    "answer": "From the clues, I inferred that the butler did it.",
+    "choices": [
+     "From the clues, I infered that the butler did it.",
+     "From the clues, I imply that the butler did it.",
+     "From the clues, I inferred that the butler did it.",
+     "From the clues, I implied that the butler did it."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct word?",
+    "answer": "I would rather eat pasta than pizza.",
+    "choices": [
+     "I would rather eat pasta then pizza.",
+     "I would rather eat pasta that pizza.",
+     "I would rather eat pasta thon pizza.",
+     "I would rather eat pasta than pizza."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct word?",
+    "answer": "The rain had a big effect on the game.",
+    "choices": [
+     "The rain had a big effect on the game.",
+     "The rain had a big effeck on the game.",
+     "The rain had a big afect on the game.",
+     "The rain had a big affect on the game."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct word?",
+    "answer": "The principal spoke to the whole school.",
+    "choices": [
+     "The principall spoke to the whole school.",
+     "The principal spoke to the whole school.",
+     "The principle spoke to the whole school.",
+     "The principel spoke to the whole school."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct word?",
+    "answer": "Please lie down and rest.",
+    "choices": [
+     "Please laid down and rest.",
+     "Please lie down and rest.",
+     "Please lays down and rest.",
+     "Please lay down and rest."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct word?",
+    "answer": "Her quiet manner complemented his energy.",
+    "choices": [
+     "Her quiet manner complimented his energy.",
+     "Her quiet manner compliment his energy.",
+     "Her quiet manner complementted his energy.",
+     "Her quiet manner complemented his energy."
+    ]
+   },
+   {
+    "question": "Which sentence uses the correct word?",
+    "answer": "We have fewer apples than last week.",
+    "choices": [
+     "We have lesser apples than last week.",
+     "We have fewer apples than last week.",
+     "We have less apples than last week.",
+     "We have fewest apples than last week."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCNF",
+  "subject": "english",
+  "title": "Commonly confused words",
+  "section": "Editing and revising",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "engCNF5"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word: Be careful not to ___ your keys.",
+    "answer": "lose",
+    "choices": [
+     "loos",
+     "loose",
+     "lose",
+     "loss"
+    ]
+   },
+   {
+    "question": "Choose the correct word: Everyone came ___ Jake.",
+    "answer": "except",
+    "choices": [
+     "except",
+     "expect",
+     "excerpt",
+     "accept"
+    ]
+   },
+   {
+    "question": "Choose the correct word: She is taller ___ her brother.",
+    "answer": "than",
+    "choices": [
+     "then",
+     "thin",
+     "than",
+     "that"
+    ]
+   },
+   {
+    "question": "Choose the correct word: First we eat, ___ we play.",
+    "answer": "then",
+    "choices": [
+     "then",
+     "that",
+     "than",
+     "them"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The weather will ___ our plans. (change them)",
+    "answer": "affect",
+    "choices": [
+     "effects",
+     "affect",
+     "effect",
+     "afect"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The dog wagged ___ tail.",
+    "answer": "its",
+    "choices": [
+     "it's",
+     "its's",
+     "its",
+     "it is"
+    ]
+   },
+   {
+    "question": "Choose the correct word: The medicine had a good ___.",
+    "answer": "effect",
+    "choices": [
+     "affects",
+     "efect",
+     "affect",
+     "effect"
+    ]
+   },
+   {
+    "question": "Choose the correct word: Please ___ my invitation.",
+    "answer": "accept",
+    "choices": [
+     "expect",
+     "except",
+     "accept",
+     "access"
+    ]
+   },
+   {
+    "question": "Choose the correct word: My shoelace is ___.",
+    "answer": "loose",
+    "choices": [
+     "lose",
+     "loss",
+     "loos",
+     "loose"
+    ]
+   },
+   {
+    "question": "Choose the correct word: ___ a sunny day today.",
+    "answer": "It's",
+    "choices": [
+     "Its",
+     "It's",
+     "Is",
+     "Its'"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPxUD",
+  "subject": "english",
+  "title": "Words with un-, dis-, in-, im- and non-",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "engPxUD5",
+   "engPxUD6",
+   "engPxUD7",
+   "engPxUD8",
+   "engPxUD9",
+   "engPxUD10"
+  ],
+  "examples": [
+   {
+    "question": "What does unlock mean?",
+    "answer": "the opposite of lock",
+    "choices": [
+     "the act of enjoying",
+     "lead wrongly",
+     "the opposite of lock",
+     "full of help"
+    ]
+   },
+   {
+    "question": "What does unhappy mean?",
+    "answer": "not happy",
+    "choices": [
+     "not correct",
+     "not happy",
+     "full of hope",
+     "heat before"
+    ]
+   },
+   {
+    "question": "What does incorrect mean?",
+    "answer": "not correct",
+    "choices": [
+     "without fear",
+     "the opposite of lock",
+     "not correct",
+     "read again"
+    ]
+   },
+   {
+    "question": "What does unkind mean?",
+    "answer": "not kind",
+    "choices": [
+     "not kind",
+     "the state of being dark",
+     "read again",
+     "able to be read"
+    ]
+   },
+   {
+    "question": "What does dishonest mean?",
+    "answer": "not honest",
+    "choices": [
+     "not honest",
+     "without an end",
+     "not possible",
+     "the opposite of lock"
+    ]
+   },
+   {
+    "question": "What does nonstop mean?",
+    "answer": "without stopping",
+    "choices": [
+     "the state of being dark",
+     "the opposite of lock",
+     "able to be read",
+     "without stopping"
+    ]
+   },
+   {
+    "question": "What does impossible mean?",
+    "answer": "not possible",
+    "choices": [
+     "not possible",
+     "pay before",
+     "test before",
+     "in a soft way"
+    ]
+   },
+   {
+    "question": "What does dislike mean?",
+    "answer": "not like",
+    "choices": [
+     "full of joy",
+     "not like",
+     "not kind",
+     "full of colour"
+    ]
+   },
+   {
+    "question": "What does unsafe mean?",
+    "answer": "not safe",
+    "choices": [
+     "full of care",
+     "able to be read",
+     "not safe",
+     "the state of being sad"
+    ]
+   },
+   {
+    "question": "What does disagree mean?",
+    "answer": "not agree",
+    "choices": [
+     "the act of moving",
+     "pay before",
+     "not agree",
+     "not correct"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRtWc",
+  "subject": "english",
+  "title": "Use words as clues to the meanings of Greek and Latin roots",
+  "section": "Greek and Latin roots",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXRtWc5",
+   "engXRtWc6",
+   "engXRtWc7",
+   "engXRtWc8",
+   "engXRtWc9",
+   "engXRtWc10",
+   "engXRtWc11",
+   "engXRtWc12"
+  ],
+  "examples": [
+   {
+    "question": "Each word contains the root bio : biology, biography, antibiotic. What does bio mean?",
+    "answer": "life",
+    "choices": [
+     "star",
+     "water",
+     "life",
+     "earth"
+    ]
+   },
+   {
+    "question": "Each word contains the root graph : autograph, paragraph, graphic. What does graph mean?",
+    "answer": "write",
+    "choices": [
+     "measure",
+     "carry",
+     "write",
+     "see"
+    ]
+   },
+   {
+    "question": "Each word contains the root spect : spectator, inspect, spectacles. What does spect mean?",
+    "answer": "look",
+    "choices": [
+     "hear",
+     "write",
+     "carry",
+     "look"
+    ]
+   },
+   {
+    "question": "Each word contains the root aud : audience, audible, audio. What does aud mean?",
+    "answer": "hear",
+    "choices": [
+     "see",
+     "move",
+     "hear",
+     "speak"
+    ]
+   },
+   {
+    "question": "Each word contains the root rupt : rupture, erupt, interrupt. What does rupt mean?",
+    "answer": "break",
+    "choices": [
+     "break",
+     "see",
+     "carry",
+     "build"
+    ]
+   },
+   {
+    "question": "Each word contains the root port : transport, portable, export. What does port mean?",
+    "answer": "carry",
+    "choices": [
+     "break",
+     "look",
+     "carry",
+     "build"
+    ]
+   },
+   {
+    "question": "Each word contains the root struct : construct, structure, instruct. What does struct mean?",
+    "answer": "build",
+    "choices": [
+     "look",
+     "break",
+     "say",
+     "build"
+    ]
+   },
+   {
+    "question": "Each word contains the root dict : dictate, predict, dictionary. What does dict mean?",
+    "answer": "say",
+    "choices": [
+     "say",
+     "write",
+     "hear",
+     "pull"
+    ]
+   },
+   {
+    "question": "Each word contains the root phon : telephone, symphony, phonics. What does phon mean?",
+    "answer": "sound",
+    "choices": [
+     "light",
+     "water",
+     "earth",
+     "sound"
+    ]
+   },
+   {
+    "question": "Each word contains the root tract : tractor, attract, subtract. What does tract mean?",
+    "answer": "pull",
+    "choices": [
+     "pull",
+     "write",
+     "look",
+     "push"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRtWd",
+  "subject": "english",
+  "title": "Determine the meanings of words with Greek and Latin roots",
+  "section": "Greek and Latin roots",
+  "grades": [
+   5,
+   6,
+   9,
+   12
+  ],
+  "skillIds": [
+   "engRtWd5",
+   "engRtWd6",
+   "engRtWd9",
+   "engRtWd12"
+  ],
+  "examples": [
+   {
+    "question": "What does mortal mean?",
+    "answer": "subject to death",
+    "choices": [
+     "communication of feelings from far away",
+     "to supply with water",
+     "relating to water",
+     "subject to death"
+    ]
+   },
+   {
+    "question": "What does zoology mean?",
+    "answer": "the study of animals",
+    "choices": [
+     "believable",
+     "the study of animals",
+     "a person who does good for others",
+     "subject to death"
+    ]
+   },
+   {
+    "question": "What does cosmopolitan mean?",
+    "answer": "at home in the whole world",
+    "choices": [
+     "subject to death",
+     "at home in the whole world",
+     "communication of feelings from far away",
+     "the study of speech sounds"
+    ]
+   },
+   {
+    "question": "What does telepathy mean?",
+    "answer": "communication of feelings from far away",
+    "choices": [
+     "a person who does good for others",
+     "shared feeling",
+     "communication of feelings from far away",
+     "a person on foot"
+    ]
+   },
+   {
+    "question": "What does pedestrian mean?",
+    "answer": "a person on foot",
+    "choices": [
+     "to supply with water",
+     "a person who does good for others",
+     "a person on foot",
+     "the study of animals"
+    ]
+   },
+   {
+    "question": "What does anthropology mean?",
+    "answer": "the study of humans",
+    "choices": [
+     "at home in the whole world",
+     "the study of humans",
+     "shared feeling",
+     "to supply with water"
+    ]
+   },
+   {
+    "question": "What does hydrate mean?",
+    "answer": "to supply with water",
+    "choices": [
+     "to supply with water",
+     "subject to death",
+     "believable",
+     "the study of animals"
+    ]
+   },
+   {
+    "question": "What does credible mean?",
+    "answer": "believable",
+    "choices": [
+     "the study of speech sounds",
+     "believable",
+     "relating to water",
+     "at home in the whole world"
+    ]
+   },
+   {
+    "question": "What does aquatic mean?",
+    "answer": "relating to water",
+    "choices": [
+     "believable",
+     "relating to water",
+     "a person who does good for others",
+     "to supply with water"
+    ]
+   },
+   {
+    "question": "What does sympathy mean?",
+    "answer": "shared feeling",
+    "choices": [
+     "shared feeling",
+     "a person on foot",
+     "communication of feelings from far away",
+     "believable"
+    ]
+   },
+   {
+    "question": "What does phonetics mean?",
+    "answer": "the study of speech sounds",
+    "choices": [
+     "the study of humans",
+     "shared feeling",
+     "relating to water",
+     "the study of speech sounds"
+    ]
+   },
+   {
+    "question": "What does benefactor mean?",
+    "answer": "a person who does good for others",
+    "choices": [
+     "a person on foot",
+     "the study of speech sounds",
+     "relating to water",
+     "a person who does good for others"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engAnl",
+  "subject": "english",
+  "title": "Analogies",
+  "section": "Analogies",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engAnl5",
+   "engAnl6",
+   "engAnl7",
+   "engAnl8",
+   "engAnl9",
+   "engAnl10",
+   "engAnl11",
+   "engAnl12"
+  ],
+  "examples": [
+   {
+    "question": "Complete the analogy. pen : write :: knife : ___",
+    "answer": "cut",
+    "choices": [
+     "fork",
+     "cut",
+     "kitchen",
+     "sharp"
+    ]
+   },
+   {
+    "question": "Complete the analogy. author : book :: composer : ___",
+    "answer": "symphony",
+    "choices": [
+     "symphony",
+     "note",
+     "concert",
+     "orchestra"
+    ]
+   },
+   {
+    "question": "Complete the analogy. thermometer : temperature :: ruler : ___",
+    "answer": "length",
+    "choices": [
+     "speed",
+     "weight",
+     "time",
+     "length"
+    ]
+   },
+   {
+    "question": "Complete the analogy. glad : happy :: sad : ___",
+    "answer": "unhappy",
+    "choices": [
+     "cheerful",
+     "angry",
+     "unhappy",
+     "tired"
+    ]
+   },
+   {
+    "question": "Complete the analogy. hot : cold :: day : ___",
+    "answer": "night",
+    "choices": [
+     "morning",
+     "sun",
+     "night",
+     "warm"
+    ]
+   },
+   {
+    "question": "Complete the analogy. bee : hive :: bird : ___",
+    "answer": "nest",
+    "choices": [
+     "wing",
+     "tree",
+     "nest",
+     "feather"
+    ]
+   },
+   {
+    "question": "Complete the analogy. puppy : dog :: kitten : ___",
+    "answer": "cat",
+    "choices": [
+     "lion",
+     "bird",
+     "cat",
+     "mouse"
+    ]
+   },
+   {
+    "question": "Complete the analogy. chapter : book :: scene : ___",
+    "answer": "play",
+    "choices": [
+     "actor",
+     "play",
+     "stage",
+     "script"
+    ]
+   },
+   {
+    "question": "Complete the analogy. drought : water :: famine : ___",
+    "answer": "food",
+    "choices": [
+     "food",
+     "money",
+     "rain",
+     "wind"
+    ]
+   },
+   {
+    "question": "Complete the analogy. finger : hand :: toe : ___",
+    "answer": "foot",
+    "choices": [
+     "nail",
+     "shoe",
+     "foot",
+     "leg"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engIDM",
+  "subject": "english",
+  "title": "Idioms",
+  "section": "Idioms and adages",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "engIDM5"
+  ],
+  "examples": [
+   {
+    "question": "What does the idiom \"A piece of cake\" mean?",
+    "answer": "Very easy",
+    "choices": [
+     "Very easy",
+     "Tell a secret",
+     "Very expensive",
+     "It is raining very hard"
+    ]
+   },
+   {
+    "question": "What does the idiom \"Cost an arm and a leg\" mean?",
+    "answer": "Very expensive",
+    "choices": [
+     "Good luck",
+     "Very expensive",
+     "It is your turn to decide",
+     "Very easy"
+    ]
+   },
+   {
+    "question": "What does the idiom \"Under the weather\" mean?",
+    "answer": "Feeling sick",
+    "choices": [
+     "It is your turn to decide",
+     "Feeling sick",
+     "Study hard",
+     "Face something hard bravely"
+    ]
+   },
+   {
+    "question": "What does the idiom \"Hit the books\" mean?",
+    "answer": "Study hard",
+    "choices": [
+     "Feeling sick",
+     "Very rarely",
+     "Study hard",
+     "Very easy"
+    ]
+   },
+   {
+    "question": "What does the idiom \"Once in a blue moon\" mean?",
+    "answer": "Very rarely",
+    "choices": [
+     "It is your turn to decide",
+     "It is raining very hard",
+     "Good luck",
+     "Very rarely"
+    ]
+   },
+   {
+    "question": "What does the idiom \"It's raining cats and dogs\" mean?",
+    "answer": "It is raining very hard",
+    "choices": [
+     "Face something hard bravely",
+     "Tell a secret",
+     "It is raining very hard",
+     "Good luck"
+    ]
+   },
+   {
+    "question": "What does the idiom \"Break a leg\" mean?",
+    "answer": "Good luck",
+    "choices": [
+     "It is your turn to decide",
+     "Feeling sick",
+     "Good luck",
+     "Tell a secret"
+    ]
+   },
+   {
+    "question": "What does the idiom \"Bite the bullet\" mean?",
+    "answer": "Face something hard bravely",
+    "choices": [
+     "Face something hard bravely",
+     "Very rarely",
+     "Very easy",
+     "Study hard"
+    ]
+   },
+   {
+    "question": "What does the idiom \"Spill the beans\" mean?",
+    "answer": "Tell a secret",
+    "choices": [
+     "Face something hard bravely",
+     "Tell a secret",
+     "It is raining very hard",
+     "Very rarely"
+    ]
+   },
+   {
+    "question": "What does the idiom \"The ball is in your court\" mean?",
+    "answer": "It is your turn to decide",
+    "choices": [
+     "It is your turn to decide",
+     "Very rarely",
+     "Very expensive",
+     "Tell a secret"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engDpIn",
+  "subject": "english",
+  "title": "Identify dependent and independent clauses",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engDpIn5",
+   "engDpIn6",
+   "engDpIn7",
+   "engDpIn8",
+   "engDpIn9",
+   "engDpIn10",
+   "engDpIn11",
+   "engDpIn12"
+  ],
+  "examples": [
+   {
+    "question": "unless you hurry",
+    "answer": "Dependent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   },
+   {
+    "question": "The train leaves at noon",
+    "answer": "Independent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   },
+   {
+    "question": "while the orchestra tuned",
+    "answer": "Dependent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "He forgot his keys",
+    "answer": "Independent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "The crowd cheered loudly",
+    "answer": "Independent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "so the plan worked",
+    "answer": "Independent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   },
+   {
+    "question": "that he borrowed",
+    "answer": "Dependent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   },
+   {
+    "question": "whenever the crowd cheered",
+    "answer": "Dependent clause",
+    "choices": [
+     "Independent clause",
+     "Dependent clause"
+    ]
+   },
+   {
+    "question": "She baked the bread",
+    "answer": "Independent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   },
+   {
+    "question": "which she baked this morning",
+    "answer": "Dependent clause",
+    "choices": [
+     "Dependent clause",
+     "Independent clause"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSnSc",
+  "subject": "english",
+  "title": "Is the sentence simple, compound or complex?",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXSnSc5",
+   "engXSnSc6"
+  ],
+  "examples": [
+   {
+    "question": "Is this sentence simple, compound or complex? I will call you after I finish dinner.",
+    "answer": "Complex",
+    "choices": [
+     "Complex",
+     "Simple",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is this sentence simple, compound or complex? My cousin from Regina visited last summer.",
+    "answer": "Simple",
+    "choices": [
+     "Simple",
+     "Complex",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is this sentence simple, compound or complex? The dog barked at the mail carrier.",
+    "answer": "Simple",
+    "choices": [
+     "Compound",
+     "Complex",
+     "Simple"
+    ]
+   },
+   {
+    "question": "Is this sentence simple, compound or complex? I wanted pizza, but we had tacos.",
+    "answer": "Compound",
+    "choices": [
+     "Complex",
+     "Simple",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is this sentence simple, compound or complex? When the bell rang, everyone cheered.",
+    "answer": "Complex",
+    "choices": [
+     "Simple",
+     "Compound",
+     "Complex"
+    ]
+   },
+   {
+    "question": "Is this sentence simple, compound or complex? She studied hard, so she passed.",
+    "answer": "Compound",
+    "choices": [
+     "Complex",
+     "Compound",
+     "Simple"
+    ]
+   },
+   {
+    "question": "Is this sentence simple, compound or complex? We can swim, or we can hike.",
+    "answer": "Compound",
+    "choices": [
+     "Complex",
+     "Compound",
+     "Simple"
+    ]
+   },
+   {
+    "question": "Is this sentence simple, compound or complex? Because it rained, the game was cancelled.",
+    "answer": "Complex",
+    "choices": [
+     "Simple",
+     "Compound",
+     "Complex"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPrCo",
+  "subject": "english",
+  "title": "Compound subjects and objects with personal pronouns",
+  "section": "Pronouns",
+  "grades": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXPrCo5",
+   "engXPrCo6",
+   "engXPrCo7",
+   "engXPrCo8"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. The teacher gave Ben and ___ a prize.",
+    "answer": "her",
+    "choices": [
+     "her",
+     "hers",
+     "herself",
+     "she"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The dog followed Lily and ___.",
+    "answer": "him",
+    "choices": [
+     "he",
+     "himself",
+     "him",
+     "his"
+    ]
+   },
+   {
+    "question": "Complete the sentence. They and ___ will meet at noon.",
+    "answer": "we",
+    "choices": [
+     "ourselves",
+     "us",
+     "our",
+     "we"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ and his brother built a fort.",
+    "answer": "He",
+    "choices": [
+     "Himself",
+     "Him",
+     "His",
+     "He"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Grandma called my sister and ___.",
+    "answer": "me",
+    "choices": [
+     "myself",
+     "I",
+     "me",
+     "mine"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Ana and ___ went to the store.",
+    "answer": "I",
+    "choices": [
+     "me",
+     "myself",
+     "I",
+     "mine"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTnSm",
+  "subject": "english",
+  "title": "Form and use the simple past, present and future tense",
+  "section": "Verb tense",
+  "grades": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXTnSm5",
+   "engXTnSm6",
+   "engXTnSm7",
+   "engXTnSm8"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. Next year, I ___ Grade 6. (start)",
+    "answer": "will start",
+    "choices": [
+     "start",
+     "will start",
+     "started"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Tomorrow, we ___ pizza. (eat)",
+    "answer": "will eat",
+    "choices": [
+     "will eat",
+     "ate",
+     "eat"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Right now, he ___ in Grade 5. (be)",
+    "answer": "is",
+    "choices": [
+     "is",
+     "will be",
+     "was"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Last week, they ___ a movie. (see)",
+    "answer": "saw",
+    "choices": [
+     "will see",
+     "see",
+     "saw"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Yesterday, I ___ to the store. (walk)",
+    "answer": "walked",
+    "choices": [
+     "walk",
+     "walked",
+     "will walk"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Every day, she ___ the bus. (take)",
+    "answer": "takes",
+    "choices": [
+     "will take",
+     "took",
+     "takes"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engIRR",
+  "subject": "english",
+  "title": "Irregular verbs",
+  "section": "Verb tense",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "engIRR5"
+  ],
+  "examples": [
+   {
+    "question": "He ___ the ball over the fence. (throw)",
+    "answer": "threw",
+    "choices": [
+     "threw",
+     "throw",
+     "thrown",
+     "throwed"
+    ]
+   },
+   {
+    "question": "She ___ the answer on the board. (write)",
+    "answer": "wrote",
+    "choices": [
+     "written",
+     "writed",
+     "wrote",
+     "writes"
+    ]
+   },
+   {
+    "question": "We ___ a great movie last night. (see)",
+    "answer": "saw",
+    "choices": [
+     "seed",
+     "seen",
+     "saw",
+     "see"
+    ]
+   },
+   {
+    "question": "Yesterday she ___ a letter. (write)",
+    "answer": "wrote",
+    "choices": [
+     "wrote",
+     "write",
+     "writed",
+     "written"
+    ]
+   },
+   {
+    "question": "I have ___ my lunch. (eat)",
+    "answer": "eaten",
+    "choices": [
+     "eat",
+     "eated",
+     "ate",
+     "eaten"
+    ]
+   },
+   {
+    "question": "The glass has ___ on the floor. (break)",
+    "answer": "broken",
+    "choices": [
+     "breaked",
+     "broken",
+     "broke",
+     "break"
+    ]
+   },
+   {
+    "question": "He ___ a new bike last week. (buy)",
+    "answer": "bought",
+    "choices": [
+     "buyed",
+     "buy",
+     "boughten",
+     "bought"
+    ]
+   },
+   {
+    "question": "They have ___ to the beach. (go)",
+    "answer": "gone",
+    "choices": [
+     "went",
+     "go",
+     "gone",
+     "goed"
+    ]
+   },
+   {
+    "question": "I have ___ this song before. (hear)",
+    "answer": "heard",
+    "choices": [
+     "hearn",
+     "heard",
+     "hear",
+     "heared"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCjCr",
+  "subject": "english",
+  "title": "Use the correct pair of correlative conjunctions",
+  "section": "Conjunctions",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "engCjCr5",
+   "engCjCr6",
+   "engCjCr7",
+   "engCjCr8",
+   "engCjCr9",
+   "engCjCr10"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct pair. ___ my brother ___ my sister likes broccoli.",
+    "answer": "Neither … nor",
+    "choices": [
+     "Not only … or",
+     "Both … nor",
+     "Either … and",
+     "Neither … nor"
+    ]
+   },
+   {
+    "question": "Choose the correct pair. She is ___ smart ___ kind.",
+    "answer": "not only … but also",
+    "choices": [
+     "either … and",
+     "both … or",
+     "neither … or",
+     "not only … but also"
+    ]
+   },
+   {
+    "question": "Choose the correct pair. You can have ___ soup ___ salad.",
+    "answer": "either … or",
+    "choices": [
+     "both … or",
+     "whether … and",
+     "neither … or",
+     "either … or"
+    ]
+   },
+   {
+    "question": "Choose the correct pair. I don't know ___ to laugh ___ cry.",
+    "answer": "whether … or",
+    "choices": [
+     "either … nor",
+     "whether … or",
+     "both … and",
+     "neither … or"
+    ]
+   },
+   {
+    "question": "Choose the correct pair. ___ the cat ___ the dog was hungry.",
+    "answer": "Neither … nor",
+    "choices": [
+     "Either … nor",
+     "Whether … nor",
+     "Both … or",
+     "Neither … nor"
+    ]
+   },
+   {
+    "question": "Choose the correct pair. ___ Maya ___ Leo can come.",
+    "answer": "Both … and",
+    "choices": [
+     "Neither … or",
+     "Both … and",
+     "Not only … or",
+     "Either … nor"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCrFl",
+  "subject": "english",
+  "title": "Fill in the missing correlative conjunction",
+  "section": "Conjunctions",
+  "grades": [
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXCrFl5",
+   "engXCrFl6"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. She is not only smart ___ kind.",
+    "answer": "but also",
+    "choices": [
+     "or",
+     "nor",
+     "but also",
+     "and also not"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ Ana nor Ben was late.",
+    "answer": "Neither",
+    "choices": [
+     "Neither",
+     "Either",
+     "Both",
+     "Not only"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ the cat and the dog are asleep.",
+    "answer": "Both",
+    "choices": [
+     "Neither",
+     "Whether",
+     "Either",
+     "Both"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ he studies or he fails.",
+    "answer": "Either",
+    "choices": [
+     "Neither",
+     "Not only",
+     "Both",
+     "Either"
+    ]
+   },
+   {
+    "question": "Complete the sentence. You can ___ walk or take the bus.",
+    "answer": "either",
+    "choices": [
+     "both",
+     "whether",
+     "neither",
+     "either"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I can't decide ___ to read or to draw.",
+    "answer": "whether",
+    "choices": [
+     "neither",
+     "whether",
+     "both",
+     "either"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCNJ",
+  "subject": "english",
+  "title": "Conjunctions",
+  "section": "Conjunctions",
+  "grades": [
+   5
+  ],
+  "skillIds": [
+   "engCNJ5"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best conjunction: We can walk ___ we can take the bus.",
+    "answer": "or",
+    "choices": [
+     "so",
+     "because",
+     "but",
+     "or"
+    ]
+   },
+   {
+    "question": "Choose the best conjunction: It was raining, ___ we stayed inside.",
+    "answer": "so",
+    "choices": [
+     "or",
+     "so",
+     "but",
+     "although"
+    ]
+   },
+   {
+    "question": "Choose the best conjunction: I wanted to play outside, ___ it was raining.",
+    "answer": "but",
+    "choices": [
+     "but",
+     "so",
+     "because",
+     "and"
+    ]
+   },
+   {
+    "question": "Choose the best conjunction: She likes dogs ___ cats.",
+    "answer": "and",
+    "choices": [
+     "because",
+     "and",
+     "but",
+     "or"
+    ]
+   },
+   {
+    "question": "Choose the best conjunction: You can have tea ___ juice.",
+    "answer": "or",
+    "choices": [
+     "but",
+     "because",
+     "so",
+     "or"
+    ]
+   },
+   {
+    "question": "Choose the best conjunction: I stayed home ___ I felt sick.",
+    "answer": "because",
+    "choices": [
+     "or",
+     "although",
+     "because",
+     "but"
+    ]
+   },
+   {
+    "question": "Choose the best conjunction: ___ it was cold, we went swimming.",
+    "answer": "Although",
+    "choices": [
+     "Because",
+     "So",
+     "Although",
+     "Or"
+    ]
+   },
+   {
+    "question": "Choose the best conjunction: Take an umbrella ___ it rains.",
+    "answer": "in case",
+    "choices": [
+     "but",
+     "in case",
+     "and so",
+     "although"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCmCs",
+  "subject": "english",
+  "title": "Commas with compound and complex sentences",
+  "section": "Commas",
+  "grades": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCmCs5",
+   "engCmCs6",
+   "engCmCs7",
+   "engCmCs8",
+   "engCmCs9",
+   "engCmCs10",
+   "engCmCs11",
+   "engCmCs12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "Although he was tired, he finished the race.",
+    "choices": [
+     "Although he was tired he, finished the race.",
+     "Although he was tired he finished the race.",
+     "Although he was tired, he finished the race.",
+     "Although, he was tired he finished the race."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "I wanted to go, but the weather was bad.",
+    "choices": [
+     "I wanted to go but, the weather was bad.",
+     "I wanted, to go but the weather was bad.",
+     "I wanted to go but the weather was bad.",
+     "I wanted to go, but the weather was bad."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "Because it was late, we went home.",
+    "choices": [
+     "Because, it was late we went home.",
+     "Because it was late we went, home.",
+     "Because it was late, we went home.",
+     "Because it was late we went home."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "She packed her bag, and he locked the door.",
+    "choices": [
+     "She packed her bag and, he locked the door.",
+     "She packed her bag, and he locked the door.",
+     "She packed, her bag and he locked the door.",
+     "She packed her bag and he locked, the door."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "We stayed inside, and when the rain stopped, we went to the park.",
+    "choices": [
+     "We stayed inside, and when the rain stopped we went to the park.",
+     "We stayed inside and, when the rain stopped, we went to the park.",
+     "We stayed inside, and when the rain stopped, we went to the park.",
+     "We stayed inside and when the rain stopped we went to the park."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "I will help you if you ask.",
+    "choices": [
+     "I will help you if, you ask.",
+     "I will help you, if you ask.",
+     "I will help you if you ask.",
+     "I will help, you if you ask."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "We went home because it was late.",
+    "choices": [
+     "We went home because it was late.",
+     "We went, home because it was late.",
+     "We went home because, it was late.",
+     "We went home, because it was late."
+    ]
+   },
+   {
+    "question": "Which sentence uses commas correctly?",
+    "answer": "The team practised hard, so they won the game.",
+    "choices": [
+     "The team practised hard so, they won the game.",
+     "The team practised, hard so they won the game.",
+     "The team practised hard, so they won the game.",
+     "The team practised hard so they won the game."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engMNI",
+  "subject": "english",
+  "title": "Main idea of a passage",
+  "section": "Main idea",
+  "grades": [
+   6
+  ],
+  "skillIds": [
+   "engMNI6"
+  ],
+  "examples": [
+   {
+    "question": "Read the passage. Sleep is important for students. A rested brain remembers more and pays better attention. Tired students often make more mistakes and feel grumpy. What is the main idea?",
+    "answer": "Students need enough sleep to learn well.",
+    "choices": [
+     "Students need enough sleep to learn well.",
+     "Mistakes are bad.",
+     "Students are often grumpy.",
+     "Brains are complicated."
+    ]
+   },
+   {
+    "question": "Read the passage. Volcanoes form when melted rock, called magma, rises through cracks in the Earth. When pressure builds, the magma erupts as lava, ash and gas. Over time the lava cools and builds a mountain. What is the main idea?",
+    "answer": "Volcanoes form when magma erupts and cools.",
+    "choices": [
+     "Mountains are tall.",
+     "Volcanoes form when magma erupts and cools.",
+     "Lava is very hot.",
+     "Ash is dangerous."
+    ]
+   },
+   {
+    "question": "Read the passage. Recycling saves energy and resources. Making a can from recycled aluminum uses far less energy than making a new one. Recycling also keeps trash out of landfills. What is the main idea?",
+    "answer": "Recycling is good for the environment.",
+    "choices": [
+     "Landfills are full.",
+     "Recycling is good for the environment.",
+     "Everyone recycles.",
+     "Aluminum cans are hard to make."
+    ]
+   },
+   {
+    "question": "Read the passage. Honeybees live in colonies. The queen lays eggs, workers gather nectar and care for the young, and drones mate with the queen. Each bee has a job that helps the hive survive. What is the main idea?",
+    "answer": "Honeybees work together in a colony, each with a job.",
+    "choices": [
+     "Drones never leave the hive.",
+     "Honeybees make honey.",
+     "Honeybees work together in a colony, each with a job.",
+     "Queens are the largest bees."
+    ]
+   },
+   {
+    "question": "Read the passage. Octopuses are clever animals. They can open jars, escape from tanks, and use shells as hiding places. Scientists have watched them solve puzzles to get food. What is the main idea?",
+    "answer": "Octopuses are intelligent.",
+    "choices": [
+     "Octopuses live in tanks.",
+     "Octopuses love shells.",
+     "Scientists study puzzles.",
+     "Octopuses are intelligent."
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,2714 @@
+[
+ {
+  "key": "sciXsPlPF",
+  "subject": "science",
+  "title": "Identify plant parts and their functions",
+  "section": "Plants",
+  "grades": [
+   2,
+   3,
+   4,
+   6,
+   7
+  ],
+  "skillIds": [
+   "sciXsPlPF2",
+   "sciXsPlPF3",
+   "sciXsPlPF4",
+   "sciXsPlPF6",
+   "sciXsPlPF7"
+  ],
+  "examples": [
+   {
+    "question": "What do leaves do?",
+    "answer": "Use sunlight to make food for the plant",
+    "choices": [
+     "Make seeds",
+     "Carry pollen",
+     "Hold the plant in the ground",
+     "Use sunlight to make food for the plant"
+    ]
+   },
+   {
+    "question": "What does a stem do?",
+    "answer": "Carries water up to the leaves and holds the plant up",
+    "choices": [
+     "Attracts bees",
+     "Stores seeds",
+     "Carries water up to the leaves and holds the plant up",
+     "Makes food from soil"
+    ]
+   },
+   {
+    "question": "What does a fruit do?",
+    "answer": "Protects the seeds inside it",
+    "choices": [
+     "Holds up the plant",
+     "Catches sunlight",
+     "Protects the seeds inside it",
+     "Takes in water"
+    ]
+   },
+   {
+    "question": "Why are many flowers brightly coloured?",
+    "answer": "To attract insects and birds that carry pollen",
+    "choices": [
+     "To soak up water",
+     "To scare animals away",
+     "To attract insects and birds that carry pollen",
+     "To keep the plant warm"
+    ]
+   },
+   {
+    "question": "Which part protects seeds and helps spread them?",
+    "answer": "Fruit",
+    "choices": [
+     "Root",
+     "Leaf",
+     "Fruit",
+     "Stem"
+    ]
+   },
+   {
+    "question": "Which part of a plant absorbs water and minerals from the soil?",
+    "answer": "Roots",
+    "choices": [
+     "Flowers",
+     "Fruit",
+     "Roots",
+     "Leaves"
+    ]
+   },
+   {
+    "question": "What does a flower do?",
+    "answer": "Makes seeds",
+    "choices": [
+     "Takes in water",
+     "Makes seeds",
+     "Stores food in the ground",
+     "Holds the plant up"
+    ]
+   },
+   {
+    "question": "Which part of a plant makes food using sunlight?",
+    "answer": "Leaves",
+    "choices": [
+     "Seeds",
+     "Roots",
+     "Leaves",
+     "Stem"
+    ]
+   },
+   {
+    "question": "What does a root do?",
+    "answer": "Takes in water and holds the plant in place",
+    "choices": [
+     "Makes seeds",
+     "Makes flowers",
+     "Catches sunlight",
+     "Takes in water and holds the plant in place"
+    ]
+   },
+   {
+    "question": "What does a seed do?",
+    "answer": "Grows into a new plant",
+    "choices": [
+     "Carries water",
+     "Holds the plant in place",
+     "Makes food from sunlight",
+     "Grows into a new plant"
+    ]
+   },
+   {
+    "question": "Which part carries water from the roots to the leaves?",
+    "answer": "Stem",
+    "choices": [
+     "Stem",
+     "Seed",
+     "Fruit",
+     "Flower"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFPLC",
+  "subject": "science",
+  "title": "Read and construct flowering plant life cycle diagrams",
+  "section": "Plants",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsFPLC2",
+   "sciXsFPLC3"
+  ],
+  "examples": [
+   {
+    "question": "Which order is correct?",
+    "answer": "seed → seedling → adult plant → flower → fruit",
+    "choices": [
+     "fruit → flower → seedling → seed",
+     "seed → seedling → adult plant → flower → fruit",
+     "seedling → seed → fruit → flower",
+     "flower → seed → fruit → seedling → adult"
+    ]
+   },
+   {
+    "question": "What does a seedling need to grow into an adult plant?",
+    "answer": "Water, sunlight and nutrients",
+    "choices": [
+     "Water, sunlight and nutrients",
+     "Ice",
+     "Darkness only",
+     "Salt water"
+    ]
+   },
+   {
+    "question": "What comes after a seed sprouts?",
+    "answer": "Seedling",
+    "choices": [
+     "Seed",
+     "Flower",
+     "Seedling",
+     "Fruit"
+    ]
+   },
+   {
+    "question": "Why is a life cycle called a cycle?",
+    "answer": "It repeats over and over",
+    "choices": [
+     "It has wheels",
+     "It repeats over and over",
+     "It is round",
+     "It only happens once"
+    ]
+   },
+   {
+    "question": "What comes right after a seed germinates?",
+    "answer": "Seedling",
+    "choices": [
+     "Fruit",
+     "Pollination",
+     "Flower",
+     "Seedling"
+    ]
+   },
+   {
+    "question": "What is the correct order of a flowering plant's life cycle?",
+    "answer": "seed → seedling → adult plant → flower → fruit with seeds",
+    "choices": [
+     "fruit → flower → seed → seedling",
+     "seedling → seed → flower → adult",
+     "flower → seed → seedling → fruit",
+     "seed → seedling → adult plant → flower → fruit with seeds"
+    ]
+   },
+   {
+    "question": "What grows from a flower after it is pollinated?",
+    "answer": "Fruit with seeds",
+    "choices": [
+     "Fruit with seeds",
+     "A leaf",
+     "A root",
+     "A seedling"
+    ]
+   },
+   {
+    "question": "What happens to the seeds inside a fruit?",
+    "answer": "They can grow into new plants",
+    "choices": [
+     "They can grow into new plants",
+     "They become leaves",
+     "They disappear",
+     "They turn into flowers right away"
+    ]
+   },
+   {
+    "question": "What forms after a flower is pollinated?",
+    "answer": "Fruit with seeds",
+    "choices": [
+     "A new flower",
+     "Roots",
+     "Fruit with seeds",
+     "Leaves"
+    ]
+   },
+   {
+    "question": "What is the first stage of a flowering plant's life cycle?",
+    "answer": "Seed",
+    "choices": [
+     "Seed",
+     "Flower",
+     "Adult plant",
+     "Fruit"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFPNew",
+  "subject": "science",
+  "title": "How do flowering plants make new plants?",
+  "section": "Plants",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsFPNew2",
+   "sciXsFPNew3"
+  ],
+  "examples": [
+   {
+    "question": "What carries pollen from one flower to another?",
+    "answer": "Bees, birds, bats and wind",
+    "choices": [
+     "Bees, birds, bats and wind",
+     "Soil",
+     "Rocks",
+     "Snow"
+    ]
+   },
+   {
+    "question": "Where do seeds form in a flowering plant?",
+    "answer": "Inside the fruit",
+    "choices": [
+     "In the bark",
+     "In the roots",
+     "In the leaves",
+     "Inside the fruit"
+    ]
+   },
+   {
+    "question": "How do coconuts travel to new islands?",
+    "answer": "They float on ocean water",
+    "choices": [
+     "They float on ocean water",
+     "Squirrels bury them",
+     "Wind blows them",
+     "They stick to fur"
+    ]
+   },
+   {
+    "question": "How do burrs on a burdock plant spread seeds?",
+    "answer": "They stick to animal fur",
+    "choices": [
+     "They float on water",
+     "They stick to animal fur",
+     "They roll downhill",
+     "They explode"
+    ]
+   },
+   {
+    "question": "What must happen before a flower can make seeds?",
+    "answer": "Pollination",
+    "choices": [
+     "Erosion",
+     "Photosynthesis only",
+     "Pollination",
+     "Melting"
+    ]
+   },
+   {
+    "question": "How do flowering plants make new plants?",
+    "answer": "With seeds that form after pollination",
+    "choices": [
+     "With seeds that form after pollination",
+     "By laying eggs",
+     "By splitting in half",
+     "By growing from rocks"
+    ]
+   },
+   {
+    "question": "How do dandelion seeds travel?",
+    "answer": "The wind carries them on fluffy parachutes",
+    "choices": [
+     "Animals eat them",
+     "They stay under the parent",
+     "The wind carries them on fluffy parachutes",
+     "They sink in water"
+    ]
+   },
+   {
+    "question": "How do seeds get to new places?",
+    "answer": "Wind, water and animals carry them",
+    "choices": [
+     "They walk",
+     "They never move",
+     "Wind, water and animals carry them",
+     "They fly with wings of their own always"
+    ]
+   },
+   {
+    "question": "Why is it good for seeds to travel away from the parent plant?",
+    "answer": "They get more space, light and water",
+    "choices": [
+     "They need the parent's shade",
+     "They stay colder",
+     "They get less light",
+     "They get more space, light and water"
+    ]
+   },
+   {
+    "question": "What part of a flowering plant grows into a new plant?",
+    "answer": "The seed",
+    "choices": [
+     "The stem",
+     "The leaf",
+     "The petal",
+     "The seed"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTraitO",
+  "subject": "science",
+  "title": "Observe traits",
+  "section": "Traits",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsTraitO2"
+  ],
+  "examples": [
+   {
+    "question": "Which is a trait of a cactus?",
+    "answer": "Spines",
+    "choices": [
+     "Being in a pot",
+     "Spines",
+     "Living in my kitchen",
+     "Being a gift"
+    ]
+   },
+   {
+    "question": "Which is a trait of a zebra?",
+    "answer": "Black and white stripes",
+    "choices": [
+     "Eating grass",
+     "Living in Africa",
+     "Running from lions",
+     "Black and white stripes"
+    ]
+   },
+   {
+    "question": "Which is a trait of a plant?",
+    "answer": "Leaf shape",
+    "choices": [
+     "Its price",
+     "The pot it sits in",
+     "Who planted it",
+     "Leaf shape"
+    ]
+   },
+   {
+    "question": "Which trait can you observe on a bird?",
+    "answer": "Feather colour",
+    "choices": [
+     "Its age in years",
+     "Its favourite song",
+     "Feather colour",
+     "Its name"
+    ]
+   },
+   {
+    "question": "What is a trait?",
+    "answer": "A feature of a living thing, like eye colour or leaf shape",
+    "choices": [
+     "A feature of a living thing, like eye colour or leaf shape",
+     "A kind of weather",
+     "A place to live",
+     "A type of food"
+    ]
+   },
+   {
+    "question": "Which is a trait of a rabbit?",
+    "answer": "Long ears",
+    "choices": [
+     "Long ears",
+     "Living in a hutch",
+     "Eating a carrot today",
+     "Being named Snowy"
+    ]
+   },
+   {
+    "question": "Which trait describes a sunflower?",
+    "answer": "Large yellow petals",
+    "choices": [
+     "Large yellow petals",
+     "Being picked",
+     "Sitting in a vase",
+     "Getting watered"
+    ]
+   },
+   {
+    "question": "Which is an observable trait of a bird?",
+    "answer": "Beak shape",
+    "choices": [
+     "Its nest location",
+     "Beak shape",
+     "Its owner",
+     "What time it wakes"
+    ]
+   },
+   {
+    "question": "Which is a trait you can observe in a dog?",
+    "answer": "Fur colour",
+    "choices": [
+     "Its name",
+     "Its favourite toy",
+     "Its birthday",
+     "Fur colour"
+    ]
+   },
+   {
+    "question": "Which is a trait of a maple tree?",
+    "answer": "Leaves with pointed lobes",
+    "choices": [
+     "Leaves with pointed lobes",
+     "Being watered",
+     "Growing in a park",
+     "Losing a branch in a storm"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTraitC",
+  "subject": "science",
+  "title": "Observe and compare traits",
+  "section": "Traits",
+  "grades": [
+   2,
+   4
+  ],
+  "skillIds": [
+   "sciXsTraitC2",
+   "sciXsTraitC4"
+  ],
+  "examples": [
+   {
+    "question": "Two roses: one red, one white. Which trait is different?",
+    "answer": "Flower colour",
+    "choices": [
+     "Both have petals",
+     "Flower colour",
+     "They are both roses",
+     "Both have stems"
+    ]
+   },
+   {
+    "question": "Which trait could you compare between two sunflowers?",
+    "answer": "Height",
+    "choices": [
+     "Their prices",
+     "Height",
+     "Their names",
+     "Who owns them"
+    ]
+   },
+   {
+    "question": "Two kittens from the same litter have different fur colours. What does this show?",
+    "answer": "Offspring can vary",
+    "choices": [
+     "Offspring can vary",
+     "Kittens are different species",
+     "They have different parents",
+     "Fur colour is not a trait"
+    ]
+   },
+   {
+    "question": "How are a puppy and its parent most alike?",
+    "answer": "They have similar body shape and features",
+    "choices": [
+     "They have identical fur",
+     "They are the same age",
+     "They have similar body shape and features",
+     "They are the same size"
+    ]
+   },
+   {
+    "question": "Two kittens from the same litter look different. Which trait could differ?",
+    "answer": "Fur pattern",
+    "choices": [
+     "Fur pattern",
+     "Being cats",
+     "Number of legs",
+     "Having whiskers"
+    ]
+   },
+   {
+    "question": "How is a duckling different from an adult duck?",
+    "answer": "It is smaller and fluffy",
+    "choices": [
+     "It is smaller and fluffy",
+     "It has fur",
+     "It is a different animal",
+     "It has four legs"
+    ]
+   },
+   {
+    "question": "Which trait do all birds share?",
+    "answer": "Feathers",
+    "choices": [
+     "The same size",
+     "The same colour",
+     "The same song",
+     "Feathers"
+    ]
+   },
+   {
+    "question": "How are a puppy and its mother alike?",
+    "answer": "They have the same fur colour and floppy ears",
+    "choices": [
+     "They have the same name",
+     "They are the same age",
+     "They are the same size",
+     "They have the same fur colour and floppy ears"
+    ]
+   },
+   {
+    "question": "Two pine trees have needles, but one is much taller. What trait is different?",
+    "answer": "Height",
+    "choices": [
+     "Height",
+     "Having needles",
+     "Having bark",
+     "Being a tree"
+    ]
+   },
+   {
+    "question": "How are an oak seedling and an oak tree alike?",
+    "answer": "Same shape of leaves",
+    "choices": [
+     "Same height",
+     "Same number of acorns",
+     "Same age",
+     "Same shape of leaves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAdapt",
+  "subject": "science",
+  "title": "Introduction to adaptations",
+  "section": "Traits",
+  "grades": [
+   2,
+   4
+  ],
+  "skillIds": [
+   "sciXsAdapt2",
+   "sciXsAdapt4"
+  ],
+  "examples": [
+   {
+    "question": "How does a cactus's thick stem help it survive?",
+    "answer": "It stores water in a dry desert",
+    "choices": [
+     "It stores water in a dry desert",
+     "It keeps it warm in snow",
+     "It attracts fish",
+     "It helps it swim"
+    ]
+   },
+   {
+    "question": "How do a duck's webbed feet help it?",
+    "answer": "They help it swim",
+    "choices": [
+     "They keep it cool",
+     "They help it swim",
+     "They help it dig",
+     "They help it climb"
+    ]
+   },
+   {
+    "question": "How does a snowshoe hare's white winter fur help it?",
+    "answer": "It blends in with the snow",
+    "choices": [
+     "It keeps it cool",
+     "It makes it faster",
+     "It blends in with the snow",
+     "It helps it swim"
+    ]
+   },
+   {
+    "question": "How do long ears help a desert fox?",
+    "answer": "They let heat escape to keep it cool",
+    "choices": [
+     "They keep it warm",
+     "They help it swim",
+     "They store water",
+     "They let heat escape to keep it cool"
+    ]
+   },
+   {
+    "question": "What is an adaptation?",
+    "answer": "A trait that helps a living thing survive in its habitat",
+    "choices": [
+     "A kind of weather",
+     "A toy",
+     "A type of food",
+     "A trait that helps a living thing survive in its habitat"
+    ]
+   },
+   {
+    "question": "How does a duck's oily feathers help it?",
+    "answer": "They keep it dry in water",
+    "choices": [
+     "They make it heavier",
+     "They help it run",
+     "They help it dig",
+     "They keep it dry in water"
+    ]
+   },
+   {
+    "question": "How do a skunk's smelly spray help it?",
+    "answer": "It scares away predators",
+    "choices": [
+     "It scares away predators",
+     "It helps it climb",
+     "It finds food",
+     "It keeps it warm"
+    ]
+   },
+   {
+    "question": "How does a polar bear's white fur help it?",
+    "answer": "It blends in with snow",
+    "choices": [
+     "It keeps it cool",
+     "It blends in with snow",
+     "It helps it climb trees",
+     "It helps it see"
+    ]
+   },
+   {
+    "question": "What is an adaptation?",
+    "answer": "A trait that helps a living thing survive in its environment",
+    "choices": [
+     "A trait that helps a living thing survive in its environment",
+     "A toy",
+     "A type of rock",
+     "A kind of weather"
+    ]
+   },
+   {
+    "question": "How do an eagle's sharp eyes help it?",
+    "answer": "It can spot food from far away",
+    "choices": [
+     "It can see underwater only",
+     "It can spot food from far away",
+     "It can smell better",
+     "It can see in total darkness"
+    ]
+   },
+   {
+    "question": "How does a cactus's waxy skin help it?",
+    "answer": "It keeps water from escaping",
+    "choices": [
+     "It keeps water from escaping",
+     "It keeps it cold",
+     "It attracts bees",
+     "It helps it float"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciHAB",
+  "subject": "science",
+  "title": "Animal habitats",
+  "section": "Ecosystems",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciHAB2"
+  ],
+  "examples": [
+   {
+    "question": "Where does a deer live?",
+    "answer": "Forest",
+    "choices": [
+     "Forest",
+     "Ocean",
+     "Polar region",
+     "Desert"
+    ]
+   },
+   {
+    "question": "Where does a whale live?",
+    "answer": "Ocean",
+    "choices": [
+     "Forest",
+     "Ocean",
+     "Desert",
+     "Polar region"
+    ]
+   },
+   {
+    "question": "Where does a seal live?",
+    "answer": "Polar region",
+    "choices": [
+     "Ocean",
+     "Desert",
+     "Polar region",
+     "Forest"
+    ]
+   },
+   {
+    "question": "Where does a camel live?",
+    "answer": "Desert",
+    "choices": [
+     "Forest",
+     "Desert",
+     "Polar region",
+     "Ocean"
+    ]
+   },
+   {
+    "question": "Where does a scorpion live?",
+    "answer": "Desert",
+    "choices": [
+     "Ocean",
+     "Polar region",
+     "Forest",
+     "Desert"
+    ]
+   },
+   {
+    "question": "Where does a clownfish live?",
+    "answer": "Ocean",
+    "choices": [
+     "Desert",
+     "Ocean",
+     "Forest",
+     "Polar region"
+    ]
+   },
+   {
+    "question": "Where does a penguin live?",
+    "answer": "Polar region",
+    "choices": [
+     "Polar region",
+     "Forest",
+     "Desert",
+     "Ocean"
+    ]
+   },
+   {
+    "question": "Where does a cactus live?",
+    "answer": "Desert",
+    "choices": [
+     "Ocean",
+     "Polar region",
+     "Forest",
+     "Desert"
+    ]
+   },
+   {
+    "question": "Where does a owl live?",
+    "answer": "Forest",
+    "choices": [
+     "Desert",
+     "Ocean",
+     "Forest",
+     "Polar region"
+    ]
+   },
+   {
+    "question": "Where does a polar bear live?",
+    "answer": "Polar region",
+    "choices": [
+     "Polar region",
+     "Ocean",
+     "Desert",
+     "Forest"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWaterE",
+  "subject": "science",
+  "title": "Water on Earth",
+  "section": "Earth's features",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsWaterE2",
+   "sciXsWaterE3"
+  ],
+  "examples": [
+   {
+    "question": "Where is most of Earth's water found?",
+    "answer": "In the oceans",
+    "choices": [
+     "In the oceans",
+     "In clouds",
+     "In rivers",
+     "In lakes"
+    ]
+   },
+   {
+    "question": "Can people drink ocean water safely?",
+    "answer": "No, it is too salty",
+    "choices": [
+     "Only at night",
+     "No, it is too salty",
+     "Yes, always",
+     "Only cold ocean water"
+    ]
+   },
+   {
+    "question": "Where is most of Earth's fresh water?",
+    "answer": "Frozen in glaciers and ice caps",
+    "choices": [
+     "In oceans",
+     "Frozen in glaciers and ice caps",
+     "In the air",
+     "In puddles"
+    ]
+   },
+   {
+    "question": "What is a pond?",
+    "answer": "A small, still body of fresh water",
+    "choices": [
+     "A small, still body of fresh water",
+     "A flowing river",
+     "A huge salty ocean",
+     "A frozen glacier"
+    ]
+   },
+   {
+    "question": "What is a river?",
+    "answer": "Water that flows across land toward a lake or ocean",
+    "choices": [
+     "Water that flows across land toward a lake or ocean",
+     "A still body of water",
+     "Frozen water",
+     "A small salty sea"
+    ]
+   },
+   {
+    "question": "What is a glacier?",
+    "answer": "A huge, slow-moving body of ice",
+    "choices": [
+     "A huge, slow-moving body of ice",
+     "A sandy beach",
+     "A warm river",
+     "A cloud"
+    ]
+   },
+   {
+    "question": "Which water is fresh water?",
+    "answer": "A lake",
+    "choices": [
+     "A sea",
+     "A lake",
+     "An ocean",
+     "Salt marsh water"
+    ]
+   },
+   {
+    "question": "Which body of water is salty?",
+    "answer": "The Atlantic Ocean",
+    "choices": [
+     "The Ottawa River",
+     "Lake Superior",
+     "A pond",
+     "The Atlantic Ocean"
+    ]
+   },
+   {
+    "question": "Is ocean water salt water or fresh water?",
+    "answer": "Salt water",
+    "choices": [
+     "Fresh water",
+     "Salt water"
+    ]
+   },
+   {
+    "question": "Which body of water is fresh water?",
+    "answer": "A lake",
+    "choices": [
+     "An ocean",
+     "A salt marsh",
+     "A lake",
+     "A sea"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLandF",
+  "subject": "science",
+  "title": "Identify Earth's land features",
+  "section": "Earth's features",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsLandF2",
+   "sciXsLandF3"
+  ],
+  "examples": [
+   {
+    "question": "Land surrounded by water on all sides is an…",
+    "answer": "island",
+    "choices": [
+     "valley",
+     "peninsula",
+     "island",
+     "canyon"
+    ]
+   },
+   {
+    "question": "Low land between hills or mountains is a…",
+    "answer": "valley",
+    "choices": [
+     "mountain",
+     "peninsula",
+     "valley",
+     "plateau"
+    ]
+   },
+   {
+    "question": "Wide, flat land is a…",
+    "answer": "plain",
+    "choices": [
+     "canyon",
+     "hill",
+     "plain",
+     "mountain"
+    ]
+   },
+   {
+    "question": "A deep valley with steep sides carved by a river is a…",
+    "answer": "canyon",
+    "choices": [
+     "island",
+     "canyon",
+     "plateau",
+     "plain"
+    ]
+   },
+   {
+    "question": "A very tall landform with a peak is a…",
+    "answer": "mountain",
+    "choices": [
+     "valley",
+     "island",
+     "plain",
+     "mountain"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsChES",
+  "subject": "science",
+  "title": "Classify changes to Earth's surface",
+  "section": "Earth events",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsChES2",
+   "sciXsChES13",
+   "sciXsChES23"
+  ],
+  "examples": [
+   {
+    "question": "Is this change to Earth's surface fast or slow? ⛰️ a landslide",
+    "answer": "Fast change",
+    "choices": [
+     "Slow change",
+     "Fast change"
+    ]
+   },
+   {
+    "question": "Is this change to Earth's surface fast or slow? 🌍 an earthquake cracks the ground",
+    "answer": "Fast change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this change to Earth's surface fast or slow? 🧊 a glacier moves",
+    "answer": "Slow change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this change to Earth's surface fast or slow? 🏞️ a river carves a canyon",
+    "answer": "Slow change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this change to Earth's surface fast or slow? 🌊 waves wear away a cliff over years",
+    "answer": "Slow change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this change to Earth's surface fast or slow? 🌋 a volcano erupts",
+    "answer": "Fast change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsEvChE",
+  "subject": "science",
+  "title": "Find evidence of changes to Earth's surface",
+  "section": "Earth events",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsEvChE2",
+   "sciXsEvChE3"
+  ],
+  "examples": [
+   {
+    "question": "A field is covered in new grey rock that was not there last year. What probably happened?",
+    "answer": "A volcano erupted nearby",
+    "choices": [
+     "It rained a lot",
+     "The wind blew",
+     "A volcano erupted nearby",
+     "A tree grew"
+    ]
+   },
+   {
+    "question": "Scratches are found on bedrock in Ontario. What made them long ago?",
+    "answer": "Moving glaciers",
+    "choices": [
+     "Earthquakes",
+     "Rivers of lava",
+     "Volcanoes",
+     "Moving glaciers"
+    ]
+   },
+   {
+    "question": "What evidence shows that a river has worn away rock over time?",
+    "answer": "A deep canyon",
+    "choices": [
+     "A sunny sky",
+     "A deep canyon",
+     "A puddle",
+     "A tall tree"
+    ]
+   },
+   {
+    "question": "Smooth, rounded rocks are found in a stream. What smoothed them?",
+    "answer": "Flowing water",
+    "choices": [
+     "Flowing water",
+     "Lightning",
+     "Fire",
+     "Animals"
+    ]
+   },
+   {
+    "question": "Sand dunes have moved across a road. What caused this?",
+    "answer": "Wind",
+    "choices": [
+     "Volcanoes",
+     "Wind",
+     "Ice",
+     "Earthquakes"
+    ]
+   },
+   {
+    "question": "A road has a long crack after the ground shook. What is this evidence of?",
+    "answer": "An earthquake",
+    "choices": [
+     "A drought",
+     "A rainbow",
+     "A tornado",
+     "An earthquake"
+    ]
+   },
+   {
+    "question": "A river bank has fallen into the water. What is the evidence of?",
+    "answer": "Erosion",
+    "choices": [
+     "Pollination",
+     "A volcano",
+     "Freezing",
+     "Erosion"
+    ]
+   },
+   {
+    "question": "What evidence shows a glacier was once in a valley?",
+    "answer": "A U-shaped valley and scattered boulders",
+    "choices": [
+     "A cactus",
+     "A U-shaped valley and scattered boulders",
+     "A sandy beach",
+     "A volcano"
+    ]
+   },
+   {
+    "question": "A beach is narrower after a winter of storms. What is the evidence of?",
+    "answer": "Wave erosion",
+    "choices": [
+     "Plants growing",
+     "A volcano",
+     "Wave erosion",
+     "Snow melting"
+    ]
+   },
+   {
+    "question": "What evidence shows a volcano erupted long ago?",
+    "answer": "Hardened lava rock",
+    "choices": [
+     "Fresh snow",
+     "Green grass",
+     "A rainbow",
+     "Hardened lava rock"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsQuake",
+  "subject": "science",
+  "title": "Changes to Earth's surface: earthquakes",
+  "section": "Earth events",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciXsQuake2",
+   "sciXsQuake3",
+   "sciXsQuake4"
+  ],
+  "examples": [
+   {
+    "question": "What can an earthquake do to Earth's surface?",
+    "answer": "Crack the ground and cause landslides",
+    "choices": [
+     "Make rainbows",
+     "Crack the ground and cause landslides",
+     "Grow trees",
+     "Make snow"
+    ]
+   },
+   {
+    "question": "Which part of Canada has the most earthquakes?",
+    "answer": "The west coast of British Columbia",
+    "choices": [
+     "Nunavut",
+     "The prairies",
+     "The west coast of British Columbia",
+     "Central Ontario"
+    ]
+   },
+   {
+    "question": "What can an earthquake under the ocean cause?",
+    "answer": "A tsunami",
+    "choices": [
+     "A drought",
+     "A rainbow",
+     "A tsunami",
+     "A blizzard"
+    ]
+   },
+   {
+    "question": "What is an earthquake?",
+    "answer": "A sudden shaking of the ground",
+    "choices": [
+     "Melting rock",
+     "A sudden shaking of the ground",
+     "A big wave",
+     "A spinning wind"
+    ]
+   },
+   {
+    "question": "What happens during an earthquake?",
+    "answer": "The ground shakes suddenly",
+    "choices": [
+     "Lava flows out",
+     "Snow falls",
+     "Wind blows",
+     "The ground shakes suddenly"
+    ]
+   },
+   {
+    "question": "Where do many earthquakes happen?",
+    "answer": "Where pieces of Earth's crust meet",
+    "choices": [
+     "Only in cities",
+     "Only in oceans",
+     "Where pieces of Earth's crust meet",
+     "Only in deserts"
+    ]
+   },
+   {
+    "question": "What causes earthquakes?",
+    "answer": "Sudden movement of rocks deep underground",
+    "choices": [
+     "Strong winds",
+     "The Moon",
+     "Heavy rain",
+     "Sudden movement of rocks deep underground"
+    ]
+   },
+   {
+    "question": "Is an earthquake a fast or slow change to the land?",
+    "answer": "Fast",
+    "choices": [
+     "It never changes the land",
+     "Slow",
+     "It takes millions of years",
+     "Fast"
+    ]
+   },
+   {
+    "question": "Is an earthquake a fast or slow change?",
+    "answer": "Fast",
+    "choices": [
+     "Slow",
+     "Fast"
+    ]
+   },
+   {
+    "question": "What should you do during an earthquake?",
+    "answer": "Drop, cover and hold on",
+    "choices": [
+     "Run outside past windows",
+     "Drop, cover and hold on",
+     "Stand in an elevator",
+     "Stand near shelves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsVolc",
+  "subject": "science",
+  "title": "Changes to Earth's surface: volcanic eruptions",
+  "section": "Earth events",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciXsVolc2",
+   "sciXsVolc3",
+   "sciXsVolc4"
+  ],
+  "examples": [
+   {
+    "question": "Which islands were made by volcanoes?",
+    "answer": "The Hawaiian Islands",
+    "choices": [
+     "Prince Edward Island",
+     "Baffin Island",
+     "The Hawaiian Islands",
+     "Newfoundland"
+    ]
+   },
+   {
+    "question": "How can a volcano change the land?",
+    "answer": "It can build new land and mountains",
+    "choices": [
+     "It makes rivers longer",
+     "It can build new land and mountains",
+     "It grows trees instantly",
+     "It freezes lakes"
+    ]
+   },
+   {
+    "question": "Which Canadian province has volcanoes that erupted in the last few thousand years?",
+    "answer": "British Columbia",
+    "choices": [
+     "Manitoba",
+     "New Brunswick",
+     "Prince Edward Island",
+     "British Columbia"
+    ]
+   },
+   {
+    "question": "What comes out of a volcano when it erupts?",
+    "answer": "Lava, ash and gas",
+    "choices": [
+     "Snow",
+     "Fresh water",
+     "Sand only",
+     "Lava, ash and gas"
+    ]
+   },
+   {
+    "question": "What is lava?",
+    "answer": "Melted rock on Earth's surface",
+    "choices": [
+     "Hot water",
+     "Mud",
+     "Melted rock on Earth's surface",
+     "Ice"
+    ]
+   },
+   {
+    "question": "How can a volcano change Earth's surface?",
+    "answer": "Lava cools into new rock and can build mountains or islands",
+    "choices": [
+     "It makes snow",
+     "It plants forests",
+     "It makes rivers disappear forever",
+     "Lava cools into new rock and can build mountains or islands"
+    ]
+   },
+   {
+    "question": "What can volcanic ash do?",
+    "answer": "Cover land, block sunlight and harm crops",
+    "choices": [
+     "Cover land, block sunlight and harm crops",
+     "Make plants grow instantly",
+     "Make it rain chocolate",
+     "Nothing"
+    ]
+   },
+   {
+    "question": "How can scientists tell a volcano might erupt soon?",
+    "answer": "Small earthquakes and gases increase",
+    "choices": [
+     "Small earthquakes and gases increase",
+     "Birds sing",
+     "It gets colder",
+     "Trees grow faster"
+    ]
+   },
+   {
+    "question": "What happens to lava when it cools?",
+    "answer": "It hardens into rock",
+    "choices": [
+     "It turns into gas",
+     "It turns to water",
+     "It hardens into rock",
+     "It becomes sand instantly"
+    ]
+   },
+   {
+    "question": "Is a volcanic eruption a fast or slow change?",
+    "answer": "Fast",
+    "choices": [
+     "Fast",
+     "Slow",
+     "It never changes the land",
+     "It takes millions of years"
+    ]
+   },
+   {
+    "question": "What is magma?",
+    "answer": "Melted rock below Earth's surface",
+    "choices": [
+     "Melted rock below Earth's surface",
+     "Hot water",
+     "Cooled lava",
+     "Volcanic ash"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsEros",
+  "subject": "science",
+  "title": "Changes to Earth's surface: erosion",
+  "section": "Earth events",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciXsEros2",
+   "sciXsEros3",
+   "sciXsEros4"
+  ],
+  "examples": [
+   {
+    "question": "Which can cause erosion?",
+    "answer": "Flowing water",
+    "choices": [
+     "Silence",
+     "Moonlight",
+     "Sunlight alone",
+     "Flowing water"
+    ]
+   },
+   {
+    "question": "How does wind erode the land?",
+    "answer": "It blows sand and soil away",
+    "choices": [
+     "It blows sand and soil away",
+     "It makes rocks bigger",
+     "It plants seeds only",
+     "It freezes soil"
+    ]
+   },
+   {
+    "question": "What is erosion?",
+    "answer": "The carrying away of soil and rock by water, wind or ice",
+    "choices": [
+     "The carrying away of soil and rock by water, wind or ice",
+     "The eruption of a volcano",
+     "The shaking of the ground",
+     "The melting of snow only"
+    ]
+   },
+   {
+    "question": "A muddy hillside loses soil after a heavy rain. What happened?",
+    "answer": "Water erosion",
+    "choices": [
+     "A volcano",
+     "Water erosion",
+     "Pollination",
+     "Freezing"
+    ]
+   },
+   {
+    "question": "What can cause erosion on a beach?",
+    "answer": "Waves",
+    "choices": [
+     "Cold air",
+     "Seagulls sleeping",
+     "Waves",
+     "Sunlight only"
+    ]
+   },
+   {
+    "question": "How can people reduce erosion on a hill?",
+    "answer": "Plant grass and trees",
+    "choices": [
+     "Dig it up",
+     "Plant grass and trees",
+     "Pour water on it",
+     "Remove all plants"
+    ]
+   },
+   {
+    "question": "How can plants help stop erosion?",
+    "answer": "Their roots hold the soil in place",
+    "choices": [
+     "Their roots hold the soil in place",
+     "They blow soil away",
+     "They melt rocks",
+     "They make more rain"
+    ]
+   },
+   {
+    "question": "What is erosion?",
+    "answer": "Wind or water carrying away rock and soil",
+    "choices": [
+     "Rock melting into lava",
+     "Snow falling",
+     "Wind or water carrying away rock and soil",
+     "Plants growing"
+    ]
+   },
+   {
+    "question": "What carved the Grand Canyon over millions of years?",
+    "answer": "The Colorado River",
+    "choices": [
+     "The Colorado River",
+     "An earthquake",
+     "A volcano",
+     "Wind from one storm"
+    ]
+   },
+   {
+    "question": "Is erosion usually fast or slow?",
+    "answer": "Usually slow, over many years",
+    "choices": [
+     "It never happens",
+     "Always instant",
+     "Only at night",
+     "Usually slow, over many years"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSurfCh",
+  "subject": "science",
+  "title": "Fast and slow changes to Earth's surface",
+  "section": "Earth events",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciSurfCh2",
+   "sciSurfCh3",
+   "sciSurfCh4"
+  ],
+  "examples": [
+   {
+    "question": "Is this a fast or slow change to Earth's surface? Wind wears down a rock.",
+    "answer": "Slow change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this a fast or slow change to Earth's surface? A landslide slides down a hill.",
+    "answer": "Fast change",
+    "choices": [
+     "Slow change",
+     "Fast change"
+    ]
+   },
+   {
+    "question": "Is this a fast or slow change to Earth's surface? A volcano erupts.",
+    "answer": "Fast change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this a fast or slow change to Earth's surface? A flood washes away a riverbank.",
+    "answer": "Fast change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this a fast or slow change to Earth's surface? A river carves a canyon.",
+    "answer": "Slow change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this a fast or slow change to Earth's surface? Waves shape a beach.",
+    "answer": "Slow change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   },
+   {
+    "question": "Is this a fast or slow change to Earth's surface? A glacier moves through a valley.",
+    "answer": "Slow change",
+    "choices": [
+     "Slow change",
+     "Fast change"
+    ]
+   },
+   {
+    "question": "Is this a fast or slow change to Earth's surface? An earthquake cracks the ground.",
+    "answer": "Fast change",
+    "choices": [
+     "Fast change",
+     "Slow change"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDesEros",
+  "subject": "science",
+  "title": "Evaluate multiple design solutions to prevent erosion",
+  "section": "Engineering practices",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "sciXsDesEros3"
+  ],
+  "examples": [
+   {
+    "question": "Which design best protects a hillside from water erosion?",
+    "answer": "Planting grass and shrubs with deep roots",
+    "choices": [
+     "Adding loose sand",
+     "Removing all plants",
+     "Planting grass and shrubs with deep roots",
+     "Painting the hill"
+    ]
+   },
+   {
+    "question": "Why do builders put rocks (riprap) along shorelines?",
+    "answer": "Rocks absorb wave energy and protect the soil",
+    "choices": [
+     "Rocks absorb wave energy and protect the soil",
+     "Rocks make waves bigger",
+     "Rocks attract fish",
+     "Rocks melt ice"
+    ]
+   },
+   {
+    "question": "What is a drawback of building a concrete seawall?",
+    "answer": "It is expensive and can erode the beach in front of it",
+    "choices": [
+     "It makes the ocean salty",
+     "It is expensive and can erode the beach in front of it",
+     "There are no drawbacks",
+     "It causes earthquakes"
+    ]
+   },
+   {
+    "question": "A farm field loses soil to wind. Which solution helps most?",
+    "answer": "Plant rows of trees as windbreaks",
+    "choices": [
+     "Leave the field bare",
+     "Plough it more often",
+     "Remove the fences",
+     "Plant rows of trees as windbreaks"
+    ]
+   },
+   {
+    "question": "A town tests two retaining walls. Wall A lost 2 kg of soil, Wall B lost 9 kg. Which worked better?",
+    "answer": "Wall A",
+    "choices": [
+     "Wall A",
+     "Wall B",
+     "They worked equally"
+    ]
+   },
+   {
+    "question": "Which design best slows water running down a steep path?",
+    "answer": "Build steps or small barriers across the path",
+    "choices": [
+     "Make the path steeper",
+     "Build steps or small barriers across the path",
+     "Remove all plants",
+     "Make the path smoother"
+    ]
+   },
+   {
+    "question": "A school tests three hillside coverings. Mulch lost 1 kg of soil, bare dirt lost 8 kg, grass lost 0.5 kg. Which worked best?",
+    "answer": "Grass",
+    "choices": [
+     "They were equal",
+     "Mulch",
+     "Bare dirt",
+     "Grass"
+    ]
+   },
+   {
+    "question": "Which plan best protects a riverbank from erosion?",
+    "answer": "Plant shrubs and grasses along the bank",
+    "choices": [
+     "Pave the bank with sand",
+     "Dig the bank steeper",
+     "Remove all the plants",
+     "Plant shrubs and grasses along the bank"
+    ]
+   },
+   {
+    "question": "Which design protects a beach from wave erosion?",
+    "answer": "Building a seawall or rock barrier",
+    "choices": [
+     "Cutting down beach grass",
+     "Digging holes",
+     "Removing dunes",
+     "Building a seawall or rock barrier"
+    ]
+   },
+   {
+    "question": "How can terraces on a hillside help?",
+    "answer": "They make flat steps that slow water and hold soil",
+    "choices": [
+     "They speed up runoff",
+     "They make flat steps that slow water and hold soil",
+     "They add sand",
+     "They make the hill steeper"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDesFlood",
+  "subject": "science",
+  "title": "Evaluate multiple design solutions to prevent flooding",
+  "section": "Engineering practices",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsDesFlood3",
+   "sciXsDesFlood4",
+   "sciXsDesFlood5"
+  ],
+  "examples": [
+   {
+    "question": "How do wetlands help reduce flooding?",
+    "answer": "They soak up extra water like a sponge",
+    "choices": [
+     "They add more rain",
+     "They make rivers faster",
+     "They block sunlight",
+     "They soak up extra water like a sponge"
+    ]
+   },
+   {
+    "question": "Which material is best for sandbags in a flood?",
+    "answer": "Sand or soil in strong bags",
+    "choices": [
+     "Cotton bags of sugar",
+     "Sand or soil in strong bags",
+     "Plastic bags of air",
+     "Paper bags of feathers"
+    ]
+   },
+   {
+    "question": "Which design lets rain soak into the ground instead of running off?",
+    "answer": "Permeable pavement",
+    "choices": [
+     "Permeable pavement",
+     "Metal roofs",
+     "Plastic sheets",
+     "Concrete parking lots"
+    ]
+   },
+   {
+    "question": "A town is building a flood barrier. Barrier A cost $2 million and held back water 3 m high. Barrier B cost $1 million and held back 1 m. Floods there reach 2.5 m. Which should the town choose?",
+    "answer": "Barrier A",
+    "choices": [
+     "Both are too strong",
+     "Barrier B",
+     "Neither",
+     "Barrier A"
+    ]
+   },
+   {
+    "question": "Which plan protects homes from river floods?",
+    "answer": "Build homes on higher ground away from the river",
+    "choices": [
+     "Fill in the wetlands",
+     "Build homes on higher ground away from the river",
+     "Remove the levees",
+     "Build homes on the riverbank"
+    ]
+   },
+   {
+    "question": "Why can paving over fields increase flooding?",
+    "answer": "Water cannot soak into pavement, so it runs off",
+    "choices": [
+     "Pavement absorbs too much water",
+     "Water cannot soak into pavement, so it runs off",
+     "Pavement makes it rain",
+     "It doesn't affect flooding"
+    ]
+   },
+   {
+    "question": "Which solution helps prevent a river from flooding a town?",
+    "answer": "Building a levee along the river",
+    "choices": [
+     "Removing wetlands",
+     "Narrowing the river",
+     "Building a levee along the river",
+     "Paving more land"
+    ]
+   },
+   {
+    "question": "Why do some cities build large underground tanks?",
+    "answer": "To store storm water so streets don't flood",
+    "choices": [
+     "To store drinking juice",
+     "To grow plants",
+     "To make lakes",
+     "To store storm water so streets don't flood"
+    ]
+   },
+   {
+    "question": "What is a disadvantage of building a dam to prevent floods?",
+    "answer": "It floods the land upstream and changes the river habitat",
+    "choices": [
+     "It has no disadvantages",
+     "It floods the land upstream and changes the river habitat",
+     "It makes the river cleaner",
+     "It stops all rain"
+    ]
+   },
+   {
+    "question": "How do rain gardens help prevent flooding?",
+    "answer": "They soak up rainwater from roofs and streets",
+    "choices": [
+     "They block rivers completely",
+     "They make rain fall faster",
+     "They soak up rainwater from roofs and streets",
+     "They store gasoline"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsDesHurr",
+  "subject": "science",
+  "title": "Identify the best design solution to prevent hurricane damage",
+  "section": "Engineering practices",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "sciXsDesHurr3",
+   "sciXsDesHurr4",
+   "sciXsDesHurr5"
+  ],
+  "examples": [
+   {
+    "question": "How do mangrove forests help protect coasts from hurricanes?",
+    "answer": "Their roots slow waves and storm surge",
+    "choices": [
+     "Their roots slow waves and storm surge",
+     "They make hurricanes stronger",
+     "They attract lightning",
+     "They have no effect"
+    ]
+   },
+   {
+    "question": "Which roof design survives hurricane winds best?",
+    "answer": "A hip roof that slopes on all four sides and is strapped down",
+    "choices": [
+     "A hip roof that slopes on all four sides and is strapped down",
+     "A flat roof with no straps",
+     "A roof made of tarps",
+     "A loose shingle roof"
+    ]
+   },
+   {
+    "question": "Which garage door design is safest in a hurricane?",
+    "answer": "A reinforced door rated for high winds",
+    "choices": [
+     "A cloth curtain",
+     "A reinforced door rated for high winds",
+     "A thin metal door",
+     "An open garage"
+    ]
+   },
+   {
+    "question": "Which building material holds up best to hurricane winds?",
+    "answer": "Reinforced concrete",
+    "choices": [
+     "Straw",
+     "Thin plastic",
+     "Reinforced concrete",
+     "Cardboard"
+    ]
+   },
+   {
+    "question": "Why are new homes near the coast built on raised foundations?",
+    "answer": "To stay above storm surge",
+    "choices": [
+     "To get a better view only",
+     "To stay above storm surge",
+     "To catch more wind",
+     "To stay cooler"
+    ]
+   },
+   {
+    "question": "Why are houses near the coast built on stilts?",
+    "answer": "To stay above storm surge flooding",
+    "choices": [
+     "To catch more wind",
+     "To look taller",
+     "To stay above storm surge flooding",
+     "To be closer to the sun"
+    ]
+   },
+   {
+    "question": "Why should outdoor furniture be brought inside before a hurricane?",
+    "answer": "Strong winds can throw it into buildings",
+    "choices": [
+     "It attracts fish",
+     "It is too heavy to blow away",
+     "It might get sunburned",
+     "Strong winds can throw it into buildings"
+    ]
+   },
+   {
+    "question": "Which roof design holds up best in strong winds?",
+    "answer": "A roof firmly strapped to the walls",
+    "choices": [
+     "A roof made of cloth",
+     "No roof",
+     "A roof firmly strapped to the walls",
+     "A roof resting loosely on top"
+    ]
+   },
+   {
+    "question": "Which design best protects windows during a hurricane?",
+    "answer": "Storm shutters",
+    "choices": [
+     "Storm shutters",
+     "Thin curtains",
+     "Open windows",
+     "Paper covers"
+    ]
+   },
+   {
+    "question": "What is the best way to protect windows before a hurricane?",
+    "answer": "Install hurricane shutters or plywood",
+    "choices": [
+     "Install hurricane shutters or plywood",
+     "Open the windows",
+     "Tape an X on them",
+     "Leave curtains open"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciEngDP",
+  "subject": "science",
+  "title": "Identify parts of the engineering-design process",
+  "section": "Engineering practices",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "sciEngDP3",
+   "sciEngDP4",
+   "sciEngDP5",
+   "sciEngDP6",
+   "sciEngDP7",
+   "sciEngDP8",
+   "sciEngDP9"
+  ],
+  "examples": [
+   {
+    "question": "Which step of the engineering-design process is this? After the test, they add more padding to fix the weak spot.",
+    "answer": "Improve the design",
+    "choices": [
+     "Define the problem",
+     "Improve the design",
+     "Test and evaluate",
+     "Build a prototype",
+     "Brainstorm solutions"
+    ]
+   },
+   {
+    "question": "Which step of the engineering-design process is this? Engineers figure out that the bridge must hold 20 tonnes and cost under $1 million.",
+    "answer": "Define the problem",
+    "choices": [
+     "Build a prototype",
+     "Brainstorm solutions",
+     "Test and evaluate",
+     "Improve the design",
+     "Define the problem"
+    ]
+   },
+   {
+    "question": "Which step of the engineering-design process is this? The class drops their egg-protector from 3 m to see if the egg breaks.",
+    "answer": "Test and evaluate",
+    "choices": [
+     "Brainstorm solutions",
+     "Define the problem",
+     "Test and evaluate",
+     "Improve the design",
+     "Build a prototype"
+    ]
+   },
+   {
+    "question": "Which step of the engineering-design process is this? The team builds a first version of the robot arm.",
+    "answer": "Build a prototype",
+    "choices": [
+     "Test and evaluate",
+     "Improve the design",
+     "Brainstorm solutions",
+     "Define the problem",
+     "Build a prototype"
+    ]
+   },
+   {
+    "question": "Which step of the engineering-design process is this? They measure how much weight their paper tower holds.",
+    "answer": "Test and evaluate",
+    "choices": [
+     "Define the problem",
+     "Test and evaluate",
+     "Brainstorm solutions",
+     "Improve the design",
+     "Build a prototype"
+    ]
+   },
+   {
+    "question": "Which step of the engineering-design process is this? Engineers list what the solar oven must do and what materials they can use.",
+    "answer": "Define the problem",
+    "choices": [
+     "Define the problem",
+     "Improve the design",
+     "Brainstorm solutions",
+     "Test and evaluate",
+     "Build a prototype"
+    ]
+   },
+   {
+    "question": "Which step of the engineering-design process is this? The team sketches ten different ideas for a water filter.",
+    "answer": "Brainstorm solutions",
+    "choices": [
+     "Brainstorm solutions",
+     "Define the problem",
+     "Build a prototype",
+     "Test and evaluate",
+     "Improve the design"
+    ]
+   },
+   {
+    "question": "Which step of the engineering-design process is this? Students build a small cardboard model of their shelter.",
+    "answer": "Build a prototype",
+    "choices": [
+     "Build a prototype",
+     "Test and evaluate",
+     "Brainstorm solutions",
+     "Improve the design",
+     "Define the problem"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSciMeth",
+  "subject": "science",
+  "title": "Identify steps of the scientific method",
+  "section": "Science practices and tools",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciSciMeth3",
+   "sciSciMeth4",
+   "sciSciMeth5",
+   "sciSciMeth6",
+   "sciSciMeth7",
+   "sciSciMeth8",
+   "sciSciMeth9",
+   "sciSciMeth10"
+  ],
+  "examples": [
+   {
+    "question": "A student makes a graph of plant heights. What step is this?",
+    "answer": "Analyze data",
+    "choices": [
+     "Form a hypothesis",
+     "Analyze data",
+     "Share results",
+     "Ask a question"
+    ]
+   },
+   {
+    "question": "Which step comes right after forming a hypothesis?",
+    "answer": "Test with an experiment",
+    "choices": [
+     "Draw a conclusion",
+     "Ask a question",
+     "Share results",
+     "Test with an experiment"
+    ]
+   },
+   {
+    "question": "A student presents her findings at the science fair. What step is this?",
+    "answer": "Share results",
+    "choices": [
+     "Ask a question",
+     "Share results",
+     "Analyze data",
+     "Form a hypothesis"
+    ]
+   },
+   {
+    "question": "What should a scientist do if the results do not support the hypothesis?",
+    "answer": "Revise the hypothesis and test again",
+    "choices": [
+     "Stop doing science",
+     "Revise the hypothesis and test again",
+     "Change the data",
+     "Ignore the results"
+    ]
+   },
+   {
+    "question": "Which step comes first in the scientific method?",
+    "answer": "Ask a question",
+    "choices": [
+     "Draw a conclusion",
+     "Share results",
+     "Ask a question",
+     "Analyze data"
+    ]
+   },
+   {
+    "question": "A student grows plants in light and dark and measures them each day. What step is this?",
+    "answer": "Test with an experiment",
+    "choices": [
+     "Test with an experiment",
+     "Share results",
+     "Form a hypothesis",
+     "Ask a question"
+    ]
+   },
+   {
+    "question": "A student predicts, \"Plants grow taller in sunlight.\" What step is this?",
+    "answer": "Form a hypothesis",
+    "choices": [
+     "Form a hypothesis",
+     "Ask a question",
+     "Share results",
+     "Analyze data"
+    ]
+   },
+   {
+    "question": "A student decides, \"The plants in sunlight grew taller, so my hypothesis was supported.\" What step is this?",
+    "answer": "Draw a conclusion",
+    "choices": [
+     "Test with an experiment",
+     "Draw a conclusion",
+     "Ask a question",
+     "Analyze data"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSLGid",
+  "subject": "science",
+  "title": "Identify solids, liquids and gases",
+  "section": "States of matter",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "sciXsSLGid3"
+  ],
+  "examples": [
+   {
+    "question": "Which state of matter is this? 🍯 honey",
+    "answer": "Liquid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 🌫️ water vapour",
+    "answer": "Gas",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 🥛 milk",
+    "answer": "Liquid",
+    "choices": [
+     "Gas",
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 🫧 bubbles of carbon dioxide in soda",
+    "answer": "Gas",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 🧱 brick",
+    "answer": "Solid",
+    "choices": [
+     "Solid",
+     "Liquid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 🥄 spoon",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid",
+     "Gas"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? ♨️ steam",
+    "answer": "Gas",
+    "choices": [
+     "Gas",
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 💧 water",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Gas",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 🧃 juice",
+    "answer": "Liquid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 🧊 ice cube",
+    "answer": "Solid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 🪨 rock",
+    "answer": "Solid",
+    "choices": [
+     "Gas",
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Which state of matter is this? 💨 air in a balloon",
+    "answer": "Gas",
+    "choices": [
+     "Gas",
+     "Solid",
+     "Liquid"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciHeatFlow",
+  "subject": "science",
+  "title": "Predict heat flow",
+  "section": "Heat and thermal energy",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciHeatFlow3",
+   "sciHeatFlow4",
+   "sciHeatFlow5",
+   "sciHeatFlow6",
+   "sciHeatFlow7",
+   "sciHeatFlow8"
+  ],
+  "examples": [
+   {
+    "question": "You hold a cup of hot cocoa. Which way does heat flow?",
+    "answer": "From the cocoa to your hands",
+    "choices": [
+     "Heat does not flow",
+     "From your hands to the cocoa",
+     "From the cocoa to your hands",
+     "Cold flows into the warmer object"
+    ]
+   },
+   {
+    "question": "A warm pie cools on a windowsill. Which way does heat flow?",
+    "answer": "From the pie to the air",
+    "choices": [
+     "Cold flows into the warmer object",
+     "From the pie to the air",
+     "From the air to the pie",
+     "Heat does not flow"
+    ]
+   },
+   {
+    "question": "A cold drink sits on a warm table. Which way does heat flow?",
+    "answer": "From the table to the drink",
+    "choices": [
+     "Cold flows into the warmer object",
+     "From the table to the drink",
+     "From the drink to the table",
+     "Heat does not flow"
+    ]
+   },
+   {
+    "question": "You step onto cold tile with bare feet. Which way does heat flow?",
+    "answer": "From your feet to the tile",
+    "choices": [
+     "Cold flows into the warmer object",
+     "From the tile to your feet",
+     "Heat does not flow",
+     "From your feet to the tile"
+    ]
+   },
+   {
+    "question": "A metal spoon sits in hot soup. Which way does heat flow?",
+    "answer": "From the soup to the spoon",
+    "choices": [
+     "From the soup to the spoon",
+     "Cold flows into the warmer object",
+     "From the spoon to the soup",
+     "Heat does not flow"
+    ]
+   },
+   {
+    "question": "You put an ice pack on a bump. Which way does heat flow?",
+    "answer": "From your skin to the ice pack",
+    "choices": [
+     "Heat does not flow",
+     "Cold flows into the warmer object",
+     "From your skin to the ice pack",
+     "From the ice pack to your skin"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPredT",
+  "subject": "science",
+  "title": "Predict temperature changes",
+  "section": "Heat and thermal energy",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "sciXsPredT3"
+  ],
+  "examples": [
+   {
+    "question": "A metal spoon is placed in hot soup. What happens to the spoon's handle?",
+    "answer": "It gets warmer",
+    "choices": [
+     "It gets warmer",
+     "It gets colder",
+     "It melts",
+     "It stays the same"
+    ]
+   },
+   {
+    "question": "A cup of hot cocoa sits on a table in a cool room. What will happen to its temperature?",
+    "answer": "It will decrease",
+    "choices": [
+     "It will stay the same",
+     "It will increase",
+     "It will boil",
+     "It will decrease"
+    ]
+   },
+   {
+    "question": "A cold juice box touches a sunny picnic table . What happens to the temperature of a cold juice box?",
+    "answer": "It increases",
+    "choices": [
+     "It decreases",
+     "It stays the same",
+     "It increases"
+    ]
+   },
+   {
+    "question": "A hot rock from the sun touches cool lake water . What happens to the temperature of a hot rock from the sun?",
+    "answer": "It decreases",
+    "choices": [
+     "It decreases",
+     "It stays the same",
+     "It increases"
+    ]
+   },
+   {
+    "question": "Hot soup touches a cold kitchen counter . What happens to the temperature of hot soup?",
+    "answer": "It decreases",
+    "choices": [
+     "It decreases",
+     "It stays the same",
+     "It increases"
+    ]
+   },
+   {
+    "question": "An ice pop is left in the sun. What will happen to its temperature?",
+    "answer": "It will increase",
+    "choices": [
+     "It will stay the same",
+     "It will decrease",
+     "It will freeze harder",
+     "It will increase"
+    ]
+   },
+   {
+    "question": "A cold can of juice is held in warm hands. What happens to the hands?",
+    "answer": "They get cooler",
+    "choices": [
+     "They freeze",
+     "They stay the same",
+     "They get warmer",
+     "They get cooler"
+    ]
+   },
+   {
+    "question": "An ice cube touches a warm hand . What happens to the temperature of an ice cube?",
+    "answer": "It increases",
+    "choices": [
+     "It decreases",
+     "It increases",
+     "It stays the same"
+    ]
+   },
+   {
+    "question": "A mug of hot tea touches cool room air . What happens to the temperature of a mug of hot tea?",
+    "answer": "It decreases",
+    "choices": [
+     "It stays the same",
+     "It decreases",
+     "It increases"
+    ]
+   },
+   {
+    "question": "A frozen pizza touches a hot oven . What happens to the temperature of a frozen pizza?",
+    "answer": "It increases",
+    "choices": [
+     "It decreases",
+     "It stays the same",
+     "It increases"
+    ]
+   },
+   {
+    "question": "A snowball touches a warm mitten . What happens to the temperature of a snowball?",
+    "answer": "It increases",
+    "choices": [
+     "It stays the same",
+     "It increases",
+     "It decreases"
+    ]
+   },
+   {
+    "question": "A warm loaf of bread touches the cool air . What happens to the temperature of a warm loaf of bread?",
+    "answer": "It decreases",
+    "choices": [
+     "It stays the same",
+     "It decreases",
+     "It increases"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPCcmp",
+  "subject": "science",
+  "title": "Compare physical and chemical changes",
+  "section": "Physical and chemical change",
+  "grades": [
+   3,
+   5,
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsPCcmp3",
+   "sciXsPCcmp5",
+   "sciXsPCcmp7",
+   "sciXsPCcmp9"
+  ],
+  "examples": [
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Milk going sour",
+    "answer": "Chemical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Tearing paper into pieces",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Breaking a glass",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Fireworks exploding",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Burning a candle wick",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Iron nail rusting",
+    "answer": "Chemical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Baking bread",
+    "answer": "Chemical change",
+    "choices": [
+     "Physical change",
+     "Chemical change"
+    ]
+   },
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Freezing juice into ice pops",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   },
+   {
+    "question": "Physical or chemical change? (A chemical change makes a new substance.) Boiling water",
+    "answer": "Physical change",
+    "choices": [
+     "Chemical change",
+     "Physical change"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciFRC",
+  "subject": "science",
+  "title": "Pushes and pulls",
+  "section": "Force and motion",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "sciFRC3"
+  ],
+  "examples": [
+   {
+    "question": "Is this a push or a pull? Closing a drawer",
+    "answer": "Push",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Throwing a ball",
+    "answer": "Push",
+    "choices": [
+     "Pull",
+     "Push"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Pulling a wagon",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Tugging a rope in tug-of-war",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Kicking a soccer ball",
+    "answer": "Push",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Opening a drawer",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? A magnet picking up a paper clip",
+    "answer": "Pull",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   },
+   {
+    "question": "Is this a push or a pull? Moving a shopping cart forward",
+    "answer": "Push",
+    "choices": [
+     "Push",
+     "Pull"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,2640 @@
+[
+ {
+  "key": "engXSameE",
+  "subject": "english",
+  "title": "Which two words have the same ending?",
+  "section": "Rhyming",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXSameE20"
+  ],
+  "examples": [
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "pig and wig",
+    "choices": [
+     "cake and run",
+     "pig and wig",
+     "sun and tree",
+     "bee and lake"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "bee and tree",
+    "choices": [
+     "pig and lake",
+     "cake and run",
+     "sun and wig",
+     "bee and tree"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "dog and log",
+    "choices": [
+     "cake and wig",
+     "dog and log",
+     "sun and lake",
+     "pig and run"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "cake and lake",
+    "choices": [
+     "sun and hat",
+     "cat and tree",
+     "bee and run",
+     "cake and lake"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "sun and run",
+    "choices": [
+     "dog and hat",
+     "pig and log",
+     "cat and wig",
+     "sun and run"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "cat and hat",
+    "choices": [
+     "cake and tree",
+     "cat and hat",
+     "sun and lake",
+     "bee and run"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXOnset",
+  "subject": "english",
+  "title": "Blend onset and rime together to make a word",
+  "section": "Blending and segmenting",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXOnset0"
+  ],
+  "examples": [
+   {
+    "question": "Blend /p/ + -ig . What word do they make?",
+    "answer": "pig",
+    "choices": [
+     "dog",
+     "cat",
+     "run",
+     "pig"
+    ]
+   },
+   {
+    "question": "Blend /m/ + -op . What word do they make?",
+    "answer": "mop",
+    "choices": [
+     "top",
+     "mop",
+     "cat",
+     "fog"
+    ]
+   },
+   {
+    "question": "Blend /b/ + -ig . What word do they make?",
+    "answer": "big",
+    "choices": [
+     "dog",
+     "mop",
+     "big",
+     "run"
+    ]
+   },
+   {
+    "question": "Blend /h/ + -at . What word do they make?",
+    "answer": "hat",
+    "choices": [
+     "hat",
+     "fog",
+     "top",
+     "red"
+    ]
+   },
+   {
+    "question": "Blend /d/ + -og . What word do they make?",
+    "answer": "dog",
+    "choices": [
+     "sun",
+     "mop",
+     "run",
+     "dog"
+    ]
+   },
+   {
+    "question": "Blend /c/ + -at . What word do they make?",
+    "answer": "cat",
+    "choices": [
+     "dog",
+     "cat",
+     "fog",
+     "pig"
+    ]
+   },
+   {
+    "question": "Blend /r/ + -ed . What word do they make?",
+    "answer": "red",
+    "choices": [
+     "red",
+     "dog",
+     "run",
+     "big"
+    ]
+   },
+   {
+    "question": "Blend /r/ + -un . What word do they make?",
+    "answer": "run",
+    "choices": [
+     "mop",
+     "red",
+     "run",
+     "dog"
+    ]
+   },
+   {
+    "question": "Blend /f/ + -og . What word do they make?",
+    "answer": "fog",
+    "choices": [
+     "cat",
+     "red",
+     "fog",
+     "pig"
+    ]
+   },
+   {
+    "question": "Blend /t/ + -op . What word do they make?",
+    "answer": "top",
+    "choices": [
+     "fog",
+     "top",
+     "dog",
+     "cat"
+    ]
+   },
+   {
+    "question": "Blend /s/ + -un . What word do they make?",
+    "answer": "sun",
+    "choices": [
+     "sun",
+     "pig",
+     "big",
+     "top"
+    ]
+   },
+   {
+    "question": "Blend /b/ + -ed . What word do they make?",
+    "answer": "bed",
+    "choices": [
+     "red",
+     "bed",
+     "cat",
+     "mop"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXWBlE",
+  "subject": "english",
+  "title": "Which consonant blend does the word end with?",
+  "section": "Consonant blends and digraphs",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXWBlE0"
+  ],
+  "examples": [
+   {
+    "question": "🚰 Which blend does sink end with?",
+    "answer": "nk",
+    "choices": [
+     "nk",
+     "lk",
+     "sk",
+     "nt"
+    ]
+   },
+   {
+    "question": "⛺ Which blend does tent end with?",
+    "answer": "nt",
+    "choices": [
+     "nd",
+     "nt",
+     "nk",
+     "st"
+    ]
+   },
+   {
+    "question": "🎁 Which blend does gift end with?",
+    "answer": "ft",
+    "choices": [
+     "sk",
+     "nt",
+     "ft",
+     "st"
+    ]
+   },
+   {
+    "question": "🎭 Which blend does mask end with?",
+    "answer": "sk",
+    "choices": [
+     "sk",
+     "nd",
+     "nk",
+     "nt"
+    ]
+   },
+   {
+    "question": "🦺 Which blend does vest end with?",
+    "answer": "st",
+    "choices": [
+     "sk",
+     "nk",
+     "st",
+     "lk"
+    ]
+   },
+   {
+    "question": "🥛 Which blend does milk end with?",
+    "answer": "lk",
+    "choices": [
+     "ft",
+     "st",
+     "lk",
+     "sk"
+    ]
+   },
+   {
+    "question": "👻 Which blend does ghost end with?",
+    "answer": "st",
+    "choices": [
+     "sk",
+     "nk",
+     "nt",
+     "st"
+    ]
+   },
+   {
+    "question": "✋ Which blend does hand end with?",
+    "answer": "nd",
+    "choices": [
+     "sk",
+     "st",
+     "nd",
+     "nt"
+    ]
+   },
+   {
+    "question": "🪴 Which blend does plant end with?",
+    "answer": "nt",
+    "choices": [
+     "nk",
+     "lk",
+     "nt",
+     "ft"
+    ]
+   },
+   {
+    "question": "🦨 Which blend does skunk end with?",
+    "answer": "nk",
+    "choices": [
+     "nk",
+     "lk",
+     "st",
+     "ft"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engBlEn",
+  "subject": "english",
+  "title": "Complete the word with the right final consonant blend",
+  "section": "Consonant blends and digraphs",
+  "grades": [
+   0,
+   1,
+   2
+  ],
+  "skillIds": [
+   "engBlEn0",
+   "engBlEn1",
+   "engBlEn2"
+  ],
+  "examples": [
+   {
+    "question": "🎁 Complete the word: gi__",
+    "answer": "ft",
+    "choices": [
+     "sk",
+     "st",
+     "ft",
+     "nd"
+    ]
+   },
+   {
+    "question": "👻 Complete the word: gho__",
+    "answer": "st",
+    "choices": [
+     "st",
+     "sk",
+     "lk",
+     "nd"
+    ]
+   },
+   {
+    "question": "🪴 Complete the word: pla__",
+    "answer": "nt",
+    "choices": [
+     "sk",
+     "nt",
+     "lk",
+     "nd"
+    ]
+   },
+   {
+    "question": "🚰 Complete the word: si__",
+    "answer": "nk",
+    "choices": [
+     "nk",
+     "nd",
+     "ft",
+     "lk"
+    ]
+   },
+   {
+    "question": "✋ Complete the word: ha__",
+    "answer": "nd",
+    "choices": [
+     "nk",
+     "st",
+     "lk",
+     "nd"
+    ]
+   },
+   {
+    "question": "⛺ Complete the word: te__",
+    "answer": "nt",
+    "choices": [
+     "lk",
+     "st",
+     "nt",
+     "ft"
+    ]
+   },
+   {
+    "question": "🦺 Complete the word: ve__",
+    "answer": "st",
+    "choices": [
+     "st",
+     "lk",
+     "ft",
+     "nk"
+    ]
+   },
+   {
+    "question": "🎭 Complete the word: ma__",
+    "answer": "sk",
+    "choices": [
+     "lk",
+     "nk",
+     "ft",
+     "sk"
+    ]
+   },
+   {
+    "question": "🦨 Complete the word: sku__",
+    "answer": "nk",
+    "choices": [
+     "nk",
+     "sk",
+     "nd",
+     "ft"
+    ]
+   },
+   {
+    "question": "🥛 Complete the word: mi__",
+    "answer": "lk",
+    "choices": [
+     "nd",
+     "nk",
+     "sk",
+     "lk"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXDblW",
+  "subject": "english",
+  "title": "Choose the word that matches the picture: -ss, -ll, -ff, -zz, -ck",
+  "section": "Consonant blends and digraphs",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXDblW0"
+  ],
+  "examples": [
+   {
+    "question": "🧦 Which word matches the picture?",
+    "answer": "sock",
+    "choices": [
+     "bell",
+     "clock",
+     "sock",
+     "duck"
+    ]
+   },
+   {
+    "question": "🐝 Which word matches the picture?",
+    "answer": "buzz",
+    "choices": [
+     "sock",
+     "buzz",
+     "ball",
+     "grass"
+    ]
+   },
+   {
+    "question": "🌱 Which word matches the picture?",
+    "answer": "grass",
+    "choices": [
+     "sock",
+     "shell",
+     "truck",
+     "grass"
+    ]
+   },
+   {
+    "question": "⚽ Which word matches the picture?",
+    "answer": "ball",
+    "choices": [
+     "bell",
+     "dress",
+     "shell",
+     "ball"
+    ]
+   },
+   {
+    "question": "🕰️ Which word matches the picture?",
+    "answer": "clock",
+    "choices": [
+     "shell",
+     "clock",
+     "grass",
+     "dress"
+    ]
+   },
+   {
+    "question": "🔔 Which word matches the picture?",
+    "answer": "bell",
+    "choices": [
+     "truck",
+     "grass",
+     "bell",
+     "dress"
+    ]
+   },
+   {
+    "question": "👗 Which word matches the picture?",
+    "answer": "dress",
+    "choices": [
+     "buzz",
+     "sock",
+     "shell",
+     "dress"
+    ]
+   },
+   {
+    "question": "🚚 Which word matches the picture?",
+    "answer": "truck",
+    "choices": [
+     "shell",
+     "grass",
+     "bell",
+     "truck"
+    ]
+   },
+   {
+    "question": "🦆 Which word matches the picture?",
+    "answer": "duck",
+    "choices": [
+     "shell",
+     "bell",
+     "clock",
+     "duck"
+    ]
+   },
+   {
+    "question": "🐚 Which word matches the picture?",
+    "answer": "shell",
+    "choices": [
+     "dress",
+     "truck",
+     "shell",
+     "clock"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engDgEn",
+  "subject": "english",
+  "title": "Choose the correct digraph",
+  "section": "Consonant blends and digraphs",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engDgEn0"
+  ],
+  "examples": [
+   {
+    "question": "🍽️ Complete the word: di__",
+    "answer": "sh",
+    "choices": [
+     "ng",
+     "ch",
+     "th",
+     "sh"
+    ]
+   },
+   {
+    "question": "🍑 Complete the word: pea__",
+    "answer": "ch",
+    "choices": [
+     "sh",
+     "th",
+     "ch",
+     "ng"
+    ]
+   },
+   {
+    "question": "👄 Complete the word: mou__",
+    "answer": "th",
+    "choices": [
+     "ch",
+     "sh",
+     "ng",
+     "th"
+    ]
+   },
+   {
+    "question": "🖌️ Complete the word: bru__",
+    "answer": "sh",
+    "choices": [
+     "th",
+     "sh",
+     "ng",
+     "ck"
+    ]
+   },
+   {
+    "question": "🐟 Complete the word: fi__",
+    "answer": "sh",
+    "choices": [
+     "ck",
+     "ch",
+     "sh",
+     "th"
+    ]
+   },
+   {
+    "question": "🕰️ Complete the word: clo__",
+    "answer": "ck",
+    "choices": [
+     "th",
+     "ng",
+     "ck",
+     "ch"
+    ]
+   },
+   {
+    "question": "🧦 Complete the word: so__",
+    "answer": "ck",
+    "choices": [
+     "ch",
+     "ck",
+     "ng",
+     "sh"
+    ]
+   },
+   {
+    "question": "💍 Complete the word: ri__",
+    "answer": "ng",
+    "choices": [
+     "sh",
+     "ng",
+     "ch",
+     "ck"
+    ]
+   },
+   {
+    "question": "🦷 Complete the word: tee__",
+    "answer": "th",
+    "choices": [
+     "ng",
+     "ck",
+     "ch",
+     "th"
+    ]
+   },
+   {
+    "question": "⌚ Complete the word: wat__",
+    "answer": "ch",
+    "choices": [
+     "ng",
+     "th",
+     "ck",
+     "ch"
+    ]
+   },
+   {
+    "question": "🦆 Complete the word: du__",
+    "answer": "ck",
+    "choices": [
+     "ng",
+     "th",
+     "ch",
+     "ck"
+    ]
+   },
+   {
+    "question": "🛁 Complete the word: ba__",
+    "answer": "th",
+    "choices": [
+     "sh",
+     "ck",
+     "ng",
+     "th"
+    ]
+   },
+   {
+    "question": "🤴 Complete the word: ki__",
+    "answer": "ng",
+    "choices": [
+     "ng",
+     "ch",
+     "ck",
+     "sh"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSSa",
+  "subject": "english",
+  "title": "Choose the short a sentence that matches the picture",
+  "section": "Short a",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engXSSa0",
+   "engXSSa1"
+  ],
+  "examples": [
+   {
+    "question": "🐱 Which sentence matches the picture?",
+    "answer": "The cat sat on a mat.",
+    "choices": [
+     "A bat can fly.",
+     "The cat sat on a mat.",
+     "Dad has a hat.",
+     "I can read a map."
+    ]
+   },
+   {
+    "question": "🦇 Which sentence matches the picture?",
+    "answer": "A bat can fly.",
+    "choices": [
+     "Dad has a hat.",
+     "A bat can fly.",
+     "The pan is hot.",
+     "The cat sat on a mat."
+    ]
+   },
+   {
+    "question": "🎩 Which sentence matches the picture?",
+    "answer": "Dad has a hat.",
+    "choices": [
+     "The cat sat on a mat.",
+     "Dad has a hat.",
+     "The pan is hot.",
+     "I can read a map."
+    ]
+   },
+   {
+    "question": "🗺️ Which sentence matches the picture?",
+    "answer": "I can read a map.",
+    "choices": [
+     "I can read a map.",
+     "A bat can fly.",
+     "Dad has a hat.",
+     "The cat sat on a mat."
+    ]
+   },
+   {
+    "question": "🍳 Which sentence matches the picture?",
+    "answer": "The pan is hot.",
+    "choices": [
+     "I can read a map.",
+     "The pan is hot.",
+     "A bat can fly.",
+     "Dad has a hat."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSSe",
+  "subject": "english",
+  "title": "Choose the short e sentence that matches the picture",
+  "section": "Short e",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engXSSe0",
+   "engXSSe1"
+  ],
+  "examples": [
+   {
+    "question": "🥅 Which sentence matches the picture?",
+    "answer": "The ball is in the net.",
+    "choices": [
+     "The ball is in the net.",
+     "We slept in a tent.",
+     "I sleep in my bed.",
+     "The hen sat on an egg."
+    ]
+   },
+   {
+    "question": "⛺ Which sentence matches the picture?",
+    "answer": "We slept in a tent.",
+    "choices": [
+     "I sleep in my bed.",
+     "We slept in a tent.",
+     "The hen sat on an egg.",
+     "The ball is in the net."
+    ]
+   },
+   {
+    "question": "🖊️ Which sentence matches the picture?",
+    "answer": "I have a red pen.",
+    "choices": [
+     "I have a red pen.",
+     "We slept in a tent.",
+     "The ball is in the net.",
+     "I sleep in my bed."
+    ]
+   },
+   {
+    "question": "🛏️ Which sentence matches the picture?",
+    "answer": "I sleep in my bed.",
+    "choices": [
+     "We slept in a tent.",
+     "The ball is in the net.",
+     "I sleep in my bed.",
+     "I have a red pen."
+    ]
+   },
+   {
+    "question": "🐔 Which sentence matches the picture?",
+    "answer": "The hen sat on an egg.",
+    "choices": [
+     "The ball is in the net.",
+     "I have a red pen.",
+     "I sleep in my bed.",
+     "The hen sat on an egg."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engShIm",
+  "subject": "english",
+  "title": "Choose the short i word that matches the picture",
+  "section": "Short i",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engShIm0",
+   "engShIm1"
+  ],
+  "examples": [
+   {
+    "question": "🐷 Which word matches the picture?",
+    "answer": "pig",
+    "choices": [
+     "mitt",
+     "pin",
+     "ship",
+     "pig"
+    ]
+   },
+   {
+    "question": "6️⃣ Which word matches the picture?",
+    "answer": "six",
+    "choices": [
+     "fish",
+     "bricks",
+     "lips",
+     "six"
+    ]
+   },
+   {
+    "question": "👄 Which word matches the picture?",
+    "answer": "lips",
+    "choices": [
+     "lips",
+     "chick",
+     "milk",
+     "mitt"
+    ]
+   },
+   {
+    "question": "🧤 Which word matches the picture?",
+    "answer": "mitt",
+    "choices": [
+     "milk",
+     "pin",
+     "six",
+     "mitt"
+    ]
+   },
+   {
+    "question": "🧱 Which word matches the picture?",
+    "answer": "bricks",
+    "choices": [
+     "bricks",
+     "six",
+     "lips",
+     "fish"
+    ]
+   },
+   {
+    "question": "🚢 Which word matches the picture?",
+    "answer": "ship",
+    "choices": [
+     "ship",
+     "gift",
+     "bricks",
+     "fish"
+    ]
+   },
+   {
+    "question": "🐟 Which word matches the picture?",
+    "answer": "fish",
+    "choices": [
+     "gift",
+     "lips",
+     "fish",
+     "pin"
+    ]
+   },
+   {
+    "question": "📌 Which word matches the picture?",
+    "answer": "pin",
+    "choices": [
+     "gift",
+     "lips",
+     "pig",
+     "pin"
+    ]
+   },
+   {
+    "question": "🥛 Which word matches the picture?",
+    "answer": "milk",
+    "choices": [
+     "chick",
+     "ship",
+     "milk",
+     "gift"
+    ]
+   },
+   {
+    "question": "🐥 Which word matches the picture?",
+    "answer": "chick",
+    "choices": [
+     "pig",
+     "lips",
+     "chick",
+     "fish"
+    ]
+   },
+   {
+    "question": "🎁 Which word matches the picture?",
+    "answer": "gift",
+    "choices": [
+     "six",
+     "mitt",
+     "lips",
+     "gift"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engShIc",
+  "subject": "english",
+  "title": "Complete the short i words",
+  "section": "Short i",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engShIc0",
+   "engShIc1"
+  ],
+  "examples": [
+   {
+    "question": "🐟 Complete the word: f_sh",
+    "answer": "i",
+    "choices": [
+     "a",
+     "i",
+     "o",
+     "e",
+     "u"
+    ]
+   },
+   {
+    "question": "🐥 Complete the word: ch_ck",
+    "answer": "i",
+    "choices": [
+     "a",
+     "u",
+     "e",
+     "i",
+     "o"
+    ]
+   },
+   {
+    "question": "🥛 Complete the word: m_lk",
+    "answer": "i",
+    "choices": [
+     "o",
+     "u",
+     "e",
+     "a",
+     "i"
+    ]
+   },
+   {
+    "question": "🧤 Complete the word: m_tt",
+    "answer": "i",
+    "choices": [
+     "i",
+     "u",
+     "e",
+     "o",
+     "a"
+    ]
+   },
+   {
+    "question": "🧱 Complete the word: br_cks",
+    "answer": "i",
+    "choices": [
+     "i",
+     "o",
+     "e",
+     "u",
+     "a"
+    ]
+   },
+   {
+    "question": "📌 Complete the word: p_n",
+    "answer": "i",
+    "choices": [
+     "a",
+     "e",
+     "u",
+     "o",
+     "i"
+    ]
+   },
+   {
+    "question": "🐷 Complete the word: p_g",
+    "answer": "i",
+    "choices": [
+     "i",
+     "u",
+     "a",
+     "o",
+     "e"
+    ]
+   },
+   {
+    "question": "🚢 Complete the word: sh_p",
+    "answer": "i",
+    "choices": [
+     "a",
+     "o",
+     "i",
+     "e",
+     "u"
+    ]
+   },
+   {
+    "question": "👄 Complete the word: l_ps",
+    "answer": "i",
+    "choices": [
+     "a",
+     "e",
+     "u",
+     "i",
+     "o"
+    ]
+   },
+   {
+    "question": "🎁 Complete the word: g_ft",
+    "answer": "i",
+    "choices": [
+     "i",
+     "a",
+     "o",
+     "e",
+     "u"
+    ]
+   },
+   {
+    "question": "6️⃣ Complete the word: s_x",
+    "answer": "i",
+    "choices": [
+     "i",
+     "u",
+     "o",
+     "e",
+     "a"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSSi",
+  "subject": "english",
+  "title": "Choose the short i sentence that matches the picture",
+  "section": "Short i",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engXSSi0",
+   "engXSSi1"
+  ],
+  "examples": [
+   {
+    "question": "🐟 Which sentence matches the picture?",
+    "answer": "A fish can swim.",
+    "choices": [
+     "I see a pin.",
+     "Kim has a gift.",
+     "A fish can swim.",
+     "The ship is big."
+    ]
+   },
+   {
+    "question": "📌 Which sentence matches the picture?",
+    "answer": "I see a pin.",
+    "choices": [
+     "The ship is big.",
+     "Kim has a gift.",
+     "The pig is in the mud.",
+     "I see a pin."
+    ]
+   },
+   {
+    "question": "🎁 Which sentence matches the picture?",
+    "answer": "Kim has a gift.",
+    "choices": [
+     "I see a pin.",
+     "A fish can swim.",
+     "Kim has a gift.",
+     "The pig is in the mud."
+    ]
+   },
+   {
+    "question": "🚢 Which sentence matches the picture?",
+    "answer": "The ship is big.",
+    "choices": [
+     "A fish can swim.",
+     "I see a pin.",
+     "The ship is big.",
+     "The pig is in the mud."
+    ]
+   },
+   {
+    "question": "🐷 Which sentence matches the picture?",
+    "answer": "The pig is in the mud.",
+    "choices": [
+     "The pig is in the mud.",
+     "I see a pin.",
+     "The ship is big.",
+     "Kim has a gift."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engShOm",
+  "subject": "english",
+  "title": "Choose the short o word that matches the picture",
+  "section": "Short o",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engShOm0",
+   "engShOm1"
+  ],
+  "examples": [
+   {
+    "question": "🕰️ Which word matches the picture?",
+    "answer": "clock",
+    "choices": [
+     "frog",
+     "pot",
+     "clock",
+     "mop"
+    ]
+   },
+   {
+    "question": "🪵 Which word matches the picture?",
+    "answer": "log",
+    "choices": [
+     "log",
+     "frog",
+     "fox",
+     "lock"
+    ]
+   },
+   {
+    "question": "🐸 Which word matches the picture?",
+    "answer": "frog",
+    "choices": [
+     "dog",
+     "lock",
+     "frog",
+     "clock"
+    ]
+   },
+   {
+    "question": "🔒 Which word matches the picture?",
+    "answer": "lock",
+    "choices": [
+     "dog",
+     "lock",
+     "mop",
+     "box"
+    ]
+   },
+   {
+    "question": "🐶 Which word matches the picture?",
+    "answer": "dog",
+    "choices": [
+     "frog",
+     "clock",
+     "mop",
+     "dog"
+    ]
+   },
+   {
+    "question": "🧹 Which word matches the picture?",
+    "answer": "mop",
+    "choices": [
+     "mop",
+     "fox",
+     "clock",
+     "frog"
+    ]
+   },
+   {
+    "question": "🍲 Which word matches the picture?",
+    "answer": "pot",
+    "choices": [
+     "pot",
+     "fox",
+     "log",
+     "frog"
+    ]
+   },
+   {
+    "question": "📦 Which word matches the picture?",
+    "answer": "box",
+    "choices": [
+     "rock",
+     "clock",
+     "dog",
+     "box"
+    ]
+   },
+   {
+    "question": "🪨 Which word matches the picture?",
+    "answer": "rock",
+    "choices": [
+     "rock",
+     "clock",
+     "fox",
+     "dog"
+    ]
+   },
+   {
+    "question": "🧦 Which word matches the picture?",
+    "answer": "sock",
+    "choices": [
+     "fox",
+     "sock",
+     "clock",
+     "pot"
+    ]
+   },
+   {
+    "question": "🦊 Which word matches the picture?",
+    "answer": "fox",
+    "choices": [
+     "lock",
+     "frog",
+     "fox",
+     "box"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engShOc",
+  "subject": "english",
+  "title": "Complete the short o word",
+  "section": "Short o",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engShOc0",
+   "engShOc1"
+  ],
+  "examples": [
+   {
+    "question": "🦊 Complete the word: f_x",
+    "answer": "o",
+    "choices": [
+     "e",
+     "a",
+     "i",
+     "o",
+     "u"
+    ]
+   },
+   {
+    "question": "📦 Complete the word: b_x",
+    "answer": "o",
+    "choices": [
+     "a",
+     "i",
+     "e",
+     "u",
+     "o"
+    ]
+   },
+   {
+    "question": "🔒 Complete the word: l_ck",
+    "answer": "o",
+    "choices": [
+     "a",
+     "o",
+     "u",
+     "e",
+     "i"
+    ]
+   },
+   {
+    "question": "🧹 Complete the word: m_p",
+    "answer": "o",
+    "choices": [
+     "u",
+     "e",
+     "o",
+     "a",
+     "i"
+    ]
+   },
+   {
+    "question": "🕰️ Complete the word: cl_ck",
+    "answer": "o",
+    "choices": [
+     "i",
+     "o",
+     "a",
+     "e",
+     "u"
+    ]
+   },
+   {
+    "question": "🐸 Complete the word: fr_g",
+    "answer": "o",
+    "choices": [
+     "e",
+     "o",
+     "i",
+     "u",
+     "a"
+    ]
+   },
+   {
+    "question": "🧦 Complete the word: s_ck",
+    "answer": "o",
+    "choices": [
+     "o",
+     "u",
+     "i",
+     "e",
+     "a"
+    ]
+   },
+   {
+    "question": "🪵 Complete the word: l_g",
+    "answer": "o",
+    "choices": [
+     "u",
+     "i",
+     "o",
+     "a",
+     "e"
+    ]
+   },
+   {
+    "question": "🐶 Complete the word: d_g",
+    "answer": "o",
+    "choices": [
+     "e",
+     "o",
+     "a",
+     "i",
+     "u"
+    ]
+   },
+   {
+    "question": "🪨 Complete the word: r_ck",
+    "answer": "o",
+    "choices": [
+     "a",
+     "e",
+     "o",
+     "u",
+     "i"
+    ]
+   },
+   {
+    "question": "🍲 Complete the word: p_t",
+    "answer": "o",
+    "choices": [
+     "a",
+     "e",
+     "i",
+     "o",
+     "u"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSSo",
+  "subject": "english",
+  "title": "Choose the short o sentence that matches the picture",
+  "section": "Short o",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engXSSo0",
+   "engXSSo1"
+  ],
+  "examples": [
+   {
+    "question": "🐶 Which sentence matches the picture?",
+    "answer": "The dog can hop.",
+    "choices": [
+     "The dog can hop.",
+     "The frog sat on a log.",
+     "I lost my sock.",
+     "The fox is in the box."
+    ]
+   },
+   {
+    "question": "🦊 Which sentence matches the picture?",
+    "answer": "The fox is in the box.",
+    "choices": [
+     "The dog can hop.",
+     "The fox is in the box.",
+     "I lost my sock.",
+     "Look at the clock."
+    ]
+   },
+   {
+    "question": "🧦 Which sentence matches the picture?",
+    "answer": "I lost my sock.",
+    "choices": [
+     "Look at the clock.",
+     "The frog sat on a log.",
+     "I lost my sock.",
+     "The fox is in the box."
+    ]
+   },
+   {
+    "question": "🕰️ Which sentence matches the picture?",
+    "answer": "Look at the clock.",
+    "choices": [
+     "The dog can hop.",
+     "Look at the clock.",
+     "The frog sat on a log.",
+     "The fox is in the box."
+    ]
+   },
+   {
+    "question": "🐸 Which sentence matches the picture?",
+    "answer": "The frog sat on a log.",
+    "choices": [
+     "The fox is in the box.",
+     "The frog sat on a log.",
+     "I lost my sock.",
+     "Look at the clock."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engShUm",
+  "subject": "english",
+  "title": "Choose the picture that matches the short u word",
+  "section": "Short u",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engShUm0"
+  ],
+  "examples": [
+   {
+    "question": "🚚 Which word matches the picture?",
+    "answer": "truck",
+    "choices": [
+     "tub",
+     "drum",
+     "truck",
+     "duck"
+    ]
+   },
+   {
+    "question": "🦆 Which word matches the picture?",
+    "answer": "duck",
+    "choices": [
+     "drum",
+     "plug",
+     "duck",
+     "cup"
+    ]
+   },
+   {
+    "question": "🚌 Which word matches the picture?",
+    "answer": "bus",
+    "choices": [
+     "bus",
+     "sun",
+     "cup",
+     "drum"
+    ]
+   },
+   {
+    "question": "🔌 Which word matches the picture?",
+    "answer": "plug",
+    "choices": [
+     "truck",
+     "bug",
+     "bus",
+     "plug"
+    ]
+   },
+   {
+    "question": "🥜 Which word matches the picture?",
+    "answer": "nut",
+    "choices": [
+     "drum",
+     "nut",
+     "tub",
+     "skunk"
+    ]
+   },
+   {
+    "question": "🦨 Which word matches the picture?",
+    "answer": "skunk",
+    "choices": [
+     "skunk",
+     "bus",
+     "plug",
+     "sun"
+    ]
+   },
+   {
+    "question": "🥤 Which word matches the picture?",
+    "answer": "cup",
+    "choices": [
+     "duck",
+     "cup",
+     "plug",
+     "bug"
+    ]
+   },
+   {
+    "question": "🛁 Which word matches the picture?",
+    "answer": "tub",
+    "choices": [
+     "sun",
+     "tub",
+     "skunk",
+     "bus"
+    ]
+   },
+   {
+    "question": "🐛 Which word matches the picture?",
+    "answer": "bug",
+    "choices": [
+     "nut",
+     "bug",
+     "mug",
+     "plug"
+    ]
+   },
+   {
+    "question": "☀️ Which word matches the picture?",
+    "answer": "sun",
+    "choices": [
+     "nut",
+     "duck",
+     "drum",
+     "sun"
+    ]
+   },
+   {
+    "question": "🥁 Which word matches the picture?",
+    "answer": "drum",
+    "choices": [
+     "duck",
+     "cup",
+     "drum",
+     "tub"
+    ]
+   },
+   {
+    "question": "☕ Which word matches the picture?",
+    "answer": "mug",
+    "choices": [
+     "mug",
+     "cup",
+     "bus",
+     "truck"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engShUc",
+  "subject": "english",
+  "title": "Complete the short u word",
+  "section": "Short u",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engShUc0"
+  ],
+  "examples": [
+   {
+    "question": "🚚 Complete the word: tr_ck",
+    "answer": "u",
+    "choices": [
+     "o",
+     "a",
+     "u",
+     "i",
+     "e"
+    ]
+   },
+   {
+    "question": "🛁 Complete the word: t_b",
+    "answer": "u",
+    "choices": [
+     "i",
+     "u",
+     "e",
+     "a",
+     "o"
+    ]
+   },
+   {
+    "question": "🔌 Complete the word: pl_g",
+    "answer": "u",
+    "choices": [
+     "o",
+     "e",
+     "u",
+     "i",
+     "a"
+    ]
+   },
+   {
+    "question": "🦨 Complete the word: sk_nk",
+    "answer": "u",
+    "choices": [
+     "o",
+     "u",
+     "i",
+     "e",
+     "a"
+    ]
+   },
+   {
+    "question": "🥁 Complete the word: dr_m",
+    "answer": "u",
+    "choices": [
+     "u",
+     "e",
+     "a",
+     "i",
+     "o"
+    ]
+   },
+   {
+    "question": "☕ Complete the word: m_g",
+    "answer": "u",
+    "choices": [
+     "u",
+     "e",
+     "o",
+     "i",
+     "a"
+    ]
+   },
+   {
+    "question": "🦆 Complete the word: d_ck",
+    "answer": "u",
+    "choices": [
+     "u",
+     "o",
+     "e",
+     "i",
+     "a"
+    ]
+   },
+   {
+    "question": "🥜 Complete the word: n_t",
+    "answer": "u",
+    "choices": [
+     "a",
+     "e",
+     "i",
+     "o",
+     "u"
+    ]
+   },
+   {
+    "question": "🚌 Complete the word: b_s",
+    "answer": "u",
+    "choices": [
+     "a",
+     "o",
+     "i",
+     "u",
+     "e"
+    ]
+   },
+   {
+    "question": "🐛 Complete the word: b_g",
+    "answer": "u",
+    "choices": [
+     "i",
+     "o",
+     "u",
+     "e",
+     "a"
+    ]
+   },
+   {
+    "question": "🥤 Complete the word: c_p",
+    "answer": "u",
+    "choices": [
+     "u",
+     "a",
+     "i",
+     "o",
+     "e"
+    ]
+   },
+   {
+    "question": "☀️ Complete the word: s_n",
+    "answer": "u",
+    "choices": [
+     "i",
+     "o",
+     "a",
+     "u",
+     "e"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSSu",
+  "subject": "english",
+  "title": "Choose the short u sentence that matches the picture",
+  "section": "Short u",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engXSSu0",
+   "engXSSu1"
+  ],
+  "examples": [
+   {
+    "question": "🚌 Which sentence matches the picture?",
+    "answer": "We ride the bus.",
+    "choices": [
+     "We ride the bus.",
+     "The duck is in the tub.",
+     "I can hit the drum.",
+     "The sun is up."
+    ]
+   },
+   {
+    "question": "🐛 Which sentence matches the picture?",
+    "answer": "A bug is on the rug.",
+    "choices": [
+     "We ride the bus.",
+     "A bug is on the rug.",
+     "I can hit the drum.",
+     "The duck is in the tub."
+    ]
+   },
+   {
+    "question": "🦆 Which sentence matches the picture?",
+    "answer": "The duck is in the tub.",
+    "choices": [
+     "The duck is in the tub.",
+     "We ride the bus.",
+     "The sun is up.",
+     "A bug is on the rug."
+    ]
+   },
+   {
+    "question": "🥁 Which sentence matches the picture?",
+    "answer": "I can hit the drum.",
+    "choices": [
+     "I can hit the drum.",
+     "A bug is on the rug.",
+     "The duck is in the tub.",
+     "We ride the bus."
+    ]
+   },
+   {
+    "question": "☀️ Which sentence matches the picture?",
+    "answer": "The sun is up.",
+    "choices": [
+     "The duck is in the tub.",
+     "The sun is up.",
+     "I can hit the drum.",
+     "A bug is on the rug."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRQs",
+  "subject": "english",
+  "title": "Read questions with short vowel words",
+  "section": "Short vowels",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXRQs0"
+  ],
+  "examples": [
+   {
+    "question": "Can a dog get on a bus?",
+    "answer": "Yes",
+    "choices": [
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "question": "Is the sun hot?",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Can a pig fly?",
+    "answer": "No",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Can a bug sit in a cup?",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Can a cat sit on a mat?",
+    "answer": "Yes",
+    "choices": [
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "question": "Is a hen as big as a bus?",
+    "answer": "No",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFLa",
+  "subject": "english",
+  "title": "Find the long a word",
+  "section": "Long vowels",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXFLa0"
+  ],
+  "examples": [
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "paint",
+    "choices": [
+     "teeth",
+     "paint",
+     "pie",
+     "boat"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "grapes",
+    "choices": [
+     "grapes",
+     "teeth",
+     "leaf",
+     "tooth"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "snail",
+    "choices": [
+     "snail",
+     "bowl",
+     "snow",
+     "moon"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "hay",
+    "choices": [
+     "feet",
+     "globe",
+     "nine",
+     "hay"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "plane",
+    "choices": [
+     "road",
+     "juice",
+     "bike",
+     "plane"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "train",
+    "choices": [
+     "cheese",
+     "nine",
+     "train",
+     "boat"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "cake",
+    "choices": [
+     "cheese",
+     "dice",
+     "cake",
+     "phone"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "skate",
+    "choices": [
+     "feet",
+     "tooth",
+     "fruit",
+     "skate"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "game",
+    "choices": [
+     "game",
+     "tie",
+     "phone",
+     "wheel"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "rain",
+    "choices": [
+     "rain",
+     "juice",
+     "dice",
+     "cube"
+    ]
+   },
+   {
+    "question": "Which word has the long a sound?",
+    "answer": "whale",
+    "choices": [
+     "road",
+     "kite",
+     "bee",
+     "whale"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFLe",
+  "subject": "english",
+  "title": "Find the long e word",
+  "section": "Long vowels",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXFLe0"
+  ],
+  "examples": [
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "teeth",
+    "choices": [
+     "rose",
+     "juice",
+     "teeth",
+     "grapes"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "peach",
+    "choices": [
+     "peach",
+     "mice",
+     "spoon",
+     "rose"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "leaf",
+    "choices": [
+     "grapes",
+     "road",
+     "leaf",
+     "cake"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "cheese",
+    "choices": [
+     "boat",
+     "snow",
+     "cheese",
+     "game"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "bee",
+    "choices": [
+     "juice",
+     "moon",
+     "whale",
+     "bee"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "three",
+    "choices": [
+     "three",
+     "snow",
+     "boot",
+     "dice"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "seal",
+    "choices": [
+     "road",
+     "juice",
+     "tube",
+     "seal"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "sheep",
+    "choices": [
+     "nose",
+     "sheep",
+     "train",
+     "globe"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "wheel",
+    "choices": [
+     "screw",
+     "skate",
+     "wheel",
+     "bike"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "queen",
+    "choices": [
+     "boat",
+     "queen",
+     "soap",
+     "tube"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "tree",
+    "choices": [
+     "five",
+     "phone",
+     "tree",
+     "cake"
+    ]
+   },
+   {
+    "question": "Which word has the long e sound?",
+    "answer": "feet",
+    "choices": [
+     "skate",
+     "road",
+     "nine",
+     "feet"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFLi",
+  "subject": "english",
+  "title": "Find the long i word",
+  "section": "Long vowels",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXFLi0"
+  ],
+  "examples": [
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "fly",
+    "choices": [
+     "fly",
+     "skate",
+     "nose",
+     "globe"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "kite",
+    "choices": [
+     "bone",
+     "rain",
+     "kite",
+     "leaf"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "nine",
+    "choices": [
+     "peach",
+     "nine",
+     "moon",
+     "phone"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "five",
+    "choices": [
+     "boot",
+     "five",
+     "nose",
+     "tube"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "dice",
+    "choices": [
+     "dice",
+     "boot",
+     "tooth",
+     "peach"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "light",
+    "choices": [
+     "nose",
+     "peach",
+     "light",
+     "snow"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "tie",
+    "choices": [
+     "goat",
+     "boat",
+     "rain",
+     "tie"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "mice",
+    "choices": [
+     "skate",
+     "mice",
+     "rain",
+     "game"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "smile",
+    "choices": [
+     "train",
+     "smile",
+     "boot",
+     "cube"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "pie",
+    "choices": [
+     "rain",
+     "cheese",
+     "pie",
+     "nose"
+    ]
+   },
+   {
+    "question": "Which word has the long i sound?",
+    "answer": "bike",
+    "choices": [
+     "sheep",
+     "bike",
+     "skate",
+     "globe"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFLu",
+  "subject": "english",
+  "title": "Find the long u word",
+  "section": "Long vowels",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXFLu0"
+  ],
+  "examples": [
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "boot",
+    "choices": [
+     "game",
+     "train",
+     "boot",
+     "peach"
+    ]
+   },
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "screw",
+    "choices": [
+     "cheese",
+     "rose",
+     "leaf",
+     "screw"
+    ]
+   },
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "tube",
+    "choices": [
+     "tube",
+     "paint",
+     "coat",
+     "soap"
+    ]
+   },
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "juice",
+    "choices": [
+     "queen",
+     "juice",
+     "smile",
+     "whale"
+    ]
+   },
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "cube",
+    "choices": [
+     "dice",
+     "smile",
+     "cube",
+     "cake"
+    ]
+   },
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "spoon",
+    "choices": [
+     "spoon",
+     "leaf",
+     "boat",
+     "nine"
+    ]
+   },
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "moon",
+    "choices": [
+     "moon",
+     "tie",
+     "goat",
+     "rain"
+    ]
+   },
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "tooth",
+    "choices": [
+     "tooth",
+     "whale",
+     "mice",
+     "road"
+    ]
+   },
+   {
+    "question": "Which word has the long u sound?",
+    "answer": "fruit",
+    "choices": [
+     "coat",
+     "rose",
+     "dice",
+     "fruit"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPcAb",
+  "subject": "english",
+  "title": "What is the picture about?",
+  "section": "Main idea",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engPcAb0",
+   "engPcAb1"
+  ],
+  "examples": [
+   {
+    "question": "📚 ✏️ 🏫 What is the picture about?",
+    "answer": "going to school",
+    "choices": [
+     "a snowy winter day",
+     "plants growing in a garden",
+     "a day at the beach",
+     "going to school"
+    ]
+   },
+   {
+    "question": "⛄ ❄️ 🧤 What is the picture about?",
+    "answer": "a snowy winter day",
+    "choices": [
+     "a snowy winter day",
+     "firefighters at work",
+     "a day at the beach",
+     "healthy foods"
+    ]
+   },
+   {
+    "question": "🌱 🌷 🌻 What is the picture about?",
+    "answer": "plants growing in a garden",
+    "choices": [
+     "plants growing in a garden",
+     "a birthday party",
+     "a day at the beach",
+     "healthy foods"
+    ]
+   },
+   {
+    "question": "🚒 🔥 👩‍🚒 What is the picture about?",
+    "answer": "firefighters at work",
+    "choices": [
+     "healthy foods",
+     "firefighters at work",
+     "plants growing in a garden",
+     "a birthday party"
+    ]
+   },
+   {
+    "question": "🏖️ ☀️ 🏊 What is the picture about?",
+    "answer": "a day at the beach",
+    "choices": [
+     "a birthday party",
+     "animals on a farm",
+     "going to school",
+     "a day at the beach"
+    ]
+   },
+   {
+    "question": "🐄 🐖 🐔 What is the picture about?",
+    "answer": "animals on a farm",
+    "choices": [
+     "going to school",
+     "firefighters at work",
+     "a birthday party",
+     "animals on a farm"
+    ]
+   },
+   {
+    "question": "🎂 🎈 🎁 What is the picture about?",
+    "answer": "a birthday party",
+    "choices": [
+     "a birthday party",
+     "plants growing in a garden",
+     "a day at the beach",
+     "healthy foods"
+    ]
+   },
+   {
+    "question": "🍎 🥕 🥦 What is the picture about?",
+    "answer": "healthy foods",
+    "choices": [
+     "a day at the beach",
+     "healthy foods",
+     "going to school",
+     "animals on a farm"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engWhAm",
+  "subject": "english",
+  "title": "What am I?",
+  "section": "Riddles",
+  "grades": [
+   0,
+   1
+  ],
+  "skillIds": [
+   "engWhAm0",
+   "engWhAm1"
+  ],
+  "examples": [
+   {
+    "question": "Read the riddle. What am I? I shine in the sky during the day. I keep you warm.",
+    "answer": "the sun ☀️",
+    "choices": [
+     "a clock 🕰️",
+     "a book 📖",
+     "the sun ☀️",
+     "a frog 🐸"
+    ]
+   },
+   {
+    "question": "Read the riddle. What am I? I have four legs and a tail. I bark and wag my tail when I am happy.",
+    "answer": "a dog 🐶",
+    "choices": [
+     "a clock 🕰️",
+     "a bike 🚲",
+     "a dog 🐶",
+     "a book 📖"
+    ]
+   },
+   {
+    "question": "Read the riddle. What am I? I am cold and white. I fall from the sky in winter.",
+    "answer": "snow ❄️",
+    "choices": [
+     "a clock 🕰️",
+     "a frog 🐸",
+     "a banana 🍌",
+     "snow ❄️"
+    ]
+   },
+   {
+    "question": "Read the riddle. What am I? I have hands but cannot clap. I tell you the time.",
+    "answer": "a clock 🕰️",
+    "choices": [
+     "a bike 🚲",
+     "a banana 🍌",
+     "a clock 🕰️",
+     "the sun ☀️"
+    ]
+   },
+   {
+    "question": "Read the riddle. What am I? I have pages and words. You read me.",
+    "answer": "a book 📖",
+    "choices": [
+     "a clock 🕰️",
+     "a book 📖",
+     "a frog 🐸",
+     "snow ❄️"
+    ]
+   },
+   {
+    "question": "Read the riddle. What am I? I am yellow and long. Monkeys love to eat me.",
+    "answer": "a banana 🍌",
+    "choices": [
+     "a dog 🐶",
+     "a banana 🍌",
+     "a frog 🐸",
+     "a book 📖"
+    ]
+   },
+   {
+    "question": "Read the riddle. What am I? I have wheels and pedals. You ride me.",
+    "answer": "a bike 🚲",
+    "choices": [
+     "a banana 🍌",
+     "the sun ☀️",
+     "a bike 🚲",
+     "snow ❄️"
+    ]
+   },
+   {
+    "question": "Read the riddle. What am I? I hop and say \"ribbit\". I live near ponds.",
+    "answer": "a frog 🐸",
+    "choices": [
+     "a clock 🕰️",
+     "a dog 🐶",
+     "a book 📖",
+     "a frog 🐸"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLoc",
+  "subject": "english",
+  "title": "Inside and outside, above and below, next to and beside",
+  "section": "Location words",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXLoc10"
+  ],
+  "examples": [
+   {
+    "question": "🧸 🛋️ — The bear sits ___ the sofa.",
+    "answer": "next to",
+    "choices": [
+     "next to",
+     "below",
+     "above",
+     "inside"
+    ]
+   },
+   {
+    "question": "⛄ 🏠 — The snowman is ___ the house.",
+    "answer": "outside",
+    "choices": [
+     "above",
+     "below",
+     "outside",
+     "inside"
+    ]
+   },
+   {
+    "question": "🐦 over 🏠 — The bird is ___ the house.",
+    "answer": "above",
+    "choices": [
+     "inside",
+     "above",
+     "beside",
+     "below"
+    ]
+   },
+   {
+    "question": "🐶 under 🛏️ — The dog is ___ the bed.",
+    "answer": "below",
+    "choices": [
+     "above",
+     "below",
+     "next to",
+     "inside"
+    ]
+   },
+   {
+    "question": "🐟 in 🫙 — The fish is ___ the jar.",
+    "answer": "inside",
+    "choices": [
+     "inside",
+     "outside",
+     "above",
+     "below"
+    ]
+   }
+  ]
+ }
+]

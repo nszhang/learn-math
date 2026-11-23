@@ -1,0 +1,1488 @@
+[
+ {
+  "key": "sciXsAcidBase",
+  "subject": "science",
+  "title": "Introduction to acids and bases",
+  "section": "Acids and bases",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsAcidBase10"
+  ],
+  "examples": [
+   {
+    "question": "A solution has a pH of 3. It is…",
+    "answer": "acidic",
+    "choices": [
+     "salty",
+     "acidic",
+     "basic",
+     "neutral"
+    ]
+   },
+   {
+    "question": "When an acid reacts with a base, the products are…",
+    "answer": "a salt and water",
+    "choices": [
+     "an acid and oxygen",
+     "a metal and hydrogen",
+     "a salt and water",
+     "only carbon dioxide"
+    ]
+   },
+   {
+    "question": "Which pH describes a base?",
+    "answer": "11",
+    "choices": [
+     "2",
+     "11",
+     "5",
+     "7"
+    ]
+   },
+   {
+    "question": "How much more acidic is a solution of pH 2 than one of pH 4?",
+    "answer": "100 times",
+    "choices": [
+     "2 times",
+     "20 times",
+     "10 times",
+     "100 times"
+    ]
+   },
+   {
+    "question": "In water, acids increase the concentration of…",
+    "answer": "hydrogen ions (H⁺, as H₃O⁺)",
+    "choices": [
+     "hydroxide ions (OH⁻)",
+     "hydrogen ions (H⁺, as H₃O⁺)",
+     "sodium ions",
+     "oxygen gas"
+    ]
+   },
+   {
+    "question": "What colour does blue litmus paper turn in an acid?",
+    "answer": "Red",
+    "choices": [
+     "Blue",
+     "Red",
+     "Green",
+     "Purple"
+    ]
+   },
+   {
+    "question": "Which household substance is a base?",
+    "answer": "Baking soda solution",
+    "choices": [
+     "Vinegar",
+     "Baking soda solution",
+     "Lemon juice",
+     "Soda pop"
+    ]
+   },
+   {
+    "question": "Pure water has a pH of 7. This means it is…",
+    "answer": "neutral",
+    "choices": [
+     "acidic",
+     "concentrated",
+     "neutral",
+     "basic"
+    ]
+   },
+   {
+    "question": "In water, bases increase the concentration of…",
+    "answer": "hydroxide ions (OH⁻)",
+    "choices": [
+     "carbon dioxide",
+     "chloride ions",
+     "hydrogen ions (H⁺)",
+     "hydroxide ions (OH⁻)"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciGAS",
+  "subject": "science",
+  "title": "Gas laws",
+  "section": "Particle motion and energy",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciGAS10"
+  ],
+  "examples": [
+   {
+    "question": "At constant temperature, if the pressure on a gas increases, its volume …",
+    "answer": "decreases",
+    "choices": [
+     "stays the same",
+     "increases",
+     "decreases",
+     "doubles"
+    ]
+   },
+   {
+    "question": "At constant pressure, if a gas is heated, its volume …",
+    "answer": "increases",
+    "choices": [
+     "stays the same",
+     "halves",
+     "decreases",
+     "increases"
+    ]
+   },
+   {
+    "question": "Which law relates volume and temperature at constant pressure?",
+    "answer": "Charles's law",
+    "choices": [
+     "Avogadro's law",
+     "Boyle's law",
+     "Charles's law",
+     "Gay-Lussac's law"
+    ]
+   },
+   {
+    "question": "Which law relates pressure and volume at constant temperature?",
+    "answer": "Boyle's law",
+    "choices": [
+     "Charles's law",
+     "Boyle's law",
+     "Avogadro's law",
+     "Gay-Lussac's law"
+    ]
+   },
+   {
+    "question": "Equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. This is …",
+    "answer": "Avogadro's law",
+    "choices": [
+     "Dalton's law",
+     "Avogadro's law",
+     "Boyle's law",
+     "Charles's law"
+    ]
+   },
+   {
+    "question": "At constant volume, if a gas is heated, its pressure …",
+    "answer": "increases",
+    "choices": [
+     "halves",
+     "increases",
+     "decreases",
+     "stays the same"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCellTheory",
+  "subject": "science",
+  "title": "Cells and cell theory",
+  "section": "Cell structure",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsCellTheory10"
+  ],
+  "examples": [
+   {
+    "question": "Who stated that all cells come from existing cells?",
+    "answer": "Rudolf Virchow",
+    "choices": [
+     "Robert Hooke",
+     "Rudolf Virchow",
+     "Newton",
+     "Antonie van Leeuwenhoek"
+    ]
+   },
+   {
+    "question": "Which experiment disproved spontaneous generation?",
+    "answer": "Pasteur's swan-neck flask experiment",
+    "choices": [
+     "Newton's prism",
+     "Pasteur's swan-neck flask experiment",
+     "Mendel's pea plants",
+     "Darwin's finches"
+    ]
+   },
+   {
+    "question": "Which is a part of cell theory?",
+    "answer": "All living things are made of one or more cells",
+    "choices": [
+     "Cells never divide",
+     "All living things are made of one or more cells",
+     "Only animals have cells",
+     "Cells come from non-living matter"
+    ]
+   },
+   {
+    "question": "According to cell theory, where do new cells come from?",
+    "answer": "Existing cells",
+    "choices": [
+     "Sunlight",
+     "Air",
+     "Non-living matter",
+     "Existing cells"
+    ]
+   },
+   {
+    "question": "Which scientist concluded that all plants are made of cells?",
+    "answer": "Matthias Schleiden",
+    "choices": [
+     "Galileo",
+     "Matthias Schleiden",
+     "Louis Pasteur",
+     "Gregor Mendel"
+    ]
+   },
+   {
+    "question": "Who first saw living single-celled organisms?",
+    "answer": "Antonie van Leeuwenhoek",
+    "choices": [
+     "Antonie van Leeuwenhoek",
+     "Robert Hooke",
+     "Darwin",
+     "Mendel"
+    ]
+   },
+   {
+    "question": "Whose observations of cork cells led to the word \"cell\"?",
+    "answer": "Robert Hooke",
+    "choices": [
+     "Gregor Mendel",
+     "Isaac Newton",
+     "Robert Hooke",
+     "Charles Darwin"
+    ]
+   },
+   {
+    "question": "Are viruses made of cells?",
+    "answer": "No",
+    "choices": [
+     "No",
+     "Only some",
+     "Yes",
+     "They are plant cells"
+    ]
+   },
+   {
+    "question": "Which scientist concluded that all animals are made of cells?",
+    "answer": "Theodor Schwann",
+    "choices": [
+     "Charles Darwin",
+     "Albert Einstein",
+     "Theodor Schwann",
+     "Isaac Newton"
+    ]
+   },
+   {
+    "question": "What does cell theory say about the basic unit of life?",
+    "answer": "The cell is the basic unit of structure and function",
+    "choices": [
+     "The atom is the basic unit",
+     "The cell is the basic unit of structure and function",
+     "Tissues are the basic unit",
+     "Organs are the basic unit"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMembrane",
+  "subject": "science",
+  "title": "Structure and function of the cell membrane",
+  "section": "Cellular transport",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsMembrane10"
+  ],
+  "examples": [
+   {
+    "question": "What do glycoproteins on the membrane do?",
+    "answer": "Help cells recognize each other",
+    "choices": [
+     "Help cells recognize each other",
+     "Make ATP",
+     "Store water",
+     "Copy DNA"
+    ]
+   },
+   {
+    "question": "What faces the watery inside and outside of the cell?",
+    "answer": "The hydrophilic phosphate heads",
+    "choices": [
+     "The hydrophilic phosphate heads",
+     "The fatty acid tails",
+     "Cholesterol only",
+     "DNA"
+    ]
+   },
+   {
+    "question": "What role does cholesterol play in animal cell membranes?",
+    "answer": "It keeps the membrane flexible but stable",
+    "choices": [
+     "It digests food",
+     "It makes energy",
+     "It stores DNA",
+     "It keeps the membrane flexible but stable"
+    ]
+   },
+   {
+    "question": "What is the fluid mosaic model?",
+    "answer": "The membrane is a flexible layer with proteins moving within it",
+    "choices": [
+     "The membrane is a flexible layer with proteins moving within it",
+     "The membrane is rigid like a wall",
+     "The membrane is made of sugar only",
+     "The membrane has no proteins"
+    ]
+   },
+   {
+    "question": "The cell membrane is mainly made of a…",
+    "answer": "phospholipid bilayer",
+    "choices": [
+     "layer of DNA",
+     "protein shell only",
+     "phospholipid bilayer",
+     "cellulose wall"
+    ]
+   },
+   {
+    "question": "Why is the membrane called \"selectively permeable\"?",
+    "answer": "It lets some substances pass but not others",
+    "choices": [
+     "It lets everything through",
+     "It blocks everything",
+     "It lets some substances pass but not others",
+     "It is made of glass"
+    ]
+   },
+   {
+    "question": "Why can small non-polar molecules like O₂ cross the membrane easily?",
+    "answer": "They pass through the lipid bilayer",
+    "choices": [
+     "They are too big",
+     "They pass through the lipid bilayer",
+     "They are charged",
+     "They use pumps"
+    ]
+   },
+   {
+    "question": "Why can't ions cross the bilayer easily?",
+    "answer": "They are charged and repelled by the hydrophobic interior",
+    "choices": [
+     "They are gases",
+     "They are non-polar",
+     "They are charged and repelled by the hydrophobic interior",
+     "They are too small"
+    ]
+   },
+   {
+    "question": "What is a receptor protein?",
+    "answer": "A protein that receives chemical signals",
+    "choices": [
+     "A protein that receives chemical signals",
+     "A protein that digests food",
+     "A type of lipid",
+     "A sugar chain"
+    ]
+   },
+   {
+    "question": "What do membrane channel proteins do?",
+    "answer": "Allow specific substances to cross",
+    "choices": [
+     "Digest food",
+     "Store energy",
+     "Allow specific substances to cross",
+     "Make DNA"
+    ]
+   },
+   {
+    "question": "The phospholipid tails are…",
+    "answer": "hydrophobic (water-fearing)",
+    "choices": [
+     "charged",
+     "hydrophobic (water-fearing)",
+     "made of sugar",
+     "hydrophilic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPassive",
+  "subject": "science",
+  "title": "Types of passive transport",
+  "section": "Cellular transport",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsPassive10"
+  ],
+  "examples": [
+   {
+    "question": "Which type of passive transport is this? Glucose moving through a carrier protein down its gradient",
+    "answer": "Facilitated diffusion",
+    "choices": [
+     "Simple diffusion",
+     "Facilitated diffusion",
+     "Osmosis"
+    ]
+   },
+   {
+    "question": "Which type of passive transport is this? Water moving through aquaporins into a cell",
+    "answer": "Osmosis",
+    "choices": [
+     "Simple diffusion",
+     "Facilitated diffusion",
+     "Osmosis"
+    ]
+   },
+   {
+    "question": "Which type of passive transport is this? Carbon dioxide leaving a cell through the bilayer",
+    "answer": "Simple diffusion",
+    "choices": [
+     "Simple diffusion",
+     "Osmosis",
+     "Facilitated diffusion"
+    ]
+   },
+   {
+    "question": "Which type of passive transport is this? Water leaving a cell placed in salty water",
+    "answer": "Osmosis",
+    "choices": [
+     "Facilitated diffusion",
+     "Simple diffusion",
+     "Osmosis"
+    ]
+   },
+   {
+    "question": "Which type of passive transport is this? Oxygen crossing directly through the lipid bilayer",
+    "answer": "Simple diffusion",
+    "choices": [
+     "Osmosis",
+     "Simple diffusion",
+     "Facilitated diffusion"
+    ]
+   },
+   {
+    "question": "Which type of passive transport is this? Ions moving through a channel protein from high to low concentration",
+    "answer": "Facilitated diffusion",
+    "choices": [
+     "Osmosis",
+     "Facilitated diffusion",
+     "Simple diffusion"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsActive",
+  "subject": "science",
+  "title": "Active transport",
+  "section": "Cellular transport",
+  "grades": [
+   10
+  ],
+  "skillIds": [
+   "sciXsActive10"
+  ],
+  "examples": [
+   {
+    "question": "The sodium-potassium pump moves…",
+    "answer": "3 Na⁺ out and 2 K⁺ in using ATP",
+    "choices": [
+     "oxygen into the cell",
+     "glucose down its gradient freely",
+     "water into the cell",
+     "3 Na⁺ out and 2 K⁺ in using ATP"
+    ]
+   },
+   {
+    "question": "Which molecule provides energy for active transport?",
+    "answer": "ATP",
+    "choices": [
+     "Oxygen",
+     "ATP",
+     "Glucose directly",
+     "DNA"
+    ]
+   },
+   {
+    "question": "What is phagocytosis?",
+    "answer": "\"Cell eating\" — engulfing large particles like bacteria",
+    "choices": [
+     "\"Cell eating\" — engulfing large particles like bacteria",
+     "Cell drinking",
+     "Making proteins",
+     "Cell division"
+    ]
+   },
+   {
+    "question": "What is pinocytosis?",
+    "answer": "\"Cell drinking\" — taking in droplets of fluid",
+    "choices": [
+     "Photosynthesis",
+     "Cell eating",
+     "\"Cell drinking\" — taking in droplets of fluid",
+     "Releasing waste"
+    ]
+   },
+   {
+    "question": "A cell engulfing a large particle by surrounding it with membrane is…",
+    "answer": "endocytosis",
+    "choices": [
+     "osmosis",
+     "endocytosis",
+     "exocytosis",
+     "diffusion"
+    ]
+   },
+   {
+    "question": "What happens to active transport if a cell runs out of ATP?",
+    "answer": "It stops",
+    "choices": [
+     "It continues normally",
+     "It turns into diffusion",
+     "It speeds up",
+     "It stops"
+    ]
+   },
+   {
+    "question": "How do cells release hormones and enzymes?",
+    "answer": "By exocytosis",
+    "choices": [
+     "By phagocytosis",
+     "By diffusion only",
+     "By exocytosis",
+     "By osmosis"
+    ]
+   },
+   {
+    "question": "A cell releasing proteins in vesicles that fuse with the membrane is…",
+    "answer": "exocytosis",
+    "choices": [
+     "facilitated diffusion",
+     "exocytosis",
+     "endocytosis",
+     "osmosis"
+    ]
+   },
+   {
+    "question": "How is active transport different from passive transport?",
+    "answer": "It requires energy (ATP) and can move substances against a gradient",
+    "choices": [
+     "It only moves water",
+     "It requires energy (ATP) and can move substances against a gradient",
+     "It only happens in plants",
+     "It requires no energy"
+    ]
+   },
+   {
+    "question": "Why do root hair cells use active transport?",
+    "answer": "To absorb minerals that are more concentrated inside the root",
+    "choices": [
+     "To store water only",
+     "To absorb sunlight",
+     "To absorb minerals that are more concentrated inside the root",
+     "To release oxygen"
+    ]
+   },
+   {
+    "question": "How do nerve cells use the sodium-potassium pump?",
+    "answer": "To keep ion gradients ready for sending signals",
+    "choices": [
+     "To absorb light",
+     "To make DNA",
+     "To keep ion gradients ready for sending signals",
+     "To store food"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciIncDom",
+  "subject": "science",
+  "title": "Punnett squares: incomplete dominance and codominance",
+  "section": "Patterns of inheritance",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciIncDom10",
+   "sciIncDom11",
+   "sciIncDom12"
+  ],
+  "examples": [
+   {
+    "question": "Two pink (RW) snapdragons are crossed. What fraction of offspring are expected to be pink?",
+    "answer": "1/2",
+    "choices": [
+     "1/2",
+     "3/4",
+     "1/4",
+     "0"
+    ]
+   },
+   {
+    "question": "Two pink (RW) snapdragons are crossed. What fraction are expected to be red?",
+    "answer": "1/4",
+    "choices": [
+     "1/4",
+     "1/2",
+     "0",
+     "3/4"
+    ]
+   },
+   {
+    "question": "A roan cow has both red hairs and white hairs. This is …",
+    "answer": "codominance",
+    "choices": [
+     "complete dominance",
+     "natural selection",
+     "incomplete dominance",
+     "codominance"
+    ]
+   },
+   {
+    "question": "Red (RR) and white (WW) snapdragons produce pink (RW) offspring. This is …",
+    "answer": "incomplete dominance",
+    "choices": [
+     "complete dominance",
+     "a mutation",
+     "incomplete dominance",
+     "codominance"
+    ]
+   },
+   {
+    "question": "In incomplete dominance, a heterozygote shows …",
+    "answer": "a blend of the two traits",
+    "choices": [
+     "both traits side by side",
+     "a blend of the two traits",
+     "only the dominant trait",
+     "only the recessive trait"
+    ]
+   },
+   {
+    "question": "Blood type AB, where both A and B are fully expressed, shows …",
+    "answer": "codominance",
+    "choices": [
+     "sex-linked inheritance",
+     "recessive inheritance",
+     "codominance",
+     "incomplete dominance"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPhotoCh",
+  "subject": "science",
+  "title": "The chemistry of photosynthesis and cellular respiration",
+  "section": "Photosynthesis",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciPhotoCh10",
+   "sciPhotoCh11",
+   "sciPhotoCh12"
+  ],
+  "examples": [
+   {
+    "question": "Where does glycolysis take place?",
+    "answer": "The cytoplasm",
+    "choices": [
+     "The nucleus",
+     "The chloroplast",
+     "The cytoplasm",
+     "The cell wall"
+    ]
+   },
+   {
+    "question": "What are the reactants of photosynthesis?",
+    "answer": "Carbon dioxide and water",
+    "choices": [
+     "Glucose and carbon dioxide",
+     "Carbon dioxide and water",
+     "Glucose and oxygen",
+     "Oxygen and water"
+    ]
+   },
+   {
+    "question": "Which stage of cellular respiration makes the most ATP?",
+    "answer": "The electron transport chain",
+    "choices": [
+     "Fermentation",
+     "The Calvin cycle",
+     "The electron transport chain",
+     "Glycolysis"
+    ]
+   },
+   {
+    "question": "What are the reactants of cellular respiration?",
+    "answer": "Glucose and oxygen",
+    "choices": [
+     "Water and light",
+     "Carbon dioxide and water",
+     "Oxygen and ATP",
+     "Glucose and oxygen"
+    ]
+   },
+   {
+    "question": "What are the products of cellular respiration?",
+    "answer": "Carbon dioxide, water and ATP",
+    "choices": [
+     "Carbon dioxide, water and ATP",
+     "Oxygen and light",
+     "Glucose and water",
+     "Glucose and oxygen"
+    ]
+   },
+   {
+    "question": "Which molecule carries usable energy in the cell?",
+    "answer": "ATP",
+    "choices": [
+     "DNA",
+     "ATP",
+     "Water",
+     "Glucose only"
+    ]
+   },
+   {
+    "question": "Where does the Calvin cycle take place?",
+    "answer": "The stroma of the chloroplast",
+    "choices": [
+     "The cytoplasm",
+     "The nucleus",
+     "The mitochondrial matrix",
+     "The stroma of the chloroplast"
+    ]
+   },
+   {
+    "question": "What are the products of photosynthesis?",
+    "answer": "Glucose and oxygen",
+    "choices": [
+     "Water and ATP",
+     "Glucose and oxygen",
+     "Oxygen and nitrogen",
+     "Carbon dioxide and water"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciEvoEvid",
+  "subject": "science",
+  "title": "Evaluate evidence of evolution",
+  "section": "Adaptations and natural selection",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciEvoEvid10",
+   "sciEvoEvid11",
+   "sciEvoEvid12"
+  ],
+  "examples": [
+   {
+    "question": "Bird wings and insect wings do the same job but evolved separately. They are …",
+    "answer": "analogous structures",
+    "choices": [
+     "homologous structures",
+     "analogous structures",
+     "vestigial structures",
+     "identical structures"
+    ]
+   },
+   {
+    "question": "Similar early embryos in fish, birds and humans suggest …",
+    "answer": "common ancestry",
+    "choices": [
+     "no relationship",
+     "recent extinction",
+     "common ancestry",
+     "identical adult forms"
+    ]
+   },
+   {
+    "question": "A human arm, a bat wing and a whale flipper share the same bone pattern. These are …",
+    "answer": "homologous structures",
+    "choices": [
+     "analogous structures",
+     "vestigial structures",
+     "homologous structures",
+     "fossils"
+    ]
+   },
+   {
+    "question": "Species whose DNA sequences are more similar are …",
+    "answer": "more closely related",
+    "choices": [
+     "more closely related",
+     "unrelated",
+     "the same species",
+     "less closely related"
+    ]
+   },
+   {
+    "question": "A whale's tiny leftover hip bones are …",
+    "answer": "vestigial structures",
+    "choices": [
+     "vestigial structures",
+     "homologous structures",
+     "new adaptations",
+     "analogous structures"
+    ]
+   },
+   {
+    "question": "In undisturbed rock, fossils in deeper layers are generally …",
+    "answer": "older",
+    "choices": [
+     "made of metal",
+     "younger",
+     "older",
+     "the same age"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCarbon",
+  "subject": "science",
+  "title": "The carbon cycle and carrying capacity",
+  "section": "Ecosystems",
+  "grades": [
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciCarbon10",
+   "sciCarbon11",
+   "sciCarbon12"
+  ],
+  "examples": [
+   {
+    "question": "Which processes return carbon dioxide to the air?",
+    "answer": "Respiration and burning fuels",
+    "choices": [
+     "Condensation and freezing",
+     "Evaporation only",
+     "Photosynthesis only",
+     "Respiration and burning fuels"
+    ]
+   },
+   {
+    "question": "Where is carbon stored for millions of years?",
+    "answer": "Fossil fuels and rocks",
+    "choices": [
+     "Living leaves",
+     "Fossil fuels and rocks",
+     "Fresh rainwater",
+     "Clouds"
+    ]
+   },
+   {
+    "question": "Which process removes carbon dioxide from the air?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Burning fuel",
+     "Photosynthesis",
+     "Decomposition",
+     "Respiration"
+    ]
+   },
+   {
+    "question": "A population growing without limits shows … growth.",
+    "answer": "exponential (J-shaped)",
+    "choices": [
+     "exponential (J-shaped)",
+     "logistic (S-shaped)",
+     "negative",
+     "zero"
+    ]
+   },
+   {
+    "question": "A population that levels off at carrying capacity shows … growth.",
+    "answer": "logistic (S-shaped)",
+    "choices": [
+     "logistic (S-shaped)",
+     "unlimited",
+     "exponential (J-shaped)",
+     "random"
+    ]
+   },
+   {
+    "question": "The largest population an environment can support long-term is its …",
+    "answer": "carrying capacity",
+    "choices": [
+     "carrying capacity",
+     "food chain",
+     "biodiversity",
+     "birth rate"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciEMG",
+  "subject": "science",
+  "title": "Electricity and magnetism concepts",
+  "section": "Electricity and magnetism",
+  "grades": [
+   11
+  ],
+  "skillIds": [
+   "sciEMG11"
+  ],
+  "examples": [
+   {
+    "question": "Opposite charges … each other.",
+    "answer": "attract",
+    "choices": [
+     "ignore",
+     "cancel",
+     "attract",
+     "repel"
+    ]
+   },
+   {
+    "question": "Like charges … each other.",
+    "answer": "repel",
+    "choices": [
+     "cancel",
+     "ignore",
+     "repel",
+     "attract"
+    ]
+   },
+   {
+    "question": "The unit of electric current is the …",
+    "answer": "ampere",
+    "choices": [
+     "volt",
+     "ohm",
+     "ampere",
+     "watt"
+    ]
+   },
+   {
+    "question": "Moving a magnet through a coil of wire produces …",
+    "answer": "an induced current",
+    "choices": [
+     "a gravitational field",
+     "a sound wave",
+     "no effect",
+     "an induced current"
+    ]
+   },
+   {
+    "question": "In a series circuit, the current is … at every point.",
+    "answer": "the same",
+    "choices": [
+     "the same",
+     "different",
+     "zero",
+     "doubled"
+    ]
+   },
+   {
+    "question": "The force between two charges depends on the distance between them. This is …",
+    "answer": "Coulomb's law",
+    "choices": [
+     "Ohm's law",
+     "Boyle's law",
+     "Hooke's law",
+     "Coulomb's law"
+    ]
+   },
+   {
+    "question": "The unit of electric potential difference is the …",
+    "answer": "volt",
+    "choices": [
+     "ohm",
+     "volt",
+     "ampere",
+     "watt"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciBIO",
+  "subject": "science",
+  "title": "Biological molecules",
+  "section": "Cells",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "sciBIO12"
+  ],
+  "examples": [
+   {
+    "question": "Which type of biological molecule is cellulose ?",
+    "answer": "Carbohydrate",
+    "choices": [
+     "Nucleic acid",
+     "Protein",
+     "Lipid",
+     "Carbohydrate"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is a phospholipid ?",
+    "answer": "Lipid",
+    "choices": [
+     "Carbohydrate",
+     "Nucleic acid",
+     "Lipid",
+     "Protein"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is DNA ?",
+    "answer": "Nucleic acid",
+    "choices": [
+     "Carbohydrate",
+     "Lipid",
+     "Protein",
+     "Nucleic acid"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is hemoglobin ?",
+    "answer": "Protein",
+    "choices": [
+     "Protein",
+     "Carbohydrate",
+     "Lipid",
+     "Nucleic acid"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is an enzyme such as amylase ?",
+    "answer": "Protein",
+    "choices": [
+     "Nucleic acid",
+     "Carbohydrate",
+     "Protein",
+     "Lipid"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is cholesterol ?",
+    "answer": "Lipid",
+    "choices": [
+     "Lipid",
+     "Nucleic acid",
+     "Carbohydrate",
+     "Protein"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is starch ?",
+    "answer": "Carbohydrate",
+    "choices": [
+     "Nucleic acid",
+     "Protein",
+     "Lipid",
+     "Carbohydrate"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is glucose ?",
+    "answer": "Carbohydrate",
+    "choices": [
+     "Carbohydrate",
+     "Lipid",
+     "Nucleic acid",
+     "Protein"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is olive oil ?",
+    "answer": "Lipid",
+    "choices": [
+     "Nucleic acid",
+     "Protein",
+     "Carbohydrate",
+     "Lipid"
+    ]
+   },
+   {
+    "question": "Which type of biological molecule is RNA ?",
+    "answer": "Nucleic acid",
+    "choices": [
+     "Carbohydrate",
+     "Nucleic acid",
+     "Lipid",
+     "Protein"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPNN",
+  "subject": "science",
+  "title": "Heredity: Punnett square probabilities",
+  "section": "Genetics",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "sciPNN12"
+  ],
+  "examples": [
+   {
+    "question": "In humans, sex is determined by chromosomes. A child with XY chromosomes is …",
+    "answer": "male",
+    "choices": [
+     "neither",
+     "male",
+     "female",
+     "both"
+    ]
+   },
+   {
+    "question": "An AA parent and an aa parent have a child. What is the probability the child is Aa?",
+    "answer": "100%",
+    "choices": [
+     "25%",
+     "100%",
+     "50%",
+     "0%"
+    ]
+   },
+   {
+    "question": "Two carriers (Aa) of a recessive disorder have a child. What is the probability the child has the disorder (aa)?",
+    "answer": "25%",
+    "choices": [
+     "25%",
+     "50%",
+     "0%",
+     "75%"
+    ]
+   },
+   {
+    "question": "Two carriers (Aa) have a child. What is the probability the child is a carrier (Aa)?",
+    "answer": "50%",
+    "choices": [
+     "100%",
+     "75%",
+     "50%",
+     "25%"
+    ]
+   },
+   {
+    "question": "Red-green colour blindness is X-linked recessive. A man who is colour-blind passes the allele to his …",
+    "answer": "daughters",
+    "choices": [
+     "sons",
+     "all children",
+     "no one",
+     "daughters"
+    ]
+   },
+   {
+    "question": "An Aa parent and an aa parent have a child. What is the probability of aa?",
+    "answer": "50%",
+    "choices": [
+     "25%",
+     "75%",
+     "100%",
+     "50%"
+    ]
+   },
+   {
+    "question": "Incomplete dominance means the heterozygote shows …",
+    "answer": "a blend of both traits",
+    "choices": [
+     "a blend of both traits",
+     "only the recessive trait",
+     "only the dominant trait",
+     "neither trait"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciGHG",
+  "subject": "science",
+  "title": "Climate and greenhouse gases",
+  "section": "The atmosphere",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "sciGHG12"
+  ],
+  "examples": [
+   {
+    "question": "Which greenhouse gas is released by cattle and rice paddies?",
+    "answer": "Methane",
+    "choices": [
+     "thermal expansion of water",
+     "Methane",
+     "The greenhouse effect",
+     "Carbon dioxide"
+    ]
+   },
+   {
+    "question": "What is the layer of gas that protects Earth from most ultraviolet radiation?",
+    "answer": "Ozone layer",
+    "choices": [
+     "Ozone layer",
+     "sulfur dioxide",
+     "Carbon dioxide",
+     "thermal expansion of water"
+    ]
+   },
+   {
+    "question": "What process traps heat in Earth's atmosphere?",
+    "answer": "The greenhouse effect",
+    "choices": [
+     "The greenhouse effect",
+     "thermal expansion of water",
+     "Ozone layer",
+     "Methane"
+    ]
+   },
+   {
+    "question": "Which gas is the main greenhouse gas released by burning fossil fuels?",
+    "answer": "Carbon dioxide",
+    "choices": [
+     "thermal expansion of water",
+     "CFCs",
+     "Carbon dioxide",
+     "The greenhouse effect"
+    ]
+   },
+   {
+    "question": "Burning fossil fuels also causes acid rain by releasing …",
+    "answer": "sulfur dioxide",
+    "choices": [
+     "CFCs",
+     "Carbon dioxide",
+     "sulfur dioxide",
+     "Ozone layer"
+    ]
+   },
+   {
+    "question": "Which gas, once used in refrigerators, damaged the ozone layer?",
+    "answer": "CFCs",
+    "choices": [
+     "Methane",
+     "sulfur dioxide",
+     "The greenhouse effect",
+     "CFCs"
+    ]
+   },
+   {
+    "question": "Rising sea levels are partly caused by melting ice and …",
+    "answer": "thermal expansion of water",
+    "choices": [
+     "thermal expansion of water",
+     "sulfur dioxide",
+     "Carbon dioxide",
+     "The greenhouse effect"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciENV",
+  "subject": "science",
+  "title": "Energy and environment",
+  "section": "Natural resources and human impacts",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "sciENV12"
+  ],
+  "examples": [
+   {
+    "question": "Is solar power a renewable or nonrenewable energy source?",
+    "answer": "Renewable",
+    "choices": [
+     "Nonrenewable",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Is hydroelectric power a renewable or nonrenewable energy source?",
+    "answer": "Renewable",
+    "choices": [
+     "Nonrenewable",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Is uranium (nuclear fission) a renewable or nonrenewable energy source?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Nonrenewable",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Is natural gas a renewable or nonrenewable energy source?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is oil (petroleum) a renewable or nonrenewable energy source?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is biomass (wood, crops) a renewable or nonrenewable energy source?",
+    "answer": "Renewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is geothermal energy a renewable or nonrenewable energy source?",
+    "answer": "Renewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   },
+   {
+    "question": "Is wind power a renewable or nonrenewable energy source?",
+    "answer": "Renewable",
+    "choices": [
+     "Nonrenewable",
+     "Renewable"
+    ]
+   },
+   {
+    "question": "Is coal a renewable or nonrenewable energy source?",
+    "answer": "Nonrenewable",
+    "choices": [
+     "Renewable",
+     "Nonrenewable"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSTR",
+  "subject": "science",
+  "title": "Stars and the universe",
+  "section": "Astronomy",
+  "grades": [
+   12
+  ],
+  "skillIds": [
+   "sciSTR12"
+  ],
+  "examples": [
+   {
+    "question": "Which unit measures the distance light travels in one year?",
+    "answer": "Light-year",
+    "choices": [
+     "Big Bang theory",
+     "Expanding",
+     "Black hole",
+     "Light-year"
+    ]
+   },
+   {
+    "question": "The Sun will eventually become a red giant and then a …",
+    "answer": "White dwarf",
+    "choices": [
+     "White dwarf",
+     "Light-year",
+     "Expanding",
+     "Supernova"
+    ]
+   },
+   {
+    "question": "The theory that the universe began from a hot, dense state is the …",
+    "answer": "Big Bang theory",
+    "choices": [
+     "Supernova",
+     "Black hole",
+     "Nuclear fission",
+     "Big Bang theory"
+    ]
+   },
+   {
+    "question": "A star about 8 times the Sun's mass or more ends its life as a …",
+    "answer": "Supernova",
+    "choices": [
+     "Supernova",
+     "Big Bang theory",
+     "Black hole",
+     "Nuclear fission"
+    ]
+   },
+   {
+    "question": "What process powers stars like the Sun?",
+    "answer": "Nuclear fusion",
+    "choices": [
+     "The Milky Way",
+     "Big Bang theory",
+     "Light-year",
+     "Nuclear fusion"
+    ]
+   },
+   {
+    "question": "Distant galaxies shifting to longer (redder) wavelengths shows that the universe is …",
+    "answer": "Expanding",
+    "choices": [
+     "Nuclear fusion",
+     "Black hole",
+     "White dwarf",
+     "Expanding"
+    ]
+   },
+   {
+    "question": "What is the name of our galaxy?",
+    "answer": "The Milky Way",
+    "choices": [
+     "The Milky Way",
+     "Light-year",
+     "Big Bang theory",
+     "Expanding"
+    ]
+   },
+   {
+    "question": "What is the leftover core of a massive star that has a gravity so strong that light cannot escape?",
+    "answer": "Black hole",
+    "choices": [
+     "White dwarf",
+     "Black hole",
+     "Light-year",
+     "Supernova"
+    ]
+   }
+  ]
+ }
+]

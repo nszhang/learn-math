@@ -22,6 +22,12 @@ for key, qs in out.items():
         if k in seen: errs.append(f'{key}: duplicate question: {prompt[:50]}')
         seen.add(k)
         if re.search(r'<(?!/?(em|strong|b|i|br|sup|sub)\b)', prompt + why): errs.append(f'{key}: only <em>, <strong>, <br>, <sup>, <sub> tags allowed: {prompt[:50]}')
+# giveaway: the right answer stands out by length (much longer/more detailed, or much shorter, than every wrong answer)
+L = lambda s: len(re.sub(r'<[^>]+>', '', str(s)))
+for key, qs in out.items():
+    bad = [q for q in qs if isinstance(q, list) and len(q) == 4 and isinstance(q[2], list) and len(q[2]) == 3 and
+           ((L(q[1]) * 1.8 < min(map(L, q[2])) and min(map(L, q[2])) - L(q[1]) > 8) or (L(q[1]) > 1.8 * max(map(L, q[2])) and L(q[1]) - max(map(L, q[2])) > 12))]
+    if len(bad) >= 3: errs.append(f'{key}: in {len(bad)} questions the right answer is much longer or shorter than all the wrong answers, which gives it away — make the wrong answers similar in length, detail and form (e.g. {bad[0][0][:60]!r})')
 missing = [k for k in banks if k not in out]
 print(f'{len(out)} of {len(banks)} banks done, {n} questions; {len(errs)} problems; {len(missing)} banks missing')
 for e in errs[:40]: print('  ', e)

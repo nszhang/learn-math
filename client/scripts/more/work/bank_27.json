@@ -1,0 +1,2550 @@
+[
+ {
+  "key": "sciXsBallStk",
+  "subject": "science",
+  "title": "Identify chemical formulas for ball-and-stick models",
+  "section": "Modeling matter",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsBallStk7",
+   "sciXsBallStk9"
+  ],
+  "examples": [
+   {
+    "question": "A ball-and-stick model has 2 N balls joined by sticks. Which formula does it show?",
+    "answer": "N₂",
+    "choices": [
+     "CO₂",
+     "NH₃",
+     "N₂",
+     "NaCl"
+    ]
+   },
+   {
+    "question": "A ball-and-stick model has 1 C ball + 2 O balls joined by sticks. Which formula does it show?",
+    "answer": "CO₂",
+    "choices": [
+     "N₂",
+     "O₂",
+     "H₂O",
+     "CO₂"
+    ]
+   },
+   {
+    "question": "A ball-and-stick model has 1 N ball + 3 H balls joined by sticks. Which formula does it show?",
+    "answer": "NH₃",
+    "choices": [
+     "C₆H₁₂O₆",
+     "H₂O",
+     "N₂",
+     "NH₃"
+    ]
+   },
+   {
+    "question": "A ball-and-stick model has 2 O balls joined by sticks. Which formula does it show?",
+    "answer": "O₂",
+    "choices": [
+     "C₆H₁₂O₆",
+     "H₂O₂",
+     "O₂",
+     "N₂"
+    ]
+   },
+   {
+    "question": "A ball-and-stick model has 2 H balls + 1 O ball joined by sticks. Which formula does it show?",
+    "answer": "H₂O",
+    "choices": [
+     "CaCO₃",
+     "CO₂",
+     "CH₄",
+     "H₂O"
+    ]
+   },
+   {
+    "question": "A ball-and-stick model has 1 C ball + 4 H balls joined by sticks. Which formula does it show?",
+    "answer": "CH₄",
+    "choices": [
+     "N₂",
+     "O₂",
+     "CH₄",
+     "H₂O"
+    ]
+   },
+   {
+    "question": "A ball-and-stick model has 6 C balls + 12 H balls + 6 O balls joined by sticks. Which formula does it show?",
+    "answer": "C₆H₁₂O₆",
+    "choices": [
+     "NH₃",
+     "CH₄",
+     "C₆H₁₂O₆",
+     "O₂"
+    ]
+   },
+   {
+    "question": "A ball-and-stick model has 2 H balls + 2 O balls joined by sticks. Which formula does it show?",
+    "answer": "H₂O₂",
+    "choices": [
+     "H₂O₂",
+     "H₂O",
+     "C₆H₁₂O₆",
+     "NH₃"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsElCmpM",
+  "subject": "science",
+  "title": "Classify elements and compounds using models",
+  "section": "Modeling matter",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsElCmpM7",
+   "sciXsElCmpM9"
+  ],
+  "examples": [
+   {
+    "question": "Does this model show an element or a compound? A model with one red ball and two white balls (H₂O)",
+    "answer": "Compound",
+    "choices": [
+     "Element",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Does this model show an element or a compound? A model with one black ball joined to two red balls (CO₂)",
+    "answer": "Compound",
+    "choices": [
+     "Compound",
+     "Element"
+    ]
+   },
+   {
+    "question": "Does this model show an element or a compound? A model with two identical blue balls joined (N₂)",
+    "answer": "Element",
+    "choices": [
+     "Compound",
+     "Element"
+    ]
+   },
+   {
+    "question": "Does this model show an element or a compound? A model with two identical red balls joined (O₂)",
+    "answer": "Element",
+    "choices": [
+     "Element",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Does this model show an element or a compound? A model of single grey balls packed together (iron)",
+    "answer": "Element",
+    "choices": [
+     "Element",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Does this model show an element or a compound? A model with one blue ball and three white balls (NH₃)",
+    "answer": "Compound",
+    "choices": [
+     "Element",
+     "Compound"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsRxEnergy",
+  "subject": "science",
+  "title": "Describe energy changes in chemical reactions",
+  "section": "Chemical reactions",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsRxEnergy7",
+   "sciXsRxEnergy9"
+  ],
+  "examples": [
+   {
+    "question": "Does this reaction release or absorb energy? A cold pack becoming cold when squeezed",
+    "answer": "Absorbs energy (endothermic)",
+    "choices": [
+     "Absorbs energy (endothermic)",
+     "Releases energy (exothermic)"
+    ]
+   },
+   {
+    "question": "Does this reaction release or absorb energy? Burning wood in a campfire",
+    "answer": "Releases energy (exothermic)",
+    "choices": [
+     "Releases energy (exothermic)",
+     "Absorbs energy (endothermic)"
+    ]
+   },
+   {
+    "question": "Does this reaction release or absorb energy? Fireworks exploding",
+    "answer": "Releases energy (exothermic)",
+    "choices": [
+     "Releases energy (exothermic)",
+     "Absorbs energy (endothermic)"
+    ]
+   },
+   {
+    "question": "Does this reaction release or absorb energy? Baking soda and vinegar getting colder",
+    "answer": "Absorbs energy (endothermic)",
+    "choices": [
+     "Absorbs energy (endothermic)",
+     "Releases energy (exothermic)"
+    ]
+   },
+   {
+    "question": "Does this reaction release or absorb energy? A hand warmer heating up",
+    "answer": "Releases energy (exothermic)",
+    "choices": [
+     "Releases energy (exothermic)",
+     "Absorbs energy (endothermic)"
+    ]
+   },
+   {
+    "question": "Does this reaction release or absorb energy? Photosynthesis in leaves",
+    "answer": "Absorbs energy (endothermic)",
+    "choices": [
+     "Absorbs energy (endothermic)",
+     "Releases energy (exothermic)"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSoap",
+  "subject": "science",
+  "title": "Explore chemical structure and properties: soapmaking",
+  "section": "Chemical reactions",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsSoap7",
+   "sciXsSoap9"
+  ],
+  "examples": [
+   {
+    "question": "Why does soap help remove oily dirt?",
+    "answer": "One end of each soap molecule attracts oil and the other attracts water",
+    "choices": [
+     "One end of each soap molecule attracts oil and the other attracts water",
+     "Soap is magnetic",
+     "Soap freezes oil",
+     "Soap dissolves skin"
+    ]
+   },
+   {
+    "question": "Which end of a soap molecule is hydrophilic?",
+    "answer": "The charged head",
+    "choices": [
+     "The charged head",
+     "Neither end",
+     "Both ends",
+     "The long tail"
+    ]
+   },
+   {
+    "question": "Why can soap clean grease?",
+    "answer": "One end of a soap molecule attracts water and the other attracts oil",
+    "choices": [
+     "One end of a soap molecule attracts water and the other attracts oil",
+     "Soap freezes grease",
+     "Soap dissolves dirt into gas",
+     "Soap is magnetic"
+    ]
+   },
+   {
+    "question": "Soap is made by reacting fats or oils with…",
+    "answer": "a strong base, like sodium hydroxide",
+    "choices": [
+     "sand",
+     "a strong base, like sodium hydroxide",
+     "plain water",
+     "sugar"
+    ]
+   },
+   {
+    "question": "Is making soap a chemical change?",
+    "answer": "Yes — new substances form",
+    "choices": [
+     "No — it is melting",
+     "No — it is only mixing",
+     "Yes — new substances form"
+    ]
+   },
+   {
+    "question": "What is the chemical reaction that makes soap called?",
+    "answer": "Saponification",
+    "choices": [
+     "Saponification",
+     "Photosynthesis",
+     "Combustion",
+     "Fermentation"
+    ]
+   },
+   {
+    "question": "Why should soap makers wear gloves and goggles?",
+    "answer": "The base (lye) used is caustic and can burn skin",
+    "choices": [
+     "Soap smells",
+     "Soap is hot",
+     "The base (lye) used is caustic and can burn skin",
+     "Oil is poisonous"
+    ]
+   },
+   {
+    "question": "Which property of soap comes from its chemical structure?",
+    "answer": "It can mix with both water and oil",
+    "choices": [
+     "It is always blue",
+     "It glows",
+     "It is very heavy",
+     "It can mix with both water and oil"
+    ]
+   },
+   {
+    "question": "Why does soap not work as well in very hard water?",
+    "answer": "Minerals in hard water react with soap to form scum",
+    "choices": [
+     "Hard water has no water",
+     "Soap needs salt",
+     "Minerals in hard water react with soap to form scum",
+     "Hard water is too cold"
+    ]
+   },
+   {
+    "question": "What are the tiny clusters soap forms around oil called?",
+    "answer": "Micelles",
+    "choices": [
+     "Crystals",
+     "Bubbles of air",
+     "Cells",
+     "Micelles"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsFlavour",
+  "subject": "science",
+  "title": "Explore chemical structure and properties: food flavours",
+  "section": "Chemical reactions",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsFlavour7",
+   "sciXsFlavour9"
+  ],
+  "examples": [
+   {
+    "question": "Why does cooking change food flavour?",
+    "answer": "Heat causes chemical reactions that make new flavour compounds",
+    "choices": [
+     "Heat removes all flavour",
+     "Heat causes chemical reactions that make new flavour compounds",
+     "Nothing changes",
+     "Food melts"
+    ]
+   },
+   {
+    "question": "How can changing a molecule's structure change its flavour?",
+    "answer": "Different shapes fit different taste and smell receptors",
+    "choices": [
+     "Different shapes fit different taste and smell receptors",
+     "It changes the mass only",
+     "It changes the colour only",
+     "Structure doesn't matter"
+    ]
+   },
+   {
+    "question": "Why do vanilla extract and artificial vanilla taste similar?",
+    "answer": "Both contain the same flavour molecule, vanillin",
+    "choices": [
+     "They are made from the same plant",
+     "Both contain the same flavour molecule, vanillin",
+     "They are both yellow",
+     "They are both sugar"
+    ]
+   },
+   {
+    "question": "Which compound gives bananas their smell?",
+    "answer": "Isoamyl acetate (an ester)",
+    "choices": [
+     "Isoamyl acetate (an ester)",
+     "Water",
+     "Sodium chloride",
+     "Carbon dioxide"
+    ]
+   },
+   {
+    "question": "Many fruit flavours come from compounds called…",
+    "answer": "esters",
+    "choices": [
+     "proteins only",
+     "metals",
+     "esters",
+     "salts only"
+    ]
+   },
+   {
+    "question": "Why do chili peppers taste hot?",
+    "answer": "Capsaicin activates heat-sensing receptors",
+    "choices": [
+     "They are warm",
+     "They contain fire",
+     "They have salt",
+     "Capsaicin activates heat-sensing receptors"
+    ]
+   },
+   {
+    "question": "What makes table sugar taste sweet?",
+    "answer": "The shape of sucrose molecules fits sweet taste receptors",
+    "choices": [
+     "Its crystal size only",
+     "Its white colour",
+     "The shape of sucrose molecules fits sweet taste receptors",
+     "Its smell"
+    ]
+   },
+   {
+    "question": "Why can lemons taste sour?",
+    "answer": "They contain citric acid",
+    "choices": [
+     "They contain oil",
+     "They contain sugar only",
+     "They contain citric acid",
+     "They are salty"
+    ]
+   },
+   {
+    "question": "How does smell affect taste?",
+    "answer": "Much of flavour comes from aroma molecules reaching the nose",
+    "choices": [
+     "Smell has no effect",
+     "Smell only works when sleeping",
+     "Taste comes only from the tongue",
+     "Much of flavour comes from aroma molecules reaching the nose"
+    ]
+   },
+   {
+    "question": "Why can artificial and natural vanilla taste alike?",
+    "answer": "Both contain the vanillin molecule",
+    "choices": [
+     "Both contain the vanillin molecule",
+     "They are both brown",
+     "They come from the same farm",
+     "They cost the same"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSynth",
+  "subject": "science",
+  "title": "Synthetic materials",
+  "section": "Chemical reactions",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciXsSynth7"
+  ],
+  "examples": [
+   {
+    "question": "What is a synthetic material?",
+    "answer": "A material made by people through chemical reactions",
+    "choices": [
+     "A material found in nature unchanged",
+     "A material made by people through chemical reactions",
+     "Any rock",
+     "Any metal"
+    ]
+   },
+   {
+    "question": "Which is a synthetic material?",
+    "answer": "Nylon",
+    "choices": [
+     "Wood",
+     "Cotton",
+     "Wool",
+     "Nylon"
+    ]
+   },
+   {
+    "question": "From which natural resource are most plastics made?",
+    "answer": "Petroleum (oil)",
+    "choices": [
+     "Petroleum (oil)",
+     "Iron ore",
+     "Water",
+     "Sand"
+    ]
+   },
+   {
+    "question": "Which is made from a natural material, not synthetic?",
+    "answer": "A wool sweater",
+    "choices": [
+     "A wool sweater",
+     "A nylon jacket",
+     "A plastic bottle",
+     "A polyester shirt"
+    ]
+   },
+   {
+    "question": "How is nylon made?",
+    "answer": "By chemical reactions joining small molecules into long chains",
+    "choices": [
+     "By chemical reactions joining small molecules into long chains",
+     "By spinning silkworm thread",
+     "By melting rocks",
+     "By cutting trees"
+    ]
+   },
+   {
+    "question": "What is one advantage of synthetic materials?",
+    "answer": "They can be designed with useful properties like waterproofing",
+    "choices": [
+     "They always biodegrade quickly",
+     "They can be designed with useful properties like waterproofing",
+     "They never need resources",
+     "They are always natural"
+    ]
+   },
+   {
+    "question": "Which material is synthetic?",
+    "answer": "Polyester",
+    "choices": [
+     "Cotton",
+     "Silk",
+     "Leather",
+     "Polyester"
+    ]
+   },
+   {
+    "question": "Kevlar, used in bulletproof vests, is…",
+    "answer": "a strong synthetic fibre",
+    "choices": [
+     "a strong synthetic fibre",
+     "a metal",
+     "a natural fibre from sheep",
+     "a type of glass"
+    ]
+   },
+   {
+    "question": "What is one disadvantage of many plastics?",
+    "answer": "They take hundreds of years to break down",
+    "choices": [
+     "They are too heavy",
+     "They are made from trees",
+     "They take hundreds of years to break down",
+     "They dissolve in rain"
+    ]
+   },
+   {
+    "question": "Which natural resource is used to make most plastics?",
+    "answer": "Petroleum",
+    "choices": [
+     "Sand",
+     "Wood",
+     "Iron",
+     "Petroleum"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsThermT",
+  "subject": "science",
+  "title": "Compare thermal energy transfers",
+  "section": "Thermal energy",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsThermT7",
+   "sciXsThermT9"
+  ],
+  "examples": [
+   {
+    "question": "How does a hot-air balloon rise?",
+    "answer": "Heated air inside becomes less dense and rises (convection)",
+    "choices": [
+     "Wind only",
+     "Heated air inside becomes less dense and rises (convection)",
+     "Conduction lifts it",
+     "Radiation lifts it"
+    ]
+   },
+   {
+    "question": "Why do thermoses have a vacuum layer?",
+    "answer": "A vacuum stops conduction and convection",
+    "choices": [
+     "It makes the thermos lighter only",
+     "A vacuum stops conduction and convection",
+     "It reflects sound",
+     "It adds heat"
+    ]
+   },
+   {
+    "question": "How does a radiator heat a room?",
+    "answer": "Mostly by convection currents of warm air",
+    "choices": [
+     "Only by conduction through the floor",
+     "Mostly by convection currents of warm air",
+     "By light",
+     "Only by radiation"
+    ]
+   },
+   {
+    "question": "Warm air rising from a heater and cool air sinking is…",
+    "answer": "convection",
+    "choices": [
+     "conduction",
+     "convection",
+     "radiation"
+    ]
+   },
+   {
+    "question": "Why do pot handles often have plastic grips?",
+    "answer": "Plastic is a poor conductor of heat",
+    "choices": [
+     "Plastic is pretty",
+     "Plastic conducts heat well",
+     "Plastic is a poor conductor of heat",
+     "Plastic is cold"
+    ]
+   },
+   {
+    "question": "Why does a metal bench feel colder than a wooden bench at the same temperature?",
+    "answer": "Metal conducts heat away from your skin faster",
+    "choices": [
+     "Metal reflects cold",
+     "Wood is heated",
+     "Metal is actually colder",
+     "Metal conducts heat away from your skin faster"
+    ]
+   },
+   {
+    "question": "Heat travelling through a metal spoon is…",
+    "answer": "conduction",
+    "choices": [
+     "convection",
+     "radiation",
+     "conduction"
+    ]
+   },
+   {
+    "question": "Why does a dark car get hot in the sun?",
+    "answer": "It absorbs radiant energy",
+    "choices": [
+     "It reflects light",
+     "Convection from the engine",
+     "It absorbs radiant energy",
+     "It conducts heat from the road only"
+    ]
+   },
+   {
+    "question": "Which transfers heat through empty space?",
+    "answer": "Radiation",
+    "choices": [
+     "Radiation",
+     "Convection",
+     "None",
+     "Conduction"
+    ]
+   },
+   {
+    "question": "Feeling the Sun's warmth on your face is…",
+    "answer": "radiation",
+    "choices": [
+     "radiation",
+     "conduction",
+     "convection"
+    ]
+   },
+   {
+    "question": "Which material is the best conductor of heat?",
+    "answer": "Copper",
+    "choices": [
+     "Copper",
+     "Air",
+     "Wood",
+     "Plastic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMemb",
+  "subject": "science",
+  "title": "Diffusion across membranes",
+  "section": "Solutions",
+  "grades": [
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsMemb7",
+   "sciXsMemb8"
+  ],
+  "examples": [
+   {
+    "question": "Why does salt on a slug harm it?",
+    "answer": "Water leaves its cells by osmosis",
+    "choices": [
+     "Salt is cold",
+     "Water leaves its cells by osmosis",
+     "Salt makes it grow",
+     "Salt is too heavy"
+    ]
+   },
+   {
+    "question": "Why do wilted celery stalks become crisp in water?",
+    "answer": "Cells take in water by osmosis",
+    "choices": [
+     "Light enters",
+     "Water cools them",
+     "The celery grows",
+     "Cells take in water by osmosis"
+    ]
+   },
+   {
+    "question": "What drives diffusion?",
+    "answer": "Random particle motion",
+    "choices": [
+     "Magnets",
+     "Gravity only",
+     "Electricity",
+     "Random particle motion"
+    ]
+   },
+   {
+    "question": "Which can diffuse easily across a cell membrane?",
+    "answer": "Oxygen",
+    "choices": [
+     "Whole bacteria",
+     "Oxygen",
+     "Large proteins",
+     "Starch"
+    ]
+   },
+   {
+    "question": "In diffusion, particles move from…",
+    "answer": "high concentration to low concentration",
+    "choices": [
+     "cold to hot only",
+     "high concentration to low concentration",
+     "nowhere",
+     "low concentration to high concentration"
+    ]
+   },
+   {
+    "question": "What is osmosis?",
+    "answer": "Diffusion of water across a membrane",
+    "choices": [
+     "Breaking down food",
+     "Diffusion of water across a membrane",
+     "The movement of cells",
+     "Diffusion of salt in air"
+    ]
+   },
+   {
+    "question": "What does a selectively permeable membrane do?",
+    "answer": "Lets some substances through but not others",
+    "choices": [
+     "Lets everything through",
+     "Makes food",
+     "Blocks everything",
+     "Lets some substances through but not others"
+    ]
+   },
+   {
+    "question": "A raisin is placed in water and swells. Why?",
+    "answer": "Water moves into it by osmosis",
+    "choices": [
+     "Air moves in",
+     "It absorbs light",
+     "Water moves into it by osmosis",
+     "Sugar moves in"
+    ]
+   },
+   {
+    "question": "A cell is in water with more sugar outside than inside. If sugar can cross, which way does it move?",
+    "answer": "Into the cell",
+    "choices": [
+     "It doesn't move",
+     "Into the cell",
+     "Out of the cell"
+    ]
+   },
+   {
+    "question": "In diffusion, particles move until…",
+    "answer": "they are evenly spread out",
+    "choices": [
+     "they disappear",
+     "they are evenly spread out",
+     "they all stop",
+     "they form a solid"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciATO",
+  "subject": "science",
+  "title": "Parts of an atom",
+  "section": "Atomic structure",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciATO7"
+  ],
+  "examples": [
+   {
+    "question": "Which particle has no charge?",
+    "answer": "Neutron",
+    "choices": [
+     "Ion",
+     "Neutron",
+     "Electron",
+     "Proton"
+    ]
+   },
+   {
+    "question": "Where are protons and neutrons found?",
+    "answer": "In the nucleus",
+    "choices": [
+     "In the bonds",
+     "In the nucleus",
+     "Outside the atom",
+     "In the electron cloud"
+    ]
+   },
+   {
+    "question": "Which particle has a positive charge?",
+    "answer": "Proton",
+    "choices": [
+     "Photon",
+     "Proton",
+     "Neutron",
+     "Electron"
+    ]
+   },
+   {
+    "question": "Which particle has a negative charge?",
+    "answer": "Electron",
+    "choices": [
+     "Proton",
+     "Electron",
+     "Photon",
+     "Neutron"
+    ]
+   },
+   {
+    "question": "The atomic number of an element equals its number of …",
+    "answer": "protons",
+    "choices": [
+     "neutrons",
+     "protons",
+     "isotopes",
+     "electrons only"
+    ]
+   },
+   {
+    "question": "Which particles have almost no mass compared to the others?",
+    "answer": "Electrons",
+    "choices": [
+     "Neutrons",
+     "Electrons",
+     "Nuclei",
+     "Protons"
+    ]
+   },
+   {
+    "question": "Where do electrons move?",
+    "answer": "Around the nucleus",
+    "choices": [
+     "Around the nucleus",
+     "Between protons",
+     "Only in metals",
+     "Inside the nucleus"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciMIX",
+  "subject": "science",
+  "title": "Elements, compounds and mixtures",
+  "section": "Properties of matter",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciMIX7"
+  ],
+  "examples": [
+   {
+    "question": "Is gold an element, a compound or a mixture?",
+    "answer": "Element",
+    "choices": [
+     "Compound",
+     "Element",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is oxygen gas (O₂) an element, a compound or a mixture?",
+    "answer": "Element",
+    "choices": [
+     "Mixture",
+     "Element",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is iron an element, a compound or a mixture?",
+    "answer": "Element",
+    "choices": [
+     "Element",
+     "Mixture",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is table salt (NaCl) an element, a compound or a mixture?",
+    "answer": "Compound",
+    "choices": [
+     "Compound",
+     "Element",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is saltwater an element, a compound or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Mixture",
+     "Element",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is salad an element, a compound or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Element",
+     "Mixture",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is carbon dioxide (CO₂) an element, a compound or a mixture?",
+    "answer": "Compound",
+    "choices": [
+     "Element",
+     "Compound",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is sugar (C₁₂H₂₂O₁₁) an element, a compound or a mixture?",
+    "answer": "Compound",
+    "choices": [
+     "Compound",
+     "Element",
+     "Mixture"
+    ]
+   },
+   {
+    "question": "Is water (H₂O) an element, a compound or a mixture?",
+    "answer": "Compound",
+    "choices": [
+     "Compound",
+     "Mixture",
+     "Element"
+    ]
+   },
+   {
+    "question": "Is air an element, a compound or a mixture?",
+    "answer": "Mixture",
+    "choices": [
+     "Element",
+     "Mixture",
+     "Compound"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAngCon",
+  "subject": "science",
+  "title": "Angiosperm and conifer life cycles",
+  "section": "Plant reproduction",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciXsAngCon7"
+  ],
+  "examples": [
+   {
+    "question": "What does \"angiosperm\" mean?",
+    "answer": "Enclosed seed (seed in a vessel)",
+    "choices": [
+     "Cone",
+     "Spore",
+     "Enclosed seed (seed in a vessel)",
+     "Naked seed"
+    ]
+   },
+   {
+    "question": "Conifers (gymnosperms) produce seeds…",
+    "answer": "on the scales of cones, not enclosed in fruit",
+    "choices": [
+     "as spores",
+     "in flowers",
+     "inside fruit",
+     "on the scales of cones, not enclosed in fruit"
+    ]
+   },
+   {
+    "question": "Which part becomes the fruit in an angiosperm?",
+    "answer": "The ovary",
+    "choices": [
+     "The petal",
+     "The leaf",
+     "The ovary",
+     "The stamen"
+    ]
+   },
+   {
+    "question": "Angiosperms produce seeds…",
+    "answer": "enclosed in fruit",
+    "choices": [
+     "enclosed in fruit",
+     "without pollination",
+     "as spores",
+     "in cones"
+    ]
+   },
+   {
+    "question": "Which group is larger, with more species?",
+    "answer": "Angiosperms",
+    "choices": [
+     "Angiosperms",
+     "Gymnosperms",
+     "They are equal",
+     "Neither"
+    ]
+   },
+   {
+    "question": "Which is an angiosperm?",
+    "answer": "Maple tree",
+    "choices": [
+     "Maple tree",
+     "Cedar",
+     "Pine tree",
+     "Spruce"
+    ]
+   },
+   {
+    "question": "Which is true of conifers?",
+    "answer": "Most keep their needles all year",
+    "choices": [
+     "They make fruit",
+     "Most keep their needles all year",
+     "They make flowers",
+     "They lose all needles each fall"
+    ]
+   },
+   {
+    "question": "Which is a gymnosperm?",
+    "answer": "Pine",
+    "choices": [
+     "Rose",
+     "Apple tree",
+     "Sunflower",
+     "Pine"
+    ]
+   },
+   {
+    "question": "What does \"gymnosperm\" mean?",
+    "answer": "Naked seed",
+    "choices": [
+     "Covered seed",
+     "Flowering plant",
+     "Spore plant",
+     "Naked seed"
+    ]
+   },
+   {
+    "question": "How do angiosperms often attract pollinators?",
+    "answer": "Colourful, scented flowers with nectar",
+    "choices": [
+     "Bark",
+     "Colourful, scented flowers with nectar",
+     "Needles",
+     "Cones"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciECR",
+  "subject": "science",
+  "title": "Ecosystem relationships",
+  "section": "Ecosystems",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciECR7"
+  ],
+  "examples": [
+   {
+    "question": "Which relationship is shown? A tapeworm lives in a person's intestines and takes nutrients.",
+    "answer": "Parasitism",
+    "choices": [
+     "Parasitism",
+     "Predation",
+     "Commensalism",
+     "Mutualism"
+    ]
+   },
+   {
+    "question": "Which relationship is shown? A lion hunts and eats a zebra.",
+    "answer": "Predation",
+    "choices": [
+     "Predation",
+     "Parasitism",
+     "Commensalism",
+     "Mutualism"
+    ]
+   },
+   {
+    "question": "Which relationship is shown? A barnacle rides on a whale, which is not harmed or helped.",
+    "answer": "Commensalism",
+    "choices": [
+     "Parasitism",
+     "Predation",
+     "Commensalism",
+     "Mutualism"
+    ]
+   },
+   {
+    "question": "Which relationship is shown? A bird builds a nest in a tree without affecting the tree.",
+    "answer": "Commensalism",
+    "choices": [
+     "Commensalism",
+     "Parasitism",
+     "Mutualism",
+     "Predation"
+    ]
+   },
+   {
+    "question": "Which relationship is shown? Clownfish live safely in anemones while keeping them clean.",
+    "answer": "Mutualism",
+    "choices": [
+     "Parasitism",
+     "Mutualism",
+     "Commensalism",
+     "Predation"
+    ]
+   },
+   {
+    "question": "Which relationship is shown? An owl catches a mouse.",
+    "answer": "Predation",
+    "choices": [
+     "Parasitism",
+     "Mutualism",
+     "Predation",
+     "Commensalism"
+    ]
+   },
+   {
+    "question": "Which relationship is shown? A tick feeds on a dog's blood.",
+    "answer": "Parasitism",
+    "choices": [
+     "Predation",
+     "Mutualism",
+     "Commensalism",
+     "Parasitism"
+    ]
+   },
+   {
+    "question": "Which relationship is shown? Bees get nectar from flowers while pollinating them.",
+    "answer": "Mutualism",
+    "choices": [
+     "Commensalism",
+     "Predation",
+     "Parasitism",
+     "Mutualism"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciEcoRel",
+  "subject": "science",
+  "title": "Ecosystem relationships",
+  "section": "Ecosystems",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciEcoRel7",
+   "sciEcoRel8",
+   "sciEcoRel9",
+   "sciEcoRel10"
+  ],
+  "examples": [
+   {
+    "question": "Which relationship is this? An orchid grows on a tree branch without harming it.",
+    "answer": "Commensalism",
+    "choices": [
+     "Commensalism",
+     "Predation",
+     "Parasitism",
+     "Mutualism",
+     "Competition"
+    ]
+   },
+   {
+    "question": "Which relationship is this? A flea feeds on a dog's blood.",
+    "answer": "Parasitism",
+    "choices": [
+     "Mutualism",
+     "Competition",
+     "Commensalism",
+     "Parasitism",
+     "Predation"
+    ]
+   },
+   {
+    "question": "Which relationship is this? A hawk catches a mouse.",
+    "answer": "Predation",
+    "choices": [
+     "Competition",
+     "Commensalism",
+     "Predation",
+     "Mutualism",
+     "Parasitism"
+    ]
+   },
+   {
+    "question": "Which relationship is this? Bees pollinate flowers and get nectar.",
+    "answer": "Mutualism",
+    "choices": [
+     "Predation",
+     "Commensalism",
+     "Parasitism",
+     "Mutualism",
+     "Competition"
+    ]
+   },
+   {
+    "question": "Which relationship is this? A tapeworm lives in an animal's gut.",
+    "answer": "Parasitism",
+    "choices": [
+     "Parasitism",
+     "Mutualism",
+     "Competition",
+     "Predation",
+     "Commensalism"
+    ]
+   },
+   {
+    "question": "Which relationship is this? Oxpecker birds eat ticks off rhinos.",
+    "answer": "Mutualism",
+    "choices": [
+     "Mutualism",
+     "Competition",
+     "Commensalism",
+     "Predation",
+     "Parasitism"
+    ]
+   },
+   {
+    "question": "Which relationship is this? Lions and hyenas fight over the same zebra.",
+    "answer": "Competition",
+    "choices": [
+     "Competition",
+     "Predation",
+     "Commensalism",
+     "Parasitism",
+     "Mutualism"
+    ]
+   },
+   {
+    "question": "Which relationship is this? A barnacle rides on a whale, which is unaffected.",
+    "answer": "Commensalism",
+    "choices": [
+     "Competition",
+     "Mutualism",
+     "Commensalism",
+     "Parasitism",
+     "Predation"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSymb",
+  "subject": "science",
+  "title": "Classify symbiotic relationships",
+  "section": "Ecological interactions",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciXsSymb7"
+  ],
+  "examples": [
+   {
+    "question": "What kind of symbiotic relationship is this? Clownfish hide in sea anemones and clean them",
+    "answer": "Mutualism",
+    "choices": [
+     "Commensalism",
+     "Mutualism",
+     "Parasitism"
+    ]
+   },
+   {
+    "question": "What kind of symbiotic relationship is this? Bees get nectar and flowers get pollinated",
+    "answer": "Mutualism",
+    "choices": [
+     "Parasitism",
+     "Commensalism",
+     "Mutualism"
+    ]
+   },
+   {
+    "question": "What kind of symbiotic relationship is this? A tick feeds on a dog's blood",
+    "answer": "Parasitism",
+    "choices": [
+     "Commensalism",
+     "Parasitism",
+     "Mutualism"
+    ]
+   },
+   {
+    "question": "What kind of symbiotic relationship is this? Barnacles ride on a whale without harming it",
+    "answer": "Commensalism",
+    "choices": [
+     "Commensalism",
+     "Parasitism",
+     "Mutualism"
+    ]
+   },
+   {
+    "question": "What kind of symbiotic relationship is this? A tapeworm lives in an animal's intestine",
+    "answer": "Parasitism",
+    "choices": [
+     "Mutualism",
+     "Parasitism",
+     "Commensalism"
+    ]
+   },
+   {
+    "question": "What kind of symbiotic relationship is this? A bird nests in a tree without affecting it",
+    "answer": "Commensalism",
+    "choices": [
+     "Commensalism",
+     "Mutualism",
+     "Parasitism"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSucc",
+  "subject": "science",
+  "title": "Investigate primary succession on a volcanic island",
+  "section": "Ecological interactions",
+  "grades": [
+   7,
+   9
+  ],
+  "skillIds": [
+   "sciXsSucc7",
+   "sciXsSucc9"
+  ],
+  "examples": [
+   {
+    "question": "On a new volcanic island, which arrives later in succession?",
+    "answer": "Shrubs and trees",
+    "choices": [
+     "Lichens",
+     "Bacteria",
+     "Mosses",
+     "Shrubs and trees"
+    ]
+   },
+   {
+    "question": "Which grows first on bare volcanic rock?",
+    "answer": "Lichens",
+    "choices": [
+     "Grass",
+     "Lichens",
+     "Ferns",
+     "Oak trees"
+    ]
+   },
+   {
+    "question": "What is secondary succession?",
+    "answer": "Regrowth after a disturbance where soil remains",
+    "choices": [
+     "A new island forming",
+     "Life on bare rock",
+     "Regrowth after a disturbance where soil remains",
+     "Animals leaving"
+    ]
+   },
+   {
+    "question": "How do lichens help build soil?",
+    "answer": "They release acids that break down rock and add organic matter when they die",
+    "choices": [
+     "They melt rock with heat",
+     "They release acids that break down rock and add organic matter when they die",
+     "They freeze rock",
+     "They bring soil from elsewhere"
+    ]
+   },
+   {
+    "question": "Which organisms are usually the first to grow on new volcanic rock?",
+    "answer": "Lichens and mosses (pioneer species)",
+    "choices": [
+     "Lichens and mosses (pioneer species)",
+     "Animals",
+     "Grasses only",
+     "Large trees"
+    ]
+   },
+   {
+    "question": "What is a climax community?",
+    "answer": "A stable community at the end of succession",
+    "choices": [
+     "A burned forest",
+     "A desert",
+     "A stable community at the end of succession",
+     "The first plants to grow"
+    ]
+   },
+   {
+    "question": "How long can primary succession take?",
+    "answer": "Hundreds to thousands of years",
+    "choices": [
+     "One year",
+     "One week",
+     "Hundreds to thousands of years",
+     "A few days"
+    ]
+   },
+   {
+    "question": "How do pioneer species help other plants grow?",
+    "answer": "They break down rock and add organic matter to form soil",
+    "choices": [
+     "They make lava",
+     "They break down rock and add organic matter to form soil",
+     "They eat other plants",
+     "They block sunlight"
+    ]
+   },
+   {
+    "question": "What is ecological succession?",
+    "answer": "The gradual change of the species in an area over time",
+    "choices": [
+     "A storm",
+     "A volcano erupting",
+     "The gradual change of the species in an area over time",
+     "Animals migrating"
+    ]
+   },
+   {
+    "question": "What is primary succession?",
+    "answer": "Life gradually colonizing an area with no soil, like new lava rock",
+    "choices": [
+     "Seasons changing",
+     "Regrowth after a forest fire on existing soil",
+     "Life gradually colonizing an area with no soil, like new lava rock",
+     "Animals migrating"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPUN",
+  "subject": "science",
+  "title": "Punnett squares: dominant and recessive",
+  "section": "Genetics",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciPUN7"
+  ],
+  "examples": [
+   {
+    "question": "What is the genotype of a short pea plant (t is recessive)?",
+    "answer": "tt",
+    "choices": [
+     "TT",
+     "T",
+     "Tt",
+     "tt"
+    ]
+   },
+   {
+    "question": "Cross Tt × tt. What fraction of offspring are expected to be tt?",
+    "answer": "1/2",
+    "choices": [
+     "1/4",
+     "3/4",
+     "1/2",
+     "0"
+    ]
+   },
+   {
+    "question": "Which genotype is “homozygous dominant”?",
+    "answer": "TT",
+    "choices": [
+     "tT",
+     "tt",
+     "TT",
+     "Tt"
+    ]
+   },
+   {
+    "question": "In pea plants, tall (T) is dominant over short (t). What is the phenotype of a plant with genotype Tt?",
+    "answer": "Tall",
+    "choices": [
+     "Cannot tell",
+     "Short",
+     "Tall",
+     "Medium"
+    ]
+   },
+   {
+    "question": "Cross TT × tt. What fraction of offspring are Tt?",
+    "answer": "All (1)",
+    "choices": [
+     "1/2",
+     "0",
+     "1/4",
+     "All (1)"
+    ]
+   },
+   {
+    "question": "Cross Tt × Tt. What fraction are expected to show the dominant trait?",
+    "answer": "3/4",
+    "choices": [
+     "1",
+     "1/2",
+     "3/4",
+     "1/4"
+    ]
+   },
+   {
+    "question": "Cross Tt × Tt. What fraction of offspring are expected to be short (tt)?",
+    "answer": "1/4",
+    "choices": [
+     "1/4",
+     "1/2",
+     "3/4",
+     "0"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciTaxon",
+  "subject": "science",
+  "title": "Levels of classification",
+  "section": "Classification",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciTaxon7",
+   "sciTaxon8",
+   "sciTaxon9",
+   "sciTaxon10"
+  ],
+  "examples": [
+   {
+    "question": "Which level comes right after Phylum (from broadest to most specific)?",
+    "answer": "Class",
+    "choices": [
+     "Domain",
+     "Phylum",
+     "Class",
+     "Kingdom"
+    ]
+   },
+   {
+    "question": "Which level comes right after Genus (from broadest to most specific)?",
+    "answer": "Species",
+    "choices": [
+     "Class",
+     "Family",
+     "Species",
+     "Order"
+    ]
+   },
+   {
+    "question": "Which level comes right after Order (from broadest to most specific)?",
+    "answer": "Family",
+    "choices": [
+     "Family",
+     "Kingdom",
+     "Class",
+     "Phylum"
+    ]
+   },
+   {
+    "question": "Which is the most specific level of classification?",
+    "answer": "Species",
+    "choices": [
+     "Genus",
+     "Class",
+     "Species",
+     "Domain"
+    ]
+   },
+   {
+    "question": "Which level comes right after Kingdom (from broadest to most specific)?",
+    "answer": "Phylum",
+    "choices": [
+     "Order",
+     "Species",
+     "Phylum",
+     "Kingdom"
+    ]
+   },
+   {
+    "question": "Which level comes right after Family (from broadest to most specific)?",
+    "answer": "Genus",
+    "choices": [
+     "Genus",
+     "Species",
+     "Class",
+     "Family"
+    ]
+   },
+   {
+    "question": "Which level comes right after Class (from broadest to most specific)?",
+    "answer": "Order",
+    "choices": [
+     "Genus",
+     "Class",
+     "Order",
+     "Family"
+    ]
+   },
+   {
+    "question": "Which level comes right after Domain (from broadest to most specific)?",
+    "answer": "Kingdom",
+    "choices": [
+     "Phylum",
+     "Genus",
+     "Domain",
+     "Kingdom"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCellFn",
+  "subject": "science",
+  "title": "Identify functions of plant and animal cell parts",
+  "section": "Cells",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciCellFn7",
+   "sciCellFn8",
+   "sciCellFn9",
+   "sciCellFn10"
+  ],
+  "examples": [
+   {
+    "question": "Which cell part controls what enters and leaves the cell?",
+    "answer": "Cell membrane",
+    "choices": [
+     "Cell membrane",
+     "Golgi apparatus",
+     "Nucleus",
+     "Chloroplast"
+    ]
+   },
+   {
+    "question": "Which cell part packages and ships proteins?",
+    "answer": "Golgi apparatus",
+    "choices": [
+     "Endoplasmic reticulum",
+     "Chloroplast",
+     "Mitochondria",
+     "Golgi apparatus"
+    ]
+   },
+   {
+    "question": "Which cell part makes proteins?",
+    "answer": "Ribosome",
+    "choices": [
+     "Endoplasmic reticulum",
+     "Vacuole",
+     "Cell wall",
+     "Ribosome"
+    ]
+   },
+   {
+    "question": "Which cell part is a network that moves materials through the cell?",
+    "answer": "Endoplasmic reticulum",
+    "choices": [
+     "Mitochondria",
+     "Nucleus",
+     "Vacuole",
+     "Endoplasmic reticulum"
+    ]
+   },
+   {
+    "question": "Which cell part releases energy from food?",
+    "answer": "Mitochondria",
+    "choices": [
+     "Vacuole",
+     "Nucleus",
+     "Chloroplast",
+     "Mitochondria"
+    ]
+   },
+   {
+    "question": "Which cell part makes food in plant cells?",
+    "answer": "Chloroplast",
+    "choices": [
+     "Endoplasmic reticulum",
+     "Chloroplast",
+     "Cell membrane",
+     "Golgi apparatus"
+    ]
+   },
+   {
+    "question": "Which cell part stores water and waste?",
+    "answer": "Vacuole",
+    "choices": [
+     "Cell membrane",
+     "Nucleus",
+     "Vacuole",
+     "Ribosome"
+    ]
+   },
+   {
+    "question": "Which cell part gives plant cells a rigid shape?",
+    "answer": "Cell wall",
+    "choices": [
+     "Mitochondria",
+     "Nucleus",
+     "Cell wall",
+     "Ribosome"
+    ]
+   },
+   {
+    "question": "Which cell part contains DNA and controls the cell?",
+    "answer": "Nucleus",
+    "choices": [
+     "Nucleus",
+     "Chloroplast",
+     "Vacuole",
+     "Ribosome"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciCellCmp",
+  "subject": "science",
+  "title": "Compare cells and cell parts",
+  "section": "Cells",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciCellCmp7",
+   "sciCellCmp8",
+   "sciCellCmp9",
+   "sciCellCmp10"
+  ],
+  "examples": [
+   {
+    "question": "Which cells have chloroplasts ?",
+    "answer": "Plant cells only",
+    "choices": [
+     "Both",
+     "Animal cells only",
+     "Plant cells only"
+    ]
+   },
+   {
+    "question": "Which cells have ribosomes ?",
+    "answer": "Both",
+    "choices": [
+     "Both",
+     "Plant cells only",
+     "Animal cells only"
+    ]
+   },
+   {
+    "question": "Which cells have a cell wall ?",
+    "answer": "Plant cells only",
+    "choices": [
+     "Both",
+     "Plant cells only",
+     "Animal cells only"
+    ]
+   },
+   {
+    "question": "Which cells have lysosomes (commonly) ?",
+    "answer": "Animal cells only",
+    "choices": [
+     "Both",
+     "Animal cells only",
+     "Plant cells only"
+    ]
+   },
+   {
+    "question": "Which cells have mitochondria ?",
+    "answer": "Both",
+    "choices": [
+     "Plant cells only",
+     "Both",
+     "Animal cells only"
+    ]
+   },
+   {
+    "question": "Which cells have a large central vacuole ?",
+    "answer": "Plant cells only",
+    "choices": [
+     "Plant cells only",
+     "Animal cells only",
+     "Both"
+    ]
+   },
+   {
+    "question": "Which cells have a cell membrane ?",
+    "answer": "Both",
+    "choices": [
+     "Plant cells only",
+     "Both",
+     "Animal cells only"
+    ]
+   },
+   {
+    "question": "Which cells have centrioles ?",
+    "answer": "Animal cells only",
+    "choices": [
+     "Animal cells only",
+     "Both",
+     "Plant cells only"
+    ]
+   },
+   {
+    "question": "Which cells have a nucleus ?",
+    "answer": "Both",
+    "choices": [
+     "Both",
+     "Animal cells only",
+     "Plant cells only"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsRCIntro",
+  "subject": "science",
+  "title": "Introduction to the rock cycle",
+  "section": "Rocks",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciXsRCIntro7"
+  ],
+  "examples": [
+   {
+    "question": "Which statement about the rock cycle is true?",
+    "answer": "Any type of rock can change into another type",
+    "choices": [
+     "Only igneous rocks change",
+     "Any type of rock can change into another type",
+     "Rocks never change",
+     "Rocks change only into sand"
+    ]
+   },
+   {
+    "question": "Which process breaks rocks into pieces at Earth's surface?",
+    "answer": "Weathering",
+    "choices": [
+     "Metamorphism",
+     "Melting",
+     "Weathering",
+     "Cooling"
+    ]
+   },
+   {
+    "question": "What type of rock often contains fossils?",
+    "answer": "Sedimentary",
+    "choices": [
+     "Metamorphic",
+     "Sedimentary",
+     "Lava",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "What type of rock forms when lava cools?",
+    "answer": "Igneous",
+    "choices": [
+     "Sedimentary",
+     "Fossil",
+     "Metamorphic",
+     "Igneous"
+    ]
+   },
+   {
+    "question": "What energy source drives weathering and erosion?",
+    "answer": "The Sun (through weather and water)",
+    "choices": [
+     "Lightning only",
+     "The Sun (through weather and water)",
+     "Earth's core only",
+     "The Moon"
+    ]
+   },
+   {
+    "question": "Which process turns sedimentary rock into metamorphic rock?",
+    "answer": "Heat and pressure",
+    "choices": [
+     "Heat and pressure",
+     "Evaporation",
+     "Melting and cooling",
+     "Weathering"
+    ]
+   },
+   {
+    "question": "How long does the rock cycle take?",
+    "answer": "Millions of years",
+    "choices": [
+     "Millions of years",
+     "One year",
+     "A few days",
+     "One hour"
+    ]
+   },
+   {
+    "question": "Which process turns igneous rock into sediment?",
+    "answer": "Weathering and erosion",
+    "choices": [
+     "Weathering and erosion",
+     "Cementation",
+     "Heat and pressure",
+     "Melting"
+    ]
+   },
+   {
+    "question": "What type of rock is marble?",
+    "answer": "Metamorphic",
+    "choices": [
+     "Mineral",
+     "Igneous",
+     "Metamorphic",
+     "Sedimentary"
+    ]
+   },
+   {
+    "question": "Can a metamorphic rock become an igneous rock?",
+    "answer": "Yes — if it melts and then cools",
+    "choices": [
+     "No, never",
+     "Only if it is weathered",
+     "Yes — if it melts and then cools",
+     "Only on the Moon"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciDrift",
+  "subject": "science",
+  "title": "Evidence of continental drift and plate tectonics",
+  "section": "Plate tectonics",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciDrift7",
+   "sciDrift8",
+   "sciDrift9",
+   "sciDrift10"
+  ],
+  "examples": [
+   {
+    "question": "Sea-floor rocks get older …",
+    "answer": "farther from mid-ocean ridges",
+    "choices": [
+     "near the surface only",
+     "closer to mid-ocean ridges",
+     "farther from mid-ocean ridges",
+     "at random"
+    ]
+   },
+   {
+    "question": "Who first proposed the idea of continental drift?",
+    "answer": "Alfred Wegener",
+    "choices": [
+     "Galileo Galilei",
+     "Isaac Newton",
+     "Alfred Wegener",
+     "Charles Darwin"
+    ]
+   },
+   {
+    "question": "The coastlines of South America and Africa …",
+    "answer": "fit together like puzzle pieces",
+    "choices": [
+     "are exactly the same length",
+     "fit together like puzzle pieces",
+     "never moved",
+     "are made of ice"
+    ]
+   },
+   {
+    "question": "Fossils of the reptile Mesosaurus are found in both …",
+    "answer": "South America and Africa",
+    "choices": [
+     "Asia and North America",
+     "South America and Africa",
+     "Europe and Antarctica only",
+     "Canada and Australia"
+    ]
+   },
+   {
+    "question": "The supercontinent that existed about 250 million years ago is called …",
+    "answer": "Pangaea",
+    "choices": [
+     "Laurasia Sea",
+     "Pangaea",
+     "Gondwana Ocean",
+     "Atlantis"
+    ]
+   },
+   {
+    "question": "What is thought to drive plate motion?",
+    "answer": "Convection currents in the mantle",
+    "choices": [
+     "The Moon's light",
+     "Ocean tides",
+     "Convection currents in the mantle",
+     "Wind"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlateLbl",
+  "subject": "science",
+  "title": "Label Earth features at tectonic plate boundaries",
+  "section": "Plate tectonics",
+  "grades": [
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsPlateLbl7",
+   "sciXsPlateLbl8"
+  ],
+  "examples": [
+   {
+    "question": "Which boundary creates new ocean floor?",
+    "answer": "Divergent",
+    "choices": [
+     "Convergent",
+     "Transform",
+     "None",
+     "Divergent"
+    ]
+   },
+   {
+    "question": "Where two continental plates collide, what forms?",
+    "answer": "Tall mountain ranges like the Himalayas",
+    "choices": [
+     "A mid-ocean ridge",
+     "Tall mountain ranges like the Himalayas",
+     "A trench",
+     "An island arc"
+    ]
+   },
+   {
+    "question": "The Rocky Mountains formed mainly from…",
+    "answer": "plates colliding and pushing up rock",
+    "choices": [
+     "plates pulling apart",
+     "a meteor",
+     "wind erosion",
+     "plates colliding and pushing up rock"
+    ]
+   },
+   {
+    "question": "Which feature forms where two plates pull apart on land?",
+    "answer": "A rift valley",
+    "choices": [
+     "A volcanic arc",
+     "A rift valley",
+     "Fold mountains",
+     "A trench"
+    ]
+   },
+   {
+    "question": "Which feature forms where an ocean plate sinks under another ocean plate?",
+    "answer": "A volcanic island arc and a trench",
+    "choices": [
+     "A rift valley",
+     "A volcanic island arc and a trench",
+     "A plateau",
+     "Fold mountains"
+    ]
+   },
+   {
+    "question": "What forms where hot magma rises in the middle of a plate?",
+    "answer": "A hot spot volcano",
+    "choices": [
+     "A trench",
+     "A hot spot volcano",
+     "A transform fault",
+     "A rift"
+    ]
+   },
+   {
+    "question": "Where an oceanic plate sinks under a continental plate, what forms?",
+    "answer": "A trench and volcanoes",
+    "choices": [
+     "A trench and volcanoes",
+     "A plain",
+     "A mid-ocean ridge",
+     "A rift valley only"
+    ]
+   },
+   {
+    "question": "What is the deepest part of the ocean, found at a subduction zone?",
+    "answer": "The Mariana Trench",
+    "choices": [
+     "Hudson Bay",
+     "The Mariana Trench",
+     "The Mid-Atlantic Ridge",
+     "The Great Lakes"
+    ]
+   },
+   {
+    "question": "Where two oceanic plates pull apart, what forms?",
+    "answer": "A mid-ocean ridge",
+    "choices": [
+     "A deep trench",
+     "A tall mountain range on land",
+     "A mid-ocean ridge",
+     "A desert"
+    ]
+   },
+   {
+    "question": "Where do earthquakes happen along transform boundaries?",
+    "answer": "Where plates grind past each other",
+    "choices": [
+     "Where plates grind past each other",
+     "Only at volcanoes",
+     "In the middle of plates only",
+     "Only in deserts"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlateWld",
+  "subject": "science",
+  "title": "Describe tectonic plate boundaries around the world",
+  "section": "Plate tectonics",
+  "grades": [
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsPlateWld7",
+   "sciXsPlateWld8"
+  ],
+  "examples": [
+   {
+    "question": "The Mid-Atlantic Ridge is an example of a…",
+    "answer": "divergent boundary",
+    "choices": [
+     "transform boundary",
+     "trench",
+     "divergent boundary",
+     "convergent boundary"
+    ]
+   },
+   {
+    "question": "The San Andreas Fault is an example of a…",
+    "answer": "transform boundary",
+    "choices": [
+     "convergent boundary",
+     "transform boundary",
+     "hot spot",
+     "divergent boundary"
+    ]
+   },
+   {
+    "question": "The Andes Mountains formed where…",
+    "answer": "an ocean plate subducts under South America",
+    "choices": [
+     "two plates pull apart",
+     "a hot spot rose",
+     "an ocean plate subducts under South America",
+     "plates slide past"
+    ]
+   },
+   {
+    "question": "What kind of boundary is the East African Rift?",
+    "answer": "Divergent",
+    "choices": [
+     "Hot spot",
+     "Divergent",
+     "Transform",
+     "Convergent"
+    ]
+   },
+   {
+    "question": "The Andes Mountains formed at a…",
+    "answer": "convergent boundary",
+    "choices": [
+     "hot spot",
+     "convergent boundary",
+     "divergent boundary",
+     "transform boundary"
+    ]
+   },
+   {
+    "question": "The \"Ring of Fire\" circles which ocean?",
+    "answer": "The Pacific",
+    "choices": [
+     "The Atlantic",
+     "The Pacific",
+     "The Arctic",
+     "The Indian"
+    ]
+   },
+   {
+    "question": "The Himalayas formed where…",
+    "answer": "India collided with Asia",
+    "choices": [
+     "India collided with Asia",
+     "a hot spot rose",
+     "plates slid past each other",
+     "two plates pulled apart"
+    ]
+   },
+   {
+    "question": "Why does Japan have many earthquakes and volcanoes?",
+    "answer": "It sits where several plates converge",
+    "choices": [
+     "It sits where several plates converge",
+     "It is on a hot spot only",
+     "It is near the equator",
+     "It is in the middle of a plate"
+    ]
+   },
+   {
+    "question": "Iceland lies on which kind of boundary?",
+    "answer": "Divergent (Mid-Atlantic Ridge)",
+    "choices": [
+     "Transform",
+     "Convergent",
+     "None",
+     "Divergent (Mid-Atlantic Ridge)"
+    ]
+   },
+   {
+    "question": "Which plate boundary lies off the coast of British Columbia?",
+    "answer": "The Cascadia subduction zone",
+    "choices": [
+     "The Cascadia subduction zone",
+     "The Himalayas",
+     "The Mid-Atlantic Ridge",
+     "The San Andreas Fault"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsWCSel",
+  "subject": "science",
+  "title": "Select parts of water cycle diagrams",
+  "section": "Earth's cycles",
+  "grades": [
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "sciXsWCSel7",
+   "sciXsWCSel8",
+   "sciXsWCSel9"
+  ],
+  "examples": [
+   {
+    "question": "Which process moves water from the ground surface down into soil?",
+    "answer": "Infiltration",
+    "choices": [
+     "Condensation",
+     "Transpiration",
+     "Evaporation",
+     "Infiltration"
+    ]
+   },
+   {
+    "question": "Which process forms clouds?",
+    "answer": "Condensation",
+    "choices": [
+     "Evaporation",
+     "Precipitation",
+     "Runoff",
+     "Condensation"
+    ]
+   },
+   {
+    "question": "Which process moves water from the ocean into the air?",
+    "answer": "Evaporation",
+    "choices": [
+     "Runoff",
+     "Precipitation",
+     "Evaporation",
+     "Infiltration"
+    ]
+   },
+   {
+    "question": "Which process moves groundwater slowly to the ocean?",
+    "answer": "Groundwater flow",
+    "choices": [
+     "Transpiration",
+     "Evaporation",
+     "Condensation",
+     "Groundwater flow"
+    ]
+   },
+   {
+    "question": "Which process moves water from plant leaves into the air?",
+    "answer": "Transpiration",
+    "choices": [
+     "Infiltration",
+     "Precipitation",
+     "Transpiration",
+     "Runoff"
+    ]
+   },
+   {
+    "question": "Hail falling from a thunderstorm is an example of…",
+    "answer": "precipitation",
+    "choices": [
+     "condensation",
+     "transpiration",
+     "evaporation",
+     "precipitation"
+    ]
+   },
+   {
+    "question": "Where is most fresh water stored?",
+    "answer": "In glaciers and ice caps",
+    "choices": [
+     "In lakes",
+     "In rivers",
+     "In clouds",
+     "In glaciers and ice caps"
+    ]
+   },
+   {
+    "question": "Which process returns water from the ground surface to rivers and lakes?",
+    "answer": "Runoff",
+    "choices": [
+     "Transpiration",
+     "Condensation",
+     "Evaporation",
+     "Runoff"
+    ]
+   },
+   {
+    "question": "Which process forms dew?",
+    "answer": "Condensation",
+    "choices": [
+     "Precipitation",
+     "Runoff",
+     "Evaporation",
+     "Condensation"
+    ]
+   },
+   {
+    "question": "Which process turns ice directly into water vapour?",
+    "answer": "Sublimation",
+    "choices": [
+     "Melting",
+     "Condensation",
+     "Infiltration",
+     "Sublimation"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCarbon",
+  "subject": "science",
+  "title": "The carbon cycle",
+  "section": "Earth's cycles",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciXsCarbon77"
+  ],
+  "examples": [
+   {
+    "question": "What is a carbon sink?",
+    "answer": "Something that stores more carbon than it releases",
+    "choices": [
+     "Something that stores more carbon than it releases",
+     "A kitchen sink",
+     "A volcano",
+     "A source of pollution"
+    ]
+   },
+   {
+    "question": "Where is carbon stored for millions of years?",
+    "answer": "In fossil fuels and rocks like limestone",
+    "choices": [
+     "In sunlight",
+     "In clouds",
+     "In rain",
+     "In fossil fuels and rocks like limestone"
+    ]
+   },
+   {
+    "question": "Which process removes CO₂ from the air?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Burning wood",
+     "Respiration",
+     "Photosynthesis",
+     "Volcanic eruptions"
+    ]
+   },
+   {
+    "question": "How do plants remove carbon from the atmosphere?",
+    "answer": "Photosynthesis",
+    "choices": [
+     "Respiration",
+     "Decomposition",
+     "Photosynthesis",
+     "Burning"
+    ]
+   },
+   {
+    "question": "How does cutting down forests affect atmospheric CO₂?",
+    "answer": "It increases CO₂ because fewer trees absorb it",
+    "choices": [
+     "It decreases CO₂",
+     "It has no effect",
+     "It turns CO₂ into oxygen",
+     "It increases CO₂ because fewer trees absorb it"
+    ]
+   },
+   {
+    "question": "Which processes return carbon to the atmosphere?",
+    "answer": "Respiration, decomposition and burning",
+    "choices": [
+     "Photosynthesis only",
+     "Freezing",
+     "Condensation",
+     "Respiration, decomposition and burning"
+    ]
+   },
+   {
+    "question": "How does burning gasoline affect the carbon cycle?",
+    "answer": "It releases carbon stored for millions of years",
+    "choices": [
+     "It removes carbon",
+     "It releases carbon stored for millions of years",
+     "It makes oxygen",
+     "It has no effect"
+    ]
+   },
+   {
+    "question": "When an animal dies, how does its carbon return to the environment?",
+    "answer": "Decomposers break it down, releasing CO₂",
+    "choices": [
+     "It becomes oxygen",
+     "Decomposers break it down, releasing CO₂",
+     "It turns into water",
+     "It stays forever"
+    ]
+   },
+   {
+    "question": "How do humans breathe out carbon?",
+    "answer": "As carbon dioxide from cellular respiration",
+    "choices": [
+     "As oxygen",
+     "We don't",
+     "As carbon dioxide from cellular respiration",
+     "As water only"
+    ]
+   },
+   {
+    "question": "How do oceans take part in the carbon cycle?",
+    "answer": "They absorb CO₂ from the air",
+    "choices": [
+     "They absorb CO₂ from the air",
+     "They have no carbon",
+     "They make coal",
+     "They release only oxygen"
+    ]
+   }
+  ]
+ }
+]

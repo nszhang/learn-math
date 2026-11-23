@@ -1,0 +1,2474 @@
+[
+ {
+  "key": "engFrag",
+  "subject": "english",
+  "title": "Is it a complete sentence or a fragment?",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   3,
+   6,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFrag3",
+   "engFrag6",
+   "engFrag9",
+   "engFrag10",
+   "engFrag11",
+   "engFrag12"
+  ],
+  "examples": [
+   {
+    "question": "Is this a complete sentence or a fragment? The tallest building in the city.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? The dog barked all night.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? Running down the hill at top speed.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? We left early because the power went out.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? The museum closes at five.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Complete sentence",
+     "Fragment"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? Stop talking.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Complete sentence",
+     "Fragment"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? Because the power went out.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? Maya won the race.",
+    "answer": "Complete sentence",
+    "choices": [
+     "Complete sentence",
+     "Fragment"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? Which was the best part of the trip.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? After the game ended and the crowd went home.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? Although she studied for hours.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   },
+   {
+    "question": "Is this a complete sentence or a fragment? My brother, a talented violinist.",
+    "answer": "Fragment",
+    "choices": [
+     "Fragment",
+     "Complete sentence"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSmCp",
+  "subject": "english",
+  "title": "Is the sentence simple or compound?",
+  "section": "Sentences, fragments and run-ons",
+  "grades": [
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engSmCp3",
+   "engSmCp4",
+   "engSmCp5"
+  ],
+  "examples": [
+   {
+    "question": "Is this sentence simple or compound? Maya and Leo played chess.",
+    "answer": "Simple",
+    "choices": [
+     "Simple",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? You can draw, or you can paint.",
+    "answer": "Compound",
+    "choices": [
+     "Compound",
+     "Simple"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? We went to the beach.",
+    "answer": "Simple",
+    "choices": [
+     "Compound",
+     "Simple"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? The dog barked, and the cat hid.",
+    "answer": "Compound",
+    "choices": [
+     "Simple",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? It was cold, so we wore mittens.",
+    "answer": "Compound",
+    "choices": [
+     "Simple",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? The dog barked at the mail carrier.",
+    "answer": "Simple",
+    "choices": [
+     "Simple",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? We went to the beach, but it rained.",
+    "answer": "Compound",
+    "choices": [
+     "Compound",
+     "Simple"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? Maya played chess, and Leo watched.",
+    "answer": "Compound",
+    "choices": [
+     "Compound",
+     "Simple"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? The tall man ran and jumped.",
+    "answer": "Simple",
+    "choices": [
+     "Simple",
+     "Compound"
+    ]
+   },
+   {
+    "question": "Is this sentence simple or compound? I can draw a cat or a dog.",
+    "answer": "Simple",
+    "choices": [
+     "Simple",
+     "Compound"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPlR",
+  "subject": "english",
+  "title": "Form and use irregular plurals",
+  "section": "Nouns",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "engPlR3"
+  ],
+  "examples": [
+   {
+    "question": "What is the plural of person ?",
+    "answer": "people",
+    "choices": [
+     "persons",
+     "persones",
+     "personies",
+     "people"
+    ]
+   },
+   {
+    "question": "What is the plural of foot ?",
+    "answer": "feet",
+    "choices": [
+     "footes",
+     "foots",
+     "feet",
+     "footies"
+    ]
+   },
+   {
+    "question": "What is the plural of goose ?",
+    "answer": "geese",
+    "choices": [
+     "gooses",
+     "geese",
+     "gooseies",
+     "goosees"
+    ]
+   },
+   {
+    "question": "What is the plural of deer ?",
+    "answer": "deer",
+    "choices": [
+     "deeres",
+     "deers",
+     "deer",
+     "deeren"
+    ]
+   },
+   {
+    "question": "What is the plural of child ?",
+    "answer": "children",
+    "choices": [
+     "childies",
+     "children",
+     "childes",
+     "childs"
+    ]
+   },
+   {
+    "question": "What is the plural of ox ?",
+    "answer": "oxen",
+    "choices": [
+     "oxes",
+     "oxies",
+     "oxs",
+     "oxen"
+    ]
+   },
+   {
+    "question": "What is the plural of man ?",
+    "answer": "men",
+    "choices": [
+     "manen",
+     "mans",
+     "manes",
+     "men"
+    ]
+   },
+   {
+    "question": "What is the plural of mouse ?",
+    "answer": "mice",
+    "choices": [
+     "mouseen",
+     "mouseies",
+     "mice",
+     "mouses"
+    ]
+   },
+   {
+    "question": "What is the plural of sheep ?",
+    "answer": "sheep",
+    "choices": [
+     "sheepen",
+     "sheep",
+     "sheepies",
+     "sheeps"
+    ]
+   },
+   {
+    "question": "What is the plural of woman ?",
+    "answer": "women",
+    "choices": [
+     "womans",
+     "womanies",
+     "womanen",
+     "women"
+    ]
+   },
+   {
+    "question": "What is the plural of moose ?",
+    "answer": "moose",
+    "choices": [
+     "meese",
+     "moose",
+     "mooseen",
+     "mooseies"
+    ]
+   },
+   {
+    "question": "What is the plural of fish ?",
+    "answer": "fish",
+    "choices": [
+     "fishs",
+     "fishies",
+     "fishen",
+     "fish"
+    ]
+   },
+   {
+    "question": "What is the plural of tooth ?",
+    "answer": "teeth",
+    "choices": [
+     "teeth",
+     "toothes",
+     "toothies",
+     "tooths"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXTi",
+  "subject": "english",
+  "title": "Form and use the irregular past tense: set 5",
+  "section": "Verb tense",
+  "grades": [
+   3
+  ],
+  "skillIds": [
+   "engXTi53"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence with the past tense of dig . Yesterday, we ___ a hole.",
+    "answer": "dug",
+    "choices": [
+     "digd",
+     "diged",
+     "digged",
+     "dug"
+    ]
+   },
+   {
+    "question": "Complete the sentence with the past tense of hide . Yesterday, we ___ the key.",
+    "answer": "hid",
+    "choices": [
+     "hided",
+     "hideed",
+     "hid",
+     "hideeed"
+    ]
+   },
+   {
+    "question": "Complete the sentence with the past tense of stand . Yesterday, we ___ in line.",
+    "answer": "stood",
+    "choices": [
+     "standd",
+     "stood",
+     "standed",
+     "standded"
+    ]
+   },
+   {
+    "question": "Complete the sentence with the past tense of shake . Yesterday, we ___ the jar.",
+    "answer": "shook",
+    "choices": [
+     "shakeed",
+     "shook",
+     "shakeeed",
+     "shaked"
+    ]
+   },
+   {
+    "question": "Complete the sentence with the past tense of blow . Yesterday, we ___ out the candles.",
+    "answer": "blew",
+    "choices": [
+     "blowwed",
+     "blowed",
+     "blowd",
+     "blew"
+    ]
+   },
+   {
+    "question": "Complete the sentence with the past tense of win . Yesterday, we ___ the game.",
+    "answer": "won",
+    "choices": [
+     "winned",
+     "wined",
+     "wind",
+     "won"
+    ]
+   },
+   {
+    "question": "Complete the sentence with the past tense of fall . Yesterday, we ___ asleep.",
+    "answer": "fell",
+    "choices": [
+     "fell",
+     "falld",
+     "falled",
+     "fallled"
+    ]
+   },
+   {
+    "question": "Complete the sentence with the past tense of get . Yesterday, we ___ a letter.",
+    "answer": "got",
+    "choices": [
+     "got",
+     "getd",
+     "geted",
+     "getted"
+    ]
+   },
+   {
+    "question": "Complete the sentence with the past tense of begin . Yesterday, we ___ the test.",
+    "answer": "began",
+    "choices": [
+     "begind",
+     "began",
+     "begined",
+     "beginned"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXArThe",
+  "subject": "english",
+  "title": "Use the correct article: a, an or the",
+  "section": "Articles",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXArThe3",
+   "engXArThe4"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. He ate ___ orange for a snack.",
+    "answer": "an",
+    "choices": [
+     "the",
+     "an",
+     "a"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We visited ___ CN Tower in Toronto.",
+    "answer": "the",
+    "choices": [
+     "an",
+     "a",
+     "the"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Please pass me ___ salt that is on the table.",
+    "answer": "the",
+    "choices": [
+     "a",
+     "an",
+     "the"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I saw ___ owl in the tree.",
+    "answer": "an",
+    "choices": [
+     "a",
+     "an",
+     "the"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She has ___ new bike.",
+    "answer": "a",
+    "choices": [
+     "a",
+     "an",
+     "the"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ sun is very bright today.",
+    "answer": "The",
+    "choices": [
+     "An",
+     "The",
+     "A"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPpId",
+  "subject": "english",
+  "title": "Identify prepositions",
+  "section": "Prepositions",
+  "grades": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engPpId3",
+   "engPpId4",
+   "engPpId5",
+   "engPpId6"
+  ],
+  "examples": [
+   {
+    "question": "Which word is a preposition? The cookies are inside the jar.",
+    "answer": "inside",
+    "choices": [
+     "inside",
+     "jar",
+     "cookies",
+     "are"
+    ]
+   },
+   {
+    "question": "Which word is a preposition? I found my keys behind the sofa.",
+    "answer": "behind",
+    "choices": [
+     "behind",
+     "keys",
+     "sofa",
+     "found"
+    ]
+   },
+   {
+    "question": "Which word is a preposition? She sat beside her brother.",
+    "answer": "beside",
+    "choices": [
+     "beside",
+     "brother",
+     "She",
+     "sat"
+    ]
+   },
+   {
+    "question": "Which word is a preposition? We walked through the forest.",
+    "answer": "through",
+    "choices": [
+     "walked",
+     "through",
+     "forest",
+     "We"
+    ]
+   },
+   {
+    "question": "Which word is a preposition? The kitten slept under the table.",
+    "answer": "under",
+    "choices": [
+     "slept",
+     "kitten",
+     "table",
+     "under"
+    ]
+   },
+   {
+    "question": "Which word is a preposition? The book fell off the shelf.",
+    "answer": "off",
+    "choices": [
+     "fell",
+     "book",
+     "off",
+     "shelf"
+    ]
+   },
+   {
+    "question": "Which word is a preposition? The plane flew above the clouds.",
+    "answer": "above",
+    "choices": [
+     "clouds",
+     "above",
+     "plane",
+     "flew"
+    ]
+   },
+   {
+    "question": "Which word is a preposition? We swam across the lake.",
+    "answer": "across",
+    "choices": [
+     "swam",
+     "lake",
+     "We",
+     "across"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPpOb",
+  "subject": "english",
+  "title": "Identify prepositions and their objects",
+  "section": "Prepositions",
+  "grades": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXPpOb3",
+   "engXPpOb4",
+   "engXPpOb5",
+   "engXPpOb6"
+  ],
+  "examples": [
+   {
+    "question": "What is the object of the preposition in the underlined phrase? They played after school .",
+    "answer": "school",
+    "choices": [
+     "they",
+     "school",
+     "after",
+     "played"
+    ]
+   },
+   {
+    "question": "What is the object of the preposition in the underlined phrase? The book is on the shelf .",
+    "answer": "shelf",
+    "choices": [
+     "is",
+     "shelf",
+     "on",
+     "book"
+    ]
+   },
+   {
+    "question": "What is the object of the preposition in the underlined phrase? We walked across the bridge .",
+    "answer": "bridge",
+    "choices": [
+     "walked",
+     "across",
+     "we",
+     "bridge"
+    ]
+   },
+   {
+    "question": "What is the object of the preposition in the underlined phrase? He swam in the lake .",
+    "answer": "lake",
+    "choices": [
+     "he",
+     "lake",
+     "swam",
+     "in"
+    ]
+   },
+   {
+    "question": "What is the object of the preposition in the underlined phrase? She sat beside her brother .",
+    "answer": "brother",
+    "choices": [
+     "she",
+     "sat",
+     "brother",
+     "beside"
+    ]
+   },
+   {
+    "question": "What is the object of the preposition in the underlined phrase? The cat hid under the bed .",
+    "answer": "bed",
+    "choices": [
+     "cat",
+     "under",
+     "bed",
+     "hid"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPpRv",
+  "subject": "english",
+  "title": "Prepositions: review",
+  "section": "Prepositions",
+  "grades": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXPpRv3",
+   "engXPpRv4",
+   "engXPpRv5",
+   "engXPpRv6"
+  ],
+  "examples": [
+   {
+    "question": "Is the underlined word a preposition? He is happy today.",
+    "answer": "Not a preposition",
+    "choices": [
+     "Preposition",
+     "Not a preposition"
+    ]
+   },
+   {
+    "question": "Is the underlined word a preposition? We ate lunch before the game.",
+    "answer": "Preposition",
+    "choices": [
+     "Not a preposition",
+     "Preposition"
+    ]
+   },
+   {
+    "question": "Is the underlined word a preposition? The ball rolled under the car.",
+    "answer": "Preposition",
+    "choices": [
+     "Preposition",
+     "Not a preposition"
+    ]
+   },
+   {
+    "question": "Is the underlined word a preposition? I walked through the park.",
+    "answer": "Preposition",
+    "choices": [
+     "Not a preposition",
+     "Preposition"
+    ]
+   },
+   {
+    "question": "Is the underlined word a preposition? She quickly ran home.",
+    "answer": "Not a preposition",
+    "choices": [
+     "Not a preposition",
+     "Preposition"
+    ]
+   },
+   {
+    "question": "Is the underlined word a preposition? The bird flew over the house.",
+    "answer": "Preposition",
+    "choices": [
+     "Preposition",
+     "Not a preposition"
+    ]
+   },
+   {
+    "question": "Is the underlined word a preposition? The bird flew away .",
+    "answer": "Not a preposition",
+    "choices": [
+     "Not a preposition",
+     "Preposition"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCoId",
+  "subject": "english",
+  "title": "Identify coordinating conjunctions",
+  "section": "Conjunctions",
+  "grades": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXCoId3",
+   "engXCoId4",
+   "engXCoId5",
+   "engXCoId6"
+  ],
+  "examples": [
+   {
+    "question": "Is the underlined word a coordinating conjunction? She can sing, and she can dance.",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Is the underlined word a coordinating conjunction? We waited until the bus came.",
+    "answer": "No",
+    "choices": [
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "question": "Is the underlined word a coordinating conjunction? He was tired, so he went to bed.",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Is the underlined word a coordinating conjunction? We stayed inside because it rained.",
+    "answer": "No",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Is the underlined word a coordinating conjunction? I like apples, but I don't like pears.",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Is the underlined word a coordinating conjunction? You can have juice or milk.",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Is the underlined word a coordinating conjunction? Although it was late, we kept reading.",
+    "answer": "No",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSuId",
+  "subject": "english",
+  "title": "Identify subordinating conjunctions",
+  "section": "Conjunctions",
+  "grades": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "skillIds": [
+   "engXSuId3",
+   "engXSuId4",
+   "engXSuId5",
+   "engXSuId6"
+  ],
+  "examples": [
+   {
+    "question": "Which word is the subordinating conjunction? She smiled while she worked.",
+    "answer": "while",
+    "choices": [
+     "smiled",
+     "she",
+     "She",
+     "while"
+    ]
+   },
+   {
+    "question": "Which word is the subordinating conjunction? Although I was tired, I finished.",
+    "answer": "Although",
+    "choices": [
+     "I",
+     "tired",
+     "Although",
+     "was"
+    ]
+   },
+   {
+    "question": "Which word is the subordinating conjunction? We stayed inside because it rained.",
+    "answer": "because",
+    "choices": [
+     "We",
+     "because",
+     "stayed",
+     "inside"
+    ]
+   },
+   {
+    "question": "Which word is the subordinating conjunction? Wait here until I return.",
+    "answer": "until",
+    "choices": [
+     "until",
+     "Wait",
+     "I",
+     "here"
+    ]
+   },
+   {
+    "question": "Which word is the subordinating conjunction? Call me when you arrive.",
+    "answer": "when",
+    "choices": [
+     "Call",
+     "you",
+     "me",
+     "when"
+    ]
+   },
+   {
+    "question": "Which word is the subordinating conjunction? If it snows, we will ski.",
+    "answer": "If",
+    "choices": [
+     "it",
+     "we",
+     "snows",
+     "If"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCpTr",
+  "subject": "english",
+  "title": "Capitalizing the names of people and pets and titles of respect",
+  "section": "Capitalization",
+  "grades": [
+   3,
+   4
+  ],
+  "skillIds": [
+   "engXCpTr3",
+   "engXCpTr4"
+  ],
+  "examples": [
+   {
+    "question": "Which is capitalized correctly?",
+    "answer": "my dog, Biscuit",
+    "choices": [
+     "my dog, Biscuit",
+     "My Dog, biscuit",
+     "my Dog, Biscuit",
+     "my dog, biscuit"
+    ]
+   },
+   {
+    "question": "Which is capitalized correctly?",
+    "answer": "Mrs. Gomez",
+    "choices": [
+     "Mrs. gomez",
+     "Mrs. Gomez",
+     "mrs. Gomez",
+     "MRS. gomez"
+    ]
+   },
+   {
+    "question": "Which is capitalized correctly?",
+    "answer": "Dr. Patel",
+    "choices": [
+     "Dr. Patel",
+     "dr. patel",
+     "dr. Patel",
+     "Dr. patel"
+    ]
+   },
+   {
+    "question": "Which is capitalized correctly?",
+    "answer": "Uncle Ray",
+    "choices": [
+     "uncle Ray",
+     "uncle ray",
+     "Uncle ray",
+     "Uncle Ray"
+    ]
+   },
+   {
+    "question": "Which is capitalized correctly?",
+    "answer": "Captain Morgan",
+    "choices": [
+     "captain morgan",
+     "Captain morgan",
+     "Captain Morgan",
+     "captain Morgan"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFmTt",
+  "subject": "english",
+  "title": "Formatting titles",
+  "section": "Formatting",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "engFmTt3",
+   "engFmTt4",
+   "engFmTt5",
+   "engFmTt6",
+   "engFmTt7",
+   "engFmTt8",
+   "engFmTt9"
+  ],
+  "examples": [
+   {
+    "question": "How should the title a TV series: Planet Earth be formatted?",
+    "answer": "Italics",
+    "choices": [
+     "Italics",
+     "Quotation marks"
+    ]
+   },
+   {
+    "question": "How should the title a novel: Pride and Prejudice be formatted?",
+    "answer": "Italics",
+    "choices": [
+     "Quotation marks",
+     "Italics"
+    ]
+   },
+   {
+    "question": "How should the title a magazine article: Ocean Plastics be formatted?",
+    "answer": "Quotation marks",
+    "choices": [
+     "Quotation marks",
+     "Italics"
+    ]
+   },
+   {
+    "question": "How should the title a newspaper: The Globe and Mail be formatted?",
+    "answer": "Italics",
+    "choices": [
+     "Italics",
+     "Quotation marks"
+    ]
+   },
+   {
+    "question": "How should the title a song: Happy Birthday be formatted?",
+    "answer": "Quotation marks",
+    "choices": [
+     "Italics",
+     "Quotation marks"
+    ]
+   },
+   {
+    "question": "How should the title a short story: The Gift of the Magi be formatted?",
+    "answer": "Quotation marks",
+    "choices": [
+     "Quotation marks",
+     "Italics"
+    ]
+   },
+   {
+    "question": "How should the title a poem: The Raven be formatted?",
+    "answer": "Quotation marks",
+    "choices": [
+     "Quotation marks",
+     "Italics"
+    ]
+   },
+   {
+    "question": "How should the title a chapter: The Boy Who Lived be formatted?",
+    "answer": "Quotation marks",
+    "choices": [
+     "Italics",
+     "Quotation marks"
+    ]
+   },
+   {
+    "question": "How should the title a movie: The Lion King be formatted?",
+    "answer": "Italics",
+    "choices": [
+     "Italics",
+     "Quotation marks"
+    ]
+   },
+   {
+    "question": "How should the title an album: Thriller be formatted?",
+    "answer": "Italics",
+    "choices": [
+     "Quotation marks",
+     "Italics"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFtCp",
+  "subject": "english",
+  "title": "Formatting and capitalizing titles",
+  "section": "Formatting",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "skillIds": [
+   "engXFtCp3",
+   "engXFtCp4",
+   "engXFtCp5",
+   "engXFtCp6",
+   "engXFtCp7",
+   "engXFtCp8",
+   "engXFtCp9"
+  ],
+  "examples": [
+   {
+    "question": "Which movie title is written correctly?",
+    "answer": "<em>The Lion King</em>",
+    "choices": [
+     "<em>The Lion King</em>",
+     "the Lion king",
+     "<em>The lion King</em>",
+     "\"the lion king\""
+    ]
+   },
+   {
+    "question": "Which poem title is written correctly?",
+    "answer": "\"The Road Not Taken\"",
+    "choices": [
+     "The Road Not taken",
+     "<em>The road not taken</em>",
+     "\"the Road not Taken\"",
+     "\"The Road Not Taken\""
+    ]
+   },
+   {
+    "question": "Which book title is written correctly?",
+    "answer": "<em>Charlotte's Web</em>",
+    "choices": [
+     "<em>charlotte's web</em>",
+     "<em>Charlotte's Web</em>",
+     "Charlotte's web",
+     "\"charlotte's web\""
+    ]
+   },
+   {
+    "question": "Which magazine title is written correctly?",
+    "answer": "<em>National Geographic</em>",
+    "choices": [
+     "<em>national Geographic</em>",
+     "National geographic",
+     "<em>National Geographic</em>",
+     "\"national geographic\""
+    ]
+   },
+   {
+    "question": "Which song title is written correctly?",
+    "answer": "\"The Wheels on the Bus\"",
+    "choices": [
+     "\"The Wheels on the Bus\"",
+     "\"The wheels On The Bus\"",
+     "The Wheels on the bus",
+     "<em>the wheels on the bus</em>"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFmQt",
+  "subject": "english",
+  "title": "Punctuating dialogue",
+  "section": "Formatting",
+  "grades": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFmQt3",
+   "engFmQt4",
+   "engFmQt5",
+   "engFmQt6",
+   "engFmQt7",
+   "engFmQt8",
+   "engFmQt9",
+   "engFmQt10",
+   "engFmQt11",
+   "engFmQt12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is formatted correctly?",
+    "answer": "\"Stop!\" he shouted. \"You'll miss the bus.\"",
+    "choices": [
+     "\"Stop!\" he shouted. \"You'll miss the bus.\"",
+     "\"Stop!\" He shouted. \"You'll miss the bus.\"",
+     "\"Stop!\", he shouted. \"You'll miss the bus.\"",
+     "\"Stop\"! he shouted. \"You'll miss the bus.\""
+    ]
+   },
+   {
+    "question": "Which sentence is formatted correctly?",
+    "answer": "\"Where are you going?\" she asked.",
+    "choices": [
+     "\"Where are you going\"? she asked.",
+     "\"Where are you going?\" she asked.",
+     "\"Where are you going?\" She asked.",
+     "\"Where are you going.\" she asked."
+    ]
+   },
+   {
+    "question": "Which sentence is formatted correctly?",
+    "answer": "Each time a new person speaks, start a new paragraph.",
+    "choices": [
+     "Each time a new person speaks, use a colon.",
+     "Each time a new person speaks, use italics.",
+     "Each time a new person speaks start on the same line.",
+     "Each time a new person speaks, start a new paragraph."
+    ]
+   },
+   {
+    "question": "Which sentence is formatted correctly?",
+    "answer": "Did he say, \"I'll be late\"?",
+    "choices": [
+     "Did he say, \"I'll be late\"?",
+     "Did he say, I'll be late?\"",
+     "Did he say, \"I'll be late?\"",
+     "Did he say \"I'll be late?\""
+    ]
+   },
+   {
+    "question": "Which sentence is formatted correctly?",
+    "answer": "She said, \"Let's go.\"",
+    "choices": [
+     "She said \"Let's go\".",
+     "She said, \"let's go.\"",
+     "She said: \"Let's go.",
+     "She said, \"Let's go.\""
+    ]
+   },
+   {
+    "question": "Which sentence is formatted correctly?",
+    "answer": "\"I think,\" said Maya, \"that we should go.\"",
+    "choices": [
+     "\"I think\" said Maya \"that we should go.\"",
+     "\"I think,\" said Maya, \"that we should go.\"",
+     "\"I think,\" said Maya, \"That we should go.\"",
+     "\"I think\", said Maya, \"that we should go.\""
+    ]
+   },
+   {
+    "question": "Which sentence is formatted correctly?",
+    "answer": "My teacher said, \"Read chapter four.\"",
+    "choices": [
+     "My teacher said, \"Read chapter four.\"",
+     "My teacher said \"Read chapter four\".",
+     "My teacher said: Read chapter four.\"",
+     "My teacher said, \"read chapter four.\""
+    ]
+   },
+   {
+    "question": "Which sentence is formatted correctly?",
+    "answer": "\"I'm tired,\" he said, \"but I'll finish.\"",
+    "choices": [
+     "\"I'm tired,\" he said \"but I'll finish.\"",
+     "\"I'm tired,\" he said, \"but I'll finish.\"",
+     "\"I'm tired,\" he said, \"But I'll finish.\"",
+     "\"I'm tired\", he said, \"but I'll finish.\""
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXMnTw",
+  "subject": "english",
+  "title": "Combine main ideas from two texts",
+  "section": "Main idea",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXMnTw4",
+   "engXMnTw5"
+  ],
+  "examples": [
+   {
+    "question": "Text 1: Inuit hunters built igloos from blocks of snow. Text 2: Snow traps air, which keeps the inside of an igloo warm. Which sentence combines the main ideas of both texts?",
+    "answer": "Inuit built igloos from snow, which insulates well.",
+    "choices": [
+     "Inuit built igloos from snow, which insulates well.",
+     "Air is invisible.",
+     "Hunters are brave.",
+     "Snow is white."
+    ]
+   },
+   {
+    "question": "Text 1: Polar bears hunt seals on sea ice. Text 2: As the Arctic warms, sea ice melts earlier each year. Which sentence combines the main ideas of both texts?",
+    "answer": "Melting sea ice makes it harder for polar bears to hunt.",
+    "choices": [
+     "The Arctic is cold.",
+     "Seals live in the ocean.",
+     "Polar bears are white.",
+     "Melting sea ice makes it harder for polar bears to hunt."
+    ]
+   },
+   {
+    "question": "Text 1: The Rocky Mountains stretch from Canada to New Mexico. Text 2: Many animals, such as bighorn sheep and grizzly bears, live in the Rockies. Which sentence combines the main ideas of both texts?",
+    "answer": "The Rocky Mountains are a long mountain range that is home to many animals.",
+    "choices": [
+     "New Mexico is hot.",
+     "The Rocky Mountains are a long mountain range that is home to many animals.",
+     "Mountains are tall.",
+     "Grizzly bears are big."
+    ]
+   },
+   {
+    "question": "Text 1: The Canadian Shield has many lakes. Text 2: Glaciers scraped the land and left holes that filled with water. Which sentence combines the main ideas of both texts?",
+    "answer": "Glaciers shaped the Canadian Shield and formed its many lakes.",
+    "choices": [
+     "Canada is big.",
+     "Lakes are full of fish.",
+     "Glaciers shaped the Canadian Shield and formed its many lakes.",
+     "Glaciers are cold."
+    ]
+   },
+   {
+    "question": "Text 1: Exercise makes your heart stronger. Text 2: Exercise can also improve your mood and help you sleep. Which sentence combines the main ideas of both texts?",
+    "answer": "Exercise helps both your body and your mind.",
+    "choices": [
+     "Exercise helps both your body and your mind.",
+     "Sleep is important.",
+     "Hearts pump blood.",
+     "Running is fast."
+    ]
+   },
+   {
+    "question": "Text 1: Wolves were removed from Yellowstone Park in the 1920s. Text 2: When wolves returned in 1995, elk herds shrank and plants along rivers grew back. Which sentence combines the main ideas of both texts?",
+    "answer": "Bringing wolves back to Yellowstone changed the whole ecosystem.",
+    "choices": [
+     "Elk eat grass.",
+     "Yellowstone is a park.",
+     "Wolves howl.",
+     "Bringing wolves back to Yellowstone changed the whole ecosystem."
+    ]
+   },
+   {
+    "question": "Text 1: Exercise makes your heart stronger. Text 2: Exercise also helps you sleep and feel calmer. Which sentence combines the main ideas of both texts?",
+    "answer": "Exercise is good for both your body and your mind.",
+    "choices": [
+     "Sleep is important.",
+     "Some people run.",
+     "Hearts pump blood.",
+     "Exercise is good for both your body and your mind."
+    ]
+   },
+   {
+    "question": "Text 1: Maple trees make sap in the spring. Text 2: People boil maple sap to make syrup. Which sentence combines the main ideas of both texts?",
+    "answer": "Maple trees make spring sap that people boil into syrup.",
+    "choices": [
+     "Spring is warm.",
+     "Syrup is sweet.",
+     "Trees are tall.",
+     "Maple trees make spring sap that people boil into syrup."
+    ]
+   },
+   {
+    "question": "Text 1: Honeybees make honey and beeswax. Text 2: Bees pollinate many of the fruits and vegetables people eat. Which sentence combines the main ideas of both texts?",
+    "answer": "Bees are useful because they make honey and wax and help grow our food.",
+    "choices": [
+     "Bees are useful because they make honey and wax and help grow our food.",
+     "Vegetables need water.",
+     "Bees can sting.",
+     "Bees make honey."
+    ]
+   },
+   {
+    "question": "Text 1: Solar panels turn sunlight into electricity. Text 2: Many homes in Alberta now use solar panels to lower their power bills. Which sentence combines the main ideas of both texts?",
+    "answer": "Solar panels make electricity from sunlight and help families save money.",
+    "choices": [
+     "Solar panels make electricity from sunlight and help families save money.",
+     "Panels are flat.",
+     "Alberta is sunny.",
+     "Electricity is useful."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXThSs",
+  "subject": "english",
+  "title": "Determine the themes of short stories",
+  "section": "Theme",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "engXThSs4",
+   "engXThSs5",
+   "engXThSs6",
+   "engXThSs7",
+   "engXThSs8"
+  ],
+  "examples": [
+   {
+    "question": "Leo wanted to win the race so badly that he skipped warm-ups. Halfway through, his leg cramped and he had to stop. The next week, he stretched carefully and finished strong. What is the theme?",
+    "answer": "Preparation matters as much as effort",
+    "choices": [
+     "Running is boring",
+     "Preparation matters as much as effort",
+     "Winning is easy",
+     "Never enter races"
+    ]
+   },
+   {
+    "question": "Every day the old man planted a tree, though he knew he would never sit in its shade. \"These are for my grandchildren,\" he said. What is the theme of the story?",
+    "answer": "We should do good things for the future, even if we don't benefit",
+    "choices": [
+     "Trees grow fast",
+     "Shade is important",
+     "We should do good things for the future, even if we don't benefit",
+     "Old people like gardening"
+    ]
+   },
+   {
+    "question": "The new student, Dev, sat alone for a week. Mia finally invited him to her lunch table. By June, Dev was her best friend. What is the theme?",
+    "answer": "Small acts of kindness can change lives",
+    "choices": [
+     "Friendship is impossible",
+     "New students are shy",
+     "Small acts of kindness can change lives",
+     "Lunch is important"
+    ]
+   },
+   {
+    "question": "The rabbit bragged about his speed and took a nap during the race. The slow tortoise kept going and crossed the finish line first. What is the theme of the story?",
+    "answer": "Slow and steady effort can beat careless talent",
+    "choices": [
+     "Rabbits are fast",
+     "Slow and steady effort can beat careless talent",
+     "Naps are good",
+     "Races are long"
+    ]
+   },
+   {
+    "question": "Leo was afraid to sing in front of others. When his little sister got lost at the fair, he sang her favourite song as loud as he could until she found him. What is the theme of the story?",
+    "answer": "Love can help us overcome our fears",
+    "choices": [
+     "Love can help us overcome our fears",
+     "Singing is easy",
+     "Little sisters get lost",
+     "Fairs are noisy"
+    ]
+   },
+   {
+    "question": "Ava found a wallet full of money on the bus. She thought about the new skates she wanted, but she turned it in to the driver. The next day, the owner thanked her with a handwritten note. What is the theme?",
+    "answer": "Honesty is rewarding even when it is hard",
+    "choices": [
+     "Skates are expensive",
+     "Money brings happiness",
+     "Honesty is rewarding even when it is hard",
+     "Buses are dangerous"
+    ]
+   },
+   {
+    "question": "Kai was afraid of the deep end. Every day he swam a little farther. By the end of summer, he dove off the high board. What is the theme?",
+    "answer": "Facing fears step by step builds courage",
+    "choices": [
+     "High boards are scary",
+     "Facing fears step by step builds courage",
+     "Summer is too short",
+     "Swimming is dangerous"
+    ]
+   },
+   {
+    "question": "Tess wanted to win the race so badly that she pushed past her friend Jo, who fell. Tess won, but standing alone on the podium, she felt empty. The next day she apologized, and Jo forgave her. What is the theme of the story?",
+    "answer": "Friendship matters more than winning",
+    "choices": [
+     "Always try to win",
+     "Friendship matters more than winning",
+     "Podiums are tall",
+     "Races are dangerous"
+    ]
+   },
+   {
+    "question": "Anya laughed at the new boy's accent. Later she moved to a new country herself and understood how it felt to be different. What is the theme of the story?",
+    "answer": "It is important to show empathy toward others",
+    "choices": [
+     "Moving is fun",
+     "Accents are funny",
+     "It is important to show empathy toward others",
+     "New countries are big"
+    ]
+   },
+   {
+    "question": "Kofi found a wallet full of money. Though he needed new shoes, he returned it to its owner, who thanked him with a smile. What is the theme of the story?",
+    "answer": "Honesty is the right choice even when it is hard",
+    "choices": [
+     "Shoes are expensive",
+     "Honesty is the right choice even when it is hard",
+     "Wallets are easy to lose",
+     "Money buys happiness"
+    ]
+   },
+   {
+    "question": "The fox told the crow her voice was beautiful. When the crow opened her beak to sing, the cheese fell out, and the fox ate it. What is the theme of the story?",
+    "answer": "Be careful of people who flatter you",
+    "choices": [
+     "Singing is fun",
+     "Crows like cheese",
+     "Foxes are fast",
+     "Be careful of people who flatter you"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAuPM",
+  "subject": "english",
+  "title": "Identify the author's purpose and message",
+  "section": "Author's purpose",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXAuPM4",
+   "engXAuPM5"
+  ],
+  "examples": [
+   {
+    "question": "Recycling one aluminum can saves enough energy to run a television for three hours. Cans can be recycled again and again without wearing out. What is the author's purpose and message?",
+    "answer": "To inform readers about the benefits of recycling cans",
+    "choices": [
+     "To describe how televisions work",
+     "To entertain readers with a story about a can",
+     "To persuade readers to watch less television",
+     "To inform readers about the benefits of recycling cans"
+    ]
+   },
+   {
+    "question": "Maple the puppy chased her tail until she was dizzy. Then she flopped onto her bed, sighed and fell fast asleep — still holding her tail in her mouth. What is the author's purpose and message?",
+    "answer": "To entertain readers with a funny scene",
+    "choices": [
+     "To inform readers how to train a puppy",
+     "To entertain readers with a funny scene",
+     "To persuade readers to adopt a dog",
+     "To explain why dogs sleep so much"
+    ]
+   },
+   {
+    "question": "Our town should build a skate park. Right now, skaters use parking lots, which is unsafe. A park would give kids a safe, fun place to be active. What is the author's purpose and message?",
+    "answer": "To persuade readers that the town needs a skate park",
+    "choices": [
+     "To inform readers about the history of skateboarding",
+     "To explain how to build a ramp",
+     "To entertain readers with a skateboarding story",
+     "To persuade readers that the town needs a skate park"
+    ]
+   },
+   {
+    "question": "Turn off the tap while you brush your teeth! You can save up to eight litres of water each time. Small changes add up to a big difference for our planet. What is the author's purpose and message?",
+    "answer": "To persuade readers to save water",
+    "choices": [
+     "To entertain readers with a joke about water",
+     "To describe a bathroom",
+     "To persuade readers to save water",
+     "To inform readers how teeth are cleaned"
+    ]
+   },
+   {
+    "question": "Bees do much more than make honey. As they fly from flower to flower, they carry pollen that helps plants make fruit. Without bees, many of the foods we eat would disappear. What is the author's purpose and message?",
+    "answer": "To inform readers that bees are important to our food",
+    "choices": [
+     "To entertain readers with a funny bee story",
+     "To inform readers that bees are important to our food",
+     "To explain how to keep bees as pets",
+     "To persuade readers to buy honey"
+    ]
+   },
+   {
+    "question": "When Lin forgot her lines in the play, her friend whispered them from the side of the stage. Lin finished the scene with a big smile. She learned that good friends help you shine. What is the author's purpose and message?",
+    "answer": "To entertain readers and share the message that friends help each other",
+    "choices": [
+     "To explain how to remember lines",
+     "To inform readers how plays are written",
+     "To entertain readers and share the message that friends help each other",
+     "To persuade readers to try out for a play"
+    ]
+   },
+   {
+    "question": "Terry Fox ran 5,373 kilometres across Canada on one real leg to raise money for cancer research. He never finished, but his run inspired millions of people. What is the author's purpose and message?",
+    "answer": "To inform readers about Terry Fox and show how one person can inspire others",
+    "choices": [
+     "To persuade readers to start running",
+     "To inform readers about Terry Fox and show how one person can inspire others",
+     "To entertain readers with a made-up adventure",
+     "To describe the roads across Canada"
+    ]
+   },
+   {
+    "question": "Every student should bring a reusable water bottle to school. Plastic bottles fill our landfills, and refilling a bottle saves money too. Make the switch today! What is the author's purpose and message?",
+    "answer": "To persuade readers to use reusable water bottles",
+    "choices": [
+     "To describe what a landfill looks like",
+     "To entertain readers with a story about a bottle",
+     "To persuade readers to use reusable water bottles",
+     "To inform readers how plastic is made"
+    ]
+   },
+   {
+    "question": "The old oak tree had seen a hundred winters. Birds nested in its branches and children climbed its trunk. When a storm finally knocked it down, the whole street gathered to plant a new one. What is the author's purpose and message?",
+    "answer": "To entertain readers and share the message that a community cares for nature together",
+    "choices": [
+     "To explain what causes storms",
+     "To persuade readers to cut down old trees",
+     "To entertain readers and share the message that a community cares for nature together",
+     "To inform readers how to grow an oak tree"
+    ]
+   },
+   {
+    "question": "Octopuses have three hearts and blue blood. They can change colour in less than a second to hide from enemies. What is the author's purpose and message?",
+    "answer": "To inform readers about surprising facts about octopuses",
+    "choices": [
+     "To entertain readers with an octopus adventure",
+     "To explain how to cook seafood",
+     "To persuade readers to keep an octopus",
+     "To inform readers about surprising facts about octopuses"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSmMt",
+  "subject": "english",
+  "title": "Identify similes and metaphors",
+  "section": "Literary devices",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engSmMt4",
+   "engSmMt5"
+  ],
+  "examples": [
+   {
+    "question": "Is this a simile or a metaphor? She is as sweet as candy.",
+    "answer": "Simile",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? The stars were diamonds in the sky.",
+    "answer": "Metaphor",
+    "choices": [
+     "Metaphor",
+     "Simile"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? He eats like a pig.",
+    "answer": "Simile",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? My brother is a couch potato.",
+    "answer": "Metaphor",
+    "choices": [
+     "Metaphor",
+     "Simile"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? The pillow was as soft as a cloud.",
+    "answer": "Simile",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? The stars shone like diamonds.",
+    "answer": "Simile",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? The classroom was a zoo.",
+    "answer": "Metaphor",
+    "choices": [
+     "Metaphor",
+     "Simile"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? Life is a highway.",
+    "answer": "Metaphor",
+    "choices": [
+     "Metaphor",
+     "Simile"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFgSp",
+  "subject": "english",
+  "title": "Determine the meanings of similes and metaphors",
+  "section": "Literary devices",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFgSp4",
+   "engFgSp5",
+   "engFgSp6",
+   "engFgSp7",
+   "engFgSp8",
+   "engFgSp9",
+   "engFgSp10",
+   "engFgSp11",
+   "engFgSp12"
+  ],
+  "examples": [
+   {
+    "question": "What does this mean? The city never sleeps.",
+    "answer": "The city is busy at all hours.",
+    "choices": [
+     "The city is busy at all hours.",
+     "Her words were hurtful.",
+     "He was extremely angry.",
+     "I have told you many times."
+    ]
+   },
+   {
+    "question": "What does this mean? Her smile lit up the room.",
+    "answer": "Her smile made everyone feel happier.",
+    "choices": [
+     "Life has many ups and downs.",
+     "I have told you many times.",
+     "The city is busy at all hours.",
+     "Her smile made everyone feel happier."
+    ]
+   },
+   {
+    "question": "What does this mean? He has a heart of stone.",
+    "answer": "He is unfeeling.",
+    "choices": [
+     "The city is busy at all hours.",
+     "Her smile made everyone feel happier.",
+     "He is unfeeling.",
+     "I have told you many times."
+    ]
+   },
+   {
+    "question": "What does this mean? I've told you a million times.",
+    "answer": "I have told you many times.",
+    "choices": [
+     "Her smile made everyone feel happier.",
+     "I have told you many times.",
+     "He is unfeeling.",
+     "He was extremely angry."
+    ]
+   },
+   {
+    "question": "What does this mean? Time is a thief.",
+    "answer": "Time takes things from us without notice.",
+    "choices": [
+     "Time takes things from us without notice.",
+     "I have told you many times.",
+     "The city is busy at all hours.",
+     "He was extremely angry."
+    ]
+   },
+   {
+    "question": "What does this mean? The classroom was a zoo.",
+    "answer": "The classroom was loud and chaotic.",
+    "choices": [
+     "He is unfeeling.",
+     "Her words were hurtful.",
+     "The classroom was loud and chaotic.",
+     "Time takes things from us without notice."
+    ]
+   },
+   {
+    "question": "What does this mean? The news was music to her ears.",
+    "answer": "She was delighted by the news.",
+    "choices": [
+     "Time takes things from us without notice.",
+     "She was delighted by the news.",
+     "He was extremely angry.",
+     "Her words were hurtful."
+    ]
+   },
+   {
+    "question": "What does this mean? He was boiling with anger.",
+    "answer": "He was extremely angry.",
+    "choices": [
+     "She was delighted by the news.",
+     "He is unfeeling.",
+     "He was extremely angry.",
+     "I have told you many times."
+    ]
+   },
+   {
+    "question": "What does this mean? Life is a rollercoaster.",
+    "answer": "Life has many ups and downs.",
+    "choices": [
+     "Her smile made everyone feel happier.",
+     "The city is busy at all hours.",
+     "Her words were hurtful.",
+     "Life has many ups and downs."
+    ]
+   },
+   {
+    "question": "What does this mean? Her words were daggers.",
+    "answer": "Her words were hurtful.",
+    "choices": [
+     "I have told you many times.",
+     "The classroom was loud and chaotic.",
+     "Her words were hurtful.",
+     "He was extremely angry."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFgEf",
+  "subject": "english",
+  "title": "Analyze the effects of figures of speech on meaning and tone",
+  "section": "Literary devices",
+  "grades": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFgEf4",
+   "engFgEf5",
+   "engFgEf6",
+   "engFgEf7",
+   "engFgEf8",
+   "engFgEf9",
+   "engFgEf10",
+   "engFgEf11",
+   "engFgEf12"
+  ],
+  "examples": [
+   {
+    "question": "\"The company is rightsizing.\" What effect does the euphemism create?",
+    "answer": "It softens an unpleasant truth about layoffs.",
+    "choices": [
+     "It softens an unpleasant truth about layoffs.",
+     "It makes the news sound more shocking.",
+     "It uses exact numbers.",
+     "It shows that the company is growing."
+    ]
+   },
+   {
+    "question": "\"We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills.\" — Winston Churchill, speech to the House of Commons (1940). What effect does the repetition create?",
+    "answer": "It builds determination and rhythm.",
+    "choices": [
+     "It confuses the audience.",
+     "It shows the speaker is unsure.",
+     "It builds determination and rhythm.",
+     "It lists locations for a map."
+    ]
+   },
+   {
+    "question": "\"The wind howled and clawed at the shutters.\" What effect does the personification create?",
+    "answer": "It makes the storm seem menacing and alive.",
+    "choices": [
+     "It shows the wind is calm.",
+     "It makes the storm seem menacing and alive.",
+     "It makes the tone humorous.",
+     "It lists facts about wind speed."
+    ]
+   },
+   {
+    "question": "\"O Fortune, why do you torment me?\" What effect does the apostrophe create?",
+    "answer": "It shows the speaker's intense emotion.",
+    "choices": [
+     "It proves Fortune is a real person.",
+     "It shows the speaker's intense emotion.",
+     "It describes a setting.",
+     "It signals a calm, factual tone."
+    ]
+   },
+   {
+    "question": "\"Her laugh was sunshine after rain.\" What effect does the metaphor create?",
+    "answer": "It conveys warmth and relief.",
+    "choices": [
+     "It conveys warmth and relief.",
+     "It shows that she is angry.",
+     "It suggests the laugh was loud and harsh.",
+     "It describes the weather."
+    ]
+   },
+   {
+    "question": "\"I've been waiting here for centuries.\" What effect does the hyperbole create?",
+    "answer": "It stresses the speaker's impatience.",
+    "choices": [
+     "It stresses the speaker's impatience.",
+     "It creates a calm tone.",
+     "It shows that the speaker is very old.",
+     "It gives the exact time spent waiting."
+    ]
+   },
+   {
+    "question": "\"It's only a flesh wound,\" said the knight, bleeding heavily. What effect does the understatement create?",
+    "answer": "It adds humour by downplaying a serious injury.",
+    "choices": [
+     "It adds humour by downplaying a serious injury.",
+     "It explains first aid.",
+     "It makes the tone tragic.",
+     "It shows the injury is minor."
+    ]
+   },
+   {
+    "question": "\"The silence in the room was deafening.\" What effect does the oxymoron create?",
+    "answer": "It emphasizes how intense and uncomfortable the quiet is.",
+    "choices": [
+     "It emphasizes how intense and uncomfortable the quiet is.",
+     "It explains how sound travels.",
+     "It shows the room was full of noise.",
+     "It shows that the speaker is joking."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFIG",
+  "subject": "english",
+  "title": "Similes and metaphors",
+  "section": "Literary devices",
+  "grades": [
+   4,
+   6
+  ],
+  "skillIds": [
+   "engFIG4",
+   "engFIG6"
+  ],
+  "examples": [
+   {
+    "question": "Is this a simile or a metaphor? The snow was like a white blanket.",
+    "answer": "Simile",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? Her voice was like honey.",
+    "answer": "Simile",
+    "choices": [
+     "Metaphor",
+     "Simile"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? He is as busy as a bee.",
+    "answer": "Simile",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? He is as brave as a lion.",
+    "answer": "Simile",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? The moon was a silver coin.",
+    "answer": "Metaphor",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? Life is a journey.",
+    "answer": "Metaphor",
+    "choices": [
+     "Metaphor",
+     "Simile"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? Her smile is sunshine.",
+    "answer": "Metaphor",
+    "choices": [
+     "Metaphor",
+     "Simile"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? Time is a thief.",
+    "answer": "Metaphor",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? She runs like the wind.",
+    "answer": "Simile",
+    "choices": [
+     "Metaphor",
+     "Simile"
+    ]
+   },
+   {
+    "question": "Is this a simile or a metaphor? The classroom was a zoo.",
+    "answer": "Metaphor",
+    "choices": [
+     "Simile",
+     "Metaphor"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXChCc",
+  "subject": "english",
+  "title": "Compare and contrast characters",
+  "section": "Inference",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXChCc4",
+   "engXChCc5"
+  ],
+  "examples": [
+   {
+    "question": "Both Raj and his grandmother love music. Raj plays electric guitar in a band, while his grandmother sings old folk songs while she cooks. What do Raj and his grandmother share?",
+    "answer": "A love of music",
+    "choices": [
+     "They both sing folk songs",
+     "They both play guitar",
+     "Neither likes music",
+     "A love of music"
+    ]
+   },
+   {
+    "question": "Rosa read every instruction twice before starting the science project. Her partner, Jake, grabbed the materials and started building right away. How are Rosa and Jake different?",
+    "answer": "Rosa is careful; Jake is impulsive",
+    "choices": [
+     "Both are careful",
+     "Rosa is impulsive; Jake is careful",
+     "Both are lazy",
+     "Rosa is careful; Jake is impulsive"
+    ]
+   },
+   {
+    "question": "Ahmed practises his lines every night and worries about forgetting them. Zoe never practises but feels calm and confident on stage. Which describes a difference between them?",
+    "answer": "Ahmed is nervous and prepared; Zoe is relaxed and unprepared",
+    "choices": [
+     "Both practise every night",
+     "Ahmed is nervous and prepared; Zoe is relaxed and unprepared",
+     "Zoe is nervous; Ahmed is relaxed",
+     "Both are nervous"
+    ]
+   },
+   {
+    "question": "Both Tia and her brother love animals. Tia volunteers at the shelter every weekend, while her brother draws pictures of wildlife. How are Tia and her brother alike?",
+    "answer": "They both love animals",
+    "choices": [
+     "They both draw",
+     "They both dislike pets",
+     "They both volunteer",
+     "They both love animals"
+    ]
+   },
+   {
+    "question": "Kai loves to try new foods, while his sister Lena eats only pasta. Both of them love to cook with their dad on Sundays. How are Kai and Lena alike?",
+    "answer": "They both enjoy cooking with their dad",
+    "choices": [
+     "They both enjoy cooking with their dad",
+     "They both try new foods",
+     "They both eat only pasta",
+     "Neither likes to cook"
+    ]
+   },
+   {
+    "question": "Iris wakes before sunrise to feed the chickens. Her brother Tom sleeps until noon but stays up late fixing broken radios. How are Iris and Tom different?",
+    "answer": "Iris is an early riser; Tom works late at night",
+    "choices": [
+     "Tom wakes early; Iris stays up late",
+     "Both wake before sunrise",
+     "Both feed the chickens",
+     "Iris is an early riser; Tom works late at night"
+    ]
+   },
+   {
+    "question": "Rosa raced ahead on the trail, shouting with excitement. Her friend Ben walked slowly, stopping to sketch every bird he saw. How are Rosa and Ben different?",
+    "answer": "Rosa hurries along excitedly; Ben takes his time and notices details",
+    "choices": [
+     "Both walk slowly",
+     "Ben hurries; Rosa sketches",
+     "Rosa hurries along excitedly; Ben takes his time and notices details",
+     "Both sketch birds"
+    ]
+   },
+   {
+    "question": "Max shares his lunch with anyone who forgets theirs. His twin, Mia, is shy but always helps classmates with their math. What trait do the twins share?",
+    "answer": "They are both kind and helpful",
+    "choices": [
+     "They are both unfriendly",
+     "They are both shy",
+     "They are both kind and helpful",
+     "They both forget their lunch"
+    ]
+   },
+   {
+    "question": "Grandpa tells long stories about growing up on a farm. Grandma prefers to show old photos without saying much. Both of them smile whenever they remember the farm. What do Grandpa and Grandma have in common?",
+    "answer": "They both have happy memories of the farm",
+    "choices": [
+     "They both have happy memories of the farm",
+     "They both tell long stories",
+     "They both dislike photos",
+     "Neither remembers the farm"
+    ]
+   },
+   {
+    "question": "Nia and her cousin Sam both want to win the science fair. Nia builds a solar oven; Sam studies how plants grow in different light. How are Nia and Sam alike?",
+    "answer": "They both want to win the science fair",
+    "choices": [
+     "They both build solar ovens",
+     "They both study plants",
+     "Neither enters the fair",
+     "They both want to win the science fair"
+    ]
+   },
+   {
+    "question": "The fox in the story is clever and tricks the other animals. The turtle is slow but honest, and the animals trust him. How is the turtle different from the fox?",
+    "answer": "The turtle is honest, while the fox is tricky",
+    "choices": [
+     "Both are dishonest",
+     "The turtle is faster",
+     "The turtle tricks the animals",
+     "The turtle is honest, while the fox is tricky"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXPlot",
+  "subject": "english",
+  "title": "Analyze plot elements",
+  "section": "Story elements",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engXPlot4",
+   "engXPlot5"
+  ],
+  "examples": [
+   {
+    "question": "What is the conflict in this story? \"Max wants to join the hockey team, but he cannot skate yet.\"",
+    "answer": "Max cannot skate but wants to play hockey",
+    "choices": [
+     "The rink is closed",
+     "Max lost his skates",
+     "Max is on the team",
+     "Max cannot skate but wants to play hockey"
+    ]
+   },
+   {
+    "question": "Which part of the plot is this? \"The tornado touched down just as Lena reached the cellar door.\"",
+    "answer": "Climax",
+    "choices": [
+     "Exposition",
+     "Climax",
+     "Falling action",
+     "Resolution"
+    ]
+   },
+   {
+    "question": "Which part of the plot is this? \"First the river rose, then the bridge cracked, and the villagers began to worry.\"",
+    "answer": "Rising action",
+    "choices": [
+     "Falling action",
+     "Resolution",
+     "Rising action",
+     "Exposition"
+    ]
+   },
+   {
+    "question": "Which part of the plot is this? \"Once upon a time, in a small village by the sea, lived a fisherman named Tomas.\"",
+    "answer": "Exposition",
+    "choices": [
+     "Climax",
+     "Rising action",
+     "Exposition",
+     "Resolution"
+    ]
+   },
+   {
+    "question": "Which part of the plot is this? \"After the storm, the neighbours helped rebuild the barn, and the town was closer than ever.\"",
+    "answer": "Resolution",
+    "choices": [
+     "Exposition",
+     "Resolution",
+     "Rising action",
+     "Climax"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpHf",
+  "subject": "english",
+  "title": "Read historical fiction",
+  "section": "Literary texts: level 2",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpHf4",
+   "engTpHf5"
+  ],
+  "examples": [
+   {
+    "question": "The Last Run of the Pony Express An original passage written for LearnAce 1 In October 1861, sixteen-year-old Billy galloped across the Nevada desert with a leather pouch of letters strapped to his saddle. Riders like him changed horses every fifteen kilometres so the mail could cross the country in just ten days. 2 At the station, the keeper handed him a cup of water and some news. \"Telegraph lines reached California today,\" he said. \"Messages can cross the country in minutes now.\" 3 Billy looked at the thin wire stretched along the poles. He patted his tired horse. \"Then let's make this last ride a good one,\" he said, and he raced off into the setting sun. Which detail shows the story is historical fiction?",
+    "answer": "It is set in 1861 and describes real events like the telegraph reaching California",
+    "choices": [
+     "Billy is sixteen years old",
+     "It is set in 1861 and describes real events like the telegraph reaching California",
+     "The sun is setting",
+     "Billy pats his horse"
+    ]
+   },
+   {
+    "question": "Ice Skates on the Rideau An original passage written for LearnAce 1 In the winter of 1910, Marie laced up her father's old skates on the frozen Rideau Canal in Ottawa. Her skates were too big, so she stuffed her mother's knitted socks into the toes. 2 Back then, there were no snow-clearing machines on the canal. Families shovelled their own paths across the ice. Marie's brothers cleared a long, winding lane from their house to the market so the family could skate there to buy bread. 3 Today, the Rideau Canal Skateway is cleared by machines and is one of the longest skating rinks in the world. But on cold mornings, Marie's great-granddaughter still stuffs a pair of knitted socks into her skates — just for luck. How was skating on the canal different in 1910?",
+    "answer": "Families shovelled their own paths because there were no machines",
+    "choices": [
+     "Skating was not allowed",
+     "Families shovelled their own paths because there were no machines",
+     "Only adults could skate",
+     "The canal never froze"
+    ]
+   },
+   {
+    "question": "The Last Run of the Pony Express An original passage written for LearnAce 1 In October 1861, sixteen-year-old Billy galloped across the Nevada desert with a leather pouch of letters strapped to his saddle. Riders like him changed horses every fifteen kilometres so the mail could cross the country in just ten days. 2 At the station, the keeper handed him a cup of water and some news. \"Telegraph lines reached California today,\" he said. \"Messages can cross the country in minutes now.\" 3 Billy looked at the thin wire stretched along the poles. He patted his tired horse. \"Then let's make this last ride a good one,\" he said, and he raced off into the setting sun. What news did the station keeper share?",
+    "answer": "The telegraph could now send messages across the country in minutes",
+    "choices": [
+     "Billy had won a prize",
+     "The telegraph could now send messages across the country in minutes",
+     "A storm was coming",
+     "The desert was closed"
+    ]
+   },
+   {
+    "question": "Ice Skates on the Rideau An original passage written for LearnAce 1 In the winter of 1910, Marie laced up her father's old skates on the frozen Rideau Canal in Ottawa. Her skates were too big, so she stuffed her mother's knitted socks into the toes. 2 Back then, there were no snow-clearing machines on the canal. Families shovelled their own paths across the ice. Marie's brothers cleared a long, winding lane from their house to the market so the family could skate there to buy bread. 3 Today, the Rideau Canal Skateway is cleared by machines and is one of the longest skating rinks in the world. But on cold mornings, Marie's great-granddaughter still stuffs a pair of knitted socks into her skates — just for luck. Why did Marie stuff socks into her skates?",
+    "answer": "The skates were too big for her",
+    "choices": [
+     "Her skates were broken",
+     "The skates were too big for her",
+     "Her feet were cold",
+     "It was a family rule"
+    ]
+   },
+   {
+    "question": "The Last Run of the Pony Express An original passage written for LearnAce 1 In October 1861, sixteen-year-old Billy galloped across the Nevada desert with a leather pouch of letters strapped to his saddle. Riders like him changed horses every fifteen kilometres so the mail could cross the country in just ten days. 2 At the station, the keeper handed him a cup of water and some news. \"Telegraph lines reached California today,\" he said. \"Messages can cross the country in minutes now.\" 3 Billy looked at the thin wire stretched along the poles. He patted his tired horse. \"Then let's make this last ride a good one,\" he said, and he raced off into the setting sun. What can you infer will happen to the Pony Express?",
+    "answer": "It will no longer be needed",
+    "choices": [
+     "It will no longer be needed",
+     "It will get faster horses",
+     "It will deliver more mail than ever",
+     "It will move to California"
+    ]
+   },
+   {
+    "question": "Ice Skates on the Rideau An original passage written for LearnAce 1 In the winter of 1910, Marie laced up her father's old skates on the frozen Rideau Canal in Ottawa. Her skates were too big, so she stuffed her mother's knitted socks into the toes. 2 Back then, there were no snow-clearing machines on the canal. Families shovelled their own paths across the ice. Marie's brothers cleared a long, winding lane from their house to the market so the family could skate there to buy bread. 3 Today, the Rideau Canal Skateway is cleared by machines and is one of the longest skating rinks in the world. But on cold mornings, Marie's great-granddaughter still stuffs a pair of knitted socks into her skates — just for luck. What connects the past and present in the story?",
+    "answer": "The family tradition of stuffing knitted socks into skates",
+    "choices": [
+     "The same pair of skates",
+     "The family tradition of stuffing knitted socks into skates",
+     "The bakery at the market",
+     "The snow-clearing machines"
+    ]
+   },
+   {
+    "question": "Ice Skates on the Rideau An original passage written for LearnAce 1 In the winter of 1910, Marie laced up her father's old skates on the frozen Rideau Canal in Ottawa. Her skates were too big, so she stuffed her mother's knitted socks into the toes. 2 Back then, there were no snow-clearing machines on the canal. Families shovelled their own paths across the ice. Marie's brothers cleared a long, winding lane from their house to the market so the family could skate there to buy bread. 3 Today, the Rideau Canal Skateway is cleared by machines and is one of the longest skating rinks in the world. But on cold mornings, Marie's great-granddaughter still stuffs a pair of knitted socks into her skates — just for luck. Why did Marie's brothers clear a path to the market?",
+    "answer": "So the family could skate there to buy bread",
+    "choices": [
+     "So the family could skate there to buy bread",
+     "To build a rink",
+     "To win a race",
+     "To help the city"
+    ]
+   },
+   {
+    "question": "The Last Run of the Pony Express An original passage written for LearnAce 1 In October 1861, sixteen-year-old Billy galloped across the Nevada desert with a leather pouch of letters strapped to his saddle. Riders like him changed horses every fifteen kilometres so the mail could cross the country in just ten days. 2 At the station, the keeper handed him a cup of water and some news. \"Telegraph lines reached California today,\" he said. \"Messages can cross the country in minutes now.\" 3 Billy looked at the thin wire stretched along the poles. He patted his tired horse. \"Then let's make this last ride a good one,\" he said, and he raced off into the setting sun. How did Pony Express riders deliver mail so quickly?",
+    "answer": "They changed horses often and rode day and night",
+    "choices": [
+     "They used trains",
+     "They sent letters by telegraph",
+     "They used boats",
+     "They changed horses often and rode day and night"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTpDr",
+  "subject": "english",
+  "title": "Read drama",
+  "section": "Literary texts: level 2",
+  "grades": [
+   4,
+   5
+  ],
+  "skillIds": [
+   "engTpDr4",
+   "engTpDr5"
+  ],
+  "examples": [
+   {
+    "question": "The Missing Cookies (a play) An original passage written for LearnAce CHARACTERS: Mom, Ben, Lily (his sister) [A kitchen. An empty cookie jar sits on the counter.] MOM: (holding up the jar) Who ate all the cookies? BEN: (wiping crumbs from his shirt) Not me! I've been reading all afternoon. LILY: (pointing) Then why is there chocolate on your book? BEN: (looking down, then sighing) Okay... it was me. I'm sorry, Mom. MOM: (smiling) Thank you for telling the truth. Now, who wants to help me bake more? What are the words in parentheses, like \"(wiping crumbs from his shirt)\"?",
+    "answer": "Stage directions that tell how characters act",
+    "choices": [
+     "The setting",
+     "The title of the play",
+     "Lines the characters say aloud",
+     "Stage directions that tell how characters act"
+    ]
+   },
+   {
+    "question": "The Talent Show (a play) An original passage written for LearnAce CHARACTERS: Sofia, Mr. Grant (teacher) [Backstage at a school talent show. Sofia paces back and forth, holding a guitar.] SOFIA: (nervously) Mr. Grant, I can't do it. What if I forget the chords? MR. GRANT: (kneeling beside her) Everyone forgets sometimes. If you do, just keep strumming and smile. SOFIA: (taking a deep breath) Keep strumming and smile. Okay. [Sofia walks onstage. The audience claps. She begins to play.] How does Sofia feel at the beginning?",
+    "answer": "Nervous",
+    "choices": [
+     "Sleepy",
+     "Nervous",
+     "Bored",
+     "Angry"
+    ]
+   },
+   {
+    "question": "The Missing Cookies (a play) An original passage written for LearnAce CHARACTERS: Mom, Ben, Lily (his sister) [A kitchen. An empty cookie jar sits on the counter.] MOM: (holding up the jar) Who ate all the cookies? BEN: (wiping crumbs from his shirt) Not me! I've been reading all afternoon. LILY: (pointing) Then why is there chocolate on your book? BEN: (looking down, then sighing) Okay... it was me. I'm sorry, Mom. MOM: (smiling) Thank you for telling the truth. Now, who wants to help me bake more? How does Mom respond to Ben's confession?",
+    "answer": "She thanks him for being honest",
+    "choices": [
+     "She gets angry at Lily",
+     "She hides the jar",
+     "She thanks him for being honest",
+     "She sends him to his room"
+    ]
+   },
+   {
+    "question": "The Talent Show (a play) An original passage written for LearnAce CHARACTERS: Sofia, Mr. Grant (teacher) [Backstage at a school talent show. Sofia paces back and forth, holding a guitar.] SOFIA: (nervously) Mr. Grant, I can't do it. What if I forget the chords? MR. GRANT: (kneeling beside her) Everyone forgets sometimes. If you do, just keep strumming and smile. SOFIA: (taking a deep breath) Keep strumming and smile. Okay. [Sofia walks onstage. The audience claps. She begins to play.] What advice does Mr. Grant give?",
+    "answer": "If she forgets, keep strumming and smile",
+    "choices": [
+     "If she forgets, keep strumming and smile",
+     "Practise for another week",
+     "Sing instead of playing",
+     "Go home"
+    ]
+   },
+   {
+    "question": "The Talent Show (a play) An original passage written for LearnAce CHARACTERS: Sofia, Mr. Grant (teacher) [Backstage at a school talent show. Sofia paces back and forth, holding a guitar.] SOFIA: (nervously) Mr. Grant, I can't do it. What if I forget the chords? MR. GRANT: (kneeling beside her) Everyone forgets sometimes. If you do, just keep strumming and smile. SOFIA: (taking a deep breath) Keep strumming and smile. Okay. [Sofia walks onstage. The audience claps. She begins to play.] Which line is a stage direction?",
+    "answer": "[Sofia walks onstage. The audience claps.]",
+    "choices": [
+     "\"Everyone forgets sometimes.\"",
+     "[Sofia walks onstage. The audience claps.]",
+     "\"I can't do it.\"",
+     "\"Keep strumming and smile.\""
+    ]
+   },
+   {
+    "question": "The Missing Cookies (a play) An original passage written for LearnAce CHARACTERS: Mom, Ben, Lily (his sister) [A kitchen. An empty cookie jar sits on the counter.] MOM: (holding up the jar) Who ate all the cookies? BEN: (wiping crumbs from his shirt) Not me! I've been reading all afternoon. LILY: (pointing) Then why is there chocolate on your book? BEN: (looking down, then sighing) Okay... it was me. I'm sorry, Mom. MOM: (smiling) Thank you for telling the truth. Now, who wants to help me bake more? Where does the play take place?",
+    "answer": "In a kitchen",
+    "choices": [
+     "In a library",
+     "In a kitchen",
+     "In a bakery",
+     "At school"
+    ]
+   },
+   {
+    "question": "The Missing Cookies (a play) An original passage written for LearnAce CHARACTERS: Mom, Ben, Lily (his sister) [A kitchen. An empty cookie jar sits on the counter.] MOM: (holding up the jar) Who ate all the cookies? BEN: (wiping crumbs from his shirt) Not me! I've been reading all afternoon. LILY: (pointing) Then why is there chocolate on your book? BEN: (looking down, then sighing) Okay... it was me. I'm sorry, Mom. MOM: (smiling) Thank you for telling the truth. Now, who wants to help me bake more? Which clue shows that Ben ate the cookies?",
+    "answer": "There is chocolate on his book",
+    "choices": [
+     "He was reading",
+     "There is chocolate on his book",
+     "Lily is pointing",
+     "The jar is on the counter"
+    ]
+   },
+   {
+    "question": "The Talent Show (a play) An original passage written for LearnAce CHARACTERS: Sofia, Mr. Grant (teacher) [Backstage at a school talent show. Sofia paces back and forth, holding a guitar.] SOFIA: (nervously) Mr. Grant, I can't do it. What if I forget the chords? MR. GRANT: (kneeling beside her) Everyone forgets sometimes. If you do, just keep strumming and smile. SOFIA: (taking a deep breath) Keep strumming and smile. Okay. [Sofia walks onstage. The audience claps. She begins to play.] How does Sofia change by the end?",
+    "answer": "She becomes brave enough to perform",
+    "choices": [
+     "She forgets her guitar",
+     "She becomes brave enough to perform",
+     "She becomes angry",
+     "She quits the show"
+    ]
+   }
+  ]
+ }
+]

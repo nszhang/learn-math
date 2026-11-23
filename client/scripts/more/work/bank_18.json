@@ -1,0 +1,2375 @@
+[
+ {
+  "key": "sciXsSolLiq",
+  "subject": "science",
+  "title": "Identify solids and liquids",
+  "section": "States of matter",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciXsSolLiq1",
+   "sciXsSolLiq2"
+  ],
+  "examples": [
+   {
+    "question": "Is this a solid or a liquid? 🥛 milk",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this a solid or a liquid? 🧱 brick",
+    "answer": "Solid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this a solid or a liquid? 🥄 spoon",
+    "answer": "Solid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this a solid or a liquid? 🪨 rock",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this a solid or a liquid? 🧃 juice",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this a solid or a liquid? 🧊 ice cube",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this a solid or a liquid? 💧 water",
+    "answer": "Liquid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this a solid or a liquid? 🍯 honey",
+    "answer": "Liquid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciHeatCool",
+  "subject": "science",
+  "title": "Changes caused by heating and cooling",
+  "section": "Heating and cooling",
+  "grades": [
+   1,
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciHeatCool1",
+   "sciHeatCool2",
+   "sciHeatCool3"
+  ],
+  "examples": [
+   {
+    "question": "What happens to chocolate left in a hot car?",
+    "answer": "It melts.",
+    "choices": [
+     "It turns into milk.",
+     "It gets harder.",
+     "It melts.",
+     "It freezes."
+    ]
+   },
+   {
+    "question": "What happens to an egg when it is cooked?",
+    "answer": "It turns from runny to firm.",
+    "choices": [
+     "It turns from runny to firm.",
+     "It melts.",
+     "It stays runny.",
+     "It turns into a chick."
+    ]
+   },
+   {
+    "question": "What happens to an ice cube left in a warm room?",
+    "answer": "It melts into water.",
+    "choices": [
+     "It gets bigger.",
+     "It melts into water.",
+     "It stays the same.",
+     "It turns into a rock."
+    ]
+   },
+   {
+    "question": "What happens to melted wax when it cools?",
+    "answer": "It hardens into a solid.",
+    "choices": [
+     "It stays runny forever.",
+     "It hardens into a solid.",
+     "It turns into a gas.",
+     "It boils."
+    ]
+   },
+   {
+    "question": "What happens to water put in the freezer?",
+    "answer": "It freezes into ice.",
+    "choices": [
+     "It freezes into ice.",
+     "It disappears.",
+     "It boils.",
+     "It turns into juice."
+    ]
+   },
+   {
+    "question": "What happens to bread in a toaster?",
+    "answer": "It turns brown and crunchy.",
+    "choices": [
+     "It turns brown and crunchy.",
+     "It melts.",
+     "It turns into dough.",
+     "It turns green."
+    ]
+   },
+   {
+    "question": "What happens to a puddle on a hot, sunny day?",
+    "answer": "It dries up (evaporates).",
+    "choices": [
+     "It turns into mud forever.",
+     "It gets deeper.",
+     "It freezes.",
+     "It dries up (evaporates)."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsLight",
+  "subject": "science",
+  "title": "More light or less light",
+  "section": "Light and sound",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "sciXsLight1"
+  ],
+  "examples": [
+   {
+    "question": "When you turn off a lamp, the room has…",
+    "answer": "less light",
+    "choices": [
+     "the same light",
+     "coloured light",
+     "less light",
+     "more light"
+    ]
+   },
+   {
+    "question": "Which room has more light?",
+    "answer": "A room with the curtains open on a sunny day",
+    "choices": [
+     "A cave",
+     "A room with the lights off at night",
+     "A room with the curtains open on a sunny day",
+     "A closet with the door closed"
+    ]
+   },
+   {
+    "question": "Where would a flashlight help you see?",
+    "answer": "In a dark tent at night",
+    "choices": [
+     "In a dark tent at night",
+     "Outside at noon",
+     "Under bright stage lights",
+     "Next to a bright window"
+    ]
+   },
+   {
+    "question": "Which material lets the most light through?",
+    "answer": "Clear glass",
+    "choices": [
+     "Cardboard",
+     "Clear glass",
+     "A brick",
+     "Wood"
+    ]
+   },
+   {
+    "question": "What happens to light when you hold a book in front of a lamp?",
+    "answer": "The book blocks some light and makes a shadow",
+    "choices": [
+     "Nothing happens",
+     "The light goes through",
+     "The book blocks some light and makes a shadow",
+     "The lamp gets brighter"
+    ]
+   },
+   {
+    "question": "Which window covering lets less light in?",
+    "answer": "Thick curtains",
+    "choices": [
+     "Clear glass",
+     "Lace curtains",
+     "No covering",
+     "Thick curtains"
+    ]
+   },
+   {
+    "question": "When does a room get less light?",
+    "answer": "When you close the curtains",
+    "choices": [
+     "When you close the curtains",
+     "When you open the curtains",
+     "At noon on a sunny day",
+     "When you turn on a lamp"
+    ]
+   },
+   {
+    "question": "Which gives off more light?",
+    "answer": "The sun",
+    "choices": [
+     "A candle",
+     "A glow stick",
+     "The moon",
+     "The sun"
+    ]
+   },
+   {
+    "question": "Is there more light at noon or at midnight?",
+    "answer": "Noon",
+    "choices": [
+     "Both are the same",
+     "Midnight",
+     "Neither",
+     "Noon"
+    ]
+   },
+   {
+    "question": "Which place gets more light: under a tree or in an open field?",
+    "answer": "An open field",
+    "choices": [
+     "Under a tree",
+     "An open field",
+     "Neither gets light",
+     "They are the same"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciShadow",
+  "subject": "science",
+  "title": "Investigate shadows",
+  "section": "Light and sound",
+  "grades": [
+   1,
+   2,
+   5
+  ],
+  "skillIds": [
+   "sciShadow1",
+   "sciShadow2",
+   "sciShadow5"
+  ],
+  "examples": [
+   {
+    "question": "When is your shadow shortest on a sunny day?",
+    "answer": "Around noon",
+    "choices": [
+     "At sunset",
+     "Early morning",
+     "Late afternoon",
+     "Around noon"
+    ]
+   },
+   {
+    "question": "When is your shadow longest on a sunny day?",
+    "answer": "Early morning or late afternoon",
+    "choices": [
+     "At midnight",
+     "Early morning or late afternoon",
+     "It never changes",
+     "Around noon"
+    ]
+   },
+   {
+    "question": "Which object makes the darkest shadow?",
+    "answer": "A wooden block (opaque)",
+    "choices": [
+     "Wax paper (translucent)",
+     "Plastic wrap (transparent)",
+     "A clear glass (transparent)",
+     "A wooden block (opaque)"
+    ]
+   },
+   {
+    "question": "What causes a shadow?",
+    "answer": "An object blocks light.",
+    "choices": [
+     "An object reflects light.",
+     "The ground makes it dark.",
+     "Light passes through an object.",
+     "An object blocks light."
+    ]
+   },
+   {
+    "question": "The Sun is in the east in the morning. Which way does your shadow point?",
+    "answer": "West",
+    "choices": [
+     "Straight down",
+     "East",
+     "Toward the Sun",
+     "West"
+    ]
+   },
+   {
+    "question": "A flashlight moves closer to a toy. What happens to the toy's shadow?",
+    "answer": "It gets bigger.",
+    "choices": [
+     "It gets bigger.",
+     "It gets smaller.",
+     "It disappears.",
+     "It changes colour."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciLightThru",
+  "subject": "science",
+  "title": "Which lets light go through?",
+  "section": "Light and sound",
+  "grades": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciLightThru1",
+   "sciLightThru2",
+   "sciLightThru3",
+   "sciLightThru4"
+  ],
+  "examples": [
+   {
+    "question": "How much light passes through a clear window ?",
+    "answer": "Transparent",
+    "choices": [
+     "Opaque",
+     "Translucent",
+     "Transparent"
+    ]
+   },
+   {
+    "question": "How much light passes through plastic wrap ?",
+    "answer": "Transparent",
+    "choices": [
+     "Opaque",
+     "Transparent",
+     "Translucent"
+    ]
+   },
+   {
+    "question": "How much light passes through frosted glass ?",
+    "answer": "Translucent",
+    "choices": [
+     "Translucent",
+     "Opaque",
+     "Transparent"
+    ]
+   },
+   {
+    "question": "How much light passes through a metal pan ?",
+    "answer": "Opaque",
+    "choices": [
+     "Translucent",
+     "Transparent",
+     "Opaque"
+    ]
+   },
+   {
+    "question": "How much light passes through a book ?",
+    "answer": "Opaque",
+    "choices": [
+     "Opaque",
+     "Translucent",
+     "Transparent"
+    ]
+   },
+   {
+    "question": "How much light passes through a brick wall ?",
+    "answer": "Opaque",
+    "choices": [
+     "Opaque",
+     "Transparent",
+     "Translucent"
+    ]
+   },
+   {
+    "question": "How much light passes through wax paper ?",
+    "answer": "Translucent",
+    "choices": [
+     "Opaque",
+     "Transparent",
+     "Translucent"
+    ]
+   },
+   {
+    "question": "How much light passes through clean water ?",
+    "answer": "Transparent",
+    "choices": [
+     "Translucent",
+     "Opaque",
+     "Transparent"
+    ]
+   },
+   {
+    "question": "How much light passes through a wooden door ?",
+    "answer": "Opaque",
+    "choices": [
+     "Opaque",
+     "Transparent",
+     "Translucent"
+    ]
+   },
+   {
+    "question": "How much light passes through a thin paper napkin ?",
+    "answer": "Translucent",
+    "choices": [
+     "Translucent",
+     "Opaque",
+     "Transparent"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsComm",
+  "subject": "science",
+  "title": "How do we use light and sound to communicate?",
+  "section": "Light and sound",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciXsComm1",
+   "sciXsComm2"
+  ],
+  "examples": [
+   {
+    "question": "Why does an ambulance use a siren and flashing lights?",
+    "answer": "To tell drivers to move out of the way",
+    "choices": [
+     "To play a song",
+     "For decoration",
+     "To light up the road at noon",
+     "To tell drivers to move out of the way"
+    ]
+   },
+   {
+    "question": "Why do bikes have bells?",
+    "answer": "To warn people with a sound",
+    "choices": [
+     "To steer",
+     "To light the road",
+     "To go faster",
+     "To warn people with a sound"
+    ]
+   },
+   {
+    "question": "What does a fire alarm's loud sound tell people?",
+    "answer": "To leave the building",
+    "choices": [
+     "To go to sleep",
+     "To turn up the music",
+     "To eat lunch",
+     "To leave the building"
+    ]
+   },
+   {
+    "question": "How does an ambulance tell cars to move over?",
+    "answer": "With a siren and flashing lights",
+    "choices": [
+     "With a smell",
+     "With a siren and flashing lights",
+     "By going slowly",
+     "By stopping"
+    ]
+   },
+   {
+    "question": "How can you send a message across a dark field?",
+    "answer": "Flash a flashlight",
+    "choices": [
+     "Wave in the dark",
+     "Flash a flashlight",
+     "Whisper",
+     "Write a note in the dark"
+    ]
+   },
+   {
+    "question": "Two friends use cups and a string to talk. What carries the message?",
+    "answer": "Vibrations travelling along the string",
+    "choices": [
+     "Vibrations travelling along the string",
+     "Water",
+     "Light",
+     "Wind"
+    ]
+   },
+   {
+    "question": "What does a flashing red traffic light tell drivers?",
+    "answer": "Stop",
+    "choices": [
+     "Stop",
+     "Speed up",
+     "Turn on the radio",
+     "Honk"
+    ]
+   },
+   {
+    "question": "How does a lighthouse help ships at night?",
+    "answer": "Its light warns them about rocks",
+    "choices": [
+     "Its light warns them about rocks",
+     "It catches fish",
+     "Its sound plays music",
+     "It heats the water"
+    ]
+   },
+   {
+    "question": "What does a green traffic light mean?",
+    "answer": "Go",
+    "choices": [
+     "Turn around",
+     "Stop",
+     "Go",
+     "Slow down"
+    ]
+   },
+   {
+    "question": "How does a fire alarm communicate danger?",
+    "answer": "With a loud sound",
+    "choices": [
+     "With a smell",
+     "With a taste",
+     "With a loud sound",
+     "It is silent"
+    ]
+   },
+   {
+    "question": "How does a lighthouse help ships?",
+    "answer": "Its light warns ships about rocks",
+    "choices": [
+     "Its light warns ships about rocks",
+     "It makes waves",
+     "It shows the time",
+     "It plays music"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSound",
+  "subject": "science",
+  "title": "Sound and vibration",
+  "section": "Light and sound",
+  "grades": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "sciSound1",
+   "sciSound2",
+   "sciSound3",
+   "sciSound4"
+  ],
+  "examples": [
+   {
+    "question": "How can you make a guitar string sound higher?",
+    "answer": "Make it tighter or shorter",
+    "choices": [
+     "Make it looser or longer",
+     "Paint it",
+     "Pluck it more gently",
+     "Make it tighter or shorter"
+    ]
+   },
+   {
+    "question": "Which travels faster: light or sound?",
+    "answer": "Light",
+    "choices": [
+     "It depends on the colour",
+     "Light",
+     "They travel at the same speed",
+     "Sound"
+    ]
+   },
+   {
+    "question": "A drum is hit harder. What happens to the sound?",
+    "answer": "It gets louder.",
+    "choices": [
+     "It gets quieter.",
+     "It stops.",
+     "It gets louder.",
+     "It gets higher."
+    ]
+   },
+   {
+    "question": "Why do you see lightning before you hear thunder?",
+    "answer": "Light travels faster than sound.",
+    "choices": [
+     "Sound travels faster than light.",
+     "Thunder happens later.",
+     "Our eyes are faster than our ears.",
+     "Light travels faster than sound."
+    ]
+   },
+   {
+    "question": "What makes sound?",
+    "answer": "Vibrations",
+    "choices": [
+     "Colours",
+     "Vibrations",
+     "Shadows",
+     "Light"
+    ]
+   },
+   {
+    "question": "Can sound travel through empty space?",
+    "answer": "No — it needs a material such as air.",
+    "choices": [
+     "Yes, but only at night.",
+     "Yes, it travels best in space.",
+     "Only very loud sounds can.",
+     "No — it needs a material such as air."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMagPull",
+  "subject": "science",
+  "title": "What objects can a magnet pull?",
+  "section": "Force and motion",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciXsMagPull1",
+   "sciXsMagPull2"
+  ],
+  "examples": [
+   {
+    "question": "Will a magnet pull this? 📎 a steel paper clip",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Will a magnet pull this? 🧸 a cloth toy",
+    "answer": "No",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Will a magnet pull this? 🥤 a plastic cup",
+    "answer": "No",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Will a magnet pull this? 🔩 an iron nail",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Will a magnet pull this? 🪵 a wooden block",
+    "answer": "No",
+    "choices": [
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "question": "Will a magnet pull this? 🔑 a steel key",
+    "answer": "Yes",
+    "choices": [
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "question": "Will a magnet pull this? 📄 a sheet of paper",
+    "answer": "No",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   },
+   {
+    "question": "Will a magnet pull this? 🥄 a steel spoon",
+    "answer": "Yes",
+    "choices": [
+     "No",
+     "Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciNeeds",
+  "subject": "science",
+  "title": "What do living things need to survive?",
+  "section": "Animals",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciNeeds1",
+   "sciNeeds2"
+  ],
+  "examples": [
+   {
+    "question": "What do animals need to survive?",
+    "answer": "Food, water, air and shelter",
+    "choices": [
+     "Toys and games",
+     "Only sunlight",
+     "Only sleep",
+     "Food, water, air and shelter"
+    ]
+   },
+   {
+    "question": "What happens to a plant that gets no water?",
+    "answer": "It wilts and may die.",
+    "choices": [
+     "It changes colour to blue.",
+     "It wilts and may die.",
+     "It grows faster.",
+     "It turns into a tree."
+    ]
+   },
+   {
+    "question": "Why do plants grow toward a window?",
+    "answer": "To get more sunlight",
+    "choices": [
+     "To find water",
+     "To stay cold",
+     "To get more sunlight",
+     "To see outside"
+    ]
+   },
+   {
+    "question": "Why does a bear sleep in a den all winter?",
+    "answer": "For shelter during the cold",
+    "choices": [
+     "For shelter during the cold",
+     "To get a suntan",
+     "To find food",
+     "To meet other bears"
+    ]
+   },
+   {
+    "question": "What do plants need to make their own food?",
+    "answer": "Sunlight, water and air",
+    "choices": [
+     "Darkness and cold",
+     "Candy and juice",
+     "Sunlight, water and air",
+     "Rocks and sand"
+    ]
+   },
+   {
+    "question": "What do fish use to get oxygen from water?",
+    "answer": "Gills",
+    "choices": [
+     "Lungs",
+     "Gills",
+     "Fins",
+     "Scales"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPLT",
+  "subject": "science",
+  "title": "Parts of a plant",
+  "section": "Plants",
+  "grades": [
+   1,
+   6
+  ],
+  "skillIds": [
+   "sciPLT1",
+   "sciPLT6"
+  ],
+  "examples": [
+   {
+    "question": "Which part of a plant has colourful petals?",
+    "answer": "Flower",
+    "choices": [
+     "Flower",
+     "Leaves",
+     "Roots",
+     "Seed"
+    ]
+   },
+   {
+    "question": "Which part of a plant holds it up and carries water?",
+    "answer": "Stem",
+    "choices": [
+     "Seed",
+     "Roots",
+     "Leaves",
+     "Stem"
+    ]
+   },
+   {
+    "question": "Which part of a plant can grow into a new plant?",
+    "answer": "Seed",
+    "choices": [
+     "Stem",
+     "Seed",
+     "Flower",
+     "Roots"
+    ]
+   },
+   {
+    "question": "Which part of a plant makes seeds?",
+    "answer": "Flower",
+    "choices": [
+     "Seed",
+     "Roots",
+     "Stem",
+     "Flower"
+    ]
+   },
+   {
+    "question": "Which part of a plant makes food using sunlight?",
+    "answer": "Leaves",
+    "choices": [
+     "Roots",
+     "Seed",
+     "Leaves",
+     "Stem"
+    ]
+   },
+   {
+    "question": "Which part of a plant takes in water from the soil?",
+    "answer": "Roots",
+    "choices": [
+     "Leaves",
+     "Roots",
+     "Seed",
+     "Flower"
+    ]
+   },
+   {
+    "question": "Which part of a plant is usually underground?",
+    "answer": "Roots",
+    "choices": [
+     "Leaves",
+     "Roots",
+     "Flower",
+     "Stem"
+    ]
+   },
+   {
+    "question": "Which part of a plant is usually green and flat?",
+    "answer": "Leaves",
+    "choices": [
+     "Stem",
+     "Seed",
+     "Roots",
+     "Leaves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlvAn",
+  "subject": "science",
+  "title": "Compare plants and animals",
+  "section": "Classification",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "sciXsPlvAn1"
+  ],
+  "examples": [
+   {
+    "question": "How are plants and animals alike?",
+    "answer": "Both are living things that need water",
+    "choices": [
+     "Both can walk",
+     "Both are living things that need water",
+     "Both have fur",
+     "Both make food from sunlight"
+    ]
+   },
+   {
+    "question": "What do plants and animals both need?",
+    "answer": "Water",
+    "choices": [
+     "Fur",
+     "Soil for roots",
+     "Sunlight to make food",
+     "Water"
+    ]
+   },
+   {
+    "question": "Which is an animal?",
+    "answer": "A starfish",
+    "choices": [
+     "Grass",
+     "Moss",
+     "Seaweed",
+     "A starfish"
+    ]
+   },
+   {
+    "question": "Which can move from place to place on its own?",
+    "answer": "Most animals",
+    "choices": [
+     "Trees",
+     "Most animals",
+     "Most plants",
+     "Rocks"
+    ]
+   },
+   {
+    "question": "Which is true of both a tree and a dog?",
+    "answer": "They grow and change",
+    "choices": [
+     "They bark",
+     "They have leaves",
+     "They grow and change",
+     "They make food from sunlight"
+    ]
+   },
+   {
+    "question": "How do animals get food?",
+    "answer": "By eating plants or other animals",
+    "choices": [
+     "By eating plants or other animals",
+     "From sunlight",
+     "From soil only",
+     "From roots"
+    ]
+   },
+   {
+    "question": "What can plants do that animals cannot?",
+    "answer": "Make their own food from sunlight",
+    "choices": [
+     "Grow",
+     "Breathe",
+     "Need water",
+     "Make their own food from sunlight"
+    ]
+   },
+   {
+    "question": "What can most animals do that plants cannot?",
+    "answer": "Move from place to place",
+    "choices": [
+     "Need water",
+     "Move from place to place",
+     "Grow",
+     "Use air"
+    ]
+   },
+   {
+    "question": "Which is a plant?",
+    "answer": "A fern",
+    "choices": [
+     "A bee",
+     "A fern",
+     "A frog",
+     "A fish"
+    ]
+   },
+   {
+    "question": "Which makes its own food using sunlight?",
+    "answer": "Plants",
+    "choices": [
+     "Birds",
+     "Animals",
+     "Fish",
+     "Plants"
+    ]
+   },
+   {
+    "question": "How do most animals get food?",
+    "answer": "They eat plants or other animals",
+    "choices": [
+     "They soak it up with roots",
+     "They make it from sunlight",
+     "They eat plants or other animals",
+     "They don't need food"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciWater",
+  "subject": "science",
+  "title": "Bodies of water",
+  "section": "Earth's resources",
+  "grades": [
+   1,
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciWater1",
+   "sciWater2",
+   "sciWater3"
+  ],
+  "examples": [
+   {
+    "question": "What is a slow-moving river of ice called?",
+    "answer": "A glacier",
+    "choices": [
+     "A stream",
+     "A glacier",
+     "An ocean",
+     "A pond"
+    ]
+   },
+   {
+    "question": "What is a small, still body of fresh water called?",
+    "answer": "A pond",
+    "choices": [
+     "A lake",
+     "A pond",
+     "A river",
+     "A glacier"
+    ]
+   },
+   {
+    "question": "What is a body of water surrounded by land called?",
+    "answer": "A lake",
+    "choices": [
+     "A river",
+     "A pond",
+     "A lake",
+     "A glacier"
+    ]
+   },
+   {
+    "question": "What is a huge body of salt water called?",
+    "answer": "An ocean",
+    "choices": [
+     "A glacier",
+     "An ocean",
+     "A stream",
+     "A pond"
+    ]
+   },
+   {
+    "question": "What is a small, narrow river called?",
+    "answer": "A stream",
+    "choices": [
+     "A stream",
+     "A pond",
+     "A river",
+     "A lake"
+    ]
+   },
+   {
+    "question": "What is a stream of water that flows to a lake or ocean called?",
+    "answer": "A river",
+    "choices": [
+     "A river",
+     "A lake",
+     "A glacier",
+     "A stream"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRecycle",
+  "subject": "science",
+  "title": "Reduce, reuse, recycle",
+  "section": "Human impacts",
+  "grades": [
+   1,
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciRecycle1",
+   "sciRecycle2",
+   "sciRecycle3"
+  ],
+  "examples": [
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Composting food scraps.",
+    "answer": "Recycle",
+    "choices": [
+     "Reuse",
+     "Reduce",
+     "Recycle"
+    ]
+   },
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Using a jar to hold pencils.",
+    "answer": "Reuse",
+    "choices": [
+     "Recycle",
+     "Reduce",
+     "Reuse"
+    ]
+   },
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Walking instead of driving.",
+    "answer": "Reduce",
+    "choices": [
+     "Reduce",
+     "Recycle",
+     "Reuse"
+    ]
+   },
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Turning old bottles into new ones.",
+    "answer": "Recycle",
+    "choices": [
+     "Reduce",
+     "Reuse",
+     "Recycle"
+    ]
+   },
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Putting cans in the blue bin.",
+    "answer": "Recycle",
+    "choices": [
+     "Reduce",
+     "Recycle",
+     "Reuse"
+    ]
+   },
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Giving old clothes to a friend.",
+    "answer": "Reuse",
+    "choices": [
+     "Recycle",
+     "Reduce",
+     "Reuse"
+    ]
+   },
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Turning off the tap while brushing your teeth.",
+    "answer": "Reduce",
+    "choices": [
+     "Reduce",
+     "Reuse",
+     "Recycle"
+    ]
+   },
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Packing lunch in a reusable box.",
+    "answer": "Reuse",
+    "choices": [
+     "Reduce",
+     "Reuse",
+     "Recycle"
+    ]
+   },
+   {
+    "question": "Is this an example of reduce, reuse or recycle? Buying less packaging.",
+    "answer": "Reduce",
+    "choices": [
+     "Reuse",
+     "Recycle",
+     "Reduce"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsShade",
+  "subject": "science",
+  "title": "Investigate sunlight and shade",
+  "section": "Weather",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "sciXsShade1"
+  ],
+  "examples": [
+   {
+    "question": "An ice cube is put in the sun and another in the shade. Which melts first?",
+    "answer": "The one in the sun",
+    "choices": [
+     "The one in the sun",
+     "Both at the same time",
+     "Neither melts",
+     "The one in the shade"
+    ]
+   },
+   {
+    "question": "How can you investigate if sunlight warms things?",
+    "answer": "Put thermometers in sun and shade and compare",
+    "choices": [
+     "Ask a friend",
+     "Put thermometers in sun and shade and compare",
+     "Look at the clouds",
+     "Count trees"
+    ]
+   },
+   {
+    "question": "Where is the ground cooler on a sunny day?",
+    "answer": "In the shade",
+    "choices": [
+     "On a black road",
+     "They are the same",
+     "In direct sunlight",
+     "In the shade"
+    ]
+   },
+   {
+    "question": "Which sand would feel hotter on a sunny afternoon?",
+    "answer": "Sand in the sun",
+    "choices": [
+     "Sand at night",
+     "Sand in the sun",
+     "Wet sand in the shade",
+     "Sand under an umbrella"
+    ]
+   },
+   {
+    "question": "Which will warm up faster in the sun: a dark rock or a light rock?",
+    "answer": "A dark rock",
+    "choices": [
+     "A light rock",
+     "They warm the same",
+     "Neither",
+     "A dark rock"
+    ]
+   },
+   {
+    "question": "Where would a sidewalk feel cooler on a sunny day?",
+    "answer": "In the shade of a tree",
+    "choices": [
+     "In the shade of a tree",
+     "On a black car",
+     "Near a heater",
+     "In direct sunlight"
+    ]
+   },
+   {
+    "question": "Why do people stand under trees on hot days?",
+    "answer": "The shade is cooler",
+    "choices": [
+     "Trees make wind",
+     "Trees give off light",
+     "Trees are warm",
+     "The shade is cooler"
+    ]
+   },
+   {
+    "question": "What causes shade?",
+    "answer": "An object blocking sunlight",
+    "choices": [
+     "An object blocking sunlight",
+     "Rain",
+     "Wind",
+     "Snow"
+    ]
+   },
+   {
+    "question": "What makes shade?",
+    "answer": "An object blocking sunlight",
+    "choices": [
+     "Wind",
+     "Rain",
+     "Sound",
+     "An object blocking sunlight"
+    ]
+   },
+   {
+    "question": "Two cups of water sit outside — one in sun, one in shade. After an hour, which is warmer?",
+    "answer": "The cup in the sun",
+    "choices": [
+     "The cup in the shade",
+     "They are the same",
+     "The cup in the sun",
+     "Neither changes"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsHurr",
+  "subject": "science",
+  "title": "Severe weather: hurricanes",
+  "section": "Weather",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "sciXsHurr1"
+  ],
+  "examples": [
+   {
+    "question": "What is a storm surge?",
+    "answer": "Ocean water pushed onto land by a hurricane",
+    "choices": [
+     "A small wave in a pond",
+     "A lightning strike",
+     "Ocean water pushed onto land by a hurricane",
+     "A burst of snow"
+    ]
+   },
+   {
+    "question": "How can people prepare for a hurricane?",
+    "answer": "Board up windows and move to safe places",
+    "choices": [
+     "Open all windows",
+     "Go to the beach",
+     "Board up windows and move to safe places",
+     "Climb a tree"
+    ]
+   },
+   {
+    "question": "What is the calm centre of a hurricane called?",
+    "answer": "The eye",
+    "choices": [
+     "The eye",
+     "The tail",
+     "The core of ice",
+     "The nose"
+    ]
+   },
+   {
+    "question": "What causes flooding during hurricanes?",
+    "answer": "Heavy rain and storm surge from the ocean",
+    "choices": [
+     "Melting snow",
+     "Volcanoes",
+     "Too much sunlight",
+     "Heavy rain and storm surge from the ocean"
+    ]
+   },
+   {
+    "question": "Why do hurricanes weaken over land?",
+    "answer": "They lose their supply of warm ocean water",
+    "choices": [
+     "Land is too cold for wind",
+     "They lose their supply of warm ocean water",
+     "Trees stop them instantly",
+     "They fall asleep"
+    ]
+   },
+   {
+    "question": "Where in Canada do hurricanes sometimes reach?",
+    "answer": "The Atlantic provinces",
+    "choices": [
+     "Saskatchewan",
+     "Nunavut",
+     "Alberta",
+     "The Atlantic provinces"
+    ]
+   },
+   {
+    "question": "How can people prepare for a hurricane?",
+    "answer": "Gather supplies and follow evacuation orders",
+    "choices": [
+     "Open all the windows",
+     "Ignore the news",
+     "Go to the beach",
+     "Gather supplies and follow evacuation orders"
+    ]
+   },
+   {
+    "question": "What is a hurricane?",
+    "answer": "A huge spinning storm that forms over warm ocean water",
+    "choices": [
+     "A snowstorm",
+     "A small dust devil",
+     "An earthquake",
+     "A huge spinning storm that forms over warm ocean water"
+    ]
+   },
+   {
+    "question": "What is a hurricane?",
+    "answer": "A huge storm with strong winds and heavy rain that forms over warm oceans",
+    "choices": [
+     "A huge storm with strong winds and heavy rain that forms over warm oceans",
+     "A small snow flurry",
+     "An earthquake",
+     "A dry, sunny spell"
+    ]
+   },
+   {
+    "question": "What can hurricanes cause?",
+    "answer": "Strong winds, heavy rain and flooding",
+    "choices": [
+     "Strong winds, heavy rain and flooding",
+     "Earthquakes",
+     "Snow",
+     "Drought"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciWTH",
+  "subject": "science",
+  "title": "Weather",
+  "section": "Weather",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "sciWTH1"
+  ],
+  "examples": [
+   {
+    "question": "What is the weather like? You wear sunglasses and sunscreen.",
+    "answer": "Sunny",
+    "choices": [
+     "Sunny",
+     "Snowy",
+     "Rainy",
+     "Windy"
+    ]
+   },
+   {
+    "question": "What is the weather like? Snowflakes fall from the clouds.",
+    "answer": "Snowy",
+    "choices": [
+     "Sunny",
+     "Windy",
+     "Snowy",
+     "Rainy"
+    ]
+   },
+   {
+    "question": "What is the weather like? Leaves blow across the yard.",
+    "answer": "Windy",
+    "choices": [
+     "Windy",
+     "Snowy",
+     "Rainy",
+     "Sunny"
+    ]
+   },
+   {
+    "question": "What is the weather like? There are puddles on the ground.",
+    "answer": "Rainy",
+    "choices": [
+     "Rainy",
+     "Snowy",
+     "Windy",
+     "Sunny"
+    ]
+   },
+   {
+    "question": "What is the weather like? You can build a snowman.",
+    "answer": "Snowy",
+    "choices": [
+     "Snowy",
+     "Windy",
+     "Sunny",
+     "Rainy"
+    ]
+   },
+   {
+    "question": "What is the weather like? The sky is clear and bright.",
+    "answer": "Sunny",
+    "choices": [
+     "Snowy",
+     "Windy",
+     "Sunny",
+     "Rainy"
+    ]
+   },
+   {
+    "question": "What is the weather like? You need an umbrella and rain boots.",
+    "answer": "Rainy",
+    "choices": [
+     "Snowy",
+     "Rainy",
+     "Sunny",
+     "Windy"
+    ]
+   },
+   {
+    "question": "What is the weather like? Kites fly high in the sky.",
+    "answer": "Windy",
+    "choices": [
+     "Snowy",
+     "Sunny",
+     "Windy",
+     "Rainy"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSevere",
+  "subject": "science",
+  "title": "Severe weather",
+  "section": "Weather",
+  "grades": [
+   1,
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciSevere1",
+   "sciSevere2",
+   "sciSevere3"
+  ],
+  "examples": [
+   {
+    "question": "Which kind of severe weather is described? Heavy snow and strong winds make it hard to see.",
+    "answer": "Blizzard",
+    "choices": [
+     "Thunderstorm",
+     "Tornado",
+     "Blizzard",
+     "Hurricane"
+    ]
+   },
+   {
+    "question": "Which kind of severe weather is described? A spinning funnel cloud touches the ground.",
+    "answer": "Tornado",
+    "choices": [
+     "Hurricane",
+     "Blizzard",
+     "Thunderstorm",
+     "Tornado"
+    ]
+   },
+   {
+    "question": "Which kind of severe weather is described? A huge storm forms over warm ocean water with very strong winds.",
+    "answer": "Hurricane",
+    "choices": [
+     "Tornado",
+     "Blizzard",
+     "Hurricane",
+     "Thunderstorm"
+    ]
+   },
+   {
+    "question": "Which kind of severe weather is described? Lightning flashes and thunder booms.",
+    "answer": "Thunderstorm",
+    "choices": [
+     "Blizzard",
+     "Tornado",
+     "Hurricane",
+     "Thunderstorm"
+    ]
+   },
+   {
+    "question": "Which kind of severe weather is described? It brings storm surges that flood coasts.",
+    "answer": "Hurricane",
+    "choices": [
+     "Blizzard",
+     "Tornado",
+     "Hurricane",
+     "Thunderstorm"
+    ]
+   },
+   {
+    "question": "Which kind of severe weather is described? Snow drifts pile up and roads close.",
+    "answer": "Blizzard",
+    "choices": [
+     "Hurricane",
+     "Thunderstorm",
+     "Tornado",
+     "Blizzard"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciSky",
+  "subject": "science",
+  "title": "The daytime and night sky",
+  "section": "Astronomy",
+  "grades": [
+   1,
+   2
+  ],
+  "skillIds": [
+   "sciSky1",
+   "sciSky2"
+  ],
+  "examples": [
+   {
+    "question": "When would you usually see this? 🌌 the Milky Way",
+    "answer": "Night sky",
+    "choices": [
+     "Night sky",
+     "Daytime sky"
+    ]
+   },
+   {
+    "question": "When would you usually see this? ⭐ many stars",
+    "answer": "Night sky",
+    "choices": [
+     "Night sky",
+     "Daytime sky"
+    ]
+   },
+   {
+    "question": "When would you usually see this? ☀️ the Sun",
+    "answer": "Daytime sky",
+    "choices": [
+     "Night sky",
+     "Daytime sky"
+    ]
+   },
+   {
+    "question": "When would you usually see this? 🌈 a rainbow",
+    "answer": "Daytime sky",
+    "choices": [
+     "Daytime sky",
+     "Night sky"
+    ]
+   },
+   {
+    "question": "When would you usually see this? 🦅 birds flying high",
+    "answer": "Daytime sky",
+    "choices": [
+     "Daytime sky",
+     "Night sky"
+    ]
+   },
+   {
+    "question": "When would you usually see this? 🌠 a shooting star",
+    "answer": "Night sky",
+    "choices": [
+     "Daytime sky",
+     "Night sky"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRockMin",
+  "subject": "science",
+  "title": "Identify rocks and minerals",
+  "section": "Rocks and minerals",
+  "grades": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7
+  ],
+  "skillIds": [
+   "sciRockMin1",
+   "sciRockMin2",
+   "sciRockMin3",
+   "sciRockMin4",
+   "sciRockMin5",
+   "sciRockMin7"
+  ],
+  "examples": [
+   {
+    "question": "A solid made of one or more minerals is a …",
+    "answer": "rock",
+    "choices": [
+     "rock",
+     "gas",
+     "cloud",
+     "shell"
+    ]
+   },
+   {
+    "question": "A naturally formed solid with a crystal structure is a …",
+    "answer": "mineral",
+    "choices": [
+     "mineral",
+     "plant",
+     "liquid",
+     "fossil"
+    ]
+   },
+   {
+    "question": "Which mineral is table salt?",
+    "answer": "Halite",
+    "choices": [
+     "Diamond",
+     "Talc",
+     "Quartz",
+     "Halite"
+    ]
+   },
+   {
+    "question": "Which mineral is the hardest?",
+    "answer": "Diamond",
+    "choices": [
+     "Halite",
+     "Talc",
+     "Diamond",
+     "Gypsum"
+    ]
+   },
+   {
+    "question": "Which property describes how a mineral reflects light?",
+    "answer": "Lustre",
+    "choices": [
+     "Mass",
+     "Lustre",
+     "Hardness",
+     "Streak"
+    ]
+   },
+   {
+    "question": "How can you test a mineral's hardness?",
+    "answer": "Try to scratch it.",
+    "choices": [
+     "Try to scratch it.",
+     "Weigh it.",
+     "Smell it.",
+     "Listen to it."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAbTL",
+  "subject": "science",
+  "title": "Abbreviate time and length units",
+  "section": "Units and measurement",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsAbTL2",
+   "sciXsAbTL3"
+  ],
+  "examples": [
+   {
+    "question": "What is the abbreviation for second?",
+    "answer": "s",
+    "choices": [
+     "se",
+     "sc",
+     "sd",
+     "s"
+    ]
+   },
+   {
+    "question": "What is the abbreviation for centimetre?",
+    "answer": "cm",
+    "choices": [
+     "cm",
+     "c",
+     "ct",
+     "cn"
+    ]
+   },
+   {
+    "question": "What is the abbreviation for kilometre?",
+    "answer": "km",
+    "choices": [
+     "kl",
+     "km",
+     "kt",
+     "k"
+    ]
+   },
+   {
+    "question": "What is the abbreviation for hour?",
+    "answer": "h",
+    "choices": [
+     "hs",
+     "hr",
+     "h",
+     "o"
+    ]
+   },
+   {
+    "question": "What is the abbreviation for minute?",
+    "answer": "min",
+    "choices": [
+     "mi",
+     "min",
+     "mn",
+     "mt"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAbMV",
+  "subject": "science",
+  "title": "Abbreviate mass and volume units",
+  "section": "Units and measurement",
+  "grades": [
+   2,
+   3,
+   6,
+   7,
+   8
+  ],
+  "skillIds": [
+   "sciXsAbMV2",
+   "sciXsAbMV3",
+   "sciXsAbMV6",
+   "sciXsAbMV7",
+   "sciXsAbMV8"
+  ],
+  "examples": [
+   {
+    "question": "What is the abbreviation for kilogram?",
+    "answer": "kg",
+    "choices": [
+     "kg",
+     "kgm",
+     "KG",
+     "kl"
+    ]
+   },
+   {
+    "question": "What is the abbreviation for milligram?",
+    "answer": "mg",
+    "choices": [
+     "MG",
+     "mlg",
+     "mg",
+     "mgm"
+    ]
+   },
+   {
+    "question": "What is the abbreviation for gram?",
+    "answer": "g",
+    "choices": [
+     "gr",
+     "g",
+     "gm",
+     "G"
+    ]
+   },
+   {
+    "question": "What is the abbreviation for millilitre?",
+    "answer": "mL",
+    "choices": [
+     "ML",
+     "mL",
+     "ml.",
+     "mtl"
+    ]
+   },
+   {
+    "question": "What is the abbreviation for litre?",
+    "answer": "L",
+    "choices": [
+     "Lr",
+     "lt",
+     "li",
+     "L"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciUnitCh",
+  "subject": "science",
+  "title": "Choose units of length, mass and volume",
+  "section": "Units and measurement",
+  "grades": [
+   2,
+   3,
+   4,
+   5,
+   7
+  ],
+  "skillIds": [
+   "sciUnitCh2",
+   "sciUnitCh3",
+   "sciUnitCh4",
+   "sciUnitCh5",
+   "sciUnitCh7"
+  ],
+  "examples": [
+   {
+    "question": "Which unit is best for measuring the volume of water in a spoon ?",
+    "answer": "millilitres",
+    "choices": [
+     "metres",
+     "grams",
+     "millilitres",
+     "litres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the mass of an apple ?",
+    "answer": "grams",
+    "choices": [
+     "grams",
+     "centimetres",
+     "millilitres",
+     "kilograms"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the length of a soccer field ?",
+    "answer": "metres",
+    "choices": [
+     "metres",
+     "centimetres",
+     "millimetres",
+     "kilometres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of water in a bathtub ?",
+    "answer": "litres",
+    "choices": [
+     "grams",
+     "metres",
+     "litres",
+     "millilitres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of juice in a glass ?",
+    "answer": "millilitres",
+    "choices": [
+     "metres",
+     "litres",
+     "millilitres",
+     "grams"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the distance between two cities ?",
+    "answer": "kilometres",
+    "choices": [
+     "kilometres",
+     "centimetres",
+     "metres",
+     "millimetres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the mass of a car ?",
+    "answer": "kilograms",
+    "choices": [
+     "kilograms",
+     "millilitres",
+     "grams",
+     "centimetres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the width of an ant ?",
+    "answer": "millimetres",
+    "choices": [
+     "kilometres",
+     "centimetres",
+     "metres",
+     "millimetres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the length of a pencil ?",
+    "answer": "centimetres",
+    "choices": [
+     "millimetres",
+     "metres",
+     "centimetres",
+     "kilometres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the volume of a swimming pool ?",
+    "answer": "litres",
+    "choices": [
+     "millilitres",
+     "grams",
+     "litres",
+     "metres"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the mass of a paper clip ?",
+    "answer": "grams",
+    "choices": [
+     "centimetres",
+     "grams",
+     "millilitres",
+     "kilograms"
+    ]
+   },
+   {
+    "question": "Which unit is best for measuring the mass of a dog ?",
+    "answer": "kilograms",
+    "choices": [
+     "grams",
+     "kilograms",
+     "millilitres",
+     "centimetres"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMatObj",
+  "subject": "science",
+  "title": "Identify materials in objects",
+  "section": "Materials",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "sciXsMatObj2",
+   "sciXsMatObj3"
+  ],
+  "examples": [
+   {
+    "question": "What material is this object mostly made of? 🧥 coat",
+    "answer": "fabric",
+    "choices": [
+     "plastic",
+     "glass",
+     "fabric",
+     "metal",
+     "wood"
+    ]
+   },
+   {
+    "question": "What material is this object mostly made of? 🔑 key",
+    "answer": "metal",
+    "choices": [
+     "fabric",
+     "metal",
+     "glass",
+     "plastic",
+     "wood"
+    ]
+   },
+   {
+    "question": "What material is this object mostly made of? 🧣 scarf",
+    "answer": "fabric",
+    "choices": [
+     "metal",
+     "wood",
+     "glass",
+     "fabric",
+     "plastic"
+    ]
+   },
+   {
+    "question": "What material is this object mostly made of? 🍶 jar",
+    "answer": "glass",
+    "choices": [
+     "glass",
+     "wood",
+     "fabric",
+     "plastic",
+     "metal"
+    ]
+   },
+   {
+    "question": "What material is this object mostly made of? ⚓ anchor",
+    "answer": "metal",
+    "choices": [
+     "glass",
+     "metal",
+     "plastic",
+     "wood",
+     "fabric"
+    ]
+   },
+   {
+    "question": "What material is this object mostly made of? 🪣 bucket",
+    "answer": "plastic",
+    "choices": [
+     "plastic",
+     "wood",
+     "glass",
+     "metal",
+     "fabric"
+    ]
+   },
+   {
+    "question": "What material is this object mostly made of? 🪑 kitchen chair",
+    "answer": "wood",
+    "choices": [
+     "metal",
+     "plastic",
+     "wood",
+     "glass",
+     "fabric"
+    ]
+   },
+   {
+    "question": "What material is this object mostly made of? 🪟 window pane",
+    "answer": "glass",
+    "choices": [
+     "metal",
+     "plastic",
+     "fabric",
+     "wood",
+     "glass"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMultMat",
+  "subject": "science",
+  "title": "Identify multiple materials in objects",
+  "section": "Materials",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsMultMat2"
+  ],
+  "examples": [
+   {
+    "question": "A sneaker is made of…",
+    "answer": "fabric, rubber and plastic",
+    "choices": [
+     "fabric, rubber and plastic",
+     "only glass",
+     "only metal",
+     "only wood"
+    ]
+   },
+   {
+    "question": "Which materials is a backpack usually made of?",
+    "answer": "fabric, plastic and metal",
+    "choices": [
+     "paper and cardboard",
+     "plastic",
+     "fabric, plastic and metal",
+     "wood, graphite and rubber"
+    ]
+   },
+   {
+    "question": "Which materials is a skateboard usually made of?",
+    "answer": "wood, metal and rubber",
+    "choices": [
+     "wood, metal and plastic",
+     "metal, rubber and plastic",
+     "metal, glass and plastic",
+     "wood, metal and rubber"
+    ]
+   },
+   {
+    "question": "Which materials is a pair of glasses usually made of?",
+    "answer": "glass, metal and plastic",
+    "choices": [
+     "wood, metal and plastic",
+     "glass, metal and plastic",
+     "wood and metal",
+     "fabric, plastic and metal"
+    ]
+   },
+   {
+    "question": "A window is made of…",
+    "answer": "glass and wood or metal",
+    "choices": [
+     "only rubber",
+     "glass and wood or metal",
+     "only fabric",
+     "only paper"
+    ]
+   },
+   {
+    "question": "A bicycle is made of…",
+    "answer": "metal, rubber and plastic",
+    "choices": [
+     "only paper",
+     "metal, rubber and plastic",
+     "only wood",
+     "only glass"
+    ]
+   },
+   {
+    "question": "Which materials is a bicycle usually made of?",
+    "answer": "metal, rubber and plastic",
+    "choices": [
+     "paper and cardboard",
+     "glass and wood",
+     "glass, metal and plastic",
+     "metal, rubber and plastic"
+    ]
+   },
+   {
+    "question": "Which materials is a pencil usually made of?",
+    "answer": "wood, graphite and rubber",
+    "choices": [
+     "metal, glass and plastic",
+     "glass, metal and plastic",
+     "fabric, plastic and metal",
+     "wood, graphite and rubber"
+    ]
+   },
+   {
+    "question": "A pencil is made of…",
+    "answer": "wood, graphite and metal",
+    "choices": [
+     "only fabric",
+     "only glass",
+     "wood, graphite and metal",
+     "only plastic"
+    ]
+   },
+   {
+    "question": "Which materials is a guitar usually made of?",
+    "answer": "wood, metal and plastic",
+    "choices": [
+     "wood and metal",
+     "plastic",
+     "wood, metal and plastic",
+     "glass and wood"
+    ]
+   },
+   {
+    "question": "Which materials is a lamp usually made of?",
+    "answer": "metal, glass and plastic",
+    "choices": [
+     "plastic",
+     "fabric, plastic and metal",
+     "metal, glass and plastic",
+     "glass and wood"
+    ]
+   },
+   {
+    "question": "Which materials is a shoe usually made of?",
+    "answer": "leather, rubber and cotton",
+    "choices": [
+     "wood, metal and plastic",
+     "paper and cardboard",
+     "leather, rubber and cotton",
+     "wood and tape"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsSL",
+  "subject": "science",
+  "title": "Classify matter as solid or liquid",
+  "section": "States of matter",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "sciXsSL22"
+  ],
+  "examples": [
+   {
+    "question": "Is this matter a solid or a liquid? 🧊 ice cube",
+    "answer": "Solid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this matter a solid or a liquid? 🧃 juice",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this matter a solid or a liquid? 🍯 honey",
+    "answer": "Liquid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this matter a solid or a liquid? 🧱 brick",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this matter a solid or a liquid? 🥄 spoon",
+    "answer": "Solid",
+    "choices": [
+     "Solid",
+     "Liquid"
+    ]
+   },
+   {
+    "question": "Is this matter a solid or a liquid? 💧 water",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this matter a solid or a liquid? 🪨 rock",
+    "answer": "Solid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   },
+   {
+    "question": "Is this matter a solid or a liquid? 🥛 milk",
+    "answer": "Liquid",
+    "choices": [
+     "Liquid",
+     "Solid"
+    ]
+   }
+  ]
+ }
+]

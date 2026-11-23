@@ -1,0 +1,2641 @@
+[
+ {
+  "key": "engXLcA",
+  "subject": "english",
+  "title": "Choose the lowercase letter that matches: c, k, o, p, s, u, v, w, x, z",
+  "section": "Lowercase and uppercase letters",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXLcAJK",
+   "engXLcA0"
+  ],
+  "examples": [
+   {
+    "question": "Which lowercase letter matches O ?",
+    "answer": "o",
+    "choices": [
+     "o",
+     "i",
+     "w",
+     "c"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches K ?",
+    "answer": "k",
+    "choices": [
+     "l",
+     "a",
+     "k",
+     "g"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches V ?",
+    "answer": "v",
+    "choices": [
+     "d",
+     "y",
+     "u",
+     "v"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches P ?",
+    "answer": "p",
+    "choices": [
+     "p",
+     "w",
+     "l",
+     "i"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches W ?",
+    "answer": "w",
+    "choices": [
+     "w",
+     "p",
+     "y",
+     "c"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches Z ?",
+    "answer": "z",
+    "choices": [
+     "k",
+     "v",
+     "z",
+     "m"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches X ?",
+    "answer": "x",
+    "choices": [
+     "m",
+     "x",
+     "t",
+     "v"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches S ?",
+    "answer": "s",
+    "choices": [
+     "i",
+     "s",
+     "m",
+     "y"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches C ?",
+    "answer": "c",
+    "choices": [
+     "i",
+     "z",
+     "c",
+     "p"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches U ?",
+    "answer": "u",
+    "choices": [
+     "c",
+     "m",
+     "u",
+     "i"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLcB",
+  "subject": "english",
+  "title": "Choose the lowercase letter that matches: f, i, j, l, m, t, y",
+  "section": "Lowercase and uppercase letters",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXLcBJK",
+   "engXLcB0"
+  ],
+  "examples": [
+   {
+    "question": "Which lowercase letter matches L ?",
+    "answer": "l",
+    "choices": [
+     "w",
+     "l",
+     "z",
+     "x"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches I ?",
+    "answer": "i",
+    "choices": [
+     "n",
+     "i",
+     "e",
+     "o"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches F ?",
+    "answer": "f",
+    "choices": [
+     "h",
+     "r",
+     "f",
+     "t"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches Y ?",
+    "answer": "y",
+    "choices": [
+     "x",
+     "y",
+     "v",
+     "s"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches J ?",
+    "answer": "j",
+    "choices": [
+     "j",
+     "e",
+     "b",
+     "p"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches M ?",
+    "answer": "m",
+    "choices": [
+     "j",
+     "u",
+     "m",
+     "t"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches T ?",
+    "answer": "t",
+    "choices": [
+     "a",
+     "t",
+     "z",
+     "k"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLcC",
+  "subject": "english",
+  "title": "Choose the lowercase letter that matches: a, b, d, e, g, h, n, q, r",
+  "section": "Lowercase and uppercase letters",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXLcCJK",
+   "engXLcC0"
+  ],
+  "examples": [
+   {
+    "question": "Which lowercase letter matches H ?",
+    "answer": "h",
+    "choices": [
+     "f",
+     "x",
+     "u",
+     "h"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches B ?",
+    "answer": "b",
+    "choices": [
+     "g",
+     "a",
+     "f",
+     "b"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches R ?",
+    "answer": "r",
+    "choices": [
+     "b",
+     "r",
+     "p",
+     "n"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches Q ?",
+    "answer": "q",
+    "choices": [
+     "k",
+     "j",
+     "i",
+     "q"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches N ?",
+    "answer": "n",
+    "choices": [
+     "n",
+     "p",
+     "u",
+     "l"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches E ?",
+    "answer": "e",
+    "choices": [
+     "f",
+     "g",
+     "e",
+     "b"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches D ?",
+    "answer": "d",
+    "choices": [
+     "l",
+     "d",
+     "k",
+     "a"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches G ?",
+    "answer": "g",
+    "choices": [
+     "g",
+     "c",
+     "e",
+     "t"
+    ]
+   },
+   {
+    "question": "Which lowercase letter matches A ?",
+    "answer": "a",
+    "choices": [
+     "a",
+     "p",
+     "b",
+     "h"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXUcA",
+  "subject": "english",
+  "title": "Choose the uppercase letter that matches: C, K, O, P, S, U, V, W, X, Z",
+  "section": "Lowercase and uppercase letters",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXUcAJK",
+   "engXUcA0"
+  ],
+  "examples": [
+   {
+    "question": "Which uppercase letter matches k ?",
+    "answer": "K",
+    "choices": [
+     "Z",
+     "Q",
+     "K",
+     "T"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches s ?",
+    "answer": "S",
+    "choices": [
+     "E",
+     "V",
+     "S",
+     "R"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches x ?",
+    "answer": "X",
+    "choices": [
+     "Q",
+     "X",
+     "J",
+     "O"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches u ?",
+    "answer": "U",
+    "choices": [
+     "L",
+     "V",
+     "U",
+     "Q"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches o ?",
+    "answer": "O",
+    "choices": [
+     "Y",
+     "P",
+     "V",
+     "O"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches z ?",
+    "answer": "Z",
+    "choices": [
+     "N",
+     "R",
+     "Z",
+     "P"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches p ?",
+    "answer": "P",
+    "choices": [
+     "V",
+     "S",
+     "K",
+     "P"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches c ?",
+    "answer": "C",
+    "choices": [
+     "N",
+     "C",
+     "Z",
+     "Y"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches w ?",
+    "answer": "W",
+    "choices": [
+     "D",
+     "P",
+     "W",
+     "E"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches v ?",
+    "answer": "V",
+    "choices": [
+     "V",
+     "H",
+     "Y",
+     "E"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXUcB",
+  "subject": "english",
+  "title": "Choose the uppercase letter that matches: F, I, J, L, M, T, Y",
+  "section": "Lowercase and uppercase letters",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXUcBJK",
+   "engXUcB0"
+  ],
+  "examples": [
+   {
+    "question": "Which uppercase letter matches t ?",
+    "answer": "T",
+    "choices": [
+     "B",
+     "H",
+     "T",
+     "S"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches f ?",
+    "answer": "F",
+    "choices": [
+     "F",
+     "K",
+     "L",
+     "Q"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches m ?",
+    "answer": "M",
+    "choices": [
+     "M",
+     "O",
+     "B",
+     "Z"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches y ?",
+    "answer": "Y",
+    "choices": [
+     "L",
+     "A",
+     "B",
+     "Y"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches l ?",
+    "answer": "L",
+    "choices": [
+     "W",
+     "M",
+     "L",
+     "Z"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches j ?",
+    "answer": "J",
+    "choices": [
+     "S",
+     "H",
+     "X",
+     "J"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches i ?",
+    "answer": "I",
+    "choices": [
+     "S",
+     "I",
+     "F",
+     "M"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXUcC",
+  "subject": "english",
+  "title": "Choose the uppercase letter that matches: A, B, D, E, G, H, N, Q, R",
+  "section": "Lowercase and uppercase letters",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXUcCJK",
+   "engXUcC0"
+  ],
+  "examples": [
+   {
+    "question": "Which uppercase letter matches q ?",
+    "answer": "Q",
+    "choices": [
+     "U",
+     "Z",
+     "Q",
+     "J"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches h ?",
+    "answer": "H",
+    "choices": [
+     "C",
+     "H",
+     "X",
+     "S"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches b ?",
+    "answer": "B",
+    "choices": [
+     "J",
+     "W",
+     "B",
+     "F"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches e ?",
+    "answer": "E",
+    "choices": [
+     "G",
+     "B",
+     "E",
+     "P"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches g ?",
+    "answer": "G",
+    "choices": [
+     "G",
+     "M",
+     "Q",
+     "U"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches n ?",
+    "answer": "N",
+    "choices": [
+     "C",
+     "T",
+     "N",
+     "X"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches r ?",
+    "answer": "R",
+    "choices": [
+     "C",
+     "T",
+     "V",
+     "R"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches d ?",
+    "answer": "D",
+    "choices": [
+     "D",
+     "G",
+     "H",
+     "M"
+    ]
+   },
+   {
+    "question": "Which uppercase letter matches a ?",
+    "answer": "A",
+    "choices": [
+     "A",
+     "N",
+     "Y",
+     "P"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSameE2",
+  "subject": "english",
+  "title": "Which two words have the same ending?",
+  "section": "Rhyming",
+  "grades": [
+   -1
+  ],
+  "skillIds": [
+   "engXSameE2JK"
+  ],
+  "examples": [
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "dog and log",
+    "choices": [
+     "bee and hat",
+     "dog and log",
+     "cat and wig",
+     "pig and tree"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "cat and hat",
+    "choices": [
+     "sun and tree",
+     "bee and wig",
+     "pig and run",
+     "cat and hat"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "pig and wig",
+    "choices": [
+     "pig and wig",
+     "sun and log",
+     "bee and run",
+     "dog and tree"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "cake and lake",
+    "choices": [
+     "sun and wig",
+     "dog and run",
+     "pig and log",
+     "cake and lake"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "bee and tree",
+    "choices": [
+     "cake and log",
+     "bee and tree",
+     "dog and wig",
+     "pig and lake"
+    ]
+   },
+   {
+    "question": "Which two words have the same ending?",
+    "answer": "sun and run",
+    "choices": [
+     "sun and run",
+     "bee and lake",
+     "pig and tree",
+     "cake and wig"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXJkSwaU",
+  "subject": "english",
+  "title": "Choose the short a word that matches the picture: uppercase",
+  "section": "Short a",
+  "grades": [
+   -1
+  ],
+  "skillIds": [
+   "engXJkSwaUJK"
+  ],
+  "examples": [
+   {
+    "question": "🐱 Which word matches the picture?",
+    "answer": "CAT",
+    "choices": [
+     "FLAG",
+     "CAT",
+     "CAP",
+     "HAT"
+    ]
+   },
+   {
+    "question": "🎩 Which word matches the picture?",
+    "answer": "HAT",
+    "choices": [
+     "FLAG",
+     "HAT",
+     "CAP",
+     "BAG"
+    ]
+   },
+   {
+    "question": "🗺️ Which word matches the picture?",
+    "answer": "MAP",
+    "choices": [
+     "VAN",
+     "FLAG",
+     "MAP",
+     "PAN"
+    ]
+   },
+   {
+    "question": "🚐 Which word matches the picture?",
+    "answer": "VAN",
+    "choices": [
+     "BAG",
+     "RAM",
+     "VAN",
+     "PAN"
+    ]
+   },
+   {
+    "question": "👜 Which word matches the picture?",
+    "answer": "BAG",
+    "choices": [
+     "MAP",
+     "ANT",
+     "BAG",
+     "BAT"
+    ]
+   },
+   {
+    "question": "🐜 Which word matches the picture?",
+    "answer": "ANT",
+    "choices": [
+     "PAN",
+     "FLAG",
+     "ANT",
+     "RAM"
+    ]
+   },
+   {
+    "question": "🦇 Which word matches the picture?",
+    "answer": "BAT",
+    "choices": [
+     "BAT",
+     "FLAG",
+     "MAP",
+     "CRAB"
+    ]
+   },
+   {
+    "question": "🐏 Which word matches the picture?",
+    "answer": "RAM",
+    "choices": [
+     "RAM",
+     "BAT",
+     "HAT",
+     "VAN"
+    ]
+   },
+   {
+    "question": "🚩 Which word matches the picture?",
+    "answer": "FLAG",
+    "choices": [
+     "HAT",
+     "PAN",
+     "FLAG",
+     "BAT"
+    ]
+   },
+   {
+    "question": "🍳 Which word matches the picture?",
+    "answer": "PAN",
+    "choices": [
+     "BAT",
+     "PAN",
+     "HAT",
+     "MAP"
+    ]
+   },
+   {
+    "question": "🧢 Which word matches the picture?",
+    "answer": "CAP",
+    "choices": [
+     "CAP",
+     "CAT",
+     "PAN",
+     "RAM"
+    ]
+   },
+   {
+    "question": "🦀 Which word matches the picture?",
+    "answer": "CRAB",
+    "choices": [
+     "RAM",
+     "CRAB",
+     "BAG",
+     "VAN"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXJkSwaL",
+  "subject": "english",
+  "title": "Choose the short a word that matches the picture: lowercase",
+  "section": "Short a",
+  "grades": [
+   -1
+  ],
+  "skillIds": [
+   "engXJkSwaLJK"
+  ],
+  "examples": [
+   {
+    "question": "🚐 Which word matches the picture?",
+    "answer": "van",
+    "choices": [
+     "van",
+     "ram",
+     "flag",
+     "hat"
+    ]
+   },
+   {
+    "question": "🚩 Which word matches the picture?",
+    "answer": "flag",
+    "choices": [
+     "flag",
+     "pan",
+     "ram",
+     "bag"
+    ]
+   },
+   {
+    "question": "🐏 Which word matches the picture?",
+    "answer": "ram",
+    "choices": [
+     "van",
+     "crab",
+     "bat",
+     "ram"
+    ]
+   },
+   {
+    "question": "🐜 Which word matches the picture?",
+    "answer": "ant",
+    "choices": [
+     "ant",
+     "bag",
+     "hat",
+     "map"
+    ]
+   },
+   {
+    "question": "🦇 Which word matches the picture?",
+    "answer": "bat",
+    "choices": [
+     "van",
+     "bat",
+     "ant",
+     "pan"
+    ]
+   },
+   {
+    "question": "🎩 Which word matches the picture?",
+    "answer": "hat",
+    "choices": [
+     "hat",
+     "ram",
+     "map",
+     "cap"
+    ]
+   },
+   {
+    "question": "👜 Which word matches the picture?",
+    "answer": "bag",
+    "choices": [
+     "map",
+     "bag",
+     "ram",
+     "pan"
+    ]
+   },
+   {
+    "question": "🧢 Which word matches the picture?",
+    "answer": "cap",
+    "choices": [
+     "ant",
+     "ram",
+     "cap",
+     "map"
+    ]
+   },
+   {
+    "question": "🐱 Which word matches the picture?",
+    "answer": "cat",
+    "choices": [
+     "ant",
+     "pan",
+     "ram",
+     "cat"
+    ]
+   },
+   {
+    "question": "🦀 Which word matches the picture?",
+    "answer": "crab",
+    "choices": [
+     "bat",
+     "cap",
+     "crab",
+     "pan"
+    ]
+   },
+   {
+    "question": "🍳 Which word matches the picture?",
+    "answer": "pan",
+    "choices": [
+     "map",
+     "van",
+     "pan",
+     "crab"
+    ]
+   },
+   {
+    "question": "🗺️ Which word matches the picture?",
+    "answer": "map",
+    "choices": [
+     "ram",
+     "flag",
+     "cat",
+     "map"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFSe",
+  "subject": "english",
+  "title": "Find the short e word",
+  "section": "Short e",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXFSeJK",
+   "engXFSe0"
+  ],
+  "examples": [
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "tent",
+    "choices": [
+     "tent",
+     "clock",
+     "gift",
+     "rock"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "net",
+    "choices": [
+     "cat",
+     "cap",
+     "frog",
+     "net"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "egg",
+    "choices": [
+     "sock",
+     "mitt",
+     "egg",
+     "flag"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "leg",
+    "choices": [
+     "pot",
+     "leg",
+     "frog",
+     "mitt"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "pen",
+    "choices": [
+     "pen",
+     "map",
+     "lock",
+     "van"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "jet",
+    "choices": [
+     "jet",
+     "crab",
+     "gift",
+     "fish"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "bed",
+    "choices": [
+     "clock",
+     "sun",
+     "drum",
+     "bed"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "bell",
+    "choices": [
+     "cat",
+     "bell",
+     "mop",
+     "mitt"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "ten",
+    "choices": [
+     "bus",
+     "ship",
+     "ten",
+     "cup"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "sled",
+    "choices": [
+     "pan",
+     "lock",
+     "sled",
+     "duck"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "hen",
+    "choices": [
+     "six",
+     "hen",
+     "gift",
+     "tub"
+    ]
+   },
+   {
+    "question": "Which word has the short e sound?",
+    "answer": "web",
+    "choices": [
+     "cap",
+     "flag",
+     "box",
+     "web"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFSi",
+  "subject": "english",
+  "title": "Find the short i word",
+  "section": "Short i",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXFSiJK",
+   "engXFSi0"
+  ],
+  "examples": [
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "chick",
+    "choices": [
+     "chick",
+     "web",
+     "tub",
+     "truck"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "ship",
+    "choices": [
+     "ship",
+     "pen",
+     "ram",
+     "net"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "mitt",
+    "choices": [
+     "ram",
+     "ant",
+     "van",
+     "mitt"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "fish",
+    "choices": [
+     "clock",
+     "fish",
+     "flag",
+     "pot"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "pin",
+    "choices": [
+     "dog",
+     "cap",
+     "mug",
+     "pin"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "pig",
+    "choices": [
+     "skunk",
+     "pig",
+     "sun",
+     "cap"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "six",
+    "choices": [
+     "net",
+     "six",
+     "web",
+     "skunk"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "bricks",
+    "choices": [
+     "rock",
+     "bricks",
+     "bug",
+     "lock"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "milk",
+    "choices": [
+     "milk",
+     "fox",
+     "bat",
+     "pen"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "gift",
+    "choices": [
+     "gift",
+     "nut",
+     "bat",
+     "crab"
+    ]
+   },
+   {
+    "question": "Which word has the short i sound?",
+    "answer": "lips",
+    "choices": [
+     "flag",
+     "mop",
+     "lips",
+     "bus"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXJkSwiU",
+  "subject": "english",
+  "title": "Choose the short i word that matches the picture: uppercase",
+  "section": "Short i",
+  "grades": [
+   -1
+  ],
+  "skillIds": [
+   "engXJkSwiUJK"
+  ],
+  "examples": [
+   {
+    "question": "👄 Which word matches the picture?",
+    "answer": "LIPS",
+    "choices": [
+     "CHICK",
+     "LIPS",
+     "BRICKS",
+     "PIN"
+    ]
+   },
+   {
+    "question": "🧤 Which word matches the picture?",
+    "answer": "MITT",
+    "choices": [
+     "MILK",
+     "MITT",
+     "BRICKS",
+     "PIN"
+    ]
+   },
+   {
+    "question": "6️⃣ Which word matches the picture?",
+    "answer": "SIX",
+    "choices": [
+     "GIFT",
+     "SIX",
+     "PIN",
+     "FISH"
+    ]
+   },
+   {
+    "question": "🐟 Which word matches the picture?",
+    "answer": "FISH",
+    "choices": [
+     "FISH",
+     "BRICKS",
+     "PIN",
+     "PIG"
+    ]
+   },
+   {
+    "question": "🐥 Which word matches the picture?",
+    "answer": "CHICK",
+    "choices": [
+     "FISH",
+     "CHICK",
+     "GIFT",
+     "SHIP"
+    ]
+   },
+   {
+    "question": "🥛 Which word matches the picture?",
+    "answer": "MILK",
+    "choices": [
+     "PIN",
+     "MILK",
+     "FISH",
+     "SHIP"
+    ]
+   },
+   {
+    "question": "🚢 Which word matches the picture?",
+    "answer": "SHIP",
+    "choices": [
+     "SHIP",
+     "PIN",
+     "LIPS",
+     "FISH"
+    ]
+   },
+   {
+    "question": "🎁 Which word matches the picture?",
+    "answer": "GIFT",
+    "choices": [
+     "PIN",
+     "SHIP",
+     "GIFT",
+     "FISH"
+    ]
+   },
+   {
+    "question": "🐷 Which word matches the picture?",
+    "answer": "PIG",
+    "choices": [
+     "PIG",
+     "BRICKS",
+     "MILK",
+     "LIPS"
+    ]
+   },
+   {
+    "question": "📌 Which word matches the picture?",
+    "answer": "PIN",
+    "choices": [
+     "FISH",
+     "CHICK",
+     "PIG",
+     "PIN"
+    ]
+   },
+   {
+    "question": "🧱 Which word matches the picture?",
+    "answer": "BRICKS",
+    "choices": [
+     "PIN",
+     "FISH",
+     "BRICKS",
+     "CHICK"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXJkSwiL",
+  "subject": "english",
+  "title": "Choose the short i word that matches the picture: lowercase",
+  "section": "Short i",
+  "grades": [
+   -1
+  ],
+  "skillIds": [
+   "engXJkSwiLJK"
+  ],
+  "examples": [
+   {
+    "question": "👄 Which word matches the picture?",
+    "answer": "lips",
+    "choices": [
+     "fish",
+     "chick",
+     "lips",
+     "pig"
+    ]
+   },
+   {
+    "question": "📌 Which word matches the picture?",
+    "answer": "pin",
+    "choices": [
+     "six",
+     "fish",
+     "pin",
+     "bricks"
+    ]
+   },
+   {
+    "question": "🐷 Which word matches the picture?",
+    "answer": "pig",
+    "choices": [
+     "chick",
+     "gift",
+     "milk",
+     "pig"
+    ]
+   },
+   {
+    "question": "🥛 Which word matches the picture?",
+    "answer": "milk",
+    "choices": [
+     "mitt",
+     "pin",
+     "milk",
+     "bricks"
+    ]
+   },
+   {
+    "question": "🧤 Which word matches the picture?",
+    "answer": "mitt",
+    "choices": [
+     "pig",
+     "milk",
+     "mitt",
+     "fish"
+    ]
+   },
+   {
+    "question": "🐥 Which word matches the picture?",
+    "answer": "chick",
+    "choices": [
+     "mitt",
+     "pig",
+     "chick",
+     "fish"
+    ]
+   },
+   {
+    "question": "6️⃣ Which word matches the picture?",
+    "answer": "six",
+    "choices": [
+     "pin",
+     "six",
+     "bricks",
+     "ship"
+    ]
+   },
+   {
+    "question": "🚢 Which word matches the picture?",
+    "answer": "ship",
+    "choices": [
+     "ship",
+     "bricks",
+     "gift",
+     "six"
+    ]
+   },
+   {
+    "question": "🐟 Which word matches the picture?",
+    "answer": "fish",
+    "choices": [
+     "lips",
+     "fish",
+     "bricks",
+     "mitt"
+    ]
+   },
+   {
+    "question": "🎁 Which word matches the picture?",
+    "answer": "gift",
+    "choices": [
+     "six",
+     "gift",
+     "pin",
+     "fish"
+    ]
+   },
+   {
+    "question": "🧱 Which word matches the picture?",
+    "answer": "bricks",
+    "choices": [
+     "ship",
+     "fish",
+     "bricks",
+     "lips"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXFSo",
+  "subject": "english",
+  "title": "Find the short o word",
+  "section": "Short o",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXFSoJK",
+   "engXFSo0"
+  ],
+  "examples": [
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "lock",
+    "choices": [
+     "lock",
+     "cap",
+     "six",
+     "cat"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "fox",
+    "choices": [
+     "hat",
+     "hen",
+     "fox",
+     "flag"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "box",
+    "choices": [
+     "pen",
+     "net",
+     "ram",
+     "box"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "mop",
+    "choices": [
+     "hen",
+     "six",
+     "ram",
+     "mop"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "clock",
+    "choices": [
+     "van",
+     "jet",
+     "clock",
+     "flag"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "frog",
+    "choices": [
+     "bricks",
+     "frog",
+     "nut",
+     "map"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "log",
+    "choices": [
+     "log",
+     "van",
+     "milk",
+     "cup"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "sock",
+    "choices": [
+     "bat",
+     "ant",
+     "flag",
+     "sock"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "rock",
+    "choices": [
+     "jet",
+     "bus",
+     "nut",
+     "rock"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "dog",
+    "choices": [
+     "pig",
+     "dog",
+     "ram",
+     "flag"
+    ]
+   },
+   {
+    "question": "Which word has the short o sound?",
+    "answer": "pot",
+    "choices": [
+     "mug",
+     "pan",
+     "bed",
+     "pot"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXJkSwoU",
+  "subject": "english",
+  "title": "Choose the short o word that matches the picture: uppercase",
+  "section": "Short o",
+  "grades": [
+   -1
+  ],
+  "skillIds": [
+   "engXJkSwoUJK"
+  ],
+  "examples": [
+   {
+    "question": "🐶 Which word matches the picture?",
+    "answer": "DOG",
+    "choices": [
+     "LOG",
+     "POT",
+     "DOG",
+     "FOX"
+    ]
+   },
+   {
+    "question": "🧦 Which word matches the picture?",
+    "answer": "SOCK",
+    "choices": [
+     "CLOCK",
+     "POT",
+     "SOCK",
+     "FOX"
+    ]
+   },
+   {
+    "question": "🪨 Which word matches the picture?",
+    "answer": "ROCK",
+    "choices": [
+     "SOCK",
+     "ROCK",
+     "CLOCK",
+     "LOG"
+    ]
+   },
+   {
+    "question": "🕰️ Which word matches the picture?",
+    "answer": "CLOCK",
+    "choices": [
+     "CLOCK",
+     "ROCK",
+     "POT",
+     "FROG"
+    ]
+   },
+   {
+    "question": "🧹 Which word matches the picture?",
+    "answer": "MOP",
+    "choices": [
+     "DOG",
+     "ROCK",
+     "CLOCK",
+     "MOP"
+    ]
+   },
+   {
+    "question": "📦 Which word matches the picture?",
+    "answer": "BOX",
+    "choices": [
+     "BOX",
+     "LOG",
+     "FOX",
+     "SOCK"
+    ]
+   },
+   {
+    "question": "🍲 Which word matches the picture?",
+    "answer": "POT",
+    "choices": [
+     "POT",
+     "SOCK",
+     "ROCK",
+     "BOX"
+    ]
+   },
+   {
+    "question": "🐸 Which word matches the picture?",
+    "answer": "FROG",
+    "choices": [
+     "FROG",
+     "POT",
+     "MOP",
+     "ROCK"
+    ]
+   },
+   {
+    "question": "🪵 Which word matches the picture?",
+    "answer": "LOG",
+    "choices": [
+     "CLOCK",
+     "LOG",
+     "POT",
+     "FROG"
+    ]
+   },
+   {
+    "question": "🦊 Which word matches the picture?",
+    "answer": "FOX",
+    "choices": [
+     "FROG",
+     "LOCK",
+     "FOX",
+     "DOG"
+    ]
+   },
+   {
+    "question": "🔒 Which word matches the picture?",
+    "answer": "LOCK",
+    "choices": [
+     "POT",
+     "LOCK",
+     "FROG",
+     "SOCK"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXJkSwoL",
+  "subject": "english",
+  "title": "Choose the short o word that matches the picture: lowercase",
+  "section": "Short o",
+  "grades": [
+   -1
+  ],
+  "skillIds": [
+   "engXJkSwoLJK"
+  ],
+  "examples": [
+   {
+    "question": "🐶 Which word matches the picture?",
+    "answer": "dog",
+    "choices": [
+     "clock",
+     "lock",
+     "rock",
+     "dog"
+    ]
+   },
+   {
+    "question": "🦊 Which word matches the picture?",
+    "answer": "fox",
+    "choices": [
+     "mop",
+     "box",
+     "fox",
+     "log"
+    ]
+   },
+   {
+    "question": "🐸 Which word matches the picture?",
+    "answer": "frog",
+    "choices": [
+     "sock",
+     "lock",
+     "frog",
+     "pot"
+    ]
+   },
+   {
+    "question": "🪨 Which word matches the picture?",
+    "answer": "rock",
+    "choices": [
+     "log",
+     "sock",
+     "mop",
+     "rock"
+    ]
+   },
+   {
+    "question": "📦 Which word matches the picture?",
+    "answer": "box",
+    "choices": [
+     "box",
+     "clock",
+     "frog",
+     "log"
+    ]
+   },
+   {
+    "question": "🔒 Which word matches the picture?",
+    "answer": "lock",
+    "choices": [
+     "fox",
+     "lock",
+     "mop",
+     "sock"
+    ]
+   },
+   {
+    "question": "🧦 Which word matches the picture?",
+    "answer": "sock",
+    "choices": [
+     "log",
+     "lock",
+     "sock",
+     "rock"
+    ]
+   },
+   {
+    "question": "🍲 Which word matches the picture?",
+    "answer": "pot",
+    "choices": [
+     "lock",
+     "fox",
+     "pot",
+     "mop"
+    ]
+   },
+   {
+    "question": "🕰️ Which word matches the picture?",
+    "answer": "clock",
+    "choices": [
+     "clock",
+     "sock",
+     "pot",
+     "log"
+    ]
+   },
+   {
+    "question": "🧹 Which word matches the picture?",
+    "answer": "mop",
+    "choices": [
+     "box",
+     "mop",
+     "log",
+     "lock"
+    ]
+   },
+   {
+    "question": "🪵 Which word matches the picture?",
+    "answer": "log",
+    "choices": [
+     "log",
+     "mop",
+     "fox",
+     "lock"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXBook",
+  "subject": "english",
+  "title": "Identify book parts and features",
+  "section": "Text features",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXBookJK",
+   "engXBook0"
+  ],
+  "examples": [
+   {
+    "question": "Who draws the pictures in a book?",
+    "answer": "The illustrator",
+    "choices": [
+     "The reader",
+     "The author",
+     "The illustrator",
+     "The librarian"
+    ]
+   },
+   {
+    "question": "Which part of a book shows the title and the author?",
+    "answer": "The cover",
+    "choices": [
+     "The spine only",
+     "The middle",
+     "The cover",
+     "The last page"
+    ]
+   },
+   {
+    "question": "What is the name of a book called?",
+    "answer": "The title",
+    "choices": [
+     "The author",
+     "The picture",
+     "The page",
+     "The title"
+    ]
+   },
+   {
+    "question": "Where do you start reading a book?",
+    "answer": "At the front",
+    "choices": [
+     "At the back",
+     "At the front",
+     "On the spine",
+     "In the middle"
+    ]
+   },
+   {
+    "question": "Who writes the words in a book?",
+    "answer": "The author",
+    "choices": [
+     "The author",
+     "The illustrator",
+     "The publisher",
+     "The reader"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRlMk",
+  "subject": "english",
+  "title": "Which could happen in real life?",
+  "section": "Reality vs. fiction",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engRlMkJK",
+   "engRlMk0"
+  ],
+  "examples": [
+   {
+    "question": "A baby bird learns to fly.",
+    "answer": "Could happen in real life",
+    "choices": [
+     "Could happen in real life",
+     "Make-believe"
+    ]
+   },
+   {
+    "question": "A teapot sings a song.",
+    "answer": "Make-believe",
+    "choices": [
+     "Make-believe",
+     "Could happen in real life"
+    ]
+   },
+   {
+    "question": "A dragon reads a book to the class.",
+    "answer": "Make-believe",
+    "choices": [
+     "Make-believe",
+     "Could happen in real life"
+    ]
+   },
+   {
+    "question": "A dog chases a ball.",
+    "answer": "Could happen in real life",
+    "choices": [
+     "Could happen in real life",
+     "Make-believe"
+    ]
+   },
+   {
+    "question": "It snows in winter.",
+    "answer": "Could happen in real life",
+    "choices": [
+     "Make-believe",
+     "Could happen in real life"
+    ]
+   },
+   {
+    "question": "A tree walks to the store.",
+    "answer": "Make-believe",
+    "choices": [
+     "Make-believe",
+     "Could happen in real life"
+    ]
+   },
+   {
+    "question": "A frog wears a crown and talks.",
+    "answer": "Make-believe",
+    "choices": [
+     "Could happen in real life",
+     "Make-believe"
+    ]
+   },
+   {
+    "question": "A cat sleeps in the sun.",
+    "answer": "Could happen in real life",
+    "choices": [
+     "Make-believe",
+     "Could happen in real life"
+    ]
+   },
+   {
+    "question": "A girl rides her bike to school.",
+    "answer": "Could happen in real life",
+    "choices": [
+     "Could happen in real life",
+     "Make-believe"
+    ]
+   },
+   {
+    "question": "The moon eats a sandwich.",
+    "answer": "Make-believe",
+    "choices": [
+     "Make-believe",
+     "Could happen in real life"
+    ]
+   },
+   {
+    "question": "A pig drives a bus.",
+    "answer": "Make-believe",
+    "choices": [
+     "Could happen in real life",
+     "Make-believe"
+    ]
+   },
+   {
+    "question": "Dad bakes bread.",
+    "answer": "Could happen in real life",
+    "choices": [
+     "Could happen in real life",
+     "Make-believe"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFlPc",
+  "subject": "english",
+  "title": "Which feeling matches the picture?",
+  "section": "Inference and analysis",
+  "grades": [
+   -1,
+   0,
+   1
+  ],
+  "skillIds": [
+   "engFlPcJK",
+   "engFlPc0",
+   "engFlPc1"
+  ],
+  "examples": [
+   {
+    "question": "😲 Which feeling matches the picture?",
+    "answer": "surprised",
+    "choices": [
+     "happy",
+     "sick",
+     "surprised",
+     "cool and confident"
+    ]
+   },
+   {
+    "question": "🤢 Which feeling matches the picture?",
+    "answer": "sick",
+    "choices": [
+     "surprised",
+     "sick",
+     "sad",
+     "happy"
+    ]
+   },
+   {
+    "question": "😎 Which feeling matches the picture?",
+    "answer": "cool and confident",
+    "choices": [
+     "sick",
+     "happy",
+     "cool and confident",
+     "angry"
+    ]
+   },
+   {
+    "question": "😴 Which feeling matches the picture?",
+    "answer": "sleepy",
+    "choices": [
+     "sick",
+     "cool and confident",
+     "sad",
+     "sleepy"
+    ]
+   },
+   {
+    "question": "😠 Which feeling matches the picture?",
+    "answer": "angry",
+    "choices": [
+     "angry",
+     "scared",
+     "sad",
+     "happy"
+    ]
+   },
+   {
+    "question": "😢 Which feeling matches the picture?",
+    "answer": "sad",
+    "choices": [
+     "sad",
+     "happy",
+     "surprised",
+     "angry"
+    ]
+   },
+   {
+    "question": "😨 Which feeling matches the picture?",
+    "answer": "scared",
+    "choices": [
+     "sleepy",
+     "sad",
+     "scared",
+     "surprised"
+    ]
+   },
+   {
+    "question": "😀 Which feeling matches the picture?",
+    "answer": "happy",
+    "choices": [
+     "sick",
+     "sad",
+     "happy",
+     "angry"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPrdc",
+  "subject": "english",
+  "title": "What will happen next?",
+  "section": "Inference and analysis",
+  "grades": [
+   -1,
+   0,
+   1,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engPrdcJK",
+   "engPrdc0",
+   "engPrdc1",
+   "engPrdc3",
+   "engPrdc4"
+  ],
+  "examples": [
+   {
+    "question": "Read the text. The ice cream cone sat in the hot sun for a long time. What will most likely happen next?",
+    "answer": "The ice cream will melt.",
+    "choices": [
+     "The sun will go away.",
+     "The ice cream will freeze harder.",
+     "The cone will turn into a flower.",
+     "The ice cream will melt."
+    ]
+   },
+   {
+    "question": "Read the text. Ava stacked block after block. The tower wobbled more and more. What will most likely happen next?",
+    "answer": "The tower will fall.",
+    "choices": [
+     "The tower will fall.",
+     "The blocks will turn to gold.",
+     "The tower will grow wings.",
+     "Ava will eat the blocks."
+    ]
+   },
+   {
+    "question": "Read the text. The puppy saw a squirrel and pulled hard on its leash. What will most likely happen next?",
+    "answer": "The puppy will chase the squirrel.",
+    "choices": [
+     "The puppy will fall asleep.",
+     "The puppy will read a book.",
+     "The squirrel will bark.",
+     "The puppy will chase the squirrel."
+    ]
+   },
+   {
+    "question": "Read the text. Leo forgot his lunch at home. At noon, his stomach growled. What will most likely happen next?",
+    "answer": "Leo will look for something to eat.",
+    "choices": [
+     "Leo will stop being hungry forever.",
+     "Leo will take a nap on the roof.",
+     "Leo will buy a car.",
+     "Leo will look for something to eat."
+    ]
+   },
+   {
+    "question": "Read the text. Mia put the cake batter in the pan and slid it into the hot oven. What will most likely happen next?",
+    "answer": "The cake will bake.",
+    "choices": [
+     "The oven will fly away.",
+     "Mia will plant a tree.",
+     "The cake will bake.",
+     "The cake will melt."
+    ]
+   },
+   {
+    "question": "Read the text. Dark clouds filled the sky. Thunder rumbled. Sam looked up and opened his umbrella. What will most likely happen next?",
+    "answer": "It will rain.",
+    "choices": [
+     "The sun will get hotter.",
+     "Sam will go swimming.",
+     "It will rain.",
+     "It will snow candy."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXColW",
+  "subject": "english",
+  "title": "Use colour words",
+  "section": "Colour and number words",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXColWJK",
+   "engXColW0"
+  ],
+  "examples": [
+   {
+    "question": "🍎 What colour is it?",
+    "answer": "red",
+    "choices": [
+     "blue",
+     "red",
+     "pink",
+     "purple"
+    ]
+   },
+   {
+    "question": "🍇 What colour is it?",
+    "answer": "purple",
+    "choices": [
+     "brown",
+     "orange",
+     "purple",
+     "yellow"
+    ]
+   },
+   {
+    "question": "🐷 What colour is it?",
+    "answer": "pink",
+    "choices": [
+     "purple",
+     "pink",
+     "brown",
+     "black"
+    ]
+   },
+   {
+    "question": "⛄ What colour is it?",
+    "answer": "white",
+    "choices": [
+     "white",
+     "yellow",
+     "pink",
+     "green"
+    ]
+   },
+   {
+    "question": "🐻 What colour is it?",
+    "answer": "brown",
+    "choices": [
+     "pink",
+     "brown",
+     "green",
+     "blue"
+    ]
+   },
+   {
+    "question": "🌳 What colour is it?",
+    "answer": "green",
+    "choices": [
+     "white",
+     "red",
+     "green",
+     "yellow"
+    ]
+   },
+   {
+    "question": "🫐 What colour is it?",
+    "answer": "blue",
+    "choices": [
+     "yellow",
+     "white",
+     "blue",
+     "pink"
+    ]
+   },
+   {
+    "question": "🍌 What colour is it?",
+    "answer": "yellow",
+    "choices": [
+     "yellow",
+     "pink",
+     "blue",
+     "green"
+    ]
+   },
+   {
+    "question": "🍊 What colour is it?",
+    "answer": "orange",
+    "choices": [
+     "orange",
+     "blue",
+     "purple",
+     "pink"
+    ]
+   },
+   {
+    "question": "⚫ What colour is it?",
+    "answer": "black",
+    "choices": [
+     "black",
+     "green",
+     "purple",
+     "blue"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAntP",
+  "subject": "english",
+  "title": "Match antonyms to pictures",
+  "section": "Antonyms",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXAntPJK",
+   "engXAntP0"
+  ],
+  "examples": [
+   {
+    "question": "🐘 is big . Which picture shows the opposite?",
+    "answer": "🐭",
+    "choices": [
+     "🧊",
+     "⬇️",
+     "🐭",
+     "🌙"
+    ]
+   },
+   {
+    "question": "😀 is happy . Which picture shows the opposite?",
+    "answer": "😢",
+    "choices": [
+     "🌙",
+     "😢",
+     "⬇️",
+     "🧊"
+    ]
+   },
+   {
+    "question": "🔥 is hot . Which picture shows the opposite?",
+    "answer": "🧊",
+    "choices": [
+     "🌙",
+     "⬇️",
+     "😢",
+     "🧊"
+    ]
+   },
+   {
+    "question": "☀️ is day . Which picture shows the opposite?",
+    "answer": "🌙",
+    "choices": [
+     "⬇️",
+     "🐭",
+     "😢",
+     "🌙"
+    ]
+   },
+   {
+    "question": "⬆️ is up . Which picture shows the opposite?",
+    "answer": "⬇️",
+    "choices": [
+     "🧊",
+     "🌙",
+     "😢",
+     "⬇️"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXVbPic",
+  "subject": "english",
+  "title": "Find the picture that matches the action verb",
+  "section": "Verbs",
+  "grades": [
+   -1,
+   0
+  ],
+  "skillIds": [
+   "engXVbPicJK",
+   "engXVbPic0"
+  ],
+  "examples": [
+   {
+    "question": "Which picture shows dance ?",
+    "answer": "💃",
+    "choices": [
+     "🎤",
+     "🤸",
+     "💃",
+     "🏊"
+    ]
+   },
+   {
+    "question": "Which picture shows jump ?",
+    "answer": "🤸",
+    "choices": [
+     "🎤",
+     "🤸",
+     "🏊",
+     "📖"
+    ]
+   },
+   {
+    "question": "Which picture shows swim ?",
+    "answer": "🏊",
+    "choices": [
+     "💃",
+     "😴",
+     "🏊",
+     "🎤"
+    ]
+   },
+   {
+    "question": "Which picture shows eat ?",
+    "answer": "🍽️",
+    "choices": [
+     "🏃",
+     "😴",
+     "🍽️",
+     "📖"
+    ]
+   },
+   {
+    "question": "Which picture shows sing ?",
+    "answer": "🎤",
+    "choices": [
+     "🎤",
+     "💃",
+     "🤸",
+     "🏃"
+    ]
+   },
+   {
+    "question": "Which picture shows sleep ?",
+    "answer": "😴",
+    "choices": [
+     "🏊",
+     "😴",
+     "📖",
+     "🧗"
+    ]
+   },
+   {
+    "question": "Which picture shows write ?",
+    "answer": "✍️",
+    "choices": [
+     "🏊",
+     "✍️",
+     "🧗",
+     "🤸"
+    ]
+   },
+   {
+    "question": "Which picture shows read ?",
+    "answer": "📖",
+    "choices": [
+     "📖",
+     "🏊",
+     "🏃",
+     "🧗"
+    ]
+   },
+   {
+    "question": "Which picture shows climb ?",
+    "answer": "🧗",
+    "choices": [
+     "✍️",
+     "🎤",
+     "🏃",
+     "🧗"
+    ]
+   },
+   {
+    "question": "Which picture shows run ?",
+    "answer": "🏃",
+    "choices": [
+     "📖",
+     "💃",
+     "✍️",
+     "🏃"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXAdPc",
+  "subject": "english",
+  "title": "Compare pictures using adjectives",
+  "section": "Adjectives",
+  "grades": [
+   -1,
+   0,
+   1
+  ],
+  "skillIds": [
+   "engXAdPcJK",
+   "engXAdPc0",
+   "engXAdPc1"
+  ],
+  "examples": [
+   {
+    "question": "🔥 🧊 The fire is ___ than the ice.",
+    "answer": "hotter",
+    "choices": [
+     "hottest",
+     "hotter",
+     "hot"
+    ]
+   },
+   {
+    "question": "🐜 🐈 The ant is ___ than the cat.",
+    "answer": "smaller",
+    "choices": [
+     "small",
+     "smallest",
+     "smaller"
+    ]
+   },
+   {
+    "question": "🐢 🐇 The rabbit is ___ than the turtle.",
+    "answer": "faster",
+    "choices": [
+     "faster",
+     "fast",
+     "fastest"
+    ]
+   },
+   {
+    "question": "🦒 🐕 The giraffe is ___ than the dog.",
+    "answer": "taller",
+    "choices": [
+     "taller",
+     "tallest",
+     "tall"
+    ]
+   },
+   {
+    "question": "🐘 🐭 The elephant is ___ than the mouse.",
+    "answer": "bigger",
+    "choices": [
+     "bigger",
+     "big",
+     "biggest"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXMoreS",
+  "subject": "english",
+  "title": "Which word has more syllables?",
+  "section": "Syllables",
+  "grades": [
+   0
+  ],
+  "skillIds": [
+   "engXMoreS0"
+  ],
+  "examples": [
+   {
+    "question": "Which word has more syllables?",
+    "answer": "basket",
+    "choices": [
+     "basket",
+     "box"
+    ]
+   },
+   {
+    "question": "Which word has more syllables?",
+    "answer": "butterfly",
+    "choices": [
+     "bug",
+     "butterfly"
+    ]
+   },
+   {
+    "question": "Which word has more syllables?",
+    "answer": "tiger",
+    "choices": [
+     "tiger",
+     "tree"
+    ]
+   },
+   {
+    "question": "Which word has more syllables?",
+    "answer": "pencil",
+    "choices": [
+     "pen",
+     "pencil"
+    ]
+   },
+   {
+    "question": "Which word has more syllables?",
+    "answer": "rabbit",
+    "choices": [
+     "rabbit",
+     "cat"
+    ]
+   },
+   {
+    "question": "Which word has more syllables?",
+    "answer": "elephant",
+    "choices": [
+     "elephant",
+     "egg"
+    ]
+   },
+   {
+    "question": "Which word has more syllables?",
+    "answer": "banana",
+    "choices": [
+     "bun",
+     "banana"
+    ]
+   },
+   {
+    "question": "Which word has more syllables?",
+    "answer": "apple",
+    "choices": [
+     "apple",
+     "ant"
+    ]
+   }
+  ]
+ }
+]

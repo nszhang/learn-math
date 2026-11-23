@@ -1,0 +1,2428 @@
+[
+ {
+  "key": "engRcA",
+  "subject": "english",
+  "title": "Trace an argument: set 2",
+  "section": "Analyzing informational texts",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRcA9",
+   "engRcA10",
+   "engRcA11",
+   "engRcA12"
+  ],
+  "examples": [
+   {
+    "question": "Phones Away An original passage written for LearnAce 1 Phones should be banned from classrooms during instructional time. The evidence that they harm learning is strong, and the solution is simple. 2 Attention is limited. In one widely cited experiment, the mere presence of a smartphone on a desk — even turned off and face down — reduced performance on tests of memory and problem-solving. Notifications, when allowed, fragment attention further. 3 Supporters of phones in class point out that they can be useful tools for research or calculation. That is true, but schools already provide devices for those purposes, which can be managed and filtered in ways personal phones cannot. 4 A ban also removes a burden from teachers, who currently spend valuable minutes policing phone use, and from students, many of whom report feeling relieved when the decision to disconnect is made for them. What is the author's claim?",
+    "answer": "Phones should be banned from classrooms during instructional time",
+    "choices": [
+     "Phones are useful research tools",
+     "Teachers should use phones more",
+     "Phones should be banned from classrooms during instructional time",
+     "Students should buy school devices"
+    ]
+   },
+   {
+    "question": "Votes at Sixteen An original passage written for LearnAce 1 Canada should lower the federal voting age to sixteen. Young people are affected by government decisions on climate, education and the economy for longer than anyone, yet they have no say in choosing the people who make those decisions. 2 Critics argue that sixteen-year-olds lack the maturity to vote. But research on \"cold cognition\" — careful decision-making without time pressure — shows that by sixteen, most people reason about as well as adults. Voting, which allows weeks of reflection, depends on precisely this kind of thinking. 3 Evidence from places that have lowered the voting age is encouraging. After Austria allowed sixteen-year-olds to vote in 2007, studies found that their turnout was higher than that of voters aged eighteen to twenty, and their political knowledge was comparable. 4 Habits formed early tend to last. People who vote in the first election for which they are eligible are more likely to keep voting for life. Letting students cast a first ballot while still living at home and learning civics in school could build a lifelong habit of participation. Which finding would most weaken the argument?",
+    "answer": "A study showing sixteen-year-old voters made less-informed choices than older voters",
+    "choices": [
+     "A study showing sixteen-year-old voters made less-informed choices than older voters",
+     "Data showing Austria's turnout rose",
+     "A study showing teens care about climate",
+     "A survey of civics teachers who support the idea"
+    ]
+   },
+   {
+    "question": "Phones Away An original passage written for LearnAce 1 Phones should be banned from classrooms during instructional time. The evidence that they harm learning is strong, and the solution is simple. 2 Attention is limited. In one widely cited experiment, the mere presence of a smartphone on a desk — even turned off and face down — reduced performance on tests of memory and problem-solving. Notifications, when allowed, fragment attention further. 3 Supporters of phones in class point out that they can be useful tools for research or calculation. That is true, but schools already provide devices for those purposes, which can be managed and filtered in ways personal phones cannot. 4 A ban also removes a burden from teachers, who currently spend valuable minutes policing phone use, and from students, many of whom report feeling relieved when the decision to disconnect is made for them. Which claim in paragraph 4 is least supported by evidence in the passage?",
+    "answer": "Many students report feeling relieved when phones are banned",
+    "choices": [
+     "Teachers spend time policing phone use",
+     "Many students report feeling relieved when phones are banned",
+     "Attention is limited",
+     "Phones can be useful tools"
+    ]
+   },
+   {
+    "question": "Votes at Sixteen An original passage written for LearnAce 1 Canada should lower the federal voting age to sixteen. Young people are affected by government decisions on climate, education and the economy for longer than anyone, yet they have no say in choosing the people who make those decisions. 2 Critics argue that sixteen-year-olds lack the maturity to vote. But research on \"cold cognition\" — careful decision-making without time pressure — shows that by sixteen, most people reason about as well as adults. Voting, which allows weeks of reflection, depends on precisely this kind of thinking. 3 Evidence from places that have lowered the voting age is encouraging. After Austria allowed sixteen-year-olds to vote in 2007, studies found that their turnout was higher than that of voters aged eighteen to twenty, and their political knowledge was comparable. 4 Habits formed early tend to last. People who vote in the first election for which they are eligible are more likely to keep voting for life. Letting students cast a first ballot while still living at home and learning civics in school could build a lifelong habit of participation. Which assumption underlies paragraph 1?",
+    "answer": "People affected by decisions should have a say in them",
+    "choices": [
+     "People affected by decisions should have a say in them",
+     "Teenagers already vote",
+     "Older voters make worse choices",
+     "Climate is the only issue that matters"
+    ]
+   },
+   {
+    "question": "Phones Away An original passage written for LearnAce 1 Phones should be banned from classrooms during instructional time. The evidence that they harm learning is strong, and the solution is simple. 2 Attention is limited. In one widely cited experiment, the mere presence of a smartphone on a desk — even turned off and face down — reduced performance on tests of memory and problem-solving. Notifications, when allowed, fragment attention further. 3 Supporters of phones in class point out that they can be useful tools for research or calculation. That is true, but schools already provide devices for those purposes, which can be managed and filtered in ways personal phones cannot. 4 A ban also removes a burden from teachers, who currently spend valuable minutes policing phone use, and from students, many of whom report feeling relieved when the decision to disconnect is made for them. As used in paragraph 2, \"fragment\" most nearly means …",
+    "answer": "break into pieces",
+    "choices": [
+     "improve",
+     "break into pieces",
+     "measure",
+     "protect"
+    ]
+   },
+   {
+    "question": "Votes at Sixteen An original passage written for LearnAce 1 Canada should lower the federal voting age to sixteen. Young people are affected by government decisions on climate, education and the economy for longer than anyone, yet they have no say in choosing the people who make those decisions. 2 Critics argue that sixteen-year-olds lack the maturity to vote. But research on \"cold cognition\" — careful decision-making without time pressure — shows that by sixteen, most people reason about as well as adults. Voting, which allows weeks of reflection, depends on precisely this kind of thinking. 3 Evidence from places that have lowered the voting age is encouraging. After Austria allowed sixteen-year-olds to vote in 2007, studies found that their turnout was higher than that of voters aged eighteen to twenty, and their political knowledge was comparable. 4 Habits formed early tend to last. People who vote in the first election for which they are eligible are more likely to keep voting for life. Letting students cast a first ballot while still living at home and learning civics in school could build a lifelong habit of participation. What role does the Austria example play?",
+    "answer": "It provides real-world evidence supporting the claim",
+    "choices": [
+     "It is a personal anecdote",
+     "It introduces a new claim",
+     "It is a counterargument",
+     "It provides real-world evidence supporting the claim"
+    ]
+   },
+   {
+    "question": "Votes at Sixteen An original passage written for LearnAce 1 Canada should lower the federal voting age to sixteen. Young people are affected by government decisions on climate, education and the economy for longer than anyone, yet they have no say in choosing the people who make those decisions. 2 Critics argue that sixteen-year-olds lack the maturity to vote. But research on \"cold cognition\" — careful decision-making without time pressure — shows that by sixteen, most people reason about as well as adults. Voting, which allows weeks of reflection, depends on precisely this kind of thinking. 3 Evidence from places that have lowered the voting age is encouraging. After Austria allowed sixteen-year-olds to vote in 2007, studies found that their turnout was higher than that of voters aged eighteen to twenty, and their political knowledge was comparable. 4 Habits formed early tend to last. People who vote in the first election for which they are eligible are more likely to keep voting for life. Letting students cast a first ballot while still living at home and learning civics in school could build a lifelong habit of participation. What is the author's claim?",
+    "answer": "Canada should lower the federal voting age to sixteen",
+    "choices": [
+     "Voting should be mandatory",
+     "Austria should change its laws",
+     "Sixteen-year-olds are not mature",
+     "Canada should lower the federal voting age to sixteen"
+    ]
+   },
+   {
+    "question": "Phones Away An original passage written for LearnAce 1 Phones should be banned from classrooms during instructional time. The evidence that they harm learning is strong, and the solution is simple. 2 Attention is limited. In one widely cited experiment, the mere presence of a smartphone on a desk — even turned off and face down — reduced performance on tests of memory and problem-solving. Notifications, when allowed, fragment attention further. 3 Supporters of phones in class point out that they can be useful tools for research or calculation. That is true, but schools already provide devices for those purposes, which can be managed and filtered in ways personal phones cannot. 4 A ban also removes a burden from teachers, who currently spend valuable minutes policing phone use, and from students, many of whom report feeling relieved when the decision to disconnect is made for them. Which evidence best supports the claim that phones harm learning?",
+    "answer": "The mere presence of a phone reduced performance on memory tests",
+    "choices": [
+     "Teachers spend minutes policing phones",
+     "Phones can be used for calculation",
+     "The mere presence of a phone reduced performance on memory tests",
+     "Schools provide devices"
+    ]
+   },
+   {
+    "question": "Votes at Sixteen An original passage written for LearnAce 1 Canada should lower the federal voting age to sixteen. Young people are affected by government decisions on climate, education and the economy for longer than anyone, yet they have no say in choosing the people who make those decisions. 2 Critics argue that sixteen-year-olds lack the maturity to vote. But research on \"cold cognition\" — careful decision-making without time pressure — shows that by sixteen, most people reason about as well as adults. Voting, which allows weeks of reflection, depends on precisely this kind of thinking. 3 Evidence from places that have lowered the voting age is encouraging. After Austria allowed sixteen-year-olds to vote in 2007, studies found that their turnout was higher than that of voters aged eighteen to twenty, and their political knowledge was comparable. 4 Habits formed early tend to last. People who vote in the first election for which they are eligible are more likely to keep voting for life. Letting students cast a first ballot while still living at home and learning civics in school could build a lifelong habit of participation. How does the author respond to the maturity counterargument?",
+    "answer": "By citing research on careful decision-making (\"cold cognition\")",
+    "choices": [
+     "By agreeing that teens are immature",
+     "By attacking the critics personally",
+     "By ignoring it",
+     "By citing research on careful decision-making (\"cold cognition\")"
+    ]
+   },
+   {
+    "question": "Phones Away An original passage written for LearnAce 1 Phones should be banned from classrooms during instructional time. The evidence that they harm learning is strong, and the solution is simple. 2 Attention is limited. In one widely cited experiment, the mere presence of a smartphone on a desk — even turned off and face down — reduced performance on tests of memory and problem-solving. Notifications, when allowed, fragment attention further. 3 Supporters of phones in class point out that they can be useful tools for research or calculation. That is true, but schools already provide devices for those purposes, which can be managed and filtered in ways personal phones cannot. 4 A ban also removes a burden from teachers, who currently spend valuable minutes policing phone use, and from students, many of whom report feeling relieved when the decision to disconnect is made for them. How does paragraph 3 handle the counterargument?",
+    "answer": "It concedes phones can be useful, then explains why school devices are better",
+    "choices": [
+     "It attacks supporters personally",
+     "It agrees completely and drops the claim",
+     "It concedes phones can be useful, then explains why school devices are better",
+     "It ignores the counterargument"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRhHs",
+  "subject": "english",
+  "title": "Analyze rhetorical strategies in historical texts: set 1",
+  "section": "Analyzing informational texts",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engRhHs9",
+   "engRhHs10",
+   "engRhHs11",
+   "engRhHs12"
+  ],
+  "examples": [
+   {
+    "question": "A speaker asks, \"Can we truly call ourselves free while any among us remains in chains?\" This is …",
+    "answer": "A rhetorical question",
+    "choices": [
+     "A flashback",
+     "A definition",
+     "A rhetorical question",
+     "A statistic"
+    ]
+   },
+   {
+    "question": "\"…government of the people, by the people, for the people, shall not perish from the earth.\" — Abraham Lincoln, Gettysburg Address (1863). Which strategy is used?",
+    "answer": "Parallel structure and repetition",
+    "choices": [
+     "A statistic",
+     "A rhetorical question",
+     "Parallel structure and repetition",
+     "A personal anecdote"
+    ]
+   },
+   {
+    "question": "A speaker compares a struggling country to a ship in a storm. This is an …",
+    "answer": "Extended metaphor (analogy)",
+    "choices": [
+     "Understatement",
+     "Oxymoron",
+     "Extended metaphor (analogy)",
+     "Euphemism"
+    ]
+   },
+   {
+    "question": "\"I have a dream today!\" — Martin Luther King Jr., “I Have a Dream” speech (1963), repeated at the start of successive sentences is an example of …",
+    "answer": "Anaphora",
+    "choices": [
+     "Understatement",
+     "Euphemism",
+     "Anaphora",
+     "Allusion"
+    ]
+   },
+   {
+    "question": "\"The only thing we have to fear is fear itself.\" — Franklin D. Roosevelt, first inaugural address (1933), mainly appeals to …",
+    "answer": "Pathos by calming fear",
+    "choices": [
+     "Pathos by calming fear",
+     "Humour",
+     "Logos using statistics",
+     "Ethos using credentials"
+    ]
+   },
+   {
+    "question": "\"Ask not what your country can do for you — ask what you can do for your country.\" — John F. Kennedy, inaugural address (1961), uses …",
+    "answer": "Antithesis (contrasting ideas)",
+    "choices": [
+     "Hyperbole",
+     "Antithesis (contrasting ideas)",
+     "Onomatopoeia",
+     "Apostrophe"
+    ]
+   },
+   {
+    "question": "A writer states, \"Unemployment has fallen from 9% to 5% in four years.\" This is mainly an appeal to …",
+    "answer": "Logos",
+    "choices": [
+     "Satire",
+     "Pathos",
+     "Ethos",
+     "Logos"
+    ]
+   },
+   {
+    "question": "A speaker opens, \"Fellow citizens, as a veteran of three wars, I have seen what hardship can do.\" This is mainly an appeal to …",
+    "answer": "Ethos",
+    "choices": [
+     "Logos",
+     "Pathos",
+     "Irony",
+     "Ethos"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engThSt",
+  "subject": "english",
+  "title": "Identify thesis statements",
+  "section": "Topic sentences and thesis statements",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engThSt9",
+   "engThSt10",
+   "engThSt11",
+   "engThSt12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is the strongest thesis statement for an essay?",
+    "answer": "The novel's setting shapes its characters' choices and ultimately drives its tragic ending.",
+    "choices": [
+     "The first chapter introduces the setting.",
+     "The novel is set in a village.",
+     "Settings are important in many novels.",
+     "The novel's setting shapes its characters' choices and ultimately drives its tragic ending."
+    ]
+   },
+   {
+    "question": "Which sentence is the strongest thesis statement for an essay?",
+    "answer": "Zoos play a vital role in protecting endangered species and educating the public.",
+    "choices": [
+     "The zoo opens at nine.",
+     "Zoos are places where animals live.",
+     "Zoos play a vital role in protecting endangered species and educating the public.",
+     "Some people like zoos and some do not."
+    ]
+   },
+   {
+    "question": "Which sentence is the strongest thesis statement for an essay?",
+    "answer": "Social media has weakened face-to-face communication among teenagers.",
+    "choices": [
+     "Social media has weakened face-to-face communication among teenagers.",
+     "I will discuss social media today.",
+     "Is social media good or bad?",
+     "Social media was invented in the 2000s."
+    ]
+   },
+   {
+    "question": "Which sentence is the strongest thesis statement for an essay?",
+    "answer": "Renewable energy is the most practical solution to the energy crisis.",
+    "choices": [
+     "Renewable energy is the most practical solution to the energy crisis.",
+     "Many countries have power plants.",
+     "Energy is used in houses.",
+     "Wind turbines are tall."
+    ]
+   },
+   {
+    "question": "Which sentence is the strongest thesis statement for an essay?",
+    "answer": "Homework should be limited because excessive assignments harm students' health and family time.",
+    "choices": [
+     "Homework is assigned in most schools.",
+     "Homework should be limited because excessive assignments harm students' health and family time.",
+     "How much homework do students get?",
+     "This essay will examine homework."
+    ]
+   },
+   {
+    "question": "Which sentence is the strongest thesis statement for an essay?",
+    "answer": "Standardized testing should be reformed because it fails to measure creativity and critical thinking.",
+    "choices": [
+     "Tests have questions.",
+     "Standardized testing should be reformed because it fails to measure creativity and critical thinking.",
+     "My topic is testing.",
+     "Standardized tests are taken in spring."
+    ]
+   },
+   {
+    "question": "Which sentence is the strongest thesis statement for an essay?",
+    "answer": "Cities should invest in public transit because it reduces pollution, saves money and eases traffic.",
+    "choices": [
+     "This essay is about public transit.",
+     "Public transit exists in many cities.",
+     "What are the problems with public transit?",
+     "Cities should invest in public transit because it reduces pollution, saves money and eases traffic."
+    ]
+   },
+   {
+    "question": "Which sentence is the strongest thesis statement for an essay?",
+    "answer": "Schools should teach financial literacy because it prepares students for adult life.",
+    "choices": [
+     "Financial literacy is a topic in some schools.",
+     "Schools should teach financial literacy because it prepares students for adult life.",
+     "Many students have bank accounts.",
+     "In this paper I will talk about money."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engEvSw",
+  "subject": "english",
+  "title": "Identify stronger and weaker evidence to support a claim",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engEvSw9",
+   "engEvSw10",
+   "engEvSw11",
+   "engEvSw12"
+  ],
+  "examples": [
+   {
+    "question": "Claim: Exercise improves mood. Which evidence is weakest?",
+    "answer": "A friend says she feels happier after jogging.",
+    "choices": [
+     "A review of 30 studies found the same result.",
+     "A trial with 2,000 adults showed lower anxiety after exercise.",
+     "A hospital study measured lower stress hormones.",
+     "A friend says she feels happier after jogging."
+    ]
+   },
+   {
+    "question": "Claim: Reading aloud helps young children learn language. Which evidence is strongest?",
+    "answer": "Researchers found children read to daily knew more words at age five.",
+    "choices": [
+     "Reading takes time.",
+     "Picture books are colourful.",
+     "Parents enjoy reading aloud.",
+     "Researchers found children read to daily knew more words at age five."
+    ]
+   },
+   {
+    "question": "Claim: Later school start times help teenagers. Which evidence is weakest?",
+    "answer": "Some teens say they like sleeping in.",
+    "choices": [
+     "A district study showed fewer car crashes involving teens.",
+     "Some teens say they like sleeping in.",
+     "Sleep scientists link later starts to better attention.",
+     "Researchers found improved attendance after the change."
+    ]
+   },
+   {
+    "question": "Claim: Recycling reduces landfill waste. Which evidence is strongest?",
+    "answer": "City records show landfill volume fell 30% after recycling began.",
+    "choices": [
+     "City records show landfill volume fell 30% after recycling began.",
+     "I always recycle my cans.",
+     "Many people say recycling is good.",
+     "Recycling bins are blue."
+    ]
+   },
+   {
+    "question": "Claim: Electric buses cut pollution. Which evidence is strongest?",
+    "answer": "Air-quality monitors recorded cleaner air on routes using electric buses.",
+    "choices": [
+     "Buses carry many people.",
+     "Electric buses look modern.",
+     "The driver likes the quiet engine.",
+     "Air-quality monitors recorded cleaner air on routes using electric buses."
+    ]
+   },
+   {
+    "question": "Claim: School libraries improve reading scores. Which evidence is strongest?",
+    "answer": "A study of 500 schools found higher scores where libraries were staffed.",
+    "choices": [
+     "A study of 500 schools found higher scores where libraries were staffed.",
+     "Some books are very long.",
+     "Libraries are quiet places.",
+     "My cousin likes her school library."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSupEv",
+  "subject": "english",
+  "title": "Identify supporting evidence in a text",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXSupEv9",
+   "engXSupEv10",
+   "engXSupEv11",
+   "engXSupEv12"
+  ],
+  "examples": [
+   {
+    "question": "Claim: Social media can spread misinformation quickly. Which sentence best supports the claim?",
+    "answer": "\"Researchers found false stories reached 1,500 people about six times faster than true ones.\"",
+    "choices": [
+     "\"Billions of people use social media.\"",
+     "\"Researchers found false stories reached 1,500 people about six times faster than true ones.\"",
+     "\"Some posts include photos.\"",
+     "\"Social media apps are free.\""
+    ]
+   },
+   {
+    "question": "Claim: Four-day school weeks can improve attendance. Which evidence best supports the claim?",
+    "answer": "A district that switched to four days saw absences fall by 15%.",
+    "choices": [
+     "Some schools have five-day weeks.",
+     "A district that switched to four days saw absences fall by 15%.",
+     "Teachers work hard.",
+     "Many students like Fridays off."
+    ]
+   },
+   {
+    "question": "Claim: Bike lanes make streets safer. Which evidence best supports the claim?",
+    "answer": "After protected bike lanes were added, cyclist injuries on the street dropped by 40%.",
+    "choices": [
+     "Some streets are wide.",
+     "After protected bike lanes were added, cyclist injuries on the street dropped by 40%.",
+     "Cycling is fun.",
+     "Bikes are cheaper than cars."
+    ]
+   },
+   {
+    "question": "Claim: The four-day school week can harm student achievement. Which sentence best supports the claim?",
+    "answer": "\"A multi-district study found math scores rose more slowly in four-day schools.\"",
+    "choices": [
+     "\"Four-day weeks began in rural areas.\"",
+     "\"Teachers have mixed opinions.\"",
+     "\"A multi-district study found math scores rose more slowly in four-day schools.\"",
+     "\"Many students enjoy a longer weekend.\""
+    ]
+   },
+   {
+    "question": "Claim: Urban trees improve public health. Which sentence from a report best supports the claim?",
+    "answer": "\"Neighbourhoods with more tree cover had 12 percent fewer asthma-related hospital visits.\"",
+    "choices": [
+     "\"Neighbourhoods with more tree cover had 12 percent fewer asthma-related hospital visits.\"",
+     "\"Some residents prefer flowers to trees.\"",
+     "\"The city planted maples and oaks last year.\"",
+     "\"Trees are a beautiful addition to any street.\""
+    ]
+   },
+   {
+    "question": "Claim: Social media can harm teenagers' sleep. Which evidence best supports the claim?",
+    "answer": "Teens who used phones after 10 p.m. slept an hour less on average.",
+    "choices": [
+     "Sleep is important.",
+     "Phones are expensive.",
+     "Teens who used phones after 10 p.m. slept an hour less on average.",
+     "Many teens use social media."
+    ]
+   },
+   {
+    "question": "Claim: Urban trees reduce summer temperatures. Which evidence best supports the claim?",
+    "answer": "Streets with full tree cover measured up to 5 °C cooler than treeless streets.",
+    "choices": [
+     "Streets with full tree cover measured up to 5 °C cooler than treeless streets.",
+     "Trees are beautiful.",
+     "Many cities plant trees.",
+     "Summer is hot."
+    ]
+   },
+   {
+    "question": "Claim: Learning a second language benefits the brain. Which evidence best supports the claim?",
+    "answer": "Brain scans show bilingual people have stronger activity in areas used for attention.",
+    "choices": [
+     "Many Canadians speak two languages.",
+     "French is a beautiful language.",
+     "Languages have grammar.",
+     "Brain scans show bilingual people have stronger activity in areas used for attention."
+    ]
+   },
+   {
+    "question": "Claim: School gardens improve students' eating habits. Which evidence best supports the claim?",
+    "answer": "Students in a garden program ate 40% more vegetables at lunch.",
+    "choices": [
+     "Gardens need water.",
+     "Vegetables are healthy.",
+     "Students in a garden program ate 40% more vegetables at lunch.",
+     "Some schools have no garden."
+    ]
+   },
+   {
+    "question": "Claim: Reading for pleasure improves vocabulary. Which evidence best supports the claim?",
+    "answer": "Students who read 20 minutes a day knew far more words on vocabulary tests than those who did not.",
+    "choices": [
+     "Libraries have many books.",
+     "Some books are long.",
+     "Students who read 20 minutes a day knew far more words on vocabulary tests than those who did not.",
+     "Reading is relaxing."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engEvLk",
+  "subject": "english",
+  "title": "Choose the analysis that logically connects the evidence to the claim",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engEvLk9",
+   "engEvLk10",
+   "engEvLk11",
+   "engEvLk12"
+  ],
+  "examples": [
+   {
+    "question": "Claim: Reading fiction builds empathy. Evidence: Readers of novels score higher on tests of understanding others' emotions. Which analysis best connects them?",
+    "answer": "Imagining characters' thoughts practises seeing the world through others' eyes.",
+    "choices": [
+     "Novels are usually long.",
+     "Tests are given in schools.",
+     "Imagining characters' thoughts practises seeing the world through others' eyes.",
+     "Libraries have many fiction books."
+    ]
+   },
+   {
+    "question": "Claim: Cycling to work benefits cities. Evidence: Cities with more cyclists report fewer traffic jams. Which analysis best connects them?",
+    "answer": "Fewer cars on the road means less congestion, so cycling improves the flow of the whole city.",
+    "choices": [
+     "Cycling is a hobby many people enjoy.",
+     "Traffic jams are annoying.",
+     "Fewer cars on the road means less congestion, so cycling improves the flow of the whole city.",
+     "Cities are large places with many people."
+    ]
+   },
+   {
+    "question": "Claim: Public libraries are essential. Evidence: Many families use library computers for job applications. Which analysis best connects them?",
+    "answer": "Libraries provide free access that people could not otherwise afford, opening doors to employment.",
+    "choices": [
+     "Jobs are posted online.",
+     "Books are on shelves.",
+     "Libraries provide free access that people could not otherwise afford, opening doors to employment.",
+     "Computers have keyboards."
+    ]
+   },
+   {
+    "question": "Claim: Sleep improves memory. Evidence: Students who slept after studying recalled more facts than those who stayed awake. Which analysis best connects them?",
+    "answer": "Sleep gives the brain time to store new information, so rested students remember more.",
+    "choices": [
+     "Studying is hard work.",
+     "Most students sleep at night.",
+     "Sleep gives the brain time to store new information, so rested students remember more.",
+     "Facts are useful in school."
+    ]
+   },
+   {
+    "question": "Claim: Urban gardens strengthen communities. Evidence: Neighbours who garden together report more friendships on their street. Which analysis best connects them?",
+    "answer": "Shared work and shared space give neighbours regular chances to connect.",
+    "choices": [
+     "Shared work and shared space give neighbours regular chances to connect.",
+     "Streets are paved with asphalt.",
+     "Vegetables are healthy.",
+     "Gardens need water."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engTrnA",
+  "subject": "english",
+  "title": "Transition logically between claims, evidence, analysis and counterclaims",
+  "section": "Developing and supporting arguments",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engTrnA9",
+   "engTrnA10",
+   "engTrnA11",
+   "engTrnA12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the best transition. Solar power is clean. ___, wind power produces no direct emissions.",
+    "answer": "Similarly",
+    "choices": [
+     "Similarly",
+     "Otherwise",
+     "Nevertheless",
+     "In contrast"
+    ]
+   },
+   {
+    "question": "Choose the best transition. Some argue that remote work lowers productivity. ___, studies show the opposite.",
+    "answer": "However",
+    "choices": [
+     "However",
+     "For example",
+     "Therefore",
+     "Similarly"
+    ]
+   },
+   {
+    "question": "Choose the best transition. Public transit reduces traffic. ___, it lowers emissions.",
+    "answer": "In addition",
+    "choices": [
+     "However",
+     "Meanwhile",
+     "Instead",
+     "In addition"
+    ]
+   },
+   {
+    "question": "Choose the best transition. Critics say the plan is too expensive. ___, it will save money over ten years.",
+    "answer": "On the other hand",
+    "choices": [
+     "For instance",
+     "On the other hand",
+     "As a result",
+     "In addition"
+    ]
+   },
+   {
+    "question": "Choose the best transition. Students need rest. ___, schools should rethink early start times.",
+    "answer": "Consequently",
+    "choices": [
+     "Although",
+     "Consequently",
+     "In contrast",
+     "For example"
+    ]
+   },
+   {
+    "question": "Choose the best transition. The experiment was repeated five times with the same result. ___, the finding is reliable.",
+    "answer": "Therefore",
+    "choices": [
+     "Likewise",
+     "Meanwhile",
+     "In contrast",
+     "Therefore"
+    ]
+   },
+   {
+    "question": "Choose the best transition. Many cities have added bike lanes. ___, Copenhagen now has more bikes than cars.",
+    "answer": "For example",
+    "choices": [
+     "Nevertheless",
+     "On the contrary",
+     "Otherwise",
+     "For example"
+    ]
+   },
+   {
+    "question": "Choose the best transition. The first factory closed in 1990. ___, thousands of workers lost their jobs.",
+    "answer": "As a result",
+    "choices": [
+     "Instead",
+     "However",
+     "As a result",
+     "In contrast"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPsAd",
+  "subject": "english",
+  "title": "Identify appeals to ethos, pathos and logos in advertisements",
+  "section": "Persuasive strategies",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPsAd9",
+   "engPsAd10",
+   "engPsAd11",
+   "engPsAd12"
+  ],
+  "examples": [
+   {
+    "question": "Which appeal does this advertisement use? \"Every purchase feeds a hungry child. Be their hero today.\"",
+    "answer": "Pathos (emotion)",
+    "choices": [
+     "Pathos (emotion)",
+     "Logos (logic)",
+     "Ethos (credibility)"
+    ]
+   },
+   {
+    "question": "Which appeal does this advertisement use? \"Trusted by Olympic athletes for over twenty years.\"",
+    "answer": "Ethos (credibility)",
+    "choices": [
+     "Logos (logic)",
+     "Pathos (emotion)",
+     "Ethos (credibility)"
+    ]
+   },
+   {
+    "question": "Which appeal does this advertisement use? \"Four out of five dentists recommend our toothpaste.\"",
+    "answer": "Ethos (credibility)",
+    "choices": [
+     "Ethos (credibility)",
+     "Logos (logic)",
+     "Pathos (emotion)"
+    ]
+   },
+   {
+    "question": "Which appeal does this advertisement use? \"Save $240 a year: our plan costs $20 less per month.\"",
+    "answer": "Logos (logic)",
+    "choices": [
+     "Pathos (emotion)",
+     "Ethos (credibility)",
+     "Logos (logic)"
+    ]
+   },
+   {
+    "question": "Which appeal does this advertisement use? \"Doctor-approved formula for sensitive skin.\"",
+    "answer": "Ethos (credibility)",
+    "choices": [
+     "Pathos (emotion)",
+     "Ethos (credibility)",
+     "Logos (logic)"
+    ]
+   },
+   {
+    "question": "Which appeal does this advertisement use? \"Don't let your family face another cold winter without protection.\"",
+    "answer": "Pathos (emotion)",
+    "choices": [
+     "Ethos (credibility)",
+     "Pathos (emotion)",
+     "Logos (logic)"
+    ]
+   },
+   {
+    "question": "Which appeal does this advertisement use? \"Our battery lasts 40% longer than the leading brand — see the test results.\"",
+    "answer": "Logos (logic)",
+    "choices": [
+     "Logos (logic)",
+     "Ethos (credibility)",
+     "Pathos (emotion)"
+    ]
+   },
+   {
+    "question": "Which appeal does this advertisement use? \"Remember the joy of family dinners. Bring everyone back to the table.\"",
+    "answer": "Pathos (emotion)",
+    "choices": [
+     "Ethos (credibility)",
+     "Logos (logic)",
+     "Pathos (emotion)"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPsUs",
+  "subject": "english",
+  "title": "Use appeals to ethos, pathos and logos in persuasive writing",
+  "section": "Persuasive strategies",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPsUs9",
+   "engPsUs10",
+   "engPsUs11",
+   "engPsUs12"
+  ],
+  "examples": [
+   {
+    "question": "You are writing an op-ed urging a city to plant trees. Which sentence uses logos?",
+    "answer": "Neighbourhoods with more trees are up to 5 degrees cooler in summer.",
+    "choices": [
+     "Picture a child resting in the shade of a great oak.",
+     "Neighbourhoods with more trees are up to 5 degrees cooler in summer.",
+     "Trees are lovely and everyone loves them.",
+     "As a forester for twenty years, I have seen it all."
+    ]
+   },
+   {
+    "question": "You are arguing for a longer school library schedule. Which sentence uses pathos?",
+    "answer": "Think of the child who has no quiet place to read at home, waiting for the library doors to open.",
+    "choices": [
+     "I have taught for thirty years.",
+     "Think of the child who has no quiet place to read at home, waiting for the library doors to open.",
+     "Studies show that reading improves vocabulary.",
+     "The library has 3,000 books."
+    ]
+   },
+   {
+    "question": "You are arguing for a longer school library schedule. Which sentence uses logos?",
+    "answer": "Schools with longer library hours reported a 12% rise in reading scores.",
+    "choices": [
+     "Think of the joy of a child finding a favourite book.",
+     "Everyone should be able to read.",
+     "I am a librarian who loves books.",
+     "Schools with longer library hours reported a 12% rise in reading scores."
+    ]
+   },
+   {
+    "question": "You are writing an op-ed urging a city to plant trees. Which sentence uses ethos?",
+    "answer": "As a certified arborist with two decades of experience, I know what cities need.",
+    "choices": [
+     "Imagine the heartbreak of losing an ancient forest.",
+     "Shade can cool a street by 5 degrees.",
+     "Trees are green.",
+     "As a certified arborist with two decades of experience, I know what cities need."
+    ]
+   },
+   {
+    "question": "You are writing an op-ed urging a city to plant trees. Which sentence uses pathos?",
+    "answer": "Picture a child resting in the shade of a great oak on a scorching day.",
+    "choices": [
+     "Picture a child resting in the shade of a great oak on a scorching day.",
+     "Trees absorb carbon dioxide.",
+     "The city has 400 acres of parkland.",
+     "I have a degree in forestry."
+    ]
+   },
+   {
+    "question": "You are arguing for a longer school library schedule. Which sentence uses ethos?",
+    "answer": "As a teacher who has watched hundreds of students learn to read, I speak from experience.",
+    "choices": [
+     "As a teacher who has watched hundreds of students learn to read, I speak from experience.",
+     "Imagine a child curled up with a story.",
+     "Libraries have shelves.",
+     "Reading scores rose 12%."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engRHA",
+  "subject": "english",
+  "title": "Rhetorical appeals",
+  "section": "Persuasive strategies",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "engRHA9"
+  ],
+  "examples": [
+   {
+    "question": "Which appeal is used? Imagine a child going to bed hungry tonight.",
+    "answer": "Pathos (emotion)",
+    "choices": [
+     "Logos (logic)",
+     "Pathos (emotion)",
+     "Ethos (credibility)"
+    ]
+   },
+   {
+    "question": "Which appeal is used? As a doctor with 20 years of experience, I recommend this treatment.",
+    "answer": "Ethos (credibility)",
+    "choices": [
+     "Pathos (emotion)",
+     "Ethos (credibility)",
+     "Logos (logic)"
+    ]
+   },
+   {
+    "question": "Which appeal is used? Studies show that 90% of users improved within a month.",
+    "answer": "Logos (logic)",
+    "choices": [
+     "Logos (logic)",
+     "Ethos (credibility)",
+     "Pathos (emotion)"
+    ]
+   },
+   {
+    "question": "Which appeal is used? Our award-winning scientists have tested this for a decade.",
+    "answer": "Ethos (credibility)",
+    "choices": [
+     "Logos (logic)",
+     "Pathos (emotion)",
+     "Ethos (credibility)"
+    ]
+   },
+   {
+    "question": "Which appeal is used? As a veteran, I know what our soldiers need.",
+    "answer": "Ethos (credibility)",
+    "choices": [
+     "Ethos (credibility)",
+     "Pathos (emotion)",
+     "Logos (logic)"
+    ]
+   },
+   {
+    "question": "Which appeal is used? If prices rise 5% each year, they will double in about 14 years.",
+    "answer": "Logos (logic)",
+    "choices": [
+     "Pathos (emotion)",
+     "Logos (logic)",
+     "Ethos (credibility)"
+    ]
+   },
+   {
+    "question": "Which appeal is used? Don't let these adorable puppies suffer another night in the cold.",
+    "answer": "Pathos (emotion)",
+    "choices": [
+     "Pathos (emotion)",
+     "Ethos (credibility)",
+     "Logos (logic)"
+    ]
+   },
+   {
+    "question": "Which appeal is used? Think of the heartbroken families who lost everything.",
+    "answer": "Pathos (emotion)",
+    "choices": [
+     "Pathos (emotion)",
+     "Ethos (credibility)",
+     "Logos (logic)"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCmpP",
+  "subject": "english",
+  "title": "Avoid double, illogical and unclear comparisons",
+  "section": "Writing clearly and concisely",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCmpP9",
+   "engCmpP10",
+   "engCmpP11",
+   "engCmpP12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is correct and clear?",
+    "answer": "His essay is longer than mine.",
+    "choices": [
+     "His essay is longer than me.",
+     "His essay is long than mine.",
+     "His essay is longer than mine.",
+     "His essay is more longer than mine."
+    ]
+   },
+   {
+    "question": "Which sentence is correct and clear?",
+    "answer": "Her speech was more persuasive than his.",
+    "choices": [
+     "Her speech was most persuasive than his.",
+     "Her speech was persuasive than his.",
+     "Her speech was more persuasive than his.",
+     "Her speech was more persuasive than him."
+    ]
+   },
+   {
+    "question": "Which sentence is correct and clear?",
+    "answer": "She is the tallest player on the team.",
+    "choices": [
+     "She is the taller player on the team.",
+     "She is taller than all the players on the team.",
+     "She is the most tallest player on the team.",
+     "She is the tallest player on the team."
+    ]
+   },
+   {
+    "question": "Which sentence is correct and clear?",
+    "answer": "Alex runs faster than any other student in the class.",
+    "choices": [
+     "Alex runs more faster than the class.",
+     "Alex runs faster than any other student in the class.",
+     "Alex runs faster than any student in the class.",
+     "Alex runs the most fastest in the class."
+    ]
+   },
+   {
+    "question": "Which sentence is correct and clear?",
+    "answer": "This soup is better than that soup.",
+    "choices": [
+     "This soup is more better than that soup.",
+     "This soup is gooder than that soup.",
+     "This soup is better than that.",
+     "This soup is better than that soup."
+    ]
+   },
+   {
+    "question": "Which sentence is correct and clear?",
+    "answer": "The weather in Vancouver is milder than the weather in Winnipeg.",
+    "choices": [
+     "Vancouver weather is milder than Winnipeg.",
+     "The weather in Vancouver is more milder than Winnipeg.",
+     "The weather in Vancouver is milder than the weather in Winnipeg.",
+     "The weather in Vancouver is milder than Winnipeg."
+    ]
+   },
+   {
+    "question": "Which sentence is correct and clear?",
+    "answer": "Of the two options, this one is cheaper.",
+    "choices": [
+     "Of the two options, this one is cheaper.",
+     "Of the two options, this one is more cheapest.",
+     "Of the two options, this one is most cheap.",
+     "Of the two options, this one is cheapest."
+    ]
+   },
+   {
+    "question": "Which sentence is correct and clear?",
+    "answer": "The new model is more reliable than the old one.",
+    "choices": [
+     "The new model is more reliable than the old one.",
+     "The new model is reliable than the old one.",
+     "The new model is more reliable the old one.",
+     "The new model is more reliabler than the old one."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPrl",
+  "subject": "english",
+  "title": "Identify sentences with parallel structure",
+  "section": "Writing clearly and concisely",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engPrl9",
+   "engPrl10",
+   "engPrl11",
+   "engPrl12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence has parallel structure?",
+    "answer": "We want a leader who listens, who learns and who leads.",
+    "choices": [
+     "We want a leader who listens, who learns and leading.",
+     "We want a leader who listens, to learn and leads.",
+     "We want a leader who listens, learning and who leads.",
+     "We want a leader who listens, who learns and who leads."
+    ]
+   },
+   {
+    "question": "Which sentence has parallel structure?",
+    "answer": "He is tall, strong and fast.",
+    "choices": [
+     "He is tall, strong and runs quickly.",
+     "He is tall, strong and fast.",
+     "He is tall, being strong and fast.",
+     "He is tall, strength and fast."
+    ]
+   },
+   {
+    "question": "Which sentence has parallel structure?",
+    "answer": "You can take the bus, ride your bike or walk.",
+    "choices": [
+     "You can take the bus, ride your bike or walk.",
+     "You can taking the bus, ride your bike or walk.",
+     "You can take the bus, ride your bike or walking.",
+     "You can take the bus, riding your bike or walk."
+    ]
+   },
+   {
+    "question": "Which sentence has parallel structure?",
+    "answer": "Not only did she write the report, but she also presented it.",
+    "choices": [
+     "Not only did she write the report, but also presenting it.",
+     "Not only did she write the report, but presenting it too.",
+     "Not only writing the report, she also presented it.",
+     "Not only did she write the report, but she also presented it."
+    ]
+   },
+   {
+    "question": "Which sentence has parallel structure?",
+    "answer": "The job requires patience, creativity and persistence.",
+    "choices": [
+     "The job requires patience, being creative and persistent.",
+     "The job requires patience, creativity and persistence.",
+     "The job requires being patient, creativity and persistence.",
+     "The job requires patience, creativity and to persist."
+    ]
+   },
+   {
+    "question": "Which sentence has parallel structure?",
+    "answer": "The speech was informative, entertaining and brief.",
+    "choices": [
+     "The speech was informative, entertaining and it was a short one.",
+     "The speech was informative, entertained and brief.",
+     "The speech was informing, entertaining and brief.",
+     "The speech was informative, entertaining and brief."
+    ]
+   },
+   {
+    "question": "Which sentence has parallel structure?",
+    "answer": "She enjoys reading, painting and hiking.",
+    "choices": [
+     "She enjoys reading, painting and to hike.",
+     "She enjoys reading, to paint and hiking.",
+     "She enjoys reading, painting and hiking.",
+     "She enjoys to read, painting and hiking."
+    ]
+   },
+   {
+    "question": "Which sentence has parallel structure?",
+    "answer": "The coach asked us to run, to stretch and to hydrate.",
+    "choices": [
+     "The coach asked us to run, to stretch and hydration.",
+     "The coach asked us to run, to stretch and to hydrate.",
+     "The coach asked us running, to stretch and to hydrate.",
+     "The coach asked us to run, stretching and to hydrate."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCfPr",
+  "subject": "english",
+  "title": "Identify and correct errors with frequently confused pronouns and contractions",
+  "section": "Editing and revising",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engCfPr9",
+   "engCfPr10",
+   "engCfPr11",
+   "engCfPr12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word. ___ welcome to join us.",
+    "answer": "You're",
+    "choices": [
+     "You're",
+     "Yore",
+     "Youre",
+     "Your"
+    ]
+   },
+   {
+    "question": "Choose the correct word. I hope ___ not too late.",
+    "answer": "they're",
+    "choices": [
+     "there",
+     "their",
+     "theyre",
+     "they're"
+    ]
+   },
+   {
+    "question": "Choose the correct word. Is this ___ coat?",
+    "answer": "your",
+    "choices": [
+     "your",
+     "yore",
+     "you",
+     "you're"
+    ]
+   },
+   {
+    "question": "Choose the correct word. Put the box over ___.",
+    "answer": "there",
+    "choices": [
+     "they're",
+     "thare",
+     "their",
+     "there"
+    ]
+   },
+   {
+    "question": "Choose the correct word. ___ a long way home.",
+    "answer": "It's",
+    "choices": [
+     "It's",
+     "Its'",
+     "Is",
+     "Its"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The dog wagged ___ tail.",
+    "answer": "its",
+    "choices": [
+     "its'",
+     "is",
+     "its",
+     "it's"
+    ]
+   },
+   {
+    "question": "Choose the correct word. ___ turn is it?",
+    "answer": "Whose",
+    "choices": [
+     "Whos",
+     "Whose",
+     "Who's",
+     "Who is"
+    ]
+   },
+   {
+    "question": "Choose the correct word. ___ going to be late for practice.",
+    "answer": "We're",
+    "choices": [
+     "Where",
+     "We're",
+     "Were",
+     "Wear"
+    ]
+   },
+   {
+    "question": "Choose the correct word. ___ coming to the party?",
+    "answer": "Who's",
+    "choices": [
+     "Whose",
+     "Who",
+     "Whos",
+     "Who's"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The players forgot ___ equipment.",
+    "answer": "their",
+    "choices": [
+     "thier",
+     "they're",
+     "there",
+     "their"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engMsSp",
+  "subject": "english",
+  "title": "Correct errors with commonly misspelled words",
+  "section": "Editing and revising",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engMsSp9",
+   "engMsSp10",
+   "engMsSp11",
+   "engMsSp12"
+  ],
+  "examples": [
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "conscientious",
+    "choices": [
+     "consciencious",
+     "conscientious",
+     "conscientous",
+     "consientious"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "occurrence",
+    "choices": [
+     "occurence",
+     "occurrence",
+     "occurance",
+     "ocurrence"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "liaison",
+    "choices": [
+     "laison",
+     "liasion",
+     "liason",
+     "liaison"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "accommodate",
+    "choices": [
+     "acommodate",
+     "accommodate",
+     "accomodate",
+     "accommadate"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "rhythm",
+    "choices": [
+     "rythm",
+     "rhythm",
+     "rhythem",
+     "rhytm"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "millennium",
+    "choices": [
+     "milennium",
+     "millenniam",
+     "millenium",
+     "millennium"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engEvRs",
+  "subject": "english",
+  "title": "Correct errors in everyday use",
+  "section": "Editing and revising",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engEvRs9",
+   "engEvRs10",
+   "engEvRs11",
+   "engEvRs12"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "I could have finished sooner.",
+    "choices": [
+     "I could've of finished sooner.",
+     "I could of finished sooner.",
+     "I coulda finished sooner.",
+     "I could have finished sooner."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "We should have gone earlier.",
+    "choices": [
+     "We should have went earlier.",
+     "We should have gone earlier.",
+     "We should of gone earlier.",
+     "We should have goed earlier."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "Each student should bring his or her own lunch.",
+    "choices": [
+     "Each students should bring there own lunch.",
+     "Each student should bring their own lunches all.",
+     "Each student should bring his or her own lunch.",
+     "Each student should brings his own lunch."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "The reason is that the funding was cut.",
+    "choices": [
+     "The reason is because the funding was cut.",
+     "The reason why is because the funding was cut.",
+     "The reason is being that the funding was cut.",
+     "The reason is that the funding was cut."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "The reason is that the bus was late.",
+    "choices": [
+     "The reason is that the bus was late.",
+     "The reason why is because the bus was late.",
+     "The reason being is the bus was late.",
+     "The reason is because the bus was late."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "She did well on the test.",
+    "choices": [
+     "She did gooder on the test.",
+     "She did good on the test.",
+     "She done well on the test.",
+     "She did well on the test."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "The data suggest a clear trend.",
+    "choices": [
+     "The data suggests a clear trend, irregardless.",
+     "The datas suggest a clear trend.",
+     "The data suggest a clear trend.",
+     "The data suggestes a clear trend."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "Supposedly, the store opens at nine.",
+    "choices": [
+     "Supposably, the store opens at nine.",
+     "Suppose, the store opens at nine.",
+     "Supposedably, the store opens at nine.",
+     "Supposedly, the store opens at nine."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "Fewer people attended this year.",
+    "choices": [
+     "Fewer people attended this year.",
+     "Fewest people attended this year.",
+     "Less people attended this year.",
+     "Lesser people attended this year."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "Regardless of the outcome, we will proceed.",
+    "choices": [
+     "Regardless of the outcome, we will of proceeded.",
+     "Regardless of the outcome, we will proceed.",
+     "Irregardless, the outcome, we will proceed.",
+     "Irregardless of the outcome, we will proceed."
+    ]
+   },
+   {
+    "question": "Which sentence uses standard English correctly?",
+    "answer": "She should have consulted the archive.",
+    "choices": [
+     "She should has consulted the archive.",
+     "She should of consulted the archive.",
+     "She should've of consulted the archive.",
+     "She should have consulted the archive."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSPL",
+  "subject": "english",
+  "title": "Commonly misspelled words",
+  "section": "Editing and revising",
+  "grades": [
+   9
+  ],
+  "skillIds": [
+   "engSPL9"
+  ],
+  "examples": [
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "rhythm",
+    "choices": [
+     "rhytm",
+     "rythm",
+     "rhythm",
+     "rhythem"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "accommodate",
+    "choices": [
+     "accomodate",
+     "accommodate",
+     "acommodate",
+     "acomodate"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "maintenance",
+    "choices": [
+     "maintenance",
+     "maintenence",
+     "maintanance",
+     "maintainance"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "conscience",
+    "choices": [
+     "consience",
+     "conshience",
+     "concience",
+     "conscience"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "definitely",
+    "choices": [
+     "definately",
+     "definitly",
+     "defanitely",
+     "definitely"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "receive",
+    "choices": [
+     "receeve",
+     "receive",
+     "recieve",
+     "recive"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "necessary",
+    "choices": [
+     "necessary",
+     "necesary",
+     "neccessary",
+     "neccesary"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "occurrence",
+    "choices": [
+     "occurence",
+     "ocurrence",
+     "occurrence",
+     "occurrance"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "separate",
+    "choices": [
+     "separete",
+     "separate",
+     "seperate",
+     "seprate"
+    ]
+   },
+   {
+    "question": "Which word is spelled correctly?",
+    "answer": "embarrass",
+    "choices": [
+     "embarras",
+     "embaress",
+     "embarrass",
+     "embarass"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engWcPt",
+  "subject": "english",
+  "title": "Understand a Works Cited entry (MLA 8th–9th editions)",
+  "section": "Research skills",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engWcPt9",
+   "engWcPt10",
+   "engWcPt11",
+   "engWcPt12"
+  ],
+  "examples": [
+   {
+    "question": "Entry: Austen, Jane. Pride and Prejudice. Penguin, 2003. What is the title of the work?",
+    "answer": "Pride and Prejudice",
+    "choices": [
+     "Penguin",
+     "2003",
+     "Jane Austen",
+     "Pride and Prejudice"
+    ]
+   },
+   {
+    "question": "In MLA format, which belongs in italics in a Works Cited entry?",
+    "answer": "The title of a book",
+    "choices": [
+     "The year",
+     "The author's name",
+     "The title of a book",
+     "The publisher's name"
+    ]
+   },
+   {
+    "question": "Entry: Smith, Alex. \"Ocean Plastics.\" Science Weekly, vol. 12, no. 3, 2021, pp. 14–19. What is the title of the container (the magazine)?",
+    "answer": "Science Weekly",
+    "choices": [
+     "Alex Smith",
+     "Science Weekly",
+     "pp. 14–19",
+     "Ocean Plastics"
+    ]
+   },
+   {
+    "question": "Entry: Austen, Jane. Pride and Prejudice. Penguin, 2003. Who is the publisher?",
+    "answer": "Penguin",
+    "choices": [
+     "2003",
+     "Pride and Prejudice",
+     "Penguin",
+     "Austen"
+    ]
+   },
+   {
+    "question": "Entry: Smith, Alex. \"Ocean Plastics.\" Science Weekly, vol. 12, no. 3, 2021, pp. 14–19. What is the title of the article?",
+    "answer": "Ocean Plastics",
+    "choices": [
+     "vol. 12",
+     "Ocean Plastics",
+     "Science Weekly",
+     "Alex Smith"
+    ]
+   },
+   {
+    "question": "In an MLA Works Cited list, the entries are arranged …",
+    "answer": "alphabetically by the first word of each entry",
+    "choices": [
+     "by publication date",
+     "in the order they were used",
+     "by the length of the title",
+     "alphabetically by the first word of each entry"
+    ]
+   },
+   {
+    "question": "Entry: Austen, Jane. Pride and Prejudice. Penguin, 2003. What is the publication year?",
+    "answer": "2003",
+    "choices": [
+     "Penguin",
+     "Jane",
+     "1813",
+     "2003"
+    ]
+   },
+   {
+    "question": "Entry: Austen, Jane. Pride and Prejudice. Penguin, 2003. Who is the author?",
+    "answer": "Jane Austen",
+    "choices": [
+     "Penguin",
+     "2003",
+     "Pride Prejudice",
+     "Jane Austen"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXWcPr",
+  "subject": "english",
+  "title": "Recognize the parts of a Works Cited entry (MLA 8th edition)",
+  "section": "Research skills",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engXWcPr9",
+   "engXWcPr10",
+   "engXWcPr11",
+   "engXWcPr12"
+  ],
+  "examples": [
+   {
+    "question": "In this entry, what is 2019 ? Lee, Jordan. The Quiet Coast . Penguin, 2019.",
+    "answer": "The publication date",
+    "choices": [
+     "The publication date",
+     "The page count",
+     "The volume",
+     "The edition"
+    ]
+   },
+   {
+    "question": "In this entry, what is Science Weekly ? Smith, Alex. \"Ocean Plastics.\" Science Weekly , vol. 12, no. 3, 2021, pp. 14–19.",
+    "answer": "The container (the publication)",
+    "choices": [
+     "The publisher's city",
+     "The author",
+     "The container (the publication)",
+     "The title of the article"
+    ]
+   },
+   {
+    "question": "In this entry, what is \"Ocean Plastics\" ? Smith, Alex. \"Ocean Plastics.\" Science Weekly , vol. 12, no. 3, 2021, pp. 14–19.",
+    "answer": "The title of the source",
+    "choices": [
+     "The title of the source",
+     "The container",
+     "The volume",
+     "The author"
+    ]
+   },
+   {
+    "question": "In this entry, what does pp. 14–19 show? Smith, Alex. \"Ocean Plastics.\" Science Weekly , vol. 12, no. 3, 2021, pp. 14–19.",
+    "answer": "The page numbers",
+    "choices": [
+     "The edition",
+     "The page numbers",
+     "The issue number",
+     "The date"
+    ]
+   },
+   {
+    "question": "In this entry, what is Penguin ? Lee, Jordan. The Quiet Coast . Penguin, 2019.",
+    "answer": "The publisher",
+    "choices": [
+     "The publisher",
+     "The title",
+     "The author",
+     "The container"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engInTx",
+  "subject": "english",
+  "title": "Use in-text citations (MLA 8th–9th editions)",
+  "section": "Research skills",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engInTx9",
+   "engInTx10",
+   "engInTx11",
+   "engInTx12"
+  ],
+  "examples": [
+   {
+    "question": "The author is named in your sentence: According to Okafor, … What goes in the parentheses?",
+    "answer": "(88)",
+    "choices": [
+     "(88)",
+     "(Okafor 88)",
+     "(p. Okafor)",
+     "(Okafor)"
+    ]
+   },
+   {
+    "question": "Where does the in-text citation go in a sentence?",
+    "answer": "Before the final period",
+    "choices": [
+     "In the title",
+     "Before the final period",
+     "At the start of the paragraph",
+     "After the final period"
+    ]
+   },
+   {
+    "question": "A source has no author. The title is \"Climate Trends\" . Which citation is correct?",
+    "answer": "(\"Climate Trends\")",
+    "choices": [
+     "(Unknown)",
+     "(Climate)",
+     "(\"Climate Trends\")",
+     "(Anonymous)"
+    ]
+   },
+   {
+    "question": "You quote page 45 of a book by Morrison. Which MLA in-text citation is correct?",
+    "answer": "(Morrison 45)",
+    "choices": [
+     "(45 Morrison)",
+     "(Morrison, 45)",
+     "(Morrison p. 45.)",
+     "(Morrison 45)"
+    ]
+   },
+   {
+    "question": "A web article has no page numbers and the author is Lee. Which citation is correct?",
+    "answer": "(Lee)",
+    "choices": [
+     "(page Lee)",
+     "(Lee)",
+     "(Lee 1)",
+     "(Lee n.p.)"
+    ]
+   },
+   {
+    "question": "You quote page 12 of a book by Chen and Rivera. Which MLA in-text citation is correct?",
+    "answer": "(Chen and Rivera 12)",
+    "choices": [
+     "(Chen, Rivera 12)",
+     "(Chen 12)",
+     "(Chen and Rivera 12)",
+     "(Chen & Rivera p. 12)"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engWpAn",
+  "subject": "english",
+  "title": "Word pattern analogies",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engWpAn9",
+   "engWpAn10",
+   "engWpAn11",
+   "engWpAn12"
+  ],
+  "examples": [
+   {
+    "question": "Complete the analogy. teach : teacher :: sing : ___",
+    "answer": "singer",
+    "choices": [
+     "sings",
+     "singer",
+     "sang",
+     "singing"
+    ]
+   },
+   {
+    "question": "Complete the analogy. hope : hopeless :: care : ___",
+    "answer": "careless",
+    "choices": [
+     "caring",
+     "careful",
+     "cared",
+     "careless"
+    ]
+   },
+   {
+    "question": "Complete the analogy. kind : kindness :: dark : ___",
+    "answer": "darkness",
+    "choices": [
+     "darkness",
+     "darkly",
+     "darker",
+     "darken"
+    ]
+   },
+   {
+    "question": "Complete the analogy. happy : unhappy :: lock : ___",
+    "answer": "unlock",
+    "choices": [
+     "locker",
+     "relock",
+     "locked",
+     "unlock"
+    ]
+   },
+   {
+    "question": "Complete the analogy. agree : disagree :: appear : ___",
+    "answer": "disappear",
+    "choices": [
+     "disappear",
+     "appearance",
+     "appearing",
+     "reappear"
+    ]
+   },
+   {
+    "question": "Complete the analogy. write : rewrite :: do : ___",
+    "answer": "redo",
+    "choices": [
+     "undo",
+     "doing",
+     "done",
+     "redo"
+    ]
+   },
+   {
+    "question": "Complete the analogy. act : action :: create : ___",
+    "answer": "creation",
+    "choices": [
+     "creation",
+     "creative",
+     "created",
+     "creator"
+    ]
+   },
+   {
+    "question": "Complete the analogy. quick : quickly :: slow : ___",
+    "answer": "slowly",
+    "choices": [
+     "slowness",
+     "slower",
+     "slowly",
+     "slows"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engWpSn",
+  "subject": "english",
+  "title": "Word pattern sentences",
+  "section": "Prefixes and suffixes",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engWpSn9",
+   "engWpSn10",
+   "engWpSn11",
+   "engWpSn12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the word that completes the sentence. The judge was ___ in her decision. (not biased)",
+    "answer": "impartial",
+    "choices": [
+     "partial",
+     "partially",
+     "impartial",
+     "repartial"
+    ]
+   },
+   {
+    "question": "Choose the word that completes the sentence. He is ___ about nothing. (not worried)",
+    "answer": "unconcerned",
+    "choices": [
+     "concernment",
+     "unconcerned",
+     "reconcerned",
+     "concerning"
+    ]
+   },
+   {
+    "question": "Choose the word that completes the sentence. The two countries signed a ___ agreement. (between nations)",
+    "answer": "international",
+    "choices": [
+     "nationalize",
+     "unnational",
+     "subnational",
+     "international"
+    ]
+   },
+   {
+    "question": "Choose the word that completes the sentence. After the move, they had to ___ the furniture. (arrange again)",
+    "answer": "rearrange",
+    "choices": [
+     "prearrange",
+     "arrangement",
+     "misarrange",
+     "rearrange"
+    ]
+   },
+   {
+    "question": "Choose the word that completes the sentence. The path was ___ after the storm. (not able to be passed)",
+    "answer": "impassable",
+    "choices": [
+     "impassable",
+     "repass",
+     "passing",
+     "passable"
+    ]
+   },
+   {
+    "question": "Choose the word that completes the sentence. It was ___ to see so many empty chairs. (causing sadness)",
+    "answer": "saddening",
+    "choices": [
+     "saddening",
+     "sadly",
+     "resad",
+     "unsad"
+    ]
+   },
+   {
+    "question": "Choose the word that completes the sentence. The speech was ___ to the audience. (full of meaning)",
+    "answer": "meaningful",
+    "choices": [
+     "meaningless",
+     "meaning",
+     "meant",
+     "meaningful"
+    ]
+   },
+   {
+    "question": "Choose the word that completes the sentence. The villain was ___ of any regret. (without feeling)",
+    "answer": "devoid",
+    "choices": [
+     "void",
+     "avoid",
+     "devoid",
+     "devout"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engHmUs",
+  "subject": "english",
+  "title": "Use the correct homophone",
+  "section": "Homophones",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engHmUs9",
+   "engHmUs10",
+   "engHmUs11",
+   "engHmUs12"
+  ],
+  "examples": [
+   {
+    "question": "Choose the correct word. Please be ___; this matter is confidential.",
+    "answer": "discreet",
+    "choices": [
+     "discrete",
+     "discreet"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The pop star became a teen ___.",
+    "answer": "idol",
+    "choices": [
+     "idle",
+     "idyll",
+     "idol"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The judge agreed to ___ the fee.",
+    "answer": "waive",
+    "choices": [
+     "wave",
+     "waive"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The parliament building is in the ___ city.",
+    "answer": "capital",
+    "choices": [
+     "capital",
+     "capitol"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The truck remained ___ at the intersection.",
+    "answer": "stationary",
+    "choices": [
+     "stationery",
+     "stationary"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The lawyer will ___ three precedents in her argument.",
+    "answer": "cite",
+    "choices": [
+     "sight",
+     "cite",
+     "site"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The monarch's ___ lasted six decades.",
+    "answer": "reign",
+    "choices": [
+     "rain",
+     "rein",
+     "reign"
+    ]
+   },
+   {
+    "question": "Choose the correct word. She gave the student wise ___.",
+    "answer": "counsel",
+    "choices": [
+     "counsel",
+     "council"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The chef has a refined ___.",
+    "answer": "palate",
+    "choices": [
+     "palette",
+     "palate",
+     "pallet"
+    ]
+   },
+   {
+    "question": "Choose the correct word. The ___ voted to approve the new bylaw.",
+    "answer": "council",
+    "choices": [
+     "counsel",
+     "council"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engHmEr",
+  "subject": "english",
+  "title": "Identify and correct errors with homophones",
+  "section": "Homophones",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engHmEr9",
+   "engHmEr10",
+   "engHmEr11",
+   "engHmEr12"
+  ],
+  "examples": [
+   {
+    "question": "Which word is used incorrectly, and what is the correction? She past the ball to her teammate.",
+    "answer": "past → passed",
+    "choices": [
+     "teammate → team mate",
+     "ball → bawl",
+     "past → passed",
+     "No error"
+    ]
+   },
+   {
+    "question": "Which word is used incorrectly, and what is the correction? The farmer plowed the hole field by noon.",
+    "answer": "hole → whole",
+    "choices": [
+     "plowed → ploughed",
+     "hole → whole",
+     "No error",
+     "noon → noone"
+    ]
+   },
+   {
+    "question": "Which word is used incorrectly, and what is the correction? The plain landed safely on the runway.",
+    "answer": "plain → plane",
+    "choices": [
+     "landed → lended",
+     "No error",
+     "safely → safly",
+     "plain → plane"
+    ]
+   },
+   {
+    "question": "Which word is used incorrectly, and what is the correction? We had a quiet weak at the cottage.",
+    "answer": "weak → week",
+    "choices": [
+     "weak → week",
+     "cottage → cotage",
+     "No error",
+     "quiet → quite"
+    ]
+   },
+   {
+    "question": "Which word is used incorrectly, and what is the correction? The principle of the school gave a speech.",
+    "answer": "principle → principal",
+    "choices": [
+     "speech → speach",
+     "No error",
+     "principle → principal",
+     "gave → give"
+    ]
+   },
+   {
+    "question": "Which word is used incorrectly, and what is the correction? The lessen was easy to understand.",
+    "answer": "lessen → lesson",
+    "choices": [
+     "easy → easey",
+     "lessen → lesson",
+     "understand → understan",
+     "No error"
+    ]
+   },
+   {
+    "question": "Which word is used incorrectly, and what is the correction? I could not here the speaker.",
+    "answer": "here → hear",
+    "choices": [
+     "here → hear",
+     "speaker → speeker",
+     "could → cud",
+     "No error"
+    ]
+   },
+   {
+    "question": "Which word is used incorrectly, and what is the correction? The knight was dark and stormy.",
+    "answer": "knight → night",
+    "choices": [
+     "dark → derk",
+     "knight → night",
+     "stormy → stormey",
+     "No error"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFgEt",
+  "subject": "english",
+  "title": "Use etymologies to determine the meanings of words",
+  "section": "Foreign words and expressions",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFgEt9",
+   "engFgEt10",
+   "engFgEt11",
+   "engFgEt12"
+  ],
+  "examples": [
+   {
+    "question": "Candidate comes from Latin candidatus , \"dressed in white\". What is a candidate?",
+    "answer": "a person seeking a position",
+    "choices": [
+     "a type of robe",
+     "a kind of vote",
+     "a person seeking a position",
+     "a person who sells candles"
+    ]
+   },
+   {
+    "question": "Panic comes from Pan , a Greek god whose sudden appearance frightened travellers. What does panic mean?",
+    "answer": "sudden overwhelming fear",
+    "choices": [
+     "sudden overwhelming fear",
+     "gentle joy",
+     "a hiking trail",
+     "a musical instrument"
+    ]
+   },
+   {
+    "question": "Salary comes from the Latin salarium , linked to salt given to Roman soldiers. What does salary mean?",
+    "answer": "regular pay for work",
+    "choices": [
+     "a Roman coin",
+     "a soldier's uniform",
+     "a type of seasoning",
+     "regular pay for work"
+    ]
+   },
+   {
+    "question": "Quarantine comes from the Italian quaranta giorni , \"forty days\". What does quarantine mean?",
+    "answer": "a period of isolation to stop disease spreading",
+    "choices": [
+     "a forty-day holiday",
+     "a counting game",
+     "a type of ship",
+     "a period of isolation to stop disease spreading"
+    ]
+   },
+   {
+    "question": "Disaster comes from Italian dis- (\"bad\") + astro (\"star\"). What does disaster mean?",
+    "answer": "a sudden terrible event",
+    "choices": [
+     "a bright star",
+     "a map of stars",
+     "a telescope",
+     "a sudden terrible event"
+    ]
+   },
+   {
+    "question": "Sabotage likely comes from French sabot , a wooden shoe. What does sabotage mean?",
+    "answer": "to deliberately damage or obstruct",
+    "choices": [
+     "to build shoes",
+     "to dance",
+     "to walk loudly",
+     "to deliberately damage or obstruct"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFgCx",
+  "subject": "english",
+  "title": "Use context as a clue to the meanings of foreign expressions",
+  "section": "Foreign words and expressions",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "engFgCx9",
+   "engFgCx10",
+   "engFgCx11",
+   "engFgCx12"
+  ],
+  "examples": [
+   {
+    "question": "What does the expression in bold mean? We have only one afternoon in Rome, so carpe diem : let's see everything!",
+    "answer": "seize the day",
+    "choices": [
+     "seize the day",
+     "have a nice trip",
+     "goodbye",
+     "thank you"
+    ]
+   },
+   {
+    "question": "What does the expression in bold mean? His faux pas —calling the host by the wrong name—left everyone silent.",
+    "answer": "a social blunder",
+    "choices": [
+     "a rare gift",
+     "a fashion trend",
+     "a clever joke",
+     "a social blunder"
+    ]
+   },
+   {
+    "question": "What does the expression in bold mean? The two friends had a tête-à-tête in the quiet corner, sharing secrets.",
+    "answer": "a private conversation",
+    "choices": [
+     "a meal",
+     "a private conversation",
+     "a loud argument",
+     "a dance"
+    ]
+   },
+   {
+    "question": "What does the expression in bold mean? The dish was served à la carte , so each item was priced separately.",
+    "answer": "ordered as separate items",
+    "choices": [
+     "for free",
+     "ordered as separate items",
+     "with wine",
+     "in a large group"
+    ]
+   },
+   {
+    "question": "What does the expression in bold mean? Before the trial, the lawyer reviewed the status quo of the case.",
+    "answer": "the existing state of affairs",
+    "choices": [
+     "a secret plan",
+     "the final verdict",
+     "the existing state of affairs",
+     "the next step"
+    ]
+   },
+   {
+    "question": "What does the expression in bold mean? At the station she waved, calling \" Bon voyage !\"",
+    "answer": "have a good trip",
+    "choices": [
+     "have a good trip",
+     "good morning",
+     "excuse me",
+     "see you soon"
+    ]
+   },
+   {
+    "question": "What does the expression in bold mean? She had a certain je ne sais quoi that made her unforgettable, though no one could say why.",
+    "answer": "an indefinable special quality",
+    "choices": [
+     "a strong accent",
+     "a famous name",
+     "an indefinable special quality",
+     "a bad habit"
+    ]
+   },
+   {
+    "question": "What does the expression in bold mean? The performance was a pièce de résistance ; nothing else in the show compared.",
+    "answer": "the most outstanding part",
+    "choices": [
+     "a rehearsal",
+     "the first act",
+     "a mistake",
+     "the most outstanding part"
+    ]
+   }
+  ]
+ }
+]

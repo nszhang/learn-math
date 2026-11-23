@@ -1,0 +1,2569 @@
+[
+ {
+  "key": "engCtNt",
+  "subject": "english",
+  "title": "Form contractions with \"not\"",
+  "section": "Contractions",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engCtNt1"
+  ],
+  "examples": [
+   {
+    "question": "What is the contraction for will not ?",
+    "answer": "won't",
+    "choices": [
+     "wasn't",
+     "won't",
+     "don't",
+     "isn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for could not ?",
+    "answer": "couldn't",
+    "choices": [
+     "wasn't",
+     "doesn't",
+     "couldn't",
+     "couldno't"
+    ]
+   },
+   {
+    "question": "What is the contraction for was not ?",
+    "answer": "wasn't",
+    "choices": [
+     "wouldn't",
+     "won't",
+     "wasn't",
+     "didn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for do not ?",
+    "answer": "don't",
+    "choices": [
+     "dont",
+     "didn't",
+     "don't",
+     "wouldn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for can not ?",
+    "answer": "can't",
+    "choices": [
+     "isn't",
+     "wouldn't",
+     "can't",
+     "didn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for should not ?",
+    "answer": "shouldn't",
+    "choices": [
+     "aren't",
+     "couldn't",
+     "wouldn't",
+     "shouldn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for does not ?",
+    "answer": "doesn't",
+    "choices": [
+     "doesn't",
+     "shouldn't",
+     "isn't",
+     "hasn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for would not ?",
+    "answer": "wouldn't",
+    "choices": [
+     "hasn't",
+     "wouldn't",
+     "weren't",
+     "can't"
+    ]
+   },
+   {
+    "question": "What is the contraction for did not ?",
+    "answer": "didn't",
+    "choices": [
+     "shouldn't",
+     "weren't",
+     "didn't",
+     "wouldn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for were not ?",
+    "answer": "weren't",
+    "choices": [
+     "were'nt",
+     "weren't",
+     "couldn't",
+     "hasn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for are not ?",
+    "answer": "aren't",
+    "choices": [
+     "can't",
+     "aren't",
+     "doesn't",
+     "arent"
+    ]
+   },
+   {
+    "question": "What is the contraction for is not ?",
+    "answer": "isn't",
+    "choices": [
+     "isn't",
+     "wouldn't",
+     "can't",
+     "wasn't"
+    ]
+   },
+   {
+    "question": "What is the contraction for has not ?",
+    "answer": "hasn't",
+    "choices": [
+     "hasn't",
+     "won't",
+     "hasnt",
+     "hasno't"
+    ]
+   },
+   {
+    "question": "What is the contraction for have not ?",
+    "answer": "haven't",
+    "choices": [
+     "haven't",
+     "didn't",
+     "hasn't",
+     "shouldn't"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXCtSn",
+  "subject": "english",
+  "title": "Complete the sentence with the correct contraction",
+  "section": "Contractions",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engXCtSn1"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. ___ going to the park. (We are)",
+    "answer": "We're",
+    "choices": [
+     "We'll",
+     "We're",
+     "We've",
+     "Were"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She ___ find her shoe. (can not)",
+    "answer": "can't",
+    "choices": [
+     "won't",
+     "couldn't",
+     "can't",
+     "isn't"
+    ]
+   },
+   {
+    "question": "Complete the sentence. They ___ coming today. (are not)",
+    "answer": "aren't",
+    "choices": [
+     "don't",
+     "isn't",
+     "weren't",
+     "aren't"
+    ]
+   },
+   {
+    "question": "Complete the sentence. ___ a sunny day! (It is)",
+    "answer": "It's",
+    "choices": [
+     "It's",
+     "It'll",
+     "Is",
+     "Its"
+    ]
+   },
+   {
+    "question": "Complete the sentence. I ___ want to go to bed yet. (do not)",
+    "answer": "don't",
+    "choices": [
+     "didn't",
+     "isn't",
+     "doesn't",
+     "don't"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCpSI",
+  "subject": "english",
+  "title": "Capitalize sentences and the pronoun \"I\"",
+  "section": "Capitalization",
+  "grades": [
+   1
+  ],
+  "skillIds": [
+   "engCpSI1"
+  ],
+  "examples": [
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "Mom and I baked cookies.",
+    "choices": [
+     "Mom and I baked cookies.",
+     "mom and I baked cookies.",
+     "mom and i baked cookies.",
+     "Mom and i baked cookies."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "Today I saw a fox.",
+    "choices": [
+     "Today I saw a fox.",
+     "today i saw a fox.",
+     "today I saw a fox.",
+     "Today i saw a fox."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "My friend and I ran fast.",
+    "choices": [
+     "My friend and i ran fast.",
+     "My friend and I ran fast.",
+     "my friend and i ran fast.",
+     "my friend and I ran fast."
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "Can I play too?",
+    "choices": [
+     "can I play too?",
+     "can i play too?",
+     "Can i play too?",
+     "Can I play too?"
+    ]
+   },
+   {
+    "question": "Which sentence is capitalized correctly?",
+    "answer": "I like to swim.",
+    "choices": [
+     "i like to swim.",
+     "I like to swim."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRhRd",
+  "subject": "english",
+  "title": "Spell rhyming words to answer riddles",
+  "section": "Rhyming",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engXRhRd2",
+   "engXRhRd3"
+  ],
+  "examples": [
+   {
+    "question": "It rhymes with fish. You eat food from it. What is it?",
+    "answer": "dish",
+    "choices": [
+     "dich",
+     "dihs",
+     "dishe",
+     "dish"
+    ]
+   },
+   {
+    "question": "It rhymes with boat. It keeps you warm. What is it?",
+    "answer": "coat",
+    "choices": [
+     "caat",
+     "coat",
+     "caot",
+     "cowt"
+    ]
+   },
+   {
+    "question": "It rhymes with moon. You eat soup with it. What is it?",
+    "answer": "spoon",
+    "choices": [
+     "spoon",
+     "spoone",
+     "spaon",
+     "speon"
+    ]
+   },
+   {
+    "question": "It rhymes with house. It squeaks. What is it?",
+    "answer": "mouse",
+    "choices": [
+     "mouse",
+     "mowse",
+     "mous",
+     "meuse"
+    ]
+   },
+   {
+    "question": "It rhymes with ring. He wears a crown. What is it?",
+    "answer": "king",
+    "choices": [
+     "knig",
+     "kinge",
+     "king",
+     "kong"
+    ]
+   },
+   {
+    "question": "It rhymes with cake. It slithers. What is it?",
+    "answer": "snake",
+    "choices": [
+     "sanke",
+     "snike",
+     "snake",
+     "snaek"
+    ]
+   },
+   {
+    "question": "It rhymes with log. It barks. What is it?",
+    "answer": "dog",
+    "choices": [
+     "dug",
+     "dig",
+     "doge",
+     "dog"
+    ]
+   },
+   {
+    "question": "It rhymes with tree. It buzzes. What is it?",
+    "answer": "bee",
+    "choices": [
+     "bei",
+     "boe",
+     "bee",
+     "bue"
+    ]
+   },
+   {
+    "question": "It rhymes with star. You ride in it. What is it?",
+    "answer": "car",
+    "choices": [
+     "car",
+     "cra",
+     "cur",
+     "cir"
+    ]
+   },
+   {
+    "question": "It rhymes with clock. You wear it on your foot. What is it?",
+    "answer": "sock",
+    "choices": [
+     "sokc",
+     "osck",
+     "socke",
+     "sock"
+    ]
+   },
+   {
+    "question": "It rhymes with cat. You wear it on your head. What is it?",
+    "answer": "hat",
+    "choices": [
+     "hta",
+     "aht",
+     "hat",
+     "hate"
+    ]
+   },
+   {
+    "question": "It rhymes with pen. It lays eggs. What is it?",
+    "answer": "hen",
+    "choices": [
+     "hne",
+     "hene",
+     "hen",
+     "ehn"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXDg",
+  "subject": "english",
+  "title": "Complete the word with the correct digraph: ph, qu, wh",
+  "section": "Consonant blends and digraphs",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXDg22"
+  ],
+  "examples": [
+   {
+    "question": "🛞 Complete the word: __eel",
+    "answer": "wh",
+    "choices": [
+     "qu",
+     "ph",
+     "wh"
+    ]
+   },
+   {
+    "question": "📷 Complete the word: __oto",
+    "answer": "ph",
+    "choices": [
+     "qu",
+     "wh",
+     "ph"
+    ]
+   },
+   {
+    "question": "🛏️ Complete the word: __ilt",
+    "answer": "qu",
+    "choices": [
+     "qu",
+     "ph",
+     "wh"
+    ]
+   },
+   {
+    "question": "🌾 Complete the word: __eat",
+    "answer": "wh",
+    "choices": [
+     "wh",
+     "ph",
+     "qu"
+    ]
+   },
+   {
+    "question": "👸 Complete the word: __een",
+    "answer": "qu",
+    "choices": [
+     "ph",
+     "qu",
+     "wh"
+    ]
+   },
+   {
+    "question": "🥄 Complete the word: __isk",
+    "answer": "wh",
+    "choices": [
+     "wh",
+     "qu",
+     "ph"
+    ]
+   },
+   {
+    "question": "🐋 Complete the word: __ale",
+    "answer": "wh",
+    "choices": [
+     "qu",
+     "wh",
+     "ph"
+    ]
+   },
+   {
+    "question": "🐬 Complete the word: dol__in",
+    "answer": "ph",
+    "choices": [
+     "ph",
+     "wh",
+     "qu"
+    ]
+   },
+   {
+    "question": "📱 Complete the word: __one",
+    "answer": "ph",
+    "choices": [
+     "qu",
+     "wh",
+     "ph"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXDgS",
+  "subject": "english",
+  "title": "Spell the digraph word: ph, qu, wh",
+  "section": "Consonant blends and digraphs",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXDgS22"
+  ],
+  "examples": [
+   {
+    "question": "📱 Which is the correct spelling?",
+    "answer": "phone",
+    "choices": [
+     "phene",
+     "phone",
+     "phoen",
+     "phon"
+    ]
+   },
+   {
+    "question": "🛞 Which is the correct spelling?",
+    "answer": "wheel",
+    "choices": [
+     "wheel",
+     "whoel",
+     "hweel",
+     "whiel"
+    ]
+   },
+   {
+    "question": "🌾 Which is the correct spelling?",
+    "answer": "wheat",
+    "choices": [
+     "wehat",
+     "whiat",
+     "wheat",
+     "wheta"
+    ]
+   },
+   {
+    "question": "🛏️ Which is the correct spelling?",
+    "answer": "quilt",
+    "choices": [
+     "quilt",
+     "qiult",
+     "qulit",
+     "quitl"
+    ]
+   },
+   {
+    "question": "📷 Which is the correct spelling?",
+    "answer": "photo",
+    "choices": [
+     "phtoo",
+     "phoot",
+     "photo",
+     "phato"
+    ]
+   },
+   {
+    "question": "👸 Which is the correct spelling?",
+    "answer": "queen",
+    "choices": [
+     "queen",
+     "qeeen",
+     "quene",
+     "qeuen"
+    ]
+   },
+   {
+    "question": "🐋 Which is the correct spelling?",
+    "answer": "whale",
+    "choices": [
+     "hwale",
+     "while",
+     "whael",
+     "whale"
+    ]
+   },
+   {
+    "question": "🐬 Which is the correct spelling?",
+    "answer": "dolphin",
+    "choices": [
+     "dolphin",
+     "dolhpin",
+     "odlphin",
+     "dolpihn"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXB3S",
+  "subject": "english",
+  "title": "Complete the sentence with a three-letter consonant blend word",
+  "section": "Consonant blends and digraphs",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXB3S2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. I drink juice with a ___.",
+    "answer": "straw",
+    "choices": [
+     "throw",
+     "spring",
+     "straw",
+     "squirrel"
+    ]
+   },
+   {
+    "question": "Complete the sentence. She tied the box with ___.",
+    "answer": "string",
+    "choices": [
+     "string",
+     "squirrel",
+     "splash",
+     "spring"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The kids ___ in the puddle.",
+    "answer": "splash",
+    "choices": [
+     "spring",
+     "squid",
+     "splash",
+     "throw"
+    ]
+   },
+   {
+    "question": "Complete the sentence. A ___ has eight arms.",
+    "answer": "squid",
+    "choices": [
+     "string",
+     "splash",
+     "squirrel",
+     "squid"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We heard a loud ___.",
+    "answer": "scream",
+    "choices": [
+     "straw",
+     "throw",
+     "scream",
+     "spring"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Can you ___ the ball to me?",
+    "answer": "throw",
+    "choices": [
+     "string",
+     "straw",
+     "throw",
+     "squid"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Flowers bloom in the ___.",
+    "answer": "spring",
+    "choices": [
+     "spring",
+     "throw",
+     "splash",
+     "straw"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The ___ ran up the tree.",
+    "answer": "squirrel",
+    "choices": [
+     "scream",
+     "straw",
+     "squirrel",
+     "throw"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engSlLt",
+  "subject": "english",
+  "title": "Complete the words with silent letters",
+  "section": "Consonant blends and digraphs",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engSlLt2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the word. Please __ock on the door.",
+    "answer": "kn",
+    "choices": [
+     "k",
+     "n",
+     "kn",
+     "wr"
+    ]
+   },
+   {
+    "question": "Complete the word. Give me a thu__ s up!",
+    "answer": "mb",
+    "choices": [
+     "m",
+     "mb",
+     "b",
+     "mm"
+    ]
+   },
+   {
+    "question": "Complete the word. A tiny __ome sat in the garden.",
+    "answer": "gn",
+    "choices": [
+     "gn",
+     "n",
+     "kn",
+     "g"
+    ]
+   },
+   {
+    "question": "Complete the word. The baby la__ followed its mother.",
+    "answer": "mb",
+    "choices": [
+     "mm",
+     "b",
+     "mb",
+     "m"
+    ]
+   },
+   {
+    "question": "Complete the word. She wore a watch on her __ist .",
+    "answer": "wr",
+    "choices": [
+     "kn",
+     "wr",
+     "w",
+     "r"
+    ]
+   },
+   {
+    "question": "Complete the word. Please __ite your name.",
+    "answer": "wr",
+    "choices": [
+     "wr",
+     "r",
+     "w",
+     "kn"
+    ]
+   },
+   {
+    "question": "Complete the word. Cut the bread with a __ife .",
+    "answer": "kn",
+    "choices": [
+     "kn",
+     "k",
+     "gn",
+     "n"
+    ]
+   },
+   {
+    "question": "Complete the word. I tied a __ot in the rope.",
+    "answer": "kn",
+    "choices": [
+     "wr",
+     "kn",
+     "gn",
+     "n"
+    ]
+   },
+   {
+    "question": "Complete the word. I __ow the answer!",
+    "answer": "kn",
+    "choices": [
+     "kn",
+     "gn",
+     "wr",
+     "n"
+    ]
+   },
+   {
+    "question": "Complete the word. Use a co__ to fix your hair.",
+    "answer": "mb",
+    "choices": [
+     "b",
+     "m",
+     "mm",
+     "mb"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSpA",
+  "subject": "english",
+  "title": "Spell the short a word",
+  "section": "Short vowels",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXSpA2"
+  ],
+  "examples": [
+   {
+    "question": "🚩 Which is the correct spelling?",
+    "answer": "flag",
+    "choices": [
+     "flag",
+     "lfag",
+     "flig",
+     "flga"
+    ]
+   },
+   {
+    "question": "🦇 Which is the correct spelling?",
+    "answer": "bat",
+    "choices": [
+     "but",
+     "abt",
+     "bit",
+     "bat"
+    ]
+   },
+   {
+    "question": "👜 Which is the correct spelling?",
+    "answer": "bag",
+    "choices": [
+     "beg",
+     "bag",
+     "big",
+     "bug"
+    ]
+   },
+   {
+    "question": "🐱 Which is the correct spelling?",
+    "answer": "cat",
+    "choices": [
+     "cit",
+     "act",
+     "cat",
+     "cta"
+    ]
+   },
+   {
+    "question": "🚐 Which is the correct spelling?",
+    "answer": "van",
+    "choices": [
+     "van",
+     "von",
+     "vin",
+     "vun"
+    ]
+   },
+   {
+    "question": "🍳 Which is the correct spelling?",
+    "answer": "pan",
+    "choices": [
+     "pin",
+     "pane",
+     "apn",
+     "pan"
+    ]
+   },
+   {
+    "question": "🧢 Which is the correct spelling?",
+    "answer": "cap",
+    "choices": [
+     "cape",
+     "cap",
+     "cup",
+     "cep"
+    ]
+   },
+   {
+    "question": "🐏 Which is the correct spelling?",
+    "answer": "ram",
+    "choices": [
+     "rame",
+     "arm",
+     "ram",
+     "rum"
+    ]
+   },
+   {
+    "question": "🐜 Which is the correct spelling?",
+    "answer": "ant",
+    "choices": [
+     "ant",
+     "ont",
+     "ante",
+     "nat"
+    ]
+   },
+   {
+    "question": "🎩 Which is the correct spelling?",
+    "answer": "hat",
+    "choices": [
+     "aht",
+     "hot",
+     "hat",
+     "hit"
+    ]
+   },
+   {
+    "question": "🦀 Which is the correct spelling?",
+    "answer": "crab",
+    "choices": [
+     "crba",
+     "crab",
+     "carb",
+     "crob"
+    ]
+   },
+   {
+    "question": "🗺️ Which is the correct spelling?",
+    "answer": "map",
+    "choices": [
+     "mup",
+     "mip",
+     "amp",
+     "map"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSpI",
+  "subject": "english",
+  "title": "Spell the short i word",
+  "section": "Short vowels",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXSpI2"
+  ],
+  "examples": [
+   {
+    "question": "🐟 Which is the correct spelling?",
+    "answer": "fish",
+    "choices": [
+     "fich",
+     "fihs",
+     "fish",
+     "ifsh"
+    ]
+   },
+   {
+    "question": "🧱 Which is the correct spelling?",
+    "answer": "bricks",
+    "choices": [
+     "bracks",
+     "briks",
+     "brciks",
+     "bricks"
+    ]
+   },
+   {
+    "question": "📌 Which is the correct spelling?",
+    "answer": "pin",
+    "choices": [
+     "pan",
+     "pon",
+     "ipn",
+     "pin"
+    ]
+   },
+   {
+    "question": "🚢 Which is the correct spelling?",
+    "answer": "ship",
+    "choices": [
+     "shipe",
+     "shop",
+     "ship",
+     "hsip"
+    ]
+   },
+   {
+    "question": "🧤 Which is the correct spelling?",
+    "answer": "mitt",
+    "choices": [
+     "mitt",
+     "mett",
+     "matt",
+     "mtit"
+    ]
+   },
+   {
+    "question": "🎁 Which is the correct spelling?",
+    "answer": "gift",
+    "choices": [
+     "gfit",
+     "goft",
+     "gift",
+     "gifte"
+    ]
+   },
+   {
+    "question": "🥛 Which is the correct spelling?",
+    "answer": "milk",
+    "choices": [
+     "milk",
+     "malk",
+     "milke",
+     "mlik"
+    ]
+   },
+   {
+    "question": "👄 Which is the correct spelling?",
+    "answer": "lips",
+    "choices": [
+     "lpis",
+     "leps",
+     "lips",
+     "laps"
+    ]
+   },
+   {
+    "question": "🐥 Which is the correct spelling?",
+    "answer": "chick",
+    "choices": [
+     "cihck",
+     "chack",
+     "shick",
+     "chick"
+    ]
+   },
+   {
+    "question": "6️⃣ Which is the correct spelling?",
+    "answer": "six",
+    "choices": [
+     "sux",
+     "six",
+     "isx",
+     "sixe"
+    ]
+   },
+   {
+    "question": "🐷 Which is the correct spelling?",
+    "answer": "pig",
+    "choices": [
+     "pog",
+     "pige",
+     "peg",
+     "pig"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSpO",
+  "subject": "english",
+  "title": "Spell the short o word",
+  "section": "Short vowels",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXSpO2"
+  ],
+  "examples": [
+   {
+    "question": "🪵 Which is the correct spelling?",
+    "answer": "log",
+    "choices": [
+     "loge",
+     "lgo",
+     "log",
+     "lag"
+    ]
+   },
+   {
+    "question": "🧦 Which is the correct spelling?",
+    "answer": "sock",
+    "choices": [
+     "scok",
+     "socke",
+     "seck",
+     "sock"
+    ]
+   },
+   {
+    "question": "📦 Which is the correct spelling?",
+    "answer": "box",
+    "choices": [
+     "bex",
+     "bxo",
+     "box",
+     "bux"
+    ]
+   },
+   {
+    "question": "🍲 Which is the correct spelling?",
+    "answer": "pot",
+    "choices": [
+     "pto",
+     "pot",
+     "put",
+     "opt"
+    ]
+   },
+   {
+    "question": "🦊 Which is the correct spelling?",
+    "answer": "fox",
+    "choices": [
+     "fux",
+     "ofx",
+     "fox",
+     "fax"
+    ]
+   },
+   {
+    "question": "🪨 Which is the correct spelling?",
+    "answer": "rock",
+    "choices": [
+     "rick",
+     "reck",
+     "rock",
+     "orck"
+    ]
+   },
+   {
+    "question": "🧹 Which is the correct spelling?",
+    "answer": "mop",
+    "choices": [
+     "omp",
+     "mop",
+     "map",
+     "mep"
+    ]
+   },
+   {
+    "question": "🐸 Which is the correct spelling?",
+    "answer": "frog",
+    "choices": [
+     "rfog",
+     "frog",
+     "frgo",
+     "forg"
+    ]
+   },
+   {
+    "question": "🕰️ Which is the correct spelling?",
+    "answer": "clock",
+    "choices": [
+     "clock",
+     "cleck",
+     "lcock",
+     "clokc"
+    ]
+   },
+   {
+    "question": "🔒 Which is the correct spelling?",
+    "answer": "lock",
+    "choices": [
+     "olck",
+     "lock",
+     "lcok",
+     "leck"
+    ]
+   },
+   {
+    "question": "🐶 Which is the correct spelling?",
+    "answer": "dog",
+    "choices": [
+     "dug",
+     "dgo",
+     "doge",
+     "dog"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLvlongaeo",
+  "subject": "english",
+  "title": "Read long vowel stories: long a, e, o",
+  "section": "Vowel teams",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXLvlongaeo2"
+  ],
+  "examples": [
+   {
+    "question": "Pete and the Cake An original passage written for LearnAce Pete made a cake for his mom. He gave it a rose on top. \"We can eat it at home,\" he said. Mom said, \"This cake is the best!\" What was on top of the cake?",
+    "answer": "A rose",
+    "choices": [
+     "A cone",
+     "A rose",
+     "A note",
+     "A bee"
+    ]
+   },
+   {
+    "question": "Rose Plays a Game An original passage written for LearnAce Rose and Steve played a game in the shade. Rose hid a stone. Steve had to find it. He found it in a hole near the gate. Where did they play?",
+    "answer": "In the shade",
+    "choices": [
+     "At the lake",
+     "At home",
+     "In a cave",
+     "In the shade"
+    ]
+   },
+   {
+    "question": "Pete and the Cake An original passage written for LearnAce Pete made a cake for his mom. He gave it a rose on top. \"We can eat it at home,\" he said. Mom said, \"This cake is the best!\" What did Pete make?",
+    "answer": "A cake",
+    "choices": [
+     "A game",
+     "A boat",
+     "A cake",
+     "A rose"
+    ]
+   },
+   {
+    "question": "Rose Plays a Game An original passage written for LearnAce Rose and Steve played a game in the shade. Rose hid a stone. Steve had to find it. He found it in a hole near the gate. Where was the stone?",
+    "answer": "In a hole near the gate",
+    "choices": [
+     "Under a cone",
+     "In a tree",
+     "In a hole near the gate",
+     "On a plate"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLvlongiu",
+  "subject": "english",
+  "title": "Read long vowel stories: long i, u",
+  "section": "Vowel teams",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXLvlongiu2"
+  ],
+  "examples": [
+   {
+    "question": "The Cute Mule An original passage written for LearnAce June has a cute mule. The mule likes to smile. At night, the mule hums a tune. June thinks her mule is the best pet in the whole wide world. What pet does June have?",
+    "answer": "A mule",
+    "choices": [
+     "A bike",
+     "A kite",
+     "A cat",
+     "A mule"
+    ]
+   },
+   {
+    "question": "Mike Rides a Bike An original passage written for LearnAce Mike likes to ride his bike. He rides it five times a day. Today he rode to see his friend June. June gave him a cube of ice to eat. What did June give Mike?",
+    "answer": "A cube of ice",
+    "choices": [
+     "A cube of ice",
+     "A kite",
+     "A tube",
+     "A mule"
+    ]
+   },
+   {
+    "question": "The Cute Mule An original passage written for LearnAce June has a cute mule. The mule likes to smile. At night, the mule hums a tune. June thinks her mule is the best pet in the whole wide world. What does the mule do at night?",
+    "answer": "Hums a tune",
+    "choices": [
+     "Eats rice",
+     "Flies a kite",
+     "Hums a tune",
+     "Rides a bike"
+    ]
+   },
+   {
+    "question": "Mike Rides a Bike An original passage written for LearnAce Mike likes to ride his bike. He rides it five times a day. Today he rode to see his friend June. June gave him a cube of ice to eat. How many times a day does Mike ride his bike?",
+    "answer": "Five",
+    "choices": [
+     "Nine",
+     "Five",
+     "Two",
+     "Ten"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLvSt",
+  "subject": "english",
+  "title": "Read long vowel stories",
+  "section": "Vowel teams",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engXLvSt2",
+   "engXLvSt3"
+  ],
+  "examples": [
+   {
+    "question": "Jay and his dog went out to play. It began to rain, so they ran home. Jay put on a coat. Then they read a book by the heat of the fire. What did Jay put on?",
+    "answer": "A coat",
+    "choices": [
+     "A hat",
+     "Boots",
+     "A coat",
+     "A scarf"
+    ]
+   },
+   {
+    "question": "A little goat lives by the sea. Each day the goat eats green leaves and plays on the beach. At night, the goat sleeps under a tree. Where does the goat live?",
+    "answer": "By the sea",
+    "choices": [
+     "In a barn",
+     "In the city",
+     "On a boat",
+     "By the sea"
+    ]
+   },
+   {
+    "question": "Kate has a green kite. She flies it high in the sky on a windy day. When the wind stops, the kite floats down to her feet. What happens when the wind stops?",
+    "answer": "The kite floats down",
+    "choices": [
+     "Kate goes home",
+     "The kite floats down",
+     "The kite flies away",
+     "It starts to rain"
+    ]
+   },
+   {
+    "question": "Kate has a green kite. She flies it high in the sky on a windy day. When the wind stops, the kite floats down to her feet. What colour is the kite?",
+    "answer": "Green",
+    "choices": [
+     "Green",
+     "Yellow",
+     "Blue",
+     "Red"
+    ]
+   },
+   {
+    "question": "A little goat lives by the sea. Each day the goat eats green leaves and plays on the beach. At night, the goat sleeps under a tree. Where does the goat sleep?",
+    "answer": "Under a tree",
+    "choices": [
+     "On the beach",
+     "In a cave",
+     "Under a tree",
+     "In a boat"
+    ]
+   },
+   {
+    "question": "Jay and his dog went out to play. It began to rain, so they ran home. Jay put on a coat. Then they read a book by the heat of the fire. Why did Jay and his dog run home?",
+    "answer": "It began to rain",
+    "choices": [
+     "They were hungry",
+     "It began to rain",
+     "The dog was tired",
+     "It was night"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXIld",
+  "subject": "english",
+  "title": "Complete the sentence with the correct -ild, -ind, -old, -olt or -ost word",
+  "section": "Short and long vowel patterns",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXIld2"
+  ],
+  "examples": [
+   {
+    "question": "Complete the sentence. I ate ___ of the pizza.",
+    "answer": "most",
+    "choices": [
+     "mind",
+     "most",
+     "mild",
+     "mold"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Please be ___ to the new student.",
+    "answer": "kind",
+    "choices": [
+     "find",
+     "cold",
+     "kilt",
+     "kind"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The little ___ held her mom's hand.",
+    "answer": "child",
+    "choices": [
+     "chilled",
+     "child",
+     "mild",
+     "mind"
+    ]
+   },
+   {
+    "question": "Complete the sentence. We mail letters at the ___ office.",
+    "answer": "post",
+    "choices": [
+     "pole",
+     "fold",
+     "pint",
+     "post"
+    ]
+   },
+   {
+    "question": "Complete the sentence. A baby horse is called a ___.",
+    "answer": "colt",
+    "choices": [
+     "cold",
+     "colt",
+     "child",
+     "cost"
+    ]
+   },
+   {
+    "question": "Complete the sentence. It is very ___ outside, so wear a coat.",
+    "answer": "cold",
+    "choices": [
+     "cost",
+     "colt",
+     "cold",
+     "kind"
+    ]
+   },
+   {
+    "question": "Complete the sentence. The pirate found a chest of ___.",
+    "answer": "gold",
+    "choices": [
+     "post",
+     "bolt",
+     "gild",
+     "gold"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Dad will ___ the laundry.",
+    "answer": "fold",
+    "choices": [
+     "host",
+     "fold",
+     "find",
+     "felt"
+    ]
+   },
+   {
+    "question": "Complete the sentence. Can you help me ___ my glove?",
+    "answer": "find",
+    "choices": [
+     "fold",
+     "most",
+     "find",
+     "wild"
+    ]
+   },
+   {
+    "question": "Complete the sentence. A lion is a ___ animal.",
+    "answer": "wild",
+    "choices": [
+     "mild",
+     "wind",
+     "wild",
+     "bold"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLa",
+  "subject": "english",
+  "title": "Spell the long a word: silent e, ai, ay",
+  "section": "Long vowel patterns",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXLa22"
+  ],
+  "examples": [
+   {
+    "question": "🚆 Which is the correct spelling?",
+    "answer": "train",
+    "choices": [
+     "tarin",
+     "train",
+     "rtain",
+     "trein"
+    ]
+   },
+   {
+    "question": "🌧️ Which is the correct spelling?",
+    "answer": "rain",
+    "choices": [
+     "rein",
+     "rani",
+     "arin",
+     "rain"
+    ]
+   },
+   {
+    "question": "🎂 Which is the correct spelling?",
+    "answer": "cake",
+    "choices": [
+     "acke",
+     "cake",
+     "cak",
+     "cike"
+    ]
+   },
+   {
+    "question": "🐌 Which is the correct spelling?",
+    "answer": "snail",
+    "choices": [
+     "snial",
+     "sanil",
+     "snail",
+     "sniil"
+    ]
+   },
+   {
+    "question": "🌾 Which is the correct spelling?",
+    "answer": "hay",
+    "choices": [
+     "hai",
+     "huy",
+     "ahy",
+     "hay"
+    ]
+   },
+   {
+    "question": "🍽️ Which is the correct spelling?",
+    "answer": "plate",
+    "choices": [
+     "plaet",
+     "pltae",
+     "plote",
+     "plate"
+    ]
+   },
+   {
+    "question": "🎨 Which is the correct spelling?",
+    "answer": "paint",
+    "choices": [
+     "piint",
+     "piant",
+     "paint",
+     "peint"
+    ]
+   },
+   {
+    "question": "🎭 Which is the correct spelling?",
+    "answer": "play",
+    "choices": [
+     "paly",
+     "play",
+     "ploy",
+     "pliy"
+    ]
+   },
+   {
+    "question": "🍽️ Which is the correct spelling?",
+    "answer": "tray",
+    "choices": [
+     "tary",
+     "traye",
+     "troy",
+     "tray"
+    ]
+   },
+   {
+    "question": "🎮 Which is the correct spelling?",
+    "answer": "game",
+    "choices": [
+     "gam",
+     "gome",
+     "game",
+     "gaem"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLe",
+  "subject": "english",
+  "title": "Spell the long e word: ee, ea",
+  "section": "Long vowel patterns",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXLe22"
+  ],
+  "examples": [
+   {
+    "question": "🍃 Which is the correct spelling?",
+    "answer": "leaf",
+    "choices": [
+     "loaf",
+     "leaf",
+     "leef",
+     "leafe"
+    ]
+   },
+   {
+    "question": "🌳 Which is the correct spelling?",
+    "answer": "tree",
+    "choices": [
+     "troe",
+     "true",
+     "tree",
+     "trie"
+    ]
+   },
+   {
+    "question": "🦶 Which is the correct spelling?",
+    "answer": "feet",
+    "choices": [
+     "fete",
+     "feet",
+     "foet",
+     "faet"
+    ]
+   },
+   {
+    "question": "🦷 Which is the correct spelling?",
+    "answer": "teeth",
+    "choices": [
+     "teeth",
+     "tieth",
+     "teteh",
+     "teef"
+    ]
+   },
+   {
+    "question": "🦭 Which is the correct spelling?",
+    "answer": "seal",
+    "choices": [
+     "saal",
+     "seale",
+     "seal",
+     "sela"
+    ]
+   },
+   {
+    "question": "🐑 Which is the correct spelling?",
+    "answer": "sheep",
+    "choices": [
+     "sheap",
+     "hseep",
+     "sheep",
+     "shepe"
+    ]
+   },
+   {
+    "question": "🍑 Which is the correct spelling?",
+    "answer": "peach",
+    "choices": [
+     "paech",
+     "peech",
+     "peash",
+     "peach"
+    ]
+   },
+   {
+    "question": "🐝 Which is the correct spelling?",
+    "answer": "bee",
+    "choices": [
+     "bae",
+     "bee",
+     "bue",
+     "bie"
+    ]
+   },
+   {
+    "question": "🏖️ Which is the correct spelling?",
+    "answer": "beach",
+    "choices": [
+     "beache",
+     "beach",
+     "becah",
+     "baech"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLi",
+  "subject": "english",
+  "title": "Spell the long i word: silent e, ie, y",
+  "section": "Long vowel patterns",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXLi22"
+  ],
+  "examples": [
+   {
+    "question": "🚲 Which is the correct spelling?",
+    "answer": "bike",
+    "choices": [
+     "bike",
+     "boke",
+     "bik",
+     "buke"
+    ]
+   },
+   {
+    "question": "🪁 Which is the correct spelling?",
+    "answer": "kite",
+    "choices": [
+     "kite",
+     "kete",
+     "kate",
+     "ktie"
+    ]
+   },
+   {
+    "question": "🪙 Which is the correct spelling?",
+    "answer": "dime",
+    "choices": [
+     "dime",
+     "deme",
+     "idme",
+     "dume"
+    ]
+   },
+   {
+    "question": "👔 Which is the correct spelling?",
+    "answer": "tie",
+    "choices": [
+     "tae",
+     "tie",
+     "tei",
+     "toe"
+    ]
+   },
+   {
+    "question": "🥧 Which is the correct spelling?",
+    "answer": "pie",
+    "choices": [
+     "pae",
+     "pia",
+     "pee",
+     "pie"
+    ]
+   },
+   {
+    "question": "5️⃣ Which is the correct spelling?",
+    "answer": "five",
+    "choices": [
+     "fvie",
+     "fiv",
+     "fave",
+     "five"
+    ]
+   },
+   {
+    "question": "🪰 Which is the correct spelling?",
+    "answer": "fly",
+    "choices": [
+     "flye",
+     "lfy",
+     "fyl",
+     "fly"
+    ]
+   },
+   {
+    "question": "😢 Which is the correct spelling?",
+    "answer": "cry",
+    "choices": [
+     "rcy",
+     "cyr",
+     "crye",
+     "cry"
+    ]
+   },
+   {
+    "question": "🌌 Which is the correct spelling?",
+    "answer": "sky",
+    "choices": [
+     "sky",
+     "syk",
+     "ksy",
+     "skye"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLo",
+  "subject": "english",
+  "title": "Spell the long o word: silent e, oa, ow",
+  "section": "Long vowel patterns",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXLo22"
+  ],
+  "examples": [
+   {
+    "question": "🐐 Which is the correct spelling?",
+    "answer": "goat",
+    "choices": [
+     "gaot",
+     "goat",
+     "gowt",
+     "ogat"
+    ]
+   },
+   {
+    "question": "❄️ Which is the correct spelling?",
+    "answer": "snow",
+    "choices": [
+     "sniw",
+     "snow",
+     "snowe",
+     "nsow"
+    ]
+   },
+   {
+    "question": "🧥 Which is the correct spelling?",
+    "answer": "coat",
+    "choices": [
+     "ocat",
+     "cowt",
+     "coat",
+     "caot"
+    ]
+   },
+   {
+    "question": "🎵 Which is the correct spelling?",
+    "answer": "note",
+    "choices": [
+     "note",
+     "nute",
+     "ntoe",
+     "onte"
+    ]
+   },
+   {
+    "question": "🥣 Which is the correct spelling?",
+    "answer": "bowl",
+    "choices": [
+     "bolw",
+     "biwl",
+     "bwol",
+     "bowl"
+    ]
+   },
+   {
+    "question": "🌹 Which is the correct spelling?",
+    "answer": "rose",
+    "choices": [
+     "orse",
+     "roes",
+     "rose",
+     "rase"
+    ]
+   },
+   {
+    "question": "⛵ Which is the correct spelling?",
+    "answer": "boat",
+    "choices": [
+     "baot",
+     "biat",
+     "boat",
+     "boate"
+    ]
+   },
+   {
+    "question": "🐸 Which is the correct spelling?",
+    "answer": "toad",
+    "choices": [
+     "taad",
+     "toad",
+     "tead",
+     "toda"
+    ]
+   },
+   {
+    "question": "🦴 Which is the correct spelling?",
+    "answer": "bone",
+    "choices": [
+     "bane",
+     "boen",
+     "bine",
+     "bone"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXLu",
+  "subject": "english",
+  "title": "Spell the long u word: silent e, ue, oo, ew",
+  "section": "Long vowel patterns",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXLu22"
+  ],
+  "examples": [
+   {
+    "question": "🔩 Which is the correct spelling?",
+    "answer": "screw",
+    "choices": [
+     "screw",
+     "scrwe",
+     "csrew",
+     "scraw"
+    ]
+   },
+   {
+    "question": "🌙 Which is the correct spelling?",
+    "answer": "moon",
+    "choices": [
+     "mono",
+     "moon",
+     "muon",
+     "maon"
+    ]
+   },
+   {
+    "question": "🪈 Which is the correct spelling?",
+    "answer": "flute",
+    "choices": [
+     "fltue",
+     "flute",
+     "flate",
+     "fulte"
+    ]
+   },
+   {
+    "question": "🔵 Which is the correct spelling?",
+    "answer": "blue",
+    "choices": [
+     "lbue",
+     "bule",
+     "blae",
+     "blue"
+    ]
+   },
+   {
+    "question": "🧴 Which is the correct spelling?",
+    "answer": "glue",
+    "choices": [
+     "glue",
+     "glie",
+     "gloe",
+     "glae"
+    ]
+   },
+   {
+    "question": "🧊 Which is the correct spelling?",
+    "answer": "cube",
+    "choices": [
+     "cbue",
+     "cube",
+     "cobe",
+     "cub"
+    ]
+   },
+   {
+    "question": "🫏 Which is the correct spelling?",
+    "answer": "mule",
+    "choices": [
+     "mule",
+     "mul",
+     "mile",
+     "umle"
+    ]
+   },
+   {
+    "question": "🥄 Which is the correct spelling?",
+    "answer": "spoon",
+    "choices": [
+     "spaon",
+     "spion",
+     "spoone",
+     "spoon"
+    ]
+   },
+   {
+    "question": "👢 Which is the correct spelling?",
+    "answer": "boot",
+    "choices": [
+     "biot",
+     "obot",
+     "boot",
+     "baot"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXRc",
+  "subject": "english",
+  "title": "Complete the word with the correct r-controlled vowel: er, ir, ur",
+  "section": "R-controlled vowels",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXRc32"
+  ],
+  "examples": [
+   {
+    "question": "👛 Complete the word: p__se",
+    "answer": "ur",
+    "choices": [
+     "ir",
+     "ur",
+     "er"
+    ]
+   },
+   {
+    "question": "🐦 Complete the word: b__d",
+    "answer": "ir",
+    "choices": [
+     "ir",
+     "ur",
+     "er"
+    ]
+   },
+   {
+    "question": "👧 Complete the word: g__l",
+    "answer": "ir",
+    "choices": [
+     "ir",
+     "er",
+     "ur"
+    ]
+   },
+   {
+    "question": "🍔 Complete the word: b__ger",
+    "answer": "ur",
+    "choices": [
+     "ir",
+     "er",
+     "ur"
+    ]
+   },
+   {
+    "question": "🐢 Complete the word: t__tle",
+    "answer": "ur",
+    "choices": [
+     "er",
+     "ir",
+     "ur"
+    ]
+   },
+   {
+    "question": "✉️ Complete the word: lett__",
+    "answer": "er",
+    "choices": [
+     "er",
+     "ur",
+     "ir"
+    ]
+   },
+   {
+    "question": "👕 Complete the word: sh__t",
+    "answer": "ir",
+    "choices": [
+     "ir",
+     "er",
+     "ur"
+    ]
+   },
+   {
+    "question": "🌿 Complete the word: f__n",
+    "answer": "er",
+    "choices": [
+     "ir",
+     "ur",
+     "er"
+    ]
+   },
+   {
+    "question": "⛪ Complete the word: ch__ch",
+    "answer": "ur",
+    "choices": [
+     "er",
+     "ur",
+     "ir"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engXSgSp",
+  "subject": "english",
+  "title": "Spell the soft g or soft c word",
+  "section": "Soft g and c",
+  "grades": [
+   2
+  ],
+  "skillIds": [
+   "engXSgSp2"
+  ],
+  "examples": [
+   {
+    "question": "🍊 Which is the correct spelling?",
+    "answer": "orange",
+    "choices": [
+     "arange",
+     "oraneg",
+     "orang",
+     "orange"
+    ]
+   },
+   {
+    "question": "🐭 Which is the correct spelling?",
+    "answer": "mice",
+    "choices": [
+     "moce",
+     "mice",
+     "mace",
+     "mcie"
+    ]
+   },
+   {
+    "question": "💎 Which is the correct spelling?",
+    "answer": "gem",
+    "choices": [
+     "egm",
+     "geme",
+     "gum",
+     "gem"
+    ]
+   },
+   {
+    "question": "⭕ Which is the correct spelling?",
+    "answer": "circle",
+    "choices": [
+     "circel",
+     "carcle",
+     "circle",
+     "icrcle"
+    ]
+   },
+   {
+    "question": "🏙️ Which is the correct spelling?",
+    "answer": "city",
+    "choices": [
+     "city",
+     "citye",
+     "ciyt",
+     "cety"
+    ]
+   },
+   {
+    "question": "🍚 Which is the correct spelling?",
+    "answer": "rice",
+    "choices": [
+     "ric",
+     "race",
+     "roce",
+     "rice"
+    ]
+   },
+   {
+    "question": "🧌 Which is the correct spelling?",
+    "answer": "giant",
+    "choices": [
+     "giatn",
+     "goant",
+     "giante",
+     "giant"
+    ]
+   },
+   {
+    "question": "🧊 Which is the correct spelling?",
+    "answer": "ice",
+    "choices": [
+     "ica",
+     "cie",
+     "ice",
+     "oce"
+    ]
+   },
+   {
+    "question": "🙂 Which is the correct spelling?",
+    "answer": "face",
+    "choices": [
+     "foce",
+     "fcae",
+     "face",
+     "fice"
+    ]
+   },
+   {
+    "question": "📄 Which is the correct spelling?",
+    "answer": "page",
+    "choices": [
+     "puge",
+     "pege",
+     "paeg",
+     "page"
+    ]
+   },
+   {
+    "question": "✏️ Which is the correct spelling?",
+    "answer": "pencil",
+    "choices": [
+     "poncil",
+     "pencil",
+     "pancil",
+     "pencli"
+    ]
+   },
+   {
+    "question": "🦒 Which is the correct spelling?",
+    "answer": "giraffe",
+    "choices": [
+     "giraffe",
+     "girafef",
+     "giarffe",
+     "griaffe"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engFbTh",
+  "subject": "english",
+  "title": "Determine the themes of myths, fables and folktales",
+  "section": "Theme",
+  "grades": [
+   2,
+   3,
+   4
+  ],
+  "skillIds": [
+   "engFbTh2",
+   "engFbTh3",
+   "engFbTh4"
+  ],
+  "examples": [
+   {
+    "question": "Read the fable. A town mouse visited his country cousin and laughed at the plain food. In the city, they ate fine food but were chased by cats. The country mouse went home happily. What is the theme (lesson) of this fable?",
+    "answer": "A simple, safe life is better than a rich, fearful one.",
+    "choices": [
+     "Kindness and gentleness work better than force.",
+     "Slow and steady wins the race.",
+     "People will not believe someone who often lies.",
+     "A simple, safe life is better than a rich, fearful one."
+    ]
+   },
+   {
+    "question": "Read the fable. A hare laughed at a slow tortoise and challenged him to a race. The hare raced ahead, then took a nap. The tortoise kept walking steadily and crossed the finish line first. What is the theme (lesson) of this fable?",
+    "answer": "Slow and steady wins the race.",
+    "choices": [
+     "Slow and steady wins the race.",
+     "People sometimes pretend not to want what they cannot have.",
+     "Being greedy can make you lose what you have.",
+     "Clever thinking and patience can solve problems."
+    ]
+   },
+   {
+    "question": "Read the fable. A lion let a tiny mouse go free. Later, the lion was caught in a hunter's net. The mouse chewed through the ropes and set the lion free. What is the theme (lesson) of this fable?",
+    "answer": "Even small friends can be a big help.",
+    "choices": [
+     "Even small friends can be a big help.",
+     "Being greedy can make you lose what you have.",
+     "Clever thinking and patience can solve problems.",
+     "People sometimes pretend not to want what they cannot have."
+    ]
+   },
+   {
+    "question": "Read the fable. A shepherd boy shouted \"Wolf!\" to trick the villagers, and they came running. He did it again and again. When a real wolf came, nobody believed him. What is the theme (lesson) of this fable?",
+    "answer": "People will not believe someone who often lies.",
+    "choices": [
+     "Even small friends can be a big help.",
+     "People will not believe someone who often lies.",
+     "A simple, safe life is better than a rich, fearful one.",
+     "Slow and steady wins the race."
+    ]
+   },
+   {
+    "question": "Read the fable. A fox tried again and again to reach some grapes hanging high on a vine. When he could not reach them, he walked away saying, \"They were probably sour anyway.\" What is the theme (lesson) of this fable?",
+    "answer": "People sometimes pretend not to want what they cannot have.",
+    "choices": [
+     "Being greedy can make you lose what you have.",
+     "A simple, safe life is better than a rich, fearful one.",
+     "Slow and steady wins the race.",
+     "People sometimes pretend not to want what they cannot have."
+    ]
+   },
+   {
+    "question": "Read the fable. A farmer's goose laid one golden egg each day. Wanting all the gold at once, he cut the goose open — and found nothing inside. What is the theme (lesson) of this fable?",
+    "answer": "Being greedy can make you lose what you have.",
+    "choices": [
+     "Being greedy can make you lose what you have.",
+     "It is wise to prepare for the future.",
+     "Clever thinking and patience can solve problems.",
+     "People sometimes pretend not to want what they cannot have."
+    ]
+   },
+   {
+    "question": "Read the fable. A thirsty crow found a pitcher with only a little water at the bottom. She dropped pebbles in, one by one, until the water rose high enough to drink. What is the theme (lesson) of this fable?",
+    "answer": "Clever thinking and patience can solve problems.",
+    "choices": [
+     "Kindness and gentleness work better than force.",
+     "People sometimes pretend not to want what they cannot have.",
+     "Clever thinking and patience can solve problems.",
+     "A simple, safe life is better than a rich, fearful one."
+    ]
+   },
+   {
+    "question": "Read the fable. The Wind and the Sun argued about who was stronger. The Wind blew hard, but the traveller held his coat tighter. The Sun shone warmly, and the traveller took off his coat. What is the theme (lesson) of this fable?",
+    "answer": "Kindness and gentleness work better than force.",
+    "choices": [
+     "It is wise to prepare for the future.",
+     "Kindness and gentleness work better than force.",
+     "A simple, safe life is better than a rich, fearful one.",
+     "Even small friends can be a big help."
+    ]
+   },
+   {
+    "question": "Read the fable. All summer, the ants stored food while the grasshopper sang and played. When winter came, the ants had plenty to eat, but the grasshopper was hungry. What is the theme (lesson) of this fable?",
+    "answer": "It is wise to prepare for the future.",
+    "choices": [
+     "Clever thinking and patience can solve problems.",
+     "It is wise to prepare for the future.",
+     "Being greedy can make you lose what you have.",
+     "People sometimes pretend not to want what they cannot have."
+    ]
+   },
+   {
+    "question": "Read the fable. A dog carrying a bone saw his reflection in a river. Thinking it was another dog with a bigger bone, he barked — and his own bone fell into the water. What is the theme (lesson) of this fable?",
+    "answer": "Being greedy can make you lose what you have.",
+    "choices": [
+     "People will not believe someone who often lies.",
+     "Even small friends can be a big help.",
+     "Kindness and gentleness work better than force.",
+     "Being greedy can make you lose what you have."
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engPrpE",
+  "subject": "english",
+  "title": "Identify the purpose of a text",
+  "section": "Topic and purpose",
+  "grades": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "skillIds": [
+   "engPrpE2",
+   "engPrpE3",
+   "engPrpE4",
+   "engPrpE5"
+  ],
+  "examples": [
+   {
+    "question": "Why did the author write this? Sharks have been on Earth for over 400 million years.",
+    "answer": "To inform",
+    "choices": [
+     "To inform",
+     "To persuade",
+     "To entertain"
+    ]
+   },
+   {
+    "question": "Why did the author write this? A panda has a thumb-like bone to hold bamboo.",
+    "answer": "To inform",
+    "choices": [
+     "To persuade",
+     "To inform",
+     "To entertain"
+    ]
+   },
+   {
+    "question": "Why did the author write this? You should join the reading club — it is the best club in school!",
+    "answer": "To persuade",
+    "choices": [
+     "To entertain",
+     "To inform",
+     "To persuade"
+    ]
+   },
+   {
+    "question": "Why did the author write this? Everyone should wear a helmet when biking.",
+    "answer": "To persuade",
+    "choices": [
+     "To persuade",
+     "To inform",
+     "To entertain"
+    ]
+   },
+   {
+    "question": "Why did the author write this? The Moon goes around Earth about once a month.",
+    "answer": "To inform",
+    "choices": [
+     "To entertain",
+     "To inform",
+     "To persuade"
+    ]
+   },
+   {
+    "question": "Why did the author write this? Buy fresh lemonade at our stand. It is the tastiest in town!",
+    "answer": "To persuade",
+    "choices": [
+     "To persuade",
+     "To entertain",
+     "To inform"
+    ]
+   },
+   {
+    "question": "Why did the author write this? The penguin put on sunglasses and went surfing.",
+    "answer": "To entertain",
+    "choices": [
+     "To entertain",
+     "To inform",
+     "To persuade"
+    ]
+   },
+   {
+    "question": "Why did the author write this? Once upon a time, a dragon was afraid of the dark.",
+    "answer": "To entertain",
+    "choices": [
+     "To entertain",
+     "To inform",
+     "To persuade"
+    ]
+   },
+   {
+    "question": "Why did the author write this? The silly goat tried to dance but tripped over his own beard.",
+    "answer": "To entertain",
+    "choices": [
+     "To inform",
+     "To persuade",
+     "To entertain"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "engCsEf",
+  "subject": "english",
+  "title": "Match each effect to its cause",
+  "section": "Cause and effect",
+  "grades": [
+   2,
+   3
+  ],
+  "skillIds": [
+   "engCsEf2",
+   "engCsEf3"
+  ],
+  "examples": [
+   {
+    "question": "Effect: The kids cheered. What was the cause?",
+    "answer": "Their team scored a goal.",
+    "choices": [
+     "Leo got a good grade.",
+     "The lights turned off.",
+     "He missed the bus.",
+     "Their team scored a goal."
+    ]
+   },
+   {
+    "question": "Effect: Sam was late for school. What was the cause?",
+    "answer": "He missed the bus.",
+    "choices": [
+     "The ground was wet in the morning.",
+     "Leo got a good grade.",
+     "The lights turned off.",
+     "He missed the bus."
+    ]
+   },
+   {
+    "question": "Cause: Leo studied hard for the test. What is the effect?",
+    "answer": "Leo got a good grade.",
+    "choices": [
+     "It was a hot day.",
+     "Leo got a good grade.",
+     "The plant wilted.",
+     "The ground was wet in the morning."
+    ]
+   },
+   {
+    "question": "Cause: It rained all night. What is the effect?",
+    "answer": "The ground was wet in the morning.",
+    "choices": [
+     "It was a hot day.",
+     "Leo got a good grade.",
+     "The ground was wet in the morning.",
+     "The dog had a stomach ache."
+    ]
+   },
+   {
+    "question": "Effect: The ice cream melted. What was the cause?",
+    "answer": "It was a hot day.",
+    "choices": [
+     "It was a hot day.",
+     "The dog had a stomach ache.",
+     "The plant wilted.",
+     "Leo got a good grade."
+    ]
+   },
+   {
+    "question": "Cause: The power went out. What is the effect?",
+    "answer": "The lights turned off.",
+    "choices": [
+     "It was a hot day.",
+     "Leo got a good grade.",
+     "The lights turned off.",
+     "Their team scored a goal."
+    ]
+   },
+   {
+    "question": "Cause: The dog ate too much. What is the effect?",
+    "answer": "The dog had a stomach ache.",
+    "choices": [
+     "The dog had a stomach ache.",
+     "Their team scored a goal.",
+     "Leo got a good grade.",
+     "The ground was wet in the morning."
+    ]
+   },
+   {
+    "question": "Cause: Mia forgot to water her plant. What is the effect?",
+    "answer": "The plant wilted.",
+    "choices": [
+     "Their team scored a goal.",
+     "The dog had a stomach ache.",
+     "The plant wilted.",
+     "The ground was wet in the morning."
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,2419 @@
+[
+ {
+  "key": "sciATM",
+  "subject": "science",
+  "title": "Layers of the atmosphere",
+  "section": "The atmosphere",
+  "grades": [
+   7
+  ],
+  "skillIds": [
+   "sciATM7"
+  ],
+  "examples": [
+   {
+    "question": "Which is the outermost layer, fading into space?",
+    "answer": "Exosphere",
+    "choices": [
+     "Stratosphere",
+     "Troposphere",
+     "Mesosphere",
+     "Exosphere"
+    ]
+   },
+   {
+    "question": "Which gas makes up about 21% of Earth's atmosphere?",
+    "answer": "Oxygen",
+    "choices": [
+     "Argon",
+     "Carbon dioxide",
+     "Nitrogen",
+     "Oxygen"
+    ]
+   },
+   {
+    "question": "In which layer do most meteors burn up?",
+    "answer": "Mesosphere",
+    "choices": [
+     "Troposphere",
+     "Mesosphere",
+     "Stratosphere",
+     "Exosphere"
+    ]
+   },
+   {
+    "question": "Which layer contains the ozone layer?",
+    "answer": "Stratosphere",
+    "choices": [
+     "Mesosphere",
+     "Troposphere",
+     "Stratosphere",
+     "Thermosphere"
+    ]
+   },
+   {
+    "question": "Which layer of the atmosphere is closest to Earth and contains our weather?",
+    "answer": "Troposphere",
+    "choices": [
+     "Troposphere",
+     "Thermosphere",
+     "Stratosphere",
+     "Mesosphere"
+    ]
+   },
+   {
+    "question": "Which gas makes up most of Earth's atmosphere?",
+    "answer": "Nitrogen",
+    "choices": [
+     "Nitrogen",
+     "Carbon dioxide",
+     "Argon",
+     "Oxygen"
+    ]
+   },
+   {
+    "question": "Which layer is where auroras form and the International Space Station orbits?",
+    "answer": "Thermosphere",
+    "choices": [
+     "Mesosphere",
+     "Thermosphere",
+     "Troposphere",
+     "Stratosphere"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciNWT",
+  "subject": "science",
+  "title": "Newton's laws of motion",
+  "section": "Force and motion",
+  "grades": [
+   8,
+   10
+  ],
+  "skillIds": [
+   "sciNWT8",
+   "sciNWT10"
+  ],
+  "examples": [
+   {
+    "question": "Which of Newton's laws explains this? Doubling the force on an object doubles its acceleration.",
+    "answer": "Second law (F = ma)",
+    "choices": [
+     "First law (inertia)",
+     "Third law (action–reaction)",
+     "Second law (F = ma)"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws explains this? A ball keeps rolling until friction slows it.",
+    "answer": "First law (inertia)",
+    "choices": [
+     "First law (inertia)",
+     "Third law (action–reaction)",
+     "Second law (F = ma)"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws explains this? A heavy cart is harder to accelerate than a light cart with the same push.",
+    "answer": "Second law (F = ma)",
+    "choices": [
+     "Second law (F = ma)",
+     "Third law (action–reaction)",
+     "First law (inertia)"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws explains this? Pushing a wall makes you slide backwards on roller skates.",
+    "answer": "Third law (action–reaction)",
+    "choices": [
+     "Third law (action–reaction)",
+     "First law (inertia)",
+     "Second law (F = ma)"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws explains this? Passengers lurch forward when a bus brakes suddenly.",
+    "answer": "First law (inertia)",
+    "choices": [
+     "Third law (action–reaction)",
+     "Second law (F = ma)",
+     "First law (inertia)"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws explains this? A book on a table stays at rest.",
+    "answer": "First law (inertia)",
+    "choices": [
+     "First law (inertia)",
+     "Third law (action–reaction)",
+     "Second law (F = ma)"
+    ]
+   },
+   {
+    "question": "Which of Newton's laws explains this? A rocket moves up as it pushes gas down.",
+    "answer": "Third law (action–reaction)",
+    "choices": [
+     "First law (inertia)",
+     "Third law (action–reaction)",
+     "Second law (F = ma)"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTransW",
+  "subject": "science",
+  "title": "Transverse waves",
+  "section": "Waves",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciXsTransW8"
+  ],
+  "examples": [
+   {
+    "question": "What is frequency?",
+    "answer": "The number of waves passing a point each second",
+    "choices": [
+     "The length of a wave",
+     "The speed of light",
+     "The height of a wave",
+     "The number of waves passing a point each second"
+    ]
+   },
+   {
+    "question": "A wave has a frequency of 5 Hz and a wavelength of 2 m. What is its speed?",
+    "answer": "10 m/s",
+    "choices": [
+     "10 m/s",
+     "7 m/s",
+     "2.5 m/s",
+     "3 m/s"
+    ]
+   },
+   {
+    "question": "The distance from one crest to the next is the…",
+    "answer": "wavelength",
+    "choices": [
+     "amplitude",
+     "frequency",
+     "trough",
+     "wavelength"
+    ]
+   },
+   {
+    "question": "If frequency increases and speed stays the same, wavelength…",
+    "answer": "decreases",
+    "choices": [
+     "doubles",
+     "decreases",
+     "increases",
+     "stays the same"
+    ]
+   },
+   {
+    "question": "Which waves are transverse?",
+    "answer": "Waves on a guitar string",
+    "choices": [
+     "Sound waves in air",
+     "Ultrasound in water",
+     "Compression in a slinky",
+     "Waves on a guitar string"
+    ]
+   },
+   {
+    "question": "In a transverse wave, the lowest point is the…",
+    "answer": "trough",
+    "choices": [
+     "trough",
+     "amplitude",
+     "crest",
+     "wavelength"
+    ]
+   },
+   {
+    "question": "Which is a transverse wave?",
+    "answer": "Light",
+    "choices": [
+     "Sound in air",
+     "A slinky pushed and pulled",
+     "Light",
+     "Echo"
+    ]
+   },
+   {
+    "question": "The highest point of a transverse wave is the…",
+    "answer": "crest",
+    "choices": [
+     "crest",
+     "amplitude",
+     "trough",
+     "wavelength"
+    ]
+   },
+   {
+    "question": "What is amplitude?",
+    "answer": "The height of a wave from its rest position",
+    "choices": [
+     "The number of waves per second",
+     "The distance between crests",
+     "The speed",
+     "The height of a wave from its rest position"
+    ]
+   },
+   {
+    "question": "In a transverse wave, the medium moves…",
+    "answer": "perpendicular to the direction the wave travels",
+    "choices": [
+     "parallel to the wave",
+     "not at all",
+     "in circles only",
+     "perpendicular to the direction the wave travels"
+    ]
+   },
+   {
+    "question": "Which type of wave can travel through empty space?",
+    "answer": "Light (electromagnetic) waves",
+    "choices": [
+     "Sound",
+     "Waves on a rope",
+     "Water waves",
+     "Light (electromagnetic) waves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciWaveP",
+  "subject": "science",
+  "title": "Compare amplitudes, wavelengths and frequencies of waves",
+  "section": "Waves",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciWaveP8",
+   "sciWaveP9",
+   "sciWaveP10"
+  ],
+  "examples": [
+   {
+    "question": "What is the distance from one crest of a wave to the next called?",
+    "answer": "Wavelength",
+    "choices": [
+     "Frequency",
+     "Speed",
+     "Amplitude",
+     "Wavelength"
+    ]
+   },
+   {
+    "question": "Which wave carries more energy (same type, same frequency)?",
+    "answer": "The one with the larger amplitude",
+    "choices": [
+     "They carry the same energy",
+     "The one with the larger amplitude",
+     "The one with the smaller amplitude",
+     "The one that is quieter"
+    ]
+   },
+   {
+    "question": "If frequency increases and wave speed stays the same, the wavelength …",
+    "answer": "Decreases",
+    "choices": [
+     "Increases",
+     "Stays the same",
+     "Decreases",
+     "Doubles"
+    ]
+   },
+   {
+    "question": "The number of waves passing a point each second is the …",
+    "answer": "Frequency",
+    "choices": [
+     "Crest",
+     "Wavelength",
+     "Frequency",
+     "Amplitude"
+    ]
+   },
+   {
+    "question": "In a transverse wave, particles move …",
+    "answer": "Perpendicular to the wave direction",
+    "choices": [
+     "Not at all",
+     "Perpendicular to the wave direction",
+     "Parallel to the wave direction",
+     "In circles only"
+    ]
+   },
+   {
+    "question": "What is the height of a wave from its rest position called?",
+    "answer": "Amplitude",
+    "choices": [
+     "Amplitude",
+     "Period",
+     "Frequency",
+     "Wavelength"
+    ]
+   },
+   {
+    "question": "A higher-pitched sound has a higher …",
+    "answer": "Frequency",
+    "choices": [
+     "Frequency",
+     "Amplitude",
+     "Wavelength",
+     "Volume"
+    ]
+   },
+   {
+    "question": "A louder sound has a greater …",
+    "answer": "Amplitude",
+    "choices": [
+     "Amplitude",
+     "Period",
+     "Wavelength",
+     "Speed"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsTRA",
+  "subject": "science",
+  "title": "Transmission, reflection and absorption of waves",
+  "section": "Waves",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciXsTRA8"
+  ],
+  "examples": [
+   {
+    "question": "What is happening to the wave? Your image in a mirror",
+    "answer": "Reflected",
+    "choices": [
+     "Absorbed",
+     "Reflected",
+     "Transmitted"
+    ]
+   },
+   {
+    "question": "What is happening to the wave? Light passing through a clear window",
+    "answer": "Transmitted",
+    "choices": [
+     "Transmitted",
+     "Absorbed",
+     "Reflected"
+    ]
+   },
+   {
+    "question": "What is happening to the wave? An echo bouncing off a canyon wall",
+    "answer": "Reflected",
+    "choices": [
+     "Transmitted",
+     "Reflected",
+     "Absorbed"
+    ]
+   },
+   {
+    "question": "What is happening to the wave? A black shirt getting warm in the sun",
+    "answer": "Absorbed",
+    "choices": [
+     "Reflected",
+     "Transmitted",
+     "Absorbed"
+    ]
+   },
+   {
+    "question": "What is happening to the wave? Radio waves passing through walls",
+    "answer": "Transmitted",
+    "choices": [
+     "Transmitted",
+     "Absorbed",
+     "Reflected"
+    ]
+   },
+   {
+    "question": "What is happening to the wave? Sound muffled by thick curtains",
+    "answer": "Absorbed",
+    "choices": [
+     "Transmitted",
+     "Reflected",
+     "Absorbed"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciEMwave",
+  "subject": "science",
+  "title": "Electromagnetic waves",
+  "section": "Waves",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciEMwave8",
+   "sciEMwave9",
+   "sciEMwave10"
+  ],
+  "examples": [
+   {
+    "question": "Which waves are used to see bones in a doctor's office?",
+    "answer": "X-rays",
+    "choices": [
+     "X-rays",
+     "Visible light",
+     "Infrared",
+     "Microwaves"
+    ]
+   },
+   {
+    "question": "Which is the only part of the spectrum humans can see?",
+    "answer": "Visible light",
+    "choices": [
+     "Infrared",
+     "Radio waves",
+     "Visible light",
+     "X-rays"
+    ]
+   },
+   {
+    "question": "How fast do all electromagnetic waves travel in a vacuum?",
+    "answer": "The speed of light",
+    "choices": [
+     "Gamma rays",
+     "The speed of light",
+     "Visible light",
+     "Ultraviolet"
+    ]
+   },
+   {
+    "question": "Which type of wave do TV remotes and heat lamps use?",
+    "answer": "Infrared",
+    "choices": [
+     "Ultraviolet",
+     "Radio waves",
+     "The speed of sound",
+     "Infrared"
+    ]
+   },
+   {
+    "question": "Which electromagnetic waves have the highest energy?",
+    "answer": "Gamma rays",
+    "choices": [
+     "Gamma rays",
+     "Infrared",
+     "Microwaves",
+     "Radio waves"
+    ]
+   },
+   {
+    "question": "Which electromagnetic waves have the longest wavelength?",
+    "answer": "Radio waves",
+    "choices": [
+     "Radio waves",
+     "The speed of sound",
+     "X-rays",
+     "Ultraviolet"
+    ]
+   },
+   {
+    "question": "Which waves cause sunburn?",
+    "answer": "Ultraviolet",
+    "choices": [
+     "Gamma rays",
+     "X-rays",
+     "Ultraviolet",
+     "Infrared"
+    ]
+   },
+   {
+    "question": "Which waves heat food in a microwave oven?",
+    "answer": "Microwaves",
+    "choices": [
+     "Ultraviolet",
+     "Microwaves",
+     "The speed of sound",
+     "Radio waves"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsInfra",
+  "subject": "science",
+  "title": "Applications of infrared waves",
+  "section": "Waves",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciXsInfra8"
+  ],
+  "examples": [
+   {
+    "question": "Which device uses infrared waves?",
+    "answer": "A TV remote control",
+    "choices": [
+     "A radio antenna only",
+     "A TV remote control",
+     "A Geiger counter",
+     "An X-ray machine"
+    ]
+   },
+   {
+    "question": "Can humans see infrared light?",
+    "answer": "No, but we can feel it as heat",
+    "choices": [
+     "Yes, as blue light",
+     "Only at night",
+     "Yes, as red light",
+     "No, but we can feel it as heat"
+    ]
+   },
+   {
+    "question": "How do heat lamps keep food warm?",
+    "answer": "They give off infrared radiation",
+    "choices": [
+     "They cool food",
+     "They use sound",
+     "They give off infrared radiation",
+     "They use ultraviolet"
+    ]
+   },
+   {
+    "question": "How do infrared sensors open automatic doors?",
+    "answer": "They detect heat from approaching people",
+    "choices": [
+     "They detect heat from approaching people",
+     "They hear footsteps",
+     "They smell people",
+     "They use X-rays"
+    ]
+   },
+   {
+    "question": "Why do night-vision cameras use infrared?",
+    "answer": "Warm bodies give off infrared even in the dark",
+    "choices": [
+     "Infrared is visible light",
+     "Warm bodies give off infrared even in the dark",
+     "Infrared makes things glow green",
+     "It uses sound"
+    ]
+   },
+   {
+    "question": "Which animal can sense infrared to hunt?",
+    "answer": "Pit vipers",
+    "choices": [
+     "Fish",
+     "Pit vipers",
+     "Rabbits",
+     "Butterflies"
+    ]
+   },
+   {
+    "question": "How do satellites use infrared?",
+    "answer": "To map temperatures on Earth",
+    "choices": [
+     "To map temperatures on Earth",
+     "To make phone calls",
+     "To hear storms",
+     "To see underground metal"
+    ]
+   },
+   {
+    "question": "Thermal cameras detect…",
+    "answer": "infrared radiation given off by warm objects",
+    "choices": [
+     "X-rays",
+     "infrared radiation given off by warm objects",
+     "ultraviolet light",
+     "sound waves"
+    ]
+   },
+   {
+    "question": "Why can firefighters use thermal cameras in smoke?",
+    "answer": "Infrared passes through smoke and shows heat sources",
+    "choices": [
+     "Smoke is cold",
+     "Smoke glows",
+     "Infrared passes through smoke and shows heat sources",
+     "They see through walls with X-rays"
+    ]
+   },
+   {
+    "question": "Why do doctors use infrared thermometers?",
+    "answer": "They read body heat without touching",
+    "choices": [
+     "They see bones",
+     "They kill germs",
+     "They measure sound",
+     "They read body heat without touching"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsUV",
+  "subject": "science",
+  "title": "Effects of ultraviolet waves",
+  "section": "Waves",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciXsUV8"
+  ],
+  "examples": [
+   {
+    "question": "How does sunscreen protect skin?",
+    "answer": "It absorbs or reflects UV rays",
+    "choices": [
+     "It blocks infrared only",
+     "It absorbs or reflects UV rays",
+     "It makes skin darker",
+     "It cools the skin"
+    ]
+   },
+   {
+    "question": "Why do some minerals glow under a black light?",
+    "answer": "They absorb UV and give off visible light (fluorescence)",
+    "choices": [
+     "They are on fire",
+     "They absorb UV and give off visible light (fluorescence)",
+     "They reflect sound",
+     "They are radioactive"
+    ]
+   },
+   {
+    "question": "Why is UV light used in water treatment?",
+    "answer": "It damages the DNA of germs",
+    "choices": [
+     "It heats the water",
+     "It adds minerals",
+     "It makes water blue",
+     "It damages the DNA of germs"
+    ]
+   },
+   {
+    "question": "How does UV help the body?",
+    "answer": "It helps skin make vitamin D",
+    "choices": [
+     "It cools skin",
+     "It strengthens bones directly",
+     "It improves eyesight",
+     "It helps skin make vitamin D"
+    ]
+   },
+   {
+    "question": "What is one helpful use of UV light?",
+    "answer": "Killing germs to disinfect water and surfaces",
+    "choices": [
+     "Killing germs to disinfect water and surfaces",
+     "Heating food",
+     "Making phone calls",
+     "Seeing bones"
+    ]
+   },
+   {
+    "question": "Why do people get tans?",
+    "answer": "Skin makes more melanin to protect against UV",
+    "choices": [
+     "Skin makes more melanin to protect against UV",
+     "Heat browns skin",
+     "UV paints the skin",
+     "Infrared darkens skin"
+    ]
+   },
+   {
+    "question": "What does the UV index tell you?",
+    "answer": "How strong the Sun's UV rays are",
+    "choices": [
+     "The humidity",
+     "The wind speed",
+     "How strong the Sun's UV rays are",
+     "The temperature"
+    ]
+   },
+   {
+    "question": "What can too much ultraviolet light cause?",
+    "answer": "Sunburn and skin damage",
+    "choices": [
+     "Better eyesight",
+     "Sunburn and skin damage",
+     "Stronger bones only",
+     "Colder skin"
+    ]
+   },
+   {
+    "question": "Which layer of the atmosphere absorbs much of the Sun's UV?",
+    "answer": "The ozone layer",
+    "choices": [
+     "The ionosphere only",
+     "The crust",
+     "The troposphere clouds",
+     "The ozone layer"
+    ]
+   },
+   {
+    "question": "Why can you get sunburned on a cloudy day?",
+    "answer": "UV rays can pass through clouds",
+    "choices": [
+     "UV rays can pass through clouds",
+     "You can't",
+     "Clouds are hot",
+     "Clouds make UV"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciPER",
+  "subject": "science",
+  "title": "Periodic table groups",
+  "section": "Atomic structure",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciPER8"
+  ],
+  "examples": [
+   {
+    "question": "Which group is magnesium (Mg) in?",
+    "answer": "Alkaline earth metal",
+    "choices": [
+     "Noble gas",
+     "Alkali metal",
+     "Alkaline earth metal",
+     "Transition metal",
+     "Halogen"
+    ]
+   },
+   {
+    "question": "Which group is neon (Ne) in?",
+    "answer": "Noble gas",
+    "choices": [
+     "Alkali metal",
+     "Transition metal",
+     "Noble gas",
+     "Halogen",
+     "Alkaline earth metal"
+    ]
+   },
+   {
+    "question": "Which group is copper (Cu) in?",
+    "answer": "Transition metal",
+    "choices": [
+     "Halogen",
+     "Alkaline earth metal",
+     "Transition metal",
+     "Noble gas",
+     "Alkali metal"
+    ]
+   },
+   {
+    "question": "Which group is helium (He) in?",
+    "answer": "Noble gas",
+    "choices": [
+     "Noble gas",
+     "Alkali metal",
+     "Alkaline earth metal",
+     "Halogen",
+     "Transition metal"
+    ]
+   },
+   {
+    "question": "Which group is iron (Fe) in?",
+    "answer": "Transition metal",
+    "choices": [
+     "Halogen",
+     "Transition metal",
+     "Alkali metal",
+     "Noble gas",
+     "Alkaline earth metal"
+    ]
+   },
+   {
+    "question": "Which group is calcium (Ca) in?",
+    "answer": "Alkaline earth metal",
+    "choices": [
+     "Halogen",
+     "Alkali metal",
+     "Transition metal",
+     "Alkaline earth metal",
+     "Noble gas"
+    ]
+   },
+   {
+    "question": "Which group is chlorine (Cl) in?",
+    "answer": "Halogen",
+    "choices": [
+     "Alkaline earth metal",
+     "Alkali metal",
+     "Transition metal",
+     "Noble gas",
+     "Halogen"
+    ]
+   },
+   {
+    "question": "Which group is fluorine (F) in?",
+    "answer": "Halogen",
+    "choices": [
+     "Halogen",
+     "Noble gas",
+     "Alkaline earth metal",
+     "Transition metal",
+     "Alkali metal"
+    ]
+   },
+   {
+    "question": "Which group is sodium (Na) in?",
+    "answer": "Alkali metal",
+    "choices": [
+     "Transition metal",
+     "Noble gas",
+     "Halogen",
+     "Alkaline earth metal",
+     "Alkali metal"
+    ]
+   },
+   {
+    "question": "Which group is potassium (K) in?",
+    "answer": "Alkali metal",
+    "choices": [
+     "Transition metal",
+     "Noble gas",
+     "Halogen",
+     "Alkali metal",
+     "Alkaline earth metal"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsBiomol",
+  "subject": "science",
+  "title": "Structure and function: carbohydrates, lipids, proteins and nucleic acids",
+  "section": "Biochemistry",
+  "grades": [
+   8,
+   9
+  ],
+  "skillIds": [
+   "sciXsBiomol8",
+   "sciXsBiomol9"
+  ],
+  "examples": [
+   {
+    "question": "Which type of biomolecule is described? Antibodies that fight infection",
+    "answer": "Protein",
+    "choices": [
+     "Protein",
+     "Nucleic acid",
+     "Lipid",
+     "Carbohydrate"
+    ]
+   },
+   {
+    "question": "Which type of biomolecule is described? Cell membranes made of phospholipids",
+    "answer": "Lipid",
+    "choices": [
+     "Carbohydrate",
+     "Lipid",
+     "Protein",
+     "Nucleic acid"
+    ]
+   },
+   {
+    "question": "Which type of biomolecule is described? Enzymes that speed up reactions",
+    "answer": "Protein",
+    "choices": [
+     "Carbohydrate",
+     "Protein",
+     "Lipid",
+     "Nucleic acid"
+    ]
+   },
+   {
+    "question": "Which type of biomolecule is described? DNA that stores genetic information",
+    "answer": "Nucleic acid",
+    "choices": [
+     "Lipid",
+     "Carbohydrate",
+     "Nucleic acid",
+     "Protein"
+    ]
+   },
+   {
+    "question": "Which type of biomolecule is described? Glucose and starch, used for quick energy",
+    "answer": "Carbohydrate",
+    "choices": [
+     "Protein",
+     "Nucleic acid",
+     "Lipid",
+     "Carbohydrate"
+    ]
+   },
+   {
+    "question": "Which type of biomolecule is described? Fats and oils that store long-term energy",
+    "answer": "Lipid",
+    "choices": [
+     "Nucleic acid",
+     "Carbohydrate",
+     "Lipid",
+     "Protein"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCellResp",
+  "subject": "science",
+  "title": "Understanding the chemistry of cellular respiration",
+  "section": "Biochemistry",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciXsCellResp88"
+  ],
+  "examples": [
+   {
+    "question": "How is cellular respiration related to breathing?",
+    "answer": "Breathing brings in oxygen and removes CO₂ for respiration",
+    "choices": [
+     "Breathing makes glucose",
+     "Breathing brings in oxygen and removes CO₂ for respiration",
+     "They are unrelated",
+     "They are the same thing"
+    ]
+   },
+   {
+    "question": "What is the main source of glucose for animals?",
+    "answer": "Food they eat",
+    "choices": [
+     "Food they eat",
+     "Air",
+     "Water",
+     "Sunlight directly"
+    ]
+   },
+   {
+    "question": "Why do muscles feel sore after hard exercise?",
+    "answer": "Lactic acid builds up from anaerobic respiration",
+    "choices": [
+     "Muscles grow instantly",
+     "Lactic acid builds up from anaerobic respiration",
+     "Bones break",
+     "Oxygen builds up"
+    ]
+   },
+   {
+    "question": "What is the energy-carrying molecule made by cellular respiration?",
+    "answer": "ATP",
+    "choices": [
+     "Glucose",
+     "ATP",
+     "Oxygen",
+     "DNA"
+    ]
+   },
+   {
+    "question": "What are the products of cellular respiration?",
+    "answer": "Carbon dioxide, water and energy (ATP)",
+    "choices": [
+     "Protein",
+     "Carbon dioxide, water and energy (ATP)",
+     "Sunlight",
+     "Glucose and oxygen"
+    ]
+   },
+   {
+    "question": "What are the reactants of cellular respiration?",
+    "answer": "Glucose and oxygen",
+    "choices": [
+     "Sunlight and water",
+     "Carbon dioxide and water",
+     "Protein and fat",
+     "Glucose and oxygen"
+    ]
+   },
+   {
+    "question": "How are photosynthesis and respiration related?",
+    "answer": "The products of one are the reactants of the other",
+    "choices": [
+     "The products of one are the reactants of the other",
+     "They both use sunlight",
+     "They are the same",
+     "They both make oxygen"
+    ]
+   },
+   {
+    "question": "Where in the cell does most cellular respiration happen?",
+    "answer": "Mitochondria",
+    "choices": [
+     "Chloroplasts",
+     "Cell wall",
+     "Mitochondria",
+     "Nucleus"
+    ]
+   },
+   {
+    "question": "Which organisms carry out cellular respiration?",
+    "answer": "Almost all living things, including plants",
+    "choices": [
+     "Only bacteria",
+     "Only plants",
+     "Only animals",
+     "Almost all living things, including plants"
+    ]
+   },
+   {
+    "question": "What happens in fermentation?",
+    "answer": "Glucose is broken down without oxygen, making less energy",
+    "choices": [
+     "Glucose is broken down without oxygen, making less energy",
+     "DNA is copied",
+     "Oxygen is made",
+     "Light is captured"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsCells",
+  "subject": "science",
+  "title": "Understanding cells",
+  "section": "Cells",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciXsCells88"
+  ],
+  "examples": [
+   {
+    "question": "Which type of cell has a nucleus?",
+    "answer": "Eukaryotic cell",
+    "choices": [
+     "Eukaryotic cell",
+     "Prokaryotic cell",
+     "Both",
+     "Neither"
+    ]
+   },
+   {
+    "question": "What is a tissue?",
+    "answer": "A group of similar cells working together",
+    "choices": [
+     "A whole organism",
+     "A single cell",
+     "An organ system",
+     "A group of similar cells working together"
+    ]
+   },
+   {
+    "question": "Which organisms are made of prokaryotic cells?",
+    "answer": "Bacteria",
+    "choices": [
+     "Animals",
+     "Fungi",
+     "Plants",
+     "Bacteria"
+    ]
+   },
+   {
+    "question": "What is the basic unit of life?",
+    "answer": "The cell",
+    "choices": [
+     "The atom",
+     "The cell",
+     "The organ",
+     "The tissue"
+    ]
+   },
+   {
+    "question": "Which organisms are single-celled?",
+    "answer": "Bacteria and amoebas",
+    "choices": [
+     "Birds and frogs",
+     "Bacteria and amoebas",
+     "Trees and dogs",
+     "Mushrooms and fish"
+    ]
+   },
+   {
+    "question": "Which part controls what enters and leaves a cell?",
+    "answer": "The cell membrane",
+    "choices": [
+     "The nucleus",
+     "The cell membrane",
+     "The vacuole",
+     "The ribosome"
+    ]
+   },
+   {
+    "question": "Which tool helped scientists first see cells?",
+    "answer": "The microscope",
+    "choices": [
+     "The thermometer",
+     "The telescope",
+     "The microscope",
+     "The magnet"
+    ]
+   },
+   {
+    "question": "Which organelle stores water and wastes?",
+    "answer": "The vacuole",
+    "choices": [
+     "The ribosome",
+     "The mitochondrion",
+     "The vacuole",
+     "The nucleus"
+    ]
+   },
+   {
+    "question": "What is the jelly-like material inside a cell called?",
+    "answer": "Cytoplasm",
+    "choices": [
+     "Cytoplasm",
+     "Membrane",
+     "Cell wall",
+     "Nucleus"
+    ]
+   },
+   {
+    "question": "Which organelle makes proteins?",
+    "answer": "Ribosome",
+    "choices": [
+     "Cell wall",
+     "Ribosome",
+     "Chloroplast",
+     "Vacuole"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPlCellF",
+  "subject": "science",
+  "title": "Identify functions of plant cell parts",
+  "section": "Cells",
+  "grades": [
+   8,
+   10
+  ],
+  "skillIds": [
+   "sciXsPlCellF8",
+   "sciXsPlCellF10"
+  ],
+  "examples": [
+   {
+    "question": "Which plant cell part does this? Carries out photosynthesis",
+    "answer": "Chloroplast",
+    "choices": [
+     "Nucleus",
+     "Chloroplast",
+     "Large vacuole",
+     "Cell wall",
+     "Cell membrane",
+     "Mitochondrion"
+    ]
+   },
+   {
+    "question": "Which plant cell part does this? Contains DNA and controls the cell",
+    "answer": "Nucleus",
+    "choices": [
+     "Cell membrane",
+     "Cell wall",
+     "Mitochondrion",
+     "Chloroplast",
+     "Large vacuole",
+     "Nucleus"
+    ]
+   },
+   {
+    "question": "Which plant cell part does this? Controls what enters and leaves the cell",
+    "answer": "Cell membrane",
+    "choices": [
+     "Mitochondrion",
+     "Chloroplast",
+     "Cell wall",
+     "Large vacuole",
+     "Nucleus",
+     "Cell membrane"
+    ]
+   },
+   {
+    "question": "Which plant cell part does this? Releases energy from food",
+    "answer": "Mitochondrion",
+    "choices": [
+     "Nucleus",
+     "Cell membrane",
+     "Chloroplast",
+     "Cell wall",
+     "Large vacuole",
+     "Mitochondrion"
+    ]
+   },
+   {
+    "question": "Which plant cell part does this? Gives the cell a rigid shape and support",
+    "answer": "Cell wall",
+    "choices": [
+     "Large vacuole",
+     "Nucleus",
+     "Mitochondrion",
+     "Chloroplast",
+     "Cell wall",
+     "Cell membrane"
+    ]
+   },
+   {
+    "question": "Which plant cell part does this? Stores water and keeps the cell firm",
+    "answer": "Large vacuole",
+    "choices": [
+     "Chloroplast",
+     "Cell membrane",
+     "Mitochondrion",
+     "Nucleus",
+     "Cell wall",
+     "Large vacuole"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsAnCellF",
+  "subject": "science",
+  "title": "Identify functions of animal cell parts",
+  "section": "Cells",
+  "grades": [
+   8,
+   10
+  ],
+  "skillIds": [
+   "sciXsAnCellF8",
+   "sciXsAnCellF10"
+  ],
+  "examples": [
+   {
+    "question": "Which animal cell part does this? Jelly-like fluid where reactions happen",
+    "answer": "Cytoplasm",
+    "choices": [
+     "Cell membrane",
+     "Mitochondrion",
+     "Ribosome",
+     "Cytoplasm",
+     "Nucleus",
+     "Lysosome"
+    ]
+   },
+   {
+    "question": "Which animal cell part does this? Produces energy (ATP)",
+    "answer": "Mitochondrion",
+    "choices": [
+     "Lysosome",
+     "Nucleus",
+     "Mitochondrion",
+     "Cell membrane",
+     "Cytoplasm",
+     "Ribosome"
+    ]
+   },
+   {
+    "question": "Which animal cell part does this? Breaks down waste",
+    "answer": "Lysosome",
+    "choices": [
+     "Cell membrane",
+     "Cytoplasm",
+     "Lysosome",
+     "Ribosome",
+     "Mitochondrion",
+     "Nucleus"
+    ]
+   },
+   {
+    "question": "Which animal cell part does this? Controls what enters and leaves",
+    "answer": "Cell membrane",
+    "choices": [
+     "Lysosome",
+     "Mitochondrion",
+     "Nucleus",
+     "Cell membrane",
+     "Cytoplasm",
+     "Ribosome"
+    ]
+   },
+   {
+    "question": "Which animal cell part does this? Makes proteins",
+    "answer": "Ribosome",
+    "choices": [
+     "Mitochondrion",
+     "Cell membrane",
+     "Ribosome",
+     "Nucleus",
+     "Cytoplasm",
+     "Lysosome"
+    ]
+   },
+   {
+    "question": "Which animal cell part does this? Contains genetic material",
+    "answer": "Nucleus",
+    "choices": [
+     "Nucleus",
+     "Mitochondrion",
+     "Ribosome",
+     "Cytoplasm",
+     "Cell membrane",
+     "Lysosome"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsOrgBody",
+  "subject": "science",
+  "title": "Organization in the human body",
+  "section": "Anatomy and physiology",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciXsOrgBody8"
+  ],
+  "examples": [
+   {
+    "question": "Which list goes from simplest to most complex?",
+    "answer": "cell → tissue → organ → organ system → organism",
+    "choices": [
+     "tissue → cell → organ system → organ",
+     "organism → organ → cell → tissue",
+     "cell → tissue → organ → organ system → organism",
+     "organ → cell → tissue → organism"
+    ]
+   },
+   {
+    "question": "Which systems work together to bring oxygen to cells?",
+    "answer": "Respiratory and circulatory",
+    "choices": [
+     "Digestive and skeletal",
+     "Nervous and excretory",
+     "Skeletal and muscular",
+     "Respiratory and circulatory"
+    ]
+   },
+   {
+    "question": "Which is an organ?",
+    "answer": "The heart",
+    "choices": [
+     "Muscle tissue",
+     "The circulatory system",
+     "A red blood cell",
+     "The heart"
+    ]
+   },
+   {
+    "question": "The stomach is an example of an…",
+    "answer": "organ",
+    "choices": [
+     "tissue",
+     "cell",
+     "organ system",
+     "organ"
+    ]
+   },
+   {
+    "question": "What tissue covers the body and lines organs?",
+    "answer": "Epithelial tissue",
+    "choices": [
+     "Nerve tissue",
+     "Bone tissue",
+     "Epithelial tissue",
+     "Blood"
+    ]
+   },
+   {
+    "question": "Which is an organ system?",
+    "answer": "The digestive system",
+    "choices": [
+     "The stomach",
+     "Bone tissue",
+     "The digestive system",
+     "A neuron"
+    ]
+   },
+   {
+    "question": "Which system fights infections?",
+    "answer": "The immune system",
+    "choices": [
+     "The skeletal system",
+     "The excretory system",
+     "The immune system",
+     "The digestive system"
+    ]
+   },
+   {
+    "question": "Which organs belong to the respiratory system?",
+    "answer": "Lungs and trachea",
+    "choices": [
+     "Heart and veins",
+     "Kidneys and bladder",
+     "Lungs and trachea",
+     "Stomach and intestines"
+    ]
+   },
+   {
+    "question": "A group of similar cells working together is a…",
+    "answer": "tissue",
+    "choices": [
+     "organ system",
+     "tissue",
+     "organ",
+     "organism"
+    ]
+   },
+   {
+    "question": "Which level comes between tissue and organ system?",
+    "answer": "Organ",
+    "choices": [
+     "Atom",
+     "Cell",
+     "Organ",
+     "Organism"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsHeart",
+  "subject": "science",
+  "title": "Organization in the human body: the heart and circulatory system",
+  "section": "Anatomy and physiology",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsHeart88",
+   "sciXsHeart99",
+   "sciXsHeart910"
+  ],
+  "examples": [
+   {
+    "question": "Which chambers receive blood coming into the heart?",
+    "answer": "The atria",
+    "choices": [
+     "The ventricles",
+     "The arteries",
+     "The valves",
+     "The atria"
+    ]
+   },
+   {
+    "question": "What happens in capillaries?",
+    "answer": "Oxygen and nutrients move into body cells",
+    "choices": [
+     "Food is digested",
+     "Blood is pumped",
+     "Oxygen and nutrients move into body cells",
+     "Air is breathed"
+    ]
+   },
+   {
+    "question": "Which side of the heart pumps blood to the lungs?",
+    "answer": "The right side",
+    "choices": [
+     "Both sides equally",
+     "Neither",
+     "The left side",
+     "The right side"
+    ]
+   },
+   {
+    "question": "The heart is mostly made of which kind of tissue?",
+    "answer": "Muscle tissue",
+    "choices": [
+     "Muscle tissue",
+     "Nerve tissue only",
+     "Fat tissue",
+     "Bone tissue"
+    ]
+   },
+   {
+    "question": "How many chambers does the human heart have?",
+    "answer": "4",
+    "choices": [
+     "4",
+     "2",
+     "3",
+     "6"
+    ]
+   },
+   {
+    "question": "What is blood pressure?",
+    "answer": "The force of blood pushing on artery walls",
+    "choices": [
+     "The force of blood pushing on artery walls",
+     "The amount of oxygen",
+     "How fast you breathe",
+     "Your heart's size"
+    ]
+   },
+   {
+    "question": "What do platelets do?",
+    "answer": "Help blood clot",
+    "choices": [
+     "Help blood clot",
+     "Fight infection",
+     "Carry nutrients only",
+     "Carry oxygen"
+    ]
+   },
+   {
+    "question": "What is your pulse?",
+    "answer": "The beat of blood pushed through arteries",
+    "choices": [
+     "Food moving in your stomach",
+     "Air in your lungs",
+     "The beat of blood pushed through arteries",
+     "A nerve signal only"
+    ]
+   },
+   {
+    "question": "Which is the largest artery in the body?",
+    "answer": "The aorta",
+    "choices": [
+     "The pulmonary vein",
+     "A capillary",
+     "The aorta",
+     "The vena cava"
+    ]
+   },
+   {
+    "question": "Which blood vessels are the smallest and let oxygen pass into tissues?",
+    "answer": "Capillaries",
+    "choices": [
+     "Capillaries",
+     "Veins",
+     "Arteries",
+     "The aorta"
+    ]
+   },
+   {
+    "question": "Why is the left ventricle wall thicker than the right?",
+    "answer": "It pumps blood to the whole body",
+    "choices": [
+     "It is older",
+     "It pumps blood to the lungs only",
+     "It holds more air",
+     "It pumps blood to the whole body"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciNAT",
+  "subject": "science",
+  "title": "Natural selection",
+  "section": "Adaptations and natural selection",
+  "grades": [
+   8
+  ],
+  "skillIds": [
+   "sciNAT8"
+  ],
+  "examples": [
+   {
+    "question": "Fossils show that organisms have changed over time. This is evidence for …",
+    "answer": "Evolution",
+    "choices": [
+     "An adaptation",
+     "More common",
+     "Evolution",
+     "Gregor Mendel"
+    ]
+   },
+   {
+    "question": "Moths with darker wings survive better on sooty trees. Over time, dark moths become …",
+    "answer": "More common",
+    "choices": [
+     "More common",
+     "Photosynthesis",
+     "Mutation only",
+     "Evolution"
+    ]
+   },
+   {
+    "question": "What is the process by which organisms with helpful traits survive and reproduce more?",
+    "answer": "Natural selection",
+    "choices": [
+     "Natural selection",
+     "Mutation only",
+     "An adaptation",
+     "Genes"
+    ]
+   },
+   {
+    "question": "Which is passed from parents to offspring?",
+    "answer": "Genes",
+    "choices": [
+     "Genes",
+     "Charles Darwin",
+     "Variation in traits",
+     "Natural selection"
+    ]
+   },
+   {
+    "question": "What is a trait that helps an organism survive in its environment called?",
+    "answer": "An adaptation",
+    "choices": [
+     "Evolution",
+     "Photosynthesis",
+     "An adaptation",
+     "Variation in traits"
+    ]
+   },
+   {
+    "question": "Who proposed the theory of evolution by natural selection?",
+    "answer": "Charles Darwin",
+    "choices": [
+     "Genes",
+     "Charles Darwin",
+     "Natural selection",
+     "Mutation only"
+    ]
+   },
+   {
+    "question": "Which is required for natural selection to occur?",
+    "answer": "Variation in traits",
+    "choices": [
+     "Photosynthesis",
+     "More common",
+     "Variation in traits",
+     "Mutation only"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciGenVoc",
+  "subject": "science",
+  "title": "Genetics vocabulary: genotype, phenotype, dominant and recessive",
+  "section": "Genetics",
+  "grades": [
+   8,
+   9,
+   10,
+   11
+  ],
+  "skillIds": [
+   "sciGenVoc8",
+   "sciGenVoc9",
+   "sciGenVoc10",
+   "sciGenVoc11"
+  ],
+  "examples": [
+   {
+    "question": "What is brown eyes ?",
+    "answer": "Phenotype",
+    "choices": [
+     "Phenotype",
+     "Homozygous recessive genotype",
+     "Heterozygous genotype",
+     "Homozygous dominant genotype"
+    ]
+   },
+   {
+    "question": "What is Tt ?",
+    "answer": "Heterozygous genotype",
+    "choices": [
+     "Heterozygous genotype",
+     "Homozygous recessive genotype",
+     "Phenotype",
+     "Homozygous dominant genotype"
+    ]
+   },
+   {
+    "question": "What is tall stem ?",
+    "answer": "Phenotype",
+    "choices": [
+     "Homozygous dominant genotype",
+     "Heterozygous genotype",
+     "Homozygous recessive genotype",
+     "Phenotype"
+    ]
+   },
+   {
+    "question": "What is Bb ?",
+    "answer": "Heterozygous genotype",
+    "choices": [
+     "Homozygous dominant genotype",
+     "Phenotype",
+     "Homozygous recessive genotype",
+     "Heterozygous genotype"
+    ]
+   },
+   {
+    "question": "What is BB ?",
+    "answer": "Homozygous dominant genotype",
+    "choices": [
+     "Heterozygous genotype",
+     "Homozygous recessive genotype",
+     "Phenotype",
+     "Homozygous dominant genotype"
+    ]
+   },
+   {
+    "question": "What is bb ?",
+    "answer": "Homozygous recessive genotype",
+    "choices": [
+     "Homozygous recessive genotype",
+     "Phenotype",
+     "Heterozygous genotype",
+     "Homozygous dominant genotype"
+    ]
+   },
+   {
+    "question": "What is tt ?",
+    "answer": "Homozygous recessive genotype",
+    "choices": [
+     "Homozygous dominant genotype",
+     "Phenotype",
+     "Heterozygous genotype",
+     "Homozygous recessive genotype"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsInquiry",
+  "subject": "science",
+  "title": "The process of scientific inquiry",
+  "section": "Science foundations",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsInquiry9",
+   "sciXsInquiry10"
+  ],
+  "examples": [
+   {
+    "question": "What is the difference between a theory and a hypothesis?",
+    "answer": "A theory is a well-tested explanation supported by much evidence",
+    "choices": [
+     "A theory is a well-tested explanation supported by much evidence",
+     "A theory is just a guess",
+     "They are the same",
+     "A hypothesis is always true"
+    ]
+   },
+   {
+    "question": "Why do scientists publish their methods?",
+    "answer": "So others can repeat the experiment and check the results",
+    "choices": [
+     "So others can repeat the experiment and check the results",
+     "To win prizes",
+     "To make it longer",
+     "To keep secrets"
+    ]
+   },
+   {
+    "question": "Results do not support the hypothesis. What should a scientist do?",
+    "answer": "Revise the hypothesis and test again",
+    "choices": [
+     "Change the data",
+     "Stop doing science",
+     "Ignore the results",
+     "Revise the hypothesis and test again"
+    ]
+   },
+   {
+    "question": "What is a hypothesis?",
+    "answer": "A testable explanation or prediction",
+    "choices": [
+     "A list of materials",
+     "A proven fact",
+     "A testable explanation or prediction",
+     "A final conclusion"
+    ]
+   },
+   {
+    "question": "Which is the best order for scientific inquiry?",
+    "answer": "Ask a question → hypothesize → experiment → analyze data → conclude",
+    "choices": [
+     "Analyze data → ask a question → hypothesize",
+     "Conclude → experiment → ask a question",
+     "Experiment → conclude → hypothesize",
+     "Ask a question → hypothesize → experiment → analyze data → conclude"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsMicro",
+  "subject": "science",
+  "title": "Identify parts of a light microscope",
+  "section": "Laboratory equipment and safety",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsMicro9",
+   "sciXsMicro10"
+  ],
+  "examples": [
+   {
+    "question": "Which part of the microscope is this? Controls how much light reaches the specimen",
+    "answer": "Diaphragm",
+    "choices": [
+     "Diaphragm",
+     "Coarse focus knob",
+     "Eyepiece (ocular lens)",
+     "Fine focus knob",
+     "Objective lenses",
+     "Stage"
+    ]
+   },
+   {
+    "question": "Which part of the microscope is this? The large knob that moves the stage a lot",
+    "answer": "Coarse focus knob",
+    "choices": [
+     "Stage",
+     "Fine focus knob",
+     "Coarse focus knob",
+     "Eyepiece (ocular lens)",
+     "Objective lenses",
+     "Diaphragm"
+    ]
+   },
+   {
+    "question": "Which part of the microscope is this? The lens you look through, usually 10×",
+    "answer": "Eyepiece (ocular lens)",
+    "choices": [
+     "Fine focus knob",
+     "Coarse focus knob",
+     "Objective lenses",
+     "Stage",
+     "Eyepiece (ocular lens)",
+     "Diaphragm"
+    ]
+   },
+   {
+    "question": "Which part of the microscope is this? Lenses on the rotating nosepiece (4×, 10×, 40×)",
+    "answer": "Objective lenses",
+    "choices": [
+     "Coarse focus knob",
+     "Eyepiece (ocular lens)",
+     "Fine focus knob",
+     "Objective lenses",
+     "Stage",
+     "Diaphragm"
+    ]
+   },
+   {
+    "question": "Which part of the microscope is this? The small knob for sharp focus at high power",
+    "answer": "Fine focus knob",
+    "choices": [
+     "Coarse focus knob",
+     "Fine focus knob",
+     "Stage",
+     "Eyepiece (ocular lens)",
+     "Objective lenses",
+     "Diaphragm"
+    ]
+   },
+   {
+    "question": "Which part of the microscope is this? The flat platform where the slide sits",
+    "answer": "Stage",
+    "choices": [
+     "Coarse focus knob",
+     "Stage",
+     "Fine focus knob",
+     "Eyepiece (ocular lens)",
+     "Objective lenses",
+     "Diaphragm"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciBondT",
+  "subject": "science",
+  "title": "Determine which type of chemical bond can form",
+  "section": "Chemical bonding",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciBondT9",
+   "sciBondT10",
+   "sciBondT11",
+   "sciBondT12"
+  ],
+  "examples": [
+   {
+    "question": "What type of bond forms in KBr ?",
+    "answer": "Ionic",
+    "choices": [
+     "Ionic",
+     "Covalent",
+     "Metallic"
+    ]
+   },
+   {
+    "question": "What type of bond forms in H₂O ?",
+    "answer": "Covalent",
+    "choices": [
+     "Ionic",
+     "Metallic",
+     "Covalent"
+    ]
+   },
+   {
+    "question": "What type of bond forms in copper wire ?",
+    "answer": "Metallic",
+    "choices": [
+     "Ionic",
+     "Metallic",
+     "Covalent"
+    ]
+   },
+   {
+    "question": "What type of bond forms in MgO ?",
+    "answer": "Ionic",
+    "choices": [
+     "Metallic",
+     "Covalent",
+     "Ionic"
+    ]
+   },
+   {
+    "question": "What type of bond forms in CH₄ ?",
+    "answer": "Covalent",
+    "choices": [
+     "Covalent",
+     "Metallic",
+     "Ionic"
+    ]
+   },
+   {
+    "question": "What type of bond forms in CaF₂ ?",
+    "answer": "Ionic",
+    "choices": [
+     "Covalent",
+     "Ionic",
+     "Metallic"
+    ]
+   },
+   {
+    "question": "What type of bond forms in NaCl ?",
+    "answer": "Ionic",
+    "choices": [
+     "Metallic",
+     "Covalent",
+     "Ionic"
+    ]
+   },
+   {
+    "question": "What type of bond forms in CO₂ ?",
+    "answer": "Covalent",
+    "choices": [
+     "Metallic",
+     "Ionic",
+     "Covalent"
+    ]
+   },
+   {
+    "question": "What type of bond forms in NH₃ ?",
+    "answer": "Covalent",
+    "choices": [
+     "Ionic",
+     "Covalent",
+     "Metallic"
+    ]
+   },
+   {
+    "question": "What type of bond forms in an iron bar ?",
+    "answer": "Metallic",
+    "choices": [
+     "Metallic",
+     "Covalent",
+     "Ionic"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciXsPolyName",
+  "subject": "science",
+  "title": "Name ionic compounds containing polyatomic ions",
+  "section": "Nomenclature",
+  "grades": [
+   9,
+   10
+  ],
+  "skillIds": [
+   "sciXsPolyName9",
+   "sciXsPolyName10"
+  ],
+  "examples": [
+   {
+    "question": "What is the name of CaSO₄?",
+    "answer": "Calcium sulfate",
+    "choices": [
+     "Calcium sulfur oxide",
+     "Calcium sulfate",
+     "Calcium sulfite",
+     "Calcium sulfide"
+    ]
+   },
+   {
+    "question": "What is the name of NH₄Cl?",
+    "answer": "Ammonium chloride",
+    "choices": [
+     "Ammonium chloride",
+     "Ammonia chloride",
+     "Ammonium chlorate",
+     "Nitrogen hydride chloride"
+    ]
+   },
+   {
+    "question": "What is the name of K₂CO₃?",
+    "answer": "Potassium carbonate",
+    "choices": [
+     "Potassium carbonate",
+     "Potassium bicarbonate",
+     "Potassium carbide",
+     "Dipotassium carbon trioxide"
+    ]
+   },
+   {
+    "question": "What is the name of NaNO₃?",
+    "answer": "Sodium nitrate",
+    "choices": [
+     "Sodium nitrate",
+     "Sodium nitrogen oxide",
+     "Sodium nitride",
+     "Sodium nitrite"
+    ]
+   },
+   {
+    "question": "What is the name of Mg(OH)₂?",
+    "answer": "Magnesium hydroxide",
+    "choices": [
+     "Magnesium hydride",
+     "Magnesium hydroxide",
+     "Magnesium dihydroxide oxide",
+     "Magnesium oxide"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciNameCov",
+  "subject": "science",
+  "title": "Write chemical formulas of binary covalent compounds",
+  "section": "Nomenclature",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciNameCov9",
+   "sciNameCov10",
+   "sciNameCov11",
+   "sciNameCov12"
+  ],
+  "examples": [
+   {
+    "question": "What is the formula for dihydrogen monoxide ?",
+    "answer": "H₂O",
+    "choices": [
+     "NF₃",
+     "CO₂",
+     "N₂O₄",
+     "H₂O"
+    ]
+   },
+   {
+    "question": "What is the formula for carbon dioxide ?",
+    "answer": "CO₂",
+    "choices": [
+     "SO₃",
+     "CO₂",
+     "H₂O",
+     "PCl₅"
+    ]
+   },
+   {
+    "question": "What is the formula for carbon tetrachloride ?",
+    "answer": "CCl₄",
+    "choices": [
+     "H₂O",
+     "CCl₄",
+     "CO",
+     "NF₃"
+    ]
+   },
+   {
+    "question": "What is the formula for sulfur trioxide ?",
+    "answer": "SO₃",
+    "choices": [
+     "H₂O",
+     "SO₃",
+     "NF₃",
+     "CO₂"
+    ]
+   },
+   {
+    "question": "What is the formula for dinitrogen tetroxide ?",
+    "answer": "N₂O₄",
+    "choices": [
+     "CO",
+     "N₂O₄",
+     "H₂O",
+     "CO₂"
+    ]
+   },
+   {
+    "question": "What is the formula for carbon monoxide ?",
+    "answer": "CO",
+    "choices": [
+     "NF₃",
+     "CO₂",
+     "CO",
+     "H₂O"
+    ]
+   },
+   {
+    "question": "What is the formula for nitrogen trifluoride ?",
+    "answer": "NF₃",
+    "choices": [
+     "H₂O",
+     "PCl₅",
+     "SO₃",
+     "NF₃"
+    ]
+   },
+   {
+    "question": "What is the formula for phosphorus pentachloride ?",
+    "answer": "PCl₅",
+    "choices": [
+     "N₂O₄",
+     "H₂O",
+     "NF₃",
+     "PCl₅"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRxnCls",
+  "subject": "science",
+  "title": "Classify chemical reactions",
+  "section": "Chemical reactions",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciRxnCls9",
+   "sciRxnCls10",
+   "sciRxnCls11",
+   "sciRxnCls12"
+  ],
+  "examples": [
+   {
+    "question": "What type of reaction is C₂H₆O + 3O₂ → 2CO₂ + 3H₂O ?",
+    "answer": "Combustion",
+    "choices": [
+     "Decomposition",
+     "Combustion",
+     "Single replacement",
+     "Synthesis",
+     "Double replacement"
+    ]
+   },
+   {
+    "question": "What type of reaction is Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag ?",
+    "answer": "Single replacement",
+    "choices": [
+     "Decomposition",
+     "Combustion",
+     "Synthesis",
+     "Single replacement",
+     "Double replacement"
+    ]
+   },
+   {
+    "question": "What type of reaction is 2H₂O₂ → 2H₂O + O₂ ?",
+    "answer": "Decomposition",
+    "choices": [
+     "Synthesis",
+     "Double replacement",
+     "Decomposition",
+     "Combustion",
+     "Single replacement"
+    ]
+   },
+   {
+    "question": "What type of reaction is CaCO₃ → CaO + CO₂ ?",
+    "answer": "Decomposition",
+    "choices": [
+     "Synthesis",
+     "Decomposition",
+     "Single replacement",
+     "Double replacement",
+     "Combustion"
+    ]
+   },
+   {
+    "question": "What type of reaction is Zn + CuSO₄ → ZnSO₄ + Cu ?",
+    "answer": "Single replacement",
+    "choices": [
+     "Synthesis",
+     "Decomposition",
+     "Combustion",
+     "Double replacement",
+     "Single replacement"
+    ]
+   },
+   {
+    "question": "What type of reaction is NaOH + HCl → NaCl + H₂O ?",
+    "answer": "Double replacement",
+    "choices": [
+     "Combustion",
+     "Decomposition",
+     "Double replacement",
+     "Single replacement",
+     "Synthesis"
+    ]
+   },
+   {
+    "question": "What type of reaction is 2K + Br₂ → 2KBr ?",
+    "answer": "Synthesis",
+    "choices": [
+     "Double replacement",
+     "Single replacement",
+     "Combustion",
+     "Decomposition",
+     "Synthesis"
+    ]
+   },
+   {
+    "question": "What type of reaction is 2Mg + O₂ → 2MgO ?",
+    "answer": "Synthesis",
+    "choices": [
+     "Synthesis",
+     "Combustion",
+     "Double replacement",
+     "Decomposition",
+     "Single replacement"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "sciRate",
+  "subject": "science",
+  "title": "Factors that affect reaction rate",
+  "section": "Chemical reactions",
+  "grades": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "skillIds": [
+   "sciRate9",
+   "sciRate10",
+   "sciRate11",
+   "sciRate12"
+  ],
+  "examples": [
+   {
+    "question": "Raising the temperature usually makes a reaction …",
+    "answer": "faster",
+    "choices": [
+     "stop",
+     "faster",
+     "unchanged",
+     "slower"
+    ]
+   },
+   {
+    "question": "Increasing the concentration of reactants usually makes a reaction …",
+    "answer": "faster",
+    "choices": [
+     "unchanged",
+     "slower",
+     "stop",
+     "faster"
+    ]
+   },
+   {
+    "question": "Grinding a solid into powder makes it react faster because it increases …",
+    "answer": "surface area",
+    "choices": [
+     "surface area",
+     "colour",
+     "mass",
+     "density"
+    ]
+   },
+   {
+    "question": "A substance that speeds up a reaction without being used up is a …",
+    "answer": "catalyst",
+    "choices": [
+     "catalyst",
+     "reactant",
+     "product",
+     "solvent"
+    ]
+   },
+   {
+    "question": "Food spoils more slowly in a fridge because lower temperature …",
+    "answer": "slows reactions",
+    "choices": [
+     "removes water",
+     "speeds reactions",
+     "slows reactions",
+     "adds oxygen"
+    ]
+   },
+   {
+    "question": "Enzymes are biological …",
+    "answer": "catalysts",
+    "choices": [
+     "solvents",
+     "products",
+     "reactants",
+     "catalysts"
+    ]
+   }
+  ]
+ }
+]
