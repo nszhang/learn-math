@@ -409,11 +409,12 @@ K.makeTenAdd = () => () => {
   return num(`Make ten to add. ${w(`${a} + ${c}`)}<br>${a} + ${need} = 10, then 10 + ${c - need} = ?`, a + c, `${a} + ${c} = ${b(a + c)}.`);
 };
 K.doubles = P => () => {
-  const x = ri(1, 10);
+  const x = P.grade >= 2 ? ri(2, 20) : ri(1, 10);
   if (/plus one/.test(P.title)) return num(`Use doubles plus one. ${w(`${x} + ${x + 1}`)}<br>${x} + ${x} = ${2 * x}. So ${x} + ${x + 1} = ?`, 2 * x + 1, `${2 * x} + 1 = ${b(2 * x + 1)}.`);
   if (/minus one/.test(P.title)) return num(`Use doubles minus one. ${w(`${x + 1} + ${x}`)}<br>${x + 1} + ${x + 1} = ${2 * x + 2}. So ${x + 1} + ${x} = ?`, 2 * x + 1, `${2 * x + 2} − 1 = ${b(2 * x + 1)}.`);
   if (/subtract/.test(P.title)) return num(`Subtract doubles. ${w(`${2 * x} − ${x}`)}`, x, `Half of ${2 * x} is ${b(x)}.`);
   if (/three numbers/.test(P.title)) { const y = ri(1, 7); return num(`Add three numbers using doubles. ${w(`${x} + ${x} + ${y}`)}`, 2 * x + y, `${x} + ${x} = ${2 * x}, then ${2 * x} + ${y} = ${b(2 * x + y)}.`); }
+  if (Math.random() < 0.35) return num(`Add doubles. ${w(`${x} + ___ = ${2 * x}`)}`, x, `${x} + ${x} = ${2 * x}, so the missing number is ${b(x)}.`);
   return num(`Add doubles. ${w(`${x} + ${x} = ?`)}`, 2 * x, `${x} + ${x} = ${b(2 * x)}.`);
 };
 

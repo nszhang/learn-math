@@ -176,12 +176,13 @@ export const ALG6_RULES = [
 
   /* ===== proportional relationships ===== */
   R(/^Find the constant of proportionality from a (?:table|graph)$|^Write equations for proportional relationships from (?:tables|graphs)$|^Write and solve equations for proportional relationships$|^Identify proportional relationships(?: by graphing| from graphs and equations| from tables)?$|^Interpret graphs of proportional relationships$|^Graph proportional relationships$|^Complete a table and graph a proportional relationship$/, (mt, ctx) => () => {
-    const k = ri(2, 9), xs = [1, 2, 3, 4], t = ctx.title;
+    const t = ctx.title, half = /graph|Graph|table/.test(t) && Math.random() < 0.25, k = half ? pick([0.5, 1.5, 2.5]) : ri(2, /graph|Graph/.test(t) ? 9 : 15);
+    const xs = half ? [2, 4, 6, 8] : sample(range(1, 12), 4).sort((a, c) => a - c);
     if (/Identify/.test(t)) { const prop = Math.random() < 0.5, c0 = prop ? 0 : ri(1, 5); return yesNo(`${table(['x', 'y'], xs.map(x => [x, k * x + c0]))}Is the relationship between x and y proportional?`, prop, prop ? `y ÷ x is always ${k}: proportional.` : `y ÷ x changes (${fix((k + c0) / 1, 2)}, ${fix((2 * k + c0) / 2, 2)}, …): not proportional.`, ['Yes', 'No']); }
-    if (/graph|Graph/.test(t)) { const pts = [0, 1, 2, 3].map(x => ({ x, y: k * x, color: C.primary })); if (k * 3 > 20) return null; return num(`${plane({ min: 0, max: Math.max(10, k * 3 + 1), points: pts, labelEvery: 2 })}The points lie on a straight line through the origin. What is the constant of proportionality (y ÷ x)?`, k, `y ÷ x = ${k} for every point: ${b(k)}.`); }
+    if (/graph|Graph/.test(t)) { const gx = half ? [0, 2, 4, 6] : k <= 5 ? [0, 1, 2, 3] : [0, 1, 2], pts = gx.map(x => ({ x, y: k * x, color: C.primary })), top = Math.max(10, Math.ceil(k * gx[gx.length - 1] / 2) * 2 + 2); return num(`${plane({ min: 0, max: top, points: pts, labelEvery: 2 })}The points lie on a straight line through the origin. What is the constant of proportionality (y ÷ x)?`, k, `y ÷ x = ${k} for every point: ${b(k)}.`); }
     if (/Write equations/.test(t)) return mc(`${table(['x', 'y'], xs.map(x => [x, k * x]))}Which equation matches the table?`, `y = ${k}x`, [`y = x + ${k}`, `y = ${k + 1}x`, `y = x ÷ ${k}`], `y ÷ x = ${k}, so ${b(`y = ${k}x`)}.`, 4);
     if (/solve/.test(t)) { const x = ri(2, 9); return num(`${m(`y = ${k}x`)}. Find x when y = ${b(k * x)}.`, x, `${k * x} ÷ ${k} = ${b(x)}.`); }
-    return num(`${table(['x', 'y'], xs.map(x => [x, k * x]))}What is the constant of proportionality?`, k, `${k * 2} ÷ 2 = ${b(k)}.`);
+    return num(`${table(['x', 'y'], xs.map(x => [x, k * x]))}What is the constant of proportionality?`, k, `${fmt(k * xs[0])} ÷ ${xs[0]} = ${b(fmt(k))}.`);
   }),
 
   /* ===== sequences ===== */

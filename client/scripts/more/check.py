@@ -28,6 +28,11 @@ for key, qs in out.items():
     bad = [q for q in qs if isinstance(q, list) and len(q) == 4 and isinstance(q[2], list) and len(q[2]) == 3 and
            ((L(q[1]) * 1.8 < min(map(L, q[2])) and min(map(L, q[2])) - L(q[1]) > 8) or (L(q[1]) > 1.8 * max(map(L, q[2])) and L(q[1]) - max(map(L, q[2])) > 12))]
     if len(bad) >= 3: errs.append(f'{key}: in {len(bad)} questions the right answer is much longer or shorter than all the wrong answers, which gives it away — make the wrong answers similar in length, detail and form (e.g. {bad[0][0][:60]!r})')
+# giveaway: only the right answer carries a bracketed label, e.g. "slate (metamorphic)" vs "pumice"
+for key, qs in out.items():
+    tagged = [q for q in qs if isinstance(q, list) and len(q) == 4 and isinstance(q[2], list)
+              and re.search(r'\s\([^)]+\)$', str(q[1])) and not any(re.search(r'\([^)]+\)', str(w)) for w in q[2])]
+    if tagged: errs.append(f'{key}: in {len(tagged)} questions only the right answer has a (bracketed) note, which gives it away — drop the note or give every option one (e.g. {tagged[0][1]!r})')
 missing = [k for k in banks if k not in out]
 print(f'{len(out)} of {len(banks)} banks done, {n} questions; {len(errs)} problems; {len(missing)} banks missing')
 for e in errs[:40]: print('  ', e)

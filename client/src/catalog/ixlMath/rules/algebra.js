@@ -138,8 +138,10 @@ export const ALGEBRA_RULES = [
     return num(`${m(`${sup(base, e)} = ?`)}`, base ** e, `${Array(e).fill(base).join(' × ')} = ${b(base ** e)}.`);
   }),
   R(/^Write powers of ten with exponents$/, () => () => {
-    const e = ri(2, 6);
-    return num(`${m(`${fmt(10 ** e)} = ${sup(10, '___')}`)}`, e, `${fmt(10 ** e)} has ${e} zeros: ${b(e)}.`);
+    const e = ri(1, 9), kind = ri(0, 2);
+    if (kind === 1) return num(`${m(`${sup(10, e)} = ?`)}`, 10 ** e, `${sup(10, e)} is 1 followed by ${e} zero${e > 1 ? 's' : ''}: ${b(fmt(10 ** e))}.`);
+    if (kind === 2) return mc(`Which is equal to ${m(fmt(10 ** e))}?`, sup(10, e), uniq([sup(10, e + 1), sup(10, Math.max(1, e - 1)), sup(e, 10), `10 × ${e}`]).filter(x => x !== sup(10, e)), `${fmt(10 ** e)} has ${e} zero${e > 1 ? 's' : ''}, so it is ${b(sup(10, e))}.`, 4);
+    return num(`${m(`${fmt(10 ** e)} = ${sup(10, '___')}`)}`, e, `${fmt(10 ** e)} has ${e} zero${e > 1 ? 's' : ''}: ${b(e)}.`);
   }),
 
   /* ===== numerical expressions & order of operations ===== */

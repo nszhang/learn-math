@@ -922,9 +922,9 @@
    "Traditionally, <strong>peruse</strong> means …",
    "to read carefully and thoroughly",
    [
-    "to skim quickly",
-    "to throw away",
-    "to write quickly"
+    "to skim quickly for the main points",
+    "to glance over without much attention",
+    "to write a short summary of something"
    ],
    "Peruse traditionally means to examine closely, though it is often used to mean skim."
   ],
@@ -942,9 +942,9 @@
    "Traditionally, <strong>enervate</strong> means …",
    "to weaken or drain of energy",
    [
-    "to energize",
-    "to anger",
-    "to excite"
+    "to fill with fresh energy and life",
+    "to make someone angry or irritated",
+    "to excite or stir up strong feelings"
    ],
    "Enervate means to weaken, despite often being mistaken for energize."
   ],
@@ -962,9 +962,9 @@
    "Traditionally, <strong>begs the question</strong> means …",
    "assumes the conclusion in the argument itself",
    [
-    "raises an obvious question",
-    "asks politely",
-    "avoids answering"
+    "raises an obvious follow-up question",
+    "asks a question politely and directly",
+    "avoids answering the question asked"
    ],
    "Begging the question is traditionally a logical fallacy of circular reasoning, though many use it to mean \"raises the question.\""
   ],
@@ -1032,9 +1032,9 @@
    "Traditionally, <strong>they</strong> as a singular pronoun is …",
    "contested by some, but widely accepted for an unknown or non-binary person",
    [
-    "always incorrect in any style guide",
-    "only allowed for animals",
-    "used only in poetry"
+    "always incorrect in every style guide, with no exceptions allowed",
+    "acceptable only when referring to animals, never to people",
+    "used only in poetry, where normal grammar rules are relaxed"
    ],
    "Singular they has a long history and is now accepted by most major style guides, though some still contest it."
   ],
@@ -1062,9 +1062,9 @@
    "Traditionally, <strong>alright</strong> is considered …",
    "informal; \"all right\" is the standard spelling",
    [
-    "the only correct spelling",
-    "a British-only word",
-    "a synonym for \"almost\""
+    "formal; \"all right\" is now an outdated spelling",
+    "British only; Canadians always write it as one word",
+    "a synonym for \"almost\" used in casual speech"
    ],
    "Many style guides still prefer \"all right\" in formal writing."
   ],
@@ -5342,9 +5342,9 @@
    "The platinum acted as a <strong>catalyst</strong>, speeding up the reaction while remaining unchanged. What does the word in bold mean?",
    "a substance that speeds up a reaction without being used up",
    [
-    "a substance that stops a reaction",
-    "the product of a reaction",
-    "a tool for measuring heat"
+    "a substance that slows or stops a reaction",
+    "the new substance produced by a reaction",
+    "a tool for measuring the heat of a reaction"
    ],
    "The sentence explains that it speeds up the reaction and stays unchanged."
   ],
@@ -5352,9 +5352,9 @@
    "Carbon-12 and carbon-14 are <strong>isotopes</strong>; they have the same number of protons but different numbers of neutrons. What does the word in bold mean?",
    "forms of an element with different numbers of neutrons",
    [
-    "different elements with the same mass",
-    "molecules made of two elements",
-    "charged particles"
+    "different elements that have the same mass",
+    "molecules made of two different elements",
+    "charged particles formed by losing electrons"
    ],
    "The sentence defines isotopes by their differing neutrons."
   ],
@@ -5362,9 +5362,9 @@
    "Thanks to <strong>buoyancy</strong>, the upward push of the water, the heavy steel ship stayed afloat. What does the word in bold mean?",
    "the upward force a fluid exerts on an object",
    [
-    "the weight of the ship",
-    "the speed of the current",
-    "the depth of the water"
+    "the downward pull of gravity on the ship",
+    "the speed of the water current around it",
+    "the depth of water needed to float a ship"
    ],
    "The appositive explains it as the upward push of the water."
   ],
@@ -5372,9 +5372,9 @@
    "During <strong>mitosis</strong>, one cell divides to form two identical daughter cells. What does the word in bold mean?",
    "cell division producing two identical cells",
    [
-    "the death of a cell",
-    "the joining of two cells",
-    "the growth of a cell wall"
+    "the breakdown and death of an old cell",
+    "the joining of two cells into one cell",
+    "the growth of a new wall around a cell"
    ],
    "The sentence describes one cell dividing into two identical cells."
   ],
@@ -5432,9 +5432,9 @@
    "Through <strong>metamorphosis</strong>, the caterpillar transformed into a butterfly. What does the word in bold mean?",
    "a major change in form during development",
    [
-    "the shedding of skin only",
-    "hibernation through winter",
-    "the laying of eggs"
+    "the shedding of skin with no other change",
+    "a long sleep through the cold winter",
+    "the laying of eggs on a leaf for food"
    ],
    "The context shows a caterpillar changing into a completely different form."
   ],
@@ -5442,9 +5442,9 @@
    "Rubbing your hands together creates <strong>friction</strong>, which produces heat. What does the word in bold mean?",
    "a force that resists motion between surfaces in contact",
    [
-    "a type of magnetism",
-    "the absence of heat",
-    "a chemical reaction"
+    "a type of magnetism between two objects",
+    "the loss of heat when surfaces touch",
+    "a chemical reaction between two surfaces"
    ],
    "Rubbing surfaces together produces resistance and heat, which is friction."
   ],
@@ -5452,9 +5452,9 @@
    "The download was slow because the network's <strong>bandwidth</strong> could carry only a small amount of data at a time. What does the word in bold mean?",
    "the amount of data a network can transmit in a given time",
    [
-    "the length of a network cable",
-    "the price of internet service",
-    "the number of computers in a room"
+    "the total length of the cables in a network",
+    "the monthly price paid for internet service",
+    "the number of computers connected at once"
    ],
    "The clue says it limits how much data can be carried at a time."
   ],
@@ -5482,9 +5482,9 @@
    "A higher <strong>voltage</strong> pushes electric current through a circuit with more force. What does the word in bold mean?",
    "electrical potential difference that drives current",
    [
-    "the thickness of a wire",
-    "the brightness of a bulb only",
-    "the length of a circuit"
+    "the thickness of the wire in a circuit",
+    "the brightness of a bulb in the circuit",
+    "the total length of wire in the circuit"
    ],
    "The context describes it as what pushes current through a circuit."
   ],
@@ -5492,9 +5492,9 @@
    "Layers of <strong>sediment</strong>, such as sand and mud, settled at the bottom of the lake. What does the word in bold mean?",
    "particles of material that settle out of water or air",
    [
-    "dissolved gases",
-    "floating plants",
-    "fish eggs"
+    "gases that dissolve into lake water",
+    "plants that float at the water's surface",
+    "eggs laid by fish along the lake bottom"
    ],
    "Sand and mud settling to the bottom are examples of sediment."
   ],
@@ -5522,9 +5522,9 @@
    "The cell <strong>membrane</strong> acts as a thin barrier that controls what enters and leaves the cell. What does the word in bold mean?",
    "a thin layer that surrounds and protects a cell",
    [
-    "the control centre of a cell",
-    "the energy source of a cell",
-    "a liquid inside the cell"
+    "the control centre that holds the DNA",
+    "the part that releases energy for a cell",
+    "the jelly-like liquid inside the cell"
    ],
    "The context describes a thin barrier controlling what passes in and out."
   ],
@@ -5542,9 +5542,9 @@
    "Light from a nearby star takes about four years to reach Earth, so the star is about four <strong>light-years</strong> away. What does the word in bold mean?",
    "a unit of distance equal to how far light travels in a year",
    [
-    "a unit of time equal to one year",
-    "a measure of a star's brightness",
-    "the age of a star"
+    "a unit of time equal to one Earth year",
+    "a measure of how bright a star appears",
+    "the number of years a star has existed"
    ],
    "The clue links the distance to how many years light takes to travel it."
   ]

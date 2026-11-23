@@ -254,7 +254,7 @@ export const NUMSYS_RULES = [
     return num(`${m(`${base}<sup>x</sup> = ${fmt(base ** e)}`)} Solve for x.`, e, `${base}^${e} = ${fmt(base ** e)}, so x = ${b(e)}.`);
   }),
   R(/^Square roots of perfect squares$|^Relationship between squares and square roots$|^Estimate square roots$|^Solve equations involving squares and square roots$/, (mt, ctx) => () => {
-    const n = ri(2, 15);
+    const n = ri(2, 25);
     if (/Estimate/.test(ctx.title)) { const x = n * n + ri(1, 2 * n), r = Math.sqrt(x), lo = Math.floor(r); return mc(`Between which two integers is ${m(`√${x}`)}?`, `${lo} and ${lo + 1}`, [`${lo - 1} and ${lo}`, `${lo + 1} and ${lo + 2}`, `${Math.round(x / 10)} and ${Math.round(x / 10) + 1}`].filter(v_ => v_ !== `${lo} and ${lo + 1}` && !v_.startsWith('0') && !v_.includes('-')), `${lo}² = ${lo * lo} and ${lo + 1}² = ${(lo + 1) ** 2}.`, 4); }
     if (/Relationship/.test(ctx.title)) return num(`${m(`(√${n * n})²`)} = ?`, n * n, `Squaring undoes a square root: ${b(n * n)}.`);
     if (/Solve/.test(ctx.title)) return num(`${m(`x² = ${n * n}`)}. What is the positive solution for x?`, n, `√${n * n} = ${b(n)}.`);

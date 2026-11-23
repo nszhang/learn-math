@@ -210,8 +210,8 @@ export const VARIETY_RULES = [
     const wide = Math.random() < 0.5, first = Math.random() < 0.5 ? [w, n] : [n, w];
     return mc(`Which is ${b(wide ? 'wider' : 'narrower')}: ${first[0]} or ${first[1]}?`, wide ? w : n, [wide ? n : w], `${cap(w)} is wider than ${n}.`, 2);
   }),
-  R(/^Coin values - (nickel and dime|quarter, loonie and toonie)$/, mt => () => {
-    const pool = mt[1].startsWith('nickel') ? [5, 10] : [25, 100, 200], v = pick(pool), kind = ri(0, 3);
+  R(/^Coin values(?: - (nickel and dime|quarter, loonie and toonie|all coins))?$/, mt => () => {
+    const pool = mt[1]?.startsWith('nickel') ? [5, 10] : mt[1]?.startsWith('quarter') ? [25, 100, 200] : [5, 10, 25, 100, 200], v = pick(pool), kind = ri(0, 3);
     if (kind === 0) return mc(`${coinPic(v)}<br>How much is this coin worth?`, cents(v), pool.filter(x => x !== v).map(cents).concat([5, 10, 25, 100, 200].filter(x => !pool.includes(x)).map(cents)).slice(0, 3), `This is a ${coinName(v)}. It is worth ${b(cents(v))}.`, 4);
     if (kind === 1) return mc(`${coinPic(v)}<br>What is the name of this coin?`, coinName(v), ['nickel', 'dime', 'quarter', 'loonie', 'toonie'].filter(x => x !== coinName(v)).slice(0, 3), `This coin is a ${b(coinName(v))}.`, 4);
     if (kind === 2) { const list = shuffle([5, 10, 25, 100, 200]).slice(0, 3); if (!list.includes(v)) list[ri(0, 2)] = v; return pickPic(`Which coin is the ${b(coinName(v))}?`, list.map(coinPic), list.indexOf(v), L => `Coin ${b(L)} is the ${coinName(v)}.`); }

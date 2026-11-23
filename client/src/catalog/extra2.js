@@ -466,7 +466,7 @@ export const EXTRA2_SKILLS = [
       explain: `Distribute: ${a}x + ${a * b} − x. Combine like terms: (${a} − 1)x + ${a * b} = <strong>${correct}</strong>.` };
   }),
   S('t60', 'Cube roots', 7, 'Exponents', '💪', () => {
-    const n = ri(2, 6);
+    const n = ri(1, 12);
     return { type: 'num', prompt: `${m(`∛${n * n * n} = ?`)}`,
       answer: n,
       explain: `💡 Cube root undoes cubing: ${n}³ = ${n * n * n}, so ∛${n * n * n} = <strong>${n}</strong>.` };

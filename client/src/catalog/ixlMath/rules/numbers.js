@@ -73,7 +73,10 @@ export const NUMBER_RULES = [
     return num(`${numberLine({ min: lo, max: hi, marks: [{ v, label: '?' }] })}What number is the point at?`, v, `Count the tick marks from ${lo}: the point is at ${b(v)}.`);
   }, { grades: [1] }),
   R(/^Number lines(?: - up to (\d+)|: up to (\d+))$/, mt => () => {
-    const base = +(mt[1] || mt[2]) <= 100 ? 0 : ri(0, 9) * 100, v = base + ri(1, 9) * 10;
+    const top = +(mt[1] || mt[2]);
+    if (top <= 30) { let v; do v = ri(1, top - 1); while (v % 5 === 0); return mc(`${numberLine({ min: 0, max: top, step: 1, labelEvery: 5, marks: [{ v, label: '?' }] })}What number is the point at?`, v, near(v, 5, 2, { min: 0 }).filter(x => x <= top), `Count the ticks from ${Math.floor(v / 5) * 5}: the point is at ${b(v)}.`); }
+    if (top === 100 && Math.random() < 0.5) { let v; do v = ri(1, 19) * 5; while (v % 20 === 0); return mc(`${numberLine({ min: 0, max: 100, step: 5, labelEvery: 4, marks: [{ v, label: '?' }] })}What number is the point at?`, v, near(v, 5, 3, { step: 5 }), `Each tick is 5. The point is at ${b(v)}.`); }
+    const base = top <= 100 ? 0 : ri(0, 9) * 100, v = base + ri(1, 9) * 10;
     return mc(`${numberLine({ min: base, max: base + 100, step: 10, labelEvery: 5, marks: [{ v, label: '?' }] })}What number is the point at?`, v, near(v, 5, 3, { step: 10 }), `Each tick is 10. The point is at ${b(v)}.`);
   }),
   R(/^Place numbers on number lines(?: - |: )up to (\d+)$/, mt => () => {
@@ -132,8 +135,9 @@ export const NUMBER_RULES = [
 
   /* ---------- skip counting & sequences ---------- */
   R(/^Skip-count by (twos|fives|tens)$/, mt => () => {
-    const s = { twos: 2, fives: 5, tens: 10 }[mt[1]], st = ri(0, 4) * s, seq = [0, 1, 2, 3].map(i => st + i * s);
-    return num(`Skip-count by ${s}s: ${m(seq.join(', ') + ', ___')}`, st + 4 * s, `Add ${s} each time: ${seq[3]} + ${s} = ${b(st + 4 * s)}.`);
+    const s = { twos: 2, fives: 5, tens: 10 }[mt[1]], top = s === 2 ? 30 : 100, st = ri(0, top / s - 4) * s, seq = [0, 1, 2, 3, 4].map(i => st + i * s);
+    const hole = ri(1, 4), shown = seq.map((v, i) => (i === hole ? '___' : v)).join(', ');
+    return num(`Skip-count by ${s}s: ${m(shown)}`, seq[hole], `Add ${s} each time: ${seq[hole - 1]} + ${s} = ${b(seq[hole])}.`);
   }),
   R(/^(?:Skip-count|Count) by ((?:twos|fives|tens|hundreds)(?:(?:,| and) (?:twos|fives|tens|hundreds))*)$/, mt => () => {
     const opts = mt[1].split(/, | and /).map(w => ({ twos: 2, fives: 5, tens: 10, hundreds: 100 }[w]));

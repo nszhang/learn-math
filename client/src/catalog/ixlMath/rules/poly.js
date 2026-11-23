@@ -83,11 +83,11 @@ export const POLY_RULES = [
     const t = ctx.title, n = ri(2, 4), base = ri(2, 9);
     if (/rational exponents/.test(t)) { const [p, q] = pick([[1, 2], [3, 2], [1, 3], [2, 3], [1, 4]]), root = ri(2, 5), arg = root ** q; const v_ = root ** p; return num(`Evaluate ${m(`${arg}<sup>${p}/${q}</sup>`)}.`, v_, `${arg}^(${p}/${q}) = (${q === 2 ? '√' : q === 3 ? '∛' : '⁴√'}${arg})^${p} = ${root}^${p} = ${b(v_)}.`); }
     if (/Square roots of fractions and decimals/.test(t)) return Math.random() < 0.5 ? num(`${m(`√${dec(base * base / 100, 2)}`)} = ?`, base / 10, `√${dec(base * base / 100, 2)} = ${b(base / 10)}.`) : mc(`${m(`√(${stack(base * base, (base + 1) ** 2)})`)} = ?`, fs(base, base + 1), [fs(base * base, base + 1), fs(base, (base + 1) ** 2), fs(base + 1, base)], `Take the root of the numerator and denominator: ${b(fs(base, base + 1))}.`, 4);
-    if (/Cube/.test(t)) return num(`${m(`∛${base ** 3}`)} = ?`, base, `${base}³ = ${base ** 3}: ${b(base)}.`);
+    if (/Cube/.test(t)) { const c = ri(1, 12), neg = ctx.grade >= 9 && Math.random() < 0.3; return num(`${m(`∛${neg ? MINUS : ''}${fmt(c ** 3)}`)} = ?`, neg ? -c : c, `${neg ? MINUS : ''}${c} × ${neg ? MINUS : ''}${c} × ${neg ? MINUS : ''}${c} = ${neg ? MINUS : ''}${fmt(c ** 3)}: ${b(neg ? MINUS + c : c)}.`); }
     if (/Nth/.test(t)) { const idx = pick([3, 4, 5]), bb = idx === 5 ? 2 : ri(2, 4), neg = idx % 2 === 1 && Math.random() < 0.4; return num(`${m(`<sup>${idx}</sup>√(${neg ? MINUS : ''}${bb ** idx})`)} = ?`, neg ? -bb : bb, `${bb}^${idx} = ${bb ** idx}: ${b(S(neg ? -bb : bb))}.`); }
     if (/rational numbers/.test(t)) return mc(`${m(`√(${stack(base * base, 36)})`)} = ?`, fs(...simp(base, 6)), [fs(base * base, 6), fs(base, 36), fs(...simp(base + 1, 6))], `√${base * base}/√36 = ${b(fs(...simp(base, 6)))}.`, 4);
     if (/calculator/.test(t)) { const x = ri(2, 40), r = Math.round(Math.sqrt(x) * 100) / 100; return num(`Use a calculator: ${m(`√${x}`)} ≈ ? (round to 2 decimals)`, r, `√${x} ≈ ${b(r)}.`); }
-    return num(`${m(`√${base * base}`)} = ?`, base, `${base} × ${base} = ${base * base}: ${b(base)}.`);
+    { const r = ri(2, 25); return num(`${m(`√${fmt(r * r)}`)} = ?`, r, `${r} × ${r} = ${fmt(r * r)}: ${b(r)}.`); }
   }),
   R(/^Operations with rational exponents$|^Multiplication with rational exponents$|^Division with rational exponents$|^Simplify expressions involving rational exponents(?: I| II)?$/, (mt, ctx) => () => {
     const [n1, d] = pick([[1, 2], [1, 3], [2, 3], [1, 4]]), n2 = ri(1, 3), v_ = pick(['x', 'a']), mulOp = !/Division/.test(ctx.title);

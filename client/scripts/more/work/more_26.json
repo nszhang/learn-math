@@ -1,0 +1,2222 @@
+{
+ "sciXsPMPres": [
+  [
+   "When gas particles in a sealed jar start moving faster, what happens to the gas pressure?",
+   "It increases",
+   [
+    "It decreases",
+    "It stays the same",
+    "It drops to zero"
+   ],
+   "Faster particles hit the walls more often and with more force, so the pressure rises."
+  ],
+  [
+   "Why does heating a sealed can of gas raise its pressure?",
+   "The particles hit the walls harder and more often",
+   [
+    "The particles grow bigger and fill up the can",
+    "The particles stick to the walls of the can",
+    "The particles stop moving and pile up inside"
+   ],
+   "Heat gives particles more kinetic energy, so their collisions with the walls are stronger and more frequent."
+  ],
+  [
+   "A sealed syringe of air is pushed in to half its volume at the same temperature. What happens to the pressure?",
+   "It increases",
+   [
+    "It decreases",
+    "It stays the same",
+    "It drops to zero"
+   ],
+   "The same number of particles in less space hit the walls more often, raising the pressure."
+  ],
+  [
+   "Why does squeezing a gas into a smaller space raise its pressure?",
+   "Particles hit the walls more often",
+   [
+    "Particles move much more slowly",
+    "Particles become heavier",
+    "Particles turn into a liquid"
+   ],
+   "With less room, particles reach the walls more frequently, so there are more collisions each second."
+  ],
+  [
+   "More air is pumped into a basketball. Why does the pressure inside go up?",
+   "There are more particles hitting the inside walls",
+   [
+    "The particles inside become much larger in size",
+    "The ball's rubber pushes the particles together",
+    "The air particles stop moving once inside the ball"
+   ],
+   "Adding particles means more collisions with the ball's inner surface, which raises pressure."
+  ],
+  [
+   "A tire's pressure reads higher after a long highway drive. What is the best explanation?",
+   "The air in the tire warmed and its particles sped up",
+   [
+    "The air in the tire cooled and its particles slowed",
+    "Air particles leaked out of the tire during the drive",
+    "The tire's rubber got colder and pressed inward"
+   ],
+   "Friction warms the tire, and warmer air particles move faster and push harder on the walls."
+  ],
+  [
+   "What happens to the average speed of gas particles when the gas is cooled?",
+   "It decreases",
+   [
+    "It increases",
+    "It stays the same",
+    "It doubles"
+   ],
+   "Cooling removes thermal energy, so particles move more slowly on average."
+  ],
+  [
+   "A sealed bag of chips puffs up when it is taken high up a mountain. Why?",
+   "The air outside pushes on the bag with less pressure",
+   [
+    "The air inside the bag gets much colder on the way",
+    "The chips give off extra gas as the bag goes up",
+    "The air particles inside the bag grow much bigger"
+   ],
+   "At high altitude the outside air pressure is lower, so the gas inside pushes the bag outward."
+  ],
+  [
+   "Which change would <strong>lower</strong> the pressure of a gas in a sealed, rigid container?",
+   "Cooling the container",
+   [
+    "Heating the container",
+    "Pumping in more gas",
+    "Warming it in the sun"
+   ],
+   "Cooling slows the particles, so they hit the walls less often and with less force."
+  ],
+  [
+   "Gas pressure is measured in which SI unit?",
+   "Pascals",
+   [
+    "Newtons",
+    "Joules",
+    "Kelvins"
+   ],
+   "Pressure is force per area, measured in pascals (newtons per square metre)."
+  ],
+  [
+   "Why does an aerosol can carry a warning not to heat it?",
+   "Heating raises the pressure and can burst the can",
+   [
+    "Heating lowers the pressure and crushes the can",
+    "Heating turns the gas inside into a solid",
+    "Heating makes the gas particles stop moving"
+   ],
+   "Hot gas particles move faster and push harder until the can may burst."
+  ],
+  [
+   "Gas in a sealed container is heated. What happens to the collisions of its particles with the walls?",
+   "More collisions each second, with more force",
+   [
+    "Fewer collisions each second, with less force",
+    "The same collisions each second, with less force",
+    "No collisions at all, since the gas has expanded"
+   ],
+   "Faster particles reach the walls more often and strike harder, which is why pressure rises."
+  ],
+  [
+   "Why does a balloon left in a hot car get tighter?",
+   "The warm air particles push harder on the rubber",
+   [
+    "The cool air particles push less on the rubber",
+    "The rubber soaks up more air from the car",
+    "The air particles inside join together"
+   ],
+   "Heat makes the air particles inside move faster and push outward with more force."
+  ],
+  [
+   "A plastic bottle is capped on a warm day, then put in the fridge. Why does it dent inward?",
+   "The pressure inside drops below the pressure outside",
+   [
+    "The pressure inside rises above the pressure outside",
+    "The cold plastic particles grow and bend inward",
+    "The air particles inside speed up and pull the walls"
+   ],
+   "Cooling slows the particles inside, lowering the inside pressure so the outside air pushes the walls in."
+  ],
+  [
+   "Which statement about gas particles in a container is true?",
+   "They move randomly and hit the walls constantly",
+   [
+    "They stay still unless the container is shaken",
+    "They move only in straight lines toward the lid",
+    "They line up in rows along the container walls"
+   ],
+   "Gas particles move quickly in all directions, and their constant collisions with the walls cause pressure."
+  ],
+  [
+   "Two identical sealed jars hold the same amount of gas. Jar A is at 50 °C and Jar B is at 10 °C. Which has higher pressure?",
+   "Jar A, because its particles move faster",
+   [
+    "Jar B, because its particles move faster",
+    "Jar B, because cold gas is more crowded",
+    "Neither, since the jars are the same size"
+   ],
+   "Warmer gas particles move faster and hit the walls harder and more often."
+  ],
+  [
+   "What happens to gas pressure if the number of particles in a sealed container is doubled at the same temperature?",
+   "It increases",
+   [
+    "It decreases",
+    "It stays the same",
+    "It drops to zero"
+   ],
+   "Twice as many particles make about twice as many collisions with the walls."
+  ],
+  [
+   "Why do drivers in Canada often need to add air to their tires in winter?",
+   "Cold air in the tires has lower pressure",
+   [
+    "Cold air in the tires has higher pressure",
+    "Snow pushes air out through the rubber",
+    "Icy roads squeeze air out of the tires"
+   ],
+   "Cold slows the air particles inside the tire, so they push on the walls less."
+  ],
+  [
+   "When you blow up a balloon, what keeps it inflated?",
+   "Air particles inside hitting the rubber walls",
+   [
+    "Air particles inside sticking to the rubber",
+    "The balloon's colour holding its round shape",
+    "Air particles outside pulling the rubber outward"
+   ],
+   "Countless collisions of air particles against the inside of the rubber push it outward."
+  ],
+  [
+   "A popcorn kernel is heated and the water inside turns to steam. Why does it burst?",
+   "Steam pressure builds until the shell breaks",
+   [
+    "Steam pressure drops until the shell caves in",
+    "Steam particles slow down and shrink the shell",
+    "Steam particles freeze and crack the shell"
+   ],
+   "Fast-moving steam particles trapped inside push harder and harder on the shell until it bursts."
+  ],
+  [
+   "Why is there almost no gas pressure in outer space?",
+   "There are very few particles to hit surfaces",
+   [
+    "The particles there move extremely fast",
+    "The particles there are much larger",
+    "The particles there are all stuck together"
+   ],
+   "Pressure comes from particle collisions, and space has very few particles."
+  ],
+  [
+   "A scuba tank full of air is left in the hot sun. What could happen?",
+   "The pressure rises, which can be dangerous",
+   [
+    "The pressure falls, so the tank gets lighter",
+    "The air turns to liquid and leaks out",
+    "The pressure stays the same, since it is sealed"
+   ],
+   "Heating the trapped air makes its particles move faster, raising the pressure inside the tank."
+  ]
+ ],
+ "sciHTT": [
+  [
+   "Which is an example of conduction?",
+   "A metal spoon warming up in hot soup",
+   [
+    "Sunlight warming the seats of a car",
+    "Warm air rising from a radiator",
+    "A fireplace warming your face from afar"
+   ],
+   "Heat passes directly from the hot soup into the spoon through contact."
+  ],
+  [
+   "Which is an example of radiation?",
+   "The Sun warming the ground",
+   [
+    "A pot handle heating up on a stove",
+    "Warm water rising in a heated pot",
+    "Ice melting in your warm hand"
+   ],
+   "The Sun's energy travels through space as radiation without needing particles."
+  ],
+  [
+   "Which is an example of convection?",
+   "Hot soup circulating in a pot on the stove",
+   [
+    "A glowing heat lamp warming a lizard tank",
+    "An ice pack cooling a sore ankle",
+    "A hot plate warming the bottom of a mug"
+   ],
+   "Warm soup rises and cooler soup sinks, making a current that carries heat."
+  ],
+  [
+   "How does heat from the Sun reach Earth through empty space?",
+   "By radiation",
+   [
+    "By conduction",
+    "By convection",
+    "By insulation"
+   ],
+   "Radiation is the only type of heat transfer that can travel through empty space."
+  ],
+  [
+   "How does heat travel along a metal rod when one end is held in a flame?",
+   "By conduction",
+   [
+    "By radiation",
+    "By convection",
+    "By insulation"
+   ],
+   "Particles in the solid rod pass energy to neighbouring particles along its length."
+  ],
+  [
+   "In conduction, how is heat passed along?",
+   "Particles bump into neighbouring particles",
+   [
+    "Warm fluid rises and cooler fluid sinks",
+    "Waves travel across empty space",
+    "Particles leave the object as smoke"
+   ],
+   "Conduction happens when vibrating particles pass energy to the particles next to them."
+  ],
+  [
+   "Convection can happen only in which states of matter?",
+   "Liquids and gases",
+   [
+    "Solids only",
+    "Solids and liquids",
+    "Solids and gases"
+   ],
+   "Convection needs particles that can flow, which happens in liquids and gases."
+  ],
+  [
+   "Why does warm air rise in convection?",
+   "It is less dense than the cooler air around it",
+   [
+    "It is more dense than the cooler air around it",
+    "Its particles move more slowly than cool air",
+    "It is pulled upward by the light from the Sun"
+   ],
+   "Warm air spreads out and becomes less dense, so cooler, denser air sinks and pushes it up."
+  ],
+  [
+   "Why are the bottoms of many pots made of copper or aluminum?",
+   "Metals are good conductors of heat",
+   [
+    "Metals are good insulators of heat",
+    "Metals block all heat radiation",
+    "Metals stop convection in the food"
+   ],
+   "Metals let heat pass quickly from the burner to the food."
+  ],
+  [
+   "Why does a black shirt feel hotter in the sunshine than a white one?",
+   "Dark colours absorb more radiation",
+   [
+    "Dark colours reflect more radiation",
+    "Dark colours make the nearby air cold",
+    "Dark colours stop heat from moving"
+   ],
+   "Dark surfaces absorb more of the Sun's radiation, while light surfaces reflect more of it."
+  ],
+  [
+   "Which type of heat transfer is this? Your hand gets cold while holding a snowball.",
+   "Conduction",
+   [
+    "Radiation",
+    "Convection",
+    "Insulation"
+   ],
+   "Heat flows from your hand into the snowball through direct contact."
+  ],
+  [
+   "Which type of heat transfer is this? A heat lamp keeps food warm on a restaurant counter.",
+   "Radiation",
+   [
+    "Conduction",
+    "Convection",
+    "Insulation"
+   ],
+   "The lamp gives off radiation that travels to the food without touching it."
+  ],
+  [
+   "Which type of heat transfer is this? Warm ocean currents carry heat from the tropics toward the poles.",
+   "Convection",
+   [
+    "Conduction",
+    "Radiation",
+    "Insulation"
+   ],
+   "Moving water carries heat from place to place, which is convection."
+  ],
+  [
+   "Which type of heat transfer is this? Your bare feet feel hot as you walk on sunny sand.",
+   "Conduction",
+   [
+    "Radiation",
+    "Convection",
+    "Insulation"
+   ],
+   "Heat moves from the hot sand into your feet where they touch."
+  ],
+  [
+   "Which material would make the best insulating layer in a winter coat?",
+   "Wool that traps air",
+   [
+    "Thin aluminum foil",
+    "A sheet of copper",
+    "A layer of steel mesh"
+   ],
+   "Wool and trapped air are poor conductors, so they slow heat loss from your body."
+  ],
+  [
+   "Why does a vacuum flask keep hot chocolate warm?",
+   "Its vacuum layer blocks conduction and convection",
+   [
+    "Its vacuum layer speeds up heat conduction",
+    "Its metal walls produce new heat for the drink",
+    "Its lid pulls cold air down into the drink"
+   ],
+   "With almost no particles in the vacuum, heat cannot travel across it by conduction or convection."
+  ],
+  [
+   "In which direction does heat flow on its own?",
+   "From a warmer object to a cooler one",
+   [
+    "From a cooler object to a warmer one",
+    "From a larger object to a smaller one",
+    "From a lighter object to a heavier one"
+   ],
+   "Thermal energy always moves naturally from higher temperature to lower temperature."
+  ],
+  [
+   "Why is a heater usually placed near the floor of a room?",
+   "Warm air rises and spreads through the room",
+   [
+    "Cool air rises and pushes heat downward",
+    "Heat can only travel toward the floor",
+    "The floor conducts heat up to the ceiling"
+   ],
+   "Air warmed near the floor rises, and cooler air sinks to be heated, setting up a convection current."
+  ],
+  [
+   "Why do oven mitts protect your hands from a hot pan?",
+   "They are poor conductors of heat",
+   [
+    "They are good conductors of heat",
+    "They create convection in the pan",
+    "They make the pan cooler inside"
+   ],
+   "Mitts are insulators, so they slow the conduction of heat from the pan to your hand."
+  ],
+  [
+   "Which type of heat transfer is this? A cat warms itself lying in a patch of sunlight.",
+   "Radiation",
+   [
+    "Conduction",
+    "Convection",
+    "Insulation"
+   ],
+   "Sunlight carries energy as radiation that the cat's fur absorbs."
+  ],
+  [
+   "Which type of heat transfer is this? A hair dryer blows hot air across wet hair.",
+   "Convection",
+   [
+    "Conduction",
+    "Radiation",
+    "Insulation"
+   ],
+   "The moving hot air carries heat to the hair, which is convection."
+  ],
+  [
+   "Why does a metal bench feel colder than a wooden bench on the same cold day?",
+   "Metal conducts heat away from your body faster",
+   [
+    "Metal is always colder than the air around it",
+    "Wood makes its own heat from the sunlight",
+    "Metal radiates cold straight into your body"
+   ],
+   "Both are the same temperature, but metal conducts heat from your skin much more quickly."
+  ]
+ ],
+ "sciPhChem": [
+  [
+   "Which of these is a chemical change?",
+   "Baking a cake",
+   [
+    "Chopping carrots",
+    "Melting chocolate",
+    "Dissolving sugar"
+   ],
+   "Baking forms new substances that cannot be turned back into the raw batter."
+  ],
+  [
+   "Which of these is a physical change?",
+   "Crushing a pop can",
+   [
+    "Burning a candle wick",
+    "Frying an egg",
+    "Milk turning sour"
+   ],
+   "Crushing changes only the can's shape; it is still aluminum."
+  ],
+  [
+   "Which of these is a chemical change?",
+   "A cut apple turning brown",
+   [
+    "Sanding a wooden plank",
+    "Boiling a kettle of water",
+    "Cutting an apple into slices"
+   ],
+   "The browning comes from a reaction that forms new substances in the apple."
+  ],
+  [
+   "Which of these is a physical change?",
+   "Salt dissolving in water",
+   [
+    "Wood burning in a fireplace",
+    "Bread toasting in a toaster",
+    "Iron nails rusting outside"
+   ],
+   "The salt is still salt; evaporating the water would get it back."
+  ],
+  [
+   "Which observation is evidence of a chemical change?",
+   "Two liquids mix and new gas bubbles form",
+   [
+    "Ice cubes shrink as they slowly melt",
+    "Water bubbles as it boils in a pot",
+    "Clay changes shape as it is pressed"
+   ],
+   "Producing a new gas from mixing substances shows a new substance has formed."
+  ],
+  [
+   "Which is <strong>not</strong> evidence of a chemical change?",
+   "A change in shape",
+   [
+    "A new colour forms",
+    "A gas is produced",
+    "Light is given off"
+   ],
+   "Changing shape is a physical change, because no new substance is made."
+  ],
+  [
+   "Why is burning paper a chemical change?",
+   "New substances such as ash and smoke form",
+   [
+    "The paper only changes its shape",
+    "The paper only changes its state",
+    "The paper only changes its size"
+   ],
+   "Burning turns paper into different substances that cannot become paper again."
+  ],
+  [
+   "Why is melting ice a physical change?",
+   "No new substance forms; it is still water",
+   [
+    "A new substance forms, such as a gas",
+    "The water turns into a new element",
+    "The ice combines with oxygen in the air"
+   ],
+   "Melting changes only the state of water, not what it is made of."
+  ],
+  [
+   "Which of these is a chemical change?",
+   "Fireworks exploding in the sky",
+   [
+    "Glass shattering on a floor",
+    "Butter softening in the sun",
+    "Steam fogging up a mirror"
+   ],
+   "Fireworks give off light, heat and smoke as new substances form."
+  ],
+  [
+   "Which of these is a physical change?",
+   "Mixing sand with gravel",
+   [
+    "Baking soda fizzing in vinegar",
+    "Leaves rotting on the ground",
+    "Gasoline burning in an engine"
+   ],
+   "Sand and gravel keep their own properties and can be separated again."
+  ],
+  [
+   "Which of these is a chemical change that happens in your body?",
+   "Digesting food in the stomach",
+   [
+    "Chewing food into small bits",
+    "Sweat drying on your skin",
+    "Hair being trimmed shorter"
+   ],
+   "Digestion breaks food down into new, simpler substances through chemical reactions."
+  ],
+  [
+   "A silver spoon slowly turns black. What kind of change is this?",
+   "Chemical, because a new black substance forms",
+   [
+    "Physical, because only the colour changes",
+    "Physical, because the spoon keeps its shape",
+    "Chemical, because the spoon gets colder"
+   ],
+   "Tarnish is a new substance formed when silver reacts with substances in the air."
+  ],
+  [
+   "Water is boiled into steam. Which statement is correct?",
+   "Physical, because it is still water",
+   [
+    "Chemical, because a gas is formed",
+    "Chemical, because bubbles appear",
+    "Physical, because new particles form"
+   ],
+   "Steam is water in a different state, so no new substance has formed."
+  ],
+  [
+   "Which of these is a chemical change?",
+   "Lighting a match",
+   [
+    "Snapping a match",
+    "Melting candle wax",
+    "Snow melting on a roof"
+   ],
+   "Lighting a match burns its tip, producing heat, light and new substances."
+  ],
+  [
+   "Which of these is a physical change?",
+   "Stretching an elastic band",
+   [
+    "Cooking an egg in a pan",
+    "Burning toast in a toaster",
+    "A car door slowly rusting"
+   ],
+   "Stretching changes only the band's shape and size."
+  ],
+  [
+   "Which change is usually hard or impossible to reverse?",
+   "Burning a log",
+   [
+    "Freezing water",
+    "Melting wax",
+    "Dissolving salt"
+   ],
+   "Burning is a chemical change, so the ash and gases cannot easily become wood again."
+  ],
+  [
+   "Which of these is a chemical change?",
+   "Vinegar fizzing on chalk",
+   [
+    "Chalk being ground to dust",
+    "Chalk dust blowing away",
+    "Chalk snapping in half"
+   ],
+   "The fizzing shows a gas forming as vinegar reacts with the chalk."
+  ],
+  [
+   "An egg turns from clear to white as it cooks and cannot change back. What does this show?",
+   "A chemical change took place",
+   [
+    "A physical change took place",
+    "Only the egg's state changed",
+    "Only the egg's size changed"
+   ],
+   "Cooking changes the egg's proteins into new forms that cannot be undone."
+  ],
+  [
+   "Which of these is a physical change?",
+   "Dry ice turning into a gas",
+   [
+    "Wood turning into charcoal",
+    "A cake rising in the oven",
+    "A copper roof turning green"
+   ],
+   "Dry ice is solid carbon dioxide changing state into carbon dioxide gas."
+  ],
+  [
+   "Which of these is a chemical change?",
+   "Plants making sugar in sunlight",
+   [
+    "Water evaporating from a pond",
+    "Rocks cracking from frost",
+    "Dew forming on the grass"
+   ],
+   "In photosynthesis, carbon dioxide and water react to make sugar and oxygen."
+  ],
+  [
+   "Which pair are <strong>both</strong> physical changes?",
+   "Cutting hair and melting snow",
+   [
+    "Burning wood and melting snow",
+    "Cutting hair and rusting iron",
+    "Burning wood and rusting iron"
+   ],
+   "Cutting and melting change shape or state but make no new substances."
+  ],
+  [
+   "Which pair are <strong>both</strong> chemical changes?",
+   "Rusting iron and burning gas",
+   [
+    "Rusting iron and boiling water",
+    "Folding paper and burning gas",
+    "Folding paper and boiling water"
+   ],
+   "Rusting and burning both form new substances."
+  ]
+ ],
+ "sciMixt": [
+  [
+   "Which of these is a pure substance?",
+   "Distilled water",
+   [
+    "Salad dressing",
+    "Sea water",
+    "Granola"
+   ],
+   "Distilled water contains only water particles."
+  ],
+  [
+   "Which of these is a mixture?",
+   "Air",
+   [
+    "Carbon dioxide",
+    "Iron",
+    "Table salt"
+   ],
+   "Air is made of several gases, such as nitrogen and oxygen, mixed together."
+  ],
+  [
+   "Which of these is a pure substance?",
+   "Table sugar",
+   [
+    "Orange juice",
+    "Concrete",
+    "Milk"
+   ],
+   "Table sugar is a single compound, sucrose."
+  ],
+  [
+   "Which of these is a mixture?",
+   "Garden soil",
+   [
+    "Copper",
+    "Helium",
+    "Distilled water"
+   ],
+   "Soil contains bits of rock, water, air and decayed plant matter."
+  ],
+  [
+   "What makes a substance pure?",
+   "It has only one kind of particle",
+   [
+    "It has two or more kinds of particles",
+    "It always looks clear and colourless",
+    "It is always found in nature"
+   ],
+   "A pure substance is made of only one type of particle throughout."
+  ],
+  [
+   "What is a mixture?",
+   "Two or more substances combined but not chemically joined",
+   [
+    "One substance made of only one kind of particle",
+    "Two or more elements chemically joined together",
+    "A single element that is in its liquid form"
+   ],
+   "In a mixture, each substance keeps its own properties and can be separated physically."
+  ],
+  [
+   "Which of these is a solution, a mixture that looks the same throughout?",
+   "Salt dissolved in water",
+   [
+    "Sand stirred into water",
+    "Oil floating on water",
+    "Pebbles in a jar of sand"
+   ],
+   "Dissolved salt spreads evenly through the water, so you cannot see separate parts."
+  ],
+  [
+   "Which of these is a mechanical mixture, with parts you can see?",
+   "Chocolate chip cookie dough",
+   [
+    "Sugar dissolved in tea",
+    "A sheet of aluminum foil",
+    "A glass of distilled water"
+   ],
+   "You can see the separate chocolate chips in the dough."
+  ],
+  [
+   "Which of these is a pure substance?",
+   "Copper",
+   [
+    "Brass",
+    "Bronze",
+    "Steel"
+   ],
+   "Copper is an element, while brass, bronze and steel are mixtures of metals or other elements."
+  ],
+  [
+   "Water (H<sub>2</sub>O) is hydrogen and oxygen chemically joined. Is it a pure substance or a mixture?",
+   "A pure substance, because it is a compound",
+   [
+    "A mixture, because it has two elements",
+    "A mixture, because it is a liquid",
+    "A mixture, because it can flow"
+   ],
+   "A compound has a fixed makeup of chemically joined elements, so it is a pure substance."
+  ],
+  [
+   "How could you separate a mixture of iron filings and sand?",
+   "Use a magnet",
+   [
+    "Use a thermometer",
+    "Use a balance",
+    "Use a ruler"
+   ],
+   "The magnet attracts the iron filings but not the sand, because a mixture can be separated physically."
+  ],
+  [
+   "Which of these is a mixture?",
+   "Pizza",
+   [
+    "Salt",
+    "Silver",
+    "Nitrogen"
+   ],
+   "Pizza is made of crust, sauce, cheese and toppings that keep their own properties."
+  ],
+  [
+   "Which of these is a pure substance?",
+   "Baking soda",
+   [
+    "Pancake batter",
+    "Tomato soup",
+    "Fruit salad"
+   ],
+   "Baking soda is a single compound, sodium bicarbonate."
+  ],
+  [
+   "Why is air a mixture?",
+   "It contains nitrogen, oxygen and other gases",
+   [
+    "It contains only one kind of particle",
+    "It is made of a single element",
+    "It cannot be separated in any way"
+   ],
+   "Air is several different gases mixed together without being chemically joined."
+  ],
+  [
+   "Which of these is a mixture?",
+   "Milk",
+   [
+    "Diamond",
+    "Aluminum",
+    "Distilled water"
+   ],
+   "Milk contains water, fats, proteins and sugars mixed together."
+  ],
+  [
+   "A student filters muddy water and gets clear water and mud. What does this show?",
+   "Muddy water is a mixture",
+   [
+    "Muddy water is a pure substance",
+    "Muddy water is an element",
+    "Muddy water is a compound"
+   ],
+   "Being able to separate it by filtering shows the muddy water was a mixture."
+  ],
+  [
+   "Which of these is a pure substance?",
+   "Helium in a balloon",
+   [
+    "Air in a bike tire",
+    "Juice in a glass",
+    "Smoke from a fire"
+   ],
+   "Helium gas is an element made of only helium atoms."
+  ],
+  [
+   "Which describes a pure substance?",
+   "Every sample has the same makeup",
+   [
+    "Its parts can be seen and picked out",
+    "It is made of different substances",
+    "Its makeup changes from sample to sample"
+   ],
+   "A pure substance has a fixed makeup, so every sample is the same."
+  ],
+  [
+   "Which of these is a mixture?",
+   "Vinegar",
+   [
+    "Gold",
+    "Sugar",
+    "Oxygen"
+   ],
+   "Vinegar is acetic acid mixed with water."
+  ],
+  [
+   "Which of these is a pure substance?",
+   "Carbon dioxide",
+   [
+    "Soda pop",
+    "Maple syrup",
+    "Mud"
+   ],
+   "Carbon dioxide is a compound with a fixed makeup of carbon and oxygen."
+  ],
+  [
+   "Sugar dissolves completely in tea and cannot be seen. Why is sweet tea still a mixture?",
+   "The sugar and water are not chemically joined",
+   [
+    "The sugar turns into a brand new element",
+    "The sugar and water form a single compound",
+    "The tea is made of only one kind of particle"
+   ],
+   "The sugar keeps its own properties and could be recovered by evaporating the water."
+  ],
+  [
+   "Which of these is a mixture?",
+   "Ocean water",
+   [
+    "Neon gas",
+    "Ice from distilled water",
+    "Pure silver"
+   ],
+   "Ocean water contains water with many dissolved salts and other substances."
+  ]
+ ],
+ "sciSciName": [
+  [
+   "What is the common name of <em>Castor canadensis</em>?",
+   "Beaver",
+   [
+    "Otter",
+    "Muskrat",
+    "Porcupine"
+   ],
+   "<em>Castor canadensis</em> is the North American beaver, a national symbol of Canada."
+  ],
+  [
+   "What is the common name of <em>Canis lupus</em>?",
+   "Grey wolf",
+   [
+    "Red fox",
+    "Coyote",
+    "Raccoon"
+   ],
+   "<em>Canis lupus</em> is the scientific name for the grey wolf."
+  ],
+  [
+   "What is the common name of <em>Homo sapiens</em>?",
+   "Human",
+   [
+    "Chimpanzee",
+    "Gorilla",
+    "Orangutan"
+   ],
+   "<em>Homo sapiens</em> is the scientific name for modern humans."
+  ],
+  [
+   "What is the common name of <em>Acer saccharum</em>?",
+   "Sugar maple",
+   [
+    "White birch",
+    "Red oak",
+    "Jack pine"
+   ],
+   "<em>Acer</em> is the maple genus, and <em>saccharum</em> refers to sugar."
+  ],
+  [
+   "What is the common name of <em>Gavia immer</em>?",
+   "Common loon",
+   [
+    "Canada goose",
+    "Mallard duck",
+    "Bald eagle"
+   ],
+   "<em>Gavia immer</em> is the common loon, the bird on Canada's one-dollar coin."
+  ],
+  [
+   "What is the common name of <em>Branta canadensis</em>?",
+   "Canada goose",
+   [
+    "Common loon",
+    "Snowy owl",
+    "Blue jay"
+   ],
+   "<em>Branta canadensis</em> is the scientific name of the Canada goose."
+  ],
+  [
+   "What is the common name of <em>Rangifer tarandus</em>?",
+   "Caribou",
+   [
+    "Moose",
+    "Bison",
+    "Mountain goat"
+   ],
+   "<em>Rangifer tarandus</em> is the caribou, also called reindeer."
+  ],
+  [
+   "What is the common name of <em>Haliaeetus leucocephalus</em>?",
+   "Bald eagle",
+   [
+    "Snowy owl",
+    "Osprey",
+    "Red-tailed hawk"
+   ],
+   "<em>Haliaeetus leucocephalus</em> means sea eagle with a white head: the bald eagle."
+  ],
+  [
+   "What is the common name of <em>Bubo scandiacus</em>?",
+   "Snowy owl",
+   [
+    "Great horned owl",
+    "Barn owl",
+    "Bald eagle"
+   ],
+   "<em>Bubo scandiacus</em> is the snowy owl, a bird of the Arctic."
+  ],
+  [
+   "What is the common name of <em>Danaus plexippus</em>?",
+   "Monarch butterfly",
+   [
+    "Honeybee",
+    "Ladybug",
+    "Dragonfly"
+   ],
+   "<em>Danaus plexippus</em> is the monarch butterfly, known for its long migration."
+  ],
+  [
+   "What is the common name of <em>Ursus americanus</em>?",
+   "American black bear",
+   [
+    "Polar bear",
+    "Grizzly bear",
+    "Giant panda"
+   ],
+   "<em>Ursus americanus</em> is the American black bear, found across most of Canada."
+  ],
+  [
+   "What is the common name of <em>Equus caballus</em>?",
+   "Horse",
+   [
+    "Donkey",
+    "Zebra",
+    "Cow"
+   ],
+   "<em>Equus caballus</em> is the scientific name of the domestic horse."
+  ],
+  [
+   "What is the common name of <em>Bos taurus</em>?",
+   "Cattle",
+   [
+    "Sheep",
+    "Goat",
+    "Pig"
+   ],
+   "<em>Bos taurus</em> is the scientific name for domestic cattle."
+  ],
+  [
+   "What is the scientific name of the house mouse?",
+   "<em>Mus musculus</em>",
+   [
+    "<em>Rattus norvegicus</em>",
+    "<em>Castor canadensis</em>",
+    "<em>Felis catus</em>"
+   ],
+   "<em>Mus musculus</em> is the house mouse; <em>Rattus norvegicus</em> is the brown rat."
+  ],
+  [
+   "Why do scientists use scientific names instead of common names?",
+   "Each species has one name used worldwide",
+   [
+    "Scientific names are shorter to say aloud",
+    "Common names are always written in Latin",
+    "Scientific names change every single year"
+   ],
+   "A single scientific name avoids confusion between languages and regions."
+  ],
+  [
+   "A jellyfish is not a fish, and a starfish is not a fish. What problem with common names does this show?",
+   "Common names can be misleading",
+   [
+    "Common names are always in Latin",
+    "Common names are used only by scientists",
+    "Common names never describe animals"
+   ],
+   "Common names may suggest the wrong group, while scientific names reflect real classification."
+  ],
+  [
+   "Cougar, puma and mountain lion are common names for one animal. Which scientific name do scientists use for it?",
+   "<em>Puma concolor</em>",
+   [
+    "<em>Panthera leo</em>",
+    "<em>Lynx canadensis</em>",
+    "<em>Felis catus</em>"
+   ],
+   "<em>Puma concolor</em> is the one scientific name for this cat, whatever people call it locally."
+  ],
+  [
+   "What is the common name of <em>Pinus strobus</em>?",
+   "Eastern white pine",
+   [
+    "Sugar maple",
+    "Paper birch",
+    "Black spruce"
+   ],
+   "<em>Pinus</em> is the pine genus, and <em>Pinus strobus</em> is the eastern white pine."
+  ],
+  [
+   "What is the common name of <em>Salmo salar</em>?",
+   "Atlantic salmon",
+   [
+    "Rainbow trout",
+    "Northern pike",
+    "Yellow perch"
+   ],
+   "<em>Salmo salar</em> is the scientific name of the Atlantic salmon."
+  ],
+  [
+   "In <em>Castor canadensis</em>, which word is the genus name?",
+   "<em>Castor</em>",
+   [
+    "<em>canadensis</em>",
+    "Rodentia",
+    "Animalia"
+   ],
+   "The first word of a scientific name, always capitalized, is the genus."
+  ],
+  [
+   "What is the common name of <em>Lynx canadensis</em>?",
+   "Canada lynx",
+   [
+    "Bobcat",
+    "Cougar",
+    "Red fox"
+   ],
+   "<em>Lynx canadensis</em> is the Canada lynx; the bobcat is <em>Lynx rufus</em>."
+  ],
+  [
+   "What is the common name of <em>Ondatra zibethicus</em>?",
+   "Muskrat",
+   [
+    "Beaver",
+    "Otter",
+    "Mink"
+   ],
+   "<em>Ondatra zibethicus</em> is the muskrat, a wetland rodent found across Canada."
+  ]
+ ],
+ "sciNatSel": [
+  [
+   "Which is the best definition of an adaptation?",
+   "An inherited trait that helps survival",
+   [
+    "A habit learned from a parent",
+    "A change made by an injury",
+    "A trait that never varies"
+   ],
+   "An adaptation is an inherited feature that helps an organism survive and reproduce in its environment."
+  ],
+  [
+   "In natural selection, which individuals are most likely to pass on their genes?",
+   "Those best suited to their environment",
+   [
+    "Those that are the largest in size",
+    "Those that live alone the longest",
+    "Those that eat the most food"
+   ],
+   "Individuals best suited to their environment survive and reproduce more, so their genes are passed on more often."
+  ],
+  [
+   "Darwin studied finches and tortoises on which group of islands?",
+   "The Galápagos Islands",
+   [
+    "The Hawaiian Islands",
+    "The Canary Islands",
+    "The Magdalen Islands"
+   ],
+   "Darwin's observations on the Galápagos Islands helped him develop the idea of natural selection."
+  ],
+  [
+   "Which of these traits could be passed on by natural selection?",
+   "Fur colour",
+   [
+    "A scar from a fight",
+    "A trick learned at a zoo",
+    "A tail lost to a predator"
+   ],
+   "Fur colour is controlled by genes, so it can be inherited, unlike injuries or learned behaviours."
+  ],
+  [
+   "Why do most populations produce more offspring than can survive?",
+   "Food and space are limited",
+   [
+    "Parents always abandon their young",
+    "Offspring never need any food",
+    "Only one offspring is ever born"
+   ],
+   "Because resources are limited, not all offspring survive, so individuals compete and the best-suited ones tend to survive."
+  ],
+  [
+   "What does the phrase \"survival of the fittest\" mean in biology?",
+   "The best-suited organisms reproduce most",
+   [
+    "The strongest animals win every fight",
+    "The fastest runners live the longest",
+    "The biggest animals eat the most"
+   ],
+   "In biology, \"fit\" means well suited to the environment, which leads to more surviving offspring."
+  ],
+  [
+   "A population of beetles includes green and brown beetles. Birds easily spot the green ones on brown soil. Over time, the population will become …",
+   "mostly brown",
+   [
+    "mostly green",
+    "half green, half brown",
+    "completely white"
+   ],
+   "Brown beetles are better hidden, so more of them survive and reproduce, passing on brown colour."
+  ],
+  [
+   "Natural selection acts on individuals, but which one actually changes over many generations?",
+   "The population",
+   [
+    "A single individual",
+    "The weather",
+    "The predator's diet"
+   ],
+   "Individuals cannot change their genes; instead the mix of traits in the population changes over generations."
+  ],
+  [
+   "What is the main source of new variation in a population?",
+   "Mutations in genes",
+   [
+    "Exercise during life",
+    "Learning from parents",
+    "Injuries from predators"
+   ],
+   "Mutations create new versions of genes, which add new inherited variation to a population."
+  ],
+  [
+   "Cacti have thick, waxy stems that store water. This adaptation helps them survive in …",
+   "dry deserts",
+   [
+    "wet rainforests",
+    "freshwater ponds",
+    "snowy tundra"
+   ],
+   "Storing water and reducing water loss helps cacti survive where rain is rare."
+  ],
+  [
+   "Which of these is a change in a population caused by natural selection?",
+   "More hares with thick fur after cold winters",
+   [
+    "A hare grows thick fur after moving north",
+    "A hare learns to hide under a bush",
+    "A hare loses fur after a skin injury"
+   ],
+   "Natural selection changes how common an inherited trait is in a population over generations."
+  ],
+  [
+   "Snowshoe hares turn white in winter. How does this help them survive?",
+   "It hides them from predators in snow",
+   [
+    "It keeps them cooler in summer heat",
+    "It helps them find more food to eat",
+    "It makes them run much faster"
+   ],
+   "White winter fur camouflages hares against snow, so predators such as lynx spot them less often."
+  ],
+  [
+   "A trait that helps an organism survive in one environment might be harmful in …",
+   "a different environment",
+   [
+    "every environment",
+    "its own environment",
+    "no environment at all"
+   ],
+   "Whether a trait is helpful depends on the environment, so a trait can be useful in one place and harmful in another."
+  ],
+  [
+   "Why can't natural selection make a population change in a single generation?",
+   "Trait frequencies shift slowly over generations",
+   [
+    "Animals refuse to change their habits",
+    "Genes change only when organisms grow up",
+    "Each individual must decide to adapt"
+   ],
+   "Natural selection works as helpful traits become more common, which takes many generations of reproduction."
+  ],
+  [
+   "Which scientist came up with the idea of natural selection at about the same time as Darwin?",
+   "Alfred Russel Wallace",
+   [
+    "Isaac Newton",
+    "Marie Curie",
+    "Gregor Mendel"
+   ],
+   "Alfred Russel Wallace independently developed the idea of natural selection, and he and Darwin presented their ideas together in 1858."
+  ],
+  [
+   "What is the term for an organism's ability to survive and reproduce in its environment?",
+   "Fitness",
+   [
+    "Strength",
+    "Intelligence",
+    "Speed"
+   ],
+   "In biology, fitness describes how well an organism survives and reproduces compared with others."
+  ],
+  [
+   "Which helps a polar bear survive in the Arctic?",
+   "Thick fat and dense fur",
+   [
+    "Thin skin and short fur",
+    "Bright colours and spots",
+    "Large ears that lose heat"
+   ],
+   "Thick fat and dense fur keep polar bears warm in very cold conditions."
+  ],
+  [
+   "Some weeds now survive a herbicide that used to kill them. What is the best explanation?",
+   "Resistant weeds survived and reproduced",
+   [
+    "The weeds learned to avoid the spray",
+    "The herbicide made the weeds stronger",
+    "Each weed chose to become resistant"
+   ],
+   "A few weeds had inherited resistance, survived the spray and passed this trait to their offspring."
+  ],
+  [
+   "Which is NOT needed for natural selection to happen?",
+   "Organisms trying to change",
+   [
+    "Variation among individuals",
+    "Traits that can be inherited",
+    "More offspring than can survive"
+   ],
+   "Natural selection needs variation, inheritance and competition, but not any effort by organisms to change."
+  ],
+  [
+   "Fish in a dark cave over many generations lose working eyes. Which factor most likely allowed this?",
+   "Eyes gave no survival advantage there",
+   [
+    "Fish chose to stop using their eyes",
+    "Darkness directly erased their eyes",
+    "Predators removed the fish's eyes"
+   ],
+   "In total darkness, eyes do not help survival, so fish without working eyes were not at a disadvantage."
+  ],
+  [
+   "Which word describes features that help an organism blend in with its surroundings?",
+   "Camouflage",
+   [
+    "Mimicry of sound",
+    "Migration",
+    "Hibernation"
+   ],
+   "Camouflage lets an organism blend in, helping it avoid predators or sneak up on prey."
+  ],
+  [
+   "What evidence did Darwin use to support natural selection?",
+   "Variation he saw among living species",
+   [
+    "Photos of DNA from his microscope",
+    "Results from modern gene testing",
+    "Satellite images of the islands"
+   ],
+   "Darwin based his ideas on careful observations of variation in living organisms and fossils, long before DNA was understood."
+  ]
+ ],
+ "sciXsNatSel": [
+  [
+   "Peppered moths on soot-covered trees: which moths were eaten more often by birds?",
+   "Light-coloured moths, which stood out",
+   [
+    "Dark-coloured moths, which stood out",
+    "Both colours were eaten equally",
+    "Neither colour was ever eaten"
+   ],
+   "Light moths were easy to see on dark bark, so birds ate them more and dark moths became more common."
+  ],
+  [
+   "After pollution laws cleaned the trees, light peppered moths became common again. Why?",
+   "Light moths were hidden on clean bark again",
+   [
+    "Dark moths all learned to change colour",
+    "The cleaner air painted the moths white",
+    "Birds stopped eating moths completely"
+   ],
+   "On clean, light bark the light moths were better camouflaged, so they survived and reproduced more."
+  ],
+  [
+   "During a drought, finches with larger, stronger beaks survived better. What is the most likely reason?",
+   "They could crack the hard seeds left",
+   [
+    "They could fly farther to find rain",
+    "Their beaks stored extra water",
+    "They could sing louder for mates"
+   ],
+   "During the drought only hard seeds remained, so finches with strong beaks got more food and survived."
+  ],
+  [
+   "After the drought, what happened to the average beak size of the next generation of finches?",
+   "It became larger",
+   [
+    "It became smaller",
+    "It stayed exactly the same",
+    "It disappeared completely"
+   ],
+   "The surviving large-beaked finches passed on their genes, so their offspring had larger beaks on average."
+  ],
+  [
+   "Which explanation of the giraffe's long neck matches natural selection?",
+   "Longer-necked giraffes survived and had more young",
+   [
+    "Giraffes stretched their necks and passed it on",
+    "Giraffes grew long necks because they wanted to",
+    "Each giraffe's neck grew after eating leaves"
+   ],
+   "Natural selection explains change through inherited variation and differences in survival, not by stretching or wanting."
+  ],
+  [
+   "Why is the idea that giraffes stretched their necks and passed this on incorrect?",
+   "Changes made during life are not inherited",
+   [
+    "Giraffes cannot stretch their necks at all",
+    "Necks are not used to reach food",
+    "Giraffes never have any offspring"
+   ],
+   "Body changes gained during a lifetime do not change genes, so they cannot be passed to offspring."
+  ],
+  [
+   "A new predator that hunts by sight arrives on an island with green and red lizards living on green plants. Which prediction best follows natural selection?",
+   "Green lizards will become more common",
+   [
+    "Red lizards will become more common",
+    "All lizards will turn blue",
+    "The number of each colour stays equal"
+   ],
+   "Green lizards are camouflaged against green plants, so fewer are caught and more of them reproduce."
+  ],
+  [
+   "Some mosquitoes in an area survive a common insecticide. What explains this best?",
+   "Some already had genes for resistance",
+   [
+    "The insecticide gave them resistance",
+    "They avoided the spray by choice",
+    "They grew resistant after being sprayed"
+   ],
+   "A few mosquitoes already had resistance genes; they survived the spray and passed these genes on."
+  ],
+  [
+   "Why do doctors tell patients to finish all of their antibiotics?",
+   "To avoid leaving resistant bacteria alive",
+   [
+    "To make the bacteria grow faster",
+    "To help the bacteria become stronger",
+    "To make the medicine taste better"
+   ],
+   "Stopping early can leave the toughest bacteria alive, and they may multiply into a resistant population."
+  ],
+  [
+   "Rock pocket mice live on light sand and on dark lava rock. Which pattern would natural selection produce?",
+   "Dark mice on lava, light mice on sand",
+   [
+    "Light mice on lava, dark mice on sand",
+    "Only light mice in both places",
+    "Only dark mice in both places"
+   ],
+   "In each habitat the mice that match their background are hidden from predators, so they survive and reproduce more."
+  ],
+  [
+   "A population of identical bacterial clones is exposed to an antibiotic, and none are resistant. What is most likely?",
+   "No resistance develops; they all die",
+   [
+    "All of them quickly become resistant",
+    "Half of them become resistant at once",
+    "They all learn to avoid the drug"
+   ],
+   "Without variation there is no resistant individual to be selected, so resistance cannot spread."
+  ],
+  [
+   "Which observation shows that a trait is inherited?",
+   "Offspring share the trait with parents",
+   [
+    "The trait appears only after injury",
+    "The trait is learned in a classroom",
+    "The trait changes with each meal"
+   ],
+   "When offspring share a trait with their parents, it is passed on through genes and can be acted on by natural selection."
+  ],
+  [
+   "Two populations of the same bird species live in different habitats for thousands of years. What might eventually happen?",
+   "They may become separate species",
+   [
+    "They will become identical copies",
+    "They will both stop reproducing",
+    "They will all migrate together"
+   ],
+   "Different environments favour different traits, so isolated populations can change until they become separate species."
+  ],
+  [
+   "Arctic foxes have small ears and short legs. How does natural selection explain this?",
+   "Foxes that lost less heat survived better",
+   [
+    "Foxes shrank their ears to stay warm",
+    "Cold weather made each fox's ears smaller",
+    "Foxes chose shorter legs for snow"
+   ],
+   "Small ears and short legs reduce heat loss, so foxes with these inherited traits survived and reproduced more in the cold."
+  ],
+  [
+   "Hunters often target elephants with large tusks. Over many years, what has happened in some populations?",
+   "More elephants are born without tusks",
+   [
+    "Elephants grow larger tusks than before",
+    "Elephants learn to hide their tusks",
+    "Tusk size stays exactly the same"
+   ],
+   "Tuskless elephants were less likely to be hunted, so they survived and passed on this trait more often."
+  ],
+  [
+   "A fish population in a stream has both fast and slow swimmers. A fast predator is introduced. Predict what happens.",
+   "Fast swimmers become more common",
+   [
+    "Slow swimmers become more common",
+    "All fish become slow swimmers",
+    "The fish stop swimming entirely"
+   ],
+   "Fast swimmers escape the predator more often, so they live to reproduce and pass on this trait."
+  ],
+  [
+   "Which statement correctly uses the idea of natural selection?",
+   "Helpful traits become common over generations",
+   [
+    "Animals change on purpose to fit in",
+    "All individuals in a group are identical",
+    "Traits change in a single lifetime"
+   ],
+   "Natural selection makes helpful inherited traits more common in a population over many generations."
+  ],
+  [
+   "A disease kills most rabbits, but a few survive because of a gene. What happens to later generations?",
+   "More rabbits carry the protective gene",
+   [
+    "Fewer rabbits carry the protective gene",
+    "All rabbits lose the protective gene",
+    "No rabbit is ever born again"
+   ],
+   "Survivors pass the protective gene to their offspring, so it becomes more common in the population."
+  ],
+  [
+   "Why do different species of Darwin's finches have different beak shapes on different islands?",
+   "Each island favoured beaks fit for its foods",
+   [
+    "Finches reshaped their beaks by pecking",
+    "Each finch picked a beak it liked",
+    "The islands all had identical foods"
+   ],
+   "Different food sources on each island favoured different beak shapes, leading to different finch species."
+  ],
+  [
+   "Which piece of evidence would best support that natural selection changed a population?",
+   "Trait records over many generations",
+   [
+    "One photo of a single animal",
+    "A story about one animal's habits",
+    "The colour of one leaf in spring"
+   ],
+   "Data on how common a trait is across many generations shows whether a population has changed."
+  ],
+  [
+   "Why is reproduction important for natural selection to change a population?",
+   "Traits pass on only through offspring",
+   [
+    "Reproduction makes animals stronger",
+    "Offspring choose their own traits",
+    "Reproduction stops all variation"
+   ],
+   "Only traits passed to offspring can become more common, so survival alone is not enough without reproduction."
+  ],
+  [
+   "Walking-stick insects look like twigs. Which explanation is best?",
+   "Twig-like insects were eaten less often",
+   [
+    "Insects copied twigs by practising",
+    "Twigs turned some insects into sticks",
+    "Birds taught the insects to look odd"
+   ],
+   "Insects that looked more like twigs were missed by predators, so they survived and passed on their shape."
+  ]
+ ],
+ "sciXsFlCon": [
+  [
+   "Which part of a flower makes pollen?",
+   "The anther",
+   [
+    "The stigma",
+    "The ovary",
+    "The petal"
+   ],
+   "The anther, at the top of the stamen, produces pollen grains."
+  ],
+  [
+   "Which part of a flower catches pollen?",
+   "The stigma",
+   [
+    "The anther",
+    "The filament",
+    "The sepal"
+   ],
+   "The sticky stigma at the top of the pistil traps pollen during pollination."
+  ],
+  [
+   "After fertilization, what does a flower's ovary develop into?",
+   "The fruit",
+   [
+    "The root",
+    "The leaf",
+    "The stem"
+   ],
+   "The ovary swells and ripens into the fruit, which surrounds and protects the seeds."
+  ],
+  [
+   "What does an ovule become after fertilization?",
+   "A seed",
+   [
+    "A petal",
+    "A pollen grain",
+    "A cone scale"
+   ],
+   "Each fertilized ovule develops into a seed containing a tiny plant."
+  ],
+  [
+   "Why do many flowers have bright petals and sweet nectar?",
+   "To attract animal pollinators",
+   [
+    "To scare away all insects",
+    "To store water for winter",
+    "To produce more wind"
+   ],
+   "Colour and nectar attract insects and birds that carry pollen from flower to flower."
+  ],
+  [
+   "Conifer seeds are often described as \"naked.\" What does this mean?",
+   "They are not enclosed in a fruit",
+   [
+    "They have no outer seed coat",
+    "They grow without any cone",
+    "They have no stored food"
+   ],
+   "Conifers are gymnosperms, meaning their seeds sit exposed on cone scales rather than inside a fruit."
+  ],
+  [
+   "Which of these plants is a conifer?",
+   "White spruce",
+   [
+    "Sugar maple",
+    "Red apple tree",
+    "Sunflower"
+   ],
+   "White spruce produces cones and needle-like leaves, so it is a conifer."
+  ],
+  [
+   "What is the first step in the life cycle of a seed plant once a seed lands in good soil?",
+   "Germination",
+   [
+    "Pollination",
+    "Fertilization",
+    "Seed dispersal"
+   ],
+   "Germination is when the seed sprouts and the young plant begins to grow."
+  ],
+  [
+   "What must happen before a flower can produce seeds?",
+   "Pollen must reach the stigma",
+   [
+    "The petals must turn green",
+    "The roots must stop growing",
+    "The stem must lose its leaves"
+   ],
+   "Pollination brings pollen to the stigma, which allows fertilization and seed development."
+  ],
+  [
+   "Male and female pine cones differ. Which describes male cones?",
+   "Small and soft, releasing pollen",
+   [
+    "Large and woody, holding seeds",
+    "Brightly coloured with nectar",
+    "Hollow and filled with water"
+   ],
+   "Male cones are small and soft and release large amounts of pollen into the wind."
+  ],
+  [
+   "Why do conifers produce huge amounts of pollen?",
+   "Wind pollination is a matter of chance",
+   [
+    "Insects need extra food to eat",
+    "Pollen keeps the tree warm",
+    "Pollen helps the cones float"
+   ],
+   "Wind carries pollen randomly, so making lots of it increases the chance some reaches a female cone."
+  ],
+  [
+   "How do burrs, like burdock, spread their seeds?",
+   "By hooking onto animal fur",
+   [
+    "By floating on ocean waves",
+    "By being blown by wind wings",
+    "By exploding from pods"
+   ],
+   "Burrs have tiny hooks that catch on fur or clothing and are carried away."
+  ],
+  [
+   "How are dandelion seeds spread?",
+   "By wind, using fluffy parachutes",
+   [
+    "By water, inside hard shells",
+    "By animals eating the roots",
+    "By rolling down hills"
+   ],
+   "Each dandelion seed has a fluffy parachute that lets the wind carry it far away."
+  ],
+  [
+   "How do animals help spread the seeds of fruits like blueberries?",
+   "They eat the fruit and drop the seeds",
+   [
+    "They plant the seeds on purpose",
+    "They carry pollen to the cones",
+    "They bury the leaves in soil"
+   ],
+   "Animals eat the fruit and later pass the seeds in their droppings, often far from the parent plant."
+  ],
+  [
+   "Which is a key difference between flowering plants and conifers?",
+   "Only flowering plants make fruit",
+   [
+    "Only conifers make seeds",
+    "Only flowering plants have roots",
+    "Only conifers need sunlight"
+   ],
+   "Both make seeds, but only flowering plants enclose their seeds in fruit."
+  ],
+  [
+   "Jack pine cones often stay closed until a certain event opens them. What is it?",
+   "The heat of a forest fire",
+   [
+    "A heavy snowfall",
+    "A spring flood",
+    "A strong frost"
+   ],
+   "Jack pine cones are sealed with resin that melts in the heat of a fire, releasing the seeds."
+  ],
+  [
+   "What is the young plant inside a seed called?",
+   "The embryo",
+   [
+    "The anther",
+    "The pollen",
+    "The ovary"
+   ],
+   "The embryo is the tiny undeveloped plant inside a seed."
+  ],
+  [
+   "What is the job of a seed's stored food?",
+   "To feed the young plant as it sprouts",
+   [
+    "To attract pollinators to the seed",
+    "To make the seed heavier for wind",
+    "To help the seed make pollen"
+   ],
+   "The stored food gives the embryo energy until it can make its own food by photosynthesis."
+  ],
+  [
+   "Which is the correct order in the life cycle of a flowering plant?",
+   "Seed, seedling, flower, fruit",
+   [
+    "Flower, seed, fruit, seedling",
+    "Fruit, flower, seedling, seed",
+    "Seedling, fruit, seed, flower"
+   ],
+   "A seed grows into a seedling, which matures and flowers, then forms fruit containing new seeds."
+  ],
+  [
+   "Which is the correct order in the life cycle of a pine tree?",
+   "Seed, seedling, tree, cones",
+   [
+    "Cones, flower, fruit, seed",
+    "Tree, fruit, seedling, cones",
+    "Seedling, seed, cones, fruit"
+   ],
+   "A pine seed grows into a seedling and then a mature tree, which produces cones that hold new seeds."
+  ],
+  [
+   "What happens to a flower's petals after pollination and fertilization?",
+   "They usually wilt and fall off",
+   [
+    "They turn into new roots",
+    "They become pine needles",
+    "They grow much larger"
+   ],
+   "Once fertilized, the flower no longer needs to attract pollinators, so the petals often wither while the fruit develops."
+  ],
+  [
+   "Maple trees produce winged seeds called samaras. How do these seeds travel?",
+   "They spin through the air",
+   [
+    "They stick to animal fur",
+    "They are eaten by fish",
+    "They roll along riverbeds"
+   ],
+   "Samaras have wings that make them spin like helicopters, letting the wind carry them away from the tree."
+  ]
+ ],
+ "sciXsMossFern": [
+  [
+   "Which is true about mosses?",
+   "They have no true roots, stems or leaves",
+   [
+    "They grow taller than most trees",
+    "They produce seeds inside fruit",
+    "They make pollen in small cones"
+   ],
+   "Mosses are non-vascular plants that lack true roots, stems and leaves."
+  ],
+  [
+   "What tiny root-like threads hold a moss in place?",
+   "Rhizoids",
+   [
+    "Fronds",
+    "Cones",
+    "Petals"
+   ],
+   "Rhizoids anchor mosses to soil or rock but do not carry water like real roots."
+  ],
+  [
+   "How do mosses take in water?",
+   "Directly through their surfaces",
+   [
+    "Through deep woody roots",
+    "Through tubes in a thick trunk",
+    "Through flowers and fruit"
+   ],
+   "Lacking vascular tissue, mosses absorb water directly through their thin leaf-like parts."
+  ],
+  [
+   "What is the large leaf of a fern called?",
+   "A frond",
+   [
+    "A needle",
+    "A capsule",
+    "A petal"
+   ],
+   "A fern's leaves are called fronds, and they often unroll from fiddleheads."
+  ],
+  [
+   "Where does a fern's underground stem grow?",
+   "Below the soil as a rhizome",
+   [
+    "High in the air as a trunk",
+    "Inside the spore capsule",
+    "On the tips of its fronds"
+   ],
+   "Most ferns have an underground stem called a rhizome from which fronds and roots grow."
+  ],
+  [
+   "Which of these plants reproduces with spores, not seeds?",
+   "Sphagnum moss",
+   [
+    "Sugar maple",
+    "White pine",
+    "Wild rose"
+   ],
+   "Sphagnum is a moss, and mosses reproduce with spores rather than seeds."
+  ],
+  [
+   "How is a spore different from a seed?",
+   "A spore has no stored food or embryo",
+   [
+    "A spore is much larger than a seed",
+    "A spore grows only inside fruit",
+    "A spore is made only in cones"
+   ],
+   "A spore is a single cell without an embryo or food supply, while a seed contains both."
+  ],
+  [
+   "Ferns and mosses have two stages in their life cycle. What is this called?",
+   "Alternation of generations",
+   [
+    "Complete metamorphosis",
+    "Seed dispersal",
+    "Cross-pollination"
+   ],
+   "Their life cycle switches between a spore-making stage and a sex-cell-making stage, called alternation of generations."
+  ],
+  [
+   "In a fern, which stage is the large, leafy plant we usually see?",
+   "The spore-producing stage",
+   [
+    "The heart-shaped stage",
+    "The egg-producing stage",
+    "The seed-producing stage"
+   ],
+   "The familiar leafy fern is the sporophyte, the stage that makes spores."
+  ],
+  [
+   "In a moss, which stage is the green, leafy carpet we usually see?",
+   "The egg- and sperm-producing stage",
+   [
+    "The seed-producing stage",
+    "The pollen-producing stage",
+    "The fruit-producing stage"
+   ],
+   "The green moss plant is the gametophyte, which makes eggs and sperm."
+  ],
+  [
+   "What grows from a fertilized egg on a fern prothallus?",
+   "A new leafy fern plant",
+   [
+    "A new spore capsule",
+    "A flower and fruit",
+    "A pine cone"
+   ],
+   "The fertilized egg develops into the young leafy fern, which grows out of the prothallus."
+  ],
+  [
+   "What grows from a fertilized egg on a moss plant?",
+   "A stalk with a spore capsule",
+   [
+    "A new set of fronds",
+    "A small woody tree",
+    "A flower with petals"
+   ],
+   "In mosses, the fertilized egg grows into a stalk topped with a capsule that makes spores."
+  ],
+  [
+   "What does a moss spore grow into when it lands in a damp spot?",
+   "A new green moss plant",
+   [
+    "A tall fern frond",
+    "A seed with a coat",
+    "A heart-shaped cone"
+   ],
+   "A moss spore germinates into a thread-like growth that develops into a new green moss plant."
+  ],
+  [
+   "Why are mosses often called pioneer plants?",
+   "They can grow on bare rock first",
+   [
+    "They only grow in pine forests",
+    "They grow after all other plants",
+    "They need deep, rich soil"
+   ],
+   "Mosses can colonize bare rock and help build soil that other plants later use."
+  ],
+  [
+   "Why can ferns grow taller than mosses?",
+   "Their vascular tissue moves water upward",
+   [
+    "They take in water through their spores",
+    "They have no need for any water",
+    "They store water in their fiddleheads"
+   ],
+   "Vascular tissue carries water and nutrients up the plant, letting ferns grow larger."
+  ],
+  [
+   "What do the brown dots under a fern frond contain?",
+   "Spore cases full of spores",
+   [
+    "Seeds wrapped in fruit",
+    "Pollen for the wind",
+    "Stored drops of water"
+   ],
+   "The brown dots are sori, clusters of spore cases that release spores."
+  ],
+  [
+   "How are fern spores released?",
+   "Spore cases dry and burst open",
+   [
+    "Bees carry them from flowers",
+    "Animals eat and drop them",
+    "They fall from ripe cones"
+   ],
+   "When spore cases dry out they split open and fling spores into the air."
+  ],
+  [
+   "Which group of plants includes both mosses and ferns?",
+   "Seedless plants",
+   [
+    "Flowering plants",
+    "Conifers",
+    "Fruit trees"
+   ],
+   "Mosses and ferns are seedless plants because they reproduce by spores."
+  ],
+  [
+   "Which habitat best suits most mosses?",
+   "A shady, damp forest floor",
+   [
+    "A dry, sunny desert dune",
+    "A salty, windy beach",
+    "A hot, rocky volcano top"
+   ],
+   "Mosses need moisture for water uptake and for sperm to swim, so damp, shady places suit them."
+  ],
+  [
+   "A fern prothallus makes which of the following?",
+   "Eggs and sperm",
+   [
+    "Seeds and fruit",
+    "Pollen and cones",
+    "Flowers and nectar"
+   ],
+   "The small heart-shaped prothallus produces eggs and sperm for sexual reproduction."
+  ],
+  [
+   "Fiddleheads of the ostrich fern are eaten in New Brunswick. What part of the fern are they?",
+   "Young fronds that are tightly curled",
+   [
+    "Seeds that grow inside fruit",
+    "Roots that grow below the soil",
+    "Spore cases that hang from stems"
+   ],
+   "Fiddleheads are young, coiled fronds that unroll as the fern grows."
+  ],
+  [
+   "Peat moss is used by gardeners. Which property makes it useful in soil?",
+   "It holds a lot of water",
+   [
+    "It makes soil very dry",
+    "It adds sharp sand to soil",
+    "It produces many new seeds"
+   ],
+   "Sphagnum peat moss soaks up and holds water, helping keep soil moist."
+  ]
+ ],
+ "sciPhotoE": [
+  [
+   "What liquid do plants take in through their roots for photosynthesis?",
+   "Water",
+   [
+    "Milk",
+    "Oil",
+    "Vinegar"
+   ],
+   "Plants absorb water through their roots and use it in photosynthesis."
+  ],
+  [
+   "Which word equation shows photosynthesis?",
+   "Carbon dioxide + water → glucose + oxygen",
+   [
+    "Glucose + oxygen → carbon dioxide + water",
+    "Oxygen + water → glucose + nitrogen",
+    "Glucose + water → oxygen + nitrogen"
+   ],
+   "Plants use light to turn carbon dioxide and water into glucose and oxygen."
+  ],
+  [
+   "Through which tiny openings do leaves take in carbon dioxide?",
+   "Stomata",
+   [
+    "Roots",
+    "Petals",
+    "Seeds"
+   ],
+   "Stomata are small pores, mostly on the underside of leaves, that let gases in and out."
+  ],
+  [
+   "Which part of most plants does the most photosynthesis?",
+   "Leaves",
+   [
+    "Roots",
+    "Flowers",
+    "Seeds"
+   ],
+   "Leaves are broad and full of chloroplasts, so they capture the most light."
+  ],
+  [
+   "Where is the energy from sunlight stored after photosynthesis?",
+   "In the bonds of glucose",
+   [
+    "In the oxygen released",
+    "In the water absorbed",
+    "In the soil nearby"
+   ],
+   "Light energy is changed into chemical energy stored in glucose molecules."
+  ],
+  [
+   "How do plants release the energy stored in glucose?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Pollination",
+    "Evaporation"
+   ],
+   "Cellular respiration breaks down glucose with oxygen to release usable energy."
+  ],
+  [
+   "Which process happens in plant cells both day and night?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Germination",
+    "Pollination"
+   ],
+   "Photosynthesis needs light, but cells respire all the time to get energy."
+  ],
+  [
+   "What do plants use some of their glucose to build?",
+   "Cellulose for cell walls",
+   [
+    "Chlorophyll from oxygen",
+    "Sunlight for leaves",
+    "Carbon dioxide gas"
+   ],
+   "Plants link glucose into cellulose, which forms strong cell walls."
+  ],
+  [
+   "How do plants store extra glucose for later?",
+   "As starch",
+   [
+    "As oxygen",
+    "As water",
+    "As nitrogen"
+   ],
+   "Plants join glucose molecules into starch, which they store in roots, seeds and stems."
+  ],
+  [
+   "Why do leaves look green?",
+   "Chlorophyll reflects green light",
+   [
+    "Chlorophyll absorbs green light",
+    "Leaves are full of green water",
+    "Green soil colours the leaves"
+   ],
+   "Chlorophyll absorbs mostly red and blue light and reflects green, so leaves look green."
+  ],
+  [
+   "What happens to the rate of photosynthesis when a plant is moved into darkness?",
+   "It stops",
+   [
+    "It doubles",
+    "It stays the same",
+    "It speeds up"
+   ],
+   "Photosynthesis needs light energy, so without light it cannot happen."
+  ],
+  [
+   "Which energy change happens when an animal eats a plant?",
+   "Chemical energy passes to the animal",
+   [
+    "Light energy passes to the animal",
+    "Sound energy passes to the animal",
+    "Nuclear energy passes to the animal"
+   ],
+   "The chemical energy stored in the plant's food is transferred to the animal that eats it."
+  ],
+  [
+   "Why are plants called producers?",
+   "They make their own food",
+   [
+    "They eat other organisms",
+    "They break down dead matter",
+    "They produce only oxygen gas"
+   ],
+   "Plants produce their own food by photosynthesis, so they are producers."
+  ],
+  [
+   "Where did the oxygen in the air we breathe mostly come from?",
+   "Photosynthesis by plants and algae",
+   [
+    "Volcanoes erupting gas",
+    "Animals breathing out",
+    "Rocks melting in lava"
+   ],
+   "Photosynthesis by plants, algae and cyanobacteria released most of Earth's atmospheric oxygen."
+  ],
+  [
+   "Which tissue carries water from roots up to the leaves?",
+   "Xylem",
+   [
+    "Phloem",
+    "Bark",
+    "Pollen"
+   ],
+   "Xylem tubes carry water and minerals from the roots to the leaves."
+  ],
+  [
+   "Which tissue carries sugars made in the leaves to other parts of the plant?",
+   "Phloem",
+   [
+    "Xylem",
+    "Stomata",
+    "Root hairs"
+   ],
+   "Phloem tubes move sugars from the leaves to roots, stems, fruits and seeds."
+  ],
+  [
+   "A student puts a pondweed under a bright lamp and sees bubbles. What gas is in the bubbles?",
+   "Oxygen",
+   [
+    "Carbon dioxide",
+    "Hydrogen",
+    "Methane"
+   ],
+   "Pondweed releases oxygen during photosynthesis, which forms bubbles in the water."
+  ],
+  [
+   "If the lamp is moved closer to the pondweed, what most likely happens to the bubbles?",
+   "More bubbles form",
+   [
+    "Fewer bubbles form",
+    "Bubbles stop at once",
+    "Bubbles turn into ice"
+   ],
+   "More light increases the rate of photosynthesis, so more oxygen bubbles are released."
+  ],
+  [
+   "Why do maple leaves turn red and yellow in fall?",
+   "Chlorophyll breaks down, revealing other pigments",
+   [
+    "Leaves fill up with extra chlorophyll",
+    "Cold air paints the leaves new colours",
+    "Sunlight gets brighter in the fall"
+   ],
+   "As days shorten, chlorophyll breaks down and the yellow and red pigments become visible."
+  ],
+  [
+   "Which of these is NOT needed for photosynthesis?",
+   "Nitrogen gas",
+   [
+    "Light",
+    "Water",
+    "Carbon dioxide"
+   ],
+   "Photosynthesis uses light, water and carbon dioxide; nitrogen gas is not a raw material."
+  ],
+  [
+   "What type of energy do the products of photosynthesis store?",
+   "Chemical potential energy",
+   [
+    "Kinetic energy of motion",
+    "Elastic potential energy",
+    "Sound wave energy"
+   ],
+   "Glucose stores energy in its chemical bonds, which is chemical potential energy."
+  ],
+  [
+   "Which organisms depend on photosynthesis for their food energy?",
+   "Nearly all living things",
+   [
+    "Only green plants",
+    "Only plant-eating animals",
+    "Only algae in the ocean"
+   ],
+   "Almost all food chains begin with producers, so nearly all organisms rely on photosynthesis."
+  ]
+ ]
+}
