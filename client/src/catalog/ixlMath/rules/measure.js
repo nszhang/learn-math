@@ -150,8 +150,16 @@ export const MEASURE_RULES = [
     return mc(`Which covers ${more ? 'more' : 'less'} space: ${b(a)} or ${b(c)}?`, (sa > sc) === more ? a : c, [(sa > sc) === more ? c : a], `${(sa > sc) ? a : c} covers more space.`, 2);
   }),
   R(/^Compare size, weight and capacity$/, () => () => {
-    const q = pick([['Which is heavier?', 'a bowling ball', 'a balloon', 'a bowling ball is heavier'], ['Which holds more?', 'a bucket', 'a spoon', 'a bucket holds more'], ['Which is longer?', 'a bus', 'a toy car', 'a bus is longer'], ['Which is lighter?', 'a feather', 'a rock', 'a feather is lighter'], ['Which holds less?', 'a cup', 'a bathtub', 'a cup holds less']]);
-    return mc(q[0], q[3].match(/^a \w+( \w+)?/)[0], [q[1] === q[3].match(/^a \w+( \w+)?/)[0] ? q[2] : q[1]], `${q[3][0].toUpperCase() + q[3].slice(1)}.`, 2);
+    // [bigger, smaller] pairs for each kind of comparison
+    const PAIRS = {
+      heavy: [['a bowling ball', 'a balloon'], ['a car', 'a bicycle'], ['a horse', 'a cat'], ['a brick', 'a sponge'], ['a watermelon', 'a grape'], ['a backpack of books', 'an empty lunch bag'], ['a boulder', 'a pebble'], ['a bag of sand', 'a bag of feathers']],
+      holds: [['a bucket', 'a spoon'], ['a bathtub', 'a cup'], ['a jug', 'a thimble'], ['a swimming pool', 'a fish bowl'], ['a barrel', 'a mug'], ['a big pot', 'an egg cup'], ['a water tank', 'a teapot'], ['a wheelbarrow', 'a bowl']],
+      long: [['a bus', 'a toy car'], ['a snake', 'a worm'], ['a school hallway', 'a desk'], ['a hockey stick', 'a pencil'], ['a canoe', 'a paddle'], ['a train', 'a wagon'], ['a rope for a swing', 'a shoelace'], ['a giraffe\'s neck', 'a cat\'s tail']]
+    };
+    const kind = pick(['heavy', 'holds', 'long']), [big, small] = pick(PAIRS[kind]), more = Math.random() < 0.5;
+    const ask = { heavy: more ? 'Which is heavier?' : 'Which is lighter?', holds: more ? 'Which holds more?' : 'Which holds less?', long: more ? 'Which is longer?' : 'Which is shorter?' }[kind];
+    const ans = more ? big : small, other = more ? small : big;
+    return mc(`${ask}`, ans, [other], `${ans[0].toUpperCase() + ans.slice(1)} ${kind === 'heavy' ? (more ? 'is heavier' : 'is lighter') : kind === 'holds' ? (more ? 'holds more' : 'holds less') : (more ? 'is longer' : 'is shorter')} than ${other}.`, 2);
   }),
   R(/^Should you measure size, weight or capacity\?$/, () => () => {
     const q = pick([['how much water a bottle holds', 'capacity'], ['how long a worm is', 'size'], ['how heavy a watermelon is', 'weight'], ['how tall a tree is', 'size'], ['how much juice fits in a jug', 'capacity'], ['how heavy a backpack is', 'weight']]);

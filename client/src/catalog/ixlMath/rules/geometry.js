@@ -310,6 +310,11 @@ export const GEOMETRY_RULES = [
   }),
   R(/^Identify faces of three-dimensional (?:shapes|figures)$/, () => () => {
     const q = pick([['cube', 'square'], ['rectangular prism', 'rectangle'], ['square pyramid', 'triangle and square'], ['triangular prism', 'triangle and rectangle'], ['cylinder', 'circle'], ['cone', 'circle']]);
+    if (Math.random() < 0.5) {
+      const nm = { 'square': ['cube'], 'rectangle': ['rectangular prism'], 'triangle and square': ['square pyramid'], 'triangle and rectangle': ['triangular prism'], 'circle': ['cylinder', 'cone'] }[q[1]], ans = pick(nm);
+      const wrong = ['cube', 'rectangular prism', 'square pyramid', 'triangular prism', 'cylinder', 'cone', 'sphere'].filter(x => !nm.includes(x) && !(q[1] === 'circle' && ['cylinder', 'cone'].includes(x)));
+      return mc(`Which solid has flat faces that are ${b(q[1] === 'circle' ? 'circles' : q[1] === 'square' ? 'only squares' : q[1].replace(' and ', ' and ') + 's')}?`, ans, sample(wrong, 3), `A ${ans} has ${b(q[1])} faces.`, 4);
+    }
     return mc(`Which shape(s) do you see as ${b('flat faces')} on a ${b(q[0])}?`, q[1], ['square', 'rectangle', 'triangle and square', 'triangle and rectangle', 'circle', 'oval'].filter(x => x !== q[1]), `A ${q[0]} has ${b(q[1])} faces.`, 4);
   }),
   R(/^Identify shapes traced from solids$/, () => () => {
