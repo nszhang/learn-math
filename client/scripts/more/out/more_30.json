@@ -2089,14 +2089,14 @@
    "Gamma rays have no charge or mass, so they ionize weakly and travel far through matter."
   ],
   [
-   "Which radiation can be stopped by a few millimetres of aluminium?",
+   "Which radiation can be stopped by a few millimetres of aluminum?",
    "Beta particles",
    [
     "Gamma rays",
     "Neutrons from fission",
     "Cosmic rays"
    ],
-   "Beta particles pass through paper but are stopped by a thin sheet of aluminium."
+   "Beta particles pass through paper but are stopped by a thin sheet of aluminum."
   ],
   [
    "Uranium-238 (atomic number 92) undergoes alpha decay. What is the new element's atomic number?",
@@ -4437,6 +4437,1116 @@
     "A lack of gravity"
    ],
    "Small unbalanced forces from friction and air resistance gradually slow the skater."
+  ]
+ ],
+ "sciXsCircMot": [
+  [
+   "A car moves at 10 m/s around a curve of radius 50 m. What is its centripetal acceleration?",
+   "2 m/s²",
+   [
+    "0.2 m/s²",
+    "5 m/s²",
+    "500 m/s²"
+   ],
+   "a = v² ÷ r = (10 m/s)² ÷ 50 m = 100 ÷ 50 = 2 m/s²."
+  ],
+  [
+   "A 2 kg ball moves at 3 m/s in a circle of radius 1.5 m. What centripetal force acts on it?",
+   "12 N",
+   [
+    "4 N",
+    "6 N",
+    "27 N"
+   ],
+   "F = mv² ÷ r = 2 kg × (3 m/s)² ÷ 1.5 m = 18 ÷ 1.5 = 12 N."
+  ],
+  [
+   "If an object's speed in a circle doubles, the needed centripetal force …",
+   "becomes four times as large",
+   [
+    "doubles",
+    "halves",
+    "stays the same"
+   ],
+   "Centripetal force depends on v², so doubling the speed multiplies it by 2² = 4."
+  ],
+  [
+   "If the radius of a circle doubles at the same speed, the needed centripetal force …",
+   "halves",
+   [
+    "doubles",
+    "quadruples",
+    "stays the same"
+   ],
+   "Centripetal force equals mv² ÷ r, so doubling r cuts the force in half."
+  ],
+  [
+   "If the mass of an object moving in a circle doubles at the same speed and radius, the centripetal force …",
+   "doubles",
+   [
+    "halves",
+    "quadruples",
+    "stays the same"
+   ],
+   "Centripetal force is directly proportional to mass."
+  ],
+  [
+   "In uniform circular motion, which way does the velocity point?",
+   "Along a tangent to the circle",
+   [
+    "Toward the centre",
+    "Away from the centre",
+    "Straight up"
+   ],
+   "Velocity is always tangent to the circular path at each point."
+  ],
+  [
+   "Which way does centripetal acceleration point?",
+   "Toward the centre of the circle",
+   [
+    "Along the direction of motion",
+    "Away from the centre",
+    "Opposite to the motion"
+   ],
+   "Centripetal means 'centre-seeking', so the acceleration points to the centre."
+  ],
+  [
+   "Why is an object moving in a circle at constant speed accelerating?",
+   "Its direction keeps changing",
+   [
+    "Its speed keeps increasing",
+    "Its mass keeps changing",
+    "Its speed keeps decreasing"
+   ],
+   "Acceleration is a change in velocity, and velocity includes direction."
+  ],
+  [
+   "What is the period of circular motion?",
+   "The time for one full revolution",
+   [
+    "The number of turns per second",
+    "The radius of the circle",
+    "The speed along the circle"
+   ],
+   "Period, T, is how long one complete trip around the circle takes."
+  ],
+  [
+   "What is the SI unit of frequency for circular motion?",
+   "Hertz",
+   [
+    "Newton",
+    "Joule",
+    "Metre"
+   ],
+   "Frequency counts revolutions per second, measured in hertz (Hz)."
+  ],
+  [
+   "Why do clothes come out drier after a washing machine's spin cycle?",
+   "Water escapes through holes as it moves straight",
+   [
+    "The drum heats the water away",
+    "Water is pulled to the centre",
+    "The clothes absorb all the water"
+   ],
+   "The drum wall pushes the clothes in a circle, but water at the holes is not held and leaves in a straight line."
+  ],
+  [
+   "Why are highway curves often banked (tilted)?",
+   "Part of the normal force points toward the centre",
+   [
+    "Banking removes the need for any force",
+    "Banking increases the car's mass",
+    "Banking makes gravity point sideways"
+   ],
+   "On a banked road, the tilted normal force supplies some of the centripetal force."
+  ],
+  [
+   "A ball on a string is swung in a vertical circle. Where is the string tension greatest?",
+   "At the bottom",
+   [
+    "At the top",
+    "Halfway up the side",
+    "It is the same everywhere"
+   ],
+   "At the bottom, tension must balance gravity and also supply the centripetal force."
+  ],
+  [
+   "An object moves in a circle of radius 2 m with a period of 4 s. What is its speed?",
+   "About 3.1 m/s",
+   [
+    "About 0.5 m/s",
+    "About 8.0 m/s",
+    "About 12.6 m/s"
+   ],
+   "v = 2πr ÷ T = 2π(2 m) ÷ 4 s ≈ 3.1 m/s."
+  ],
+  [
+   "What is the SI unit of centripetal acceleration?",
+   "m/s²",
+   [
+    "m/s",
+    "N",
+    "kg·m"
+   ],
+   "Like all accelerations, centripetal acceleration is measured in metres per second squared."
+  ],
+  [
+   "Why does a car need more friction to take a curve at higher speed?",
+   "A larger centripetal force is needed",
+   [
+    "Its mass increases at high speed",
+    "Gravity gets stronger at speed",
+    "The curve's radius gets bigger"
+   ],
+   "Required centripetal force grows with v², so more friction is needed at higher speed."
+  ],
+  [
+   "What provides the centripetal force that keeps Earth orbiting the Sun?",
+   "The Sun's gravity",
+   [
+    "Earth's magnetic field",
+    "Friction with space dust",
+    "The solar wind"
+   ],
+   "The Sun's gravitational pull on Earth points toward the Sun, curving Earth's path."
+  ],
+  [
+   "A hammer thrower lets go of the hammer. In which direction does it fly?",
+   "Tangent to its circular path",
+   [
+    "Straight toward the thrower",
+    "Directly outward from the centre",
+    "Straight up into the air"
+   ],
+   "Once released, no centripetal force acts, so the hammer moves in a straight tangent line."
+  ],
+  [
+   "Mud flies off a spinning bike tire. How does it leave the tire?",
+   "Along a tangent to the tire",
+   [
+    "Toward the wheel's axle",
+    "Straight along a spoke",
+    "In a curved spiral path"
+   ],
+   "When the mud's grip fails, it continues in a straight line tangent to the wheel."
+  ],
+  [
+   "At the top of a roller-coaster loop, which forces provide the centripetal force?",
+   "Gravity and the track's normal force",
+   [
+    "Only the riders' inertia",
+    "Only air resistance",
+    "Only the coaster's engine"
+   ],
+   "At the top, both gravity and the downward push of the track point toward the centre of the loop."
+  ],
+  [
+   "What does 'centrifugal force' felt on a spinning ride really come from?",
+   "Your inertia resisting the turn",
+   [
+    "A real force pushing you outward",
+    "Gravity pulling you sideways",
+    "Magnetism in the ride"
+   ],
+   "The outward feeling is your body's tendency to move straight, not a real outward force."
+  ],
+  [
+   "A 1000 kg car rounds a 40 m radius curve at 20 m/s. What centripetal force is needed?",
+   "10 000 N",
+   [
+    "500 N",
+    "800 N",
+    "20 000 N"
+   ],
+   "F = mv² ÷ r = 1000 kg × (20 m/s)² ÷ 40 m = 400 000 ÷ 40 = 10 000 N."
+  ]
+ ],
+ "sciGrav": [
+  [
+   "If both masses double, the gravitational force …",
+   "becomes four times as strong",
+   [
+    "doubles",
+    "stays the same",
+    "halves"
+   ],
+   "Force is proportional to m₁ × m₂, so doubling both multiplies it by 2 × 2 = 4."
+  ],
+  [
+   "If the distance between two masses triples, the gravitational force becomes …",
+   "one-ninth as strong",
+   [
+    "one-third as strong",
+    "three times as strong",
+    "nine times as strong"
+   ],
+   "Gravity follows an inverse-square law, so tripling r divides the force by 3² = 9."
+  ],
+  [
+   "If one mass triples, the gravitational force …",
+   "triples",
+   [
+    "becomes nine times as strong",
+    "stays the same",
+    "becomes one-third as strong"
+   ],
+   "Gravitational force is directly proportional to each mass."
+  ],
+  [
+   "If one mass is cut in half, the gravitational force …",
+   "halves",
+   [
+    "doubles",
+    "quadruples",
+    "stays the same"
+   ],
+   "Halving one mass halves the product m₁m₂, so the force halves."
+  ],
+  [
+   "If the distance between two masses becomes four times larger, the force becomes …",
+   "one-sixteenth as strong",
+   [
+    "one-quarter as strong",
+    "four times as strong",
+    "sixteen times as strong"
+   ],
+   "By the inverse-square law, the force is divided by 4² = 16."
+  ],
+  [
+   "Which equation is Newton's law of universal gravitation?",
+   "F = Gm₁m₂ ÷ r²",
+   [
+    "F = ma",
+    "F = kq₁q₂ ÷ r",
+    "F = mv ÷ r²"
+   ],
+   "The force equals G times the product of the masses divided by the distance squared."
+  ],
+  [
+   "What is the approximate value of the universal gravitational constant G?",
+   "6.67 × 10⁻¹¹ N·m²/kg²",
+   [
+    "9.8 N·m²/kg²",
+    "3.00 × 10⁸ N·m²/kg²",
+    "8.99 × 10⁹ N·m²/kg²"
+   ],
+   "G is very small, about 6.67 × 10⁻¹¹ N·m²/kg², which is why gravity between everyday objects is tiny."
+  ],
+  [
+   "Who first measured G in the laboratory?",
+   "Henry Cavendish",
+   [
+    "Isaac Newton",
+    "Albert Einstein",
+    "Johannes Kepler"
+   ],
+   "Cavendish used a sensitive torsion balance in 1798 to measure the attraction between lead spheres."
+  ],
+  [
+   "Earth pulls on you with a force of 600 N. How hard do you pull on Earth?",
+   "600 N",
+   [
+    "0 N",
+    "6 N",
+    "60 000 N"
+   ],
+   "Gravitational forces come in equal and opposite pairs, so you pull on Earth with 600 N."
+  ],
+  [
+   "Why don't you notice the gravitational pull between you and a friend?",
+   "G is so small that the force is tiny",
+   [
+    "People have no mass to attract",
+    "Gravity only acts on planets",
+    "Air blocks the force completely"
+   ],
+   "Ordinary masses produce extremely small forces because G is about 10⁻¹¹."
+  ],
+  [
+   "Two 1000 kg masses are 1 m apart. What is the gravitational force between them?",
+   "6.67 × 10⁻⁵ N",
+   [
+    "6.67 × 10⁻¹¹ N",
+    "6.67 × 10⁻⁸ N",
+    "6.67 × 10⁻² N"
+   ],
+   "F = (6.67 × 10⁻¹¹)(1000)(1000) ÷ 1² = 6.67 × 10⁻⁵ N."
+  ],
+  [
+   "The gravitational field at Earth's surface is 9.8 N/kg. What is it at twice Earth's radius from the centre?",
+   "About 2.5 N/kg",
+   [
+    "About 4.9 N/kg",
+    "About 19.6 N/kg",
+    "About 1.2 N/kg"
+   ],
+   "Doubling the distance from the centre divides the field by 4: 9.8 ÷ 4 ≈ 2.5 N/kg."
+  ],
+  [
+   "A planet has twice Earth's mass and the same radius. How does surface gravity compare?",
+   "It is twice as strong",
+   [
+    "It is half as strong",
+    "It is four times as strong",
+    "It is the same"
+   ],
+   "Surface gravity is proportional to mass when the radius stays the same."
+  ],
+  [
+   "A planet has Earth's mass but half its radius. How does surface gravity compare?",
+   "It is four times as strong",
+   [
+    "It is twice as strong",
+    "It is half as strong",
+    "It is the same"
+   ],
+   "Halving the radius puts the surface closer to the centre, multiplying gravity by 2² = 4."
+  ],
+  [
+   "In Newton's law of gravitation, the distance r is measured …",
+   "between the centres of the two masses",
+   [
+    "between the closest surfaces",
+    "from Earth's surface to the object",
+    "along the orbit of the object"
+   ],
+   "For spherical bodies, r is the centre-to-centre distance."
+  ],
+  [
+   "How does the strength of gravity change as you move far from Earth?",
+   "It weakens but never reaches zero",
+   [
+    "It stops completely at 100 km",
+    "It grows stronger",
+    "It stays the same everywhere"
+   ],
+   "Gravity decreases with the square of distance but has unlimited range."
+  ],
+  [
+   "Why do a heavy and a light object fall with the same acceleration (without air)?",
+   "Greater mass means greater force, so a = F ÷ m is the same",
+   [
+    "Heavy objects have less gravity acting on them",
+    "Light objects have no mass in a vacuum",
+    "Gravity only acts on light objects"
+   ],
+   "The gravitational force is proportional to mass, so dividing by mass gives the same acceleration."
+  ],
+  [
+   "A satellite moves to a higher orbit. What happens to Earth's gravitational pull on it?",
+   "It decreases",
+   [
+    "It increases",
+    "It stays the same",
+    "It reverses direction"
+   ],
+   "A greater distance from Earth's centre gives a weaker gravitational force."
+  ],
+  [
+   "Why does Earth stay in orbit rather than fall into the Sun?",
+   "Its sideways speed keeps it curving around",
+   [
+    "The Sun's gravity pushes it outward",
+    "There is no gravity between them",
+    "Earth's magnetism repels the Sun"
+   ],
+   "Earth falls toward the Sun but moves sideways fast enough that it keeps missing, tracing an orbit."
+  ],
+  [
+   "What is the gravitational force on a 50 kg student at Earth's surface (g = 9.8 N/kg)?",
+   "490 N",
+   [
+    "50 N",
+    "5.1 N",
+    "980 N"
+   ],
+   "Weight = mg = 50 kg × 9.8 N/kg = 490 N."
+  ],
+  [
+   "If both masses double and the distance also doubles, the gravitational force …",
+   "stays the same",
+   [
+    "doubles",
+    "quadruples",
+    "halves"
+   ],
+   "The masses multiply the force by 4 and the doubled distance divides it by 4, so it is unchanged."
+  ],
+  [
+   "Which law is described as an 'inverse-square law'?",
+   "Newton's law of universal gravitation",
+   [
+    "Newton's first law of motion",
+    "The law of conservation of mass",
+    "Hooke's law for springs"
+   ],
+   "Gravitational force varies with 1 ÷ r², which is an inverse-square relationship."
+  ]
+ ],
+ "sciXsPhotoE": [
+  [
+   "What is the threshold frequency of a metal?",
+   "The minimum frequency that can eject electrons",
+   [
+    "The maximum frequency the metal can absorb",
+    "The frequency at which the metal melts",
+    "The frequency of electrons in the metal"
+   ],
+   "Below the threshold frequency, no photoelectrons are released, no matter how bright the light."
+  ],
+  [
+   "What is the work function of a metal?",
+   "The minimum energy needed to free an electron",
+   [
+    "The energy needed to melt the metal",
+    "The total energy of all its electrons",
+    "The energy the metal gives off as heat"
+   ],
+   "The work function is the least energy a photon must give to remove an electron from the surface."
+  ],
+  [
+   "Light above the threshold frequency hits a metal. What happens if the frequency is increased?",
+   "The electrons leave with more kinetic energy",
+   [
+    "Fewer electrons are ever ejected",
+    "The electrons stop being ejected",
+    "The electrons leave more slowly"
+   ],
+   "Higher frequency means more energy per photon, so extra energy becomes electron kinetic energy."
+  ],
+  [
+   "Light below the threshold frequency hits a metal. What happens if it is made much brighter?",
+   "Still no electrons are ejected",
+   [
+    "Electrons are ejected right away",
+    "The metal becomes positively charged",
+    "The electrons gain more energy each"
+   ],
+   "Each photon still has too little energy, and brightness only adds more of these weak photons."
+  ],
+  [
+   "What are electrons ejected by light from a metal called?",
+   "Photoelectrons",
+   [
+    "Positrons",
+    "Photons",
+    "Neutrinos"
+   ],
+   "Electrons released by the photoelectric effect are called photoelectrons."
+  ],
+  [
+   "Which equation gives the energy of a photon?",
+   "E = hf",
+   [
+    "E = mc",
+    "E = mgh",
+    "E = ½mv"
+   ],
+   "A photon's energy equals Planck's constant times its frequency."
+  ],
+  [
+   "What is the approximate value of Planck's constant?",
+   "6.63 × 10⁻³⁴ J·s",
+   [
+    "6.67 × 10⁻¹¹ J·s",
+    "3.00 × 10⁸ J·s",
+    "1.60 × 10⁻¹⁹ J·s"
+   ],
+   "Planck's constant h is about 6.63 × 10⁻³⁴ joule-seconds."
+  ],
+  [
+   "Which colour of visible light has the highest-energy photons?",
+   "Violet",
+   [
+    "Red",
+    "Orange",
+    "Green"
+   ],
+   "Violet has the highest frequency in the visible spectrum, so its photons carry the most energy."
+  ],
+  [
+   "Which type of electromagnetic radiation has the highest-energy photons?",
+   "X-rays",
+   [
+    "Radio waves",
+    "Microwaves",
+    "Infrared"
+   ],
+   "X-rays have far higher frequencies than the others, so their photons have more energy."
+  ],
+  [
+   "For which discovery did Albert Einstein win the Nobel Prize in Physics?",
+   "Explaining the photoelectric effect",
+   [
+    "Discovering the electron",
+    "Inventing the light bulb",
+    "Measuring the speed of sound"
+   ],
+   "Einstein received the 1921 Nobel Prize for his explanation of the photoelectric effect."
+  ],
+  [
+   "A 5.0 eV photon hits a metal with a work function of 2.0 eV. What is the maximum kinetic energy of the ejected electron?",
+   "3.0 eV",
+   [
+    "7.0 eV",
+    "2.5 eV",
+    "10 eV"
+   ],
+   "Maximum kinetic energy = photon energy − work function = 5.0 − 2.0 = 3.0 eV."
+  ],
+  [
+   "A 4.0 eV photon hits a metal with a work function of 4.5 eV. What happens?",
+   "No electron is ejected",
+   [
+    "An electron leaves with 0.5 eV",
+    "An electron leaves with 8.5 eV",
+    "Two electrons are ejected"
+   ],
+   "The photon has less energy than the work function, so it cannot free an electron."
+  ],
+  [
+   "Which observation could the wave model of light NOT explain?",
+   "Dim violet light ejects electrons at once",
+   [
+    "Light bends around small openings",
+    "Light makes interference patterns",
+    "Light reflects from a mirror"
+   ],
+   "The wave model predicted a delay for dim light; instant emission supports photons."
+  ],
+  [
+   "Which behaviour of light is best explained by its wave nature?",
+   "Interference patterns from two slits",
+   [
+    "Electrons ejected from metals",
+    "Energy coming in fixed packets",
+    "A threshold frequency for metals"
+   ],
+   "Interference and diffraction are wave behaviours, while the photoelectric effect shows particle behaviour."
+  ],
+  [
+   "If a photon's frequency doubles, its energy …",
+   "doubles",
+   [
+    "halves",
+    "quadruples",
+    "stays the same"
+   ],
+   "Since E = hf, energy is directly proportional to frequency."
+  ],
+  [
+   "As the wavelength of light gets longer, its photon energy …",
+   "decreases",
+   [
+    "increases",
+    "stays the same",
+    "doubles"
+   ],
+   "Longer wavelength means lower frequency, so each photon carries less energy."
+  ],
+  [
+   "What is the electric charge of a photon?",
+   "Zero",
+   [
+    "−1",
+    "+1",
+    "+2"
+   ],
+   "Photons are packets of electromagnetic energy with no electric charge."
+  ],
+  [
+   "In the photon model, what does a brighter light of the same colour have more of?",
+   "Photons per second",
+   [
+    "Energy per photon",
+    "Frequency per photon",
+    "Mass per photon"
+   ],
+   "Brightness depends on how many photons arrive each second, not on each photon's energy."
+  ],
+  [
+   "Why do different metals have different threshold frequencies?",
+   "They have different work functions",
+   [
+    "They are different colours",
+    "They have different temperatures",
+    "They have different shapes"
+   ],
+   "A metal that holds its electrons more tightly has a larger work function and a higher threshold."
+  ],
+  [
+   "Which scientist first proposed that light energy comes in small packets (quanta)?",
+   "Max Planck",
+   [
+    "Isaac Newton",
+    "Marie Curie",
+    "Ernest Rutherford"
+   ],
+   "Planck introduced energy quanta in 1900, and Einstein applied the idea to light in 1905."
+  ],
+  [
+   "Which unit is often used for photon energies and work functions?",
+   "The electronvolt",
+   [
+    "The newton",
+    "The pascal",
+    "The tesla"
+   ],
+   "The electronvolt (eV), about 1.6 × 10⁻¹⁹ J, is a convenient size for photon energies."
+  ],
+  [
+   "Which particle is released from a metal in the photoelectric effect?",
+   "An electron",
+   [
+    "A proton",
+    "A neutron",
+    "An alpha particle"
+   ],
+   "Photons transfer their energy to electrons in the metal, freeing them."
+  ]
+ ],
+ "sciCoulomb": [
+  [
+   "What is the approximate value of Coulomb's constant k?",
+   "8.99 × 10⁹ N·m²/C²",
+   [
+    "6.67 × 10⁻¹¹ N·m²/C²",
+    "9.8 N·m²/C²",
+    "1.60 × 10⁻¹⁹ N·m²/C²"
+   ],
+   "Coulomb's constant is about 8.99 × 10⁹ N·m²/C², which makes electric forces very strong."
+  ],
+  [
+   "Which equation is Coulomb's law?",
+   "F = kq₁q₂ ÷ r²",
+   [
+    "F = Gm₁m₂ ÷ r²",
+    "F = ma",
+    "F = kq₁ ÷ r³"
+   ],
+   "Electric force equals k times the product of the charges divided by the distance squared."
+  ],
+  [
+   "If one charge triples, the electric force …",
+   "triples",
+   [
+    "becomes nine times as strong",
+    "stays the same",
+    "becomes one-third as strong"
+   ],
+   "Electric force is directly proportional to each charge."
+  ],
+  [
+   "If the distance between two charges is halved, the force becomes …",
+   "four times as strong",
+   [
+    "twice as strong",
+    "half as strong",
+    "one-quarter as strong"
+   ],
+   "By the inverse-square law, halving r multiplies the force by 2² = 4."
+  ],
+  [
+   "If the distance between two charges becomes four times larger, the force becomes …",
+   "one-sixteenth as strong",
+   [
+    "one-quarter as strong",
+    "four times as strong",
+    "sixteen times as strong"
+   ],
+   "Increasing r by 4 divides the force by 4² = 16."
+  ],
+  [
+   "If both charges are cut in half, the force becomes …",
+   "one-quarter as strong",
+   [
+    "half as strong",
+    "twice as strong",
+    "four times as strong"
+   ],
+   "Each charge halves, so the product q₁q₂ is multiplied by ½ × ½ = ¼."
+  ],
+  [
+   "If one charge doubles and the distance also doubles, the force …",
+   "becomes half as strong",
+   [
+    "stays the same",
+    "doubles",
+    "quadruples"
+   ],
+   "Doubling the charge doubles the force, and doubling r divides it by 4, giving ½."
+  ],
+  [
+   "Two negative charges …",
+   "repel each other",
+   [
+    "attract each other",
+    "do not interact",
+    "become positive"
+   ],
+   "Like charges repel, whether both are positive or both are negative."
+  ],
+  [
+   "What is the charge on one electron?",
+   "−1.60 × 10⁻¹⁹ C",
+   [
+    "+1.60 × 10⁻¹⁹ C",
+    "−9.11 × 10⁻³¹ C",
+    "−6.02 × 10²³ C"
+   ],
+   "The elementary charge is 1.60 × 10⁻¹⁹ C, and the electron carries a negative one."
+  ],
+  [
+   "Two 1.0 C charges are 1.0 m apart. What is the force between them?",
+   "8.99 × 10⁹ N",
+   [
+    "1.0 N",
+    "6.67 × 10⁻¹¹ N",
+    "8.99 × 10⁻⁹ N"
+   ],
+   "F = (8.99 × 10⁹)(1.0)(1.0) ÷ 1.0² = 8.99 × 10⁹ N."
+  ],
+  [
+   "Two 1.0 × 10⁻⁶ C charges are 1.0 m apart. What is the force between them?",
+   "8.99 × 10⁻³ N",
+   [
+    "8.99 × 10⁹ N",
+    "8.99 × 10³ N",
+    "8.99 × 10⁻⁶ N"
+   ],
+   "F = (8.99 × 10⁹)(10⁻⁶)(10⁻⁶) ÷ 1² = 8.99 × 10⁻³ N."
+  ],
+  [
+   "How is Coulomb's law similar to Newton's law of gravitation?",
+   "Both are inverse-square laws",
+   [
+    "Both forces can only repel",
+    "Both depend on temperature",
+    "Both have the same constant"
+   ],
+   "Both forces weaken with the square of the distance between the objects."
+  ],
+  [
+   "How is the electric force different from gravity?",
+   "It can attract or repel",
+   [
+    "It only ever attracts",
+    "It does not depend on distance",
+    "It acts only on planets"
+   ],
+   "Gravity always attracts, but electric forces repel between like charges."
+  ],
+  [
+   "In a hydrogen atom, how does the electric force between the proton and electron compare with gravity?",
+   "It is far stronger",
+   [
+    "It is far weaker",
+    "It is exactly equal",
+    "It is zero"
+   ],
+   "The electric attraction is about 10³⁹ times stronger than their gravitational attraction."
+  ],
+  [
+   "What device did Charles-Augustin de Coulomb use to measure electric forces?",
+   "A torsion balance",
+   [
+    "A thermometer",
+    "A barometer",
+    "A spectroscope"
+   ],
+   "Coulomb measured the twisting of a fine fibre in a torsion balance to find the force between charges."
+  ],
+  [
+   "A charge A pushes on charge B with 5 N. How hard does B push on A?",
+   "5 N",
+   [
+    "0 N",
+    "2.5 N",
+    "10 N"
+   ],
+   "By Newton's third law, the forces on the two charges are equal in size and opposite in direction."
+  ],
+  [
+   "How many coulombs are in one microcoulomb (1 μC)?",
+   "1 × 10⁻⁶ C",
+   [
+    "1 × 10⁻³ C",
+    "1 × 10⁻⁹ C",
+    "1 × 10⁶ C"
+   ],
+   "The prefix micro means one-millionth, or 10⁻⁶."
+  ],
+  [
+   "In Coulomb's law, what is the SI unit of the force F?",
+   "The newton",
+   [
+    "The coulomb",
+    "The volt",
+    "The joule"
+   ],
+   "Like all forces, electric force is measured in newtons."
+  ],
+  [
+   "What happens to the electric force if one of the two point charges becomes zero?",
+   "The force becomes zero",
+   [
+    "The force doubles",
+    "The force becomes infinite",
+    "The force stays the same"
+   ],
+   "If q₁ or q₂ is zero, the product q₁q₂ is zero, so F = 0."
+  ],
+  [
+   "A proton and an electron are placed near each other. What is the direction of the force on the electron?",
+   "Toward the proton",
+   [
+    "Away from the proton",
+    "At right angles to the proton",
+    "There is no force"
+   ],
+   "Opposite charges attract, so the electron is pulled toward the proton."
+  ],
+  [
+   "Why do protons in a nucleus not fly apart from electric repulsion?",
+   "The strong nuclear force holds them together",
+   [
+    "Protons have no electric charge",
+    "Gravity between them is stronger",
+    "Electrons sit between the protons"
+   ],
+   "At tiny distances the strong nuclear force overcomes the electric repulsion between protons."
+  ],
+  [
+   "If the distance between two charges increases by a factor of 10, the force becomes …",
+   "one-hundredth as strong",
+   [
+    "one-tenth as strong",
+    "ten times as strong",
+    "one hundred times as strong"
+   ],
+   "The force falls with r², so it is divided by 10² = 100."
+  ]
+ ],
+ "sciXsMagnet": [
+  [
+   "What happens when two north poles of magnets are brought together?",
+   "They repel each other",
+   [
+    "They attract each other",
+    "They turn into south poles",
+    "Nothing happens"
+   ],
+   "Like magnetic poles repel each other."
+  ],
+  [
+   "What happens when a north pole and a south pole are brought together?",
+   "They attract each other",
+   [
+    "They repel each other",
+    "They both lose magnetism",
+    "Nothing happens"
+   ],
+   "Unlike magnetic poles attract each other."
+  ],
+  [
+   "Which metal is NOT attracted to a magnet?",
+   "Copper",
+   [
+    "Iron",
+    "Nickel",
+    "Cobalt"
+   ],
+   "Copper is not ferromagnetic, while iron, nickel and cobalt are strongly attracted to magnets."
+  ],
+  [
+   "Where is the magnetic field of a bar magnet strongest?",
+   "At the poles",
+   [
+    "At the exact middle",
+    "Far from the magnet",
+    "Equally everywhere"
+   ],
+   "Field lines crowd together at the poles, where the field is strongest."
+  ],
+  [
+   "What can iron filings sprinkled around a magnet show?",
+   "The pattern of its magnetic field lines",
+   [
+    "The temperature of the magnet",
+    "The mass of the magnet",
+    "The age of the magnet"
+   ],
+   "Iron filings line up along the field, revealing the shape of the field lines."
+  ],
+  [
+   "What does it mean when magnetic field lines are drawn close together?",
+   "The field is stronger there",
+   [
+    "The field is weaker there",
+    "There is no field there",
+    "The field points both ways"
+   ],
+   "The density of field lines shows field strength: closer lines mean a stronger field."
+  ],
+  [
+   "Can two magnetic field lines ever cross?",
+   "No, they never cross",
+   [
+    "Yes, near the poles",
+    "Yes, in the middle",
+    "Yes, far from the magnet"
+   ],
+   "At each point the field has only one direction, so field lines cannot cross."
+  ],
+  [
+   "What causes the northern lights (aurora borealis)?",
+   "Charged solar particles guided by Earth's field",
+   [
+    "Sunlight reflecting off polar ice",
+    "Moonlight passing through clouds",
+    "Lightning high in the stratosphere"
+   ],
+   "Earth's magnetic field steers solar particles toward the poles, where they make air glow."
+  ],
+  [
+   "What is magnetic declination?",
+   "The angle between true north and magnetic north",
+   [
+    "The strength of a bar magnet",
+    "The weight of a compass needle",
+    "The distance between two magnets"
+   ],
+   "Declination tells navigators how far a compass points away from geographic north."
+  ],
+  [
+   "What does an electric motor do?",
+   "Turns electrical energy into motion",
+   [
+    "Turns motion into electrical energy",
+    "Turns light into sound",
+    "Turns heat into magnetism"
+   ],
+   "A motor uses magnetic forces on current-carrying wires to make something spin."
+  ],
+  [
+   "What does an electric generator do?",
+   "Turns motion into electrical energy",
+   [
+    "Turns electrical energy into motion",
+    "Turns sound into light",
+    "Turns magnetism into heat"
+   ],
+   "A generator spins coils in a magnetic field to induce an electric current."
+  ],
+  [
+   "What is one main advantage of an electromagnet over a permanent magnet?",
+   "It can be switched on and off",
+   [
+    "It never needs electricity",
+    "It is always much weaker",
+    "It works without any wire"
+   ],
+   "An electromagnet's field exists only when current flows, so it can be turned on and off."
+  ],
+  [
+   "What is a solenoid?",
+   "A coil of wire carrying a current",
+   [
+    "A magnet made of pure copper",
+    "A compass needle on a pin",
+    "A battery made of magnets"
+   ],
+   "Current in a coiled wire produces a magnetic field like a bar magnet's."
+  ],
+  [
+   "What is the SI unit of magnetic field strength?",
+   "The tesla",
+   [
+    "The ohm",
+    "The newton",
+    "The watt"
+   ],
+   "Magnetic field strength is measured in teslas (T)."
+  ],
+  [
+   "Which medical scanner uses very strong magnets to make images?",
+   "An MRI scanner",
+   [
+    "An X-ray machine",
+    "A thermometer",
+    "A stethoscope"
+   ],
+   "Magnetic resonance imaging uses strong magnetic fields and radio waves to image the body."
+  ],
+  [
+   "A compass placed near a current-carrying wire turns. What does this show?",
+   "Electric current produces a magnetic field",
+   [
+    "The wire is made of iron",
+    "The compass is broken",
+    "Current destroys magnetic fields"
+   ],
+   "Hans Christian Ørsted discovered this link between electricity and magnetism in 1820."
+  ],
+  [
+   "What happens to a magnet if it is dropped hard many times?",
+   "It becomes weaker",
+   [
+    "It becomes stronger",
+    "It changes its poles to iron",
+    "It gains extra poles"
+   ],
+   "Repeated shocks knock magnetic domains out of alignment, weakening the magnet."
+  ],
+  [
+   "Can you separate a north pole from a south pole to get a single pole?",
+   "No, every piece has both poles",
+   [
+    "Yes, by cutting the magnet",
+    "Yes, by heating the magnet",
+    "Yes, by freezing the magnet"
+   ],
+   "No single magnetic pole has ever been isolated; each piece of a magnet has a north and a south."
+  ],
+  [
+   "How do maglev trains float above their tracks?",
+   "Magnetic forces lift the train",
+   [
+    "Air jets lift the train",
+    "Fast-spinning wheels lift it",
+    "The track cancels gravity"
+   ],
+   "Powerful electromagnets lift and guide the train, so there is almost no friction with the track."
+  ],
+  [
+   "Which material makes a good temporary magnet that loses magnetism easily?",
+   "Soft iron",
+   [
+    "Plastic",
+    "Glass",
+    "Wood"
+   ],
+   "Soft iron magnetizes easily in a field and loses most of its magnetism when the field is removed."
+  ],
+  [
+   "Which end of a compass needle points north?",
+   "The needle's north pole",
+   [
+    "The needle's south pole",
+    "The needle's middle",
+    "Either end at random"
+   ],
+   "The north-seeking pole of a compass is attracted toward Earth's magnetic pole in the north."
+  ],
+  [
+   "A wire is wrapped around a nail and connected to a battery. What has been made?",
+   "An electromagnet",
+   [
+    "A generator",
+    "A compass",
+    "A solar cell"
+   ],
+   "Current through a coil around an iron core makes an electromagnet."
   ]
  ]
 }

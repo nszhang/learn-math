@@ -1108,5 +1108,1781 @@
    ],
    "Facilitated diffusion uses channel or carrier proteins, but still needs no energy."
   ]
+ ],
+ "sciXsActive": [
+  [
+   "Active transport moves substances …",
+   "against their concentration gradient",
+   [
+    "only down their concentration gradient",
+    "only by diffusion through the bilayer",
+    "without any help from proteins"
+   ],
+   "Active transport uses energy to move substances from low to high concentration."
+  ],
+  [
+   "Which kind of protein carries out active transport across the membrane?",
+   "Pump proteins",
+   [
+    "Receptor proteins",
+    "Glycolipids",
+    "Aquaporins"
+   ],
+   "Pump proteins use ATP to move substances against their gradient."
+  ],
+  [
+   "Which organelle makes most of the ATP used for active transport?",
+   "The mitochondrion",
+   [
+    "The nucleus",
+    "The Golgi apparatus",
+    "The cell wall"
+   ],
+   "Mitochondria produce most of the cell's ATP through cellular respiration."
+  ],
+  [
+   "Which process is a form of bulk transport into the cell?",
+   "Endocytosis",
+   [
+    "Exocytosis",
+    "Osmosis",
+    "Simple diffusion"
+   ],
+   "Endocytosis brings large materials into the cell by wrapping them in membrane."
+  ],
+  [
+   "A white blood cell engulfing a bacterium is an example of …",
+   "phagocytosis",
+   [
+    "pinocytosis",
+    "exocytosis",
+    "osmosis"
+   ],
+   "Phagocytosis is the type of endocytosis in which cells engulf large particles."
+  ],
+  [
+   "In receptor-mediated endocytosis, the cell takes in …",
+   "specific molecules bound to receptors",
+   [
+    "any fluid near the membrane",
+    "only water molecules",
+    "only gases like oxygen"
+   ],
+   "Receptors on the membrane bind specific molecules, such as cholesterol carriers, before the membrane folds in."
+  ],
+  [
+   "A small sac of membrane that carries materials in or out of the cell is a …",
+   "vesicle",
+   [
+    "ribosome",
+    "nucleolus",
+    "centriole"
+   ],
+   "Vesicles are membrane-bound sacs used in endocytosis and exocytosis."
+  ],
+  [
+   "Nerve cells releasing neurotransmitters into a synapse use …",
+   "exocytosis",
+   [
+    "endocytosis",
+    "phagocytosis",
+    "osmosis"
+   ],
+   "Vesicles of neurotransmitter fuse with the membrane and release their contents outside the cell."
+  ],
+  [
+   "For each ATP used, how many sodium ions does the sodium-potassium pump move out?",
+   "3",
+   [
+    "1",
+    "2",
+    "4"
+   ],
+   "The pump moves 3 Na⁺ out and 2 K⁺ in for each ATP."
+  ],
+  [
+   "For each ATP used, how many potassium ions does the sodium-potassium pump move in?",
+   "2",
+   [
+    "1",
+    "3",
+    "4"
+   ],
+   "The pump brings 2 K⁺ into the cell for every 3 Na⁺ it removes."
+  ],
+  [
+   "After the sodium-potassium pump works, sodium concentration is higher …",
+   "outside the cell",
+   [
+    "inside the cell",
+    "inside the nucleus",
+    "inside the mitochondria"
+   ],
+   "The pump pushes sodium out, so Na⁺ builds up outside the cell."
+  ],
+  [
+   "Which is an example of active transport?",
+   "A root cell taking in nitrate from dilute soil",
+   [
+    "Oxygen diffusing into the blood",
+    "Water entering a cell by osmosis",
+    "Carbon dioxide leaving a leaf cell"
+   ],
+   "Taking in minerals that are more concentrated inside the root requires energy."
+  ],
+  [
+   "Which is NOT a form of active transport?",
+   "Facilitated diffusion",
+   [
+    "The sodium-potassium pump",
+    "Endocytosis",
+    "Exocytosis"
+   ],
+   "Facilitated diffusion is passive because it moves substances down their gradient with no ATP."
+  ],
+  [
+   "A poison stops mitochondria from working. Which process is affected first?",
+   "The sodium-potassium pump",
+   [
+    "Diffusion of oxygen",
+    "Osmosis of water",
+    "Diffusion of carbon dioxide"
+   ],
+   "Without ATP from mitochondria, pumps that rely on ATP cannot work."
+  ],
+  [
+   "How do intestine cells absorb glucose even when there is little left in the gut?",
+   "By active transport",
+   [
+    "By osmosis",
+    "By simple diffusion only",
+    "By exocytosis"
+   ],
+   "Active transport lets cells absorb glucose against its gradient so little is wasted."
+  ],
+  [
+   "Pancreas cells releasing insulin into the blood is an example of …",
+   "exocytosis",
+   [
+    "pinocytosis",
+    "phagocytosis",
+    "osmosis"
+   ],
+   "Insulin is packaged in vesicles that fuse with the membrane and release it outside."
+  ],
+  [
+   "An amoeba capturing food by surrounding it with pseudopods uses …",
+   "phagocytosis",
+   [
+    "exocytosis",
+    "pinocytosis",
+    "osmosis"
+   ],
+   "The amoeba engulfs its food in a vesicle, which is phagocytosis."
+  ],
+  [
+   "Why does a cell need energy to move a substance from low to high concentration?",
+   "It works against the natural direction of diffusion",
+   [
+    "Particles stop moving at high concentration",
+    "The membrane blocks all diffusion",
+    "Energy makes the particles smaller"
+   ],
+   "Particles naturally spread from high to low, so moving them the other way requires energy."
+  ],
+  [
+   "What happens to the membrane of a vesicle during exocytosis?",
+   "It becomes part of the cell membrane",
+   [
+    "It turns into a ribosome",
+    "It dissolves in the cytoplasm",
+    "It moves into the nucleus"
+   ],
+   "The vesicle fuses with the cell membrane, adding its membrane to the surface."
+  ],
+  [
+   "Which molecule is broken down to release energy for pumps?",
+   "ATP into ADP and phosphate",
+   [
+    "DNA into nucleotides",
+    "Starch into glucose",
+    "Water into oxygen and hydrogen"
+   ],
+   "Removing a phosphate from ATP releases the energy pumps use."
+  ],
+  [
+   "A proton pump in a stomach cell moves H⁺ into the stomach. This is …",
+   "active transport",
+   [
+    "osmosis",
+    "simple diffusion",
+    "facilitated diffusion"
+   ],
+   "The pump uses ATP to move hydrogen ions into the already acidic stomach, against the gradient."
+  ],
+  [
+   "Which comparison between endocytosis and exocytosis is correct?",
+   "Endocytosis brings in; exocytosis sends out",
+   [
+    "Both only bring materials in",
+    "Both only send materials out",
+    "Endocytosis sends out; exocytosis brings in"
+   ],
+   "Endo- means into the cell, and exo- means out of the cell."
+  ]
+ ],
+ "sciIncDom": [
+  [
+   "A red (RR) snapdragon is crossed with a white (WW) snapdragon. What fraction of offspring are expected to be pink?",
+   "All of them",
+   [
+    "One quarter",
+    "One half",
+    "None of them"
+   ],
+   "Every offspring gets one R and one W, so all are pink (RW)."
+  ],
+  [
+   "A pink (RW) snapdragon is crossed with a white (WW) one. What fraction of offspring are expected to be white?",
+   "1/2",
+   [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "The cross gives RW and WW in equal numbers, so half are white."
+  ],
+  [
+   "A pink (RW) snapdragon is crossed with a red (RR) one. What fraction of offspring are expected to be pink?",
+   "1/2",
+   [
+    "1/4",
+    "3/4",
+    "All"
+   ],
+   "The cross gives RR and RW in equal numbers, so half are pink."
+  ],
+  [
+   "Two pink (RW) snapdragons are crossed. What is the expected ratio of red : pink : white?",
+   "1 : 2 : 1",
+   [
+    "3 : 1 : 0",
+    "1 : 1 : 1",
+    "2 : 1 : 1"
+   ],
+   "RW × RW gives 1 RR : 2 RW : 1 WW, so 1 red : 2 pink : 1 white."
+  ],
+  [
+   "In codominance, a heterozygote shows …",
+   "both traits fully",
+   [
+    "a blend of the two traits",
+    "only the dominant trait",
+    "neither trait"
+   ],
+   "In codominance both alleles are fully expressed at the same time."
+  ],
+  [
+   "A chicken with black and white feathers mixed together (speckled) shows …",
+   "codominance",
+   [
+    "incomplete dominance",
+    "complete dominance",
+    "sex-linkage"
+   ],
+   "Both black and white feathers appear separately, which is codominance."
+  ],
+  [
+   "Black and white Andalusian chickens produce blue-grey offspring. This pattern is …",
+   "incomplete dominance",
+   [
+    "codominance",
+    "complete dominance",
+    "sex-linkage"
+   ],
+   "Blue-grey is an intermediate between black and white, which shows incomplete dominance."
+  ],
+  [
+   "A roan cow (RW) is crossed with a red cow (RR). What fraction of calves are expected to be roan?",
+   "1/2",
+   [
+    "1/4",
+    "3/4",
+    "All"
+   ],
+   "The cross gives RR and RW in equal numbers, so half are roan."
+  ],
+  [
+   "Two roan cattle (RW) are crossed. What fraction of calves are expected to be white?",
+   "1/4",
+   [
+    "1/2",
+    "3/4",
+    "0"
+   ],
+   "RW × RW gives 1/4 WW, which are white."
+  ],
+  [
+   "A person with type A blood (I<sup>A</sup>i) and a person with type B blood (I<sup>B</sup>i) have a child. What is the probability the child is type O?",
+   "1/4",
+   [
+    "0",
+    "1/2",
+    "3/4"
+   ],
+   "Each parent can pass on i, so the child is ii (type O) with probability 1/2 × 1/2 = 1/4."
+  ],
+  [
+   "A person with type AB blood and a person with type O blood have a child. What fraction of their children are expected to be type AB?",
+   "0",
+   [
+    "1/4",
+    "1/2",
+    "All"
+   ],
+   "Each child gets i from the O parent, so they are type A or B, never AB."
+  ],
+  [
+   "Two people with type AB blood have a child. What is the probability the child is type AB?",
+   "1/2",
+   [
+    "1/4",
+    "3/4",
+    "All"
+   ],
+   "I<sup>A</sup>I<sup>B</sup> × I<sup>A</sup>I<sup>B</sup> gives 1/4 AA, 1/2 AB and 1/4 BB."
+  ],
+  [
+   "In four o'clock flowers, red (RR) × white (WW) gives pink. Two pink plants give 80 seedlings. About how many are expected to be pink?",
+   "40",
+   [
+    "20",
+    "60",
+    "80"
+   ],
+   "Half of the offspring of RW × RW are RW, so about 40 of 80 are pink."
+  ],
+  [
+   "Two pink four o'clock plants produce 80 seedlings. About how many are expected to be red?",
+   "20",
+   [
+    "40",
+    "60",
+    "0"
+   ],
+   "One quarter of RW × RW offspring are RR, so about 20 of 80 are red."
+  ],
+  [
+   "In incomplete dominance, how many different phenotypes can a cross of two heterozygotes give?",
+   "3",
+   [
+    "1",
+    "2",
+    "4"
+   ],
+   "Two heterozygotes give three phenotypes: the two homozygous forms and the blended heterozygote."
+  ],
+  [
+   "Why is the phenotype ratio the same as the genotype ratio in incomplete dominance?",
+   "Each genotype has its own phenotype",
+   [
+    "The dominant allele hides the other",
+    "Only homozygotes survive",
+    "Alleles always blend permanently"
+   ],
+   "Because the heterozygote looks different from both homozygotes, each genotype shows a unique phenotype."
+  ],
+  [
+   "A plant breeder wants only pink snapdragons. Which cross gives 100% pink?",
+   "Red × white",
+   [
+    "Pink × pink",
+    "Pink × red",
+    "Pink × white"
+   ],
+   "RR × WW gives only RW offspring, which are all pink."
+  ],
+  [
+   "Sickle cell trait, where a heterozygote makes both normal and sickle hemoglobin, is an example of …",
+   "codominance",
+   [
+    "incomplete dominance",
+    "sex-linkage",
+    "polygenic inheritance"
+   ],
+   "Both types of hemoglobin are made, so both alleles are expressed."
+  ],
+  [
+   "What happens to the white allele when two pink snapdragons are crossed?",
+   "It can appear again in white offspring",
+   [
+    "It is lost forever",
+    "It turns into a red allele",
+    "It blends into a pink allele"
+   ],
+   "Alleles do not blend permanently, so WW offspring can appear in the next generation."
+  ],
+  [
+   "A pink (RW) snapdragon is crossed with a white (WW) one. What fraction of offspring are expected to be red?",
+   "0",
+   [
+    "1/4",
+    "1/2",
+    "3/4"
+   ],
+   "The white parent gives only W, so no offspring can be RR."
+  ],
+  [
+   "Which genotype describes a pink snapdragon?",
+   "RW",
+   [
+    "RR",
+    "WW",
+    "R"
+   ],
+   "A pink snapdragon is heterozygous, carrying one red and one white allele."
+  ],
+  [
+   "A white-flowered and a red-flowered camellia produce flowers with red and white patches. This shows …",
+   "codominance",
+   [
+    "incomplete dominance",
+    "complete dominance",
+    "a mutation"
+   ],
+   "Both colours appear in distinct patches, which is codominance."
+  ]
+ ],
+ "sciPhotoCh": [
+  [
+   "Where do the light-dependent reactions of photosynthesis take place?",
+   "The thylakoid membranes",
+   [
+    "The stroma",
+    "The cytoplasm",
+    "The mitochondrial matrix"
+   ],
+   "Chlorophyll and the electron carriers for the light reactions sit in the thylakoid membranes."
+  ],
+  [
+   "Where does the Krebs cycle take place?",
+   "The mitochondrial matrix",
+   [
+    "The cytoplasm",
+    "The thylakoid membrane",
+    "The stroma of the chloroplast"
+   ],
+   "The Krebs (citric acid) cycle happens in the matrix of the mitochondrion."
+  ],
+  [
+   "What is the balanced equation for photosynthesis?",
+   "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+   [
+    "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+    "6CO₂ + 6O₂ → C₆H₁₂O₆ + 6H₂O",
+    "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂"
+   ],
+   "Carbon dioxide and water use light energy to form glucose and oxygen."
+  ],
+  [
+   "What is the balanced equation for cellular respiration?",
+   "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+   [
+    "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+    "C₆H₁₂O₆ → 2C₃H₆O₃",
+    "6O₂ + 6H₂O → C₆H₁₂O₆ + 6CO₂"
+   ],
+   "Glucose and oxygen react to form carbon dioxide, water and energy."
+  ],
+  [
+   "Where does the oxygen released in photosynthesis come from?",
+   "Water",
+   [
+    "Carbon dioxide",
+    "Glucose",
+    "ATP"
+   ],
+   "Water molecules are split in the light reactions, releasing oxygen gas."
+  ],
+  [
+   "What is glucose broken into during glycolysis?",
+   "Two pyruvate molecules",
+   [
+    "Six carbon dioxide molecules",
+    "Two glucose molecules",
+    "One water molecule"
+   ],
+   "Glycolysis splits one glucose into two three-carbon pyruvate molecules."
+  ],
+  [
+   "Which pigment absorbs light energy for photosynthesis?",
+   "Chlorophyll",
+   [
+    "Hemoglobin",
+    "Melanin",
+    "Keratin"
+   ],
+   "Chlorophyll in the chloroplasts absorbs mostly red and blue light."
+  ],
+  [
+   "Which molecules made in the light reactions power the Calvin cycle?",
+   "ATP and NADPH",
+   [
+    "Glucose and oxygen",
+    "Pyruvate and CO₂",
+    "Water and ethanol"
+   ],
+   "The Calvin cycle uses ATP and NADPH to fix carbon into sugar."
+  ],
+  [
+   "In the Calvin cycle, carbon dioxide is …",
+   "fixed into sugar",
+   [
+    "released into the air",
+    "split into oxygen",
+    "turned into water"
+   ],
+   "The Calvin cycle builds CO₂ into three-carbon sugars that form glucose."
+  ],
+  [
+   "Which enzyme fixes carbon dioxide in the Calvin cycle?",
+   "Rubisco",
+   [
+    "Amylase",
+    "Lipase",
+    "Pepsin"
+   ],
+   "Rubisco attaches CO₂ to an organic molecule at the start of the Calvin cycle."
+  ],
+  [
+   "What is the final electron acceptor in aerobic respiration?",
+   "Oxygen",
+   [
+    "Carbon dioxide",
+    "Glucose",
+    "Water"
+   ],
+   "Oxygen accepts electrons at the end of the electron transport chain, forming water."
+  ],
+  [
+   "Which process occurs in muscle cells when oxygen runs short?",
+   "Lactic acid fermentation",
+   [
+    "Alcoholic fermentation",
+    "Photosynthesis",
+    "The Calvin cycle"
+   ],
+   "Without enough oxygen, muscle cells convert pyruvate into lactic acid to keep glycolysis going."
+  ],
+  [
+   "Yeast making bread rise uses alcoholic fermentation, which produces …",
+   "ethanol and carbon dioxide",
+   [
+    "lactic acid and oxygen",
+    "glucose and oxygen",
+    "water and oxygen"
+   ],
+   "Yeast fermentation gives ethanol and CO₂ gas, which makes dough rise."
+  ],
+  [
+   "About how many ATP does aerobic respiration make from one glucose?",
+   "About 36",
+   [
+    "About 2",
+    "About 4",
+    "About 100"
+   ],
+   "Aerobic respiration yields roughly 36 to 38 ATP per glucose, far more than fermentation."
+  ],
+  [
+   "How many ATP does glycolysis produce (net) from one glucose?",
+   "2",
+   [
+    "0",
+    "36",
+    "12"
+   ],
+   "Glycolysis uses 2 ATP and makes 4, for a net gain of 2."
+  ],
+  [
+   "In which organelle does photosynthesis occur?",
+   "The chloroplast",
+   [
+    "The mitochondrion",
+    "The nucleus",
+    "The ribosome"
+   ],
+   "Chloroplasts contain chlorophyll and the enzymes for photosynthesis."
+  ],
+  [
+   "Photosynthesis converts light energy into …",
+   "chemical energy",
+   [
+    "sound energy",
+    "nuclear energy",
+    "electrical energy"
+   ],
+   "Light energy is stored in the chemical bonds of glucose."
+  ],
+  [
+   "Why are photosynthesis and respiration described as complementary?",
+   "The products of one are the reactants of the other",
+   [
+    "They both happen only at night",
+    "They both release oxygen",
+    "They both happen only in animals"
+   ],
+   "Photosynthesis makes glucose and O₂, which respiration uses to make CO₂ and H₂O."
+  ],
+  [
+   "Do plant cells carry out cellular respiration?",
+   "Yes, day and night",
+   [
+    "No, never",
+    "Only when it is dark",
+    "Only in their flowers"
+   ],
+   "Plants have mitochondria and respire all the time to make ATP."
+  ],
+  [
+   "Which stage of respiration releases most of the carbon dioxide?",
+   "The Krebs cycle",
+   [
+    "Glycolysis",
+    "The electron transport chain",
+    "The Calvin cycle"
+   ],
+   "Carbon atoms from pyruvate leave as CO₂ mainly during the Krebs cycle and the step just before it."
+  ],
+  [
+   "Which gas do plants take in from the air for photosynthesis?",
+   "Carbon dioxide",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Hydrogen"
+   ],
+   "CO₂ enters leaves through stomata and is used to make glucose."
+  ],
+  [
+   "During the electron transport chain, ATP is made by an enzyme called …",
+   "ATP synthase",
+   [
+    "DNA polymerase",
+    "Rubisco",
+    "Amylase"
+   ],
+   "Hydrogen ions flow through ATP synthase, which uses that energy to make ATP."
+  ]
+ ],
+ "sciEvoEvid": [
+  [
+   "A shark's fin and a dolphin's flipper look alike but evolved separately. They are …",
+   "analogous structures",
+   [
+    "homologous structures",
+    "vestigial structures",
+    "transitional fossils"
+   ],
+   "They do the same job but come from different ancestry, so they are analogous."
+  ],
+  [
+   "The human appendix and tailbone are examples of …",
+   "vestigial structures",
+   [
+    "analogous structures",
+    "homologous structures",
+    "index fossils"
+   ],
+   "These reduced structures have little or no function today but were useful in ancestors."
+  ],
+  [
+   "A cat's front leg and a human arm have the same set of bones. They are …",
+   "homologous structures",
+   [
+    "analogous structures",
+    "vestigial structures",
+    "mimicry"
+   ],
+   "The same underlying bone pattern points to a common ancestor."
+  ],
+  [
+   "<em>Tiktaalik</em>, a fossil with features of both fish and four-legged animals, is a …",
+   "transitional fossil",
+   [
+    "vestigial structure",
+    "living fossil",
+    "analogous organ"
+   ],
+   "Transitional fossils show intermediate features between older and newer groups."
+  ],
+  [
+   "<em>Archaeopteryx</em> had feathers, teeth and a bony tail. It links …",
+   "reptiles and birds",
+   [
+    "fish and amphibians",
+    "insects and birds",
+    "mammals and fish"
+   ],
+   "Its mix of reptile and bird features makes it a transitional fossil between them."
+  ],
+  [
+   "Which evidence directly shows how species changed over time?",
+   "The fossil record",
+   [
+    "Leaf colours",
+    "Cloud patterns",
+    "Rock hardness"
+   ],
+   "Fossils in rock layers record the forms of organisms living at different times."
+  ],
+  [
+   "Radiometric dating of rocks helps evolution studies by …",
+   "giving the age of fossils",
+   [
+    "changing the DNA of fossils",
+    "showing a fossil's colour",
+    "making fossils grow"
+   ],
+   "Measuring radioactive decay gives absolute ages for the rocks around fossils."
+  ],
+  [
+   "Two species share 98% of their DNA, while a third shares 85%. Which two are most closely related?",
+   "The two sharing 98%",
+   [
+    "The two sharing 85%",
+    "All three equally",
+    "No conclusion is possible"
+   ],
+   "More similar DNA indicates a more recent common ancestor."
+  ],
+  [
+   "Blind cave fish have small, non-working eyes. These eyes are …",
+   "vestigial structures",
+   [
+    "analogous structures",
+    "transitional fossils",
+    "new adaptations for sight"
+   ],
+   "Their ancestors had working eyes, which became reduced in dark caves."
+  ],
+  [
+   "Marsupials are found mainly in Australia. This kind of evidence is called …",
+   "biogeography",
+   [
+    "embryology",
+    "radiometric dating",
+    "anatomy of fossils"
+   ],
+   "Biogeography studies how species are distributed across the planet."
+  ],
+  [
+   "Darwin's finches on the Galápagos Islands have different beaks suited to different foods. This supports …",
+   "adaptation from a common ancestor",
+   [
+    "spontaneous generation",
+    "species never changing",
+    "use and disuse of beaks"
+   ],
+   "The finches likely descended from one ancestor and adapted to different food sources."
+  ],
+  [
+   "Bacteria becoming resistant to antibiotics over a few years is evidence of …",
+   "natural selection happening now",
+   [
+    "vestigial structures",
+    "analogous organs",
+    "the fossil record"
+   ],
+   "Resistant bacteria survive and reproduce, changing the population quickly."
+  ],
+  [
+   "Peppered moths became darker in polluted areas during the Industrial Revolution. This shows …",
+   "natural selection",
+   [
+    "spontaneous generation",
+    "vestigial change",
+    "a transitional fossil"
+   ],
+   "Darker moths were better camouflaged on sooty trees, so they survived and reproduced more."
+  ],
+  [
+   "Why are analogous structures NOT good evidence of close relationship?",
+   "They evolved separately for similar jobs",
+   [
+    "They have the same bone pattern",
+    "They come from the same ancestor",
+    "They appear only in fossils"
+   ],
+   "Similar environments can shape unrelated species in similar ways, called convergent evolution."
+  ],
+  [
+   "Early human embryos have structures similar to gill slits. This supports …",
+   "common ancestry with fish",
+   [
+    "humans breathing underwater",
+    "spontaneous generation",
+    "analogous evolution"
+   ],
+   "Shared embryo features suggest vertebrates descend from a common ancestor."
+  ],
+  [
+   "Many unrelated species use the same genetic code (DNA). This suggests …",
+   "all life shares a common origin",
+   [
+    "DNA is made in labs",
+    "species never change",
+    "only animals share genes"
+   ],
+   "A universal genetic code is strong evidence that all life descended from common ancestors."
+  ],
+  [
+   "Fossils in the top layers of rock are generally …",
+   "younger than deeper fossils",
+   [
+    "older than deeper fossils",
+    "the same age as deeper fossils",
+    "never older than one year"
+   ],
+   "Layers build up over time, so upper layers in undisturbed rock are younger."
+  ],
+  [
+   "Whale fossils show ancestors with legs that lived on land. This supports the idea that whales …",
+   "evolved from land mammals",
+   [
+    "evolved from sharks",
+    "never changed",
+    "came from birds"
+   ],
+   "Transitional whale fossils show a gradual change from land-living mammals to sea-living ones."
+  ],
+  [
+   "A python has tiny hip bones and leg remnants. These are …",
+   "vestigial structures",
+   [
+    "analogous structures",
+    "homologous wings",
+    "transitional fossils"
+   ],
+   "These leftover bones suggest snakes evolved from ancestors that had legs."
+  ],
+  [
+   "Humans and chimpanzees share a very similar protein sequence for cytochrome c. This is evidence from …",
+   "molecular biology",
+   [
+    "biogeography",
+    "the fossil record",
+    "embryology"
+   ],
+   "Comparing proteins and DNA is molecular evidence of relationships."
+  ],
+  [
+   "Which is the best example of homologous structures?",
+   "A horse's leg and a bat's wing",
+   [
+    "A bee's wing and a bird's wing",
+    "A fish's fin and a submarine's fin",
+    "A butterfly's wing and a bat's wing"
+   ],
+   "Horse legs and bat wings are both built from the same mammal bone pattern."
+  ],
+  [
+   "Artificial selection of dogs from wolves supports evolution because it shows …",
+   "populations can change over generations",
+   [
+    "species cannot change",
+    "dogs came from cats",
+    "fossils form quickly"
+   ],
+   "Breeders changed wolf populations into many dog breeds, showing how selection can shape species."
+  ]
+ ],
+ "sciCarbon": [
+  [
+   "Which process releases carbon dioxide when organisms die?",
+   "Decomposition",
+   [
+    "Photosynthesis",
+    "Evaporation",
+    "Condensation"
+   ],
+   "Decomposers break down dead matter and release CO₂ through respiration."
+  ],
+  [
+   "The ocean takes in carbon dioxide from the air. The ocean acts as a …",
+   "carbon sink",
+   [
+    "carbon source only",
+    "heat engine",
+    "nitrogen store"
+   ],
+   "A carbon sink absorbs more carbon than it releases."
+  ],
+  [
+   "Which human activity adds the most carbon dioxide to the atmosphere?",
+   "Burning fossil fuels",
+   [
+    "Planting trees",
+    "Recycling paper",
+    "Using solar panels"
+   ],
+   "Burning coal, oil and natural gas releases carbon that was stored for millions of years."
+  ],
+  [
+   "Cutting down forests affects the carbon cycle because …",
+   "fewer trees remove CO₂",
+   [
+    "trees release oxygen only",
+    "it adds water to the air",
+    "it makes more fossil fuel"
+   ],
+   "With fewer trees, less carbon dioxide is taken from the air by photosynthesis."
+  ],
+  [
+   "Shells and coral made of calcium carbonate eventually form …",
+   "limestone",
+   [
+    "granite",
+    "coal",
+    "sandstone"
+   ],
+   "Over time, shells and coral build up and turn into limestone rock, storing carbon."
+  ],
+  [
+   "Fossil fuels formed from …",
+   "ancient remains of living things",
+   [
+    "melted volcanic rock",
+    "ocean salt deposits",
+    "meteorites"
+   ],
+   "Coal, oil and natural gas formed from the buried remains of ancient plants and organisms."
+  ],
+  [
+   "In what form do plants take in carbon?",
+   "Carbon dioxide",
+   [
+    "Methane",
+    "Carbon monoxide",
+    "Calcium carbonate"
+   ],
+   "Plants absorb CO₂ from the air and use it in photosynthesis."
+  ],
+  [
+   "Which factor would lower a habitat's carrying capacity for deer?",
+   "A drought that kills plants",
+   [
+    "More plant growth",
+    "Fewer predators",
+    "More water holes"
+   ],
+   "Less food reduces the number of deer the habitat can support."
+  ],
+  [
+   "A factor whose effect grows stronger as a population becomes more crowded is …",
+   "density-dependent",
+   [
+    "density-independent",
+    "abiotic only",
+    "exponential"
+   ],
+   "Factors like disease and competition for food matter more in crowded populations."
+  ],
+  [
+   "Which is a density-independent limiting factor?",
+   "A forest fire",
+   [
+    "Disease spreading",
+    "Competition for food",
+    "Predation"
+   ],
+   "Fires affect a population regardless of how crowded it is."
+  ],
+  [
+   "Which is a density-dependent limiting factor?",
+   "Competition for food",
+   [
+    "A volcanic eruption",
+    "A sudden frost",
+    "A flood"
+   ],
+   "Competition becomes stronger as more individuals share the same resources."
+  ],
+  [
+   "When a population exceeds carrying capacity, it usually …",
+   "declines",
+   [
+    "grows faster forever",
+    "stays above it forever",
+    "doubles each year"
+   ],
+   "Resources run short, so deaths rise and the population falls back."
+  ],
+  [
+   "On an S-shaped growth curve, the population grows fastest …",
+   "in the middle section",
+   [
+    "at the very start",
+    "at carrying capacity",
+    "after it levels off"
+   ],
+   "Growth is quickest midway, before resources start to limit it."
+  ],
+  [
+   "Why can't exponential growth continue forever in nature?",
+   "Resources eventually run out",
+   [
+    "Organisms stop reproducing for fun",
+    "Populations always shrink at first",
+    "Space is unlimited"
+   ],
+   "Limited food, water and space eventually slow growth."
+  ],
+  [
+   "Carbon moves from producers to consumers through …",
+   "feeding",
+   [
+    "evaporation",
+    "condensation",
+    "erosion"
+   ],
+   "Animals get carbon by eating plants or other animals."
+  ],
+  [
+   "Which process adds carbon dioxide from deep inside Earth to the air?",
+   "Volcanic eruptions",
+   [
+    "Photosynthesis",
+    "Shell formation",
+    "Ice formation"
+   ],
+   "Volcanoes release CO₂ that was stored in Earth's rocks and mantle."
+  ],
+  [
+   "Extra CO₂ dissolving in seawater makes the ocean …",
+   "more acidic",
+   [
+    "more basic",
+    "less salty",
+    "colder"
+   ],
+   "CO₂ forms carbonic acid in water, lowering the ocean's pH."
+  ],
+  [
+   "Which element forms the backbone of all organic molecules in living things?",
+   "Carbon",
+   [
+    "Sodium",
+    "Iron",
+    "Helium"
+   ],
+   "Carbohydrates, lipids, proteins and nucleic acids are all built on chains of carbon atoms."
+  ],
+  [
+   "Introducing rabbits to a new island with no predators would most likely cause …",
+   "rapid growth, then a crash or levelling off",
+   [
+    "immediate extinction",
+    "no change at all",
+    "slow steady decline"
+   ],
+   "With few limits, the population grows fast until resources limit it."
+  ],
+  [
+   "Peat bogs and permafrost store carbon because …",
+   "dead plants decompose very slowly",
+   [
+    "they release CO₂ quickly",
+    "they have no plants",
+    "they are made of limestone"
+   ],
+   "Cold, wet, low-oxygen conditions slow decay, so carbon builds up."
+  ],
+  [
+   "Planting trees on cleared land helps the carbon cycle by …",
+   "removing CO₂ from the air",
+   [
+    "adding CO₂ to the air",
+    "burning more fuel",
+    "warming the oceans"
+   ],
+   "Growing trees take in carbon dioxide and store carbon in their wood."
+  ],
+  [
+   "A lake's carrying capacity for trout increases when …",
+   "the food supply grows",
+   [
+    "pollution increases",
+    "oxygen levels fall",
+    "more anglers fish it"
+   ],
+   "More food means the lake can support more trout long-term."
+  ]
+ ],
+ "sciEMG": [
+  [
+   "The unit of electric charge is the …",
+   "coulomb",
+   [
+    "ampere",
+    "volt",
+    "ohm"
+   ],
+   "Electric charge is measured in coulombs (C)."
+  ],
+  [
+   "The unit of electrical resistance is the …",
+   "ohm",
+   [
+    "watt",
+    "coulomb",
+    "tesla"
+   ],
+   "Resistance is measured in ohms (Ω)."
+  ],
+  [
+   "The unit of electric power is the …",
+   "watt",
+   [
+    "volt",
+    "ohm",
+    "coulomb"
+   ],
+   "Power, the rate of energy use, is measured in watts (W)."
+  ],
+  [
+   "Ohm's law states that …",
+   "V = IR",
+   [
+    "P = IV²",
+    "F = ma",
+    "E = mc²"
+   ],
+   "Ohm's law relates voltage, current and resistance as V = IR."
+  ],
+  [
+   "A 12 V battery drives a current through a 4 Ω resistor. The current is …",
+   "3 A",
+   [
+    "48 A",
+    "8 A",
+    "0.33 A"
+   ],
+   "I = V ÷ R = 12 ÷ 4 = 3 A."
+  ],
+  [
+   "A 2 A current flows through a 6 Ω resistor. The voltage across it is …",
+   "12 V",
+   [
+    "3 V",
+    "8 V",
+    "0.33 V"
+   ],
+   "V = IR = 2 × 6 = 12 V."
+  ],
+  [
+   "A device uses 120 V and draws 5 A. Its power is …",
+   "600 W",
+   [
+    "24 W",
+    "125 W",
+    "115 W"
+   ],
+   "P = IV = 5 × 120 = 600 W."
+  ],
+  [
+   "In a parallel circuit, the voltage across each branch is …",
+   "the same",
+   [
+    "zero",
+    "always different",
+    "added together"
+   ],
+   "Each branch in parallel connects directly across the source, so each gets the same voltage."
+  ],
+  [
+   "Resistors of 3 Ω and 5 Ω are connected in series. The total resistance is …",
+   "8 Ω",
+   [
+    "2 Ω",
+    "15 Ω",
+    "1.9 Ω"
+   ],
+   "Series resistances add: 3 + 5 = 8 Ω."
+  ],
+  [
+   "Two 6 Ω resistors are connected in parallel. The total resistance is …",
+   "3 Ω",
+   [
+    "12 Ω",
+    "6 Ω",
+    "36 Ω"
+   ],
+   "1/R = 1/6 + 1/6 = 1/3, so R = 3 Ω."
+  ],
+  [
+   "Adding more bulbs in parallel to a circuit makes the total current from the battery …",
+   "increase",
+   [
+    "decrease",
+    "stay the same",
+    "drop to zero"
+   ],
+   "Each added branch lowers the total resistance, so more current flows."
+  ],
+  [
+   "Which material is a good electrical conductor?",
+   "Copper",
+   [
+    "Rubber",
+    "Glass",
+    "Dry wood"
+   ],
+   "Copper has free electrons that carry current easily."
+  ],
+  [
+   "Which material is a good electrical insulator?",
+   "Plastic",
+   [
+    "Aluminium",
+    "Silver",
+    "Iron"
+   ],
+   "Plastic does not let charge move through it easily."
+  ],
+  [
+   "The space around a magnet where its force acts is its …",
+   "magnetic field",
+   [
+    "electric current",
+    "insulating zone",
+    "gravity well"
+   ],
+   "A magnetic field surrounds every magnet and exerts forces on magnetic materials."
+  ],
+  [
+   "Magnetic field lines run outside a magnet from …",
+   "north to south",
+   [
+    "south to north",
+    "the centre outward",
+    "east to west"
+   ],
+   "By convention, field lines leave the north pole and enter the south pole."
+  ],
+  [
+   "Two north poles placed near each other will …",
+   "repel",
+   [
+    "attract",
+    "cancel out",
+    "become south poles"
+   ],
+   "Like magnetic poles repel each other."
+  ],
+  [
+   "A current-carrying wire produces …",
+   "a magnetic field around it",
+   [
+    "no field at all",
+    "only heat and light",
+    "a gravitational field"
+   ],
+   "Oersted discovered that an electric current creates a magnetic field."
+  ],
+  [
+   "A coil of wire wrapped around an iron core that becomes a magnet when current flows is a(n) …",
+   "electromagnet",
+   [
+    "generator",
+    "transformer",
+    "insulator"
+   ],
+   "An electromagnet is magnetic only while current flows through its coil."
+  ],
+  [
+   "Which device changes electrical energy into mechanical energy?",
+   "An electric motor",
+   [
+    "A generator",
+    "A battery",
+    "A solar cell"
+   ],
+   "A motor uses magnetic forces on current-carrying coils to produce motion."
+  ],
+  [
+   "Which device changes mechanical energy into electrical energy?",
+   "A generator",
+   [
+    "An electric motor",
+    "A light bulb",
+    "A resistor"
+   ],
+   "A generator spins coils in a magnetic field to induce a current."
+  ],
+  [
+   "A device that changes the voltage of an alternating current is a …",
+   "transformer",
+   [
+    "motor",
+    "fuse",
+    "capacitor"
+   ],
+   "Transformers use electromagnetic induction to step voltage up or down."
+  ],
+  [
+   "The current from a wall outlet in Canada is …",
+   "alternating current",
+   [
+    "direct current",
+    "static charge",
+    "magnetic current"
+   ],
+   "Household outlets supply alternating current (AC) at about 120 V and 60 Hz."
+  ]
+ ],
+ "sciBIO": [
+  [
+   "Which type of biological molecule is sucrose (table sugar)?",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Sucrose is a disaccharide made of glucose and fructose."
+  ],
+  [
+   "Which type of biological molecule is glycogen?",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Glycogen is a polysaccharide that animals use to store glucose."
+  ],
+  [
+   "Which type of biological molecule is keratin?",
+   "Protein",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Keratin is the structural protein in hair, nails and skin."
+  ],
+  [
+   "Which type of biological molecule is insulin?",
+   "Protein",
+   [
+    "Lipid",
+    "Carbohydrate",
+    "Nucleic acid"
+   ],
+   "Insulin is a hormone made of chains of amino acids."
+  ],
+  [
+   "Which type of biological molecule is testosterone?",
+   "Lipid",
+   [
+    "Protein",
+    "Carbohydrate",
+    "Nucleic acid"
+   ],
+   "Testosterone is a steroid, which is a type of lipid."
+  ],
+  [
+   "Which type of biological molecule is chitin?",
+   "Carbohydrate",
+   [
+    "Protein",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Chitin is a polysaccharide in insect exoskeletons and fungal cell walls."
+  ],
+  [
+   "Which type of biological molecule is collagen?",
+   "Protein",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Collagen is a fibrous structural protein in skin, tendons and bones."
+  ],
+  [
+   "Which type of biological molecule is beeswax?",
+   "Lipid",
+   [
+    "Carbohydrate",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Waxes are lipids made of fatty acids joined to long alcohols."
+  ],
+  [
+   "Which type of biological molecule is ATP?",
+   "Nucleic acid",
+   [
+    "Protein",
+    "Lipid",
+    "Carbohydrate"
+   ],
+   "ATP is a nucleotide, the building block of nucleic acids."
+  ],
+  [
+   "Which type of biological molecule is butter fat?",
+   "Lipid",
+   [
+    "Carbohydrate",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Butter is mostly triglycerides, which are lipids."
+  ],
+  [
+   "Which type of biological molecule is an antibody?",
+   "Protein",
+   [
+    "Lipid",
+    "Carbohydrate",
+    "Nucleic acid"
+   ],
+   "Antibodies are Y-shaped proteins made by the immune system."
+  ],
+  [
+   "Which type of biological molecule is fructose?",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Fructose is a simple sugar (monosaccharide) found in fruit."
+  ],
+  [
+   "What are the building blocks (monomers) of proteins?",
+   "Amino acids",
+   [
+    "Monosaccharides",
+    "Nucleotides",
+    "Fatty acids"
+   ],
+   "Proteins are chains of amino acids joined by peptide bonds."
+  ],
+  [
+   "What are the building blocks (monomers) of nucleic acids?",
+   "Nucleotides",
+   [
+    "Amino acids",
+    "Monosaccharides",
+    "Glycerol units"
+   ],
+   "DNA and RNA are long chains of nucleotides."
+  ],
+  [
+   "What are the building blocks (monomers) of starch?",
+   "Glucose molecules",
+   [
+    "Amino acids",
+    "Nucleotides",
+    "Fatty acids"
+   ],
+   "Starch is a polysaccharide made of many glucose units."
+  ],
+  [
+   "A triglyceride is made of glycerol and …",
+   "three fatty acids",
+   [
+    "three amino acids",
+    "three nucleotides",
+    "three glucose units"
+   ],
+   "A triglyceride has one glycerol joined to three fatty acid chains."
+  ],
+  [
+   "The bond joining two amino acids is a …",
+   "peptide bond",
+   [
+    "glycosidic bond",
+    "hydrogen bond",
+    "phosphodiester bond"
+   ],
+   "Amino acids link through peptide bonds formed by dehydration synthesis."
+  ],
+  [
+   "Joining monomers together by removing water is called …",
+   "dehydration synthesis",
+   [
+    "hydrolysis",
+    "denaturation",
+    "oxidation"
+   ],
+   "Dehydration synthesis forms a bond and releases a water molecule."
+  ],
+  [
+   "Breaking a polymer apart by adding water is called …",
+   "hydrolysis",
+   [
+    "dehydration synthesis",
+    "condensation",
+    "polymerization"
+   ],
+   "Hydrolysis uses water to split the bonds between monomers."
+  ],
+  [
+   "Which element is found in proteins but not in carbohydrates?",
+   "Nitrogen",
+   [
+    "Carbon",
+    "Hydrogen",
+    "Oxygen"
+   ],
+   "Every amino acid has an amino group containing nitrogen."
+  ],
+  [
+   "When an enzyme is heated too much and changes shape, it is …",
+   "denatured",
+   [
+    "hydrolyzed",
+    "synthesized",
+    "phosphorylated"
+   ],
+   "Heat breaks the bonds holding the protein's shape, so it stops working."
+  ],
+  [
+   "Which sugar is found in DNA?",
+   "Deoxyribose",
+   [
+    "Ribose",
+    "Glucose",
+    "Sucrose"
+   ],
+   "DNA nucleotides contain the five-carbon sugar deoxyribose."
+  ]
+ ],
+ "sciPNN": [
+  [
+   "An AA parent and an Aa parent have a child. What is the probability the child is Aa?",
+   "50%",
+   [
+    "25%",
+    "75%",
+    "100%"
+   ],
+   "The cross gives AA and Aa in equal numbers, so the chance is 50%."
+  ],
+  [
+   "An Aa parent and an aa parent have a child. What is the probability the child shows the dominant trait?",
+   "50%",
+   [
+    "25%",
+    "75%",
+    "100%"
+   ],
+   "Half the offspring are Aa and show the dominant trait."
+  ],
+  [
+   "Two Aa parents have a child. What is the probability the child shows the dominant trait?",
+   "75%",
+   [
+    "25%",
+    "50%",
+    "100%"
+   ],
+   "AA and Aa together make up 3 of the 4 Punnett squares."
+  ],
+  [
+   "Two aa parents have a child. What is the probability the child is aa?",
+   "100%",
+   [
+    "0%",
+    "25%",
+    "50%"
+   ],
+   "Both parents can pass only a, so every child is aa."
+  ],
+  [
+   "An AA parent and an aa parent have a child. What is the probability the child shows the recessive trait?",
+   "0%",
+   [
+    "25%",
+    "50%",
+    "100%"
+   ],
+   "Every child is Aa, so the dominant allele always masks the recessive one."
+  ],
+  [
+   "The chance that any child is a girl is …",
+   "50%",
+   [
+    "25%",
+    "75%",
+    "100%"
+   ],
+   "The mother gives X; the father gives X or Y with equal chance."
+  ],
+  [
+   "A couple has three boys. What is the probability their fourth child is a girl?",
+   "50%",
+   [
+    "25%",
+    "75%",
+    "100%"
+   ],
+   "Each birth is independent, so the chance stays 50%."
+  ],
+  [
+   "What is the probability that a couple's first two children are both girls?",
+   "25%",
+   [
+    "50%",
+    "75%",
+    "12.5%"
+   ],
+   "Multiply independent chances: 1/2 × 1/2 = 1/4."
+  ],
+  [
+   "Two carriers (Aa) have two children. What is the probability both have the recessive disorder (aa)?",
+   "1/16",
+   [
+    "1/4",
+    "1/8",
+    "1/2"
+   ],
+   "Each child has a 1/4 chance, so both is 1/4 × 1/4 = 1/16."
+  ],
+  [
+   "Which pair of sex chromosomes does a human female normally have?",
+   "XX",
+   [
+    "XY",
+    "YY",
+    "XYY"
+   ],
+   "Females normally have two X chromosomes, while males have XY."
+  ],
+  [
+   "Which parent's chromosome decides whether a human baby is male?",
+   "The father's",
+   [
+    "The mother's",
+    "Both parents equally",
+    "Neither parent"
+   ],
+   "Only the father can give a Y chromosome, which makes a baby male."
+  ],
+  [
+   "A carrier mother (X<sup>H</sup>X<sup>h</sup>) and a normal father (X<sup>H</sup>Y) have a son. What is the probability he has hemophilia?",
+   "50%",
+   [
+    "0%",
+    "25%",
+    "100%"
+   ],
+   "A son gets one of his mother's two X chromosomes, so the chance is 1/2."
+  ],
+  [
+   "A carrier mother (X<sup>H</sup>X<sup>h</sup>) and a normal father (X<sup>H</sup>Y) have a daughter. What is the probability she has hemophilia?",
+   "0%",
+   [
+    "25%",
+    "50%",
+    "100%"
+   ],
+   "Every daughter gets the father's normal X<sup>H</sup>, so none have the disorder."
+  ],
+  [
+   "A colour-blind father (X<sup>b</sup>Y) and a non-carrier mother (X<sup>B</sup>X<sup>B</sup>) have a daughter. She is …",
+   "a carrier",
+   [
+    "colour-blind",
+    "free of the allele",
+    "male"
+   ],
+   "She gets X<sup>b</sup> from her father and X<sup>B</sup> from her mother, so she is a carrier."
+  ],
+  [
+   "Why are X-linked recessive disorders more common in males?",
+   "Males have only one X chromosome",
+   [
+    "Males have two X chromosomes",
+    "The Y chromosome causes the disorder",
+    "Females cannot inherit X genes"
+   ],
+   "With one X, a single recessive allele is enough to show the trait in males."
+  ],
+  [
+   "In a dihybrid cross AaBb × AaBb, what is the probability of an aabb offspring?",
+   "1/16",
+   [
+    "1/4",
+    "3/16",
+    "9/16"
+   ],
+   "1/4 (aa) × 1/4 (bb) = 1/16."
+  ],
+  [
+   "In a dihybrid cross AaBb × AaBb, what fraction show both dominant traits?",
+   "9/16",
+   [
+    "3/16",
+    "1/16",
+    "1/4"
+   ],
+   "3/4 × 3/4 = 9/16 show both dominant traits."
+  ],
+  [
+   "AaBb × aabb: what is the probability of an offspring with genotype aabb?",
+   "1/4",
+   [
+    "1/16",
+    "1/2",
+    "3/4"
+   ],
+   "1/2 (aa) × 1/2 (bb) = 1/4."
+  ],
+  [
+   "Two Aa parents have a child who shows the dominant trait. What is the probability the child is Aa?",
+   "2/3",
+   [
+    "1/2",
+    "1/4",
+    "3/4"
+   ],
+   "Among the three dominant-looking boxes (AA, Aa, Aa), two are Aa."
+  ],
+  [
+   "A Punnett square for one gene shows how many boxes?",
+   "4",
+   [
+    "2",
+    "8",
+    "16"
+   ],
+   "Each parent gives one of two alleles, giving 2 × 2 = 4 boxes."
+  ],
+  [
+   "A cross gives 3 dominant : 1 recessive offspring. The parents were most likely …",
+   "Aa × Aa",
+   [
+    "AA × aa",
+    "Aa × aa",
+    "aa × aa"
+   ],
+   "Only two heterozygous parents give a 3 : 1 ratio."
+  ],
+  [
+   "An AA parent is test-crossed with an aa parent. What fraction of offspring show the recessive trait?",
+   "0%",
+   [
+    "25%",
+    "50%",
+    "100%"
+   ],
+   "Every offspring is Aa, so none show the recessive trait."
+  ]
  ]
 }
