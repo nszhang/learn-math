@@ -1,0 +1,3332 @@
+{
+ "sciProEu": [
+  [
+   "Which structure is found in eukaryotic cells but not in prokaryotic cells?",
+   "A nucleus",
+   [
+    "Ribosomes",
+    "A cell membrane",
+    "Cytoplasm"
+   ],
+   "Only eukaryotic cells keep their DNA inside a membrane-bound nucleus; all cells have ribosomes, a membrane and cytoplasm."
+  ],
+  [
+   "Which structure is found in both prokaryotic and eukaryotic cells?",
+   "Ribosomes",
+   [
+    "Mitochondria",
+    "A nucleus",
+    "Chloroplasts"
+   ],
+   "Every cell needs ribosomes to make proteins, while mitochondria, nuclei and chloroplasts occur only in eukaryotes."
+  ],
+  [
+   "Which organism is made of prokaryotic cells?",
+   "<em>E. coli</em> bacteria",
+   [
+    "Baker's yeast",
+    "An amoeba",
+    "A maple tree"
+   ],
+   "<em>E. coli</em> is a bacterium, and bacteria are prokaryotes; yeast, amoebas and trees are eukaryotes."
+  ],
+  [
+   "Which organism is made of eukaryotic cells?",
+   "A mushroom",
+   [
+    "<em>Streptococcus</em> bacteria",
+    "A cyanobacterium",
+    "<em>E. coli</em> bacteria"
+   ],
+   "Mushrooms are fungi, and fungi are built from eukaryotic cells; the others are bacteria."
+  ],
+  [
+   "In a prokaryotic cell, where is the main DNA found?",
+   "In a region called the nucleoid",
+   [
+    "Inside a nuclear envelope",
+    "Inside the mitochondria",
+    "Inside the Golgi apparatus"
+   ],
+   "Prokaryotes have no nucleus, so their circular chromosome sits in an unenclosed region called the nucleoid."
+  ],
+  [
+   "Small, circular loops of extra DNA found in many bacteria are called …",
+   "plasmids",
+   [
+    "vacuoles",
+    "lysosomes",
+    "chromatids"
+   ],
+   "Plasmids are small circular DNA molecules separate from the main chromosome, common in bacteria."
+  ],
+  [
+   "Which organelle, found only in eukaryotes, releases energy through cellular respiration?",
+   "The mitochondrion",
+   [
+    "The ribosome",
+    "The nucleoid",
+    "The cell wall"
+   ],
+   "Mitochondria are membrane-bound organelles where eukaryotic cells carry out most of cellular respiration."
+  ],
+  [
+   "What is the shape of the main chromosome in a typical prokaryotic cell?",
+   "A single circular loop",
+   [
+    "Many linear strands",
+    "A double helix inside a nucleus",
+    "Short pieces in each organelle"
+   ],
+   "Most prokaryotes carry one circular chromosome, while eukaryotes have several linear chromosomes in a nucleus."
+  ],
+  [
+   "Which feature do plant cells have that animal cells lack?",
+   "Chloroplasts",
+   [
+    "Mitochondria",
+    "A nucleus",
+    "Ribosomes"
+   ],
+   "Plant cells contain chloroplasts for photosynthesis; animal cells do not, though both have mitochondria, nuclei and ribosomes."
+  ],
+  [
+   "How does the size of a typical bacterium compare with a typical animal cell?",
+   "It is about 10 times smaller",
+   [
+    "It is about 10 times larger",
+    "It is exactly the same size",
+    "It is about 1000 times larger"
+   ],
+   "Bacteria are usually 1–5 µm long, while animal cells are usually 10–30 µm across, so bacteria are roughly ten times smaller."
+  ],
+  [
+   "Which structure do bacteria use to swim?",
+   "A flagellum",
+   [
+    "A chloroplast",
+    "A nucleolus",
+    "A centriole"
+   ],
+   "Many bacteria spin a whip-like flagellum to move through liquid."
+  ],
+  [
+   "The cell walls of most bacteria are made mainly of …",
+   "peptidoglycan",
+   [
+    "cellulose",
+    "chitin",
+    "keratin"
+   ],
+   "Bacterial cell walls are built from peptidoglycan; plant walls are cellulose and fungal walls are chitin."
+  ],
+  [
+   "The cell walls of plant cells are made mainly of …",
+   "cellulose",
+   [
+    "peptidoglycan",
+    "chitin",
+    "cholesterol"
+   ],
+   "Plant cell walls are made of the carbohydrate cellulose."
+  ],
+  [
+   "Which statement correctly compares prokaryotic and eukaryotic cells?",
+   "Both have a cell membrane and cytoplasm",
+   [
+    "Only eukaryotes have ribosomes",
+    "Only prokaryotes have DNA",
+    "Neither has a cell membrane"
+   ],
+   "All cells share a cell membrane, cytoplasm, ribosomes and DNA; the difference is in nuclei and organelles."
+  ],
+  [
+   "Which group of organisms is made entirely of prokaryotic cells?",
+   "Archaea",
+   [
+    "Protists",
+    "Fungi",
+    "Plants"
+   ],
+   "Archaea, like bacteria, are prokaryotes; protists, fungi and plants are eukaryotes."
+  ],
+  [
+   "A scientist sees a cell with a nucleus, a cell wall and chloroplasts. What kind of cell is it?",
+   "A plant cell",
+   [
+    "A bacterial cell",
+    "An animal cell",
+    "A fungal cell"
+   ],
+   "A nucleus means eukaryotic, and a cell wall plus chloroplasts point to a plant cell."
+  ],
+  [
+   "A scientist sees a cell with a nucleus and mitochondria but no cell wall. What kind of cell is it?",
+   "An animal cell",
+   [
+    "A bacterial cell",
+    "A plant cell",
+    "An archaeal cell"
+   ],
+   "A nucleus means eukaryotic, and lacking a cell wall points to an animal cell."
+  ],
+  [
+   "A cell has a cell wall, ribosomes and a nucleoid but no nucleus. What kind of cell is it?",
+   "A bacterial cell",
+   [
+    "A plant cell",
+    "An animal cell",
+    "A yeast cell"
+   ],
+   "A nucleoid with no nucleus means the cell is prokaryotic, such as a bacterium."
+  ],
+  [
+   "Which organelle in eukaryotic cells packages and ships proteins?",
+   "The Golgi apparatus",
+   [
+    "The nucleoid",
+    "The plasmid",
+    "The flagellum"
+   ],
+   "The membrane-bound Golgi apparatus modifies, sorts and packages proteins in eukaryotic cells."
+  ],
+  [
+   "Why can eukaryotic cells carry out many processes in separate compartments?",
+   "Membranes divide them into organelles",
+   [
+    "They have no cytoplasm",
+    "They lack ribosomes",
+    "Their DNA is in plasmids"
+   ],
+   "Internal membranes create organelles, so different jobs can happen in separate spaces."
+  ],
+  [
+   "Which structure, made of chitin, surrounds the cells of fungi?",
+   "The cell wall",
+   [
+    "The nucleoid",
+    "The chloroplast",
+    "The capsule"
+   ],
+   "Fungal cells are eukaryotic and are surrounded by cell walls made of chitin."
+  ],
+  [
+   "Which pair is the best example of a prokaryote and a eukaryote?",
+   "A bacterium and a human skin cell",
+   [
+    "A plant cell and a fungus cell",
+    "An animal cell and a yeast cell",
+    "Two different human cells"
+   ],
+   "A bacterium is prokaryotic and a human cell is eukaryotic; the other pairs are all eukaryotes."
+  ]
+ ],
+ "sciTransp": [
+  [
+   "Oxygen moves from the lungs into the blood because it is more concentrated in the lungs. This is …",
+   "Diffusion",
+   [
+    "Active transport",
+    "Osmosis",
+    "Endocytosis"
+   ],
+   "Oxygen spreads from high to low concentration across the membrane without energy, which is simple diffusion."
+  ],
+  [
+   "A red blood cell placed in pure water swells and may burst. Water entered by …",
+   "Osmosis",
+   [
+    "Active transport",
+    "Exocytosis",
+    "Facilitated diffusion of glucose"
+   ],
+   "Water moves across the membrane toward the higher solute concentration inside the cell, which is osmosis."
+  ],
+  [
+   "Glucose enters a cell through a carrier protein, moving down its concentration gradient. This is …",
+   "Facilitated diffusion",
+   [
+    "Active transport",
+    "Osmosis",
+    "Phagocytosis"
+   ],
+   "Movement down a gradient through a protein, without ATP, is facilitated diffusion."
+  ],
+  [
+   "The sodium–potassium pump moves ions against their gradients using ATP. This is …",
+   "Active transport",
+   [
+    "Simple diffusion",
+    "Osmosis",
+    "Facilitated diffusion"
+   ],
+   "Pumping ions from low to high concentration requires energy from ATP, so it is active transport."
+  ],
+  [
+   "A white blood cell engulfs a bacterium by wrapping its membrane around it. This is …",
+   "Endocytosis",
+   [
+    "Exocytosis",
+    "Osmosis",
+    "Simple diffusion"
+   ],
+   "Taking material in by folding the membrane around it is endocytosis (specifically phagocytosis)."
+  ],
+  [
+   "A cell releases hormones by fusing vesicles with its membrane. This is …",
+   "Exocytosis",
+   [
+    "Endocytosis",
+    "Osmosis",
+    "Facilitated diffusion"
+   ],
+   "Vesicles fusing with the membrane to push contents out of the cell is exocytosis."
+  ],
+  [
+   "A solution with a higher solute concentration than the cell is called …",
+   "hypertonic",
+   [
+    "hypotonic",
+    "isotonic",
+    "neutral"
+   ],
+   "Hypertonic means the outside has more solute, so water tends to leave the cell."
+  ],
+  [
+   "A solution with a lower solute concentration than the cell is called …",
+   "hypotonic",
+   [
+    "hypertonic",
+    "isotonic",
+    "saturated"
+   ],
+   "Hypotonic means the outside has less solute, so water tends to enter the cell."
+  ],
+  [
+   "A cell is placed in an isotonic solution. What happens to its overall water content?",
+   "It stays about the same",
+   [
+    "It rises until it bursts",
+    "It falls until it shrivels",
+    "It drops to zero"
+   ],
+   "In an isotonic solution water enters and leaves at equal rates, so there is no net change."
+  ],
+  [
+   "A plant cell in fresh water becomes firm. What causes this?",
+   "Water enters and pushes on the cell wall",
+   [
+    "Salt leaves the vacuole by diffusion",
+    "ATP pumps sugar out of the cell",
+    "The cell wall absorbs all the water"
+   ],
+   "Water enters by osmosis and the swollen vacuole presses on the cell wall, giving turgor pressure."
+  ],
+  [
+   "Lettuce leaves wilt when sprinkled with salt. Why?",
+   "Water leaves the cells by osmosis",
+   [
+    "Salt is pumped in using ATP",
+    "Air diffuses into the cells",
+    "The cells absorb extra water"
+   ],
+   "Salt makes the outside hypertonic, so water moves out of the cells by osmosis and they lose firmness."
+  ],
+  [
+   "Which type of transport does NOT need a membrane protein?",
+   "Simple diffusion of oxygen",
+   [
+    "Facilitated diffusion of glucose",
+    "The sodium–potassium pump",
+    "Uptake of ions by a carrier"
+   ],
+   "Small nonpolar molecules like oxygen slip directly through the lipid bilayer without a protein."
+  ],
+  [
+   "Root hair cells take in minerals from soil where minerals are less concentrated. This must be …",
+   "Active transport",
+   [
+    "Simple diffusion",
+    "Osmosis",
+    "Facilitated diffusion"
+   ],
+   "Moving minerals from low to high concentration requires energy, so it is active transport."
+  ],
+  [
+   "Which factor speeds up diffusion?",
+   "Raising the temperature",
+   [
+    "Lowering the temperature",
+    "Reducing the concentration difference",
+    "Making the membrane thicker"
+   ],
+   "Higher temperature makes particles move faster, so they diffuse more quickly."
+  ],
+  [
+   "Which molecule supplies the energy for active transport?",
+   "ATP",
+   [
+    "DNA",
+    "Glucose transporter",
+    "Water"
+   ],
+   "Cells break down ATP to release energy that powers pumps in active transport."
+  ],
+  [
+   "What do diffusion, osmosis and facilitated diffusion have in common?",
+   "They are all passive and need no ATP",
+   [
+    "They all need ATP from the cell",
+    "They all move water only",
+    "They all move against a gradient"
+   ],
+   "All three move substances down a concentration gradient without the cell spending energy."
+  ],
+  [
+   "Water passes quickly through special channel proteins called …",
+   "aquaporins",
+   [
+    "ribosomes",
+    "plasmids",
+    "lysosomes"
+   ],
+   "Aquaporins are channel proteins that let water molecules cross the membrane rapidly."
+  ],
+  [
+   "A drop of food colouring spreads through still water. This is an example of …",
+   "Diffusion",
+   [
+    "Osmosis",
+    "Active transport",
+    "Exocytosis"
+   ],
+   "The dye particles spread from high to low concentration on their own, which is diffusion."
+  ],
+  [
+   "A cell takes in droplets of fluid by pinching off small pockets of membrane. This is …",
+   "Pinocytosis",
+   [
+    "Exocytosis",
+    "Osmosis",
+    "Facilitated diffusion"
+   ],
+   "Pinocytosis, or 'cell drinking', is endocytosis of fluid in small vesicles."
+  ],
+  [
+   "Carbon dioxide leaves body cells and enters the blood. It moves by …",
+   "Diffusion",
+   [
+    "Active transport",
+    "Exocytosis",
+    "Osmosis"
+   ],
+   "CO₂ is more concentrated in cells than in blood, so it diffuses out without energy."
+  ],
+  [
+   "Why is the cell membrane described as selectively permeable?",
+   "It lets some substances through but not others",
+   [
+    "It lets every substance through freely",
+    "It blocks every substance completely",
+    "It only allows water to pass"
+   ],
+   "The membrane controls traffic, allowing some molecules across while blocking others."
+  ],
+  [
+   "Which form of transport moves substances from high to low concentration?",
+   "Facilitated diffusion",
+   [
+    "Active transport",
+    "The sodium–potassium pump",
+    "A proton pump"
+   ],
+   "Facilitated diffusion moves substances down their gradient; pumps move them against it."
+  ]
+ ],
+ "sciXsCarbBio": [
+  [
+   "What gas do plants take in to make glucose during photosynthesis?",
+   "Carbon dioxide",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Methane"
+   ],
+   "Plants combine carbon dioxide and water using light energy to make glucose."
+  ],
+  [
+   "In the biosphere, where is carbon stored in a living tree?",
+   "In its wood, leaves and roots",
+   [
+    "Only in the air around it",
+    "Only in its leaf pores",
+    "Only in the soil beside it"
+   ],
+   "A tree builds its tissues from carbon compounds, so its wood, leaves and roots store carbon."
+  ],
+  [
+   "How does cutting down and burning a forest change atmospheric CO₂?",
+   "It increases CO₂ in the air",
+   [
+    "It decreases CO₂ in the air",
+    "It has no effect on CO₂",
+    "It turns CO₂ into oxygen"
+   ],
+   "Burning releases stored carbon as CO₂, and fewer trees remain to absorb it."
+  ],
+  [
+   "Which process in animal cells breaks down glucose and releases CO₂?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Transpiration",
+    "Nitrogen fixation"
+   ],
+   "Cellular respiration uses oxygen to break down glucose, releasing CO₂, water and energy."
+  ],
+  [
+   "Which gas do cows release from digestion that contains carbon?",
+   "Methane",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Helium"
+   ],
+   "Microbes in a cow's stomach produce methane (CH₄), which contains carbon."
+  ],
+  [
+   "Why does a peat bog store a lot of carbon?",
+   "Dead plants decay very slowly in it",
+   [
+    "Its plants never photosynthesize",
+    "It releases carbon very quickly",
+    "It is made of limestone rock"
+   ],
+   "Waterlogged, low-oxygen conditions slow decomposition, so carbon from dead plants builds up as peat."
+  ],
+  [
+   "How do phytoplankton affect carbon in the ocean?",
+   "They take in dissolved CO₂ by photosynthesis",
+   [
+    "They release all ocean carbon to space",
+    "They turn CO₂ into nitrogen",
+    "They stop CO₂ from dissolving"
+   ],
+   "Phytoplankton photosynthesize, removing dissolved CO₂ and building it into their bodies."
+  ],
+  [
+   "What happens to carbon when a deer eats grass?",
+   "Carbon in the grass becomes part of the deer",
+   [
+    "The carbon disappears completely",
+    "The carbon turns into nitrogen",
+    "The carbon returns to the grass"
+   ],
+   "Feeding passes the carbon compounds in grass to the deer, which uses them for energy and growth."
+  ],
+  [
+   "Which organisms both take in and release CO₂?",
+   "Plants",
+   [
+    "Rocks",
+    "Volcanoes",
+    "Glaciers"
+   ],
+   "Plants absorb CO₂ in photosynthesis and also release CO₂ through their own cellular respiration."
+  ],
+  [
+   "How does warming of Arctic permafrost affect the carbon cycle?",
+   "Thawed soil decomposes and releases carbon",
+   [
+    "It locks more carbon in ice",
+    "It stops all decomposition",
+    "It turns carbon into water"
+   ],
+   "When permafrost thaws, microbes break down frozen dead matter and release CO₂ and methane."
+  ],
+  [
+   "Which pair of processes are opposites in the carbon cycle?",
+   "Photosynthesis and cellular respiration",
+   [
+    "Respiration and decomposition",
+    "Burning and decomposition",
+    "Eating and respiration"
+   ],
+   "Photosynthesis removes CO₂ to make glucose, while respiration breaks glucose down and releases CO₂."
+  ],
+  [
+   "What is a carbon sink?",
+   "Something that absorbs more carbon than it releases",
+   [
+    "Something that releases more carbon than it absorbs",
+    "A machine that makes carbon",
+    "A place with no carbon at all"
+   ],
+   "A sink, such as a growing forest, takes in more carbon than it gives off."
+  ],
+  [
+   "Which of these is a carbon sink in the biosphere?",
+   "A growing forest",
+   [
+    "A forest fire",
+    "A coal power plant",
+    "A herd of cattle"
+   ],
+   "A growing forest absorbs more CO₂ through photosynthesis than it releases."
+  ],
+  [
+   "What happens to the carbon in leaves that fall in autumn?",
+   "Decomposers release it as CO₂ and add some to soil",
+   [
+    "It stays in the leaves forever unchanged",
+    "It turns into oxygen gas",
+    "It becomes limestone the next spring"
+   ],
+   "Fungi and bacteria break down fallen leaves, respiring CO₂ and adding carbon to the soil."
+  ],
+  [
+   "Why are wetlands important in the carbon cycle?",
+   "They store large amounts of carbon in soil",
+   [
+    "They have no living things",
+    "They release no gases at all",
+    "They turn carbon into nitrogen"
+   ],
+   "Wetland soils hold organic matter that decays slowly, storing a lot of carbon."
+  ],
+  [
+   "Which product of photosynthesis stores carbon?",
+   "Glucose",
+   [
+    "Oxygen",
+    "Water",
+    "Sunlight"
+   ],
+   "Glucose (C₆H₁₂O₆) contains the carbon taken from CO₂ during photosynthesis."
+  ],
+  [
+   "In which part of a plant cell does photosynthesis take place?",
+   "The chloroplast",
+   [
+    "The mitochondrion",
+    "The cell wall",
+    "The nucleus"
+   ],
+   "Chloroplasts contain chlorophyll and are where CO₂ is fixed into sugar."
+  ],
+  [
+   "How does a wolf return carbon to the atmosphere?",
+   "By breathing out CO₂ from respiration",
+   [
+    "By photosynthesizing at night",
+    "By absorbing CO₂ through its fur",
+    "By turning carbon into oxygen"
+   ],
+   "Like all animals, a wolf respires food molecules and exhales CO₂."
+  ],
+  [
+   "What role do earthworms play in the carbon cycle?",
+   "They break down dead matter and mix it into soil",
+   [
+    "They photosynthesize underground",
+    "They create carbon from nothing",
+    "They remove all carbon from soil"
+   ],
+   "Earthworms feed on dead plant material, respiring some carbon and mixing the rest into soil."
+  ],
+  [
+   "Why does a forest absorb less CO₂ in a Canadian winter?",
+   "Many trees lose leaves and photosynthesis slows",
+   [
+    "Trees photosynthesize faster in the cold",
+    "Snow absorbs the CO₂ instead",
+    "Respiration stops in every organism"
+   ],
+   "Less light, cold and leafless trees mean much less photosynthesis in winter."
+  ],
+  [
+   "Which organisms are decomposers in the carbon cycle?",
+   "Bacteria and fungi",
+   [
+    "Grasses and trees",
+    "Hawks and owls",
+    "Algae and mosses"
+   ],
+   "Bacteria and fungi break down dead organisms and return their carbon to the air and soil."
+  ],
+  [
+   "How can planting crops that cover soil year-round help the carbon cycle?",
+   "Plant roots add carbon to the soil",
+   [
+    "They release carbon from the soil",
+    "They stop all photosynthesis",
+    "They turn soil into limestone"
+   ],
+   "Cover crops keep photosynthesizing and their roots build up carbon in the soil."
+  ]
+ ],
+ "sciXsCarbGeo": [
+  [
+   "Coal formed mainly from …",
+   "ancient plants buried in swamps",
+   [
+    "volcanic lava that cooled",
+    "seawater that evaporated",
+    "sand blown by the wind"
+   ],
+   "Coal formed from swamp plants buried and compressed for millions of years."
+  ],
+  [
+   "Oil and natural gas formed mainly from …",
+   "tiny ancient marine organisms",
+   [
+    "melted rocks in the mantle",
+    "dinosaur bones only",
+    "ice from glaciers"
+   ],
+   "Oil and gas formed from plankton buried in ocean sediments and heated under pressure."
+  ],
+  [
+   "Which rock is mostly made of calcium carbonate?",
+   "Limestone",
+   [
+    "Granite",
+    "Basalt",
+    "Sandstone"
+   ],
+   "Limestone is a sedimentary rock made largely of calcium carbonate (CaCO₃)."
+  ],
+  [
+   "How does the ocean exchange carbon with the atmosphere?",
+   "CO₂ dissolves into and escapes from seawater",
+   [
+    "The ocean turns CO₂ into nitrogen",
+    "Waves push CO₂ into space",
+    "The ocean blocks all CO₂"
+   ],
+   "CO₂ dissolves at the ocean surface and can also be released back to the air."
+  ],
+  [
+   "What happens to the ocean when it absorbs extra CO₂?",
+   "It becomes more acidic",
+   [
+    "It becomes more basic",
+    "It becomes saltier",
+    "It freezes faster"
+   ],
+   "Dissolved CO₂ forms carbonic acid, lowering the ocean's pH."
+  ],
+  [
+   "Why is ocean acidification a problem for shell-building organisms?",
+   "It makes building carbonate shells harder",
+   [
+    "It makes their shells grow thicker",
+    "It gives them more food",
+    "It turns their shells into oil"
+   ],
+   "More acidic water reduces the carbonate available, so shells are harder to build and may dissolve."
+  ],
+  [
+   "Which process can release carbon stored in limestone?",
+   "Heating limestone to make cement",
+   [
+    "Burying it deeper in sediment",
+    "Covering it with soil",
+    "Freezing it in a glacier"
+   ],
+   "Heating limestone breaks down CaCO₃ into lime and CO₂, releasing carbon to the air."
+  ],
+  [
+   "On what time scale does the geosphere part of the carbon cycle usually work?",
+   "Millions of years",
+   [
+    "A few minutes",
+    "A few days",
+    "One growing season"
+   ],
+   "Rock formation, weathering and plate movement move carbon very slowly, over millions of years."
+  ],
+  [
+   "Which human activity moves the most geosphere carbon into the air?",
+   "Burning coal, oil and natural gas",
+   [
+    "Planting new forests",
+    "Recycling paper",
+    "Riding bicycles"
+   ],
+   "Burning fossil fuels quickly releases carbon that was stored underground for millions of years."
+  ],
+  [
+   "How does carbon in subducted rock return to the atmosphere?",
+   "Through gases from volcanoes",
+   [
+    "Through falling rain",
+    "Through photosynthesis",
+    "Through ocean ice"
+   ],
+   "Subducted rock melts deep underground, and volcanoes release some of its carbon as CO₂."
+  ],
+  [
+   "Which fossil fuel is mostly methane?",
+   "Natural gas",
+   [
+    "Coal",
+    "Crude oil",
+    "Peat"
+   ],
+   "Natural gas is mainly methane (CH₄)."
+  ],
+  [
+   "What are the Alberta oil sands an example of?",
+   "A store of carbon in the geosphere",
+   [
+    "A store of carbon in the air",
+    "A type of living forest",
+    "A source of pure oxygen"
+   ],
+   "The oil sands hold bitumen, a fossil fuel that stores ancient carbon underground."
+  ],
+  [
+   "Which process slowly turns buried organic matter into fossil fuels?",
+   "Heat and pressure over time",
+   [
+    "Rapid freezing",
+    "Exposure to sunlight",
+    "Photosynthesis in soil"
+   ],
+   "Burial adds heat and pressure that slowly change organic matter into coal, oil and gas."
+  ],
+  [
+   "How do rivers carry carbon from rocks to the ocean?",
+   "They carry dissolved minerals from weathering",
+   [
+    "They pump CO₂ into the air",
+    "They turn rocks into oil",
+    "They melt rocks into lava"
+   ],
+   "Weathering dissolves carbon-containing minerals, and rivers carry these ions to the sea."
+  ],
+  [
+   "Which material forms when CO₂ dissolves in rainwater?",
+   "Carbonic acid",
+   [
+    "Sulphuric acid",
+    "Table salt",
+    "Pure oxygen"
+   ],
+   "CO₂ reacts with water to form weak carbonic acid (H₂CO₃), which helps weather rock."
+  ],
+  [
+   "What is carbon capture and storage?",
+   "Trapping CO₂ and pumping it underground",
+   [
+    "Burning more coal to make CO₂",
+    "Releasing CO₂ from volcanoes",
+    "Turning limestone into cement"
+   ],
+   "Carbon capture and storage collects CO₂ from sources like power plants and stores it in rock layers."
+  ],
+  [
+   "Why does the deep ocean store carbon for a long time?",
+   "Deep water mixes with surface water slowly",
+   [
+    "Deep water is always boiling",
+    "Deep water has no dissolved gases",
+    "Deep water flows into space"
+   ],
+   "Carbon that sinks to the deep ocean can stay there for centuries because deep water circulates slowly."
+  ],
+  [
+   "Which rock forms from layers of shells pressed together on the sea floor?",
+   "Limestone",
+   [
+    "Granite",
+    "Obsidian",
+    "Pumice"
+   ],
+   "Shells of calcium carbonate pile up and are cemented into limestone."
+  ],
+  [
+   "Which part of Earth holds carbon as diamonds and graphite?",
+   "The geosphere",
+   [
+    "The atmosphere",
+    "The biosphere",
+    "The hydrosphere"
+   ],
+   "Diamond and graphite are pure carbon minerals found in rocks of the geosphere."
+  ],
+  [
+   "How does weathering of rock over millions of years affect atmospheric CO₂?",
+   "It slowly removes CO₂ from the air",
+   [
+    "It quickly adds CO₂ to the air",
+    "It has no effect on CO₂",
+    "It turns CO₂ into methane"
+   ],
+   "Chemical weathering uses CO₂ from the air and locks carbon into minerals carried to the sea."
+  ],
+  [
+   "Where does most carbon in a volcanic eruption come from?",
+   "Rocks and magma deep inside Earth",
+   [
+    "Trees growing on the volcano",
+    "Animals living near the crater",
+    "Clouds above the volcano"
+   ],
+   "Volcanic CO₂ comes from melted rock and magma below Earth's surface."
+  ],
+  [
+   "Why are fossil fuels called non-renewable?",
+   "They take millions of years to form",
+   [
+    "They form again within a week",
+    "They are made from sunlight",
+    "They never contain carbon"
+   ],
+   "Fossil fuels form far more slowly than we use them, so they cannot be replaced on a human time scale."
+  ]
+ ],
+ "sciXsSolarObj": [
+  [
+   "Which planet is known as the Red Planet?",
+   "Mars",
+   [
+    "Venus",
+    "Jupiter",
+    "Neptune"
+   ],
+   "Iron oxide (rust) in its soil gives Mars its reddish colour."
+  ],
+  [
+   "Which planet is the hottest?",
+   "Venus",
+   [
+    "Mercury",
+    "Mars",
+    "Earth"
+   ],
+   "Venus's thick CO₂ atmosphere traps heat, making it hotter than Mercury."
+  ],
+  [
+   "Which planet is farthest from the Sun?",
+   "Neptune",
+   [
+    "Uranus",
+    "Saturn",
+    "Jupiter"
+   ],
+   "Neptune is the eighth and most distant planet from the Sun."
+  ],
+  [
+   "Which planet spins on its side, with its axis tilted about 98°?",
+   "Uranus",
+   [
+    "Neptune",
+    "Mars",
+    "Mercury"
+   ],
+   "Uranus is tipped so far that it rolls around the Sun on its side."
+  ],
+  [
+   "What is the largest moon in the solar system?",
+   "Ganymede",
+   [
+    "Titan",
+    "Earth's Moon",
+    "Phobos"
+   ],
+   "Ganymede, a moon of Jupiter, is the largest moon and is bigger than Mercury."
+  ],
+  [
+   "Which moon of Saturn has a thick atmosphere?",
+   "Titan",
+   [
+    "Europa",
+    "Io",
+    "Ganymede"
+   ],
+   "Titan is the only moon known to have a thick atmosphere, mostly nitrogen."
+  ],
+  [
+   "What are the four inner planets called?",
+   "Terrestrial (rocky) planets",
+   [
+    "Gas giant planets",
+    "Ice giant planets",
+    "Dwarf planets"
+   ],
+   "Mercury, Venus, Earth and Mars have solid rocky surfaces, so they are terrestrial planets."
+  ],
+  [
+   "Which two planets are called gas giants?",
+   "Jupiter and Saturn",
+   [
+    "Mars and Venus",
+    "Mercury and Earth",
+    "Earth and Mars"
+   ],
+   "Jupiter and Saturn are huge planets made mostly of hydrogen and helium."
+  ],
+  [
+   "Which two planets are called ice giants?",
+   "Uranus and Neptune",
+   [
+    "Jupiter and Saturn",
+    "Mars and Mercury",
+    "Venus and Earth"
+   ],
+   "Uranus and Neptune contain a lot of water, ammonia and methane ices."
+  ],
+  [
+   "A small rocky piece of debris travelling through space, smaller than an asteroid, is a …",
+   "meteoroid",
+   [
+    "moon",
+    "planet",
+    "nebula"
+   ],
+   "A meteoroid is a small space rock; it becomes a meteor when it burns in the atmosphere."
+  ],
+  [
+   "What is the Oort Cloud?",
+   "A distant shell of icy bodies around the solar system",
+   [
+    "A cloud of gas inside Jupiter",
+    "A belt of rocks between Earth and Mars",
+    "A ring of dust around Saturn"
+   ],
+   "The Oort Cloud is a far-off spherical region of icy objects thought to be the source of long-period comets."
+  ],
+  [
+   "Which dwarf planet lies in the asteroid belt?",
+   "Ceres",
+   [
+    "Pluto",
+    "Eris",
+    "Titan"
+   ],
+   "Ceres is the largest object in the asteroid belt and is classified as a dwarf planet."
+  ],
+  [
+   "Which object is the largest in the solar system?",
+   "The Sun",
+   [
+    "Jupiter",
+    "Saturn",
+    "Earth"
+   ],
+   "The Sun holds over 99% of the solar system's mass and is far bigger than any planet."
+  ],
+  [
+   "Which planet has the Great Red Spot, a giant storm?",
+   "Jupiter",
+   [
+    "Mars",
+    "Saturn",
+    "Venus"
+   ],
+   "The Great Red Spot is a huge, long-lasting storm on Jupiter."
+  ],
+  [
+   "Which planet is our nearest neighbour and is similar in size to Earth?",
+   "Venus",
+   [
+    "Mars",
+    "Mercury",
+    "Jupiter"
+   ],
+   "Venus is close to Earth's size and comes closer to Earth than any other planet."
+  ],
+  [
+   "What is a natural satellite?",
+   "A moon orbiting a planet",
+   [
+    "A star orbiting a moon",
+    "A spacecraft built by people",
+    "A comet's glowing tail"
+   ],
+   "Moons are natural satellites because they orbit planets without being made by people."
+  ],
+  [
+   "A comet's tail always points …",
+   "away from the Sun",
+   [
+    "toward the Sun",
+    "toward Earth",
+    "toward Jupiter"
+   ],
+   "Solar wind and sunlight push a comet's gas and dust away from the Sun."
+  ],
+  [
+   "What are Saturn's rings made of?",
+   "Pieces of ice and rock",
+   [
+    "Solid sheets of metal",
+    "Burning gas",
+    "Liquid water"
+   ],
+   "Saturn's rings are made of countless chunks of ice and rock, from dust-sized to house-sized."
+  ],
+  [
+   "Which object in the solar system makes its own light?",
+   "The Sun",
+   [
+    "The Moon",
+    "Venus",
+    "Saturn"
+   ],
+   "The Sun is a star that produces light by fusion; planets and moons only reflect sunlight."
+  ],
+  [
+   "Which planet has the shortest year?",
+   "Mercury",
+   [
+    "Venus",
+    "Earth",
+    "Mars"
+   ],
+   "Mercury is closest to the Sun, so it completes an orbit in only about 88 Earth days."
+  ],
+  [
+   "Which moons orbit Mars?",
+   "Phobos and Deimos",
+   [
+    "Io and Europa",
+    "Titan and Rhea",
+    "Triton and Nereid"
+   ],
+   "Mars has two small moons, Phobos and Deimos."
+  ],
+  [
+   "Which object orbits the Sun but has not cleared other objects from its orbit?",
+   "A dwarf planet",
+   [
+    "A planet",
+    "A moon",
+    "A star"
+   ],
+   "A dwarf planet orbits the Sun and is round but has not cleared its orbital neighbourhood."
+  ]
+ ],
+ "sciXsStars": [
+  [
+   "Which colour of star has the lowest surface temperature?",
+   "Red",
+   [
+    "Blue",
+    "White",
+    "Yellow"
+   ],
+   "Red stars are the coolest, at about 3000 °C, while blue stars are the hottest."
+  ],
+  [
+   "What colour is the Sun, a medium-temperature star?",
+   "Yellow-white",
+   [
+    "Deep red",
+    "Bright blue",
+    "Dark purple"
+   ],
+   "The Sun's surface is about 5500 °C, which gives it a yellow-white colour."
+  ],
+  [
+   "What is a white dwarf?",
+   "The hot, dense core left after a Sun-like star dies",
+   [
+    "A young star still forming in a nebula",
+    "A giant star about to explode",
+    "A planet that glows white"
+   ],
+   "When a Sun-like star sheds its outer layers, its small, hot core remains as a white dwarf."
+  ],
+  [
+   "What is a supernova?",
+   "The huge explosion of a massive star",
+   [
+    "The birth of a small star",
+    "A cloud of cold dust",
+    "A star fusing hydrogen steadily"
+   ],
+   "A massive star ends its life in a supernova explosion that can outshine a galaxy briefly."
+  ],
+  [
+   "Which stars live the longest?",
+   "Small, low-mass red dwarfs",
+   [
+    "Huge blue supergiants",
+    "Massive blue stars",
+    "Red supergiants"
+   ],
+   "Low-mass stars use their fuel very slowly, so they can shine for trillions of years."
+  ],
+  [
+   "Why do massive stars have shorter lives than small stars?",
+   "They use up their fuel much faster",
+   [
+    "They have less fuel to start with",
+    "They are farther from other stars",
+    "They do not use fusion at all"
+   ],
+   "Massive stars fuse hydrogen at a far higher rate, so they run out much sooner despite having more fuel."
+  ],
+  [
+   "What is a red giant?",
+   "A star that has swollen as it ages",
+   [
+    "A newborn star in a nebula",
+    "The core left after a supernova",
+    "A star that has stopped shining"
+   ],
+   "When a star runs low on hydrogen in its core, its outer layers expand and cool, forming a red giant."
+  ],
+  [
+   "What is a neutron star?",
+   "A tiny, very dense remnant of a supernova",
+   [
+    "A cloud where stars are born",
+    "A large, cool red star",
+    "A star made only of hydrogen"
+   ],
+   "After a supernova, a collapsed core made mostly of neutrons can remain as a neutron star."
+  ],
+  [
+   "What is apparent magnitude?",
+   "How bright a star looks from Earth",
+   [
+    "How hot a star really is",
+    "How old a star really is",
+    "How far a star has travelled"
+   ],
+   "Apparent magnitude measures brightness as seen from Earth, which depends on luminosity and distance."
+  ],
+  [
+   "What is absolute magnitude?",
+   "How bright a star would look from a standard distance",
+   [
+    "How bright a star looks from Earth tonight",
+    "How hot a star's core is",
+    "How large a star's planets are"
+   ],
+   "Absolute magnitude compares stars' true brightness by imagining them all at 10 parsecs."
+  ],
+  [
+   "Why might a very luminous star look dim from Earth?",
+   "It is very far away",
+   [
+    "It is very close to Earth",
+    "It is made of iron",
+    "It has stopped fusion"
+   ],
+   "Brightness seen from Earth falls with distance, so a distant powerful star can look faint."
+  ],
+  [
+   "What is a protostar?",
+   "A young star forming before fusion begins",
+   [
+    "A star that has exploded",
+    "A dead star made of neutrons",
+    "A star in the middle of its life"
+   ],
+   "A protostar is a collapsing clump of gas heating up before hydrogen fusion starts."
+  ],
+  [
+   "Which element do main-sequence stars fuse in their cores?",
+   "Hydrogen",
+   [
+    "Iron",
+    "Carbon",
+    "Uranium"
+   ],
+   "Main-sequence stars fuse hydrogen into helium in their cores."
+  ],
+  [
+   "On the H-R diagram, where are hot, bright stars found?",
+   "Upper left",
+   [
+    "Lower right",
+    "Lower left",
+    "Upper right"
+   ],
+   "The H-R diagram places hot stars on the left and luminous stars at the top."
+  ],
+  [
+   "On the H-R diagram, where are white dwarfs found?",
+   "Lower left",
+   [
+    "Upper left",
+    "Upper right",
+    "Centre top"
+   ],
+   "White dwarfs are hot but dim, so they sit in the lower left of the H-R diagram."
+  ],
+  [
+   "On the H-R diagram, where are red supergiants found?",
+   "Upper right",
+   [
+    "Lower left",
+    "Lower right",
+    "Centre bottom"
+   ],
+   "Red supergiants are cool but extremely luminous, placing them in the upper right."
+  ],
+  [
+   "Which of these is a star?",
+   "Betelgeuse",
+   [
+    "Jupiter",
+    "Titan",
+    "Ceres"
+   ],
+   "Betelgeuse is a red supergiant star in Orion; the others are a planet, a moon and a dwarf planet."
+  ],
+  [
+   "Which star is the closest to Earth?",
+   "The Sun",
+   [
+    "Proxima Centauri",
+    "Sirius",
+    "Polaris"
+   ],
+   "The Sun is a star only about 150 million km away, far closer than any other star."
+  ],
+  [
+   "What is a binary star system?",
+   "Two stars orbiting each other",
+   [
+    "A star with two planets",
+    "A star split in half",
+    "Two galaxies colliding"
+   ],
+   "In a binary system, two stars orbit a common centre of mass."
+  ],
+  [
+   "What forces are balanced in a stable main-sequence star?",
+   "Gravity inward and gas pressure outward",
+   [
+    "Magnetism inward and friction outward",
+    "Friction inward and gravity outward",
+    "Light inward and sound outward"
+   ],
+   "Gravity pulls the star's gas inward while pressure from hot fusing gas pushes outward."
+  ],
+  [
+   "What will a star much more massive than the Sun become after its main-sequence stage?",
+   "A supergiant",
+   [
+    "A white dwarf right away",
+    "A protostar",
+    "A planet"
+   ],
+   "Very massive stars swell into supergiants before exploding as supernovae."
+  ],
+  [
+   "Which unit is used to measure distances to stars?",
+   "Light-years",
+   [
+    "Kilograms",
+    "Kelvins",
+    "Newtons"
+   ],
+   "A light-year is the distance light travels in a year, about 9.5 trillion km."
+  ]
+ ],
+ "sciXsGravUniv": [
+  [
+   "What does gravitational force depend on?",
+   "The masses and the distance between them",
+   [
+    "The colour and shape of objects",
+    "The temperature of the objects",
+    "The speed of light only"
+   ],
+   "Newton's law of gravitation says force depends on both masses and on the distance between them."
+  ],
+  [
+   "If the mass of one object doubles, the gravitational force between it and another object …",
+   "doubles",
+   [
+    "halves",
+    "stays the same",
+    "becomes four times as strong"
+   ],
+   "Gravitational force is directly proportional to each mass, so doubling one mass doubles the force."
+  ],
+  [
+   "Your weight on the Moon is about one-sixth of your weight on Earth because …",
+   "the Moon's gravity is weaker",
+   [
+    "your mass is smaller there",
+    "the Moon has no gravity",
+    "the Moon has more air"
+   ],
+   "The Moon has less mass, so its surface gravity is about one-sixth of Earth's; your mass is unchanged."
+  ],
+  [
+   "Which force formed the planets from a disc of dust and gas?",
+   "Gravity",
+   [
+    "Friction",
+    "Magnetism",
+    "Air resistance"
+   ],
+   "Gravity pulled particles in the early solar system together into larger and larger bodies."
+  ],
+  [
+   "Why are planets and large moons round?",
+   "Gravity pulls their material toward the centre",
+   [
+    "Wind smooths their surfaces",
+    "They spin too slowly",
+    "Magnetism shapes their crusts"
+   ],
+   "A large body's gravity pulls equally inward from all sides, forming a sphere."
+  ],
+  [
+   "What is weight?",
+   "The force of gravity on an object",
+   [
+    "The amount of matter in an object",
+    "The space an object takes up",
+    "The speed of a falling object"
+   ],
+   "Weight is the gravitational force acting on a mass, measured in newtons."
+  ],
+  [
+   "A 10 kg object is on Earth, where g = 9.8 N/kg. What is its weight?",
+   "98 N",
+   [
+    "10 N",
+    "0.98 N",
+    "980 N"
+   ],
+   "Weight = mass × g = 10 kg × 9.8 N/kg = 98 N."
+  ],
+  [
+   "What keeps the Moon in orbit around Earth?",
+   "Earth's gravity",
+   [
+    "The Sun's light",
+    "Earth's magnetism",
+    "The Moon's spin"
+   ],
+   "Earth's gravity constantly pulls the Moon toward it, curving its path into an orbit."
+  ],
+  [
+   "Why does the Sun's gravity affect all the planets?",
+   "Gravity acts across huge distances",
+   [
+    "The planets touch the Sun",
+    "Gravity only works on rock",
+    "The Sun sends out wind"
+   ],
+   "Gravity has infinite range, weakening with distance but never reaching zero."
+  ],
+  [
+   "Why do galaxies form clusters?",
+   "Gravity pulls galaxies toward each other",
+   [
+    "Magnetism links their stars",
+    "Friction slows them down",
+    "Light pushes them together"
+   ],
+   "Galaxies attract one another by gravity, gathering into groups and clusters."
+  ],
+  [
+   "How does the Sun's gravity on Neptune compare with its gravity on Earth?",
+   "It is much weaker on Neptune",
+   [
+    "It is much stronger on Neptune",
+    "It is exactly the same",
+    "It is zero on Neptune"
+   ],
+   "Neptune is about 30 times farther from the Sun, so the Sun's pull per kilogram is far weaker there."
+  ],
+  [
+   "What causes spring tides, the highest high tides?",
+   "The Sun and Moon pull in a line",
+   [
+    "The Moon moving away from Earth",
+    "Strong winds in spring",
+    "Earth stopping its rotation"
+   ],
+   "When the Sun, Moon and Earth line up, their gravitational pulls combine to make larger tides."
+  ],
+  [
+   "What would happen to the Moon if Earth's gravity suddenly vanished?",
+   "It would fly off in a straight line",
+   [
+    "It would crash into Earth",
+    "It would stop completely",
+    "It would orbit faster"
+   ],
+   "Without gravity pulling it inward, the Moon would continue in a straight line by inertia."
+  ],
+  [
+   "Which scientist first described universal gravitation?",
+   "Isaac Newton",
+   [
+    "Albert Einstein",
+    "Galileo Galilei",
+    "Marie Curie"
+   ],
+   "Isaac Newton published the law of universal gravitation in 1687."
+  ],
+  [
+   "How did gravity help form the Milky Way's spiral structure?",
+   "It pulled huge gas clouds and stars together",
+   [
+    "It pushed all stars apart",
+    "It melted the stars together",
+    "It stopped stars from moving"
+   ],
+   "Gravity drew gas and stars into a rotating disc that formed the galaxy."
+  ],
+  [
+   "Why does a dropped hammer and feather fall together on the Moon?",
+   "There is no air resistance on the Moon",
+   [
+    "The Moon has no gravity",
+    "The feather is heavier there",
+    "The hammer loses its mass"
+   ],
+   "Without air, gravity gives all objects the same acceleration regardless of mass."
+  ],
+  [
+   "Which is stronger: the gravity between two people or between a person and Earth?",
+   "Between a person and Earth",
+   [
+    "Between two people",
+    "They are exactly equal",
+    "Neither exists"
+   ],
+   "Earth's enormous mass makes its pull on a person far greater than the pull between two people."
+  ],
+  [
+   "What is a gravitational field?",
+   "The region where a mass feels a gravitational force",
+   [
+    "The space where there is no gravity",
+    "A magnet's area of attraction",
+    "The ground where objects land"
+   ],
+   "A gravitational field surrounds every mass and exerts a force on other masses within it."
+  ],
+  [
+   "How does an object's mass change when it moves from Earth to Mars?",
+   "It stays the same",
+   [
+    "It increases",
+    "It decreases",
+    "It becomes zero"
+   ],
+   "Mass is the amount of matter, which does not depend on location; only weight changes."
+  ],
+  [
+   "What role does gravity play in a comet's orbit?",
+   "The Sun's gravity pulls it into a long oval path",
+   [
+    "It pushes the comet away forever",
+    "It heats the comet's tail",
+    "It makes the comet stand still"
+   ],
+   "The Sun's gravity keeps a comet in a long elliptical orbit around it."
+  ],
+  [
+   "If the distance between two objects is halved, the gravitational force …",
+   "becomes four times as strong",
+   [
+    "becomes half as strong",
+    "doubles",
+    "stays the same"
+   ],
+   "Gravity follows an inverse-square law, so halving the distance multiplies the force by 2² = 4."
+  ],
+  [
+   "What could happen when two galaxies pass close to each other?",
+   "Gravity can pull them into a merger",
+   [
+    "They bounce apart like balls",
+    "Their stars all explode",
+    "Their gravity switches off"
+   ],
+   "The galaxies' mutual gravity can distort them and eventually merge them into one."
+  ]
+ ],
+ "sciXsMatProp": [
+  [
+   "Which of these is a chemical property?",
+   "Flammability",
+   [
+    "Density",
+    "Melting point",
+    "Colour"
+   ],
+   "Flammability describes how a substance reacts with oxygen when burned, so it is chemical."
+  ],
+  [
+   "Which of these is a physical property?",
+   "Electrical conductivity",
+   [
+    "Reactivity with water",
+    "Ability to burn",
+    "Ability to tarnish"
+   ],
+   "Conductivity can be measured without changing what the substance is, so it is physical."
+  ],
+  [
+   "Which of these is a chemical property of iron?",
+   "It rusts in moist air",
+   [
+    "It is grey and shiny",
+    "It melts at 1538 °C",
+    "It is attracted to magnets"
+   ],
+   "Rusting changes iron into a new substance, iron oxide, so it is a chemical property."
+  ],
+  [
+   "Which of these is a physical property of copper?",
+   "It can be drawn into wires",
+   [
+    "It turns green in moist air",
+    "It reacts with nitric acid",
+    "It forms copper oxide when heated"
+   ],
+   "Ductility can be observed without changing copper into a new substance."
+  ],
+  [
+   "Which property describes how much mass is in a given volume?",
+   "Density",
+   [
+    "Solubility",
+    "Flammability",
+    "Malleability"
+   ],
+   "Density is mass per unit volume, a physical property."
+  ],
+  [
+   "Which property describes how easily a metal can be hammered into sheets?",
+   "Malleability",
+   [
+    "Ductility",
+    "Reactivity",
+    "Combustibility"
+   ],
+   "Malleability is the ability to be flattened into sheets, a physical property of many metals."
+  ],
+  [
+   "Which observation shows a chemical property?",
+   "Baking soda fizzes in vinegar",
+   [
+    "Ice melts in a warm room",
+    "Sugar dissolves in tea",
+    "Glass breaks into pieces"
+   ],
+   "The fizzing shows a new gas (CO₂) forming, so it reveals a chemical property."
+  ],
+  [
+   "Which observation shows a physical property?",
+   "Gold has a yellow lustre",
+   [
+    "Wood burns to ash",
+    "Silver tarnishes black",
+    "Milk turns sour"
+   ],
+   "Lustre and colour can be seen without changing the substance."
+  ],
+  [
+   "A substance dissolves easily in water. This is a …",
+   "physical property called solubility",
+   [
+    "chemical property called flammability",
+    "chemical property called reactivity",
+    "physical property called hardness"
+   ],
+   "Solubility is physical because dissolving does not create a new substance."
+  ],
+  [
+   "Which property would best tell pure gold from a gold-coloured fake?",
+   "Density",
+   [
+    "Colour",
+    "Shape",
+    "Size"
+   ],
+   "Gold's density (about 19.3 g/cm³) is much higher than most look-alike metals."
+  ],
+  [
+   "How could you separate iron filings from sand?",
+   "Use a magnet",
+   [
+    "Burn the mixture",
+    "Add vinegar",
+    "Freeze the mixture"
+   ],
+   "Iron is magnetic and sand is not, so a magnet separates them by a physical property."
+  ],
+  [
+   "Which of these is a chemical property of sodium?",
+   "It reacts violently with water",
+   [
+    "It is soft enough to cut",
+    "It is silvery when freshly cut",
+    "It melts at about 98 °C"
+   ],
+   "Reacting with water produces new substances, so it is a chemical property."
+  ],
+  [
+   "Which of these is a physical property of water?",
+   "It boils at 100 °C at sea level",
+   [
+    "It forms from hydrogen and oxygen",
+    "It reacts with sodium",
+    "It can be split by electricity"
+   ],
+   "Boiling point is measured without changing water into a new substance."
+  ],
+  [
+   "Which of these is a chemical property of helium?",
+   "It does not react with other elements",
+   [
+    "It is less dense than air",
+    "It is colourless",
+    "It is a gas at room temperature"
+   ],
+   "Helium's unreactivity describes how it behaves (or doesn't) in chemical reactions."
+  ],
+  [
+   "Hardness is measured by how easily a mineral is scratched. Hardness is a …",
+   "physical property",
+   [
+    "chemical property",
+    "chemical change",
+    "nuclear property"
+   ],
+   "Scratching does not change the mineral into a new substance, so hardness is physical."
+  ],
+  [
+   "Which property explains why oil floats on water?",
+   "Oil is less dense than water",
+   [
+    "Oil is more flammable than water",
+    "Oil reacts with water",
+    "Oil is more toxic than water"
+   ],
+   "Less dense liquids float on denser ones; this is a physical property."
+  ],
+  [
+   "Which of these is a chemical property of natural gas?",
+   "It burns to make CO₂ and water",
+   [
+    "It has no colour",
+    "It is a gas at room temperature",
+    "It is less dense than air"
+   ],
+   "Burning creates new substances, so combustibility is a chemical property."
+  ],
+  [
+   "Viscosity describes how easily a liquid flows. Viscosity is a …",
+   "physical property",
+   [
+    "chemical property",
+    "nuclear property",
+    "chemical reaction"
+   ],
+   "Flowing does not change the liquid's identity, so viscosity is physical."
+  ],
+  [
+   "Which property would help identify an unknown clear liquid without changing it?",
+   "Its boiling point",
+   [
+    "Its flammability",
+    "Its reaction with acid",
+    "Its ability to rust metal"
+   ],
+   "Boiling point can be measured without making a new substance, so it is a physical property."
+  ],
+  [
+   "Which of these is a chemical property of an antacid tablet?",
+   "It neutralizes stomach acid",
+   [
+    "It is white in colour",
+    "It is round and flat",
+    "It dissolves in water"
+   ],
+   "Neutralizing acid is a chemical reaction that forms new substances."
+  ],
+  [
+   "Which pair contains only chemical properties?",
+   "Flammability and reactivity with acid",
+   [
+    "Density and colour",
+    "Melting point and hardness",
+    "Lustre and solubility"
+   ],
+   "Both flammability and acid reactivity describe how a substance changes into new substances."
+  ],
+  [
+   "Which pair contains only physical properties?",
+   "Density and boiling point",
+   [
+    "Flammability and density",
+    "Ability to rust and colour",
+    "Reactivity and lustre"
+   ],
+   "Density and boiling point can both be measured without changing the substance."
+  ]
+ ],
+ "sciPerTr": [
+  [
+   "Which has the larger atomic radius: K or Na?",
+   "K",
+   [
+    "Na",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Potassium is below sodium in Group 1, so it has an extra electron shell and a larger radius."
+  ],
+  [
+   "Which has the larger atomic radius: Mg or S?",
+   "Mg",
+   [
+    "S",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Across Period 3, nuclear charge increases and pulls electrons closer, so Mg is larger than S."
+  ],
+  [
+   "Which has the higher electronegativity: O or S?",
+   "O",
+   [
+    "S",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Electronegativity decreases down a group, so oxygen attracts bonding electrons more strongly than sulphur."
+  ],
+  [
+   "Which has the higher electronegativity: Cl or Na?",
+   "Cl",
+   [
+    "Na",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Electronegativity increases across a period, so chlorine is far more electronegative than sodium."
+  ],
+  [
+   "Which has the higher first ionization energy: He or Ne?",
+   "He",
+   [
+    "Ne",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Helium's electrons are closest to the nucleus, giving it the highest first ionization energy of all elements."
+  ],
+  [
+   "Which element has the largest atomic radius?",
+   "Cesium",
+   [
+    "Lithium",
+    "Fluorine",
+    "Oxygen"
+   ],
+   "Cesium is far down Group 1, with many electron shells and a weak hold on its outer electron."
+  ],
+  [
+   "Which element has the smallest atomic radius?",
+   "Fluorine",
+   [
+    "Sodium",
+    "Potassium",
+    "Iodine"
+   ],
+   "Fluorine is at the top right of the main group, where atoms are smallest."
+  ],
+  [
+   "Moving down a group, electronegativity generally …",
+   "decreases",
+   [
+    "increases",
+    "stays the same",
+    "doubles"
+   ],
+   "Outer electrons are farther from the nucleus down a group, so atoms attract bonding electrons less."
+  ],
+  [
+   "Moving left to right across a period, electronegativity generally …",
+   "increases",
+   [
+    "decreases",
+    "stays the same",
+    "drops to zero"
+   ],
+   "Nuclear charge grows across a period, so atoms attract bonding electrons more strongly."
+  ],
+  [
+   "Moving down a group, first ionization energy generally …",
+   "decreases",
+   [
+    "increases",
+    "stays the same",
+    "doubles"
+   ],
+   "Outer electrons are farther from the nucleus and more shielded, so they are easier to remove."
+  ],
+  [
+   "Why does atomic radius increase down a group?",
+   "Each element has another electron shell",
+   [
+    "The nucleus loses protons",
+    "Electrons get heavier",
+    "Neutrons push electrons out"
+   ],
+   "Adding an energy level places the outer electrons farther from the nucleus."
+  ],
+  [
+   "Why does atomic radius decrease across a period?",
+   "More protons pull the same shell closer",
+   [
+    "Electrons are removed from atoms",
+    "Neutrons shrink the nucleus",
+    "Shells are lost across the period"
+   ],
+   "Across a period, nuclear charge rises while electrons fill the same shell, pulling it inward."
+  ],
+  [
+   "Which ion is larger than its neutral atom?",
+   "Cl⁻",
+   [
+    "Na⁺",
+    "Mg²⁺",
+    "Al³⁺"
+   ],
+   "Gaining an electron increases repulsion, so anions like Cl⁻ are larger than their atoms."
+  ],
+  [
+   "Which is smaller: a Na atom or a Na⁺ ion?",
+   "Na⁺",
+   [
+    "Na",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Losing its outer electron removes sodium's outer shell, so the Na⁺ ion is smaller."
+  ],
+  [
+   "Which group contains the most reactive metals?",
+   "Group 1, the alkali metals",
+   [
+    "Group 18, the noble gases",
+    "Group 14, the carbon group",
+    "Group 17, the halogens"
+   ],
+   "Alkali metals have one valence electron and low ionization energy, so they lose it very easily."
+  ],
+  [
+   "Which halogen is the most reactive?",
+   "Fluorine",
+   [
+    "Chlorine",
+    "Bromine",
+    "Iodine"
+   ],
+   "Reactivity of halogens decreases down the group, so fluorine at the top is the most reactive."
+  ],
+  [
+   "Which alkali metal is the most reactive?",
+   "Cesium",
+   [
+    "Lithium",
+    "Sodium",
+    "Potassium"
+   ],
+   "Among these, cesium's outer electron is farthest from the nucleus and is lost most easily."
+  ],
+  [
+   "Which element has the lowest electronegativity among these?",
+   "Potassium",
+   [
+    "Carbon",
+    "Nitrogen",
+    "Chlorine"
+   ],
+   "Potassium is a Group 1 metal far to the left, so it has the lowest electronegativity here."
+  ],
+  [
+   "Metallic character across a period from left to right generally …",
+   "decreases",
+   [
+    "increases",
+    "stays the same",
+    "doubles"
+   ],
+   "Elements become less likely to lose electrons across a period, so metallic character falls."
+  ],
+  [
+   "Metallic character down a group generally …",
+   "increases",
+   [
+    "decreases",
+    "stays the same",
+    "drops to zero"
+   ],
+   "Outer electrons are held less tightly down a group, so elements behave more like metals."
+  ],
+  [
+   "Which has the higher first ionization energy: N or P?",
+   "N",
+   [
+    "P",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Nitrogen is above phosphorus in Group 15, so its outer electrons are held more tightly."
+  ],
+  [
+   "Why are noble gases usually left out of electronegativity trends?",
+   "They rarely form bonds",
+   [
+    "They have no electrons",
+    "They are all metals",
+    "They have no protons"
+   ],
+   "Electronegativity measures attraction for bonding electrons, and noble gases seldom bond."
+  ]
+ ],
+ "sciDecay": [
+  [
+   "In beta-minus decay, the atomic number …",
+   "increases by 1",
+   [
+    "decreases by 2",
+    "decreases by 1",
+    "stays the same"
+   ],
+   "A neutron becomes a proton, so the nucleus gains one proton and the atomic number rises by 1."
+  ],
+  [
+   "In alpha decay, the mass number …",
+   "decreases by 4",
+   [
+    "increases by 4",
+    "decreases by 2",
+    "stays the same"
+   ],
+   "An alpha particle carries 2 protons and 2 neutrons, so the mass number drops by 4."
+  ],
+  [
+   "In gamma decay, the mass number …",
+   "stays the same",
+   [
+    "decreases by 4",
+    "increases by 1",
+    "decreases by 1"
+   ],
+   "A gamma ray is a photon with no mass or charge, so the mass number is unchanged."
+  ],
+  [
+   "In beta-minus decay, the mass number …",
+   "stays the same",
+   [
+    "decreases by 4",
+    "increases by 1",
+    "decreases by 2"
+   ],
+   "A neutron turning into a proton keeps the total number of nucleons the same."
+  ],
+  [
+   "Which particle is emitted in beta-minus decay?",
+   "An electron",
+   [
+    "A helium nucleus",
+    "A photon only",
+    "A neutron"
+   ],
+   "A beta-minus particle is a high-speed electron released when a neutron changes to a proton."
+  ],
+  [
+   "Which particle is emitted in positron (beta-plus) decay?",
+   "A positron",
+   [
+    "An electron",
+    "An alpha particle",
+    "A proton"
+   ],
+   "In beta-plus decay, a proton changes into a neutron and releases a positron."
+  ],
+  [
+   "In positron decay, the atomic number …",
+   "decreases by 1",
+   [
+    "increases by 1",
+    "decreases by 2",
+    "stays the same"
+   ],
+   "A proton becomes a neutron, so the nucleus has one fewer proton."
+  ],
+  [
+   "Which type of radiation is most ionizing?",
+   "Alpha particles",
+   [
+    "Gamma rays",
+    "Beta particles",
+    "Radio waves"
+   ],
+   "Alpha particles are heavy and doubly charged, so they ionize many atoms over a short distance."
+  ],
+  [
+   "Which type of radiation is least ionizing but most penetrating?",
+   "Gamma rays",
+   [
+    "Alpha particles",
+    "Beta particles",
+    "Positrons"
+   ],
+   "Gamma rays have no charge or mass, so they ionize weakly and travel far through matter."
+  ],
+  [
+   "Which radiation can be stopped by a few millimetres of aluminium?",
+   "Beta particles",
+   [
+    "Gamma rays",
+    "Neutrons from fission",
+    "Cosmic rays"
+   ],
+   "Beta particles pass through paper but are stopped by a thin sheet of aluminium."
+  ],
+  [
+   "Uranium-238 (atomic number 92) undergoes alpha decay. What is the new element's atomic number?",
+   "90",
+   [
+    "94",
+    "91",
+    "88"
+   ],
+   "Alpha decay removes 2 protons, so 92 − 2 = 90, which is thorium."
+  ],
+  [
+   "Carbon-14 (atomic number 6) undergoes beta-minus decay. What element forms?",
+   "Nitrogen-14",
+   [
+    "Boron-14",
+    "Carbon-13",
+    "Beryllium-10"
+   ],
+   "Beta-minus decay raises the atomic number from 6 to 7 and keeps the mass at 14, giving nitrogen-14."
+  ],
+  [
+   "Radium-226 (atomic number 88) undergoes alpha decay. What is the new mass number?",
+   "222",
+   [
+    "226",
+    "224",
+    "230"
+   ],
+   "Alpha decay removes 4 nucleons: 226 − 4 = 222, giving radon-222."
+  ],
+  [
+   "What is the charge of an alpha particle?",
+   "+2",
+   [
+    "−1",
+    "0",
+    "+1"
+   ],
+   "An alpha particle has 2 protons and no electrons, so its charge is +2."
+  ],
+  [
+   "What is the charge of a beta-minus particle?",
+   "−1",
+   [
+    "+2",
+    "0",
+    "+1"
+   ],
+   "A beta-minus particle is an electron, with a charge of −1."
+  ],
+  [
+   "What is the charge of a gamma ray?",
+   "0",
+   [
+    "+2",
+    "−1",
+    "+1"
+   ],
+   "Gamma rays are electromagnetic radiation and carry no charge."
+  ],
+  [
+   "Which decay often happens right after alpha or beta decay as the nucleus settles?",
+   "Gamma decay",
+   [
+    "Positron decay",
+    "Fission",
+    "Fusion"
+   ],
+   "A nucleus left in an excited state releases its extra energy as a gamma ray."
+  ],
+  [
+   "Which symbol represents an alpha particle?",
+   "⁴₂He",
+   [
+    "⁰₋₁e",
+    "⁰₀γ",
+    "¹₀n"
+   ],
+   "An alpha particle is a helium-4 nucleus, with mass number 4 and atomic number 2."
+  ],
+  [
+   "Which symbol represents a beta-minus particle?",
+   "⁰₋₁e",
+   [
+    "⁴₂He",
+    "⁰₀γ",
+    "¹₁p"
+   ],
+   "A beta-minus particle is an electron with mass number 0 and charge −1."
+  ],
+  [
+   "Which decay type is used in PET scans in hospitals?",
+   "Positron decay",
+   [
+    "Alpha decay",
+    "Fission",
+    "Fusion"
+   ],
+   "PET (positron emission tomography) detects radiation from positron-emitting tracers."
+  ],
+  [
+   "Why are alpha sources dangerous if swallowed but safe to hold behind paper?",
+   "Alpha particles cannot pass skin but harm inside tissue",
+   [
+    "Alpha particles pass through lead easily",
+    "Alpha particles only harm metal objects",
+    "Alpha particles are a type of light"
+   ],
+   "Alpha particles are stopped by skin or paper, but inside the body they strongly ionize nearby cells."
+  ],
+  [
+   "An isotope decays and its atomic number drops by 2. Which decay occurred?",
+   "Alpha decay",
+   [
+    "Beta-minus decay",
+    "Gamma decay",
+    "Positron decay"
+   ],
+   "Only alpha decay removes 2 protons at once, lowering the atomic number by 2."
+  ]
+ ],
+ "sciXsNucRx": [
+  [
+   "What type of nuclear reaction is this? ²²⁶Ra → ²²²Rn + ⁴He",
+   "Alpha decay",
+   [
+    "Fission",
+    "Beta decay",
+    "Fusion"
+   ],
+   "The nucleus gives off a helium-4 nucleus, so the mass number drops by 4: alpha decay."
+  ],
+  [
+   "What type of nuclear reaction is this? ²¹⁰Po → ²⁰⁶Pb + ⁴He",
+   "Alpha decay",
+   [
+    "Gamma emission",
+    "Fusion",
+    "Beta decay"
+   ],
+   "Polonium releases a helium-4 nucleus and becomes lead, which is alpha decay."
+  ],
+  [
+   "What type of nuclear reaction is this? ²⁴¹Am → ²³⁷Np + ⁴He",
+   "Alpha decay",
+   [
+    "Fission",
+    "Gamma emission",
+    "Beta decay"
+   ],
+   "Americium emits an alpha particle (⁴He), lowering its mass by 4 and atomic number by 2."
+  ],
+  [
+   "What type of nuclear reaction is this? ³H → ³He + e⁻",
+   "Beta decay",
+   [
+    "Alpha decay",
+    "Fusion",
+    "Fission"
+   ],
+   "Tritium emits an electron as a neutron turns into a proton, which is beta decay."
+  ],
+  [
+   "What type of nuclear reaction is this? ⁶⁰Co → ⁶⁰Ni + e⁻",
+   "Beta decay",
+   [
+    "Gamma emission",
+    "Alpha decay",
+    "Fusion"
+   ],
+   "An electron is emitted and the mass number stays 60, so this is beta decay."
+  ],
+  [
+   "What type of nuclear reaction is this? ¹³¹I → ¹³¹Xe + e⁻",
+   "Beta decay",
+   [
+    "Fission",
+    "Alpha decay",
+    "Gamma emission"
+   ],
+   "Iodine-131 emits an electron and becomes xenon-131 with the same mass number: beta decay."
+  ],
+  [
+   "What type of nuclear reaction is this? ⁹⁰Sr → ⁹⁰Y + e⁻",
+   "Beta decay",
+   [
+    "Alpha decay",
+    "Fusion",
+    "Fission"
+   ],
+   "Strontium-90 releases an electron and becomes yttrium-90, which is beta decay."
+  ],
+  [
+   "What type of nuclear reaction is this? ⁶⁰Ni* → ⁶⁰Ni + γ",
+   "Gamma emission",
+   [
+    "Beta decay",
+    "Alpha decay",
+    "Fission"
+   ],
+   "An excited nickel nucleus releases a gamma photon without changing its element or mass."
+  ],
+  [
+   "What type of nuclear reaction is this? ⁹⁹ᵐTc → ⁹⁹Tc + γ",
+   "Gamma emission",
+   [
+    "Fusion",
+    "Alpha decay",
+    "Beta decay"
+   ],
+   "Metastable technetium releases a gamma ray and stays technetium-99."
+  ],
+  [
+   "What type of nuclear reaction is this? ²H + ²H → ³He + n",
+   "Fusion",
+   [
+    "Fission",
+    "Alpha decay",
+    "Beta decay"
+   ],
+   "Two light deuterium nuclei join to make a heavier helium nucleus, which is fusion."
+  ],
+  [
+   "What type of nuclear reaction is this? ³He + ³He → ⁴He + 2 ¹H",
+   "Fusion",
+   [
+    "Fission",
+    "Gamma emission",
+    "Alpha decay"
+   ],
+   "Two light helium-3 nuclei combine into helium-4 in the Sun, which is fusion."
+  ],
+  [
+   "What type of nuclear reaction is this? ²³⁵U + n → ¹⁴⁰Xe + ⁹⁴Sr + 2n",
+   "Fission",
+   [
+    "Fusion",
+    "Alpha decay",
+    "Gamma emission"
+   ],
+   "A neutron splits uranium-235 into two medium-sized nuclei plus neutrons: fission."
+  ],
+  [
+   "What type of nuclear reaction is this? ²³⁵U + n → ¹⁴⁴Ba + ⁸⁹Kr + 3n",
+   "Fission",
+   [
+    "Beta decay",
+    "Fusion",
+    "Alpha decay"
+   ],
+   "The heavy uranium nucleus splits into barium and krypton plus three neutrons, which is fission."
+  ],
+  [
+   "What type of nuclear reaction is this? A heavy nucleus splits into two smaller nuclei",
+   "Fission",
+   [
+    "Fusion",
+    "Gamma emission",
+    "Beta decay"
+   ],
+   "Splitting a heavy nucleus into smaller ones is nuclear fission."
+  ],
+  [
+   "What type of nuclear reaction is this? Two light nuclei join to form a heavier nucleus",
+   "Fusion",
+   [
+    "Fission",
+    "Alpha decay",
+    "Beta decay"
+   ],
+   "Joining light nuclei together is nuclear fusion."
+  ],
+  [
+   "What type of nuclear reaction is this? A neutron in the nucleus changes into a proton and an electron",
+   "Beta decay",
+   [
+    "Alpha decay",
+    "Gamma emission",
+    "Fusion"
+   ],
+   "A neutron turning into a proton and releasing an electron is beta decay."
+  ],
+  [
+   "What type of nuclear reaction is this? A nucleus gives off two protons and two neutrons together",
+   "Alpha decay",
+   [
+    "Beta decay",
+    "Fission",
+    "Gamma emission"
+   ],
+   "Two protons and two neutrons together form an alpha particle, so this is alpha decay."
+  ],
+  [
+   "What type of nuclear reaction is this? A CANDU reactor in Ontario splits uranium to make electricity",
+   "Fission",
+   [
+    "Fusion",
+    "Beta decay",
+    "Gamma emission"
+   ],
+   "CANDU reactors generate heat by splitting uranium-235 nuclei, which is fission."
+  ],
+  [
+   "What type of nuclear reaction is this? The reaction that powers the Sun and other stars",
+   "Fusion",
+   [
+    "Fission",
+    "Alpha decay",
+    "Gamma emission"
+   ],
+   "Stars shine by fusing hydrogen nuclei into helium."
+  ],
+  [
+   "What type of nuclear reaction is this? A nucleus releases energy as a photon but keeps the same protons and neutrons",
+   "Gamma emission",
+   [
+    "Alpha decay",
+    "Beta decay",
+    "Fusion"
+   ],
+   "Only gamma emission releases energy without changing the number of protons or neutrons."
+  ],
+  [
+   "What type of nuclear reaction is this? Americium in a smoke detector gives off helium nuclei",
+   "Alpha decay",
+   [
+    "Beta decay",
+    "Fission",
+    "Fusion"
+   ],
+   "Americium-241 in smoke detectors emits alpha particles, which are helium nuclei."
+  ],
+  [
+   "What type of nuclear reaction is this? ²³²Th → ²²⁸Ra + ⁴He",
+   "Alpha decay",
+   [
+    "Fusion",
+    "Beta decay",
+    "Gamma emission"
+   ],
+   "Thorium-232 releases a helium-4 nucleus and becomes radium-228, which is alpha decay."
+  ]
+ ],
+ "sciXsIonE": [
+  [
+   "Which has the higher first ionization energy: Mg or Ba?",
+   "Mg",
+   [
+    "Ba",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Magnesium is above barium in Group 2, so its outer electrons are closer and held more tightly."
+  ],
+  [
+   "Which has the higher first ionization energy: K or Br?",
+   "Br",
+   [
+    "K",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Bromine is far right in Period 4, with a larger nuclear charge holding its electrons."
+  ],
+  [
+   "Which has the higher first ionization energy: O or Se?",
+   "O",
+   [
+    "Se",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Oxygen is higher in Group 16, so its outer electrons are closer to the nucleus."
+  ],
+  [
+   "Which has the higher first ionization energy: Ne or Na?",
+   "Ne",
+   [
+    "Na",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Neon has a full outer shell, while sodium's single outer electron is in a new, more distant shell."
+  ],
+  [
+   "Which has the lower first ionization energy: K or Ca?",
+   "K",
+   [
+    "Ca",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Potassium has one fewer proton in the same period, so its outer electron is easier to remove."
+  ],
+  [
+   "Which has the lower first ionization energy: F or I?",
+   "I",
+   [
+    "F",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Iodine's outer electrons are much farther from the nucleus than fluorine's, so they are easier to remove."
+  ],
+  [
+   "Which element has the highest first ionization energy of all?",
+   "Helium",
+   [
+    "Hydrogen",
+    "Fluorine",
+    "Cesium"
+   ],
+   "Helium's two electrons are very close to the nucleus with no shielding, so they are the hardest to remove."
+  ],
+  [
+   "Which element in Group 1 has the lowest first ionization energy?",
+   "Rubidium",
+   [
+    "Lithium",
+    "Sodium",
+    "Potassium"
+   ],
+   "Among these, rubidium is lowest in the group, so its outer electron is farthest away."
+  ],
+  [
+   "Which Period 3 element has the highest first ionization energy?",
+   "Argon",
+   [
+    "Sodium",
+    "Phosphorus",
+    "Chlorine"
+   ],
+   "Argon is a noble gas at the end of Period 3 with a stable full outer shell."
+  ],
+  [
+   "Why do noble gases have very high ionization energies?",
+   "Their outer shells are full and stable",
+   [
+    "They have no electrons at all",
+    "They have very few protons",
+    "They are always ions"
+   ],
+   "A full valence shell is very stable, so removing an electron takes a lot of energy."
+  ],
+  [
+   "Why does ionization energy decrease down a group?",
+   "Outer electrons are farther and more shielded",
+   [
+    "The nucleus has fewer protons",
+    "Atoms become much smaller",
+    "Electrons gain extra mass"
+   ],
+   "Extra shells put outer electrons farther away and shield them from the nucleus."
+  ],
+  [
+   "Why does ionization energy increase across a period?",
+   "More protons pull electrons in the same shell",
+   [
+    "Atoms gain new electron shells",
+    "Shielding increases sharply",
+    "Outer electrons move farther away"
+   ],
+   "Across a period nuclear charge grows while shielding stays similar, so electrons are held tighter."
+  ],
+  [
+   "Why is the second ionization energy always greater than the first?",
+   "The electron is removed from a positive ion",
+   [
+    "The atom gains protons after ionizing",
+    "The first electron is always heavier",
+    "The second electron is farther away"
+   ],
+   "Once an atom is positive, the remaining electrons are held more strongly, so removing another costs more."
+  ],
+  [
+   "Why is sodium's second ionization energy much larger than its first?",
+   "The second electron comes from a full inner shell",
+   [
+    "Sodium gains a proton after ionizing",
+    "The second electron is in a higher shell",
+    "Sodium has only one electron"
+   ],
+   "After losing its lone 3s electron, sodium must lose one from the stable, closer second shell."
+  ],
+  [
+   "For magnesium, the big jump in ionization energy comes after removing which electron?",
+   "The second",
+   [
+    "The first",
+    "The fifth",
+    "The eighth"
+   ],
+   "Magnesium has two valence electrons, so the third electron must come from an inner shell."
+  ],
+  [
+   "What is the usual unit for ionization energy?",
+   "kJ/mol",
+   [
+    "kg/m³",
+    "m/s²",
+    "N/m"
+   ],
+   "Ionization energies are usually given as kilojoules per mole of atoms."
+  ],
+  [
+   "Elements with low ionization energies tend to be …",
+   "metals that form positive ions",
+   [
+    "nonmetals that form negative ions",
+    "noble gases that never react",
+    "metalloids that never bond"
+   ],
+   "Low ionization energy means electrons are lost easily, which is typical of metals forming cations."
+  ],
+  [
+   "How is ionization energy related to the reactivity of alkali metals?",
+   "Lower ionization energy means more reactive",
+   [
+    "Higher ionization energy means more reactive",
+    "Ionization energy has no link to reactivity",
+    "Only heavier atoms have ionization energy"
+   ],
+   "Alkali metals react by losing an electron, so the easier it is to remove, the more reactive the metal."
+  ],
+  [
+   "Which element loses an electron most easily?",
+   "Cesium",
+   [
+    "Lithium",
+    "Fluorine",
+    "Neon"
+   ],
+   "Cesium has the lowest first ionization energy of these, so it loses its electron most easily."
+  ],
+  [
+   "Which ion forms most easily because of sodium's low first ionization energy?",
+   "Na⁺",
+   [
+    "Na²⁺",
+    "Na⁻",
+    "Na³⁺"
+   ],
+   "Sodium easily loses its single valence electron to form Na⁺, but further electrons are hard to remove."
+  ],
+  [
+   "Which has the higher first ionization energy: Be or Ca?",
+   "Be",
+   [
+    "Ca",
+    "They are equal",
+    "Cannot be compared"
+   ],
+   "Beryllium is higher in Group 2, so its outer electrons are closer and held more tightly."
+  ],
+  [
+   "Which list is in order of increasing first ionization energy?",
+   "Cs, Na, Li",
+   [
+    "Li, Na, Cs",
+    "Na, Li, Cs",
+    "Li, Cs, Na"
+   ],
+   "Ionization energy increases up Group 1, so cesium is lowest and lithium is highest."
+  ]
+ ],
+ "sciBND": [
+  [
+   "Which compound is held together by ionic bonds?",
+   "LiF",
+   [
+    "CO",
+    "HCl",
+    "NH₃"
+   ],
+   "LiF forms from a metal (Li) and a nonmetal (F) transferring an electron, making an ionic bond."
+  ],
+  [
+   "Which compound is held together by covalent bonds?",
+   "CCl₄",
+   [
+    "NaF",
+    "MgCl₂",
+    "K₂O"
+   ],
+   "CCl₄ is made of two nonmetals that share electrons, so its bonds are covalent."
+  ],
+  [
+   "Which compound is held together by ionic bonds?",
+   "CaO",
+   [
+    "H₂S",
+    "SO₂",
+    "CH₃OH"
+   ],
+   "Calcium (a metal) transfers electrons to oxygen (a nonmetal), forming an ionic compound."
+  ],
+  [
+   "Which compound is held together by covalent bonds?",
+   "C₆H₁₂O₆",
+   [
+    "KCl",
+    "Na₂O",
+    "BaCl₂"
+   ],
+   "Glucose contains only the nonmetals carbon, hydrogen and oxygen, which share electrons."
+  ],
+  [
+   "In an ionic bond, electrons are …",
+   "transferred from one atom to another",
+   [
+    "shared equally between two atoms",
+    "free to move through a metal",
+    "destroyed during the reaction"
+   ],
+   "Ionic bonds form when a metal gives electrons to a nonmetal, creating oppositely charged ions."
+  ],
+  [
+   "In a covalent bond, electrons are …",
+   "shared between two atoms",
+   [
+    "transferred from metal to nonmetal",
+    "removed from both atoms",
+    "turned into protons"
+   ],
+   "Covalent bonds form when nonmetal atoms share pairs of electrons."
+  ],
+  [
+   "Ionic bonds usually form between …",
+   "a metal and a nonmetal",
+   [
+    "two nonmetals",
+    "two noble gases",
+    "two identical nonmetals"
+   ],
+   "Metals lose electrons easily and nonmetals gain them, so they form ionic bonds."
+  ],
+  [
+   "Covalent bonds usually form between …",
+   "two nonmetals",
+   [
+    "a metal and a nonmetal",
+    "two alkali metals",
+    "a noble gas and a metal"
+   ],
+   "Nonmetals both tend to gain electrons, so they share them instead."
+  ],
+  [
+   "A compound has a high melting point and conducts electricity when dissolved in water. Its bonding is most likely …",
+   "ionic",
+   [
+    "covalent",
+    "metallic",
+    "nuclear"
+   ],
+   "Ionic compounds form strong lattices and release mobile ions in water, so they conduct."
+  ],
+  [
+   "A compound melts at a low temperature and does not conduct electricity in water. Its bonding is most likely …",
+   "covalent",
+   [
+    "ionic",
+    "metallic",
+    "nuclear"
+   ],
+   "Many covalent molecular compounds have weak forces between molecules and form no ions in water."
+  ],
+  [
+   "What type of bonding holds Cl₂ together?",
+   "Covalent",
+   [
+    "Ionic",
+    "Metallic",
+    "Nuclear"
+   ],
+   "Two chlorine atoms are nonmetals that share a pair of electrons."
+  ],
+  [
+   "What type of bonding holds Na₂S together?",
+   "Ionic",
+   [
+    "Covalent",
+    "Metallic",
+    "Nuclear"
+   ],
+   "Sodium (a metal) transfers electrons to sulphur (a nonmetal), forming ions."
+  ],
+  [
+   "What type of bonding holds BaO together?",
+   "Ionic",
+   [
+    "Covalent",
+    "Metallic",
+    "Nuclear"
+   ],
+   "Barium (a metal) transfers two electrons to oxygen (a nonmetal), forming Ba²⁺ and O²⁻ ions."
+  ],
+  [
+   "What type of bonding holds SiO₂ (quartz) together?",
+   "Covalent",
+   [
+    "Ionic",
+    "Metallic",
+    "Nuclear"
+   ],
+   "Silicon, a metalloid, and oxygen, a nonmetal, share electrons in a giant covalent network."
+  ],
+  [
+   "What type of bonding holds a piece of copper wire together?",
+   "Metallic",
+   [
+    "Ionic",
+    "Covalent",
+    "Nuclear"
+   ],
+   "Copper atoms share a 'sea' of free electrons, which is metallic bonding."
+  ],
+  [
+   "What type of bonding holds MgF₂ together?",
+   "Ionic",
+   [
+    "Covalent",
+    "Metallic",
+    "Nuclear"
+   ],
+   "Magnesium gives one electron to each of two fluorine atoms, forming Mg²⁺ and F⁻ ions."
+  ],
+  [
+   "What type of bonding holds PCl₃ together?",
+   "Covalent",
+   [
+    "Ionic",
+    "Metallic",
+    "Nuclear"
+   ],
+   "Phosphorus and chlorine are nonmetals, so they share electrons."
+  ],
+  [
+   "What type of bonding holds N₂O together?",
+   "Covalent",
+   [
+    "Ionic",
+    "Metallic",
+    "Nuclear"
+   ],
+   "Nitrogen and oxygen are both nonmetals, so N₂O has covalent bonds."
+  ],
+  [
+   "What particles make up an ionic compound?",
+   "Positive and negative ions",
+   [
+    "Neutral molecules only",
+    "Free neutrons",
+    "Atoms of noble gases"
+   ],
+   "Ionic compounds are lattices of oppositely charged ions held by electrostatic attraction."
+  ],
+  [
+   "What is the smallest unit of a covalent compound like water?",
+   "A molecule",
+   [
+    "An ion pair",
+    "A crystal lattice of ions",
+    "A free electron"
+   ],
+   "Covalent compounds are made of molecules, groups of atoms sharing electrons."
+  ],
+  [
+   "Why does sodium form an ionic bond with chlorine?",
+   "Sodium loses an electron that chlorine gains",
+   [
+    "Both atoms share two electrons equally",
+    "Both atoms lose electrons together",
+    "Chlorine gives an electron to sodium"
+   ],
+   "Sodium has one valence electron to lose and chlorine needs one to fill its shell, so it is transferred."
+  ],
+  [
+   "Which pair of elements would most likely form a covalent bond?",
+   "Carbon and oxygen",
+   [
+    "Sodium and fluorine",
+    "Calcium and chlorine",
+    "Potassium and iodine"
+   ],
+   "Carbon and oxygen are both nonmetals, so they share electrons; the others are metal–nonmetal pairs."
+  ]
+ ],
+ "sciXsLewis": [
+  [
+   "How many lone pairs are on each F atom in F₂?",
+   "3",
+   [
+    "1",
+    "2",
+    "0"
+   ],
+   "Each fluorine has 7 valence electrons; one is used in the bond, leaving 6 as 3 lone pairs."
+  ],
+  [
+   "How many lone pairs are on the Cl atom in HCl?",
+   "3",
+   [
+    "0",
+    "1",
+    "4"
+   ],
+   "Chlorine uses one of its 7 valence electrons to bond with H, leaving 3 lone pairs."
+  ],
+  [
+   "How many lone pairs are on the C atom in CH₄?",
+   "0",
+   [
+    "1",
+    "2",
+    "4"
+   ],
+   "Carbon uses all 4 valence electrons in bonds with hydrogen, leaving no lone pairs."
+  ],
+  [
+   "In the Lewis structure of CO₂, how is each O bonded to C?",
+   "By a double bond",
+   [
+    "By a single bond",
+    "By a triple bond",
+    "By an ionic bond"
+   ],
+   "The structure O=C=O gives carbon and both oxygens a full octet."
+  ],
+  [
+   "How many lone pairs are on each O atom in CO₂?",
+   "2",
+   [
+    "0",
+    "1",
+    "3"
+   ],
+   "Each oxygen uses 4 electrons in a double bond and keeps 4 as 2 lone pairs."
+  ],
+  [
+   "What bond joins C and N in HCN?",
+   "A triple bond",
+   [
+    "A single bond",
+    "A double bond",
+    "An ionic bond"
+   ],
+   "H–C≡N gives both carbon and nitrogen a full octet."
+  ],
+  [
+   "How many total valence electrons are in the Lewis structure of H₂O?",
+   "8",
+   [
+    "6",
+    "10",
+    "3"
+   ],
+   "Oxygen has 6 and each hydrogen has 1, giving 6 + 1 + 1 = 8."
+  ],
+  [
+   "How many total valence electrons are in the Lewis structure of CO₂?",
+   "16",
+   [
+    "12",
+    "22",
+    "8"
+   ],
+   "Carbon has 4 and each oxygen has 6, giving 4 + 6 + 6 = 16."
+  ],
+  [
+   "How many total valence electrons are in the NH₄⁺ ion?",
+   "8",
+   [
+    "9",
+    "10",
+    "7"
+   ],
+   "N has 5 and four H give 4, making 9; the + charge removes one, leaving 8."
+  ],
+  [
+   "How many total valence electrons are in the OH⁻ ion?",
+   "8",
+   [
+    "7",
+    "6",
+    "9"
+   ],
+   "O has 6 and H has 1, making 7; the − charge adds one, giving 8."
+  ],
+  [
+   "How many lone pairs are on the O atom in OH⁻?",
+   "3",
+   [
+    "1",
+    "2",
+    "4"
+   ],
+   "Oxygen has 8 electrons around it; 2 are in the O–H bond, leaving 6 as 3 lone pairs."
+  ],
+  [
+   "How many dots surround a single Cl atom in its Lewis dot diagram?",
+   "7",
+   [
+    "1",
+    "8",
+    "17"
+   ],
+   "Chlorine is in Group 17 and has 7 valence electrons."
+  ],
+  [
+   "How many dots surround a single Na atom in its Lewis dot diagram?",
+   "1",
+   [
+    "11",
+    "7",
+    "2"
+   ],
+   "Sodium is in Group 1 and has 1 valence electron."
+  ],
+  [
+   "What bond joins the two C atoms in ethene, C₂H₄?",
+   "A double bond",
+   [
+    "A single bond",
+    "A triple bond",
+    "An ionic bond"
+   ],
+   "H₂C=CH₂ needs a double bond so each carbon has an octet."
+  ],
+  [
+   "What bond joins the two C atoms in ethyne, C₂H₂?",
+   "A triple bond",
+   [
+    "A single bond",
+    "A double bond",
+    "No bond"
+   ],
+   "H–C≡C–H needs a triple bond so each carbon has an octet."
+  ],
+  [
+   "What bond joins the two C atoms in ethane, C₂H₆?",
+   "A single bond",
+   [
+    "A double bond",
+    "A triple bond",
+    "An ionic bond"
+   ],
+   "Each carbon bonds to three hydrogens and the other carbon with single bonds."
+  ],
+  [
+   "In formaldehyde (CH₂O), what bond joins C and O?",
+   "A double bond",
+   [
+    "A single bond",
+    "A triple bond",
+    "An ionic bond"
+   ],
+   "Carbon bonds to two H atoms and a double-bonded O, giving everyone a full shell."
+  ],
+  [
+   "How many electrons does a hydrogen atom have around it in a Lewis structure?",
+   "2",
+   [
+    "8",
+    "1",
+    "4"
+   ],
+   "Hydrogen is an exception to the octet rule and is stable with 2 electrons (one bond)."
+  ],
+  [
+   "How many electrons are shared in a double bond?",
+   "4",
+   [
+    "2",
+    "6",
+    "8"
+   ],
+   "A double bond is two shared pairs, or 4 electrons."
+  ],
+  [
+   "How many electrons are shared in a triple bond?",
+   "6",
+   [
+    "3",
+    "4",
+    "8"
+   ],
+   "A triple bond is three shared pairs, or 6 electrons."
+  ],
+  [
+   "How many lone pairs does each N atom have in N₂?",
+   "1",
+   [
+    "0",
+    "2",
+    "3"
+   ],
+   "Each nitrogen uses 3 electrons in the triple bond and keeps 2 as one lone pair."
+  ],
+  [
+   "Which Lewis structure shows the chloride ion correctly?",
+   "[Cl] with 8 dots and a − charge",
+   [
+    "Cl with 7 dots and no charge",
+    "[Cl] with 6 dots and a + charge",
+    "Cl with 8 dots and a + charge"
+   ],
+   "The chloride ion has gained one electron, giving 8 valence electrons and a 1− charge."
+  ]
+ ],
+ "sciXsCountMod": [
+  [
+   "A model shows 3 O₂ molecules. How many oxygen atoms are there?",
+   "6",
+   [
+    "3",
+    "5",
+    "9"
+   ],
+   "Each O₂ has 2 oxygen atoms, so 3 × 2 = 6."
+  ],
+  [
+   "A model shows 2 H₂O molecules. How many atoms are there in total?",
+   "6",
+   [
+    "4",
+    "3",
+    "8"
+   ],
+   "Each H₂O has 3 atoms, so 2 × 3 = 6."
+  ],
+  [
+   "A model shows 4 NH₃ molecules. How many hydrogen atoms are there?",
+   "12",
+   [
+    "7",
+    "4",
+    "16"
+   ],
+   "Each NH₃ has 3 hydrogen atoms, so 4 × 3 = 12."
+  ],
+  [
+   "A model shows 2 C₂H₆ molecules. How many carbon atoms are there?",
+   "4",
+   [
+    "2",
+    "6",
+    "12"
+   ],
+   "Each C₂H₆ has 2 carbon atoms, so 2 × 2 = 4."
+  ],
+  [
+   "A model shows 2 C₂H₆ molecules. How many hydrogen atoms are there?",
+   "12",
+   [
+    "6",
+    "8",
+    "14"
+   ],
+   "Each C₂H₆ has 6 hydrogen atoms, so 2 × 6 = 12."
+  ],
+  [
+   "A model shows C₃H₈ + 5 O₂. How many oxygen atoms are on the reactant side?",
+   "10",
+   [
+    "5",
+    "7",
+    "12"
+   ],
+   "5 O₂ molecules contain 5 × 2 = 10 oxygen atoms."
+  ],
+  [
+   "A product model shows 3 CO₂ + 4 H₂O. How many oxygen atoms are there?",
+   "10",
+   [
+    "7",
+    "6",
+    "14"
+   ],
+   "3 CO₂ have 6 O and 4 H₂O have 4 O, giving 10 oxygen atoms."
+  ],
+  [
+   "A product model shows 2 MgO. How many magnesium atoms are there?",
+   "2",
+   [
+    "1",
+    "4",
+    "3"
+   ],
+   "Each MgO has 1 Mg, so 2 MgO contain 2 magnesium atoms."
+  ],
+  [
+   "In a model, black balls are carbon and red balls are oxygen. One molecule has 1 black and 2 red. What is it?",
+   "CO₂",
+   [
+    "CO",
+    "C₂O",
+    "O₂"
+   ],
+   "One carbon and two oxygens make carbon dioxide, CO₂."
+  ],
+  [
+   "In a model, blue balls are nitrogen and white are hydrogen. One molecule has 1 blue and 3 white. What is it?",
+   "NH₃",
+   [
+    "N₃H",
+    "N₂H₂",
+    "NH₄"
+   ],
+   "One nitrogen and three hydrogens make ammonia, NH₃."
+  ],
+  [
+   "A model shows 2 Na + Cl₂ → 2 NaCl. How many chlorine atoms are on the product side?",
+   "2",
+   [
+    "1",
+    "4",
+    "3"
+   ],
+   "Each NaCl has 1 Cl, so 2 NaCl contain 2 chlorine atoms."
+  ],
+  [
+   "A model shows 2 NaCl. How many atoms are there in total?",
+   "4",
+   [
+    "2",
+    "3",
+    "6"
+   ],
+   "Each NaCl has 2 atoms, so 2 × 2 = 4."
+  ],
+  [
+   "A model shows 1 N₂ + 1 H₂ on the left and 2 NH₃ on the right. Is it balanced?",
+   "No, hydrogen is not balanced",
+   [
+    "Yes, every atom is balanced",
+    "No, only nitrogen is unbalanced",
+    "Yes, but only for hydrogen"
+   ],
+   "The left has 2 N and 2 H, while the right has 2 N and 6 H, so hydrogen does not match."
+  ],
+  [
+   "A model shows 2 H₂ + O₂ on the left and 2 H₂O on the right. Is it balanced?",
+   "Yes, every atom is balanced",
+   [
+    "No, hydrogen is not balanced",
+    "No, oxygen is not balanced",
+    "No, neither atom is balanced"
+   ],
+   "Both sides have 4 H atoms and 2 O atoms, so the model is balanced."
+  ],
+  [
+   "A model shows one glucose molecule, C₆H₁₂O₆. How many atoms does it have?",
+   "24",
+   [
+    "3",
+    "18",
+    "12"
+   ],
+   "6 C + 12 H + 6 O = 24 atoms."
+  ],
+  [
+   "A product model shows 6 CO₂ + 6 H₂O. How many oxygen atoms are there?",
+   "18",
+   [
+    "12",
+    "6",
+    "24"
+   ],
+   "6 CO₂ have 12 O and 6 H₂O have 6 O, giving 18 oxygen atoms."
+  ],
+  [
+   "A model shows one Ca(OH)₂ unit. How many hydrogen atoms are there?",
+   "2",
+   [
+    "1",
+    "3",
+    "4"
+   ],
+   "The subscript 2 outside the brackets doubles OH, giving 2 O and 2 H."
+  ],
+  [
+   "A reactant model contains 10 atoms in total. How many atoms must the product model contain?",
+   "10",
+   [
+    "5",
+    "20",
+    "Any number"
+   ],
+   "Atoms are conserved in a reaction, so the products have the same 10 atoms rearranged."
+  ],
+  [
+   "In a reaction model, what does the coefficient in front of a formula tell you?",
+   "How many molecules are shown",
+   [
+    "How many atoms are in one molecule",
+    "How heavy the molecule is",
+    "How fast the reaction goes"
+   ],
+   "A coefficient counts the number of molecules (or units) of that substance."
+  ],
+  [
+   "In a formula like H₂O, what does the subscript 2 tell you?",
+   "There are 2 H atoms in one molecule",
+   [
+    "There are 2 water molecules",
+    "There are 2 O atoms in one molecule",
+    "The molecule has a charge of 2"
+   ],
+   "A subscript gives the number of atoms of the element just before it in one molecule."
+  ],
+  [
+   "Which law explains why reactant and product models have the same atoms?",
+   "The law of conservation of mass",
+   [
+    "Newton's first law of motion",
+    "The law of universal gravitation",
+    "The law of reflection"
+   ],
+   "Matter is not created or destroyed in a chemical reaction, so atoms are conserved."
+  ],
+  [
+   "A model shows 2 CH₄ molecules. How many atoms are there in total?",
+   "10",
+   [
+    "5",
+    "8",
+    "6"
+   ],
+   "Each CH₄ has 5 atoms (1 C + 4 H), so 2 × 5 = 10."
+  ]
+ ]
+}

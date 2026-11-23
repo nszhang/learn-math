@@ -1,0 +1,5552 @@
+{
+ "sciXsBallStk": [
+  [
+   "A ball-and-stick model has 1 H ball + 1 Cl ball joined by sticks. Which formula does it show?",
+   "HCl",
+   [
+    "H₂Cl",
+    "HCl₂",
+    "Cl₂"
+   ],
+   "One hydrogen atom bonded to one chlorine atom is hydrogen chloride, HCl."
+  ],
+  [
+   "A ball-and-stick model has 1 C ball + 1 O ball joined by sticks. Which formula does it show?",
+   "CO",
+   [
+    "CO₂",
+    "C₂O",
+    "O₂"
+   ],
+   "One carbon atom and one oxygen atom make carbon monoxide, CO."
+  ],
+  [
+   "A ball-and-stick model has 1 N ball + 2 O balls joined by sticks. Which formula does it show?",
+   "NO₂",
+   [
+    "N₂O",
+    "NO",
+    "NO₃"
+   ],
+   "One nitrogen and two oxygen atoms give the formula NO₂."
+  ],
+  [
+   "A ball-and-stick model has 2 N balls + 1 O ball joined by sticks. Which formula does it show?",
+   "N₂O",
+   [
+    "NO₂",
+    "NO",
+    "N₂O₂"
+   ],
+   "Two nitrogen atoms and one oxygen atom give the formula N₂O."
+  ],
+  [
+   "A ball-and-stick model has 1 S ball + 2 O balls joined by sticks. Which formula does it show?",
+   "SO₂",
+   [
+    "SO₃",
+    "S₂O",
+    "SO"
+   ],
+   "One sulfur atom with two oxygen atoms is sulfur dioxide, SO₂."
+  ],
+  [
+   "A ball-and-stick model has 1 S ball + 3 O balls joined by sticks. Which formula does it show?",
+   "SO₃",
+   [
+    "SO₂",
+    "S₃O",
+    "SO₄"
+   ],
+   "One sulfur atom with three oxygen atoms is sulfur trioxide, SO₃."
+  ],
+  [
+   "A ball-and-stick model has 2 H balls + 1 S ball joined by sticks. Which formula does it show?",
+   "H₂S",
+   [
+    "HS₂",
+    "H₂SO₄",
+    "HS"
+   ],
+   "Two hydrogen atoms bonded to one sulfur atom give H₂S."
+  ],
+  [
+   "A ball-and-stick model has 2 Cl balls joined by sticks. Which formula does it show?",
+   "Cl₂",
+   [
+    "Cl",
+    "HCl",
+    "C₂"
+   ],
+   "Two chlorine atoms joined together form a chlorine molecule, Cl₂."
+  ],
+  [
+   "A ball-and-stick model has 3 O balls joined by sticks. Which formula does it show?",
+   "O₃",
+   [
+    "O₂",
+    "3O",
+    "H₂O"
+   ],
+   "Three oxygen atoms bonded in one molecule make ozone, O₃."
+  ],
+  [
+   "A ball-and-stick model has 1 C ball + 4 Cl balls joined by sticks. Which formula does it show?",
+   "CCl₄",
+   [
+    "C₄Cl",
+    "CCl₂",
+    "CH₄"
+   ],
+   "One carbon atom bonded to four chlorine atoms gives CCl₄."
+  ],
+  [
+   "A ball-and-stick model has 2 C balls + 6 H balls joined by sticks. Which formula does it show?",
+   "C₂H₆",
+   [
+    "C₆H₂",
+    "C₂H₄",
+    "CH₃"
+   ],
+   "Two carbon atoms and six hydrogen atoms make ethane, C₂H₆."
+  ],
+  [
+   "A ball-and-stick model has 3 C balls + 8 H balls joined by sticks. Which formula does it show?",
+   "C₃H₈",
+   [
+    "C₈H₃",
+    "C₃H₆",
+    "CH₄"
+   ],
+   "Three carbon atoms and eight hydrogen atoms make propane, C₃H₈."
+  ],
+  [
+   "A ball-and-stick model has 2 C balls + 4 H balls joined by sticks. Which formula does it show?",
+   "C₂H₄",
+   [
+    "C₂H₆",
+    "C₄H₂",
+    "C₂H₂"
+   ],
+   "Two carbon atoms and four hydrogen atoms give ethene, C₂H₄."
+  ],
+  [
+   "A ball-and-stick model has 1 H ball + 1 F ball joined by sticks. Which formula does it show?",
+   "HF",
+   [
+    "H₂F",
+    "HF₂",
+    "F₂"
+   ],
+   "One hydrogen atom bonded to one fluorine atom is hydrogen fluoride, HF."
+  ],
+  [
+   "A ball-and-stick model has 1 C ball + 2 S balls joined by sticks. Which formula does it show?",
+   "CS₂",
+   [
+    "C₂S",
+    "CO₂",
+    "CS"
+   ],
+   "One carbon atom with two sulfur atoms gives carbon disulfide, CS₂."
+  ],
+  [
+   "A ball-and-stick model has 1 P ball + 3 H balls joined by sticks. Which formula does it show?",
+   "PH₃",
+   [
+    "P₃H",
+    "NH₃",
+    "PH₄"
+   ],
+   "One phosphorus atom bonded to three hydrogen atoms gives PH₃."
+  ],
+  [
+   "A ball-and-stick model has 2 H balls joined by sticks. Which formula does it show?",
+   "H₂",
+   [
+    "H",
+    "H₂O",
+    "2H"
+   ],
+   "Two hydrogen atoms bonded together form one hydrogen molecule, H₂."
+  ],
+  [
+   "A ball-and-stick model has 1 C ball + 2 H balls + 1 O ball joined by sticks. Which formula does it show?",
+   "CH₂O",
+   [
+    "C₂HO",
+    "CH₂O₂",
+    "CHO₂"
+   ],
+   "One carbon, two hydrogen and one oxygen atom give the formula CH₂O."
+  ],
+  [
+   "Which ball-and-stick model matches the formula CH₄?",
+   "1 C ball joined to 4 H balls",
+   [
+    "4 C balls joined to 1 H ball",
+    "1 C ball joined to 2 H balls",
+    "2 C balls joined to 4 H balls"
+   ],
+   "The subscript 4 belongs to H, so the model needs one carbon ball and four hydrogen balls."
+  ],
+  [
+   "Which ball-and-stick model matches the formula SO₂?",
+   "1 S ball joined to 2 O balls",
+   [
+    "2 S balls joined to 1 O ball",
+    "1 S ball joined to 3 O balls",
+    "2 S balls joined to 2 O balls"
+   ],
+   "SO₂ has no subscript on S (meaning 1) and a subscript 2 on O."
+  ],
+  [
+   "Which ball-and-stick model matches the formula C₂H₆O?",
+   "2 C, 6 H and 1 O balls joined",
+   [
+    "6 C, 2 H and 1 O balls joined",
+    "2 C, 6 H and 2 O balls joined",
+    "1 C, 6 H and 2 O balls joined"
+   ],
+   "The subscripts show 2 carbon, 6 hydrogen and 1 oxygen atom."
+  ],
+  [
+   "How many balls in total are in a ball-and-stick model of CO₂?",
+   "3 balls",
+   [
+    "2 balls",
+    "4 balls",
+    "5 balls"
+   ],
+   "CO₂ has one carbon atom and two oxygen atoms, so the model has 3 balls."
+  ]
+ ],
+ "sciXsElCmpM": [
+  [
+   "What does this model show? Many separate grey balls that are all the same and not joined (helium)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Every particle is the same single kind of atom, so it is an element."
+  ],
+  [
+   "What does this model show? Many pairs of identical yellow-green balls joined (Cl₂)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Each molecule contains only chlorine atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Every molecule is one black ball joined to four white balls (CH₄)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Each molecule has two different kinds of atoms bonded, so it is a compound."
+  ],
+  [
+   "What does this model show? Pairs of red balls (O₂) mixed with separate pairs of blue balls (N₂)",
+   "A mixture of elements",
+   [
+    "An element",
+    "A compound",
+    "A mixture of compounds"
+   ],
+   "Two different elements are present but not bonded to each other, so it is a mixture of elements."
+  ],
+  [
+   "What does this model show? Water molecules (H₂O) mixed with carbon dioxide molecules (CO₂)",
+   "A mixture of compounds",
+   [
+    "An element",
+    "A compound",
+    "A mixture of elements"
+   ],
+   "Two different compounds are present together without bonding, so it is a mixture of compounds."
+  ],
+  [
+   "What does this model show? Purple and green balls alternating in a repeating grid, all bonded (NaCl)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Sodium and chlorine are chemically combined in a fixed ratio, so it is a compound."
+  ],
+  [
+   "What does this model show? Every molecule is three identical red balls joined (O₃)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Ozone contains only oxygen atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Single orange balls of one kind packed in neat rows (copper)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "All the balls are the same kind of atom, so the model shows an element."
+  ],
+  [
+   "What does this model show? Every molecule is one white ball joined to one green ball (HCl)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Hydrogen and chlorine atoms are bonded together, which makes a compound."
+  ],
+  [
+   "What does this model show? Separate grey balls (helium) mixed with separate pink balls (neon), none joined",
+   "A mixture of elements",
+   [
+    "An element",
+    "A compound",
+    "A mixture of compounds"
+   ],
+   "Two kinds of atoms are present but not bonded, so it is a mixture of elements."
+  ],
+  [
+   "What does this model show? Many pairs of identical white balls joined (H₂)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Each molecule contains only hydrogen atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Every molecule is one black ball joined to one red ball (CO)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Carbon and oxygen are bonded together, so it is a compound."
+  ],
+  [
+   "What does this model show? CH₄ molecules mixed with NH₃ molecules",
+   "A mixture of compounds",
+   [
+    "An element",
+    "A compound",
+    "A mixture of elements"
+   ],
+   "Two different compounds are mixed but not bonded to each other."
+  ],
+  [
+   "What does this model show? Every molecule is eight identical yellow balls joined in a ring (S₈)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "The ring contains only sulfur atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Every molecule is two black balls joined to six white balls (C₂H₆)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Carbon and hydrogen atoms are bonded in each molecule, so it is a compound."
+  ],
+  [
+   "What does this model show? Every molecule is one yellow ball joined to two red balls (SO₂)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Sulfur and oxygen atoms are bonded together in each identical molecule."
+  ],
+  [
+   "What does this model show? Pairs of white balls (H₂) mixed with pairs of red balls (O₂), not bonded to each other",
+   "A mixture of elements",
+   [
+    "An element",
+    "A compound",
+    "A mixture of compounds"
+   ],
+   "Hydrogen and oxygen molecules are each elements, and here they are only mixed."
+  ],
+  [
+   "What does this model show? Layers of identical black balls all joined in sheets (graphite)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Graphite contains only carbon atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Every molecule is one blue ball joined to two red balls (NO₂)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Nitrogen and oxygen atoms are bonded together, so it is a compound."
+  ],
+  [
+   "What does this model show? CO₂ molecules mixed with CO molecules",
+   "A mixture of compounds",
+   [
+    "An element",
+    "A compound",
+    "A mixture of elements"
+   ],
+   "Both kinds of molecules are compounds, and they are mixed rather than bonded."
+  ],
+  [
+   "A model of N₂ shows two balls joined by a stick. Why is it an element?",
+   "Both balls are the same kind of atom",
+   [
+    "The balls are joined by a stick",
+    "It has exactly two balls",
+    "It is a gas at room temperature"
+   ],
+   "An element contains only one kind of atom, and both balls in N₂ are nitrogen."
+  ],
+  [
+   "In a model, every molecule has two different colours of balls joined together. What must the substance be?",
+   "A compound",
+   [
+    "An element",
+    "A single atom",
+    "A mixture of elements"
+   ],
+   "Different kinds of atoms chemically joined in each molecule make a compound."
+  ]
+ ],
+ "sciXsRxEnergy": [
+  [
+   "Which describes the energy change? Natural gas burning in a furnace",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Combustion gives off heat and light to the surroundings, so it is exothermic."
+  ],
+  [
+   "Which describes the energy change? Iron slowly rusting on a bike chain",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Rusting slowly releases heat as iron combines with oxygen, so it is exothermic."
+  ],
+  [
+   "Which describes the energy change? Cells breaking down glucose in cellular respiration",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Respiration releases energy stored in glucose, so it is exothermic."
+  ],
+  [
+   "Which describes the energy change? A candle burning on a table",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Burning wax gives off heat and light, so energy is released."
+  ],
+  [
+   "Which describes the energy change? A glow stick giving off light after it is bent",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The chemicals react and release energy as light, so the reaction is exothermic."
+  ],
+  [
+   "Which describes the energy change? An acid and a base mixing and the beaker getting warm",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The beaker warms because the neutralization releases energy."
+  ],
+  [
+   "Which describes the energy change? Wet concrete warming up as it hardens",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The setting reaction in concrete releases heat, so it is exothermic."
+  ],
+  [
+   "Which describes the energy change? Electricity splitting water into hydrogen and oxygen",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Electrolysis needs a constant input of electrical energy, so it absorbs energy."
+  ],
+  [
+   "Which describes the energy change? Citric acid and baking soda in water making the cup feel cold",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The cup cools because the reaction takes in thermal energy from its surroundings."
+  ],
+  [
+   "Which describes the energy change? Limestone breaking down into lime when heated in a kiln",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The limestone only breaks down while heat is continually supplied, so it is endothermic."
+  ],
+  [
+   "Which describes the energy change? Cake batter turning into cake in a hot oven",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Baking reactions happen only while the batter takes in heat from the oven."
+  ],
+  [
+   "Which describes the energy change? An egg white turning solid as it cooks in a pan",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The egg changes only while it absorbs heat from the pan."
+  ],
+  [
+   "Which describes the energy change? Two powders mixed in a flask that freezes to a wet board underneath",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Freezing the water under the flask shows the reaction absorbed lots of thermal energy."
+  ],
+  [
+   "Which describes the energy change? A thermite reaction producing molten iron and bright sparks",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The thermite reaction gives off intense heat and light, so it is exothermic."
+  ],
+  [
+   "In an endothermic reaction, the temperature of the surroundings usually…",
+   "decreases",
+   [
+    "increases",
+    "stays the same",
+    "rises, then stays high"
+   ],
+   "Energy is taken in from the surroundings, so they become cooler."
+  ],
+  [
+   "In an exothermic reaction, energy is…",
+   "released to the surroundings",
+   [
+    "taken in from the surroundings",
+    "completely destroyed",
+    "created from nothing"
+   ],
+   "Exothermic reactions give off energy, often as heat or light."
+  ],
+  [
+   "Breaking chemical bonds…",
+   "absorbs energy",
+   [
+    "releases energy",
+    "uses no energy",
+    "creates new atoms"
+   ],
+   "Energy must be put in to pull bonded atoms apart."
+  ],
+  [
+   "Forming new chemical bonds…",
+   "releases energy",
+   [
+    "absorbs energy",
+    "uses no energy",
+    "destroys atoms"
+   ],
+   "Energy is given off when atoms join to form bonds."
+  ],
+  [
+   "A reaction is exothermic overall when…",
+   "forming bonds releases more energy than breaking bonds absorbs",
+   [
+    "breaking bonds absorbs more energy than forming bonds releases",
+    "no bonds are broken and no bonds are formed",
+    "the atoms in the reactants are destroyed"
+   ],
+   "If more energy comes out from new bonds than went into breaking old ones, the extra is released."
+  ],
+  [
+   "During a reaction, a thermometer rises from 20 °C to 35 °C. What does this show?",
+   "Exothermic, because energy is released",
+   [
+    "Endothermic, because energy is absorbed",
+    "Exothermic, because energy is absorbed",
+    "Endothermic, because energy is released"
+   ],
+   "A temperature rise means the reaction released thermal energy into the mixture."
+  ],
+  [
+   "During a reaction, a thermometer drops from 22 °C to 9 °C. What does this show?",
+   "Endothermic, because energy is absorbed",
+   [
+    "Exothermic, because energy is released",
+    "Endothermic, because energy is released",
+    "Exothermic, because energy is absorbed"
+   ],
+   "A temperature drop means the reaction took thermal energy from the mixture."
+  ],
+  [
+   "What happens to the total amount of energy during a chemical reaction?",
+   "It is conserved and only changes form",
+   [
+    "It is destroyed when bonds break",
+    "It is created when bonds form",
+    "It disappears as light forever"
+   ],
+   "Energy cannot be created or destroyed, so it is only transferred or transformed."
+  ]
+ ],
+ "sciXsSoap": [
+  [
+   "Besides soap, which product forms during saponification?",
+   "Glycerol",
+   [
+    "Ethanol",
+    "Carbon dioxide",
+    "Ammonia"
+   ],
+   "When fats react with a strong base, they form soap and glycerol."
+  ],
+  [
+   "The long tail of a soap molecule is made mostly of…",
+   "carbon and hydrogen atoms",
+   [
+    "sodium and chlorine atoms",
+    "oxygen atoms only",
+    "iron and copper atoms"
+   ],
+   "The tail is a hydrocarbon chain, a long chain of carbon and hydrogen atoms."
+  ],
+  [
+   "How is the tail of a soap molecule described?",
+   "Hydrophobic",
+   [
+    "Hydrophilic",
+    "Radioactive",
+    "Metallic"
+   ],
+   "The hydrocarbon tail is water-fearing (hydrophobic) and mixes with oils instead."
+  ],
+  [
+   "In a micelle, which way do the soap molecules' tails point?",
+   "Inward, toward the trapped oil",
+   [
+    "Outward, toward the water",
+    "Upward, toward the air only",
+    "In completely random directions"
+   ],
+   "The oil-loving tails gather around the oil in the centre while the heads face the water."
+  ],
+  [
+   "Why is soap called a surfactant?",
+   "It lowers the surface tension of water",
+   [
+    "It raises the surface tension of water",
+    "It floats only on the surface",
+    "It hardens any surface it touches"
+   ],
+   "Surfactants lower surface tension, helping water spread and soak into dirt."
+  ],
+  [
+   "What type of substance is lye (sodium hydroxide)?",
+   "A strong base",
+   [
+    "A strong acid",
+    "A neutral salt",
+    "A pure element"
+   ],
+   "Sodium hydroxide is a strong base, which is why it can react with fats to make soap."
+  ],
+  [
+   "Soap made with potassium hydroxide instead of sodium hydroxide tends to be…",
+   "softer, often a liquid soap",
+   [
+    "harder than sodium soap",
+    "a gas at room temperature",
+    "unable to clean at all"
+   ],
+   "Potassium soaps are softer and are used for many liquid soaps."
+  ],
+  [
+   "Why is homemade cold-process soap left to cure for several weeks?",
+   "To let saponification finish and water evaporate",
+   [
+    "To let the bar grow larger over time",
+    "To change the soap into an acid",
+    "To let bacteria grow and clean it"
+   ],
+   "Curing gives the reaction time to use up the lye and lets extra water leave, making a milder, harder bar."
+  ],
+  [
+   "Why is the pH of most bar soap above 7?",
+   "It is made using a base",
+   [
+    "It is made using an acid",
+    "It contains only pure water",
+    "It contains lots of vinegar"
+   ],
+   "Soap is made from a strong base, so it is slightly basic."
+  ],
+  [
+   "Which of these can be used to make soap?",
+   "Olive oil, coconut oil or animal fat",
+   [
+    "Motor oil, gasoline or kerosene",
+    "Sugar, salt or baking soda",
+    "Sand, clay or chalk"
+   ],
+   "Saponification needs fats or oils from plants or animals, which react with a strong base."
+  ],
+  [
+   "Fats and oils used in soapmaking are mostly molecules called…",
+   "triglycerides",
+   [
+    "proteins",
+    "nucleic acids",
+    "starches"
+   ],
+   "Fats and oils are triglycerides, which the base splits into soap and glycerol."
+  ],
+  [
+   "How do synthetic detergents behave differently from soap in hard water?",
+   "They do not form scum with the minerals",
+   [
+    "They form more scum than soap does",
+    "They turn the hard water into ice",
+    "They only work in very salty water"
+   ],
+   "Detergents are designed so hard-water minerals do not make them form scum."
+  ],
+  [
+   "Which dissolved minerals make water \"hard\"?",
+   "Calcium and magnesium",
+   [
+    "Sodium and potassium",
+    "Gold and silver",
+    "Helium and neon"
+   ],
+   "Calcium and magnesium ions cause water hardness and react with soap to make scum."
+  ],
+  [
+   "Why does scrubbing your hands help soap work?",
+   "It helps soap surround and lift off oily dirt",
+   [
+    "It makes the soap molecules magnetic",
+    "It heats the water up to boiling",
+    "It changes the soap into an acid"
+   ],
+   "Rubbing mixes soap with the oil so micelles can form and carry dirt away."
+  ],
+  [
+   "Why can water easily rinse away a micelle full of oil?",
+   "The heads on its outside attract water",
+   [
+    "The tails on its outside attract water",
+    "The trapped oil turns into water",
+    "Micelles are heavier than water"
+   ],
+   "The water-loving heads face outward, so the whole micelle is carried by the water."
+  ],
+  [
+   "How can soap destroy some viruses, such as flu viruses?",
+   "It breaks apart their fatty outer layer",
+   [
+    "It freezes them solid",
+    "It turns them into bacteria",
+    "It gives them extra nutrients"
+   ],
+   "Soap tails attach to the fatty envelope of these viruses and pull it apart."
+  ],
+  [
+   "Oil and water do not mix on their own. What does soap act as when it lets them mix?",
+   "An emulsifier",
+   [
+    "A catalyst",
+    "A fuel",
+    "A magnet"
+   ],
+   "An emulsifier lets oil spread through water as tiny droplets."
+  ],
+  [
+   "What forms when tallow (beef fat) reacts with lye?",
+   "Soap and glycerol",
+   [
+    "Sugar and water",
+    "Salt and carbon dioxide",
+    "Oil and vinegar"
+   ],
+   "Saponification of any fat with lye gives soap and glycerol."
+  ],
+  [
+   "Which observation shows that saponification has happened?",
+   "Oil and lye become a new solid substance",
+   [
+    "The oil simply floats on top",
+    "The lye completely evaporates",
+    "The mixture turns into pure water"
+   ],
+   "A new substance with new properties forms, which shows a chemical reaction."
+  ],
+  [
+   "Which part of a soap molecule dissolves in grease?",
+   "The hydrocarbon tail",
+   [
+    "The charged head",
+    "The sodium ion",
+    "The water molecule"
+   ],
+   "Like dissolves like, so the non-polar hydrocarbon tail mixes into non-polar grease."
+  ],
+  [
+   "When mixing a lye solution, why is lye added to water and not water to lye?",
+   "Water added to lye can boil and splash",
+   [
+    "Lye floats and will not mix otherwise",
+    "Water turns into lye if added second",
+    "Lye freezes if water is added to it"
+   ],
+   "Adding water onto lye releases heat in a small spot, which can make the caustic mixture boil and spatter."
+  ],
+  [
+   "In bar soap, which ion is usually paired with the negatively charged head of each soap molecule?",
+   "Sodium ion, Na⁺",
+   [
+    "Chloride ion, Cl⁻",
+    "Oxide ion, O²⁻",
+    "Fluoride ion, F⁻"
+   ],
+   "A negative head is attracted to a positive ion, and soap made with sodium hydroxide contains Na⁺."
+  ]
+ ],
+ "sciXsFlavour": [
+  [
+   "What is the Maillard reaction?",
+   "A reaction of sugars and amino acids that browns food",
+   [
+    "A reaction that makes food freeze faster",
+    "A reaction that removes all salt from food",
+    "A reaction between water and metals"
+   ],
+   "When sugars and amino acids are heated together they form brown colours and new flavour compounds."
+  ],
+  [
+   "Caramelization happens when…",
+   "sugar is heated and breaks into new compounds",
+   [
+    "sugar is frozen into large crystals",
+    "salt dissolves in cold water",
+    "fat is mixed with vinegar"
+   ],
+   "Heating sugar breaks it down into new molecules with caramel colour and flavour."
+  ],
+  [
+   "Esters, which give many fruits their smell, form when…",
+   "an acid reacts with an alcohol",
+   [
+    "a metal reacts with water",
+    "salt is mixed with sugar",
+    "two noble gases combine"
+   ],
+   "An ester forms from the reaction of a carboxylic acid with an alcohol."
+  ],
+  [
+   "Which compound gives cinnamon its flavour?",
+   "Cinnamaldehyde",
+   [
+    "Capsaicin",
+    "Caffeine",
+    "Citric acid"
+   ],
+   "Cinnamaldehyde is the main flavour molecule in cinnamon bark."
+  ],
+  [
+   "Which compound gives orange and lemon peels their scent?",
+   "Limonene",
+   [
+    "Vanillin",
+    "Menthol",
+    "Capsaicin"
+   ],
+   "Limonene is the main aroma molecule in citrus peel oil."
+  ],
+  [
+   "Why does mint feel cool in your mouth?",
+   "Menthol activates cold-sensing receptors",
+   [
+    "Menthol lowers your mouth to 0 °C",
+    "Mint leaves contain tiny ice crystals",
+    "Menthol blocks all of your taste buds"
+   ],
+   "Menthol triggers the same nerve receptors that sense cold, even though nothing gets colder."
+  ],
+  [
+   "Which basic taste is triggered by glutamate, found in tomatoes and parmesan?",
+   "Umami",
+   [
+    "Sour",
+    "Bitter",
+    "Salty"
+   ],
+   "Glutamate fits umami receptors and gives a savoury taste."
+  ],
+  [
+   "Why does food taste bland when you have a stuffy nose?",
+   "Aroma molecules can't reach smell receptors",
+   [
+    "Your tongue stops making any saliva",
+    "Food molecules become much heavier",
+    "Your taste buds fall off your tongue"
+   ],
+   "Much of flavour is smell, and a blocked nose stops aroma molecules reaching the receptors."
+  ],
+  [
+   "Two forms of carvone have the same atoms but are mirror images. Why does one smell like spearmint and the other like caraway?",
+   "Their shapes fit smell receptors differently",
+   [
+    "They have different numbers of atoms",
+    "One of them contains no carbon",
+    "One is a metal and one is a gas"
+   ],
+   "Smell receptors respond to molecular shape, so mirror-image molecules can smell different."
+  ],
+  [
+   "Which ions give salty foods their salty taste?",
+   "Sodium ions",
+   [
+    "Iron ions",
+    "Hydrogen ions",
+    "Hydroxide ions"
+   ],
+   "Salty taste mainly comes from sodium ions, such as those in table salt."
+  ],
+  [
+   "Sour taste is mostly caused by…",
+   "hydrogen ions from acids",
+   [
+    "sodium ions from salts",
+    "sugars from ripe fruit",
+    "fats from cooking oils"
+   ],
+   "Acids release hydrogen ions, which sour taste receptors detect."
+  ],
+  [
+   "Coffee tastes bitter partly because it contains…",
+   "caffeine",
+   [
+    "sucrose",
+    "sodium chloride",
+    "vanillin"
+   ],
+   "Caffeine is a bitter-tasting compound found in coffee and tea."
+  ],
+  [
+   "Why can a tiny amount of aspartame replace much more sugar?",
+   "It activates sweet receptors far more strongly",
+   [
+    "It is far heavier than table sugar",
+    "It is made of pure table salt",
+    "It blocks all of the other tastes"
+   ],
+   "Aspartame's structure triggers sweet receptors about 200 times more strongly than sugar."
+  ],
+  [
+   "Why does crushing garlic make its smell much stronger?",
+   "Crushing starts a reaction that makes allicin",
+   [
+    "Crushing turns the garlic into salt",
+    "Crushing makes the garlic much colder",
+    "Crushing removes only the garlic's water"
+   ],
+   "Breaking garlic cells lets an enzyme react with a compound to form strong-smelling allicin."
+  ],
+  [
+   "Why do ripe bananas taste sweeter than green bananas?",
+   "Starch breaks down into sugars as they ripen",
+   [
+    "Sugars turn into starch as they ripen",
+    "Ripe bananas absorb sugar from the air",
+    "The peel pumps salt into the fruit"
+   ],
+   "Enzymes in ripening fruit break starch into sweet-tasting sugars."
+  ],
+  [
+   "Why does a cut apple turn brown and change flavour?",
+   "Enzymes help apple compounds react with oxygen",
+   [
+    "The apple soaks up brown light",
+    "The sugar in the apple melts",
+    "The apple's water turns into salt"
+   ],
+   "Exposed apple compounds react with oxygen, helped by enzymes, forming brown products."
+  ],
+  [
+   "Why does drinking milk help after eating hot peppers?",
+   "Capsaicin dissolves in fat rather than water",
+   [
+    "Milk is colder than ice cubes",
+    "Milk is a strong acid that burns it off",
+    "Milk contains extra capsaicin"
+   ],
+   "Capsaicin is fat-soluble, so the fat in milk helps wash it away from receptors."
+  ],
+  [
+   "Wintergreen flavour comes from methyl salicylate. Which group of compounds is it in?",
+   "Esters",
+   [
+    "Metals",
+    "Noble gases",
+    "Minerals"
+   ],
+   "Methyl salicylate is an ester, like many other fruity and minty flavour molecules."
+  ],
+  [
+   "Why does warm food usually smell stronger than cold food?",
+   "More aroma molecules evaporate when it is warm",
+   [
+    "Warm food contains many more atoms",
+    "Cold food has no molecules at all",
+    "Cold food blocks your smell receptors"
+   ],
+   "Heat gives molecules more energy, so more of them escape into the air and reach your nose."
+  ],
+  [
+   "How can chemists make an artificial pineapple flavour?",
+   "By making the same flavour molecule found in pineapple",
+   [
+    "By growing whole pineapples in test tubes",
+    "By adding yellow colouring to the food",
+    "By removing every molecule from the food"
+   ],
+   "Flavour depends on the molecule, so making the same molecule (an ester) gives the same flavour."
+  ],
+  [
+   "How many basic tastes do human taste receptors detect?",
+   "Five",
+   [
+    "Two",
+    "Ten",
+    "Twenty"
+   ],
+   "The five basic tastes are sweet, sour, salty, bitter and umami."
+  ],
+  [
+   "Why can a bitter taste act as a warning?",
+   "Many poisonous compounds taste bitter",
+   [
+    "Bitter foods are always too hot",
+    "All bitter foods contain salt",
+    "Bitter foods have no flavour molecules"
+   ],
+   "Many harmful plant compounds are bitter, so disliking bitterness helps protect us."
+  ]
+ ],
+ "sciXsSynth": [
+  [
+   "Which material is synthetic?",
+   "Acrylic",
+   [
+    "Silk",
+    "Linen",
+    "Leather"
+   ],
+   "Acrylic fibre is made by people from chemicals, while the others come from plants or animals."
+  ],
+  [
+   "Which of these materials is NOT synthetic?",
+   "Silk",
+   [
+    "Nylon",
+    "Polyester",
+    "Spandex"
+   ],
+   "Silk is a natural fibre spun by silkworms; the others are made in factories by chemical reactions."
+  ],
+  [
+   "What are polymers, such as plastics?",
+   "Long chains of repeating small molecules",
+   [
+    "Single atoms of one metal",
+    "Mixtures of salt and sand",
+    "Gases trapped inside rocks"
+   ],
+   "Polymers are huge molecules made of many small units linked in long chains."
+  ],
+  [
+   "The small molecules that join together to make a polymer are called…",
+   "monomers",
+   [
+    "isotopes",
+    "minerals",
+    "crystals"
+   ],
+   "Monomers are the repeating building blocks that link up to form a polymer."
+  ],
+  [
+   "Which synthetic material coats many non-stick frying pans?",
+   "Teflon",
+   [
+    "Kevlar",
+    "Nylon",
+    "Spandex"
+   ],
+   "Teflon is a slippery synthetic polymer that food does not stick to."
+  ],
+  [
+   "Which synthetic fibre is very stretchy and used in sports clothing?",
+   "Spandex",
+   [
+    "Kevlar",
+    "Teflon",
+    "Styrofoam"
+   ],
+   "Spandex can stretch to several times its length and spring back."
+  ],
+  [
+   "Why is polyester often used in rain jackets?",
+   "It resists water and dries quickly",
+   [
+    "It soaks up water like a sponge",
+    "It dissolves slowly in the rain",
+    "It is made from sheep's wool"
+   ],
+   "Polyester absorbs very little water, so it sheds rain and dries fast."
+  ],
+  [
+   "What does \"biodegradable\" mean?",
+   "Can be broken down by living things",
+   [
+    "Can never be broken down at all",
+    "Is made only from metal",
+    "Melts instantly in sunlight"
+   ],
+   "Biodegradable materials are broken down by organisms such as bacteria and fungi."
+  ],
+  [
+   "Why are microplastics a concern?",
+   "Tiny plastic bits build up in water and animals",
+   [
+    "They help fish grow faster and larger",
+    "They break down into clean sand quickly",
+    "They make lake water much warmer"
+   ],
+   "Small plastic pieces last a long time and are swallowed by animals, harming food chains."
+  ],
+  [
+   "What are bioplastics such as PLA made from?",
+   "Plant materials such as corn starch",
+   [
+    "Melted rocks and beach sand",
+    "Salt water from the ocean",
+    "Crushed animal bones"
+   ],
+   "PLA is made from sugars or starch taken from plants like corn."
+  ],
+  [
+   "Which property makes Kevlar useful in firefighters' gear?",
+   "It is very strong and heat-resistant",
+   [
+    "It is soft and dissolves in water",
+    "It conducts electricity very well",
+    "It is very heavy and brittle"
+   ],
+   "Kevlar fibres are extremely strong and do not melt easily, protecting the wearer."
+  ],
+  [
+   "Recycling code 1 (PET plastic) is most often found on…",
+   "water and pop bottles",
+   [
+    "car and bike tires",
+    "glass pickle jars",
+    "aluminum soup cans"
+   ],
+   "PET is the clear, light plastic used for most drink bottles."
+  ],
+  [
+   "Why do scientists develop new synthetic materials?",
+   "To meet needs natural materials can't meet as well",
+   [
+    "To make products break more easily",
+    "To use up all of Earth's fresh water",
+    "To make clothing much heavier"
+   ],
+   "Synthetics can be designed to be stronger, lighter, waterproof or cheaper than natural materials."
+  ],
+  [
+   "Polystyrene foam is useful for take-out coffee cups because it…",
+   "is a good thermal insulator",
+   [
+    "conducts heat very well",
+    "is strongly magnetic",
+    "is safe to eat"
+   ],
+   "Foam traps air, which slows the flow of heat so drinks stay hot and hands stay cool."
+  ],
+  [
+   "Which synthetic material is used for many water pipes and window frames?",
+   "PVC",
+   [
+    "Oak",
+    "Granite",
+    "Cotton"
+   ],
+   "PVC (polyvinyl chloride) is a tough, waterproof plastic made by chemical reactions."
+  ],
+  [
+   "Nylon stockings were first made to replace which natural fibre?",
+   "Silk",
+   [
+    "Wool",
+    "Cotton",
+    "Hemp"
+   ],
+   "Nylon was developed in the 1930s as a cheaper substitute for silk."
+  ],
+  [
+   "What is one problem with making plastics from petroleum?",
+   "Petroleum is non-renewable",
+   [
+    "Petroleum grows back each year",
+    "Petroleum is free and endless",
+    "Petroleum is made of pure water"
+   ],
+   "Petroleum took millions of years to form, so once it is used up it cannot be replaced."
+  ],
+  [
+   "Which item is made mainly of a synthetic material?",
+   "A polyester fleece jacket",
+   [
+    "A wool mitten",
+    "A cotton T-shirt",
+    "A leather belt"
+   ],
+   "Fleece is usually made of polyester, a synthetic fibre; the others are natural."
+  ],
+  [
+   "Plastic shopping bags are usually made of which synthetic polymer?",
+   "Polyethylene",
+   [
+    "Cellulose",
+    "Silk protein",
+    "Granite"
+   ],
+   "Polyethylene is a common synthetic plastic made from petroleum products."
+  ],
+  [
+   "Why are plastics sorted by type before recycling?",
+   "Different plastics melt and recycle differently",
+   [
+    "All plastics are exactly the same",
+    "Sorting makes plastics biodegradable",
+    "Only one type of plastic can melt"
+   ],
+   "Each plastic has its own melting point and properties, so mixing types weakens recycled products."
+  ],
+  [
+   "Why is synthetic rubber used in many car tires?",
+   "It can be made to resist wear and last longer",
+   [
+    "It is grown on trees in rainforests",
+    "It dissolves when the road gets wet",
+    "It makes tires softer than paper"
+   ],
+   "Chemists can adjust synthetic rubber so it grips the road and wears down slowly."
+  ],
+  [
+   "Which statement about synthetic materials is true?",
+   "Their properties can be planned by chemists",
+   [
+    "They are always found in nature unchanged",
+    "They can never be recycled at all",
+    "They are all made from metal ores"
+   ],
+   "Chemists choose the starting chemicals and reactions to give a synthetic material useful properties."
+  ]
+ ],
+ "sciXsThermT": [
+  [
+   "The burner is under a pot of water, but the water at the top gets hot too. Why?",
+   "Convection currents carry warm water upward",
+   [
+    "Radiation from the ceiling heats the top",
+    "Cold water rises and pushes heat up",
+    "The air above conducts heat downward"
+   ],
+   "Heated water at the bottom becomes less dense and rises, while cooler water sinks."
+  ],
+  [
+   "Why does a breeze often blow from the lake toward land on a sunny afternoon?",
+   "Land warms faster, so warm air rises and cool lake air moves in",
+   [
+    "Water warms faster, so warm lake air flows onto land",
+    "Land cools faster, so cold air sinks over the lake",
+    "Sunlight pushes the air off the lake onto land"
+   ],
+   "Air over hot land rises, and cooler, denser air from over the water flows in to replace it."
+  ],
+  [
+   "Why do you feel warm in front of a campfire even when the wind blows the smoke away?",
+   "Infrared radiation travels to your skin",
+   [
+    "Hot smoke conducts heat to you",
+    "Cold air sinks down onto you",
+    "Sound waves carry heat from the fire"
+   ],
+   "Radiation travels in straight lines from the fire and does not need moving air."
+  ],
+  [
+   "Which kind of thermal energy transfer requires direct contact between objects?",
+   "Conduction",
+   [
+    "Radiation",
+    "Reflection",
+    "Evaporation"
+   ],
+   "Conduction passes energy from particle to particle where objects touch."
+  ],
+  [
+   "Why are winter jackets filled with down or fluffy fibres?",
+   "Trapped air is a poor conductor of heat",
+   [
+    "Feathers make their own heat",
+    "Fibres soak up cold from the air",
+    "Down reflects all sound waves"
+   ],
+   "Still, trapped air slows conduction and convection, keeping body heat in."
+  ],
+  [
+   "Why are most cooking pots made of metal?",
+   "Metals conduct heat well to the food",
+   [
+    "Metals keep heat away from food",
+    "Metals give off cold to the food",
+    "Metals stop all radiation"
+   ],
+   "Metal is a good conductor, so energy moves quickly from the burner into the food."
+  ],
+  [
+   "Why do emergency blankets have a shiny silver surface?",
+   "It reflects radiated heat back to the body",
+   [
+    "It conducts body heat away quickly",
+    "It creates convection currents",
+    "It absorbs cold from the air"
+   ],
+   "A shiny surface reflects infrared radiation, so less body heat escapes."
+  ],
+  [
+   "Why is the air near the ceiling of a room usually warmer than near the floor?",
+   "Warm air is less dense and rises",
+   [
+    "Warm air is denser and rises",
+    "Cold air conducts heat upward",
+    "Radiation pushes air upward"
+   ],
+   "Warmer air expands, becomes less dense and floats above cooler air."
+  ],
+  [
+   "Why are double-pane windows good at keeping heat in?",
+   "The gas layer between panes slows conduction",
+   [
+    "The two panes reflect all sunlight",
+    "The glass produces its own heat",
+    "The gap speeds up heat flow outside"
+   ],
+   "Gas between the panes is a poor conductor, so less heat travels through the window."
+  ],
+  [
+   "Thermal energy always flows naturally from…",
+   "a warmer object to a cooler one",
+   [
+    "a cooler object to a warmer one",
+    "a larger object to a smaller one",
+    "a heavier object to a lighter one"
+   ],
+   "Heat moves from higher to lower temperature until both are the same."
+  ],
+  [
+   "Which surface absorbs the most radiant energy from the Sun?",
+   "A dull black surface",
+   [
+    "A shiny silver surface",
+    "A glossy white surface",
+    "A smooth mirror surface"
+   ],
+   "Dark, dull surfaces absorb most radiation instead of reflecting it."
+  ],
+  [
+   "Why do vacuum flasks have shiny inner walls?",
+   "The shiny walls reflect radiant heat",
+   [
+    "The shiny walls conduct heat faster",
+    "The shiny walls add extra heat",
+    "The shiny walls cause convection"
+   ],
+   "A shiny surface reflects infrared radiation, reducing heat transfer by radiation."
+  ],
+  [
+   "Ice cubes melt faster on a metal tray than on a plastic tray at room temperature. Why?",
+   "Metal conducts heat to the ice faster",
+   [
+    "Plastic conducts heat to the ice faster",
+    "Metal is colder than the room air",
+    "Plastic reflects heat onto the ice"
+   ],
+   "Metal is a better conductor, so it moves thermal energy from the room into the ice more quickly."
+  ],
+  [
+   "How does the Sun's energy reach Earth?",
+   "By radiation through space",
+   [
+    "By conduction through space",
+    "By convection through space",
+    "By streams of hot air"
+   ],
+   "Space is nearly empty, so energy can only travel across it as radiation."
+  ],
+  [
+   "What causes the slow movement of hot rock in Earth's mantle?",
+   "Convection currents",
+   [
+    "Reflection",
+    "Solar radiation",
+    "Wind"
+   ],
+   "Hotter mantle rock rises and cooler rock sinks, forming slow convection currents."
+  ],
+  [
+   "Which material would make the best handle for a hot frying pan?",
+   "Wood",
+   [
+    "Copper",
+    "Aluminum",
+    "Iron"
+   ],
+   "Wood is a poor conductor, so it keeps heat from reaching your hand."
+  ],
+  [
+   "Why does a fan oven cook food more evenly than an oven without a fan?",
+   "A fan circulates hot air around the food",
+   [
+    "It heats food only by radiation",
+    "It heats food only by touching it",
+    "It cools the outside of the food"
+   ],
+   "Moving hot air spreads heat evenly by forced convection."
+  ],
+  [
+   "You touch a hot pan and burn your finger. Which transfer caused the burn?",
+   "Conduction",
+   [
+    "Radiation",
+    "Convection",
+    "Insulation"
+   ],
+   "Thermal energy passed directly from the pan to your skin through contact."
+  ],
+  [
+   "Why do birds fluff up their feathers on cold days?",
+   "To trap more air, which insulates them",
+   [
+    "To catch more sunlight with each feather",
+    "To conduct body heat away faster",
+    "To start convection currents in their skin"
+   ],
+   "Fluffed feathers hold a thicker layer of still air, which slows heat loss."
+  ],
+  [
+   "During conduction along a metal rod, how is energy passed from one end to the other?",
+   "Vibrating particles bump into neighbours",
+   [
+    "Particles flow from one end to the other",
+    "Light shines through the inside of the rod",
+    "The rod melts and its atoms move along"
+   ],
+   "Particles at the hot end vibrate faster and pass energy to nearby particles."
+  ],
+  [
+   "Why do many people wear light-coloured clothes on hot, sunny days?",
+   "Light colours reflect more radiant energy",
+   [
+    "Light colours absorb more radiant energy",
+    "Light colours conduct heat into the body",
+    "Light colours trap a layer of warm air"
+   ],
+   "Reflecting more sunlight means less energy is absorbed by the clothing."
+  ],
+  [
+   "Why are baseboard heaters placed near the floor?",
+   "Warm air rises and spreads through the room",
+   [
+    "Cold air rises up from the floor",
+    "Heat can only travel downward",
+    "Radiation must touch the floor"
+   ],
+   "Air warmed at floor level rises, setting up a convection current that heats the whole room."
+  ]
+ ],
+ "sciXsMemb": [
+  [
+   "Why does a carrot left in very salty water become soft and bendy?",
+   "Water moves out of its cells by osmosis",
+   [
+    "Salt moves into its cells and swells them",
+    "The salt freezes the carrot's cells",
+    "The carrot grows new soft cells"
+   ],
+   "Water moves from the carrot cells toward the saltier water outside, so the cells lose pressure."
+  ],
+  [
+   "A drop of food colouring spreads through still water without stirring. What is this?",
+   "Diffusion",
+   [
+    "Osmosis",
+    "Condensation",
+    "Filtration"
+   ],
+   "Dye particles move randomly from where they are concentrated to where they are not."
+  ],
+  [
+   "Why can you smell perfume across a room soon after it is sprayed?",
+   "Perfume particles diffuse from high to low concentration",
+   [
+    "Perfume particles are pulled by gravity",
+    "Air particles stay still and carry nothing",
+    "Perfume particles move only toward people"
+   ],
+   "Perfume molecules spread out from the spray, where they are concentrated, to the rest of the room."
+  ],
+  [
+   "Diffusion happens faster in…",
+   "warm water than in cold water",
+   [
+    "cold water than in warm water",
+    "ice than in liquid water",
+    "solids than in gases"
+   ],
+   "Particles move faster at higher temperatures, so they spread out more quickly."
+  ],
+  [
+   "Why does oxygen move from the lungs' air sacs into the blood?",
+   "Oxygen is more concentrated in the air sacs",
+   [
+    "Oxygen is more concentrated in the blood",
+    "Blood pulls oxygen like a magnet",
+    "Gravity drags oxygen downward"
+   ],
+   "Oxygen diffuses from the high concentration in the air sacs to the lower concentration in the blood."
+  ],
+  [
+   "In body tissues, which way does carbon dioxide usually diffuse?",
+   "Out of the cells and into the blood",
+   [
+    "Out of the blood and into the cells",
+    "It does not move at all",
+    "Into the nucleus of each cell"
+   ],
+   "Cells make carbon dioxide, so it is more concentrated inside them and diffuses into the blood."
+  ],
+  [
+   "A red blood cell is placed in pure water. What happens?",
+   "It swells and may burst",
+   [
+    "It shrinks and shrivels",
+    "It stays exactly the same",
+    "It grows a cell wall"
+   ],
+   "There is more water outside than inside, so water enters by osmosis."
+  ],
+  [
+   "An animal cell is placed in very salty water. What happens?",
+   "It shrinks as water leaves",
+   [
+    "It swells as water enters",
+    "It bursts as salt enters",
+    "It stays exactly the same"
+   ],
+   "Water moves out toward the saltier solution by osmosis, so the cell shrinks."
+  ],
+  [
+   "Why don't plant cells burst when placed in fresh water?",
+   "The cell wall resists the pressure",
+   [
+    "Plant cells have no cell membrane",
+    "Water cannot enter plant cells",
+    "Chloroplasts soak up the water"
+   ],
+   "The strong cell wall pushes back as the cell fills, so the cell becomes firm instead of bursting."
+  ],
+  [
+   "Which substance is too large to diffuse through a cell membrane on its own?",
+   "Starch",
+   [
+    "Oxygen",
+    "Carbon dioxide",
+    "Water"
+   ],
+   "Starch molecules are very large, while small molecules like oxygen pass through easily."
+  ],
+  [
+   "Bag-like tubing holds starch solution and sits in iodine solution. The liquid inside turns blue-black. What does this show?",
+   "Iodine crossed the membrane, but starch did not",
+   [
+    "Starch crossed the membrane, but iodine did not",
+    "Neither substance crossed the membrane",
+    "Both substances left the tubing entirely"
+   ],
+   "Iodine turns starch blue-black, so iodine must have moved in while the large starch stayed inside."
+  ],
+  [
+   "An egg with its shell dissolved away is placed in corn syrup. What happens?",
+   "It shrinks as water leaves it",
+   [
+    "It swells as syrup enters it",
+    "It swells as water enters it",
+    "It stays exactly the same size"
+   ],
+   "Corn syrup has much less water than the egg, so water moves out by osmosis."
+  ],
+  [
+   "An egg with its shell dissolved away is placed in distilled water. What happens?",
+   "It swells as water enters it",
+   [
+    "It shrinks as water leaves it",
+    "It shrinks as salt enters it",
+    "It stays exactly the same size"
+   ],
+   "There is more water outside the egg's membrane, so water moves in by osmosis."
+  ],
+  [
+   "In diffusion, what is equilibrium?",
+   "When the concentration is the same everywhere",
+   [
+    "When all the particles stop moving",
+    "When all the particles are on one side",
+    "When the membrane breaks open"
+   ],
+   "At equilibrium there is no longer a concentration difference to cause net movement."
+  ],
+  [
+   "At equilibrium, the particles…",
+   "keep moving, but with no net change",
+   [
+    "stop moving completely",
+    "all move to one side",
+    "turn into water molecules"
+   ],
+   "Particles keep moving randomly, but equal numbers move each way."
+  ],
+  [
+   "Why does watering a plant with salty water make it wilt?",
+   "Water moves out of root cells by osmosis",
+   [
+    "Salt makes the roots grow too fast",
+    "Salt blocks sunlight from the leaves",
+    "The plant drinks too much water"
+   ],
+   "Salty soil water pulls water out of the root cells, so the plant loses water."
+  ],
+  [
+   "Which type of transport does NOT require the cell to use energy?",
+   "Diffusion",
+   [
+    "Active transport",
+    "Pumping ions uphill",
+    "Engulfing food particles"
+   ],
+   "Diffusion is passive; particles move on their own from high to low concentration."
+  ],
+  [
+   "Why does a larger surface area speed up diffusion into a cell?",
+   "More membrane is available for particles to cross",
+   [
+    "Particles move more slowly into big cells",
+    "Large cells have no membrane at all",
+    "Surface area stops osmosis from happening"
+   ],
+   "More membrane area means more places where particles can pass through at once."
+  ],
+  [
+   "Why does a high-sugar jam resist spoiling by bacteria?",
+   "Water leaves bacteria by osmosis",
+   [
+    "Sugar freezes the bacteria",
+    "Sugar makes bacteria magnetic",
+    "Sugar gives bacteria too much light"
+   ],
+   "The very concentrated sugar draws water out of bacterial cells, so they cannot grow."
+  ],
+  [
+   "In osmosis, water moves toward the side with…",
+   "more dissolved solute",
+   [
+    "less dissolved solute",
+    "more water molecules",
+    "the warmer membrane"
+   ],
+   "Water moves to where its own concentration is lower, which is the side with more solute."
+  ],
+  [
+   "Which is an example of osmosis?",
+   "Plant roots taking in water from soil",
+   [
+    "Perfume spreading through a room",
+    "Sugar dissolving when it is stirred",
+    "Sweat evaporating from your skin"
+   ],
+   "Osmosis is water moving across a membrane, like water entering root cells."
+  ],
+  [
+   "There is more glucose in the blood than inside a body cell. How does glucose get into the cell?",
+   "It diffuses into the cell",
+   [
+    "It diffuses out of the cell",
+    "Gravity pushes it inward",
+    "It cannot enter the cell"
+   ],
+   "Glucose moves from the higher concentration in the blood to the lower concentration inside the cell."
+  ]
+ ],
+ "sciATO": [
+  [
+   "What is the nucleus of an atom made of?",
+   "Protons and neutrons",
+   [
+    "Protons and electrons",
+    "Electrons only",
+    "Neutrons and electrons"
+   ],
+   "The nucleus contains protons and neutrons, while electrons are outside it."
+  ],
+  [
+   "What is the overall charge of an atom's nucleus?",
+   "Positive",
+   [
+    "Negative",
+    "No charge",
+    "It keeps switching"
+   ],
+   "The nucleus contains positive protons and neutral neutrons, so it is positive overall."
+  ],
+  [
+   "Which particle did J. J. Thomson discover in 1897?",
+   "Electron",
+   [
+    "Proton",
+    "Neutron",
+    "Photon"
+   ],
+   "Thomson discovered the electron, the first known particle smaller than an atom."
+  ],
+  [
+   "A neutral atom has 6 protons. How many electrons does it have?",
+   "6",
+   [
+    "12",
+    "0",
+    "3"
+   ],
+   "In a neutral atom the number of electrons equals the number of protons."
+  ],
+  [
+   "An atom has 6 protons and 6 neutrons. What is its mass number?",
+   "12",
+   [
+    "6",
+    "18",
+    "0"
+   ],
+   "Mass number is protons plus neutrons: 6 + 6 = 12."
+  ],
+  [
+   "An atom has 8 protons. Which element is it?",
+   "Oxygen",
+   [
+    "Carbon",
+    "Nitrogen",
+    "Neon"
+   ],
+   "Oxygen has atomic number 8, meaning 8 protons."
+  ],
+  [
+   "Which particles decide which element an atom is?",
+   "Protons",
+   [
+    "Neutrons",
+    "Electrons",
+    "Photons"
+   ],
+   "Every atom of an element has the same number of protons."
+  ],
+  [
+   "Most of an atom's volume is…",
+   "empty space",
+   [
+    "solid protons",
+    "packed neutrons",
+    "liquid metal"
+   ],
+   "The nucleus is tiny, and the electrons move in a large region that is mostly empty."
+  ],
+  [
+   "Most of an atom's mass is found in…",
+   "the nucleus",
+   [
+    "the electron cloud",
+    "the empty space",
+    "the outer energy level"
+   ],
+   "Protons and neutrons are much heavier than electrons, and they are in the nucleus."
+  ],
+  [
+   "Compared with each other, protons and neutrons have…",
+   "about the same mass",
+   [
+    "no mass at all",
+    "the same charge",
+    "almost no mass"
+   ],
+   "A proton and a neutron have nearly equal mass, about 1 atomic mass unit each."
+  ],
+  [
+   "Which scientist discovered the nucleus with the gold foil experiment?",
+   "Ernest Rutherford",
+   [
+    "Isaac Newton",
+    "Charles Darwin",
+    "Galileo Galilei"
+   ],
+   "Rutherford's gold foil experiment showed atoms have a tiny, dense, positive nucleus."
+  ],
+  [
+   "Why is a whole atom neutral?",
+   "It has equal numbers of protons and electrons",
+   [
+    "It has equal numbers of protons and neutrons",
+    "It has no particles at all inside it",
+    "Its neutrons cancel out its electrons"
+   ],
+   "Each proton's positive charge is balanced by an electron's negative charge."
+  ],
+  [
+   "An atom gains one extra electron. What does it become?",
+   "A negative ion",
+   [
+    "A positive ion",
+    "A new element",
+    "A neutron"
+   ],
+   "An extra electron gives the atom more negative than positive charge."
+  ],
+  [
+   "An atom loses one electron. What does it become?",
+   "A positive ion",
+   [
+    "A negative ion",
+    "A new element",
+    "A neutron"
+   ],
+   "With one fewer electron, the protons outnumber the electrons, giving a positive charge."
+  ],
+  [
+   "What keeps electrons near the nucleus?",
+   "Attraction between opposite charges",
+   [
+    "Repulsion between like charges",
+    "Gravity from the neutrons",
+    "Magnetism of the electrons"
+   ],
+   "Negative electrons are attracted to the positive protons in the nucleus."
+  ],
+  [
+   "Electrons are arranged around the nucleus in…",
+   "energy levels",
+   [
+    "nuclei",
+    "isotopes",
+    "molecules"
+   ],
+   "Electrons occupy energy levels, also called shells, at different distances from the nucleus."
+  ],
+  [
+   "Atoms of the same element with different numbers of neutrons are called…",
+   "isotopes",
+   [
+    "ions",
+    "molecules",
+    "compounds"
+   ],
+   "Isotopes have the same number of protons but different numbers of neutrons."
+  ],
+  [
+   "How many electrons can the first energy level hold?",
+   "2",
+   [
+    "8",
+    "18",
+    "1"
+   ],
+   "The first energy level, closest to the nucleus, holds at most 2 electrons."
+  ],
+  [
+   "The most common type of hydrogen atom has 1 proton and how many neutrons?",
+   "0",
+   [
+    "1",
+    "2",
+    "3"
+   ],
+   "Ordinary hydrogen has just one proton and one electron, with no neutrons."
+  ],
+  [
+   "An atom has 11 protons, 12 neutrons and 11 electrons. What is its atomic number?",
+   "11",
+   [
+    "12",
+    "23",
+    "22"
+   ],
+   "The atomic number is the number of protons, which is 11."
+  ],
+  [
+   "Protons repel each other. What holds them together in the nucleus?",
+   "The strong nuclear force",
+   [
+    "The electrons around them",
+    "Gravity from Earth",
+    "Magnetic north poles"
+   ],
+   "The strong nuclear force acts over tiny distances and is stronger than the repulsion between protons."
+  ],
+  [
+   "In a model of an atom, which part is at the very centre?",
+   "The nucleus",
+   [
+    "An electron",
+    "An energy level",
+    "A molecule"
+   ],
+   "The nucleus is the small, dense centre of the atom."
+  ]
+ ],
+ "sciMIX": [
+  [
+   "Classify neon gas as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Neon is made of only one kind of atom."
+  ],
+  [
+   "Classify aluminum foil as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Aluminum foil is made of aluminum atoms only."
+  ],
+  [
+   "Classify liquid mercury as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Mercury is a pure substance made of one kind of atom."
+  ],
+  [
+   "Classify yellow sulfur powder as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Sulfur is made of only sulfur atoms."
+  ],
+  [
+   "Classify nitrogen gas (N₂) as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "N₂ molecules contain only nitrogen atoms."
+  ],
+  [
+   "Classify copper wire as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Copper wire is made of copper atoms only."
+  ],
+  [
+   "Classify baking soda (NaHCO₃) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Baking soda is sodium, hydrogen, carbon and oxygen chemically combined in a fixed ratio."
+  ],
+  [
+   "Classify rust (Fe₂O₃) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Rust is iron and oxygen chemically bonded together."
+  ],
+  [
+   "Classify ammonia (NH₃) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Each ammonia molecule has nitrogen and hydrogen atoms bonded together."
+  ],
+  [
+   "Classify methane (CH₄) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Methane is carbon and hydrogen chemically combined."
+  ],
+  [
+   "Classify glucose (C₆H₁₂O₆) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Glucose is one pure substance made of carbon, hydrogen and oxygen bonded together."
+  ],
+  [
+   "Classify calcium carbonate (CaCO₃) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Calcium carbonate contains three elements chemically combined in a fixed ratio."
+  ],
+  [
+   "Classify trail mix as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "You can see and pick out the separate nuts, raisins and seeds."
+  ],
+  [
+   "Classify granite as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "Granite has visible grains of different minerals mixed together."
+  ],
+  [
+   "Classify a slice of pizza as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "The crust, sauce, cheese and toppings are separate parts you can see."
+  ],
+  [
+   "Classify sand mixed with iron filings as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "The two parts stay separate and can be pulled apart with a magnet."
+  ],
+  [
+   "Classify cereal in milk as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "The cereal pieces and milk are visibly different parts."
+  ],
+  [
+   "Classify vinegar as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "Vinegar is acetic acid evenly dissolved in water, so it looks like one substance."
+  ],
+  [
+   "Classify brass as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "Brass is an alloy in which zinc is evenly mixed into copper."
+  ],
+  [
+   "Classify clear apple juice as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "Sugars and other substances are dissolved evenly in water, so you see only one phase."
+  ],
+  [
+   "Classify maple syrup as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "Maple syrup is sugar evenly dissolved in water."
+  ],
+  [
+   "Classify sugar stirred into hot tea until it disappears as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "The dissolved sugar spreads evenly through the tea and can't be seen."
+  ]
+ ],
+ "sciXsAngCon": [
+  [
+   "Which group of plants makes seeds that are not covered by a fruit?",
+   "Gymnosperms",
+   [
+    "Angiosperms",
+    "Mosses",
+    "Ferns"
+   ],
+   "Gymnosperms such as pines carry their seeds exposed on cone scales instead of inside a fruit."
+  ],
+  [
+   "Which structure do angiosperms use for sexual reproduction?",
+   "Flowers",
+   [
+    "Cones",
+    "Spores",
+    "Runners"
+   ],
+   "Angiosperms are the flowering plants, and their flowers contain the male and female reproductive parts."
+  ],
+  [
+   "In a conifer, where is pollen made?",
+   "In small male cones",
+   [
+    "In large female cones",
+    "In the seed coat",
+    "In the needles"
+   ],
+   "Conifers make pollen in small, soft male cones that release it into the wind."
+  ],
+  [
+   "In a pine tree, where do the ovules develop?",
+   "On scales of female cones",
+   [
+    "Inside the pollen grains",
+    "Inside a flower's ovary",
+    "At the tips of the roots"
+   ],
+   "Female (seed) cones carry ovules on their scales, which become seeds after fertilization."
+  ],
+  [
+   "How is pollen usually carried from one conifer to another?",
+   "By the wind",
+   [
+    "By bees",
+    "By birds",
+    "By bats"
+   ],
+   "Conifers have no flowers to attract animals, so their light pollen is carried by the wind."
+  ],
+  [
+   "Which part of a flower makes pollen?",
+   "The anther",
+   [
+    "The stigma",
+    "The ovary",
+    "The sepal"
+   ],
+   "The anther, at the top of the stamen, produces the pollen grains."
+  ],
+  [
+   "Which part of a flower is sticky and catches pollen?",
+   "The stigma",
+   [
+    "The anther",
+    "The filament",
+    "The sepal"
+   ],
+   "The stigma at the top of the pistil is sticky so pollen grains attach to it."
+  ],
+  [
+   "After fertilization in a flower, what does an ovule become?",
+   "A seed",
+   [
+    "A fruit",
+    "A petal",
+    "A pollen grain"
+   ],
+   "Each fertilized ovule develops into a seed, while the ovary around it becomes the fruit."
+  ],
+  [
+   "What grows down from a pollen grain to reach the ovule?",
+   "A pollen tube",
+   [
+    "A root hair",
+    "A seed coat",
+    "A sepal"
+   ],
+   "A pollen tube grows from the pollen grain through the style to carry sperm to the ovule."
+  ],
+  [
+   "Which of these plants is a gymnosperm?",
+   "White spruce",
+   [
+    "Sugar maple",
+    "Sunflower",
+    "Apple tree"
+   ],
+   "Spruces are conifers that make seeds in cones, so they are gymnosperms."
+  ],
+  [
+   "Which of these plants is an angiosperm?",
+   "Red oak",
+   [
+    "Jack pine",
+    "Balsam fir",
+    "Eastern hemlock"
+   ],
+   "Oaks produce flowers and acorns (fruits), so they are angiosperms; the others are conifers."
+  ],
+  [
+   "Why do many flowers have bright petals and sweet nectar?",
+   "To attract pollinators",
+   [
+    "To scare off insects",
+    "To store extra water",
+    "To make seeds heavier"
+   ],
+   "Colour and nectar attract animals such as bees that carry pollen from flower to flower."
+  ],
+  [
+   "What is the main job of a fruit in an angiosperm's life cycle?",
+   "To protect and spread seeds",
+   [
+    "To make pollen grains",
+    "To catch sunlight for food",
+    "To absorb water from soil"
+   ],
+   "Fruits protect the seeds and help them spread, for example when animals eat the fruit."
+  ],
+  [
+   "In the conifer life cycle, about how long can it take a pine cone's seeds to mature after pollination?",
+   "About two years",
+   [
+    "About two hours",
+    "About two days",
+    "About two weeks"
+   ],
+   "In many pines, fertilization happens about a year after pollination and the seeds mature in roughly two years."
+  ],
+  [
+   "Which part of a flower contains the ovules?",
+   "The ovary",
+   [
+    "The anther",
+    "The petal",
+    "The filament"
+   ],
+   "The ovary at the base of the pistil holds the ovules, which become seeds."
+  ],
+  [
+   "What is the male part of a flower called?",
+   "The stamen",
+   [
+    "The pistil",
+    "The sepal",
+    "The ovary"
+   ],
+   "The stamen, made of the anther and filament, is the male reproductive part."
+  ],
+  [
+   "What is the female part of a flower called?",
+   "The pistil",
+   [
+    "The stamen",
+    "The anther",
+    "The petal"
+   ],
+   "The pistil, made of stigma, style and ovary, is the female reproductive part."
+  ],
+  [
+   "What is the first stage after a seed lands in good conditions?",
+   "Germination",
+   [
+    "Pollination",
+    "Fertilization",
+    "Seed dispersal"
+   ],
+   "Germination is when the seed absorbs water and the young plant starts to grow."
+  ],
+  [
+   "What is pollination?",
+   "Pollen moving to a female part",
+   [
+    "Seeds sprouting in soil",
+    "Fruit falling from a tree",
+    "Leaves making sugar"
+   ],
+   "Pollination is the transfer of pollen to the stigma (in flowers) or to the ovule (in cones)."
+  ],
+  [
+   "How do the seeds of a maple tree spread?",
+   "Winged fruits spin in the wind",
+   [
+    "They are fired from cones",
+    "They stick to fur with hooks",
+    "They float down rivers only"
+   ],
+   "Maple fruits (samaras) have wings that spin and carry seeds away on the wind."
+  ],
+  [
+   "Which statement compares conifers and flowering plants correctly?",
+   "Both reproduce using seeds",
+   [
+    "Both make seeds inside fruits",
+    "Both use flowers to reproduce",
+    "Both reproduce only by spores"
+   ],
+   "Conifers and angiosperms are both seed plants, but only angiosperms enclose seeds in fruit."
+  ],
+  [
+   "Which tissue in a seed feeds the young plant until it can make its own food?",
+   "Stored food (endosperm)",
+   [
+    "Seed coat (testa)",
+    "Pollen tube (sperm)",
+    "Flower petal (corolla)"
+   ],
+   "The seed's stored food, such as the endosperm, nourishes the embryo during germination."
+  ]
+ ],
+ "sciECR": [
+  [
+   "Which relationship is shown? A mosquito sucks blood from a deer.",
+   "Parasitism",
+   [
+    "Predation",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The mosquito benefits by feeding while the deer is harmed but not killed."
+  ],
+  [
+   "Which relationship is shown? An owl swoops down and eats a vole.",
+   "Predation",
+   [
+    "Parasitism",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The owl kills and eats the vole, so one organism hunts another for food."
+  ],
+  [
+   "Which relationship is shown? Oxpecker birds eat ticks off a rhino's skin.",
+   "Mutualism",
+   [
+    "Parasitism",
+    "Predation",
+    "Commensalism"
+   ],
+   "The birds get food and the rhino gets rid of parasites, so both benefit."
+  ],
+  [
+   "Which relationship is shown? A remora rides on a shark and eats scraps of its meals.",
+   "Commensalism",
+   [
+    "Parasitism",
+    "Predation",
+    "Mutualism"
+   ],
+   "The remora gets food and transport while the shark is neither helped nor harmed."
+  ],
+  [
+   "Which relationship is shown? A lynx chases and eats a snowshoe hare.",
+   "Predation",
+   [
+    "Parasitism",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The lynx is a predator that kills and eats the hare, its prey."
+  ],
+  [
+   "Which relationship is shown? Lice live in a child's hair and feed on blood.",
+   "Parasitism",
+   [
+    "Predation",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "Lice benefit by feeding on the person, who is harmed."
+  ],
+  [
+   "Which relationship is shown? Bacteria in a cow's stomach digest grass and get a home.",
+   "Mutualism",
+   [
+    "Parasitism",
+    "Predation",
+    "Commensalism"
+   ],
+   "The bacteria get food and shelter and the cow can digest grass, so both benefit."
+  ],
+  [
+   "Which relationship is shown? A spider spins its web between a plant's stems.",
+   "Commensalism",
+   [
+    "Parasitism",
+    "Predation",
+    "Mutualism"
+   ],
+   "The spider gets a place to build while the plant is unaffected."
+  ],
+  [
+   "Which relationship is shown? A wolf pack hunts a moose.",
+   "Predation",
+   [
+    "Parasitism",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The wolves kill and eat the moose for food."
+  ],
+  [
+   "Which relationship is shown? A hummingbird drinks nectar and carries pollen to other flowers.",
+   "Mutualism",
+   [
+    "Parasitism",
+    "Predation",
+    "Commensalism"
+   ],
+   "The bird gets food and the plant gets pollinated, so both benefit."
+  ],
+  [
+   "Which relationship is shown? A leech attaches to a swimmer's leg to feed on blood.",
+   "Parasitism",
+   [
+    "Predation",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The leech benefits while the swimmer is harmed."
+  ],
+  [
+   "Which relationship is shown? Cattle egrets eat insects stirred up by grazing cows.",
+   "Commensalism",
+   [
+    "Parasitism",
+    "Predation",
+    "Mutualism"
+   ],
+   "The egrets get an easy meal while the cows are not affected."
+  ],
+  [
+   "Which relationship is shown? A heron spears and eats a fish.",
+   "Predation",
+   [
+    "Parasitism",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The heron hunts, kills and eats the fish."
+  ],
+  [
+   "Which relationship is shown? Mistletoe grows into a tree and takes its water and nutrients.",
+   "Parasitism",
+   [
+    "Predation",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The mistletoe benefits by taking resources while the host tree is harmed."
+  ],
+  [
+   "Which relationship is shown? Fungi on tree roots get sugar and help the tree take in water.",
+   "Mutualism",
+   [
+    "Parasitism",
+    "Predation",
+    "Commensalism"
+   ],
+   "The fungus gets food and the tree gets water and minerals, so both benefit."
+  ],
+  [
+   "Which relationship is shown? A hermit crab lives in an empty snail shell.",
+   "Commensalism",
+   [
+    "Parasitism",
+    "Predation",
+    "Mutualism"
+   ],
+   "The crab gets shelter and the snail, already gone, is not affected."
+  ],
+  [
+   "Which relationship is shown? A ladybug eats aphids on a rose bush.",
+   "Predation",
+   [
+    "Parasitism",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The ladybug kills and eats the aphids as prey."
+  ],
+  [
+   "Which relationship is shown? A cleaner shrimp eats parasites from a fish's mouth.",
+   "Mutualism",
+   [
+    "Parasitism",
+    "Predation",
+    "Commensalism"
+   ],
+   "The shrimp gets food and the fish is cleaned, so both benefit."
+  ],
+  [
+   "Which relationship is shown? A tick burrows into a moose's skin and drinks its blood.",
+   "Parasitism",
+   [
+    "Predation",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The tick benefits by feeding while the moose is harmed."
+  ],
+  [
+   "Which relationship is shown? A squirrel nests in a hole in a large tree.",
+   "Commensalism",
+   [
+    "Parasitism",
+    "Predation",
+    "Mutualism"
+   ],
+   "The squirrel gets shelter while the tree is not helped or harmed."
+  ],
+  [
+   "Which relationship is shown? A polar bear catches and eats a seal.",
+   "Predation",
+   [
+    "Parasitism",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "The polar bear hunts and eats the seal."
+  ],
+  [
+   "Which relationship is shown? Ants protect an acacia tree, which gives them food and shelter.",
+   "Mutualism",
+   [
+    "Parasitism",
+    "Predation",
+    "Commensalism"
+   ],
+   "The ants get food and homes and the tree is protected, so both benefit."
+  ]
+ ],
+ "sciEcoRel": [
+  [
+   "Which relationship is this? Two trees grow close together and both need the same sunlight.",
+   "Competition",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Mutualism"
+   ],
+   "Both trees need the same limited resource, so each is harmed by the other."
+  ],
+  [
+   "Which relationship is this? Wolves and coyotes both hunt the same deer in an area.",
+   "Competition",
+   [
+    "Predation",
+    "Parasitism",
+    "Mutualism"
+   ],
+   "Both predators rely on the same limited prey, so they compete."
+  ],
+  [
+   "Which relationship is this? A tapeworm lives inside a dog's gut and absorbs its food.",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Predation",
+    "Competition"
+   ],
+   "The tapeworm benefits while the dog loses nutrients and is harmed."
+  ],
+  [
+   "Which relationship is this? A peregrine falcon dives and catches a pigeon.",
+   "Predation",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Mutualism"
+   ],
+   "The falcon kills and eats the pigeon."
+  ],
+  [
+   "Which relationship is this? Lichen is made of a fungus and an alga that help each other.",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Predation",
+    "Competition"
+   ],
+   "The alga makes food by photosynthesis and the fungus gives shelter and moisture, so both benefit."
+  ],
+  [
+   "Which relationship is this? Burdock seeds hook onto a fox's fur and are carried away.",
+   "Commensalism",
+   [
+    "Predation",
+    "Parasitism",
+    "Mutualism"
+   ],
+   "The plant's seeds are spread while the fox is basically unaffected."
+  ],
+  [
+   "Which relationship is this? Cowbirds lay eggs in warblers' nests, and the warblers raise the chicks.",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Competition"
+   ],
+   "The cowbird benefits while the warbler wastes energy raising another bird's young."
+  ],
+  [
+   "Which relationship is this? Bluejays and squirrels both gather the same acorns.",
+   "Competition",
+   [
+    "Commensalism",
+    "Predation",
+    "Mutualism"
+   ],
+   "Both animals need the same limited food supply."
+  ],
+  [
+   "Which relationship is this? Root nodule bacteria give a clover plant nitrogen and get sugars.",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Predation",
+    "Parasitism"
+   ],
+   "The bacteria fix nitrogen for the plant and receive food, so both benefit."
+  ],
+  [
+   "Which relationship is this? A great white shark attacks and eats a seal.",
+   "Predation",
+   [
+    "Parasitism",
+    "Mutualism",
+    "Competition"
+   ],
+   "The shark is a predator and the seal is its prey."
+  ],
+  [
+   "Which relationship is this? Barn swallows nest under the roof of a barn used by horses.",
+   "Commensalism",
+   [
+    "Predation",
+    "Parasitism",
+    "Competition"
+   ],
+   "The swallows gain shelter while the horses are not affected."
+  ],
+  [
+   "Which relationship is this? Dandelions and grass on a lawn take water from the same soil.",
+   "Competition",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Mutualism"
+   ],
+   "Both plants need the same limited water and nutrients."
+  ],
+  [
+   "Which relationship is this? A flea lives on a cat and bites it for blood.",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Predation",
+    "Mutualism"
+   ],
+   "The flea benefits while the cat is harmed."
+  ],
+  [
+   "Which relationship is this? A garter snake swallows a frog.",
+   "Predation",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Competition"
+   ],
+   "The snake kills and eats the frog."
+  ],
+  [
+   "Which relationship is this? Humans grow crops for pollinating bees and the bees pollinate the crops.",
+   "Mutualism",
+   [
+    "Predation",
+    "Parasitism",
+    "Competition"
+   ],
+   "Bees get nectar and pollen while crops get pollinated, so both benefit."
+  ],
+  [
+   "Which relationship is this? A woodpecker drills a hole in a dead tree for its nest.",
+   "Commensalism",
+   [
+    "Predation",
+    "Parasitism",
+    "Mutualism"
+   ],
+   "The woodpecker benefits, and the dead tree is neither helped nor harmed."
+  ],
+  [
+   "Which relationship is this? Lions and hyenas fight over the same zebra carcass.",
+   "Competition",
+   [
+    "Commensalism",
+    "Predation",
+    "Parasitism"
+   ],
+   "Both species want the same limited food, so they compete."
+  ],
+  [
+   "Which relationship is this? A dragonfly catches a mosquito in mid-air.",
+   "Predation",
+   [
+    "Parasitism",
+    "Mutualism",
+    "Competition"
+   ],
+   "The dragonfly hunts and eats the mosquito."
+  ],
+  [
+   "Which relationship is this? A sea lamprey attaches to a lake trout and feeds on its blood.",
+   "Parasitism",
+   [
+    "Predation",
+    "Mutualism",
+    "Competition"
+   ],
+   "The lamprey benefits while the trout is harmed and may weaken."
+  ],
+  [
+   "Which relationship is this? Clownfish live among sea anemone tentacles and chase off fish that eat anemones.",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Predation",
+    "Parasitism"
+   ],
+   "The clownfish gets protection and the anemone gets defended, so both benefit."
+  ],
+  [
+   "Which relationship is this? Moss grows on the north side of a tree trunk without harming it.",
+   "Commensalism",
+   [
+    "Predation",
+    "Parasitism",
+    "Mutualism"
+   ],
+   "The moss gets a place to grow and the tree is unaffected."
+  ],
+  [
+   "Which relationship is this? Two male deer fight to mate with the same females.",
+   "Competition",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Mutualism"
+   ],
+   "Members of the same species compete for a limited resource, here mates."
+  ]
+ ],
+ "sciXsSymb": [
+  [
+   "What kind of symbiotic relationship is this? A tapeworm lives in a wolf's intestine and absorbs its food",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Predation"
+   ],
+   "The tapeworm benefits while the wolf loses nutrients."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Gut bacteria in humans help digest food and get a place to live",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Predation"
+   ],
+   "Both the bacteria and the human benefit."
+  ],
+  [
+   "What kind of symbiotic relationship is this? An orchid grows on a rainforest tree to reach sunlight",
+   "Commensalism",
+   [
+    "Mutualism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The orchid benefits and the tree is neither helped nor harmed."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Mistletoe takes water and nutrients from a host tree",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Predation"
+   ],
+   "The mistletoe benefits while the tree is weakened."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Oxpeckers eat ticks from a zebra's back",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The bird gets food and the zebra loses parasites, so both benefit."
+  ],
+  [
+   "What kind of symbiotic relationship is this? A remora attaches to a shark and eats leftover scraps",
+   "Commensalism",
+   [
+    "Mutualism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The remora benefits and the shark is unaffected."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Head lice feed on blood from a person's scalp",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Predation"
+   ],
+   "The lice benefit while the person is harmed."
+  ],
+  [
+   "What kind of symbiotic relationship is this? A fungus and an alga live together as a lichen",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The alga provides food and the fungus provides shelter and moisture."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Spanish moss hangs from tree branches without taking nutrients",
+   "Commensalism",
+   [
+    "Mutualism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The moss gets support and the tree is not harmed."
+  ],
+  [
+   "What kind of symbiotic relationship is this? A mosquito drinks blood from a moose",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Predation"
+   ],
+   "The mosquito benefits while the moose is harmed."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Ants protect aphids and eat the sweet honeydew they make",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The ants get food and the aphids get protection."
+  ],
+  [
+   "What kind of symbiotic relationship is this? A hermit crab uses an empty snail shell as its home",
+   "Commensalism",
+   [
+    "Mutualism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The crab benefits and the snail is not affected."
+  ],
+  [
+   "What kind of symbiotic relationship is this? A cuckoo lays its egg in another bird's nest to be raised",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Predation"
+   ],
+   "The cuckoo benefits while the host bird wastes effort raising its chick."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Cleaner wrasse fish eat parasites off larger fish",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The cleaner gets food and the larger fish gets cleaned."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Cattle egrets eat insects disturbed by grazing cattle",
+   "Commensalism",
+   [
+    "Mutualism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The egret benefits and the cattle are unaffected."
+  ],
+  [
+   "What kind of symbiotic relationship is this? A sea lamprey clings to a fish and feeds on its blood",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Predation"
+   ],
+   "The lamprey benefits while the fish is harmed."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Nitrogen-fixing bacteria live in pea plant roots and get sugar",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The bacteria give the plant nitrogen and receive food, so both benefit."
+  ],
+  [
+   "What kind of symbiotic relationship is this? A bird builds its nest in the branches of a spruce",
+   "Commensalism",
+   [
+    "Mutualism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The bird gets a nest site and the tree is unaffected."
+  ],
+  [
+   "What kind of symbiotic relationship is this? Heartworms live in a dog's heart and make it sick",
+   "Parasitism",
+   [
+    "Commensalism",
+    "Mutualism",
+    "Predation"
+   ],
+   "The worms benefit while the dog is harmed."
+  ],
+  [
+   "What kind of symbiotic relationship is this? A hummingbird feeds on nectar and pollinates the flower",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Predation"
+   ],
+   "The bird gets food and the plant gets pollinated."
+  ],
+  [
+   "Which symbiotic relationship helps one organism and does not affect the other?",
+   "Commensalism",
+   [
+    "Mutualism",
+    "Parasitism",
+    "Predation"
+   ],
+   "In commensalism one partner benefits and the other is neither helped nor harmed."
+  ],
+  [
+   "Which symbiotic relationship helps both organisms?",
+   "Mutualism",
+   [
+    "Commensalism",
+    "Parasitism",
+    "Predation"
+   ],
+   "In mutualism both partners benefit from living together."
+  ]
+ ],
+ "sciXsSucc": [
+  [
+   "What are the first organisms to live on bare rock called?",
+   "Pioneer species",
+   [
+    "Climax species",
+    "Invasive species",
+    "Keystone species"
+   ],
+   "Pioneer species such as lichens are the first to colonize bare, lifeless areas."
+  ],
+  [
+   "What kind of succession happens on a brand-new volcanic island?",
+   "Primary succession",
+   [
+    "Secondary succession",
+    "Final succession",
+    "Reverse succession"
+   ],
+   "Primary succession starts where there is no soil, such as fresh lava rock."
+  ],
+  [
+   "Which is needed before most plants can grow on a new volcanic island?",
+   "Soil",
+   [
+    "Snow",
+    "Sand dunes",
+    "Large animals"
+   ],
+   "Most plants need soil to anchor roots and get nutrients, so soil must form first."
+  ],
+  [
+   "What is the stable community at the end of succession called?",
+   "A climax community",
+   [
+    "A pioneer community",
+    "A starter community",
+    "A barren community"
+   ],
+   "A climax community is the fairly stable community that develops last in succession."
+  ],
+  [
+   "Which order is typical for primary succession on lava rock?",
+   "Lichens, mosses, grasses, shrubs, trees",
+   [
+    "Trees, shrubs, grasses, mosses, lichens",
+    "Grasses, trees, lichens, shrubs, mosses",
+    "Shrubs, lichens, trees, mosses, grasses"
+   ],
+   "Lichens and mosses build soil first, then larger plants can grow as the soil deepens."
+  ],
+  [
+   "How might seeds first reach a new volcanic island?",
+   "Carried by wind, waves or birds",
+   [
+    "Grown from the lava itself",
+    "Made by the volcano's heat",
+    "Dug up from under the rock"
+   ],
+   "Seeds and spores arrive from elsewhere on the wind, on floating material or with birds."
+  ],
+  [
+   "Why can mosses grow after lichens on volcanic rock?",
+   "Lichens left a thin layer of soil",
+   [
+    "Lichens made the rock hotter",
+    "Lichens removed all the water",
+    "Lichens turned the rock to sand"
+   ],
+   "Lichens break down rock and add organic matter, creating a thin soil where mosses can grow."
+  ],
+  [
+   "Which event leads to secondary succession, not primary?",
+   "A forest fire that leaves soil",
+   [
+    "Lava forming new land",
+    "A glacier scraping rock bare",
+    "A new island rising from sea"
+   ],
+   "After a fire the soil remains, so regrowth is secondary succession."
+  ],
+  [
+   "Which event can start primary succession?",
+   "A glacier retreating from bare rock",
+   [
+    "A farm field being abandoned",
+    "A forest being logged",
+    "A lawn left unmowed"
+   ],
+   "A retreating glacier leaves bare rock with no soil, where primary succession begins."
+  ],
+  [
+   "Why is primary succession usually slower than secondary succession?",
+   "Soil must form from scratch",
+   [
+    "Fewer animals are nearby",
+    "The weather is always colder",
+    "Plants grow only at night"
+   ],
+   "Building soil from bare rock takes a very long time, while secondary succession starts with soil already there."
+  ],
+  [
+   "As succession continues on a volcanic island, biodiversity usually…",
+   "increases",
+   [
+    "decreases to zero",
+    "stays exactly the same",
+    "disappears completely"
+   ],
+   "More species can live there as soil deepens and more habitats form."
+  ],
+  [
+   "How do dead mosses and grasses help succession?",
+   "They decay and add nutrients to soil",
+   [
+    "They make the rock harder",
+    "They block all sunlight",
+    "They stop seeds from arriving"
+   ],
+   "Decomposing plants add organic matter, making the soil deeper and richer."
+  ],
+  [
+   "Which organisms are often the first animals to live on a new lava field?",
+   "Insects and spiders",
+   [
+    "Moose and bears",
+    "Wolves and foxes",
+    "Deer and elk"
+   ],
+   "Small animals such as insects and spiders arrive early, often blown in by wind."
+  ],
+  [
+   "What happens to pioneer species as taller plants grow?",
+   "They are often shaded out",
+   [
+    "They grow into trees",
+    "They turn into soil instantly",
+    "They take over the island"
+   ],
+   "Taller plants block light and change conditions, so pioneers are replaced over time."
+  ],
+  [
+   "Surtsey, a volcanic island near Iceland, formed in the 1960s. Scientists study it to learn about…",
+   "primary succession",
+   [
+    "secondary succession",
+    "ocean tides",
+    "weather forecasting"
+   ],
+   "Surtsey began as bare lava, so it shows how life colonizes new land from the start."
+  ],
+  [
+   "Which is a sign that succession on a volcanic island is well underway?",
+   "Shrubs growing in deep soil",
+   [
+    "Bare black rock everywhere",
+    "Steam rising from fresh lava",
+    "Only a few lichen patches"
+   ],
+   "Shrubs need deeper soil, which takes a long time to form."
+  ],
+  [
+   "Weathering helps primary succession by…",
+   "breaking rock into small particles",
+   [
+    "making lava flow faster",
+    "adding salt to rainwater",
+    "stopping plants from growing"
+   ],
+   "Weathering breaks rock into small pieces that become part of the new soil."
+  ],
+  [
+   "Why are lichens good pioneer species?",
+   "They survive on bare rock with little water",
+   [
+    "They need deep, rich soil",
+    "They grow only in shade",
+    "They need large animals to spread"
+   ],
+   "Lichens can live on bare rock and survive drying out, so they colonize first."
+  ],
+  [
+   "Which change in the soil happens during succession?",
+   "It gets deeper and richer",
+   [
+    "It gets thinner each year",
+    "It turns back into lava",
+    "It loses all its nutrients"
+   ],
+   "Weathered rock and decaying organisms build deeper, more fertile soil over time."
+  ],
+  [
+   "What would most likely grow on an old lava flow after a few hundred years?",
+   "A young forest",
+   [
+    "Nothing at all",
+    "Only bacteria",
+    "Fresh lava rock"
+   ],
+   "Given enough time, soil builds up and trees can grow, forming a forest."
+  ],
+  [
+   "An old farm field slowly turns back into forest. This is…",
+   "secondary succession",
+   [
+    "primary succession",
+    "pioneer weathering",
+    "rock formation"
+   ],
+   "The field still has soil, so its regrowth is secondary succession."
+  ],
+  [
+   "Which statement about the climax community is true?",
+   "It changes little unless disturbed",
+   [
+    "It is the first to arrive",
+    "It has only lichens",
+    "It never has any trees"
+   ],
+   "A climax community stays fairly stable until a disturbance such as fire or a storm."
+  ]
+ ],
+ "sciPUN": [
+  [
+   "In pea plants, purple flowers (P) are dominant over white (p). What colour are flowers with genotype pp?",
+   "White",
+   [
+    "Purple",
+    "Pink",
+    "Purple and white"
+   ],
+   "A plant needs two recessive alleles (pp) to show the recessive white trait."
+  ],
+  [
+   "Cross Tt × Tt. What fraction of offspring are expected to be TT?",
+   "1/4",
+   [
+    "1/2",
+    "3/4",
+    "0"
+   ],
+   "The Punnett square gives TT, Tt, Tt and tt, so 1 of 4 boxes is TT."
+  ],
+  [
+   "Cross Tt × Tt. What fraction of offspring are expected to be tall (T dominant)?",
+   "3/4",
+   [
+    "1/4",
+    "1/2",
+    "All"
+   ],
+   "TT, Tt and Tt are all tall, so 3 of the 4 boxes show the dominant trait."
+  ],
+  [
+   "Cross TT × tt. What genotype will all the offspring have?",
+   "Tt",
+   [
+    "TT",
+    "tt",
+    "T"
+   ],
+   "Every offspring gets T from one parent and t from the other, so all are Tt."
+  ],
+  [
+   "Which genotype is heterozygous?",
+   "Rr",
+   [
+    "RR",
+    "rr",
+    "R"
+   ],
+   "Heterozygous means the two alleles are different, as in Rr."
+  ],
+  [
+   "Which genotype is homozygous recessive?",
+   "bb",
+   [
+    "BB",
+    "Bb",
+    "bB"
+   ],
+   "Homozygous recessive means two recessive alleles, written as two lowercase letters."
+  ],
+  [
+   "Cross Bb × bb. What fraction of offspring are expected to be Bb?",
+   "1/2",
+   [
+    "1/4",
+    "3/4",
+    "All"
+   ],
+   "The boxes are Bb, Bb, bb and bb, so half are Bb."
+  ],
+  [
+   "Cross RR × Rr. What fraction of offspring are expected to be rr?",
+   "0",
+   [
+    "1/4",
+    "1/2",
+    "3/4"
+   ],
+   "The RR parent always passes on R, so no offspring can be rr."
+  ],
+  [
+   "What does a capital letter usually stand for in a Punnett square?",
+   "A dominant allele",
+   [
+    "A recessive allele",
+    "A whole chromosome",
+    "A type of cell"
+   ],
+   "By convention, capital letters represent dominant alleles and lowercase letters recessive ones."
+  ],
+  [
+   "An organism's physical trait, such as eye colour, is called its…",
+   "phenotype",
+   [
+    "genotype",
+    "allele",
+    "Punnett square"
+   ],
+   "Phenotype is the observable trait, while genotype is the allele combination."
+  ],
+  [
+   "How many boxes are in a Punnett square for one trait?",
+   "4",
+   [
+    "2",
+    "3",
+    "8"
+   ],
+   "Each parent gives one of two alleles, so a one-trait Punnett square has 2 × 2 = 4 boxes."
+  ],
+  [
+   "Brown fur (B) is dominant over white fur (b). Two Bb rabbits mate. What fraction of babies are expected to be white?",
+   "1/4",
+   [
+    "1/2",
+    "3/4",
+    "0"
+   ],
+   "Only the bb box shows white fur, which is 1 of 4 boxes."
+  ],
+  [
+   "Cross Ss × ss. What is the expected ratio of dominant to recessive phenotypes?",
+   "1 : 1",
+   [
+    "3 : 1",
+    "1 : 3",
+    "All dominant"
+   ],
+   "Half the boxes are Ss (dominant) and half are ss (recessive)."
+  ],
+  [
+   "Cross Gg × Gg. What is the expected ratio of dominant to recessive phenotypes?",
+   "3 : 1",
+   [
+    "1 : 1",
+    "1 : 3",
+    "All recessive"
+   ],
+   "GG, Gg and Gg show the dominant trait and gg shows the recessive, giving 3 : 1."
+  ],
+  [
+   "A tall pea plant could have which genotypes (T dominant)?",
+   "TT or Tt",
+   [
+    "Tt or tt",
+    "tt only",
+    "TT or tt"
+   ],
+   "Any genotype with at least one T shows the dominant tall trait."
+  ],
+  [
+   "Cross TT × TT. What fraction of offspring are expected to be short?",
+   "0",
+   [
+    "1/4",
+    "1/2",
+    "All"
+   ],
+   "Both parents only pass on T, so every offspring is TT and tall."
+  ],
+  [
+   "What is an allele?",
+   "A version of a gene",
+   [
+    "A whole chromosome",
+    "A type of cell part",
+    "A kind of offspring"
+   ],
+   "Alleles are different forms of the same gene, such as T and t."
+  ],
+  [
+   "A recessive trait only shows when an organism has…",
+   "two recessive alleles",
+   [
+    "one recessive allele",
+    "two dominant alleles",
+    "one dominant allele"
+   ],
+   "A single dominant allele hides the recessive one, so two recessive alleles are needed."
+  ],
+  [
+   "Yellow seeds (Y) are dominant over green (y). Which genotype gives green seeds?",
+   "yy",
+   [
+    "YY",
+    "Yy",
+    "Y"
+   ],
+   "Green is recessive, so it appears only with two y alleles."
+  ],
+  [
+   "Cross Yy × YY. What fraction of offspring are expected to be YY?",
+   "1/2",
+   [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "The boxes are YY, YY, Yy and Yy, so half are YY."
+  ],
+  [
+   "Two parents with a dominant phenotype have a child with the recessive phenotype. The parents must both be…",
+   "heterozygous",
+   [
+    "homozygous dominant",
+    "homozygous recessive",
+    "without that gene"
+   ],
+   "Each parent must carry a hidden recessive allele to pass on, so both are heterozygous."
+  ],
+  [
+   "Cross Tt × tt. If 100 offspring are produced, about how many would be tall?",
+   "50",
+   [
+    "25",
+    "75",
+    "100"
+   ],
+   "Half the Punnett square boxes are Tt (tall), so about 50 of 100 would be tall."
+  ]
+ ],
+ "sciTaxon": [
+  [
+   "Which level is broader than Class but more specific than Kingdom?",
+   "Phylum",
+   [
+    "Order",
+    "Domain",
+    "Genus"
+   ],
+   "Phylum sits between Kingdom and Class."
+  ],
+  [
+   "Which level is broader than Family but more specific than Class?",
+   "Order",
+   [
+    "Genus",
+    "Phylum",
+    "Species"
+   ],
+   "Order sits between Class and Family."
+  ],
+  [
+   "Which level is broader than Species but more specific than Family?",
+   "Genus",
+   [
+    "Order",
+    "Class",
+    "Kingdom"
+   ],
+   "Genus sits between Family and Species."
+  ],
+  [
+   "Animals, plants and fungi are each an example of which level?",
+   "Kingdom",
+   [
+    "Phylum",
+    "Genus",
+    "Species"
+   ],
+   "Animalia, Plantae and Fungi are kingdoms."
+  ],
+  [
+   "Which is the broadest level of classification?",
+   "Domain",
+   [
+    "Kingdom",
+    "Species",
+    "Genus"
+   ],
+   "Domain is the top, broadest level that contains the most kinds of organisms."
+  ],
+  [
+   "Which level comes right before Species (from broadest to most specific)?",
+   "Genus",
+   [
+    "Family",
+    "Order",
+    "Class"
+   ],
+   "Genus is the level just above Species."
+  ],
+  [
+   "Which level comes right before Family (from broadest to most specific)?",
+   "Order",
+   [
+    "Class",
+    "Genus",
+    "Phylum"
+   ],
+   "Order is the level just above Family."
+  ],
+  [
+   "Which level comes right before Class (from broadest to most specific)?",
+   "Phylum",
+   [
+    "Kingdom",
+    "Order",
+    "Domain"
+   ],
+   "Phylum is the level just above Class."
+  ],
+  [
+   "In the scientific name <em>Ursus americanus</em> (black bear), what is <em>Ursus</em>?",
+   "The genus",
+   [
+    "The species",
+    "The family",
+    "The order"
+   ],
+   "A scientific name is written as genus then species, so <em>Ursus</em> is the genus."
+  ],
+  [
+   "A scientific name like <em>Castor canadensis</em> (beaver) is made of which two levels?",
+   "Genus and species",
+   [
+    "Family and genus",
+    "Order and family",
+    "Kingdom and phylum"
+   ],
+   "Binomial names give the genus followed by the species."
+  ],
+  [
+   "Which scientist created the two-part naming system for species?",
+   "Carl Linnaeus",
+   [
+    "Charles Darwin",
+    "Gregor Mendel",
+    "Louis Pasteur"
+   ],
+   "Carl Linnaeus developed binomial nomenclature in the 1700s."
+  ],
+  [
+   "As you move from Kingdom toward Species, the organisms in each group become…",
+   "more similar to each other",
+   [
+    "less similar to each other",
+    "larger in body size",
+    "more numerous in each group"
+   ],
+   "Lower levels contain fewer kinds of organisms that share more characteristics."
+  ],
+  [
+   "Which level contains the most different kinds of organisms?",
+   "Kingdom",
+   [
+    "Order",
+    "Genus",
+    "Species"
+   ],
+   "Of these choices, Kingdom is the broadest, so it includes the most kinds of organisms."
+  ],
+  [
+   "Humans and chimpanzees are in the same family but different genera. Which level do they NOT share?",
+   "Genus",
+   [
+    "Order",
+    "Class",
+    "Kingdom"
+   ],
+   "Being in different genera means they split at the Genus level while sharing all broader levels."
+  ],
+  [
+   "Wolves and domestic dogs share the genus <em>Canis</em>. Which other level must they also share?",
+   "Family",
+   [
+    "Species",
+    "Breed",
+    "Subspecies"
+   ],
+   "Organisms in the same genus must also be in the same family and all broader levels."
+  ],
+  [
+   "How many main levels are in the classification system from Domain to Species?",
+   "8",
+   [
+    "5",
+    "6",
+    "10"
+   ],
+   "The levels are Domain, Kingdom, Phylum, Class, Order, Family, Genus and Species."
+  ],
+  [
+   "Which of these is the correct order from broadest to most specific?",
+   "Class, Order, Family",
+   [
+    "Order, Class, Family",
+    "Family, Order, Class",
+    "Class, Family, Order"
+   ],
+   "Class contains orders, and each order contains families."
+  ],
+  [
+   "Which of these is the correct order from broadest to most specific?",
+   "Kingdom, Phylum, Class",
+   [
+    "Phylum, Kingdom, Class",
+    "Class, Phylum, Kingdom",
+    "Kingdom, Class, Phylum"
+   ],
+   "Kingdom is broader than Phylum, which is broader than Class."
+  ],
+  [
+   "Which of these is the correct order from most specific to broadest?",
+   "Species, Genus, Family",
+   [
+    "Genus, Species, Family",
+    "Family, Genus, Species",
+    "Species, Family, Genus"
+   ],
+   "Going upward from Species, the next levels are Genus and then Family."
+  ],
+  [
+   "Which level comes two steps after Order (from broadest to most specific)?",
+   "Genus",
+   [
+    "Family",
+    "Species",
+    "Class"
+   ],
+   "Order is followed by Family and then Genus."
+  ],
+  [
+   "A memory trick for the levels is \"Dear King Philip Came Over For Good Soup.\" What does \"Came\" stand for?",
+   "Class",
+   [
+    "Order",
+    "Family",
+    "Kingdom"
+   ],
+   "The words match Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species, so Came is Class."
+  ],
+  [
+   "Two organisms in the same order must also be in the same…",
+   "class",
+   [
+    "family",
+    "genus",
+    "species"
+   ],
+   "Each order belongs to one class, so sharing an order means sharing the class too."
+  ]
+ ],
+ "sciCellFn": [
+  [
+   "Which cell part releases energy from food through cellular respiration?",
+   "Mitochondria",
+   [
+    "Ribosome",
+    "Vacuole",
+    "Cell wall"
+   ],
+   "Mitochondria break down sugar to release energy the cell can use."
+  ],
+  [
+   "Which cell part captures light energy to make food?",
+   "Chloroplast",
+   [
+    "Mitochondria",
+    "Lysosome",
+    "Nucleus"
+   ],
+   "Chloroplasts contain chlorophyll and carry out photosynthesis."
+  ],
+  [
+   "Which cell part contains DNA and controls cell activities?",
+   "Nucleus",
+   [
+    "Vacuole",
+    "Cytoplasm",
+    "Cell wall"
+   ],
+   "The nucleus holds the genetic material that directs the cell's activities."
+  ],
+  [
+   "Which cell part gives a plant cell a rigid shape and support?",
+   "Cell wall",
+   [
+    "Cell membrane",
+    "Ribosome",
+    "Nucleolus"
+   ],
+   "The tough cell wall outside the membrane supports and protects plant cells."
+  ],
+  [
+   "Which cell part stores water, food and wastes?",
+   "Vacuole",
+   [
+    "Ribosome",
+    "Nucleus",
+    "Chloroplast"
+   ],
+   "Vacuoles are storage sacs; plant cells have a large central vacuole full of water."
+  ],
+  [
+   "Which cell part contains enzymes that break down wastes and worn-out parts?",
+   "Lysosome",
+   [
+    "Golgi apparatus",
+    "Chloroplast",
+    "Cell wall"
+   ],
+   "Lysosomes hold digestive enzymes that break down unwanted materials."
+  ],
+  [
+   "Which part is the jelly-like fluid that fills the cell and holds organelles?",
+   "Cytoplasm",
+   [
+    "Nucleus",
+    "Vacuole",
+    "Cell wall"
+   ],
+   "Cytoplasm surrounds the organelles and is where many reactions happen."
+  ],
+  [
+   "Which part inside the nucleus makes ribosomes?",
+   "Nucleolus",
+   [
+    "Lysosome",
+    "Vacuole",
+    "Cytoplasm"
+   ],
+   "The nucleolus is a dense region of the nucleus that builds ribosomes."
+  ],
+  [
+   "Which cell part is called the powerhouse of the cell?",
+   "Mitochondria",
+   [
+    "Chloroplast",
+    "Nucleus",
+    "Golgi apparatus"
+   ],
+   "Mitochondria release most of the cell's usable energy."
+  ],
+  [
+   "Rough endoplasmic reticulum looks bumpy because it is covered with…",
+   "ribosomes",
+   [
+    "chloroplasts",
+    "lysosomes",
+    "vacuoles"
+   ],
+   "Ribosomes attached to rough ER make proteins that the ER then transports."
+  ],
+  [
+   "Which cell part surrounds the nucleus and has pores?",
+   "Nuclear membrane",
+   [
+    "Cell wall",
+    "Cell membrane",
+    "Vacuole membrane"
+   ],
+   "The nuclear membrane (envelope) encloses the nucleus and has pores for materials to pass."
+  ],
+  [
+   "Which structure helps an animal cell divide by forming spindle fibres?",
+   "Centrioles",
+   [
+    "Chloroplasts",
+    "Cell wall",
+    "Central vacuole"
+   ],
+   "Centrioles help organize the spindle fibres that separate chromosomes during division."
+  ],
+  [
+   "A wilted plant has cells that have lost water from which part?",
+   "Central vacuole",
+   [
+    "Nucleus",
+    "Mitochondria",
+    "Ribosomes"
+   ],
+   "When the central vacuole loses water, cells lose pressure and the plant wilts."
+  ],
+  [
+   "Which cell part would be most common in a muscle cell that needs lots of energy?",
+   "Mitochondria",
+   [
+    "Chloroplasts",
+    "Cell walls",
+    "Large vacuoles"
+   ],
+   "Cells that use a lot of energy, like muscle cells, have many mitochondria."
+  ],
+  [
+   "Which cell part is selectively permeable?",
+   "Cell membrane",
+   [
+    "Cell wall",
+    "Nucleolus",
+    "Ribosome"
+   ],
+   "The cell membrane lets some substances through and blocks others."
+  ],
+  [
+   "Which green pigment inside chloroplasts absorbs light?",
+   "Chlorophyll",
+   [
+    "Hemoglobin",
+    "Melanin",
+    "Keratin"
+   ],
+   "Chlorophyll absorbs light energy used in photosynthesis."
+  ],
+  [
+   "Which cell part modifies proteins and sends them out in small sacs called vesicles?",
+   "Golgi apparatus",
+   [
+    "Lysosome",
+    "Nucleolus",
+    "Chloroplast"
+   ],
+   "The Golgi apparatus processes, packages and ships proteins in vesicles."
+  ],
+  [
+   "Which cell part makes lipids and has no ribosomes on it?",
+   "Smooth endoplasmic reticulum",
+   [
+    "Rough endoplasmic reticulum",
+    "Golgi apparatus vesicles",
+    "Nuclear membrane pores"
+   ],
+   "Smooth ER lacks ribosomes and makes lipids such as fats."
+  ],
+  [
+   "Which cell part would be missing in a root cell that grows underground?",
+   "Chloroplasts",
+   [
+    "Mitochondria",
+    "Nucleus",
+    "Cell wall"
+   ],
+   "Root cells get no light, so they usually have no chloroplasts."
+  ],
+  [
+   "Which structure is a network of fibres that gives the cell shape and helps it move?",
+   "Cytoskeleton",
+   [
+    "Cell wall",
+    "Vacuole",
+    "Nucleolus"
+   ],
+   "The cytoskeleton is a framework of protein fibres inside the cytoplasm."
+  ],
+  [
+   "Where in the cell does photosynthesis happen?",
+   "Chloroplast",
+   [
+    "Mitochondria",
+    "Nucleus",
+    "Lysosome"
+   ],
+   "Photosynthesis takes place inside chloroplasts."
+  ],
+  [
+   "Which cell part holds the instructions for making all of the cell's proteins?",
+   "Nucleus",
+   [
+    "Ribosome",
+    "Golgi apparatus",
+    "Vacuole"
+   ],
+   "The DNA in the nucleus carries the instructions, and ribosomes follow them to make proteins."
+  ]
+ ],
+ "sciCellCmp": [
+  [
+   "Which cells have a nuclear membrane?",
+   "Both",
+   [
+    "Plant cells only",
+    "Animal cells only",
+    "Neither"
+   ],
+   "Both plant and animal cells are eukaryotic, so their nucleus is enclosed by a membrane."
+  ],
+  [
+   "Which cells carry out cellular respiration?",
+   "Both",
+   [
+    "Plant cells only",
+    "Animal cells only",
+    "Neither"
+   ],
+   "Plant and animal cells both break down sugar in mitochondria to release energy."
+  ],
+  [
+   "Which cells carry out photosynthesis?",
+   "Plant cells only",
+   [
+    "Animal cells only",
+    "Both",
+    "Neither"
+   ],
+   "Only plant cells contain chloroplasts, where photosynthesis happens."
+  ],
+  [
+   "Which cells have a nucleolus?",
+   "Both",
+   [
+    "Plant cells only",
+    "Animal cells only",
+    "Neither"
+   ],
+   "Both plant and animal cells have a nucleus containing a nucleolus."
+  ],
+  [
+   "Which cells store starch made from their own sugar?",
+   "Plant cells only",
+   [
+    "Animal cells only",
+    "Both",
+    "Neither"
+   ],
+   "Plant cells store the sugar they make as starch; animal cells store glycogen instead."
+  ],
+  [
+   "Which cells have cytoplasm?",
+   "Both",
+   [
+    "Plant cells only",
+    "Animal cells only",
+    "Neither"
+   ],
+   "Both plant and animal cells are filled with cytoplasm."
+  ],
+  [
+   "Which cells have a Golgi apparatus?",
+   "Both",
+   [
+    "Plant cells only",
+    "Animal cells only",
+    "Neither"
+   ],
+   "Both plant and animal cells package proteins with a Golgi apparatus."
+  ],
+  [
+   "Which cells have endoplasmic reticulum?",
+   "Both",
+   [
+    "Plant cells only",
+    "Animal cells only",
+    "Neither"
+   ],
+   "Both plant and animal cells use endoplasmic reticulum to make and move materials."
+  ],
+  [
+   "Which cells have chlorophyll?",
+   "Plant cells only",
+   [
+    "Animal cells only",
+    "Both",
+    "Neither"
+   ],
+   "Chlorophyll is found in chloroplasts, which only plant cells have."
+  ],
+  [
+   "Which cells have a wall made of cellulose?",
+   "Plant cells only",
+   [
+    "Animal cells only",
+    "Both",
+    "Neither"
+   ],
+   "Plant cell walls are made of cellulose; animal cells have no cell wall."
+  ],
+  [
+   "Which shape is typical of a plant cell?",
+   "Box-like and rectangular",
+   [
+    "Round and flexible",
+    "Long and thread-like",
+    "Star-shaped and spiky"
+   ],
+   "The rigid cell wall gives plant cells a box-like shape."
+  ],
+  [
+   "Why do animal cells have no fixed shape?",
+   "They have no cell wall",
+   [
+    "They have no nucleus",
+    "They have no membrane",
+    "They have no cytoplasm"
+   ],
+   "Without a rigid cell wall, the flexible membrane lets animal cells change shape."
+  ],
+  [
+   "Which part is found in plant cells but not in animal cells?",
+   "Chloroplast",
+   [
+    "Mitochondria",
+    "Ribosome",
+    "Nucleus"
+   ],
+   "Only plant cells contain chloroplasts for photosynthesis."
+  ],
+  [
+   "Which part is found in both plant and animal cells?",
+   "Cell membrane",
+   [
+    "Cell wall",
+    "Chloroplast",
+    "Central vacuole"
+   ],
+   "All cells have a cell membrane, but the other parts are only in plant cells."
+  ],
+  [
+   "Which part is usually found in animal cells but rarely in plant cells?",
+   "Centrioles",
+   [
+    "Cell wall",
+    "Chloroplasts",
+    "Central vacuole"
+   ],
+   "Centrioles help animal cells divide; most plant cells lack them."
+  ],
+  [
+   "How do the vacuoles of plant and animal cells compare?",
+   "Plant cells have one large one",
+   [
+    "Animal cells have one large one",
+    "Both have one very large one",
+    "Neither type has any vacuoles"
+   ],
+   "Plant cells have one large central vacuole; animal cells have small ones if any."
+  ],
+  [
+   "How is a plant cell's outer boundary different from an animal cell's?",
+   "It has a wall outside the membrane",
+   [
+    "It has a membrane outside the wall",
+    "It has no membrane at all",
+    "It has no boundary at all"
+   ],
+   "Plant cells have a cell wall outside their cell membrane, while animal cells have only the membrane."
+  ],
+  [
+   "How do plant and animal cells get their energy differently?",
+   "Plant cells can make their own food",
+   [
+    "Animal cells can make their own food",
+    "Only plant cells use mitochondria",
+    "Only animal cells use sunlight"
+   ],
+   "Plant cells make sugar by photosynthesis, while animal cells must take in food; both use mitochondria."
+  ],
+  [
+   "Which statement about mitochondria is true?",
+   "Plant and animal cells both have them",
+   [
+    "Only animal cells have them",
+    "Only plant cells have them",
+    "Neither cell type has them"
+   ],
+   "Both cell types use mitochondria to release energy from sugar."
+  ],
+  [
+   "A cell has a nucleus, mitochondria and a cell wall, but no chloroplasts. It could be a…",
+   "plant root cell",
+   [
+    "human skin cell",
+    "dog muscle cell",
+    "fish blood cell"
+   ],
+   "Only plant cells have cell walls, and root cells lack chloroplasts because they get no light."
+  ],
+  [
+   "A cell has a nucleus, mitochondria and centrioles, but no cell wall. It is most likely…",
+   "an animal cell",
+   [
+    "a plant cell",
+    "a leaf cell",
+    "a moss cell"
+   ],
+   "No cell wall and having centrioles both point to an animal cell."
+  ],
+  [
+   "Which pair of parts would tell you a cell is from a plant?",
+   "Cell wall and chloroplasts",
+   [
+    "Nucleus and ribosomes",
+    "Membrane and cytoplasm",
+    "Mitochondria and nucleus"
+   ],
+   "Cell walls and chloroplasts are found in plant cells but not animal cells."
+  ]
+ ],
+ "sciXsRCIntro": [
+  [
+   "What type of rock forms when heat and pressure change an existing rock?",
+   "Metamorphic",
+   [
+    "Igneous",
+    "Sedimentary",
+    "Volcanic"
+   ],
+   "Metamorphic rocks form when heat and pressure change rocks without melting them."
+  ],
+  [
+   "What type of rock forms when layers of sediment are pressed and cemented together?",
+   "Sedimentary",
+   [
+    "Igneous",
+    "Metamorphic",
+    "Magma"
+   ],
+   "Sedimentary rocks form from compacted and cemented sediments."
+  ],
+  [
+   "What is magma?",
+   "Melted rock below the surface",
+   [
+    "Melted rock on the surface",
+    "Tiny pieces of rock",
+    "Rock changed by pressure"
+   ],
+   "Magma is molten rock underground; it is called lava once it reaches the surface."
+  ],
+  [
+   "Which process moves rock pieces from one place to another?",
+   "Erosion",
+   [
+    "Melting",
+    "Cooling",
+    "Metamorphism"
+   ],
+   "Erosion carries weathered pieces away by water, wind, ice or gravity."
+  ],
+  [
+   "What must happen to a rock for it to become magma?",
+   "It must melt",
+   [
+    "It must be weathered",
+    "It must be cemented",
+    "It must be eroded"
+   ],
+   "Rocks become magma when they get hot enough to melt deep underground."
+  ],
+  [
+   "Granite is an example of which type of rock?",
+   "Igneous",
+   [
+    "Sedimentary",
+    "Metamorphic",
+    "Fossil"
+   ],
+   "Granite forms when magma cools slowly underground."
+  ],
+  [
+   "Sandstone is an example of which type of rock?",
+   "Sedimentary",
+   [
+    "Igneous",
+    "Metamorphic",
+    "Volcanic"
+   ],
+   "Sandstone forms from grains of sand that are pressed and cemented together."
+  ],
+  [
+   "Marble is an example of which type of rock?",
+   "Metamorphic",
+   [
+    "Igneous",
+    "Sedimentary",
+    "Volcanic"
+   ],
+   "Marble forms when limestone is changed by heat and pressure."
+  ],
+  [
+   "What can sedimentary rock become after being buried deep and squeezed?",
+   "Metamorphic rock",
+   [
+    "Fresh sediment",
+    "Igneous rock directly",
+    "Lava on the surface"
+   ],
+   "Heat and pressure deep underground change sedimentary rock into metamorphic rock."
+  ],
+  [
+   "What happens to sediments before they become sedimentary rock?",
+   "They are compacted and cemented",
+   [
+    "They melt and then cool",
+    "They turn into lava",
+    "They are heated into crystals"
+   ],
+   "Layers of sediment are pressed together and glued by minerals to form rock."
+  ],
+  [
+   "Which source of energy drives melting and metamorphism in the rock cycle?",
+   "Earth's internal heat",
+   [
+    "Moonlight",
+    "Ocean waves",
+    "Wind"
+   ],
+   "Heat from inside Earth melts rocks and changes them under pressure."
+  ],
+  [
+   "Which source of energy drives weathering and erosion at the surface?",
+   "The Sun",
+   [
+    "Earth's core",
+    "The Moon",
+    "Magnets"
+   ],
+   "Sunlight drives weather, wind and the water cycle that wear down and move rock."
+  ],
+  [
+   "What type of rock forms when magma cools slowly underground?",
+   "Igneous rock with large crystals",
+   [
+    "Sedimentary rock with fossils",
+    "Metamorphic rock with bands",
+    "Igneous rock with no crystals"
+   ],
+   "Slow cooling underground gives crystals time to grow large."
+  ],
+  [
+   "Why do rocks formed from lava often have tiny crystals?",
+   "Lava cools quickly",
+   [
+    "Lava cools very slowly",
+    "Lava is cemented",
+    "Lava has fossils"
+   ],
+   "Fast cooling at the surface leaves little time for crystals to grow."
+  ],
+  [
+   "Which is NOT one of the three main rock types?",
+   "Magmatic",
+   [
+    "Igneous",
+    "Sedimentary",
+    "Metamorphic"
+   ],
+   "The three main rock types are igneous, sedimentary and metamorphic."
+  ],
+  [
+   "Can an igneous rock become a sedimentary rock?",
+   "Yes, by weathering and deposition",
+   [
+    "No, igneous rocks never change",
+    "Only by melting and cooling",
+    "Only by turning to lava"
+   ],
+   "Igneous rock can be broken into sediment, which later forms sedimentary rock."
+  ],
+  [
+   "Can a metamorphic rock become an igneous rock?",
+   "Yes, if it melts and cools",
+   [
+    "No, it can only stay metamorphic",
+    "Only if it is weathered",
+    "Only if fossils form in it"
+   ],
+   "If metamorphic rock melts into magma and cools, it becomes igneous rock."
+  ],
+  [
+   "Where are sediments most often deposited?",
+   "At the bottom of lakes and oceans",
+   [
+    "Inside active volcanoes",
+    "Deep in Earth's core",
+    "High in the clouds"
+   ],
+   "Water carries sediments and drops them in calm places like lake and ocean floors."
+  ],
+  [
+   "Which rock is made of shells and skeletons of sea creatures?",
+   "Limestone",
+   [
+    "Granite",
+    "Basalt",
+    "Obsidian"
+   ],
+   "Limestone is a sedimentary rock that often forms from shells and skeletons."
+  ],
+  [
+   "Slate forms when which rock is changed by heat and pressure?",
+   "Shale",
+   [
+    "Granite",
+    "Basalt",
+    "Pumice"
+   ],
+   "Shale, a sedimentary rock, becomes slate through metamorphism."
+  ],
+  [
+   "What do we call the slow, ongoing changes of rocks from one type into another?",
+   "The rock cycle",
+   [
+    "The water cycle",
+    "The carbon cycle",
+    "The life cycle"
+   ],
+   "The rock cycle describes how rocks change between igneous, sedimentary and metamorphic types."
+  ],
+  [
+   "How long do most rock cycle changes take?",
+   "Thousands to millions of years",
+   [
+    "A few minutes",
+    "A few days",
+    "About one year"
+   ],
+   "Most rock cycle processes, like burial and metamorphism, are extremely slow."
+  ]
+ ],
+ "sciDrift": [
+  [
+   "Fossils of the plant <em>Glossopteris</em> are found in South America, Africa, India, Antarctica and Australia. This suggests these lands…",
+   "were once joined together",
+   [
+    "always had the same weather",
+    "were connected by bridges of ice",
+    "were each covered by oceans"
+   ],
+   "The seeds of <em>Glossopteris</em> could not cross oceans, so the continents must once have been joined."
+  ],
+  [
+   "Coal, which forms from swampy forests, has been found in Antarctica. This suggests Antarctica…",
+   "was once in a warmer location",
+   [
+    "has always been very cold",
+    "was once under a volcano",
+    "is made of ancient ice"
+   ],
+   "Coal forms from warm-climate plants, so Antarctica must have been closer to the equator long ago."
+  ],
+  [
+   "Scratches left by ancient glaciers are found in parts of Africa and India that are now warm. This supports the idea that…",
+   "continents have moved",
+   [
+    "glaciers still cover them",
+    "the Sun was once hotter",
+    "the oceans were frozen solid"
+   ],
+   "Glaciers left these marks when the continents were joined near the South Pole, before they drifted."
+  ],
+  [
+   "Why did most scientists at first reject Wegener's idea of continental drift?",
+   "He could not explain what moved the continents",
+   [
+    "He had no fossil evidence at all",
+    "He said the Earth was flat",
+    "He thought the oceans were rising"
+   ],
+   "Wegener had evidence that continents moved, but no accepted mechanism for how they moved."
+  ],
+  [
+   "Who proposed the idea of sea-floor spreading in the early 1960s?",
+   "Harry Hess",
+   [
+    "Alfred Wegener",
+    "Isaac Newton",
+    "Marie Curie"
+   ],
+   "Harry Hess suggested that new ocean floor forms at mid-ocean ridges and spreads outward."
+  ],
+  [
+   "Matching stripes of magnetic rock on both sides of a mid-ocean ridge show that…",
+   "new sea floor forms and spreads",
+   [
+    "the ocean floor never changes",
+    "the ridge is made of iron",
+    "magnets pull the continents"
+   ],
+   "Rock records Earth's magnetic field as it forms, so mirror-image stripes show spreading from the ridge."
+  ],
+  [
+   "Which Canadian scientist helped develop plate tectonics with ideas about hot spots and transform faults?",
+   "J. Tuzo Wilson",
+   [
+    "Frederick Banting",
+    "Alexander Graham Bell",
+    "David Suzuki"
+   ],
+   "J. Tuzo Wilson, a Canadian geophysicist, explained hot spot island chains and transform faults."
+  ],
+  [
+   "Mountains in eastern North America match mountains of the same age and rock type in…",
+   "Scotland and Norway",
+   [
+    "Japan and Korea",
+    "Brazil and Chile",
+    "Egypt and Kenya"
+   ],
+   "The Appalachians match old mountains in the British Isles and Scandinavia that were joined in Pangaea."
+  ],
+  [
+   "Pangaea first split into which two large landmasses?",
+   "Laurasia and Gondwana",
+   [
+    "Asia and Europe",
+    "Atlantis and Mu",
+    "Africa and Antarctica"
+   ],
+   "Pangaea broke into Laurasia in the north and Gondwana in the south."
+  ],
+  [
+   "About how fast do tectonic plates move?",
+   "A few centimetres per year",
+   [
+    "A few metres per day",
+    "A few kilometres per year",
+    "A few millimetres per century"
+   ],
+   "Plates move only a few centimetres a year, about as fast as fingernails grow."
+  ],
+  [
+   "Which tool lets scientists measure plate movement directly today?",
+   "GPS satellites",
+   [
+    "Thermometers",
+    "Barometers",
+    "Microscopes"
+   ],
+   "GPS receivers on the ground track tiny changes in position over years."
+  ],
+  [
+   "Most earthquakes and volcanoes are found…",
+   "along plate boundaries",
+   [
+    "in the middle of every plate",
+    "only near the North Pole",
+    "randomly across Earth"
+   ],
+   "The pattern of earthquakes and volcanoes outlines the edges of the plates."
+  ],
+  [
+   "Fossils of the reptile <em>Lystrosaurus</em> are found in Africa, India and Antarctica. Why is this evidence of drift?",
+   "It could not swim across oceans",
+   [
+    "It lived only in deep oceans",
+    "It could fly between continents",
+    "It lived only in very cold places"
+   ],
+   "A land animal could not cross wide oceans, so these lands must have been connected."
+  ],
+  [
+   "The layer under the plates that flows slowly and lets them move is the…",
+   "asthenosphere",
+   [
+    "crust",
+    "inner core",
+    "atmosphere"
+   ],
+   "The plates of the lithosphere move over the soft, slowly flowing asthenosphere."
+  ],
+  [
+   "The rigid outer layer broken into tectonic plates is the…",
+   "lithosphere",
+   [
+    "asthenosphere",
+    "outer core",
+    "mantle plume"
+   ],
+   "The lithosphere, made of crust and upper mantle, is broken into plates."
+  ],
+  [
+   "Sediment on the ocean floor is thinnest…",
+   "near mid-ocean ridges",
+   [
+    "near the continents",
+    "in the deepest trenches",
+    "under thick sea ice"
+   ],
+   "Rock at the ridges is new, so it has had little time to collect sediment."
+  ],
+  [
+   "Wegener's theory of continental drift was published in about…",
+   "1915",
+   [
+    "1815",
+    "1715",
+    "1995"
+   ],
+   "Wegener published his ideas in 1915 in a book on the origin of continents and oceans."
+  ],
+  [
+   "In which direction is the Atlantic Ocean changing in size?",
+   "It is slowly getting wider",
+   [
+    "It is slowly getting narrower",
+    "It stays exactly the same",
+    "It is quickly drying up"
+   ],
+   "Sea-floor spreading at the Mid-Atlantic Ridge pushes the Americas away from Europe and Africa."
+  ],
+  [
+   "Which observation shows that Hawaii's islands formed as a plate moved over a hot spot?",
+   "The islands get older in a line",
+   [
+    "All the islands are the same age",
+    "The islands are made of granite",
+    "The islands are moving upward"
+   ],
+   "As the Pacific Plate moves, each new island forms over the hot spot, leaving older ones farther away."
+  ],
+  [
+   "Rocks of the same type and age line up across the Atlantic in Brazil and western Africa. This suggests…",
+   "the continents were once joined",
+   [
+    "the rocks were carried by rivers",
+    "the rocks formed in space",
+    "the ocean made the rocks"
+   ],
+   "Matching rock formations on separate continents show they were once one landmass."
+  ],
+  [
+   "The theory that Earth's outer layer is made of moving plates is called…",
+   "plate tectonics",
+   [
+    "the big bang theory",
+    "evolution",
+    "the rock cycle"
+   ],
+   "Plate tectonics combines continental drift and sea-floor spreading into one theory."
+  ],
+  [
+   "Where is old ocean floor destroyed as plates move?",
+   "At subduction zones",
+   [
+    "At mid-ocean ridges",
+    "At hot spots",
+    "At rift valleys"
+   ],
+   "At subduction zones, ocean plates sink back into the mantle, balancing new crust made at ridges."
+  ]
+ ],
+ "sciXsPlateLbl": [
+  [
+   "Which boundary is shown when two plates slide past each other sideways?",
+   "Transform",
+   [
+    "Divergent",
+    "Convergent",
+    "Hot spot"
+   ],
+   "At transform boundaries, plates grind past each other horizontally."
+  ],
+  [
+   "Which boundary is shown when two plates move toward each other?",
+   "Convergent",
+   [
+    "Divergent",
+    "Transform",
+    "Rift"
+   ],
+   "Convergent boundaries are where plates collide or one sinks beneath another."
+  ],
+  [
+   "What is the zone called where one plate sinks beneath another?",
+   "A subduction zone",
+   [
+    "A rift valley",
+    "A hot spot",
+    "A mid-ocean ridge"
+   ],
+   "In a subduction zone, the denser plate dives down into the mantle."
+  ],
+  [
+   "Which plate usually sinks when an ocean plate meets a continental plate?",
+   "The ocean plate, because it is denser",
+   [
+    "The continental plate, because it is denser",
+    "Neither plate, because they bounce",
+    "Both plates, at the same speed"
+   ],
+   "Oceanic crust is denser than continental crust, so it subducts."
+  ],
+  [
+   "What landform is a long, narrow, very deep valley in the ocean floor at a subduction zone?",
+   "A trench",
+   [
+    "A ridge",
+    "A rift valley",
+    "A plateau"
+   ],
+   "Trenches form where one plate bends down beneath another."
+  ],
+  [
+   "What kind of mountains form when rock layers are squeezed and bent at a collision?",
+   "Fold mountains",
+   [
+    "Volcanic islands",
+    "Mid-ocean ridges",
+    "Sand dunes"
+   ],
+   "Compression at convergent boundaries folds rock layers into mountains."
+  ],
+  [
+   "A line of volcanoes on land next to an ocean trench is called a…",
+   "volcanic arc",
+   [
+    "rift valley",
+    "transform fault",
+    "mid-ocean ridge"
+   ],
+   "Melting of the sinking plate feeds a curved line of volcanoes called a volcanic arc."
+  ],
+  [
+   "A chain of islands that gets older in one direction most likely formed over a…",
+   "hot spot",
+   [
+    "transform fault",
+    "rift valley",
+    "trench"
+   ],
+   "A plate moving over a fixed hot spot leaves a line of volcanoes of increasing age."
+  ],
+  [
+   "An underwater mountain chain with a crack down its centre is a…",
+   "mid-ocean ridge",
+   [
+    "trench",
+    "volcanic arc",
+    "fold mountain"
+   ],
+   "Mid-ocean ridges form where plates pull apart and magma rises to make new crust."
+  ],
+  [
+   "Which feature is found at a transform boundary?",
+   "A long fault line",
+   [
+    "A deep trench",
+    "A volcanic arc",
+    "A rift valley"
+   ],
+   "Plates sliding past each other create long faults with frequent earthquakes."
+  ],
+  [
+   "Why do volcanoes form above subduction zones?",
+   "The sinking plate helps rock melt",
+   [
+    "The plates pull apart there",
+    "Ice melts under the crust",
+    "The plates freeze together"
+   ],
+   "Water from the sinking plate lowers the melting point of the mantle, forming magma that rises."
+  ],
+  [
+   "Which boundary usually has volcanoes, deep trenches and strong earthquakes?",
+   "Ocean–continent convergent",
+   [
+    "Continent–continent divergent",
+    "Ocean–ocean transform",
+    "Middle of a plate"
+   ],
+   "Subduction of an ocean plate under a continent produces trenches, volcanoes and big earthquakes."
+  ],
+  [
+   "Why are there few volcanoes where two continental plates collide?",
+   "Neither plate sinks deep enough",
+   [
+    "The plates pull apart quickly",
+    "There is no rock there",
+    "The plates are too cold to move"
+   ],
+   "Continental crust is too light to subduct deeply, so little magma forms; mountains rise instead."
+  ],
+  [
+   "What fills the gap where two plates pull apart at a ridge?",
+   "Magma that cools into new crust",
+   [
+    "Sediment from rivers",
+    "Ocean water that freezes",
+    "Sand blown by the wind"
+   ],
+   "Magma rises into the gap, cools and forms new oceanic crust."
+  ],
+  [
+   "Which type of boundary is also called a constructive boundary because crust is made there?",
+   "Divergent",
+   [
+    "Convergent",
+    "Transform",
+    "Subduction"
+   ],
+   "New crust forms at divergent boundaries, so they are called constructive."
+  ],
+  [
+   "Which type of boundary destroys crust as one plate sinks?",
+   "Convergent",
+   [
+    "Divergent",
+    "Transform",
+    "Hot spot"
+   ],
+   "At convergent subduction zones, crust sinks into the mantle and is destroyed."
+  ],
+  [
+   "At which boundary is crust neither made nor destroyed?",
+   "Transform",
+   [
+    "Divergent",
+    "Convergent",
+    "Subduction"
+   ],
+   "At transform boundaries, plates only slide past each other."
+  ],
+  [
+   "What is the point inside Earth where an earthquake starts called?",
+   "The focus",
+   [
+    "The epicentre",
+    "The crater",
+    "The ridge"
+   ],
+   "The focus is where rock first breaks; the epicentre is the point on the surface above it."
+  ],
+  [
+   "A diagram shows arrows pointing away from each other at a crack in the ocean floor. Which feature is it?",
+   "A mid-ocean ridge",
+   [
+    "An ocean trench",
+    "A fold mountain",
+    "A volcanic arc"
+   ],
+   "Plates moving apart under the ocean form a mid-ocean ridge."
+  ],
+  [
+   "A diagram shows arrows pointing toward each other and one plate going under the other. Which feature forms at the bend?",
+   "A trench",
+   [
+    "A rift valley",
+    "A ridge",
+    "A hot spot"
+   ],
+   "Where one plate bends down beneath another, a deep trench forms."
+  ],
+  [
+   "A diagram shows arrows pointing opposite ways along a straight line on land. What does it label?",
+   "A transform fault",
+   [
+    "A volcanic arc",
+    "A rift valley",
+    "A trench"
+   ],
+   "Opposite sideways motion along a line is a transform fault."
+  ],
+  [
+   "What is the point on Earth's surface directly above an earthquake's starting point?",
+   "The epicentre",
+   [
+    "The focus",
+    "The fault",
+    "The mantle"
+   ],
+   "The epicentre lies directly above the focus."
+  ]
+ ],
+ "sciXsPlateWld": [
+  [
+   "The Hawaiian Islands formed mainly over a…",
+   "hot spot",
+   [
+    "transform boundary",
+    "divergent boundary",
+    "continental collision"
+   ],
+   "Hawaii sits in the middle of the Pacific Plate above a hot spot."
+  ],
+  [
+   "The Mariana Trench formed at a…",
+   "convergent boundary",
+   [
+    "divergent boundary",
+    "transform boundary",
+    "hot spot"
+   ],
+   "The Pacific Plate sinks beneath another plate there, forming the deepest trench."
+  ],
+  [
+   "The Alps in Europe formed where…",
+   "Africa pushed into Europe",
+   [
+    "two plates pulled apart",
+    "a hot spot rose up",
+    "plates slid past each other"
+   ],
+   "The African Plate moving north into the Eurasian Plate pushed up the Alps."
+  ],
+  [
+   "The Red Sea is slowly widening at a…",
+   "divergent boundary",
+   [
+    "convergent boundary",
+    "transform boundary",
+    "hot spot"
+   ],
+   "The Arabian Plate is pulling away from Africa, widening the Red Sea."
+  ],
+  [
+   "The Queen Charlotte Fault, off Haida Gwaii in British Columbia, is mainly a…",
+   "transform boundary",
+   [
+    "divergent boundary",
+    "hot spot",
+    "continental collision"
+   ],
+   "Along this fault, the Pacific Plate slides past the North American Plate."
+  ],
+  [
+   "Which small plate sinks beneath North America off the coast of British Columbia?",
+   "The Juan de Fuca Plate",
+   [
+    "The Nazca Plate",
+    "The Indian Plate",
+    "The Arabian Plate"
+   ],
+   "The Juan de Fuca Plate subducts under the North American Plate at the Cascadia subduction zone."
+  ],
+  [
+   "Mount St. Helens and the other Cascade volcanoes formed because…",
+   "an ocean plate subducts beneath North America",
+   [
+    "two plates pull apart in Washington",
+    "a hot spot sits under the volcanoes",
+    "plates slide past each other"
+   ],
+   "Melting above the subducting Juan de Fuca Plate feeds the Cascade volcanoes."
+  ],
+  [
+   "Most of Canada sits on which tectonic plate?",
+   "The North American Plate",
+   [
+    "The Pacific Plate",
+    "The Eurasian Plate",
+    "The Nazca Plate"
+   ],
+   "Canada lies almost entirely on the North American Plate."
+  ],
+  [
+   "Iceland is being pulled apart by which two plates?",
+   "North American and Eurasian",
+   [
+    "Pacific and Nazca",
+    "African and Arabian",
+    "Indian and Australian"
+   ],
+   "The Mid-Atlantic Ridge runs through Iceland, separating the North American and Eurasian plates."
+  ],
+  [
+   "The Andes form where which plate sinks beneath South America?",
+   "The Nazca Plate",
+   [
+    "The Juan de Fuca Plate",
+    "The Arabian Plate",
+    "The Cocos Plate"
+   ],
+   "The oceanic Nazca Plate subducts beneath the South American Plate."
+  ],
+  [
+   "The Aleutian Islands of Alaska are an island arc formed by…",
+   "subduction of the Pacific Plate",
+   [
+    "a hot spot under Alaska",
+    "plates sliding past each other",
+    "Alaska pulling away from Asia"
+   ],
+   "The Pacific Plate sinking under the North American Plate created the arc of volcanic islands."
+  ],
+  [
+   "Why is Mount Everest still getting slightly taller?",
+   "India keeps pushing into Asia",
+   [
+    "A hot spot pushes it upward",
+    "The plates are pulling apart",
+    "Glaciers add rock to its top"
+   ],
+   "The ongoing collision of the Indian and Eurasian plates continues to lift the Himalayas."
+  ],
+  [
+   "The strongest earthquake ever recorded, in Chile in 1960, happened at a…",
+   "subduction zone",
+   [
+    "mid-ocean ridge",
+    "hot spot",
+    "rift valley"
+   ],
+   "It struck where the Nazca Plate subducts beneath South America."
+  ],
+  [
+   "The East Pacific Rise is an example of a…",
+   "divergent boundary",
+   [
+    "convergent boundary",
+    "transform boundary",
+    "continental collision"
+   ],
+   "The East Pacific Rise is a mid-ocean ridge where plates spread apart."
+  ],
+  [
+   "Yellowstone National Park sits above a…",
+   "hot spot",
+   [
+    "mid-ocean ridge",
+    "subduction zone",
+    "transform fault"
+   ],
+   "Yellowstone's geysers and past eruptions come from a hot spot under the North American Plate."
+  ],
+  [
+   "Why are earthquakes common in California?",
+   "Two plates slide past each other there",
+   [
+    "Two plates pull apart there",
+    "A hot spot lies under it",
+    "It sits in the middle of a plate"
+   ],
+   "The Pacific Plate grinds past the North American Plate along the San Andreas Fault."
+  ],
+  [
+   "Which country is crossed by the North Anatolian Fault, a major transform boundary?",
+   "Turkey",
+   [
+    "Iceland",
+    "Canada",
+    "Brazil"
+   ],
+   "The North Anatolian Fault in Turkey is a transform fault with frequent earthquakes."
+  ],
+  [
+   "Mount Fuji in Japan formed mainly because of…",
+   "plates converging and subducting",
+   [
+    "a divergent rift valley",
+    "a continental hot spot",
+    "wind and water erosion"
+   ],
+   "Japan's volcanoes form above plates that subduct beneath it."
+  ],
+  [
+   "The Ring of Fire is mostly made of which kind of boundary?",
+   "Subduction zones",
+   [
+    "Mid-ocean ridges",
+    "Hot spots",
+    "Rift valleys"
+   ],
+   "Most of the Ring of Fire is subduction zones that produce volcanoes and earthquakes."
+  ],
+  [
+   "The Atlantic coast of Canada is quiet geologically because it…",
+   "is far from any plate boundary",
+   [
+    "sits on a hot spot",
+    "lies on a transform fault",
+    "is on a subduction zone"
+   ],
+   "Eastern Canada is in the middle of the North American Plate, away from active boundaries."
+  ],
+  [
+   "Which plate is moving north into Asia to form the Himalayas?",
+   "The Indian Plate",
+   [
+    "The Pacific Plate",
+    "The Nazca Plate",
+    "The Caribbean Plate"
+   ],
+   "The Indian Plate's collision with the Eurasian Plate built the Himalayas."
+  ],
+  [
+   "The Great Rift Valley in East Africa may one day become…",
+   "a new ocean",
+   [
+    "a mountain range",
+    "a hot spot",
+    "a trench"
+   ],
+   "As the African continent splits apart, seawater may eventually flood the rift, as it did in the Red Sea."
+  ]
+ ],
+ "sciXsWCSel": [
+  [
+   "Which process returns water from clouds to Earth's surface?",
+   "Precipitation",
+   [
+    "Evaporation",
+    "Condensation",
+    "Transpiration"
+   ],
+   "Precipitation is water falling from clouds as rain, snow, sleet or hail."
+  ],
+  [
+   "A puddle disappears on a sunny afternoon. Which process happened?",
+   "Evaporation",
+   [
+    "Condensation",
+    "Precipitation",
+    "Infiltration"
+   ],
+   "Heat from the Sun turned the liquid water into water vapour."
+  ],
+  [
+   "Water droplets form on the outside of a cold glass of juice. Which process is this?",
+   "Condensation",
+   [
+    "Evaporation",
+    "Transpiration",
+    "Infiltration"
+   ],
+   "Water vapour in the air cools on the cold glass and turns into liquid."
+  ],
+  [
+   "Rainwater flows over a parking lot into a storm drain. Which process is this?",
+   "Runoff",
+   [
+    "Infiltration",
+    "Transpiration",
+    "Sublimation"
+   ],
+   "Water that flows over the ground surface instead of soaking in is runoff."
+  ],
+  [
+   "Which process turns water vapour directly into frost on a cold window?",
+   "Deposition",
+   [
+    "Sublimation",
+    "Evaporation",
+    "Melting"
+   ],
+   "Deposition is when a gas changes straight into a solid, as when vapour forms frost."
+  ],
+  [
+   "Snow on a mountain turns into liquid water in spring. Which process is this?",
+   "Melting",
+   [
+    "Condensation",
+    "Deposition",
+    "Evaporation"
+   ],
+   "Melting changes solid ice or snow into liquid water."
+  ],
+  [
+   "What provides the energy that drives the water cycle?",
+   "The Sun",
+   [
+    "The Moon",
+    "Earth's core",
+    "Ocean currents"
+   ],
+   "Sunlight heats water and causes evaporation, which keeps the cycle moving."
+  ],
+  [
+   "Where is most of Earth's water found?",
+   "In the oceans",
+   [
+    "In glaciers",
+    "In rivers and lakes",
+    "In the atmosphere"
+   ],
+   "About 97% of Earth's water is salt water in the oceans."
+  ],
+  [
+   "An underground layer of rock or gravel that holds water is called…",
+   "an aquifer",
+   [
+    "a glacier",
+    "a watershed",
+    "a cloud"
+   ],
+   "Aquifers store groundwater in the spaces in rock, sand or gravel."
+  ],
+  [
+   "Fog forming over a lake on a cool morning is an example of…",
+   "condensation",
+   [
+    "evaporation",
+    "precipitation",
+    "infiltration"
+   ],
+   "Fog is tiny water droplets made when water vapour cools near the ground."
+  ],
+  [
+   "Water absorbed by tree roots exits through tiny holes in the leaves. Which process is this?",
+   "Transpiration",
+   [
+    "Precipitation",
+    "Runoff",
+    "Infiltration"
+   ],
+   "Transpiration is the release of water vapour from plant leaves."
+  ],
+  [
+   "In a diagram, an arrow goes from a lake up to a cloud. What process does it show?",
+   "Evaporation",
+   [
+    "Precipitation",
+    "Runoff",
+    "Infiltration"
+   ],
+   "Water moving from a lake into the air as vapour is evaporation."
+  ],
+  [
+   "In a diagram, an arrow goes from a cloud down to a mountain. What process does it show?",
+   "Precipitation",
+   [
+    "Evaporation",
+    "Condensation",
+    "Transpiration"
+   ],
+   "Water falling from a cloud to the ground is precipitation."
+  ],
+  [
+   "In a diagram, an arrow goes from a hillside into the soil below. What process does it show?",
+   "Infiltration",
+   [
+    "Runoff",
+    "Evaporation",
+    "Condensation"
+   ],
+   "Water soaking down into the ground is infiltration."
+  ],
+  [
+   "In a diagram, an arrow goes from a tree's leaves up into the air. What process does it show?",
+   "Transpiration",
+   [
+    "Precipitation",
+    "Infiltration",
+    "Runoff"
+   ],
+   "Water vapour leaving plant leaves is transpiration."
+  ],
+  [
+   "Snow falling on the Prairies in January is an example of…",
+   "precipitation",
+   [
+    "condensation",
+    "evaporation",
+    "transpiration"
+   ],
+   "Snow is a form of precipitation falling from clouds."
+  ],
+  [
+   "Which process is more likely on a paved road than on a grassy field?",
+   "Runoff",
+   [
+    "Infiltration",
+    "Transpiration",
+    "Groundwater flow"
+   ],
+   "Pavement stops water from soaking in, so more of it runs off the surface."
+  ],
+  [
+   "Rain falling on a forest soaks into loose soil. Which process is this?",
+   "Infiltration",
+   [
+    "Runoff",
+    "Evaporation",
+    "Condensation"
+   ],
+   "Infiltration is water entering and moving down into the soil."
+  ],
+  [
+   "Snow slowly shrinks on a cold, sunny, windy day without melting. Which process is this?",
+   "Sublimation",
+   [
+    "Deposition",
+    "Condensation",
+    "Infiltration"
+   ],
+   "Sublimation is solid ice changing directly into water vapour."
+  ],
+  [
+   "Which process makes water vapour turn into tiny cloud droplets high in the sky?",
+   "Condensation",
+   [
+    "Evaporation",
+    "Sublimation",
+    "Precipitation"
+   ],
+   "As air rises and cools, water vapour condenses into droplets that form clouds."
+  ],
+  [
+   "Melted snow flowing downhill into a river in spring is an example of…",
+   "runoff",
+   [
+    "infiltration",
+    "transpiration",
+    "condensation"
+   ],
+   "Meltwater moving over the surface into streams and rivers is runoff."
+  ],
+  [
+   "What do we call water stored below ground that fills spaces in soil and rock?",
+   "Groundwater",
+   [
+    "Runoff",
+    "Water vapour",
+    "Precipitation"
+   ],
+   "Groundwater is water held underground in soil and rock."
+  ]
+ ],
+ "sciXsCarbon": [
+  [
+   "In which form is carbon found in the atmosphere?",
+   "Carbon dioxide gas",
+   [
+    "Solid diamond",
+    "Liquid oil",
+    "Limestone dust"
+   ],
+   "Most carbon in the air is in the gas carbon dioxide, CO<sub>2</sub>."
+  ],
+  [
+   "How do animals get the carbon they need to build their bodies?",
+   "By eating plants or other animals",
+   [
+    "By breathing in carbon dioxide",
+    "By soaking it up from sunlight",
+    "By drinking ocean water"
+   ],
+   "Consumers get carbon compounds from the food they eat."
+  ],
+  [
+   "Which process releases carbon dioxide when living things use food for energy?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Condensation",
+    "Erosion"
+   ],
+   "Cellular respiration breaks down sugar and releases CO<sub>2</sub> as a waste product."
+  ],
+  [
+   "Fossil fuels such as coal and oil formed from…",
+   "the remains of ancient living things",
+   [
+    "melted volcanic rock",
+    "frozen ocean water",
+    "meteorites from space"
+   ],
+   "Buried plants and tiny sea organisms were changed by heat and pressure over millions of years."
+  ],
+  [
+   "Which organisms break down dead matter and release carbon back to the air and soil?",
+   "Decomposers",
+   [
+    "Producers",
+    "Herbivores",
+    "Predators"
+   ],
+   "Decomposers such as fungi and bacteria break down dead matter and release CO<sub>2</sub>."
+  ],
+  [
+   "Which natural event releases carbon from deep inside Earth into the air?",
+   "Volcanic eruptions",
+   [
+    "Photosynthesis",
+    "Snowfall",
+    "Tides"
+   ],
+   "Volcanoes release carbon dioxide gas from Earth's interior."
+  ],
+  [
+   "Limestone often forms from…",
+   "shells and skeletons of sea creatures",
+   [
+    "cooled lava from volcanoes",
+    "frozen carbon dioxide",
+    "burned wood and ash"
+   ],
+   "Sea creatures build shells from carbon compounds, which pile up and become limestone."
+  ],
+  [
+   "Which gas, produced by burning fossil fuels, traps heat in the atmosphere?",
+   "Carbon dioxide",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Helium"
+   ],
+   "Carbon dioxide is a greenhouse gas that traps heat and warms Earth."
+  ],
+  [
+   "What happens to ocean water as it absorbs more carbon dioxide?",
+   "It becomes more acidic",
+   [
+    "It becomes saltier",
+    "It freezes more easily",
+    "It turns into fresh water"
+   ],
+   "CO<sub>2</sub> reacts with water to form carbonic acid, lowering the ocean's pH."
+  ],
+  [
+   "Which Canadian ecosystem stores large amounts of carbon in its trees, peat and soil?",
+   "The boreal forest",
+   [
+    "The open ocean",
+    "A city centre",
+    "A sandy desert"
+   ],
+   "Canada's boreal forest and peatlands hold huge amounts of carbon in plants and soil."
+  ],
+  [
+   "Which pair of processes are opposites in the carbon cycle?",
+   "Photosynthesis and respiration",
+   [
+    "Melting and freezing",
+    "Erosion and weathering",
+    "Condensation and evaporation"
+   ],
+   "Photosynthesis takes in CO<sub>2</sub>, while respiration releases it."
+  ],
+  [
+   "In photosynthesis, plants combine carbon dioxide and water to make…",
+   "sugar and oxygen",
+   [
+    "salt and nitrogen",
+    "oil and helium",
+    "rock and hydrogen"
+   ],
+   "Plants use light energy to turn CO<sub>2</sub> and water into glucose and oxygen."
+  ],
+  [
+   "Which of these is a carbon source rather than a carbon sink?",
+   "A coal-burning power plant",
+   [
+    "A growing forest",
+    "A peat bog",
+    "The deep ocean"
+   ],
+   "Burning coal releases more carbon than it stores, so it is a source."
+  ],
+  [
+   "Which action would help reduce the amount of carbon dioxide added to the air?",
+   "Taking public transit",
+   [
+    "Burning more coal",
+    "Clearing forests",
+    "Leaving lights on"
+   ],
+   "Using transit instead of a car burns less fuel, so less CO<sub>2</sub> is released."
+  ],
+  [
+   "Which holds more carbon: the oceans or the atmosphere?",
+   "The oceans",
+   [
+    "The atmosphere",
+    "They hold exactly the same",
+    "Neither holds any carbon"
+   ],
+   "The oceans store many times more carbon than the atmosphere."
+  ],
+  [
+   "Why does thawing permafrost in northern Canada worry scientists?",
+   "It can release stored carbon",
+   [
+    "It removes carbon from the air",
+    "It makes the ground colder",
+    "It creates new fossil fuels"
+   ],
+   "As frozen soil thaws, microbes break down old plant matter and release CO<sub>2</sub> and methane."
+  ],
+  [
+   "Carbon atoms in a maple leaf came most directly from…",
+   "carbon dioxide in the air",
+   [
+    "minerals in the bedrock",
+    "nitrogen in the soil",
+    "oxygen in the rain"
+   ],
+   "Plants build their tissues from carbon taken from CO<sub>2</sub> during photosynthesis."
+  ],
+  [
+   "Which carbon-containing gas is released by cows during digestion?",
+   "Methane",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Hydrogen"
+   ],
+   "Microbes in a cow's stomach produce methane, which is also a greenhouse gas."
+  ],
+  [
+   "Burning a log in a campfire releases carbon as…",
+   "carbon dioxide",
+   [
+    "oxygen gas",
+    "liquid oil",
+    "solid limestone"
+   ],
+   "Combustion combines the carbon in wood with oxygen to make CO<sub>2</sub>."
+  ],
+  [
+   "Which part of a living thing is made from carbon compounds?",
+   "Its proteins and sugars",
+   [
+    "Only its water",
+    "Only its bones' salt",
+    "None of its parts"
+   ],
+   "Sugars, fats, proteins and DNA are all built around carbon atoms."
+  ],
+  [
+   "Why do carbon dioxide levels in the air rise slightly in the Northern Hemisphere winter?",
+   "Fewer plants are photosynthesizing",
+   [
+    "More plants are photosynthesizing",
+    "Oceans stop holding water",
+    "Volcanoes erupt only in winter"
+   ],
+   "Leaves fall and plants slow down in winter, so less CO<sub>2</sub> is taken from the air."
+  ],
+  [
+   "What is the movement of carbon between the air, living things, oceans and rocks called?",
+   "The carbon cycle",
+   [
+    "The rock cycle",
+    "The water cycle",
+    "The nitrogen cycle"
+   ],
+   "The carbon cycle describes how carbon moves among Earth's reservoirs."
+  ]
+ ]
+}

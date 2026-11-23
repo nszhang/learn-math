@@ -2218,5 +2218,3335 @@
    ],
    "Iodine reacts with starch to give a blue-black colour."
   ]
+ ],
+ "sciXsCellResp": [
+  [
+   "What is the word equation for aerobic cellular respiration?",
+   "Glucose + oxygen → carbon dioxide + water + energy",
+   [
+    "Carbon dioxide + water → glucose + oxygen + energy",
+    "Glucose + carbon dioxide → oxygen + water + energy",
+    "Oxygen + water → glucose + carbon dioxide + energy"
+   ],
+   "In aerobic respiration, glucose reacts with oxygen to release energy, giving off carbon dioxide and water."
+  ],
+  [
+   "Which gas do your cells give off as a waste product of respiration?",
+   "Carbon dioxide",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Hydrogen"
+   ],
+   "Carbon dioxide is made when glucose is broken down and is carried to the lungs to be breathed out."
+  ],
+  [
+   "What does the word <strong>aerobic</strong> mean, as in the word in bold in \"aerobic respiration\"?",
+   "Using oxygen",
+   [
+    "Without oxygen",
+    "Using sunlight",
+    "Without glucose"
+   ],
+   "Aerobic respiration is the kind that needs oxygen to break down glucose."
+  ],
+  [
+   "Which type of respiration releases the most energy from one glucose molecule?",
+   "Aerobic respiration",
+   [
+    "Lactic acid fermentation",
+    "Alcoholic fermentation",
+    "Anaerobic respiration"
+   ],
+   "Aerobic respiration breaks glucose down completely, releasing far more ATP than any anaerobic process."
+  ],
+  [
+   "Yeast making bread dough rise is an example of …",
+   "alcoholic fermentation",
+   [
+    "photosynthesis",
+    "aerobic respiration in muscles",
+    "lactic acid fermentation"
+   ],
+   "Yeast ferments sugar into ethanol and carbon dioxide, and the carbon dioxide bubbles make the dough rise."
+  ],
+  [
+   "What are the products of alcoholic fermentation in yeast?",
+   "Ethanol and carbon dioxide",
+   [
+    "Lactic acid and oxygen",
+    "Glucose and oxygen",
+    "Water and oxygen"
+   ],
+   "Yeast breaks glucose down without oxygen into ethanol and carbon dioxide, releasing a little energy."
+  ],
+  [
+   "What is made in human muscle cells when they run short of oxygen?",
+   "Lactic acid",
+   [
+    "Ethanol",
+    "Glucose",
+    "Starch"
+   ],
+   "Without enough oxygen, muscle cells switch to lactic acid fermentation."
+  ],
+  [
+   "Why do plants need cellular respiration even though they make their own food?",
+   "To release usable energy from the glucose they make",
+   [
+    "To make glucose from carbon dioxide and water",
+    "To take in oxygen for photosynthesis",
+    "To give off oxygen into the air at night"
+   ],
+   "Photosynthesis stores energy in glucose, but plant cells still respire to release that energy as ATP."
+  ],
+  [
+   "Which organelle would you expect to find in large numbers in a muscle cell?",
+   "Mitochondria",
+   [
+    "Chloroplasts",
+    "Cell walls",
+    "Large vacuoles"
+   ],
+   "Muscle cells use a lot of energy, so they contain many mitochondria where respiration happens."
+  ],
+  [
+   "How does glucose reach your body cells for respiration?",
+   "It is carried in the blood",
+   [
+    "It is breathed in through the lungs",
+    "It is made by the cells from sunlight",
+    "It is absorbed through the skin from air"
+   ],
+   "Glucose absorbed from digested food is carried by the blood to every cell."
+  ],
+  [
+   "Where does the oxygen used in respiration end up?",
+   "In water molecules",
+   [
+    "In glucose molecules",
+    "In carbon dioxide only",
+    "In nitrogen gas"
+   ],
+   "In the last stage of aerobic respiration, oxygen combines with hydrogen to form water."
+  ],
+  [
+   "What happens to energy released by respiration that is not stored in ATP?",
+   "It is given off as heat",
+   [
+    "It is turned back into glucose",
+    "It is destroyed",
+    "It becomes oxygen"
+   ],
+   "Respiration is not perfectly efficient, so some energy is released as heat, which helps keep warm-blooded animals warm."
+  ],
+  [
+   "Which gas would build up in a sealed jar of germinating seeds?",
+   "Carbon dioxide",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Helium"
+   ],
+   "Germinating seeds respire, using up oxygen and giving off carbon dioxide."
+  ],
+  [
+   "Bromothymol blue turns yellow when CO₂ is added. What would happen if you blew bubbles into it through a straw?",
+   "It would turn yellow",
+   [
+    "It would stay blue",
+    "It would turn colourless",
+    "It would turn bright red"
+   ],
+   "Exhaled breath contains extra carbon dioxide from respiration, which turns bromothymol blue yellow."
+  ],
+  [
+   "What is the main job of ATP in a cell?",
+   "To carry energy for cell processes",
+   [
+    "To store genetic information",
+    "To build the cell wall",
+    "To carry oxygen in the blood"
+   ],
+   "ATP is the cell's energy carrier, releasing energy wherever the cell needs it."
+  ],
+  [
+   "Which of these activities would raise the rate of cellular respiration in your body?",
+   "Running up a flight of stairs",
+   [
+    "Sleeping through the night",
+    "Sitting still and reading",
+    "Lying down to rest"
+   ],
+   "Hard exercise uses more energy, so muscle cells respire faster to make more ATP."
+  ],
+  [
+   "Why do you breathe faster during exercise?",
+   "Your cells need more oxygen for respiration",
+   [
+    "Your lungs need to cool down",
+    "Your blood needs less carbon dioxide",
+    "Your stomach needs extra air"
+   ],
+   "Working muscles respire faster, so you breathe faster to supply oxygen and remove carbon dioxide."
+  ],
+  [
+   "Which statement about photosynthesis and respiration is correct?",
+   "Photosynthesis stores energy; respiration releases it",
+   [
+    "Photosynthesis releases energy; respiration stores it",
+    "Both processes store energy in glucose",
+    "Both processes only happen in animals"
+   ],
+   "Photosynthesis traps light energy in glucose, while respiration releases that energy for the cell to use."
+  ],
+  [
+   "Which process happens in the cells of a plant at night?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both photosynthesis and respiration",
+    "Neither process"
+   ],
+   "Without light, plants cannot photosynthesize, but their cells keep respiring day and night."
+  ],
+  [
+   "What is one advantage of fermentation over aerobic respiration?",
+   "It can happen when oxygen is not available",
+   [
+    "It releases much more energy",
+    "It produces oxygen as a product",
+    "It uses carbon dioxide as a reactant"
+   ],
+   "Fermentation lets cells make some ATP even without oxygen, though much less than aerobic respiration."
+  ],
+  [
+   "Which food nutrient is the main fuel for cellular respiration?",
+   "Carbohydrates such as glucose",
+   [
+    "Vitamins such as vitamin C",
+    "Minerals such as calcium",
+    "Water from drinks"
+   ],
+   "Carbohydrates are broken down into glucose, the main fuel that cells respire."
+  ],
+  [
+   "Limewater turns cloudy with carbon dioxide. A mouse is placed in a sealed chamber with limewater. What happens?",
+   "The limewater slowly turns cloudy",
+   [
+    "The limewater stays perfectly clear",
+    "The limewater turns bright green",
+    "The limewater turns into ice"
+   ],
+   "The mouse's cells respire and give off carbon dioxide, which turns limewater cloudy."
+  ]
+ ],
+ "sciXsCells": [
+  [
+   "Which structure do plant cells have that animal cells do not?",
+   "Cell wall",
+   [
+    "Cell membrane",
+    "Nucleus",
+    "Mitochondrion"
+   ],
+   "Plant cells have a rigid cell wall outside the membrane; animal cells have only a membrane."
+  ],
+  [
+   "Which organelle is the site of photosynthesis?",
+   "Chloroplast",
+   [
+    "Mitochondrion",
+    "Ribosome",
+    "Nucleus"
+   ],
+   "Chloroplasts contain chlorophyll, which captures light energy to make glucose."
+  ],
+  [
+   "Which organelle is called the powerhouse of the cell?",
+   "Mitochondrion",
+   [
+    "Nucleus",
+    "Vacuole",
+    "Cell wall"
+   ],
+   "Mitochondria release energy from food through cellular respiration."
+  ],
+  [
+   "What does the cell theory say about where cells come from?",
+   "All cells come from existing cells",
+   [
+    "Cells form from non-living matter",
+    "Cells are made by the organs",
+    "Cells come from the air"
+   ],
+   "One part of cell theory states that new cells come only from the division of existing cells."
+  ],
+  [
+   "Which statement is part of the cell theory?",
+   "All living things are made of one or more cells",
+   [
+    "All cells contain chloroplasts",
+    "All cells are the same size",
+    "All living things are made of one cell"
+   ],
+   "Cell theory states that every living thing is made of one or more cells."
+  ],
+  [
+   "Where is DNA found in a eukaryotic cell?",
+   "Mainly in the nucleus",
+   [
+    "Mainly in the cell wall",
+    "Mainly in the vacuole",
+    "Mainly in the cell membrane"
+   ],
+   "In eukaryotic cells, most DNA is kept inside the nucleus."
+  ],
+  [
+   "Where is DNA found in a bacterial cell?",
+   "Loose in the cytoplasm",
+   [
+    "Inside a nucleus",
+    "Inside the mitochondria",
+    "Inside the chloroplasts"
+   ],
+   "Bacteria are prokaryotes, so their DNA floats in the cytoplasm with no nucleus around it."
+  ],
+  [
+   "Who first used the word \"cells\" after looking at cork under a microscope?",
+   "Robert Hooke",
+   [
+    "Charles Darwin",
+    "Isaac Newton",
+    "Gregor Mendel"
+   ],
+   "In 1665, Robert Hooke saw tiny boxes in cork and called them cells."
+  ],
+  [
+   "Which is an example of a multicellular organism?",
+   "A maple tree",
+   [
+    "An amoeba",
+    "A bacterium",
+    "A paramecium"
+   ],
+   "A maple tree is made of billions of cells; the others are single-celled."
+  ],
+  [
+   "What is the main job of the nucleus?",
+   "Controlling the cell's activities",
+   [
+    "Making food from sunlight",
+    "Storing water and wastes",
+    "Giving the cell a rigid shape"
+   ],
+   "The nucleus holds the DNA, which directs the cell's activities."
+  ],
+  [
+   "What is cell division used for in a growing child?",
+   "Making new cells for growth",
+   [
+    "Making cells bigger forever",
+    "Turning cells into tissues of glass",
+    "Removing all old cells at once"
+   ],
+   "Cells divide to make more cells, which is how organisms grow and repair themselves."
+  ],
+  [
+   "Why are most cells very small?",
+   "Small cells can move materials in and out quickly",
+   [
+    "Small cells do not need any food",
+    "Small cells cannot be damaged",
+    "Small cells do not need a membrane"
+   ],
+   "A small cell has a large surface area for its volume, so materials pass in and out efficiently."
+  ],
+  [
+   "What is a specialized cell?",
+   "A cell with a structure suited to one job",
+   [
+    "A cell that can do every job equally",
+    "A cell that has no nucleus at all",
+    "A cell that lives outside the body"
+   ],
+   "Specialized cells, like nerve or red blood cells, have shapes and parts suited to a particular job."
+  ],
+  [
+   "Which cell is specialized to carry messages around the body?",
+   "Nerve cell",
+   [
+    "Red blood cell",
+    "Skin cell",
+    "Fat cell"
+   ],
+   "Nerve cells have long branches that carry electrical signals."
+  ],
+  [
+   "Which cell is specialized to carry oxygen?",
+   "Red blood cell",
+   [
+    "Nerve cell",
+    "Muscle cell",
+    "Bone cell"
+   ],
+   "Red blood cells are packed with hemoglobin, which carries oxygen."
+  ],
+  [
+   "Which green pigment is found in chloroplasts?",
+   "Chlorophyll",
+   [
+    "Hemoglobin",
+    "Melanin",
+    "Keratin"
+   ],
+   "Chlorophyll absorbs light energy for photosynthesis and makes plants green."
+  ],
+  [
+   "What is the main difference between plant and animal vacuoles?",
+   "Plant cells usually have one large vacuole",
+   [
+    "Animal cells usually have one large vacuole",
+    "Only animal cells have vacuoles",
+    "Plant vacuoles contain the DNA"
+   ],
+   "Plant cells usually have one large central vacuole, while animal cells have small ones or none."
+  ],
+  [
+   "Which organelle digests worn-out cell parts in animal cells?",
+   "Lysosome",
+   [
+    "Chloroplast",
+    "Cell wall",
+    "Ribosome"
+   ],
+   "Lysosomes contain enzymes that break down wastes and old cell parts."
+  ],
+  [
+   "What is the cell wall of a plant mostly made of?",
+   "Cellulose",
+   [
+    "Protein",
+    "Fat",
+    "Calcium"
+   ],
+   "Plant cell walls are built from cellulose fibres, which make them strong."
+  ],
+  [
+   "Which kingdom includes single-celled and multicellular organisms with cell walls made of chitin?",
+   "Fungi",
+   [
+    "Animals",
+    "Plants",
+    "Bacteria"
+   ],
+   "Fungi, such as yeast and mushrooms, have cell walls made of chitin."
+  ],
+  [
+   "Which organelle packages and ships proteins out of the cell?",
+   "Golgi apparatus",
+   [
+    "Chloroplast",
+    "Nucleus",
+    "Cell wall"
+   ],
+   "The Golgi apparatus sorts, packages and sends proteins to where they are needed."
+  ],
+  [
+   "What is an organ?",
+   "A group of tissues working together",
+   [
+    "A group of similar cells",
+    "A single specialized cell",
+    "A part found inside a cell"
+   ],
+   "An organ, like the heart, is made of several kinds of tissue working together."
+  ]
+ ],
+ "sciXsPlCellF": [
+  [
+   "Which plant cell part does this? Contains chlorophyll, the green pigment",
+   "Chloroplast",
+   [
+    "Large vacuole",
+    "Cell wall",
+    "Nucleus"
+   ],
+   "Chloroplasts hold chlorophyll, which captures light energy and makes leaves green."
+  ],
+  [
+   "Which plant cell part does this? Made of cellulose and lies outside the membrane",
+   "Cell wall",
+   [
+    "Cell membrane",
+    "Cytoplasm",
+    "Large vacuole"
+   ],
+   "The cell wall is a tough cellulose layer outside the cell membrane."
+  ],
+  [
+   "Which plant cell part does this? Uses glucose and oxygen to make ATP",
+   "Mitochondrion",
+   [
+    "Chloroplast",
+    "Nucleus",
+    "Ribosome"
+   ],
+   "Mitochondria carry out cellular respiration, releasing energy from glucose as ATP."
+  ],
+  [
+   "Which plant cell part does this? Pushes against the wall to keep the plant from wilting",
+   "Large vacuole",
+   [
+    "Nucleus",
+    "Mitochondrion",
+    "Ribosome"
+   ],
+   "A full central vacuole presses on the cell wall, keeping the cell firm and the plant upright."
+  ],
+  [
+   "Which plant cell part does this? Holds the chromosomes and is surrounded by a double membrane",
+   "Nucleus",
+   [
+    "Chloroplast",
+    "Large vacuole",
+    "Cell wall"
+   ],
+   "The nucleus contains the chromosomes and is enclosed by the nuclear envelope."
+  ],
+  [
+   "Which plant cell part does this? Uses light energy to turn CO₂ and water into glucose",
+   "Chloroplast",
+   [
+    "Mitochondrion",
+    "Cytoplasm",
+    "Large vacuole"
+   ],
+   "Photosynthesis, which makes glucose from carbon dioxide and water, takes place in chloroplasts."
+  ],
+  [
+   "Which plant cell part does this? Thin, flexible layer that lets water and some substances pass through",
+   "Cell membrane",
+   [
+    "Cell wall",
+    "Large vacuole",
+    "Nucleus"
+   ],
+   "The cell membrane is selectively permeable, controlling which substances pass in and out."
+  ],
+  [
+   "Which plant cell part does this? Fluid that fills the cell and holds the organelles",
+   "Cytoplasm",
+   [
+    "Large vacuole",
+    "Cell wall",
+    "Nucleus"
+   ],
+   "The cytoplasm is the jelly-like fluid in which organelles sit and many reactions happen."
+  ],
+  [
+   "Which plant cell part does this? Tiny structures that join amino acids into proteins",
+   "Ribosome",
+   [
+    "Chloroplast",
+    "Large vacuole",
+    "Mitochondrion"
+   ],
+   "Ribosomes read instructions from the DNA and build proteins."
+  ],
+  [
+   "Which plant cell part does this? Prevents the cell from bursting when it takes in a lot of water",
+   "Cell wall",
+   [
+    "Cytoplasm",
+    "Ribosome",
+    "Mitochondrion"
+   ],
+   "The strong cell wall resists the pressure from water, so plant cells do not burst."
+  ],
+  [
+   "Which plant cell part does this? Found in leaf cells but not in root cells, which get no light",
+   "Chloroplast",
+   [
+    "Nucleus",
+    "Cell membrane",
+    "Mitochondrion"
+   ],
+   "Root cells do not receive light, so they lack chloroplasts, while leaf cells have many."
+  ],
+  [
+   "Which plant cell part does this? Stores sugars, salts and pigments in a sac of cell sap",
+   "Large vacuole",
+   [
+    "Cell wall",
+    "Ribosome",
+    "Mitochondrion"
+   ],
+   "The central vacuole is filled with cell sap that stores water, sugars, salts and some pigments."
+  ],
+  [
+   "Which plant cell part does this? Releases energy in the cells of both leaves and roots",
+   "Mitochondrion",
+   [
+    "Chloroplast",
+    "Cell wall",
+    "Large vacuole"
+   ],
+   "All living plant cells respire, so mitochondria are found in roots as well as leaves."
+  ],
+  [
+   "Which plant cell part does this? Directs cell division by copying and passing on DNA",
+   "Nucleus",
+   [
+    "Cytoplasm",
+    "Large vacuole",
+    "Cell wall"
+   ],
+   "The nucleus copies its DNA so each new cell receives a full set of instructions."
+  ],
+  [
+   "Which plant cell part does this? Shrinks when the plant loses too much water",
+   "Large vacuole",
+   [
+    "Nucleus",
+    "Ribosome",
+    "Cell wall"
+   ],
+   "When a plant lacks water, the vacuole loses water and shrinks, so the plant wilts."
+  ],
+  [
+   "Which plant cell part does this? Freely lets water through but gives the cell its boxy shape",
+   "Cell wall",
+   [
+    "Cell membrane",
+    "Nucleus",
+    "Chloroplast"
+   ],
+   "The cell wall is fully permeable but rigid, giving plant cells their regular, box-like shape."
+  ],
+  [
+   "Which plant cell part does this? Contains its own DNA and stacks of membranes called thylakoids",
+   "Chloroplast",
+   [
+    "Nucleus",
+    "Large vacuole",
+    "Ribosome"
+   ],
+   "Chloroplasts have stacks of thylakoid membranes where light is captured, plus a small amount of their own DNA."
+  ],
+  [
+   "Which plant cell part does this? Keeps the cell's contents inside while letting oxygen in",
+   "Cell membrane",
+   [
+    "Large vacuole",
+    "Ribosome",
+    "Chloroplast"
+   ],
+   "The cell membrane holds the cell contents in while allowing small molecules such as oxygen to pass."
+  ],
+  [
+   "Which plant cell part does this? Site where many chemical reactions take place, outside the organelles",
+   "Cytoplasm",
+   [
+    "Cell wall",
+    "Nucleus",
+    "Chloroplast"
+   ],
+   "Many of the cell's reactions happen in the cytoplasm around the organelles."
+  ],
+  [
+   "Which plant cell part does this? Has a folded inner membrane where most ATP is made",
+   "Mitochondrion",
+   [
+    "Chloroplast",
+    "Nucleus",
+    "Cell wall"
+   ],
+   "The inner membrane of a mitochondrion is folded into cristae, where most ATP is produced."
+  ],
+  [
+   "Which plant cell part does this? Contains the nucleolus, which helps make ribosomes",
+   "Nucleus",
+   [
+    "Cytoplasm",
+    "Large vacuole",
+    "Mitochondrion"
+   ],
+   "The nucleolus, found inside the nucleus, builds the parts of ribosomes."
+  ],
+  [
+   "Which plant cell part does this? Gives off oxygen as a by-product in sunlight",
+   "Chloroplast",
+   [
+    "Mitochondrion",
+    "Large vacuole",
+    "Cell membrane"
+   ],
+   "During photosynthesis in chloroplasts, water is split and oxygen is released."
+  ]
+ ],
+ "sciXsAnCellF": [
+  [
+   "Which animal cell part does this? Holds the chromosomes and directs cell activities",
+   "Nucleus",
+   [
+    "Ribosome",
+    "Lysosome",
+    "Cytoplasm"
+   ],
+   "The nucleus contains the chromosomes, whose DNA controls the cell's activities."
+  ],
+  [
+   "Which animal cell part does this? Uses oxygen to release energy from glucose",
+   "Mitochondrion",
+   [
+    "Nucleus",
+    "Ribosome",
+    "Cell membrane"
+   ],
+   "Mitochondria carry out aerobic respiration, using oxygen to release energy from glucose."
+  ],
+  [
+   "Which animal cell part does this? Thin, flexible outer boundary of the cell",
+   "Cell membrane",
+   [
+    "Cytoplasm",
+    "Nucleus",
+    "Lysosome"
+   ],
+   "Animal cells have no cell wall, so the flexible cell membrane is their outer boundary."
+  ],
+  [
+   "Which animal cell part does this? Builds proteins using instructions from the DNA",
+   "Ribosome",
+   [
+    "Lysosome",
+    "Mitochondrion",
+    "Cell membrane"
+   ],
+   "Ribosomes join amino acids in the order coded by the DNA to make proteins."
+  ],
+  [
+   "Which animal cell part does this? Contains digestive enzymes that break down old organelles",
+   "Lysosome",
+   [
+    "Ribosome",
+    "Nucleus",
+    "Mitochondrion"
+   ],
+   "Lysosomes are sacs of enzymes that digest worn-out cell parts and wastes."
+  ],
+  [
+   "Which animal cell part does this? Fluid that holds the organelles in place",
+   "Cytoplasm",
+   [
+    "Nucleus",
+    "Ribosome",
+    "Lysosome"
+   ],
+   "The cytoplasm fills the cell and surrounds the organelles."
+  ],
+  [
+   "Which animal cell part does this? Lets oxygen in and carbon dioxide out",
+   "Cell membrane",
+   [
+    "Lysosome",
+    "Ribosome",
+    "Nucleus"
+   ],
+   "Gases pass in and out of the cell through the cell membrane."
+  ],
+  [
+   "Which animal cell part does this? Found in large numbers in active muscle cells",
+   "Mitochondrion",
+   [
+    "Lysosome",
+    "Nucleus",
+    "Cell membrane"
+   ],
+   "Muscle cells need a lot of energy, so they contain many mitochondria."
+  ],
+  [
+   "Which animal cell part does this? Surrounded by an envelope with pores",
+   "Nucleus",
+   [
+    "Cytoplasm",
+    "Ribosome",
+    "Mitochondrion"
+   ],
+   "The nuclear envelope has pores that let materials pass between the nucleus and cytoplasm."
+  ],
+  [
+   "Which animal cell part does this? Destroys bacteria that a white blood cell swallows",
+   "Lysosome",
+   [
+    "Ribosome",
+    "Cell membrane",
+    "Nucleus"
+   ],
+   "In white blood cells, lysosomes fuse with swallowed bacteria and digest them."
+  ],
+  [
+   "Which animal cell part does this? Can be free in the cytoplasm or attached to the rough ER",
+   "Ribosome",
+   [
+    "Lysosome",
+    "Nucleus",
+    "Mitochondrion"
+   ],
+   "Ribosomes either float freely or stud the rough endoplasmic reticulum."
+  ],
+  [
+   "Which animal cell part does this? Has receptors that detect hormones outside the cell",
+   "Cell membrane",
+   [
+    "Ribosome",
+    "Lysosome",
+    "Cytoplasm"
+   ],
+   "Receptor proteins in the cell membrane bind to signals such as hormones."
+  ],
+  [
+   "Which animal cell part does this? Copies its DNA before the cell divides",
+   "Nucleus",
+   [
+    "Lysosome",
+    "Cytoplasm",
+    "Cell membrane"
+   ],
+   "Before division, the DNA in the nucleus is copied so each new cell gets a complete set."
+  ],
+  [
+   "Which animal cell part does this? Mostly water with dissolved salts and nutrients",
+   "Cytoplasm",
+   [
+    "Nucleus",
+    "Lysosome",
+    "Mitochondrion"
+   ],
+   "The cytoplasm is mainly water containing dissolved substances the cell uses."
+  ],
+  [
+   "Which animal cell part does this? Has its own small loop of DNA and a folded inner membrane",
+   "Mitochondrion",
+   [
+    "Nucleus",
+    "Ribosome",
+    "Lysosome"
+   ],
+   "Mitochondria contain their own DNA and have inner folds called cristae."
+  ],
+  [
+   "Which animal cell part does this? Makes the enzymes and hormones a cell sends out",
+   "Ribosome",
+   [
+    "Lysosome",
+    "Cytoplasm",
+    "Cell membrane"
+   ],
+   "Enzymes and many hormones are proteins, which are built by ribosomes."
+  ],
+  [
+   "Which animal cell part does this? Pinches in to take large particles into the cell",
+   "Cell membrane",
+   [
+    "Nucleus",
+    "Mitochondrion",
+    "Ribosome"
+   ],
+   "The cell membrane can fold around particles and bring them in, a process called endocytosis."
+  ],
+  [
+   "Which animal cell part does this? Recycles materials when a cell is starving",
+   "Lysosome",
+   [
+    "Ribosome",
+    "Nucleus",
+    "Cell membrane"
+   ],
+   "Lysosomes break down cell parts so their building blocks can be reused."
+  ],
+  [
+   "Which animal cell part does this? Contains the nucleolus",
+   "Nucleus",
+   [
+    "Mitochondrion",
+    "Lysosome",
+    "Cytoplasm"
+   ],
+   "The nucleolus is a dense region inside the nucleus that makes ribosome parts."
+  ],
+  [
+   "Which animal cell part does this? Gives off carbon dioxide and water as waste products",
+   "Mitochondrion",
+   [
+    "Ribosome",
+    "Lysosome",
+    "Nucleus"
+   ],
+   "Cellular respiration in mitochondria produces carbon dioxide and water."
+  ],
+  [
+   "Which animal cell part does this? Where glycolysis, the first step of respiration, happens",
+   "Cytoplasm",
+   [
+    "Nucleus",
+    "Ribosome",
+    "Lysosome"
+   ],
+   "Glycolysis splits glucose in the cytoplasm before the products enter the mitochondria."
+  ],
+  [
+   "Which animal cell part does this? Selectively permeable layer made of a double layer of lipids",
+   "Cell membrane",
+   [
+    "Lysosome",
+    "Ribosome",
+    "Mitochondrion"
+   ],
+   "The cell membrane is a lipid bilayer that lets some substances through but not others."
+  ]
+ ],
+ "sciXsOrgBody": [
+  [
+   "Which is a tissue?",
+   "Muscle tissue",
+   [
+    "The stomach",
+    "The digestive system",
+    "A single nerve cell"
+   ],
+   "Muscle tissue is a group of similar muscle cells working together."
+  ],
+  [
+   "Which is a cell?",
+   "A red blood cell",
+   [
+    "The heart",
+    "Bone tissue",
+    "The skeletal system"
+   ],
+   "A red blood cell is a single cell; the others are larger levels of organization."
+  ],
+  [
+   "Which is an organ system?",
+   "The nervous system",
+   [
+    "The brain",
+    "Nerve tissue",
+    "A neuron"
+   ],
+   "The nervous system is made of several organs, such as the brain and spinal cord, working together."
+  ],
+  [
+   "The brain, spinal cord and nerves make up the …",
+   "nervous system",
+   [
+    "digestive system",
+    "skeletal system",
+    "excretory system"
+   ],
+   "The brain, spinal cord and nerves carry and process signals as the nervous system."
+  ],
+  [
+   "Which organs belong to the digestive system?",
+   "Stomach and intestines",
+   [
+    "Heart and arteries",
+    "Lungs and trachea",
+    "Kidneys and bladder"
+   ],
+   "The stomach and intestines break down food and absorb nutrients."
+  ],
+  [
+   "Which organs belong to the excretory system?",
+   "Kidneys and bladder",
+   [
+    "Stomach and liver",
+    "Brain and spinal cord",
+    "Heart and veins"
+   ],
+   "The kidneys filter wastes from the blood and the bladder stores urine."
+  ],
+  [
+   "Which tissue carries electrical signals?",
+   "Nerve tissue",
+   [
+    "Epithelial tissue",
+    "Connective tissue",
+    "Muscle tissue"
+   ],
+   "Nerve tissue is made of neurons that carry electrical signals."
+  ],
+  [
+   "Which tissue can contract to cause movement?",
+   "Muscle tissue",
+   [
+    "Nerve tissue",
+    "Epithelial tissue",
+    "Connective tissue"
+   ],
+   "Muscle cells shorten when they contract, causing movement."
+  ],
+  [
+   "Bone, blood and fat are all examples of which type of tissue?",
+   "Connective tissue",
+   [
+    "Epithelial tissue",
+    "Nerve tissue",
+    "Muscle tissue"
+   ],
+   "Connective tissues support, connect or protect other parts of the body."
+  ],
+  [
+   "Which systems work together to let you move your arm?",
+   "Muscular and skeletal",
+   [
+    "Digestive and excretory",
+    "Respiratory and immune",
+    "Circulatory and digestive"
+   ],
+   "Muscles pull on bones to move the arm."
+  ],
+  [
+   "Which systems work together to get nutrients from food to cells?",
+   "Digestive and circulatory",
+   [
+    "Skeletal and muscular",
+    "Nervous and skeletal",
+    "Respiratory and excretory"
+   ],
+   "The digestive system breaks down food and the circulatory system carries the nutrients to cells."
+  ],
+  [
+   "Which system sends chemical messages called hormones?",
+   "The endocrine system",
+   [
+    "The skeletal system",
+    "The digestive system",
+    "The respiratory system"
+   ],
+   "Endocrine glands release hormones into the blood to control body activities."
+  ],
+  [
+   "What is the main job of the skeletal system?",
+   "To support and protect the body",
+   [
+    "To digest food",
+    "To exchange gases",
+    "To filter the blood"
+   ],
+   "Bones give the body its shape, support it and protect organs such as the brain."
+  ],
+  [
+   "Which organ is part of both the respiratory and digestive pathways?",
+   "The pharynx (throat)",
+   [
+    "The heart (pump)",
+    "The kidney (filter)",
+    "The femur (bone)"
+   ],
+   "Both air and food pass through the pharynx before going to the trachea or esophagus."
+  ],
+  [
+   "Which level of organization is the lung?",
+   "Organ",
+   [
+    "Cell",
+    "Tissue",
+    "Organ system"
+   ],
+   "The lung is made of several tissues working together, so it is an organ."
+  ],
+  [
+   "Which level of organization is a neuron?",
+   "Cell",
+   [
+    "Tissue",
+    "Organ",
+    "Organ system"
+   ],
+   "A neuron is a single nerve cell."
+  ],
+  [
+   "Which level of organization is the skin of your hand?",
+   "Organ",
+   [
+    "Cell",
+    "Organ system",
+    "Organism"
+   ],
+   "Skin is an organ made of epithelial, connective, nerve and other tissues."
+  ],
+  [
+   "Which system's main organs are the heart and blood vessels?",
+   "The circulatory system",
+   [
+    "The respiratory system",
+    "The excretory system",
+    "The nervous system"
+   ],
+   "The heart pumps blood through the blood vessels of the circulatory system."
+  ],
+  [
+   "What is homeostasis?",
+   "Keeping conditions inside the body stable",
+   [
+    "Growing taller each year",
+    "Breaking food into nutrients",
+    "Making new organ systems"
+   ],
+   "Homeostasis is how body systems work together to keep things like temperature and water balance steady."
+  ],
+  [
+   "When you get too hot, you sweat. Which system does sweat come from?",
+   "The integumentary system (skin)",
+   [
+    "The skeletal system (bones)",
+    "The digestive system (gut)",
+    "The immune system (defence)"
+   ],
+   "Sweat glands in the skin, part of the integumentary system, release sweat to cool you."
+  ],
+  [
+   "Which systems work together when you pull your hand away from a hot stove?",
+   "Nervous and muscular",
+   [
+    "Digestive and excretory",
+    "Respiratory and endocrine",
+    "Skeletal and digestive"
+   ],
+   "Nerves detect the heat and signal muscles to pull your hand away."
+  ],
+  [
+   "Several organ systems working together make up an …",
+   "organism",
+   [
+    "organ",
+    "tissue",
+    "organelle"
+   ],
+   "An organism, such as a person, is made of all its organ systems working together."
+  ]
+ ],
+ "sciXsHeart": [
+  [
+   "Which chambers pump blood out of the heart?",
+   "The ventricles",
+   [
+    "The atria",
+    "The capillaries",
+    "The veins"
+   ],
+   "The thick-walled ventricles contract to push blood out into the arteries."
+  ],
+  [
+   "Which blood vessels carry blood away from the heart?",
+   "Arteries",
+   [
+    "Veins",
+    "Capillaries",
+    "Venules"
+   ],
+   "Arteries carry blood away from the heart under high pressure."
+  ],
+  [
+   "Which blood vessels carry blood back to the heart?",
+   "Veins",
+   [
+    "Arteries",
+    "Capillaries",
+    "Arterioles"
+   ],
+   "Veins return blood to the heart's atria."
+  ],
+  [
+   "What is the job of the valves in the heart?",
+   "To stop blood from flowing backward",
+   [
+    "To make new red blood cells",
+    "To add oxygen to the blood",
+    "To filter wastes from the blood"
+   ],
+   "Heart valves close after each beat so blood flows in only one direction."
+  ],
+  [
+   "Why do many veins have valves?",
+   "Blood in veins is under low pressure and could flow backward",
+   [
+    "Veins carry blood away from the heart at high pressure",
+    "Valves add oxygen to the blood in veins",
+    "Valves make the blood in veins clot"
+   ],
+   "Blood pressure in veins is low, so valves keep blood moving toward the heart."
+  ],
+  [
+   "Where does blood pick up oxygen?",
+   "In the lungs",
+   [
+    "In the stomach",
+    "In the kidneys",
+    "In the liver"
+   ],
+   "Oxygen moves from the air sacs of the lungs into the blood in nearby capillaries."
+  ],
+  [
+   "Which blood vessel carries oxygen-poor blood from the heart to the lungs?",
+   "The pulmonary artery",
+   [
+    "The pulmonary vein",
+    "The aorta",
+    "The vena cava"
+   ],
+   "The pulmonary artery leaves the right ventricle and carries oxygen-poor blood to the lungs."
+  ],
+  [
+   "Which blood vessel brings oxygen-rich blood from the lungs back to the heart?",
+   "The pulmonary vein",
+   [
+    "The pulmonary artery",
+    "The vena cava",
+    "The coronary artery"
+   ],
+   "Pulmonary veins return oxygen-rich blood from the lungs to the left atrium."
+  ],
+  [
+   "Which large veins return oxygen-poor blood from the body to the right atrium?",
+   "The venae cavae",
+   [
+    "The pulmonary veins",
+    "The aortas",
+    "The coronary arteries"
+   ],
+   "The superior and inferior venae cavae bring blood from the body into the right atrium."
+  ],
+  [
+   "What do red blood cells carry?",
+   "Oxygen",
+   [
+    "Antibodies",
+    "Clotting proteins",
+    "Digestive enzymes"
+   ],
+   "Red blood cells contain hemoglobin, which binds and carries oxygen."
+  ],
+  [
+   "What do white blood cells do?",
+   "Fight infections",
+   [
+    "Carry oxygen",
+    "Help blood clot",
+    "Carry digested food"
+   ],
+   "White blood cells defend the body against germs."
+  ],
+  [
+   "What is plasma?",
+   "The liquid part of blood",
+   [
+    "A type of white blood cell",
+    "The wall of an artery",
+    "A chamber of the heart"
+   ],
+   "Plasma is the yellowish liquid that carries blood cells, nutrients and wastes."
+  ],
+  [
+   "Which order shows the path of blood leaving the left ventricle?",
+   "Aorta → arteries → capillaries → veins",
+   [
+    "Veins → capillaries → arteries → aorta",
+    "Capillaries → aorta → veins → arteries",
+    "Arteries → veins → aorta → capillaries"
+   ],
+   "Blood leaves through the aorta into arteries, then capillaries, then returns through veins."
+  ],
+  [
+   "Why is the human circulatory system called a double loop?",
+   "Blood passes through the heart twice per full circuit",
+   [
+    "Blood flows through two hearts",
+    "Each blood vessel has two walls",
+    "Blood is pumped twice per second"
+   ],
+   "One loop goes from the heart to the lungs and back, the other from the heart to the body and back."
+  ],
+  [
+   "Which blood vessels supply the heart muscle itself with oxygen?",
+   "Coronary arteries",
+   [
+    "Pulmonary arteries",
+    "Pulmonary veins",
+    "Venae cavae"
+   ],
+   "Coronary arteries branch off the aorta and feed the heart muscle."
+  ],
+  [
+   "A blocked coronary artery can cause a …",
+   "heart attack",
+   [
+    "broken bone",
+    "stomach ulcer",
+    "lung infection"
+   ],
+   "If a coronary artery is blocked, part of the heart muscle loses its oxygen supply and is damaged."
+  ],
+  [
+   "What happens to your heart rate during exercise?",
+   "It increases",
+   [
+    "It decreases",
+    "It stops",
+    "It stays exactly the same"
+   ],
+   "Working muscles need more oxygen, so the heart beats faster to deliver more blood."
+  ],
+  [
+   "Why are capillary walls only one cell thick?",
+   "So substances can pass through them easily",
+   [
+    "So they can hold blood at high pressure",
+    "So they can pump blood like the heart",
+    "So they can store extra blood"
+   ],
+   "Thin capillary walls let oxygen, nutrients and wastes move easily between blood and cells."
+  ],
+  [
+   "Which system works most closely with the circulatory system to remove carbon dioxide?",
+   "The respiratory system",
+   [
+    "The skeletal system",
+    "The digestive system",
+    "The integumentary system"
+   ],
+   "Blood carries carbon dioxide to the lungs, where the respiratory system breathes it out."
+  ],
+  [
+   "Which wall separates the left and right sides of the heart?",
+   "The septum",
+   [
+    "The aorta",
+    "The atrium",
+    "The capillary"
+   ],
+   "The septum is a muscular wall that keeps oxygen-rich and oxygen-poor blood apart."
+  ],
+  [
+   "Which has the thickest, most muscular walls?",
+   "Arteries",
+   [
+    "Veins",
+    "Capillaries",
+    "Venules"
+   ],
+   "Arteries have thick, elastic, muscular walls to handle the high pressure of blood from the heart."
+  ],
+  [
+   "Which habit helps keep the heart and blood vessels healthy?",
+   "Getting regular physical activity",
+   [
+    "Smoking cigarettes",
+    "Eating lots of salty snacks",
+    "Sitting for most of the day"
+   ],
+   "Regular exercise strengthens the heart and helps keep blood pressure healthy."
+  ]
+ ],
+ "sciNAT": [
+  [
+   "In natural selection, which individuals are most likely to pass on their genes?",
+   "Those best suited to their environment",
+   [
+    "The largest individuals every time",
+    "Those that live the shortest time",
+    "Those that try hardest to change"
+   ],
+   "Individuals with helpful traits survive and reproduce more, passing on more of their genes."
+  ],
+  [
+   "Where does new variation in a population ultimately come from?",
+   "Mutations in DNA",
+   [
+    "Using a body part more",
+    "The wishes of the organism",
+    "Changes during an organism's life"
+   ],
+   "Mutations create new alleles, which are the raw material for natural selection."
+  ],
+  [
+   "Giraffes stretching their necks and passing on longer necks is an idea that is …",
+   "not supported by evidence",
+   [
+    "the modern theory of evolution",
+    "Darwin's main argument",
+    "proven by fossils"
+   ],
+   "Traits gained during life are not passed to offspring; longer necks spread because of inherited variation and selection."
+  ],
+  [
+   "Bacteria in a population that survive an antibiotic and multiply show …",
+   "natural selection",
+   [
+    "artificial selection",
+    "photosynthesis",
+    "metamorphosis"
+   ],
+   "Resistant bacteria survive and reproduce, so resistance becomes more common through natural selection."
+  ],
+  [
+   "Why should you finish a full course of antibiotics as prescribed?",
+   "To avoid leaving resistant bacteria to multiply",
+   [
+    "To make the bacteria grow faster",
+    "To help the antibiotic mutate",
+    "To make your body produce antibiotics"
+   ],
+   "Stopping early can leave the toughest bacteria alive, helping resistance spread."
+  ],
+  [
+   "Breeders choosing which dogs to mate is an example of …",
+   "artificial selection",
+   [
+    "natural selection",
+    "extinction",
+    "camouflage"
+   ],
+   "When humans choose which organisms reproduce, it is called artificial or selective breeding."
+  ],
+  [
+   "What is the term for an organism's ability to survive and reproduce in its environment?",
+   "Fitness",
+   [
+    "Strength",
+    "Speed",
+    "Size"
+   ],
+   "In biology, fitness means how well an organism survives and passes on its genes."
+  ],
+  [
+   "Darwin studied finches on which islands?",
+   "The Galápagos Islands",
+   [
+    "The Hawaiian Islands",
+    "The Arctic Islands",
+    "The British Isles"
+   ],
+   "Darwin observed finches with different beaks on the Galápagos Islands."
+  ],
+  [
+   "Finches on different islands had different beak shapes because …",
+   "each beak suited the food on that island",
+   [
+    "the birds chose new beaks each year",
+    "all beaks changed at random every day",
+    "beaks are shaped by the weather each morning"
+   ],
+   "Birds with beaks suited to the local food survived better, so beak shapes differed between islands."
+  ],
+  [
+   "The white fur of an Arctic hare in winter helps it survive by providing …",
+   "camouflage in the snow",
+   [
+    "extra speed on ice",
+    "a way to find food",
+    "protection from the Sun"
+   ],
+   "White fur blends in with snow, making the hare harder for predators to spot."
+  ],
+  [
+   "What happens to a species if none of its members can survive a change in its environment?",
+   "It becomes extinct",
+   [
+    "It becomes more common",
+    "It grows larger",
+    "It stops needing food"
+   ],
+   "If no individuals have traits that let them survive, the species dies out."
+  ],
+  [
+   "Which is an example of a structural adaptation?",
+   "The thick blubber of a seal",
+   [
+    "A bear hibernating in winter",
+    "Geese flying south in fall",
+    "A possum playing dead"
+   ],
+   "Blubber is a physical body feature, so it is a structural adaptation."
+  ],
+  [
+   "Which is an example of a behavioural adaptation?",
+   "Caribou migrating to find food",
+   [
+    "The sharp claws of a lynx",
+    "The thick fur of a polar bear",
+    "The long ears of a hare"
+   ],
+   "Migration is something an animal does, so it is a behavioural adaptation."
+  ],
+  [
+   "Why does natural selection need traits to be inherited?",
+   "Only inherited traits can be passed to offspring",
+   [
+    "Inherited traits never change at all",
+    "Inherited traits are always helpful",
+    "Inherited traits only appear in adults"
+   ],
+   "Selection changes a population only if the helpful traits are passed from parents to offspring."
+  ],
+  [
+   "Organisms produce more offspring than can survive. This leads to …",
+   "competition for resources",
+   [
+    "unlimited food for all",
+    "every offspring surviving",
+    "an end to variation"
+   ],
+   "Limited resources mean not all offspring survive, so individuals compete."
+  ],
+  [
+   "Bones with the same basic structure in a human arm, a bat wing and a whale flipper are evidence of …",
+   "common ancestry",
+   [
+    "identical diets",
+    "the same habitat",
+    "artificial selection"
+   ],
+   "Homologous structures suggest these animals inherited the same bone pattern from a common ancestor."
+  ],
+  [
+   "Which kind of rock layer usually holds the oldest fossils?",
+   "The deepest layer",
+   [
+    "The top layer",
+    "The middle layer only",
+    "Any layer, at random"
+   ],
+   "In undisturbed rock, deeper layers formed first, so they hold older fossils."
+  ],
+  [
+   "Over many generations, natural selection changes …",
+   "a population",
+   [
+    "one individual's DNA",
+    "the weather",
+    "the shape of rocks"
+   ],
+   "Individuals do not evolve; the frequency of traits in a population changes over time."
+  ],
+  [
+   "Peppered moths became lighter again after air pollution was reduced. Why?",
+   "Light moths were better hidden on clean trees",
+   [
+    "Dark moths chose to change colour",
+    "Moths learned to avoid trees",
+    "All the moths became one colour overnight"
+   ],
+   "On clean, pale bark, light moths were harder for birds to see, so they survived better."
+  ],
+  [
+   "What is a mutation?",
+   "A change in an organism's DNA",
+   [
+    "A trait learned from parents",
+    "A move to a new habitat",
+    "A type of fossil"
+   ],
+   "A mutation is a change in the DNA sequence, which may produce a new trait."
+  ],
+  [
+   "Insect pests that survive a pesticide and breed show …",
+   "pesticide resistance spreading",
+   [
+    "pesticides creating new insects",
+    "insects learning to read labels",
+    "pesticides making insects bigger"
+   ],
+   "The survivors pass on their resistance, so over time more of the population is resistant."
+  ],
+  [
+   "Who, along with Darwin, also came up with the idea of natural selection?",
+   "Alfred Russel Wallace",
+   [
+    "Gregor Mendel",
+    "Louis Pasteur",
+    "Marie Curie"
+   ],
+   "Alfred Russel Wallace independently developed the idea of natural selection at about the same time as Darwin."
+  ]
+ ],
+ "sciGenVoc": [
+  [
+   "What is AA ?",
+   "Homozygous dominant genotype",
+   [
+    "Observable phenotype",
+    "Heterozygous genotype",
+    "Homozygous recessive genotype"
+   ],
+   "AA has two identical dominant alleles, so it is homozygous dominant."
+  ],
+  [
+   "What is Aa ?",
+   "Heterozygous genotype",
+   [
+    "Observable phenotype",
+    "Homozygous dominant genotype",
+    "Homozygous recessive genotype"
+   ],
+   "Aa has one dominant and one recessive allele, so it is heterozygous."
+  ],
+  [
+   "What is aa ?",
+   "Homozygous recessive genotype",
+   [
+    "Observable phenotype",
+    "Homozygous dominant genotype",
+    "Heterozygous genotype"
+   ],
+   "aa has two recessive alleles, so it is homozygous recessive."
+  ],
+  [
+   "What is RR ?",
+   "Homozygous dominant genotype",
+   [
+    "Observable phenotype",
+    "Heterozygous genotype",
+    "Homozygous recessive genotype"
+   ],
+   "RR has two copies of the dominant allele R."
+  ],
+  [
+   "What is rr ?",
+   "Homozygous recessive genotype",
+   [
+    "Observable phenotype",
+    "Homozygous dominant genotype",
+    "Heterozygous genotype"
+   ],
+   "rr has two copies of the recessive allele r."
+  ],
+  [
+   "What is Gg ?",
+   "Heterozygous genotype",
+   [
+    "Observable phenotype",
+    "Homozygous dominant genotype",
+    "Homozygous recessive genotype"
+   ],
+   "Gg carries two different alleles, one dominant and one recessive."
+  ],
+  [
+   "What is TT ?",
+   "Homozygous dominant genotype",
+   [
+    "Observable phenotype",
+    "Heterozygous genotype",
+    "Homozygous recessive genotype"
+   ],
+   "TT has two identical dominant alleles."
+  ],
+  [
+   "What is round seeds ?",
+   "Observable phenotype",
+   [
+    "Homozygous dominant genotype",
+    "Heterozygous genotype",
+    "Homozygous recessive genotype"
+   ],
+   "Round seeds is an observable trait, so it is a phenotype."
+  ],
+  [
+   "What is purple flowers ?",
+   "Observable phenotype",
+   [
+    "Homozygous dominant genotype",
+    "Heterozygous genotype",
+    "Homozygous recessive genotype"
+   ],
+   "Flower colour is a trait you can see, so it is a phenotype."
+  ],
+  [
+   "What is blood type O ?",
+   "Observable phenotype",
+   [
+    "Homozygous dominant genotype",
+    "Heterozygous genotype",
+    "Homozygous recessive genotype"
+   ],
+   "A blood type is a characteristic you can test for, so it is a phenotype."
+  ],
+  [
+   "What is curly hair ?",
+   "Observable phenotype",
+   [
+    "Homozygous dominant genotype",
+    "Heterozygous genotype",
+    "Homozygous recessive genotype"
+   ],
+   "Curly hair is an observable characteristic, so it is a phenotype."
+  ],
+  [
+   "What is Pp ?",
+   "Heterozygous genotype",
+   [
+    "Observable phenotype",
+    "Homozygous dominant genotype",
+    "Homozygous recessive genotype"
+   ],
+   "Pp has one dominant P and one recessive p allele."
+  ],
+  [
+   "What is ee ?",
+   "Homozygous recessive genotype",
+   [
+    "Observable phenotype",
+    "Homozygous dominant genotype",
+    "Heterozygous genotype"
+   ],
+   "ee has two identical recessive alleles."
+  ],
+  [
+   "What is an allele?",
+   "One version of a gene",
+   [
+    "A whole set of chromosomes",
+    "A trait you can see",
+    "A cell that makes eggs"
+   ],
+   "Alleles are different forms of the same gene, such as tall or short."
+  ],
+  [
+   "What does <strong>dominant</strong>, the word in bold, mean for an allele?",
+   "It shows its trait even with one copy",
+   [
+    "It shows its trait only with two copies",
+    "It is never passed to offspring",
+    "It only appears in males"
+   ],
+   "A dominant allele is expressed whenever at least one copy is present."
+  ],
+  [
+   "What does <strong>recessive</strong>, the word in bold, mean for an allele?",
+   "It shows its trait only with two copies",
+   [
+    "It shows its trait even with one copy",
+    "It blends with the other allele",
+    "It is always harmful"
+   ],
+   "A recessive allele is hidden unless an organism has two copies of it."
+  ],
+  [
+   "What is the genotype of an organism?",
+   "The alleles it has for a trait",
+   [
+    "The trait you can observe",
+    "The habitat where it lives",
+    "The number of cells it has"
+   ],
+   "The genotype is the genetic makeup, such as Bb, for a trait."
+  ],
+  [
+   "What is the phenotype of an organism?",
+   "The trait you can observe",
+   [
+    "The alleles it has for a trait",
+    "The DNA in one chromosome",
+    "The letters used in a Punnett square"
+   ],
+   "The phenotype is the physical or observable characteristic, such as brown eyes."
+  ],
+  [
+   "Tall (T) is dominant over short (t). What is the phenotype of a Tt plant?",
+   "Tall",
+   [
+    "Short",
+    "Medium height",
+    "Half tall, half short"
+   ],
+   "The dominant T allele is expressed, so a Tt plant is tall."
+  ],
+  [
+   "Purple (P) is dominant over white (p). Which genotype gives white flowers?",
+   "pp",
+   [
+    "PP",
+    "Pp",
+    "pP"
+   ],
+   "Only two recessive alleles, pp, produce the recessive white phenotype."
+  ],
+  [
+   "Brown eyes (B) are dominant over blue (b). Which genotypes give brown eyes?",
+   "BB and Bb",
+   [
+    "Bb and bb",
+    "Only bb",
+    "Only Bb"
+   ],
+   "Any genotype with at least one dominant B allele shows brown eyes."
+  ],
+  [
+   "Two organisms both have purple flowers, but one is PP and one is Pp. They have the same …",
+   "phenotype",
+   [
+    "genotype",
+    "alleles",
+    "homozygous pair"
+   ],
+   "They look the same, so they share a phenotype, but their genotypes differ."
+  ]
+ ],
+ "sciXsInquiry": [
+  [
+   "What is the independent variable in an experiment?",
+   "The variable the scientist changes on purpose",
+   [
+    "The variable that is measured as a result",
+    "The variable kept the same in every trial",
+    "The variable that cannot be controlled"
+   ],
+   "The independent (manipulated) variable is the one the experimenter deliberately changes."
+  ],
+  [
+   "What is the dependent variable in an experiment?",
+   "The variable measured to see the effect",
+   [
+    "The variable the scientist changes on purpose",
+    "The variable kept the same in every trial",
+    "The variable chosen after the results"
+   ],
+   "The dependent (responding) variable is what you measure to see how it responds."
+  ],
+  [
+   "What are controlled variables?",
+   "Factors kept the same in every trial",
+   [
+    "Factors changed on purpose each trial",
+    "Results measured at the end",
+    "Guesses made before testing"
+   ],
+   "Keeping other factors constant makes it a fair test of the independent variable."
+  ],
+  [
+   "A student tests how fertilizer amount affects plant height. What is the dependent variable?",
+   "Plant height",
+   [
+    "Amount of fertilizer",
+    "Type of pot used",
+    "Amount of water given"
+   ],
+   "Plant height is measured to see the effect of the fertilizer."
+  ],
+  [
+   "A student tests how fertilizer amount affects plant height. What is the independent variable?",
+   "Amount of fertilizer",
+   [
+    "Plant height",
+    "Amount of sunlight",
+    "Type of soil used"
+   ],
+   "The fertilizer amount is what the student changes on purpose."
+  ],
+  [
+   "Why do scientists repeat trials?",
+   "To make results more reliable",
+   [
+    "To change the hypothesis each time",
+    "To make the experiment take longer",
+    "To get the answer they want"
+   ],
+   "Repeated trials reduce the effect of random errors and show whether results are consistent."
+  ],
+  [
+   "What is the purpose of a control group?",
+   "To compare results with a group that gets no treatment",
+   [
+    "To make sure every group gets the treatment",
+    "To replace the need for measurements",
+    "To decide the hypothesis after testing"
+   ],
+   "A control group shows what happens without the independent variable, so effects can be compared."
+  ],
+  [
+   "Which is a testable question?",
+   "Does water temperature affect how fast sugar dissolves?",
+   [
+    "Is blue the best colour in the world?",
+    "Why do people like summer more than winter?",
+    "Which song is the most beautiful?"
+   ],
+   "A testable question can be answered by changing a variable and measuring a result."
+  ],
+  [
+   "Which hypothesis is written as a testable prediction?",
+   "If light increases, then the plant will grow taller",
+   [
+    "Plants are probably nice to have around",
+    "Light is a type of plant food for sure",
+    "Plants and light are interesting to study"
+   ],
+   "An \"if…then\" statement predicts a measurable result of changing a variable."
+  ],
+  [
+   "What is an observation?",
+   "Information gathered using the senses or instruments",
+   [
+    "A guess made before an experiment",
+    "A theory accepted by all scientists",
+    "A rule that can never change"
+   ],
+   "Observations are what you see, hear, measure or record during an investigation."
+  ],
+  [
+   "Which is a quantitative observation?",
+   "The water is 25 °C",
+   [
+    "The water looks cloudy",
+    "The water smells strange",
+    "The water feels warm"
+   ],
+   "Quantitative observations involve numbers and measurements."
+  ],
+  [
+   "Which is a qualitative observation?",
+   "The solution turned blue",
+   [
+    "The solution has a mass of 40 g",
+    "The solution's volume is 50 mL",
+    "The solution is at 30 °C"
+   ],
+   "Qualitative observations describe qualities like colour without using numbers."
+  ],
+  [
+   "What is an inference?",
+   "A logical explanation based on observations",
+   [
+    "A measurement taken with a tool",
+    "A list of materials needed",
+    "A drawing of the apparatus"
+   ],
+   "An inference interprets observations to explain what is happening."
+  ],
+  [
+   "What is a scientific law?",
+   "A description of what always happens under certain conditions",
+   [
+    "A guess that has not been tested",
+    "An explanation that has been disproved",
+    "A rule voted on by a government"
+   ],
+   "A law, like the law of conservation of mass, describes a pattern found in nature without explaining why."
+  ],
+  [
+   "Why is peer review important in science?",
+   "Other experts check the work for errors",
+   [
+    "It keeps results secret from the public",
+    "It lets scientists skip experiments",
+    "It makes every hypothesis correct"
+   ],
+   "Peer review lets other scientists examine methods and conclusions before work is published."
+  ],
+  [
+   "Why should an experiment test only one independent variable at a time?",
+   "So you know what caused any change",
+   [
+    "So the experiment finishes faster",
+    "So you need fewer measurements",
+    "So the hypothesis is always supported"
+   ],
+   "If several factors change at once, you cannot tell which one caused the result."
+  ],
+  [
+   "What type of graph is best for showing how a measurement changes over time?",
+   "Line graph",
+   [
+    "Pie chart",
+    "Pictograph",
+    "Venn diagram"
+   ],
+   "Line graphs show trends in continuous data, such as change over time."
+  ],
+  [
+   "A conclusion should …",
+   "state whether the data support the hypothesis",
+   [
+    "repeat the list of materials",
+    "describe the safety rules",
+    "add new data that was not collected"
+   ],
+   "A conclusion summarizes what the results show about the hypothesis."
+  ],
+  [
+   "A larger sample size in an experiment usually makes the results …",
+   "more reliable",
+   [
+    "less reliable",
+    "always wrong",
+    "impossible to graph"
+   ],
+   "More test subjects reduce the effect of unusual individual results."
+  ],
+  [
+   "What is a source of error?",
+   "Something that may have affected the accuracy of results",
+   [
+    "The variable you change on purpose",
+    "The final answer of the experiment",
+    "The question you are trying to answer"
+   ],
+   "Sources of error, like inaccurate measuring, can make results less accurate."
+  ],
+  [
+   "Which tool would you use to measure the volume of a liquid accurately?",
+   "Graduated cylinder",
+   [
+    "Thermometer",
+    "Metre stick",
+    "Balance"
+   ],
+   "A graduated cylinder is marked in millilitres for measuring liquid volume."
+  ],
+  [
+   "What is a model in science?",
+   "A simplified representation of a real thing or idea",
+   [
+    "An exact copy that has no limits",
+    "A guess with no evidence behind it",
+    "A final law that cannot change"
+   ],
+   "Models, like a diagram of an atom, help explain things that are too big, small or complex to see directly."
+  ]
+ ],
+ "sciXsMicro": [
+  [
+   "Which part of the microscope is this? The clips that hold the slide in place on the stage",
+   "Stage clips",
+   [
+    "Diaphragm",
+    "Nosepiece",
+    "Arm"
+   ],
+   "Stage clips hold the slide steady so it does not move while you look."
+  ],
+  [
+   "Which part of the microscope is this? The rotating part that holds the objective lenses",
+   "Revolving nosepiece",
+   [
+    "Stage",
+    "Diaphragm",
+    "Base"
+   ],
+   "Turning the revolving nosepiece switches between objective lenses."
+  ],
+  [
+   "Which part of the microscope is this? The curved part you hold with one hand when carrying it",
+   "Arm",
+   [
+    "Base",
+    "Stage",
+    "Eyepiece"
+   ],
+   "You carry a microscope by the arm, with your other hand under the base."
+  ],
+  [
+   "Which part of the microscope is this? The flat bottom that supports the whole microscope",
+   "Base",
+   [
+    "Arm",
+    "Stage",
+    "Nosepiece"
+   ],
+   "The base keeps the microscope steady and supports it from underneath."
+  ],
+  [
+   "Which part of the microscope is this? The lamp or mirror under the stage that sends light up through the slide",
+   "Light source",
+   [
+    "Diaphragm",
+    "Eyepiece",
+    "Coarse focus knob"
+   ],
+   "The light source shines up through the specimen so you can see it."
+  ],
+  [
+   "Which part of the microscope is this? The tube that connects the eyepiece to the objective lenses",
+   "Body tube",
+   [
+    "Arm",
+    "Base",
+    "Stage"
+   ],
+   "The body tube holds the eyepiece at the right distance from the objectives."
+  ],
+  [
+   "Which part of the microscope is this? The shortest objective lens, used first to find the specimen",
+   "Low-power objective",
+   [
+    "High-power objective",
+    "Eyepiece",
+    "Diaphragm"
+   ],
+   "You start with the low-power objective because it has the widest field of view."
+  ],
+  [
+   "Which part of the microscope is this? The longest objective lens, which magnifies the most",
+   "High-power objective",
+   [
+    "Low-power objective",
+    "Eyepiece",
+    "Body tube"
+   ],
+   "The high-power objective is longest and gives the greatest magnification."
+  ],
+  [
+   "Which part of the microscope is this? The knob you should never use with the high-power objective",
+   "Coarse focus knob",
+   [
+    "Fine focus knob",
+    "Diaphragm",
+    "Revolving nosepiece"
+   ],
+   "The coarse knob moves the stage a lot and could crack the slide against the high-power lens."
+  ],
+  [
+   "Which part of the microscope is this? The knob used to make small focus adjustments",
+   "Fine focus knob",
+   [
+    "Coarse focus knob",
+    "Revolving nosepiece",
+    "Stage clips"
+   ],
+   "The fine focus knob moves the stage only slightly for sharp focus."
+  ],
+  [
+   "Which part of the microscope is this? The platform with a hole in the middle for light to pass through",
+   "Stage",
+   [
+    "Base",
+    "Arm",
+    "Diaphragm"
+   ],
+   "The stage has an opening so light from below can pass through the slide."
+  ],
+  [
+   "Which part of the microscope is this? The part you adjust to make the image brighter or dimmer",
+   "Diaphragm",
+   [
+    "Fine focus knob",
+    "Stage clips",
+    "Body tube"
+   ],
+   "Opening or closing the diaphragm changes how much light reaches the specimen."
+  ],
+  [
+   "Which part of the microscope is this? The lens closest to your eye",
+   "Eyepiece",
+   [
+    "Low-power objective",
+    "High-power objective",
+    "Condenser"
+   ],
+   "The eyepiece, or ocular lens, is at the top of the body tube where you look in."
+  ],
+  [
+   "Which part of the microscope is this? The lens under the stage that focuses light onto the specimen",
+   "Condenser",
+   [
+    "Eyepiece",
+    "Low-power objective",
+    "Body tube"
+   ],
+   "The condenser gathers and focuses light from the source onto the slide."
+  ],
+  [
+   "Which part of the microscope is this? The lenses closest to the slide",
+   "Objective lenses",
+   [
+    "Eyepiece",
+    "Condenser",
+    "Diaphragm"
+   ],
+   "Objective lenses sit just above the slide on the nosepiece."
+  ],
+  [
+   "Which part of the microscope is this? The part whose magnification is multiplied by the objective to give total magnification",
+   "Eyepiece",
+   [
+    "Stage",
+    "Diaphragm",
+    "Condenser"
+   ],
+   "Total magnification equals eyepiece magnification times objective magnification."
+  ],
+  [
+   "Which part of the microscope is this? The part you turn to click a different objective into place",
+   "Revolving nosepiece",
+   [
+    "Fine focus knob",
+    "Stage clips",
+    "Diaphragm"
+   ],
+   "Rotating the nosepiece swaps objectives until one clicks into position."
+  ],
+  [
+   "Which part of the microscope is this? The part you should hold underneath while carrying the microscope",
+   "Base",
+   [
+    "Stage",
+    "Eyepiece",
+    "Nosepiece"
+   ],
+   "Supporting the base with one hand keeps the microscope from tipping or dropping."
+  ],
+  [
+   "Which part of the microscope is this? The 40× lens used to see small details",
+   "High-power objective",
+   [
+    "Low-power objective",
+    "Eyepiece",
+    "Condenser"
+   ],
+   "The 40× objective is the high-power lens used to see fine detail."
+  ],
+  [
+   "Which part of the microscope is this? The knob used first, at low power, to bring the specimen roughly into view",
+   "Coarse focus knob",
+   [
+    "Fine focus knob",
+    "Diaphragm",
+    "Revolving nosepiece"
+   ],
+   "At low power you first use the coarse focus knob to find the specimen."
+  ],
+  [
+   "Which part of the microscope is this? The part that holds the body tube above the base and stage",
+   "Arm",
+   [
+    "Stage clips",
+    "Condenser",
+    "Diaphragm"
+   ],
+   "The arm connects the upper parts of the microscope to the base."
+  ],
+  [
+   "Which part of the microscope is this? The part you turn off or unplug before putting the microscope away",
+   "Light source",
+   [
+    "Stage",
+    "Arm",
+    "Diaphragm"
+   ],
+   "The light source uses electricity, so it should be switched off and unplugged after use."
+  ]
+ ],
+ "sciBondT": [
+  [
+   "What type of bond holds the atoms together in LiF ?",
+   "Ionic bond",
+   [
+    "Covalent bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Lithium is a metal and fluorine is a non-metal, so electrons are transferred to form ions."
+  ],
+  [
+   "What type of bond holds the atoms together in Na₂O ?",
+   "Ionic bond",
+   [
+    "Covalent bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Sodium (a metal) gives electrons to oxygen (a non-metal), forming an ionic compound."
+  ],
+  [
+   "What type of bond holds the atoms together in CaCl₂ ?",
+   "Ionic bond",
+   [
+    "Covalent bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Calcium is a metal and chlorine is a non-metal, so they form an ionic bond."
+  ],
+  [
+   "What type of bond holds the atoms together in K₂S ?",
+   "Ionic bond",
+   [
+    "Covalent bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Potassium transfers electrons to sulfur, a non-metal, forming ions."
+  ],
+  [
+   "What type of bond holds the atoms together in BaO ?",
+   "Ionic bond",
+   [
+    "Covalent bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Barium is a metal and oxygen is a non-metal, so the bond is ionic."
+  ],
+  [
+   "What type of bond holds the atoms together in MgCl₂ ?",
+   "Ionic bond",
+   [
+    "Covalent bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Magnesium loses electrons to chlorine, forming Mg²⁺ and Cl⁻ ions."
+  ],
+  [
+   "What type of bond holds the atoms together in SrBr₂ ?",
+   "Ionic bond",
+   [
+    "Covalent bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Strontium is a metal and bromine is a non-metal, so the bond is ionic."
+  ],
+  [
+   "What type of bond holds the atoms together in N₂ ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Two nitrogen atoms are both non-metals, so they share electrons."
+  ],
+  [
+   "What type of bond holds the atoms together in Cl₂ ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Two chlorine atoms share a pair of electrons in a covalent bond."
+  ],
+  [
+   "What type of bond holds the atoms together in SO₂ ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Sulfur and oxygen are both non-metals, so they share electrons."
+  ],
+  [
+   "What type of bond holds the atoms together in CCl₄ ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Carbon and chlorine are non-metals, so their atoms are joined by shared electrons."
+  ],
+  [
+   "What type of bond holds the atoms together in PCl₃ ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Phosphorus and chlorine are both non-metals, forming covalent bonds."
+  ],
+  [
+   "What type of bond holds the atoms together in CS₂ ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Carbon and sulfur are non-metals, so the molecule is held together by covalent bonds."
+  ],
+  [
+   "What type of bond holds the atoms together in O₂ ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Two oxygen atoms share two pairs of electrons in a double covalent bond."
+  ],
+  [
+   "What type of bond holds the atoms together in SiO₂ (quartz) ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Silicon and oxygen are non-metals joined by shared electrons in a giant covalent network."
+  ],
+  [
+   "What type of bond holds the atoms together in an aluminum pop can ?",
+   "Metallic bond",
+   [
+    "Ionic bond",
+    "Covalent bond",
+    "Hydrogen bond"
+   ],
+   "Aluminum is a metal, so its atoms are held together by a sea of shared, mobile electrons."
+  ],
+  [
+   "What type of bond holds the atoms together in a silver ring ?",
+   "Metallic bond",
+   [
+    "Ionic bond",
+    "Covalent bond",
+    "Hydrogen bond"
+   ],
+   "Silver atoms in the metal are held together by metallic bonding."
+  ],
+  [
+   "What type of bond holds the atoms together in a gold nugget ?",
+   "Metallic bond",
+   [
+    "Ionic bond",
+    "Covalent bond",
+    "Hydrogen bond"
+   ],
+   "Gold is a pure metal, so its atoms share a sea of delocalized electrons."
+  ],
+  [
+   "What type of bond holds the atoms together in a zinc strip ?",
+   "Metallic bond",
+   [
+    "Ionic bond",
+    "Covalent bond",
+    "Hydrogen bond"
+   ],
+   "Zinc is a metal, so metallic bonds hold its atoms together."
+  ],
+  [
+   "What type of bond holds the atoms together in a brass doorknob (copper + zinc) ?",
+   "Metallic bond",
+   [
+    "Ionic bond",
+    "Covalent bond",
+    "Hydrogen bond"
+   ],
+   "Brass is an alloy of two metals, so its atoms are held by metallic bonds."
+  ],
+  [
+   "What type of bond holds the atoms together in a lump of sodium metal ?",
+   "Metallic bond",
+   [
+    "Ionic bond",
+    "Covalent bond",
+    "Hydrogen bond"
+   ],
+   "Sodium is a metal; in the pure element its atoms are joined by metallic bonds."
+  ],
+  [
+   "What type of bond holds the atoms together in NO₂ ?",
+   "Covalent bond",
+   [
+    "Ionic bond",
+    "Metallic bond",
+    "Hydrogen bond"
+   ],
+   "Nitrogen and oxygen are both non-metals, so they share electrons."
+  ]
+ ],
+ "sciXsPolyName": [
+  [
+   "What is the name of KNO₂?",
+   "Potassium nitrite",
+   [
+    "Potassium nitrate",
+    "Potassium nitride",
+    "Potassium nitrogen dioxide"
+   ],
+   "NO₂⁻ is the nitrite ion, so KNO₂ is potassium nitrite."
+  ],
+  [
+   "What is the name of Na₂SO₃?",
+   "Sodium sulfite",
+   [
+    "Sodium sulfate",
+    "Sodium sulfide",
+    "Disodium sulfur trioxide"
+   ],
+   "SO₃²⁻ is the sulfite ion, so Na₂SO₃ is sodium sulfite."
+  ],
+  [
+   "What is the name of Ca₃(PO₄)₂?",
+   "Calcium phosphate",
+   [
+    "Calcium phosphide",
+    "Calcium phosphite",
+    "Tricalcium phosphorus oxide"
+   ],
+   "PO₄³⁻ is the phosphate ion, so the compound is calcium phosphate."
+  ],
+  [
+   "What is the name of LiOH?",
+   "Lithium hydroxide",
+   [
+    "Lithium oxide",
+    "Lithium hydride",
+    "Lithium peroxide"
+   ],
+   "OH⁻ is the hydroxide ion, so LiOH is lithium hydroxide."
+  ],
+  [
+   "What is the name of KMnO₄?",
+   "Potassium permanganate",
+   [
+    "Potassium manganate oxide",
+    "Potassium manganese oxide",
+    "Potassium manganide"
+   ],
+   "MnO₄⁻ is the permanganate ion, so KMnO₄ is potassium permanganate."
+  ],
+  [
+   "What is the name of NaClO₃?",
+   "Sodium chlorate",
+   [
+    "Sodium chlorite",
+    "Sodium chloride",
+    "Sodium perchlorate"
+   ],
+   "ClO₃⁻ is the chlorate ion, so NaClO₃ is sodium chlorate."
+  ],
+  [
+   "What is the name of NaClO?",
+   "Sodium hypochlorite",
+   [
+    "Sodium chlorate",
+    "Sodium chloride",
+    "Sodium perchlorate"
+   ],
+   "ClO⁻ is the hypochlorite ion, so NaClO (found in bleach) is sodium hypochlorite."
+  ],
+  [
+   "What is the name of KClO₄?",
+   "Potassium perchlorate",
+   [
+    "Potassium chlorate",
+    "Potassium chlorite",
+    "Potassium hypochlorite"
+   ],
+   "ClO₄⁻ is the perchlorate ion, so KClO₄ is potassium perchlorate."
+  ],
+  [
+   "What is the name of (NH₄)₂SO₄?",
+   "Ammonium sulfate",
+   [
+    "Ammonia sulfate",
+    "Ammonium sulfide",
+    "Ammonium sulfite"
+   ],
+   "NH₄⁺ is ammonium and SO₄²⁻ is sulfate, giving ammonium sulfate."
+  ],
+  [
+   "What is the name of BaSO₄?",
+   "Barium sulfate",
+   [
+    "Barium sulfite",
+    "Barium sulfide",
+    "Barium sulfur oxide"
+   ],
+   "SO₄²⁻ is the sulfate ion, so BaSO₄ is barium sulfate."
+  ],
+  [
+   "What is the name of K₂CrO₄?",
+   "Potassium chromate",
+   [
+    "Potassium dichromate",
+    "Potassium chromide",
+    "Potassium chromite"
+   ],
+   "CrO₄²⁻ is the chromate ion, so K₂CrO₄ is potassium chromate."
+  ],
+  [
+   "What is the name of K₂Cr₂O₇?",
+   "Potassium dichromate",
+   [
+    "Potassium chromate",
+    "Potassium dichromide",
+    "Potassium chromium oxide"
+   ],
+   "Cr₂O₇²⁻ is the dichromate ion, so K₂Cr₂O₇ is potassium dichromate."
+  ],
+  [
+   "What is the name of NaCH₃COO?",
+   "Sodium acetate",
+   [
+    "Sodium carbonate",
+    "Sodium carbide",
+    "Sodium methane oxide"
+   ],
+   "CH₃COO⁻ is the acetate ion, so NaCH₃COO is sodium acetate."
+  ],
+  [
+   "What is the name of NaCN?",
+   "Sodium cyanide",
+   [
+    "Sodium carbonate",
+    "Sodium nitride",
+    "Sodium carbide"
+   ],
+   "CN⁻ is the cyanide ion, so NaCN is sodium cyanide."
+  ],
+  [
+   "What is the name of Ca(OH)₂?",
+   "Calcium hydroxide",
+   [
+    "Calcium oxide",
+    "Calcium hydride",
+    "Calcium dihydrogen oxide"
+   ],
+   "Two OH⁻ hydroxide ions balance Ca²⁺, giving calcium hydroxide."
+  ],
+  [
+   "What is the name of Li₂CO₃?",
+   "Lithium carbonate",
+   [
+    "Lithium carbide",
+    "Lithium carbon oxide",
+    "Lithium hydrogen carbonate"
+   ],
+   "CO₃²⁻ is the carbonate ion, so Li₂CO₃ is lithium carbonate."
+  ],
+  [
+   "What is the name of NH₄NO₃?",
+   "Ammonium nitrate",
+   [
+    "Ammonium nitrite",
+    "Ammonia nitrate",
+    "Ammonium nitride"
+   ],
+   "NH₄⁺ is ammonium and NO₃⁻ is nitrate, giving ammonium nitrate."
+  ],
+  [
+   "What is the name of CuSO₄?",
+   "Copper(II) sulfate",
+   [
+    "Copper(I) sulfate",
+    "Copper(II) sulfide",
+    "Copper(II) sulfite"
+   ],
+   "SO₄²⁻ has a 2− charge, so copper is Cu²⁺, giving copper(II) sulfate."
+  ],
+  [
+   "What is the name of Fe(OH)₃?",
+   "Iron(III) hydroxide",
+   [
+    "Iron(II) hydroxide",
+    "Iron(III) oxide",
+    "Iron(III) hydride"
+   ],
+   "Three OH⁻ ions balance one iron ion, so iron is Fe³⁺: iron(III) hydroxide."
+  ],
+  [
+   "What is the name of Na₃PO₄?",
+   "Sodium phosphate",
+   [
+    "Sodium phosphide",
+    "Sodium phosphite",
+    "Trisodium phosphorus oxide"
+   ],
+   "PO₄³⁻ is the phosphate ion, so Na₃PO₄ is sodium phosphate."
+  ],
+  [
+   "What is the name of Mg(NO₃)₂?",
+   "Magnesium nitrate",
+   [
+    "Magnesium nitrite",
+    "Magnesium nitride",
+    "Magnesium dinitrogen oxide"
+   ],
+   "NO₃⁻ is the nitrate ion, so Mg(NO₃)₂ is magnesium nitrate."
+  ],
+  [
+   "What is the name of NaHCO₃?",
+   "Sodium hydrogen carbonate",
+   [
+    "Sodium hydrogen carbide",
+    "Sodium hydroxide carbonate",
+    "Sodium carbon hydroxide"
+   ],
+   "HCO₃⁻ is the hydrogen carbonate ion, so NaHCO₃ (baking soda) is sodium hydrogen carbonate."
+  ]
+ ],
+ "sciNameCov": [
+  [
+   "What is the formula for sulfur dioxide ?",
+   "SO₂",
+   [
+    "S₂O",
+    "SO₃",
+    "S₂O₂"
+   ],
+   "\"Di\" means two, so sulfur dioxide has one sulfur and two oxygen atoms."
+  ],
+  [
+   "What is the formula for dinitrogen monoxide ?",
+   "N₂O",
+   [
+    "NO₂",
+    "N₂O₂",
+    "NO"
+   ],
+   "Two nitrogen atoms and one oxygen atom give N₂O."
+  ],
+  [
+   "What is the formula for nitrogen monoxide ?",
+   "NO",
+   [
+    "N₂O",
+    "NO₂",
+    "N₂O₂"
+   ],
+   "One nitrogen and one oxygen give NO."
+  ],
+  [
+   "What is the formula for nitrogen dioxide ?",
+   "NO₂",
+   [
+    "N₂O",
+    "N₂O₂",
+    "NO₃"
+   ],
+   "\"Dioxide\" means two oxygen atoms, giving NO₂."
+  ],
+  [
+   "What is the formula for dinitrogen pentoxide ?",
+   "N₂O₅",
+   [
+    "N₅O₂",
+    "N₂O₄",
+    "NO₅"
+   ],
+   "\"Di\" means two nitrogen and \"pent\" means five oxygen: N₂O₅."
+  ],
+  [
+   "What is the formula for phosphorus trichloride ?",
+   "PCl₃",
+   [
+    "P₃Cl",
+    "PCl₅",
+    "P₃Cl₃"
+   ],
+   "\"Tri\" means three chlorine atoms attached to one phosphorus: PCl₃."
+  ],
+  [
+   "What is the formula for sulfur hexafluoride ?",
+   "SF₆",
+   [
+    "S₆F",
+    "SF₄",
+    "S₂F₆"
+   ],
+   "\"Hexa\" means six, so there are six fluorine atoms: SF₆."
+  ],
+  [
+   "What is the formula for diphosphorus pentoxide ?",
+   "P₂O₅",
+   [
+    "P₅O₂",
+    "PO₅",
+    "P₂O₃"
+   ],
+   "Two phosphorus and five oxygen atoms give P₂O₅."
+  ],
+  [
+   "What is the formula for tetraphosphorus decoxide ?",
+   "P₄O₁₀",
+   [
+    "P₁₀O₄",
+    "P₄O₆",
+    "P₂O₁₀"
+   ],
+   "\"Tetra\" means four and \"deca\" means ten: P₄O₁₀."
+  ],
+  [
+   "What is the formula for carbon disulfide ?",
+   "CS₂",
+   [
+    "C₂S",
+    "CS",
+    "C₂S₂"
+   ],
+   "One carbon and two sulfur atoms give CS₂."
+  ],
+  [
+   "What is the formula for silicon dioxide ?",
+   "SiO₂",
+   [
+    "Si₂O",
+    "SiO",
+    "Si₂O₄"
+   ],
+   "One silicon and two oxygen atoms give SiO₂."
+  ],
+  [
+   "What is the formula for silicon tetrafluoride ?",
+   "SiF₄",
+   [
+    "Si₄F",
+    "SiF₃",
+    "Si₂F₄"
+   ],
+   "\"Tetra\" means four fluorine atoms: SiF₄."
+  ],
+  [
+   "What is the formula for dichlorine monoxide ?",
+   "Cl₂O",
+   [
+    "ClO₂",
+    "Cl₂O₂",
+    "ClO"
+   ],
+   "Two chlorine atoms and one oxygen atom give Cl₂O."
+  ],
+  [
+   "What is the formula for oxygen difluoride ?",
+   "OF₂",
+   [
+    "O₂F",
+    "OF",
+    "O₂F₂"
+   ],
+   "One oxygen atom and two fluorine atoms give OF₂."
+  ],
+  [
+   "What is the formula for boron trifluoride ?",
+   "BF₃",
+   [
+    "B₃F",
+    "BF₄",
+    "B₂F₃"
+   ],
+   "One boron and three fluorine atoms give BF₃."
+  ],
+  [
+   "What is the formula for xenon tetrafluoride ?",
+   "XeF₄",
+   [
+    "Xe₄F",
+    "XeF₆",
+    "XeF₂"
+   ],
+   "\"Tetra\" means four fluorine atoms bonded to xenon: XeF₄."
+  ],
+  [
+   "What is the formula for dinitrogen trioxide ?",
+   "N₂O₃",
+   [
+    "N₃O₂",
+    "NO₃",
+    "N₂O₅"
+   ],
+   "Two nitrogen and three oxygen atoms give N₂O₃."
+  ],
+  [
+   "What is the formula for sulfur tetrafluoride ?",
+   "SF₄",
+   [
+    "S₄F",
+    "SF₆",
+    "S₂F₄"
+   ],
+   "One sulfur and four fluorine atoms give SF₄."
+  ],
+  [
+   "What is the formula for chlorine dioxide ?",
+   "ClO₂",
+   [
+    "Cl₂O",
+    "ClO",
+    "Cl₂O₂"
+   ],
+   "One chlorine and two oxygen atoms give ClO₂."
+  ],
+  [
+   "What is the formula for bromine pentafluoride ?",
+   "BrF₅",
+   [
+    "Br₅F",
+    "BrF₃",
+    "Br₂F₅"
+   ],
+   "\"Penta\" means five fluorine atoms: BrF₅."
+  ],
+  [
+   "What is the formula for iodine heptafluoride ?",
+   "IF₇",
+   [
+    "I₇F",
+    "IF₅",
+    "I₂F₇"
+   ],
+   "\"Hepta\" means seven fluorine atoms: IF₇."
+  ],
+  [
+   "What is the formula for dinitrogen tetrafluoride ?",
+   "N₂F₄",
+   [
+    "N₄F₂",
+    "NF₄",
+    "N₂F₂"
+   ],
+   "Two nitrogen and four fluorine atoms give N₂F₄."
+  ]
+ ],
+ "sciRxnCls": [
+  [
+   "What type of reaction is CH₄ + 2O₂ → CO₂ + 2H₂O ?",
+   "Combustion",
+   [
+    "Synthesis",
+    "Single replacement",
+    "Double replacement"
+   ],
+   "A hydrocarbon reacts with oxygen to produce carbon dioxide and water."
+  ],
+  [
+   "What type of reaction is C₃H₈ + 5O₂ → 3CO₂ + 4H₂O ?",
+   "Combustion",
+   [
+    "Decomposition",
+    "Synthesis",
+    "Single replacement"
+   ],
+   "Propane, a hydrocarbon, burns in oxygen to form carbon dioxide and water."
+  ],
+  [
+   "What type of reaction is 2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O ?",
+   "Combustion",
+   [
+    "Double replacement",
+    "Decomposition",
+    "Synthesis"
+   ],
+   "Octane burns in oxygen, producing carbon dioxide and water."
+  ],
+  [
+   "What type of reaction is C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O ?",
+   "Combustion",
+   [
+    "Decomposition",
+    "Synthesis",
+    "Double replacement"
+   ],
+   "Glucose reacts with oxygen to give carbon dioxide and water, the pattern of combustion."
+  ],
+  [
+   "What type of reaction is N₂ + 3H₂ → 2NH₃ ?",
+   "Synthesis",
+   [
+    "Single replacement",
+    "Decomposition",
+    "Double replacement"
+   ],
+   "Two reactants combine to form one product, ammonia."
+  ],
+  [
+   "What type of reaction is 2Na + Cl₂ → 2NaCl ?",
+   "Synthesis",
+   [
+    "Single replacement",
+    "Decomposition",
+    "Combustion"
+   ],
+   "Two elements combine to form a single compound."
+  ],
+  [
+   "What type of reaction is CaO + H₂O → Ca(OH)₂ ?",
+   "Synthesis",
+   [
+    "Single replacement",
+    "Decomposition",
+    "Double replacement"
+   ],
+   "Two compounds combine to form one product."
+  ],
+  [
+   "What type of reaction is SO₃ + H₂O → H₂SO₄ ?",
+   "Synthesis",
+   [
+    "Combustion",
+    "Single replacement",
+    "Decomposition"
+   ],
+   "Sulfur trioxide and water combine into a single product, sulfuric acid."
+  ],
+  [
+   "What type of reaction is H₂ + Cl₂ → 2HCl ?",
+   "Synthesis",
+   [
+    "Single replacement",
+    "Double replacement",
+    "Combustion"
+   ],
+   "Two elements join to make one compound."
+  ],
+  [
+   "What type of reaction is 2KClO₃ → 2KCl + 3O₂ ?",
+   "Decomposition",
+   [
+    "Single replacement",
+    "Double replacement",
+    "Combustion"
+   ],
+   "One reactant breaks down into two simpler products."
+  ],
+  [
+   "What type of reaction is 2NaCl → 2Na + Cl₂ ?",
+   "Decomposition",
+   [
+    "Single replacement",
+    "Synthesis",
+    "Double replacement"
+   ],
+   "A compound breaks apart into its elements."
+  ],
+  [
+   "What type of reaction is 2HgO → 2Hg + O₂ ?",
+   "Decomposition",
+   [
+    "Double replacement",
+    "Combustion",
+    "Single replacement"
+   ],
+   "Mercury(II) oxide breaks down into mercury and oxygen."
+  ],
+  [
+   "What type of reaction is 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂ ?",
+   "Decomposition",
+   [
+    "Synthesis",
+    "Double replacement",
+    "Single replacement"
+   ],
+   "One compound breaks down into three simpler substances."
+  ],
+  [
+   "What type of reaction is 2H₂O → 2H₂ + O₂ ?",
+   "Decomposition",
+   [
+    "Synthesis",
+    "Double replacement",
+    "Single replacement"
+   ],
+   "Water is split into its elements, hydrogen and oxygen."
+  ],
+  [
+   "What type of reaction is Zn + 2HCl → ZnCl₂ + H₂ ?",
+   "Single replacement",
+   [
+    "Decomposition",
+    "Synthesis",
+    "Combustion"
+   ],
+   "Zinc replaces hydrogen in the acid, releasing hydrogen gas."
+  ],
+  [
+   "What type of reaction is Cl₂ + 2KBr → 2KCl + Br₂ ?",
+   "Single replacement",
+   [
+    "Synthesis",
+    "Combustion",
+    "Decomposition"
+   ],
+   "Chlorine replaces bromine in the compound."
+  ],
+  [
+   "What type of reaction is Fe + CuSO₄ → FeSO₄ + Cu ?",
+   "Single replacement",
+   [
+    "Combustion",
+    "Decomposition",
+    "Synthesis"
+   ],
+   "Iron takes the place of copper in the compound."
+  ],
+  [
+   "What type of reaction is 2Na + 2H₂O → 2NaOH + H₂ ?",
+   "Single replacement",
+   [
+    "Combustion",
+    "Decomposition",
+    "Double replacement"
+   ],
+   "Sodium replaces one hydrogen in water, releasing hydrogen gas."
+  ],
+  [
+   "What type of reaction is AgNO₃ + NaCl → AgCl + NaNO₃ ?",
+   "Double replacement",
+   [
+    "Decomposition",
+    "Synthesis",
+    "Single replacement"
+   ],
+   "The positive ions of two compounds swap partners."
+  ],
+  [
+   "What type of reaction is BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl ?",
+   "Double replacement",
+   [
+    "Single replacement",
+    "Combustion",
+    "Synthesis"
+   ],
+   "Barium and sodium ions swap partners, forming a barium sulfate precipitate."
+  ],
+  [
+   "What type of reaction is Pb(NO₃)₂ + 2KI → PbI₂ + 2KNO₃ ?",
+   "Double replacement",
+   [
+    "Combustion",
+    "Synthesis",
+    "Single replacement"
+   ],
+   "Lead and potassium ions exchange partners, forming a lead(II) iodide precipitate."
+  ],
+  [
+   "What type of reaction is HCl + KOH → KCl + H₂O ?",
+   "Double replacement",
+   [
+    "Decomposition",
+    "Synthesis",
+    "Combustion"
+   ],
+   "In this neutralization, the ions of the acid and base swap to form a salt and water."
+  ]
+ ],
+ "sciRate": [
+  [
+   "Lowering the temperature usually makes a reaction …",
+   "slower",
+   [
+    "faster",
+    "unchanged",
+    "stop"
+   ],
+   "At lower temperatures particles move more slowly and collide less often and with less energy."
+  ],
+  [
+   "Diluting an acid with water usually makes its reaction with a metal …",
+   "slower",
+   [
+    "faster",
+    "unchanged",
+    "stop"
+   ],
+   "Dilution lowers the concentration, so particles collide less often."
+  ],
+  [
+   "Which will react fastest with acid?",
+   "Powdered chalk",
+   [
+    "A whole stick of chalk",
+    "A large block of chalk",
+    "A chalk sphere"
+   ],
+   "Powder has the greatest surface area, so more particles are exposed to the acid."
+  ],
+  [
+   "According to collision theory, particles must collide with enough …",
+   "energy",
+   [
+    "colour",
+    "volume",
+    "light"
+   ],
+   "Only collisions with at least the activation energy lead to a reaction."
+  ],
+  [
+   "The minimum energy needed for a reaction to happen is called the …",
+   "activation energy",
+   [
+    "kinetic energy",
+    "potential energy",
+    "nuclear energy"
+   ],
+   "Activation energy is the energy barrier reactants must overcome to react."
+  ],
+  [
+   "A catalyst speeds up a reaction by …",
+   "lowering the activation energy",
+   [
+    "raising the temperature",
+    "adding more reactant",
+    "increasing the product mass"
+   ],
+   "A catalyst provides a pathway with a lower activation energy."
+  ],
+  [
+   "Increasing the pressure of reacting gases usually makes the reaction …",
+   "faster",
+   [
+    "slower",
+    "unchanged",
+    "stop"
+   ],
+   "Higher pressure crowds gas particles together, so they collide more often."
+  ],
+  [
+   "Why does a higher temperature speed up most reactions?",
+   "Particles move faster and collide harder",
+   [
+    "Particles become larger and heavier",
+    "Particles stop colliding with each other",
+    "Particles change into new elements"
+   ],
+   "Faster particles collide more often and more of the collisions have enough energy to react."
+  ],
+  [
+   "Why does chewing food help digestion go faster?",
+   "It increases the surface area of the food",
+   [
+    "It raises the temperature of the food",
+    "It removes all the enzymes from food",
+    "It lowers the concentration of food"
+   ],
+   "Smaller pieces expose more surface for digestive enzymes to act on."
+  ],
+  [
+   "Hydrogen peroxide breaks down slowly, but adding manganese dioxide makes it fizz quickly. Manganese dioxide is a …",
+   "catalyst",
+   [
+    "product",
+    "reactant",
+    "solvent"
+   ],
+   "Manganese dioxide speeds up the decomposition and is not used up."
+  ],
+  [
+   "Which change would slow down the rusting of a bike?",
+   "Keeping it in a cool, dry place",
+   [
+    "Leaving it out in the rain",
+    "Storing it near salty sea air",
+    "Keeping it in a warm, damp shed"
+   ],
+   "Less moisture and lower temperature both slow the reactions that cause rust."
+  ],
+  [
+   "A sugar cube and the same mass of granulated sugar are dropped in water. Which dissolves faster?",
+   "The granulated sugar",
+   [
+    "The sugar cube",
+    "Both at the same rate",
+    "Neither will dissolve"
+   ],
+   "Granulated sugar has more surface area exposed to the water."
+  ],
+  [
+   "Increasing the concentration of a reactant increases the rate because …",
+   "particles collide more often",
+   [
+    "particles get bigger",
+    "particles move more slowly",
+    "fewer particles are present"
+   ],
+   "More particles in the same volume means more frequent collisions."
+  ],
+  [
+   "What happens to an enzyme if the temperature gets far too high?",
+   "It is denatured and stops working",
+   [
+    "It works faster forever",
+    "It turns into a reactant",
+    "It becomes a new enzyme"
+   ],
+   "High temperatures change an enzyme's shape, so it can no longer speed up its reaction."
+  ],
+  [
+   "A wooden log burns slowly, but sawdust can burn explosively. This is because sawdust has more …",
+   "surface area",
+   [
+    "mass",
+    "density",
+    "colour"
+   ],
+   "The tiny particles of sawdust expose far more surface to oxygen."
+  ],
+  [
+   "Which factor does a catalytic converter in a car use to speed up reactions?",
+   "A catalyst",
+   [
+    "A lower temperature",
+    "Larger particle size",
+    "A lower concentration"
+   ],
+   "Catalytic converters use metals such as platinum as catalysts to change harmful exhaust gases faster."
+  ],
+  [
+   "What is a chemical that slows down a reaction called?",
+   "An inhibitor",
+   [
+    "A catalyst",
+    "A product",
+    "A solute"
+   ],
+   "Inhibitors reduce the rate of a reaction; some are added to foods as preservatives."
+  ],
+  [
+   "How does a reaction's rate usually change as reactants are used up?",
+   "It slows down",
+   [
+    "It speeds up",
+    "It stays the same",
+    "It reverses itself"
+   ],
+   "As reactant concentration falls, collisions become less frequent, so the rate drops."
+  ],
+  [
+   "Stirring a mixture usually makes a reaction between a solid and a liquid …",
+   "faster",
+   [
+    "slower",
+    "unchanged",
+    "stop"
+   ],
+   "Stirring brings fresh reactant particles into contact with the solid more often."
+  ],
+  [
+   "Which units could be used to measure a reaction rate?",
+   "mL of gas per second",
+   [
+    "grams per centimetre",
+    "metres per kilogram",
+    "degrees per litre"
+   ],
+   "Reaction rate is a change in amount over time, such as volume of gas made per second."
+  ],
+  [
+   "Which metal will react fastest with dilute hydrochloric acid?",
+   "Magnesium",
+   [
+    "Copper",
+    "Gold",
+    "Silver"
+   ],
+   "The nature of the reactants matters: magnesium is much more reactive than copper, gold or silver, which barely react."
+  ],
+  [
+   "Why is milk kept in the fridge rather than on the counter?",
+   "Cold slows the reactions that spoil it",
+   [
+    "Cold speeds up the bacteria in milk",
+    "Cold adds a catalyst to the milk",
+    "Cold increases the milk's surface area"
+   ],
+   "Lower temperature slows the bacterial and chemical reactions that make milk go sour."
+  ]
  ]
 }

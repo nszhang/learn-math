@@ -1,0 +1,3352 @@
+{
+ "sciNewtonL": [
+  [
+   "A net force of 24 N acts on a 6 kg cart. What is its acceleration?",
+   "4 m/s²",
+   [
+    "144 m/s²",
+    "0.25 m/s²",
+    "18 m/s²"
+   ],
+   "By the second law, a = F ÷ m = 24 N ÷ 6 kg = 4 m/s²."
+  ],
+  [
+   "A 1200 kg car accelerates at 3 m/s². What net force acts on it?",
+   "3600 N",
+   [
+    "400 N",
+    "1203 N",
+    "1197 N"
+   ],
+   "By the second law, F = ma = 1200 kg × 3 m/s² = 3600 N."
+  ],
+  [
+   "A ball pushed with a net force of 15 N accelerates at 5 m/s². What is its mass?",
+   "3 kg",
+   [
+    "75 kg",
+    "20 kg",
+    "10 kg"
+   ],
+   "Rearranging F = ma gives m = F ÷ a = 15 N ÷ 5 m/s² = 3 kg."
+  ],
+  [
+   "A 0.5 kg ball accelerates at 8 m/s². What net force acts on it?",
+   "4 N",
+   [
+    "16 N",
+    "8.5 N",
+    "0.0625 N"
+   ],
+   "F = ma = 0.5 kg × 8 m/s² = 4 N."
+  ],
+  [
+   "Newton's first law is also known as the law of …",
+   "inertia",
+   [
+    "acceleration",
+    "reaction",
+    "gravitation"
+   ],
+   "The first law describes inertia: objects resist changes to their motion."
+  ],
+  [
+   "A book rests on a table. By Newton's third law, the table …",
+   "pushes up on the book with an equal force",
+   [
+    "pushes up on the book with a smaller force",
+    "pushes up on the book with a larger force",
+    "exerts no force at all on the book"
+   ],
+   "Third-law force pairs are always equal in size and opposite in direction."
+  ],
+  [
+   "If the net force on an object doubles and its mass stays the same, its acceleration …",
+   "doubles",
+   [
+    "halves",
+    "stays the same",
+    "quadruples"
+   ],
+   "Acceleration is directly proportional to net force (a = F ÷ m)."
+  ],
+  [
+   "The same net force acts on an object with twice the mass. Its acceleration …",
+   "is halved",
+   [
+    "is doubled",
+    "stays the same",
+    "is quartered"
+   ],
+   "Acceleration is inversely proportional to mass, so doubling the mass halves it."
+  ],
+  [
+   "An object moving at a constant velocity has a net force that is …",
+   "zero",
+   [
+    "equal to its weight",
+    "pointing forward",
+    "pointing backward"
+   ],
+   "By the first law, an object with no net force keeps a constant velocity."
+  ],
+  [
+   "In a sudden stop, a seatbelt is needed because …",
+   "your body keeps moving forward due to inertia",
+   [
+    "the seat pushes your body forward in a stop",
+    "gravity pulls your body forward in a stop",
+    "braking makes your body's mass increase"
+   ],
+   "By the first law, your body keeps moving until a force such as the seatbelt stops it."
+  ],
+  [
+   "A space probe far from any star or planet turns off its engines. With no forces acting, it will …",
+   "keep moving at a constant velocity",
+   [
+    "slow down and come to a stop",
+    "speed up at a steady rate",
+    "start to travel in a circle"
+   ],
+   "With no net force, the first law says its velocity stays the same."
+  ],
+  [
+   "When a bat hits a ball, the force of the ball on the bat is …",
+   "equal in size and opposite in direction",
+   [
+    "smaller, because the ball is lighter",
+    "larger, because the ball speeds up",
+    "zero, because the ball moves away"
+   ],
+   "Newton's third law says the forces two objects exert on each other are equal and opposite."
+  ],
+  [
+   "Why don't action–reaction force pairs cancel each other out?",
+   "They act on different objects",
+   [
+    "They act at different times",
+    "One is always larger",
+    "They point the same way"
+   ],
+   "Forces can only cancel when they act on the same object, and third-law pairs act on two different objects."
+  ],
+  [
+   "What is the SI unit of force, equal to 1 kg·m/s²?",
+   "the newton",
+   [
+    "the joule",
+    "the watt",
+    "the pascal"
+   ],
+   "From F = ma, one newton is the force that gives 1 kg an acceleration of 1 m/s²."
+  ],
+  [
+   "Two skaters push apart. A 60 kg skater pushes a 40 kg skater with 120 N. What is the 40 kg skater's acceleration?",
+   "3 m/s²",
+   [
+    "2 m/s²",
+    "5 m/s²",
+    "0.33 m/s²"
+   ],
+   "The 40 kg skater feels 120 N, so a = 120 N ÷ 40 kg = 3 m/s²."
+  ],
+  [
+   "In the same push, a 60 kg skater feels 120 N from a 40 kg skater. What is the 60 kg skater's acceleration?",
+   "2 m/s²",
+   [
+    "3 m/s²",
+    "1.5 m/s²",
+    "7200 m/s²"
+   ],
+   "By the third law the 60 kg skater also feels 120 N, so a = 120 N ÷ 60 kg = 2 m/s²."
+  ],
+  [
+   "A 2 kg box is pushed right with 10 N while friction pulls left with 4 N. What is its acceleration?",
+   "3 m/s² to the right",
+   [
+    "5 m/s² to the right",
+    "7 m/s² to the right",
+    "2 m/s² to the left"
+   ],
+   "The net force is 10 N − 4 N = 6 N to the right, and a = 6 N ÷ 2 kg = 3 m/s²."
+  ],
+  [
+   "A heavy truck and a light car get the same net force from their engines. Which accelerates faster?",
+   "The light car",
+   [
+    "The heavy truck",
+    "Both equally",
+    "Neither one"
+   ],
+   "For the same force, a smaller mass gives a larger acceleration (a = F ÷ m)."
+  ],
+  [
+   "When you walk forward, what force actually pushes you forward?",
+   "The ground pushing forward on your feet",
+   [
+    "Your feet pushing backward on the ground",
+    "Gravity pulling your body forward",
+    "Air pushing forward on your back"
+   ],
+   "Your feet push back on the ground, and by the third law the ground pushes forward on you."
+  ],
+  [
+   "Which law best explains this? A coin on a card stays put and drops into a cup when the card is flicked away.",
+   "Newton's first law",
+   [
+    "Newton's second law",
+    "Newton's third law",
+    "Hooke's law"
+   ],
+   "The coin's inertia keeps it at rest when the card is quickly removed."
+  ],
+  [
+   "Which law best explains this? An empty shopping cart is much easier to speed up than a full one.",
+   "Newton's second law",
+   [
+    "Newton's first law",
+    "Newton's third law",
+    "Hooke's law"
+   ],
+   "The second law says a larger mass needs a larger force for the same acceleration."
+  ],
+  [
+   "Which law best explains this? A squid squirts water backward and shoots forward.",
+   "Newton's third law",
+   [
+    "Newton's first law",
+    "Newton's second law",
+    "Hooke's law"
+   ],
+   "The squid pushes water back, so the water pushes the squid forward with an equal and opposite force."
+  ],
+  [
+   "Which law best explains this? A hockey player on skates pushes on the boards and glides away from them.",
+   "Newton's third law",
+   [
+    "Newton's first law",
+    "Newton's second law",
+    "Hooke's law"
+   ],
+   "The boards push back on the player with a force equal and opposite to the player's push."
+  ]
+ ],
+ "sciExoEndo": [
+  [
+   "Is this process exothermic or endothermic? Natural gas burning on a stove",
+   "Exothermic — it releases heat",
+   [
+    "Endothermic — it absorbs heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Combustion releases energy as heat and light to the surroundings."
+  ],
+  [
+   "Is this process exothermic or endothermic? Sweat evaporating from your skin",
+   "Endothermic — it absorbs heat",
+   [
+    "Exothermic — it releases heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Evaporation absorbs heat from your skin, which is why it cools you."
+  ],
+  [
+   "Is this process exothermic or endothermic? Dry ice turning directly into carbon dioxide gas",
+   "Endothermic — it absorbs heat",
+   [
+    "Exothermic — it releases heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Sublimation needs energy to separate the molecules, so it absorbs heat."
+  ],
+  [
+   "Is this process exothermic or endothermic? An iron nail slowly rusting",
+   "Exothermic — it releases heat",
+   [
+    "Endothermic — it absorbs heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Rusting is a slow oxidation reaction that releases heat."
+  ],
+  [
+   "Is this process exothermic or endothermic? An acid neutralizing a base and the beaker warming up",
+   "Exothermic — it releases heat",
+   [
+    "Endothermic — it absorbs heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Neutralization releases heat, so the beaker gets warmer."
+  ],
+  [
+   "Is this process exothermic or endothermic? Heating limestone (CaCO₃) to break it into lime and CO₂",
+   "Endothermic — it absorbs heat",
+   [
+    "Exothermic — it releases heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Decomposing limestone needs a constant input of heat, so it is endothermic."
+  ],
+  [
+   "Is this process exothermic or endothermic? Using electricity to split water into hydrogen and oxygen",
+   "Endothermic — it absorbs heat",
+   [
+    "Exothermic — it releases heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Breaking water apart requires energy to be absorbed."
+  ],
+  [
+   "Is this process exothermic or endothermic? Frost forming on a cold window as vapour turns to ice",
+   "Exothermic — it releases heat",
+   [
+    "Endothermic — it absorbs heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Deposition releases energy as gas particles settle into a solid."
+  ],
+  [
+   "Is this process exothermic or endothermic? Cellular respiration in your muscle cells",
+   "Exothermic — it releases heat",
+   [
+    "Endothermic — it absorbs heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Respiration releases energy from glucose, some of it as body heat."
+  ],
+  [
+   "Is this process exothermic or endothermic? Mixing baking soda and vinegar as the mixture gets colder",
+   "Endothermic — it absorbs heat",
+   [
+    "Exothermic — it releases heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "The mixture cools because the reaction absorbs heat from its surroundings."
+  ],
+  [
+   "Is this process exothermic or endothermic? Butter melting in a warm pan",
+   "Endothermic — it absorbs heat",
+   [
+    "Exothermic — it releases heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Melting absorbs heat to loosen the bonds between particles."
+  ],
+  [
+   "Is this process exothermic or endothermic? Dissolving sodium hydroxide in water as the solution gets hot",
+   "Exothermic — it releases heat",
+   [
+    "Endothermic — it absorbs heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "The solution warms because dissolving NaOH releases heat."
+  ],
+  [
+   "Is this process exothermic or endothermic? Molten lava cooling and hardening into rock",
+   "Exothermic — it releases heat",
+   [
+    "Endothermic — it absorbs heat",
+    "Exothermic — it absorbs heat",
+    "Endothermic — it releases heat"
+   ],
+   "Freezing (solidifying) releases heat to the surroundings."
+  ],
+  [
+   "Which of these processes is endothermic?",
+   "Snow melting on a sunny roof",
+   [
+    "Gasoline burning in an engine",
+    "Water vapour condensing into dew",
+    "Liquid candle wax hardening"
+   ],
+   "Melting absorbs heat; the others release heat."
+  ],
+  [
+   "Which of these processes is exothermic?",
+   "A glow stick giving off light",
+   [
+    "Salt water evaporating in the sun",
+    "Chocolate melting in your hand",
+    "An egg cooking in a hot pan"
+   ],
+   "A glow stick's chemical reaction releases energy as light; the others absorb heat."
+  ],
+  [
+   "Which of these processes is endothermic?",
+   "An egg cooking in a hot pan",
+   [
+    "A campfire burning brightly",
+    "A hand warmer heating up",
+    "Water freezing in a tray"
+   ],
+   "Cooking an egg requires a steady input of heat; the others release heat."
+  ],
+  [
+   "Which of these processes is exothermic?",
+   "Wet concrete hardening as it sets",
+   [
+    "Ice cubes melting in a glass",
+    "A puddle drying in the sun",
+    "Ammonium nitrate dissolving"
+   ],
+   "Concrete setting releases heat; the others absorb heat."
+  ],
+  [
+   "During an endothermic reaction, the temperature of the surroundings …",
+   "decreases",
+   [
+    "increases",
+    "stays constant",
+    "rises then holds"
+   ],
+   "An endothermic reaction absorbs heat from its surroundings, so they cool."
+  ],
+  [
+   "In an exothermic reaction, the products have …",
+   "less energy than the reactants",
+   [
+    "more energy than the reactants",
+    "the same energy as the reactants",
+    "no chemical energy at all"
+   ],
+   "The extra energy of the reactants is released to the surroundings."
+  ],
+  [
+   "For an endothermic reaction, the enthalpy change (ΔH) is …",
+   "positive",
+   [
+    "negative",
+    "zero",
+    "undefined"
+   ],
+   "The system gains energy, so ΔH is positive."
+  ],
+  [
+   "A reaction has ΔH = −890 kJ/mol. What kind of reaction is it?",
+   "Exothermic, releasing energy",
+   [
+    "Endothermic, absorbing energy",
+    "Exothermic, absorbing energy",
+    "Endothermic, releasing energy"
+   ],
+   "A negative ΔH means the system loses energy to its surroundings."
+  ],
+  [
+   "Breaking chemical bonds is …",
+   "endothermic, since energy is absorbed",
+   [
+    "exothermic, since energy is released",
+    "endothermic, since energy is released",
+    "exothermic, since energy is absorbed"
+   ],
+   "Energy must be put in to pull bonded atoms apart."
+  ],
+  [
+   "Forming new chemical bonds is …",
+   "exothermic, since energy is released",
+   [
+    "endothermic, since energy is absorbed",
+    "exothermic, since energy is absorbed",
+    "endothermic, since energy is released"
+   ],
+   "Energy is given off when atoms come together to form bonds."
+  ]
+ ],
+ "sciMagnet": [
+  [
+   "Two north poles of magnets are brought close together. They …",
+   "repel each other",
+   [
+    "attract each other",
+    "have no effect",
+    "cancel out"
+   ],
+   "Like magnetic poles repel each other."
+  ],
+  [
+   "A north pole and a south pole are brought close together. They …",
+   "attract each other",
+   [
+    "repel each other",
+    "have no effect",
+    "cancel out"
+   ],
+   "Opposite magnetic poles attract each other."
+  ],
+  [
+   "If you cut a bar magnet in half, each piece …",
+   "has its own north and south pole",
+   [
+    "has only a north pole left",
+    "has only a south pole left",
+    "has no magnetic field at all"
+   ],
+   "Every magnet piece always has both a north and a south pole."
+  ],
+  [
+   "Which material is strongly attracted to a magnet?",
+   "Iron",
+   [
+    "Copper",
+    "Aluminium",
+    "Glass"
+   ],
+   "Iron is ferromagnetic, so it is strongly attracted to magnets."
+  ],
+  [
+   "Where is a bar magnet's field strongest?",
+   "At the poles",
+   [
+    "At the middle",
+    "Far away",
+    "Equal everywhere"
+   ],
+   "Field lines crowd together at the poles, where the field is strongest."
+  ],
+  [
+   "On a diagram, closely spaced magnetic field lines show a …",
+   "stronger magnetic field",
+   [
+    "weaker magnetic field",
+    "reversed magnetic field",
+    "missing magnetic field"
+   ],
+   "The closer the field lines, the stronger the field."
+  ],
+  [
+   "Earth's magnetic field is mainly produced by …",
+   "moving molten iron in the outer core",
+   [
+    "a giant bar magnet buried in the crust",
+    "the Moon's gravity pulling on the oceans",
+    "sunlight heating the upper atmosphere"
+   ],
+   "Currents of molten iron in the outer core act like a huge electromagnet."
+  ],
+  [
+   "The northern lights appear when charged particles from the Sun are …",
+   "guided by Earth's magnetic field into the air",
+   [
+    "reflected off the ice of the Arctic Ocean",
+    "pulled down by the Moon's strong gravity",
+    "released by volcanoes in northern Canada"
+   ],
+   "Earth's magnetic field channels solar particles toward the poles, where they make the air glow."
+  ],
+  [
+   "A device that uses magnets and current to turn electrical energy into motion is …",
+   "an electric motor",
+   [
+    "a generator",
+    "a battery",
+    "a resistor"
+   ],
+   "In a motor, magnetic forces on a current-carrying coil make it spin."
+  ],
+  [
+   "A device that uses magnets and coils to turn motion into electrical energy is …",
+   "a generator",
+   [
+    "an electric motor",
+    "a battery",
+    "a resistor"
+   ],
+   "Spinning a coil in a magnetic field induces a current in a generator."
+  ],
+  [
+   "Reversing the direction of current in an electromagnet …",
+   "swaps its north and south poles",
+   [
+    "turns it into a permanent magnet",
+    "doubles the strength of its field",
+    "makes it stop working completely"
+   ],
+   "The direction of the current sets which end of the coil is north."
+  ],
+  [
+   "Adding more turns of wire to an electromagnet's coil makes it …",
+   "stronger",
+   [
+    "weaker",
+    "reversed",
+    "non-magnetic"
+   ],
+   "More turns carrying the same current produce a stronger magnetic field."
+  ],
+  [
+   "Producing a current by changing the magnetic field near a coil is called …",
+   "electromagnetic induction",
+   [
+    "static electricity",
+    "thermal conduction",
+    "nuclear fusion"
+   ],
+   "A changing magnetic field induces a voltage and current in a conductor."
+  ],
+  [
+   "A compass placed beside a wire with a large current …",
+   "is deflected by the wire's magnetic field",
+   [
+    "is pulled straight down by gravity",
+    "stops pointing in any direction",
+    "points north exactly as before"
+   ],
+   "A current produces a magnetic field that pushes the compass needle off its usual direction."
+  ],
+  [
+   "The magnetic field around a long straight wire carrying current forms …",
+   "circles around the wire",
+   [
+    "straight lines along the wire",
+    "lines pointing away from the wire",
+    "one loop at the end of the wire"
+   ],
+   "Field lines around a straight current-carrying wire are concentric circles."
+  ],
+  [
+   "A compass's north end points north because near Earth's geographic North Pole there is a magnetic …",
+   "south pole",
+   [
+    "north pole",
+    "equator",
+    "neutral zone"
+   ],
+   "Opposites attract, so the needle's north end is pulled toward a magnetic south pole in the Arctic."
+  ],
+  [
+   "Which of these is NOT attracted to a magnet?",
+   "An aluminium can",
+   [
+    "An iron nail",
+    "A steel paper clip",
+    "A pure nickel strip"
+   ],
+   "Aluminium is not ferromagnetic, while iron, steel and nickel are."
+  ],
+  [
+   "A magnetic force can act on an object …",
+   "without touching it",
+   [
+    "only when touching it",
+    "only in water",
+    "only underground"
+   ],
+   "Magnetism is a non-contact force that acts through a field."
+  ],
+  [
+   "Materials like iron, nickel and cobalt that can be magnetized are called …",
+   "ferromagnetic",
+   [
+    "insulating",
+    "radioactive",
+    "transparent"
+   ],
+   "Ferromagnetic materials have domains that can line up to form a magnet."
+  ],
+  [
+   "Stroking an iron nail many times in one direction with a magnet can …",
+   "magnetize the nail",
+   [
+    "turn the nail into copper",
+    "make the nail a battery",
+    "make the nail melt"
+   ],
+   "The stroking lines up the nail's magnetic domains."
+  ],
+  [
+   "A charged particle moving across a magnetic field experiences …",
+   "a force that can change its direction",
+   [
+    "no force of any kind at all",
+    "a force only when it is at rest",
+    "a large increase in its mass"
+   ],
+   "A magnetic field pushes on moving charges at right angles to their motion, bending their path."
+  ],
+  [
+   "Heating a permanent magnet to a very high temperature usually …",
+   "weakens or destroys its magnetism",
+   [
+    "makes it much stronger than before",
+    "reverses its poles each second",
+    "turns it into an electromagnet"
+   ],
+   "Heat scrambles the magnetic domains so they no longer line up."
+  ]
+ ],
+ "sciXsWater": [
+  [
+   "What type of bond holds the hydrogen and oxygen atoms together within one water molecule?",
+   "Covalent bonds",
+   [
+    "Ionic bonds",
+    "Hydrogen bonds",
+    "Metallic bonds"
+   ],
+   "Oxygen and hydrogen share electrons, forming covalent bonds inside the molecule."
+  ],
+  [
+   "Which atoms in a water molecule carry partial positive charges?",
+   "The hydrogen atoms",
+   [
+    "The oxygen atom",
+    "All three atoms",
+    "None of the atoms"
+   ],
+   "Oxygen pulls electrons away from the hydrogens, leaving them slightly positive."
+  ],
+  [
+   "What shape is a water molecule?",
+   "Bent",
+   [
+    "Linear",
+    "Ring-shaped",
+    "Flat square"
+   ],
+   "The two hydrogens sit at an angle of about 105° from the oxygen, giving a bent shape."
+  ],
+  [
+   "Why do coastal cities often have milder winters than inland cities?",
+   "Water's high specific heat slows temperature change",
+   [
+    "Salt in the sea air blocks out the sunlight",
+    "Ocean waves rub together and make heat",
+    "Beach sand reflects cold air back out to sea"
+   ],
+   "Large bodies of water store heat and release it slowly, moderating nearby temperatures."
+  ],
+  [
+   "Which substance dissolves well in water?",
+   "Sugar",
+   [
+    "Vegetable oil",
+    "Candle wax",
+    "Gasoline"
+   ],
+   "Sugar molecules are polar and form hydrogen bonds with water."
+  ],
+  [
+   "Substances that dissolve easily in or are attracted to water are called …",
+   "hydrophilic",
+   [
+    "hydrophobic",
+    "insoluble",
+    "non-polar"
+   ],
+   "Hydrophilic means 'water-loving'; these substances are polar or ionic."
+  ],
+  [
+   "Substances like fats that do not mix with water are called …",
+   "hydrophobic",
+   [
+    "hydrophilic",
+    "polar",
+    "ionic"
+   ],
+   "Hydrophobic means 'water-fearing'; these substances are non-polar."
+  ],
+  [
+   "Why is it important for pond life that ice forms on top?",
+   "Ice insulates the water below so it stays liquid",
+   [
+    "Ice adds extra oxygen to the water below",
+    "Ice makes the pond water much saltier",
+    "Ice stops all sunlight reaching predators"
+   ],
+   "A floating layer of ice slows heat loss, so fish survive in liquid water underneath."
+  ],
+  [
+   "Pure water has a pH of 7, which means it is …",
+   "neutral",
+   [
+    "acidic",
+    "basic",
+    "salty"
+   ],
+   "At pH 7 the concentrations of H⁺ and OH⁻ ions are equal."
+  ],
+  [
+   "A very small number of water molecules split into which ions?",
+   "H⁺ and OH⁻",
+   [
+    "Na⁺ and Cl⁻",
+    "H₂ and O₂",
+    "Ca²⁺ and CO₃²⁻"
+   ],
+   "Water self-ionizes into hydrogen ions and hydroxide ions."
+  ],
+  [
+   "What is the greatest number of hydrogen bonds one water molecule can form with its neighbours?",
+   "4",
+   [
+    "1",
+    "2",
+    "8"
+   ],
+   "Each water molecule can donate two and accept two hydrogen bonds."
+  ],
+  [
+   "Why does it take a lot of energy to evaporate water?",
+   "Hydrogen bonds between molecules must be broken",
+   [
+    "Covalent bonds inside each molecule must break",
+    "Each water molecule is extremely heavy",
+    "Water is an ionic compound like salt"
+   ],
+   "Escaping molecules must break free of the hydrogen bonds holding them to their neighbours."
+  ],
+  [
+   "At about what temperature is liquid water most dense?",
+   "4 °C",
+   [
+    "0 °C",
+    "100 °C",
+    "−10 °C"
+   ],
+   "Water becomes denser as it cools until about 4 °C, then expands as it nears freezing."
+  ],
+  [
+   "Which end of a water molecule is attracted to a sodium ion (Na⁺)?",
+   "The oxygen end",
+   [
+    "The hydrogen end",
+    "Neither end",
+    "Both ends equally"
+   ],
+   "The partially negative oxygen is attracted to the positive sodium ion."
+  ],
+  [
+   "Which end of a water molecule is attracted to a chloride ion (Cl⁻)?",
+   "The hydrogen end",
+   [
+    "The oxygen end",
+    "Neither end",
+    "Both ends equally"
+   ],
+   "The partially positive hydrogens are attracted to the negative chloride ion."
+  ],
+  [
+   "A mixture in which a substance is evenly dissolved in water is called …",
+   "an aqueous solution",
+   [
+    "a suspension",
+    "an emulsion",
+    "a precipitate"
+   ],
+   "Aqueous means the solvent is water."
+  ],
+  [
+   "In salt water, water is the …",
+   "solvent",
+   [
+    "solute",
+    "precipitate",
+    "catalyst"
+   ],
+   "The solvent is the substance that does the dissolving."
+  ],
+  [
+   "In sugar water, the sugar is the …",
+   "solute",
+   [
+    "solvent",
+    "precipitate",
+    "catalyst"
+   ],
+   "The solute is the substance that gets dissolved."
+  ],
+  [
+   "Which property of water helps keep body temperature stable?",
+   "High specific heat",
+   [
+    "Low density",
+    "Low boiling point",
+    "Non-polarity"
+   ],
+   "Water absorbs a lot of heat with only a small temperature change."
+  ],
+  [
+   "Compared with a covalent bond inside a water molecule, a hydrogen bond between molecules is …",
+   "weaker",
+   [
+    "stronger",
+    "identical",
+    "ionic"
+   ],
+   "Hydrogen bonds are weak attractions between molecules, much weaker than covalent bonds."
+  ],
+  [
+   "How does soap help water wash away grease?",
+   "One end attracts water and the other attracts grease",
+   [
+    "It changes the grease into a polar substance",
+    "It freezes the grease so it can be scraped off",
+    "It makes the water molecules become non-polar"
+   ],
+   "Soap molecules have a polar head and a non-polar tail, linking grease to water."
+  ],
+  [
+   "Which of these substances has polar molecules, like water?",
+   "Ammonia (NH₃)",
+   [
+    "Methane (CH₄)",
+    "Carbon dioxide (CO₂)",
+    "Oxygen gas (O₂)"
+   ],
+   "Ammonia's bent pyramid shape and N–H bonds make it polar; the others are non-polar."
+  ]
+ ],
+ "sciXsCohes": [
+  [
+   "Why do water molecules stick to each other?",
+   "Hydrogen bonds between polar molecules",
+   [
+    "Magnetic forces between the atoms",
+    "Ionic bonds between the molecules",
+    "Gravity pulling the molecules together"
+   ],
+   "Cohesion comes from hydrogen bonds between neighbouring polar water molecules."
+  ],
+  [
+   "Water forms round beads on wax paper because …",
+   "cohesion is stronger than adhesion to the wax",
+   [
+    "adhesion to the wax is stronger than cohesion",
+    "the wax paper soaks up the water quickly",
+    "the wax paper is magnetic and pushes the water"
+   ],
+   "Water sticks to itself more than to non-polar wax, so it pulls into beads."
+  ],
+  [
+   "Water spreads into a thin film on clean glass because …",
+   "adhesion to the glass is strong",
+   [
+    "cohesion is stronger than adhesion",
+    "the glass repels the water",
+    "the glass is non-polar"
+   ],
+   "Polar glass attracts water molecules, so water spreads across it."
+  ],
+  [
+   "In a narrow glass tube, the surface of water curves …",
+   "upward at the edges",
+   [
+    "downward at the edges",
+    "into a flat line",
+    "into a sharp point"
+   ],
+   "Adhesion pulls water up the glass walls, forming a concave meniscus."
+  ],
+  [
+   "Compared with a wide glass tube, water in a very narrow tube rises …",
+   "higher",
+   [
+    "lower",
+    "the same",
+    "not at all"
+   ],
+   "In a narrower tube, adhesion to the walls lifts a smaller mass of water, so it climbs higher."
+  ],
+  [
+   "Mercury in a glass tube curves downward at the edges because …",
+   "its cohesion is stronger than its adhesion to glass",
+   [
+    "its adhesion to glass is stronger than its cohesion",
+    "it is a polar liquid much like water",
+    "the glass absorbs mercury at the edges"
+   ],
+   "Mercury atoms attract each other more than they attract glass."
+  ],
+  [
+   "Adding dish soap to water makes a floating paper clip sink because soap …",
+   "lowers the surface tension",
+   [
+    "raises the surface tension",
+    "makes the clip heavier",
+    "freezes the water"
+   ],
+   "Soap disrupts the hydrogen bonds at the surface, weakening surface tension."
+  ],
+  [
+   "In xylem, adhesion helps move water upward by …",
+   "making water stick to the xylem walls",
+   [
+    "making water stick to sugar in leaves",
+    "making roots push air out of the stem",
+    "making sunlight heat the water inside"
+   ],
+   "Water molecules cling to the walls of the narrow xylem tubes, resisting gravity."
+  ],
+  [
+   "In xylem, cohesion helps move water upward by …",
+   "linking water molecules into an unbroken column",
+   [
+    "making water stick to the walls of the tubes",
+    "making water molecules lighter than air",
+    "making the roots squeeze water out of soil"
+   ],
+   "Hydrogen bonds hold the molecules together so water is pulled up as a chain."
+  ],
+  [
+   "Water evaporating from leaves, which helps pull more water up from the roots, is called …",
+   "transpiration",
+   [
+    "respiration",
+    "photosynthesis",
+    "condensation"
+   ],
+   "Transpiration creates a pull that works with cohesion to draw water upward."
+  ],
+  [
+   "Water soaking upward into a dry sponge is an example of …",
+   "capillary action",
+   [
+    "evaporation",
+    "condensation",
+    "convection"
+   ],
+   "Water climbs the sponge's tiny spaces through adhesion and cohesion."
+  ],
+  [
+   "Celery stalks placed in coloured water get coloured leaves. This shows …",
+   "water rising through xylem by capillary action",
+   [
+    "the celery producing its own coloured dye",
+    "water flowing down the stalk because of gravity",
+    "the leaves absorbing dye from the air around"
+   ],
+   "The dyed water travels up the xylem tubes thanks to adhesion and cohesion."
+  ],
+  [
+   "Small raindrops are nearly round mainly because of …",
+   "surface tension",
+   [
+    "adhesion to air",
+    "magnetism",
+    "wind pressure"
+   ],
+   "Surface tension pulls a drop into the shape with the least surface area, a sphere."
+  ],
+  [
+   "Surface tension is strongest at the surface because surface molecules …",
+   "are pulled inward by molecules below and beside them",
+   [
+    "are pulled upward into the air by the wind",
+    "form no hydrogen bonds with other molecules",
+    "are much heavier than the molecules below"
+   ],
+   "Surface molecules have no water above them, so the inward pull creates a tight 'skin'."
+  ],
+  [
+   "A towel dries you off because water …",
+   "adheres to the cotton fibres",
+   [
+    "is repelled by the cotton",
+    "evaporates instantly",
+    "turns into cotton fibres"
+   ],
+   "Water is attracted to the polar cotton fibres and is drawn into the towel."
+  ],
+  [
+   "Which is an example of adhesion?",
+   "Raindrops clinging to a window",
+   [
+    "Water molecules pulling into a drop",
+    "A water strider standing on a pond",
+    "Water beading up on a waxed car"
+   ],
+   "Adhesion is water sticking to a different substance, such as glass."
+  ],
+  [
+   "Which is an example of cohesion?",
+   "A drop forming on a tap before it falls",
+   [
+    "Water soaking into a paper towel",
+    "Water clinging to a glass wall",
+    "Dew sticking to a spider's web"
+   ],
+   "Cohesion holds the water together as a drop until it gets too heavy."
+  ],
+  [
+   "Water shows strong cohesion because its molecules are …",
+   "polar",
+   [
+    "non-polar",
+    "ionic",
+    "metallic"
+   ],
+   "Polar water molecules form hydrogen bonds with one another."
+  ],
+  [
+   "Why does water rise higher in fine clay soil than in coarse gravel?",
+   "Smaller spaces give stronger capillary action",
+   [
+    "Gravel stays much warmer than clay soil",
+    "Fine clay soil is magnetic and pulls water",
+    "Gravel soaks up all the water at the top"
+   ],
+   "Narrow gaps between tiny clay particles let adhesion lift water higher."
+  ],
+  [
+   "The thin 'skin' on the surface of still water is called …",
+   "surface tension",
+   [
+    "capillary action",
+    "adhesion",
+    "evaporation"
+   ],
+   "Cohesion at the surface makes water act like a stretched elastic film."
+  ],
+  [
+   "Water climbs higher in a glass tube than in a wax-coated tube because …",
+   "water adheres more strongly to glass",
+   [
+    "the wax-coated tube is much heavier",
+    "the glass tube is kept much colder",
+    "water is strongly attracted to wax"
+   ],
+   "Glass is polar and attracts water, while non-polar wax does not."
+  ],
+  [
+   "If water molecules could not form hydrogen bonds, water's surface tension would be …",
+   "much lower",
+   [
+    "much higher",
+    "exactly the same",
+    "twice as high"
+   ],
+   "Surface tension comes from hydrogen bonding, so removing it would greatly weaken it."
+  ]
+ ],
+ "sciHomeo": [
+  [
+   "When blood sugar drops too low between meals, the pancreas releases …",
+   "glucagon",
+   [
+    "insulin",
+    "bile",
+    "pepsin"
+   ],
+   "Glucagon signals the liver to release stored glucose, raising blood sugar back to normal."
+  ],
+  [
+   "Which organ acts as the body's main thermostat, detecting changes in body temperature?",
+   "The hypothalamus",
+   [
+    "The pancreas",
+    "The stomach",
+    "The kidneys"
+   ],
+   "The hypothalamus in the brain monitors body temperature and triggers responses such as sweating or shivering."
+  ],
+  [
+   "On a cold day, blood vessels near the skin narrow. This helps the body …",
+   "keep heat in",
+   [
+    "lose more heat",
+    "make more sweat",
+    "digest food faster"
+   ],
+   "Narrowing skin blood vessels (vasoconstriction) reduces heat loss through the skin."
+  ],
+  [
+   "On a hot day, blood vessels near the skin widen. This helps the body …",
+   "release heat",
+   [
+    "store heat",
+    "make insulin",
+    "stop sweating"
+   ],
+   "Wider skin blood vessels (vasodilation) carry more warm blood to the surface, where heat is lost."
+  ],
+  [
+   "In a feedback loop, the part that detects a change in conditions is the …",
+   "receptor (sensor)",
+   [
+    "effector (muscle)",
+    "set point (goal)",
+    "response (action)"
+   ],
+   "Receptors, or sensors, detect a change and send information to the control centre."
+  ],
+  [
+   "In a feedback loop, a muscle or gland that carries out the response is called the …",
+   "effector",
+   [
+    "receptor",
+    "stimulus",
+    "set point"
+   ],
+   "Effectors such as muscles and glands carry out the action that brings conditions back toward normal."
+  ],
+  [
+   "During childbirth, contractions cause the release of a hormone that causes even stronger contractions. This is a …",
+   "positive feedback loop",
+   [
+    "negative feedback loop",
+    "reflex arc only",
+    "set point change"
+   ],
+   "Positive feedback amplifies a change rather than reversing it, until an end point such as birth is reached."
+  ],
+  [
+   "A home thermostat turns the furnace off when the room gets warm enough. This works like …",
+   "negative feedback",
+   [
+    "positive feedback",
+    "an open circuit",
+    "natural selection"
+   ],
+   "Like negative feedback in the body, the thermostat reverses a change to keep temperature near a set point."
+  ],
+  [
+   "When you are dehydrated, your kidneys respond by …",
+   "producing less, more concentrated urine",
+   [
+    "producing more, more dilute urine",
+    "stopping blood filtering",
+    "releasing extra insulin"
+   ],
+   "Kidneys conserve water when you are dehydrated, so urine becomes smaller in volume and more concentrated."
+  ],
+  [
+   "Which organ mainly controls the water and salt balance of the blood?",
+   "The kidneys",
+   [
+    "The lungs",
+    "The liver",
+    "The heart"
+   ],
+   "Kidneys filter blood and adjust how much water and salt are kept or removed in urine."
+  ],
+  [
+   "Normal human body temperature is about …",
+   "37 °C",
+   [
+    "30 °C",
+    "42 °C",
+    "25 °C"
+   ],
+   "A healthy human body is kept close to 37 °C by homeostasis."
+  ],
+  [
+   "A person with type 1 diabetes cannot make enough insulin. What happens to their blood sugar without treatment?",
+   "It stays too high",
+   [
+    "It stays too low",
+    "It stays perfectly normal",
+    "It drops to zero"
+   ],
+   "Without insulin, cells cannot take in glucose well, so it builds up in the blood."
+  ],
+  [
+   "When carbon dioxide builds up in the blood during exercise, the brain responds by …",
+   "increasing the breathing rate",
+   [
+    "decreasing the breathing rate",
+    "lowering the heart rate",
+    "stopping sweat production"
+   ],
+   "Faster breathing removes extra carbon dioxide and brings in more oxygen."
+  ],
+  [
+   "Which hormone prepares the body for a sudden emergency, raising heart rate?",
+   "Adrenaline",
+   [
+    "Insulin",
+    "Glucagon",
+    "Melatonin"
+   ],
+   "Adrenaline from the adrenal glands increases heart rate and blood sugar for a 'fight or flight' response."
+  ],
+  [
+   "The normal value that the body tries to keep a condition close to is called the …",
+   "set point",
+   [
+    "effector",
+    "stimulus",
+    "receptor"
+   ],
+   "The set point, such as 37 °C for temperature, is the target value of a feedback loop."
+  ],
+  [
+   "Why is homeostasis important for enzymes in the body?",
+   "Enzymes work best within a narrow range of temperature and pH",
+   [
+    "Enzymes work equally well at every temperature and pH",
+    "Enzymes are only made when the body is out of balance",
+    "Enzymes are destroyed when conditions are kept stable"
+   ],
+   "Stable conditions keep enzymes working at their best so body reactions proceed normally."
+  ],
+  [
+   "Goosebumps form when tiny muscles raise your body hair. In furry animals this helps …",
+   "trap a layer of warm air",
+   [
+    "release heat quickly",
+    "make more sweat",
+    "lower the heart rate"
+   ],
+   "Raised fur traps insulating air; in humans goosebumps are a leftover version of this response."
+  ],
+  [
+   "Which is an example of a negative feedback loop?",
+   "Sweating lowers body temperature when you overheat",
+   [
+    "Blood clotting speeds up as more platelets gather",
+    "Contractions get stronger during childbirth",
+    "Fruit ripening releases gas that ripens nearby fruit"
+   ],
+   "Sweating reverses the rise in temperature, which is what negative feedback does."
+  ],
+  [
+   "Which is an example of a positive feedback loop?",
+   "Platelets at a cut attract more platelets to form a clot",
+   [
+    "Shivering warms the body when it is cold",
+    "Insulin lowers blood sugar after a meal",
+    "Kidneys save water when you are dehydrated"
+   ],
+   "In clotting, each step increases the change, so it is positive feedback."
+  ],
+  [
+   "After a long run, you feel thirsty. Thirst is a response that helps restore …",
+   "water balance",
+   [
+    "blood sugar",
+    "oxygen levels",
+    "body hair"
+   ],
+   "Thirst makes you drink, replacing water lost in sweat and keeping body fluids balanced."
+  ],
+  [
+   "When your body temperature rises, the hypothalamus sends signals to the sweat glands. The sweat glands are the …",
+   "effector",
+   [
+    "receptor",
+    "set point",
+    "stimulus"
+   ],
+   "Sweat glands carry out the cooling response, so they act as the effector."
+  ],
+  [
+   "Which pair of hormones work against each other to control blood sugar?",
+   "Insulin and glucagon",
+   [
+    "Adrenaline and melatonin",
+    "Oestrogen and testosterone",
+    "Thyroxine and growth hormone"
+   ],
+   "Insulin lowers blood sugar and glucagon raises it, keeping glucose levels balanced."
+  ]
+ ],
+ "sciXsDivIntro": [
+  [
+   "Which kind of organisms reproduce by binary fission?",
+   "Bacteria",
+   [
+    "Mammals",
+    "Flowering plants",
+    "Birds"
+   ],
+   "Bacteria are single cells that copy their DNA and split into two identical cells."
+  ],
+  [
+   "A human skin cell has 46 chromosomes. How many do human sperm and egg cells have?",
+   "23",
+   [
+    "46",
+    "92",
+    "12"
+   ],
+   "Meiosis halves the chromosome number, so human gametes have 23 chromosomes."
+  ],
+  [
+   "What is the main difference between the daughter cells of mitosis and meiosis?",
+   "Mitosis cells are identical; meiosis cells are genetically different",
+   [
+    "Mitosis cells are different; meiosis cells are genetically identical",
+    "Mitosis cells have no DNA; meiosis cells have twice the DNA",
+    "Mitosis cells are gametes; meiosis cells are body cells"
+   ],
+   "Mitosis copies the cell exactly, while meiosis shuffles genes to make varied gametes."
+  ],
+  [
+   "The region where two sister chromatids are held together is called the …",
+   "centromere",
+   [
+    "cell wall",
+    "ribosome",
+    "vacuole"
+   ],
+   "The centromere is the constricted point that joins sister chromatids."
+  ],
+  [
+   "Why can't a cell simply keep growing larger instead of dividing?",
+   "A large cell has too little surface area for its volume",
+   [
+    "A large cell has too much DNA to control",
+    "A large cell would always become a tumour",
+    "A large cell cannot contain any cytoplasm"
+   ],
+   "As a cell grows, its volume increases faster than its surface area, so materials cannot move in and out fast enough."
+  ],
+  [
+   "Which of these is an example of asexual reproduction by cell division?",
+   "A yeast cell budding off a new cell",
+   [
+    "A sperm fertilizing an egg",
+    "Two parent plants cross-pollinating",
+    "Pollen landing on a flower"
+   ],
+   "Budding in yeast makes a new cell from one parent through mitosis, without gametes."
+  ],
+  [
+   "What does the word 'diploid' describe?",
+   "A cell with two sets of chromosomes",
+   [
+    "A cell with one set of chromosomes",
+    "A cell with no nucleus",
+    "A cell that is dividing"
+   ],
+   "Diploid cells, like human body cells, have two sets of chromosomes, one from each parent."
+  ],
+  [
+   "What does the word 'haploid' describe?",
+   "A cell with one set of chromosomes",
+   [
+    "A cell with two sets of chromosomes",
+    "A cell with no chromosomes",
+    "A cell with four sets of chromosomes"
+   ],
+   "Haploid cells such as gametes carry a single set of chromosomes."
+  ],
+  [
+   "How many daughter cells does one round of mitosis produce?",
+   "2",
+   [
+    "1",
+    "4",
+    "8"
+   ],
+   "Mitosis followed by cytokinesis splits one cell into two daughter cells."
+  ],
+  [
+   "How many daughter cells does meiosis produce from one starting cell?",
+   "4",
+   [
+    "2",
+    "1",
+    "8"
+   ],
+   "Meiosis has two divisions, producing four haploid cells."
+  ],
+  [
+   "A cell with 8 chromosomes divides by mitosis. How many chromosomes does each daughter cell have?",
+   "8",
+   [
+    "4",
+    "16",
+    "2"
+   ],
+   "Mitosis keeps the chromosome number the same in each daughter cell."
+  ],
+  [
+   "A cell with 8 chromosomes undergoes meiosis. How many chromosomes does each gamete have?",
+   "4",
+   [
+    "8",
+    "16",
+    "2"
+   ],
+   "Meiosis halves the chromosome number, so 8 becomes 4."
+  ],
+  [
+   "Which body cells divide very often throughout life?",
+   "Cells lining the stomach and intestines",
+   [
+    "Most mature nerve cells",
+    "Most heart muscle cells",
+    "Cells of the lens of the eye"
+   ],
+   "The gut lining is constantly worn away, so its cells divide frequently to replace it."
+  ],
+  [
+   "A salamander regrows a lost tail. Which process makes the new cells?",
+   "Mitosis",
+   [
+    "Meiosis",
+    "Fertilization",
+    "Pollination"
+   ],
+   "Regeneration uses mitosis to make new body cells identical to the old ones."
+  ],
+  [
+   "What is cancer?",
+   "A disease where cells divide out of control",
+   [
+    "A disease where cells stop making DNA",
+    "A disease caused by too few cells",
+    "A disease where cells shrink and vanish"
+   ],
+   "Cancer happens when the controls on cell division fail and cells keep dividing."
+  ],
+  [
+   "Before a cell divides, each chromosome is copied. The two copies are called …",
+   "sister chromatids",
+   [
+    "homologous pairs",
+    "daughter nuclei",
+    "cell plates"
+   ],
+   "After DNA replication, each chromosome is made of two identical sister chromatids."
+  ],
+  [
+   "Which process joins a sperm and an egg to restore the full chromosome number?",
+   "Fertilization",
+   [
+    "Mitosis",
+    "Meiosis",
+    "Binary fission"
+   ],
+   "Fertilization combines two haploid gametes to form a diploid zygote."
+  ],
+  [
+   "A fertilized egg grows into a baby with trillions of cells. Which process makes these cells?",
+   "Mitosis",
+   [
+    "Meiosis",
+    "Binary fission",
+    "Crossing over"
+   ],
+   "The zygote divides by mitosis again and again to build the body."
+  ],
+  [
+   "Where are chromosomes found in a eukaryotic cell?",
+   "In the nucleus",
+   [
+    "In the cell membrane",
+    "In the vacuole",
+    "In the cell wall"
+   ],
+   "Eukaryotic cells keep their chromosomes inside the nucleus."
+  ],
+  [
+   "What is the final step that splits one cell into two separate cells?",
+   "Cytokinesis",
+   [
+    "Replication",
+    "Fertilization",
+    "Interphase"
+   ],
+   "Cytokinesis divides the cytoplasm, forming two separate cells."
+  ],
+  [
+   "A strawberry plant sends out runners that grow into new plants. The new plants are …",
+   "genetically identical to the parent",
+   [
+    "genetically different from the parent",
+    "always the opposite sex of the parent",
+    "made by meiosis and fertilization"
+   ],
+   "Runners are a form of asexual reproduction, so the offspring are clones of the parent."
+  ],
+  [
+   "Which is NOT a reason that cells divide?",
+   "To make the organism's DNA change",
+   [
+    "To help the organism grow",
+    "To replace worn-out cells",
+    "To repair damaged tissue"
+   ],
+   "Normal cell division copies DNA faithfully; it is for growth, repair and reproduction, not changing DNA."
+  ]
+ ],
+ "sciXsCycle": [
+  [
+   "A cell that has stopped dividing and is resting outside the cycle is in …",
+   "G0",
+   [
+    "G2",
+    "S phase",
+    "M phase"
+   ],
+   "G0 is a resting state where cells carry out their jobs without preparing to divide."
+  ],
+  [
+   "Proteins that help control the timing of the cell cycle are called …",
+   "cyclins",
+   [
+    "lipids",
+    "starches",
+    "hormones"
+   ],
+   "Cyclins rise and fall during the cycle and work with enzymes to move the cell to the next stage."
+  ],
+  [
+   "At the G1 checkpoint, the cell checks whether …",
+   "it is big enough and conditions are right to copy DNA",
+   [
+    "its chromosomes are lined up in the middle",
+    "its cytoplasm has finished dividing",
+    "its sister chromatids have separated"
+   ],
+   "The G1 checkpoint decides if the cell should go on to the S phase and replicate its DNA."
+  ],
+  [
+   "At the G2 checkpoint, the cell mainly checks whether …",
+   "its DNA has been copied correctly",
+   [
+    "its cell plate has formed",
+    "its chromosomes are at the poles",
+    "its nuclear envelopes have reformed"
+   ],
+   "Before mitosis, the G2 checkpoint makes sure DNA replication is complete and undamaged."
+  ],
+  [
+   "The spindle checkpoint during mitosis makes sure that …",
+   "every chromosome is attached to spindle fibres",
+   [
+    "the cell has copied all of its DNA",
+    "the cell has grown enough",
+    "the cytoplasm has fully divided"
+   ],
+   "This checkpoint stops anaphase until all chromosomes are properly attached so each new cell gets a full set."
+  ],
+  [
+   "If a cell's DNA is badly damaged and cannot be repaired, the cell may …",
+   "self-destruct in a process called apoptosis",
+   [
+    "divide faster to make up for it",
+    "change into a different organism",
+    "copy the damaged DNA many times"
+   ],
+   "Apoptosis is programmed cell death that removes damaged cells before they can cause harm."
+  ],
+  [
+   "How many times is DNA copied during one cell cycle?",
+   "Once",
+   [
+    "Twice",
+    "Three times",
+    "Not at all"
+   ],
+   "DNA is replicated once, in the S phase, before the cell divides."
+  ],
+  [
+   "Compared with G1, a cell in G2 has …",
+   "twice as much DNA",
+   [
+    "half as much DNA",
+    "the same amount of DNA",
+    "no DNA at all"
+   ],
+   "During the S phase between G1 and G2, the cell doubles its DNA."
+  ],
+  [
+   "What does the 'S' in S phase stand for?",
+   "Synthesis",
+   [
+    "Splitting",
+    "Separation",
+    "Spindle"
+   ],
+   "S stands for synthesis, because new DNA is made in this phase."
+  ],
+  [
+   "Which order shows the cell cycle correctly?",
+   "G1 → S → G2 → M",
+   [
+    "S → G1 → M → G2",
+    "M → G2 → S → G1",
+    "G1 → G2 → S → M"
+   ],
+   "A cell grows (G1), copies DNA (S), prepares (G2) and then divides (M)."
+  ],
+  [
+   "Cancer cells often ignore checkpoints. As a result they …",
+   "keep dividing even when they should stop",
+   [
+    "stop dividing completely",
+    "copy their DNA perfectly every time",
+    "always die by apoptosis"
+   ],
+   "Without working checkpoints, cancer cells divide uncontrollably and can form tumours."
+  ],
+  [
+   "Why do cells in a healthy tissue stop dividing when they touch neighbouring cells?",
+   "Contact with other cells signals them to stop",
+   [
+    "They run out of DNA to copy",
+    "Their nucleus disappears",
+    "They turn into gametes"
+   ],
+   "This contact inhibition is one signal that controls the cell cycle; cancer cells often lose it."
+  ],
+  [
+   "Which phase of the cell cycle would you most likely see in a cell viewed under a microscope at random?",
+   "Interphase",
+   [
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+   ],
+   "Cells spend most of their time in interphase, so most cells seen are in that phase."
+  ],
+  [
+   "A cell in the M phase is …",
+   "dividing its nucleus and cytoplasm",
+   [
+    "copying its DNA",
+    "growing and making proteins",
+    "resting and not dividing"
+   ],
+   "The M phase includes mitosis (nuclear division) and cytokinesis."
+  ],
+  [
+   "Mature red blood cells in humans have no nucleus. What does this mean for their cell cycle?",
+   "They cannot divide",
+   [
+    "They divide very rapidly",
+    "They copy DNA all the time",
+    "They divide only by meiosis"
+   ],
+   "With no nucleus or DNA, mature red blood cells cannot go through the cell cycle; new ones come from stem cells."
+  ],
+  [
+   "What happens to organelles such as mitochondria during G1?",
+   "Many are made so the cell has enough to share",
+   [
+    "They are all destroyed",
+    "They move into the nucleus",
+    "They turn into chromosomes"
+   ],
+   "During growth in G1, the cell makes more organelles to supply both future daughter cells."
+  ],
+  [
+   "Which cells divide to replace blood cells throughout life?",
+   "Stem cells in the bone marrow",
+   [
+    "Mature red blood cells",
+    "Nerve cells in the brain",
+    "Cells of the eye lens"
+   ],
+   "Bone marrow stem cells keep dividing to produce new blood cells."
+  ],
+  [
+   "A drug blocks DNA replication. In which phase would cells get stuck?",
+   "S phase",
+   [
+    "G2",
+    "M phase",
+    "Cytokinesis"
+   ],
+   "DNA is copied in the S phase, so blocking replication stops cells there."
+  ],
+  [
+   "Why must a cell copy its DNA before mitosis?",
+   "So each daughter cell receives a full set",
+   [
+    "So the cell can make more cell wall",
+    "So the cell can stop making proteins",
+    "So the cell can halve its chromosomes"
+   ],
+   "Copying DNA first means both new cells get complete, identical genetic information."
+  ],
+  [
+   "A gene that normally stops the cell cycle when DNA is damaged is called a …",
+   "tumour suppressor gene",
+   [
+    "growth hormone gene",
+    "stop codon gene",
+    "ribosome gene"
+   ],
+   "Tumour suppressor genes such as p53 halt the cycle so damage can be repaired."
+  ],
+  [
+   "In which phase does a cell make the proteins needed to build spindle fibres?",
+   "G2",
+   [
+    "S phase",
+    "Anaphase",
+    "G0"
+   ],
+   "In G2 the cell prepares for mitosis, including making proteins for the spindle."
+  ],
+  [
+   "Which describes interphase best?",
+   "A busy time of growth and DNA copying",
+   [
+    "A time when the nucleus splits in two",
+    "A time when the cell stops all activity",
+    "A time when chromosomes are pulled apart"
+   ],
+   "Interphase is not a resting stage: the cell grows, works and copies its DNA."
+  ]
+ ],
+ "sciCellCyc": [
+  [
+   "In which phase does the nuclear envelope break down?",
+   "Prophase",
+   [
+    "Telophase",
+    "Anaphase",
+    "Interphase"
+   ],
+   "Early in mitosis, during prophase, the nuclear envelope breaks apart."
+  ],
+  [
+   "In which phase do spindle fibres begin to form?",
+   "Prophase",
+   [
+    "Telophase",
+    "Interphase",
+    "Cytokinesis"
+   ],
+   "Spindle fibres start forming in prophase so they can move the chromosomes."
+  ],
+  [
+   "In which phase do the chromosomes start to uncoil back into chromatin?",
+   "Telophase",
+   [
+    "Prophase",
+    "Metaphase",
+    "Anaphase"
+   ],
+   "In telophase the chromosomes relax into chromatin as new nuclei form."
+  ],
+  [
+   "In which phase are the chromosomes moving toward opposite poles of the cell?",
+   "Anaphase",
+   [
+    "Metaphase",
+    "Prophase",
+    "Interphase"
+   ],
+   "In anaphase, spindle fibres pull separated chromatids toward opposite poles."
+  ],
+  [
+   "In which phase do spindle fibres attach to the centromeres and hold chromosomes in the middle?",
+   "Metaphase",
+   [
+    "Telophase",
+    "Anaphase",
+    "Interphase"
+   ],
+   "In metaphase the chromosomes are held in a line at the cell's equator by spindle fibres."
+  ],
+  [
+   "What is the correct order of the phases of mitosis?",
+   "Prophase, metaphase, anaphase, telophase",
+   [
+    "Metaphase, prophase, telophase, anaphase",
+    "Anaphase, telophase, prophase, metaphase",
+    "Prophase, anaphase, metaphase, telophase"
+   ],
+   "Remember PMAT: prophase, metaphase, anaphase, telophase."
+  ],
+  [
+   "Which phase comes right after metaphase?",
+   "Anaphase",
+   [
+    "Prophase",
+    "Telophase",
+    "Interphase"
+   ],
+   "After the chromosomes line up in metaphase, they separate in anaphase."
+  ],
+  [
+   "Which phase comes right before metaphase?",
+   "Prophase",
+   [
+    "Anaphase",
+    "Telophase",
+    "Cytokinesis"
+   ],
+   "Chromosomes condense in prophase and then line up in metaphase."
+  ],
+  [
+   "In an animal cell, the cell membrane pinches inward to form a …",
+   "cleavage furrow",
+   [
+    "cell plate",
+    "nuclear envelope",
+    "centromere"
+   ],
+   "Animal cells split by forming a cleavage furrow during cytokinesis."
+  ],
+  [
+   "In a plant cell, cytokinesis happens by forming a …",
+   "cell plate",
+   [
+    "cleavage furrow",
+    "centriole",
+    "nucleolus"
+   ],
+   "Plant cells have rigid walls, so a cell plate grows between the two new nuclei."
+  ],
+  [
+   "Each separated sister chromatid in anaphase is now called a …",
+   "chromosome",
+   [
+    "centromere",
+    "nucleus",
+    "spindle"
+   ],
+   "Once sister chromatids separate, each one counts as an individual chromosome."
+  ],
+  [
+   "Which structures in animal cells help organize the spindle fibres?",
+   "Centrioles",
+   [
+    "Chloroplasts",
+    "Vacuoles",
+    "Cell walls"
+   ],
+   "Centrioles in animal cells help form the spindle during mitosis."
+  ],
+  [
+   "A cell under the microscope shows an X-shaped chromosome line along the centre. What phase is it in?",
+   "Metaphase",
+   [
+    "Prophase",
+    "Telophase",
+    "Interphase"
+   ],
+   "Chromosomes lined up along the middle are the sign of metaphase."
+  ],
+  [
+   "A cell shows two clusters of chromosomes at the ends and a nuclear envelope forming around each. What phase is it in?",
+   "Telophase",
+   [
+    "Metaphase",
+    "Prophase",
+    "Anaphase"
+   ],
+   "New nuclear envelopes forming around chromosome clusters at each pole mark telophase."
+  ],
+  [
+   "In which phase does the nucleolus disappear?",
+   "Prophase",
+   [
+    "Telophase",
+    "Interphase",
+    "Anaphase"
+   ],
+   "The nucleolus fades during prophase as the nucleus breaks down."
+  ],
+  [
+   "In which phase does the nucleolus reappear?",
+   "Telophase",
+   [
+    "Prophase",
+    "Metaphase",
+    "Anaphase"
+   ],
+   "In telophase the nuclei re-form, including their nucleoli."
+  ],
+  [
+   "Why is it important that sister chromatids separate in anaphase?",
+   "So each new cell gets one copy of every chromosome",
+   [
+    "So each new cell gets two copies of every chromosome",
+    "So the chromosome number doubles in each cell",
+    "So the DNA can be destroyed and rebuilt"
+   ],
+   "Separating sister chromatids gives each daughter cell an identical, complete set."
+  ],
+  [
+   "During which part of the cell cycle is the cell NOT dividing its nucleus?",
+   "Interphase",
+   [
+    "Prophase",
+    "Anaphase",
+    "Metaphase"
+   ],
+   "Interphase is the time of growth and DNA copying, not nuclear division."
+  ],
+  [
+   "Which phase is the longest part of mitosis itself?",
+   "Prophase",
+   [
+    "Anaphase",
+    "Metaphase",
+    "Cytokinesis"
+   ],
+   "Prophase usually takes longest of the mitotic phases because so much reorganization occurs."
+  ],
+  [
+   "A human cell with 46 chromosomes is in anaphase. How many chromosomes are moving toward each pole?",
+   "46",
+   [
+    "23",
+    "92",
+    "12"
+   ],
+   "Each pole receives one chromatid from all 46 chromosomes, so each new cell will have 46."
+  ],
+  [
+   "Which phase can be thought of as 'prophase in reverse'?",
+   "Telophase",
+   [
+    "Metaphase",
+    "Anaphase",
+    "Interphase"
+   ],
+   "In telophase the nuclear envelope re-forms and chromosomes uncoil, undoing what happened in prophase."
+  ],
+  [
+   "Which statement about cytokinesis is true?",
+   "It usually begins during late anaphase or telophase",
+   [
+    "It always happens before prophase begins",
+    "It copies the chromosomes in the cell",
+    "It happens only in bacteria"
+   ],
+   "Cytokinesis typically overlaps the end of mitosis, splitting the cytoplasm."
+  ]
+ ],
+ "sciXsMitPlant": [
+  [
+   "Which phase is shown in this plant cell? Two separate sets of chromosomes have reached opposite ends of the cell",
+   "Telophase",
+   [
+    "Prophase",
+    "Metaphase",
+    "Interphase"
+   ],
+   "When chromosome sets arrive at the poles and nuclei start to re-form, the cell is in telophase."
+  ],
+  [
+   "Which phase is shown in this plant cell? A clear nucleus with a dark nucleolus and no visible chromosomes",
+   "Interphase",
+   [
+    "Prophase",
+    "Anaphase",
+    "Metaphase"
+   ],
+   "In interphase the DNA is loose chromatin, so separate chromosomes cannot be seen."
+  ],
+  [
+   "Which phase is shown in this plant cell? Thick, thread-like chromosomes are visible but scattered inside the nucleus area",
+   "Prophase",
+   [
+    "Metaphase",
+    "Telophase",
+    "Interphase"
+   ],
+   "Visible but unorganized chromosomes mean the cell is in prophase."
+  ],
+  [
+   "Which phase is shown in this plant cell? V-shaped chromosomes are moving apart toward the two ends",
+   "Anaphase",
+   [
+    "Prophase",
+    "Metaphase",
+    "Telophase"
+   ],
+   "Chromatids look V-shaped as spindle fibres drag them by their centromeres during anaphase."
+  ],
+  [
+   "Which phase is shown in this plant cell? Chromosomes form a single line across the cell's equator",
+   "Metaphase",
+   [
+    "Anaphase",
+    "Prophase",
+    "Interphase"
+   ],
+   "A line of chromosomes across the middle of the cell is the sign of metaphase."
+  ],
+  [
+   "Which phase is shown in this plant cell? A new wall is being built between two new nuclei",
+   "Cytokinesis",
+   [
+    "Prophase",
+    "Metaphase",
+    "Anaphase"
+   ],
+   "In plant cells, cytokinesis forms a cell plate that becomes a new cell wall."
+  ],
+  [
+   "In onion root tip slides, most cells are seen in which phase?",
+   "Interphase",
+   [
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+   ],
+   "Cells spend most of the cycle in interphase, so most cells on the slide are in that phase."
+  ],
+  [
+   "Why are onion root tips often used to study mitosis?",
+   "Cells there divide often to help the root grow",
+   [
+    "Root tip cells never divide",
+    "Root tip cells have no nucleus",
+    "Root tip cells are all in meiosis"
+   ],
+   "The growing tip of a root has many dividing cells, so all phases are easy to find."
+  ],
+  [
+   "Which part of a plant has the most cells undergoing mitosis?",
+   "The growing tips of roots and shoots",
+   [
+    "The middle of old wood",
+    "The waxy surface of leaves",
+    "The dry outer bark"
+   ],
+   "Growing tips (meristems) contain cells that divide often."
+  ],
+  [
+   "How does cytokinesis in plant cells differ from animal cells?",
+   "Plants form a cell plate instead of pinching in",
+   [
+    "Plants pinch in instead of forming a cell plate",
+    "Plants skip cytokinesis completely",
+    "Plants divide their nucleus after cytokinesis"
+   ],
+   "A plant's rigid cell wall cannot pinch, so a cell plate grows outward to divide the cell."
+  ],
+  [
+   "Plant cells lack centrioles. What do they still form to move chromosomes?",
+   "A spindle of fibres",
+   [
+    "A cleavage furrow",
+    "A new cell membrane only",
+    "A second nucleus"
+   ],
+   "Plant cells still build spindle fibres, even without centrioles, to separate chromosomes."
+  ],
+  [
+   "A student counts 40 onion root cells: 32 in interphase and 8 dividing. What does this suggest?",
+   "Interphase takes up most of the cell cycle",
+   [
+    "Mitosis takes up most of the cell cycle",
+    "The cells never divide at all",
+    "The cells are all in meiosis"
+   ],
+   "More cells in a phase means that phase lasts longer, so interphase is the longest part."
+  ],
+  [
+   "Which phase is shown in this plant cell? Chromosomes are fully separated and grouped at the poles; a cell plate is beginning to appear",
+   "Telophase",
+   [
+    "Prophase",
+    "Metaphase",
+    "Interphase"
+   ],
+   "Chromosome groups at the poles with a cell plate starting mark late telophase."
+  ],
+  [
+   "Which phase is shown in this plant cell? The chromatin is just beginning to condense, and the nucleolus is fading",
+   "Prophase",
+   [
+    "Anaphase",
+    "Telophase",
+    "Metaphase"
+   ],
+   "Condensing chromatin and a fading nucleolus are early signs of prophase."
+  ],
+  [
+   "Which phase is shown in this plant cell? The chromosomes are half-way between the middle and the ends of the cell",
+   "Anaphase",
+   [
+    "Metaphase",
+    "Prophase",
+    "Interphase"
+   ],
+   "Chromosomes moving between the centre and the poles show anaphase."
+  ],
+  [
+   "Which phase is shown in this plant cell? Two daughter cells are each separated by a complete new cell wall and have normal nuclei",
+   "Interphase",
+   [
+    "Metaphase",
+    "Anaphase",
+    "Prophase"
+   ],
+   "Once division is complete, each new cell returns to interphase."
+  ],
+  [
+   "Which phase is shown in this plant cell? Spindle fibres are attached to chromosomes held in the middle",
+   "Metaphase",
+   [
+    "Telophase",
+    "Interphase",
+    "Prophase"
+   ],
+   "Chromosomes held at the equator by spindle fibres are in metaphase."
+  ],
+  [
+   "What stain is commonly used to make chromosomes visible in onion root tip cells?",
+   "A DNA stain such as acetocarmine",
+   [
+    "A starch stain such as iodine only",
+    "A fat stain such as Sudan red",
+    "No stain is ever needed"
+   ],
+   "Stains like acetocarmine or toluidine blue bind to chromosomes so they show up under the microscope."
+  ],
+  [
+   "Why is the cell plate important in a dividing plant cell?",
+   "It becomes the new wall between daughter cells",
+   [
+    "It copies the cell's DNA",
+    "It holds chromosomes in the middle",
+    "It breaks down the nuclear envelope"
+   ],
+   "The cell plate grows into a new cell wall separating the two daughter cells."
+  ],
+  [
+   "Which phase is shown in this plant cell? The cell is larger and its DNA has been copied, but chromosomes are still not visible",
+   "Interphase",
+   [
+    "Prophase",
+    "Anaphase",
+    "Telophase"
+   ],
+   "DNA is copied during interphase while it is still spread out as chromatin."
+  ],
+  [
+   "In a plant cell, the cell plate first forms …",
+   "in the middle and grows outward",
+   [
+    "at the edges and grows inward",
+    "inside the nucleus",
+    "before the chromosomes separate"
+   ],
+   "Vesicles gather at the centre and the plate spreads outward to meet the existing wall."
+  ],
+  [
+   "What is the end result of mitosis and cytokinesis in a plant root cell?",
+   "Two identical cells, each with its own wall",
+   [
+    "Four different cells with half the DNA",
+    "One large cell with two walls",
+    "Two cells with no nucleus"
+   ],
+   "Mitosis and cytokinesis produce two genetically identical daughter cells, each with a cell wall."
+  ]
+ ],
+ "sciMTS": [
+  [
+   "Which process produces haploid cells?",
+   "Meiosis only",
+   [
+    "Mitosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Meiosis halves the chromosome number, making haploid cells."
+  ],
+  [
+   "Which process produces diploid daughter cells from a diploid cell?",
+   "Mitosis only",
+   [
+    "Meiosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Mitosis keeps the full chromosome number, so diploid cells stay diploid."
+  ],
+  [
+   "Which process involves two rounds of cell division?",
+   "Meiosis only",
+   [
+    "Mitosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Meiosis has two divisions, meiosis I and meiosis II."
+  ],
+  [
+   "Which process uses spindle fibres to move chromosomes?",
+   "Both mitosis and meiosis",
+   [
+    "Mitosis only",
+    "Meiosis only",
+    "Neither process"
+   ],
+   "Spindle fibres move chromosomes in both types of division."
+  ],
+  [
+   "In which process do homologous chromosomes pair up to form tetrads?",
+   "Meiosis only",
+   [
+    "Mitosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Homologous chromosomes pair up in prophase I of meiosis."
+  ],
+  [
+   "Which process makes new skin cells to heal a scrape?",
+   "Mitosis only",
+   [
+    "Meiosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Repair uses mitosis to make identical body cells."
+  ],
+  [
+   "Which process joins a sperm and an egg to make a zygote?",
+   "Neither process",
+   [
+    "Mitosis only",
+    "Meiosis only",
+    "Both mitosis and meiosis"
+   ],
+   "Joining gametes is fertilization, which is not a type of cell division."
+  ],
+  [
+   "Which process includes a stage called prophase?",
+   "Both mitosis and meiosis",
+   [
+    "Mitosis only",
+    "Meiosis only",
+    "Neither process"
+   ],
+   "Mitosis has prophase, and meiosis has prophase I and prophase II."
+  ],
+  [
+   "In which process do homologous chromosomes separate from each other?",
+   "Meiosis only",
+   [
+    "Mitosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Homologous pairs separate in anaphase I of meiosis."
+  ],
+  [
+   "Which process happens in the ovaries and testes to make gametes?",
+   "Meiosis only",
+   [
+    "Mitosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Gametes are made by meiosis in the reproductive organs."
+  ],
+  [
+   "Which process lets an amoeba reproduce into two identical cells?",
+   "Mitosis only",
+   [
+    "Meiosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Single-celled eukaryotes such as amoebas reproduce asexually by mitosis."
+  ],
+  [
+   "Which process is how bacteria divide?",
+   "Neither process",
+   [
+    "Mitosis only",
+    "Meiosis only",
+    "Both mitosis and meiosis"
+   ],
+   "Bacteria have no nucleus and divide by binary fission, not mitosis or meiosis."
+  ],
+  [
+   "Which process is followed by cytokinesis to split the cytoplasm?",
+   "Both mitosis and meiosis",
+   [
+    "Mitosis only",
+    "Meiosis only",
+    "Neither process"
+   ],
+   "Cytokinesis divides the cytoplasm after both mitosis and each meiotic division."
+  ],
+  [
+   "Which process reduces a cell with 46 chromosomes to cells with 23?",
+   "Meiosis only",
+   [
+    "Mitosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Meiosis halves the chromosome number from 46 to 23 in humans."
+  ],
+  [
+   "Which process produces daughter cells that are genetically identical to the parent cell?",
+   "Mitosis only",
+   [
+    "Meiosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Mitosis copies the genetic material exactly into two cells."
+  ],
+  [
+   "Which process is used by a plant growing taller at its shoot tip?",
+   "Mitosis only",
+   [
+    "Meiosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Growth at shoot tips comes from mitosis in the meristem."
+  ],
+  [
+   "Which process builds proteins from instructions in mRNA?",
+   "Neither process",
+   [
+    "Mitosis only",
+    "Meiosis only",
+    "Both mitosis and meiosis"
+   ],
+   "Building proteins is translation, which is not a type of cell division."
+  ],
+  [
+   "Which process happens in eukaryotic cells and needs the DNA to be copied first?",
+   "Both mitosis and meiosis",
+   [
+    "Mitosis only",
+    "Meiosis only",
+    "Neither process"
+   ],
+   "DNA is replicated in interphase before both mitosis and meiosis."
+  ],
+  [
+   "Which process produces four genetically different cells?",
+   "Meiosis only",
+   [
+    "Mitosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Crossing over and independent assortment make the four meiotic cells different."
+  ],
+  [
+   "Which process makes the cells that replace your red blood cells?",
+   "Mitosis only",
+   [
+    "Meiosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Bone marrow stem cells divide by mitosis to make new blood cells."
+  ],
+  [
+   "In which process are sister chromatids pulled apart during an anaphase?",
+   "Both mitosis and meiosis",
+   [
+    "Mitosis only",
+    "Meiosis only",
+    "Neither process"
+   ],
+   "Sister chromatids separate in anaphase of mitosis and in anaphase II of meiosis."
+  ],
+  [
+   "Which process explains why siblings with the same parents look different?",
+   "Meiosis only",
+   [
+    "Mitosis only",
+    "Both mitosis and meiosis",
+    "Neither process"
+   ],
+   "Meiosis shuffles genes, so each gamete and each child is different."
+  ]
+ ],
+ "sciDNAst": [
+  [
+   "Which base pairs with adenine in DNA?",
+   "Thymine",
+   [
+    "Guanine",
+    "Cytosine",
+    "Uracil"
+   ],
+   "In DNA, adenine always pairs with thymine."
+  ],
+  [
+   "Which base pairs with adenine in RNA?",
+   "Uracil",
+   [
+    "Thymine",
+    "Guanine",
+    "Cytosine"
+   ],
+   "RNA uses uracil in place of thymine, so adenine pairs with uracil."
+  ],
+  [
+   "Which sugar is found in DNA?",
+   "Deoxyribose",
+   [
+    "Ribose",
+    "Glucose",
+    "Sucrose"
+   ],
+   "DNA is deoxyribonucleic acid; its sugar is deoxyribose."
+  ],
+  [
+   "What are the three parts of a nucleotide?",
+   "A sugar, a phosphate and a base",
+   [
+    "A sugar, a fat and an amino acid",
+    "A protein, a phosphate and a lipid",
+    "A base, a salt and a starch"
+   ],
+   "Every nucleotide has a five-carbon sugar, a phosphate group and a nitrogen base."
+  ],
+  [
+   "What forms the 'sides' of the DNA ladder?",
+   "Sugar and phosphate groups",
+   [
+    "Pairs of nitrogen bases",
+    "Chains of amino acids",
+    "Fatty acid tails"
+   ],
+   "Alternating sugars and phosphates make the backbone of each strand."
+  ],
+  [
+   "What forms the 'rungs' of the DNA ladder?",
+   "Pairs of nitrogen bases",
+   [
+    "Sugar and phosphate groups",
+    "Chains of amino acids",
+    "Molecules of glucose"
+   ],
+   "Paired bases joined by hydrogen bonds form the rungs."
+  ],
+  [
+   "How many strands does a typical DNA molecule have?",
+   "Two",
+   [
+    "One",
+    "Three",
+    "Four"
+   ],
+   "DNA is double-stranded, with two strands twisted into a helix."
+  ],
+  [
+   "How many strands does a typical RNA molecule have?",
+   "One",
+   [
+    "Two",
+    "Three",
+    "Four"
+   ],
+   "RNA is usually a single strand."
+  ],
+  [
+   "Which scientists published the double-helix model of DNA in 1953?",
+   "Watson and Crick",
+   [
+    "Darwin and Wallace",
+    "Mendel and Morgan",
+    "Banting and Best"
+   ],
+   "James Watson and Francis Crick proposed the double helix, using X-ray data from Rosalind Franklin."
+  ],
+  [
+   "Whose X-ray images of DNA helped reveal its helical shape?",
+   "Rosalind Franklin",
+   [
+    "Marie Curie",
+    "Gregor Mendel",
+    "Louis Pasteur"
+   ],
+   "Rosalind Franklin's X-ray diffraction images showed that DNA is a helix."
+  ],
+  [
+   "One DNA strand reads A G C T. What is the matching strand?",
+   "T C G A",
+   [
+    "A G C T",
+    "U C G A",
+    "G A T C"
+   ],
+   "A pairs with T and G pairs with C, giving T C G A."
+  ],
+  [
+   "One DNA strand reads G G A T. What is the matching strand?",
+   "C C T A",
+   [
+    "G G A T",
+    "C C U A",
+    "T T C G"
+   ],
+   "G pairs with C and A pairs with T, so the partner strand is C C T A."
+  ],
+  [
+   "If 30% of the bases in a DNA sample are adenine, what percentage are thymine?",
+   "30%",
+   [
+    "20%",
+    "70%",
+    "40%"
+   ],
+   "Adenine pairs with thymine, so there are equal amounts of each."
+  ],
+  [
+   "If 20% of the bases in a DNA sample are guanine, what percentage are cytosine?",
+   "20%",
+   [
+    "30%",
+    "80%",
+    "60%"
+   ],
+   "Guanine pairs with cytosine, so their amounts are equal."
+  ],
+  [
+   "What is a gene?",
+   "A section of DNA that codes for a protein",
+   [
+    "A whole chromosome made of proteins",
+    "A sugar molecule that stores energy",
+    "An organelle that makes ribosomes"
+   ],
+   "Genes are segments of DNA carrying instructions for making a protein or RNA."
+  ],
+  [
+   "Which type of RNA carries the message from DNA to the ribosome?",
+   "Messenger RNA (mRNA)",
+   [
+    "Transfer RNA (tRNA)",
+    "Ribosomal RNA (rRNA)",
+    "Double-stranded DNA (dsDNA)"
+   ],
+   "mRNA carries a copy of a gene's instructions to the ribosome."
+  ],
+  [
+   "Which type of RNA brings amino acids to the ribosome?",
+   "Transfer RNA (tRNA)",
+   [
+    "Messenger RNA (mRNA)",
+    "Ribosomal RNA (rRNA)",
+    "Double-stranded DNA (dsDNA)"
+   ],
+   "tRNA molecules each carry a specific amino acid to the ribosome."
+  ],
+  [
+   "Which statement compares DNA and RNA correctly?",
+   "DNA has thymine; RNA has uracil instead",
+   [
+    "DNA has uracil; RNA has thymine instead",
+    "DNA is single-stranded; RNA is double",
+    "DNA has ribose; RNA has deoxyribose"
+   ],
+   "RNA replaces thymine with uracil and uses ribose sugar."
+  ],
+  [
+   "Besides the nucleus, which organelle has its own small amount of DNA?",
+   "Mitochondria",
+   [
+    "Ribosomes",
+    "Vacuoles",
+    "Golgi bodies"
+   ],
+   "Mitochondria (and chloroplasts in plants) contain their own small circles of DNA."
+  ],
+  [
+   "Where is DNA found in a bacterial cell?",
+   "Loose in the cytoplasm",
+   [
+    "Inside a nucleus",
+    "Inside the cell wall",
+    "Inside the vacuole"
+   ],
+   "Bacteria have no nucleus, so their DNA sits in the cytoplasm in a region called the nucleoid."
+  ],
+  [
+   "Which bases are larger, double-ring purines?",
+   "Adenine and guanine",
+   [
+    "Cytosine and thymine",
+    "Thymine and uracil",
+    "Cytosine and uracil"
+   ],
+   "Adenine and guanine are purines; cytosine, thymine and uracil are smaller pyrimidines."
+  ],
+  [
+   "What makes one gene different from another?",
+   "The order of its bases",
+   [
+    "The type of sugar it has",
+    "The number of phosphates per base",
+    "The shape of its helix"
+   ],
+   "Genes differ in their sequence of A, T, G and C bases."
+  ]
+ ],
+ "sciXsGenCode": [
+  [
+   "Which molecule carries codons from the nucleus to the ribosome?",
+   "mRNA",
+   [
+    "tRNA",
+    "DNA",
+    "ATP"
+   ],
+   "Messenger RNA carries the codons that are read at the ribosome."
+  ],
+  [
+   "A group of three bases on tRNA that pairs with a codon is called an …",
+   "anticodon",
+   [
+    "amino acid",
+    "intron",
+    "operon"
+   ],
+   "Each tRNA has an anticodon complementary to an mRNA codon."
+  ],
+  [
+   "What is the anticodon for the mRNA codon AUG?",
+   "UAC",
+   [
+    "AUG",
+    "TAC",
+    "GUA"
+   ],
+   "A pairs with U, U with A and G with C, so AUG pairs with UAC."
+  ],
+  [
+   "What is the anticodon for the mRNA codon GCU?",
+   "CGA",
+   [
+    "GCU",
+    "CGT",
+    "AGC"
+   ],
+   "G pairs with C, C with G and U with A, giving CGA."
+  ],
+  [
+   "Which amino acid does the start codon AUG code for?",
+   "Methionine",
+   [
+    "Glycine",
+    "Alanine",
+    "Leucine"
+   ],
+   "AUG codes for methionine and also signals where translation begins."
+  ],
+  [
+   "An mRNA strand is AUG GCA UAA. How many amino acids does it code for?",
+   "2",
+   [
+    "3",
+    "1",
+    "9"
+   ],
+   "AUG and GCA code for amino acids, and UAA is a stop codon."
+  ],
+  [
+   "How many bases are needed to code for a protein of 50 amino acids (not counting the stop codon)?",
+   "150",
+   [
+    "50",
+    "100",
+    "200"
+   ],
+   "Each amino acid needs one three-base codon, so 50 × 3 = 150."
+  ],
+  [
+   "A mutation changes a codon into a stop codon. What is the likely effect?",
+   "The protein is cut short",
+   [
+    "The protein is unchanged",
+    "The protein becomes longer",
+    "Two proteins are made"
+   ],
+   "An early stop codon ends translation too soon, making a shortened protein (a nonsense mutation)."
+  ],
+  [
+   "A mutation inserts one extra base into a gene. Why is this often harmful?",
+   "It shifts how every later codon is read",
+   [
+    "It changes only one amino acid",
+    "It never affects the protein",
+    "It makes the gene twice as long"
+   ],
+   "Inserting a base causes a frameshift, so all codons after it are read wrongly."
+  ],
+  [
+   "A mutation changes one codon so it codes for a different amino acid. This is called a …",
+   "missense mutation",
+   [
+    "silent mutation",
+    "nonsense mutation",
+    "frameshift mutation"
+   ],
+   "A missense mutation swaps one amino acid for another."
+  ],
+  [
+   "Sickle cell disease is caused by one base change that swaps one amino acid in hemoglobin. This is a …",
+   "missense mutation",
+   [
+    "silent mutation",
+    "frameshift mutation",
+    "nonsense mutation"
+   ],
+   "A single amino acid change in a protein is a missense mutation."
+  ],
+  [
+   "What is a 'reading frame'?",
+   "The way bases are grouped into codons",
+   [
+    "The shape of a DNA double helix",
+    "The order of genes on a chromosome",
+    "The place where ribosomes are made"
+   ],
+   "The reading frame sets which groups of three bases are read as codons."
+  ],
+  [
+   "Why is a code of three-base codons needed rather than two-base codons?",
+   "Two bases give only 16 codons, too few for 20 amino acids",
+   [
+    "Two bases give 64 codons, too many for 20 amino acids",
+    "Two bases cannot be read by any ribosome at all",
+    "Two bases would make proteins twice as long"
+   ],
+   "With 4 bases, pairs give 4 × 4 = 16 combinations, but triplets give 64, enough for 20 amino acids."
+  ],
+  [
+   "Using the genetic code, which codon pairs with the DNA triplet TAC?",
+   "AUG",
+   [
+    "TAC",
+    "ATG",
+    "UAC"
+   ],
+   "Transcription pairs T with A, A with U and C with G, so TAC becomes AUG."
+  ],
+  [
+   "A DNA template strand reads CCG. What is the mRNA codon?",
+   "GGC",
+   [
+    "CCG",
+    "GGT",
+    "CCU"
+   ],
+   "C pairs with G and G pairs with C, giving the mRNA codon GGC."
+  ],
+  [
+   "A DNA template strand reads ATT. What is the mRNA codon?",
+   "UAA",
+   [
+    "TAA",
+    "ATT",
+    "UTT"
+   ],
+   "A pairs with U and T pairs with A, so ATT becomes UAA, a stop codon."
+  ],
+  [
+   "The codons GGU, GGC, GGA and GGG all code for glycine. This shows that the code is …",
+   "redundant",
+   [
+    "ambiguous",
+    "overlapping",
+    "random"
+   ],
+   "Several codons coding for the same amino acid is called redundancy."
+  ],
+  [
+   "Does any single codon code for two different amino acids?",
+   "No, each codon has only one meaning",
+   [
+    "Yes, most codons code for two",
+    "Yes, but only in plant cells",
+    "Yes, all stop codons do this"
+   ],
+   "The code is unambiguous: each codon specifies just one amino acid or stop signal."
+  ],
+  [
+   "Scientists can put a human insulin gene into bacteria, which then make human insulin. This works because the genetic code is …",
+   "nearly universal",
+   [
+    "only found in humans",
+    "different in every species",
+    "only read in the nucleus"
+   ],
+   "Bacteria read the same codons as humans, so they can build the human protein."
+  ],
+  [
+   "How many of the 64 codons are stop codons?",
+   "3",
+   [
+    "1",
+    "20",
+    "61"
+   ],
+   "UAA, UAG and UGA are the three stop codons."
+  ],
+  [
+   "How many of the 64 codons code for amino acids?",
+   "61",
+   [
+    "64",
+    "20",
+    "3"
+   ],
+   "64 codons minus 3 stop codons leaves 61 that code for amino acids."
+  ],
+  [
+   "Where in the cell are codons read to build a protein?",
+   "At the ribosome",
+   [
+    "In the vacuole",
+    "At the cell wall",
+    "In the lysosome"
+   ],
+   "Ribosomes read mRNA codons and link amino acids together during translation."
+  ]
+ ],
+ "sciXsDnaRep": [
+  [
+   "A template strand reads G C A T T. What is the new strand?",
+   "C G T A A",
+   [
+    "G C A T T",
+    "C G U A A",
+    "T A C G G"
+   ],
+   "G pairs with C and A pairs with T, so the new strand is C G T A A."
+  ],
+  [
+   "A template strand reads T T A C G G. What is the new strand?",
+   "A A T G C C",
+   [
+    "T T A C G G",
+    "A A U G C C",
+    "C C G T A A"
+   ],
+   "Each T pairs with A and each C with G, giving A A T G C C."
+  ],
+  [
+   "What is the point where the DNA strands are separating during replication called?",
+   "The replication fork",
+   [
+    "The cell plate",
+    "The centromere",
+    "The stop codon"
+   ],
+   "The Y-shaped region where the helix opens is the replication fork."
+  ],
+  [
+   "Which strand of DNA is built continuously during replication?",
+   "The leading strand",
+   [
+    "The lagging strand",
+    "The coding strand",
+    "The mRNA strand"
+   ],
+   "The leading strand is made smoothly toward the replication fork."
+  ],
+  [
+   "Which enzyme joins Okazaki fragments together?",
+   "DNA ligase",
+   [
+    "Helicase",
+    "Amylase",
+    "RNA polymerase"
+   ],
+   "DNA ligase seals the gaps between Okazaki fragments on the lagging strand."
+  ],
+  [
+   "What short piece must be added before DNA polymerase can start a new strand?",
+   "An RNA primer",
+   [
+    "A stop codon",
+    "A cell plate",
+    "A ribosome"
+   ],
+   "DNA polymerase can only add to an existing strand, so primase lays down a short RNA primer."
+  ],
+  [
+   "After one round of replication, how many DNA molecules are there?",
+   "Two",
+   [
+    "One",
+    "Four",
+    "Three"
+   ],
+   "One DNA molecule is copied into two identical molecules."
+  ],
+  [
+   "After replication, how do the two new DNA molecules compare?",
+   "They are identical to each other",
+   [
+    "They are completely different",
+    "One has half the bases of the other",
+    "One is RNA and one is DNA"
+   ],
+   "Base pairing rules ensure both copies have the same sequence."
+  ],
+  [
+   "Which experiment showed that DNA replication is semi-conservative?",
+   "Meselson and Stahl's nitrogen experiment",
+   [
+    "Mendel's pea plant experiment",
+    "Pasteur's swan-neck flask experiment",
+    "Darwin's finch beak measurements"
+   ],
+   "Meselson and Stahl used heavy and light nitrogen to show each new molecule keeps one old strand."
+  ],
+  [
+   "What does DNA polymerase do besides adding nucleotides?",
+   "It checks for and fixes mistakes",
+   [
+    "It unwinds the double helix",
+    "It joins amino acids together",
+    "It splits the cytoplasm"
+   ],
+   "DNA polymerase proofreads, removing wrongly paired bases."
+  ],
+  [
+   "Why are DNA copying errors rare?",
+   "Enzymes proofread and repair the new strand",
+   [
+    "Bases can pair with any other base",
+    "Cells copy only half their DNA",
+    "Replication happens only once in a lifetime"
+   ],
+   "Proofreading and repair enzymes catch most mistakes, so errors are very rare."
+  ],
+  [
+   "A copying mistake that is not repaired becomes a …",
+   "mutation",
+   [
+    "codon",
+    "primer",
+    "spindle"
+   ],
+   "An unrepaired change in the DNA sequence is a mutation."
+  ],
+  [
+   "In which direction are DNA strands described as running relative to each other?",
+   "In opposite directions",
+   [
+    "In the same direction",
+    "In a circle with no ends",
+    "Side by side at right angles"
+   ],
+   "The two strands of DNA are antiparallel, running in opposite directions."
+  ],
+  [
+   "Why does the lagging strand have to be made in pieces?",
+   "DNA polymerase builds in only one direction",
+   [
+    "The lagging strand has no bases",
+    "Helicase cuts it into pieces",
+    "The lagging strand is made of RNA"
+   ],
+   "Because polymerase works in one direction, the strand running the other way is made in short fragments."
+  ],
+  [
+   "In eukaryotes, where does DNA replication happen?",
+   "In the nucleus",
+   [
+    "In the ribosomes",
+    "In the vacuole",
+    "In the cell wall"
+   ],
+   "Eukaryotic chromosomes are copied inside the nucleus."
+  ],
+  [
+   "Why do eukaryotic chromosomes have many starting points (origins) for replication?",
+   "So the long DNA can be copied quickly",
+   [
+    "So the DNA can be copied twice",
+    "So the DNA can become RNA",
+    "So the chromosome can shrink"
+   ],
+   "Many origins let replication run in many places at once, speeding up copying."
+  ],
+  [
+   "What are the building blocks added during DNA replication?",
+   "Nucleotides",
+   [
+    "Amino acids",
+    "Fatty acids",
+    "Simple sugars"
+   ],
+   "DNA polymerase links free nucleotides into a new strand."
+  ],
+  [
+   "Which base pairs with thymine (T) in DNA?",
+   "Adenine (A)",
+   [
+    "Guanine (G)",
+    "Cytosine (C)",
+    "Uracil (U)"
+   ],
+   "Thymine always pairs with adenine in DNA."
+  ],
+  [
+   "A DNA molecule has 1000 base pairs. How many base pairs does each copy have after replication?",
+   "1000",
+   [
+    "500",
+    "2000",
+    "250"
+   ],
+   "Replication makes full copies, so each has 1000 base pairs."
+  ],
+  [
+   "Which bonds hold the sugar and phosphate backbone together and are NOT broken by helicase?",
+   "Covalent bonds",
+   [
+    "Hydrogen bonds",
+    "Ionic bonds",
+    "Magnetic bonds"
+   ],
+   "Helicase breaks the weak hydrogen bonds between bases, not the strong covalent backbone bonds."
+  ],
+  [
+   "What is the first step of DNA replication?",
+   "The double helix unwinds and unzips",
+   [
+    "Okazaki fragments are joined",
+    "New strands twist into a helix",
+    "DNA polymerase checks for errors"
+   ],
+   "Helicase must open the helix before new strands can be built."
+  ],
+  [
+   "Why is base pairing important for replication?",
+   "Each strand acts as a template for the other",
+   [
+    "It lets any base join any other base",
+    "It makes the new DNA different",
+    "It turns the DNA into protein"
+   ],
+   "Because A pairs with T and G with C, each strand sets the sequence of its new partner."
+  ]
+ ],
+ "sciXsMeio": [
+  [
+   "During which stage do homologous chromosomes separate?",
+   "Anaphase I",
+   [
+    "Anaphase II",
+    "Prophase II",
+    "Telophase II"
+   ],
+   "In anaphase I, homologous pairs are pulled to opposite poles."
+  ],
+  [
+   "During which stage do sister chromatids separate in meiosis?",
+   "Anaphase II",
+   [
+    "Anaphase I",
+    "Prophase I",
+    "Metaphase I"
+   ],
+   "Sister chromatids separate in the second meiotic division, in anaphase II."
+  ],
+  [
+   "Down syndrome is usually caused by an extra copy of chromosome 21. What process error leads to this?",
+   "Nondisjunction in meiosis",
+   [
+    "Crossing over in mitosis",
+    "A silent point mutation",
+    "Binary fission in bacteria"
+   ],
+   "If chromosome 21 fails to separate during meiosis, a gamete can carry an extra copy."
+  ],
+  [
+   "A pair of homologous chromosomes joined together during prophase I is called a …",
+   "tetrad",
+   [
+    "codon",
+    "zygote",
+    "centriole"
+   ],
+   "Two homologous chromosomes, each with two chromatids, form a four-chromatid tetrad."
+  ],
+  [
+   "Why does random fertilization add even more variation?",
+   "Any sperm can join with any egg",
+   [
+    "Every sperm is identical",
+    "Only one egg is ever made",
+    "Gametes are made by mitosis"
+   ],
+   "Each parent makes millions of different gametes, and any pair can combine."
+  ],
+  [
+   "Why are siblings (other than identical twins) genetically different?",
+   "Each formed from a different sperm and egg",
+   [
+    "They each have only one parent",
+    "They are made by mitosis",
+    "Their DNA changes after birth"
+   ],
+   "Different gametes carry different gene combinations, so each child is unique."
+  ],
+  [
+   "Why are identical twins genetically the same?",
+   "They come from one zygote that split",
+   [
+    "They come from two eggs and two sperm",
+    "They have no crossing over at all",
+    "They were made by meiosis twice"
+   ],
+   "Identical twins form when one fertilized egg splits, so they share the same DNA."
+  ],
+  [
+   "What is a mutation's role in genetic variation?",
+   "It creates new alleles",
+   [
+    "It removes all alleles",
+    "It makes clones of parents",
+    "It stops meiosis from happening"
+   ],
+   "Mutations are the original source of new alleles that meiosis then shuffles."
+  ],
+  [
+   "In a species with 2 pairs of chromosomes, how many combinations can independent assortment make?",
+   "4",
+   [
+    "2",
+    "8",
+    "16"
+   ],
+   "The number of combinations is 2 raised to the number of pairs: 2² = 4."
+  ],
+  [
+   "In a species with 3 pairs of chromosomes, how many combinations can independent assortment make?",
+   "8",
+   [
+    "6",
+    "3",
+    "9"
+   ],
+   "With 3 pairs, there are 2³ = 8 possible combinations."
+  ],
+  [
+   "What is one disadvantage of sexual reproduction compared with asexual reproduction?",
+   "It needs time and energy to find a mate",
+   [
+    "It always produces identical offspring",
+    "It reduces genetic variation",
+    "It needs only one parent"
+   ],
+   "Finding a mate and making gametes costs energy and time."
+  ],
+  [
+   "What is one advantage of asexual reproduction?",
+   "A single organism can reproduce quickly",
+   [
+    "It creates much more variation",
+    "It needs two parents to work",
+    "It shuffles genes every time"
+   ],
+   "Asexual reproduction is fast and needs no partner."
+  ],
+  [
+   "Which organism can reproduce both sexually and asexually?",
+   "A strawberry plant",
+   [
+    "A human",
+    "A horse",
+    "A robin"
+   ],
+   "Strawberries make seeds by sexual reproduction and runners by asexual reproduction."
+  ],
+  [
+   "A population of cloned banana plants is wiped out by one fungus. What does this show?",
+   "Low variation makes a population vulnerable",
+   [
+    "High variation makes a population vulnerable",
+    "Clones are immune to all diseases",
+    "Fungi only attack wild plants"
+   ],
+   "When all plants share the same genes, a disease that harms one can harm all."
+  ],
+  [
+   "Where does crossing over take place?",
+   "Between homologous chromosomes",
+   [
+    "Between sister chromatids of one copy",
+    "Between the cell wall and membrane",
+    "Between two separate cells"
+   ],
+   "Non-sister chromatids of homologous chromosomes exchange segments."
+  ],
+  [
+   "Crossing over produces chromosomes that are …",
+   "recombinant, with a new mix of alleles",
+   [
+    "identical to the original chromosomes",
+    "missing all of their genes",
+    "made entirely of protein"
+   ],
+   "Swapping segments creates recombinant chromosomes with new combinations of alleles."
+  ],
+  [
+   "What is the chromosome number of the cells after meiosis I in humans?",
+   "23",
+   [
+    "46",
+    "92",
+    "12"
+   ],
+   "Meiosis I separates homologous pairs, so each cell has 23 (duplicated) chromosomes."
+  ],
+  [
+   "How does meiosis II compare with mitosis?",
+   "Both separate sister chromatids",
+   [
+    "Both separate homologous pairs",
+    "Both double the chromosome number",
+    "Both include crossing over"
+   ],
+   "Meiosis II works much like mitosis, splitting sister chromatids apart."
+  ],
+  [
+   "Why do gametes need to be haploid?",
+   "So the zygote has the normal chromosome number",
+   [
+    "So the zygote has twice the normal number",
+    "So gametes can divide by mitosis faster",
+    "So gametes have no DNA at all"
+   ],
+   "Two haploid gametes join to form a diploid zygote with the right number of chromosomes."
+  ],
+  [
+   "A mule is the offspring of a horse and a donkey and is usually sterile. Why?",
+   "Its chromosomes cannot pair properly in meiosis",
+   [
+    "It has no chromosomes in its cells",
+    "It was made by asexual reproduction",
+    "Its cells cannot undergo mitosis"
+   ],
+   "Horse and donkey chromosomes are not true homologous pairs, so meiosis fails."
+  ],
+  [
+   "In which stage do homologous pairs line up side by side across the middle of the cell?",
+   "Metaphase I",
+   [
+    "Metaphase II",
+    "Anaphase II",
+    "Telophase II"
+   ],
+   "In metaphase I, homologous pairs line up at the equator in random orientation."
+  ],
+  [
+   "Which process provides more genetic variation in a population?",
+   "Sexual reproduction",
+   [
+    "Budding",
+    "Binary fission",
+    "Vegetative propagation"
+   ],
+   "Sexual reproduction mixes genes from two parents; the others make clones."
+  ]
+ ]
+}
