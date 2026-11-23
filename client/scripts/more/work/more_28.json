@@ -1,0 +1,1112 @@
+{
+ "sciATM": [
+  [
+   "Which layer is the coldest, reaching about −90 °C at its top?",
+   "Mesosphere",
+   [
+    "Troposphere",
+    "Stratosphere",
+    "Exosphere"
+   ],
+   "The mesosphere is the coldest layer because it has little ozone to absorb sunlight and is far from the warm ground."
+  ],
+  [
+   "In the troposphere, what usually happens to the temperature as you go higher?",
+   "It decreases",
+   [
+    "It increases",
+    "It stays the same",
+    "It doubles"
+   ],
+   "The troposphere is heated from the ground up, so the air gets colder with height."
+  ],
+  [
+   "Why does the temperature rise with height in the stratosphere?",
+   "Ozone absorbs ultraviolet light from the Sun",
+   [
+    "Clouds trap heat from the ground there",
+    "Nitrogen there burns and releases heat",
+    "Jet engines release heat in that layer"
+   ],
+   "Ozone in the stratosphere absorbs the Sun's UV rays and warms the upper part of the layer."
+  ],
+  [
+   "What happens to air pressure as you climb higher in the atmosphere?",
+   "It decreases",
+   [
+    "It increases",
+    "It stays the same",
+    "It rises then falls"
+   ],
+   "Higher up there is less air above you pressing down, so air pressure drops."
+  ],
+  [
+   "Which layer holds about three-quarters of the mass of the atmosphere?",
+   "Troposphere",
+   [
+    "Mesosphere",
+    "Thermosphere",
+    "Exosphere"
+   ],
+   "Gravity pulls most air close to the ground, so the thin troposphere holds about 75% of the atmosphere's mass."
+  ],
+  [
+   "What is the boundary between the troposphere and the stratosphere called?",
+   "Tropopause",
+   [
+    "Stratopause",
+    "Mesopause",
+    "Thermocline"
+   ],
+   "The tropopause marks the top of the troposphere, where the stratosphere begins."
+  ],
+  [
+   "Which gas makes up a little under 1% of Earth's atmosphere?",
+   "Argon",
+   [
+    "Helium",
+    "Neon",
+    "Hydrogen"
+   ],
+   "Argon is the third most common gas in dry air, at about 0.9%."
+  ],
+  [
+   "Which gas makes up only about 0.04% of the air but helps trap heat near Earth?",
+   "Carbon dioxide",
+   [
+    "Nitrogen",
+    "Argon",
+    "Oxygen"
+   ],
+   "Carbon dioxide is a greenhouse gas that traps heat even though it is a tiny part of the air."
+  ],
+  [
+   "In which layer can temperatures pass 1000 °C, even though the air is too thin to feel hot?",
+   "Thermosphere",
+   [
+    "Troposphere",
+    "Mesosphere",
+    "Stratosphere"
+   ],
+   "The thermosphere absorbs intense solar radiation, so its few particles are very hot."
+  ],
+  [
+   "Which list orders the layers from Earth's surface upward?",
+   "Troposphere, stratosphere, mesosphere, thermosphere",
+   [
+    "Stratosphere, troposphere, mesosphere, thermosphere",
+    "Troposphere, mesosphere, stratosphere, thermosphere",
+    "Thermosphere, mesosphere, stratosphere, troposphere"
+   ],
+   "Going up from the ground, the layers are the troposphere, stratosphere, mesosphere, thermosphere and then the exosphere."
+  ],
+  [
+   "In which layer do almost all clouds and rain form?",
+   "Troposphere",
+   [
+    "Stratosphere",
+    "Mesosphere",
+    "Thermosphere"
+   ],
+   "Nearly all water vapour is in the troposphere, so clouds and precipitation form there."
+  ],
+  [
+   "Which layer reaches the farthest, up to about 10 000 km above Earth?",
+   "Exosphere",
+   [
+    "Thermosphere",
+    "Mesosphere",
+    "Stratosphere"
+   ],
+   "The exosphere is the very thin outermost layer that slowly fades into space."
+  ],
+  [
+   "Why is it harder to breathe on top of a very high mountain?",
+   "The air is thinner, so each breath has less oxygen",
+   [
+    "The air there is mostly carbon dioxide instead",
+    "Oxygen sinks down into the rocks below",
+    "The ozone layer blocks oxygen at that height"
+   ],
+   "Air pressure is lower up high, so each breath holds fewer oxygen molecules."
+  ],
+  [
+   "On average, about how high does the troposphere reach?",
+   "About 12 km",
+   [
+    "About 1 km",
+    "About 120 km",
+    "About 1200 km"
+   ],
+   "The troposphere extends roughly 8 to 15 km up, about 12 km on average."
+  ],
+  [
+   "The ozone layer protects living things by absorbing most of the Sun's …",
+   "ultraviolet rays",
+   [
+    "radio waves",
+    "visible light",
+    "sound waves"
+   ],
+   "Ozone absorbs most harmful UV radiation before it reaches the ground."
+  ],
+  [
+   "Which layer lies directly above the stratosphere?",
+   "Mesosphere",
+   [
+    "Troposphere",
+    "Exosphere",
+    "Thermosphere"
+   ],
+   "Going upward, the mesosphere comes right after the stratosphere."
+  ],
+  [
+   "Which layer lies directly below the exosphere?",
+   "Thermosphere",
+   [
+    "Mesosphere",
+    "Stratosphere",
+    "Troposphere"
+   ],
+   "The thermosphere is the layer just beneath the outermost exosphere."
+  ],
+  [
+   "Which layer lies directly above the troposphere?",
+   "Stratosphere",
+   [
+    "Mesosphere",
+    "Thermosphere",
+    "Exosphere"
+   ],
+   "The stratosphere starts at the tropopause, right above the troposphere."
+  ],
+  [
+   "Weather balloons often rise to about 30 km before they burst. Which layer is that?",
+   "Stratosphere",
+   [
+    "Troposphere",
+    "Thermosphere",
+    "Exosphere"
+   ],
+   "The stratosphere runs from about 12 km to 50 km, so 30 km is inside it."
+  ],
+  [
+   "About what percent of Earth's atmosphere is nitrogen?",
+   "78%",
+   [
+    "21%",
+    "50%",
+    "95%"
+   ],
+   "Nitrogen is the most common gas in the air, at about 78%."
+  ],
+  [
+   "What keeps the atmosphere held around Earth instead of drifting into space?",
+   "Gravity",
+   [
+    "Magnetism",
+    "The clouds",
+    "The ozone layer"
+   ],
+   "Earth's gravity pulls on the gas particles and holds the atmosphere in place."
+  ],
+  [
+   "Long-distance passenger jets often cruise just above the weather, in the lowest part of which layer?",
+   "Stratosphere",
+   [
+    "Mesosphere",
+    "Thermosphere",
+    "Exosphere"
+   ],
+   "Jets can fly in the lower stratosphere, above most of the clouds and storms of the troposphere."
+  ]
+ ],
+ "sciNWT": [
+  [
+   "Which of Newton's laws explains this? A swimmer pushes water backward and glides forward.",
+   "Third law (action–reaction)",
+   [
+    "First law (inertia)",
+    "Second law (F = ma)",
+    "Hooke's law (springs)"
+   ],
+   "The swimmer pushes on the water and the water pushes back on the swimmer with an equal and opposite force."
+  ],
+  [
+   "Which of Newton's laws explains this? A soccer ball kicked harder speeds up more.",
+   "Second law (F = ma)",
+   [
+    "First law (inertia)",
+    "Third law (action–reaction)",
+    "Hooke's law (springs)"
+   ],
+   "A larger net force on the same mass gives a larger acceleration, as F = ma says."
+  ],
+  [
+   "Which of Newton's laws explains this? A tablecloth yanked quickly from under dishes leaves the dishes in place.",
+   "First law (inertia)",
+   [
+    "Second law (F = ma)",
+    "Third law (action–reaction)",
+    "Hooke's law (springs)"
+   ],
+   "The dishes have inertia and tend to stay at rest when the cloth is pulled away quickly."
+  ],
+  [
+   "Which of Newton's laws explains this? Seatbelts stop riders from flying forward when a car stops suddenly.",
+   "First law (inertia)",
+   [
+    "Second law (F = ma)",
+    "Third law (action–reaction)",
+    "Hooke's law (springs)"
+   ],
+   "Riders keep moving forward because of inertia unless a force, like a seatbelt, stops them."
+  ],
+  [
+   "Which of Newton's laws explains this? A balloon zooms forward as air rushes out of its back.",
+   "Third law (action–reaction)",
+   [
+    "First law (inertia)",
+    "Second law (F = ma)",
+    "Hooke's law (springs)"
+   ],
+   "The balloon pushes air backward and the air pushes the balloon forward."
+  ],
+  [
+   "Which of Newton's laws explains this? A truck needs a much larger engine force than a car to reach the same acceleration.",
+   "Second law (F = ma)",
+   [
+    "First law (inertia)",
+    "Third law (action–reaction)",
+    "Hooke's law (springs)"
+   ],
+   "A larger mass needs a larger force for the same acceleration, as F = ma says."
+  ],
+  [
+   "Which of Newton's laws explains this? A hockey puck slides a long way across smooth ice.",
+   "First law (inertia)",
+   [
+    "Second law (F = ma)",
+    "Third law (action–reaction)",
+    "Hooke's law (springs)"
+   ],
+   "With very little friction, the puck keeps moving at nearly the same speed because of inertia."
+  ],
+  [
+   "Which of Newton's laws explains this? When you jump, you push down on the ground and the ground pushes you up.",
+   "Third law (action–reaction)",
+   [
+    "First law (inertia)",
+    "Second law (F = ma)",
+    "Hooke's law (springs)"
+   ],
+   "Your push on the ground is matched by an equal and opposite push from the ground on you."
+  ],
+  [
+   "Which of Newton's laws explains this? A coin on a card over a cup drops into the cup when the card is flicked away.",
+   "First law (inertia)",
+   [
+    "Second law (F = ma)",
+    "Third law (action–reaction)",
+    "Hooke's law (springs)"
+   ],
+   "The coin's inertia keeps it in place while the card moves, so gravity then pulls it into the cup."
+  ],
+  [
+   "Which of Newton's laws explains this? Paddling backward on the water moves a canoe forward.",
+   "Third law (action–reaction)",
+   [
+    "First law (inertia)",
+    "Second law (F = ma)",
+    "Hooke's law (springs)"
+   ],
+   "The paddle pushes water backward and the water pushes the canoe forward."
+  ],
+  [
+   "Which of Newton's laws explains this? An astronaut in space throws a tool forward and drifts backward.",
+   "Third law (action–reaction)",
+   [
+    "First law (inertia)",
+    "Second law (F = ma)",
+    "Hooke's law (springs)"
+   ],
+   "The astronaut pushes the tool forward and the tool pushes the astronaut backward with an equal force."
+  ],
+  [
+   "A net force of 20 N acts on a 4 kg box. What is its acceleration?",
+   "5 m/s²",
+   [
+    "80 m/s²",
+    "16 m/s²",
+    "24 m/s²"
+   ],
+   "Using a = F ÷ m, 20 N ÷ 4 kg = 5 m/s²."
+  ],
+  [
+   "What net force is needed to accelerate a 1000 kg car at 2 m/s²?",
+   "2000 N",
+   [
+    "500 N",
+    "1002 N",
+    "998 N"
+   ],
+   "Using F = ma, 1000 kg × 2 m/s² = 2000 N."
+  ],
+  [
+   "A 0.5 kg ball accelerates at 10 m/s². What net force acts on it?",
+   "5 N",
+   [
+    "20 N",
+    "0.05 N",
+    "10.5 N"
+   ],
+   "Using F = ma, 0.5 kg × 10 m/s² = 5 N."
+  ],
+  [
+   "A net force of 30 N gives an object an acceleration of 6 m/s². What is its mass?",
+   "5 kg",
+   [
+    "180 kg",
+    "36 kg",
+    "24 kg"
+   ],
+   "Using m = F ÷ a, 30 N ÷ 6 m/s² = 5 kg."
+  ],
+  [
+   "What is inertia?",
+   "An object's resistance to changes in its motion",
+   [
+    "The force that pulls objects toward Earth",
+    "The speed at which an object is travelling",
+    "The rubbing force between two surfaces"
+   ],
+   "Inertia is the tendency of an object to keep doing what it is already doing."
+  ],
+  [
+   "Which object has the most inertia?",
+   "A loaded truck",
+   [
+    "A bicycle",
+    "A skateboard",
+    "A tennis ball"
+   ],
+   "Inertia depends on mass, and the loaded truck has by far the most mass."
+  ],
+  [
+   "How do the two forces in an action–reaction pair compare?",
+   "Equal in size and opposite in direction",
+   [
+    "Equal in size and in the same direction",
+    "Unequal, with the action force larger",
+    "Unequal, with the reaction force larger"
+   ],
+   "Newton's third law says the forces in a pair are always equal and opposite."
+  ],
+  [
+   "Why don't action–reaction forces cancel each other out?",
+   "They act on different objects",
+   [
+    "They act on the same object",
+    "They are not equal in size",
+    "They point in the same direction"
+   ],
+   "Forces only cancel when they act on the same object, and each force in a pair acts on a different object."
+  ],
+  [
+   "The net force on a moving object becomes zero. What does the object do?",
+   "Keeps moving at a constant velocity",
+   [
+    "Slows down and soon stops",
+    "Speeds up at a steady rate",
+    "Turns and changes direction"
+   ],
+   "By the first law, with no net force an object keeps its speed and direction."
+  ],
+  [
+   "The same force is applied to an object with twice the mass. What happens to its acceleration?",
+   "It is halved",
+   [
+    "It doubles",
+    "It stays the same",
+    "It is quartered"
+   ],
+   "Since a = F ÷ m, doubling the mass halves the acceleration."
+  ],
+  [
+   "What is the SI unit of force, equal to 1 kg·m/s²?",
+   "The newton",
+   [
+    "The joule",
+    "The watt",
+    "The pascal"
+   ],
+   "One newton is the force that gives 1 kg an acceleration of 1 m/s²."
+  ]
+ ],
+ "sciXsTransW": [
+  [
+   "A wave has a frequency of 4 Hz and a wavelength of 3 m. What is its speed?",
+   "12 m/s",
+   [
+    "7 m/s",
+    "1 m/s",
+    "0.75 m/s"
+   ],
+   "Wave speed = frequency × wavelength = 4 Hz × 3 m = 12 m/s."
+  ],
+  [
+   "A wave travels at 20 m/s with a wavelength of 4 m. What is its frequency?",
+   "5 Hz",
+   [
+    "80 Hz",
+    "16 Hz",
+    "24 Hz"
+   ],
+   "Frequency = speed ÷ wavelength = 20 ÷ 4 = 5 Hz."
+  ],
+  [
+   "A wave travels at 30 m/s with a frequency of 10 Hz. What is its wavelength?",
+   "3 m",
+   [
+    "300 m",
+    "40 m",
+    "20 m"
+   ],
+   "Wavelength = speed ÷ frequency = 30 ÷ 10 = 3 m."
+  ],
+  [
+   "What is the SI unit of frequency?",
+   "Hertz",
+   [
+    "Metre",
+    "Newton",
+    "Joule"
+   ],
+   "Frequency is measured in hertz (Hz), meaning waves per second."
+  ],
+  [
+   "In which unit is wavelength measured?",
+   "Metres",
+   [
+    "Hertz",
+    "Seconds",
+    "Newtons"
+   ],
+   "Wavelength is a distance, so it is measured in metres."
+  ],
+  [
+   "A wave has a period of 0.5 s. What is its frequency?",
+   "2 Hz",
+   [
+    "0.5 Hz",
+    "5 Hz",
+    "1.5 Hz"
+   ],
+   "Frequency = 1 ÷ period = 1 ÷ 0.5 s = 2 Hz."
+  ],
+  [
+   "Which of these is NOT a transverse wave?",
+   "Sound travelling through air",
+   [
+    "Light from a lamp",
+    "Radio waves from a tower",
+    "A wave on a skipping rope"
+   ],
+   "Sound in air is a longitudinal wave, where particles vibrate back and forth along the wave's direction."
+  ],
+  [
+   "Which of these is a transverse wave?",
+   "Microwaves",
+   [
+    "Sound in air",
+    "Ultrasound",
+    "A push along a Slinky"
+   ],
+   "Microwaves are electromagnetic waves, which are transverse."
+  ],
+  [
+   "You shake a rope with bigger up-and-down motions. What happens to the energy the wave carries?",
+   "It increases",
+   [
+    "It decreases",
+    "It stays the same",
+    "It drops to zero"
+   ],
+   "A larger amplitude means the wave carries more energy."
+  ],
+  [
+   "The middle line that a transverse wave moves above and below is the…",
+   "rest position",
+   [
+    "crest",
+    "trough",
+    "wavelength"
+   ],
+   "The rest position is where the medium sits when there is no wave."
+  ],
+  [
+   "A crest rises 0.4 m above the rest position. What is the amplitude?",
+   "0.4 m",
+   [
+    "0.8 m",
+    "0.2 m",
+    "1.6 m"
+   ],
+   "Amplitude is measured from the rest position to a crest, so it is 0.4 m."
+  ],
+  [
+   "The vertical distance from a crest down to a trough is 1 m. What is the amplitude?",
+   "0.5 m",
+   [
+    "1 m",
+    "2 m",
+    "0.25 m"
+   ],
+   "Amplitude is half the crest-to-trough height, so 1 m ÷ 2 = 0.5 m."
+  ],
+  [
+   "Exactly four complete waves fit along 8 m of rope. What is the wavelength?",
+   "2 m",
+   [
+    "32 m",
+    "4 m",
+    "12 m"
+   ],
+   "Wavelength = 8 m ÷ 4 waves = 2 m."
+  ],
+  [
+   "Ten waves pass a point in 2 s. What is the frequency?",
+   "5 Hz",
+   [
+    "20 Hz",
+    "12 Hz",
+    "0.2 Hz"
+   ],
+   "Frequency = 10 waves ÷ 2 s = 5 Hz."
+  ],
+  [
+   "What does a transverse wave carry from one place to another?",
+   "Energy",
+   [
+    "Matter",
+    "The medium",
+    "Mass"
+   ],
+   "Waves move energy, while the medium only moves up and down around its rest position."
+  ],
+  [
+   "Two waves travel along the same rope at the same speed. Wave A has the higher frequency. Wave A has the…",
+   "shorter wavelength",
+   [
+    "longer wavelength",
+    "same wavelength",
+    "faster speed"
+   ],
+   "At the same speed, a higher frequency means the waves are packed closer together."
+  ],
+  [
+   "Which earthquake waves are transverse?",
+   "S waves",
+   [
+    "P waves",
+    "Sound waves",
+    "Ultrasound waves"
+   ],
+   "S (secondary) waves shake the ground side to side, perpendicular to their direction of travel."
+  ],
+  [
+   "Through which can S waves, the transverse earthquake waves, travel?",
+   "Solids only",
+   [
+    "Liquids only",
+    "Gases only",
+    "Empty space"
+   ],
+   "S waves need a rigid medium, so they cannot pass through liquids like Earth's outer core."
+  ],
+  [
+   "A crest and the next trough are 1.5 m apart, measured along the wave. What is the wavelength?",
+   "3 m",
+   [
+    "1.5 m",
+    "0.75 m",
+    "6 m"
+   ],
+   "A crest to the next trough is half a wavelength, so the wavelength is 2 × 1.5 m = 3 m."
+  ],
+  [
+   "What is the period of a wave?",
+   "The time for one complete wave to pass",
+   [
+    "The distance between two crests",
+    "The height of a crest above rest",
+    "The number of crests in a metre"
+   ],
+   "The period is the time for one full wave cycle, measured in seconds."
+  ],
+  [
+   "A water wave moves at 2 m/s with a frequency of 0.5 Hz. What is its wavelength?",
+   "4 m",
+   [
+    "1 m",
+    "2.5 m",
+    "0.25 m"
+   ],
+   "Wavelength = speed ÷ frequency = 2 ÷ 0.5 = 4 m."
+  ],
+  [
+   "Shaking a rope more times each second increases the wave's…",
+   "frequency",
+   [
+    "wavelength",
+    "speed",
+    "rest position"
+   ],
+   "More waves made per second means a higher frequency."
+  ]
+ ],
+ "sciWaveP": [
+  [
+   "Wave A has a wavelength of 2 m and wave B has a wavelength of 5 m. Both travel at the same speed. Which has the higher frequency?",
+   "Wave A",
+   [
+    "Wave B",
+    "They have equal frequencies",
+    "Neither has a frequency"
+   ],
+   "At equal speeds, the wave with the shorter wavelength has the higher frequency."
+  ],
+  [
+   "Two sounds travel through air: one at 200 Hz and one at 800 Hz. Which has the longer wavelength?",
+   "The 200 Hz sound",
+   [
+    "The 800 Hz sound",
+    "They have equal wavelengths",
+    "Neither has a wavelength"
+   ],
+   "At the same speed, the lower frequency sound has the longer wavelength."
+  ],
+  [
+   "A wave's amplitude doubles but nothing else changes. What happens to its frequency?",
+   "It stays the same",
+   [
+    "It doubles",
+    "It halves",
+    "It quadruples"
+   ],
+   "Amplitude and frequency are separate properties, so changing one does not change the other."
+  ],
+  [
+   "Which colour of visible light has the longest wavelength?",
+   "Red",
+   [
+    "Blue",
+    "Violet",
+    "Green"
+   ],
+   "Red light has the longest wavelength in the visible spectrum, about 700 nm."
+  ],
+  [
+   "Which colour of visible light has the highest frequency?",
+   "Violet",
+   [
+    "Red",
+    "Orange",
+    "Yellow"
+   ],
+   "Violet light has the shortest wavelength and therefore the highest frequency of visible light."
+  ],
+  [
+   "A sound wave travels at 340 m/s with a frequency of 170 Hz. What is its wavelength?",
+   "2 m",
+   [
+    "0.5 m",
+    "510 m",
+    "170 m"
+   ],
+   "Wavelength = speed ÷ frequency = 340 ÷ 170 = 2 m."
+  ],
+  [
+   "A whisper and a shout are at the same pitch. Which property mainly differs?",
+   "Amplitude",
+   [
+    "Frequency",
+    "Wavelength",
+    "Speed"
+   ],
+   "Loudness depends on amplitude, so the shout has a larger amplitude."
+  ],
+  [
+   "A dog whistle is too high-pitched for people to hear. Compared with everyday sounds, its waves have a…",
+   "higher frequency",
+   [
+    "lower frequency",
+    "longer wavelength",
+    "slower speed"
+   ],
+   "Pitch depends on frequency, and sounds too high for humans have very high frequencies."
+  ],
+  [
+   "The frequency of a wave is halved while its speed stays the same. What happens to its wavelength?",
+   "It doubles",
+   [
+    "It halves",
+    "It stays the same",
+    "It quadruples"
+   ],
+   "Since wavelength = speed ÷ frequency, halving the frequency doubles the wavelength."
+  ],
+  [
+   "Which ocean wave carries more energy?",
+   "A wave 3 m tall",
+   [
+    "A wave 1 m tall",
+    "Both carry the same energy",
+    "Neither carries any energy"
+   ],
+   "The taller wave has the larger amplitude, so it carries more energy."
+  ],
+  [
+   "Wave A has crests 4 cm apart. Wave B has crests 8 cm apart. Which has the longer wavelength?",
+   "Wave B",
+   [
+    "Wave A",
+    "They are equal",
+    "Neither has a wavelength"
+   ],
+   "Wavelength is the crest-to-crest distance, and 8 cm is longer than 4 cm."
+  ],
+  [
+   "Wave A's crests rise 3 cm above rest. Wave B's crests rise 6 cm above rest. How do their amplitudes compare?",
+   "B's amplitude is twice A's",
+   [
+    "A's amplitude is twice B's",
+    "Their amplitudes are equal",
+    "B's amplitude is four times A's"
+   ],
+   "Amplitude is the height above rest, and 6 cm is twice 3 cm."
+  ],
+  [
+   "For electromagnetic waves, a higher frequency means…",
+   "more energy",
+   [
+    "less energy",
+    "a longer wavelength",
+    "a slower speed"
+   ],
+   "Higher-frequency electromagnetic waves, like X-rays, carry more energy than low-frequency ones like radio."
+  ],
+  [
+   "A 10 Hz wave and a 20 Hz wave travel on the same string at the same speed. How does the 20 Hz wave's wavelength compare?",
+   "Half as long",
+   [
+    "Twice as long",
+    "The same length",
+    "Four times as long"
+   ],
+   "Doubling the frequency at the same speed halves the wavelength."
+  ],
+  [
+   "A guitarist plucks the same string harder. What changes about the sound wave?",
+   "The amplitude increases",
+   [
+    "The frequency doubles",
+    "The wavelength halves",
+    "The speed in air increases"
+   ],
+   "Plucking harder makes bigger vibrations, increasing amplitude and loudness, not pitch."
+  ],
+  [
+   "Pressing a guitar string against a fret makes the note higher. What has increased?",
+   "Frequency",
+   [
+    "Amplitude",
+    "Speed of sound in air",
+    "Wavelength in air"
+   ],
+   "A shorter vibrating string vibrates faster, raising the frequency and pitch."
+  ],
+  [
+   "Which has the shorter wavelength: radio waves or X-rays?",
+   "X-rays",
+   [
+    "Radio waves",
+    "They are equal",
+    "Neither has one"
+   ],
+   "X-rays have wavelengths far shorter than radio waves, which can be metres long."
+  ],
+  [
+   "A wave has a period of 0.1 s. What is its frequency?",
+   "10 Hz",
+   [
+    "0.1 Hz",
+    "1 Hz",
+    "100 Hz"
+   ],
+   "Frequency = 1 ÷ period = 1 ÷ 0.1 s = 10 Hz."
+  ],
+  [
+   "Wave A has a frequency of 5 Hz and wave B has 15 Hz. Which has the shorter period?",
+   "Wave B",
+   [
+    "Wave A",
+    "They are equal",
+    "Neither has a period"
+   ],
+   "Period = 1 ÷ frequency, so the higher-frequency wave has the shorter period."
+  ],
+  [
+   "A wave enters a medium where it travels twice as fast, but its frequency stays the same. Its wavelength…",
+   "doubles",
+   [
+    "halves",
+    "stays the same",
+    "quadruples"
+   ],
+   "Since wavelength = speed ÷ frequency, doubling the speed doubles the wavelength."
+  ],
+  [
+   "Which wave has the greatest amplitude?",
+   "One with crests 5 cm above rest",
+   [
+    "One with crests 2 cm above rest",
+    "One with crests 1 cm above rest",
+    "One with crests 3 cm above rest"
+   ],
+   "Amplitude is the height of the crest above rest, and 5 cm is the greatest."
+  ],
+  [
+   "Which three quantities are linked by the equation v = fλ?",
+   "Speed, frequency and wavelength",
+   [
+    "Speed, amplitude and period",
+    "Amplitude, frequency and mass",
+    "Wavelength, amplitude and energy"
+   ],
+   "In v = fλ, v is wave speed, f is frequency and λ is wavelength."
+  ]
+ ],
+ "sciXsTRA": [
+  [
+   "What is happening to the wave? Sunlight warming a dark asphalt road",
+   "Absorbed",
+   [
+    "Reflected",
+    "Transmitted",
+    "Amplified"
+   ],
+   "The dark road takes in the light's energy, which turns into heat."
+  ],
+  [
+   "What is happening to the wave? Light passing through clear water in a glass",
+   "Transmitted",
+   [
+    "Reflected",
+    "Absorbed",
+    "Amplified"
+   ],
+   "Clear water lets light pass through it, so the light is transmitted."
+  ],
+  [
+   "What is happening to the wave? A bat's call bouncing off a moth and back to the bat",
+   "Reflected",
+   [
+    "Transmitted",
+    "Absorbed",
+    "Amplified"
+   ],
+   "The sound bounces off the moth and returns as an echo, so it is reflected."
+  ],
+  [
+   "What is happening to the wave? Sunlight bouncing off the Moon toward Earth",
+   "Reflected",
+   [
+    "Transmitted",
+    "Absorbed",
+    "Amplified"
+   ],
+   "The Moon makes no light of its own; it reflects sunlight back to us."
+  ],
+  [
+   "What is happening to the wave? X-rays passing through skin and muscle",
+   "Transmitted",
+   [
+    "Reflected",
+    "Absorbed",
+    "Amplified"
+   ],
+   "Soft tissue lets most X-rays pass through it to the film or detector."
+  ],
+  [
+   "What is happening to the wave? X-rays stopped by bones, so bones look white on the image",
+   "Absorbed",
+   [
+    "Reflected",
+    "Transmitted",
+    "Amplified"
+   ],
+   "Dense bone absorbs X-rays, so fewer reach the detector behind it."
+  ],
+  [
+   "What is happening to the wave? Ultrasound bouncing off an unborn baby to make an image",
+   "Reflected",
+   [
+    "Transmitted",
+    "Absorbed",
+    "Amplified"
+   ],
+   "Ultrasound echoes reflect off tissues, and the machine turns the echoes into an image."
+  ],
+  [
+   "What is happening to the wave? Microwaves taken in by soup, heating it up",
+   "Absorbed",
+   [
+    "Reflected",
+    "Transmitted",
+    "Amplified"
+   ],
+   "Water in the soup absorbs microwave energy and warms up."
+  ],
+  [
+   "What is happening to the wave? Music from next door passing through the wall",
+   "Transmitted",
+   [
+    "Reflected",
+    "Absorbed",
+    "Amplified"
+   ],
+   "The sound travels through the wall material, so it is transmitted."
+  ],
+  [
+   "What is happening to the wave? Foam panels in a recording studio soaking up sound",
+   "Absorbed",
+   [
+    "Reflected",
+    "Transmitted",
+    "Amplified"
+   ],
+   "Soft foam absorbs sound energy so it does not echo around the room."
+  ],
+  [
+   "What is happening to the wave? A sonar pulse bouncing off the sea floor back to a ship",
+   "Reflected",
+   [
+    "Transmitted",
+    "Absorbed",
+    "Amplified"
+   ],
+   "The sound pulse bounces back from the sea floor, so it is reflected."
+  ],
+  [
+   "What is happening to the wave? Sunlight passing through a car's windshield",
+   "Transmitted",
+   [
+    "Reflected",
+    "Absorbed",
+    "Amplified"
+   ],
+   "Clear glass lets visible light pass through, so the light is transmitted."
+  ],
+  [
+   "What is happening to the wave? Radar waves bouncing off an aeroplane back to the radar dish",
+   "Reflected",
+   [
+    "Transmitted",
+    "Absorbed",
+    "Amplified"
+   ],
+   "Radar works by detecting waves reflected from objects like planes."
+  ],
+  [
+   "What is happening to the wave? Earthquake waves passing through rock to a distant seismograph",
+   "Transmitted",
+   [
+    "Reflected",
+    "Absorbed",
+    "Amplified"
+   ],
+   "The seismic waves travel through the rock, so they are transmitted."
+  ],
+  [
+   "Which material would best absorb sound in a noisy room?",
+   "Thick carpet",
+   [
+    "A glass window",
+    "A tile floor",
+    "A metal sheet"
+   ],
+   "Soft, thick materials like carpet absorb sound instead of reflecting it."
+  ],
+  [
+   "Which surface reflects light best?",
+   "A smooth mirror",
+   [
+    "Black felt",
+    "Clear glass",
+    "Dark soil"
+   ],
+   "A smooth, shiny mirror reflects almost all the light that hits it."
+  ],
+  [
+   "Which object transmits visible light?",
+   "A clear glass window",
+   [
+    "A brick wall",
+    "A wooden door",
+    "A sheet of foil"
+   ],
+   "Clear glass lets light pass through, while the others block it."
+  ],
+  [
+   "Why does a white shirt stay cooler in the sun than a black shirt?",
+   "It reflects more of the light",
+   [
+    "It absorbs more of the light",
+    "It transmits light as cold",
+    "It amplifies the sunlight"
+   ],
+   "White reflects most light, so less energy is absorbed and turned into heat."
+  ],
+  [
+   "Why does a red apple look red?",
+   "It reflects red light and absorbs the rest",
+   [
+    "It absorbs red light and reflects the rest",
+    "It transmits every colour except red",
+    "It gives off its own red light"
+   ],
+   "We see the colour of light an object reflects into our eyes."
+  ],
+  [
+   "When a wave is absorbed, what happens to its energy?",
+   "It changes into another form, often heat",
+   [
+    "It is completely destroyed",
+    "It is sent back the way it came",
+    "It passes straight through"
+   ],
+   "Energy cannot be destroyed, so absorbed wave energy usually becomes thermal energy."
+  ],
+  [
+   "A material that lets no light pass through is called…",
+   "opaque",
+   [
+    "transparent",
+    "translucent",
+    "see-through"
+   ],
+   "Opaque materials reflect or absorb all light, so none is transmitted."
+  ],
+  [
+   "Frosted glass lets some light through but blurs what is behind it. It is…",
+   "translucent",
+   [
+    "transparent",
+    "opaque",
+    "reflective"
+   ],
+   "Translucent materials transmit some light but scatter it so images are not clear."
+  ]
+ ]
+}

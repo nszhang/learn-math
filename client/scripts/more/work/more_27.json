@@ -1,0 +1,1112 @@
+{
+ "sciXsBallStk": [
+  [
+   "A ball-and-stick model has 1 H ball + 1 Cl ball joined by sticks. Which formula does it show?",
+   "HCl",
+   [
+    "H₂Cl",
+    "HCl₂",
+    "Cl₂"
+   ],
+   "One hydrogen atom bonded to one chlorine atom is hydrogen chloride, HCl."
+  ],
+  [
+   "A ball-and-stick model has 1 C ball + 1 O ball joined by sticks. Which formula does it show?",
+   "CO",
+   [
+    "CO₂",
+    "C₂O",
+    "O₂"
+   ],
+   "One carbon atom and one oxygen atom make carbon monoxide, CO."
+  ],
+  [
+   "A ball-and-stick model has 1 N ball + 2 O balls joined by sticks. Which formula does it show?",
+   "NO₂",
+   [
+    "N₂O",
+    "NO",
+    "NO₃"
+   ],
+   "One nitrogen and two oxygen atoms give the formula NO₂."
+  ],
+  [
+   "A ball-and-stick model has 2 N balls + 1 O ball joined by sticks. Which formula does it show?",
+   "N₂O",
+   [
+    "NO₂",
+    "NO",
+    "N₂O₂"
+   ],
+   "Two nitrogen atoms and one oxygen atom give the formula N₂O."
+  ],
+  [
+   "A ball-and-stick model has 1 S ball + 2 O balls joined by sticks. Which formula does it show?",
+   "SO₂",
+   [
+    "SO₃",
+    "S₂O",
+    "SO"
+   ],
+   "One sulfur atom with two oxygen atoms is sulfur dioxide, SO₂."
+  ],
+  [
+   "A ball-and-stick model has 1 S ball + 3 O balls joined by sticks. Which formula does it show?",
+   "SO₃",
+   [
+    "SO₂",
+    "S₃O",
+    "SO₄"
+   ],
+   "One sulfur atom with three oxygen atoms is sulfur trioxide, SO₃."
+  ],
+  [
+   "A ball-and-stick model has 2 H balls + 1 S ball joined by sticks. Which formula does it show?",
+   "H₂S",
+   [
+    "HS₂",
+    "H₂SO₄",
+    "HS"
+   ],
+   "Two hydrogen atoms bonded to one sulfur atom give H₂S."
+  ],
+  [
+   "A ball-and-stick model has 2 Cl balls joined by sticks. Which formula does it show?",
+   "Cl₂",
+   [
+    "Cl",
+    "HCl",
+    "C₂"
+   ],
+   "Two chlorine atoms joined together form a chlorine molecule, Cl₂."
+  ],
+  [
+   "A ball-and-stick model has 3 O balls joined by sticks. Which formula does it show?",
+   "O₃",
+   [
+    "O₂",
+    "3O",
+    "H₂O"
+   ],
+   "Three oxygen atoms bonded in one molecule make ozone, O₃."
+  ],
+  [
+   "A ball-and-stick model has 1 C ball + 4 Cl balls joined by sticks. Which formula does it show?",
+   "CCl₄",
+   [
+    "C₄Cl",
+    "CCl₂",
+    "CH₄"
+   ],
+   "One carbon atom bonded to four chlorine atoms gives CCl₄."
+  ],
+  [
+   "A ball-and-stick model has 2 C balls + 6 H balls joined by sticks. Which formula does it show?",
+   "C₂H₆",
+   [
+    "C₆H₂",
+    "C₂H₄",
+    "CH₃"
+   ],
+   "Two carbon atoms and six hydrogen atoms make ethane, C₂H₆."
+  ],
+  [
+   "A ball-and-stick model has 3 C balls + 8 H balls joined by sticks. Which formula does it show?",
+   "C₃H₈",
+   [
+    "C₈H₃",
+    "C₃H₆",
+    "CH₄"
+   ],
+   "Three carbon atoms and eight hydrogen atoms make propane, C₃H₈."
+  ],
+  [
+   "A ball-and-stick model has 2 C balls + 4 H balls joined by sticks. Which formula does it show?",
+   "C₂H₄",
+   [
+    "C₂H₆",
+    "C₄H₂",
+    "C₂H₂"
+   ],
+   "Two carbon atoms and four hydrogen atoms give ethene, C₂H₄."
+  ],
+  [
+   "A ball-and-stick model has 1 H ball + 1 F ball joined by sticks. Which formula does it show?",
+   "HF",
+   [
+    "H₂F",
+    "HF₂",
+    "F₂"
+   ],
+   "One hydrogen atom bonded to one fluorine atom is hydrogen fluoride, HF."
+  ],
+  [
+   "A ball-and-stick model has 1 C ball + 2 S balls joined by sticks. Which formula does it show?",
+   "CS₂",
+   [
+    "C₂S",
+    "CO₂",
+    "CS"
+   ],
+   "One carbon atom with two sulfur atoms gives carbon disulfide, CS₂."
+  ],
+  [
+   "A ball-and-stick model has 1 P ball + 3 H balls joined by sticks. Which formula does it show?",
+   "PH₃",
+   [
+    "P₃H",
+    "NH₃",
+    "PH₄"
+   ],
+   "One phosphorus atom bonded to three hydrogen atoms gives PH₃."
+  ],
+  [
+   "A ball-and-stick model has 2 H balls joined by sticks. Which formula does it show?",
+   "H₂",
+   [
+    "H",
+    "H₂O",
+    "2H"
+   ],
+   "Two hydrogen atoms bonded together form one hydrogen molecule, H₂."
+  ],
+  [
+   "A ball-and-stick model has 1 C ball + 2 H balls + 1 O ball joined by sticks. Which formula does it show?",
+   "CH₂O",
+   [
+    "C₂HO",
+    "CH₂O₂",
+    "CHO₂"
+   ],
+   "One carbon, two hydrogen and one oxygen atom give the formula CH₂O."
+  ],
+  [
+   "Which ball-and-stick model matches the formula CH₄?",
+   "1 C ball joined to 4 H balls",
+   [
+    "4 C balls joined to 1 H ball",
+    "1 C ball joined to 2 H balls",
+    "2 C balls joined to 4 H balls"
+   ],
+   "The subscript 4 belongs to H, so the model needs one carbon ball and four hydrogen balls."
+  ],
+  [
+   "Which ball-and-stick model matches the formula SO₂?",
+   "1 S ball joined to 2 O balls",
+   [
+    "2 S balls joined to 1 O ball",
+    "1 S ball joined to 3 O balls",
+    "2 S balls joined to 2 O balls"
+   ],
+   "SO₂ has no subscript on S (meaning 1) and a subscript 2 on O."
+  ],
+  [
+   "Which ball-and-stick model matches the formula C₂H₆O?",
+   "2 C, 6 H and 1 O balls joined",
+   [
+    "6 C, 2 H and 1 O balls joined",
+    "2 C, 6 H and 2 O balls joined",
+    "1 C, 6 H and 2 O balls joined"
+   ],
+   "The subscripts show 2 carbon, 6 hydrogen and 1 oxygen atom."
+  ],
+  [
+   "How many balls in total are in a ball-and-stick model of CO₂?",
+   "3 balls",
+   [
+    "2 balls",
+    "4 balls",
+    "5 balls"
+   ],
+   "CO₂ has one carbon atom and two oxygen atoms, so the model has 3 balls."
+  ]
+ ],
+ "sciXsElCmpM": [
+  [
+   "What does this model show? Many separate grey balls that are all the same and not joined (helium)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Every particle is the same single kind of atom, so it is an element."
+  ],
+  [
+   "What does this model show? Many pairs of identical yellow-green balls joined (Cl₂)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Each molecule contains only chlorine atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Every molecule is one black ball joined to four white balls (CH₄)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Each molecule has two different kinds of atoms bonded, so it is a compound."
+  ],
+  [
+   "What does this model show? Pairs of red balls (O₂) mixed with separate pairs of blue balls (N₂)",
+   "A mixture of elements",
+   [
+    "An element",
+    "A compound",
+    "A mixture of compounds"
+   ],
+   "Two different elements are present but not bonded to each other, so it is a mixture of elements."
+  ],
+  [
+   "What does this model show? Water molecules (H₂O) mixed with carbon dioxide molecules (CO₂)",
+   "A mixture of compounds",
+   [
+    "An element",
+    "A compound",
+    "A mixture of elements"
+   ],
+   "Two different compounds are present together without bonding, so it is a mixture of compounds."
+  ],
+  [
+   "What does this model show? Purple and green balls alternating in a repeating grid, all bonded (NaCl)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Sodium and chlorine are chemically combined in a fixed ratio, so it is a compound."
+  ],
+  [
+   "What does this model show? Every molecule is three identical red balls joined (O₃)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Ozone contains only oxygen atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Single orange balls of one kind packed in neat rows (copper)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "All the balls are the same kind of atom, so the model shows an element."
+  ],
+  [
+   "What does this model show? Every molecule is one white ball joined to one green ball (HCl)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Hydrogen and chlorine atoms are bonded together, which makes a compound."
+  ],
+  [
+   "What does this model show? Separate grey balls (helium) mixed with separate pink balls (neon), none joined",
+   "A mixture of elements",
+   [
+    "An element",
+    "A compound",
+    "A mixture of compounds"
+   ],
+   "Two kinds of atoms are present but not bonded, so it is a mixture of elements."
+  ],
+  [
+   "What does this model show? Many pairs of identical white balls joined (H₂)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Each molecule contains only hydrogen atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Every molecule is one black ball joined to one red ball (CO)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Carbon and oxygen are bonded together, so it is a compound."
+  ],
+  [
+   "What does this model show? CH₄ molecules mixed with NH₃ molecules",
+   "A mixture of compounds",
+   [
+    "An element",
+    "A compound",
+    "A mixture of elements"
+   ],
+   "Two different compounds are mixed but not bonded to each other."
+  ],
+  [
+   "What does this model show? Every molecule is eight identical yellow balls joined in a ring (S₈)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "The ring contains only sulfur atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Every molecule is two black balls joined to six white balls (C₂H₆)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Carbon and hydrogen atoms are bonded in each molecule, so it is a compound."
+  ],
+  [
+   "What does this model show? Every molecule is one yellow ball joined to two red balls (SO₂)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Sulfur and oxygen atoms are bonded together in each identical molecule."
+  ],
+  [
+   "What does this model show? Pairs of white balls (H₂) mixed with pairs of red balls (O₂), not bonded to each other",
+   "A mixture of elements",
+   [
+    "An element",
+    "A compound",
+    "A mixture of compounds"
+   ],
+   "Hydrogen and oxygen molecules are each elements, and here they are only mixed."
+  ],
+  [
+   "What does this model show? Layers of identical black balls all joined in sheets (graphite)",
+   "An element",
+   [
+    "A compound",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Graphite contains only carbon atoms, so it is an element."
+  ],
+  [
+   "What does this model show? Every molecule is one blue ball joined to two red balls (NO₂)",
+   "A compound",
+   [
+    "An element",
+    "A mixture of elements",
+    "A mixture of compounds"
+   ],
+   "Nitrogen and oxygen atoms are bonded together, so it is a compound."
+  ],
+  [
+   "What does this model show? CO₂ molecules mixed with CO molecules",
+   "A mixture of compounds",
+   [
+    "An element",
+    "A compound",
+    "A mixture of elements"
+   ],
+   "Both kinds of molecules are compounds, and they are mixed rather than bonded."
+  ],
+  [
+   "A model of N₂ shows two balls joined by a stick. Why is it an element?",
+   "Both balls are the same kind of atom",
+   [
+    "The balls are joined by a stick",
+    "It has exactly two balls",
+    "It is a gas at room temperature"
+   ],
+   "An element contains only one kind of atom, and both balls in N₂ are nitrogen."
+  ],
+  [
+   "In a model, every molecule has two different colours of balls joined together. What must the substance be?",
+   "A compound",
+   [
+    "An element",
+    "A single atom",
+    "A mixture of elements"
+   ],
+   "Different kinds of atoms chemically joined in each molecule make a compound."
+  ]
+ ],
+ "sciXsRxEnergy": [
+  [
+   "Which describes the energy change? Natural gas burning in a furnace",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Combustion gives off heat and light to the surroundings, so it is exothermic."
+  ],
+  [
+   "Which describes the energy change? Iron slowly rusting on a bike chain",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Rusting slowly releases heat as iron combines with oxygen, so it is exothermic."
+  ],
+  [
+   "Which describes the energy change? Cells breaking down glucose in cellular respiration",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Respiration releases energy stored in glucose, so it is exothermic."
+  ],
+  [
+   "Which describes the energy change? A candle burning on a table",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Burning wax gives off heat and light, so energy is released."
+  ],
+  [
+   "Which describes the energy change? A glow stick giving off light after it is bent",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The chemicals react and release energy as light, so the reaction is exothermic."
+  ],
+  [
+   "Which describes the energy change? An acid and a base mixing and the beaker getting warm",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The beaker warms because the neutralization releases energy."
+  ],
+  [
+   "Which describes the energy change? Wet concrete warming up as it hardens",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The setting reaction in concrete releases heat, so it is exothermic."
+  ],
+  [
+   "Which describes the energy change? Electricity splitting water into hydrogen and oxygen",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Electrolysis needs a constant input of electrical energy, so it absorbs energy."
+  ],
+  [
+   "Which describes the energy change? Citric acid and baking soda in water making the cup feel cold",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The cup cools because the reaction takes in thermal energy from its surroundings."
+  ],
+  [
+   "Which describes the energy change? Limestone breaking down into lime when heated in a kiln",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The limestone only breaks down while heat is continually supplied, so it is endothermic."
+  ],
+  [
+   "Which describes the energy change? Cake batter turning into cake in a hot oven",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Baking reactions happen only while the batter takes in heat from the oven."
+  ],
+  [
+   "Which describes the energy change? An egg white turning solid as it cooks in a pan",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The egg changes only while it absorbs heat from the pan."
+  ],
+  [
+   "Which describes the energy change? Two powders mixed in a flask that freezes to a wet board underneath",
+   "Absorbs energy; endothermic",
+   [
+    "Releases energy; exothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "Freezing the water under the flask shows the reaction absorbed lots of thermal energy."
+  ],
+  [
+   "Which describes the energy change? A thermite reaction producing molten iron and bright sparks",
+   "Releases energy; exothermic",
+   [
+    "Absorbs energy; endothermic",
+    "Releases energy; endothermic",
+    "Absorbs energy; exothermic"
+   ],
+   "The thermite reaction gives off intense heat and light, so it is exothermic."
+  ],
+  [
+   "In an endothermic reaction, the temperature of the surroundings usually…",
+   "decreases",
+   [
+    "increases",
+    "stays the same",
+    "rises, then stays high"
+   ],
+   "Energy is taken in from the surroundings, so they become cooler."
+  ],
+  [
+   "In an exothermic reaction, energy is…",
+   "released to the surroundings",
+   [
+    "taken in from the surroundings",
+    "completely destroyed",
+    "created from nothing"
+   ],
+   "Exothermic reactions give off energy, often as heat or light."
+  ],
+  [
+   "Breaking chemical bonds…",
+   "absorbs energy",
+   [
+    "releases energy",
+    "uses no energy",
+    "creates new atoms"
+   ],
+   "Energy must be put in to pull bonded atoms apart."
+  ],
+  [
+   "Forming new chemical bonds…",
+   "releases energy",
+   [
+    "absorbs energy",
+    "uses no energy",
+    "destroys atoms"
+   ],
+   "Energy is given off when atoms join to form bonds."
+  ],
+  [
+   "A reaction is exothermic overall when…",
+   "forming bonds releases more energy than breaking bonds absorbs",
+   [
+    "breaking bonds absorbs more energy than forming bonds releases",
+    "no bonds are broken and no bonds are formed",
+    "the atoms in the reactants are destroyed"
+   ],
+   "If more energy comes out from new bonds than went into breaking old ones, the extra is released."
+  ],
+  [
+   "During a reaction, a thermometer rises from 20 °C to 35 °C. What does this show?",
+   "Exothermic, because energy is released",
+   [
+    "Endothermic, because energy is absorbed",
+    "Exothermic, because energy is absorbed",
+    "Endothermic, because energy is released"
+   ],
+   "A temperature rise means the reaction released thermal energy into the mixture."
+  ],
+  [
+   "During a reaction, a thermometer drops from 22 °C to 9 °C. What does this show?",
+   "Endothermic, because energy is absorbed",
+   [
+    "Exothermic, because energy is released",
+    "Endothermic, because energy is released",
+    "Exothermic, because energy is absorbed"
+   ],
+   "A temperature drop means the reaction took thermal energy from the mixture."
+  ],
+  [
+   "What happens to the total amount of energy during a chemical reaction?",
+   "It is conserved and only changes form",
+   [
+    "It is destroyed when bonds break",
+    "It is created when bonds form",
+    "It disappears as light forever"
+   ],
+   "Energy cannot be created or destroyed, so it is only transferred or transformed."
+  ]
+ ],
+ "sciXsSoap": [
+  [
+   "Besides soap, which product forms during saponification?",
+   "Glycerol",
+   [
+    "Ethanol",
+    "Carbon dioxide",
+    "Ammonia"
+   ],
+   "When fats react with a strong base, they form soap and glycerol."
+  ],
+  [
+   "The long tail of a soap molecule is made mostly of…",
+   "carbon and hydrogen atoms",
+   [
+    "sodium and chlorine atoms",
+    "oxygen atoms only",
+    "iron and copper atoms"
+   ],
+   "The tail is a hydrocarbon chain, a long chain of carbon and hydrogen atoms."
+  ],
+  [
+   "How is the tail of a soap molecule described?",
+   "Hydrophobic",
+   [
+    "Hydrophilic",
+    "Radioactive",
+    "Metallic"
+   ],
+   "The hydrocarbon tail is water-fearing (hydrophobic) and mixes with oils instead."
+  ],
+  [
+   "In a micelle, which way do the soap molecules' tails point?",
+   "Inward, toward the trapped oil",
+   [
+    "Outward, toward the water",
+    "Upward, toward the air only",
+    "In completely random directions"
+   ],
+   "The oil-loving tails gather around the oil in the centre while the heads face the water."
+  ],
+  [
+   "Why is soap called a surfactant?",
+   "It lowers the surface tension of water",
+   [
+    "It raises the surface tension of water",
+    "It floats only on the surface",
+    "It hardens any surface it touches"
+   ],
+   "Surfactants lower surface tension, helping water spread and soak into dirt."
+  ],
+  [
+   "What type of substance is lye (sodium hydroxide)?",
+   "A strong base",
+   [
+    "A strong acid",
+    "A neutral salt",
+    "A pure element"
+   ],
+   "Sodium hydroxide is a strong base, which is why it can react with fats to make soap."
+  ],
+  [
+   "Soap made with potassium hydroxide instead of sodium hydroxide tends to be…",
+   "softer, often a liquid soap",
+   [
+    "harder than sodium soap",
+    "a gas at room temperature",
+    "unable to clean at all"
+   ],
+   "Potassium soaps are softer and are used for many liquid soaps."
+  ],
+  [
+   "Why is homemade cold-process soap left to cure for several weeks?",
+   "To let saponification finish and water evaporate",
+   [
+    "To let the bar grow larger over time",
+    "To change the soap into an acid",
+    "To let bacteria grow and clean it"
+   ],
+   "Curing gives the reaction time to use up the lye and lets extra water leave, making a milder, harder bar."
+  ],
+  [
+   "Why is the pH of most bar soap above 7?",
+   "It is made using a base",
+   [
+    "It is made using an acid",
+    "It contains only pure water",
+    "It contains lots of vinegar"
+   ],
+   "Soap is made from a strong base, so it is slightly basic."
+  ],
+  [
+   "Which of these can be used to make soap?",
+   "Olive oil, coconut oil or animal fat",
+   [
+    "Motor oil, gasoline or kerosene",
+    "Sugar, salt or baking soda",
+    "Sand, clay or chalk"
+   ],
+   "Saponification needs fats or oils from plants or animals, which react with a strong base."
+  ],
+  [
+   "Fats and oils used in soapmaking are mostly molecules called…",
+   "triglycerides",
+   [
+    "proteins",
+    "nucleic acids",
+    "starches"
+   ],
+   "Fats and oils are triglycerides, which the base splits into soap and glycerol."
+  ],
+  [
+   "How do synthetic detergents behave differently from soap in hard water?",
+   "They do not form scum with the minerals",
+   [
+    "They form more scum than soap does",
+    "They turn the hard water into ice",
+    "They only work in very salty water"
+   ],
+   "Detergents are designed so hard-water minerals do not make them form scum."
+  ],
+  [
+   "Which dissolved minerals make water \"hard\"?",
+   "Calcium and magnesium",
+   [
+    "Sodium and potassium",
+    "Gold and silver",
+    "Helium and neon"
+   ],
+   "Calcium and magnesium ions cause water hardness and react with soap to make scum."
+  ],
+  [
+   "Why does scrubbing your hands help soap work?",
+   "It helps soap surround and lift off oily dirt",
+   [
+    "It makes the soap molecules magnetic",
+    "It heats the water up to boiling",
+    "It changes the soap into an acid"
+   ],
+   "Rubbing mixes soap with the oil so micelles can form and carry dirt away."
+  ],
+  [
+   "Why can water easily rinse away a micelle full of oil?",
+   "The heads on its outside attract water",
+   [
+    "The tails on its outside attract water",
+    "The trapped oil turns into water",
+    "Micelles are heavier than water"
+   ],
+   "The water-loving heads face outward, so the whole micelle is carried by the water."
+  ],
+  [
+   "How can soap destroy some viruses, such as flu viruses?",
+   "It breaks apart their fatty outer layer",
+   [
+    "It freezes them solid",
+    "It turns them into bacteria",
+    "It gives them extra nutrients"
+   ],
+   "Soap tails attach to the fatty envelope of these viruses and pull it apart."
+  ],
+  [
+   "Oil and water do not mix on their own. What does soap act as when it lets them mix?",
+   "An emulsifier",
+   [
+    "A catalyst",
+    "A fuel",
+    "A magnet"
+   ],
+   "An emulsifier lets oil spread through water as tiny droplets."
+  ],
+  [
+   "What forms when tallow (beef fat) reacts with lye?",
+   "Soap and glycerol",
+   [
+    "Sugar and water",
+    "Salt and carbon dioxide",
+    "Oil and vinegar"
+   ],
+   "Saponification of any fat with lye gives soap and glycerol."
+  ],
+  [
+   "Which observation shows that saponification has happened?",
+   "Oil and lye become a new solid substance",
+   [
+    "The oil simply floats on top",
+    "The lye completely evaporates",
+    "The mixture turns into pure water"
+   ],
+   "A new substance with new properties forms, which shows a chemical reaction."
+  ],
+  [
+   "Which part of a soap molecule dissolves in grease?",
+   "The hydrocarbon tail",
+   [
+    "The charged head",
+    "The sodium ion",
+    "The water molecule"
+   ],
+   "Like dissolves like, so the non-polar hydrocarbon tail mixes into non-polar grease."
+  ],
+  [
+   "When mixing a lye solution, why is lye added to water and not water to lye?",
+   "Water added to lye can boil and splash",
+   [
+    "Lye floats and will not mix otherwise",
+    "Water turns into lye if added second",
+    "Lye freezes if water is added to it"
+   ],
+   "Adding water onto lye releases heat in a small spot, which can make the caustic mixture boil and spatter."
+  ],
+  [
+   "In bar soap, which ion is usually paired with the negatively charged head of each soap molecule?",
+   "Sodium ion, Na⁺",
+   [
+    "Chloride ion, Cl⁻",
+    "Oxide ion, O²⁻",
+    "Fluoride ion, F⁻"
+   ],
+   "A negative head is attracted to a positive ion, and soap made with sodium hydroxide contains Na⁺."
+  ]
+ ],
+ "sciXsFlavour": [
+  [
+   "What is the Maillard reaction?",
+   "A reaction of sugars and amino acids that browns food",
+   [
+    "A reaction that makes food freeze faster",
+    "A reaction that removes all salt from food",
+    "A reaction between water and metals"
+   ],
+   "When sugars and amino acids are heated together they form brown colours and new flavour compounds."
+  ],
+  [
+   "Caramelization happens when…",
+   "sugar is heated and breaks into new compounds",
+   [
+    "sugar is frozen into large crystals",
+    "salt dissolves in cold water",
+    "fat is mixed with vinegar"
+   ],
+   "Heating sugar breaks it down into new molecules with caramel colour and flavour."
+  ],
+  [
+   "Esters, which give many fruits their smell, form when…",
+   "an acid reacts with an alcohol",
+   [
+    "a metal reacts with water",
+    "salt is mixed with sugar",
+    "two noble gases combine"
+   ],
+   "An ester forms from the reaction of a carboxylic acid with an alcohol."
+  ],
+  [
+   "Which compound gives cinnamon its flavour?",
+   "Cinnamaldehyde",
+   [
+    "Capsaicin",
+    "Caffeine",
+    "Citric acid"
+   ],
+   "Cinnamaldehyde is the main flavour molecule in cinnamon bark."
+  ],
+  [
+   "Which compound gives orange and lemon peels their scent?",
+   "Limonene",
+   [
+    "Vanillin",
+    "Menthol",
+    "Capsaicin"
+   ],
+   "Limonene is the main aroma molecule in citrus peel oil."
+  ],
+  [
+   "Why does mint feel cool in your mouth?",
+   "Menthol activates cold-sensing receptors",
+   [
+    "Menthol lowers your mouth to 0 °C",
+    "Mint leaves contain tiny ice crystals",
+    "Menthol blocks all of your taste buds"
+   ],
+   "Menthol triggers the same nerve receptors that sense cold, even though nothing gets colder."
+  ],
+  [
+   "Which basic taste is triggered by glutamate, found in tomatoes and parmesan?",
+   "Umami",
+   [
+    "Sour",
+    "Bitter",
+    "Salty"
+   ],
+   "Glutamate fits umami receptors and gives a savoury taste."
+  ],
+  [
+   "Why does food taste bland when you have a stuffy nose?",
+   "Aroma molecules can't reach smell receptors",
+   [
+    "Your tongue stops making any saliva",
+    "Food molecules become much heavier",
+    "Your taste buds fall off your tongue"
+   ],
+   "Much of flavour is smell, and a blocked nose stops aroma molecules reaching the receptors."
+  ],
+  [
+   "Two forms of carvone have the same atoms but are mirror images. Why does one smell like spearmint and the other like caraway?",
+   "Their shapes fit smell receptors differently",
+   [
+    "They have different numbers of atoms",
+    "One of them contains no carbon",
+    "One is a metal and one is a gas"
+   ],
+   "Smell receptors respond to molecular shape, so mirror-image molecules can smell different."
+  ],
+  [
+   "Which ions give salty foods their salty taste?",
+   "Sodium ions",
+   [
+    "Iron ions",
+    "Hydrogen ions",
+    "Hydroxide ions"
+   ],
+   "Salty taste mainly comes from sodium ions, such as those in table salt."
+  ],
+  [
+   "Sour taste is mostly caused by…",
+   "hydrogen ions from acids",
+   [
+    "sodium ions from salts",
+    "sugars from ripe fruit",
+    "fats from cooking oils"
+   ],
+   "Acids release hydrogen ions, which sour taste receptors detect."
+  ],
+  [
+   "Coffee tastes bitter partly because it contains…",
+   "caffeine",
+   [
+    "sucrose",
+    "sodium chloride",
+    "vanillin"
+   ],
+   "Caffeine is a bitter-tasting compound found in coffee and tea."
+  ],
+  [
+   "Why can a tiny amount of aspartame replace much more sugar?",
+   "It activates sweet receptors far more strongly",
+   [
+    "It is far heavier than table sugar",
+    "It is made of pure table salt",
+    "It blocks all of the other tastes"
+   ],
+   "Aspartame's structure triggers sweet receptors about 200 times more strongly than sugar."
+  ],
+  [
+   "Why does crushing garlic make its smell much stronger?",
+   "Crushing starts a reaction that makes allicin",
+   [
+    "Crushing turns the garlic into salt",
+    "Crushing makes the garlic much colder",
+    "Crushing removes only the garlic's water"
+   ],
+   "Breaking garlic cells lets an enzyme react with a compound to form strong-smelling allicin."
+  ],
+  [
+   "Why do ripe bananas taste sweeter than green bananas?",
+   "Starch breaks down into sugars as they ripen",
+   [
+    "Sugars turn into starch as they ripen",
+    "Ripe bananas absorb sugar from the air",
+    "The peel pumps salt into the fruit"
+   ],
+   "Enzymes in ripening fruit break starch into sweet-tasting sugars."
+  ],
+  [
+   "Why does a cut apple turn brown and change flavour?",
+   "Enzymes help apple compounds react with oxygen",
+   [
+    "The apple soaks up brown light",
+    "The sugar in the apple melts",
+    "The apple's water turns into salt"
+   ],
+   "Exposed apple compounds react with oxygen, helped by enzymes, forming brown products."
+  ],
+  [
+   "Why does drinking milk help after eating hot peppers?",
+   "Capsaicin dissolves in fat rather than water",
+   [
+    "Milk is colder than ice cubes",
+    "Milk is a strong acid that burns it off",
+    "Milk contains extra capsaicin"
+   ],
+   "Capsaicin is fat-soluble, so the fat in milk helps wash it away from receptors."
+  ],
+  [
+   "Wintergreen flavour comes from methyl salicylate. Which group of compounds is it in?",
+   "Esters",
+   [
+    "Metals",
+    "Noble gases",
+    "Minerals"
+   ],
+   "Methyl salicylate is an ester, like many other fruity and minty flavour molecules."
+  ],
+  [
+   "Why does warm food usually smell stronger than cold food?",
+   "More aroma molecules evaporate when it is warm",
+   [
+    "Warm food contains many more atoms",
+    "Cold food has no molecules at all",
+    "Cold food blocks your smell receptors"
+   ],
+   "Heat gives molecules more energy, so more of them escape into the air and reach your nose."
+  ],
+  [
+   "How can chemists make an artificial pineapple flavour?",
+   "By making the same flavour molecule found in pineapple",
+   [
+    "By growing whole pineapples in test tubes",
+    "By adding yellow colouring to the food",
+    "By removing every molecule from the food"
+   ],
+   "Flavour depends on the molecule, so making the same molecule (an ester) gives the same flavour."
+  ],
+  [
+   "How many basic tastes do human taste receptors detect?",
+   "Five",
+   [
+    "Two",
+    "Ten",
+    "Twenty"
+   ],
+   "The five basic tastes are sweet, sour, salty, bitter and umami."
+  ],
+  [
+   "Why can a bitter taste act as a warning?",
+   "Many poisonous compounds taste bitter",
+   [
+    "Bitter foods are always too hot",
+    "All bitter foods contain salt",
+    "Bitter foods have no flavour molecules"
+   ],
+   "Many harmful plant compounds are bitter, so disliking bitterness helps protect us."
+  ]
+ ]
+}

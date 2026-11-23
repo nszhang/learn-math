@@ -3494,9 +3494,9 @@
    "The palm genus <em>Washingtonia</em> honours…",
    "George Washington",
    [
-    "A city",
-    "A colour",
-    "A river"
+    "A famous city",
+    "A colour of bark",
+    "A long river"
    ],
    "Genus names often honour people by adding a Latin ending to their name."
   ],
@@ -4229,14 +4229,14 @@
    "Bread mould is a fungus that absorbs food from the bread."
   ],
   [
-   "Which kingdom does a paramecium belong to?",
+   "Which kingdom does a euglena belong to?",
    "Protists",
    [
     "Bacteria",
     "Fungi",
     "Animals"
    ],
-   "A paramecium is a single-celled organism with a nucleus, so it is a protist."
+   "A euglena is a single-celled organism with a nucleus, so it is a protist."
   ],
   [
    "Which kingdom does moss belong to?",
@@ -4249,14 +4249,14 @@
    "Moss has chlorophyll and makes its own food, so it is a plant."
   ],
   [
-   "Which kingdom does <em>E. coli</em> belong to?",
+   "Which kingdom does <em>Salmonella</em> belong to?",
    "Bacteria",
    [
     "Protists",
     "Fungi",
     "Plants"
    ],
-   "<em>E. coli</em> is a single-celled organism without a nucleus, so it is a bacterium."
+   "<em>Salmonella</em> is a single-celled organism without a nucleus, so it is a bacterium."
   ],
   [
    "Members of which kingdom make their own food by photosynthesis and have cell walls made of cellulose?",
@@ -4369,14 +4369,14 @@
    "A jellyfish is a many-celled animal that catches and eats food."
   ],
   [
-   "Which kingdom does <em>Streptococcus</em>, which causes strep throat, belong to?",
-   "Bacteria",
+   "Which kingdom does a slime mould belong to?",
+   "Protists",
    [
-    "Protists",
+    "Bacteria",
     "Fungi",
     "Animals"
    ],
-   "<em>Streptococcus</em> is a single-celled bacterium with no nucleus."
+   "Slime moulds look like fungi but are classified as protists because of how they feed and move."
   ],
   [
    "Which kingdom does <em>Plasmodium</em>, the parasite that causes malaria, belong to?",
@@ -4437,6 +4437,1116 @@
     "It cannot walk from place to place"
    ],
    "Plants make their own food with chlorophyll, but mushrooms absorb food like other fungi."
+  ]
+ ],
+ "sciKNG": [
+  [
+   "Which kingdom does an earthworm belong to?",
+   "Animal",
+   [
+    "Plant",
+    "Fungus",
+    "Bacteria"
+   ],
+   "An earthworm is a many-celled animal that eats soil and dead plant matter."
+  ],
+  [
+   "Which kingdom does coral belong to?",
+   "Animal",
+   [
+    "Plant",
+    "Fungus",
+    "Bacteria"
+   ],
+   "Coral is made of tiny animals called polyps that catch food with tentacles."
+  ],
+  [
+   "Which kingdom does a sea anemone belong to?",
+   "Animal",
+   [
+    "Plant",
+    "Fungus",
+    "Bacteria"
+   ],
+   "A sea anemone looks like a flower but is an animal that stings and eats prey."
+  ],
+  [
+   "Which kingdom does a cactus belong to?",
+   "Plant",
+   [
+    "Animal",
+    "Fungus",
+    "Bacteria"
+   ],
+   "A cactus has chlorophyll and makes its own food by photosynthesis."
+  ],
+  [
+   "Which kingdom does a dandelion belong to?",
+   "Plant",
+   [
+    "Animal",
+    "Fungus",
+    "Bacteria"
+   ],
+   "A dandelion is a flowering plant that makes food from sunlight."
+  ],
+  [
+   "Which kingdom does a white pine tree belong to?",
+   "Plant",
+   [
+    "Animal",
+    "Fungus",
+    "Bacteria"
+   ],
+   "A pine tree is a cone-bearing plant that makes its own food."
+  ],
+  [
+   "Which kingdom does moss belong to?",
+   "Plant",
+   [
+    "Animal",
+    "Fungus",
+    "Bacteria"
+   ],
+   "Moss is a small green plant that makes food by photosynthesis."
+  ],
+  [
+   "Which kingdom does <em>Penicillium</em> mould belong to?",
+   "Fungus",
+   [
+    "Plant",
+    "Animal",
+    "Bacteria"
+   ],
+   "<em>Penicillium</em> is a mould, a type of fungus that feeds on what it grows on."
+  ],
+  [
+   "Which kingdom does a truffle belong to?",
+   "Fungus",
+   [
+    "Plant",
+    "Animal",
+    "Bacteria"
+   ],
+   "A truffle is the underground spore-making part of a fungus."
+  ],
+  [
+   "Which kingdom does a morel belong to?",
+   "Fungus",
+   [
+    "Plant",
+    "Animal",
+    "Bacteria"
+   ],
+   "A morel is an edible fungus that cannot make its own food."
+  ],
+  [
+   "Which kingdom does <em>Salmonella</em> belong to?",
+   "Bacteria",
+   [
+    "Plant",
+    "Animal",
+    "Fungus"
+   ],
+   "<em>Salmonella</em> is a single-celled organism with no nucleus that can cause food poisoning."
+  ],
+  [
+   "Which kingdom does <em>Streptococcus</em>, which causes strep throat belong to?",
+   "Bacteria",
+   [
+    "Plant",
+    "Animal",
+    "Fungus"
+   ],
+   "<em>Streptococcus</em> is a tiny single-celled bacterium."
+  ],
+  [
+   "Which kingdom does <em>Rhizobium</em>, which lives in the roots of pea plants belong to?",
+   "Bacteria",
+   [
+    "Plant",
+    "Animal",
+    "Fungus"
+   ],
+   "<em>Rhizobium</em> is a bacterium that helps plants get nitrogen."
+  ],
+  [
+   "Which kingdom does cyanobacteria, which make food from sunlight belong to?",
+   "Bacteria",
+   [
+    "Plant",
+    "Animal",
+    "Fungus"
+   ],
+   "Cyanobacteria photosynthesize, but they are single cells with no nucleus, so they are bacteria."
+  ],
+  [
+   "Which kingdom does an octopus belong to?",
+   "Animal",
+   [
+    "Plant",
+    "Fungus",
+    "Bacteria"
+   ],
+   "An octopus is a many-celled animal that hunts and eats prey."
+  ],
+  [
+   "Members of which kingdom make their own food using chlorophyll and sunlight?",
+   "Plant",
+   [
+    "Animal",
+    "Fungus",
+    "Bacteria"
+   ],
+   "Plants use chlorophyll to make food by photosynthesis."
+  ],
+  [
+   "Members of which kingdom are single cells with no nucleus?",
+   "Bacteria",
+   [
+    "Plant",
+    "Animal",
+    "Fungus"
+   ],
+   "Bacteria are tiny single cells without a nucleus."
+  ],
+  [
+   "Members of which kingdom feed on dead matter and reproduce with spores, but cannot make food?",
+   "Fungus",
+   [
+    "Plant",
+    "Animal",
+    "Bacteria"
+   ],
+   "Fungi absorb food from what they grow on and spread by spores."
+  ],
+  [
+   "Members of which kingdom must eat food and can usually move from place to place?",
+   "Animal",
+   [
+    "Plant",
+    "Fungus",
+    "Bacteria"
+   ],
+   "Animals are consumers, and most can move around to find food."
+  ],
+  [
+   "Which is the best evidence that coral is an animal, not a plant?",
+   "Its polyps catch and eat tiny food",
+   [
+    "It stays fixed in one place",
+    "It grows in warm ocean water",
+    "It comes in many bright colours"
+   ],
+   "Plants make their own food, but coral polyps catch and eat food like animals."
+  ],
+  [
+   "Which is the best evidence that a mushroom belongs to the fungus kingdom, not the plant kingdom?",
+   "It cannot make its own food",
+   [
+    "It grows up out of the soil",
+    "It is made of many cells",
+    "It cannot move around"
+   ],
+   "Plants make food with chlorophyll, but mushrooms absorb food from their surroundings."
+  ],
+  [
+   "Which kingdom do humans belong to?",
+   "Animal",
+   [
+    "Plant",
+    "Fungus",
+    "Bacteria"
+   ],
+   "Humans are many-celled consumers, so we belong to the animal kingdom."
+  ]
+ ],
+ "sciFrVeg": [
+  [
+   "Which plant part do we eat when we eat a potato?",
+   "Stem",
+   [
+    "Root",
+    "Fruit",
+    "Leaf"
+   ],
+   "A potato is a tuber, a swollen underground stem that stores food; it even has buds called eyes."
+  ],
+  [
+   "Which plant part do we eat when we eat a radish?",
+   "Root",
+   [
+    "Stem",
+    "Fruit",
+    "Flower"
+   ],
+   "A radish is a swollen root that stores food for the plant."
+  ],
+  [
+   "Which plant part do we eat when we eat a cucumber?",
+   "Fruit",
+   [
+    "Root",
+    "Stem",
+    "Leaf"
+   ],
+   "A cucumber grows from a flower and holds seeds, so it is a fruit."
+  ],
+  [
+   "Which plant part do we eat when we eat a pumpkin?",
+   "Fruit",
+   [
+    "Root",
+    "Stem",
+    "Leaf"
+   ],
+   "A pumpkin develops from a flower and is full of seeds, so it is a fruit."
+  ],
+  [
+   "Which plant part do we eat when we eat kale?",
+   "Leaf",
+   [
+    "Root",
+    "Stem",
+    "Fruit"
+   ],
+   "Kale is grown for its large green leaves."
+  ],
+  [
+   "Which plant part do we eat when we eat cabbage?",
+   "Leaf",
+   [
+    "Root",
+    "Fruit",
+    "Seed"
+   ],
+   "A head of cabbage is made of tightly packed leaves."
+  ],
+  [
+   "Which plant part do we eat when we eat an artichoke?",
+   "Flower",
+   [
+    "Root",
+    "Leaf",
+    "Seed"
+   ],
+   "An artichoke is a large flower bud picked before it opens."
+  ],
+  [
+   "Which plant part do we eat when we eat a sweet potato?",
+   "Root",
+   [
+    "Stem",
+    "Fruit",
+    "Seed"
+   ],
+   "Unlike a potato, a sweet potato is a swollen root that stores food."
+  ],
+  [
+   "Which plant part do we eat when we eat a turnip?",
+   "Root",
+   [
+    "Stem",
+    "Fruit",
+    "Flower"
+   ],
+   "A turnip is a thick root that stores food underground."
+  ],
+  [
+   "Which plant part do we eat when we eat a strawberry?",
+   "Fruit",
+   [
+    "Root",
+    "Leaf",
+    "Stem"
+   ],
+   "A strawberry develops from the flower, with its seeds on the outside."
+  ],
+  [
+   "Which plant part do we eat when we eat a kidney bean?",
+   "Seed",
+   [
+    "Root",
+    "Leaf",
+    "Flower"
+   ],
+   "Beans are seeds that grow inside a pod, which is the fruit."
+  ],
+  [
+   "Which plant part do we eat when we eat a peanut?",
+   "Seed",
+   [
+    "Root",
+    "Stem",
+    "Leaf"
+   ],
+   "Peanuts are seeds that develop inside a shell underground."
+  ],
+  [
+   "Which plant part do we eat when we eat a zucchini?",
+   "Fruit",
+   [
+    "Root",
+    "Stem",
+    "Leaf"
+   ],
+   "A zucchini grows from a flower and contains seeds, so it is a fruit."
+  ],
+  [
+   "Which plant part do we eat when we eat an eggplant?",
+   "Fruit",
+   [
+    "Root",
+    "Stem",
+    "Leaf"
+   ],
+   "An eggplant develops from a flower and has many small seeds inside."
+  ],
+  [
+   "Which plant part do we eat when we eat ginger?",
+   "Stem",
+   [
+    "Leaf",
+    "Fruit",
+    "Seed"
+   ],
+   "Ginger is a rhizome, an underground stem that grows sideways."
+  ],
+  [
+   "Which plant part do we eat when we eat sugar cane?",
+   "Stem",
+   [
+    "Root",
+    "Leaf",
+    "Flower"
+   ],
+   "Sugar is pressed from the thick, juicy stems of sugar cane."
+  ],
+  [
+   "Which plant part do we eat when we eat bok choy?",
+   "Leaf",
+   [
+    "Root",
+    "Fruit",
+    "Seed"
+   ],
+   "We eat the leaves and leaf stalks of bok choy."
+  ],
+  [
+   "Which plant part do we eat when we eat a parsnip?",
+   "Root",
+   [
+    "Stem",
+    "Fruit",
+    "Flower"
+   ],
+   "A parsnip is a long root, like a pale carrot."
+  ],
+  [
+   "Which plant part do we eat when we eat a chickpea?",
+   "Seed",
+   [
+    "Root",
+    "Leaf",
+    "Flower"
+   ],
+   "Chickpeas are seeds that grow inside small pods."
+  ],
+  [
+   "Which plant part do we eat when we eat basil?",
+   "Leaf",
+   [
+    "Root",
+    "Stem",
+    "Seed"
+   ],
+   "Basil is an herb grown for its fragrant leaves."
+  ],
+  [
+   "To a botanist, a plant part is a fruit if it…",
+   "grows from a flower and holds seeds",
+   [
+    "tastes sweet when it is ripe",
+    "grows underground in the soil",
+    "can be eaten raw in a salad"
+   ],
+   "Fruits develop from the flower and contain the plant's seeds, whatever they taste like."
+  ],
+  [
+   "Which of these is a fruit, even though people often call it a vegetable?",
+   "Bell pepper",
+   [
+    "Carrot",
+    "Kale",
+    "Potato"
+   ],
+   "A bell pepper grows from a flower and holds seeds, so it is a fruit."
+  ]
+ ],
+ "sciXsLCanim": [
+  [
+   "Which order is correct for a frog's life cycle?",
+   "egg → tadpole → froglet → adult",
+   [
+    "tadpole → egg → froglet → adult",
+    "egg → froglet → tadpole → adult",
+    "egg → tadpole → adult → froglet"
+   ],
+   "A frog hatches as a tadpole, grows legs to become a froglet, then becomes an adult."
+  ],
+  [
+   "Which order is correct for a butterfly's life cycle?",
+   "egg → caterpillar → chrysalis → adult",
+   [
+    "egg → chrysalis → caterpillar → adult",
+    "caterpillar → egg → chrysalis → adult",
+    "egg → caterpillar → adult → chrysalis"
+   ],
+   "The caterpillar (larva) forms a chrysalis (pupa) before the adult butterfly emerges."
+  ],
+  [
+   "Which order is correct for a chicken's life cycle?",
+   "egg → chick → adult",
+   [
+    "chick → egg → adult",
+    "egg → larva → adult",
+    "egg → tadpole → adult"
+   ],
+   "A chick hatches from the egg and grows into an adult with no metamorphosis."
+  ],
+  [
+   "A life cycle diagram shows egg → nymph → adult. Which animal could it be?",
+   "Cockroach",
+   [
+    "Butterfly",
+    "Frog",
+    "Housefly"
+   ],
+   "Cockroaches have incomplete metamorphosis, with a nymph stage and no pupa."
+  ],
+  [
+   "Why are life cycle diagrams usually drawn as a circle?",
+   "Adults make eggs and the cycle repeats",
+   [
+    "The animal moves around in circles",
+    "Every stage is round in shape",
+    "The animal lives for exactly one year"
+   ],
+   "The arrows loop back because adults reproduce and start a new generation."
+  ],
+  [
+   "A mosquito's life cycle diagram has a gap: egg → larva → ? → adult. What is missing?",
+   "Pupa",
+   [
+    "Nymph",
+    "Tadpole",
+    "Chick"
+   ],
+   "Mosquitoes have complete metamorphosis, so a pupa comes between larva and adult."
+  ],
+  [
+   "A frog's life cycle diagram has a gap: egg → ? → froglet → adult. What is missing?",
+   "Tadpole",
+   [
+    "Nymph",
+    "Pupa",
+    "Chick"
+   ],
+   "A tadpole hatches from the frog's egg before becoming a froglet."
+  ],
+  [
+   "In a beetle's life cycle diagram, which stage comes right after the egg?",
+   "Larva",
+   [
+    "Pupa",
+    "Nymph",
+    "Adult"
+   ],
+   "Beetles have complete metamorphosis: egg, larva, pupa, adult."
+  ],
+  [
+   "In which stage does a butterfly do most of its eating and growing?",
+   "Larva (caterpillar)",
+   [
+    "Egg",
+    "Pupa (chrysalis)",
+    "Adult"
+   ],
+   "Caterpillars eat leaves constantly and grow quickly before forming a chrysalis."
+  ],
+  [
+   "How is a nymph different from a larva?",
+   "A nymph looks like a small adult with no wings",
+   [
+    "A nymph looks nothing at all like the adult",
+    "A nymph rests inside a hard case to change",
+    "A nymph is an egg that has not yet hatched"
+   ],
+   "Nymphs resemble adults and gradually grow wings, while larvae look very different from adults."
+  ],
+  [
+   "Which animal's life cycle diagram would show live birth instead of an egg?",
+   "Horse",
+   [
+    "Robin",
+    "Turtle",
+    "Salmon"
+   ],
+   "Horses are mammals that give birth to live young."
+  ],
+  [
+   "A Pacific salmon's life cycle diagram shows: egg → alevin → fry → ? → adult. What is missing?",
+   "Smolt",
+   [
+    "Tadpole",
+    "Pupa",
+    "Nymph"
+   ],
+   "Young salmon become smolts as they get ready to move from fresh water to the ocean."
+  ],
+  [
+   "A sea turtle's life cycle diagram shows: egg → hatchling → juvenile → adult. Does it show metamorphosis?",
+   "No, the young look like small adults",
+   [
+    "Yes, the hatchling becomes a pupa",
+    "Yes, the juvenile grows new gills",
+    "Yes, the egg turns into a larva"
+   ],
+   "Turtles grow larger without changing body form, so there is no metamorphosis."
+  ],
+  [
+   "Which animal's life cycle includes complete metamorphosis?",
+   "A housefly's",
+   [
+    "A grasshopper's",
+    "A dog's",
+    "A snake's"
+   ],
+   "Houseflies go through egg, larva (maggot), pupa and adult stages."
+  ],
+  [
+   "To construct a life cycle diagram for a honeybee, how many stages should you draw?",
+   "Four",
+   [
+    "Two",
+    "Three",
+    "Six"
+   ],
+   "Honeybees have complete metamorphosis: egg, larva, pupa and adult."
+  ],
+  [
+   "A dragonfly's life cycle diagram shows egg → nymph → adult. Where does the nymph live?",
+   "In water",
+   [
+    "Inside a cocoon",
+    "Inside the egg",
+    "Underground"
+   ],
+   "Dragonfly nymphs live in ponds and streams before climbing out to become adults."
+  ],
+  [
+   "What does the arrow from \"adult\" back to \"egg\" show in a life cycle diagram?",
+   "Adults reproduce and lay new eggs",
+   [
+    "Adults shrink and turn back into eggs",
+    "Eggs hatch and then eat the adults",
+    "The adult dies and becomes an egg"
+   ],
+   "The arrow shows that adults produce the next generation, starting the cycle again."
+  ],
+  [
+   "Which mammal's life cycle diagram would start with an egg?",
+   "Platypus",
+   [
+    "Cat",
+    "Whale",
+    "Horse"
+   ],
+   "The platypus is a rare mammal that lays eggs, then feeds its young milk."
+  ],
+  [
+   "A chicken's life cycle has three main stages and a butterfly's has four. Which stage does the butterfly have that the chicken does not?",
+   "Pupa",
+   [
+    "Egg",
+    "Adult",
+    "Young"
+   ],
+   "The pupa is the resting stage of complete metamorphosis, which birds do not have."
+  ],
+  [
+   "A student draws a grasshopper's life cycle as egg → larva → pupa → adult. What is wrong?",
+   "Grasshoppers have a nymph stage, not larva and pupa",
+   [
+    "Grasshoppers do not lay any eggs at all",
+    "Grasshoppers give birth to live young instead",
+    "Grasshoppers never reach an adult stage"
+   ],
+   "Grasshoppers have incomplete metamorphosis: egg, nymph, adult."
+  ],
+  [
+   "A diagram shows egg → caterpillar → chrysalis → adult. Which animal could it be?",
+   "Monarch butterfly",
+   [
+    "Dragonfly",
+    "Frog",
+    "Grasshopper"
+   ],
+   "Caterpillar and chrysalis stages belong to butterflies like the monarch."
+  ],
+  [
+   "Mealworms are the larvae of which kind of animal?",
+   "Beetle",
+   [
+    "Butterfly",
+    "Frog",
+    "Grasshopper"
+   ],
+   "Mealworms are the larval stage of the darkling beetle."
+  ]
+ ],
+ "sciXsPhantom": [
+  [
+   "What is the main job of sensory neurons?",
+   "Carry signals from the body to the brain",
+   [
+    "Carry oxygen from the lungs to muscles",
+    "Break down food inside the stomach",
+    "Make new skin cells to heal cuts"
+   ],
+   "Sensory neurons carry information such as touch and pain toward the brain and spinal cord."
+  ],
+  [
+   "Which part of the brain holds a \"map\" of touch for each part of the body?",
+   "The somatosensory cortex",
+   [
+    "The cerebellum",
+    "The brain stem",
+    "The olfactory bulb"
+   ],
+   "The somatosensory cortex has areas matched to each body part, which process touch and pain."
+  ],
+  [
+   "Which feelings can phantom limb sensations include?",
+   "Itching, tingling or pain in the missing limb",
+   [
+    "Growing a brand new limb overnight",
+    "Seeing objects through the missing limb",
+    "Hearing sounds come from the missing limb"
+   ],
+   "People often feel itching, tingling, warmth or pain that seems to come from the missing limb."
+  ],
+  [
+   "Why is phantom pain called \"phantom\"?",
+   "It seems to come from a part that is gone",
+   [
+    "It only ever happens late at night",
+    "It is caused by a virus in the blood",
+    "It is felt only by people who sleep a lot"
+   ],
+   "The pain feels like it is in the missing limb, even though that limb is no longer there."
+  ],
+  [
+   "Is phantom pain real pain?",
+   "Yes, the brain truly produces the feeling",
+   [
+    "No, people are only pretending to feel it",
+    "No, it happens only in people's dreams",
+    "No, pain needs a body part to happen"
+   ],
+   "Pain is created by the brain, so phantom pain is truly felt even without the limb."
+  ],
+  [
+   "Which part of the nervous system connects the brain to most of the body?",
+   "The spinal cord",
+   [
+    "The heart",
+    "The lungs",
+    "The kidneys"
+   ],
+   "The spinal cord carries signals between the brain and nerves throughout the body."
+  ],
+  [
+   "What does the central nervous system include?",
+   "The brain and spinal cord",
+   [
+    "The heart and blood vessels",
+    "The lungs and windpipe",
+    "The stomach and intestines"
+   ],
+   "The brain and spinal cord form the central nervous system."
+  ],
+  [
+   "What can happen to the brain's body map after an amputation?",
+   "Nearby areas can take over the unused area",
+   [
+    "It is erased the moment the limb is gone",
+    "It moves down into the spinal cord",
+    "It stops working for the whole body"
+   ],
+   "The brain can rewire itself, so neighbouring map areas may spread into the area for the lost limb."
+  ],
+  [
+   "Why might touching a person's face make them feel a touch on a missing hand?",
+   "The face and hand areas are side by side on the brain's map",
+   [
+    "The face nerves grow down into the arm",
+    "The hand is hidden inside the person's face",
+    "The face sends extra blood to the hand"
+   ],
+   "After amputation, the face area can spread into the nearby hand area, mixing up the signals."
+  ],
+  [
+   "What kind of signal travels along a neuron?",
+   "An electrical signal",
+   [
+    "A sound wave",
+    "A beam of light",
+    "A flow of blood"
+   ],
+   "Neurons send messages as tiny electrical impulses."
+  ],
+  [
+   "Where do neurons pass signals to each other?",
+   "At synapses",
+   [
+    "At joints",
+    "At pores",
+    "At valves"
+   ],
+   "A synapse is the small gap where one neuron passes a chemical message to the next."
+  ],
+  [
+   "Why do scientists say pain is made by the brain?",
+   "The brain interprets signals and creates the feeling",
+   [
+    "The skin feels pain without needing the brain",
+    "Pain is stored in the bones until it is needed",
+    "The heart decides which signals hurt the most"
+   ],
+   "Nerves only carry signals; the brain decides what they mean and produces the feeling of pain."
+  ],
+  [
+   "Which newer treatment has been studied to help phantom pain?",
+   "Virtual reality that shows the limb moving",
+   [
+    "Listening to loud music all day long",
+    "Keeping the stump as cold as possible",
+    "Eating extra sugar at every single meal"
+   ],
+   "Like mirror therapy, virtual reality lets the brain see the missing limb move, which can ease pain."
+  ],
+  [
+   "Which body system includes nerves, the brain and the spinal cord?",
+   "Nervous system",
+   [
+    "Circulatory system",
+    "Digestive system",
+    "Respiratory system"
+   ],
+   "The nervous system carries and processes signals throughout the body."
+  ],
+  [
+   "A person feels as if their missing hand is clenched tightly. Which explanation fits best?",
+   "The brain still sends and expects signals for the hand",
+   [
+    "The hand is still attached but hidden from view",
+    "The person's other hand is broken and sore",
+    "Blood is still flowing into the missing hand"
+   ],
+   "The brain's map still includes the hand and can produce feelings of its position and tension."
+  ],
+  [
+   "What is the brain's \"body map\"?",
+   "Brain areas that each match a body part",
+   [
+    "A drawing that doctors keep of the body",
+    "A list of bones stored inside the skull",
+    "The pattern of veins on top of the brain"
+   ],
+   "Each part of the body has a matching area in the brain that handles its signals."
+  ],
+  [
+   "What do motor neurons do?",
+   "Carry signals from the brain to muscles",
+   [
+    "Carry signals from the skin to the brain",
+    "Carry oxygen from the lungs to muscles",
+    "Carry food from the gut to the brain"
+   ],
+   "Motor neurons carry commands from the brain and spinal cord that make muscles move."
+  ],
+  [
+   "Which statement about phantom limb pain is supported by evidence?",
+   "Many people who lose a limb experience it",
+   [
+    "It only ever happens to young children",
+    "No person with an amputation has felt it",
+    "It happens only after losing a left arm"
+   ],
+   "Studies find that most people who have an amputation experience phantom sensations or pain."
+  ],
+  [
+   "Why can regularly using a prosthetic limb sometimes reduce phantom pain?",
+   "It gives the brain signals that fit its body map",
+   [
+    "It grows the nerves back into the lost limb",
+    "It cuts the nerves going to the spinal cord",
+    "It stops blood from reaching the brain"
+   ],
+   "Movement and touch from the prosthesis can give the brain input that matches the limb it expects."
+  ],
+  [
+   "What is the brain's ability to rewire itself after an injury called?",
+   "Neuroplasticity",
+   [
+    "Photosynthesis",
+    "Metamorphosis",
+    "Respiration"
+   ],
+   "Neuroplasticity lets brain connections change, which helps explain phantom sensations."
+  ],
+  [
+   "Which evidence supports the idea that phantom pain starts in the brain?",
+   "Brain scans show activity in the missing limb's map area",
+   [
+    "The stump is always cut open and bleeding",
+    "X-rays show the missing limb growing back",
+    "Blood tests find a germ that causes the pain"
+   ],
+   "Scans show the brain area for the missing limb is active when phantom pain is felt."
+  ],
+  [
+   "When you touch a hot stove, which cells carry the signal to your spinal cord?",
+   "Sensory neurons",
+   [
+    "Motor neurons",
+    "Red blood cells",
+    "Muscle fibres"
+   ],
+   "Sensory neurons carry the heat and pain signal from your skin to the spinal cord."
+  ]
+ ],
+ "sciXsBehav": [
+  [
+   "Claim: Male fiddler crabs that wave their large claw more often attract more mates. Which evidence supports it?",
+   "Females visited males that waved more often",
+   [
+    "Fiddler crabs live on muddy beaches",
+    "Males have one claw much bigger than the other",
+    "Fiddler crabs dig burrows in the sand"
+   ],
+   "It directly links more waving to more visits from females, which supports the claim."
+  ],
+  [
+   "Claim: Wolves that hunt in packs raise more pups than lone wolves. Which evidence supports it?",
+   "Pack parents raised more pups each year than lone wolves",
+   [
+    "Wolves howl to keep in touch with the pack",
+    "Wolf pups are born in dens in the spring",
+    "Grey wolves live in many parts of Canada"
+   ],
+   "It compares the number of pups raised by pack wolves and lone wolves."
+  ],
+  [
+   "Claim: Male frogs with deeper calls attract more mates. Which evidence supports it?",
+   "Females moved toward speakers playing deeper calls",
+   [
+    "Frogs call mostly at night in the spring",
+    "Female frogs lay their eggs in ponds",
+    "Male frogs have a sac that fills with air"
+   ],
+   "Females choosing deeper calls in an experiment supports the claim."
+  ],
+  [
+   "Claim: Emperor penguin fathers that huddle together in winter hatch more chicks. Which evidence supports it?",
+   "Huddling males lost less weight and hatched more eggs",
+   [
+    "Emperor penguins breed on the ice of Antarctica",
+    "Penguins are birds that swim but cannot fly",
+    "Penguin fathers keep the egg on their feet"
+   ],
+   "It links huddling to saving energy and to more eggs hatching."
+  ],
+  [
+   "Claim: Salmon that return to the stream where they hatched have more surviving young. Which evidence supports it?",
+   "Eggs in home streams survived better than elsewhere",
+   [
+    "Salmon swim far upstream to lay their eggs",
+    "Salmon live in both fresh and salt water",
+    "Bears catch many salmon in rivers in the fall"
+   ],
+   "It compares survival of young in home streams with other streams."
+  ],
+  [
+   "Claim: Sea turtles that bury their eggs deeper have more hatchlings. Which evidence supports it?",
+   "Deeper nests lost fewer eggs to heat and predators",
+   [
+    "Sea turtles lay their eggs on sandy beaches",
+    "Hatchlings crawl to the ocean after hatching",
+    "Sea turtles can live for many decades"
+   ],
+   "Fewer lost eggs in deeper nests means more hatchlings, which supports the claim."
+  ],
+  [
+   "Claim: Honeybee colonies whose dances can be followed raise more young. Which evidence supports it?",
+   "Hives with readable dances gathered more food for larvae",
+   [
+    "Honeybees live together in large colonies",
+    "Worker bees visit many kinds of flowers",
+    "Honeybees make honey from flower nectar"
+   ],
+   "More food gathered from dance information helps the hive raise more young."
+  ],
+  [
+   "Claim: Male sticklebacks that fan their nests have more eggs hatch. Which evidence supports it?",
+   "Eggs in fanned nests got more oxygen and more hatched",
+   [
+    "Sticklebacks are small fish with spines",
+    "Male sticklebacks build nests from plants",
+    "Stickleback males turn red in the spring"
+   ],
+   "It shows fanning leads to more eggs hatching."
+  ],
+  [
+   "Claim: Caribou calves born at the peak of the calving season survive better. Which evidence supports it?",
+   "Calves born at the peak were caught by wolves less often",
+   [
+    "Caribou travel long distances each year",
+    "Caribou calves can walk soon after birth",
+    "Caribou eat lichens during the winter"
+   ],
+   "Lower predation on peak-season calves supports the claim."
+  ],
+  [
+   "Claim: Male sage grouse that display in the centre of the lek mate more. Which evidence supports it?",
+   "Most matings went to males displaying in the centre",
+   [
+    "Sage grouse puff out their chest feathers",
+    "A lek is an open area where males gather",
+    "Sage grouse live in dry grasslands"
+   ],
+   "Observed matings show that central males had more success."
+  ],
+  [
+   "Claim: Birds that mob predators together protect their nests better. Which evidence supports it?",
+   "Nests in mobbing colonies lost fewer chicks to crows",
+   [
+    "Crows are clever birds that eat many foods",
+    "Mobbing birds make loud calls and dive",
+    "Many birds nest together in colonies"
+   ],
+   "Fewer chicks lost in colonies that mob predators supports the claim."
+  ],
+  [
+   "Claim: Ground squirrels that give alarm calls help their relatives survive and reproduce. Which evidence supports it?",
+   "Relatives near callers were caught by predators less often",
+   [
+    "Ground squirrels live in underground burrows",
+    "Alarm calls are short, loud, high sounds",
+    "Hawks and badgers hunt ground squirrels"
+   ],
+   "Better survival of relatives near callers supports the claim."
+  ],
+  [
+   "Claim: Beavers that build lodges with underwater entrances raise more kits. Which evidence supports it?",
+   "Kits in those lodges were taken by predators less often",
+   [
+    "Beavers build their lodges from sticks and mud",
+    "Beavers have large, orange front teeth",
+    "Beavers slap their tails on the water as a warning"
+   ],
+   "Fewer kits lost to predators means more kits raised."
+  ],
+  [
+   "Claim: Female wolf spiders that carry their egg sacs have more spiderlings survive. Which evidence supports it?",
+   "More spiderlings hatched from carried sacs than from left sacs",
+   [
+    "Wolf spiders hunt instead of spinning webs",
+    "Spiders have eight legs and no antennae",
+    "Spiderlings ride on their mother's back"
+   ],
+   "It compares survival between carried and abandoned egg sacs."
+  ],
+  [
+   "Claim: Male common terns that bring fish to females attract more mates. Which evidence supports it?",
+   "Females paired more often with males that brought fish",
+   [
+    "Terns dive into the water to catch fish",
+    "Common terns nest on islands and beaches",
+    "Terns migrate long distances each year"
+   ],
+   "Females choosing males that bring food gifts supports the claim."
+  ],
+  [
+   "Claim: Male crickets that chirp more often attract more females. Which evidence supports it?",
+   "In tests, females walked toward faster chirping more often",
+   [
+    "Crickets chirp by rubbing their wings",
+    "Crickets are most active on warm nights",
+    "Crickets have long antennae and legs"
+   ],
+   "Females choosing faster chirping in tests supports the claim."
+  ],
+  [
+   "Claim: Red squirrels that store more food in the fall have more young in spring. Which evidence supports it?",
+   "Squirrels with larger food stores had larger litters",
+   [
+    "Red squirrels live in conifer forests",
+    "Squirrels bury cones and seeds in piles",
+    "Red squirrels chatter loudly at intruders"
+   ],
+   "It links bigger food stores to more young."
+  ],
+  [
+   "Claim: Polar bear mothers that stay longer in their dens raise more cubs. Which evidence supports it?",
+   "Cubs that left dens later survived more often",
+   [
+    "Polar bears dig their dens in deep snow drifts",
+    "Polar bear cubs are born in the middle of winter",
+    "Polar bears hunt seals out on the sea ice"
+   ],
+   "Higher survival for cubs that stayed in dens longer supports the claim."
+  ],
+  [
+   "Claim: Cuckoos whose eggs look like their host's eggs have more chicks survive. Which evidence supports it?",
+   "Matching cuckoo eggs were pushed out of nests less often",
+   [
+    "Cuckoos lay their eggs in other birds' nests",
+    "Cuckoo chicks are often larger than hosts",
+    "Cuckoos are found in many parts of the world"
+   ],
+   "If hosts reject matching eggs less, more cuckoo chicks survive."
+  ],
+  [
+   "Which evidence would <strong>not</strong> support the claim that male deer with larger antlers mate more?",
+   "Deer antlers fall off each winter and regrow",
+   [
+    "Males with larger antlers won more fights",
+    "Females mated more with large-antlered males",
+    "Large-antlered males fathered more fawns"
+   ],
+   "Antlers regrowing says nothing about mating success, while the others link antlers to mating."
+  ],
+  [
+   "Which evidence would <strong>weaken</strong> the claim that male songbirds that sing at dawn attract more mates?",
+   "Males that sang at dawn mated no more than silent males",
+   [
+    "Males that sang at dawn mated more than silent males",
+    "Females flew toward speakers playing dawn songs",
+    "Dawn singers fathered more chicks in the study"
+   ],
+   "If dawn singers have no more mates, the evidence does not support the claim."
+  ],
+  [
+   "What makes evidence strong support for a claim about a behaviour and reproduction?",
+   "It compares the young raised with and without the behaviour",
+   [
+    "It describes what colour the animals are",
+    "It lists the places where the animals live",
+    "It tells how long the animals live in zoos"
+   ],
+   "Comparing offspring for animals with and without the behaviour tests the claim directly."
   ]
  ]
 }
