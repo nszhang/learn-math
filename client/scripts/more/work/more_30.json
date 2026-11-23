@@ -3328,5 +3328,1115 @@
    ],
    "Each CH₄ has 5 atoms (1 C + 4 H), so 2 × 5 = 10."
   ]
+ ],
+ "sciXsBalance": [
+  [
+   "Balance: _K + _Cl₂ → _KCl",
+   "2, 1, 2",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 2, 1"
+   ],
+   "Two K atoms are needed to match the two Cl atoms in Cl₂, making 2 KCl."
+  ],
+  [
+   "Balance: _Ca + _O₂ → _CaO",
+   "2, 1, 2",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 2, 1"
+   ],
+   "O₂ has 2 oxygen atoms, so 2 CaO are needed, which uses 2 Ca."
+  ],
+  [
+   "Balance: _H₂ + _Cl₂ → _HCl",
+   "1, 1, 2",
+   [
+    "1, 1, 1",
+    "2, 1, 2",
+    "2, 2, 1"
+   ],
+   "One H₂ and one Cl₂ give 2 H and 2 Cl, which make 2 HCl."
+  ],
+  [
+   "Balance: _Li + _O₂ → _Li₂O",
+   "4, 1, 2",
+   [
+    "2, 1, 2",
+    "2, 1, 1",
+    "4, 2, 2"
+   ],
+   "O₂ makes 2 Li₂O, which needs 4 Li atoms."
+  ],
+  [
+   "Balance: _Na + _O₂ → _Na₂O",
+   "4, 1, 2",
+   [
+    "2, 1, 1",
+    "2, 1, 2",
+    "4, 2, 1"
+   ],
+   "O₂ gives 2 Na₂O, which contain 4 Na atoms."
+  ],
+  [
+   "Balance: _H₂O₂ → _H₂O + _O₂",
+   "2, 2, 1",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 1, 2"
+   ],
+   "2 H₂O₂ have 4 H and 4 O, matching 2 H₂O (4 H, 2 O) plus 1 O₂ (2 O)."
+  ],
+  [
+   "Balance: _Al + _Cl₂ → _AlCl₃",
+   "2, 3, 2",
+   [
+    "1, 3, 1",
+    "2, 2, 3",
+    "1, 1, 1"
+   ],
+   "6 Cl atoms (3 Cl₂) make 2 AlCl₃, which need 2 Al."
+  ],
+  [
+   "Balance: _N₂ + _O₂ → _NO",
+   "1, 1, 2",
+   [
+    "1, 1, 1",
+    "2, 1, 2",
+    "1, 2, 2"
+   ],
+   "N₂ and O₂ each give 2 atoms, forming 2 NO."
+  ],
+  [
+   "Balance: _SO₂ + _O₂ → _SO₃",
+   "2, 1, 2",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 2, 2"
+   ],
+   "2 SO₂ + O₂ give 2 S and 6 O, matching 2 SO₃."
+  ],
+  [
+   "Balance: _C + _O₂ → _CO",
+   "2, 1, 2",
+   [
+    "1, 1, 1",
+    "1, 2, 2",
+    "2, 2, 1"
+   ],
+   "O₂ gives 2 O atoms, making 2 CO, which need 2 C."
+  ],
+  [
+   "Balance: _HgO → _Hg + _O₂",
+   "2, 2, 1",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 1, 2"
+   ],
+   "2 HgO give 2 Hg and 2 O, which form 1 O₂."
+  ],
+  [
+   "Balance: _Zn + _HCl → _ZnCl₂ + _H₂",
+   "1, 2, 1, 1",
+   [
+    "1, 1, 1, 1",
+    "2, 1, 2, 1",
+    "1, 2, 2, 1"
+   ],
+   "ZnCl₂ has 2 Cl, so 2 HCl are needed, and their 2 H form 1 H₂."
+  ],
+  [
+   "Balance: _Mg + _HCl → _MgCl₂ + _H₂",
+   "1, 2, 1, 1",
+   [
+    "1, 1, 1, 1",
+    "2, 2, 1, 1",
+    "1, 2, 1, 2"
+   ],
+   "2 HCl provide the 2 Cl in MgCl₂ and the 2 H in H₂."
+  ],
+  [
+   "Balance: _CO + _O₂ → _CO₂",
+   "2, 1, 2",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 2, 1"
+   ],
+   "2 CO + O₂ give 2 C and 4 O, matching 2 CO₂."
+  ],
+  [
+   "Balance: _Fe + _Cl₂ → _FeCl₃",
+   "2, 3, 2",
+   [
+    "1, 3, 1",
+    "2, 2, 3",
+    "3, 2, 3"
+   ],
+   "2 FeCl₃ contain 6 Cl (3 Cl₂) and 2 Fe."
+  ],
+  [
+   "Balance: _H₂ + _N₂ → _NH₃",
+   "3, 1, 2",
+   [
+    "1, 3, 2",
+    "3, 1, 1",
+    "2, 1, 3"
+   ],
+   "N₂ makes 2 NH₃, which contain 6 H, coming from 3 H₂."
+  ],
+  [
+   "Balance: _NaCl → _Na + _Cl₂",
+   "2, 2, 1",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 1, 2"
+   ],
+   "2 NaCl split into 2 Na and 2 Cl, which form 1 Cl₂."
+  ],
+  [
+   "Balance: _H₂O → _H₂ + _O₂",
+   "2, 2, 1",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 1, 2"
+   ],
+   "2 H₂O give 4 H (2 H₂) and 2 O (1 O₂)."
+  ],
+  [
+   "Balance: _Ca + _H₂O → _Ca(OH)₂ + _H₂",
+   "1, 2, 1, 1",
+   [
+    "1, 1, 1, 1",
+    "2, 2, 1, 1",
+    "1, 2, 2, 1"
+   ],
+   "Ca(OH)₂ needs 2 O, so 2 H₂O are used; the 4 H go to 2 in Ca(OH)₂ and 2 in H₂."
+  ],
+  [
+   "Balance: _Na + _H₂O → _NaOH + _H₂",
+   "2, 2, 2, 1",
+   [
+    "1, 1, 1, 1",
+    "1, 2, 1, 1",
+    "2, 1, 2, 1"
+   ],
+   "2 Na + 2 H₂O give 2 NaOH and 1 H₂, balancing 2 Na, 4 H and 2 O."
+  ],
+  [
+   "Balance: _K + _Br₂ → _KBr",
+   "2, 1, 2",
+   [
+    "1, 1, 1",
+    "1, 2, 2",
+    "2, 2, 1"
+   ],
+   "Br₂ provides 2 Br atoms, making 2 KBr from 2 K."
+  ],
+  [
+   "Balance: _Cu + _O₂ → _CuO",
+   "2, 1, 2",
+   [
+    "1, 1, 1",
+    "1, 2, 1",
+    "2, 2, 1"
+   ],
+   "O₂ gives 2 O atoms, making 2 CuO, which need 2 Cu."
+  ]
+ ],
+ "sciBalance": [
+  [
+   "Balance: __C₃H₈ + __O₂ → __CO₂ + __H₂O",
+   "1, 5, 3, 4",
+   [
+    "1, 3, 3, 4",
+    "1, 5, 4, 3",
+    "2, 5, 3, 4"
+   ],
+   "3 CO₂ and 4 H₂O contain 10 O atoms, supplied by 5 O₂."
+  ],
+  [
+   "Balance: __C₂H₆ + __O₂ → __CO₂ + __H₂O",
+   "2, 7, 4, 6",
+   [
+    "1, 3, 2, 3",
+    "2, 5, 4, 6",
+    "1, 7, 2, 6"
+   ],
+   "2 C₂H₆ give 4 CO₂ and 6 H₂O, which hold 14 O atoms from 7 O₂."
+  ],
+  [
+   "Balance: __C₂H₄ + __O₂ → __CO₂ + __H₂O",
+   "1, 3, 2, 2",
+   [
+    "1, 2, 2, 2",
+    "2, 3, 2, 2",
+    "1, 3, 2, 4"
+   ],
+   "2 CO₂ and 2 H₂O contain 6 O atoms, supplied by 3 O₂."
+  ],
+  [
+   "Balance: __C₄H₁₀ + __O₂ → __CO₂ + __H₂O",
+   "2, 13, 8, 10",
+   [
+    "1, 6, 4, 5",
+    "2, 9, 8, 10",
+    "2, 13, 8, 5"
+   ],
+   "2 C₄H₁₀ give 8 CO₂ and 10 H₂O, needing 26 O atoms, or 13 O₂."
+  ],
+  [
+   "Balance: __C₆H₁₂O₆ + __O₂ → __CO₂ + __H₂O",
+   "1, 6, 6, 6",
+   [
+    "1, 6, 6, 12",
+    "1, 3, 6, 6",
+    "2, 6, 6, 6"
+   ],
+   "6 CO₂ and 6 H₂O hold 18 O; glucose supplies 6 and 6 O₂ supply 12."
+  ],
+  [
+   "Balance: __Fe₂O₃ + __CO → __Fe + __CO₂",
+   "1, 3, 2, 3",
+   [
+    "1, 1, 2, 1",
+    "2, 3, 2, 3",
+    "1, 2, 2, 2"
+   ],
+   "3 CO take the 3 O from Fe₂O₃, forming 3 CO₂ and leaving 2 Fe."
+  ],
+  [
+   "Balance: __Al + __HCl → __AlCl₃ + __H₂",
+   "2, 6, 2, 3",
+   [
+    "1, 3, 1, 1",
+    "2, 3, 2, 3",
+    "1, 6, 2, 3"
+   ],
+   "2 AlCl₃ need 6 Cl from 6 HCl, whose 6 H form 3 H₂."
+  ],
+  [
+   "Balance: __Fe + __H₂O → __Fe₃O₄ + __H₂",
+   "3, 4, 1, 4",
+   [
+    "3, 2, 1, 2",
+    "1, 4, 1, 4",
+    "3, 4, 1, 2"
+   ],
+   "Fe₃O₄ needs 3 Fe and 4 O from 4 H₂O, whose 8 H form 4 H₂."
+  ],
+  [
+   "Balance: __P₄ + __O₂ → __P₄O₁₀",
+   "1, 5, 1",
+   [
+    "1, 10, 1",
+    "4, 5, 1",
+    "2, 5, 2"
+   ],
+   "P₄O₁₀ has 10 O atoms, supplied by 5 O₂."
+  ],
+  [
+   "Balance: __NH₃ + __O₂ → __NO + __H₂O",
+   "4, 5, 4, 6",
+   [
+    "2, 3, 2, 3",
+    "4, 3, 4, 6",
+    "1, 1, 1, 1"
+   ],
+   "4 NH₃ give 4 NO and 6 H₂O, which contain 10 O atoms from 5 O₂."
+  ],
+  [
+   "Balance: __Al + __CuSO₄ → __Al₂(SO₄)₃ + __Cu",
+   "2, 3, 1, 3",
+   [
+    "1, 3, 1, 3",
+    "2, 1, 1, 1",
+    "2, 3, 1, 2"
+   ],
+   "Al₂(SO₄)₃ needs 2 Al and 3 SO₄, so 3 CuSO₄ release 3 Cu."
+  ],
+  [
+   "Balance: __Pb(NO₃)₂ + __KI → __PbI₂ + __KNO₃",
+   "1, 2, 1, 2",
+   [
+    "1, 1, 1, 1",
+    "2, 1, 2, 1",
+    "1, 2, 1, 1"
+   ],
+   "PbI₂ needs 2 I from 2 KI, and the 2 NO₃ groups form 2 KNO₃."
+  ],
+  [
+   "Balance: __H₂SO₄ + __NaOH → __Na₂SO₄ + __H₂O",
+   "1, 2, 1, 2",
+   [
+    "1, 1, 1, 1",
+    "2, 1, 1, 2",
+    "1, 2, 1, 1"
+   ],
+   "Na₂SO₄ needs 2 Na from 2 NaOH, and the 4 H form 2 H₂O."
+  ],
+  [
+   "Balance: __Ca(OH)₂ + __HCl → __CaCl₂ + __H₂O",
+   "1, 2, 1, 2",
+   [
+    "1, 1, 1, 1",
+    "2, 1, 1, 2",
+    "1, 2, 1, 1"
+   ],
+   "CaCl₂ needs 2 HCl, and the 2 OH plus 2 H form 2 H₂O."
+  ],
+  [
+   "Balance: __CO₂ + __H₂O → __C₆H₁₂O₆ + __O₂",
+   "6, 6, 1, 6",
+   [
+    "6, 12, 1, 6",
+    "1, 1, 1, 1",
+    "6, 6, 1, 3"
+   ],
+   "Photosynthesis uses 6 CO₂ and 6 H₂O to make one glucose and 6 O₂."
+  ],
+  [
+   "Balance: __KI + __Cl₂ → __KCl + __I₂",
+   "2, 1, 2, 1",
+   [
+    "1, 1, 1, 1",
+    "1, 2, 1, 2",
+    "2, 1, 1, 1"
+   ],
+   "2 KI give the 2 I atoms in I₂, and Cl₂ forms 2 KCl."
+  ],
+  [
+   "Balance: __AgNO₃ + __CaCl₂ → __AgCl + __Ca(NO₃)₂",
+   "2, 1, 2, 1",
+   [
+    "1, 1, 1, 1",
+    "1, 2, 1, 2",
+    "2, 1, 1, 1"
+   ],
+   "Ca(NO₃)₂ needs 2 NO₃ from 2 AgNO₃, forming 2 AgCl with the 2 Cl."
+  ],
+  [
+   "Balance: __Cu + __AgNO₃ → __Cu(NO₃)₂ + __Ag",
+   "1, 2, 1, 2",
+   [
+    "1, 1, 1, 1",
+    "2, 1, 2, 1",
+    "1, 2, 1, 1"
+   ],
+   "Cu(NO₃)₂ needs 2 NO₃ from 2 AgNO₃, releasing 2 Ag."
+  ],
+  [
+   "Balance: __C₂H₅OH + __O₂ → __CO₂ + __H₂O",
+   "1, 3, 2, 3",
+   [
+    "1, 2, 2, 3",
+    "2, 3, 2, 3",
+    "1, 3, 3, 2"
+   ],
+   "2 CO₂ and 3 H₂O hold 7 O; ethanol supplies 1 and 3 O₂ supply 6."
+  ],
+  [
+   "Balance: __FeS₂ + __O₂ → __Fe₂O₃ + __SO₂",
+   "4, 11, 2, 8",
+   [
+    "2, 7, 1, 4",
+    "4, 8, 2, 8",
+    "1, 3, 1, 2"
+   ],
+   "4 FeS₂ give 2 Fe₂O₃ and 8 SO₂, needing 22 O atoms, or 11 O₂."
+  ],
+  [
+   "Balance: __Al(OH)₃ + __H₂SO₄ → __Al₂(SO₄)₃ + __H₂O",
+   "2, 3, 1, 6",
+   [
+    "1, 3, 1, 3",
+    "2, 3, 1, 3",
+    "2, 1, 1, 2"
+   ],
+   "2 Al(OH)₃ and 3 H₂SO₄ give one Al₂(SO₄)₃ and 12 H atoms, forming 6 H₂O."
+  ],
+  [
+   "Balance: __NaHCO₃ → __Na₂CO₃ + __H₂O + __CO₂",
+   "2, 1, 1, 1",
+   [
+    "1, 1, 1, 1",
+    "2, 2, 1, 1",
+    "2, 1, 2, 1"
+   ],
+   "2 NaHCO₃ give 2 Na, 2 H, 2 C and 6 O, matching the three products."
+  ]
+ ],
+ "sciRXN": [
+  [
+   "What type of reaction is this? 2Na + Cl₂ → 2NaCl",
+   "Synthesis",
+   [
+    "Decomposition",
+    "Single replacement",
+    "Combustion"
+   ],
+   "Two elements combine into one compound, which is synthesis."
+  ],
+  [
+   "What type of reaction is this? CaO + H₂O → Ca(OH)₂",
+   "Synthesis",
+   [
+    "Double replacement",
+    "Decomposition",
+    "Single replacement"
+   ],
+   "Two reactants join to form a single product, so it is synthesis."
+  ],
+  [
+   "What type of reaction is this? SO₃ + H₂O → H₂SO₄",
+   "Synthesis",
+   [
+    "Combustion",
+    "Decomposition",
+    "Double replacement"
+   ],
+   "Two compounds combine into one product, sulphuric acid: synthesis."
+  ],
+  [
+   "What type of reaction is this? CaCO₃ → CaO + CO₂",
+   "Decomposition",
+   [
+    "Synthesis",
+    "Combustion",
+    "Single replacement"
+   ],
+   "One compound breaks into two simpler substances, which is decomposition."
+  ],
+  [
+   "What type of reaction is this? 2HgO → 2Hg + O₂",
+   "Decomposition",
+   [
+    "Synthesis",
+    "Double replacement",
+    "Combustion"
+   ],
+   "Mercury(II) oxide breaks apart into its elements: decomposition."
+  ],
+  [
+   "What type of reaction is this? 2NaCl → 2Na + Cl₂",
+   "Decomposition",
+   [
+    "Single replacement",
+    "Synthesis",
+    "Double replacement"
+   ],
+   "One compound splits into two elements, so it is decomposition."
+  ],
+  [
+   "What type of reaction is this? 2H₂O₂ → 2H₂O + O₂",
+   "Decomposition",
+   [
+    "Combustion",
+    "Synthesis",
+    "Single replacement"
+   ],
+   "Hydrogen peroxide breaks down into water and oxygen: decomposition."
+  ],
+  [
+   "What type of reaction is this? Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag",
+   "Single replacement",
+   [
+    "Double replacement",
+    "Synthesis",
+    "Decomposition"
+   ],
+   "Copper replaces silver in the compound, which is single replacement."
+  ],
+  [
+   "What type of reaction is this? Cl₂ + 2KBr → 2KCl + Br₂",
+   "Single replacement",
+   [
+    "Double replacement",
+    "Combustion",
+    "Synthesis"
+   ],
+   "Chlorine replaces bromine in the compound, which is single replacement."
+  ],
+  [
+   "What type of reaction is this? Mg + 2HCl → MgCl₂ + H₂",
+   "Single replacement",
+   [
+    "Synthesis",
+    "Double replacement",
+    "Decomposition"
+   ],
+   "Magnesium replaces hydrogen in hydrochloric acid: single replacement."
+  ],
+  [
+   "What type of reaction is this? 2Na + 2H₂O → 2NaOH + H₂",
+   "Single replacement",
+   [
+    "Decomposition",
+    "Combustion",
+    "Double replacement"
+   ],
+   "Sodium replaces one hydrogen in water and frees hydrogen gas: single replacement."
+  ],
+  [
+   "What type of reaction is this? BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl",
+   "Double replacement",
+   [
+    "Single replacement",
+    "Synthesis",
+    "Decomposition"
+   ],
+   "The two compounds swap partners, which is double replacement."
+  ],
+  [
+   "What type of reaction is this? HCl + NaOH → NaCl + H₂O",
+   "Double replacement",
+   [
+    "Single replacement",
+    "Combustion",
+    "Synthesis"
+   ],
+   "An acid and a base exchange ions to form a salt and water: double replacement."
+  ],
+  [
+   "What type of reaction is this? Pb(NO₃)₂ + 2KI → PbI₂ + 2KNO₃",
+   "Double replacement",
+   [
+    "Decomposition",
+    "Single replacement",
+    "Combustion"
+   ],
+   "Lead and potassium ions trade partners, forming a precipitate: double replacement."
+  ],
+  [
+   "What type of reaction is this? FeCl₃ + 3NaOH → Fe(OH)₃ + 3NaCl",
+   "Double replacement",
+   [
+    "Synthesis",
+    "Single replacement",
+    "Decomposition"
+   ],
+   "The positive ions of two compounds swap partners: double replacement."
+  ],
+  [
+   "What type of reaction is this? C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
+   "Combustion",
+   [
+    "Synthesis",
+    "Decomposition",
+    "Double replacement"
+   ],
+   "Ethanol burns in oxygen to make carbon dioxide and water: combustion."
+  ],
+  [
+   "What type of reaction is this? 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O",
+   "Combustion",
+   [
+    "Single replacement",
+    "Synthesis",
+    "Decomposition"
+   ],
+   "Butane reacts with oxygen to form CO₂ and H₂O, which is combustion."
+  ],
+  [
+   "What type of reaction is this? 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O",
+   "Combustion",
+   [
+    "Double replacement",
+    "Decomposition",
+    "Synthesis"
+   ],
+   "Ethane burns in oxygen to give carbon dioxide and water: combustion."
+  ],
+  [
+   "What type of reaction is this? A + B → AB",
+   "Synthesis",
+   [
+    "Decomposition",
+    "Single replacement",
+    "Double replacement"
+   ],
+   "Two substances combining into one product is synthesis."
+  ],
+  [
+   "What type of reaction is this? AB → A + B",
+   "Decomposition",
+   [
+    "Synthesis",
+    "Single replacement",
+    "Double replacement"
+   ],
+   "One substance breaking into two is decomposition."
+  ],
+  [
+   "What type of reaction is this? A + BC → AC + B",
+   "Single replacement",
+   [
+    "Double replacement",
+    "Synthesis",
+    "Decomposition"
+   ],
+   "One element takes the place of another in a compound: single replacement."
+  ],
+  [
+   "What type of reaction is this? AB + CD → AD + CB",
+   "Double replacement",
+   [
+    "Single replacement",
+    "Synthesis",
+    "Decomposition"
+   ],
+   "Two compounds exchange partners, which is double replacement."
+  ]
+ ],
+ "sciPHS": [
+  [
+   "Which pH value is the most acidic?",
+   "pH 2",
+   [
+    "pH 5",
+    "pH 7",
+    "pH 10"
+   ],
+   "The lower the pH, the more acidic the solution, so pH 2 is the most acidic."
+  ],
+  [
+   "Which pH value is the most basic?",
+   "pH 13",
+   [
+    "pH 9",
+    "pH 7",
+    "pH 3"
+   ],
+   "The higher the pH above 7, the more basic the solution."
+  ],
+  [
+   "How many times more hydrogen ions does a pH 3 solution have than a pH 5 solution?",
+   "100 times",
+   [
+    "2 times",
+    "10 times",
+    "1000 times"
+   ],
+   "Each pH unit is a factor of 10, so two units is 10 × 10 = 100 times."
+  ],
+  [
+   "How many times more hydrogen ions does a pH 4 solution have than a pH 5 solution?",
+   "10 times",
+   [
+    "1 time",
+    "100 times",
+    "5 times"
+   ],
+   "One pH unit lower means 10 times more hydrogen ions."
+  ],
+  [
+   "What colour does blue litmus paper turn in an acid?",
+   "Red",
+   [
+    "Blue",
+    "Green",
+    "Purple"
+   ],
+   "Acids turn blue litmus paper red."
+  ],
+  [
+   "What colour does red litmus paper turn in a base?",
+   "Blue",
+   [
+    "Red",
+    "Yellow",
+    "Orange"
+   ],
+   "Bases turn red litmus paper blue."
+  ],
+  [
+   "Phenolphthalein indicator turns pink in a …",
+   "base",
+   [
+    "acid",
+    "neutral salt solution",
+    "sample of pure water"
+   ],
+   "Phenolphthalein is colourless in acids and neutral solutions but pink in bases."
+  ],
+  [
+   "Lemon juice has a pH of about 2. It is …",
+   "acidic",
+   [
+    "basic",
+    "neutral",
+    "strongly basic"
+   ],
+   "A pH below 7 means acidic, and lemon juice contains citric acid."
+  ],
+  [
+   "Household ammonia has a pH of about 11. It is …",
+   "basic",
+   [
+    "acidic",
+    "neutral",
+    "weakly acidic"
+   ],
+   "A pH above 7 means basic."
+  ],
+  [
+   "Which substance is a base?",
+   "Baking soda solution",
+   [
+    "Vinegar",
+    "Lemon juice",
+    "Cola"
+   ],
+   "Baking soda (sodium bicarbonate) dissolves to give a mildly basic solution of about pH 8–9."
+  ],
+  [
+   "Which substance is an acid?",
+   "Vinegar",
+   [
+    "Soap solution",
+    "Bleach",
+    "Ammonia solution"
+   ],
+   "Vinegar contains acetic acid and has a pH of about 3."
+  ],
+  [
+   "What are the products when an acid neutralizes a base?",
+   "A salt and water",
+   [
+    "A metal and oxygen",
+    "Only hydrogen gas",
+    "Carbon and water"
+   ],
+   "In neutralization, an acid and a base react to form a salt and water."
+  ],
+  [
+   "Which ion do acids release in water?",
+   "H⁺ ions",
+   [
+    "OH⁻ ions",
+    "Na⁺ ions",
+    "O²⁻ ions"
+   ],
+   "Acids increase the concentration of hydrogen (hydronium) ions in water."
+  ],
+  [
+   "Which ion do bases release or form in water?",
+   "OH⁻ ions",
+   [
+    "H⁺ ions",
+    "H₃O⁺ ions",
+    "Cl⁻ ions"
+   ],
+   "Bases increase the hydroxide ion concentration in water."
+  ],
+  [
+   "What gas forms when zinc reacts with hydrochloric acid?",
+   "Hydrogen",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Chlorine"
+   ],
+   "Acids react with many metals to produce hydrogen gas."
+  ],
+  [
+   "Why do people take antacid tablets for heartburn?",
+   "They are bases that neutralize stomach acid",
+   [
+    "They are acids that add stomach acid",
+    "They are salts that freeze stomach acid",
+    "They are metals that absorb stomach acid"
+   ],
+   "Antacids contain bases that react with excess stomach acid."
+  ],
+  [
+   "What is the usual range of the pH scale?",
+   "0 to 14",
+   [
+    "1 to 10",
+    "0 to 100",
+    "7 to 21"
+   ],
+   "Most solutions fall on the pH scale from 0 (very acidic) to 14 (very basic)."
+  ],
+  [
+   "A strong acid is diluted with lots of water. What happens to its pH?",
+   "It rises toward 7",
+   [
+    "It drops toward 0",
+    "It jumps above 14",
+    "It stays exactly the same"
+   ],
+   "Diluting an acid lowers its hydrogen ion concentration, so its pH increases toward 7."
+  ],
+  [
+   "Rain that is normally about pH 5.6 is called acid rain when its pH is …",
+   "lower than 5.6",
+   [
+    "higher than 5.6",
+    "exactly 7",
+    "higher than 9"
+   ],
+   "Acid rain is more acidic than normal rain, so its pH is lower than about 5.6."
+  ],
+  [
+   "Which compound is a common base?",
+   "NaOH",
+   [
+    "HCl",
+    "H₂SO₄",
+    "HNO₃"
+   ],
+   "Sodium hydroxide releases hydroxide ions in water; the others are acids."
+  ],
+  [
+   "Which compound is a common acid?",
+   "HCl",
+   [
+    "NaOH",
+    "KOH",
+    "Ca(OH)₂"
+   ],
+   "Hydrochloric acid releases hydrogen ions in water; the others are bases."
+  ],
+  [
+   "Why might limestone be added to a lake damaged by acid rain?",
+   "It is a base that raises the pH",
+   [
+    "It is an acid that lowers the pH",
+    "It removes all water from the lake",
+    "It adds more acid rain to the lake"
+   ],
+   "Limestone (calcium carbonate) neutralizes acids, raising the lake's pH."
+  ]
+ ],
+ "sciXsNewton": [
+  [
+   "A car turns sharply left and a passenger slides toward the right door. Why?",
+   "Their body tends to keep moving straight",
+   [
+    "The door pulls them toward it",
+    "Gravity pushes them sideways",
+    "The seat pushes them outward"
+   ],
+   "By inertia, the passenger's body keeps going straight while the car turns beneath them."
+  ],
+  [
+   "A car drives on cruise control at a constant 100 km/h on a straight road. What is the net force on it?",
+   "Zero",
+   [
+    "Forward",
+    "Backward",
+    "Upward"
+   ],
+   "Constant velocity means balanced forces, so the net force is zero."
+  ],
+  [
+   "What property of an object determines its inertia?",
+   "Its mass",
+   [
+    "Its colour",
+    "Its temperature",
+    "Its shape"
+   ],
+   "The more mass an object has, the more it resists changes in its motion."
+  ],
+  [
+   "Newton's first law is also called the law of …",
+   "inertia",
+   [
+    "acceleration",
+    "action and reaction",
+    "gravitation"
+   ],
+   "The first law describes inertia, the tendency of objects to keep their state of motion."
+  ],
+  [
+   "A ball rolls on a perfectly frictionless, level surface. What will it do?",
+   "Keep rolling at constant speed",
+   [
+    "Slow down and stop",
+    "Speed up forever",
+    "Roll backward"
+   ],
+   "With no net force acting, the ball keeps moving at constant velocity."
+  ],
+  [
+   "You shake a ketchup bottle downward and stop it suddenly. Why does ketchup come out?",
+   "The ketchup keeps moving when the bottle stops",
+   [
+    "The bottle pushes ketchup upward",
+    "Gravity stops working on the bottle",
+    "Air pulls ketchup out of the bottle"
+   ],
+   "By inertia, the ketchup continues moving downward after the bottle stops."
+  ],
+  [
+   "How do car headrests help in a rear-end collision?",
+   "They push the head forward with the body",
+   [
+    "They stop the car from moving",
+    "They make the head lighter",
+    "They pull the body backward"
+   ],
+   "When the car is pushed forward, the head tends to stay still; the headrest supplies the force to move it with the body."
+  ],
+  [
+   "An elevator moves upward at a constant speed. What is the net force on it?",
+   "Zero",
+   [
+    "Upward",
+    "Downward",
+    "Sideways"
+   ],
+   "Constant speed in a straight line means forces are balanced and the net force is zero."
+  ],
+  [
+   "A skydiver falls at a constant terminal velocity. What is the net force on them?",
+   "Zero",
+   [
+    "Downward",
+    "Upward",
+    "Sideways"
+   ],
+   "At terminal velocity, air resistance balances weight, so the net force is zero."
+  ],
+  [
+   "A card under a coin on a cup is flicked away quickly. Why does the coin drop into the cup?",
+   "The coin's inertia keeps it in place",
+   [
+    "The card pushes it downward",
+    "The coin is pulled by the card",
+    "The cup attracts the coin"
+   ],
+   "The coin resists the sudden change, stays put, and then gravity pulls it into the cup."
+  ],
+  [
+   "Why can you tighten a loose hammer head by banging the handle on the floor?",
+   "The head keeps moving when the handle stops",
+   [
+    "The floor pushes the head upward",
+    "The handle grows longer",
+    "Gravity pulls the head off"
+   ],
+   "When the handle stops suddenly, the head's inertia carries it further down onto the handle."
+  ],
+  [
+   "A box is pushed with balanced forces from both sides. What happens to its motion?",
+   "It does not change",
+   [
+    "It speeds up",
+    "It slows down",
+    "It changes direction"
+   ],
+   "Balanced forces give zero net force, so the box keeps its current state of motion."
+  ],
+  [
+   "Which situation requires a net force?",
+   "A car speeding up on a highway",
+   [
+    "A car parked in a driveway",
+    "A car at constant velocity",
+    "A book resting on a desk"
+   ],
+   "Speeding up is a change in velocity, which requires an unbalanced force."
+  ],
+  [
+   "A truck brakes hard and loose boxes in the back slide forward. Why?",
+   "The boxes tend to keep moving",
+   [
+    "The truck pushes the boxes",
+    "Friction pulls the boxes forward",
+    "The brakes push the boxes"
+   ],
+   "As the truck slows, the boxes' inertia keeps them moving forward."
+  ],
+  [
+   "Why does a soccer ball rolling on grass eventually stop?",
+   "Friction acts on it as a net force",
+   [
+    "It runs out of inertia",
+    "Its mass slowly disappears",
+    "Gravity pushes it backward"
+   ],
+   "Friction from the grass is an unbalanced force that slows the ball down."
+  ],
+  [
+   "A skateboard hits a curb and stops. What happens to the rider?",
+   "The rider keeps moving forward",
+   [
+    "The rider stops instantly",
+    "The rider moves backward",
+    "The rider moves straight up"
+   ],
+   "The curb stops the board, but the rider's inertia carries them forward."
+  ],
+  [
+   "A space probe travels for decades without using its engines. Why does it keep moving?",
+   "No net force is needed to keep it moving",
+   [
+    "Its engines secretly stay on",
+    "Space pushes it along",
+    "The Sun's light pulls it outward"
+   ],
+   "In nearly empty space, little force acts on the probe, so it keeps moving by inertia."
+  ],
+  [
+   "Which object has the least inertia?",
+   "A ping-pong ball",
+   [
+    "A bowling ball",
+    "A brick",
+    "A car"
+   ],
+   "The ping-pong ball has the smallest mass, so it has the least inertia."
+  ],
+  [
+   "Does an object moving at constant velocity need a net force to keep moving?",
+   "No, it keeps moving on its own",
+   [
+    "Yes, a constant forward force",
+    "Yes, a constantly growing force",
+    "No, but it slows on its own"
+   ],
+   "Newton's first law says constant velocity continues unless a net force acts."
+  ],
+  [
+   "Which scientist used rolling balls on ramps to develop the idea of inertia?",
+   "Galileo Galilei",
+   [
+    "Charles Darwin",
+    "Marie Curie",
+    "Dmitri Mendeleev"
+   ],
+   "Galileo's ramp experiments showed that moving objects keep moving unless something slows them."
+  ],
+  [
+   "Why is it harder to start pushing a full shopping cart than an empty one?",
+   "The full cart has more mass and inertia",
+   [
+    "The full cart has less friction",
+    "The empty cart has more inertia",
+    "The full cart has no weight"
+   ],
+   "More mass means more inertia, so a larger force is needed to change its motion."
+  ],
+  [
+   "A hockey player stops skating and glides across smooth ice. What slowly stops them?",
+   "Friction and air resistance",
+   [
+    "Their inertia running out",
+    "The pull of the boards",
+    "A lack of gravity"
+   ],
+   "Small unbalanced forces from friction and air resistance gradually slow the skater."
+  ]
  ]
 }

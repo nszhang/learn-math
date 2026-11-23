@@ -1,0 +1,1112 @@
+{
+ "sciXsAcidBase": [
+  [
+   "A solution has a pH of 12. It is…",
+   "basic",
+   [
+    "acidic",
+    "neutral",
+    "salty"
+   ],
+   "A pH above 7 means the solution is basic."
+  ],
+  [
+   "Which pH describes the strongest acid?",
+   "1",
+   [
+    "6",
+    "8",
+    "13"
+   ],
+   "The lower the pH, the more acidic the solution, so pH 1 is the strongest acid listed."
+  ],
+  [
+   "What colour does red litmus paper turn in a base?",
+   "Blue",
+   [
+    "Green",
+    "Yellow",
+    "Purple"
+   ],
+   "Bases turn red litmus paper blue."
+  ],
+  [
+   "Which household substance is an acid?",
+   "Lemon juice",
+   [
+    "Soapy water",
+    "Baking soda solution",
+    "Ammonia cleaner"
+   ],
+   "Lemon juice contains citric acid and has a low pH."
+  ],
+  [
+   "How much more basic is a solution of pH 11 than one of pH 9?",
+   "100 times",
+   [
+    "2 times",
+    "10 times",
+    "20 times"
+   ],
+   "Each pH unit is a factor of 10, so two units is 10 × 10 = 100 times."
+  ],
+  [
+   "How much more acidic is a solution of pH 3 than one of pH 6?",
+   "1000 times",
+   [
+    "3 times",
+    "30 times",
+    "100 times"
+   ],
+   "Three pH units means 10 × 10 × 10 = 1000 times more hydrogen ions."
+  ],
+  [
+   "A reaction between an acid and a base that forms a salt and water is called…",
+   "neutralization",
+   [
+    "combustion",
+    "decomposition",
+    "corrosion"
+   ],
+   "Neutralization is the reaction of an acid with a base to produce a salt and water."
+  ],
+  [
+   "Hydrochloric acid reacts with sodium hydroxide. Which salt forms?",
+   "Sodium chloride",
+   [
+    "Sodium sulfate",
+    "Potassium chloride",
+    "Calcium carbonate"
+   ],
+   "HCl + NaOH → NaCl + H₂O, so the salt is sodium chloride."
+  ],
+  [
+   "Which formula is an acid?",
+   "HNO₃",
+   [
+    "KOH",
+    "NaCl",
+    "Ca(OH)₂"
+   ],
+   "HNO₃ (nitric acid) releases hydrogen ions in water."
+  ],
+  [
+   "Which formula is a base?",
+   "NaOH",
+   [
+    "HCl",
+    "H₂SO₄",
+    "CH₃COOH"
+   ],
+   "Sodium hydroxide releases hydroxide ions in water, so it is a base."
+  ],
+  [
+   "Which property is typical of bases?",
+   "They feel slippery",
+   [
+    "They taste sour",
+    "They turn blue litmus red",
+    "They react with metals to make hydrogen"
+   ],
+   "Bases feel slippery and taste bitter, while the other properties belong to acids."
+  ],
+  [
+   "Which property is typical of acids?",
+   "They taste sour",
+   [
+    "They feel slippery",
+    "They turn red litmus blue",
+    "They have a pH above 7"
+   ],
+   "Acids such as vinegar and lemon juice taste sour."
+  ],
+  [
+   "An acid reacts with zinc metal. Which gas is produced?",
+   "Hydrogen",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Chlorine"
+   ],
+   "Acids react with active metals such as zinc to produce hydrogen gas."
+  ],
+  [
+   "An acid is added to baking soda and fizzing occurs. Which gas is produced?",
+   "Carbon dioxide",
+   [
+    "Hydrogen",
+    "Oxygen",
+    "Ammonia"
+   ],
+   "Acids react with carbonates and bicarbonates to release carbon dioxide gas."
+  ],
+  [
+   "Phenolphthalein indicator turns pink in…",
+   "a basic solution",
+   [
+    "an acidic solution",
+    "pure water",
+    "a neutral salt solution"
+   ],
+   "Phenolphthalein is colourless in acids and neutral solutions and pink in bases."
+  ],
+  [
+   "A solution with a pH of 7 at 25 °C is…",
+   "neutral",
+   [
+    "weakly acidic",
+    "weakly basic",
+    "strongly basic"
+   ],
+   "A pH of exactly 7 means hydrogen and hydroxide ions are balanced, so it is neutral."
+  ],
+  [
+   "Stomach acid has a pH of about 2. Which acid does the stomach make?",
+   "Hydrochloric acid",
+   [
+    "Sodium hydroxide",
+    "Acetic acid",
+    "Ammonia"
+   ],
+   "The stomach produces hydrochloric acid to help digest food."
+  ],
+  [
+   "Vinegar contains which acid?",
+   "Acetic acid",
+   [
+    "Citric acid",
+    "Sulfuric acid",
+    "Nitric acid"
+   ],
+   "Vinegar is a dilute solution of acetic acid."
+  ],
+  [
+   "An antacid tablet relieves heartburn because it…",
+   "neutralizes stomach acid",
+   [
+    "adds more acid",
+    "lowers the pH",
+    "dissolves the stomach lining"
+   ],
+   "Antacids are bases that react with and neutralize excess stomach acid."
+  ],
+  [
+   "As hydroxide ion concentration increases, the pH…",
+   "rises",
+   [
+    "falls",
+    "stays at 7",
+    "drops to 0"
+   ],
+   "More hydroxide ions make a solution more basic, which means a higher pH."
+  ],
+  [
+   "Which is the most basic pH?",
+   "14",
+   [
+    "8",
+    "10",
+    "12"
+   ],
+   "The pH scale runs to 14, the most basic end."
+  ],
+  [
+   "Universal indicator turns red in a solution. The solution is most likely…",
+   "strongly acidic",
+   [
+    "neutral",
+    "weakly basic",
+    "strongly basic"
+   ],
+   "Universal indicator turns red at low pH, which means a strong acid."
+  ]
+ ],
+ "sciGAS": [
+  [
+   "At constant temperature, if the volume of a gas is halved, its pressure …",
+   "doubles",
+   [
+    "halves",
+    "stays the same",
+    "quadruples"
+   ],
+   "By Boyle's law, pressure and volume are inversely proportional, so halving V doubles P."
+  ],
+  [
+   "At constant volume, if a gas is cooled, its pressure …",
+   "decreases",
+   [
+    "increases",
+    "stays the same",
+    "doubles"
+   ],
+   "By Gay-Lussac's law, pressure falls as temperature falls at constant volume."
+  ],
+  [
+   "Which law relates pressure and temperature at constant volume?",
+   "Gay-Lussac's law",
+   [
+    "Boyle's law",
+    "Charles's law",
+    "Avogadro's law"
+   ],
+   "Gay-Lussac's law states that pressure is proportional to kelvin temperature at constant volume."
+  ],
+  [
+   "Gas law calculations must use temperature in …",
+   "kelvins",
+   [
+    "degrees Celsius",
+    "degrees Fahrenheit",
+    "joules"
+   ],
+   "Gas laws require absolute temperature, measured in kelvins."
+  ],
+  [
+   "What is 27 °C in kelvins?",
+   "300 K",
+   [
+    "273 K",
+    "246 K",
+    "327 K"
+   ],
+   "K = °C + 273, so 27 + 273 = 300 K."
+  ],
+  [
+   "What is 0 K in degrees Celsius?",
+   "−273 °C",
+   [
+    "0 °C",
+    "−100 °C",
+    "273 °C"
+   ],
+   "Absolute zero, 0 K, is about −273 °C."
+  ],
+  [
+   "At constant pressure, a gas at 200 K is heated to 400 K. Its volume …",
+   "doubles",
+   [
+    "halves",
+    "stays the same",
+    "quadruples"
+   ],
+   "By Charles's law, volume is proportional to kelvin temperature, so doubling T doubles V."
+  ],
+  [
+   "A gas occupies 6.0 L at 100 kPa. At constant temperature the pressure rises to 300 kPa. The new volume is …",
+   "2.0 L",
+   [
+    "18 L",
+    "3.0 L",
+    "6.0 L"
+   ],
+   "P₁V₁ = P₂V₂, so V₂ = (100 × 6.0) ÷ 300 = 2.0 L."
+  ],
+  [
+   "A gas occupies 4.0 L at 300 K. At constant pressure it is heated to 450 K. The new volume is …",
+   "6.0 L",
+   [
+    "2.7 L",
+    "4.5 L",
+    "8.0 L"
+   ],
+   "V₂ = V₁ × T₂/T₁ = 4.0 × 450/300 = 6.0 L."
+  ],
+  [
+   "Which equation is the ideal gas law?",
+   "PV = nRT",
+   [
+    "P₁V₁ = P₂T₂",
+    "V = IR",
+    "E = mc²"
+   ],
+   "The ideal gas law relates pressure, volume, moles and temperature as PV = nRT."
+  ],
+  [
+   "In PV = nRT, the letter <em>n</em> stands for …",
+   "the number of moles",
+   [
+    "the number of molecules per litre",
+    "the gas constant",
+    "the temperature in kelvins"
+   ],
+   "In the ideal gas law, n is the amount of gas in moles."
+  ],
+  [
+   "At STP, one mole of an ideal gas occupies about …",
+   "22.4 L",
+   [
+    "1.0 L",
+    "6.02 L",
+    "100 L"
+   ],
+   "At 0 °C and 101.3 kPa, one mole of ideal gas takes up about 22.4 L."
+  ],
+  [
+   "Standard temperature for gases (STP) is …",
+   "0 °C",
+   [
+    "25 °C",
+    "100 °C",
+    "−273 °C"
+   ],
+   "STP uses a temperature of 0 °C, which is 273 K."
+  ],
+  [
+   "A sealed balloon shrinks when taken outside on a cold winter day. Which law explains this?",
+   "Charles's law",
+   [
+    "Boyle's law",
+    "Avogadro's law",
+    "Newton's first law"
+   ],
+   "Cooling a gas at constant pressure lowers its volume, as Charles's law states."
+  ],
+  [
+   "A diver's exhaled air bubbles grow as they rise to the surface. Why?",
+   "The water pressure on them drops",
+   [
+    "The water gets colder near the top",
+    "The gas turns into liquid",
+    "More gas is added to each bubble"
+   ],
+   "By Boyle's law, as pressure decreases the volume of the gas increases."
+  ],
+  [
+   "A spray can should not be heated because the gas inside …",
+   "increases in pressure",
+   [
+    "decreases in pressure",
+    "loses its mass",
+    "turns into a solid"
+   ],
+   "At constant volume, heating a gas raises its pressure, which could burst the can."
+  ],
+  [
+   "Adding more air to a tire at constant temperature increases the pressure because …",
+   "more particles hit the walls",
+   [
+    "the particles get smaller",
+    "the particles slow down",
+    "the tire walls get colder"
+   ],
+   "More gas particles in the same space cause more collisions with the walls, raising pressure."
+  ],
+  [
+   "According to kinetic molecular theory, gas pressure is caused by …",
+   "particles colliding with the walls",
+   [
+    "particles attracting each other",
+    "particles being at rest",
+    "particles joining into liquid drops"
+   ],
+   "Pressure results from gas particles striking the walls of their container."
+  ],
+  [
+   "When a gas is heated, its particles …",
+   "move faster",
+   [
+    "move slower",
+    "stop moving",
+    "get larger"
+   ],
+   "Higher temperature means greater average kinetic energy, so particles move faster."
+  ],
+  [
+   "At constant temperature and pressure, doubling the moles of gas makes the volume …",
+   "double",
+   [
+    "halve",
+    "stay the same",
+    "quadruple"
+   ],
+   "By Avogadro's law, volume is directly proportional to the number of moles."
+  ],
+  [
+   "Which graph shape shows Boyle's law (pressure vs volume)?",
+   "A curve that falls as volume rises",
+   [
+    "A straight line rising from zero",
+    "A flat horizontal line",
+    "A straight line falling to zero"
+   ],
+   "Pressure and volume are inversely proportional, giving a downward curve (a hyperbola)."
+  ],
+  [
+   "The combined gas law relates …",
+   "pressure, volume and temperature",
+   [
+    "mass, volume and density",
+    "current, voltage and resistance",
+    "force, mass and acceleration"
+   ],
+   "The combined gas law is P₁V₁/T₁ = P₂V₂/T₂."
+  ]
+ ],
+ "sciXsCellTheory": [
+  [
+   "According to cell theory, which statement is true?",
+   "Cells are the basic unit of life",
+   [
+    "Cells can form from non-living matter",
+    "Only plants are made of cells",
+    "Viruses are the smallest cells"
+   ],
+   "Cell theory states that the cell is the basic unit of structure and function in living things."
+  ],
+  [
+   "What did spontaneous generation claim?",
+   "Living things can arise from non-living matter",
+   [
+    "All cells come from existing cells",
+    "All living things are made of cells",
+    "Cells contain DNA"
+   ],
+   "Spontaneous generation was the false idea that life forms from non-living material."
+  ],
+  [
+   "In Pasteur's experiment, why did the broth in the swan-neck flask stay clear?",
+   "Microbes were trapped in the curved neck",
+   [
+    "The broth was never boiled",
+    "The flask had no air",
+    "The broth contained poison"
+   ],
+   "The bent neck let air in but trapped dust and microbes, so nothing grew in the broth."
+  ],
+  [
+   "Francesco Redi's experiment with meat and jars showed that maggots come from …",
+   "eggs laid by flies",
+   [
+    "rotting meat itself",
+    "the air in the jar",
+    "the glass of the jar"
+   ],
+   "Maggots appeared only where flies could reach the meat, showing they hatched from fly eggs."
+  ],
+  [
+   "Which invention made the discovery of cells possible?",
+   "The microscope",
+   [
+    "The telescope",
+    "The thermometer",
+    "The barometer"
+   ],
+   "Cells are too small to see with the naked eye, so the microscope was needed to observe them."
+  ],
+  [
+   "Robert Hooke observed cells in which material?",
+   "Cork",
+   [
+    "Pond water",
+    "Blood",
+    "Onion skin"
+   ],
+   "In 1665 Hooke looked at thin slices of cork and named the tiny boxes cells."
+  ],
+  [
+   "Leeuwenhoek called the tiny organisms he saw …",
+   "animalcules",
+   [
+    "virions",
+    "organelles",
+    "zygotes"
+   ],
+   "Leeuwenhoek described the tiny moving organisms he saw as animalcules."
+  ],
+  [
+   "Which organism is made of only one cell?",
+   "An amoeba",
+   [
+    "A mushroom",
+    "A fern",
+    "An earthworm"
+   ],
+   "An amoeba is a unicellular organism, while the others are multicellular."
+  ],
+  [
+   "Which scientist is known for the phrase <em>omnis cellula e cellula</em>?",
+   "Rudolf Virchow",
+   [
+    "Robert Hooke",
+    "Louis Pasteur",
+    "Gregor Mendel"
+   ],
+   "Virchow popularized the Latin phrase meaning all cells come from cells."
+  ],
+  [
+   "Why are viruses not considered cells?",
+   "They cannot reproduce on their own",
+   [
+    "They are too large",
+    "They contain cytoplasm",
+    "They make their own food"
+   ],
+   "Viruses lack cell structures and can only reproduce inside a host cell."
+  ],
+  [
+   "A modern addition to cell theory states that cells contain …",
+   "hereditary information (DNA)",
+   [
+    "no water at all",
+    "only one type of protein",
+    "chlorophyll in every cell"
+   ],
+   "Modern cell theory adds that cells contain DNA, which is passed on when cells divide."
+  ],
+  [
+   "How do new skin cells form when you heal a cut?",
+   "Existing cells divide",
+   [
+    "Blood turns into skin",
+    "Cells form from scab material",
+    "Cells form from the air"
+   ],
+   "In keeping with cell theory, new cells come from the division of existing cells."
+  ],
+  [
+   "Which type of cell has no nucleus?",
+   "A prokaryotic cell",
+   [
+    "A plant cell",
+    "An animal cell",
+    "A fungal cell"
+   ],
+   "Prokaryotes such as bacteria have DNA but no membrane-bound nucleus."
+  ],
+  [
+   "Which organism is made of prokaryotic cells?",
+   "Bacteria",
+   [
+    "Yeast",
+    "Moss",
+    "Humans"
+   ],
+   "Bacteria are prokaryotes, while yeast, moss and humans are eukaryotes."
+  ],
+  [
+   "The smallest unit that can carry out all life processes is the …",
+   "cell",
+   [
+    "atom",
+    "organ",
+    "molecule"
+   ],
+   "A cell is the smallest unit able to carry out all the processes of life."
+  ],
+  [
+   "Which statement about cell theory is false?",
+   "Cells can arise from non-living matter",
+   [
+    "All living things are made of cells",
+    "Cells come from existing cells",
+    "The cell is the basic unit of life"
+   ],
+   "Cell theory says cells come only from existing cells, not from non-living matter."
+  ],
+  [
+   "Why was cell theory developed over many years?",
+   "It combined findings of many scientists",
+   [
+    "One scientist proved it in a day",
+    "It was copied from an old book",
+    "It was never tested"
+   ],
+   "Cell theory grew from the observations of Hooke, Leeuwenhoek, Schleiden, Schwann, Virchow and others."
+  ],
+  [
+   "Which microscope lets scientists see structures inside cells in the finest detail?",
+   "An electron microscope",
+   [
+    "A hand lens",
+    "A light microscope",
+    "A dissecting microscope"
+   ],
+   "Electron microscopes use electron beams and give far higher magnification than light microscopes."
+  ],
+  [
+   "Which is the best example of a multicellular organism?",
+   "A maple tree",
+   [
+    "A bacterium",
+    "A paramecium",
+    "A yeast cell"
+   ],
+   "A maple tree is made of many cells, while the others are single-celled."
+  ],
+  [
+   "Before cell theory, many people believed mice could come from …",
+   "grain and old rags",
+   [
+    "other mice only",
+    "eggs in nests",
+    "cell division"
+   ],
+   "Under spontaneous generation, people thought mice formed from grain and rags left in the dark."
+  ],
+  [
+   "Schleiden and Schwann were scientists from which country?",
+   "Germany",
+   [
+    "England",
+    "the Netherlands",
+    "France"
+   ],
+   "Both Matthias Schleiden and Theodor Schwann were German scientists."
+  ],
+  [
+   "A red blood cell, a nerve cell and a muscle cell are all …",
+   "specialized cells",
+   [
+    "prokaryotic cells",
+    "non-living units",
+    "plant cells"
+   ],
+   "These are specialized animal cells with different shapes suited to their jobs."
+  ]
+ ],
+ "sciXsMembrane": [
+  [
+   "Which molecule makes up most of the cell membrane?",
+   "Phospholipids",
+   [
+    "Cellulose",
+    "Starch",
+    "Chitin"
+   ],
+   "The membrane is mostly a double layer of phospholipid molecules."
+  ],
+  [
+   "The phosphate heads of phospholipids are …",
+   "hydrophilic",
+   [
+    "hydrophobic",
+    "non-polar",
+    "insoluble"
+   ],
+   "The phosphate heads are polar and attract water, so they are hydrophilic."
+  ],
+  [
+   "Where are the fatty acid tails found in the bilayer?",
+   "Pointing inward, away from water",
+   [
+    "Facing the outside of the cell",
+    "Facing the cytoplasm",
+    "Sticking out of the cell"
+   ],
+   "The hydrophobic tails point toward each other in the middle of the bilayer, away from water."
+  ],
+  [
+   "Why is the membrane described as a mosaic?",
+   "It contains many different proteins",
+   [
+    "It is made of glass-like crystals",
+    "It never changes shape",
+    "It is made of only one molecule"
+   ],
+   "Proteins, cholesterol and carbohydrates are scattered through it like tiles in a mosaic."
+  ],
+  [
+   "Why is the membrane described as fluid?",
+   "Its molecules can move sideways",
+   [
+    "It is made of water",
+    "It is a liquid drop",
+    "It has no fixed boundary"
+   ],
+   "Phospholipids and many proteins can drift sideways within the layer."
+  ],
+  [
+   "A protein that spans the whole membrane is called a(n) …",
+   "integral protein",
+   [
+    "peripheral protein",
+    "glycolipid",
+    "hormone"
+   ],
+   "Integral (transmembrane) proteins pass through the entire bilayer."
+  ],
+  [
+   "A protein that sits only on the surface of the membrane is a(n) …",
+   "peripheral protein",
+   [
+    "integral protein",
+    "channel protein",
+    "carrier protein"
+   ],
+   "Peripheral proteins attach loosely to the inner or outer surface of the membrane."
+  ],
+  [
+   "What are carbohydrate chains attached to lipids in the membrane called?",
+   "Glycolipids",
+   [
+    "Cholesterols",
+    "Nucleotides",
+    "Aquaporins"
+   ],
+   "Glycolipids are lipids with carbohydrate chains and help with cell recognition."
+  ],
+  [
+   "Which side of the membrane do the carbohydrate chains face?",
+   "The outside of the cell",
+   [
+    "The inside of the cell",
+    "The middle of the bilayer",
+    "The nucleus"
+   ],
+   "Glycoproteins and glycolipids point their carbohydrates outward to act as identification tags."
+  ],
+  [
+   "Which protein lets water cross the membrane quickly?",
+   "Aquaporin",
+   [
+    "Hemoglobin",
+    "Keratin",
+    "Insulin"
+   ],
+   "Aquaporins are channel proteins specialized for water."
+  ],
+  [
+   "Which substance crosses the bilayer most easily?",
+   "Carbon dioxide",
+   [
+    "Sodium ions",
+    "Glucose",
+    "Proteins"
+   ],
+   "CO₂ is small and non-polar, so it slips through the lipid layer."
+  ],
+  [
+   "Why does glucose need a protein to cross the membrane?",
+   "It is too large and polar",
+   [
+    "It is a gas",
+    "It is non-polar",
+    "It is smaller than water"
+   ],
+   "Glucose is large and polar, so it cannot pass easily through the hydrophobic interior."
+  ],
+  [
+   "What is the main job of the cell membrane?",
+   "Control what enters and leaves",
+   [
+    "Make proteins",
+    "Store genetic information",
+    "Produce energy from glucose"
+   ],
+   "The membrane regulates the movement of substances into and out of the cell."
+  ],
+  [
+   "How do immune cells tell your own cells from invaders?",
+   "By markers on the membrane",
+   [
+    "By the cell's colour",
+    "By the size of the nucleus",
+    "By the cell's temperature"
+   ],
+   "Glycoproteins on membranes act as identity markers that immune cells recognize."
+  ],
+  [
+   "A hormone binds to a protein on a cell's surface, triggering a response. The protein is a …",
+   "receptor protein",
+   [
+    "channel protein",
+    "transport vesicle",
+    "cholesterol"
+   ],
+   "Receptor proteins bind specific signal molecules and pass the message into the cell."
+  ],
+  [
+   "Which structure is found in plant cells but not animal cells, outside the membrane?",
+   "Cell wall",
+   [
+    "Cytoplasm",
+    "Ribosome",
+    "Mitochondrion"
+   ],
+   "Plant cells have a rigid cell wall outside the membrane, which animal cells lack."
+  ],
+  [
+   "How thick is the cell membrane in layers of phospholipids?",
+   "Two layers",
+   [
+    "One layer",
+    "Three layers",
+    "Ten layers"
+   ],
+   "The membrane is a bilayer, meaning two layers of phospholipids."
+  ],
+  [
+   "A protein that changes shape to move a molecule across the membrane is a …",
+   "carrier protein",
+   [
+    "receptor protein",
+    "glycolipid",
+    "peripheral protein"
+   ],
+   "Carrier proteins bind a molecule and change shape to move it to the other side."
+  ],
+  [
+   "What would happen to a cell if its membrane were destroyed?",
+   "Its contents would leak out",
+   [
+    "It would grow faster",
+    "It would make more ATP",
+    "It would become a plant cell"
+   ],
+   "Without a membrane the cell cannot hold its contents or control its environment."
+  ],
+  [
+   "Which membrane component is found in animal cells but rarely in plant cells?",
+   "Cholesterol",
+   [
+    "Phospholipids",
+    "Proteins",
+    "Carbohydrate chains"
+   ],
+   "Cholesterol is common in animal cell membranes; plants use other sterols instead."
+  ],
+  [
+   "What holds the two layers of the membrane together?",
+   "Water pushing the tails inward",
+   [
+    "Strong covalent bonds",
+    "Glue made by ribosomes",
+    "The cell wall"
+   ],
+   "Hydrophobic tails avoid water, so the bilayer forms and stays together in watery surroundings."
+  ],
+  [
+   "Besides the outer membrane, eukaryotic cells also have membranes around their …",
+   "organelles",
+   [
+    "ribosomes",
+    "DNA bases",
+    "cell walls"
+   ],
+   "Organelles such as the nucleus and mitochondria are surrounded by membranes too."
+  ]
+ ],
+ "sciXsPassive": [
+  [
+   "Which type of passive transport is this? Oxygen moving from the lungs' air sacs into the blood",
+   "Simple diffusion",
+   [
+    "Osmosis",
+    "Facilitated diffusion",
+    "Active transport"
+   ],
+   "Small, non-polar O₂ crosses the thin membranes directly down its concentration gradient."
+  ],
+  [
+   "Which type of passive transport is this? A red blood cell swelling in distilled water",
+   "Osmosis",
+   [
+    "Simple diffusion",
+    "Facilitated diffusion",
+    "Exocytosis"
+   ],
+   "Water moves into the cell, where solute concentration is higher, by osmosis."
+  ],
+  [
+   "Which type of passive transport is this? Potassium ions leaving a nerve cell through a channel",
+   "Facilitated diffusion",
+   [
+    "Simple diffusion",
+    "Osmosis",
+    "Active transport"
+   ],
+   "Charged ions need a channel protein to move down their gradient."
+  ],
+  [
+   "Which type of passive transport is this? Water entering plant root cells from moist soil",
+   "Osmosis",
+   [
+    "Simple diffusion",
+    "Facilitated diffusion",
+    "Phagocytosis"
+   ],
+   "Water moves across the membrane toward the higher solute concentration inside the root cells."
+  ],
+  [
+   "Which type of passive transport is this? Steroid hormones passing straight through the lipid bilayer",
+   "Simple diffusion",
+   [
+    "Osmosis",
+    "Facilitated diffusion",
+    "Pinocytosis"
+   ],
+   "Steroids are lipid-soluble, so they pass directly through the bilayer."
+  ],
+  [
+   "Which type of passive transport is this? Amino acids crossing the membrane with help from carrier proteins",
+   "Facilitated diffusion",
+   [
+    "Simple diffusion",
+    "Osmosis",
+    "Endocytosis"
+   ],
+   "Carrier proteins help these polar molecules move down their gradient without ATP."
+  ],
+  [
+   "Which type of passive transport is this? Lettuce leaves wilting in salty dressing",
+   "Osmosis",
+   [
+    "Simple diffusion",
+    "Facilitated diffusion",
+    "Active transport"
+   ],
+   "Water leaves the leaf cells toward the salty dressing by osmosis."
+  ],
+  [
+   "Which type of passive transport is this? Carbon dioxide entering a leaf cell for photosynthesis",
+   "Simple diffusion",
+   [
+    "Osmosis",
+    "Facilitated diffusion",
+    "Exocytosis"
+   ],
+   "CO₂ is small and non-polar and diffuses directly through the bilayer."
+  ],
+  [
+   "Which type of passive transport is this? Chloride ions moving through a channel protein down their gradient",
+   "Facilitated diffusion",
+   [
+    "Simple diffusion",
+    "Osmosis",
+    "Active transport"
+   ],
+   "Ions are charged, so they need channel proteins to cross, even when moving down the gradient."
+  ],
+  [
+   "Which type of passive transport is this? A raisin plumping up after soaking in water",
+   "Osmosis",
+   [
+    "Simple diffusion",
+    "Facilitated diffusion",
+    "Endocytosis"
+   ],
+   "Water moves into the raisin's cells by osmosis."
+  ],
+  [
+   "Which type of passive transport is this? Glucose entering a red blood cell through a transporter protein",
+   "Facilitated diffusion",
+   [
+    "Simple diffusion",
+    "Osmosis",
+    "Pinocytosis"
+   ],
+   "Glucose is too large and polar for the bilayer, so it uses a carrier protein."
+  ],
+  [
+   "Which type of passive transport is this? Alcohol molecules passing directly through stomach cell membranes",
+   "Simple diffusion",
+   [
+    "Osmosis",
+    "Facilitated diffusion",
+    "Active transport"
+   ],
+   "Small, partly non-polar ethanol molecules pass straight through the bilayer."
+  ],
+  [
+   "All types of passive transport move substances …",
+   "from high to low concentration",
+   [
+    "from low to high concentration",
+    "only out of the cell",
+    "using energy from ATP"
+   ],
+   "Passive transport moves substances down their concentration gradient without using energy."
+  ],
+  [
+   "Which statement is true about passive transport?",
+   "It needs no energy from the cell",
+   [
+    "It always uses ATP",
+    "It moves substances against a gradient",
+    "It only moves large particles"
+   ],
+   "Passive transport relies on the natural movement of particles, not the cell's ATP."
+  ],
+  [
+   "Osmosis is the diffusion of …",
+   "water across a membrane",
+   [
+    "salt across a membrane",
+    "glucose through a channel",
+    "proteins out of a cell"
+   ],
+   "Osmosis is the movement of water across a selectively permeable membrane."
+  ],
+  [
+   "A cell is placed in a hypertonic solution. What happens?",
+   "It loses water and shrinks",
+   [
+    "It gains water and swells",
+    "It stays exactly the same",
+    "It bursts immediately"
+   ],
+   "In a hypertonic solution, water leaves the cell by osmosis, so it shrinks."
+  ],
+  [
+   "A cell is placed in an isotonic solution. What happens?",
+   "No net change in size",
+   [
+    "It shrinks quickly",
+    "It swells and bursts",
+    "It doubles in size"
+   ],
+   "Water moves in and out equally, so there is no net change."
+  ],
+  [
+   "A plant cell placed in pure water becomes firm. This is called being …",
+   "turgid",
+   [
+    "plasmolyzed",
+    "flaccid",
+    "dehydrated"
+   ],
+   "Water enters by osmosis and presses the membrane against the cell wall, making the cell turgid."
+  ],
+  [
+   "The membrane pulling away from the cell wall in salty water is called …",
+   "plasmolysis",
+   [
+    "turgor",
+    "lysis",
+    "phagocytosis"
+   ],
+   "Plasmolysis happens when a plant cell loses water to a hypertonic solution."
+  ],
+  [
+   "Which factor speeds up simple diffusion?",
+   "A higher temperature",
+   [
+    "A smaller concentration difference",
+    "A thicker membrane",
+    "Larger particles"
+   ],
+   "Higher temperature gives particles more kinetic energy, so they diffuse faster."
+  ],
+  [
+   "Diffusion stops having a net effect when …",
+   "equilibrium is reached",
+   [
+    "the cell uses up ATP",
+    "the membrane gets thicker",
+    "the particles stop moving"
+   ],
+   "At equilibrium, particles still move but there is no net movement in either direction."
+  ],
+  [
+   "What does facilitated diffusion need that simple diffusion does not?",
+   "A transport protein",
+   [
+    "ATP energy",
+    "A vesicle",
+    "A concentration increase"
+   ],
+   "Facilitated diffusion uses channel or carrier proteins, but still needs no energy."
+  ]
+ ]
+}

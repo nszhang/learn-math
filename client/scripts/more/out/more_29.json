@@ -499,7 +499,7 @@
    "Iron",
    [
     "Copper",
-    "Aluminium",
+    "Aluminum",
     "Glass"
    ],
    "Iron is ferromagnetic, so it is strongly attracted to magnets."
@@ -626,13 +626,13 @@
   ],
   [
    "Which of these is NOT attracted to a magnet?",
-   "An aluminium can",
+   "An aluminum can",
    [
     "An iron nail",
     "A steel paper clip",
     "A pure nickel strip"
    ],
-   "Aluminium is not ferromagnetic, while iron, steel and nickel are."
+   "Aluminum is not ferromagnetic, while iron, steel and nickel are."
   ],
   [
    "A magnetic force can act on an object …",
@@ -4457,6 +4457,1116 @@
     "A quaternary consumer"
    ],
    "The penguin eats krill, a primary consumer, so it is a secondary consumer."
+  ]
+ ],
+ "sciXsCarryF": [
+  [
+   "Which limiting factor is density-independent?",
+   "An early frost",
+   [
+    "Competition for nest sites",
+    "Spread of a parasite",
+    "Predation by foxes"
+   ],
+   "A frost affects a population the same way no matter how crowded it is."
+  ],
+  [
+   "Which limiting factor is density-dependent?",
+   "Competition for water",
+   [
+    "A volcanic eruption",
+    "A sudden cold snap",
+    "A flood"
+   ],
+   "Competition becomes stronger as more individuals share the same water."
+  ],
+  [
+   "Which limiting factor is density-independent?",
+   "An oil spill",
+   [
+    "Shortage of food",
+    "Spread of disease",
+    "Lack of den sites"
+   ],
+   "Pollution events harm a population regardless of its density."
+  ],
+  [
+   "Which limiting factor is density-dependent?",
+   "A parasite spreading through a herd",
+   [
+    "A tornado",
+    "A heat wave",
+    "A spring flood"
+   ],
+   "Parasites spread more easily when hosts are crowded together."
+  ],
+  [
+   "Which limiting factor is density-independent?",
+   "A heavy ice storm",
+   [
+    "Wolves hunting more deer",
+    "Competition for mates",
+    "Overgrazing of grass"
+   ],
+   "Weather events like ice storms affect populations whatever their size."
+  ],
+  [
+   "Which limiting factor is density-dependent?",
+   "Limited nesting space on a cliff",
+   [
+    "A landslide",
+    "A drought",
+    "A forest fire"
+   ],
+   "The more birds there are, the harder it is to find nesting space."
+  ],
+  [
+   "What is carrying capacity?",
+   "The largest population an environment can support long term",
+   [
+    "The smallest population that can survive in an area",
+    "The number of young born to one female each year",
+    "The total number of species living in an area"
+   ],
+   "Carrying capacity is the maximum population size the resources can sustain."
+  ],
+  [
+   "A population grows quickly, then levels off. The level where it stops growing is the …",
+   "carrying capacity",
+   [
+    "birth rate",
+    "growth curve",
+    "pioneer stage"
+   ],
+   "Growth slows and levels off as the population reaches carrying capacity."
+  ],
+  [
+   "What shape is a graph of a population that levels off at carrying capacity?",
+   "S-shaped",
+   [
+    "J-shaped",
+    "U-shaped",
+    "V-shaped"
+   ],
+   "Logistic growth makes an S-shaped curve that flattens at carrying capacity."
+  ],
+  [
+   "A population with unlimited resources grows faster and faster. What shape is its growth curve?",
+   "J-shaped",
+   [
+    "S-shaped",
+    "Flat line",
+    "Bell-shaped"
+   ],
+   "Exponential growth produces a J-shaped curve."
+  ],
+  [
+   "Why does competition become a stronger limiting factor as a population grows?",
+   "More individuals share the same resources",
+   [
+    "Fewer individuals need resources",
+    "Resources grow faster than the population",
+    "Crowding always increases food supply"
+   ],
+   "As density rises, each individual gets a smaller share of food, water and space."
+  ],
+  [
+   "Snowshoe hare numbers rise, and lynx numbers then rise too. Why?",
+   "More hares means more food for lynx",
+   [
+    "Lynx eat grass that hares leave",
+    "Hares protect lynx from wolves",
+    "Lynx and hares compete for food"
+   ],
+   "Predator numbers often follow prey numbers because prey are their food."
+  ],
+  [
+   "A wetland's carrying capacity for ducks could increase if …",
+   "more food plants grew there",
+   [
+    "more predators moved in",
+    "the wetland were drained",
+    "a disease spread there"
+   ],
+   "More food raises the number of ducks the habitat can support."
+  ],
+  [
+   "A forest is cut down for farmland. What happens to its carrying capacity for squirrels?",
+   "It decreases",
+   [
+    "It increases",
+    "It stays the same",
+    "It becomes unlimited"
+   ],
+   "Losing trees removes food and shelter, so fewer squirrels can be supported."
+  ],
+  [
+   "Deer in a park exceed the carrying capacity. What is likely to happen next?",
+   "Food runs short and the population falls",
+   [
+    "The population keeps growing forever",
+    "The carrying capacity rises to match",
+    "The deer start making their own food"
+   ],
+   "Above carrying capacity, resources run out and deaths rise until numbers drop."
+  ],
+  [
+   "Which human action is a density-independent factor for fish in a lake?",
+   "Pollution from a chemical spill",
+   [
+    "Competition for insects to eat",
+    "A disease spreading among fish",
+    "Predation by larger fish"
+   ],
+   "A chemical spill harms fish regardless of how many are in the lake."
+  ],
+  [
+   "Which factor would have a greater effect on a crowded population than on a sparse one?",
+   "Spread of an infectious disease",
+   [
+    "A lightning-caused wildfire",
+    "An unusually cold winter",
+    "A volcanic ash fall"
+   ],
+   "Disease spreads faster when individuals live close together, so it is density-dependent."
+  ],
+  [
+   "Which is an abiotic limiting factor?",
+   "Temperature",
+   [
+    "Predators",
+    "Parasites",
+    "Competitors"
+   ],
+   "Abiotic factors are non-living, such as temperature, water and sunlight."
+  ],
+  [
+   "Which is a biotic limiting factor?",
+   "Predators",
+   [
+    "Sunlight",
+    "Rainfall",
+    "Soil minerals"
+   ],
+   "Biotic factors involve living things, such as predators and competitors."
+  ],
+  [
+   "In a crowded population, stress can lower birth rates. This kind of factor is …",
+   "density-dependent",
+   [
+    "density-independent",
+    "abiotic only",
+    "unrelated to population size"
+   ],
+   "The effect grows as the population becomes more crowded."
+  ],
+  [
+   "Why do populations often rise above and fall below carrying capacity instead of staying exactly at it?",
+   "There is a delay before resources limit the population",
+   [
+    "Carrying capacity is always zero",
+    "Births and deaths never change",
+    "Populations ignore food supply"
+   ],
+   "Populations overshoot and then fall because the effects of limited resources take time to appear."
+  ],
+  [
+   "A severe hurricane kills 40% of a bird population whether the population is large or small. This factor is …",
+   "density-independent",
+   [
+    "density-dependent",
+    "a biotic factor",
+    "competition"
+   ],
+   "The percentage killed does not depend on how crowded the population is."
+  ]
+ ],
+ "sciXsGroupSurv": [
+  [
+   "Claim: Zebras in herds are safer from lions. Which evidence supports this?",
+   "Lions caught fewer zebras per hunt from large herds than from small ones",
+   [
+    "Lions caught more zebras per hunt from large herds than from small ones",
+    "Zebras in large herds ate more grass each day than zebras in small herds",
+    "Lions rested longer on hot days than on cool days in the dry season"
+   ],
+   "Fewer captures from large herds directly links herd size to safety."
+  ],
+  [
+   "Claim: Caribou move in large herds to reduce wolf attacks on each one. Which evidence supports this?",
+   "Caribou in large herds were less likely to be attacked than those in small groups",
+   [
+    "Caribou in large herds were more likely to be attacked than those in small groups",
+    "Caribou walked farther each day in spring than in autumn",
+    "Wolves were heavier in northern areas than in southern areas"
+   ],
+   "A lower attack risk per caribou in large herds supports the claim."
+  ],
+  [
+   "Claim: Geese save energy by flying in a V formation. Which evidence supports this?",
+   "Geese in a V had lower heart rates than geese flying alone",
+   [
+    "Geese in a V had higher heart rates than geese flying alone",
+    "Geese flew higher in autumn than they did in spring",
+    "Geese in a V honked more often than geese flying alone"
+   ],
+   "Lower heart rate in formation shows less energy was used."
+  ],
+  [
+   "Claim: Ants working together can move food too large for one ant. Which evidence supports this?",
+   "Groups of ants carried pieces many times heavier than one ant could move",
+   [
+    "Single ants carried crumbs just as fast as groups of ants did",
+    "Ant colonies grew larger in the summer than in the winter",
+    "Ants walked faster on warm days than they did on cool days"
+   ],
+   "The group moved loads no single ant could, which supports cooperation."
+  ],
+  [
+   "Claim: Prairie dogs give alarm calls that help their colony survive. Which evidence supports this?",
+   "Prairie dogs that heard alarm calls reached burrows before hawks struck",
+   [
+    "Prairie dogs that heard alarm calls were caught by hawks more often",
+    "Prairie dogs dug deeper burrows in sandy soil than in clay soil",
+    "Prairie dogs ate more grass in spring than in late summer"
+   ],
+   "Reaching safety after calls links the calls to survival."
+  ],
+  [
+   "Claim: Living in a group increases competition for food. Which evidence supports this?",
+   "Gulls in large colonies spent more time fighting over food",
+   [
+    "Gulls in large colonies spent less time fighting over food",
+    "Gulls in large colonies flew farther on windy days",
+    "Gulls in small colonies laid eggs earlier in spring"
+   ],
+   "More fighting over food in large colonies shows stronger competition."
+  ],
+  [
+   "Claim: Lions in prides raise more cubs than lone females. Which evidence supports this?",
+   "Cubs in prides survived to adulthood more often than cubs of lone lionesses",
+   [
+    "Cubs of lone lionesses survived to adulthood more often than cubs in prides",
+    "Lions in prides slept for more hours each day than lone lions",
+    "Male lions in prides had darker manes than lone male lions"
+   ],
+   "Higher cub survival in prides directly supports the claim."
+  ],
+  [
+   "Which is the best kind of evidence to support a claim about group survival?",
+   "Measured data comparing animals in groups with animals alone",
+   [
+    "A personal opinion from someone who likes the animal",
+    "A description of what the animal's body looks like",
+    "A guess about how the animal might feel about others"
+   ],
+   "Strong evidence is measured and directly compares the conditions in the claim."
+  ],
+  [
+   "Claim: Bats huddle in caves to save heat. Which evidence supports this?",
+   "Huddled bats lost less body mass over winter than single bats",
+   [
+    "Huddled bats lost more body mass over winter than single bats",
+    "Bats caught more insects on warm nights than on cold nights",
+    "Bats in large caves flew farther each night than bats in small caves"
+   ],
+   "Losing less mass shows they used less stored energy, supporting the claim."
+  ],
+  [
+   "Claim: Herring schools confuse predators. Which evidence supports it?",
+   "Predators missed more strikes at schools than at single fish",
+   [
+    "Predators missed fewer strikes at schools than at single fish",
+    "Herring schools were larger in spring than in autumn",
+    "Herring swam faster in warm water than in cold water"
+   ],
+   "More missed strikes means the predator was confused by the school."
+  ],
+  [
+   "Claim: Group living can spread parasites. Which evidence supports it?",
+   "Swallows in larger colonies had more blood-feeding bugs per nest",
+   [
+    "Swallows in larger colonies had fewer blood-feeding bugs per nest",
+    "Swallows in larger colonies built nests from more mud",
+    "Swallows in larger colonies flew south earlier in autumn"
+   ],
+   "More parasites per nest in larger colonies supports the claim."
+  ],
+  [
+   "Claim: Chimpanzees hunting in groups are more successful. Which evidence supports it?",
+   "Group hunts caught monkeys more often than solo hunts",
+   [
+    "Solo hunts caught monkeys more often than group hunts",
+    "Chimpanzees used sticks more often in the dry season",
+    "Chimpanzees slept in trees more often than on the ground"
+   ],
+   "A higher success rate for group hunts directly supports the claim."
+  ],
+  [
+   "Claim: Pronghorn in groups detect predators sooner. Which evidence supports it?",
+   "Larger groups started running from coyotes at greater distances",
+   [
+    "Larger groups started running from coyotes at shorter distances",
+    "Larger groups ate more sagebrush in winter than in summer",
+    "Larger groups had more young born in spring than in autumn"
+   ],
+   "Fleeing from farther away means they noticed the predator sooner."
+  ],
+  [
+   "Why is 'Fish have scales' NOT good evidence for the claim that schooling protects fish?",
+   "It does not connect schooling to survival",
+   [
+    "It is not true that most fish have scales",
+    "It is a fact, and facts cannot be evidence",
+    "It does not include a long scientific word"
+   ],
+   "Evidence must link the cause (schooling) to the effect (protection)."
+  ],
+  [
+   "Claim: Wild dogs share food with pups and sick members. Which evidence supports this?",
+   "Pack members brought back meat to pups and injured adults",
+   [
+    "Pack members ate all their meat before returning to the den",
+    "Pack members ran farther on cool mornings than hot afternoons",
+    "Pack members had larger ears than dogs living in other areas"
+   ],
+   "Observed food sharing directly supports the claim."
+  ],
+  [
+   "Claim: Bigger groups of birds find food faster. Which evidence supports it?",
+   "Flocks of 20 found feeders sooner than flocks of 2",
+   [
+    "Flocks of 2 found feeders sooner than flocks of 20",
+    "Flocks of 20 sang more often than flocks of 2",
+    "Flocks of 20 flew higher than flocks of 2"
+   ],
+   "Shorter search times for bigger flocks support the claim."
+  ],
+  [
+   "A student says, 'Wolves in packs survive better because they are social.' What is missing from this claim?",
+   "Data or observations to support it",
+   [
+    "The name of the wolves' main prey",
+    "A longer and more detailed sentence",
+    "A labelled drawing of a wolf pack"
+   ],
+   "A scientific claim needs evidence such as measurements or observations."
+  ],
+  [
+   "Claim: Large groups make it harder for animals to stay hidden. Which evidence supports this?",
+   "Predators spotted large flocks from farther away than small ones",
+   [
+    "Predators spotted small flocks from farther away than large ones",
+    "Large flocks raised more chicks than small flocks each year",
+    "Large flocks flew south earlier than small flocks each year"
+   ],
+   "Being seen from farther away shows large groups are less hidden."
+  ],
+  [
+   "Claim: Honeybee colonies defend their hive better than single bees could. Which evidence supports it?",
+   "Many guard bees together drove off wasps that killed lone bees",
+   [
+    "Lone bees drove off wasps more often than groups of guard bees",
+    "Honeybees made more honey in warm summers than in cool ones",
+    "Honeybees visited more flowers in the morning than at noon"
+   ],
+   "Group defence succeeding where lone bees failed supports the claim."
+  ],
+  [
+   "Which evidence would WEAKEN the claim that schooling protects fish?",
+   "Predators caught more fish per attack from schools than from lone fish",
+   [
+    "Predators caught fewer fish per attack from schools than from lone fish",
+    "Fish in schools lived longer than lone fish in the same area",
+    "Lone fish were eaten more often than fish in schools"
+   ],
+   "If schools lose more fish, the data go against the claim."
+  ],
+  [
+   "Claim: Older elephants help herds find water in droughts. Which evidence supports it?",
+   "Herds led by older females lost fewer calves during dry years",
+   [
+    "Herds led by older females lost more calves during dry years",
+    "Herds led by older females drank more water in wet years",
+    "Herds led by younger females walked faster in wet years"
+   ],
+   "Fewer calf deaths with older leaders supports the claim."
+  ],
+  [
+   "Claim: Fish in schools spend less time watching for danger and more time feeding. Which evidence supports it?",
+   "Fish in schools fed for longer each hour than fish alone",
+   [
+    "Fish alone fed for longer each hour than fish in schools",
+    "Fish in schools swam faster in warm water than cold water",
+    "Fish in schools laid more eggs in spring than in autumn"
+   ],
+   "More feeding time in schools links group living to the claimed benefit."
+  ]
+ ],
+ "sciXsKelp": [
+  [
+   "In a kelp forest, what role do sea otters play?",
+   "Keystone predator",
+   [
+    "Producer",
+    "Decomposer",
+    "Primary consumer"
+   ],
+   "Sea otters control urchins and so have a huge effect on the whole kelp ecosystem."
+  ],
+  [
+   "What role does kelp play in the ecosystem?",
+   "Producer",
+   [
+    "Primary consumer",
+    "Top predator",
+    "Decomposer"
+   ],
+   "Kelp is a large brown alga that makes food by photosynthesis."
+  ],
+  [
+   "What role do sea urchins play when they graze on kelp?",
+   "Primary consumer",
+   [
+    "Producer",
+    "Top predator",
+    "Decomposer"
+   ],
+   "Urchins eat kelp, a producer, so they are primary consumers."
+  ],
+  [
+   "Sea otters were hunted almost to extinction along BC's coast for their fur. What happened to kelp forests?",
+   "They shrank as urchins multiplied",
+   [
+    "They grew larger and thicker",
+    "They stayed exactly the same",
+    "They turned into coral reefs"
+   ],
+   "Without otters eating urchins, urchins grazed down the kelp."
+  ],
+  [
+   "Sea stars called sunflower stars also eat urchins. A disease killed millions of them. What effect did this have on kelp?",
+   "Kelp declined as urchins increased",
+   [
+    "Kelp increased as urchins declined",
+    "Kelp was not affected at all",
+    "Kelp began to eat urchins"
+   ],
+   "Losing another urchin predator let urchins overgraze the kelp."
+  ],
+  [
+   "Why do more species live in a kelp forest than in an urchin barren?",
+   "Kelp provides food, shelter and many layers of habitat",
+   [
+    "Urchin barrens have far too much food",
+    "Kelp forests are always much warmer",
+    "Kelp forests have no predators at all"
+   ],
+   "The three-dimensional kelp habitat supports many more species."
+  ],
+  [
+   "Which abiotic factor limits how deep kelp can grow?",
+   "Sunlight",
+   [
+    "Sea otters",
+    "Urchins",
+    "Fish"
+   ],
+   "Kelp needs light for photosynthesis, so it cannot grow where too little light reaches."
+  ],
+  [
+   "What does a kelp's holdfast do?",
+   "It anchors the kelp to rocks",
+   [
+    "It makes food from sunlight",
+    "It catches small fish to eat",
+    "It floats the kelp upward"
+   ],
+   "The root-like holdfast attaches kelp to the rocky sea floor."
+  ],
+  [
+   "What keeps the blades of bull kelp near the surface?",
+   "Gas-filled floats",
+   [
+    "Strong roots in sand",
+    "Fish holding them up",
+    "Ice on the surface"
+   ],
+   "A gas-filled float (pneumatocyst) lifts the blades toward sunlight."
+  ],
+  [
+   "Why do kelp forests grow mainly on rocky coasts rather than sandy ones?",
+   "Holdfasts need a hard surface to grip",
+   [
+    "Sand is far too warm for kelp",
+    "Rocks give kelp all its food",
+    "Otters live only on sandy coasts"
+   ],
+   "Kelp must anchor to rock; it cannot attach well to loose sand."
+  ],
+  [
+   "Which is a human activity that can harm kelp forest biodiversity?",
+   "Runoff of pollution and sediment",
+   [
+    "Protecting sea otter populations",
+    "Creating marine protected areas",
+    "Reducing urchin overgrazing"
+   ],
+   "Polluted, muddy runoff blocks light and harms kelp."
+  ],
+  [
+   "How can marine protected areas help kelp forests?",
+   "They protect predators that keep urchins in check",
+   [
+    "They let urchins grow without limits",
+    "They remove all the fish from the area",
+    "They stop sunlight reaching the kelp"
+   ],
+   "Protecting predators such as otters and fish helps keep urchin numbers balanced."
+  ],
+  [
+   "Kelp forests absorb carbon dioxide as they grow. Why does this matter?",
+   "They help store carbon from the atmosphere",
+   [
+    "They add carbon dioxide to the air",
+    "They stop the oceans from having tides",
+    "They make the water much saltier"
+   ],
+   "Like forests on land, kelp takes in carbon dioxide during photosynthesis."
+  ],
+  [
+   "An urchin barren is …",
+   "an area where urchins have eaten most of the kelp",
+   [
+    "an area where kelp has grown extra tall",
+    "a reef where urchins cannot survive at all",
+    "a sandy beach where otters raise their pups"
+   ],
+   "Overgrazing by urchins leaves bare rock with little kelp, called an urchin barren."
+  ],
+  [
+   "Which group of animals depend on kelp forests as nurseries for their young?",
+   "Many species of fish",
+   [
+    "Polar bears on sea ice",
+    "Desert lizards",
+    "Mountain goats"
+   ],
+   "Young fish hide among kelp from predators while they grow."
+  ],
+  [
+   "What would likely happen to biodiversity if a kelp forest became an urchin barren?",
+   "It would decrease",
+   [
+    "It would increase",
+    "It would stay the same",
+    "It would double"
+   ],
+   "Losing kelp removes habitat and food, so fewer species can live there."
+  ],
+  [
+   "Sea otters were reintroduced to Vancouver Island. Which statement describes the result?",
+   "Urchin numbers fell and kelp regrew",
+   [
+    "Urchin numbers rose and kelp vanished",
+    "Kelp and urchins both disappeared",
+    "Otters ate the kelp directly"
+   ],
+   "Returning otters ate urchins, allowing kelp forests to recover."
+  ],
+  [
+   "When sea otters return, some fisheries for urchins and crabs decline. What does this show?",
+   "Ecosystem changes can affect people in many ways",
+   [
+    "Otters do not eat any shellfish at all",
+    "Kelp forests are never important to people",
+    "Fisheries do not depend on ecosystems"
+   ],
+   "Otter recovery helps kelp but reduces shellfish catches, showing trade-offs for people."
+  ],
+  [
+   "Kelp grows best in water that is …",
+   "cool and rich in nutrients",
+   [
+    "warm and low in nutrients",
+    "dark and very muddy",
+    "fresh and not salty"
+   ],
+   "Cool, nutrient-rich water supports fast kelp growth."
+  ],
+  [
+   "Upwelling brings deep, cold water to the surface. How does this help kelp?",
+   "It brings nutrients up to the kelp",
+   [
+    "It warms the water around the kelp",
+    "It removes all light from the water",
+    "It brings sea urchins up from deep water"
+   ],
+   "Deep water carries nutrients that kelp need to grow."
+  ],
+  [
+   "Which is an example of a food chain in a kelp forest?",
+   "kelp → sea urchin → sea otter",
+   [
+    "sea otter → sea urchin → kelp",
+    "sea urchin → kelp → sea otter",
+    "kelp → sea otter → sea urchin"
+   ],
+   "Energy flows from kelp to the urchins that eat it and then to otters."
+  ],
+  [
+   "Why is a kelp forest with many species more resilient than one with few species?",
+   "Other species can fill roles if one declines",
+   [
+    "Fewer species always means more stability",
+    "Species never interact in a kelp forest",
+    "Many species make the water too warm"
+   ],
+   "Higher biodiversity gives backup species that keep the ecosystem working."
+  ]
+ ],
+ "sciPHR": [
+  [
+   "Which process converts light energy into chemical energy?",
+   "Photosynthesis",
+   [
+    "Cellular respiration",
+    "Both",
+    "Neither"
+   ],
+   "Photosynthesis stores light energy in the chemical bonds of glucose."
+  ],
+  [
+   "Which process uses oxygen as a reactant?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Respiration uses oxygen to break down glucose."
+  ],
+  [
+   "Which process uses carbon dioxide as a reactant?",
+   "Photosynthesis",
+   [
+    "Cellular respiration",
+    "Both",
+    "Neither"
+   ],
+   "Plants take in carbon dioxide to build glucose."
+  ],
+  [
+   "Which process produces glucose?",
+   "Photosynthesis",
+   [
+    "Cellular respiration",
+    "Both",
+    "Neither"
+   ],
+   "Photosynthesis makes glucose from carbon dioxide and water."
+  ],
+  [
+   "Which process uses glucose as a reactant?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Respiration breaks down glucose to release energy."
+  ],
+  [
+   "Which process happens in animal cells?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Animal cells have mitochondria for respiration but no chloroplasts."
+  ],
+  [
+   "Which process happens in the cells of a mushroom?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Fungi cannot photosynthesize, but their cells carry out respiration."
+  ],
+  [
+   "Which process continues in plant cells at night?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Respiration happens all the time, while photosynthesis needs light."
+  ],
+  [
+   "Which process needs chlorophyll?",
+   "Photosynthesis",
+   [
+    "Cellular respiration",
+    "Both",
+    "Neither"
+   ],
+   "Chlorophyll absorbs the light energy that photosynthesis uses."
+  ],
+  [
+   "Which process has the equation 6CO<sub>2</sub> + 6H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>?",
+   "Photosynthesis",
+   [
+    "Cellular respiration",
+    "Both",
+    "Neither"
+   ],
+   "Carbon dioxide and water forming glucose and oxygen is photosynthesis."
+  ],
+  [
+   "Which process has the equation C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> → 6CO<sub>2</sub> + 6H<sub>2</sub>O + energy?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Glucose and oxygen forming carbon dioxide, water and energy is respiration."
+  ],
+  [
+   "Which process happens in the cells of the human brain?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Brain cells respire constantly to get energy, and human cells cannot photosynthesize."
+  ],
+  [
+   "Which process involves chemical reactions controlled by enzymes?",
+   "Both",
+   [
+    "Photosynthesis",
+    "Cellular respiration",
+    "Neither"
+   ],
+   "Both processes are a series of enzyme-controlled reactions."
+  ],
+  [
+   "Which process links amino acids together to build proteins?",
+   "Neither",
+   [
+    "Photosynthesis",
+    "Cellular respiration",
+    "Both"
+   ],
+   "Building proteins is translation at the ribosome, not photosynthesis or respiration."
+  ],
+  [
+   "Which process turns food into ATP that cells can use?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Respiration releases energy from glucose and stores it in ATP."
+  ],
+  [
+   "Which process removes carbon dioxide from the atmosphere?",
+   "Photosynthesis",
+   [
+    "Cellular respiration",
+    "Both",
+    "Neither"
+   ],
+   "Plants and algae take in carbon dioxide during photosynthesis."
+  ],
+  [
+   "Which process adds carbon dioxide to the atmosphere?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Living things release carbon dioxide as a waste product of respiration."
+  ],
+  [
+   "Which process happens in the leaves of a maple tree on a sunny day?",
+   "Both",
+   [
+    "Photosynthesis",
+    "Cellular respiration",
+    "Neither"
+   ],
+   "Leaf cells photosynthesize in light and respire all the time."
+  ],
+  [
+   "Which process happens in your muscle cells when you run?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Muscle cells respire to release energy for movement."
+  ],
+  [
+   "Which process happens inside the mitochondria of a plant root cell?",
+   "Cellular respiration",
+   [
+    "Photosynthesis",
+    "Both",
+    "Neither"
+   ],
+   "Mitochondria are where aerobic respiration takes place, even in plant roots."
+  ],
+  [
+   "Which process breaks down food in the stomach using acid?",
+   "Neither",
+   [
+    "Photosynthesis",
+    "Cellular respiration",
+    "Both"
+   ],
+   "Digestion breaks food into smaller molecules; it is not photosynthesis or respiration."
+  ],
+  [
+   "Which process is carried out by algae in a pond?",
+   "Both",
+   [
+    "Photosynthesis",
+    "Cellular respiration",
+    "Neither"
+   ],
+   "Algae photosynthesize using chloroplasts and also respire using mitochondria."
+  ]
+ ],
+ "sciDNA": [
+  [
+   "Which base pairs with cytosine (C) in DNA?",
+   "Guanine (G)",
+   [
+    "Thymine (T)",
+    "Adenine (A)",
+    "Uracil (U)"
+   ],
+   "Cytosine always pairs with guanine."
+  ],
+  [
+   "Which sugar is found in RNA?",
+   "Ribose",
+   [
+    "Deoxyribose",
+    "Glucose",
+    "Sucrose"
+   ],
+   "RNA stands for ribonucleic acid; its sugar is ribose."
+  ],
+  [
+   "Where does transcription happen in a eukaryotic cell?",
+   "In the nucleus",
+   [
+    "At the ribosome",
+    "In the vacuole",
+    "In the cell wall"
+   ],
+   "DNA stays in the nucleus, where it is transcribed into mRNA."
+  ],
+  [
+   "Where does translation happen?",
+   "At the ribosome",
+   [
+    "In the nucleus",
+    "In the vacuole",
+    "In the cell wall"
+   ],
+   "Ribosomes read mRNA and build proteins."
+  ],
+  [
+   "Which molecule carries amino acids to the ribosome?",
+   "Transfer RNA (tRNA)",
+   [
+    "Messenger RNA (mRNA)",
+    "Ribosomal RNA (rRNA)",
+    "Double-stranded DNA"
+   ],
+   "Each tRNA brings one specific amino acid to the ribosome."
+  ],
+  [
+   "Proteins are long chains of …",
+   "amino acids",
+   [
+    "nucleotides",
+    "fatty acids",
+    "simple sugars"
+   ],
+   "Amino acids are linked together to build proteins."
+  ],
+  [
+   "A DNA template strand reads TAC GGA. What is the mRNA?",
+   "AUG CCU",
+   [
+    "ATG CCT",
+    "TAC GGA",
+    "UAC GGA"
+   ],
+   "In RNA, A pairs with U, T with A, C with G and G with C."
+  ],
+  [
+   "A DNA template strand reads CAT TTG. What is the mRNA?",
+   "GUA AAC",
+   [
+    "GTA AAC",
+    "CAU UUG",
+    "CAT TTG"
+   ],
+   "Each DNA base is paired with its RNA partner, with uracil replacing thymine."
+  ],
+  [
+   "Which enzyme builds mRNA during transcription?",
+   "RNA polymerase",
+   [
+    "DNA ligase",
+    "Helicase",
+    "Amylase"
+   ],
+   "RNA polymerase reads the DNA and links RNA nucleotides together."
+  ],
+  [
+   "What is the codon that signals the start of translation?",
+   "AUG",
+   [
+    "UAA",
+    "UGA",
+    "UAG"
+   ],
+   "AUG is the start codon and also codes for methionine."
+  ],
+  [
+   "What happens when a ribosome reaches a stop codon?",
+   "Translation ends and the protein is released",
+   [
+    "The mRNA is copied into new DNA",
+    "Another start codon is added",
+    "The ribosome makes a new amino acid"
+   ],
+   "Stop codons signal the end of the protein chain."
+  ],
+  [
+   "What is the correct order of protein synthesis?",
+   "DNA → mRNA → protein",
+   [
+    "Protein → mRNA → DNA",
+    "mRNA → DNA → protein",
+    "DNA → protein → mRNA"
+   ],
+   "Genes are transcribed into mRNA, which is translated into protein."
+  ],
+  [
+   "How many bases make up one codon?",
+   "Three",
+   [
+    "Two",
+    "Four",
+    "Six"
+   ],
+   "A codon is a group of three bases."
+  ],
+  [
+   "Which bond joins amino acids together in a protein?",
+   "Peptide bond",
+   [
+    "Hydrogen bond",
+    "Ionic bond",
+    "Metallic bond"
+   ],
+   "Ribosomes link amino acids with peptide bonds."
+  ],
+  [
+   "The three-base sequence on tRNA that matches a codon is the …",
+   "anticodon",
+   [
+    "promoter",
+    "centromere",
+    "nucleotide"
+   ],
+   "The tRNA anticodon pairs with the complementary mRNA codon."
+  ],
+  [
+   "Why can't DNA leave the nucleus to make proteins directly?",
+   "DNA is too large and is kept safe in the nucleus",
+   [
+    "DNA is made of amino acids already",
+    "DNA is found only in the ribosomes",
+    "DNA cannot carry any information"
+   ],
+   "DNA stays protected in the nucleus while mRNA copies carry its message out."
+  ],
+  [
+   "What is the mRNA codon that pairs with the tRNA anticodon UCA?",
+   "AGU",
+   [
+    "UCA",
+    "TGA",
+    "ACU"
+   ],
+   "U pairs with A, C with G and A with U, so UCA pairs with AGU."
+  ],
+  [
+   "A mutation changes the DNA base sequence of a gene. What may happen to the protein?",
+   "Its amino acid sequence may change",
+   [
+    "It will always stay the same",
+    "It will turn into a sugar",
+    "It will become a nucleotide"
+   ],
+   "Changing bases can change codons and so change the amino acids in the protein."
+  ],
+  [
+   "Which nitrogen bases are found in RNA?",
+   "A, U, G and C",
+   [
+    "A, T, G and C",
+    "A, T, U and G",
+    "T, U, G and C"
+   ],
+   "RNA has adenine, uracil, guanine and cytosine."
+  ],
+  [
+   "What is a gene?",
+   "A section of DNA that codes for a protein",
+   [
+    "A chain of amino acids in a cell",
+    "A ribosome that reads RNA",
+    "A sugar that stores energy"
+   ],
+   "A gene is a stretch of DNA with the instructions for a protein."
+  ],
+  [
+   "Which molecule is single-stranded and contains uracil?",
+   "mRNA",
+   [
+    "DNA",
+    "Glucose",
+    "Starch"
+   ],
+   "RNA molecules such as mRNA are single strands that use uracil."
+  ],
+  [
+   "An mRNA has 30 bases, all coding for amino acids. How many amino acids are in the protein?",
+   "10",
+   [
+    "30",
+    "90",
+    "15"
+   ],
+   "Each three-base codon codes for one amino acid: 30 ÷ 3 = 10."
   ]
  ]
 }
