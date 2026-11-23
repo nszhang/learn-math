@@ -28,3 +28,26 @@ test('extra question banks: keys match skills and questions are well formed', as
   assert.ok(used > 0, 'extra banks were exercised');
   assert.deepEqual([...problems], []);
 });
+
+// Multiple-choice giveaways: the right answer must not stand out from every wrong answer by length,
+// or by being the only option with a (bracketed) note. A few borderline items are tolerated per bank.
+test('extra question banks: right answers do not give themselves away', () => {
+  const dir = new URL('../../client/public/more/', import.meta.url);
+  const len = s => String(s).replace(/<[^>]+>/g, '').length;
+  const bad = [];
+  for (const f of ['english.json', 'science.json']) {
+    const file = new URL(f, dir); if (!fs.existsSync(file)) continue;
+    for (const [key, qs] of Object.entries(JSON.parse(fs.readFileSync(file)))) {
+      let byLength = 0, byNote = 0;
+      for (const [, a, wrong] of qs) {
+        if (wrong.length === 3) {
+          const lo = Math.min(...wrong.map(len)), hi = Math.max(...wrong.map(len)), n = len(a);
+          if ((n * 1.8 < lo && lo - n > 8) || (n > 1.8 * hi && n - hi > 12)) byLength++;
+        }
+        if (/\s\([^)]+\)$/.test(String(a)) && !wrong.some(w => /\([^)]+\)/.test(String(w)))) byNote++;
+      }
+      if (byLength >= 3 || byNote) bad.push(`${key}: ${byLength} by length, ${byNote} by note`);
+    }
+  }
+  assert.deepEqual(bad, []);
+});
