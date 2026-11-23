@@ -10,19 +10,17 @@ Work stopped when the session usage limit was hit. Everything needed to continue
 - `check.py`: the quality gate. Run `python3 check.py work/bank_NN.json <more file>`, and only publish a batch that shows 0 problems and 0 banks missing.
 - `work/variety.mjs` → `variety.json`, `work/banks.mjs` → `banks.json`, `work/export.mjs` → `bank_NN.json`: the audit that picked these banks (skills with fewer than 12 distinct questions in 40 tries). **Re-running export.mjs overwrites the bank files.**
 
-## Status
+## Status (updated 2026-11-22)
 
-| Batch | State | To do |
-|---|---|---|
-| 00–07 | published, giveaway-clean | — |
-| 08–21 | published, but some banks have **answer-length giveaways** (the right answer is much longer or shorter than the wrong ones) | Run the fix prompt below on `out/more_08..21.json`. `check.py` lists the banks. |
-| 22 | written, 9 banks with giveaways | Fix it, then move it to `out/` and publish. |
-| 23 | published, clean | — |
-| 24 | written, 13 banks with giveaways (22 problems) | Fix it, then publish. |
-| 25 | 10 of 25 banks written | Finish it with the write prompt; it keeps what's there. |
-| 26–31 | not started (all science) | Use the write prompt. |
+| Batch | State |
+|---|---|
+| 00–24 | published; all pass check.py (no giveaways). `server/test/extra-banks.test.js` now enforces it |
+| 25 | in progress, 10 of 25 banks done (`work/more_25.json`) |
+| 26–28 | in progress (`work/more_NN.json`) |
+| 29–31 | not started (all science). Use the write prompt |
 
-Live totals at pause: 12,651 extra questions (English 407 banks / 8,955 questions; science 168 banks / 3,696 questions).
+Live: 13,751 extra questions (English 407 banks / 8,955; science 218 banks / 4,796).
+check.py also rejects a right answer that alone carries a bracketed note, e.g. "slate (metamorphic)".
 
 ## How to run (at most 4 agents at a time, since 20 at once hit the usage limit)
 
@@ -38,6 +36,6 @@ Live totals at pause: 12,651 extra questions (English 407 banks / 8,955 question
 > For every bank that `check.py` flags as "much longer or shorter than all the wrong answers", rewrite the questions so the four options are similar in length, detail and form. Usually this means turning the wrong answers into tempting, specific options that are still clearly wrong: too narrow (a detail, not the main idea), too broad, partly true, contradicting the text, true but irrelevant, or an opinion instead of evidence. Don't change what is tested or which option is right. Edit only the flagged banks, and save after each file.
 
 ## Remaining after the banks (IXL parity)
-- About 332 low-variety **math** skills (`mth:` banks; generators such as skip-counting or coin values give only about 5 distinct questions). Improve the generators or add banks.
+- About 416 low-variety **math** skills (down from 476; list them with `node work/mathlow.mjs`: skills giving < 12 distinct questions in 60 tries, grouped by rule) (`mth:` banks; generators such as skip-counting or coin values give only about 5 distinct questions). Improve the generators or add banks.
 - About 25 audio/picture banks that were skipped by the export.
 - **Skill plans** (mapping skills to provincial curriculum outcomes). IXL loads the outcome lists by script, so the mapping has to come from the curriculum documents themselves.
