@@ -110,7 +110,7 @@ export const GEO6_RULES = [
     const n = pick([3, 4, 5, 6, 8, 9, 10, 12]); return num(`What is the measure of one exterior angle of a regular polygon with ${b(n)} sides? (degrees)`, 360 / n, `360 ÷ ${n} = ${b(360 / n)}°.`);
   }),
   R(/^Central angles of circles$|^Central angles and arc measures$|^Circle graphs and central angles$/, (mt, ctx) => () => {
-    const p = pick([10, 20, 25, 30, 40, 50]), deg = (p * 360) / 100;
+    const p = ri(1, 19) * 5, deg = (p * 360) / 100;
     return /graphs/.test(ctx.title) ? num(`In a circle graph, a category is ${b(p + '%')} of the data. What is the central angle of its sector? (degrees)`, deg, `${p}% of 360° = ${b(deg)}°.`) : mc(`A central angle measures ${b(deg + '°')}. What is the measure of its intercepted arc?`, deg + '°', [(360 - deg) + '°', (deg / 2) + '°', (deg * 2) + '°'].filter(v_ => v_ !== deg + '°'), `The arc measure equals the central angle: ${b(deg + '°')}.`, 4);
   }),
   R(/^Classify quadrilaterals I{1,2}$/, () => () => {

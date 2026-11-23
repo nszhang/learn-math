@@ -166,6 +166,7 @@ export const NUMSYS_RULES = [
   R(/^Integer multiplication rules$|^Integer division rules$|^Integer multiplication and division rules$|^Apply multiplication and division rules$/, (mt, ctx) => () => {
     const a = nz(-9, 9), c = nz(-9, 9), div = /division/.test(ctx.title) && !/multiplication and/.test(ctx.title) || (/and division|Apply/.test(ctx.title) && Math.random() < 0.5);
     const sa = a < 0 ? 'negative' : 'positive', sc = c < 0 ? 'negative' : 'positive', res = (a < 0) === (c < 0) ? 'positive' : 'negative';
+    if (Math.random() < 0.6) { const x = nz(-12, 12), y = nz(-9, 9), top = div ? x * y : x, e = `${S(top)} ${div ? '÷' : '×'} ${P(y)}`; return mc(`Without calculating, is ${m(e)} positive or negative?`, top * y > 0 ? 'positive' : 'negative', [top * y > 0 ? 'negative' : 'positive'], `${(top < 0) === (y < 0) ? 'Same' : 'Different'} signs give a ${b(top * y > 0 ? 'positive' : 'negative')} result.`, 2); }
     return mc(`What is the sign of ${b(`a ${sa} ${div ? 'divided by' : 'times'} a ${sc}`)}?`, res, [res === 'positive' ? 'negative' : 'positive'], `Same signs give a positive; different signs give a negative: ${b(res)}.`, 2);
   }),
   R(/^Multiply integers$|^Divide integers$|^Multiply and divide integers$|^Equal quotients of integers$|^Complete multiplication and division sentences with integers$/, (mt, ctx) => () => {
