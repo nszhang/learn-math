@@ -25,7 +25,7 @@ const TRIS = {
   'obtuse scalene': { pts: [[10, 105], [90, 105], [140, 40]], sides: 'scalene', angles: 'obtuse', ticks: [] }
 };
 function triSvg(key, { showTicks = true } = {}) {
-  const t = TRIS[key], p = t.pts; let inner = poly(p, '#c7d2fe');
+  const t = TRIS[key], p = fitShape(t.pts); let inner = poly(p, "#c7d2fe");
   if (showTicks && t.ticks.length) for (const i of t.ticks) { const a = p[i], c = p[(i + 1) % 3], mx = (a[0] + c[0]) / 2, my = (a[1] + c[1]) / 2, dx = c[0] - a[0], dy = c[1] - a[1], L = Math.hypot(dx, dy), nx = -dy / L * 6, ny = dx / L * 6; inner += `<line x1="${mx - nx}" y1="${my - ny}" x2="${mx + nx}" y2="${my + ny}" stroke="${C.red}" stroke-width="3"/>`; }
   if (t.right !== undefined) { const v = p[t.right], a = p[(t.right + 1) % 3], c = p[(t.right + 2) % 3], u = [(a[0] - v[0]), (a[1] - v[1])], w2 = [(c[0] - v[0]), (c[1] - v[1])], lu = Math.hypot(...u), lw = Math.hypot(...w2), s = 14; inner += `<polyline points="${v[0] + u[0] / lu * s},${v[1] + u[1] / lu * s} ${v[0] + u[0] / lu * s + w2[0] / lw * s},${v[1] + u[1] / lu * s + w2[1] / lw * s} ${v[0] + w2[0] / lw * s},${v[1] + w2[1] / lw * s}" fill="none" stroke="${C.red}" stroke-width="2"/>`; }
   return g(inner, 160, 115);
@@ -41,7 +41,26 @@ const QUADS = {
   kite: { pts: [[80, 5], [125, 40], [80, 108], [35, 40]], names: ['kite', 'quadrilateral'], parallel: 0 },
   'irregular quadrilateral': { pts: [[20, 30], [130, 15], [145, 92], [45, 100]], names: ['quadrilateral'], parallel: 0 }
 };
-const quadSvg = k => g(poly(QUADS[k].pts), 160, 115);
+// Every drawing is fresh: random proportions for the kind (aspect, slant, top length …), then a random
+// rotation, optional mirror and size, fitted to the frame. Similarity transforms never change the
+// kind of shape, and seeing shapes turned stops students relying on how they usually sit.
+const rr = (lo, hi) => lo + Math.random() * (hi - lo);
+const QUAD_MAKE = {
+  square: () => [[0, 0], [1, 0], [1, 1], [0, 1]],
+  rectangle: () => { const h = rr(0.38, 0.68); return [[0, 0], [1, 0], [1, h], [0, h]]; },
+  rhombus: () => { const h = rr(0.48, 0.68); return [[0, -h], [1, 0], [0, h], [-1, 0]]; },
+  parallelogram: () => { const sl = rr(0.22, 0.48), h = rr(0.42, 0.7); return [[sl, 0], [sl + 1, 0], [1, h], [0, h]]; },
+  trapezoid: () => { const t = rr(0.35, 0.72), a = rr(0.06, 1 - t - 0.06), h = rr(0.42, 0.7); return [[a, 0], [a + t, 0], [1, h], [0, h]]; },
+  kite: () => { const top = rr(0.28, 0.5), bot = rr(0.85, 1.15), w = rr(0.36, 0.55); return [[0, -top], [w, 0], [0, bot], [-w, 0]]; }
+};
+export function fitShape(pts, { W = 160, H = 115, pad = 9, turn = true } = {}) {
+  const th = turn ? (pick([0, 0, 0, 0, 12, -12, 90, 180]) * Math.PI) / 180 : 0, flip = turn && Math.random() < 0.3 ? -1 : 1;
+  const q = pts.map(([x, y]) => [flip * x * Math.cos(th) - y * Math.sin(th), flip * x * Math.sin(th) + y * Math.cos(th)]);
+  const xs = q.map(p => p[0]), ys = q.map(p => p[1]), w = Math.max(...xs) - Math.min(...xs), h = Math.max(...ys) - Math.min(...ys);
+  const k = Math.min((W - 2 * pad) / w, (H - 2 * pad) / h) * rr(0.78, 1), ox = (W - w * k) / 2 - Math.min(...xs) * k, oy = (H - h * k) / 2 - Math.min(...ys) * k;
+  return q.map(([x, y]) => [Math.round((x * k + ox) * 10) / 10, Math.round((y * k + oy) * 10) / 10]);
+}
+const quadSvg = k => g(poly(fitShape(QUAD_MAKE[k] ? QUAD_MAKE[k]() : QUADS[k].pts)), 160, 115);
 const ALL_QUAD_NAMES = ['square', 'rectangle', 'rhombus', 'parallelogram', 'trapezoid', 'kite', 'quadrilateral'];
 
 /* ---------- angles & lines ---------- */
