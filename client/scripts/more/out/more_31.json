@@ -546,7 +546,7 @@
   ],
   [
    "A modern addition to cell theory states that cells contain …",
-   "hereditary information (DNA)",
+   "hereditary information in DNA",
    [
     "no water at all",
     "only one type of protein",
@@ -2344,7 +2344,7 @@
    "Which material is a good electrical insulator?",
    "Plastic",
    [
-    "Aluminium",
+    "Aluminum",
     "Silver",
     "Iron"
    ],
@@ -2883,6 +2883,672 @@
     "100%"
    ],
    "Every offspring is Aa, so none show the recessive trait."
+  ]
+ ],
+ "sciGHG": [
+  [
+   "Which gas makes up most of Earth's atmosphere?",
+   "Nitrogen",
+   [
+    "Oxygen",
+    "Carbon dioxide",
+    "Argon"
+   ],
+   "Nitrogen makes up about 78% of the air."
+  ],
+  [
+   "Which greenhouse gas is the most abundant in the atmosphere?",
+   "Water vapour",
+   [
+    "Methane",
+    "Nitrous oxide",
+    "Ozone"
+   ],
+   "Water vapour is the most plentiful greenhouse gas, though its amount depends on temperature."
+  ],
+  [
+   "Which greenhouse gas is released mainly by nitrogen fertilizers?",
+   "Nitrous oxide",
+   [
+    "Methane",
+    "Ozone",
+    "Water vapour"
+   ],
+   "Bacteria in fertilized soils release nitrous oxide (N₂O)."
+  ],
+  [
+   "Greenhouse gases warm Earth by absorbing …",
+   "infrared radiation",
+   [
+    "ultraviolet radiation",
+    "radio waves",
+    "X-rays"
+   ],
+   "Earth's surface gives off infrared (heat) radiation, which greenhouse gases absorb and re-emit."
+  ],
+  [
+   "Without any natural greenhouse effect, Earth's average temperature would be …",
+   "far below freezing",
+   [
+    "about the same as today",
+    "much hotter than today",
+    "close to boiling"
+   ],
+   "Without greenhouse gases Earth would average about −18 °C instead of about 15 °C."
+  ],
+  [
+   "The enhanced greenhouse effect is caused mainly by …",
+   "human-made greenhouse gases",
+   [
+    "changes in the Moon's orbit",
+    "more ozone near the poles",
+    "fewer volcanoes erupting"
+   ],
+   "Burning fuels and other human activities have raised greenhouse gas levels, trapping extra heat."
+  ],
+  [
+   "Which gas is a stronger greenhouse gas per molecule than carbon dioxide?",
+   "Methane",
+   [
+    "Nitrogen",
+    "Oxygen",
+    "Argon"
+   ],
+   "Methane traps much more heat per molecule than CO₂, though it stays in the air for less time."
+  ],
+  [
+   "Which layer of the atmosphere contains the ozone layer?",
+   "The stratosphere",
+   [
+    "The troposphere",
+    "The mesosphere",
+    "The thermosphere"
+   ],
+   "Most ozone is found in the stratosphere, about 15 to 35 km above the ground."
+  ],
+  [
+   "The international agreement that phased out CFCs is the …",
+   "Montreal Protocol",
+   [
+    "Kyoto Protocol",
+    "Paris Agreement",
+    "Geneva Convention"
+   ],
+   "The Montreal Protocol (1987) phased out ozone-depleting chemicals like CFCs."
+  ],
+  [
+   "The 2015 agreement to limit global warming to well below 2 °C is the …",
+   "Paris Agreement",
+   [
+    "Montreal Protocol",
+    "Treaty of Versailles",
+    "Geneva Convention"
+   ],
+   "Nearly all countries agreed in Paris to cut emissions and limit warming."
+  ],
+  [
+   "Thawing permafrost in northern Canada can speed up warming because it releases …",
+   "methane and carbon dioxide",
+   [
+    "oxygen and nitrogen",
+    "helium and argon",
+    "ozone and hydrogen"
+   ],
+   "Thawing soils let frozen plant matter decay, releasing greenhouse gases."
+  ],
+  [
+   "Melting sea ice speeds up warming in the Arctic because …",
+   "dark water absorbs more sunlight",
+   [
+    "ice gives off heat",
+    "water reflects more sunlight",
+    "ice makes ozone"
+   ],
+   "Ice reflects sunlight, but darker open water absorbs it, causing more warming (a positive feedback)."
+  ],
+  [
+   "How much of the Sun's energy a surface reflects is called its …",
+   "albedo",
+   [
+    "humidity",
+    "salinity",
+    "conductivity"
+   ],
+   "Albedo measures reflectivity; fresh snow has a high albedo."
+  ],
+  [
+   "What is the difference between weather and climate?",
+   "Climate is the long-term average pattern",
+   [
+    "Climate changes every hour",
+    "Weather lasts for centuries",
+    "They mean exactly the same thing"
+   ],
+   "Weather is day-to-day conditions, while climate is the average over about 30 years or more."
+  ],
+  [
+   "Scientists learn about past climates and CO₂ levels from …",
+   "air bubbles in ice cores",
+   [
+    "today's weather reports",
+    "satellite phone signals",
+    "city traffic counts"
+   ],
+   "Ice cores trap ancient air, recording past greenhouse gas levels."
+  ],
+  [
+   "Which gas is released by burning fossil fuels and helps cause acid rain?",
+   "Nitrogen oxides",
+   [
+    "Helium",
+    "Argon",
+    "Oxygen"
+   ],
+   "Nitrogen oxides from engines and power plants form nitric acid in the air."
+  ],
+  [
+   "Ozone near the ground, in smog, is …",
+   "harmful to breathe",
+   [
+    "needed to stop UV rays",
+    "a harmless gas",
+    "the main gas in air"
+   ],
+   "Ground-level ozone irritates the lungs and is a major part of smog."
+  ],
+  [
+   "Which action reduces greenhouse gas emissions?",
+   "Taking public transit instead of driving",
+   [
+    "Leaving lights on all day",
+    "Burning more coal",
+    "Clearing forests for farmland"
+   ],
+   "Public transit burns less fuel per person than driving alone."
+  ],
+  [
+   "What is a carbon footprint?",
+   "The greenhouse gases a person or activity produces",
+   [
+    "The mark a shoe leaves in coal",
+    "The amount of carbon in soil",
+    "The number of trees on a farm"
+   ],
+   "A carbon footprint measures total greenhouse gas emissions, often in tonnes of CO₂."
+  ],
+  [
+   "Which is a likely effect of global warming in Canada?",
+   "Shorter ice seasons on lakes",
+   [
+    "Longer winters everywhere",
+    "Thicker Arctic sea ice",
+    "Fewer forest fires"
+   ],
+   "Warmer temperatures mean lakes freeze later and thaw earlier."
+  ],
+  [
+   "Coral reefs are bleaching because oceans are becoming …",
+   "warmer",
+   [
+    "colder",
+    "less salty",
+    "shallower"
+   ],
+   "Warm water stresses corals, causing them to expel the algae that feed them."
+  ],
+  [
+   "Increased UV radiation reaching the ground from ozone thinning can cause …",
+   "skin cancer",
+   [
+    "acid rain",
+    "earthquakes",
+    "tooth decay"
+   ],
+   "UV rays damage skin cell DNA and increase skin cancer risk."
+  ]
+ ],
+ "sciENV": [
+  [
+   "Which energy source is renewable?",
+   "Tidal power",
+   [
+    "Coal",
+    "Natural gas",
+    "Oil"
+   ],
+   "Tides are driven by the Moon and Sun and will not run out."
+  ],
+  [
+   "Which energy source is nonrenewable?",
+   "Propane",
+   [
+    "Wind power",
+    "Solar power",
+    "Geothermal energy"
+   ],
+   "Propane comes from fossil fuels, which take millions of years to form."
+  ],
+  [
+   "Why are fossil fuels called nonrenewable?",
+   "They form far slower than we use them",
+   [
+    "They come from the Sun",
+    "They never run out",
+    "They are made in factories"
+   ],
+   "Fossil fuels take millions of years to form, so they cannot be replaced on a human timescale."
+  ],
+  [
+   "Which renewable source provides most of the electricity in provinces like Quebec and British Columbia?",
+   "Hydroelectricity",
+   [
+    "Solar power",
+    "Tidal power",
+    "Geothermal energy"
+   ],
+   "Quebec and B.C. generate most of their electricity from dams on large rivers."
+  ],
+  [
+   "Which energy source produces radioactive waste?",
+   "Nuclear fission",
+   [
+    "Wind power",
+    "Solar power",
+    "Hydroelectricity"
+   ],
+   "Fission of uranium leaves used fuel that stays radioactive for thousands of years."
+  ],
+  [
+   "Oil extracted from the oil sands of northern Alberta is called …",
+   "bitumen",
+   [
+    "uranium",
+    "peat",
+    "biogas"
+   ],
+   "The oil sands contain bitumen, a thick, heavy form of oil."
+  ],
+  [
+   "A drawback of wind power is that …",
+   "it varies with the weather",
+   [
+    "it releases lots of CO₂",
+    "it produces radioactive waste",
+    "it will run out soon"
+   ],
+   "Turbines make electricity only when the wind blows strongly enough."
+  ],
+  [
+   "A drawback of solar power is that …",
+   "it produces little at night",
+   [
+    "it releases sulphur dioxide",
+    "it causes oil spills",
+    "it uses up coal"
+   ],
+   "Solar panels need sunlight, so output drops at night and on cloudy days."
+  ],
+  [
+   "Which environmental problem is linked to large hydroelectric dams?",
+   "Flooding of land and habitats",
+   [
+    "Oil spills on beaches",
+    "Radioactive waste storage",
+    "Smog from smokestacks"
+   ],
+   "Dams create reservoirs that flood forests and change river ecosystems."
+  ],
+  [
+   "Which energy source uses heat from deep inside Earth?",
+   "Geothermal energy",
+   [
+    "Tidal power",
+    "Biomass",
+    "Wind power"
+   ],
+   "Geothermal energy taps heat from Earth's interior."
+  ],
+  [
+   "Burning coal releases sulphur dioxide, which causes …",
+   "acid rain",
+   [
+    "ozone formation",
+    "earthquakes",
+    "tides"
+   ],
+   "Sulphur dioxide forms sulphuric acid in clouds, which falls as acid rain."
+  ],
+  [
+   "What does it mean for energy use to be sustainable?",
+   "It meets needs without harming the future",
+   [
+    "It uses up resources quickly",
+    "It always uses fossil fuels",
+    "It only works in summer"
+   ],
+   "Sustainable use meets today's needs without reducing what future generations can use."
+  ],
+  [
+   "Which action best conserves energy at home?",
+   "Adding insulation to the attic",
+   [
+    "Leaving windows open in winter",
+    "Using incandescent bulbs",
+    "Running a half-empty dishwasher"
+   ],
+   "Insulation reduces heat loss, so less energy is needed for heating."
+  ],
+  [
+   "LED bulbs save energy compared with incandescent bulbs because they …",
+   "waste less energy as heat",
+   [
+    "give off more heat",
+    "use more electricity",
+    "contain more mercury"
+   ],
+   "LEDs convert more electrical energy into light rather than heat."
+  ],
+  [
+   "Ethanol made from corn, used as fuel, is an example of …",
+   "biofuel",
+   [
+    "fossil fuel",
+    "nuclear fuel",
+    "geothermal fuel"
+   ],
+   "Biofuels are made from recently living plant material."
+  ],
+  [
+   "Which is the main greenhouse gas produced by burning gasoline?",
+   "Carbon dioxide",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Helium"
+   ],
+   "Burning carbon-based fuels produces carbon dioxide."
+  ],
+  [
+   "Efficiency compares useful energy output with …",
+   "total energy input",
+   [
+    "the mass of the fuel",
+    "the device's size",
+    "the time of day"
+   ],
+   "Efficiency = useful energy out ÷ total energy in × 100%."
+  ],
+  [
+   "A furnace uses 100 J of fuel energy and delivers 90 J of heat to a home. Its efficiency is …",
+   "90%",
+   [
+    "10%",
+    "100%",
+    "190%"
+   ],
+   "Efficiency = 90 ÷ 100 × 100% = 90%."
+  ],
+  [
+   "Electric vehicles reduce emissions most when the electricity comes from …",
+   "renewable sources",
+   [
+    "coal power plants",
+    "diesel generators",
+    "oil-fired plants"
+   ],
+   "Clean electricity means little CO₂ is released while charging."
+  ],
+  [
+   "Which practice reduces waste going to landfills?",
+   "Composting food scraps",
+   [
+    "Buying single-use plastics",
+    "Throwing out old electronics",
+    "Burning leaves in the yard"
+   ],
+   "Composting turns food waste into soil instead of landfill garbage."
+  ],
+  [
+   "Which is a renewable resource besides energy?",
+   "Forests managed by replanting",
+   [
+    "Iron ore",
+    "Diamonds",
+    "Natural gas"
+   ],
+   "Trees can regrow if forests are harvested and replanted sustainably."
+  ],
+  [
+   "Mining and refining uranium is needed for which energy source?",
+   "Nuclear power",
+   [
+    "Wind power",
+    "Hydroelectric power",
+    "Solar heating"
+   ],
+   "Nuclear reactors use uranium fuel, much of it mined in Saskatchewan."
+  ]
+ ],
+ "sciSTR": [
+  [
+   "What is the closest star to Earth?",
+   "The Sun",
+   [
+    "Proxima Centauri",
+    "Sirius",
+    "Polaris"
+   ],
+   "The Sun is a star, only about 150 million km away."
+  ],
+  [
+   "A star spends most of its life on the …",
+   "main sequence",
+   [
+    "red giant branch",
+    "white dwarf stage",
+    "black hole stage"
+   ],
+   "Stars fuse hydrogen into helium for most of their lives on the main sequence."
+  ],
+  [
+   "Main-sequence stars fuse hydrogen into …",
+   "helium",
+   [
+    "carbon",
+    "iron",
+    "uranium"
+   ],
+   "In their cores, main-sequence stars fuse hydrogen nuclei into helium."
+  ],
+  [
+   "Stars form in huge clouds of gas and dust called …",
+   "nebulae",
+   [
+    "comets",
+    "asteroids",
+    "quasars"
+   ],
+   "Gravity pulls gas and dust in a nebula together to form new stars."
+  ],
+  [
+   "Which colour of star has the hottest surface?",
+   "Blue",
+   [
+    "Red",
+    "Orange",
+    "Yellow"
+   ],
+   "Blue stars are the hottest, while red stars are the coolest."
+  ],
+  [
+   "Which colour of star has the coolest surface?",
+   "Red",
+   [
+    "Blue",
+    "White",
+    "Yellow"
+   ],
+   "Red stars have the lowest surface temperatures."
+  ],
+  [
+   "The graph that plots stars by brightness and temperature is the …",
+   "Hertzsprung–Russell diagram",
+   [
+    "Punnett square",
+    "Periodic table",
+    "Richter scale"
+   ],
+   "The H–R diagram groups stars into the main sequence, giants and white dwarfs."
+  ],
+  [
+   "The very dense core left after some supernovas, made mostly of neutrons, is a …",
+   "neutron star",
+   [
+    "white dwarf",
+    "red giant",
+    "protostar"
+   ],
+   "When a massive star's core collapses, it can form a tiny, dense neutron star."
+  ],
+  [
+   "Which type of star lives the longest?",
+   "A small red dwarf",
+   [
+    "A massive blue giant",
+    "A supergiant",
+    "A star of 20 solar masses"
+   ],
+   "Small stars use their fuel slowly and can shine for trillions of years."
+  ],
+  [
+   "Which elements are created in supernova explosions?",
+   "Elements heavier than iron",
+   [
+    "Only hydrogen",
+    "Only helium",
+    "No new elements"
+   ],
+   "The huge energy of a supernova forms heavy elements like gold and uranium."
+  ],
+  [
+   "About how old is the universe?",
+   "13.8 billion years",
+   [
+    "4.6 billion years",
+    "6000 years",
+    "100 billion years"
+   ],
+   "Measurements of the cosmic background radiation give an age of about 13.8 billion years."
+  ],
+  [
+   "About how old is the Sun?",
+   "4.6 billion years",
+   [
+    "13.8 billion years",
+    "1 million years",
+    "100 billion years"
+   ],
+   "The Sun and solar system formed about 4.6 billion years ago."
+  ],
+  [
+   "The faint microwave glow left over from the early universe is the …",
+   "cosmic microwave background",
+   [
+    "solar wind",
+    "aurora borealis",
+    "Van Allen belt"
+   ],
+   "This leftover radiation is strong evidence for the Big Bang."
+  ],
+  [
+   "The Milky Way is what type of galaxy?",
+   "Spiral",
+   [
+    "Elliptical",
+    "Irregular",
+    "Ring"
+   ],
+   "The Milky Way is a barred spiral galaxy with arms of stars."
+  ],
+  [
+   "The nearest large galaxy to the Milky Way is …",
+   "Andromeda",
+   [
+    "Orion",
+    "Polaris",
+    "Sirius"
+   ],
+   "The Andromeda Galaxy is about 2.5 million light-years away."
+  ],
+  [
+   "One astronomical unit (AU) is the average distance between …",
+   "Earth and the Sun",
+   [
+    "Earth and the Moon",
+    "the Sun and Pluto",
+    "two galaxies"
+   ],
+   "1 AU is about 150 million km, the average Earth–Sun distance."
+  ],
+  [
+   "Light from a star 10 light-years away left the star …",
+   "10 years ago",
+   [
+    "10 days ago",
+    "10 minutes ago",
+    "just now"
+   ],
+   "A light-year is the distance light travels in a year, so the light took 10 years to arrive."
+  ],
+  [
+   "Edwin Hubble found that more distant galaxies …",
+   "move away faster",
+   [
+    "move toward us faster",
+    "are not moving",
+    "are all blue-shifted"
+   ],
+   "Hubble's law shows that recession speed increases with distance."
+  ],
+  [
+   "A star that suddenly brightens hugely as it explodes at the end of its life is a …",
+   "supernova",
+   [
+    "nebula",
+    "protostar",
+    "white dwarf"
+   ],
+   "A supernova is the explosion of a massive star."
+  ],
+  [
+   "A group of stars that forms a pattern in the sky, such as Orion, is a …",
+   "constellation",
+   [
+    "galaxy",
+    "nebula",
+    "solar system"
+   ],
+   "Constellations are patterns of stars as seen from Earth."
+  ],
+  [
+   "A dying Sun-like star sheds its outer layers, forming a …",
+   "planetary nebula",
+   [
+    "black hole",
+    "supernova",
+    "neutron star"
+   ],
+   "The glowing shell of gas around a dying star is called a planetary nebula."
+  ],
+  [
+   "Stars produce energy by fusing nuclei in their …",
+   "cores",
+   [
+    "outer atmospheres",
+    "sunspots",
+    "solar flares"
+   ],
+   "Only the core is hot and dense enough for nuclear fusion."
   ]
  ]
 }

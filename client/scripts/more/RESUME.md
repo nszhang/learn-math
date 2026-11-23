@@ -1,4 +1,4 @@
-# Resume: extra question banks (paused 2026-11-22)
+# Extra question banks: how they were made, and what is left
 
 Work stopped when the session usage limit was hit. Everything needed to continue is in this folder.
 
@@ -10,16 +10,11 @@ Work stopped when the session usage limit was hit. Everything needed to continue
 - `check.py`: the quality gate. Run `python3 check.py work/bank_NN.json <more file>`, and only publish a batch that shows 0 problems and 0 banks missing.
 - `work/variety.mjs` → `variety.json`, `work/banks.mjs` → `banks.json`, `work/export.mjs` → `bank_NN.json`: the audit that picked these banks (skills with fewer than 12 distinct questions in 40 tries). **Re-running export.mjs overwrites the bank files.**
 
-## Status (updated 2026-11-22)
+## Status: COMPLETE (2026-11-22)
 
-| Batch | State |
-|---|---|
-| 00–26 | published; all pass check.py. `server/test/extra-banks.test.js` enforces no giveaways |
-| 27–30 | in progress (`work/more_NN.json`; resumable, the write prompt keeps finished banks) |
-| 31 | not started (science). Use the write prompt |
-
-Live: 14,851 extra questions (English 407 banks / 8,955; science 268 banks / 5,896).
-check.py also rejects a right answer that alone carries a bracketed note, e.g. "slate (metamorphic)".
+All 32 batches (00–31) are published and pass check.py; `server/test/extra-banks.test.js` enforces
+format and no answer giveaways. Live: 17,405 extra questions (English 407 banks / 8,955;
+science 391 banks / 8,450). The prompts below are kept for any future banks.
 
 ## How to run (at most 4 agents at a time, since 20 at once hit the usage limit)
 
