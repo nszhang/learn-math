@@ -3328,5 +3328,2225 @@
    ],
    "Greenhouse gases re-emit infrared in all directions, so some returns to warm the surface."
   ]
+ ],
+ "sciAtmLay": [
+  [
+   "Which layer of the atmosphere do we live in?",
+   "Troposphere",
+   [
+    "Stratosphere",
+    "Mesosphere",
+    "Thermosphere"
+   ],
+   "The troposphere is the lowest layer, starting at the ground."
+  ],
+  [
+   "Which list shows the layers in order from the ground upward?",
+   "Troposphere, stratosphere, mesosphere, thermosphere",
+   [
+    "Stratosphere, troposphere, thermosphere, mesosphere",
+    "Mesosphere, thermosphere, troposphere, stratosphere",
+    "Thermosphere, mesosphere, stratosphere, troposphere"
+   ],
+   "From the surface up, the layers are troposphere, stratosphere, mesosphere, thermosphere and then exosphere."
+  ],
+  [
+   "Which is the coldest layer of the atmosphere?",
+   "Mesosphere",
+   [
+    "Troposphere",
+    "Stratosphere",
+    "Thermosphere"
+   ],
+   "Temperatures at the top of the mesosphere can fall to about −90 °C, the coldest in the atmosphere."
+  ],
+  [
+   "In which layer does the International Space Station orbit?",
+   "Thermosphere",
+   [
+    "Troposphere",
+    "Stratosphere",
+    "Mesosphere"
+   ],
+   "The ISS orbits about 400 km up, inside the thermosphere."
+  ],
+  [
+   "What happens to temperature as you climb higher in the troposphere?",
+   "It usually decreases",
+   [
+    "It usually increases",
+    "It stays exactly the same",
+    "It doubles every kilometre"
+   ],
+   "The troposphere is heated from the ground, so it gets colder with height."
+  ],
+  [
+   "Why does temperature rise with height in the stratosphere?",
+   "Ozone absorbs ultraviolet light",
+   [
+    "It is closer to Earth's core",
+    "Clouds trap heat there",
+    "Airplanes heat the air"
+   ],
+   "Ozone molecules absorb the Sun's ultraviolet radiation, warming the upper stratosphere."
+  ],
+  [
+   "Which layer contains most of the mass of the atmosphere and nearly all its water vapour?",
+   "Troposphere",
+   [
+    "Stratosphere",
+    "Thermosphere",
+    "Exosphere"
+   ],
+   "About three quarters of the atmosphere's mass and almost all water vapour are in the troposphere."
+  ],
+  [
+   "What does the ozone layer protect living things from?",
+   "Harmful ultraviolet radiation",
+   [
+    "Meteors falling from space",
+    "Strong winds from storms",
+    "Cold air from the poles"
+   ],
+   "The ozone layer absorbs most of the Sun's harmful UV rays."
+  ],
+  [
+   "What is the boundary between the troposphere and the stratosphere called?",
+   "The tropopause",
+   [
+    "The mesopause",
+    "The thermopause",
+    "The ozonopause"
+   ],
+   "The tropopause marks the top of the troposphere, where temperature stops falling with height."
+  ],
+  [
+   "Where is the troposphere thickest?",
+   "Over the equator",
+   [
+    "Over the North Pole",
+    "Over the South Pole",
+    "Over Antarctica"
+   ],
+   "Warm air at the equator expands and rises, making the troposphere thicker there."
+  ],
+  [
+   "The summit of Mount Everest is in which layer?",
+   "Troposphere",
+   [
+    "Stratosphere",
+    "Mesosphere",
+    "Thermosphere"
+   ],
+   "At about 8.8 km high, Everest's summit is still within the troposphere."
+  ],
+  [
+   "What happens to air pressure as you go higher in the atmosphere?",
+   "It decreases",
+   [
+    "It increases",
+    "It stays constant",
+    "It becomes infinite"
+   ],
+   "There is less air above you the higher you go, so air pressure drops."
+  ],
+  [
+   "In which layer do jet streams blow near the top?",
+   "Troposphere",
+   [
+    "Mesosphere",
+    "Thermosphere",
+    "Exosphere"
+   ],
+   "Jet streams are fast winds near the top of the troposphere, around 9 to 12 km up."
+  ],
+  [
+   "The thermosphere can reach very high temperatures, yet it would not feel hot. Why?",
+   "The air particles are very spread out",
+   [
+    "The Sun never shines there",
+    "The air there is extremely thick",
+    "It is full of ice crystals"
+   ],
+   "There are so few particles that very little heat would transfer to your body."
+  ],
+  [
+   "Which layer gradually fades into outer space?",
+   "Exosphere",
+   [
+    "Mesosphere",
+    "Stratosphere",
+    "Troposphere"
+   ],
+   "The exosphere is the outermost layer, where the thin air merges into space."
+  ],
+  [
+   "Weather balloons often rise high enough to reach which layer before bursting?",
+   "Stratosphere",
+   [
+    "Thermosphere",
+    "Exosphere",
+    "Mesosphere"
+   ],
+   "Many weather balloons reach about 30 km, which is in the stratosphere."
+  ],
+  [
+   "Why do some long-distance jets fly in the lower stratosphere?",
+   "The air is calm with few clouds",
+   [
+    "The air is full of thunderstorms",
+    "The air is hottest there",
+    "The ozone gives extra lift"
+   ],
+   "The lower stratosphere has little weather and turbulence, giving a smoother flight."
+  ],
+  [
+   "Which layer of the atmosphere is closest to Earth's surface?",
+   "Troposphere",
+   [
+    "Exosphere",
+    "Thermosphere",
+    "Stratosphere"
+   ],
+   "The troposphere begins at the ground and extends to about 10 to 16 km."
+  ],
+  [
+   "Which layer lies directly above the stratosphere?",
+   "Mesosphere",
+   [
+    "Troposphere",
+    "Exosphere",
+    "Thermosphere"
+   ],
+   "Above the stratosphere is the mesosphere, then the thermosphere."
+  ],
+  [
+   "Which layer lies directly above the mesosphere?",
+   "Thermosphere",
+   [
+    "Stratosphere",
+    "Troposphere",
+    "Ozone layer"
+   ],
+   "The thermosphere sits above the mesosphere and below the exosphere."
+  ],
+  [
+   "In which layer do nearly all clouds form?",
+   "Troposphere",
+   [
+    "Stratosphere",
+    "Thermosphere",
+    "Exosphere"
+   ],
+   "Clouds need water vapour, and almost all of it is in the troposphere."
+  ],
+  [
+   "Where would you find gases so thin that some atoms escape into space?",
+   "Exosphere",
+   [
+    "Troposphere",
+    "Stratosphere",
+    "Mesosphere"
+   ],
+   "In the exosphere, particles are so far apart that some escape Earth's gravity."
+  ]
+ ],
+ "sciXsClCurr": [
+  [
+   "Which warm current flows past Japan?",
+   "The Kuroshio Current",
+   [
+    "The Labrador Current",
+    "The California Current",
+    "The Humboldt Current"
+   ],
+   "The Kuroshio Current carries warm tropical water northward past Japan."
+  ],
+  [
+   "The California Current is cold. How does it affect coastal California?",
+   "It keeps summers cool and often foggy",
+   [
+    "It makes summers hot and humid",
+    "It causes heavy snow every summer",
+    "It makes the coast a rainforest"
+   ],
+   "Cold water cools the air above it, giving cool, foggy summers along the coast."
+  ],
+  [
+   "Which cold current flows north along the coast of Peru and Chile?",
+   "The Humboldt Current",
+   [
+    "The Gulf Stream",
+    "The Kuroshio Current",
+    "The Brazil Current"
+   ],
+   "The cold Humboldt (Peru) Current flows north along western South America."
+  ],
+  [
+   "Why is there often thick fog on the Grand Banks off Newfoundland?",
+   "Warm and cold currents meet there",
+   [
+    "The water there is always boiling",
+    "There are no currents at all",
+    "Volcanoes release steam there"
+   ],
+   "Warm, moist air over the Gulf Stream is chilled over the cold Labrador Current, forming fog."
+  ],
+  [
+   "Which way do surface currents generally carry warm water?",
+   "From the equator toward the poles",
+   [
+    "From the poles toward the equator",
+    "Straight down to the sea floor",
+    "Only east to west at the poles"
+   ],
+   "Warm currents flow away from the tropics, carrying heat toward higher latitudes."
+  ],
+  [
+   "Which way do surface currents generally carry cold water?",
+   "From the poles toward the equator",
+   [
+    "From the equator toward the poles",
+    "Straight up from the sea floor",
+    "Only west to east at the equator"
+   ],
+   "Cold currents flow from high latitudes toward the tropics, cooling the coasts they pass."
+  ],
+  [
+   "What effect makes surface currents curve instead of flowing in straight lines?",
+   "The Coriolis effect",
+   [
+    "The greenhouse effect",
+    "The Doppler effect",
+    "The rain-shadow effect"
+   ],
+   "Earth's rotation deflects moving water, so currents curve; this is the Coriolis effect."
+  ],
+  [
+   "What is a large, circular system of ocean currents called?",
+   "A gyre",
+   [
+    "A tide",
+    "A front",
+    "A delta"
+   ],
+   "Gyres are huge loops of surface currents that circle ocean basins."
+  ],
+  [
+   "In the Northern Hemisphere, which way do the major ocean gyres turn?",
+   "Clockwise",
+   [
+    "Counter-clockwise",
+    "Straight north",
+    "They do not move"
+   ],
+   "The Coriolis effect and winds make Northern Hemisphere gyres circulate clockwise."
+  ],
+  [
+   "What is upwelling?",
+   "Cold, nutrient-rich deep water rising up",
+   [
+    "Warm surface water sinking down",
+    "Rainwater flowing into the sea",
+    "Sea ice forming at the surface"
+   ],
+   "When winds push surface water away from a coast, colder deep water rises to replace it."
+  ],
+  [
+   "Why is ocean water good at affecting climate?",
+   "Water stores and releases lots of heat",
+   [
+    "Water heats and cools very quickly",
+    "Water is always the same temperature",
+    "Water reflects all sunlight"
+   ],
+   "Water has a high heat capacity, so currents can carry large amounts of heat over long distances."
+  ],
+  [
+   "The Benguela Current is cold and flows past southwest Africa. What type of climate is found on that coast?",
+   "A dry desert climate",
+   [
+    "A wet rainforest climate",
+    "A snowy polar climate",
+    "A humid tropical climate"
+   ],
+   "The cold current cools the air so it holds little moisture, helping form the Namib Desert."
+  ],
+  [
+   "What happens during La Niña?",
+   "Eastern Pacific waters become cooler than usual",
+   [
+    "Eastern Pacific waters become much warmer",
+    "The Gulf Stream stops flowing",
+    "The Pacific Ocean freezes over"
+   ],
+   "La Niña is the opposite of El Niño, with cooler-than-normal water in the eastern tropical Pacific."
+  ],
+  [
+   "During El Niño, what often happens to winters in much of western Canada?",
+   "They are milder than normal",
+   [
+    "They are much colder than normal",
+    "They have no daylight at all",
+    "They last the entire year"
+   ],
+   "El Niño shifts weather patterns so western Canada often has warmer winters."
+  ],
+  [
+   "Why does Vancouver have milder winters than Winnipeg?",
+   "Pacific Ocean water moderates its climate",
+   [
+    "Vancouver is much closer to the equator",
+    "Vancouver sits on a high mountain",
+    "Winnipeg is next to a warm current"
+   ],
+   "Vancouver's coastal location near the relatively warm Pacific keeps winters mild."
+  ],
+  [
+   "A warm current flows past a coast. The nearby air is likely to be …",
+   "warmer and moister",
+   [
+    "colder and drier",
+    "colder and wetter",
+    "warmer and drier"
+   ],
+   "Warm water heats the air and adds moisture through evaporation."
+  ],
+  [
+   "Which warm current flows south along eastern Australia?",
+   "The East Australian Current",
+   [
+    "The Labrador Current",
+    "The California Current",
+    "The Benguela Current"
+   ],
+   "The East Australian Current carries warm water south from the tropics."
+  ],
+  [
+   "How do winds create surface currents?",
+   "Wind drags on the water's surface",
+   [
+    "Wind heats the water to boiling",
+    "Wind pulls water from the sea floor",
+    "Wind freezes the water's surface"
+   ],
+   "Friction between wind and water pushes the surface water along, forming currents."
+  ],
+  [
+   "Which current flows past Nova Scotia and brings milder sea temperatures than the Labrador Current?",
+   "The Gulf Stream",
+   [
+    "The Humboldt Current",
+    "The Canary Current",
+    "The California Current"
+   ],
+   "Branches of the warm Gulf Stream flow off Nova Scotia, warmer than the cold Labrador Current to the north."
+  ],
+  [
+   "Why are some of the world's richest fishing grounds found where cold currents upwell?",
+   "Rising water brings nutrients for plankton",
+   [
+    "Cold water kills all predators",
+    "Warm water drives fish away from shore",
+    "Currents trap fish in fishing nets"
+   ],
+   "Nutrients from deep water feed plankton, which support large fish populations."
+  ],
+  [
+   "Why might a slowdown of the Gulf Stream affect western Europe?",
+   "Less heat would reach its coasts",
+   [
+    "More heat would reach its coasts",
+    "Its summers would get much longer",
+    "Its rainfall would stop forever"
+   ],
+   "The Gulf Stream carries heat to Europe, so weakening it could make the region cooler."
+  ],
+  [
+   "Which statement about surface currents and climate is correct?",
+   "They move heat and shape coastal climates",
+   [
+    "They only affect water far from land",
+    "They have no link to air temperature",
+    "They flow only in a straight line"
+   ],
+   "By carrying warm or cold water along coasts, currents warm or cool nearby land."
+  ]
+ ],
+ "sciClimFac": [
+  [
+   "What is the difference between weather and climate?",
+   "Climate is the average weather over many years",
+   [
+    "Climate is the weather on a single day",
+    "Weather is the average over many years",
+    "Weather and climate mean the same thing"
+   ],
+   "Weather describes short-term conditions, while climate is the long-term pattern, usually averaged over about 30 years."
+  ],
+  [
+   "Inland places far from oceans often have …",
+   "hot summers and cold winters",
+   [
+    "mild summers and mild winters",
+    "the same temperature all year",
+    "cool summers and warm winters"
+   ],
+   "Land heats and cools quickly, so places far from water have large temperature ranges."
+  ],
+  [
+   "Why is Winnipeg's climate more extreme than Vancouver's?",
+   "It is far from any ocean",
+   [
+    "It is closer to the equator",
+    "It sits high on a mountain",
+    "It has a warm current nearby"
+   ],
+   "Without a large body of water to moderate temperatures, Winnipeg has hotter summers and colder winters."
+  ],
+  [
+   "The side of a mountain sheltered from moist ocean winds is usually …",
+   "drier",
+   [
+    "wetter",
+    "snowier",
+    "foggier"
+   ],
+   "Air loses its moisture rising over the mountain, so the far (leeward) side is in a rain shadow."
+  ],
+  [
+   "What is a rain shadow?",
+   "A dry area on the sheltered side of mountains",
+   [
+    "A wet area on the windy side of mountains",
+    "A cloud that blocks the Sun",
+    "A puddle that forms after rain"
+   ],
+   "Moist air drops rain on the windward side, leaving the leeward side dry."
+  ],
+  [
+   "Why is the Okanagan Valley in BC much drier than the coast?",
+   "Mountains block moist Pacific air",
+   [
+    "It is right beside the ocean",
+    "It lies on the equator",
+    "A warm current flows through it"
+   ],
+   "The Coast and Cascade Mountains wring moisture from Pacific air, putting the Okanagan in a rain shadow."
+  ],
+  [
+   "How does temperature usually change as altitude increases?",
+   "It decreases",
+   [
+    "It increases",
+    "It stays the same",
+    "It doubles"
+   ],
+   "Air gets thinner and cooler at higher elevations, so temperature drops as you climb."
+  ],
+  [
+   "Mount Kilimanjaro is near the equator but has snow on top. Why?",
+   "Its high altitude keeps it cold",
+   [
+    "It is near a cold ocean current",
+    "It lies far from the equator",
+    "Winds bring snow from the poles"
+   ],
+   "At very high altitudes the air is cold enough for snow, even near the equator."
+  ],
+  [
+   "Which of these factors affects climate the MOST over large distances north to south?",
+   "Latitude",
+   [
+    "Building colour",
+    "Time of day",
+    "Road traffic"
+   ],
+   "Latitude controls how directly sunlight hits the ground, which strongly affects temperature."
+  ],
+  [
+   "Why do places at high latitudes get colder winters?",
+   "Sunlight is spread over a larger area",
+   [
+    "They are closer to the Sun",
+    "They receive more direct sunlight",
+    "They have longer winter days"
+   ],
+   "Low-angle sunlight spreads its energy over more area, so it heats the ground less."
+  ],
+  [
+   "Large lakes like the Great Lakes affect nearby land by …",
+   "moderating temperatures",
+   [
+    "making winters much colder",
+    "stopping all precipitation",
+    "making summers much hotter"
+   ],
+   "Large lakes warm and cool slowly, keeping nearby areas a bit cooler in summer and milder in fall."
+  ],
+  [
+   "Why does land heat up faster than water on a sunny day?",
+   "Land needs less energy to warm up",
+   [
+    "Water absorbs no sunlight at all",
+    "Land reflects all the sunlight",
+    "Water is always colder than air"
+   ],
+   "Water has a higher heat capacity, so it takes more energy to warm than soil or rock."
+  ],
+  [
+   "Prevailing winds that blow from the ocean onto land usually bring …",
+   "moist air",
+   [
+    "dry air",
+    "dust storms",
+    "volcanic ash"
+   ],
+   "Air over the ocean picks up water vapour, so ocean winds carry moisture inland."
+  ],
+  [
+   "Why do coastal BC forests get so much rain?",
+   "Moist Pacific winds rise over mountains",
+   [
+    "Dry desert winds blow from the east",
+    "Cold Arctic air brings all the rain",
+    "The forests make their own rain clouds"
+   ],
+   "Moist westerly winds cool as they rise over the coast mountains, dropping heavy rain."
+  ],
+  [
+   "Why do cities at the same latitude sometimes have very different climates?",
+   "Other factors like water and altitude matter",
+   [
+    "Latitude has no effect on climate",
+    "Only the time zone affects climate",
+    "Climate depends on the city's size alone"
+   ],
+   "Distance from water, altitude, ocean currents and mountains all affect climate along with latitude."
+  ],
+  [
+   "Snow and ice reflect much of the sunlight that hits them. How does this affect climate?",
+   "It keeps snowy regions colder",
+   [
+    "It makes snowy regions warmer",
+    "It has no effect at all",
+    "It melts the snow faster"
+   ],
+   "Reflected sunlight is not absorbed, so snow-covered areas stay cooler."
+  ],
+  [
+   "How many years of weather data do scientists usually average to describe a climate?",
+   "About 30 years",
+   [
+    "About 30 days",
+    "About 3 hours",
+    "About 3 weeks"
+   ],
+   "Climate normals are commonly calculated from 30 years of weather records."
+  ],
+  [
+   "Which city would likely have the coldest climate?",
+   "One high in the mountains far north",
+   [
+    "One at sea level near the equator",
+    "One on a tropical coast",
+    "One in a low, warm valley"
+   ],
+   "High latitude and high altitude both lower temperatures."
+  ],
+  [
+   "What is the main reason the equator is warm all year?",
+   "Sunlight strikes it nearly straight on",
+   [
+    "It is the closest place to the Sun",
+    "It is surrounded by warm volcanoes",
+    "It never has any clouds"
+   ],
+   "Near the equator, sunlight is close to vertical all year, concentrating energy."
+  ],
+  [
+   "Calgary sometimes has warm, dry winter winds that melt snow quickly. What are they called?",
+   "Chinooks",
+   [
+    "Monsoons",
+    "Hurricanes",
+    "Blizzards"
+   ],
+   "Chinooks are warm, dry winds that descend the eastern slopes of the Rockies."
+  ],
+  [
+   "Why does air become warmer and drier as it sinks down the leeward side of a mountain?",
+   "Sinking air is compressed and warms up",
+   [
+    "Sinking air gains moisture from rocks",
+    "Sinking air is cooled by the snow",
+    "Sinking air is heated by sunlight only"
+   ],
+   "As air descends, it is compressed by higher pressure, warming it and lowering its relative humidity."
+  ],
+  [
+   "Which pair of places would have the most similar climates?",
+   "Two coastal cities at the same latitude",
+   [
+    "A mountain top and a nearby beach",
+    "A polar island and a tropical beach",
+    "A desert and a rainforest"
+   ],
+   "Similar latitude and similar nearness to the ocean lead to similar climates."
+  ]
+ ],
+ "sciXsESM": [
+  [
+   "What causes day and night on Earth?",
+   "Earth spinning on its axis",
+   [
+    "Earth orbiting the Sun",
+    "The Moon blocking the Sun",
+    "The Sun moving around Earth"
+   ],
+   "As Earth rotates once about every 24 hours, each place faces toward and then away from the Sun."
+  ],
+  [
+   "Why does the Sun appear to rise in the east and set in the west?",
+   "Earth rotates from west to east",
+   [
+    "The Sun orbits Earth every day",
+    "Earth rotates from east to west",
+    "The Moon pushes the Sun across the sky"
+   ],
+   "Earth's eastward rotation makes the Sun seem to move across the sky from east to west."
+  ],
+  [
+   "Why do we add a leap day about every four years?",
+   "Earth's orbit takes about 365¼ days",
+   [
+    "The Moon's orbit takes 366 days",
+    "Earth's spin slows each February",
+    "The Sun moves farther each year"
+   ],
+   "The extra quarter day each year adds up to about one full day every four years."
+  ],
+  [
+   "What is the angle of Earth's axis tilt?",
+   "About 23.5°",
+   [
+    "About 90°",
+    "About 5°",
+    "About 45°"
+   ],
+   "Earth's axis is tilted about 23.5° from upright relative to its orbit."
+  ],
+  [
+   "In a model, a lamp is the Sun and a ball is Earth. The ball's tilted top half leans toward the lamp. Which season is it in the Northern Hemisphere?",
+   "Summer",
+   [
+    "Winter",
+    "Autumn",
+    "Spring"
+   ],
+   "When the Northern Hemisphere tilts toward the Sun it gets more direct light and longer days."
+  ],
+  [
+   "Why are summer days longer than winter days in Canada?",
+   "The tilt keeps us in sunlight longer",
+   [
+    "Earth spins more slowly in summer",
+    "The Sun gets bigger in summer",
+    "Earth is closest to the Sun in summer"
+   ],
+   "With the Northern Hemisphere tilted toward the Sun, more of each rotation is spent in daylight."
+  ],
+  [
+   "What is the summer solstice in Canada?",
+   "The day with the most daylight",
+   [
+    "The day with the least daylight",
+    "A day with equal day and night",
+    "The day of a full solar eclipse"
+   ],
+   "Around June 21 the Northern Hemisphere is tilted most toward the Sun, giving the longest day."
+  ],
+  [
+   "What is an equinox?",
+   "A day with about equal day and night",
+   [
+    "The longest day of the year",
+    "The shortest day of the year",
+    "A night with no Moon at all"
+   ],
+   "At the equinoxes in March and September, neither hemisphere tilts toward the Sun, so day and night are nearly equal."
+  ],
+  [
+   "How long does it take the Moon to go through all its phases?",
+   "About 29.5 days",
+   [
+    "About 7 days",
+    "About 365 days",
+    "About 24 hours"
+   ],
+   "The cycle from new moon to new moon, the lunar month, lasts about 29.5 days."
+  ],
+  [
+   "Which is the correct order of Moon phases after a new moon?",
+   "Waxing crescent, first quarter, waxing gibbous, full",
+   [
+    "Full, waxing gibbous, first quarter, waxing crescent",
+    "Waning crescent, third quarter, full, new",
+    "First quarter, full, waxing crescent, new"
+   ],
+   "After the new moon, the lit part grows (waxes) through crescent, quarter and gibbous until full."
+  ],
+  [
+   "What does <strong>waxing</strong> mean when describing the Moon?",
+   "The lit part we see is growing",
+   [
+    "The lit part we see is shrinking",
+    "The Moon is getting closer",
+    "The Moon is changing colour"
+   ],
+   "Waxing means more of the Moon's sunlit side is visible each night."
+  ],
+  [
+   "Why does the Moon shine?",
+   "It reflects sunlight",
+   [
+    "It makes its own light",
+    "It reflects light from Earth's cities",
+    "It glows from hot lava"
+   ],
+   "The Moon produces no light of its own; it reflects light from the Sun."
+  ],
+  [
+   "During a solar eclipse, which body is in the middle?",
+   "The Moon",
+   [
+    "Earth",
+    "The Sun",
+    "Mars"
+   ],
+   "In a solar eclipse the Moon passes between the Sun and Earth, casting its shadow on Earth."
+  ],
+  [
+   "During which phase can a solar eclipse happen?",
+   "New moon",
+   [
+    "Full moon",
+    "First quarter",
+    "Waning gibbous"
+   ],
+   "A solar eclipse needs the Moon between Earth and the Sun, which happens at new moon."
+  ],
+  [
+   "When do the highest high tides (spring tides) happen?",
+   "When the Sun, Moon and Earth line up",
+   [
+    "When the Moon is at first quarter",
+    "Only in the spring season",
+    "When the Moon is not visible at all"
+   ],
+   "At new and full moon, the Sun's and Moon's pulls combine to make the biggest tides."
+  ],
+  [
+   "When do the smallest tides (neap tides) happen?",
+   "When the Sun and Moon form a right angle",
+   [
+    "When the Sun and Moon line up",
+    "Only during the winter months",
+    "When Earth is closest to the Sun"
+   ],
+   "At quarter moons, the Sun and Moon pull at right angles, partly cancelling each other."
+  ],
+  [
+   "A student models the Earth–Sun distance with a beach ball and a pea 1 m apart. What is a major limitation of this model?",
+   "The distance is far too small for the sizes",
+   [
+    "The Sun is shown as too large",
+    "The pea should be larger than the ball",
+    "Models cannot show any distances"
+   ],
+   "Real distances are enormous compared with the bodies' sizes, so most classroom models shrink distances greatly."
+  ],
+  [
+   "Earth is actually slightly closer to the Sun in January. What does this show about seasons?",
+   "Distance is not the cause of seasons",
+   [
+    "Distance is the main cause of seasons",
+    "Canada's winter is caused by the Moon",
+    "The Sun is hotter in January"
+   ],
+   "If distance caused seasons, Canada would have summer in January, so tilt must be the cause."
+  ],
+  [
+   "Why is the noon Sun higher in the sky in summer than in winter in Canada?",
+   "Our hemisphere is tilted toward the Sun",
+   [
+    "Earth is spinning faster in summer",
+    "The Sun is larger in summer",
+    "The Moon lifts the Sun in summer"
+   ],
+   "Tilting toward the Sun makes sunlight arrive at a steeper angle, so the Sun appears higher."
+  ],
+  [
+   "At a first quarter moon, how much of the Moon's face do we see lit?",
+   "About half",
+   [
+    "None of it",
+    "All of it",
+    "A thin sliver"
+   ],
+   "At first quarter, the Moon is a quarter of the way around its orbit and we see half its face lit."
+  ],
+  [
+   "Which is the best model for showing why we see Moon phases?",
+   "A lamp, a ball on a stick, and a viewer",
+   [
+    "A map of Canada's provinces",
+    "A globe without any light source",
+    "A drawing of the planets' sizes"
+   ],
+   "A light source with a ball moving around a viewer shows how the visible sunlit part changes."
+  ],
+  [
+   "When it is summer in Canada, what season is it in Argentina?",
+   "Winter",
+   [
+    "Summer",
+    "Spring",
+    "Autumn"
+   ],
+   "Argentina is in the Southern Hemisphere, which tilts away from the Sun during Canada's summer."
+  ]
+ ],
+ "sciXsLunEcl": [
+  [
+   "What is the lighter, outer part of Earth's shadow called?",
+   "The penumbra",
+   [
+    "The umbra",
+    "The corona",
+    "The eclipse"
+   ],
+   "The penumbra is the partial shadow where only part of the Sun's light is blocked."
+  ],
+  [
+   "During a partial lunar eclipse, what do we see?",
+   "Part of the Moon in Earth's dark shadow",
+   [
+    "The whole Moon turning bright blue",
+    "The Sun completely covered by the Moon",
+    "The Moon vanishing from the sky"
+   ],
+   "In a partial lunar eclipse, only part of the Moon enters the umbra."
+  ],
+  [
+   "What happens during a penumbral lunar eclipse?",
+   "The Moon dims slightly in the outer shadow",
+   [
+    "The Moon turns completely black",
+    "The Moon blocks the Sun's light",
+    "The Moon moves closer to Earth"
+   ],
+   "When the Moon passes only through the penumbra, it darkens so slightly that it can be hard to notice."
+  ],
+  [
+   "What nickname is often given to a totally eclipsed Moon because of its colour?",
+   "Blood moon",
+   [
+    "Blue moon",
+    "Harvest moon",
+    "New moon"
+   ],
+   "The coppery-red colour during totality gives the name \"blood moon.\""
+  ],
+  [
+   "How is a lunar eclipse different from a solar eclipse?",
+   "Earth's shadow falls on the Moon",
+   [
+    "The Moon's shadow falls on Earth",
+    "The Sun's shadow falls on Earth",
+    "Mars's shadow falls on the Moon"
+   ],
+   "In a lunar eclipse Earth blocks sunlight to the Moon; in a solar eclipse the Moon blocks sunlight to Earth."
+  ],
+  [
+   "Why can more people see a lunar eclipse than a total solar eclipse?",
+   "It is visible from the whole night side",
+   [
+    "It happens only in the daytime",
+    "It can be seen only at the poles",
+    "It lasts for only a few seconds"
+   ],
+   "The Moon is in Earth's shadow for everyone who can see the Moon, while a solar eclipse's shadow covers a narrow path."
+  ],
+  [
+   "Why is it safe to look at a lunar eclipse?",
+   "You are looking at the dim Moon, not the Sun",
+   [
+    "The Sun is brighter during the eclipse",
+    "Earth's shadow makes the Moon glow hot",
+    "Special filters appear in the sky"
+   ],
+   "A lunar eclipse only involves looking at the Moon, which is safe even when it is brightest."
+  ],
+  [
+   "During a total lunar eclipse, where is the Moon?",
+   "Completely inside the umbra",
+   [
+    "Completely outside the shadow",
+    "Between Earth and the Sun",
+    "Only touching the penumbra"
+   ],
+   "Totality happens when the whole Moon is in the darkest part of Earth's shadow."
+  ],
+  [
+   "What does the curved edge of Earth's shadow on the Moon during an eclipse show?",
+   "Earth is round",
+   [
+    "Earth is flat",
+    "The Moon is square",
+    "The Sun is shrinking"
+   ],
+   "Ancient thinkers like Aristotle noticed Earth's shadow is always curved, evidence that Earth is a sphere."
+  ],
+  [
+   "What can make the Moon look darker red during a total lunar eclipse?",
+   "Dust or ash in Earth's atmosphere",
+   [
+    "More sunlight reaching the Moon",
+    "The Moon moving closer to the Sun",
+    "Fewer clouds anywhere on Earth"
+   ],
+   "Volcanic ash and dust in the atmosphere block more light, making the eclipsed Moon darker."
+  ],
+  [
+   "Why do sunsets and an eclipsed Moon both look red?",
+   "Air scatters blue light and lets red through",
+   [
+    "Red light is made inside clouds",
+    "The Sun turns red every evening",
+    "The Moon's rocks glow red in shadow"
+   ],
+   "Air scatters shorter blue wavelengths, so mostly red light passes through to reach the Moon or our eyes."
+  ],
+  [
+   "About how long can a whole lunar eclipse, from start to finish, last?",
+   "Several hours",
+   [
+    "A few seconds",
+    "Several weeks",
+    "About a year"
+   ],
+   "Including partial and penumbral stages, a lunar eclipse can last several hours."
+  ],
+  [
+   "Which statement about lunar eclipses is true?",
+   "They can only happen at full moon",
+   [
+    "They can only happen at new moon",
+    "They happen every single month",
+    "They happen only during the day"
+   ],
+   "The Moon must be opposite the Sun, behind Earth, which is the full moon position."
+  ],
+  [
+   "Why does the Moon not disappear completely during a total lunar eclipse?",
+   "Some sunlight bends through Earth's air",
+   [
+    "The Moon makes some of its own light",
+    "Streetlights shine onto the Moon",
+    "Stars light up the Moon's surface"
+   ],
+   "Earth's atmosphere refracts some sunlight into the shadow, dimly lighting the Moon."
+  ],
+  [
+   "Which is larger, Earth's umbra at the Moon's distance or the Moon itself?",
+   "Earth's umbra",
+   [
+    "The Moon",
+    "They are exactly equal",
+    "Neither exists"
+   ],
+   "Earth's umbra at the Moon's distance is roughly two and a half times as wide as the Moon, so the Moon fits inside it."
+  ],
+  [
+   "In which order do the stages of a total lunar eclipse begin?",
+   "Penumbral, partial, then total",
+   [
+    "Total, partial, then penumbral",
+    "Partial, total, then penumbral",
+    "Total, penumbral, then partial"
+   ],
+   "The Moon enters the penumbra first, then the umbra partly, and finally lies fully in the umbra."
+  ],
+  [
+   "What would an astronaut standing on the Moon see during a lunar eclipse?",
+   "Earth blocking the Sun",
+   [
+    "The Moon blocking Earth",
+    "The Sun blocking Earth",
+    "Mars blocking the Sun"
+   ],
+   "From the Moon, Earth would pass in front of the Sun, which would look like a solar eclipse."
+  ],
+  [
+   "What tool do you need to watch a lunar eclipse?",
+   "Just your eyes",
+   [
+    "Special eclipse glasses",
+    "A welding mask",
+    "A pinhole projector"
+   ],
+   "A lunar eclipse is safe to watch directly; binoculars can help but are not required."
+  ],
+  [
+   "A lunar eclipse happens at 2 a.m. in Ontario. Who on Earth could see it?",
+   "People where it is night",
+   [
+    "Only people in Ontario",
+    "Only people at the equator",
+    "People where it is daytime"
+   ],
+   "Anyone with the Moon above the horizon, on Earth's night side, can see the eclipse."
+  ],
+  [
+   "The Moon's orbit is tilted about 5° compared with Earth's orbit. What does this explain?",
+   "Why eclipses do not happen monthly",
+   [
+    "Why the Moon shines at night",
+    "Why Earth has four seasons",
+    "Why the Moon is grey"
+   ],
+   "Because of the tilt, the Moon usually passes above or below Earth's shadow at full moon."
+  ],
+  [
+   "During a lunar eclipse, Earth is located …",
+   "between the Sun and the Moon",
+   [
+    "behind the Moon",
+    "beside the Sun",
+    "far from the Moon's orbit"
+   ],
+   "Earth lies between the Sun and Moon, blocking sunlight from reaching the Moon."
+  ],
+  [
+   "What is the main difference between the umbra and the penumbra?",
+   "The umbra blocks all direct sunlight",
+   [
+    "The penumbra blocks all direct sunlight",
+    "The umbra is lighter in colour",
+    "The penumbra is the inner shadow"
+   ],
+   "In the umbra, Earth blocks all direct sunlight; in the penumbra, only part of it."
+  ]
+ ],
+ "sciXsUniv": [
+  [
+   "What is a star?",
+   "A huge ball of hot gas that makes its own light",
+   [
+    "A rocky body that reflects sunlight",
+    "A small icy body with a long tail",
+    "A cloud of dust that gives no light"
+   ],
+   "Stars are giant balls of hot gas that release energy by nuclear fusion."
+  ],
+  [
+   "What is the nearest star to Earth?",
+   "The Sun",
+   [
+    "Proxima Centauri",
+    "Polaris",
+    "Sirius"
+   ],
+   "The Sun is a star and is far closer to Earth than any other star."
+  ],
+  [
+   "After the Sun, what is the nearest known star to Earth?",
+   "Proxima Centauri",
+   [
+    "Polaris",
+    "Betelgeuse",
+    "Vega"
+   ],
+   "Proxima Centauri is about 4.2 light-years away, the closest star beyond the Sun."
+  ],
+  [
+   "What is a solar system?",
+   "A star and the objects that orbit it",
+   [
+    "A group of galaxies held together",
+    "A single planet and its moons",
+    "A cloud of gas between galaxies"
+   ],
+   "A solar system is made of a star plus its planets, moons, asteroids and comets."
+  ],
+  [
+   "Which list is in order from largest to smallest?",
+   "Universe, galaxy, solar system, planet",
+   [
+    "Galaxy, universe, planet, solar system",
+    "Planet, solar system, galaxy, universe",
+    "Solar system, galaxy, universe, planet"
+   ],
+   "The universe contains galaxies, which contain solar systems, which contain planets."
+  ],
+  [
+   "What is a galaxy cluster?",
+   "A group of galaxies held by gravity",
+   [
+    "A group of planets around a star",
+    "A group of moons around a planet",
+    "A group of comets near the Sun"
+   ],
+   "Galaxy clusters contain hundreds to thousands of galaxies bound together by gravity."
+  ],
+  [
+   "What is the name of the small group of galaxies that includes the Milky Way?",
+   "The Local Group",
+   [
+    "The Solar Group",
+    "The Home Cluster",
+    "The Kuiper Belt"
+   ],
+   "The Milky Way, Andromeda and dozens of smaller galaxies form the Local Group."
+  ],
+  [
+   "Where is our solar system located in the Milky Way?",
+   "In one of the spiral arms",
+   [
+    "At the exact centre",
+    "Far outside the galaxy",
+    "Inside a black hole"
+   ],
+   "Our solar system lies in a spiral arm, about two thirds of the way out from the centre."
+  ],
+  [
+   "What is at the centre of the Milky Way?",
+   "A supermassive black hole",
+   [
+    "The Sun",
+    "A giant planet",
+    "A large comet"
+   ],
+   "A supermassive black hole called Sagittarius A* sits at the Milky Way's centre."
+  ],
+  [
+   "Roughly how many stars are in the Milky Way?",
+   "Hundreds of billions",
+   [
+    "About one hundred",
+    "About one thousand",
+    "Exactly eight"
+   ],
+   "The Milky Way is estimated to contain roughly 100 to 400 billion stars."
+  ],
+  [
+   "Which theory describes how the universe began expanding from a hot, dense state?",
+   "The Big Bang theory",
+   [
+    "The plate tectonics theory",
+    "The cell theory",
+    "The germ theory"
+   ],
+   "The Big Bang theory says the universe began about 13.8 billion years ago and has been expanding ever since."
+  ],
+  [
+   "About how old is the universe?",
+   "About 13.8 billion years",
+   [
+    "About 6 thousand years",
+    "About 4.6 million years",
+    "About 100 years"
+   ],
+   "Measurements of the cosmic background radiation and expansion give an age of about 13.8 billion years."
+  ],
+  [
+   "What evidence shows that the universe is expanding?",
+   "Distant galaxies are moving away from us",
+   [
+    "The Sun gets bigger each year",
+    "The Moon is moving closer to Earth",
+    "Stars all stay in fixed places"
+   ],
+   "Light from distant galaxies is red-shifted, showing they are moving away from us."
+  ],
+  [
+   "Why do astronomers measure distances to stars in light-years instead of kilometres?",
+   "The distances are enormous",
+   [
+    "Light-years are shorter units",
+    "Kilometres cannot be used in space",
+    "Stars move too slowly"
+   ],
+   "Distances in space are so large that kilometres would give unwieldy numbers."
+  ],
+  [
+   "When you look at a galaxy 2 million light-years away, you see light that left it …",
+   "2 million years ago",
+   [
+    "2 million days ago",
+    "just a second ago",
+    "2 years ago"
+   ],
+   "Light takes one year to travel one light-year, so the light took 2 million years to arrive."
+  ],
+  [
+   "Which object is the largest?",
+   "The Milky Way",
+   [
+    "The Sun",
+    "Jupiter",
+    "The solar system"
+   ],
+   "The Milky Way galaxy contains our whole solar system and billions of other stars."
+  ],
+  [
+   "Which object is the smallest?",
+   "The Moon",
+   [
+    "Earth",
+    "The Sun",
+    "Jupiter"
+   ],
+   "The Moon is smaller than Earth, Jupiter and the Sun."
+  ],
+  [
+   "What force keeps planets in orbit around the Sun?",
+   "Gravity",
+   [
+    "Magnetism",
+    "Friction",
+    "Wind"
+   ],
+   "The Sun's gravity pulls on the planets and keeps them in orbit."
+  ],
+  [
+   "What do astronomers call the band of light across the night sky on a dark, clear night?",
+   "The Milky Way",
+   [
+    "The Andromeda",
+    "The aurora",
+    "The Big Dipper"
+   ],
+   "The faint band is the combined light of billions of stars in our own galaxy's disk."
+  ],
+  [
+   "What is the main way stars produce energy?",
+   "Nuclear fusion of hydrogen into helium",
+   [
+    "Burning coal deep in their cores",
+    "Reflecting light from nearby planets",
+    "Chemical reactions with oxygen"
+   ],
+   "In a star's core, hydrogen nuclei fuse into helium, releasing enormous energy."
+  ],
+  [
+   "Which object in space can a person see without a telescope from Canada on a dark night?",
+   "The Andromeda Galaxy",
+   [
+    "A planet in another galaxy",
+    "The edge of the universe",
+    "A black hole's centre"
+   ],
+   "Andromeda, about 2.5 million light-years away, is visible as a faint smudge on very dark nights."
+  ],
+  [
+   "What is a constellation?",
+   "A pattern of stars seen from Earth",
+   [
+    "A group of planets orbiting a star",
+    "A type of galaxy with arms",
+    "A cloud where stars are born"
+   ],
+   "Constellations are star patterns as seen from Earth; their stars are often at very different distances."
+  ]
+ ],
+ "sciXsGalax": [
+  [
+   "What type of galaxy is described? A bright central bulge with arms winding out from it",
+   "Spiral",
+   [
+    "Elliptical",
+    "Irregular",
+    "Lenticular"
+   ],
+   "Spiral galaxies have a central bulge and arms that wind outward in a flat disk."
+  ],
+  [
+   "What type of galaxy is described? A patchy, shapeless galaxy full of gas and new stars",
+   "Irregular",
+   [
+    "Spiral",
+    "Elliptical",
+    "Lenticular"
+   ],
+   "Irregular galaxies have no definite shape and often contain much gas and young stars."
+  ],
+  [
+   "What type of galaxy is described? A football-shaped galaxy of mostly old, red stars",
+   "Elliptical",
+   [
+    "Spiral",
+    "Irregular",
+    "Lenticular"
+   ],
+   "Elliptical galaxies are smooth, oval shapes made mostly of older stars."
+  ],
+  [
+   "What type of galaxy is described? The Andromeda Galaxy",
+   "Spiral",
+   [
+    "Elliptical",
+    "Irregular",
+    "Lenticular"
+   ],
+   "Andromeda is a large spiral galaxy with a disk and spiral arms."
+  ],
+  [
+   "What type of galaxy is described? The Small Magellanic Cloud",
+   "Irregular",
+   [
+    "Spiral",
+    "Elliptical",
+    "Lenticular"
+   ],
+   "The Small Magellanic Cloud is a dwarf irregular galaxy near the Milky Way."
+  ],
+  [
+   "What type of galaxy is described? The Whirlpool Galaxy, with two sweeping arms",
+   "Spiral",
+   [
+    "Elliptical",
+    "Irregular",
+    "Lenticular"
+   ],
+   "The Whirlpool Galaxy has clear, curving spiral arms."
+  ],
+  [
+   "What type of galaxy is described? M87, a giant round galaxy at the centre of a cluster",
+   "Elliptical",
+   [
+    "Spiral",
+    "Irregular",
+    "Lenticular"
+   ],
+   "M87 is a giant elliptical galaxy in the Virgo Cluster."
+  ],
+  [
+   "What type of galaxy is described? A galaxy torn out of shape by a collision with another galaxy",
+   "Irregular",
+   [
+    "Spiral",
+    "Elliptical",
+    "Lenticular"
+   ],
+   "Gravity during collisions can distort galaxies into irregular shapes."
+  ],
+  [
+   "What type of galaxy is described? A galaxy with a straight bar of stars through its centre and arms at the bar's ends",
+   "Barred spiral",
+   [
+    "Elliptical",
+    "Irregular",
+    "Lenticular"
+   ],
+   "Barred spirals have a central bar of stars with spiral arms starting at its ends."
+  ],
+  [
+   "What type of galaxy is the Milky Way?",
+   "Barred spiral",
+   [
+    "Elliptical",
+    "Irregular",
+    "Lenticular"
+   ],
+   "Studies show the Milky Way is a spiral galaxy with a bar of stars across its centre."
+  ],
+  [
+   "Which type of galaxy usually has the LEAST gas and dust for making new stars?",
+   "Elliptical",
+   [
+    "Spiral",
+    "Irregular",
+    "Barred spiral"
+   ],
+   "Elliptical galaxies have used up or lost most of their gas, so few new stars form."
+  ],
+  [
+   "Which feature helps you tell a spiral galaxy from an elliptical one?",
+   "Spiral arms in a flat disk",
+   [
+    "A round, smooth glow",
+    "Only very old stars",
+    "No gas or dust at all"
+   ],
+   "Spiral galaxies have flat disks with arms; ellipticals are smooth and armless."
+  ],
+  [
+   "Where in a spiral galaxy do most new stars form?",
+   "In the spiral arms",
+   [
+    "Only in the central black hole",
+    "Outside the galaxy entirely",
+    "Inside old, dead stars"
+   ],
+   "The arms are rich in gas and dust, so most new, bright blue stars form there."
+  ],
+  [
+   "Why do spiral arms often look bluish?",
+   "They contain many young, hot stars",
+   [
+    "They are full of cold, old stars",
+    "They reflect light from oceans",
+    "They are made of blue gas only"
+   ],
+   "Young, massive stars burn hot and shine blue, and they are common in spiral arms."
+  ],
+  [
+   "Which astronomer created a famous system for classifying galaxies by shape?",
+   "Edwin Hubble",
+   [
+    "Isaac Newton",
+    "Charles Darwin",
+    "Marie Curie"
+   ],
+   "Edwin Hubble sorted galaxies into elliptical, spiral, barred spiral and irregular types."
+  ],
+  [
+   "Galaxies are classified mainly by their …",
+   "shape",
+   [
+    "colour of planets",
+    "distance from Earth",
+    "number of moons"
+   ],
+   "Hubble's system groups galaxies by how they look: elliptical, spiral or irregular."
+  ],
+  [
+   "Which type of galaxy is often small and found near larger galaxies, like the Magellanic Clouds near the Milky Way?",
+   "Dwarf irregular",
+   [
+    "Giant elliptical",
+    "Barred spiral",
+    "Grand spiral"
+   ],
+   "Many small, shapeless dwarf irregular galaxies orbit larger galaxies."
+  ],
+  [
+   "Which type of galaxy includes the largest galaxies known?",
+   "Giant elliptical",
+   [
+    "Dwarf irregular",
+    "Small spiral",
+    "Tiny lenticular"
+   ],
+   "The biggest known galaxies are giant ellipticals, often at the centres of galaxy clusters."
+  ],
+  [
+   "What type of galaxy is described? Spread out like a pinwheel, seen face-on with clear arms",
+   "Spiral",
+   [
+    "Elliptical",
+    "Irregular",
+    "Lenticular"
+   ],
+   "A pinwheel shape with clear arms marks a spiral galaxy."
+  ],
+  [
+   "What type of galaxy is described? A round glow with no disk, no arms and very few young stars",
+   "Elliptical",
+   [
+    "Spiral",
+    "Irregular",
+    "Barred spiral"
+   ],
+   "Ellipticals are smooth and armless, with mostly old stars."
+  ],
+  [
+   "What type of galaxy is described? The Triangulum Galaxy, a member of the Local Group with loose arms",
+   "Spiral",
+   [
+    "Elliptical",
+    "Irregular",
+    "Lenticular"
+   ],
+   "The Triangulum Galaxy (M33) is a spiral galaxy with loosely wound arms."
+  ],
+  [
+   "What type of galaxy is described? A small galaxy with bright clumps of star formation scattered randomly",
+   "Irregular",
+   [
+    "Spiral",
+    "Elliptical",
+    "Lenticular"
+   ],
+   "Randomly scattered star-forming clumps and no clear shape mark an irregular galaxy."
+  ]
+ ],
+ "sciPlates": [
+  [
+   "What happens at a divergent boundary?",
+   "Plates move apart",
+   [
+    "Plates push together",
+    "Plates slide past each other",
+    "Plates stop moving"
+   ],
+   "At divergent boundaries, plates separate and magma rises to fill the gap."
+  ],
+  [
+   "What happens at a convergent boundary?",
+   "Plates push together",
+   [
+    "Plates move apart",
+    "Plates slide past each other",
+    "Plates melt completely"
+   ],
+   "At convergent boundaries, plates collide, causing subduction or mountain building."
+  ],
+  [
+   "What happens at a transform boundary?",
+   "Plates slide past each other",
+   [
+    "Plates move apart",
+    "Plates push together",
+    "Plates sink into the core"
+   ],
+   "At transform boundaries, plates grind sideways past one another."
+  ],
+  [
+   "Which feature forms where an ocean plate sinks beneath another plate?",
+   "A deep ocean trench",
+   [
+    "A mid-ocean ridge",
+    "A rift valley",
+    "A flat abyssal plain"
+   ],
+   "Subduction bends the sinking plate downward, creating a deep trench."
+  ],
+  [
+   "Which feature forms where two ocean plates move apart?",
+   "A mid-ocean ridge",
+   [
+    "A deep ocean trench",
+    "A folded mountain range",
+    "A volcanic island arc"
+   ],
+   "Magma rising between separating ocean plates builds an underwater mountain range."
+  ],
+  [
+   "Which type of plate boundary is described? The Juan de Fuca Plate sinks beneath North America off the BC coast.",
+   "Convergent",
+   [
+    "Divergent",
+    "Transform",
+    "Not a boundary"
+   ],
+   "One plate sinking under another is subduction, which happens at convergent boundaries."
+  ],
+  [
+   "Which type of plate boundary is described? The Queen Charlotte Fault, where plates slide sideways off Haida Gwaii.",
+   "Transform",
+   [
+    "Convergent",
+    "Divergent",
+    "Not a boundary"
+   ],
+   "Plates sliding horizontally past each other form a transform boundary."
+  ],
+  [
+   "Which type of plate boundary is described? Iceland is slowly being pulled apart along the Mid-Atlantic Ridge.",
+   "Divergent",
+   [
+    "Convergent",
+    "Transform",
+    "Not a boundary"
+   ],
+   "Iceland sits on the Mid-Atlantic Ridge, where plates move apart."
+  ],
+  [
+   "Which type of plate boundary is described? The Andes Mountains rise where an ocean plate dives under South America.",
+   "Convergent",
+   [
+    "Divergent",
+    "Transform",
+    "Not a boundary"
+   ],
+   "Subduction of the Nazca Plate under South America builds the Andes."
+  ],
+  [
+   "Which type of plate boundary is described? The Red Sea is slowly widening as Africa and Arabia separate.",
+   "Divergent",
+   [
+    "Convergent",
+    "Transform",
+    "Not a boundary"
+   ],
+   "The Red Sea is a young ocean forming as plates pull apart."
+  ],
+  [
+   "Which type of plate boundary is described? The Mariana Trench forms where one ocean plate sinks under another.",
+   "Convergent",
+   [
+    "Divergent",
+    "Transform",
+    "Not a boundary"
+   ],
+   "Ocean-ocean subduction at a convergent boundary formed the Mariana Trench."
+  ],
+  [
+   "Which type of plate boundary is described? New Zealand's Alpine Fault, where plates mostly slide past each other.",
+   "Transform",
+   [
+    "Convergent",
+    "Divergent",
+    "Not a boundary"
+   ],
+   "The Alpine Fault is mainly a transform boundary with sideways motion."
+  ],
+  [
+   "Which feature is NOT usually formed at a convergent boundary?",
+   "A mid-ocean ridge",
+   [
+    "A deep ocean trench",
+    "A volcanic mountain chain",
+    "A folded mountain range"
+   ],
+   "Mid-ocean ridges form at divergent boundaries where plates move apart."
+  ],
+  [
+   "At which type of boundary is crust created?",
+   "Divergent",
+   [
+    "Convergent",
+    "Transform",
+    "All three equally"
+   ],
+   "Magma rises and cools between separating plates, forming new crust."
+  ],
+  [
+   "At which type of boundary is crust destroyed as it sinks into the mantle?",
+   "Convergent",
+   [
+    "Divergent",
+    "Transform",
+    "None of them"
+   ],
+   "At subduction zones, crust sinks into the mantle and is recycled."
+  ],
+  [
+   "What usually happens when two continental plates collide?",
+   "The crust crumples into high mountains",
+   [
+    "A deep trench forms between them",
+    "New ocean floor forms between them",
+    "The plates slide past quietly"
+   ],
+   "Continental crust is too light to sink easily, so it folds and thickens into mountains like the Himalayas."
+  ],
+  [
+   "Why does an ocean plate sink when it meets a continental plate?",
+   "Ocean crust is denser",
+   [
+    "Ocean crust is lighter",
+    "Continental crust is wetter",
+    "Continental crust is hotter"
+   ],
+   "Denser oceanic crust sinks beneath the more buoyant continental crust."
+  ],
+  [
+   "What is thought to drive the movement of tectonic plates?",
+   "Convection currents in the mantle",
+   [
+    "Ocean tides pulling the crust",
+    "Wind blowing across continents",
+    "The Moon spinning the crust"
+   ],
+   "Heat from Earth's interior causes slow mantle flow that helps move the plates."
+  ],
+  [
+   "Which scientist proposed the idea of continental drift?",
+   "Alfred Wegener",
+   [
+    "Charles Darwin",
+    "Isaac Newton",
+    "Albert Einstein"
+   ],
+   "In 1912 Alfred Wegener proposed that continents had once been joined and drifted apart."
+  ],
+  [
+   "Which evidence supports the idea that continents were once joined?",
+   "Matching fossils on separate continents",
+   [
+    "Different languages on each continent",
+    "Every continent has the same weather",
+    "Oceans are all equally salty"
+   ],
+   "Identical fossils of land organisms on widely separated continents suggest the land was once connected."
+  ],
+  [
+   "Why are volcanoes common around the Pacific \"Ring of Fire\"?",
+   "Many subduction zones surround the Pacific",
+   [
+    "The Pacific has no plate boundaries",
+    "The Pacific is the warmest ocean",
+    "Hurricanes form many volcanoes there"
+   ],
+   "Subducting plates around the Pacific melt and feed chains of volcanoes."
+  ],
+  [
+   "About how fast do tectonic plates move?",
+   "A few centimetres per year",
+   [
+    "A few metres per second",
+    "A few kilometres per day",
+    "They never move at all"
+   ],
+   "Plates move about as fast as fingernails grow, a few centimetres a year."
+  ]
+ ],
+ "sciXsAtomEl": [
+  [
+   "Which particle has a positive charge?",
+   "Proton",
+   [
+    "Electron",
+    "Neutron",
+    "Molecule"
+   ],
+   "Protons carry a positive charge and are found in the nucleus."
+  ],
+  [
+   "Where are electrons found in an atom?",
+   "Moving around the nucleus",
+   [
+    "Inside the protons",
+    "In the centre of the nucleus",
+    "Stuck to the neutrons"
+   ],
+   "Electrons occupy regions, often modelled as shells, around the nucleus."
+  ],
+  [
+   "An atom of carbon has 6 protons. What is its atomic number?",
+   "6",
+   [
+    "12",
+    "3",
+    "18"
+   ],
+   "The atomic number is the number of protons in an atom."
+  ],
+  [
+   "A neutral atom has 8 protons. How many electrons does it have?",
+   "8",
+   [
+    "16",
+    "4",
+    "0"
+   ],
+   "In a neutral atom the number of electrons equals the number of protons."
+  ],
+  [
+   "What is the chemical symbol for iron?",
+   "Fe",
+   [
+    "Ir",
+    "In",
+    "I"
+   ],
+   "Iron's symbol, Fe, comes from its Latin name ferrum."
+  ],
+  [
+   "What is the chemical symbol for potassium?",
+   "K",
+   [
+    "P",
+    "Po",
+    "Pt"
+   ],
+   "Potassium's symbol, K, comes from its Latin name kalium."
+  ],
+  [
+   "What is the chemical symbol for silver?",
+   "Ag",
+   [
+    "Si",
+    "Sv",
+    "S"
+   ],
+   "Silver's symbol, Ag, comes from its Latin name argentum."
+  ],
+  [
+   "Which element has the symbol He?",
+   "Helium",
+   [
+    "Hydrogen",
+    "Hafnium",
+    "Mercury"
+   ],
+   "He is the symbol for helium, a light, unreactive gas."
+  ],
+  [
+   "Which element has the symbol Cu?",
+   "Copper",
+   [
+    "Calcium",
+    "Carbon",
+    "Chlorine"
+   ],
+   "Cu stands for copper, from the Latin cuprum."
+  ],
+  [
+   "Which of these is an element?",
+   "Neon",
+   [
+    "Water",
+    "Table salt",
+    "Sugar"
+   ],
+   "Neon is made of only one kind of atom, while the others are compounds."
+  ],
+  [
+   "Which of these is NOT an element?",
+   "Water",
+   [
+    "Nitrogen",
+    "Iron",
+    "Helium"
+   ],
+   "Water is a compound of hydrogen and oxygen, not a single element."
+  ],
+  [
+   "What is a compound?",
+   "A substance of two or more elements joined chemically",
+   [
+    "A substance made of only one kind of atom",
+    "A mixture that can be separated by hand",
+    "A single particle inside the nucleus"
+   ],
+   "Compounds form when atoms of different elements bond together in fixed amounts."
+  ],
+  [
+   "Where is almost all of an atom's mass found?",
+   "In the nucleus",
+   [
+    "In the electrons",
+    "In the empty space",
+    "In the outer shell"
+   ],
+   "Protons and neutrons are much heavier than electrons, and they sit in the nucleus."
+  ],
+  [
+   "Which element has the lightest atoms?",
+   "Hydrogen",
+   [
+    "Helium",
+    "Oxygen",
+    "Carbon"
+   ],
+   "Hydrogen has just one proton, making it the lightest element."
+  ],
+  [
+   "Which scientist is known for arranging the first widely used periodic table?",
+   "Dmitri Mendeleev",
+   [
+    "Isaac Newton",
+    "Charles Darwin",
+    "Galileo Galilei"
+   ],
+   "Mendeleev arranged elements by properties in 1869 and predicted missing elements."
+  ],
+  [
+   "On the periodic table, what is a vertical column called?",
+   "A group",
+   [
+    "A period",
+    "A shell",
+    "A bond"
+   ],
+   "Columns are groups; elements in a group have similar properties."
+  ],
+  [
+   "On the periodic table, what is a horizontal row called?",
+   "A period",
+   [
+    "A group",
+    "A family",
+    "A nucleus"
+   ],
+   "Rows are called periods, and atomic number increases from left to right."
+  ],
+  [
+   "Which group of elements is very unreactive?",
+   "Noble gases",
+   [
+    "Alkali metals",
+    "Halogens",
+    "Transition metals"
+   ],
+   "Noble gases like helium and neon rarely react because their outer electron shells are full."
+  ],
+  [
+   "Which element is a metal that is liquid at room temperature?",
+   "Mercury",
+   [
+    "Iron",
+    "Gold",
+    "Aluminium"
+   ],
+   "Mercury is the only metal that is liquid at room temperature."
+  ],
+  [
+   "Which property is typical of metals?",
+   "They conduct electricity well",
+   [
+    "They are always gases",
+    "They break like glass",
+    "They never conduct heat"
+   ],
+   "Metals are good conductors of electricity and heat, and they are often shiny and bendable."
+  ],
+  [
+   "Most of the volume of an atom is …",
+   "empty space",
+   [
+    "solid protons",
+    "packed neutrons",
+    "liquid electrons"
+   ],
+   "The nucleus is tiny compared with the atom, so most of an atom is empty space."
+  ],
+  [
+   "Which element makes up most of Earth's air?",
+   "Nitrogen",
+   [
+    "Oxygen",
+    "Carbon",
+    "Hydrogen"
+   ],
+   "Nitrogen makes up about 78% of Earth's atmosphere."
+  ]
+ ],
+ "sciXsFormMod": [
+  [
+   "A molecule of sulfur dioxide contains 1 S, 2 O atom(s). Which formula represents it?",
+   "SO₂",
+   [
+    "S₂O",
+    "SO₃",
+    "H₂S"
+   ],
+   "One sulfur and two oxygen atoms give the formula SO₂."
+  ],
+  [
+   "A molecule of ozone contains 3 O atom(s). Which formula represents it?",
+   "O₃",
+   [
+    "O₂",
+    "3O",
+    "CO₃"
+   ],
+   "Three bonded oxygen atoms make ozone, O₃."
+  ],
+  [
+   "A molecule of propane contains 3 C, 8 H atom(s). Which formula represents it?",
+   "C₃H₈",
+   [
+    "C₈H₃",
+    "CH₄",
+    "C₃H₆"
+   ],
+   "Three carbon and eight hydrogen atoms give C₃H₈."
+  ],
+  [
+   "A molecule of carbon monoxide contains 1 C, 1 O atom(s). Which formula represents it?",
+   "CO",
+   [
+    "CO₂",
+    "C₂O",
+    "Co"
+   ],
+   "One carbon and one oxygen atom give CO; note that Co (lowercase o) is the element cobalt."
+  ],
+  [
+   "A molecule of hydrogen gas contains 2 H atom(s). Which formula represents it?",
+   "H₂",
+   [
+    "2H",
+    "H₂O",
+    "He"
+   ],
+   "Hydrogen gas is made of molecules of two bonded hydrogen atoms, H₂."
+  ],
+  [
+   "A molecule of hydrogen chloride contains 1 H, 1 Cl atom(s). Which formula represents it?",
+   "HCl",
+   [
+    "HCl₂",
+    "H₂Cl",
+    "NaCl"
+   ],
+   "One hydrogen and one chlorine atom give HCl."
+  ],
+  [
+   "A molecule of nitrogen dioxide contains 1 N, 2 O atom(s). Which formula represents it?",
+   "NO₂",
+   [
+    "N₂O",
+    "NH₂",
+    "N₂O₄"
+   ],
+   "One nitrogen and two oxygen atoms give NO₂."
+  ],
+  [
+   "A molecule of sulfuric acid contains 2 H, 1 S, 4 O atom(s). Which formula represents it?",
+   "H₂SO₄",
+   [
+    "HSO₄",
+    "H₄SO₂",
+    "H₂SO₃"
+   ],
+   "Two hydrogen, one sulfur and four oxygen atoms give H₂SO₄."
+  ],
+  [
+   "A molecule of ethane contains 2 C, 6 H atom(s). Which formula represents it?",
+   "C₂H₆",
+   [
+    "C₆H₂",
+    "C₂H₄",
+    "CH₃"
+   ],
+   "Two carbon and six hydrogen atoms give C₂H₆."
+  ],
+  [
+   "In the formula H₂O, what does the small 2 tell you?",
+   "There are two hydrogen atoms",
+   [
+    "There are two oxygen atoms",
+    "There are two water molecules",
+    "There are two elements in total"
+   ],
+   "A subscript shows how many atoms of the element just before it are in the molecule."
+  ],
+  [
+   "How many atoms in total are in one molecule of CH₄?",
+   "5",
+   [
+    "4",
+    "2",
+    "6"
+   ],
+   "CH₄ has 1 carbon and 4 hydrogen atoms, for 5 atoms in total."
+  ],
+  [
+   "How many atoms in total are in one molecule of C₆H₁₂O₆?",
+   "24",
+   [
+    "18",
+    "3",
+    "12"
+   ],
+   "6 + 12 + 6 = 24 atoms in one glucose molecule."
+  ],
+  [
+   "How many different elements are in CaCO₃?",
+   "3",
+   [
+    "5",
+    "1",
+    "4"
+   ],
+   "CaCO₃ contains calcium, carbon and oxygen, which are three elements."
+  ],
+  [
+   "How many oxygen atoms are in one formula unit of Fe₂O₃ (rust)?",
+   "3",
+   [
+    "2",
+    "5",
+    "1"
+   ],
+   "The subscript 3 after O shows three oxygen atoms."
+  ],
+  [
+   "What does 2H₂O represent?",
+   "Two molecules of water",
+   [
+    "One molecule with two oxygens",
+    "Two atoms of hydrogen only",
+    "Four molecules of water"
+   ],
+   "The large number in front, called a coefficient, shows how many molecules there are."
+  ],
+  [
+   "How many hydrogen atoms are in 2H₂O?",
+   "4",
+   [
+    "2",
+    "3",
+    "6"
+   ],
+   "Each water molecule has 2 hydrogen atoms, and 2 molecules × 2 = 4."
+  ],
+  [
+   "How many oxygen atoms are in Ca(OH)₂?",
+   "2",
+   [
+    "1",
+    "3",
+    "4"
+   ],
+   "The subscript 2 outside the brackets doubles everything inside, giving 2 oxygen atoms."
+  ],
+  [
+   "Baking soda contains 1 Na, 1 H, 1 C, 3 O atom(s). Which formula represents it?",
+   "NaHCO₃",
+   [
+    "NaHC₃O",
+    "Na₃HCO",
+    "NaH₃CO"
+   ],
+   "One each of sodium, hydrogen and carbon plus three oxygen atoms give NaHCO₃."
+  ],
+  [
+   "In a ball-and-stick model, what do the sticks represent?",
+   "Bonds between atoms",
+   [
+    "The nucleus of each atom",
+    "Single electrons only",
+    "Empty space in the atom"
+   ],
+   "The balls stand for atoms and the sticks stand for the chemical bonds holding them together."
+  ],
+  [
+   "A ball-and-stick model shows one black ball joined to two red balls. If black is carbon and red is oxygen, what is the formula?",
+   "CO₂",
+   [
+    "C₂O",
+    "CO",
+    "O₂"
+   ],
+   "One carbon and two oxygen atoms make CO₂."
+  ],
+  [
+   "A model shows two hydrogen atoms joined to one sulfur atom. Which formula represents it?",
+   "H₂S",
+   [
+    "HS₂",
+    "SO₂",
+    "H₂SO₄"
+   ],
+   "Two hydrogen atoms and one sulfur atom give H₂S, hydrogen sulfide."
+  ],
+  [
+   "Why is CO₂ called a molecule of a compound, but O₂ called a molecule of an element?",
+   "CO₂ has two kinds of atoms; O₂ has one",
+   [
+    "CO₂ has one kind of atom; O₂ has two",
+    "CO₂ is a gas, but O₂ is a solid",
+    "O₂ has more atoms than CO₂ has"
+   ],
+   "A compound contains more than one element, while O₂ is made only of oxygen atoms."
+  ]
  ]
 }

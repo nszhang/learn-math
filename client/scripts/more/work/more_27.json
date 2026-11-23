@@ -1108,5 +1108,1115 @@
    ],
    "Many harmful plant compounds are bitter, so disliking bitterness helps protect us."
   ]
+ ],
+ "sciXsSynth": [
+  [
+   "Which material is synthetic?",
+   "Acrylic",
+   [
+    "Silk",
+    "Linen",
+    "Leather"
+   ],
+   "Acrylic fibre is made by people from chemicals, while the others come from plants or animals."
+  ],
+  [
+   "Which of these materials is NOT synthetic?",
+   "Silk",
+   [
+    "Nylon",
+    "Polyester",
+    "Spandex"
+   ],
+   "Silk is a natural fibre spun by silkworms; the others are made in factories by chemical reactions."
+  ],
+  [
+   "What are polymers, such as plastics?",
+   "Long chains of repeating small molecules",
+   [
+    "Single atoms of one metal",
+    "Mixtures of salt and sand",
+    "Gases trapped inside rocks"
+   ],
+   "Polymers are huge molecules made of many small units linked in long chains."
+  ],
+  [
+   "The small molecules that join together to make a polymer are called…",
+   "monomers",
+   [
+    "isotopes",
+    "minerals",
+    "crystals"
+   ],
+   "Monomers are the repeating building blocks that link up to form a polymer."
+  ],
+  [
+   "Which synthetic material coats many non-stick frying pans?",
+   "Teflon",
+   [
+    "Kevlar",
+    "Nylon",
+    "Spandex"
+   ],
+   "Teflon is a slippery synthetic polymer that food does not stick to."
+  ],
+  [
+   "Which synthetic fibre is very stretchy and used in sports clothing?",
+   "Spandex",
+   [
+    "Kevlar",
+    "Teflon",
+    "Styrofoam"
+   ],
+   "Spandex can stretch to several times its length and spring back."
+  ],
+  [
+   "Why is polyester often used in rain jackets?",
+   "It resists water and dries quickly",
+   [
+    "It soaks up water like a sponge",
+    "It dissolves slowly in the rain",
+    "It is made from sheep's wool"
+   ],
+   "Polyester absorbs very little water, so it sheds rain and dries fast."
+  ],
+  [
+   "What does \"biodegradable\" mean?",
+   "Can be broken down by living things",
+   [
+    "Can never be broken down at all",
+    "Is made only from metal",
+    "Melts instantly in sunlight"
+   ],
+   "Biodegradable materials are broken down by organisms such as bacteria and fungi."
+  ],
+  [
+   "Why are microplastics a concern?",
+   "Tiny plastic bits build up in water and animals",
+   [
+    "They help fish grow faster and larger",
+    "They break down into clean sand quickly",
+    "They make lake water much warmer"
+   ],
+   "Small plastic pieces last a long time and are swallowed by animals, harming food chains."
+  ],
+  [
+   "What are bioplastics such as PLA made from?",
+   "Plant materials such as corn starch",
+   [
+    "Melted rocks and beach sand",
+    "Salt water from the ocean",
+    "Crushed animal bones"
+   ],
+   "PLA is made from sugars or starch taken from plants like corn."
+  ],
+  [
+   "Which property makes Kevlar useful in firefighters' gear?",
+   "It is very strong and heat-resistant",
+   [
+    "It is soft and dissolves in water",
+    "It conducts electricity very well",
+    "It is very heavy and brittle"
+   ],
+   "Kevlar fibres are extremely strong and do not melt easily, protecting the wearer."
+  ],
+  [
+   "Recycling code 1 (PET plastic) is most often found on…",
+   "water and pop bottles",
+   [
+    "car and bike tires",
+    "glass pickle jars",
+    "aluminum soup cans"
+   ],
+   "PET is the clear, light plastic used for most drink bottles."
+  ],
+  [
+   "Why do scientists develop new synthetic materials?",
+   "To meet needs natural materials can't meet as well",
+   [
+    "To make products break more easily",
+    "To use up all of Earth's fresh water",
+    "To make clothing much heavier"
+   ],
+   "Synthetics can be designed to be stronger, lighter, waterproof or cheaper than natural materials."
+  ],
+  [
+   "Polystyrene foam is useful for take-out coffee cups because it…",
+   "is a good thermal insulator",
+   [
+    "conducts heat very well",
+    "is strongly magnetic",
+    "is safe to eat"
+   ],
+   "Foam traps air, which slows the flow of heat so drinks stay hot and hands stay cool."
+  ],
+  [
+   "Which synthetic material is used for many water pipes and window frames?",
+   "PVC",
+   [
+    "Oak",
+    "Granite",
+    "Cotton"
+   ],
+   "PVC (polyvinyl chloride) is a tough, waterproof plastic made by chemical reactions."
+  ],
+  [
+   "Nylon stockings were first made to replace which natural fibre?",
+   "Silk",
+   [
+    "Wool",
+    "Cotton",
+    "Hemp"
+   ],
+   "Nylon was developed in the 1930s as a cheaper substitute for silk."
+  ],
+  [
+   "What is one problem with making plastics from petroleum?",
+   "Petroleum is non-renewable",
+   [
+    "Petroleum grows back each year",
+    "Petroleum is free and endless",
+    "Petroleum is made of pure water"
+   ],
+   "Petroleum took millions of years to form, so once it is used up it cannot be replaced."
+  ],
+  [
+   "Which item is made mainly of a synthetic material?",
+   "A polyester fleece jacket",
+   [
+    "A wool mitten",
+    "A cotton T-shirt",
+    "A leather belt"
+   ],
+   "Fleece is usually made of polyester, a synthetic fibre; the others are natural."
+  ],
+  [
+   "Plastic shopping bags are usually made of which synthetic polymer?",
+   "Polyethylene",
+   [
+    "Cellulose",
+    "Silk protein",
+    "Granite"
+   ],
+   "Polyethylene is a common synthetic plastic made from petroleum products."
+  ],
+  [
+   "Why are plastics sorted by type before recycling?",
+   "Different plastics melt and recycle differently",
+   [
+    "All plastics are exactly the same",
+    "Sorting makes plastics biodegradable",
+    "Only one type of plastic can melt"
+   ],
+   "Each plastic has its own melting point and properties, so mixing types weakens recycled products."
+  ],
+  [
+   "Why is synthetic rubber used in many car tires?",
+   "It can be made to resist wear and last longer",
+   [
+    "It is grown on trees in rainforests",
+    "It dissolves when the road gets wet",
+    "It makes tires softer than paper"
+   ],
+   "Chemists can adjust synthetic rubber so it grips the road and wears down slowly."
+  ],
+  [
+   "Which statement about synthetic materials is true?",
+   "Their properties can be planned by chemists",
+   [
+    "They are always found in nature unchanged",
+    "They can never be recycled at all",
+    "They are all made from metal ores"
+   ],
+   "Chemists choose the starting chemicals and reactions to give a synthetic material useful properties."
+  ]
+ ],
+ "sciXsThermT": [
+  [
+   "The burner is under a pot of water, but the water at the top gets hot too. Why?",
+   "Convection currents carry warm water upward",
+   [
+    "Radiation from the ceiling heats the top",
+    "Cold water rises and pushes heat up",
+    "The air above conducts heat downward"
+   ],
+   "Heated water at the bottom becomes less dense and rises, while cooler water sinks."
+  ],
+  [
+   "Why does a breeze often blow from the lake toward land on a sunny afternoon?",
+   "Land warms faster, so warm air rises and cool lake air moves in",
+   [
+    "Water warms faster, so warm lake air flows onto land",
+    "Land cools faster, so cold air sinks over the lake",
+    "Sunlight pushes the air off the lake onto land"
+   ],
+   "Air over hot land rises, and cooler, denser air from over the water flows in to replace it."
+  ],
+  [
+   "Why do you feel warm in front of a campfire even when the wind blows the smoke away?",
+   "Infrared radiation travels to your skin",
+   [
+    "Hot smoke conducts heat to you",
+    "Cold air sinks down onto you",
+    "Sound waves carry heat from the fire"
+   ],
+   "Radiation travels in straight lines from the fire and does not need moving air."
+  ],
+  [
+   "Which kind of thermal energy transfer requires direct contact between objects?",
+   "Conduction",
+   [
+    "Radiation",
+    "Reflection",
+    "Evaporation"
+   ],
+   "Conduction passes energy from particle to particle where objects touch."
+  ],
+  [
+   "Why are winter jackets filled with down or fluffy fibres?",
+   "Trapped air is a poor conductor of heat",
+   [
+    "Feathers make their own heat",
+    "Fibres soak up cold from the air",
+    "Down reflects all sound waves"
+   ],
+   "Still, trapped air slows conduction and convection, keeping body heat in."
+  ],
+  [
+   "Why are most cooking pots made of metal?",
+   "Metals conduct heat well to the food",
+   [
+    "Metals keep heat away from food",
+    "Metals give off cold to the food",
+    "Metals stop all radiation"
+   ],
+   "Metal is a good conductor, so energy moves quickly from the burner into the food."
+  ],
+  [
+   "Why do emergency blankets have a shiny silver surface?",
+   "It reflects radiated heat back to the body",
+   [
+    "It conducts body heat away quickly",
+    "It creates convection currents",
+    "It absorbs cold from the air"
+   ],
+   "A shiny surface reflects infrared radiation, so less body heat escapes."
+  ],
+  [
+   "Why is the air near the ceiling of a room usually warmer than near the floor?",
+   "Warm air is less dense and rises",
+   [
+    "Warm air is denser and rises",
+    "Cold air conducts heat upward",
+    "Radiation pushes air upward"
+   ],
+   "Warmer air expands, becomes less dense and floats above cooler air."
+  ],
+  [
+   "Why are double-pane windows good at keeping heat in?",
+   "The gas layer between panes slows conduction",
+   [
+    "The two panes reflect all sunlight",
+    "The glass produces its own heat",
+    "The gap speeds up heat flow outside"
+   ],
+   "Gas between the panes is a poor conductor, so less heat travels through the window."
+  ],
+  [
+   "Thermal energy always flows naturally from…",
+   "a warmer object to a cooler one",
+   [
+    "a cooler object to a warmer one",
+    "a larger object to a smaller one",
+    "a heavier object to a lighter one"
+   ],
+   "Heat moves from higher to lower temperature until both are the same."
+  ],
+  [
+   "Which surface absorbs the most radiant energy from the Sun?",
+   "A dull black surface",
+   [
+    "A shiny silver surface",
+    "A glossy white surface",
+    "A smooth mirror surface"
+   ],
+   "Dark, dull surfaces absorb most radiation instead of reflecting it."
+  ],
+  [
+   "Why do vacuum flasks have shiny inner walls?",
+   "The shiny walls reflect radiant heat",
+   [
+    "The shiny walls conduct heat faster",
+    "The shiny walls add extra heat",
+    "The shiny walls cause convection"
+   ],
+   "A shiny surface reflects infrared radiation, reducing heat transfer by radiation."
+  ],
+  [
+   "Ice cubes melt faster on a metal tray than on a plastic tray at room temperature. Why?",
+   "Metal conducts heat to the ice faster",
+   [
+    "Plastic conducts heat to the ice faster",
+    "Metal is colder than the room air",
+    "Plastic reflects heat onto the ice"
+   ],
+   "Metal is a better conductor, so it moves thermal energy from the room into the ice more quickly."
+  ],
+  [
+   "How does the Sun's energy reach Earth?",
+   "By radiation through space",
+   [
+    "By conduction through space",
+    "By convection through space",
+    "By streams of hot air"
+   ],
+   "Space is nearly empty, so energy can only travel across it as radiation."
+  ],
+  [
+   "What causes the slow movement of hot rock in Earth's mantle?",
+   "Convection currents",
+   [
+    "Reflection",
+    "Solar radiation",
+    "Wind"
+   ],
+   "Hotter mantle rock rises and cooler rock sinks, forming slow convection currents."
+  ],
+  [
+   "Which material would make the best handle for a hot frying pan?",
+   "Wood",
+   [
+    "Copper",
+    "Aluminum",
+    "Iron"
+   ],
+   "Wood is a poor conductor, so it keeps heat from reaching your hand."
+  ],
+  [
+   "Why does a fan oven cook food more evenly than an oven without a fan?",
+   "A fan circulates hot air around the food",
+   [
+    "It heats food only by radiation",
+    "It heats food only by touching it",
+    "It cools the outside of the food"
+   ],
+   "Moving hot air spreads heat evenly by forced convection."
+  ],
+  [
+   "You touch a hot pan and burn your finger. Which transfer caused the burn?",
+   "Conduction",
+   [
+    "Radiation",
+    "Convection",
+    "Insulation"
+   ],
+   "Thermal energy passed directly from the pan to your skin through contact."
+  ],
+  [
+   "Why do birds fluff up their feathers on cold days?",
+   "To trap more air, which insulates them",
+   [
+    "To catch more sunlight with each feather",
+    "To conduct body heat away faster",
+    "To start convection currents in their skin"
+   ],
+   "Fluffed feathers hold a thicker layer of still air, which slows heat loss."
+  ],
+  [
+   "During conduction along a metal rod, how is energy passed from one end to the other?",
+   "Vibrating particles bump into neighbours",
+   [
+    "Particles flow from one end to the other",
+    "Light shines through the inside of the rod",
+    "The rod melts and its atoms move along"
+   ],
+   "Particles at the hot end vibrate faster and pass energy to nearby particles."
+  ],
+  [
+   "Why do many people wear light-coloured clothes on hot, sunny days?",
+   "Light colours reflect more radiant energy",
+   [
+    "Light colours absorb more radiant energy",
+    "Light colours conduct heat into the body",
+    "Light colours trap a layer of warm air"
+   ],
+   "Reflecting more sunlight means less energy is absorbed by the clothing."
+  ],
+  [
+   "Why are baseboard heaters placed near the floor?",
+   "Warm air rises and spreads through the room",
+   [
+    "Cold air rises up from the floor",
+    "Heat can only travel downward",
+    "Radiation must touch the floor"
+   ],
+   "Air warmed at floor level rises, setting up a convection current that heats the whole room."
+  ]
+ ],
+ "sciXsMemb": [
+  [
+   "Why does a carrot left in very salty water become soft and bendy?",
+   "Water moves out of its cells by osmosis",
+   [
+    "Salt moves into its cells and swells them",
+    "The salt freezes the carrot's cells",
+    "The carrot grows new soft cells"
+   ],
+   "Water moves from the carrot cells toward the saltier water outside, so the cells lose pressure."
+  ],
+  [
+   "A drop of food colouring spreads through still water without stirring. What is this?",
+   "Diffusion",
+   [
+    "Osmosis",
+    "Condensation",
+    "Filtration"
+   ],
+   "Dye particles move randomly from where they are concentrated to where they are not."
+  ],
+  [
+   "Why can you smell perfume across a room soon after it is sprayed?",
+   "Perfume particles diffuse from high to low concentration",
+   [
+    "Perfume particles are pulled by gravity",
+    "Air particles stay still and carry nothing",
+    "Perfume particles move only toward people"
+   ],
+   "Perfume molecules spread out from the spray, where they are concentrated, to the rest of the room."
+  ],
+  [
+   "Diffusion happens faster in…",
+   "warm water than in cold water",
+   [
+    "cold water than in warm water",
+    "ice than in liquid water",
+    "solids than in gases"
+   ],
+   "Particles move faster at higher temperatures, so they spread out more quickly."
+  ],
+  [
+   "Why does oxygen move from the lungs' air sacs into the blood?",
+   "Oxygen is more concentrated in the air sacs",
+   [
+    "Oxygen is more concentrated in the blood",
+    "Blood pulls oxygen like a magnet",
+    "Gravity drags oxygen downward"
+   ],
+   "Oxygen diffuses from the high concentration in the air sacs to the lower concentration in the blood."
+  ],
+  [
+   "In body tissues, which way does carbon dioxide usually diffuse?",
+   "Out of the cells and into the blood",
+   [
+    "Out of the blood and into the cells",
+    "It does not move at all",
+    "Into the nucleus of each cell"
+   ],
+   "Cells make carbon dioxide, so it is more concentrated inside them and diffuses into the blood."
+  ],
+  [
+   "A red blood cell is placed in pure water. What happens?",
+   "It swells and may burst",
+   [
+    "It shrinks and shrivels",
+    "It stays exactly the same",
+    "It grows a cell wall"
+   ],
+   "There is more water outside than inside, so water enters by osmosis."
+  ],
+  [
+   "An animal cell is placed in very salty water. What happens?",
+   "It shrinks as water leaves",
+   [
+    "It swells as water enters",
+    "It bursts as salt enters",
+    "It stays exactly the same"
+   ],
+   "Water moves out toward the saltier solution by osmosis, so the cell shrinks."
+  ],
+  [
+   "Why don't plant cells burst when placed in fresh water?",
+   "The cell wall resists the pressure",
+   [
+    "Plant cells have no cell membrane",
+    "Water cannot enter plant cells",
+    "Chloroplasts soak up the water"
+   ],
+   "The strong cell wall pushes back as the cell fills, so the cell becomes firm instead of bursting."
+  ],
+  [
+   "Which substance is too large to diffuse through a cell membrane on its own?",
+   "Starch",
+   [
+    "Oxygen",
+    "Carbon dioxide",
+    "Water"
+   ],
+   "Starch molecules are very large, while small molecules like oxygen pass through easily."
+  ],
+  [
+   "Bag-like tubing holds starch solution and sits in iodine solution. The liquid inside turns blue-black. What does this show?",
+   "Iodine crossed the membrane, but starch did not",
+   [
+    "Starch crossed the membrane, but iodine did not",
+    "Neither substance crossed the membrane",
+    "Both substances left the tubing entirely"
+   ],
+   "Iodine turns starch blue-black, so iodine must have moved in while the large starch stayed inside."
+  ],
+  [
+   "An egg with its shell dissolved away is placed in corn syrup. What happens?",
+   "It shrinks as water leaves it",
+   [
+    "It swells as syrup enters it",
+    "It swells as water enters it",
+    "It stays exactly the same size"
+   ],
+   "Corn syrup has much less water than the egg, so water moves out by osmosis."
+  ],
+  [
+   "An egg with its shell dissolved away is placed in distilled water. What happens?",
+   "It swells as water enters it",
+   [
+    "It shrinks as water leaves it",
+    "It shrinks as salt enters it",
+    "It stays exactly the same size"
+   ],
+   "There is more water outside the egg's membrane, so water moves in by osmosis."
+  ],
+  [
+   "In diffusion, what is equilibrium?",
+   "When the concentration is the same everywhere",
+   [
+    "When all the particles stop moving",
+    "When all the particles are on one side",
+    "When the membrane breaks open"
+   ],
+   "At equilibrium there is no longer a concentration difference to cause net movement."
+  ],
+  [
+   "At equilibrium, the particles…",
+   "keep moving, but with no net change",
+   [
+    "stop moving completely",
+    "all move to one side",
+    "turn into water molecules"
+   ],
+   "Particles keep moving randomly, but equal numbers move each way."
+  ],
+  [
+   "Why does watering a plant with salty water make it wilt?",
+   "Water moves out of root cells by osmosis",
+   [
+    "Salt makes the roots grow too fast",
+    "Salt blocks sunlight from the leaves",
+    "The plant drinks too much water"
+   ],
+   "Salty soil water pulls water out of the root cells, so the plant loses water."
+  ],
+  [
+   "Which type of transport does NOT require the cell to use energy?",
+   "Diffusion",
+   [
+    "Active transport",
+    "Pumping ions uphill",
+    "Engulfing food particles"
+   ],
+   "Diffusion is passive; particles move on their own from high to low concentration."
+  ],
+  [
+   "Why does a larger surface area speed up diffusion into a cell?",
+   "More membrane is available for particles to cross",
+   [
+    "Particles move more slowly into big cells",
+    "Large cells have no membrane at all",
+    "Surface area stops osmosis from happening"
+   ],
+   "More membrane area means more places where particles can pass through at once."
+  ],
+  [
+   "Why does a high-sugar jam resist spoiling by bacteria?",
+   "Water leaves bacteria by osmosis",
+   [
+    "Sugar freezes the bacteria",
+    "Sugar makes bacteria magnetic",
+    "Sugar gives bacteria too much light"
+   ],
+   "The very concentrated sugar draws water out of bacterial cells, so they cannot grow."
+  ],
+  [
+   "In osmosis, water moves toward the side with…",
+   "more dissolved solute",
+   [
+    "less dissolved solute",
+    "more water molecules",
+    "the warmer membrane"
+   ],
+   "Water moves to where its own concentration is lower, which is the side with more solute."
+  ],
+  [
+   "Which is an example of osmosis?",
+   "Plant roots taking in water from soil",
+   [
+    "Perfume spreading through a room",
+    "Sugar dissolving when it is stirred",
+    "Sweat evaporating from your skin"
+   ],
+   "Osmosis is water moving across a membrane, like water entering root cells."
+  ],
+  [
+   "There is more glucose in the blood than inside a body cell. How does glucose get into the cell?",
+   "It diffuses into the cell",
+   [
+    "It diffuses out of the cell",
+    "Gravity pushes it inward",
+    "It cannot enter the cell"
+   ],
+   "Glucose moves from the higher concentration in the blood to the lower concentration inside the cell."
+  ]
+ ],
+ "sciATO": [
+  [
+   "What is the nucleus of an atom made of?",
+   "Protons and neutrons",
+   [
+    "Protons and electrons",
+    "Electrons only",
+    "Neutrons and electrons"
+   ],
+   "The nucleus contains protons and neutrons, while electrons are outside it."
+  ],
+  [
+   "What is the overall charge of an atom's nucleus?",
+   "Positive",
+   [
+    "Negative",
+    "No charge",
+    "It keeps switching"
+   ],
+   "The nucleus contains positive protons and neutral neutrons, so it is positive overall."
+  ],
+  [
+   "Which particle did J. J. Thomson discover in 1897?",
+   "Electron",
+   [
+    "Proton",
+    "Neutron",
+    "Photon"
+   ],
+   "Thomson discovered the electron, the first known particle smaller than an atom."
+  ],
+  [
+   "A neutral atom has 6 protons. How many electrons does it have?",
+   "6",
+   [
+    "12",
+    "0",
+    "3"
+   ],
+   "In a neutral atom the number of electrons equals the number of protons."
+  ],
+  [
+   "An atom has 6 protons and 6 neutrons. What is its mass number?",
+   "12",
+   [
+    "6",
+    "18",
+    "0"
+   ],
+   "Mass number is protons plus neutrons: 6 + 6 = 12."
+  ],
+  [
+   "An atom has 8 protons. Which element is it?",
+   "Oxygen",
+   [
+    "Carbon",
+    "Nitrogen",
+    "Neon"
+   ],
+   "Oxygen has atomic number 8, meaning 8 protons."
+  ],
+  [
+   "Which particles decide which element an atom is?",
+   "Protons",
+   [
+    "Neutrons",
+    "Electrons",
+    "Photons"
+   ],
+   "Every atom of an element has the same number of protons."
+  ],
+  [
+   "Most of an atom's volume is…",
+   "empty space",
+   [
+    "solid protons",
+    "packed neutrons",
+    "liquid metal"
+   ],
+   "The nucleus is tiny, and the electrons move in a large region that is mostly empty."
+  ],
+  [
+   "Most of an atom's mass is found in…",
+   "the nucleus",
+   [
+    "the electron cloud",
+    "the empty space",
+    "the outer energy level"
+   ],
+   "Protons and neutrons are much heavier than electrons, and they are in the nucleus."
+  ],
+  [
+   "Compared with each other, protons and neutrons have…",
+   "about the same mass",
+   [
+    "no mass at all",
+    "the same charge",
+    "almost no mass"
+   ],
+   "A proton and a neutron have nearly equal mass, about 1 atomic mass unit each."
+  ],
+  [
+   "Which scientist discovered the nucleus with the gold foil experiment?",
+   "Ernest Rutherford",
+   [
+    "Isaac Newton",
+    "Charles Darwin",
+    "Galileo Galilei"
+   ],
+   "Rutherford's gold foil experiment showed atoms have a tiny, dense, positive nucleus."
+  ],
+  [
+   "Why is a whole atom neutral?",
+   "It has equal numbers of protons and electrons",
+   [
+    "It has equal numbers of protons and neutrons",
+    "It has no particles at all inside it",
+    "Its neutrons cancel out its electrons"
+   ],
+   "Each proton's positive charge is balanced by an electron's negative charge."
+  ],
+  [
+   "An atom gains one extra electron. What does it become?",
+   "A negative ion",
+   [
+    "A positive ion",
+    "A new element",
+    "A neutron"
+   ],
+   "An extra electron gives the atom more negative than positive charge."
+  ],
+  [
+   "An atom loses one electron. What does it become?",
+   "A positive ion",
+   [
+    "A negative ion",
+    "A new element",
+    "A neutron"
+   ],
+   "With one fewer electron, the protons outnumber the electrons, giving a positive charge."
+  ],
+  [
+   "What keeps electrons near the nucleus?",
+   "Attraction between opposite charges",
+   [
+    "Repulsion between like charges",
+    "Gravity from the neutrons",
+    "Magnetism of the electrons"
+   ],
+   "Negative electrons are attracted to the positive protons in the nucleus."
+  ],
+  [
+   "Electrons are arranged around the nucleus in…",
+   "energy levels",
+   [
+    "nuclei",
+    "isotopes",
+    "molecules"
+   ],
+   "Electrons occupy energy levels, also called shells, at different distances from the nucleus."
+  ],
+  [
+   "Atoms of the same element with different numbers of neutrons are called…",
+   "isotopes",
+   [
+    "ions",
+    "molecules",
+    "compounds"
+   ],
+   "Isotopes have the same number of protons but different numbers of neutrons."
+  ],
+  [
+   "How many electrons can the first energy level hold?",
+   "2",
+   [
+    "8",
+    "18",
+    "1"
+   ],
+   "The first energy level, closest to the nucleus, holds at most 2 electrons."
+  ],
+  [
+   "The most common type of hydrogen atom has 1 proton and how many neutrons?",
+   "0",
+   [
+    "1",
+    "2",
+    "3"
+   ],
+   "Ordinary hydrogen has just one proton and one electron, with no neutrons."
+  ],
+  [
+   "An atom has 11 protons, 12 neutrons and 11 electrons. What is its atomic number?",
+   "11",
+   [
+    "12",
+    "23",
+    "22"
+   ],
+   "The atomic number is the number of protons, which is 11."
+  ],
+  [
+   "Protons repel each other. What holds them together in the nucleus?",
+   "The strong nuclear force",
+   [
+    "The electrons around them",
+    "Gravity from Earth",
+    "Magnetic north poles"
+   ],
+   "The strong nuclear force acts over tiny distances and is stronger than the repulsion between protons."
+  ],
+  [
+   "In a model of an atom, which part is at the very centre?",
+   "The nucleus",
+   [
+    "An electron",
+    "An energy level",
+    "A molecule"
+   ],
+   "The nucleus is the small, dense centre of the atom."
+  ]
+ ],
+ "sciMIX": [
+  [
+   "Classify neon gas as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Neon is made of only one kind of atom."
+  ],
+  [
+   "Classify aluminum foil as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Aluminum foil is made of aluminum atoms only."
+  ],
+  [
+   "Classify liquid mercury as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Mercury is a pure substance made of one kind of atom."
+  ],
+  [
+   "Classify yellow sulfur powder as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Sulfur is made of only sulfur atoms."
+  ],
+  [
+   "Classify nitrogen gas (N₂) as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "N₂ molecules contain only nitrogen atoms."
+  ],
+  [
+   "Classify copper wire as an element, a compound, a mechanical mixture or a solution.",
+   "Element",
+   [
+    "Compound",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Copper wire is made of copper atoms only."
+  ],
+  [
+   "Classify baking soda (NaHCO₃) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Baking soda is sodium, hydrogen, carbon and oxygen chemically combined in a fixed ratio."
+  ],
+  [
+   "Classify rust (Fe₂O₃) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Rust is iron and oxygen chemically bonded together."
+  ],
+  [
+   "Classify ammonia (NH₃) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Each ammonia molecule has nitrogen and hydrogen atoms bonded together."
+  ],
+  [
+   "Classify methane (CH₄) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Methane is carbon and hydrogen chemically combined."
+  ],
+  [
+   "Classify glucose (C₆H₁₂O₆) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Glucose is one pure substance made of carbon, hydrogen and oxygen bonded together."
+  ],
+  [
+   "Classify calcium carbonate (CaCO₃) as an element, a compound, a mechanical mixture or a solution.",
+   "Compound",
+   [
+    "Element",
+    "Mechanical mixture",
+    "Solution"
+   ],
+   "Calcium carbonate contains three elements chemically combined in a fixed ratio."
+  ],
+  [
+   "Classify trail mix as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "You can see and pick out the separate nuts, raisins and seeds."
+  ],
+  [
+   "Classify granite as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "Granite has visible grains of different minerals mixed together."
+  ],
+  [
+   "Classify a slice of pizza as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "The crust, sauce, cheese and toppings are separate parts you can see."
+  ],
+  [
+   "Classify sand mixed with iron filings as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "The two parts stay separate and can be pulled apart with a magnet."
+  ],
+  [
+   "Classify cereal in milk as an element, a compound, a mechanical mixture or a solution.",
+   "Mechanical mixture",
+   [
+    "Element",
+    "Compound",
+    "Solution"
+   ],
+   "The cereal pieces and milk are visibly different parts."
+  ],
+  [
+   "Classify vinegar as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "Vinegar is acetic acid evenly dissolved in water, so it looks like one substance."
+  ],
+  [
+   "Classify brass as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "Brass is an alloy in which zinc is evenly mixed into copper."
+  ],
+  [
+   "Classify clear apple juice as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "Sugars and other substances are dissolved evenly in water, so you see only one phase."
+  ],
+  [
+   "Classify maple syrup as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "Maple syrup is sugar evenly dissolved in water."
+  ],
+  [
+   "Classify sugar stirred into hot tea until it disappears as an element, a compound, a mechanical mixture or a solution.",
+   "Solution",
+   [
+    "Element",
+    "Compound",
+    "Mechanical mixture"
+   ],
+   "The dissolved sugar spreads evenly through the tea and can't be seen."
+  ]
  ]
 }

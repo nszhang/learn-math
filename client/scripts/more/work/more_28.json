@@ -1108,5 +1108,1115 @@
    ],
    "Translucent materials transmit some light but scatter it so images are not clear."
   ]
+ ],
+ "sciEMwave": [
+  [
+   "Which electromagnetic waves have the shortest wavelength?",
+   "Gamma rays",
+   [
+    "Radio waves",
+    "Microwaves",
+    "Infrared"
+   ],
+   "Gamma rays are at the high-energy end of the spectrum, with the shortest wavelengths."
+  ],
+  [
+   "Which electromagnetic waves carry AM and FM broadcasts?",
+   "Radio waves",
+   [
+    "X-rays",
+    "Ultraviolet",
+    "Gamma rays"
+   ],
+   "Radio stations send their signals using radio waves."
+  ],
+  [
+   "Which waves are used in radiation therapy to destroy cancer cells?",
+   "Gamma rays",
+   [
+    "Radio waves",
+    "Visible light",
+    "Infrared"
+   ],
+   "High-energy gamma rays can be aimed to damage and kill cancer cells."
+  ],
+  [
+   "Which list goes from longest to shortest wavelength?",
+   "Radio, infrared, ultraviolet, gamma",
+   [
+    "Gamma, ultraviolet, infrared, radio",
+    "Infrared, radio, gamma, ultraviolet",
+    "Radio, ultraviolet, infrared, gamma"
+   ],
+   "Wavelength shrinks from radio through infrared and ultraviolet to gamma rays."
+  ],
+  [
+   "Which colour of visible light has the lowest energy?",
+   "Red",
+   [
+    "Violet",
+    "Blue",
+    "Green"
+   ],
+   "Red light has the lowest frequency of visible light, so it carries the least energy."
+  ],
+  [
+   "Do electromagnetic waves need a medium to travel through?",
+   "No, they can travel through a vacuum",
+   [
+    "Yes, they need air to travel",
+    "Yes, they need water to travel",
+    "Yes, they need a solid to travel"
+   ],
+   "Electromagnetic waves are vibrating fields, so they can cross empty space, like sunlight reaching Earth."
+  ],
+  [
+   "About how fast does light travel in a vacuum?",
+   "300 000 km/s",
+   [
+    "300 km/s",
+    "340 m/s",
+    "3000 km/s"
+   ],
+   "Light and all electromagnetic waves travel at about 300 000 km per second in a vacuum."
+  ],
+  [
+   "What kind of waves are electromagnetic waves?",
+   "Transverse",
+   [
+    "Longitudinal",
+    "Mechanical",
+    "Compression"
+   ],
+   "The electric and magnetic fields vibrate at right angles to the direction the wave travels."
+  ],
+  [
+   "Black lights give off which invisible waves that make some posters glow?",
+   "Ultraviolet",
+   [
+    "Infrared",
+    "Radio waves",
+    "Microwaves"
+   ],
+   "Black lights give off UV, which fluorescent paints absorb and re-emit as visible light."
+  ],
+  [
+   "Which part of the spectrum lies between infrared and ultraviolet?",
+   "Visible light",
+   [
+    "X-rays",
+    "Microwaves",
+    "Radio waves"
+   ],
+   "Visible light sits between infrared (longer) and ultraviolet (shorter) wavelengths."
+  ],
+  [
+   "Which part of the spectrum lies between radio waves and infrared?",
+   "Microwaves",
+   [
+    "Visible light",
+    "X-rays",
+    "Gamma rays"
+   ],
+   "Microwaves have wavelengths shorter than radio waves but longer than infrared."
+  ],
+  [
+   "Which part of the spectrum lies between ultraviolet and gamma rays?",
+   "X-rays",
+   [
+    "Infrared",
+    "Microwaves",
+    "Visible light"
+   ],
+   "X-rays have shorter wavelengths than ultraviolet but longer than gamma rays."
+  ],
+  [
+   "Moving across the spectrum, as wavelength gets shorter, frequency…",
+   "increases",
+   [
+    "decreases",
+    "stays the same",
+    "drops to zero"
+   ],
+   "All electromagnetic waves travel at the same speed, so shorter wavelengths mean higher frequencies."
+  ],
+  [
+   "Which waves does the ozone layer mostly absorb?",
+   "Ultraviolet",
+   [
+    "Radio waves",
+    "Visible light",
+    "Microwaves"
+   ],
+   "The ozone layer absorbs most of the Sun's harmful ultraviolet radiation."
+  ],
+  [
+   "Why are X-rays and gamma rays dangerous in large doses?",
+   "They carry enough energy to damage cells and DNA",
+   [
+    "They are loud enough to harm the ears",
+    "They make the body much too cold",
+    "They have very long, heavy wavelengths"
+   ],
+   "These high-energy waves can break chemical bonds in DNA and harm living cells."
+  ],
+  [
+   "Large dish telescopes that detect signals from distant gas clouds use which waves?",
+   "Radio waves",
+   [
+    "X-rays",
+    "Gamma rays",
+    "Ultraviolet"
+   ],
+   "Radio telescopes collect long-wavelength radio waves given off by objects in space."
+  ],
+  [
+   "Which waves let thermal cameras see warm bodies in the dark?",
+   "Infrared",
+   [
+    "Ultraviolet",
+    "X-rays",
+    "Radio waves"
+   ],
+   "Warm objects give off infrared, which thermal cameras detect."
+  ],
+  [
+   "White light passes through a prism. What comes out the other side?",
+   "The colours of the rainbow",
+   [
+    "Only X-rays and gamma rays",
+    "Only radio waves",
+    "Only red light"
+   ],
+   "A prism bends each colour by a different amount, splitting white light into a spectrum."
+  ],
+  [
+   "Which electromagnetic waves have the lowest frequency?",
+   "Radio waves",
+   [
+    "Gamma rays",
+    "X-rays",
+    "Visible light"
+   ],
+   "Radio waves have the longest wavelengths and therefore the lowest frequencies."
+  ],
+  [
+   "Which waves do airport security scanners use to see inside bags?",
+   "X-rays",
+   [
+    "Radio waves",
+    "Infrared",
+    "Visible light"
+   ],
+   "X-rays pass through soft materials but are blocked by dense objects, showing what is inside."
+  ],
+  [
+   "What are electromagnetic waves made of?",
+   "Vibrating electric and magnetic fields",
+   [
+    "Vibrating particles of air",
+    "Moving molecules of water",
+    "Spinning atoms of nitrogen"
+   ],
+   "Electromagnetic waves are linked electric and magnetic fields that vibrate together."
+  ],
+  [
+   "A station broadcasts at 100 MHz. Which part of the spectrum is this?",
+   "Radio waves",
+   [
+    "Gamma rays",
+    "X-rays",
+    "Ultraviolet"
+   ],
+   "FM radio stations broadcast around 88 to 108 MHz, in the radio part of the spectrum."
+  ]
+ ],
+ "sciXsInfra": [
+  [
+   "A security light switches on when someone walks past at night. What does its sensor detect?",
+   "Infrared given off by the person's body",
+   [
+    "Ultraviolet given off by the person's skin",
+    "X-rays given off by the person's bones",
+    "Gamma rays given off by the person's cells"
+   ],
+   "Motion sensors detect the infrared radiation that warm bodies give off."
+  ],
+  [
+   "How does a toaster brown bread?",
+   "Its hot coils give off infrared that heats the bread",
+   [
+    "Its hot coils give off X-rays that cook the bread",
+    "Its coils give off sound that shakes the bread",
+    "Its coils give off gamma rays that dry the bread"
+   ],
+   "Glowing hot coils radiate infrared energy, which the bread absorbs as heat."
+  ],
+  [
+   "Infrared lies just beyond which colour of visible light?",
+   "Red",
+   [
+    "Violet",
+    "Blue",
+    "Green"
+   ],
+   "The name infrared means 'below red', since its wavelengths are just longer than red light."
+  ],
+  [
+   "Compared with visible light, infrared has a…",
+   "longer wavelength",
+   [
+    "shorter wavelength",
+    "higher frequency",
+    "faster speed"
+   ],
+   "Infrared waves are longer than visible light waves and have lower frequencies."
+  ],
+  [
+   "Weather satellites use infrared images to…",
+   "see clouds at night by their temperature",
+   [
+    "measure the thickness of the ozone",
+    "listen to thunder from space",
+    "see through the ground"
+   ],
+   "Infrared shows temperature differences, so clouds can be tracked even without sunlight."
+  ],
+  [
+   "Who discovered infrared in 1800 by placing a thermometer just past the red end of a spectrum?",
+   "William Herschel",
+   [
+    "Isaac Newton",
+    "Marie Curie",
+    "Albert Einstein"
+   ],
+   "Herschel noticed the thermometer warmed beyond red light, revealing invisible infrared."
+  ],
+  [
+   "Why are thermal images useful for checking a house in winter?",
+   "They show where heat escapes from the house",
+   [
+    "They show the colour of the paint",
+    "They show sound leaking from rooms",
+    "They show where X-rays enter"
+   ],
+   "Warm spots on a thermal image reveal leaks around windows, doors and walls."
+  ],
+  [
+   "Why do search-and-rescue teams use infrared cameras?",
+   "To find warm people in the dark",
+   [
+    "To hear calls for help from afar",
+    "To see through solid rock",
+    "To measure the depth of lakes"
+   ],
+   "People are warmer than their surroundings, so they show up clearly on infrared cameras."
+  ],
+  [
+   "Fibre-optic internet cables usually carry signals as pulses of…",
+   "infrared light",
+   [
+    "ultraviolet light",
+    "X-rays",
+    "gamma rays"
+   ],
+   "Most fibre-optic systems use invisible infrared light because it travels far through glass fibres."
+  ],
+  [
+   "How does a TV remote control send its signal?",
+   "Flashes of infrared light",
+   [
+    "Pulses of X-rays",
+    "Flashes of ultraviolet",
+    "Bursts of gamma rays"
+   ],
+   "The remote flashes an infrared LED in a code that a sensor on the TV reads."
+  ],
+  [
+   "Why might a TV remote stop working when your hand covers its front end?",
+   "Your hand blocks the infrared beam",
+   [
+    "Your hand cools down the batteries",
+    "Your hand reflects radio waves away",
+    "Your hand adds static to the TV"
+   ],
+   "Infrared from the remote needs a clear path to the TV's sensor, and your hand absorbs it."
+  ],
+  [
+   "Which of these gives off the most infrared radiation?",
+   "A hot stove element",
+   [
+    "An ice cube",
+    "A cold drink can",
+    "A snowball"
+   ],
+   "Hotter objects give off much more infrared than cold ones."
+  ],
+  [
+   "Why do some space telescopes observe in infrared?",
+   "Infrared passes through dust that blocks visible light",
+   [
+    "Infrared is the only light that stars give off",
+    "Infrared travels faster than visible light",
+    "Infrared makes far-off stars look closer"
+   ],
+   "Infrared can pass through clouds of cosmic dust, revealing stars and galaxies hidden in visible light."
+  ],
+  [
+   "Physiotherapists sometimes use infrared lamps to…",
+   "warm and relax sore muscles",
+   [
+    "take pictures of bones",
+    "help skin make vitamin D",
+    "kill germs on the skin"
+   ],
+   "Infrared lamps gently heat tissue, which can ease muscle pain."
+  ],
+  [
+   "Farmers use infrared images taken by drones to…",
+   "spot crops that are stressed or unhealthy",
+   [
+    "hear insects chewing on the leaves",
+    "see minerals deep underground",
+    "count raindrops falling in a storm"
+   ],
+   "Healthy and stressed plants reflect and give off infrared differently, which shows up in the images."
+  ],
+  [
+   "An ear thermometer measures temperature by detecting…",
+   "infrared from the eardrum",
+   [
+    "ultraviolet from the eardrum",
+    "sound from the ear canal",
+    "X-rays from the skull"
+   ],
+   "The warm eardrum gives off infrared, and the thermometer turns that reading into a temperature."
+  ],
+  [
+   "Why do you feel warm facing a campfire, even on a cool night?",
+   "Infrared from the fire reaches your skin",
+   [
+    "Ultraviolet from the fire heats your bones",
+    "Smoke carries the heat by conduction",
+    "Sound from the crackling warms you"
+   ],
+   "The fire radiates infrared, which travels through the air and is absorbed by your skin."
+  ],
+  [
+   "Infrared heat lamps are used on farms to…",
+   "keep newborn chicks warm",
+   [
+    "keep chicks cool in summer",
+    "make hens lay blue eggs",
+    "scare foxes away at night"
+   ],
+   "Young chicks cannot keep themselves warm, so heat lamps give off infrared to warm them."
+  ],
+  [
+   "Which of these is NOT a use of infrared?",
+   "Taking pictures of broken bones",
+   [
+    "Night-vision cameras",
+    "TV remote controls",
+    "Checking houses for heat leaks"
+   ],
+   "Pictures of broken bones are taken with X-rays, not infrared."
+  ],
+  [
+   "A thermal camera can spot a person in darkness but not behind a thick concrete wall. Why?",
+   "Thick concrete blocks the infrared",
+   [
+    "The person stops giving off heat",
+    "Infrared only travels in daylight",
+    "Concrete gives off X-rays instead"
+   ],
+   "Infrared passes through air but is absorbed by thick solid walls."
+  ],
+  [
+   "Which objects give off infrared radiation?",
+   "All warm objects, including people",
+   [
+    "Only the Sun and other stars",
+    "Only objects that glow bright red",
+    "Only devices that use electricity"
+   ],
+   "Every object above absolute zero gives off some infrared, and warmer objects give off more."
+  ],
+  [
+   "How fast does infrared radiation travel through space?",
+   "At the speed of light",
+   [
+    "At the speed of sound",
+    "At half the speed of light",
+    "At twice the speed of light"
+   ],
+   "Infrared is an electromagnetic wave, so it travels at the speed of light."
+  ]
+ ],
+ "sciXsUV": [
+  [
+   "Why is too much UV exposure linked to skin cancer?",
+   "It can damage the DNA in skin cells",
+   [
+    "It can freeze the water in skin cells",
+    "It can add extra water to skin cells",
+    "It can only affect the hair on skin"
+   ],
+   "UV energy can cause changes in DNA, which may lead cells to grow out of control."
+  ],
+  [
+   "What does a higher SPF number on sunscreen mean?",
+   "More protection from sunburn",
+   [
+    "Less protection from sunburn",
+    "A stronger scent",
+    "No need to reapply"
+   ],
+   "SPF measures how well sunscreen protects against the UVB rays that cause sunburn."
+  ],
+  [
+   "Why should sunglasses block UV?",
+   "UV can damage the eyes",
+   [
+    "UV makes colours look dull",
+    "UV is too bright to look at",
+    "UV makes eyes feel warm"
+   ],
+   "Long exposure to UV can harm the cornea and lens of the eye."
+  ],
+  [
+   "Why is snow blindness a risk for skiers?",
+   "Snow reflects lots of UV into the eyes",
+   [
+    "Snow absorbs all of the light",
+    "Cold air freezes the eyes",
+    "Snow gives off infrared"
+   ],
+   "Fresh snow reflects much of the Sun's UV, which can burn the surface of the eyes."
+  ],
+  [
+   "Why is the UV risk greater on a high mountain?",
+   "Thinner air absorbs less UV",
+   [
+    "Cold air makes UV stronger",
+    "Rocks give off their own UV",
+    "Mountains reflect radio waves"
+   ],
+   "At high altitude there is less atmosphere above you to absorb the Sun's UV."
+  ],
+  [
+   "When is UV from the Sun usually strongest during the day?",
+   "Around midday",
+   [
+    "Early morning",
+    "Late evening",
+    "Just after sunset"
+   ],
+   "Around noon the Sun is highest, so its rays pass through the least atmosphere."
+  ],
+  [
+   "Compared with visible light, ultraviolet has a…",
+   "shorter wavelength",
+   [
+    "longer wavelength",
+    "lower frequency",
+    "slower speed"
+   ],
+   "UV waves are shorter than visible light waves and carry more energy."
+  ],
+  [
+   "Ultraviolet lies just beyond which colour of visible light?",
+   "Violet",
+   [
+    "Red",
+    "Orange",
+    "Yellow"
+   ],
+   "The name ultraviolet means 'beyond violet', since its wavelengths are just shorter than violet light."
+  ],
+  [
+   "Can humans see ultraviolet light?",
+   "No, it is invisible to us",
+   [
+    "Yes, it looks violet to us",
+    "Yes, it looks white to us",
+    "Yes, but only on cloudy days"
+   ],
+   "Human eyes cannot detect UV, though some animals can."
+  ],
+  [
+   "Bees can see ultraviolet light. How does this help them?",
+   "They see UV patterns on flowers",
+   [
+    "They see in total darkness",
+    "They sense heat from animals",
+    "They hear other bees buzzing"
+   ],
+   "Many flowers have UV markings that guide bees to nectar."
+  ],
+  [
+   "Why do banknotes have marks that glow under UV light?",
+   "To help detect fake money",
+   [
+    "To keep the bills cool",
+    "To make the bills waterproof",
+    "To make the bills heavier"
+   ],
+   "Hidden fluorescent features are hard to copy, so UV lamps help spot counterfeits."
+  ],
+  [
+   "Why do you rarely get sunburned through a closed car side window?",
+   "Glass blocks most of the UVB that causes sunburn",
+   [
+    "Glass blocks all of the visible light",
+    "Glass turns the UV into radio waves",
+    "Glass reflects all of the sunlight"
+   ],
+   "Ordinary glass absorbs most UVB, though some UVA can still pass through."
+  ],
+  [
+   "Which waves carry more energy than visible light?",
+   "Ultraviolet",
+   [
+    "Infrared",
+    "Radio waves",
+    "Microwaves"
+   ],
+   "UV has a higher frequency than visible light, so it carries more energy."
+  ],
+  [
+   "Why do curtains and posters near sunny windows fade over time?",
+   "UV energy breaks down the dye molecules",
+   [
+    "UV adds extra water to the dyes",
+    "UV cools the dyes until they freeze",
+    "UV coats the colours in white paint"
+   ],
+   "UV has enough energy to break the chemical bonds in many dyes."
+  ],
+  [
+   "What is a black light?",
+   "A lamp that gives off mostly UV light",
+   [
+    "A lamp that gives off mostly X-rays",
+    "A lamp that gives off no energy",
+    "A lamp that absorbs all light"
+   ],
+   "Black lights give off ultraviolet with very little visible light."
+  ],
+  [
+   "Which type of UV is almost completely absorbed by the atmosphere before reaching the ground?",
+   "UVC",
+   [
+    "UVA",
+    "UVB",
+    "All types equally"
+   ],
+   "UVC is the most energetic type, and the ozone layer and atmosphere absorb nearly all of it."
+  ],
+  [
+   "In Canada, which season usually has the highest UV index?",
+   "Summer",
+   [
+    "Winter",
+    "Autumn",
+    "Late fall"
+   ],
+   "In summer the Sun is highest in the sky, so UV rays are strongest."
+  ],
+  [
+   "On Canada's scale, how is a UV index of 8 described?",
+   "Very high",
+   [
+    "Low",
+    "Moderate",
+    "Extreme"
+   ],
+   "A UV index of 8 to 10 is very high, and 11 or more is extreme."
+  ],
+  [
+   "Which is the best way to protect yourself on a high-UV day?",
+   "Wear a hat, sunglasses and sunscreen",
+   [
+    "Stay in the open sun at midday",
+    "Skip sunscreen if it is cloudy",
+    "Protect only your face and nose"
+   ],
+   "Covering up and using sunscreen reduce the UV reaching your skin and eyes."
+  ],
+  [
+   "Why does being near water or sand increase your UV exposure?",
+   "They reflect UV onto your skin",
+   [
+    "They absorb all UV from above",
+    "They turn UV into sound waves",
+    "They block UV from the Sun"
+   ],
+   "Water and sand reflect UV, so you get rays from below as well as above."
+  ],
+  [
+   "Why do white shirts glow under a black light?",
+   "Brighteners in the fabric absorb UV and give off visible light",
+   [
+    "The fabric reflects X-rays back into the room",
+    "The shirt is much warmer than nearby objects",
+    "The fabric makes its own light without any UV"
+   ],
+   "Optical brighteners in detergent are fluorescent, turning invisible UV into visible blue-white light."
+  ],
+  [
+   "Clouding of the eye's lens, called a cataract, can be caused partly by years of…",
+   "UV exposure",
+   [
+    "loud music",
+    "eating carrots",
+    "reading in dim light"
+   ],
+   "Long-term UV exposure is a known risk factor for cataracts."
+  ]
+ ],
+ "sciPER": [
+  [
+   "Which group is lithium (Li) in?",
+   "Alkali metal",
+   [
+    "Alkaline earth metal",
+    "Halogen",
+    "Noble gas"
+   ],
+   "Lithium is in group 1, the alkali metals, with one valence electron."
+  ],
+  [
+   "Which group is rubidium (Rb) in?",
+   "Alkali metal",
+   [
+    "Alkaline earth metal",
+    "Transition metal",
+    "Noble gas"
+   ],
+   "Rubidium is in group 1, so it is a very reactive alkali metal."
+  ],
+  [
+   "Which group is cesium (Cs) in?",
+   "Alkali metal",
+   [
+    "Alkaline earth metal",
+    "Transition metal",
+    "Halogen"
+   ],
+   "Cesium sits in group 1, the alkali metals."
+  ],
+  [
+   "Which group is beryllium (Be) in?",
+   "Alkaline earth metal",
+   [
+    "Transition metal",
+    "Halogen",
+    "Noble gas"
+   ],
+   "Beryllium is in group 2, the alkaline earth metals."
+  ],
+  [
+   "Which group is strontium (Sr) in?",
+   "Alkaline earth metal",
+   [
+    "Alkali metal",
+    "Halogen",
+    "Noble gas"
+   ],
+   "Strontium is in group 2 and has two valence electrons."
+  ],
+  [
+   "Which group is barium (Ba) in?",
+   "Alkaline earth metal",
+   [
+    "Alkali metal",
+    "Transition metal",
+    "Noble gas"
+   ],
+   "Barium is a group 2 element, an alkaline earth metal."
+  ],
+  [
+   "Which group is argon (Ar) in?",
+   "Noble gas",
+   [
+    "Alkali metal",
+    "Alkaline earth metal",
+    "Transition metal"
+   ],
+   "Argon is in group 18, the unreactive noble gases."
+  ],
+  [
+   "Which group is krypton (Kr) in?",
+   "Noble gas",
+   [
+    "Alkaline earth metal",
+    "Transition metal",
+    "Halogen"
+   ],
+   "Krypton is a group 18 noble gas with a full outer shell."
+  ],
+  [
+   "Which group is xenon (Xe) in?",
+   "Noble gas",
+   [
+    "Alkali metal",
+    "Transition metal",
+    "Halogen"
+   ],
+   "Xenon is in group 18, the noble gases."
+  ],
+  [
+   "Which group is bromine (Br) in?",
+   "Halogen",
+   [
+    "Alkali metal",
+    "Alkaline earth metal",
+    "Noble gas"
+   ],
+   "Bromine is in group 17, the halogens, and is a liquid at room temperature."
+  ],
+  [
+   "Which group is iodine (I) in?",
+   "Halogen",
+   [
+    "Alkali metal",
+    "Alkaline earth metal",
+    "Transition metal"
+   ],
+   "Iodine is a group 17 element, a halogen."
+  ],
+  [
+   "Which group is zinc (Zn) in?",
+   "Transition metal",
+   [
+    "Alkaline earth metal",
+    "Halogen",
+    "Noble gas"
+   ],
+   "Zinc is in the central block of the periodic table with the transition metals."
+  ],
+  [
+   "Which group is nickel (Ni) in?",
+   "Transition metal",
+   [
+    "Alkali metal",
+    "Halogen",
+    "Noble gas"
+   ],
+   "Nickel is in the d-block, among the transition metals."
+  ],
+  [
+   "Which group is silver (Ag) in?",
+   "Transition metal",
+   [
+    "Alkali metal",
+    "Alkaline earth metal",
+    "Noble gas"
+   ],
+   "Silver is a transition metal in group 11."
+  ],
+  [
+   "Which group is gold (Au) in?",
+   "Transition metal",
+   [
+    "Alkali metal",
+    "Alkaline earth metal",
+    "Halogen"
+   ],
+   "Gold is a transition metal in group 11, below silver."
+  ],
+  [
+   "Which group is chromium (Cr) in?",
+   "Transition metal",
+   [
+    "Alkaline earth metal",
+    "Halogen",
+    "Noble gas"
+   ],
+   "Chromium is in the middle block of the table, with the transition metals."
+  ],
+  [
+   "Which group contains elements that are very unreactive gases with full outer shells?",
+   "Noble gases",
+   [
+    "Halogens",
+    "Alkali metals",
+    "Alkaline earth metals"
+   ],
+   "Noble gases already have full valence shells, so they rarely react."
+  ],
+  [
+   "Which group's atoms have one valence electron and react strongly with water?",
+   "Alkali metals",
+   [
+    "Noble gases",
+    "Halogens",
+    "Transition metals"
+   ],
+   "Group 1 metals easily lose their single valence electron, so they react strongly with water."
+  ],
+  [
+   "Which group's atoms have seven valence electrons?",
+   "Halogens",
+   [
+    "Noble gases",
+    "Alkali metals",
+    "Alkaline earth metals"
+   ],
+   "Halogens in group 17 have seven valence electrons and gain one to form 1− ions."
+  ],
+  [
+   "Atoms in which group usually form ions with a 2+ charge?",
+   "Alkaline earth metals",
+   [
+    "Alkali metals",
+    "Halogens",
+    "Noble gases"
+   ],
+   "Group 2 atoms lose their two valence electrons to form 2+ ions."
+  ],
+  [
+   "What is the group number of the halogens?",
+   "17",
+   [
+    "1",
+    "2",
+    "18"
+   ],
+   "The halogens make up group 17, just left of the noble gases."
+  ],
+  [
+   "What is the group number of the noble gases?",
+   "18",
+   [
+    "1",
+    "2",
+    "17"
+   ],
+   "The noble gases are in group 18, the far right column."
+  ]
+ ],
+ "sciXsBiomol": [
+  [
+   "Which type of biomolecule is described? Cellulose that makes up plant cell walls",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Cellulose is a polysaccharide built from glucose units."
+  ],
+  [
+   "Which type of biomolecule is described? Keratin in hair and fingernails",
+   "Protein",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Keratin is a tough structural protein."
+  ],
+  [
+   "Which type of biomolecule is described? Haemoglobin that carries oxygen in red blood cells",
+   "Protein",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Haemoglobin is a protein that binds oxygen."
+  ],
+  [
+   "Which type of biomolecule is described? RNA that carries instructions to the ribosomes",
+   "Nucleic acid",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Protein"
+   ],
+   "RNA is a nucleic acid made of nucleotides."
+  ],
+  [
+   "Which type of biomolecule is described? Wax that waterproofs the surface of leaves",
+   "Lipid",
+   [
+    "Carbohydrate",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Waxes are lipids that repel water."
+  ],
+  [
+   "Which type of biomolecule is described? Glycogen stored in the liver and muscles",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Glycogen is a polysaccharide animals use to store glucose."
+  ],
+  [
+   "Which type of biomolecule is described? Long chains built from amino acids",
+   "Protein",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Proteins are polymers of amino acids."
+  ],
+  [
+   "Which type of biomolecule is described? Long chains built from nucleotides",
+   "Nucleic acid",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Protein"
+   ],
+   "Nucleic acids such as DNA and RNA are polymers of nucleotides."
+  ],
+  [
+   "Which type of biomolecule is described? Molecules made of glycerol and fatty acids",
+   "Lipid",
+   [
+    "Carbohydrate",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Fats and oils are triglycerides made from glycerol and three fatty acids."
+  ],
+  [
+   "Which type of biomolecule is described? Molecules built from simple sugars",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Carbohydrates are made from monosaccharides such as glucose."
+  ],
+  [
+   "Which type of biomolecule is described? Cholesterol found in animal cell membranes",
+   "Lipid",
+   [
+    "Carbohydrate",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Cholesterol is a steroid, a type of lipid."
+  ],
+  [
+   "Which type of biomolecule is described? Actin and myosin that make muscles contract",
+   "Protein",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Actin and myosin are proteins that slide past each other in muscle."
+  ],
+  [
+   "Which type of biomolecule is described? Sucrose, the table sugar in a sugar bowl",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Sucrose is a sugar made of glucose and fructose, so it is a carbohydrate."
+  ],
+  [
+   "Which type of biomolecule is described? Chitin in the hard outer skeleton of insects",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Chitin is a tough polysaccharide."
+  ],
+  [
+   "Which type of biomolecule is described? Blubber that insulates whales and seals",
+   "Lipid",
+   [
+    "Carbohydrate",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Blubber is mostly fat, which stores energy and insulates."
+  ],
+  [
+   "Which type of biomolecule is described? Genes found on chromosomes",
+   "Nucleic acid",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Protein"
+   ],
+   "Genes are sections of DNA, a nucleic acid."
+  ],
+  [
+   "Which type of biomolecule is described? Contains the bases A, T, C and G",
+   "Nucleic acid",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Protein"
+   ],
+   "Adenine, thymine, cytosine and guanine are the bases in DNA."
+  ],
+  [
+   "Which type of biomolecule is described? Collagen that strengthens skin and tendons",
+   "Protein",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Collagen is the most common structural protein in the body."
+  ],
+  [
+   "Which type of biomolecule is described? Lactose, the sugar found in milk",
+   "Carbohydrate",
+   [
+    "Lipid",
+    "Protein",
+    "Nucleic acid"
+   ],
+   "Lactose is a sugar, so it is a carbohydrate."
+  ],
+  [
+   "Which type of biomolecule is described? Insulin, a hormone that lowers blood sugar",
+   "Protein",
+   [
+    "Carbohydrate",
+    "Lipid",
+    "Nucleic acid"
+   ],
+   "Insulin is a small protein made of amino acid chains."
+  ],
+  [
+   "Which element is found in all proteins but not in simple carbohydrates or fats?",
+   "Nitrogen",
+   [
+    "Carbon",
+    "Hydrogen",
+    "Oxygen"
+   ],
+   "Amino acids contain an amino group with nitrogen, while carbohydrates and fats contain only C, H and O."
+  ],
+  [
+   "Which test solution turns blue-black when starch is present?",
+   "Iodine solution",
+   [
+    "Benedict's solution",
+    "Biuret reagent",
+    "Limewater"
+   ],
+   "Iodine reacts with starch to give a blue-black colour."
+  ]
  ]
 }
