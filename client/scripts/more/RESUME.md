@@ -1,11 +1,11 @@
 # Extra question banks: how they were made, and what is left
 
-Work stopped when the session usage limit was hit. Everything needed to continue is in this folder.
+Everything used to make the banks is in this folder, so more can be added the same way.
 
 ## Layout
 
 - `work/bank_NN.json` (00–31): the inputs. Each file holds 25 skill banks (key, subject, title, section, grades, existing examples).
-- `work/more_NN.json`: batches that are written but **not yet published** (22, 24, 25).
+- `work/more_NN.json`: a batch being written (publish by moving it to `out/` once check.py passes).
 - `out/more_NN.json`: published batches. `python3 build.py` merges `out/` into `client/public/more/{english,science}.json`.
 - `check.py`: the quality gate. Run `python3 check.py work/bank_NN.json <more file>`, and only publish a batch that shows 0 problems and 0 banks missing.
 - `work/variety.mjs` → `variety.json`, `work/banks.mjs` → `banks.json`, `work/export.mjs` → `bank_NN.json`: the audit that picked these banks (skills with fewer than 12 distinct questions in 40 tries). **Re-running export.mjs overwrites the bank files.**
@@ -14,7 +14,7 @@ Work stopped when the session usage limit was hit. Everything needed to continue
 
 All 32 batches (00–31) are published and pass check.py; `server/test/extra-banks.test.js` enforces
 format and no answer giveaways. Live: 17,405 extra questions (English 407 banks / 8,955;
-science 391 banks / 8,450). The prompts below are kept for any future banks.
+science 384 banks / 8,450). The prompts below are kept for any future banks.
 
 ## How to run (at most 4 agents at a time, since 20 at once hit the usage limit)
 
