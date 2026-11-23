@@ -313,7 +313,7 @@ export const ALGEBRA_RULES = [
     return Math.random() < 0.5 ? num(`Write ${m(stack(n, d))} as a percent. (Answer without the % sign)`, p, `${n}/${d} = ${p}/100 = ${b(p + '%')}.`) : mc(`Write ${b(p + '%')} as a fraction in lowest terms.`, fs(n, d), [fs(d, n), fs(n + 1, d), fs(n, d + 1)].filter(x => x !== fs(n, d)), `${p}% = ${p}/100 = ${b(fs(n, d))}.`, 4);
   }),
   R(/^Represent percents with grid models, decimals and fractions$|^Convert between percents and decimals$|^Convert between percents, fractions and decimals$/, (mt, ctx) => () => {
-    const p = pick([10, 20, 25, 30, 40, 50, 60, 70, 75, 80]), [sn, sd] = simp(p, 100);
+    const p = /grid/.test(ctx.title) ? ri(1, 99) : pick([...range(1, 19).map(x => x * 5), 1, 2, 8, 12, 35, 64]), [sn, sd] = simp(p, 100);
     if (/decimals$/.test(ctx.title) && !/fractions/.test(ctx.title)) return Math.random() < 0.5 ? num(`Write ${b(p + '%')} as a decimal.`, p / 100, `${p}% = ${p}/100 = ${b(p / 100)}.`) : num(`Write ${b(p / 100)} as a percent. (Answer without the % sign)`, p, `${p / 100} = ${p}/100 = ${b(p + '%')}.`);
     return mc(`${/grid/.test(ctx.title) ? decGrid(p / 100) : ''}Which of these is equal to ${b(p + '%')}?`, `${p / 100} and ${fs(sn, sd)}`, [`${p / 10} and ${fs(sn, sd)}`, `${p / 100} and ${fs(sd, sn)}`, `${p} and ${fs(sn, sd + 1)}`].filter(x => x !== `${p / 100} and ${fs(sn, sd)}`), `${p}% = ${p / 100} = ${b(fs(sn, sd))}.`, 4);
   }),

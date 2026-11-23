@@ -141,7 +141,7 @@ export const FRACTION_RULES = [
     return num(`${fracBar(n, d, { width: 200 })}${fracBar(n * k, d * k, { width: 200 })}The bars show equivalent fractions. ${m(`${stack(n, d)} = ${stack('___', d * k)}`)} What is the missing numerator?`, n * k, `Multiply top and bottom by ${k}: ${n} × ${k} = ${b(n * k)}.`);
   }),
   R(/^Identify equivalent fractions on number lines$|^Find equivalent fractions using number lines$|^Graph equivalent fractions on number lines$/, (mt, ctx) => () => {
-    const [n, d] = pick([[1, 2], [1, 3], [2, 3], [3, 4], [1, 4]]), k = ri(2, 3), line = fracLineLabeled(d * k, 1, [{ v: n / d, label: '●' }]);
+    const d = pick([2, 3, 4, 5, 6]), n = ri(1, d - 1), k = pick(range(2, Math.floor(12 / d))), line = fracLineLabeled(d * k, 1, [{ v: n / d, label: '●' }]);
     return mc(`${line}Which fraction is equal to ${m(stack(n, d))} on this number line?`, fs(n * k, d * k), [fs(n * k + 1, d * k), fs(n * k - 1 || 1, d * k), fs(n, d * k)].filter(x => x !== fs(n * k, d * k)), `${fs(n, d)} = ${b(fs(n * k, d * k))}.`);
   }),
   R(/^(?:Equivalent fractions|Find equivalent fractions|Identify equivalent fractions)$/, (mt, ctx) => () => {

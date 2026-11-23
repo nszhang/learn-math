@@ -284,8 +284,10 @@ export const GEO6_RULES = [
     return mc(`${planeFor(pts)}Vertex A${pt(...a)} is reflected across the y-axis and then translated ${Math.abs(dx)} ${dx > 0 ? 'right' : 'left'} and ${Math.abs(dy)} ${dy > 0 ? 'up' : 'down'}. Where does A end up?`, pt(...end), uniq([pt(...TFS.translate(a, dx, dy)), pt(...TFS.reflectY(TFS.translate(a, dx, dy))), pt(...TFS.translate(TFS.reflectX(a), dx, dy))]).filter(v_ => v_ !== pt(...end)), `Reflect: ${pt(...step1)}; translate: ${b(pt(...end))}.`, 4);
   }),
   R(/^Identify reflections, rotations and translations$|^Describe a sequence of transformations$|^Describe transformations$/, () => () => {
-    const q = pick([[`(x, y) → (x + 3, y − 2)`, 'translation'], [`(x, y) → (−x, y)`, 'reflection across the y-axis'], [`(x, y) → (x, −y)`, 'reflection across the x-axis'], [`(x, y) → (−y, x)`, 'rotation 90° counterclockwise'], [`(x, y) → (−x, −y)`, 'rotation 180°'], [`(x, y) → (2x, 2y)`, 'dilation (scale factor 2)']]);
-    return mc(`Which transformation is described by ${m(q[0])}?`, q[1], ['translation', 'reflection across the y-axis', 'reflection across the x-axis', 'rotation 90° counterclockwise', 'rotation 180°', 'dilation (scale factor 2)'].filter(x => x !== q[1]).slice(0, 3), `This rule gives a ${b(q[1])}.`, 4);
+    const a = ri(1, 7), c = ri(1, 7), sa = pick(['+', '−']), sc = pick(['+', '−']), f = ri(2, 4);
+    const q = pick([[`(x, y) → (x ${sa} ${a}, y ${sc} ${c})`, 'translation'], [`(x, y) → (x ${sa} ${a}, y)`, 'translation'], [`(x, y) → (x, y ${sc} ${c})`, 'translation'], [`(x, y) → (−x, y)`, 'reflection across the y-axis'], [`(x, y) → (x, −y)`, 'reflection across the x-axis'], [`(x, y) → (−y, x)`, 'rotation 90° counterclockwise'], [`(x, y) → (y, −x)`, 'rotation 90° clockwise'], [`(x, y) → (−x, −y)`, 'rotation 180°'], [`(x, y) → (${f}x, ${f}y)`, 'dilation'], [`(x, y) → (y, x)`, 'reflection across the line y = x']]);
+    if (q[1] === 'dilation') q[1] = `dilation (scale factor ${f})`;
+    return mc(`Which transformation is described by ${m(q[0])}?`, q[1], shuffle(['translation', 'reflection across the y-axis', 'reflection across the x-axis', 'rotation 90° counterclockwise', 'rotation 90° clockwise', 'rotation 180°', `dilation (scale factor ${f})`]).filter(x => x !== q[1]).slice(0, 3), `This rule gives a ${b(q[1])}.`, 4);
   }),
   R(/^Congruence statements and corresponding parts$/, () => () => {
     const a = ri(3, 12), c = ri(3, 12), d = ri(3, 12);
