@@ -119,6 +119,9 @@ export const FRACTION_RULES = [
   /* ===== number lines ===== */
   R(/^(?:Fractions of number lines|Identify unit fractions on number lines|Identify fractions on number lines|Fractions of number lines: .*)$/, (mt, ctx) => () => {
     const unit = /unit/.test(ctx.title), d = /halves, fourths and eighths/.test(ctx.title) ? pick([2, 4, 8]) : denFor(ctx.grade, ctx.title), hi = unit || ctx.grade <= 4 ? 1 : pick([1, 2]);
+    const kind = unit ? ri(0, 2) : 0;
+    if (kind === 1) { const dd = pick(d >= 4 ? range(2, 12) : [2, 3, 4, 5, 6, 8]), ans = fs(1, dd); return mc(`${fracLineLabeled(dd, 1, [{ v: 1 / dd, label: '●' }])}The point is the first mark after 0. Which unit fraction does it show?`, ans, uniq([fs(1, dd + 1), fs(1, Math.max(2, dd - 1)), fs(2, dd), fs(1, dd * 2)]).filter(x => x !== ans).slice(0, 3), `The whole is split into ${dd} equal parts, so one part is ${b(ans)}.`, 4); }
+    if (kind === 2) { const dd = pick(range(2, 10)), cnt = ri(1, dd - 1); return mc(`${fracLineLabeled(dd, 1, [])}This number line from 0 to 1 is split into ${b(dd)} equal parts. What is the length of ${b('one')} part?`, fs(1, dd), uniq([fs(1, dd + 1), fs(cnt + 1, dd), fs(1, dd * 2), fs(dd - 1, dd)]).filter(x => x !== fs(1, dd)).slice(0, 3), `${dd} equal parts: each part is ${b(fs(1, dd))}.`, 4); }
     const n = unit ? 1 : ri(1, d * hi - 1), v = n / d;
     const ans = n > d ? mixedText(n, d) : fs(n, d), alts = uniq(fracDistractors(n % d || n, d).concat([fs(n + 1, d), fs(Math.max(1, n - 1), d)])).filter(x => x !== ans);
     return mc(`${fracLineLabeled(d, hi, [{ v, label: '●' }])}What fraction does the point show?`, ans, alts, `The line is split into ${d} equal parts. The point is ${n} part${n > 1 ? 's' : ''} from 0: ${b(ans)}.`.replace('is split into ' + d, 'from 0 to 1 is split into ' + d), 4);
