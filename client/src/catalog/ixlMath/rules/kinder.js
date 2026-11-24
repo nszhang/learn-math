@@ -134,10 +134,10 @@ export const KINDER_RULES = [
     return mc(`${shapeSvg(s0, 90)}What is the name of this shape?`, s0, ['circle', 'square', 'triangle', 'rectangle', 'hexagon'].filter(x => x !== s0).slice(0, 3), `It is a ${b(s0)}.`, 4);
   }),
   R(/^Curved parts$|^Count sides and corners$|^Compare sides and corners$/, (mt, ctx) => () => {
-    const s0 = pick(['triangle', 'square', 'rectangle', 'hexagon', 'circle']), t = ctx.title;
-    if (/Curved/.test(t)) return yesNo(`${shapeSvg(s0, 90)}Does this shape have a curved part?`, s0 === 'circle', s0 === 'circle' ? 'A circle is all curved.' : 'It has only straight sides.', ['Yes', 'No']);
-    if (/Compare/.test(t)) { const [a, c] = sample(['triangle', 'square', 'hexagon', 'rectangle'], 2); if (SIDES[a] === SIDES[c]) return null; const more = SIDES[a] > SIDES[c] ? a : c; return mc(`Which shape has more sides: a ${b(a)} or a ${b(c)}?`, more, [more === a ? c : a], `A ${a} has ${SIDES[a]} sides and a ${c} has ${SIDES[c]}.`, 2); }
-    if (s0 === 'circle') return null; return num(`${shapeSvg(s0, 90)}How many ${Math.random() < 0.5 ? 'sides' : 'corners'} does this shape have?`, SIDES[s0], `A ${s0} has ${b(SIDES[s0])}.`);
+    const s0 = pick(['triangle', 'square', 'rectangle', 'hexagon', 'circle', 'pentagon', 'octagon', 'rhombus', 'trapezoid', 'parallelogram', 'oval']), t = ctx.title;
+    if (/Curved/.test(t)) return yesNo(`${shapeSvg(s0, 90)}Does this shape have a curved part?`, s0 === 'circle' || s0 === 'oval', s0 === 'circle' || s0 === 'oval' ? `A ${s0} is all curved.` : 'It has only straight sides.', ['Yes', 'No']);
+    if (/Compare/.test(t)) { const [a, c] = sample(['triangle', 'square', 'hexagon', 'rectangle', 'pentagon', 'octagon', 'rhombus', 'trapezoid'], 2); if (SIDES[a] === SIDES[c]) return null; const more = SIDES[a] > SIDES[c] ? a : c; return mc(`Which shape has more sides: a ${b(a)} or a ${b(c)}?`, more, [more === a ? c : a], `A ${a} has ${SIDES[a]} sides and a ${c} has ${SIDES[c]}.`, 2); }
+    if (s0 === 'circle' || s0 === 'oval') return null; return num(`${shapeSvg(s0, 90)}How many ${Math.random() < 0.5 ? 'sides' : 'corners'} does this shape have?`, SIDES[s0], `A ${s0} has ${b(SIDES[s0])}.`);
   }),
   R(/^Introduction to symmetry$|^Identify pictures with symmetry$/, () => () => {
     const sym = Math.random() < 0.5; return yesNo(`Look at a ${sym ? 'butterfly 🦋' : 'letter F'}. Can you fold it so both halves match?`, sym, sym ? 'A butterfly is symmetrical.' : 'The halves of an F do not match.', ['Yes', 'No']);

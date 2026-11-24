@@ -195,8 +195,10 @@ export const GEOMETRY_RULES = [
     return yesNo(`${pic}Is this shape ${b('closed')}?`, closed, closed ? 'All the sides connect, so it is closed.' : 'There is a gap, so it is open.', ['Yes, closed', 'No, open']);
   }),
   R(/^Attributes of two-dimensional shapes$|^Attributes of polygons$|^Properties of polygons$/, () => () => {
-    const q = pick([['A shape with 3 sides', 'triangle'], ['A shape with 4 equal sides and 4 right angles', 'square'], ['A shape with 6 sides', 'hexagon'], ['A shape with 5 sides', 'pentagon'], ['A shape with 8 sides', 'octagon'], ['A shape with no straight sides', 'circle'], ['A shape with 4 sides where opposite sides are equal and all angles are right angles', 'rectangle']]);
-    return mc(`Which shape is described? ${b(q[0])}`, q[1], ['triangle', 'square', 'hexagon', 'pentagon', 'octagon', 'circle', 'rectangle'].filter(x => x !== q[1]), `It is a ${b(q[1])}.`, 4);
+    const q = pick([['A shape with 3 sides', 'triangle'], ['A shape with 4 equal sides and 4 right angles', 'square'], ['A shape with 6 sides', 'hexagon'], ['A shape with 5 sides', 'pentagon'], ['A shape with 8 sides', 'octagon'], ['A shape with no straight sides', 'circle'], ['A shape with 4 sides where opposite sides are equal and all angles are right angles', 'rectangle'],
+      ['A shape with 7 sides', 'heptagon'], ['A shape with 9 sides', 'nonagon'], ['A shape with 10 sides', 'decagon'], ['A shape with 3 corners', 'triangle'], ['A shape with 6 corners', 'hexagon'], ['A shape with 5 corners', 'pentagon'], ['A shape with 8 corners', 'octagon'], ['A four-sided shape with exactly one pair of parallel sides', 'trapezoid'], ['A four-sided shape with 4 equal sides that is not a square because its angles are not right angles', 'rhombus'], ['A four-sided shape with two pairs of parallel sides but no right angles', 'parallelogram']]);
+    const all = ['triangle', 'square', 'hexagon', 'pentagon', 'octagon', 'circle', 'rectangle', 'heptagon', 'nonagon', 'decagon', 'trapezoid', 'rhombus', 'parallelogram'];
+    return mc(`Which shape is described? ${b(q[0])}`, q[1], sample(all, 3, [q[1]]), `It is a ${b(q[1])}.`, 4);
   }),
   R(/^Sort two-dimensional shapes$/, () => () => {
     const s = pick(['triangle', 'square', 'circle', 'pentagon', 'hexagon', 'rectangle']), cat = SIDES[s] === 0 ? 'No sides' : SIDES[s] <= 4 ? '3 or 4 sides' : '5 or more sides';
@@ -234,6 +236,13 @@ export const GEOMETRY_RULES = [
     return num(`How many times does a ${b(k[0])} look the same during one full turn (order of rotational symmetry)?`, k[1], `A ${k[0]} has rotational symmetry of order ${b(k[1])}.`);
   }),
   R(/^Is it a polygon\?$/, () => () => {
+    if (Math.random() < 0.6) {
+      const isPoly = Math.random() < 0.5, n = ri(3, 8), pts = Array.from({ length: n }, (_, i) => { const t = (i / n) * 2 * Math.PI + rr(-0.25, 0.25), r = rr(0.6, 1); return [Math.cos(t) * r, Math.sin(t) * r]; }), fit = fitShape(pts);
+      let inner;
+      if (isPoly) inner = poly(fit);
+      else { const how = n >= 5 ? ri(0, 2) : pick([0, 2]); inner = how === 0 ? `<polyline points="${fit.map(p => p.join(',')).join(' ')}" fill="none" ${stroke()}/>` : how === 1 ? `<path d="M${fit[0]} ${fit.slice(1).map((p, i) => (i === 0 ? `Q${(fit[0][0] + p[0]) / 2},${fit[0][1] - 40} ${p}` : `L${p}`)).join(' ')} Z" fill="#c7d2fe" ${stroke()}/>` : `<ellipse cx="80" cy="57" rx="${ri(40, 60)}" ry="${ri(25, 45)}" fill="#c7d2fe" ${stroke()}/>`; }
+      return yesNo(`${g(inner)}Is this figure a polygon?`, isPoly, isPoly ? 'It is closed and made only of straight sides.' : 'A polygon is closed and made of straight sides only — this figure is not.', ['Yes', 'No']);
+    }
     const poly_ = Math.random() < 0.5, pic = poly_ ? g(poly(pick([[[30, 20], [130, 30], [110, 100], [20, 85]], [[80, 8], [140, 55], [100, 105], [30, 90], [20, 40]], [[20, 100], [80, 10], [140, 100]]]))) : pick([g(`<circle cx="80" cy="55" r="45" fill="#c7d2fe" ${stroke()}/>`), g(`<polyline points="25,95 60,30 100,85 135,20" fill="none" ${stroke()}/>`), g(`<path d="M20,90 Q80,0 140,90 Z" fill="#c7d2fe" ${stroke()}/>`)]);
     return yesNo(`${pic}Is this figure a polygon?`, poly_, poly_ ? 'It is closed and made only of straight sides.' : 'A polygon is closed and made of straight sides only — this figure is not.', ['Yes', 'No']);
   }),

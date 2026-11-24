@@ -57,6 +57,11 @@ export const GEO6_RULES = [
     return /measure/.test(ctx.title) ? mc(`${angleSvg(deg)}An angle measures ${b(deg + '°')}. What type of angle is it?`, type, ['acute', 'right', 'obtuse'].filter(x => x !== type), `${deg}° is ${b(type)}.`, 3) : mc(`Angle ABC has vertex B. Which name is another way to write ∠ABC?`, '∠CBA', ['∠BAC', '∠ACB', '∠BCA'], `The vertex letter B must be in the middle: ${b('∠CBA')}.`, 4);
   }),
   R(/^Identify complementary, supplementary, vertical,? (?:and )?adjacent(?: and congruent)? angles$/, () => () => {
+    if (Math.random() < 0.5) {
+      const a = ri(10, 80), kind = pick(['complementary', 'supplementary', 'neither']), c = kind === 'complementary' ? 90 - a : kind === 'supplementary' ? 180 - a : pick([x => 90 - x + ri(5, 20), x => 180 - x + ri(5, 20), x => 90 - x - ri(1, 8)])(a);
+      if (c <= 0 || (kind === 'neither' && (a + c === 90 || a + c === 180))) return null;
+      return mc(`Two angles measure ${b(a + '°')} and ${b(c + '°')}. How are they related?`, kind === 'neither' ? 'neither complementary nor supplementary' : kind, ['complementary', 'supplementary', 'neither complementary nor supplementary', 'vertical'].filter(x => x !== (kind === 'neither' ? 'neither complementary nor supplementary' : kind)).slice(0, 3), `${a} + ${c} = ${a + c}, ${kind === 'neither' ? 'which is not 90 or 180' : kind === 'complementary' ? 'so they are complementary (90°)' : 'so they are supplementary (180°)'}.`, 4);
+    }
     const q = pick([['Two angles whose measures add to 90°', 'complementary'], ['Two angles whose measures add to 180°', 'supplementary'], ['Angles that are opposite each other when two lines cross', 'vertical'], ['Two angles that share a vertex and a side but do not overlap', 'adjacent'], ['Angles that have the same measure', 'congruent']]);
     return mc(`What do we call: ${b(q[0])}?`, q[1], ['complementary', 'supplementary', 'vertical', 'adjacent', 'congruent'].filter(x => x !== q[1]).slice(0, 3), `${q[0]} are ${b(q[1])} angles.`, 4);
   }),
