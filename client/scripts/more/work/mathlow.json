@@ -11,7 +11,6 @@
    "g0 mthKL01 Take apart numbers using cubes - sums up to 5",
    "g0 mthKL02 Make a number different ways using cubes - sums up to 5",
    "g0 mthKL03 Make a number using addition - sums up to 5",
-   "g2 mth2GG10 Multiplication facts for 2, 3 and 4",
    "g2 mth2T05 Addition, subtraction, multiplication and division terms"
   ]
  },
@@ -24,27 +23,19 @@
   ]
  },
  {
-  "rule": "^Find terms of (?:an arithmetic |a geometric |a recursive )?sequence$|^Evaluate formulas for sequences$",
-  "file": "func9.js",
+  "rule": "^Integrate by completing the square$",
+  "file": "calc.js",
   "distinct": 11,
   "skills": [
-   "g11 mth11X04 Find terms of a recursive sequence"
+   "g13 mthCY05 Integrate by completing the square"
   ]
  },
  {
-  "rule": "^Perimeters of similar figures$|^Areas of similar figures$|^Area and perimeter of similar figures$|^Perimeter, area and volume: changes in scale$",
-  "file": "geo9.js",
-  "distinct": 11,
-  "skills": [
-   "g11 mth11R10 Area and perimeter of similar figures"
-  ]
- },
- {
-  "rule": "^Three-dimensional shapes - (?:above and below|beside and next to)$",
+  "rule": "^Show numbers on ten frames - up to \\d+$",
   "file": "kinder.js",
   "distinct": 11,
   "skills": [
-   "g0 mthKKK05 Three-dimensional shapes - beside and next to"
+   "g-1 mthJKA07 Show numbers on ten frames - up to 3"
   ]
  }
 ]

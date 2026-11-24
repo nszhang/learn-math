@@ -2,6 +2,7 @@
    LearnAce — Science grades 6–12 (life, earth, chemistry, physics).
    IDs are prefixed "sci". Appended to the grade 1–5 list in skills.js.
    ============================================================ */
+import { COMPOUNDS, COMPOUNDS_CL, formulaText, atomTotal, molarMass, massWork, countWork } from './sci/compounds.js';
 import { S, classify, pairs, ri, pick } from './quiz.js';
 
 const b = w => `<strong>${w}</strong>`;
@@ -187,12 +188,9 @@ export const SCIENCE_6_12 = [
     ]
   })),
   S('sciATC8', 'Count atoms in a formula', 8, 'Physical science', '🔢', () => {
-    const f = pick([
-      ['H₂O', 3, 'H₂ + O = 2 + 1'], ['CO₂', 3, 'C + O₂ = 1 + 2'], ['NaCl', 2, 'Na + Cl = 1 + 1'],
-      ['CH₄', 5, 'C + H₄ = 1 + 4'], ['H₂SO₄', 7, 'H₂ + S + O₄ = 2 + 1 + 4'], ['C₆H₁₂O₆', 24, 'C₆ + H₁₂ + O₆ = 6 + 12 + 6'],
-      ['NH₃', 4, 'N + H₃ = 1 + 3'], ['CaCO₃', 5, 'Ca + C + O₃ = 1 + 1 + 3'], ['Mg(OH)₂', 5, 'Mg + O₂ + H₂ = 1 + 2 + 2'], ['C₂H₆', 8, 'C₂ + H₆ = 2 + 6']
-    ]);
-    return num(`How many atoms are in one molecule (or formula unit) of ${b(f[0])}?`, f[1], `${f[2]} = <strong>${f[1]}</strong> atoms.`);
+    const c = pick([...COMPOUNDS, ...COMPOUNDS_CL]), k = Math.random() < 0.35 ? ri(2, 4) : 1;
+    if (k > 1) return num(`How many atoms are in ${b(k + ' ' + formulaText(c))}? (${k} molecules)`, k * atomTotal(c), `One molecule has ${atomTotal(c)} atoms (${countWork(c)}), so ${k} molecules have ${k} × ${atomTotal(c)} = <strong>${k * atomTotal(c)}</strong> atoms.`);
+    return num(`How many atoms are in one molecule (or formula unit) of ${b(formulaText(c))}?`, atomTotal(c), `${countWork(c)} = <strong>${atomTotal(c)}</strong> atoms.`);
   }),
   S('sciNAT8', 'Natural selection', 8, 'Life science', '🦎', pairs({
     prompt: q => q,
@@ -249,12 +247,8 @@ export const SCIENCE_6_12 = [
     ]
   })),
   S('sciMMS9', 'Molar mass', 9, 'Chemistry', '⚖️', () => {
-    const f = pick([
-      ['H₂O', 18, '2(1) + 16'], ['CO₂', 44, '12 + 2(16)'], ['CH₄', 16, '12 + 4(1)'], ['NH₃', 17, '14 + 3(1)'],
-      ['O₂', 32, '2(16)'], ['N₂', 28, '2(14)'], ['CaCO₃', 100, '40 + 12 + 3(16)'], ['NaOH', 40, '23 + 16 + 1'],
-      ['H₂SO₄', 98, '2(1) + 32 + 4(16)'], ['MgO', 40, '24 + 16'], ['Ca(OH)₂', 74, '40 + 2(16 + 1)']
-    ]);
-    return num(`Using H = 1, C = 12, N = 14, O = 16, Na = 23, Mg = 24, S = 32, Ca = 40, what is the molar mass of ${b(f[0])} (g/mol)?`, f[1], `${f[2]} = <strong>${f[1]} g/mol</strong>.`);
+    const c = pick([...COMPOUNDS, { O: 2 }, { N: 2 }, { H: 2 }]);
+    return num(`Using H = 1, C = 12, N = 14, O = 16, Na = 23, Mg = 24, Al = 27, S = 32, K = 39, Ca = 40, what is the molar mass of ${b(formulaText(c))} (g/mol)?`, molarMass(c), `${massWork(c)} = <strong>${molarMass(c)} g/mol</strong>.`);
   }),
   S('sciFMA9', 'Force, mass and acceleration', 9, 'Physics', '🚀', () => {
     const m = ri(2, 20), a = ri(2, 15), F = m * a;

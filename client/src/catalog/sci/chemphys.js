@@ -1,6 +1,7 @@
 /* Science — high-school chemistry and physics (grades 9–12). Specs: { k, t, s, g, gen }. */
 import { classify, pairs } from '../quiz.js';
 import { ri, pick, sample, b, em, mc } from '../eng/words.js';
+import { COMPOUNDS, COMPOUNDS_CL, formulaText, molarMass, massWork } from './compounds.js';
 
 const sk = (k, t, s, g, gen) => ({ k, t, s, g, gen });
 const num = (prompt, answer, explain) => ({ type: 'num', prompt, answer, explain });
@@ -71,8 +72,8 @@ export const CHEMPHYS_SPECS = [
 
   /* ================= The mole, equations and stoichiometry ================= */
   sk('MolarM', 'Calculate molar mass', 'The mole and stoichiometry', [10, 11, 12], () => {
-    const f = pick([['H₂O', 18, '2(1) + 16'], ['CO₂', 44, '12 + 2(16)'], ['NaCl', 58, '23 + 35'], ['CH₄', 16, '12 + 4(1)'], ['NH₃', 17, '14 + 3(1)'], ['O₂', 32, '2(16)'], ['CaCO₃', 100, '40 + 12 + 3(16)'], ['MgO', 40, '24 + 16'], ['H₂SO₄', 98, '2(1) + 32 + 4(16)'], ['C₆H₁₂O₆', 180, '6(12) + 12(1) + 6(16)']]);
-    return num(`Using H = 1, C = 12, N = 14, O = 16, Na = 23, Mg = 24, S = 32, Cl = 35, Ca = 40: what is the molar mass of ${b(f[0])} in g/mol?`, f[1], `${f[2]} = ${b(f[1])} g/mol.`);
+    const c = pick([...COMPOUNDS, ...COMPOUNDS, ...COMPOUNDS_CL, { O: 2 }, { N: 2 }, { H: 2 }, { S: 8 }]);
+    return num(`Using H = 1, C = 12, N = 14, O = 16, Na = 23, Mg = 24, Al = 27, S = 32, Cl = 35, K = 39, Ca = 40: what is the molar mass of ${b(formulaText(c))} in g/mol?`, molarMass(c), `${massWork(c)} = ${b(molarMass(c))} g/mol.`);
   }),
   sk('MolConv', 'Convert between mass and moles of a substance', 'The mole and stoichiometry', [9, 11, 12], () => {
     const [f, M] = pick([['H₂O', 18], ['CO₂', 44], ['NaOH', 40], ['CaCO₃', 100], ['O₂', 32], ['CH₄', 16]]); const n = ri(2, 8);
@@ -81,8 +82,10 @@ export const CHEMPHYS_SPECS = [
       : num(`What is the mass, in grams, of ${b(n + ' mol')} of ${b(f)}? (M = ${M} g/mol)`, M * n, `m = n × M = ${n} × ${M} = ${b(M * n)} g.`);
   }),
   sk('CntAt', 'Count atoms in chemical equations', 'Chemical reactions', [9, 10, 11, 12], () => {
-    const [eq, el, n] = pick([['2H₂ + O₂ → 2H₂O', 'H', 4], ['2H₂ + O₂ → 2H₂O', 'O', 2], ['CH₄ + 2O₂ → CO₂ + 2H₂O', 'O', 4], ['CH₄ + 2O₂ → CO₂ + 2H₂O', 'H', 4],
-      ['N₂ + 3H₂ → 2NH₃', 'H', 6], ['2Na + Cl₂ → 2NaCl', 'Na', 2], ['C₃H₈ + 5O₂ → 3CO₂ + 4H₂O', 'O', 10], ['C₃H₈ + 5O₂ → 3CO₂ + 4H₂O', 'C', 3]]);
+    const EQS = [['2H₂ + O₂ → 2H₂O', { H: 4, O: 2 }], ['CH₄ + 2O₂ → CO₂ + 2H₂O', { C: 1, H: 4, O: 4 }], ['N₂ + 3H₂ → 2NH₃', { N: 2, H: 6 }], ['2Na + Cl₂ → 2NaCl', { Na: 2, Cl: 2 }], ['C₃H₈ + 5O₂ → 3CO₂ + 4H₂O', { C: 3, H: 8, O: 10 }],
+      ['2Mg + O₂ → 2MgO', { Mg: 2, O: 2 }], ['4Al + 3O₂ → 2Al₂O₃', { Al: 4, O: 6 }], ['2H₂O₂ → 2H₂O + O₂', { H: 4, O: 4 }], ['C₂H₄ + 3O₂ → 2CO₂ + 2H₂O', { C: 2, H: 4, O: 6 }], ['2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O', { C: 4, H: 12, O: 14 }],
+      ['Fe₂O₃ + 3CO → 2Fe + 3CO₂', { Fe: 2, O: 6, C: 3 }], ['CaCO₃ → CaO + CO₂', { Ca: 1, C: 1, O: 3 }], ['2KClO₃ → 2KCl + 3O₂', { K: 2, Cl: 2, O: 6 }], ['C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O', { C: 6, H: 12, O: 12 }], ['2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O', { Na: 2, S: 1, O: 6, H: 4 }]];
+    const [eq, cnt] = pick(EQS), el = pick(Object.keys(cnt)), n = cnt[el];
     return num(`In the balanced equation ${b(eq)}, how many ${b(el)} atoms are on each side?`, n, `Multiply coefficients by subscripts: each side has ${b(n)} ${el} atoms.`);
   }),
   sk('Balance', 'Balance chemical equations', 'Chemical reactions', [10, 11, 12], facts([
@@ -156,8 +159,12 @@ export const CHEMPHYS_SPECS = [
     ['What keeps the Moon in orbit around Earth?', 'Earth\'s gravity', ['The Sun\'s magnetism', 'Air pressure', 'The Moon\'s engines']]
   ])),
   sk('MechE', 'Conservation of mechanical energy', 'Work, energy and power', [10, 11, 12], () => {
-    const [h, v] = pick([[5, 10], [20, 20], [45, 30], [80, 40], [125, 50]]);
-    return num(`A ball is dropped from ${b(h + ' m')}. Ignoring air resistance (g = 10 m/s²), how fast is it moving just before it hits the ground (m/s)?`, v, `mgh = ½mv² → v = √(2gh) = √(2×10×${h}) = ${b(v)} m/s.`);
+    const [h, v] = pick([[5, 10], [20, 20], [45, 30], [80, 40], [125, 50], [180, 60], [0.8, 4], [3.2, 8], [7.2, 12], [1.8, 6], [11.25, 15], [31.25, 25]]), m_ = pick([0.5, 1, 2, 3, 5, 10]), kind = ri(0, 3);
+    const obj = pick(['ball', 'rock', 'apple', 'toy', 'coconut']), tail = 'Ignoring air resistance (g = 10 m/s²)';
+    if (kind === 1) return num(`A ${obj} is dropped and hits the ground at ${b(v + ' m/s')}. ${tail}, from what height was it dropped (m)?`, h, `mgh = ½mv² → h = v² ÷ 2g = ${v}² ÷ 20 = ${b(h)} m.`);
+    if (kind === 2) return num(`A ${b(m_ + ' kg')} ${obj} is dropped from ${b(h + ' m')}. ${tail}, how much kinetic energy does it have just before hitting the ground (J)?`, m_ * 10 * h, `All the gravitational potential energy becomes kinetic: mgh = ${m_} × 10 × ${h} = ${b(m_ * 10 * h)} J.`);
+    if (kind === 3) return num(`A ${b(m_ + ' kg')} ${obj} is thrown straight up at ${b(v + ' m/s')}. ${tail}, how high does it rise (m)?`, h, `½mv² = mgh → h = v² ÷ 2g = ${v}² ÷ 20 = ${b(h)} m.`);
+    return num(`A ${obj} is dropped from ${b(h + ' m')}. ${tail}, how fast is it moving just before it hits the ground (m/s)?`, v, `mgh = ½mv² → v = √(2gh) = √(2×10×${h}) = ${b(v)} m/s.`);
   }),
   sk('WorkP', 'Work and power', 'Work, energy and power', [9, 10, 11, 12], () => {
     const F = ri(5, 50), d = ri(2, 10), t = pick([1, 2, 4, 5]); const W = F * d;
