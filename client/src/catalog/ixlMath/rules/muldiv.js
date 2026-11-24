@@ -189,7 +189,11 @@ export const MULDIV_RULES = [
     return num(`Two numbers have a sum of ${b(x + y)} and a difference of ${b(x - y)}. What is the larger number?`, x, `Try ${x} and ${y}: ${x} + ${y} = ${x + y} and ${x} − ${y} = ${x - y}. The larger is ${b(x)}.`);
   }),
   R(/^Even or odd: addition and subtraction patterns$/, () => () => {
-    const a = pick(['even', 'odd']), c = pick(['even', 'odd']), op = pick(['+', '−']), res = a === c ? 'even' : 'odd';
+    const a = pick(['even', 'odd']), c = pick(['even', 'odd']), op = pick(['+', '−']), res = a === c ? 'even' : 'odd', f = ri(0, 3);
+    const mk = k => { let v = ri(10, 99); if ((v % 2 === 0) !== (k === 'even')) v += 1; return v; };
+    if (f === 1) { let x = mk(a), y = mk(c); if (op === '−' && x < y) [x, y] = [y, x]; if (op === '−' && x === y) x += 2; const r = op === '+' ? x + y : x - y; return mc(`Without working it out, will ${b(`${x} ${op} ${y}`)} be even or odd?`, r % 2 === 0 ? 'even' : 'odd', [r % 2 === 0 ? 'odd' : 'even'], `${x} is ${a} and ${y} is ${c}. ${a} ${op} ${c} is ${res}. Check: ${x} ${op} ${y} = ${r}.`, 2); }
+    if (f === 2) { const who = pick(NAMES), x = mk(a), y = mk(c); const r = x + y; return mc(`${who} has ${b(x)} stickers and gets ${b(y)} more. Will the total number of stickers be even or odd?`, r % 2 === 0 ? 'even' : 'odd', [r % 2 === 0 ? 'odd' : 'even'], `${x} is ${a} and ${y} is ${c}. ${a} + ${c} is ${res}. The total is ${r}.`, 2); }
+    if (f === 3) { const t = pick([['even', '+', 'even', true], ['odd', '+', 'odd', true], ['even', '+', 'odd', false], ['odd', '−', 'odd', true], ['even', '−', 'even', true], ['odd', '−', 'even', false], ['even', '−', 'odd', false]]); return yesNo(`True or false? ${b(`${t[0]} ${t[1]} ${t[2]} is always even`)}.`, t[3], t[3] ? `${t[0]} ${t[1]} ${t[2]} is always even.` : `${t[0]} ${t[1]} ${t[2]} is always odd, never even.`, ['True', 'False']); }
     return mc(`Is ${b(`${a} ${op} ${c}`)} even or odd?`, res, [res === 'even' ? 'odd' : 'even'], `Try examples: ${a === 'even' ? 4 : 5} ${op} ${c === 'even' ? 2 : 3} = ${op === '+' ? (a === 'even' ? 4 : 5) + (c === 'even' ? 2 : 3) : (a === 'even' ? 4 : 5) - (c === 'even' ? 2 : 3)}, which is ${res}.`, 2);
   }),
   R(/^Add and subtract data from tables$/, () => () => {

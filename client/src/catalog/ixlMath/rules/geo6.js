@@ -49,12 +49,20 @@ export const GEO6_RULES = [
     const deg = ri(1, 17) * 10; return num(`${protractor(deg)}What is the measure of the angle? (degrees)`, deg, `The red ray points at ${b(deg)}°.`);
   }),
   R(/^Estimate angle measurements$/, () => () => {
-    const deg = pick([30, 45, 60, 90, 120, 135, 150]), opts = [30, 45, 60, 90, 120, 135, 150];
-    return mc(`${angleSvg(deg)}Which is the best estimate of this angle's measure?`, deg + '°', sample(opts.filter(x => Math.abs(x - deg) >= 25), 3).map(x => x + '°'), `The angle is about ${b(deg + '°')}.`, 4);
+    const deg = ri(2, 34) * 5, pool = range(2, 34).map(k => k * 5).filter(x => Math.abs(x - deg) >= 25);
+    return mc(`${angleSvg(deg)}Which is the best estimate of this angle's measure?`, deg + '°', sample(pool, 3).map(x => x + '°'), `The angle is about ${b(deg + '°')}.`, 4);
   }),
   R(/^Name angles$|^Name, measure and classify angles$/, (mt, ctx) => () => {
-    const deg = pick([30, 40, 60, 90, 110, 130, 150]), type = deg < 90 ? 'acute' : deg === 90 ? 'right' : 'obtuse';
-    return /measure/.test(ctx.title) ? mc(`${angleSvg(deg)}An angle measures ${b(deg + '°')}. What type of angle is it?`, type, ['acute', 'right', 'obtuse'].filter(x => x !== type), `${deg}° is ${b(type)}.`, 3) : mc(`Angle ABC has vertex B. Which name is another way to write ∠ABC?`, '∠CBA', ['∠BAC', '∠ACB', '∠BCA'], `The vertex letter B must be in the middle: ${b('∠CBA')}.`, 4);
+    if (/measure/.test(ctx.title)) {
+      const deg = pick([ri(10, 89), ri(10, 89), 90, ri(91, 175), ri(91, 175), 180]), type = deg < 90 ? 'acute' : deg === 90 ? 'right' : deg < 180 ? 'obtuse' : 'straight', all = ['acute', 'right', 'obtuse', 'straight'];
+      if (Math.random() < 0.65) return mc(`${deg === 180 ? '' : angleSvg(deg)}An angle measures ${b(deg + '°')}. What type of angle is it?`, type, all.filter(x => x !== type).slice(0, 3), `${deg}° is ${b(type)}.`, 4);
+      const t2 = pick(['acute', 'right', 'obtuse']); const ok = t2 === 'acute' ? ri(10, 89) : t2 === 'right' ? 90 : ri(91, 175), bad = [ri(10, 89), 90, ri(91, 175)].filter(x => (x < 90 ? 'acute' : x === 90 ? 'right' : 'obtuse') !== t2);
+      return mc(`Which angle measure is an ${t2 === 'acute' ? '' : ''}${b(t2)} angle?`.replace('an ', t2 === 'right' ? 'a ' : 'an ').replace('a right', 'a right'), ok + '°', bad.map(x => x + '°'), `${ok}° is ${b(t2)}${t2 === 'acute' ? ' (less than 90°)' : t2 === 'right' ? ' (exactly 90°)' : ' (between 90° and 180°)'}.`, 4);
+    }
+    const L = sample('ABCDEFGHJKLMNPQRSTUVWXYZ'.split(''), 3), [p, v, q] = L, form = pick(['name', 'name', 'vertex', 'notName']);
+    if (form === 'vertex') return mc(`In ∠${p}${v}${q}, which point is the ${b('vertex')}?`, v, [p, q, pick('ABCDEFGHJKLMNPQRSTUVWXYZ'.split('').filter(x => !L.includes(x)))], `The vertex letter is the middle letter: ${b(v)}.`, 4);
+    if (form === 'notName') return mc(`Angle ${p}${v}${q} has vertex ${v}. Which is ${b('not')} a correct name for this angle?`, `∠${v}${p}${q}`, [`∠${p}${v}${q}`, `∠${q}${v}${p}`, `∠${v}`], `The vertex ${v} must be the middle letter, so ${b(`∠${v}${p}${q}`)} names a different angle.`, 4);
+    return mc(`Angle ${p}${v}${q} has vertex ${v}. Which name is another way to write ∠${p}${v}${q}?`, `∠${q}${v}${p}`, [`∠${v}${p}${q}`, `∠${p}${q}${v}`, `∠${q}${p}${v}`], `The vertex letter ${v} must be in the middle: ${b(`∠${q}${v}${p}`)}.`, 4);
   }),
   R(/^Identify complementary, supplementary, vertical,? (?:and )?adjacent(?: and congruent)? angles$/, () => () => {
     if (Math.random() < 0.5) {
@@ -70,8 +78,9 @@ export const GEO6_RULES = [
     return num(`Two angles are ${b(kind)}. One measures ${b(x + '°')}. What is the measure of the other angle? (degrees)`, ans, kind === 'vertical' ? `Vertical angles are equal: ${b(x)}°.` : `${kind === 'complementary' ? 90 : 180} − ${x} = ${b(ans)}°.`);
   }),
   R(/^Transversals of parallel lines: name angle pairs$/, () => () => {
-    const kind = pick(['corresponding', 'alternate interior', 'alternate exterior', 'same-side interior']), [p, q] = pick(PAIRS[kind]);
-    return mc(`${transversalSvg()}Two parallel lines are cut by a transversal. Angles ${b(p)} and ${b(q)} are called…`, kind, ['corresponding', 'alternate interior', 'alternate exterior', 'same-side interior', 'vertical'].filter(x => x !== kind).slice(0, 3), `Angles ${p} and ${q} are ${b(kind)} angles.`, 4);
+    const kinds = ['corresponding', 'alternate interior', 'alternate exterior', 'same-side interior', 'vertical'], kind = pick(kinds), [p0, q0] = pick(PAIRS[kind]), [p, q] = Math.random() < 0.5 ? [p0, q0] : [q0, p0];
+    if (Math.random() < 0.4) { const ok = `∠${p} and ∠${q}`, other = kinds.filter(k_ => k_ !== kind).flatMap(k_ => PAIRS[k_]).map(([x, y]) => `∠${x} and ∠${y}`).filter(v_ => v_ !== ok && v_ !== `∠${q} and ∠${p}`); return mc(`${transversalSvg()}Two parallel lines are cut by a transversal. Which pair of angles are ${b(kind)} angles?`, ok, sample(other, 3), `Angles ${p} and ${q} are ${b(kind)} angles.`, 4); }
+    return mc(`${transversalSvg()}Two parallel lines are cut by a transversal. Angles ${b(p)} and ${b(q)} are called…`, kind, kinds.filter(x => x !== kind).slice(0, 3), `Angles ${p} and ${q} are ${b(kind)} angles.`, 4);
   }),
   R(/^Transversals of parallel lines: find angle measures$/, () => () => {
     const th = ri(3, 8) * 10, from = ri(1, 8), to = ri(1, 8); if (from === to) return null;
@@ -85,8 +94,12 @@ export const GEO6_RULES = [
 
   /* ===== polygons ===== */
   R(/^Identify and classify polygons$/, () => () => {
-    const n = ri(3, 10), names = { 3: 'triangle', 4: 'quadrilateral', 5: 'pentagon', 6: 'hexagon', 7: 'heptagon', 8: 'octagon', 9: 'nonagon', 10: 'decagon' };
-    return mc(`A polygon has ${b(n)} sides. What is it called?`, names[n], Object.values(names).filter(x => x !== names[n]).slice(0, 3), `A polygon with ${n} sides is a ${b(names[n])}.`, 4);
+    const n = ri(3, 12), names = { 3: 'triangle', 4: 'quadrilateral', 5: 'pentagon', 6: 'hexagon', 7: 'heptagon', 8: 'octagon', 9: 'nonagon', 10: 'decagon', 11: 'hendecagon', 12: 'dodecagon' }, form = pick(['sides', 'sides', 'vertices', 'angles', 'count']);
+    const wrong = Object.values(names).filter(x => x !== names[n]);
+    if (form === 'count') return num(`How many sides does a ${b(names[n])} have?`, n, `A ${names[n]} has ${b(n)} sides.`);
+    if (form === 'vertices') return mc(`A polygon has ${b(n)} vertices. What is it called?`, names[n], sample(wrong, 3), `A polygon with ${n} vertices also has ${n} sides: a ${b(names[n])}.`, 4);
+    if (form === 'angles') return mc(`A polygon has ${b(n)} angles. What is it called?`, names[n], sample(wrong, 3), `A polygon with ${n} angles also has ${n} sides: a ${b(names[n])}.`, 4);
+    return mc(`A polygon has ${b(n)} sides. What is it called?`, names[n], sample(wrong, 3), `A polygon with ${n} sides is a ${b(names[n])}.`, 4);
   }),
   R(/^Graph triangles and quadrilaterals$/, () => () => {
     const pts = randTri(), type = (() => { const d = (p, q) => Math.hypot(p[0] - q[0], p[1] - q[1]); const s = [d(pts[0], pts[1]), d(pts[1], pts[2]), d(pts[2], pts[0])].map(v_ => fix(v_, 6)); return new Set(s).size === 1 ? 'equilateral' : new Set(s).size === 2 ? 'isosceles' : 'scalene'; })();
@@ -112,33 +125,54 @@ export const GEO6_RULES = [
     return regular ? num(`What is the measure of one interior angle of a regular polygon with ${b(n)} sides? (degrees, rounded to the nearest degree)`, Math.round(total / n), `(${n} − 2) × 180 ÷ ${n} = ${fix(total / n, 1)} ≈ ${b(Math.round(total / n))}°.`) : num(`What is the sum of the interior angles of a polygon with ${b(n)} sides? (degrees)`, total, `(${n} − 2) × 180 = ${b(total)}°.`);
   }),
   R(/^Exterior angles of polygons$/, () => () => {
-    const n = pick([3, 4, 5, 6, 8, 9, 10, 12]); return num(`What is the measure of one exterior angle of a regular polygon with ${b(n)} sides? (degrees)`, 360 / n, `360 ÷ ${n} = ${b(360 / n)}°.`);
+    const n = pick([3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36]), form = pick(['ext', 'ext', 'sides', 'missing']);
+    if (form === 'sides') return num(`One exterior angle of a regular polygon measures ${b(360 / n + '°')}. How many sides does the polygon have?`, n, `360 ÷ ${360 / n} = ${b(n)}.`);
+    if (form === 'missing') { const k = ri(3, 6), parts = []; let left = 360; for (let i = 0; i < k - 1; i++) { const x = ri(20, Math.min(120, left - 20 * (k - 1 - i))); parts.push(x); left -= x; } if (left < 15 || left > 170) return null; return num(`A polygon has ${b(k)} exterior angles (one at each vertex): ${parts.map(x => b(x + '°')).join(', ')} and one more. What is the measure of the last exterior angle? (degrees)`, left, `Exterior angles add to 360°: 360 − (${parts.join(' + ')}) = ${b(left)}°.`); }
+    return num(`What is the measure of one exterior angle of a regular polygon with ${b(n)} sides? (degrees)`, 360 / n, `360 ÷ ${n} = ${b(360 / n)}°.`);
   }),
   R(/^Central angles of circles$|^Central angles and arc measures$|^Circle graphs and central angles$/, (mt, ctx) => () => {
     const p = ri(1, 19) * 5, deg = (p * 360) / 100;
     return /graphs/.test(ctx.title) ? num(`In a circle graph, a category is ${b(p + '%')} of the data. What is the central angle of its sector? (degrees)`, deg, `${p}% of 360° = ${b(deg)}°.`) : mc(`A central angle measures ${b(deg + '°')}. What is the measure of its intercepted arc?`, deg + '°', [(360 - deg) + '°', (deg / 2) + '°', (deg * 2) + '°'].filter(v_ => v_ !== deg + '°'), `The arc measure equals the central angle: ${b(deg + '°')}.`, 4);
   }),
   R(/^Classify quadrilaterals I{1,2}$/, () => () => {
-    const k = pick(['square', 'rectangle', 'rhombus', 'parallelogram', 'trapezoid', 'kite']), props = { square: 'four equal sides and four right angles', rectangle: 'four right angles and opposite sides equal', rhombus: 'four equal sides and opposite angles equal', parallelogram: 'opposite sides parallel and equal', trapezoid: 'exactly one pair of parallel sides', kite: 'two pairs of adjacent equal sides' };
-    return mc(`Which quadrilateral has ${b(props[k])}?`, k, ['square', 'rectangle', 'rhombus', 'parallelogram', 'trapezoid', 'kite'].filter(x => x !== k).slice(0, 3), `That is a ${b(k)}.`, 4);
+    const D = { square: ['four equal sides and four right angles', 'four equal sides and four right angles, with equal diagonals'], rectangle: ['four right angles and two pairs of equal sides, but adjacent sides of different lengths', 'four right angles, with a length that is different from its width'], rhombus: ['four equal sides but no right angles', 'four equal sides and opposite angles equal, but angles that are not right angles'], parallelogram: ['opposite sides parallel and equal, but no right angles and sides not all equal', 'two pairs of parallel sides, with neither all sides equal nor any right angles'], trapezoid: ['exactly one pair of parallel sides', 'one pair of parallel sides and one pair of sides that are not parallel'], kite: ['two pairs of adjacent equal sides, but opposite sides not equal', 'two pairs of equal adjacent sides and perpendicular diagonals, but not all four sides equal'] };
+    const names = Object.keys(D);
+    if (Math.random() < 0.35) {
+      const SUB = { square: ['rectangle', 'rhombus', 'parallelogram', 'kite'], rectangle: ['parallelogram'], rhombus: ['parallelogram', 'kite'], parallelogram: [], kite: [] }, five = Object.keys(SUB), x = pick(five), y = pick(five.filter(v_ => v_ !== x)), truth = SUB[x].includes(y), an = s_ => (/^[aeiou]/.test(s_) ? 'an ' : 'a ') + s_;
+      return mc(`True or false: every ${b(x)} is ${b(an(y))}.`, truth ? 'True' : 'False', [truth ? 'False' : 'True'], truth ? `A ${x} has all the properties of ${an(y)}.` : `A ${x} does not always have the properties of ${an(y)}.`, 2);
+    }
+    const k = pick(names);
+    return mc(`Which quadrilateral has ${b(pick(D[k]))}?`, k, sample(names, 3, [k]), `That is a ${b(k)}.`, 4);
   }),
-
   /* ===== 3-D figures ===== */
   R(/^Identify polyhedra$/, () => () => {
     const poly_ = ['cube', 'rectangular prism', 'square pyramid', 'triangular prism'], non = ['cylinder', 'cone', 'sphere'], ans = pick(poly_);
     return mc(`Which of these is a ${b('polyhedron')} (all faces are flat polygons)?`, ans, sample(non, 3), `${ans[0].toUpperCase() + ans.slice(1)}s have only flat faces.`, 4);
   }),
   R(/^Which figure is being described\?$/, () => () => {
-    const q = pick([['6 identical square faces', 'cube'], ['2 circular bases and a curved surface', 'cylinder'], ['1 circular base, a curved surface and one vertex', 'cone'], ['5 faces: one square and four triangles', 'square pyramid'], ['2 triangular bases and 3 rectangular faces', 'triangular prism']]);
-    return mc(`Which figure is described? ${b(q[0])}`, q[1], ['cube', 'cylinder', 'cone', 'square pyramid', 'triangular prism'].filter(x => x !== q[1]).slice(0, 3), `It is a ${b(q[1])}.`, 4);
+    const D = [['6 identical square faces', 'cube'], ['6 square faces, 12 edges and 8 vertices', 'cube'], ['2 circular bases and a curved surface', 'cylinder'], ['2 circular faces and no vertices, and it rolls on its side', 'cylinder'], ['1 circular base, a curved surface and one vertex', 'cone'], ['1 circular face and a point at the top, with a curved surface', 'cone'],
+      ['5 faces: one square and four triangles', 'square pyramid'], ['5 vertices, 8 edges, and a square base', 'square pyramid'], ['2 triangular bases and 3 rectangular faces', 'triangular prism'], ['5 faces, 9 edges and 6 vertices; two faces are triangles', 'triangular prism'],
+      ['6 rectangular faces, 12 edges and 8 vertices; not all faces are squares', 'rectangular prism'], ['2 hexagonal bases and 6 rectangular faces', 'hexagonal prism'], ['2 pentagonal bases and 5 rectangular faces', 'pentagonal prism'], ['4 triangular faces, 6 edges and 4 vertices', 'triangular pyramid'],
+      ['1 hexagonal base and 6 triangular faces', 'hexagonal pyramid'], ['1 pentagonal base and 5 triangular faces', 'pentagonal pyramid'], ['a perfectly round solid with no edges and no vertices', 'sphere'], ['all points on its surface are the same distance from the centre', 'sphere']];
+    const q = pick(D), all = [...new Set(D.map(x => x[1]))];
+    return mc(`Which figure is described? ${b(q[0])}`, q[1], sample(all, 3, [q[1]]), `It is a ${b(q[1])}.`, 4);
   }),
   R(/^Front, side and top view$|^Base plans$/, () => () => {
-    const s = pick([['cylinder', 'top', 'circle'], ['cylinder', 'side', 'rectangle'], ['cone', 'top', 'circle'], ['cone', 'side', 'triangle'], ['cube', 'front', 'square'], ['square pyramid', 'top', 'square'], ['square pyramid', 'side', 'triangle'], ['triangular prism', 'top', 'rectangle']]);
-    return mc(`What shape is the ${b(s[1] + ' view')} of a ${b(s[0])}?`, s[2], ['circle', 'square', 'rectangle', 'triangle'].filter(x => x !== s[2]), `Looking at a ${s[0]} from the ${s[1]} you see a ${b(s[2])}.`, 4);
+    const S_ = [['cylinder', 'top', 'circle'], ['cylinder', 'side', 'rectangle'], ['cylinder', 'front', 'rectangle'], ['cone', 'top', 'circle'], ['cone', 'side', 'triangle'], ['cone', 'front', 'triangle'], ['cube', 'front', 'square'], ['cube', 'top', 'square'], ['cube', 'side', 'square'], ['square pyramid', 'top', 'square'], ['square pyramid', 'side', 'triangle'], ['square pyramid', 'front', 'triangle'], ['triangular prism', 'top', 'rectangle'], ['rectangular prism', 'top', 'rectangle'], ['rectangular prism', 'front', 'rectangle'], ['rectangular prism', 'side', 'rectangle'], ['sphere', 'top', 'circle'], ['sphere', 'front', 'circle'], ['sphere', 'side', 'circle']];
+    const s = pick(S_), shapes = ['circle', 'square', 'rectangle', 'triangle'];
+    if (Math.random() < 0.3) { const R2 = [['cylinder', 'circle', 'rectangle'], ['cone', 'circle', 'triangle'], ['square pyramid', 'square', 'triangle'], ['cube', 'square', 'square'], ['rectangular prism', 'rectangle', 'rectangle'], ['sphere', 'circle', 'circle']], r = pick(R2); return mc(`A solid has a ${b(r[1])} as its top view and a ${b(r[2])} as its side view. Which solid is it?`, r[0], R2.map(x => x[0]).filter(x => x !== r[0]).slice(0, 3), `${r[0][0].toUpperCase() + r[0].slice(1)}: top view ${r[1]}, side view ${r[2]}.`, 4); }
+    return mc(`${pick(['What shape is the', 'Which shape is the', 'What do you see in the'])} ${b(s[1] + ' view')} of a ${b(s[0])}?`, s[2], shapes.filter(x => x !== s[2]), `Looking at a ${s[0]} from the ${s[1]} you see a ${b(s[2])}.`, 4);
   }),
-  R(/^Bases of three-dimensional figures$|^Parts of three-dimensional figures$/, () => () => {
-    const q = pick([['triangular prism', 'two triangles'], ['rectangular prism', 'two rectangles'], ['cylinder', 'two circles'], ['square pyramid', 'one square'], ['cone', 'one circle'], ['hexagonal prism', 'two hexagons']]);
-    return mc(`What are the base(s) of a ${b(q[0])}?`, q[1], ['two triangles', 'two rectangles', 'two circles', 'one square', 'one circle', 'two hexagons'].filter(x => x !== q[1]).slice(0, 3), `The base${q[1].startsWith('one') ? ' is' : 's are'} ${b(q[1])}.`, 4);
+  R(/^Bases of three-dimensional figures$|^Parts of three-dimensional figures$/, (mt, ctx) => () => {
+    const NG = [[3, 'triangular', 'triangle'], [5, 'pentagonal', 'pentagon'], [6, 'hexagonal', 'hexagon'], [8, 'octagonal', 'octagon']];
+    const B = [['triangular prism', 'two triangles'], ['rectangular prism', 'two rectangles'], ['cylinder', 'two circles'], ['square pyramid', 'one square'], ['cone', 'one circle'], ['hexagonal prism', 'two hexagons'], ['pentagonal prism', 'two pentagons'], ['octagonal prism', 'two octagons'], ['triangular pyramid', 'one triangle'], ['pentagonal pyramid', 'one pentagon'], ['hexagonal pyramid', 'one hexagon'], ['rectangular pyramid', 'one rectangle']];
+    if (/Parts/.test(ctx.title) && Math.random() < 0.6) {
+      const [n, adj] = pick(NG), pris = Math.random() < 0.5, what = pick(['faces', 'edges', 'vertices']), ans = pris ? { faces: n + 2, edges: 3 * n, vertices: 2 * n }[what] : { faces: n + 1, edges: 2 * n, vertices: n + 1 }[what];
+      return num(`How many ${b(what)} does a ${b(`${adj} ${pris ? 'prism' : 'pyramid'}`)} have?`, ans, pris ? `A prism with ${n}-sided bases has ${n + 2} faces, ${3 * n} edges and ${2 * n} vertices: ${b(ans)} ${what}.` : `A pyramid with a ${n}-sided base has ${n + 1} faces, ${2 * n} edges and ${n + 1} vertices: ${b(ans)} ${what}.`);
+    }
+    const q = pick(B), others = B.map(x => x[1]).filter(x => x !== q[1]);
+    if (Math.random() < 0.3) { const ofs = B.filter(x => x[1] === q[1]).map(x => x[0]), wrongFigs = B.filter(x => x[1] !== q[1]).map(x => x[0]); return mc(`Which figure has ${b(q[1])} as its base${q[1].startsWith('one') ? '' : 's'}?`, pick(ofs), sample(wrongFigs, 3), `The base${q[1].startsWith('one') ? ' is' : 's are'} ${b(q[1])}.`, 4); }
+    return mc(`What are the base(s) of a ${b(q[0])}?`, q[1], sample([...new Set(others)], 3), `The base${q[1].startsWith('one') ? ' is' : 's are'} ${b(q[1])}.`, 4);
   }),
   R(/^Similar solids$/, () => () => {
     const k = pick([2, 3, 4]), a = ri(2, 6); return num(`Two cubes are similar. The edge of the smaller cube is ${b(a + ' cm')} and the larger cube's edge is ${b(a * k + ' cm')}. What is the scale factor from the smaller to the larger?`, k, `${a * k} ÷ ${a} = ${b(k)}.`);
@@ -189,10 +223,11 @@ export const GEO6_RULES = [
     return num(`A figure is a ${w} cm by ${h} cm rectangle with a semicircle (diameter ${w} cm) attached to one ${w} cm side. What is the total area? (Use π ≈ 3.14; cm²)`, area, `${w * h} + ½ × 3.14 × ${w / 2}² = ${b(area)} cm².`);
   }),
   R(/^Perimeter and area: changes in scale$/, () => () => {
-    const k = pick([2, 3, 4]), a = ri(2, 9), area = Math.random() < 0.5;
-    return num(`Each side of a square is multiplied by ${b(k)}. By what factor does the ${area ? 'area' : 'perimeter'} change?`, area ? k * k : k, area ? `Area scales by ${k}² = ${b(k * k)}.` : `Perimeter scales by ${b(k)}.`);
+    const k = ri(2, 10), what = pick(['square', 'rectangle', 'equilateral triangle', 'regular hexagon', 'circle']), area = Math.random() < 0.5, form = pick(['forward', 'forward', 'reverse']);
+    const unit = what === 'circle' ? 'radius' : 'side length', dim = what === 'rectangle' ? 'Both the length and the width' : what === 'circle' ? 'The radius' : 'Each side';
+    if (form === 'reverse') { const f = area ? k * k : k; return num(`A ${what}'s ${what === 'circle' ? 'radius' : 'sides are all'} multiplied by the same number, and its ${area ? 'area' : what === 'circle' ? 'circumference' : 'perimeter'} becomes ${b(f)} times as large. By what number were the ${what === 'circle' ? 'radius' : 'sides'} multiplied?`, k, area ? `Area scales by (scale factor)², so the scale factor is √${f} = ${b(k)}.` : `Perimeter scales by the same factor as the sides: ${b(k)}.`); }
+    return num(`${dim} of a ${what} ${what === 'rectangle' ? 'are' : 'is'} multiplied by ${b(k)}. By what factor does the ${area ? 'area' : what === 'circle' ? 'circumference' : 'perimeter'} change?`, area ? k * k : k, area ? `Area scales by ${k}² = ${b(k * k)}.` : `${what === 'circle' ? 'Circumference' : 'Perimeter'} scales by ${b(k)}.`);
   }),
-
   /* ===== surface area and volume ===== */
   R(/^Surface area of triangular prisms$/, () => () => {
     const a = pick([3, 6, 9]), h = pick([4, 8, 12]), hyp = Math.sqrt(a * a + h * h); if (!Number.isInteger(hyp)) return null; const L = ri(4, 12), sa = a * h + (a + h + hyp) * L;

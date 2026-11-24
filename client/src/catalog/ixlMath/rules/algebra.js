@@ -82,8 +82,9 @@ export const ALGEBRA_RULES = [
     return mc(`${numberLine({ min: base, max: base + 10 * step, step, labelEvery: 5, marks: [{ v: v_, label: '?' }], width: 520, fmtLabel: x => fmt(x) })}What number is the point at?`, fmt(v_), near(v_ / step, 5, 3, { min: 1 }).map(k => fmt(base + k * step)), `Each tick is ${fmt(step)}. The point is at ${b(fmt(v_))}.`, 4);
   }),
   R(/^Which two-dimensional figure is being described\?$/, () => () => {
-    const q = pick([['3 sides and 3 vertices', 'triangle'], ['4 equal sides and 4 right angles', 'square'], ['5 sides', 'pentagon'], ['6 sides', 'hexagon'], ['8 sides', 'octagon'], ['4 sides with 2 pairs of equal opposite sides and 4 right angles', 'rectangle'], ['no sides and no corners', 'circle']]);
-    return mc(`Which two-dimensional figure is described? ${b(q[0])}`, q[1], ['triangle', 'square', 'pentagon', 'hexagon', 'octagon', 'rectangle', 'circle'].filter(x => x !== q[1]), `It is a ${b(q[1])}.`, 4);
+    const D = [['3 sides and 3 vertices', 'triangle'], ['3 straight sides and 3 corners', 'triangle'], ['4 equal sides and 4 right angles', 'square'], ['4 sides of the same length and 4 square corners', 'square'], ['5 sides', 'pentagon'], ['5 vertices and 5 straight sides', 'pentagon'], ['6 sides', 'hexagon'], ['6 vertices and 6 straight sides', 'hexagon'], ['8 sides', 'octagon'], ['8 vertices and 8 straight sides', 'octagon'], ['4 sides with 2 pairs of equal opposite sides and 4 right angles', 'rectangle'], ['4 right angles and 2 long sides and 2 short sides', 'rectangle'], ['no sides and no corners', 'circle'], ['a curved edge with no vertices, every point the same distance from the centre', 'circle'], ['4 equal sides and no right angles (it looks like a tilted square)', 'rhombus'], ['4 sides with exactly 1 pair of parallel sides', 'trapezoid'], ['4 sides with 2 pairs of parallel sides and no right angles', 'parallelogram'], ['7 sides', 'heptagon'], ['10 sides', 'decagon'], ['9 sides', 'nonagon']];
+    const q = pick(D);
+    return mc(`Which two-dimensional figure is described? ${b(q[0])}`, q[1], sample(['triangle', 'square', 'pentagon', 'hexagon', 'octagon', 'rectangle', 'circle', 'rhombus', 'trapezoid', 'parallelogram', 'heptagon'], 3, [q[1]]), `It is a ${b(q[1])}.`, 4);
   }),
   R(/^Distributive property: find the missing factor$/, () => () => {
     const a = ri(2, 9), c = ri(2, 5) * 10, d = ri(3, 9);
@@ -115,14 +116,41 @@ export const ALGEBRA_RULES = [
     return mc(`Which number is a factor of ${b(n)}?`, String(ans), sample(nonf, 3).map(String), `${n} ÷ ${ans} = ${n / ans}, so ${b(ans)} is a factor.`, 4);
   }),
   R(/^Find all the factor pairs of a number$/, () => () => {
-    const n = pick([12, 16, 18, 20, 24, 30, 36]), pairs = factorsOf(n).filter(k => k * k <= n).map(k => `${k} × ${n / k}`);
-    return num(`How many different ${b('factor pairs')} does ${b(n)} have? (like 1 × ${n})`, pairs.length, `The pairs are ${pairs.join(', ')}: ${b(pairs.length)} pairs.`);
+    const n = pick([12, 16, 18, 20, 24, 28, 30, 32, 36, 40, 42, 44, 45, 48, 50, 54, 56, 60, 63, 64, 72, 80]), pairs = factorsOf(n).filter(k => k * k <= n).map(k => [k, n / k]);
+    const txt = ([x, y]) => `${x} × ${y}`;
+    const form = pick(['count', 'which', 'not', 'missing', 'count']);
+    if (form === 'which') {
+      const [x, y] = pick(pairs), cand = [[x + 1, y], [x, y + 1], [x + 2, y - 1], [x - 1 || 2, y + 2], [x + 1, y + 1], [x, y - 1], [x + 3, y], [y, x + 1]];
+      for (let t = 0; t < 40; t++) cand.push([ri(2, 12), ri(2, 12)]);
+      const bad = uniq(cand.filter(([p, q]) => p > 0 && q > 0 && p * q !== n).map(txt)).filter(v_ => v_ !== txt([x, y])).slice(0, 3);
+      return mc(`Which is a factor pair of ${b(n)}?`, txt([x, y]), bad, `${x} × ${y} = ${n}.`, 4);
+    }
+    if (form === 'not') {
+      const real = sample(pairs.map(txt), Math.min(3, pairs.length)), [x, y] = pick(pairs); let bad = null;
+      for (let t = 0; t < 30 && !bad; t++) { const p = ri(2, 12), q = ri(2, 12); if (p * q !== n && p * q > n - 6 && p * q < n + 6) bad = txt([p, q]); }
+      if (!bad || real.length < 3) return null;
+      return mc(`Which is ${b('not')} a factor pair of ${b(n)}?`, bad, real, `${bad.replace('×', '×')} does not equal ${n}.`, 4);
+    }
+    if (form === 'missing') { const [x, y] = pick(pairs); return num(`${m(`${x} × ___ = ${n}`)}<br>Find the missing factor in this factor pair of ${b(n)}.`, y, `${n} ÷ ${x} = ${b(y)}.`); }
+    return num(`How many different ${b('factor pairs')} does ${b(n)} have? (like 1 × ${n})`, pairs.length, `The pairs are ${pairs.map(txt).join(', ')}: ${b(pairs.length)} pairs.`);
   }),
   R(/^Greatest common factor$/, () => () => {
     const g = pick([2, 3, 4, 5, 6, 8, 10, 12]), a = g * ri(2, 6), c = g * ri(2, 6); if (a === c) return null; const G = gcd(a, c);
     return num(`What is the greatest common factor of ${b(a)} and ${b(c)}?`, G, `The biggest number that divides both is ${b(G)}.`);
   }),
-  R(/^Squares up to 100$/, () => () => { const n = ri(2, 10); return num(`${m(`${n} × ${n}`)} = ?`, n * n, `${n} × ${n} = ${b(n * n)}.`); }),
+  R(/^Squares up to 100$/, () => () => {
+    const n = ri(1, 10), nmx = pick(NAMES);
+    return pick([
+      () => num(`${m(`${n} × ${n}`)} = ?`, n * n, `${n} × ${n} = ${b(n * n)}.`),
+      () => num(`What is ${m(`${n}<sup>2</sup>`)}?`, n * n, `${n}² = ${n} × ${n} = ${b(n * n)}.`),
+      () => num(`What is ${b(n)} squared?`, n * n, `${n} × ${n} = ${b(n * n)}.`),
+      () => num(`What is the square of ${b(n)}?`, n * n, `${n} × ${n} = ${b(n * n)}.`),
+      () => num(`${m(`${n * n} = ___ × ___`)}<br>What number goes in both blanks?`, n, `${n} × ${n} = ${n * n}, so the number is ${b(n)}.`),
+      () => num(`${nmx} draws a square with sides of ${b(n)} cm. What is its area in square centimetres?`, n * n, `Area = ${n} × ${n} = ${b(n * n)} cm².`),
+      () => num(`A square floor tile is ${b(n)} dm on each side. What is its area in square decimetres?`, n * n, `${n} × ${n} = ${b(n * n)} dm².`),
+      () => num(`A square garden has ${b(n)} rows with ${b(n)} plants in each row. How many plants are there?`, n * n, `${n} × ${n} = ${b(n * n)}.`)
+    ])();
+  }),
   R(/^Age puzzles$/, () => () => {
     const [x, y] = sample(NAMES, 2), a = ri(5, 12), d = ri(2, 6);
     return num(`${x} is ${a} years old. ${y} is ${d} years older than ${x}. What is the sum of their ages?`, a + a + d, `${y} is ${a + d}. ${a} + ${a + d} = ${b(2 * a + d)}.`);
@@ -306,7 +334,8 @@ export const ALGEBRA_RULES = [
   /* ===== percents ===== */
   R(/^What percentage is illustrated\?$|^Understanding percents: strip models$/, (mt, ctx) => () => {
     const strip_ = /strip/.test(ctx.title), p = strip_ ? ri(1, 9) * 10 : ri(5, 95), pic = strip_ ? tenthsBar(p / 100) : decGrid(p / 100);
-    return mc(`${pic}What percent of the ${strip_ ? 'strip' : 'grid'} is shaded?`, p + '%', near(p, 5, strip_ ? 3 : 8, { min: 1, step: strip_ ? 10 : 1 }).filter(x => x < 100).map(x => x + '%'), `${p} out of 100 is ${b(p + '%')}.`, 4);
+    const un = Math.random() < 0.4, ans = un ? 100 - p : p, word = strip_ ? pick(['strip', 'bar']) : pick(['grid', 'square']);
+    return mc(`${pic}What percent of the ${word} is ${un ? 'not shaded' : 'shaded'}?`, ans + '%', near(ans, 5, strip_ ? 3 : 8, { min: 1, step: strip_ ? 10 : 1 }).filter(x => x < 100).map(x => x + '%'), un ? `${p}% is shaded, so ${100 - p}% is ${b('not shaded')}: ${b(ans + '%')}.` : `${p} out of 100 is ${b(p + '%')}.`, 4);
   }),
   R(/^Convert fractions to percents using grid models$|^Convert between percents and fractions$/, () => () => {
     const [n, d] = pick([[1, 2], [1, 4], [3, 4], [1, 5], [2, 5], [3, 5], [4, 5], [1, 10], [3, 10], [7, 10], [1, 20], [9, 20], [1, 25], [3, 25]]), p = (n * 100) / d;

@@ -14,6 +14,14 @@ const distinct = (...xs) => uniq(xs.map(String));
 const ineqSym = rel => rel;
 const flip = rel => ({ '>': '<', '<': '>', '≥': '≤', '≤': '≥' }[rel]);
 
+/** a bar split into labelled parts: parts = [[label, relative width], ...]; top = optional total label */
+const barDiagram = (parts, top) => {
+  const W = 300, tot = parts.reduce((a, p) => a + p[1], 0); let x = 10, inner = '';
+  for (const [lab, w, col] of parts) { const pw = (w / tot) * W; inner += `<rect x="${x}" y="24" width="${pw}" height="34" fill="${col || '#c7d2fe'}" stroke="${C.ink}" stroke-width="2"/><text x="${x + pw / 2}" y="46" font-size="15" font-weight="700" text-anchor="middle" fill="${C.ink}">${lab}</text>`; x += pw; }
+  if (top) inner += `<line x1="10" y1="14" x2="${10 + W}" y2="14" stroke="${C.red}" stroke-width="2"/><text x="${10 + W / 2}" y="10" font-size="13" text-anchor="middle" fill="${C.red}">${top}</text>`;
+  return svg(W + 20, 66, inner, 'aria-label="bar diagram"');
+};
+
 export const ALG6_RULES = [
   /* ===== evaluating & describing expressions ===== */
   R(/^Evaluate (?:simple |linear |linear one-variable |one-variable |multi-variable |nonlinear |absolute value |radical |rational )?(?:variable )?expressions?(?: with (?:whole numbers|decimals))?$/, (mt, ctx) => () => {
@@ -46,10 +54,14 @@ export const ALG6_RULES = [
     return mc(`Factor ${m(`${g * p}x + ${g * q}`)}.`, `${g}(${coef(p)} + ${q})`, [`${g}(${coef(p * g)} + ${q})`, `${g + 1}(${coef(p)} + ${q})`, `${p}(${coef(g)} + ${q})`].filter(v_ => v_ !== `${g}(${coef(p)} + ${q})`), `Take out the greatest common factor ${g}: ${b(`${g}(${coef(p)} + ${q})`)}.`, 4);
   }),
   R(/^Write variable expressions from diagrams$/, () => () => {
-    const a = ri(2, 9);
-    return mc(`A bar is split into two parts: one part is ${b('x')} and the other is ${b(a)}. Which expression gives the total length?`, `x + ${a}`, [`x − ${a}`, `${a}x`, `x ÷ ${a}`], `Add the two parts: ${b(`x + ${a}`)}.`, 4);
+    const a = ri(2, 12), c2 = ri(2, 9), n = ri(2, 6), v = pick(['x', 'n', 'y', 'w', 'p', 'k']), form = pick(['sum', 'sum', 'part', 'copies', 'three', 'perim', 'cut']);
+    if (form === 'part') return mc(`${barDiagram([[v, 1], ['?', 1]], `${v} + ${a}`)}A bar has a total length of ${b(`${v} + ${a}`)}. One part is ${b(v)}. Which expression gives the length of the other part?`, String(a), [`${v}`, `${v} + ${2 * a}`, `${a}${v}`].filter(x_ => x_ !== String(a)), `The other part is the total minus ${v}: (${v} + ${a}) − ${v} = ${b(a)}.`, 4);
+    if (form === 'copies') return mc(`${barDiagram(Array.from({ length: n }, () => [v, 1]))}A bar is made of ${b(n)} equal parts, each of length ${b(v)}. Which expression gives the total length?`, `${n}${v}`, [`${n} + ${v}`, `${v}${n}`.replace(/^(.)(\d+)$/, `${v}<sup>$2</sup>`), `${v} ÷ ${n}`], `${n} parts of length ${v}: ${b(`${n}${v}`)}.`, 4);
+    if (form === 'three') return mc(`${barDiagram([[v, 1.4], [String(a), 1], [String(c2), 1]])}A bar is split into three parts with lengths ${b(v)}, ${b(a)} and ${b(c2)}. Which expression gives the total length?`, `${v} + ${a + c2}`, [`${v} + ${a} × ${c2}`, `${a + c2}${v}`, `${v} − ${a + c2}`], `${v} + ${a} + ${c2} = ${b(`${v} + ${a + c2}`)}.`, 4);
+    if (form === 'perim') return mc(`${barDiagram([[v, 1], [String(a), 1], [v, 1], [String(a), 1]])}A rectangle has side lengths ${b(v)} and ${b(a)}. Which expression gives its perimeter?`, `2${v} + ${2 * a}`, [`${v} + ${a}`, `${v}${a}`.replace(/^(.)(\d+)$/, `${a}${v}`), `2${v} + ${a}`], `Perimeter = 2(${v} + ${a}) = ${b(`2${v} + ${2 * a}`)}.`, 4);
+    if (form === 'cut') return mc(`${barDiagram([[v + ' − ' + a, 3], [String(a), 1]], v)}A bar of length ${b(v)} has a piece of length ${b(a)} cut off. Which expression gives the length that is left?`, `${v} − ${a}`, [`${v} + ${a}`, `${a} − ${v}`, `${a}${v}`], `Subtract the piece: ${b(`${v} − ${a}`)}.`, 4);
+    return mc(`${barDiagram([[v, 1], [String(a), 1]], `${v} + ${a}`)}A bar is split into two parts: one part is ${b(v)} and the other is ${b(a)}. Which expression gives the total length?`, `${v} + ${a}`, [`${v} − ${a}`, `${a}${v}`, `${v} ÷ ${a}`], `Add the two parts: ${b(`${v} + ${a}`)}.`, 4);
   }),
-
   /* ===== equivalent expressions ===== */
   R(/^Identify equivalent expressions(?: using strip models)?$|^Identify equivalent linear expressions(?: using algebra tiles|: word problems)?$/, (mt, ctx) => () => {
     const a = ri(2, 5), c = ri(1, 6), good = `${a}x + ${a * c}`, e = `${a}(x + ${c})`;
@@ -178,13 +190,21 @@ export const ALG6_RULES = [
   R(/^Find the constant of proportionality from a (?:table|graph)$|^Write equations for proportional relationships from (?:tables|graphs)$|^Write and solve equations for proportional relationships$|^Identify proportional relationships(?: by graphing| from graphs and equations| from tables)?$|^Interpret graphs of proportional relationships$|^Graph proportional relationships$|^Complete a table and graph a proportional relationship$/, (mt, ctx) => () => {
     const t = ctx.title, half = /graph|Graph|table/.test(t) && Math.random() < 0.25, k = half ? pick([0.5, 1.5, 2.5]) : ri(2, /graph|Graph/.test(t) ? 9 : 15);
     const xs = half ? [2, 4, 6, 8] : sample(range(1, 12), 4).sort((a, c) => a - c);
+    const gx = half ? [0, 2, 4, 6] : k <= 5 ? [0, 1, 2, 3] : [0, 1, 2], pts = gx.map(x => ({ x, y: k * x, color: C.primary })), top = Math.max(10, Math.ceil(k * gx[gx.length - 1] / 2) * 2 + 2), pic = () => plane({ min: 0, max: top, points: pts, labelEvery: 2 });
+    const CTX = [['hours', 'dollars', 'earned babysitting'], ['kilograms', 'dollars', 'of apples at a market'], ['minutes', 'pages', 'read'], ['litres', 'kilometres', 'driven by a car'], ['hours', 'kilometres', 'walked on a trail'], ['weeks', 'dollars', 'saved'], ['metres', 'dollars', 'of ribbon']];
     if (/Identify/.test(t)) { const prop = Math.random() < 0.5, c0 = prop ? 0 : ri(1, 5); return yesNo(`${table(['x', 'y'], xs.map(x => [x, k * x + c0]))}Is the relationship between x and y proportional?`, prop, prop ? `y ÷ x is always ${k}: proportional.` : `y ÷ x changes (${fix((k + c0) / 1, 2)}, ${fix((2 * k + c0) / 2, 2)}, …): not proportional.`, ['Yes', 'No']); }
-    if (/graph|Graph/.test(t)) { const gx = half ? [0, 2, 4, 6] : k <= 5 ? [0, 1, 2, 3] : [0, 1, 2], pts = gx.map(x => ({ x, y: k * x, color: C.primary })), top = Math.max(10, Math.ceil(k * gx[gx.length - 1] / 2) * 2 + 2); return num(`${plane({ min: 0, max: top, points: pts, labelEvery: 2 })}The points lie on a straight line through the origin. What is the constant of proportionality (y ÷ x)?`, k, `y ÷ x = ${k} for every point: ${b(k)}.`); }
+    if (/graph|Graph/.test(t)) {
+      const form = /Write equations/.test(t) ? pick(['eq', 'eq', 'const', 'ctxeq', 'ctxeq']) : /Interpret/.test(t) ? pick(['unit', 'unit', 'read']) : /Complete/.test(t) ? pick(['read', 'const']) : pick(['const', 'const', 'read', 'eq']);
+      if (form === 'eq') return mc(`${pic()}The points lie on a straight line through the origin. Which equation matches the graph?`, `y = ${k}x`, [`y = x + ${k}`, `y = ${k + 1}x`, `y = x ÷ ${k}`.replace(/\.5/, '.5')], `y ÷ x = ${k}, so ${b(`y = ${k}x`)}.`, 4);
+      if (form === 'ctxeq') { const [xu, yu, ph] = pick(CTX); return mc(`${pic()}The graph shows the number of ${yu} (y) for ${xu} (x) ${ph}. Which equation matches the graph?`, `y = ${k}x`, [`y = x + ${k}`, `y = ${k + 1}x`, `y = x ÷ ${k}`], `y ÷ x = ${k}, so ${b(`y = ${k}x`)}.`, 4); }
+      if (form === 'read') { const gx2 = gx.filter(x => x > 0), xr = pick(gx2); return num(`${pic()}The points lie on a straight line through the origin. What is the value of y when x = ${b(xr)}?`, k * xr, `The graph shows (${xr}, ${fmt(k * xr)}): y = ${b(fmt(k * xr))}.`); }
+      if (form === 'unit') { const [xu, yu, ph] = pick(CTX); return num(`${pic()}The graph shows the number of ${yu} (y) for ${xu} (x) ${ph}. How many ${yu} for each ${b('1')} ${xu.replace(/s$/, '')}?`, k, `The point where x = 1 is (1, ${k}): ${b(k)} ${yu} per ${xu.replace(/s$/, '')}.`); }
+      return num(`${pic()}The points lie on a straight line through the origin. What is the constant of proportionality (y ÷ x)?`, k, `y ÷ x = ${k} for every point: ${b(k)}.`);
+    }
     if (/Write equations/.test(t)) return mc(`${table(['x', 'y'], xs.map(x => [x, k * x]))}Which equation matches the table?`, `y = ${k}x`, [`y = x + ${k}`, `y = ${k + 1}x`, `y = x ÷ ${k}`], `y ÷ x = ${k}, so ${b(`y = ${k}x`)}.`, 4);
     if (/solve/.test(t)) { const x = ri(2, 9); return num(`${m(`y = ${k}x`)}. Find x when y = ${b(k * x)}.`, x, `${k * x} ÷ ${k} = ${b(x)}.`); }
     return num(`${table(['x', 'y'], xs.map(x => [x, k * x]))}What is the constant of proportionality?`, k, `${fmt(k * xs[0])} ÷ ${xs[0]} = ${b(fmt(k))}.`);
   }),
-
   /* ===== sequences ===== */
   R(/^Identify arithmetic and geometric sequences$/, () => () => {
     const geo = Math.random() < 0.5, a = ri(2, 6), r = ri(2, 4), seq = range(0, 4).map(i => (geo ? a * r ** i : a + i * r * 2));
@@ -201,7 +221,7 @@ export const ALG6_RULES = [
     return num(`${m(seq.map(S).join(', ') + ', …')} is a geometric sequence. What is the ${b(n + 'th')} term?`, a * r ** (n - 1), `${a} × ${P(r)}^${n - 1} = ${b(S(a * r ** (n - 1)))}.`);
   }),
   R(/^Extend a shape pattern$/, () => () => {
-    const a = ri(1, 4), s = ri(1, 3), rows = range(0, 2).map(i => a + i * s);
-    return num(`Row 1 has ${rows[0]} squares, row 2 has ${rows[1]} and row 3 has ${rows[2]}. If the pattern continues, how many squares are in row 5?`, a + 4 * s, `Each row adds ${s}: ${a} + 4 × ${s} = ${b(a + 4 * s)}.`);
-  })
+    const a = ri(1, 9), s = ri(1, 5), rows = range(0, 2).map(i => a + i * s), tgt = ri(4, 10), sh = pick(['squares', 'tiles', 'dots', 'stars', 'blocks', 'counters']);
+    return num(`Row 1 has ${rows[0]} ${sh}, row 2 has ${rows[1]} and row 3 has ${rows[2]}. If the pattern continues, how many ${sh} are in row ${tgt}?`, a + (tgt - 1) * s, `Each row adds ${s}: ${a} + ${tgt - 1} × ${s} = ${b(a + (tgt - 1) * s)}.`);
+  }),
 ];

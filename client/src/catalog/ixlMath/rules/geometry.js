@@ -1,13 +1,18 @@
 /* Geometry: shapes, solids, angles, lines, symmetry, transformations, spatial sense (Grades 1–5). */
 import {
-  ri, pick, shuffle, sample, range, uniq, m, b, fmt, num, mc, yesNo, near, svg, C, thing, emojiRow, big, cap,
-  SHAPES_2D, SIDES, shapeSvg, shapeRow, SOLIDS
+  ri, pick, shuffle, sample, range, uniq, m, b, fmt, num, mc, yesNo, near, svg, C, thing, emojiRow, big, cap, NAMES,
+  SHAPES_2D, SIDES, shapeSvg as shapeSvg0, shapeRow, SOLIDS
 } from '../h.js';
 import { R } from '../engine.js';
 
 const stroke = (extra = '') => `stroke="${C.primary}" stroke-width="3" stroke-linejoin="round" ${extra}`;
 const poly = (pts, fill = '#c7d2fe', extra = '') => `<polygon points="${pts.map(p => p.join(',')).join(' ')}" fill="${fill}" ${stroke(extra)}/>`;
 const g = (inner, w = 160, h = 130) => svg(w, h, inner);
+/* random colour scheme so repeated pictures of the same shape are not identical */
+const PAL = [['#c7d2fe', '#e0e7ff', '#a5b4fc', C.primary], ['#bbf7d0', '#dcfce7', '#86efac', '#16a34a'], ['#fde68a', '#fef3c7', '#fcd34d', '#d97706'], ['#fecaca', '#fee2e2', '#fca5a5', '#dc2626'], ['#e9d5ff', '#f3e8ff', '#d8b4fe', '#7c3aed'], ['#bae6fd', '#e0f2fe', '#7dd3fc', '#0284c7']];
+const tint = html => { const p = pick(PAL); return html.split('#c7d2fe').join(p[0]).split('#e0e7ff').join(p[1]).split('#a5b4fc').join(p[2]).split(C.primary).join(p[3]); };
+const shapeSvg = (name, size) => tint(shapeSvg0(name, size));
+const picChoices = (names, draw) => `<div style="display:flex;gap:12px;flex-wrap:wrap">${names.map((n, i) => `<span><b>${'ABCD'[i]}</b>${draw(n)}</span>`).join('')}</div>`;
 
 /* ---------- 2-D shapes: names, attributes ---------- */
 const SHAPE_LABEL = { circle: 'circle', oval: 'oval', triangle: 'triangle', square: 'square', rectangle: 'rectangle', rhombus: 'rhombus', trapezoid: 'trapezoid', parallelogram: 'parallelogram', pentagon: 'pentagon', hexagon: 'hexagon', heptagon: 'heptagon', octagon: 'octagon', nonagon: 'nonagon', decagon: 'decagon' };
@@ -60,7 +65,7 @@ export function fitShape(pts, { W = 160, H = 115, pad = 9, turn = true } = {}) {
   const k = Math.min((W - 2 * pad) / w, (H - 2 * pad) / h) * rr(0.78, 1), ox = (W - w * k) / 2 - Math.min(...xs) * k, oy = (H - h * k) / 2 - Math.min(...ys) * k;
   return q.map(([x, y]) => [Math.round((x * k + ox) * 10) / 10, Math.round((y * k + oy) * 10) / 10]);
 }
-const quadSvg = k => g(poly(fitShape(QUAD_MAKE[k] ? QUAD_MAKE[k]() : QUADS[k].pts)), 160, 115);
+const quadSvg = k => tint(g(poly(fitShape(QUAD_MAKE[k] ? QUAD_MAKE[k]() : QUADS[k].pts)), 160, 115));
 const ALL_QUAD_NAMES = ['square', 'rectangle', 'rhombus', 'parallelogram', 'trapezoid', 'kite', 'quadrilateral'];
 
 /* ---------- angles & lines ---------- */
@@ -100,13 +105,14 @@ const solidSvg = name => {
     'triangular pyramid': () => `<polygon points="25,100 120,100 145,72" fill="#e0e7ff" ${S}/><polygon points="25,100 120,100 82,12" fill="#a5b4fc" ${S}/><polygon points="120,100 145,72 82,12" fill="#c7d2fe" ${S}/>`,
     'triangular prism': () => `<polygon points="25,100 95,100 60,40" fill="#a5b4fc" ${S}/><polygon points="60,40 95,100 140,86 105,26" fill="#c7d2fe" ${S}/><polygon points="95,100 140,86 105,26 95,40 60,40" fill="none" ${S}/>`
   };
-  return g((map[name] || map.cube)(), 160, 125);
+  const body = (map[name] || map.cube)();
+  return tint(g(Math.random() < 0.5 ? body : `<g transform="translate(160,0) scale(-1,1)">${body}</g>`, 160, 125));
 };
 const DISPLAY_SOLIDS = ['cube', 'rectangular prism', 'cylinder', 'cone', 'sphere', 'square pyramid', 'triangular pyramid', 'triangular prism'];
 const solidsFor = grade => (grade <= 2 ? ['cube', 'rectangular prism', 'cylinder', 'cone', 'sphere', 'square pyramid'] : DISPLAY_SOLIDS);
 const POLYHEDRA = SOLIDS.filter(s => s[3] > 0 && s[4] > 0 && !['cylinder', 'cone', 'sphere'].includes(s[0]));
 const solidFaces = name => SOLIDS.find(s => s[0] === name);
-const REAL = { cube: ['a dice 🎲', 'a sugar cube'], 'rectangular prism': ['a cereal box 📦', 'a brick', 'a shoebox'], cylinder: ['a soup can 🥫', 'a drum', 'a pipe'], cone: ['an ice cream cone 🍦', 'a party hat', 'a traffic cone'], sphere: ['a soccer ball ⚽', 'a marble', 'a globe 🌍'], 'square pyramid': ['a pyramid in Egypt', 'a tent roof', 'a pyramid-shaped paperweight'] };
+export const REAL = { cube: ['a dice 🎲', 'a sugar cube', 'a Rubik’s cube', 'a block of ice in a drink', 'a square tissue box'], 'rectangular prism': ['a cereal box 📦', 'a brick', 'a shoebox', 'a carton of milk', 'a hardcover book', 'a fridge'], cylinder: ['a soup can 🥫', 'a drum', 'a pipe', 'a roll of paper towels', 'a candle', 'a tin of tuna'], cone: ['an ice cream cone 🍦', 'a party hat', 'a traffic cone', 'a funnel'], sphere: ['a soccer ball ⚽', 'a marble', 'a globe 🌍', 'a basketball', 'an orange', 'a bowling ball'], 'square pyramid': ['a pyramid in Egypt', 'a tent roof', 'a pyramid-shaped paperweight'] };
 
 /* ---------- nets ---------- */
 function netSvg(name) {
@@ -151,7 +157,11 @@ const LINES_OF_SYM = { triangle: 3, square: 4, rectangle: 2, rhombus: 2, pentago
 /* ---------- compose shapes ---------- */
 const COMPOSE = [
   ['two triangles', 'a square or a rectangle or a parallelogram', ['a hexagon', 'a circle']], ['two squares', 'a rectangle', ['a triangle', 'a circle']], ['six triangles', 'a hexagon', ['a square', 'a circle']],
-  ['a rectangle and a triangle', 'a house shape (a pentagon)', ['a circle', 'a hexagon']], ['two trapezoids', 'a hexagon', ['a circle', 'a triangle']], ['four squares', 'a bigger square', ['a circle', 'a triangle']]
+  ['a rectangle and a triangle', 'a house shape (a pentagon)', ['a circle', 'a hexagon']], ['two trapezoids', 'a hexagon', ['a circle', 'a triangle']], ['four squares', 'a bigger square', ['a circle', 'a triangle']],
+  ['two equal right triangles', 'a rectangle', ['a circle', 'a pentagon']], ['two equilateral triangles', 'a rhombus', ['a circle', 'a pentagon']], ['three equilateral triangles', 'a trapezoid', ['a circle', 'a square']],
+  ['two rectangles side by side', 'a bigger rectangle', ['a circle', 'a triangle']], ['two half circles', 'a circle', ['a square', 'a triangle']], ['four equal right triangles', 'a square', ['a circle', 'a hexagon']],
+  ['a square and a triangle on top', 'a house shape (a pentagon)', ['a circle', 'a hexagon']], ['three rhombuses', 'a hexagon', ['a circle', 'a triangle']], ['three squares in a row', 'a long rectangle', ['a circle', 'a triangle']],
+  ['two small squares and one rectangle', 'a bigger rectangle', ['a circle', 'a triangle']], ['eight triangles', 'an octagon', ['a circle', 'a square']], ['two equal rectangles', 'a bigger square', ['a circle', 'a triangle']]
 ];
 
 /* ---------- spatial sense ---------- */
@@ -168,27 +178,51 @@ export const GEOMETRY_RULES = [
     return mc(`Which picture shows a ${b(s0)}?<div style="display:flex;gap:12px;flex-wrap:wrap">${pool.map((n, i) => `<span><b>${'ABCD'[i]}</b>${shapeSvg(n, 80)}</span>`).join('')}</div>`, L, 'ABCD'.split('').filter(x => x !== L), `Picture ${b(L)} is a ${s0}.`, 4);
   }),
   R(/^Rhombuses$|^Rectangles$/, (mt, ctx) => () => {
-    const want = /Rhomb/.test(ctx.title) ? 'rhombus' : 'rectangle', qs = ['rhombus', 'rectangle', 'trapezoid', 'triangle', 'parallelogram'];
-    const s = pick(qs), isIt = s === want || (want === 'rectangle' && s === 'square');
-    const qk = { rhombus: 'rhombus', rectangle: 'rectangle', trapezoid: 'trapezoid', parallelogram: 'parallelogram', triangle: 'triangle' }[s];
-    return yesNo(`${shapeSvg(s, 100)}Is this shape a ${b(want)}?`, s === want, s === want ? `Yes, it is a ${want}.` : `No — it is a ${s}.`, ['Yes', 'No']);
+    const want = /Rhomb/.test(ctx.title) ? 'rhombus' : 'rectangle', others = ['rhombus', 'rectangle', 'trapezoid', 'parallelogram', 'triangle'].filter(x => x !== want);
+    const pic = (k, sz = 90) => (k === 'triangle' ? shapeSvg('triangle', sz) : quadSvg(k));
+    const form = ri(0, 3);
+    if (form === 1) { const pool = shuffle(sample(others, 3).concat(want)), L = 'ABCD'[pool.indexOf(want)]; return mc(`Which picture shows a ${b(want)}?${picChoices(pool, k => pic(k, 80))}`, L, 'ABCD'.split('').filter(x => x !== L), `Picture ${b(L)} is a ${want}.`, 4); }
+    if (form === 2) { const s = Math.random() < 0.5 ? want : pick(others), names = ['rhombus', 'rectangle', 'trapezoid', 'parallelogram']; if (s === 'triangle') return null; return mc(`${pic(s)}What is the name of this shape?`, s, names.filter(x => x !== s), `This shape is a ${b(s)}.`, 4); }
+    const s = Math.random() < 0.5 ? want : pick(others);
+    return yesNo(`${pic(s)}${pick([`Is this shape a ${b(want)}?`, `Is this a ${b(want)}? ${want === 'rhombus' ? '(A rhombus has 4 equal sides.)' : '(A rectangle has 4 square corners.)'}`])}`, s === want, s === want ? `Yes, it is a ${want}.` : `No — it is a ${s}.`, ['Yes', 'No']);
   }),
   R(/^Count sides and vertices$|^Count and compare sides and vertices$|^Compare sides and vertices$/, (mt, ctx) => () => {
-    const s = pick(shapeNames(ctx.grade).filter(x => SIDES[x] > 0)), n = SIDES[s];
-    if (/Compare/.test(ctx.title)) { const [a, c] = sample(shapeNames(ctx.grade).filter(x => SIDES[x] > 0), 2, []); if (SIDES[a] === SIDES[c]) return null; const more = SIDES[a] > SIDES[c] ? a : c; return mc(`Which has more sides: a ${b(a)} or a ${b(c)}?`, more, [more === a ? c : a], `A ${a} has ${SIDES[a]} sides and a ${c} has ${SIDES[c]}.`, 2); }
-    return Math.random() < 0.5 ? num(`${shapeSvg(s, 100)}How many sides does this shape have?`, n, `Count the sides: ${b(n)}.`) : num(`${shapeSvg(s, 100)}How many vertices (corners) does this shape have?`, n, `A polygon has as many vertices as sides: ${b(n)}.`);
+    const pool = shapeNames(ctx.grade).filter(x => SIDES[x] > 0), s = pick(pool), n = SIDES[s];
+    const pic = (k, sz = 100) => (['rectangle', 'rhombus', 'parallelogram', 'trapezoid'].includes(k) ? quadSvg(k) : shapeSvg(k, sz));
+    if (/Compare/.test(ctx.title)) {
+      const [a, c] = sample(pool, 2, []); if (SIDES[a] === SIDES[c]) return null;
+      const w = pick(['sides', 'vertices (corners)']), more = ri(0, 1) === 0, ans = (SIDES[a] > SIDES[c]) === more ? a : c;
+      return mc(`Which has ${more ? 'more' : 'fewer'} ${w}: a ${b(a)} or a ${b(c)}?`, ans, [ans === a ? c : a], `A ${a} has ${SIDES[a]} ${w.split(' ')[0]} and a ${c} has ${SIDES[c]}.`, 2);
+    }
+    const form = ri(0, 3);
+    if (form === 2) { const k = pick([3, 4, 5, 6, 7, 8].filter(x => pool.some(p => SIDES[p] === x))), ok = pool.filter(p => SIDES[p] === k), ans = pick(ok); return mc(`Which shape has ${b(k + ' ' + pick(['sides', 'vertices (corners)']))}?`, ans, sample(pool.filter(p => SIDES[p] !== k), 3), `A ${ans} has ${k} sides and ${k} vertices.`, 4); }
+    if (form === 3) return num(`How many ${pick(['sides', 'vertices (corners)'])} does a ${b(s)} have?`, n, `A ${s} has ${b(n)} sides and ${n} vertices.`);
+    return form === 0 ? num(`${pic(s)}How many sides does this shape have?`, n, `Count the sides: ${b(n)}.`) : num(`${pic(s)}How many vertices (corners) does this shape have?`, n, `A polygon has as many vertices as sides: ${b(n)}.`);
   }),
   R(/^Number of sides in polygons$/, () => () => {
-    const s = pick(POLYGONS); return num(`How many sides does a ${b(s)} have?`, SIDES[s], `A ${s} has ${b(SIDES[s])} sides.`);
+    const s = pick(POLYGONS), f = ri(0, 3), k = ri(2, 4);
+    if (f === 1) return mc(`A polygon has ${b(SIDES[s] + ' sides')}. What is it called?`, s, sample(POLYGONS.filter(x => SIDES[x] !== SIDES[s]), 3), `A polygon with ${SIDES[s]} sides is a ${b(s)}.`, 4);
+    if (f === 2) return num(`How many ${pick(['vertices (corners)', 'angles'])} does a ${b(s)} have?`, SIDES[s], `A ${s} has ${b(SIDES[s])} sides, so it has ${SIDES[s]} vertices and ${SIDES[s]} angles.`);
+    if (f === 3) return num(`How many sides are there in all on ${b(k)} ${s}s?`, k * SIDES[s], `${k} × ${SIDES[s]} = ${b(k * SIDES[s])}.`);
+    return num(`How many sides does a ${b(s)} have?`, SIDES[s], `A ${s} has ${b(SIDES[s])} sides.`);
   }),
   R(/^Equal sides$/, () => () => {
-    const s = pick(['square', 'rectangle', 'triangle', 'rhombus', 'trapezoid']), eq = { square: 'all 4 sides equal', rectangle: 'opposite sides equal', triangle: 'sides that may differ', rhombus: 'all 4 sides equal', trapezoid: 'sides that may differ' }[s];
-    const allEqual = ['square', 'rhombus'].includes(s);
-    return yesNo(`Does a ${b(s)} always have ${b('all sides equal')} in length?`, allEqual, `A ${s} has ${eq}.`, ['Yes', 'No']);
+    const EQ = ['square', 'rhombus', 'equilateral triangle', 'regular pentagon', 'regular hexagon', 'regular octagon'], NE = ['rectangle', 'trapezoid', 'parallelogram', 'kite', 'scalene triangle', 'right triangle', 'isosceles triangle'];
+    const form = ri(0, 3);
+    if (form === 2) { const ans = pick(EQ); return mc(`Which shape always has ${b('all sides equal')} in length?`, ans, sample(NE, 3), `A ${ans} has all its sides equal.`, 4); }
+    if (form === 3) { const ans = pick(NE); return mc(`Which shape does ${b('not')} always have all sides equal in length?`, ans, sample(EQ, 3), `The sides of a ${ans} are not always all equal.`, 4); }
+    const s = form === 0 ? pick(['square', 'rectangle', 'triangle', 'rhombus', 'trapezoid', 'parallelogram']) : pick(EQ.concat(NE)), allEqual = EQ.includes(s) || s === 'triangle' && false;
+    const isEq = EQ.includes(s);
+    return yesNo(`Does a ${b(s)} always have ${b('all sides equal')} in length?`, isEq, isEq ? `A ${s} has all its sides equal.` : `The sides of a ${s} can be different lengths.`, ['Yes', 'No']);
   }),
   R(/^Square corners$/, () => () => {
-    const s = pick(['square', 'rectangle', 'triangle', 'circle', 'rhombus']), n = { square: 4, rectangle: 4, triangle: 0, circle: 0, rhombus: 0 }[s];
-    return num(`How many square corners (right angles) does a typical ${b(s)} have? ${s === 'triangle' ? '(A triangle with no right angle.)' : s === 'rhombus' ? '(A rhombus that is not a square.)' : ''}`, n, `A ${s} has ${b(n)} square corners.`);
+    const form = ri(0, 1);
+    if (form === 0) {
+      const s = pick(['square', 'rectangle', 'rhombus', 'parallelogram', 'trapezoid', 'right scalene', 'acute equilateral']), n = { square: 4, rectangle: 4, rhombus: 0, parallelogram: 0, trapezoid: 0, 'right scalene': 1, 'acute equilateral': 0 }[s];
+      return num(`${QUADS[s] ? quadSvg(s) : triSvg(s, { showTicks: false })}How many square corners (right angles) does this shape have?`, n, `Count the corners that are square: ${b(n)}.`);
+    }
+    const s = pick(['square', 'rectangle', 'triangle', 'circle', 'rhombus', 'pentagon', 'hexagon', 'parallelogram']), n = { square: 4, rectangle: 4 }[s] || 0;
+    return num(`How many square corners (right angles) does a typical ${b(s)} have? ${s === 'triangle' ? '(A triangle with no right angle.)' : s === 'rhombus' ? '(A rhombus that is not a square.)' : s === 'parallelogram' ? '(A parallelogram that is not a rectangle.)' : ''}`, n, `A ${s} has ${b(n)} square corners.`);
   }),
   R(/^Open and closed shapes$/, () => () => {
     const closed = Math.random() < 0.5, pic = closed ? g(poly([[30, 20], [120, 30], [100, 95], [40, 90]])) : g(`<polyline points="30,25 120,30 100,95 40,90" fill="none" ${stroke()}/>`);
@@ -200,19 +234,44 @@ export const GEOMETRY_RULES = [
     const all = ['triangle', 'square', 'hexagon', 'pentagon', 'octagon', 'circle', 'rectangle', 'heptagon', 'nonagon', 'decagon', 'trapezoid', 'rhombus', 'parallelogram'];
     return mc(`Which shape is described? ${b(q[0])}`, q[1], sample(all, 3, [q[1]]), `It is a ${b(q[1])}.`, 4);
   }),
-  R(/^Sort two-dimensional shapes$/, () => () => {
-    const s = pick(['triangle', 'square', 'circle', 'pentagon', 'hexagon', 'rectangle']), cat = SIDES[s] === 0 ? 'No sides' : SIDES[s] <= 4 ? '3 or 4 sides' : '5 or more sides';
-    return mc(`${shapeSvg(s, 90)}Sort this shape. Which group does it belong to?`, cat, ['No sides', '3 or 4 sides', '5 or more sides'].filter(x => x !== cat), `A ${s} ${SIDES[s] ? `has ${SIDES[s]} sides` : 'has no straight sides'}: ${b(cat)}.`, 3);
+  R(/^Sort two-dimensional shapes$/, (mt, ctx) => () => {
+    const names = ctx.grade <= 0 ? ['triangle', 'square', 'circle', 'pentagon', 'hexagon', 'rectangle', 'oval', 'octagon'] : ['triangle', 'square', 'circle', 'pentagon', 'hexagon', 'rectangle', 'oval', 'octagon', 'rhombus', 'trapezoid'];
+    const cat = s => (SIDES[s] === 0 ? 'No straight sides' : SIDES[s] <= 4 ? '3 or 4 sides' : '5 or more sides');
+    const form = ri(0, 3);
+    if (form === 1) {            // which shape belongs in the group
+      const n = pick([3, 4, 5, 6, 8]), want = `${n} sides`, ok = names.filter(x => SIDES[x] === n), s0 = pick(ok), pool = shuffle(sample(names.filter(x => SIDES[x] !== n), 3).concat(s0)), L = 'ABCD'[pool.indexOf(s0)];
+      return mc(`Which shape belongs in the group ${b(`"shapes with ${want}"`)}?${picChoices(pool, x => shapeSvg(x, 80))}`, L, 'ABCD'.split('').filter(x => x !== L), `Picture ${b(L)} is a ${s0}, and a ${s0} has ${n} sides.`, 4);
+    }
+    if (form === 2) {            // curved vs straight
+      const s = pick(names);
+      return mc(`${shapeSvg(s, 90)}Look at this shape. Which group does it belong to?`, SIDES[s] === 0 ? 'Has a curved edge' : 'Has only straight sides', [SIDES[s] === 0 ? 'Has only straight sides' : 'Has a curved edge'], `A ${s} ${SIDES[s] === 0 ? 'has a curved edge' : 'has only straight sides'}.`, 2);
+    }
+    if (form === 3) {            // odd one out
+      const grp = pick(['3 or 4 sides', '5 or more sides']), inG = names.filter(x => SIDES[x] > 0 && cat(x) === grp), out = names.filter(x => cat(x) !== grp);
+      if (inG.length < 3) return null;
+      const odd = pick(out), pool = shuffle(sample(inG, 3).concat(odd)), L = 'ABCD'[pool.indexOf(odd)];
+      return mc(`Three of these shapes belong to the group ${b(`"${grp}"`)}. Which one does ${b('not')} belong?${picChoices(pool, x => shapeSvg(x, 80))}`, L, 'ABCD'.split('').filter(x => x !== L), `Picture ${b(L)} is a ${odd}, which is not in the group "${grp}".`, 4);
+    }
+    const s = pick(names);
+    return mc(`${shapeSvg(s, 90)}Sort this shape. Which group does it belong to?`, cat(s), ['No straight sides', '3 or 4 sides', '5 or more sides'].filter(x => x !== cat(s)), `A ${s} ${SIDES[s] ? `has ${SIDES[s]} sides` : 'has no straight sides'}: ${b(cat(s))}.`, 3);
   }),
   R(/^Two-dimensional shapes in the real world$|^Two-dimensional shapes in real-world objects$/, () => () => {
-    const q = pick([['a clock face', 'circle'], ['a stop sign', 'octagon'], ['a slice of pizza', 'triangle'], ['a window pane', 'rectangle'], ['a chessboard square', 'square'], ['a yield sign', 'triangle']]);
-    return mc(`What shape is ${b(q[0])}?`, q[1], ['circle', 'octagon', 'triangle', 'rectangle', 'square'].filter(x => x !== q[1]), `${q[0]} is a ${b(q[1])}.`, 4);
+    const ALL = [['a clock face', 'circle'], ['a stop sign', 'octagon'], ['a slice of pizza', 'triangle'], ['a window pane', 'rectangle'], ['a chessboard square', 'square'], ['a yield sign', 'triangle'], ['a loonie coin', 'circle'], ['a door', 'rectangle'],
+      ['a slice of cheese', 'square'], ['a hockey puck seen from above', 'circle'], ['a picture frame', 'rectangle'], ['a pizza box lid', 'square'], ['a dinner plate', 'circle'], ['a book cover', 'rectangle'],
+      ['a road sign for a school zone (pentagon)', 'pentagon'], ['a honeycomb cell', 'hexagon'], ['a sheet of notebook paper', 'rectangle'], ['a pizza', 'circle'], ['a Canadian flag', 'rectangle'], ['a nacho chip', 'triangle'], ['a tile on a floor', 'square'], ['a wheel', 'circle'], ['a slice of bread', 'square'], ['a pennant flag', 'triangle'], ['a ping-pong table top', 'rectangle']];
+    const q = pick(ALL), shapes = ['circle', 'octagon', 'triangle', 'rectangle', 'square', 'hexagon', 'pentagon'];
+    return mc(pick([`What shape is ${b(q[0])}?`, `Which shape does ${b(q[0])} look like?`]), q[1], shapes.filter(x => x !== q[1]), `${q[0][0].toUpperCase() + q[0].slice(1)} is a ${b(q[1])}.`, 4);
   }),
   R(/^Compose two-dimensional shapes(?:: which shapes can you make\?)?$/, () => () => {
     const [parts, ans, wrong] = pick(COMPOSE);
-    return mc(`What can you make by putting together ${b(parts)}?`, ans, wrong, `${parts[0].toUpperCase() + parts.slice(1)} can make ${b(ans)}.`, 3);
+    const stem = pick([`What can you make by putting together ${b(parts)}?`, `Which shape can you build with ${b(parts)}?`]);
+    return mc(stem, ans, wrong, `${parts[0].toUpperCase() + parts.slice(1)} can make ${b(ans)}.`, 3);
   }),
   R(/^Congruent shapes$|^Identify congruent (?:shapes|figures)$/, () => () => {
+    const f = ri(0, 2);
+    if (f === 1) { const sh = pick(['square', 'rectangle']), a = ri(2, 12), c = sh === 'square' ? a : ri(2, 12), same = Math.random() < 0.5; let a2 = a, c2 = c; if (!same) { if (sh === 'square') a2 = a + pick([-1, 1, 2]) || a + 1; else { c2 = c + pick([-1, 1, 2]) || c + 1; } if (a2 <= 0) a2 = a + 1; if (c2 <= 0) c2 = c + 1; } const A = sh === 'square' ? `a square with side ${a} cm` : `a rectangle ${a} cm by ${c} cm`, B2 = sh === 'square' ? `a square with side ${a2} cm` : (same && Math.random() < 0.5 ? `a rectangle ${c} cm by ${a} cm` : `a rectangle ${a2} cm by ${c2} cm`);
+      const cong = sh === 'square' ? a === a2 : (a === a2 && c === c2) || (a === c2 && c === a2); return yesNo(`Are ${A} and ${B2} congruent?`, cong, cong ? 'They have the same size and shape, so they are congruent.' : 'Their sizes are different, so they are not congruent.', ['Yes', 'No']); }
+    if (f === 2) { const T = [['Two shapes that are the same size and the same shape are congruent.', true], ['Congruent shapes can be flipped or turned and still be congruent.', true], ['Two squares of different sizes are congruent.', false], ['A shape and its mirror image (a flip) are congruent.', true], ['Two circles with different radii are congruent.', false], ['A triangle that has been slid to a new place is still congruent to the original.', true], ['A small rectangle and a bigger rectangle with the same shape are congruent.', false], ['Two circles with the same radius are congruent.', true]], t = pick(T); return yesNo(`True or false? ${b(t[0])}`, t[1], t[1] ? 'This is true.' : 'This is false.', ['True', 'False']); }
     const same = Math.random() < 0.5;
     return yesNo(`${congruentPair(same)}Are these two figures congruent? (same size and same shape)`, same, same ? 'They are the same size and shape (one may be flipped or turned).' : 'One is bigger than the other, so they are not congruent.', ['Yes', 'No']);
   }),
@@ -228,11 +287,16 @@ export const GEOMETRY_RULES = [
     return yesNo(`${html}Is the dashed line a ${b('line of symmetry')}?`, isSym, isSym ? 'Folding along the line makes both halves match.' : 'The two sides would not match if you folded along the line.', ['Yes', 'No']);
   }),
   R(/^Draw lines of symmetry$|^Count lines of symmetry$/, () => () => {
-    const k = pick(Object.keys(LINES_OF_SYM).filter(x => LINES_OF_SYM[x] !== '∞')), n = LINES_OF_SYM[k];
-    return num(`How many lines of symmetry does a ${b(k)} have? (a regular shape if no other detail)`, n, `A ${k} has ${b(n)} line${n === 1 ? '' : 's'} of symmetry.`);
+    const L2 = { square: 4, 'rectangle that is not a square': 2, 'rhombus that is not a square': 2, 'regular pentagon': 5, 'regular hexagon': 6, 'regular heptagon': 7, 'regular octagon': 8, 'regular nonagon': 9, 'regular decagon': 10, 'equilateral triangle': 3, 'isosceles triangle that is not equilateral': 1, 'scalene triangle': 0, 'parallelogram that is not a rectangle or rhombus': 0, 'kite that is not a rhombus': 1, 'isosceles trapezoid': 1, 'right isosceles triangle': 1 };
+    const names = Object.keys(L2), form = ri(0, 2);
+    if (form === 2) { const n = pick([1, 2, 3, 4, 5, 6, 8]), ok = names.filter(x => L2[x] === n); if (!ok.length) return null; const ans = pick(ok); return mc(`Which shape has exactly ${b(n + ' line' + (n === 1 ? '' : 's'))} of symmetry?`, ans, sample(names.filter(x => L2[x] !== n), 3), `A ${ans} has ${b(n)} line${n === 1 ? '' : 's'} of symmetry.`, 4); }
+    const k = pick(names), n = L2[k];
+    return num(`How many lines of symmetry does a ${b(k)} have?`, n, `A ${k} has ${b(n)} line${n === 1 ? '' : 's'} of symmetry.`);
   }),
   R(/^Rotational symmetry$/, () => () => {
-    const k = pick([['square', 4], ['rectangle', 2], ['regular hexagon', 6], ['equilateral triangle', 3], ['parallelogram', 2], ['regular pentagon', 5]]);
+    const T = [['square', 4], ['rectangle that is not a square', 2], ['regular hexagon', 6], ['equilateral triangle', 3], ['parallelogram that is not a rhombus', 2], ['regular pentagon', 5], ['regular octagon', 8], ['rhombus that is not a square', 2], ['regular heptagon', 7], ['regular decagon', 10], ['regular nonagon', 9]];
+    const k = pick(T);
+    if (ri(0, 1)) return num(`What is the smallest turn, in degrees, that makes a ${b(k[0])} look the same?`, 360 / k[1], `A full turn is 360°. ${k[1]} matching positions means turns of 360 ÷ ${k[1]} = ${b(360 / k[1])}°.`);
     return num(`How many times does a ${b(k[0])} look the same during one full turn (order of rotational symmetry)?`, k[1], `A ${k[0]} has rotational symmetry of order ${b(k[1])}.`);
   }),
   R(/^Is it a polygon\?$/, () => () => {
@@ -247,13 +311,27 @@ export const GEOMETRY_RULES = [
     return yesNo(`${pic}Is this figure a polygon?`, poly_, poly_ ? 'It is closed and made only of straight sides.' : 'A polygon is closed and made of straight sides only — this figure is not.', ['Yes', 'No']);
   }),
   R(/^Regular and irregular polygons$/, () => () => {
-    const reg = Math.random() < 0.5, name = pick(['pentagon', 'hexagon', 'octagon']), pic = reg ? shapeSvg(name, 100) : g(poly(pick([[[20, 90], [40, 25], [100, 15], [145, 70], [90, 105]], [[15, 60], [60, 10], [130, 30], [140, 90], [50, 105]]])));
+    const form = ri(0, 2);
+    if (form === 2) {
+      const T = [['square', true], ['equilateral triangle', true], ['rectangle that is not a square', false], ['rhombus that is not a square', false], ['regular hexagon', true], ['regular octagon', true], ['regular pentagon', true], ['scalene triangle', false], ['parallelogram with no right angles', false], ['right triangle', false], ['kite', false], ['regular decagon', true], ['regular heptagon', true], ['trapezoid', false]];
+      const [nm, reg] = pick(T);
+      return mc(`Is a ${b(nm)} a regular polygon?`, reg ? 'Yes' : 'No', [reg ? 'No' : 'Yes'], reg ? 'All its sides and all its angles are equal.' : 'Its sides or angles are not all equal.', 2);
+    }
+    const reg = Math.random() < 0.5, name = pick(['pentagon', 'hexagon', 'octagon', 'heptagon', 'nonagon', 'decagon']);
+    let pic;
+    if (reg) pic = shapeSvg(name, 100);
+    else { const n = ri(5, 8), pts = Array.from({ length: n }, (_, i) => { const t = (i / n) * 2 * Math.PI + rr(-0.28, 0.28), r = rr(0.55, 1); return [Math.cos(t) * r, Math.sin(t) * r]; }); pic = tint(g(poly(fitShape(pts)), 160, 115)); }
     return mc(`${pic}Is this polygon regular or irregular?`, reg ? 'Regular' : 'Irregular', [reg ? 'Irregular' : 'Regular'], reg ? 'All sides and angles are equal.' : 'The sides and angles are not all equal.', 2);
   }),
   R(/^Sort polygons into Venn diagrams$/, () => () => {
-    const poly_ = pick([['square', 'Yes', 'Yes'], ['triangle', 'No', 'No'], ['rectangle', 'Yes', 'Yes'], ['rhombus', 'No', 'Yes'], ['trapezoid', 'No', 'Yes'], ['pentagon', 'No', 'No'], ['right triangle', 'Yes', 'No']]);
-    const where = poly_[1] === 'Yes' && poly_[2] === 'Yes' ? 'In both circles' : poly_[1] === 'Yes' ? 'Only "has a right angle"' : poly_[2] === 'Yes' ? 'Only "has 4 sides"' : 'Outside both circles';
-    return mc(`A Venn diagram has two circles: "has a right angle" and "has 4 sides". Where does a ${b(poly_[0])} go?`, where, ['In both circles', 'Only "has a right angle"', 'Only "has 4 sides"', 'Outside both circles'].filter(x => x !== where), `A ${poly_[0]} ${poly_[1] === 'Yes' ? 'has' : 'does not have'} a right angle and ${poly_[2] === 'Yes' ? 'has' : 'does not have'} 4 sides: ${b(where)}.`);
+    // R = has a right angle, F = has 4 sides, E = all sides equal, P = a pair of parallel sides, T = has 3 sides  (null = not always the same)
+    const SH = { square: { R: 1, F: 1, E: 1, P: 1, T: 0 }, rectangle: { R: 1, F: 1, E: 0, P: 1, T: 0 }, rhombus: { R: null, F: 1, E: 1, P: 1, T: 0 }, parallelogram: { R: null, F: 1, E: 0, P: 1, T: 0 }, trapezoid: { R: null, F: 1, E: 0, P: 1, T: 0 }, kite: { R: null, F: 1, E: 0, P: 0, T: 0 },
+      'equilateral triangle': { R: 0, F: 0, E: 1, P: 0, T: 1 }, 'right triangle': { R: 1, F: 0, E: 0, P: 0, T: 1 }, 'regular pentagon': { R: 0, F: 0, E: 1, P: 0, T: 0 }, 'regular hexagon': { R: 0, F: 0, E: 1, P: 1, T: 0 }, 'regular octagon': { R: 0, F: 0, E: 1, P: 1, T: 0 } };
+    const TXT = { R: 'has a right angle', F: 'has 4 sides', E: 'has all sides equal', P: 'has a pair of parallel sides', T: 'has 3 sides' };
+    const pair = pick([['R', 'F'], ['R', 'E'], ['F', 'E'], ['F', 'P'], ['E', 'P'], ['T', 'E'], ['R', 'P'], ['T', 'R']]), [A, B] = pair;
+    const ok = Object.keys(SH).filter(k => SH[k][A] !== null && SH[k][B] !== null), nm = pick(ok), x = SH[nm][A], y = SH[nm][B];
+    const where = x && y ? 'In both circles' : x ? `Only "${TXT[A]}"` : y ? `Only "${TXT[B]}"` : 'Outside both circles';
+    return mc(`A Venn diagram has two circles: "${TXT[A]}" and "${TXT[B]}". Where does a ${b(nm)} go?`, where, ['In both circles', `Only "${TXT[A]}"`, `Only "${TXT[B]}"`, 'Outside both circles'].filter(v => v !== where), `A ${nm} ${x ? 'does' : 'does not'} have the first property (${TXT[A]}) and ${y ? 'does' : 'does not'} have the second (${TXT[B]}): ${b(where)}.`);
   }),
   R(/^Parts of a circle$/, () => () => {
     const q = pick([['the line from the centre to the edge', 'radius'], ['the line across the circle through the centre', 'diameter'], ['the distance around the circle', 'circumference'], ['a line joining two points on the circle', 'chord']]);
@@ -294,11 +372,21 @@ export const GEOMETRY_RULES = [
     return mc(`${quadSvg(k)}Which name does ${b('NOT')} describe this shape?`, pick(notName), sample(nm, 3), `A ${k} is also a ${nm.filter(x => x !== k).join(', ')}.`.replace('is also a ', 'can be called a ').replace(', quadrilateral', ' and quadrilateral'));
   }),
   R(/^Draw quadrilaterals$/, () => () => {
-    const q = pick([['4 equal sides and 4 right angles', 'square'], ['2 pairs of parallel sides and 4 right angles but not all sides equal', 'rectangle'], ['4 equal sides but no right angles', 'rhombus'], ['exactly 1 pair of parallel sides', 'trapezoid'], ['2 pairs of parallel sides but no right angles', 'parallelogram']]);
-    return mc(`Which quadrilateral has ${b(q[0])}?`, q[1], ['square', 'rectangle', 'rhombus', 'trapezoid', 'parallelogram'].filter(x => x !== q[1]), `That describes a ${b(q[1])}.`);
+    const D = [['4 equal sides and 4 right angles', 'square'], ['2 pairs of parallel sides and 4 right angles but not all sides equal', 'rectangle'], ['4 equal sides but no right angles', 'rhombus'], ['exactly 1 pair of parallel sides', 'trapezoid'], ['2 pairs of parallel sides but no right angles', 'parallelogram'],
+      ['4 right angles and 4 equal sides', 'square'], ['opposite sides equal and parallel, 4 right angles, and 2 sides longer than the other 2', 'rectangle'], ['4 equal sides and opposite angles equal (not right angles)', 'rhombus'], ['only 1 pair of parallel sides and 2 pairs of different-length sides', 'trapezoid'],
+      ['opposite sides parallel and equal, no right angles, and sides of 2 different lengths', 'parallelogram']];
+    const form = ri(0, 2), all = ['square', 'rectangle', 'rhombus', 'trapezoid', 'parallelogram'];
+    if (form === 2) { const k = pick(['square', 'rectangle', 'rhombus', 'trapezoid', 'parallelogram']), pool = shuffle(sample(all, 3, [k]).concat(k)), L = 'ABCD'[pool.indexOf(k)]; return mc(`Which picture shows a ${b(k)}?${picChoices(pool, x => quadSvg(x))}`, L, 'ABCD'.split('').filter(x => x !== L), `Picture ${b(L)} is a ${k}.`, 4); }
+    const q = pick(D);
+    const ans = q[1], wrong = all.filter(x => x !== ans);
+    return mc(pick([`Which quadrilateral has ${b(q[0])}?`, `Which shape has ${b(q[0])}?`]), ans, wrong, `That describes a ${b(ans)}.`);
   }),
   R(/^Identify the relationships between quadrilaterals$|^Describe relationships among quadrilaterals$/, () => () => {
-    const t = pick([['Every square is a rectangle.', true], ['Every rectangle is a square.', false], ['Every rhombus is a parallelogram.', true], ['Every trapezoid is a parallelogram.', false], ['Every square is a rhombus.', true], ['Every parallelogram is a rectangle.', false]]);
+    const T = [['Every square is a rectangle.', true], ['Every rectangle is a square.', false], ['Every rhombus is a parallelogram.', true], ['Every trapezoid is a parallelogram.', false], ['Every square is a rhombus.', true], ['Every parallelogram is a rectangle.', false],
+      ['Every rectangle is a parallelogram.', true], ['Every rhombus is a square.', false], ['Every square is a parallelogram.', true], ['Every parallelogram is a rhombus.', false], ['Every rectangle is a quadrilateral.', true], ['Every quadrilateral is a square.', false],
+      ['Every rhombus is a rectangle.', false], ['Every square is a quadrilateral.', true], ['Every rhombus is a quadrilateral.', true], ['Every kite is a parallelogram.', false], ['Every rectangle is a rhombus.', false], ['Every parallelogram is a quadrilateral.', true],
+      ['A shape with 4 equal sides and 4 right angles is a square.', true], ['A shape with 4 equal sides must be a square.', false], ['A shape with 4 right angles must be a square.', false], ['A shape with 4 right angles is a rectangle.', true], ['A shape with 2 pairs of parallel sides is a parallelogram.', true], ['A shape with 2 pairs of parallel sides must be a rectangle.', false]];
+    const t = pick(T);
     return yesNo(`True or false? ${b(t[0])}`, t[1], t[1] ? 'This is true.' : 'This is false.', ['True', 'False']);
   }),
 
@@ -318,8 +406,10 @@ export const GEOMETRY_RULES = [
     return num(`${DISPLAY_SOLIDS.includes(name) ? solidSvg(name) : ''}How many ${b(part[0])} does a ${b(name)} have?`, part[1], `A ${name} has ${b(part[1])} ${part[0]}.`);
   }),
   R(/^Identify faces of three-dimensional (?:shapes|figures)$/, () => () => {
-    const q = pick([['cube', 'square'], ['rectangular prism', 'rectangle'], ['square pyramid', 'triangle and square'], ['triangular prism', 'triangle and rectangle'], ['cylinder', 'circle'], ['cone', 'circle']]);
-    if (Math.random() < 0.5) {
+    const q = pick([['cube', 'square'], ['rectangular prism', 'rectangle'], ['square pyramid', 'triangle and square'], ['triangular prism', 'triangle and rectangle'], ['cylinder', 'circle'], ['cone', 'circle']]), who = pick(NAMES), f = ri(0, 3);
+    if (f === 3) { const [nm, , fc] = pick(POLYHEDRA.filter(s => ['cube', 'rectangular prism', 'square pyramid', 'triangular prism', 'triangular pyramid'].includes(s[0]))); return mc(`${solidSvg(nm)}${who} paints every flat face of this ${b(nm)} red. How many faces does ${who} paint?`, String(fc), uniq([fc + 1, fc - 1, fc + 2, fc * 2].map(String)).filter(x => x !== String(fc)), `A ${nm} has ${b(fc)} flat faces.`, 4); }
+    if (f === 2) { const pic = solidSvg(q[0]); return mc(`${pic}Which shapes are the flat faces of this solid?`, q[1] === 'circle' ? 'circle' : q[1], ['square', 'rectangle', 'triangle and square', 'triangle and rectangle', 'circle', 'oval'].filter(x => x !== q[1]), `The flat faces of a ${q[0]} are ${b(q[1])}.`, 4); }
+    if (f === 1) {
       const nm = { 'square': ['cube'], 'rectangle': ['rectangular prism'], 'triangle and square': ['square pyramid'], 'triangle and rectangle': ['triangular prism'], 'circle': ['cylinder', 'cone'] }[q[1]], ans = pick(nm);
       const wrong = ['cube', 'rectangular prism', 'square pyramid', 'triangular prism', 'cylinder', 'cone', 'sphere'].filter(x => !nm.includes(x) && !(q[1] === 'circle' && ['cylinder', 'cone'].includes(x)));
       return mc(`Which solid has flat faces that are ${b(q[1] === 'circle' ? 'circles' : q[1] === 'square' ? 'only squares' : q[1].replace(' and ', ' and ') + 's')}?`, ans, sample(wrong, 3), `A ${ans} has ${b(q[1])} faces.`, 4);
@@ -327,33 +417,55 @@ export const GEOMETRY_RULES = [
     return mc(`Which shape(s) do you see as ${b('flat faces')} on a ${b(q[0])}?`, q[1], ['square', 'rectangle', 'triangle and square', 'triangle and rectangle', 'circle', 'oval'].filter(x => x !== q[1]), `A ${q[0]} has ${b(q[1])} faces.`, 4);
   }),
   R(/^Identify shapes traced from solids$/, () => () => {
-    const q = pick([['cube', 'square'], ['cylinder', 'circle'], ['cone', 'circle'], ['rectangular prism', 'rectangle'], ['square pyramid', 'triangle']]);
+    const q = pick([['cube', 'square'], ['cylinder', 'circle'], ['cone', 'circle'], ['rectangular prism', 'rectangle'], ['triangular pyramid', 'triangle']]);
+    const facesOf = { cube: ['square'], cylinder: ['circle'], cone: ['circle'], 'rectangular prism': ['rectangle', 'square'], 'square pyramid': ['triangle', 'square'], 'triangular prism': ['triangle', 'rectangle'], 'triangular pyramid': ['triangle'], sphere: [] };
+    const objs = [['a tissue box', 'rectangle'], ['a can of soup', 'circle'], ['a dice', 'square'], ['a party hat', 'circle'], ['a cereal box', 'rectangle'], ['a block of wood shaped like a cube', 'square'], ['a drum', 'circle'], ['a brick', 'rectangle'], ['an ice cream cone', 'circle']];
+    const form = ri(0, 2), who = pick(NAMES);
+    if (form === 1) { const [o, ans] = pick(objs); return mc(`${who} traces around the flat bottom of ${b(o)}. What shape does ${who} get?`, ans, ['square', 'circle', 'rectangle', 'triangle'].filter(x => x !== ans), `The flat face of ${o} is a ${b(ans)}.`, 4); }
+    if (form === 2) { const s = pick(['square', 'circle', 'rectangle', 'triangle']), all = Object.keys(facesOf), good = all.filter(x => facesOf[x].includes(s)), ans = pick(good), wrong = all.filter(x => !good.includes(x));
+      return mc(`${who} traces around one flat face of a solid and gets a ${b(s)}. Which solid could ${who} have traced?`, ans, sample(wrong, 3), `A ${ans} has a flat face shaped like a ${b(s)}.`, 4); }
     return mc(`You trace around a flat face of a ${b(q[0])}. What shape do you get?`, q[1], ['square', 'circle', 'rectangle', 'triangle'].filter(x => x !== q[1]), `A flat face of a ${q[0]} is a ${b(q[1])}.`, 4);
   }),
   R(/^(?:Attributes of three-dimensional shapes|Which three-dimensional figure is being described\?)$/, () => () => {
-    const q = pick([['6 square faces', 'cube'], ['1 curved surface and 2 circular faces', 'cylinder'], ['no flat faces and no edges', 'sphere'], ['1 circular face, 1 curved surface and 1 vertex', 'cone'], ['5 faces: 1 square and 4 triangles', 'square pyramid'], ['6 rectangular faces', 'rectangular prism']]);
-    return mc(`Which solid is described? ${b(q[0])}`, q[1], ['cube', 'cylinder', 'sphere', 'cone', 'square pyramid', 'rectangular prism'].filter(x => x !== q[1]), `It is a ${b(q[1])}.`, 4);
+    const D = [['6 square faces', 'cube'], ['1 curved surface and 2 circular faces', 'cylinder'], ['no flat faces and no edges', 'sphere'], ['1 circular face, 1 curved surface and 1 vertex', 'cone'], ['5 faces: 1 square and 4 triangles', 'square pyramid'], ['6 rectangular faces', 'rectangular prism'],
+      ['12 edges and all faces are squares', 'cube'], ['8 vertices and 6 faces that are all the same size squares', 'cube'], ['2 flat faces that are circles and no vertices', 'cylinder'], ['a round surface that rolls in every direction', 'sphere'], ['1 flat face that is a circle and 1 pointed tip', 'cone'],
+      ['5 vertices and 8 edges', 'square pyramid'], ['1 square base and 4 triangular faces that meet at a point', 'square pyramid'], ['6 faces, 12 edges and 8 vertices, with faces that are rectangles', 'rectangular prism'], ['5 faces: 2 triangles and 3 rectangles', 'triangular prism'], ['6 vertices and 9 edges', 'triangular prism'],
+      ['4 faces that are all triangles', 'triangular pyramid'], ['4 vertices and 6 edges', 'triangular pyramid'], ['a curved surface and exactly 1 vertex', 'cone'], ['a curved surface and no vertices and no edges', 'sphere']];
+    const q = pick(D), all = ['cube', 'cylinder', 'sphere', 'cone', 'square pyramid', 'rectangular prism', 'triangular prism', 'triangular pyramid'];
+    return mc(pick([`Which solid is described? ${b(q[0])}`, `Which solid has ${b(q[0])}?`]), q[1], sample(all, 3, [q[1]]), `It is a ${b(q[1])}.`, 4);
   }),
   R(/^Cubes and rectangular prisms$/, () => () => {
     const s = pick(['cube', 'rectangular prism']), n = 6;
     return mc(`${solidSvg(s)}How many faces does this solid have?`, '6', ['4', '5', '8'], `A ${s} has ${b(6)} faces.`, 4);
   }),
   R(/^Two-dimensional and three-dimensional shapes$/, () => () => {
-    const flat = Math.random() < 0.5, nm = flat ? pick(['circle', 'triangle', 'square']) : pick(['cube', 'sphere', 'cylinder', 'cone']);
+    const flat = Math.random() < 0.5, nm = flat ? pick(['circle', 'triangle', 'square', 'rectangle', 'hexagon', 'pentagon', 'oval']) : pick(['cube', 'sphere', 'cylinder', 'cone', 'rectangular prism', 'square pyramid']);
+    const form = ri(0, 2);
+    if (form === 1) return mc(`${flat ? shapeSvg(nm, 90) : solidSvg(nm)}Is this a flat (2-D) shape or a solid (3-D) shape?`, flat ? 'Flat (2-D)' : 'Solid (3-D)', [flat ? 'Solid (3-D)' : 'Flat (2-D)'], `A ${nm} is ${flat ? 'flat' : 'a solid'}.`, 2);
+    if (form === 2) {
+      const flats = ['circle', 'triangle', 'square', 'rectangle', 'hexagon', 'pentagon', 'oval'], solids = ['cube', 'sphere', 'cylinder', 'cone', 'rectangular prism', 'square pyramid'], want = pick(['flat (2-D)', 'solid (3-D)']);
+      const ans = want === 'flat (2-D)' ? pick(flats) : pick(solids);
+      return mc(`Which of these is a ${b(want)} shape?`, ans, sample(want === 'flat (2-D)' ? solids : flats, 3), `A ${ans} is ${want === 'flat (2-D)' ? 'flat' : 'a solid'}.`, 4);
+    }
     return mc(`Is a ${b(nm)} a flat (2-D) shape or a solid (3-D) shape?`, flat ? 'Flat (2-D)' : 'Solid (3-D)', [flat ? 'Solid (3-D)' : 'Flat (2-D)'], `A ${nm} is ${flat ? 'flat' : 'a solid'}.`, 2);
   }),
   R(/^Three-dimensional shapes in the real world(?: I| II)?$|^Three-dimensional shapes in real-world objects$/, (mt, ctx) => () => {
     const s = pick(Object.keys(REAL)), obj = pick(REAL[s]), others = sample(Object.keys(REAL), 3, [s]);
-    return mc(`Which solid shape is ${b(obj)} most like?`, s, others, `${obj[0].toUpperCase() + obj.slice(1)} is shaped like a ${b(s)}.`, 4);
+    return mc(pick([`Which solid shape is ${b(obj)} most like?`, `${obj[0].toUpperCase() + obj.slice(1)} has the shape of which solid?`]), s, others, `${obj[0].toUpperCase() + obj.slice(1)} is shaped like a ${b(s)}.`, 4);
   }),
   R(/^Nets of (?:three-dimensional shapes|three-dimensional figures|prisms and pyramids)$/, () => () => {
     const s = pick(['cube', 'square pyramid', 'triangular prism', 'triangular pyramid']);
     return mc(`${netSvg(s)}Which solid can be folded from this net?`, s, ['cube', 'square pyramid', 'triangular prism', 'triangular pyramid', 'cylinder'].filter(x => x !== s).slice(0, 3), `Fold the net: you get a ${b(s)}.`, 4);
   }),
   R(/^(?:Sort three-dimensional shapes|Compose three-dimensional shapes|Compose bigger three-dimensional shapes|Three-dimensional figures viewed from different perspectives)$/, (mt, ctx) => () => {
-    if (/Sort/.test(ctx.title)) { const s = pick(DISPLAY_SOLIDS), rolls = ['cylinder', 'cone', 'sphere'].includes(s); return mc(`Does a ${b(s)} have a ${b('curved surface')}?`, rolls ? 'Yes' : 'No', [rolls ? 'No' : 'Yes'], `${rolls ? 'A' : 'A'} ${s} ${rolls ? 'has a curved surface' : 'has only flat faces'}.`, 2); }
-    if (/perspectives/.test(ctx.title)) { const s = pick([['cylinder', 'from above', 'circle'], ['cube', 'from the front', 'square'], ['cone', 'from above', 'circle'], ['rectangular prism', 'from the side', 'rectangle']]); return mc(`What shape do you see when you look at a ${b(s[0])} ${s[1]}?`, s[2], ['circle', 'square', 'rectangle', 'triangle'].filter(x => x !== s[2]), `Looking at a ${s[0]} ${s[1]}, you see a ${b(s[2])}.`, 4); }
-    const n = pick([[2, 'cubes', 'a rectangular prism'], [4, 'cubes', 'a larger cube (2 by 2 by 1 is a flat square block)'], [8, 'cubes', 'a larger cube']]);
+    if (/Sort/.test(ctx.title)) {
+      const s = pick(DISPLAY_SOLIDS), curved = ['cylinder', 'cone', 'sphere'].includes(s), pr = ri(0, 2);
+      const props = [['a curved surface', curved, `A ${s} ${curved ? 'has a curved surface' : 'has only flat faces'}.`], ['at least one flat face', s !== 'sphere', `A ${s} ${s === 'sphere' ? 'has no flat faces' : 'has a flat face'}.`], ['a vertex (a pointed corner)', !['cylinder', 'sphere'].includes(s), `A ${s} ${['cylinder', 'sphere'].includes(s) ? 'has no vertices' : 'has a vertex'}.`]][pr];
+      const pic = ri(0, 1) ? solidSvg(s) : '';
+      return mc(`${pic}Does a ${b(s)} have ${b(props[0])}?`, props[1] ? 'Yes' : 'No', [props[1] ? 'No' : 'Yes'], props[2], 2);
+    }
+    if (/perspectives/.test(ctx.title)) { const s = pick([['cylinder', 'from above', 'circle'], ['cube', 'from the front', 'square'], ['cone', 'from above', 'circle'], ['rectangular prism', 'from the side', 'rectangle'], ['cylinder', 'from the side', 'rectangle'], ['cone', 'from the side', 'triangle'], ['sphere', 'from any direction', 'circle'], ['cube', 'from above', 'square'], ['square pyramid', 'from above', 'square'], ['square pyramid', 'from the side', 'triangle'], ['cylinder', 'from the bottom', 'circle'], ['cube', 'from the side', 'square']]); return mc(`What shape do you see when you look at a ${b(s[0])} ${s[1]}?`, s[2], ['circle', 'square', 'rectangle', 'triangle'].filter(x => x !== s[2]), `Looking at a ${s[0]} ${s[1]}, you see a ${b(s[2])}.`, 4); }
+    const n = pick([[2, 'cubes', 'a rectangular prism'], [4, 'cubes', 'a rectangular prism'], [8, 'cubes', 'a larger cube'], [3, 'cubes', 'a rectangular prism'], [6, 'cubes', 'a rectangular prism'], [12, 'cubes', 'a rectangular prism'], [27, 'cubes', 'a larger cube'], [10, 'cubes', 'a rectangular prism']]);
     return mc(`What can you build with ${b(n[0] + ' ' + n[1])}?`, n[2], ['a sphere', 'a cone', 'a cylinder'].filter(x => x !== n[2]), `Stacking cubes makes ${b(n[2])}.`, 4);
   }),
 
@@ -387,4 +499,4 @@ export const GEOMETRY_RULES = [
     return mc(`${html}Which animal is in ${b('row ' + (r + 1))}, ${b('column ' + (c + 1))}? (Rows go down, columns go across.)`, target, uniq(grid.flat()).filter(x => x !== target).slice(0, 3), `Go to row ${r + 1}, column ${c + 1}: ${b(target)}.`, 4);
   })
 ];
-export { triSvg, quadSvg, angleSvg, protractor, linePair, solidSvg, netSvg, TRIS, QUADS, g as geoSvg, poly, symFigure, tfSvg, LINES_OF_SYM, ALL_QUAD_NAMES, DISPLAY_SOLIDS };
+export { tint, triSvg, quadSvg, angleSvg, protractor, linePair, solidSvg, netSvg, TRIS, QUADS, g as geoSvg, poly, symFigure, tfSvg, LINES_OF_SYM, ALL_QUAD_NAMES, DISPLAY_SOLIDS };

@@ -226,9 +226,12 @@ export const VARIETY_RULES = [
   R(/^Exchanging groups of coins$|^Exchanging coins(?: - up to \$[12])?$/, (mt, ctx) => () => {
     const max = /\$2/.test(ctx.title) ? 200 : /\$1/.test(ctx.title) ? 100 : ctx.grade <= 0 ? 50 : 100;
     const pairs = [[5, 10], [5, 25], [10, 50], [5, 50], [25, 50], [25, 100], [10, 100], [5, 100], [100, 200], [25, 200], [10, 200]].filter(([s, t]) => t <= max);
-    const [small, unit] = pick(pairs), k = ri(1, Math.max(1, Math.floor(max / unit))), total = unit * k;
+    const [small, unit] = pick(pairs), k = ri(1, Math.max(1, Math.floor(max / unit))), total = unit * k, who = pick(['Mia', 'Ravi', 'Chloe', 'Amir', 'Zoe', 'Noah', 'Isla', 'Theo']), f = ri(0, 3);
     const name = unit === 50 ? null : coinName(unit);
     const what = name ? `${k} ${name}${k > 1 ? 's' : ''}` : cents(total);
+    if (f === 1 && name) return num(`${who} has ${b(what)}. ${who} trades the money for ${coinName(small)}s. How many ${coinName(small)}s does ${who} get?`, total / small, `${what} is ${cents(total)}. ${cents(total)} ÷ ${cents(small)} = ${b(total / small)}.`);
+    if (f === 2 && name && k === 1) { const n = unit / small, all = [5, 10, 25, 100, 200].filter(c => c <= max); return mc(`${who} has ${b(`${n} ${coinName(small)}s`)}. Which one coin is worth the same amount?`, coinName(unit), all.filter(c => c !== unit).map(coinName).slice(0, 3), `${n} × ${cents(small)} = ${cents(unit)}, the same as one ${b(coinName(unit))}.`, 4); }
+    if (f === 3) return num(`${who} trades ${b(what)} for ${coinName(small)}s. How many ${coinName(small)}s is that?`, total / small, `${cents(total)} ÷ ${cents(small)} = ${b(total / small)}.`);
     if (unit === 50 && small === 25 && k === 1) return num(`How many quarters equal ${b('50¢')}?`, 2, `25¢ + 25¢ = 50¢: ${b(2)}.`);
     return num(`How many ${coinName(small)}s equal ${b(what)}?`, total / small, `${what} is ${cents(total)}. ${cents(total)} ÷ ${cents(small)} = ${b(total / small)}.`);
   }),
@@ -291,8 +294,8 @@ export const VARIETY_RULES = [
     return mc(`What shape do you make with ${b(parts)}?`, ans, wrong, `${cap(parts)} make ${b(ans)}.`, 4);
   }),
   R(/^Three-dimensional figures viewed from different perspectives$/, () => () => {
-    const [s, view, ans] = pick([['cylinder', 'from above', 'circle'], ['cylinder', 'from the side', 'rectangle'], ['cube', 'from the front', 'square'], ['cube', 'from above', 'square'], ['cone', 'from above', 'circle (with a dot in the middle)'], ['cone', 'from the side', 'triangle'], ['square pyramid', 'from above', 'square (with an X)'], ['square pyramid', 'from the side', 'triangle'], ['rectangular prism', 'from the front', 'rectangle'], ['sphere', 'from any side', 'circle'], ['triangular prism', 'from the end', 'triangle'], ['triangular prism', 'from the side', 'rectangle']]);
-    return mc(`You look at a ${b(s)} ${b(view)}. What shape do you see?`, ans, uniq(['circle', 'square', 'rectangle', 'triangle', 'circle (with a dot in the middle)', 'square (with an X)'].filter(x => x !== ans && !ans.startsWith(x) && !x.startsWith(ans))).slice(0, 3), `Viewed ${view}, a ${s} looks like a ${b(ans)}.`, 4);
+    const [s, view, ans] = pick([['cylinder', 'from above', 'circle'], ['cylinder', 'from the side', 'rectangle'], ['cube', 'from the front', 'square'], ['cube', 'from above', 'square'], ['cone', 'from above', 'circle (with a dot in the middle)'], ['cone', 'from the side', 'triangle'], ['square pyramid', 'from above', 'square (with an X)'], ['square pyramid', 'from the side', 'triangle'], ['rectangular prism', 'from the front', 'rectangle'], ['sphere', 'from any side', 'circle'], ['triangular prism', 'from the end', 'triangle'], ['triangular prism', 'from the side', 'rectangle'], ['cube', 'from the side', 'square'], ['rectangular prism', 'from above', 'rectangle'], ['cylinder', 'from below', 'circle'], ['cone', 'from below', 'circle (with a dot in the middle)'], ['square pyramid', 'from below', 'square (with an X)'], ['cube', 'from the top', 'square'], ['rectangular prism', 'from the side', 'rectangle']]);
+    return mc(pick([`You look at a ${b(s)} ${b(view)}. What shape do you see?`, `What shape does a ${b(s)} look like when viewed ${b(view)}?`, `A ${b(s)} is viewed ${b(view)}. Which shape matches what you see?`]), ans, uniq(['circle', 'square', 'rectangle', 'triangle', 'circle (with a dot in the middle)', 'square (with an X)'].filter(x => x !== ans && !ans.startsWith(x) && !x.startsWith(ans))).slice(0, 3), `Viewed ${view}, a ${s} looks like a ${b(ans)}.`, 4);
   }),
   R(/^Nets of (?:three-dimensional shapes|three-dimensional figures|prisms and pyramids)$/, (mt, ctx) => () => {
     const solids = ctx.grade <= 3 ? ['cube', 'rectangular prism', 'square pyramid', 'triangular prism'] : ['cube', 'rectangular prism', 'square pyramid', 'triangular prism', 'triangular pyramid', 'pentagonal prism', 'hexagonal prism'];
@@ -335,15 +338,6 @@ export const VARIETY_RULES = [
     const extra = /^\d+$/.test(space[0]) ? String(space.length + 1) : pick(['purple', 'none', 'both', 'Z']), ans = `{${space.join(', ')}}`;
     const wrong = [`{${space.slice(0, -1).join(', ')}}`, `{${space.slice(1).join(', ')}}`, `{${[...space, extra].join(', ')}}`].filter(x => x !== '{}');
     return mc(`What is the sample space for ${b(desc)}?`, ans, uniq(wrong).filter(x => x !== ans), `List every possible outcome once: ${b(ans)}.`, 4);
-  }),
-  R(/^Debit cards and credit cards$/, () => () => {
-    const [stmt, ans] = pick([
-      ['The money is taken right away from your bank account.', 'debit card'], ['You borrow money from the bank and pay it back later.', 'credit card'], ['If you do not pay the full balance on time, you are charged interest.', 'credit card'],
-      ['You can only spend money that is already in your account.', 'debit card'], ['Using it responsibly helps you build a credit history.', 'credit card'], ['It has a monthly spending limit set by the lender.', 'credit card'],
-      ['You need to enter a PIN, and the money leaves your chequing account.', 'debit card'], ['It is a loan that must be repaid.', 'credit card'], ['There is no interest because you are spending your own money.', 'debit card'],
-      ['A $300 purchase appears on a monthly statement that you pay later.', 'credit card'], ['Your bank balance drops by $45 as soon as you buy groceries.', 'debit card']
-    ]);
-    return mc(`Does this describe a ${b('debit card')} or a ${b('credit card')}?<br>${stmt}`, ans, [ans === 'debit card' ? 'credit card' : 'debit card'], ans === 'debit card' ? 'A debit card spends money already in your account.' : 'A credit card borrows money that you repay later (with interest if late).', 2);
   }),
   R(/^Evaluate payment methods$/, () => () => {
     const price = ri(4, 60) * 10, months = pick([3, 6, 10, 12]), rate = pick([10, 12, 15, 18, 20]), fee = pick([0, 2, 5]);

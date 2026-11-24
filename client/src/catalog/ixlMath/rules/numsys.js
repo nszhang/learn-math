@@ -114,8 +114,18 @@ export const NUMSYS_RULES = [
     return Math.random() < 0.5 ? num(`${nm} has ${a * 3} red beads and ${c * 3} blue beads and wants to make identical bracelets using all the beads. What is the greatest number of bracelets ${nm} can make?`, gcd(a * 3, c * 3), `The greatest common factor of ${a * 3} and ${c * 3} is ${b(gcd(a * 3, c * 3))}.`) : num(`One bus comes every ${a} minutes and another every ${c} minutes. They arrive together now. In how many minutes will they arrive together again?`, lcm(a, c), `The least common multiple of ${a} and ${c} is ${b(lcm(a, c))}.`);
   }),
   R(/^Multiplicative inverses$/, () => () => {
-    const [n, d] = pick([[2, 3], [3, 4], [5, 2], [7, 5], [1, 6], [4, 9]]);
-    return mc(`What is the multiplicative inverse (reciprocal) of ${m(stack(n, d))}?`, fs(d, n), [fs(n, d), fs(-n, d).replace('-', MINUS), fs(d + 1, n)].filter(v_ => v_ !== fs(d, n)), `Flip the fraction: ${b(fs(d, n))}.`, 4);
+    const kind = pick(['frac', 'frac', 'neg', 'int', 'dec', 'mixed']);
+    const tx = (n, d) => (d === 1 ? S(n) : `${n < 0 ? MINUS : ''}${Math.abs(n)}/${d}`);
+    if (kind === 'dec') { const [x, n, d] = pick([[0.5, 2, 1], [0.25, 4, 1], [0.2, 5, 1], [0.1, 10, 1], [0.125, 8, 1], [0.4, 5, 2], [0.75, 4, 3], [1.5, 2, 3], [2.5, 2, 5], [0.05, 20, 1], [0.8, 5, 4]]);
+      return mc(`What is the multiplicative inverse (reciprocal) of ${b(String(x))}?`, tx(n, d), uniq([tx(d, n), tx(-n, d), tx(n + 1, d), String(1 - x)]).filter(v_ => v_ !== tx(n, d)), `${x} = ${tx(d, n)}. Flip it: ${b(tx(n, d))}. Check: ${x} × ${tx(n, d)} = 1.`, 4); }
+    if (kind === 'int') { const k = pick([-1, 1]) * ri(2, 15), r = tx(k < 0 ? -1 : 1, Math.abs(k));
+      return mc(`What is the multiplicative inverse of ${b(S(k))}?`, r, uniq([String(-k).replace('-', MINUS), String(k).replace('-', MINUS), tx(1, Math.abs(k)), tx(-1, Math.abs(k)), '1']).filter(v_ => v_ !== r), `${S(k)} × ${r} = 1, so the inverse is ${b(r)}.`, 4); }
+    if (kind === 'mixed') { const w = ri(1, 4), d = ri(2, 6), n = ri(1, d - 1), top = w * d + n; if (gcd(n, d) !== 1) return null;
+      return mc(`What is the multiplicative inverse of ${m(`${w} ${stack(n, d)}`)}?`, tx(d, top), uniq([tx(top, d), tx(d, n), tx(-d, top), tx(d, top + 1)]).filter(v_ => v_ !== tx(d, top)), `${w} ${n}/${d} = ${top}/${d}. Flip it: ${b(tx(d, top))}.`, 4); }
+    let n = ri(1, 12), d = ri(2, 12); if (gcd(n, d) !== 1 || n === d) return null; const sg = kind === 'neg' ? -1 : 1, form = ri(0, 1);
+    const fv = `${sg < 0 ? MINUS : ''}${stack(n, d)}`;
+    if (form === 1) return mc(`Which number multiplied by ${m(fv)} gives 1?`, tx(sg * d, n), uniq([tx(sg * n, d), tx(-sg * d, n), tx(d + 1, n), tx(sg * d, n + 1)]).filter(v_ => v_ !== tx(sg * d, n)), `The multiplicative inverse of ${tx(sg * n, d)} is ${b(tx(sg * d, n))}.`, 4);
+    return mc(`What is the multiplicative inverse (reciprocal) of ${m(fv)}?`, tx(sg * d, n), uniq([tx(sg * n, d), tx(-sg * d, n), tx(-sg * n, d), tx(sg * (d + 1), n)]).filter(v_ => v_ !== tx(sg * d, n)), `Flip the fraction${sg < 0 ? ' and keep the negative sign' : ''}: ${b(tx(sg * d, n))}.`, 4);
   }),
 
   /* ===== integers ===== */
@@ -187,8 +197,13 @@ export const NUMSYS_RULES = [
 
   /* ===== rational numbers ===== */
   R(/^Identify rational numbers$|^Identify rational and irrational numbers$|^Classify real numbers$/, (mt, ctx) => () => {
-    const items = [['3/4', 'rational'], ['0.25', 'rational'], ['−7', 'rational'], ['√9', 'rational'], ['√2', 'irrational'], ['π', 'irrational'], ['√5', 'irrational'], ['0.333…', 'rational'], ['−2.5', 'rational'], ['√16', 'rational'], ['√7', 'irrational']], [t, k] = pick(items);
-    return mc(`Is ${b(t)} a rational or an irrational number?`, k === 'rational' ? 'Rational' : 'Irrational', [k === 'rational' ? 'Irrational' : 'Rational'], k === 'rational' ? `${t} can be written as a fraction of two integers.` : `${t} cannot be written as a fraction: it never ends or repeats.`, 2);
+    const SQ = [4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169], NS = [2, 3, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 32, 35, 40, 41, 50];
+    const R_ = () => pick([() => ri(-30, 30) + '', () => `${pick(['', MINUS])}${ri(1, 9)}/${ri(2, 12)}`, () => `${pick(['', MINUS])}${ri(0, 20)}.${ri(1, 99)}`, () => `√${pick(SQ)}`, () => `${MINUS}√${pick(SQ)}`, () => { const p = pick(['3', '6', '7', '45', '27', '81']); return `0.${p.repeat(p.length === 1 ? 4 : 3)}…`; }, () => `${ri(1, 5)} ${ri(1, 3)}/${pick([4, 5, 8])}`, () => (ctx.grade >= 8 ? `∛${pick([8, 27, 64, 125])}` : `${ri(1, 9)}.${ri(1, 9)}`), () => `${ri(1, 9)}.${ri(1, 9)}${ri(1, 9)}`])();
+    const I_ = () => pick([() => `√${pick(NS)}`, () => 'π', () => `${MINUS}√${pick(NS)}`, () => `π + ${ri(1, 5)}`, () => `${ri(2, 5)}π`, () => `√${pick(NS)} + ${ri(1, 4)}`, () => (ctx.grade >= 8 ? `∛${pick([2, 3, 4, 5, 6, 7, 9, 10])}` : `√${pick(NS)}`)])();
+    const form = ri(0, 2);
+    if (form === 1) { const want = pick(['rational', 'irrational']), ans = want === 'rational' ? R_() : I_(), seen = new Set([ans]), others = []; let g = 0; while (others.length < 3 && g++ < 60) { const o = want === 'rational' ? I_() : R_(); if (!seen.has(o)) { seen.add(o); others.push(o); } } return mc(`Which of these numbers is ${b(want)}?`, ans, others, want === 'rational' ? `${ans} can be written as a fraction of two integers.` : `${ans} cannot be written as a fraction: its decimal never ends or repeats.`, 4); }
+    const rat = Math.random() < 0.5, t = rat ? R_() : I_();
+    return mc(`Is ${b(t)} a rational or an irrational number?`, rat ? 'Rational' : 'Irrational', [rat ? 'Irrational' : 'Rational'], rat ? `${t} can be written as a fraction of two integers.` : `${t} cannot be written as a fraction: its decimal never ends or repeats.`, 2);
   }),
   R(/^Absolute value of rational numbers$/, () => () => {
     const x = rationalNumber(8); if (x.v === 0) return null;
@@ -251,7 +266,10 @@ export const NUMSYS_RULES = [
     const x = pick([0.1, 0.2, 0.3, 0.5, 1.5]); return num(`${m(`${x}<sup>${e}</sup> = ?`)}`, fix(x ** e, 4), `${Array(e).fill(x).join(' × ')} = ${b(fix(x ** e, 4))}.`);
   }),
   R(/^Solve equations with variable exponents$/, () => () => {
-    const base = ri(2, 5), e = ri(2, 4);
+    const base = ri(2, 10), emax = base <= 3 ? 8 : base <= 5 ? 5 : 3, e = ri(2, emax), form = ri(0, 3), k = ri(1, e - 1);
+    if (form === 1) return num(`${m(`${base}<sup>x + ${k}</sup> = ${fmt(base ** e)}`)} Solve for x.`, e - k, `${fmt(base ** e)} = ${base}^${e}, so x + ${k} = ${e} and x = ${b(e - k)}.`);
+    if (form === 2) { const e2 = 2 * ri(1, Math.floor(emax / 2) || 1); return num(`${m(`${base}<sup>2x</sup> = ${fmt(base ** e2)}`)} Solve for x.`, e2 / 2, `${fmt(base ** e2)} = ${base}^${e2}, so 2x = ${e2} and x = ${b(e2 / 2)}.`); }
+    if (form === 3) return num(`${m(`${base}<sup>x</sup> = ${stack(1, fmt(base ** e))}`)} Solve for x.`, -e, `${stack(1, fmt(base ** e))} = ${base}^${MINUS}${e}, so x = ${b(MINUS + e)}.`);
     return num(`${m(`${base}<sup>x</sup> = ${fmt(base ** e)}`)} Solve for x.`, e, `${base}^${e} = ${fmt(base ** e)}, so x = ${b(e)}.`);
   }),
   R(/^Square roots of perfect squares$|^Relationship between squares and square roots$|^Estimate square roots$|^Solve equations involving squares and square roots$/, (mt, ctx) => () => {

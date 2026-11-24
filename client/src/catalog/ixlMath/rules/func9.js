@@ -25,7 +25,12 @@ const sysTxt = s => `${m(stdEq(...s.e1))}<br>${m(stdEq(...s.e2))}`;
 export const FUNC9_RULES = [
   /* ===== number-sense leftovers for Grade 9–10 ===== */
   R(/^Classify rational and irrational numbers$/, () => () => {
-    const items = [['√49', 'rational'], ['√50', 'irrational'], ['0.3̅', 'rational'], ['π', 'irrational'], ['−3/7', 'rational'], ['√2 + 1', 'irrational'], ['2.5', 'rational'], ['∛27', 'rational']], [t, k] = pick(items);
+    const items = [['√49', 'rational'], ['√50', 'irrational'], ['0.3̅', 'rational'], ['π', 'irrational'], ['−3/7', 'rational'], ['√2 + 1', 'irrational'], ['2.5', 'rational'], ['∛27', 'rational'],
+      ['√16', 'rational'], ['√81', 'rational'], ['√121', 'rational'], ['√3', 'irrational'], ['√5', 'irrational'], ['√7', 'irrational'], ['√12', 'irrational'], ['√18', 'irrational'], ['√20', 'irrational'],
+      ['0.25', 'rational'], ['−5', 'rational'], ['7/8', 'rational'], ['0', 'rational'], ['22/7', 'rational'], ['3.14', 'rational'], ['0.6̅', 'rational'], ['1.2̅', 'rational'], ['∛8', 'rational'], ['∛(−64)', 'rational'], ['∛2', 'irrational'], ['∛9', 'irrational'],
+      ['π/2', 'irrational'], ['2π', 'irrational'], ['3 + √5', 'irrational'], ['√2 × √2', 'rational'], ['5√3', 'irrational'], ['√(9/25)', 'rational'], ['√(1/2)', 'irrational'], ['0.101001000100001… (the zeros keep increasing)', 'irrational'], ['0.121212… (repeating)', 'rational'], ['−√36', 'rational'], ['e', 'irrational']];
+    let [t, k] = pick(items);
+    if (Math.random() < 0.3) { const sq = Math.random() < 0.5, n = sq ? ri(2, 15) ** 2 : pick([2, 3, 5, 6, 7, 8, 10, 11, 13, 14, 15, 17, 19, 21, 23, 24, 26, 28, 30, 35, 40, 45, 60, 75]); t = `√${n}`; k = sq ? 'rational' : 'irrational'; }
     return mc(`Is ${b(t)} rational or irrational?`, k === 'rational' ? 'Rational' : 'Irrational', [k === 'rational' ? 'Irrational' : 'Rational'], k === 'rational' ? `${t} can be written as a ratio of integers.` : `${t} is a non-terminating, non-repeating decimal.`, 2);
   }),
   R(/^Compare and order rational numbers$/, () => () => {
@@ -176,10 +181,16 @@ export const FUNC9_RULES = [
     return mc(`Is the graph of ${b(q[0])} continuous (can you draw it without lifting your pencil)?`, q[1], ['Continuous', 'Not continuous (break at x = 0)', 'Not continuous (jumps)'].filter(v_ => v_ !== q[1]).slice(0, 2), `${q[1]}.`, 3);
   }),
   R(/^Translations of functions$|^Reflections of functions$|^Dilations of functions$|^Transformations of functions$|^Function transformation rules$|^Describe function transformations$|^Transformations of linear functions$/, (mt, ctx) => () => {
-    const h = nz(-5, 5), k = nz(-5, 5), q = pick([[`g(x) = f(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)})`, `shifted ${Math.abs(h)} unit${Math.abs(h) > 1 ? 's' : ''} ${h > 0 ? 'right' : 'left'}`], [`g(x) = f(x) ${k < 0 ? MINUS : '+'} ${Math.abs(k)}`, `shifted ${Math.abs(k)} unit${Math.abs(k) > 1 ? 's' : ''} ${k > 0 ? 'up' : 'down'}`], [`g(x) = −f(x)`, 'reflected across the x-axis'], [`g(x) = f(−x)`, 'reflected across the y-axis'], [`g(x) = 2f(x)`, 'stretched vertically by a factor of 2']]);
-    return mc(`How is the graph of ${m(q[0])} related to the graph of f?`, q[1], ['shifted 3 units right', 'shifted 3 units up', 'reflected across the x-axis', 'reflected across the y-axis', 'stretched vertically by a factor of 2', 'shifted 4 units left'].filter(v_ => v_ !== q[1]).slice(0, 3), `${q[0]} is f ${b(q[1])}.`, 4);
+    const h = ri(1, 9), k = ri(1, 9), c = ri(2, 6), u = n => (n === 1 ? 'unit' : 'units'), sg = pick([1, -1]);
+    const T = pick([
+      [`g(x) = f(x ${sg > 0 ? MINUS : '+'} ${h})`, `shifted ${h} ${u(h)} ${sg > 0 ? 'right' : 'left'}`], [`g(x) = f(x) ${sg > 0 ? '+' : MINUS} ${k}`, `shifted ${k} ${u(k)} ${sg > 0 ? 'up' : 'down'}`],
+      ['g(x) = −f(x)', 'reflected across the x-axis'], ['g(x) = f(−x)', 'reflected across the y-axis'], [`g(x) = ${c}f(x)`, `stretched vertically by a factor of ${c}`], [`g(x) = f(x)/${c}`, `compressed vertically by a factor of ${c}`],
+      [`g(x) = f(${c}x)`, `compressed horizontally by a factor of ${c}`], [`g(x) = f(x/${c})`, `stretched horizontally by a factor of ${c}`]]);
+    const alt = () => pick([`shifted ${ri(1, 9)} units right`, `shifted ${ri(1, 9)} units left`, `shifted ${ri(1, 9)} units up`, `shifted ${ri(1, 9)} units down`, 'reflected across the x-axis', 'reflected across the y-axis', `stretched vertically by a factor of ${ri(2, 6)}`, `compressed vertically by a factor of ${ri(2, 6)}`, `compressed horizontally by a factor of ${ri(2, 6)}`, `stretched horizontally by a factor of ${ri(2, 6)}`]);
+    const ds = uniq(Array.from({ length: 10 }, alt)).filter(v_ => v_ !== T[1]);
+    if (Math.random() < 0.35) { const eqs = uniq(Array.from({ length: 10 }, () => pick([`g(x) = f(x ${MINUS} ${ri(1, 9)})`, `g(x) = f(x + ${ri(1, 9)})`, `g(x) = f(x) + ${ri(1, 9)}`, `g(x) = f(x) ${MINUS} ${ri(1, 9)}`, 'g(x) = −f(x)', 'g(x) = f(−x)', `g(x) = ${ri(2, 6)}f(x)`, `g(x) = f(${ri(2, 6)}x)`]))).filter(v_ => v_ !== T[0]); return mc(`The graph of f is ${b(T[1])}. Which equation gives the new function g?`, T[0], eqs.slice(0, 3), `${T[0]} is f ${b(T[1])}.`, 4); }
+    return mc(`How is the graph of ${m(T[0])} related to the graph of f?`, T[1], ds.slice(0, 3), `${T[0]} is f ${b(T[1])}.`, 4);
   }),
-  // f(x) = a/(x − h) + k: the vertical asymptote x = h is not in the domain, the horizontal one y = k not in the range
   R(/^Domain and range of reciprocal functions$/, () => () => {
     const a = pick([1, 2, 3, -1, -2, 4]), h = nz(-5, 5), k = nz(-4, 4);
     const f = `f(x) = ${a === 1 ? '' : a === -1 ? MINUS : S(a)}${a === 1 || a === -1 ? '1' : ''}/(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)}) ${k < 0 ? MINUS : '+'} ${Math.abs(k)}`;
@@ -190,10 +201,17 @@ export const FUNC9_RULES = [
       `${S(a)}/(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)}) can never be 0, so f(x) never equals ${S(k)}: ${b(`y ≠ ${S(k)}`)} (the horizontal asymptote).`, 4);
   }),
   R(/^Domain and range of exponential and logarithmic functions$/, () => () => {
-    const base = ri(2, 5), exp = Math.random() < 0.5;
-    return mc(`What is the range of ${m(exp ? `f(x) = ${base}<sup>x</sup>` : `f(x) = log<sub>${base}</sub>(x)`)}?`, exp ? 'y > 0' : 'all real numbers', exp ? ['all real numbers', 'y ≥ 0', 'y < 0'] : ['y > 0', 'y ≥ 0', 'x > 0'], exp ? 'Powers of a positive base are always positive.' : 'Logarithms can take any real value.', 4);
+    const base = pick([2, 3, 4, 5, 6, 10]), k = ri(1, 7), h = ri(1, 7), kind = pick(['expRange', 'expRangeK', 'expNeg', 'expDom', 'logDom', 'logDomH', 'logRange', 'logDomK']);
+    const E = (t) => m(t), sgnK = Math.random() < 0.5 ? 1 : -1, kk = sgnK * k, kt = `${kk < 0 ? MINUS : '+'} ${Math.abs(kk)}`;
+    if (kind === 'expRange') return mc(`What is the range of ${E(`f(x) = ${base}<sup>x</sup>`)}?`, 'y > 0', ['all real numbers', 'y ≥ 0', 'y < 0'], 'Powers of a positive base are always positive.', 4);
+    if (kind === 'expRangeK') return mc(`What is the range of ${E(`f(x) = ${base}<sup>x</sup> ${kt}`)}?`, `y > ${S(kk)}`, [`y > ${S(-kk)}`, 'y > 0', 'all real numbers', `y ≥ ${S(kk)}`], `${base}^x is always positive, so f(x) is always greater than ${S(kk)}: ${b(`y > ${S(kk)}`)}.`, 4);
+    if (kind === 'expNeg') return mc(`What is the range of ${E(`f(x) = ${MINUS}${base}<sup>x</sup> ${kt}`)}?`, `y < ${S(kk)}`, [`y > ${S(kk)}`, `y < ${S(-kk)}`, 'y < 0', 'all real numbers'], `${MINUS}${base}^x is always negative, so f(x) is always less than ${S(kk)}: ${b(`y < ${S(kk)}`)}.`, 4);
+    if (kind === 'expDom') return mc(`What is the domain of ${E(`f(x) = ${base}<sup>x</sup> ${kt}`)}?`, 'all real numbers', ['x > 0', 'x ≥ 0', `x > ${S(kk)}`], 'You can raise a positive base to any real power.', 4);
+    if (kind === 'logDom') return mc(`What is the domain of ${E(`f(x) = log<sub>${base}</sub>(x) ${kt}`)}?`, 'x > 0', ['all real numbers', 'x ≥ 0', `x > ${S(kk)}`], 'You can only take the log of a positive number.', 4);
+    if (kind === 'logDomH') return mc(`What is the domain of ${E(`f(x) = log<sub>${base}</sub>(x ${MINUS} ${h})`)}?`, `x > ${h}`, [`x > ${MINUS}${h}`, 'x > 0', 'all real numbers', `x ≥ ${h}`], `x ${MINUS} ${h} must be positive: ${b(`x > ${h}`)}.`, 4);
+    if (kind === 'logDomK') return mc(`What is the domain of ${E(`f(x) = log<sub>${base}</sub>(x + ${h})`)}?`, `x > ${MINUS}${h}`, [`x > ${h}`, 'x > 0', 'all real numbers', `x ≥ ${MINUS}${h}`], `x + ${h} must be positive: ${b(`x > ${MINUS}${h}`)}.`, 4);
+    return mc(`What is the range of ${E(`f(x) = log<sub>${base}</sub>(x)${Math.random() < 0.5 ? '' : ` ${kt}`}`)}?`, 'all real numbers', ['y > 0', 'y ≥ 0', 'x > 0'], 'Logarithms can take any real value.', 4);
   }),
-
   /* ===== linear functions (forms, slope, lines) ===== */
   R(/^Identify linear functions$|^Identify linear and exponential functions$|^Identify linear, quadratic and exponential functions from (?:graphs|tables)$/, (mt, ctx) => () => {
     const kind = pick(['linear', 'quadratic', 'exponential']), xs = [0, 1, 2, 3], f = x => (kind === 'linear' ? 3 * x + 2 : kind === 'quadratic' ? x * x + 1 : 2 * 2 ** x);
@@ -255,9 +273,14 @@ export const FUNC9_RULES = [
     return mc(`Write the equation of the line with slope ${b(S(mm))} through ${b(pt(x1, y1))} in point-slope form.`, good, uniq([good.replace(/y [−+] \d+/, `y ${y1 < 0 ? MINUS : '+'} ${Math.abs(y1)}`), good.replace(/\(x [−+] (\d+)\)/, `(x ${x1 < 0 ? MINUS : '+'} $1)`), `y = ${S(mm)}x ${y1 < 0 ? MINUS : '+'} ${Math.abs(y1)}`]).filter(v_ => v_ !== good), `y − ${P(y1)} = ${S(mm)}(x − ${P(x1)}).`, 4);
   }),
   R(/^Slopes of parallel and perpendicular lines$|^Write an equation for a parallel or perpendicular line$/, (mt, ctx) => () => {
-    const [n, d] = pick([[2, 1], [3, 2], [-1, 3], [-4, 1], [1, 2]]), par = Math.random() < 0.5, mm = n / d, pm = par ? mm : -d / n;
-    if (/Write/.test(ctx.title)) { const bb = ri(-4, 4), px = ri(-3, 3), py = ri(-4, 4), newM = pm; if (!Number.isInteger(newM)) return null; const nb = py - newM * px; return mc(`Write the equation of the line through ${b(pt(px, py))} that is ${b(par ? 'parallel' : 'perpendicular')} to ${m(`y = ${S(mm)}x + ${bb}`.replace('+ -', '− '))}.`, lineEq(newM, nb), lineChoices(newM, nb).slice(0, 3), `The slope is ${S(newM)}; then solve for b using the point.`, 4); }
-    return mc(`A line has slope ${b(frac(n, d))}. What is the slope of a line ${b(par ? 'parallel' : 'perpendicular')} to it?`, frac(par ? n : -d, par ? d : n), uniq([frac(-n, d), frac(d, n), frac(-d, n), frac(n, d)]).filter(v_ => v_ !== frac(par ? n : -d, par ? d : n)), par ? 'Parallel lines have equal slopes.' : 'Perpendicular slopes are negative reciprocals.', 4);
+    const par = Math.random() < 0.5;
+    if (/Write/.test(ctx.title)) {
+      const px = ri(-4, 4), py = ri(-5, 5), bb = nz(-6, 6), s = pick([1, -1]), q = ri(2, 6), a = nz(-7, 7);
+      const orig = par ? `y = ${lineEq(a, bb).slice(4)}` : `y = ${s < 0 ? MINUS : ''}(1/${q})x ${bb < 0 ? MINUS : '+'} ${Math.abs(bb)}`, newM = par ? a : -s * q, nb = py - newM * px;
+      return mc(`Write the equation of the line through ${b(pt(px, py))} that is ${b(par ? 'parallel' : 'perpendicular')} to ${m(orig)}.`, lineEq(newM, nb), lineChoices(newM, nb).slice(0, 3), `The slope is ${S(newM)}; then solve for b using the point: b = ${S(nb)}.`, 4);
+    }
+    let n = nz(-9, 9), d = ri(1, 6); if (gcd(Math.abs(n), d) !== 1) { n = nz(-9, 9); d = 1; } const rn = par ? n : -d, rd = par ? d : n;
+    return mc(`A line has slope ${b(frac(n, d))}. What is the slope of a line ${b(par ? 'parallel' : 'perpendicular')} to it?`, frac(rn, rd), uniq([frac(-n, d), frac(d, n), frac(-d, n), frac(n, d)]).filter(v_ => v_ !== frac(rn, rd)), par ? 'Parallel lines have equal slopes.' : 'Perpendicular slopes are negative reciprocals.', 4);
   }),
   R(/^Find the distance between a point and a line$|^Find the distance between two parallel lines$/, (mt, ctx) => () => {
     const [a, c, h] = pick([[3, 4, 5], [5, 12, 13]]), d = ri(1, 4) * h, k = ri(1, 3);
@@ -270,7 +293,10 @@ export const FUNC9_RULES = [
     const mm = nzSlope(), bb = ri(-4, 4); return mc(`${gridLine(mm, bb)}Which function is graphed?`, lineEq(mm, bb).replace('y', 'f(x)'), lineChoices(mm, bb).slice(0, 3).map(v_ => v_.replace('y', 'f(x)')), `The line has slope ${S(mm)} and y-intercept ${S(bb)}.`, 4);
   }),
   R(/^Graph a proportional relationship$/, () => () => {
-    const k = nz(-4, 4); return mc(`${gridLine(k, 0)}Which equation describes this proportional relationship?`, `y = ${k === 1 ? '' : k === -1 ? MINUS : S(k)}x`, [`y = ${S(k)}x + 1`, `y = ${S(-k)}x`, `y = x ${k < 0 ? MINUS : '+'} ${Math.abs(k)}`], `It passes through the origin with slope ${S(k)}.`, 4);
+    const k = pick([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 0.5, -0.5, 1.5, -1.5]), kt = k === 1 ? '' : k === -1 ? MINUS : S(k), form = pick(['eq', 'eq', 'const', 'point']);
+    if (form === 'const') return mc(`${gridLine(k, 0)}This graph shows a proportional relationship. What is the constant of proportionality ${m('y/x')}?`, S(k), uniq([S(-k), S(k + (k > 0 ? 1 : -1)), S(k === 1 ? 2 : 1 / k)]).filter(v_ => v_ !== S(k)), `The line passes through (1, ${S(k)}), so y ÷ x = ${b(S(k))}.`, 4);
+    if (form === 'point') { const x = pick([2, 4, 6]), ok = pt(x, k * x), bad = uniq([pt(x, k * x + 1), pt(x, -k * x), pt(x + 1, k * x), pt(x, k * x - 2)]).filter(v_ => v_ !== ok); return mc(`${gridLine(k, 0)}Which point lies on this graph?`, ok, bad.slice(0, 3), `At x = ${x}, y = ${S(k)} × ${x} = ${S(k * x)}.`, 4); }
+    return mc(`${gridLine(k, 0)}Which equation describes this proportional relationship?`, `y = ${kt}x`, [`y = ${S(k)}x + 1`, `y = ${S(-k)}x`, `y = x ${k < 0 ? MINUS : '+'} ${Math.abs(k)}`], `It passes through the origin with slope ${S(k)}.`, 4);
   }),
   R(/^Find the constant of variation$|^Write direct variation equations$|^Write and solve direct variation equations$/, (mt, ctx) => () => {
     const k = ri(2, 9), x = ri(2, 8); if (/constant/.test(ctx.title)) return num(`y varies directly with x, and y = ${b(k * x)} when x = ${b(x)}. What is the constant of variation?`, k, `${k * x} ÷ ${x} = ${b(k)}.`);
@@ -306,8 +332,12 @@ export const FUNC9_RULES = [
     return mc(`How many solutions does this system have?<br>${m(lineEq(mm, bb))}<br>${m(lineEq(m2, b2))}`, label, ['One solution', 'No solution', 'Infinitely many solutions'].filter(v_ => v_ !== label), kind === 'one' ? 'Different slopes.' : kind === 'none' ? 'Parallel lines never meet.' : 'The same line.', 3);
   }),
   R(/^Solve a nonlinear system of equations$/, () => () => {
-    const x1 = ri(1, 3), x2 = -ri(1, 3), k = x1 + x2, bb = -x1 * x2, lo = Math.min(x1, x2), hi = Math.max(x1, x2), good = `x = ${S(lo)}, ${S(hi)}`;
-    return mc(`Solve the system ${m('y = x²')} and ${m(`y = ${k === 0 ? '' : coefTxt(k) + ' + '}${bb}`.replace('+ -', '− '))}. Which x-values are solutions?`, good, uniq([`x = ${S(-hi)}, ${S(-lo)}`, `x = ${S(k)}, ${S(bb)}`, `x = ${S(hi)}, ${S(hi)}`]).filter(v_ => v_ !== good), `Set x² = ${k}x + ${bb}, which factors as (x ${x1 < 0 ? '+' : MINUS} ${Math.abs(x1)})(x ${x2 < 0 ? '+' : MINUS} ${Math.abs(x2)}) = 0: ${b(good)}.`, 4);
+    let x1 = nz(-6, 6), x2 = nz(-6, 6); if (x1 === x2) return null;
+    const k = x1 + x2, bb = -x1 * x2, lo = Math.min(x1, x2), hi = Math.max(x1, x2), good = `x = ${S(lo)}, ${S(hi)}`, form = pick(['x', 'x', 'pts']);
+    const sysT = `${m('y = x²')} and ${m(`y = ${k === 0 ? '' : coefTxt(k) + (bb < 0 ? ' ' + MINUS + ' ' + (-bb) : ' + ' + bb)}${k === 0 ? S(bb) : ''}`)}`;
+    const why = `Set x² = ${k === 0 ? '' : coefTxt(k) + ' '}${bb < 0 ? MINUS + ' ' + (-bb) : (k === 0 ? '' : '+ ') + bb}, which factors as (x ${x1 < 0 ? '+' : MINUS} ${Math.abs(x1)})(x ${x2 < 0 ? '+' : MINUS} ${Math.abs(x2)}) = 0: ${b(good)}.`;
+    if (form === 'pts') { const ok = `${pt(lo, lo * lo)} and ${pt(hi, hi * hi)}`; return mc(`Solve the system ${sysT}. Which are the points of intersection?`, ok, uniq([`${pt(-lo, lo * lo)} and ${pt(-hi, hi * hi)}`, `${pt(lo, k * lo)} and ${pt(hi, k * hi)}`, `${pt(lo, -lo * lo)} and ${pt(hi, -hi * hi)}`]).filter(v_ => v_ !== ok), why.replace(`${b(good)}.`, `${b(good)}, and y = x² gives ${ok}.`), 4); }
+    return mc(`Solve the system ${sysT}. Which x-values are solutions?`, good, uniq([`x = ${S(-hi)}, ${S(-lo)}`, `x = ${S(k)}, ${S(bb)}`, `x = ${S(hi)}, ${S(hi)}`, `x = ${S(lo)}, ${S(-hi)}`]).filter(v_ => v_ !== good), why, 4);
   }),
   R(/^Solve a system of equations in three variables using (?:substitution|elimination)$|^Determine the number of solutions to a system of equations in three variables$/, (mt, ctx) => () => {
     const x = ri(-3, 4), y = ri(-3, 4), z = ri(-3, 4), eqs = [[1, 1, 1], [1, -1, 2], [2, 1, -1]].map(c => [...c, c[0] * x + c[1] * y + c[2] * z]);
@@ -321,19 +351,34 @@ export const FUNC9_RULES = [
     const a = ri(1, 5), base = pick([2, 3, 4, 5]), x = ri(0, 4); return num(`${m(`f(x) = ${a === 1 ? '' : a}(${base})<sup>x</sup>`)}. Find ${m(`f(${x})`)}.`, a * base ** x, `${a} × ${base}^${x} = ${b(a * base ** x)}.`);
   }),
   R(/^Match exponential functions and graphs(?: I| II)?$/, () => () => {
-    const a = pick([1, 2, 3]), base = pick([2, 3]), growth = Math.random() < 0.6, g = growth ? base : 1 / base;
-    return mc(`The graph of ${m(`y = ${a}(${growth ? base : '1/' + base})<sup>x</sup>`)} crosses the y-axis at which point, and is it increasing or decreasing?`, `${pt(0, a)}, ${growth ? 'increasing' : 'decreasing'}`, [`${pt(0, a)}, ${growth ? 'decreasing' : 'increasing'}`, `${pt(0, 1)}, ${growth ? 'increasing' : 'decreasing'}`, `${pt(a, 0)}, ${growth ? 'increasing' : 'decreasing'}`], `y(0) = ${a}, and the base is ${growth ? 'greater' : 'less'} than 1.`, 4);
+    const a = ri(1, 9), base = pick([2, 3, 4, 5, 6, 10]), growth = Math.random() < 0.6, form = pick(['both', 'both', 'yint', 'dir', 'asym']);
+    const ex = `y = ${a === 1 ? '' : a}(${growth ? base : '1/' + base})<sup>x</sup>`;
+    if (form === 'yint') return mc(`The graph of ${m(ex)} crosses the y-axis at which point?`, pt(0, a), [pt(a, 0), pt(0, 1), pt(0, base), pt(1, a)].filter(v_ => v_ !== pt(0, a)), `When x = 0, y = ${a}(…)<sup>0</sup> = ${b(a)}.`, 4);
+    if (form === 'dir') return mc(`Is the graph of ${m(ex)} increasing or decreasing?`, growth ? 'Increasing' : 'Decreasing', [growth ? 'Decreasing' : 'Increasing'], `The base is ${growth ? 'greater' : 'less'} than 1, so the graph is ${b(growth ? 'increasing' : 'decreasing')}.`, 2);
+    if (form === 'asym') return mc(`What is the horizontal asymptote of the graph of ${m(ex)}?`, 'y = 0', ['x = 0', `y = ${a}`, `y = ${base}`, 'y = 1'].filter(v_ => v_ !== 'y = 0'), 'The graph gets closer and closer to the x-axis: y = 0.', 4);
+    return mc(`The graph of ${m(ex)} crosses the y-axis at which point, and is it increasing or decreasing?`, `${pt(0, a)}, ${growth ? 'increasing' : 'decreasing'}`, [`${pt(0, a)}, ${growth ? 'decreasing' : 'increasing'}`, `${pt(0, 1)}, ${growth ? 'increasing' : 'decreasing'}`, `${pt(a, 0)}, ${growth ? 'increasing' : 'decreasing'}`], `y(0) = ${a}, and the base is ${growth ? 'greater' : 'less'} than 1.`, 4);
   }),
   R(/^Linear functions over unit intervals$|^Exponential functions over unit intervals$/, (mt, ctx) => () => {
-    const lin = /Linear/.test(ctx.title), a = ri(2, 6), r = ri(2, 4); return lin ? num(`A linear function has ${m(`f(2) = ${a * 2 + 1}`)} and ${m(`f(3) = ${a * 3 + 1}`)}. By how much does f change over each unit interval?`, a, `${a * 3 + 1} − ${a * 2 + 1} = ${b(a)}.`) : num(`An exponential function has ${m(`f(2) = ${a * r * r}`)} and ${m(`f(3) = ${a * r ** 3}`)}. By what factor does f multiply over each unit interval?`, r, `${a * r ** 3} ÷ ${a * r * r} = ${b(r)}.`);
+    const lin = /Linear/.test(ctx.title), x1 = ri(0, 6);
+    if (lin) {
+      const a = nz(-9, 9), c = ri(-6, 9), f = x => a * x + c, form = pick(['change', 'change', 'next']);
+      if (form === 'next') return num(`A linear function has ${m(`f(${x1}) = ${S(f(x1))}`)} and ${m(`f(${x1 + 1}) = ${S(f(x1 + 1))}`)}. Find ${m(`f(${x1 + 2})`)}.`, f(x1 + 2), `f increases by ${S(a)} each unit interval: ${S(f(x1 + 1))} + ${S(a)} = ${b(S(f(x1 + 2)))}.`);
+      return num(`A linear function has ${m(`f(${x1}) = ${S(f(x1))}`)} and ${m(`f(${x1 + 1}) = ${S(f(x1 + 1))}`)}. By how much does f change over each unit interval?`, a, `${S(f(x1 + 1))} − (${S(f(x1))}) = ${b(S(a))}.`);
+    }
+    const a = ri(1, 9), r = pick([2, 3, 4, 5]), f = x => a * r ** x, x2 = Math.min(x1, 3), form = pick(['factor', 'factor', 'next']);
+    if (form === 'next') return num(`An exponential function has ${m(`f(${x2}) = ${f(x2)}`)} and ${m(`f(${x2 + 1}) = ${f(x2 + 1)}`)}. Find ${m(`f(${x2 + 2})`)}.`, f(x2 + 2), `f multiplies by ${r} each unit interval: ${f(x2 + 1)} × ${r} = ${b(f(x2 + 2))}.`);
+    return num(`An exponential function has ${m(`f(${x2}) = ${f(x2)}`)} and ${m(`f(${x2 + 1}) = ${f(x2 + 1)}`)}. By what factor does f multiply over each unit interval?`, r, `${f(x2 + 1)} ÷ ${f(x2)} = ${b(r)}.`);
   }),
   R(/^Describe linear and exponential growth and decay$/, () => () => {
     const q = pick([['y = 5(1.2)^x', 'exponential growth'], ['y = 5(0.8)^x', 'exponential decay'], ['y = 5 + 2x', 'linear growth'], ['y = 20 − 3x', 'linear decay']]);
     return mc(`Describe the function ${b(q[0])}.`, q[1], ['exponential growth', 'exponential decay', 'linear growth', 'linear decay'].filter(v_ => v_ !== q[1]), `${q[1][0].toUpperCase() + q[1].slice(1)}.`, 4);
   }),
   R(/^Write linear, quadratic and exponential functions$|^Find a quadratic function$/, (mt, ctx) => () => {
-    const a = ri(2, 4), r = ri(2, 3); if (/quadratic function/.test(ctx.title)) { const r1 = ri(-4, 0), r2 = ri(1, 4); return mc(`Which quadratic has roots ${b(S(r1))} and ${b(S(r2))} and a leading coefficient of 1?`, `y = ${polyTxt(pmul([1, -r1], [1, -r2]))}`, uniq([`y = ${polyTxt(pmul([1, r1], [1, r2]))}`, `y = ${polyTxt(pmul([1, -r1], [1, r2]))}`, `y = ${polyTxt(pmul([1, r1], [1, -r2]))}`]).filter(v_ => v_ !== `y = ${polyTxt(pmul([1, -r1], [1, -r2]))}`), `y = (x − ${P(r1)})(x − ${P(r2)}) = ${polyTxt(pmul([1, -r1], [1, -r2]))}.`, 4); }
-    return mc(`A population starts at ${b(a * 10)} and is multiplied by ${b(r)} every year. Which function gives the population P after t years?`, `P = ${a * 10}(${r})<sup>t</sup>`, [`P = ${a * 10} + ${r}t`, `P = ${r}(${a * 10})<sup>t</sup>`, `P = ${a * 10}t<sup>${r}</sup>`], `Exponential: start × factor^t.`, 4);
+    const a = ri(2, 9), r = ri(2, 5), d = ri(2, 9), kind = pick(['exp', 'lin', 'decay', 'exp']), nmx = pick(NAMES), what = pick([['A population of bacteria', 'P', 'hours'], ['The number of followers on a channel', 'N', 'weeks'], ['A colony of ants', 'A', 'days'], ['The number of visits to a website', 'V', 'months']]);
+    if (/quadratic function/.test(ctx.title)) { const r1 = ri(-9, 0), r2 = ri(1, 9), lead = pick([1, 1, 1, 2, -1]); const ok = `y = ${polyTxt(pmul([lead], pmul([1, -r1], [1, -r2])))}`; return mc(`Which quadratic has roots ${b(S(r1))} and ${b(S(r2))} and a leading coefficient of ${b(S(lead))}?`, ok, uniq([`y = ${polyTxt(pmul([lead], pmul([1, r1], [1, r2])))}`, `y = ${polyTxt(pmul([lead], pmul([1, -r1], [1, r2])))}`, `y = ${polyTxt(pmul([lead], pmul([1, r1], [1, -r2])))}`]).filter(v_ => v_ !== ok), `y = ${lead === 1 ? '' : S(lead)}(x − ${P(r1)})(x − ${P(r2)}) = ${polyTxt(pmul([lead], pmul([1, -r1], [1, -r2])))}.`, 4); }
+    if (kind === 'lin') return mc(`${what[0]} starts at ${b(a * 10)} and grows by ${b(d)} every ${what[2].replace(/s$/, '')}. Which function gives the amount ${what[1]} after t ${what[2]}?`, `${what[1]} = ${a * 10} + ${d}t`, [`${what[1]} = ${a * 10}(${d})<sup>t</sup>`, `${what[1]} = ${d} + ${a * 10}t`, `${what[1]} = ${a * 10}t<sup>${d}</sup>`], `Linear: start + rate × t.`, 4);
+    if (kind === 'decay') return mc(`${what[0]} starts at ${b(a * 100)} and is cut in half every ${what[2].replace(/s$/, '')}. Which function gives the amount ${what[1]} after t ${what[2]}?`, `${what[1]} = ${a * 100}(0.5)<sup>t</sup>`, [`${what[1]} = ${a * 100}(2)<sup>t</sup>`, `${what[1]} = ${a * 100} ${MINUS} 0.5t`, `${what[1]} = 0.5(${a * 100})<sup>t</sup>`], `Exponential decay: start × (1/2)^t.`, 4);
+    return mc(`${what[0]} starts at ${b(a * 10)} and is multiplied by ${b(r)} every ${what[2].replace(/s$/, '')}. Which function gives the amount ${what[1]} after t ${what[2]}?`, `${what[1]} = ${a * 10}(${r})<sup>t</sup>`, [`${what[1]} = ${a * 10} + ${r}t`, `${what[1]} = ${r}(${a * 10})<sup>t</sup>`, `${what[1]} = ${a * 10}t<sup>${r}</sup>`], `Exponential: start × factor^t.`, 4);
   }),
   R(/^Exponential growth and decay(?:: word problems)?$/, (mt, ctx) => () => {
     const P0 = pick([100, 200, 500, 1000]), r = pick([10, 20, 25, 50]), t = ri(2, 3), growth = Math.random() < 0.6, A = fix(P0 * (1 + (growth ? 1 : -1) * r / 100) ** t, 2);
@@ -367,10 +412,18 @@ export const FUNC9_RULES = [
     return num(`Solve ${m(`${base}<sup>x ${MINUS} ${k}</sup> = ${base ** e}`)}.`, e + k, `x − ${k} = ${e}, so x = ${b(e + k)}.`);
   }),
   R(/^Solve logarithmic equations I{1,2}$/, (mt, ctx) => () => {
-    const base = pick([2, 3, 5]), e = ri(2, 4), k = ri(1, 5);
-    return /II/.test(ctx.title) ? num(`Solve ${m(`log<sub>${base}</sub>(x + ${k}) = ${e}`)}.`, base ** e - k, `x + ${k} = ${base ** e}, so x = ${b(base ** e - k)}.`) : num(`Solve ${m(`log<sub>${base}</sub>(x) = ${e}`)}.`, base ** e, `x = ${base}^${e} = ${b(base ** e)}.`);
+    const base = pick([2, 3, 4, 5, 6, 7, 10]), e = ri(2, base <= 3 ? 5 : base <= 5 ? 4 : 3), k = ri(1, 9), c = ri(2, 6), v = base ** e;
+    if (/II/.test(ctx.title)) {
+      const form = pick(['shift', 'shift', 'coef', 'both']);
+      if (form === 'coef') { const mdiv = [2, 4, 5, 10].filter(q => v % q === 0), q = pick(mdiv.length ? mdiv : [1]); if (q === 1) return null; return num(`Solve ${m(`log<sub>${base}</sub>(${q}x) = ${e}`)}.`, v / q, `${q}x = ${v}, so x = ${b(v / q)}.`); }
+      if (form === 'both') return num(`Solve ${m(`log<sub>${base}</sub>(x ${MINUS} ${k}) = ${e}`)}.`, v + k, `x ${MINUS} ${k} = ${v}, so x = ${b(v + k)}.`);
+      return num(`Solve ${m(`log<sub>${base}</sub>(x + ${k}) = ${e}`)}.`, v - k, `x + ${k} = ${v}, so x = ${b(v - k)}.`);
+    }
+    const form = pick(['plain', 'plain', 'plus', 'times']);
+    if (form === 'plus') return num(`Solve ${m(`log<sub>${base}</sub>(x) + ${k} = ${e + k}`)}.`, v, `log<sub>${base}</sub>(x) = ${e}, so x = ${base}^${e} = ${b(v)}.`);
+    if (form === 'times') return num(`Solve ${m(`${c}log<sub>${base}</sub>(x) = ${c * e}`)}.`, v, `log<sub>${base}</sub>(x) = ${e}, so x = ${base}^${e} = ${b(v)}.`);
+    return num(`Solve ${m(`log<sub>${base}</sub>(x) = ${e}`)}.`, v, `x = ${base}^${e} = ${b(v)}.`);
   }),
-
   /* ===== sequences and series ===== */
   R(/^Classify formulas and sequences$|^Identify a sequence as explicit or recursive$/, () => () => {
     const kind = pick(['explicit', 'recursive']), f = kind === 'explicit' ? `a<sub>n</sub> = 3n + 2` : `a<sub>1</sub> = 4, a<sub>n</sub> = a<sub>n−1</sub> + 3`;
@@ -392,7 +445,10 @@ export const FUNC9_RULES = [
     const a = ri(2, 8), d = ri(2, 5); return num(`${m(range(0, 4).map(i => a + i * d).join(', ') + ', ___')} What comes next?`, a + 5 * d, `Add ${d}: ${b(a + 5 * d)}.`);
   }),
   R(/^Introduction to sigma notation$/, () => () => {
-    const n = ri(3, 5), k = ri(1, 4), val = sum(range(1, n).map(i => k * i)); return num(`Evaluate ${m(`Σ<sub>i=1</sub><sup>${n}</sup> ${k}i`)}.`, val, `${range(1, n).map(i => k * i).join(' + ')} = ${b(val)}.`);
+    const n = ri(3, 8), k = ri(1, 9), c = ri(1, 9), lo = pick([1, 1, 2, 0]), form = pick(['ki', 'ki', 'sq', 'plus', 'const']), idx = range(lo, n);
+    const terms = { ki: i => k * i, sq: i => i * i, plus: i => i + c, const: () => c }, txt = { ki: `${k}i`, sq: 'i²', plus: `i + ${c}`, const: `${c}` }[form], f = terms[form], val = sum(idx.map(f));
+    const shown = idx.length > 5 ? `${idx.slice(0, 3).map(f).join(' + ')} + … + ${f(n)}` : idx.map(f).join(' + ');
+    return num(`Evaluate ${m(`Σ<sub>i=${lo}</sub><sup>${n}</sup> ${txt}`)}.`, val, `${shown} = ${b(val)}.`);
   }),
   R(/^Identify arithmetic and geometric series$/, () => () => {
     const geo = Math.random() < 0.5, a = ri(2, 5), r = ri(2, 3), d = ri(2, 5), seq = range(0, 3).map(i => (geo ? a * r ** i : a + i * d));
@@ -404,12 +460,22 @@ export const FUNC9_RULES = [
     const d = ri(2, 6), s = (n * (2 * a + (n - 1) * d)) / 2; return num(`Find the sum of the first ${b(n)} terms of the arithmetic series with first term ${b(a)} and common difference ${b(d)}.`, s, `S = n/2 (2a + (n − 1)d) = ${b(s)}.`);
   }),
   R(/^Convergent and divergent geometric series$/, () => () => {
-    const r = pick([[1, 2], [1, 3], [3, 2], [2, 1], [1, 4], [5, 4]]), conv = r[0] < r[1]; return mc(`Does the geometric series with common ratio ${b(fs(...r))} converge or diverge?`, conv ? 'Converges' : 'Diverges', [conv ? 'Diverges' : 'Converges'], conv ? '|r| < 1, so it converges.' : '|r| ≥ 1, so it diverges.', 2);
+    const form = pick(['frac', 'frac', 'dec', 'terms']);
+    let conv, why, txt;
+    if (form === 'frac') { const n = ri(1, 9), d = ri(2, 9), sg = pick([1, -1]); if (gcd(n, d) !== 1) return null; conv = n < d; txt = `${sg < 0 ? MINUS : ''}${n}/${d}`; why = `|r| = ${n}/${d} ${conv ? '< 1' : '> 1'}`; if (n === d) return null; return mc(`Does the geometric series with common ratio ${b(txt)} converge or diverge?`, conv ? 'Converges' : 'Diverges', [conv ? 'Diverges' : 'Converges'], `${why}, so it ${conv ? 'converges' : 'diverges'}.`, 2); }
+    if (form === 'dec') { const r = pick([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.5, 2, 2.5, 3]) * pick([1, -1]); conv = Math.abs(r) < 1; return mc(`Does the geometric series with common ratio ${b(S(r))} converge or diverge?`, conv ? 'Converges' : 'Diverges', [conv ? 'Diverges' : 'Converges'], conv ? `|${S(r)}| < 1, so it converges.` : `|${S(r)}| ≥ 1, so it diverges.`, 2); }
+    const q = pick([2, 3, 4, 5]), a = q * q * ri(1, 4), up = Math.random() < 0.5, sg = Math.random() < 0.3 ? -1 : 1, t = i => (up ? a * q ** i : a / q ** i) * sg ** i;
+    const terms = [0, 1, 2].map(i => S(t(i))).join(' + ').replace(/\+ −/g, '− ');
+    return mc(`Does the geometric series ${m(`${terms} + …`)} converge or diverge?`, up ? 'Diverges' : 'Converges', [up ? 'Converges' : 'Diverges'], `Each term is ${up ? 'multiplied' : 'divided'} by ${q}${sg < 0 ? ' (with the sign alternating)' : ''}, so ${up ? `|r| = ${q} > 1 and it diverges` : `|r| = 1/${q} < 1 and it converges`}.`, 2);
   }),
   R(/^Find the value of an infinite geometric series$/, () => () => {
     const a = ri(2, 12), d = pick([2, 3, 4, 5]), r = fs(1, d), s = (a * d) / (d - 1); return mc(`Find the sum of the infinite geometric series with first term ${b(a)} and common ratio ${b(r)}.`, fs(...simp(a * d, d - 1)), uniq([fs(a, d - 1), fs(a * (d - 1), d), fs(a, d)]).filter(v_ => v_ !== fs(...simp(a * d, d - 1))).map(v_ => v_.replace(/^(\d+)\/1$/, '$1')), `S = a/(1 − r) = ${b(fs(...simp(a * d, d - 1)))}.`.replace(/(\d+)\/1/, '$1'), 4);
   }),
   R(/^Write a repeating decimal as a fraction$/, () => () => {
-    const d = ri(1, 8), [n, dd] = simp(d, 9); return mc(`Write ${b('0.' + String(d).repeat(3) + '…')} (repeating) as a fraction in lowest terms.`, fs(n, dd), [fs(d, 10), fs(d, 99), fs(d + 1, 9)], `0.${d}̅ = ${d}/9 = ${b(fs(n, dd))}.`, 4);
+    const len = pick([1, 1, 2, 2, 3]), w = Math.random() < 0.3 ? ri(1, 9) : 0, den = 10 ** len - 1;
+    let blk = len === 1 ? ri(1, 8) : ri(1, den - 1); if (len === 3 && blk % 111 === 0) return null; if (len === 2 && blk % 11 === 0) return null;
+    const digits = String(blk).padStart(len, '0'), shown = `${w}.${digits.repeat(Math.ceil(6 / len)).slice(0, Math.max(6, len * 2))}…`, [n, dd] = simp(blk, den), tn = w * dd + n;
+    const ans = w ? fs(tn, dd) : fs(n, dd);
+    return mc(`Write ${b(shown)} (the digits ${b(digits)} repeat) as a fraction in lowest terms${w ? ' (improper fraction)' : ''}.`, ans, uniq([fs(blk, 10 ** len), fs(blk, den + 1), fs(w ? tn + 1 : n + 1, dd), fs(w ? tn : blk, den)]).filter(v_ => v_ !== ans), `Let x = ${shown.replace('…', '')}…; multiply by 10^${len} and subtract: ${len === 1 ? '9' : den}x = ${w ? blk + w * den : blk}, so x = ${b(ans)}.`, 4);
   })
 ];

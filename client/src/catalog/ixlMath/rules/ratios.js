@@ -156,8 +156,14 @@ export const RATIO_RULES = [
     return num(`${nm} has ${dollars(start)}. ${nm} buys ${aAn(first[0])} ${first[0]} for ${dollars(firstPrice)}, then buys ${n} ${item[1]} at ${dollars(up)} each. How much money is left? ($)`, left, `${dollars(start)} − ${dollars(firstPrice)} − ${n} × ${dollars(up)} = ${b(dollars(left))}.`);
   }),
   R(/^Financial institution vocabulary$/, () => () => {
-    const q = pick([['A fee charged for borrowing money, shown as a percent', 'Interest rate'], ['Money you put into a bank account', 'Deposit'], ['Taking money out of an account', 'Withdrawal'], ['A bank account used for everyday spending', 'Chequing account'], ['A bank account that earns interest on money you keep', 'Savings account']]);
-    return mc(`Which term matches this? ${b(q[0])}`, q[1], ['Interest rate', 'Deposit', 'Withdrawal', 'Chequing account', 'Savings account'].filter(x => x !== q[1]).slice(0, 3), `${b(q[1])}.`, 4);
+    const T = [['A fee charged for borrowing money, shown as a percent', 'Interest rate'], ['Money you put into a bank account', 'Deposit'], ['Taking money out of an account', 'Withdrawal'], ['A bank account used for everyday spending', 'Chequing account'], ['A bank account that earns interest on money you keep', 'Savings account'],
+      ['The amount of money that is in an account right now', 'Balance'], ['The original amount of money that is deposited or borrowed', 'Principal'], ['A card that takes money straight from your chequing account when you pay', 'Debit card'], ['A card that lets you borrow money now and pay it back later', 'Credit card'],
+      ['Money that is borrowed and must be paid back, usually with interest', 'Loan'], ['A loan used to buy a home', 'Mortgage'], ['A record of the deposits, withdrawals and fees on an account', 'Bank statement'], ['A charge a bank takes for providing a service', 'Service fee'],
+      ['Interest that is calculated only on the original amount', 'Simple interest'], ['Interest that is calculated on the original amount and on interest already earned', 'Compound interest'], ['A machine that lets you take out or deposit money without a teller', 'ATM'],
+      ['Pay that goes straight into your bank account from an employer', 'Direct deposit'], ['A plan for how to spend and save money', 'Budget'], ['Spending more money than is in your account', 'Overdraft'], ['An investment that locks in money for a set time at a fixed interest rate', 'GIC (guaranteed investment certificate)']];
+    const all = T.map(x => x[1]), q = pick(T);
+    if (Math.random() < 0.35) { const wrong = sample(T.filter(x => x[1] !== q[1]), 3).map(x => x[0]); return mc(`What does ${b(q[1])} mean?`, q[0], wrong, `${q[1]}: ${q[0].toLowerCase()}.`, 4); }
+    return mc(`Which term matches this? ${b(q[0])}`, q[1], sample(all, 3, [q[1]]), `${b(q[1])}.`, 4);
   }),
   R(/^Compare savings options$/, () => () => {
     const P0 = pick([500, 1000, 2000]), r1 = pick([2, 3, 4]), r2 = r1 + pick([-1, 1]), t = pick([2, 3, 4]), a = P0 * r1 * t / 100, c = P0 * r2 * t / 100;
@@ -173,7 +179,23 @@ export const RATIO_RULES = [
     const t = ctx.title, pairs = [['km', 'm', 1000], ['m', 'cm', 100], ['cm', 'mm', 10], ['kg', 'g', 1000], ['g', 'mg', 1000], ['L', 'mL', 1000], ['t', 'kg', 1000]], [big_, small, f] = pick(pairs), n = ri(2, 9) + (Math.random() < 0.4 ? ri(1, 9) / 10 : 0);
     if (/Mixed/.test(t)) { const w = ri(2, 9), r = ri(1, 9); const [B, s, ff] = pick(pairs.slice(0, 6)); return num(`${m(`${w} ${B} ${r * (ff / 10)} ${s} = ___ ${s}`)}`, w * ff + r * (ff / 10), `${w} ${B} = ${fmt(w * ff)} ${s}, plus ${r * (ff / 10)} ${s} = ${b(fmt(w * ff + r * (ff / 10)))} ${s}.`); }
     if (/Multi-step/.test(t)) { const a = ri(2, 9), c = ri(100, 900); return num(`A ribbon is ${b(a + ' m')} long. ${b(c + ' cm')} is cut off. How many centimetres are left?`, a * 100 - c > 0 ? a * 100 - c : a * 100 + c, a * 100 - c > 0 ? `${a * 100} − ${c} = ${b(a * 100 - c)} cm.` : `${a * 100} + ${c} = ${b(a * 100 + c)} cm.`); }
-    if (/rates/.test(t)) { const v_ = ri(2, 9) * 10; return num(`A car travels ${b(v_ + ' km/h')}. How many metres per hour is that?`, v_ * 1000, `${v_} × 1000 = ${b(fmt(v_ * 1000))} m/h.`); }
+    if (/rates/.test(t)) {
+      const k = ri(2, 15), who = pick(NAMES), R3 = [
+        [`A car travels ${b(k * 10 + ' km/h')}. How many metres per hour is that?`, k * 10000, `${k * 10} × 1000 = ${b(fmt(k * 10000))} m/h.`],
+        [`${who} cycles at ${b(k * 6 + ' km/h')}. How many metres per minute is that?`, k * 100, `${k * 6} km/h = ${fmt(k * 6000)} m/h, and ${fmt(k * 6000)} ÷ 60 = ${b(k * 100)} m/min.`],
+        [`A runner moves at ${b(k * 5 + ' m/s')}. How many metres per minute is that?`, k * 300, `${k * 5} × 60 = ${b(fmt(k * 300))} m/min.`],
+        [`A fountain pumps ${b(k + ' L/min')}. How many millilitres per minute is that?`, k * 1000, `${k} × 1000 = ${b(fmt(k * 1000))} mL/min.`],
+        [`A conveyor belt moves ${b(k * 5 + ' m/s')}. How many kilometres per hour is that?`, k * 18, `${k * 5} m/s × 3600 s/h ÷ 1000 = ${b(k * 18)} km/h.`],
+        [`A train travels ${b(k * 18 + ' km/h')}. How many metres per second is that?`, k * 5, `${k * 18} × 1000 ÷ 3600 = ${b(k * 5)} m/s.`],
+        [`A snail crawls ${b(k * 5 + ' cm/s')}. How many metres per minute is that?`, k * 3, `${k * 5} × 60 = ${fmt(k * 300)} cm/min, which is ${b(k * 3)} m/min.`],
+        [`A factory uses ${b(k * 2 + ' kg/h')} of flour. How many grams per hour is that?`, k * 2000, `${k * 2} × 1000 = ${b(fmt(k * 2000))} g/h.`],
+        [`A faucet drips ${b(k * 3 + ' mL/s')}. How many litres per minute is that?`, k * 0.18, `${k * 3} × 60 = ${fmt(k * 180)} mL/min = ${b(fix(k * 0.18, 2))} L/min.`]];
+      const [q, a, e] = pick(R3); return num(q, a, e);
+    }
+    const P2 = [['km', 'cm', 100000], ['m', 'mm', 1000], ['kg', 'mg', 1000000], ['km', 'm', 1000], ['m', 'cm', 100], ['kg', 'g', 1000], ['L', 'mL', 1000], ['t', 'kg', 1000], ['g', 'mg', 1000], ['cm', 'mm', 10]], [B2, s2, f2] = pick(P2), who = pick(NAMES), n2 = pick([ri(2, 9), ri(11, 99) / 10, ri(2, 40) / 4, ri(2, 9) + ri(1, 9) / 10]), form = ri(0, 4);
+    if (form === 1) { const v = fix(n2 * f2, 3); return num(`Convert. ${m(`${fmt(v)} ${s2} = ___ ${B2}`)}`, fix(n2, 3), `${fmt(v)} ÷ ${fmt(f2)} = ${b(fmt(fix(n2, 3)))} ${B2}.`); }
+    if (form === 2) { const ctxt = { km: 'trail', m: 'rope', kg: 'bag of potatoes', L: 'jug', t: 'truck load', g: 'chocolate bar', cm: 'ribbon' }[B2] || 'item'; return num(`${who}'s ${ctxt} measures ${b(fmt(fix(n2, 3)) + ' ' + B2)}. How many ${s2} is that?`, fix(n2 * f2, 3), `${fmt(fix(n2, 3))} × ${fmt(f2)} = ${b(fmt(fix(n2 * f2, 3)))} ${s2}.`); }
+    if (form === 3) { const v = fix(n2 * f2, 3), other = fix(v + pick([-1, 0, 1]) * f2 / 10, 3), sym = cmpSym2(v, other); return mc(`Compare. ${m(`${fmt(fix(n2, 3))} ${B2} ___ ${fmt(other)} ${s2}`)}`, sym, ['<', '>', '='].filter(v_ => v_ !== sym), `${fmt(fix(n2, 3))} ${B2} = ${fmt(v)} ${s2}.`, 3); }
     if (Math.random() < 0.6) return num(`Convert. ${m(`${n} ${big_} = ___ ${small}`)}`, fix(n * f, 3), `${n} × ${fmt(f)} = ${b(fmt(fix(n * f, 3)))} ${small}.`);
     const other = fix(n * f + pick([-1, 0, 1]) * f / 10, 3), sym = cmpSym2(fix(n * f, 3), other);
     return mc(`Compare. ${m(`${n} ${big_} ___ ${fmt(other)} ${small}`)}`, sym, ['<', '>', '='].filter(v_ => v_ !== sym), `${n} ${big_} = ${fmt(fix(n * f, 3))} ${small}.`, 3);
@@ -183,8 +205,19 @@ export const RATIO_RULES = [
     return num(`${sq ? `${n} ${A}² = ___ ${B}²` : `${n} ${A}³ = ___ ${B}³`}`, n * f ** (sq ? 2 : 3), `1 ${A} = ${f} ${B}, so 1 ${A}${sq ? '²' : '³'} = ${fmt(f ** (sq ? 2 : 3))} ${B}${sq ? '²' : '³'}. ${n} × ${fmt(f ** (sq ? 2 : 3))} = ${b(fmt(n * f ** (sq ? 2 : 3)))}.`);
   }),
   R(/^Convert between cubic metres and litres$|^Convert between cubic centimetres and millilitres$/, (mt, ctx) => () => {
-    const n = ri(2, 9);
-    return /cubic metres/.test(ctx.title) ? num(`${n} m³ = ___ L`, n * 1000, `1 m³ = 1000 L: ${b(fmt(n * 1000))}.`) : num(`${n * 10} cm³ = ___ mL`, n * 10, `1 cm³ = 1 mL: ${b(n * 10)}.`);
+    const big_ = /cubic metres/.test(ctx.title), f = ri(0, 3), who = pick(NAMES);
+    if (big_) {
+      const n = pick([ri(2, 9), ri(10, 60), ri(1, 9) / 10, ri(1, 99) / 10, ri(11, 99) / 20]);
+      if (f === 1) { const k = ri(2, 60) * 100; return num(`${fmt(k * 10)} L = ___ m³`, k / 100, `1 m³ = 1000 L, so ${fmt(k * 10)} ÷ 1000 = ${b(fmt(k / 100))} m³.`); }
+      if (f === 2) { const it = pick(['water tank', 'rain barrel', 'swimming pool', 'aquarium', 'storage bin']); return num(`${who}'s ${it} holds ${b(fmt(fix(n, 2)) + ' m³')} of water. How many litres is that?`, fix(n * 1000, 2), `${fmt(fix(n, 2))} × 1000 = ${b(fmt(fix(n * 1000, 2)))} L.`); }
+      if (f === 3) { const k = ri(2, 40) * 1000; return num(`A pool holds ${b(fmt(k) + ' L')} of water. What is its volume in cubic metres?`, k / 1000, `1000 L = 1 m³, so ${fmt(k)} ÷ 1000 = ${b(k / 1000)} m³.`); }
+      return num(`${fmt(fix(n, 2))} m³ = ___ L`, fix(n * 1000, 2), `1 m³ = 1000 L: ${fmt(fix(n, 2))} × 1000 = ${b(fmt(fix(n * 1000, 2)))}.`);
+    }
+    const n = pick([ri(2, 9) * 10, ri(11, 99), ri(100, 900), ri(10, 99) * 5]);
+    if (f === 1) return num(`${fmt(n)} mL = ___ cm³`, n, `1 mL = 1 cm³, so ${fmt(n)} mL = ${b(fmt(n))} cm³.`);
+    if (f === 2) { const it = pick(['syringe', 'measuring cup', 'juice box', 'water bottle', 'small box']); return num(`${who}'s ${it} holds ${b(fmt(n) + ' cm³')} of liquid. How many millilitres is that?`, n, `1 cm³ = 1 mL, so ${b(fmt(n))} mL.`); }
+    if (f === 3) { const L = ri(2, 12); return num(`A cube-shaped container holds ${b(L + ' L')} of water. What is its volume in cm³?`, L * 1000, `1 L = 1000 mL = 1000 cm³, so ${L} L = ${b(fmt(L * 1000))} cm³.`); }
+    return num(`${fmt(n)} cm³ = ___ mL`, n, `1 cm³ = 1 mL: ${b(fmt(n))}.`);
   }),
   R(/^Precision$/, () => () => {
     const x = ri(21, 99) / 10, ans = dec(x, 2).replace(/0$/, '') === dec(x, 1) ? dec(x + 0.01, 2) : dec(x, 2);

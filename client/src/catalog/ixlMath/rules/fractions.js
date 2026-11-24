@@ -74,8 +74,11 @@ export const FRACTION_RULES = [
   }),
   R(/^Identify halves and fourths$|^Identify halves, thirds and fourths$|^Identify the fraction$|^Identify fractions$|^Understand fractions(?:: .*)?$|^Fractions of a whole$/, (mt, ctx) => () => {
     const d = denFor(ctx.grade, ctx.title), [n] = proper(d), kind = modelFor(ctx.title, ctx.grade);
+    const form = pick(['shaded', 'shaded', 'unshaded', 'parts']), word = kind === 'circle' ? pick(['circle', 'shape', 'picture']) : pick(['shape', 'bar', 'picture']);
+    if (form === 'unshaded') { const n2 = d - n, ans2 = fs(n2, d); return mc(`${drawModel(kind, n, d)}What fraction of the ${word} is ${b('not shaded')}?`, ans2, fracDistractors(n2, d), `${d} equal parts, ${n} shaded, so ${n2} are not shaded: ${b(ans2)}.`, 4); }
+    if (form === 'parts') { const ans3 = fs(n, d); return mc(`${drawModel(kind, n, d)}The ${word} is split into ${b(d)} equal parts. Which fraction tells how much is ${b('shaded')}?`, ans3, fracDistractors(n, d), `${n} of the ${d} equal parts are shaded: ${b(ans3)}.`, 4); }
     const ans = fs(n, d), alts = fracDistractors(n, d);
-    return mc(`${drawModel(kind, n, d)}What fraction of the shape is ${b('shaded')}?`, ans, alts, `${n} of the ${d} equal parts are shaded: ${b(ans)}${d <= 4 && ctx.grade <= 2 ? ` (${nameOf(n, d)})` : ''}.`, 4);
+    return mc(`${drawModel(kind, n, d)}What fraction of the ${word} is ${b('shaded')}?`, ans, alts, `${n} of the ${d} equal parts are shaded: ${b(ans)}${d <= 4 && ctx.grade <= 2 ? ` (${nameOf(n, d)})` : ''}.`, 4);
   }),
   R(/^Make halves and fourths$|^Make halves and fourths in different ways$|^Make halves, thirds and fourths$|^Make sixths and eighths$|^Make halves, thirds, fourths, sixths and eighths$/, (mt, ctx) => () => {
     const d = denFor(ctx.grade, ctx.title), kind = pick(['circle', 'bar']), parts = Array.from({ length: 3 }, (_, i) => pick([d, d + 1 + i, d - 1 > 1 ? d - 1 : d + 4])), all = uniq([d, ...parts.filter(p => p !== d)]).slice(0, 3);
@@ -122,6 +125,11 @@ export const FRACTION_RULES = [
     const kind = unit ? ri(0, 2) : 0;
     if (kind === 1) { const dd = pick(d >= 4 ? range(2, 12) : [2, 3, 4, 5, 6, 8]), ans = fs(1, dd); return mc(`${fracLineLabeled(dd, 1, [{ v: 1 / dd, label: '●' }])}The point is the first mark after 0. Which unit fraction does it show?`, ans, uniq([fs(1, dd + 1), fs(1, Math.max(2, dd - 1)), fs(2, dd), fs(1, dd * 2)]).filter(x => x !== ans).slice(0, 3), `The whole is split into ${dd} equal parts, so one part is ${b(ans)}.`, 4); }
     if (kind === 2) { const dd = pick(range(2, 10)), cnt = ri(1, dd - 1); return mc(`${fracLineLabeled(dd, 1, [])}This number line from 0 to 1 is split into ${b(dd)} equal parts. What is the length of ${b('one')} part?`, fs(1, dd), uniq([fs(1, dd + 1), fs(cnt + 1, dd), fs(1, dd * 2), fs(dd - 1, dd)]).filter(x => x !== fs(1, dd)).slice(0, 3), `${dd} equal parts: each part is ${b(fs(1, dd))}.`, 4); }
+    if (!unit && d >= 4 && hi === 1 && Math.random() < 0.6) {
+      const cnt = Math.min(4, d - 1), letters = ['A', 'B', 'C', 'D'].slice(0, cnt), pts = sample(range(1, d - 1), cnt), marks = pts.map((p_, i) => ({ v: p_ / d, label: letters[i], color: C.blue })), k = ri(0, cnt - 1), line = fracLineLabeled(d, 1, marks);
+      if (Math.random() < 0.5) return mc(`${line}Which point shows ${m(stack(pts[k], d))}?`, letters[k], letters.filter((_, i) => i !== k), `The line is split into ${d} equal parts. ${fs(pts[k], d)} is ${pts[k]} part${pts[k] > 1 ? 's' : ''} from 0: point ${b(letters[k])}.`, 4);
+      const ans = fs(pts[k], d); return mc(`${line}What fraction does point ${b(letters[k])} show?`, ans, uniq(pts.filter((_, i) => i !== k).map(p_ => fs(p_, d)).concat([fs(pts[k] + 1, d), fs(Math.max(1, pts[k] - 1), d)])).filter(x => x !== ans), `Point ${letters[k]} is ${pts[k]} part${pts[k] > 1 ? 's' : ''} from 0 on a line split into ${d} equal parts: ${b(ans)}.`, 4);
+    }
     const n = unit ? 1 : ri(1, d * hi - 1), v = n / d;
     const ans = n > d ? mixedText(n, d) : fs(n, d), alts = uniq(fracDistractors(n % d || n, d).concat([fs(n + 1, d), fs(Math.max(1, n - 1), d)])).filter(x => x !== ans);
     return mc(`${fracLineLabeled(d, hi, [{ v, label: '●' }])}What fraction does the point show?`, ans, alts, `The line is split into ${d} equal parts. The point is ${n} part${n > 1 ? 's' : ''} from 0: ${b(ans)}.`.replace('is split into ' + d, 'from 0 to 1 is split into ' + d), 4);
@@ -153,7 +161,10 @@ export const FRACTION_RULES = [
     return mc(`Which fraction is equivalent to ${m(stack(n, d))}?`, fs(n * k, d * k), [fs(n * k + 1, d * k), fs(n + k, d + k), fs(n, d * k)].filter(x => x !== fs(n * k, d * k)), `Multiply both numerator and denominator by ${k}: ${b(fs(n * k, d * k))}.`);
   }),
   R(/^Patterns of equivalent fractions$/, () => () => {
-    const [n, d] = pick([[1, 2], [1, 3], [2, 3], [1, 4], [3, 4]]), seq = [1, 2, 3].map(k => fs(n * k, d * k)), next = fs(n * 4, d * 4);
+    const [n, d] = pick([[1, 2], [1, 3], [2, 3], [1, 4], [3, 4], [1, 5], [2, 5], [3, 5], [4, 5], [1, 6], [5, 6], [1, 8], [3, 8], [5, 8], [7, 8], [3, 10], [7, 10], [1, 10], [2, 7], [4, 9]]), seq = [1, 2, 3].map(k => fs(n * k, d * k)), next = fs(n * 4, d * 4);
+    const form = pick(['next', 'next', 'missing', 'fifth']);
+    if (form === 'missing') { const k = pick([2, 3, 4]), full = [1, 2, 3, 4].map(j => fs(n * j, d * j)), ans = full[k - 1], show = full.map((f, i) => (i === k - 1 ? '___' : f)); return mc(`Which fraction completes the pattern? ${m(show.join(', '))}`, ans, [fs(n * k + 1, d * k), fs(n * k, d * k + 1), fs(n * (k + 1), d * k)].filter(x => x !== ans), `Each fraction is ${fs(n, d)} scaled up: the missing one is ${b(ans)}.`); }
+    if (form === 'fifth') { const next5 = fs(n * 5, d * 5); return mc(`What are the next two fractions? ${m(seq.join(', ') + ', ___, ___')}`, `${next}, ${next5}`, [`${fs(n * 4 + 1, d * 4)}, ${fs(n * 5 + 1, d * 5)}`, `${next}, ${fs(n * 5, d * 5 + 1)}`, `${fs(n * 3, d * 4)}, ${next5}`], `Each fraction is ${fs(n, d)} scaled up: ${b(`${next}, ${next5}`)}.`); }
     return mc(`What comes next? ${m(seq.join(', ') + ', ___')}`, next, [fs(n * 4 + 1, d * 4), fs(n * 3, d * 4), fs(n * 4, d * 4 + 1)], `Each fraction is ${fs(n, d)} scaled up: the next is ${b(next)}.`);
   }),
   R(/^Fractions with denominators of 10 and 100$/, () => () => {
@@ -198,8 +209,14 @@ export const FRACTION_RULES = [
     return mc(`Compare. ${m(`${stack(...A)} ___ ${stack(...Bb)}`)}`, s, ['<', '>', '='].filter(x => x !== s), like === 'd' ? `Same denominator: compare numerators.` : `Same numerator: the smaller denominator is the bigger fraction.`, 3);
   }),
   R(/^Compare fractions using ½ as a benchmark$|^Compare fractions using ½ as a benchmark: find the missing numerator$/, (mt, ctx) => () => {
-    const d = pick([6, 8, 10, 12]), a = ri(1, d - 1); if (a * 2 === d) return null;
-    if (/missing/.test(ctx.title)) { const target = pick(['greater', 'less']); const ans = target === 'greater' ? d / 2 + 1 : d / 2 - 1; return num(`Write the smallest whole number that makes ${m(`${stack('___', d)}`)} ${b(target === 'greater' ? 'greater than' : 'less than')} ½ ${target === 'greater' ? '(smallest)' : '(largest)'}.`.replace('smallest whole number', target === 'greater' ? 'smallest whole number' : 'largest whole number'), ans, `Half of ${d} is ${d / 2}, so the numerator must be ${target === 'greater' ? 'more' : 'less'} than ${d / 2}: ${b(ans)}.`); }
+    const d = pick([4, 6, 8, 10, 12, 14, 16, 18, 20]), a = ri(1, d - 1); if (a * 2 === d) return null;
+    if (/missing/.test(ctx.title)) {
+      const dd = pick([4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]), target = pick(['greater', 'less', 'equal']), ans = target === 'greater' ? dd / 2 + 1 : target === 'less' ? dd / 2 - 1 : dd / 2, ph = Math.random() < 0.5;
+      if (target === 'equal') return num(ph ? `Find the number that makes ${m(`${stack('___', dd)} = ½`)} true.` : `What numerator makes ${m(stack('___', dd))} equal to ½?`, ans, `Half of ${dd} is ${b(ans)}.`);
+      const g = target === 'greater';
+      return num(ph ? `Write the ${g ? 'smallest' : 'largest'} whole number that makes ${m(stack('___', dd))} ${b(g ? 'greater than' : 'less than')} ½.` : `What is the ${g ? 'smallest' : 'largest'} numerator that keeps ${m(stack('___', dd))} ${b(g ? 'more' : 'less')} than ½?`, ans, `Half of ${dd} is ${dd / 2}, so the numerator must be ${g ? 'more' : 'less'} than ${dd / 2}: ${b(ans)}.`);
+    }
+    if (Math.random() < 0.4) { const g = a * 2 > d; return mc(`Which is true? ${m(`${stack(a, d)} ___ ${stack(1, 2)}`)}`, g ? '>' : '<', [g ? '<' : '>', '='], `Half of ${d} is ${d / 2}, and ${a} is ${g ? 'more' : 'less'}, so ${fs(a, d)} is ${g ? 'greater' : 'less'} than ½.`, 3); }
     return mc(`Is ${m(stack(a, d))} greater than or less than ${m(stack(1, 2))}?`, a * 2 > d ? 'Greater than ½' : 'Less than ½', [a * 2 > d ? 'Less than ½' : 'Greater than ½'], `Half of ${d} is ${d / 2}, and ${a} is ${a * 2 > d ? 'more' : 'less'}.`, 2);
   }),
   R(/^Benchmark fractions$|^Compare fractions using benchmarks$/, (mt, ctx) => () => {

@@ -20,7 +20,8 @@ const fmtNum = n => String(n).replace('-', MINUS);
 
 function mcChoices(correct, distractors) {
   const set = [correct];
-  for (const d of distractors) if (!set.includes(d)) set.push(d);
+  // at most four options: a random three of the distinct distractors
+  for (const d of shuffle(distractors.filter(x => x !== correct))) if (!set.includes(d) && set.length < 4) set.push(d);
   return shuffle(set);
 }
 

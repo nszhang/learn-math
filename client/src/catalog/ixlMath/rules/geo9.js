@@ -33,7 +33,11 @@ export const GEO9_RULES = [
     const a = ri(2, 8) * 10, r = ri(2, 12), t = ctx.title;
     if (/Arcs and chords/.test(t)) { const d = ri(2, 6), rr = ri(d + 1, 12), half = Math.sqrt(rr * rr - d * d); return Math.random() < 0.5 ? mc(`A chord is ${b(d)} units from the centre of a circle of radius ${b(rr)}. Which is true about the chord and its perpendicular from the centre?`, 'The perpendicular from the centre bisects the chord', ['The perpendicular from the centre is longer than the radius', 'The chord is a diameter', 'The chord is tangent to the circle'], 'A radius perpendicular to a chord bisects it.', 4) : mc(`In a circle, two chords are equal in length. What do we know about their arcs?`, 'The arcs they cut off are equal', ['The arcs are different', 'The arcs add to 180°', 'The chords must be parallel'], 'Equal chords cut off equal arcs.', 4); }
     if (/Arc measure/.test(t)) return Math.random() < 0.5 ? num(`${circlePic({ central: [30, 30 + a] })}A central angle ∠AOB measures ${b(a + '°')}. What is the measure of arc AB? (degrees)`, a, `An arc has the same measure as its central angle: ${b(a)}°.`) : num(`A central angle of ${b(a + '°')} cuts an arc on a circle of radius ${b(r)}. What is the arc length? (Give the number in front of π; round to 2 decimals.)`, fix((a / 360) * 2 * r, 2), `(${a}/360) × 2π × ${r} = ${b(pi(fix((a / 360) * 2 * r, 2)))}.`);
-    return num(`${circlePic({ central: [20, 20 + a] })}What is the measure of the central angle ∠AOB if it intercepts an arc of ${b(a + '°')}? (degrees)`, a, `The central angle equals its arc: ${b(a)}°.`);
+    const A5 = ri(4, 34) * 5, form = pick(['cen', 'cen', 'arc', 'major', 'diam']);
+    if (form === 'arc') return num(`${circlePic({ central: [20, 20 + A5] })}The central angle ∠AOB measures ${b(A5 + '°')}. What is the measure of the minor arc AB? (degrees)`, A5, `An arc has the same measure as its central angle: ${b(A5)}°.`);
+    if (form === 'major') return num(`${circlePic({ central: [20, 20 + A5] })}The central angle ∠AOB measures ${b(A5 + '°')}. What is the measure of the major arc AB? (degrees)`, 360 - A5, `A full circle is 360°: 360 − ${A5} = ${b(360 - A5)}°.`);
+    if (form === 'diam') return num(`AB is a diameter of a circle with centre O, and C is a point on the circle with ∠AOC = ${b(A5 + '°')}. What is the measure of ∠COB? (degrees)`, 180 - A5, `A diameter makes a straight angle of 180°: 180 − ${A5} = ${b(180 - A5)}°.`);
+    return num(`${circlePic({ central: [20, 20 + A5] })}What is the measure of the central angle ∠AOB if it intercepts an arc of ${b(A5 + '°')}? (degrees)`, A5, `The central angle equals its arc: ${b(A5)}°.`);
   }),
   R(/^Tangent lines$/, () => () => {
     const r = ri(3, 12), d = ri(r + 2, r + 12), tan = Math.sqrt(d * d - r * r);
@@ -42,7 +46,13 @@ export const GEO9_RULES = [
   R(/^Inscribed angles$|^Angles in inscribed right triangles$|^Angles in inscribed quadrilaterals I{1,2}$/, (mt, ctx) => () => {
     const arc = ri(3, 17) * 10, t = ctx.title;
     if (/right triangles/.test(t)) return mc(`A triangle is inscribed in a circle with one side as a diameter. What is the measure of the angle opposite the diameter?`, '90°', ['45°', '180°', '60°'], 'An angle inscribed in a semicircle is a right angle.', 4);
-    if (/quadrilaterals/.test(t)) { const A = ri(5, 15) * 10; return num(`A quadrilateral ABCD is inscribed in a circle and ∠A = ${b(A + '°')}. What is ∠C? (degrees)`, 180 - A, `Opposite angles of an inscribed quadrilateral are supplementary: 180 − ${A} = ${b(180 - A)}°.`); }
+    if (/quadrilaterals/.test(t)) {
+      const A = ri(40, 140), form = pick(['opp', 'opp', 'opp2', 'arc', 'alg']);
+      if (form === 'opp2') { const [X, Y] = pick([['B', 'D'], ['D', 'B']]); return num(`A quadrilateral ABCD is inscribed in a circle and ∠${X} = ${b(A + '°')}. What is ∠${Y}? (degrees)`, 180 - A, `Opposite angles of an inscribed quadrilateral are supplementary: 180 − ${A} = ${b(180 - A)}°.`); }
+      if (form === 'arc') { const a2 = ri(40, 140) * 2; return num(`A quadrilateral ABCD is inscribed in a circle. Arc BCD measures ${b(a2 + '°')}. What is ∠A? (degrees)`, a2 / 2, `An inscribed angle is half its intercepted arc: ${a2} ÷ 2 = ${b(a2 / 2)}°.`); }
+      if (form === 'alg') { const x = ri(8, 30), p = ri(1, 4), q = ri(1, 4), c1 = ri(0, 25), c2 = 180 - (p + q) * x - c1; const ex = (k, c) => `${k === 1 ? '' : k}x ${c < 0 ? MINUS : '+'} ${Math.abs(c)}`; return num(`In an inscribed quadrilateral ABCD, ∠A = ${m(`(${ex(p, c1)})°`)} and ∠C = ${m(`(${ex(q, c2)})°`)}. Find x.`, x, `Opposite angles are supplementary: ${p}x + ${c1} + ${q}x ${c2 < 0 ? MINUS : '+'} ${Math.abs(c2)} = 180, so ${p + q}x = ${(p + q) * x} and x = ${b(x)}.`); }
+      return num(`A quadrilateral ABCD is inscribed in a circle and ∠A = ${b(A + '°')}. What is ∠C? (degrees)`, 180 - A, `Opposite angles of an inscribed quadrilateral are supplementary: 180 − ${A} = ${b(180 - A)}°.`);
+    }
     return num(`${circlePic({ inscribed: [60, 60 + arc > 330 ? 300 : 60 + arc, 250] })}An inscribed angle intercepts an arc of ${b(arc + '°')}. What is the measure of the inscribed angle? (degrees)`, arc / 2, `An inscribed angle is half its intercepted arc: ${b(arc / 2)}°.`);
   }),
   R(/^Perimeter of polygons with an inscribed circle$/, () => () => {
@@ -121,10 +131,17 @@ export const GEO9_RULES = [
     return mc(`What is the midpoint of ${b(pt(x1, y1))} and ${b(pt(x2, y2))}?`, pt(mx, my), uniq([pt(x2 - x1, y2 - y1), pt(mx + 1, my), pt(my, mx), pt(x1 + x2, y1 + y2)]).filter(v_ => v_ !== pt(mx, my)), `Average the coordinates: ${b(pt(mx, my))}.`, 4);
   }),
   R(/^Transversal of parallel lines$/, () => () => {
-    const th = ri(3, 8) * 10; return num(`Two parallel lines are cut by a transversal. One angle measures ${b(th + '°')}. What is the measure of its same-side interior angle? (degrees)`, 180 - th, `Same-side interior angles are supplementary: ${b(180 - th)}°.`);
+    const th = pick([ri(20, 89), ri(91, 160)]), kind = pick(['sameSide', 'corr', 'altInt', 'altExt', 'vert', 'linear', 'alg1', 'alg2']);
+    if (kind === 'corr') return num(`Two parallel lines are cut by a transversal. One angle measures ${b(th + '°')}. What is the measure of its corresponding angle? (degrees)`, th, `Corresponding angles are equal: ${b(th)}°.`);
+    if (kind === 'altInt') return num(`Two parallel lines are cut by a transversal. One angle measures ${b(th + '°')}. What is the measure of its alternate interior angle? (degrees)`, th, `Alternate interior angles are equal: ${b(th)}°.`);
+    if (kind === 'altExt') return num(`Two parallel lines are cut by a transversal. One angle measures ${b(th + '°')}. What is the measure of its alternate exterior angle? (degrees)`, th, `Alternate exterior angles are equal: ${b(th)}°.`);
+    if (kind === 'vert') return num(`Two parallel lines are cut by a transversal. One angle measures ${b(th + '°')}. What is the measure of the angle vertically opposite it? (degrees)`, th, `Vertical angles are equal: ${b(th)}°.`);
+    if (kind === 'linear') return num(`Two parallel lines are cut by a transversal. One angle measures ${b(th + '°')}. What is the measure of the angle that forms a linear pair with it? (degrees)`, 180 - th, `A linear pair adds to 180°: ${b(180 - th)}°.`);
+    const ex = (k, c) => `${k === 1 ? '' : k}x ${c < 0 ? MINUS : '+'} ${Math.abs(c)}`;
+    if (kind === 'alg1') { const x = ri(8, 30), p = ri(2, 5), q = ri(1, p - 1), c1 = ri(-15, 20), c2 = c1 + (p - q) * x; return num(`Two parallel lines are cut by a transversal. Corresponding angles measure ${m(`(${ex(p, c1)})°`)} and ${m(`(${ex(q, c2)})°`)}. Find x.`, x, `Corresponding angles are equal: ${p}x ${c1 < 0 ? MINUS : '+'} ${Math.abs(c1)} = ${q}x ${c2 < 0 ? MINUS : '+'} ${Math.abs(c2)}, so ${p - q}x = ${(p - q) * x} and x = ${b(x)}.`); }
+    if (kind === 'alg2') { const x = ri(8, 25), p = ri(1, 4), q = ri(1, 4), c1 = ri(0, 25), c2 = 180 - (p + q) * x - c1; return num(`Two parallel lines are cut by a transversal. Same-side interior angles measure ${m(`(${ex(p, c1)})°`)} and ${m(`(${ex(q, c2)})°`)}. Find x.`, x, `Same-side interior angles add to 180°: ${p + q}x ${c1 + c2 < 0 ? MINUS : '+'} ${Math.abs(c1 + c2)} = 180, so x = ${b(x)}.`); }
+    return num(`Two parallel lines are cut by a transversal. One angle measures ${b(th + '°')}. What is the measure of its same-side interior angle? (degrees)`, 180 - th, `Same-side interior angles are supplementary: ${b(180 - th)}°.`);
   }),
-
-  /* ===== similarity ===== */
   R(/^Ratios in similar figures$|^Similarity statements$|^Side lengths and angle measures in similar figures$|^Similar figures: side lengths and angle measures$|^Similar triangles and indirect measurement$|^Similarity rules for triangles$|^Similar triangles and similarity transformations$/, (mt, ctx) => () => {
     const t = ctx.title, k = pick([2, 3, 1.5]), a = ri(2, 8) * 2, c = ri(2, 8) * 2;
     if (/rules/.test(t)) return mc('Two triangles have two pairs of congruent angles. Which rule shows they are similar?', 'AA similarity', ['SSS congruence', 'SAS congruence', 'HL'], 'Two pairs of equal angles prove similarity (AA).', 4);
@@ -173,8 +190,12 @@ export const GEO9_RULES = [
 
   /* ===== 3-D figures ===== */
   R(/^Three-dimensional figure vocabulary$/, () => () => {
-    const q = [['A flat surface of a solid', 'face'], ['A segment where two faces meet', 'edge'], ['A point where edges meet', 'vertex'], ['The perpendicular distance from the apex of a cone to its base', 'height'], ['The distance along the lateral surface of a cone from apex to base edge', 'slant height']];
-    const [d, a] = pick(q); return mc(`What is ${b(d)} called?`, a, ['face', 'edge', 'vertex', 'height', 'slant height'].filter(v_ => v_ !== a).slice(0, 3), `${a[0].toUpperCase() + a.slice(1)}.`, 4);
+    const q = [['A flat surface of a solid', 'face'], ['A flat surface of a polyhedron, such as one side of a cube', 'face'], ['A segment where two faces meet', 'edge'], ['A line segment formed where two faces of a solid meet', 'edge'], ['A point where edges meet', 'vertex'], ['A corner of a solid, where three or more edges meet', 'vertex'],
+      ['The perpendicular distance from the apex of a cone to its base', 'height'], ['The perpendicular distance between the two bases of a prism', 'height'], ['The distance along the lateral surface of a cone from apex to base edge', 'slant height'], ['The height of a triangular face of a regular pyramid, measured along the face', 'slant height'],
+      ['The point at the top of a pyramid or cone where the faces meet', 'apex'], ['The vertex of a cone that is opposite its base', 'apex'], ['A face of a prism or pyramid that is not a base', 'lateral face'], ['The rectangular side faces of a prism', 'lateral face'], ['The face (or faces) a prism or pyramid sits on, used to name it', 'base'], ['The two parallel, congruent faces of a prism', 'base'],
+      ['A flat pattern that folds up to make a solid', 'net'], ['A two-dimensional shape that can be folded to form a three-dimensional solid', 'net'], ['The shape you see when a plane slices through a solid', 'cross-section'], ['The two-dimensional face revealed when a solid is cut by a plane', 'cross-section'], ['A solid whose faces are all flat polygons', 'polyhedron'], ['A three-dimensional figure with two parallel, congruent bases joined by rectangles', 'prism'], ['A polyhedron with one polygon base and triangular faces meeting at an apex', 'pyramid']];
+    const all = [...new Set(q.map(x => x[1]))], [d, a] = pick(q);
+    return mc(`What is ${b(d)} called?`, a, sample(all, 3, [a]), `${a[0].toUpperCase() + a.slice(1)}.`, 4);
   }),
   R(/^Nets and drawings of three-dimensional figures$|^Cross-sections of three-dimensional figures$|^Solids of revolution$/, (mt, ctx) => () => {
     const t = ctx.title;
@@ -188,7 +209,18 @@ export const GEO9_RULES = [
   }),
   R(/^Surface area of prisms and pyramids$|^Surface area of pyramids and cones$|^Surface area of cones and cylinders$|^Surface area of spheres$|^Surface area and volume of spheres$|^Volume of spheres$/, (mt, ctx) => () => {
     const t = ctx.title, r = ri(2, 9);
-    if (/spheres|Volume of spheres/.test(t)) { const vol = /Volume/.test(t) || (/and volume/.test(t) && Math.random() < 0.5); return vol ? num(`A sphere has radius ${b(r * 3)}. What is its volume? (Give the number in front of π.)`, fix((4 / 3) * (r * 3) ** 3, 2), `V = (4/3)πr³ = ${b(pi(fix((4 / 3) * (r * 3) ** 3, 2)))}.`) : num(`A sphere has radius ${b(r)}. What is its surface area? (Give the number in front of π.)`, 4 * r * r, `SA = 4πr² = ${b(pi(4 * r * r))}.`); }
+    if (/spheres|Volume of spheres/.test(t)) {
+      const vol = /Volume/.test(t) || (/and volume/.test(t) && Math.random() < 0.5), rv = 3 * ri(1, 10), rs = ri(1, 20), form = pick(['rad', 'rad', 'diam', 'rev']);
+      if (vol) {
+        const V = k_ => fix((4 / 3) * k_ ** 3, 2);
+        if (form === 'diam') return num(`A sphere has diameter ${b(rv * 2)}. What is its volume? (Give the number in front of π.)`, V(rv), `r = ${rv}; V = (4/3)πr³ = ${b(pi(V(rv)))}.`);
+        if (form === 'rev') return num(`A sphere has volume ${b(pi(V(rv)))}. What is its radius?`, rv, `(4/3)r³ = ${V(rv)}, so r³ = ${rv ** 3} and r = ${b(rv)}.`);
+        return num(`A sphere has radius ${b(rv)}. What is its volume? (Give the number in front of π.)`, V(rv), `V = (4/3)πr³ = ${b(pi(V(rv)))}.`);
+      }
+      if (form === 'diam') return num(`A sphere has diameter ${b(rs * 2)}. What is its surface area? (Give the number in front of π.)`, 4 * rs * rs, `r = ${rs}; SA = 4πr² = ${b(pi(4 * rs * rs))}.`);
+      if (form === 'rev') return num(`A sphere has surface area ${b(pi(4 * rs * rs))}. What is its radius?`, rs, `4r² = ${4 * rs * rs}, so r² = ${rs * rs} and r = ${b(rs)}.`);
+      return num(`A sphere has radius ${b(rs)}. What is its surface area? (Give the number in front of π.)`, 4 * rs * rs, `SA = 4πr² = ${b(pi(4 * rs * rs))}.`);
+    }
     if (/cones and cylinders/.test(t)) { const h = ri(2, 10), cyl = Math.random() < 0.5; return cyl ? num(`A cylinder has radius ${b(r)} and height ${b(h)}. What is its total surface area? (Give the number in front of π.)`, 2 * r * r + 2 * r * h, `2πr² + 2πrh = ${b(pi(2 * r * r + 2 * r * h))}.`) : (() => { const sl = ri(r + 1, r + 8); return num(`A cone has radius ${b(r)} and slant height ${b(sl)}. What is its total surface area? (Give the number in front of π.)`, r * r + r * sl, `πr² + πrl = ${b(pi(r * r + r * sl))}.`); })(); }
     if (/pyramids and cones/.test(t)) { const s = ri(3, 10), sl = ri(s, s + 8); return num(`A square pyramid has base side ${b(s)} and slant height ${b(sl)}. What is its total surface area?`, s * s + 2 * s * sl, `Base ${s * s} + 4 triangles (½ × ${s} × ${sl}) = ${b(s * s + 2 * s * sl)}.`); }
     const l = ri(2, 9), w = ri(2, 8), h = ri(2, 7); return num(`A rectangular prism is ${l} by ${w} by ${h}. What is its surface area?`, 2 * (l * w + l * h + w * h), `2(lw + lh + wh) = ${b(2 * (l * w + l * h + w * h))}.`);
@@ -213,24 +245,47 @@ export const GEO9_RULES = [
     return mc(`Which is a counterexample to the statement "${s}"?`, a, w, `${a} satisfies the hypothesis but not the conclusion.`, 4);
   }),
   R(/^Truth values$|^Truth tables$/, (mt, ctx) => () => {
-    const p = Math.random() < 0.5, q = Math.random() < 0.5, op = pick(['and', 'or', 'implies']), res = op === 'and' ? p && q : op === 'or' ? p || q : !p || q;
-    return yesNo(`Statement p is ${b(p ? 'true' : 'false')} and statement q is ${b(q ? 'true' : 'false')}. Is ${b(op === 'implies' ? 'p → q (if p then q)' : `p ${op} q`)} true?`, res, `Using the ${op === 'and' ? 'AND' : op === 'or' ? 'OR' : 'conditional'} truth table: ${res ? 'true' : 'false'}.`, ['True', 'False']);
+    const a = ri(2, 30), c = ri(2, 30), PR = [11, 13, 17, 19, 23, 29, 31, 37], NP = [9, 15, 21, 25, 27, 33, 35, 39];
+    const S_ = [[`${a} is even`, a % 2 === 0], [`${a} is odd`, a % 2 === 1], [`${a} is greater than ${c}`, a > c], [`${a} + ${c} = ${a + c + pick([0, 0, 1, -1])}`, null], [`${pick(PR)} is prime`, true], [`${pick(NP)} is prime`, false], [`${a} is a multiple of 5`, a % 5 === 0], [`a triangle has ${pick([3, 3, 4])} sides`, null], [`${a} is less than ${c}`, a < c], [`a square has ${pick([4, 4, 5])} sides`, null], [`2 + 2 = ${pick([4, 4, 5])}`, null], [`the number ${a} is divisible by 3`, a % 3 === 0]];
+    const ev = s_ => { if (s_[1] !== null) return s_[1]; const t = s_[0], mm = t.match(/^(\d+) \+ (\d+) = (\d+)$/); if (mm) return +mm[1] + +mm[2] === +mm[3]; const mt2 = t.match(/^(?:a triangle has|a square has) (\d+) sides$/); if (mt2) return /triangle/.test(t) ? +mt2[1] === 3 : +mt2[1] === 4; const m2 = t.match(/^2 \+ 2 = (\d+)$/); return +m2[1] === 4; };
+    const [sp, sq] = sample(S_, 2), p = ev(sp), q = ev(sq);
+    if (Math.random() < 0.4) { const op = pick(['and', 'or', 'implies']), res = op === 'and' ? p && q : op === 'or' ? p || q : !p || q; return yesNo(`Statement p is ${b(p ? 'true' : 'false')} and statement q is ${b(q ? 'true' : 'false')}. Is ${b(op === 'implies' ? 'p → q (if p then q)' : `p ${op} q`)} true?`, res, `Using the ${op === 'and' ? 'AND' : op === 'or' ? 'OR' : 'conditional'} truth table: ${res ? 'true' : 'false'}.`, ['True', 'False']); }
+    const F = [['p and q', p && q], ['p or q', p || q], ['if p, then q', !p || q], ['p if and only if q', p === q], ['not p', !p], ['not q', !q], ['p and not q', p && !q], ['not p or q', !p || q], ['not (p and q)', !(p && q)]], [name, res] = pick(F);
+    return yesNo(`Let p be "${sp[0]}" and q be "${sq[0]}". Is the statement ${b(name)} true or false?`, res, `p is ${p ? 'true' : 'false'} and q is ${q ? 'true' : 'false'}, so "${name}" is ${res ? 'true' : 'false'}.`, ['True', 'False']);
   }),
   R(/^Conditionals$|^Negations$|^Converses, inverses and contrapositives$|^Biconditionals$/, (mt, ctx) => () => {
-    const t = ctx.title, [p, q] = pick([['it rains', 'the grass is wet'], ['a shape is a square', 'it has four sides'], ['n is even', 'n is divisible by 2']]);
-    if (/Negations/.test(t)) return mc(`What is the negation of "${p}"?`, `It is not true that ${p}`, [`${q}`, `If ${p}, then ${q}`, p], 'A negation reverses the truth value.', 4);
-    if (/Biconditionals/.test(t)) return mc(`Which is the biconditional for "${p}" and "${q}"?`, `${p[0].toUpperCase() + p.slice(1)} if and only if ${q}`, [`If ${p}, then ${q}`, `If ${q}, then ${p}`, `${p[0].toUpperCase() + p.slice(1)} or ${q}`], '"If and only if" means both directions.', 4);
-    if (/Converses/.test(t)) { const kind = pick(['converse', 'inverse', 'contrapositive']), ans = { converse: `If ${q}, then ${p}`, inverse: `If not (${p}), then not (${q})`, contrapositive: `If not (${q}), then not (${p})` }[kind]; return mc(`What is the ${b(kind)} of "If ${p}, then ${q}"?`, ans, ['converse', 'inverse', 'contrapositive'].filter(v_ => v_ !== kind).map(k => ({ converse: `If ${q}, then ${p}`, inverse: `If not (${p}), then not (${q})`, contrapositive: `If not (${q}), then not (${p})` }[k])).concat([`If ${p}, then ${q}`]), `The ${kind}: ${b(ans)}.`, 4); }
-    return mc(`Which is a conditional statement?`, `If ${p}, then ${q}`, [`${p} and ${q}`, `${p} or ${q}`, `Not (${p})`], 'A conditional has the form "if p, then q".', 4);
+    const B = [['it rains', 'the grass is wet', 'it does not rain', 'the grass is not wet'], ['a shape is a square', 'it has four sides', 'a shape is not a square', 'it does not have four sides'], ['n is even', 'n is divisible by 2', 'n is not even', 'n is not divisible by 2'],
+      ['a number ends in 0', 'it is divisible by 10', 'a number does not end in 0', 'it is not divisible by 10'], ['an animal is a dog', 'it is a mammal', 'an animal is not a dog', 'it is not a mammal'], ['a triangle is equilateral', 'it has three equal sides', 'a triangle is not equilateral', 'it does not have three equal sides'],
+      ['a polygon is a hexagon', 'it has six sides', 'a polygon is not a hexagon', 'it does not have six sides'], ['a number is divisible by 6', 'it is divisible by 3', 'a number is not divisible by 6', 'it is not divisible by 3'], ['a figure is a rectangle', 'it has four right angles', 'a figure is not a rectangle', 'it does not have four right angles'],
+      ['a student studies', 'the student passes the test', 'a student does not study', 'the student does not pass the test'], ['a number is prime', 'it has exactly two factors', 'a number is not prime', 'it does not have exactly two factors'], ['an angle is acute', 'it measures less than 90°', 'an angle is not acute', 'it does not measure less than 90°'],
+      ['the temperature is below 0 °C', 'water freezes', 'the temperature is not below 0 °C', 'water does not freeze'], ['a figure is a circle', 'it has no vertices', 'a figure is not a circle', 'it has a vertex'], ['a number is a multiple of 8', 'it is a multiple of 4', 'a number is not a multiple of 8', 'it is not a multiple of 4'],
+      ['a quadrilateral is a rhombus', 'it has four equal sides', 'a quadrilateral is not a rhombus', 'it does not have four equal sides'], ['two angles are vertical angles', 'they are congruent', 'two angles are not vertical angles', 'they are not congruent'], ['a ball is dropped', 'it falls', 'a ball is not dropped', 'it does not fall'], ['it is a Canadian province', 'it is part of Canada', 'it is not a Canadian province', 'it is not part of Canada']];
+    const t = ctx.title, [p, q, np, nq] = pick(B), cp = x => x[0].toUpperCase() + x.slice(1);
+    const cv = `If ${q}, then ${p}`, inv = `If ${np}, then ${nq}`, cn = `If ${nq}, then ${np}`, cd = `If ${p}, then ${q}`;
+    if (/Negations/.test(t)) return mc(`What is the negation of "${p}"?`, cp(np), [cp(q), cd, cp(p)], 'A negation reverses the truth value.', 4);
+    if (/Biconditionals/.test(t)) return mc(`Which is the biconditional for "${p}" and "${q}"?`, `${cp(p)} if and only if ${q}`, [cd, cv, `${cp(p)} or ${q}`], '"If and only if" means both directions.', 4);
+    if (/Converses/.test(t)) { const kind = pick(['converse', 'inverse', 'contrapositive']), M = { converse: cv, inverse: inv, contrapositive: cn }, ans = M[kind]; return mc(`What is the ${b(kind)} of "${cd}"?`, ans, ['converse', 'inverse', 'contrapositive'].filter(v_ => v_ !== kind).map(k => M[k]).concat([cd]), `The ${kind}: ${b(ans)}.`, 4); }
+    if (Math.random() < 0.5) return mc(`Which is a conditional statement?`, cd, [`${cp(p)} and ${q}`, `${cp(p)} or ${q}`, `Not (${p})`], 'A conditional has the form "if p, then q".', 4);
+    return mc(`In the conditional "${cd}", which part is the ${b('hypothesis')}?`.replace('hypothesis', pick(['hypothesis', 'hypothesis'])), p, [q, np, nq], `The hypothesis follows "if": ${b(p)}.`, 4);
   }),
 
   /* ===== imperial measurement ===== */
   R(/^Convert between metric and imperial units of length$|^Estimate imperial measurements of length$|^Mixed imperial units of length$|^Convert rates and measurements: imperial units of length$|^Unit prices with imperial length conversions$/, (mt, ctx) => () => {
     const t = ctx.title, [big_, small, f] = pick(IMPERIAL), n = ri(2, 9);
-    if (/metric and imperial/.test(t)) { const inch = ri(2, 12), cm = fix(inch * 2.54, 1); return num(`Convert ${b(inch + ' inches')} to centimetres. (1 in = 2.54 cm)`, cm, `${inch} × 2.54 = ${b(cm)} cm.`); }
+    if (/metric and imperial/.test(t)) {
+      const U = [['inches', 'centimetres', 2.54, 'in', 'cm'], ['feet', 'centimetres', 30.48, 'ft', 'cm'], ['yards', 'metres', 0.9144, 'yd', 'm'], ['miles', 'kilometres', 1.609, 'mi', 'km']], [iu, mu, k, ia, ma] = pick(U), n_ = iu === 'inches' ? ri(2, 60) : iu === 'miles' ? ri(2, 50) : ri(2, 30), form = pick(['toMetric', 'toMetric', 'toImp']);
+      if (form === 'toImp') { const v_ = fix(n_ * k, 2); return num(`Convert ${b(`${fmt(v_)} ${mu}`)} to ${iu}. (1 ${ia} = ${k} ${ma})`, n_, `${fmt(v_)} ÷ ${k} = ${b(n_)} ${iu}.`); }
+      const v_ = fix(n_ * k, 1); return num(`Convert ${b(`${n_} ${iu}`)} to ${mu}. (1 ${ia} = ${k} ${ma}; round to 1 decimal)`, v_, `${n_} × ${k} = ${fix(n_ * k, 3)} ≈ ${b(fmt(v_))} ${ma}.`);
+    }
     if (/Estimate/.test(t)) return bank([['About how long is a pencil?', '7 inches', ['7 feet', '7 yards', '7 miles'], 'A pencil is about 7 inches.'], ['About how tall is a door?', '7 feet', ['7 inches', '7 miles', '70 feet'], 'A door is about 7 feet.'], ['About how far is a long walk to a nearby town?', '3 miles', ['3 inches', '3 feet', '30 yards'], 'Miles measure long distances.']])();
     if (/Mixed/.test(t)) { const w = ri(2, 6), r = ri(1, 11); return num(`${w} ft ${r} in = ___ in`, w * 12 + r, `${w} × 12 + ${r} = ${b(w * 12 + r)}.`); }
-    if (/rates/.test(t)) { const v_ = ri(2, 9); return num(`A snail crawls ${b(v_ + ' feet')} per hour. How many inches per hour is that?`, v_ * 12, `${v_} × 12 = ${b(v_ * 12)}.`); }
+    if (/rates/.test(t)) {
+      const v_ = ri(2, 9), who = pick(['A snail', 'A caterpillar', 'A garden worm', 'A toy car', 'A sloth']), form = pick(['fth', 'ydmin', 'mih', 'inmin']);
+      if (form === 'ydmin') return num(`${pick(['A jogger', 'A cyclist', 'A skater'])} travels ${b(v_ * 10 + ' yards')} each minute. How many feet per minute is that?`, v_ * 30, `${v_ * 10} × 3 = ${b(v_ * 30)}.`);
+      if (form === 'mih') return num(`A trail runner covers ${b(v_ + ' miles')} each hour. How many feet per hour is that?`, v_ * 5280, `${v_} × 5280 = ${b(v_ * 5280)}.`);
+      if (form === 'inmin') return num(`${who} crawls ${b(v_ * 12 + ' inches')} each minute. How many feet per minute is that?`, v_, `${v_ * 12} ÷ 12 = ${b(v_)}.`);
+      return num(`${who} moves ${b(v_ + ' feet')} per hour. How many inches per hour is that?`, v_ * 12, `${v_} × 12 = ${b(v_ * 12)}.`);
+    }
     const price = ri(2, 9), ft = ri(2, 10); return num(`Ribbon costs $${price} per foot. How much does ${b(ft * 12 + ' inches')} cost? ($)`, price * ft, `${ft * 12} in = ${ft} ft; ${ft} × ${price} = ${b(price * ft)}.`);
   }),
 
@@ -240,8 +295,15 @@ export const GEO9_RULES = [
     return mc(`What is the vertex of ${m(f)}?`, pt(h, k), [pt(-h, k), pt(h, -k), pt(k, h)].filter(v_ => v_ !== pt(h, k)), `y = a|x − h| + k has vertex (h, k): ${b(pt(h, k))}.`, 4);
   }),
   R(/^Check whether two rational functions are inverses$/, () => () => {
-    const a = ri(2, 5), yes = Math.random() < 0.5, c = yes ? a : a + 1;
-    return yesNo(`Let ${m(`f(x) = ${stack(`${a}x + 1`, 'x')}`)} and ${m(`g(x) = ${stack(1, `x ${MINUS} ${c}`)}`)}. Are f and g inverses of each other?`, yes, yes ? 'Swapping x and y in f and solving gives g.' : 'Solving x = f(y) for y does not give g.', ['Yes', 'No']);
+    const a = ri(1, 9), c = ri(1, 9), yes = Math.random() < 0.5, fam = pick(['A', 'B']), bad = pick([1, 2, 3, 4]);
+    if (fam === 'A') {
+      const gd = yes ? `${stack(c, `x ${MINUS} ${a}`)}` : bad === 1 ? stack(c, `x + ${a}`) : bad === 2 ? stack(c, `x ${MINUS} ${a + 1}`) : bad === 3 ? stack(c + 1, `x ${MINUS} ${a}`) : stack(a, `x ${MINUS} ${c}`);
+      if (!yes && bad === 4 && a === c) return null;
+      return yesNo(`Let ${m(`f(x) = ${stack(`${a}x + ${c}`, 'x')}`)} and ${m(`g(x) = ${gd}`)}. Are f and g inverses of each other?`, yes, yes ? `Swapping x and y in f and solving gives g(x) = ${c}/(x ${MINUS} ${a}).` : `Solving x = f(y) for y gives ${c}/(x ${MINUS} ${a}), which is not g.`, ['Yes', 'No']);
+    }
+    const gd = yes ? stack(a, `x ${MINUS} ${c}`) : bad === 1 ? stack(a, `x + ${c}`) : bad === 2 ? `${stack(a, 'x')} ${MINUS} ${c}` : bad === 3 ? stack(c, `x ${MINUS} ${a}`) : stack(a + 1, `x ${MINUS} ${c}`);
+    if (!yes && bad === 3 && a === c) return null;
+    return yesNo(`Let ${m(`f(x) = ${stack(a, 'x')} + ${c}`)} and ${m(`g(x) = ${gd}`)}. Are f and g inverses of each other?`, yes, yes ? `Swap x and y: x = ${a}/y + ${c}, so y = ${a}/(x ${MINUS} ${c}) = g(x).` : `Solving x = f(y) for y gives ${a}/(x ${MINUS} ${c}), which is not g.`, ['Yes', 'No']);
   }),
   R(/^Find terms of a sequence$/, () => () => {
     const a = nz(-3, 7), d = nz(2, 5), n = ri(5, 9); return num(`${m(`a<sub>n</sub> = ${a} + ${d}(n − 1)`)}. Find ${m(`a<sub>${n}</sub>`)}.`, a + d * (n - 1), `${a} + ${d}(${n - 1}) = ${b(S(a + d * (n - 1)))}.`);

@@ -60,9 +60,12 @@ function ruler(lenCm, { objectEmoji = '✏️', max = 15 } = {}) {
 
 /* ---------- units ---------- */
 const OBJECTS = {
-  length: [['a crayon', 'cm', 'a crayon is about 9 cm long'], ['a soccer field', 'm', 'a soccer field is about 100 m long'], ['the CN Tower', 'm', 'the CN Tower is about 550 m tall'], ['a flight from Calgary to Toronto', 'km', 'that trip is about 2700 km'], ['a ladybug', 'mm', 'a ladybug is about 6 mm long'], ['a shoe', 'cm', 'a shoe is about 25 cm long'], ['a swimming pool', 'm', 'a pool is about 25 m long'], ['the thickness of a coin', 'mm', 'a coin is about 2 mm thick'], ['a pencil', 'cm', 'a pencil is about 15 cm long'], ['a classroom door', 'm', 'a door is about 2 m tall'], ['the distance between two cities', 'km', 'cities are far apart, so use km'], ['a grain of rice', 'mm', 'a grain of rice is a few mm'], ['a bicycle', 'm', 'a bicycle is about 2 m long'], ['your thumb', 'cm', 'a thumb is about 6 cm'], ['a hockey rink', 'm', 'a hockey rink is about 60 m long'], ['an ant', 'mm', 'an ant is a few mm'], ['a road trip', 'km', 'long trips are measured in km']],
-  mass: [['a feather', 'g', 'a feather weighs less than 1 g'], ['a bicycle', 'kg', 'a bicycle weighs about 12 kg'], ['a strawberry', 'g', 'a strawberry is about 20 g'], ['a watermelon', 'kg', 'a watermelon is about 5 kg'], ['a coin', 'g', 'a coin weighs a few grams'], ['a horse', 'kg', 'a horse weighs about 500 kg'], ['a bar of soap', 'g', 'a bar of soap is about 100 g'], ['a backpack full of books', 'kg', 'a full backpack is about 5 kg'], ['an apple', 'g', 'an apple is about 150 g'], ['a bag of potatoes', 'kg', 'a bag of potatoes is about 5 kg'], ['a paper clip', 'g', 'a paper clip weighs about 1 g'], ['a dog', 'kg', 'a dog weighs about 20 kg'], ['a pencil', 'g', 'a pencil weighs about 5 g'], ['a student', 'kg', 'a student weighs about 35 kg'], ['a slice of bread', 'g', 'a slice weighs about 30 g'], ['a car', 'kg', 'a car weighs about 1500 kg']],
-  volume: [['a raindrop', 'mL', 'a raindrop is much less than 1 mL'], ['a bucket of water', 'L', 'a bucket holds about 10 L'], ['a carton of milk', 'L', 'a milk carton holds 1 or 2 L'], ['a teaspoon of vanilla', 'mL', 'a teaspoon is about 5 mL'], ['a car\'s gas tank', 'L', 'a gas tank holds about 50 L'], ['a juice box', 'mL', 'a juice box holds about 200 mL'], ['a watering can', 'L', 'a watering can holds a few litres'], ['a bottle of nail polish', 'mL', 'a small bottle holds about 15 mL'], ['a bathtub of water', 'L', 'a bathtub holds about 200 L'], ['a spoonful of medicine', 'mL', 'a spoonful is about 5 mL'], ['a bottle of juice', 'L', 'a juice bottle holds about 1 L'], ['an eyedropper of water', 'mL', 'an eyedropper holds about 1 mL'], ['a fish tank', 'L', 'a fish tank holds about 40 L'], ['a cup of tea', 'mL', 'a cup holds about 250 mL'], ['a swimming pool', 'L', 'a pool holds thousands of litres']]
+  length: [['a paper clip', 'cm', 'a paper clip is about 3 cm long'], ['a textbook', 'cm', 'a textbook is about 25 cm tall'], ['the width of a door', 'm', 'a door is about 1 m wide'], ['a school bus', 'm', 'a school bus is about 12 m long'], ['a basketball court', 'm', 'a basketball court is about 28 m long'], ['a tree in a park', 'm', 'a tree is several metres tall'], ['a toothbrush', 'cm', 'a toothbrush is about 18 cm'], ['a hockey stick', 'm', 'a hockey stick is about 1.5 m'], ['a mobile phone', 'cm', 'a phone is about 15 cm'], ['a giraffe', 'm', 'a giraffe is about 5 m tall'], ['a spoon', 'cm', 'a spoon is about 15 cm'], ['a school hallway', 'm', 'a hallway is about 30 m long'], ['a sheet of paper', 'cm', 'a sheet of paper is about 28 cm long'], ['the drive from Halifax to Vancouver', 'km', 'that drive is thousands of kilometres'], ['a flea', 'mm', 'a flea is only a few mm'], ['the thickness of a dime', 'mm', 'a dime is about 1 mm thick'], ['the distance you walk to school', 'km', 'a walk to school is about 1 km'], ['an eraser', 'cm', 'an eraser is about 5 cm'], ['a living room', 'm', 'a living room is about 5 m long'], ['a baby’s foot', 'cm', 'a baby’s foot is about 10 cm'],
+    ['a crayon', 'cm', 'a crayon is about 9 cm long'], ['a soccer field', 'm', 'a soccer field is about 100 m long'], ['the CN Tower', 'm', 'the CN Tower is about 550 m tall'], ['a flight from Calgary to Toronto', 'km', 'that trip is about 2700 km'], ['a ladybug', 'mm', 'a ladybug is about 6 mm long'], ['a shoe', 'cm', 'a shoe is about 25 cm long'], ['a swimming pool', 'm', 'a pool is about 25 m long'], ['the thickness of a coin', 'mm', 'a coin is about 2 mm thick'], ['a pencil', 'cm', 'a pencil is about 15 cm long'], ['a classroom door', 'm', 'a door is about 2 m tall'], ['the distance between two cities', 'km', 'cities are far apart, so use km'], ['a grain of rice', 'mm', 'a grain of rice is a few mm'], ['a bicycle', 'm', 'a bicycle is about 2 m long'], ['your thumb', 'cm', 'a thumb is about 6 cm'], ['a hockey rink', 'm', 'a hockey rink is about 60 m long'], ['an ant', 'mm', 'an ant is a few mm'], ['a road trip', 'km', 'long trips are measured in km']],
+  mass: [['a slice of cheese', 'g', 'a slice of cheese is about 20 g'], ['a bag of flour', 'kg', 'a bag of flour is about 2 kg'], ['a cat', 'kg', 'a cat weighs about 4 kg'], ['a grape', 'g', 'a grape weighs a few grams'], ['a laptop', 'kg', 'a laptop weighs about 2 kg'], ['a baby', 'kg', 'a baby weighs about 4 kg'], ['a loonie', 'g', 'a loonie weighs about 7 g'], ['a bag of sugar', 'kg', 'a bag of sugar is 2 kg'], ['an egg', 'g', 'an egg weighs about 60 g'], ['a moose', 'kg', 'a moose weighs hundreds of kilograms'], ['a pair of mittens', 'g', 'a pair of mittens is about 150 g'], ['a hockey puck', 'g', 'a puck weighs about 170 g'], ['a bag of apples', 'kg', 'a bag of apples is about 2 kg'], ['a hardcover textbook', 'kg', 'a thick textbook is about 1 kg'], ['a raspberry', 'g', 'a raspberry weighs a few grams'], ['a bowling ball', 'kg', 'a bowling ball weighs about 6 kg'],
+    ['a feather', 'g', 'a feather weighs less than 1 g'], ['a bicycle', 'kg', 'a bicycle weighs about 12 kg'], ['a strawberry', 'g', 'a strawberry is about 20 g'], ['a watermelon', 'kg', 'a watermelon is about 5 kg'], ['a coin', 'g', 'a coin weighs a few grams'], ['a horse', 'kg', 'a horse weighs about 500 kg'], ['a bar of soap', 'g', 'a bar of soap is about 100 g'], ['a backpack full of books', 'kg', 'a full backpack is about 5 kg'], ['an apple', 'g', 'an apple is about 150 g'], ['a bag of potatoes', 'kg', 'a bag of potatoes is about 5 kg'], ['a paper clip', 'g', 'a paper clip weighs about 1 g'], ['a dog', 'kg', 'a dog weighs about 20 kg'], ['a pencil', 'g', 'a pencil weighs about 5 g'], ['a student', 'kg', 'a student weighs about 35 kg'], ['a slice of bread', 'g', 'a slice weighs about 30 g'], ['a car', 'kg', 'a car weighs about 1500 kg']],
+  volume: [['a bowl of soup', 'mL', 'a bowl of soup is about 300 mL'], ['a large bottle of pop', 'L', 'a large bottle holds 2 L'], ['a pot of water on the stove', 'L', 'a pot holds a few litres'], ['a drop of food colouring', 'mL', 'a drop is much less than 1 mL'], ['a kitchen sink full of water', 'L', 'a sink holds about 20 L'], ['a can of pop', 'mL', 'a can holds 355 mL'], ['a glass of water', 'mL', 'a glass holds about 250 mL'], ['a rain barrel', 'L', 'a rain barrel holds about 200 L'], ['a baby bottle', 'mL', 'a baby bottle holds about 250 mL'], ['a hot tub', 'L', 'a hot tub holds hundreds of litres'], ['a tablespoon of syrup', 'mL', 'a tablespoon is about 15 mL'], ['a jug of water', 'L', 'a jug holds about 4 L'], ['a bottle of ketchup', 'mL', 'a ketchup bottle holds about 500 mL'], ['a large pot of chili for a crowd', 'L', 'a big pot holds about 10 L'],
+    ['a raindrop', 'mL', 'a raindrop is much less than 1 mL'], ['a bucket of water', 'L', 'a bucket holds about 10 L'], ['a carton of milk', 'L', 'a milk carton holds 1 or 2 L'], ['a teaspoon of vanilla', 'mL', 'a teaspoon is about 5 mL'], ['a car\'s gas tank', 'L', 'a gas tank holds about 50 L'], ['a juice box', 'mL', 'a juice box holds about 200 mL'], ['a watering can', 'L', 'a watering can holds a few litres'], ['a bottle of nail polish', 'mL', 'a small bottle holds about 15 mL'], ['a bathtub of water', 'L', 'a bathtub holds about 200 L'], ['a spoonful of medicine', 'mL', 'a spoonful is about 5 mL'], ['a bottle of juice', 'L', 'a juice bottle holds about 1 L'], ['an eyedropper of water', 'mL', 'an eyedropper holds about 1 mL'], ['a fish tank', 'L', 'a fish tank holds about 40 L'], ['a cup of tea', 'mL', 'a cup holds about 250 mL'], ['a swimming pool', 'L', 'a pool holds thousands of litres']]
 };
 const UNITS = {
   length: [['km', 1000000], ['m', 1000], ['cm', 10], ['mm', 1]],      // factor to mm
@@ -162,16 +165,24 @@ export const MEASURE_RULES = [
     return mc(`${ask}`, ans, [other], `${ans[0].toUpperCase() + ans.slice(1)} ${kind === 'heavy' ? (more ? 'is heavier' : 'is lighter') : kind === 'holds' ? (more ? 'holds more' : 'holds less') : (more ? 'is longer' : 'is shorter')} than ${other}.`, 2);
   }),
   R(/^Should you measure size, weight or capacity\?$/, () => () => {
-    const q = pick([['how much water a bottle holds', 'capacity'], ['how long a worm is', 'size'], ['how heavy a watermelon is', 'weight'], ['how tall a tree is', 'size'], ['how much juice fits in a jug', 'capacity'], ['how heavy a backpack is', 'weight']]);
-    return mc(`You want to find ${b(q[0])}. What should you measure?`, q[1], ['size', 'weight', 'capacity'].filter(x => x !== q[1]), `To find ${q[0]}, measure ${b(q[1])}.`, 3);
+    const Q = [['how much water a bottle holds', 'capacity'], ['how long a worm is', 'size'], ['how heavy a watermelon is', 'weight'], ['how tall a tree is', 'size'], ['how much juice fits in a jug', 'capacity'], ['how heavy a backpack is', 'weight'],
+      ['how much soup a pot holds', 'capacity'], ['how wide a table is', 'size'], ['how heavy a pumpkin is', 'weight'], ['how much water a bathtub holds', 'capacity'], ['how tall a giraffe is', 'size'], ['how heavy a puppy is', 'weight'], ['how much milk a glass holds', 'capacity'],
+      ['how long a hallway is', 'size'], ['how heavy a bag of apples is', 'weight'], ['how much water a fish tank holds', 'capacity'], ['how long a skipping rope is', 'size'], ['how heavy a bowling ball is', 'weight'], ['how much lemonade fits in a pitcher', 'capacity'],
+      ['how wide a window is', 'size'], ['how heavy a bag of potatoes is', 'weight'], ['how much paint a can holds', 'capacity'], ['how tall a flagpole is', 'size'], ['how heavy a hockey bag is', 'weight']];
+    const q = pick(Q), who = pick(NAMES);
+    return mc(pick([`You want to find ${b(q[0])}. What should you measure?`, `${who} wants to find out ${b(q[0])}. What should ${who} measure?`]), q[1], ['size', 'weight', 'capacity'].filter(x => x !== q[1]), `To find ${q[0]}, measure ${b(q[1])}.`, 3);
   }),
   R(/^Measure length with objects$/, () => () => {
     const n = ri(2, 12), [, , e] = pick([['paper clip', '', '📎'], ['cube', '', '🟦'], ['button', '', '🔘']]), name = e === '📎' ? 'paper clips' : e === '🟦' ? 'cubes' : 'buttons';
     return num(`${emojiRow(e, n, 12)}The line of ${name} is as long as the object. How many ${name} long is it?`, n, `Count the ${name}: ${b(n)}.`);
   }),
-  R(/^Build cube trains to measure (?:length|height)$/, () => () => {
-    const n = ri(3, 12);
-    return num(`A pencil is as long as ${b(n)} cubes in a row. How many cubes do you need to build a cube train as long as the pencil?`, n, `You need ${b(n)} cubes.`);
+  R(/^Build cube trains to measure (?:length|height)$/, (mt, ctx) => () => {
+    const hgt = /height/.test(ctx.title), n = ri(3, 12), who = pick(NAMES);
+    const LEN = ['pencil', 'crayon', 'toy car', 'book', 'shoe', 'paintbrush', 'spoon', 'toothbrush', 'banana', 'glue stick'], HGT = ['plant', 'cup', 'teddy bear', 'water bottle', 'candle', 'toy robot', 'bookshelf model', 'flower pot', 'toy giraffe', 'juice box'];
+    const obj = pick(hgt ? HGT : LEN), f = ri(0, 2);
+    if (f === 1) return num(`${who}'s ${obj} is ${b(n)} cubes ${hgt ? 'tall' : 'long'}. How many cubes does ${who} need to build a cube train the same ${hgt ? 'height' : 'length'}?`, n, `Build a train of ${b(n)} cubes.`);
+    if (f === 2) return num(`${emojiRow('🟦', n, 12)}${who} lined up cubes next to a ${obj}. The cubes are as ${hgt ? 'tall' : 'long'} as the ${obj}. How many cubes long is the cube train?`, n, `Count the cubes: ${b(n)}.`);
+    return num(`A ${obj} is as ${hgt ? 'tall' : 'long'} as ${b(n)} cubes in a row. How many cubes do you need to build a cube train as ${hgt ? 'tall' : 'long'} as the ${obj}?`, n, `You need ${b(n)} cubes.`);
   }),
   R(/^Measure using a centimetre ruler$/, () => () => {
     const n = ri(2, 14);
@@ -195,12 +206,19 @@ export const MEASURE_RULES = [
     return mc(`Which temperature is most reasonable for ${b(q[0])}?`, `${fmt(q[1])}°C`, q[2].map(x => `${fmt(x)}°C`), `${fmt(q[1])}°C fits ${q[0]}.`, 3);
   }),
   R(/^Estimate lengths with centimetres and metres$/, () => () => {
-    const q = pick([['a pencil', '15 cm', ['15 m', '150 cm', '1 cm']], ['a classroom', '8 m', ['8 cm', '80 m', '800 m']], ['a book', '25 cm', ['25 m', '2 cm', '250 cm']], ['a bus', '12 m', ['12 cm', '120 m', '1 m']], ['your hand', '15 cm', ['15 m', '150 cm', '1 cm']]]);
-    return mc(`Which is the best estimate for the length of ${b(q[0])}?`, q[1], q[2], `${q[0]} is about ${b(q[1])}.`);
+    const CM = [['a pencil', 15], ['a book', 25], ['your hand', 15], ['a crayon', 9], ['a shoe', 25], ['a cell phone', 14], ['a toothbrush', 18], ['a spoon', 15], ['a sheet of paper (the long side)', 28], ['an eraser', 5], ['a stapler', 15], ['a coffee mug', 10], ['a banana', 18], ['a paperback novel', 20]],
+      M = [['a classroom', 8], ['a bus', 12], ['a door', 2], ['a bicycle', 2], ['a soccer field', 100], ['a hockey rink', 60], ['a swimming pool', 25], ['a tree in a park', 10], ['a giraffe', 5], ['a car', 4], ['a school hallway', 20], ['a basketball hoop', 3], ['a canoe', 5], ['a two-storey house', 8]];
+    const cm = Math.random() < 0.5, [name, v] = pick(cm ? CM : M), u = cm ? 'cm' : 'm', o = cm ? 'm' : 'cm', ans = `${v} ${u}`;
+    return mc(`Which is the best estimate for the length of ${b(name)}?`, ans, [`${v} ${o}`, `${v * 10} ${u}`, `${v * 100} ${u}`], `${name} is about ${b(ans)}.`);
   }),
   R(/^Choose the appropriate measuring tool$/, () => () => {
-    const q = pick([['how long a desk is', 'a ruler'], ['how much a bag of flour weighs', 'a scale'], ['the temperature outside', 'a thermometer'], ['how much water is in a jug', 'a measuring cup'], ['how long a hallway is', 'a metre stick']]);
-    return mc(`Which tool would you use to find ${b(q[0])}?`, q[1], ['a ruler', 'a scale', 'a thermometer', 'a measuring cup', 'a metre stick'].filter(x => x !== q[1]), `Use ${b(q[1])}.`);
+    const Q = [['how long a pencil is', 'a ruler'], ['how wide a book is', 'a ruler'], ['how long a crayon is', 'a ruler'], ['how long an eraser is', 'a ruler'], ['how long a leaf is', 'a ruler'], ['how long a pencil case is', 'a ruler'],
+      ['how long a hallway is', 'a metre stick'], ['how wide a classroom is', 'a metre stick'], ['how tall a door is', 'a metre stick'], ['how long a playground bench is', 'a metre stick'], ['how high a basketball hoop is', 'a metre stick'],
+      ['how much a bag of flour weighs', 'a scale'], ['how heavy a pumpkin is', 'a scale'], ['how much a cat weighs', 'a scale'], ['how heavy a potato is', 'a scale'], ['how heavy a backpack is', 'a scale'],
+      ['the temperature outside', 'a thermometer'], ['the temperature of a bowl of soup', 'a thermometer'], ['the temperature in the classroom', 'a thermometer'], ['whether you have a fever', 'a thermometer'], ['the temperature of the bath water', 'a thermometer'],
+      ['how much water is in a jug', 'a measuring cup'], ['how much milk goes into pancake batter', 'a measuring cup'], ['how much juice is in a pitcher', 'a measuring cup'], ['how much oil goes in a recipe', 'a measuring cup'], ['how many seconds it takes to run across the gym', 'a stopwatch'], ['how long it takes to swim one length of the pool', 'a stopwatch']];
+    const q = pick(Q);
+    return mc(pick([`Which tool would you use to find ${b(q[0])}?`, `What is the best tool for measuring ${b(q[0])}?`]), q[1], sample(['a ruler', 'a scale', 'a thermometer', 'a measuring cup', 'a metre stick', 'a stopwatch'], 3, [q[1]]), `Use ${b(q[1])}.`);
   }),
   R(/^(?:Compare|Convert) metric units of (length|mass|volume|capacity)$|^Convert metric units of (length|mass|volume|capacity)$|^Compare units of volume$/, (mt, ctx) => {
     const kind = kindFromTitle(ctx.title), convert = /Convert/.test(ctx.title);
@@ -220,6 +238,10 @@ export const MEASURE_RULES = [
     };
   }),
   R(/^Measure liquid volumes - metric units$/, () => () => {
+    const f = ri(0, 3), who = pick(NAMES);
+    if (f === 1) { const n = ri(1, 19) * 50; return num(`A measuring jug is filled to the ${b(n + ' mL')} line. How many mL of liquid are in the jug?`, n, `The level is at ${b(n)} mL.`); }
+    if (f === 2) { const n = ri(2, 20), cont = pick(['bucket', 'pail', 'watering can', 'fish tank', 'water cooler jug']); return num(`${who}'s ${cont} is filled to the ${b(n + ' L')} mark. How many litres of water are in the ${cont}?`, n, `The water is at the ${b(n)} L mark.`); }
+    if (f === 3) { const n = ri(1, 19) * 10, cont = pick(['cup', 'beaker', 'syringe', 'measuring spoon set', 'bottle']); return num(`${who} pours liquid into a ${cont} up to the ${b(n + ' mL')} mark. How many mL of liquid are in the ${cont}?`, n, `The level is at ${b(n)} mL.`); }
     const n = ri(1, 9) * 100;
     return num(`A beaker is filled to the ${b(n + ' mL')} line. How many mL of liquid are in the beaker?`, n, `The level is at ${b(n)} mL.`);
   }),
@@ -254,7 +276,12 @@ export const MEASURE_RULES = [
     return mc(`${cap(ev[0])} at ${b(`${ev[1]}:${pad(mi)}`)}. Is it a.m. or p.m.?`, ev[2], [ev[2] === 'a.m.' ? 'p.m.' : 'a.m.'], `${cap(ev[0])} is usually in the ${ev[2] === 'a.m.' ? 'morning' : 'afternoon or evening'}: ${b(ev[2])}.`, 2);
   }),
   R(/^Times of everyday events$/, () => () => {
-    const ev = pick([['eat breakfast', '7:30 a.m.', ['7:30 p.m.', '3:00 a.m.']], ['go to bed', '9:00 p.m.', ['9:00 a.m.', '2:00 p.m.']], ['eat lunch', '12:00 p.m.', ['12:00 a.m.', '5:00 p.m.']], ['start school', '8:45 a.m.', ['8:45 p.m.', '1:00 a.m.']], ['eat dinner', '6:00 p.m.', ['6:00 a.m.', '3:00 a.m.']]]);
+    const E = [['eat breakfast', '7:30 a.m.', ['7:30 p.m.', '3:00 a.m.']], ['go to bed', '9:00 p.m.', ['9:00 a.m.', '2:00 p.m.']], ['eat lunch', '12:00 p.m.', ['12:00 a.m.', '5:00 p.m.']], ['start school', '8:45 a.m.', ['8:45 p.m.', '1:00 a.m.']], ['eat dinner', '6:00 p.m.', ['6:00 a.m.', '3:00 a.m.']],
+      ['wake up for school', '7:00 a.m.', ['7:00 p.m.', '2:00 a.m.']], ['get home from school', '3:30 p.m.', ['3:30 a.m.', '10:00 p.m.']], ['brush your teeth before bed', '8:30 p.m.', ['8:30 a.m.', '12:30 p.m.']], ['have a recess snack', '10:15 a.m.', ['10:15 p.m.', '4:00 a.m.']], ['watch the sunrise', '6:00 a.m.', ['6:00 p.m.', '12:00 p.m.']],
+      ['watch a movie in the evening', '7:00 p.m.', ['7:00 a.m.', '1:00 a.m.']], ['leave school at the end of the day', '3:15 p.m.', ['3:15 a.m.', '8:00 a.m.']], ['have a hockey practice after school', '4:30 p.m.', ['4:30 a.m.', '9:30 a.m.']], ['eat a snack after school', '3:45 p.m.', ['3:45 a.m.', '11:00 p.m.']],
+      ['read a bedtime story', '8:00 p.m.', ['8:00 a.m.', '2:30 p.m.']], ['eat a morning breakfast of oatmeal', '7:15 a.m.', ['7:15 p.m.', '11:45 p.m.']], ['be fast asleep', '1:00 a.m.', ['1:00 p.m.', '5:00 p.m.']], ['get ready to go outside for morning recess', '10:30 a.m.', ['10:30 p.m.', '5:30 a.m.']],
+      ['go to a Saturday swimming lesson in the morning', '9:30 a.m.', ['9:30 p.m.', '3:30 a.m.']], ['eat a late dinner on a weekend', '7:30 p.m.', ['7:30 a.m.', '2:30 p.m.']]];
+    const ev = pick(E);
     return mc(`At what time would you most likely ${b(ev[0])}?`, ev[1], ev[2], `${ev[1]} is the most reasonable time.`, 3);
   }),
   R(/^Compare clocks$/, () => () => {
@@ -288,9 +315,11 @@ export const MEASURE_RULES = [
       ? num(`Convert. ${m(`${n} ${u}s = ___ ${sm}`)}`, n * f, `1 ${u} = ${f} ${sm}, so ${n} ${u}s = ${b(n * f)} ${sm}.`)
       : num(`Convert. ${m(`${n * f} ${sm} = ___ ${u}s`)}`, n, `${f} ${sm} = 1 ${u}, so ${n * f} ${sm} = ${b(n)} ${u}s.`);
   }),
-  R(/^Convert between hours and fractions of hours$|^Fractions of time units$/, () => () => {
-    const f = pick([[1, 2, 30], [1, 4, 15], [3, 4, 45], [1, 3, 20], [2, 3, 40], [1, 6, 10]]);
-    return num(`How many minutes are in ${b(`${f[0]}/${f[1]}`)} of an hour?`, f[2], `${f[0]}/${f[1]} × 60 = ${b(f[2])} minutes.`);
+  R(/^Convert between hours and fractions of hours$|^Fractions of time units$/, (mt, ctx) => () => {
+    const U = [['hour', 'minutes', 60, [[1, 2], [1, 4], [3, 4], [1, 3], [2, 3], [1, 6], [1, 5], [1, 10], [3, 5], [2, 5], [5, 6], [1, 12], [5, 12], [3, 10]]], ['minute', 'seconds', 60, [[1, 2], [1, 4], [3, 4], [1, 3], [2, 3], [1, 6], [1, 5], [1, 10]]], ['day', 'hours', 24, [[1, 2], [1, 4], [3, 4], [1, 3], [2, 3], [1, 6], [1, 8]]], ['year', 'months', 12, [[1, 2], [1, 4], [3, 4], [1, 3], [2, 3], [1, 6]]]];
+    const [one, small, tot, fr] = pick(/hours/.test(ctx.title) ? U.slice(0, 1) : U), [p, q] = pick(fr), ans = tot * p / q;
+    if (Math.random() < 0.35) { const g = (x, y) => (y ? g(y, x % y) : x), d = g(ans, tot), fa = `${ans / d}/${tot / d}`, fs = `${p}/${q}`; return mc(`What fraction of a ${b(one)} is ${b(ans + ' ' + small)}?`, fs, uniq([`${q}/${p}`, `${p}/${q + 1}`, `${p + 1}/${q}`, `${ans}/${tot + 10}`]).filter(x => x !== fs), `${ans} ${small} out of ${tot} is ${ans}/${tot} = ${b(fs)}.`); }
+    return num(`How many ${small} are in ${b(`${p}/${q}`)} of a ${one}?`, ans, `${p}/${q} × ${tot} = ${b(ans)} ${small}.`);
   }),
   R(/^Add and subtract mixed time units$/, () => () => {
     const h1 = ri(1, 5), m1 = ri(10, 50), h2 = ri(1, 4), m2 = ri(10, 50), add = Math.random() < 0.6;
@@ -335,8 +364,13 @@ export const MEASURE_RULES = [
     return mc(`Which month comes ${after ? 'after' : 'before'} ${b(MONTHS[i])}?`, ans, sample(MONTHS, 4, [ans, MONTHS[i]]), `${after ? 'After' : 'Before'} ${MONTHS[i]} is ${b(ans)}.`);
   }),
   R(/^Seasons(?: of the year)?$/, () => () => {
-    const i = ri(0, 11);
-    return mc(`In Canada, which season is ${b(MONTHS[i])} in?`, SEASON_OF(i), ['spring', 'summer', 'autumn', 'winter'].filter(x => x !== SEASON_OF(i)), `${MONTHS[i]} is in ${b(SEASON_OF(i))}.`);
+    const i = ri(0, 11), S4 = ['spring', 'summer', 'autumn', 'winter'], f = ri(0, 4), cap_ = s => s[0].toUpperCase() + s.slice(1);
+    const ACT = [['swimming at the lake', 'summer'], ['skating on an outdoor rink', 'winter'], ['raking leaves', 'autumn'], ['planting a garden', 'spring'], ['building a snowman', 'winter'], ['picking apples', 'autumn'], ['going to the beach', 'summer'], ['seeing the first robins and tulips', 'spring'], ['wearing a toque and mittens', 'winter'], ['playing in the sprinkler', 'summer']];
+    if (f === 1) { const s = pick(S4), ans = pick(MONTHS.filter((_, k) => SEASON_OF(k) === s)); return mc(`In Canada, which of these months is in ${b(s)}?`, ans, sample(MONTHS.filter((_, k) => SEASON_OF(k) !== s), 3), `${ans} is in ${b(s)}.`); }
+    if (f === 2) { const k = ri(0, 3), nxt = S4[(k + 1) % 4], pre = S4[(k + 3) % 4], after = Math.random() < 0.5; return mc(`Which season comes ${b(after ? 'after' : 'before')} ${b(S4[k])}?`, after ? nxt : pre, S4.filter(x => x !== (after ? nxt : pre)), `The seasons go spring, summer, autumn, winter, then spring again: ${b(after ? nxt : pre)} comes ${after ? 'after' : 'before'} ${S4[k]}.`); }
+    if (f === 3) { const [a, s] = pick(ACT); return mc(`Which season would you most likely do this in Canada: ${b(a)}?`, s, S4.filter(x => x !== s), `${cap_(a)} is most common in ${b(s)}.`); }
+    if (f === 4) { const k = ri(0, 11); return mc(`In Canada, ${b(MONTHS[k])} is in which season?`, SEASON_OF(k), S4.filter(x => x !== SEASON_OF(k)), `${MONTHS[k]} is in ${b(SEASON_OF(k))}.`); }
+    return mc(`In Canada, which season is ${b(MONTHS[i])} in?`, SEASON_OF(i), S4.filter(x => x !== SEASON_OF(i)), `${MONTHS[i]} is in ${b(SEASON_OF(i))}.`);
   }),
   R(/^Read a calendar$/, () => () => {
     const mon = ri(0, 11), start = ri(0, 6), days = MDAYS[mon];
@@ -345,7 +379,10 @@ export const MEASURE_RULES = [
     return num(`${calendarHtml(mon, start)}How many ${b(DAYS[dowI] + 's')} are in ${MONTHS[mon]}?`, cnt, `Count the ${DAYS[dowI]}s on the calendar: ${b(cnt)}.`);
   }),
   R(/^Number of days in each month$/, () => () => {
-    const i = ri(0, 11), d = MDAYS[i];
+    const i = ri(0, 11), d = MDAYS[i], f = ri(0, 3), who = pick(NAMES);
+    if (f === 1) { const dd = pick([28, 30, 31]), ok = MONTHS.filter((_, k) => MDAYS[k] === dd), ans = pick(ok); return mc(`Which of these months has ${b(dd + ' days')}? (Not a leap year.)`, ans, sample(MONTHS.filter((_, k) => MDAYS[k] !== dd), 3), `${ans} has ${b(dd)} days.`, 4); }
+    if (f === 2) { const k = ri(0, 11); return mc(`${who}'s birthday is on the last day of ${b(MONTHS[k])}. What date is that? (Not a leap year.)`, `${MONTHS[k]} ${MDAYS[k]}`, uniq([`${MONTHS[k]} 30`, `${MONTHS[k]} 31`, `${MONTHS[k]} 28`, `${MONTHS[k]} 29`]).filter(x => x !== `${MONTHS[k]} ${MDAYS[k]}`), `${MONTHS[k]} has ${b(MDAYS[k])} days, so the last day is ${MONTHS[k]} ${MDAYS[k]}.`, 4); }
+    if (f === 3) { const k = ri(0, 10); return num(`How many days are in ${b(MONTHS[k])} and ${b(MONTHS[k + 1])} together? (Not a leap year.)`, MDAYS[k] + MDAYS[k + 1], `${MDAYS[k]} + ${MDAYS[k + 1]} = ${b(MDAYS[k] + MDAYS[k + 1])}.`); }
     return mc(`How many days are in ${b(MONTHS[i])}? (Not a leap year.)`, String(d), ['28', '30', '31'].filter(x => x !== String(d)), `${MONTHS[i]} has ${b(d)} days.`, 3);
   }),
 

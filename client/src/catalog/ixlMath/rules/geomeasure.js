@@ -70,7 +70,8 @@ export const GEOMEASURE_RULES = [
     return mc(`${linePair(kind)}These two lines are…`, ans, opts.filter(x => x !== ans), kind === 'parallel' ? 'Parallel lines never meet.' : kind === 'perpendicular' ? 'Perpendicular lines meet at a right angle (90°).' : 'Intersecting lines cross each other (not at a right angle).', 3);
   }),
   R(/^Angles greater than, less than or equal to a right angle$|^Acute, right, obtuse and straight angles$|^Types of angles$/, (mt, ctx) => () => {
-    const deg = pick(/straight/.test(ctx.title) ? [30, 45, 60, 90, 120, 135, 150, 180] : [30, 45, 60, 90, 90, 110, 120, 135, 150]);
+    const rnd = () => { let d = ri(2, 34) * 5; while (d >= 80 && d <= 100) d = ri(2, 34) * 5; return d; };
+    const deg = Math.random() < 0.2 ? 90 : /straight/.test(ctx.title) && Math.random() < 0.15 ? 180 : rnd();
     const type = deg < 90 ? 'acute' : deg === 90 ? 'right' : deg < 180 ? 'obtuse' : 'straight';
     if (/greater than, less than/.test(ctx.title)) return mc(`${angleSvg(deg)}Compare this angle to a right angle (90°).`, deg < 90 ? 'Less than a right angle' : deg === 90 ? 'Equal to a right angle' : 'Greater than a right angle', ['Less than a right angle', 'Equal to a right angle', 'Greater than a right angle'].filter(x => x !== (deg < 90 ? 'Less than a right angle' : deg === 90 ? 'Equal to a right angle' : 'Greater than a right angle')), `A right angle is 90°. This angle is ${deg < 90 ? 'smaller' : deg === 90 ? 'the same' : 'bigger'}.`, 3);
     const opts = ctx.grade >= 4 ? ['acute', 'right', 'obtuse', 'straight'] : ['acute', 'right', 'obtuse'];
@@ -79,7 +80,13 @@ export const GEOMEASURE_RULES = [
   }),
   R(/^Angles as fractions of a circle$/, () => () => {
     const q = pick([[90, '1/4'], [180, '1/2'], [270, '3/4'], [360, '1'], [60, '1/6'], [120, '1/3']]);
-    return mc(`What fraction of a full circle is a ${b(q[0] + '°')} angle?`, q[1], ['1/4', '1/2', '3/4', '1/3', '1/6', '1'].filter(x => x !== q[1]).slice(0, 3), `${q[0]}° out of 360° is ${b(q[1])}.`, 4);
+    const all = ['1/4', '1/2', '3/4', '1/3', '1/6', '1'].filter(x => x !== q[1]);
+    const degs = [90, 180, 270, 360, 60, 120];
+    const ctxs = [`Mia turns a dial through ${b(q[0] + '°')}`, `A skateboarder spins ${b(q[0] + '°')}`, `A clock hand sweeps through ${b(q[0] + '°')}`, `A bike wheel turns ${b(q[0] + '°')}`];
+    const form = ri(0, 2);
+    if (form === 0) return mc(`What fraction of a full circle is a ${b(q[0] + '°')} angle?`, q[1], shuffle(all).slice(0, 3), `${q[0]}° out of 360° is ${b(q[1])}.`, 4);
+    if (form === 1) return mc(`${pick(ctxs)}. What fraction of a full turn is that?`, q[1], shuffle(all).slice(0, 3), `${q[0]}° out of 360° is ${b(q[1])}.`, 4);
+    return mc(`An angle is ${b(q[1] === '1' ? 'one whole' : q[1])} of a full circle (360°). How many degrees is the angle?`, q[0] + '°', shuffle(degs.filter(v => v !== q[0])).slice(0, 3).map(v => v + '°'), `${q[1]} of 360° is ${b(q[0] + '°')}.`, 4);
   }),
   R(/^Angles of 90, 180, 270 and 360 degrees$/, () => () => {
     const q = pick([['a quarter turn', 90], ['a half turn', 180], ['a three-quarter turn', 270], ['a full turn', 360]]);
@@ -239,7 +246,16 @@ export const GEOMEASURE_RULES = [
     return mc(`${plane({ min: 0, max: 10, points: [{ x, y, label: 'Start', color: C.blue }] })}Start at ${b(pt(x, y))}. Move ${b(r)} ${dirR ? 'right' : 'left'} and ${b(u)} ${dirU ? 'up' : 'down'}. Where do you end up?`, pt(nx, ny), [pt(nx, y), pt(x, ny), pt(ny, nx)].filter(v => v !== pt(nx, ny)), `Right/left changes x; up/down changes y: ${b(pt(nx, ny))}.`);
   }),
   R(/^Describe the coordinate plane$/, () => () => {
-    const q = pick([['Which axis is horizontal (goes left to right)?', 'x-axis', ['y-axis']], ['Which axis is vertical (goes up and down)?', 'y-axis', ['x-axis']], ['The point (0, 0) is called the…', 'origin', ['axis', 'quadrant']], ['In an ordered pair (3, 5), which number is the x-coordinate?', '3', ['5']], ['In an ordered pair (3, 5), which number tells you how far up to go?', '5', ['3']]]);
+    const a = ri(1, 9), d = pick(range(1, 9).filter(v => v !== a));
+    const q = pick([['Which axis is horizontal (goes left to right)?', 'x-axis', ['y-axis']], ['Which axis is vertical (goes up and down)?', 'y-axis', ['x-axis']], ['The point (0, 0) is called the…', 'origin', ['axis', 'quadrant']],
+      [`In the ordered pair (${a}, ${d}), which number is the x-coordinate?`, String(a), [String(d)]],
+      [`In the ordered pair (${a}, ${d}), which number is the y-coordinate?`, String(d), [String(a)]],
+      [`In the ordered pair (${a}, ${d}), which number tells you how far to go right from the origin?`, String(a), [String(d)]],
+      [`In the ordered pair (${a}, ${d}), which number tells you how far up to go?`, String(d), [String(a)]],
+      [`To plot (${a}, ${d}), you start at the origin and first move ${a} units along which axis?`, 'x-axis', ['y-axis']],
+      ['The x-axis and the y-axis cross at the…', 'origin', ['axis', 'quadrant']],
+      [`The point (${a}, 0) is on which axis?`, 'x-axis', ['y-axis', 'neither axis']],
+      [`The point (0, ${d}) is on which axis?`, 'y-axis', ['x-axis', 'neither axis']]]);
     return mc(q[0], q[1], q[2], `${b(q[1])}.`, 3);
   }),
   R(/^Quadrants$/, () => () => {
@@ -255,9 +271,11 @@ export const GEOMEASURE_RULES = [
     return num(`Rule: ${b(mul ? `y = ${k} × x` : `y = x + ${k}`)}<br>${table(['x', 'y'], xs.map((x, j) => [x, j === i ? '?' : ys[j]]))}What is the missing y-value?`, ys[i], `${mul ? `${k} × ${xs[i]}` : `${xs[i]} + ${k}`} = ${b(ys[i])}.`);
   }),
   R(/^Analyze graphed relationships$/, () => () => {
-    const mul = Math.random() < 0.5, k = mul ? ri(2, 3) : ri(1, 4), xs = [1, 2, 3, 4], pts = xs.map(x => ({ x, y: mul ? x * k : x + k, color: C.primary })), rule = mul ? `y = ${k} × x` : `y = x + ${k}`;
+    const mul = Math.random() < 0.5, k = mul ? ri(2, 3) : ri(1, 4), xs = sample([1, 2, 3, 4], ri(3, 4)).sort((p, q) => p - q), pts = xs.map(x => ({ x, y: mul ? x * k : x + k, color: C.primary })), rule = mul ? `y = ${k} × x` : `y = x + ${k}`;
     const alts = mul ? [`y = x + ${k}`, `y = x + ${k + 1}`, `y = ${k + 1} × x`] : [`y = ${k} × x`, `y = x + ${k + 1}`, `y = x − ${k}`];
-    return mc(`${plane({ min: 0, max: 14, points: pts, labelEvery: 2 })}Which rule describes the points on the graph?`, rule, alts, `Check a point: when x = ${xs[1]}, y = ${pts[1].y}. That fits ${b(rule)}.`);
+    const pl = plane({ min: 0, max: 14, points: pts, labelEvery: 2 });
+    if (ri(0, 2) === 1) return num(`${pl}The points on the graph follow the rule ${b(rule)}. What would y be when x = ${b(5)}?`, mul ? 5 * k : 5 + k, `${mul ? `${k} × 5` : `5 + ${k}`} = ${b(mul ? 5 * k : 5 + k)}.`);
+    return mc(`${pl}Which rule describes the points on the graph?`, rule, alts, `Check a point: when x = ${xs[0]}, y = ${pts[0].y}. That fits ${b(rule)}.`);
   }),
   R(/^Transformations on the coordinate plane$/, () => () => {
     const x = ri(1, 6), y = ri(1, 6), t = pick(['reflectY', 'reflectX', 'translate']);

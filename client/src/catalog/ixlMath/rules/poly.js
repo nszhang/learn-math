@@ -76,16 +76,28 @@ export const POLY_RULES = [
     return num(`Evaluate ${m(`${a}<sup>${e1}</sup> × ${a}<sup>${e2}</sup>`)}.`, val, `${a}^${e1 + e2} = ${b(fmt(val))}.`);
   }),
   R(/^Identify equivalent expressions involving exponents$/, () => () => {
-    const a = ri(2, 6), e1 = ri(2, 4), e2 = ri(2, 4);
-    return mc(`Which expression is equivalent to ${m(`x<sup>${e1}</sup> · x<sup>${e2}</sup>`)}?`, `x<sup>${e1 + e2}</sup>`, [`x<sup>${e1 * e2}</sup>`, `(x<sup>${e1}</sup>)<sup>${e2}</sup>`, `2x<sup>${e1 + e2}</sup>`].filter(x => x !== `x<sup>${e1 * e2}</sup>` || e1 + e2 !== e1 * e2), `Add the exponents.`, 4);
+    const v = pick(['x', 'y', 'a', 'n', 't']), e1 = ri(2, 7), e2 = ri(2, 7), c1 = ri(2, 5), c2 = ri(2, 5), f = ri(0, 6), s = (e, base = v) => `${base}<sup>${e}</sup>`;
+    if (f === 0) return mc(`Which expression is equivalent to ${m(`${s(e1)} · ${s(e2)}`)}?`, s(e1 + e2), uniq([s(e1 * e2), `(${v}<sup>${e1}</sup>)<sup>${e2}</sup>`, `2${s(e1 + e2)}`, s(Math.abs(e1 - e2) || 1)]).filter(x => x !== s(e1 + e2)), `Add the exponents: ${b(s(e1 + e2))}.`, 4);
+    if (f === 1) { const hi = Math.max(e1, e2) + 1, lo = Math.min(e1, e2); return mc(`Which expression is equivalent to ${m(`${s(hi)} ÷ ${s(lo)}`)}?`, s(hi - lo), uniq([s(hi + lo), s(hi * lo), s(Math.round(hi / lo) || 1), s(hi - lo + 1)]).filter(x => x !== s(hi - lo)), `Subtract the exponents: ${hi} − ${lo} = ${b(hi - lo)}.`, 4); }
+    if (f === 2) return mc(`Which expression is equivalent to ${m(`(${s(e1)})<sup>${e2}</sup>`)}?`, s(e1 * e2), uniq([s(e1 + e2), s(e1 ** e2), `${e2}${s(e1)}`, s(e1 * e2 + 1)]).filter(x => x !== s(e1 * e2)), `Multiply the exponents: ${b(s(e1 * e2))}.`, 4);
+    if (f === 3) return mc(`Which expression is equivalent to ${m(`${c1}${s(e1)} · ${c2}${s(e2)}`)}?`, `${c1 * c2}${s(e1 + e2)}`, uniq([`${c1 + c2}${s(e1 + e2)}`, `${c1 * c2}${s(e1 * e2)}`, `${c1 + c2}${s(e1 * e2)}`, `${c1 * c2 * 2}${s(e1 + e2)}`]).filter(x => x !== `${c1 * c2}${s(e1 + e2)}`), `Multiply the coefficients and add the exponents: ${b(`${c1 * c2}${s(e1 + e2)}`)}.`, 4);
+    if (f === 4) return mc(`Which expression is equivalent to ${m(`(${c1}${v})<sup>${e1}</sup>`)}?`, `${c1 ** e1}${s(e1)}`, uniq([`${c1}${s(e1)}`, `${c1 * e1}${s(e1)}`, `${c1 ** e1}${v}`, `${c1 ** e1}${s(e1 + 1)}`]).filter(x => x !== `${c1 ** e1}${s(e1)}`), `Raise the coefficient and the variable to the power: ${b(`${c1 ** e1}${s(e1)}`)}.`, 4);
+    if (f === 5) return mc(`Which expression is equivalent to ${m(s(MINUS + e1))}?`, `1/${s(e1)}`, uniq([`${MINUS}${s(e1)}`, `1/${s(MINUS + e1)}`, `${MINUS}1/${s(e1)}`, s(e1)]).filter(x => x !== `1/${s(e1)}`), `A negative exponent means the reciprocal: ${b(`1/${s(e1)}`)}.`, 4);
+    return mc(`Which expression is equivalent to ${m(`${s(e1 + e2)} · ${s(MINUS + e2)}`)}?`, s(e1), uniq([s(e1 + 2 * e2), s(e1 + e2 + e2 + 1), s(MINUS + e1), s(e1 * e2)]).filter(x => x !== s(e1)), `Add the exponents: ${e1 + e2} + (${MINUS}${e2}) = ${b(e1)}.`, 4);
   }),
   R(/^Evaluate rational exponents$|^Roots of integers$|^Roots of rational numbers$|^Nth roots$|^Find roots using a calculator$|^Cube roots$|^Square roots$|^Square roots of fractions and decimals$/, (mt, ctx) => () => {
     const t = ctx.title, n = ri(2, 4), base = ri(2, 9);
     if (/rational exponents/.test(t)) { const [p, q] = pick([[1, 2], [3, 2], [1, 3], [2, 3], [1, 4]]), root = ri(2, 5), arg = root ** q; const v_ = root ** p; return num(`Evaluate ${m(`${arg}<sup>${p}/${q}</sup>`)}.`, v_, `${arg}^(${p}/${q}) = (${q === 2 ? '√' : q === 3 ? '∛' : '⁴√'}${arg})^${p} = ${root}^${p} = ${b(v_)}.`); }
     if (/Square roots of fractions and decimals/.test(t)) return Math.random() < 0.5 ? num(`${m(`√${dec(base * base / 100, 2)}`)} = ?`, base / 10, `√${dec(base * base / 100, 2)} = ${b(base / 10)}.`) : mc(`${m(`√(${stack(base * base, (base + 1) ** 2)})`)} = ?`, fs(base, base + 1), [fs(base * base, base + 1), fs(base, (base + 1) ** 2), fs(base + 1, base)], `Take the root of the numerator and denominator: ${b(fs(base, base + 1))}.`, 4);
     if (/Cube/.test(t)) { const c = ri(1, 12), neg = ctx.grade >= 9 && Math.random() < 0.3; return num(`${m(`∛${neg ? MINUS : ''}${fmt(c ** 3)}`)} = ?`, neg ? -c : c, `${neg ? MINUS : ''}${c} × ${neg ? MINUS : ''}${c} × ${neg ? MINUS : ''}${c} = ${neg ? MINUS : ''}${fmt(c ** 3)}: ${b(neg ? MINUS + c : c)}.`); }
-    if (/Nth/.test(t)) { const idx = pick([3, 4, 5]), bb = idx === 5 ? 2 : ri(2, 4), neg = idx % 2 === 1 && Math.random() < 0.4; return num(`${m(`<sup>${idx}</sup>√(${neg ? MINUS : ''}${bb ** idx})`)} = ?`, neg ? -bb : bb, `${bb}^${idx} = ${bb ** idx}: ${b(S(neg ? -bb : bb))}.`); }
-    if (/rational numbers/.test(t)) return mc(`${m(`√(${stack(base * base, 36)})`)} = ?`, fs(...simp(base, 6)), [fs(base * base, 6), fs(base, 36), fs(...simp(base + 1, 6))], `√${base * base}/√36 = ${b(fs(...simp(base, 6)))}.`, 4);
+    if (/Nth/.test(t)) { const idx = pick([3, 4, 5, 6]), bb = idx >= 5 ? ri(2, 3) : idx === 4 ? ri(2, 5) : ri(2, 9), neg = idx % 2 === 1 && Math.random() < 0.4; return num(`${m(`<sup>${idx}</sup>√(${neg ? MINUS : ''}${bb ** idx})`)} = ?`, neg ? -bb : bb, `${bb}^${idx} = ${bb ** idx}: ${b(S(neg ? -bb : bb))}.`); }
+    if (/rational numbers/.test(t)) {
+      const f = ri(0, 3), dd = ri(2, 13), nn = ri(1, 14); if (nn === dd || gcd(nn, dd) !== 1) return null;
+      if (f === 1) { const c = pick([[8, 27, 2, 3], [1, 8, 1, 2], [27, 64, 3, 4], [64, 125, 4, 5], [1, 27, 1, 3], [8, 125, 2, 5], [27, 8, 3, 2], [125, 216, 5, 6], [1, 64, 1, 4]]); return mc(`${m(`∛(${stack(c[0], c[1])})`)} = ?`, fs(c[2], c[3]), uniq([fs(c[0], c[1]), fs(c[2], c[1]), fs(c[0], c[3]), fs(c[3], c[2])]).filter(v_ => v_ !== fs(c[2], c[3])), `∛${c[0]}/∛${c[1]} = ${b(fs(c[2], c[3]))}.`, 4); }
+      if (f === 2) { const nn2 = ri(1, 14); return num(`${m(`√${dec(nn2 * nn2 / 100, 2)}`)} = ?`, nn2 / 10, `√${dec(nn2 * nn2 / 100, 2)} = ${b(nn2 / 10)}.`); }
+      if (f === 3) return mc(`${m(`√(${stack(nn * nn, dd * dd)})`)} = ?`, fs(nn, dd), uniq([fs(nn * nn, dd), fs(nn, dd * dd), fs(dd, nn)]).filter(v_ => v_ !== fs(nn, dd)), `√${nn * nn}/√${dd * dd} = ${b(fs(nn, dd))}.`, 4);
+      return mc(`${m(`√(${stack(base * base, dd * dd)})`)} = ?`, fs(...simp(base, dd)), uniq([fs(base * base, dd), fs(base, dd * dd), fs(...simp(base + 1, dd))]).filter(v_ => v_ !== fs(...simp(base, dd))), `√${base * base}/√${dd * dd} = ${b(fs(...simp(base, dd)))}.`, 4);
+    }
     if (/calculator/.test(t)) { const x = ri(2, 40), r = Math.round(Math.sqrt(x) * 100) / 100; return num(`Use a calculator: ${m(`√${x}`)} ≈ ? (round to 2 decimals)`, r, `√${x} ≈ ${b(r)}.`); }
     { const r = ri(2, 25); return num(`${m(`√${fmt(r * r)}`)} = ?`, r, `${r} × ${r} = ${fmt(r * r)}: ${b(r)}.`); }
   }),
@@ -95,8 +107,10 @@ export const POLY_RULES = [
     return mc(`Simplify ${m(`${v_}<sup>${r1}</sup> ${mulOp ? '·' : '÷'} ${v_}<sup>${r2}</sup>`)}.`, `${v_}<sup>${ans}</sup>`, [`${v_}<sup>${fs(n1 * n2, d)}</sup>`, `${v_}<sup>${fs(n1 + n2, d * 2)}</sup>`, `${v_}<sup>${fs(n1 + n2 + 1, d)}</sup>`], `${mulOp ? 'Add' : 'Subtract'} the exponents: ${b(ans)}.`, 4);
   }),
   R(/^Solve equations with rational exponents$/, () => () => {
-    const [p, q] = pick([[1, 2], [3, 2], [2, 3]]), x = ri(2, 4) ** q;
-    return num(`Solve ${m(`x<sup>${p}/${q}</sup> = ${fmt(Math.round(x ** (p / q)))}`)} for x.`, x, `Raise both sides to ${q}/${p}: x = ${b(x)}.`);
+    const PQ = [[1, 2], [3, 2], [2, 3], [1, 3], [3, 4], [1, 4], [4, 3], [5, 2]], [p, q] = pick(PQ), r = ri(2, q >= 4 ? 3 : q === 3 ? 4 : p === 5 ? 2 : 6), x = r ** q, v = r ** p, f = ri(0, 2), k = ri(2, 6);
+    if (f === 1) return num(`Solve ${m(`${k}x<sup>${p}/${q}</sup> = ${fmt(k * v)}`)} for x.`, x, `Divide by ${k}: x^(${p}/${q}) = ${fmt(v)}. Raise both sides to ${q}/${p}: x = ${b(x)}.`);
+    if (f === 2) { const h = ri(1, 9); return num(`Solve ${m(`(x + ${h})<sup>${p}/${q}</sup> = ${fmt(v)}`)} for x.`, x - h, `Raise both sides to ${q}/${p}: x + ${h} = ${fmt(x)}, so x = ${b(x - h)}.`); }
+    return num(`Solve ${m(`x<sup>${p}/${q}</sup> = ${fmt(v)}`)} for x.`, x, `Raise both sides to ${q}/${p}: x = ${b(x)}.`);
   }),
   R(/^Multiply numbers written in scientific notation$|^Divide numbers written in scientific notation$/, (mt, ctx) => () => {
     const mulOp = /Multiply/.test(ctx.title), a = ri(12, 49) / 10, c = ri(12, 49) / 10, e1 = ri(2, 7), e2 = ri(2, 6), r = mulOp ? a * c : a / c;
@@ -128,7 +142,13 @@ export const POLY_RULES = [
     return mc(`${m(`${a}√${r} ${sub ? '−' : '+'} ${c}√${r}`)} = ?`, `${sub ? a - c : a + c}√${r}`, [`${sub ? a + c : a - c}√${r}`, `${a * c}√${r}`, `${sub ? a - c : a + c}√${r * r}`], `Combine like radicals: ${b(`${sub ? a - c : a + c}√${r}`)}.`, 4);
   }),
   R(/^Domain and range of radical functions$/, () => () => {
-    const h = ri(-5, 5), radicand = `x ${h < 0 ? '+' : MINUS} ${Math.abs(h)}`;
+    const h = ri(-9, 9), kk = ri(-8, 8), a = ri(2, 5), f = ri(0, 5), radicand = `x ${h < 0 ? '+' : MINUS} ${Math.abs(h)}`.replace(/ [−+] 0$/, '');
+    if (h === 0 && f !== 3) return null;
+    if (f === 1) return mc(`What is the range of ${m(`f(x) = √(${radicand}) ${kk < 0 ? MINUS : '+'} ${Math.abs(kk)}`)}?`, `y ≥ ${S(kk)}`, uniq([`y ≥ ${S(h)}`, `y ≥ ${S(-kk)}`, `y ≤ ${S(kk)}`, 'all real numbers']).filter(v_ => v_ !== `y ≥ ${S(kk)}`), `A square root is never negative, so the least value is ${S(kk)}: ${b(`y ≥ ${S(kk)}`)}.`, 4);
+    if (f === 2) return mc(`What is the range of ${m(`f(x) = ${MINUS}√(${radicand}) ${kk < 0 ? MINUS : '+'} ${Math.abs(kk)}`)}?`, `y ≤ ${S(kk)}`, uniq([`y ≥ ${S(kk)}`, `y ≤ ${S(-kk)}`, `y ≤ ${S(h)}`, 'all real numbers']).filter(v_ => v_ !== `y ≤ ${S(kk)}`), `The negative sign flips the graph downward, so the greatest value is ${S(kk)}: ${b(`y ≤ ${S(kk)}`)}.`, 4);
+    if (f === 3) { const bb = ri(1, 9) * pick([1, -1]), top = a * 1; const c = bb, lim = -c / a, limTxt = Number.isInteger(lim) ? S(lim) : null; if (!limTxt) { const g = gcd(a, Math.abs(c)); const n_ = -c / g, d_ = a / g; if (d_ === 1) return null; const ans = `x ≥ ${S(n_)}/${d_}`; return mc(`What is the domain of ${m(`f(x) = √(${a}x ${c < 0 ? MINUS : '+'} ${Math.abs(c)})`)}?`, ans, uniq([`x ≥ ${S(-n_)}/${d_}`, `x ≥ ${S(-c)}`, `x > ${S(n_)}/${d_}`]).filter(v_ => v_ !== ans), `${a}x ${c < 0 ? MINUS : '+'} ${Math.abs(c)} ≥ 0 gives ${b(ans)}.`, 4); } return mc(`What is the domain of ${m(`f(x) = √(${a}x ${c < 0 ? MINUS : '+'} ${Math.abs(c)})`)}?`, `x ≥ ${limTxt}`, uniq([`x ≥ ${S(-lim)}`, `x > ${limTxt}`, `x ≥ ${S(-c)}`]).filter(v_ => v_ !== `x ≥ ${limTxt}`), `${a}x ${c < 0 ? MINUS : '+'} ${Math.abs(c)} ≥ 0 gives ${b(`x ≥ ${limTxt}`)}.`, 4); }
+    if (f === 4) return mc(`What is the domain of ${m(`f(x) = √(${h} ${MINUS} x)`.replace(`${h} ${MINUS}`, `${S(h)} ${MINUS}`))}?`, `x ≤ ${S(h)}`, uniq([`x ≥ ${S(h)}`, `x ≤ ${S(-h)}`, `x < ${S(h)}`]).filter(v_ => v_ !== `x ≤ ${S(h)}`), `${S(h)} ${MINUS} x ≥ 0 gives ${b(`x ≤ ${S(h)}`)}.`, 4);
+    if (f === 5) return mc(`What is the domain of ${m(`f(x) = ∛(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)})`)}?`, 'all real numbers', [`x ≥ ${S(h)}`, `x > ${S(h)}`, `x ≥ ${S(-h)}`], `A cube root is defined for every real number, so the domain is ${b('all real numbers')}.`, 4);
     return mc(`What is the domain of ${m(`f(x) = √(${radicand})`)}?`, `x ≥ ${S(h)}`, [`x ≥ ${S(-h)}`, `x > ${S(h)}`, 'all real numbers'].filter(v_ => v_ !== `x ≥ ${S(h)}`), `The radicand must be at least 0: ${radicand} ≥ 0 gives ${b(`x ≥ ${S(h)}`)}.`, 4);
   }),
   R(/^Solve radical equations$/, () => () => {
@@ -184,27 +204,51 @@ export const POLY_RULES = [
     return mc(`Factor ${m(polyTxt(co))} by grouping.`, `(x + ${a})(x<sup>2</sup> + ${c})`, [`(x − ${a})(x<sup>2</sup> + ${c})`, `(x + ${a})(x<sup>2</sup> − ${c})`, `(x + ${c})(x<sup>2</sup> + ${a})`], `Group: x²(x + ${a}) + ${c}(x + ${a}) = ${b(`(x + ${a})(x² + ${c})`)}.`, 4);
   }),
   R(/^Factor sums and differences of cubes$|^Solve equations with sums and differences of cubes$/, (mt, ctx) => () => {
-    const k = ri(1, 5), sum_ = Math.random() < 0.5, cube = k ** 3;
-    if (/Solve/.test(ctx.title)) return num(`Solve ${m(`x³ ${sum_ ? '+' : MINUS} ${cube} = 0`)}. What is the real solution?`, sum_ ? -k : k, `x³ = ${sum_ ? MINUS : ''}${cube}, so x = ${b(S(sum_ ? -k : k))}.`);
-    const ans = sum_ ? `(x + ${k})(x² − ${k}x + ${k * k})` : `(x − ${k})(x² + ${k}x + ${k * k})`;
-    return mc(`Factor ${m(`x³ ${sum_ ? '+' : MINUS} ${cube}`)}.`, ans, uniq([sum_ ? `(x + ${k})(x² + ${k}x + ${k * k})` : `(x − ${k})(x² − ${k}x + ${k * k})`, sum_ ? `(x − ${k})(x² − ${k}x + ${k * k})` : `(x + ${k})(x² + ${k}x + ${k * k})`, `(x ${sum_ ? '+' : '−'} ${k})³`]), `${sum_ ? 'Sum' : 'Difference'} of cubes pattern: ${b(ans)}.`, 4);
+    const k = ri(1, 10), mm = pick([1, 1, 2, 3]), sum_ = Math.random() < 0.5, v = pick(['x', 'x', 'y', 'a', 'n']);
+    if (/Solve/.test(ctx.title)) {
+      if (mm > 1) { const c2 = pick([2, 4, 5]), kk = ri(1, 7), r = kk / c2; return num(`Solve ${m(`${c2 ** 3}${v}³ ${sum_ ? '+' : MINUS} ${kk ** 3} = 0`)}. What is the real solution?`, sum_ ? -r : r, `${v}³ = ${sum_ ? MINUS : ''}${kk ** 3}/${c2 ** 3}, so ${v} = ${b(S(sum_ ? -r : r))}.`); }
+      return num(`Solve ${m(`${v}³ ${sum_ ? '+' : MINUS} ${k ** 3} = 0`)}. What is the real solution?`, sum_ ? -k : k, `${v}³ = ${sum_ ? MINUS : ''}${k ** 3}, so ${v} = ${b(S(sum_ ? -k : k))}.`);
+    }
+    const a = mm === 3 ? 3 : mm, kk = mm > 1 ? ri(1, 5) : k, A = a === 1 ? '' : String(a), sg = sum_ ? '+' : MINUS, osg = sum_ ? MINUS : '+';
+    const fac = (t1, t2, sgn) => `(${A}${v} ${sgn === 1 ? '+' : MINUS} ${t1})(${a === 1 ? '' : a * a}${v}² ${sgn === 1 ? MINUS : '+'} ${a === 1 ? '' : ''}${t2}${v} + ${kk * kk})`;
+    const ans = `(${A}${v} ${sg} ${kk})(${a === 1 ? '' : a * a}${v}² ${osg} ${a * kk === 1 ? '' : a * kk}${v} + ${kk * kk})`;
+    const wrong = [`(${A}${v} ${sg} ${kk})(${a === 1 ? '' : a * a}${v}² ${sg} ${a * kk === 1 ? '' : a * kk}${v} + ${kk * kk})`, `(${A}${v} ${osg} ${kk})(${a === 1 ? '' : a * a}${v}² ${osg} ${a * kk === 1 ? '' : a * kk}${v} + ${kk * kk})`, `(${A}${v} ${sg} ${kk})³`];
+    return mc(`Factor ${m(`${a === 1 ? '' : a ** 3}${v}³ ${sg} ${kk ** 3}`)}.`, ans, uniq(wrong).filter(w => w !== ans), `${sum_ ? 'Sum' : 'Difference'} of cubes pattern: ${b(ans)}.`, 4);
   }),
   R(/^Solve equations using a quadratic pattern$/, () => () => {
-    const k = ri(2, 9); return num(`Solve ${m(`x² + ${2 * k}x + ${k * k} = 0`)}.`, -k, `(x + ${k})² = 0, so x = ${b(S(-k))}.`);
+    const k = ri(2, 15), f = ri(0, 3), c = pick([2, 3, 4, 5]), kk = ri(1, 6);
+    if (f === 1) return num(`Solve ${m(`x² ${MINUS} ${2 * k}x + ${k * k} = 0`)}.`, k, `(x ${MINUS} ${k})² = 0, so x = ${b(k)}.`);
+    if (f === 2) { const r = kk / c; return num(`Solve ${m(`${c * c}x² ${pick([0]) === 0 ? '+' : ''} ${2 * c * kk}x + ${kk * kk} = 0`)}.`, -r, `(${c}x + ${kk})² = 0, so x = ${b(S(-r))}.`); }
+    if (f === 3) return mc(`Solve ${m(`x² ${MINUS} ${k * k} = 0`)}.`, `x = ±${k}`, [`x = ${k}`, `x = ${MINUS}${k}`, `x = ±${k * k}`], `Difference of squares: (x + ${k})(x ${MINUS} ${k}) = 0, so ${b(`x = ±${k}`)}.`, 4);
+    return num(`Solve ${m(`x² + ${2 * k}x + ${k * k} = 0`)}.`, -k, `(x + ${k})² = 0, so x = ${b(S(-k))}.`);
   }),
 
   /* ===== quadratic equations & parabolas ===== */
-  R(/^Solve a quadratic equation using square roots$/, () => () => {
-    const k = ri(2, 12), c = ri(1, 9); return mc(`Solve ${m(`x² = ${k * k}`)}.`, `x = ±${k}`, [`x = ${k}`, `x = ±${k * k}`, `x = ±${k / 2}`.replace('.5', '½')], `Take the square root of both sides: ${b(`x = ±${k}`)}.`, 4);
+  R(/^Solve a quadratic equation using square roots$/, (mt, ctx) => () => {
+    const k = ri(2, 15), c = ri(2, 9), h = nz(-9, 9), f = ri(0, 6), ns = pick([2, 3, 5, 6, 7, 10, 11, 12, 13, 15, 17, 19, 20, 21]);
+    const pm = t => `x = ±${t}`;
+    if (f === 1) return mc(`Solve ${m(`x² = ${ns}`)}.`, pm(`√${ns}`), uniq([pm(ns), `x = √${ns}`, pm(`√${ns}/2`), pm(`${Math.floor(ns / 2)}`)]).filter(v => v !== pm(`√${ns}`)), `Take the square root of both sides: ${b(pm(`√${ns}`))}.`, 4);
+    if (f === 2) return mc(`Solve ${m(`x² ${MINUS} ${k * k + c} = ${MINUS}${c}`)}.`.replace(`${MINUS}${c}`, `${MINUS}${c}`), pm(k), [`x = ${k}`, pm(k * k), pm(k * k + c)], `Add ${k * k + c} to both sides: x² = ${k * k}, so ${b(pm(k))}.`, 4);
+    if (f === 3) { const a = ri(2, 6); return mc(`Solve ${m(`${a}x² = ${a * k * k}`)}.`, pm(k), [`x = ${k}`, pm(k * k), pm(a * k)], `Divide by ${a}: x² = ${k * k}, so ${b(pm(k))}.`, 4); }
+    if (f === 4) { const ans = h === 0 ? 'x = 0' : `x = ${S(-h)} ± ${k}`; return mc(`Solve ${m(`(x ${h < 0 ? MINUS : '+'} ${Math.abs(h)})² = ${k * k}`)}.`, `x = ${S(-h)} ± ${k}`, uniq([`x = ${S(h)} ± ${k}`, `x = ${S(-h)} ± ${k * k}`, `x = ${S(-h + k)}`]).filter(v => v !== `x = ${S(-h)} ± ${k}`), `Take square roots: x ${h < 0 ? MINUS : '+'} ${Math.abs(h)} = ±${k}, so ${b(`x = ${S(-h)} ± ${k}`)}.`, 4); }
+    if (f === 5 && ctx.grade >= 11) return mc(`Solve ${m(`x² = ${MINUS}${k * k}`)}.`, `x = ±${k}i`, [`x = ±${k}`, 'no solutions at all', `x = ${k}i`], `The square root of a negative number is imaginary: ${b(`x = ±${k}i`)}.`, 4);
+    if (f === 5) return mc(`How many real solutions does ${m(`x² = ${MINUS}${k * k}`)} have?`, 'None', ['One', 'Two', 'Four'], `A square is never negative, so there are ${b('no')} real solutions.`, 4);
+    if (f === 6) return mc(`Solve ${m(`x² + ${c} = ${k * k + c}`)}.`, pm(k), [`x = ${k}`, pm(k * k), pm(k * k + c)], `Subtract ${c}: x² = ${k * k}, so ${b(pm(k))}.`, 4);
+    return mc(`Solve ${m(`x² = ${k * k}`)}.`, pm(k), [`x = ${k}`, pm(k * k), `x = ±${k / 2}`.replace('.5', '½')], `Take the square root of both sides: ${b(pm(k))}.`, 4);
   }),
   R(/^Solve a quadratic equation by factoring$|^Solve a quadratic equation using the zero product property$/, () => () => {
     const r1 = nz(-8, 8), r2 = nz(-8, 8); if (r1 === r2) return null; const co = pmul([1, -r1], [1, -r2]), ans = `x = ${S(Math.min(r1, r2))}, ${S(Math.max(r1, r2))}`;
     return mc(`Solve ${m(`${polyTxt(co)} = 0`)}.`, ans, uniq([`x = ${S(-Math.min(r1, r2))}, ${S(-Math.max(r1, r2))}`, `x = ${S(r1 + r2)}, ${S(r1 * r2)}`, `x = ${S(-r1)}, ${S(r2)}`]).filter(v_ => v_ !== ans), `Factor: (x ${r1 < 0 ? '+' : MINUS} ${Math.abs(r1)})(x ${r2 < 0 ? '+' : MINUS} ${Math.abs(r2)}) = 0, so ${b(ans)}.`, 4);
   }),
   R(/^Complete the square$|^Solve a quadratic equation by completing the square$/, (mt, ctx) => () => {
-    const b_ = 2 * ri(1, 6), h = b_ / 2;
-    if (/Solve/.test(ctx.title)) { const k = ri(1, 10), good = `x = ${S(-h)} ± √${k + h * h}`; return mc(`Solve ${m(`x² + ${b_}x = ${k}`)} by completing the square.`, good, uniq([`x = ${S(h)} ± √${k + h * h}`, `x = ${S(-b_)} ± √${k}`, `x = ${S(-h)} ± √${k}`]), `Add ${h * h} to both sides: (x + ${h})² = ${k + h * h}, so ${b(good)}.`, 4); }
-    return num(`What number must be added to ${m(`x² + ${b_}x`)} to complete the square?`, h * h, `(${b_} ÷ 2)² = ${b(h * h)}.`);
+    const sg = pick([1, -1]), b_ = sg * 2 * ri(1, 10), h = b_ / 2, lin = `x² ${b_ < 0 ? MINUS : '+'} ${Math.abs(b_)}x`, f = ri(0, 2);
+    if (/Solve/.test(ctx.title)) {
+      if (f === 1) { const c = ri(-12, h * h - 1), k = h * h - c, good = `x = ${S(-h)} ± √${k}`; if (c === 0) return null; return mc(`Solve ${m(`x² ${b_ < 0 ? MINUS : '+'} ${Math.abs(b_)}x ${c < 0 ? MINUS : '+'} ${Math.abs(c)} = 0`)} by completing the square.`, good, uniq([`x = ${S(h)} ± √${k}`, `x = ${S(-b_)} ± √${k}`, `x = ${S(-h)} ± √${h * h + c}`]).filter(v_ => v_ !== good), `Move the constant: x² ${b_ < 0 ? MINUS : '+'} ${Math.abs(b_)}x = ${S(-c)}. Add ${h * h}: (x ${h < 0 ? MINUS : '+'} ${Math.abs(h)})² = ${k}, so ${b(good)}.`, 4); }
+      const k = ri(1, 20), good = `x = ${S(-h)} ± √${k + h * h}`; return mc(`Solve ${m(`${lin} = ${k}`)} by completing the square.`, good, uniq([`x = ${S(h)} ± √${k + h * h}`, `x = ${S(-b_)} ± √${k}`, `x = ${S(-h)} ± √${k}`]), `Add ${h * h} to both sides: (x ${h < 0 ? MINUS : '+'} ${Math.abs(h)})² = ${k + h * h}, so ${b(good)}.`, 4);
+    }
+    if (f === 1) { const c = ri(1, 15), k = c - h * h, kt = k === 0 ? '' : ` ${k < 0 ? MINUS : '+'} ${Math.abs(k)}`, good = `(x ${h < 0 ? MINUS : '+'} ${Math.abs(h)})²${kt}`; return mc(`Write ${m(`${lin} + ${c}`)} in the form ${m('(x + h)² + k')}.`, good, uniq([`(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)})²${kt}`, `(x ${h < 0 ? MINUS : '+'} ${Math.abs(h)})² ${c < 0 ? MINUS : '+'} ${Math.abs(c)}`, `(x ${b_ < 0 ? MINUS : '+'} ${Math.abs(b_)})²${kt}`]).filter(v_ => v_ !== good), `(x ${h < 0 ? MINUS : '+'} ${Math.abs(h)})² = ${lin} + ${h * h}, so the expression is ${b(good)}.`, 4); }
+    if (f === 2) return mc(`Which binomial squared equals ${m(`${lin} + ${h * h}`)}?`, `(x ${h < 0 ? MINUS : '+'} ${Math.abs(h)})²`, [`(x ${h < 0 ? '+' : MINUS} ${Math.abs(h)})²`, `(x ${b_ < 0 ? MINUS : '+'} ${Math.abs(b_)})²`, `(x ${h < 0 ? MINUS : '+'} ${Math.abs(h * h)})²`], `Half of ${S(b_)} is ${S(h)}: ${b(`(x ${h < 0 ? MINUS : '+'} ${Math.abs(h)})²`)}.`, 4);
+    return num(`What number must be added to ${m(lin)} to complete the square?`, h * h, `(${S(b_)} ÷ 2)² = ${b(h * h)}.`);
   }),
   R(/^Solve a quadratic equation using the quadratic formula$|^Using the discriminant$/, (mt, ctx) => () => {
     const a = ri(1, 3), c0 = ri(-6, 6), b_ = ri(-8, 8), disc = b_ * b_ - 4 * a * c0;
@@ -245,7 +289,14 @@ export const POLY_RULES = [
     if (/Simplify rational/.test(t)) return mc(`Simplify ${m(stack(`(x + ${a})(x ${MINUS} ${c})`, `(x + ${a})(x + ${c})`))}.`, `(x − ${c})/(x + ${c})`, [`(x + ${a})/(x + ${c})`, `(x − ${c})/(x + ${a})`, `−1`], `Cancel the common factor (x + ${a}): ${b(`(x − ${c})/(x + ${c})`)}.`, 4);
     if (/Multiply and divide/.test(t)) return mc(`${m(`${stack('x', `x + ${a}`)} × ${stack(`x + ${a}`, `x ${MINUS} ${c}`)}`)} = ?`, `x/(x − ${c})`, [`x/(x + ${a})`, `x(x + ${a})/(x − ${c})`, `(x + ${a})/(x − ${c})`], `Cancel (x + ${a}): ${b(`x/(x − ${c})`)}.`, 4);
     if (/complex/.test(t)) return mc(`Simplify the complex fraction ${m(stack(`1/${a}`, `1/${c}`))}.`, fs(c, a), [fs(a, c), fs(1, a * c), fs(a + c, 1)], `(1/${a}) ÷ (1/${c}) = ${c}/${a}.`, 4);
-    const D = lcm(a, c); return mc(`${m(`${stack(1, `x`)} + ${stack(1, `${a}`)}`)} = ?`, `(${a} + x)/(${a}x)`, [`2/(x + ${a})`, `(1 + ${a})/x`, `1/(${a}x)`], `Common denominator ${a}x: ${b(`(${a} + x)/(${a}x)`)}.`, 4);
+    const f = ri(0, 4), p = ri(1, 7), q = ri(1, 7), sub_ = Math.random() < 0.5, op = sub_ ? MINUS : '+', pn = sub_ ? p - q : p + q;
+    const num_ = t => (t === 1 ? '1' : t === 0 ? '0' : S(t));
+    if (f === 0) { if (pn === 0) return null; return mc(`${m(`${stack(p, 'x')} ${op} ${stack(q, 'x')}`)} = ?`, `${num_(pn)}/x`, uniq([`${p + q}/x`, `${p}${op}${q}/x`.replace(/^(\d+)[^\d]+(\d+)\/x$/, (_, u, w) => `${u}/${w}x`), `${num_(pn)}/2x`, `${num_(pn)}/x²`]).filter(v => v !== `${num_(pn)}/x`), `Same denominator: combine the numerators, ${p} ${op} ${q} = ${S(pn)}. So ${b(`${num_(pn)}/x`)}.`, 4); }
+    if (f === 1) { if (pn === 0) return null; return mc(`${m(`${stack(p, `x + ${a}`)} ${op} ${stack(q, `x + ${a}`)}`)} = ?`, `${num_(pn)}/(x + ${a})`, uniq([`${p + q}/(x + ${a})`, `${num_(pn)}/(2x + ${2 * a})`, `${num_(pn)}/(x + ${a})²`, `${num_(pn)}/x + ${a}`]).filter(v => v !== `${num_(pn)}/(x + ${a})`), `Same denominator: ${p} ${op} ${q} = ${S(pn)}, so ${b(`${num_(pn)}/(x + ${a})`)}.`, 4); }
+    if (f === 2) { const good = sub_ ? `(${a} ${MINUS} x)/(${a}x)` : `(${a} + x)/(${a}x)`; return mc(`${m(`${stack(1, 'x')} ${op} ${stack(1, `${a}`)}`)} = ?`, good, uniq([`2/(x + ${a})`, sub_ ? `(${a} + x)/(${a}x)` : `(1 + ${a})/x`, `1/(${a}x)`, `(x ${MINUS} ${a})/(${a}x)`]).filter(v => v !== good), `Common denominator ${a}x: ${b(good)}.`, 4); }
+    if (f === 3) { const top = `${sub_ ? p - q : p + q}x + ${p * a}`.replace('+ -', `${MINUS} `), tx = (pn === 0 ? `${p * a}` : `${pn === 1 ? '' : pn === -1 ? MINUS : S(pn)}x ${p * a < 0 ? MINUS : '+'} ${Math.abs(p * a)}`), good = `(${tx})/(x(x + ${a}))`; return mc(`${m(`${stack(p, 'x')} ${op} ${stack(q, `x + ${a}`)}`)} = ?`, good, uniq([`${num_(pn)}/(x(x + ${a}))`, `(${tx})/(2x + ${a})`, `${p * q}/(x(x + ${a}))`, `(${tx})/(x + ${a})`]).filter(v => v !== good), `Common denominator x(x + ${a}): ${p}(x + ${a}) ${op} ${q}x = ${tx}, so ${b(good)}.`, 4); }
+    if (pn === 0 || gcd(Math.abs(pn), a) !== 1) return null;
+    return mc(`${m(`${stack(p, `${a}x`)} ${op} ${stack(q, `${a}x`)}`)} = ?`, `${num_(pn)}/(${a}x)`, uniq([`${p + q}/(${a}x)`, `${num_(pn)}/(${2 * a}x)`, `${num_(pn)}/(${a}x²)`, `${num_(pn)}/x`]).filter(v => v !== `${num_(pn)}/(${a}x)`), `Same denominator ${a}x: ${p} ${op} ${q} = ${pn}, so ${b(`${num_(pn)}/(${a}x)`)}.`, 4);
   }),
   R(/^Solve rational equations$/, () => () => {
     const a = ri(2, 6), q = nz(-6, 7), c = ri(1, 8), x = a * q, rhs = q + c;
@@ -271,14 +322,24 @@ export const POLY_RULES = [
     return mc(`How many sign changes are in ${m(polyTxt(co))}? (This is the maximum number of positive real roots.)`, String(changes), [String(changes + 1), String(Math.max(0, changes - 1)), '0'].filter(v_ => v_ !== String(changes)), `Count sign changes between consecutive coefficients: ${b(changes)}.`, 4);
   }),
   R(/^Fundamental Theorem of Algebra$/, () => () => {
-    const n = ri(3, 8); return num(`A polynomial of degree ${b(n)} has exactly how many complex roots (counting multiplicity)?`, n, `A degree-${n} polynomial has ${b(n)} complex roots.`);
+    const n = ri(2, 12), f = ri(0, 3);
+    const lead = ri(1, 6), mid = pick([-5, -3, -2, 2, 4, 7]), cst = ri(1, 9), eq = `${lead === 1 ? '' : lead}x<sup>${n}</sup> ${mid < 0 ? MINUS : '+'} ${Math.abs(mid)}x ${pick(['+', MINUS])} ${cst}`;
+    if (f === 1) return num(`How many complex roots (counting multiplicity) does ${m(`f(x) = ${eq}`)} have?`, n, `The degree is ${n}, so there are exactly ${b(n)} complex roots.`);
+    if (f === 2) { const re = ri(0, Math.floor(n / 2)) * 2 + (n % 2); if (re > n) return null; return num(`A polynomial of degree ${b(n)} with real coefficients has ${b(re)} real roots (counting multiplicity). How many of its roots are non-real complex numbers?`, n - re, `${n} − ${re} = ${b(n - re)} non-real roots.`); }
+    if (f === 3) return num(`A polynomial has exactly ${b(n)} roots in the complex numbers (counting multiplicity). What is its degree?`, n, `The degree equals the number of roots: ${b(n)}.`);
+    return num(`A polynomial of degree ${b(n)} has exactly how many complex roots (counting multiplicity)?`, n, `A degree-${n} polynomial has ${b(n)} complex roots.`);
   }),
   R(/^Complex conjugate theorem$|^Conjugate root theorems$/, () => () => {
     const a = ri(1, 5), c = ri(1, 4); return mc(`A polynomial with real coefficients has ${b(`${a} + ${c}i`)} as a root. Which must also be a root?`, `${a} − ${c}i`, [`${-a} + ${c}i`, `${-a} − ${c}i`, `${c} + ${a}i`], `Complex roots come in conjugate pairs: ${b(`${a} − ${c}i`)}.`, 4);
   }),
   R(/^Match polynomials and graphs$/, () => () => {
-    const deg = ri(2, 5), lead = pick([1, -1]); const end = lead > 0 ? (deg % 2 ? 'falls to the left and rises to the right' : 'rises on both ends') : deg % 2 ? 'rises to the left and falls to the right' : 'falls on both ends';
-    return mc(`Describe the end behaviour of ${m(`y = ${lead < 0 ? MINUS : ''}x<sup>${deg}</sup> + x`)}.`, end, ['falls to the left and rises to the right', 'rises on both ends', 'rises to the left and falls to the right', 'falls on both ends'].filter(v_ => v_ !== end), `Degree ${deg} (${deg % 2 ? 'odd' : 'even'}) with ${lead > 0 ? 'positive' : 'negative'} leading coefficient.`, 4);
+    const deg = ri(2, 7), lead = pick([1, -1]) * pick([1, 1, 2, 3, 5]), f = ri(0, 3), r1 = nz(-5, 5), r2 = nz(-5, 5), r3 = nz(-4, 4);
+    const lt = `${lead < 0 ? MINUS : ''}${Math.abs(lead) === 1 ? '' : Math.abs(lead)}x<sup>${deg}</sup>`, mid = pick([`+ ${ri(2, 9)}x`, `${MINUS} ${ri(2, 9)}x`, `+ ${ri(1, 9)}`, `${MINUS} ${ri(1, 9)}`, `+ ${ri(2, 9)}x²`.replace('x²', deg > 2 ? 'x²' : 'x')]);
+    if (f === 1) return num(`What is the greatest possible number of turning points of ${m(`y = ${lt} ${mid}`)}?`, deg - 1, `A polynomial of degree ${deg} has at most ${deg} − 1 = ${b(deg - 1)} turning points.`);
+    if (f === 2) { const y0 = -r1 * -r2 * -r3 * 1; return num(`What is the y-intercept of ${m(`y = (x ${r1 < 0 ? '+' : MINUS} ${Math.abs(r1)})(x ${r2 < 0 ? '+' : MINUS} ${Math.abs(r2)})(x ${r3 < 0 ? '+' : MINUS} ${Math.abs(r3)})`)}?`, -r1 * -r2 * -r3, `Set x = 0: (${S(-r1)})(${S(-r2)})(${S(-r3)}) = ${b(S(-r1 * -r2 * -r3))}.`); }
+    if (f === 3) { const g = uniq([r1, r2, r3]); return num(`How many x-intercepts does ${m(`y = (x ${r1 < 0 ? '+' : MINUS} ${Math.abs(r1)})(x ${r2 < 0 ? '+' : MINUS} ${Math.abs(r2)})(x ${r3 < 0 ? '+' : MINUS} ${Math.abs(r3)})`)} have?`, g.length, `The zeros are ${g.map(S).join(', ')}, which is ${b(g.length)} different x-intercept${g.length === 1 ? '' : 's'}.`); }
+    const end = lead > 0 ? (deg % 2 ? 'falls to the left and rises to the right' : 'rises on both ends') : deg % 2 ? 'rises to the left and falls to the right' : 'falls on both ends';
+    return mc(`Describe the end behaviour of ${m(`y = ${lt} ${mid}`)}.`, end, ['falls to the left and rises to the right', 'rises on both ends', 'rises to the left and falls to the right', 'falls on both ends'].filter(v_ => v_ !== end), `Degree ${deg} (${deg % 2 ? 'odd' : 'even'}) with ${lead > 0 ? 'positive' : 'negative'} leading coefficient.`, 4);
   }),
   R(/^Even and odd functions$/, () => () => {
     const kind = pick(['even', 'odd', 'neither']), f = { even: `x<sup>4</sup> + x<sup>2</sup>`, odd: `x<sup>3</sup> − x`, neither: `x<sup>2</sup> + x` }[kind];
@@ -318,10 +379,15 @@ export const POLY_RULES = [
     const sub = /Subtraction/.test(t), re = sub ? a - d : a + d, im = sub ? c - e : c + e; return mc(`What is ${m(`(${a} + ${c}i) ${sub ? '−' : '+'} (${d} + ${e}i)`.replace(/\+ -/g, '+ ').replace(/-/g, MINUS))}?`, `${re} ${im < 0 ? MINUS : '+'} ${Math.abs(im)}i`.replace('-', MINUS), [`${re} ${im < 0 ? '+' : MINUS} ${Math.abs(im)}i`, `${-re} ${im < 0 ? MINUS : '+'} ${Math.abs(im)}i`, `${im} ${re < 0 ? MINUS : '+'} ${Math.abs(re)}i`].map(v_ => v_.replace('-', MINUS)), `Combine real and imaginary parts separately.`, 4);
   }),
   R(/^Find the modulus and argument of a complex number$|^Convert complex numbers (?:from )?(?:rectangular to polar|polar to rectangular|between rectangular and polar) form$|^Match polar equations and graphs$/, (mt, ctx) => () => {
-    const [p, q] = pick([[3, 4], [5, 12], [8, 6]]), t = ctx.title, r = Math.hypot(p, q), th = Math.round((Math.atan2(q, p) * 180) / Math.PI);
+    const [p, q] = pick([[3, 4], [5, 12], [8, 6], [8, 15], [7, 24], [20, 21], [9, 12], [12, 16], [6, 8], [15, 8], [9, 40], [12, 35], [20, 15], [5, 12], [24, 10]]), t = ctx.title, r = Math.hypot(p, q), th = Math.round((Math.atan2(q, p) * 180) / Math.PI);
     if (/modulus/.test(t)) return num(`What is the modulus of ${m(`${p} + ${q}i`)}?`, r, `√(${p}² + ${q}²) = ${b(r)}.`);
     if (/polar to rectangular/.test(t)) { const rr = ri(2, 8), ang = pick([0, 90, 180, 270]), x = Math.round(rr * Math.cos((ang * Math.PI) / 180)), y = Math.round(rr * Math.sin((ang * Math.PI) / 180)); return mc(`Convert ${m(`${rr}(cos ${ang}° + i sin ${ang}°)`)} to rectangular form.`, `${x} ${y < 0 ? MINUS : '+'} ${Math.abs(y)}i`.replace(/^-/, MINUS), uniq([`${y} ${x < 0 ? MINUS : '+'} ${Math.abs(x)}i`, `${-x} ${y < 0 ? '+' : MINUS} ${Math.abs(y)}i`, `${rr} + 0i`]).filter(v_ => v_ !== `${x} ${y < 0 ? MINUS : '+'} ${Math.abs(y)}i`), `Use x = r cos θ and y = r sin θ.`, 4); }
-    if (/Match polar/.test(t)) { const rr = ri(2, 6); return mc(`Which shape does the polar equation ${m(`r = ${rr}`)} graph?`, `A circle of radius ${rr} centred at the origin`, ['A line through the origin', 'A spiral', `A circle of radius ${rr * 2}`], `Every point is ${rr} units from the origin.`, 4); }
+    if (/Match polar/.test(t)) {
+      const a = ri(1, 9), al = pick([30, 45, 60, 120, 135, 150]), n3 = pick([2, 3, 4, 5]), T = [[`r = ${a}`, 'A circle centred at the origin'], [`θ = ${al}°`, 'A line through the origin'], [`r = ${a} cos θ`, 'A circle through the origin, centred on the x-axis'], [`r = ${a} sin θ`, 'A circle through the origin, centred on the y-axis'], [`r = ${a}(1 + cos θ)`, 'A cardioid (heart shape)'], [`r = ${a} cos ${n3}θ`, `A rose curve with ${n3 % 2 ? n3 : 2 * n3} petals`], [`r = ${a}θ`, 'A spiral']];
+      const [eq, ans] = pick(T), all = ['A circle centred at the origin', 'A line through the origin', 'A circle through the origin, centred on the x-axis', 'A circle through the origin, centred on the y-axis', 'A cardioid (heart shape)', `A rose curve with ${n3 % 2 ? n3 : 2 * n3} petals`, 'A spiral'];
+      const why = { 'A circle centred at the origin': `Every point is ${a} units from the origin.`, 'A line through the origin': 'Every point has the same angle.', 'A cardioid (heart shape)': 'r = a(1 + cos θ) is a cardioid.', 'A spiral': 'r grows steadily with θ, so it spirals outward.' }[ans] || `${eq} is ${ans.toLowerCase()}.`;
+      return mc(`Which shape does the polar equation ${m(eq)} graph?`, ans, sample(all, 3, [ans]), why, 4);
+    }
     return num(`${m(`${p} + ${q}i`)} in polar form is r(cos θ + i sin θ). What is r? (modulus)`, r, `r = √(${p}² + ${q}²) = ${b(r)}.`);
   })
 ];

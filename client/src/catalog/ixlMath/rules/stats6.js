@@ -92,8 +92,11 @@ export const STATS6_RULES = [
     return mc(`A school wants to know about all students. Sampling method: ${b(q[0])}. Is the sample representative or biased?`, q[1], [q[1] === 'Biased' ? 'Representative' : 'Biased'], q[1] === 'Biased' ? 'The sample leaves out part of the population.' : 'Every student has a fair chance of being chosen.', 2);
   }),
   R(/^Identify discrete and continuous data$/, () => () => {
-    const q = pick([['The number of students in a class', 'Discrete'], ['The height of a plant', 'Continuous'], ['The number of goals scored', 'Discrete'], ['The time to run a race', 'Continuous'], ['The mass of a bag of flour', 'Continuous'], ['The number of pets a family has', 'Discrete']]);
-    return mc(`Is this data discrete or continuous? ${b(q[0])}`, q[1], [q[1] === 'Discrete' ? 'Continuous' : 'Discrete'], q[1] === 'Discrete' ? 'It can only take separate whole-number values (counted).' : 'It can take any value in a range (measured).', 2);
+    const D = ['The number of students in a class', 'The number of goals scored', 'The number of pets a family has', 'The number of books on a shelf', 'The number of cars in a parking lot', 'The number of siblings a student has', 'The number of text messages sent in a day', 'The number of players on a hockey team', 'The number of coins in a piggy bank', 'The number of pages in a novel', 'The number of tickets sold for a concert', 'The number of eggs in a carton', 'The number of days it snowed in January', 'The number of customers in a store at noon'],
+      C_ = ['The height of a plant', 'The time to run a race', 'The mass of a bag of flour', 'The temperature of a lake', 'The length of a hockey stick', 'The amount of water in a bathtub', 'The distance a student walks to school', 'The speed of a car', 'The time it takes to bake a cake', 'The mass of a newborn baby', 'The volume of juice in a pitcher', 'The height of a tree', 'The length of a song in seconds, measured precisely', 'The amount of rain that falls in a storm'];
+    const disc = Math.random() < 0.5, item = pick(disc ? D : C_), f = ri(0, 2);
+    if (f === 1) { const ans = pick(disc ? D : C_), wrong = sample(disc ? C_ : D, 3); return mc(`Which of these is ${b(disc ? 'discrete' : 'continuous')} data?`, ans, wrong, disc ? 'Discrete data is counted in separate whole-number steps.' : 'Continuous data is measured and can take any value in a range.', 4); }
+    return mc(`Is this data discrete or continuous? ${b(item)}`, disc ? 'Discrete' : 'Continuous', [disc ? 'Continuous' : 'Discrete'], disc ? 'It can only take separate whole-number values (counted).' : 'It can take any value in a range (measured).', 2);
   }),
   R(/^Make an estimate from sample data$/, () => () => {
     const pop = pick([400, 500, 800, 1000, 1200]), n = pick([20, 25, 40, 50]), yes = ri(2, n / 2) , est = Math.round((yes / n) * pop);
@@ -118,6 +121,11 @@ export const STATS6_RULES = [
     return num(`The probability of winning a game is ${b(fs(...pnum))}. About how many wins are expected in ${b(trials)} games?`, ans, `${trials} × ${fs(...pnum)} = ${b(ans)}.`);
   }),
   R(/^Sample spaces for compound events$/, () => () => {
+    const f = ri(0, 4), who = pick(NAMES), p = ri(2, 6), q = ri(2, 6), r = ri(2, 4);
+    if (f === 1) return num(`A diner menu has ${b(p)} main dishes and ${b(q)} drinks. ${who} chooses one main dish and one drink. How many different meals are possible?`, p * q, `${p} × ${q} = ${b(p * q)}.`);
+    if (f === 2) return num(`${who} has ${b(p)} shirts, ${b(q)} pairs of pants and ${b(r)} hats. How many different outfits (one of each) can ${who} make?`, p * q * r, `${p} × ${q} × ${r} = ${b(p * q * r)}.`);
+    if (f === 3) { const k = ri(2, 6); return num(`A coin is flipped ${b(k)} times. How many outcomes are in the sample space?`, 2 ** k, `2 × ${Array(k - 1).fill(2).join(' × ')}${k === 1 ? '' : ''} = ${b(2 ** k)}.`.replace('2 × 2 × 2', '2 × 2 × 2')); }
+    if (f === 4) { const n1 = pick([3, 5, 6, 10, 12]); return num(`You roll a die and then spin a spinner with ${b(n1)} equal parts. How many outcomes are in the sample space?`, 6 * n1, `6 × ${n1} = ${b(6 * n1)}.`); }
     const [a, c] = sample(Object.keys(SAMPLE_SPACE), 2), n = SAMPLE_SPACE[a] * SAMPLE_SPACE[c];
     return num(`You ${a === 'a coin' ? 'flip' : a === 'a die' ? 'roll' : 'spin'} ${b(a)} and then ${c === 'a coin' ? 'flip' : c === 'a die' ? 'roll' : 'spin'} ${b(c)}. How many outcomes are in the sample space?`, n, `${SAMPLE_SPACE[a]} × ${SAMPLE_SPACE[c]} = ${b(n)}.`);
   }),
@@ -144,6 +152,12 @@ export const STATS6_RULES = [
   R(/^Create scatter plots$|^Identify trends with scatter plots$|^Make predictions with scatter plots$|^Describe scatter plots$/, (mt, ctx) => () => {
     const kind = pick(['positive', 'negative', 'none']), pts = range(1, 8).map(x => ({ x, y: kind === 'positive' ? Math.max(1, Math.min(9, x + ri(-1, 1))) : kind === 'negative' ? Math.max(1, Math.min(9, 9 - x + ri(-1, 1))) : ri(1, 9), color: C.primary })), pic = plane({ min: 0, max: 10, points: pts, labelEvery: 2 });
     if (/Make predictions/.test(ctx.title)) { const x = ri(9, 10); return num(`${plane({ min: 0, max: 12, points: range(1, 8).map(k => ({ x: k, y: k, color: C.primary })), labelEvery: 2 })}The points follow the line y = x. Predict y when x = ${b(x)}.`, x, `y = x, so y = ${b(x)}.`); }
+    if (/Create/.test(ctx.title) && Math.random() < 0.75) {
+      const who = pick(NAMES), X = ri(1, 12), Y = ri(1, 20), Cx = [[`${who} studied for ${X} hours and scored ${Y} marks on a test.`, 'hours studied', 'test score'], [`A plant is ${X} weeks old and ${Y} cm tall.`, 'age in weeks', 'height in cm'], [`${who} sold ${X} tickets and raised $${Y}.`, 'tickets sold', 'dollars raised'], [`A hockey team played ${X} games and scored ${Y} goals.`, 'games played', 'goals scored'], [`${who} biked for ${X} hours and travelled ${Y} km.`, 'hours', 'distance in km'], [`A bakery sold ${X} trays and used ${Y} eggs.`, 'trays sold', 'eggs used']];
+      const [txt, xn, yn] = pick(Cx); if (X === Y) return null;
+      if (Math.random() < 0.5) return mc(`${txt} On a scatter plot of ${yn} against ${xn}, which ordered pair is plotted?`, `(${X}, ${Y})`, [`(${Y}, ${X})`, `(${X}, ${X})`, `(${Y}, ${Y})`], `The ${xn} goes on the x-axis and the ${yn} on the y-axis: ${b(`(${X}, ${Y})`)}.`, 4);
+      return mc(`${table([xn, yn], [[X, Y]])}Which ordered pair (x, y) should be plotted on a scatter plot with ${xn} on the x-axis?`, `(${X}, ${Y})`, [`(${Y}, ${X})`, `(${X}, ${X})`, `(${Y}, ${Y})`], `x is the ${xn} and y is the ${yn}: ${b(`(${X}, ${Y})`)}.`, 4);
+    }
     if (/Create/.test(ctx.title)) { const k = ri(1, 8); return mc(`A data point has x = ${b(k)} and y = ${b(k + 1)}. Which ordered pair should be plotted?`, `(${k}, ${k + 1})`, [`(${k + 1}, ${k})`, `(${k}, ${k})`, `(${k + 1}, ${k + 1})`], `Plot x first, then y: ${b(`(${k}, ${k + 1})`)}.`, 4); }
     return mc(`${pic}Which describes the relationship shown?`, kind === 'none' ? 'No correlation' : kind === 'positive' ? 'Positive correlation' : 'Negative correlation', ['Positive correlation', 'Negative correlation', 'No correlation'].filter(v_ => v_ !== (kind === 'none' ? 'No correlation' : kind === 'positive' ? 'Positive correlation' : 'Negative correlation')), kind === 'positive' ? 'As x increases, y increases.' : kind === 'negative' ? 'As x increases, y decreases.' : 'There is no clear pattern.', 3);
   })

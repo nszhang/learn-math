@@ -67,12 +67,16 @@ export const PATTERN_RULES = [
     return num(`Rule: ${b(op === 'add' ? `add ${d}` : op === 'sub' ? `subtract ${d}` : `multiply by ${d}`)}. Start: ${a}.<br>${m(seq.map((v, i) => (i === hole ? '___' : fmt(v))).join(', '))}`, seq[hole], `Apply the rule each step: the missing number is ${b(fmt(seq[hole]))}.`);
   }),
   R(/^What is true about the (?:given )?number pattern(?: made by the rule)?\?$/, (mt, ctx) => () => {
-    const d = pick([2, 4, 5, 6, 10]), a = pick([d, 2 * d, 3 * d - d]), seq = range(0, 5).map(i => a + i * d);
-    const truth = d % 2 === 0 && a % 2 === 0 ? 'All the numbers are even' : d === 5 ? 'The ones digits alternate between 0 and 5' : d === 10 ? 'Every number ends in the same digit' : `The numbers increase by ${d} each time`;
-    const alts = [`The numbers increase by ${d + 1} each time`, 'All the numbers are odd', `Each number is ${d} times the one before`, 'The numbers decrease each time'];
-    const ok = a % 2 === 0 && d % 2 === 0; if (ctx.title.includes('rule') && Math.random() < 0.5) return mc(`Rule: ${b(`start at ${a}, add ${d}`)}. Which is true about the pattern?`, `The numbers increase by ${d} each time`, alts.slice(0, 3), `Adding ${d} each time means the numbers increase by ${b(d)}.`);
-    if (truth.startsWith('All') === false || ok) return mc(`${m(listText(seq) + ', …')}<br>Which is true about the pattern?`, truth, alts.filter(x => x !== truth && !(ok === false && /even/.test(x))).filter(x => !(x === 'All the numbers are odd' && ok)).slice(0, 3), `${truth}.`);
-    return null;
+    const down = Math.random() < 0.2, d = pick([2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 20, 25]), len = ri(5, 6), a = down ? d * (len + ri(0, 3)) + ri(0, 2) * pick([1, d]) : ri(1, 4) * pick([1, d, 1, d + 1]) + ri(0, 3);
+    const seq = range(0, len - 1).map(i => (down ? a - i * d : a + i * d)); if (seq.some(v => v <= 0)) return null;
+    const P = [[`All the numbers are even`, s => s.every(v => v % 2 === 0)], [`All the numbers are odd`, s => s.every(v => v % 2 === 1)], [`The numbers alternate between even and odd`, s => s.every((v, i) => i === 0 || (v % 2) !== (s[i - 1] % 2))],
+      [`The numbers ${down ? 'decrease' : 'increase'} by ${d} each time`, () => true], [`The numbers ${down ? 'increase' : 'decrease'} each time`, () => false], [`The numbers ${down ? 'decrease' : 'increase'} by ${d + 1} each time`, () => false], [`The numbers ${down ? 'decrease' : 'increase'} by ${d + 2} each time`, () => false], [`Each number is ${d} times the one before`, () => false],
+      ...[2, 3, 4, 5, 6, 8, 9, 10].map(k => [`All the numbers are multiples of ${k}`, s => s.every(v => v % k === 0)]), ...[0, 5, 2, 4, 6, 8, 1, 3].map(x => [`Every number ends in ${x}`, s => s.every(v => v % 10 === x)]), [`The ones digits repeat 0 and 5`, s => s.every((v, i) => v % 10 === (s[0] % 10 + (i % 2) * 5) % 10) && s[0] % 5 === 0 && d % 5 === 0 && d % 10 !== 0]];
+    const trueOnes = P.filter(([t, f], i) => i === 3 || (i !== 4 && i !== 5 && i !== 6 && i !== 7 && f(seq))), falseOnes = P.filter(([t, f], i) => (i >= 4 && i <= 7) || (i !== 3 && !f(seq)));
+    const ans = ctx.title.includes('rule') ? pick(trueOnes) : pick(trueOnes.length > 1 && Math.random() < 0.75 ? trueOnes.filter((_, i) => i > 0) : trueOnes), wrong = sample(falseOnes.map(x => x[0]), 3);
+    if (wrong.length < 3) return null;
+    const lead = ctx.title.includes('rule') ? `Rule: ${b(`start at ${a}, ${down ? 'subtract' : 'add'} ${d}`)}. Which is true about the pattern?` : `${m(seq.join(', ') + ', …')}<br>Which is true about the pattern?`;
+    return mc(lead, ans[0], wrong, `${ans[0]}. (The numbers are ${seq.join(', ')}.)`);
   }),
   R(/^Compare number patterns$/, () => () => {
     const a1 = ri(1, 8), d1 = ri(2, 6), a2 = ri(1, 8), d2 = ri(2, 6), n = ri(4, 6), t1 = a1 + (n - 1) * d1, t2 = a2 + (n - 1) * d2; if (t1 === t2) return null;
@@ -105,7 +109,12 @@ export const PATTERN_RULES = [
     return mc(`What comes next? ${m(seq.map(f).join(', ') + ', ___')}`, f(nxt), uniq([f(nxt + step), f(nxt - step), f(nxt + 1)]).filter(x => x !== f(nxt)), `Add ${step}/${den} each time: ${b(f(nxt))}.`);
   }),
   R(/^Geometric sequences with fractions$/, () => () => {
-    const a = pick([1, 2, 4, 8, 16]), seq = [a, a / 2, a / 4, a / 8], f = n => (Number.isInteger(n) ? String(n) : `${n * 8 / gcd(n * 8, 8)}/${8 / gcd(n * 8, 8)}`), nxt = a / 16, fr = n => { const num_ = Math.round(n * 16), g = gcd(num_, 16); return g === num_ ? (16 / g === 1 ? String(num_ / g) : `1/${16 / g}`) : `${num_ / g}/${16 / g}`; };
-    return mc(`Each number is half of the one before.<br>${m(seq.map(fr).join(', ') + ', ___')}`, fr(nxt), uniq([fr(nxt * 2), fr(nxt / 2), fr(nxt * 3)]).filter(x => x !== fr(nxt)), `Half of ${fr(seq[3])} is ${b(fr(nxt))}.`);
+    const red = ([n, d]) => { const g = gcd(n, d); return [n / g, d / g]; }, f = ([n, d]) => (d === 1 ? String(n) : `${n}/${d}`);
+    const shrink = Math.random() < 0.6, den = pick([2, 3, 4, 5, 10]);
+    let seq, next, r, rule;
+    if (shrink) { const s = ri(1, 5); r = [1, den]; seq = [0, 1, 2, 3].map(i => red([s, den ** i])); next = red([s, den ** 4]); rule = den === 2 ? 'Each number is half of the one before.' : `Each number is 1/${den} of the one before.`; }
+    else { const mult = pick([2, 3, 4, 5]), n0 = ri(1, 3), D = mult ** 3 * pick([1, 1, 2]); r = [mult, 1]; seq = [0, 1, 2, 3].map(i => red([n0 * mult ** i, D])); next = red([n0 * mult ** 4, D]); rule = `Each number is ${mult} times the one before.`; }
+    const last = seq[3], wrong = shrink ? [red([last[0], last[1] * den * den]), red([last[0] * den, last[1]]), red([last[0], last[1] + den])] : [red([last[0], last[1] * r[0]]), red([last[0] + r[0] * last[0], last[1]]), red([last[0] * (r[0] + 1), last[1]])];
+    return mc(`${rule}<br>${m(seq.map(f).join(', ') + ', ___')}`, f(next), uniq(wrong.map(f)).filter(x => x !== f(next)), `${shrink ? 'Divide' : 'Multiply'} ${f(last)} by ${shrink ? den : r[0]}: ${b(f(next))}.`);
   })
 ];

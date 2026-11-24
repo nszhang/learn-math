@@ -37,8 +37,16 @@ export const DECIMAL_RULES = [
   /* ===== place value ===== */
   R(/^What decimal number is illustrated\?$|^Model decimals and fractions(?:: up to (?:tenths|hundredths))?$/, (mt, ctx) => () => {
     const p = defaultPlaces(ctx.grade, ctx.title), x = p === 1 ? ri(1, 9) / 10 : ri(1, 99) / 100, fracStr = p === 1 ? fs(Math.round(x * 10), 10) : fs(Math.round(x * 100), 100);
-    if (/Model decimals and fractions/.test(ctx.title)) return mc(`${p === 1 ? tenthsBar(x) : decGrid(x)}Which pair of a fraction and a decimal matches the shaded part?`, `${fracStr} and ${dfmt(x, p)}`, [`${fracStr} and ${dfmt(x / 10, p + 1)}`, `${fs(10 - Math.round(x * 10), 10)} and ${dfmt(1 - x, p)}`, `${fracStr} and ${dfmt(x * 10 % 10 || 0.5, p)}`].filter(v => v !== `${fracStr} and ${dfmt(x, p)}`), `The shaded part is ${fracStr} = ${b(dfmt(x, p))}.`, 4);
-    return mc(`${p === 1 ? tenthsBar(x) : decGrid(x)}What decimal number does the shaded part show?`, dfmt(x, p), uniq([dfmt(x / 10, p + 1).replace(/0+$/, ''), dfmt(1 - x, p), dfmt(x * 10, p)].filter(v => +v < 1.001)).filter(v => v !== dfmt(x, p)).concat(['0.5', '0.25']).filter(v => v !== dfmt(x, p)).slice(0, 3), `${p === 1 ? Math.round(x * 10) + ' of 10' : Math.round(x * 100) + ' of 100'} parts are shaded: ${b(dfmt(x, p))}.`, 4);
+    const D = p === 1 ? 10 : 100, k = Math.round(x * D), un = Math.random() < 0.4, y = fix(1 - x, p), k2 = D - k, pic = p === 1 ? tenthsBar(x) : decGrid(x), word = p === 1 ? pick(['bar', 'strip']) : pick(['grid', 'square']), parts = p === 1 ? 'tenths' : 'hundredths';
+    if (/Model decimals and fractions/.test(ctx.title)) {
+      const form = pick(['pair', 'pair', 'frac', 'count', 'unpair']);
+      if (form === 'count') return num(`${pic}The ${word} is split into ${D} equal parts. How many parts are shaded?`, k, `${k} of ${D} parts are shaded: ${b(k)}.`);
+      if (form === 'frac') return mc(`${pic}What fraction of the ${word} is shaded?`, fracStr, [fs(k2, D), fs(k, D / 10 + D), fs(Math.min(D - 1, k + 1), D), fs(Math.max(1, k - 1), D)].filter(v => v !== fracStr), `${k} of ${D} parts: ${b(fracStr)}.`, 4);
+      if (form === 'unpair') return mc(`${pic}Which pair of a fraction and a decimal matches the part that is ${b('not')} shaded?`, `${fs(k2, D)} and ${dfmt(y, p)}`, [`${fracStr} and ${dfmt(x, p)}`, `${fs(k2, D)} and ${dfmt(y / 10, p + 1)}`, `${fracStr} and ${dfmt(y, p)}`].filter(v => v !== `${fs(k2, D)} and ${dfmt(y, p)}`), `${k2} of ${D} parts are not shaded: ${fs(k2, D)} = ${b(dfmt(y, p))}.`, 4);
+      return mc(`${pic}Which pair of a fraction and a decimal matches the shaded part?`, `${fracStr} and ${dfmt(x, p)}`, [`${fracStr} and ${dfmt(x / 10, p + 1)}`, `${fs(10 - Math.round(x * 10), 10)} and ${dfmt(1 - x, p)}`, `${fracStr} and ${dfmt(x * 10 % 10 || 0.5, p)}`].filter(v => v !== `${fracStr} and ${dfmt(x, p)}`), `The shaded part is ${fracStr} = ${b(dfmt(x, p))}.`, 4);
+    }
+    if (un) return mc(`${pic}What decimal number does the part that is ${b('not')} shaded show?`, dfmt(y, p), uniq([dfmt(x, p), dfmt(y / 10, p + 1), dfmt(y * 10, p), '0.5', '0.25']).filter(v => v !== dfmt(y, p) && +v < 1.001).slice(0, 3), `${k2} of ${D} ${parts === 'tenths' ? 'parts' : 'parts'} are not shaded: ${b(dfmt(y, p))}.`, 4);
+    return mc(`${pic}What decimal number does the shaded part show?`, dfmt(x, p), uniq([dfmt(x / 10, p + 1).replace(/0+$/, ''), dfmt(1 - x, p), dfmt(x * 10, p)].filter(v => +v < 1.001)).filter(v => v !== dfmt(x, p)).concat(['0.5', '0.25']).filter(v => v !== dfmt(x, p)).slice(0, 3), `${p === 1 ? Math.round(x * 10) + ' of 10' : Math.round(x * 100) + ' of 100'} parts are shaded: ${b(dfmt(x, p))}.`, 4);
   }),
   R(/^Understanding decimals expressed in words(?:: up to (?:tenths|hundredths|thousandths))?$/, (mt, ctx) => () => {
     const p = defaultPlaces(ctx.grade, ctx.title), x = rd(p, { whole: ri(0, 9) }), w = decWords(x), alts = [rd(p), rd(p), fix(x * 10, p)].map(v => dfmt(v, p)).filter(v => v !== dfmt(x, p));
@@ -128,8 +136,11 @@ export const DECIMAL_RULES = [
   R(/^Decimal number lines(?:: up to (?:tenths|hundredths))?$|^Graph decimals on number lines(?:: up to (?:tenths|hundredths))?$/, (mt, ctx) => () => {
     const p = ctx.grade <= 3 ? 1 : (placesOf(ctx.title) || pick([1, 2])), x = p === 1 ? ri(1, 9) / 10 : ri(1, 9) / 10 + ri(1, 9) / 100;
     if (p === 2) { const lo = Math.floor(x * 10) / 10, hi = fix(lo + 0.1, 1), letters = ['A', 'B', 'C', 'D'], vals = sample(range(1, 9).map(k => fix(lo + k / 100, 2)), 4), k = ri(0, 3); return mc(`${decLine({ lo, hi, step: 0.01, marks: vals.map((v, i) => ({ v, label: letters[i], color: C.blue })) })}Which point shows ${b(dfmt(vals[k], 2))}?`, letters[k], letters.filter((_, i) => i !== k), `Count the small ticks: ${b(letters[k])}.`, 4); }
-    const vals = sample(range(1, 9).map(v => v / 10), 4), letters = ['A', 'B', 'C', 'D'], k = ri(0, 3);
-    if (/Graph/.test(ctx.title)) return mc(`${decLine({ lo: 0, hi: 1, step: 0.1, marks: vals.map((v, i) => ({ v, label: letters[i], color: C.blue })) })}Which point shows ${b(dfmt(vals[k], 1))}?`, letters[k], letters.filter((_, i) => i !== k), `Count the ticks from 0: point ${b(letters[k])}.`, 4);
+    const vals = sample(range(1, 9).map(v => v / 10), 4), letters = ['A', 'B', 'C', 'D'], k = ri(0, 3), line = decLine({ lo: 0, hi: 1, step: 0.1, marks: vals.map((v, i) => ({ v, label: letters[i], color: C.blue })) });
+    const form = /Graph/.test(ctx.title) ? pick(['which', 'which', 'greatest', 'least']) : pick(['single', 'read', 'read', 'greatest', 'least']);
+    if (form === 'which') return mc(`${line}Which point shows ${b(dfmt(vals[k], 1))}?`, letters[k], letters.filter((_, i) => i !== k), `Count the ticks from 0: point ${b(letters[k])}.`, 4);
+    if (form === 'read') return mc(`${line}What decimal does point ${b(letters[k])} show?`, dfmt(vals[k], 1), vals.filter((_, i) => i !== k).map(v => dfmt(v, 1)), `Point ${letters[k]} is ${vals[k] * 10} ticks from 0: ${b(dfmt(vals[k], 1))}.`, 4);
+    if (form === 'greatest' || form === 'least') { const g = form === 'greatest', t = g ? Math.max(...vals) : Math.min(...vals), kk = vals.indexOf(t); return mc(`${line}Which point shows the ${g ? 'greatest' : 'least'} decimal?`, letters[kk], letters.filter((_, i) => i !== kk), `The ${g ? 'right-most' : 'left-most'} point is ${b(letters[kk])} (${dfmt(t, 1)}).`, 4); }
     return mc(`${decLine({ lo: 0, hi: 1, step: 0.1, marks: [{ v: vals[k], label: '●' }] })}What decimal does the point show?`, dfmt(vals[k], 1), near(vals[k] * 10, 5, 3, { min: 1 }).filter(v => v < 10).map(v => dfmt(v / 10, 1)), `The point is at ${b(dfmt(vals[k], 1))}.`, 4);
   }),
   R(/^Graph fractions as decimals on number lines(?:: up to (?:tenths|hundredths))?$/, (mt, ctx) => () => {
@@ -139,11 +150,22 @@ export const DECIMAL_RULES = [
     return mc(`${decLine({ lo: 0, hi: 1, step: 0.1, marks: vals.map((v, i) => ({ v, label: letters[i], color: C.blue })) })}Which point shows the decimal equal to ${m(stack(n, d))}?`, ans, letters.slice(0, vals.length).filter(v => v !== ans), `${fs(n, d)} = ${b(fix(x, 3))}: point ${b(ans)}.`, 4);
   }),
   R(/^Convert fractions to decimals(?:: (?:denominators of 10 and 100|up to (?:tenths|hundredths|thousandths)))?$/, (mt, ctx) => () => {
-    const t = ctx.title, p = /tenths/.test(t) ? 1 : /thousandths/.test(t) ? 3 : /hundredths|10 and 100/.test(t) ? 2 : pick([1, 2]), d = 10 ** p, n = ri(1, d - 1), x = n / d;
+    const t = ctx.title, p = /tenths/.test(t) ? 1 : /thousandths/.test(t) ? 3 : /hundredths|10 and 100/.test(t) ? 2 : pick([1, 2]), d = 10 ** p, n = ri(1, d - 1), x = n / d, w = Math.random() < 0.3 ? ri(1, 9) : 0, X = fix(w + x, p), nmx = pick(NAMES);
+    const unit = pick([['kg', 'of flour', 'used'], ['L', 'of juice', 'poured'], ['m', 'of ribbon', 'cut'], ['km', 'of trail', 'hiked'], ['kg', 'of apples', 'bought']]), pl = DEC_PLACES[p - 1];
+    const wr = uniq([dfmt(w + n / (d * 10), p + 1), dfmt(w + n / (d / 10 || 1), p), dfmt(w + 1 - x, p), dfmt(w + 0.1 * (n % 10 || 1), p)]).filter(v => v !== dfmt(X, p) && +v >= 0);
+    const form = w ? pick(['mixed', 'word']) : pick(['stack', 'stack', 'words', 'word']);
+    if (form === 'mixed') return mc(`Write ${m(`${w} ${stack(n, d)}`)} as a decimal.`, dfmt(X, p), wr, `${w} + ${n}/${d} = ${w} + ${dfmt(x, p)} = ${b(dfmt(X, p))}.`);
+    if (form === 'words') return mc(`Write ${b(`${n} ${n === 1 ? pl.replace(/s$/, '') : pl}`)} as a decimal.`, dfmt(x, p), uniq([dfmt(n / (d * 10), p + 1), dfmt(n / (d / 10 || 1), p), dfmt(1 - x, p)]).filter(v => v !== dfmt(x, p) && +v >= 0), `${n} ${pl} = ${n}/${d} = ${b(dfmt(x, p))}.`);
+    if (form === 'word') return mc(`${nmx} ${unit[2]} ${m(`${w ? w + ' ' : ''}${stack(n, d)}`)} ${unit[0]} ${unit[1]}. Write this amount as a decimal.`, dfmt(X, p), wr, `${w ? w + ' + ' : ''}${n}/${d} = ${b(dfmt(X, p))}.`);
     return mc(`Write ${m(stack(n, d))} as a decimal.`, dfmt(x, p), uniq([dfmt(n / (d * 10), p + 1), dfmt(n / (d / 10 || 1), p), dfmt(1 - x, p)]).filter(v => v !== dfmt(x, p) && +v >= 0), `${n}/${d} = ${b(dfmt(x, p))}.`);
   }),
   R(/^Convert decimals to fractions(?:: up to (?:tenths|hundredths|thousandths))?$/, (mt, ctx) => () => {
-    const t = ctx.title, p = /tenths/.test(t) ? 1 : /thousandths/.test(t) ? 3 : /hundredths/.test(t) ? 2 : pick([1, 2]), d = 10 ** p, n = ri(1, d - 1), x = n / d;
+    const t = ctx.title, p = /tenths/.test(t) ? 1 : /thousandths/.test(t) ? 3 : /hundredths/.test(t) ? 2 : pick([1, 2]), d = 10 ** p, n = ri(1, d - 1), x = n / d, w = Math.random() < 0.3 ? ri(1, 9) : 0, X = fix(w + x, p), nmx = pick(NAMES);
+    const unit = pick([['kg', 'of flour', 'used'], ['L', 'of juice', 'poured'], ['m', 'of ribbon', 'cut'], ['km', 'of trail', 'hiked'], ['kg', 'of apples', 'bought']]), pl = DEC_PLACES[p - 1];
+    const form = w ? pick(['mixed', 'word']) : pick(['plain', 'plain', 'blank', 'word']);
+    if (form === 'mixed') return mc(`Write ${b(dfmt(X, p))} as a mixed number (not simplified).`, mixedStr(w, n, d), uniq([mixedStr(w, n, d * 10), mixedStr(w, n, d / 10 || 10), mixedStr(w, n + 1, d)]).filter(v => v !== mixedStr(w, n, d)), `${dfmt(X, p)} = ${w} + ${n}/${d} = ${b(mixedStr(w, n, d))}.`);
+    if (form === 'word') return mc(`${nmx} ${unit[2]} ${b(dfmt(X, p))} ${unit[0]} ${unit[1]}. Write this amount as ${w ? 'a mixed number' : 'a fraction'} (not simplified).`, w ? mixedStr(w, n, d) : fs(n, d), uniq(w ? [mixedStr(w, n, d * 10), mixedStr(w, n, d / 10 || 10), mixedStr(w, n + 1, d)] : [fs(n, d * 10), fs(n, d / 10 || 10), fs(n + 1, d)]).filter(v => v !== (w ? mixedStr(w, n, d) : fs(n, d))), `${dfmt(X, p)} = ${b(w ? mixedStr(w, n, d) : fs(n, d))}.`);
+    if (form === 'blank') return num(`${m(`${dfmt(x, p)} = ${stack('___', d)}`)}<br>What number goes in the numerator?`, n, `${dfmt(x, p)} is ${n} ${pl} = ${n}/${d}: ${b(n)}.`);
     return mc(`Write ${b(dfmt(x, p))} as a fraction (not simplified).`, fs(n, d), uniq([fs(n, d * 10), fs(n, d / 10 || 10), fs(n + 1, d)]).filter(v => v !== fs(n, d)), `${dfmt(x, p)} = ${b(fs(n, d))}.`);
   }),
   R(/^Convert between decimals and fractions$/, (mt, ctx) => () => {

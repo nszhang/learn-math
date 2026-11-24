@@ -41,7 +41,15 @@ export const STAT9_RULES = [
     if (kind === 'notc') return mc(`A bag has ${r} red, ${g} green and ${bl} blue marbles. One is drawn at random. What is the probability it is ${b('not ' + col[0])}?`, frac(tot - col[1], tot), fracWrong(tot - col[1], tot), `1 − ${col[1]}/${tot} = ${b(frac(tot - col[1], tot))}.`, 4);
     return mc(`A bag has ${r} red, ${g} green and ${bl} blue marbles. One is drawn at random. What is the probability it is ${b(col[0])}?`, frac(col[1], tot), fracWrong(col[1], tot), `${col[1]} out of ${tot}: ${b(frac(col[1], tot))}.`, 4);
   }),
-  R(/^Factorials$/, () => () => { const n = ri(3, 8); return num(`Evaluate ${m(`${n}!`)}.`, fact(n), `${Array.from({ length: n }, (_, i) => n - i).join(' × ')} = ${b(fmt(fact(n)))}.`); }),
+  R(/^Factorials$/, () => () => {
+    const f = ri(0, 5), n = ri(0, 10), who = pick(NAMES);
+    if (f === 1) { const a = ri(5, 12), c = ri(a - 4, a - 1); return num(`Evaluate ${m(`${a}! ÷ ${c}!`)}.`, fact(a) / fact(c), `${a}!/${c}! = ${Array.from({ length: a - c }, (_, i) => a - i).join(' × ')} = ${b(fmt(fact(a) / fact(c)))}.`); }
+    if (f === 2) { const k = ri(3, 8), what = pick(['students line up for a photo', 'books are arranged on a shelf', 'runners finish a race (no ties)', 'flags are placed in a row']); return num(`In how many different orders can ${b(k)} ${what}?`, fact(k), `${k}! = ${Array.from({ length: k }, (_, i) => k - i).join(' × ')} = ${b(fmt(fact(k)))}.`); }
+    if (f === 3) { const n2 = ri(3, 8), ans = fact(n2); return num(`${m(`n! = ${fmt(ans)}`)}. What is n?`, n2, `${n2}! = ${fmt(ans)}, so n = ${b(n2)}.`); }
+    if (f === 4) { const a = ri(4, 9), c = ri(1, a - 2), d = a - c; return num(`Evaluate ${m(`${a}! ÷ (${c}! × ${d}!)`)}.`, fact(a) / (fact(c) * fact(d)), `${fmt(fact(a))} ÷ (${fmt(fact(c))} × ${fmt(fact(d))}) = ${b(fmt(fact(a) / (fact(c) * fact(d))))}.`); }
+    if (f === 5) return num(`Evaluate ${m(`${Math.max(n, 3)}! − ${Math.max(n, 3) - 1}!`)}.`, fact(Math.max(n, 3)) - fact(Math.max(n, 3) - 1), `${fmt(fact(Math.max(n, 3)))} − ${fmt(fact(Math.max(n, 3) - 1))} = ${b(fmt(fact(Math.max(n, 3)) - fact(Math.max(n, 3) - 1)))}.`);
+    return num(`Evaluate ${m(`${n}!`)}.`, fact(n), n < 2 ? `By definition, ${n}! = ${b(1)}.` : `${Array.from({ length: n }, (_, i) => n - i).join(' × ')} = ${b(fmt(fact(n)))}.`);
+  }),
   R(/^Permutations$|^Combinations and permutations$|^Permutation and combination notation$/, (mt, ctx) => () => {
     const n = ri(5, 9), r = ri(2, 4), perm = Math.random() < 0.5;
     return /notation/.test(ctx.title) ? num(`Evaluate ${m(`<sub>${n}</sub>${perm ? 'P' : 'C'}<sub>${r}</sub>`)}.`, perm ? nPr(n, r) : nCr(n, r), `${perm ? 'n!/(n−r)!' : 'n!/(r!(n−r)!)'} = ${b(perm ? nPr(n, r) : nCr(n, r))}.`) : perm ? num(`In how many ways can ${b(r)} of ${b(n)} runners finish first, second and so on (order matters)?`, nPr(n, r), `P(${n},${r}) = ${b(nPr(n, r))}.`) : num(`In how many ways can a committee of ${b(r)} be chosen from ${b(n)} people?`, nCr(n, r), `C(${n},${r}) = ${b(nCr(n, r))}.`);
@@ -96,7 +104,14 @@ export const STAT9_RULES = [
     if (/Find values/.test(t)) return num(`A normal variable has mean ${b(mu)} and standard deviation ${b(sg)}. What value of x has a z-score of ${b(z)}?`, x, `x = ${mu} + ${z}(${sg}) = ${b(x)}.`);
     if (/Distributions of sample means|Central Limit/.test(t)) { const n = pick([4, 9, 16, 25, 36]); return /Central/.test(t) ? mc('According to the Central Limit Theorem, as the sample size grows, the distribution of sample means becomes…', 'approximately normal', ['skewed', 'uniform', 'binomial'], 'The sampling distribution of the mean approaches normal.', 4) : num(`A population has mean ${b(mu)} and standard deviation ${b(sg * 3)}. For samples of size ${b(n)}, what is the standard deviation of the sample mean? (round to 2 decimals)`, fix((sg * 3) / Math.sqrt(n), 2), `σ/√n = ${sg * 3}/${Math.sqrt(n)} = ${b(fix((sg * 3) / Math.sqrt(n), 2))}.`); }
     if (/approximate binomial/.test(t)) { const n = pick([20, 40, 100]), p = 0.5; return num(`A binomial distribution has n = ${b(n)} and p = ${b(p)}. What mean should the approximating normal distribution have?`, n * p, `μ = np = ${b(n * p)}.`); }
-    if (/II/.test(t) || /Find probabilities using the normal distribution$/.test(t)) { const key = pick(Object.keys(TABLE_Z)); return num(`For a standard normal variable Z, find P(Z < ${b(key)}). (Use a z-table; 4 decimals)`, TABLE_Z[key], `From the z-table, P(Z < ${key}) = ${b(TABLE_Z[key])}.`); }
+    if (/II/.test(t) || /Find probabilities using the normal distribution$/.test(t)) {
+      const Phi = zz => { const a = Math.abs(zz), N = 2000, h = a / N; let s = 0; for (let i = 0; i <= N; i++) { const w = i === 0 || i === N ? 1 : i % 2 ? 4 : 2; s += w * Math.exp(-((i * h) ** 2) / 2); } const I = (s * h) / 3 / Math.sqrt(2 * Math.PI); return zz >= 0 ? 0.5 + I : 0.5 - I; };
+      const zk = () => fix(ri(-30, 30) / 10, 1), f = ri(0, 4), z1 = zk(), z2 = fix(z1 + ri(1, 25) / 10, 1), Z_ = v_ => String(v_).replace('-', MINUS);
+      if (f === 1) return num(`For a standard normal variable Z, find P(Z > ${b(Z_(z1))}). (Use a z-table; 4 decimals)`, fix(1 - Phi(z1), 4), `P(Z > ${Z_(z1)}) = 1 − P(Z < ${Z_(z1)}) = 1 − ${fix(Phi(z1), 4)} = ${b(fix(1 - Phi(z1), 4))}.`);
+      if (f === 2) return num(`For a standard normal variable Z, find P(${b(Z_(z1))} < Z < ${b(Z_(z2))}). (Use a z-table; 4 decimals)`, fix(Phi(z2) - Phi(z1), 4), `P(Z < ${Z_(z2)}) − P(Z < ${Z_(z1)}) = ${fix(Phi(z2), 4)} − ${fix(Phi(z1), 4)} = ${b(fix(Phi(z2) - Phi(z1), 4))}.`);
+      if (f === 3) { const zz = fix(ri(-25, 25) / 10, 1), xx = fix(mu + zz * sg, 2), nm = pick(['test scores', 'heights in cm', 'daily temperatures', 'delivery times in minutes']); return num(`${nm[0].toUpperCase() + nm.slice(1)} are normally distributed with mean ${b(mu)} and standard deviation ${b(sg)}. Find P(X < ${b(xx)}). (4 decimals)`, fix(Phi(zz), 4), `z = (${xx} − ${mu}) ÷ ${sg} = ${Z_(zz)}, so P(X < ${xx}) = ${b(fix(Phi(zz), 4))}.`); }
+      return num(`For a standard normal variable Z, find P(Z < ${b(Z_(z1))}). (Use a z-table; 4 decimals)`, fix(Phi(z1), 4), `From the z-table, P(Z < ${Z_(z1)}) = ${b(fix(Phi(z1), 4))}.`);
+    }
     const k = pick([[1, 0.68], [2, 0.95], [3, 0.997]]); return num(`In a normal distribution, what proportion of values lie within ${b(k[0])} standard deviation${k[0] > 1 ? 's' : ''} of the mean? (empirical rule)`, k[1], `The empirical rule says ${b(k[1])}.`);
   }),
 
@@ -159,7 +174,19 @@ export const STAT9_RULES = [
   /* ===== sets ===== */
   R(/^Sets, subsets and complements$|^Set-builder notation$|^Unions and intersections of sets$/, (mt, ctx) => () => {
     const U = range(1, 10), A = sample(U, ri(3, 5)).sort((x, y) => x - y), B_ = sample(U, ri(3, 5)).sort((x, y) => x - y), t = ctx.title, set_ = a => `{${a.join(', ')}}`;
-    if (/Set-builder/.test(t)) { const k = ri(2, 6); const els = range(1, 12).filter(x => x > k && x < k + 5); return mc(`Which is the set ${b(set_(els))} written in set-builder notation?`, `{x | x is an integer, ${k} < x < ${k + 5}}`, [`{x | x is an integer, ${k} ≤ x ≤ ${k + 5}}`, `{x | x > ${k}}`, `{x | x < ${k + 5}}`], `The integers strictly between ${k} and ${k + 5}.`, 4); }
+    if (/Set-builder/.test(t)) {
+      const fam = ri(0, 4), a = ri(0, 9), len = ri(3, 6), k = ri(2, 9), N = ri(3, 7) * k, mm = ri(3, 7);
+      const sb = (cond) => `{x | ${cond}}`;
+      let nt, ros, wn, wr;
+      if (fam === 0) { nt = sb(`x is an integer, ${a} < x < ${a + len + 1}`); ros = range(a + 1, a + len); wn = [sb(`x is an integer, ${a} ≤ x ≤ ${a + len + 1}`), sb(`x is an integer, ${a} < x ≤ ${a + len + 1}`), sb(`x is an integer, ${a} ≤ x < ${a + len + 1}`)]; wr = [range(a, a + len + 1), range(a + 1, a + len + 1), range(a, a + len)]; }
+      else if (fam === 1) { nt = sb(`x is an integer, ${a} ≤ x ≤ ${a + len}`); ros = range(a, a + len); wn = [sb(`x is an integer, ${a} < x < ${a + len}`), sb(`x is an integer, ${a} < x ≤ ${a + len}`), sb(`x is an integer, ${a} ≤ x < ${a + len}`)]; wr = [range(a + 1, a + len - 1), range(a + 1, a + len), range(a, a + len - 1)]; }
+      else if (fam === 2) { nt = sb(`x is a multiple of ${k}, 0 < x ≤ ${N}`); ros = range(k, N, k); wn = [sb(`x is a multiple of ${k}, 0 < x < ${N}`), sb(`x is a factor of ${N}`), sb(`x is a multiple of ${k + 1}, 0 < x ≤ ${N}`)]; wr = [range(k, N - k, k), range(k, N + k, k), range(k + 1, N, k + 1)]; }
+      else if (fam === 3) { nt = sb(`x = n², n = 1, 2, …, ${mm}`); ros = range(1, mm).map(v => v * v); wn = [sb(`x = 2n, n = 1, 2, …, ${mm}`), sb(`x = n², n = 1, 2, …, ${mm + 1}`), sb(`x = n³, n = 1, 2, …, ${mm}`)]; wr = [range(1, mm).map(v => 2 * v), range(1, mm + 1).map(v => v * v), range(1, mm).map(v => v ** 3)]; }
+      else { const odd = Math.random() < 0.5, st = odd ? 1 : 2, top = st + 2 * (len + 1) - 2; nt = sb(`x is a positive ${odd ? 'odd' : 'even'} integer, x ≤ ${top}`); ros = range(st, top, 2); wn = [sb(`x is a positive ${odd ? 'even' : 'odd'} integer, x ≤ ${top}`), sb(`x is a positive ${odd ? 'odd' : 'even'} integer, x < ${top}`), sb(`x is a positive integer, x ≤ ${top}`)]; wr = [range(odd ? 2 : 1, top + 1, 2), range(st, top - 2, 2), range(1, top)]; }
+      if (ros.length < 2) return null;
+      if (Math.random() < 0.5) return mc(`Which is the set ${b(set_(ros))} written in set-builder notation?`, nt, wn, `Check the first and last elements of the set against each condition: ${nt}.`, 4);
+      return mc(`Which set is written as ${b(nt)}?`, set_(ros), wr.map(set_), `List every number that satisfies the condition: ${set_(ros)}.`, 4);
+    }
     if (/Unions/.test(t)) { const un = uniq([...A, ...B_]).sort((x, y) => x - y), it = A.filter(x => B_.includes(x)), which = pick(['union', 'intersection']), ans = which === 'union' ? un : it; if (un.length === it.length || un.length === A.length || un.length === B_.length || !it.length) return null; return mc(`A = ${set_(A)} and B = ${set_(B_)}. Find the ${b(which)} of A and B${which === 'union' ? ' (A ∪ B)' : ' (A ∩ B)'}.`, ans.length ? set_(ans) : '∅ (empty set)', [which === 'union' ? set_(it) : set_(un), set_(A), set_(B_)].filter(v_ => v_ !== set_(ans)), `${which === 'union' ? 'All elements in A or B' : 'Elements in both A and B'}.`, 4); }
     const comp = U.filter(x => !A.includes(x)); return mc(`The universal set is U = {1, …, 10} and A = ${set_(A)}. What is the complement A′?`, set_(comp), [set_(A), set_(comp.slice(1)), set_([...comp, 0])], `A′ contains the elements of U not in A.`, 4);
   })

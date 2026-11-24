@@ -45,7 +45,14 @@ export const TRIG9_RULES = [
     return num(`${rightTriSvg({ angle: '', labels: { adj: hide === 'a' ? '?' : a, opp: c, hyp: hide === 'h' ? '?' : h } })}A right triangle has legs and hypotenuse as shown. Find the missing length.`, hide === 'h' ? h : a, hide === 'h' ? `√(${a}² + ${c}²) = ${b(h)}.` : `√(${h}² − ${c}²) = ${b(a)}.`);
   }),
   R(/^Converse of the Pythagorean theorem$/, () => () => {
-    const [a, c, h] = pick(TRIPLES), right = Math.random() < 0.5, hh = right ? h : h + 1; return yesNo(`A triangle has sides ${b(a)}, ${b(c)} and ${b(hh)}. Is it a right triangle?`, a * a + c * c === hh * hh, a * a + c * c === hh * hh ? 'The Pythagorean relationship holds.' : `${a}² + ${c}² = ${a * a + c * c} ≠ ${hh * hh}.`, ['Yes', 'No']);
+    const T = [[3, 4, 5], [5, 12, 13], [8, 15, 17], [7, 24, 25], [6, 8, 10], [9, 12, 15], [20, 21, 29], [12, 35, 37], [9, 40, 41], [15, 20, 25], [12, 16, 20], [10, 24, 26], [16, 30, 34], [11, 60, 61], [28, 45, 53], [14, 48, 50], [18, 24, 30], [21, 28, 35]];
+    const [a0, c0, h0] = pick(T), right = Math.random() < 0.5, d = pick([1, 2, -1, -2, 3]), f = ri(0, 2), unit = pick(['cm', 'm', 'mm', 'km']), who = pick(NAMES);
+    const sides = shuffle(right ? [a0, c0, h0] : [a0, c0, h0 + d]), [s1, s2, s3] = sides, [x, y, z] = [...sides].sort((p, q) => p - q);
+    if (!right && x + y <= z) return null;
+    const isRight = x * x + y * y === z * z, why = isRight ? `${x}² + ${y}² = ${x * x + y * y} = ${z}², so the Pythagorean relationship holds.` : `${x}² + ${y}² = ${x * x + y * y}, but ${z}² = ${z * z}, so it is not a right triangle.`;
+    if (f === 1) { const nm = ['a ladder', 'a ramp', 'a garden bed', 'a sail', 'a kite frame'][ri(0, 4)]; return yesNo(`${who} builds ${nm} in the shape of a triangle with sides ${b(`${s1} ${unit}`)}, ${b(`${s2} ${unit}`)} and ${b(`${s3} ${unit}`)}. Does it have a right angle?`, isRight, why, ['Yes', 'No']); }
+    if (f === 2) { const good = [a0, c0, h0], bad = [[a0, c0, h0 + 1], [a0 + 1, c0, h0], [a0, c0 + 2, h0]], t = x => `${x[0]}, ${x[1]}, ${x[2]}`; return mc(`Which set of side lengths forms a ${b('right triangle')}?`, t(good), bad.map(t), `${a0}² + ${c0}² = ${a0 * a0 + c0 * c0} = ${h0}², so ${t(good)} works.`, 4); }
+    return yesNo(`A triangle has sides ${b(s1)}, ${b(s2)} and ${b(s3)}. Is it a right triangle?`, isRight, why, ['Yes', 'No']);
   }),
   R(/^Pythagorean Inequality Theorems$/, () => () => {
     const a = ri(3, 6), c = ri(4, 8), kind = pick(['acute', 'obtuse']), h = kind === 'acute' ? Math.round(Math.sqrt(a * a + c * c)) - 1 + 0 : Math.round(Math.sqrt(a * a + c * c)) + 1, s = [a, c, h].sort((x, y) => x - y), type = s[2] * s[2] < s[0] * s[0] + s[1] * s[1] ? 'acute' : s[2] * s[2] > s[0] * s[0] + s[1] * s[1] ? 'obtuse' : 'right';
@@ -58,7 +65,8 @@ export const TRIG9_RULES = [
 
   /* ===== trigonometric ratios ===== */
   R(/^Trigonometric ratios: sin, cos and tan$|^Trigonometric ratios: csc, sec and cot$|^Find trigonometric ratios using right triangles$|^Trigonometric ratios in similar right triangles$/, (mt, ctx) => () => {
-    const [a, c, h] = pick(TRIPLES), fn = /csc/.test(ctx.title) ? pick(['csc', 'sec', 'cot']) : pick(['sin', 'cos', 'tan']);
+    let [a, c, h] = pick([...TRIPLES, [6, 8, 10], [9, 12, 15], [20, 21, 29], [12, 35, 37], [9, 40, 41], [15, 20, 25], [12, 16, 20], [10, 24, 26], [11, 60, 61], [28, 45, 53], [16, 30, 34], [14, 48, 50]]), fn = /csc/.test(ctx.title) ? pick(['csc', 'sec', 'cot']) : pick(['sin', 'cos', 'tan']);
+    if (Math.random() < 0.5) [a, c] = [c, a];
     const val = { sin: [c, h], cos: [a, h], tan: [c, a], csc: [h, c], sec: [h, a], cot: [a, c] }[fn], ans = fs(...simp(...val));
     return mc(`${rightTriSvg({ angle: 'θ', labels: { adj: a, opp: c, hyp: h } })}Find ${b(fn + ' θ')}.`, ans, uniq(Object.values({ sin: [c, h], cos: [a, h], tan: [c, a], csc: [h, c], sec: [h, a], cot: [a, c] }).map(v_ => fs(...simp(...v_)))).filter(v_ => v_ !== ans).slice(0, 3), `${fn} = ${{ sin: 'opposite ÷ hypotenuse', cos: 'adjacent ÷ hypotenuse', tan: 'opposite ÷ adjacent', csc: 'hypotenuse ÷ opposite', sec: 'hypotenuse ÷ adjacent', cot: 'adjacent ÷ opposite' }[fn]} = ${b(ans)}.`, 4);
   }),
@@ -83,12 +91,30 @@ export const TRIG9_RULES = [
     return mc(`Find the exact value of ${m(`${fn} ${d}°`)}.`, ans, uniq(Object.values(EXACT[base]).map(v_ => (RECIP[fn] ? recipTxt(v_) : v_)).filter(v_ => v_ && v_ !== 'undefined' && v_ !== ans)).slice(0, 3), `${fn} ${d}° = ${b(ans)}.`, 4);
   }),
   R(/^Inverses of (?:sin, cos and tan|csc, sec and cot|trigonometric functions)$/, (mt, ctx) => () => {
-    const fn = pick(['sin', 'cos', 'tan']), d = pick([30, 45, 60]), v_ = EXACT[fn][d];
-    return mc(`Find ${m(`${fn}⁻¹(${v_})`)} in degrees (principal value).`, d + '°', [(90 - d) + '°', (d * 2) + '°', '0°'].filter(x => x !== d + '°'), `${fn} ${d}° = ${v_}, so ${fn}⁻¹(${v_}) = ${b(d + '°')}.`, 4);
+    const rec = /csc, sec/.test(ctx.title) || (/trigonometric functions/.test(ctx.title) && Math.random() < 0.3);
+    const RNG = { sin: [-90, -60, -45, -30, 0, 30, 45, 60, 90], cos: [0, 30, 45, 60, 90, 120, 135, 150, 180], tan: [-60, -45, -30, 0, 30, 45, 60] };
+    const key = a => ((a % 360) + 360) % 360, dg = n => `${n < 0 ? MINUS : ''}${Math.abs(n)}°`;
+    if (rec) {
+      const RR = { csc: [-90, -60, -45, -30, 30, 45, 60, 90], sec: [0, 30, 45, 60, 120, 135, 150, 180], cot: [30, 45, 60, 90, 120, 135, 150] }, base = { csc: 'sin', sec: 'cos', cot: 'tan' }, fn = pick(['csc', 'sec', 'cot']), d = pick(RR[fn]), v_ = recipTxt(EXACT[base[fn]][key(d)]);
+      if (v_ === null || v_ === 'undefined') return null;
+      return mc(`Find ${m(`${fn}⁻¹(${v_})`)} in degrees (principal value).`, dg(d), uniq([dg(-d), dg(90 - d), dg(180 - d), dg(d + 180), dg(d * 2)]).filter(x => x !== dg(d)), `${fn} ${dg(d)} = ${v_}, and ${dg(d)} is in the principal range of ${fn}⁻¹, so ${fn}⁻¹(${v_}) = ${b(dg(d))}.`, 4);
+    }
+    const fn = pick(['sin', 'cos', 'tan']), d = pick(RNG[fn]), v_ = EXACT[fn][key(d)];
+    const f = ri(0, 1);
+    const wrong = uniq([dg(-d), dg(90 - d), dg(180 - d), dg(d + 180), dg(d * 2), dg(360 - d)].filter(x => x !== dg(d)));
+    if (f === 1 && fn !== 'tan') { const w2 = fn === 'sin' ? dg(180 - d) : dg(-d); return mc(`Find ${m(`${fn}⁻¹(${v_})`)} in degrees. Give the principal value.`, dg(d), uniq([w2, ...wrong]).filter(x => x !== dg(d)), `${fn} ${dg(d)} = ${v_} and ${dg(d)} lies in the range of ${fn}⁻¹ (${fn === 'sin' ? '−90° to 90°' : '0° to 180°'}), so the answer is ${b(dg(d))}.`, 4); }
+    return mc(`Find ${m(`${fn}⁻¹(${v_})`)} in degrees (principal value).`, dg(d), wrong, `${fn} ${dg(d)} = ${v_}, so ${fn}⁻¹(${v_}) = ${b(dg(d))}.`, 4);
   }),
   R(/^Solve trigonometric equations(?: I| II)?$/, (mt, ctx) => () => {
-    const fn = pick(['sin', 'cos']), d = pick([30, 45, 60]), v_ = EXACT[fn][d], sol = fn === 'sin' ? [d, 180 - d] : [d, 360 - d];
-    return mc(`Solve ${m(`${fn} θ = ${v_}`)} for 0° ≤ θ < 360°.`, sol.sort((x, y) => x - y).map(x => x + '°').join(' and '), uniq([`${d}° only`, `${d}° and ${180 + d}°`, `${360 - d}° and ${180 + d}°`]).filter(v_2 => v_2 !== sol.join(' and ')), `Use the reference angle ${d}° in the quadrants where ${fn} is positive.`, 4);
+    const fn = pick(['sin', 'cos', 'tan']), r = pick([30, 45, 60]), neg = Math.random() < 0.4, ex = EXACT[fn][r];
+    const Q = { sin: neg ? [180 + r, 360 - r] : [r, 180 - r], cos: neg ? [180 - r, 180 + r] : [r, 360 - r], tan: neg ? [180 - r, 360 - r] : [r, 180 + r] }[fn].sort((x, y) => x - y);
+    const RAD = { 30: 'π/6', 45: 'π/4', 60: 'π/3', 120: '2π/3', 135: '3π/4', 150: '5π/6', 210: '7π/6', 225: '5π/4', 240: '4π/3', 300: '5π/3', 315: '7π/4', 330: '11π/6' };
+    const rad_ = ctx.grade >= 12 && Math.random() < 0.5, tx = x => (rad_ ? RAD[x] : x + '°'), val = (neg ? MINUS : '') + ex;
+    const pairs = [r, 180 - r, 180 + r, 360 - r], mkSet = a => a.sort((x, y) => x - y).map(tx).join(' and ');
+    const wrongSets = uniq([`${tx(Q[0])} only`, mkSet([pairs[0], pairs[2]]), mkSet([pairs[1], pairs[3]]), mkSet([pairs[0], pairs[1]]), mkSet([pairs[2], pairs[3]]), mkSet([pairs[0], pairs[3]])]).filter(v_ => v_ !== mkSet(Q.slice()));
+    const k2 = { '1/2': '1', '√2/2': '√2', '√3/2': '√3' }[ex], coef = (fn !== 'tan' && k2 && Math.random() < 0.3);
+    const eq = coef ? `2 ${fn} θ = ${neg ? MINUS : ''}${k2}` : `${fn} θ = ${val}`;
+    return mc(`Solve ${m(eq)} for ${rad_ ? '0 ≤ θ < 2π' : '0° ≤ θ < 360°'}.`, mkSet(Q.slice()), wrongSets, `The reference angle is ${tx(r)}. ${fn} is ${neg ? 'negative' : 'positive'} in the quadrants that give ${mkSet(Q.slice())}.`, 4);
   }),
   R(/^Sine Law$|^Cosine Law$|^Solve a triangle$/, (mt, ctx) => () => {
     const A = ri(30, 70), B = ri(40, 80), a = ri(8, 25), C = 180 - A - B, bb = fix((a * sinD(B)) / sinD(A), 1);
@@ -112,11 +138,25 @@ export const TRIG9_RULES = [
     return Math.random() < 0.5 ? mc(`Convert ${b(degs + '°')} to radians.`, `${fs(n, d)}π`.replace('1/1π', 'π'), uniq([`${fs(d, n)}π`, `${fs(n + 1, d)}π`, `${fs(n, d + 1)}π`]).filter(v_ => v_ !== `${fs(n, d)}π`.replace('1/1π', 'π')), `${degs}° × π/180° = ${b(`${fs(n, d)}π`)}.`, 4) : num(`Convert ${b(fs(n, d) + 'π')} radians to degrees.`, degs, `${fs(n, d)}π × 180/π = ${b(degs)}°.`);
   }),
   R(/^Symmetry and periodicity of trigonometric functions$|^Complementary angle identities$/, (mt, ctx) => () => {
-    const a = pick([20, 25, 30, 40, 50, 65]);
-    return /Complementary/.test(ctx.title) ? mc(`${m(`sin ${a}°`)} = ${m('cos ___')}`, (90 - a) + '°', [a + '°', (180 - a) + '°', (90 + a) + '°'], `sin θ = cos(90° − θ): ${b((90 - a) + '°')}.`, 4) : mc(`${m(`sin(${a}° + 360°)`)} = ?`, `sin ${a}°`, [`cos ${a}°`, `−sin ${a}°`, `sin ${a + 180}°`], `Sine has period 360°.`, 4);
+    const a = ri(5, 85), f = ri(0, 3);
+    if (/Complementary/.test(ctx.title)) {
+      const [g1, g2] = pick([['sin', 'cos'], ['cos', 'sin'], ['tan', 'cot'], ['cot', 'tan'], ['sec', 'csc'], ['csc', 'sec']]);
+      if (f === 1) return mc(`${m(`${g1}(90° ${MINUS} ${a}°)`)} = ?`, `${g2} ${a}°`, uniq([`${g1} ${a}°`, `${MINUS}${g2} ${a}°`, `${g2} ${90 - a}°`.replace(`${g2} ${90 - a}°`, `${g1} ${90 + a}°`)]).filter(x => x !== `${g2} ${a}°`), `A function of the complement equals the co-function of the angle: ${b(`${g2} ${a}°`)}.`, 4);
+      if (f === 2) return mc(`${m(`${g1} ${a}°`)} is equal to which expression?`, `${g2}(90° ${MINUS} ${a}°)`, uniq([`${g1}(90° ${MINUS} ${a}°)`, `${g2}(${a}° ${MINUS} 90°)`, `${g2}(180° ${MINUS} ${a}°)`]).filter(x => x !== `${g2}(90° ${MINUS} ${a}°)`), `Co-function identity: ${g1} θ = ${g2}(90° − θ).`, 4);
+      return mc(`${m(`${g1} ${a}°`)} = ${m(`${g2} ___`)}`, (90 - a) + '°', [a + '°', (180 - a) + '°', (90 + a) + '°'], `${g1} θ = ${g2}(90° − θ): ${b((90 - a) + '°')}.`, 4);
+    }
+    const T = [[`sin(${a}° + 360°)`, `sin ${a}°`], [`cos(${a}° + 360°)`, `cos ${a}°`], [`tan(${a}° + 180°)`, `tan ${a}°`], [`sin(${MINUS}${a}°)`, `${MINUS}sin ${a}°`], [`cos(${MINUS}${a}°)`, `cos ${a}°`], [`tan(${MINUS}${a}°)`, `${MINUS}tan ${a}°`], [`sin(180° ${MINUS} ${a}°)`, `sin ${a}°`], [`cos(180° ${MINUS} ${a}°)`, `${MINUS}cos ${a}°`],
+      [`sin(180° + ${a}°)`, `${MINUS}sin ${a}°`], [`cos(180° + ${a}°)`, `${MINUS}cos ${a}°`], [`tan(180° ${MINUS} ${a}°)`, `${MINUS}tan ${a}°`], [`sin(360° ${MINUS} ${a}°)`, `${MINUS}sin ${a}°`], [`cos(360° ${MINUS} ${a}°)`, `cos ${a}°`], [`sin(${a}° + 720°)`, `sin ${a}°`], [`cos(${a}° ${MINUS} 360°)`, `cos ${a}°`]];
+    const [ex, ans] = pick(T), fnn = ans.replace(MINUS, '').split(' ')[0], pool = [`sin ${a}°`, `${MINUS}sin ${a}°`, `cos ${a}°`, `${MINUS}cos ${a}°`, `tan ${a}°`, `${MINUS}tan ${a}°`], same = pool.filter(x => x.includes(fnn) && x !== ans), other = sample(pool.filter(x => !x.includes(fnn)), 2);
+    return mc(`${m(ex)} = ?`, ans, [...same, ...other].slice(0, 3), `Use symmetry and periodicity of ${fnn}: ${ex} = ${b(ans)}.`, 4);
   }),
   R(/^Find trigonometric ratios using a Pythagorean or reciprocal identity$|^Find trigonometric ratios using multiple identities$|^Trigonometric sum and difference identities$/, (mt, ctx) => () => {
-    const [p, q, r] = pick(TRIPLES); if (/sum and difference/.test(ctx.title)) { const a = pick([30, 45, 60]), c = pick([30, 45, 60]); const v_ = fix(sinD(a + c), 3); return num(`Use ${m('sin(A + B) = sin A cos B + cos A sin B')} to find ${m(`sin ${a + c}°`)} with A = ${a}°, B = ${c}°. (round to 3 decimals)`, v_, `sin ${a + c}° ≈ ${b(v_)}.`); }
+    const [p, q, r] = pick(TRIPLES); if (/sum and difference/.test(ctx.title)) {
+      const A = pick([15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70]), B = pick([10, 15, 20, 25, 30, 35, 40, 45, 50, 60]), g = pick(['sin+', 'sin-', 'cos+', 'cos-', 'tan+', 'tan-']);
+      if (g[0] === 't' && ((g[3] === '+' && A + B >= 85) || (g[3] === '-' && A === B))) return null; if (g[3] === '-' && A <= B) return null;
+      const F_ = { 'sin+': ['sin(A + B) = sin A cos B + cos A sin B', `sin ${A + B}°`, sinD(A + B)], 'sin-': ['sin(A − B) = sin A cos B − cos A sin B', `sin ${A - B}°`, sinD(A - B)], 'cos+': ['cos(A + B) = cos A cos B − sin A sin B', `cos ${A + B}°`, cosD(A + B)], 'cos-': ['cos(A − B) = cos A cos B + sin A sin B', `cos ${A - B}°`, cosD(A - B)], 'tan+': ['tan(A + B) = (tan A + tan B) ÷ (1 − tan A tan B)', `tan ${A + B}°`, tanD(A + B)], 'tan-': ['tan(A − B) = (tan A − tan B) ÷ (1 + tan A tan B)', `tan ${A - B}°`, tanD(A - B)] }[g];
+      const v_ = fix(F_[2], 3); return num(`Use ${m(F_[0])} to find ${m(F_[1].replace('-', MINUS))} with A = ${A}°, B = ${B}°. (round to 3 decimals)`, v_, `${F_[1].replace('-', MINUS)} ≈ ${b(v_)}.`);
+    }
     return mc(`If ${m(`sin θ = ${fs(q, r)}`)} and θ is in quadrant I, what is ${b('cos θ')}?`, fs(p, r), [fs(r, p), fs(q, p), fs(-p, r).replace('-', MINUS)], `cos²θ = 1 − sin²θ, so cos θ = ${b(fs(p, r))}.`, 4);
   }),
 

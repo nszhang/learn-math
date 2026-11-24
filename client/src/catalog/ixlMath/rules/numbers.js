@@ -29,6 +29,7 @@ function hundredChart(blank, hi = 100) {
 }
 
 const countPic = (n, e) => emojiRow(e, n, 10);
+const letterPicsN = (pics, correct) => { const order = shuffle(pics.map((p, i) => [p, i])), L = 'ABCD'[order.findIndex(x => x[1] === correct)]; return { html: `<div style="display:flex;gap:18px;flex-wrap:wrap;align-items:flex-end">${order.map((o, i) => `<div><b>${'ABCD'[i]}</b>${o[0]}</div>`).join('')}</div>`, L, letters: 'ABCD'.slice(0, pics.length).split('') }; };
 
 export const NUMBER_RULES = [
   /* ---------- counting (G1) ---------- */
@@ -37,7 +38,10 @@ export const NUMBER_RULES = [
     return num(`${countPic(n, e)}How many are there?`, n, `Count each one. There are ${b(n)}.`);
   }),
   R(/^Count to fill a ten frame$/, () => () => {
-    const n = ri(1, 9);
+    const n = ri(1, 9), form = ri(0, 3), who = pick(NAMES), [, , e] = thing();
+    if (form === 1) return num(`${tenFrame(n)}How many empty spaces are there on the ten frame?`, 10 - n, `${n} + ${10 - n} = 10, so ${b(10 - n)} empty spaces.`);
+    if (form === 2) return num(`${who} has ${b(n)} ${e}. A box holds ${b(10)}. How many more ${e} fill the box?`, 10 - n, `${n} + ${10 - n} = 10, so ${b(10 - n)} more.`);
+    if (form === 3) return num(`${tenFrame(n)}${m(`${n} + ___ = 10`)}<br>What number goes in the blank?`, 10 - n, `${n} + ${10 - n} = 10, so ${b(10 - n)}.`);
     return num(`${tenFrame(n)}How many more counters fill the ten frame?`, 10 - n, `${n} + ${10 - n} = 10, so ${b(10 - n)} more.`);
   }),
   R(/^Count on ten frames - up to 40$/, () => () => {
@@ -74,6 +78,10 @@ export const NUMBER_RULES = [
   }, { grades: [1] }),
   R(/^Number lines(?: - up to (\d+)|: up to (\d+))$/, mt => () => {
     const top = +(mt[1] || mt[2]);
+    if (top <= 30 && Math.random() < 0.4) {
+      const pool = range(1, top - 1).filter(x => x % 5 !== 0), vals = sample(pool, 4), letters = ['A', 'B', 'C', 'D'], t = ri(0, 3);
+      return mc(`${numberLine({ min: 0, max: top, step: 1, labelEvery: 5, marks: vals.map((v, i) => ({ v, label: letters[i], color: i === t ? C.red : C.blue })) })}Which point shows the number ${b(vals[t])}?`, letters[t], letters.filter((_, i) => i !== t), `Count the ticks from the nearest labelled number to find ${vals[t]}: point ${b(letters[t])}.`);
+    }
     if (top <= 30) { let v; do v = ri(1, top - 1); while (v % 5 === 0); return mc(`${numberLine({ min: 0, max: top, step: 1, labelEvery: 5, marks: [{ v, label: '?' }] })}What number is the point at?`, v, near(v, 5, 2, { min: 0 }).filter(x => x <= top), `Count the ticks from ${Math.floor(v / 5) * 5}: the point is at ${b(v)}.`); }
     if (top === 100 && Math.random() < 0.5) { let v; do v = ri(1, 19) * 5; while (v % 20 === 0); return mc(`${numberLine({ min: 0, max: 100, step: 5, labelEvery: 4, marks: [{ v, label: '?' }] })}What number is the point at?`, v, near(v, 5, 3, { step: 5 }), `Each tick is 5. The point is at ${b(v)}.`); }
     const base = top <= 100 ? 0 : ri(0, 9) * 100, v = base + ri(1, 9) * 10;
@@ -92,8 +100,11 @@ export const NUMBER_RULES = [
   R(/^Ordinal numbers(?: up to (\d+)(?:st|nd|rd|th))?$/, mt => () => {
     const lim = +(mt[1] || 10);
     if (lim <= 10) {
-      const n = ri(1, 10), things = Array.from({ length: 10 }, (_, i) => (i + 1 === n ? '🟥' : '⬜'));
-      return mc(`${big(things.join(''))}Which position is the red square, counting from the left?`, ordinal(n), sample(range(1, 10).map(ordinal), 5, [ordinal(n)]), `It is number ${n} from the left: ${b(ordinal(n))}.`);
+      const L = ri(5, 10), n = ri(1, L), fromRight = Math.random() < 0.3, form = ri(0, 2), ANI = ['🐶', '🐱', '🐰', '🐸', '🐻', '🦊', '🐼', '🐵', '🐯', '🐷'], row = shuffle(ANI).slice(0, L);
+      if (form === 1) { const idx = fromRight ? L - n : n - 1, ans = row[idx]; return mc(`${big(row.join(' '))}Which animal is ${b(ordinal(n))} from the ${fromRight ? 'right' : 'left'}?`, ans, row.filter(x => x !== ans).slice(0, 3), `Count ${n} from the ${fromRight ? 'right' : 'left'}: ${b(ans)}.`); }
+      if (form === 2) { const nm = pick(NAMES); return num(`${nm} is ${b(ordinal(n))} in line. How many people are in front of ${nm}?`, n - 1, `${ordinal(n)} means ${n - 1} people are before ${nm}: ${b(n - 1)}.`); }
+      const [, , e] = thing(), pos = fromRight ? L - n : n - 1, things = Array.from({ length: L }, (_, i) => (i === pos ? '🟥' : '⬜'));
+      return mc(`${big(things.join(''))}Which position is the red square, counting from the ${fromRight ? 'right' : 'left'}?`, ordinal(n), sample(range(1, L).map(ordinal), 5, [ordinal(n)]), `It is number ${n} from the ${fromRight ? 'right' : 'left'}: ${b(ordinal(n))}.`);
     }
     const n = ri(11, lim);
     return num(`What number is ${b(ordinal(n))}? (Write the number, like 21 for twenty-first)`, n, `${ordinal(n)} = ${b(n + ordSuffix(n))}.`);
@@ -118,7 +129,10 @@ export const NUMBER_RULES = [
   }),
   R(/^Even or odd(?:: arithmetic rules)?$/, (mt, ctx) => () => {
     if (/arithmetic/.test(ctx.title)) {
-      const a = pick(['even', 'odd']), c = pick(['even', 'odd']), op = pick(['+', '−', '×']);
+      const a = pick(['even', 'odd']), c = pick(['even', 'odd']), op = pick(['+', '−', '×']), f = ri(0, 3);
+      const mk = k => { let v = ri(10, 99); if ((v % 2 === 0) !== (k === 'even')) v += 1; return v; };
+      if (f === 1) { let x = mk(a), y = mk(c); if (op === '−' && x < y) [x, y] = [y, x]; if (op === '−' && x === y) x += 2; const r = op === '+' ? x + y : op === '−' ? x - y : x * y; return mc(`Without calculating, is ${b(`${x} ${op} ${y}`)} even or odd?`, r % 2 ? 'odd' : 'even', [r % 2 ? 'even' : 'odd'], `${x} is ${a} and ${y} is ${c}, so the result is ${r % 2 ? 'odd' : 'even'}. (Check: ${x} ${op} ${y} = ${fmt(r)}.)`, 2); }
+      if (f === 2) { const T = [['even', '+', 'even', 'even'], ['odd', '+', 'odd', 'even'], ['even', '+', 'odd', 'odd'], ['odd', '−', 'odd', 'even'], ['even', '×', 'odd', 'even'], ['odd', '×', 'odd', 'odd'], ['even', '×', 'even', 'even'], ['odd', '−', 'even', 'odd']], t = pick(T); return mc(`Complete the rule: ${b(`${t[0]} ${t[1]} ${t[2]} = ___`)}`, t[3], [t[3] === 'even' ? 'odd' : 'even'], `Try examples to check: the result is always ${t[3]}.`, 2); }
       let res; if (op === '×') res = a === 'odd' && c === 'odd' ? 'odd' : 'even'; else res = a === c ? 'even' : 'odd';
       return mc(`Is the result ${b(`${a} ${op} ${c}`)} even or odd?`, res, [res === 'even' ? 'odd' : 'even'], `Try examples: ${a === 'even' ? '2' : '3'} ${op} ${c === 'even' ? '4' : '5'} = ${op === '+' ? (a === 'even' ? 2 : 3) + (c === 'even' ? 4 : 5) : op === '−' ? (a === 'even' ? 6 : 7) - (c === 'even' ? 4 : 5) : (a === 'even' ? 2 : 3) * (c === 'even' ? 4 : 5)}, which is ${res}.`, 2);
     }
@@ -140,9 +154,12 @@ export const NUMBER_RULES = [
     return num(`Skip-count by ${s}s: ${m(shown)}`, seq[hole], `Add ${s} each time: ${seq[hole - 1]} + ${s} = ${b(seq[hole])}.`);
   }),
   R(/^(?:Skip-count|Count) by ((?:twos|fives|tens|hundreds)(?:(?:,| and) (?:twos|fives|tens|hundreds))*)$/, mt => () => {
-    const opts = mt[1].split(/, | and /).map(w => ({ twos: 2, fives: 5, tens: 10, hundreds: 100 }[w]));
-    const s = pick(opts), st = ri(0, 5) * s, seq = [0, 1, 2, 3].map(i => st + i * s);
-    return num(`What comes next? ${m(seq.join(', ') + ', ___')}`, st + 4 * s, `The numbers go up by ${s} each time: ${b(st + 4 * s)}.`);
+    const opts = mt[1].split(/, | and /).map(w => ({ twos: 2, fives: 5, tens: 10, hundreds: 100 }[w])), s = pick(opts), f = ri(0, 3), who = pick(NAMES), len = ri(3, 5);
+    if (f === 1) { const hole = ri(1, len - 1), st = ri(0, 8) * s, seq = Array.from({ length: len + 1 }, (_, i) => st + i * s); return num(`Count by ${s}s. What number is missing? ${m(seq.map((v, i) => (i === hole ? '___' : v)).join(', '))}`, seq[hole], `The numbers go up by ${s} each time: ${b(seq[hole])}.`); }
+    if (f === 2) { const st = (ri(4, 12) + len) * s, seq = Array.from({ length: len }, (_, i) => st - i * s); return num(`Count backward by ${s}s. What comes next? ${m(seq.join(', ') + ', ___')}`, st - len * s, `The numbers go down by ${s} each time: ${b(st - len * s)}.`); }
+    if (f === 3) { const st = ri(1, 6) * s, k = ri(2, 4); return num(`${who} counts by ${s}s, starting at ${b(st)}. What number does ${who} say after counting ${b(k)} more numbers?`, st + k * s, `${st} + ${k} × ${s} = ${b(st + k * s)}.`); }
+    const st = ri(0, 9) * s, seq = Array.from({ length: len }, (_, i) => st + i * s);
+    return num(`What comes next? ${m(seq.join(', ') + ', ___')}`, st + len * s, `The numbers go up by ${s} each time: ${b(st + len * s)}.`);
   }),
   R(/^Skip-count by (?:twos|fives|tens), (?:twos|fives|tens|hundreds)|^Skip-count by fives and tens|^Skip-count by twos, fives and tens$/, () => () => {
     const s = pick([2, 5, 10]), st = ri(0, 4) * s, seq = [0, 1, 2, 3].map(i => st + i * s);
@@ -167,12 +184,17 @@ export const NUMBER_RULES = [
 
   /* ---------- place value ---------- */
   R(/^Make teen numbers on ten frames: words$|^Take apart teen numbers on ten frames: words$/, () => () => {
-    const n = ri(11, 19);
+    const n = ri(11, 19), form = ri(0, 2), who = pick(NAMES), [, , e] = thing();
+    if (form === 1) { const opts = uniq([n, n === 11 ? 12 : n - 1, n === 19 ? 18 : n + 1]), { html, L, letters } = letterPicsN(opts.map(k => tenFrame(k)), opts.indexOf(n)); return mc(`Which ten frame shows ${b(words(n))}?${html}`, L, letters.filter(x => x !== L), `Picture ${b(L)} shows ${n}, which is ${words(n)}.`, 3); }
+    if (form === 2) return mc(`${who} has a full box of 10 ${e} and ${b(n - 10)} more ${e}. Choose the number name for how many ${e} ${who} has.`, words(n), near(n, 3, 3, { min: 11 }).map(words), `10 + ${n - 10} = ${n}, which is ${b(words(n))}.`);
     return mc(`${tenFrame(n)}How many is this? Choose the number name.`, words(n), near(n, 3, 3, { min: 11 }).map(words), `One full ten frame and ${n - 10} more is ${b(words(n))}.`);
   }),
   R(/^Make and take apart teen numbers on ten frames: tens and ones$/, () => () => {
-    const n = ri(11, 19), o = n - 10;
+    const n = ri(11, 19), o = n - 10, form = ri(0, 3);
     const say = k => `1 ten and ${k} one${k === 1 ? '' : 's'}`;
+    if (form === 1) return mc(`How many tens and ones make ${b(n)}?`, say(o), [say(o === 9 ? 8 : o + 1), `${o} tens and 1 one`, say(o === 1 ? 2 : o - 1)], `${n} is ${b(say(o))}.`);
+    if (form === 2) return num(`${m(`${n} = 1 ten + ___ ones`)}<br>What number goes in the blank?`, o, `${n} is 1 ten and ${b(o)} ones.`);
+    if (form === 3) return mc(`Which number is ${b(say(o))}?`, String(n), uniq([n + 1 > 19 ? n - 2 : n + 1, n - 1 < 11 ? n + 2 : n - 1, o * 10 + 1]).map(String).filter(x => x !== String(n)), `${say(o)} = 10 + ${o} = ${b(n)}.`);
     return mc(`${tenFrame(n)}How many tens and ones make ${b(n)}?`, say(o), [say(o === 9 ? 8 : o + 1), `${o} tens and 1 one`, say(o === 1 ? 2 : o - 1)], `A full ten frame is 1 ten, plus ${o} more: ${b(say(o))} = ${n}.`);
   }),
   R(/^Build and break apart teen numbers$/, () => () => {
@@ -182,11 +204,18 @@ export const NUMBER_RULES = [
       : num(`Build the number: 1 ten and ${o} ones = ___`, n, `10 + ${o} = ${b(n)}.`);
   }),
   R(/teen numbers on ten frames: addition sentences/, () => () => {
-    const n = ri(11, 19);
+    const n = ri(11, 19), form = ri(0, 3), o = n - 10;
+    if (form === 1) return mc(`Which addition sentence shows ${b(n)} as 10 and some more?`, `10 + ${o} = ${n}`, [`10 + ${o + 1} = ${n + 1}`, `${n} + ${o} = ${2 * n - 10}`, `1 + ${n - 1} = ${n}`], `${n} is 10 and ${o} more: ${b(`10 + ${o} = ${n}`)}.`);
+    if (form === 2) return num(`${tenFrame(n)}${m(`10 + ___ = ${n}`)}<br>What number goes in the blank?`, o, `10 + ${o} = ${n}, so ${b(o)}.`);
+    if (form === 3) return num(`${tenFrame(n)}${m(`10 + ${o} = ___`)}<br>What number goes in the blank?`, n, `10 + ${o} = ${b(n)}.`);
     return mc(`${tenFrame(n)}Which addition sentence matches the ten frames?`, `10 + ${n - 10} = ${n}`, [`10 + ${n - 9} = ${n + 1}`, `${n} + ${n - 10} = ${2 * n - 10}`, `1 + ${n - 1} = ${n}`], `A full ten frame is 10, plus ${n - 10} more: ${b(`10 + ${n - 10} = ${n}`)}.`);
   }),
   R(/^Count (?:objects by )?tens and ones - up to (\d+)$/, mt => () => {
-    const lim = +mt[1], n = lim <= 20 ? ri(11, 20) : ri(20, Math.min(lim, 120)), h = Math.floor(n / 100), t = Math.floor(n / 10) % 10, o = n % 10;
+    const lim = +mt[1], n = lim <= 20 ? ri(11, 20) : ri(11, Math.min(lim, 120)), h = Math.floor(n / 100), t = Math.floor(n / 10) % 10, o = n % 10, form = ri(0, 3);
+    const hx = h ? `${h} hundred${h > 1 ? 's' : ''}, ` : '', tx = `${t} ten${t === 1 ? '' : 's'}`, ox = `${o} one${o === 1 ? '' : 's'}`;
+    if (form === 1) return num(`${hx}${tx} and ${ox}. What number is this?`, n, `${hx}${tx} and ${ox} = ${b(n)}.`);
+    if (form === 2) return mc(`${baseTen(h, t, o)}Which number do the blocks show?`, String(n), uniq([n + 1, n - 1, t * 10 + o + 10, o * 10 + t].filter(x => x > 0).map(String)).filter(x => x !== String(n)).slice(0, 3), `${hx}${tx} and ${ox} = ${b(n)}.`);
+    if (form === 3 && !h) return num(`${baseTen(h, t, o)}How many ${b('ones')} cubes are there in the picture?`, o, `The loose cubes are ones: ${b(o)}.`);
     return num(`${baseTen(h, t, o)}What number do the blocks show?`, n,
       h ? `1 hundred, ${t} tens and ${o} ones = ${b(n)}. (A flat is 10 tens = 100.)` : `${t} tens and ${o} ones = ${b(n)}.`);
   }),
@@ -228,8 +257,11 @@ export const NUMBER_RULES = [
     return mc(`What is the value of the digit ${b(dd)} in ${b(fmt(n))}?`, fmt(val), others.map(fmt), `The ${dd} is in the ${PLACES[d - 1 - i]} place, so its value is ${b(fmt(val))}.`);
   }),
   R(/^Relationship between place values$/, () => () => {
-    const i = ri(1, 5), p = PLACES[i], q = PLACES[i - 1];
-    return num(`How many ${q} make one ${p.replace(/s$/, '')}?`, 10, `Each place is worth 10 times the place to its right: ${b(10)}.`);
+    const i = ri(0, 5), j = ri(i + 1, Math.min(6, i + 3)), p = PLACES[j], q = PLACES[i], rel = 10 ** (j - i), one = s => s.replace(/s$/, ''), form = ri(0, 3);
+    if (form === 1) { const k = ri(2, 9); return num(`How many ${q} are in ${b(k + ' ' + (k === 1 ? one(p) : p))}?`, k * rel, `Each ${one(p)} is ${rel} ${q}, so ${k} × ${rel} = ${b(k * rel)}.`); }
+    if (form === 2) return num(`The digit 3 in the ${p} place is worth how many times as much as the digit 3 in the ${q} place?`, rel, `Each step left multiplies the value by 10: ${b(rel)} times.`);
+    if (form === 3) { const k = ri(2, 9); return num(`${k * rel} ${q} = ___ ${p}`, k, `${rel} ${q} make 1 ${one(p)}, so ${k * rel} ${q} = ${b(k)} ${p}.`); }
+    return num(`How many ${q} make one ${one(p)}?`, rel, `Each place is worth 10 times the place to its right${j - i > 1 ? `, so ${j - i} steps is ${rel}` : ''}: ${b(rel)}.`);
   }),
   R(/^Convert between place values(?:: up to (?:hundreds|ten thousands))?$|^Convert between place values - up to hundreds$/, (mt, ctx) => () => {
     const t = ri(2, 9) * 10, ask = pick(['tens']);

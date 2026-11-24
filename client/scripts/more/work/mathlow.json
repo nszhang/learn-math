@@ -1,0 +1,50 @@
+[
+ {
+  "rule": ".",
+  "file": "alg6.js",
+  "distinct": 9,
+  "skills": [
+   "g0 mthKJ01 Put together numbers using cubes - sums up to 5",
+   "g0 mthKJ02 Build cube trains to add up to 5 - words",
+   "g0 mthKK02 Build cube trains to add up to 5 - addition sentences",
+   "g0 mthKK04 Add two numbers - sums up to 5",
+   "g0 mthKL01 Take apart numbers using cubes - sums up to 5",
+   "g0 mthKL02 Make a number different ways using cubes - sums up to 5",
+   "g0 mthKL03 Make a number using addition - sums up to 5",
+   "g2 mth2GG10 Multiplication facts for 2, 3 and 4",
+   "g2 mth2T05 Addition, subtraction, multiplication and division terms"
+  ]
+ },
+ {
+  "rule": "^Convert between exponential and logarithmic form$",
+  "file": "calc.js",
+  "distinct": 11,
+  "skills": [
+   "g13 mthCD02 Convert between exponential and logarithmic form"
+  ]
+ },
+ {
+  "rule": "^Find terms of (?:an arithmetic |a geometric |a recursive )?sequence$|^Evaluate formulas for sequences$",
+  "file": "func9.js",
+  "distinct": 11,
+  "skills": [
+   "g11 mth11X04 Find terms of a recursive sequence"
+  ]
+ },
+ {
+  "rule": "^Perimeters of similar figures$|^Areas of similar figures$|^Area and perimeter of similar figures$|^Perimeter, area and volume: changes in scale$",
+  "file": "geo9.js",
+  "distinct": 11,
+  "skills": [
+   "g11 mth11R10 Area and perimeter of similar figures"
+  ]
+ },
+ {
+  "rule": "^Three-dimensional shapes - (?:above and below|beside and next to)$",
+  "file": "kinder.js",
+  "distinct": 11,
+  "skills": [
+   "g0 mthKKK05 Three-dimensional shapes - beside and next to"
+  ]
+ }
+]
