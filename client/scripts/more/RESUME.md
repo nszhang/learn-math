@@ -29,7 +29,11 @@ science 384 banks / 8,450). The prompts below are kept for any future banks.
 ### Fix prompt (answer-length giveaways)
 > For every bank that `check.py` flags as "much longer or shorter than all the wrong answers", rewrite the questions so the four options are similar in length, detail and form. Usually this means turning the wrong answers into tempting, specific options that are still clearly wrong: too narrow (a detail, not the main idea), too broad, partly true, contradicting the text, true but irrelevant, or an opinion instead of evidence. Don't change what is tested or which option is right. Edit only the flagged banks, and save after each file.
 
-## Remaining after the banks (IXL parity)
-- About 345 low-variety **math** skills (down from 476; mostly a long tail of one-skill rules; list them with `node work/mathlow.mjs`: skills giving < 12 distinct questions in 60 tries, grouped by rule) (`mth:` banks; generators such as skip-counting or coin values give only about 5 distinct questions). Improve the generators or add banks.
-- About 25 audio/picture banks that were skipped by the export.
-- **Skill plans** (mapping skills to provincial curriculum outcomes). IXL loads the outcome lists by script, so the mapping has to come from the curriculum documents themselves.
+## Remaining (IXL parity), updated 2026-11-23
+- **Math variety: done.** 46 of 4,765 skills are below 12 distinct questions (was 476); what remains is noise near the threshold
+  plus skills whose answer space is tiny (Kindergarten sums to 5, one-of-5 sight words). `node work/mathlist.mjs` / `work/mathlow.mjs` list them;
+  `node work/mathsweep.mjs` draws 400 questions per math skill and reports any malformed one (run it after editing generators).
+- **English/Science/Chinese audit:** `node work/varietyaudit.mjs`. English 35 low (mostly Junior Kindergarten audio/picture skills, inherently small),
+  science 3, Chinese 24 (HSK audio/pinyin skills; not touched).
+- **Skill plans** (mapping skills to provincial curriculum outcomes) — not started. IXL loads its outcome lists by script, so the mapping has
+  to be built from the curriculum documents themselves.
